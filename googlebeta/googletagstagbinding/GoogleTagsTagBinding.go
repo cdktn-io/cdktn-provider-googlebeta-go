@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googletagstagbinding
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googletagstagbinding/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googletagstagbinding/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -401,7 +401,7 @@ func NewGoogleTagsTagBinding(scope constructs.Construct, id *string, config *Goo
 	j := jsiiProxy_GoogleTagsTagBinding{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleTagsTagBinding.GoogleTagsTagBinding",
+		"@cdktn/provider-google-beta.googleTagsTagBinding.GoogleTagsTagBinding",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -414,7 +414,7 @@ func NewGoogleTagsTagBinding_Override(g GoogleTagsTagBinding, scope constructs.C
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleTagsTagBinding.GoogleTagsTagBinding",
+		"@cdktn/provider-google-beta.googleTagsTagBinding.GoogleTagsTagBinding",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -531,7 +531,7 @@ func GoogleTagsTagBinding_GenerateConfigForImport(scope constructs.Construct, im
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleTagsTagBinding.GoogleTagsTagBinding",
+		"@cdktn/provider-google-beta.googleTagsTagBinding.GoogleTagsTagBinding",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -566,7 +566,7 @@ func GoogleTagsTagBinding_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleTagsTagBinding.GoogleTagsTagBinding",
+		"@cdktn/provider-google-beta.googleTagsTagBinding.GoogleTagsTagBinding",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -585,7 +585,7 @@ func GoogleTagsTagBinding_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleTagsTagBinding.GoogleTagsTagBinding",
+		"@cdktn/provider-google-beta.googleTagsTagBinding.GoogleTagsTagBinding",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -604,7 +604,7 @@ func GoogleTagsTagBinding_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleTagsTagBinding.GoogleTagsTagBinding",
+		"@cdktn/provider-google-beta.googleTagsTagBinding.GoogleTagsTagBinding",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -617,7 +617,7 @@ func GoogleTagsTagBinding_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleTagsTagBinding.GoogleTagsTagBinding",
+		"@cdktn/provider-google-beta.googleTagsTagBinding.GoogleTagsTagBinding",
 		"tfResourceType",
 		&returns,
 	)

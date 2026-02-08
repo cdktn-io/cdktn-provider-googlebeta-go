@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlenetappvolume
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlenetappvolume/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlenetappvolume/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -1112,7 +1112,7 @@ func NewGoogleNetappVolume(scope constructs.Construct, id *string, config *Googl
 	j := jsiiProxy_GoogleNetappVolume{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleNetappVolume.GoogleNetappVolume",
+		"@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -1125,7 +1125,7 @@ func NewGoogleNetappVolume_Override(g GoogleNetappVolume, scope constructs.Const
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleNetappVolume.GoogleNetappVolume",
+		"@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -1418,7 +1418,7 @@ func GoogleNetappVolume_GenerateConfigForImport(scope constructs.Construct, impo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleNetappVolume.GoogleNetappVolume",
+		"@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1453,7 +1453,7 @@ func GoogleNetappVolume_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleNetappVolume.GoogleNetappVolume",
+		"@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1472,7 +1472,7 @@ func GoogleNetappVolume_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleNetappVolume.GoogleNetappVolume",
+		"@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1491,7 +1491,7 @@ func GoogleNetappVolume_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleNetappVolume.GoogleNetappVolume",
+		"@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1504,7 +1504,7 @@ func GoogleNetappVolume_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleNetappVolume.GoogleNetappVolume",
+		"@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume",
 		"tfResourceType",
 		&returns,
 	)

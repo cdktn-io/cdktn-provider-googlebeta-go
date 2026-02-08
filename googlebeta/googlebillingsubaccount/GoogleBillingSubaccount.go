@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlebillingsubaccount
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlebillingsubaccount/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlebillingsubaccount/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -423,7 +423,7 @@ func NewGoogleBillingSubaccount(scope constructs.Construct, id *string, config *
 	j := jsiiProxy_GoogleBillingSubaccount{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleBillingSubaccount.GoogleBillingSubaccount",
+		"@cdktn/provider-google-beta.googleBillingSubaccount.GoogleBillingSubaccount",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -436,7 +436,7 @@ func NewGoogleBillingSubaccount_Override(g GoogleBillingSubaccount, scope constr
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleBillingSubaccount.GoogleBillingSubaccount",
+		"@cdktn/provider-google-beta.googleBillingSubaccount.GoogleBillingSubaccount",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -564,7 +564,7 @@ func GoogleBillingSubaccount_GenerateConfigForImport(scope constructs.Construct,
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleBillingSubaccount.GoogleBillingSubaccount",
+		"@cdktn/provider-google-beta.googleBillingSubaccount.GoogleBillingSubaccount",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -599,7 +599,7 @@ func GoogleBillingSubaccount_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleBillingSubaccount.GoogleBillingSubaccount",
+		"@cdktn/provider-google-beta.googleBillingSubaccount.GoogleBillingSubaccount",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -618,7 +618,7 @@ func GoogleBillingSubaccount_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleBillingSubaccount.GoogleBillingSubaccount",
+		"@cdktn/provider-google-beta.googleBillingSubaccount.GoogleBillingSubaccount",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -637,7 +637,7 @@ func GoogleBillingSubaccount_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleBillingSubaccount.GoogleBillingSubaccount",
+		"@cdktn/provider-google-beta.googleBillingSubaccount.GoogleBillingSubaccount",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -650,7 +650,7 @@ func GoogleBillingSubaccount_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleBillingSubaccount.GoogleBillingSubaccount",
+		"@cdktn/provider-google-beta.googleBillingSubaccount.GoogleBillingSubaccount",
 		"tfResourceType",
 		&returns,
 	)

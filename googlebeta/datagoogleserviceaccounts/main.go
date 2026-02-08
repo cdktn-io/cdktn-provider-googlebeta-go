@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagoogleserviceaccounts
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleServiceAccounts.DataGoogleServiceAccounts",
+		"@cdktn/provider-google-beta.dataGoogleServiceAccounts.DataGoogleServiceAccounts",
 		reflect.TypeOf((*DataGoogleServiceAccounts)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accounts", GoGetter: "Accounts"},
@@ -68,11 +68,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleServiceAccounts.DataGoogleServiceAccountsAccounts",
+		"@cdktn/provider-google-beta.dataGoogleServiceAccounts.DataGoogleServiceAccountsAccounts",
 		reflect.TypeOf((*DataGoogleServiceAccountsAccounts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleServiceAccounts.DataGoogleServiceAccountsAccountsList",
+		"@cdktn/provider-google-beta.dataGoogleServiceAccounts.DataGoogleServiceAccountsAccountsList",
 		reflect.TypeOf((*DataGoogleServiceAccountsAccountsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -93,7 +93,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleServiceAccounts.DataGoogleServiceAccountsAccountsOutputReference",
+		"@cdktn/provider-google-beta.dataGoogleServiceAccounts.DataGoogleServiceAccountsAccountsOutputReference",
 		reflect.TypeOf((*DataGoogleServiceAccountsAccountsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountId", GoGetter: "AccountId"},
@@ -132,7 +132,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleServiceAccounts.DataGoogleServiceAccountsConfig",
+		"@cdktn/provider-google-beta.dataGoogleServiceAccounts.DataGoogleServiceAccountsConfig",
 		reflect.TypeOf((*DataGoogleServiceAccountsConfig)(nil)).Elem(),
 	)
 }

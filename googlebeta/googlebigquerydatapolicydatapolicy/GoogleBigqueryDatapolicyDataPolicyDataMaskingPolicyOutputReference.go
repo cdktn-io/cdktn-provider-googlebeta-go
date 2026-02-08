@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlebigquerydatapolicydatapolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlebigquerydatapolicydatapolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlebigquerydatapolicydatapolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -69,12 +69,12 @@ type GoogleBigqueryDatapolicyDataPolicyDataMaskingPolicyOutputReference interfac
 	// Experimental.
 	InterpolationAsList() cdktf.IResolvable
 	// Experimental.
-	InterpolationForAttribute(property *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
 	ResetPredefinedExpression()
 	ResetRoutine()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(_context cdktf.IResolveContext) interface{}
+	Resolve(context cdktf.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -207,7 +207,7 @@ func NewGoogleBigqueryDatapolicyDataPolicyDataMaskingPolicyOutputReference(terra
 	j := jsiiProxy_GoogleBigqueryDatapolicyDataPolicyDataMaskingPolicyOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleBigqueryDatapolicyDataPolicy.GoogleBigqueryDatapolicyDataPolicyDataMaskingPolicyOutputReference",
+		"@cdktn/provider-google-beta.googleBigqueryDatapolicyDataPolicy.GoogleBigqueryDatapolicyDataPolicyDataMaskingPolicyOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewGoogleBigqueryDatapolicyDataPolicyDataMaskingPolicyOutputReference_Overr
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleBigqueryDatapolicyDataPolicy.GoogleBigqueryDatapolicyDataPolicyDataMaskingPolicyOutputReference",
+		"@cdktn/provider-google-beta.googleBigqueryDatapolicyDataPolicy.GoogleBigqueryDatapolicyDataPolicyDataMaskingPolicyOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		g,
 	)
@@ -472,8 +472,8 @@ func (g *jsiiProxy_GoogleBigqueryDatapolicyDataPolicyDataMaskingPolicyOutputRefe
 	return returns
 }
 
-func (g *jsiiProxy_GoogleBigqueryDatapolicyDataPolicyDataMaskingPolicyOutputReference) InterpolationForAttribute(property *string) cdktf.IResolvable {
-	if err := g.validateInterpolationForAttributeParameters(property); err != nil {
+func (g *jsiiProxy_GoogleBigqueryDatapolicyDataPolicyDataMaskingPolicyOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
 	var returns cdktf.IResolvable
@@ -481,7 +481,7 @@ func (g *jsiiProxy_GoogleBigqueryDatapolicyDataPolicyDataMaskingPolicyOutputRefe
 	_jsii_.Invoke(
 		g,
 		"interpolationForAttribute",
-		[]interface{}{property},
+		[]interface{}{terraformAttribute},
 		&returns,
 	)
 
@@ -504,8 +504,8 @@ func (g *jsiiProxy_GoogleBigqueryDatapolicyDataPolicyDataMaskingPolicyOutputRefe
 	)
 }
 
-func (g *jsiiProxy_GoogleBigqueryDatapolicyDataPolicyDataMaskingPolicyOutputReference) Resolve(_context cdktf.IResolveContext) interface{} {
-	if err := g.validateResolveParameters(_context); err != nil {
+func (g *jsiiProxy_GoogleBigqueryDatapolicyDataPolicyDataMaskingPolicyOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}
 	var returns interface{}
@@ -513,7 +513,7 @@ func (g *jsiiProxy_GoogleBigqueryDatapolicyDataPolicyDataMaskingPolicyOutputRefe
 	_jsii_.Invoke(
 		g,
 		"resolve",
-		[]interface{}{_context},
+		[]interface{}{context},
 		&returns,
 	)
 

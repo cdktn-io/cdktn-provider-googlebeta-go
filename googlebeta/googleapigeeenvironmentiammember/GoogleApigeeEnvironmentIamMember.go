@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googleapigeeenvironmentiammember
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googleapigeeenvironmentiammember/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleapigeeenvironmentiammember/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -447,7 +447,7 @@ func NewGoogleApigeeEnvironmentIamMember(scope constructs.Construct, id *string,
 	j := jsiiProxy_GoogleApigeeEnvironmentIamMember{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleApigeeEnvironmentIamMember.GoogleApigeeEnvironmentIamMember",
+		"@cdktn/provider-google-beta.googleApigeeEnvironmentIamMember.GoogleApigeeEnvironmentIamMember",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -460,7 +460,7 @@ func NewGoogleApigeeEnvironmentIamMember_Override(g GoogleApigeeEnvironmentIamMe
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleApigeeEnvironmentIamMember.GoogleApigeeEnvironmentIamMember",
+		"@cdktn/provider-google-beta.googleApigeeEnvironmentIamMember.GoogleApigeeEnvironmentIamMember",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -599,7 +599,7 @@ func GoogleApigeeEnvironmentIamMember_GenerateConfigForImport(scope constructs.C
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleApigeeEnvironmentIamMember.GoogleApigeeEnvironmentIamMember",
+		"@cdktn/provider-google-beta.googleApigeeEnvironmentIamMember.GoogleApigeeEnvironmentIamMember",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -634,7 +634,7 @@ func GoogleApigeeEnvironmentIamMember_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleApigeeEnvironmentIamMember.GoogleApigeeEnvironmentIamMember",
+		"@cdktn/provider-google-beta.googleApigeeEnvironmentIamMember.GoogleApigeeEnvironmentIamMember",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -653,7 +653,7 @@ func GoogleApigeeEnvironmentIamMember_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleApigeeEnvironmentIamMember.GoogleApigeeEnvironmentIamMember",
+		"@cdktn/provider-google-beta.googleApigeeEnvironmentIamMember.GoogleApigeeEnvironmentIamMember",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -672,7 +672,7 @@ func GoogleApigeeEnvironmentIamMember_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleApigeeEnvironmentIamMember.GoogleApigeeEnvironmentIamMember",
+		"@cdktn/provider-google-beta.googleApigeeEnvironmentIamMember.GoogleApigeeEnvironmentIamMember",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -685,7 +685,7 @@ func GoogleApigeeEnvironmentIamMember_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleApigeeEnvironmentIamMember.GoogleApigeeEnvironmentIamMember",
+		"@cdktn/provider-google-beta.googleApigeeEnvironmentIamMember.GoogleApigeeEnvironmentIamMember",
 		"tfResourceType",
 		&returns,
 	)

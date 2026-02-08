@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagooglecomputesubnetworks
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleComputeSubnetworks.DataGoogleComputeSubnetworks",
+		"@cdktn/provider-google-beta.dataGoogleComputeSubnetworks.DataGoogleComputeSubnetworks",
 		reflect.TypeOf((*DataGoogleComputeSubnetworks)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -68,15 +68,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleComputeSubnetworks.DataGoogleComputeSubnetworksConfig",
+		"@cdktn/provider-google-beta.dataGoogleComputeSubnetworks.DataGoogleComputeSubnetworksConfig",
 		reflect.TypeOf((*DataGoogleComputeSubnetworksConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleComputeSubnetworks.DataGoogleComputeSubnetworksSubnetworks",
+		"@cdktn/provider-google-beta.dataGoogleComputeSubnetworks.DataGoogleComputeSubnetworksSubnetworks",
 		reflect.TypeOf((*DataGoogleComputeSubnetworksSubnetworks)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleComputeSubnetworks.DataGoogleComputeSubnetworksSubnetworksList",
+		"@cdktn/provider-google-beta.dataGoogleComputeSubnetworks.DataGoogleComputeSubnetworksSubnetworksList",
 		reflect.TypeOf((*DataGoogleComputeSubnetworksSubnetworksList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -97,7 +97,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleComputeSubnetworks.DataGoogleComputeSubnetworksSubnetworksOutputReference",
+		"@cdktn/provider-google-beta.dataGoogleComputeSubnetworks.DataGoogleComputeSubnetworksSubnetworksOutputReference",
 		reflect.TypeOf((*DataGoogleComputeSubnetworksSubnetworksOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

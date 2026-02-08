@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagooglesqldatabases
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleSqlDatabases.DataGoogleSqlDatabases",
+		"@cdktn/provider-google-beta.dataGoogleSqlDatabases.DataGoogleSqlDatabases",
 		reflect.TypeOf((*DataGoogleSqlDatabases)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -64,15 +64,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleSqlDatabases.DataGoogleSqlDatabasesConfig",
+		"@cdktn/provider-google-beta.dataGoogleSqlDatabases.DataGoogleSqlDatabasesConfig",
 		reflect.TypeOf((*DataGoogleSqlDatabasesConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleSqlDatabases.DataGoogleSqlDatabasesDatabases",
+		"@cdktn/provider-google-beta.dataGoogleSqlDatabases.DataGoogleSqlDatabasesDatabases",
 		reflect.TypeOf((*DataGoogleSqlDatabasesDatabases)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleSqlDatabases.DataGoogleSqlDatabasesDatabasesList",
+		"@cdktn/provider-google-beta.dataGoogleSqlDatabases.DataGoogleSqlDatabasesDatabasesList",
 		reflect.TypeOf((*DataGoogleSqlDatabasesDatabasesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -93,7 +93,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleSqlDatabases.DataGoogleSqlDatabasesDatabasesOutputReference",
+		"@cdktn/provider-google-beta.dataGoogleSqlDatabases.DataGoogleSqlDatabasesDatabasesOutputReference",
 		reflect.TypeOf((*DataGoogleSqlDatabasesDatabasesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "charset", GoGetter: "Charset"},

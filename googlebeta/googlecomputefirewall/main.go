@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlecomputefirewall
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleComputeFirewall.GoogleComputeFirewall",
+		"@cdktn/provider-google-beta.googleComputeFirewall.GoogleComputeFirewall",
 		reflect.TypeOf((*GoogleComputeFirewall)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -128,11 +128,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleComputeFirewall.GoogleComputeFirewallAllow",
+		"@cdktn/provider-google-beta.googleComputeFirewall.GoogleComputeFirewallAllow",
 		reflect.TypeOf((*GoogleComputeFirewallAllow)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleComputeFirewall.GoogleComputeFirewallAllowList",
+		"@cdktn/provider-google-beta.googleComputeFirewall.GoogleComputeFirewallAllowList",
 		reflect.TypeOf((*GoogleComputeFirewallAllowList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -154,7 +154,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleComputeFirewall.GoogleComputeFirewallAllowOutputReference",
+		"@cdktn/provider-google-beta.googleComputeFirewall.GoogleComputeFirewallAllowOutputReference",
 		reflect.TypeOf((*GoogleComputeFirewallAllowOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -191,15 +191,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleComputeFirewall.GoogleComputeFirewallConfig",
+		"@cdktn/provider-google-beta.googleComputeFirewall.GoogleComputeFirewallConfig",
 		reflect.TypeOf((*GoogleComputeFirewallConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleComputeFirewall.GoogleComputeFirewallDeny",
+		"@cdktn/provider-google-beta.googleComputeFirewall.GoogleComputeFirewallDeny",
 		reflect.TypeOf((*GoogleComputeFirewallDeny)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleComputeFirewall.GoogleComputeFirewallDenyList",
+		"@cdktn/provider-google-beta.googleComputeFirewall.GoogleComputeFirewallDenyList",
 		reflect.TypeOf((*GoogleComputeFirewallDenyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -221,7 +221,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleComputeFirewall.GoogleComputeFirewallDenyOutputReference",
+		"@cdktn/provider-google-beta.googleComputeFirewall.GoogleComputeFirewallDenyOutputReference",
 		reflect.TypeOf((*GoogleComputeFirewallDenyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -258,11 +258,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleComputeFirewall.GoogleComputeFirewallLogConfig",
+		"@cdktn/provider-google-beta.googleComputeFirewall.GoogleComputeFirewallLogConfig",
 		reflect.TypeOf((*GoogleComputeFirewallLogConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleComputeFirewall.GoogleComputeFirewallLogConfigOutputReference",
+		"@cdktn/provider-google-beta.googleComputeFirewall.GoogleComputeFirewallLogConfigOutputReference",
 		reflect.TypeOf((*GoogleComputeFirewallLogConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -296,11 +296,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleComputeFirewall.GoogleComputeFirewallParams",
+		"@cdktn/provider-google-beta.googleComputeFirewall.GoogleComputeFirewallParams",
 		reflect.TypeOf((*GoogleComputeFirewallParams)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleComputeFirewall.GoogleComputeFirewallParamsOutputReference",
+		"@cdktn/provider-google-beta.googleComputeFirewall.GoogleComputeFirewallParamsOutputReference",
 		reflect.TypeOf((*GoogleComputeFirewallParamsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -335,11 +335,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleComputeFirewall.GoogleComputeFirewallTimeouts",
+		"@cdktn/provider-google-beta.googleComputeFirewall.GoogleComputeFirewallTimeouts",
 		reflect.TypeOf((*GoogleComputeFirewallTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleComputeFirewall.GoogleComputeFirewallTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleComputeFirewall.GoogleComputeFirewallTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleComputeFirewallTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

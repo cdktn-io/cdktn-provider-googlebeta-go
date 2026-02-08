@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlednsmanagedzone
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlednsmanagedzone/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlednsmanagedzone/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -733,7 +733,7 @@ func NewGoogleDnsManagedZone(scope constructs.Construct, id *string, config *Goo
 	j := jsiiProxy_GoogleDnsManagedZone{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZone",
+		"@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZone",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -746,7 +746,7 @@ func NewGoogleDnsManagedZone_Override(g GoogleDnsManagedZone, scope constructs.C
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZone",
+		"@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZone",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -929,7 +929,7 @@ func GoogleDnsManagedZone_GenerateConfigForImport(scope constructs.Construct, im
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZone",
+		"@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZone",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -964,7 +964,7 @@ func GoogleDnsManagedZone_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZone",
+		"@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZone",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -983,7 +983,7 @@ func GoogleDnsManagedZone_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZone",
+		"@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZone",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1002,7 +1002,7 @@ func GoogleDnsManagedZone_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZone",
+		"@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZone",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1015,7 +1015,7 @@ func GoogleDnsManagedZone_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZone",
+		"@cdktn/provider-google-beta.googleDnsManagedZone.GoogleDnsManagedZone",
 		"tfResourceType",
 		&returns,
 	)

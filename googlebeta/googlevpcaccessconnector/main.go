@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlevpcaccessconnector
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleVpcAccessConnector.GoogleVpcAccessConnector",
+		"@cdktn/provider-google-beta.googleVpcAccessConnector.GoogleVpcAccessConnector",
 		reflect.TypeOf((*GoogleVpcAccessConnector)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -106,15 +106,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleVpcAccessConnector.GoogleVpcAccessConnectorConfig",
+		"@cdktn/provider-google-beta.googleVpcAccessConnector.GoogleVpcAccessConnectorConfig",
 		reflect.TypeOf((*GoogleVpcAccessConnectorConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleVpcAccessConnector.GoogleVpcAccessConnectorSubnet",
+		"@cdktn/provider-google-beta.googleVpcAccessConnector.GoogleVpcAccessConnectorSubnet",
 		reflect.TypeOf((*GoogleVpcAccessConnectorSubnet)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleVpcAccessConnector.GoogleVpcAccessConnectorSubnetOutputReference",
+		"@cdktn/provider-google-beta.googleVpcAccessConnector.GoogleVpcAccessConnectorSubnetOutputReference",
 		reflect.TypeOf((*GoogleVpcAccessConnectorSubnetOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -152,11 +152,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleVpcAccessConnector.GoogleVpcAccessConnectorTimeouts",
+		"@cdktn/provider-google-beta.googleVpcAccessConnector.GoogleVpcAccessConnectorTimeouts",
 		reflect.TypeOf((*GoogleVpcAccessConnectorTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleVpcAccessConnector.GoogleVpcAccessConnectorTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleVpcAccessConnector.GoogleVpcAccessConnectorTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleVpcAccessConnectorTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlefolderiampolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlefolderiampolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlefolderiampolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -377,7 +377,7 @@ func NewGoogleFolderIamPolicy(scope constructs.Construct, id *string, config *Go
 	j := jsiiProxy_GoogleFolderIamPolicy{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleFolderIamPolicy.GoogleFolderIamPolicy",
+		"@cdktn/provider-google-beta.googleFolderIamPolicy.GoogleFolderIamPolicy",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -390,7 +390,7 @@ func NewGoogleFolderIamPolicy_Override(g GoogleFolderIamPolicy, scope constructs
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleFolderIamPolicy.GoogleFolderIamPolicy",
+		"@cdktn/provider-google-beta.googleFolderIamPolicy.GoogleFolderIamPolicy",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -507,7 +507,7 @@ func GoogleFolderIamPolicy_GenerateConfigForImport(scope constructs.Construct, i
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleFolderIamPolicy.GoogleFolderIamPolicy",
+		"@cdktn/provider-google-beta.googleFolderIamPolicy.GoogleFolderIamPolicy",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -542,7 +542,7 @@ func GoogleFolderIamPolicy_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleFolderIamPolicy.GoogleFolderIamPolicy",
+		"@cdktn/provider-google-beta.googleFolderIamPolicy.GoogleFolderIamPolicy",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -561,7 +561,7 @@ func GoogleFolderIamPolicy_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleFolderIamPolicy.GoogleFolderIamPolicy",
+		"@cdktn/provider-google-beta.googleFolderIamPolicy.GoogleFolderIamPolicy",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -580,7 +580,7 @@ func GoogleFolderIamPolicy_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleFolderIamPolicy.GoogleFolderIamPolicy",
+		"@cdktn/provider-google-beta.googleFolderIamPolicy.GoogleFolderIamPolicy",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -593,7 +593,7 @@ func GoogleFolderIamPolicy_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleFolderIamPolicy.GoogleFolderIamPolicy",
+		"@cdktn/provider-google-beta.googleFolderIamPolicy.GoogleFolderIamPolicy",
 		"tfResourceType",
 		&returns,
 	)

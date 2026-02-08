@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlecloudidentitygroupmembership
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlecloudidentitygroupmembership/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecloudidentitygroupmembership/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -506,7 +506,7 @@ func NewGoogleCloudIdentityGroupMembership(scope constructs.Construct, id *strin
 	j := jsiiProxy_GoogleCloudIdentityGroupMembership{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleCloudIdentityGroupMembership.GoogleCloudIdentityGroupMembership",
+		"@cdktn/provider-google-beta.googleCloudIdentityGroupMembership.GoogleCloudIdentityGroupMembership",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -519,7 +519,7 @@ func NewGoogleCloudIdentityGroupMembership_Override(g GoogleCloudIdentityGroupMe
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleCloudIdentityGroupMembership.GoogleCloudIdentityGroupMembership",
+		"@cdktn/provider-google-beta.googleCloudIdentityGroupMembership.GoogleCloudIdentityGroupMembership",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -636,7 +636,7 @@ func GoogleCloudIdentityGroupMembership_GenerateConfigForImport(scope constructs
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleCloudIdentityGroupMembership.GoogleCloudIdentityGroupMembership",
+		"@cdktn/provider-google-beta.googleCloudIdentityGroupMembership.GoogleCloudIdentityGroupMembership",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -671,7 +671,7 @@ func GoogleCloudIdentityGroupMembership_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleCloudIdentityGroupMembership.GoogleCloudIdentityGroupMembership",
+		"@cdktn/provider-google-beta.googleCloudIdentityGroupMembership.GoogleCloudIdentityGroupMembership",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -690,7 +690,7 @@ func GoogleCloudIdentityGroupMembership_IsTerraformElement(x interface{}) *bool 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleCloudIdentityGroupMembership.GoogleCloudIdentityGroupMembership",
+		"@cdktn/provider-google-beta.googleCloudIdentityGroupMembership.GoogleCloudIdentityGroupMembership",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -709,7 +709,7 @@ func GoogleCloudIdentityGroupMembership_IsTerraformResource(x interface{}) *bool
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleCloudIdentityGroupMembership.GoogleCloudIdentityGroupMembership",
+		"@cdktn/provider-google-beta.googleCloudIdentityGroupMembership.GoogleCloudIdentityGroupMembership",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -722,7 +722,7 @@ func GoogleCloudIdentityGroupMembership_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleCloudIdentityGroupMembership.GoogleCloudIdentityGroupMembership",
+		"@cdktn/provider-google-beta.googleCloudIdentityGroupMembership.GoogleCloudIdentityGroupMembership",
 		"tfResourceType",
 		&returns,
 	)

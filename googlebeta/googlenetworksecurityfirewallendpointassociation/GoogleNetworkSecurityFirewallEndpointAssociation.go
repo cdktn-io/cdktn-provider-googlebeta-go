@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlenetworksecurityfirewallendpointassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlenetworksecurityfirewallendpointassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlenetworksecurityfirewallendpointassociation/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -609,7 +609,7 @@ func NewGoogleNetworkSecurityFirewallEndpointAssociation(scope constructs.Constr
 	j := jsiiProxy_GoogleNetworkSecurityFirewallEndpointAssociation{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleNetworkSecurityFirewallEndpointAssociation.GoogleNetworkSecurityFirewallEndpointAssociation",
+		"@cdktn/provider-google-beta.googleNetworkSecurityFirewallEndpointAssociation.GoogleNetworkSecurityFirewallEndpointAssociation",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -622,7 +622,7 @@ func NewGoogleNetworkSecurityFirewallEndpointAssociation_Override(g GoogleNetwor
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleNetworkSecurityFirewallEndpointAssociation.GoogleNetworkSecurityFirewallEndpointAssociation",
+		"@cdktn/provider-google-beta.googleNetworkSecurityFirewallEndpointAssociation.GoogleNetworkSecurityFirewallEndpointAssociation",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -805,7 +805,7 @@ func GoogleNetworkSecurityFirewallEndpointAssociation_GenerateConfigForImport(sc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleNetworkSecurityFirewallEndpointAssociation.GoogleNetworkSecurityFirewallEndpointAssociation",
+		"@cdktn/provider-google-beta.googleNetworkSecurityFirewallEndpointAssociation.GoogleNetworkSecurityFirewallEndpointAssociation",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -840,7 +840,7 @@ func GoogleNetworkSecurityFirewallEndpointAssociation_IsConstruct(x interface{})
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleNetworkSecurityFirewallEndpointAssociation.GoogleNetworkSecurityFirewallEndpointAssociation",
+		"@cdktn/provider-google-beta.googleNetworkSecurityFirewallEndpointAssociation.GoogleNetworkSecurityFirewallEndpointAssociation",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -859,7 +859,7 @@ func GoogleNetworkSecurityFirewallEndpointAssociation_IsTerraformElement(x inter
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleNetworkSecurityFirewallEndpointAssociation.GoogleNetworkSecurityFirewallEndpointAssociation",
+		"@cdktn/provider-google-beta.googleNetworkSecurityFirewallEndpointAssociation.GoogleNetworkSecurityFirewallEndpointAssociation",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -878,7 +878,7 @@ func GoogleNetworkSecurityFirewallEndpointAssociation_IsTerraformResource(x inte
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleNetworkSecurityFirewallEndpointAssociation.GoogleNetworkSecurityFirewallEndpointAssociation",
+		"@cdktn/provider-google-beta.googleNetworkSecurityFirewallEndpointAssociation.GoogleNetworkSecurityFirewallEndpointAssociation",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -891,7 +891,7 @@ func GoogleNetworkSecurityFirewallEndpointAssociation_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleNetworkSecurityFirewallEndpointAssociation.GoogleNetworkSecurityFirewallEndpointAssociation",
+		"@cdktn/provider-google-beta.googleNetworkSecurityFirewallEndpointAssociation.GoogleNetworkSecurityFirewallEndpointAssociation",
 		"tfResourceType",
 		&returns,
 	)

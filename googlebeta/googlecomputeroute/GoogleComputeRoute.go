@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlecomputeroute
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlecomputeroute/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecomputeroute/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -809,7 +809,7 @@ func NewGoogleComputeRoute(scope constructs.Construct, id *string, config *Googl
 	j := jsiiProxy_GoogleComputeRoute{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleComputeRoute.GoogleComputeRoute",
+		"@cdktn/provider-google-beta.googleComputeRoute.GoogleComputeRoute",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -822,7 +822,7 @@ func NewGoogleComputeRoute_Override(g GoogleComputeRoute, scope constructs.Const
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleComputeRoute.GoogleComputeRoute",
+		"@cdktn/provider-google-beta.googleComputeRoute.GoogleComputeRoute",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -1060,7 +1060,7 @@ func GoogleComputeRoute_GenerateConfigForImport(scope constructs.Construct, impo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleComputeRoute.GoogleComputeRoute",
+		"@cdktn/provider-google-beta.googleComputeRoute.GoogleComputeRoute",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1095,7 +1095,7 @@ func GoogleComputeRoute_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleComputeRoute.GoogleComputeRoute",
+		"@cdktn/provider-google-beta.googleComputeRoute.GoogleComputeRoute",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1114,7 +1114,7 @@ func GoogleComputeRoute_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleComputeRoute.GoogleComputeRoute",
+		"@cdktn/provider-google-beta.googleComputeRoute.GoogleComputeRoute",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1133,7 +1133,7 @@ func GoogleComputeRoute_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleComputeRoute.GoogleComputeRoute",
+		"@cdktn/provider-google-beta.googleComputeRoute.GoogleComputeRoute",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1146,7 +1146,7 @@ func GoogleComputeRoute_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleComputeRoute.GoogleComputeRoute",
+		"@cdktn/provider-google-beta.googleComputeRoute.GoogleComputeRoute",
 		"tfResourceType",
 		&returns,
 	)

@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googleapikeyskey
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googleapikeyskey/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleapikeyskey/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -485,7 +485,7 @@ func NewGoogleApikeysKey(scope constructs.Construct, id *string, config *GoogleA
 	j := jsiiProxy_GoogleApikeysKey{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleApikeysKey.GoogleApikeysKey",
+		"@cdktn/provider-google-beta.googleApikeysKey.GoogleApikeysKey",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -498,7 +498,7 @@ func NewGoogleApikeysKey_Override(g GoogleApikeysKey, scope constructs.Construct
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleApikeysKey.GoogleApikeysKey",
+		"@cdktn/provider-google-beta.googleApikeysKey.GoogleApikeysKey",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -637,7 +637,7 @@ func GoogleApikeysKey_GenerateConfigForImport(scope constructs.Construct, import
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleApikeysKey.GoogleApikeysKey",
+		"@cdktn/provider-google-beta.googleApikeysKey.GoogleApikeysKey",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -672,7 +672,7 @@ func GoogleApikeysKey_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleApikeysKey.GoogleApikeysKey",
+		"@cdktn/provider-google-beta.googleApikeysKey.GoogleApikeysKey",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -691,7 +691,7 @@ func GoogleApikeysKey_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleApikeysKey.GoogleApikeysKey",
+		"@cdktn/provider-google-beta.googleApikeysKey.GoogleApikeysKey",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -710,7 +710,7 @@ func GoogleApikeysKey_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleApikeysKey.GoogleApikeysKey",
+		"@cdktn/provider-google-beta.googleApikeysKey.GoogleApikeysKey",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -723,7 +723,7 @@ func GoogleApikeysKey_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleApikeysKey.GoogleApikeysKey",
+		"@cdktn/provider-google-beta.googleApikeysKey.GoogleApikeysKey",
 		"tfResourceType",
 		&returns,
 	)

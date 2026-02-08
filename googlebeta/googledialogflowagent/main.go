@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googledialogflowagent
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleDialogflowAgent.GoogleDialogflowAgent",
+		"@cdktn/provider-google-beta.googleDialogflowAgent.GoogleDialogflowAgent",
 		reflect.TypeOf((*GoogleDialogflowAgent)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -104,15 +104,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleDialogflowAgent.GoogleDialogflowAgentConfig",
+		"@cdktn/provider-google-beta.googleDialogflowAgent.GoogleDialogflowAgentConfig",
 		reflect.TypeOf((*GoogleDialogflowAgentConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleDialogflowAgent.GoogleDialogflowAgentTimeouts",
+		"@cdktn/provider-google-beta.googleDialogflowAgent.GoogleDialogflowAgentTimeouts",
 		reflect.TypeOf((*GoogleDialogflowAgentTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleDialogflowAgent.GoogleDialogflowAgentTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleDialogflowAgent.GoogleDialogflowAgentTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleDialogflowAgentTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

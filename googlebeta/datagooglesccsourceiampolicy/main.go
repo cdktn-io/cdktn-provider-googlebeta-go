@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagooglesccsourceiampolicy
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleSccSourceIamPolicy.DataGoogleSccSourceIamPolicy",
+		"@cdktn/provider-google-beta.dataGoogleSccSourceIamPolicy.DataGoogleSccSourceIamPolicy",
 		reflect.TypeOf((*DataGoogleSccSourceIamPolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -64,7 +64,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleSccSourceIamPolicy.DataGoogleSccSourceIamPolicyConfig",
+		"@cdktn/provider-google-beta.dataGoogleSccSourceIamPolicy.DataGoogleSccSourceIamPolicyConfig",
 		reflect.TypeOf((*DataGoogleSccSourceIamPolicyConfig)(nil)).Elem(),
 	)
 }

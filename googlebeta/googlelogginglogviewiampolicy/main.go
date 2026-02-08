@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlelogginglogviewiampolicy
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleLoggingLogViewIamPolicy.GoogleLoggingLogViewIamPolicy",
+		"@cdktn/provider-google-beta.googleLoggingLogViewIamPolicy.GoogleLoggingLogViewIamPolicy",
 		reflect.TypeOf((*GoogleLoggingLogViewIamPolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -78,7 +78,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleLoggingLogViewIamPolicy.GoogleLoggingLogViewIamPolicyConfig",
+		"@cdktn/provider-google-beta.googleLoggingLogViewIamPolicy.GoogleLoggingLogViewIamPolicyConfig",
 		reflect.TypeOf((*GoogleLoggingLogViewIamPolicyConfig)(nil)).Elem(),
 	)
 }

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlealloydbuser
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleAlloydbUser.GoogleAlloydbUser",
+		"@cdktn/provider-google-beta.googleAlloydbUser.GoogleAlloydbUser",
 		reflect.TypeOf((*GoogleAlloydbUser)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -83,15 +83,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleAlloydbUser.GoogleAlloydbUserConfig",
+		"@cdktn/provider-google-beta.googleAlloydbUser.GoogleAlloydbUserConfig",
 		reflect.TypeOf((*GoogleAlloydbUserConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleAlloydbUser.GoogleAlloydbUserTimeouts",
+		"@cdktn/provider-google-beta.googleAlloydbUser.GoogleAlloydbUserTimeouts",
 		reflect.TypeOf((*GoogleAlloydbUserTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleAlloydbUser.GoogleAlloydbUserTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleAlloydbUser.GoogleAlloydbUserTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleAlloydbUserTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

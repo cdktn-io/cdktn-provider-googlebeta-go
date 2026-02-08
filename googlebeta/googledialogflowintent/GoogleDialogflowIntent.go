@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googledialogflowintent
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googledialogflowintent/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googledialogflowintent/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -664,7 +664,7 @@ func NewGoogleDialogflowIntent(scope constructs.Construct, id *string, config *G
 	j := jsiiProxy_GoogleDialogflowIntent{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleDialogflowIntent.GoogleDialogflowIntent",
+		"@cdktn/provider-google-beta.googleDialogflowIntent.GoogleDialogflowIntent",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -677,7 +677,7 @@ func NewGoogleDialogflowIntent_Override(g GoogleDialogflowIntent, scope construc
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleDialogflowIntent.GoogleDialogflowIntent",
+		"@cdktn/provider-google-beta.googleDialogflowIntent.GoogleDialogflowIntent",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -904,7 +904,7 @@ func GoogleDialogflowIntent_GenerateConfigForImport(scope constructs.Construct, 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleDialogflowIntent.GoogleDialogflowIntent",
+		"@cdktn/provider-google-beta.googleDialogflowIntent.GoogleDialogflowIntent",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -939,7 +939,7 @@ func GoogleDialogflowIntent_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleDialogflowIntent.GoogleDialogflowIntent",
+		"@cdktn/provider-google-beta.googleDialogflowIntent.GoogleDialogflowIntent",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -958,7 +958,7 @@ func GoogleDialogflowIntent_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleDialogflowIntent.GoogleDialogflowIntent",
+		"@cdktn/provider-google-beta.googleDialogflowIntent.GoogleDialogflowIntent",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -977,7 +977,7 @@ func GoogleDialogflowIntent_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleDialogflowIntent.GoogleDialogflowIntent",
+		"@cdktn/provider-google-beta.googleDialogflowIntent.GoogleDialogflowIntent",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -990,7 +990,7 @@ func GoogleDialogflowIntent_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleDialogflowIntent.GoogleDialogflowIntent",
+		"@cdktn/provider-google-beta.googleDialogflowIntent.GoogleDialogflowIntent",
 		"tfResourceType",
 		&returns,
 	)

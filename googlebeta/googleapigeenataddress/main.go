@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googleapigeenataddress
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleApigeeNatAddress.GoogleApigeeNatAddress",
+		"@cdktn/provider-google-beta.googleApigeeNatAddress.GoogleApigeeNatAddress",
 		reflect.TypeOf((*GoogleApigeeNatAddress)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "activate", GoGetter: "Activate"},
@@ -79,15 +79,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleApigeeNatAddress.GoogleApigeeNatAddressConfig",
+		"@cdktn/provider-google-beta.googleApigeeNatAddress.GoogleApigeeNatAddressConfig",
 		reflect.TypeOf((*GoogleApigeeNatAddressConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleApigeeNatAddress.GoogleApigeeNatAddressTimeouts",
+		"@cdktn/provider-google-beta.googleApigeeNatAddress.GoogleApigeeNatAddressTimeouts",
 		reflect.TypeOf((*GoogleApigeeNatAddressTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleApigeeNatAddress.GoogleApigeeNatAddressTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleApigeeNatAddress.GoogleApigeeNatAddressTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleApigeeNatAddressTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

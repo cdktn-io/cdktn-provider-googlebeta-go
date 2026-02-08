@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagoogleclientconfig
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleClientConfig.DataGoogleClientConfig",
+		"@cdktn/provider-google-beta.dataGoogleClientConfig.DataGoogleClientConfig",
 		reflect.TypeOf((*DataGoogleClientConfig)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessToken", GoGetter: "AccessToken"},
@@ -61,7 +61,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleClientConfig.DataGoogleClientConfigConfig",
+		"@cdktn/provider-google-beta.dataGoogleClientConfig.DataGoogleClientConfigConfig",
 		reflect.TypeOf((*DataGoogleClientConfigConfig)(nil)).Elem(),
 	)
 }

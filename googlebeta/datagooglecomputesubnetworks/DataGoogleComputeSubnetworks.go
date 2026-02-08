@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagooglecomputesubnetworks
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/datagooglecomputesubnetworks/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagooglecomputesubnetworks/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -358,7 +358,7 @@ func NewDataGoogleComputeSubnetworks(scope constructs.Construct, id *string, con
 	j := jsiiProxy_DataGoogleComputeSubnetworks{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.dataGoogleComputeSubnetworks.DataGoogleComputeSubnetworks",
+		"@cdktn/provider-google-beta.dataGoogleComputeSubnetworks.DataGoogleComputeSubnetworks",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -371,7 +371,7 @@ func NewDataGoogleComputeSubnetworks_Override(d DataGoogleComputeSubnetworks, sc
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.dataGoogleComputeSubnetworks.DataGoogleComputeSubnetworks",
+		"@cdktn/provider-google-beta.dataGoogleComputeSubnetworks.DataGoogleComputeSubnetworks",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -477,7 +477,7 @@ func DataGoogleComputeSubnetworks_GenerateConfigForImport(scope constructs.Const
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleComputeSubnetworks.DataGoogleComputeSubnetworks",
+		"@cdktn/provider-google-beta.dataGoogleComputeSubnetworks.DataGoogleComputeSubnetworks",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -512,7 +512,7 @@ func DataGoogleComputeSubnetworks_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleComputeSubnetworks.DataGoogleComputeSubnetworks",
+		"@cdktn/provider-google-beta.dataGoogleComputeSubnetworks.DataGoogleComputeSubnetworks",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -531,7 +531,7 @@ func DataGoogleComputeSubnetworks_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleComputeSubnetworks.DataGoogleComputeSubnetworks",
+		"@cdktn/provider-google-beta.dataGoogleComputeSubnetworks.DataGoogleComputeSubnetworks",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -550,7 +550,7 @@ func DataGoogleComputeSubnetworks_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleComputeSubnetworks.DataGoogleComputeSubnetworks",
+		"@cdktn/provider-google-beta.dataGoogleComputeSubnetworks.DataGoogleComputeSubnetworks",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -563,7 +563,7 @@ func DataGoogleComputeSubnetworks_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.dataGoogleComputeSubnetworks.DataGoogleComputeSubnetworks",
+		"@cdktn/provider-google-beta.dataGoogleComputeSubnetworks.DataGoogleComputeSubnetworks",
 		"tfResourceType",
 		&returns,
 	)

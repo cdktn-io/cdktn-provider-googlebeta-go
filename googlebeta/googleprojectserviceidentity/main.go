@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googleprojectserviceidentity
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleProjectServiceIdentity.GoogleProjectServiceIdentity",
+		"@cdktn/provider-google-beta.googleProjectServiceIdentity.GoogleProjectServiceIdentity",
 		reflect.TypeOf((*GoogleProjectServiceIdentity)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -77,15 +77,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleProjectServiceIdentity.GoogleProjectServiceIdentityConfig",
+		"@cdktn/provider-google-beta.googleProjectServiceIdentity.GoogleProjectServiceIdentityConfig",
 		reflect.TypeOf((*GoogleProjectServiceIdentityConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleProjectServiceIdentity.GoogleProjectServiceIdentityTimeouts",
+		"@cdktn/provider-google-beta.googleProjectServiceIdentity.GoogleProjectServiceIdentityTimeouts",
 		reflect.TypeOf((*GoogleProjectServiceIdentityTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleProjectServiceIdentity.GoogleProjectServiceIdentityTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleProjectServiceIdentity.GoogleProjectServiceIdentityTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleProjectServiceIdentityTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

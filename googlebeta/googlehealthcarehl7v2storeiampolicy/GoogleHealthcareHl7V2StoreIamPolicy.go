@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlehealthcarehl7v2storeiampolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlehealthcarehl7v2storeiampolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlehealthcarehl7v2storeiampolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -377,7 +377,7 @@ func NewGoogleHealthcareHl7V2StoreIamPolicy(scope constructs.Construct, id *stri
 	j := jsiiProxy_GoogleHealthcareHl7V2StoreIamPolicy{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleHealthcareHl7V2StoreIamPolicy.GoogleHealthcareHl7V2StoreIamPolicy",
+		"@cdktn/provider-google-beta.googleHealthcareHl7V2StoreIamPolicy.GoogleHealthcareHl7V2StoreIamPolicy",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -390,7 +390,7 @@ func NewGoogleHealthcareHl7V2StoreIamPolicy_Override(g GoogleHealthcareHl7V2Stor
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleHealthcareHl7V2StoreIamPolicy.GoogleHealthcareHl7V2StoreIamPolicy",
+		"@cdktn/provider-google-beta.googleHealthcareHl7V2StoreIamPolicy.GoogleHealthcareHl7V2StoreIamPolicy",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -507,7 +507,7 @@ func GoogleHealthcareHl7V2StoreIamPolicy_GenerateConfigForImport(scope construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleHealthcareHl7V2StoreIamPolicy.GoogleHealthcareHl7V2StoreIamPolicy",
+		"@cdktn/provider-google-beta.googleHealthcareHl7V2StoreIamPolicy.GoogleHealthcareHl7V2StoreIamPolicy",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -542,7 +542,7 @@ func GoogleHealthcareHl7V2StoreIamPolicy_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleHealthcareHl7V2StoreIamPolicy.GoogleHealthcareHl7V2StoreIamPolicy",
+		"@cdktn/provider-google-beta.googleHealthcareHl7V2StoreIamPolicy.GoogleHealthcareHl7V2StoreIamPolicy",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -561,7 +561,7 @@ func GoogleHealthcareHl7V2StoreIamPolicy_IsTerraformElement(x interface{}) *bool
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleHealthcareHl7V2StoreIamPolicy.GoogleHealthcareHl7V2StoreIamPolicy",
+		"@cdktn/provider-google-beta.googleHealthcareHl7V2StoreIamPolicy.GoogleHealthcareHl7V2StoreIamPolicy",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -580,7 +580,7 @@ func GoogleHealthcareHl7V2StoreIamPolicy_IsTerraformResource(x interface{}) *boo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleHealthcareHl7V2StoreIamPolicy.GoogleHealthcareHl7V2StoreIamPolicy",
+		"@cdktn/provider-google-beta.googleHealthcareHl7V2StoreIamPolicy.GoogleHealthcareHl7V2StoreIamPolicy",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -593,7 +593,7 @@ func GoogleHealthcareHl7V2StoreIamPolicy_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleHealthcareHl7V2StoreIamPolicy.GoogleHealthcareHl7V2StoreIamPolicy",
+		"@cdktn/provider-google-beta.googleHealthcareHl7V2StoreIamPolicy.GoogleHealthcareHl7V2StoreIamPolicy",
 		"tfResourceType",
 		&returns,
 	)

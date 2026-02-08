@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googleiapwebiammember
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googleiapwebiammember/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleiapwebiammember/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -72,11 +72,11 @@ type GoogleIapWebIamMemberConditionOutputReference interface {
 	// Experimental.
 	InterpolationAsList() cdktf.IResolvable
 	// Experimental.
-	InterpolationForAttribute(property *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
 	ResetDescription()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(_context cdktf.IResolveContext) interface{}
+	Resolve(context cdktf.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -229,7 +229,7 @@ func NewGoogleIapWebIamMemberConditionOutputReference(terraformResource cdktf.II
 	j := jsiiProxy_GoogleIapWebIamMemberConditionOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleIapWebIamMember.GoogleIapWebIamMemberConditionOutputReference",
+		"@cdktn/provider-google-beta.googleIapWebIamMember.GoogleIapWebIamMemberConditionOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -241,7 +241,7 @@ func NewGoogleIapWebIamMemberConditionOutputReference_Override(g GoogleIapWebIam
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleIapWebIamMember.GoogleIapWebIamMemberConditionOutputReference",
+		"@cdktn/provider-google-beta.googleIapWebIamMember.GoogleIapWebIamMemberConditionOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		g,
 	)
@@ -505,8 +505,8 @@ func (g *jsiiProxy_GoogleIapWebIamMemberConditionOutputReference) InterpolationA
 	return returns
 }
 
-func (g *jsiiProxy_GoogleIapWebIamMemberConditionOutputReference) InterpolationForAttribute(property *string) cdktf.IResolvable {
-	if err := g.validateInterpolationForAttributeParameters(property); err != nil {
+func (g *jsiiProxy_GoogleIapWebIamMemberConditionOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
 	var returns cdktf.IResolvable
@@ -514,7 +514,7 @@ func (g *jsiiProxy_GoogleIapWebIamMemberConditionOutputReference) InterpolationF
 	_jsii_.Invoke(
 		g,
 		"interpolationForAttribute",
-		[]interface{}{property},
+		[]interface{}{terraformAttribute},
 		&returns,
 	)
 
@@ -529,8 +529,8 @@ func (g *jsiiProxy_GoogleIapWebIamMemberConditionOutputReference) ResetDescripti
 	)
 }
 
-func (g *jsiiProxy_GoogleIapWebIamMemberConditionOutputReference) Resolve(_context cdktf.IResolveContext) interface{} {
-	if err := g.validateResolveParameters(_context); err != nil {
+func (g *jsiiProxy_GoogleIapWebIamMemberConditionOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}
 	var returns interface{}
@@ -538,7 +538,7 @@ func (g *jsiiProxy_GoogleIapWebIamMemberConditionOutputReference) Resolve(_conte
 	_jsii_.Invoke(
 		g,
 		"resolve",
-		[]interface{}{_context},
+		[]interface{}{context},
 		&returns,
 	)
 

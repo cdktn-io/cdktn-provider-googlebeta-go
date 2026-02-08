@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlefolderserviceidentity
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlefolderserviceidentity/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlefolderserviceidentity/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -412,7 +412,7 @@ func NewGoogleFolderServiceIdentity(scope constructs.Construct, id *string, conf
 	j := jsiiProxy_GoogleFolderServiceIdentity{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleFolderServiceIdentity.GoogleFolderServiceIdentity",
+		"@cdktn/provider-google-beta.googleFolderServiceIdentity.GoogleFolderServiceIdentity",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -425,7 +425,7 @@ func NewGoogleFolderServiceIdentity_Override(g GoogleFolderServiceIdentity, scop
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleFolderServiceIdentity.GoogleFolderServiceIdentity",
+		"@cdktn/provider-google-beta.googleFolderServiceIdentity.GoogleFolderServiceIdentity",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -542,7 +542,7 @@ func GoogleFolderServiceIdentity_GenerateConfigForImport(scope constructs.Constr
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleFolderServiceIdentity.GoogleFolderServiceIdentity",
+		"@cdktn/provider-google-beta.googleFolderServiceIdentity.GoogleFolderServiceIdentity",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -577,7 +577,7 @@ func GoogleFolderServiceIdentity_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleFolderServiceIdentity.GoogleFolderServiceIdentity",
+		"@cdktn/provider-google-beta.googleFolderServiceIdentity.GoogleFolderServiceIdentity",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -596,7 +596,7 @@ func GoogleFolderServiceIdentity_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleFolderServiceIdentity.GoogleFolderServiceIdentity",
+		"@cdktn/provider-google-beta.googleFolderServiceIdentity.GoogleFolderServiceIdentity",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -615,7 +615,7 @@ func GoogleFolderServiceIdentity_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleFolderServiceIdentity.GoogleFolderServiceIdentity",
+		"@cdktn/provider-google-beta.googleFolderServiceIdentity.GoogleFolderServiceIdentity",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -628,7 +628,7 @@ func GoogleFolderServiceIdentity_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleFolderServiceIdentity.GoogleFolderServiceIdentity",
+		"@cdktn/provider-google-beta.googleFolderServiceIdentity.GoogleFolderServiceIdentity",
 		"tfResourceType",
 		&returns,
 	)

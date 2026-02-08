@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlefirebasehostingrelease
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleFirebaseHostingRelease.GoogleFirebaseHostingRelease",
+		"@cdktn/provider-google-beta.googleFirebaseHostingRelease.GoogleFirebaseHostingRelease",
 		reflect.TypeOf((*GoogleFirebaseHostingRelease)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -86,15 +86,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleFirebaseHostingRelease.GoogleFirebaseHostingReleaseConfig",
+		"@cdktn/provider-google-beta.googleFirebaseHostingRelease.GoogleFirebaseHostingReleaseConfig",
 		reflect.TypeOf((*GoogleFirebaseHostingReleaseConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleFirebaseHostingRelease.GoogleFirebaseHostingReleaseTimeouts",
+		"@cdktn/provider-google-beta.googleFirebaseHostingRelease.GoogleFirebaseHostingReleaseTimeouts",
 		reflect.TypeOf((*GoogleFirebaseHostingReleaseTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleFirebaseHostingRelease.GoogleFirebaseHostingReleaseTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleFirebaseHostingRelease.GoogleFirebaseHostingReleaseTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleFirebaseHostingReleaseTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

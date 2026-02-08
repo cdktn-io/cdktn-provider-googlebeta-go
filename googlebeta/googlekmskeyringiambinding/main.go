@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlekmskeyringiambinding
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleKmsKeyRingIamBinding.GoogleKmsKeyRingIamBinding",
+		"@cdktn/provider-google-beta.googleKmsKeyRingIamBinding.GoogleKmsKeyRingIamBinding",
 		reflect.TypeOf((*GoogleKmsKeyRingIamBinding)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -77,11 +77,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleKmsKeyRingIamBinding.GoogleKmsKeyRingIamBindingCondition",
+		"@cdktn/provider-google-beta.googleKmsKeyRingIamBinding.GoogleKmsKeyRingIamBindingCondition",
 		reflect.TypeOf((*GoogleKmsKeyRingIamBindingCondition)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleKmsKeyRingIamBinding.GoogleKmsKeyRingIamBindingConditionOutputReference",
+		"@cdktn/provider-google-beta.googleKmsKeyRingIamBinding.GoogleKmsKeyRingIamBindingConditionOutputReference",
 		reflect.TypeOf((*GoogleKmsKeyRingIamBindingConditionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -120,7 +120,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleKmsKeyRingIamBinding.GoogleKmsKeyRingIamBindingConfig",
+		"@cdktn/provider-google-beta.googleKmsKeyRingIamBinding.GoogleKmsKeyRingIamBindingConfig",
 		reflect.TypeOf((*GoogleKmsKeyRingIamBindingConfig)(nil)).Elem(),
 	)
 }

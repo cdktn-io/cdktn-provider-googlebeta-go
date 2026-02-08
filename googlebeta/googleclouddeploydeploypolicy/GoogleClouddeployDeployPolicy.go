@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googleclouddeploydeploypolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googleclouddeploydeploypolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleclouddeploydeploypolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -633,7 +633,7 @@ func NewGoogleClouddeployDeployPolicy(scope constructs.Construct, id *string, co
 	j := jsiiProxy_GoogleClouddeployDeployPolicy{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleClouddeployDeployPolicy.GoogleClouddeployDeployPolicy",
+		"@cdktn/provider-google-beta.googleClouddeployDeployPolicy.GoogleClouddeployDeployPolicy",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -646,7 +646,7 @@ func NewGoogleClouddeployDeployPolicy_Override(g GoogleClouddeployDeployPolicy, 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleClouddeployDeployPolicy.GoogleClouddeployDeployPolicy",
+		"@cdktn/provider-google-beta.googleClouddeployDeployPolicy.GoogleClouddeployDeployPolicy",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -818,7 +818,7 @@ func GoogleClouddeployDeployPolicy_GenerateConfigForImport(scope constructs.Cons
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleClouddeployDeployPolicy.GoogleClouddeployDeployPolicy",
+		"@cdktn/provider-google-beta.googleClouddeployDeployPolicy.GoogleClouddeployDeployPolicy",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -853,7 +853,7 @@ func GoogleClouddeployDeployPolicy_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleClouddeployDeployPolicy.GoogleClouddeployDeployPolicy",
+		"@cdktn/provider-google-beta.googleClouddeployDeployPolicy.GoogleClouddeployDeployPolicy",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -872,7 +872,7 @@ func GoogleClouddeployDeployPolicy_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleClouddeployDeployPolicy.GoogleClouddeployDeployPolicy",
+		"@cdktn/provider-google-beta.googleClouddeployDeployPolicy.GoogleClouddeployDeployPolicy",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -891,7 +891,7 @@ func GoogleClouddeployDeployPolicy_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleClouddeployDeployPolicy.GoogleClouddeployDeployPolicy",
+		"@cdktn/provider-google-beta.googleClouddeployDeployPolicy.GoogleClouddeployDeployPolicy",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -904,7 +904,7 @@ func GoogleClouddeployDeployPolicy_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleClouddeployDeployPolicy.GoogleClouddeployDeployPolicy",
+		"@cdktn/provider-google-beta.googleClouddeployDeployPolicy.GoogleClouddeployDeployPolicy",
 		"tfResourceType",
 		&returns,
 	)

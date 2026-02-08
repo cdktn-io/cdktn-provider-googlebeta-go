@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlepubsubschemaiammember
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlepubsubschemaiammember/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlepubsubschemaiammember/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -448,7 +448,7 @@ func NewGooglePubsubSchemaIamMember(scope constructs.Construct, id *string, conf
 	j := jsiiProxy_GooglePubsubSchemaIamMember{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googlePubsubSchemaIamMember.GooglePubsubSchemaIamMember",
+		"@cdktn/provider-google-beta.googlePubsubSchemaIamMember.GooglePubsubSchemaIamMember",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -461,7 +461,7 @@ func NewGooglePubsubSchemaIamMember_Override(g GooglePubsubSchemaIamMember, scop
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googlePubsubSchemaIamMember.GooglePubsubSchemaIamMember",
+		"@cdktn/provider-google-beta.googlePubsubSchemaIamMember.GooglePubsubSchemaIamMember",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -600,7 +600,7 @@ func GooglePubsubSchemaIamMember_GenerateConfigForImport(scope constructs.Constr
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googlePubsubSchemaIamMember.GooglePubsubSchemaIamMember",
+		"@cdktn/provider-google-beta.googlePubsubSchemaIamMember.GooglePubsubSchemaIamMember",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -635,7 +635,7 @@ func GooglePubsubSchemaIamMember_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googlePubsubSchemaIamMember.GooglePubsubSchemaIamMember",
+		"@cdktn/provider-google-beta.googlePubsubSchemaIamMember.GooglePubsubSchemaIamMember",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -654,7 +654,7 @@ func GooglePubsubSchemaIamMember_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googlePubsubSchemaIamMember.GooglePubsubSchemaIamMember",
+		"@cdktn/provider-google-beta.googlePubsubSchemaIamMember.GooglePubsubSchemaIamMember",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -673,7 +673,7 @@ func GooglePubsubSchemaIamMember_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googlePubsubSchemaIamMember.GooglePubsubSchemaIamMember",
+		"@cdktn/provider-google-beta.googlePubsubSchemaIamMember.GooglePubsubSchemaIamMember",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -686,7 +686,7 @@ func GooglePubsubSchemaIamMember_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googlePubsubSchemaIamMember.GooglePubsubSchemaIamMember",
+		"@cdktn/provider-google-beta.googlePubsubSchemaIamMember.GooglePubsubSchemaIamMember",
 		"tfResourceType",
 		&returns,
 	)

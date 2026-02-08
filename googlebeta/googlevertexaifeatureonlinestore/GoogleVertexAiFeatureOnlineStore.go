@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlevertexaifeatureonlinestore
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlevertexaifeatureonlinestore/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlevertexaifeatureonlinestore/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -625,7 +625,7 @@ func NewGoogleVertexAiFeatureOnlineStore(scope constructs.Construct, id *string,
 	j := jsiiProxy_GoogleVertexAiFeatureOnlineStore{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStore.GoogleVertexAiFeatureOnlineStore",
+		"@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStore.GoogleVertexAiFeatureOnlineStore",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -638,7 +638,7 @@ func NewGoogleVertexAiFeatureOnlineStore_Override(g GoogleVertexAiFeatureOnlineS
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStore.GoogleVertexAiFeatureOnlineStore",
+		"@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStore.GoogleVertexAiFeatureOnlineStore",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -788,7 +788,7 @@ func GoogleVertexAiFeatureOnlineStore_GenerateConfigForImport(scope constructs.C
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStore.GoogleVertexAiFeatureOnlineStore",
+		"@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStore.GoogleVertexAiFeatureOnlineStore",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -823,7 +823,7 @@ func GoogleVertexAiFeatureOnlineStore_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStore.GoogleVertexAiFeatureOnlineStore",
+		"@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStore.GoogleVertexAiFeatureOnlineStore",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -842,7 +842,7 @@ func GoogleVertexAiFeatureOnlineStore_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStore.GoogleVertexAiFeatureOnlineStore",
+		"@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStore.GoogleVertexAiFeatureOnlineStore",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -861,7 +861,7 @@ func GoogleVertexAiFeatureOnlineStore_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStore.GoogleVertexAiFeatureOnlineStore",
+		"@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStore.GoogleVertexAiFeatureOnlineStore",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -874,7 +874,7 @@ func GoogleVertexAiFeatureOnlineStore_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStore.GoogleVertexAiFeatureOnlineStore",
+		"@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStore.GoogleVertexAiFeatureOnlineStore",
 		"tfResourceType",
 		&returns,
 	)

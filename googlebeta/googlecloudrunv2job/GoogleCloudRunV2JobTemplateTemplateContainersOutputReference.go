@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlecloudrunv2job
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlecloudrunv2job/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecloudrunv2job/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -91,7 +91,7 @@ type GoogleCloudRunV2JobTemplateTemplateContainersOutputReference interface {
 	// Experimental.
 	InterpolationAsList() cdktf.IResolvable
 	// Experimental.
-	InterpolationForAttribute(property *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
 	PutEnv(value interface{})
 	PutPorts(value interface{})
 	PutResources(value *GoogleCloudRunV2JobTemplateTemplateContainersResources)
@@ -109,7 +109,7 @@ type GoogleCloudRunV2JobTemplateTemplateContainersOutputReference interface {
 	ResetWorkingDir()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(_context cdktf.IResolveContext) interface{}
+	Resolve(context cdktf.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -422,7 +422,7 @@ func NewGoogleCloudRunV2JobTemplateTemplateContainersOutputReference(terraformRe
 	j := jsiiProxy_GoogleCloudRunV2JobTemplateTemplateContainersOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateContainersOutputReference",
+		"@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateContainersOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -434,7 +434,7 @@ func NewGoogleCloudRunV2JobTemplateTemplateContainersOutputReference_Override(g 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateContainersOutputReference",
+		"@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2JobTemplateTemplateContainersOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		g,
 	)
@@ -731,8 +731,8 @@ func (g *jsiiProxy_GoogleCloudRunV2JobTemplateTemplateContainersOutputReference)
 	return returns
 }
 
-func (g *jsiiProxy_GoogleCloudRunV2JobTemplateTemplateContainersOutputReference) InterpolationForAttribute(property *string) cdktf.IResolvable {
-	if err := g.validateInterpolationForAttributeParameters(property); err != nil {
+func (g *jsiiProxy_GoogleCloudRunV2JobTemplateTemplateContainersOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
 	var returns cdktf.IResolvable
@@ -740,7 +740,7 @@ func (g *jsiiProxy_GoogleCloudRunV2JobTemplateTemplateContainersOutputReference)
 	_jsii_.Invoke(
 		g,
 		"interpolationForAttribute",
-		[]interface{}{property},
+		[]interface{}{terraformAttribute},
 		&returns,
 	)
 
@@ -882,8 +882,8 @@ func (g *jsiiProxy_GoogleCloudRunV2JobTemplateTemplateContainersOutputReference)
 	)
 }
 
-func (g *jsiiProxy_GoogleCloudRunV2JobTemplateTemplateContainersOutputReference) Resolve(_context cdktf.IResolveContext) interface{} {
-	if err := g.validateResolveParameters(_context); err != nil {
+func (g *jsiiProxy_GoogleCloudRunV2JobTemplateTemplateContainersOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}
 	var returns interface{}
@@ -891,7 +891,7 @@ func (g *jsiiProxy_GoogleCloudRunV2JobTemplateTemplateContainersOutputReference)
 	_jsii_.Invoke(
 		g,
 		"resolve",
-		[]interface{}{_context},
+		[]interface{}{context},
 		&returns,
 	)
 

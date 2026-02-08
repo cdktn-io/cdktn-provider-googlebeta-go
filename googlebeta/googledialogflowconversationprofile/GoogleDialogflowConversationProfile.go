@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googledialogflowconversationprofile
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googledialogflowconversationprofile/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googledialogflowconversationprofile/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -689,7 +689,7 @@ func NewGoogleDialogflowConversationProfile(scope constructs.Construct, id *stri
 	j := jsiiProxy_GoogleDialogflowConversationProfile{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfile",
+		"@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfile",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -702,7 +702,7 @@ func NewGoogleDialogflowConversationProfile_Override(g GoogleDialogflowConversat
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfile",
+		"@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfile",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -863,7 +863,7 @@ func GoogleDialogflowConversationProfile_GenerateConfigForImport(scope construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfile",
+		"@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfile",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -898,7 +898,7 @@ func GoogleDialogflowConversationProfile_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfile",
+		"@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfile",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -917,7 +917,7 @@ func GoogleDialogflowConversationProfile_IsTerraformElement(x interface{}) *bool
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfile",
+		"@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfile",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -936,7 +936,7 @@ func GoogleDialogflowConversationProfile_IsTerraformResource(x interface{}) *boo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfile",
+		"@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfile",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -949,7 +949,7 @@ func GoogleDialogflowConversationProfile_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfile",
+		"@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfile",
 		"tfResourceType",
 		&returns,
 	)

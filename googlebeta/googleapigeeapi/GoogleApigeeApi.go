@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googleapigeeapi
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googleapigeeapi/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleapigeeapi/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -481,7 +481,7 @@ func NewGoogleApigeeApi(scope constructs.Construct, id *string, config *GoogleAp
 	j := jsiiProxy_GoogleApigeeApi{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleApigeeApi.GoogleApigeeApi",
+		"@cdktn/provider-google-beta.googleApigeeApi.GoogleApigeeApi",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -494,7 +494,7 @@ func NewGoogleApigeeApi_Override(g GoogleApigeeApi, scope constructs.Construct, 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleApigeeApi.GoogleApigeeApi",
+		"@cdktn/provider-google-beta.googleApigeeApi.GoogleApigeeApi",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -633,7 +633,7 @@ func GoogleApigeeApi_GenerateConfigForImport(scope constructs.Construct, importT
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleApigeeApi.GoogleApigeeApi",
+		"@cdktn/provider-google-beta.googleApigeeApi.GoogleApigeeApi",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -668,7 +668,7 @@ func GoogleApigeeApi_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleApigeeApi.GoogleApigeeApi",
+		"@cdktn/provider-google-beta.googleApigeeApi.GoogleApigeeApi",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -687,7 +687,7 @@ func GoogleApigeeApi_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleApigeeApi.GoogleApigeeApi",
+		"@cdktn/provider-google-beta.googleApigeeApi.GoogleApigeeApi",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -706,7 +706,7 @@ func GoogleApigeeApi_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleApigeeApi.GoogleApigeeApi",
+		"@cdktn/provider-google-beta.googleApigeeApi.GoogleApigeeApi",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -719,7 +719,7 @@ func GoogleApigeeApi_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleApigeeApi.GoogleApigeeApi",
+		"@cdktn/provider-google-beta.googleApigeeApi.GoogleApigeeApi",
 		"tfResourceType",
 		&returns,
 	)

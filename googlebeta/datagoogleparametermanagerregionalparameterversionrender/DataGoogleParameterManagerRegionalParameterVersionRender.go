@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagoogleparametermanagerregionalparameterversionrender
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/datagoogleparametermanagerregionalparameterversionrender/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagoogleparametermanagerregionalparameterversionrender/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -413,7 +413,7 @@ func NewDataGoogleParameterManagerRegionalParameterVersionRender(scope construct
 	j := jsiiProxy_DataGoogleParameterManagerRegionalParameterVersionRender{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.dataGoogleParameterManagerRegionalParameterVersionRender.DataGoogleParameterManagerRegionalParameterVersionRender",
+		"@cdktn/provider-google-beta.dataGoogleParameterManagerRegionalParameterVersionRender.DataGoogleParameterManagerRegionalParameterVersionRender",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -426,7 +426,7 @@ func NewDataGoogleParameterManagerRegionalParameterVersionRender_Override(d Data
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.dataGoogleParameterManagerRegionalParameterVersionRender.DataGoogleParameterManagerRegionalParameterVersionRender",
+		"@cdktn/provider-google-beta.dataGoogleParameterManagerRegionalParameterVersionRender.DataGoogleParameterManagerRegionalParameterVersionRender",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -543,7 +543,7 @@ func DataGoogleParameterManagerRegionalParameterVersionRender_GenerateConfigForI
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleParameterManagerRegionalParameterVersionRender.DataGoogleParameterManagerRegionalParameterVersionRender",
+		"@cdktn/provider-google-beta.dataGoogleParameterManagerRegionalParameterVersionRender.DataGoogleParameterManagerRegionalParameterVersionRender",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -578,7 +578,7 @@ func DataGoogleParameterManagerRegionalParameterVersionRender_IsConstruct(x inte
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleParameterManagerRegionalParameterVersionRender.DataGoogleParameterManagerRegionalParameterVersionRender",
+		"@cdktn/provider-google-beta.dataGoogleParameterManagerRegionalParameterVersionRender.DataGoogleParameterManagerRegionalParameterVersionRender",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -597,7 +597,7 @@ func DataGoogleParameterManagerRegionalParameterVersionRender_IsTerraformDataSou
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleParameterManagerRegionalParameterVersionRender.DataGoogleParameterManagerRegionalParameterVersionRender",
+		"@cdktn/provider-google-beta.dataGoogleParameterManagerRegionalParameterVersionRender.DataGoogleParameterManagerRegionalParameterVersionRender",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -616,7 +616,7 @@ func DataGoogleParameterManagerRegionalParameterVersionRender_IsTerraformElement
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleParameterManagerRegionalParameterVersionRender.DataGoogleParameterManagerRegionalParameterVersionRender",
+		"@cdktn/provider-google-beta.dataGoogleParameterManagerRegionalParameterVersionRender.DataGoogleParameterManagerRegionalParameterVersionRender",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -629,7 +629,7 @@ func DataGoogleParameterManagerRegionalParameterVersionRender_TfResourceType() *
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.dataGoogleParameterManagerRegionalParameterVersionRender.DataGoogleParameterManagerRegionalParameterVersionRender",
+		"@cdktn/provider-google-beta.dataGoogleParameterManagerRegionalParameterVersionRender.DataGoogleParameterManagerRegionalParameterVersionRender",
 		"tfResourceType",
 		&returns,
 	)

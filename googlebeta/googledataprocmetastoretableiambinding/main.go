@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googledataprocmetastoretableiambinding
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleDataprocMetastoreTableIamBinding.GoogleDataprocMetastoreTableIamBinding",
+		"@cdktn/provider-google-beta.googleDataprocMetastoreTableIamBinding.GoogleDataprocMetastoreTableIamBinding",
 		reflect.TypeOf((*GoogleDataprocMetastoreTableIamBinding)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -87,11 +87,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleDataprocMetastoreTableIamBinding.GoogleDataprocMetastoreTableIamBindingCondition",
+		"@cdktn/provider-google-beta.googleDataprocMetastoreTableIamBinding.GoogleDataprocMetastoreTableIamBindingCondition",
 		reflect.TypeOf((*GoogleDataprocMetastoreTableIamBindingCondition)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleDataprocMetastoreTableIamBinding.GoogleDataprocMetastoreTableIamBindingConditionOutputReference",
+		"@cdktn/provider-google-beta.googleDataprocMetastoreTableIamBinding.GoogleDataprocMetastoreTableIamBindingConditionOutputReference",
 		reflect.TypeOf((*GoogleDataprocMetastoreTableIamBindingConditionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -130,7 +130,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleDataprocMetastoreTableIamBinding.GoogleDataprocMetastoreTableIamBindingConfig",
+		"@cdktn/provider-google-beta.googleDataprocMetastoreTableIamBinding.GoogleDataprocMetastoreTableIamBindingConfig",
 		reflect.TypeOf((*GoogleDataprocMetastoreTableIamBindingConfig)(nil)).Elem(),
 	)
 }

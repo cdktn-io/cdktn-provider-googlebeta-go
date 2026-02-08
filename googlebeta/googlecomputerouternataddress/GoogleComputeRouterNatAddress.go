@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlecomputerouternataddress
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlecomputerouternataddress/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecomputerouternataddress/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -485,7 +485,7 @@ func NewGoogleComputeRouterNatAddress(scope constructs.Construct, id *string, co
 	j := jsiiProxy_GoogleComputeRouterNatAddress{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleComputeRouterNatAddress.GoogleComputeRouterNatAddress",
+		"@cdktn/provider-google-beta.googleComputeRouterNatAddress.GoogleComputeRouterNatAddress",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -498,7 +498,7 @@ func NewGoogleComputeRouterNatAddress_Override(g GoogleComputeRouterNatAddress, 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleComputeRouterNatAddress.GoogleComputeRouterNatAddress",
+		"@cdktn/provider-google-beta.googleComputeRouterNatAddress.GoogleComputeRouterNatAddress",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -659,7 +659,7 @@ func GoogleComputeRouterNatAddress_GenerateConfigForImport(scope constructs.Cons
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleComputeRouterNatAddress.GoogleComputeRouterNatAddress",
+		"@cdktn/provider-google-beta.googleComputeRouterNatAddress.GoogleComputeRouterNatAddress",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -694,7 +694,7 @@ func GoogleComputeRouterNatAddress_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleComputeRouterNatAddress.GoogleComputeRouterNatAddress",
+		"@cdktn/provider-google-beta.googleComputeRouterNatAddress.GoogleComputeRouterNatAddress",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -713,7 +713,7 @@ func GoogleComputeRouterNatAddress_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleComputeRouterNatAddress.GoogleComputeRouterNatAddress",
+		"@cdktn/provider-google-beta.googleComputeRouterNatAddress.GoogleComputeRouterNatAddress",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -732,7 +732,7 @@ func GoogleComputeRouterNatAddress_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleComputeRouterNatAddress.GoogleComputeRouterNatAddress",
+		"@cdktn/provider-google-beta.googleComputeRouterNatAddress.GoogleComputeRouterNatAddress",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -745,7 +745,7 @@ func GoogleComputeRouterNatAddress_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleComputeRouterNatAddress.GoogleComputeRouterNatAddress",
+		"@cdktn/provider-google-beta.googleComputeRouterNatAddress.GoogleComputeRouterNatAddress",
 		"tfResourceType",
 		&returns,
 	)

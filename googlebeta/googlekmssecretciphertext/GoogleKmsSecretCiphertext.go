@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlekmssecretciphertext
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlekmssecretciphertext/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlekmssecretciphertext/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -425,7 +425,7 @@ func NewGoogleKmsSecretCiphertext(scope constructs.Construct, id *string, config
 	j := jsiiProxy_GoogleKmsSecretCiphertext{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleKmsSecretCiphertext.GoogleKmsSecretCiphertext",
+		"@cdktn/provider-google-beta.googleKmsSecretCiphertext.GoogleKmsSecretCiphertext",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -438,7 +438,7 @@ func NewGoogleKmsSecretCiphertext_Override(g GoogleKmsSecretCiphertext, scope co
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleKmsSecretCiphertext.GoogleKmsSecretCiphertext",
+		"@cdktn/provider-google-beta.googleKmsSecretCiphertext.GoogleKmsSecretCiphertext",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -566,7 +566,7 @@ func GoogleKmsSecretCiphertext_GenerateConfigForImport(scope constructs.Construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleKmsSecretCiphertext.GoogleKmsSecretCiphertext",
+		"@cdktn/provider-google-beta.googleKmsSecretCiphertext.GoogleKmsSecretCiphertext",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -601,7 +601,7 @@ func GoogleKmsSecretCiphertext_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleKmsSecretCiphertext.GoogleKmsSecretCiphertext",
+		"@cdktn/provider-google-beta.googleKmsSecretCiphertext.GoogleKmsSecretCiphertext",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -620,7 +620,7 @@ func GoogleKmsSecretCiphertext_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleKmsSecretCiphertext.GoogleKmsSecretCiphertext",
+		"@cdktn/provider-google-beta.googleKmsSecretCiphertext.GoogleKmsSecretCiphertext",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -639,7 +639,7 @@ func GoogleKmsSecretCiphertext_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleKmsSecretCiphertext.GoogleKmsSecretCiphertext",
+		"@cdktn/provider-google-beta.googleKmsSecretCiphertext.GoogleKmsSecretCiphertext",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -652,7 +652,7 @@ func GoogleKmsSecretCiphertext_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleKmsSecretCiphertext.GoogleKmsSecretCiphertext",
+		"@cdktn/provider-google-beta.googleKmsSecretCiphertext.GoogleKmsSecretCiphertext",
 		"tfResourceType",
 		&returns,
 	)

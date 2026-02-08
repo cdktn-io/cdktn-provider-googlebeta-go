@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlefirebasehostingchannel
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleFirebaseHostingChannel.GoogleFirebaseHostingChannel",
+		"@cdktn/provider-google-beta.googleFirebaseHostingChannel.GoogleFirebaseHostingChannel",
 		reflect.TypeOf((*GoogleFirebaseHostingChannel)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -89,15 +89,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleFirebaseHostingChannel.GoogleFirebaseHostingChannelConfig",
+		"@cdktn/provider-google-beta.googleFirebaseHostingChannel.GoogleFirebaseHostingChannelConfig",
 		reflect.TypeOf((*GoogleFirebaseHostingChannelConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleFirebaseHostingChannel.GoogleFirebaseHostingChannelTimeouts",
+		"@cdktn/provider-google-beta.googleFirebaseHostingChannel.GoogleFirebaseHostingChannelTimeouts",
 		reflect.TypeOf((*GoogleFirebaseHostingChannelTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleFirebaseHostingChannel.GoogleFirebaseHostingChannelTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleFirebaseHostingChannel.GoogleFirebaseHostingChannelTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleFirebaseHostingChannelTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

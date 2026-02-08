@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagooglebigquerydefaultserviceaccount
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/datagooglebigquerydefaultserviceaccount/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagooglebigquerydefaultserviceaccount/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -321,7 +321,7 @@ func NewDataGoogleBigqueryDefaultServiceAccount(scope constructs.Construct, id *
 	j := jsiiProxy_DataGoogleBigqueryDefaultServiceAccount{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.dataGoogleBigqueryDefaultServiceAccount.DataGoogleBigqueryDefaultServiceAccount",
+		"@cdktn/provider-google-beta.dataGoogleBigqueryDefaultServiceAccount.DataGoogleBigqueryDefaultServiceAccount",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -334,7 +334,7 @@ func NewDataGoogleBigqueryDefaultServiceAccount_Override(d DataGoogleBigqueryDef
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.dataGoogleBigqueryDefaultServiceAccount.DataGoogleBigqueryDefaultServiceAccount",
+		"@cdktn/provider-google-beta.dataGoogleBigqueryDefaultServiceAccount.DataGoogleBigqueryDefaultServiceAccount",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -418,7 +418,7 @@ func DataGoogleBigqueryDefaultServiceAccount_GenerateConfigForImport(scope const
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleBigqueryDefaultServiceAccount.DataGoogleBigqueryDefaultServiceAccount",
+		"@cdktn/provider-google-beta.dataGoogleBigqueryDefaultServiceAccount.DataGoogleBigqueryDefaultServiceAccount",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -453,7 +453,7 @@ func DataGoogleBigqueryDefaultServiceAccount_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleBigqueryDefaultServiceAccount.DataGoogleBigqueryDefaultServiceAccount",
+		"@cdktn/provider-google-beta.dataGoogleBigqueryDefaultServiceAccount.DataGoogleBigqueryDefaultServiceAccount",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -472,7 +472,7 @@ func DataGoogleBigqueryDefaultServiceAccount_IsTerraformDataSource(x interface{}
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleBigqueryDefaultServiceAccount.DataGoogleBigqueryDefaultServiceAccount",
+		"@cdktn/provider-google-beta.dataGoogleBigqueryDefaultServiceAccount.DataGoogleBigqueryDefaultServiceAccount",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -491,7 +491,7 @@ func DataGoogleBigqueryDefaultServiceAccount_IsTerraformElement(x interface{}) *
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleBigqueryDefaultServiceAccount.DataGoogleBigqueryDefaultServiceAccount",
+		"@cdktn/provider-google-beta.dataGoogleBigqueryDefaultServiceAccount.DataGoogleBigqueryDefaultServiceAccount",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -504,7 +504,7 @@ func DataGoogleBigqueryDefaultServiceAccount_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.dataGoogleBigqueryDefaultServiceAccount.DataGoogleBigqueryDefaultServiceAccount",
+		"@cdktn/provider-google-beta.dataGoogleBigqueryDefaultServiceAccount.DataGoogleBigqueryDefaultServiceAccount",
 		"tfResourceType",
 		&returns,
 	)

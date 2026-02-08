@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googleparallelstoreinstance
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleParallelstoreInstance.GoogleParallelstoreInstance",
+		"@cdktn/provider-google-beta.googleParallelstoreInstance.GoogleParallelstoreInstance",
 		reflect.TypeOf((*GoogleParallelstoreInstance)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessPoints", GoGetter: "AccessPoints"},
@@ -109,15 +109,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleParallelstoreInstance.GoogleParallelstoreInstanceConfig",
+		"@cdktn/provider-google-beta.googleParallelstoreInstance.GoogleParallelstoreInstanceConfig",
 		reflect.TypeOf((*GoogleParallelstoreInstanceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleParallelstoreInstance.GoogleParallelstoreInstanceTimeouts",
+		"@cdktn/provider-google-beta.googleParallelstoreInstance.GoogleParallelstoreInstanceTimeouts",
 		reflect.TypeOf((*GoogleParallelstoreInstanceTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleParallelstoreInstance.GoogleParallelstoreInstanceTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleParallelstoreInstance.GoogleParallelstoreInstanceTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleParallelstoreInstanceTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlecloudfunctionsfunction
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlecloudfunctionsfunction/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecloudfunctionsfunction/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -1178,7 +1178,7 @@ func NewGoogleCloudfunctionsFunction(scope constructs.Construct, id *string, con
 	j := jsiiProxy_GoogleCloudfunctionsFunction{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleCloudfunctionsFunction.GoogleCloudfunctionsFunction",
+		"@cdktn/provider-google-beta.googleCloudfunctionsFunction.GoogleCloudfunctionsFunction",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -1191,7 +1191,7 @@ func NewGoogleCloudfunctionsFunction_Override(g GoogleCloudfunctionsFunction, sc
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleCloudfunctionsFunction.GoogleCloudfunctionsFunction",
+		"@cdktn/provider-google-beta.googleCloudfunctionsFunction.GoogleCloudfunctionsFunction",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -1583,7 +1583,7 @@ func GoogleCloudfunctionsFunction_GenerateConfigForImport(scope constructs.Const
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleCloudfunctionsFunction.GoogleCloudfunctionsFunction",
+		"@cdktn/provider-google-beta.googleCloudfunctionsFunction.GoogleCloudfunctionsFunction",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1618,7 +1618,7 @@ func GoogleCloudfunctionsFunction_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleCloudfunctionsFunction.GoogleCloudfunctionsFunction",
+		"@cdktn/provider-google-beta.googleCloudfunctionsFunction.GoogleCloudfunctionsFunction",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1637,7 +1637,7 @@ func GoogleCloudfunctionsFunction_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleCloudfunctionsFunction.GoogleCloudfunctionsFunction",
+		"@cdktn/provider-google-beta.googleCloudfunctionsFunction.GoogleCloudfunctionsFunction",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1656,7 +1656,7 @@ func GoogleCloudfunctionsFunction_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleCloudfunctionsFunction.GoogleCloudfunctionsFunction",
+		"@cdktn/provider-google-beta.googleCloudfunctionsFunction.GoogleCloudfunctionsFunction",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1669,7 +1669,7 @@ func GoogleCloudfunctionsFunction_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleCloudfunctionsFunction.GoogleCloudfunctionsFunction",
+		"@cdktn/provider-google-beta.googleCloudfunctionsFunction.GoogleCloudfunctionsFunction",
 		"tfResourceType",
 		&returns,
 	)

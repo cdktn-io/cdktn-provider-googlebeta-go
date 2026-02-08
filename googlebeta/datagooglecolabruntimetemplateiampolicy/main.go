@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagooglecolabruntimetemplateiampolicy
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleColabRuntimeTemplateIamPolicy.DataGoogleColabRuntimeTemplateIamPolicy",
+		"@cdktn/provider-google-beta.dataGoogleColabRuntimeTemplateIamPolicy.DataGoogleColabRuntimeTemplateIamPolicy",
 		reflect.TypeOf((*DataGoogleColabRuntimeTemplateIamPolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -68,7 +68,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleColabRuntimeTemplateIamPolicy.DataGoogleColabRuntimeTemplateIamPolicyConfig",
+		"@cdktn/provider-google-beta.dataGoogleColabRuntimeTemplateIamPolicy.DataGoogleColabRuntimeTemplateIamPolicyConfig",
 		reflect.TypeOf((*DataGoogleColabRuntimeTemplateIamPolicyConfig)(nil)).Elem(),
 	)
 }

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagooglednsmanagedzone
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleDnsManagedZone.DataGoogleDnsManagedZone",
+		"@cdktn/provider-google-beta.dataGoogleDnsManagedZone.DataGoogleDnsManagedZone",
 		reflect.TypeOf((*DataGoogleDnsManagedZone)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -66,7 +66,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleDnsManagedZone.DataGoogleDnsManagedZoneConfig",
+		"@cdktn/provider-google-beta.dataGoogleDnsManagedZone.DataGoogleDnsManagedZoneConfig",
 		reflect.TypeOf((*DataGoogleDnsManagedZoneConfig)(nil)).Elem(),
 	)
 }

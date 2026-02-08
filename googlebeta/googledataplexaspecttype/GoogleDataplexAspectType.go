@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googledataplexaspecttype
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googledataplexaspecttype/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googledataplexaspecttype/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -589,7 +589,7 @@ func NewGoogleDataplexAspectType(scope constructs.Construct, id *string, config 
 	j := jsiiProxy_GoogleDataplexAspectType{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleDataplexAspectType.GoogleDataplexAspectType",
+		"@cdktn/provider-google-beta.googleDataplexAspectType.GoogleDataplexAspectType",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -602,7 +602,7 @@ func NewGoogleDataplexAspectType_Override(g GoogleDataplexAspectType, scope cons
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleDataplexAspectType.GoogleDataplexAspectType",
+		"@cdktn/provider-google-beta.googleDataplexAspectType.GoogleDataplexAspectType",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -774,7 +774,7 @@ func GoogleDataplexAspectType_GenerateConfigForImport(scope constructs.Construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleDataplexAspectType.GoogleDataplexAspectType",
+		"@cdktn/provider-google-beta.googleDataplexAspectType.GoogleDataplexAspectType",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -809,7 +809,7 @@ func GoogleDataplexAspectType_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleDataplexAspectType.GoogleDataplexAspectType",
+		"@cdktn/provider-google-beta.googleDataplexAspectType.GoogleDataplexAspectType",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -828,7 +828,7 @@ func GoogleDataplexAspectType_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleDataplexAspectType.GoogleDataplexAspectType",
+		"@cdktn/provider-google-beta.googleDataplexAspectType.GoogleDataplexAspectType",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -847,7 +847,7 @@ func GoogleDataplexAspectType_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleDataplexAspectType.GoogleDataplexAspectType",
+		"@cdktn/provider-google-beta.googleDataplexAspectType.GoogleDataplexAspectType",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -860,7 +860,7 @@ func GoogleDataplexAspectType_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleDataplexAspectType.GoogleDataplexAspectType",
+		"@cdktn/provider-google-beta.googleDataplexAspectType.GoogleDataplexAspectType",
 		"tfResourceType",
 		&returns,
 	)

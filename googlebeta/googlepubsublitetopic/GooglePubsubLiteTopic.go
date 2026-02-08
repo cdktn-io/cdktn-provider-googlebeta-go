@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlepubsublitetopic
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlepubsublitetopic/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlepubsublitetopic/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -511,7 +511,7 @@ func NewGooglePubsubLiteTopic(scope constructs.Construct, id *string, config *Go
 	j := jsiiProxy_GooglePubsubLiteTopic{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googlePubsubLiteTopic.GooglePubsubLiteTopic",
+		"@cdktn/provider-google-beta.googlePubsubLiteTopic.GooglePubsubLiteTopic",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -524,7 +524,7 @@ func NewGooglePubsubLiteTopic_Override(g GooglePubsubLiteTopic, scope constructs
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googlePubsubLiteTopic.GooglePubsubLiteTopic",
+		"@cdktn/provider-google-beta.googlePubsubLiteTopic.GooglePubsubLiteTopic",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -663,7 +663,7 @@ func GooglePubsubLiteTopic_GenerateConfigForImport(scope constructs.Construct, i
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googlePubsubLiteTopic.GooglePubsubLiteTopic",
+		"@cdktn/provider-google-beta.googlePubsubLiteTopic.GooglePubsubLiteTopic",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -698,7 +698,7 @@ func GooglePubsubLiteTopic_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googlePubsubLiteTopic.GooglePubsubLiteTopic",
+		"@cdktn/provider-google-beta.googlePubsubLiteTopic.GooglePubsubLiteTopic",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -717,7 +717,7 @@ func GooglePubsubLiteTopic_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googlePubsubLiteTopic.GooglePubsubLiteTopic",
+		"@cdktn/provider-google-beta.googlePubsubLiteTopic.GooglePubsubLiteTopic",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -736,7 +736,7 @@ func GooglePubsubLiteTopic_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googlePubsubLiteTopic.GooglePubsubLiteTopic",
+		"@cdktn/provider-google-beta.googlePubsubLiteTopic.GooglePubsubLiteTopic",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -749,7 +749,7 @@ func GooglePubsubLiteTopic_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googlePubsubLiteTopic.GooglePubsubLiteTopic",
+		"@cdktn/provider-google-beta.googlePubsubLiteTopic.GooglePubsubLiteTopic",
 		"tfResourceType",
 		&returns,
 	)

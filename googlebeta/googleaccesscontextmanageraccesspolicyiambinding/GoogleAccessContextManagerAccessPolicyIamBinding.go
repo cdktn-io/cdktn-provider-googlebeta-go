@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googleaccesscontextmanageraccesspolicyiambinding
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googleaccesscontextmanageraccesspolicyiambinding/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleaccesscontextmanageraccesspolicyiambinding/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -424,7 +424,7 @@ func NewGoogleAccessContextManagerAccessPolicyIamBinding(scope constructs.Constr
 	j := jsiiProxy_GoogleAccessContextManagerAccessPolicyIamBinding{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleAccessContextManagerAccessPolicyIamBinding.GoogleAccessContextManagerAccessPolicyIamBinding",
+		"@cdktn/provider-google-beta.googleAccessContextManagerAccessPolicyIamBinding.GoogleAccessContextManagerAccessPolicyIamBinding",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -437,7 +437,7 @@ func NewGoogleAccessContextManagerAccessPolicyIamBinding_Override(g GoogleAccess
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleAccessContextManagerAccessPolicyIamBinding.GoogleAccessContextManagerAccessPolicyIamBinding",
+		"@cdktn/provider-google-beta.googleAccessContextManagerAccessPolicyIamBinding.GoogleAccessContextManagerAccessPolicyIamBinding",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -565,7 +565,7 @@ func GoogleAccessContextManagerAccessPolicyIamBinding_GenerateConfigForImport(sc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleAccessContextManagerAccessPolicyIamBinding.GoogleAccessContextManagerAccessPolicyIamBinding",
+		"@cdktn/provider-google-beta.googleAccessContextManagerAccessPolicyIamBinding.GoogleAccessContextManagerAccessPolicyIamBinding",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -600,7 +600,7 @@ func GoogleAccessContextManagerAccessPolicyIamBinding_IsConstruct(x interface{})
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleAccessContextManagerAccessPolicyIamBinding.GoogleAccessContextManagerAccessPolicyIamBinding",
+		"@cdktn/provider-google-beta.googleAccessContextManagerAccessPolicyIamBinding.GoogleAccessContextManagerAccessPolicyIamBinding",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -619,7 +619,7 @@ func GoogleAccessContextManagerAccessPolicyIamBinding_IsTerraformElement(x inter
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleAccessContextManagerAccessPolicyIamBinding.GoogleAccessContextManagerAccessPolicyIamBinding",
+		"@cdktn/provider-google-beta.googleAccessContextManagerAccessPolicyIamBinding.GoogleAccessContextManagerAccessPolicyIamBinding",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -638,7 +638,7 @@ func GoogleAccessContextManagerAccessPolicyIamBinding_IsTerraformResource(x inte
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleAccessContextManagerAccessPolicyIamBinding.GoogleAccessContextManagerAccessPolicyIamBinding",
+		"@cdktn/provider-google-beta.googleAccessContextManagerAccessPolicyIamBinding.GoogleAccessContextManagerAccessPolicyIamBinding",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -651,7 +651,7 @@ func GoogleAccessContextManagerAccessPolicyIamBinding_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleAccessContextManagerAccessPolicyIamBinding.GoogleAccessContextManagerAccessPolicyIamBinding",
+		"@cdktn/provider-google-beta.googleAccessContextManagerAccessPolicyIamBinding.GoogleAccessContextManagerAccessPolicyIamBinding",
 		"tfResourceType",
 		&returns,
 	)

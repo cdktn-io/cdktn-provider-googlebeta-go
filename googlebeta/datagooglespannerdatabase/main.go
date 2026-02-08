@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagooglespannerdatabase
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleSpannerDatabase.DataGoogleSpannerDatabase",
+		"@cdktn/provider-google-beta.dataGoogleSpannerDatabase.DataGoogleSpannerDatabase",
 		reflect.TypeOf((*DataGoogleSpannerDatabase)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -73,15 +73,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleSpannerDatabase.DataGoogleSpannerDatabaseConfig",
+		"@cdktn/provider-google-beta.dataGoogleSpannerDatabase.DataGoogleSpannerDatabaseConfig",
 		reflect.TypeOf((*DataGoogleSpannerDatabaseConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleSpannerDatabase.DataGoogleSpannerDatabaseEncryptionConfig",
+		"@cdktn/provider-google-beta.dataGoogleSpannerDatabase.DataGoogleSpannerDatabaseEncryptionConfig",
 		reflect.TypeOf((*DataGoogleSpannerDatabaseEncryptionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleSpannerDatabase.DataGoogleSpannerDatabaseEncryptionConfigList",
+		"@cdktn/provider-google-beta.dataGoogleSpannerDatabase.DataGoogleSpannerDatabaseEncryptionConfigList",
 		reflect.TypeOf((*DataGoogleSpannerDatabaseEncryptionConfigList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -102,7 +102,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleSpannerDatabase.DataGoogleSpannerDatabaseEncryptionConfigOutputReference",
+		"@cdktn/provider-google-beta.dataGoogleSpannerDatabase.DataGoogleSpannerDatabaseEncryptionConfigOutputReference",
 		reflect.TypeOf((*DataGoogleSpannerDatabaseEncryptionConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

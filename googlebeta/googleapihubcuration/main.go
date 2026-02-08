@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googleapihubcuration
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleApihubCuration.GoogleApihubCuration",
+		"@cdktn/provider-google-beta.googleApihubCuration.GoogleApihubCuration",
 		reflect.TypeOf((*GoogleApihubCuration)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -92,19 +92,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleApihubCuration.GoogleApihubCurationConfig",
+		"@cdktn/provider-google-beta.googleApihubCuration.GoogleApihubCurationConfig",
 		reflect.TypeOf((*GoogleApihubCurationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleApihubCuration.GoogleApihubCurationEndpoint",
+		"@cdktn/provider-google-beta.googleApihubCuration.GoogleApihubCurationEndpoint",
 		reflect.TypeOf((*GoogleApihubCurationEndpoint)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleApihubCuration.GoogleApihubCurationEndpointApplicationIntegrationEndpointDetails",
+		"@cdktn/provider-google-beta.googleApihubCuration.GoogleApihubCurationEndpointApplicationIntegrationEndpointDetails",
 		reflect.TypeOf((*GoogleApihubCurationEndpointApplicationIntegrationEndpointDetails)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleApihubCuration.GoogleApihubCurationEndpointApplicationIntegrationEndpointDetailsOutputReference",
+		"@cdktn/provider-google-beta.googleApihubCuration.GoogleApihubCurationEndpointApplicationIntegrationEndpointDetailsOutputReference",
 		reflect.TypeOf((*GoogleApihubCurationEndpointApplicationIntegrationEndpointDetailsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -140,7 +140,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleApihubCuration.GoogleApihubCurationEndpointOutputReference",
+		"@cdktn/provider-google-beta.googleApihubCuration.GoogleApihubCurationEndpointOutputReference",
 		reflect.TypeOf((*GoogleApihubCurationEndpointOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "applicationIntegrationEndpointDetails", GoGetter: "ApplicationIntegrationEndpointDetails"},
@@ -175,11 +175,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleApihubCuration.GoogleApihubCurationPluginInstanceActions",
+		"@cdktn/provider-google-beta.googleApihubCuration.GoogleApihubCurationPluginInstanceActions",
 		reflect.TypeOf((*GoogleApihubCurationPluginInstanceActions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleApihubCuration.GoogleApihubCurationPluginInstanceActionsList",
+		"@cdktn/provider-google-beta.googleApihubCuration.GoogleApihubCurationPluginInstanceActionsList",
 		reflect.TypeOf((*GoogleApihubCurationPluginInstanceActionsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -200,7 +200,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleApihubCuration.GoogleApihubCurationPluginInstanceActionsOutputReference",
+		"@cdktn/provider-google-beta.googleApihubCuration.GoogleApihubCurationPluginInstanceActionsOutputReference",
 		reflect.TypeOf((*GoogleApihubCurationPluginInstanceActionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "actionId", GoGetter: "ActionId"},
@@ -234,11 +234,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleApihubCuration.GoogleApihubCurationTimeouts",
+		"@cdktn/provider-google-beta.googleApihubCuration.GoogleApihubCurationTimeouts",
 		reflect.TypeOf((*GoogleApihubCurationTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleApihubCuration.GoogleApihubCurationTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleApihubCuration.GoogleApihubCurationTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleApihubCurationTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

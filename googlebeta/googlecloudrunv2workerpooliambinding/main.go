@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlecloudrunv2workerpooliambinding
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleCloudRunV2WorkerPoolIamBinding.GoogleCloudRunV2WorkerPoolIamBinding",
+		"@cdktn/provider-google-beta.googleCloudRunV2WorkerPoolIamBinding.GoogleCloudRunV2WorkerPoolIamBinding",
 		reflect.TypeOf((*GoogleCloudRunV2WorkerPoolIamBinding)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -83,11 +83,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleCloudRunV2WorkerPoolIamBinding.GoogleCloudRunV2WorkerPoolIamBindingCondition",
+		"@cdktn/provider-google-beta.googleCloudRunV2WorkerPoolIamBinding.GoogleCloudRunV2WorkerPoolIamBindingCondition",
 		reflect.TypeOf((*GoogleCloudRunV2WorkerPoolIamBindingCondition)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleCloudRunV2WorkerPoolIamBinding.GoogleCloudRunV2WorkerPoolIamBindingConditionOutputReference",
+		"@cdktn/provider-google-beta.googleCloudRunV2WorkerPoolIamBinding.GoogleCloudRunV2WorkerPoolIamBindingConditionOutputReference",
 		reflect.TypeOf((*GoogleCloudRunV2WorkerPoolIamBindingConditionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -126,7 +126,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleCloudRunV2WorkerPoolIamBinding.GoogleCloudRunV2WorkerPoolIamBindingConfig",
+		"@cdktn/provider-google-beta.googleCloudRunV2WorkerPoolIamBinding.GoogleCloudRunV2WorkerPoolIamBindingConfig",
 		reflect.TypeOf((*GoogleCloudRunV2WorkerPoolIamBindingConfig)(nil)).Elem(),
 	)
 }

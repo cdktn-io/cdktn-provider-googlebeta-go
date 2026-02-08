@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googleiapwebtypecomputeiammember
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googleiapwebtypecomputeiammember/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleiapwebtypecomputeiammember/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -425,7 +425,7 @@ func NewGoogleIapWebTypeComputeIamMember(scope constructs.Construct, id *string,
 	j := jsiiProxy_GoogleIapWebTypeComputeIamMember{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleIapWebTypeComputeIamMember.GoogleIapWebTypeComputeIamMember",
+		"@cdktn/provider-google-beta.googleIapWebTypeComputeIamMember.GoogleIapWebTypeComputeIamMember",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -438,7 +438,7 @@ func NewGoogleIapWebTypeComputeIamMember_Override(g GoogleIapWebTypeComputeIamMe
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleIapWebTypeComputeIamMember.GoogleIapWebTypeComputeIamMember",
+		"@cdktn/provider-google-beta.googleIapWebTypeComputeIamMember.GoogleIapWebTypeComputeIamMember",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -566,7 +566,7 @@ func GoogleIapWebTypeComputeIamMember_GenerateConfigForImport(scope constructs.C
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleIapWebTypeComputeIamMember.GoogleIapWebTypeComputeIamMember",
+		"@cdktn/provider-google-beta.googleIapWebTypeComputeIamMember.GoogleIapWebTypeComputeIamMember",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -601,7 +601,7 @@ func GoogleIapWebTypeComputeIamMember_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleIapWebTypeComputeIamMember.GoogleIapWebTypeComputeIamMember",
+		"@cdktn/provider-google-beta.googleIapWebTypeComputeIamMember.GoogleIapWebTypeComputeIamMember",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -620,7 +620,7 @@ func GoogleIapWebTypeComputeIamMember_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleIapWebTypeComputeIamMember.GoogleIapWebTypeComputeIamMember",
+		"@cdktn/provider-google-beta.googleIapWebTypeComputeIamMember.GoogleIapWebTypeComputeIamMember",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -639,7 +639,7 @@ func GoogleIapWebTypeComputeIamMember_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleIapWebTypeComputeIamMember.GoogleIapWebTypeComputeIamMember",
+		"@cdktn/provider-google-beta.googleIapWebTypeComputeIamMember.GoogleIapWebTypeComputeIamMember",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -652,7 +652,7 @@ func GoogleIapWebTypeComputeIamMember_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleIapWebTypeComputeIamMember.GoogleIapWebTypeComputeIamMember",
+		"@cdktn/provider-google-beta.googleIapWebTypeComputeIamMember.GoogleIapWebTypeComputeIamMember",
 		"tfResourceType",
 		&returns,
 	)

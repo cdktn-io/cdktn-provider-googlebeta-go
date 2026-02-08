@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlebigtableappprofile
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfile",
+		"@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfile",
 		reflect.TypeOf((*GoogleBigtableAppProfile)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -106,15 +106,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileConfig",
+		"@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileConfig",
 		reflect.TypeOf((*GoogleBigtableAppProfileConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileDataBoostIsolationReadOnly",
+		"@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileDataBoostIsolationReadOnly",
 		reflect.TypeOf((*GoogleBigtableAppProfileDataBoostIsolationReadOnly)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileDataBoostIsolationReadOnlyOutputReference",
+		"@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileDataBoostIsolationReadOnlyOutputReference",
 		reflect.TypeOf((*GoogleBigtableAppProfileDataBoostIsolationReadOnlyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -148,11 +148,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileSingleClusterRouting",
+		"@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileSingleClusterRouting",
 		reflect.TypeOf((*GoogleBigtableAppProfileSingleClusterRouting)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileSingleClusterRoutingOutputReference",
+		"@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileSingleClusterRoutingOutputReference",
 		reflect.TypeOf((*GoogleBigtableAppProfileSingleClusterRoutingOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allowTransactionalWrites", GoGetter: "AllowTransactionalWrites"},
@@ -189,11 +189,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileStandardIsolation",
+		"@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileStandardIsolation",
 		reflect.TypeOf((*GoogleBigtableAppProfileStandardIsolation)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileStandardIsolationOutputReference",
+		"@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileStandardIsolationOutputReference",
 		reflect.TypeOf((*GoogleBigtableAppProfileStandardIsolationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -227,11 +227,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileTimeouts",
+		"@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileTimeouts",
 		reflect.TypeOf((*GoogleBigtableAppProfileTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleBigtableAppProfile.GoogleBigtableAppProfileTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleBigtableAppProfileTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

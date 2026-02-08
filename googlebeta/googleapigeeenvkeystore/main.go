@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googleapigeeenvkeystore
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleApigeeEnvKeystore.GoogleApigeeEnvKeystore",
+		"@cdktn/provider-google-beta.googleApigeeEnvKeystore.GoogleApigeeEnvKeystore",
 		reflect.TypeOf((*GoogleApigeeEnvKeystore)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -76,15 +76,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleApigeeEnvKeystore.GoogleApigeeEnvKeystoreConfig",
+		"@cdktn/provider-google-beta.googleApigeeEnvKeystore.GoogleApigeeEnvKeystoreConfig",
 		reflect.TypeOf((*GoogleApigeeEnvKeystoreConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleApigeeEnvKeystore.GoogleApigeeEnvKeystoreTimeouts",
+		"@cdktn/provider-google-beta.googleApigeeEnvKeystore.GoogleApigeeEnvKeystoreTimeouts",
 		reflect.TypeOf((*GoogleApigeeEnvKeystoreTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleApigeeEnvKeystore.GoogleApigeeEnvKeystoreTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleApigeeEnvKeystore.GoogleApigeeEnvKeystoreTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleApigeeEnvKeystoreTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googledataplexassetiammember
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googledataplexassetiammember/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googledataplexassetiammember/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -518,7 +518,7 @@ func NewGoogleDataplexAssetIamMember(scope constructs.Construct, id *string, con
 	j := jsiiProxy_GoogleDataplexAssetIamMember{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleDataplexAssetIamMember.GoogleDataplexAssetIamMember",
+		"@cdktn/provider-google-beta.googleDataplexAssetIamMember.GoogleDataplexAssetIamMember",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -531,7 +531,7 @@ func NewGoogleDataplexAssetIamMember_Override(g GoogleDataplexAssetIamMember, sc
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleDataplexAssetIamMember.GoogleDataplexAssetIamMember",
+		"@cdktn/provider-google-beta.googleDataplexAssetIamMember.GoogleDataplexAssetIamMember",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -703,7 +703,7 @@ func GoogleDataplexAssetIamMember_GenerateConfigForImport(scope constructs.Const
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleDataplexAssetIamMember.GoogleDataplexAssetIamMember",
+		"@cdktn/provider-google-beta.googleDataplexAssetIamMember.GoogleDataplexAssetIamMember",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -738,7 +738,7 @@ func GoogleDataplexAssetIamMember_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleDataplexAssetIamMember.GoogleDataplexAssetIamMember",
+		"@cdktn/provider-google-beta.googleDataplexAssetIamMember.GoogleDataplexAssetIamMember",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -757,7 +757,7 @@ func GoogleDataplexAssetIamMember_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleDataplexAssetIamMember.GoogleDataplexAssetIamMember",
+		"@cdktn/provider-google-beta.googleDataplexAssetIamMember.GoogleDataplexAssetIamMember",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -776,7 +776,7 @@ func GoogleDataplexAssetIamMember_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleDataplexAssetIamMember.GoogleDataplexAssetIamMember",
+		"@cdktn/provider-google-beta.googleDataplexAssetIamMember.GoogleDataplexAssetIamMember",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -789,7 +789,7 @@ func GoogleDataplexAssetIamMember_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleDataplexAssetIamMember.GoogleDataplexAssetIamMember",
+		"@cdktn/provider-google-beta.googleDataplexAssetIamMember.GoogleDataplexAssetIamMember",
 		"tfResourceType",
 		&returns,
 	)

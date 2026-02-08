@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googleiaptunnelinstanceiampolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googleiaptunnelinstanceiampolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleiaptunnelinstanceiampolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -425,7 +425,7 @@ func NewGoogleIapTunnelInstanceIamPolicy(scope constructs.Construct, id *string,
 	j := jsiiProxy_GoogleIapTunnelInstanceIamPolicy{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleIapTunnelInstanceIamPolicy.GoogleIapTunnelInstanceIamPolicy",
+		"@cdktn/provider-google-beta.googleIapTunnelInstanceIamPolicy.GoogleIapTunnelInstanceIamPolicy",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -438,7 +438,7 @@ func NewGoogleIapTunnelInstanceIamPolicy_Override(g GoogleIapTunnelInstanceIamPo
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleIapTunnelInstanceIamPolicy.GoogleIapTunnelInstanceIamPolicy",
+		"@cdktn/provider-google-beta.googleIapTunnelInstanceIamPolicy.GoogleIapTunnelInstanceIamPolicy",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -577,7 +577,7 @@ func GoogleIapTunnelInstanceIamPolicy_GenerateConfigForImport(scope constructs.C
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleIapTunnelInstanceIamPolicy.GoogleIapTunnelInstanceIamPolicy",
+		"@cdktn/provider-google-beta.googleIapTunnelInstanceIamPolicy.GoogleIapTunnelInstanceIamPolicy",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -612,7 +612,7 @@ func GoogleIapTunnelInstanceIamPolicy_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleIapTunnelInstanceIamPolicy.GoogleIapTunnelInstanceIamPolicy",
+		"@cdktn/provider-google-beta.googleIapTunnelInstanceIamPolicy.GoogleIapTunnelInstanceIamPolicy",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -631,7 +631,7 @@ func GoogleIapTunnelInstanceIamPolicy_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleIapTunnelInstanceIamPolicy.GoogleIapTunnelInstanceIamPolicy",
+		"@cdktn/provider-google-beta.googleIapTunnelInstanceIamPolicy.GoogleIapTunnelInstanceIamPolicy",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -650,7 +650,7 @@ func GoogleIapTunnelInstanceIamPolicy_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleIapTunnelInstanceIamPolicy.GoogleIapTunnelInstanceIamPolicy",
+		"@cdktn/provider-google-beta.googleIapTunnelInstanceIamPolicy.GoogleIapTunnelInstanceIamPolicy",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -663,7 +663,7 @@ func GoogleIapTunnelInstanceIamPolicy_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleIapTunnelInstanceIamPolicy.GoogleIapTunnelInstanceIamPolicy",
+		"@cdktn/provider-google-beta.googleIapTunnelInstanceIamPolicy.GoogleIapTunnelInstanceIamPolicy",
 		"tfResourceType",
 		&returns,
 	)

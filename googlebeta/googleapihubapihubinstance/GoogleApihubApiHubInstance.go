@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googleapihubapihubinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googleapihubapihubinstance/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleapihubapihubinstance/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -563,7 +563,7 @@ func NewGoogleApihubApiHubInstance(scope constructs.Construct, id *string, confi
 	j := jsiiProxy_GoogleApihubApiHubInstance{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleApihubApiHubInstance.GoogleApihubApiHubInstance",
+		"@cdktn/provider-google-beta.googleApihubApiHubInstance.GoogleApihubApiHubInstance",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -576,7 +576,7 @@ func NewGoogleApihubApiHubInstance_Override(g GoogleApihubApiHubInstance, scope 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleApihubApiHubInstance.GoogleApihubApiHubInstance",
+		"@cdktn/provider-google-beta.googleApihubApiHubInstance.GoogleApihubApiHubInstance",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -726,7 +726,7 @@ func GoogleApihubApiHubInstance_GenerateConfigForImport(scope constructs.Constru
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleApihubApiHubInstance.GoogleApihubApiHubInstance",
+		"@cdktn/provider-google-beta.googleApihubApiHubInstance.GoogleApihubApiHubInstance",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -761,7 +761,7 @@ func GoogleApihubApiHubInstance_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleApihubApiHubInstance.GoogleApihubApiHubInstance",
+		"@cdktn/provider-google-beta.googleApihubApiHubInstance.GoogleApihubApiHubInstance",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -780,7 +780,7 @@ func GoogleApihubApiHubInstance_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleApihubApiHubInstance.GoogleApihubApiHubInstance",
+		"@cdktn/provider-google-beta.googleApihubApiHubInstance.GoogleApihubApiHubInstance",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -799,7 +799,7 @@ func GoogleApihubApiHubInstance_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleApihubApiHubInstance.GoogleApihubApiHubInstance",
+		"@cdktn/provider-google-beta.googleApihubApiHubInstance.GoogleApihubApiHubInstance",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -812,7 +812,7 @@ func GoogleApihubApiHubInstance_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleApihubApiHubInstance.GoogleApihubApiHubInstance",
+		"@cdktn/provider-google-beta.googleApihubApiHubInstance.GoogleApihubApiHubInstance",
 		"tfResourceType",
 		&returns,
 	)

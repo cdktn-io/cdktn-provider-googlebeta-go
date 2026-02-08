@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlefilestoreinstance
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstance",
+		"@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstance",
 		reflect.TypeOf((*GoogleFilestoreInstance)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -127,19 +127,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceConfig",
+		"@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceConfig",
 		reflect.TypeOf((*GoogleFilestoreInstanceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceDirectoryServices",
+		"@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceDirectoryServices",
 		reflect.TypeOf((*GoogleFilestoreInstanceDirectoryServices)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceDirectoryServicesLdap",
+		"@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceDirectoryServicesLdap",
 		reflect.TypeOf((*GoogleFilestoreInstanceDirectoryServicesLdap)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceDirectoryServicesLdapOutputReference",
+		"@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceDirectoryServicesLdapOutputReference",
 		reflect.TypeOf((*GoogleFilestoreInstanceDirectoryServicesLdapOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -181,7 +181,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceDirectoryServicesOutputReference",
+		"@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceDirectoryServicesOutputReference",
 		reflect.TypeOf((*GoogleFilestoreInstanceDirectoryServicesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -217,11 +217,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceEffectiveReplication",
+		"@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceEffectiveReplication",
 		reflect.TypeOf((*GoogleFilestoreInstanceEffectiveReplication)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceEffectiveReplicationList",
+		"@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceEffectiveReplicationList",
 		reflect.TypeOf((*GoogleFilestoreInstanceEffectiveReplicationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -242,7 +242,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceEffectiveReplicationOutputReference",
+		"@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceEffectiveReplicationOutputReference",
 		reflect.TypeOf((*GoogleFilestoreInstanceEffectiveReplicationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -276,11 +276,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceEffectiveReplicationReplicas",
+		"@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceEffectiveReplicationReplicas",
 		reflect.TypeOf((*GoogleFilestoreInstanceEffectiveReplicationReplicas)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceEffectiveReplicationReplicasList",
+		"@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceEffectiveReplicationReplicasList",
 		reflect.TypeOf((*GoogleFilestoreInstanceEffectiveReplicationReplicasList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -301,7 +301,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceEffectiveReplicationReplicasOutputReference",
+		"@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceEffectiveReplicationReplicasOutputReference",
 		reflect.TypeOf((*GoogleFilestoreInstanceEffectiveReplicationReplicasOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -337,15 +337,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceFileShares",
+		"@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceFileShares",
 		reflect.TypeOf((*GoogleFilestoreInstanceFileShares)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceFileSharesNfsExportOptions",
+		"@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceFileSharesNfsExportOptions",
 		reflect.TypeOf((*GoogleFilestoreInstanceFileSharesNfsExportOptions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceFileSharesNfsExportOptionsList",
+		"@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceFileSharesNfsExportOptionsList",
 		reflect.TypeOf((*GoogleFilestoreInstanceFileSharesNfsExportOptionsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -367,7 +367,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceFileSharesNfsExportOptionsOutputReference",
+		"@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceFileSharesNfsExportOptionsOutputReference",
 		reflect.TypeOf((*GoogleFilestoreInstanceFileSharesNfsExportOptionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessMode", GoGetter: "AccessMode"},
@@ -417,7 +417,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceFileSharesOutputReference",
+		"@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceFileSharesOutputReference",
 		reflect.TypeOf((*GoogleFilestoreInstanceFileSharesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "capacityGb", GoGetter: "CapacityGb"},
@@ -460,11 +460,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceInitialReplication",
+		"@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceInitialReplication",
 		reflect.TypeOf((*GoogleFilestoreInstanceInitialReplication)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceInitialReplicationOutputReference",
+		"@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceInitialReplicationOutputReference",
 		reflect.TypeOf((*GoogleFilestoreInstanceInitialReplicationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -503,11 +503,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceInitialReplicationReplicas",
+		"@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceInitialReplicationReplicas",
 		reflect.TypeOf((*GoogleFilestoreInstanceInitialReplicationReplicas)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceInitialReplicationReplicasList",
+		"@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceInitialReplicationReplicasList",
 		reflect.TypeOf((*GoogleFilestoreInstanceInitialReplicationReplicasList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -529,7 +529,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceInitialReplicationReplicasOutputReference",
+		"@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceInitialReplicationReplicasOutputReference",
 		reflect.TypeOf((*GoogleFilestoreInstanceInitialReplicationReplicasOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -563,11 +563,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceNetworks",
+		"@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceNetworks",
 		reflect.TypeOf((*GoogleFilestoreInstanceNetworks)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceNetworksList",
+		"@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceNetworksList",
 		reflect.TypeOf((*GoogleFilestoreInstanceNetworksList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -589,7 +589,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceNetworksOutputReference",
+		"@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceNetworksOutputReference",
 		reflect.TypeOf((*GoogleFilestoreInstanceNetworksOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -636,11 +636,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceNetworksPscConfig",
+		"@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceNetworksPscConfig",
 		reflect.TypeOf((*GoogleFilestoreInstanceNetworksPscConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceNetworksPscConfigOutputReference",
+		"@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceNetworksPscConfigOutputReference",
 		reflect.TypeOf((*GoogleFilestoreInstanceNetworksPscConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -675,15 +675,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstancePerformanceConfig",
+		"@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstancePerformanceConfig",
 		reflect.TypeOf((*GoogleFilestoreInstancePerformanceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstancePerformanceConfigFixedIops",
+		"@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstancePerformanceConfigFixedIops",
 		reflect.TypeOf((*GoogleFilestoreInstancePerformanceConfigFixedIops)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstancePerformanceConfigFixedIopsOutputReference",
+		"@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstancePerformanceConfigFixedIopsOutputReference",
 		reflect.TypeOf((*GoogleFilestoreInstancePerformanceConfigFixedIopsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -718,11 +718,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstancePerformanceConfigIopsPerTb",
+		"@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstancePerformanceConfigIopsPerTb",
 		reflect.TypeOf((*GoogleFilestoreInstancePerformanceConfigIopsPerTb)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstancePerformanceConfigIopsPerTbOutputReference",
+		"@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstancePerformanceConfigIopsPerTbOutputReference",
 		reflect.TypeOf((*GoogleFilestoreInstancePerformanceConfigIopsPerTbOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -757,7 +757,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstancePerformanceConfigOutputReference",
+		"@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstancePerformanceConfigOutputReference",
 		reflect.TypeOf((*GoogleFilestoreInstancePerformanceConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -797,11 +797,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceTimeouts",
+		"@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceTimeouts",
 		reflect.TypeOf((*GoogleFilestoreInstanceTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleFilestoreInstance.GoogleFilestoreInstanceTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleFilestoreInstanceTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

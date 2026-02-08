@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlehealthcaredatasetiammember
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlehealthcaredatasetiammember/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlehealthcaredatasetiammember/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -424,7 +424,7 @@ func NewGoogleHealthcareDatasetIamMember(scope constructs.Construct, id *string,
 	j := jsiiProxy_GoogleHealthcareDatasetIamMember{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleHealthcareDatasetIamMember.GoogleHealthcareDatasetIamMember",
+		"@cdktn/provider-google-beta.googleHealthcareDatasetIamMember.GoogleHealthcareDatasetIamMember",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -437,7 +437,7 @@ func NewGoogleHealthcareDatasetIamMember_Override(g GoogleHealthcareDatasetIamMe
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleHealthcareDatasetIamMember.GoogleHealthcareDatasetIamMember",
+		"@cdktn/provider-google-beta.googleHealthcareDatasetIamMember.GoogleHealthcareDatasetIamMember",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -565,7 +565,7 @@ func GoogleHealthcareDatasetIamMember_GenerateConfigForImport(scope constructs.C
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleHealthcareDatasetIamMember.GoogleHealthcareDatasetIamMember",
+		"@cdktn/provider-google-beta.googleHealthcareDatasetIamMember.GoogleHealthcareDatasetIamMember",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -600,7 +600,7 @@ func GoogleHealthcareDatasetIamMember_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleHealthcareDatasetIamMember.GoogleHealthcareDatasetIamMember",
+		"@cdktn/provider-google-beta.googleHealthcareDatasetIamMember.GoogleHealthcareDatasetIamMember",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -619,7 +619,7 @@ func GoogleHealthcareDatasetIamMember_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleHealthcareDatasetIamMember.GoogleHealthcareDatasetIamMember",
+		"@cdktn/provider-google-beta.googleHealthcareDatasetIamMember.GoogleHealthcareDatasetIamMember",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -638,7 +638,7 @@ func GoogleHealthcareDatasetIamMember_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleHealthcareDatasetIamMember.GoogleHealthcareDatasetIamMember",
+		"@cdktn/provider-google-beta.googleHealthcareDatasetIamMember.GoogleHealthcareDatasetIamMember",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -651,7 +651,7 @@ func GoogleHealthcareDatasetIamMember_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleHealthcareDatasetIamMember.GoogleHealthcareDatasetIamMember",
+		"@cdktn/provider-google-beta.googleHealthcareDatasetIamMember.GoogleHealthcareDatasetIamMember",
 		"tfResourceType",
 		&returns,
 	)

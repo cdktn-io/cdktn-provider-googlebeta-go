@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googleresourcemanagercapability
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleResourceManagerCapability.GoogleResourceManagerCapability",
+		"@cdktn/provider-google-beta.googleResourceManagerCapability.GoogleResourceManagerCapability",
 		reflect.TypeOf((*GoogleResourceManagerCapability)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -76,15 +76,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleResourceManagerCapability.GoogleResourceManagerCapabilityConfig",
+		"@cdktn/provider-google-beta.googleResourceManagerCapability.GoogleResourceManagerCapabilityConfig",
 		reflect.TypeOf((*GoogleResourceManagerCapabilityConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleResourceManagerCapability.GoogleResourceManagerCapabilityTimeouts",
+		"@cdktn/provider-google-beta.googleResourceManagerCapability.GoogleResourceManagerCapabilityTimeouts",
 		reflect.TypeOf((*GoogleResourceManagerCapabilityTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleResourceManagerCapability.GoogleResourceManagerCapabilityTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleResourceManagerCapability.GoogleResourceManagerCapabilityTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleResourceManagerCapabilityTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

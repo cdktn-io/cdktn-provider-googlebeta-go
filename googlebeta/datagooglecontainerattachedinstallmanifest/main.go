@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagooglecontainerattachedinstallmanifest
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleContainerAttachedInstallManifest.DataGoogleContainerAttachedInstallManifest",
+		"@cdktn/provider-google-beta.dataGoogleContainerAttachedInstallManifest.DataGoogleContainerAttachedInstallManifest",
 		reflect.TypeOf((*DataGoogleContainerAttachedInstallManifest)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -67,7 +67,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleContainerAttachedInstallManifest.DataGoogleContainerAttachedInstallManifestConfig",
+		"@cdktn/provider-google-beta.dataGoogleContainerAttachedInstallManifest.DataGoogleContainerAttachedInstallManifestConfig",
 		reflect.TypeOf((*DataGoogleContainerAttachedInstallManifestConfig)(nil)).Elem(),
 	)
 }

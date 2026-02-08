@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlebigtabletableiambinding
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleBigtableTableIamBinding.GoogleBigtableTableIamBinding",
+		"@cdktn/provider-google-beta.googleBigtableTableIamBinding.GoogleBigtableTableIamBinding",
 		reflect.TypeOf((*GoogleBigtableTableIamBinding)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -86,11 +86,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleBigtableTableIamBinding.GoogleBigtableTableIamBindingCondition",
+		"@cdktn/provider-google-beta.googleBigtableTableIamBinding.GoogleBigtableTableIamBindingCondition",
 		reflect.TypeOf((*GoogleBigtableTableIamBindingCondition)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleBigtableTableIamBinding.GoogleBigtableTableIamBindingConditionOutputReference",
+		"@cdktn/provider-google-beta.googleBigtableTableIamBinding.GoogleBigtableTableIamBindingConditionOutputReference",
 		reflect.TypeOf((*GoogleBigtableTableIamBindingConditionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -129,7 +129,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleBigtableTableIamBinding.GoogleBigtableTableIamBindingConfig",
+		"@cdktn/provider-google-beta.googleBigtableTableIamBinding.GoogleBigtableTableIamBindingConfig",
 		reflect.TypeOf((*GoogleBigtableTableIamBindingConfig)(nil)).Elem(),
 	)
 }

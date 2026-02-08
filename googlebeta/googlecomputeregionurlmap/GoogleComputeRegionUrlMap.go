@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlecomputeregionurlmap
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlecomputeregionurlmap/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecomputeregionurlmap/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -627,7 +627,7 @@ func NewGoogleComputeRegionUrlMap(scope constructs.Construct, id *string, config
 	j := jsiiProxy_GoogleComputeRegionUrlMap{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMap",
+		"@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMap",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -640,7 +640,7 @@ func NewGoogleComputeRegionUrlMap_Override(g GoogleComputeRegionUrlMap, scope co
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMap",
+		"@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMap",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -790,7 +790,7 @@ func GoogleComputeRegionUrlMap_GenerateConfigForImport(scope constructs.Construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMap",
+		"@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMap",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -825,7 +825,7 @@ func GoogleComputeRegionUrlMap_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMap",
+		"@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMap",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -844,7 +844,7 @@ func GoogleComputeRegionUrlMap_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMap",
+		"@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMap",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -863,7 +863,7 @@ func GoogleComputeRegionUrlMap_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMap",
+		"@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMap",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -876,7 +876,7 @@ func GoogleComputeRegionUrlMap_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMap",
+		"@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMap",
 		"tfResourceType",
 		&returns,
 	)

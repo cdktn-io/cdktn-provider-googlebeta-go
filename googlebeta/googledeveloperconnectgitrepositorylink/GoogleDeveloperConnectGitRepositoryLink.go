@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googledeveloperconnectgitrepositorylink
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googledeveloperconnectgitrepositorylink/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googledeveloperconnectgitrepositorylink/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -631,7 +631,7 @@ func NewGoogleDeveloperConnectGitRepositoryLink(scope constructs.Construct, id *
 	j := jsiiProxy_GoogleDeveloperConnectGitRepositoryLink{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleDeveloperConnectGitRepositoryLink.GoogleDeveloperConnectGitRepositoryLink",
+		"@cdktn/provider-google-beta.googleDeveloperConnectGitRepositoryLink.GoogleDeveloperConnectGitRepositoryLink",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -644,7 +644,7 @@ func NewGoogleDeveloperConnectGitRepositoryLink_Override(g GoogleDeveloperConnec
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleDeveloperConnectGitRepositoryLink.GoogleDeveloperConnectGitRepositoryLink",
+		"@cdktn/provider-google-beta.googleDeveloperConnectGitRepositoryLink.GoogleDeveloperConnectGitRepositoryLink",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -827,7 +827,7 @@ func GoogleDeveloperConnectGitRepositoryLink_GenerateConfigForImport(scope const
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleDeveloperConnectGitRepositoryLink.GoogleDeveloperConnectGitRepositoryLink",
+		"@cdktn/provider-google-beta.googleDeveloperConnectGitRepositoryLink.GoogleDeveloperConnectGitRepositoryLink",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -862,7 +862,7 @@ func GoogleDeveloperConnectGitRepositoryLink_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleDeveloperConnectGitRepositoryLink.GoogleDeveloperConnectGitRepositoryLink",
+		"@cdktn/provider-google-beta.googleDeveloperConnectGitRepositoryLink.GoogleDeveloperConnectGitRepositoryLink",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -881,7 +881,7 @@ func GoogleDeveloperConnectGitRepositoryLink_IsTerraformElement(x interface{}) *
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleDeveloperConnectGitRepositoryLink.GoogleDeveloperConnectGitRepositoryLink",
+		"@cdktn/provider-google-beta.googleDeveloperConnectGitRepositoryLink.GoogleDeveloperConnectGitRepositoryLink",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -900,7 +900,7 @@ func GoogleDeveloperConnectGitRepositoryLink_IsTerraformResource(x interface{}) 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleDeveloperConnectGitRepositoryLink.GoogleDeveloperConnectGitRepositoryLink",
+		"@cdktn/provider-google-beta.googleDeveloperConnectGitRepositoryLink.GoogleDeveloperConnectGitRepositoryLink",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -913,7 +913,7 @@ func GoogleDeveloperConnectGitRepositoryLink_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleDeveloperConnectGitRepositoryLink.GoogleDeveloperConnectGitRepositoryLink",
+		"@cdktn/provider-google-beta.googleDeveloperConnectGitRepositoryLink.GoogleDeveloperConnectGitRepositoryLink",
 		"tfResourceType",
 		&returns,
 	)

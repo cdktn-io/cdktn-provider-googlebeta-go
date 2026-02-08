@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlebiglaketable
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlebiglaketable/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlebiglaketable/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -494,7 +494,7 @@ func NewGoogleBiglakeTable(scope constructs.Construct, id *string, config *Googl
 	j := jsiiProxy_GoogleBiglakeTable{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleBiglakeTable.GoogleBiglakeTable",
+		"@cdktn/provider-google-beta.googleBiglakeTable.GoogleBiglakeTable",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -507,7 +507,7 @@ func NewGoogleBiglakeTable_Override(g GoogleBiglakeTable, scope constructs.Const
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleBiglakeTable.GoogleBiglakeTable",
+		"@cdktn/provider-google-beta.googleBiglakeTable.GoogleBiglakeTable",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -635,7 +635,7 @@ func GoogleBiglakeTable_GenerateConfigForImport(scope constructs.Construct, impo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleBiglakeTable.GoogleBiglakeTable",
+		"@cdktn/provider-google-beta.googleBiglakeTable.GoogleBiglakeTable",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -670,7 +670,7 @@ func GoogleBiglakeTable_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleBiglakeTable.GoogleBiglakeTable",
+		"@cdktn/provider-google-beta.googleBiglakeTable.GoogleBiglakeTable",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -689,7 +689,7 @@ func GoogleBiglakeTable_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleBiglakeTable.GoogleBiglakeTable",
+		"@cdktn/provider-google-beta.googleBiglakeTable.GoogleBiglakeTable",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -708,7 +708,7 @@ func GoogleBiglakeTable_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleBiglakeTable.GoogleBiglakeTable",
+		"@cdktn/provider-google-beta.googleBiglakeTable.GoogleBiglakeTable",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -721,7 +721,7 @@ func GoogleBiglakeTable_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleBiglakeTable.GoogleBiglakeTable",
+		"@cdktn/provider-google-beta.googleBiglakeTable.GoogleBiglakeTable",
 		"tfResourceType",
 		&returns,
 	)

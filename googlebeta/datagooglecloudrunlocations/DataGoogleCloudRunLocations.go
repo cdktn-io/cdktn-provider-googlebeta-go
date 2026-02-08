@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagooglecloudrunlocations
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/datagooglecloudrunlocations/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagooglecloudrunlocations/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -310,7 +310,7 @@ func NewDataGoogleCloudRunLocations(scope constructs.Construct, id *string, conf
 	j := jsiiProxy_DataGoogleCloudRunLocations{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.dataGoogleCloudRunLocations.DataGoogleCloudRunLocations",
+		"@cdktn/provider-google-beta.dataGoogleCloudRunLocations.DataGoogleCloudRunLocations",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -323,7 +323,7 @@ func NewDataGoogleCloudRunLocations_Override(d DataGoogleCloudRunLocations, scop
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.dataGoogleCloudRunLocations.DataGoogleCloudRunLocations",
+		"@cdktn/provider-google-beta.dataGoogleCloudRunLocations.DataGoogleCloudRunLocations",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -407,7 +407,7 @@ func DataGoogleCloudRunLocations_GenerateConfigForImport(scope constructs.Constr
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleCloudRunLocations.DataGoogleCloudRunLocations",
+		"@cdktn/provider-google-beta.dataGoogleCloudRunLocations.DataGoogleCloudRunLocations",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -442,7 +442,7 @@ func DataGoogleCloudRunLocations_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleCloudRunLocations.DataGoogleCloudRunLocations",
+		"@cdktn/provider-google-beta.dataGoogleCloudRunLocations.DataGoogleCloudRunLocations",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -461,7 +461,7 @@ func DataGoogleCloudRunLocations_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleCloudRunLocations.DataGoogleCloudRunLocations",
+		"@cdktn/provider-google-beta.dataGoogleCloudRunLocations.DataGoogleCloudRunLocations",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -480,7 +480,7 @@ func DataGoogleCloudRunLocations_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleCloudRunLocations.DataGoogleCloudRunLocations",
+		"@cdktn/provider-google-beta.dataGoogleCloudRunLocations.DataGoogleCloudRunLocations",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -493,7 +493,7 @@ func DataGoogleCloudRunLocations_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.dataGoogleCloudRunLocations.DataGoogleCloudRunLocations",
+		"@cdktn/provider-google-beta.dataGoogleCloudRunLocations.DataGoogleCloudRunLocations",
 		"tfResourceType",
 		&returns,
 	)

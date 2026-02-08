@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagooglecomputesubnetworks
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/datagooglecomputesubnetworks/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagooglecomputesubnetworks/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -71,10 +71,10 @@ type DataGoogleComputeSubnetworksSubnetworksOutputReference interface {
 	// Experimental.
 	InterpolationAsList() cdktf.IResolvable
 	// Experimental.
-	InterpolationForAttribute(property *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(_context cdktf.IResolveContext) interface{}
+	Resolve(context cdktf.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -247,7 +247,7 @@ func NewDataGoogleComputeSubnetworksSubnetworksOutputReference(terraformResource
 	j := jsiiProxy_DataGoogleComputeSubnetworksSubnetworksOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.dataGoogleComputeSubnetworks.DataGoogleComputeSubnetworksSubnetworksOutputReference",
+		"@cdktn/provider-google-beta.dataGoogleComputeSubnetworks.DataGoogleComputeSubnetworksSubnetworksOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -259,7 +259,7 @@ func NewDataGoogleComputeSubnetworksSubnetworksOutputReference_Override(d DataGo
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.dataGoogleComputeSubnetworks.DataGoogleComputeSubnetworksSubnetworksOutputReference",
+		"@cdktn/provider-google-beta.dataGoogleComputeSubnetworks.DataGoogleComputeSubnetworksSubnetworksOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
 	)
@@ -490,8 +490,8 @@ func (d *jsiiProxy_DataGoogleComputeSubnetworksSubnetworksOutputReference) Inter
 	return returns
 }
 
-func (d *jsiiProxy_DataGoogleComputeSubnetworksSubnetworksOutputReference) InterpolationForAttribute(property *string) cdktf.IResolvable {
-	if err := d.validateInterpolationForAttributeParameters(property); err != nil {
+func (d *jsiiProxy_DataGoogleComputeSubnetworksSubnetworksOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
 	var returns cdktf.IResolvable
@@ -499,15 +499,15 @@ func (d *jsiiProxy_DataGoogleComputeSubnetworksSubnetworksOutputReference) Inter
 	_jsii_.Invoke(
 		d,
 		"interpolationForAttribute",
-		[]interface{}{property},
+		[]interface{}{terraformAttribute},
 		&returns,
 	)
 
 	return returns
 }
 
-func (d *jsiiProxy_DataGoogleComputeSubnetworksSubnetworksOutputReference) Resolve(_context cdktf.IResolveContext) interface{} {
-	if err := d.validateResolveParameters(_context); err != nil {
+func (d *jsiiProxy_DataGoogleComputeSubnetworksSubnetworksOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}
 	var returns interface{}
@@ -515,7 +515,7 @@ func (d *jsiiProxy_DataGoogleComputeSubnetworksSubnetworksOutputReference) Resol
 	_jsii_.Invoke(
 		d,
 		"resolve",
-		[]interface{}{_context},
+		[]interface{}{context},
 		&returns,
 	)
 

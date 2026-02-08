@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googleprivatecacertificateauthority
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googleprivatecacertificateauthority/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleprivatecacertificateauthority/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -39,7 +39,7 @@ type GooglePrivatecaCertificateAuthorityAccessUrlsList interface {
 	Get(index *float64) GooglePrivatecaCertificateAuthorityAccessUrlsOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(_context cdktf.IResolveContext) interface{}
+	Resolve(context cdktf.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -112,7 +112,7 @@ func NewGooglePrivatecaCertificateAuthorityAccessUrlsList(terraformResource cdkt
 	j := jsiiProxy_GooglePrivatecaCertificateAuthorityAccessUrlsList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googlePrivatecaCertificateAuthority.GooglePrivatecaCertificateAuthorityAccessUrlsList",
+		"@cdktn/provider-google-beta.googlePrivatecaCertificateAuthority.GooglePrivatecaCertificateAuthorityAccessUrlsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewGooglePrivatecaCertificateAuthorityAccessUrlsList_Override(g GooglePriva
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googlePrivatecaCertificateAuthority.GooglePrivatecaCertificateAuthorityAccessUrlsList",
+		"@cdktn/provider-google-beta.googlePrivatecaCertificateAuthority.GooglePrivatecaCertificateAuthorityAccessUrlsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		g,
 	)
@@ -208,8 +208,8 @@ func (g *jsiiProxy_GooglePrivatecaCertificateAuthorityAccessUrlsList) Get(index 
 	return returns
 }
 
-func (g *jsiiProxy_GooglePrivatecaCertificateAuthorityAccessUrlsList) Resolve(_context cdktf.IResolveContext) interface{} {
-	if err := g.validateResolveParameters(_context); err != nil {
+func (g *jsiiProxy_GooglePrivatecaCertificateAuthorityAccessUrlsList) Resolve(context cdktf.IResolveContext) interface{} {
+	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}
 	var returns interface{}
@@ -217,7 +217,7 @@ func (g *jsiiProxy_GooglePrivatecaCertificateAuthorityAccessUrlsList) Resolve(_c
 	_jsii_.Invoke(
 		g,
 		"resolve",
-		[]interface{}{_context},
+		[]interface{}{context},
 		&returns,
 	)
 

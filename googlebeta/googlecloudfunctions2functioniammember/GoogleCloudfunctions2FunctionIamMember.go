@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlecloudfunctions2functioniammember
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlecloudfunctions2functioniammember/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecloudfunctions2functioniammember/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -472,7 +472,7 @@ func NewGoogleCloudfunctions2FunctionIamMember(scope constructs.Construct, id *s
 	j := jsiiProxy_GoogleCloudfunctions2FunctionIamMember{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleCloudfunctions2FunctionIamMember.GoogleCloudfunctions2FunctionIamMember",
+		"@cdktn/provider-google-beta.googleCloudfunctions2FunctionIamMember.GoogleCloudfunctions2FunctionIamMember",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -485,7 +485,7 @@ func NewGoogleCloudfunctions2FunctionIamMember_Override(g GoogleCloudfunctions2F
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleCloudfunctions2FunctionIamMember.GoogleCloudfunctions2FunctionIamMember",
+		"@cdktn/provider-google-beta.googleCloudfunctions2FunctionIamMember.GoogleCloudfunctions2FunctionIamMember",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -635,7 +635,7 @@ func GoogleCloudfunctions2FunctionIamMember_GenerateConfigForImport(scope constr
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleCloudfunctions2FunctionIamMember.GoogleCloudfunctions2FunctionIamMember",
+		"@cdktn/provider-google-beta.googleCloudfunctions2FunctionIamMember.GoogleCloudfunctions2FunctionIamMember",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -670,7 +670,7 @@ func GoogleCloudfunctions2FunctionIamMember_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleCloudfunctions2FunctionIamMember.GoogleCloudfunctions2FunctionIamMember",
+		"@cdktn/provider-google-beta.googleCloudfunctions2FunctionIamMember.GoogleCloudfunctions2FunctionIamMember",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -689,7 +689,7 @@ func GoogleCloudfunctions2FunctionIamMember_IsTerraformElement(x interface{}) *b
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleCloudfunctions2FunctionIamMember.GoogleCloudfunctions2FunctionIamMember",
+		"@cdktn/provider-google-beta.googleCloudfunctions2FunctionIamMember.GoogleCloudfunctions2FunctionIamMember",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -708,7 +708,7 @@ func GoogleCloudfunctions2FunctionIamMember_IsTerraformResource(x interface{}) *
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleCloudfunctions2FunctionIamMember.GoogleCloudfunctions2FunctionIamMember",
+		"@cdktn/provider-google-beta.googleCloudfunctions2FunctionIamMember.GoogleCloudfunctions2FunctionIamMember",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -721,7 +721,7 @@ func GoogleCloudfunctions2FunctionIamMember_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleCloudfunctions2FunctionIamMember.GoogleCloudfunctions2FunctionIamMember",
+		"@cdktn/provider-google-beta.googleCloudfunctions2FunctionIamMember.GoogleCloudfunctions2FunctionIamMember",
 		"tfResourceType",
 		&returns,
 	)

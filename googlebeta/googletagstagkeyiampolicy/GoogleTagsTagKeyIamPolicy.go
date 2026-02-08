@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googletagstagkeyiampolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googletagstagkeyiampolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googletagstagkeyiampolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -377,7 +377,7 @@ func NewGoogleTagsTagKeyIamPolicy(scope constructs.Construct, id *string, config
 	j := jsiiProxy_GoogleTagsTagKeyIamPolicy{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleTagsTagKeyIamPolicy.GoogleTagsTagKeyIamPolicy",
+		"@cdktn/provider-google-beta.googleTagsTagKeyIamPolicy.GoogleTagsTagKeyIamPolicy",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -390,7 +390,7 @@ func NewGoogleTagsTagKeyIamPolicy_Override(g GoogleTagsTagKeyIamPolicy, scope co
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleTagsTagKeyIamPolicy.GoogleTagsTagKeyIamPolicy",
+		"@cdktn/provider-google-beta.googleTagsTagKeyIamPolicy.GoogleTagsTagKeyIamPolicy",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -507,7 +507,7 @@ func GoogleTagsTagKeyIamPolicy_GenerateConfigForImport(scope constructs.Construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleTagsTagKeyIamPolicy.GoogleTagsTagKeyIamPolicy",
+		"@cdktn/provider-google-beta.googleTagsTagKeyIamPolicy.GoogleTagsTagKeyIamPolicy",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -542,7 +542,7 @@ func GoogleTagsTagKeyIamPolicy_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleTagsTagKeyIamPolicy.GoogleTagsTagKeyIamPolicy",
+		"@cdktn/provider-google-beta.googleTagsTagKeyIamPolicy.GoogleTagsTagKeyIamPolicy",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -561,7 +561,7 @@ func GoogleTagsTagKeyIamPolicy_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleTagsTagKeyIamPolicy.GoogleTagsTagKeyIamPolicy",
+		"@cdktn/provider-google-beta.googleTagsTagKeyIamPolicy.GoogleTagsTagKeyIamPolicy",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -580,7 +580,7 @@ func GoogleTagsTagKeyIamPolicy_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleTagsTagKeyIamPolicy.GoogleTagsTagKeyIamPolicy",
+		"@cdktn/provider-google-beta.googleTagsTagKeyIamPolicy.GoogleTagsTagKeyIamPolicy",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -593,7 +593,7 @@ func GoogleTagsTagKeyIamPolicy_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleTagsTagKeyIamPolicy.GoogleTagsTagKeyIamPolicy",
+		"@cdktn/provider-google-beta.googleTagsTagKeyIamPolicy.GoogleTagsTagKeyIamPolicy",
 		"tfResourceType",
 		&returns,
 	)

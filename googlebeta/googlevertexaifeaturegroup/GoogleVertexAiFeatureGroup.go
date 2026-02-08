@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlevertexaifeaturegroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlevertexaifeaturegroup/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlevertexaifeaturegroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -543,7 +543,7 @@ func NewGoogleVertexAiFeatureGroup(scope constructs.Construct, id *string, confi
 	j := jsiiProxy_GoogleVertexAiFeatureGroup{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleVertexAiFeatureGroup.GoogleVertexAiFeatureGroup",
+		"@cdktn/provider-google-beta.googleVertexAiFeatureGroup.GoogleVertexAiFeatureGroup",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -556,7 +556,7 @@ func NewGoogleVertexAiFeatureGroup_Override(g GoogleVertexAiFeatureGroup, scope 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleVertexAiFeatureGroup.GoogleVertexAiFeatureGroup",
+		"@cdktn/provider-google-beta.googleVertexAiFeatureGroup.GoogleVertexAiFeatureGroup",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -706,7 +706,7 @@ func GoogleVertexAiFeatureGroup_GenerateConfigForImport(scope constructs.Constru
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleVertexAiFeatureGroup.GoogleVertexAiFeatureGroup",
+		"@cdktn/provider-google-beta.googleVertexAiFeatureGroup.GoogleVertexAiFeatureGroup",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -741,7 +741,7 @@ func GoogleVertexAiFeatureGroup_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleVertexAiFeatureGroup.GoogleVertexAiFeatureGroup",
+		"@cdktn/provider-google-beta.googleVertexAiFeatureGroup.GoogleVertexAiFeatureGroup",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -760,7 +760,7 @@ func GoogleVertexAiFeatureGroup_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleVertexAiFeatureGroup.GoogleVertexAiFeatureGroup",
+		"@cdktn/provider-google-beta.googleVertexAiFeatureGroup.GoogleVertexAiFeatureGroup",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -779,7 +779,7 @@ func GoogleVertexAiFeatureGroup_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleVertexAiFeatureGroup.GoogleVertexAiFeatureGroup",
+		"@cdktn/provider-google-beta.googleVertexAiFeatureGroup.GoogleVertexAiFeatureGroup",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -792,7 +792,7 @@ func GoogleVertexAiFeatureGroup_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleVertexAiFeatureGroup.GoogleVertexAiFeatureGroup",
+		"@cdktn/provider-google-beta.googleVertexAiFeatureGroup.GoogleVertexAiFeatureGroup",
 		"tfResourceType",
 		&returns,
 	)

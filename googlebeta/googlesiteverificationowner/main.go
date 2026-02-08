@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlesiteverificationowner
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleSiteVerificationOwner.GoogleSiteVerificationOwner",
+		"@cdktn/provider-google-beta.googleSiteVerificationOwner.GoogleSiteVerificationOwner",
 		reflect.TypeOf((*GoogleSiteVerificationOwner)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -74,15 +74,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleSiteVerificationOwner.GoogleSiteVerificationOwnerConfig",
+		"@cdktn/provider-google-beta.googleSiteVerificationOwner.GoogleSiteVerificationOwnerConfig",
 		reflect.TypeOf((*GoogleSiteVerificationOwnerConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleSiteVerificationOwner.GoogleSiteVerificationOwnerTimeouts",
+		"@cdktn/provider-google-beta.googleSiteVerificationOwner.GoogleSiteVerificationOwnerTimeouts",
 		reflect.TypeOf((*GoogleSiteVerificationOwnerTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleSiteVerificationOwner.GoogleSiteVerificationOwnerTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleSiteVerificationOwner.GoogleSiteVerificationOwnerTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleSiteVerificationOwnerTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

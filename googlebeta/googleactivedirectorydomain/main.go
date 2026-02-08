@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googleactivedirectorydomain
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleActiveDirectoryDomain.GoogleActiveDirectoryDomain",
+		"@cdktn/provider-google-beta.googleActiveDirectoryDomain.GoogleActiveDirectoryDomain",
 		reflect.TypeOf((*GoogleActiveDirectoryDomain)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -95,15 +95,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleActiveDirectoryDomain.GoogleActiveDirectoryDomainConfig",
+		"@cdktn/provider-google-beta.googleActiveDirectoryDomain.GoogleActiveDirectoryDomainConfig",
 		reflect.TypeOf((*GoogleActiveDirectoryDomainConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleActiveDirectoryDomain.GoogleActiveDirectoryDomainTimeouts",
+		"@cdktn/provider-google-beta.googleActiveDirectoryDomain.GoogleActiveDirectoryDomainTimeouts",
 		reflect.TypeOf((*GoogleActiveDirectoryDomainTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleActiveDirectoryDomain.GoogleActiveDirectoryDomainTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleActiveDirectoryDomain.GoogleActiveDirectoryDomainTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleActiveDirectoryDomainTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

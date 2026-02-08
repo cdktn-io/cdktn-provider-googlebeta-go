@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlefirebaseapphostingdomain
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlefirebaseapphostingdomain/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlefirebaseapphostingdomain/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -549,7 +549,7 @@ func NewGoogleFirebaseAppHostingDomain(scope constructs.Construct, id *string, c
 	j := jsiiProxy_GoogleFirebaseAppHostingDomain{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleFirebaseAppHostingDomain.GoogleFirebaseAppHostingDomain",
+		"@cdktn/provider-google-beta.googleFirebaseAppHostingDomain.GoogleFirebaseAppHostingDomain",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -562,7 +562,7 @@ func NewGoogleFirebaseAppHostingDomain_Override(g GoogleFirebaseAppHostingDomain
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleFirebaseAppHostingDomain.GoogleFirebaseAppHostingDomain",
+		"@cdktn/provider-google-beta.googleFirebaseAppHostingDomain.GoogleFirebaseAppHostingDomain",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -701,7 +701,7 @@ func GoogleFirebaseAppHostingDomain_GenerateConfigForImport(scope constructs.Con
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleFirebaseAppHostingDomain.GoogleFirebaseAppHostingDomain",
+		"@cdktn/provider-google-beta.googleFirebaseAppHostingDomain.GoogleFirebaseAppHostingDomain",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -736,7 +736,7 @@ func GoogleFirebaseAppHostingDomain_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleFirebaseAppHostingDomain.GoogleFirebaseAppHostingDomain",
+		"@cdktn/provider-google-beta.googleFirebaseAppHostingDomain.GoogleFirebaseAppHostingDomain",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -755,7 +755,7 @@ func GoogleFirebaseAppHostingDomain_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleFirebaseAppHostingDomain.GoogleFirebaseAppHostingDomain",
+		"@cdktn/provider-google-beta.googleFirebaseAppHostingDomain.GoogleFirebaseAppHostingDomain",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -774,7 +774,7 @@ func GoogleFirebaseAppHostingDomain_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleFirebaseAppHostingDomain.GoogleFirebaseAppHostingDomain",
+		"@cdktn/provider-google-beta.googleFirebaseAppHostingDomain.GoogleFirebaseAppHostingDomain",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -787,7 +787,7 @@ func GoogleFirebaseAppHostingDomain_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleFirebaseAppHostingDomain.GoogleFirebaseAppHostingDomain",
+		"@cdktn/provider-google-beta.googleFirebaseAppHostingDomain.GoogleFirebaseAppHostingDomain",
 		"tfResourceType",
 		&returns,
 	)

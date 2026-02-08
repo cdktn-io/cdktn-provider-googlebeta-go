@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googleiamoauthclient
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleIamOauthClient.GoogleIamOauthClient",
+		"@cdktn/provider-google-beta.googleIamOauthClient.GoogleIamOauthClient",
 		reflect.TypeOf((*GoogleIamOauthClient)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -99,15 +99,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleIamOauthClient.GoogleIamOauthClientConfig",
+		"@cdktn/provider-google-beta.googleIamOauthClient.GoogleIamOauthClientConfig",
 		reflect.TypeOf((*GoogleIamOauthClientConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleIamOauthClient.GoogleIamOauthClientTimeouts",
+		"@cdktn/provider-google-beta.googleIamOauthClient.GoogleIamOauthClientTimeouts",
 		reflect.TypeOf((*GoogleIamOauthClientTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleIamOauthClient.GoogleIamOauthClientTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleIamOauthClient.GoogleIamOauthClientTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleIamOauthClientTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

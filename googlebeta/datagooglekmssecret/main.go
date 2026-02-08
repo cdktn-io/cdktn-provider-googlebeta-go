@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagooglekmssecret
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleKmsSecret.DataGoogleKmsSecret",
+		"@cdktn/provider-google-beta.dataGoogleKmsSecret.DataGoogleKmsSecret",
 		reflect.TypeOf((*DataGoogleKmsSecret)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "additionalAuthenticatedData", GoGetter: "AdditionalAuthenticatedData"},
@@ -66,7 +66,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleKmsSecret.DataGoogleKmsSecretConfig",
+		"@cdktn/provider-google-beta.dataGoogleKmsSecret.DataGoogleKmsSecretConfig",
 		reflect.TypeOf((*DataGoogleKmsSecretConfig)(nil)).Elem(),
 	)
 }

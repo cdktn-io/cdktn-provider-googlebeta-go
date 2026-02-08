@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagooglebigquerytables
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleBigqueryTables.DataGoogleBigqueryTables",
+		"@cdktn/provider-google-beta.dataGoogleBigqueryTables.DataGoogleBigqueryTables",
 		reflect.TypeOf((*DataGoogleBigqueryTables)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -64,15 +64,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleBigqueryTables.DataGoogleBigqueryTablesConfig",
+		"@cdktn/provider-google-beta.dataGoogleBigqueryTables.DataGoogleBigqueryTablesConfig",
 		reflect.TypeOf((*DataGoogleBigqueryTablesConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleBigqueryTables.DataGoogleBigqueryTablesTables",
+		"@cdktn/provider-google-beta.dataGoogleBigqueryTables.DataGoogleBigqueryTablesTables",
 		reflect.TypeOf((*DataGoogleBigqueryTablesTables)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleBigqueryTables.DataGoogleBigqueryTablesTablesList",
+		"@cdktn/provider-google-beta.dataGoogleBigqueryTables.DataGoogleBigqueryTablesTablesList",
 		reflect.TypeOf((*DataGoogleBigqueryTablesTablesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -93,7 +93,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleBigqueryTables.DataGoogleBigqueryTablesTablesOutputReference",
+		"@cdktn/provider-google-beta.dataGoogleBigqueryTables.DataGoogleBigqueryTablesTablesOutputReference",
 		reflect.TypeOf((*DataGoogleBigqueryTablesTablesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

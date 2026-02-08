@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googleiamworkloadidentitypooliammember
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleIamWorkloadIdentityPoolIamMember.GoogleIamWorkloadIdentityPoolIamMember",
+		"@cdktn/provider-google-beta.googleIamWorkloadIdentityPoolIamMember.GoogleIamWorkloadIdentityPoolIamMember",
 		reflect.TypeOf((*GoogleIamWorkloadIdentityPoolIamMember)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -80,11 +80,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleIamWorkloadIdentityPoolIamMember.GoogleIamWorkloadIdentityPoolIamMemberCondition",
+		"@cdktn/provider-google-beta.googleIamWorkloadIdentityPoolIamMember.GoogleIamWorkloadIdentityPoolIamMemberCondition",
 		reflect.TypeOf((*GoogleIamWorkloadIdentityPoolIamMemberCondition)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleIamWorkloadIdentityPoolIamMember.GoogleIamWorkloadIdentityPoolIamMemberConditionOutputReference",
+		"@cdktn/provider-google-beta.googleIamWorkloadIdentityPoolIamMember.GoogleIamWorkloadIdentityPoolIamMemberConditionOutputReference",
 		reflect.TypeOf((*GoogleIamWorkloadIdentityPoolIamMemberConditionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -123,7 +123,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleIamWorkloadIdentityPoolIamMember.GoogleIamWorkloadIdentityPoolIamMemberConfig",
+		"@cdktn/provider-google-beta.googleIamWorkloadIdentityPoolIamMember.GoogleIamWorkloadIdentityPoolIamMemberConfig",
 		reflect.TypeOf((*GoogleIamWorkloadIdentityPoolIamMemberConfig)(nil)).Elem(),
 	)
 }

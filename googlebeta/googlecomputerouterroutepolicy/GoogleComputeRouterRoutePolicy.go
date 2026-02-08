@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlecomputerouterroutepolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlecomputerouterroutepolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecomputerouterroutepolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -496,7 +496,7 @@ func NewGoogleComputeRouterRoutePolicy(scope constructs.Construct, id *string, c
 	j := jsiiProxy_GoogleComputeRouterRoutePolicy{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleComputeRouterRoutePolicy.GoogleComputeRouterRoutePolicy",
+		"@cdktn/provider-google-beta.googleComputeRouterRoutePolicy.GoogleComputeRouterRoutePolicy",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -509,7 +509,7 @@ func NewGoogleComputeRouterRoutePolicy_Override(g GoogleComputeRouterRoutePolicy
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleComputeRouterRoutePolicy.GoogleComputeRouterRoutePolicy",
+		"@cdktn/provider-google-beta.googleComputeRouterRoutePolicy.GoogleComputeRouterRoutePolicy",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -659,7 +659,7 @@ func GoogleComputeRouterRoutePolicy_GenerateConfigForImport(scope constructs.Con
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleComputeRouterRoutePolicy.GoogleComputeRouterRoutePolicy",
+		"@cdktn/provider-google-beta.googleComputeRouterRoutePolicy.GoogleComputeRouterRoutePolicy",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -694,7 +694,7 @@ func GoogleComputeRouterRoutePolicy_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleComputeRouterRoutePolicy.GoogleComputeRouterRoutePolicy",
+		"@cdktn/provider-google-beta.googleComputeRouterRoutePolicy.GoogleComputeRouterRoutePolicy",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -713,7 +713,7 @@ func GoogleComputeRouterRoutePolicy_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleComputeRouterRoutePolicy.GoogleComputeRouterRoutePolicy",
+		"@cdktn/provider-google-beta.googleComputeRouterRoutePolicy.GoogleComputeRouterRoutePolicy",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -732,7 +732,7 @@ func GoogleComputeRouterRoutePolicy_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleComputeRouterRoutePolicy.GoogleComputeRouterRoutePolicy",
+		"@cdktn/provider-google-beta.googleComputeRouterRoutePolicy.GoogleComputeRouterRoutePolicy",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -745,7 +745,7 @@ func GoogleComputeRouterRoutePolicy_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleComputeRouterRoutePolicy.GoogleComputeRouterRoutePolicy",
+		"@cdktn/provider-google-beta.googleComputeRouterRoutePolicy.GoogleComputeRouterRoutePolicy",
 		"tfResourceType",
 		&returns,
 	)

@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlestoragebatchoperationsjob
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlestoragebatchoperationsjob/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlestoragebatchoperationsjob/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -591,7 +591,7 @@ func NewGoogleStorageBatchOperationsJob(scope constructs.Construct, id *string, 
 	j := jsiiProxy_GoogleStorageBatchOperationsJob{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleStorageBatchOperationsJob.GoogleStorageBatchOperationsJob",
+		"@cdktn/provider-google-beta.googleStorageBatchOperationsJob.GoogleStorageBatchOperationsJob",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -604,7 +604,7 @@ func NewGoogleStorageBatchOperationsJob_Override(g GoogleStorageBatchOperationsJ
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleStorageBatchOperationsJob.GoogleStorageBatchOperationsJob",
+		"@cdktn/provider-google-beta.googleStorageBatchOperationsJob.GoogleStorageBatchOperationsJob",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -732,7 +732,7 @@ func GoogleStorageBatchOperationsJob_GenerateConfigForImport(scope constructs.Co
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleStorageBatchOperationsJob.GoogleStorageBatchOperationsJob",
+		"@cdktn/provider-google-beta.googleStorageBatchOperationsJob.GoogleStorageBatchOperationsJob",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -767,7 +767,7 @@ func GoogleStorageBatchOperationsJob_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleStorageBatchOperationsJob.GoogleStorageBatchOperationsJob",
+		"@cdktn/provider-google-beta.googleStorageBatchOperationsJob.GoogleStorageBatchOperationsJob",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -786,7 +786,7 @@ func GoogleStorageBatchOperationsJob_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleStorageBatchOperationsJob.GoogleStorageBatchOperationsJob",
+		"@cdktn/provider-google-beta.googleStorageBatchOperationsJob.GoogleStorageBatchOperationsJob",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -805,7 +805,7 @@ func GoogleStorageBatchOperationsJob_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleStorageBatchOperationsJob.GoogleStorageBatchOperationsJob",
+		"@cdktn/provider-google-beta.googleStorageBatchOperationsJob.GoogleStorageBatchOperationsJob",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -818,7 +818,7 @@ func GoogleStorageBatchOperationsJob_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleStorageBatchOperationsJob.GoogleStorageBatchOperationsJob",
+		"@cdktn/provider-google-beta.googleStorageBatchOperationsJob.GoogleStorageBatchOperationsJob",
 		"tfResourceType",
 		&returns,
 	)

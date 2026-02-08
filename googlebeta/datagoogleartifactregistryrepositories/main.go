@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagoogleartifactregistryrepositories
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleArtifactRegistryRepositories.DataGoogleArtifactRegistryRepositories",
+		"@cdktn/provider-google-beta.dataGoogleArtifactRegistryRepositories.DataGoogleArtifactRegistryRepositories",
 		reflect.TypeOf((*DataGoogleArtifactRegistryRepositories)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -67,15 +67,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleArtifactRegistryRepositories.DataGoogleArtifactRegistryRepositoriesConfig",
+		"@cdktn/provider-google-beta.dataGoogleArtifactRegistryRepositories.DataGoogleArtifactRegistryRepositoriesConfig",
 		reflect.TypeOf((*DataGoogleArtifactRegistryRepositoriesConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleArtifactRegistryRepositories.DataGoogleArtifactRegistryRepositoriesRepositories",
+		"@cdktn/provider-google-beta.dataGoogleArtifactRegistryRepositories.DataGoogleArtifactRegistryRepositoriesRepositories",
 		reflect.TypeOf((*DataGoogleArtifactRegistryRepositoriesRepositories)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleArtifactRegistryRepositories.DataGoogleArtifactRegistryRepositoriesRepositoriesList",
+		"@cdktn/provider-google-beta.dataGoogleArtifactRegistryRepositories.DataGoogleArtifactRegistryRepositoriesRepositoriesList",
 		reflect.TypeOf((*DataGoogleArtifactRegistryRepositoriesRepositoriesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -96,7 +96,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleArtifactRegistryRepositories.DataGoogleArtifactRegistryRepositoriesRepositoriesOutputReference",
+		"@cdktn/provider-google-beta.dataGoogleArtifactRegistryRepositories.DataGoogleArtifactRegistryRepositoriesRepositoriesOutputReference",
 		reflect.TypeOf((*DataGoogleArtifactRegistryRepositoriesRepositoriesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

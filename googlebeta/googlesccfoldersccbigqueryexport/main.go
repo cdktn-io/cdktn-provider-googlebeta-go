@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlesccfoldersccbigqueryexport
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleSccFolderSccBigQueryExport.GoogleSccFolderSccBigQueryExport",
+		"@cdktn/provider-google-beta.googleSccFolderSccBigQueryExport.GoogleSccFolderSccBigQueryExport",
 		reflect.TypeOf((*GoogleSccFolderSccBigQueryExport)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -85,15 +85,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleSccFolderSccBigQueryExport.GoogleSccFolderSccBigQueryExportConfig",
+		"@cdktn/provider-google-beta.googleSccFolderSccBigQueryExport.GoogleSccFolderSccBigQueryExportConfig",
 		reflect.TypeOf((*GoogleSccFolderSccBigQueryExportConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleSccFolderSccBigQueryExport.GoogleSccFolderSccBigQueryExportTimeouts",
+		"@cdktn/provider-google-beta.googleSccFolderSccBigQueryExport.GoogleSccFolderSccBigQueryExportTimeouts",
 		reflect.TypeOf((*GoogleSccFolderSccBigQueryExportTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleSccFolderSccBigQueryExport.GoogleSccFolderSccBigQueryExportTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleSccFolderSccBigQueryExport.GoogleSccFolderSccBigQueryExportTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleSccFolderSccBigQueryExportTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

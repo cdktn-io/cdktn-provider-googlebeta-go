@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googledataplextaskiambinding
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding",
+		"@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBinding",
 		reflect.TypeOf((*GoogleDataplexTaskIamBinding)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -85,11 +85,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingCondition",
+		"@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingCondition",
 		reflect.TypeOf((*GoogleDataplexTaskIamBindingCondition)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference",
+		"@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConditionOutputReference",
 		reflect.TypeOf((*GoogleDataplexTaskIamBindingConditionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -128,7 +128,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConfig",
+		"@cdktn/provider-google-beta.googleDataplexTaskIamBinding.GoogleDataplexTaskIamBindingConfig",
 		reflect.TypeOf((*GoogleDataplexTaskIamBindingConfig)(nil)).Elem(),
 	)
 }

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagooglevmwareengineexternaladdress
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleVmwareengineExternalAddress.DataGoogleVmwareengineExternalAddress",
+		"@cdktn/provider-google-beta.dataGoogleVmwareengineExternalAddress.DataGoogleVmwareengineExternalAddress",
 		reflect.TypeOf((*DataGoogleVmwareengineExternalAddress)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -69,7 +69,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleVmwareengineExternalAddress.DataGoogleVmwareengineExternalAddressConfig",
+		"@cdktn/provider-google-beta.dataGoogleVmwareengineExternalAddress.DataGoogleVmwareengineExternalAddressConfig",
 		reflect.TypeOf((*DataGoogleVmwareengineExternalAddressConfig)(nil)).Elem(),
 	)
 }

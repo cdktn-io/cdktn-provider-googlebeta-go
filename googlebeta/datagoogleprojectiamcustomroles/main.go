@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagoogleprojectiamcustomroles
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleProjectIamCustomRoles.DataGoogleProjectIamCustomRoles",
+		"@cdktn/provider-google-beta.dataGoogleProjectIamCustomRoles.DataGoogleProjectIamCustomRoles",
 		reflect.TypeOf((*DataGoogleProjectIamCustomRoles)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -68,15 +68,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleProjectIamCustomRoles.DataGoogleProjectIamCustomRolesConfig",
+		"@cdktn/provider-google-beta.dataGoogleProjectIamCustomRoles.DataGoogleProjectIamCustomRolesConfig",
 		reflect.TypeOf((*DataGoogleProjectIamCustomRolesConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleProjectIamCustomRoles.DataGoogleProjectIamCustomRolesRoles",
+		"@cdktn/provider-google-beta.dataGoogleProjectIamCustomRoles.DataGoogleProjectIamCustomRolesRoles",
 		reflect.TypeOf((*DataGoogleProjectIamCustomRolesRoles)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleProjectIamCustomRoles.DataGoogleProjectIamCustomRolesRolesList",
+		"@cdktn/provider-google-beta.dataGoogleProjectIamCustomRoles.DataGoogleProjectIamCustomRolesRolesList",
 		reflect.TypeOf((*DataGoogleProjectIamCustomRolesRolesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -97,7 +97,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleProjectIamCustomRoles.DataGoogleProjectIamCustomRolesRolesOutputReference",
+		"@cdktn/provider-google-beta.dataGoogleProjectIamCustomRoles.DataGoogleProjectIamCustomRolesRolesOutputReference",
 		reflect.TypeOf((*DataGoogleProjectIamCustomRolesRolesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

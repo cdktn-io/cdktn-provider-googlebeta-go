@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagooglekmssecret
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/datagooglekmssecret/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagooglekmssecret/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -356,7 +356,7 @@ func NewDataGoogleKmsSecret(scope constructs.Construct, id *string, config *Data
 	j := jsiiProxy_DataGoogleKmsSecret{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.dataGoogleKmsSecret.DataGoogleKmsSecret",
+		"@cdktn/provider-google-beta.dataGoogleKmsSecret.DataGoogleKmsSecret",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -369,7 +369,7 @@ func NewDataGoogleKmsSecret_Override(d DataGoogleKmsSecret, scope constructs.Con
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.dataGoogleKmsSecret.DataGoogleKmsSecret",
+		"@cdktn/provider-google-beta.dataGoogleKmsSecret.DataGoogleKmsSecret",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -475,7 +475,7 @@ func DataGoogleKmsSecret_GenerateConfigForImport(scope constructs.Construct, imp
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleKmsSecret.DataGoogleKmsSecret",
+		"@cdktn/provider-google-beta.dataGoogleKmsSecret.DataGoogleKmsSecret",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -510,7 +510,7 @@ func DataGoogleKmsSecret_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleKmsSecret.DataGoogleKmsSecret",
+		"@cdktn/provider-google-beta.dataGoogleKmsSecret.DataGoogleKmsSecret",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -529,7 +529,7 @@ func DataGoogleKmsSecret_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleKmsSecret.DataGoogleKmsSecret",
+		"@cdktn/provider-google-beta.dataGoogleKmsSecret.DataGoogleKmsSecret",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -548,7 +548,7 @@ func DataGoogleKmsSecret_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleKmsSecret.DataGoogleKmsSecret",
+		"@cdktn/provider-google-beta.dataGoogleKmsSecret.DataGoogleKmsSecret",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -561,7 +561,7 @@ func DataGoogleKmsSecret_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.dataGoogleKmsSecret.DataGoogleKmsSecret",
+		"@cdktn/provider-google-beta.dataGoogleKmsSecret.DataGoogleKmsSecret",
 		"tfResourceType",
 		&returns,
 	)

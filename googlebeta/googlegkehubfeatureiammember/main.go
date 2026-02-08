@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlegkehubfeatureiammember
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleGkeHubFeatureIamMember.GoogleGkeHubFeatureIamMember",
+		"@cdktn/provider-google-beta.googleGkeHubFeatureIamMember.GoogleGkeHubFeatureIamMember",
 		reflect.TypeOf((*GoogleGkeHubFeatureIamMember)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -83,11 +83,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleGkeHubFeatureIamMember.GoogleGkeHubFeatureIamMemberCondition",
+		"@cdktn/provider-google-beta.googleGkeHubFeatureIamMember.GoogleGkeHubFeatureIamMemberCondition",
 		reflect.TypeOf((*GoogleGkeHubFeatureIamMemberCondition)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleGkeHubFeatureIamMember.GoogleGkeHubFeatureIamMemberConditionOutputReference",
+		"@cdktn/provider-google-beta.googleGkeHubFeatureIamMember.GoogleGkeHubFeatureIamMemberConditionOutputReference",
 		reflect.TypeOf((*GoogleGkeHubFeatureIamMemberConditionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -126,7 +126,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleGkeHubFeatureIamMember.GoogleGkeHubFeatureIamMemberConfig",
+		"@cdktn/provider-google-beta.googleGkeHubFeatureIamMember.GoogleGkeHubFeatureIamMemberConfig",
 		reflect.TypeOf((*GoogleGkeHubFeatureIamMemberConfig)(nil)).Elem(),
 	)
 }

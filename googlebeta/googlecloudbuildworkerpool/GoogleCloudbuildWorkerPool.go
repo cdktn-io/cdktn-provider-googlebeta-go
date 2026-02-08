@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlecloudbuildworkerpool
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlecloudbuildworkerpool/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecloudbuildworkerpool/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -600,7 +600,7 @@ func NewGoogleCloudbuildWorkerPool(scope constructs.Construct, id *string, confi
 	j := jsiiProxy_GoogleCloudbuildWorkerPool{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleCloudbuildWorkerPool.GoogleCloudbuildWorkerPool",
+		"@cdktn/provider-google-beta.googleCloudbuildWorkerPool.GoogleCloudbuildWorkerPool",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -613,7 +613,7 @@ func NewGoogleCloudbuildWorkerPool_Override(g GoogleCloudbuildWorkerPool, scope 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleCloudbuildWorkerPool.GoogleCloudbuildWorkerPool",
+		"@cdktn/provider-google-beta.googleCloudbuildWorkerPool.GoogleCloudbuildWorkerPool",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -763,7 +763,7 @@ func GoogleCloudbuildWorkerPool_GenerateConfigForImport(scope constructs.Constru
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleCloudbuildWorkerPool.GoogleCloudbuildWorkerPool",
+		"@cdktn/provider-google-beta.googleCloudbuildWorkerPool.GoogleCloudbuildWorkerPool",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -798,7 +798,7 @@ func GoogleCloudbuildWorkerPool_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleCloudbuildWorkerPool.GoogleCloudbuildWorkerPool",
+		"@cdktn/provider-google-beta.googleCloudbuildWorkerPool.GoogleCloudbuildWorkerPool",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -817,7 +817,7 @@ func GoogleCloudbuildWorkerPool_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleCloudbuildWorkerPool.GoogleCloudbuildWorkerPool",
+		"@cdktn/provider-google-beta.googleCloudbuildWorkerPool.GoogleCloudbuildWorkerPool",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -836,7 +836,7 @@ func GoogleCloudbuildWorkerPool_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleCloudbuildWorkerPool.GoogleCloudbuildWorkerPool",
+		"@cdktn/provider-google-beta.googleCloudbuildWorkerPool.GoogleCloudbuildWorkerPool",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -849,7 +849,7 @@ func GoogleCloudbuildWorkerPool_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleCloudbuildWorkerPool.GoogleCloudbuildWorkerPool",
+		"@cdktn/provider-google-beta.googleCloudbuildWorkerPool.GoogleCloudbuildWorkerPool",
 		"tfResourceType",
 		&returns,
 	)

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 //go:build !no_runtime_type_checking
@@ -27,9 +27,9 @@ func (d *jsiiProxy_DataGoogleFolderOrganizationPolicyListPolicyList) validateGet
 	return nil
 }
 
-func (d *jsiiProxy_DataGoogleFolderOrganizationPolicyListPolicyList) validateResolveParameters(_context cdktf.IResolveContext) error {
-	if _context == nil {
-		return fmt.Errorf("parameter _context is required, but nil was provided")
+func (d *jsiiProxy_DataGoogleFolderOrganizationPolicyListPolicyList) validateResolveParameters(context cdktf.IResolveContext) error {
+	if context == nil {
+		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
 
 	return nil

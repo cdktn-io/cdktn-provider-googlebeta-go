@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlesiteverificationwebresource
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlesiteverificationwebresource/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlesiteverificationwebresource/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -412,7 +412,7 @@ func NewGoogleSiteVerificationWebResource(scope constructs.Construct, id *string
 	j := jsiiProxy_GoogleSiteVerificationWebResource{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleSiteVerificationWebResource.GoogleSiteVerificationWebResource",
+		"@cdktn/provider-google-beta.googleSiteVerificationWebResource.GoogleSiteVerificationWebResource",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -425,7 +425,7 @@ func NewGoogleSiteVerificationWebResource_Override(g GoogleSiteVerificationWebRe
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleSiteVerificationWebResource.GoogleSiteVerificationWebResource",
+		"@cdktn/provider-google-beta.googleSiteVerificationWebResource.GoogleSiteVerificationWebResource",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -531,7 +531,7 @@ func GoogleSiteVerificationWebResource_GenerateConfigForImport(scope constructs.
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleSiteVerificationWebResource.GoogleSiteVerificationWebResource",
+		"@cdktn/provider-google-beta.googleSiteVerificationWebResource.GoogleSiteVerificationWebResource",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -566,7 +566,7 @@ func GoogleSiteVerificationWebResource_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleSiteVerificationWebResource.GoogleSiteVerificationWebResource",
+		"@cdktn/provider-google-beta.googleSiteVerificationWebResource.GoogleSiteVerificationWebResource",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -585,7 +585,7 @@ func GoogleSiteVerificationWebResource_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleSiteVerificationWebResource.GoogleSiteVerificationWebResource",
+		"@cdktn/provider-google-beta.googleSiteVerificationWebResource.GoogleSiteVerificationWebResource",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -604,7 +604,7 @@ func GoogleSiteVerificationWebResource_IsTerraformResource(x interface{}) *bool 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleSiteVerificationWebResource.GoogleSiteVerificationWebResource",
+		"@cdktn/provider-google-beta.googleSiteVerificationWebResource.GoogleSiteVerificationWebResource",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -617,7 +617,7 @@ func GoogleSiteVerificationWebResource_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleSiteVerificationWebResource.GoogleSiteVerificationWebResource",
+		"@cdktn/provider-google-beta.googleSiteVerificationWebResource.GoogleSiteVerificationWebResource",
 		"tfResourceType",
 		&returns,
 	)

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlehealthcarehl7v2storeiampolicy
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleHealthcareHl7V2StoreIamPolicy.GoogleHealthcareHl7V2StoreIamPolicy",
+		"@cdktn/provider-google-beta.googleHealthcareHl7V2StoreIamPolicy.GoogleHealthcareHl7V2StoreIamPolicy",
 		reflect.TypeOf((*GoogleHealthcareHl7V2StoreIamPolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -71,7 +71,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleHealthcareHl7V2StoreIamPolicy.GoogleHealthcareHl7V2StoreIamPolicyConfig",
+		"@cdktn/provider-google-beta.googleHealthcareHl7V2StoreIamPolicy.GoogleHealthcareHl7V2StoreIamPolicyConfig",
 		reflect.TypeOf((*GoogleHealthcareHl7V2StoreIamPolicyConfig)(nil)).Elem(),
 	)
 }

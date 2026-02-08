@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googletagslocationtagbinding
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleTagsLocationTagBinding.GoogleTagsLocationTagBinding",
+		"@cdktn/provider-google-beta.googleTagsLocationTagBinding.GoogleTagsLocationTagBinding",
 		reflect.TypeOf((*GoogleTagsLocationTagBinding)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -78,15 +78,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleTagsLocationTagBinding.GoogleTagsLocationTagBindingConfig",
+		"@cdktn/provider-google-beta.googleTagsLocationTagBinding.GoogleTagsLocationTagBindingConfig",
 		reflect.TypeOf((*GoogleTagsLocationTagBindingConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleTagsLocationTagBinding.GoogleTagsLocationTagBindingTimeouts",
+		"@cdktn/provider-google-beta.googleTagsLocationTagBinding.GoogleTagsLocationTagBindingTimeouts",
 		reflect.TypeOf((*GoogleTagsLocationTagBindingTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleTagsLocationTagBinding.GoogleTagsLocationTagBindingTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleTagsLocationTagBinding.GoogleTagsLocationTagBindingTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleTagsLocationTagBindingTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagooglekmscryptokeyversion
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleKmsCryptoKeyVersion.DataGoogleKmsCryptoKeyVersion",
+		"@cdktn/provider-google-beta.dataGoogleKmsCryptoKeyVersion.DataGoogleKmsCryptoKeyVersion",
 		reflect.TypeOf((*DataGoogleKmsCryptoKeyVersion)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -68,15 +68,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleKmsCryptoKeyVersion.DataGoogleKmsCryptoKeyVersionConfig",
+		"@cdktn/provider-google-beta.dataGoogleKmsCryptoKeyVersion.DataGoogleKmsCryptoKeyVersionConfig",
 		reflect.TypeOf((*DataGoogleKmsCryptoKeyVersionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleKmsCryptoKeyVersion.DataGoogleKmsCryptoKeyVersionPublicKey",
+		"@cdktn/provider-google-beta.dataGoogleKmsCryptoKeyVersion.DataGoogleKmsCryptoKeyVersionPublicKey",
 		reflect.TypeOf((*DataGoogleKmsCryptoKeyVersionPublicKey)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleKmsCryptoKeyVersion.DataGoogleKmsCryptoKeyVersionPublicKeyList",
+		"@cdktn/provider-google-beta.dataGoogleKmsCryptoKeyVersion.DataGoogleKmsCryptoKeyVersionPublicKeyList",
 		reflect.TypeOf((*DataGoogleKmsCryptoKeyVersionPublicKeyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -97,7 +97,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleKmsCryptoKeyVersion.DataGoogleKmsCryptoKeyVersionPublicKeyOutputReference",
+		"@cdktn/provider-google-beta.dataGoogleKmsCryptoKeyVersion.DataGoogleKmsCryptoKeyVersionPublicKeyOutputReference",
 		reflect.TypeOf((*DataGoogleKmsCryptoKeyVersionPublicKeyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "algorithm", GoGetter: "Algorithm"},

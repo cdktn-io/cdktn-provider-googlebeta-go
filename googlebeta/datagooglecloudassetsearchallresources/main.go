@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagooglecloudassetsearchallresources
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleCloudAssetSearchAllResources.DataGoogleCloudAssetSearchAllResources",
+		"@cdktn/provider-google-beta.dataGoogleCloudAssetSearchAllResources.DataGoogleCloudAssetSearchAllResources",
 		reflect.TypeOf((*DataGoogleCloudAssetSearchAllResources)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -67,15 +67,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleCloudAssetSearchAllResources.DataGoogleCloudAssetSearchAllResourcesConfig",
+		"@cdktn/provider-google-beta.dataGoogleCloudAssetSearchAllResources.DataGoogleCloudAssetSearchAllResourcesConfig",
 		reflect.TypeOf((*DataGoogleCloudAssetSearchAllResourcesConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleCloudAssetSearchAllResources.DataGoogleCloudAssetSearchAllResourcesResults",
+		"@cdktn/provider-google-beta.dataGoogleCloudAssetSearchAllResources.DataGoogleCloudAssetSearchAllResourcesResults",
 		reflect.TypeOf((*DataGoogleCloudAssetSearchAllResourcesResults)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleCloudAssetSearchAllResources.DataGoogleCloudAssetSearchAllResourcesResultsList",
+		"@cdktn/provider-google-beta.dataGoogleCloudAssetSearchAllResources.DataGoogleCloudAssetSearchAllResourcesResultsList",
 		reflect.TypeOf((*DataGoogleCloudAssetSearchAllResourcesResultsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -96,7 +96,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleCloudAssetSearchAllResources.DataGoogleCloudAssetSearchAllResourcesResultsOutputReference",
+		"@cdktn/provider-google-beta.dataGoogleCloudAssetSearchAllResources.DataGoogleCloudAssetSearchAllResourcesResultsOutputReference",
 		reflect.TypeOf((*DataGoogleCloudAssetSearchAllResourcesResultsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "assetType", GoGetter: "AssetType"},

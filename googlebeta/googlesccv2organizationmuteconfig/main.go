@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlesccv2organizationmuteconfig
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleSccV2OrganizationMuteConfig.GoogleSccV2OrganizationMuteConfig",
+		"@cdktn/provider-google-beta.googleSccV2OrganizationMuteConfig.GoogleSccV2OrganizationMuteConfig",
 		reflect.TypeOf((*GoogleSccV2OrganizationMuteConfig)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -88,15 +88,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleSccV2OrganizationMuteConfig.GoogleSccV2OrganizationMuteConfigConfig",
+		"@cdktn/provider-google-beta.googleSccV2OrganizationMuteConfig.GoogleSccV2OrganizationMuteConfigConfig",
 		reflect.TypeOf((*GoogleSccV2OrganizationMuteConfigConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleSccV2OrganizationMuteConfig.GoogleSccV2OrganizationMuteConfigTimeouts",
+		"@cdktn/provider-google-beta.googleSccV2OrganizationMuteConfig.GoogleSccV2OrganizationMuteConfigTimeouts",
 		reflect.TypeOf((*GoogleSccV2OrganizationMuteConfigTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleSccV2OrganizationMuteConfig.GoogleSccV2OrganizationMuteConfigTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleSccV2OrganizationMuteConfig.GoogleSccV2OrganizationMuteConfigTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleSccV2OrganizationMuteConfigTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

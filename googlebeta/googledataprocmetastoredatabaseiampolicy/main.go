@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googledataprocmetastoredatabaseiampolicy
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleDataprocMetastoreDatabaseIamPolicy.GoogleDataprocMetastoreDatabaseIamPolicy",
+		"@cdktn/provider-google-beta.googleDataprocMetastoreDatabaseIamPolicy.GoogleDataprocMetastoreDatabaseIamPolicy",
 		reflect.TypeOf((*GoogleDataprocMetastoreDatabaseIamPolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -79,7 +79,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleDataprocMetastoreDatabaseIamPolicy.GoogleDataprocMetastoreDatabaseIamPolicyConfig",
+		"@cdktn/provider-google-beta.googleDataprocMetastoreDatabaseIamPolicy.GoogleDataprocMetastoreDatabaseIamPolicyConfig",
 		reflect.TypeOf((*GoogleDataprocMetastoreDatabaseIamPolicyConfig)(nil)).Elem(),
 	)
 }

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googledataformrepository
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleDataformRepository.GoogleDataformRepository",
+		"@cdktn/provider-google-beta.googleDataformRepository.GoogleDataformRepository",
 		reflect.TypeOf((*GoogleDataformRepository)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -106,15 +106,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleDataformRepository.GoogleDataformRepositoryConfig",
+		"@cdktn/provider-google-beta.googleDataformRepository.GoogleDataformRepositoryConfig",
 		reflect.TypeOf((*GoogleDataformRepositoryConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleDataformRepository.GoogleDataformRepositoryGitRemoteSettings",
+		"@cdktn/provider-google-beta.googleDataformRepository.GoogleDataformRepositoryGitRemoteSettings",
 		reflect.TypeOf((*GoogleDataformRepositoryGitRemoteSettings)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleDataformRepository.GoogleDataformRepositoryGitRemoteSettingsOutputReference",
+		"@cdktn/provider-google-beta.googleDataformRepository.GoogleDataformRepositoryGitRemoteSettingsOutputReference",
 		reflect.TypeOf((*GoogleDataformRepositoryGitRemoteSettingsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "authenticationTokenSecretVersion", GoGetter: "AuthenticationTokenSecretVersion"},
@@ -158,11 +158,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleDataformRepository.GoogleDataformRepositoryGitRemoteSettingsSshAuthenticationConfig",
+		"@cdktn/provider-google-beta.googleDataformRepository.GoogleDataformRepositoryGitRemoteSettingsSshAuthenticationConfig",
 		reflect.TypeOf((*GoogleDataformRepositoryGitRemoteSettingsSshAuthenticationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleDataformRepository.GoogleDataformRepositoryGitRemoteSettingsSshAuthenticationConfigOutputReference",
+		"@cdktn/provider-google-beta.googleDataformRepository.GoogleDataformRepositoryGitRemoteSettingsSshAuthenticationConfigOutputReference",
 		reflect.TypeOf((*GoogleDataformRepositoryGitRemoteSettingsSshAuthenticationConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -198,11 +198,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleDataformRepository.GoogleDataformRepositoryTimeouts",
+		"@cdktn/provider-google-beta.googleDataformRepository.GoogleDataformRepositoryTimeouts",
 		reflect.TypeOf((*GoogleDataformRepositoryTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleDataformRepository.GoogleDataformRepositoryTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleDataformRepository.GoogleDataformRepositoryTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleDataformRepositoryTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -243,11 +243,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleDataformRepository.GoogleDataformRepositoryWorkspaceCompilationOverrides",
+		"@cdktn/provider-google-beta.googleDataformRepository.GoogleDataformRepositoryWorkspaceCompilationOverrides",
 		reflect.TypeOf((*GoogleDataformRepositoryWorkspaceCompilationOverrides)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleDataformRepository.GoogleDataformRepositoryWorkspaceCompilationOverridesOutputReference",
+		"@cdktn/provider-google-beta.googleDataformRepository.GoogleDataformRepositoryWorkspaceCompilationOverridesOutputReference",
 		reflect.TypeOf((*GoogleDataformRepositoryWorkspaceCompilationOverridesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

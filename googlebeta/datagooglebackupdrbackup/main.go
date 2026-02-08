@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagooglebackupdrbackup
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleBackupDrBackup.DataGoogleBackupDrBackup",
+		"@cdktn/provider-google-beta.dataGoogleBackupDrBackup.DataGoogleBackupDrBackup",
 		reflect.TypeOf((*DataGoogleBackupDrBackup)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -68,11 +68,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleBackupDrBackup.DataGoogleBackupDrBackupBackups",
+		"@cdktn/provider-google-beta.dataGoogleBackupDrBackup.DataGoogleBackupDrBackupBackups",
 		reflect.TypeOf((*DataGoogleBackupDrBackupBackups)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleBackupDrBackup.DataGoogleBackupDrBackupBackupsList",
+		"@cdktn/provider-google-beta.dataGoogleBackupDrBackup.DataGoogleBackupDrBackupBackupsList",
 		reflect.TypeOf((*DataGoogleBackupDrBackupBackupsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -93,7 +93,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleBackupDrBackup.DataGoogleBackupDrBackupBackupsOutputReference",
+		"@cdktn/provider-google-beta.dataGoogleBackupDrBackup.DataGoogleBackupDrBackupBackupsOutputReference",
 		reflect.TypeOf((*DataGoogleBackupDrBackupBackupsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "backupId", GoGetter: "BackupId"},
@@ -130,7 +130,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleBackupDrBackup.DataGoogleBackupDrBackupConfig",
+		"@cdktn/provider-google-beta.dataGoogleBackupDrBackup.DataGoogleBackupDrBackupConfig",
 		reflect.TypeOf((*DataGoogleBackupDrBackupConfig)(nil)).Elem(),
 	)
 }

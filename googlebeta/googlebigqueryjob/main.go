@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlebigqueryjob
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleBigqueryJob.GoogleBigqueryJob",
+		"@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJob",
 		reflect.TypeOf((*GoogleBigqueryJob)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -105,19 +105,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobConfig",
+		"@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobConfig",
 		reflect.TypeOf((*GoogleBigqueryJobConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobCopy",
+		"@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobCopy",
 		reflect.TypeOf((*GoogleBigqueryJobCopy)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobCopyDestinationEncryptionConfiguration",
+		"@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobCopyDestinationEncryptionConfiguration",
 		reflect.TypeOf((*GoogleBigqueryJobCopyDestinationEncryptionConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobCopyDestinationEncryptionConfigurationOutputReference",
+		"@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobCopyDestinationEncryptionConfigurationOutputReference",
 		reflect.TypeOf((*GoogleBigqueryJobCopyDestinationEncryptionConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -152,11 +152,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobCopyDestinationTable",
+		"@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobCopyDestinationTable",
 		reflect.TypeOf((*GoogleBigqueryJobCopyDestinationTable)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobCopyDestinationTableOutputReference",
+		"@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobCopyDestinationTableOutputReference",
 		reflect.TypeOf((*GoogleBigqueryJobCopyDestinationTableOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -196,7 +196,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobCopyOutputReference",
+		"@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobCopyOutputReference",
 		reflect.TypeOf((*GoogleBigqueryJobCopyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -245,11 +245,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobCopySourceTables",
+		"@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobCopySourceTables",
 		reflect.TypeOf((*GoogleBigqueryJobCopySourceTables)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobCopySourceTablesList",
+		"@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobCopySourceTablesList",
 		reflect.TypeOf((*GoogleBigqueryJobCopySourceTablesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -271,7 +271,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobCopySourceTablesOutputReference",
+		"@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobCopySourceTablesOutputReference",
 		reflect.TypeOf((*GoogleBigqueryJobCopySourceTablesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -311,11 +311,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobExtract",
+		"@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobExtract",
 		reflect.TypeOf((*GoogleBigqueryJobExtract)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobExtractOutputReference",
+		"@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobExtractOutputReference",
 		reflect.TypeOf((*GoogleBigqueryJobExtractOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -372,11 +372,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobExtractSourceModel",
+		"@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobExtractSourceModel",
 		reflect.TypeOf((*GoogleBigqueryJobExtractSourceModel)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobExtractSourceModelOutputReference",
+		"@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobExtractSourceModelOutputReference",
 		reflect.TypeOf((*GoogleBigqueryJobExtractSourceModelOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -414,11 +414,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobExtractSourceTable",
+		"@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobExtractSourceTable",
 		reflect.TypeOf((*GoogleBigqueryJobExtractSourceTable)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobExtractSourceTableOutputReference",
+		"@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobExtractSourceTableOutputReference",
 		reflect.TypeOf((*GoogleBigqueryJobExtractSourceTableOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -458,15 +458,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobLoad",
+		"@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobLoad",
 		reflect.TypeOf((*GoogleBigqueryJobLoad)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobLoadDestinationEncryptionConfiguration",
+		"@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobLoadDestinationEncryptionConfiguration",
 		reflect.TypeOf((*GoogleBigqueryJobLoadDestinationEncryptionConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobLoadDestinationEncryptionConfigurationOutputReference",
+		"@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobLoadDestinationEncryptionConfigurationOutputReference",
 		reflect.TypeOf((*GoogleBigqueryJobLoadDestinationEncryptionConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -501,11 +501,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobLoadDestinationTable",
+		"@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobLoadDestinationTable",
 		reflect.TypeOf((*GoogleBigqueryJobLoadDestinationTable)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobLoadDestinationTableOutputReference",
+		"@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobLoadDestinationTableOutputReference",
 		reflect.TypeOf((*GoogleBigqueryJobLoadDestinationTableOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -545,7 +545,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobLoadOutputReference",
+		"@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobLoadOutputReference",
 		reflect.TypeOf((*GoogleBigqueryJobLoadOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allowJaggedRows", GoGetter: "AllowJaggedRows"},
@@ -642,11 +642,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobLoadParquetOptions",
+		"@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobLoadParquetOptions",
 		reflect.TypeOf((*GoogleBigqueryJobLoadParquetOptions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobLoadParquetOptionsOutputReference",
+		"@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobLoadParquetOptionsOutputReference",
 		reflect.TypeOf((*GoogleBigqueryJobLoadParquetOptionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -684,11 +684,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobLoadTimePartitioning",
+		"@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobLoadTimePartitioning",
 		reflect.TypeOf((*GoogleBigqueryJobLoadTimePartitioning)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobLoadTimePartitioningOutputReference",
+		"@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobLoadTimePartitioningOutputReference",
 		reflect.TypeOf((*GoogleBigqueryJobLoadTimePartitioningOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -728,15 +728,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQuery",
+		"@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQuery",
 		reflect.TypeOf((*GoogleBigqueryJobQuery)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryDefaultDataset",
+		"@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryDefaultDataset",
 		reflect.TypeOf((*GoogleBigqueryJobQueryDefaultDataset)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryDefaultDatasetOutputReference",
+		"@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryDefaultDatasetOutputReference",
 		reflect.TypeOf((*GoogleBigqueryJobQueryDefaultDatasetOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -773,11 +773,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryDestinationEncryptionConfiguration",
+		"@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryDestinationEncryptionConfiguration",
 		reflect.TypeOf((*GoogleBigqueryJobQueryDestinationEncryptionConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryDestinationEncryptionConfigurationOutputReference",
+		"@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryDestinationEncryptionConfigurationOutputReference",
 		reflect.TypeOf((*GoogleBigqueryJobQueryDestinationEncryptionConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -812,11 +812,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryDestinationTable",
+		"@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryDestinationTable",
 		reflect.TypeOf((*GoogleBigqueryJobQueryDestinationTable)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryDestinationTableOutputReference",
+		"@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryDestinationTableOutputReference",
 		reflect.TypeOf((*GoogleBigqueryJobQueryDestinationTableOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -856,7 +856,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryOutputReference",
+		"@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryOutputReference",
 		reflect.TypeOf((*GoogleBigqueryJobQueryOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allowLargeResults", GoGetter: "AllowLargeResults"},
@@ -946,11 +946,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryScriptOptions",
+		"@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryScriptOptions",
 		reflect.TypeOf((*GoogleBigqueryJobQueryScriptOptions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryScriptOptionsOutputReference",
+		"@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryScriptOptionsOutputReference",
 		reflect.TypeOf((*GoogleBigqueryJobQueryScriptOptionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -991,11 +991,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryUserDefinedFunctionResources",
+		"@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryUserDefinedFunctionResources",
 		reflect.TypeOf((*GoogleBigqueryJobQueryUserDefinedFunctionResources)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryUserDefinedFunctionResourcesList",
+		"@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryUserDefinedFunctionResourcesList",
 		reflect.TypeOf((*GoogleBigqueryJobQueryUserDefinedFunctionResourcesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1017,7 +1017,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryUserDefinedFunctionResourcesOutputReference",
+		"@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobQueryUserDefinedFunctionResourcesOutputReference",
 		reflect.TypeOf((*GoogleBigqueryJobQueryUserDefinedFunctionResourcesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1055,15 +1055,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobStatus",
+		"@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobStatus",
 		reflect.TypeOf((*GoogleBigqueryJobStatus)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobStatusErrorResult",
+		"@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobStatusErrorResult",
 		reflect.TypeOf((*GoogleBigqueryJobStatusErrorResult)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobStatusErrorResultList",
+		"@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobStatusErrorResultList",
 		reflect.TypeOf((*GoogleBigqueryJobStatusErrorResultList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1084,7 +1084,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobStatusErrorResultOutputReference",
+		"@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobStatusErrorResultOutputReference",
 		reflect.TypeOf((*GoogleBigqueryJobStatusErrorResultOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1119,11 +1119,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobStatusErrors",
+		"@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobStatusErrors",
 		reflect.TypeOf((*GoogleBigqueryJobStatusErrors)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobStatusErrorsList",
+		"@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobStatusErrorsList",
 		reflect.TypeOf((*GoogleBigqueryJobStatusErrorsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1144,7 +1144,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobStatusErrorsOutputReference",
+		"@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobStatusErrorsOutputReference",
 		reflect.TypeOf((*GoogleBigqueryJobStatusErrorsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1179,7 +1179,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobStatusList",
+		"@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobStatusList",
 		reflect.TypeOf((*GoogleBigqueryJobStatusList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1200,7 +1200,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobStatusOutputReference",
+		"@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobStatusOutputReference",
 		reflect.TypeOf((*GoogleBigqueryJobStatusOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1235,11 +1235,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobTimeouts",
+		"@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobTimeouts",
 		reflect.TypeOf((*GoogleBigqueryJobTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleBigqueryJob.GoogleBigqueryJobTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleBigqueryJobTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagoogleparametermanagerregionalparameter
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleParameterManagerRegionalParameter.DataGoogleParameterManagerRegionalParameter",
+		"@cdktn/provider-google-beta.dataGoogleParameterManagerRegionalParameter.DataGoogleParameterManagerRegionalParameter",
 		reflect.TypeOf((*DataGoogleParameterManagerRegionalParameter)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -74,15 +74,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleParameterManagerRegionalParameter.DataGoogleParameterManagerRegionalParameterConfig",
+		"@cdktn/provider-google-beta.dataGoogleParameterManagerRegionalParameter.DataGoogleParameterManagerRegionalParameterConfig",
 		reflect.TypeOf((*DataGoogleParameterManagerRegionalParameterConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleParameterManagerRegionalParameter.DataGoogleParameterManagerRegionalParameterPolicyMember",
+		"@cdktn/provider-google-beta.dataGoogleParameterManagerRegionalParameter.DataGoogleParameterManagerRegionalParameterPolicyMember",
 		reflect.TypeOf((*DataGoogleParameterManagerRegionalParameterPolicyMember)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleParameterManagerRegionalParameter.DataGoogleParameterManagerRegionalParameterPolicyMemberList",
+		"@cdktn/provider-google-beta.dataGoogleParameterManagerRegionalParameter.DataGoogleParameterManagerRegionalParameterPolicyMemberList",
 		reflect.TypeOf((*DataGoogleParameterManagerRegionalParameterPolicyMemberList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -103,7 +103,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleParameterManagerRegionalParameter.DataGoogleParameterManagerRegionalParameterPolicyMemberOutputReference",
+		"@cdktn/provider-google-beta.dataGoogleParameterManagerRegionalParameter.DataGoogleParameterManagerRegionalParameterPolicyMemberOutputReference",
 		reflect.TypeOf((*DataGoogleParameterManagerRegionalParameterPolicyMemberOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

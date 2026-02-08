@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlesecuresourcemanagerrepositoryiambinding
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleSecureSourceManagerRepositoryIamBinding.GoogleSecureSourceManagerRepositoryIamBinding",
+		"@cdktn/provider-google-beta.googleSecureSourceManagerRepositoryIamBinding.GoogleSecureSourceManagerRepositoryIamBinding",
 		reflect.TypeOf((*GoogleSecureSourceManagerRepositoryIamBinding)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -83,11 +83,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleSecureSourceManagerRepositoryIamBinding.GoogleSecureSourceManagerRepositoryIamBindingCondition",
+		"@cdktn/provider-google-beta.googleSecureSourceManagerRepositoryIamBinding.GoogleSecureSourceManagerRepositoryIamBindingCondition",
 		reflect.TypeOf((*GoogleSecureSourceManagerRepositoryIamBindingCondition)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleSecureSourceManagerRepositoryIamBinding.GoogleSecureSourceManagerRepositoryIamBindingConditionOutputReference",
+		"@cdktn/provider-google-beta.googleSecureSourceManagerRepositoryIamBinding.GoogleSecureSourceManagerRepositoryIamBindingConditionOutputReference",
 		reflect.TypeOf((*GoogleSecureSourceManagerRepositoryIamBindingConditionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -126,7 +126,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleSecureSourceManagerRepositoryIamBinding.GoogleSecureSourceManagerRepositoryIamBindingConfig",
+		"@cdktn/provider-google-beta.googleSecureSourceManagerRepositoryIamBinding.GoogleSecureSourceManagerRepositoryIamBindingConfig",
 		reflect.TypeOf((*GoogleSecureSourceManagerRepositoryIamBindingConfig)(nil)).Elem(),
 	)
 }

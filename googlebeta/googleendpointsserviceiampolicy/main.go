@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googleendpointsserviceiampolicy
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleEndpointsServiceIamPolicy.GoogleEndpointsServiceIamPolicy",
+		"@cdktn/provider-google-beta.googleEndpointsServiceIamPolicy.GoogleEndpointsServiceIamPolicy",
 		reflect.TypeOf((*GoogleEndpointsServiceIamPolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -71,7 +71,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleEndpointsServiceIamPolicy.GoogleEndpointsServiceIamPolicyConfig",
+		"@cdktn/provider-google-beta.googleEndpointsServiceIamPolicy.GoogleEndpointsServiceIamPolicyConfig",
 		reflect.TypeOf((*GoogleEndpointsServiceIamPolicyConfig)(nil)).Elem(),
 	)
 }

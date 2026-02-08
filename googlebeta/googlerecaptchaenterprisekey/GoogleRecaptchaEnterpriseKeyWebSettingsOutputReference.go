@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlerecaptchaenterprisekey
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlerecaptchaenterprisekey/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlerecaptchaenterprisekey/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -78,14 +78,14 @@ type GoogleRecaptchaEnterpriseKeyWebSettingsOutputReference interface {
 	// Experimental.
 	InterpolationAsList() cdktf.IResolvable
 	// Experimental.
-	InterpolationForAttribute(property *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
 	ResetAllowAllDomains()
 	ResetAllowAmpTraffic()
 	ResetAllowedDomains()
 	ResetChallengeSecurityPreference()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(_context cdktf.IResolveContext) interface{}
+	Resolve(context cdktf.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -278,7 +278,7 @@ func NewGoogleRecaptchaEnterpriseKeyWebSettingsOutputReference(terraformResource
 	j := jsiiProxy_GoogleRecaptchaEnterpriseKeyWebSettingsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleRecaptchaEnterpriseKey.GoogleRecaptchaEnterpriseKeyWebSettingsOutputReference",
+		"@cdktn/provider-google-beta.googleRecaptchaEnterpriseKey.GoogleRecaptchaEnterpriseKeyWebSettingsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -290,7 +290,7 @@ func NewGoogleRecaptchaEnterpriseKeyWebSettingsOutputReference_Override(g Google
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleRecaptchaEnterpriseKey.GoogleRecaptchaEnterpriseKeyWebSettingsOutputReference",
+		"@cdktn/provider-google-beta.googleRecaptchaEnterpriseKey.GoogleRecaptchaEnterpriseKeyWebSettingsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		g,
 	)
@@ -576,8 +576,8 @@ func (g *jsiiProxy_GoogleRecaptchaEnterpriseKeyWebSettingsOutputReference) Inter
 	return returns
 }
 
-func (g *jsiiProxy_GoogleRecaptchaEnterpriseKeyWebSettingsOutputReference) InterpolationForAttribute(property *string) cdktf.IResolvable {
-	if err := g.validateInterpolationForAttributeParameters(property); err != nil {
+func (g *jsiiProxy_GoogleRecaptchaEnterpriseKeyWebSettingsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
 	var returns cdktf.IResolvable
@@ -585,7 +585,7 @@ func (g *jsiiProxy_GoogleRecaptchaEnterpriseKeyWebSettingsOutputReference) Inter
 	_jsii_.Invoke(
 		g,
 		"interpolationForAttribute",
-		[]interface{}{property},
+		[]interface{}{terraformAttribute},
 		&returns,
 	)
 
@@ -624,8 +624,8 @@ func (g *jsiiProxy_GoogleRecaptchaEnterpriseKeyWebSettingsOutputReference) Reset
 	)
 }
 
-func (g *jsiiProxy_GoogleRecaptchaEnterpriseKeyWebSettingsOutputReference) Resolve(_context cdktf.IResolveContext) interface{} {
-	if err := g.validateResolveParameters(_context); err != nil {
+func (g *jsiiProxy_GoogleRecaptchaEnterpriseKeyWebSettingsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}
 	var returns interface{}
@@ -633,7 +633,7 @@ func (g *jsiiProxy_GoogleRecaptchaEnterpriseKeyWebSettingsOutputReference) Resol
 	_jsii_.Invoke(
 		g,
 		"resolve",
-		[]interface{}{_context},
+		[]interface{}{context},
 		&returns,
 	)
 

@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googleprojectservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googleprojectservice/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleprojectservice/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -463,7 +463,7 @@ func NewGoogleProjectService(scope constructs.Construct, id *string, config *Goo
 	j := jsiiProxy_GoogleProjectService{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleProjectService.GoogleProjectService",
+		"@cdktn/provider-google-beta.googleProjectService.GoogleProjectService",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -476,7 +476,7 @@ func NewGoogleProjectService_Override(g GoogleProjectService, scope constructs.C
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleProjectService.GoogleProjectService",
+		"@cdktn/provider-google-beta.googleProjectService.GoogleProjectService",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -626,7 +626,7 @@ func GoogleProjectService_GenerateConfigForImport(scope constructs.Construct, im
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleProjectService.GoogleProjectService",
+		"@cdktn/provider-google-beta.googleProjectService.GoogleProjectService",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -661,7 +661,7 @@ func GoogleProjectService_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleProjectService.GoogleProjectService",
+		"@cdktn/provider-google-beta.googleProjectService.GoogleProjectService",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -680,7 +680,7 @@ func GoogleProjectService_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleProjectService.GoogleProjectService",
+		"@cdktn/provider-google-beta.googleProjectService.GoogleProjectService",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -699,7 +699,7 @@ func GoogleProjectService_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleProjectService.GoogleProjectService",
+		"@cdktn/provider-google-beta.googleProjectService.GoogleProjectService",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -712,7 +712,7 @@ func GoogleProjectService_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleProjectService.GoogleProjectService",
+		"@cdktn/provider-google-beta.googleProjectService.GoogleProjectService",
 		"tfResourceType",
 		&returns,
 	)

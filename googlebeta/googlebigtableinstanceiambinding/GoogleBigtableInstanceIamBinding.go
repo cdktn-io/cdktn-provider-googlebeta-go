@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlebigtableinstanceiambinding
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlebigtableinstanceiambinding/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlebigtableinstanceiambinding/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -448,7 +448,7 @@ func NewGoogleBigtableInstanceIamBinding(scope constructs.Construct, id *string,
 	j := jsiiProxy_GoogleBigtableInstanceIamBinding{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleBigtableInstanceIamBinding.GoogleBigtableInstanceIamBinding",
+		"@cdktn/provider-google-beta.googleBigtableInstanceIamBinding.GoogleBigtableInstanceIamBinding",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -461,7 +461,7 @@ func NewGoogleBigtableInstanceIamBinding_Override(g GoogleBigtableInstanceIamBin
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleBigtableInstanceIamBinding.GoogleBigtableInstanceIamBinding",
+		"@cdktn/provider-google-beta.googleBigtableInstanceIamBinding.GoogleBigtableInstanceIamBinding",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -600,7 +600,7 @@ func GoogleBigtableInstanceIamBinding_GenerateConfigForImport(scope constructs.C
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleBigtableInstanceIamBinding.GoogleBigtableInstanceIamBinding",
+		"@cdktn/provider-google-beta.googleBigtableInstanceIamBinding.GoogleBigtableInstanceIamBinding",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -635,7 +635,7 @@ func GoogleBigtableInstanceIamBinding_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleBigtableInstanceIamBinding.GoogleBigtableInstanceIamBinding",
+		"@cdktn/provider-google-beta.googleBigtableInstanceIamBinding.GoogleBigtableInstanceIamBinding",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -654,7 +654,7 @@ func GoogleBigtableInstanceIamBinding_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleBigtableInstanceIamBinding.GoogleBigtableInstanceIamBinding",
+		"@cdktn/provider-google-beta.googleBigtableInstanceIamBinding.GoogleBigtableInstanceIamBinding",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -673,7 +673,7 @@ func GoogleBigtableInstanceIamBinding_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleBigtableInstanceIamBinding.GoogleBigtableInstanceIamBinding",
+		"@cdktn/provider-google-beta.googleBigtableInstanceIamBinding.GoogleBigtableInstanceIamBinding",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -686,7 +686,7 @@ func GoogleBigtableInstanceIamBinding_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleBigtableInstanceIamBinding.GoogleBigtableInstanceIamBinding",
+		"@cdktn/provider-google-beta.googleBigtableInstanceIamBinding.GoogleBigtableInstanceIamBinding",
 		"tfResourceType",
 		&returns,
 	)

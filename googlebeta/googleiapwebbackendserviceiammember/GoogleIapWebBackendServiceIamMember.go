@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googleiapwebbackendserviceiammember
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googleiapwebbackendserviceiammember/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleiapwebbackendserviceiammember/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -448,7 +448,7 @@ func NewGoogleIapWebBackendServiceIamMember(scope constructs.Construct, id *stri
 	j := jsiiProxy_GoogleIapWebBackendServiceIamMember{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleIapWebBackendServiceIamMember.GoogleIapWebBackendServiceIamMember",
+		"@cdktn/provider-google-beta.googleIapWebBackendServiceIamMember.GoogleIapWebBackendServiceIamMember",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -461,7 +461,7 @@ func NewGoogleIapWebBackendServiceIamMember_Override(g GoogleIapWebBackendServic
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleIapWebBackendServiceIamMember.GoogleIapWebBackendServiceIamMember",
+		"@cdktn/provider-google-beta.googleIapWebBackendServiceIamMember.GoogleIapWebBackendServiceIamMember",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -600,7 +600,7 @@ func GoogleIapWebBackendServiceIamMember_GenerateConfigForImport(scope construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleIapWebBackendServiceIamMember.GoogleIapWebBackendServiceIamMember",
+		"@cdktn/provider-google-beta.googleIapWebBackendServiceIamMember.GoogleIapWebBackendServiceIamMember",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -635,7 +635,7 @@ func GoogleIapWebBackendServiceIamMember_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleIapWebBackendServiceIamMember.GoogleIapWebBackendServiceIamMember",
+		"@cdktn/provider-google-beta.googleIapWebBackendServiceIamMember.GoogleIapWebBackendServiceIamMember",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -654,7 +654,7 @@ func GoogleIapWebBackendServiceIamMember_IsTerraformElement(x interface{}) *bool
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleIapWebBackendServiceIamMember.GoogleIapWebBackendServiceIamMember",
+		"@cdktn/provider-google-beta.googleIapWebBackendServiceIamMember.GoogleIapWebBackendServiceIamMember",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -673,7 +673,7 @@ func GoogleIapWebBackendServiceIamMember_IsTerraformResource(x interface{}) *boo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleIapWebBackendServiceIamMember.GoogleIapWebBackendServiceIamMember",
+		"@cdktn/provider-google-beta.googleIapWebBackendServiceIamMember.GoogleIapWebBackendServiceIamMember",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -686,7 +686,7 @@ func GoogleIapWebBackendServiceIamMember_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleIapWebBackendServiceIamMember.GoogleIapWebBackendServiceIamMember",
+		"@cdktn/provider-google-beta.googleIapWebBackendServiceIamMember.GoogleIapWebBackendServiceIamMember",
 		"tfResourceType",
 		&returns,
 	)

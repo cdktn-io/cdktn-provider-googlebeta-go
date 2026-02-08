@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlesccv2projectnotificationconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlesccv2projectnotificationconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlesccv2projectnotificationconfig/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -508,7 +508,7 @@ func NewGoogleSccV2ProjectNotificationConfig(scope constructs.Construct, id *str
 	j := jsiiProxy_GoogleSccV2ProjectNotificationConfig{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleSccV2ProjectNotificationConfig.GoogleSccV2ProjectNotificationConfig",
+		"@cdktn/provider-google-beta.googleSccV2ProjectNotificationConfig.GoogleSccV2ProjectNotificationConfig",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -521,7 +521,7 @@ func NewGoogleSccV2ProjectNotificationConfig_Override(g GoogleSccV2ProjectNotifi
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleSccV2ProjectNotificationConfig.GoogleSccV2ProjectNotificationConfig",
+		"@cdktn/provider-google-beta.googleSccV2ProjectNotificationConfig.GoogleSccV2ProjectNotificationConfig",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -671,7 +671,7 @@ func GoogleSccV2ProjectNotificationConfig_GenerateConfigForImport(scope construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleSccV2ProjectNotificationConfig.GoogleSccV2ProjectNotificationConfig",
+		"@cdktn/provider-google-beta.googleSccV2ProjectNotificationConfig.GoogleSccV2ProjectNotificationConfig",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -706,7 +706,7 @@ func GoogleSccV2ProjectNotificationConfig_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleSccV2ProjectNotificationConfig.GoogleSccV2ProjectNotificationConfig",
+		"@cdktn/provider-google-beta.googleSccV2ProjectNotificationConfig.GoogleSccV2ProjectNotificationConfig",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -725,7 +725,7 @@ func GoogleSccV2ProjectNotificationConfig_IsTerraformElement(x interface{}) *boo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleSccV2ProjectNotificationConfig.GoogleSccV2ProjectNotificationConfig",
+		"@cdktn/provider-google-beta.googleSccV2ProjectNotificationConfig.GoogleSccV2ProjectNotificationConfig",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -744,7 +744,7 @@ func GoogleSccV2ProjectNotificationConfig_IsTerraformResource(x interface{}) *bo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleSccV2ProjectNotificationConfig.GoogleSccV2ProjectNotificationConfig",
+		"@cdktn/provider-google-beta.googleSccV2ProjectNotificationConfig.GoogleSccV2ProjectNotificationConfig",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -757,7 +757,7 @@ func GoogleSccV2ProjectNotificationConfig_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleSccV2ProjectNotificationConfig.GoogleSccV2ProjectNotificationConfig",
+		"@cdktn/provider-google-beta.googleSccV2ProjectNotificationConfig.GoogleSccV2ProjectNotificationConfig",
 		"tfResourceType",
 		&returns,
 	)

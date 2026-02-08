@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagoogledataplexdatascaniampolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/datagoogledataplexdatascaniampolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagoogledataplexdatascaniampolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -368,7 +368,7 @@ func NewDataGoogleDataplexDatascanIamPolicy(scope constructs.Construct, id *stri
 	j := jsiiProxy_DataGoogleDataplexDatascanIamPolicy{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.dataGoogleDataplexDatascanIamPolicy.DataGoogleDataplexDatascanIamPolicy",
+		"@cdktn/provider-google-beta.dataGoogleDataplexDatascanIamPolicy.DataGoogleDataplexDatascanIamPolicy",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -381,7 +381,7 @@ func NewDataGoogleDataplexDatascanIamPolicy_Override(d DataGoogleDataplexDatasca
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.dataGoogleDataplexDatascanIamPolicy.DataGoogleDataplexDatascanIamPolicy",
+		"@cdktn/provider-google-beta.dataGoogleDataplexDatascanIamPolicy.DataGoogleDataplexDatascanIamPolicy",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -487,7 +487,7 @@ func DataGoogleDataplexDatascanIamPolicy_GenerateConfigForImport(scope construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleDataplexDatascanIamPolicy.DataGoogleDataplexDatascanIamPolicy",
+		"@cdktn/provider-google-beta.dataGoogleDataplexDatascanIamPolicy.DataGoogleDataplexDatascanIamPolicy",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -522,7 +522,7 @@ func DataGoogleDataplexDatascanIamPolicy_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleDataplexDatascanIamPolicy.DataGoogleDataplexDatascanIamPolicy",
+		"@cdktn/provider-google-beta.dataGoogleDataplexDatascanIamPolicy.DataGoogleDataplexDatascanIamPolicy",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -541,7 +541,7 @@ func DataGoogleDataplexDatascanIamPolicy_IsTerraformDataSource(x interface{}) *b
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleDataplexDatascanIamPolicy.DataGoogleDataplexDatascanIamPolicy",
+		"@cdktn/provider-google-beta.dataGoogleDataplexDatascanIamPolicy.DataGoogleDataplexDatascanIamPolicy",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -560,7 +560,7 @@ func DataGoogleDataplexDatascanIamPolicy_IsTerraformElement(x interface{}) *bool
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleDataplexDatascanIamPolicy.DataGoogleDataplexDatascanIamPolicy",
+		"@cdktn/provider-google-beta.dataGoogleDataplexDatascanIamPolicy.DataGoogleDataplexDatascanIamPolicy",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -573,7 +573,7 @@ func DataGoogleDataplexDatascanIamPolicy_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.dataGoogleDataplexDatascanIamPolicy.DataGoogleDataplexDatascanIamPolicy",
+		"@cdktn/provider-google-beta.dataGoogleDataplexDatascanIamPolicy.DataGoogleDataplexDatascanIamPolicy",
 		"tfResourceType",
 		&returns,
 	)

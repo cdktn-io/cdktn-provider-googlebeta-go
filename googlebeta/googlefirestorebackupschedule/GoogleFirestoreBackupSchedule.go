@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlefirestorebackupschedule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlefirestorebackupschedule/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlefirestorebackupschedule/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -474,7 +474,7 @@ func NewGoogleFirestoreBackupSchedule(scope constructs.Construct, id *string, co
 	j := jsiiProxy_GoogleFirestoreBackupSchedule{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleFirestoreBackupSchedule.GoogleFirestoreBackupSchedule",
+		"@cdktn/provider-google-beta.googleFirestoreBackupSchedule.GoogleFirestoreBackupSchedule",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -487,7 +487,7 @@ func NewGoogleFirestoreBackupSchedule_Override(g GoogleFirestoreBackupSchedule, 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleFirestoreBackupSchedule.GoogleFirestoreBackupSchedule",
+		"@cdktn/provider-google-beta.googleFirestoreBackupSchedule.GoogleFirestoreBackupSchedule",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -615,7 +615,7 @@ func GoogleFirestoreBackupSchedule_GenerateConfigForImport(scope constructs.Cons
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleFirestoreBackupSchedule.GoogleFirestoreBackupSchedule",
+		"@cdktn/provider-google-beta.googleFirestoreBackupSchedule.GoogleFirestoreBackupSchedule",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -650,7 +650,7 @@ func GoogleFirestoreBackupSchedule_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleFirestoreBackupSchedule.GoogleFirestoreBackupSchedule",
+		"@cdktn/provider-google-beta.googleFirestoreBackupSchedule.GoogleFirestoreBackupSchedule",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -669,7 +669,7 @@ func GoogleFirestoreBackupSchedule_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleFirestoreBackupSchedule.GoogleFirestoreBackupSchedule",
+		"@cdktn/provider-google-beta.googleFirestoreBackupSchedule.GoogleFirestoreBackupSchedule",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -688,7 +688,7 @@ func GoogleFirestoreBackupSchedule_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleFirestoreBackupSchedule.GoogleFirestoreBackupSchedule",
+		"@cdktn/provider-google-beta.googleFirestoreBackupSchedule.GoogleFirestoreBackupSchedule",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -701,7 +701,7 @@ func GoogleFirestoreBackupSchedule_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleFirestoreBackupSchedule.GoogleFirestoreBackupSchedule",
+		"@cdktn/provider-google-beta.googleFirestoreBackupSchedule.GoogleFirestoreBackupSchedule",
 		"tfResourceType",
 		&returns,
 	)

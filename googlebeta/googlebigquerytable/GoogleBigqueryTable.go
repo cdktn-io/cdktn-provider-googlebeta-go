@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlebigquerytable
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlebigquerytable/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlebigquerytable/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -1098,7 +1098,7 @@ func NewGoogleBigqueryTable(scope constructs.Construct, id *string, config *Goog
 	j := jsiiProxy_GoogleBigqueryTable{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleBigqueryTable.GoogleBigqueryTable",
+		"@cdktn/provider-google-beta.googleBigqueryTable.GoogleBigqueryTable",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -1111,7 +1111,7 @@ func NewGoogleBigqueryTable_Override(g GoogleBigqueryTable, scope constructs.Con
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleBigqueryTable.GoogleBigqueryTable",
+		"@cdktn/provider-google-beta.googleBigqueryTable.GoogleBigqueryTable",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -1382,7 +1382,7 @@ func GoogleBigqueryTable_GenerateConfigForImport(scope constructs.Construct, imp
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleBigqueryTable.GoogleBigqueryTable",
+		"@cdktn/provider-google-beta.googleBigqueryTable.GoogleBigqueryTable",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1417,7 +1417,7 @@ func GoogleBigqueryTable_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleBigqueryTable.GoogleBigqueryTable",
+		"@cdktn/provider-google-beta.googleBigqueryTable.GoogleBigqueryTable",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1436,7 +1436,7 @@ func GoogleBigqueryTable_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleBigqueryTable.GoogleBigqueryTable",
+		"@cdktn/provider-google-beta.googleBigqueryTable.GoogleBigqueryTable",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1455,7 +1455,7 @@ func GoogleBigqueryTable_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleBigqueryTable.GoogleBigqueryTable",
+		"@cdktn/provider-google-beta.googleBigqueryTable.GoogleBigqueryTable",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1468,7 +1468,7 @@ func GoogleBigqueryTable_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleBigqueryTable.GoogleBigqueryTable",
+		"@cdktn/provider-google-beta.googleBigqueryTable.GoogleBigqueryTable",
 		"tfResourceType",
 		&returns,
 	)

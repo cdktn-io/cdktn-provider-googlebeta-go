@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagooglebigquerydatasetiampolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/datagooglebigquerydatasetiampolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagooglebigquerydatasetiampolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -344,7 +344,7 @@ func NewDataGoogleBigqueryDatasetIamPolicy(scope constructs.Construct, id *strin
 	j := jsiiProxy_DataGoogleBigqueryDatasetIamPolicy{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.dataGoogleBigqueryDatasetIamPolicy.DataGoogleBigqueryDatasetIamPolicy",
+		"@cdktn/provider-google-beta.dataGoogleBigqueryDatasetIamPolicy.DataGoogleBigqueryDatasetIamPolicy",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -357,7 +357,7 @@ func NewDataGoogleBigqueryDatasetIamPolicy_Override(d DataGoogleBigqueryDatasetI
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.dataGoogleBigqueryDatasetIamPolicy.DataGoogleBigqueryDatasetIamPolicy",
+		"@cdktn/provider-google-beta.dataGoogleBigqueryDatasetIamPolicy.DataGoogleBigqueryDatasetIamPolicy",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -452,7 +452,7 @@ func DataGoogleBigqueryDatasetIamPolicy_GenerateConfigForImport(scope constructs
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleBigqueryDatasetIamPolicy.DataGoogleBigqueryDatasetIamPolicy",
+		"@cdktn/provider-google-beta.dataGoogleBigqueryDatasetIamPolicy.DataGoogleBigqueryDatasetIamPolicy",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -487,7 +487,7 @@ func DataGoogleBigqueryDatasetIamPolicy_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleBigqueryDatasetIamPolicy.DataGoogleBigqueryDatasetIamPolicy",
+		"@cdktn/provider-google-beta.dataGoogleBigqueryDatasetIamPolicy.DataGoogleBigqueryDatasetIamPolicy",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -506,7 +506,7 @@ func DataGoogleBigqueryDatasetIamPolicy_IsTerraformDataSource(x interface{}) *bo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleBigqueryDatasetIamPolicy.DataGoogleBigqueryDatasetIamPolicy",
+		"@cdktn/provider-google-beta.dataGoogleBigqueryDatasetIamPolicy.DataGoogleBigqueryDatasetIamPolicy",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -525,7 +525,7 @@ func DataGoogleBigqueryDatasetIamPolicy_IsTerraformElement(x interface{}) *bool 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleBigqueryDatasetIamPolicy.DataGoogleBigqueryDatasetIamPolicy",
+		"@cdktn/provider-google-beta.dataGoogleBigqueryDatasetIamPolicy.DataGoogleBigqueryDatasetIamPolicy",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -538,7 +538,7 @@ func DataGoogleBigqueryDatasetIamPolicy_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.dataGoogleBigqueryDatasetIamPolicy.DataGoogleBigqueryDatasetIamPolicy",
+		"@cdktn/provider-google-beta.dataGoogleBigqueryDatasetIamPolicy.DataGoogleBigqueryDatasetIamPolicy",
 		"tfResourceType",
 		&returns,
 	)

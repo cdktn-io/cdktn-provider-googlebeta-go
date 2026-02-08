@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googletpunode
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleTpuNode.GoogleTpuNode",
+		"@cdktn/provider-google-beta.googleTpuNode.GoogleTpuNode",
 		reflect.TypeOf((*GoogleTpuNode)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "acceleratorType", GoGetter: "AcceleratorType"},
@@ -105,15 +105,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleTpuNode.GoogleTpuNodeConfig",
+		"@cdktn/provider-google-beta.googleTpuNode.GoogleTpuNodeConfig",
 		reflect.TypeOf((*GoogleTpuNodeConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleTpuNode.GoogleTpuNodeNetworkEndpoints",
+		"@cdktn/provider-google-beta.googleTpuNode.GoogleTpuNodeNetworkEndpoints",
 		reflect.TypeOf((*GoogleTpuNodeNetworkEndpoints)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleTpuNode.GoogleTpuNodeNetworkEndpointsList",
+		"@cdktn/provider-google-beta.googleTpuNode.GoogleTpuNodeNetworkEndpointsList",
 		reflect.TypeOf((*GoogleTpuNodeNetworkEndpointsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -134,7 +134,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleTpuNode.GoogleTpuNodeNetworkEndpointsOutputReference",
+		"@cdktn/provider-google-beta.googleTpuNode.GoogleTpuNodeNetworkEndpointsOutputReference",
 		reflect.TypeOf((*GoogleTpuNodeNetworkEndpointsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -168,11 +168,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleTpuNode.GoogleTpuNodeSchedulingConfig",
+		"@cdktn/provider-google-beta.googleTpuNode.GoogleTpuNodeSchedulingConfig",
 		reflect.TypeOf((*GoogleTpuNodeSchedulingConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleTpuNode.GoogleTpuNodeSchedulingConfigOutputReference",
+		"@cdktn/provider-google-beta.googleTpuNode.GoogleTpuNodeSchedulingConfigOutputReference",
 		reflect.TypeOf((*GoogleTpuNodeSchedulingConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -206,11 +206,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleTpuNode.GoogleTpuNodeTimeouts",
+		"@cdktn/provider-google-beta.googleTpuNode.GoogleTpuNodeTimeouts",
 		reflect.TypeOf((*GoogleTpuNodeTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleTpuNode.GoogleTpuNodeTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleTpuNode.GoogleTpuNodeTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleTpuNodeTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlebiglakecatalog
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleBiglakeCatalog.GoogleBiglakeCatalog",
+		"@cdktn/provider-google-beta.googleBiglakeCatalog.GoogleBiglakeCatalog",
 		reflect.TypeOf((*GoogleBiglakeCatalog)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -81,15 +81,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleBiglakeCatalog.GoogleBiglakeCatalogConfig",
+		"@cdktn/provider-google-beta.googleBiglakeCatalog.GoogleBiglakeCatalogConfig",
 		reflect.TypeOf((*GoogleBiglakeCatalogConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleBiglakeCatalog.GoogleBiglakeCatalogTimeouts",
+		"@cdktn/provider-google-beta.googleBiglakeCatalog.GoogleBiglakeCatalogTimeouts",
 		reflect.TypeOf((*GoogleBiglakeCatalogTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleBiglakeCatalog.GoogleBiglakeCatalogTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleBiglakeCatalog.GoogleBiglakeCatalogTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleBiglakeCatalogTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

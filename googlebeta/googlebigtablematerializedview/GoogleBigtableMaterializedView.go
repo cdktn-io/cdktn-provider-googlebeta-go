@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlebigtablematerializedview
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlebigtablematerializedview/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlebigtablematerializedview/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -473,7 +473,7 @@ func NewGoogleBigtableMaterializedView(scope constructs.Construct, id *string, c
 	j := jsiiProxy_GoogleBigtableMaterializedView{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleBigtableMaterializedView.GoogleBigtableMaterializedView",
+		"@cdktn/provider-google-beta.googleBigtableMaterializedView.GoogleBigtableMaterializedView",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -486,7 +486,7 @@ func NewGoogleBigtableMaterializedView_Override(g GoogleBigtableMaterializedView
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleBigtableMaterializedView.GoogleBigtableMaterializedView",
+		"@cdktn/provider-google-beta.googleBigtableMaterializedView.GoogleBigtableMaterializedView",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -636,7 +636,7 @@ func GoogleBigtableMaterializedView_GenerateConfigForImport(scope constructs.Con
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleBigtableMaterializedView.GoogleBigtableMaterializedView",
+		"@cdktn/provider-google-beta.googleBigtableMaterializedView.GoogleBigtableMaterializedView",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -671,7 +671,7 @@ func GoogleBigtableMaterializedView_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleBigtableMaterializedView.GoogleBigtableMaterializedView",
+		"@cdktn/provider-google-beta.googleBigtableMaterializedView.GoogleBigtableMaterializedView",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -690,7 +690,7 @@ func GoogleBigtableMaterializedView_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleBigtableMaterializedView.GoogleBigtableMaterializedView",
+		"@cdktn/provider-google-beta.googleBigtableMaterializedView.GoogleBigtableMaterializedView",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -709,7 +709,7 @@ func GoogleBigtableMaterializedView_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleBigtableMaterializedView.GoogleBigtableMaterializedView",
+		"@cdktn/provider-google-beta.googleBigtableMaterializedView.GoogleBigtableMaterializedView",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -722,7 +722,7 @@ func GoogleBigtableMaterializedView_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleBigtableMaterializedView.GoogleBigtableMaterializedView",
+		"@cdktn/provider-google-beta.googleBigtableMaterializedView.GoogleBigtableMaterializedView",
 		"tfResourceType",
 		&returns,
 	)

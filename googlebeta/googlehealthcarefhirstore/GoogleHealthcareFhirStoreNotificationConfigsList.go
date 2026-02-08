@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlehealthcarefhirstore
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlehealthcarefhirstore/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlehealthcarefhirstore/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -41,7 +41,7 @@ type GoogleHealthcareFhirStoreNotificationConfigsList interface {
 	Get(index *float64) GoogleHealthcareFhirStoreNotificationConfigsOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(_context cdktf.IResolveContext) interface{}
+	Resolve(context cdktf.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -124,7 +124,7 @@ func NewGoogleHealthcareFhirStoreNotificationConfigsList(terraformResource cdktf
 	j := jsiiProxy_GoogleHealthcareFhirStoreNotificationConfigsList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreNotificationConfigsList",
+		"@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreNotificationConfigsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewGoogleHealthcareFhirStoreNotificationConfigsList_Override(g GoogleHealth
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreNotificationConfigsList",
+		"@cdktn/provider-google-beta.googleHealthcareFhirStore.GoogleHealthcareFhirStoreNotificationConfigsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		g,
 	)
@@ -231,8 +231,8 @@ func (g *jsiiProxy_GoogleHealthcareFhirStoreNotificationConfigsList) Get(index *
 	return returns
 }
 
-func (g *jsiiProxy_GoogleHealthcareFhirStoreNotificationConfigsList) Resolve(_context cdktf.IResolveContext) interface{} {
-	if err := g.validateResolveParameters(_context); err != nil {
+func (g *jsiiProxy_GoogleHealthcareFhirStoreNotificationConfigsList) Resolve(context cdktf.IResolveContext) interface{} {
+	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}
 	var returns interface{}
@@ -240,7 +240,7 @@ func (g *jsiiProxy_GoogleHealthcareFhirStoreNotificationConfigsList) Resolve(_co
 	_jsii_.Invoke(
 		g,
 		"resolve",
-		[]interface{}{_context},
+		[]interface{}{context},
 		&returns,
 	)
 

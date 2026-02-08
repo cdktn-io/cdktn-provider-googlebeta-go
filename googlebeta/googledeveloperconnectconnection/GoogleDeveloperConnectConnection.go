@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googledeveloperconnectconnection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googledeveloperconnectconnection/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googledeveloperconnectconnection/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -788,7 +788,7 @@ func NewGoogleDeveloperConnectConnection(scope constructs.Construct, id *string,
 	j := jsiiProxy_GoogleDeveloperConnectConnection{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnection",
+		"@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnection",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -801,7 +801,7 @@ func NewGoogleDeveloperConnectConnection_Override(g GoogleDeveloperConnectConnec
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnection",
+		"@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnection",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -973,7 +973,7 @@ func GoogleDeveloperConnectConnection_GenerateConfigForImport(scope constructs.C
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnection",
+		"@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnection",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1008,7 +1008,7 @@ func GoogleDeveloperConnectConnection_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnection",
+		"@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnection",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1027,7 +1027,7 @@ func GoogleDeveloperConnectConnection_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnection",
+		"@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnection",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1046,7 +1046,7 @@ func GoogleDeveloperConnectConnection_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnection",
+		"@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnection",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1059,7 +1059,7 @@ func GoogleDeveloperConnectConnection_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnection",
+		"@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnection",
 		"tfResourceType",
 		&returns,
 	)

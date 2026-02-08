@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlesccfoldersccbigqueryexport
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlesccfoldersccbigqueryexport/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlesccfoldersccbigqueryexport/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -514,7 +514,7 @@ func NewGoogleSccFolderSccBigQueryExport(scope constructs.Construct, id *string,
 	j := jsiiProxy_GoogleSccFolderSccBigQueryExport{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleSccFolderSccBigQueryExport.GoogleSccFolderSccBigQueryExport",
+		"@cdktn/provider-google-beta.googleSccFolderSccBigQueryExport.GoogleSccFolderSccBigQueryExport",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -527,7 +527,7 @@ func NewGoogleSccFolderSccBigQueryExport_Override(g GoogleSccFolderSccBigQueryEx
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleSccFolderSccBigQueryExport.GoogleSccFolderSccBigQueryExport",
+		"@cdktn/provider-google-beta.googleSccFolderSccBigQueryExport.GoogleSccFolderSccBigQueryExport",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -677,7 +677,7 @@ func GoogleSccFolderSccBigQueryExport_GenerateConfigForImport(scope constructs.C
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleSccFolderSccBigQueryExport.GoogleSccFolderSccBigQueryExport",
+		"@cdktn/provider-google-beta.googleSccFolderSccBigQueryExport.GoogleSccFolderSccBigQueryExport",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -712,7 +712,7 @@ func GoogleSccFolderSccBigQueryExport_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleSccFolderSccBigQueryExport.GoogleSccFolderSccBigQueryExport",
+		"@cdktn/provider-google-beta.googleSccFolderSccBigQueryExport.GoogleSccFolderSccBigQueryExport",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -731,7 +731,7 @@ func GoogleSccFolderSccBigQueryExport_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleSccFolderSccBigQueryExport.GoogleSccFolderSccBigQueryExport",
+		"@cdktn/provider-google-beta.googleSccFolderSccBigQueryExport.GoogleSccFolderSccBigQueryExport",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -750,7 +750,7 @@ func GoogleSccFolderSccBigQueryExport_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleSccFolderSccBigQueryExport.GoogleSccFolderSccBigQueryExport",
+		"@cdktn/provider-google-beta.googleSccFolderSccBigQueryExport.GoogleSccFolderSccBigQueryExport",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -763,7 +763,7 @@ func GoogleSccFolderSccBigQueryExport_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleSccFolderSccBigQueryExport.GoogleSccFolderSccBigQueryExport",
+		"@cdktn/provider-google-beta.googleSccFolderSccBigQueryExport.GoogleSccFolderSccBigQueryExport",
 		"tfResourceType",
 		&returns,
 	)

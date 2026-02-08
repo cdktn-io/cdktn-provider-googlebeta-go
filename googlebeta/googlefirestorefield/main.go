@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlefirestorefield
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleFirestoreField.GoogleFirestoreField",
+		"@cdktn/provider-google-beta.googleFirestoreField.GoogleFirestoreField",
 		reflect.TypeOf((*GoogleFirestoreField)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -89,19 +89,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleFirestoreField.GoogleFirestoreFieldConfig",
+		"@cdktn/provider-google-beta.googleFirestoreField.GoogleFirestoreFieldConfig",
 		reflect.TypeOf((*GoogleFirestoreFieldConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleFirestoreField.GoogleFirestoreFieldIndexConfig",
+		"@cdktn/provider-google-beta.googleFirestoreField.GoogleFirestoreFieldIndexConfig",
 		reflect.TypeOf((*GoogleFirestoreFieldIndexConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleFirestoreField.GoogleFirestoreFieldIndexConfigIndexes",
+		"@cdktn/provider-google-beta.googleFirestoreField.GoogleFirestoreFieldIndexConfigIndexes",
 		reflect.TypeOf((*GoogleFirestoreFieldIndexConfigIndexes)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleFirestoreField.GoogleFirestoreFieldIndexConfigIndexesList",
+		"@cdktn/provider-google-beta.googleFirestoreField.GoogleFirestoreFieldIndexConfigIndexesList",
 		reflect.TypeOf((*GoogleFirestoreFieldIndexConfigIndexesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -123,7 +123,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleFirestoreField.GoogleFirestoreFieldIndexConfigIndexesOutputReference",
+		"@cdktn/provider-google-beta.googleFirestoreField.GoogleFirestoreFieldIndexConfigIndexesOutputReference",
 		reflect.TypeOf((*GoogleFirestoreFieldIndexConfigIndexesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "arrayConfig", GoGetter: "ArrayConfig"},
@@ -164,7 +164,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleFirestoreField.GoogleFirestoreFieldIndexConfigOutputReference",
+		"@cdktn/provider-google-beta.googleFirestoreField.GoogleFirestoreFieldIndexConfigOutputReference",
 		reflect.TypeOf((*GoogleFirestoreFieldIndexConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -200,11 +200,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleFirestoreField.GoogleFirestoreFieldTimeouts",
+		"@cdktn/provider-google-beta.googleFirestoreField.GoogleFirestoreFieldTimeouts",
 		reflect.TypeOf((*GoogleFirestoreFieldTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleFirestoreField.GoogleFirestoreFieldTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleFirestoreField.GoogleFirestoreFieldTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleFirestoreFieldTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -245,11 +245,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleFirestoreField.GoogleFirestoreFieldTtlConfig",
+		"@cdktn/provider-google-beta.googleFirestoreField.GoogleFirestoreFieldTtlConfig",
 		reflect.TypeOf((*GoogleFirestoreFieldTtlConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleFirestoreField.GoogleFirestoreFieldTtlConfigOutputReference",
+		"@cdktn/provider-google-beta.googleFirestoreField.GoogleFirestoreFieldTtlConfigOutputReference",
 		reflect.TypeOf((*GoogleFirestoreFieldTtlConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

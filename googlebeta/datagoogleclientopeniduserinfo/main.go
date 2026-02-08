@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagoogleclientopeniduserinfo
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleClientOpenidUserinfo.DataGoogleClientOpenidUserinfo",
+		"@cdktn/provider-google-beta.dataGoogleClientOpenidUserinfo.DataGoogleClientOpenidUserinfo",
 		reflect.TypeOf((*DataGoogleClientOpenidUserinfo)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -57,7 +57,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleClientOpenidUserinfo.DataGoogleClientOpenidUserinfoConfig",
+		"@cdktn/provider-google-beta.dataGoogleClientOpenidUserinfo.DataGoogleClientOpenidUserinfoConfig",
 		reflect.TypeOf((*DataGoogleClientOpenidUserinfoConfig)(nil)).Elem(),
 	)
 }

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagooglekmscryptokey
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleKmsCryptoKey.DataGoogleKmsCryptoKey",
+		"@cdktn/provider-google-beta.dataGoogleKmsCryptoKey.DataGoogleKmsCryptoKey",
 		reflect.TypeOf((*DataGoogleKmsCryptoKey)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -74,15 +74,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleKmsCryptoKey.DataGoogleKmsCryptoKeyConfig",
+		"@cdktn/provider-google-beta.dataGoogleKmsCryptoKey.DataGoogleKmsCryptoKeyConfig",
 		reflect.TypeOf((*DataGoogleKmsCryptoKeyConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleKmsCryptoKey.DataGoogleKmsCryptoKeyKeyAccessJustificationsPolicy",
+		"@cdktn/provider-google-beta.dataGoogleKmsCryptoKey.DataGoogleKmsCryptoKeyKeyAccessJustificationsPolicy",
 		reflect.TypeOf((*DataGoogleKmsCryptoKeyKeyAccessJustificationsPolicy)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleKmsCryptoKey.DataGoogleKmsCryptoKeyKeyAccessJustificationsPolicyList",
+		"@cdktn/provider-google-beta.dataGoogleKmsCryptoKey.DataGoogleKmsCryptoKeyKeyAccessJustificationsPolicyList",
 		reflect.TypeOf((*DataGoogleKmsCryptoKeyKeyAccessJustificationsPolicyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -103,7 +103,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleKmsCryptoKey.DataGoogleKmsCryptoKeyKeyAccessJustificationsPolicyOutputReference",
+		"@cdktn/provider-google-beta.dataGoogleKmsCryptoKey.DataGoogleKmsCryptoKeyKeyAccessJustificationsPolicyOutputReference",
 		reflect.TypeOf((*DataGoogleKmsCryptoKeyKeyAccessJustificationsPolicyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allowedAccessReasons", GoGetter: "AllowedAccessReasons"},
@@ -136,11 +136,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleKmsCryptoKey.DataGoogleKmsCryptoKeyPrimary",
+		"@cdktn/provider-google-beta.dataGoogleKmsCryptoKey.DataGoogleKmsCryptoKeyPrimary",
 		reflect.TypeOf((*DataGoogleKmsCryptoKeyPrimary)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleKmsCryptoKey.DataGoogleKmsCryptoKeyPrimaryList",
+		"@cdktn/provider-google-beta.dataGoogleKmsCryptoKey.DataGoogleKmsCryptoKeyPrimaryList",
 		reflect.TypeOf((*DataGoogleKmsCryptoKeyPrimaryList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -161,7 +161,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleKmsCryptoKey.DataGoogleKmsCryptoKeyPrimaryOutputReference",
+		"@cdktn/provider-google-beta.dataGoogleKmsCryptoKey.DataGoogleKmsCryptoKeyPrimaryOutputReference",
 		reflect.TypeOf((*DataGoogleKmsCryptoKeyPrimaryOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -195,11 +195,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleKmsCryptoKey.DataGoogleKmsCryptoKeyVersionTemplate",
+		"@cdktn/provider-google-beta.dataGoogleKmsCryptoKey.DataGoogleKmsCryptoKeyVersionTemplate",
 		reflect.TypeOf((*DataGoogleKmsCryptoKeyVersionTemplate)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleKmsCryptoKey.DataGoogleKmsCryptoKeyVersionTemplateList",
+		"@cdktn/provider-google-beta.dataGoogleKmsCryptoKey.DataGoogleKmsCryptoKeyVersionTemplateList",
 		reflect.TypeOf((*DataGoogleKmsCryptoKeyVersionTemplateList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -220,7 +220,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleKmsCryptoKey.DataGoogleKmsCryptoKeyVersionTemplateOutputReference",
+		"@cdktn/provider-google-beta.dataGoogleKmsCryptoKey.DataGoogleKmsCryptoKeyVersionTemplateOutputReference",
 		reflect.TypeOf((*DataGoogleKmsCryptoKeyVersionTemplateOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "algorithm", GoGetter: "Algorithm"},

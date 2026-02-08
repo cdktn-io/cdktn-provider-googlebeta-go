@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlevertexaiindex
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndex",
+		"@cdktn/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndex",
 		reflect.TypeOf((*GoogleVertexAiIndex)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -100,15 +100,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndexConfig",
+		"@cdktn/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndexConfig",
 		reflect.TypeOf((*GoogleVertexAiIndexConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndexDeployedIndexes",
+		"@cdktn/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndexDeployedIndexes",
 		reflect.TypeOf((*GoogleVertexAiIndexDeployedIndexes)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndexDeployedIndexesList",
+		"@cdktn/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndexDeployedIndexesList",
 		reflect.TypeOf((*GoogleVertexAiIndexDeployedIndexesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -129,7 +129,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndexDeployedIndexesOutputReference",
+		"@cdktn/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndexDeployedIndexesOutputReference",
 		reflect.TypeOf((*GoogleVertexAiIndexDeployedIndexesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -163,11 +163,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndexIndexStats",
+		"@cdktn/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndexIndexStats",
 		reflect.TypeOf((*GoogleVertexAiIndexIndexStats)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndexIndexStatsList",
+		"@cdktn/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndexIndexStatsList",
 		reflect.TypeOf((*GoogleVertexAiIndexIndexStatsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -188,7 +188,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndexIndexStatsOutputReference",
+		"@cdktn/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndexIndexStatsOutputReference",
 		reflect.TypeOf((*GoogleVertexAiIndexIndexStatsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -222,23 +222,23 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndexMetadata",
+		"@cdktn/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndexMetadata",
 		reflect.TypeOf((*GoogleVertexAiIndexMetadata)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndexMetadataConfig",
+		"@cdktn/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndexMetadataConfig",
 		reflect.TypeOf((*GoogleVertexAiIndexMetadataConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndexMetadataConfigAlgorithmConfig",
+		"@cdktn/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndexMetadataConfigAlgorithmConfig",
 		reflect.TypeOf((*GoogleVertexAiIndexMetadataConfigAlgorithmConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndexMetadataConfigAlgorithmConfigBruteForceConfig",
+		"@cdktn/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndexMetadataConfigAlgorithmConfigBruteForceConfig",
 		reflect.TypeOf((*GoogleVertexAiIndexMetadataConfigAlgorithmConfigBruteForceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndexMetadataConfigAlgorithmConfigBruteForceConfigOutputReference",
+		"@cdktn/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndexMetadataConfigAlgorithmConfigBruteForceConfigOutputReference",
 		reflect.TypeOf((*GoogleVertexAiIndexMetadataConfigAlgorithmConfigBruteForceConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -270,7 +270,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndexMetadataConfigAlgorithmConfigOutputReference",
+		"@cdktn/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndexMetadataConfigAlgorithmConfigOutputReference",
 		reflect.TypeOf((*GoogleVertexAiIndexMetadataConfigAlgorithmConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bruteForceConfig", GoGetter: "BruteForceConfig"},
@@ -310,11 +310,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndexMetadataConfigAlgorithmConfigTreeAhConfig",
+		"@cdktn/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndexMetadataConfigAlgorithmConfigTreeAhConfig",
 		reflect.TypeOf((*GoogleVertexAiIndexMetadataConfigAlgorithmConfigTreeAhConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndexMetadataConfigAlgorithmConfigTreeAhConfigOutputReference",
+		"@cdktn/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndexMetadataConfigAlgorithmConfigTreeAhConfigOutputReference",
 		reflect.TypeOf((*GoogleVertexAiIndexMetadataConfigAlgorithmConfigTreeAhConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -352,7 +352,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndexMetadataConfigOutputReference",
+		"@cdktn/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndexMetadataConfigOutputReference",
 		reflect.TypeOf((*GoogleVertexAiIndexMetadataConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "algorithmConfig", GoGetter: "AlgorithmConfig"},
@@ -402,7 +402,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndexMetadataOutputReference",
+		"@cdktn/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndexMetadataOutputReference",
 		reflect.TypeOf((*GoogleVertexAiIndexMetadataOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -444,11 +444,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndexTimeouts",
+		"@cdktn/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndexTimeouts",
 		reflect.TypeOf((*GoogleVertexAiIndexTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndexTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndexTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleVertexAiIndexTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

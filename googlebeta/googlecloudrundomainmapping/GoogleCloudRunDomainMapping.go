@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlecloudrundomainmapping
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlecloudrundomainmapping/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecloudrundomainmapping/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -472,7 +472,7 @@ func NewGoogleCloudRunDomainMapping(scope constructs.Construct, id *string, conf
 	j := jsiiProxy_GoogleCloudRunDomainMapping{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleCloudRunDomainMapping.GoogleCloudRunDomainMapping",
+		"@cdktn/provider-google-beta.googleCloudRunDomainMapping.GoogleCloudRunDomainMapping",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -485,7 +485,7 @@ func NewGoogleCloudRunDomainMapping_Override(g GoogleCloudRunDomainMapping, scop
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleCloudRunDomainMapping.GoogleCloudRunDomainMapping",
+		"@cdktn/provider-google-beta.googleCloudRunDomainMapping.GoogleCloudRunDomainMapping",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -613,7 +613,7 @@ func GoogleCloudRunDomainMapping_GenerateConfigForImport(scope constructs.Constr
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleCloudRunDomainMapping.GoogleCloudRunDomainMapping",
+		"@cdktn/provider-google-beta.googleCloudRunDomainMapping.GoogleCloudRunDomainMapping",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -648,7 +648,7 @@ func GoogleCloudRunDomainMapping_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleCloudRunDomainMapping.GoogleCloudRunDomainMapping",
+		"@cdktn/provider-google-beta.googleCloudRunDomainMapping.GoogleCloudRunDomainMapping",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -667,7 +667,7 @@ func GoogleCloudRunDomainMapping_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleCloudRunDomainMapping.GoogleCloudRunDomainMapping",
+		"@cdktn/provider-google-beta.googleCloudRunDomainMapping.GoogleCloudRunDomainMapping",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -686,7 +686,7 @@ func GoogleCloudRunDomainMapping_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleCloudRunDomainMapping.GoogleCloudRunDomainMapping",
+		"@cdktn/provider-google-beta.googleCloudRunDomainMapping.GoogleCloudRunDomainMapping",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -699,7 +699,7 @@ func GoogleCloudRunDomainMapping_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleCloudRunDomainMapping.GoogleCloudRunDomainMapping",
+		"@cdktn/provider-google-beta.googleCloudRunDomainMapping.GoogleCloudRunDomainMapping",
 		"tfResourceType",
 		&returns,
 	)

@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googledialogflowcxtestcase
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googledialogflowcxtestcase/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googledialogflowcxtestcase/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -520,7 +520,7 @@ func NewGoogleDialogflowCxTestCase(scope constructs.Construct, id *string, confi
 	j := jsiiProxy_GoogleDialogflowCxTestCase{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleDialogflowCxTestCase.GoogleDialogflowCxTestCase",
+		"@cdktn/provider-google-beta.googleDialogflowCxTestCase.GoogleDialogflowCxTestCase",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -533,7 +533,7 @@ func NewGoogleDialogflowCxTestCase_Override(g GoogleDialogflowCxTestCase, scope 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleDialogflowCxTestCase.GoogleDialogflowCxTestCase",
+		"@cdktn/provider-google-beta.googleDialogflowCxTestCase.GoogleDialogflowCxTestCase",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -672,7 +672,7 @@ func GoogleDialogflowCxTestCase_GenerateConfigForImport(scope constructs.Constru
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleDialogflowCxTestCase.GoogleDialogflowCxTestCase",
+		"@cdktn/provider-google-beta.googleDialogflowCxTestCase.GoogleDialogflowCxTestCase",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -707,7 +707,7 @@ func GoogleDialogflowCxTestCase_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleDialogflowCxTestCase.GoogleDialogflowCxTestCase",
+		"@cdktn/provider-google-beta.googleDialogflowCxTestCase.GoogleDialogflowCxTestCase",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -726,7 +726,7 @@ func GoogleDialogflowCxTestCase_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleDialogflowCxTestCase.GoogleDialogflowCxTestCase",
+		"@cdktn/provider-google-beta.googleDialogflowCxTestCase.GoogleDialogflowCxTestCase",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -745,7 +745,7 @@ func GoogleDialogflowCxTestCase_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleDialogflowCxTestCase.GoogleDialogflowCxTestCase",
+		"@cdktn/provider-google-beta.googleDialogflowCxTestCase.GoogleDialogflowCxTestCase",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -758,7 +758,7 @@ func GoogleDialogflowCxTestCase_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleDialogflowCxTestCase.GoogleDialogflowCxTestCase",
+		"@cdktn/provider-google-beta.googleDialogflowCxTestCase.GoogleDialogflowCxTestCase",
 		"tfResourceType",
 		&returns,
 	)

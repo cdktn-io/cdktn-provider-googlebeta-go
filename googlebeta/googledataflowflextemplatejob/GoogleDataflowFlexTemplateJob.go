@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googledataflowflextemplatejob
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googledataflowflextemplatejob/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googledataflowflextemplatejob/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -973,7 +973,7 @@ func NewGoogleDataflowFlexTemplateJob(scope constructs.Construct, id *string, co
 	j := jsiiProxy_GoogleDataflowFlexTemplateJob{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleDataflowFlexTemplateJob.GoogleDataflowFlexTemplateJob",
+		"@cdktn/provider-google-beta.googleDataflowFlexTemplateJob.GoogleDataflowFlexTemplateJob",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -986,7 +986,7 @@ func NewGoogleDataflowFlexTemplateJob_Override(g GoogleDataflowFlexTemplateJob, 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleDataflowFlexTemplateJob.GoogleDataflowFlexTemplateJob",
+		"@cdktn/provider-google-beta.googleDataflowFlexTemplateJob.GoogleDataflowFlexTemplateJob",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -1356,7 +1356,7 @@ func GoogleDataflowFlexTemplateJob_GenerateConfigForImport(scope constructs.Cons
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleDataflowFlexTemplateJob.GoogleDataflowFlexTemplateJob",
+		"@cdktn/provider-google-beta.googleDataflowFlexTemplateJob.GoogleDataflowFlexTemplateJob",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1391,7 +1391,7 @@ func GoogleDataflowFlexTemplateJob_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleDataflowFlexTemplateJob.GoogleDataflowFlexTemplateJob",
+		"@cdktn/provider-google-beta.googleDataflowFlexTemplateJob.GoogleDataflowFlexTemplateJob",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1410,7 +1410,7 @@ func GoogleDataflowFlexTemplateJob_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleDataflowFlexTemplateJob.GoogleDataflowFlexTemplateJob",
+		"@cdktn/provider-google-beta.googleDataflowFlexTemplateJob.GoogleDataflowFlexTemplateJob",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1429,7 +1429,7 @@ func GoogleDataflowFlexTemplateJob_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleDataflowFlexTemplateJob.GoogleDataflowFlexTemplateJob",
+		"@cdktn/provider-google-beta.googleDataflowFlexTemplateJob.GoogleDataflowFlexTemplateJob",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1442,7 +1442,7 @@ func GoogleDataflowFlexTemplateJob_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleDataflowFlexTemplateJob.GoogleDataflowFlexTemplateJob",
+		"@cdktn/provider-google-beta.googleDataflowFlexTemplateJob.GoogleDataflowFlexTemplateJob",
 		"tfResourceType",
 		&returns,
 	)

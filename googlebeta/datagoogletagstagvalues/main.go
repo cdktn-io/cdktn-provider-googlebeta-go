@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagoogletagstagvalues
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleTagsTagValues.DataGoogleTagsTagValues",
+		"@cdktn/provider-google-beta.dataGoogleTagsTagValues.DataGoogleTagsTagValues",
 		reflect.TypeOf((*DataGoogleTagsTagValues)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -61,15 +61,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleTagsTagValues.DataGoogleTagsTagValuesConfig",
+		"@cdktn/provider-google-beta.dataGoogleTagsTagValues.DataGoogleTagsTagValuesConfig",
 		reflect.TypeOf((*DataGoogleTagsTagValuesConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleTagsTagValues.DataGoogleTagsTagValuesValues",
+		"@cdktn/provider-google-beta.dataGoogleTagsTagValues.DataGoogleTagsTagValuesValues",
 		reflect.TypeOf((*DataGoogleTagsTagValuesValues)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleTagsTagValues.DataGoogleTagsTagValuesValuesList",
+		"@cdktn/provider-google-beta.dataGoogleTagsTagValues.DataGoogleTagsTagValuesValuesList",
 		reflect.TypeOf((*DataGoogleTagsTagValuesValuesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -90,7 +90,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleTagsTagValues.DataGoogleTagsTagValuesValuesOutputReference",
+		"@cdktn/provider-google-beta.dataGoogleTagsTagValues.DataGoogleTagsTagValuesValuesOutputReference",
 		reflect.TypeOf((*DataGoogleTagsTagValuesValuesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

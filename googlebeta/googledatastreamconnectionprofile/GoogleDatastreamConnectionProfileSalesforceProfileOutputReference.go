@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googledatastreamconnectionprofile
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googledatastreamconnectionprofile/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googledatastreamconnectionprofile/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -70,14 +70,14 @@ type GoogleDatastreamConnectionProfileSalesforceProfileOutputReference interface
 	// Experimental.
 	InterpolationAsList() cdktf.IResolvable
 	// Experimental.
-	InterpolationForAttribute(property *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
 	PutOauth2ClientCredentials(value *GoogleDatastreamConnectionProfileSalesforceProfileOauth2ClientCredentials)
 	PutUserCredentials(value *GoogleDatastreamConnectionProfileSalesforceProfileUserCredentials)
 	ResetOauth2ClientCredentials()
 	ResetUserCredentials()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(_context cdktf.IResolveContext) interface{}
+	Resolve(context cdktf.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -230,7 +230,7 @@ func NewGoogleDatastreamConnectionProfileSalesforceProfileOutputReference(terraf
 	j := jsiiProxy_GoogleDatastreamConnectionProfileSalesforceProfileOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleDatastreamConnectionProfile.GoogleDatastreamConnectionProfileSalesforceProfileOutputReference",
+		"@cdktn/provider-google-beta.googleDatastreamConnectionProfile.GoogleDatastreamConnectionProfileSalesforceProfileOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -242,7 +242,7 @@ func NewGoogleDatastreamConnectionProfileSalesforceProfileOutputReference_Overri
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleDatastreamConnectionProfile.GoogleDatastreamConnectionProfileSalesforceProfileOutputReference",
+		"@cdktn/provider-google-beta.googleDatastreamConnectionProfile.GoogleDatastreamConnectionProfileSalesforceProfileOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		g,
 	)
@@ -484,8 +484,8 @@ func (g *jsiiProxy_GoogleDatastreamConnectionProfileSalesforceProfileOutputRefer
 	return returns
 }
 
-func (g *jsiiProxy_GoogleDatastreamConnectionProfileSalesforceProfileOutputReference) InterpolationForAttribute(property *string) cdktf.IResolvable {
-	if err := g.validateInterpolationForAttributeParameters(property); err != nil {
+func (g *jsiiProxy_GoogleDatastreamConnectionProfileSalesforceProfileOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
 	var returns cdktf.IResolvable
@@ -493,7 +493,7 @@ func (g *jsiiProxy_GoogleDatastreamConnectionProfileSalesforceProfileOutputRefer
 	_jsii_.Invoke(
 		g,
 		"interpolationForAttribute",
-		[]interface{}{property},
+		[]interface{}{terraformAttribute},
 		&returns,
 	)
 
@@ -538,8 +538,8 @@ func (g *jsiiProxy_GoogleDatastreamConnectionProfileSalesforceProfileOutputRefer
 	)
 }
 
-func (g *jsiiProxy_GoogleDatastreamConnectionProfileSalesforceProfileOutputReference) Resolve(_context cdktf.IResolveContext) interface{} {
-	if err := g.validateResolveParameters(_context); err != nil {
+func (g *jsiiProxy_GoogleDatastreamConnectionProfileSalesforceProfileOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}
 	var returns interface{}
@@ -547,7 +547,7 @@ func (g *jsiiProxy_GoogleDatastreamConnectionProfileSalesforceProfileOutputRefer
 	_jsii_.Invoke(
 		g,
 		"resolve",
-		[]interface{}{_context},
+		[]interface{}{context},
 		&returns,
 	)
 

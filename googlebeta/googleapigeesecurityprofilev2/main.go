@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googleapigeesecurityprofilev2
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleApigeeSecurityProfileV2.GoogleApigeeSecurityProfileV2",
+		"@cdktn/provider-google-beta.googleApigeeSecurityProfileV2.GoogleApigeeSecurityProfileV2",
 		reflect.TypeOf((*GoogleApigeeSecurityProfileV2)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -83,15 +83,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleApigeeSecurityProfileV2.GoogleApigeeSecurityProfileV2Config",
+		"@cdktn/provider-google-beta.googleApigeeSecurityProfileV2.GoogleApigeeSecurityProfileV2Config",
 		reflect.TypeOf((*GoogleApigeeSecurityProfileV2Config)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleApigeeSecurityProfileV2.GoogleApigeeSecurityProfileV2ProfileAssessmentConfigs",
+		"@cdktn/provider-google-beta.googleApigeeSecurityProfileV2.GoogleApigeeSecurityProfileV2ProfileAssessmentConfigs",
 		reflect.TypeOf((*GoogleApigeeSecurityProfileV2ProfileAssessmentConfigs)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleApigeeSecurityProfileV2.GoogleApigeeSecurityProfileV2ProfileAssessmentConfigsList",
+		"@cdktn/provider-google-beta.googleApigeeSecurityProfileV2.GoogleApigeeSecurityProfileV2ProfileAssessmentConfigsList",
 		reflect.TypeOf((*GoogleApigeeSecurityProfileV2ProfileAssessmentConfigsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -113,7 +113,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleApigeeSecurityProfileV2.GoogleApigeeSecurityProfileV2ProfileAssessmentConfigsOutputReference",
+		"@cdktn/provider-google-beta.googleApigeeSecurityProfileV2.GoogleApigeeSecurityProfileV2ProfileAssessmentConfigsOutputReference",
 		reflect.TypeOf((*GoogleApigeeSecurityProfileV2ProfileAssessmentConfigsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "assessment", GoGetter: "Assessment"},
@@ -149,11 +149,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleApigeeSecurityProfileV2.GoogleApigeeSecurityProfileV2Timeouts",
+		"@cdktn/provider-google-beta.googleApigeeSecurityProfileV2.GoogleApigeeSecurityProfileV2Timeouts",
 		reflect.TypeOf((*GoogleApigeeSecurityProfileV2Timeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleApigeeSecurityProfileV2.GoogleApigeeSecurityProfileV2TimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleApigeeSecurityProfileV2.GoogleApigeeSecurityProfileV2TimeoutsOutputReference",
 		reflect.TypeOf((*GoogleApigeeSecurityProfileV2TimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

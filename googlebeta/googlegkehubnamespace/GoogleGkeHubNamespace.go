@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlegkehubnamespace
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlegkehubnamespace/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlegkehubnamespace/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -573,7 +573,7 @@ func NewGoogleGkeHubNamespace(scope constructs.Construct, id *string, config *Go
 	j := jsiiProxy_GoogleGkeHubNamespace{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleGkeHubNamespace.GoogleGkeHubNamespace",
+		"@cdktn/provider-google-beta.googleGkeHubNamespace.GoogleGkeHubNamespace",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -586,7 +586,7 @@ func NewGoogleGkeHubNamespace_Override(g GoogleGkeHubNamespace, scope constructs
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleGkeHubNamespace.GoogleGkeHubNamespace",
+		"@cdktn/provider-google-beta.googleGkeHubNamespace.GoogleGkeHubNamespace",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -747,7 +747,7 @@ func GoogleGkeHubNamespace_GenerateConfigForImport(scope constructs.Construct, i
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleGkeHubNamespace.GoogleGkeHubNamespace",
+		"@cdktn/provider-google-beta.googleGkeHubNamespace.GoogleGkeHubNamespace",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -782,7 +782,7 @@ func GoogleGkeHubNamespace_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleGkeHubNamespace.GoogleGkeHubNamespace",
+		"@cdktn/provider-google-beta.googleGkeHubNamespace.GoogleGkeHubNamespace",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -801,7 +801,7 @@ func GoogleGkeHubNamespace_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleGkeHubNamespace.GoogleGkeHubNamespace",
+		"@cdktn/provider-google-beta.googleGkeHubNamespace.GoogleGkeHubNamespace",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -820,7 +820,7 @@ func GoogleGkeHubNamespace_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleGkeHubNamespace.GoogleGkeHubNamespace",
+		"@cdktn/provider-google-beta.googleGkeHubNamespace.GoogleGkeHubNamespace",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -833,7 +833,7 @@ func GoogleGkeHubNamespace_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleGkeHubNamespace.GoogleGkeHubNamespace",
+		"@cdktn/provider-google-beta.googleGkeHubNamespace.GoogleGkeHubNamespace",
 		"tfResourceType",
 		&returns,
 	)

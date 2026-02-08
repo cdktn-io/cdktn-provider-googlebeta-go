@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googledialogflowintent
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleDialogflowIntent.GoogleDialogflowIntent",
+		"@cdktn/provider-google-beta.googleDialogflowIntent.GoogleDialogflowIntent",
 		reflect.TypeOf((*GoogleDialogflowIntent)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "action", GoGetter: "Action"},
@@ -108,15 +108,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleDialogflowIntent.GoogleDialogflowIntentConfig",
+		"@cdktn/provider-google-beta.googleDialogflowIntent.GoogleDialogflowIntentConfig",
 		reflect.TypeOf((*GoogleDialogflowIntentConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleDialogflowIntent.GoogleDialogflowIntentFollowupIntentInfo",
+		"@cdktn/provider-google-beta.googleDialogflowIntent.GoogleDialogflowIntentFollowupIntentInfo",
 		reflect.TypeOf((*GoogleDialogflowIntentFollowupIntentInfo)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleDialogflowIntent.GoogleDialogflowIntentFollowupIntentInfoList",
+		"@cdktn/provider-google-beta.googleDialogflowIntent.GoogleDialogflowIntentFollowupIntentInfoList",
 		reflect.TypeOf((*GoogleDialogflowIntentFollowupIntentInfoList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -137,7 +137,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleDialogflowIntent.GoogleDialogflowIntentFollowupIntentInfoOutputReference",
+		"@cdktn/provider-google-beta.googleDialogflowIntent.GoogleDialogflowIntentFollowupIntentInfoOutputReference",
 		reflect.TypeOf((*GoogleDialogflowIntentFollowupIntentInfoOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -171,11 +171,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleDialogflowIntent.GoogleDialogflowIntentTimeouts",
+		"@cdktn/provider-google-beta.googleDialogflowIntent.GoogleDialogflowIntentTimeouts",
 		reflect.TypeOf((*GoogleDialogflowIntentTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleDialogflowIntent.GoogleDialogflowIntentTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleDialogflowIntent.GoogleDialogflowIntentTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleDialogflowIntentTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

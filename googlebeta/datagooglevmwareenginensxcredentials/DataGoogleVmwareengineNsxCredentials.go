@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagooglevmwareenginensxcredentials
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/datagooglevmwareenginensxcredentials/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagooglevmwareenginensxcredentials/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -320,7 +320,7 @@ func NewDataGoogleVmwareengineNsxCredentials(scope constructs.Construct, id *str
 	j := jsiiProxy_DataGoogleVmwareengineNsxCredentials{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.dataGoogleVmwareengineNsxCredentials.DataGoogleVmwareengineNsxCredentials",
+		"@cdktn/provider-google-beta.dataGoogleVmwareengineNsxCredentials.DataGoogleVmwareengineNsxCredentials",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -333,7 +333,7 @@ func NewDataGoogleVmwareengineNsxCredentials_Override(d DataGoogleVmwareengineNs
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.dataGoogleVmwareengineNsxCredentials.DataGoogleVmwareengineNsxCredentials",
+		"@cdktn/provider-google-beta.dataGoogleVmwareengineNsxCredentials.DataGoogleVmwareengineNsxCredentials",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -417,7 +417,7 @@ func DataGoogleVmwareengineNsxCredentials_GenerateConfigForImport(scope construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleVmwareengineNsxCredentials.DataGoogleVmwareengineNsxCredentials",
+		"@cdktn/provider-google-beta.dataGoogleVmwareengineNsxCredentials.DataGoogleVmwareengineNsxCredentials",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -452,7 +452,7 @@ func DataGoogleVmwareengineNsxCredentials_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleVmwareengineNsxCredentials.DataGoogleVmwareengineNsxCredentials",
+		"@cdktn/provider-google-beta.dataGoogleVmwareengineNsxCredentials.DataGoogleVmwareengineNsxCredentials",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -471,7 +471,7 @@ func DataGoogleVmwareengineNsxCredentials_IsTerraformDataSource(x interface{}) *
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleVmwareengineNsxCredentials.DataGoogleVmwareengineNsxCredentials",
+		"@cdktn/provider-google-beta.dataGoogleVmwareengineNsxCredentials.DataGoogleVmwareengineNsxCredentials",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -490,7 +490,7 @@ func DataGoogleVmwareengineNsxCredentials_IsTerraformElement(x interface{}) *boo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleVmwareengineNsxCredentials.DataGoogleVmwareengineNsxCredentials",
+		"@cdktn/provider-google-beta.dataGoogleVmwareengineNsxCredentials.DataGoogleVmwareengineNsxCredentials",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -503,7 +503,7 @@ func DataGoogleVmwareengineNsxCredentials_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.dataGoogleVmwareengineNsxCredentials.DataGoogleVmwareengineNsxCredentials",
+		"@cdktn/provider-google-beta.dataGoogleVmwareengineNsxCredentials.DataGoogleVmwareengineNsxCredentials",
 		"tfResourceType",
 		&returns,
 	)

@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googleeventarcgoogleapisource
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googleeventarcgoogleapisource/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleeventarcgoogleapisource/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -645,7 +645,7 @@ func NewGoogleEventarcGoogleApiSource(scope constructs.Construct, id *string, co
 	j := jsiiProxy_GoogleEventarcGoogleApiSource{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleEventarcGoogleApiSource.GoogleEventarcGoogleApiSource",
+		"@cdktn/provider-google-beta.googleEventarcGoogleApiSource.GoogleEventarcGoogleApiSource",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -658,7 +658,7 @@ func NewGoogleEventarcGoogleApiSource_Override(g GoogleEventarcGoogleApiSource, 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleEventarcGoogleApiSource.GoogleEventarcGoogleApiSource",
+		"@cdktn/provider-google-beta.googleEventarcGoogleApiSource.GoogleEventarcGoogleApiSource",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -841,7 +841,7 @@ func GoogleEventarcGoogleApiSource_GenerateConfigForImport(scope constructs.Cons
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleEventarcGoogleApiSource.GoogleEventarcGoogleApiSource",
+		"@cdktn/provider-google-beta.googleEventarcGoogleApiSource.GoogleEventarcGoogleApiSource",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -876,7 +876,7 @@ func GoogleEventarcGoogleApiSource_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleEventarcGoogleApiSource.GoogleEventarcGoogleApiSource",
+		"@cdktn/provider-google-beta.googleEventarcGoogleApiSource.GoogleEventarcGoogleApiSource",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -895,7 +895,7 @@ func GoogleEventarcGoogleApiSource_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleEventarcGoogleApiSource.GoogleEventarcGoogleApiSource",
+		"@cdktn/provider-google-beta.googleEventarcGoogleApiSource.GoogleEventarcGoogleApiSource",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -914,7 +914,7 @@ func GoogleEventarcGoogleApiSource_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleEventarcGoogleApiSource.GoogleEventarcGoogleApiSource",
+		"@cdktn/provider-google-beta.googleEventarcGoogleApiSource.GoogleEventarcGoogleApiSource",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -927,7 +927,7 @@ func GoogleEventarcGoogleApiSource_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleEventarcGoogleApiSource.GoogleEventarcGoogleApiSource",
+		"@cdktn/provider-google-beta.googleEventarcGoogleApiSource.GoogleEventarcGoogleApiSource",
 		"tfResourceType",
 		&returns,
 	)

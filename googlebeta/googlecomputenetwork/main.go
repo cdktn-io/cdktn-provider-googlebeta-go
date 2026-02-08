@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlecomputenetwork
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleComputeNetwork.GoogleComputeNetwork",
+		"@cdktn/provider-google-beta.googleComputeNetwork.GoogleComputeNetwork",
 		reflect.TypeOf((*GoogleComputeNetwork)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -119,15 +119,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleComputeNetwork.GoogleComputeNetworkConfig",
+		"@cdktn/provider-google-beta.googleComputeNetwork.GoogleComputeNetworkConfig",
 		reflect.TypeOf((*GoogleComputeNetworkConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleComputeNetwork.GoogleComputeNetworkParams",
+		"@cdktn/provider-google-beta.googleComputeNetwork.GoogleComputeNetworkParams",
 		reflect.TypeOf((*GoogleComputeNetworkParams)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleComputeNetwork.GoogleComputeNetworkParamsOutputReference",
+		"@cdktn/provider-google-beta.googleComputeNetwork.GoogleComputeNetworkParamsOutputReference",
 		reflect.TypeOf((*GoogleComputeNetworkParamsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -162,11 +162,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleComputeNetwork.GoogleComputeNetworkTimeouts",
+		"@cdktn/provider-google-beta.googleComputeNetwork.GoogleComputeNetworkTimeouts",
 		reflect.TypeOf((*GoogleComputeNetworkTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleComputeNetwork.GoogleComputeNetworkTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleComputeNetwork.GoogleComputeNetworkTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleComputeNetworkTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

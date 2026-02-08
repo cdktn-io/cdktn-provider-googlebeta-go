@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlekmsekmconnectioniammember
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleKmsEkmConnectionIamMember.GoogleKmsEkmConnectionIamMember",
+		"@cdktn/provider-google-beta.googleKmsEkmConnectionIamMember.GoogleKmsEkmConnectionIamMember",
 		reflect.TypeOf((*GoogleKmsEkmConnectionIamMember)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -83,11 +83,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleKmsEkmConnectionIamMember.GoogleKmsEkmConnectionIamMemberCondition",
+		"@cdktn/provider-google-beta.googleKmsEkmConnectionIamMember.GoogleKmsEkmConnectionIamMemberCondition",
 		reflect.TypeOf((*GoogleKmsEkmConnectionIamMemberCondition)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleKmsEkmConnectionIamMember.GoogleKmsEkmConnectionIamMemberConditionOutputReference",
+		"@cdktn/provider-google-beta.googleKmsEkmConnectionIamMember.GoogleKmsEkmConnectionIamMemberConditionOutputReference",
 		reflect.TypeOf((*GoogleKmsEkmConnectionIamMemberConditionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -126,7 +126,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleKmsEkmConnectionIamMember.GoogleKmsEkmConnectionIamMemberConfig",
+		"@cdktn/provider-google-beta.googleKmsEkmConnectionIamMember.GoogleKmsEkmConnectionIamMemberConfig",
 		reflect.TypeOf((*GoogleKmsEkmConnectionIamMemberConfig)(nil)).Elem(),
 	)
 }

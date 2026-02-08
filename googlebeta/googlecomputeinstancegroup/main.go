@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlecomputeinstancegroup
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleComputeInstanceGroup.GoogleComputeInstanceGroup",
+		"@cdktn/provider-google-beta.googleComputeInstanceGroup.GoogleComputeInstanceGroup",
 		reflect.TypeOf((*GoogleComputeInstanceGroup)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -93,15 +93,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleComputeInstanceGroup.GoogleComputeInstanceGroupConfig",
+		"@cdktn/provider-google-beta.googleComputeInstanceGroup.GoogleComputeInstanceGroupConfig",
 		reflect.TypeOf((*GoogleComputeInstanceGroupConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleComputeInstanceGroup.GoogleComputeInstanceGroupNamedPort",
+		"@cdktn/provider-google-beta.googleComputeInstanceGroup.GoogleComputeInstanceGroupNamedPort",
 		reflect.TypeOf((*GoogleComputeInstanceGroupNamedPort)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleComputeInstanceGroup.GoogleComputeInstanceGroupNamedPortList",
+		"@cdktn/provider-google-beta.googleComputeInstanceGroup.GoogleComputeInstanceGroupNamedPortList",
 		reflect.TypeOf((*GoogleComputeInstanceGroupNamedPortList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -123,7 +123,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleComputeInstanceGroup.GoogleComputeInstanceGroupNamedPortOutputReference",
+		"@cdktn/provider-google-beta.googleComputeInstanceGroup.GoogleComputeInstanceGroupNamedPortOutputReference",
 		reflect.TypeOf((*GoogleComputeInstanceGroupNamedPortOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -159,11 +159,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleComputeInstanceGroup.GoogleComputeInstanceGroupTimeouts",
+		"@cdktn/provider-google-beta.googleComputeInstanceGroup.GoogleComputeInstanceGroupTimeouts",
 		reflect.TypeOf((*GoogleComputeInstanceGroupTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleComputeInstanceGroup.GoogleComputeInstanceGroupTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleComputeInstanceGroup.GoogleComputeInstanceGroupTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleComputeInstanceGroupTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

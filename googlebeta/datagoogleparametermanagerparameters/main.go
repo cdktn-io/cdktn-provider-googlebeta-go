@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagoogleparametermanagerparameters
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleParameterManagerParameters.DataGoogleParameterManagerParameters",
+		"@cdktn/provider-google-beta.dataGoogleParameterManagerParameters.DataGoogleParameterManagerParameters",
 		reflect.TypeOf((*DataGoogleParameterManagerParameters)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -65,15 +65,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleParameterManagerParameters.DataGoogleParameterManagerParametersConfig",
+		"@cdktn/provider-google-beta.dataGoogleParameterManagerParameters.DataGoogleParameterManagerParametersConfig",
 		reflect.TypeOf((*DataGoogleParameterManagerParametersConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleParameterManagerParameters.DataGoogleParameterManagerParametersParameters",
+		"@cdktn/provider-google-beta.dataGoogleParameterManagerParameters.DataGoogleParameterManagerParametersParameters",
 		reflect.TypeOf((*DataGoogleParameterManagerParametersParameters)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleParameterManagerParameters.DataGoogleParameterManagerParametersParametersList",
+		"@cdktn/provider-google-beta.dataGoogleParameterManagerParameters.DataGoogleParameterManagerParametersParametersList",
 		reflect.TypeOf((*DataGoogleParameterManagerParametersParametersList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -94,7 +94,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleParameterManagerParameters.DataGoogleParameterManagerParametersParametersOutputReference",
+		"@cdktn/provider-google-beta.dataGoogleParameterManagerParameters.DataGoogleParameterManagerParametersParametersOutputReference",
 		reflect.TypeOf((*DataGoogleParameterManagerParametersParametersOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -137,11 +137,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleParameterManagerParameters.DataGoogleParameterManagerParametersParametersPolicyMember",
+		"@cdktn/provider-google-beta.dataGoogleParameterManagerParameters.DataGoogleParameterManagerParametersParametersPolicyMember",
 		reflect.TypeOf((*DataGoogleParameterManagerParametersParametersPolicyMember)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleParameterManagerParameters.DataGoogleParameterManagerParametersParametersPolicyMemberList",
+		"@cdktn/provider-google-beta.dataGoogleParameterManagerParameters.DataGoogleParameterManagerParametersParametersPolicyMemberList",
 		reflect.TypeOf((*DataGoogleParameterManagerParametersParametersPolicyMemberList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -162,7 +162,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleParameterManagerParameters.DataGoogleParameterManagerParametersParametersPolicyMemberOutputReference",
+		"@cdktn/provider-google-beta.dataGoogleParameterManagerParameters.DataGoogleParameterManagerParametersParametersPolicyMemberOutputReference",
 		reflect.TypeOf((*DataGoogleParameterManagerParametersParametersPolicyMemberOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

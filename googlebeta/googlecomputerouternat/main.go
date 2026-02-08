@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlecomputerouternat
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleComputeRouterNat.GoogleComputeRouterNat",
+		"@cdktn/provider-google-beta.googleComputeRouterNat.GoogleComputeRouterNat",
 		reflect.TypeOf((*GoogleComputeRouterNat)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -149,15 +149,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleComputeRouterNat.GoogleComputeRouterNatConfig",
+		"@cdktn/provider-google-beta.googleComputeRouterNat.GoogleComputeRouterNatConfig",
 		reflect.TypeOf((*GoogleComputeRouterNatConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleComputeRouterNat.GoogleComputeRouterNatLogConfig",
+		"@cdktn/provider-google-beta.googleComputeRouterNat.GoogleComputeRouterNatLogConfig",
 		reflect.TypeOf((*GoogleComputeRouterNatLogConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleComputeRouterNat.GoogleComputeRouterNatLogConfigOutputReference",
+		"@cdktn/provider-google-beta.googleComputeRouterNat.GoogleComputeRouterNatLogConfigOutputReference",
 		reflect.TypeOf((*GoogleComputeRouterNatLogConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -193,11 +193,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleComputeRouterNat.GoogleComputeRouterNatNat64Subnetwork",
+		"@cdktn/provider-google-beta.googleComputeRouterNat.GoogleComputeRouterNatNat64Subnetwork",
 		reflect.TypeOf((*GoogleComputeRouterNatNat64Subnetwork)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleComputeRouterNat.GoogleComputeRouterNatNat64SubnetworkList",
+		"@cdktn/provider-google-beta.googleComputeRouterNat.GoogleComputeRouterNatNat64SubnetworkList",
 		reflect.TypeOf((*GoogleComputeRouterNatNat64SubnetworkList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -219,7 +219,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleComputeRouterNat.GoogleComputeRouterNatNat64SubnetworkOutputReference",
+		"@cdktn/provider-google-beta.googleComputeRouterNat.GoogleComputeRouterNatNat64SubnetworkOutputReference",
 		reflect.TypeOf((*GoogleComputeRouterNatNat64SubnetworkOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -253,15 +253,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleComputeRouterNat.GoogleComputeRouterNatRules",
+		"@cdktn/provider-google-beta.googleComputeRouterNat.GoogleComputeRouterNatRules",
 		reflect.TypeOf((*GoogleComputeRouterNatRules)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleComputeRouterNat.GoogleComputeRouterNatRulesAction",
+		"@cdktn/provider-google-beta.googleComputeRouterNat.GoogleComputeRouterNatRulesAction",
 		reflect.TypeOf((*GoogleComputeRouterNatRulesAction)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleComputeRouterNat.GoogleComputeRouterNatRulesActionOutputReference",
+		"@cdktn/provider-google-beta.googleComputeRouterNat.GoogleComputeRouterNatRulesActionOutputReference",
 		reflect.TypeOf((*GoogleComputeRouterNatRulesActionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -305,7 +305,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleComputeRouterNat.GoogleComputeRouterNatRulesList",
+		"@cdktn/provider-google-beta.googleComputeRouterNat.GoogleComputeRouterNatRulesList",
 		reflect.TypeOf((*GoogleComputeRouterNatRulesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -327,7 +327,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleComputeRouterNat.GoogleComputeRouterNatRulesOutputReference",
+		"@cdktn/provider-google-beta.googleComputeRouterNat.GoogleComputeRouterNatRulesOutputReference",
 		reflect.TypeOf((*GoogleComputeRouterNatRulesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "action", GoGetter: "Action"},
@@ -370,11 +370,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleComputeRouterNat.GoogleComputeRouterNatSubnetwork",
+		"@cdktn/provider-google-beta.googleComputeRouterNat.GoogleComputeRouterNatSubnetwork",
 		reflect.TypeOf((*GoogleComputeRouterNatSubnetwork)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleComputeRouterNat.GoogleComputeRouterNatSubnetworkList",
+		"@cdktn/provider-google-beta.googleComputeRouterNat.GoogleComputeRouterNatSubnetworkList",
 		reflect.TypeOf((*GoogleComputeRouterNatSubnetworkList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -396,7 +396,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleComputeRouterNat.GoogleComputeRouterNatSubnetworkOutputReference",
+		"@cdktn/provider-google-beta.googleComputeRouterNat.GoogleComputeRouterNatSubnetworkOutputReference",
 		reflect.TypeOf((*GoogleComputeRouterNatSubnetworkOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -435,11 +435,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleComputeRouterNat.GoogleComputeRouterNatTimeouts",
+		"@cdktn/provider-google-beta.googleComputeRouterNat.GoogleComputeRouterNatTimeouts",
 		reflect.TypeOf((*GoogleComputeRouterNatTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleComputeRouterNat.GoogleComputeRouterNatTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleComputeRouterNat.GoogleComputeRouterNatTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleComputeRouterNatTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

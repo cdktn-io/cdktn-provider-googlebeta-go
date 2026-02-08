@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagooglecloudquotasquotainfos
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/datagooglecloudquotasquotainfos/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagooglecloudquotasquotainfos/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -332,7 +332,7 @@ func NewDataGoogleCloudQuotasQuotaInfos(scope constructs.Construct, id *string, 
 	j := jsiiProxy_DataGoogleCloudQuotasQuotaInfos{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.dataGoogleCloudQuotasQuotaInfos.DataGoogleCloudQuotasQuotaInfos",
+		"@cdktn/provider-google-beta.dataGoogleCloudQuotasQuotaInfos.DataGoogleCloudQuotasQuotaInfos",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -345,7 +345,7 @@ func NewDataGoogleCloudQuotasQuotaInfos_Override(d DataGoogleCloudQuotasQuotaInf
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.dataGoogleCloudQuotasQuotaInfos.DataGoogleCloudQuotasQuotaInfos",
+		"@cdktn/provider-google-beta.dataGoogleCloudQuotasQuotaInfos.DataGoogleCloudQuotasQuotaInfos",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -440,7 +440,7 @@ func DataGoogleCloudQuotasQuotaInfos_GenerateConfigForImport(scope constructs.Co
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleCloudQuotasQuotaInfos.DataGoogleCloudQuotasQuotaInfos",
+		"@cdktn/provider-google-beta.dataGoogleCloudQuotasQuotaInfos.DataGoogleCloudQuotasQuotaInfos",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -475,7 +475,7 @@ func DataGoogleCloudQuotasQuotaInfos_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleCloudQuotasQuotaInfos.DataGoogleCloudQuotasQuotaInfos",
+		"@cdktn/provider-google-beta.dataGoogleCloudQuotasQuotaInfos.DataGoogleCloudQuotasQuotaInfos",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -494,7 +494,7 @@ func DataGoogleCloudQuotasQuotaInfos_IsTerraformDataSource(x interface{}) *bool 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleCloudQuotasQuotaInfos.DataGoogleCloudQuotasQuotaInfos",
+		"@cdktn/provider-google-beta.dataGoogleCloudQuotasQuotaInfos.DataGoogleCloudQuotasQuotaInfos",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -513,7 +513,7 @@ func DataGoogleCloudQuotasQuotaInfos_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleCloudQuotasQuotaInfos.DataGoogleCloudQuotasQuotaInfos",
+		"@cdktn/provider-google-beta.dataGoogleCloudQuotasQuotaInfos.DataGoogleCloudQuotasQuotaInfos",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -526,7 +526,7 @@ func DataGoogleCloudQuotasQuotaInfos_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.dataGoogleCloudQuotasQuotaInfos.DataGoogleCloudQuotasQuotaInfos",
+		"@cdktn/provider-google-beta.dataGoogleCloudQuotasQuotaInfos.DataGoogleCloudQuotasQuotaInfos",
 		"tfResourceType",
 		&returns,
 	)

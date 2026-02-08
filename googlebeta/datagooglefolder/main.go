@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagooglefolder
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleFolder.DataGoogleFolder",
+		"@cdktn/provider-google-beta.dataGoogleFolder.DataGoogleFolder",
 		reflect.TypeOf((*DataGoogleFolder)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -73,7 +73,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleFolder.DataGoogleFolderConfig",
+		"@cdktn/provider-google-beta.dataGoogleFolder.DataGoogleFolderConfig",
 		reflect.TypeOf((*DataGoogleFolderConfig)(nil)).Elem(),
 	)
 }

@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googleapigeekeystoresaliasesselfsignedcert
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googleapigeekeystoresaliasesselfsignedcert/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleapigeekeystoresaliasesselfsignedcert/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -576,7 +576,7 @@ func NewGoogleApigeeKeystoresAliasesSelfSignedCert(scope constructs.Construct, i
 	j := jsiiProxy_GoogleApigeeKeystoresAliasesSelfSignedCert{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleApigeeKeystoresAliasesSelfSignedCert.GoogleApigeeKeystoresAliasesSelfSignedCert",
+		"@cdktn/provider-google-beta.googleApigeeKeystoresAliasesSelfSignedCert.GoogleApigeeKeystoresAliasesSelfSignedCert",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -589,7 +589,7 @@ func NewGoogleApigeeKeystoresAliasesSelfSignedCert_Override(g GoogleApigeeKeysto
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleApigeeKeystoresAliasesSelfSignedCert.GoogleApigeeKeystoresAliasesSelfSignedCert",
+		"@cdktn/provider-google-beta.googleApigeeKeystoresAliasesSelfSignedCert.GoogleApigeeKeystoresAliasesSelfSignedCert",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -761,7 +761,7 @@ func GoogleApigeeKeystoresAliasesSelfSignedCert_GenerateConfigForImport(scope co
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleApigeeKeystoresAliasesSelfSignedCert.GoogleApigeeKeystoresAliasesSelfSignedCert",
+		"@cdktn/provider-google-beta.googleApigeeKeystoresAliasesSelfSignedCert.GoogleApigeeKeystoresAliasesSelfSignedCert",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -796,7 +796,7 @@ func GoogleApigeeKeystoresAliasesSelfSignedCert_IsConstruct(x interface{}) *bool
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleApigeeKeystoresAliasesSelfSignedCert.GoogleApigeeKeystoresAliasesSelfSignedCert",
+		"@cdktn/provider-google-beta.googleApigeeKeystoresAliasesSelfSignedCert.GoogleApigeeKeystoresAliasesSelfSignedCert",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -815,7 +815,7 @@ func GoogleApigeeKeystoresAliasesSelfSignedCert_IsTerraformElement(x interface{}
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleApigeeKeystoresAliasesSelfSignedCert.GoogleApigeeKeystoresAliasesSelfSignedCert",
+		"@cdktn/provider-google-beta.googleApigeeKeystoresAliasesSelfSignedCert.GoogleApigeeKeystoresAliasesSelfSignedCert",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -834,7 +834,7 @@ func GoogleApigeeKeystoresAliasesSelfSignedCert_IsTerraformResource(x interface{
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleApigeeKeystoresAliasesSelfSignedCert.GoogleApigeeKeystoresAliasesSelfSignedCert",
+		"@cdktn/provider-google-beta.googleApigeeKeystoresAliasesSelfSignedCert.GoogleApigeeKeystoresAliasesSelfSignedCert",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -847,7 +847,7 @@ func GoogleApigeeKeystoresAliasesSelfSignedCert_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleApigeeKeystoresAliasesSelfSignedCert.GoogleApigeeKeystoresAliasesSelfSignedCert",
+		"@cdktn/provider-google-beta.googleApigeeKeystoresAliasesSelfSignedCert.GoogleApigeeKeystoresAliasesSelfSignedCert",
 		"tfResourceType",
 		&returns,
 	)

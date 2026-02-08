@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlecomputeregionnetworkendpointgroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlecomputeregionnetworkendpointgroup/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecomputeregionnetworkendpointgroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -75,13 +75,13 @@ type GoogleComputeRegionNetworkEndpointGroupServerlessDeploymentOutputReference 
 	// Experimental.
 	InterpolationAsList() cdktf.IResolvable
 	// Experimental.
-	InterpolationForAttribute(property *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
 	ResetResource()
 	ResetUrlMask()
 	ResetVersion()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(_context cdktf.IResolveContext) interface{}
+	Resolve(context cdktf.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -254,7 +254,7 @@ func NewGoogleComputeRegionNetworkEndpointGroupServerlessDeploymentOutputReferen
 	j := jsiiProxy_GoogleComputeRegionNetworkEndpointGroupServerlessDeploymentOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleComputeRegionNetworkEndpointGroup.GoogleComputeRegionNetworkEndpointGroupServerlessDeploymentOutputReference",
+		"@cdktn/provider-google-beta.googleComputeRegionNetworkEndpointGroup.GoogleComputeRegionNetworkEndpointGroupServerlessDeploymentOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -266,7 +266,7 @@ func NewGoogleComputeRegionNetworkEndpointGroupServerlessDeploymentOutputReferen
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleComputeRegionNetworkEndpointGroup.GoogleComputeRegionNetworkEndpointGroupServerlessDeploymentOutputReference",
+		"@cdktn/provider-google-beta.googleComputeRegionNetworkEndpointGroup.GoogleComputeRegionNetworkEndpointGroupServerlessDeploymentOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		g,
 	)
@@ -541,8 +541,8 @@ func (g *jsiiProxy_GoogleComputeRegionNetworkEndpointGroupServerlessDeploymentOu
 	return returns
 }
 
-func (g *jsiiProxy_GoogleComputeRegionNetworkEndpointGroupServerlessDeploymentOutputReference) InterpolationForAttribute(property *string) cdktf.IResolvable {
-	if err := g.validateInterpolationForAttributeParameters(property); err != nil {
+func (g *jsiiProxy_GoogleComputeRegionNetworkEndpointGroupServerlessDeploymentOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
 	var returns cdktf.IResolvable
@@ -550,7 +550,7 @@ func (g *jsiiProxy_GoogleComputeRegionNetworkEndpointGroupServerlessDeploymentOu
 	_jsii_.Invoke(
 		g,
 		"interpolationForAttribute",
-		[]interface{}{property},
+		[]interface{}{terraformAttribute},
 		&returns,
 	)
 
@@ -581,8 +581,8 @@ func (g *jsiiProxy_GoogleComputeRegionNetworkEndpointGroupServerlessDeploymentOu
 	)
 }
 
-func (g *jsiiProxy_GoogleComputeRegionNetworkEndpointGroupServerlessDeploymentOutputReference) Resolve(_context cdktf.IResolveContext) interface{} {
-	if err := g.validateResolveParameters(_context); err != nil {
+func (g *jsiiProxy_GoogleComputeRegionNetworkEndpointGroupServerlessDeploymentOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}
 	var returns interface{}
@@ -590,7 +590,7 @@ func (g *jsiiProxy_GoogleComputeRegionNetworkEndpointGroupServerlessDeploymentOu
 	_jsii_.Invoke(
 		g,
 		"resolve",
-		[]interface{}{_context},
+		[]interface{}{context},
 		&returns,
 	)
 

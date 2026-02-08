@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlebillingbudget
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlebillingbudget/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlebillingbudget/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -521,7 +521,7 @@ func NewGoogleBillingBudget(scope constructs.Construct, id *string, config *Goog
 	j := jsiiProxy_GoogleBillingBudget{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleBillingBudget.GoogleBillingBudget",
+		"@cdktn/provider-google-beta.googleBillingBudget.GoogleBillingBudget",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -534,7 +534,7 @@ func NewGoogleBillingBudget_Override(g GoogleBillingBudget, scope constructs.Con
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleBillingBudget.GoogleBillingBudget",
+		"@cdktn/provider-google-beta.googleBillingBudget.GoogleBillingBudget",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -662,7 +662,7 @@ func GoogleBillingBudget_GenerateConfigForImport(scope constructs.Construct, imp
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleBillingBudget.GoogleBillingBudget",
+		"@cdktn/provider-google-beta.googleBillingBudget.GoogleBillingBudget",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -697,7 +697,7 @@ func GoogleBillingBudget_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleBillingBudget.GoogleBillingBudget",
+		"@cdktn/provider-google-beta.googleBillingBudget.GoogleBillingBudget",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -716,7 +716,7 @@ func GoogleBillingBudget_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleBillingBudget.GoogleBillingBudget",
+		"@cdktn/provider-google-beta.googleBillingBudget.GoogleBillingBudget",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -735,7 +735,7 @@ func GoogleBillingBudget_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleBillingBudget.GoogleBillingBudget",
+		"@cdktn/provider-google-beta.googleBillingBudget.GoogleBillingBudget",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -748,7 +748,7 @@ func GoogleBillingBudget_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleBillingBudget.GoogleBillingBudget",
+		"@cdktn/provider-google-beta.googleBillingBudget.GoogleBillingBudget",
 		"tfResourceType",
 		&returns,
 	)

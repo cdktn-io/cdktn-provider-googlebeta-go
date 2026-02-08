@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagooglestorageobjectsignedurl
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleStorageObjectSignedUrl.DataGoogleStorageObjectSignedUrl",
+		"@cdktn/provider-google-beta.dataGoogleStorageObjectSignedUrl.DataGoogleStorageObjectSignedUrl",
 		reflect.TypeOf((*DataGoogleStorageObjectSignedUrl)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -81,7 +81,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleStorageObjectSignedUrl.DataGoogleStorageObjectSignedUrlConfig",
+		"@cdktn/provider-google-beta.dataGoogleStorageObjectSignedUrl.DataGoogleStorageObjectSignedUrlConfig",
 		reflect.TypeOf((*DataGoogleStorageObjectSignedUrlConfig)(nil)).Elem(),
 	)
 }

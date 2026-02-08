@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagooglecomputeglobalforwardingrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/datagooglecomputeglobalforwardingrule/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagooglecomputeglobalforwardingrule/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -608,7 +608,7 @@ func NewDataGoogleComputeGlobalForwardingRule(scope constructs.Construct, id *st
 	j := jsiiProxy_DataGoogleComputeGlobalForwardingRule{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.dataGoogleComputeGlobalForwardingRule.DataGoogleComputeGlobalForwardingRule",
+		"@cdktn/provider-google-beta.dataGoogleComputeGlobalForwardingRule.DataGoogleComputeGlobalForwardingRule",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -621,7 +621,7 @@ func NewDataGoogleComputeGlobalForwardingRule_Override(d DataGoogleComputeGlobal
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.dataGoogleComputeGlobalForwardingRule.DataGoogleComputeGlobalForwardingRule",
+		"@cdktn/provider-google-beta.dataGoogleComputeGlobalForwardingRule.DataGoogleComputeGlobalForwardingRule",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -716,7 +716,7 @@ func DataGoogleComputeGlobalForwardingRule_GenerateConfigForImport(scope constru
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleComputeGlobalForwardingRule.DataGoogleComputeGlobalForwardingRule",
+		"@cdktn/provider-google-beta.dataGoogleComputeGlobalForwardingRule.DataGoogleComputeGlobalForwardingRule",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -751,7 +751,7 @@ func DataGoogleComputeGlobalForwardingRule_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleComputeGlobalForwardingRule.DataGoogleComputeGlobalForwardingRule",
+		"@cdktn/provider-google-beta.dataGoogleComputeGlobalForwardingRule.DataGoogleComputeGlobalForwardingRule",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -770,7 +770,7 @@ func DataGoogleComputeGlobalForwardingRule_IsTerraformDataSource(x interface{}) 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleComputeGlobalForwardingRule.DataGoogleComputeGlobalForwardingRule",
+		"@cdktn/provider-google-beta.dataGoogleComputeGlobalForwardingRule.DataGoogleComputeGlobalForwardingRule",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -789,7 +789,7 @@ func DataGoogleComputeGlobalForwardingRule_IsTerraformElement(x interface{}) *bo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleComputeGlobalForwardingRule.DataGoogleComputeGlobalForwardingRule",
+		"@cdktn/provider-google-beta.dataGoogleComputeGlobalForwardingRule.DataGoogleComputeGlobalForwardingRule",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -802,7 +802,7 @@ func DataGoogleComputeGlobalForwardingRule_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.dataGoogleComputeGlobalForwardingRule.DataGoogleComputeGlobalForwardingRule",
+		"@cdktn/provider-google-beta.dataGoogleComputeGlobalForwardingRule.DataGoogleComputeGlobalForwardingRule",
 		"tfResourceType",
 		&returns,
 	)

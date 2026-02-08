@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googleloggingfoldersink
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleLoggingFolderSink.GoogleLoggingFolderSink",
+		"@cdktn/provider-google-beta.googleLoggingFolderSink.GoogleLoggingFolderSink",
 		reflect.TypeOf((*GoogleLoggingFolderSink)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -96,11 +96,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleLoggingFolderSink.GoogleLoggingFolderSinkBigqueryOptions",
+		"@cdktn/provider-google-beta.googleLoggingFolderSink.GoogleLoggingFolderSinkBigqueryOptions",
 		reflect.TypeOf((*GoogleLoggingFolderSinkBigqueryOptions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleLoggingFolderSink.GoogleLoggingFolderSinkBigqueryOptionsOutputReference",
+		"@cdktn/provider-google-beta.googleLoggingFolderSink.GoogleLoggingFolderSinkBigqueryOptionsOutputReference",
 		reflect.TypeOf((*GoogleLoggingFolderSinkBigqueryOptionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -134,15 +134,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleLoggingFolderSink.GoogleLoggingFolderSinkConfig",
+		"@cdktn/provider-google-beta.googleLoggingFolderSink.GoogleLoggingFolderSinkConfig",
 		reflect.TypeOf((*GoogleLoggingFolderSinkConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleLoggingFolderSink.GoogleLoggingFolderSinkExclusions",
+		"@cdktn/provider-google-beta.googleLoggingFolderSink.GoogleLoggingFolderSinkExclusions",
 		reflect.TypeOf((*GoogleLoggingFolderSinkExclusions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleLoggingFolderSink.GoogleLoggingFolderSinkExclusionsList",
+		"@cdktn/provider-google-beta.googleLoggingFolderSink.GoogleLoggingFolderSinkExclusionsList",
 		reflect.TypeOf((*GoogleLoggingFolderSinkExclusionsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -164,7 +164,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleLoggingFolderSink.GoogleLoggingFolderSinkExclusionsOutputReference",
+		"@cdktn/provider-google-beta.googleLoggingFolderSink.GoogleLoggingFolderSinkExclusionsOutputReference",
 		reflect.TypeOf((*GoogleLoggingFolderSinkExclusionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

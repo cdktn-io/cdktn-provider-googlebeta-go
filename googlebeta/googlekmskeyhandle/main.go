@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlekmskeyhandle
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleKmsKeyHandle.GoogleKmsKeyHandle",
+		"@cdktn/provider-google-beta.googleKmsKeyHandle.GoogleKmsKeyHandle",
 		reflect.TypeOf((*GoogleKmsKeyHandle)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -80,15 +80,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleKmsKeyHandle.GoogleKmsKeyHandleConfig",
+		"@cdktn/provider-google-beta.googleKmsKeyHandle.GoogleKmsKeyHandleConfig",
 		reflect.TypeOf((*GoogleKmsKeyHandleConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleKmsKeyHandle.GoogleKmsKeyHandleTimeouts",
+		"@cdktn/provider-google-beta.googleKmsKeyHandle.GoogleKmsKeyHandleTimeouts",
 		reflect.TypeOf((*GoogleKmsKeyHandleTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleKmsKeyHandle.GoogleKmsKeyHandleTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleKmsKeyHandle.GoogleKmsKeyHandleTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleKmsKeyHandleTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

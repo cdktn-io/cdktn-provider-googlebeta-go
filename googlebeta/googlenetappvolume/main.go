@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlenetappvolume
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleNetappVolume.GoogleNetappVolume",
+		"@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolume",
 		reflect.TypeOf((*GoogleNetappVolume)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "activeDirectory", GoGetter: "ActiveDirectory"},
@@ -160,11 +160,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBackupConfig",
+		"@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBackupConfig",
 		reflect.TypeOf((*GoogleNetappVolumeBackupConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBackupConfigOutputReference",
+		"@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeBackupConfigOutputReference",
 		reflect.TypeOf((*GoogleNetappVolumeBackupConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "backupPolicies", GoGetter: "BackupPolicies"},
@@ -205,15 +205,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleNetappVolume.GoogleNetappVolumeConfig",
+		"@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeConfig",
 		reflect.TypeOf((*GoogleNetappVolumeConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleNetappVolume.GoogleNetappVolumeExportPolicy",
+		"@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeExportPolicy",
 		reflect.TypeOf((*GoogleNetappVolumeExportPolicy)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleNetappVolume.GoogleNetappVolumeExportPolicyOutputReference",
+		"@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeExportPolicyOutputReference",
 		reflect.TypeOf((*GoogleNetappVolumeExportPolicyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -248,11 +248,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleNetappVolume.GoogleNetappVolumeExportPolicyRules",
+		"@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeExportPolicyRules",
 		reflect.TypeOf((*GoogleNetappVolumeExportPolicyRules)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleNetappVolume.GoogleNetappVolumeExportPolicyRulesList",
+		"@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeExportPolicyRulesList",
 		reflect.TypeOf((*GoogleNetappVolumeExportPolicyRulesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -274,7 +274,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleNetappVolume.GoogleNetappVolumeExportPolicyRulesOutputReference",
+		"@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeExportPolicyRulesOutputReference",
 		reflect.TypeOf((*GoogleNetappVolumeExportPolicyRulesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessType", GoGetter: "AccessType"},
@@ -339,11 +339,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleNetappVolume.GoogleNetappVolumeHybridReplicationParameters",
+		"@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeHybridReplicationParameters",
 		reflect.TypeOf((*GoogleNetappVolumeHybridReplicationParameters)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleNetappVolume.GoogleNetappVolumeHybridReplicationParametersOutputReference",
+		"@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeHybridReplicationParametersOutputReference",
 		reflect.TypeOf((*GoogleNetappVolumeHybridReplicationParametersOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "clusterLocation", GoGetter: "ClusterLocation"},
@@ -399,11 +399,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleNetappVolume.GoogleNetappVolumeMountOptions",
+		"@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeMountOptions",
 		reflect.TypeOf((*GoogleNetappVolumeMountOptions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleNetappVolume.GoogleNetappVolumeMountOptionsList",
+		"@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeMountOptionsList",
 		reflect.TypeOf((*GoogleNetappVolumeMountOptionsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -424,7 +424,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleNetappVolume.GoogleNetappVolumeMountOptionsOutputReference",
+		"@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeMountOptionsOutputReference",
 		reflect.TypeOf((*GoogleNetappVolumeMountOptionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -460,11 +460,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleNetappVolume.GoogleNetappVolumeRestoreParameters",
+		"@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeRestoreParameters",
 		reflect.TypeOf((*GoogleNetappVolumeRestoreParameters)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleNetappVolume.GoogleNetappVolumeRestoreParametersOutputReference",
+		"@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeRestoreParametersOutputReference",
 		reflect.TypeOf((*GoogleNetappVolumeRestoreParametersOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -502,15 +502,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleNetappVolume.GoogleNetappVolumeSnapshotPolicy",
+		"@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeSnapshotPolicy",
 		reflect.TypeOf((*GoogleNetappVolumeSnapshotPolicy)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleNetappVolume.GoogleNetappVolumeSnapshotPolicyDailySchedule",
+		"@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeSnapshotPolicyDailySchedule",
 		reflect.TypeOf((*GoogleNetappVolumeSnapshotPolicyDailySchedule)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleNetappVolume.GoogleNetappVolumeSnapshotPolicyDailyScheduleOutputReference",
+		"@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeSnapshotPolicyDailyScheduleOutputReference",
 		reflect.TypeOf((*GoogleNetappVolumeSnapshotPolicyDailyScheduleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -550,11 +550,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleNetappVolume.GoogleNetappVolumeSnapshotPolicyHourlySchedule",
+		"@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeSnapshotPolicyHourlySchedule",
 		reflect.TypeOf((*GoogleNetappVolumeSnapshotPolicyHourlySchedule)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleNetappVolume.GoogleNetappVolumeSnapshotPolicyHourlyScheduleOutputReference",
+		"@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeSnapshotPolicyHourlyScheduleOutputReference",
 		reflect.TypeOf((*GoogleNetappVolumeSnapshotPolicyHourlyScheduleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -591,11 +591,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleNetappVolume.GoogleNetappVolumeSnapshotPolicyMonthlySchedule",
+		"@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeSnapshotPolicyMonthlySchedule",
 		reflect.TypeOf((*GoogleNetappVolumeSnapshotPolicyMonthlySchedule)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleNetappVolume.GoogleNetappVolumeSnapshotPolicyMonthlyScheduleOutputReference",
+		"@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeSnapshotPolicyMonthlyScheduleOutputReference",
 		reflect.TypeOf((*GoogleNetappVolumeSnapshotPolicyMonthlyScheduleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -638,7 +638,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleNetappVolume.GoogleNetappVolumeSnapshotPolicyOutputReference",
+		"@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeSnapshotPolicyOutputReference",
 		reflect.TypeOf((*GoogleNetappVolumeSnapshotPolicyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -689,11 +689,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleNetappVolume.GoogleNetappVolumeSnapshotPolicyWeeklySchedule",
+		"@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeSnapshotPolicyWeeklySchedule",
 		reflect.TypeOf((*GoogleNetappVolumeSnapshotPolicyWeeklySchedule)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleNetappVolume.GoogleNetappVolumeSnapshotPolicyWeeklyScheduleOutputReference",
+		"@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeSnapshotPolicyWeeklyScheduleOutputReference",
 		reflect.TypeOf((*GoogleNetappVolumeSnapshotPolicyWeeklyScheduleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -736,11 +736,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleNetappVolume.GoogleNetappVolumeTieringPolicy",
+		"@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeTieringPolicy",
 		reflect.TypeOf((*GoogleNetappVolumeTieringPolicy)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleNetappVolume.GoogleNetappVolumeTieringPolicyOutputReference",
+		"@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeTieringPolicyOutputReference",
 		reflect.TypeOf((*GoogleNetappVolumeTieringPolicyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -781,11 +781,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleNetappVolume.GoogleNetappVolumeTimeouts",
+		"@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeTimeouts",
 		reflect.TypeOf((*GoogleNetappVolumeTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleNetappVolume.GoogleNetappVolumeTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleNetappVolume.GoogleNetappVolumeTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleNetappVolumeTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

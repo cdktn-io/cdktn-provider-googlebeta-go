@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagooglecomputestoragepooltypes
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleComputeStoragePoolTypes.DataGoogleComputeStoragePoolTypes",
+		"@cdktn/provider-google-beta.dataGoogleComputeStoragePoolTypes.DataGoogleComputeStoragePoolTypes",
 		reflect.TypeOf((*DataGoogleComputeStoragePoolTypes)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -77,15 +77,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleComputeStoragePoolTypes.DataGoogleComputeStoragePoolTypesConfig",
+		"@cdktn/provider-google-beta.dataGoogleComputeStoragePoolTypes.DataGoogleComputeStoragePoolTypesConfig",
 		reflect.TypeOf((*DataGoogleComputeStoragePoolTypesConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleComputeStoragePoolTypes.DataGoogleComputeStoragePoolTypesDeprecated",
+		"@cdktn/provider-google-beta.dataGoogleComputeStoragePoolTypes.DataGoogleComputeStoragePoolTypesDeprecated",
 		reflect.TypeOf((*DataGoogleComputeStoragePoolTypesDeprecated)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleComputeStoragePoolTypes.DataGoogleComputeStoragePoolTypesDeprecatedList",
+		"@cdktn/provider-google-beta.dataGoogleComputeStoragePoolTypes.DataGoogleComputeStoragePoolTypesDeprecatedList",
 		reflect.TypeOf((*DataGoogleComputeStoragePoolTypesDeprecatedList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -106,7 +106,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleComputeStoragePoolTypes.DataGoogleComputeStoragePoolTypesDeprecatedOutputReference",
+		"@cdktn/provider-google-beta.dataGoogleComputeStoragePoolTypes.DataGoogleComputeStoragePoolTypesDeprecatedOutputReference",
 		reflect.TypeOf((*DataGoogleComputeStoragePoolTypesDeprecatedOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

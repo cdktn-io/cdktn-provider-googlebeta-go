@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googleeventarcmessagebus
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleEventarcMessageBus.GoogleEventarcMessageBus",
+		"@cdktn/provider-google-beta.googleEventarcMessageBus.GoogleEventarcMessageBus",
 		reflect.TypeOf((*GoogleEventarcMessageBus)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -101,15 +101,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleEventarcMessageBus.GoogleEventarcMessageBusConfig",
+		"@cdktn/provider-google-beta.googleEventarcMessageBus.GoogleEventarcMessageBusConfig",
 		reflect.TypeOf((*GoogleEventarcMessageBusConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleEventarcMessageBus.GoogleEventarcMessageBusLoggingConfig",
+		"@cdktn/provider-google-beta.googleEventarcMessageBus.GoogleEventarcMessageBusLoggingConfig",
 		reflect.TypeOf((*GoogleEventarcMessageBusLoggingConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleEventarcMessageBus.GoogleEventarcMessageBusLoggingConfigOutputReference",
+		"@cdktn/provider-google-beta.googleEventarcMessageBus.GoogleEventarcMessageBusLoggingConfigOutputReference",
 		reflect.TypeOf((*GoogleEventarcMessageBusLoggingConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -144,11 +144,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleEventarcMessageBus.GoogleEventarcMessageBusTimeouts",
+		"@cdktn/provider-google-beta.googleEventarcMessageBus.GoogleEventarcMessageBusTimeouts",
 		reflect.TypeOf((*GoogleEventarcMessageBusTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleEventarcMessageBus.GoogleEventarcMessageBusTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleEventarcMessageBus.GoogleEventarcMessageBusTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleEventarcMessageBusTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagooglecontainerazureversions
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleContainerAzureVersions.DataGoogleContainerAzureVersions",
+		"@cdktn/provider-google-beta.dataGoogleContainerAzureVersions.DataGoogleContainerAzureVersions",
 		reflect.TypeOf((*DataGoogleContainerAzureVersions)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -66,7 +66,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleContainerAzureVersions.DataGoogleContainerAzureVersionsConfig",
+		"@cdktn/provider-google-beta.dataGoogleContainerAzureVersions.DataGoogleContainerAzureVersionsConfig",
 		reflect.TypeOf((*DataGoogleContainerAzureVersionsConfig)(nil)).Elem(),
 	)
 }

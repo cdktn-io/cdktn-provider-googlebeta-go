@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlenetworksecuritymirroringdeploymentgroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlenetworksecuritymirroringdeploymentgroup/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlenetworksecuritymirroringdeploymentgroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -584,7 +584,7 @@ func NewGoogleNetworkSecurityMirroringDeploymentGroup(scope constructs.Construct
 	j := jsiiProxy_GoogleNetworkSecurityMirroringDeploymentGroup{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleNetworkSecurityMirroringDeploymentGroup.GoogleNetworkSecurityMirroringDeploymentGroup",
+		"@cdktn/provider-google-beta.googleNetworkSecurityMirroringDeploymentGroup.GoogleNetworkSecurityMirroringDeploymentGroup",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -597,7 +597,7 @@ func NewGoogleNetworkSecurityMirroringDeploymentGroup_Override(g GoogleNetworkSe
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleNetworkSecurityMirroringDeploymentGroup.GoogleNetworkSecurityMirroringDeploymentGroup",
+		"@cdktn/provider-google-beta.googleNetworkSecurityMirroringDeploymentGroup.GoogleNetworkSecurityMirroringDeploymentGroup",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -758,7 +758,7 @@ func GoogleNetworkSecurityMirroringDeploymentGroup_GenerateConfigForImport(scope
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleNetworkSecurityMirroringDeploymentGroup.GoogleNetworkSecurityMirroringDeploymentGroup",
+		"@cdktn/provider-google-beta.googleNetworkSecurityMirroringDeploymentGroup.GoogleNetworkSecurityMirroringDeploymentGroup",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -793,7 +793,7 @@ func GoogleNetworkSecurityMirroringDeploymentGroup_IsConstruct(x interface{}) *b
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleNetworkSecurityMirroringDeploymentGroup.GoogleNetworkSecurityMirroringDeploymentGroup",
+		"@cdktn/provider-google-beta.googleNetworkSecurityMirroringDeploymentGroup.GoogleNetworkSecurityMirroringDeploymentGroup",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -812,7 +812,7 @@ func GoogleNetworkSecurityMirroringDeploymentGroup_IsTerraformElement(x interfac
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleNetworkSecurityMirroringDeploymentGroup.GoogleNetworkSecurityMirroringDeploymentGroup",
+		"@cdktn/provider-google-beta.googleNetworkSecurityMirroringDeploymentGroup.GoogleNetworkSecurityMirroringDeploymentGroup",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -831,7 +831,7 @@ func GoogleNetworkSecurityMirroringDeploymentGroup_IsTerraformResource(x interfa
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleNetworkSecurityMirroringDeploymentGroup.GoogleNetworkSecurityMirroringDeploymentGroup",
+		"@cdktn/provider-google-beta.googleNetworkSecurityMirroringDeploymentGroup.GoogleNetworkSecurityMirroringDeploymentGroup",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -844,7 +844,7 @@ func GoogleNetworkSecurityMirroringDeploymentGroup_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleNetworkSecurityMirroringDeploymentGroup.GoogleNetworkSecurityMirroringDeploymentGroup",
+		"@cdktn/provider-google-beta.googleNetworkSecurityMirroringDeploymentGroup.GoogleNetworkSecurityMirroringDeploymentGroup",
 		"tfResourceType",
 		&returns,
 	)

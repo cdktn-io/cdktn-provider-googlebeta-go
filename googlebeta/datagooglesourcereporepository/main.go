@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagooglesourcereporepository
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleSourcerepoRepository.DataGoogleSourcerepoRepository",
+		"@cdktn/provider-google-beta.dataGoogleSourcerepoRepository.DataGoogleSourcerepoRepository",
 		reflect.TypeOf((*DataGoogleSourcerepoRepository)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -67,15 +67,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleSourcerepoRepository.DataGoogleSourcerepoRepositoryConfig",
+		"@cdktn/provider-google-beta.dataGoogleSourcerepoRepository.DataGoogleSourcerepoRepositoryConfig",
 		reflect.TypeOf((*DataGoogleSourcerepoRepositoryConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleSourcerepoRepository.DataGoogleSourcerepoRepositoryPubsubConfigs",
+		"@cdktn/provider-google-beta.dataGoogleSourcerepoRepository.DataGoogleSourcerepoRepositoryPubsubConfigs",
 		reflect.TypeOf((*DataGoogleSourcerepoRepositoryPubsubConfigs)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleSourcerepoRepository.DataGoogleSourcerepoRepositoryPubsubConfigsList",
+		"@cdktn/provider-google-beta.dataGoogleSourcerepoRepository.DataGoogleSourcerepoRepositoryPubsubConfigsList",
 		reflect.TypeOf((*DataGoogleSourcerepoRepositoryPubsubConfigsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -96,7 +96,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleSourcerepoRepository.DataGoogleSourcerepoRepositoryPubsubConfigsOutputReference",
+		"@cdktn/provider-google-beta.dataGoogleSourcerepoRepository.DataGoogleSourcerepoRepositoryPubsubConfigsOutputReference",
 		reflect.TypeOf((*DataGoogleSourcerepoRepositoryPubsubConfigsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

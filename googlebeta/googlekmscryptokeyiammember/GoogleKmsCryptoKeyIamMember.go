@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlekmscryptokeyiammember
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlekmscryptokeyiammember/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlekmscryptokeyiammember/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -424,7 +424,7 @@ func NewGoogleKmsCryptoKeyIamMember(scope constructs.Construct, id *string, conf
 	j := jsiiProxy_GoogleKmsCryptoKeyIamMember{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleKmsCryptoKeyIamMember.GoogleKmsCryptoKeyIamMember",
+		"@cdktn/provider-google-beta.googleKmsCryptoKeyIamMember.GoogleKmsCryptoKeyIamMember",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -437,7 +437,7 @@ func NewGoogleKmsCryptoKeyIamMember_Override(g GoogleKmsCryptoKeyIamMember, scop
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleKmsCryptoKeyIamMember.GoogleKmsCryptoKeyIamMember",
+		"@cdktn/provider-google-beta.googleKmsCryptoKeyIamMember.GoogleKmsCryptoKeyIamMember",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -565,7 +565,7 @@ func GoogleKmsCryptoKeyIamMember_GenerateConfigForImport(scope constructs.Constr
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleKmsCryptoKeyIamMember.GoogleKmsCryptoKeyIamMember",
+		"@cdktn/provider-google-beta.googleKmsCryptoKeyIamMember.GoogleKmsCryptoKeyIamMember",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -600,7 +600,7 @@ func GoogleKmsCryptoKeyIamMember_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleKmsCryptoKeyIamMember.GoogleKmsCryptoKeyIamMember",
+		"@cdktn/provider-google-beta.googleKmsCryptoKeyIamMember.GoogleKmsCryptoKeyIamMember",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -619,7 +619,7 @@ func GoogleKmsCryptoKeyIamMember_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleKmsCryptoKeyIamMember.GoogleKmsCryptoKeyIamMember",
+		"@cdktn/provider-google-beta.googleKmsCryptoKeyIamMember.GoogleKmsCryptoKeyIamMember",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -638,7 +638,7 @@ func GoogleKmsCryptoKeyIamMember_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleKmsCryptoKeyIamMember.GoogleKmsCryptoKeyIamMember",
+		"@cdktn/provider-google-beta.googleKmsCryptoKeyIamMember.GoogleKmsCryptoKeyIamMember",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -651,7 +651,7 @@ func GoogleKmsCryptoKeyIamMember_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleKmsCryptoKeyIamMember.GoogleKmsCryptoKeyIamMember",
+		"@cdktn/provider-google-beta.googleKmsCryptoKeyIamMember.GoogleKmsCryptoKeyIamMember",
 		"tfResourceType",
 		&returns,
 	)

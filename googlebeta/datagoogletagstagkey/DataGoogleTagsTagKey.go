@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagoogletagstagkey
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/datagoogletagstagkey/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagoogletagstagkey/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -363,7 +363,7 @@ func NewDataGoogleTagsTagKey(scope constructs.Construct, id *string, config *Dat
 	j := jsiiProxy_DataGoogleTagsTagKey{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.dataGoogleTagsTagKey.DataGoogleTagsTagKey",
+		"@cdktn/provider-google-beta.dataGoogleTagsTagKey.DataGoogleTagsTagKey",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -376,7 +376,7 @@ func NewDataGoogleTagsTagKey_Override(d DataGoogleTagsTagKey, scope constructs.C
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.dataGoogleTagsTagKey.DataGoogleTagsTagKey",
+		"@cdktn/provider-google-beta.dataGoogleTagsTagKey.DataGoogleTagsTagKey",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -460,7 +460,7 @@ func DataGoogleTagsTagKey_GenerateConfigForImport(scope constructs.Construct, im
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleTagsTagKey.DataGoogleTagsTagKey",
+		"@cdktn/provider-google-beta.dataGoogleTagsTagKey.DataGoogleTagsTagKey",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -495,7 +495,7 @@ func DataGoogleTagsTagKey_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleTagsTagKey.DataGoogleTagsTagKey",
+		"@cdktn/provider-google-beta.dataGoogleTagsTagKey.DataGoogleTagsTagKey",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -514,7 +514,7 @@ func DataGoogleTagsTagKey_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleTagsTagKey.DataGoogleTagsTagKey",
+		"@cdktn/provider-google-beta.dataGoogleTagsTagKey.DataGoogleTagsTagKey",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -533,7 +533,7 @@ func DataGoogleTagsTagKey_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleTagsTagKey.DataGoogleTagsTagKey",
+		"@cdktn/provider-google-beta.dataGoogleTagsTagKey.DataGoogleTagsTagKey",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -546,7 +546,7 @@ func DataGoogleTagsTagKey_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.dataGoogleTagsTagKey.DataGoogleTagsTagKey",
+		"@cdktn/provider-google-beta.dataGoogleTagsTagKey.DataGoogleTagsTagKey",
 		"tfResourceType",
 		&returns,
 	)

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googledataplexlake
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleDataplexLake.GoogleDataplexLake",
+		"@cdktn/provider-google-beta.googleDataplexLake.GoogleDataplexLake",
 		reflect.TypeOf((*GoogleDataplexLake)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -99,11 +99,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleDataplexLake.GoogleDataplexLakeAssetStatus",
+		"@cdktn/provider-google-beta.googleDataplexLake.GoogleDataplexLakeAssetStatus",
 		reflect.TypeOf((*GoogleDataplexLakeAssetStatus)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleDataplexLake.GoogleDataplexLakeAssetStatusList",
+		"@cdktn/provider-google-beta.googleDataplexLake.GoogleDataplexLakeAssetStatusList",
 		reflect.TypeOf((*GoogleDataplexLakeAssetStatusList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -124,7 +124,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleDataplexLake.GoogleDataplexLakeAssetStatusOutputReference",
+		"@cdktn/provider-google-beta.googleDataplexLake.GoogleDataplexLakeAssetStatusOutputReference",
 		reflect.TypeOf((*GoogleDataplexLakeAssetStatusOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "activeAssets", GoGetter: "ActiveAssets"},
@@ -159,15 +159,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleDataplexLake.GoogleDataplexLakeConfig",
+		"@cdktn/provider-google-beta.googleDataplexLake.GoogleDataplexLakeConfig",
 		reflect.TypeOf((*GoogleDataplexLakeConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleDataplexLake.GoogleDataplexLakeMetastore",
+		"@cdktn/provider-google-beta.googleDataplexLake.GoogleDataplexLakeMetastore",
 		reflect.TypeOf((*GoogleDataplexLakeMetastore)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleDataplexLake.GoogleDataplexLakeMetastoreOutputReference",
+		"@cdktn/provider-google-beta.googleDataplexLake.GoogleDataplexLakeMetastoreOutputReference",
 		reflect.TypeOf((*GoogleDataplexLakeMetastoreOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -202,11 +202,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleDataplexLake.GoogleDataplexLakeMetastoreStatus",
+		"@cdktn/provider-google-beta.googleDataplexLake.GoogleDataplexLakeMetastoreStatus",
 		reflect.TypeOf((*GoogleDataplexLakeMetastoreStatus)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleDataplexLake.GoogleDataplexLakeMetastoreStatusList",
+		"@cdktn/provider-google-beta.googleDataplexLake.GoogleDataplexLakeMetastoreStatusList",
 		reflect.TypeOf((*GoogleDataplexLakeMetastoreStatusList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -227,7 +227,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleDataplexLake.GoogleDataplexLakeMetastoreStatusOutputReference",
+		"@cdktn/provider-google-beta.googleDataplexLake.GoogleDataplexLakeMetastoreStatusOutputReference",
 		reflect.TypeOf((*GoogleDataplexLakeMetastoreStatusOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -263,11 +263,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleDataplexLake.GoogleDataplexLakeTimeouts",
+		"@cdktn/provider-google-beta.googleDataplexLake.GoogleDataplexLakeTimeouts",
 		reflect.TypeOf((*GoogleDataplexLakeTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleDataplexLake.GoogleDataplexLakeTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleDataplexLake.GoogleDataplexLakeTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleDataplexLakeTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlenetworkservicesgateway
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleNetworkServicesGateway.GoogleNetworkServicesGateway",
+		"@cdktn/provider-google-beta.googleNetworkServicesGateway.GoogleNetworkServicesGateway",
 		reflect.TypeOf((*GoogleNetworkServicesGateway)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -126,15 +126,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleNetworkServicesGateway.GoogleNetworkServicesGatewayConfig",
+		"@cdktn/provider-google-beta.googleNetworkServicesGateway.GoogleNetworkServicesGatewayConfig",
 		reflect.TypeOf((*GoogleNetworkServicesGatewayConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleNetworkServicesGateway.GoogleNetworkServicesGatewayTimeouts",
+		"@cdktn/provider-google-beta.googleNetworkServicesGateway.GoogleNetworkServicesGatewayTimeouts",
 		reflect.TypeOf((*GoogleNetworkServicesGatewayTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleNetworkServicesGateway.GoogleNetworkServicesGatewayTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleNetworkServicesGateway.GoogleNetworkServicesGatewayTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleNetworkServicesGatewayTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

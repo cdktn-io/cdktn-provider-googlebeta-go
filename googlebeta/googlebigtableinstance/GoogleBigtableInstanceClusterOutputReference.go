@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlebigtableinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlebigtableinstance/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlebigtableinstance/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -84,7 +84,7 @@ type GoogleBigtableInstanceClusterOutputReference interface {
 	// Experimental.
 	InterpolationAsList() cdktf.IResolvable
 	// Experimental.
-	InterpolationForAttribute(property *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
 	PutAutoscalingConfig(value *GoogleBigtableInstanceClusterAutoscalingConfig)
 	ResetAutoscalingConfig()
 	ResetKmsKeyName()
@@ -94,7 +94,7 @@ type GoogleBigtableInstanceClusterOutputReference interface {
 	ResetZone()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(_context cdktf.IResolveContext) interface{}
+	Resolve(context cdktf.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -337,7 +337,7 @@ func NewGoogleBigtableInstanceClusterOutputReference(terraformResource cdktf.IIn
 	j := jsiiProxy_GoogleBigtableInstanceClusterOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleBigtableInstance.GoogleBigtableInstanceClusterOutputReference",
+		"@cdktn/provider-google-beta.googleBigtableInstance.GoogleBigtableInstanceClusterOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -349,7 +349,7 @@ func NewGoogleBigtableInstanceClusterOutputReference_Override(g GoogleBigtableIn
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleBigtableInstance.GoogleBigtableInstanceClusterOutputReference",
+		"@cdktn/provider-google-beta.googleBigtableInstance.GoogleBigtableInstanceClusterOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		g,
 	)
@@ -646,8 +646,8 @@ func (g *jsiiProxy_GoogleBigtableInstanceClusterOutputReference) InterpolationAs
 	return returns
 }
 
-func (g *jsiiProxy_GoogleBigtableInstanceClusterOutputReference) InterpolationForAttribute(property *string) cdktf.IResolvable {
-	if err := g.validateInterpolationForAttributeParameters(property); err != nil {
+func (g *jsiiProxy_GoogleBigtableInstanceClusterOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
 	var returns cdktf.IResolvable
@@ -655,7 +655,7 @@ func (g *jsiiProxy_GoogleBigtableInstanceClusterOutputReference) InterpolationFo
 	_jsii_.Invoke(
 		g,
 		"interpolationForAttribute",
-		[]interface{}{property},
+		[]interface{}{terraformAttribute},
 		&returns,
 	)
 
@@ -721,8 +721,8 @@ func (g *jsiiProxy_GoogleBigtableInstanceClusterOutputReference) ResetZone() {
 	)
 }
 
-func (g *jsiiProxy_GoogleBigtableInstanceClusterOutputReference) Resolve(_context cdktf.IResolveContext) interface{} {
-	if err := g.validateResolveParameters(_context); err != nil {
+func (g *jsiiProxy_GoogleBigtableInstanceClusterOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}
 	var returns interface{}
@@ -730,7 +730,7 @@ func (g *jsiiProxy_GoogleBigtableInstanceClusterOutputReference) Resolve(_contex
 	_jsii_.Invoke(
 		g,
 		"resolve",
-		[]interface{}{_context},
+		[]interface{}{context},
 		&returns,
 	)
 

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googleclouddeploydeliverypipelineiambinding
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleClouddeployDeliveryPipelineIamBinding.GoogleClouddeployDeliveryPipelineIamBinding",
+		"@cdktn/provider-google-beta.googleClouddeployDeliveryPipelineIamBinding.GoogleClouddeployDeliveryPipelineIamBinding",
 		reflect.TypeOf((*GoogleClouddeployDeliveryPipelineIamBinding)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -83,11 +83,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleClouddeployDeliveryPipelineIamBinding.GoogleClouddeployDeliveryPipelineIamBindingCondition",
+		"@cdktn/provider-google-beta.googleClouddeployDeliveryPipelineIamBinding.GoogleClouddeployDeliveryPipelineIamBindingCondition",
 		reflect.TypeOf((*GoogleClouddeployDeliveryPipelineIamBindingCondition)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleClouddeployDeliveryPipelineIamBinding.GoogleClouddeployDeliveryPipelineIamBindingConditionOutputReference",
+		"@cdktn/provider-google-beta.googleClouddeployDeliveryPipelineIamBinding.GoogleClouddeployDeliveryPipelineIamBindingConditionOutputReference",
 		reflect.TypeOf((*GoogleClouddeployDeliveryPipelineIamBindingConditionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -126,7 +126,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleClouddeployDeliveryPipelineIamBinding.GoogleClouddeployDeliveryPipelineIamBindingConfig",
+		"@cdktn/provider-google-beta.googleClouddeployDeliveryPipelineIamBinding.GoogleClouddeployDeliveryPipelineIamBindingConfig",
 		reflect.TypeOf((*GoogleClouddeployDeliveryPipelineIamBindingConfig)(nil)).Elem(),
 	)
 }

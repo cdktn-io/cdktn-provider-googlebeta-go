@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlenetworkservicesauthzextension
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlenetworkservicesauthzextension/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlenetworkservicesauthzextension/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -694,7 +694,7 @@ func NewGoogleNetworkServicesAuthzExtension(scope constructs.Construct, id *stri
 	j := jsiiProxy_GoogleNetworkServicesAuthzExtension{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleNetworkServicesAuthzExtension.GoogleNetworkServicesAuthzExtension",
+		"@cdktn/provider-google-beta.googleNetworkServicesAuthzExtension.GoogleNetworkServicesAuthzExtension",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -707,7 +707,7 @@ func NewGoogleNetworkServicesAuthzExtension_Override(g GoogleNetworkServicesAuth
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleNetworkServicesAuthzExtension.GoogleNetworkServicesAuthzExtension",
+		"@cdktn/provider-google-beta.googleNetworkServicesAuthzExtension.GoogleNetworkServicesAuthzExtension",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -945,7 +945,7 @@ func GoogleNetworkServicesAuthzExtension_GenerateConfigForImport(scope construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleNetworkServicesAuthzExtension.GoogleNetworkServicesAuthzExtension",
+		"@cdktn/provider-google-beta.googleNetworkServicesAuthzExtension.GoogleNetworkServicesAuthzExtension",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -980,7 +980,7 @@ func GoogleNetworkServicesAuthzExtension_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleNetworkServicesAuthzExtension.GoogleNetworkServicesAuthzExtension",
+		"@cdktn/provider-google-beta.googleNetworkServicesAuthzExtension.GoogleNetworkServicesAuthzExtension",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -999,7 +999,7 @@ func GoogleNetworkServicesAuthzExtension_IsTerraformElement(x interface{}) *bool
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleNetworkServicesAuthzExtension.GoogleNetworkServicesAuthzExtension",
+		"@cdktn/provider-google-beta.googleNetworkServicesAuthzExtension.GoogleNetworkServicesAuthzExtension",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1018,7 +1018,7 @@ func GoogleNetworkServicesAuthzExtension_IsTerraformResource(x interface{}) *boo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleNetworkServicesAuthzExtension.GoogleNetworkServicesAuthzExtension",
+		"@cdktn/provider-google-beta.googleNetworkServicesAuthzExtension.GoogleNetworkServicesAuthzExtension",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1031,7 +1031,7 @@ func GoogleNetworkServicesAuthzExtension_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleNetworkServicesAuthzExtension.GoogleNetworkServicesAuthzExtension",
+		"@cdktn/provider-google-beta.googleNetworkServicesAuthzExtension.GoogleNetworkServicesAuthzExtension",
 		"tfResourceType",
 		&returns,
 	)

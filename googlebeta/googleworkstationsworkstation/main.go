@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googleworkstationsworkstation
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleWorkstationsWorkstation.GoogleWorkstationsWorkstation",
+		"@cdktn/provider-google-beta.googleWorkstationsWorkstation.GoogleWorkstationsWorkstation",
 		reflect.TypeOf((*GoogleWorkstationsWorkstation)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -104,15 +104,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleWorkstationsWorkstation.GoogleWorkstationsWorkstationConfig",
+		"@cdktn/provider-google-beta.googleWorkstationsWorkstation.GoogleWorkstationsWorkstationConfig",
 		reflect.TypeOf((*GoogleWorkstationsWorkstationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleWorkstationsWorkstation.GoogleWorkstationsWorkstationTimeouts",
+		"@cdktn/provider-google-beta.googleWorkstationsWorkstation.GoogleWorkstationsWorkstationTimeouts",
 		reflect.TypeOf((*GoogleWorkstationsWorkstationTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleWorkstationsWorkstation.GoogleWorkstationsWorkstationTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleWorkstationsWorkstation.GoogleWorkstationsWorkstationTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleWorkstationsWorkstationTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

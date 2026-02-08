@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googleiapclient
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googleiapclient/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleiapclient/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -412,7 +412,7 @@ func NewGoogleIapClient(scope constructs.Construct, id *string, config *GoogleIa
 	j := jsiiProxy_GoogleIapClient{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleIapClient.GoogleIapClient",
+		"@cdktn/provider-google-beta.googleIapClient.GoogleIapClient",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -425,7 +425,7 @@ func NewGoogleIapClient_Override(g GoogleIapClient, scope constructs.Construct, 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleIapClient.GoogleIapClient",
+		"@cdktn/provider-google-beta.googleIapClient.GoogleIapClient",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -542,7 +542,7 @@ func GoogleIapClient_GenerateConfigForImport(scope constructs.Construct, importT
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleIapClient.GoogleIapClient",
+		"@cdktn/provider-google-beta.googleIapClient.GoogleIapClient",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -577,7 +577,7 @@ func GoogleIapClient_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleIapClient.GoogleIapClient",
+		"@cdktn/provider-google-beta.googleIapClient.GoogleIapClient",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -596,7 +596,7 @@ func GoogleIapClient_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleIapClient.GoogleIapClient",
+		"@cdktn/provider-google-beta.googleIapClient.GoogleIapClient",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -615,7 +615,7 @@ func GoogleIapClient_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleIapClient.GoogleIapClient",
+		"@cdktn/provider-google-beta.googleIapClient.GoogleIapClient",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -628,7 +628,7 @@ func GoogleIapClient_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleIapClient.GoogleIapClient",
+		"@cdktn/provider-google-beta.googleIapClient.GoogleIapClient",
 		"tfResourceType",
 		&returns,
 	)

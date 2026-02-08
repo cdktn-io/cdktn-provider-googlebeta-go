@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googledataplexzone
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googledataplexzone/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googledataplexzone/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -79,7 +79,7 @@ type GoogleDataplexZoneDiscoverySpecOutputReference interface {
 	// Experimental.
 	InterpolationAsList() cdktf.IResolvable
 	// Experimental.
-	InterpolationForAttribute(property *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
 	PutCsvOptions(value *GoogleDataplexZoneDiscoverySpecCsvOptions)
 	PutJsonOptions(value *GoogleDataplexZoneDiscoverySpecJsonOptions)
 	ResetCsvOptions()
@@ -89,7 +89,7 @@ type GoogleDataplexZoneDiscoverySpecOutputReference interface {
 	ResetSchedule()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(_context cdktf.IResolveContext) interface{}
+	Resolve(context cdktf.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -302,7 +302,7 @@ func NewGoogleDataplexZoneDiscoverySpecOutputReference(terraformResource cdktf.I
 	j := jsiiProxy_GoogleDataplexZoneDiscoverySpecOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleDataplexZone.GoogleDataplexZoneDiscoverySpecOutputReference",
+		"@cdktn/provider-google-beta.googleDataplexZone.GoogleDataplexZoneDiscoverySpecOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -314,7 +314,7 @@ func NewGoogleDataplexZoneDiscoverySpecOutputReference_Override(g GoogleDataplex
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleDataplexZone.GoogleDataplexZoneDiscoverySpecOutputReference",
+		"@cdktn/provider-google-beta.googleDataplexZone.GoogleDataplexZoneDiscoverySpecOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		g,
 	)
@@ -589,8 +589,8 @@ func (g *jsiiProxy_GoogleDataplexZoneDiscoverySpecOutputReference) Interpolation
 	return returns
 }
 
-func (g *jsiiProxy_GoogleDataplexZoneDiscoverySpecOutputReference) InterpolationForAttribute(property *string) cdktf.IResolvable {
-	if err := g.validateInterpolationForAttributeParameters(property); err != nil {
+func (g *jsiiProxy_GoogleDataplexZoneDiscoverySpecOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
 	var returns cdktf.IResolvable
@@ -598,7 +598,7 @@ func (g *jsiiProxy_GoogleDataplexZoneDiscoverySpecOutputReference) Interpolation
 	_jsii_.Invoke(
 		g,
 		"interpolationForAttribute",
-		[]interface{}{property},
+		[]interface{}{terraformAttribute},
 		&returns,
 	)
 
@@ -667,8 +667,8 @@ func (g *jsiiProxy_GoogleDataplexZoneDiscoverySpecOutputReference) ResetSchedule
 	)
 }
 
-func (g *jsiiProxy_GoogleDataplexZoneDiscoverySpecOutputReference) Resolve(_context cdktf.IResolveContext) interface{} {
-	if err := g.validateResolveParameters(_context); err != nil {
+func (g *jsiiProxy_GoogleDataplexZoneDiscoverySpecOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}
 	var returns interface{}
@@ -676,7 +676,7 @@ func (g *jsiiProxy_GoogleDataplexZoneDiscoverySpecOutputReference) Resolve(_cont
 	_jsii_.Invoke(
 		g,
 		"resolve",
-		[]interface{}{_context},
+		[]interface{}{context},
 		&returns,
 	)
 

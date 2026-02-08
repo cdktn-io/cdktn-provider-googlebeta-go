@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlemlenginemodel
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleMlEngineModel.GoogleMlEngineModel",
+		"@cdktn/provider-google-beta.googleMlEngineModel.GoogleMlEngineModel",
 		reflect.TypeOf((*GoogleMlEngineModel)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -96,15 +96,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleMlEngineModel.GoogleMlEngineModelConfig",
+		"@cdktn/provider-google-beta.googleMlEngineModel.GoogleMlEngineModelConfig",
 		reflect.TypeOf((*GoogleMlEngineModelConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleMlEngineModel.GoogleMlEngineModelDefaultVersion",
+		"@cdktn/provider-google-beta.googleMlEngineModel.GoogleMlEngineModelDefaultVersion",
 		reflect.TypeOf((*GoogleMlEngineModelDefaultVersion)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleMlEngineModel.GoogleMlEngineModelDefaultVersionOutputReference",
+		"@cdktn/provider-google-beta.googleMlEngineModel.GoogleMlEngineModelDefaultVersionOutputReference",
 		reflect.TypeOf((*GoogleMlEngineModelDefaultVersionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -138,11 +138,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleMlEngineModel.GoogleMlEngineModelTimeouts",
+		"@cdktn/provider-google-beta.googleMlEngineModel.GoogleMlEngineModelTimeouts",
 		reflect.TypeOf((*GoogleMlEngineModelTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleMlEngineModel.GoogleMlEngineModelTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleMlEngineModel.GoogleMlEngineModelTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleMlEngineModelTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

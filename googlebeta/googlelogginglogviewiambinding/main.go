@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlelogginglogviewiambinding
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleLoggingLogViewIamBinding.GoogleLoggingLogViewIamBinding",
+		"@cdktn/provider-google-beta.googleLoggingLogViewIamBinding.GoogleLoggingLogViewIamBinding",
 		reflect.TypeOf((*GoogleLoggingLogViewIamBinding)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -84,11 +84,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleLoggingLogViewIamBinding.GoogleLoggingLogViewIamBindingCondition",
+		"@cdktn/provider-google-beta.googleLoggingLogViewIamBinding.GoogleLoggingLogViewIamBindingCondition",
 		reflect.TypeOf((*GoogleLoggingLogViewIamBindingCondition)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleLoggingLogViewIamBinding.GoogleLoggingLogViewIamBindingConditionOutputReference",
+		"@cdktn/provider-google-beta.googleLoggingLogViewIamBinding.GoogleLoggingLogViewIamBindingConditionOutputReference",
 		reflect.TypeOf((*GoogleLoggingLogViewIamBindingConditionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -127,7 +127,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleLoggingLogViewIamBinding.GoogleLoggingLogViewIamBindingConfig",
+		"@cdktn/provider-google-beta.googleLoggingLogViewIamBinding.GoogleLoggingLogViewIamBindingConfig",
 		reflect.TypeOf((*GoogleLoggingLogViewIamBindingConfig)(nil)).Elem(),
 	)
 }

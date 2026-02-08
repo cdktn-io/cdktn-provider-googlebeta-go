@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlegeminiloggingsettingbinding
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlegeminiloggingsettingbinding/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlegeminiloggingsettingbinding/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -564,7 +564,7 @@ func NewGoogleGeminiLoggingSettingBinding(scope constructs.Construct, id *string
 	j := jsiiProxy_GoogleGeminiLoggingSettingBinding{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleGeminiLoggingSettingBinding.GoogleGeminiLoggingSettingBinding",
+		"@cdktn/provider-google-beta.googleGeminiLoggingSettingBinding.GoogleGeminiLoggingSettingBinding",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -577,7 +577,7 @@ func NewGoogleGeminiLoggingSettingBinding_Override(g GoogleGeminiLoggingSettingB
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleGeminiLoggingSettingBinding.GoogleGeminiLoggingSettingBinding",
+		"@cdktn/provider-google-beta.googleGeminiLoggingSettingBinding.GoogleGeminiLoggingSettingBinding",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -749,7 +749,7 @@ func GoogleGeminiLoggingSettingBinding_GenerateConfigForImport(scope constructs.
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleGeminiLoggingSettingBinding.GoogleGeminiLoggingSettingBinding",
+		"@cdktn/provider-google-beta.googleGeminiLoggingSettingBinding.GoogleGeminiLoggingSettingBinding",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -784,7 +784,7 @@ func GoogleGeminiLoggingSettingBinding_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleGeminiLoggingSettingBinding.GoogleGeminiLoggingSettingBinding",
+		"@cdktn/provider-google-beta.googleGeminiLoggingSettingBinding.GoogleGeminiLoggingSettingBinding",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -803,7 +803,7 @@ func GoogleGeminiLoggingSettingBinding_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleGeminiLoggingSettingBinding.GoogleGeminiLoggingSettingBinding",
+		"@cdktn/provider-google-beta.googleGeminiLoggingSettingBinding.GoogleGeminiLoggingSettingBinding",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -822,7 +822,7 @@ func GoogleGeminiLoggingSettingBinding_IsTerraformResource(x interface{}) *bool 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleGeminiLoggingSettingBinding.GoogleGeminiLoggingSettingBinding",
+		"@cdktn/provider-google-beta.googleGeminiLoggingSettingBinding.GoogleGeminiLoggingSettingBinding",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -835,7 +835,7 @@ func GoogleGeminiLoggingSettingBinding_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleGeminiLoggingSettingBinding.GoogleGeminiLoggingSettingBinding",
+		"@cdktn/provider-google-beta.googleGeminiLoggingSettingBinding.GoogleGeminiLoggingSettingBinding",
 		"tfResourceType",
 		&returns,
 	)

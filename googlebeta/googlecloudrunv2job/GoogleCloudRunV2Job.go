@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlecloudrunv2job
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlecloudrunv2job/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecloudrunv2job/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -851,7 +851,7 @@ func NewGoogleCloudRunV2Job(scope constructs.Construct, id *string, config *Goog
 	j := jsiiProxy_GoogleCloudRunV2Job{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2Job",
+		"@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2Job",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -864,7 +864,7 @@ func NewGoogleCloudRunV2Job_Override(g GoogleCloudRunV2Job, scope constructs.Con
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2Job",
+		"@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2Job",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -1080,7 +1080,7 @@ func GoogleCloudRunV2Job_GenerateConfigForImport(scope constructs.Construct, imp
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2Job",
+		"@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2Job",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1115,7 +1115,7 @@ func GoogleCloudRunV2Job_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2Job",
+		"@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2Job",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1134,7 +1134,7 @@ func GoogleCloudRunV2Job_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2Job",
+		"@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2Job",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1153,7 +1153,7 @@ func GoogleCloudRunV2Job_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2Job",
+		"@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2Job",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1166,7 +1166,7 @@ func GoogleCloudRunV2Job_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2Job",
+		"@cdktn/provider-google-beta.googleCloudRunV2Job.GoogleCloudRunV2Job",
 		"tfResourceType",
 		&returns,
 	)

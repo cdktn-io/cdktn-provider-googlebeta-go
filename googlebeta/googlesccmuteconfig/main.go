@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlesccmuteconfig
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleSccMuteConfig.GoogleSccMuteConfig",
+		"@cdktn/provider-google-beta.googleSccMuteConfig.GoogleSccMuteConfig",
 		reflect.TypeOf((*GoogleSccMuteConfig)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -89,15 +89,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleSccMuteConfig.GoogleSccMuteConfigConfig",
+		"@cdktn/provider-google-beta.googleSccMuteConfig.GoogleSccMuteConfigConfig",
 		reflect.TypeOf((*GoogleSccMuteConfigConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleSccMuteConfig.GoogleSccMuteConfigTimeouts",
+		"@cdktn/provider-google-beta.googleSccMuteConfig.GoogleSccMuteConfigTimeouts",
 		reflect.TypeOf((*GoogleSccMuteConfigTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleSccMuteConfig.GoogleSccMuteConfigTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleSccMuteConfig.GoogleSccMuteConfigTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleSccMuteConfigTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

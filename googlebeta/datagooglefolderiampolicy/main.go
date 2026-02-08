@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagooglefolderiampolicy
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleFolderIamPolicy.DataGoogleFolderIamPolicy",
+		"@cdktn/provider-google-beta.dataGoogleFolderIamPolicy.DataGoogleFolderIamPolicy",
 		reflect.TypeOf((*DataGoogleFolderIamPolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -62,7 +62,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleFolderIamPolicy.DataGoogleFolderIamPolicyConfig",
+		"@cdktn/provider-google-beta.dataGoogleFolderIamPolicy.DataGoogleFolderIamPolicyConfig",
 		reflect.TypeOf((*DataGoogleFolderIamPolicyConfig)(nil)).Elem(),
 	)
 }

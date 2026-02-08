@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlefolderserviceidentity
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleFolderServiceIdentity.GoogleFolderServiceIdentity",
+		"@cdktn/provider-google-beta.googleFolderServiceIdentity.GoogleFolderServiceIdentity",
 		reflect.TypeOf((*GoogleFolderServiceIdentity)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -76,15 +76,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleFolderServiceIdentity.GoogleFolderServiceIdentityConfig",
+		"@cdktn/provider-google-beta.googleFolderServiceIdentity.GoogleFolderServiceIdentityConfig",
 		reflect.TypeOf((*GoogleFolderServiceIdentityConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleFolderServiceIdentity.GoogleFolderServiceIdentityTimeouts",
+		"@cdktn/provider-google-beta.googleFolderServiceIdentity.GoogleFolderServiceIdentityTimeouts",
 		reflect.TypeOf((*GoogleFolderServiceIdentityTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleFolderServiceIdentity.GoogleFolderServiceIdentityTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleFolderServiceIdentity.GoogleFolderServiceIdentityTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleFolderServiceIdentityTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

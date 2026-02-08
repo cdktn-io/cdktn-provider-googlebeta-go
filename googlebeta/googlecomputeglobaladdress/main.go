@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlecomputeglobaladdress
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleComputeGlobalAddress.GoogleComputeGlobalAddress",
+		"@cdktn/provider-google-beta.googleComputeGlobalAddress.GoogleComputeGlobalAddress",
 		reflect.TypeOf((*GoogleComputeGlobalAddress)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -104,15 +104,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleComputeGlobalAddress.GoogleComputeGlobalAddressConfig",
+		"@cdktn/provider-google-beta.googleComputeGlobalAddress.GoogleComputeGlobalAddressConfig",
 		reflect.TypeOf((*GoogleComputeGlobalAddressConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleComputeGlobalAddress.GoogleComputeGlobalAddressTimeouts",
+		"@cdktn/provider-google-beta.googleComputeGlobalAddress.GoogleComputeGlobalAddressTimeouts",
 		reflect.TypeOf((*GoogleComputeGlobalAddressTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleComputeGlobalAddress.GoogleComputeGlobalAddressTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleComputeGlobalAddress.GoogleComputeGlobalAddressTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleComputeGlobalAddressTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

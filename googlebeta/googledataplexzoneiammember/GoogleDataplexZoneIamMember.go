@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googledataplexzoneiammember
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googledataplexzoneiammember/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googledataplexzoneiammember/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -495,7 +495,7 @@ func NewGoogleDataplexZoneIamMember(scope constructs.Construct, id *string, conf
 	j := jsiiProxy_GoogleDataplexZoneIamMember{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleDataplexZoneIamMember.GoogleDataplexZoneIamMember",
+		"@cdktn/provider-google-beta.googleDataplexZoneIamMember.GoogleDataplexZoneIamMember",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -508,7 +508,7 @@ func NewGoogleDataplexZoneIamMember_Override(g GoogleDataplexZoneIamMember, scop
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleDataplexZoneIamMember.GoogleDataplexZoneIamMember",
+		"@cdktn/provider-google-beta.googleDataplexZoneIamMember.GoogleDataplexZoneIamMember",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -669,7 +669,7 @@ func GoogleDataplexZoneIamMember_GenerateConfigForImport(scope constructs.Constr
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleDataplexZoneIamMember.GoogleDataplexZoneIamMember",
+		"@cdktn/provider-google-beta.googleDataplexZoneIamMember.GoogleDataplexZoneIamMember",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -704,7 +704,7 @@ func GoogleDataplexZoneIamMember_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleDataplexZoneIamMember.GoogleDataplexZoneIamMember",
+		"@cdktn/provider-google-beta.googleDataplexZoneIamMember.GoogleDataplexZoneIamMember",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -723,7 +723,7 @@ func GoogleDataplexZoneIamMember_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleDataplexZoneIamMember.GoogleDataplexZoneIamMember",
+		"@cdktn/provider-google-beta.googleDataplexZoneIamMember.GoogleDataplexZoneIamMember",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -742,7 +742,7 @@ func GoogleDataplexZoneIamMember_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleDataplexZoneIamMember.GoogleDataplexZoneIamMember",
+		"@cdktn/provider-google-beta.googleDataplexZoneIamMember.GoogleDataplexZoneIamMember",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -755,7 +755,7 @@ func GoogleDataplexZoneIamMember_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleDataplexZoneIamMember.GoogleDataplexZoneIamMember",
+		"@cdktn/provider-google-beta.googleDataplexZoneIamMember.GoogleDataplexZoneIamMember",
 		"tfResourceType",
 		&returns,
 	)

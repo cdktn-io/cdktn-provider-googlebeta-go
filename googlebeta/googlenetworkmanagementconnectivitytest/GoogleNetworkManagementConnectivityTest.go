@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlenetworkmanagementconnectivitytest
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlenetworkmanagementconnectivitytest/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlenetworkmanagementconnectivitytest/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -603,7 +603,7 @@ func NewGoogleNetworkManagementConnectivityTest(scope constructs.Construct, id *
 	j := jsiiProxy_GoogleNetworkManagementConnectivityTest{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleNetworkManagementConnectivityTest.GoogleNetworkManagementConnectivityTest",
+		"@cdktn/provider-google-beta.googleNetworkManagementConnectivityTest.GoogleNetworkManagementConnectivityTest",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -616,7 +616,7 @@ func NewGoogleNetworkManagementConnectivityTest_Override(g GoogleNetworkManageme
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleNetworkManagementConnectivityTest.GoogleNetworkManagementConnectivityTest",
+		"@cdktn/provider-google-beta.googleNetworkManagementConnectivityTest.GoogleNetworkManagementConnectivityTest",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -799,7 +799,7 @@ func GoogleNetworkManagementConnectivityTest_GenerateConfigForImport(scope const
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleNetworkManagementConnectivityTest.GoogleNetworkManagementConnectivityTest",
+		"@cdktn/provider-google-beta.googleNetworkManagementConnectivityTest.GoogleNetworkManagementConnectivityTest",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -834,7 +834,7 @@ func GoogleNetworkManagementConnectivityTest_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleNetworkManagementConnectivityTest.GoogleNetworkManagementConnectivityTest",
+		"@cdktn/provider-google-beta.googleNetworkManagementConnectivityTest.GoogleNetworkManagementConnectivityTest",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -853,7 +853,7 @@ func GoogleNetworkManagementConnectivityTest_IsTerraformElement(x interface{}) *
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleNetworkManagementConnectivityTest.GoogleNetworkManagementConnectivityTest",
+		"@cdktn/provider-google-beta.googleNetworkManagementConnectivityTest.GoogleNetworkManagementConnectivityTest",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -872,7 +872,7 @@ func GoogleNetworkManagementConnectivityTest_IsTerraformResource(x interface{}) 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleNetworkManagementConnectivityTest.GoogleNetworkManagementConnectivityTest",
+		"@cdktn/provider-google-beta.googleNetworkManagementConnectivityTest.GoogleNetworkManagementConnectivityTest",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -885,7 +885,7 @@ func GoogleNetworkManagementConnectivityTest_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleNetworkManagementConnectivityTest.GoogleNetworkManagementConnectivityTest",
+		"@cdktn/provider-google-beta.googleNetworkManagementConnectivityTest.GoogleNetworkManagementConnectivityTest",
 		"tfResourceType",
 		&returns,
 	)

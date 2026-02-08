@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googledatastreamstream
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googledatastreamstream/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googledatastreamstream/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -671,7 +671,7 @@ func NewGoogleDatastreamStream(scope constructs.Construct, id *string, config *G
 	j := jsiiProxy_GoogleDatastreamStream{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleDatastreamStream.GoogleDatastreamStream",
+		"@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStream",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -684,7 +684,7 @@ func NewGoogleDatastreamStream_Override(g GoogleDatastreamStream, scope construc
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleDatastreamStream.GoogleDatastreamStream",
+		"@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStream",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -867,7 +867,7 @@ func GoogleDatastreamStream_GenerateConfigForImport(scope constructs.Construct, 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleDatastreamStream.GoogleDatastreamStream",
+		"@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStream",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -902,7 +902,7 @@ func GoogleDatastreamStream_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleDatastreamStream.GoogleDatastreamStream",
+		"@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStream",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -921,7 +921,7 @@ func GoogleDatastreamStream_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleDatastreamStream.GoogleDatastreamStream",
+		"@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStream",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -940,7 +940,7 @@ func GoogleDatastreamStream_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleDatastreamStream.GoogleDatastreamStream",
+		"@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStream",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -953,7 +953,7 @@ func GoogleDatastreamStream_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleDatastreamStream.GoogleDatastreamStream",
+		"@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStream",
 		"tfResourceType",
 		&returns,
 	)

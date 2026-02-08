@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googleprivatecacertificate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googleprivatecacertificate/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleprivatecacertificate/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -90,7 +90,7 @@ type GooglePrivatecaCertificateConfigX509ConfigKeyUsageBaseKeyUsageOutputReferen
 	// Experimental.
 	InterpolationAsList() cdktf.IResolvable
 	// Experimental.
-	InterpolationForAttribute(property *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
 	ResetCertSign()
 	ResetContentCommitment()
 	ResetCrlSign()
@@ -102,7 +102,7 @@ type GooglePrivatecaCertificateConfigX509ConfigKeyUsageBaseKeyUsageOutputReferen
 	ResetKeyEncipherment()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(_context cdktf.IResolveContext) interface{}
+	Resolve(context cdktf.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -375,7 +375,7 @@ func NewGooglePrivatecaCertificateConfigX509ConfigKeyUsageBaseKeyUsageOutputRefe
 	j := jsiiProxy_GooglePrivatecaCertificateConfigX509ConfigKeyUsageBaseKeyUsageOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googlePrivatecaCertificate.GooglePrivatecaCertificateConfigX509ConfigKeyUsageBaseKeyUsageOutputReference",
+		"@cdktn/provider-google-beta.googlePrivatecaCertificate.GooglePrivatecaCertificateConfigX509ConfigKeyUsageBaseKeyUsageOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -387,7 +387,7 @@ func NewGooglePrivatecaCertificateConfigX509ConfigKeyUsageBaseKeyUsageOutputRefe
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googlePrivatecaCertificate.GooglePrivatecaCertificateConfigX509ConfigKeyUsageBaseKeyUsageOutputReference",
+		"@cdktn/provider-google-beta.googlePrivatecaCertificate.GooglePrivatecaCertificateConfigX509ConfigKeyUsageBaseKeyUsageOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		g,
 	)
@@ -717,8 +717,8 @@ func (g *jsiiProxy_GooglePrivatecaCertificateConfigX509ConfigKeyUsageBaseKeyUsag
 	return returns
 }
 
-func (g *jsiiProxy_GooglePrivatecaCertificateConfigX509ConfigKeyUsageBaseKeyUsageOutputReference) InterpolationForAttribute(property *string) cdktf.IResolvable {
-	if err := g.validateInterpolationForAttributeParameters(property); err != nil {
+func (g *jsiiProxy_GooglePrivatecaCertificateConfigX509ConfigKeyUsageBaseKeyUsageOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
 	var returns cdktf.IResolvable
@@ -726,7 +726,7 @@ func (g *jsiiProxy_GooglePrivatecaCertificateConfigX509ConfigKeyUsageBaseKeyUsag
 	_jsii_.Invoke(
 		g,
 		"interpolationForAttribute",
-		[]interface{}{property},
+		[]interface{}{terraformAttribute},
 		&returns,
 	)
 
@@ -805,8 +805,8 @@ func (g *jsiiProxy_GooglePrivatecaCertificateConfigX509ConfigKeyUsageBaseKeyUsag
 	)
 }
 
-func (g *jsiiProxy_GooglePrivatecaCertificateConfigX509ConfigKeyUsageBaseKeyUsageOutputReference) Resolve(_context cdktf.IResolveContext) interface{} {
-	if err := g.validateResolveParameters(_context); err != nil {
+func (g *jsiiProxy_GooglePrivatecaCertificateConfigX509ConfigKeyUsageBaseKeyUsageOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}
 	var returns interface{}
@@ -814,7 +814,7 @@ func (g *jsiiProxy_GooglePrivatecaCertificateConfigX509ConfigKeyUsageBaseKeyUsag
 	_jsii_.Invoke(
 		g,
 		"resolve",
-		[]interface{}{_context},
+		[]interface{}{context},
 		&returns,
 	)
 

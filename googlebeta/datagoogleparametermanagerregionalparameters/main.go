@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagoogleparametermanagerregionalparameters
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleParameterManagerRegionalParameters.DataGoogleParameterManagerRegionalParameters",
+		"@cdktn/provider-google-beta.dataGoogleParameterManagerRegionalParameters.DataGoogleParameterManagerRegionalParameters",
 		reflect.TypeOf((*DataGoogleParameterManagerRegionalParameters)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -67,15 +67,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleParameterManagerRegionalParameters.DataGoogleParameterManagerRegionalParametersConfig",
+		"@cdktn/provider-google-beta.dataGoogleParameterManagerRegionalParameters.DataGoogleParameterManagerRegionalParametersConfig",
 		reflect.TypeOf((*DataGoogleParameterManagerRegionalParametersConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleParameterManagerRegionalParameters.DataGoogleParameterManagerRegionalParametersParameters",
+		"@cdktn/provider-google-beta.dataGoogleParameterManagerRegionalParameters.DataGoogleParameterManagerRegionalParametersParameters",
 		reflect.TypeOf((*DataGoogleParameterManagerRegionalParametersParameters)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleParameterManagerRegionalParameters.DataGoogleParameterManagerRegionalParametersParametersList",
+		"@cdktn/provider-google-beta.dataGoogleParameterManagerRegionalParameters.DataGoogleParameterManagerRegionalParametersParametersList",
 		reflect.TypeOf((*DataGoogleParameterManagerRegionalParametersParametersList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -96,7 +96,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleParameterManagerRegionalParameters.DataGoogleParameterManagerRegionalParametersParametersOutputReference",
+		"@cdktn/provider-google-beta.dataGoogleParameterManagerRegionalParameters.DataGoogleParameterManagerRegionalParametersParametersOutputReference",
 		reflect.TypeOf((*DataGoogleParameterManagerRegionalParametersParametersOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -140,11 +140,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleParameterManagerRegionalParameters.DataGoogleParameterManagerRegionalParametersParametersPolicyMember",
+		"@cdktn/provider-google-beta.dataGoogleParameterManagerRegionalParameters.DataGoogleParameterManagerRegionalParametersParametersPolicyMember",
 		reflect.TypeOf((*DataGoogleParameterManagerRegionalParametersParametersPolicyMember)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleParameterManagerRegionalParameters.DataGoogleParameterManagerRegionalParametersParametersPolicyMemberList",
+		"@cdktn/provider-google-beta.dataGoogleParameterManagerRegionalParameters.DataGoogleParameterManagerRegionalParametersParametersPolicyMemberList",
 		reflect.TypeOf((*DataGoogleParameterManagerRegionalParametersParametersPolicyMemberList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -165,7 +165,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleParameterManagerRegionalParameters.DataGoogleParameterManagerRegionalParametersParametersPolicyMemberOutputReference",
+		"@cdktn/provider-google-beta.dataGoogleParameterManagerRegionalParameters.DataGoogleParameterManagerRegionalParametersParametersPolicyMemberOutputReference",
 		reflect.TypeOf((*DataGoogleParameterManagerRegionalParametersParametersPolicyMemberOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagooglevmwareenginevcentercredentials
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleVmwareengineVcenterCredentials.DataGoogleVmwareengineVcenterCredentials",
+		"@cdktn/provider-google-beta.dataGoogleVmwareengineVcenterCredentials.DataGoogleVmwareengineVcenterCredentials",
 		reflect.TypeOf((*DataGoogleVmwareengineVcenterCredentials)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -62,7 +62,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleVmwareengineVcenterCredentials.DataGoogleVmwareengineVcenterCredentialsConfig",
+		"@cdktn/provider-google-beta.dataGoogleVmwareengineVcenterCredentials.DataGoogleVmwareengineVcenterCredentialsConfig",
 		reflect.TypeOf((*DataGoogleVmwareengineVcenterCredentialsConfig)(nil)).Elem(),
 	)
 }

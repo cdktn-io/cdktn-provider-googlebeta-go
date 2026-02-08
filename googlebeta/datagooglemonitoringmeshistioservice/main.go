@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagooglemonitoringmeshistioservice
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleMonitoringMeshIstioService.DataGoogleMonitoringMeshIstioService",
+		"@cdktn/provider-google-beta.dataGoogleMonitoringMeshIstioService.DataGoogleMonitoringMeshIstioService",
 		reflect.TypeOf((*DataGoogleMonitoringMeshIstioService)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -72,15 +72,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleMonitoringMeshIstioService.DataGoogleMonitoringMeshIstioServiceConfig",
+		"@cdktn/provider-google-beta.dataGoogleMonitoringMeshIstioService.DataGoogleMonitoringMeshIstioServiceConfig",
 		reflect.TypeOf((*DataGoogleMonitoringMeshIstioServiceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleMonitoringMeshIstioService.DataGoogleMonitoringMeshIstioServiceTelemetry",
+		"@cdktn/provider-google-beta.dataGoogleMonitoringMeshIstioService.DataGoogleMonitoringMeshIstioServiceTelemetry",
 		reflect.TypeOf((*DataGoogleMonitoringMeshIstioServiceTelemetry)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleMonitoringMeshIstioService.DataGoogleMonitoringMeshIstioServiceTelemetryList",
+		"@cdktn/provider-google-beta.dataGoogleMonitoringMeshIstioService.DataGoogleMonitoringMeshIstioServiceTelemetryList",
 		reflect.TypeOf((*DataGoogleMonitoringMeshIstioServiceTelemetryList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -101,7 +101,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleMonitoringMeshIstioService.DataGoogleMonitoringMeshIstioServiceTelemetryOutputReference",
+		"@cdktn/provider-google-beta.dataGoogleMonitoringMeshIstioService.DataGoogleMonitoringMeshIstioServiceTelemetryOutputReference",
 		reflect.TypeOf((*DataGoogleMonitoringMeshIstioServiceTelemetryOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

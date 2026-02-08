@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlecolabruntime
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleColabRuntime.GoogleColabRuntime",
+		"@cdktn/provider-google-beta.googleColabRuntime.GoogleColabRuntime",
 		reflect.TypeOf((*GoogleColabRuntime)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -99,15 +99,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleColabRuntime.GoogleColabRuntimeConfig",
+		"@cdktn/provider-google-beta.googleColabRuntime.GoogleColabRuntimeConfig",
 		reflect.TypeOf((*GoogleColabRuntimeConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleColabRuntime.GoogleColabRuntimeNotebookRuntimeTemplateRef",
+		"@cdktn/provider-google-beta.googleColabRuntime.GoogleColabRuntimeNotebookRuntimeTemplateRef",
 		reflect.TypeOf((*GoogleColabRuntimeNotebookRuntimeTemplateRef)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleColabRuntime.GoogleColabRuntimeNotebookRuntimeTemplateRefOutputReference",
+		"@cdktn/provider-google-beta.googleColabRuntime.GoogleColabRuntimeNotebookRuntimeTemplateRefOutputReference",
 		reflect.TypeOf((*GoogleColabRuntimeNotebookRuntimeTemplateRefOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -141,11 +141,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleColabRuntime.GoogleColabRuntimeTimeouts",
+		"@cdktn/provider-google-beta.googleColabRuntime.GoogleColabRuntimeTimeouts",
 		reflect.TypeOf((*GoogleColabRuntimeTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleColabRuntime.GoogleColabRuntimeTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleColabRuntime.GoogleColabRuntimeTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleColabRuntimeTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

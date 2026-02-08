@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlecomputehttphealthcheck
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlecomputehttphealthcheck/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecomputehttphealthcheck/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -605,7 +605,7 @@ func NewGoogleComputeHttpHealthCheck(scope constructs.Construct, id *string, con
 	j := jsiiProxy_GoogleComputeHttpHealthCheck{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleComputeHttpHealthCheck.GoogleComputeHttpHealthCheck",
+		"@cdktn/provider-google-beta.googleComputeHttpHealthCheck.GoogleComputeHttpHealthCheck",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -618,7 +618,7 @@ func NewGoogleComputeHttpHealthCheck_Override(g GoogleComputeHttpHealthCheck, sc
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleComputeHttpHealthCheck.GoogleComputeHttpHealthCheck",
+		"@cdktn/provider-google-beta.googleComputeHttpHealthCheck.GoogleComputeHttpHealthCheck",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -823,7 +823,7 @@ func GoogleComputeHttpHealthCheck_GenerateConfigForImport(scope constructs.Const
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleComputeHttpHealthCheck.GoogleComputeHttpHealthCheck",
+		"@cdktn/provider-google-beta.googleComputeHttpHealthCheck.GoogleComputeHttpHealthCheck",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -858,7 +858,7 @@ func GoogleComputeHttpHealthCheck_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleComputeHttpHealthCheck.GoogleComputeHttpHealthCheck",
+		"@cdktn/provider-google-beta.googleComputeHttpHealthCheck.GoogleComputeHttpHealthCheck",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -877,7 +877,7 @@ func GoogleComputeHttpHealthCheck_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleComputeHttpHealthCheck.GoogleComputeHttpHealthCheck",
+		"@cdktn/provider-google-beta.googleComputeHttpHealthCheck.GoogleComputeHttpHealthCheck",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -896,7 +896,7 @@ func GoogleComputeHttpHealthCheck_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleComputeHttpHealthCheck.GoogleComputeHttpHealthCheck",
+		"@cdktn/provider-google-beta.googleComputeHttpHealthCheck.GoogleComputeHttpHealthCheck",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -909,7 +909,7 @@ func GoogleComputeHttpHealthCheck_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleComputeHttpHealthCheck.GoogleComputeHttpHealthCheck",
+		"@cdktn/provider-google-beta.googleComputeHttpHealthCheck.GoogleComputeHttpHealthCheck",
 		"tfResourceType",
 		&returns,
 	)

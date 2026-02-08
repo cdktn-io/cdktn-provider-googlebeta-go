@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlebigqueryreservation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlebigqueryreservation/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlebigqueryreservation/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -639,7 +639,7 @@ func NewGoogleBigqueryReservation(scope constructs.Construct, id *string, config
 	j := jsiiProxy_GoogleBigqueryReservation{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservation",
+		"@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservation",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -652,7 +652,7 @@ func NewGoogleBigqueryReservation_Override(g GoogleBigqueryReservation, scope co
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservation",
+		"@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservation",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -857,7 +857,7 @@ func GoogleBigqueryReservation_GenerateConfigForImport(scope constructs.Construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservation",
+		"@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservation",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -892,7 +892,7 @@ func GoogleBigqueryReservation_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservation",
+		"@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservation",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -911,7 +911,7 @@ func GoogleBigqueryReservation_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservation",
+		"@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservation",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -930,7 +930,7 @@ func GoogleBigqueryReservation_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservation",
+		"@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservation",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -943,7 +943,7 @@ func GoogleBigqueryReservation_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservation",
+		"@cdktn/provider-google-beta.googleBigqueryReservation.GoogleBigqueryReservation",
 		"tfResourceType",
 		&returns,
 	)

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlefirebaseproject
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleFirebaseProject.GoogleFirebaseProject",
+		"@cdktn/provider-google-beta.googleFirebaseProject.GoogleFirebaseProject",
 		reflect.TypeOf((*GoogleFirebaseProject)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -75,15 +75,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleFirebaseProject.GoogleFirebaseProjectConfig",
+		"@cdktn/provider-google-beta.googleFirebaseProject.GoogleFirebaseProjectConfig",
 		reflect.TypeOf((*GoogleFirebaseProjectConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleFirebaseProject.GoogleFirebaseProjectTimeouts",
+		"@cdktn/provider-google-beta.googleFirebaseProject.GoogleFirebaseProjectTimeouts",
 		reflect.TypeOf((*GoogleFirebaseProjectTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleFirebaseProject.GoogleFirebaseProjectTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleFirebaseProject.GoogleFirebaseProjectTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleFirebaseProjectTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

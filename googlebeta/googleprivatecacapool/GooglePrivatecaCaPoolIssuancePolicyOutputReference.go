@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googleprivatecacapool
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googleprivatecacapool/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleprivatecacapool/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -77,7 +77,7 @@ type GooglePrivatecaCaPoolIssuancePolicyOutputReference interface {
 	// Experimental.
 	InterpolationAsList() cdktf.IResolvable
 	// Experimental.
-	InterpolationForAttribute(property *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
 	PutAllowedIssuanceModes(value *GooglePrivatecaCaPoolIssuancePolicyAllowedIssuanceModes)
 	PutAllowedKeyTypes(value interface{})
 	PutBaselineValues(value *GooglePrivatecaCaPoolIssuancePolicyBaselineValues)
@@ -90,7 +90,7 @@ type GooglePrivatecaCaPoolIssuancePolicyOutputReference interface {
 	ResetMaximumLifetime()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(_context cdktf.IResolveContext) interface{}
+	Resolve(context cdktf.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -303,7 +303,7 @@ func NewGooglePrivatecaCaPoolIssuancePolicyOutputReference(terraformResource cdk
 	j := jsiiProxy_GooglePrivatecaCaPoolIssuancePolicyOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googlePrivatecaCaPool.GooglePrivatecaCaPoolIssuancePolicyOutputReference",
+		"@cdktn/provider-google-beta.googlePrivatecaCaPool.GooglePrivatecaCaPoolIssuancePolicyOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -315,7 +315,7 @@ func NewGooglePrivatecaCaPoolIssuancePolicyOutputReference_Override(g GooglePriv
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googlePrivatecaCaPool.GooglePrivatecaCaPoolIssuancePolicyOutputReference",
+		"@cdktn/provider-google-beta.googlePrivatecaCaPool.GooglePrivatecaCaPoolIssuancePolicyOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		g,
 	)
@@ -568,8 +568,8 @@ func (g *jsiiProxy_GooglePrivatecaCaPoolIssuancePolicyOutputReference) Interpola
 	return returns
 }
 
-func (g *jsiiProxy_GooglePrivatecaCaPoolIssuancePolicyOutputReference) InterpolationForAttribute(property *string) cdktf.IResolvable {
-	if err := g.validateInterpolationForAttributeParameters(property); err != nil {
+func (g *jsiiProxy_GooglePrivatecaCaPoolIssuancePolicyOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
 	var returns cdktf.IResolvable
@@ -577,7 +577,7 @@ func (g *jsiiProxy_GooglePrivatecaCaPoolIssuancePolicyOutputReference) Interpola
 	_jsii_.Invoke(
 		g,
 		"interpolationForAttribute",
-		[]interface{}{property},
+		[]interface{}{terraformAttribute},
 		&returns,
 	)
 
@@ -676,8 +676,8 @@ func (g *jsiiProxy_GooglePrivatecaCaPoolIssuancePolicyOutputReference) ResetMaxi
 	)
 }
 
-func (g *jsiiProxy_GooglePrivatecaCaPoolIssuancePolicyOutputReference) Resolve(_context cdktf.IResolveContext) interface{} {
-	if err := g.validateResolveParameters(_context); err != nil {
+func (g *jsiiProxy_GooglePrivatecaCaPoolIssuancePolicyOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}
 	var returns interface{}
@@ -685,7 +685,7 @@ func (g *jsiiProxy_GooglePrivatecaCaPoolIssuancePolicyOutputReference) Resolve(_
 	_jsii_.Invoke(
 		g,
 		"resolve",
-		[]interface{}{_context},
+		[]interface{}{context},
 		&returns,
 	)
 

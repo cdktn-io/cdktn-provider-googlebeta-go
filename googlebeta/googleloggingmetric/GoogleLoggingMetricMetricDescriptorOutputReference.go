@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googleloggingmetric
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googleloggingmetric/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleloggingmetric/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -77,14 +77,14 @@ type GoogleLoggingMetricMetricDescriptorOutputReference interface {
 	// Experimental.
 	InterpolationAsList() cdktf.IResolvable
 	// Experimental.
-	InterpolationForAttribute(property *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
 	PutLabels(value interface{})
 	ResetDisplayName()
 	ResetLabels()
 	ResetUnit()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(_context cdktf.IResolveContext) interface{}
+	Resolve(context cdktf.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -277,7 +277,7 @@ func NewGoogleLoggingMetricMetricDescriptorOutputReference(terraformResource cdk
 	j := jsiiProxy_GoogleLoggingMetricMetricDescriptorOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleLoggingMetric.GoogleLoggingMetricMetricDescriptorOutputReference",
+		"@cdktn/provider-google-beta.googleLoggingMetric.GoogleLoggingMetricMetricDescriptorOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -289,7 +289,7 @@ func NewGoogleLoggingMetricMetricDescriptorOutputReference_Override(g GoogleLogg
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleLoggingMetric.GoogleLoggingMetricMetricDescriptorOutputReference",
+		"@cdktn/provider-google-beta.googleLoggingMetric.GoogleLoggingMetricMetricDescriptorOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		g,
 	)
@@ -564,8 +564,8 @@ func (g *jsiiProxy_GoogleLoggingMetricMetricDescriptorOutputReference) Interpola
 	return returns
 }
 
-func (g *jsiiProxy_GoogleLoggingMetricMetricDescriptorOutputReference) InterpolationForAttribute(property *string) cdktf.IResolvable {
-	if err := g.validateInterpolationForAttributeParameters(property); err != nil {
+func (g *jsiiProxy_GoogleLoggingMetricMetricDescriptorOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
 	var returns cdktf.IResolvable
@@ -573,7 +573,7 @@ func (g *jsiiProxy_GoogleLoggingMetricMetricDescriptorOutputReference) Interpola
 	_jsii_.Invoke(
 		g,
 		"interpolationForAttribute",
-		[]interface{}{property},
+		[]interface{}{terraformAttribute},
 		&returns,
 	)
 
@@ -615,8 +615,8 @@ func (g *jsiiProxy_GoogleLoggingMetricMetricDescriptorOutputReference) ResetUnit
 	)
 }
 
-func (g *jsiiProxy_GoogleLoggingMetricMetricDescriptorOutputReference) Resolve(_context cdktf.IResolveContext) interface{} {
-	if err := g.validateResolveParameters(_context); err != nil {
+func (g *jsiiProxy_GoogleLoggingMetricMetricDescriptorOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}
 	var returns interface{}
@@ -624,7 +624,7 @@ func (g *jsiiProxy_GoogleLoggingMetricMetricDescriptorOutputReference) Resolve(_
 	_jsii_.Invoke(
 		g,
 		"resolve",
-		[]interface{}{_context},
+		[]interface{}{context},
 		&returns,
 	)
 

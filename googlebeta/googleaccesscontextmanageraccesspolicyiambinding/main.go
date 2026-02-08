@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googleaccesscontextmanageraccesspolicyiambinding
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleAccessContextManagerAccessPolicyIamBinding.GoogleAccessContextManagerAccessPolicyIamBinding",
+		"@cdktn/provider-google-beta.googleAccessContextManagerAccessPolicyIamBinding.GoogleAccessContextManagerAccessPolicyIamBinding",
 		reflect.TypeOf((*GoogleAccessContextManagerAccessPolicyIamBinding)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -77,11 +77,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleAccessContextManagerAccessPolicyIamBinding.GoogleAccessContextManagerAccessPolicyIamBindingCondition",
+		"@cdktn/provider-google-beta.googleAccessContextManagerAccessPolicyIamBinding.GoogleAccessContextManagerAccessPolicyIamBindingCondition",
 		reflect.TypeOf((*GoogleAccessContextManagerAccessPolicyIamBindingCondition)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleAccessContextManagerAccessPolicyIamBinding.GoogleAccessContextManagerAccessPolicyIamBindingConditionOutputReference",
+		"@cdktn/provider-google-beta.googleAccessContextManagerAccessPolicyIamBinding.GoogleAccessContextManagerAccessPolicyIamBindingConditionOutputReference",
 		reflect.TypeOf((*GoogleAccessContextManagerAccessPolicyIamBindingConditionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -120,7 +120,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleAccessContextManagerAccessPolicyIamBinding.GoogleAccessContextManagerAccessPolicyIamBindingConfig",
+		"@cdktn/provider-google-beta.googleAccessContextManagerAccessPolicyIamBinding.GoogleAccessContextManagerAccessPolicyIamBindingConfig",
 		reflect.TypeOf((*GoogleAccessContextManagerAccessPolicyIamBindingConfig)(nil)).Elem(),
 	)
 }

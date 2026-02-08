@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googleeventarcchannel
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googleeventarcchannel/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleeventarcchannel/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -528,7 +528,7 @@ func NewGoogleEventarcChannel(scope constructs.Construct, id *string, config *Go
 	j := jsiiProxy_GoogleEventarcChannel{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleEventarcChannel.GoogleEventarcChannel",
+		"@cdktn/provider-google-beta.googleEventarcChannel.GoogleEventarcChannel",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -541,7 +541,7 @@ func NewGoogleEventarcChannel_Override(g GoogleEventarcChannel, scope constructs
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleEventarcChannel.GoogleEventarcChannel",
+		"@cdktn/provider-google-beta.googleEventarcChannel.GoogleEventarcChannel",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -691,7 +691,7 @@ func GoogleEventarcChannel_GenerateConfigForImport(scope constructs.Construct, i
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleEventarcChannel.GoogleEventarcChannel",
+		"@cdktn/provider-google-beta.googleEventarcChannel.GoogleEventarcChannel",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -726,7 +726,7 @@ func GoogleEventarcChannel_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleEventarcChannel.GoogleEventarcChannel",
+		"@cdktn/provider-google-beta.googleEventarcChannel.GoogleEventarcChannel",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -745,7 +745,7 @@ func GoogleEventarcChannel_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleEventarcChannel.GoogleEventarcChannel",
+		"@cdktn/provider-google-beta.googleEventarcChannel.GoogleEventarcChannel",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -764,7 +764,7 @@ func GoogleEventarcChannel_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleEventarcChannel.GoogleEventarcChannel",
+		"@cdktn/provider-google-beta.googleEventarcChannel.GoogleEventarcChannel",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -777,7 +777,7 @@ func GoogleEventarcChannel_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleEventarcChannel.GoogleEventarcChannel",
+		"@cdktn/provider-google-beta.googleEventarcChannel.GoogleEventarcChannel",
 		"tfResourceType",
 		&returns,
 	)

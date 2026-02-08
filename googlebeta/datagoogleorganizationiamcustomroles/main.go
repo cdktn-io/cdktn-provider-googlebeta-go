@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagoogleorganizationiamcustomroles
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleOrganizationIamCustomRoles.DataGoogleOrganizationIamCustomRoles",
+		"@cdktn/provider-google-beta.dataGoogleOrganizationIamCustomRoles.DataGoogleOrganizationIamCustomRoles",
 		reflect.TypeOf((*DataGoogleOrganizationIamCustomRoles)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -68,15 +68,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleOrganizationIamCustomRoles.DataGoogleOrganizationIamCustomRolesConfig",
+		"@cdktn/provider-google-beta.dataGoogleOrganizationIamCustomRoles.DataGoogleOrganizationIamCustomRolesConfig",
 		reflect.TypeOf((*DataGoogleOrganizationIamCustomRolesConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleOrganizationIamCustomRoles.DataGoogleOrganizationIamCustomRolesRoles",
+		"@cdktn/provider-google-beta.dataGoogleOrganizationIamCustomRoles.DataGoogleOrganizationIamCustomRolesRoles",
 		reflect.TypeOf((*DataGoogleOrganizationIamCustomRolesRoles)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleOrganizationIamCustomRoles.DataGoogleOrganizationIamCustomRolesRolesList",
+		"@cdktn/provider-google-beta.dataGoogleOrganizationIamCustomRoles.DataGoogleOrganizationIamCustomRolesRolesList",
 		reflect.TypeOf((*DataGoogleOrganizationIamCustomRolesRolesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -97,7 +97,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleOrganizationIamCustomRoles.DataGoogleOrganizationIamCustomRolesRolesOutputReference",
+		"@cdktn/provider-google-beta.dataGoogleOrganizationIamCustomRoles.DataGoogleOrganizationIamCustomRolesRolesOutputReference",
 		reflect.TypeOf((*DataGoogleOrganizationIamCustomRolesRolesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

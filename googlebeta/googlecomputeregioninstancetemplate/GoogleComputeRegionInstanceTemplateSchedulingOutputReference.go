@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlecomputeregioninstancetemplate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlecomputeregioninstancetemplate/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecomputeregioninstancetemplate/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -103,7 +103,7 @@ type GoogleComputeRegionInstanceTemplateSchedulingOutputReference interface {
 	// Experimental.
 	InterpolationAsList() cdktf.IResolvable
 	// Experimental.
-	InterpolationForAttribute(property *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
 	PutGracefulShutdown(value *GoogleComputeRegionInstanceTemplateSchedulingGracefulShutdown)
 	PutLocalSsdRecoveryTimeout(value interface{})
 	PutMaxRunDuration(value *GoogleComputeRegionInstanceTemplateSchedulingMaxRunDuration)
@@ -126,7 +126,7 @@ type GoogleComputeRegionInstanceTemplateSchedulingOutputReference interface {
 	ResetTerminationTime()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(_context cdktf.IResolveContext) interface{}
+	Resolve(context cdktf.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -519,7 +519,7 @@ func NewGoogleComputeRegionInstanceTemplateSchedulingOutputReference(terraformRe
 	j := jsiiProxy_GoogleComputeRegionInstanceTemplateSchedulingOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingOutputReference",
+		"@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -531,7 +531,7 @@ func NewGoogleComputeRegionInstanceTemplateSchedulingOutputReference_Override(g 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingOutputReference",
+		"@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateSchedulingOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		g,
 	)
@@ -872,8 +872,8 @@ func (g *jsiiProxy_GoogleComputeRegionInstanceTemplateSchedulingOutputReference)
 	return returns
 }
 
-func (g *jsiiProxy_GoogleComputeRegionInstanceTemplateSchedulingOutputReference) InterpolationForAttribute(property *string) cdktf.IResolvable {
-	if err := g.validateInterpolationForAttributeParameters(property); err != nil {
+func (g *jsiiProxy_GoogleComputeRegionInstanceTemplateSchedulingOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
 	var returns cdktf.IResolvable
@@ -881,7 +881,7 @@ func (g *jsiiProxy_GoogleComputeRegionInstanceTemplateSchedulingOutputReference)
 	_jsii_.Invoke(
 		g,
 		"interpolationForAttribute",
-		[]interface{}{property},
+		[]interface{}{terraformAttribute},
 		&returns,
 	)
 
@@ -1063,8 +1063,8 @@ func (g *jsiiProxy_GoogleComputeRegionInstanceTemplateSchedulingOutputReference)
 	)
 }
 
-func (g *jsiiProxy_GoogleComputeRegionInstanceTemplateSchedulingOutputReference) Resolve(_context cdktf.IResolveContext) interface{} {
-	if err := g.validateResolveParameters(_context); err != nil {
+func (g *jsiiProxy_GoogleComputeRegionInstanceTemplateSchedulingOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}
 	var returns interface{}
@@ -1072,7 +1072,7 @@ func (g *jsiiProxy_GoogleComputeRegionInstanceTemplateSchedulingOutputReference)
 	_jsii_.Invoke(
 		g,
 		"resolve",
-		[]interface{}{_context},
+		[]interface{}{context},
 		&returns,
 	)
 

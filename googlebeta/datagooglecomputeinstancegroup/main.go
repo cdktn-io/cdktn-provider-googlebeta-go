@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagooglecomputeinstancegroup
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleComputeInstanceGroup.DataGoogleComputeInstanceGroup",
+		"@cdktn/provider-google-beta.dataGoogleComputeInstanceGroup.DataGoogleComputeInstanceGroup",
 		reflect.TypeOf((*DataGoogleComputeInstanceGroup)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -75,15 +75,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleComputeInstanceGroup.DataGoogleComputeInstanceGroupConfig",
+		"@cdktn/provider-google-beta.dataGoogleComputeInstanceGroup.DataGoogleComputeInstanceGroupConfig",
 		reflect.TypeOf((*DataGoogleComputeInstanceGroupConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleComputeInstanceGroup.DataGoogleComputeInstanceGroupNamedPort",
+		"@cdktn/provider-google-beta.dataGoogleComputeInstanceGroup.DataGoogleComputeInstanceGroupNamedPort",
 		reflect.TypeOf((*DataGoogleComputeInstanceGroupNamedPort)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleComputeInstanceGroup.DataGoogleComputeInstanceGroupNamedPortList",
+		"@cdktn/provider-google-beta.dataGoogleComputeInstanceGroup.DataGoogleComputeInstanceGroupNamedPortList",
 		reflect.TypeOf((*DataGoogleComputeInstanceGroupNamedPortList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -104,7 +104,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleComputeInstanceGroup.DataGoogleComputeInstanceGroupNamedPortOutputReference",
+		"@cdktn/provider-google-beta.dataGoogleComputeInstanceGroup.DataGoogleComputeInstanceGroupNamedPortOutputReference",
 		reflect.TypeOf((*DataGoogleComputeInstanceGroupNamedPortOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

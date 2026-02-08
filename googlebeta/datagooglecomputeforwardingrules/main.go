@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagooglecomputeforwardingrules
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleComputeForwardingRules.DataGoogleComputeForwardingRules",
+		"@cdktn/provider-google-beta.dataGoogleComputeForwardingRules.DataGoogleComputeForwardingRules",
 		reflect.TypeOf((*DataGoogleComputeForwardingRules)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -65,15 +65,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleComputeForwardingRules.DataGoogleComputeForwardingRulesConfig",
+		"@cdktn/provider-google-beta.dataGoogleComputeForwardingRules.DataGoogleComputeForwardingRulesConfig",
 		reflect.TypeOf((*DataGoogleComputeForwardingRulesConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleComputeForwardingRules.DataGoogleComputeForwardingRulesRules",
+		"@cdktn/provider-google-beta.dataGoogleComputeForwardingRules.DataGoogleComputeForwardingRulesRules",
 		reflect.TypeOf((*DataGoogleComputeForwardingRulesRules)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleComputeForwardingRules.DataGoogleComputeForwardingRulesRulesList",
+		"@cdktn/provider-google-beta.dataGoogleComputeForwardingRules.DataGoogleComputeForwardingRulesRulesList",
 		reflect.TypeOf((*DataGoogleComputeForwardingRulesRulesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -94,7 +94,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleComputeForwardingRules.DataGoogleComputeForwardingRulesRulesOutputReference",
+		"@cdktn/provider-google-beta.dataGoogleComputeForwardingRules.DataGoogleComputeForwardingRulesRulesOutputReference",
 		reflect.TypeOf((*DataGoogleComputeForwardingRulesRulesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allowGlobalAccess", GoGetter: "AllowGlobalAccess"},
@@ -162,11 +162,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleComputeForwardingRules.DataGoogleComputeForwardingRulesRulesServiceDirectoryRegistrations",
+		"@cdktn/provider-google-beta.dataGoogleComputeForwardingRules.DataGoogleComputeForwardingRulesRulesServiceDirectoryRegistrations",
 		reflect.TypeOf((*DataGoogleComputeForwardingRulesRulesServiceDirectoryRegistrations)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleComputeForwardingRules.DataGoogleComputeForwardingRulesRulesServiceDirectoryRegistrationsList",
+		"@cdktn/provider-google-beta.dataGoogleComputeForwardingRules.DataGoogleComputeForwardingRulesRulesServiceDirectoryRegistrationsList",
 		reflect.TypeOf((*DataGoogleComputeForwardingRulesRulesServiceDirectoryRegistrationsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -187,7 +187,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleComputeForwardingRules.DataGoogleComputeForwardingRulesRulesServiceDirectoryRegistrationsOutputReference",
+		"@cdktn/provider-google-beta.dataGoogleComputeForwardingRules.DataGoogleComputeForwardingRulesRulesServiceDirectoryRegistrationsOutputReference",
 		reflect.TypeOf((*DataGoogleComputeForwardingRulesRulesServiceDirectoryRegistrationsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

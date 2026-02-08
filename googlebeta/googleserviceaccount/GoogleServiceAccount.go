@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googleserviceaccount
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googleserviceaccount/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleserviceaccount/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -531,7 +531,7 @@ func NewGoogleServiceAccount(scope constructs.Construct, id *string, config *Goo
 	j := jsiiProxy_GoogleServiceAccount{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleServiceAccount.GoogleServiceAccount",
+		"@cdktn/provider-google-beta.googleServiceAccount.GoogleServiceAccount",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -544,7 +544,7 @@ func NewGoogleServiceAccount_Override(g GoogleServiceAccount, scope constructs.C
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleServiceAccount.GoogleServiceAccount",
+		"@cdktn/provider-google-beta.googleServiceAccount.GoogleServiceAccount",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -705,7 +705,7 @@ func GoogleServiceAccount_GenerateConfigForImport(scope constructs.Construct, im
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleServiceAccount.GoogleServiceAccount",
+		"@cdktn/provider-google-beta.googleServiceAccount.GoogleServiceAccount",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -740,7 +740,7 @@ func GoogleServiceAccount_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleServiceAccount.GoogleServiceAccount",
+		"@cdktn/provider-google-beta.googleServiceAccount.GoogleServiceAccount",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -759,7 +759,7 @@ func GoogleServiceAccount_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleServiceAccount.GoogleServiceAccount",
+		"@cdktn/provider-google-beta.googleServiceAccount.GoogleServiceAccount",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -778,7 +778,7 @@ func GoogleServiceAccount_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleServiceAccount.GoogleServiceAccount",
+		"@cdktn/provider-google-beta.googleServiceAccount.GoogleServiceAccount",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -791,7 +791,7 @@ func GoogleServiceAccount_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleServiceAccount.GoogleServiceAccount",
+		"@cdktn/provider-google-beta.googleServiceAccount.GoogleServiceAccount",
 		"tfResourceType",
 		&returns,
 	)

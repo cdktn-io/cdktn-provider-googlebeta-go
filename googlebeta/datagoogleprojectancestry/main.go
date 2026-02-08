@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagoogleprojectancestry
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleProjectAncestry.DataGoogleProjectAncestry",
+		"@cdktn/provider-google-beta.dataGoogleProjectAncestry.DataGoogleProjectAncestry",
 		reflect.TypeOf((*DataGoogleProjectAncestry)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -65,11 +65,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleProjectAncestry.DataGoogleProjectAncestryAncestors",
+		"@cdktn/provider-google-beta.dataGoogleProjectAncestry.DataGoogleProjectAncestryAncestors",
 		reflect.TypeOf((*DataGoogleProjectAncestryAncestors)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleProjectAncestry.DataGoogleProjectAncestryAncestorsList",
+		"@cdktn/provider-google-beta.dataGoogleProjectAncestry.DataGoogleProjectAncestryAncestorsList",
 		reflect.TypeOf((*DataGoogleProjectAncestryAncestorsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -90,7 +90,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleProjectAncestry.DataGoogleProjectAncestryAncestorsOutputReference",
+		"@cdktn/provider-google-beta.dataGoogleProjectAncestry.DataGoogleProjectAncestryAncestorsOutputReference",
 		reflect.TypeOf((*DataGoogleProjectAncestryAncestorsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -124,7 +124,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleProjectAncestry.DataGoogleProjectAncestryConfig",
+		"@cdktn/provider-google-beta.dataGoogleProjectAncestry.DataGoogleProjectAncestryConfig",
 		reflect.TypeOf((*DataGoogleProjectAncestryConfig)(nil)).Elem(),
 	)
 }

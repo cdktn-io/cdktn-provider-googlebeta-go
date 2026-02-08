@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googletagslocationtagbinding
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googletagslocationtagbinding/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googletagslocationtagbinding/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -425,7 +425,7 @@ func NewGoogleTagsLocationTagBinding(scope constructs.Construct, id *string, con
 	j := jsiiProxy_GoogleTagsLocationTagBinding{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleTagsLocationTagBinding.GoogleTagsLocationTagBinding",
+		"@cdktn/provider-google-beta.googleTagsLocationTagBinding.GoogleTagsLocationTagBinding",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -438,7 +438,7 @@ func NewGoogleTagsLocationTagBinding_Override(g GoogleTagsLocationTagBinding, sc
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleTagsLocationTagBinding.GoogleTagsLocationTagBinding",
+		"@cdktn/provider-google-beta.googleTagsLocationTagBinding.GoogleTagsLocationTagBinding",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -566,7 +566,7 @@ func GoogleTagsLocationTagBinding_GenerateConfigForImport(scope constructs.Const
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleTagsLocationTagBinding.GoogleTagsLocationTagBinding",
+		"@cdktn/provider-google-beta.googleTagsLocationTagBinding.GoogleTagsLocationTagBinding",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -601,7 +601,7 @@ func GoogleTagsLocationTagBinding_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleTagsLocationTagBinding.GoogleTagsLocationTagBinding",
+		"@cdktn/provider-google-beta.googleTagsLocationTagBinding.GoogleTagsLocationTagBinding",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -620,7 +620,7 @@ func GoogleTagsLocationTagBinding_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleTagsLocationTagBinding.GoogleTagsLocationTagBinding",
+		"@cdktn/provider-google-beta.googleTagsLocationTagBinding.GoogleTagsLocationTagBinding",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -639,7 +639,7 @@ func GoogleTagsLocationTagBinding_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleTagsLocationTagBinding.GoogleTagsLocationTagBinding",
+		"@cdktn/provider-google-beta.googleTagsLocationTagBinding.GoogleTagsLocationTagBinding",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -652,7 +652,7 @@ func GoogleTagsLocationTagBinding_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleTagsLocationTagBinding.GoogleTagsLocationTagBinding",
+		"@cdktn/provider-google-beta.googleTagsLocationTagBinding.GoogleTagsLocationTagBinding",
 		"tfResourceType",
 		&returns,
 	)

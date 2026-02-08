@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googleapigeetargetserver
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleApigeeTargetServer.GoogleApigeeTargetServer",
+		"@cdktn/provider-google-beta.googleApigeeTargetServer.GoogleApigeeTargetServer",
 		reflect.TypeOf((*GoogleApigeeTargetServer)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -91,19 +91,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleApigeeTargetServer.GoogleApigeeTargetServerConfig",
+		"@cdktn/provider-google-beta.googleApigeeTargetServer.GoogleApigeeTargetServerConfig",
 		reflect.TypeOf((*GoogleApigeeTargetServerConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleApigeeTargetServer.GoogleApigeeTargetServerSSlInfo",
+		"@cdktn/provider-google-beta.googleApigeeTargetServer.GoogleApigeeTargetServerSSlInfo",
 		reflect.TypeOf((*GoogleApigeeTargetServerSSlInfo)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleApigeeTargetServer.GoogleApigeeTargetServerSSlInfoCommonName",
+		"@cdktn/provider-google-beta.googleApigeeTargetServer.GoogleApigeeTargetServerSSlInfoCommonName",
 		reflect.TypeOf((*GoogleApigeeTargetServerSSlInfoCommonName)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleApigeeTargetServer.GoogleApigeeTargetServerSSlInfoCommonNameOutputReference",
+		"@cdktn/provider-google-beta.googleApigeeTargetServer.GoogleApigeeTargetServerSSlInfoCommonNameOutputReference",
 		reflect.TypeOf((*GoogleApigeeTargetServerSSlInfoCommonNameOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -141,7 +141,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleApigeeTargetServer.GoogleApigeeTargetServerSSlInfoOutputReference",
+		"@cdktn/provider-google-beta.googleApigeeTargetServer.GoogleApigeeTargetServerSSlInfoOutputReference",
 		reflect.TypeOf((*GoogleApigeeTargetServerSSlInfoOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "ciphers", GoGetter: "Ciphers"},
@@ -203,11 +203,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleApigeeTargetServer.GoogleApigeeTargetServerTimeouts",
+		"@cdktn/provider-google-beta.googleApigeeTargetServer.GoogleApigeeTargetServerTimeouts",
 		reflect.TypeOf((*GoogleApigeeTargetServerTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleApigeeTargetServer.GoogleApigeeTargetServerTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleApigeeTargetServer.GoogleApigeeTargetServerTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleApigeeTargetServerTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

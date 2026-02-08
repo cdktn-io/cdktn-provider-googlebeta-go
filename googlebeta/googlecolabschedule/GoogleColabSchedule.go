@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlecolabschedule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlecolabschedule/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecolabschedule/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -625,7 +625,7 @@ func NewGoogleColabSchedule(scope constructs.Construct, id *string, config *Goog
 	j := jsiiProxy_GoogleColabSchedule{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleColabSchedule.GoogleColabSchedule",
+		"@cdktn/provider-google-beta.googleColabSchedule.GoogleColabSchedule",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -638,7 +638,7 @@ func NewGoogleColabSchedule_Override(g GoogleColabSchedule, scope constructs.Con
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleColabSchedule.GoogleColabSchedule",
+		"@cdktn/provider-google-beta.googleColabSchedule.GoogleColabSchedule",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -843,7 +843,7 @@ func GoogleColabSchedule_GenerateConfigForImport(scope constructs.Construct, imp
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleColabSchedule.GoogleColabSchedule",
+		"@cdktn/provider-google-beta.googleColabSchedule.GoogleColabSchedule",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -878,7 +878,7 @@ func GoogleColabSchedule_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleColabSchedule.GoogleColabSchedule",
+		"@cdktn/provider-google-beta.googleColabSchedule.GoogleColabSchedule",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -897,7 +897,7 @@ func GoogleColabSchedule_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleColabSchedule.GoogleColabSchedule",
+		"@cdktn/provider-google-beta.googleColabSchedule.GoogleColabSchedule",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -916,7 +916,7 @@ func GoogleColabSchedule_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleColabSchedule.GoogleColabSchedule",
+		"@cdktn/provider-google-beta.googleColabSchedule.GoogleColabSchedule",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -929,7 +929,7 @@ func GoogleColabSchedule_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleColabSchedule.GoogleColabSchedule",
+		"@cdktn/provider-google-beta.googleColabSchedule.GoogleColabSchedule",
 		"tfResourceType",
 		&returns,
 	)

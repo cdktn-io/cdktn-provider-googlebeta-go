@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagooglebeyondcorpappgateway
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleBeyondcorpAppGateway.DataGoogleBeyondcorpAppGateway",
+		"@cdktn/provider-google-beta.dataGoogleBeyondcorpAppGateway.DataGoogleBeyondcorpAppGateway",
 		reflect.TypeOf((*DataGoogleBeyondcorpAppGateway)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -75,11 +75,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleBeyondcorpAppGateway.DataGoogleBeyondcorpAppGatewayAllocatedConnections",
+		"@cdktn/provider-google-beta.dataGoogleBeyondcorpAppGateway.DataGoogleBeyondcorpAppGatewayAllocatedConnections",
 		reflect.TypeOf((*DataGoogleBeyondcorpAppGatewayAllocatedConnections)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleBeyondcorpAppGateway.DataGoogleBeyondcorpAppGatewayAllocatedConnectionsList",
+		"@cdktn/provider-google-beta.dataGoogleBeyondcorpAppGateway.DataGoogleBeyondcorpAppGatewayAllocatedConnectionsList",
 		reflect.TypeOf((*DataGoogleBeyondcorpAppGatewayAllocatedConnectionsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -100,7 +100,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleBeyondcorpAppGateway.DataGoogleBeyondcorpAppGatewayAllocatedConnectionsOutputReference",
+		"@cdktn/provider-google-beta.dataGoogleBeyondcorpAppGateway.DataGoogleBeyondcorpAppGatewayAllocatedConnectionsOutputReference",
 		reflect.TypeOf((*DataGoogleBeyondcorpAppGatewayAllocatedConnectionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -134,7 +134,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleBeyondcorpAppGateway.DataGoogleBeyondcorpAppGatewayConfig",
+		"@cdktn/provider-google-beta.dataGoogleBeyondcorpAppGateway.DataGoogleBeyondcorpAppGatewayConfig",
 		reflect.TypeOf((*DataGoogleBeyondcorpAppGatewayConfig)(nil)).Elem(),
 	)
 }

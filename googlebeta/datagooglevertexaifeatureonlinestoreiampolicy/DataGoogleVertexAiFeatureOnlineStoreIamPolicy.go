@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagooglevertexaifeatureonlinestoreiampolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/datagooglevertexaifeatureonlinestoreiampolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagooglevertexaifeatureonlinestoreiampolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -368,7 +368,7 @@ func NewDataGoogleVertexAiFeatureOnlineStoreIamPolicy(scope constructs.Construct
 	j := jsiiProxy_DataGoogleVertexAiFeatureOnlineStoreIamPolicy{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.dataGoogleVertexAiFeatureOnlineStoreIamPolicy.DataGoogleVertexAiFeatureOnlineStoreIamPolicy",
+		"@cdktn/provider-google-beta.dataGoogleVertexAiFeatureOnlineStoreIamPolicy.DataGoogleVertexAiFeatureOnlineStoreIamPolicy",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -381,7 +381,7 @@ func NewDataGoogleVertexAiFeatureOnlineStoreIamPolicy_Override(d DataGoogleVerte
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.dataGoogleVertexAiFeatureOnlineStoreIamPolicy.DataGoogleVertexAiFeatureOnlineStoreIamPolicy",
+		"@cdktn/provider-google-beta.dataGoogleVertexAiFeatureOnlineStoreIamPolicy.DataGoogleVertexAiFeatureOnlineStoreIamPolicy",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -487,7 +487,7 @@ func DataGoogleVertexAiFeatureOnlineStoreIamPolicy_GenerateConfigForImport(scope
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleVertexAiFeatureOnlineStoreIamPolicy.DataGoogleVertexAiFeatureOnlineStoreIamPolicy",
+		"@cdktn/provider-google-beta.dataGoogleVertexAiFeatureOnlineStoreIamPolicy.DataGoogleVertexAiFeatureOnlineStoreIamPolicy",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -522,7 +522,7 @@ func DataGoogleVertexAiFeatureOnlineStoreIamPolicy_IsConstruct(x interface{}) *b
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleVertexAiFeatureOnlineStoreIamPolicy.DataGoogleVertexAiFeatureOnlineStoreIamPolicy",
+		"@cdktn/provider-google-beta.dataGoogleVertexAiFeatureOnlineStoreIamPolicy.DataGoogleVertexAiFeatureOnlineStoreIamPolicy",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -541,7 +541,7 @@ func DataGoogleVertexAiFeatureOnlineStoreIamPolicy_IsTerraformDataSource(x inter
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleVertexAiFeatureOnlineStoreIamPolicy.DataGoogleVertexAiFeatureOnlineStoreIamPolicy",
+		"@cdktn/provider-google-beta.dataGoogleVertexAiFeatureOnlineStoreIamPolicy.DataGoogleVertexAiFeatureOnlineStoreIamPolicy",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -560,7 +560,7 @@ func DataGoogleVertexAiFeatureOnlineStoreIamPolicy_IsTerraformElement(x interfac
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleVertexAiFeatureOnlineStoreIamPolicy.DataGoogleVertexAiFeatureOnlineStoreIamPolicy",
+		"@cdktn/provider-google-beta.dataGoogleVertexAiFeatureOnlineStoreIamPolicy.DataGoogleVertexAiFeatureOnlineStoreIamPolicy",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -573,7 +573,7 @@ func DataGoogleVertexAiFeatureOnlineStoreIamPolicy_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.dataGoogleVertexAiFeatureOnlineStoreIamPolicy.DataGoogleVertexAiFeatureOnlineStoreIamPolicy",
+		"@cdktn/provider-google-beta.dataGoogleVertexAiFeatureOnlineStoreIamPolicy.DataGoogleVertexAiFeatureOnlineStoreIamPolicy",
 		"tfResourceType",
 		&returns,
 	)

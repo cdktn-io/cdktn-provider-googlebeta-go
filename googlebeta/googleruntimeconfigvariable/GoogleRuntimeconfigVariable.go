@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googleruntimeconfigvariable
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googleruntimeconfigvariable/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleruntimeconfigvariable/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -449,7 +449,7 @@ func NewGoogleRuntimeconfigVariable(scope constructs.Construct, id *string, conf
 	j := jsiiProxy_GoogleRuntimeconfigVariable{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleRuntimeconfigVariable.GoogleRuntimeconfigVariable",
+		"@cdktn/provider-google-beta.googleRuntimeconfigVariable.GoogleRuntimeconfigVariable",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -462,7 +462,7 @@ func NewGoogleRuntimeconfigVariable_Override(g GoogleRuntimeconfigVariable, scop
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleRuntimeconfigVariable.GoogleRuntimeconfigVariable",
+		"@cdktn/provider-google-beta.googleRuntimeconfigVariable.GoogleRuntimeconfigVariable",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -612,7 +612,7 @@ func GoogleRuntimeconfigVariable_GenerateConfigForImport(scope constructs.Constr
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleRuntimeconfigVariable.GoogleRuntimeconfigVariable",
+		"@cdktn/provider-google-beta.googleRuntimeconfigVariable.GoogleRuntimeconfigVariable",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -647,7 +647,7 @@ func GoogleRuntimeconfigVariable_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleRuntimeconfigVariable.GoogleRuntimeconfigVariable",
+		"@cdktn/provider-google-beta.googleRuntimeconfigVariable.GoogleRuntimeconfigVariable",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -666,7 +666,7 @@ func GoogleRuntimeconfigVariable_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleRuntimeconfigVariable.GoogleRuntimeconfigVariable",
+		"@cdktn/provider-google-beta.googleRuntimeconfigVariable.GoogleRuntimeconfigVariable",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -685,7 +685,7 @@ func GoogleRuntimeconfigVariable_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleRuntimeconfigVariable.GoogleRuntimeconfigVariable",
+		"@cdktn/provider-google-beta.googleRuntimeconfigVariable.GoogleRuntimeconfigVariable",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -698,7 +698,7 @@ func GoogleRuntimeconfigVariable_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleRuntimeconfigVariable.GoogleRuntimeconfigVariable",
+		"@cdktn/provider-google-beta.googleRuntimeconfigVariable.GoogleRuntimeconfigVariable",
 		"tfResourceType",
 		&returns,
 	)

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 //go:build no_runtime_type_checking
@@ -43,7 +43,7 @@ func (g *jsiiProxy_GoogleSqlDatabaseInstanceSettingsOutputReference) validateGet
 	return nil
 }
 
-func (g *jsiiProxy_GoogleSqlDatabaseInstanceSettingsOutputReference) validateInterpolationForAttributeParameters(property *string) error {
+func (g *jsiiProxy_GoogleSqlDatabaseInstanceSettingsOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
 	return nil
 }
 
@@ -99,7 +99,7 @@ func (g *jsiiProxy_GoogleSqlDatabaseInstanceSettingsOutputReference) validatePut
 	return nil
 }
 
-func (g *jsiiProxy_GoogleSqlDatabaseInstanceSettingsOutputReference) validateResolveParameters(_context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleSqlDatabaseInstanceSettingsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
 	return nil
 }
 

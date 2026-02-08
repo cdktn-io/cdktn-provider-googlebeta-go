@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlehealthcaredataset
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleHealthcareDataset.GoogleHealthcareDataset",
+		"@cdktn/provider-google-beta.googleHealthcareDataset.GoogleHealthcareDataset",
 		reflect.TypeOf((*GoogleHealthcareDataset)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -85,15 +85,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleHealthcareDataset.GoogleHealthcareDatasetConfig",
+		"@cdktn/provider-google-beta.googleHealthcareDataset.GoogleHealthcareDatasetConfig",
 		reflect.TypeOf((*GoogleHealthcareDatasetConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleHealthcareDataset.GoogleHealthcareDatasetEncryptionSpec",
+		"@cdktn/provider-google-beta.googleHealthcareDataset.GoogleHealthcareDatasetEncryptionSpec",
 		reflect.TypeOf((*GoogleHealthcareDatasetEncryptionSpec)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleHealthcareDataset.GoogleHealthcareDatasetEncryptionSpecOutputReference",
+		"@cdktn/provider-google-beta.googleHealthcareDataset.GoogleHealthcareDatasetEncryptionSpecOutputReference",
 		reflect.TypeOf((*GoogleHealthcareDatasetEncryptionSpecOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -128,11 +128,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleHealthcareDataset.GoogleHealthcareDatasetTimeouts",
+		"@cdktn/provider-google-beta.googleHealthcareDataset.GoogleHealthcareDatasetTimeouts",
 		reflect.TypeOf((*GoogleHealthcareDatasetTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleHealthcareDataset.GoogleHealthcareDatasetTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleHealthcareDataset.GoogleHealthcareDatasetTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleHealthcareDatasetTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

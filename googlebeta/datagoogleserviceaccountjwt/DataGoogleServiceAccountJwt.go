@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagoogleserviceaccountjwt
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/datagoogleserviceaccountjwt/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagoogleserviceaccountjwt/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -380,7 +380,7 @@ func NewDataGoogleServiceAccountJwt(scope constructs.Construct, id *string, conf
 	j := jsiiProxy_DataGoogleServiceAccountJwt{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.dataGoogleServiceAccountJwt.DataGoogleServiceAccountJwt",
+		"@cdktn/provider-google-beta.dataGoogleServiceAccountJwt.DataGoogleServiceAccountJwt",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -393,7 +393,7 @@ func NewDataGoogleServiceAccountJwt_Override(d DataGoogleServiceAccountJwt, scop
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.dataGoogleServiceAccountJwt.DataGoogleServiceAccountJwt",
+		"@cdktn/provider-google-beta.dataGoogleServiceAccountJwt.DataGoogleServiceAccountJwt",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -510,7 +510,7 @@ func DataGoogleServiceAccountJwt_GenerateConfigForImport(scope constructs.Constr
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleServiceAccountJwt.DataGoogleServiceAccountJwt",
+		"@cdktn/provider-google-beta.dataGoogleServiceAccountJwt.DataGoogleServiceAccountJwt",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -545,7 +545,7 @@ func DataGoogleServiceAccountJwt_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleServiceAccountJwt.DataGoogleServiceAccountJwt",
+		"@cdktn/provider-google-beta.dataGoogleServiceAccountJwt.DataGoogleServiceAccountJwt",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -564,7 +564,7 @@ func DataGoogleServiceAccountJwt_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleServiceAccountJwt.DataGoogleServiceAccountJwt",
+		"@cdktn/provider-google-beta.dataGoogleServiceAccountJwt.DataGoogleServiceAccountJwt",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -583,7 +583,7 @@ func DataGoogleServiceAccountJwt_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleServiceAccountJwt.DataGoogleServiceAccountJwt",
+		"@cdktn/provider-google-beta.dataGoogleServiceAccountJwt.DataGoogleServiceAccountJwt",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -596,7 +596,7 @@ func DataGoogleServiceAccountJwt_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.dataGoogleServiceAccountJwt.DataGoogleServiceAccountJwt",
+		"@cdktn/provider-google-beta.dataGoogleServiceAccountJwt.DataGoogleServiceAccountJwt",
 		"tfResourceType",
 		&returns,
 	)

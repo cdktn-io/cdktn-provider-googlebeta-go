@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlecomputesnapshotiambinding
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlecomputesnapshotiambinding/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecomputesnapshotiambinding/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -448,7 +448,7 @@ func NewGoogleComputeSnapshotIamBinding(scope constructs.Construct, id *string, 
 	j := jsiiProxy_GoogleComputeSnapshotIamBinding{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleComputeSnapshotIamBinding.GoogleComputeSnapshotIamBinding",
+		"@cdktn/provider-google-beta.googleComputeSnapshotIamBinding.GoogleComputeSnapshotIamBinding",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -461,7 +461,7 @@ func NewGoogleComputeSnapshotIamBinding_Override(g GoogleComputeSnapshotIamBindi
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleComputeSnapshotIamBinding.GoogleComputeSnapshotIamBinding",
+		"@cdktn/provider-google-beta.googleComputeSnapshotIamBinding.GoogleComputeSnapshotIamBinding",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -600,7 +600,7 @@ func GoogleComputeSnapshotIamBinding_GenerateConfigForImport(scope constructs.Co
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleComputeSnapshotIamBinding.GoogleComputeSnapshotIamBinding",
+		"@cdktn/provider-google-beta.googleComputeSnapshotIamBinding.GoogleComputeSnapshotIamBinding",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -635,7 +635,7 @@ func GoogleComputeSnapshotIamBinding_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleComputeSnapshotIamBinding.GoogleComputeSnapshotIamBinding",
+		"@cdktn/provider-google-beta.googleComputeSnapshotIamBinding.GoogleComputeSnapshotIamBinding",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -654,7 +654,7 @@ func GoogleComputeSnapshotIamBinding_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleComputeSnapshotIamBinding.GoogleComputeSnapshotIamBinding",
+		"@cdktn/provider-google-beta.googleComputeSnapshotIamBinding.GoogleComputeSnapshotIamBinding",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -673,7 +673,7 @@ func GoogleComputeSnapshotIamBinding_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleComputeSnapshotIamBinding.GoogleComputeSnapshotIamBinding",
+		"@cdktn/provider-google-beta.googleComputeSnapshotIamBinding.GoogleComputeSnapshotIamBinding",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -686,7 +686,7 @@ func GoogleComputeSnapshotIamBinding_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleComputeSnapshotIamBinding.GoogleComputeSnapshotIamBinding",
+		"@cdktn/provider-google-beta.googleComputeSnapshotIamBinding.GoogleComputeSnapshotIamBinding",
 		"tfResourceType",
 		&returns,
 	)

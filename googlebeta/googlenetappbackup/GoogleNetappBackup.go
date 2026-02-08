@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlenetappbackup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlenetappbackup/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlenetappbackup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -632,7 +632,7 @@ func NewGoogleNetappBackup(scope constructs.Construct, id *string, config *Googl
 	j := jsiiProxy_GoogleNetappBackup{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleNetappBackup.GoogleNetappBackup",
+		"@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackup",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -645,7 +645,7 @@ func NewGoogleNetappBackup_Override(g GoogleNetappBackup, scope constructs.Const
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleNetappBackup.GoogleNetappBackup",
+		"@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackup",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -828,7 +828,7 @@ func GoogleNetappBackup_GenerateConfigForImport(scope constructs.Construct, impo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleNetappBackup.GoogleNetappBackup",
+		"@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackup",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -863,7 +863,7 @@ func GoogleNetappBackup_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleNetappBackup.GoogleNetappBackup",
+		"@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackup",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -882,7 +882,7 @@ func GoogleNetappBackup_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleNetappBackup.GoogleNetappBackup",
+		"@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackup",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -901,7 +901,7 @@ func GoogleNetappBackup_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleNetappBackup.GoogleNetappBackup",
+		"@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackup",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -914,7 +914,7 @@ func GoogleNetappBackup_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleNetappBackup.GoogleNetappBackup",
+		"@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackup",
 		"tfResourceType",
 		&returns,
 	)

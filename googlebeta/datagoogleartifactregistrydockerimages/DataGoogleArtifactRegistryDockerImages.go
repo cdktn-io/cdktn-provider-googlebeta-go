@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagoogleartifactregistrydockerimages
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/datagoogleartifactregistrydockerimages/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagoogleartifactregistrydockerimages/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -356,7 +356,7 @@ func NewDataGoogleArtifactRegistryDockerImages(scope constructs.Construct, id *s
 	j := jsiiProxy_DataGoogleArtifactRegistryDockerImages{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.dataGoogleArtifactRegistryDockerImages.DataGoogleArtifactRegistryDockerImages",
+		"@cdktn/provider-google-beta.dataGoogleArtifactRegistryDockerImages.DataGoogleArtifactRegistryDockerImages",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -369,7 +369,7 @@ func NewDataGoogleArtifactRegistryDockerImages_Override(d DataGoogleArtifactRegi
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.dataGoogleArtifactRegistryDockerImages.DataGoogleArtifactRegistryDockerImages",
+		"@cdktn/provider-google-beta.dataGoogleArtifactRegistryDockerImages.DataGoogleArtifactRegistryDockerImages",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -475,7 +475,7 @@ func DataGoogleArtifactRegistryDockerImages_GenerateConfigForImport(scope constr
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleArtifactRegistryDockerImages.DataGoogleArtifactRegistryDockerImages",
+		"@cdktn/provider-google-beta.dataGoogleArtifactRegistryDockerImages.DataGoogleArtifactRegistryDockerImages",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -510,7 +510,7 @@ func DataGoogleArtifactRegistryDockerImages_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleArtifactRegistryDockerImages.DataGoogleArtifactRegistryDockerImages",
+		"@cdktn/provider-google-beta.dataGoogleArtifactRegistryDockerImages.DataGoogleArtifactRegistryDockerImages",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -529,7 +529,7 @@ func DataGoogleArtifactRegistryDockerImages_IsTerraformDataSource(x interface{})
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleArtifactRegistryDockerImages.DataGoogleArtifactRegistryDockerImages",
+		"@cdktn/provider-google-beta.dataGoogleArtifactRegistryDockerImages.DataGoogleArtifactRegistryDockerImages",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -548,7 +548,7 @@ func DataGoogleArtifactRegistryDockerImages_IsTerraformElement(x interface{}) *b
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleArtifactRegistryDockerImages.DataGoogleArtifactRegistryDockerImages",
+		"@cdktn/provider-google-beta.dataGoogleArtifactRegistryDockerImages.DataGoogleArtifactRegistryDockerImages",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -561,7 +561,7 @@ func DataGoogleArtifactRegistryDockerImages_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.dataGoogleArtifactRegistryDockerImages.DataGoogleArtifactRegistryDockerImages",
+		"@cdktn/provider-google-beta.dataGoogleArtifactRegistryDockerImages.DataGoogleArtifactRegistryDockerImages",
 		"tfResourceType",
 		&returns,
 	)

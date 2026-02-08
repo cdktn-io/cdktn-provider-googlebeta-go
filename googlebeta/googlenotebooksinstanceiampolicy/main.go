@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlenotebooksinstanceiampolicy
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleNotebooksInstanceIamPolicy.GoogleNotebooksInstanceIamPolicy",
+		"@cdktn/provider-google-beta.googleNotebooksInstanceIamPolicy.GoogleNotebooksInstanceIamPolicy",
 		reflect.TypeOf((*GoogleNotebooksInstanceIamPolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -77,7 +77,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleNotebooksInstanceIamPolicy.GoogleNotebooksInstanceIamPolicyConfig",
+		"@cdktn/provider-google-beta.googleNotebooksInstanceIamPolicy.GoogleNotebooksInstanceIamPolicyConfig",
 		reflect.TypeOf((*GoogleNotebooksInstanceIamPolicyConfig)(nil)).Elem(),
 	)
 }

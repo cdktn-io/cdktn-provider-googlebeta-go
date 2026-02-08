@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlefirestoredocument
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlefirestoredocument/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlefirestoredocument/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -505,7 +505,7 @@ func NewGoogleFirestoreDocument(scope constructs.Construct, id *string, config *
 	j := jsiiProxy_GoogleFirestoreDocument{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleFirestoreDocument.GoogleFirestoreDocument",
+		"@cdktn/provider-google-beta.googleFirestoreDocument.GoogleFirestoreDocument",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -518,7 +518,7 @@ func NewGoogleFirestoreDocument_Override(g GoogleFirestoreDocument, scope constr
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleFirestoreDocument.GoogleFirestoreDocument",
+		"@cdktn/provider-google-beta.googleFirestoreDocument.GoogleFirestoreDocument",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -668,7 +668,7 @@ func GoogleFirestoreDocument_GenerateConfigForImport(scope constructs.Construct,
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleFirestoreDocument.GoogleFirestoreDocument",
+		"@cdktn/provider-google-beta.googleFirestoreDocument.GoogleFirestoreDocument",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -703,7 +703,7 @@ func GoogleFirestoreDocument_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleFirestoreDocument.GoogleFirestoreDocument",
+		"@cdktn/provider-google-beta.googleFirestoreDocument.GoogleFirestoreDocument",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -722,7 +722,7 @@ func GoogleFirestoreDocument_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleFirestoreDocument.GoogleFirestoreDocument",
+		"@cdktn/provider-google-beta.googleFirestoreDocument.GoogleFirestoreDocument",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -741,7 +741,7 @@ func GoogleFirestoreDocument_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleFirestoreDocument.GoogleFirestoreDocument",
+		"@cdktn/provider-google-beta.googleFirestoreDocument.GoogleFirestoreDocument",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -754,7 +754,7 @@ func GoogleFirestoreDocument_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleFirestoreDocument.GoogleFirestoreDocument",
+		"@cdktn/provider-google-beta.googleFirestoreDocument.GoogleFirestoreDocument",
 		"tfResourceType",
 		&returns,
 	)

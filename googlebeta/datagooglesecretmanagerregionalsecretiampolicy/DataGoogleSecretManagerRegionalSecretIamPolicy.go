@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagooglesecretmanagerregionalsecretiampolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/datagooglesecretmanagerregionalsecretiampolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagooglesecretmanagerregionalsecretiampolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -368,7 +368,7 @@ func NewDataGoogleSecretManagerRegionalSecretIamPolicy(scope constructs.Construc
 	j := jsiiProxy_DataGoogleSecretManagerRegionalSecretIamPolicy{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.dataGoogleSecretManagerRegionalSecretIamPolicy.DataGoogleSecretManagerRegionalSecretIamPolicy",
+		"@cdktn/provider-google-beta.dataGoogleSecretManagerRegionalSecretIamPolicy.DataGoogleSecretManagerRegionalSecretIamPolicy",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -381,7 +381,7 @@ func NewDataGoogleSecretManagerRegionalSecretIamPolicy_Override(d DataGoogleSecr
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.dataGoogleSecretManagerRegionalSecretIamPolicy.DataGoogleSecretManagerRegionalSecretIamPolicy",
+		"@cdktn/provider-google-beta.dataGoogleSecretManagerRegionalSecretIamPolicy.DataGoogleSecretManagerRegionalSecretIamPolicy",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -487,7 +487,7 @@ func DataGoogleSecretManagerRegionalSecretIamPolicy_GenerateConfigForImport(scop
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleSecretManagerRegionalSecretIamPolicy.DataGoogleSecretManagerRegionalSecretIamPolicy",
+		"@cdktn/provider-google-beta.dataGoogleSecretManagerRegionalSecretIamPolicy.DataGoogleSecretManagerRegionalSecretIamPolicy",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -522,7 +522,7 @@ func DataGoogleSecretManagerRegionalSecretIamPolicy_IsConstruct(x interface{}) *
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleSecretManagerRegionalSecretIamPolicy.DataGoogleSecretManagerRegionalSecretIamPolicy",
+		"@cdktn/provider-google-beta.dataGoogleSecretManagerRegionalSecretIamPolicy.DataGoogleSecretManagerRegionalSecretIamPolicy",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -541,7 +541,7 @@ func DataGoogleSecretManagerRegionalSecretIamPolicy_IsTerraformDataSource(x inte
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleSecretManagerRegionalSecretIamPolicy.DataGoogleSecretManagerRegionalSecretIamPolicy",
+		"@cdktn/provider-google-beta.dataGoogleSecretManagerRegionalSecretIamPolicy.DataGoogleSecretManagerRegionalSecretIamPolicy",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -560,7 +560,7 @@ func DataGoogleSecretManagerRegionalSecretIamPolicy_IsTerraformElement(x interfa
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleSecretManagerRegionalSecretIamPolicy.DataGoogleSecretManagerRegionalSecretIamPolicy",
+		"@cdktn/provider-google-beta.dataGoogleSecretManagerRegionalSecretIamPolicy.DataGoogleSecretManagerRegionalSecretIamPolicy",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -573,7 +573,7 @@ func DataGoogleSecretManagerRegionalSecretIamPolicy_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.dataGoogleSecretManagerRegionalSecretIamPolicy.DataGoogleSecretManagerRegionalSecretIamPolicy",
+		"@cdktn/provider-google-beta.dataGoogleSecretManagerRegionalSecretIamPolicy.DataGoogleSecretManagerRegionalSecretIamPolicy",
 		"tfResourceType",
 		&returns,
 	)

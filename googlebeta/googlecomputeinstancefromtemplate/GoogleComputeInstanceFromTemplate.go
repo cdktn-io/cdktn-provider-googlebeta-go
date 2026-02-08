@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlecomputeinstancefromtemplate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlecomputeinstancefromtemplate/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecomputeinstancefromtemplate/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -1268,7 +1268,7 @@ func NewGoogleComputeInstanceFromTemplate(scope constructs.Construct, id *string
 	j := jsiiProxy_GoogleComputeInstanceFromTemplate{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleComputeInstanceFromTemplate.GoogleComputeInstanceFromTemplate",
+		"@cdktn/provider-google-beta.googleComputeInstanceFromTemplate.GoogleComputeInstanceFromTemplate",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -1281,7 +1281,7 @@ func NewGoogleComputeInstanceFromTemplate_Override(g GoogleComputeInstanceFromTe
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleComputeInstanceFromTemplate.GoogleComputeInstanceFromTemplate",
+		"@cdktn/provider-google-beta.googleComputeInstanceFromTemplate.GoogleComputeInstanceFromTemplate",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -1596,7 +1596,7 @@ func GoogleComputeInstanceFromTemplate_GenerateConfigForImport(scope constructs.
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleComputeInstanceFromTemplate.GoogleComputeInstanceFromTemplate",
+		"@cdktn/provider-google-beta.googleComputeInstanceFromTemplate.GoogleComputeInstanceFromTemplate",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1631,7 +1631,7 @@ func GoogleComputeInstanceFromTemplate_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleComputeInstanceFromTemplate.GoogleComputeInstanceFromTemplate",
+		"@cdktn/provider-google-beta.googleComputeInstanceFromTemplate.GoogleComputeInstanceFromTemplate",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1650,7 +1650,7 @@ func GoogleComputeInstanceFromTemplate_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleComputeInstanceFromTemplate.GoogleComputeInstanceFromTemplate",
+		"@cdktn/provider-google-beta.googleComputeInstanceFromTemplate.GoogleComputeInstanceFromTemplate",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1669,7 +1669,7 @@ func GoogleComputeInstanceFromTemplate_IsTerraformResource(x interface{}) *bool 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleComputeInstanceFromTemplate.GoogleComputeInstanceFromTemplate",
+		"@cdktn/provider-google-beta.googleComputeInstanceFromTemplate.GoogleComputeInstanceFromTemplate",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1682,7 +1682,7 @@ func GoogleComputeInstanceFromTemplate_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleComputeInstanceFromTemplate.GoogleComputeInstanceFromTemplate",
+		"@cdktn/provider-google-beta.googleComputeInstanceFromTemplate.GoogleComputeInstanceFromTemplate",
 		"tfResourceType",
 		&returns,
 	)

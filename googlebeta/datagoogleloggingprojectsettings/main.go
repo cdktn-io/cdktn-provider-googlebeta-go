@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagoogleloggingprojectsettings
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleLoggingProjectSettings.DataGoogleLoggingProjectSettings",
+		"@cdktn/provider-google-beta.dataGoogleLoggingProjectSettings.DataGoogleLoggingProjectSettings",
 		reflect.TypeOf((*DataGoogleLoggingProjectSettings)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -66,7 +66,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleLoggingProjectSettings.DataGoogleLoggingProjectSettingsConfig",
+		"@cdktn/provider-google-beta.dataGoogleLoggingProjectSettings.DataGoogleLoggingProjectSettingsConfig",
 		reflect.TypeOf((*DataGoogleLoggingProjectSettingsConfig)(nil)).Elem(),
 	)
 }

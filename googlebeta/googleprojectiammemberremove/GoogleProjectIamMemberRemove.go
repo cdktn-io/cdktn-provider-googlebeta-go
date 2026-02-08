@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googleprojectiammemberremove
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googleprojectiammemberremove/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleprojectiammemberremove/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -389,7 +389,7 @@ func NewGoogleProjectIamMemberRemove(scope constructs.Construct, id *string, con
 	j := jsiiProxy_GoogleProjectIamMemberRemove{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleProjectIamMemberRemove.GoogleProjectIamMemberRemove",
+		"@cdktn/provider-google-beta.googleProjectIamMemberRemove.GoogleProjectIamMemberRemove",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -402,7 +402,7 @@ func NewGoogleProjectIamMemberRemove_Override(g GoogleProjectIamMemberRemove, sc
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleProjectIamMemberRemove.GoogleProjectIamMemberRemove",
+		"@cdktn/provider-google-beta.googleProjectIamMemberRemove.GoogleProjectIamMemberRemove",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -530,7 +530,7 @@ func GoogleProjectIamMemberRemove_GenerateConfigForImport(scope constructs.Const
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleProjectIamMemberRemove.GoogleProjectIamMemberRemove",
+		"@cdktn/provider-google-beta.googleProjectIamMemberRemove.GoogleProjectIamMemberRemove",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -565,7 +565,7 @@ func GoogleProjectIamMemberRemove_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleProjectIamMemberRemove.GoogleProjectIamMemberRemove",
+		"@cdktn/provider-google-beta.googleProjectIamMemberRemove.GoogleProjectIamMemberRemove",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -584,7 +584,7 @@ func GoogleProjectIamMemberRemove_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleProjectIamMemberRemove.GoogleProjectIamMemberRemove",
+		"@cdktn/provider-google-beta.googleProjectIamMemberRemove.GoogleProjectIamMemberRemove",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -603,7 +603,7 @@ func GoogleProjectIamMemberRemove_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleProjectIamMemberRemove.GoogleProjectIamMemberRemove",
+		"@cdktn/provider-google-beta.googleProjectIamMemberRemove.GoogleProjectIamMemberRemove",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -616,7 +616,7 @@ func GoogleProjectIamMemberRemove_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleProjectIamMemberRemove.GoogleProjectIamMemberRemove",
+		"@cdktn/provider-google-beta.googleProjectIamMemberRemove.GoogleProjectIamMemberRemove",
 		"tfResourceType",
 		&returns,
 	)

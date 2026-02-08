@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googleprojectservice
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleProjectService.GoogleProjectService",
+		"@cdktn/provider-google-beta.googleProjectService.GoogleProjectService",
 		reflect.TypeOf((*GoogleProjectService)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -84,15 +84,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleProjectService.GoogleProjectServiceConfig",
+		"@cdktn/provider-google-beta.googleProjectService.GoogleProjectServiceConfig",
 		reflect.TypeOf((*GoogleProjectServiceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleProjectService.GoogleProjectServiceTimeouts",
+		"@cdktn/provider-google-beta.googleProjectService.GoogleProjectServiceTimeouts",
 		reflect.TypeOf((*GoogleProjectServiceTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleProjectService.GoogleProjectServiceTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleProjectService.GoogleProjectServiceTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleProjectServiceTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googledataplexglossarycategory
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleDataplexGlossaryCategory.GoogleDataplexGlossaryCategory",
+		"@cdktn/provider-google-beta.googleDataplexGlossaryCategory.GoogleDataplexGlossaryCategory",
 		reflect.TypeOf((*GoogleDataplexGlossaryCategory)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -98,15 +98,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleDataplexGlossaryCategory.GoogleDataplexGlossaryCategoryConfig",
+		"@cdktn/provider-google-beta.googleDataplexGlossaryCategory.GoogleDataplexGlossaryCategoryConfig",
 		reflect.TypeOf((*GoogleDataplexGlossaryCategoryConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleDataplexGlossaryCategory.GoogleDataplexGlossaryCategoryTimeouts",
+		"@cdktn/provider-google-beta.googleDataplexGlossaryCategory.GoogleDataplexGlossaryCategoryTimeouts",
 		reflect.TypeOf((*GoogleDataplexGlossaryCategoryTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleDataplexGlossaryCategory.GoogleDataplexGlossaryCategoryTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleDataplexGlossaryCategory.GoogleDataplexGlossaryCategoryTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleDataplexGlossaryCategoryTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

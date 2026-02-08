@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagooglepubsubtopiciampolicy
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGooglePubsubTopicIamPolicy.DataGooglePubsubTopicIamPolicy",
+		"@cdktn/provider-google-beta.dataGooglePubsubTopicIamPolicy.DataGooglePubsubTopicIamPolicy",
 		reflect.TypeOf((*DataGooglePubsubTopicIamPolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -65,7 +65,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGooglePubsubTopicIamPolicy.DataGooglePubsubTopicIamPolicyConfig",
+		"@cdktn/provider-google-beta.dataGooglePubsubTopicIamPolicy.DataGooglePubsubTopicIamPolicyConfig",
 		reflect.TypeOf((*DataGooglePubsubTopicIamPolicyConfig)(nil)).Elem(),
 	)
 }

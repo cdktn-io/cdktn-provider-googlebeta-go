@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googletranscoderjob
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleTranscoderJob.GoogleTranscoderJob",
+		"@cdktn/provider-google-beta.googleTranscoderJob.GoogleTranscoderJob",
 		reflect.TypeOf((*GoogleTranscoderJob)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -92,15 +92,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfig",
+		"@cdktn/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfig",
 		reflect.TypeOf((*GoogleTranscoderJobConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigA",
+		"@cdktn/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigA",
 		reflect.TypeOf((*GoogleTranscoderJobConfigA)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigAOutputReference",
+		"@cdktn/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigAOutputReference",
 		reflect.TypeOf((*GoogleTranscoderJobConfigAOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "adBreaks", GoGetter: "AdBreaks"},
@@ -172,11 +172,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigAdBreaks",
+		"@cdktn/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigAdBreaks",
 		reflect.TypeOf((*GoogleTranscoderJobConfigAdBreaks)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigAdBreaksList",
+		"@cdktn/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigAdBreaksList",
 		reflect.TypeOf((*GoogleTranscoderJobConfigAdBreaksList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -198,7 +198,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigAdBreaksOutputReference",
+		"@cdktn/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigAdBreaksOutputReference",
 		reflect.TypeOf((*GoogleTranscoderJobConfigAdBreaksOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -233,11 +233,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigEditListStruct",
+		"@cdktn/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigEditListStruct",
 		reflect.TypeOf((*GoogleTranscoderJobConfigEditListStruct)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigEditListStructList",
+		"@cdktn/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigEditListStructList",
 		reflect.TypeOf((*GoogleTranscoderJobConfigEditListStructList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -259,7 +259,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigEditListStructOutputReference",
+		"@cdktn/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigEditListStructOutputReference",
 		reflect.TypeOf((*GoogleTranscoderJobConfigEditListStructOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -300,15 +300,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigElementaryStreams",
+		"@cdktn/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigElementaryStreams",
 		reflect.TypeOf((*GoogleTranscoderJobConfigElementaryStreams)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigElementaryStreamsAudioStream",
+		"@cdktn/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigElementaryStreamsAudioStream",
 		reflect.TypeOf((*GoogleTranscoderJobConfigElementaryStreamsAudioStream)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigElementaryStreamsAudioStreamOutputReference",
+		"@cdktn/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigElementaryStreamsAudioStreamOutputReference",
 		reflect.TypeOf((*GoogleTranscoderJobConfigElementaryStreamsAudioStreamOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bitrateBps", GoGetter: "BitrateBps"},
@@ -354,7 +354,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigElementaryStreamsList",
+		"@cdktn/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigElementaryStreamsList",
 		reflect.TypeOf((*GoogleTranscoderJobConfigElementaryStreamsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -376,7 +376,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigElementaryStreamsOutputReference",
+		"@cdktn/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigElementaryStreamsOutputReference",
 		reflect.TypeOf((*GoogleTranscoderJobConfigElementaryStreamsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "audioStream", GoGetter: "AudioStream"},
@@ -419,19 +419,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigElementaryStreamsVideoStream",
+		"@cdktn/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigElementaryStreamsVideoStream",
 		reflect.TypeOf((*GoogleTranscoderJobConfigElementaryStreamsVideoStream)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigElementaryStreamsVideoStreamH264",
+		"@cdktn/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigElementaryStreamsVideoStreamH264",
 		reflect.TypeOf((*GoogleTranscoderJobConfigElementaryStreamsVideoStreamH264)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigElementaryStreamsVideoStreamH264Hlg",
+		"@cdktn/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigElementaryStreamsVideoStreamH264Hlg",
 		reflect.TypeOf((*GoogleTranscoderJobConfigElementaryStreamsVideoStreamH264Hlg)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigElementaryStreamsVideoStreamH264HlgOutputReference",
+		"@cdktn/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigElementaryStreamsVideoStreamH264HlgOutputReference",
 		reflect.TypeOf((*GoogleTranscoderJobConfigElementaryStreamsVideoStreamH264HlgOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -463,7 +463,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigElementaryStreamsVideoStreamH264OutputReference",
+		"@cdktn/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigElementaryStreamsVideoStreamH264OutputReference",
 		reflect.TypeOf((*GoogleTranscoderJobConfigElementaryStreamsVideoStreamH264OutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bitrateBps", GoGetter: "BitrateBps"},
@@ -540,11 +540,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigElementaryStreamsVideoStreamH264Sdr",
+		"@cdktn/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigElementaryStreamsVideoStreamH264Sdr",
 		reflect.TypeOf((*GoogleTranscoderJobConfigElementaryStreamsVideoStreamH264Sdr)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigElementaryStreamsVideoStreamH264SdrOutputReference",
+		"@cdktn/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigElementaryStreamsVideoStreamH264SdrOutputReference",
 		reflect.TypeOf((*GoogleTranscoderJobConfigElementaryStreamsVideoStreamH264SdrOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -576,7 +576,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigElementaryStreamsVideoStreamOutputReference",
+		"@cdktn/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigElementaryStreamsVideoStreamOutputReference",
 		reflect.TypeOf((*GoogleTranscoderJobConfigElementaryStreamsVideoStreamOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -612,15 +612,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigEncryptions",
+		"@cdktn/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigEncryptions",
 		reflect.TypeOf((*GoogleTranscoderJobConfigEncryptions)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigEncryptionsAes128",
+		"@cdktn/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigEncryptionsAes128",
 		reflect.TypeOf((*GoogleTranscoderJobConfigEncryptionsAes128)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigEncryptionsAes128OutputReference",
+		"@cdktn/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigEncryptionsAes128OutputReference",
 		reflect.TypeOf((*GoogleTranscoderJobConfigEncryptionsAes128OutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -652,15 +652,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigEncryptionsDrmSystems",
+		"@cdktn/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigEncryptionsDrmSystems",
 		reflect.TypeOf((*GoogleTranscoderJobConfigEncryptionsDrmSystems)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigEncryptionsDrmSystemsClearkey",
+		"@cdktn/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigEncryptionsDrmSystemsClearkey",
 		reflect.TypeOf((*GoogleTranscoderJobConfigEncryptionsDrmSystemsClearkey)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigEncryptionsDrmSystemsClearkeyOutputReference",
+		"@cdktn/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigEncryptionsDrmSystemsClearkeyOutputReference",
 		reflect.TypeOf((*GoogleTranscoderJobConfigEncryptionsDrmSystemsClearkeyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -692,11 +692,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigEncryptionsDrmSystemsFairplay",
+		"@cdktn/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigEncryptionsDrmSystemsFairplay",
 		reflect.TypeOf((*GoogleTranscoderJobConfigEncryptionsDrmSystemsFairplay)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigEncryptionsDrmSystemsFairplayOutputReference",
+		"@cdktn/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigEncryptionsDrmSystemsFairplayOutputReference",
 		reflect.TypeOf((*GoogleTranscoderJobConfigEncryptionsDrmSystemsFairplayOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -728,7 +728,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigEncryptionsDrmSystemsOutputReference",
+		"@cdktn/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigEncryptionsDrmSystemsOutputReference",
 		reflect.TypeOf((*GoogleTranscoderJobConfigEncryptionsDrmSystemsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "clearkey", GoGetter: "Clearkey"},
@@ -776,11 +776,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigEncryptionsDrmSystemsPlayready",
+		"@cdktn/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigEncryptionsDrmSystemsPlayready",
 		reflect.TypeOf((*GoogleTranscoderJobConfigEncryptionsDrmSystemsPlayready)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigEncryptionsDrmSystemsPlayreadyOutputReference",
+		"@cdktn/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigEncryptionsDrmSystemsPlayreadyOutputReference",
 		reflect.TypeOf((*GoogleTranscoderJobConfigEncryptionsDrmSystemsPlayreadyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -812,11 +812,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigEncryptionsDrmSystemsWidevine",
+		"@cdktn/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigEncryptionsDrmSystemsWidevine",
 		reflect.TypeOf((*GoogleTranscoderJobConfigEncryptionsDrmSystemsWidevine)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigEncryptionsDrmSystemsWidevineOutputReference",
+		"@cdktn/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigEncryptionsDrmSystemsWidevineOutputReference",
 		reflect.TypeOf((*GoogleTranscoderJobConfigEncryptionsDrmSystemsWidevineOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -848,7 +848,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigEncryptionsList",
+		"@cdktn/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigEncryptionsList",
 		reflect.TypeOf((*GoogleTranscoderJobConfigEncryptionsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -870,11 +870,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigEncryptionsMpegCenc",
+		"@cdktn/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigEncryptionsMpegCenc",
 		reflect.TypeOf((*GoogleTranscoderJobConfigEncryptionsMpegCenc)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigEncryptionsMpegCencOutputReference",
+		"@cdktn/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigEncryptionsMpegCencOutputReference",
 		reflect.TypeOf((*GoogleTranscoderJobConfigEncryptionsMpegCencOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -908,7 +908,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigEncryptionsOutputReference",
+		"@cdktn/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigEncryptionsOutputReference",
 		reflect.TypeOf((*GoogleTranscoderJobConfigEncryptionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "aes128", GoGetter: "Aes128"},
@@ -962,11 +962,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigEncryptionsSampleAes",
+		"@cdktn/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigEncryptionsSampleAes",
 		reflect.TypeOf((*GoogleTranscoderJobConfigEncryptionsSampleAes)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigEncryptionsSampleAesOutputReference",
+		"@cdktn/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigEncryptionsSampleAesOutputReference",
 		reflect.TypeOf((*GoogleTranscoderJobConfigEncryptionsSampleAesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -998,11 +998,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigEncryptionsSecretManagerKeySource",
+		"@cdktn/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigEncryptionsSecretManagerKeySource",
 		reflect.TypeOf((*GoogleTranscoderJobConfigEncryptionsSecretManagerKeySource)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigEncryptionsSecretManagerKeySourceOutputReference",
+		"@cdktn/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigEncryptionsSecretManagerKeySourceOutputReference",
 		reflect.TypeOf((*GoogleTranscoderJobConfigEncryptionsSecretManagerKeySourceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1036,11 +1036,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigInputs",
+		"@cdktn/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigInputs",
 		reflect.TypeOf((*GoogleTranscoderJobConfigInputs)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigInputsList",
+		"@cdktn/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigInputsList",
 		reflect.TypeOf((*GoogleTranscoderJobConfigInputsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1062,7 +1062,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigInputsOutputReference",
+		"@cdktn/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigInputsOutputReference",
 		reflect.TypeOf((*GoogleTranscoderJobConfigInputsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1100,11 +1100,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigManifests",
+		"@cdktn/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigManifests",
 		reflect.TypeOf((*GoogleTranscoderJobConfigManifests)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigManifestsList",
+		"@cdktn/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigManifestsList",
 		reflect.TypeOf((*GoogleTranscoderJobConfigManifestsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1126,7 +1126,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigManifestsOutputReference",
+		"@cdktn/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigManifestsOutputReference",
 		reflect.TypeOf((*GoogleTranscoderJobConfigManifestsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1167,11 +1167,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigMuxStreams",
+		"@cdktn/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigMuxStreams",
 		reflect.TypeOf((*GoogleTranscoderJobConfigMuxStreams)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigMuxStreamsList",
+		"@cdktn/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigMuxStreamsList",
 		reflect.TypeOf((*GoogleTranscoderJobConfigMuxStreamsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1193,7 +1193,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigMuxStreamsOutputReference",
+		"@cdktn/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigMuxStreamsOutputReference",
 		reflect.TypeOf((*GoogleTranscoderJobConfigMuxStreamsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1244,11 +1244,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigMuxStreamsSegmentSettings",
+		"@cdktn/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigMuxStreamsSegmentSettings",
 		reflect.TypeOf((*GoogleTranscoderJobConfigMuxStreamsSegmentSettings)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigMuxStreamsSegmentSettingsOutputReference",
+		"@cdktn/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigMuxStreamsSegmentSettingsOutputReference",
 		reflect.TypeOf((*GoogleTranscoderJobConfigMuxStreamsSegmentSettingsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1283,11 +1283,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigOutput",
+		"@cdktn/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigOutput",
 		reflect.TypeOf((*GoogleTranscoderJobConfigOutput)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigOutputOutputReference",
+		"@cdktn/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigOutputOutputReference",
 		reflect.TypeOf((*GoogleTranscoderJobConfigOutputOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1322,19 +1322,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigOverlays",
+		"@cdktn/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigOverlays",
 		reflect.TypeOf((*GoogleTranscoderJobConfigOverlays)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigOverlaysAnimations",
+		"@cdktn/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigOverlaysAnimations",
 		reflect.TypeOf((*GoogleTranscoderJobConfigOverlaysAnimations)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigOverlaysAnimationsAnimationFade",
+		"@cdktn/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigOverlaysAnimationsAnimationFade",
 		reflect.TypeOf((*GoogleTranscoderJobConfigOverlaysAnimationsAnimationFade)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigOverlaysAnimationsAnimationFadeOutputReference",
+		"@cdktn/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigOverlaysAnimationsAnimationFadeOutputReference",
 		reflect.TypeOf((*GoogleTranscoderJobConfigOverlaysAnimationsAnimationFadeOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1378,11 +1378,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigOverlaysAnimationsAnimationFadeXy",
+		"@cdktn/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigOverlaysAnimationsAnimationFadeXy",
 		reflect.TypeOf((*GoogleTranscoderJobConfigOverlaysAnimationsAnimationFadeXy)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigOverlaysAnimationsAnimationFadeXyOutputReference",
+		"@cdktn/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigOverlaysAnimationsAnimationFadeXyOutputReference",
 		reflect.TypeOf((*GoogleTranscoderJobConfigOverlaysAnimationsAnimationFadeXyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1420,7 +1420,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigOverlaysAnimationsList",
+		"@cdktn/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigOverlaysAnimationsList",
 		reflect.TypeOf((*GoogleTranscoderJobConfigOverlaysAnimationsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1442,7 +1442,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigOverlaysAnimationsOutputReference",
+		"@cdktn/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigOverlaysAnimationsOutputReference",
 		reflect.TypeOf((*GoogleTranscoderJobConfigOverlaysAnimationsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "animationFade", GoGetter: "AnimationFade"},
@@ -1478,11 +1478,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigOverlaysImage",
+		"@cdktn/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigOverlaysImage",
 		reflect.TypeOf((*GoogleTranscoderJobConfigOverlaysImage)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigOverlaysImageOutputReference",
+		"@cdktn/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigOverlaysImageOutputReference",
 		reflect.TypeOf((*GoogleTranscoderJobConfigOverlaysImageOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1516,7 +1516,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigOverlaysList",
+		"@cdktn/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigOverlaysList",
 		reflect.TypeOf((*GoogleTranscoderJobConfigOverlaysList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1538,7 +1538,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigOverlaysOutputReference",
+		"@cdktn/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigOverlaysOutputReference",
 		reflect.TypeOf((*GoogleTranscoderJobConfigOverlaysOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "animations", GoGetter: "Animations"},
@@ -1578,11 +1578,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigPubsubDestination",
+		"@cdktn/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigPubsubDestination",
 		reflect.TypeOf((*GoogleTranscoderJobConfigPubsubDestination)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigPubsubDestinationOutputReference",
+		"@cdktn/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigPubsubDestinationOutputReference",
 		reflect.TypeOf((*GoogleTranscoderJobConfigPubsubDestinationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1617,11 +1617,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobTimeouts",
+		"@cdktn/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobTimeouts",
 		reflect.TypeOf((*GoogleTranscoderJobTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleTranscoderJobTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlestorageanywherecache
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlestorageanywherecache/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlestorageanywherecache/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -493,7 +493,7 @@ func NewGoogleStorageAnywhereCache(scope constructs.Construct, id *string, confi
 	j := jsiiProxy_GoogleStorageAnywhereCache{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleStorageAnywhereCache.GoogleStorageAnywhereCache",
+		"@cdktn/provider-google-beta.googleStorageAnywhereCache.GoogleStorageAnywhereCache",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -506,7 +506,7 @@ func NewGoogleStorageAnywhereCache_Override(g GoogleStorageAnywhereCache, scope 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleStorageAnywhereCache.GoogleStorageAnywhereCache",
+		"@cdktn/provider-google-beta.googleStorageAnywhereCache.GoogleStorageAnywhereCache",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -645,7 +645,7 @@ func GoogleStorageAnywhereCache_GenerateConfigForImport(scope constructs.Constru
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleStorageAnywhereCache.GoogleStorageAnywhereCache",
+		"@cdktn/provider-google-beta.googleStorageAnywhereCache.GoogleStorageAnywhereCache",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -680,7 +680,7 @@ func GoogleStorageAnywhereCache_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleStorageAnywhereCache.GoogleStorageAnywhereCache",
+		"@cdktn/provider-google-beta.googleStorageAnywhereCache.GoogleStorageAnywhereCache",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -699,7 +699,7 @@ func GoogleStorageAnywhereCache_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleStorageAnywhereCache.GoogleStorageAnywhereCache",
+		"@cdktn/provider-google-beta.googleStorageAnywhereCache.GoogleStorageAnywhereCache",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -718,7 +718,7 @@ func GoogleStorageAnywhereCache_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleStorageAnywhereCache.GoogleStorageAnywhereCache",
+		"@cdktn/provider-google-beta.googleStorageAnywhereCache.GoogleStorageAnywhereCache",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -731,7 +731,7 @@ func GoogleStorageAnywhereCache_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleStorageAnywhereCache.GoogleStorageAnywhereCache",
+		"@cdktn/provider-google-beta.googleStorageAnywhereCache.GoogleStorageAnywhereCache",
 		"tfResourceType",
 		&returns,
 	)

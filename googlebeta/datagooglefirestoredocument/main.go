@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagooglefirestoredocument
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleFirestoreDocument.DataGoogleFirestoreDocument",
+		"@cdktn/provider-google-beta.dataGoogleFirestoreDocument.DataGoogleFirestoreDocument",
 		reflect.TypeOf((*DataGoogleFirestoreDocument)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -72,7 +72,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleFirestoreDocument.DataGoogleFirestoreDocumentConfig",
+		"@cdktn/provider-google-beta.dataGoogleFirestoreDocument.DataGoogleFirestoreDocumentConfig",
 		reflect.TypeOf((*DataGoogleFirestoreDocumentConfig)(nil)).Elem(),
 	)
 }

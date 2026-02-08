@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagooglevertexaifeaturegroupiampolicy
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleVertexAiFeatureGroupIamPolicy.DataGoogleVertexAiFeatureGroupIamPolicy",
+		"@cdktn/provider-google-beta.dataGoogleVertexAiFeatureGroupIamPolicy.DataGoogleVertexAiFeatureGroupIamPolicy",
 		reflect.TypeOf((*DataGoogleVertexAiFeatureGroupIamPolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -68,7 +68,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleVertexAiFeatureGroupIamPolicy.DataGoogleVertexAiFeatureGroupIamPolicyConfig",
+		"@cdktn/provider-google-beta.dataGoogleVertexAiFeatureGroupIamPolicy.DataGoogleVertexAiFeatureGroupIamPolicyConfig",
 		reflect.TypeOf((*DataGoogleVertexAiFeatureGroupIamPolicyConfig)(nil)).Elem(),
 	)
 }

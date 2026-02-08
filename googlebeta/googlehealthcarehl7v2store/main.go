@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlehealthcarehl7v2store
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleHealthcareHl7V2Store.GoogleHealthcareHl7V2Store",
+		"@cdktn/provider-google-beta.googleHealthcareHl7V2Store.GoogleHealthcareHl7V2Store",
 		reflect.TypeOf((*GoogleHealthcareHl7V2Store)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -95,15 +95,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleHealthcareHl7V2Store.GoogleHealthcareHl7V2StoreConfig",
+		"@cdktn/provider-google-beta.googleHealthcareHl7V2Store.GoogleHealthcareHl7V2StoreConfig",
 		reflect.TypeOf((*GoogleHealthcareHl7V2StoreConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleHealthcareHl7V2Store.GoogleHealthcareHl7V2StoreNotificationConfig",
+		"@cdktn/provider-google-beta.googleHealthcareHl7V2Store.GoogleHealthcareHl7V2StoreNotificationConfig",
 		reflect.TypeOf((*GoogleHealthcareHl7V2StoreNotificationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleHealthcareHl7V2Store.GoogleHealthcareHl7V2StoreNotificationConfigOutputReference",
+		"@cdktn/provider-google-beta.googleHealthcareHl7V2Store.GoogleHealthcareHl7V2StoreNotificationConfigOutputReference",
 		reflect.TypeOf((*GoogleHealthcareHl7V2StoreNotificationConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -137,11 +137,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleHealthcareHl7V2Store.GoogleHealthcareHl7V2StoreNotificationConfigs",
+		"@cdktn/provider-google-beta.googleHealthcareHl7V2Store.GoogleHealthcareHl7V2StoreNotificationConfigs",
 		reflect.TypeOf((*GoogleHealthcareHl7V2StoreNotificationConfigs)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleHealthcareHl7V2Store.GoogleHealthcareHl7V2StoreNotificationConfigsList",
+		"@cdktn/provider-google-beta.googleHealthcareHl7V2Store.GoogleHealthcareHl7V2StoreNotificationConfigsList",
 		reflect.TypeOf((*GoogleHealthcareHl7V2StoreNotificationConfigsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -163,7 +163,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleHealthcareHl7V2Store.GoogleHealthcareHl7V2StoreNotificationConfigsOutputReference",
+		"@cdktn/provider-google-beta.googleHealthcareHl7V2Store.GoogleHealthcareHl7V2StoreNotificationConfigsOutputReference",
 		reflect.TypeOf((*GoogleHealthcareHl7V2StoreNotificationConfigsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -200,11 +200,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleHealthcareHl7V2Store.GoogleHealthcareHl7V2StoreParserConfig",
+		"@cdktn/provider-google-beta.googleHealthcareHl7V2Store.GoogleHealthcareHl7V2StoreParserConfig",
 		reflect.TypeOf((*GoogleHealthcareHl7V2StoreParserConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleHealthcareHl7V2Store.GoogleHealthcareHl7V2StoreParserConfigOutputReference",
+		"@cdktn/provider-google-beta.googleHealthcareHl7V2Store.GoogleHealthcareHl7V2StoreParserConfigOutputReference",
 		reflect.TypeOf((*GoogleHealthcareHl7V2StoreParserConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allowNullHeader", GoGetter: "AllowNullHeader"},
@@ -248,11 +248,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleHealthcareHl7V2Store.GoogleHealthcareHl7V2StoreTimeouts",
+		"@cdktn/provider-google-beta.googleHealthcareHl7V2Store.GoogleHealthcareHl7V2StoreTimeouts",
 		reflect.TypeOf((*GoogleHealthcareHl7V2StoreTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleHealthcareHl7V2Store.GoogleHealthcareHl7V2StoreTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleHealthcareHl7V2Store.GoogleHealthcareHl7V2StoreTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleHealthcareHl7V2StoreTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

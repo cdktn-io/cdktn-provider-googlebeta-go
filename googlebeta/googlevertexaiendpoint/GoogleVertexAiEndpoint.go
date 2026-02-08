@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlevertexaiendpoint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlevertexaiendpoint/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlevertexaiendpoint/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -741,7 +741,7 @@ func NewGoogleVertexAiEndpoint(scope constructs.Construct, id *string, config *G
 	j := jsiiProxy_GoogleVertexAiEndpoint{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpoint",
+		"@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpoint",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -754,7 +754,7 @@ func NewGoogleVertexAiEndpoint_Override(g GoogleVertexAiEndpoint, scope construc
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpoint",
+		"@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpoint",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -959,7 +959,7 @@ func GoogleVertexAiEndpoint_GenerateConfigForImport(scope constructs.Construct, 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpoint",
+		"@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpoint",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -994,7 +994,7 @@ func GoogleVertexAiEndpoint_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpoint",
+		"@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpoint",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1013,7 +1013,7 @@ func GoogleVertexAiEndpoint_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpoint",
+		"@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpoint",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1032,7 +1032,7 @@ func GoogleVertexAiEndpoint_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpoint",
+		"@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpoint",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1045,7 +1045,7 @@ func GoogleVertexAiEndpoint_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpoint",
+		"@cdktn/provider-google-beta.googleVertexAiEndpoint.GoogleVertexAiEndpoint",
 		"tfResourceType",
 		&returns,
 	)

@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlecomputetargetsslproxy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlecomputetargetsslproxy/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecomputetargetsslproxy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -567,7 +567,7 @@ func NewGoogleComputeTargetSslProxy(scope constructs.Construct, id *string, conf
 	j := jsiiProxy_GoogleComputeTargetSslProxy{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleComputeTargetSslProxy.GoogleComputeTargetSslProxy",
+		"@cdktn/provider-google-beta.googleComputeTargetSslProxy.GoogleComputeTargetSslProxy",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -580,7 +580,7 @@ func NewGoogleComputeTargetSslProxy_Override(g GoogleComputeTargetSslProxy, scop
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleComputeTargetSslProxy.GoogleComputeTargetSslProxy",
+		"@cdktn/provider-google-beta.googleComputeTargetSslProxy.GoogleComputeTargetSslProxy",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -763,7 +763,7 @@ func GoogleComputeTargetSslProxy_GenerateConfigForImport(scope constructs.Constr
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleComputeTargetSslProxy.GoogleComputeTargetSslProxy",
+		"@cdktn/provider-google-beta.googleComputeTargetSslProxy.GoogleComputeTargetSslProxy",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -798,7 +798,7 @@ func GoogleComputeTargetSslProxy_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleComputeTargetSslProxy.GoogleComputeTargetSslProxy",
+		"@cdktn/provider-google-beta.googleComputeTargetSslProxy.GoogleComputeTargetSslProxy",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -817,7 +817,7 @@ func GoogleComputeTargetSslProxy_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleComputeTargetSslProxy.GoogleComputeTargetSslProxy",
+		"@cdktn/provider-google-beta.googleComputeTargetSslProxy.GoogleComputeTargetSslProxy",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -836,7 +836,7 @@ func GoogleComputeTargetSslProxy_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleComputeTargetSslProxy.GoogleComputeTargetSslProxy",
+		"@cdktn/provider-google-beta.googleComputeTargetSslProxy.GoogleComputeTargetSslProxy",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -849,7 +849,7 @@ func GoogleComputeTargetSslProxy_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleComputeTargetSslProxy.GoogleComputeTargetSslProxy",
+		"@cdktn/provider-google-beta.googleComputeTargetSslProxy.GoogleComputeTargetSslProxy",
 		"tfResourceType",
 		&returns,
 	)

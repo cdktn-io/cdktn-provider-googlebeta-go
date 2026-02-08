@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlecloudfunctions2functioniambinding
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleCloudfunctions2FunctionIamBinding.GoogleCloudfunctions2FunctionIamBinding",
+		"@cdktn/provider-google-beta.googleCloudfunctions2FunctionIamBinding.GoogleCloudfunctions2FunctionIamBinding",
 		reflect.TypeOf((*GoogleCloudfunctions2FunctionIamBinding)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -83,11 +83,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleCloudfunctions2FunctionIamBinding.GoogleCloudfunctions2FunctionIamBindingCondition",
+		"@cdktn/provider-google-beta.googleCloudfunctions2FunctionIamBinding.GoogleCloudfunctions2FunctionIamBindingCondition",
 		reflect.TypeOf((*GoogleCloudfunctions2FunctionIamBindingCondition)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleCloudfunctions2FunctionIamBinding.GoogleCloudfunctions2FunctionIamBindingConditionOutputReference",
+		"@cdktn/provider-google-beta.googleCloudfunctions2FunctionIamBinding.GoogleCloudfunctions2FunctionIamBindingConditionOutputReference",
 		reflect.TypeOf((*GoogleCloudfunctions2FunctionIamBindingConditionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -126,7 +126,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleCloudfunctions2FunctionIamBinding.GoogleCloudfunctions2FunctionIamBindingConfig",
+		"@cdktn/provider-google-beta.googleCloudfunctions2FunctionIamBinding.GoogleCloudfunctions2FunctionIamBindingConfig",
 		reflect.TypeOf((*GoogleCloudfunctions2FunctionIamBindingConfig)(nil)).Elem(),
 	)
 }

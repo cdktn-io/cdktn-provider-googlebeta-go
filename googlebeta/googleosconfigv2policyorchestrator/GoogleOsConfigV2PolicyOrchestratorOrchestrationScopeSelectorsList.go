@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googleosconfigv2policyorchestrator
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googleosconfigv2policyorchestrator/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleosconfigv2policyorchestrator/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -41,7 +41,7 @@ type GoogleOsConfigV2PolicyOrchestratorOrchestrationScopeSelectorsList interface
 	Get(index *float64) GoogleOsConfigV2PolicyOrchestratorOrchestrationScopeSelectorsOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(_context cdktf.IResolveContext) interface{}
+	Resolve(context cdktf.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -124,7 +124,7 @@ func NewGoogleOsConfigV2PolicyOrchestratorOrchestrationScopeSelectorsList(terraf
 	j := jsiiProxy_GoogleOsConfigV2PolicyOrchestratorOrchestrationScopeSelectorsList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleOsConfigV2PolicyOrchestrator.GoogleOsConfigV2PolicyOrchestratorOrchestrationScopeSelectorsList",
+		"@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestrator.GoogleOsConfigV2PolicyOrchestratorOrchestrationScopeSelectorsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewGoogleOsConfigV2PolicyOrchestratorOrchestrationScopeSelectorsList_Overri
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleOsConfigV2PolicyOrchestrator.GoogleOsConfigV2PolicyOrchestratorOrchestrationScopeSelectorsList",
+		"@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestrator.GoogleOsConfigV2PolicyOrchestratorOrchestrationScopeSelectorsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		g,
 	)
@@ -231,8 +231,8 @@ func (g *jsiiProxy_GoogleOsConfigV2PolicyOrchestratorOrchestrationScopeSelectors
 	return returns
 }
 
-func (g *jsiiProxy_GoogleOsConfigV2PolicyOrchestratorOrchestrationScopeSelectorsList) Resolve(_context cdktf.IResolveContext) interface{} {
-	if err := g.validateResolveParameters(_context); err != nil {
+func (g *jsiiProxy_GoogleOsConfigV2PolicyOrchestratorOrchestrationScopeSelectorsList) Resolve(context cdktf.IResolveContext) interface{} {
+	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}
 	var returns interface{}
@@ -240,7 +240,7 @@ func (g *jsiiProxy_GoogleOsConfigV2PolicyOrchestratorOrchestrationScopeSelectors
 	_jsii_.Invoke(
 		g,
 		"resolve",
-		[]interface{}{_context},
+		[]interface{}{context},
 		&returns,
 	)
 

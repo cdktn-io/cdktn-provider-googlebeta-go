@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlenetappbackupvault
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleNetappBackupVault.GoogleNetappBackupVault",
+		"@cdktn/provider-google-beta.googleNetappBackupVault.GoogleNetappBackupVault",
 		reflect.TypeOf((*GoogleNetappBackupVault)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -100,11 +100,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleNetappBackupVault.GoogleNetappBackupVaultBackupRetentionPolicy",
+		"@cdktn/provider-google-beta.googleNetappBackupVault.GoogleNetappBackupVaultBackupRetentionPolicy",
 		reflect.TypeOf((*GoogleNetappBackupVaultBackupRetentionPolicy)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleNetappBackupVault.GoogleNetappBackupVaultBackupRetentionPolicyOutputReference",
+		"@cdktn/provider-google-beta.googleNetappBackupVault.GoogleNetappBackupVaultBackupRetentionPolicyOutputReference",
 		reflect.TypeOf((*GoogleNetappBackupVaultBackupRetentionPolicyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "backupMinimumEnforcedRetentionDays", GoGetter: "BackupMinimumEnforcedRetentionDays"},
@@ -150,15 +150,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleNetappBackupVault.GoogleNetappBackupVaultConfig",
+		"@cdktn/provider-google-beta.googleNetappBackupVault.GoogleNetappBackupVaultConfig",
 		reflect.TypeOf((*GoogleNetappBackupVaultConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleNetappBackupVault.GoogleNetappBackupVaultTimeouts",
+		"@cdktn/provider-google-beta.googleNetappBackupVault.GoogleNetappBackupVaultTimeouts",
 		reflect.TypeOf((*GoogleNetappBackupVaultTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleNetappBackupVault.GoogleNetappBackupVaultTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleNetappBackupVault.GoogleNetappBackupVaultTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleNetappBackupVaultTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

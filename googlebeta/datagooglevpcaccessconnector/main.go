@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagooglevpcaccessconnector
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleVpcAccessConnector.DataGoogleVpcAccessConnector",
+		"@cdktn/provider-google-beta.dataGoogleVpcAccessConnector.DataGoogleVpcAccessConnector",
 		reflect.TypeOf((*DataGoogleVpcAccessConnector)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -77,15 +77,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleVpcAccessConnector.DataGoogleVpcAccessConnectorConfig",
+		"@cdktn/provider-google-beta.dataGoogleVpcAccessConnector.DataGoogleVpcAccessConnectorConfig",
 		reflect.TypeOf((*DataGoogleVpcAccessConnectorConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleVpcAccessConnector.DataGoogleVpcAccessConnectorSubnet",
+		"@cdktn/provider-google-beta.dataGoogleVpcAccessConnector.DataGoogleVpcAccessConnectorSubnet",
 		reflect.TypeOf((*DataGoogleVpcAccessConnectorSubnet)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleVpcAccessConnector.DataGoogleVpcAccessConnectorSubnetList",
+		"@cdktn/provider-google-beta.dataGoogleVpcAccessConnector.DataGoogleVpcAccessConnectorSubnetList",
 		reflect.TypeOf((*DataGoogleVpcAccessConnectorSubnetList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -106,7 +106,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleVpcAccessConnector.DataGoogleVpcAccessConnectorSubnetOutputReference",
+		"@cdktn/provider-google-beta.dataGoogleVpcAccessConnector.DataGoogleVpcAccessConnectorSubnetOutputReference",
 		reflect.TypeOf((*DataGoogleVpcAccessConnectorSubnetOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

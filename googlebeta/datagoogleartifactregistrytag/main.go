@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagoogleartifactregistrytag
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleArtifactRegistryTag.DataGoogleArtifactRegistryTag",
+		"@cdktn/provider-google-beta.dataGoogleArtifactRegistryTag.DataGoogleArtifactRegistryTag",
 		reflect.TypeOf((*DataGoogleArtifactRegistryTag)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -71,7 +71,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleArtifactRegistryTag.DataGoogleArtifactRegistryTagConfig",
+		"@cdktn/provider-google-beta.dataGoogleArtifactRegistryTag.DataGoogleArtifactRegistryTagConfig",
 		reflect.TypeOf((*DataGoogleArtifactRegistryTagConfig)(nil)).Elem(),
 	)
 }

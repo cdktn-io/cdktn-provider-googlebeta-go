@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagooglekmskeyhandles
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/datagooglekmskeyhandles/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagooglekmskeyhandles/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -39,7 +39,7 @@ type DataGoogleKmsKeyHandlesKeyHandlesList interface {
 	Get(index *float64) DataGoogleKmsKeyHandlesKeyHandlesOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(_context cdktf.IResolveContext) interface{}
+	Resolve(context cdktf.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -112,7 +112,7 @@ func NewDataGoogleKmsKeyHandlesKeyHandlesList(terraformResource cdktf.IInterpola
 	j := jsiiProxy_DataGoogleKmsKeyHandlesKeyHandlesList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.dataGoogleKmsKeyHandles.DataGoogleKmsKeyHandlesKeyHandlesList",
+		"@cdktn/provider-google-beta.dataGoogleKmsKeyHandles.DataGoogleKmsKeyHandlesKeyHandlesList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewDataGoogleKmsKeyHandlesKeyHandlesList_Override(d DataGoogleKmsKeyHandles
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.dataGoogleKmsKeyHandles.DataGoogleKmsKeyHandlesKeyHandlesList",
+		"@cdktn/provider-google-beta.dataGoogleKmsKeyHandles.DataGoogleKmsKeyHandlesKeyHandlesList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)
@@ -208,8 +208,8 @@ func (d *jsiiProxy_DataGoogleKmsKeyHandlesKeyHandlesList) Get(index *float64) Da
 	return returns
 }
 
-func (d *jsiiProxy_DataGoogleKmsKeyHandlesKeyHandlesList) Resolve(_context cdktf.IResolveContext) interface{} {
-	if err := d.validateResolveParameters(_context); err != nil {
+func (d *jsiiProxy_DataGoogleKmsKeyHandlesKeyHandlesList) Resolve(context cdktf.IResolveContext) interface{} {
+	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}
 	var returns interface{}
@@ -217,7 +217,7 @@ func (d *jsiiProxy_DataGoogleKmsKeyHandlesKeyHandlesList) Resolve(_context cdktf
 	_jsii_.Invoke(
 		d,
 		"resolve",
-		[]interface{}{_context},
+		[]interface{}{context},
 		&returns,
 	)
 

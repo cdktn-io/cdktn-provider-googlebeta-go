@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googleprojectorganizationpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googleprojectorganizationpolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleprojectorganizationpolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -508,7 +508,7 @@ func NewGoogleProjectOrganizationPolicy(scope constructs.Construct, id *string, 
 	j := jsiiProxy_GoogleProjectOrganizationPolicy{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleProjectOrganizationPolicy.GoogleProjectOrganizationPolicy",
+		"@cdktn/provider-google-beta.googleProjectOrganizationPolicy.GoogleProjectOrganizationPolicy",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -521,7 +521,7 @@ func NewGoogleProjectOrganizationPolicy_Override(g GoogleProjectOrganizationPoli
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleProjectOrganizationPolicy.GoogleProjectOrganizationPolicy",
+		"@cdktn/provider-google-beta.googleProjectOrganizationPolicy.GoogleProjectOrganizationPolicy",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -649,7 +649,7 @@ func GoogleProjectOrganizationPolicy_GenerateConfigForImport(scope constructs.Co
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleProjectOrganizationPolicy.GoogleProjectOrganizationPolicy",
+		"@cdktn/provider-google-beta.googleProjectOrganizationPolicy.GoogleProjectOrganizationPolicy",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -684,7 +684,7 @@ func GoogleProjectOrganizationPolicy_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleProjectOrganizationPolicy.GoogleProjectOrganizationPolicy",
+		"@cdktn/provider-google-beta.googleProjectOrganizationPolicy.GoogleProjectOrganizationPolicy",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -703,7 +703,7 @@ func GoogleProjectOrganizationPolicy_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleProjectOrganizationPolicy.GoogleProjectOrganizationPolicy",
+		"@cdktn/provider-google-beta.googleProjectOrganizationPolicy.GoogleProjectOrganizationPolicy",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -722,7 +722,7 @@ func GoogleProjectOrganizationPolicy_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleProjectOrganizationPolicy.GoogleProjectOrganizationPolicy",
+		"@cdktn/provider-google-beta.googleProjectOrganizationPolicy.GoogleProjectOrganizationPolicy",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -735,7 +735,7 @@ func GoogleProjectOrganizationPolicy_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleProjectOrganizationPolicy.GoogleProjectOrganizationPolicy",
+		"@cdktn/provider-google-beta.googleProjectOrganizationPolicy.GoogleProjectOrganizationPolicy",
 		"tfResourceType",
 		&returns,
 	)

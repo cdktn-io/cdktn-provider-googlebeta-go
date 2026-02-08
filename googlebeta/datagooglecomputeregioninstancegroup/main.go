@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagooglecomputeregioninstancegroup
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleComputeRegionInstanceGroup.DataGoogleComputeRegionInstanceGroup",
+		"@cdktn/provider-google-beta.dataGoogleComputeRegionInstanceGroup.DataGoogleComputeRegionInstanceGroup",
 		reflect.TypeOf((*DataGoogleComputeRegionInstanceGroup)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -72,15 +72,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleComputeRegionInstanceGroup.DataGoogleComputeRegionInstanceGroupConfig",
+		"@cdktn/provider-google-beta.dataGoogleComputeRegionInstanceGroup.DataGoogleComputeRegionInstanceGroupConfig",
 		reflect.TypeOf((*DataGoogleComputeRegionInstanceGroupConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleComputeRegionInstanceGroup.DataGoogleComputeRegionInstanceGroupInstances",
+		"@cdktn/provider-google-beta.dataGoogleComputeRegionInstanceGroup.DataGoogleComputeRegionInstanceGroupInstances",
 		reflect.TypeOf((*DataGoogleComputeRegionInstanceGroupInstances)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleComputeRegionInstanceGroup.DataGoogleComputeRegionInstanceGroupInstancesList",
+		"@cdktn/provider-google-beta.dataGoogleComputeRegionInstanceGroup.DataGoogleComputeRegionInstanceGroupInstancesList",
 		reflect.TypeOf((*DataGoogleComputeRegionInstanceGroupInstancesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -101,11 +101,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleComputeRegionInstanceGroup.DataGoogleComputeRegionInstanceGroupInstancesNamedPorts",
+		"@cdktn/provider-google-beta.dataGoogleComputeRegionInstanceGroup.DataGoogleComputeRegionInstanceGroupInstancesNamedPorts",
 		reflect.TypeOf((*DataGoogleComputeRegionInstanceGroupInstancesNamedPorts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleComputeRegionInstanceGroup.DataGoogleComputeRegionInstanceGroupInstancesNamedPortsList",
+		"@cdktn/provider-google-beta.dataGoogleComputeRegionInstanceGroup.DataGoogleComputeRegionInstanceGroupInstancesNamedPortsList",
 		reflect.TypeOf((*DataGoogleComputeRegionInstanceGroupInstancesNamedPortsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -126,7 +126,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleComputeRegionInstanceGroup.DataGoogleComputeRegionInstanceGroupInstancesNamedPortsOutputReference",
+		"@cdktn/provider-google-beta.dataGoogleComputeRegionInstanceGroup.DataGoogleComputeRegionInstanceGroupInstancesNamedPortsOutputReference",
 		reflect.TypeOf((*DataGoogleComputeRegionInstanceGroupInstancesNamedPortsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -160,7 +160,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleComputeRegionInstanceGroup.DataGoogleComputeRegionInstanceGroupInstancesOutputReference",
+		"@cdktn/provider-google-beta.dataGoogleComputeRegionInstanceGroup.DataGoogleComputeRegionInstanceGroupInstancesOutputReference",
 		reflect.TypeOf((*DataGoogleComputeRegionInstanceGroupInstancesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

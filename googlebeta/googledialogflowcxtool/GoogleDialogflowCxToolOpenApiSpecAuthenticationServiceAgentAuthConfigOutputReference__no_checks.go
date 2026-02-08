@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 //go:build no_runtime_type_checking
@@ -43,11 +43,11 @@ func (g *jsiiProxy_GoogleDialogflowCxToolOpenApiSpecAuthenticationServiceAgentAu
 	return nil
 }
 
-func (g *jsiiProxy_GoogleDialogflowCxToolOpenApiSpecAuthenticationServiceAgentAuthConfigOutputReference) validateInterpolationForAttributeParameters(property *string) error {
+func (g *jsiiProxy_GoogleDialogflowCxToolOpenApiSpecAuthenticationServiceAgentAuthConfigOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
 	return nil
 }
 
-func (g *jsiiProxy_GoogleDialogflowCxToolOpenApiSpecAuthenticationServiceAgentAuthConfigOutputReference) validateResolveParameters(_context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleDialogflowCxToolOpenApiSpecAuthenticationServiceAgentAuthConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
 	return nil
 }
 

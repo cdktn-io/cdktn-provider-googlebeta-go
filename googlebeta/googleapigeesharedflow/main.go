@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googleapigeesharedflow
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleApigeeSharedflow.GoogleApigeeSharedflow",
+		"@cdktn/provider-google-beta.googleApigeeSharedflow.GoogleApigeeSharedflow",
 		reflect.TypeOf((*GoogleApigeeSharedflow)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -83,15 +83,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleApigeeSharedflow.GoogleApigeeSharedflowConfig",
+		"@cdktn/provider-google-beta.googleApigeeSharedflow.GoogleApigeeSharedflowConfig",
 		reflect.TypeOf((*GoogleApigeeSharedflowConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleApigeeSharedflow.GoogleApigeeSharedflowMetaData",
+		"@cdktn/provider-google-beta.googleApigeeSharedflow.GoogleApigeeSharedflowMetaData",
 		reflect.TypeOf((*GoogleApigeeSharedflowMetaData)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleApigeeSharedflow.GoogleApigeeSharedflowMetaDataList",
+		"@cdktn/provider-google-beta.googleApigeeSharedflow.GoogleApigeeSharedflowMetaDataList",
 		reflect.TypeOf((*GoogleApigeeSharedflowMetaDataList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -112,7 +112,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleApigeeSharedflow.GoogleApigeeSharedflowMetaDataOutputReference",
+		"@cdktn/provider-google-beta.googleApigeeSharedflow.GoogleApigeeSharedflowMetaDataOutputReference",
 		reflect.TypeOf((*GoogleApigeeSharedflowMetaDataOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -147,11 +147,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleApigeeSharedflow.GoogleApigeeSharedflowTimeouts",
+		"@cdktn/provider-google-beta.googleApigeeSharedflow.GoogleApigeeSharedflowTimeouts",
 		reflect.TypeOf((*GoogleApigeeSharedflowTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleApigeeSharedflow.GoogleApigeeSharedflowTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleApigeeSharedflow.GoogleApigeeSharedflowTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleApigeeSharedflowTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

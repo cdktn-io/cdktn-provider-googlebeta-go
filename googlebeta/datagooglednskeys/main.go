@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagooglednskeys
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleDnsKeys.DataGoogleDnsKeys",
+		"@cdktn/provider-google-beta.dataGoogleDnsKeys.DataGoogleDnsKeys",
 		reflect.TypeOf((*DataGoogleDnsKeys)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -65,19 +65,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleDnsKeys.DataGoogleDnsKeysConfig",
+		"@cdktn/provider-google-beta.dataGoogleDnsKeys.DataGoogleDnsKeysConfig",
 		reflect.TypeOf((*DataGoogleDnsKeysConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleDnsKeys.DataGoogleDnsKeysKeySigningKeys",
+		"@cdktn/provider-google-beta.dataGoogleDnsKeys.DataGoogleDnsKeysKeySigningKeys",
 		reflect.TypeOf((*DataGoogleDnsKeysKeySigningKeys)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleDnsKeys.DataGoogleDnsKeysKeySigningKeysDigests",
+		"@cdktn/provider-google-beta.dataGoogleDnsKeys.DataGoogleDnsKeysKeySigningKeysDigests",
 		reflect.TypeOf((*DataGoogleDnsKeysKeySigningKeysDigests)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleDnsKeys.DataGoogleDnsKeysKeySigningKeysDigestsList",
+		"@cdktn/provider-google-beta.dataGoogleDnsKeys.DataGoogleDnsKeysKeySigningKeysDigestsList",
 		reflect.TypeOf((*DataGoogleDnsKeysKeySigningKeysDigestsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -98,7 +98,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleDnsKeys.DataGoogleDnsKeysKeySigningKeysDigestsOutputReference",
+		"@cdktn/provider-google-beta.dataGoogleDnsKeys.DataGoogleDnsKeysKeySigningKeysDigestsOutputReference",
 		reflect.TypeOf((*DataGoogleDnsKeysKeySigningKeysDigestsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -132,7 +132,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleDnsKeys.DataGoogleDnsKeysKeySigningKeysList",
+		"@cdktn/provider-google-beta.dataGoogleDnsKeys.DataGoogleDnsKeysKeySigningKeysList",
 		reflect.TypeOf((*DataGoogleDnsKeysKeySigningKeysList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -153,7 +153,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleDnsKeys.DataGoogleDnsKeysKeySigningKeysOutputReference",
+		"@cdktn/provider-google-beta.dataGoogleDnsKeys.DataGoogleDnsKeysKeySigningKeysOutputReference",
 		reflect.TypeOf((*DataGoogleDnsKeysKeySigningKeysOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "algorithm", GoGetter: "Algorithm"},
@@ -195,15 +195,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleDnsKeys.DataGoogleDnsKeysZoneSigningKeys",
+		"@cdktn/provider-google-beta.dataGoogleDnsKeys.DataGoogleDnsKeysZoneSigningKeys",
 		reflect.TypeOf((*DataGoogleDnsKeysZoneSigningKeys)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleDnsKeys.DataGoogleDnsKeysZoneSigningKeysDigests",
+		"@cdktn/provider-google-beta.dataGoogleDnsKeys.DataGoogleDnsKeysZoneSigningKeysDigests",
 		reflect.TypeOf((*DataGoogleDnsKeysZoneSigningKeysDigests)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleDnsKeys.DataGoogleDnsKeysZoneSigningKeysDigestsList",
+		"@cdktn/provider-google-beta.dataGoogleDnsKeys.DataGoogleDnsKeysZoneSigningKeysDigestsList",
 		reflect.TypeOf((*DataGoogleDnsKeysZoneSigningKeysDigestsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -224,7 +224,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleDnsKeys.DataGoogleDnsKeysZoneSigningKeysDigestsOutputReference",
+		"@cdktn/provider-google-beta.dataGoogleDnsKeys.DataGoogleDnsKeysZoneSigningKeysDigestsOutputReference",
 		reflect.TypeOf((*DataGoogleDnsKeysZoneSigningKeysDigestsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -258,7 +258,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleDnsKeys.DataGoogleDnsKeysZoneSigningKeysList",
+		"@cdktn/provider-google-beta.dataGoogleDnsKeys.DataGoogleDnsKeysZoneSigningKeysList",
 		reflect.TypeOf((*DataGoogleDnsKeysZoneSigningKeysList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -279,7 +279,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleDnsKeys.DataGoogleDnsKeysZoneSigningKeysOutputReference",
+		"@cdktn/provider-google-beta.dataGoogleDnsKeys.DataGoogleDnsKeysZoneSigningKeysOutputReference",
 		reflect.TypeOf((*DataGoogleDnsKeysZoneSigningKeysOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "algorithm", GoGetter: "Algorithm"},

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googleendpointsservice
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleEndpointsService.GoogleEndpointsService",
+		"@cdktn/provider-google-beta.googleEndpointsService.GoogleEndpointsService",
 		reflect.TypeOf((*GoogleEndpointsService)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -88,11 +88,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleEndpointsService.GoogleEndpointsServiceApis",
+		"@cdktn/provider-google-beta.googleEndpointsService.GoogleEndpointsServiceApis",
 		reflect.TypeOf((*GoogleEndpointsServiceApis)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleEndpointsService.GoogleEndpointsServiceApisList",
+		"@cdktn/provider-google-beta.googleEndpointsService.GoogleEndpointsServiceApisList",
 		reflect.TypeOf((*GoogleEndpointsServiceApisList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -113,11 +113,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleEndpointsService.GoogleEndpointsServiceApisMethods",
+		"@cdktn/provider-google-beta.googleEndpointsService.GoogleEndpointsServiceApisMethods",
 		reflect.TypeOf((*GoogleEndpointsServiceApisMethods)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleEndpointsService.GoogleEndpointsServiceApisMethodsList",
+		"@cdktn/provider-google-beta.googleEndpointsService.GoogleEndpointsServiceApisMethodsList",
 		reflect.TypeOf((*GoogleEndpointsServiceApisMethodsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -138,7 +138,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleEndpointsService.GoogleEndpointsServiceApisMethodsOutputReference",
+		"@cdktn/provider-google-beta.googleEndpointsService.GoogleEndpointsServiceApisMethodsOutputReference",
 		reflect.TypeOf((*GoogleEndpointsServiceApisMethodsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -174,7 +174,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleEndpointsService.GoogleEndpointsServiceApisOutputReference",
+		"@cdktn/provider-google-beta.googleEndpointsService.GoogleEndpointsServiceApisOutputReference",
 		reflect.TypeOf((*GoogleEndpointsServiceApisOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -210,15 +210,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleEndpointsService.GoogleEndpointsServiceConfig",
+		"@cdktn/provider-google-beta.googleEndpointsService.GoogleEndpointsServiceConfig",
 		reflect.TypeOf((*GoogleEndpointsServiceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleEndpointsService.GoogleEndpointsServiceEndpoints",
+		"@cdktn/provider-google-beta.googleEndpointsService.GoogleEndpointsServiceEndpoints",
 		reflect.TypeOf((*GoogleEndpointsServiceEndpoints)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleEndpointsService.GoogleEndpointsServiceEndpointsList",
+		"@cdktn/provider-google-beta.googleEndpointsService.GoogleEndpointsServiceEndpointsList",
 		reflect.TypeOf((*GoogleEndpointsServiceEndpointsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -239,7 +239,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleEndpointsService.GoogleEndpointsServiceEndpointsOutputReference",
+		"@cdktn/provider-google-beta.googleEndpointsService.GoogleEndpointsServiceEndpointsOutputReference",
 		reflect.TypeOf((*GoogleEndpointsServiceEndpointsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "address", GoGetter: "Address"},
@@ -273,11 +273,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleEndpointsService.GoogleEndpointsServiceTimeouts",
+		"@cdktn/provider-google-beta.googleEndpointsService.GoogleEndpointsServiceTimeouts",
 		reflect.TypeOf((*GoogleEndpointsServiceTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleEndpointsService.GoogleEndpointsServiceTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleEndpointsService.GoogleEndpointsServiceTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleEndpointsServiceTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

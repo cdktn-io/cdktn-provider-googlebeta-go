@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagoogleiapwebtypecomputeiampolicy
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleIapWebTypeComputeIamPolicy.DataGoogleIapWebTypeComputeIamPolicy",
+		"@cdktn/provider-google-beta.dataGoogleIapWebTypeComputeIamPolicy.DataGoogleIapWebTypeComputeIamPolicy",
 		reflect.TypeOf((*DataGoogleIapWebTypeComputeIamPolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -63,7 +63,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleIapWebTypeComputeIamPolicy.DataGoogleIapWebTypeComputeIamPolicyConfig",
+		"@cdktn/provider-google-beta.dataGoogleIapWebTypeComputeIamPolicy.DataGoogleIapWebTypeComputeIamPolicyConfig",
 		reflect.TypeOf((*DataGoogleIapWebTypeComputeIamPolicyConfig)(nil)).Elem(),
 	)
 }

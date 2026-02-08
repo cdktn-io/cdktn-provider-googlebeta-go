@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlecomputeinstancegroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlecomputeinstancegroup/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecomputeinstancegroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -533,7 +533,7 @@ func NewGoogleComputeInstanceGroup(scope constructs.Construct, id *string, confi
 	j := jsiiProxy_GoogleComputeInstanceGroup{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleComputeInstanceGroup.GoogleComputeInstanceGroup",
+		"@cdktn/provider-google-beta.googleComputeInstanceGroup.GoogleComputeInstanceGroup",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -546,7 +546,7 @@ func NewGoogleComputeInstanceGroup_Override(g GoogleComputeInstanceGroup, scope 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleComputeInstanceGroup.GoogleComputeInstanceGroup",
+		"@cdktn/provider-google-beta.googleComputeInstanceGroup.GoogleComputeInstanceGroup",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -707,7 +707,7 @@ func GoogleComputeInstanceGroup_GenerateConfigForImport(scope constructs.Constru
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleComputeInstanceGroup.GoogleComputeInstanceGroup",
+		"@cdktn/provider-google-beta.googleComputeInstanceGroup.GoogleComputeInstanceGroup",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -742,7 +742,7 @@ func GoogleComputeInstanceGroup_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleComputeInstanceGroup.GoogleComputeInstanceGroup",
+		"@cdktn/provider-google-beta.googleComputeInstanceGroup.GoogleComputeInstanceGroup",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -761,7 +761,7 @@ func GoogleComputeInstanceGroup_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleComputeInstanceGroup.GoogleComputeInstanceGroup",
+		"@cdktn/provider-google-beta.googleComputeInstanceGroup.GoogleComputeInstanceGroup",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -780,7 +780,7 @@ func GoogleComputeInstanceGroup_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleComputeInstanceGroup.GoogleComputeInstanceGroup",
+		"@cdktn/provider-google-beta.googleComputeInstanceGroup.GoogleComputeInstanceGroup",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -793,7 +793,7 @@ func GoogleComputeInstanceGroup_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleComputeInstanceGroup.GoogleComputeInstanceGroup",
+		"@cdktn/provider-google-beta.googleComputeInstanceGroup.GoogleComputeInstanceGroup",
 		"tfResourceType",
 		&returns,
 	)

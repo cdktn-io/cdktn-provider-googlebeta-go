@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlebeyondcorpsecuritygatewayapplicationiammember
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleBeyondcorpSecurityGatewayApplicationIamMember.GoogleBeyondcorpSecurityGatewayApplicationIamMember",
+		"@cdktn/provider-google-beta.googleBeyondcorpSecurityGatewayApplicationIamMember.GoogleBeyondcorpSecurityGatewayApplicationIamMember",
 		reflect.TypeOf((*GoogleBeyondcorpSecurityGatewayApplicationIamMember)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -82,11 +82,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleBeyondcorpSecurityGatewayApplicationIamMember.GoogleBeyondcorpSecurityGatewayApplicationIamMemberCondition",
+		"@cdktn/provider-google-beta.googleBeyondcorpSecurityGatewayApplicationIamMember.GoogleBeyondcorpSecurityGatewayApplicationIamMemberCondition",
 		reflect.TypeOf((*GoogleBeyondcorpSecurityGatewayApplicationIamMemberCondition)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleBeyondcorpSecurityGatewayApplicationIamMember.GoogleBeyondcorpSecurityGatewayApplicationIamMemberConditionOutputReference",
+		"@cdktn/provider-google-beta.googleBeyondcorpSecurityGatewayApplicationIamMember.GoogleBeyondcorpSecurityGatewayApplicationIamMemberConditionOutputReference",
 		reflect.TypeOf((*GoogleBeyondcorpSecurityGatewayApplicationIamMemberConditionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -125,7 +125,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleBeyondcorpSecurityGatewayApplicationIamMember.GoogleBeyondcorpSecurityGatewayApplicationIamMemberConfig",
+		"@cdktn/provider-google-beta.googleBeyondcorpSecurityGatewayApplicationIamMember.GoogleBeyondcorpSecurityGatewayApplicationIamMemberConfig",
 		reflect.TypeOf((*GoogleBeyondcorpSecurityGatewayApplicationIamMemberConfig)(nil)).Elem(),
 	)
 }

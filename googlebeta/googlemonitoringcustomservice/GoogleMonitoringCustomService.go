@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlemonitoringcustomservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlemonitoringcustomservice/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlemonitoringcustomservice/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -475,7 +475,7 @@ func NewGoogleMonitoringCustomService(scope constructs.Construct, id *string, co
 	j := jsiiProxy_GoogleMonitoringCustomService{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleMonitoringCustomService.GoogleMonitoringCustomService",
+		"@cdktn/provider-google-beta.googleMonitoringCustomService.GoogleMonitoringCustomService",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -488,7 +488,7 @@ func NewGoogleMonitoringCustomService_Override(g GoogleMonitoringCustomService, 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleMonitoringCustomService.GoogleMonitoringCustomService",
+		"@cdktn/provider-google-beta.googleMonitoringCustomService.GoogleMonitoringCustomService",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -627,7 +627,7 @@ func GoogleMonitoringCustomService_GenerateConfigForImport(scope constructs.Cons
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleMonitoringCustomService.GoogleMonitoringCustomService",
+		"@cdktn/provider-google-beta.googleMonitoringCustomService.GoogleMonitoringCustomService",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -662,7 +662,7 @@ func GoogleMonitoringCustomService_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleMonitoringCustomService.GoogleMonitoringCustomService",
+		"@cdktn/provider-google-beta.googleMonitoringCustomService.GoogleMonitoringCustomService",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -681,7 +681,7 @@ func GoogleMonitoringCustomService_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleMonitoringCustomService.GoogleMonitoringCustomService",
+		"@cdktn/provider-google-beta.googleMonitoringCustomService.GoogleMonitoringCustomService",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -700,7 +700,7 @@ func GoogleMonitoringCustomService_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleMonitoringCustomService.GoogleMonitoringCustomService",
+		"@cdktn/provider-google-beta.googleMonitoringCustomService.GoogleMonitoringCustomService",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -713,7 +713,7 @@ func GoogleMonitoringCustomService_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleMonitoringCustomService.GoogleMonitoringCustomService",
+		"@cdktn/provider-google-beta.googleMonitoringCustomService.GoogleMonitoringCustomService",
 		"tfResourceType",
 		&returns,
 	)

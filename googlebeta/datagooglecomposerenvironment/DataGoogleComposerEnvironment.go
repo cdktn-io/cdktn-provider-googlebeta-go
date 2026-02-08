@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagooglecomposerenvironment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/datagooglecomposerenvironment/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagooglecomposerenvironment/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -401,7 +401,7 @@ func NewDataGoogleComposerEnvironment(scope constructs.Construct, id *string, co
 	j := jsiiProxy_DataGoogleComposerEnvironment{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.dataGoogleComposerEnvironment.DataGoogleComposerEnvironment",
+		"@cdktn/provider-google-beta.dataGoogleComposerEnvironment.DataGoogleComposerEnvironment",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -414,7 +414,7 @@ func NewDataGoogleComposerEnvironment_Override(d DataGoogleComposerEnvironment, 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.dataGoogleComposerEnvironment.DataGoogleComposerEnvironment",
+		"@cdktn/provider-google-beta.dataGoogleComposerEnvironment.DataGoogleComposerEnvironment",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -520,7 +520,7 @@ func DataGoogleComposerEnvironment_GenerateConfigForImport(scope constructs.Cons
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleComposerEnvironment.DataGoogleComposerEnvironment",
+		"@cdktn/provider-google-beta.dataGoogleComposerEnvironment.DataGoogleComposerEnvironment",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -555,7 +555,7 @@ func DataGoogleComposerEnvironment_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleComposerEnvironment.DataGoogleComposerEnvironment",
+		"@cdktn/provider-google-beta.dataGoogleComposerEnvironment.DataGoogleComposerEnvironment",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -574,7 +574,7 @@ func DataGoogleComposerEnvironment_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleComposerEnvironment.DataGoogleComposerEnvironment",
+		"@cdktn/provider-google-beta.dataGoogleComposerEnvironment.DataGoogleComposerEnvironment",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -593,7 +593,7 @@ func DataGoogleComposerEnvironment_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleComposerEnvironment.DataGoogleComposerEnvironment",
+		"@cdktn/provider-google-beta.dataGoogleComposerEnvironment.DataGoogleComposerEnvironment",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -606,7 +606,7 @@ func DataGoogleComposerEnvironment_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.dataGoogleComposerEnvironment.DataGoogleComposerEnvironment",
+		"@cdktn/provider-google-beta.dataGoogleComposerEnvironment.DataGoogleComposerEnvironment",
 		"tfResourceType",
 		&returns,
 	)

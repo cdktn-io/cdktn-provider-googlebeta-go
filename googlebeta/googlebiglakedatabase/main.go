@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlebiglakedatabase
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleBiglakeDatabase.GoogleBiglakeDatabase",
+		"@cdktn/provider-google-beta.googleBiglakeDatabase.GoogleBiglakeDatabase",
 		reflect.TypeOf((*GoogleBiglakeDatabase)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -83,15 +83,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleBiglakeDatabase.GoogleBiglakeDatabaseConfig",
+		"@cdktn/provider-google-beta.googleBiglakeDatabase.GoogleBiglakeDatabaseConfig",
 		reflect.TypeOf((*GoogleBiglakeDatabaseConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleBiglakeDatabase.GoogleBiglakeDatabaseHiveOptions",
+		"@cdktn/provider-google-beta.googleBiglakeDatabase.GoogleBiglakeDatabaseHiveOptions",
 		reflect.TypeOf((*GoogleBiglakeDatabaseHiveOptions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleBiglakeDatabase.GoogleBiglakeDatabaseHiveOptionsOutputReference",
+		"@cdktn/provider-google-beta.googleBiglakeDatabase.GoogleBiglakeDatabaseHiveOptionsOutputReference",
 		reflect.TypeOf((*GoogleBiglakeDatabaseHiveOptionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -129,11 +129,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleBiglakeDatabase.GoogleBiglakeDatabaseTimeouts",
+		"@cdktn/provider-google-beta.googleBiglakeDatabase.GoogleBiglakeDatabaseTimeouts",
 		reflect.TypeOf((*GoogleBiglakeDatabaseTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleBiglakeDatabase.GoogleBiglakeDatabaseTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleBiglakeDatabase.GoogleBiglakeDatabaseTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleBiglakeDatabaseTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

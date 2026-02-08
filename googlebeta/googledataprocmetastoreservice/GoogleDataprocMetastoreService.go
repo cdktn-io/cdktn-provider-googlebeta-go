@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googledataprocmetastoreservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googledataprocmetastoreservice/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googledataprocmetastoreservice/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -885,7 +885,7 @@ func NewGoogleDataprocMetastoreService(scope constructs.Construct, id *string, c
 	j := jsiiProxy_GoogleDataprocMetastoreService{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleDataprocMetastoreService.GoogleDataprocMetastoreService",
+		"@cdktn/provider-google-beta.googleDataprocMetastoreService.GoogleDataprocMetastoreService",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -898,7 +898,7 @@ func NewGoogleDataprocMetastoreService_Override(g GoogleDataprocMetastoreService
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleDataprocMetastoreService.GoogleDataprocMetastoreService",
+		"@cdktn/provider-google-beta.googleDataprocMetastoreService.GoogleDataprocMetastoreService",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -1103,7 +1103,7 @@ func GoogleDataprocMetastoreService_GenerateConfigForImport(scope constructs.Con
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleDataprocMetastoreService.GoogleDataprocMetastoreService",
+		"@cdktn/provider-google-beta.googleDataprocMetastoreService.GoogleDataprocMetastoreService",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1138,7 +1138,7 @@ func GoogleDataprocMetastoreService_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleDataprocMetastoreService.GoogleDataprocMetastoreService",
+		"@cdktn/provider-google-beta.googleDataprocMetastoreService.GoogleDataprocMetastoreService",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1157,7 +1157,7 @@ func GoogleDataprocMetastoreService_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleDataprocMetastoreService.GoogleDataprocMetastoreService",
+		"@cdktn/provider-google-beta.googleDataprocMetastoreService.GoogleDataprocMetastoreService",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1176,7 +1176,7 @@ func GoogleDataprocMetastoreService_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleDataprocMetastoreService.GoogleDataprocMetastoreService",
+		"@cdktn/provider-google-beta.googleDataprocMetastoreService.GoogleDataprocMetastoreService",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1189,7 +1189,7 @@ func GoogleDataprocMetastoreService_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleDataprocMetastoreService.GoogleDataprocMetastoreService",
+		"@cdktn/provider-google-beta.googleDataprocMetastoreService.GoogleDataprocMetastoreService",
 		"tfResourceType",
 		&returns,
 	)

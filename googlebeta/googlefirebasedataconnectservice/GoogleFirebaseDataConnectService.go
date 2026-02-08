@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlefirebasedataconnectservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlefirebasedataconnectservice/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlefirebasedataconnectservice/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -609,7 +609,7 @@ func NewGoogleFirebaseDataConnectService(scope constructs.Construct, id *string,
 	j := jsiiProxy_GoogleFirebaseDataConnectService{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleFirebaseDataConnectService.GoogleFirebaseDataConnectService",
+		"@cdktn/provider-google-beta.googleFirebaseDataConnectService.GoogleFirebaseDataConnectService",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -622,7 +622,7 @@ func NewGoogleFirebaseDataConnectService_Override(g GoogleFirebaseDataConnectSer
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleFirebaseDataConnectService.GoogleFirebaseDataConnectService",
+		"@cdktn/provider-google-beta.googleFirebaseDataConnectService.GoogleFirebaseDataConnectService",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -794,7 +794,7 @@ func GoogleFirebaseDataConnectService_GenerateConfigForImport(scope constructs.C
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleFirebaseDataConnectService.GoogleFirebaseDataConnectService",
+		"@cdktn/provider-google-beta.googleFirebaseDataConnectService.GoogleFirebaseDataConnectService",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -829,7 +829,7 @@ func GoogleFirebaseDataConnectService_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleFirebaseDataConnectService.GoogleFirebaseDataConnectService",
+		"@cdktn/provider-google-beta.googleFirebaseDataConnectService.GoogleFirebaseDataConnectService",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -848,7 +848,7 @@ func GoogleFirebaseDataConnectService_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleFirebaseDataConnectService.GoogleFirebaseDataConnectService",
+		"@cdktn/provider-google-beta.googleFirebaseDataConnectService.GoogleFirebaseDataConnectService",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -867,7 +867,7 @@ func GoogleFirebaseDataConnectService_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleFirebaseDataConnectService.GoogleFirebaseDataConnectService",
+		"@cdktn/provider-google-beta.googleFirebaseDataConnectService.GoogleFirebaseDataConnectService",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -880,7 +880,7 @@ func GoogleFirebaseDataConnectService_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleFirebaseDataConnectService.GoogleFirebaseDataConnectService",
+		"@cdktn/provider-google-beta.googleFirebaseDataConnectService.GoogleFirebaseDataConnectService",
 		"tfResourceType",
 		&returns,
 	)

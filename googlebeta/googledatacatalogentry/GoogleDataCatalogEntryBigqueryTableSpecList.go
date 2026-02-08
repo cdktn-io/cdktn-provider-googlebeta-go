@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googledatacatalogentry
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googledatacatalogentry/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googledatacatalogentry/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -39,7 +39,7 @@ type GoogleDataCatalogEntryBigqueryTableSpecList interface {
 	Get(index *float64) GoogleDataCatalogEntryBigqueryTableSpecOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(_context cdktf.IResolveContext) interface{}
+	Resolve(context cdktf.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -112,7 +112,7 @@ func NewGoogleDataCatalogEntryBigqueryTableSpecList(terraformResource cdktf.IInt
 	j := jsiiProxy_GoogleDataCatalogEntryBigqueryTableSpecList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleDataCatalogEntry.GoogleDataCatalogEntryBigqueryTableSpecList",
+		"@cdktn/provider-google-beta.googleDataCatalogEntry.GoogleDataCatalogEntryBigqueryTableSpecList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewGoogleDataCatalogEntryBigqueryTableSpecList_Override(g GoogleDataCatalog
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleDataCatalogEntry.GoogleDataCatalogEntryBigqueryTableSpecList",
+		"@cdktn/provider-google-beta.googleDataCatalogEntry.GoogleDataCatalogEntryBigqueryTableSpecList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		g,
 	)
@@ -208,8 +208,8 @@ func (g *jsiiProxy_GoogleDataCatalogEntryBigqueryTableSpecList) Get(index *float
 	return returns
 }
 
-func (g *jsiiProxy_GoogleDataCatalogEntryBigqueryTableSpecList) Resolve(_context cdktf.IResolveContext) interface{} {
-	if err := g.validateResolveParameters(_context); err != nil {
+func (g *jsiiProxy_GoogleDataCatalogEntryBigqueryTableSpecList) Resolve(context cdktf.IResolveContext) interface{} {
+	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}
 	var returns interface{}
@@ -217,7 +217,7 @@ func (g *jsiiProxy_GoogleDataCatalogEntryBigqueryTableSpecList) Resolve(_context
 	_jsii_.Invoke(
 		g,
 		"resolve",
-		[]interface{}{_context},
+		[]interface{}{context},
 		&returns,
 	)
 

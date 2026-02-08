@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlefilestorebackup
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleFilestoreBackup.GoogleFilestoreBackup",
+		"@cdktn/provider-google-beta.googleFilestoreBackup.GoogleFilestoreBackup",
 		reflect.TypeOf((*GoogleFilestoreBackup)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -99,15 +99,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleFilestoreBackup.GoogleFilestoreBackupConfig",
+		"@cdktn/provider-google-beta.googleFilestoreBackup.GoogleFilestoreBackupConfig",
 		reflect.TypeOf((*GoogleFilestoreBackupConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleFilestoreBackup.GoogleFilestoreBackupTimeouts",
+		"@cdktn/provider-google-beta.googleFilestoreBackup.GoogleFilestoreBackupTimeouts",
 		reflect.TypeOf((*GoogleFilestoreBackupTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleFilestoreBackup.GoogleFilestoreBackupTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleFilestoreBackup.GoogleFilestoreBackupTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleFilestoreBackupTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

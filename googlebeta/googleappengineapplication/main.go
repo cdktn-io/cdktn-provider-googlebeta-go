@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googleappengineapplication
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplication",
+		"@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplication",
 		reflect.TypeOf((*GoogleAppEngineApplication)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -99,15 +99,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplicationConfig",
+		"@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplicationConfig",
 		reflect.TypeOf((*GoogleAppEngineApplicationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplicationFeatureSettings",
+		"@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplicationFeatureSettings",
 		reflect.TypeOf((*GoogleAppEngineApplicationFeatureSettings)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplicationFeatureSettingsOutputReference",
+		"@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplicationFeatureSettingsOutputReference",
 		reflect.TypeOf((*GoogleAppEngineApplicationFeatureSettingsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -141,11 +141,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplicationIap",
+		"@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplicationIap",
 		reflect.TypeOf((*GoogleAppEngineApplicationIap)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplicationIapOutputReference",
+		"@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplicationIapOutputReference",
 		reflect.TypeOf((*GoogleAppEngineApplicationIapOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -185,11 +185,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplicationTimeouts",
+		"@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplicationTimeouts",
 		reflect.TypeOf((*GoogleAppEngineApplicationTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplicationTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplicationTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleAppEngineApplicationTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -227,11 +227,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplicationUrlDispatchRule",
+		"@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplicationUrlDispatchRule",
 		reflect.TypeOf((*GoogleAppEngineApplicationUrlDispatchRule)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplicationUrlDispatchRuleList",
+		"@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplicationUrlDispatchRuleList",
 		reflect.TypeOf((*GoogleAppEngineApplicationUrlDispatchRuleList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -252,7 +252,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplicationUrlDispatchRuleOutputReference",
+		"@cdktn/provider-google-beta.googleAppEngineApplication.GoogleAppEngineApplicationUrlDispatchRuleOutputReference",
 		reflect.TypeOf((*GoogleAppEngineApplicationUrlDispatchRuleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

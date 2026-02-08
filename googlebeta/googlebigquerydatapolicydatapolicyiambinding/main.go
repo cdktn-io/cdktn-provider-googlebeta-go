@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlebigquerydatapolicydatapolicyiambinding
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleBigqueryDatapolicyDataPolicyIamBinding.GoogleBigqueryDatapolicyDataPolicyIamBinding",
+		"@cdktn/provider-google-beta.googleBigqueryDatapolicyDataPolicyIamBinding.GoogleBigqueryDatapolicyDataPolicyIamBinding",
 		reflect.TypeOf((*GoogleBigqueryDatapolicyDataPolicyIamBinding)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -83,11 +83,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleBigqueryDatapolicyDataPolicyIamBinding.GoogleBigqueryDatapolicyDataPolicyIamBindingCondition",
+		"@cdktn/provider-google-beta.googleBigqueryDatapolicyDataPolicyIamBinding.GoogleBigqueryDatapolicyDataPolicyIamBindingCondition",
 		reflect.TypeOf((*GoogleBigqueryDatapolicyDataPolicyIamBindingCondition)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleBigqueryDatapolicyDataPolicyIamBinding.GoogleBigqueryDatapolicyDataPolicyIamBindingConditionOutputReference",
+		"@cdktn/provider-google-beta.googleBigqueryDatapolicyDataPolicyIamBinding.GoogleBigqueryDatapolicyDataPolicyIamBindingConditionOutputReference",
 		reflect.TypeOf((*GoogleBigqueryDatapolicyDataPolicyIamBindingConditionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -126,7 +126,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleBigqueryDatapolicyDataPolicyIamBinding.GoogleBigqueryDatapolicyDataPolicyIamBindingConfig",
+		"@cdktn/provider-google-beta.googleBigqueryDatapolicyDataPolicyIamBinding.GoogleBigqueryDatapolicyDataPolicyIamBindingConfig",
 		reflect.TypeOf((*GoogleBigqueryDatapolicyDataPolicyIamBindingConfig)(nil)).Elem(),
 	)
 }

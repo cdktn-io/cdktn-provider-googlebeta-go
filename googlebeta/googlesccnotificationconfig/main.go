@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlesccnotificationconfig
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleSccNotificationConfig.GoogleSccNotificationConfig",
+		"@cdktn/provider-google-beta.googleSccNotificationConfig.GoogleSccNotificationConfig",
 		reflect.TypeOf((*GoogleSccNotificationConfig)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -84,15 +84,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleSccNotificationConfig.GoogleSccNotificationConfigConfig",
+		"@cdktn/provider-google-beta.googleSccNotificationConfig.GoogleSccNotificationConfigConfig",
 		reflect.TypeOf((*GoogleSccNotificationConfigConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleSccNotificationConfig.GoogleSccNotificationConfigStreamingConfig",
+		"@cdktn/provider-google-beta.googleSccNotificationConfig.GoogleSccNotificationConfigStreamingConfig",
 		reflect.TypeOf((*GoogleSccNotificationConfigStreamingConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleSccNotificationConfig.GoogleSccNotificationConfigStreamingConfigOutputReference",
+		"@cdktn/provider-google-beta.googleSccNotificationConfig.GoogleSccNotificationConfigStreamingConfigOutputReference",
 		reflect.TypeOf((*GoogleSccNotificationConfigStreamingConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -126,11 +126,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleSccNotificationConfig.GoogleSccNotificationConfigTimeouts",
+		"@cdktn/provider-google-beta.googleSccNotificationConfig.GoogleSccNotificationConfigTimeouts",
 		reflect.TypeOf((*GoogleSccNotificationConfigTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleSccNotificationConfig.GoogleSccNotificationConfigTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleSccNotificationConfig.GoogleSccNotificationConfigTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleSccNotificationConfigTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

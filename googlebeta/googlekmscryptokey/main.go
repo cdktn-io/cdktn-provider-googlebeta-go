@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlekmscryptokey
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleKmsCryptoKey.GoogleKmsCryptoKey",
+		"@cdktn/provider-google-beta.googleKmsCryptoKey.GoogleKmsCryptoKey",
 		reflect.TypeOf((*GoogleKmsCryptoKey)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -106,15 +106,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleKmsCryptoKey.GoogleKmsCryptoKeyConfig",
+		"@cdktn/provider-google-beta.googleKmsCryptoKey.GoogleKmsCryptoKeyConfig",
 		reflect.TypeOf((*GoogleKmsCryptoKeyConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleKmsCryptoKey.GoogleKmsCryptoKeyKeyAccessJustificationsPolicy",
+		"@cdktn/provider-google-beta.googleKmsCryptoKey.GoogleKmsCryptoKeyKeyAccessJustificationsPolicy",
 		reflect.TypeOf((*GoogleKmsCryptoKeyKeyAccessJustificationsPolicy)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleKmsCryptoKey.GoogleKmsCryptoKeyKeyAccessJustificationsPolicyOutputReference",
+		"@cdktn/provider-google-beta.googleKmsCryptoKey.GoogleKmsCryptoKeyKeyAccessJustificationsPolicyOutputReference",
 		reflect.TypeOf((*GoogleKmsCryptoKeyKeyAccessJustificationsPolicyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allowedAccessReasons", GoGetter: "AllowedAccessReasons"},
@@ -149,11 +149,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleKmsCryptoKey.GoogleKmsCryptoKeyPrimary",
+		"@cdktn/provider-google-beta.googleKmsCryptoKey.GoogleKmsCryptoKeyPrimary",
 		reflect.TypeOf((*GoogleKmsCryptoKeyPrimary)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleKmsCryptoKey.GoogleKmsCryptoKeyPrimaryList",
+		"@cdktn/provider-google-beta.googleKmsCryptoKey.GoogleKmsCryptoKeyPrimaryList",
 		reflect.TypeOf((*GoogleKmsCryptoKeyPrimaryList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -174,7 +174,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleKmsCryptoKey.GoogleKmsCryptoKeyPrimaryOutputReference",
+		"@cdktn/provider-google-beta.googleKmsCryptoKey.GoogleKmsCryptoKeyPrimaryOutputReference",
 		reflect.TypeOf((*GoogleKmsCryptoKeyPrimaryOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -208,11 +208,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleKmsCryptoKey.GoogleKmsCryptoKeyTimeouts",
+		"@cdktn/provider-google-beta.googleKmsCryptoKey.GoogleKmsCryptoKeyTimeouts",
 		reflect.TypeOf((*GoogleKmsCryptoKeyTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleKmsCryptoKey.GoogleKmsCryptoKeyTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleKmsCryptoKey.GoogleKmsCryptoKeyTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleKmsCryptoKeyTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -253,11 +253,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleKmsCryptoKey.GoogleKmsCryptoKeyVersionTemplate",
+		"@cdktn/provider-google-beta.googleKmsCryptoKey.GoogleKmsCryptoKeyVersionTemplate",
 		reflect.TypeOf((*GoogleKmsCryptoKeyVersionTemplate)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleKmsCryptoKey.GoogleKmsCryptoKeyVersionTemplateOutputReference",
+		"@cdktn/provider-google-beta.googleKmsCryptoKey.GoogleKmsCryptoKeyVersionTemplateOutputReference",
 		reflect.TypeOf((*GoogleKmsCryptoKeyVersionTemplateOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "algorithm", GoGetter: "Algorithm"},

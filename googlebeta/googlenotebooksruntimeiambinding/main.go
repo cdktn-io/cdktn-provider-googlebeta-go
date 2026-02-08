@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlenotebooksruntimeiambinding
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleNotebooksRuntimeIamBinding.GoogleNotebooksRuntimeIamBinding",
+		"@cdktn/provider-google-beta.googleNotebooksRuntimeIamBinding.GoogleNotebooksRuntimeIamBinding",
 		reflect.TypeOf((*GoogleNotebooksRuntimeIamBinding)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -83,11 +83,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleNotebooksRuntimeIamBinding.GoogleNotebooksRuntimeIamBindingCondition",
+		"@cdktn/provider-google-beta.googleNotebooksRuntimeIamBinding.GoogleNotebooksRuntimeIamBindingCondition",
 		reflect.TypeOf((*GoogleNotebooksRuntimeIamBindingCondition)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleNotebooksRuntimeIamBinding.GoogleNotebooksRuntimeIamBindingConditionOutputReference",
+		"@cdktn/provider-google-beta.googleNotebooksRuntimeIamBinding.GoogleNotebooksRuntimeIamBindingConditionOutputReference",
 		reflect.TypeOf((*GoogleNotebooksRuntimeIamBindingConditionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -126,7 +126,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleNotebooksRuntimeIamBinding.GoogleNotebooksRuntimeIamBindingConfig",
+		"@cdktn/provider-google-beta.googleNotebooksRuntimeIamBinding.GoogleNotebooksRuntimeIamBindingConfig",
 		reflect.TypeOf((*GoogleNotebooksRuntimeIamBindingConfig)(nil)).Elem(),
 	)
 }

@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlebigtablelogicalview
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlebigtablelogicalview/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlebigtablelogicalview/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -473,7 +473,7 @@ func NewGoogleBigtableLogicalView(scope constructs.Construct, id *string, config
 	j := jsiiProxy_GoogleBigtableLogicalView{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleBigtableLogicalView.GoogleBigtableLogicalView",
+		"@cdktn/provider-google-beta.googleBigtableLogicalView.GoogleBigtableLogicalView",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -486,7 +486,7 @@ func NewGoogleBigtableLogicalView_Override(g GoogleBigtableLogicalView, scope co
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleBigtableLogicalView.GoogleBigtableLogicalView",
+		"@cdktn/provider-google-beta.googleBigtableLogicalView.GoogleBigtableLogicalView",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -636,7 +636,7 @@ func GoogleBigtableLogicalView_GenerateConfigForImport(scope constructs.Construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleBigtableLogicalView.GoogleBigtableLogicalView",
+		"@cdktn/provider-google-beta.googleBigtableLogicalView.GoogleBigtableLogicalView",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -671,7 +671,7 @@ func GoogleBigtableLogicalView_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleBigtableLogicalView.GoogleBigtableLogicalView",
+		"@cdktn/provider-google-beta.googleBigtableLogicalView.GoogleBigtableLogicalView",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -690,7 +690,7 @@ func GoogleBigtableLogicalView_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleBigtableLogicalView.GoogleBigtableLogicalView",
+		"@cdktn/provider-google-beta.googleBigtableLogicalView.GoogleBigtableLogicalView",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -709,7 +709,7 @@ func GoogleBigtableLogicalView_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleBigtableLogicalView.GoogleBigtableLogicalView",
+		"@cdktn/provider-google-beta.googleBigtableLogicalView.GoogleBigtableLogicalView",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -722,7 +722,7 @@ func GoogleBigtableLogicalView_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleBigtableLogicalView.GoogleBigtableLogicalView",
+		"@cdktn/provider-google-beta.googleBigtableLogicalView.GoogleBigtableLogicalView",
 		"tfResourceType",
 		&returns,
 	)

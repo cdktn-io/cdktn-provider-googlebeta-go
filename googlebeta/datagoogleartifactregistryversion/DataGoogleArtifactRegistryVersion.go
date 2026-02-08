@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagoogleartifactregistryversion
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/datagoogleartifactregistryversion/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagoogleartifactregistryversion/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -481,7 +481,7 @@ func NewDataGoogleArtifactRegistryVersion(scope constructs.Construct, id *string
 	j := jsiiProxy_DataGoogleArtifactRegistryVersion{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.dataGoogleArtifactRegistryVersion.DataGoogleArtifactRegistryVersion",
+		"@cdktn/provider-google-beta.dataGoogleArtifactRegistryVersion.DataGoogleArtifactRegistryVersion",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -494,7 +494,7 @@ func NewDataGoogleArtifactRegistryVersion_Override(d DataGoogleArtifactRegistryV
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.dataGoogleArtifactRegistryVersion.DataGoogleArtifactRegistryVersion",
+		"@cdktn/provider-google-beta.dataGoogleArtifactRegistryVersion.DataGoogleArtifactRegistryVersion",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -633,7 +633,7 @@ func DataGoogleArtifactRegistryVersion_GenerateConfigForImport(scope constructs.
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleArtifactRegistryVersion.DataGoogleArtifactRegistryVersion",
+		"@cdktn/provider-google-beta.dataGoogleArtifactRegistryVersion.DataGoogleArtifactRegistryVersion",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -668,7 +668,7 @@ func DataGoogleArtifactRegistryVersion_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleArtifactRegistryVersion.DataGoogleArtifactRegistryVersion",
+		"@cdktn/provider-google-beta.dataGoogleArtifactRegistryVersion.DataGoogleArtifactRegistryVersion",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -687,7 +687,7 @@ func DataGoogleArtifactRegistryVersion_IsTerraformDataSource(x interface{}) *boo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleArtifactRegistryVersion.DataGoogleArtifactRegistryVersion",
+		"@cdktn/provider-google-beta.dataGoogleArtifactRegistryVersion.DataGoogleArtifactRegistryVersion",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -706,7 +706,7 @@ func DataGoogleArtifactRegistryVersion_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleArtifactRegistryVersion.DataGoogleArtifactRegistryVersion",
+		"@cdktn/provider-google-beta.dataGoogleArtifactRegistryVersion.DataGoogleArtifactRegistryVersion",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -719,7 +719,7 @@ func DataGoogleArtifactRegistryVersion_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.dataGoogleArtifactRegistryVersion.DataGoogleArtifactRegistryVersion",
+		"@cdktn/provider-google-beta.dataGoogleArtifactRegistryVersion.DataGoogleArtifactRegistryVersion",
 		"tfResourceType",
 		&returns,
 	)

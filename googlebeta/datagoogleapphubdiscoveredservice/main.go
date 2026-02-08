@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagoogleapphubdiscoveredservice
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleApphubDiscoveredService.DataGoogleApphubDiscoveredService",
+		"@cdktn/provider-google-beta.dataGoogleApphubDiscoveredService.DataGoogleApphubDiscoveredService",
 		reflect.TypeOf((*DataGoogleApphubDiscoveredService)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -68,15 +68,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleApphubDiscoveredService.DataGoogleApphubDiscoveredServiceConfig",
+		"@cdktn/provider-google-beta.dataGoogleApphubDiscoveredService.DataGoogleApphubDiscoveredServiceConfig",
 		reflect.TypeOf((*DataGoogleApphubDiscoveredServiceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleApphubDiscoveredService.DataGoogleApphubDiscoveredServiceServiceProperties",
+		"@cdktn/provider-google-beta.dataGoogleApphubDiscoveredService.DataGoogleApphubDiscoveredServiceServiceProperties",
 		reflect.TypeOf((*DataGoogleApphubDiscoveredServiceServiceProperties)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleApphubDiscoveredService.DataGoogleApphubDiscoveredServiceServicePropertiesList",
+		"@cdktn/provider-google-beta.dataGoogleApphubDiscoveredService.DataGoogleApphubDiscoveredServiceServicePropertiesList",
 		reflect.TypeOf((*DataGoogleApphubDiscoveredServiceServicePropertiesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -97,7 +97,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleApphubDiscoveredService.DataGoogleApphubDiscoveredServiceServicePropertiesOutputReference",
+		"@cdktn/provider-google-beta.dataGoogleApphubDiscoveredService.DataGoogleApphubDiscoveredServiceServicePropertiesOutputReference",
 		reflect.TypeOf((*DataGoogleApphubDiscoveredServiceServicePropertiesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -132,11 +132,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleApphubDiscoveredService.DataGoogleApphubDiscoveredServiceServiceReference",
+		"@cdktn/provider-google-beta.dataGoogleApphubDiscoveredService.DataGoogleApphubDiscoveredServiceServiceReference",
 		reflect.TypeOf((*DataGoogleApphubDiscoveredServiceServiceReference)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleApphubDiscoveredService.DataGoogleApphubDiscoveredServiceServiceReferenceList",
+		"@cdktn/provider-google-beta.dataGoogleApphubDiscoveredService.DataGoogleApphubDiscoveredServiceServiceReferenceList",
 		reflect.TypeOf((*DataGoogleApphubDiscoveredServiceServiceReferenceList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -157,7 +157,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleApphubDiscoveredService.DataGoogleApphubDiscoveredServiceServiceReferenceOutputReference",
+		"@cdktn/provider-google-beta.dataGoogleApphubDiscoveredService.DataGoogleApphubDiscoveredServiceServiceReferenceOutputReference",
 		reflect.TypeOf((*DataGoogleApphubDiscoveredServiceServiceReferenceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

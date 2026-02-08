@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googleendpointsservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googleendpointsservice/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleendpointsservice/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -39,7 +39,7 @@ type GoogleEndpointsServiceEndpointsList interface {
 	Get(index *float64) GoogleEndpointsServiceEndpointsOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(_context cdktf.IResolveContext) interface{}
+	Resolve(context cdktf.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -112,7 +112,7 @@ func NewGoogleEndpointsServiceEndpointsList(terraformResource cdktf.IInterpolati
 	j := jsiiProxy_GoogleEndpointsServiceEndpointsList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleEndpointsService.GoogleEndpointsServiceEndpointsList",
+		"@cdktn/provider-google-beta.googleEndpointsService.GoogleEndpointsServiceEndpointsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewGoogleEndpointsServiceEndpointsList_Override(g GoogleEndpointsServiceEnd
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleEndpointsService.GoogleEndpointsServiceEndpointsList",
+		"@cdktn/provider-google-beta.googleEndpointsService.GoogleEndpointsServiceEndpointsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		g,
 	)
@@ -208,8 +208,8 @@ func (g *jsiiProxy_GoogleEndpointsServiceEndpointsList) Get(index *float64) Goog
 	return returns
 }
 
-func (g *jsiiProxy_GoogleEndpointsServiceEndpointsList) Resolve(_context cdktf.IResolveContext) interface{} {
-	if err := g.validateResolveParameters(_context); err != nil {
+func (g *jsiiProxy_GoogleEndpointsServiceEndpointsList) Resolve(context cdktf.IResolveContext) interface{} {
+	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}
 	var returns interface{}
@@ -217,7 +217,7 @@ func (g *jsiiProxy_GoogleEndpointsServiceEndpointsList) Resolve(_context cdktf.I
 	_jsii_.Invoke(
 		g,
 		"resolve",
-		[]interface{}{_context},
+		[]interface{}{context},
 		&returns,
 	)
 

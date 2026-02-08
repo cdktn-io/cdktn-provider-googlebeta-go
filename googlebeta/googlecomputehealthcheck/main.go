@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlecomputehealthcheck
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleComputeHealthCheck.GoogleComputeHealthCheck",
+		"@cdktn/provider-google-beta.googleComputeHealthCheck.GoogleComputeHealthCheck",
 		reflect.TypeOf((*GoogleComputeHealthCheck)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -128,15 +128,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleComputeHealthCheck.GoogleComputeHealthCheckConfig",
+		"@cdktn/provider-google-beta.googleComputeHealthCheck.GoogleComputeHealthCheckConfig",
 		reflect.TypeOf((*GoogleComputeHealthCheckConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleComputeHealthCheck.GoogleComputeHealthCheckGrpcHealthCheck",
+		"@cdktn/provider-google-beta.googleComputeHealthCheck.GoogleComputeHealthCheckGrpcHealthCheck",
 		reflect.TypeOf((*GoogleComputeHealthCheckGrpcHealthCheck)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleComputeHealthCheck.GoogleComputeHealthCheckGrpcHealthCheckOutputReference",
+		"@cdktn/provider-google-beta.googleComputeHealthCheck.GoogleComputeHealthCheckGrpcHealthCheckOutputReference",
 		reflect.TypeOf((*GoogleComputeHealthCheckGrpcHealthCheckOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -180,11 +180,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleComputeHealthCheck.GoogleComputeHealthCheckGrpcTlsHealthCheck",
+		"@cdktn/provider-google-beta.googleComputeHealthCheck.GoogleComputeHealthCheckGrpcTlsHealthCheck",
 		reflect.TypeOf((*GoogleComputeHealthCheckGrpcTlsHealthCheck)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleComputeHealthCheck.GoogleComputeHealthCheckGrpcTlsHealthCheckOutputReference",
+		"@cdktn/provider-google-beta.googleComputeHealthCheck.GoogleComputeHealthCheckGrpcTlsHealthCheckOutputReference",
 		reflect.TypeOf((*GoogleComputeHealthCheckGrpcTlsHealthCheckOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -225,11 +225,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleComputeHealthCheck.GoogleComputeHealthCheckHttp2HealthCheck",
+		"@cdktn/provider-google-beta.googleComputeHealthCheck.GoogleComputeHealthCheckHttp2HealthCheck",
 		reflect.TypeOf((*GoogleComputeHealthCheckHttp2HealthCheck)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleComputeHealthCheck.GoogleComputeHealthCheckHttp2HealthCheckOutputReference",
+		"@cdktn/provider-google-beta.googleComputeHealthCheck.GoogleComputeHealthCheckHttp2HealthCheckOutputReference",
 		reflect.TypeOf((*GoogleComputeHealthCheckHttp2HealthCheckOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -282,11 +282,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleComputeHealthCheck.GoogleComputeHealthCheckHttpHealthCheck",
+		"@cdktn/provider-google-beta.googleComputeHealthCheck.GoogleComputeHealthCheckHttpHealthCheck",
 		reflect.TypeOf((*GoogleComputeHealthCheckHttpHealthCheck)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleComputeHealthCheck.GoogleComputeHealthCheckHttpHealthCheckOutputReference",
+		"@cdktn/provider-google-beta.googleComputeHealthCheck.GoogleComputeHealthCheckHttpHealthCheckOutputReference",
 		reflect.TypeOf((*GoogleComputeHealthCheckHttpHealthCheckOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -339,11 +339,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleComputeHealthCheck.GoogleComputeHealthCheckHttpsHealthCheck",
+		"@cdktn/provider-google-beta.googleComputeHealthCheck.GoogleComputeHealthCheckHttpsHealthCheck",
 		reflect.TypeOf((*GoogleComputeHealthCheckHttpsHealthCheck)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleComputeHealthCheck.GoogleComputeHealthCheckHttpsHealthCheckOutputReference",
+		"@cdktn/provider-google-beta.googleComputeHealthCheck.GoogleComputeHealthCheckHttpsHealthCheckOutputReference",
 		reflect.TypeOf((*GoogleComputeHealthCheckHttpsHealthCheckOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -396,11 +396,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleComputeHealthCheck.GoogleComputeHealthCheckLogConfig",
+		"@cdktn/provider-google-beta.googleComputeHealthCheck.GoogleComputeHealthCheckLogConfig",
 		reflect.TypeOf((*GoogleComputeHealthCheckLogConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleComputeHealthCheck.GoogleComputeHealthCheckLogConfigOutputReference",
+		"@cdktn/provider-google-beta.googleComputeHealthCheck.GoogleComputeHealthCheckLogConfigOutputReference",
 		reflect.TypeOf((*GoogleComputeHealthCheckLogConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -435,11 +435,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleComputeHealthCheck.GoogleComputeHealthCheckSslHealthCheck",
+		"@cdktn/provider-google-beta.googleComputeHealthCheck.GoogleComputeHealthCheckSslHealthCheck",
 		reflect.TypeOf((*GoogleComputeHealthCheckSslHealthCheck)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleComputeHealthCheck.GoogleComputeHealthCheckSslHealthCheckOutputReference",
+		"@cdktn/provider-google-beta.googleComputeHealthCheck.GoogleComputeHealthCheckSslHealthCheckOutputReference",
 		reflect.TypeOf((*GoogleComputeHealthCheckSslHealthCheckOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -489,11 +489,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleComputeHealthCheck.GoogleComputeHealthCheckTcpHealthCheck",
+		"@cdktn/provider-google-beta.googleComputeHealthCheck.GoogleComputeHealthCheckTcpHealthCheck",
 		reflect.TypeOf((*GoogleComputeHealthCheckTcpHealthCheck)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleComputeHealthCheck.GoogleComputeHealthCheckTcpHealthCheckOutputReference",
+		"@cdktn/provider-google-beta.googleComputeHealthCheck.GoogleComputeHealthCheckTcpHealthCheckOutputReference",
 		reflect.TypeOf((*GoogleComputeHealthCheckTcpHealthCheckOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -543,11 +543,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleComputeHealthCheck.GoogleComputeHealthCheckTimeouts",
+		"@cdktn/provider-google-beta.googleComputeHealthCheck.GoogleComputeHealthCheckTimeouts",
 		reflect.TypeOf((*GoogleComputeHealthCheckTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleComputeHealthCheck.GoogleComputeHealthCheckTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleComputeHealthCheck.GoogleComputeHealthCheckTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleComputeHealthCheckTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googleloggingfolderexclusion
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleLoggingFolderExclusion.GoogleLoggingFolderExclusion",
+		"@cdktn/provider-google-beta.googleLoggingFolderExclusion.GoogleLoggingFolderExclusion",
 		reflect.TypeOf((*GoogleLoggingFolderExclusion)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -78,7 +78,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleLoggingFolderExclusion.GoogleLoggingFolderExclusionConfig",
+		"@cdktn/provider-google-beta.googleLoggingFolderExclusion.GoogleLoggingFolderExclusionConfig",
 		reflect.TypeOf((*GoogleLoggingFolderExclusionConfig)(nil)).Elem(),
 	)
 }

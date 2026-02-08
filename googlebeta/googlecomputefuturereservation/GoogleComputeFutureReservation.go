@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlecomputefuturereservation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlecomputefuturereservation/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecomputefuturereservation/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -829,7 +829,7 @@ func NewGoogleComputeFutureReservation(scope constructs.Construct, id *string, c
 	j := jsiiProxy_GoogleComputeFutureReservation{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleComputeFutureReservation.GoogleComputeFutureReservation",
+		"@cdktn/provider-google-beta.googleComputeFutureReservation.GoogleComputeFutureReservation",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -842,7 +842,7 @@ func NewGoogleComputeFutureReservation_Override(g GoogleComputeFutureReservation
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleComputeFutureReservation.GoogleComputeFutureReservation",
+		"@cdktn/provider-google-beta.googleComputeFutureReservation.GoogleComputeFutureReservation",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -1069,7 +1069,7 @@ func GoogleComputeFutureReservation_GenerateConfigForImport(scope constructs.Con
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleComputeFutureReservation.GoogleComputeFutureReservation",
+		"@cdktn/provider-google-beta.googleComputeFutureReservation.GoogleComputeFutureReservation",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1104,7 +1104,7 @@ func GoogleComputeFutureReservation_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleComputeFutureReservation.GoogleComputeFutureReservation",
+		"@cdktn/provider-google-beta.googleComputeFutureReservation.GoogleComputeFutureReservation",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1123,7 +1123,7 @@ func GoogleComputeFutureReservation_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleComputeFutureReservation.GoogleComputeFutureReservation",
+		"@cdktn/provider-google-beta.googleComputeFutureReservation.GoogleComputeFutureReservation",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1142,7 +1142,7 @@ func GoogleComputeFutureReservation_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleComputeFutureReservation.GoogleComputeFutureReservation",
+		"@cdktn/provider-google-beta.googleComputeFutureReservation.GoogleComputeFutureReservation",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1155,7 +1155,7 @@ func GoogleComputeFutureReservation_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleComputeFutureReservation.GoogleComputeFutureReservation",
+		"@cdktn/provider-google-beta.googleComputeFutureReservation.GoogleComputeFutureReservation",
 		"tfResourceType",
 		&returns,
 	)

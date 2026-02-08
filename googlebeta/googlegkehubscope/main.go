@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlegkehubscope
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleGkeHubScope.GoogleGkeHubScope",
+		"@cdktn/provider-google-beta.googleGkeHubScope.GoogleGkeHubScope",
 		reflect.TypeOf((*GoogleGkeHubScope)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -89,15 +89,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleGkeHubScope.GoogleGkeHubScopeConfig",
+		"@cdktn/provider-google-beta.googleGkeHubScope.GoogleGkeHubScopeConfig",
 		reflect.TypeOf((*GoogleGkeHubScopeConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleGkeHubScope.GoogleGkeHubScopeState",
+		"@cdktn/provider-google-beta.googleGkeHubScope.GoogleGkeHubScopeState",
 		reflect.TypeOf((*GoogleGkeHubScopeState)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleGkeHubScope.GoogleGkeHubScopeStateList",
+		"@cdktn/provider-google-beta.googleGkeHubScope.GoogleGkeHubScopeStateList",
 		reflect.TypeOf((*GoogleGkeHubScopeStateList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -118,7 +118,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleGkeHubScope.GoogleGkeHubScopeStateOutputReference",
+		"@cdktn/provider-google-beta.googleGkeHubScope.GoogleGkeHubScopeStateOutputReference",
 		reflect.TypeOf((*GoogleGkeHubScopeStateOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "code", GoGetter: "Code"},
@@ -151,11 +151,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleGkeHubScope.GoogleGkeHubScopeTimeouts",
+		"@cdktn/provider-google-beta.googleGkeHubScope.GoogleGkeHubScopeTimeouts",
 		reflect.TypeOf((*GoogleGkeHubScopeTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleGkeHubScope.GoogleGkeHubScopeTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleGkeHubScope.GoogleGkeHubScopeTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleGkeHubScopeTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

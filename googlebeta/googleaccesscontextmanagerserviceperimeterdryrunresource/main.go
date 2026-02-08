@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googleaccesscontextmanagerserviceperimeterdryrunresource
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunResource.GoogleAccessContextManagerServicePerimeterDryRunResource",
+		"@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunResource.GoogleAccessContextManagerServicePerimeterDryRunResource",
 		reflect.TypeOf((*GoogleAccessContextManagerServicePerimeterDryRunResource)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessPolicyId", GoGetter: "AccessPolicyId"},
@@ -76,15 +76,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunResource.GoogleAccessContextManagerServicePerimeterDryRunResourceConfig",
+		"@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunResource.GoogleAccessContextManagerServicePerimeterDryRunResourceConfig",
 		reflect.TypeOf((*GoogleAccessContextManagerServicePerimeterDryRunResourceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunResource.GoogleAccessContextManagerServicePerimeterDryRunResourceTimeouts",
+		"@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunResource.GoogleAccessContextManagerServicePerimeterDryRunResourceTimeouts",
 		reflect.TypeOf((*GoogleAccessContextManagerServicePerimeterDryRunResourceTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunResource.GoogleAccessContextManagerServicePerimeterDryRunResourceTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleAccessContextManagerServicePerimeterDryRunResource.GoogleAccessContextManagerServicePerimeterDryRunResourceTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleAccessContextManagerServicePerimeterDryRunResourceTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlemigrationcenterpreferenceset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlemigrationcenterpreferenceset/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlemigrationcenterpreferenceset/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -519,7 +519,7 @@ func NewGoogleMigrationCenterPreferenceSet(scope constructs.Construct, id *strin
 	j := jsiiProxy_GoogleMigrationCenterPreferenceSet{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleMigrationCenterPreferenceSet.GoogleMigrationCenterPreferenceSet",
+		"@cdktn/provider-google-beta.googleMigrationCenterPreferenceSet.GoogleMigrationCenterPreferenceSet",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -532,7 +532,7 @@ func NewGoogleMigrationCenterPreferenceSet_Override(g GoogleMigrationCenterPrefe
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleMigrationCenterPreferenceSet.GoogleMigrationCenterPreferenceSet",
+		"@cdktn/provider-google-beta.googleMigrationCenterPreferenceSet.GoogleMigrationCenterPreferenceSet",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -682,7 +682,7 @@ func GoogleMigrationCenterPreferenceSet_GenerateConfigForImport(scope constructs
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleMigrationCenterPreferenceSet.GoogleMigrationCenterPreferenceSet",
+		"@cdktn/provider-google-beta.googleMigrationCenterPreferenceSet.GoogleMigrationCenterPreferenceSet",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -717,7 +717,7 @@ func GoogleMigrationCenterPreferenceSet_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleMigrationCenterPreferenceSet.GoogleMigrationCenterPreferenceSet",
+		"@cdktn/provider-google-beta.googleMigrationCenterPreferenceSet.GoogleMigrationCenterPreferenceSet",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -736,7 +736,7 @@ func GoogleMigrationCenterPreferenceSet_IsTerraformElement(x interface{}) *bool 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleMigrationCenterPreferenceSet.GoogleMigrationCenterPreferenceSet",
+		"@cdktn/provider-google-beta.googleMigrationCenterPreferenceSet.GoogleMigrationCenterPreferenceSet",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -755,7 +755,7 @@ func GoogleMigrationCenterPreferenceSet_IsTerraformResource(x interface{}) *bool
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleMigrationCenterPreferenceSet.GoogleMigrationCenterPreferenceSet",
+		"@cdktn/provider-google-beta.googleMigrationCenterPreferenceSet.GoogleMigrationCenterPreferenceSet",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -768,7 +768,7 @@ func GoogleMigrationCenterPreferenceSet_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleMigrationCenterPreferenceSet.GoogleMigrationCenterPreferenceSet",
+		"@cdktn/provider-google-beta.googleMigrationCenterPreferenceSet.GoogleMigrationCenterPreferenceSet",
 		"tfResourceType",
 		&returns,
 	)

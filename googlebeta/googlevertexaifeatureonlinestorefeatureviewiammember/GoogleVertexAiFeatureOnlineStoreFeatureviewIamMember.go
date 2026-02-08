@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlevertexaifeatureonlinestorefeatureviewiammember
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlevertexaifeatureonlinestorefeatureviewiammember/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlevertexaifeatureonlinestorefeatureviewiammember/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -495,7 +495,7 @@ func NewGoogleVertexAiFeatureOnlineStoreFeatureviewIamMember(scope constructs.Co
 	j := jsiiProxy_GoogleVertexAiFeatureOnlineStoreFeatureviewIamMember{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreFeatureviewIamMember.GoogleVertexAiFeatureOnlineStoreFeatureviewIamMember",
+		"@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreFeatureviewIamMember.GoogleVertexAiFeatureOnlineStoreFeatureviewIamMember",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -508,7 +508,7 @@ func NewGoogleVertexAiFeatureOnlineStoreFeatureviewIamMember_Override(g GoogleVe
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreFeatureviewIamMember.GoogleVertexAiFeatureOnlineStoreFeatureviewIamMember",
+		"@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreFeatureviewIamMember.GoogleVertexAiFeatureOnlineStoreFeatureviewIamMember",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -669,7 +669,7 @@ func GoogleVertexAiFeatureOnlineStoreFeatureviewIamMember_GenerateConfigForImpor
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreFeatureviewIamMember.GoogleVertexAiFeatureOnlineStoreFeatureviewIamMember",
+		"@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreFeatureviewIamMember.GoogleVertexAiFeatureOnlineStoreFeatureviewIamMember",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -704,7 +704,7 @@ func GoogleVertexAiFeatureOnlineStoreFeatureviewIamMember_IsConstruct(x interfac
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreFeatureviewIamMember.GoogleVertexAiFeatureOnlineStoreFeatureviewIamMember",
+		"@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreFeatureviewIamMember.GoogleVertexAiFeatureOnlineStoreFeatureviewIamMember",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -723,7 +723,7 @@ func GoogleVertexAiFeatureOnlineStoreFeatureviewIamMember_IsTerraformElement(x i
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreFeatureviewIamMember.GoogleVertexAiFeatureOnlineStoreFeatureviewIamMember",
+		"@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreFeatureviewIamMember.GoogleVertexAiFeatureOnlineStoreFeatureviewIamMember",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -742,7 +742,7 @@ func GoogleVertexAiFeatureOnlineStoreFeatureviewIamMember_IsTerraformResource(x 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreFeatureviewIamMember.GoogleVertexAiFeatureOnlineStoreFeatureviewIamMember",
+		"@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreFeatureviewIamMember.GoogleVertexAiFeatureOnlineStoreFeatureviewIamMember",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -755,7 +755,7 @@ func GoogleVertexAiFeatureOnlineStoreFeatureviewIamMember_TfResourceType() *stri
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreFeatureviewIamMember.GoogleVertexAiFeatureOnlineStoreFeatureviewIamMember",
+		"@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreFeatureviewIamMember.GoogleVertexAiFeatureOnlineStoreFeatureviewIamMember",
 		"tfResourceType",
 		&returns,
 	)

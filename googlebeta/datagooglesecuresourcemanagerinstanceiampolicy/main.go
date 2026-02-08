@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagooglesecuresourcemanagerinstanceiampolicy
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleSecureSourceManagerInstanceIamPolicy.DataGoogleSecureSourceManagerInstanceIamPolicy",
+		"@cdktn/provider-google-beta.dataGoogleSecureSourceManagerInstanceIamPolicy.DataGoogleSecureSourceManagerInstanceIamPolicy",
 		reflect.TypeOf((*DataGoogleSecureSourceManagerInstanceIamPolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -68,7 +68,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleSecureSourceManagerInstanceIamPolicy.DataGoogleSecureSourceManagerInstanceIamPolicyConfig",
+		"@cdktn/provider-google-beta.dataGoogleSecureSourceManagerInstanceIamPolicy.DataGoogleSecureSourceManagerInstanceIamPolicyConfig",
 		reflect.TypeOf((*DataGoogleSecureSourceManagerInstanceIamPolicyConfig)(nil)).Elem(),
 	)
 }

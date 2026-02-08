@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagooglebigquerydatasets
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleBigqueryDatasets.DataGoogleBigqueryDatasets",
+		"@cdktn/provider-google-beta.dataGoogleBigqueryDatasets.DataGoogleBigqueryDatasets",
 		reflect.TypeOf((*DataGoogleBigqueryDatasets)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -62,15 +62,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleBigqueryDatasets.DataGoogleBigqueryDatasetsConfig",
+		"@cdktn/provider-google-beta.dataGoogleBigqueryDatasets.DataGoogleBigqueryDatasetsConfig",
 		reflect.TypeOf((*DataGoogleBigqueryDatasetsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleBigqueryDatasets.DataGoogleBigqueryDatasetsDatasets",
+		"@cdktn/provider-google-beta.dataGoogleBigqueryDatasets.DataGoogleBigqueryDatasetsDatasets",
 		reflect.TypeOf((*DataGoogleBigqueryDatasetsDatasets)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleBigqueryDatasets.DataGoogleBigqueryDatasetsDatasetsList",
+		"@cdktn/provider-google-beta.dataGoogleBigqueryDatasets.DataGoogleBigqueryDatasetsDatasetsList",
 		reflect.TypeOf((*DataGoogleBigqueryDatasetsDatasetsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -91,7 +91,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleBigqueryDatasets.DataGoogleBigqueryDatasetsDatasetsOutputReference",
+		"@cdktn/provider-google-beta.dataGoogleBigqueryDatasets.DataGoogleBigqueryDatasetsDatasetsOutputReference",
 		reflect.TypeOf((*DataGoogleBigqueryDatasetsDatasetsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagooglealloydbcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/datagooglealloydbcluster/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagooglealloydbcluster/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -687,7 +687,7 @@ func NewDataGoogleAlloydbCluster(scope constructs.Construct, id *string, config 
 	j := jsiiProxy_DataGoogleAlloydbCluster{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.dataGoogleAlloydbCluster.DataGoogleAlloydbCluster",
+		"@cdktn/provider-google-beta.dataGoogleAlloydbCluster.DataGoogleAlloydbCluster",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -700,7 +700,7 @@ func NewDataGoogleAlloydbCluster_Override(d DataGoogleAlloydbCluster, scope cons
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.dataGoogleAlloydbCluster.DataGoogleAlloydbCluster",
+		"@cdktn/provider-google-beta.dataGoogleAlloydbCluster.DataGoogleAlloydbCluster",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -806,7 +806,7 @@ func DataGoogleAlloydbCluster_GenerateConfigForImport(scope constructs.Construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleAlloydbCluster.DataGoogleAlloydbCluster",
+		"@cdktn/provider-google-beta.dataGoogleAlloydbCluster.DataGoogleAlloydbCluster",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -841,7 +841,7 @@ func DataGoogleAlloydbCluster_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleAlloydbCluster.DataGoogleAlloydbCluster",
+		"@cdktn/provider-google-beta.dataGoogleAlloydbCluster.DataGoogleAlloydbCluster",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -860,7 +860,7 @@ func DataGoogleAlloydbCluster_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleAlloydbCluster.DataGoogleAlloydbCluster",
+		"@cdktn/provider-google-beta.dataGoogleAlloydbCluster.DataGoogleAlloydbCluster",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -879,7 +879,7 @@ func DataGoogleAlloydbCluster_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleAlloydbCluster.DataGoogleAlloydbCluster",
+		"@cdktn/provider-google-beta.dataGoogleAlloydbCluster.DataGoogleAlloydbCluster",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -892,7 +892,7 @@ func DataGoogleAlloydbCluster_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.dataGoogleAlloydbCluster.DataGoogleAlloydbCluster",
+		"@cdktn/provider-google-beta.dataGoogleAlloydbCluster.DataGoogleAlloydbCluster",
 		"tfResourceType",
 		&returns,
 	)

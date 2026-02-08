@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlecloudrunv2serviceiampolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlecloudrunv2serviceiampolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecloudrunv2serviceiampolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -425,7 +425,7 @@ func NewGoogleCloudRunV2ServiceIamPolicy(scope constructs.Construct, id *string,
 	j := jsiiProxy_GoogleCloudRunV2ServiceIamPolicy{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleCloudRunV2ServiceIamPolicy.GoogleCloudRunV2ServiceIamPolicy",
+		"@cdktn/provider-google-beta.googleCloudRunV2ServiceIamPolicy.GoogleCloudRunV2ServiceIamPolicy",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -438,7 +438,7 @@ func NewGoogleCloudRunV2ServiceIamPolicy_Override(g GoogleCloudRunV2ServiceIamPo
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleCloudRunV2ServiceIamPolicy.GoogleCloudRunV2ServiceIamPolicy",
+		"@cdktn/provider-google-beta.googleCloudRunV2ServiceIamPolicy.GoogleCloudRunV2ServiceIamPolicy",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -577,7 +577,7 @@ func GoogleCloudRunV2ServiceIamPolicy_GenerateConfigForImport(scope constructs.C
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleCloudRunV2ServiceIamPolicy.GoogleCloudRunV2ServiceIamPolicy",
+		"@cdktn/provider-google-beta.googleCloudRunV2ServiceIamPolicy.GoogleCloudRunV2ServiceIamPolicy",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -612,7 +612,7 @@ func GoogleCloudRunV2ServiceIamPolicy_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleCloudRunV2ServiceIamPolicy.GoogleCloudRunV2ServiceIamPolicy",
+		"@cdktn/provider-google-beta.googleCloudRunV2ServiceIamPolicy.GoogleCloudRunV2ServiceIamPolicy",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -631,7 +631,7 @@ func GoogleCloudRunV2ServiceIamPolicy_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleCloudRunV2ServiceIamPolicy.GoogleCloudRunV2ServiceIamPolicy",
+		"@cdktn/provider-google-beta.googleCloudRunV2ServiceIamPolicy.GoogleCloudRunV2ServiceIamPolicy",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -650,7 +650,7 @@ func GoogleCloudRunV2ServiceIamPolicy_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleCloudRunV2ServiceIamPolicy.GoogleCloudRunV2ServiceIamPolicy",
+		"@cdktn/provider-google-beta.googleCloudRunV2ServiceIamPolicy.GoogleCloudRunV2ServiceIamPolicy",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -663,7 +663,7 @@ func GoogleCloudRunV2ServiceIamPolicy_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleCloudRunV2ServiceIamPolicy.GoogleCloudRunV2ServiceIamPolicy",
+		"@cdktn/provider-google-beta.googleCloudRunV2ServiceIamPolicy.GoogleCloudRunV2ServiceIamPolicy",
 		"tfResourceType",
 		&returns,
 	)

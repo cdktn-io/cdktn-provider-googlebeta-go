@@ -4,16 +4,16 @@ This repo builds and publishes the [Terraform google-beta provider](https://regi
 
 ## Go Package
 
-The go package is generated into the [`github.com/cdktf/cdktf-provider-googlebeta-go`](https://github.com/cdktf/cdktf-provider-googlebeta-go) package.
+The go package is generated into the [`github.com/cdktn-io/cdktn-provider-googlebeta-go`](https://github.com/cdktn-io/cdktn-provider-googlebeta-go) package.
 
-`go get github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/<version>`
+`go get github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/<version>`
 
 Where `<version>` is the version of the prebuilt provider you would like to use e.g. `v11`. The full module name can be found
-within the [go.mod](https://github.com/cdktf/cdktf-provider-googlebeta-go/blob/main/googlebeta/go.mod#L1) file.
+within the [go.mod](https://github.com/cdktn-io/cdktn-provider-googlebeta-go/blob/main/googlebeta/go.mod#L1) file.
 
 ## Docs
 
-Find auto-generated docs for this provider [here](https://github.com/cdktf/cdktf-provider-googlebeta/blob/main/docs/API.go.md).
+Find auto-generated docs for this provider [here](https://github.com/cdktn-io/cdktn-provider-googlebeta/blob/main/docs/API.go.md).
 
 
 ## Versioning
@@ -22,7 +22,7 @@ This project is explicitly not tracking the Terraform google-beta provider versi
 
 These are the upstream dependencies:
 
-* [CDK for Terraform](https://cdk.tf)
+* [CDK for Terraform](https://cdk.tf) - Last official release
 * [Terraform google-beta provider](https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0)
 * [Terraform Engine](https://terraform.io)
 
@@ -39,13 +39,13 @@ Please report bugs and issues to the [CDK for Terraform](https://cdk.tf) project
 
 ### Projen
 
-This is mostly based on [Projen](https://github.com/projen/projen), which takes care of generating the entire repository.
+This is mostly based on [Projen](https://projen.io), which takes care of generating the entire repository.
 
-### cdktf-provider-project based on Projen
+### cdktn-provider-project based on Projen
 
-There's a custom [project builder](https://github.com/cdktf/cdktf-provider-project) which encapsulate the common settings for all `cdktf` prebuilt providers.
+There's a custom [project builder](https://github.com/cdktn-io/cdktn-provider-project) which encapsulate the common settings for all `cdktf` prebuilt providers.
 
 
 ### Repository Management
 
-The repository is managed by [CDKTF Repository Manager](https://github.com/cdktf/cdktf-repository-manager/).
+The repository is managed by [CDKTN Repository Manager](https://github.com/cdktn-io/cdktn-repository-manager/).

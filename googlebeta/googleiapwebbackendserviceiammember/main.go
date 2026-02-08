@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googleiapwebbackendserviceiammember
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleIapWebBackendServiceIamMember.GoogleIapWebBackendServiceIamMember",
+		"@cdktn/provider-google-beta.googleIapWebBackendServiceIamMember.GoogleIapWebBackendServiceIamMember",
 		reflect.TypeOf((*GoogleIapWebBackendServiceIamMember)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -80,11 +80,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleIapWebBackendServiceIamMember.GoogleIapWebBackendServiceIamMemberCondition",
+		"@cdktn/provider-google-beta.googleIapWebBackendServiceIamMember.GoogleIapWebBackendServiceIamMemberCondition",
 		reflect.TypeOf((*GoogleIapWebBackendServiceIamMemberCondition)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleIapWebBackendServiceIamMember.GoogleIapWebBackendServiceIamMemberConditionOutputReference",
+		"@cdktn/provider-google-beta.googleIapWebBackendServiceIamMember.GoogleIapWebBackendServiceIamMemberConditionOutputReference",
 		reflect.TypeOf((*GoogleIapWebBackendServiceIamMemberConditionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -123,7 +123,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleIapWebBackendServiceIamMember.GoogleIapWebBackendServiceIamMemberConfig",
+		"@cdktn/provider-google-beta.googleIapWebBackendServiceIamMember.GoogleIapWebBackendServiceIamMemberConfig",
 		reflect.TypeOf((*GoogleIapWebBackendServiceIamMemberConfig)(nil)).Elem(),
 	)
 }

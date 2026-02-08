@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlefilestoresnapshot
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlefilestoresnapshot/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlefilestoresnapshot/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -540,7 +540,7 @@ func NewGoogleFilestoreSnapshot(scope constructs.Construct, id *string, config *
 	j := jsiiProxy_GoogleFilestoreSnapshot{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleFilestoreSnapshot.GoogleFilestoreSnapshot",
+		"@cdktn/provider-google-beta.googleFilestoreSnapshot.GoogleFilestoreSnapshot",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -553,7 +553,7 @@ func NewGoogleFilestoreSnapshot_Override(g GoogleFilestoreSnapshot, scope constr
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleFilestoreSnapshot.GoogleFilestoreSnapshot",
+		"@cdktn/provider-google-beta.googleFilestoreSnapshot.GoogleFilestoreSnapshot",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -714,7 +714,7 @@ func GoogleFilestoreSnapshot_GenerateConfigForImport(scope constructs.Construct,
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleFilestoreSnapshot.GoogleFilestoreSnapshot",
+		"@cdktn/provider-google-beta.googleFilestoreSnapshot.GoogleFilestoreSnapshot",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -749,7 +749,7 @@ func GoogleFilestoreSnapshot_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleFilestoreSnapshot.GoogleFilestoreSnapshot",
+		"@cdktn/provider-google-beta.googleFilestoreSnapshot.GoogleFilestoreSnapshot",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -768,7 +768,7 @@ func GoogleFilestoreSnapshot_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleFilestoreSnapshot.GoogleFilestoreSnapshot",
+		"@cdktn/provider-google-beta.googleFilestoreSnapshot.GoogleFilestoreSnapshot",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -787,7 +787,7 @@ func GoogleFilestoreSnapshot_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleFilestoreSnapshot.GoogleFilestoreSnapshot",
+		"@cdktn/provider-google-beta.googleFilestoreSnapshot.GoogleFilestoreSnapshot",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -800,7 +800,7 @@ func GoogleFilestoreSnapshot_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleFilestoreSnapshot.GoogleFilestoreSnapshot",
+		"@cdktn/provider-google-beta.googleFilestoreSnapshot.GoogleFilestoreSnapshot",
 		"tfResourceType",
 		&returns,
 	)

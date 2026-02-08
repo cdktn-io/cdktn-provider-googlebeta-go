@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googleapihubapihubinstance
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleApihubApiHubInstance.GoogleApihubApiHubInstance",
+		"@cdktn/provider-google-beta.googleApihubApiHubInstance.GoogleApihubApiHubInstance",
 		reflect.TypeOf((*GoogleApihubApiHubInstance)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -94,15 +94,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleApihubApiHubInstance.GoogleApihubApiHubInstanceConfig",
+		"@cdktn/provider-google-beta.googleApihubApiHubInstance.GoogleApihubApiHubInstanceConfig",
 		reflect.TypeOf((*GoogleApihubApiHubInstanceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleApihubApiHubInstance.GoogleApihubApiHubInstanceConfigA",
+		"@cdktn/provider-google-beta.googleApihubApiHubInstance.GoogleApihubApiHubInstanceConfigA",
 		reflect.TypeOf((*GoogleApihubApiHubInstanceConfigA)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleApihubApiHubInstance.GoogleApihubApiHubInstanceConfigAOutputReference",
+		"@cdktn/provider-google-beta.googleApihubApiHubInstance.GoogleApihubApiHubInstanceConfigAOutputReference",
 		reflect.TypeOf((*GoogleApihubApiHubInstanceConfigAOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "cmekKeyName", GoGetter: "CmekKeyName"},
@@ -146,11 +146,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleApihubApiHubInstance.GoogleApihubApiHubInstanceTimeouts",
+		"@cdktn/provider-google-beta.googleApihubApiHubInstance.GoogleApihubApiHubInstanceTimeouts",
 		reflect.TypeOf((*GoogleApihubApiHubInstanceTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleApihubApiHubInstance.GoogleApihubApiHubInstanceTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleApihubApiHubInstance.GoogleApihubApiHubInstanceTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleApihubApiHubInstanceTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

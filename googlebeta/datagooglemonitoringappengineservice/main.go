@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagooglemonitoringappengineservice
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleMonitoringAppEngineService.DataGoogleMonitoringAppEngineService",
+		"@cdktn/provider-google-beta.dataGoogleMonitoringAppEngineService.DataGoogleMonitoringAppEngineService",
 		reflect.TypeOf((*DataGoogleMonitoringAppEngineService)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -68,15 +68,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleMonitoringAppEngineService.DataGoogleMonitoringAppEngineServiceConfig",
+		"@cdktn/provider-google-beta.dataGoogleMonitoringAppEngineService.DataGoogleMonitoringAppEngineServiceConfig",
 		reflect.TypeOf((*DataGoogleMonitoringAppEngineServiceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleMonitoringAppEngineService.DataGoogleMonitoringAppEngineServiceTelemetry",
+		"@cdktn/provider-google-beta.dataGoogleMonitoringAppEngineService.DataGoogleMonitoringAppEngineServiceTelemetry",
 		reflect.TypeOf((*DataGoogleMonitoringAppEngineServiceTelemetry)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleMonitoringAppEngineService.DataGoogleMonitoringAppEngineServiceTelemetryList",
+		"@cdktn/provider-google-beta.dataGoogleMonitoringAppEngineService.DataGoogleMonitoringAppEngineServiceTelemetryList",
 		reflect.TypeOf((*DataGoogleMonitoringAppEngineServiceTelemetryList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -97,7 +97,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleMonitoringAppEngineService.DataGoogleMonitoringAppEngineServiceTelemetryOutputReference",
+		"@cdktn/provider-google-beta.dataGoogleMonitoringAppEngineService.DataGoogleMonitoringAppEngineServiceTelemetryOutputReference",
 		reflect.TypeOf((*DataGoogleMonitoringAppEngineServiceTelemetryOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

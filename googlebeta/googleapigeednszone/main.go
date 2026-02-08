@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googleapigeednszone
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleApigeeDnsZone.GoogleApigeeDnsZone",
+		"@cdktn/provider-google-beta.googleApigeeDnsZone.GoogleApigeeDnsZone",
 		reflect.TypeOf((*GoogleApigeeDnsZone)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -82,15 +82,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleApigeeDnsZone.GoogleApigeeDnsZoneConfig",
+		"@cdktn/provider-google-beta.googleApigeeDnsZone.GoogleApigeeDnsZoneConfig",
 		reflect.TypeOf((*GoogleApigeeDnsZoneConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleApigeeDnsZone.GoogleApigeeDnsZonePeeringConfig",
+		"@cdktn/provider-google-beta.googleApigeeDnsZone.GoogleApigeeDnsZonePeeringConfig",
 		reflect.TypeOf((*GoogleApigeeDnsZonePeeringConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleApigeeDnsZone.GoogleApigeeDnsZonePeeringConfigOutputReference",
+		"@cdktn/provider-google-beta.googleApigeeDnsZone.GoogleApigeeDnsZonePeeringConfigOutputReference",
 		reflect.TypeOf((*GoogleApigeeDnsZonePeeringConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -126,11 +126,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleApigeeDnsZone.GoogleApigeeDnsZoneTimeouts",
+		"@cdktn/provider-google-beta.googleApigeeDnsZone.GoogleApigeeDnsZoneTimeouts",
 		reflect.TypeOf((*GoogleApigeeDnsZoneTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleApigeeDnsZone.GoogleApigeeDnsZoneTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleApigeeDnsZone.GoogleApigeeDnsZoneTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleApigeeDnsZoneTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

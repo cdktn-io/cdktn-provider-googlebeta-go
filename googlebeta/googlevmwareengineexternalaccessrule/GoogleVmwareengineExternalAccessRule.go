@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlevmwareengineexternalaccessrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlevmwareengineexternalaccessrule/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlevmwareengineexternalaccessrule/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -619,7 +619,7 @@ func NewGoogleVmwareengineExternalAccessRule(scope constructs.Construct, id *str
 	j := jsiiProxy_GoogleVmwareengineExternalAccessRule{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleVmwareengineExternalAccessRule.GoogleVmwareengineExternalAccessRule",
+		"@cdktn/provider-google-beta.googleVmwareengineExternalAccessRule.GoogleVmwareengineExternalAccessRule",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -632,7 +632,7 @@ func NewGoogleVmwareengineExternalAccessRule_Override(g GoogleVmwareengineExtern
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleVmwareengineExternalAccessRule.GoogleVmwareengineExternalAccessRule",
+		"@cdktn/provider-google-beta.googleVmwareengineExternalAccessRule.GoogleVmwareengineExternalAccessRule",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -815,7 +815,7 @@ func GoogleVmwareengineExternalAccessRule_GenerateConfigForImport(scope construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleVmwareengineExternalAccessRule.GoogleVmwareengineExternalAccessRule",
+		"@cdktn/provider-google-beta.googleVmwareengineExternalAccessRule.GoogleVmwareengineExternalAccessRule",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -850,7 +850,7 @@ func GoogleVmwareengineExternalAccessRule_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleVmwareengineExternalAccessRule.GoogleVmwareengineExternalAccessRule",
+		"@cdktn/provider-google-beta.googleVmwareengineExternalAccessRule.GoogleVmwareengineExternalAccessRule",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -869,7 +869,7 @@ func GoogleVmwareengineExternalAccessRule_IsTerraformElement(x interface{}) *boo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleVmwareengineExternalAccessRule.GoogleVmwareengineExternalAccessRule",
+		"@cdktn/provider-google-beta.googleVmwareengineExternalAccessRule.GoogleVmwareengineExternalAccessRule",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -888,7 +888,7 @@ func GoogleVmwareengineExternalAccessRule_IsTerraformResource(x interface{}) *bo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleVmwareengineExternalAccessRule.GoogleVmwareengineExternalAccessRule",
+		"@cdktn/provider-google-beta.googleVmwareengineExternalAccessRule.GoogleVmwareengineExternalAccessRule",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -901,7 +901,7 @@ func GoogleVmwareengineExternalAccessRule_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleVmwareengineExternalAccessRule.GoogleVmwareengineExternalAccessRule",
+		"@cdktn/provider-google-beta.googleVmwareengineExternalAccessRule.GoogleVmwareengineExternalAccessRule",
 		"tfResourceType",
 		&returns,
 	)

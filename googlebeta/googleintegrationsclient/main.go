@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googleintegrationsclient
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleIntegrationsClient.GoogleIntegrationsClient",
+		"@cdktn/provider-google-beta.googleIntegrationsClient.GoogleIntegrationsClient",
 		reflect.TypeOf((*GoogleIntegrationsClient)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -85,11 +85,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleIntegrationsClient.GoogleIntegrationsClientCloudKmsConfig",
+		"@cdktn/provider-google-beta.googleIntegrationsClient.GoogleIntegrationsClientCloudKmsConfig",
 		reflect.TypeOf((*GoogleIntegrationsClientCloudKmsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleIntegrationsClient.GoogleIntegrationsClientCloudKmsConfigOutputReference",
+		"@cdktn/provider-google-beta.googleIntegrationsClient.GoogleIntegrationsClientCloudKmsConfigOutputReference",
 		reflect.TypeOf((*GoogleIntegrationsClientCloudKmsConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -133,15 +133,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleIntegrationsClient.GoogleIntegrationsClientConfig",
+		"@cdktn/provider-google-beta.googleIntegrationsClient.GoogleIntegrationsClientConfig",
 		reflect.TypeOf((*GoogleIntegrationsClientConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleIntegrationsClient.GoogleIntegrationsClientTimeouts",
+		"@cdktn/provider-google-beta.googleIntegrationsClient.GoogleIntegrationsClientTimeouts",
 		reflect.TypeOf((*GoogleIntegrationsClientTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleIntegrationsClient.GoogleIntegrationsClientTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleIntegrationsClient.GoogleIntegrationsClientTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleIntegrationsClientTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

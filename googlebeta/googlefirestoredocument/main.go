@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlefirestoredocument
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleFirestoreDocument.GoogleFirestoreDocument",
+		"@cdktn/provider-google-beta.googleFirestoreDocument.GoogleFirestoreDocument",
 		reflect.TypeOf((*GoogleFirestoreDocument)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -86,15 +86,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleFirestoreDocument.GoogleFirestoreDocumentConfig",
+		"@cdktn/provider-google-beta.googleFirestoreDocument.GoogleFirestoreDocumentConfig",
 		reflect.TypeOf((*GoogleFirestoreDocumentConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleFirestoreDocument.GoogleFirestoreDocumentTimeouts",
+		"@cdktn/provider-google-beta.googleFirestoreDocument.GoogleFirestoreDocumentTimeouts",
 		reflect.TypeOf((*GoogleFirestoreDocumentTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleFirestoreDocument.GoogleFirestoreDocumentTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleFirestoreDocument.GoogleFirestoreDocumentTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleFirestoreDocumentTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

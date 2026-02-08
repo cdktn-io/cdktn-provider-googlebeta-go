@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlebigtableschemabundle
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleBigtableSchemaBundle.GoogleBigtableSchemaBundle",
+		"@cdktn/provider-google-beta.googleBigtableSchemaBundle.GoogleBigtableSchemaBundle",
 		reflect.TypeOf((*GoogleBigtableSchemaBundle)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -88,15 +88,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleBigtableSchemaBundle.GoogleBigtableSchemaBundleConfig",
+		"@cdktn/provider-google-beta.googleBigtableSchemaBundle.GoogleBigtableSchemaBundleConfig",
 		reflect.TypeOf((*GoogleBigtableSchemaBundleConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleBigtableSchemaBundle.GoogleBigtableSchemaBundleProtoSchema",
+		"@cdktn/provider-google-beta.googleBigtableSchemaBundle.GoogleBigtableSchemaBundleProtoSchema",
 		reflect.TypeOf((*GoogleBigtableSchemaBundleProtoSchema)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleBigtableSchemaBundle.GoogleBigtableSchemaBundleProtoSchemaOutputReference",
+		"@cdktn/provider-google-beta.googleBigtableSchemaBundle.GoogleBigtableSchemaBundleProtoSchemaOutputReference",
 		reflect.TypeOf((*GoogleBigtableSchemaBundleProtoSchemaOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -130,11 +130,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleBigtableSchemaBundle.GoogleBigtableSchemaBundleTimeouts",
+		"@cdktn/provider-google-beta.googleBigtableSchemaBundle.GoogleBigtableSchemaBundleTimeouts",
 		reflect.TypeOf((*GoogleBigtableSchemaBundleTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleBigtableSchemaBundle.GoogleBigtableSchemaBundleTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleBigtableSchemaBundle.GoogleBigtableSchemaBundleTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleBigtableSchemaBundleTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

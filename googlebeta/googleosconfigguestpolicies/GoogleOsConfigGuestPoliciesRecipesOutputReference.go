@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googleosconfigguestpolicies
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googleosconfigguestpolicies/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleosconfigguestpolicies/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -78,7 +78,7 @@ type GoogleOsConfigGuestPoliciesRecipesOutputReference interface {
 	// Experimental.
 	InterpolationAsList() cdktf.IResolvable
 	// Experimental.
-	InterpolationForAttribute(property *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
 	PutArtifacts(value interface{})
 	PutInstallSteps(value interface{})
 	PutUpdateSteps(value interface{})
@@ -89,7 +89,7 @@ type GoogleOsConfigGuestPoliciesRecipesOutputReference interface {
 	ResetVersion()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(_context cdktf.IResolveContext) interface{}
+	Resolve(context cdktf.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -302,7 +302,7 @@ func NewGoogleOsConfigGuestPoliciesRecipesOutputReference(terraformResource cdkt
 	j := jsiiProxy_GoogleOsConfigGuestPoliciesRecipesOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleOsConfigGuestPolicies.GoogleOsConfigGuestPoliciesRecipesOutputReference",
+		"@cdktn/provider-google-beta.googleOsConfigGuestPolicies.GoogleOsConfigGuestPoliciesRecipesOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -314,7 +314,7 @@ func NewGoogleOsConfigGuestPoliciesRecipesOutputReference_Override(g GoogleOsCon
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleOsConfigGuestPolicies.GoogleOsConfigGuestPoliciesRecipesOutputReference",
+		"@cdktn/provider-google-beta.googleOsConfigGuestPolicies.GoogleOsConfigGuestPoliciesRecipesOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		g,
 	)
@@ -578,8 +578,8 @@ func (g *jsiiProxy_GoogleOsConfigGuestPoliciesRecipesOutputReference) Interpolat
 	return returns
 }
 
-func (g *jsiiProxy_GoogleOsConfigGuestPoliciesRecipesOutputReference) InterpolationForAttribute(property *string) cdktf.IResolvable {
-	if err := g.validateInterpolationForAttributeParameters(property); err != nil {
+func (g *jsiiProxy_GoogleOsConfigGuestPoliciesRecipesOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
 	var returns cdktf.IResolvable
@@ -587,7 +587,7 @@ func (g *jsiiProxy_GoogleOsConfigGuestPoliciesRecipesOutputReference) Interpolat
 	_jsii_.Invoke(
 		g,
 		"interpolationForAttribute",
-		[]interface{}{property},
+		[]interface{}{terraformAttribute},
 		&returns,
 	)
 
@@ -667,8 +667,8 @@ func (g *jsiiProxy_GoogleOsConfigGuestPoliciesRecipesOutputReference) ResetVersi
 	)
 }
 
-func (g *jsiiProxy_GoogleOsConfigGuestPoliciesRecipesOutputReference) Resolve(_context cdktf.IResolveContext) interface{} {
-	if err := g.validateResolveParameters(_context); err != nil {
+func (g *jsiiProxy_GoogleOsConfigGuestPoliciesRecipesOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}
 	var returns interface{}
@@ -676,7 +676,7 @@ func (g *jsiiProxy_GoogleOsConfigGuestPoliciesRecipesOutputReference) Resolve(_c
 	_jsii_.Invoke(
 		g,
 		"resolve",
-		[]interface{}{_context},
+		[]interface{}{context},
 		&returns,
 	)
 

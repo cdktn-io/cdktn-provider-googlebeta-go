@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googleserviceaccountiambinding
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleServiceAccountIamBinding.GoogleServiceAccountIamBinding",
+		"@cdktn/provider-google-beta.googleServiceAccountIamBinding.GoogleServiceAccountIamBinding",
 		reflect.TypeOf((*GoogleServiceAccountIamBinding)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -77,11 +77,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleServiceAccountIamBinding.GoogleServiceAccountIamBindingCondition",
+		"@cdktn/provider-google-beta.googleServiceAccountIamBinding.GoogleServiceAccountIamBindingCondition",
 		reflect.TypeOf((*GoogleServiceAccountIamBindingCondition)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleServiceAccountIamBinding.GoogleServiceAccountIamBindingConditionOutputReference",
+		"@cdktn/provider-google-beta.googleServiceAccountIamBinding.GoogleServiceAccountIamBindingConditionOutputReference",
 		reflect.TypeOf((*GoogleServiceAccountIamBindingConditionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -120,7 +120,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleServiceAccountIamBinding.GoogleServiceAccountIamBindingConfig",
+		"@cdktn/provider-google-beta.googleServiceAccountIamBinding.GoogleServiceAccountIamBindingConfig",
 		reflect.TypeOf((*GoogleServiceAccountIamBindingConfig)(nil)).Elem(),
 	)
 }

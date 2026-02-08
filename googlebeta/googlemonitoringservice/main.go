@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlemonitoringservice
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleMonitoringService.GoogleMonitoringService",
+		"@cdktn/provider-google-beta.googleMonitoringService.GoogleMonitoringService",
 		reflect.TypeOf((*GoogleMonitoringService)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -87,11 +87,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleMonitoringService.GoogleMonitoringServiceBasicService",
+		"@cdktn/provider-google-beta.googleMonitoringService.GoogleMonitoringServiceBasicService",
 		reflect.TypeOf((*GoogleMonitoringServiceBasicService)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleMonitoringService.GoogleMonitoringServiceBasicServiceOutputReference",
+		"@cdktn/provider-google-beta.googleMonitoringService.GoogleMonitoringServiceBasicServiceOutputReference",
 		reflect.TypeOf((*GoogleMonitoringServiceBasicServiceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -129,15 +129,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleMonitoringService.GoogleMonitoringServiceConfig",
+		"@cdktn/provider-google-beta.googleMonitoringService.GoogleMonitoringServiceConfig",
 		reflect.TypeOf((*GoogleMonitoringServiceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleMonitoringService.GoogleMonitoringServiceTelemetry",
+		"@cdktn/provider-google-beta.googleMonitoringService.GoogleMonitoringServiceTelemetry",
 		reflect.TypeOf((*GoogleMonitoringServiceTelemetry)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleMonitoringService.GoogleMonitoringServiceTelemetryList",
+		"@cdktn/provider-google-beta.googleMonitoringService.GoogleMonitoringServiceTelemetryList",
 		reflect.TypeOf((*GoogleMonitoringServiceTelemetryList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -158,7 +158,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleMonitoringService.GoogleMonitoringServiceTelemetryOutputReference",
+		"@cdktn/provider-google-beta.googleMonitoringService.GoogleMonitoringServiceTelemetryOutputReference",
 		reflect.TypeOf((*GoogleMonitoringServiceTelemetryOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -191,11 +191,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleMonitoringService.GoogleMonitoringServiceTimeouts",
+		"@cdktn/provider-google-beta.googleMonitoringService.GoogleMonitoringServiceTimeouts",
 		reflect.TypeOf((*GoogleMonitoringServiceTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleMonitoringService.GoogleMonitoringServiceTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleMonitoringService.GoogleMonitoringServiceTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleMonitoringServiceTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

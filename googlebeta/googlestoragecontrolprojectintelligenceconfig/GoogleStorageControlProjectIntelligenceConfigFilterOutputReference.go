@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlestoragecontrolprojectintelligenceconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlestoragecontrolprojectintelligenceconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlestoragecontrolprojectintelligenceconfig/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -71,7 +71,7 @@ type GoogleStorageControlProjectIntelligenceConfigFilterOutputReference interfac
 	// Experimental.
 	InterpolationAsList() cdktf.IResolvable
 	// Experimental.
-	InterpolationForAttribute(property *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
 	PutExcludedCloudStorageBuckets(value *GoogleStorageControlProjectIntelligenceConfigFilterExcludedCloudStorageBuckets)
 	PutExcludedCloudStorageLocations(value *GoogleStorageControlProjectIntelligenceConfigFilterExcludedCloudStorageLocations)
 	PutIncludedCloudStorageBuckets(value *GoogleStorageControlProjectIntelligenceConfigFilterIncludedCloudStorageBuckets)
@@ -82,7 +82,7 @@ type GoogleStorageControlProjectIntelligenceConfigFilterOutputReference interfac
 	ResetIncludedCloudStorageLocations()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(_context cdktf.IResolveContext) interface{}
+	Resolve(context cdktf.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -255,7 +255,7 @@ func NewGoogleStorageControlProjectIntelligenceConfigFilterOutputReference(terra
 	j := jsiiProxy_GoogleStorageControlProjectIntelligenceConfigFilterOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleStorageControlProjectIntelligenceConfig.GoogleStorageControlProjectIntelligenceConfigFilterOutputReference",
+		"@cdktn/provider-google-beta.googleStorageControlProjectIntelligenceConfig.GoogleStorageControlProjectIntelligenceConfigFilterOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -267,7 +267,7 @@ func NewGoogleStorageControlProjectIntelligenceConfigFilterOutputReference_Overr
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleStorageControlProjectIntelligenceConfig.GoogleStorageControlProjectIntelligenceConfigFilterOutputReference",
+		"@cdktn/provider-google-beta.googleStorageControlProjectIntelligenceConfig.GoogleStorageControlProjectIntelligenceConfigFilterOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		g,
 	)
@@ -498,8 +498,8 @@ func (g *jsiiProxy_GoogleStorageControlProjectIntelligenceConfigFilterOutputRefe
 	return returns
 }
 
-func (g *jsiiProxy_GoogleStorageControlProjectIntelligenceConfigFilterOutputReference) InterpolationForAttribute(property *string) cdktf.IResolvable {
-	if err := g.validateInterpolationForAttributeParameters(property); err != nil {
+func (g *jsiiProxy_GoogleStorageControlProjectIntelligenceConfigFilterOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
 	var returns cdktf.IResolvable
@@ -507,7 +507,7 @@ func (g *jsiiProxy_GoogleStorageControlProjectIntelligenceConfigFilterOutputRefe
 	_jsii_.Invoke(
 		g,
 		"interpolationForAttribute",
-		[]interface{}{property},
+		[]interface{}{terraformAttribute},
 		&returns,
 	)
 
@@ -590,8 +590,8 @@ func (g *jsiiProxy_GoogleStorageControlProjectIntelligenceConfigFilterOutputRefe
 	)
 }
 
-func (g *jsiiProxy_GoogleStorageControlProjectIntelligenceConfigFilterOutputReference) Resolve(_context cdktf.IResolveContext) interface{} {
-	if err := g.validateResolveParameters(_context); err != nil {
+func (g *jsiiProxy_GoogleStorageControlProjectIntelligenceConfigFilterOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}
 	var returns interface{}
@@ -599,7 +599,7 @@ func (g *jsiiProxy_GoogleStorageControlProjectIntelligenceConfigFilterOutputRefe
 	_jsii_.Invoke(
 		g,
 		"resolve",
-		[]interface{}{_context},
+		[]interface{}{context},
 		&returns,
 	)
 

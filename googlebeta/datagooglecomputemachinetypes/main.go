@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagooglecomputemachinetypes
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleComputeMachineTypes.DataGoogleComputeMachineTypes",
+		"@cdktn/provider-google-beta.dataGoogleComputeMachineTypes.DataGoogleComputeMachineTypes",
 		reflect.TypeOf((*DataGoogleComputeMachineTypes)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -68,19 +68,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleComputeMachineTypes.DataGoogleComputeMachineTypesConfig",
+		"@cdktn/provider-google-beta.dataGoogleComputeMachineTypes.DataGoogleComputeMachineTypesConfig",
 		reflect.TypeOf((*DataGoogleComputeMachineTypesConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleComputeMachineTypes.DataGoogleComputeMachineTypesMachineTypes",
+		"@cdktn/provider-google-beta.dataGoogleComputeMachineTypes.DataGoogleComputeMachineTypesMachineTypes",
 		reflect.TypeOf((*DataGoogleComputeMachineTypesMachineTypes)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleComputeMachineTypes.DataGoogleComputeMachineTypesMachineTypesAccelerators",
+		"@cdktn/provider-google-beta.dataGoogleComputeMachineTypes.DataGoogleComputeMachineTypesMachineTypesAccelerators",
 		reflect.TypeOf((*DataGoogleComputeMachineTypesMachineTypesAccelerators)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleComputeMachineTypes.DataGoogleComputeMachineTypesMachineTypesAcceleratorsList",
+		"@cdktn/provider-google-beta.dataGoogleComputeMachineTypes.DataGoogleComputeMachineTypesMachineTypesAcceleratorsList",
 		reflect.TypeOf((*DataGoogleComputeMachineTypesMachineTypesAcceleratorsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -101,7 +101,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleComputeMachineTypes.DataGoogleComputeMachineTypesMachineTypesAcceleratorsOutputReference",
+		"@cdktn/provider-google-beta.dataGoogleComputeMachineTypes.DataGoogleComputeMachineTypesMachineTypesAcceleratorsOutputReference",
 		reflect.TypeOf((*DataGoogleComputeMachineTypesMachineTypesAcceleratorsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -135,11 +135,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleComputeMachineTypes.DataGoogleComputeMachineTypesMachineTypesBundledLocalSsds",
+		"@cdktn/provider-google-beta.dataGoogleComputeMachineTypes.DataGoogleComputeMachineTypesMachineTypesBundledLocalSsds",
 		reflect.TypeOf((*DataGoogleComputeMachineTypesMachineTypesBundledLocalSsds)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleComputeMachineTypes.DataGoogleComputeMachineTypesMachineTypesBundledLocalSsdsList",
+		"@cdktn/provider-google-beta.dataGoogleComputeMachineTypes.DataGoogleComputeMachineTypesMachineTypesBundledLocalSsdsList",
 		reflect.TypeOf((*DataGoogleComputeMachineTypesMachineTypesBundledLocalSsdsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -160,7 +160,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleComputeMachineTypes.DataGoogleComputeMachineTypesMachineTypesBundledLocalSsdsOutputReference",
+		"@cdktn/provider-google-beta.dataGoogleComputeMachineTypes.DataGoogleComputeMachineTypesMachineTypesBundledLocalSsdsOutputReference",
 		reflect.TypeOf((*DataGoogleComputeMachineTypesMachineTypesBundledLocalSsdsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -194,11 +194,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleComputeMachineTypes.DataGoogleComputeMachineTypesMachineTypesDeprecated",
+		"@cdktn/provider-google-beta.dataGoogleComputeMachineTypes.DataGoogleComputeMachineTypesMachineTypesDeprecated",
 		reflect.TypeOf((*DataGoogleComputeMachineTypesMachineTypesDeprecated)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleComputeMachineTypes.DataGoogleComputeMachineTypesMachineTypesDeprecatedList",
+		"@cdktn/provider-google-beta.dataGoogleComputeMachineTypes.DataGoogleComputeMachineTypesMachineTypesDeprecatedList",
 		reflect.TypeOf((*DataGoogleComputeMachineTypesMachineTypesDeprecatedList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -219,7 +219,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleComputeMachineTypes.DataGoogleComputeMachineTypesMachineTypesDeprecatedOutputReference",
+		"@cdktn/provider-google-beta.dataGoogleComputeMachineTypes.DataGoogleComputeMachineTypesMachineTypesDeprecatedOutputReference",
 		reflect.TypeOf((*DataGoogleComputeMachineTypesMachineTypesDeprecatedOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -253,7 +253,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleComputeMachineTypes.DataGoogleComputeMachineTypesMachineTypesList",
+		"@cdktn/provider-google-beta.dataGoogleComputeMachineTypes.DataGoogleComputeMachineTypesMachineTypesList",
 		reflect.TypeOf((*DataGoogleComputeMachineTypesMachineTypesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -274,7 +274,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleComputeMachineTypes.DataGoogleComputeMachineTypesMachineTypesOutputReference",
+		"@cdktn/provider-google-beta.dataGoogleComputeMachineTypes.DataGoogleComputeMachineTypesMachineTypesOutputReference",
 		reflect.TypeOf((*DataGoogleComputeMachineTypesMachineTypesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accelerators", GoGetter: "Accelerators"},

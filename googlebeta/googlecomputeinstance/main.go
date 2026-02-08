@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlecomputeinstance
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleComputeInstance.GoogleComputeInstance",
+		"@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstance",
 		reflect.TypeOf((*GoogleComputeInstance)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -189,11 +189,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleComputeInstance.GoogleComputeInstanceAdvancedMachineFeatures",
+		"@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceAdvancedMachineFeatures",
 		reflect.TypeOf((*GoogleComputeInstanceAdvancedMachineFeatures)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleComputeInstance.GoogleComputeInstanceAdvancedMachineFeaturesOutputReference",
+		"@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceAdvancedMachineFeaturesOutputReference",
 		reflect.TypeOf((*GoogleComputeInstanceAdvancedMachineFeaturesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -243,11 +243,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleComputeInstance.GoogleComputeInstanceAttachedDisk",
+		"@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceAttachedDisk",
 		reflect.TypeOf((*GoogleComputeInstanceAttachedDisk)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleComputeInstance.GoogleComputeInstanceAttachedDiskList",
+		"@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceAttachedDiskList",
 		reflect.TypeOf((*GoogleComputeInstanceAttachedDiskList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -269,7 +269,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleComputeInstance.GoogleComputeInstanceAttachedDiskOutputReference",
+		"@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceAttachedDiskOutputReference",
 		reflect.TypeOf((*GoogleComputeInstanceAttachedDiskOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -325,15 +325,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleComputeInstance.GoogleComputeInstanceBootDisk",
+		"@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceBootDisk",
 		reflect.TypeOf((*GoogleComputeInstanceBootDisk)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleComputeInstance.GoogleComputeInstanceBootDiskInitializeParams",
+		"@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceBootDiskInitializeParams",
 		reflect.TypeOf((*GoogleComputeInstanceBootDiskInitializeParams)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleComputeInstance.GoogleComputeInstanceBootDiskInitializeParamsOutputReference",
+		"@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceBootDiskInitializeParamsOutputReference",
 		reflect.TypeOf((*GoogleComputeInstanceBootDiskInitializeParamsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "architecture", GoGetter: "Architecture"},
@@ -409,11 +409,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleComputeInstance.GoogleComputeInstanceBootDiskInitializeParamsSourceImageEncryptionKey",
+		"@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceBootDiskInitializeParamsSourceImageEncryptionKey",
 		reflect.TypeOf((*GoogleComputeInstanceBootDiskInitializeParamsSourceImageEncryptionKey)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleComputeInstance.GoogleComputeInstanceBootDiskInitializeParamsSourceImageEncryptionKeyOutputReference",
+		"@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceBootDiskInitializeParamsSourceImageEncryptionKeyOutputReference",
 		reflect.TypeOf((*GoogleComputeInstanceBootDiskInitializeParamsSourceImageEncryptionKeyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -458,11 +458,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleComputeInstance.GoogleComputeInstanceBootDiskInitializeParamsSourceSnapshotEncryptionKey",
+		"@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceBootDiskInitializeParamsSourceSnapshotEncryptionKey",
 		reflect.TypeOf((*GoogleComputeInstanceBootDiskInitializeParamsSourceSnapshotEncryptionKey)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleComputeInstance.GoogleComputeInstanceBootDiskInitializeParamsSourceSnapshotEncryptionKeyOutputReference",
+		"@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceBootDiskInitializeParamsSourceSnapshotEncryptionKeyOutputReference",
 		reflect.TypeOf((*GoogleComputeInstanceBootDiskInitializeParamsSourceSnapshotEncryptionKeyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -507,7 +507,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleComputeInstance.GoogleComputeInstanceBootDiskOutputReference",
+		"@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceBootDiskOutputReference",
 		reflect.TypeOf((*GoogleComputeInstanceBootDiskOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "autoDelete", GoGetter: "AutoDelete"},
@@ -577,11 +577,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleComputeInstance.GoogleComputeInstanceConfidentialInstanceConfig",
+		"@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceConfidentialInstanceConfig",
 		reflect.TypeOf((*GoogleComputeInstanceConfidentialInstanceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleComputeInstance.GoogleComputeInstanceConfidentialInstanceConfigOutputReference",
+		"@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceConfidentialInstanceConfigOutputReference",
 		reflect.TypeOf((*GoogleComputeInstanceConfidentialInstanceConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -619,15 +619,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleComputeInstance.GoogleComputeInstanceConfig",
+		"@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceConfig",
 		reflect.TypeOf((*GoogleComputeInstanceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleComputeInstance.GoogleComputeInstanceGuestAccelerator",
+		"@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceGuestAccelerator",
 		reflect.TypeOf((*GoogleComputeInstanceGuestAccelerator)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleComputeInstance.GoogleComputeInstanceGuestAcceleratorList",
+		"@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceGuestAcceleratorList",
 		reflect.TypeOf((*GoogleComputeInstanceGuestAcceleratorList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -649,7 +649,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleComputeInstance.GoogleComputeInstanceGuestAcceleratorOutputReference",
+		"@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceGuestAcceleratorOutputReference",
 		reflect.TypeOf((*GoogleComputeInstanceGuestAcceleratorOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -685,11 +685,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleComputeInstance.GoogleComputeInstanceInstanceEncryptionKey",
+		"@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceInstanceEncryptionKey",
 		reflect.TypeOf((*GoogleComputeInstanceInstanceEncryptionKey)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleComputeInstance.GoogleComputeInstanceInstanceEncryptionKeyOutputReference",
+		"@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceInstanceEncryptionKeyOutputReference",
 		reflect.TypeOf((*GoogleComputeInstanceInstanceEncryptionKeyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -728,15 +728,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleComputeInstance.GoogleComputeInstanceNetworkInterface",
+		"@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceNetworkInterface",
 		reflect.TypeOf((*GoogleComputeInstanceNetworkInterface)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleComputeInstance.GoogleComputeInstanceNetworkInterfaceAccessConfig",
+		"@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceNetworkInterfaceAccessConfig",
 		reflect.TypeOf((*GoogleComputeInstanceNetworkInterfaceAccessConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleComputeInstance.GoogleComputeInstanceNetworkInterfaceAccessConfigList",
+		"@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceNetworkInterfaceAccessConfigList",
 		reflect.TypeOf((*GoogleComputeInstanceNetworkInterfaceAccessConfigList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -758,7 +758,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleComputeInstance.GoogleComputeInstanceNetworkInterfaceAccessConfigOutputReference",
+		"@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceNetworkInterfaceAccessConfigOutputReference",
 		reflect.TypeOf((*GoogleComputeInstanceNetworkInterfaceAccessConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -800,11 +800,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleComputeInstance.GoogleComputeInstanceNetworkInterfaceAliasIpRange",
+		"@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceNetworkInterfaceAliasIpRange",
 		reflect.TypeOf((*GoogleComputeInstanceNetworkInterfaceAliasIpRange)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleComputeInstance.GoogleComputeInstanceNetworkInterfaceAliasIpRangeList",
+		"@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceNetworkInterfaceAliasIpRangeList",
 		reflect.TypeOf((*GoogleComputeInstanceNetworkInterfaceAliasIpRangeList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -826,7 +826,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleComputeInstance.GoogleComputeInstanceNetworkInterfaceAliasIpRangeOutputReference",
+		"@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceNetworkInterfaceAliasIpRangeOutputReference",
 		reflect.TypeOf((*GoogleComputeInstanceNetworkInterfaceAliasIpRangeOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -863,11 +863,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleComputeInstance.GoogleComputeInstanceNetworkInterfaceIpv6AccessConfig",
+		"@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceNetworkInterfaceIpv6AccessConfig",
 		reflect.TypeOf((*GoogleComputeInstanceNetworkInterfaceIpv6AccessConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleComputeInstance.GoogleComputeInstanceNetworkInterfaceIpv6AccessConfigList",
+		"@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceNetworkInterfaceIpv6AccessConfigList",
 		reflect.TypeOf((*GoogleComputeInstanceNetworkInterfaceIpv6AccessConfigList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -889,7 +889,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleComputeInstance.GoogleComputeInstanceNetworkInterfaceIpv6AccessConfigOutputReference",
+		"@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceNetworkInterfaceIpv6AccessConfigOutputReference",
 		reflect.TypeOf((*GoogleComputeInstanceNetworkInterfaceIpv6AccessConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -936,7 +936,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleComputeInstance.GoogleComputeInstanceNetworkInterfaceList",
+		"@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceNetworkInterfaceList",
 		reflect.TypeOf((*GoogleComputeInstanceNetworkInterfaceList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -958,7 +958,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleComputeInstance.GoogleComputeInstanceNetworkInterfaceOutputReference",
+		"@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceNetworkInterfaceOutputReference",
 		reflect.TypeOf((*GoogleComputeInstanceNetworkInterfaceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessConfig", GoGetter: "AccessConfig"},
@@ -1037,11 +1037,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleComputeInstance.GoogleComputeInstanceNetworkPerformanceConfig",
+		"@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceNetworkPerformanceConfig",
 		reflect.TypeOf((*GoogleComputeInstanceNetworkPerformanceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleComputeInstance.GoogleComputeInstanceNetworkPerformanceConfigOutputReference",
+		"@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceNetworkPerformanceConfigOutputReference",
 		reflect.TypeOf((*GoogleComputeInstanceNetworkPerformanceConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1075,11 +1075,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleComputeInstance.GoogleComputeInstanceParams",
+		"@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceParams",
 		reflect.TypeOf((*GoogleComputeInstanceParams)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleComputeInstance.GoogleComputeInstanceParamsOutputReference",
+		"@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceParamsOutputReference",
 		reflect.TypeOf((*GoogleComputeInstanceParamsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1114,11 +1114,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleComputeInstance.GoogleComputeInstanceReservationAffinity",
+		"@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceReservationAffinity",
 		reflect.TypeOf((*GoogleComputeInstanceReservationAffinity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleComputeInstance.GoogleComputeInstanceReservationAffinityOutputReference",
+		"@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceReservationAffinityOutputReference",
 		reflect.TypeOf((*GoogleComputeInstanceReservationAffinityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1156,11 +1156,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleComputeInstance.GoogleComputeInstanceReservationAffinitySpecificReservation",
+		"@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceReservationAffinitySpecificReservation",
 		reflect.TypeOf((*GoogleComputeInstanceReservationAffinitySpecificReservation)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleComputeInstance.GoogleComputeInstanceReservationAffinitySpecificReservationOutputReference",
+		"@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceReservationAffinitySpecificReservationOutputReference",
 		reflect.TypeOf((*GoogleComputeInstanceReservationAffinitySpecificReservationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1196,19 +1196,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleComputeInstance.GoogleComputeInstanceScheduling",
+		"@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceScheduling",
 		reflect.TypeOf((*GoogleComputeInstanceScheduling)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleComputeInstance.GoogleComputeInstanceSchedulingGracefulShutdown",
+		"@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceSchedulingGracefulShutdown",
 		reflect.TypeOf((*GoogleComputeInstanceSchedulingGracefulShutdown)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleComputeInstance.GoogleComputeInstanceSchedulingGracefulShutdownMaxDuration",
+		"@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceSchedulingGracefulShutdownMaxDuration",
 		reflect.TypeOf((*GoogleComputeInstanceSchedulingGracefulShutdownMaxDuration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleComputeInstance.GoogleComputeInstanceSchedulingGracefulShutdownMaxDurationOutputReference",
+		"@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceSchedulingGracefulShutdownMaxDurationOutputReference",
 		reflect.TypeOf((*GoogleComputeInstanceSchedulingGracefulShutdownMaxDurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1245,7 +1245,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleComputeInstance.GoogleComputeInstanceSchedulingGracefulShutdownOutputReference",
+		"@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceSchedulingGracefulShutdownOutputReference",
 		reflect.TypeOf((*GoogleComputeInstanceSchedulingGracefulShutdownOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1283,11 +1283,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleComputeInstance.GoogleComputeInstanceSchedulingLocalSsdRecoveryTimeout",
+		"@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceSchedulingLocalSsdRecoveryTimeout",
 		reflect.TypeOf((*GoogleComputeInstanceSchedulingLocalSsdRecoveryTimeout)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleComputeInstance.GoogleComputeInstanceSchedulingLocalSsdRecoveryTimeoutOutputReference",
+		"@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceSchedulingLocalSsdRecoveryTimeoutOutputReference",
 		reflect.TypeOf((*GoogleComputeInstanceSchedulingLocalSsdRecoveryTimeoutOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1324,11 +1324,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleComputeInstance.GoogleComputeInstanceSchedulingMaxRunDuration",
+		"@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceSchedulingMaxRunDuration",
 		reflect.TypeOf((*GoogleComputeInstanceSchedulingMaxRunDuration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleComputeInstance.GoogleComputeInstanceSchedulingMaxRunDurationOutputReference",
+		"@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceSchedulingMaxRunDurationOutputReference",
 		reflect.TypeOf((*GoogleComputeInstanceSchedulingMaxRunDurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1365,11 +1365,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleComputeInstance.GoogleComputeInstanceSchedulingNodeAffinities",
+		"@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceSchedulingNodeAffinities",
 		reflect.TypeOf((*GoogleComputeInstanceSchedulingNodeAffinities)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleComputeInstance.GoogleComputeInstanceSchedulingNodeAffinitiesList",
+		"@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceSchedulingNodeAffinitiesList",
 		reflect.TypeOf((*GoogleComputeInstanceSchedulingNodeAffinitiesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1391,7 +1391,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleComputeInstance.GoogleComputeInstanceSchedulingNodeAffinitiesOutputReference",
+		"@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceSchedulingNodeAffinitiesOutputReference",
 		reflect.TypeOf((*GoogleComputeInstanceSchedulingNodeAffinitiesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1429,11 +1429,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleComputeInstance.GoogleComputeInstanceSchedulingOnInstanceStopAction",
+		"@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceSchedulingOnInstanceStopAction",
 		reflect.TypeOf((*GoogleComputeInstanceSchedulingOnInstanceStopAction)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleComputeInstance.GoogleComputeInstanceSchedulingOnInstanceStopActionOutputReference",
+		"@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceSchedulingOnInstanceStopActionOutputReference",
 		reflect.TypeOf((*GoogleComputeInstanceSchedulingOnInstanceStopActionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1468,7 +1468,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleComputeInstance.GoogleComputeInstanceSchedulingOutputReference",
+		"@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceSchedulingOutputReference",
 		reflect.TypeOf((*GoogleComputeInstanceSchedulingOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "automaticRestart", GoGetter: "AutomaticRestart"},
@@ -1550,11 +1550,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleComputeInstance.GoogleComputeInstanceScratchDisk",
+		"@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceScratchDisk",
 		reflect.TypeOf((*GoogleComputeInstanceScratchDisk)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleComputeInstance.GoogleComputeInstanceScratchDiskList",
+		"@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceScratchDiskList",
 		reflect.TypeOf((*GoogleComputeInstanceScratchDiskList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1576,7 +1576,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleComputeInstance.GoogleComputeInstanceScratchDiskOutputReference",
+		"@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceScratchDiskOutputReference",
 		reflect.TypeOf((*GoogleComputeInstanceScratchDiskOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1616,11 +1616,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleComputeInstance.GoogleComputeInstanceServiceAccount",
+		"@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceServiceAccount",
 		reflect.TypeOf((*GoogleComputeInstanceServiceAccount)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleComputeInstance.GoogleComputeInstanceServiceAccountOutputReference",
+		"@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceServiceAccountOutputReference",
 		reflect.TypeOf((*GoogleComputeInstanceServiceAccountOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1657,11 +1657,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleComputeInstance.GoogleComputeInstanceShieldedInstanceConfig",
+		"@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceShieldedInstanceConfig",
 		reflect.TypeOf((*GoogleComputeInstanceShieldedInstanceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleComputeInstance.GoogleComputeInstanceShieldedInstanceConfigOutputReference",
+		"@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceShieldedInstanceConfigOutputReference",
 		reflect.TypeOf((*GoogleComputeInstanceShieldedInstanceConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1702,11 +1702,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleComputeInstance.GoogleComputeInstanceTimeouts",
+		"@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceTimeouts",
 		reflect.TypeOf((*GoogleComputeInstanceTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleComputeInstance.GoogleComputeInstanceTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleComputeInstance.GoogleComputeInstanceTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleComputeInstanceTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

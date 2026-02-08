@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googledataflowflextemplatejob
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleDataflowFlexTemplateJob.GoogleDataflowFlexTemplateJob",
+		"@cdktn/provider-google-beta.googleDataflowFlexTemplateJob.GoogleDataflowFlexTemplateJob",
 		reflect.TypeOf((*GoogleDataflowFlexTemplateJob)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "additionalExperiments", GoGetter: "AdditionalExperiments"},
@@ -144,7 +144,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleDataflowFlexTemplateJob.GoogleDataflowFlexTemplateJobConfig",
+		"@cdktn/provider-google-beta.googleDataflowFlexTemplateJob.GoogleDataflowFlexTemplateJobConfig",
 		reflect.TypeOf((*GoogleDataflowFlexTemplateJobConfig)(nil)).Elem(),
 	)
 }

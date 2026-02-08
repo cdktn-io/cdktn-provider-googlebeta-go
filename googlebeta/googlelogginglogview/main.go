@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlelogginglogview
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleLoggingLogView.GoogleLoggingLogView",
+		"@cdktn/provider-google-beta.googleLoggingLogView.GoogleLoggingLogView",
 		reflect.TypeOf((*GoogleLoggingLogView)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -88,15 +88,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleLoggingLogView.GoogleLoggingLogViewConfig",
+		"@cdktn/provider-google-beta.googleLoggingLogView.GoogleLoggingLogViewConfig",
 		reflect.TypeOf((*GoogleLoggingLogViewConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleLoggingLogView.GoogleLoggingLogViewTimeouts",
+		"@cdktn/provider-google-beta.googleLoggingLogView.GoogleLoggingLogViewTimeouts",
 		reflect.TypeOf((*GoogleLoggingLogViewTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleLoggingLogView.GoogleLoggingLogViewTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleLoggingLogView.GoogleLoggingLogViewTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleLoggingLogViewTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

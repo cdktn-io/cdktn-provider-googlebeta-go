@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlespannerdatabase
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleSpannerDatabase.GoogleSpannerDatabase",
+		"@cdktn/provider-google-beta.googleSpannerDatabase.GoogleSpannerDatabase",
 		reflect.TypeOf((*GoogleSpannerDatabase)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -100,15 +100,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleSpannerDatabase.GoogleSpannerDatabaseConfig",
+		"@cdktn/provider-google-beta.googleSpannerDatabase.GoogleSpannerDatabaseConfig",
 		reflect.TypeOf((*GoogleSpannerDatabaseConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleSpannerDatabase.GoogleSpannerDatabaseEncryptionConfig",
+		"@cdktn/provider-google-beta.googleSpannerDatabase.GoogleSpannerDatabaseEncryptionConfig",
 		reflect.TypeOf((*GoogleSpannerDatabaseEncryptionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleSpannerDatabase.GoogleSpannerDatabaseEncryptionConfigOutputReference",
+		"@cdktn/provider-google-beta.googleSpannerDatabase.GoogleSpannerDatabaseEncryptionConfigOutputReference",
 		reflect.TypeOf((*GoogleSpannerDatabaseEncryptionConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -146,11 +146,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleSpannerDatabase.GoogleSpannerDatabaseTimeouts",
+		"@cdktn/provider-google-beta.googleSpannerDatabase.GoogleSpannerDatabaseTimeouts",
 		reflect.TypeOf((*GoogleSpannerDatabaseTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleSpannerDatabase.GoogleSpannerDatabaseTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleSpannerDatabase.GoogleSpannerDatabaseTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleSpannerDatabaseTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlebigtableschemabundle
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlebigtableschemabundle/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlebigtableschemabundle/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -497,7 +497,7 @@ func NewGoogleBigtableSchemaBundle(scope constructs.Construct, id *string, confi
 	j := jsiiProxy_GoogleBigtableSchemaBundle{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleBigtableSchemaBundle.GoogleBigtableSchemaBundle",
+		"@cdktn/provider-google-beta.googleBigtableSchemaBundle.GoogleBigtableSchemaBundle",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -510,7 +510,7 @@ func NewGoogleBigtableSchemaBundle_Override(g GoogleBigtableSchemaBundle, scope 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleBigtableSchemaBundle.GoogleBigtableSchemaBundle",
+		"@cdktn/provider-google-beta.googleBigtableSchemaBundle.GoogleBigtableSchemaBundle",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -660,7 +660,7 @@ func GoogleBigtableSchemaBundle_GenerateConfigForImport(scope constructs.Constru
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleBigtableSchemaBundle.GoogleBigtableSchemaBundle",
+		"@cdktn/provider-google-beta.googleBigtableSchemaBundle.GoogleBigtableSchemaBundle",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -695,7 +695,7 @@ func GoogleBigtableSchemaBundle_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleBigtableSchemaBundle.GoogleBigtableSchemaBundle",
+		"@cdktn/provider-google-beta.googleBigtableSchemaBundle.GoogleBigtableSchemaBundle",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -714,7 +714,7 @@ func GoogleBigtableSchemaBundle_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleBigtableSchemaBundle.GoogleBigtableSchemaBundle",
+		"@cdktn/provider-google-beta.googleBigtableSchemaBundle.GoogleBigtableSchemaBundle",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -733,7 +733,7 @@ func GoogleBigtableSchemaBundle_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleBigtableSchemaBundle.GoogleBigtableSchemaBundle",
+		"@cdktn/provider-google-beta.googleBigtableSchemaBundle.GoogleBigtableSchemaBundle",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -746,7 +746,7 @@ func GoogleBigtableSchemaBundle_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleBigtableSchemaBundle.GoogleBigtableSchemaBundle",
+		"@cdktn/provider-google-beta.googleBigtableSchemaBundle.GoogleBigtableSchemaBundle",
 		"tfResourceType",
 		&returns,
 	)

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlestoragebucketacl
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl",
+		"@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl",
 		reflect.TypeOf((*GoogleStorageBucketAcl)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -77,7 +77,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAclConfig",
+		"@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAclConfig",
 		reflect.TypeOf((*GoogleStorageBucketAclConfig)(nil)).Elem(),
 	)
 }

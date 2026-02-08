@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googleprojectiambinding
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googleprojectiambinding/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleprojectiambinding/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -424,7 +424,7 @@ func NewGoogleProjectIamBinding(scope constructs.Construct, id *string, config *
 	j := jsiiProxy_GoogleProjectIamBinding{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleProjectIamBinding.GoogleProjectIamBinding",
+		"@cdktn/provider-google-beta.googleProjectIamBinding.GoogleProjectIamBinding",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -437,7 +437,7 @@ func NewGoogleProjectIamBinding_Override(g GoogleProjectIamBinding, scope constr
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleProjectIamBinding.GoogleProjectIamBinding",
+		"@cdktn/provider-google-beta.googleProjectIamBinding.GoogleProjectIamBinding",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -565,7 +565,7 @@ func GoogleProjectIamBinding_GenerateConfigForImport(scope constructs.Construct,
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleProjectIamBinding.GoogleProjectIamBinding",
+		"@cdktn/provider-google-beta.googleProjectIamBinding.GoogleProjectIamBinding",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -600,7 +600,7 @@ func GoogleProjectIamBinding_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleProjectIamBinding.GoogleProjectIamBinding",
+		"@cdktn/provider-google-beta.googleProjectIamBinding.GoogleProjectIamBinding",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -619,7 +619,7 @@ func GoogleProjectIamBinding_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleProjectIamBinding.GoogleProjectIamBinding",
+		"@cdktn/provider-google-beta.googleProjectIamBinding.GoogleProjectIamBinding",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -638,7 +638,7 @@ func GoogleProjectIamBinding_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleProjectIamBinding.GoogleProjectIamBinding",
+		"@cdktn/provider-google-beta.googleProjectIamBinding.GoogleProjectIamBinding",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -651,7 +651,7 @@ func GoogleProjectIamBinding_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleProjectIamBinding.GoogleProjectIamBinding",
+		"@cdktn/provider-google-beta.googleProjectIamBinding.GoogleProjectIamBinding",
 		"tfResourceType",
 		&returns,
 	)

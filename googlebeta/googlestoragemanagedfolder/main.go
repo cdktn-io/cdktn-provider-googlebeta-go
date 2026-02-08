@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlestoragemanagedfolder
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolder",
+		"@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolder",
 		reflect.TypeOf((*GoogleStorageManagedFolder)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -81,15 +81,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderConfig",
+		"@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderConfig",
 		reflect.TypeOf((*GoogleStorageManagedFolderConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderTimeouts",
+		"@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderTimeouts",
 		reflect.TypeOf((*GoogleStorageManagedFolderTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleStorageManagedFolder.GoogleStorageManagedFolderTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleStorageManagedFolderTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlevertexaidataset
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleVertexAiDataset.GoogleVertexAiDataset",
+		"@cdktn/provider-google-beta.googleVertexAiDataset.GoogleVertexAiDataset",
 		reflect.TypeOf((*GoogleVertexAiDataset)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -92,15 +92,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleVertexAiDataset.GoogleVertexAiDatasetConfig",
+		"@cdktn/provider-google-beta.googleVertexAiDataset.GoogleVertexAiDatasetConfig",
 		reflect.TypeOf((*GoogleVertexAiDatasetConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleVertexAiDataset.GoogleVertexAiDatasetEncryptionSpec",
+		"@cdktn/provider-google-beta.googleVertexAiDataset.GoogleVertexAiDatasetEncryptionSpec",
 		reflect.TypeOf((*GoogleVertexAiDatasetEncryptionSpec)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleVertexAiDataset.GoogleVertexAiDatasetEncryptionSpecOutputReference",
+		"@cdktn/provider-google-beta.googleVertexAiDataset.GoogleVertexAiDatasetEncryptionSpecOutputReference",
 		reflect.TypeOf((*GoogleVertexAiDatasetEncryptionSpecOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -135,11 +135,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleVertexAiDataset.GoogleVertexAiDatasetTimeouts",
+		"@cdktn/provider-google-beta.googleVertexAiDataset.GoogleVertexAiDatasetTimeouts",
 		reflect.TypeOf((*GoogleVertexAiDatasetTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleVertexAiDataset.GoogleVertexAiDatasetTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleVertexAiDataset.GoogleVertexAiDatasetTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleVertexAiDatasetTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

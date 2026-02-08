@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlebigtablegcpolicy
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleBigtableGcPolicy.GoogleBigtableGcPolicy",
+		"@cdktn/provider-google-beta.googleBigtableGcPolicy.GoogleBigtableGcPolicy",
 		reflect.TypeOf((*GoogleBigtableGcPolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -99,15 +99,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleBigtableGcPolicy.GoogleBigtableGcPolicyConfig",
+		"@cdktn/provider-google-beta.googleBigtableGcPolicy.GoogleBigtableGcPolicyConfig",
 		reflect.TypeOf((*GoogleBigtableGcPolicyConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleBigtableGcPolicy.GoogleBigtableGcPolicyMaxAge",
+		"@cdktn/provider-google-beta.googleBigtableGcPolicy.GoogleBigtableGcPolicyMaxAge",
 		reflect.TypeOf((*GoogleBigtableGcPolicyMaxAge)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleBigtableGcPolicy.GoogleBigtableGcPolicyMaxAgeOutputReference",
+		"@cdktn/provider-google-beta.googleBigtableGcPolicy.GoogleBigtableGcPolicyMaxAgeOutputReference",
 		reflect.TypeOf((*GoogleBigtableGcPolicyMaxAgeOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -145,11 +145,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleBigtableGcPolicy.GoogleBigtableGcPolicyMaxVersion",
+		"@cdktn/provider-google-beta.googleBigtableGcPolicy.GoogleBigtableGcPolicyMaxVersion",
 		reflect.TypeOf((*GoogleBigtableGcPolicyMaxVersion)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleBigtableGcPolicy.GoogleBigtableGcPolicyMaxVersionList",
+		"@cdktn/provider-google-beta.googleBigtableGcPolicy.GoogleBigtableGcPolicyMaxVersionList",
 		reflect.TypeOf((*GoogleBigtableGcPolicyMaxVersionList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -171,7 +171,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleBigtableGcPolicy.GoogleBigtableGcPolicyMaxVersionOutputReference",
+		"@cdktn/provider-google-beta.googleBigtableGcPolicy.GoogleBigtableGcPolicyMaxVersionOutputReference",
 		reflect.TypeOf((*GoogleBigtableGcPolicyMaxVersionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -205,11 +205,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleBigtableGcPolicy.GoogleBigtableGcPolicyTimeouts",
+		"@cdktn/provider-google-beta.googleBigtableGcPolicy.GoogleBigtableGcPolicyTimeouts",
 		reflect.TypeOf((*GoogleBigtableGcPolicyTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleBigtableGcPolicy.GoogleBigtableGcPolicyTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleBigtableGcPolicy.GoogleBigtableGcPolicyTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleBigtableGcPolicyTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

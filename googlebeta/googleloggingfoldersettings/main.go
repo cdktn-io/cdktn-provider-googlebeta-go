@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googleloggingfoldersettings
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleLoggingFolderSettings.GoogleLoggingFolderSettings",
+		"@cdktn/provider-google-beta.googleLoggingFolderSettings.GoogleLoggingFolderSettings",
 		reflect.TypeOf((*GoogleLoggingFolderSettings)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -84,15 +84,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleLoggingFolderSettings.GoogleLoggingFolderSettingsConfig",
+		"@cdktn/provider-google-beta.googleLoggingFolderSettings.GoogleLoggingFolderSettingsConfig",
 		reflect.TypeOf((*GoogleLoggingFolderSettingsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleLoggingFolderSettings.GoogleLoggingFolderSettingsTimeouts",
+		"@cdktn/provider-google-beta.googleLoggingFolderSettings.GoogleLoggingFolderSettingsTimeouts",
 		reflect.TypeOf((*GoogleLoggingFolderSettingsTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleLoggingFolderSettings.GoogleLoggingFolderSettingsTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleLoggingFolderSettings.GoogleLoggingFolderSettingsTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleLoggingFolderSettingsTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlemanagedkafkatopic
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleManagedKafkaTopic.GoogleManagedKafkaTopic",
+		"@cdktn/provider-google-beta.googleManagedKafkaTopic.GoogleManagedKafkaTopic",
 		reflect.TypeOf((*GoogleManagedKafkaTopic)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -88,15 +88,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleManagedKafkaTopic.GoogleManagedKafkaTopicConfig",
+		"@cdktn/provider-google-beta.googleManagedKafkaTopic.GoogleManagedKafkaTopicConfig",
 		reflect.TypeOf((*GoogleManagedKafkaTopicConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleManagedKafkaTopic.GoogleManagedKafkaTopicTimeouts",
+		"@cdktn/provider-google-beta.googleManagedKafkaTopic.GoogleManagedKafkaTopicTimeouts",
 		reflect.TypeOf((*GoogleManagedKafkaTopicTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleManagedKafkaTopic.GoogleManagedKafkaTopicTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleManagedKafkaTopic.GoogleManagedKafkaTopicTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleManagedKafkaTopicTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

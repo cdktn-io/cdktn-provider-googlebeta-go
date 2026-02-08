@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlevertexaifeaturegroupiambinding
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleVertexAiFeatureGroupIamBinding.GoogleVertexAiFeatureGroupIamBinding",
+		"@cdktn/provider-google-beta.googleVertexAiFeatureGroupIamBinding.GoogleVertexAiFeatureGroupIamBinding",
 		reflect.TypeOf((*GoogleVertexAiFeatureGroupIamBinding)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -83,11 +83,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleVertexAiFeatureGroupIamBinding.GoogleVertexAiFeatureGroupIamBindingCondition",
+		"@cdktn/provider-google-beta.googleVertexAiFeatureGroupIamBinding.GoogleVertexAiFeatureGroupIamBindingCondition",
 		reflect.TypeOf((*GoogleVertexAiFeatureGroupIamBindingCondition)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleVertexAiFeatureGroupIamBinding.GoogleVertexAiFeatureGroupIamBindingConditionOutputReference",
+		"@cdktn/provider-google-beta.googleVertexAiFeatureGroupIamBinding.GoogleVertexAiFeatureGroupIamBindingConditionOutputReference",
 		reflect.TypeOf((*GoogleVertexAiFeatureGroupIamBindingConditionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -126,7 +126,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleVertexAiFeatureGroupIamBinding.GoogleVertexAiFeatureGroupIamBindingConfig",
+		"@cdktn/provider-google-beta.googleVertexAiFeatureGroupIamBinding.GoogleVertexAiFeatureGroupIamBindingConfig",
 		reflect.TypeOf((*GoogleVertexAiFeatureGroupIamBindingConfig)(nil)).Elem(),
 	)
 }

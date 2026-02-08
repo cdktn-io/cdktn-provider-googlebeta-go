@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlemonitoringnotificationchannel
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlemonitoringnotificationchannel/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlemonitoringnotificationchannel/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -581,7 +581,7 @@ func NewGoogleMonitoringNotificationChannel(scope constructs.Construct, id *stri
 	j := jsiiProxy_GoogleMonitoringNotificationChannel{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleMonitoringNotificationChannel.GoogleMonitoringNotificationChannel",
+		"@cdktn/provider-google-beta.googleMonitoringNotificationChannel.GoogleMonitoringNotificationChannel",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -594,7 +594,7 @@ func NewGoogleMonitoringNotificationChannel_Override(g GoogleMonitoringNotificat
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleMonitoringNotificationChannel.GoogleMonitoringNotificationChannel",
+		"@cdktn/provider-google-beta.googleMonitoringNotificationChannel.GoogleMonitoringNotificationChannel",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -777,7 +777,7 @@ func GoogleMonitoringNotificationChannel_GenerateConfigForImport(scope construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleMonitoringNotificationChannel.GoogleMonitoringNotificationChannel",
+		"@cdktn/provider-google-beta.googleMonitoringNotificationChannel.GoogleMonitoringNotificationChannel",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -812,7 +812,7 @@ func GoogleMonitoringNotificationChannel_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleMonitoringNotificationChannel.GoogleMonitoringNotificationChannel",
+		"@cdktn/provider-google-beta.googleMonitoringNotificationChannel.GoogleMonitoringNotificationChannel",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -831,7 +831,7 @@ func GoogleMonitoringNotificationChannel_IsTerraformElement(x interface{}) *bool
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleMonitoringNotificationChannel.GoogleMonitoringNotificationChannel",
+		"@cdktn/provider-google-beta.googleMonitoringNotificationChannel.GoogleMonitoringNotificationChannel",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -850,7 +850,7 @@ func GoogleMonitoringNotificationChannel_IsTerraformResource(x interface{}) *boo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleMonitoringNotificationChannel.GoogleMonitoringNotificationChannel",
+		"@cdktn/provider-google-beta.googleMonitoringNotificationChannel.GoogleMonitoringNotificationChannel",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -863,7 +863,7 @@ func GoogleMonitoringNotificationChannel_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleMonitoringNotificationChannel.GoogleMonitoringNotificationChannel",
+		"@cdktn/provider-google-beta.googleMonitoringNotificationChannel.GoogleMonitoringNotificationChannel",
 		"tfResourceType",
 		&returns,
 	)

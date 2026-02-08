@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlecomputeregiondiskiammember
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleComputeRegionDiskIamMember.GoogleComputeRegionDiskIamMember",
+		"@cdktn/provider-google-beta.googleComputeRegionDiskIamMember.GoogleComputeRegionDiskIamMember",
 		reflect.TypeOf((*GoogleComputeRegionDiskIamMember)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -83,11 +83,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleComputeRegionDiskIamMember.GoogleComputeRegionDiskIamMemberCondition",
+		"@cdktn/provider-google-beta.googleComputeRegionDiskIamMember.GoogleComputeRegionDiskIamMemberCondition",
 		reflect.TypeOf((*GoogleComputeRegionDiskIamMemberCondition)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleComputeRegionDiskIamMember.GoogleComputeRegionDiskIamMemberConditionOutputReference",
+		"@cdktn/provider-google-beta.googleComputeRegionDiskIamMember.GoogleComputeRegionDiskIamMemberConditionOutputReference",
 		reflect.TypeOf((*GoogleComputeRegionDiskIamMemberConditionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -126,7 +126,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleComputeRegionDiskIamMember.GoogleComputeRegionDiskIamMemberConfig",
+		"@cdktn/provider-google-beta.googleComputeRegionDiskIamMember.GoogleComputeRegionDiskIamMemberConfig",
 		reflect.TypeOf((*GoogleComputeRegionDiskIamMemberConfig)(nil)).Elem(),
 	)
 }

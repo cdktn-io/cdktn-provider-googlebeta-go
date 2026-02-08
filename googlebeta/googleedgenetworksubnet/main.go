@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googleedgenetworksubnet
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleEdgenetworkSubnet.GoogleEdgenetworkSubnet",
+		"@cdktn/provider-google-beta.googleEdgenetworkSubnet.GoogleEdgenetworkSubnet",
 		reflect.TypeOf((*GoogleEdgenetworkSubnet)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -102,15 +102,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleEdgenetworkSubnet.GoogleEdgenetworkSubnetConfig",
+		"@cdktn/provider-google-beta.googleEdgenetworkSubnet.GoogleEdgenetworkSubnetConfig",
 		reflect.TypeOf((*GoogleEdgenetworkSubnetConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleEdgenetworkSubnet.GoogleEdgenetworkSubnetTimeouts",
+		"@cdktn/provider-google-beta.googleEdgenetworkSubnet.GoogleEdgenetworkSubnetTimeouts",
 		reflect.TypeOf((*GoogleEdgenetworkSubnetTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleEdgenetworkSubnet.GoogleEdgenetworkSubnetTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleEdgenetworkSubnet.GoogleEdgenetworkSubnetTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleEdgenetworkSubnetTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

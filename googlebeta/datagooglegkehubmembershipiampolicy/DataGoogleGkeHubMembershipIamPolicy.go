@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagooglegkehubmembershipiampolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/datagooglegkehubmembershipiampolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagooglegkehubmembershipiampolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -368,7 +368,7 @@ func NewDataGoogleGkeHubMembershipIamPolicy(scope constructs.Construct, id *stri
 	j := jsiiProxy_DataGoogleGkeHubMembershipIamPolicy{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.dataGoogleGkeHubMembershipIamPolicy.DataGoogleGkeHubMembershipIamPolicy",
+		"@cdktn/provider-google-beta.dataGoogleGkeHubMembershipIamPolicy.DataGoogleGkeHubMembershipIamPolicy",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -381,7 +381,7 @@ func NewDataGoogleGkeHubMembershipIamPolicy_Override(d DataGoogleGkeHubMembershi
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.dataGoogleGkeHubMembershipIamPolicy.DataGoogleGkeHubMembershipIamPolicy",
+		"@cdktn/provider-google-beta.dataGoogleGkeHubMembershipIamPolicy.DataGoogleGkeHubMembershipIamPolicy",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -487,7 +487,7 @@ func DataGoogleGkeHubMembershipIamPolicy_GenerateConfigForImport(scope construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleGkeHubMembershipIamPolicy.DataGoogleGkeHubMembershipIamPolicy",
+		"@cdktn/provider-google-beta.dataGoogleGkeHubMembershipIamPolicy.DataGoogleGkeHubMembershipIamPolicy",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -522,7 +522,7 @@ func DataGoogleGkeHubMembershipIamPolicy_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleGkeHubMembershipIamPolicy.DataGoogleGkeHubMembershipIamPolicy",
+		"@cdktn/provider-google-beta.dataGoogleGkeHubMembershipIamPolicy.DataGoogleGkeHubMembershipIamPolicy",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -541,7 +541,7 @@ func DataGoogleGkeHubMembershipIamPolicy_IsTerraformDataSource(x interface{}) *b
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleGkeHubMembershipIamPolicy.DataGoogleGkeHubMembershipIamPolicy",
+		"@cdktn/provider-google-beta.dataGoogleGkeHubMembershipIamPolicy.DataGoogleGkeHubMembershipIamPolicy",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -560,7 +560,7 @@ func DataGoogleGkeHubMembershipIamPolicy_IsTerraformElement(x interface{}) *bool
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleGkeHubMembershipIamPolicy.DataGoogleGkeHubMembershipIamPolicy",
+		"@cdktn/provider-google-beta.dataGoogleGkeHubMembershipIamPolicy.DataGoogleGkeHubMembershipIamPolicy",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -573,7 +573,7 @@ func DataGoogleGkeHubMembershipIamPolicy_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.dataGoogleGkeHubMembershipIamPolicy.DataGoogleGkeHubMembershipIamPolicy",
+		"@cdktn/provider-google-beta.dataGoogleGkeHubMembershipIamPolicy.DataGoogleGkeHubMembershipIamPolicy",
 		"tfResourceType",
 		&returns,
 	)

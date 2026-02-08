@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googletranscoderjobtemplate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googletranscoderjobtemplate/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googletranscoderjobtemplate/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -495,7 +495,7 @@ func NewGoogleTranscoderJobTemplate(scope constructs.Construct, id *string, conf
 	j := jsiiProxy_GoogleTranscoderJobTemplate{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleTranscoderJobTemplate.GoogleTranscoderJobTemplate",
+		"@cdktn/provider-google-beta.googleTranscoderJobTemplate.GoogleTranscoderJobTemplate",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -508,7 +508,7 @@ func NewGoogleTranscoderJobTemplate_Override(g GoogleTranscoderJobTemplate, scop
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleTranscoderJobTemplate.GoogleTranscoderJobTemplate",
+		"@cdktn/provider-google-beta.googleTranscoderJobTemplate.GoogleTranscoderJobTemplate",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -647,7 +647,7 @@ func GoogleTranscoderJobTemplate_GenerateConfigForImport(scope constructs.Constr
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleTranscoderJobTemplate.GoogleTranscoderJobTemplate",
+		"@cdktn/provider-google-beta.googleTranscoderJobTemplate.GoogleTranscoderJobTemplate",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -682,7 +682,7 @@ func GoogleTranscoderJobTemplate_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleTranscoderJobTemplate.GoogleTranscoderJobTemplate",
+		"@cdktn/provider-google-beta.googleTranscoderJobTemplate.GoogleTranscoderJobTemplate",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -701,7 +701,7 @@ func GoogleTranscoderJobTemplate_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleTranscoderJobTemplate.GoogleTranscoderJobTemplate",
+		"@cdktn/provider-google-beta.googleTranscoderJobTemplate.GoogleTranscoderJobTemplate",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -720,7 +720,7 @@ func GoogleTranscoderJobTemplate_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleTranscoderJobTemplate.GoogleTranscoderJobTemplate",
+		"@cdktn/provider-google-beta.googleTranscoderJobTemplate.GoogleTranscoderJobTemplate",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -733,7 +733,7 @@ func GoogleTranscoderJobTemplate_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleTranscoderJobTemplate.GoogleTranscoderJobTemplate",
+		"@cdktn/provider-google-beta.googleTranscoderJobTemplate.GoogleTranscoderJobTemplate",
 		"tfResourceType",
 		&returns,
 	)

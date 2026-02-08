@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlesqlsslcert
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlesqlsslcert/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlesqlsslcert/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -491,7 +491,7 @@ func NewGoogleSqlSslCert(scope constructs.Construct, id *string, config *GoogleS
 	j := jsiiProxy_GoogleSqlSslCert{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleSqlSslCert.GoogleSqlSslCert",
+		"@cdktn/provider-google-beta.googleSqlSslCert.GoogleSqlSslCert",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -504,7 +504,7 @@ func NewGoogleSqlSslCert_Override(g GoogleSqlSslCert, scope constructs.Construct
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleSqlSslCert.GoogleSqlSslCert",
+		"@cdktn/provider-google-beta.googleSqlSslCert.GoogleSqlSslCert",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -632,7 +632,7 @@ func GoogleSqlSslCert_GenerateConfigForImport(scope constructs.Construct, import
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleSqlSslCert.GoogleSqlSslCert",
+		"@cdktn/provider-google-beta.googleSqlSslCert.GoogleSqlSslCert",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -667,7 +667,7 @@ func GoogleSqlSslCert_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleSqlSslCert.GoogleSqlSslCert",
+		"@cdktn/provider-google-beta.googleSqlSslCert.GoogleSqlSslCert",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -686,7 +686,7 @@ func GoogleSqlSslCert_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleSqlSslCert.GoogleSqlSslCert",
+		"@cdktn/provider-google-beta.googleSqlSslCert.GoogleSqlSslCert",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -705,7 +705,7 @@ func GoogleSqlSslCert_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleSqlSslCert.GoogleSqlSslCert",
+		"@cdktn/provider-google-beta.googleSqlSslCert.GoogleSqlSslCert",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -718,7 +718,7 @@ func GoogleSqlSslCert_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleSqlSslCert.GoogleSqlSslCert",
+		"@cdktn/provider-google-beta.googleSqlSslCert.GoogleSqlSslCert",
 		"tfResourceType",
 		&returns,
 	)

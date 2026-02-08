@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googleapigatewaygateway
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleApiGatewayGateway.GoogleApiGatewayGateway",
+		"@cdktn/provider-google-beta.googleApiGatewayGateway.GoogleApiGatewayGateway",
 		reflect.TypeOf((*GoogleApiGatewayGateway)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -90,15 +90,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleApiGatewayGateway.GoogleApiGatewayGatewayConfig",
+		"@cdktn/provider-google-beta.googleApiGatewayGateway.GoogleApiGatewayGatewayConfig",
 		reflect.TypeOf((*GoogleApiGatewayGatewayConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleApiGatewayGateway.GoogleApiGatewayGatewayTimeouts",
+		"@cdktn/provider-google-beta.googleApiGatewayGateway.GoogleApiGatewayGatewayTimeouts",
 		reflect.TypeOf((*GoogleApiGatewayGatewayTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleApiGatewayGateway.GoogleApiGatewayGatewayTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleApiGatewayGateway.GoogleApiGatewayGatewayTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleApiGatewayGatewayTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagoogleloggingsink
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleLoggingSink.DataGoogleLoggingSink",
+		"@cdktn/provider-google-beta.dataGoogleLoggingSink.DataGoogleLoggingSink",
 		reflect.TypeOf((*DataGoogleLoggingSink)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -65,11 +65,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleLoggingSink.DataGoogleLoggingSinkBigqueryOptions",
+		"@cdktn/provider-google-beta.dataGoogleLoggingSink.DataGoogleLoggingSinkBigqueryOptions",
 		reflect.TypeOf((*DataGoogleLoggingSinkBigqueryOptions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleLoggingSink.DataGoogleLoggingSinkBigqueryOptionsList",
+		"@cdktn/provider-google-beta.dataGoogleLoggingSink.DataGoogleLoggingSinkBigqueryOptionsList",
 		reflect.TypeOf((*DataGoogleLoggingSinkBigqueryOptionsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -90,7 +90,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleLoggingSink.DataGoogleLoggingSinkBigqueryOptionsOutputReference",
+		"@cdktn/provider-google-beta.dataGoogleLoggingSink.DataGoogleLoggingSinkBigqueryOptionsOutputReference",
 		reflect.TypeOf((*DataGoogleLoggingSinkBigqueryOptionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -123,15 +123,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleLoggingSink.DataGoogleLoggingSinkConfig",
+		"@cdktn/provider-google-beta.dataGoogleLoggingSink.DataGoogleLoggingSinkConfig",
 		reflect.TypeOf((*DataGoogleLoggingSinkConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleLoggingSink.DataGoogleLoggingSinkExclusions",
+		"@cdktn/provider-google-beta.dataGoogleLoggingSink.DataGoogleLoggingSinkExclusions",
 		reflect.TypeOf((*DataGoogleLoggingSinkExclusions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleLoggingSink.DataGoogleLoggingSinkExclusionsList",
+		"@cdktn/provider-google-beta.dataGoogleLoggingSink.DataGoogleLoggingSinkExclusionsList",
 		reflect.TypeOf((*DataGoogleLoggingSinkExclusionsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -152,7 +152,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleLoggingSink.DataGoogleLoggingSinkExclusionsOutputReference",
+		"@cdktn/provider-google-beta.dataGoogleLoggingSink.DataGoogleLoggingSinkExclusionsOutputReference",
 		reflect.TypeOf((*DataGoogleLoggingSinkExclusionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

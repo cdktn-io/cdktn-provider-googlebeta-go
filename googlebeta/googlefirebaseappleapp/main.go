@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlefirebaseappleapp
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleFirebaseAppleApp.GoogleFirebaseAppleApp",
+		"@cdktn/provider-google-beta.googleFirebaseAppleApp.GoogleFirebaseAppleApp",
 		reflect.TypeOf((*GoogleFirebaseAppleApp)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -91,15 +91,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleFirebaseAppleApp.GoogleFirebaseAppleAppConfig",
+		"@cdktn/provider-google-beta.googleFirebaseAppleApp.GoogleFirebaseAppleAppConfig",
 		reflect.TypeOf((*GoogleFirebaseAppleAppConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleFirebaseAppleApp.GoogleFirebaseAppleAppTimeouts",
+		"@cdktn/provider-google-beta.googleFirebaseAppleApp.GoogleFirebaseAppleAppTimeouts",
 		reflect.TypeOf((*GoogleFirebaseAppleAppTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleFirebaseAppleApp.GoogleFirebaseAppleAppTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleFirebaseAppleApp.GoogleFirebaseAppleAppTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleFirebaseAppleAppTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

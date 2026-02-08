@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googledataformrepositoryiambinding
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleDataformRepositoryIamBinding.GoogleDataformRepositoryIamBinding",
+		"@cdktn/provider-google-beta.googleDataformRepositoryIamBinding.GoogleDataformRepositoryIamBinding",
 		reflect.TypeOf((*GoogleDataformRepositoryIamBinding)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -83,11 +83,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleDataformRepositoryIamBinding.GoogleDataformRepositoryIamBindingCondition",
+		"@cdktn/provider-google-beta.googleDataformRepositoryIamBinding.GoogleDataformRepositoryIamBindingCondition",
 		reflect.TypeOf((*GoogleDataformRepositoryIamBindingCondition)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleDataformRepositoryIamBinding.GoogleDataformRepositoryIamBindingConditionOutputReference",
+		"@cdktn/provider-google-beta.googleDataformRepositoryIamBinding.GoogleDataformRepositoryIamBindingConditionOutputReference",
 		reflect.TypeOf((*GoogleDataformRepositoryIamBindingConditionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -126,7 +126,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleDataformRepositoryIamBinding.GoogleDataformRepositoryIamBindingConfig",
+		"@cdktn/provider-google-beta.googleDataformRepositoryIamBinding.GoogleDataformRepositoryIamBindingConfig",
 		reflect.TypeOf((*GoogleDataformRepositoryIamBindingConfig)(nil)).Elem(),
 	)
 }

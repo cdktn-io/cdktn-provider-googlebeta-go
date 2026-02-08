@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagooglecloudfunctionsfunction
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/datagooglecloudfunctionsfunction/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagooglecloudfunctionsfunction/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -720,7 +720,7 @@ func NewDataGoogleCloudfunctionsFunction(scope constructs.Construct, id *string,
 	j := jsiiProxy_DataGoogleCloudfunctionsFunction{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.dataGoogleCloudfunctionsFunction.DataGoogleCloudfunctionsFunction",
+		"@cdktn/provider-google-beta.dataGoogleCloudfunctionsFunction.DataGoogleCloudfunctionsFunction",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -733,7 +733,7 @@ func NewDataGoogleCloudfunctionsFunction_Override(d DataGoogleCloudfunctionsFunc
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.dataGoogleCloudfunctionsFunction.DataGoogleCloudfunctionsFunction",
+		"@cdktn/provider-google-beta.dataGoogleCloudfunctionsFunction.DataGoogleCloudfunctionsFunction",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -839,7 +839,7 @@ func DataGoogleCloudfunctionsFunction_GenerateConfigForImport(scope constructs.C
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleCloudfunctionsFunction.DataGoogleCloudfunctionsFunction",
+		"@cdktn/provider-google-beta.dataGoogleCloudfunctionsFunction.DataGoogleCloudfunctionsFunction",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -874,7 +874,7 @@ func DataGoogleCloudfunctionsFunction_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleCloudfunctionsFunction.DataGoogleCloudfunctionsFunction",
+		"@cdktn/provider-google-beta.dataGoogleCloudfunctionsFunction.DataGoogleCloudfunctionsFunction",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -893,7 +893,7 @@ func DataGoogleCloudfunctionsFunction_IsTerraformDataSource(x interface{}) *bool
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleCloudfunctionsFunction.DataGoogleCloudfunctionsFunction",
+		"@cdktn/provider-google-beta.dataGoogleCloudfunctionsFunction.DataGoogleCloudfunctionsFunction",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -912,7 +912,7 @@ func DataGoogleCloudfunctionsFunction_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleCloudfunctionsFunction.DataGoogleCloudfunctionsFunction",
+		"@cdktn/provider-google-beta.dataGoogleCloudfunctionsFunction.DataGoogleCloudfunctionsFunction",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -925,7 +925,7 @@ func DataGoogleCloudfunctionsFunction_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.dataGoogleCloudfunctionsFunction.DataGoogleCloudfunctionsFunction",
+		"@cdktn/provider-google-beta.dataGoogleCloudfunctionsFunction.DataGoogleCloudfunctionsFunction",
 		"tfResourceType",
 		&returns,
 	)

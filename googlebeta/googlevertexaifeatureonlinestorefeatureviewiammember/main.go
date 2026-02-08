@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlevertexaifeatureonlinestorefeatureviewiammember
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreFeatureviewIamMember.GoogleVertexAiFeatureOnlineStoreFeatureviewIamMember",
+		"@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreFeatureviewIamMember.GoogleVertexAiFeatureOnlineStoreFeatureviewIamMember",
 		reflect.TypeOf((*GoogleVertexAiFeatureOnlineStoreFeatureviewIamMember)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -85,11 +85,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreFeatureviewIamMember.GoogleVertexAiFeatureOnlineStoreFeatureviewIamMemberCondition",
+		"@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreFeatureviewIamMember.GoogleVertexAiFeatureOnlineStoreFeatureviewIamMemberCondition",
 		reflect.TypeOf((*GoogleVertexAiFeatureOnlineStoreFeatureviewIamMemberCondition)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreFeatureviewIamMember.GoogleVertexAiFeatureOnlineStoreFeatureviewIamMemberConditionOutputReference",
+		"@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreFeatureviewIamMember.GoogleVertexAiFeatureOnlineStoreFeatureviewIamMemberConditionOutputReference",
 		reflect.TypeOf((*GoogleVertexAiFeatureOnlineStoreFeatureviewIamMemberConditionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -128,7 +128,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleVertexAiFeatureOnlineStoreFeatureviewIamMember.GoogleVertexAiFeatureOnlineStoreFeatureviewIamMemberConfig",
+		"@cdktn/provider-google-beta.googleVertexAiFeatureOnlineStoreFeatureviewIamMember.GoogleVertexAiFeatureOnlineStoreFeatureviewIamMemberConfig",
 		reflect.TypeOf((*GoogleVertexAiFeatureOnlineStoreFeatureviewIamMemberConfig)(nil)).Elem(),
 	)
 }

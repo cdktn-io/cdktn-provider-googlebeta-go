@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googleiapsettings
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleIapSettings.GoogleIapSettings",
+		"@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettings",
 		reflect.TypeOf((*GoogleIapSettings)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessSettings", GoGetter: "AccessSettings"},
@@ -80,15 +80,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleIapSettings.GoogleIapSettingsAccessSettings",
+		"@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettingsAccessSettings",
 		reflect.TypeOf((*GoogleIapSettingsAccessSettings)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleIapSettings.GoogleIapSettingsAccessSettingsAllowedDomainsSettings",
+		"@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettingsAccessSettingsAllowedDomainsSettings",
 		reflect.TypeOf((*GoogleIapSettingsAccessSettingsAllowedDomainsSettings)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleIapSettings.GoogleIapSettingsAccessSettingsAllowedDomainsSettingsOutputReference",
+		"@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettingsAccessSettingsAllowedDomainsSettingsOutputReference",
 		reflect.TypeOf((*GoogleIapSettingsAccessSettingsAllowedDomainsSettingsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -126,11 +126,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleIapSettings.GoogleIapSettingsAccessSettingsCorsSettings",
+		"@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettingsAccessSettingsCorsSettings",
 		reflect.TypeOf((*GoogleIapSettingsAccessSettingsCorsSettings)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleIapSettings.GoogleIapSettingsAccessSettingsCorsSettingsOutputReference",
+		"@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettingsAccessSettingsCorsSettingsOutputReference",
 		reflect.TypeOf((*GoogleIapSettingsAccessSettingsCorsSettingsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allowHttpOptions", GoGetter: "AllowHttpOptions"},
@@ -165,11 +165,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleIapSettings.GoogleIapSettingsAccessSettingsGcipSettings",
+		"@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettingsAccessSettingsGcipSettings",
 		reflect.TypeOf((*GoogleIapSettingsAccessSettingsGcipSettings)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleIapSettings.GoogleIapSettingsAccessSettingsGcipSettingsOutputReference",
+		"@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettingsAccessSettingsGcipSettingsOutputReference",
 		reflect.TypeOf((*GoogleIapSettingsAccessSettingsGcipSettingsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -207,11 +207,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleIapSettings.GoogleIapSettingsAccessSettingsOauthSettings",
+		"@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettingsAccessSettingsOauthSettings",
 		reflect.TypeOf((*GoogleIapSettingsAccessSettingsOauthSettings)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleIapSettings.GoogleIapSettingsAccessSettingsOauthSettingsOutputReference",
+		"@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettingsAccessSettingsOauthSettingsOutputReference",
 		reflect.TypeOf((*GoogleIapSettingsAccessSettingsOauthSettingsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -249,7 +249,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleIapSettings.GoogleIapSettingsAccessSettingsOutputReference",
+		"@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettingsAccessSettingsOutputReference",
 		reflect.TypeOf((*GoogleIapSettingsAccessSettingsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allowedDomainsSettings", GoGetter: "AllowedDomainsSettings"},
@@ -308,11 +308,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleIapSettings.GoogleIapSettingsAccessSettingsReauthSettings",
+		"@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettingsAccessSettingsReauthSettings",
 		reflect.TypeOf((*GoogleIapSettingsAccessSettingsReauthSettings)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleIapSettings.GoogleIapSettingsAccessSettingsReauthSettingsOutputReference",
+		"@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettingsAccessSettingsReauthSettingsOutputReference",
 		reflect.TypeOf((*GoogleIapSettingsAccessSettingsReauthSettingsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -350,15 +350,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleIapSettings.GoogleIapSettingsAccessSettingsWorkforceIdentitySettings",
+		"@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettingsAccessSettingsWorkforceIdentitySettings",
 		reflect.TypeOf((*GoogleIapSettingsAccessSettingsWorkforceIdentitySettings)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleIapSettings.GoogleIapSettingsAccessSettingsWorkforceIdentitySettingsOauth2",
+		"@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettingsAccessSettingsWorkforceIdentitySettingsOauth2",
 		reflect.TypeOf((*GoogleIapSettingsAccessSettingsWorkforceIdentitySettingsOauth2)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleIapSettings.GoogleIapSettingsAccessSettingsWorkforceIdentitySettingsOauth2OutputReference",
+		"@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettingsAccessSettingsWorkforceIdentitySettingsOauth2OutputReference",
 		reflect.TypeOf((*GoogleIapSettingsAccessSettingsWorkforceIdentitySettingsOauth2OutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "clientId", GoGetter: "ClientId"},
@@ -397,7 +397,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleIapSettings.GoogleIapSettingsAccessSettingsWorkforceIdentitySettingsOutputReference",
+		"@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettingsAccessSettingsWorkforceIdentitySettingsOutputReference",
 		reflect.TypeOf((*GoogleIapSettingsAccessSettingsWorkforceIdentitySettingsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -436,15 +436,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleIapSettings.GoogleIapSettingsApplicationSettings",
+		"@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettingsApplicationSettings",
 		reflect.TypeOf((*GoogleIapSettingsApplicationSettings)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleIapSettings.GoogleIapSettingsApplicationSettingsAccessDeniedPageSettings",
+		"@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettingsApplicationSettingsAccessDeniedPageSettings",
 		reflect.TypeOf((*GoogleIapSettingsApplicationSettingsAccessDeniedPageSettings)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleIapSettings.GoogleIapSettingsApplicationSettingsAccessDeniedPageSettingsOutputReference",
+		"@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettingsApplicationSettingsAccessDeniedPageSettingsOutputReference",
 		reflect.TypeOf((*GoogleIapSettingsApplicationSettingsAccessDeniedPageSettingsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessDeniedPageUri", GoGetter: "AccessDeniedPageUri"},
@@ -485,11 +485,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleIapSettings.GoogleIapSettingsApplicationSettingsAttributePropagationSettings",
+		"@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettingsApplicationSettingsAttributePropagationSettings",
 		reflect.TypeOf((*GoogleIapSettingsApplicationSettingsAttributePropagationSettings)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleIapSettings.GoogleIapSettingsApplicationSettingsAttributePropagationSettingsOutputReference",
+		"@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettingsApplicationSettingsAttributePropagationSettingsOutputReference",
 		reflect.TypeOf((*GoogleIapSettingsApplicationSettingsAttributePropagationSettingsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -530,11 +530,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleIapSettings.GoogleIapSettingsApplicationSettingsCsmSettings",
+		"@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettingsApplicationSettingsCsmSettings",
 		reflect.TypeOf((*GoogleIapSettingsApplicationSettingsCsmSettings)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleIapSettings.GoogleIapSettingsApplicationSettingsCsmSettingsOutputReference",
+		"@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettingsApplicationSettingsCsmSettingsOutputReference",
 		reflect.TypeOf((*GoogleIapSettingsApplicationSettingsCsmSettingsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -569,7 +569,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleIapSettings.GoogleIapSettingsApplicationSettingsOutputReference",
+		"@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettingsApplicationSettingsOutputReference",
 		reflect.TypeOf((*GoogleIapSettingsApplicationSettingsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessDeniedPageSettings", GoGetter: "AccessDeniedPageSettings"},
@@ -616,15 +616,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleIapSettings.GoogleIapSettingsConfig",
+		"@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettingsConfig",
 		reflect.TypeOf((*GoogleIapSettingsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleIapSettings.GoogleIapSettingsTimeouts",
+		"@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettingsTimeouts",
 		reflect.TypeOf((*GoogleIapSettingsTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleIapSettings.GoogleIapSettingsTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleIapSettings.GoogleIapSettingsTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleIapSettingsTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

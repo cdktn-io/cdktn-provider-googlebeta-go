@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlecloudrunv2service
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlecloudrunv2service/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecloudrunv2service/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -1052,7 +1052,7 @@ func NewGoogleCloudRunV2Service(scope constructs.Construct, id *string, config *
 	j := jsiiProxy_GoogleCloudRunV2Service{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleCloudRunV2Service.GoogleCloudRunV2Service",
+		"@cdktn/provider-google-beta.googleCloudRunV2Service.GoogleCloudRunV2Service",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -1065,7 +1065,7 @@ func NewGoogleCloudRunV2Service_Override(g GoogleCloudRunV2Service, scope constr
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleCloudRunV2Service.GoogleCloudRunV2Service",
+		"@cdktn/provider-google-beta.googleCloudRunV2Service.GoogleCloudRunV2Service",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -1325,7 +1325,7 @@ func GoogleCloudRunV2Service_GenerateConfigForImport(scope constructs.Construct,
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleCloudRunV2Service.GoogleCloudRunV2Service",
+		"@cdktn/provider-google-beta.googleCloudRunV2Service.GoogleCloudRunV2Service",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1360,7 +1360,7 @@ func GoogleCloudRunV2Service_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleCloudRunV2Service.GoogleCloudRunV2Service",
+		"@cdktn/provider-google-beta.googleCloudRunV2Service.GoogleCloudRunV2Service",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1379,7 +1379,7 @@ func GoogleCloudRunV2Service_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleCloudRunV2Service.GoogleCloudRunV2Service",
+		"@cdktn/provider-google-beta.googleCloudRunV2Service.GoogleCloudRunV2Service",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1398,7 +1398,7 @@ func GoogleCloudRunV2Service_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleCloudRunV2Service.GoogleCloudRunV2Service",
+		"@cdktn/provider-google-beta.googleCloudRunV2Service.GoogleCloudRunV2Service",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1411,7 +1411,7 @@ func GoogleCloudRunV2Service_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleCloudRunV2Service.GoogleCloudRunV2Service",
+		"@cdktn/provider-google-beta.googleCloudRunV2Service.GoogleCloudRunV2Service",
 		"tfResourceType",
 		&returns,
 	)

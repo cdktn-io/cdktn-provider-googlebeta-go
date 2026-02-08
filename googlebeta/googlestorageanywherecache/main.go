@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlestorageanywherecache
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleStorageAnywhereCache.GoogleStorageAnywhereCache",
+		"@cdktn/provider-google-beta.googleStorageAnywhereCache.GoogleStorageAnywhereCache",
 		reflect.TypeOf((*GoogleStorageAnywhereCache)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -85,15 +85,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleStorageAnywhereCache.GoogleStorageAnywhereCacheConfig",
+		"@cdktn/provider-google-beta.googleStorageAnywhereCache.GoogleStorageAnywhereCacheConfig",
 		reflect.TypeOf((*GoogleStorageAnywhereCacheConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleStorageAnywhereCache.GoogleStorageAnywhereCacheTimeouts",
+		"@cdktn/provider-google-beta.googleStorageAnywhereCache.GoogleStorageAnywhereCacheTimeouts",
 		reflect.TypeOf((*GoogleStorageAnywhereCacheTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleStorageAnywhereCache.GoogleStorageAnywhereCacheTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleStorageAnywhereCache.GoogleStorageAnywhereCacheTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleStorageAnywhereCacheTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

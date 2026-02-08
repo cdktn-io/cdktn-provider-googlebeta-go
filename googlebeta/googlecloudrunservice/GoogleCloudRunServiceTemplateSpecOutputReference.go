@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlecloudrunservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlecloudrunservice/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecloudrunservice/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -80,7 +80,7 @@ type GoogleCloudRunServiceTemplateSpecOutputReference interface {
 	// Experimental.
 	InterpolationAsList() cdktf.IResolvable
 	// Experimental.
-	InterpolationForAttribute(property *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
 	PutContainers(value interface{})
 	PutVolumes(value interface{})
 	ResetContainerConcurrency()
@@ -91,7 +91,7 @@ type GoogleCloudRunServiceTemplateSpecOutputReference interface {
 	ResetVolumes()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(_context cdktf.IResolveContext) interface{}
+	Resolve(context cdktf.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -314,7 +314,7 @@ func NewGoogleCloudRunServiceTemplateSpecOutputReference(terraformResource cdktf
 	j := jsiiProxy_GoogleCloudRunServiceTemplateSpecOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecOutputReference",
+		"@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -326,7 +326,7 @@ func NewGoogleCloudRunServiceTemplateSpecOutputReference_Override(g GoogleCloudR
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecOutputReference",
+		"@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		g,
 	)
@@ -601,8 +601,8 @@ func (g *jsiiProxy_GoogleCloudRunServiceTemplateSpecOutputReference) Interpolati
 	return returns
 }
 
-func (g *jsiiProxy_GoogleCloudRunServiceTemplateSpecOutputReference) InterpolationForAttribute(property *string) cdktf.IResolvable {
-	if err := g.validateInterpolationForAttributeParameters(property); err != nil {
+func (g *jsiiProxy_GoogleCloudRunServiceTemplateSpecOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
 	var returns cdktf.IResolvable
@@ -610,7 +610,7 @@ func (g *jsiiProxy_GoogleCloudRunServiceTemplateSpecOutputReference) Interpolati
 	_jsii_.Invoke(
 		g,
 		"interpolationForAttribute",
-		[]interface{}{property},
+		[]interface{}{terraformAttribute},
 		&returns,
 	)
 
@@ -687,8 +687,8 @@ func (g *jsiiProxy_GoogleCloudRunServiceTemplateSpecOutputReference) ResetVolume
 	)
 }
 
-func (g *jsiiProxy_GoogleCloudRunServiceTemplateSpecOutputReference) Resolve(_context cdktf.IResolveContext) interface{} {
-	if err := g.validateResolveParameters(_context); err != nil {
+func (g *jsiiProxy_GoogleCloudRunServiceTemplateSpecOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}
 	var returns interface{}
@@ -696,7 +696,7 @@ func (g *jsiiProxy_GoogleCloudRunServiceTemplateSpecOutputReference) Resolve(_co
 	_jsii_.Invoke(
 		g,
 		"resolve",
-		[]interface{}{_context},
+		[]interface{}{context},
 		&returns,
 	)
 

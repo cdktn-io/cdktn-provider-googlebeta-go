@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googleapigeeappgroup
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleApigeeAppGroup.GoogleApigeeAppGroup",
+		"@cdktn/provider-google-beta.googleApigeeAppGroup.GoogleApigeeAppGroup",
 		reflect.TypeOf((*GoogleApigeeAppGroup)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -94,11 +94,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleApigeeAppGroup.GoogleApigeeAppGroupAttributes",
+		"@cdktn/provider-google-beta.googleApigeeAppGroup.GoogleApigeeAppGroupAttributes",
 		reflect.TypeOf((*GoogleApigeeAppGroupAttributes)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleApigeeAppGroup.GoogleApigeeAppGroupAttributesList",
+		"@cdktn/provider-google-beta.googleApigeeAppGroup.GoogleApigeeAppGroupAttributesList",
 		reflect.TypeOf((*GoogleApigeeAppGroupAttributesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -120,7 +120,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleApigeeAppGroup.GoogleApigeeAppGroupAttributesOutputReference",
+		"@cdktn/provider-google-beta.googleApigeeAppGroup.GoogleApigeeAppGroupAttributesOutputReference",
 		reflect.TypeOf((*GoogleApigeeAppGroupAttributesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -158,15 +158,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleApigeeAppGroup.GoogleApigeeAppGroupConfig",
+		"@cdktn/provider-google-beta.googleApigeeAppGroup.GoogleApigeeAppGroupConfig",
 		reflect.TypeOf((*GoogleApigeeAppGroupConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleApigeeAppGroup.GoogleApigeeAppGroupTimeouts",
+		"@cdktn/provider-google-beta.googleApigeeAppGroup.GoogleApigeeAppGroupTimeouts",
 		reflect.TypeOf((*GoogleApigeeAppGroupTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleApigeeAppGroup.GoogleApigeeAppGroupTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleApigeeAppGroup.GoogleApigeeAppGroupTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleApigeeAppGroupTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

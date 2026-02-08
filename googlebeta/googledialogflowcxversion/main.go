@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googledialogflowcxversion
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleDialogflowCxVersion.GoogleDialogflowCxVersion",
+		"@cdktn/provider-google-beta.googleDialogflowCxVersion.GoogleDialogflowCxVersion",
 		reflect.TypeOf((*GoogleDialogflowCxVersion)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -82,15 +82,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleDialogflowCxVersion.GoogleDialogflowCxVersionConfig",
+		"@cdktn/provider-google-beta.googleDialogflowCxVersion.GoogleDialogflowCxVersionConfig",
 		reflect.TypeOf((*GoogleDialogflowCxVersionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleDialogflowCxVersion.GoogleDialogflowCxVersionNluSettings",
+		"@cdktn/provider-google-beta.googleDialogflowCxVersion.GoogleDialogflowCxVersionNluSettings",
 		reflect.TypeOf((*GoogleDialogflowCxVersionNluSettings)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleDialogflowCxVersion.GoogleDialogflowCxVersionNluSettingsList",
+		"@cdktn/provider-google-beta.googleDialogflowCxVersion.GoogleDialogflowCxVersionNluSettingsList",
 		reflect.TypeOf((*GoogleDialogflowCxVersionNluSettingsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -111,7 +111,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleDialogflowCxVersion.GoogleDialogflowCxVersionNluSettingsOutputReference",
+		"@cdktn/provider-google-beta.googleDialogflowCxVersion.GoogleDialogflowCxVersionNluSettingsOutputReference",
 		reflect.TypeOf((*GoogleDialogflowCxVersionNluSettingsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "classificationThreshold", GoGetter: "ClassificationThreshold"},
@@ -146,11 +146,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleDialogflowCxVersion.GoogleDialogflowCxVersionTimeouts",
+		"@cdktn/provider-google-beta.googleDialogflowCxVersion.GoogleDialogflowCxVersionTimeouts",
 		reflect.TypeOf((*GoogleDialogflowCxVersionTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleDialogflowCxVersion.GoogleDialogflowCxVersionTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleDialogflowCxVersion.GoogleDialogflowCxVersionTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleDialogflowCxVersionTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

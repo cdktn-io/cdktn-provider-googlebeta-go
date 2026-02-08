@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlesccv2foldernotificationconfig
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleSccV2FolderNotificationConfig.GoogleSccV2FolderNotificationConfig",
+		"@cdktn/provider-google-beta.googleSccV2FolderNotificationConfig.GoogleSccV2FolderNotificationConfig",
 		reflect.TypeOf((*GoogleSccV2FolderNotificationConfig)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -87,15 +87,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleSccV2FolderNotificationConfig.GoogleSccV2FolderNotificationConfigConfig",
+		"@cdktn/provider-google-beta.googleSccV2FolderNotificationConfig.GoogleSccV2FolderNotificationConfigConfig",
 		reflect.TypeOf((*GoogleSccV2FolderNotificationConfigConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleSccV2FolderNotificationConfig.GoogleSccV2FolderNotificationConfigStreamingConfig",
+		"@cdktn/provider-google-beta.googleSccV2FolderNotificationConfig.GoogleSccV2FolderNotificationConfigStreamingConfig",
 		reflect.TypeOf((*GoogleSccV2FolderNotificationConfigStreamingConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleSccV2FolderNotificationConfig.GoogleSccV2FolderNotificationConfigStreamingConfigOutputReference",
+		"@cdktn/provider-google-beta.googleSccV2FolderNotificationConfig.GoogleSccV2FolderNotificationConfigStreamingConfigOutputReference",
 		reflect.TypeOf((*GoogleSccV2FolderNotificationConfigStreamingConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -129,11 +129,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleSccV2FolderNotificationConfig.GoogleSccV2FolderNotificationConfigTimeouts",
+		"@cdktn/provider-google-beta.googleSccV2FolderNotificationConfig.GoogleSccV2FolderNotificationConfigTimeouts",
 		reflect.TypeOf((*GoogleSccV2FolderNotificationConfigTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleSccV2FolderNotificationConfig.GoogleSccV2FolderNotificationConfigTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleSccV2FolderNotificationConfig.GoogleSccV2FolderNotificationConfigTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleSccV2FolderNotificationConfigTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

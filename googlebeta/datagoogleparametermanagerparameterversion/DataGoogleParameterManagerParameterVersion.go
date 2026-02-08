@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagoogleparametermanagerparameterversion
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/datagoogleparametermanagerparameterversion/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagoogleparametermanagerparameterversion/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -411,7 +411,7 @@ func NewDataGoogleParameterManagerParameterVersion(scope constructs.Construct, i
 	j := jsiiProxy_DataGoogleParameterManagerParameterVersion{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.dataGoogleParameterManagerParameterVersion.DataGoogleParameterManagerParameterVersion",
+		"@cdktn/provider-google-beta.dataGoogleParameterManagerParameterVersion.DataGoogleParameterManagerParameterVersion",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -424,7 +424,7 @@ func NewDataGoogleParameterManagerParameterVersion_Override(d DataGoogleParamete
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.dataGoogleParameterManagerParameterVersion.DataGoogleParameterManagerParameterVersion",
+		"@cdktn/provider-google-beta.dataGoogleParameterManagerParameterVersion.DataGoogleParameterManagerParameterVersion",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -530,7 +530,7 @@ func DataGoogleParameterManagerParameterVersion_GenerateConfigForImport(scope co
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleParameterManagerParameterVersion.DataGoogleParameterManagerParameterVersion",
+		"@cdktn/provider-google-beta.dataGoogleParameterManagerParameterVersion.DataGoogleParameterManagerParameterVersion",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -565,7 +565,7 @@ func DataGoogleParameterManagerParameterVersion_IsConstruct(x interface{}) *bool
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleParameterManagerParameterVersion.DataGoogleParameterManagerParameterVersion",
+		"@cdktn/provider-google-beta.dataGoogleParameterManagerParameterVersion.DataGoogleParameterManagerParameterVersion",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -584,7 +584,7 @@ func DataGoogleParameterManagerParameterVersion_IsTerraformDataSource(x interfac
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleParameterManagerParameterVersion.DataGoogleParameterManagerParameterVersion",
+		"@cdktn/provider-google-beta.dataGoogleParameterManagerParameterVersion.DataGoogleParameterManagerParameterVersion",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -603,7 +603,7 @@ func DataGoogleParameterManagerParameterVersion_IsTerraformElement(x interface{}
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleParameterManagerParameterVersion.DataGoogleParameterManagerParameterVersion",
+		"@cdktn/provider-google-beta.dataGoogleParameterManagerParameterVersion.DataGoogleParameterManagerParameterVersion",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -616,7 +616,7 @@ func DataGoogleParameterManagerParameterVersion_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.dataGoogleParameterManagerParameterVersion.DataGoogleParameterManagerParameterVersion",
+		"@cdktn/provider-google-beta.dataGoogleParameterManagerParameterVersion.DataGoogleParameterManagerParameterVersion",
 		"tfResourceType",
 		&returns,
 	)

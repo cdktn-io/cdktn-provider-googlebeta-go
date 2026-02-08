@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlesqldatabaseinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlesqldatabaseinstance/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlesqldatabaseinstance/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -70,12 +70,12 @@ type GoogleSqlDatabaseInstanceReplicationClusterOutputReference interface {
 	// Experimental.
 	InterpolationAsList() cdktf.IResolvable
 	// Experimental.
-	InterpolationForAttribute(property *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
 	ResetFailoverDrReplicaName()
 	ResetPsaWriteEndpoint()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(_context cdktf.IResolveContext) interface{}
+	Resolve(context cdktf.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -218,7 +218,7 @@ func NewGoogleSqlDatabaseInstanceReplicationClusterOutputReference(terraformReso
 	j := jsiiProxy_GoogleSqlDatabaseInstanceReplicationClusterOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceReplicationClusterOutputReference",
+		"@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceReplicationClusterOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -230,7 +230,7 @@ func NewGoogleSqlDatabaseInstanceReplicationClusterOutputReference_Override(g Go
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceReplicationClusterOutputReference",
+		"@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstanceReplicationClusterOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		g,
 	)
@@ -483,8 +483,8 @@ func (g *jsiiProxy_GoogleSqlDatabaseInstanceReplicationClusterOutputReference) I
 	return returns
 }
 
-func (g *jsiiProxy_GoogleSqlDatabaseInstanceReplicationClusterOutputReference) InterpolationForAttribute(property *string) cdktf.IResolvable {
-	if err := g.validateInterpolationForAttributeParameters(property); err != nil {
+func (g *jsiiProxy_GoogleSqlDatabaseInstanceReplicationClusterOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
 	var returns cdktf.IResolvable
@@ -492,7 +492,7 @@ func (g *jsiiProxy_GoogleSqlDatabaseInstanceReplicationClusterOutputReference) I
 	_jsii_.Invoke(
 		g,
 		"interpolationForAttribute",
-		[]interface{}{property},
+		[]interface{}{terraformAttribute},
 		&returns,
 	)
 
@@ -515,8 +515,8 @@ func (g *jsiiProxy_GoogleSqlDatabaseInstanceReplicationClusterOutputReference) R
 	)
 }
 
-func (g *jsiiProxy_GoogleSqlDatabaseInstanceReplicationClusterOutputReference) Resolve(_context cdktf.IResolveContext) interface{} {
-	if err := g.validateResolveParameters(_context); err != nil {
+func (g *jsiiProxy_GoogleSqlDatabaseInstanceReplicationClusterOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}
 	var returns interface{}
@@ -524,7 +524,7 @@ func (g *jsiiProxy_GoogleSqlDatabaseInstanceReplicationClusterOutputReference) R
 	_jsii_.Invoke(
 		g,
 		"resolve",
-		[]interface{}{_context},
+		[]interface{}{context},
 		&returns,
 	)
 

@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlecomputefirewallpolicywithrules
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlecomputefirewallpolicywithrules/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecomputefirewallpolicywithrules/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -514,7 +514,7 @@ func NewGoogleComputeFirewallPolicyWithRules(scope constructs.Construct, id *str
 	j := jsiiProxy_GoogleComputeFirewallPolicyWithRules{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleComputeFirewallPolicyWithRules.GoogleComputeFirewallPolicyWithRules",
+		"@cdktn/provider-google-beta.googleComputeFirewallPolicyWithRules.GoogleComputeFirewallPolicyWithRules",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -527,7 +527,7 @@ func NewGoogleComputeFirewallPolicyWithRules_Override(g GoogleComputeFirewallPol
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleComputeFirewallPolicyWithRules.GoogleComputeFirewallPolicyWithRules",
+		"@cdktn/provider-google-beta.googleComputeFirewallPolicyWithRules.GoogleComputeFirewallPolicyWithRules",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -655,7 +655,7 @@ func GoogleComputeFirewallPolicyWithRules_GenerateConfigForImport(scope construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleComputeFirewallPolicyWithRules.GoogleComputeFirewallPolicyWithRules",
+		"@cdktn/provider-google-beta.googleComputeFirewallPolicyWithRules.GoogleComputeFirewallPolicyWithRules",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -690,7 +690,7 @@ func GoogleComputeFirewallPolicyWithRules_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleComputeFirewallPolicyWithRules.GoogleComputeFirewallPolicyWithRules",
+		"@cdktn/provider-google-beta.googleComputeFirewallPolicyWithRules.GoogleComputeFirewallPolicyWithRules",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -709,7 +709,7 @@ func GoogleComputeFirewallPolicyWithRules_IsTerraformElement(x interface{}) *boo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleComputeFirewallPolicyWithRules.GoogleComputeFirewallPolicyWithRules",
+		"@cdktn/provider-google-beta.googleComputeFirewallPolicyWithRules.GoogleComputeFirewallPolicyWithRules",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -728,7 +728,7 @@ func GoogleComputeFirewallPolicyWithRules_IsTerraformResource(x interface{}) *bo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleComputeFirewallPolicyWithRules.GoogleComputeFirewallPolicyWithRules",
+		"@cdktn/provider-google-beta.googleComputeFirewallPolicyWithRules.GoogleComputeFirewallPolicyWithRules",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -741,7 +741,7 @@ func GoogleComputeFirewallPolicyWithRules_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleComputeFirewallPolicyWithRules.GoogleComputeFirewallPolicyWithRules",
+		"@cdktn/provider-google-beta.googleComputeFirewallPolicyWithRules.GoogleComputeFirewallPolicyWithRules",
 		"tfResourceType",
 		&returns,
 	)

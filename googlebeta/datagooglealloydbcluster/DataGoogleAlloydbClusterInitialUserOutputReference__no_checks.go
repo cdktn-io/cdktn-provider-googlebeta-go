@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 //go:build no_runtime_type_checking
@@ -43,11 +43,11 @@ func (d *jsiiProxy_DataGoogleAlloydbClusterInitialUserOutputReference) validateG
 	return nil
 }
 
-func (d *jsiiProxy_DataGoogleAlloydbClusterInitialUserOutputReference) validateInterpolationForAttributeParameters(property *string) error {
+func (d *jsiiProxy_DataGoogleAlloydbClusterInitialUserOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
 	return nil
 }
 
-func (d *jsiiProxy_DataGoogleAlloydbClusterInitialUserOutputReference) validateResolveParameters(_context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataGoogleAlloydbClusterInitialUserOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
 	return nil
 }
 

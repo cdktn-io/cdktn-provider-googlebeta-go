@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlestoragefolder
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleStorageFolder.GoogleStorageFolder",
+		"@cdktn/provider-google-beta.googleStorageFolder.GoogleStorageFolder",
 		reflect.TypeOf((*GoogleStorageFolder)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -81,15 +81,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleStorageFolder.GoogleStorageFolderConfig",
+		"@cdktn/provider-google-beta.googleStorageFolder.GoogleStorageFolderConfig",
 		reflect.TypeOf((*GoogleStorageFolderConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleStorageFolder.GoogleStorageFolderTimeouts",
+		"@cdktn/provider-google-beta.googleStorageFolder.GoogleStorageFolderTimeouts",
 		reflect.TypeOf((*GoogleStorageFolderTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleStorageFolder.GoogleStorageFolderTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleStorageFolder.GoogleStorageFolderTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleStorageFolderTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

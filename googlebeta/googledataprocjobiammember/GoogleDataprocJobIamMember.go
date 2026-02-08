@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googledataprocjobiammember
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googledataprocjobiammember/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googledataprocjobiammember/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -472,7 +472,7 @@ func NewGoogleDataprocJobIamMember(scope constructs.Construct, id *string, confi
 	j := jsiiProxy_GoogleDataprocJobIamMember{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleDataprocJobIamMember.GoogleDataprocJobIamMember",
+		"@cdktn/provider-google-beta.googleDataprocJobIamMember.GoogleDataprocJobIamMember",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -485,7 +485,7 @@ func NewGoogleDataprocJobIamMember_Override(g GoogleDataprocJobIamMember, scope 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleDataprocJobIamMember.GoogleDataprocJobIamMember",
+		"@cdktn/provider-google-beta.googleDataprocJobIamMember.GoogleDataprocJobIamMember",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -635,7 +635,7 @@ func GoogleDataprocJobIamMember_GenerateConfigForImport(scope constructs.Constru
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleDataprocJobIamMember.GoogleDataprocJobIamMember",
+		"@cdktn/provider-google-beta.googleDataprocJobIamMember.GoogleDataprocJobIamMember",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -670,7 +670,7 @@ func GoogleDataprocJobIamMember_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleDataprocJobIamMember.GoogleDataprocJobIamMember",
+		"@cdktn/provider-google-beta.googleDataprocJobIamMember.GoogleDataprocJobIamMember",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -689,7 +689,7 @@ func GoogleDataprocJobIamMember_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleDataprocJobIamMember.GoogleDataprocJobIamMember",
+		"@cdktn/provider-google-beta.googleDataprocJobIamMember.GoogleDataprocJobIamMember",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -708,7 +708,7 @@ func GoogleDataprocJobIamMember_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleDataprocJobIamMember.GoogleDataprocJobIamMember",
+		"@cdktn/provider-google-beta.googleDataprocJobIamMember.GoogleDataprocJobIamMember",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -721,7 +721,7 @@ func GoogleDataprocJobIamMember_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleDataprocJobIamMember.GoogleDataprocJobIamMember",
+		"@cdktn/provider-google-beta.googleDataprocJobIamMember.GoogleDataprocJobIamMember",
 		"tfResourceType",
 		&returns,
 	)

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlecomputerouterinterface
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleComputeRouterInterface.GoogleComputeRouterInterface",
+		"@cdktn/provider-google-beta.googleComputeRouterInterface.GoogleComputeRouterInterface",
 		reflect.TypeOf((*GoogleComputeRouterInterface)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -101,15 +101,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleComputeRouterInterface.GoogleComputeRouterInterfaceConfig",
+		"@cdktn/provider-google-beta.googleComputeRouterInterface.GoogleComputeRouterInterfaceConfig",
 		reflect.TypeOf((*GoogleComputeRouterInterfaceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleComputeRouterInterface.GoogleComputeRouterInterfaceTimeouts",
+		"@cdktn/provider-google-beta.googleComputeRouterInterface.GoogleComputeRouterInterfaceTimeouts",
 		reflect.TypeOf((*GoogleComputeRouterInterfaceTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleComputeRouterInterface.GoogleComputeRouterInterfaceTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleComputeRouterInterface.GoogleComputeRouterInterfaceTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleComputeRouterInterfaceTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

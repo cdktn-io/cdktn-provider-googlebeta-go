@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googledataprocjobiambinding
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleDataprocJobIamBinding.GoogleDataprocJobIamBinding",
+		"@cdktn/provider-google-beta.googleDataprocJobIamBinding.GoogleDataprocJobIamBinding",
 		reflect.TypeOf((*GoogleDataprocJobIamBinding)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -83,11 +83,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleDataprocJobIamBinding.GoogleDataprocJobIamBindingCondition",
+		"@cdktn/provider-google-beta.googleDataprocJobIamBinding.GoogleDataprocJobIamBindingCondition",
 		reflect.TypeOf((*GoogleDataprocJobIamBindingCondition)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleDataprocJobIamBinding.GoogleDataprocJobIamBindingConditionOutputReference",
+		"@cdktn/provider-google-beta.googleDataprocJobIamBinding.GoogleDataprocJobIamBindingConditionOutputReference",
 		reflect.TypeOf((*GoogleDataprocJobIamBindingConditionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -126,7 +126,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleDataprocJobIamBinding.GoogleDataprocJobIamBindingConfig",
+		"@cdktn/provider-google-beta.googleDataprocJobIamBinding.GoogleDataprocJobIamBindingConfig",
 		reflect.TypeOf((*GoogleDataprocJobIamBindingConfig)(nil)).Elem(),
 	)
 }

@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googletranscoderjob
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googletranscoderjob/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googletranscoderjob/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -76,7 +76,7 @@ type GoogleTranscoderJobConfigEncryptionsOutputReference interface {
 	// Experimental.
 	InterpolationAsList() cdktf.IResolvable
 	// Experimental.
-	InterpolationForAttribute(property *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
 	PutAes128(value *GoogleTranscoderJobConfigEncryptionsAes128)
 	PutDrmSystems(value *GoogleTranscoderJobConfigEncryptionsDrmSystems)
 	PutMpegCenc(value *GoogleTranscoderJobConfigEncryptionsMpegCenc)
@@ -89,7 +89,7 @@ type GoogleTranscoderJobConfigEncryptionsOutputReference interface {
 	ResetSecretManagerKeySource()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(_context cdktf.IResolveContext) interface{}
+	Resolve(context cdktf.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -302,7 +302,7 @@ func NewGoogleTranscoderJobConfigEncryptionsOutputReference(terraformResource cd
 	j := jsiiProxy_GoogleTranscoderJobConfigEncryptionsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigEncryptionsOutputReference",
+		"@cdktn/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigEncryptionsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -314,7 +314,7 @@ func NewGoogleTranscoderJobConfigEncryptionsOutputReference_Override(g GoogleTra
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigEncryptionsOutputReference",
+		"@cdktn/provider-google-beta.googleTranscoderJob.GoogleTranscoderJobConfigEncryptionsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		g,
 	)
@@ -556,8 +556,8 @@ func (g *jsiiProxy_GoogleTranscoderJobConfigEncryptionsOutputReference) Interpol
 	return returns
 }
 
-func (g *jsiiProxy_GoogleTranscoderJobConfigEncryptionsOutputReference) InterpolationForAttribute(property *string) cdktf.IResolvable {
-	if err := g.validateInterpolationForAttributeParameters(property); err != nil {
+func (g *jsiiProxy_GoogleTranscoderJobConfigEncryptionsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
 	var returns cdktf.IResolvable
@@ -565,7 +565,7 @@ func (g *jsiiProxy_GoogleTranscoderJobConfigEncryptionsOutputReference) Interpol
 	_jsii_.Invoke(
 		g,
 		"interpolationForAttribute",
-		[]interface{}{property},
+		[]interface{}{terraformAttribute},
 		&returns,
 	)
 
@@ -667,8 +667,8 @@ func (g *jsiiProxy_GoogleTranscoderJobConfigEncryptionsOutputReference) ResetSec
 	)
 }
 
-func (g *jsiiProxy_GoogleTranscoderJobConfigEncryptionsOutputReference) Resolve(_context cdktf.IResolveContext) interface{} {
-	if err := g.validateResolveParameters(_context); err != nil {
+func (g *jsiiProxy_GoogleTranscoderJobConfigEncryptionsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}
 	var returns interface{}
@@ -676,7 +676,7 @@ func (g *jsiiProxy_GoogleTranscoderJobConfigEncryptionsOutputReference) Resolve(
 	_jsii_.Invoke(
 		g,
 		"resolve",
-		[]interface{}{_context},
+		[]interface{}{context},
 		&returns,
 	)
 

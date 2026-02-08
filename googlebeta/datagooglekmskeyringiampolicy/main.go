@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagooglekmskeyringiampolicy
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleKmsKeyRingIamPolicy.DataGoogleKmsKeyRingIamPolicy",
+		"@cdktn/provider-google-beta.dataGoogleKmsKeyRingIamPolicy.DataGoogleKmsKeyRingIamPolicy",
 		reflect.TypeOf((*DataGoogleKmsKeyRingIamPolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -62,7 +62,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleKmsKeyRingIamPolicy.DataGoogleKmsKeyRingIamPolicyConfig",
+		"@cdktn/provider-google-beta.dataGoogleKmsKeyRingIamPolicy.DataGoogleKmsKeyRingIamPolicyConfig",
 		reflect.TypeOf((*DataGoogleKmsKeyRingIamPolicyConfig)(nil)).Elem(),
 	)
 }

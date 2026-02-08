@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagooglevmwareenginenetworkpeering
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/datagooglevmwareenginenetworkpeering/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagooglevmwareenginenetworkpeering/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -476,7 +476,7 @@ func NewDataGoogleVmwareengineNetworkPeering(scope constructs.Construct, id *str
 	j := jsiiProxy_DataGoogleVmwareengineNetworkPeering{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.dataGoogleVmwareengineNetworkPeering.DataGoogleVmwareengineNetworkPeering",
+		"@cdktn/provider-google-beta.dataGoogleVmwareengineNetworkPeering.DataGoogleVmwareengineNetworkPeering",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -489,7 +489,7 @@ func NewDataGoogleVmwareengineNetworkPeering_Override(d DataGoogleVmwareengineNe
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.dataGoogleVmwareengineNetworkPeering.DataGoogleVmwareengineNetworkPeering",
+		"@cdktn/provider-google-beta.dataGoogleVmwareengineNetworkPeering.DataGoogleVmwareengineNetworkPeering",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -584,7 +584,7 @@ func DataGoogleVmwareengineNetworkPeering_GenerateConfigForImport(scope construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleVmwareengineNetworkPeering.DataGoogleVmwareengineNetworkPeering",
+		"@cdktn/provider-google-beta.dataGoogleVmwareengineNetworkPeering.DataGoogleVmwareengineNetworkPeering",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -619,7 +619,7 @@ func DataGoogleVmwareengineNetworkPeering_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleVmwareengineNetworkPeering.DataGoogleVmwareengineNetworkPeering",
+		"@cdktn/provider-google-beta.dataGoogleVmwareengineNetworkPeering.DataGoogleVmwareengineNetworkPeering",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -638,7 +638,7 @@ func DataGoogleVmwareengineNetworkPeering_IsTerraformDataSource(x interface{}) *
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleVmwareengineNetworkPeering.DataGoogleVmwareengineNetworkPeering",
+		"@cdktn/provider-google-beta.dataGoogleVmwareengineNetworkPeering.DataGoogleVmwareengineNetworkPeering",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -657,7 +657,7 @@ func DataGoogleVmwareengineNetworkPeering_IsTerraformElement(x interface{}) *boo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleVmwareengineNetworkPeering.DataGoogleVmwareengineNetworkPeering",
+		"@cdktn/provider-google-beta.dataGoogleVmwareengineNetworkPeering.DataGoogleVmwareengineNetworkPeering",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -670,7 +670,7 @@ func DataGoogleVmwareengineNetworkPeering_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.dataGoogleVmwareengineNetworkPeering.DataGoogleVmwareengineNetworkPeering",
+		"@cdktn/provider-google-beta.dataGoogleVmwareengineNetworkPeering.DataGoogleVmwareengineNetworkPeering",
 		"tfResourceType",
 		&returns,
 	)

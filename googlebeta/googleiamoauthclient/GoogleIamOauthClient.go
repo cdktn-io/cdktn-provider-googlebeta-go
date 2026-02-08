@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googleiamoauthclient
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googleiamoauthclient/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleiamoauthclient/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -623,7 +623,7 @@ func NewGoogleIamOauthClient(scope constructs.Construct, id *string, config *Goo
 	j := jsiiProxy_GoogleIamOauthClient{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleIamOauthClient.GoogleIamOauthClient",
+		"@cdktn/provider-google-beta.googleIamOauthClient.GoogleIamOauthClient",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -636,7 +636,7 @@ func NewGoogleIamOauthClient_Override(g GoogleIamOauthClient, scope constructs.C
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleIamOauthClient.GoogleIamOauthClient",
+		"@cdktn/provider-google-beta.googleIamOauthClient.GoogleIamOauthClient",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -841,7 +841,7 @@ func GoogleIamOauthClient_GenerateConfigForImport(scope constructs.Construct, im
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleIamOauthClient.GoogleIamOauthClient",
+		"@cdktn/provider-google-beta.googleIamOauthClient.GoogleIamOauthClient",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -876,7 +876,7 @@ func GoogleIamOauthClient_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleIamOauthClient.GoogleIamOauthClient",
+		"@cdktn/provider-google-beta.googleIamOauthClient.GoogleIamOauthClient",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -895,7 +895,7 @@ func GoogleIamOauthClient_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleIamOauthClient.GoogleIamOauthClient",
+		"@cdktn/provider-google-beta.googleIamOauthClient.GoogleIamOauthClient",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -914,7 +914,7 @@ func GoogleIamOauthClient_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleIamOauthClient.GoogleIamOauthClient",
+		"@cdktn/provider-google-beta.googleIamOauthClient.GoogleIamOauthClient",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -927,7 +927,7 @@ func GoogleIamOauthClient_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleIamOauthClient.GoogleIamOauthClient",
+		"@cdktn/provider-google-beta.googleIamOauthClient.GoogleIamOauthClient",
 		"tfResourceType",
 		&returns,
 	)

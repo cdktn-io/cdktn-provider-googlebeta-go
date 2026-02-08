@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlesccv2organizationmuteconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlesccv2organizationmuteconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlesccv2organizationmuteconfig/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -528,7 +528,7 @@ func NewGoogleSccV2OrganizationMuteConfig(scope constructs.Construct, id *string
 	j := jsiiProxy_GoogleSccV2OrganizationMuteConfig{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleSccV2OrganizationMuteConfig.GoogleSccV2OrganizationMuteConfig",
+		"@cdktn/provider-google-beta.googleSccV2OrganizationMuteConfig.GoogleSccV2OrganizationMuteConfig",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -541,7 +541,7 @@ func NewGoogleSccV2OrganizationMuteConfig_Override(g GoogleSccV2OrganizationMute
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleSccV2OrganizationMuteConfig.GoogleSccV2OrganizationMuteConfig",
+		"@cdktn/provider-google-beta.googleSccV2OrganizationMuteConfig.GoogleSccV2OrganizationMuteConfig",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -702,7 +702,7 @@ func GoogleSccV2OrganizationMuteConfig_GenerateConfigForImport(scope constructs.
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleSccV2OrganizationMuteConfig.GoogleSccV2OrganizationMuteConfig",
+		"@cdktn/provider-google-beta.googleSccV2OrganizationMuteConfig.GoogleSccV2OrganizationMuteConfig",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -737,7 +737,7 @@ func GoogleSccV2OrganizationMuteConfig_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleSccV2OrganizationMuteConfig.GoogleSccV2OrganizationMuteConfig",
+		"@cdktn/provider-google-beta.googleSccV2OrganizationMuteConfig.GoogleSccV2OrganizationMuteConfig",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -756,7 +756,7 @@ func GoogleSccV2OrganizationMuteConfig_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleSccV2OrganizationMuteConfig.GoogleSccV2OrganizationMuteConfig",
+		"@cdktn/provider-google-beta.googleSccV2OrganizationMuteConfig.GoogleSccV2OrganizationMuteConfig",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -775,7 +775,7 @@ func GoogleSccV2OrganizationMuteConfig_IsTerraformResource(x interface{}) *bool 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleSccV2OrganizationMuteConfig.GoogleSccV2OrganizationMuteConfig",
+		"@cdktn/provider-google-beta.googleSccV2OrganizationMuteConfig.GoogleSccV2OrganizationMuteConfig",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -788,7 +788,7 @@ func GoogleSccV2OrganizationMuteConfig_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleSccV2OrganizationMuteConfig.GoogleSccV2OrganizationMuteConfig",
+		"@cdktn/provider-google-beta.googleSccV2OrganizationMuteConfig.GoogleSccV2OrganizationMuteConfig",
 		"tfResourceType",
 		&returns,
 	)

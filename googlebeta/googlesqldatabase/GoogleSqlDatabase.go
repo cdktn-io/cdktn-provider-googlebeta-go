@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlesqldatabase
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlesqldatabase/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlesqldatabase/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -497,7 +497,7 @@ func NewGoogleSqlDatabase(scope constructs.Construct, id *string, config *Google
 	j := jsiiProxy_GoogleSqlDatabase{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleSqlDatabase.GoogleSqlDatabase",
+		"@cdktn/provider-google-beta.googleSqlDatabase.GoogleSqlDatabase",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -510,7 +510,7 @@ func NewGoogleSqlDatabase_Override(g GoogleSqlDatabase, scope constructs.Constru
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleSqlDatabase.GoogleSqlDatabase",
+		"@cdktn/provider-google-beta.googleSqlDatabase.GoogleSqlDatabase",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -671,7 +671,7 @@ func GoogleSqlDatabase_GenerateConfigForImport(scope constructs.Construct, impor
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleSqlDatabase.GoogleSqlDatabase",
+		"@cdktn/provider-google-beta.googleSqlDatabase.GoogleSqlDatabase",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -706,7 +706,7 @@ func GoogleSqlDatabase_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleSqlDatabase.GoogleSqlDatabase",
+		"@cdktn/provider-google-beta.googleSqlDatabase.GoogleSqlDatabase",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -725,7 +725,7 @@ func GoogleSqlDatabase_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleSqlDatabase.GoogleSqlDatabase",
+		"@cdktn/provider-google-beta.googleSqlDatabase.GoogleSqlDatabase",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -744,7 +744,7 @@ func GoogleSqlDatabase_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleSqlDatabase.GoogleSqlDatabase",
+		"@cdktn/provider-google-beta.googleSqlDatabase.GoogleSqlDatabase",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -757,7 +757,7 @@ func GoogleSqlDatabase_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleSqlDatabase.GoogleSqlDatabase",
+		"@cdktn/provider-google-beta.googleSqlDatabase.GoogleSqlDatabase",
 		"tfResourceType",
 		&returns,
 	)

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagooglecertificatemanagercertificates
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleCertificateManagerCertificates.DataGoogleCertificateManagerCertificates",
+		"@cdktn/provider-google-beta.dataGoogleCertificateManagerCertificates.DataGoogleCertificateManagerCertificates",
 		reflect.TypeOf((*DataGoogleCertificateManagerCertificates)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -65,11 +65,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleCertificateManagerCertificates.DataGoogleCertificateManagerCertificatesCertificates",
+		"@cdktn/provider-google-beta.dataGoogleCertificateManagerCertificates.DataGoogleCertificateManagerCertificatesCertificates",
 		reflect.TypeOf((*DataGoogleCertificateManagerCertificatesCertificates)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleCertificateManagerCertificates.DataGoogleCertificateManagerCertificatesCertificatesList",
+		"@cdktn/provider-google-beta.dataGoogleCertificateManagerCertificates.DataGoogleCertificateManagerCertificatesCertificatesList",
 		reflect.TypeOf((*DataGoogleCertificateManagerCertificatesCertificatesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -90,15 +90,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleCertificateManagerCertificates.DataGoogleCertificateManagerCertificatesCertificatesManaged",
+		"@cdktn/provider-google-beta.dataGoogleCertificateManagerCertificates.DataGoogleCertificateManagerCertificatesCertificatesManaged",
 		reflect.TypeOf((*DataGoogleCertificateManagerCertificatesCertificatesManaged)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleCertificateManagerCertificates.DataGoogleCertificateManagerCertificatesCertificatesManagedAuthorizationAttemptInfo",
+		"@cdktn/provider-google-beta.dataGoogleCertificateManagerCertificates.DataGoogleCertificateManagerCertificatesCertificatesManagedAuthorizationAttemptInfo",
 		reflect.TypeOf((*DataGoogleCertificateManagerCertificatesCertificatesManagedAuthorizationAttemptInfo)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleCertificateManagerCertificates.DataGoogleCertificateManagerCertificatesCertificatesManagedAuthorizationAttemptInfoList",
+		"@cdktn/provider-google-beta.dataGoogleCertificateManagerCertificates.DataGoogleCertificateManagerCertificatesCertificatesManagedAuthorizationAttemptInfoList",
 		reflect.TypeOf((*DataGoogleCertificateManagerCertificatesCertificatesManagedAuthorizationAttemptInfoList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -119,7 +119,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleCertificateManagerCertificates.DataGoogleCertificateManagerCertificatesCertificatesManagedAuthorizationAttemptInfoOutputReference",
+		"@cdktn/provider-google-beta.dataGoogleCertificateManagerCertificates.DataGoogleCertificateManagerCertificatesCertificatesManagedAuthorizationAttemptInfoOutputReference",
 		reflect.TypeOf((*DataGoogleCertificateManagerCertificatesCertificatesManagedAuthorizationAttemptInfoOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -155,7 +155,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleCertificateManagerCertificates.DataGoogleCertificateManagerCertificatesCertificatesManagedList",
+		"@cdktn/provider-google-beta.dataGoogleCertificateManagerCertificates.DataGoogleCertificateManagerCertificatesCertificatesManagedList",
 		reflect.TypeOf((*DataGoogleCertificateManagerCertificatesCertificatesManagedList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -176,7 +176,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleCertificateManagerCertificates.DataGoogleCertificateManagerCertificatesCertificatesManagedOutputReference",
+		"@cdktn/provider-google-beta.dataGoogleCertificateManagerCertificates.DataGoogleCertificateManagerCertificatesCertificatesManagedOutputReference",
 		reflect.TypeOf((*DataGoogleCertificateManagerCertificatesCertificatesManagedOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "authorizationAttemptInfo", GoGetter: "AuthorizationAttemptInfo"},
@@ -214,11 +214,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleCertificateManagerCertificates.DataGoogleCertificateManagerCertificatesCertificatesManagedProvisioningIssue",
+		"@cdktn/provider-google-beta.dataGoogleCertificateManagerCertificates.DataGoogleCertificateManagerCertificatesCertificatesManagedProvisioningIssue",
 		reflect.TypeOf((*DataGoogleCertificateManagerCertificatesCertificatesManagedProvisioningIssue)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleCertificateManagerCertificates.DataGoogleCertificateManagerCertificatesCertificatesManagedProvisioningIssueList",
+		"@cdktn/provider-google-beta.dataGoogleCertificateManagerCertificates.DataGoogleCertificateManagerCertificatesCertificatesManagedProvisioningIssueList",
 		reflect.TypeOf((*DataGoogleCertificateManagerCertificatesCertificatesManagedProvisioningIssueList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -239,7 +239,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleCertificateManagerCertificates.DataGoogleCertificateManagerCertificatesCertificatesManagedProvisioningIssueOutputReference",
+		"@cdktn/provider-google-beta.dataGoogleCertificateManagerCertificates.DataGoogleCertificateManagerCertificatesCertificatesManagedProvisioningIssueOutputReference",
 		reflect.TypeOf((*DataGoogleCertificateManagerCertificatesCertificatesManagedProvisioningIssueOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -273,7 +273,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleCertificateManagerCertificates.DataGoogleCertificateManagerCertificatesCertificatesOutputReference",
+		"@cdktn/provider-google-beta.dataGoogleCertificateManagerCertificates.DataGoogleCertificateManagerCertificatesCertificatesOutputReference",
 		reflect.TypeOf((*DataGoogleCertificateManagerCertificatesCertificatesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -315,7 +315,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleCertificateManagerCertificates.DataGoogleCertificateManagerCertificatesConfig",
+		"@cdktn/provider-google-beta.dataGoogleCertificateManagerCertificates.DataGoogleCertificateManagerCertificatesConfig",
 		reflect.TypeOf((*DataGoogleCertificateManagerCertificatesConfig)(nil)).Elem(),
 	)
 }

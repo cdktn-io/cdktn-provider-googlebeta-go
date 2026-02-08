@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlechronicledataaccessscope
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlechronicledataaccessscope/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlechronicledataaccessscope/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -599,7 +599,7 @@ func NewGoogleChronicleDataAccessScope(scope constructs.Construct, id *string, c
 	j := jsiiProxy_GoogleChronicleDataAccessScope{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleChronicleDataAccessScope.GoogleChronicleDataAccessScope",
+		"@cdktn/provider-google-beta.googleChronicleDataAccessScope.GoogleChronicleDataAccessScope",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -612,7 +612,7 @@ func NewGoogleChronicleDataAccessScope_Override(g GoogleChronicleDataAccessScope
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleChronicleDataAccessScope.GoogleChronicleDataAccessScope",
+		"@cdktn/provider-google-beta.googleChronicleDataAccessScope.GoogleChronicleDataAccessScope",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -773,7 +773,7 @@ func GoogleChronicleDataAccessScope_GenerateConfigForImport(scope constructs.Con
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleChronicleDataAccessScope.GoogleChronicleDataAccessScope",
+		"@cdktn/provider-google-beta.googleChronicleDataAccessScope.GoogleChronicleDataAccessScope",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -808,7 +808,7 @@ func GoogleChronicleDataAccessScope_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleChronicleDataAccessScope.GoogleChronicleDataAccessScope",
+		"@cdktn/provider-google-beta.googleChronicleDataAccessScope.GoogleChronicleDataAccessScope",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -827,7 +827,7 @@ func GoogleChronicleDataAccessScope_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleChronicleDataAccessScope.GoogleChronicleDataAccessScope",
+		"@cdktn/provider-google-beta.googleChronicleDataAccessScope.GoogleChronicleDataAccessScope",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -846,7 +846,7 @@ func GoogleChronicleDataAccessScope_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleChronicleDataAccessScope.GoogleChronicleDataAccessScope",
+		"@cdktn/provider-google-beta.googleChronicleDataAccessScope.GoogleChronicleDataAccessScope",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -859,7 +859,7 @@ func GoogleChronicleDataAccessScope_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleChronicleDataAccessScope.GoogleChronicleDataAccessScope",
+		"@cdktn/provider-google-beta.googleChronicleDataAccessScope.GoogleChronicleDataAccessScope",
 		"tfResourceType",
 		&returns,
 	)

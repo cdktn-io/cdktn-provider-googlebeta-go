@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagooglevertexaifeatureonlinestorefeatureviewiampolicy
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleVertexAiFeatureOnlineStoreFeatureviewIamPolicy.DataGoogleVertexAiFeatureOnlineStoreFeatureviewIamPolicy",
+		"@cdktn/provider-google-beta.dataGoogleVertexAiFeatureOnlineStoreFeatureviewIamPolicy.DataGoogleVertexAiFeatureOnlineStoreFeatureviewIamPolicy",
 		reflect.TypeOf((*DataGoogleVertexAiFeatureOnlineStoreFeatureviewIamPolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -70,7 +70,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleVertexAiFeatureOnlineStoreFeatureviewIamPolicy.DataGoogleVertexAiFeatureOnlineStoreFeatureviewIamPolicyConfig",
+		"@cdktn/provider-google-beta.dataGoogleVertexAiFeatureOnlineStoreFeatureviewIamPolicy.DataGoogleVertexAiFeatureOnlineStoreFeatureviewIamPolicyConfig",
 		reflect.TypeOf((*DataGoogleVertexAiFeatureOnlineStoreFeatureviewIamPolicyConfig)(nil)).Elem(),
 	)
 }

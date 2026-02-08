@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlebackupdrmanagementserver
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleBackupDrManagementServer.GoogleBackupDrManagementServer",
+		"@cdktn/provider-google-beta.googleBackupDrManagementServer.GoogleBackupDrManagementServer",
 		reflect.TypeOf((*GoogleBackupDrManagementServer)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -86,15 +86,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleBackupDrManagementServer.GoogleBackupDrManagementServerConfig",
+		"@cdktn/provider-google-beta.googleBackupDrManagementServer.GoogleBackupDrManagementServerConfig",
 		reflect.TypeOf((*GoogleBackupDrManagementServerConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleBackupDrManagementServer.GoogleBackupDrManagementServerManagementUri",
+		"@cdktn/provider-google-beta.googleBackupDrManagementServer.GoogleBackupDrManagementServerManagementUri",
 		reflect.TypeOf((*GoogleBackupDrManagementServerManagementUri)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleBackupDrManagementServer.GoogleBackupDrManagementServerManagementUriList",
+		"@cdktn/provider-google-beta.googleBackupDrManagementServer.GoogleBackupDrManagementServerManagementUriList",
 		reflect.TypeOf((*GoogleBackupDrManagementServerManagementUriList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -115,7 +115,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleBackupDrManagementServer.GoogleBackupDrManagementServerManagementUriOutputReference",
+		"@cdktn/provider-google-beta.googleBackupDrManagementServer.GoogleBackupDrManagementServerManagementUriOutputReference",
 		reflect.TypeOf((*GoogleBackupDrManagementServerManagementUriOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "api", GoGetter: "Api"},
@@ -149,11 +149,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleBackupDrManagementServer.GoogleBackupDrManagementServerNetworks",
+		"@cdktn/provider-google-beta.googleBackupDrManagementServer.GoogleBackupDrManagementServerNetworks",
 		reflect.TypeOf((*GoogleBackupDrManagementServerNetworks)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleBackupDrManagementServer.GoogleBackupDrManagementServerNetworksList",
+		"@cdktn/provider-google-beta.googleBackupDrManagementServer.GoogleBackupDrManagementServerNetworksList",
 		reflect.TypeOf((*GoogleBackupDrManagementServerNetworksList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -175,7 +175,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleBackupDrManagementServer.GoogleBackupDrManagementServerNetworksOutputReference",
+		"@cdktn/provider-google-beta.googleBackupDrManagementServer.GoogleBackupDrManagementServerNetworksOutputReference",
 		reflect.TypeOf((*GoogleBackupDrManagementServerNetworksOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -212,11 +212,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleBackupDrManagementServer.GoogleBackupDrManagementServerTimeouts",
+		"@cdktn/provider-google-beta.googleBackupDrManagementServer.GoogleBackupDrManagementServerTimeouts",
 		reflect.TypeOf((*GoogleBackupDrManagementServerTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleBackupDrManagementServer.GoogleBackupDrManagementServerTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleBackupDrManagementServer.GoogleBackupDrManagementServerTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleBackupDrManagementServerTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

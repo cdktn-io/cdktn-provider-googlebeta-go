@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googleservicedirectoryservice
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleServiceDirectoryService.GoogleServiceDirectoryService",
+		"@cdktn/provider-google-beta.googleServiceDirectoryService.GoogleServiceDirectoryService",
 		reflect.TypeOf((*GoogleServiceDirectoryService)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -78,15 +78,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleServiceDirectoryService.GoogleServiceDirectoryServiceConfig",
+		"@cdktn/provider-google-beta.googleServiceDirectoryService.GoogleServiceDirectoryServiceConfig",
 		reflect.TypeOf((*GoogleServiceDirectoryServiceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleServiceDirectoryService.GoogleServiceDirectoryServiceTimeouts",
+		"@cdktn/provider-google-beta.googleServiceDirectoryService.GoogleServiceDirectoryServiceTimeouts",
 		reflect.TypeOf((*GoogleServiceDirectoryServiceTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleServiceDirectoryService.GoogleServiceDirectoryServiceTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleServiceDirectoryService.GoogleServiceDirectoryServiceTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleServiceDirectoryServiceTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

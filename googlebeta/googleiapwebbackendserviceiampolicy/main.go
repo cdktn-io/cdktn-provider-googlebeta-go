@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googleiapwebbackendserviceiampolicy
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleIapWebBackendServiceIamPolicy.GoogleIapWebBackendServiceIamPolicy",
+		"@cdktn/provider-google-beta.googleIapWebBackendServiceIamPolicy.GoogleIapWebBackendServiceIamPolicy",
 		reflect.TypeOf((*GoogleIapWebBackendServiceIamPolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -74,7 +74,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleIapWebBackendServiceIamPolicy.GoogleIapWebBackendServiceIamPolicyConfig",
+		"@cdktn/provider-google-beta.googleIapWebBackendServiceIamPolicy.GoogleIapWebBackendServiceIamPolicyConfig",
 		reflect.TypeOf((*GoogleIapWebBackendServiceIamPolicyConfig)(nil)).Elem(),
 	)
 }

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlestoragebucketaccesscontrol
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleStorageBucketAccessControl.GoogleStorageBucketAccessControl",
+		"@cdktn/provider-google-beta.googleStorageBucketAccessControl.GoogleStorageBucketAccessControl",
 		reflect.TypeOf((*GoogleStorageBucketAccessControl)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -79,15 +79,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleStorageBucketAccessControl.GoogleStorageBucketAccessControlConfig",
+		"@cdktn/provider-google-beta.googleStorageBucketAccessControl.GoogleStorageBucketAccessControlConfig",
 		reflect.TypeOf((*GoogleStorageBucketAccessControlConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleStorageBucketAccessControl.GoogleStorageBucketAccessControlTimeouts",
+		"@cdktn/provider-google-beta.googleStorageBucketAccessControl.GoogleStorageBucketAccessControlTimeouts",
 		reflect.TypeOf((*GoogleStorageBucketAccessControlTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleStorageBucketAccessControl.GoogleStorageBucketAccessControlTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleStorageBucketAccessControl.GoogleStorageBucketAccessControlTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleStorageBucketAccessControlTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

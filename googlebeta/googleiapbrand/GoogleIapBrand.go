@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googleiapbrand
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googleiapbrand/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleiapbrand/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -436,7 +436,7 @@ func NewGoogleIapBrand(scope constructs.Construct, id *string, config *GoogleIap
 	j := jsiiProxy_GoogleIapBrand{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleIapBrand.GoogleIapBrand",
+		"@cdktn/provider-google-beta.googleIapBrand.GoogleIapBrand",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -449,7 +449,7 @@ func NewGoogleIapBrand_Override(g GoogleIapBrand, scope constructs.Construct, id
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleIapBrand.GoogleIapBrand",
+		"@cdktn/provider-google-beta.googleIapBrand.GoogleIapBrand",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -577,7 +577,7 @@ func GoogleIapBrand_GenerateConfigForImport(scope constructs.Construct, importTo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleIapBrand.GoogleIapBrand",
+		"@cdktn/provider-google-beta.googleIapBrand.GoogleIapBrand",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -612,7 +612,7 @@ func GoogleIapBrand_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleIapBrand.GoogleIapBrand",
+		"@cdktn/provider-google-beta.googleIapBrand.GoogleIapBrand",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -631,7 +631,7 @@ func GoogleIapBrand_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleIapBrand.GoogleIapBrand",
+		"@cdktn/provider-google-beta.googleIapBrand.GoogleIapBrand",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -650,7 +650,7 @@ func GoogleIapBrand_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleIapBrand.GoogleIapBrand",
+		"@cdktn/provider-google-beta.googleIapBrand.GoogleIapBrand",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -663,7 +663,7 @@ func GoogleIapBrand_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleIapBrand.GoogleIapBrand",
+		"@cdktn/provider-google-beta.googleIapBrand.GoogleIapBrand",
 		"tfResourceType",
 		&returns,
 	)

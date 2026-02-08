@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googleiapbrand
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleIapBrand.GoogleIapBrand",
+		"@cdktn/provider-google-beta.googleIapBrand.GoogleIapBrand",
 		reflect.TypeOf((*GoogleIapBrand)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -79,15 +79,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleIapBrand.GoogleIapBrandConfig",
+		"@cdktn/provider-google-beta.googleIapBrand.GoogleIapBrandConfig",
 		reflect.TypeOf((*GoogleIapBrandConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleIapBrand.GoogleIapBrandTimeouts",
+		"@cdktn/provider-google-beta.googleIapBrand.GoogleIapBrandTimeouts",
 		reflect.TypeOf((*GoogleIapBrandTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleIapBrand.GoogleIapBrandTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleIapBrand.GoogleIapBrandTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleIapBrandTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlenetappbackup
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleNetappBackup.GoogleNetappBackup",
+		"@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackup",
 		reflect.TypeOf((*GoogleNetappBackup)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -100,15 +100,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleNetappBackup.GoogleNetappBackupConfig",
+		"@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupConfig",
 		reflect.TypeOf((*GoogleNetappBackupConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleNetappBackup.GoogleNetappBackupTimeouts",
+		"@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupTimeouts",
 		reflect.TypeOf((*GoogleNetappBackupTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleNetappBackup.GoogleNetappBackupTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleNetappBackupTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

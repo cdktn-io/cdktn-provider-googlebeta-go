@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlecomputediskiammember
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlecomputediskiammember/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecomputediskiammember/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -472,7 +472,7 @@ func NewGoogleComputeDiskIamMember(scope constructs.Construct, id *string, confi
 	j := jsiiProxy_GoogleComputeDiskIamMember{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleComputeDiskIamMember.GoogleComputeDiskIamMember",
+		"@cdktn/provider-google-beta.googleComputeDiskIamMember.GoogleComputeDiskIamMember",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -485,7 +485,7 @@ func NewGoogleComputeDiskIamMember_Override(g GoogleComputeDiskIamMember, scope 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleComputeDiskIamMember.GoogleComputeDiskIamMember",
+		"@cdktn/provider-google-beta.googleComputeDiskIamMember.GoogleComputeDiskIamMember",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -635,7 +635,7 @@ func GoogleComputeDiskIamMember_GenerateConfigForImport(scope constructs.Constru
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleComputeDiskIamMember.GoogleComputeDiskIamMember",
+		"@cdktn/provider-google-beta.googleComputeDiskIamMember.GoogleComputeDiskIamMember",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -670,7 +670,7 @@ func GoogleComputeDiskIamMember_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleComputeDiskIamMember.GoogleComputeDiskIamMember",
+		"@cdktn/provider-google-beta.googleComputeDiskIamMember.GoogleComputeDiskIamMember",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -689,7 +689,7 @@ func GoogleComputeDiskIamMember_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleComputeDiskIamMember.GoogleComputeDiskIamMember",
+		"@cdktn/provider-google-beta.googleComputeDiskIamMember.GoogleComputeDiskIamMember",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -708,7 +708,7 @@ func GoogleComputeDiskIamMember_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleComputeDiskIamMember.GoogleComputeDiskIamMember",
+		"@cdktn/provider-google-beta.googleComputeDiskIamMember.GoogleComputeDiskIamMember",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -721,7 +721,7 @@ func GoogleComputeDiskIamMember_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleComputeDiskIamMember.GoogleComputeDiskIamMember",
+		"@cdktn/provider-google-beta.googleComputeDiskIamMember.GoogleComputeDiskIamMember",
 		"tfResourceType",
 		&returns,
 	)

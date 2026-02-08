@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagooglebackupdrbackupvault
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleBackupDrBackupVault.DataGoogleBackupDrBackupVault",
+		"@cdktn/provider-google-beta.dataGoogleBackupDrBackupVault.DataGoogleBackupDrBackupVault",
 		reflect.TypeOf((*DataGoogleBackupDrBackupVault)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessRestriction", GoGetter: "AccessRestriction"},
@@ -90,7 +90,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleBackupDrBackupVault.DataGoogleBackupDrBackupVaultConfig",
+		"@cdktn/provider-google-beta.dataGoogleBackupDrBackupVault.DataGoogleBackupDrBackupVaultConfig",
 		reflect.TypeOf((*DataGoogleBackupDrBackupVaultConfig)(nil)).Elem(),
 	)
 }

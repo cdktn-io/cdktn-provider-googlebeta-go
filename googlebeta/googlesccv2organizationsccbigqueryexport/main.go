@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlesccv2organizationsccbigqueryexport
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleSccV2OrganizationSccBigQueryExport.GoogleSccV2OrganizationSccBigQueryExport",
+		"@cdktn/provider-google-beta.googleSccV2OrganizationSccBigQueryExport.GoogleSccV2OrganizationSccBigQueryExport",
 		reflect.TypeOf((*GoogleSccV2OrganizationSccBigQueryExport)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -93,15 +93,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleSccV2OrganizationSccBigQueryExport.GoogleSccV2OrganizationSccBigQueryExportConfig",
+		"@cdktn/provider-google-beta.googleSccV2OrganizationSccBigQueryExport.GoogleSccV2OrganizationSccBigQueryExportConfig",
 		reflect.TypeOf((*GoogleSccV2OrganizationSccBigQueryExportConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleSccV2OrganizationSccBigQueryExport.GoogleSccV2OrganizationSccBigQueryExportTimeouts",
+		"@cdktn/provider-google-beta.googleSccV2OrganizationSccBigQueryExport.GoogleSccV2OrganizationSccBigQueryExportTimeouts",
 		reflect.TypeOf((*GoogleSccV2OrganizationSccBigQueryExportTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleSccV2OrganizationSccBigQueryExport.GoogleSccV2OrganizationSccBigQueryExportTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleSccV2OrganizationSccBigQueryExport.GoogleSccV2OrganizationSccBigQueryExportTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleSccV2OrganizationSccBigQueryExportTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

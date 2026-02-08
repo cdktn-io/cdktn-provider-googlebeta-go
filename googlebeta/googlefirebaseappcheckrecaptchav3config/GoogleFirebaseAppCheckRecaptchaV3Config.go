@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlefirebaseappcheckrecaptchav3config
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlefirebaseappcheckrecaptchav3config/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlefirebaseappcheckrecaptchav3config/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -460,7 +460,7 @@ func NewGoogleFirebaseAppCheckRecaptchaV3Config(scope constructs.Construct, id *
 	j := jsiiProxy_GoogleFirebaseAppCheckRecaptchaV3Config{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleFirebaseAppCheckRecaptchaV3Config.GoogleFirebaseAppCheckRecaptchaV3Config",
+		"@cdktn/provider-google-beta.googleFirebaseAppCheckRecaptchaV3Config.GoogleFirebaseAppCheckRecaptchaV3Config",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -473,7 +473,7 @@ func NewGoogleFirebaseAppCheckRecaptchaV3Config_Override(g GoogleFirebaseAppChec
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleFirebaseAppCheckRecaptchaV3Config.GoogleFirebaseAppCheckRecaptchaV3Config",
+		"@cdktn/provider-google-beta.googleFirebaseAppCheckRecaptchaV3Config.GoogleFirebaseAppCheckRecaptchaV3Config",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -612,7 +612,7 @@ func GoogleFirebaseAppCheckRecaptchaV3Config_GenerateConfigForImport(scope const
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleFirebaseAppCheckRecaptchaV3Config.GoogleFirebaseAppCheckRecaptchaV3Config",
+		"@cdktn/provider-google-beta.googleFirebaseAppCheckRecaptchaV3Config.GoogleFirebaseAppCheckRecaptchaV3Config",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -647,7 +647,7 @@ func GoogleFirebaseAppCheckRecaptchaV3Config_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleFirebaseAppCheckRecaptchaV3Config.GoogleFirebaseAppCheckRecaptchaV3Config",
+		"@cdktn/provider-google-beta.googleFirebaseAppCheckRecaptchaV3Config.GoogleFirebaseAppCheckRecaptchaV3Config",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -666,7 +666,7 @@ func GoogleFirebaseAppCheckRecaptchaV3Config_IsTerraformElement(x interface{}) *
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleFirebaseAppCheckRecaptchaV3Config.GoogleFirebaseAppCheckRecaptchaV3Config",
+		"@cdktn/provider-google-beta.googleFirebaseAppCheckRecaptchaV3Config.GoogleFirebaseAppCheckRecaptchaV3Config",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -685,7 +685,7 @@ func GoogleFirebaseAppCheckRecaptchaV3Config_IsTerraformResource(x interface{}) 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleFirebaseAppCheckRecaptchaV3Config.GoogleFirebaseAppCheckRecaptchaV3Config",
+		"@cdktn/provider-google-beta.googleFirebaseAppCheckRecaptchaV3Config.GoogleFirebaseAppCheckRecaptchaV3Config",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -698,7 +698,7 @@ func GoogleFirebaseAppCheckRecaptchaV3Config_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleFirebaseAppCheckRecaptchaV3Config.GoogleFirebaseAppCheckRecaptchaV3Config",
+		"@cdktn/provider-google-beta.googleFirebaseAppCheckRecaptchaV3Config.GoogleFirebaseAppCheckRecaptchaV3Config",
 		"tfResourceType",
 		&returns,
 	)

@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlenetappvolumesnapshot
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlenetappvolumesnapshot/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlenetappvolumesnapshot/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -518,7 +518,7 @@ func NewGoogleNetappVolumeSnapshot(scope constructs.Construct, id *string, confi
 	j := jsiiProxy_GoogleNetappVolumeSnapshot{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleNetappVolumeSnapshot.GoogleNetappVolumeSnapshot",
+		"@cdktn/provider-google-beta.googleNetappVolumeSnapshot.GoogleNetappVolumeSnapshot",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -531,7 +531,7 @@ func NewGoogleNetappVolumeSnapshot_Override(g GoogleNetappVolumeSnapshot, scope 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleNetappVolumeSnapshot.GoogleNetappVolumeSnapshot",
+		"@cdktn/provider-google-beta.googleNetappVolumeSnapshot.GoogleNetappVolumeSnapshot",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -692,7 +692,7 @@ func GoogleNetappVolumeSnapshot_GenerateConfigForImport(scope constructs.Constru
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleNetappVolumeSnapshot.GoogleNetappVolumeSnapshot",
+		"@cdktn/provider-google-beta.googleNetappVolumeSnapshot.GoogleNetappVolumeSnapshot",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -727,7 +727,7 @@ func GoogleNetappVolumeSnapshot_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleNetappVolumeSnapshot.GoogleNetappVolumeSnapshot",
+		"@cdktn/provider-google-beta.googleNetappVolumeSnapshot.GoogleNetappVolumeSnapshot",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -746,7 +746,7 @@ func GoogleNetappVolumeSnapshot_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleNetappVolumeSnapshot.GoogleNetappVolumeSnapshot",
+		"@cdktn/provider-google-beta.googleNetappVolumeSnapshot.GoogleNetappVolumeSnapshot",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -765,7 +765,7 @@ func GoogleNetappVolumeSnapshot_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleNetappVolumeSnapshot.GoogleNetappVolumeSnapshot",
+		"@cdktn/provider-google-beta.googleNetappVolumeSnapshot.GoogleNetappVolumeSnapshot",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -778,7 +778,7 @@ func GoogleNetappVolumeSnapshot_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleNetappVolumeSnapshot.GoogleNetappVolumeSnapshot",
+		"@cdktn/provider-google-beta.googleNetappVolumeSnapshot.GoogleNetappVolumeSnapshot",
 		"tfResourceType",
 		&returns,
 	)

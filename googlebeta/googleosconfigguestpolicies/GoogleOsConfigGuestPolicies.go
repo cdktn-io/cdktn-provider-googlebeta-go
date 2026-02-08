@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googleosconfigguestpolicies
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googleosconfigguestpolicies/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleosconfigguestpolicies/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -567,7 +567,7 @@ func NewGoogleOsConfigGuestPolicies(scope constructs.Construct, id *string, conf
 	j := jsiiProxy_GoogleOsConfigGuestPolicies{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleOsConfigGuestPolicies.GoogleOsConfigGuestPolicies",
+		"@cdktn/provider-google-beta.googleOsConfigGuestPolicies.GoogleOsConfigGuestPolicies",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -580,7 +580,7 @@ func NewGoogleOsConfigGuestPolicies_Override(g GoogleOsConfigGuestPolicies, scop
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleOsConfigGuestPolicies.GoogleOsConfigGuestPolicies",
+		"@cdktn/provider-google-beta.googleOsConfigGuestPolicies.GoogleOsConfigGuestPolicies",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -719,7 +719,7 @@ func GoogleOsConfigGuestPolicies_GenerateConfigForImport(scope constructs.Constr
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleOsConfigGuestPolicies.GoogleOsConfigGuestPolicies",
+		"@cdktn/provider-google-beta.googleOsConfigGuestPolicies.GoogleOsConfigGuestPolicies",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -754,7 +754,7 @@ func GoogleOsConfigGuestPolicies_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleOsConfigGuestPolicies.GoogleOsConfigGuestPolicies",
+		"@cdktn/provider-google-beta.googleOsConfigGuestPolicies.GoogleOsConfigGuestPolicies",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -773,7 +773,7 @@ func GoogleOsConfigGuestPolicies_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleOsConfigGuestPolicies.GoogleOsConfigGuestPolicies",
+		"@cdktn/provider-google-beta.googleOsConfigGuestPolicies.GoogleOsConfigGuestPolicies",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -792,7 +792,7 @@ func GoogleOsConfigGuestPolicies_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleOsConfigGuestPolicies.GoogleOsConfigGuestPolicies",
+		"@cdktn/provider-google-beta.googleOsConfigGuestPolicies.GoogleOsConfigGuestPolicies",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -805,7 +805,7 @@ func GoogleOsConfigGuestPolicies_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleOsConfigGuestPolicies.GoogleOsConfigGuestPolicies",
+		"@cdktn/provider-google-beta.googleOsConfigGuestPolicies.GoogleOsConfigGuestPolicies",
 		"tfResourceType",
 		&returns,
 	)

@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagooglefirebaseappleapp
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/datagooglefirebaseappleapp/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagooglefirebaseappleapp/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -399,7 +399,7 @@ func NewDataGoogleFirebaseAppleApp(scope constructs.Construct, id *string, confi
 	j := jsiiProxy_DataGoogleFirebaseAppleApp{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.dataGoogleFirebaseAppleApp.DataGoogleFirebaseAppleApp",
+		"@cdktn/provider-google-beta.dataGoogleFirebaseAppleApp.DataGoogleFirebaseAppleApp",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -412,7 +412,7 @@ func NewDataGoogleFirebaseAppleApp_Override(d DataGoogleFirebaseAppleApp, scope 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.dataGoogleFirebaseAppleApp.DataGoogleFirebaseAppleApp",
+		"@cdktn/provider-google-beta.dataGoogleFirebaseAppleApp.DataGoogleFirebaseAppleApp",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -507,7 +507,7 @@ func DataGoogleFirebaseAppleApp_GenerateConfigForImport(scope constructs.Constru
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleFirebaseAppleApp.DataGoogleFirebaseAppleApp",
+		"@cdktn/provider-google-beta.dataGoogleFirebaseAppleApp.DataGoogleFirebaseAppleApp",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -542,7 +542,7 @@ func DataGoogleFirebaseAppleApp_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleFirebaseAppleApp.DataGoogleFirebaseAppleApp",
+		"@cdktn/provider-google-beta.dataGoogleFirebaseAppleApp.DataGoogleFirebaseAppleApp",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -561,7 +561,7 @@ func DataGoogleFirebaseAppleApp_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleFirebaseAppleApp.DataGoogleFirebaseAppleApp",
+		"@cdktn/provider-google-beta.dataGoogleFirebaseAppleApp.DataGoogleFirebaseAppleApp",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -580,7 +580,7 @@ func DataGoogleFirebaseAppleApp_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleFirebaseAppleApp.DataGoogleFirebaseAppleApp",
+		"@cdktn/provider-google-beta.dataGoogleFirebaseAppleApp.DataGoogleFirebaseAppleApp",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -593,7 +593,7 @@ func DataGoogleFirebaseAppleApp_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.dataGoogleFirebaseAppleApp.DataGoogleFirebaseAppleApp",
+		"@cdktn/provider-google-beta.dataGoogleFirebaseAppleApp.DataGoogleFirebaseAppleApp",
 		"tfResourceType",
 		&returns,
 	)

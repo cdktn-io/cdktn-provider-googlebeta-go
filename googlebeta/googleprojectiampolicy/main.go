@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googleprojectiampolicy
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleProjectIamPolicy.GoogleProjectIamPolicy",
+		"@cdktn/provider-google-beta.googleProjectIamPolicy.GoogleProjectIamPolicy",
 		reflect.TypeOf((*GoogleProjectIamPolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -71,7 +71,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleProjectIamPolicy.GoogleProjectIamPolicyConfig",
+		"@cdktn/provider-google-beta.googleProjectIamPolicy.GoogleProjectIamPolicyConfig",
 		reflect.TypeOf((*GoogleProjectIamPolicyConfig)(nil)).Elem(),
 	)
 }

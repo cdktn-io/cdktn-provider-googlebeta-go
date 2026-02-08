@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlebigtablematerializedview
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleBigtableMaterializedView.GoogleBigtableMaterializedView",
+		"@cdktn/provider-google-beta.googleBigtableMaterializedView.GoogleBigtableMaterializedView",
 		reflect.TypeOf((*GoogleBigtableMaterializedView)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -84,15 +84,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleBigtableMaterializedView.GoogleBigtableMaterializedViewConfig",
+		"@cdktn/provider-google-beta.googleBigtableMaterializedView.GoogleBigtableMaterializedViewConfig",
 		reflect.TypeOf((*GoogleBigtableMaterializedViewConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleBigtableMaterializedView.GoogleBigtableMaterializedViewTimeouts",
+		"@cdktn/provider-google-beta.googleBigtableMaterializedView.GoogleBigtableMaterializedViewTimeouts",
 		reflect.TypeOf((*GoogleBigtableMaterializedViewTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleBigtableMaterializedView.GoogleBigtableMaterializedViewTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleBigtableMaterializedView.GoogleBigtableMaterializedViewTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleBigtableMaterializedViewTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

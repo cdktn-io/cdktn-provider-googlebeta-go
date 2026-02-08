@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlecomputesslpolicy
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleComputeSslPolicy.GoogleComputeSslPolicy",
+		"@cdktn/provider-google-beta.googleComputeSslPolicy.GoogleComputeSslPolicy",
 		reflect.TypeOf((*GoogleComputeSslPolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -91,15 +91,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleComputeSslPolicy.GoogleComputeSslPolicyConfig",
+		"@cdktn/provider-google-beta.googleComputeSslPolicy.GoogleComputeSslPolicyConfig",
 		reflect.TypeOf((*GoogleComputeSslPolicyConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleComputeSslPolicy.GoogleComputeSslPolicyTimeouts",
+		"@cdktn/provider-google-beta.googleComputeSslPolicy.GoogleComputeSslPolicyTimeouts",
 		reflect.TypeOf((*GoogleComputeSslPolicyTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleComputeSslPolicy.GoogleComputeSslPolicyTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleComputeSslPolicy.GoogleComputeSslPolicyTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleComputeSslPolicyTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

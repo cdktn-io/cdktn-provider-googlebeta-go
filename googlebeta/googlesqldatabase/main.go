@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlesqldatabase
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleSqlDatabase.GoogleSqlDatabase",
+		"@cdktn/provider-google-beta.googleSqlDatabase.GoogleSqlDatabase",
 		reflect.TypeOf((*GoogleSqlDatabase)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -87,15 +87,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleSqlDatabase.GoogleSqlDatabaseConfig",
+		"@cdktn/provider-google-beta.googleSqlDatabase.GoogleSqlDatabaseConfig",
 		reflect.TypeOf((*GoogleSqlDatabaseConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleSqlDatabase.GoogleSqlDatabaseTimeouts",
+		"@cdktn/provider-google-beta.googleSqlDatabase.GoogleSqlDatabaseTimeouts",
 		reflect.TypeOf((*GoogleSqlDatabaseTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleSqlDatabase.GoogleSqlDatabaseTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleSqlDatabase.GoogleSqlDatabaseTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleSqlDatabaseTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

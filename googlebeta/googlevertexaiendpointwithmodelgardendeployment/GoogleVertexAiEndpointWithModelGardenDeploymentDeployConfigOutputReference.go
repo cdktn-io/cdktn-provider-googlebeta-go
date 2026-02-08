@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlevertexaiendpointwithmodelgardendeployment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlevertexaiendpointwithmodelgardendeployment/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlevertexaiendpointwithmodelgardendeployment/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -71,14 +71,14 @@ type GoogleVertexAiEndpointWithModelGardenDeploymentDeployConfigOutputReference 
 	// Experimental.
 	InterpolationAsList() cdktf.IResolvable
 	// Experimental.
-	InterpolationForAttribute(property *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
 	PutDedicatedResources(value *GoogleVertexAiEndpointWithModelGardenDeploymentDeployConfigDedicatedResources)
 	ResetDedicatedResources()
 	ResetFastTryoutEnabled()
 	ResetSystemLabels()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(_context cdktf.IResolveContext) interface{}
+	Resolve(context cdktf.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -231,7 +231,7 @@ func NewGoogleVertexAiEndpointWithModelGardenDeploymentDeployConfigOutputReferen
 	j := jsiiProxy_GoogleVertexAiEndpointWithModelGardenDeploymentDeployConfigOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentDeployConfigOutputReference",
+		"@cdktn/provider-google-beta.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentDeployConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewGoogleVertexAiEndpointWithModelGardenDeploymentDeployConfigOutputReferen
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentDeployConfigOutputReference",
+		"@cdktn/provider-google-beta.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeploymentDeployConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		g,
 	)
@@ -496,8 +496,8 @@ func (g *jsiiProxy_GoogleVertexAiEndpointWithModelGardenDeploymentDeployConfigOu
 	return returns
 }
 
-func (g *jsiiProxy_GoogleVertexAiEndpointWithModelGardenDeploymentDeployConfigOutputReference) InterpolationForAttribute(property *string) cdktf.IResolvable {
-	if err := g.validateInterpolationForAttributeParameters(property); err != nil {
+func (g *jsiiProxy_GoogleVertexAiEndpointWithModelGardenDeploymentDeployConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
 	var returns cdktf.IResolvable
@@ -505,7 +505,7 @@ func (g *jsiiProxy_GoogleVertexAiEndpointWithModelGardenDeploymentDeployConfigOu
 	_jsii_.Invoke(
 		g,
 		"interpolationForAttribute",
-		[]interface{}{property},
+		[]interface{}{terraformAttribute},
 		&returns,
 	)
 
@@ -547,8 +547,8 @@ func (g *jsiiProxy_GoogleVertexAiEndpointWithModelGardenDeploymentDeployConfigOu
 	)
 }
 
-func (g *jsiiProxy_GoogleVertexAiEndpointWithModelGardenDeploymentDeployConfigOutputReference) Resolve(_context cdktf.IResolveContext) interface{} {
-	if err := g.validateResolveParameters(_context); err != nil {
+func (g *jsiiProxy_GoogleVertexAiEndpointWithModelGardenDeploymentDeployConfigOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}
 	var returns interface{}
@@ -556,7 +556,7 @@ func (g *jsiiProxy_GoogleVertexAiEndpointWithModelGardenDeploymentDeployConfigOu
 	_jsii_.Invoke(
 		g,
 		"resolve",
-		[]interface{}{_context},
+		[]interface{}{context},
 		&returns,
 	)
 

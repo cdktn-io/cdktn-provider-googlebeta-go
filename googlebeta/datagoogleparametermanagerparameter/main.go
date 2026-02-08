@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagoogleparametermanagerparameter
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleParameterManagerParameter.DataGoogleParameterManagerParameter",
+		"@cdktn/provider-google-beta.dataGoogleParameterManagerParameter.DataGoogleParameterManagerParameter",
 		reflect.TypeOf((*DataGoogleParameterManagerParameter)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -72,15 +72,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleParameterManagerParameter.DataGoogleParameterManagerParameterConfig",
+		"@cdktn/provider-google-beta.dataGoogleParameterManagerParameter.DataGoogleParameterManagerParameterConfig",
 		reflect.TypeOf((*DataGoogleParameterManagerParameterConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleParameterManagerParameter.DataGoogleParameterManagerParameterPolicyMember",
+		"@cdktn/provider-google-beta.dataGoogleParameterManagerParameter.DataGoogleParameterManagerParameterPolicyMember",
 		reflect.TypeOf((*DataGoogleParameterManagerParameterPolicyMember)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleParameterManagerParameter.DataGoogleParameterManagerParameterPolicyMemberList",
+		"@cdktn/provider-google-beta.dataGoogleParameterManagerParameter.DataGoogleParameterManagerParameterPolicyMemberList",
 		reflect.TypeOf((*DataGoogleParameterManagerParameterPolicyMemberList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -101,7 +101,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleParameterManagerParameter.DataGoogleParameterManagerParameterPolicyMemberOutputReference",
+		"@cdktn/provider-google-beta.dataGoogleParameterManagerParameter.DataGoogleParameterManagerParameterPolicyMemberOutputReference",
 		reflect.TypeOf((*DataGoogleParameterManagerParameterPolicyMemberOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

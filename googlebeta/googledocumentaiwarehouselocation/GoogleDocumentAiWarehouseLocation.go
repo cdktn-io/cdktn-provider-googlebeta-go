@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googledocumentaiwarehouselocation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googledocumentaiwarehouselocation/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googledocumentaiwarehouselocation/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -484,7 +484,7 @@ func NewGoogleDocumentAiWarehouseLocation(scope constructs.Construct, id *string
 	j := jsiiProxy_GoogleDocumentAiWarehouseLocation{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleDocumentAiWarehouseLocation.GoogleDocumentAiWarehouseLocation",
+		"@cdktn/provider-google-beta.googleDocumentAiWarehouseLocation.GoogleDocumentAiWarehouseLocation",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -497,7 +497,7 @@ func NewGoogleDocumentAiWarehouseLocation_Override(g GoogleDocumentAiWarehouseLo
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleDocumentAiWarehouseLocation.GoogleDocumentAiWarehouseLocation",
+		"@cdktn/provider-google-beta.googleDocumentAiWarehouseLocation.GoogleDocumentAiWarehouseLocation",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -658,7 +658,7 @@ func GoogleDocumentAiWarehouseLocation_GenerateConfigForImport(scope constructs.
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleDocumentAiWarehouseLocation.GoogleDocumentAiWarehouseLocation",
+		"@cdktn/provider-google-beta.googleDocumentAiWarehouseLocation.GoogleDocumentAiWarehouseLocation",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -693,7 +693,7 @@ func GoogleDocumentAiWarehouseLocation_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleDocumentAiWarehouseLocation.GoogleDocumentAiWarehouseLocation",
+		"@cdktn/provider-google-beta.googleDocumentAiWarehouseLocation.GoogleDocumentAiWarehouseLocation",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -712,7 +712,7 @@ func GoogleDocumentAiWarehouseLocation_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleDocumentAiWarehouseLocation.GoogleDocumentAiWarehouseLocation",
+		"@cdktn/provider-google-beta.googleDocumentAiWarehouseLocation.GoogleDocumentAiWarehouseLocation",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -731,7 +731,7 @@ func GoogleDocumentAiWarehouseLocation_IsTerraformResource(x interface{}) *bool 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleDocumentAiWarehouseLocation.GoogleDocumentAiWarehouseLocation",
+		"@cdktn/provider-google-beta.googleDocumentAiWarehouseLocation.GoogleDocumentAiWarehouseLocation",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -744,7 +744,7 @@ func GoogleDocumentAiWarehouseLocation_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleDocumentAiWarehouseLocation.GoogleDocumentAiWarehouseLocation",
+		"@cdktn/provider-google-beta.googleDocumentAiWarehouseLocation.GoogleDocumentAiWarehouseLocation",
 		"tfResourceType",
 		&returns,
 	)

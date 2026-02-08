@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googledataplexentrytypeiambinding
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googledataplexentrytypeiambinding/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googledataplexentrytypeiambinding/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -472,7 +472,7 @@ func NewGoogleDataplexEntryTypeIamBinding(scope constructs.Construct, id *string
 	j := jsiiProxy_GoogleDataplexEntryTypeIamBinding{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleDataplexEntryTypeIamBinding.GoogleDataplexEntryTypeIamBinding",
+		"@cdktn/provider-google-beta.googleDataplexEntryTypeIamBinding.GoogleDataplexEntryTypeIamBinding",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -485,7 +485,7 @@ func NewGoogleDataplexEntryTypeIamBinding_Override(g GoogleDataplexEntryTypeIamB
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleDataplexEntryTypeIamBinding.GoogleDataplexEntryTypeIamBinding",
+		"@cdktn/provider-google-beta.googleDataplexEntryTypeIamBinding.GoogleDataplexEntryTypeIamBinding",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -635,7 +635,7 @@ func GoogleDataplexEntryTypeIamBinding_GenerateConfigForImport(scope constructs.
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleDataplexEntryTypeIamBinding.GoogleDataplexEntryTypeIamBinding",
+		"@cdktn/provider-google-beta.googleDataplexEntryTypeIamBinding.GoogleDataplexEntryTypeIamBinding",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -670,7 +670,7 @@ func GoogleDataplexEntryTypeIamBinding_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleDataplexEntryTypeIamBinding.GoogleDataplexEntryTypeIamBinding",
+		"@cdktn/provider-google-beta.googleDataplexEntryTypeIamBinding.GoogleDataplexEntryTypeIamBinding",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -689,7 +689,7 @@ func GoogleDataplexEntryTypeIamBinding_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleDataplexEntryTypeIamBinding.GoogleDataplexEntryTypeIamBinding",
+		"@cdktn/provider-google-beta.googleDataplexEntryTypeIamBinding.GoogleDataplexEntryTypeIamBinding",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -708,7 +708,7 @@ func GoogleDataplexEntryTypeIamBinding_IsTerraformResource(x interface{}) *bool 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleDataplexEntryTypeIamBinding.GoogleDataplexEntryTypeIamBinding",
+		"@cdktn/provider-google-beta.googleDataplexEntryTypeIamBinding.GoogleDataplexEntryTypeIamBinding",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -721,7 +721,7 @@ func GoogleDataplexEntryTypeIamBinding_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleDataplexEntryTypeIamBinding.GoogleDataplexEntryTypeIamBinding",
+		"@cdktn/provider-google-beta.googleDataplexEntryTypeIamBinding.GoogleDataplexEntryTypeIamBinding",
 		"tfResourceType",
 		&returns,
 	)

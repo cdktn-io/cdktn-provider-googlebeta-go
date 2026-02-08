@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagoogleactivefolder
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/datagoogleactivefolder/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagoogleactivefolder/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -356,7 +356,7 @@ func NewDataGoogleActiveFolder(scope constructs.Construct, id *string, config *D
 	j := jsiiProxy_DataGoogleActiveFolder{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.dataGoogleActiveFolder.DataGoogleActiveFolder",
+		"@cdktn/provider-google-beta.dataGoogleActiveFolder.DataGoogleActiveFolder",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -369,7 +369,7 @@ func NewDataGoogleActiveFolder_Override(d DataGoogleActiveFolder, scope construc
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.dataGoogleActiveFolder.DataGoogleActiveFolder",
+		"@cdktn/provider-google-beta.dataGoogleActiveFolder.DataGoogleActiveFolder",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -475,7 +475,7 @@ func DataGoogleActiveFolder_GenerateConfigForImport(scope constructs.Construct, 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleActiveFolder.DataGoogleActiveFolder",
+		"@cdktn/provider-google-beta.dataGoogleActiveFolder.DataGoogleActiveFolder",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -510,7 +510,7 @@ func DataGoogleActiveFolder_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleActiveFolder.DataGoogleActiveFolder",
+		"@cdktn/provider-google-beta.dataGoogleActiveFolder.DataGoogleActiveFolder",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -529,7 +529,7 @@ func DataGoogleActiveFolder_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleActiveFolder.DataGoogleActiveFolder",
+		"@cdktn/provider-google-beta.dataGoogleActiveFolder.DataGoogleActiveFolder",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -548,7 +548,7 @@ func DataGoogleActiveFolder_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleActiveFolder.DataGoogleActiveFolder",
+		"@cdktn/provider-google-beta.dataGoogleActiveFolder.DataGoogleActiveFolder",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -561,7 +561,7 @@ func DataGoogleActiveFolder_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.dataGoogleActiveFolder.DataGoogleActiveFolder",
+		"@cdktn/provider-google-beta.dataGoogleActiveFolder.DataGoogleActiveFolder",
 		"tfResourceType",
 		&returns,
 	)

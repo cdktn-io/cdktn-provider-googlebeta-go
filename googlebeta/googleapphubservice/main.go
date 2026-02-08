@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googleapphubservice
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleApphubService.GoogleApphubService",
+		"@cdktn/provider-google-beta.googleApphubService.GoogleApphubService",
 		reflect.TypeOf((*GoogleApphubService)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -98,15 +98,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleApphubService.GoogleApphubServiceAttributes",
+		"@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceAttributes",
 		reflect.TypeOf((*GoogleApphubServiceAttributes)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleApphubService.GoogleApphubServiceAttributesBusinessOwners",
+		"@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceAttributesBusinessOwners",
 		reflect.TypeOf((*GoogleApphubServiceAttributesBusinessOwners)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleApphubService.GoogleApphubServiceAttributesBusinessOwnersList",
+		"@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceAttributesBusinessOwnersList",
 		reflect.TypeOf((*GoogleApphubServiceAttributesBusinessOwnersList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -128,7 +128,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleApphubService.GoogleApphubServiceAttributesBusinessOwnersOutputReference",
+		"@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceAttributesBusinessOwnersOutputReference",
 		reflect.TypeOf((*GoogleApphubServiceAttributesBusinessOwnersOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -165,11 +165,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleApphubService.GoogleApphubServiceAttributesCriticality",
+		"@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceAttributesCriticality",
 		reflect.TypeOf((*GoogleApphubServiceAttributesCriticality)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleApphubService.GoogleApphubServiceAttributesCriticalityOutputReference",
+		"@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceAttributesCriticalityOutputReference",
 		reflect.TypeOf((*GoogleApphubServiceAttributesCriticalityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -203,11 +203,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleApphubService.GoogleApphubServiceAttributesDeveloperOwners",
+		"@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceAttributesDeveloperOwners",
 		reflect.TypeOf((*GoogleApphubServiceAttributesDeveloperOwners)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleApphubService.GoogleApphubServiceAttributesDeveloperOwnersList",
+		"@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceAttributesDeveloperOwnersList",
 		reflect.TypeOf((*GoogleApphubServiceAttributesDeveloperOwnersList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -229,7 +229,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleApphubService.GoogleApphubServiceAttributesDeveloperOwnersOutputReference",
+		"@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceAttributesDeveloperOwnersOutputReference",
 		reflect.TypeOf((*GoogleApphubServiceAttributesDeveloperOwnersOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -266,11 +266,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleApphubService.GoogleApphubServiceAttributesEnvironment",
+		"@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceAttributesEnvironment",
 		reflect.TypeOf((*GoogleApphubServiceAttributesEnvironment)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleApphubService.GoogleApphubServiceAttributesEnvironmentOutputReference",
+		"@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceAttributesEnvironmentOutputReference",
 		reflect.TypeOf((*GoogleApphubServiceAttributesEnvironmentOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -304,11 +304,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleApphubService.GoogleApphubServiceAttributesOperatorOwners",
+		"@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceAttributesOperatorOwners",
 		reflect.TypeOf((*GoogleApphubServiceAttributesOperatorOwners)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleApphubService.GoogleApphubServiceAttributesOperatorOwnersList",
+		"@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceAttributesOperatorOwnersList",
 		reflect.TypeOf((*GoogleApphubServiceAttributesOperatorOwnersList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -330,7 +330,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleApphubService.GoogleApphubServiceAttributesOperatorOwnersOutputReference",
+		"@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceAttributesOperatorOwnersOutputReference",
 		reflect.TypeOf((*GoogleApphubServiceAttributesOperatorOwnersOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -367,7 +367,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleApphubService.GoogleApphubServiceAttributesOutputReference",
+		"@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceAttributesOutputReference",
 		reflect.TypeOf((*GoogleApphubServiceAttributesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "businessOwners", GoGetter: "BusinessOwners"},
@@ -419,15 +419,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleApphubService.GoogleApphubServiceConfig",
+		"@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceConfig",
 		reflect.TypeOf((*GoogleApphubServiceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleApphubService.GoogleApphubServiceServiceProperties",
+		"@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServiceProperties",
 		reflect.TypeOf((*GoogleApphubServiceServiceProperties)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesList",
+		"@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesList",
 		reflect.TypeOf((*GoogleApphubServiceServicePropertiesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -448,7 +448,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesOutputReference",
+		"@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServicePropertiesOutputReference",
 		reflect.TypeOf((*GoogleApphubServiceServicePropertiesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -483,11 +483,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleApphubService.GoogleApphubServiceServiceReference",
+		"@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServiceReference",
 		reflect.TypeOf((*GoogleApphubServiceServiceReference)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleApphubService.GoogleApphubServiceServiceReferenceList",
+		"@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServiceReferenceList",
 		reflect.TypeOf((*GoogleApphubServiceServiceReferenceList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -508,7 +508,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleApphubService.GoogleApphubServiceServiceReferenceOutputReference",
+		"@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceServiceReferenceOutputReference",
 		reflect.TypeOf((*GoogleApphubServiceServiceReferenceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -541,11 +541,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleApphubService.GoogleApphubServiceTimeouts",
+		"@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceTimeouts",
 		reflect.TypeOf((*GoogleApphubServiceTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleApphubService.GoogleApphubServiceTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleApphubService.GoogleApphubServiceTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleApphubServiceTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

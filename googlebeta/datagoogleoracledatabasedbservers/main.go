@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagoogleoracledatabasedbservers
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleOracleDatabaseDbServers.DataGoogleOracleDatabaseDbServers",
+		"@cdktn/provider-google-beta.dataGoogleOracleDatabaseDbServers.DataGoogleOracleDatabaseDbServers",
 		reflect.TypeOf((*DataGoogleOracleDatabaseDbServers)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -66,15 +66,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleOracleDatabaseDbServers.DataGoogleOracleDatabaseDbServersConfig",
+		"@cdktn/provider-google-beta.dataGoogleOracleDatabaseDbServers.DataGoogleOracleDatabaseDbServersConfig",
 		reflect.TypeOf((*DataGoogleOracleDatabaseDbServersConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleOracleDatabaseDbServers.DataGoogleOracleDatabaseDbServersDbServers",
+		"@cdktn/provider-google-beta.dataGoogleOracleDatabaseDbServers.DataGoogleOracleDatabaseDbServersDbServers",
 		reflect.TypeOf((*DataGoogleOracleDatabaseDbServersDbServers)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleOracleDatabaseDbServers.DataGoogleOracleDatabaseDbServersDbServersList",
+		"@cdktn/provider-google-beta.dataGoogleOracleDatabaseDbServers.DataGoogleOracleDatabaseDbServersDbServersList",
 		reflect.TypeOf((*DataGoogleOracleDatabaseDbServersDbServersList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -95,7 +95,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleOracleDatabaseDbServers.DataGoogleOracleDatabaseDbServersDbServersOutputReference",
+		"@cdktn/provider-google-beta.dataGoogleOracleDatabaseDbServers.DataGoogleOracleDatabaseDbServersDbServersOutputReference",
 		reflect.TypeOf((*DataGoogleOracleDatabaseDbServersDbServersOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -129,11 +129,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleOracleDatabaseDbServers.DataGoogleOracleDatabaseDbServersDbServersProperties",
+		"@cdktn/provider-google-beta.dataGoogleOracleDatabaseDbServers.DataGoogleOracleDatabaseDbServersDbServersProperties",
 		reflect.TypeOf((*DataGoogleOracleDatabaseDbServersDbServersProperties)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleOracleDatabaseDbServers.DataGoogleOracleDatabaseDbServersDbServersPropertiesList",
+		"@cdktn/provider-google-beta.dataGoogleOracleDatabaseDbServers.DataGoogleOracleDatabaseDbServersDbServersPropertiesList",
 		reflect.TypeOf((*DataGoogleOracleDatabaseDbServersDbServersPropertiesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -154,7 +154,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleOracleDatabaseDbServers.DataGoogleOracleDatabaseDbServersDbServersPropertiesOutputReference",
+		"@cdktn/provider-google-beta.dataGoogleOracleDatabaseDbServers.DataGoogleOracleDatabaseDbServersDbServersPropertiesOutputReference",
 		reflect.TypeOf((*DataGoogleOracleDatabaseDbServersDbServersPropertiesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

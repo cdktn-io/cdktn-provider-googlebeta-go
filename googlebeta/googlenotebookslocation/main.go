@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlenotebookslocation
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleNotebooksLocation.GoogleNotebooksLocation",
+		"@cdktn/provider-google-beta.googleNotebooksLocation.GoogleNotebooksLocation",
 		reflect.TypeOf((*GoogleNotebooksLocation)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -77,15 +77,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleNotebooksLocation.GoogleNotebooksLocationConfig",
+		"@cdktn/provider-google-beta.googleNotebooksLocation.GoogleNotebooksLocationConfig",
 		reflect.TypeOf((*GoogleNotebooksLocationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleNotebooksLocation.GoogleNotebooksLocationTimeouts",
+		"@cdktn/provider-google-beta.googleNotebooksLocation.GoogleNotebooksLocationTimeouts",
 		reflect.TypeOf((*GoogleNotebooksLocationTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleNotebooksLocation.GoogleNotebooksLocationTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleNotebooksLocation.GoogleNotebooksLocationTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleNotebooksLocationTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

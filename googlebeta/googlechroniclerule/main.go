@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlechroniclerule
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleChronicleRule.GoogleChronicleRule",
+		"@cdktn/provider-google-beta.googleChronicleRule.GoogleChronicleRule",
 		reflect.TypeOf((*GoogleChronicleRule)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -107,11 +107,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleChronicleRule.GoogleChronicleRuleCompilationDiagnostics",
+		"@cdktn/provider-google-beta.googleChronicleRule.GoogleChronicleRuleCompilationDiagnostics",
 		reflect.TypeOf((*GoogleChronicleRuleCompilationDiagnostics)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleChronicleRule.GoogleChronicleRuleCompilationDiagnosticsList",
+		"@cdktn/provider-google-beta.googleChronicleRule.GoogleChronicleRuleCompilationDiagnosticsList",
 		reflect.TypeOf((*GoogleChronicleRuleCompilationDiagnosticsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -132,7 +132,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleChronicleRule.GoogleChronicleRuleCompilationDiagnosticsOutputReference",
+		"@cdktn/provider-google-beta.googleChronicleRule.GoogleChronicleRuleCompilationDiagnosticsOutputReference",
 		reflect.TypeOf((*GoogleChronicleRuleCompilationDiagnosticsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -168,11 +168,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleChronicleRule.GoogleChronicleRuleCompilationDiagnosticsPosition",
+		"@cdktn/provider-google-beta.googleChronicleRule.GoogleChronicleRuleCompilationDiagnosticsPosition",
 		reflect.TypeOf((*GoogleChronicleRuleCompilationDiagnosticsPosition)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleChronicleRule.GoogleChronicleRuleCompilationDiagnosticsPositionList",
+		"@cdktn/provider-google-beta.googleChronicleRule.GoogleChronicleRuleCompilationDiagnosticsPositionList",
 		reflect.TypeOf((*GoogleChronicleRuleCompilationDiagnosticsPositionList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -193,7 +193,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleChronicleRule.GoogleChronicleRuleCompilationDiagnosticsPositionOutputReference",
+		"@cdktn/provider-google-beta.googleChronicleRule.GoogleChronicleRuleCompilationDiagnosticsPositionOutputReference",
 		reflect.TypeOf((*GoogleChronicleRuleCompilationDiagnosticsPositionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -229,15 +229,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleChronicleRule.GoogleChronicleRuleConfig",
+		"@cdktn/provider-google-beta.googleChronicleRule.GoogleChronicleRuleConfig",
 		reflect.TypeOf((*GoogleChronicleRuleConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleChronicleRule.GoogleChronicleRuleSeverity",
+		"@cdktn/provider-google-beta.googleChronicleRule.GoogleChronicleRuleSeverity",
 		reflect.TypeOf((*GoogleChronicleRuleSeverity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleChronicleRule.GoogleChronicleRuleSeverityList",
+		"@cdktn/provider-google-beta.googleChronicleRule.GoogleChronicleRuleSeverityList",
 		reflect.TypeOf((*GoogleChronicleRuleSeverityList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -258,7 +258,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleChronicleRule.GoogleChronicleRuleSeverityOutputReference",
+		"@cdktn/provider-google-beta.googleChronicleRule.GoogleChronicleRuleSeverityOutputReference",
 		reflect.TypeOf((*GoogleChronicleRuleSeverityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -291,11 +291,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleChronicleRule.GoogleChronicleRuleTimeouts",
+		"@cdktn/provider-google-beta.googleChronicleRule.GoogleChronicleRuleTimeouts",
 		reflect.TypeOf((*GoogleChronicleRuleTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleChronicleRule.GoogleChronicleRuleTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleChronicleRule.GoogleChronicleRuleTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleChronicleRuleTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlenotebooksinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlenotebooksinstance/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlenotebooksinstance/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -72,12 +72,12 @@ type GoogleNotebooksInstanceVmImageOutputReference interface {
 	// Experimental.
 	InterpolationAsList() cdktf.IResolvable
 	// Experimental.
-	InterpolationForAttribute(property *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
 	ResetImageFamily()
 	ResetImageName()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(_context cdktf.IResolveContext) interface{}
+	Resolve(context cdktf.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -230,7 +230,7 @@ func NewGoogleNotebooksInstanceVmImageOutputReference(terraformResource cdktf.II
 	j := jsiiProxy_GoogleNotebooksInstanceVmImageOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleNotebooksInstance.GoogleNotebooksInstanceVmImageOutputReference",
+		"@cdktn/provider-google-beta.googleNotebooksInstance.GoogleNotebooksInstanceVmImageOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -242,7 +242,7 @@ func NewGoogleNotebooksInstanceVmImageOutputReference_Override(g GoogleNotebooks
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleNotebooksInstance.GoogleNotebooksInstanceVmImageOutputReference",
+		"@cdktn/provider-google-beta.googleNotebooksInstance.GoogleNotebooksInstanceVmImageOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		g,
 	)
@@ -506,8 +506,8 @@ func (g *jsiiProxy_GoogleNotebooksInstanceVmImageOutputReference) InterpolationA
 	return returns
 }
 
-func (g *jsiiProxy_GoogleNotebooksInstanceVmImageOutputReference) InterpolationForAttribute(property *string) cdktf.IResolvable {
-	if err := g.validateInterpolationForAttributeParameters(property); err != nil {
+func (g *jsiiProxy_GoogleNotebooksInstanceVmImageOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
 	var returns cdktf.IResolvable
@@ -515,7 +515,7 @@ func (g *jsiiProxy_GoogleNotebooksInstanceVmImageOutputReference) InterpolationF
 	_jsii_.Invoke(
 		g,
 		"interpolationForAttribute",
-		[]interface{}{property},
+		[]interface{}{terraformAttribute},
 		&returns,
 	)
 
@@ -538,8 +538,8 @@ func (g *jsiiProxy_GoogleNotebooksInstanceVmImageOutputReference) ResetImageName
 	)
 }
 
-func (g *jsiiProxy_GoogleNotebooksInstanceVmImageOutputReference) Resolve(_context cdktf.IResolveContext) interface{} {
-	if err := g.validateResolveParameters(_context); err != nil {
+func (g *jsiiProxy_GoogleNotebooksInstanceVmImageOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}
 	var returns interface{}
@@ -547,7 +547,7 @@ func (g *jsiiProxy_GoogleNotebooksInstanceVmImageOutputReference) Resolve(_conte
 	_jsii_.Invoke(
 		g,
 		"resolve",
-		[]interface{}{_context},
+		[]interface{}{context},
 		&returns,
 	)
 

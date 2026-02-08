@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagoogleloggingorganizationsettings
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleLoggingOrganizationSettings.DataGoogleLoggingOrganizationSettings",
+		"@cdktn/provider-google-beta.dataGoogleLoggingOrganizationSettings.DataGoogleLoggingOrganizationSettings",
 		reflect.TypeOf((*DataGoogleLoggingOrganizationSettings)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -66,7 +66,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleLoggingOrganizationSettings.DataGoogleLoggingOrganizationSettingsConfig",
+		"@cdktn/provider-google-beta.dataGoogleLoggingOrganizationSettings.DataGoogleLoggingOrganizationSettingsConfig",
 		reflect.TypeOf((*DataGoogleLoggingOrganizationSettingsConfig)(nil)).Elem(),
 	)
 }

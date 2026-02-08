@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlednspolicy
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleDnsPolicy.GoogleDnsPolicy",
+		"@cdktn/provider-google-beta.googleDnsPolicy.GoogleDnsPolicy",
 		reflect.TypeOf((*GoogleDnsPolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -96,11 +96,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleDnsPolicy.GoogleDnsPolicyAlternativeNameServerConfig",
+		"@cdktn/provider-google-beta.googleDnsPolicy.GoogleDnsPolicyAlternativeNameServerConfig",
 		reflect.TypeOf((*GoogleDnsPolicyAlternativeNameServerConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleDnsPolicy.GoogleDnsPolicyAlternativeNameServerConfigOutputReference",
+		"@cdktn/provider-google-beta.googleDnsPolicy.GoogleDnsPolicyAlternativeNameServerConfigOutputReference",
 		reflect.TypeOf((*GoogleDnsPolicyAlternativeNameServerConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -135,11 +135,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleDnsPolicy.GoogleDnsPolicyAlternativeNameServerConfigTargetNameServers",
+		"@cdktn/provider-google-beta.googleDnsPolicy.GoogleDnsPolicyAlternativeNameServerConfigTargetNameServers",
 		reflect.TypeOf((*GoogleDnsPolicyAlternativeNameServerConfigTargetNameServers)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleDnsPolicy.GoogleDnsPolicyAlternativeNameServerConfigTargetNameServersList",
+		"@cdktn/provider-google-beta.googleDnsPolicy.GoogleDnsPolicyAlternativeNameServerConfigTargetNameServersList",
 		reflect.TypeOf((*GoogleDnsPolicyAlternativeNameServerConfigTargetNameServersList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -161,7 +161,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleDnsPolicy.GoogleDnsPolicyAlternativeNameServerConfigTargetNameServersOutputReference",
+		"@cdktn/provider-google-beta.googleDnsPolicy.GoogleDnsPolicyAlternativeNameServerConfigTargetNameServersOutputReference",
 		reflect.TypeOf((*GoogleDnsPolicyAlternativeNameServerConfigTargetNameServersOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -198,15 +198,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleDnsPolicy.GoogleDnsPolicyConfig",
+		"@cdktn/provider-google-beta.googleDnsPolicy.GoogleDnsPolicyConfig",
 		reflect.TypeOf((*GoogleDnsPolicyConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleDnsPolicy.GoogleDnsPolicyDns64Config",
+		"@cdktn/provider-google-beta.googleDnsPolicy.GoogleDnsPolicyDns64Config",
 		reflect.TypeOf((*GoogleDnsPolicyDns64Config)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleDnsPolicy.GoogleDnsPolicyDns64ConfigOutputReference",
+		"@cdktn/provider-google-beta.googleDnsPolicy.GoogleDnsPolicyDns64ConfigOutputReference",
 		reflect.TypeOf((*GoogleDnsPolicyDns64ConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -241,11 +241,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleDnsPolicy.GoogleDnsPolicyDns64ConfigScope",
+		"@cdktn/provider-google-beta.googleDnsPolicy.GoogleDnsPolicyDns64ConfigScope",
 		reflect.TypeOf((*GoogleDnsPolicyDns64ConfigScope)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleDnsPolicy.GoogleDnsPolicyDns64ConfigScopeOutputReference",
+		"@cdktn/provider-google-beta.googleDnsPolicy.GoogleDnsPolicyDns64ConfigScopeOutputReference",
 		reflect.TypeOf((*GoogleDnsPolicyDns64ConfigScopeOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allQueries", GoGetter: "AllQueries"},
@@ -280,11 +280,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleDnsPolicy.GoogleDnsPolicyNetworks",
+		"@cdktn/provider-google-beta.googleDnsPolicy.GoogleDnsPolicyNetworks",
 		reflect.TypeOf((*GoogleDnsPolicyNetworks)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleDnsPolicy.GoogleDnsPolicyNetworksList",
+		"@cdktn/provider-google-beta.googleDnsPolicy.GoogleDnsPolicyNetworksList",
 		reflect.TypeOf((*GoogleDnsPolicyNetworksList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -306,7 +306,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleDnsPolicy.GoogleDnsPolicyNetworksOutputReference",
+		"@cdktn/provider-google-beta.googleDnsPolicy.GoogleDnsPolicyNetworksOutputReference",
 		reflect.TypeOf((*GoogleDnsPolicyNetworksOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -340,11 +340,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleDnsPolicy.GoogleDnsPolicyTimeouts",
+		"@cdktn/provider-google-beta.googleDnsPolicy.GoogleDnsPolicyTimeouts",
 		reflect.TypeOf((*GoogleDnsPolicyTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleDnsPolicy.GoogleDnsPolicyTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleDnsPolicy.GoogleDnsPolicyTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleDnsPolicyTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

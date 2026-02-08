@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlevmwareenginesubnet
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlevmwareenginesubnet/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlevmwareenginesubnet/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -523,7 +523,7 @@ func NewGoogleVmwareengineSubnet(scope constructs.Construct, id *string, config 
 	j := jsiiProxy_GoogleVmwareengineSubnet{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleVmwareengineSubnet.GoogleVmwareengineSubnet",
+		"@cdktn/provider-google-beta.googleVmwareengineSubnet.GoogleVmwareengineSubnet",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -536,7 +536,7 @@ func NewGoogleVmwareengineSubnet_Override(g GoogleVmwareengineSubnet, scope cons
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleVmwareengineSubnet.GoogleVmwareengineSubnet",
+		"@cdktn/provider-google-beta.googleVmwareengineSubnet.GoogleVmwareengineSubnet",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -664,7 +664,7 @@ func GoogleVmwareengineSubnet_GenerateConfigForImport(scope constructs.Construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleVmwareengineSubnet.GoogleVmwareengineSubnet",
+		"@cdktn/provider-google-beta.googleVmwareengineSubnet.GoogleVmwareengineSubnet",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -699,7 +699,7 @@ func GoogleVmwareengineSubnet_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleVmwareengineSubnet.GoogleVmwareengineSubnet",
+		"@cdktn/provider-google-beta.googleVmwareengineSubnet.GoogleVmwareengineSubnet",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -718,7 +718,7 @@ func GoogleVmwareengineSubnet_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleVmwareengineSubnet.GoogleVmwareengineSubnet",
+		"@cdktn/provider-google-beta.googleVmwareengineSubnet.GoogleVmwareengineSubnet",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -737,7 +737,7 @@ func GoogleVmwareengineSubnet_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleVmwareengineSubnet.GoogleVmwareengineSubnet",
+		"@cdktn/provider-google-beta.googleVmwareengineSubnet.GoogleVmwareengineSubnet",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -750,7 +750,7 @@ func GoogleVmwareengineSubnet_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleVmwareengineSubnet.GoogleVmwareengineSubnet",
+		"@cdktn/provider-google-beta.googleVmwareengineSubnet.GoogleVmwareengineSubnet",
 		"tfResourceType",
 		&returns,
 	)

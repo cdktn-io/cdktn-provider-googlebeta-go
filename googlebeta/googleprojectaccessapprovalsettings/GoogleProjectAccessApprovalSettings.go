@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googleprojectaccessapprovalsettings
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googleprojectaccessapprovalsettings/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleprojectaccessapprovalsettings/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -506,7 +506,7 @@ func NewGoogleProjectAccessApprovalSettings(scope constructs.Construct, id *stri
 	j := jsiiProxy_GoogleProjectAccessApprovalSettings{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleProjectAccessApprovalSettings.GoogleProjectAccessApprovalSettings",
+		"@cdktn/provider-google-beta.googleProjectAccessApprovalSettings.GoogleProjectAccessApprovalSettings",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -519,7 +519,7 @@ func NewGoogleProjectAccessApprovalSettings_Override(g GoogleProjectAccessApprov
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleProjectAccessApprovalSettings.GoogleProjectAccessApprovalSettings",
+		"@cdktn/provider-google-beta.googleProjectAccessApprovalSettings.GoogleProjectAccessApprovalSettings",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -658,7 +658,7 @@ func GoogleProjectAccessApprovalSettings_GenerateConfigForImport(scope construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleProjectAccessApprovalSettings.GoogleProjectAccessApprovalSettings",
+		"@cdktn/provider-google-beta.googleProjectAccessApprovalSettings.GoogleProjectAccessApprovalSettings",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -693,7 +693,7 @@ func GoogleProjectAccessApprovalSettings_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleProjectAccessApprovalSettings.GoogleProjectAccessApprovalSettings",
+		"@cdktn/provider-google-beta.googleProjectAccessApprovalSettings.GoogleProjectAccessApprovalSettings",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -712,7 +712,7 @@ func GoogleProjectAccessApprovalSettings_IsTerraformElement(x interface{}) *bool
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleProjectAccessApprovalSettings.GoogleProjectAccessApprovalSettings",
+		"@cdktn/provider-google-beta.googleProjectAccessApprovalSettings.GoogleProjectAccessApprovalSettings",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -731,7 +731,7 @@ func GoogleProjectAccessApprovalSettings_IsTerraformResource(x interface{}) *boo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleProjectAccessApprovalSettings.GoogleProjectAccessApprovalSettings",
+		"@cdktn/provider-google-beta.googleProjectAccessApprovalSettings.GoogleProjectAccessApprovalSettings",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -744,7 +744,7 @@ func GoogleProjectAccessApprovalSettings_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleProjectAccessApprovalSettings.GoogleProjectAccessApprovalSettings",
+		"@cdktn/provider-google-beta.googleProjectAccessApprovalSettings.GoogleProjectAccessApprovalSettings",
 		"tfResourceType",
 		&returns,
 	)

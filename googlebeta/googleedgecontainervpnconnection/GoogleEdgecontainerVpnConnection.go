@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googleedgecontainervpnconnection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googleedgecontainervpnconnection/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleedgecontainervpnconnection/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -636,7 +636,7 @@ func NewGoogleEdgecontainerVpnConnection(scope constructs.Construct, id *string,
 	j := jsiiProxy_GoogleEdgecontainerVpnConnection{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleEdgecontainerVpnConnection.GoogleEdgecontainerVpnConnection",
+		"@cdktn/provider-google-beta.googleEdgecontainerVpnConnection.GoogleEdgecontainerVpnConnection",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -649,7 +649,7 @@ func NewGoogleEdgecontainerVpnConnection_Override(g GoogleEdgecontainerVpnConnec
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleEdgecontainerVpnConnection.GoogleEdgecontainerVpnConnection",
+		"@cdktn/provider-google-beta.googleEdgecontainerVpnConnection.GoogleEdgecontainerVpnConnection",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -843,7 +843,7 @@ func GoogleEdgecontainerVpnConnection_GenerateConfigForImport(scope constructs.C
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleEdgecontainerVpnConnection.GoogleEdgecontainerVpnConnection",
+		"@cdktn/provider-google-beta.googleEdgecontainerVpnConnection.GoogleEdgecontainerVpnConnection",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -878,7 +878,7 @@ func GoogleEdgecontainerVpnConnection_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleEdgecontainerVpnConnection.GoogleEdgecontainerVpnConnection",
+		"@cdktn/provider-google-beta.googleEdgecontainerVpnConnection.GoogleEdgecontainerVpnConnection",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -897,7 +897,7 @@ func GoogleEdgecontainerVpnConnection_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleEdgecontainerVpnConnection.GoogleEdgecontainerVpnConnection",
+		"@cdktn/provider-google-beta.googleEdgecontainerVpnConnection.GoogleEdgecontainerVpnConnection",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -916,7 +916,7 @@ func GoogleEdgecontainerVpnConnection_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleEdgecontainerVpnConnection.GoogleEdgecontainerVpnConnection",
+		"@cdktn/provider-google-beta.googleEdgecontainerVpnConnection.GoogleEdgecontainerVpnConnection",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -929,7 +929,7 @@ func GoogleEdgecontainerVpnConnection_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleEdgecontainerVpnConnection.GoogleEdgecontainerVpnConnection",
+		"@cdktn/provider-google-beta.googleEdgecontainerVpnConnection.GoogleEdgecontainerVpnConnection",
 		"tfResourceType",
 		&returns,
 	)

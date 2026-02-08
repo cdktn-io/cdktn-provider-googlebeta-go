@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagoogleserviceaccountaccesstoken
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/datagoogleserviceaccountaccesstoken/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagoogleserviceaccountaccesstoken/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -380,7 +380,7 @@ func NewDataGoogleServiceAccountAccessToken(scope constructs.Construct, id *stri
 	j := jsiiProxy_DataGoogleServiceAccountAccessToken{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.dataGoogleServiceAccountAccessToken.DataGoogleServiceAccountAccessToken",
+		"@cdktn/provider-google-beta.dataGoogleServiceAccountAccessToken.DataGoogleServiceAccountAccessToken",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -393,7 +393,7 @@ func NewDataGoogleServiceAccountAccessToken_Override(d DataGoogleServiceAccountA
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.dataGoogleServiceAccountAccessToken.DataGoogleServiceAccountAccessToken",
+		"@cdktn/provider-google-beta.dataGoogleServiceAccountAccessToken.DataGoogleServiceAccountAccessToken",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -510,7 +510,7 @@ func DataGoogleServiceAccountAccessToken_GenerateConfigForImport(scope construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleServiceAccountAccessToken.DataGoogleServiceAccountAccessToken",
+		"@cdktn/provider-google-beta.dataGoogleServiceAccountAccessToken.DataGoogleServiceAccountAccessToken",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -545,7 +545,7 @@ func DataGoogleServiceAccountAccessToken_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleServiceAccountAccessToken.DataGoogleServiceAccountAccessToken",
+		"@cdktn/provider-google-beta.dataGoogleServiceAccountAccessToken.DataGoogleServiceAccountAccessToken",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -564,7 +564,7 @@ func DataGoogleServiceAccountAccessToken_IsTerraformDataSource(x interface{}) *b
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleServiceAccountAccessToken.DataGoogleServiceAccountAccessToken",
+		"@cdktn/provider-google-beta.dataGoogleServiceAccountAccessToken.DataGoogleServiceAccountAccessToken",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -583,7 +583,7 @@ func DataGoogleServiceAccountAccessToken_IsTerraformElement(x interface{}) *bool
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleServiceAccountAccessToken.DataGoogleServiceAccountAccessToken",
+		"@cdktn/provider-google-beta.dataGoogleServiceAccountAccessToken.DataGoogleServiceAccountAccessToken",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -596,7 +596,7 @@ func DataGoogleServiceAccountAccessToken_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.dataGoogleServiceAccountAccessToken.DataGoogleServiceAccountAccessToken",
+		"@cdktn/provider-google-beta.dataGoogleServiceAccountAccessToken.DataGoogleServiceAccountAccessToken",
 		"tfResourceType",
 		&returns,
 	)

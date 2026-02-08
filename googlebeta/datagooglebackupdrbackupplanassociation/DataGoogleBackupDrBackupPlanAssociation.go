@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagooglebackupdrbackupplanassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/datagooglebackupdrbackupplanassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagooglebackupdrbackupplanassociation/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -444,7 +444,7 @@ func NewDataGoogleBackupDrBackupPlanAssociation(scope constructs.Construct, id *
 	j := jsiiProxy_DataGoogleBackupDrBackupPlanAssociation{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.dataGoogleBackupDrBackupPlanAssociation.DataGoogleBackupDrBackupPlanAssociation",
+		"@cdktn/provider-google-beta.dataGoogleBackupDrBackupPlanAssociation.DataGoogleBackupDrBackupPlanAssociation",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -457,7 +457,7 @@ func NewDataGoogleBackupDrBackupPlanAssociation_Override(d DataGoogleBackupDrBac
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.dataGoogleBackupDrBackupPlanAssociation.DataGoogleBackupDrBackupPlanAssociation",
+		"@cdktn/provider-google-beta.dataGoogleBackupDrBackupPlanAssociation.DataGoogleBackupDrBackupPlanAssociation",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -563,7 +563,7 @@ func DataGoogleBackupDrBackupPlanAssociation_GenerateConfigForImport(scope const
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleBackupDrBackupPlanAssociation.DataGoogleBackupDrBackupPlanAssociation",
+		"@cdktn/provider-google-beta.dataGoogleBackupDrBackupPlanAssociation.DataGoogleBackupDrBackupPlanAssociation",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -598,7 +598,7 @@ func DataGoogleBackupDrBackupPlanAssociation_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleBackupDrBackupPlanAssociation.DataGoogleBackupDrBackupPlanAssociation",
+		"@cdktn/provider-google-beta.dataGoogleBackupDrBackupPlanAssociation.DataGoogleBackupDrBackupPlanAssociation",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -617,7 +617,7 @@ func DataGoogleBackupDrBackupPlanAssociation_IsTerraformDataSource(x interface{}
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleBackupDrBackupPlanAssociation.DataGoogleBackupDrBackupPlanAssociation",
+		"@cdktn/provider-google-beta.dataGoogleBackupDrBackupPlanAssociation.DataGoogleBackupDrBackupPlanAssociation",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -636,7 +636,7 @@ func DataGoogleBackupDrBackupPlanAssociation_IsTerraformElement(x interface{}) *
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleBackupDrBackupPlanAssociation.DataGoogleBackupDrBackupPlanAssociation",
+		"@cdktn/provider-google-beta.dataGoogleBackupDrBackupPlanAssociation.DataGoogleBackupDrBackupPlanAssociation",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -649,7 +649,7 @@ func DataGoogleBackupDrBackupPlanAssociation_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.dataGoogleBackupDrBackupPlanAssociation.DataGoogleBackupDrBackupPlanAssociation",
+		"@cdktn/provider-google-beta.dataGoogleBackupDrBackupPlanAssociation.DataGoogleBackupDrBackupPlanAssociation",
 		"tfResourceType",
 		&returns,
 	)

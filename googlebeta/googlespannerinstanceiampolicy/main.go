@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlespannerinstanceiampolicy
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleSpannerInstanceIamPolicy.GoogleSpannerInstanceIamPolicy",
+		"@cdktn/provider-google-beta.googleSpannerInstanceIamPolicy.GoogleSpannerInstanceIamPolicy",
 		reflect.TypeOf((*GoogleSpannerInstanceIamPolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -74,7 +74,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleSpannerInstanceIamPolicy.GoogleSpannerInstanceIamPolicyConfig",
+		"@cdktn/provider-google-beta.googleSpannerInstanceIamPolicy.GoogleSpannerInstanceIamPolicyConfig",
 		reflect.TypeOf((*GoogleSpannerInstanceIamPolicyConfig)(nil)).Elem(),
 	)
 }

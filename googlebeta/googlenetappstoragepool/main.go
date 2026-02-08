@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlenetappstoragepool
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool",
+		"@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePool",
 		reflect.TypeOf((*GoogleNetappStoragePool)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "activeDirectory", GoGetter: "ActiveDirectory"},
@@ -127,15 +127,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig",
+		"@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolConfig",
 		reflect.TypeOf((*GoogleNetappStoragePoolConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeouts",
+		"@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeouts",
 		reflect.TypeOf((*GoogleNetappStoragePoolTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleNetappStoragePool.GoogleNetappStoragePoolTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleNetappStoragePoolTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

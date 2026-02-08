@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlevertexaidataset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlevertexaidataset/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlevertexaidataset/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -541,7 +541,7 @@ func NewGoogleVertexAiDataset(scope constructs.Construct, id *string, config *Go
 	j := jsiiProxy_GoogleVertexAiDataset{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleVertexAiDataset.GoogleVertexAiDataset",
+		"@cdktn/provider-google-beta.googleVertexAiDataset.GoogleVertexAiDataset",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -554,7 +554,7 @@ func NewGoogleVertexAiDataset_Override(g GoogleVertexAiDataset, scope constructs
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleVertexAiDataset.GoogleVertexAiDataset",
+		"@cdktn/provider-google-beta.googleVertexAiDataset.GoogleVertexAiDataset",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -704,7 +704,7 @@ func GoogleVertexAiDataset_GenerateConfigForImport(scope constructs.Construct, i
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleVertexAiDataset.GoogleVertexAiDataset",
+		"@cdktn/provider-google-beta.googleVertexAiDataset.GoogleVertexAiDataset",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -739,7 +739,7 @@ func GoogleVertexAiDataset_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleVertexAiDataset.GoogleVertexAiDataset",
+		"@cdktn/provider-google-beta.googleVertexAiDataset.GoogleVertexAiDataset",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -758,7 +758,7 @@ func GoogleVertexAiDataset_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleVertexAiDataset.GoogleVertexAiDataset",
+		"@cdktn/provider-google-beta.googleVertexAiDataset.GoogleVertexAiDataset",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -777,7 +777,7 @@ func GoogleVertexAiDataset_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleVertexAiDataset.GoogleVertexAiDataset",
+		"@cdktn/provider-google-beta.googleVertexAiDataset.GoogleVertexAiDataset",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -790,7 +790,7 @@ func GoogleVertexAiDataset_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleVertexAiDataset.GoogleVertexAiDataset",
+		"@cdktn/provider-google-beta.googleVertexAiDataset.GoogleVertexAiDataset",
 		"tfResourceType",
 		&returns,
 	)

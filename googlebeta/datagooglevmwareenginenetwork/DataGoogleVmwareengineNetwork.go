@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagooglevmwareenginenetwork
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/datagooglevmwareenginenetwork/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagooglevmwareenginenetwork/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -400,7 +400,7 @@ func NewDataGoogleVmwareengineNetwork(scope constructs.Construct, id *string, co
 	j := jsiiProxy_DataGoogleVmwareengineNetwork{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.dataGoogleVmwareengineNetwork.DataGoogleVmwareengineNetwork",
+		"@cdktn/provider-google-beta.dataGoogleVmwareengineNetwork.DataGoogleVmwareengineNetwork",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -413,7 +413,7 @@ func NewDataGoogleVmwareengineNetwork_Override(d DataGoogleVmwareengineNetwork, 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.dataGoogleVmwareengineNetwork.DataGoogleVmwareengineNetwork",
+		"@cdktn/provider-google-beta.dataGoogleVmwareengineNetwork.DataGoogleVmwareengineNetwork",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -519,7 +519,7 @@ func DataGoogleVmwareengineNetwork_GenerateConfigForImport(scope constructs.Cons
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleVmwareengineNetwork.DataGoogleVmwareengineNetwork",
+		"@cdktn/provider-google-beta.dataGoogleVmwareengineNetwork.DataGoogleVmwareengineNetwork",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -554,7 +554,7 @@ func DataGoogleVmwareengineNetwork_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleVmwareengineNetwork.DataGoogleVmwareengineNetwork",
+		"@cdktn/provider-google-beta.dataGoogleVmwareengineNetwork.DataGoogleVmwareengineNetwork",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -573,7 +573,7 @@ func DataGoogleVmwareengineNetwork_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleVmwareengineNetwork.DataGoogleVmwareengineNetwork",
+		"@cdktn/provider-google-beta.dataGoogleVmwareengineNetwork.DataGoogleVmwareengineNetwork",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -592,7 +592,7 @@ func DataGoogleVmwareengineNetwork_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleVmwareengineNetwork.DataGoogleVmwareengineNetwork",
+		"@cdktn/provider-google-beta.dataGoogleVmwareengineNetwork.DataGoogleVmwareengineNetwork",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -605,7 +605,7 @@ func DataGoogleVmwareengineNetwork_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.dataGoogleVmwareengineNetwork.DataGoogleVmwareengineNetwork",
+		"@cdktn/provider-google-beta.dataGoogleVmwareengineNetwork.DataGoogleVmwareengineNetwork",
 		"tfResourceType",
 		&returns,
 	)

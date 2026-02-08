@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlecomputetargetinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlecomputetargetinstance/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecomputetargetinstance/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -556,7 +556,7 @@ func NewGoogleComputeTargetInstance(scope constructs.Construct, id *string, conf
 	j := jsiiProxy_GoogleComputeTargetInstance{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleComputeTargetInstance.GoogleComputeTargetInstance",
+		"@cdktn/provider-google-beta.googleComputeTargetInstance.GoogleComputeTargetInstance",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -569,7 +569,7 @@ func NewGoogleComputeTargetInstance_Override(g GoogleComputeTargetInstance, scop
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleComputeTargetInstance.GoogleComputeTargetInstance",
+		"@cdktn/provider-google-beta.googleComputeTargetInstance.GoogleComputeTargetInstance",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -752,7 +752,7 @@ func GoogleComputeTargetInstance_GenerateConfigForImport(scope constructs.Constr
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleComputeTargetInstance.GoogleComputeTargetInstance",
+		"@cdktn/provider-google-beta.googleComputeTargetInstance.GoogleComputeTargetInstance",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -787,7 +787,7 @@ func GoogleComputeTargetInstance_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleComputeTargetInstance.GoogleComputeTargetInstance",
+		"@cdktn/provider-google-beta.googleComputeTargetInstance.GoogleComputeTargetInstance",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -806,7 +806,7 @@ func GoogleComputeTargetInstance_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleComputeTargetInstance.GoogleComputeTargetInstance",
+		"@cdktn/provider-google-beta.googleComputeTargetInstance.GoogleComputeTargetInstance",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -825,7 +825,7 @@ func GoogleComputeTargetInstance_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleComputeTargetInstance.GoogleComputeTargetInstance",
+		"@cdktn/provider-google-beta.googleComputeTargetInstance.GoogleComputeTargetInstance",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -838,7 +838,7 @@ func GoogleComputeTargetInstance_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleComputeTargetInstance.GoogleComputeTargetInstance",
+		"@cdktn/provider-google-beta.googleComputeTargetInstance.GoogleComputeTargetInstance",
 		"tfResourceType",
 		&returns,
 	)

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlefirestoredatabase
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleFirestoreDatabase.GoogleFirestoreDatabase",
+		"@cdktn/provider-google-beta.googleFirestoreDatabase.GoogleFirestoreDatabase",
 		reflect.TypeOf((*GoogleFirestoreDatabase)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -111,11 +111,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleFirestoreDatabase.GoogleFirestoreDatabaseCmekConfig",
+		"@cdktn/provider-google-beta.googleFirestoreDatabase.GoogleFirestoreDatabaseCmekConfig",
 		reflect.TypeOf((*GoogleFirestoreDatabaseCmekConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleFirestoreDatabase.GoogleFirestoreDatabaseCmekConfigOutputReference",
+		"@cdktn/provider-google-beta.googleFirestoreDatabase.GoogleFirestoreDatabaseCmekConfigOutputReference",
 		reflect.TypeOf((*GoogleFirestoreDatabaseCmekConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "activeKeyVersion", GoGetter: "ActiveKeyVersion"},
@@ -150,15 +150,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleFirestoreDatabase.GoogleFirestoreDatabaseConfig",
+		"@cdktn/provider-google-beta.googleFirestoreDatabase.GoogleFirestoreDatabaseConfig",
 		reflect.TypeOf((*GoogleFirestoreDatabaseConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleFirestoreDatabase.GoogleFirestoreDatabaseTimeouts",
+		"@cdktn/provider-google-beta.googleFirestoreDatabase.GoogleFirestoreDatabaseTimeouts",
 		reflect.TypeOf((*GoogleFirestoreDatabaseTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleFirestoreDatabase.GoogleFirestoreDatabaseTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleFirestoreDatabase.GoogleFirestoreDatabaseTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleFirestoreDatabaseTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

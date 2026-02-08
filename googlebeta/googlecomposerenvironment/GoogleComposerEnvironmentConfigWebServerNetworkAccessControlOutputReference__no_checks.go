@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 //go:build no_runtime_type_checking
@@ -43,7 +43,7 @@ func (g *jsiiProxy_GoogleComposerEnvironmentConfigWebServerNetworkAccessControlO
 	return nil
 }
 
-func (g *jsiiProxy_GoogleComposerEnvironmentConfigWebServerNetworkAccessControlOutputReference) validateInterpolationForAttributeParameters(property *string) error {
+func (g *jsiiProxy_GoogleComposerEnvironmentConfigWebServerNetworkAccessControlOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
 	return nil
 }
 
@@ -51,7 +51,7 @@ func (g *jsiiProxy_GoogleComposerEnvironmentConfigWebServerNetworkAccessControlO
 	return nil
 }
 
-func (g *jsiiProxy_GoogleComposerEnvironmentConfigWebServerNetworkAccessControlOutputReference) validateResolveParameters(_context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleComposerEnvironmentConfigWebServerNetworkAccessControlOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
 	return nil
 }
 

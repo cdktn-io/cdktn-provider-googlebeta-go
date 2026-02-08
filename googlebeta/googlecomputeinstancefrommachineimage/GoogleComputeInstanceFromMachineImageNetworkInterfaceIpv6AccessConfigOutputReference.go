@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlecomputeinstancefrommachineimage
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlecomputeinstancefrommachineimage/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecomputeinstancefrommachineimage/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -79,14 +79,14 @@ type GoogleComputeInstanceFromMachineImageNetworkInterfaceIpv6AccessConfigOutput
 	// Experimental.
 	InterpolationAsList() cdktf.IResolvable
 	// Experimental.
-	InterpolationForAttribute(property *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
 	ResetExternalIpv6()
 	ResetExternalIpv6PrefixLength()
 	ResetName()
 	ResetPublicPtrDomainName()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(_context cdktf.IResolveContext) interface{}
+	Resolve(context cdktf.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -289,7 +289,7 @@ func NewGoogleComputeInstanceFromMachineImageNetworkInterfaceIpv6AccessConfigOut
 	j := jsiiProxy_GoogleComputeInstanceFromMachineImageNetworkInterfaceIpv6AccessConfigOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleComputeInstanceFromMachineImage.GoogleComputeInstanceFromMachineImageNetworkInterfaceIpv6AccessConfigOutputReference",
+		"@cdktn/provider-google-beta.googleComputeInstanceFromMachineImage.GoogleComputeInstanceFromMachineImageNetworkInterfaceIpv6AccessConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -301,7 +301,7 @@ func NewGoogleComputeInstanceFromMachineImageNetworkInterfaceIpv6AccessConfigOut
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleComputeInstanceFromMachineImage.GoogleComputeInstanceFromMachineImageNetworkInterfaceIpv6AccessConfigOutputReference",
+		"@cdktn/provider-google-beta.googleComputeInstanceFromMachineImage.GoogleComputeInstanceFromMachineImageNetworkInterfaceIpv6AccessConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		g,
 	)
@@ -587,8 +587,8 @@ func (g *jsiiProxy_GoogleComputeInstanceFromMachineImageNetworkInterfaceIpv6Acce
 	return returns
 }
 
-func (g *jsiiProxy_GoogleComputeInstanceFromMachineImageNetworkInterfaceIpv6AccessConfigOutputReference) InterpolationForAttribute(property *string) cdktf.IResolvable {
-	if err := g.validateInterpolationForAttributeParameters(property); err != nil {
+func (g *jsiiProxy_GoogleComputeInstanceFromMachineImageNetworkInterfaceIpv6AccessConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
 	var returns cdktf.IResolvable
@@ -596,7 +596,7 @@ func (g *jsiiProxy_GoogleComputeInstanceFromMachineImageNetworkInterfaceIpv6Acce
 	_jsii_.Invoke(
 		g,
 		"interpolationForAttribute",
-		[]interface{}{property},
+		[]interface{}{terraformAttribute},
 		&returns,
 	)
 
@@ -635,8 +635,8 @@ func (g *jsiiProxy_GoogleComputeInstanceFromMachineImageNetworkInterfaceIpv6Acce
 	)
 }
 
-func (g *jsiiProxy_GoogleComputeInstanceFromMachineImageNetworkInterfaceIpv6AccessConfigOutputReference) Resolve(_context cdktf.IResolveContext) interface{} {
-	if err := g.validateResolveParameters(_context); err != nil {
+func (g *jsiiProxy_GoogleComputeInstanceFromMachineImageNetworkInterfaceIpv6AccessConfigOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}
 	var returns interface{}
@@ -644,7 +644,7 @@ func (g *jsiiProxy_GoogleComputeInstanceFromMachineImageNetworkInterfaceIpv6Acce
 	_jsii_.Invoke(
 		g,
 		"resolve",
-		[]interface{}{_context},
+		[]interface{}{context},
 		&returns,
 	)
 

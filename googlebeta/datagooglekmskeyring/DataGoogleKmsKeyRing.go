@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagooglekmskeyring
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/datagooglekmskeyring/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagooglekmskeyring/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -345,7 +345,7 @@ func NewDataGoogleKmsKeyRing(scope constructs.Construct, id *string, config *Dat
 	j := jsiiProxy_DataGoogleKmsKeyRing{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.dataGoogleKmsKeyRing.DataGoogleKmsKeyRing",
+		"@cdktn/provider-google-beta.dataGoogleKmsKeyRing.DataGoogleKmsKeyRing",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -358,7 +358,7 @@ func NewDataGoogleKmsKeyRing_Override(d DataGoogleKmsKeyRing, scope constructs.C
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.dataGoogleKmsKeyRing.DataGoogleKmsKeyRing",
+		"@cdktn/provider-google-beta.dataGoogleKmsKeyRing.DataGoogleKmsKeyRing",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -464,7 +464,7 @@ func DataGoogleKmsKeyRing_GenerateConfigForImport(scope constructs.Construct, im
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleKmsKeyRing.DataGoogleKmsKeyRing",
+		"@cdktn/provider-google-beta.dataGoogleKmsKeyRing.DataGoogleKmsKeyRing",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -499,7 +499,7 @@ func DataGoogleKmsKeyRing_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleKmsKeyRing.DataGoogleKmsKeyRing",
+		"@cdktn/provider-google-beta.dataGoogleKmsKeyRing.DataGoogleKmsKeyRing",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -518,7 +518,7 @@ func DataGoogleKmsKeyRing_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleKmsKeyRing.DataGoogleKmsKeyRing",
+		"@cdktn/provider-google-beta.dataGoogleKmsKeyRing.DataGoogleKmsKeyRing",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -537,7 +537,7 @@ func DataGoogleKmsKeyRing_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleKmsKeyRing.DataGoogleKmsKeyRing",
+		"@cdktn/provider-google-beta.dataGoogleKmsKeyRing.DataGoogleKmsKeyRing",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -550,7 +550,7 @@ func DataGoogleKmsKeyRing_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.dataGoogleKmsKeyRing.DataGoogleKmsKeyRing",
+		"@cdktn/provider-google-beta.dataGoogleKmsKeyRing.DataGoogleKmsKeyRing",
 		"tfResourceType",
 		&returns,
 	)

@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlebigquerydataset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlebigquerydataset/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlebigquerydataset/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -841,7 +841,7 @@ func NewGoogleBigqueryDataset(scope constructs.Construct, id *string, config *Go
 	j := jsiiProxy_GoogleBigqueryDataset{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleBigqueryDataset.GoogleBigqueryDataset",
+		"@cdktn/provider-google-beta.googleBigqueryDataset.GoogleBigqueryDataset",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -854,7 +854,7 @@ func NewGoogleBigqueryDataset_Override(g GoogleBigqueryDataset, scope constructs
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleBigqueryDataset.GoogleBigqueryDataset",
+		"@cdktn/provider-google-beta.googleBigqueryDataset.GoogleBigqueryDataset",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -1103,7 +1103,7 @@ func GoogleBigqueryDataset_GenerateConfigForImport(scope constructs.Construct, i
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleBigqueryDataset.GoogleBigqueryDataset",
+		"@cdktn/provider-google-beta.googleBigqueryDataset.GoogleBigqueryDataset",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1138,7 +1138,7 @@ func GoogleBigqueryDataset_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleBigqueryDataset.GoogleBigqueryDataset",
+		"@cdktn/provider-google-beta.googleBigqueryDataset.GoogleBigqueryDataset",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1157,7 +1157,7 @@ func GoogleBigqueryDataset_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleBigqueryDataset.GoogleBigqueryDataset",
+		"@cdktn/provider-google-beta.googleBigqueryDataset.GoogleBigqueryDataset",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1176,7 +1176,7 @@ func GoogleBigqueryDataset_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleBigqueryDataset.GoogleBigqueryDataset",
+		"@cdktn/provider-google-beta.googleBigqueryDataset.GoogleBigqueryDataset",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1189,7 +1189,7 @@ func GoogleBigqueryDataset_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleBigqueryDataset.GoogleBigqueryDataset",
+		"@cdktn/provider-google-beta.googleBigqueryDataset.GoogleBigqueryDataset",
 		"tfResourceType",
 		&returns,
 	)

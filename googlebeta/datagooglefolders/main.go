@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagooglefolders
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleFolders.DataGoogleFolders",
+		"@cdktn/provider-google-beta.dataGoogleFolders.DataGoogleFolders",
 		reflect.TypeOf((*DataGoogleFolders)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -61,15 +61,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleFolders.DataGoogleFoldersConfig",
+		"@cdktn/provider-google-beta.dataGoogleFolders.DataGoogleFoldersConfig",
 		reflect.TypeOf((*DataGoogleFoldersConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleFolders.DataGoogleFoldersFolders",
+		"@cdktn/provider-google-beta.dataGoogleFolders.DataGoogleFoldersFolders",
 		reflect.TypeOf((*DataGoogleFoldersFolders)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleFolders.DataGoogleFoldersFoldersList",
+		"@cdktn/provider-google-beta.dataGoogleFolders.DataGoogleFoldersFoldersList",
 		reflect.TypeOf((*DataGoogleFoldersFoldersList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -90,7 +90,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleFolders.DataGoogleFoldersFoldersOutputReference",
+		"@cdktn/provider-google-beta.dataGoogleFolders.DataGoogleFoldersFoldersOutputReference",
 		reflect.TypeOf((*DataGoogleFoldersFoldersOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

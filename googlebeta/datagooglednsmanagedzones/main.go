@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagooglednsmanagedzones
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleDnsManagedZones.DataGoogleDnsManagedZones",
+		"@cdktn/provider-google-beta.dataGoogleDnsManagedZones.DataGoogleDnsManagedZones",
 		reflect.TypeOf((*DataGoogleDnsManagedZones)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -60,15 +60,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleDnsManagedZones.DataGoogleDnsManagedZonesConfig",
+		"@cdktn/provider-google-beta.dataGoogleDnsManagedZones.DataGoogleDnsManagedZonesConfig",
 		reflect.TypeOf((*DataGoogleDnsManagedZonesConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleDnsManagedZones.DataGoogleDnsManagedZonesManagedZones",
+		"@cdktn/provider-google-beta.dataGoogleDnsManagedZones.DataGoogleDnsManagedZonesManagedZones",
 		reflect.TypeOf((*DataGoogleDnsManagedZonesManagedZones)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleDnsManagedZones.DataGoogleDnsManagedZonesManagedZonesList",
+		"@cdktn/provider-google-beta.dataGoogleDnsManagedZones.DataGoogleDnsManagedZonesManagedZonesList",
 		reflect.TypeOf((*DataGoogleDnsManagedZonesManagedZonesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -89,7 +89,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleDnsManagedZones.DataGoogleDnsManagedZonesManagedZonesOutputReference",
+		"@cdktn/provider-google-beta.dataGoogleDnsManagedZones.DataGoogleDnsManagedZonesManagedZonesOutputReference",
 		reflect.TypeOf((*DataGoogleDnsManagedZonesManagedZonesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

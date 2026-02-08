@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlecomputeprojectmetadataitem
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlecomputeprojectmetadataitem/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecomputeprojectmetadataitem/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -414,7 +414,7 @@ func NewGoogleComputeProjectMetadataItem(scope constructs.Construct, id *string,
 	j := jsiiProxy_GoogleComputeProjectMetadataItem{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleComputeProjectMetadataItem.GoogleComputeProjectMetadataItem",
+		"@cdktn/provider-google-beta.googleComputeProjectMetadataItem.GoogleComputeProjectMetadataItem",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -427,7 +427,7 @@ func NewGoogleComputeProjectMetadataItem_Override(g GoogleComputeProjectMetadata
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleComputeProjectMetadataItem.GoogleComputeProjectMetadataItem",
+		"@cdktn/provider-google-beta.googleComputeProjectMetadataItem.GoogleComputeProjectMetadataItem",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -555,7 +555,7 @@ func GoogleComputeProjectMetadataItem_GenerateConfigForImport(scope constructs.C
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleComputeProjectMetadataItem.GoogleComputeProjectMetadataItem",
+		"@cdktn/provider-google-beta.googleComputeProjectMetadataItem.GoogleComputeProjectMetadataItem",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -590,7 +590,7 @@ func GoogleComputeProjectMetadataItem_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleComputeProjectMetadataItem.GoogleComputeProjectMetadataItem",
+		"@cdktn/provider-google-beta.googleComputeProjectMetadataItem.GoogleComputeProjectMetadataItem",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -609,7 +609,7 @@ func GoogleComputeProjectMetadataItem_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleComputeProjectMetadataItem.GoogleComputeProjectMetadataItem",
+		"@cdktn/provider-google-beta.googleComputeProjectMetadataItem.GoogleComputeProjectMetadataItem",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -628,7 +628,7 @@ func GoogleComputeProjectMetadataItem_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleComputeProjectMetadataItem.GoogleComputeProjectMetadataItem",
+		"@cdktn/provider-google-beta.googleComputeProjectMetadataItem.GoogleComputeProjectMetadataItem",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -641,7 +641,7 @@ func GoogleComputeProjectMetadataItem_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleComputeProjectMetadataItem.GoogleComputeProjectMetadataItem",
+		"@cdktn/provider-google-beta.googleComputeProjectMetadataItem.GoogleComputeProjectMetadataItem",
 		"tfResourceType",
 		&returns,
 	)

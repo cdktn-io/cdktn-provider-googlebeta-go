@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagoogleartifactregistryversion
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleArtifactRegistryVersion.DataGoogleArtifactRegistryVersion",
+		"@cdktn/provider-google-beta.dataGoogleArtifactRegistryVersion.DataGoogleArtifactRegistryVersion",
 		reflect.TypeOf((*DataGoogleArtifactRegistryVersion)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -78,15 +78,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleArtifactRegistryVersion.DataGoogleArtifactRegistryVersionConfig",
+		"@cdktn/provider-google-beta.dataGoogleArtifactRegistryVersion.DataGoogleArtifactRegistryVersionConfig",
 		reflect.TypeOf((*DataGoogleArtifactRegistryVersionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleArtifactRegistryVersion.DataGoogleArtifactRegistryVersionRelatedTags",
+		"@cdktn/provider-google-beta.dataGoogleArtifactRegistryVersion.DataGoogleArtifactRegistryVersionRelatedTags",
 		reflect.TypeOf((*DataGoogleArtifactRegistryVersionRelatedTags)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleArtifactRegistryVersion.DataGoogleArtifactRegistryVersionRelatedTagsList",
+		"@cdktn/provider-google-beta.dataGoogleArtifactRegistryVersion.DataGoogleArtifactRegistryVersionRelatedTagsList",
 		reflect.TypeOf((*DataGoogleArtifactRegistryVersionRelatedTagsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -107,7 +107,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleArtifactRegistryVersion.DataGoogleArtifactRegistryVersionRelatedTagsOutputReference",
+		"@cdktn/provider-google-beta.dataGoogleArtifactRegistryVersion.DataGoogleArtifactRegistryVersionRelatedTagsOutputReference",
 		reflect.TypeOf((*DataGoogleArtifactRegistryVersionRelatedTagsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

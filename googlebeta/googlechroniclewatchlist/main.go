@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlechroniclewatchlist
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleChronicleWatchlist.GoogleChronicleWatchlist",
+		"@cdktn/provider-google-beta.googleChronicleWatchlist.GoogleChronicleWatchlist",
 		reflect.TypeOf((*GoogleChronicleWatchlist)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -99,15 +99,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleChronicleWatchlist.GoogleChronicleWatchlistConfig",
+		"@cdktn/provider-google-beta.googleChronicleWatchlist.GoogleChronicleWatchlistConfig",
 		reflect.TypeOf((*GoogleChronicleWatchlistConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleChronicleWatchlist.GoogleChronicleWatchlistEntityCount",
+		"@cdktn/provider-google-beta.googleChronicleWatchlist.GoogleChronicleWatchlistEntityCount",
 		reflect.TypeOf((*GoogleChronicleWatchlistEntityCount)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleChronicleWatchlist.GoogleChronicleWatchlistEntityCountList",
+		"@cdktn/provider-google-beta.googleChronicleWatchlist.GoogleChronicleWatchlistEntityCountList",
 		reflect.TypeOf((*GoogleChronicleWatchlistEntityCountList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -128,7 +128,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleChronicleWatchlist.GoogleChronicleWatchlistEntityCountOutputReference",
+		"@cdktn/provider-google-beta.googleChronicleWatchlist.GoogleChronicleWatchlistEntityCountOutputReference",
 		reflect.TypeOf((*GoogleChronicleWatchlistEntityCountOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "asset", GoGetter: "Asset"},
@@ -162,15 +162,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleChronicleWatchlist.GoogleChronicleWatchlistEntityPopulationMechanism",
+		"@cdktn/provider-google-beta.googleChronicleWatchlist.GoogleChronicleWatchlistEntityPopulationMechanism",
 		reflect.TypeOf((*GoogleChronicleWatchlistEntityPopulationMechanism)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleChronicleWatchlist.GoogleChronicleWatchlistEntityPopulationMechanismManual",
+		"@cdktn/provider-google-beta.googleChronicleWatchlist.GoogleChronicleWatchlistEntityPopulationMechanismManual",
 		reflect.TypeOf((*GoogleChronicleWatchlistEntityPopulationMechanismManual)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleChronicleWatchlist.GoogleChronicleWatchlistEntityPopulationMechanismManualOutputReference",
+		"@cdktn/provider-google-beta.googleChronicleWatchlist.GoogleChronicleWatchlistEntityPopulationMechanismManualOutputReference",
 		reflect.TypeOf((*GoogleChronicleWatchlistEntityPopulationMechanismManualOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -202,7 +202,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleChronicleWatchlist.GoogleChronicleWatchlistEntityPopulationMechanismOutputReference",
+		"@cdktn/provider-google-beta.googleChronicleWatchlist.GoogleChronicleWatchlistEntityPopulationMechanismOutputReference",
 		reflect.TypeOf((*GoogleChronicleWatchlistEntityPopulationMechanismOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -238,11 +238,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleChronicleWatchlist.GoogleChronicleWatchlistTimeouts",
+		"@cdktn/provider-google-beta.googleChronicleWatchlist.GoogleChronicleWatchlistTimeouts",
 		reflect.TypeOf((*GoogleChronicleWatchlistTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleChronicleWatchlist.GoogleChronicleWatchlistTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleChronicleWatchlist.GoogleChronicleWatchlistTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleChronicleWatchlistTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -283,11 +283,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleChronicleWatchlist.GoogleChronicleWatchlistWatchlistUserPreferences",
+		"@cdktn/provider-google-beta.googleChronicleWatchlist.GoogleChronicleWatchlistWatchlistUserPreferences",
 		reflect.TypeOf((*GoogleChronicleWatchlistWatchlistUserPreferences)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleChronicleWatchlist.GoogleChronicleWatchlistWatchlistUserPreferencesOutputReference",
+		"@cdktn/provider-google-beta.googleChronicleWatchlist.GoogleChronicleWatchlistWatchlistUserPreferencesOutputReference",
 		reflect.TypeOf((*GoogleChronicleWatchlistWatchlistUserPreferencesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

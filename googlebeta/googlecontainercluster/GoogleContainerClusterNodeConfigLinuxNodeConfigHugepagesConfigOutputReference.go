@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlecontainercluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlecontainercluster/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecontainercluster/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -69,12 +69,12 @@ type GoogleContainerClusterNodeConfigLinuxNodeConfigHugepagesConfigOutputReferen
 	// Experimental.
 	InterpolationAsList() cdktf.IResolvable
 	// Experimental.
-	InterpolationForAttribute(property *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
 	ResetHugepageSize1G()
 	ResetHugepageSize2M()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(_context cdktf.IResolveContext) interface{}
+	Resolve(context cdktf.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -207,7 +207,7 @@ func NewGoogleContainerClusterNodeConfigLinuxNodeConfigHugepagesConfigOutputRefe
 	j := jsiiProxy_GoogleContainerClusterNodeConfigLinuxNodeConfigHugepagesConfigOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleContainerCluster.GoogleContainerClusterNodeConfigLinuxNodeConfigHugepagesConfigOutputReference",
+		"@cdktn/provider-google-beta.googleContainerCluster.GoogleContainerClusterNodeConfigLinuxNodeConfigHugepagesConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewGoogleContainerClusterNodeConfigLinuxNodeConfigHugepagesConfigOutputRefe
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleContainerCluster.GoogleContainerClusterNodeConfigLinuxNodeConfigHugepagesConfigOutputReference",
+		"@cdktn/provider-google-beta.googleContainerCluster.GoogleContainerClusterNodeConfigLinuxNodeConfigHugepagesConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		g,
 	)
@@ -472,8 +472,8 @@ func (g *jsiiProxy_GoogleContainerClusterNodeConfigLinuxNodeConfigHugepagesConfi
 	return returns
 }
 
-func (g *jsiiProxy_GoogleContainerClusterNodeConfigLinuxNodeConfigHugepagesConfigOutputReference) InterpolationForAttribute(property *string) cdktf.IResolvable {
-	if err := g.validateInterpolationForAttributeParameters(property); err != nil {
+func (g *jsiiProxy_GoogleContainerClusterNodeConfigLinuxNodeConfigHugepagesConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
 	var returns cdktf.IResolvable
@@ -481,7 +481,7 @@ func (g *jsiiProxy_GoogleContainerClusterNodeConfigLinuxNodeConfigHugepagesConfi
 	_jsii_.Invoke(
 		g,
 		"interpolationForAttribute",
-		[]interface{}{property},
+		[]interface{}{terraformAttribute},
 		&returns,
 	)
 
@@ -504,8 +504,8 @@ func (g *jsiiProxy_GoogleContainerClusterNodeConfigLinuxNodeConfigHugepagesConfi
 	)
 }
 
-func (g *jsiiProxy_GoogleContainerClusterNodeConfigLinuxNodeConfigHugepagesConfigOutputReference) Resolve(_context cdktf.IResolveContext) interface{} {
-	if err := g.validateResolveParameters(_context); err != nil {
+func (g *jsiiProxy_GoogleContainerClusterNodeConfigLinuxNodeConfigHugepagesConfigOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}
 	var returns interface{}
@@ -513,7 +513,7 @@ func (g *jsiiProxy_GoogleContainerClusterNodeConfigLinuxNodeConfigHugepagesConfi
 	_jsii_.Invoke(
 		g,
 		"resolve",
-		[]interface{}{_context},
+		[]interface{}{context},
 		&returns,
 	)
 

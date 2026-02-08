@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlebigtabletable
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleBigtableTable.GoogleBigtableTable",
+		"@cdktn/provider-google-beta.googleBigtableTable.GoogleBigtableTable",
 		reflect.TypeOf((*GoogleBigtableTable)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -97,11 +97,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleBigtableTable.GoogleBigtableTableAutomatedBackupPolicy",
+		"@cdktn/provider-google-beta.googleBigtableTable.GoogleBigtableTableAutomatedBackupPolicy",
 		reflect.TypeOf((*GoogleBigtableTableAutomatedBackupPolicy)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleBigtableTable.GoogleBigtableTableAutomatedBackupPolicyOutputReference",
+		"@cdktn/provider-google-beta.googleBigtableTable.GoogleBigtableTableAutomatedBackupPolicyOutputReference",
 		reflect.TypeOf((*GoogleBigtableTableAutomatedBackupPolicyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -139,11 +139,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleBigtableTable.GoogleBigtableTableColumnFamily",
+		"@cdktn/provider-google-beta.googleBigtableTable.GoogleBigtableTableColumnFamily",
 		reflect.TypeOf((*GoogleBigtableTableColumnFamily)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleBigtableTable.GoogleBigtableTableColumnFamilyList",
+		"@cdktn/provider-google-beta.googleBigtableTable.GoogleBigtableTableColumnFamilyList",
 		reflect.TypeOf((*GoogleBigtableTableColumnFamilyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -165,7 +165,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleBigtableTable.GoogleBigtableTableColumnFamilyOutputReference",
+		"@cdktn/provider-google-beta.googleBigtableTable.GoogleBigtableTableColumnFamilyOutputReference",
 		reflect.TypeOf((*GoogleBigtableTableColumnFamilyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -202,15 +202,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleBigtableTable.GoogleBigtableTableConfig",
+		"@cdktn/provider-google-beta.googleBigtableTable.GoogleBigtableTableConfig",
 		reflect.TypeOf((*GoogleBigtableTableConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleBigtableTable.GoogleBigtableTableTimeouts",
+		"@cdktn/provider-google-beta.googleBigtableTable.GoogleBigtableTableTimeouts",
 		reflect.TypeOf((*GoogleBigtableTableTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleBigtableTable.GoogleBigtableTableTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleBigtableTable.GoogleBigtableTableTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleBigtableTableTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

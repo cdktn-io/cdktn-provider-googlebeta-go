@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagooglecomputerouterstatus
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/datagooglecomputerouterstatus/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagooglecomputerouterstatus/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -379,7 +379,7 @@ func NewDataGoogleComputeRouterStatus(scope constructs.Construct, id *string, co
 	j := jsiiProxy_DataGoogleComputeRouterStatus{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.dataGoogleComputeRouterStatus.DataGoogleComputeRouterStatus",
+		"@cdktn/provider-google-beta.dataGoogleComputeRouterStatus.DataGoogleComputeRouterStatus",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -392,7 +392,7 @@ func NewDataGoogleComputeRouterStatus_Override(d DataGoogleComputeRouterStatus, 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.dataGoogleComputeRouterStatus.DataGoogleComputeRouterStatus",
+		"@cdktn/provider-google-beta.dataGoogleComputeRouterStatus.DataGoogleComputeRouterStatus",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -498,7 +498,7 @@ func DataGoogleComputeRouterStatus_GenerateConfigForImport(scope constructs.Cons
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleComputeRouterStatus.DataGoogleComputeRouterStatus",
+		"@cdktn/provider-google-beta.dataGoogleComputeRouterStatus.DataGoogleComputeRouterStatus",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -533,7 +533,7 @@ func DataGoogleComputeRouterStatus_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleComputeRouterStatus.DataGoogleComputeRouterStatus",
+		"@cdktn/provider-google-beta.dataGoogleComputeRouterStatus.DataGoogleComputeRouterStatus",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -552,7 +552,7 @@ func DataGoogleComputeRouterStatus_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleComputeRouterStatus.DataGoogleComputeRouterStatus",
+		"@cdktn/provider-google-beta.dataGoogleComputeRouterStatus.DataGoogleComputeRouterStatus",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -571,7 +571,7 @@ func DataGoogleComputeRouterStatus_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleComputeRouterStatus.DataGoogleComputeRouterStatus",
+		"@cdktn/provider-google-beta.dataGoogleComputeRouterStatus.DataGoogleComputeRouterStatus",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -584,7 +584,7 @@ func DataGoogleComputeRouterStatus_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.dataGoogleComputeRouterStatus.DataGoogleComputeRouterStatus",
+		"@cdktn/provider-google-beta.dataGoogleComputeRouterStatus.DataGoogleComputeRouterStatus",
 		"tfResourceType",
 		&returns,
 	)

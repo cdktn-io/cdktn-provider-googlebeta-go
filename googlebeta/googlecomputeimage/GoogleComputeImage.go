@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlecomputeimage
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlecomputeimage/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecomputeimage/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -841,7 +841,7 @@ func NewGoogleComputeImage(scope constructs.Construct, id *string, config *Googl
 	j := jsiiProxy_GoogleComputeImage{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleComputeImage.GoogleComputeImage",
+		"@cdktn/provider-google-beta.googleComputeImage.GoogleComputeImage",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -854,7 +854,7 @@ func NewGoogleComputeImage_Override(g GoogleComputeImage, scope constructs.Const
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleComputeImage.GoogleComputeImage",
+		"@cdktn/provider-google-beta.googleComputeImage.GoogleComputeImage",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -1070,7 +1070,7 @@ func GoogleComputeImage_GenerateConfigForImport(scope constructs.Construct, impo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleComputeImage.GoogleComputeImage",
+		"@cdktn/provider-google-beta.googleComputeImage.GoogleComputeImage",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1105,7 +1105,7 @@ func GoogleComputeImage_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleComputeImage.GoogleComputeImage",
+		"@cdktn/provider-google-beta.googleComputeImage.GoogleComputeImage",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1124,7 +1124,7 @@ func GoogleComputeImage_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleComputeImage.GoogleComputeImage",
+		"@cdktn/provider-google-beta.googleComputeImage.GoogleComputeImage",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1143,7 +1143,7 @@ func GoogleComputeImage_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleComputeImage.GoogleComputeImage",
+		"@cdktn/provider-google-beta.googleComputeImage.GoogleComputeImage",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1156,7 +1156,7 @@ func GoogleComputeImage_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleComputeImage.GoogleComputeImage",
+		"@cdktn/provider-google-beta.googleComputeImage.GoogleComputeImage",
 		"tfResourceType",
 		&returns,
 	)

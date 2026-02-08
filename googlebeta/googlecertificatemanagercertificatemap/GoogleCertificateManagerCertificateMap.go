@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlecertificatemanagercertificatemap
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlecertificatemanagercertificatemap/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecertificatemanagercertificatemap/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -494,7 +494,7 @@ func NewGoogleCertificateManagerCertificateMap(scope constructs.Construct, id *s
 	j := jsiiProxy_GoogleCertificateManagerCertificateMap{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleCertificateManagerCertificateMap.GoogleCertificateManagerCertificateMap",
+		"@cdktn/provider-google-beta.googleCertificateManagerCertificateMap.GoogleCertificateManagerCertificateMap",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -507,7 +507,7 @@ func NewGoogleCertificateManagerCertificateMap_Override(g GoogleCertificateManag
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleCertificateManagerCertificateMap.GoogleCertificateManagerCertificateMap",
+		"@cdktn/provider-google-beta.googleCertificateManagerCertificateMap.GoogleCertificateManagerCertificateMap",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -646,7 +646,7 @@ func GoogleCertificateManagerCertificateMap_GenerateConfigForImport(scope constr
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleCertificateManagerCertificateMap.GoogleCertificateManagerCertificateMap",
+		"@cdktn/provider-google-beta.googleCertificateManagerCertificateMap.GoogleCertificateManagerCertificateMap",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -681,7 +681,7 @@ func GoogleCertificateManagerCertificateMap_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleCertificateManagerCertificateMap.GoogleCertificateManagerCertificateMap",
+		"@cdktn/provider-google-beta.googleCertificateManagerCertificateMap.GoogleCertificateManagerCertificateMap",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -700,7 +700,7 @@ func GoogleCertificateManagerCertificateMap_IsTerraformElement(x interface{}) *b
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleCertificateManagerCertificateMap.GoogleCertificateManagerCertificateMap",
+		"@cdktn/provider-google-beta.googleCertificateManagerCertificateMap.GoogleCertificateManagerCertificateMap",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -719,7 +719,7 @@ func GoogleCertificateManagerCertificateMap_IsTerraformResource(x interface{}) *
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleCertificateManagerCertificateMap.GoogleCertificateManagerCertificateMap",
+		"@cdktn/provider-google-beta.googleCertificateManagerCertificateMap.GoogleCertificateManagerCertificateMap",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -732,7 +732,7 @@ func GoogleCertificateManagerCertificateMap_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleCertificateManagerCertificateMap.GoogleCertificateManagerCertificateMap",
+		"@cdktn/provider-google-beta.googleCertificateManagerCertificateMap.GoogleCertificateManagerCertificateMap",
 		"tfResourceType",
 		&returns,
 	)

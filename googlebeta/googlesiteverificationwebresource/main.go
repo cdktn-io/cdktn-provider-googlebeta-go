@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlesiteverificationwebresource
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleSiteVerificationWebResource.GoogleSiteVerificationWebResource",
+		"@cdktn/provider-google-beta.googleSiteVerificationWebResource.GoogleSiteVerificationWebResource",
 		reflect.TypeOf((*GoogleSiteVerificationWebResource)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -77,15 +77,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleSiteVerificationWebResource.GoogleSiteVerificationWebResourceConfig",
+		"@cdktn/provider-google-beta.googleSiteVerificationWebResource.GoogleSiteVerificationWebResourceConfig",
 		reflect.TypeOf((*GoogleSiteVerificationWebResourceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleSiteVerificationWebResource.GoogleSiteVerificationWebResourceSite",
+		"@cdktn/provider-google-beta.googleSiteVerificationWebResource.GoogleSiteVerificationWebResourceSite",
 		reflect.TypeOf((*GoogleSiteVerificationWebResourceSite)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleSiteVerificationWebResource.GoogleSiteVerificationWebResourceSiteOutputReference",
+		"@cdktn/provider-google-beta.googleSiteVerificationWebResource.GoogleSiteVerificationWebResourceSiteOutputReference",
 		reflect.TypeOf((*GoogleSiteVerificationWebResourceSiteOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -121,11 +121,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleSiteVerificationWebResource.GoogleSiteVerificationWebResourceTimeouts",
+		"@cdktn/provider-google-beta.googleSiteVerificationWebResource.GoogleSiteVerificationWebResourceTimeouts",
 		reflect.TypeOf((*GoogleSiteVerificationWebResourceTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleSiteVerificationWebResource.GoogleSiteVerificationWebResourceTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleSiteVerificationWebResource.GoogleSiteVerificationWebResourceTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleSiteVerificationWebResourceTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

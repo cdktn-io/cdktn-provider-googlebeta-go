@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagooglestoragebucketobjects
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleStorageBucketObjects.DataGoogleStorageBucketObjects",
+		"@cdktn/provider-google-beta.dataGoogleStorageBucketObjects.DataGoogleStorageBucketObjects",
 		reflect.TypeOf((*DataGoogleStorageBucketObjects)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -67,11 +67,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleStorageBucketObjects.DataGoogleStorageBucketObjectsBucketObjects",
+		"@cdktn/provider-google-beta.dataGoogleStorageBucketObjects.DataGoogleStorageBucketObjectsBucketObjects",
 		reflect.TypeOf((*DataGoogleStorageBucketObjectsBucketObjects)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleStorageBucketObjects.DataGoogleStorageBucketObjectsBucketObjectsList",
+		"@cdktn/provider-google-beta.dataGoogleStorageBucketObjects.DataGoogleStorageBucketObjectsBucketObjectsList",
 		reflect.TypeOf((*DataGoogleStorageBucketObjectsBucketObjectsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -92,7 +92,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleStorageBucketObjects.DataGoogleStorageBucketObjectsBucketObjectsOutputReference",
+		"@cdktn/provider-google-beta.dataGoogleStorageBucketObjects.DataGoogleStorageBucketObjectsBucketObjectsOutputReference",
 		reflect.TypeOf((*DataGoogleStorageBucketObjectsBucketObjectsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -129,7 +129,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleStorageBucketObjects.DataGoogleStorageBucketObjectsConfig",
+		"@cdktn/provider-google-beta.dataGoogleStorageBucketObjects.DataGoogleStorageBucketObjectsConfig",
 		reflect.TypeOf((*DataGoogleStorageBucketObjectsConfig)(nil)).Elem(),
 	)
 }

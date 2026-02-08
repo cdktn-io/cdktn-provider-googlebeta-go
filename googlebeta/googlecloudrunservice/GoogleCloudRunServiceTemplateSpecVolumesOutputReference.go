@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlecloudrunservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlecloudrunservice/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecloudrunservice/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -74,7 +74,7 @@ type GoogleCloudRunServiceTemplateSpecVolumesOutputReference interface {
 	// Experimental.
 	InterpolationAsList() cdktf.IResolvable
 	// Experimental.
-	InterpolationForAttribute(property *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
 	PutCsi(value *GoogleCloudRunServiceTemplateSpecVolumesCsi)
 	PutEmptyDir(value *GoogleCloudRunServiceTemplateSpecVolumesEmptyDir)
 	PutNfs(value *GoogleCloudRunServiceTemplateSpecVolumesNfs)
@@ -85,7 +85,7 @@ type GoogleCloudRunServiceTemplateSpecVolumesOutputReference interface {
 	ResetSecret()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(_context cdktf.IResolveContext) interface{}
+	Resolve(context cdktf.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -278,7 +278,7 @@ func NewGoogleCloudRunServiceTemplateSpecVolumesOutputReference(terraformResourc
 	j := jsiiProxy_GoogleCloudRunServiceTemplateSpecVolumesOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecVolumesOutputReference",
+		"@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecVolumesOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -290,7 +290,7 @@ func NewGoogleCloudRunServiceTemplateSpecVolumesOutputReference_Override(g Googl
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecVolumesOutputReference",
+		"@cdktn/provider-google-beta.googleCloudRunService.GoogleCloudRunServiceTemplateSpecVolumesOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		g,
 	)
@@ -532,8 +532,8 @@ func (g *jsiiProxy_GoogleCloudRunServiceTemplateSpecVolumesOutputReference) Inte
 	return returns
 }
 
-func (g *jsiiProxy_GoogleCloudRunServiceTemplateSpecVolumesOutputReference) InterpolationForAttribute(property *string) cdktf.IResolvable {
-	if err := g.validateInterpolationForAttributeParameters(property); err != nil {
+func (g *jsiiProxy_GoogleCloudRunServiceTemplateSpecVolumesOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
 	var returns cdktf.IResolvable
@@ -541,7 +541,7 @@ func (g *jsiiProxy_GoogleCloudRunServiceTemplateSpecVolumesOutputReference) Inte
 	_jsii_.Invoke(
 		g,
 		"interpolationForAttribute",
-		[]interface{}{property},
+		[]interface{}{terraformAttribute},
 		&returns,
 	)
 
@@ -624,8 +624,8 @@ func (g *jsiiProxy_GoogleCloudRunServiceTemplateSpecVolumesOutputReference) Rese
 	)
 }
 
-func (g *jsiiProxy_GoogleCloudRunServiceTemplateSpecVolumesOutputReference) Resolve(_context cdktf.IResolveContext) interface{} {
-	if err := g.validateResolveParameters(_context); err != nil {
+func (g *jsiiProxy_GoogleCloudRunServiceTemplateSpecVolumesOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}
 	var returns interface{}
@@ -633,7 +633,7 @@ func (g *jsiiProxy_GoogleCloudRunServiceTemplateSpecVolumesOutputReference) Reso
 	_jsii_.Invoke(
 		g,
 		"resolve",
-		[]interface{}{_context},
+		[]interface{}{context},
 		&returns,
 	)
 

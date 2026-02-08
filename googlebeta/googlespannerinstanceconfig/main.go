@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlespannerinstanceconfig
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleSpannerInstanceConfig.GoogleSpannerInstanceConfigA",
+		"@cdktn/provider-google-beta.googleSpannerInstanceConfig.GoogleSpannerInstanceConfigA",
 		reflect.TypeOf((*GoogleSpannerInstanceConfigA)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -90,15 +90,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleSpannerInstanceConfig.GoogleSpannerInstanceConfigAConfig",
+		"@cdktn/provider-google-beta.googleSpannerInstanceConfig.GoogleSpannerInstanceConfigAConfig",
 		reflect.TypeOf((*GoogleSpannerInstanceConfigAConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleSpannerInstanceConfig.GoogleSpannerInstanceConfigReplicas",
+		"@cdktn/provider-google-beta.googleSpannerInstanceConfig.GoogleSpannerInstanceConfigReplicas",
 		reflect.TypeOf((*GoogleSpannerInstanceConfigReplicas)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleSpannerInstanceConfig.GoogleSpannerInstanceConfigReplicasList",
+		"@cdktn/provider-google-beta.googleSpannerInstanceConfig.GoogleSpannerInstanceConfigReplicasList",
 		reflect.TypeOf((*GoogleSpannerInstanceConfigReplicasList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -120,7 +120,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleSpannerInstanceConfig.GoogleSpannerInstanceConfigReplicasOutputReference",
+		"@cdktn/provider-google-beta.googleSpannerInstanceConfig.GoogleSpannerInstanceConfigReplicasOutputReference",
 		reflect.TypeOf((*GoogleSpannerInstanceConfigReplicasOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -161,11 +161,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleSpannerInstanceConfig.GoogleSpannerInstanceConfigTimeouts",
+		"@cdktn/provider-google-beta.googleSpannerInstanceConfig.GoogleSpannerInstanceConfigTimeouts",
 		reflect.TypeOf((*GoogleSpannerInstanceConfigTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleSpannerInstanceConfig.GoogleSpannerInstanceConfigTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleSpannerInstanceConfig.GoogleSpannerInstanceConfigTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleSpannerInstanceConfigTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

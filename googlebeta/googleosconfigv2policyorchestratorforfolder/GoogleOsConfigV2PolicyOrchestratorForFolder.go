@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googleosconfigv2policyorchestratorforfolder
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googleosconfigv2policyorchestratorforfolder/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleosconfigv2policyorchestratorforfolder/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -620,7 +620,7 @@ func NewGoogleOsConfigV2PolicyOrchestratorForFolder(scope constructs.Construct, 
 	j := jsiiProxy_GoogleOsConfigV2PolicyOrchestratorForFolder{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolder",
+		"@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolder",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -633,7 +633,7 @@ func NewGoogleOsConfigV2PolicyOrchestratorForFolder_Override(g GoogleOsConfigV2P
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolder",
+		"@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolder",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -794,7 +794,7 @@ func GoogleOsConfigV2PolicyOrchestratorForFolder_GenerateConfigForImport(scope c
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolder",
+		"@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolder",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -829,7 +829,7 @@ func GoogleOsConfigV2PolicyOrchestratorForFolder_IsConstruct(x interface{}) *boo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolder",
+		"@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolder",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -848,7 +848,7 @@ func GoogleOsConfigV2PolicyOrchestratorForFolder_IsTerraformElement(x interface{
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolder",
+		"@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolder",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -867,7 +867,7 @@ func GoogleOsConfigV2PolicyOrchestratorForFolder_IsTerraformResource(x interface
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolder",
+		"@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolder",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -880,7 +880,7 @@ func GoogleOsConfigV2PolicyOrchestratorForFolder_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolder",
+		"@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestratorForFolder.GoogleOsConfigV2PolicyOrchestratorForFolder",
 		"tfResourceType",
 		&returns,
 	)

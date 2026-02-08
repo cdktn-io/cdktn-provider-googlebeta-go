@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlecontactcenterinsightsview
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleContactCenterInsightsView.GoogleContactCenterInsightsView",
+		"@cdktn/provider-google-beta.googleContactCenterInsightsView.GoogleContactCenterInsightsView",
 		reflect.TypeOf((*GoogleContactCenterInsightsView)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -84,15 +84,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleContactCenterInsightsView.GoogleContactCenterInsightsViewConfig",
+		"@cdktn/provider-google-beta.googleContactCenterInsightsView.GoogleContactCenterInsightsViewConfig",
 		reflect.TypeOf((*GoogleContactCenterInsightsViewConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleContactCenterInsightsView.GoogleContactCenterInsightsViewTimeouts",
+		"@cdktn/provider-google-beta.googleContactCenterInsightsView.GoogleContactCenterInsightsViewTimeouts",
 		reflect.TypeOf((*GoogleContactCenterInsightsViewTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleContactCenterInsightsView.GoogleContactCenterInsightsViewTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleContactCenterInsightsView.GoogleContactCenterInsightsViewTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleContactCenterInsightsViewTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

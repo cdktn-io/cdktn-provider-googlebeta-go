@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlesccv2organizationnotificationconfig
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleSccV2OrganizationNotificationConfig.GoogleSccV2OrganizationNotificationConfig",
+		"@cdktn/provider-google-beta.googleSccV2OrganizationNotificationConfig.GoogleSccV2OrganizationNotificationConfig",
 		reflect.TypeOf((*GoogleSccV2OrganizationNotificationConfig)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -87,15 +87,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleSccV2OrganizationNotificationConfig.GoogleSccV2OrganizationNotificationConfigConfig",
+		"@cdktn/provider-google-beta.googleSccV2OrganizationNotificationConfig.GoogleSccV2OrganizationNotificationConfigConfig",
 		reflect.TypeOf((*GoogleSccV2OrganizationNotificationConfigConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleSccV2OrganizationNotificationConfig.GoogleSccV2OrganizationNotificationConfigStreamingConfig",
+		"@cdktn/provider-google-beta.googleSccV2OrganizationNotificationConfig.GoogleSccV2OrganizationNotificationConfigStreamingConfig",
 		reflect.TypeOf((*GoogleSccV2OrganizationNotificationConfigStreamingConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleSccV2OrganizationNotificationConfig.GoogleSccV2OrganizationNotificationConfigStreamingConfigOutputReference",
+		"@cdktn/provider-google-beta.googleSccV2OrganizationNotificationConfig.GoogleSccV2OrganizationNotificationConfigStreamingConfigOutputReference",
 		reflect.TypeOf((*GoogleSccV2OrganizationNotificationConfigStreamingConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -129,11 +129,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleSccV2OrganizationNotificationConfig.GoogleSccV2OrganizationNotificationConfigTimeouts",
+		"@cdktn/provider-google-beta.googleSccV2OrganizationNotificationConfig.GoogleSccV2OrganizationNotificationConfigTimeouts",
 		reflect.TypeOf((*GoogleSccV2OrganizationNotificationConfigTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleSccV2OrganizationNotificationConfig.GoogleSccV2OrganizationNotificationConfigTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleSccV2OrganizationNotificationConfig.GoogleSccV2OrganizationNotificationConfigTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleSccV2OrganizationNotificationConfigTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

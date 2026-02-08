@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlenetappvolumereplication
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleNetappVolumeReplication.GoogleNetappVolumeReplication",
+		"@cdktn/provider-google-beta.googleNetappVolumeReplication.GoogleNetappVolumeReplication",
 		reflect.TypeOf((*GoogleNetappVolumeReplication)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -116,15 +116,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleNetappVolumeReplication.GoogleNetappVolumeReplicationConfig",
+		"@cdktn/provider-google-beta.googleNetappVolumeReplication.GoogleNetappVolumeReplicationConfig",
 		reflect.TypeOf((*GoogleNetappVolumeReplicationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleNetappVolumeReplication.GoogleNetappVolumeReplicationDestinationVolumeParameters",
+		"@cdktn/provider-google-beta.googleNetappVolumeReplication.GoogleNetappVolumeReplicationDestinationVolumeParameters",
 		reflect.TypeOf((*GoogleNetappVolumeReplicationDestinationVolumeParameters)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleNetappVolumeReplication.GoogleNetappVolumeReplicationDestinationVolumeParametersOutputReference",
+		"@cdktn/provider-google-beta.googleNetappVolumeReplication.GoogleNetappVolumeReplicationDestinationVolumeParametersOutputReference",
 		reflect.TypeOf((*GoogleNetappVolumeReplicationDestinationVolumeParametersOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -171,11 +171,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleNetappVolumeReplication.GoogleNetappVolumeReplicationDestinationVolumeParametersTieringPolicy",
+		"@cdktn/provider-google-beta.googleNetappVolumeReplication.GoogleNetappVolumeReplicationDestinationVolumeParametersTieringPolicy",
 		reflect.TypeOf((*GoogleNetappVolumeReplicationDestinationVolumeParametersTieringPolicy)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleNetappVolumeReplication.GoogleNetappVolumeReplicationDestinationVolumeParametersTieringPolicyOutputReference",
+		"@cdktn/provider-google-beta.googleNetappVolumeReplication.GoogleNetappVolumeReplicationDestinationVolumeParametersTieringPolicyOutputReference",
 		reflect.TypeOf((*GoogleNetappVolumeReplicationDestinationVolumeParametersTieringPolicyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -213,11 +213,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleNetappVolumeReplication.GoogleNetappVolumeReplicationHybridPeeringDetails",
+		"@cdktn/provider-google-beta.googleNetappVolumeReplication.GoogleNetappVolumeReplicationHybridPeeringDetails",
 		reflect.TypeOf((*GoogleNetappVolumeReplicationHybridPeeringDetails)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleNetappVolumeReplication.GoogleNetappVolumeReplicationHybridPeeringDetailsList",
+		"@cdktn/provider-google-beta.googleNetappVolumeReplication.GoogleNetappVolumeReplicationHybridPeeringDetailsList",
 		reflect.TypeOf((*GoogleNetappVolumeReplicationHybridPeeringDetailsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -238,7 +238,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleNetappVolumeReplication.GoogleNetappVolumeReplicationHybridPeeringDetailsOutputReference",
+		"@cdktn/provider-google-beta.googleNetappVolumeReplication.GoogleNetappVolumeReplicationHybridPeeringDetailsOutputReference",
 		reflect.TypeOf((*GoogleNetappVolumeReplicationHybridPeeringDetailsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "command", GoGetter: "Command"},
@@ -277,11 +277,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleNetappVolumeReplication.GoogleNetappVolumeReplicationTimeouts",
+		"@cdktn/provider-google-beta.googleNetappVolumeReplication.GoogleNetappVolumeReplicationTimeouts",
 		reflect.TypeOf((*GoogleNetappVolumeReplicationTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleNetappVolumeReplication.GoogleNetappVolumeReplicationTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleNetappVolumeReplication.GoogleNetappVolumeReplicationTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleNetappVolumeReplicationTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -322,11 +322,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleNetappVolumeReplication.GoogleNetappVolumeReplicationTransferStats",
+		"@cdktn/provider-google-beta.googleNetappVolumeReplication.GoogleNetappVolumeReplicationTransferStats",
 		reflect.TypeOf((*GoogleNetappVolumeReplicationTransferStats)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleNetappVolumeReplication.GoogleNetappVolumeReplicationTransferStatsList",
+		"@cdktn/provider-google-beta.googleNetappVolumeReplication.GoogleNetappVolumeReplicationTransferStatsList",
 		reflect.TypeOf((*GoogleNetappVolumeReplicationTransferStatsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -347,7 +347,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleNetappVolumeReplication.GoogleNetappVolumeReplicationTransferStatsOutputReference",
+		"@cdktn/provider-google-beta.googleNetappVolumeReplication.GoogleNetappVolumeReplicationTransferStatsOutputReference",
 		reflect.TypeOf((*GoogleNetappVolumeReplicationTransferStatsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

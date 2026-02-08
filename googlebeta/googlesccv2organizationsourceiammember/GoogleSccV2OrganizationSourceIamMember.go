@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlesccv2organizationsourceiammember
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlesccv2organizationsourceiammember/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlesccv2organizationsourceiammember/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -447,7 +447,7 @@ func NewGoogleSccV2OrganizationSourceIamMember(scope constructs.Construct, id *s
 	j := jsiiProxy_GoogleSccV2OrganizationSourceIamMember{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleSccV2OrganizationSourceIamMember.GoogleSccV2OrganizationSourceIamMember",
+		"@cdktn/provider-google-beta.googleSccV2OrganizationSourceIamMember.GoogleSccV2OrganizationSourceIamMember",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -460,7 +460,7 @@ func NewGoogleSccV2OrganizationSourceIamMember_Override(g GoogleSccV2Organizatio
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleSccV2OrganizationSourceIamMember.GoogleSccV2OrganizationSourceIamMember",
+		"@cdktn/provider-google-beta.googleSccV2OrganizationSourceIamMember.GoogleSccV2OrganizationSourceIamMember",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -599,7 +599,7 @@ func GoogleSccV2OrganizationSourceIamMember_GenerateConfigForImport(scope constr
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleSccV2OrganizationSourceIamMember.GoogleSccV2OrganizationSourceIamMember",
+		"@cdktn/provider-google-beta.googleSccV2OrganizationSourceIamMember.GoogleSccV2OrganizationSourceIamMember",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -634,7 +634,7 @@ func GoogleSccV2OrganizationSourceIamMember_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleSccV2OrganizationSourceIamMember.GoogleSccV2OrganizationSourceIamMember",
+		"@cdktn/provider-google-beta.googleSccV2OrganizationSourceIamMember.GoogleSccV2OrganizationSourceIamMember",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -653,7 +653,7 @@ func GoogleSccV2OrganizationSourceIamMember_IsTerraformElement(x interface{}) *b
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleSccV2OrganizationSourceIamMember.GoogleSccV2OrganizationSourceIamMember",
+		"@cdktn/provider-google-beta.googleSccV2OrganizationSourceIamMember.GoogleSccV2OrganizationSourceIamMember",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -672,7 +672,7 @@ func GoogleSccV2OrganizationSourceIamMember_IsTerraformResource(x interface{}) *
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleSccV2OrganizationSourceIamMember.GoogleSccV2OrganizationSourceIamMember",
+		"@cdktn/provider-google-beta.googleSccV2OrganizationSourceIamMember.GoogleSccV2OrganizationSourceIamMember",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -685,7 +685,7 @@ func GoogleSccV2OrganizationSourceIamMember_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleSccV2OrganizationSourceIamMember.GoogleSccV2OrganizationSourceIamMember",
+		"@cdktn/provider-google-beta.googleSccV2OrganizationSourceIamMember.GoogleSccV2OrganizationSourceIamMember",
 		"tfResourceType",
 		&returns,
 	)

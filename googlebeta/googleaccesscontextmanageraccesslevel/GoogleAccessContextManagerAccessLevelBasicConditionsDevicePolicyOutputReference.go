@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googleaccesscontextmanageraccesslevel
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googleaccesscontextmanageraccesslevel/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleaccesscontextmanageraccesslevel/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -80,7 +80,7 @@ type GoogleAccessContextManagerAccessLevelBasicConditionsDevicePolicyOutputRefer
 	// Experimental.
 	InterpolationAsList() cdktf.IResolvable
 	// Experimental.
-	InterpolationForAttribute(property *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
 	PutOsConstraints(value interface{})
 	ResetAllowedDeviceManagementLevels()
 	ResetAllowedEncryptionStatuses()
@@ -90,7 +90,7 @@ type GoogleAccessContextManagerAccessLevelBasicConditionsDevicePolicyOutputRefer
 	ResetRequireScreenLock()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(_context cdktf.IResolveContext) interface{}
+	Resolve(context cdktf.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -303,7 +303,7 @@ func NewGoogleAccessContextManagerAccessLevelBasicConditionsDevicePolicyOutputRe
 	j := jsiiProxy_GoogleAccessContextManagerAccessLevelBasicConditionsDevicePolicyOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleAccessContextManagerAccessLevel.GoogleAccessContextManagerAccessLevelBasicConditionsDevicePolicyOutputReference",
+		"@cdktn/provider-google-beta.googleAccessContextManagerAccessLevel.GoogleAccessContextManagerAccessLevelBasicConditionsDevicePolicyOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -315,7 +315,7 @@ func NewGoogleAccessContextManagerAccessLevelBasicConditionsDevicePolicyOutputRe
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleAccessContextManagerAccessLevel.GoogleAccessContextManagerAccessLevelBasicConditionsDevicePolicyOutputReference",
+		"@cdktn/provider-google-beta.googleAccessContextManagerAccessLevel.GoogleAccessContextManagerAccessLevelBasicConditionsDevicePolicyOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		g,
 	)
@@ -601,8 +601,8 @@ func (g *jsiiProxy_GoogleAccessContextManagerAccessLevelBasicConditionsDevicePol
 	return returns
 }
 
-func (g *jsiiProxy_GoogleAccessContextManagerAccessLevelBasicConditionsDevicePolicyOutputReference) InterpolationForAttribute(property *string) cdktf.IResolvable {
-	if err := g.validateInterpolationForAttributeParameters(property); err != nil {
+func (g *jsiiProxy_GoogleAccessContextManagerAccessLevelBasicConditionsDevicePolicyOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
 	var returns cdktf.IResolvable
@@ -610,7 +610,7 @@ func (g *jsiiProxy_GoogleAccessContextManagerAccessLevelBasicConditionsDevicePol
 	_jsii_.Invoke(
 		g,
 		"interpolationForAttribute",
-		[]interface{}{property},
+		[]interface{}{terraformAttribute},
 		&returns,
 	)
 
@@ -676,8 +676,8 @@ func (g *jsiiProxy_GoogleAccessContextManagerAccessLevelBasicConditionsDevicePol
 	)
 }
 
-func (g *jsiiProxy_GoogleAccessContextManagerAccessLevelBasicConditionsDevicePolicyOutputReference) Resolve(_context cdktf.IResolveContext) interface{} {
-	if err := g.validateResolveParameters(_context); err != nil {
+func (g *jsiiProxy_GoogleAccessContextManagerAccessLevelBasicConditionsDevicePolicyOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}
 	var returns interface{}
@@ -685,7 +685,7 @@ func (g *jsiiProxy_GoogleAccessContextManagerAccessLevelBasicConditionsDevicePol
 	_jsii_.Invoke(
 		g,
 		"resolve",
-		[]interface{}{_context},
+		[]interface{}{context},
 		&returns,
 	)
 

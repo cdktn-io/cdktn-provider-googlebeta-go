@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlebiglaketable
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleBiglakeTable.GoogleBiglakeTable",
+		"@cdktn/provider-google-beta.googleBiglakeTable.GoogleBiglakeTable",
 		reflect.TypeOf((*GoogleBiglakeTable)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -87,15 +87,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleBiglakeTable.GoogleBiglakeTableConfig",
+		"@cdktn/provider-google-beta.googleBiglakeTable.GoogleBiglakeTableConfig",
 		reflect.TypeOf((*GoogleBiglakeTableConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleBiglakeTable.GoogleBiglakeTableHiveOptions",
+		"@cdktn/provider-google-beta.googleBiglakeTable.GoogleBiglakeTableHiveOptions",
 		reflect.TypeOf((*GoogleBiglakeTableHiveOptions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleBiglakeTable.GoogleBiglakeTableHiveOptionsOutputReference",
+		"@cdktn/provider-google-beta.googleBiglakeTable.GoogleBiglakeTableHiveOptionsOutputReference",
 		reflect.TypeOf((*GoogleBiglakeTableHiveOptionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -137,11 +137,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleBiglakeTable.GoogleBiglakeTableHiveOptionsStorageDescriptor",
+		"@cdktn/provider-google-beta.googleBiglakeTable.GoogleBiglakeTableHiveOptionsStorageDescriptor",
 		reflect.TypeOf((*GoogleBiglakeTableHiveOptionsStorageDescriptor)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleBiglakeTable.GoogleBiglakeTableHiveOptionsStorageDescriptorOutputReference",
+		"@cdktn/provider-google-beta.googleBiglakeTable.GoogleBiglakeTableHiveOptionsStorageDescriptorOutputReference",
 		reflect.TypeOf((*GoogleBiglakeTableHiveOptionsStorageDescriptorOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -182,11 +182,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleBiglakeTable.GoogleBiglakeTableTimeouts",
+		"@cdktn/provider-google-beta.googleBiglakeTable.GoogleBiglakeTableTimeouts",
 		reflect.TypeOf((*GoogleBiglakeTableTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleBiglakeTable.GoogleBiglakeTableTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleBiglakeTable.GoogleBiglakeTableTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleBiglakeTableTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

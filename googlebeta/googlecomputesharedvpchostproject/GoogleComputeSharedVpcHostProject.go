@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlecomputesharedvpchostproject
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlecomputesharedvpchostproject/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecomputesharedvpchostproject/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -367,7 +367,7 @@ func NewGoogleComputeSharedVpcHostProject(scope constructs.Construct, id *string
 	j := jsiiProxy_GoogleComputeSharedVpcHostProject{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleComputeSharedVpcHostProject.GoogleComputeSharedVpcHostProject",
+		"@cdktn/provider-google-beta.googleComputeSharedVpcHostProject.GoogleComputeSharedVpcHostProject",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -380,7 +380,7 @@ func NewGoogleComputeSharedVpcHostProject_Override(g GoogleComputeSharedVpcHostP
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleComputeSharedVpcHostProject.GoogleComputeSharedVpcHostProject",
+		"@cdktn/provider-google-beta.googleComputeSharedVpcHostProject.GoogleComputeSharedVpcHostProject",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -486,7 +486,7 @@ func GoogleComputeSharedVpcHostProject_GenerateConfigForImport(scope constructs.
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleComputeSharedVpcHostProject.GoogleComputeSharedVpcHostProject",
+		"@cdktn/provider-google-beta.googleComputeSharedVpcHostProject.GoogleComputeSharedVpcHostProject",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -521,7 +521,7 @@ func GoogleComputeSharedVpcHostProject_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleComputeSharedVpcHostProject.GoogleComputeSharedVpcHostProject",
+		"@cdktn/provider-google-beta.googleComputeSharedVpcHostProject.GoogleComputeSharedVpcHostProject",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -540,7 +540,7 @@ func GoogleComputeSharedVpcHostProject_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleComputeSharedVpcHostProject.GoogleComputeSharedVpcHostProject",
+		"@cdktn/provider-google-beta.googleComputeSharedVpcHostProject.GoogleComputeSharedVpcHostProject",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -559,7 +559,7 @@ func GoogleComputeSharedVpcHostProject_IsTerraformResource(x interface{}) *bool 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleComputeSharedVpcHostProject.GoogleComputeSharedVpcHostProject",
+		"@cdktn/provider-google-beta.googleComputeSharedVpcHostProject.GoogleComputeSharedVpcHostProject",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -572,7 +572,7 @@ func GoogleComputeSharedVpcHostProject_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleComputeSharedVpcHostProject.GoogleComputeSharedVpcHostProject",
+		"@cdktn/provider-google-beta.googleComputeSharedVpcHostProject.GoogleComputeSharedVpcHostProject",
 		"tfResourceType",
 		&returns,
 	)

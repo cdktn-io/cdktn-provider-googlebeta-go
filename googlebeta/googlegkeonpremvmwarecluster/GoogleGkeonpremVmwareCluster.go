@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlegkeonpremvmwarecluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlegkeonpremvmwarecluster/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlegkeonpremvmwarecluster/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -986,7 +986,7 @@ func NewGoogleGkeonpremVmwareCluster(scope constructs.Construct, id *string, con
 	j := jsiiProxy_GoogleGkeonpremVmwareCluster{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleGkeonpremVmwareCluster.GoogleGkeonpremVmwareCluster",
+		"@cdktn/provider-google-beta.googleGkeonpremVmwareCluster.GoogleGkeonpremVmwareCluster",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -999,7 +999,7 @@ func NewGoogleGkeonpremVmwareCluster_Override(g GoogleGkeonpremVmwareCluster, sc
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleGkeonpremVmwareCluster.GoogleGkeonpremVmwareCluster",
+		"@cdktn/provider-google-beta.googleGkeonpremVmwareCluster.GoogleGkeonpremVmwareCluster",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -1215,7 +1215,7 @@ func GoogleGkeonpremVmwareCluster_GenerateConfigForImport(scope constructs.Const
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleGkeonpremVmwareCluster.GoogleGkeonpremVmwareCluster",
+		"@cdktn/provider-google-beta.googleGkeonpremVmwareCluster.GoogleGkeonpremVmwareCluster",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1250,7 +1250,7 @@ func GoogleGkeonpremVmwareCluster_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleGkeonpremVmwareCluster.GoogleGkeonpremVmwareCluster",
+		"@cdktn/provider-google-beta.googleGkeonpremVmwareCluster.GoogleGkeonpremVmwareCluster",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1269,7 +1269,7 @@ func GoogleGkeonpremVmwareCluster_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleGkeonpremVmwareCluster.GoogleGkeonpremVmwareCluster",
+		"@cdktn/provider-google-beta.googleGkeonpremVmwareCluster.GoogleGkeonpremVmwareCluster",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1288,7 +1288,7 @@ func GoogleGkeonpremVmwareCluster_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleGkeonpremVmwareCluster.GoogleGkeonpremVmwareCluster",
+		"@cdktn/provider-google-beta.googleGkeonpremVmwareCluster.GoogleGkeonpremVmwareCluster",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1301,7 +1301,7 @@ func GoogleGkeonpremVmwareCluster_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleGkeonpremVmwareCluster.GoogleGkeonpremVmwareCluster",
+		"@cdktn/provider-google-beta.googleGkeonpremVmwareCluster.GoogleGkeonpremVmwareCluster",
 		"tfResourceType",
 		&returns,
 	)

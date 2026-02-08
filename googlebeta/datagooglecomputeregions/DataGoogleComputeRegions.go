@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagooglecomputeregions
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/datagooglecomputeregions/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagooglecomputeregions/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -334,7 +334,7 @@ func NewDataGoogleComputeRegions(scope constructs.Construct, id *string, config 
 	j := jsiiProxy_DataGoogleComputeRegions{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.dataGoogleComputeRegions.DataGoogleComputeRegions",
+		"@cdktn/provider-google-beta.dataGoogleComputeRegions.DataGoogleComputeRegions",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -347,7 +347,7 @@ func NewDataGoogleComputeRegions_Override(d DataGoogleComputeRegions, scope cons
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.dataGoogleComputeRegions.DataGoogleComputeRegions",
+		"@cdktn/provider-google-beta.dataGoogleComputeRegions.DataGoogleComputeRegions",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -442,7 +442,7 @@ func DataGoogleComputeRegions_GenerateConfigForImport(scope constructs.Construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleComputeRegions.DataGoogleComputeRegions",
+		"@cdktn/provider-google-beta.dataGoogleComputeRegions.DataGoogleComputeRegions",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -477,7 +477,7 @@ func DataGoogleComputeRegions_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleComputeRegions.DataGoogleComputeRegions",
+		"@cdktn/provider-google-beta.dataGoogleComputeRegions.DataGoogleComputeRegions",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -496,7 +496,7 @@ func DataGoogleComputeRegions_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleComputeRegions.DataGoogleComputeRegions",
+		"@cdktn/provider-google-beta.dataGoogleComputeRegions.DataGoogleComputeRegions",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -515,7 +515,7 @@ func DataGoogleComputeRegions_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleComputeRegions.DataGoogleComputeRegions",
+		"@cdktn/provider-google-beta.dataGoogleComputeRegions.DataGoogleComputeRegions",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -528,7 +528,7 @@ func DataGoogleComputeRegions_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.dataGoogleComputeRegions.DataGoogleComputeRegions",
+		"@cdktn/provider-google-beta.dataGoogleComputeRegions.DataGoogleComputeRegions",
 		"tfResourceType",
 		&returns,
 	)

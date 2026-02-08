@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googleorganizationiamcustomrole
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googleorganizationiamcustomrole/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleorganizationiamcustomrole/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -482,7 +482,7 @@ func NewGoogleOrganizationIamCustomRole(scope constructs.Construct, id *string, 
 	j := jsiiProxy_GoogleOrganizationIamCustomRole{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleOrganizationIamCustomRole.GoogleOrganizationIamCustomRole",
+		"@cdktn/provider-google-beta.googleOrganizationIamCustomRole.GoogleOrganizationIamCustomRole",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -495,7 +495,7 @@ func NewGoogleOrganizationIamCustomRole_Override(g GoogleOrganizationIamCustomRo
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleOrganizationIamCustomRole.GoogleOrganizationIamCustomRole",
+		"@cdktn/provider-google-beta.googleOrganizationIamCustomRole.GoogleOrganizationIamCustomRole",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -656,7 +656,7 @@ func GoogleOrganizationIamCustomRole_GenerateConfigForImport(scope constructs.Co
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleOrganizationIamCustomRole.GoogleOrganizationIamCustomRole",
+		"@cdktn/provider-google-beta.googleOrganizationIamCustomRole.GoogleOrganizationIamCustomRole",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -691,7 +691,7 @@ func GoogleOrganizationIamCustomRole_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleOrganizationIamCustomRole.GoogleOrganizationIamCustomRole",
+		"@cdktn/provider-google-beta.googleOrganizationIamCustomRole.GoogleOrganizationIamCustomRole",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -710,7 +710,7 @@ func GoogleOrganizationIamCustomRole_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleOrganizationIamCustomRole.GoogleOrganizationIamCustomRole",
+		"@cdktn/provider-google-beta.googleOrganizationIamCustomRole.GoogleOrganizationIamCustomRole",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -729,7 +729,7 @@ func GoogleOrganizationIamCustomRole_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleOrganizationIamCustomRole.GoogleOrganizationIamCustomRole",
+		"@cdktn/provider-google-beta.googleOrganizationIamCustomRole.GoogleOrganizationIamCustomRole",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -742,7 +742,7 @@ func GoogleOrganizationIamCustomRole_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleOrganizationIamCustomRole.GoogleOrganizationIamCustomRole",
+		"@cdktn/provider-google-beta.googleOrganizationIamCustomRole.GoogleOrganizationIamCustomRole",
 		"tfResourceType",
 		&returns,
 	)

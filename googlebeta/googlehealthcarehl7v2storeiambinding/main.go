@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlehealthcarehl7v2storeiambinding
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleHealthcareHl7V2StoreIamBinding.GoogleHealthcareHl7V2StoreIamBinding",
+		"@cdktn/provider-google-beta.googleHealthcareHl7V2StoreIamBinding.GoogleHealthcareHl7V2StoreIamBinding",
 		reflect.TypeOf((*GoogleHealthcareHl7V2StoreIamBinding)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -77,11 +77,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleHealthcareHl7V2StoreIamBinding.GoogleHealthcareHl7V2StoreIamBindingCondition",
+		"@cdktn/provider-google-beta.googleHealthcareHl7V2StoreIamBinding.GoogleHealthcareHl7V2StoreIamBindingCondition",
 		reflect.TypeOf((*GoogleHealthcareHl7V2StoreIamBindingCondition)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleHealthcareHl7V2StoreIamBinding.GoogleHealthcareHl7V2StoreIamBindingConditionOutputReference",
+		"@cdktn/provider-google-beta.googleHealthcareHl7V2StoreIamBinding.GoogleHealthcareHl7V2StoreIamBindingConditionOutputReference",
 		reflect.TypeOf((*GoogleHealthcareHl7V2StoreIamBindingConditionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -120,7 +120,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleHealthcareHl7V2StoreIamBinding.GoogleHealthcareHl7V2StoreIamBindingConfig",
+		"@cdktn/provider-google-beta.googleHealthcareHl7V2StoreIamBinding.GoogleHealthcareHl7V2StoreIamBindingConfig",
 		reflect.TypeOf((*GoogleHealthcareHl7V2StoreIamBindingConfig)(nil)).Elem(),
 	)
 }

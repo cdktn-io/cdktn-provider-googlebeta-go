@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagooglesqltiers
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleSqlTiers.DataGoogleSqlTiers",
+		"@cdktn/provider-google-beta.dataGoogleSqlTiers.DataGoogleSqlTiers",
 		reflect.TypeOf((*DataGoogleSqlTiers)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -62,15 +62,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleSqlTiers.DataGoogleSqlTiersConfig",
+		"@cdktn/provider-google-beta.dataGoogleSqlTiers.DataGoogleSqlTiersConfig",
 		reflect.TypeOf((*DataGoogleSqlTiersConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleSqlTiers.DataGoogleSqlTiersTiers",
+		"@cdktn/provider-google-beta.dataGoogleSqlTiers.DataGoogleSqlTiersTiers",
 		reflect.TypeOf((*DataGoogleSqlTiersTiers)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleSqlTiers.DataGoogleSqlTiersTiersList",
+		"@cdktn/provider-google-beta.dataGoogleSqlTiers.DataGoogleSqlTiersTiersList",
 		reflect.TypeOf((*DataGoogleSqlTiersTiersList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -91,7 +91,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleSqlTiers.DataGoogleSqlTiersTiersOutputReference",
+		"@cdktn/provider-google-beta.dataGoogleSqlTiers.DataGoogleSqlTiersTiersOutputReference",
 		reflect.TypeOf((*DataGoogleSqlTiersTiersOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

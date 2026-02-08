@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googleiamdenypolicy
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleIamDenyPolicy.GoogleIamDenyPolicy",
+		"@cdktn/provider-google-beta.googleIamDenyPolicy.GoogleIamDenyPolicy",
 		reflect.TypeOf((*GoogleIamDenyPolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -81,23 +81,23 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleIamDenyPolicy.GoogleIamDenyPolicyConfig",
+		"@cdktn/provider-google-beta.googleIamDenyPolicy.GoogleIamDenyPolicyConfig",
 		reflect.TypeOf((*GoogleIamDenyPolicyConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleIamDenyPolicy.GoogleIamDenyPolicyRules",
+		"@cdktn/provider-google-beta.googleIamDenyPolicy.GoogleIamDenyPolicyRules",
 		reflect.TypeOf((*GoogleIamDenyPolicyRules)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleIamDenyPolicy.GoogleIamDenyPolicyRulesDenyRule",
+		"@cdktn/provider-google-beta.googleIamDenyPolicy.GoogleIamDenyPolicyRulesDenyRule",
 		reflect.TypeOf((*GoogleIamDenyPolicyRulesDenyRule)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleIamDenyPolicy.GoogleIamDenyPolicyRulesDenyRuleDenialCondition",
+		"@cdktn/provider-google-beta.googleIamDenyPolicy.GoogleIamDenyPolicyRulesDenyRuleDenialCondition",
 		reflect.TypeOf((*GoogleIamDenyPolicyRulesDenyRuleDenialCondition)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleIamDenyPolicy.GoogleIamDenyPolicyRulesDenyRuleDenialConditionOutputReference",
+		"@cdktn/provider-google-beta.googleIamDenyPolicy.GoogleIamDenyPolicyRulesDenyRuleDenialConditionOutputReference",
 		reflect.TypeOf((*GoogleIamDenyPolicyRulesDenyRuleDenialConditionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -140,7 +140,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleIamDenyPolicy.GoogleIamDenyPolicyRulesDenyRuleOutputReference",
+		"@cdktn/provider-google-beta.googleIamDenyPolicy.GoogleIamDenyPolicyRulesDenyRuleOutputReference",
 		reflect.TypeOf((*GoogleIamDenyPolicyRulesDenyRuleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -188,7 +188,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleIamDenyPolicy.GoogleIamDenyPolicyRulesList",
+		"@cdktn/provider-google-beta.googleIamDenyPolicy.GoogleIamDenyPolicyRulesList",
 		reflect.TypeOf((*GoogleIamDenyPolicyRulesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -210,7 +210,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleIamDenyPolicy.GoogleIamDenyPolicyRulesOutputReference",
+		"@cdktn/provider-google-beta.googleIamDenyPolicy.GoogleIamDenyPolicyRulesOutputReference",
 		reflect.TypeOf((*GoogleIamDenyPolicyRulesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -249,11 +249,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleIamDenyPolicy.GoogleIamDenyPolicyTimeouts",
+		"@cdktn/provider-google-beta.googleIamDenyPolicy.GoogleIamDenyPolicyTimeouts",
 		reflect.TypeOf((*GoogleIamDenyPolicyTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleIamDenyPolicy.GoogleIamDenyPolicyTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleIamDenyPolicy.GoogleIamDenyPolicyTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleIamDenyPolicyTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

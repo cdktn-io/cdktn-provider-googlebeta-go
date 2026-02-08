@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 //go:build no_runtime_type_checking
@@ -15,7 +15,7 @@ func (g *jsiiProxy_GoogleRedisClusterManagedServerCaCaCertsList) validateGetPara
 	return nil
 }
 
-func (g *jsiiProxy_GoogleRedisClusterManagedServerCaCaCertsList) validateResolveParameters(_context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleRedisClusterManagedServerCaCaCertsList) validateResolveParameters(context cdktf.IResolveContext) error {
 	return nil
 }
 

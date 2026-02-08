@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagooglecomputereservation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/datagooglecomputereservation/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagooglecomputereservation/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -477,7 +477,7 @@ func NewDataGoogleComputeReservation(scope constructs.Construct, id *string, con
 	j := jsiiProxy_DataGoogleComputeReservation{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.dataGoogleComputeReservation.DataGoogleComputeReservation",
+		"@cdktn/provider-google-beta.dataGoogleComputeReservation.DataGoogleComputeReservation",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -490,7 +490,7 @@ func NewDataGoogleComputeReservation_Override(d DataGoogleComputeReservation, sc
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.dataGoogleComputeReservation.DataGoogleComputeReservation",
+		"@cdktn/provider-google-beta.dataGoogleComputeReservation.DataGoogleComputeReservation",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -596,7 +596,7 @@ func DataGoogleComputeReservation_GenerateConfigForImport(scope constructs.Const
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleComputeReservation.DataGoogleComputeReservation",
+		"@cdktn/provider-google-beta.dataGoogleComputeReservation.DataGoogleComputeReservation",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -631,7 +631,7 @@ func DataGoogleComputeReservation_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleComputeReservation.DataGoogleComputeReservation",
+		"@cdktn/provider-google-beta.dataGoogleComputeReservation.DataGoogleComputeReservation",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -650,7 +650,7 @@ func DataGoogleComputeReservation_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleComputeReservation.DataGoogleComputeReservation",
+		"@cdktn/provider-google-beta.dataGoogleComputeReservation.DataGoogleComputeReservation",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -669,7 +669,7 @@ func DataGoogleComputeReservation_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.dataGoogleComputeReservation.DataGoogleComputeReservation",
+		"@cdktn/provider-google-beta.dataGoogleComputeReservation.DataGoogleComputeReservation",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -682,7 +682,7 @@ func DataGoogleComputeReservation_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.dataGoogleComputeReservation.DataGoogleComputeReservation",
+		"@cdktn/provider-google-beta.dataGoogleComputeReservation.DataGoogleComputeReservation",
 		"tfResourceType",
 		&returns,
 	)

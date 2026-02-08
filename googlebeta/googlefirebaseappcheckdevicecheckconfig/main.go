@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlefirebaseappcheckdevicecheckconfig
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleFirebaseAppCheckDeviceCheckConfig.GoogleFirebaseAppCheckDeviceCheckConfig",
+		"@cdktn/provider-google-beta.googleFirebaseAppCheckDeviceCheckConfig.GoogleFirebaseAppCheckDeviceCheckConfig",
 		reflect.TypeOf((*GoogleFirebaseAppCheckDeviceCheckConfig)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -84,15 +84,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleFirebaseAppCheckDeviceCheckConfig.GoogleFirebaseAppCheckDeviceCheckConfigConfig",
+		"@cdktn/provider-google-beta.googleFirebaseAppCheckDeviceCheckConfig.GoogleFirebaseAppCheckDeviceCheckConfigConfig",
 		reflect.TypeOf((*GoogleFirebaseAppCheckDeviceCheckConfigConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleFirebaseAppCheckDeviceCheckConfig.GoogleFirebaseAppCheckDeviceCheckConfigTimeouts",
+		"@cdktn/provider-google-beta.googleFirebaseAppCheckDeviceCheckConfig.GoogleFirebaseAppCheckDeviceCheckConfigTimeouts",
 		reflect.TypeOf((*GoogleFirebaseAppCheckDeviceCheckConfigTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleFirebaseAppCheckDeviceCheckConfig.GoogleFirebaseAppCheckDeviceCheckConfigTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleFirebaseAppCheckDeviceCheckConfig.GoogleFirebaseAppCheckDeviceCheckConfigTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleFirebaseAppCheckDeviceCheckConfigTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

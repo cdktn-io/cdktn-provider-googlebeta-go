@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlesccv2organizationsourceiampolicy
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleSccV2OrganizationSourceIamPolicy.GoogleSccV2OrganizationSourceIamPolicy",
+		"@cdktn/provider-google-beta.googleSccV2OrganizationSourceIamPolicy.GoogleSccV2OrganizationSourceIamPolicy",
 		reflect.TypeOf((*GoogleSccV2OrganizationSourceIamPolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -73,7 +73,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleSccV2OrganizationSourceIamPolicy.GoogleSccV2OrganizationSourceIamPolicyConfig",
+		"@cdktn/provider-google-beta.googleSccV2OrganizationSourceIamPolicy.GoogleSccV2OrganizationSourceIamPolicyConfig",
 		reflect.TypeOf((*GoogleSccV2OrganizationSourceIamPolicyConfig)(nil)).Elem(),
 	)
 }

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googledataflowjob
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleDataflowJob.GoogleDataflowJob",
+		"@cdktn/provider-google-beta.googleDataflowJob.GoogleDataflowJob",
 		reflect.TypeOf((*GoogleDataflowJob)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "additionalExperiments", GoGetter: "AdditionalExperiments"},
@@ -132,15 +132,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleDataflowJob.GoogleDataflowJobConfig",
+		"@cdktn/provider-google-beta.googleDataflowJob.GoogleDataflowJobConfig",
 		reflect.TypeOf((*GoogleDataflowJobConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleDataflowJob.GoogleDataflowJobTimeouts",
+		"@cdktn/provider-google-beta.googleDataflowJob.GoogleDataflowJobTimeouts",
 		reflect.TypeOf((*GoogleDataflowJobTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleDataflowJob.GoogleDataflowJobTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleDataflowJob.GoogleDataflowJobTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleDataflowJobTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

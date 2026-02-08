@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlevmwareenginenetwork
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleVmwareengineNetwork.GoogleVmwareengineNetwork",
+		"@cdktn/provider-google-beta.googleVmwareengineNetwork.GoogleVmwareengineNetwork",
 		reflect.TypeOf((*GoogleVmwareengineNetwork)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -85,15 +85,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleVmwareengineNetwork.GoogleVmwareengineNetworkConfig",
+		"@cdktn/provider-google-beta.googleVmwareengineNetwork.GoogleVmwareengineNetworkConfig",
 		reflect.TypeOf((*GoogleVmwareengineNetworkConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleVmwareengineNetwork.GoogleVmwareengineNetworkTimeouts",
+		"@cdktn/provider-google-beta.googleVmwareengineNetwork.GoogleVmwareengineNetworkTimeouts",
 		reflect.TypeOf((*GoogleVmwareengineNetworkTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleVmwareengineNetwork.GoogleVmwareengineNetworkTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleVmwareengineNetwork.GoogleVmwareengineNetworkTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleVmwareengineNetworkTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -134,11 +134,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleVmwareengineNetwork.GoogleVmwareengineNetworkVpcNetworks",
+		"@cdktn/provider-google-beta.googleVmwareengineNetwork.GoogleVmwareengineNetworkVpcNetworks",
 		reflect.TypeOf((*GoogleVmwareengineNetworkVpcNetworks)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleVmwareengineNetwork.GoogleVmwareengineNetworkVpcNetworksList",
+		"@cdktn/provider-google-beta.googleVmwareengineNetwork.GoogleVmwareengineNetworkVpcNetworksList",
 		reflect.TypeOf((*GoogleVmwareengineNetworkVpcNetworksList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -159,7 +159,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleVmwareengineNetwork.GoogleVmwareengineNetworkVpcNetworksOutputReference",
+		"@cdktn/provider-google-beta.googleVmwareengineNetwork.GoogleVmwareengineNetworkVpcNetworksOutputReference",
 		reflect.TypeOf((*GoogleVmwareengineNetworkVpcNetworksOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

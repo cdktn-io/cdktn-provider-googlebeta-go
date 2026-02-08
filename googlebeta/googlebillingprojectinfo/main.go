@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlebillingprojectinfo
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleBillingProjectInfo.GoogleBillingProjectInfo",
+		"@cdktn/provider-google-beta.googleBillingProjectInfo.GoogleBillingProjectInfo",
 		reflect.TypeOf((*GoogleBillingProjectInfo)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -75,15 +75,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleBillingProjectInfo.GoogleBillingProjectInfoConfig",
+		"@cdktn/provider-google-beta.googleBillingProjectInfo.GoogleBillingProjectInfoConfig",
 		reflect.TypeOf((*GoogleBillingProjectInfoConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleBillingProjectInfo.GoogleBillingProjectInfoTimeouts",
+		"@cdktn/provider-google-beta.googleBillingProjectInfo.GoogleBillingProjectInfoTimeouts",
 		reflect.TypeOf((*GoogleBillingProjectInfoTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleBillingProjectInfo.GoogleBillingProjectInfoTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleBillingProjectInfo.GoogleBillingProjectInfoTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleBillingProjectInfoTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlefirebasestoragebucket
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleFirebaseStorageBucket.GoogleFirebaseStorageBucket",
+		"@cdktn/provider-google-beta.googleFirebaseStorageBucket.GoogleFirebaseStorageBucket",
 		reflect.TypeOf((*GoogleFirebaseStorageBucket)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -77,15 +77,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleFirebaseStorageBucket.GoogleFirebaseStorageBucketConfig",
+		"@cdktn/provider-google-beta.googleFirebaseStorageBucket.GoogleFirebaseStorageBucketConfig",
 		reflect.TypeOf((*GoogleFirebaseStorageBucketConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleFirebaseStorageBucket.GoogleFirebaseStorageBucketTimeouts",
+		"@cdktn/provider-google-beta.googleFirebaseStorageBucket.GoogleFirebaseStorageBucketTimeouts",
 		reflect.TypeOf((*GoogleFirebaseStorageBucketTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleFirebaseStorageBucket.GoogleFirebaseStorageBucketTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleFirebaseStorageBucket.GoogleFirebaseStorageBucketTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleFirebaseStorageBucketTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

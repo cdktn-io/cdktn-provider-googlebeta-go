@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlecolabruntime
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlecolabruntime/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecolabruntime/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -601,7 +601,7 @@ func NewGoogleColabRuntime(scope constructs.Construct, id *string, config *Googl
 	j := jsiiProxy_GoogleColabRuntime{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleColabRuntime.GoogleColabRuntime",
+		"@cdktn/provider-google-beta.googleColabRuntime.GoogleColabRuntime",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -614,7 +614,7 @@ func NewGoogleColabRuntime_Override(g GoogleColabRuntime, scope constructs.Const
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleColabRuntime.GoogleColabRuntime",
+		"@cdktn/provider-google-beta.googleColabRuntime.GoogleColabRuntime",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -797,7 +797,7 @@ func GoogleColabRuntime_GenerateConfigForImport(scope constructs.Construct, impo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleColabRuntime.GoogleColabRuntime",
+		"@cdktn/provider-google-beta.googleColabRuntime.GoogleColabRuntime",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -832,7 +832,7 @@ func GoogleColabRuntime_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleColabRuntime.GoogleColabRuntime",
+		"@cdktn/provider-google-beta.googleColabRuntime.GoogleColabRuntime",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -851,7 +851,7 @@ func GoogleColabRuntime_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleColabRuntime.GoogleColabRuntime",
+		"@cdktn/provider-google-beta.googleColabRuntime.GoogleColabRuntime",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -870,7 +870,7 @@ func GoogleColabRuntime_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleColabRuntime.GoogleColabRuntime",
+		"@cdktn/provider-google-beta.googleColabRuntime.GoogleColabRuntime",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -883,7 +883,7 @@ func GoogleColabRuntime_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleColabRuntime.GoogleColabRuntime",
+		"@cdktn/provider-google-beta.googleColabRuntime.GoogleColabRuntime",
 		"tfResourceType",
 		&returns,
 	)

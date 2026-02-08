@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 //go:build no_runtime_type_checking
@@ -43,11 +43,11 @@ func (g *jsiiProxy_GoogleTranscoderJobConfigElementaryStreamsVideoStreamH264HlgO
 	return nil
 }
 
-func (g *jsiiProxy_GoogleTranscoderJobConfigElementaryStreamsVideoStreamH264HlgOutputReference) validateInterpolationForAttributeParameters(property *string) error {
+func (g *jsiiProxy_GoogleTranscoderJobConfigElementaryStreamsVideoStreamH264HlgOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
 	return nil
 }
 
-func (g *jsiiProxy_GoogleTranscoderJobConfigElementaryStreamsVideoStreamH264HlgOutputReference) validateResolveParameters(_context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleTranscoderJobConfigElementaryStreamsVideoStreamH264HlgOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
 	return nil
 }
 

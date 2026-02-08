@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlecomputeregioncommitment
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleComputeRegionCommitment.GoogleComputeRegionCommitment",
+		"@cdktn/provider-google-beta.googleComputeRegionCommitment.GoogleComputeRegionCommitment",
 		reflect.TypeOf((*GoogleComputeRegionCommitment)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -110,15 +110,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleComputeRegionCommitment.GoogleComputeRegionCommitmentConfig",
+		"@cdktn/provider-google-beta.googleComputeRegionCommitment.GoogleComputeRegionCommitmentConfig",
 		reflect.TypeOf((*GoogleComputeRegionCommitmentConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleComputeRegionCommitment.GoogleComputeRegionCommitmentLicenseResource",
+		"@cdktn/provider-google-beta.googleComputeRegionCommitment.GoogleComputeRegionCommitmentLicenseResource",
 		reflect.TypeOf((*GoogleComputeRegionCommitmentLicenseResource)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleComputeRegionCommitment.GoogleComputeRegionCommitmentLicenseResourceOutputReference",
+		"@cdktn/provider-google-beta.googleComputeRegionCommitment.GoogleComputeRegionCommitmentLicenseResourceOutputReference",
 		reflect.TypeOf((*GoogleComputeRegionCommitmentLicenseResourceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "amount", GoGetter: "Amount"},
@@ -158,11 +158,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleComputeRegionCommitment.GoogleComputeRegionCommitmentResources",
+		"@cdktn/provider-google-beta.googleComputeRegionCommitment.GoogleComputeRegionCommitmentResources",
 		reflect.TypeOf((*GoogleComputeRegionCommitmentResources)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleComputeRegionCommitment.GoogleComputeRegionCommitmentResourcesList",
+		"@cdktn/provider-google-beta.googleComputeRegionCommitment.GoogleComputeRegionCommitmentResourcesList",
 		reflect.TypeOf((*GoogleComputeRegionCommitmentResourcesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -184,7 +184,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleComputeRegionCommitment.GoogleComputeRegionCommitmentResourcesOutputReference",
+		"@cdktn/provider-google-beta.googleComputeRegionCommitment.GoogleComputeRegionCommitmentResourcesOutputReference",
 		reflect.TypeOf((*GoogleComputeRegionCommitmentResourcesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "acceleratorType", GoGetter: "AcceleratorType"},
@@ -225,11 +225,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleComputeRegionCommitment.GoogleComputeRegionCommitmentTimeouts",
+		"@cdktn/provider-google-beta.googleComputeRegionCommitment.GoogleComputeRegionCommitmentTimeouts",
 		reflect.TypeOf((*GoogleComputeRegionCommitmentTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleComputeRegionCommitment.GoogleComputeRegionCommitmentTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleComputeRegionCommitment.GoogleComputeRegionCommitmentTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleComputeRegionCommitmentTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

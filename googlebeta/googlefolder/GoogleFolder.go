@@ -1,14 +1,14 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlefolder
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googlefolder/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlefolder/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -504,7 +504,7 @@ func NewGoogleFolder(scope constructs.Construct, id *string, config *GoogleFolde
 	j := jsiiProxy_GoogleFolder{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleFolder.GoogleFolder",
+		"@cdktn/provider-google-beta.googleFolder.GoogleFolder",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -517,7 +517,7 @@ func NewGoogleFolder_Override(g GoogleFolder, scope constructs.Construct, id *st
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleFolder.GoogleFolder",
+		"@cdktn/provider-google-beta.googleFolder.GoogleFolder",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -656,7 +656,7 @@ func GoogleFolder_GenerateConfigForImport(scope constructs.Construct, importToId
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleFolder.GoogleFolder",
+		"@cdktn/provider-google-beta.googleFolder.GoogleFolder",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -691,7 +691,7 @@ func GoogleFolder_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleFolder.GoogleFolder",
+		"@cdktn/provider-google-beta.googleFolder.GoogleFolder",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -710,7 +710,7 @@ func GoogleFolder_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleFolder.GoogleFolder",
+		"@cdktn/provider-google-beta.googleFolder.GoogleFolder",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -729,7 +729,7 @@ func GoogleFolder_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-google-beta.googleFolder.GoogleFolder",
+		"@cdktn/provider-google-beta.googleFolder.GoogleFolder",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -742,7 +742,7 @@ func GoogleFolder_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-google-beta.googleFolder.GoogleFolder",
+		"@cdktn/provider-google-beta.googleFolder.GoogleFolder",
 		"tfResourceType",
 		&returns,
 	)

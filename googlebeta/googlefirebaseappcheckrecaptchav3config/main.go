@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlefirebaseappcheckrecaptchav3config
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleFirebaseAppCheckRecaptchaV3Config.GoogleFirebaseAppCheckRecaptchaV3Config",
+		"@cdktn/provider-google-beta.googleFirebaseAppCheckRecaptchaV3Config.GoogleFirebaseAppCheckRecaptchaV3Config",
 		reflect.TypeOf((*GoogleFirebaseAppCheckRecaptchaV3Config)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -82,15 +82,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleFirebaseAppCheckRecaptchaV3Config.GoogleFirebaseAppCheckRecaptchaV3ConfigConfig",
+		"@cdktn/provider-google-beta.googleFirebaseAppCheckRecaptchaV3Config.GoogleFirebaseAppCheckRecaptchaV3ConfigConfig",
 		reflect.TypeOf((*GoogleFirebaseAppCheckRecaptchaV3ConfigConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleFirebaseAppCheckRecaptchaV3Config.GoogleFirebaseAppCheckRecaptchaV3ConfigTimeouts",
+		"@cdktn/provider-google-beta.googleFirebaseAppCheckRecaptchaV3Config.GoogleFirebaseAppCheckRecaptchaV3ConfigTimeouts",
 		reflect.TypeOf((*GoogleFirebaseAppCheckRecaptchaV3ConfigTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleFirebaseAppCheckRecaptchaV3Config.GoogleFirebaseAppCheckRecaptchaV3ConfigTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleFirebaseAppCheckRecaptchaV3Config.GoogleFirebaseAppCheckRecaptchaV3ConfigTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleFirebaseAppCheckRecaptchaV3ConfigTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

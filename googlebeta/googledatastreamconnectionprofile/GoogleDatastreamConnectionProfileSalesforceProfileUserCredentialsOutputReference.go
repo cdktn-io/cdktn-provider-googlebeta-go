@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googledatastreamconnectionprofile
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
 
-	"github.com/cdktf/cdktf-provider-googlebeta-go/googlebeta/v16/googledatastreamconnectionprofile/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googledatastreamconnectionprofile/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -78,7 +78,7 @@ type GoogleDatastreamConnectionProfileSalesforceProfileUserCredentialsOutputRefe
 	// Experimental.
 	InterpolationAsList() cdktf.IResolvable
 	// Experimental.
-	InterpolationForAttribute(property *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
 	ResetPassword()
 	ResetSecretManagerStoredPassword()
 	ResetSecretManagerStoredSecurityToken()
@@ -86,7 +86,7 @@ type GoogleDatastreamConnectionProfileSalesforceProfileUserCredentialsOutputRefe
 	ResetUsername()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(_context cdktf.IResolveContext) interface{}
+	Resolve(context cdktf.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -279,7 +279,7 @@ func NewGoogleDatastreamConnectionProfileSalesforceProfileUserCredentialsOutputR
 	j := jsiiProxy_GoogleDatastreamConnectionProfileSalesforceProfileUserCredentialsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleDatastreamConnectionProfile.GoogleDatastreamConnectionProfileSalesforceProfileUserCredentialsOutputReference",
+		"@cdktn/provider-google-beta.googleDatastreamConnectionProfile.GoogleDatastreamConnectionProfileSalesforceProfileUserCredentialsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -291,7 +291,7 @@ func NewGoogleDatastreamConnectionProfileSalesforceProfileUserCredentialsOutputR
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-google-beta.googleDatastreamConnectionProfile.GoogleDatastreamConnectionProfileSalesforceProfileUserCredentialsOutputReference",
+		"@cdktn/provider-google-beta.googleDatastreamConnectionProfile.GoogleDatastreamConnectionProfileSalesforceProfileUserCredentialsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		g,
 	)
@@ -577,8 +577,8 @@ func (g *jsiiProxy_GoogleDatastreamConnectionProfileSalesforceProfileUserCredent
 	return returns
 }
 
-func (g *jsiiProxy_GoogleDatastreamConnectionProfileSalesforceProfileUserCredentialsOutputReference) InterpolationForAttribute(property *string) cdktf.IResolvable {
-	if err := g.validateInterpolationForAttributeParameters(property); err != nil {
+func (g *jsiiProxy_GoogleDatastreamConnectionProfileSalesforceProfileUserCredentialsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
 	var returns cdktf.IResolvable
@@ -586,7 +586,7 @@ func (g *jsiiProxy_GoogleDatastreamConnectionProfileSalesforceProfileUserCredent
 	_jsii_.Invoke(
 		g,
 		"interpolationForAttribute",
-		[]interface{}{property},
+		[]interface{}{terraformAttribute},
 		&returns,
 	)
 
@@ -633,8 +633,8 @@ func (g *jsiiProxy_GoogleDatastreamConnectionProfileSalesforceProfileUserCredent
 	)
 }
 
-func (g *jsiiProxy_GoogleDatastreamConnectionProfileSalesforceProfileUserCredentialsOutputReference) Resolve(_context cdktf.IResolveContext) interface{} {
-	if err := g.validateResolveParameters(_context); err != nil {
+func (g *jsiiProxy_GoogleDatastreamConnectionProfileSalesforceProfileUserCredentialsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}
 	var returns interface{}
@@ -642,7 +642,7 @@ func (g *jsiiProxy_GoogleDatastreamConnectionProfileSalesforceProfileUserCredent
 	_jsii_.Invoke(
 		g,
 		"resolve",
-		[]interface{}{_context},
+		[]interface{}{context},
 		&returns,
 	)
 

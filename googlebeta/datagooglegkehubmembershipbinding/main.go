@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datagooglegkehubmembershipbinding
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleGkeHubMembershipBinding.DataGoogleGkeHubMembershipBinding",
+		"@cdktn/provider-google-beta.dataGoogleGkeHubMembershipBinding.DataGoogleGkeHubMembershipBinding",
 		reflect.TypeOf((*DataGoogleGkeHubMembershipBinding)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -77,15 +77,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleGkeHubMembershipBinding.DataGoogleGkeHubMembershipBindingConfig",
+		"@cdktn/provider-google-beta.dataGoogleGkeHubMembershipBinding.DataGoogleGkeHubMembershipBindingConfig",
 		reflect.TypeOf((*DataGoogleGkeHubMembershipBindingConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.dataGoogleGkeHubMembershipBinding.DataGoogleGkeHubMembershipBindingState",
+		"@cdktn/provider-google-beta.dataGoogleGkeHubMembershipBinding.DataGoogleGkeHubMembershipBindingState",
 		reflect.TypeOf((*DataGoogleGkeHubMembershipBindingState)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleGkeHubMembershipBinding.DataGoogleGkeHubMembershipBindingStateList",
+		"@cdktn/provider-google-beta.dataGoogleGkeHubMembershipBinding.DataGoogleGkeHubMembershipBindingStateList",
 		reflect.TypeOf((*DataGoogleGkeHubMembershipBindingStateList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -106,7 +106,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.dataGoogleGkeHubMembershipBinding.DataGoogleGkeHubMembershipBindingStateOutputReference",
+		"@cdktn/provider-google-beta.dataGoogleGkeHubMembershipBinding.DataGoogleGkeHubMembershipBindingStateOutputReference",
 		reflect.TypeOf((*DataGoogleGkeHubMembershipBindingStateOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "code", GoGetter: "Code"},

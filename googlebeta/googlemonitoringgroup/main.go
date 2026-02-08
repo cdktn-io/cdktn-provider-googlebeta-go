@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlemonitoringgroup
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleMonitoringGroup.GoogleMonitoringGroup",
+		"@cdktn/provider-google-beta.googleMonitoringGroup.GoogleMonitoringGroup",
 		reflect.TypeOf((*GoogleMonitoringGroup)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -84,15 +84,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleMonitoringGroup.GoogleMonitoringGroupConfig",
+		"@cdktn/provider-google-beta.googleMonitoringGroup.GoogleMonitoringGroupConfig",
 		reflect.TypeOf((*GoogleMonitoringGroupConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleMonitoringGroup.GoogleMonitoringGroupTimeouts",
+		"@cdktn/provider-google-beta.googleMonitoringGroup.GoogleMonitoringGroupTimeouts",
 		reflect.TypeOf((*GoogleMonitoringGroupTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleMonitoringGroup.GoogleMonitoringGroupTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleMonitoringGroup.GoogleMonitoringGroupTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleMonitoringGroupTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

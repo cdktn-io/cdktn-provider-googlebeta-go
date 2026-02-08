@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package googlenetappkmsconfig
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleNetappKmsconfig.GoogleNetappKmsconfig",
+		"@cdktn/provider-google-beta.googleNetappKmsconfig.GoogleNetappKmsconfig",
 		reflect.TypeOf((*GoogleNetappKmsconfig)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -89,15 +89,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleNetappKmsconfig.GoogleNetappKmsconfigConfig",
+		"@cdktn/provider-google-beta.googleNetappKmsconfig.GoogleNetappKmsconfigConfig",
 		reflect.TypeOf((*GoogleNetappKmsconfigConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-google-beta.googleNetappKmsconfig.GoogleNetappKmsconfigTimeouts",
+		"@cdktn/provider-google-beta.googleNetappKmsconfig.GoogleNetappKmsconfigTimeouts",
 		reflect.TypeOf((*GoogleNetappKmsconfigTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-google-beta.googleNetappKmsconfig.GoogleNetappKmsconfigTimeoutsOutputReference",
+		"@cdktn/provider-google-beta.googleNetappKmsconfig.GoogleNetappKmsconfigTimeoutsOutputReference",
 		reflect.TypeOf((*GoogleNetappKmsconfigTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
