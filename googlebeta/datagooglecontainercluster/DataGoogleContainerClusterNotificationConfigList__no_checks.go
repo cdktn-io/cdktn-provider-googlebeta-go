@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataGoogleContainerClusterNotificationConfigList) validateGet
 	return nil
 }
 
-func (d *jsiiProxy_DataGoogleContainerClusterNotificationConfigList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataGoogleContainerClusterNotificationConfigList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataGoogleContainerClusterNotificationConfigList) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleContainerClusterNotificationConfigList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataGoogleContainerClusterNotificationConfigList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataGoogleContainerClusterNotificationConfigList) validateSet
 	return nil
 }
 
-func validateNewDataGoogleContainerClusterNotificationConfigListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataGoogleContainerClusterNotificationConfigListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

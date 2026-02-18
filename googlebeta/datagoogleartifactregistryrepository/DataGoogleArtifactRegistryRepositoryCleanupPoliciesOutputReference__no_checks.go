@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataGoogleArtifactRegistryRepositoryCleanupPoliciesOutputRefe
 	return nil
 }
 
-func (d *jsiiProxy_DataGoogleArtifactRegistryRepositoryCleanupPoliciesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataGoogleArtifactRegistryRepositoryCleanupPoliciesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataGoogleArtifactRegistryRepositoryCleanupPoliciesOutputRefe
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleArtifactRegistryRepositoryCleanupPoliciesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataGoogleArtifactRegistryRepositoryCleanupPoliciesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataGoogleArtifactRegistryRepositoryCleanupPoliciesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataGoogleArtifactRegistryRepositoryCleanupPoliciesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

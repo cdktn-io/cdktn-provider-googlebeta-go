@@ -15,7 +15,7 @@ func (g *jsiiProxy_GoogleDataplexEntryAspectsList) validateGetParameters(index *
 	return nil
 }
 
-func (g *jsiiProxy_GoogleDataplexEntryAspectsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleDataplexEntryAspectsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_GoogleDataplexEntryAspectsList) validateSetTerraformAttribute
 	return nil
 }
 
-func (j *jsiiProxy_GoogleDataplexEntryAspectsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleDataplexEntryAspectsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_GoogleDataplexEntryAspectsList) validateSetWrapsSetParameters
 	return nil
 }
 
-func validateNewGoogleDataplexEntryAspectsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGoogleDataplexEntryAspectsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

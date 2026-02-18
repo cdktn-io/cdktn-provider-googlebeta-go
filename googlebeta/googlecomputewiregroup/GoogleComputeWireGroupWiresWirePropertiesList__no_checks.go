@@ -15,7 +15,7 @@ func (g *jsiiProxy_GoogleComputeWireGroupWiresWirePropertiesList) validateGetPar
 	return nil
 }
 
-func (g *jsiiProxy_GoogleComputeWireGroupWiresWirePropertiesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleComputeWireGroupWiresWirePropertiesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_GoogleComputeWireGroupWiresWirePropertiesList) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_GoogleComputeWireGroupWiresWirePropertiesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleComputeWireGroupWiresWirePropertiesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_GoogleComputeWireGroupWiresWirePropertiesList) validateSetWra
 	return nil
 }
 
-func validateNewGoogleComputeWireGroupWiresWirePropertiesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGoogleComputeWireGroupWiresWirePropertiesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

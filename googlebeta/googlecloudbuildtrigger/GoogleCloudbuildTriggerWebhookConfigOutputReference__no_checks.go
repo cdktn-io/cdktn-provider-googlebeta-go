@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleCloudbuildTriggerWebhookConfigOutputReference) validate
 	return nil
 }
 
-func (g *jsiiProxy_GoogleCloudbuildTriggerWebhookConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleCloudbuildTriggerWebhookConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_GoogleCloudbuildTriggerWebhookConfigOutputReference) validate
 	return nil
 }
 
-func (j *jsiiProxy_GoogleCloudbuildTriggerWebhookConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleCloudbuildTriggerWebhookConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleCloudbuildTriggerWebhookConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleCloudbuildTriggerWebhookConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

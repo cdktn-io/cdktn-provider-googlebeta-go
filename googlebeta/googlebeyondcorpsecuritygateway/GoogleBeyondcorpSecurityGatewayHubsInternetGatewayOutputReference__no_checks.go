@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleBeyondcorpSecurityGatewayHubsInternetGatewayOutputRefer
 	return nil
 }
 
-func (g *jsiiProxy_GoogleBeyondcorpSecurityGatewayHubsInternetGatewayOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleBeyondcorpSecurityGatewayHubsInternetGatewayOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_GoogleBeyondcorpSecurityGatewayHubsInternetGatewayOutputRefer
 	return nil
 }
 
-func (j *jsiiProxy_GoogleBeyondcorpSecurityGatewayHubsInternetGatewayOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleBeyondcorpSecurityGatewayHubsInternetGatewayOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleBeyondcorpSecurityGatewayHubsInternetGatewayOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleBeyondcorpSecurityGatewayHubsInternetGatewayOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

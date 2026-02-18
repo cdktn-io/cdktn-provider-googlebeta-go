@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleContainerAzureClusterControlPlaneReplicaPlacementsOutpu
 	return nil
 }
 
-func (g *jsiiProxy_GoogleContainerAzureClusterControlPlaneReplicaPlacementsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleContainerAzureClusterControlPlaneReplicaPlacementsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_GoogleContainerAzureClusterControlPlaneReplicaPlacementsOutpu
 	return nil
 }
 
-func (j *jsiiProxy_GoogleContainerAzureClusterControlPlaneReplicaPlacementsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleContainerAzureClusterControlPlaneReplicaPlacementsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleContainerAzureClusterControlPlaneReplicaPlacementsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewGoogleContainerAzureClusterControlPlaneReplicaPlacementsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

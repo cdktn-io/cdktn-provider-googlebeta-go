@@ -115,7 +115,7 @@ func (j *jsiiProxy_GoogleIamWorkforcePoolProviderKey) validateSetKeyIdParameters
 	return nil
 }
 
-func (j *jsiiProxy_GoogleIamWorkforcePoolProviderKey) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleIamWorkforcePoolProviderKey) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

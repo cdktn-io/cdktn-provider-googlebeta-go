@@ -115,7 +115,7 @@ func (j *jsiiProxy_GoogleSqlSslCert) validateSetInstanceParameters(val *string) 
 	return nil
 }
 
-func (j *jsiiProxy_GoogleSqlSslCert) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleSqlSslCert) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleDataprocMetastoreServiceEncryptionConfigOutputReference
 	return nil
 }
 
-func (g *jsiiProxy_GoogleDataprocMetastoreServiceEncryptionConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleDataprocMetastoreServiceEncryptionConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_GoogleDataprocMetastoreServiceEncryptionConfigOutputReference
 	return nil
 }
 
-func (j *jsiiProxy_GoogleDataprocMetastoreServiceEncryptionConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleDataprocMetastoreServiceEncryptionConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleDataprocMetastoreServiceEncryptionConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleDataprocMetastoreServiceEncryptionConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

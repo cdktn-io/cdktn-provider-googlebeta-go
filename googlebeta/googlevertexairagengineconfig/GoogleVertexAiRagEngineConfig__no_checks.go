@@ -111,7 +111,7 @@ func (j *jsiiProxy_GoogleVertexAiRagEngineConfig) validateSetIdParameters(val *s
 	return nil
 }
 
-func (j *jsiiProxy_GoogleVertexAiRagEngineConfig) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleVertexAiRagEngineConfig) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

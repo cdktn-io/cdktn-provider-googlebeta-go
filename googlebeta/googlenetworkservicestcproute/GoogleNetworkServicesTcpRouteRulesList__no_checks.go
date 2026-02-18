@@ -15,7 +15,7 @@ func (g *jsiiProxy_GoogleNetworkServicesTcpRouteRulesList) validateGetParameters
 	return nil
 }
 
-func (g *jsiiProxy_GoogleNetworkServicesTcpRouteRulesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleNetworkServicesTcpRouteRulesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_GoogleNetworkServicesTcpRouteRulesList) validateSetTerraformA
 	return nil
 }
 
-func (j *jsiiProxy_GoogleNetworkServicesTcpRouteRulesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleNetworkServicesTcpRouteRulesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_GoogleNetworkServicesTcpRouteRulesList) validateSetWrapsSetPa
 	return nil
 }
 
-func validateNewGoogleNetworkServicesTcpRouteRulesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGoogleNetworkServicesTcpRouteRulesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

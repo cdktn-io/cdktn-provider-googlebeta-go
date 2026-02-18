@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleComputeRegionResizeRequestStatusErrorErrorsErrorDetails
 	return nil
 }
 
-func (g *jsiiProxy_GoogleComputeRegionResizeRequestStatusErrorErrorsErrorDetailsHelpOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleComputeRegionResizeRequestStatusErrorErrorsErrorDetailsHelpOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_GoogleComputeRegionResizeRequestStatusErrorErrorsErrorDetails
 	return nil
 }
 
-func (j *jsiiProxy_GoogleComputeRegionResizeRequestStatusErrorErrorsErrorDetailsHelpOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleComputeRegionResizeRequestStatusErrorErrorsErrorDetailsHelpOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleComputeRegionResizeRequestStatusErrorErrorsErrorDetailsHelpOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewGoogleComputeRegionResizeRequestStatusErrorErrorsErrorDetailsHelpOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

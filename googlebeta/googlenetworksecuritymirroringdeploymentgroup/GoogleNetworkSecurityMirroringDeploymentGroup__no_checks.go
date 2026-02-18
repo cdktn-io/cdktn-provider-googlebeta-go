@@ -115,7 +115,7 @@ func (j *jsiiProxy_GoogleNetworkSecurityMirroringDeploymentGroup) validateSetLab
 	return nil
 }
 
-func (j *jsiiProxy_GoogleNetworkSecurityMirroringDeploymentGroup) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleNetworkSecurityMirroringDeploymentGroup) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

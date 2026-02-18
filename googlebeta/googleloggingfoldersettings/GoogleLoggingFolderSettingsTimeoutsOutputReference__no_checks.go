@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleLoggingFolderSettingsTimeoutsOutputReference) validateI
 	return nil
 }
 
-func (g *jsiiProxy_GoogleLoggingFolderSettingsTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleLoggingFolderSettingsTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_GoogleLoggingFolderSettingsTimeoutsOutputReference) validateS
 	return nil
 }
 
-func (j *jsiiProxy_GoogleLoggingFolderSettingsTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleLoggingFolderSettingsTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_GoogleLoggingFolderSettingsTimeoutsOutputReference) validateS
 	return nil
 }
 
-func validateNewGoogleLoggingFolderSettingsTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleLoggingFolderSettingsTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

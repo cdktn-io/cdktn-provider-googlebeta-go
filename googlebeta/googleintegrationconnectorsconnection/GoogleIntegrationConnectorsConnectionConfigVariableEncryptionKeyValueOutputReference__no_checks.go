@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleIntegrationConnectorsConnectionConfigVariableEncryption
 	return nil
 }
 
-func (g *jsiiProxy_GoogleIntegrationConnectorsConnectionConfigVariableEncryptionKeyValueOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleIntegrationConnectorsConnectionConfigVariableEncryptionKeyValueOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_GoogleIntegrationConnectorsConnectionConfigVariableEncryption
 	return nil
 }
 
-func (j *jsiiProxy_GoogleIntegrationConnectorsConnectionConfigVariableEncryptionKeyValueOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleIntegrationConnectorsConnectionConfigVariableEncryptionKeyValueOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_GoogleIntegrationConnectorsConnectionConfigVariableEncryption
 	return nil
 }
 
-func validateNewGoogleIntegrationConnectorsConnectionConfigVariableEncryptionKeyValueOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleIntegrationConnectorsConnectionConfigVariableEncryptionKeyValueOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

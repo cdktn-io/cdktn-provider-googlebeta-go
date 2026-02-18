@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataGoogleContainerClusterConfidentialNodesList) validateGetP
 	return nil
 }
 
-func (d *jsiiProxy_DataGoogleContainerClusterConfidentialNodesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataGoogleContainerClusterConfidentialNodesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataGoogleContainerClusterConfidentialNodesList) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleContainerClusterConfidentialNodesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataGoogleContainerClusterConfidentialNodesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataGoogleContainerClusterConfidentialNodesList) validateSetW
 	return nil
 }
 
-func validateNewDataGoogleContainerClusterConfidentialNodesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataGoogleContainerClusterConfidentialNodesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

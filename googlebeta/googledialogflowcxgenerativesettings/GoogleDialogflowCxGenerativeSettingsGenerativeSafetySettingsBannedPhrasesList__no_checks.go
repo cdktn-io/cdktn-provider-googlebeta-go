@@ -15,7 +15,7 @@ func (g *jsiiProxy_GoogleDialogflowCxGenerativeSettingsGenerativeSafetySettingsB
 	return nil
 }
 
-func (g *jsiiProxy_GoogleDialogflowCxGenerativeSettingsGenerativeSafetySettingsBannedPhrasesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleDialogflowCxGenerativeSettingsGenerativeSafetySettingsBannedPhrasesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_GoogleDialogflowCxGenerativeSettingsGenerativeSafetySettingsB
 	return nil
 }
 
-func (j *jsiiProxy_GoogleDialogflowCxGenerativeSettingsGenerativeSafetySettingsBannedPhrasesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleDialogflowCxGenerativeSettingsGenerativeSafetySettingsBannedPhrasesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_GoogleDialogflowCxGenerativeSettingsGenerativeSafetySettingsB
 	return nil
 }
 
-func validateNewGoogleDialogflowCxGenerativeSettingsGenerativeSafetySettingsBannedPhrasesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGoogleDialogflowCxGenerativeSettingsGenerativeSafetySettingsBannedPhrasesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

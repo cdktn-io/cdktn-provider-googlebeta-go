@@ -111,7 +111,7 @@ func (j *jsiiProxy_GoogleVertexAiEndpointIamBinding) validateSetIdParameters(val
 	return nil
 }
 
-func (j *jsiiProxy_GoogleVertexAiEndpointIamBinding) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleVertexAiEndpointIamBinding) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

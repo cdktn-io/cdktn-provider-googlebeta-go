@@ -5,18 +5,18 @@ package googleiamworkloadidentitypooliammember
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleiamworkloadidentitypooliammember/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleiamworkloadidentitypooliammember/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iam_workload_identity_pool_iam_member google_iam_workload_identity_pool_iam_member}.
 type GoogleIamWorkloadIdentityPoolIamMember interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	Condition() GoogleIamWorkloadIdentityPoolIamMemberConditionOutputReference
 	ConditionInput() *GoogleIamWorkloadIdentityPoolIamMemberCondition
 	// Experimental.
@@ -35,9 +35,9 @@ type GoogleIamWorkloadIdentityPoolIamMember interface {
 	SetDependsOn(val *[]*string)
 	Etag() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -46,9 +46,9 @@ type GoogleIamWorkloadIdentityPoolIamMember interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Member() *string
 	SetMember(val *string)
 	MemberInput() *string
@@ -58,9 +58,9 @@ type GoogleIamWorkloadIdentityPoolIamMember interface {
 	SetProject(val *string)
 	ProjectInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -71,7 +71,7 @@ type GoogleIamWorkloadIdentityPoolIamMember interface {
 	SetRole(val *string)
 	RoleInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -87,7 +87,7 @@ type GoogleIamWorkloadIdentityPoolIamMember interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -105,9 +105,9 @@ type GoogleIamWorkloadIdentityPoolIamMember interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -144,11 +144,11 @@ type GoogleIamWorkloadIdentityPoolIamMember interface {
 
 // The jsii proxy struct for GoogleIamWorkloadIdentityPoolIamMember
 type jsiiProxy_GoogleIamWorkloadIdentityPoolIamMember struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
-func (j *jsiiProxy_GoogleIamWorkloadIdentityPoolIamMember) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_GoogleIamWorkloadIdentityPoolIamMember) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -227,8 +227,8 @@ func (j *jsiiProxy_GoogleIamWorkloadIdentityPoolIamMember) Etag() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleIamWorkloadIdentityPoolIamMember) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_GoogleIamWorkloadIdentityPoolIamMember) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -277,8 +277,8 @@ func (j *jsiiProxy_GoogleIamWorkloadIdentityPoolIamMember) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleIamWorkloadIdentityPoolIamMember) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_GoogleIamWorkloadIdentityPoolIamMember) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -337,8 +337,8 @@ func (j *jsiiProxy_GoogleIamWorkloadIdentityPoolIamMember) ProjectInput() *strin
 	return returns
 }
 
-func (j *jsiiProxy_GoogleIamWorkloadIdentityPoolIamMember) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_GoogleIamWorkloadIdentityPoolIamMember) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -387,8 +387,8 @@ func (j *jsiiProxy_GoogleIamWorkloadIdentityPoolIamMember) RoleInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleIamWorkloadIdentityPoolIamMember) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_GoogleIamWorkloadIdentityPoolIamMember) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -497,7 +497,7 @@ func (j *jsiiProxy_GoogleIamWorkloadIdentityPoolIamMember)SetDependsOn(val *[]*s
 	)
 }
 
-func (j *jsiiProxy_GoogleIamWorkloadIdentityPoolIamMember)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_GoogleIamWorkloadIdentityPoolIamMember)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -516,7 +516,7 @@ func (j *jsiiProxy_GoogleIamWorkloadIdentityPoolIamMember)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_GoogleIamWorkloadIdentityPoolIamMember)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_GoogleIamWorkloadIdentityPoolIamMember)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -549,7 +549,7 @@ func (j *jsiiProxy_GoogleIamWorkloadIdentityPoolIamMember)SetProject(val *string
 	)
 }
 
-func (j *jsiiProxy_GoogleIamWorkloadIdentityPoolIamMember)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_GoogleIamWorkloadIdentityPoolIamMember)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -590,14 +590,14 @@ func (j *jsiiProxy_GoogleIamWorkloadIdentityPoolIamMember)SetWorkloadIdentityPoo
 	)
 }
 
-// Generates CDKTF code for importing a GoogleIamWorkloadIdentityPoolIamMember resource upon running "cdktf plan <stack-name>".
-func GoogleIamWorkloadIdentityPoolIamMember_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a GoogleIamWorkloadIdentityPoolIamMember resource upon running "cdktn plan <stack-name>".
+func GoogleIamWorkloadIdentityPoolIamMember_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateGoogleIamWorkloadIdentityPoolIamMember_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google-beta.googleIamWorkloadIdentityPoolIamMember.GoogleIamWorkloadIdentityPoolIamMember",
@@ -731,11 +731,11 @@ func (g *jsiiProxy_GoogleIamWorkloadIdentityPoolIamMember) GetAnyMapAttribute(te
 	return returns
 }
 
-func (g *jsiiProxy_GoogleIamWorkloadIdentityPoolIamMember) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleIamWorkloadIdentityPoolIamMember) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -872,7 +872,7 @@ func (g *jsiiProxy_GoogleIamWorkloadIdentityPoolIamMember) HasResourceMove() int
 	return returns
 }
 
-func (g *jsiiProxy_GoogleIamWorkloadIdentityPoolIamMember) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (g *jsiiProxy_GoogleIamWorkloadIdentityPoolIamMember) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := g.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -883,11 +883,11 @@ func (g *jsiiProxy_GoogleIamWorkloadIdentityPoolIamMember) ImportFrom(id *string
 	)
 }
 
-func (g *jsiiProxy_GoogleIamWorkloadIdentityPoolIamMember) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleIamWorkloadIdentityPoolIamMember) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,

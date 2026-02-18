@@ -5,14 +5,14 @@ package googlefilestoreinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlefilestoreinstance/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlefilestoreinstance/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type GoogleFilestoreInstanceFileSharesOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	CapacityGb() *float64
 	SetCapacityGb(val *float64)
 	CapacityGbInput() *float64
@@ -48,15 +48,15 @@ type GoogleFilestoreInstanceFileSharesOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -72,15 +72,15 @@ type GoogleFilestoreInstanceFileSharesOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutNfsExportOptions(value interface{})
 	ResetNfsExportOptions()
 	ResetSourceBackup()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -90,7 +90,7 @@ type GoogleFilestoreInstanceFileSharesOutputReference interface {
 
 // The jsii proxy struct for GoogleFilestoreInstanceFileSharesOutputReference
 type jsiiProxy_GoogleFilestoreInstanceFileSharesOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_GoogleFilestoreInstanceFileSharesOutputReference) CapacityGb() *float64 {
@@ -233,8 +233,8 @@ func (j *jsiiProxy_GoogleFilestoreInstanceFileSharesOutputReference) TerraformAt
 	return returns
 }
 
-func (j *jsiiProxy_GoogleFilestoreInstanceFileSharesOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_GoogleFilestoreInstanceFileSharesOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -244,7 +244,7 @@ func (j *jsiiProxy_GoogleFilestoreInstanceFileSharesOutputReference) TerraformRe
 }
 
 
-func NewGoogleFilestoreInstanceFileSharesOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) GoogleFilestoreInstanceFileSharesOutputReference {
+func NewGoogleFilestoreInstanceFileSharesOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) GoogleFilestoreInstanceFileSharesOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewGoogleFilestoreInstanceFileSharesOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -261,7 +261,7 @@ func NewGoogleFilestoreInstanceFileSharesOutputReference(terraformResource cdktf
 	return &j
 }
 
-func NewGoogleFilestoreInstanceFileSharesOutputReference_Override(g GoogleFilestoreInstanceFileSharesOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewGoogleFilestoreInstanceFileSharesOutputReference_Override(g GoogleFilestoreInstanceFileSharesOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -348,7 +348,7 @@ func (j *jsiiProxy_GoogleFilestoreInstanceFileSharesOutputReference)SetTerraform
 	)
 }
 
-func (j *jsiiProxy_GoogleFilestoreInstanceFileSharesOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_GoogleFilestoreInstanceFileSharesOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -388,11 +388,11 @@ func (g *jsiiProxy_GoogleFilestoreInstanceFileSharesOutputReference) GetAnyMapAt
 	return returns
 }
 
-func (g *jsiiProxy_GoogleFilestoreInstanceFileSharesOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleFilestoreInstanceFileSharesOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -516,8 +516,8 @@ func (g *jsiiProxy_GoogleFilestoreInstanceFileSharesOutputReference) GetStringMa
 	return returns
 }
 
-func (g *jsiiProxy_GoogleFilestoreInstanceFileSharesOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (g *jsiiProxy_GoogleFilestoreInstanceFileSharesOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -529,11 +529,11 @@ func (g *jsiiProxy_GoogleFilestoreInstanceFileSharesOutputReference) Interpolati
 	return returns
 }
 
-func (g *jsiiProxy_GoogleFilestoreInstanceFileSharesOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleFilestoreInstanceFileSharesOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -572,7 +572,7 @@ func (g *jsiiProxy_GoogleFilestoreInstanceFileSharesOutputReference) ResetSource
 	)
 }
 
-func (g *jsiiProxy_GoogleFilestoreInstanceFileSharesOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (g *jsiiProxy_GoogleFilestoreInstanceFileSharesOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

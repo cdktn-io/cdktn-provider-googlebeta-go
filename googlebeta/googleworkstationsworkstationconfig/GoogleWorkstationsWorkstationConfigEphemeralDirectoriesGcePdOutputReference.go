@@ -5,14 +5,14 @@ package googleworkstationsworkstationconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleworkstationsworkstationconfig/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleworkstationsworkstationconfig/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type GoogleWorkstationsWorkstationConfigEphemeralDirectoriesGcePdOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -49,15 +49,15 @@ type GoogleWorkstationsWorkstationConfigEphemeralDirectoriesGcePdOutputReference
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -73,16 +73,16 @@ type GoogleWorkstationsWorkstationConfigEphemeralDirectoriesGcePdOutputReference
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetDiskType()
 	ResetReadOnly()
 	ResetSourceImage()
 	ResetSourceSnapshot()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -92,7 +92,7 @@ type GoogleWorkstationsWorkstationConfigEphemeralDirectoriesGcePdOutputReference
 
 // The jsii proxy struct for GoogleWorkstationsWorkstationConfigEphemeralDirectoriesGcePdOutputReference
 type jsiiProxy_GoogleWorkstationsWorkstationConfigEphemeralDirectoriesGcePdOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_GoogleWorkstationsWorkstationConfigEphemeralDirectoriesGcePdOutputReference) ComplexObjectIndex() interface{} {
@@ -235,8 +235,8 @@ func (j *jsiiProxy_GoogleWorkstationsWorkstationConfigEphemeralDirectoriesGcePdO
 	return returns
 }
 
-func (j *jsiiProxy_GoogleWorkstationsWorkstationConfigEphemeralDirectoriesGcePdOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_GoogleWorkstationsWorkstationConfigEphemeralDirectoriesGcePdOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -246,7 +246,7 @@ func (j *jsiiProxy_GoogleWorkstationsWorkstationConfigEphemeralDirectoriesGcePdO
 }
 
 
-func NewGoogleWorkstationsWorkstationConfigEphemeralDirectoriesGcePdOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) GoogleWorkstationsWorkstationConfigEphemeralDirectoriesGcePdOutputReference {
+func NewGoogleWorkstationsWorkstationConfigEphemeralDirectoriesGcePdOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) GoogleWorkstationsWorkstationConfigEphemeralDirectoriesGcePdOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewGoogleWorkstationsWorkstationConfigEphemeralDirectoriesGcePdOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -263,7 +263,7 @@ func NewGoogleWorkstationsWorkstationConfigEphemeralDirectoriesGcePdOutputRefere
 	return &j
 }
 
-func NewGoogleWorkstationsWorkstationConfigEphemeralDirectoriesGcePdOutputReference_Override(g GoogleWorkstationsWorkstationConfigEphemeralDirectoriesGcePdOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewGoogleWorkstationsWorkstationConfigEphemeralDirectoriesGcePdOutputReference_Override(g GoogleWorkstationsWorkstationConfigEphemeralDirectoriesGcePdOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -361,7 +361,7 @@ func (j *jsiiProxy_GoogleWorkstationsWorkstationConfigEphemeralDirectoriesGcePdO
 	)
 }
 
-func (j *jsiiProxy_GoogleWorkstationsWorkstationConfigEphemeralDirectoriesGcePdOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_GoogleWorkstationsWorkstationConfigEphemeralDirectoriesGcePdOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -401,11 +401,11 @@ func (g *jsiiProxy_GoogleWorkstationsWorkstationConfigEphemeralDirectoriesGcePdO
 	return returns
 }
 
-func (g *jsiiProxy_GoogleWorkstationsWorkstationConfigEphemeralDirectoriesGcePdOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleWorkstationsWorkstationConfigEphemeralDirectoriesGcePdOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -529,8 +529,8 @@ func (g *jsiiProxy_GoogleWorkstationsWorkstationConfigEphemeralDirectoriesGcePdO
 	return returns
 }
 
-func (g *jsiiProxy_GoogleWorkstationsWorkstationConfigEphemeralDirectoriesGcePdOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (g *jsiiProxy_GoogleWorkstationsWorkstationConfigEphemeralDirectoriesGcePdOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -542,11 +542,11 @@ func (g *jsiiProxy_GoogleWorkstationsWorkstationConfigEphemeralDirectoriesGcePdO
 	return returns
 }
 
-func (g *jsiiProxy_GoogleWorkstationsWorkstationConfigEphemeralDirectoriesGcePdOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleWorkstationsWorkstationConfigEphemeralDirectoriesGcePdOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -590,7 +590,7 @@ func (g *jsiiProxy_GoogleWorkstationsWorkstationConfigEphemeralDirectoriesGcePdO
 	)
 }
 
-func (g *jsiiProxy_GoogleWorkstationsWorkstationConfigEphemeralDirectoriesGcePdOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (g *jsiiProxy_GoogleWorkstationsWorkstationConfigEphemeralDirectoriesGcePdOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

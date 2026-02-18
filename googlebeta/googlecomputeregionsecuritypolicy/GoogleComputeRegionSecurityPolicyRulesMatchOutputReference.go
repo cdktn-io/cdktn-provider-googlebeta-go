@@ -5,14 +5,14 @@ package googlecomputeregionsecuritypolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecomputeregionsecuritypolicy/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeregionsecuritypolicy/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type GoogleComputeRegionSecurityPolicyRulesMatchOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -41,9 +41,9 @@ type GoogleComputeRegionSecurityPolicyRulesMatchOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	VersionedExpr() *string
 	SetVersionedExpr(val *string)
 	VersionedExprInput() *string
@@ -52,7 +52,7 @@ type GoogleComputeRegionSecurityPolicyRulesMatchOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -68,9 +68,9 @@ type GoogleComputeRegionSecurityPolicyRulesMatchOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutConfig(value *GoogleComputeRegionSecurityPolicyRulesMatchConfig)
 	PutExpr(value *GoogleComputeRegionSecurityPolicyRulesMatchExpr)
 	ResetConfig()
@@ -78,7 +78,7 @@ type GoogleComputeRegionSecurityPolicyRulesMatchOutputReference interface {
 	ResetVersionedExpr()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -88,7 +88,7 @@ type GoogleComputeRegionSecurityPolicyRulesMatchOutputReference interface {
 
 // The jsii proxy struct for GoogleComputeRegionSecurityPolicyRulesMatchOutputReference
 type jsiiProxy_GoogleComputeRegionSecurityPolicyRulesMatchOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_GoogleComputeRegionSecurityPolicyRulesMatchOutputReference) ComplexObjectIndex() interface{} {
@@ -191,8 +191,8 @@ func (j *jsiiProxy_GoogleComputeRegionSecurityPolicyRulesMatchOutputReference) T
 	return returns
 }
 
-func (j *jsiiProxy_GoogleComputeRegionSecurityPolicyRulesMatchOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_GoogleComputeRegionSecurityPolicyRulesMatchOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -222,7 +222,7 @@ func (j *jsiiProxy_GoogleComputeRegionSecurityPolicyRulesMatchOutputReference) V
 }
 
 
-func NewGoogleComputeRegionSecurityPolicyRulesMatchOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) GoogleComputeRegionSecurityPolicyRulesMatchOutputReference {
+func NewGoogleComputeRegionSecurityPolicyRulesMatchOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) GoogleComputeRegionSecurityPolicyRulesMatchOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewGoogleComputeRegionSecurityPolicyRulesMatchOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -239,7 +239,7 @@ func NewGoogleComputeRegionSecurityPolicyRulesMatchOutputReference(terraformReso
 	return &j
 }
 
-func NewGoogleComputeRegionSecurityPolicyRulesMatchOutputReference_Override(g GoogleComputeRegionSecurityPolicyRulesMatchOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewGoogleComputeRegionSecurityPolicyRulesMatchOutputReference_Override(g GoogleComputeRegionSecurityPolicyRulesMatchOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -293,7 +293,7 @@ func (j *jsiiProxy_GoogleComputeRegionSecurityPolicyRulesMatchOutputReference)Se
 	)
 }
 
-func (j *jsiiProxy_GoogleComputeRegionSecurityPolicyRulesMatchOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_GoogleComputeRegionSecurityPolicyRulesMatchOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -344,11 +344,11 @@ func (g *jsiiProxy_GoogleComputeRegionSecurityPolicyRulesMatchOutputReference) G
 	return returns
 }
 
-func (g *jsiiProxy_GoogleComputeRegionSecurityPolicyRulesMatchOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleComputeRegionSecurityPolicyRulesMatchOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -472,8 +472,8 @@ func (g *jsiiProxy_GoogleComputeRegionSecurityPolicyRulesMatchOutputReference) G
 	return returns
 }
 
-func (g *jsiiProxy_GoogleComputeRegionSecurityPolicyRulesMatchOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (g *jsiiProxy_GoogleComputeRegionSecurityPolicyRulesMatchOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -485,11 +485,11 @@ func (g *jsiiProxy_GoogleComputeRegionSecurityPolicyRulesMatchOutputReference) I
 	return returns
 }
 
-func (g *jsiiProxy_GoogleComputeRegionSecurityPolicyRulesMatchOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleComputeRegionSecurityPolicyRulesMatchOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -547,7 +547,7 @@ func (g *jsiiProxy_GoogleComputeRegionSecurityPolicyRulesMatchOutputReference) R
 	)
 }
 
-func (g *jsiiProxy_GoogleComputeRegionSecurityPolicyRulesMatchOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (g *jsiiProxy_GoogleComputeRegionSecurityPolicyRulesMatchOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

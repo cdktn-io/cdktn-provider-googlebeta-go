@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleFirebaseAppCheckRecaptchaEnterpriseConfigTimeoutsOutput
 	return nil
 }
 
-func (g *jsiiProxy_GoogleFirebaseAppCheckRecaptchaEnterpriseConfigTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleFirebaseAppCheckRecaptchaEnterpriseConfigTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_GoogleFirebaseAppCheckRecaptchaEnterpriseConfigTimeoutsOutput
 	return nil
 }
 
-func (j *jsiiProxy_GoogleFirebaseAppCheckRecaptchaEnterpriseConfigTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleFirebaseAppCheckRecaptchaEnterpriseConfigTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_GoogleFirebaseAppCheckRecaptchaEnterpriseConfigTimeoutsOutput
 	return nil
 }
 
-func validateNewGoogleFirebaseAppCheckRecaptchaEnterpriseConfigTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleFirebaseAppCheckRecaptchaEnterpriseConfigTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

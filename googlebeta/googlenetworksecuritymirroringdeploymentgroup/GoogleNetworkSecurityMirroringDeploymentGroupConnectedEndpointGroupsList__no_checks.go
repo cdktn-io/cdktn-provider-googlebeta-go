@@ -15,7 +15,7 @@ func (g *jsiiProxy_GoogleNetworkSecurityMirroringDeploymentGroupConnectedEndpoin
 	return nil
 }
 
-func (g *jsiiProxy_GoogleNetworkSecurityMirroringDeploymentGroupConnectedEndpointGroupsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleNetworkSecurityMirroringDeploymentGroupConnectedEndpointGroupsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_GoogleNetworkSecurityMirroringDeploymentGroupConnectedEndpoin
 	return nil
 }
 
-func (j *jsiiProxy_GoogleNetworkSecurityMirroringDeploymentGroupConnectedEndpointGroupsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleNetworkSecurityMirroringDeploymentGroupConnectedEndpointGroupsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_GoogleNetworkSecurityMirroringDeploymentGroupConnectedEndpoin
 	return nil
 }
 
-func validateNewGoogleNetworkSecurityMirroringDeploymentGroupConnectedEndpointGroupsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGoogleNetworkSecurityMirroringDeploymentGroupConnectedEndpointGroupsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

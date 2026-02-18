@@ -119,7 +119,7 @@ func (j *jsiiProxy_GoogleNetworkSecurityInterceptEndpointGroupAssociation) valid
 	return nil
 }
 
-func (j *jsiiProxy_GoogleNetworkSecurityInterceptEndpointGroupAssociation) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleNetworkSecurityInterceptEndpointGroupAssociation) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -51,7 +51,7 @@ func (g *jsiiProxy_GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOutputR
 	return nil
 }
 
-func (g *jsiiProxy_GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOutputR
 	return nil
 }
 
-func (j *jsiiProxy_GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleDatastreamStreamBackfillAllOracleExcludedObjectsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleDatastreamStreamBackfillAllOracleExcludedObjectsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

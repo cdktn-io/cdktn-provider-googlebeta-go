@@ -15,7 +15,7 @@ func (g *jsiiProxy_GoogleBigqueryRoutineArgumentsList) validateGetParameters(ind
 	return nil
 }
 
-func (g *jsiiProxy_GoogleBigqueryRoutineArgumentsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleBigqueryRoutineArgumentsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_GoogleBigqueryRoutineArgumentsList) validateSetTerraformAttri
 	return nil
 }
 
-func (j *jsiiProxy_GoogleBigqueryRoutineArgumentsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleBigqueryRoutineArgumentsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_GoogleBigqueryRoutineArgumentsList) validateSetWrapsSetParame
 	return nil
 }
 
-func validateNewGoogleBigqueryRoutineArgumentsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGoogleBigqueryRoutineArgumentsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

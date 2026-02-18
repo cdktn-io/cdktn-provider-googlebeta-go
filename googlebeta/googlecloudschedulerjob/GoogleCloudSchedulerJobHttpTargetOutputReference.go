@@ -5,14 +5,14 @@ package googlecloudschedulerjob
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecloudschedulerjob/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecloudschedulerjob/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type GoogleCloudSchedulerJobHttpTargetOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	Body() *string
 	SetBody(val *string)
 	BodyInput() *string
@@ -50,9 +50,9 @@ type GoogleCloudSchedulerJobHttpTargetOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Uri() *string
 	SetUri(val *string)
 	UriInput() *string
@@ -61,7 +61,7 @@ type GoogleCloudSchedulerJobHttpTargetOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -77,9 +77,9 @@ type GoogleCloudSchedulerJobHttpTargetOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutOauthToken(value *GoogleCloudSchedulerJobHttpTargetOauthToken)
 	PutOidcToken(value *GoogleCloudSchedulerJobHttpTargetOidcToken)
 	ResetBody()
@@ -89,7 +89,7 @@ type GoogleCloudSchedulerJobHttpTargetOutputReference interface {
 	ResetOidcToken()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -99,7 +99,7 @@ type GoogleCloudSchedulerJobHttpTargetOutputReference interface {
 
 // The jsii proxy struct for GoogleCloudSchedulerJobHttpTargetOutputReference
 type jsiiProxy_GoogleCloudSchedulerJobHttpTargetOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_GoogleCloudSchedulerJobHttpTargetOutputReference) Body() *string {
@@ -262,8 +262,8 @@ func (j *jsiiProxy_GoogleCloudSchedulerJobHttpTargetOutputReference) TerraformAt
 	return returns
 }
 
-func (j *jsiiProxy_GoogleCloudSchedulerJobHttpTargetOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_GoogleCloudSchedulerJobHttpTargetOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -293,7 +293,7 @@ func (j *jsiiProxy_GoogleCloudSchedulerJobHttpTargetOutputReference) UriInput() 
 }
 
 
-func NewGoogleCloudSchedulerJobHttpTargetOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) GoogleCloudSchedulerJobHttpTargetOutputReference {
+func NewGoogleCloudSchedulerJobHttpTargetOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) GoogleCloudSchedulerJobHttpTargetOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewGoogleCloudSchedulerJobHttpTargetOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -310,7 +310,7 @@ func NewGoogleCloudSchedulerJobHttpTargetOutputReference(terraformResource cdktf
 	return &j
 }
 
-func NewGoogleCloudSchedulerJobHttpTargetOutputReference_Override(g GoogleCloudSchedulerJobHttpTargetOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewGoogleCloudSchedulerJobHttpTargetOutputReference_Override(g GoogleCloudSchedulerJobHttpTargetOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -397,7 +397,7 @@ func (j *jsiiProxy_GoogleCloudSchedulerJobHttpTargetOutputReference)SetTerraform
 	)
 }
 
-func (j *jsiiProxy_GoogleCloudSchedulerJobHttpTargetOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_GoogleCloudSchedulerJobHttpTargetOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -448,11 +448,11 @@ func (g *jsiiProxy_GoogleCloudSchedulerJobHttpTargetOutputReference) GetAnyMapAt
 	return returns
 }
 
-func (g *jsiiProxy_GoogleCloudSchedulerJobHttpTargetOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleCloudSchedulerJobHttpTargetOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -576,8 +576,8 @@ func (g *jsiiProxy_GoogleCloudSchedulerJobHttpTargetOutputReference) GetStringMa
 	return returns
 }
 
-func (g *jsiiProxy_GoogleCloudSchedulerJobHttpTargetOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (g *jsiiProxy_GoogleCloudSchedulerJobHttpTargetOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -589,11 +589,11 @@ func (g *jsiiProxy_GoogleCloudSchedulerJobHttpTargetOutputReference) Interpolati
 	return returns
 }
 
-func (g *jsiiProxy_GoogleCloudSchedulerJobHttpTargetOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleCloudSchedulerJobHttpTargetOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -667,7 +667,7 @@ func (g *jsiiProxy_GoogleCloudSchedulerJobHttpTargetOutputReference) ResetOidcTo
 	)
 }
 
-func (g *jsiiProxy_GoogleCloudSchedulerJobHttpTargetOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (g *jsiiProxy_GoogleCloudSchedulerJobHttpTargetOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

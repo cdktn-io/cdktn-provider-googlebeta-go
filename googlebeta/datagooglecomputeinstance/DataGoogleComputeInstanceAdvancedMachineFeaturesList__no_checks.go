@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataGoogleComputeInstanceAdvancedMachineFeaturesList) validat
 	return nil
 }
 
-func (d *jsiiProxy_DataGoogleComputeInstanceAdvancedMachineFeaturesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataGoogleComputeInstanceAdvancedMachineFeaturesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataGoogleComputeInstanceAdvancedMachineFeaturesList) validat
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleComputeInstanceAdvancedMachineFeaturesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataGoogleComputeInstanceAdvancedMachineFeaturesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataGoogleComputeInstanceAdvancedMachineFeaturesList) validat
 	return nil
 }
 
-func validateNewDataGoogleComputeInstanceAdvancedMachineFeaturesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataGoogleComputeInstanceAdvancedMachineFeaturesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

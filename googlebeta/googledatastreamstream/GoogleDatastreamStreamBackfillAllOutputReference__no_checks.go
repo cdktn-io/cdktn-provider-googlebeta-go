@@ -67,7 +67,7 @@ func (g *jsiiProxy_GoogleDatastreamStreamBackfillAllOutputReference) validatePut
 	return nil
 }
 
-func (g *jsiiProxy_GoogleDatastreamStreamBackfillAllOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleDatastreamStreamBackfillAllOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -87,11 +87,11 @@ func (j *jsiiProxy_GoogleDatastreamStreamBackfillAllOutputReference) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_GoogleDatastreamStreamBackfillAllOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleDatastreamStreamBackfillAllOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleDatastreamStreamBackfillAllOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleDatastreamStreamBackfillAllOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

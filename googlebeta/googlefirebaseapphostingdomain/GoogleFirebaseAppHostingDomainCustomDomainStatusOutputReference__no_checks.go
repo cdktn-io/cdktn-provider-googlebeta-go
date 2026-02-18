@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleFirebaseAppHostingDomainCustomDomainStatusOutputReferen
 	return nil
 }
 
-func (g *jsiiProxy_GoogleFirebaseAppHostingDomainCustomDomainStatusOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleFirebaseAppHostingDomainCustomDomainStatusOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_GoogleFirebaseAppHostingDomainCustomDomainStatusOutputReferen
 	return nil
 }
 
-func (j *jsiiProxy_GoogleFirebaseAppHostingDomainCustomDomainStatusOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleFirebaseAppHostingDomainCustomDomainStatusOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleFirebaseAppHostingDomainCustomDomainStatusOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewGoogleFirebaseAppHostingDomainCustomDomainStatusOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

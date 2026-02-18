@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataGoogleFirebaseWebApp) validateSetIdParameters(val *string
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleFirebaseWebApp) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataGoogleFirebaseWebApp) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

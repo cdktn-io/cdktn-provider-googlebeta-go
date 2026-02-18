@@ -107,7 +107,7 @@ func (j *jsiiProxy_GoogleContainerAnalysisNoteIamBinding) validateSetIdParameter
 	return nil
 }
 
-func (j *jsiiProxy_GoogleContainerAnalysisNoteIamBinding) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleContainerAnalysisNoteIamBinding) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

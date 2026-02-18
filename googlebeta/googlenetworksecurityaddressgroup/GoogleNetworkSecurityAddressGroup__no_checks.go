@@ -123,7 +123,7 @@ func (j *jsiiProxy_GoogleNetworkSecurityAddressGroup) validateSetLabelsParameter
 	return nil
 }
 
-func (j *jsiiProxy_GoogleNetworkSecurityAddressGroup) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleNetworkSecurityAddressGroup) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

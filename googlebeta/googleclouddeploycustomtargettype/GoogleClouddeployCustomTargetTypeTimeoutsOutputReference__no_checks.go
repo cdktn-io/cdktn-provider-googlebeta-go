@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleClouddeployCustomTargetTypeTimeoutsOutputReference) val
 	return nil
 }
 
-func (g *jsiiProxy_GoogleClouddeployCustomTargetTypeTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleClouddeployCustomTargetTypeTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_GoogleClouddeployCustomTargetTypeTimeoutsOutputReference) val
 	return nil
 }
 
-func (j *jsiiProxy_GoogleClouddeployCustomTargetTypeTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleClouddeployCustomTargetTypeTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_GoogleClouddeployCustomTargetTypeTimeoutsOutputReference) val
 	return nil
 }
 
-func validateNewGoogleClouddeployCustomTargetTypeTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleClouddeployCustomTargetTypeTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

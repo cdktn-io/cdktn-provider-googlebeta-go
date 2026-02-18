@@ -15,7 +15,7 @@ func (g *jsiiProxy_GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleS
 	return nil
 }
 
-func (g *jsiiProxy_GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleS
 	return nil
 }
 
-func (j *jsiiProxy_GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleS
 	return nil
 }
 
-func validateNewGoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleSchemasListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

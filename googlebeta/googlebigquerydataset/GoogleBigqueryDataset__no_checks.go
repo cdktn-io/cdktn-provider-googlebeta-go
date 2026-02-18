@@ -159,7 +159,7 @@ func (j *jsiiProxy_GoogleBigqueryDataset) validateSetLabelsParameters(val *map[s
 	return nil
 }
 
-func (j *jsiiProxy_GoogleBigqueryDataset) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleBigqueryDataset) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -5,22 +5,22 @@ package datagooglefirebaseandroidapp
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagooglefirebaseandroidapp/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagooglefirebaseandroidapp/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_firebase_android_app google_firebase_android_app}.
 type DataGoogleFirebaseAndroidApp interface {
-	cdktf.TerraformDataSource
+	cdktn.TerraformDataSource
 	ApiKeyId() *string
 	AppId() *string
 	SetAppId(val *string)
 	AppIdInput() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
 	// Experimental.
@@ -35,9 +35,9 @@ type DataGoogleFirebaseAndroidApp interface {
 	DisplayName() *string
 	Etag() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -46,9 +46,9 @@ type DataGoogleFirebaseAndroidApp interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Name() *string
 	// The tree node.
 	Node() constructs.Node
@@ -57,15 +57,15 @@ type DataGoogleFirebaseAndroidApp interface {
 	SetProject(val *string)
 	ProjectInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	RawOverrides() interface{}
 	Sha1Hashes() *[]*string
 	Sha256Hashes() *[]*string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -75,7 +75,7 @@ type DataGoogleFirebaseAndroidApp interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -91,7 +91,7 @@ type DataGoogleFirebaseAndroidApp interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
@@ -116,7 +116,7 @@ type DataGoogleFirebaseAndroidApp interface {
 
 // The jsii proxy struct for DataGoogleFirebaseAndroidApp
 type jsiiProxy_DataGoogleFirebaseAndroidApp struct {
-	internal.Type__cdktfTerraformDataSource
+	internal.Type__cdktnTerraformDataSource
 }
 
 func (j *jsiiProxy_DataGoogleFirebaseAndroidApp) ApiKeyId() *string {
@@ -149,8 +149,8 @@ func (j *jsiiProxy_DataGoogleFirebaseAndroidApp) AppIdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleFirebaseAndroidApp) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataGoogleFirebaseAndroidApp) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -219,8 +219,8 @@ func (j *jsiiProxy_DataGoogleFirebaseAndroidApp) Etag() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleFirebaseAndroidApp) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataGoogleFirebaseAndroidApp) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -269,8 +269,8 @@ func (j *jsiiProxy_DataGoogleFirebaseAndroidApp) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleFirebaseAndroidApp) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataGoogleFirebaseAndroidApp) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -329,8 +329,8 @@ func (j *jsiiProxy_DataGoogleFirebaseAndroidApp) ProjectInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleFirebaseAndroidApp) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataGoogleFirebaseAndroidApp) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -369,8 +369,8 @@ func (j *jsiiProxy_DataGoogleFirebaseAndroidApp) Sha256Hashes() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleFirebaseAndroidApp) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataGoogleFirebaseAndroidApp) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -459,7 +459,7 @@ func (j *jsiiProxy_DataGoogleFirebaseAndroidApp)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_DataGoogleFirebaseAndroidApp)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataGoogleFirebaseAndroidApp)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -478,7 +478,7 @@ func (j *jsiiProxy_DataGoogleFirebaseAndroidApp)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataGoogleFirebaseAndroidApp)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataGoogleFirebaseAndroidApp)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -500,7 +500,7 @@ func (j *jsiiProxy_DataGoogleFirebaseAndroidApp)SetProject(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataGoogleFirebaseAndroidApp)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataGoogleFirebaseAndroidApp)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -508,14 +508,14 @@ func (j *jsiiProxy_DataGoogleFirebaseAndroidApp)SetProvider(val cdktf.TerraformP
 	)
 }
 
-// Generates CDKTF code for importing a DataGoogleFirebaseAndroidApp resource upon running "cdktf plan <stack-name>".
-func DataGoogleFirebaseAndroidApp_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataGoogleFirebaseAndroidApp resource upon running "cdktn plan <stack-name>".
+func DataGoogleFirebaseAndroidApp_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataGoogleFirebaseAndroidApp_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google-beta.dataGoogleFirebaseAndroidApp.DataGoogleFirebaseAndroidApp",
@@ -638,11 +638,11 @@ func (d *jsiiProxy_DataGoogleFirebaseAndroidApp) GetAnyMapAttribute(terraformAtt
 	return returns
 }
 
-func (d *jsiiProxy_DataGoogleFirebaseAndroidApp) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataGoogleFirebaseAndroidApp) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -766,11 +766,11 @@ func (d *jsiiProxy_DataGoogleFirebaseAndroidApp) GetStringMapAttribute(terraform
 	return returns
 }
 
-func (d *jsiiProxy_DataGoogleFirebaseAndroidApp) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataGoogleFirebaseAndroidApp) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

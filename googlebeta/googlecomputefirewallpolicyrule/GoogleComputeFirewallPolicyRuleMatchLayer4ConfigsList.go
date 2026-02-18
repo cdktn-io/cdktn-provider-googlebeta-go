@@ -5,14 +5,14 @@ package googlecomputefirewallpolicyrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecomputefirewallpolicyrule/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputefirewallpolicyrule/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type GoogleComputeFirewallPolicyRuleMatchLayer4ConfigsList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -26,8 +26,8 @@ type GoogleComputeFirewallPolicyRuleMatchLayer4ConfigsList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -35,13 +35,13 @@ type GoogleComputeFirewallPolicyRuleMatchLayer4ConfigsList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) GoogleComputeFirewallPolicyRuleMatchLayer4ConfigsOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -51,7 +51,7 @@ type GoogleComputeFirewallPolicyRuleMatchLayer4ConfigsList interface {
 
 // The jsii proxy struct for GoogleComputeFirewallPolicyRuleMatchLayer4ConfigsList
 type jsiiProxy_GoogleComputeFirewallPolicyRuleMatchLayer4ConfigsList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_GoogleComputeFirewallPolicyRuleMatchLayer4ConfigsList) CreationStack() *[]*string {
@@ -94,8 +94,8 @@ func (j *jsiiProxy_GoogleComputeFirewallPolicyRuleMatchLayer4ConfigsList) Terraf
 	return returns
 }
 
-func (j *jsiiProxy_GoogleComputeFirewallPolicyRuleMatchLayer4ConfigsList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_GoogleComputeFirewallPolicyRuleMatchLayer4ConfigsList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -115,7 +115,7 @@ func (j *jsiiProxy_GoogleComputeFirewallPolicyRuleMatchLayer4ConfigsList) WrapsS
 }
 
 
-func NewGoogleComputeFirewallPolicyRuleMatchLayer4ConfigsList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeFirewallPolicyRuleMatchLayer4ConfigsList {
+func NewGoogleComputeFirewallPolicyRuleMatchLayer4ConfigsList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeFirewallPolicyRuleMatchLayer4ConfigsList {
 	_init_.Initialize()
 
 	if err := validateNewGoogleComputeFirewallPolicyRuleMatchLayer4ConfigsListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -132,7 +132,7 @@ func NewGoogleComputeFirewallPolicyRuleMatchLayer4ConfigsList(terraformResource 
 	return &j
 }
 
-func NewGoogleComputeFirewallPolicyRuleMatchLayer4ConfigsList_Override(g GoogleComputeFirewallPolicyRuleMatchLayer4ConfigsList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewGoogleComputeFirewallPolicyRuleMatchLayer4ConfigsList_Override(g GoogleComputeFirewallPolicyRuleMatchLayer4ConfigsList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -164,7 +164,7 @@ func (j *jsiiProxy_GoogleComputeFirewallPolicyRuleMatchLayer4ConfigsList)SetTerr
 	)
 }
 
-func (j *jsiiProxy_GoogleComputeFirewallPolicyRuleMatchLayer4ConfigsList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_GoogleComputeFirewallPolicyRuleMatchLayer4ConfigsList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -186,11 +186,11 @@ func (j *jsiiProxy_GoogleComputeFirewallPolicyRuleMatchLayer4ConfigsList)SetWrap
 	)
 }
 
-func (g *jsiiProxy_GoogleComputeFirewallPolicyRuleMatchLayer4ConfigsList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (g *jsiiProxy_GoogleComputeFirewallPolicyRuleMatchLayer4ConfigsList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := g.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		g,
@@ -231,7 +231,7 @@ func (g *jsiiProxy_GoogleComputeFirewallPolicyRuleMatchLayer4ConfigsList) Get(in
 	return returns
 }
 
-func (g *jsiiProxy_GoogleComputeFirewallPolicyRuleMatchLayer4ConfigsList) Resolve(context cdktf.IResolveContext) interface{} {
+func (g *jsiiProxy_GoogleComputeFirewallPolicyRuleMatchLayer4ConfigsList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -5,14 +5,14 @@ package googledatalosspreventionjobtrigger
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googledatalosspreventionjobtrigger/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledatalosspreventionjobtrigger/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type GoogleDataLossPreventionJobTriggerInspectJobActionsDeidentifyOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	CloudStorageOutput() *string
 	SetCloudStorageOutput(val *string)
 	CloudStorageOutputInput() *string
@@ -43,9 +43,9 @@ type GoogleDataLossPreventionJobTriggerInspectJobActionsDeidentifyOutputReferenc
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	TransformationConfig() GoogleDataLossPreventionJobTriggerInspectJobActionsDeidentifyTransformationConfigOutputReference
 	TransformationConfigInput() *GoogleDataLossPreventionJobTriggerInspectJobActionsDeidentifyTransformationConfig
 	TransformationDetailsStorageConfig() GoogleDataLossPreventionJobTriggerInspectJobActionsDeidentifyTransformationDetailsStorageConfigOutputReference
@@ -55,7 +55,7 @@ type GoogleDataLossPreventionJobTriggerInspectJobActionsDeidentifyOutputReferenc
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -71,9 +71,9 @@ type GoogleDataLossPreventionJobTriggerInspectJobActionsDeidentifyOutputReferenc
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutTransformationConfig(value *GoogleDataLossPreventionJobTriggerInspectJobActionsDeidentifyTransformationConfig)
 	PutTransformationDetailsStorageConfig(value *GoogleDataLossPreventionJobTriggerInspectJobActionsDeidentifyTransformationDetailsStorageConfig)
 	ResetFileTypesToTransform()
@@ -81,7 +81,7 @@ type GoogleDataLossPreventionJobTriggerInspectJobActionsDeidentifyOutputReferenc
 	ResetTransformationDetailsStorageConfig()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -91,7 +91,7 @@ type GoogleDataLossPreventionJobTriggerInspectJobActionsDeidentifyOutputReferenc
 
 // The jsii proxy struct for GoogleDataLossPreventionJobTriggerInspectJobActionsDeidentifyOutputReference
 type jsiiProxy_GoogleDataLossPreventionJobTriggerInspectJobActionsDeidentifyOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_GoogleDataLossPreventionJobTriggerInspectJobActionsDeidentifyOutputReference) CloudStorageOutput() *string {
@@ -194,8 +194,8 @@ func (j *jsiiProxy_GoogleDataLossPreventionJobTriggerInspectJobActionsDeidentify
 	return returns
 }
 
-func (j *jsiiProxy_GoogleDataLossPreventionJobTriggerInspectJobActionsDeidentifyOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_GoogleDataLossPreventionJobTriggerInspectJobActionsDeidentifyOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -245,7 +245,7 @@ func (j *jsiiProxy_GoogleDataLossPreventionJobTriggerInspectJobActionsDeidentify
 }
 
 
-func NewGoogleDataLossPreventionJobTriggerInspectJobActionsDeidentifyOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) GoogleDataLossPreventionJobTriggerInspectJobActionsDeidentifyOutputReference {
+func NewGoogleDataLossPreventionJobTriggerInspectJobActionsDeidentifyOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) GoogleDataLossPreventionJobTriggerInspectJobActionsDeidentifyOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewGoogleDataLossPreventionJobTriggerInspectJobActionsDeidentifyOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -262,7 +262,7 @@ func NewGoogleDataLossPreventionJobTriggerInspectJobActionsDeidentifyOutputRefer
 	return &j
 }
 
-func NewGoogleDataLossPreventionJobTriggerInspectJobActionsDeidentifyOutputReference_Override(g GoogleDataLossPreventionJobTriggerInspectJobActionsDeidentifyOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewGoogleDataLossPreventionJobTriggerInspectJobActionsDeidentifyOutputReference_Override(g GoogleDataLossPreventionJobTriggerInspectJobActionsDeidentifyOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -338,7 +338,7 @@ func (j *jsiiProxy_GoogleDataLossPreventionJobTriggerInspectJobActionsDeidentify
 	)
 }
 
-func (j *jsiiProxy_GoogleDataLossPreventionJobTriggerInspectJobActionsDeidentifyOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_GoogleDataLossPreventionJobTriggerInspectJobActionsDeidentifyOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -378,11 +378,11 @@ func (g *jsiiProxy_GoogleDataLossPreventionJobTriggerInspectJobActionsDeidentify
 	return returns
 }
 
-func (g *jsiiProxy_GoogleDataLossPreventionJobTriggerInspectJobActionsDeidentifyOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleDataLossPreventionJobTriggerInspectJobActionsDeidentifyOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -506,8 +506,8 @@ func (g *jsiiProxy_GoogleDataLossPreventionJobTriggerInspectJobActionsDeidentify
 	return returns
 }
 
-func (g *jsiiProxy_GoogleDataLossPreventionJobTriggerInspectJobActionsDeidentifyOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (g *jsiiProxy_GoogleDataLossPreventionJobTriggerInspectJobActionsDeidentifyOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -519,11 +519,11 @@ func (g *jsiiProxy_GoogleDataLossPreventionJobTriggerInspectJobActionsDeidentify
 	return returns
 }
 
-func (g *jsiiProxy_GoogleDataLossPreventionJobTriggerInspectJobActionsDeidentifyOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleDataLossPreventionJobTriggerInspectJobActionsDeidentifyOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -581,7 +581,7 @@ func (g *jsiiProxy_GoogleDataLossPreventionJobTriggerInspectJobActionsDeidentify
 	)
 }
 
-func (g *jsiiProxy_GoogleDataLossPreventionJobTriggerInspectJobActionsDeidentifyOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (g *jsiiProxy_GoogleDataLossPreventionJobTriggerInspectJobActionsDeidentifyOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

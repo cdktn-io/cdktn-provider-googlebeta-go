@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (g *jsiiProxy_GoogleSccV2OrganizationSccBigQueryExportTimeoutsOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -93,7 +93,7 @@ func (g *jsiiProxy_GoogleSccV2OrganizationSccBigQueryExportTimeoutsOutputReferen
 	return nil
 }
 
-func (g *jsiiProxy_GoogleSccV2OrganizationSccBigQueryExportTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleSccV2OrganizationSccBigQueryExportTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -184,7 +184,7 @@ func (j *jsiiProxy_GoogleSccV2OrganizationSccBigQueryExportTimeoutsOutputReferen
 
 func (j *jsiiProxy_GoogleSccV2OrganizationSccBigQueryExportTimeoutsOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *GoogleSccV2OrganizationSccBigQueryExportTimeouts:
 		val := val.(*GoogleSccV2OrganizationSccBigQueryExportTimeouts)
@@ -199,7 +199,7 @@ func (j *jsiiProxy_GoogleSccV2OrganizationSccBigQueryExportTimeoutsOutputReferen
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *GoogleSccV2OrganizationSccBigQueryExportTimeouts; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *GoogleSccV2OrganizationSccBigQueryExportTimeouts; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -214,7 +214,7 @@ func (j *jsiiProxy_GoogleSccV2OrganizationSccBigQueryExportTimeoutsOutputReferen
 	return nil
 }
 
-func (j *jsiiProxy_GoogleSccV2OrganizationSccBigQueryExportTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleSccV2OrganizationSccBigQueryExportTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -230,7 +230,7 @@ func (j *jsiiProxy_GoogleSccV2OrganizationSccBigQueryExportTimeoutsOutputReferen
 	return nil
 }
 
-func validateNewGoogleSccV2OrganizationSccBigQueryExportTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleSccV2OrganizationSccBigQueryExportTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

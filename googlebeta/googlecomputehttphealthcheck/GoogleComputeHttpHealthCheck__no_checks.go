@@ -123,7 +123,7 @@ func (j *jsiiProxy_GoogleComputeHttpHealthCheck) validateSetIdParameters(val *st
 	return nil
 }
 
-func (j *jsiiProxy_GoogleComputeHttpHealthCheck) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleComputeHttpHealthCheck) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

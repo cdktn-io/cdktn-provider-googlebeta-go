@@ -55,7 +55,7 @@ func (g *jsiiProxy_GoogleGkeonpremBareMetalNodePoolNodePoolConfigOutputReference
 	return nil
 }
 
-func (g *jsiiProxy_GoogleGkeonpremBareMetalNodePoolNodePoolConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleGkeonpremBareMetalNodePoolNodePoolConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_GoogleGkeonpremBareMetalNodePoolNodePoolConfigOutputReference
 	return nil
 }
 
-func (j *jsiiProxy_GoogleGkeonpremBareMetalNodePoolNodePoolConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleGkeonpremBareMetalNodePoolNodePoolConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleGkeonpremBareMetalNodePoolNodePoolConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleGkeonpremBareMetalNodePoolNodePoolConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

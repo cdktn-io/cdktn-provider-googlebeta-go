@@ -143,7 +143,7 @@ func (j *jsiiProxy_GoogleEventarcPipeline) validateSetLabelsParameters(val *map[
 	return nil
 }
 
-func (j *jsiiProxy_GoogleEventarcPipeline) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleEventarcPipeline) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -5,14 +5,14 @@ package googlebigqueryjob
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlebigqueryjob/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebigqueryjob/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type GoogleBigqueryJobQueryOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AllowLargeResults() interface{}
 	SetAllowLargeResults(val interface{})
 	AllowLargeResultsInput() interface{}
@@ -75,9 +75,9 @@ type GoogleBigqueryJobQueryOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	UseLegacySql() interface{}
 	SetUseLegacySql(val interface{})
 	UseLegacySqlInput() interface{}
@@ -94,7 +94,7 @@ type GoogleBigqueryJobQueryOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -110,9 +110,9 @@ type GoogleBigqueryJobQueryOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutDefaultDataset(value *GoogleBigqueryJobQueryDefaultDataset)
 	PutDestinationEncryptionConfiguration(value *GoogleBigqueryJobQueryDestinationEncryptionConfiguration)
 	PutDestinationTable(value *GoogleBigqueryJobQueryDestinationTable)
@@ -137,7 +137,7 @@ type GoogleBigqueryJobQueryOutputReference interface {
 	ResetWriteDisposition()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -147,7 +147,7 @@ type GoogleBigqueryJobQueryOutputReference interface {
 
 // The jsii proxy struct for GoogleBigqueryJobQueryOutputReference
 type jsiiProxy_GoogleBigqueryJobQueryOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_GoogleBigqueryJobQueryOutputReference) AllowLargeResults() interface{} {
@@ -490,8 +490,8 @@ func (j *jsiiProxy_GoogleBigqueryJobQueryOutputReference) TerraformAttribute() *
 	return returns
 }
 
-func (j *jsiiProxy_GoogleBigqueryJobQueryOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_GoogleBigqueryJobQueryOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -581,7 +581,7 @@ func (j *jsiiProxy_GoogleBigqueryJobQueryOutputReference) WriteDispositionInput(
 }
 
 
-func NewGoogleBigqueryJobQueryOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) GoogleBigqueryJobQueryOutputReference {
+func NewGoogleBigqueryJobQueryOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) GoogleBigqueryJobQueryOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewGoogleBigqueryJobQueryOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -598,7 +598,7 @@ func NewGoogleBigqueryJobQueryOutputReference(terraformResource cdktf.IInterpola
 	return &j
 }
 
-func NewGoogleBigqueryJobQueryOutputReference_Override(g GoogleBigqueryJobQueryOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewGoogleBigqueryJobQueryOutputReference_Override(g GoogleBigqueryJobQueryOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -762,7 +762,7 @@ func (j *jsiiProxy_GoogleBigqueryJobQueryOutputReference)SetTerraformAttribute(v
 	)
 }
 
-func (j *jsiiProxy_GoogleBigqueryJobQueryOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_GoogleBigqueryJobQueryOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -835,11 +835,11 @@ func (g *jsiiProxy_GoogleBigqueryJobQueryOutputReference) GetAnyMapAttribute(ter
 	return returns
 }
 
-func (g *jsiiProxy_GoogleBigqueryJobQueryOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleBigqueryJobQueryOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -963,8 +963,8 @@ func (g *jsiiProxy_GoogleBigqueryJobQueryOutputReference) GetStringMapAttribute(
 	return returns
 }
 
-func (g *jsiiProxy_GoogleBigqueryJobQueryOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (g *jsiiProxy_GoogleBigqueryJobQueryOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -976,11 +976,11 @@ func (g *jsiiProxy_GoogleBigqueryJobQueryOutputReference) InterpolationAsList() 
 	return returns
 }
 
-func (g *jsiiProxy_GoogleBigqueryJobQueryOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleBigqueryJobQueryOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -1183,7 +1183,7 @@ func (g *jsiiProxy_GoogleBigqueryJobQueryOutputReference) ResetWriteDisposition(
 	)
 }
 
-func (g *jsiiProxy_GoogleBigqueryJobQueryOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (g *jsiiProxy_GoogleBigqueryJobQueryOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

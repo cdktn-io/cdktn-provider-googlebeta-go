@@ -51,7 +51,7 @@ func (g *jsiiProxy_GoogleApiGatewayApiConfigOpenapiDocumentsOutputReference) val
 	return nil
 }
 
-func (g *jsiiProxy_GoogleApiGatewayApiConfigOpenapiDocumentsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleApiGatewayApiConfigOpenapiDocumentsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_GoogleApiGatewayApiConfigOpenapiDocumentsOutputReference) val
 	return nil
 }
 
-func (j *jsiiProxy_GoogleApiGatewayApiConfigOpenapiDocumentsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleApiGatewayApiConfigOpenapiDocumentsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleApiGatewayApiConfigOpenapiDocumentsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewGoogleApiGatewayApiConfigOpenapiDocumentsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

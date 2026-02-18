@@ -143,7 +143,7 @@ func (j *jsiiProxy_GoogleComputeFirewall) validateSetIdParameters(val *string) e
 	return nil
 }
 
-func (j *jsiiProxy_GoogleComputeFirewall) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleComputeFirewall) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

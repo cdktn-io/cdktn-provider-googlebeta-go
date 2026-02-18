@@ -5,18 +5,18 @@ package googlenetworkserviceshttproute
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlenetworkserviceshttproute/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlenetworkserviceshttproute/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_services_http_route google_network_services_http_route}.
 type GoogleNetworkServicesHttpRoute interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -35,11 +35,11 @@ type GoogleNetworkServicesHttpRoute interface {
 	Description() *string
 	SetDescription(val *string)
 	DescriptionInput() *string
-	EffectiveLabels() cdktf.StringMap
+	EffectiveLabels() cdktn.StringMap
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -57,9 +57,9 @@ type GoogleNetworkServicesHttpRoute interface {
 	SetLabels(val *map[string]*string)
 	LabelsInput() *map[string]*string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Meshes() *[]*string
 	SetMeshes(val *[]*string)
 	MeshesInput() *[]*string
@@ -72,9 +72,9 @@ type GoogleNetworkServicesHttpRoute interface {
 	SetProject(val *string)
 	ProjectInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -85,8 +85,8 @@ type GoogleNetworkServicesHttpRoute interface {
 	RulesInput() interface{}
 	SelfLink() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
-	TerraformLabels() cdktf.StringMap
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
+	TerraformLabels() cdktn.StringMap
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -102,7 +102,7 @@ type GoogleNetworkServicesHttpRoute interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -120,9 +120,9 @@ type GoogleNetworkServicesHttpRoute interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -164,11 +164,11 @@ type GoogleNetworkServicesHttpRoute interface {
 
 // The jsii proxy struct for GoogleNetworkServicesHttpRoute
 type jsiiProxy_GoogleNetworkServicesHttpRoute struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
-func (j *jsiiProxy_GoogleNetworkServicesHttpRoute) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_GoogleNetworkServicesHttpRoute) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -247,8 +247,8 @@ func (j *jsiiProxy_GoogleNetworkServicesHttpRoute) DescriptionInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleNetworkServicesHttpRoute) EffectiveLabels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_GoogleNetworkServicesHttpRoute) EffectiveLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"effectiveLabels",
@@ -257,8 +257,8 @@ func (j *jsiiProxy_GoogleNetworkServicesHttpRoute) EffectiveLabels() cdktf.Strin
 	return returns
 }
 
-func (j *jsiiProxy_GoogleNetworkServicesHttpRoute) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_GoogleNetworkServicesHttpRoute) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -367,8 +367,8 @@ func (j *jsiiProxy_GoogleNetworkServicesHttpRoute) LabelsInput() *map[string]*st
 	return returns
 }
 
-func (j *jsiiProxy_GoogleNetworkServicesHttpRoute) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_GoogleNetworkServicesHttpRoute) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -447,8 +447,8 @@ func (j *jsiiProxy_GoogleNetworkServicesHttpRoute) ProjectInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleNetworkServicesHttpRoute) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_GoogleNetworkServicesHttpRoute) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -507,8 +507,8 @@ func (j *jsiiProxy_GoogleNetworkServicesHttpRoute) SelfLink() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleNetworkServicesHttpRoute) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_GoogleNetworkServicesHttpRoute) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -517,8 +517,8 @@ func (j *jsiiProxy_GoogleNetworkServicesHttpRoute) TerraformGeneratorMetadata() 
 	return returns
 }
 
-func (j *jsiiProxy_GoogleNetworkServicesHttpRoute) TerraformLabels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_GoogleNetworkServicesHttpRoute) TerraformLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"terraformLabels",
@@ -648,7 +648,7 @@ func (j *jsiiProxy_GoogleNetworkServicesHttpRoute)SetDescription(val *string) {
 	)
 }
 
-func (j *jsiiProxy_GoogleNetworkServicesHttpRoute)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_GoogleNetworkServicesHttpRoute)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -700,7 +700,7 @@ func (j *jsiiProxy_GoogleNetworkServicesHttpRoute)SetLabels(val *map[string]*str
 	)
 }
 
-func (j *jsiiProxy_GoogleNetworkServicesHttpRoute)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_GoogleNetworkServicesHttpRoute)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -744,7 +744,7 @@ func (j *jsiiProxy_GoogleNetworkServicesHttpRoute)SetProject(val *string) {
 	)
 }
 
-func (j *jsiiProxy_GoogleNetworkServicesHttpRoute)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_GoogleNetworkServicesHttpRoute)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -763,14 +763,14 @@ func (j *jsiiProxy_GoogleNetworkServicesHttpRoute)SetProvisioners(val *[]interfa
 	)
 }
 
-// Generates CDKTF code for importing a GoogleNetworkServicesHttpRoute resource upon running "cdktf plan <stack-name>".
-func GoogleNetworkServicesHttpRoute_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a GoogleNetworkServicesHttpRoute resource upon running "cdktn plan <stack-name>".
+func GoogleNetworkServicesHttpRoute_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateGoogleNetworkServicesHttpRoute_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google-beta.googleNetworkServicesHttpRoute.GoogleNetworkServicesHttpRoute",
@@ -904,11 +904,11 @@ func (g *jsiiProxy_GoogleNetworkServicesHttpRoute) GetAnyMapAttribute(terraformA
 	return returns
 }
 
-func (g *jsiiProxy_GoogleNetworkServicesHttpRoute) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleNetworkServicesHttpRoute) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -1045,7 +1045,7 @@ func (g *jsiiProxy_GoogleNetworkServicesHttpRoute) HasResourceMove() interface{}
 	return returns
 }
 
-func (g *jsiiProxy_GoogleNetworkServicesHttpRoute) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (g *jsiiProxy_GoogleNetworkServicesHttpRoute) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := g.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1056,11 +1056,11 @@ func (g *jsiiProxy_GoogleNetworkServicesHttpRoute) ImportFrom(id *string, provid
 	)
 }
 
-func (g *jsiiProxy_GoogleNetworkServicesHttpRoute) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleNetworkServicesHttpRoute) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,

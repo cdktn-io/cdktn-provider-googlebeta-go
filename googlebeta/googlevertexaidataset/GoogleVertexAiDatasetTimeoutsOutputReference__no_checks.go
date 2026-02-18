@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleVertexAiDatasetTimeoutsOutputReference) validateInterpo
 	return nil
 }
 
-func (g *jsiiProxy_GoogleVertexAiDatasetTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleVertexAiDatasetTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_GoogleVertexAiDatasetTimeoutsOutputReference) validateSetTerr
 	return nil
 }
 
-func (j *jsiiProxy_GoogleVertexAiDatasetTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleVertexAiDatasetTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_GoogleVertexAiDatasetTimeoutsOutputReference) validateSetUpda
 	return nil
 }
 
-func validateNewGoogleVertexAiDatasetTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleVertexAiDatasetTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

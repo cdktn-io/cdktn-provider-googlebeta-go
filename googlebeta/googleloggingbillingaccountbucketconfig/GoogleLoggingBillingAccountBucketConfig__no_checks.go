@@ -123,7 +123,7 @@ func (j *jsiiProxy_GoogleLoggingBillingAccountBucketConfig) validateSetIdParamet
 	return nil
 }
 
-func (j *jsiiProxy_GoogleLoggingBillingAccountBucketConfig) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleLoggingBillingAccountBucketConfig) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleBigqueryTableIamBindingConditionOutputReference) valida
 	return nil
 }
 
-func (g *jsiiProxy_GoogleBigqueryTableIamBindingConditionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleBigqueryTableIamBindingConditionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_GoogleBigqueryTableIamBindingConditionOutputReference) valida
 	return nil
 }
 
-func (j *jsiiProxy_GoogleBigqueryTableIamBindingConditionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleBigqueryTableIamBindingConditionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_GoogleBigqueryTableIamBindingConditionOutputReference) valida
 	return nil
 }
 
-func validateNewGoogleBigqueryTableIamBindingConditionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleBigqueryTableIamBindingConditionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

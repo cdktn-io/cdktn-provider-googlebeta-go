@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataGoogleComputeInstanceSchedulingOnInstanceStopActionList) 
 	return nil
 }
 
-func (d *jsiiProxy_DataGoogleComputeInstanceSchedulingOnInstanceStopActionList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataGoogleComputeInstanceSchedulingOnInstanceStopActionList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataGoogleComputeInstanceSchedulingOnInstanceStopActionList) 
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleComputeInstanceSchedulingOnInstanceStopActionList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataGoogleComputeInstanceSchedulingOnInstanceStopActionList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataGoogleComputeInstanceSchedulingOnInstanceStopActionList) 
 	return nil
 }
 
-func validateNewDataGoogleComputeInstanceSchedulingOnInstanceStopActionListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataGoogleComputeInstanceSchedulingOnInstanceStopActionListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

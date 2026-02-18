@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataGoogleArtifactRegistryDockerImage) validateSetImageNamePa
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleArtifactRegistryDockerImage) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataGoogleArtifactRegistryDockerImage) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleDataformRepositoryReleaseConfigCodeCompilationConfigOut
 	return nil
 }
 
-func (g *jsiiProxy_GoogleDataformRepositoryReleaseConfigCodeCompilationConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleDataformRepositoryReleaseConfigCodeCompilationConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -95,7 +95,7 @@ func (j *jsiiProxy_GoogleDataformRepositoryReleaseConfigCodeCompilationConfigOut
 	return nil
 }
 
-func (j *jsiiProxy_GoogleDataformRepositoryReleaseConfigCodeCompilationConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleDataformRepositoryReleaseConfigCodeCompilationConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -103,7 +103,7 @@ func (j *jsiiProxy_GoogleDataformRepositoryReleaseConfigCodeCompilationConfigOut
 	return nil
 }
 
-func validateNewGoogleDataformRepositoryReleaseConfigCodeCompilationConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleDataformRepositoryReleaseConfigCodeCompilationConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

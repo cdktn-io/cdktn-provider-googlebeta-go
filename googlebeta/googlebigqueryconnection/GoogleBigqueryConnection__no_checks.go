@@ -147,7 +147,7 @@ func (j *jsiiProxy_GoogleBigqueryConnection) validateSetKmsKeyNameParameters(val
 	return nil
 }
 
-func (j *jsiiProxy_GoogleBigqueryConnection) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleBigqueryConnection) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

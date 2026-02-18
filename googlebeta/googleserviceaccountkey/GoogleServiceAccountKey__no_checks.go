@@ -111,7 +111,7 @@ func (j *jsiiProxy_GoogleServiceAccountKey) validateSetKeyAlgorithmParameters(va
 	return nil
 }
 
-func (j *jsiiProxy_GoogleServiceAccountKey) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleServiceAccountKey) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

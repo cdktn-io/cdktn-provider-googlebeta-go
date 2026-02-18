@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleStorageDefaultObjectAccessControlTimeoutsOutputReferenc
 	return nil
 }
 
-func (g *jsiiProxy_GoogleStorageDefaultObjectAccessControlTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleStorageDefaultObjectAccessControlTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_GoogleStorageDefaultObjectAccessControlTimeoutsOutputReferenc
 	return nil
 }
 
-func (j *jsiiProxy_GoogleStorageDefaultObjectAccessControlTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleStorageDefaultObjectAccessControlTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_GoogleStorageDefaultObjectAccessControlTimeoutsOutputReferenc
 	return nil
 }
 
-func validateNewGoogleStorageDefaultObjectAccessControlTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleStorageDefaultObjectAccessControlTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

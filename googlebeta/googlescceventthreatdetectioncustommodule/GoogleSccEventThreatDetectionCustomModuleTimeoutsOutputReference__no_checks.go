@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleSccEventThreatDetectionCustomModuleTimeoutsOutputRefere
 	return nil
 }
 
-func (g *jsiiProxy_GoogleSccEventThreatDetectionCustomModuleTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleSccEventThreatDetectionCustomModuleTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_GoogleSccEventThreatDetectionCustomModuleTimeoutsOutputRefere
 	return nil
 }
 
-func (j *jsiiProxy_GoogleSccEventThreatDetectionCustomModuleTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleSccEventThreatDetectionCustomModuleTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_GoogleSccEventThreatDetectionCustomModuleTimeoutsOutputRefere
 	return nil
 }
 
-func validateNewGoogleSccEventThreatDetectionCustomModuleTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleSccEventThreatDetectionCustomModuleTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

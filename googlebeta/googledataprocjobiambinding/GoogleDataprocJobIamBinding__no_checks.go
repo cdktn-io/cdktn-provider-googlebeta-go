@@ -111,7 +111,7 @@ func (j *jsiiProxy_GoogleDataprocJobIamBinding) validateSetJobIdParameters(val *
 	return nil
 }
 
-func (j *jsiiProxy_GoogleDataprocJobIamBinding) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleDataprocJobIamBinding) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

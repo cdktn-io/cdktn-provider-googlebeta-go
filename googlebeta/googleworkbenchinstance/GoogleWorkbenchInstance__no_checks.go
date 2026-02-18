@@ -139,7 +139,7 @@ func (j *jsiiProxy_GoogleWorkbenchInstance) validateSetLabelsParameters(val *map
 	return nil
 }
 
-func (j *jsiiProxy_GoogleWorkbenchInstance) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleWorkbenchInstance) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

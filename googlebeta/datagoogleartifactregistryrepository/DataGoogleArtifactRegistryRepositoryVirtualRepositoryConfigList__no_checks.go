@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataGoogleArtifactRegistryRepositoryVirtualRepositoryConfigLi
 	return nil
 }
 
-func (d *jsiiProxy_DataGoogleArtifactRegistryRepositoryVirtualRepositoryConfigList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataGoogleArtifactRegistryRepositoryVirtualRepositoryConfigList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataGoogleArtifactRegistryRepositoryVirtualRepositoryConfigLi
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleArtifactRegistryRepositoryVirtualRepositoryConfigList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataGoogleArtifactRegistryRepositoryVirtualRepositoryConfigList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataGoogleArtifactRegistryRepositoryVirtualRepositoryConfigLi
 	return nil
 }
 
-func validateNewDataGoogleArtifactRegistryRepositoryVirtualRepositoryConfigListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataGoogleArtifactRegistryRepositoryVirtualRepositoryConfigListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

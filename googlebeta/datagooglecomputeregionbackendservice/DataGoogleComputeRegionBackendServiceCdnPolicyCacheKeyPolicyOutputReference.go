@@ -5,14 +5,14 @@ package datagooglecomputeregionbackendservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagooglecomputeregionbackendservice/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagooglecomputeregionbackendservice/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataGoogleComputeRegionBackendServiceCdnPolicyCacheKeyPolicyOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -30,10 +30,10 @@ type DataGoogleComputeRegionBackendServiceCdnPolicyCacheKeyPolicyOutputReference
 	CreationStack() *[]*string
 	// Experimental.
 	Fqn() *string
-	IncludeHost() cdktf.IResolvable
+	IncludeHost() cdktn.IResolvable
 	IncludeNamedCookies() *[]*string
-	IncludeProtocol() cdktf.IResolvable
-	IncludeQueryString() cdktf.IResolvable
+	IncludeProtocol() cdktn.IResolvable
+	IncludeQueryString() cdktn.IResolvable
 	InternalValue() *DataGoogleComputeRegionBackendServiceCdnPolicyCacheKeyPolicy
 	SetInternalValue(val *DataGoogleComputeRegionBackendServiceCdnPolicyCacheKeyPolicy)
 	QueryStringBlacklist() *[]*string
@@ -43,15 +43,15 @@ type DataGoogleComputeRegionBackendServiceCdnPolicyCacheKeyPolicyOutputReference
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,12 +67,12 @@ type DataGoogleComputeRegionBackendServiceCdnPolicyCacheKeyPolicyOutputReference
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -82,7 +82,7 @@ type DataGoogleComputeRegionBackendServiceCdnPolicyCacheKeyPolicyOutputReference
 
 // The jsii proxy struct for DataGoogleComputeRegionBackendServiceCdnPolicyCacheKeyPolicyOutputReference
 type jsiiProxy_DataGoogleComputeRegionBackendServiceCdnPolicyCacheKeyPolicyOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataGoogleComputeRegionBackendServiceCdnPolicyCacheKeyPolicyOutputReference) ComplexObjectIndex() interface{} {
@@ -125,8 +125,8 @@ func (j *jsiiProxy_DataGoogleComputeRegionBackendServiceCdnPolicyCacheKeyPolicyO
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleComputeRegionBackendServiceCdnPolicyCacheKeyPolicyOutputReference) IncludeHost() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataGoogleComputeRegionBackendServiceCdnPolicyCacheKeyPolicyOutputReference) IncludeHost() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"includeHost",
@@ -145,8 +145,8 @@ func (j *jsiiProxy_DataGoogleComputeRegionBackendServiceCdnPolicyCacheKeyPolicyO
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleComputeRegionBackendServiceCdnPolicyCacheKeyPolicyOutputReference) IncludeProtocol() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataGoogleComputeRegionBackendServiceCdnPolicyCacheKeyPolicyOutputReference) IncludeProtocol() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"includeProtocol",
@@ -155,8 +155,8 @@ func (j *jsiiProxy_DataGoogleComputeRegionBackendServiceCdnPolicyCacheKeyPolicyO
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleComputeRegionBackendServiceCdnPolicyCacheKeyPolicyOutputReference) IncludeQueryString() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataGoogleComputeRegionBackendServiceCdnPolicyCacheKeyPolicyOutputReference) IncludeQueryString() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"includeQueryString",
@@ -205,8 +205,8 @@ func (j *jsiiProxy_DataGoogleComputeRegionBackendServiceCdnPolicyCacheKeyPolicyO
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleComputeRegionBackendServiceCdnPolicyCacheKeyPolicyOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataGoogleComputeRegionBackendServiceCdnPolicyCacheKeyPolicyOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -216,7 +216,7 @@ func (j *jsiiProxy_DataGoogleComputeRegionBackendServiceCdnPolicyCacheKeyPolicyO
 }
 
 
-func NewDataGoogleComputeRegionBackendServiceCdnPolicyCacheKeyPolicyOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataGoogleComputeRegionBackendServiceCdnPolicyCacheKeyPolicyOutputReference {
+func NewDataGoogleComputeRegionBackendServiceCdnPolicyCacheKeyPolicyOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataGoogleComputeRegionBackendServiceCdnPolicyCacheKeyPolicyOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataGoogleComputeRegionBackendServiceCdnPolicyCacheKeyPolicyOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -233,7 +233,7 @@ func NewDataGoogleComputeRegionBackendServiceCdnPolicyCacheKeyPolicyOutputRefere
 	return &j
 }
 
-func NewDataGoogleComputeRegionBackendServiceCdnPolicyCacheKeyPolicyOutputReference_Override(d DataGoogleComputeRegionBackendServiceCdnPolicyCacheKeyPolicyOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewDataGoogleComputeRegionBackendServiceCdnPolicyCacheKeyPolicyOutputReference_Override(d DataGoogleComputeRegionBackendServiceCdnPolicyCacheKeyPolicyOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -287,7 +287,7 @@ func (j *jsiiProxy_DataGoogleComputeRegionBackendServiceCdnPolicyCacheKeyPolicyO
 	)
 }
 
-func (j *jsiiProxy_DataGoogleComputeRegionBackendServiceCdnPolicyCacheKeyPolicyOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataGoogleComputeRegionBackendServiceCdnPolicyCacheKeyPolicyOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -327,11 +327,11 @@ func (d *jsiiProxy_DataGoogleComputeRegionBackendServiceCdnPolicyCacheKeyPolicyO
 	return returns
 }
 
-func (d *jsiiProxy_DataGoogleComputeRegionBackendServiceCdnPolicyCacheKeyPolicyOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataGoogleComputeRegionBackendServiceCdnPolicyCacheKeyPolicyOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -455,8 +455,8 @@ func (d *jsiiProxy_DataGoogleComputeRegionBackendServiceCdnPolicyCacheKeyPolicyO
 	return returns
 }
 
-func (d *jsiiProxy_DataGoogleComputeRegionBackendServiceCdnPolicyCacheKeyPolicyOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataGoogleComputeRegionBackendServiceCdnPolicyCacheKeyPolicyOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -468,11 +468,11 @@ func (d *jsiiProxy_DataGoogleComputeRegionBackendServiceCdnPolicyCacheKeyPolicyO
 	return returns
 }
 
-func (d *jsiiProxy_DataGoogleComputeRegionBackendServiceCdnPolicyCacheKeyPolicyOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataGoogleComputeRegionBackendServiceCdnPolicyCacheKeyPolicyOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -484,7 +484,7 @@ func (d *jsiiProxy_DataGoogleComputeRegionBackendServiceCdnPolicyCacheKeyPolicyO
 	return returns
 }
 
-func (d *jsiiProxy_DataGoogleComputeRegionBackendServiceCdnPolicyCacheKeyPolicyOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataGoogleComputeRegionBackendServiceCdnPolicyCacheKeyPolicyOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

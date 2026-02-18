@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleEventarcGoogleChannelConfigTimeoutsOutputReference) val
 	return nil
 }
 
-func (g *jsiiProxy_GoogleEventarcGoogleChannelConfigTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleEventarcGoogleChannelConfigTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_GoogleEventarcGoogleChannelConfigTimeoutsOutputReference) val
 	return nil
 }
 
-func (j *jsiiProxy_GoogleEventarcGoogleChannelConfigTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleEventarcGoogleChannelConfigTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_GoogleEventarcGoogleChannelConfigTimeoutsOutputReference) val
 	return nil
 }
 
-func validateNewGoogleEventarcGoogleChannelConfigTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleEventarcGoogleChannelConfigTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

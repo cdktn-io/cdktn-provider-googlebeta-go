@@ -15,7 +15,7 @@ func (g *jsiiProxy_GoogleComputeInterconnectCircuitInfosList) validateGetParamet
 	return nil
 }
 
-func (g *jsiiProxy_GoogleComputeInterconnectCircuitInfosList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleComputeInterconnectCircuitInfosList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_GoogleComputeInterconnectCircuitInfosList) validateSetTerrafo
 	return nil
 }
 
-func (j *jsiiProxy_GoogleComputeInterconnectCircuitInfosList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleComputeInterconnectCircuitInfosList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_GoogleComputeInterconnectCircuitInfosList) validateSetWrapsSe
 	return nil
 }
 
-func validateNewGoogleComputeInterconnectCircuitInfosListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGoogleComputeInterconnectCircuitInfosListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleAppEngineStandardAppVersionVpcAccessConnectorOutputRefe
 	return nil
 }
 
-func (g *jsiiProxy_GoogleAppEngineStandardAppVersionVpcAccessConnectorOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleAppEngineStandardAppVersionVpcAccessConnectorOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_GoogleAppEngineStandardAppVersionVpcAccessConnectorOutputRefe
 	return nil
 }
 
-func (j *jsiiProxy_GoogleAppEngineStandardAppVersionVpcAccessConnectorOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleAppEngineStandardAppVersionVpcAccessConnectorOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleAppEngineStandardAppVersionVpcAccessConnectorOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleAppEngineStandardAppVersionVpcAccessConnectorOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

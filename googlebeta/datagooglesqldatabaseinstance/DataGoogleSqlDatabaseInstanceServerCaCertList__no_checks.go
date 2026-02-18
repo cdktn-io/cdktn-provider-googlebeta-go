@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataGoogleSqlDatabaseInstanceServerCaCertList) validateGetPar
 	return nil
 }
 
-func (d *jsiiProxy_DataGoogleSqlDatabaseInstanceServerCaCertList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataGoogleSqlDatabaseInstanceServerCaCertList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataGoogleSqlDatabaseInstanceServerCaCertList) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleSqlDatabaseInstanceServerCaCertList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataGoogleSqlDatabaseInstanceServerCaCertList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataGoogleSqlDatabaseInstanceServerCaCertList) validateSetWra
 	return nil
 }
 
-func validateNewDataGoogleSqlDatabaseInstanceServerCaCertListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataGoogleSqlDatabaseInstanceServerCaCertListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

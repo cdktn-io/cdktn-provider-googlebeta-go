@@ -5,21 +5,21 @@ package googlevmwareengineexternalaccessrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlevmwareengineexternalaccessrule/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlevmwareengineexternalaccessrule/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vmwareengine_external_access_rule google_vmwareengine_external_access_rule}.
 type GoogleVmwareengineExternalAccessRule interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	Action() *string
 	SetAction(val *string)
 	ActionInput() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -44,9 +44,9 @@ type GoogleVmwareengineExternalAccessRule interface {
 	SetDestinationPorts(val *[]*string)
 	DestinationPortsInput() *[]*string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -58,9 +58,9 @@ type GoogleVmwareengineExternalAccessRule interface {
 	SetIpProtocol(val *string)
 	IpProtocolInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
@@ -73,9 +73,9 @@ type GoogleVmwareengineExternalAccessRule interface {
 	SetPriority(val *float64)
 	PriorityInput() *float64
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -89,7 +89,7 @@ type GoogleVmwareengineExternalAccessRule interface {
 	SourcePortsInput() *[]*string
 	State() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -106,7 +106,7 @@ type GoogleVmwareengineExternalAccessRule interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -124,9 +124,9 @@ type GoogleVmwareengineExternalAccessRule interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -165,7 +165,7 @@ type GoogleVmwareengineExternalAccessRule interface {
 
 // The jsii proxy struct for GoogleVmwareengineExternalAccessRule
 type jsiiProxy_GoogleVmwareengineExternalAccessRule struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_GoogleVmwareengineExternalAccessRule) Action() *string {
@@ -188,8 +188,8 @@ func (j *jsiiProxy_GoogleVmwareengineExternalAccessRule) ActionInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleVmwareengineExternalAccessRule) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_GoogleVmwareengineExternalAccessRule) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -308,8 +308,8 @@ func (j *jsiiProxy_GoogleVmwareengineExternalAccessRule) DestinationPortsInput()
 	return returns
 }
 
-func (j *jsiiProxy_GoogleVmwareengineExternalAccessRule) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_GoogleVmwareengineExternalAccessRule) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -378,8 +378,8 @@ func (j *jsiiProxy_GoogleVmwareengineExternalAccessRule) IpProtocolInput() *stri
 	return returns
 }
 
-func (j *jsiiProxy_GoogleVmwareengineExternalAccessRule) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_GoogleVmwareengineExternalAccessRule) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -458,8 +458,8 @@ func (j *jsiiProxy_GoogleVmwareengineExternalAccessRule) PriorityInput() *float6
 	return returns
 }
 
-func (j *jsiiProxy_GoogleVmwareengineExternalAccessRule) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_GoogleVmwareengineExternalAccessRule) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -538,8 +538,8 @@ func (j *jsiiProxy_GoogleVmwareengineExternalAccessRule) State() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleVmwareengineExternalAccessRule) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_GoogleVmwareengineExternalAccessRule) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -701,7 +701,7 @@ func (j *jsiiProxy_GoogleVmwareengineExternalAccessRule)SetDestinationPorts(val 
 	)
 }
 
-func (j *jsiiProxy_GoogleVmwareengineExternalAccessRule)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_GoogleVmwareengineExternalAccessRule)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -731,7 +731,7 @@ func (j *jsiiProxy_GoogleVmwareengineExternalAccessRule)SetIpProtocol(val *strin
 	)
 }
 
-func (j *jsiiProxy_GoogleVmwareengineExternalAccessRule)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_GoogleVmwareengineExternalAccessRule)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -775,7 +775,7 @@ func (j *jsiiProxy_GoogleVmwareengineExternalAccessRule)SetPriority(val *float64
 	)
 }
 
-func (j *jsiiProxy_GoogleVmwareengineExternalAccessRule)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_GoogleVmwareengineExternalAccessRule)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -805,14 +805,14 @@ func (j *jsiiProxy_GoogleVmwareengineExternalAccessRule)SetSourcePorts(val *[]*s
 	)
 }
 
-// Generates CDKTF code for importing a GoogleVmwareengineExternalAccessRule resource upon running "cdktf plan <stack-name>".
-func GoogleVmwareengineExternalAccessRule_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a GoogleVmwareengineExternalAccessRule resource upon running "cdktn plan <stack-name>".
+func GoogleVmwareengineExternalAccessRule_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateGoogleVmwareengineExternalAccessRule_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google-beta.googleVmwareengineExternalAccessRule.GoogleVmwareengineExternalAccessRule",
@@ -946,11 +946,11 @@ func (g *jsiiProxy_GoogleVmwareengineExternalAccessRule) GetAnyMapAttribute(terr
 	return returns
 }
 
-func (g *jsiiProxy_GoogleVmwareengineExternalAccessRule) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleVmwareengineExternalAccessRule) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -1087,7 +1087,7 @@ func (g *jsiiProxy_GoogleVmwareengineExternalAccessRule) HasResourceMove() inter
 	return returns
 }
 
-func (g *jsiiProxy_GoogleVmwareengineExternalAccessRule) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (g *jsiiProxy_GoogleVmwareengineExternalAccessRule) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := g.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1098,11 +1098,11 @@ func (g *jsiiProxy_GoogleVmwareengineExternalAccessRule) ImportFrom(id *string, 
 	)
 }
 
-func (g *jsiiProxy_GoogleVmwareengineExternalAccessRule) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleVmwareengineExternalAccessRule) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,

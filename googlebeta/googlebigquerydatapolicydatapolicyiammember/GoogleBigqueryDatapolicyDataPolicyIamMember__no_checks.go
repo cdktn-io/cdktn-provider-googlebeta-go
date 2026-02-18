@@ -111,7 +111,7 @@ func (j *jsiiProxy_GoogleBigqueryDatapolicyDataPolicyIamMember) validateSetIdPar
 	return nil
 }
 
-func (j *jsiiProxy_GoogleBigqueryDatapolicyDataPolicyIamMember) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleBigqueryDatapolicyDataPolicyIamMember) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

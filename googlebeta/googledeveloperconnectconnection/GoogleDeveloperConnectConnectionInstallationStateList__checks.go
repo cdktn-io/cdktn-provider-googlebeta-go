@@ -8,7 +8,7 @@ package googledeveloperconnectconnection
 import (
 	"fmt"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (g *jsiiProxy_GoogleDeveloperConnectConnectionInstallationStateList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -27,7 +27,7 @@ func (g *jsiiProxy_GoogleDeveloperConnectConnectionInstallationStateList) valida
 	return nil
 }
 
-func (g *jsiiProxy_GoogleDeveloperConnectConnectionInstallationStateList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleDeveloperConnectConnectionInstallationStateList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -43,7 +43,7 @@ func (j *jsiiProxy_GoogleDeveloperConnectConnectionInstallationStateList) valida
 	return nil
 }
 
-func (j *jsiiProxy_GoogleDeveloperConnectConnectionInstallationStateList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleDeveloperConnectConnectionInstallationStateList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -59,7 +59,7 @@ func (j *jsiiProxy_GoogleDeveloperConnectConnectionInstallationStateList) valida
 	return nil
 }
 
-func validateNewGoogleDeveloperConnectConnectionInstallationStateListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGoogleDeveloperConnectConnectionInstallationStateListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataGoogleComputeBackendServiceOutlierDetectionIntervalList) 
 	return nil
 }
 
-func (d *jsiiProxy_DataGoogleComputeBackendServiceOutlierDetectionIntervalList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataGoogleComputeBackendServiceOutlierDetectionIntervalList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataGoogleComputeBackendServiceOutlierDetectionIntervalList) 
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleComputeBackendServiceOutlierDetectionIntervalList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataGoogleComputeBackendServiceOutlierDetectionIntervalList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataGoogleComputeBackendServiceOutlierDetectionIntervalList) 
 	return nil
 }
 
-func validateNewDataGoogleComputeBackendServiceOutlierDetectionIntervalListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataGoogleComputeBackendServiceOutlierDetectionIntervalListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

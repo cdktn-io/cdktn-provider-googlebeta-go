@@ -55,7 +55,7 @@ func (g *jsiiProxy_GoogleFilestoreInstancePerformanceConfigOutputReference) vali
 	return nil
 }
 
-func (g *jsiiProxy_GoogleFilestoreInstancePerformanceConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleFilestoreInstancePerformanceConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_GoogleFilestoreInstancePerformanceConfigOutputReference) vali
 	return nil
 }
 
-func (j *jsiiProxy_GoogleFilestoreInstancePerformanceConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleFilestoreInstancePerformanceConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleFilestoreInstancePerformanceConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleFilestoreInstancePerformanceConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

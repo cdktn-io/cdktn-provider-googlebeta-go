@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleContainerClusterMasterAuthClientCertificateConfigOutput
 	return nil
 }
 
-func (g *jsiiProxy_GoogleContainerClusterMasterAuthClientCertificateConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleContainerClusterMasterAuthClientCertificateConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_GoogleContainerClusterMasterAuthClientCertificateConfigOutput
 	return nil
 }
 
-func (j *jsiiProxy_GoogleContainerClusterMasterAuthClientCertificateConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleContainerClusterMasterAuthClientCertificateConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleContainerClusterMasterAuthClientCertificateConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleContainerClusterMasterAuthClientCertificateConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

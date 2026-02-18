@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleDataFusionInstanceEventPublishConfigOutputReference) va
 	return nil
 }
 
-func (g *jsiiProxy_GoogleDataFusionInstanceEventPublishConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleDataFusionInstanceEventPublishConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_GoogleDataFusionInstanceEventPublishConfigOutputReference) va
 	return nil
 }
 
-func (j *jsiiProxy_GoogleDataFusionInstanceEventPublishConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleDataFusionInstanceEventPublishConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_GoogleDataFusionInstanceEventPublishConfigOutputReference) va
 	return nil
 }
 
-func validateNewGoogleDataFusionInstanceEventPublishConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleDataFusionInstanceEventPublishConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -111,7 +111,7 @@ func (j *jsiiProxy_GoogleHealthcareHl7V2StoreIamBinding) validateSetIdParameters
 	return nil
 }
 
-func (j *jsiiProxy_GoogleHealthcareHl7V2StoreIamBinding) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleHealthcareHl7V2StoreIamBinding) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

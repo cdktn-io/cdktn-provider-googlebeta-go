@@ -5,21 +5,21 @@ package googleapigeeappgroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleapigeeappgroup/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleapigeeappgroup/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apigee_app_group google_apigee_app_group}.
 type GoogleApigeeAppGroup interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	AppGroupId() *string
 	Attributes() GoogleApigeeAppGroupAttributesList
 	AttributesInput() interface{}
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	ChannelId() *string
 	SetChannelId(val *string)
 	ChannelIdInput() *string
@@ -45,9 +45,9 @@ type GoogleApigeeAppGroup interface {
 	SetDisplayName(val *string)
 	DisplayNameInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -57,9 +57,9 @@ type GoogleApigeeAppGroup interface {
 	IdInput() *string
 	LastModifiedAt() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
@@ -70,9 +70,9 @@ type GoogleApigeeAppGroup interface {
 	SetOrgId(val *string)
 	OrgIdInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -83,7 +83,7 @@ type GoogleApigeeAppGroup interface {
 	SetStatus(val *string)
 	StatusInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -98,7 +98,7 @@ type GoogleApigeeAppGroup interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -116,9 +116,9 @@ type GoogleApigeeAppGroup interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -160,7 +160,7 @@ type GoogleApigeeAppGroup interface {
 
 // The jsii proxy struct for GoogleApigeeAppGroup
 type jsiiProxy_GoogleApigeeAppGroup struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_GoogleApigeeAppGroup) AppGroupId() *string {
@@ -193,8 +193,8 @@ func (j *jsiiProxy_GoogleApigeeAppGroup) AttributesInput() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleApigeeAppGroup) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_GoogleApigeeAppGroup) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -313,8 +313,8 @@ func (j *jsiiProxy_GoogleApigeeAppGroup) DisplayNameInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleApigeeAppGroup) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_GoogleApigeeAppGroup) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -373,8 +373,8 @@ func (j *jsiiProxy_GoogleApigeeAppGroup) LastModifiedAt() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleApigeeAppGroup) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_GoogleApigeeAppGroup) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -443,8 +443,8 @@ func (j *jsiiProxy_GoogleApigeeAppGroup) OrgIdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleApigeeAppGroup) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_GoogleApigeeAppGroup) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -493,8 +493,8 @@ func (j *jsiiProxy_GoogleApigeeAppGroup) StatusInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleApigeeAppGroup) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_GoogleApigeeAppGroup) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -636,7 +636,7 @@ func (j *jsiiProxy_GoogleApigeeAppGroup)SetDisplayName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_GoogleApigeeAppGroup)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_GoogleApigeeAppGroup)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -655,7 +655,7 @@ func (j *jsiiProxy_GoogleApigeeAppGroup)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_GoogleApigeeAppGroup)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_GoogleApigeeAppGroup)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -688,7 +688,7 @@ func (j *jsiiProxy_GoogleApigeeAppGroup)SetOrgId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_GoogleApigeeAppGroup)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_GoogleApigeeAppGroup)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -718,14 +718,14 @@ func (j *jsiiProxy_GoogleApigeeAppGroup)SetStatus(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a GoogleApigeeAppGroup resource upon running "cdktf plan <stack-name>".
-func GoogleApigeeAppGroup_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a GoogleApigeeAppGroup resource upon running "cdktn plan <stack-name>".
+func GoogleApigeeAppGroup_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateGoogleApigeeAppGroup_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google-beta.googleApigeeAppGroup.GoogleApigeeAppGroup",
@@ -859,11 +859,11 @@ func (g *jsiiProxy_GoogleApigeeAppGroup) GetAnyMapAttribute(terraformAttribute *
 	return returns
 }
 
-func (g *jsiiProxy_GoogleApigeeAppGroup) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleApigeeAppGroup) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -1000,7 +1000,7 @@ func (g *jsiiProxy_GoogleApigeeAppGroup) HasResourceMove() interface{} {
 	return returns
 }
 
-func (g *jsiiProxy_GoogleApigeeAppGroup) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (g *jsiiProxy_GoogleApigeeAppGroup) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := g.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1011,11 +1011,11 @@ func (g *jsiiProxy_GoogleApigeeAppGroup) ImportFrom(id *string, provider cdktf.T
 	)
 }
 
-func (g *jsiiProxy_GoogleApigeeAppGroup) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleApigeeAppGroup) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,

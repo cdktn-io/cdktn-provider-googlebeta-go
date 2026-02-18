@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleComputeInstanceFromMachineImageSchedulingNodeAffinities
 	return nil
 }
 
-func (g *jsiiProxy_GoogleComputeInstanceFromMachineImageSchedulingNodeAffinitiesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleComputeInstanceFromMachineImageSchedulingNodeAffinitiesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_GoogleComputeInstanceFromMachineImageSchedulingNodeAffinities
 	return nil
 }
 
-func (j *jsiiProxy_GoogleComputeInstanceFromMachineImageSchedulingNodeAffinitiesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleComputeInstanceFromMachineImageSchedulingNodeAffinitiesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_GoogleComputeInstanceFromMachineImageSchedulingNodeAffinities
 	return nil
 }
 
-func validateNewGoogleComputeInstanceFromMachineImageSchedulingNodeAffinitiesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewGoogleComputeInstanceFromMachineImageSchedulingNodeAffinitiesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

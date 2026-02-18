@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleDnsResponsePolicyRuleLocalDataLocalDatasOutputReference
 	return nil
 }
 
-func (g *jsiiProxy_GoogleDnsResponsePolicyRuleLocalDataLocalDatasOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleDnsResponsePolicyRuleLocalDataLocalDatasOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_GoogleDnsResponsePolicyRuleLocalDataLocalDatasOutputReference
 	return nil
 }
 
-func (j *jsiiProxy_GoogleDnsResponsePolicyRuleLocalDataLocalDatasOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleDnsResponsePolicyRuleLocalDataLocalDatasOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_GoogleDnsResponsePolicyRuleLocalDataLocalDatasOutputReference
 	return nil
 }
 
-func validateNewGoogleDnsResponsePolicyRuleLocalDataLocalDatasOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewGoogleDnsResponsePolicyRuleLocalDataLocalDatasOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

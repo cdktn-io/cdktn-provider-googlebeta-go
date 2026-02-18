@@ -15,7 +15,7 @@ func (g *jsiiProxy_GoogleColabRuntimeTemplateSoftwareConfigEnvList) validateGetP
 	return nil
 }
 
-func (g *jsiiProxy_GoogleColabRuntimeTemplateSoftwareConfigEnvList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleColabRuntimeTemplateSoftwareConfigEnvList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_GoogleColabRuntimeTemplateSoftwareConfigEnvList) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_GoogleColabRuntimeTemplateSoftwareConfigEnvList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleColabRuntimeTemplateSoftwareConfigEnvList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_GoogleColabRuntimeTemplateSoftwareConfigEnvList) validateSetW
 	return nil
 }
 
-func validateNewGoogleColabRuntimeTemplateSoftwareConfigEnvListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGoogleColabRuntimeTemplateSoftwareConfigEnvListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

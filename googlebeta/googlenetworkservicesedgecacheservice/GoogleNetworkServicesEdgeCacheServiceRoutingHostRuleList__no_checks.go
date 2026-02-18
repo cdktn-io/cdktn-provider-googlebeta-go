@@ -15,7 +15,7 @@ func (g *jsiiProxy_GoogleNetworkServicesEdgeCacheServiceRoutingHostRuleList) val
 	return nil
 }
 
-func (g *jsiiProxy_GoogleNetworkServicesEdgeCacheServiceRoutingHostRuleList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleNetworkServicesEdgeCacheServiceRoutingHostRuleList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_GoogleNetworkServicesEdgeCacheServiceRoutingHostRuleList) val
 	return nil
 }
 
-func (j *jsiiProxy_GoogleNetworkServicesEdgeCacheServiceRoutingHostRuleList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleNetworkServicesEdgeCacheServiceRoutingHostRuleList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_GoogleNetworkServicesEdgeCacheServiceRoutingHostRuleList) val
 	return nil
 }
 
-func validateNewGoogleNetworkServicesEdgeCacheServiceRoutingHostRuleListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGoogleNetworkServicesEdgeCacheServiceRoutingHostRuleListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

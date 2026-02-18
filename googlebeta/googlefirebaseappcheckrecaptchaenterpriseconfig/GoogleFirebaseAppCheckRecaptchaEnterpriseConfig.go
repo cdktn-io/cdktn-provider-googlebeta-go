@@ -5,21 +5,21 @@ package googlefirebaseappcheckrecaptchaenterpriseconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlefirebaseappcheckrecaptchaenterpriseconfig/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlefirebaseappcheckrecaptchaenterpriseconfig/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_firebase_app_check_recaptcha_enterprise_config google_firebase_app_check_recaptcha_enterprise_config}.
 type GoogleFirebaseAppCheckRecaptchaEnterpriseConfig interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	AppId() *string
 	SetAppId(val *string)
 	AppIdInput() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -35,9 +35,9 @@ type GoogleFirebaseAppCheckRecaptchaEnterpriseConfig interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -46,9 +46,9 @@ type GoogleFirebaseAppCheckRecaptchaEnterpriseConfig interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Name() *string
 	// The tree node.
 	Node() constructs.Node
@@ -56,9 +56,9 @@ type GoogleFirebaseAppCheckRecaptchaEnterpriseConfig interface {
 	SetProject(val *string)
 	ProjectInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -69,7 +69,7 @@ type GoogleFirebaseAppCheckRecaptchaEnterpriseConfig interface {
 	SetSiteKey(val *string)
 	SiteKeyInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -87,7 +87,7 @@ type GoogleFirebaseAppCheckRecaptchaEnterpriseConfig interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -105,9 +105,9 @@ type GoogleFirebaseAppCheckRecaptchaEnterpriseConfig interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -145,7 +145,7 @@ type GoogleFirebaseAppCheckRecaptchaEnterpriseConfig interface {
 
 // The jsii proxy struct for GoogleFirebaseAppCheckRecaptchaEnterpriseConfig
 type jsiiProxy_GoogleFirebaseAppCheckRecaptchaEnterpriseConfig struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_GoogleFirebaseAppCheckRecaptchaEnterpriseConfig) AppId() *string {
@@ -168,8 +168,8 @@ func (j *jsiiProxy_GoogleFirebaseAppCheckRecaptchaEnterpriseConfig) AppIdInput()
 	return returns
 }
 
-func (j *jsiiProxy_GoogleFirebaseAppCheckRecaptchaEnterpriseConfig) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_GoogleFirebaseAppCheckRecaptchaEnterpriseConfig) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -218,8 +218,8 @@ func (j *jsiiProxy_GoogleFirebaseAppCheckRecaptchaEnterpriseConfig) DependsOn() 
 	return returns
 }
 
-func (j *jsiiProxy_GoogleFirebaseAppCheckRecaptchaEnterpriseConfig) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_GoogleFirebaseAppCheckRecaptchaEnterpriseConfig) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -268,8 +268,8 @@ func (j *jsiiProxy_GoogleFirebaseAppCheckRecaptchaEnterpriseConfig) IdInput() *s
 	return returns
 }
 
-func (j *jsiiProxy_GoogleFirebaseAppCheckRecaptchaEnterpriseConfig) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_GoogleFirebaseAppCheckRecaptchaEnterpriseConfig) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -318,8 +318,8 @@ func (j *jsiiProxy_GoogleFirebaseAppCheckRecaptchaEnterpriseConfig) ProjectInput
 	return returns
 }
 
-func (j *jsiiProxy_GoogleFirebaseAppCheckRecaptchaEnterpriseConfig) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_GoogleFirebaseAppCheckRecaptchaEnterpriseConfig) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -368,8 +368,8 @@ func (j *jsiiProxy_GoogleFirebaseAppCheckRecaptchaEnterpriseConfig) SiteKeyInput
 	return returns
 }
 
-func (j *jsiiProxy_GoogleFirebaseAppCheckRecaptchaEnterpriseConfig) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_GoogleFirebaseAppCheckRecaptchaEnterpriseConfig) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -509,7 +509,7 @@ func (j *jsiiProxy_GoogleFirebaseAppCheckRecaptchaEnterpriseConfig)SetDependsOn(
 	)
 }
 
-func (j *jsiiProxy_GoogleFirebaseAppCheckRecaptchaEnterpriseConfig)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_GoogleFirebaseAppCheckRecaptchaEnterpriseConfig)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -528,7 +528,7 @@ func (j *jsiiProxy_GoogleFirebaseAppCheckRecaptchaEnterpriseConfig)SetId(val *st
 	)
 }
 
-func (j *jsiiProxy_GoogleFirebaseAppCheckRecaptchaEnterpriseConfig)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_GoogleFirebaseAppCheckRecaptchaEnterpriseConfig)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -550,7 +550,7 @@ func (j *jsiiProxy_GoogleFirebaseAppCheckRecaptchaEnterpriseConfig)SetProject(va
 	)
 }
 
-func (j *jsiiProxy_GoogleFirebaseAppCheckRecaptchaEnterpriseConfig)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_GoogleFirebaseAppCheckRecaptchaEnterpriseConfig)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -591,14 +591,14 @@ func (j *jsiiProxy_GoogleFirebaseAppCheckRecaptchaEnterpriseConfig)SetTokenTtl(v
 	)
 }
 
-// Generates CDKTF code for importing a GoogleFirebaseAppCheckRecaptchaEnterpriseConfig resource upon running "cdktf plan <stack-name>".
-func GoogleFirebaseAppCheckRecaptchaEnterpriseConfig_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a GoogleFirebaseAppCheckRecaptchaEnterpriseConfig resource upon running "cdktn plan <stack-name>".
+func GoogleFirebaseAppCheckRecaptchaEnterpriseConfig_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateGoogleFirebaseAppCheckRecaptchaEnterpriseConfig_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google-beta.googleFirebaseAppCheckRecaptchaEnterpriseConfig.GoogleFirebaseAppCheckRecaptchaEnterpriseConfig",
@@ -732,11 +732,11 @@ func (g *jsiiProxy_GoogleFirebaseAppCheckRecaptchaEnterpriseConfig) GetAnyMapAtt
 	return returns
 }
 
-func (g *jsiiProxy_GoogleFirebaseAppCheckRecaptchaEnterpriseConfig) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleFirebaseAppCheckRecaptchaEnterpriseConfig) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -873,7 +873,7 @@ func (g *jsiiProxy_GoogleFirebaseAppCheckRecaptchaEnterpriseConfig) HasResourceM
 	return returns
 }
 
-func (g *jsiiProxy_GoogleFirebaseAppCheckRecaptchaEnterpriseConfig) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (g *jsiiProxy_GoogleFirebaseAppCheckRecaptchaEnterpriseConfig) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := g.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -884,11 +884,11 @@ func (g *jsiiProxy_GoogleFirebaseAppCheckRecaptchaEnterpriseConfig) ImportFrom(i
 	)
 }
 
-func (g *jsiiProxy_GoogleFirebaseAppCheckRecaptchaEnterpriseConfig) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleFirebaseAppCheckRecaptchaEnterpriseConfig) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,

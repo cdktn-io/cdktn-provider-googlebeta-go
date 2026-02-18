@@ -15,7 +15,7 @@ func (g *jsiiProxy_GoogleStorageInsightsDatasetConfigIncludeCloudStorageBucketsC
 	return nil
 }
 
-func (g *jsiiProxy_GoogleStorageInsightsDatasetConfigIncludeCloudStorageBucketsCloudStorageBucketsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleStorageInsightsDatasetConfigIncludeCloudStorageBucketsCloudStorageBucketsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_GoogleStorageInsightsDatasetConfigIncludeCloudStorageBucketsC
 	return nil
 }
 
-func (j *jsiiProxy_GoogleStorageInsightsDatasetConfigIncludeCloudStorageBucketsCloudStorageBucketsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleStorageInsightsDatasetConfigIncludeCloudStorageBucketsCloudStorageBucketsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_GoogleStorageInsightsDatasetConfigIncludeCloudStorageBucketsC
 	return nil
 }
 
-func validateNewGoogleStorageInsightsDatasetConfigIncludeCloudStorageBucketsCloudStorageBucketsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGoogleStorageInsightsDatasetConfigIncludeCloudStorageBucketsCloudStorageBucketsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

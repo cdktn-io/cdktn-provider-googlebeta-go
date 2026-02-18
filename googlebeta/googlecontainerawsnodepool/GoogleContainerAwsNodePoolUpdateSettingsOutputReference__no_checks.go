@@ -51,7 +51,7 @@ func (g *jsiiProxy_GoogleContainerAwsNodePoolUpdateSettingsOutputReference) vali
 	return nil
 }
 
-func (g *jsiiProxy_GoogleContainerAwsNodePoolUpdateSettingsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleContainerAwsNodePoolUpdateSettingsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_GoogleContainerAwsNodePoolUpdateSettingsOutputReference) vali
 	return nil
 }
 
-func (j *jsiiProxy_GoogleContainerAwsNodePoolUpdateSettingsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleContainerAwsNodePoolUpdateSettingsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleContainerAwsNodePoolUpdateSettingsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleContainerAwsNodePoolUpdateSettingsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

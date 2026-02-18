@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleMigrationCenterPreferenceSetTimeoutsOutputReference) va
 	return nil
 }
 
-func (g *jsiiProxy_GoogleMigrationCenterPreferenceSetTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleMigrationCenterPreferenceSetTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_GoogleMigrationCenterPreferenceSetTimeoutsOutputReference) va
 	return nil
 }
 
-func (j *jsiiProxy_GoogleMigrationCenterPreferenceSetTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleMigrationCenterPreferenceSetTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_GoogleMigrationCenterPreferenceSetTimeoutsOutputReference) va
 	return nil
 }
 
-func validateNewGoogleMigrationCenterPreferenceSetTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleMigrationCenterPreferenceSetTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

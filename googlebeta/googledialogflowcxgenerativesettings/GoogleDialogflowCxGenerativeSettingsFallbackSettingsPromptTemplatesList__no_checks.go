@@ -15,7 +15,7 @@ func (g *jsiiProxy_GoogleDialogflowCxGenerativeSettingsFallbackSettingsPromptTem
 	return nil
 }
 
-func (g *jsiiProxy_GoogleDialogflowCxGenerativeSettingsFallbackSettingsPromptTemplatesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleDialogflowCxGenerativeSettingsFallbackSettingsPromptTemplatesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_GoogleDialogflowCxGenerativeSettingsFallbackSettingsPromptTem
 	return nil
 }
 
-func (j *jsiiProxy_GoogleDialogflowCxGenerativeSettingsFallbackSettingsPromptTemplatesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleDialogflowCxGenerativeSettingsFallbackSettingsPromptTemplatesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_GoogleDialogflowCxGenerativeSettingsFallbackSettingsPromptTem
 	return nil
 }
 
-func validateNewGoogleDialogflowCxGenerativeSettingsFallbackSettingsPromptTemplatesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGoogleDialogflowCxGenerativeSettingsFallbackSettingsPromptTemplatesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

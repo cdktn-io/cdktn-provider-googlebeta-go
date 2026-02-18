@@ -5,14 +5,14 @@ package googlegkeonpremvmwareadmincluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlegkeonpremvmwareadmincluster/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlegkeonpremvmwareadmincluster/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type GoogleGkeonpremVmwareAdminClusterLoadBalancerManualLbConfigOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AddonsNodePort() *float64
 	SetAddonsNodePort(val *float64)
 	AddonsNodePortInput() *float64
@@ -52,15 +52,15 @@ type GoogleGkeonpremVmwareAdminClusterLoadBalancerManualLbConfigOutputReference 
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -76,9 +76,9 @@ type GoogleGkeonpremVmwareAdminClusterLoadBalancerManualLbConfigOutputReference 
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetAddonsNodePort()
 	ResetControlPlaneNodePort()
 	ResetIngressHttpNodePort()
@@ -86,7 +86,7 @@ type GoogleGkeonpremVmwareAdminClusterLoadBalancerManualLbConfigOutputReference 
 	ResetKonnectivityServerNodePort()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -96,7 +96,7 @@ type GoogleGkeonpremVmwareAdminClusterLoadBalancerManualLbConfigOutputReference 
 
 // The jsii proxy struct for GoogleGkeonpremVmwareAdminClusterLoadBalancerManualLbConfigOutputReference
 type jsiiProxy_GoogleGkeonpremVmwareAdminClusterLoadBalancerManualLbConfigOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_GoogleGkeonpremVmwareAdminClusterLoadBalancerManualLbConfigOutputReference) AddonsNodePort() *float64 {
@@ -259,8 +259,8 @@ func (j *jsiiProxy_GoogleGkeonpremVmwareAdminClusterLoadBalancerManualLbConfigOu
 	return returns
 }
 
-func (j *jsiiProxy_GoogleGkeonpremVmwareAdminClusterLoadBalancerManualLbConfigOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_GoogleGkeonpremVmwareAdminClusterLoadBalancerManualLbConfigOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -270,7 +270,7 @@ func (j *jsiiProxy_GoogleGkeonpremVmwareAdminClusterLoadBalancerManualLbConfigOu
 }
 
 
-func NewGoogleGkeonpremVmwareAdminClusterLoadBalancerManualLbConfigOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) GoogleGkeonpremVmwareAdminClusterLoadBalancerManualLbConfigOutputReference {
+func NewGoogleGkeonpremVmwareAdminClusterLoadBalancerManualLbConfigOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) GoogleGkeonpremVmwareAdminClusterLoadBalancerManualLbConfigOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewGoogleGkeonpremVmwareAdminClusterLoadBalancerManualLbConfigOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -287,7 +287,7 @@ func NewGoogleGkeonpremVmwareAdminClusterLoadBalancerManualLbConfigOutputReferen
 	return &j
 }
 
-func NewGoogleGkeonpremVmwareAdminClusterLoadBalancerManualLbConfigOutputReference_Override(g GoogleGkeonpremVmwareAdminClusterLoadBalancerManualLbConfigOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewGoogleGkeonpremVmwareAdminClusterLoadBalancerManualLbConfigOutputReference_Override(g GoogleGkeonpremVmwareAdminClusterLoadBalancerManualLbConfigOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -396,7 +396,7 @@ func (j *jsiiProxy_GoogleGkeonpremVmwareAdminClusterLoadBalancerManualLbConfigOu
 	)
 }
 
-func (j *jsiiProxy_GoogleGkeonpremVmwareAdminClusterLoadBalancerManualLbConfigOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_GoogleGkeonpremVmwareAdminClusterLoadBalancerManualLbConfigOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -436,11 +436,11 @@ func (g *jsiiProxy_GoogleGkeonpremVmwareAdminClusterLoadBalancerManualLbConfigOu
 	return returns
 }
 
-func (g *jsiiProxy_GoogleGkeonpremVmwareAdminClusterLoadBalancerManualLbConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleGkeonpremVmwareAdminClusterLoadBalancerManualLbConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -564,8 +564,8 @@ func (g *jsiiProxy_GoogleGkeonpremVmwareAdminClusterLoadBalancerManualLbConfigOu
 	return returns
 }
 
-func (g *jsiiProxy_GoogleGkeonpremVmwareAdminClusterLoadBalancerManualLbConfigOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (g *jsiiProxy_GoogleGkeonpremVmwareAdminClusterLoadBalancerManualLbConfigOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -577,11 +577,11 @@ func (g *jsiiProxy_GoogleGkeonpremVmwareAdminClusterLoadBalancerManualLbConfigOu
 	return returns
 }
 
-func (g *jsiiProxy_GoogleGkeonpremVmwareAdminClusterLoadBalancerManualLbConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleGkeonpremVmwareAdminClusterLoadBalancerManualLbConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -633,7 +633,7 @@ func (g *jsiiProxy_GoogleGkeonpremVmwareAdminClusterLoadBalancerManualLbConfigOu
 	)
 }
 
-func (g *jsiiProxy_GoogleGkeonpremVmwareAdminClusterLoadBalancerManualLbConfigOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (g *jsiiProxy_GoogleGkeonpremVmwareAdminClusterLoadBalancerManualLbConfigOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

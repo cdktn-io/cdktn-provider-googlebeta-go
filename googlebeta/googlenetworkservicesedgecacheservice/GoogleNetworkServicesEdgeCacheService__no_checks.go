@@ -139,7 +139,7 @@ func (j *jsiiProxy_GoogleNetworkServicesEdgeCacheService) validateSetLabelsParam
 	return nil
 }
 
-func (j *jsiiProxy_GoogleNetworkServicesEdgeCacheService) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleNetworkServicesEdgeCacheService) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

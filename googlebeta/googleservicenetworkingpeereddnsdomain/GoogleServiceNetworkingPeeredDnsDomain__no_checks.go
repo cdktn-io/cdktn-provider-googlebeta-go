@@ -111,7 +111,7 @@ func (j *jsiiProxy_GoogleServiceNetworkingPeeredDnsDomain) validateSetIdParamete
 	return nil
 }
 
-func (j *jsiiProxy_GoogleServiceNetworkingPeeredDnsDomain) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleServiceNetworkingPeeredDnsDomain) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -5,18 +5,18 @@ package datagooglecontainerregistryrepository
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagooglecontainerregistryrepository/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagooglecontainerregistryrepository/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_container_registry_repository google_container_registry_repository}.
 type DataGoogleContainerRegistryRepository interface {
-	cdktf.TerraformDataSource
+	cdktn.TerraformDataSource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
 	// Experimental.
@@ -28,9 +28,9 @@ type DataGoogleContainerRegistryRepository interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -39,18 +39,18 @@ type DataGoogleContainerRegistryRepository interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	// The tree node.
 	Node() constructs.Node
 	Project() *string
 	SetProject(val *string)
 	ProjectInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	RawOverrides() interface{}
 	Region() *string
@@ -58,7 +58,7 @@ type DataGoogleContainerRegistryRepository interface {
 	RegionInput() *string
 	RepositoryUrl() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -68,7 +68,7 @@ type DataGoogleContainerRegistryRepository interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -84,7 +84,7 @@ type DataGoogleContainerRegistryRepository interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
@@ -110,11 +110,11 @@ type DataGoogleContainerRegistryRepository interface {
 
 // The jsii proxy struct for DataGoogleContainerRegistryRepository
 type jsiiProxy_DataGoogleContainerRegistryRepository struct {
-	internal.Type__cdktfTerraformDataSource
+	internal.Type__cdktnTerraformDataSource
 }
 
-func (j *jsiiProxy_DataGoogleContainerRegistryRepository) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataGoogleContainerRegistryRepository) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -153,8 +153,8 @@ func (j *jsiiProxy_DataGoogleContainerRegistryRepository) DependsOn() *[]*string
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleContainerRegistryRepository) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataGoogleContainerRegistryRepository) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -203,8 +203,8 @@ func (j *jsiiProxy_DataGoogleContainerRegistryRepository) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleContainerRegistryRepository) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataGoogleContainerRegistryRepository) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -243,8 +243,8 @@ func (j *jsiiProxy_DataGoogleContainerRegistryRepository) ProjectInput() *string
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleContainerRegistryRepository) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataGoogleContainerRegistryRepository) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -293,8 +293,8 @@ func (j *jsiiProxy_DataGoogleContainerRegistryRepository) RepositoryUrl() *strin
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleContainerRegistryRepository) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataGoogleContainerRegistryRepository) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -372,7 +372,7 @@ func (j *jsiiProxy_DataGoogleContainerRegistryRepository)SetDependsOn(val *[]*st
 	)
 }
 
-func (j *jsiiProxy_DataGoogleContainerRegistryRepository)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataGoogleContainerRegistryRepository)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -391,7 +391,7 @@ func (j *jsiiProxy_DataGoogleContainerRegistryRepository)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataGoogleContainerRegistryRepository)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataGoogleContainerRegistryRepository)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -413,7 +413,7 @@ func (j *jsiiProxy_DataGoogleContainerRegistryRepository)SetProject(val *string)
 	)
 }
 
-func (j *jsiiProxy_DataGoogleContainerRegistryRepository)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataGoogleContainerRegistryRepository)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -432,14 +432,14 @@ func (j *jsiiProxy_DataGoogleContainerRegistryRepository)SetRegion(val *string) 
 	)
 }
 
-// Generates CDKTF code for importing a DataGoogleContainerRegistryRepository resource upon running "cdktf plan <stack-name>".
-func DataGoogleContainerRegistryRepository_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataGoogleContainerRegistryRepository resource upon running "cdktn plan <stack-name>".
+func DataGoogleContainerRegistryRepository_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataGoogleContainerRegistryRepository_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google-beta.dataGoogleContainerRegistryRepository.DataGoogleContainerRegistryRepository",
@@ -562,11 +562,11 @@ func (d *jsiiProxy_DataGoogleContainerRegistryRepository) GetAnyMapAttribute(ter
 	return returns
 }
 
-func (d *jsiiProxy_DataGoogleContainerRegistryRepository) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataGoogleContainerRegistryRepository) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -690,11 +690,11 @@ func (d *jsiiProxy_DataGoogleContainerRegistryRepository) GetStringMapAttribute(
 	return returns
 }
 
-func (d *jsiiProxy_DataGoogleContainerRegistryRepository) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataGoogleContainerRegistryRepository) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

@@ -87,7 +87,7 @@ func (j *jsiiProxy_DataGoogleVertexAiFeatureOnlineStoreFeatureviewIamPolicy) val
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleVertexAiFeatureOnlineStoreFeatureviewIamPolicy) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataGoogleVertexAiFeatureOnlineStoreFeatureviewIamPolicy) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

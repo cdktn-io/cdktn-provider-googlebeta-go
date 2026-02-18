@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataGoogleArtifactRegistryVersionRelatedTagsList) validateGet
 	return nil
 }
 
-func (d *jsiiProxy_DataGoogleArtifactRegistryVersionRelatedTagsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataGoogleArtifactRegistryVersionRelatedTagsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataGoogleArtifactRegistryVersionRelatedTagsList) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleArtifactRegistryVersionRelatedTagsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataGoogleArtifactRegistryVersionRelatedTagsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataGoogleArtifactRegistryVersionRelatedTagsList) validateSet
 	return nil
 }
 
-func validateNewDataGoogleArtifactRegistryVersionRelatedTagsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataGoogleArtifactRegistryVersionRelatedTagsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

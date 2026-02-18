@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleAssuredWorkloadsWorkloadSaaEnrollmentResponseOutputRefe
 	return nil
 }
 
-func (g *jsiiProxy_GoogleAssuredWorkloadsWorkloadSaaEnrollmentResponseOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleAssuredWorkloadsWorkloadSaaEnrollmentResponseOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_GoogleAssuredWorkloadsWorkloadSaaEnrollmentResponseOutputRefe
 	return nil
 }
 
-func (j *jsiiProxy_GoogleAssuredWorkloadsWorkloadSaaEnrollmentResponseOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleAssuredWorkloadsWorkloadSaaEnrollmentResponseOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleAssuredWorkloadsWorkloadSaaEnrollmentResponseOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewGoogleAssuredWorkloadsWorkloadSaaEnrollmentResponseOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

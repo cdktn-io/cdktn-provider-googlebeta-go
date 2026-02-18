@@ -5,14 +5,14 @@ package googledataprocgdcsparkapplication
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googledataprocgdcsparkapplication/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocgdcsparkapplication/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type GoogleDataprocGdcSparkApplicationSparkSqlApplicationConfigQueryListStructOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -40,15 +40,15 @@ type GoogleDataprocGdcSparkApplicationSparkSqlApplicationConfigQueryListStructOu
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -64,12 +64,12 @@ type GoogleDataprocGdcSparkApplicationSparkSqlApplicationConfigQueryListStructOu
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -79,7 +79,7 @@ type GoogleDataprocGdcSparkApplicationSparkSqlApplicationConfigQueryListStructOu
 
 // The jsii proxy struct for GoogleDataprocGdcSparkApplicationSparkSqlApplicationConfigQueryListStructOutputReference
 type jsiiProxy_GoogleDataprocGdcSparkApplicationSparkSqlApplicationConfigQueryListStructOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_GoogleDataprocGdcSparkApplicationSparkSqlApplicationConfigQueryListStructOutputReference) ComplexObjectIndex() interface{} {
@@ -162,8 +162,8 @@ func (j *jsiiProxy_GoogleDataprocGdcSparkApplicationSparkSqlApplicationConfigQue
 	return returns
 }
 
-func (j *jsiiProxy_GoogleDataprocGdcSparkApplicationSparkSqlApplicationConfigQueryListStructOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_GoogleDataprocGdcSparkApplicationSparkSqlApplicationConfigQueryListStructOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -173,7 +173,7 @@ func (j *jsiiProxy_GoogleDataprocGdcSparkApplicationSparkSqlApplicationConfigQue
 }
 
 
-func NewGoogleDataprocGdcSparkApplicationSparkSqlApplicationConfigQueryListStructOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) GoogleDataprocGdcSparkApplicationSparkSqlApplicationConfigQueryListStructOutputReference {
+func NewGoogleDataprocGdcSparkApplicationSparkSqlApplicationConfigQueryListStructOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) GoogleDataprocGdcSparkApplicationSparkSqlApplicationConfigQueryListStructOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewGoogleDataprocGdcSparkApplicationSparkSqlApplicationConfigQueryListStructOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -190,7 +190,7 @@ func NewGoogleDataprocGdcSparkApplicationSparkSqlApplicationConfigQueryListStruc
 	return &j
 }
 
-func NewGoogleDataprocGdcSparkApplicationSparkSqlApplicationConfigQueryListStructOutputReference_Override(g GoogleDataprocGdcSparkApplicationSparkSqlApplicationConfigQueryListStructOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewGoogleDataprocGdcSparkApplicationSparkSqlApplicationConfigQueryListStructOutputReference_Override(g GoogleDataprocGdcSparkApplicationSparkSqlApplicationConfigQueryListStructOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -255,7 +255,7 @@ func (j *jsiiProxy_GoogleDataprocGdcSparkApplicationSparkSqlApplicationConfigQue
 	)
 }
 
-func (j *jsiiProxy_GoogleDataprocGdcSparkApplicationSparkSqlApplicationConfigQueryListStructOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_GoogleDataprocGdcSparkApplicationSparkSqlApplicationConfigQueryListStructOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -295,11 +295,11 @@ func (g *jsiiProxy_GoogleDataprocGdcSparkApplicationSparkSqlApplicationConfigQue
 	return returns
 }
 
-func (g *jsiiProxy_GoogleDataprocGdcSparkApplicationSparkSqlApplicationConfigQueryListStructOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleDataprocGdcSparkApplicationSparkSqlApplicationConfigQueryListStructOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -423,8 +423,8 @@ func (g *jsiiProxy_GoogleDataprocGdcSparkApplicationSparkSqlApplicationConfigQue
 	return returns
 }
 
-func (g *jsiiProxy_GoogleDataprocGdcSparkApplicationSparkSqlApplicationConfigQueryListStructOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (g *jsiiProxy_GoogleDataprocGdcSparkApplicationSparkSqlApplicationConfigQueryListStructOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -436,11 +436,11 @@ func (g *jsiiProxy_GoogleDataprocGdcSparkApplicationSparkSqlApplicationConfigQue
 	return returns
 }
 
-func (g *jsiiProxy_GoogleDataprocGdcSparkApplicationSparkSqlApplicationConfigQueryListStructOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleDataprocGdcSparkApplicationSparkSqlApplicationConfigQueryListStructOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -452,7 +452,7 @@ func (g *jsiiProxy_GoogleDataprocGdcSparkApplicationSparkSqlApplicationConfigQue
 	return returns
 }
 
-func (g *jsiiProxy_GoogleDataprocGdcSparkApplicationSparkSqlApplicationConfigQueryListStructOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (g *jsiiProxy_GoogleDataprocGdcSparkApplicationSparkSqlApplicationConfigQueryListStructOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

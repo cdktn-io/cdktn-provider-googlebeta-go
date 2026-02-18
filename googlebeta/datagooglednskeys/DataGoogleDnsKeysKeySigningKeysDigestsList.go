@@ -5,14 +5,14 @@ package datagooglednskeys
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagooglednskeys/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagooglednskeys/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataGoogleDnsKeysKeySigningKeysDigestsList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -24,8 +24,8 @@ type DataGoogleDnsKeysKeySigningKeysDigestsList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -33,13 +33,13 @@ type DataGoogleDnsKeysKeySigningKeysDigestsList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) DataGoogleDnsKeysKeySigningKeysDigestsOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -49,7 +49,7 @@ type DataGoogleDnsKeysKeySigningKeysDigestsList interface {
 
 // The jsii proxy struct for DataGoogleDnsKeysKeySigningKeysDigestsList
 type jsiiProxy_DataGoogleDnsKeysKeySigningKeysDigestsList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_DataGoogleDnsKeysKeySigningKeysDigestsList) CreationStack() *[]*string {
@@ -82,8 +82,8 @@ func (j *jsiiProxy_DataGoogleDnsKeysKeySigningKeysDigestsList) TerraformAttribut
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleDnsKeysKeySigningKeysDigestsList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataGoogleDnsKeysKeySigningKeysDigestsList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -103,7 +103,7 @@ func (j *jsiiProxy_DataGoogleDnsKeysKeySigningKeysDigestsList) WrapsSet() *bool 
 }
 
 
-func NewDataGoogleDnsKeysKeySigningKeysDigestsList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataGoogleDnsKeysKeySigningKeysDigestsList {
+func NewDataGoogleDnsKeysKeySigningKeysDigestsList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataGoogleDnsKeysKeySigningKeysDigestsList {
 	_init_.Initialize()
 
 	if err := validateNewDataGoogleDnsKeysKeySigningKeysDigestsListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -120,7 +120,7 @@ func NewDataGoogleDnsKeysKeySigningKeysDigestsList(terraformResource cdktf.IInte
 	return &j
 }
 
-func NewDataGoogleDnsKeysKeySigningKeysDigestsList_Override(d DataGoogleDnsKeysKeySigningKeysDigestsList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewDataGoogleDnsKeysKeySigningKeysDigestsList_Override(d DataGoogleDnsKeysKeySigningKeysDigestsList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -141,7 +141,7 @@ func (j *jsiiProxy_DataGoogleDnsKeysKeySigningKeysDigestsList)SetTerraformAttrib
 	)
 }
 
-func (j *jsiiProxy_DataGoogleDnsKeysKeySigningKeysDigestsList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataGoogleDnsKeysKeySigningKeysDigestsList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -163,11 +163,11 @@ func (j *jsiiProxy_DataGoogleDnsKeysKeySigningKeysDigestsList)SetWrapsSet(val *b
 	)
 }
 
-func (d *jsiiProxy_DataGoogleDnsKeysKeySigningKeysDigestsList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (d *jsiiProxy_DataGoogleDnsKeysKeySigningKeysDigestsList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := d.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		d,
@@ -208,7 +208,7 @@ func (d *jsiiProxy_DataGoogleDnsKeysKeySigningKeysDigestsList) Get(index *float6
 	return returns
 }
 
-func (d *jsiiProxy_DataGoogleDnsKeysKeySigningKeysDigestsList) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataGoogleDnsKeysKeySigningKeysDigestsList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

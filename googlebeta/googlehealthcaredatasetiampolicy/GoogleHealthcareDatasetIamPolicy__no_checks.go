@@ -107,7 +107,7 @@ func (j *jsiiProxy_GoogleHealthcareDatasetIamPolicy) validateSetIdParameters(val
 	return nil
 }
 
-func (j *jsiiProxy_GoogleHealthcareDatasetIamPolicy) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleHealthcareDatasetIamPolicy) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (g *jsiiProxy_GoogleLoggingLinkedDatasetBigqueryDatasetList) validateGetPar
 	return nil
 }
 
-func (g *jsiiProxy_GoogleLoggingLinkedDatasetBigqueryDatasetList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleLoggingLinkedDatasetBigqueryDatasetList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_GoogleLoggingLinkedDatasetBigqueryDatasetList) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_GoogleLoggingLinkedDatasetBigqueryDatasetList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleLoggingLinkedDatasetBigqueryDatasetList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_GoogleLoggingLinkedDatasetBigqueryDatasetList) validateSetWra
 	return nil
 }
 
-func validateNewGoogleLoggingLinkedDatasetBigqueryDatasetListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGoogleLoggingLinkedDatasetBigqueryDatasetListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

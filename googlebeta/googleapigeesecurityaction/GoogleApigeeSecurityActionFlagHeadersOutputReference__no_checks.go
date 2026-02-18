@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleApigeeSecurityActionFlagHeadersOutputReference) validat
 	return nil
 }
 
-func (g *jsiiProxy_GoogleApigeeSecurityActionFlagHeadersOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleApigeeSecurityActionFlagHeadersOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_GoogleApigeeSecurityActionFlagHeadersOutputReference) validat
 	return nil
 }
 
-func (j *jsiiProxy_GoogleApigeeSecurityActionFlagHeadersOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleApigeeSecurityActionFlagHeadersOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_GoogleApigeeSecurityActionFlagHeadersOutputReference) validat
 	return nil
 }
 
-func validateNewGoogleApigeeSecurityActionFlagHeadersOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewGoogleApigeeSecurityActionFlagHeadersOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

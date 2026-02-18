@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleFirebaseAppHostingDomainServeRedirectOutputReference) v
 	return nil
 }
 
-func (g *jsiiProxy_GoogleFirebaseAppHostingDomainServeRedirectOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleFirebaseAppHostingDomainServeRedirectOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_GoogleFirebaseAppHostingDomainServeRedirectOutputReference) v
 	return nil
 }
 
-func (j *jsiiProxy_GoogleFirebaseAppHostingDomainServeRedirectOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleFirebaseAppHostingDomainServeRedirectOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_GoogleFirebaseAppHostingDomainServeRedirectOutputReference) v
 	return nil
 }
 
-func validateNewGoogleFirebaseAppHostingDomainServeRedirectOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleFirebaseAppHostingDomainServeRedirectOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

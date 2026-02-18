@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataGoogleBeyondcorpApplicationIamPolicy) validateSetIdParame
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleBeyondcorpApplicationIamPolicy) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataGoogleBeyondcorpApplicationIamPolicy) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleCloudRunDomainMappingTimeoutsOutputReference) validateI
 	return nil
 }
 
-func (g *jsiiProxy_GoogleCloudRunDomainMappingTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleCloudRunDomainMappingTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_GoogleCloudRunDomainMappingTimeoutsOutputReference) validateS
 	return nil
 }
 
-func (j *jsiiProxy_GoogleCloudRunDomainMappingTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleCloudRunDomainMappingTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleCloudRunDomainMappingTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleCloudRunDomainMappingTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

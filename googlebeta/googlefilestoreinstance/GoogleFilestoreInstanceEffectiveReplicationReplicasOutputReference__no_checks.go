@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleFilestoreInstanceEffectiveReplicationReplicasOutputRefe
 	return nil
 }
 
-func (g *jsiiProxy_GoogleFilestoreInstanceEffectiveReplicationReplicasOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleFilestoreInstanceEffectiveReplicationReplicasOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_GoogleFilestoreInstanceEffectiveReplicationReplicasOutputRefe
 	return nil
 }
 
-func (j *jsiiProxy_GoogleFilestoreInstanceEffectiveReplicationReplicasOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleFilestoreInstanceEffectiveReplicationReplicasOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleFilestoreInstanceEffectiveReplicationReplicasOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewGoogleFilestoreInstanceEffectiveReplicationReplicasOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

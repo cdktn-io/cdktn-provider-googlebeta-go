@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleSecureSourceManagerRepositoryInitialConfigOutputReferen
 	return nil
 }
 
-func (g *jsiiProxy_GoogleSecureSourceManagerRepositoryInitialConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleSecureSourceManagerRepositoryInitialConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_GoogleSecureSourceManagerRepositoryInitialConfigOutputReferen
 	return nil
 }
 
-func (j *jsiiProxy_GoogleSecureSourceManagerRepositoryInitialConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleSecureSourceManagerRepositoryInitialConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleSecureSourceManagerRepositoryInitialConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleSecureSourceManagerRepositoryInitialConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

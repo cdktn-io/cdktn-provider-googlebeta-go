@@ -115,7 +115,7 @@ func (j *jsiiProxy_GoogleStorageDefaultObjectAccessControl) validateSetIdParamet
 	return nil
 }
 
-func (j *jsiiProxy_GoogleStorageDefaultObjectAccessControl) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleStorageDefaultObjectAccessControl) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

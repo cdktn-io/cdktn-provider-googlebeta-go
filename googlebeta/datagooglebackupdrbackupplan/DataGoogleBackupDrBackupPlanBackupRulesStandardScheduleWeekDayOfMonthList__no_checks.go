@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataGoogleBackupDrBackupPlanBackupRulesStandardScheduleWeekDa
 	return nil
 }
 
-func (d *jsiiProxy_DataGoogleBackupDrBackupPlanBackupRulesStandardScheduleWeekDayOfMonthList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataGoogleBackupDrBackupPlanBackupRulesStandardScheduleWeekDayOfMonthList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataGoogleBackupDrBackupPlanBackupRulesStandardScheduleWeekDa
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleBackupDrBackupPlanBackupRulesStandardScheduleWeekDayOfMonthList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataGoogleBackupDrBackupPlanBackupRulesStandardScheduleWeekDayOfMonthList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataGoogleBackupDrBackupPlanBackupRulesStandardScheduleWeekDa
 	return nil
 }
 
-func validateNewDataGoogleBackupDrBackupPlanBackupRulesStandardScheduleWeekDayOfMonthListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataGoogleBackupDrBackupPlanBackupRulesStandardScheduleWeekDayOfMonthListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

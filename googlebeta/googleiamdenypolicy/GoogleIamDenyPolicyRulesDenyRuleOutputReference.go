@@ -5,14 +5,14 @@ package googleiamdenypolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleiamdenypolicy/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleiamdenypolicy/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type GoogleIamDenyPolicyRulesDenyRuleOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -51,15 +51,15 @@ type GoogleIamDenyPolicyRulesDenyRuleOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -75,9 +75,9 @@ type GoogleIamDenyPolicyRulesDenyRuleOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutDenialCondition(value *GoogleIamDenyPolicyRulesDenyRuleDenialCondition)
 	ResetDenialCondition()
 	ResetDeniedPermissions()
@@ -86,7 +86,7 @@ type GoogleIamDenyPolicyRulesDenyRuleOutputReference interface {
 	ResetExceptionPrincipals()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -96,7 +96,7 @@ type GoogleIamDenyPolicyRulesDenyRuleOutputReference interface {
 
 // The jsii proxy struct for GoogleIamDenyPolicyRulesDenyRuleOutputReference
 type jsiiProxy_GoogleIamDenyPolicyRulesDenyRuleOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_GoogleIamDenyPolicyRulesDenyRuleOutputReference) ComplexObjectIndex() interface{} {
@@ -259,8 +259,8 @@ func (j *jsiiProxy_GoogleIamDenyPolicyRulesDenyRuleOutputReference) TerraformAtt
 	return returns
 }
 
-func (j *jsiiProxy_GoogleIamDenyPolicyRulesDenyRuleOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_GoogleIamDenyPolicyRulesDenyRuleOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -270,7 +270,7 @@ func (j *jsiiProxy_GoogleIamDenyPolicyRulesDenyRuleOutputReference) TerraformRes
 }
 
 
-func NewGoogleIamDenyPolicyRulesDenyRuleOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) GoogleIamDenyPolicyRulesDenyRuleOutputReference {
+func NewGoogleIamDenyPolicyRulesDenyRuleOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) GoogleIamDenyPolicyRulesDenyRuleOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewGoogleIamDenyPolicyRulesDenyRuleOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -287,7 +287,7 @@ func NewGoogleIamDenyPolicyRulesDenyRuleOutputReference(terraformResource cdktf.
 	return &j
 }
 
-func NewGoogleIamDenyPolicyRulesDenyRuleOutputReference_Override(g GoogleIamDenyPolicyRulesDenyRuleOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewGoogleIamDenyPolicyRulesDenyRuleOutputReference_Override(g GoogleIamDenyPolicyRulesDenyRuleOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -385,7 +385,7 @@ func (j *jsiiProxy_GoogleIamDenyPolicyRulesDenyRuleOutputReference)SetTerraformA
 	)
 }
 
-func (j *jsiiProxy_GoogleIamDenyPolicyRulesDenyRuleOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_GoogleIamDenyPolicyRulesDenyRuleOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -425,11 +425,11 @@ func (g *jsiiProxy_GoogleIamDenyPolicyRulesDenyRuleOutputReference) GetAnyMapAtt
 	return returns
 }
 
-func (g *jsiiProxy_GoogleIamDenyPolicyRulesDenyRuleOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleIamDenyPolicyRulesDenyRuleOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -553,8 +553,8 @@ func (g *jsiiProxy_GoogleIamDenyPolicyRulesDenyRuleOutputReference) GetStringMap
 	return returns
 }
 
-func (g *jsiiProxy_GoogleIamDenyPolicyRulesDenyRuleOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (g *jsiiProxy_GoogleIamDenyPolicyRulesDenyRuleOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -566,11 +566,11 @@ func (g *jsiiProxy_GoogleIamDenyPolicyRulesDenyRuleOutputReference) Interpolatio
 	return returns
 }
 
-func (g *jsiiProxy_GoogleIamDenyPolicyRulesDenyRuleOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleIamDenyPolicyRulesDenyRuleOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -633,7 +633,7 @@ func (g *jsiiProxy_GoogleIamDenyPolicyRulesDenyRuleOutputReference) ResetExcepti
 	)
 }
 
-func (g *jsiiProxy_GoogleIamDenyPolicyRulesDenyRuleOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (g *jsiiProxy_GoogleIamDenyPolicyRulesDenyRuleOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

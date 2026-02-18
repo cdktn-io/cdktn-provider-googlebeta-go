@@ -5,14 +5,14 @@ package googletpuv2vm
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googletpuv2vm/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googletpuv2vm/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type GoogleTpuV2VmNetworkConfigOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	CanIpForward() interface{}
 	SetCanIpForward(val interface{})
 	CanIpForwardInput() interface{}
@@ -52,15 +52,15 @@ type GoogleTpuV2VmNetworkConfigOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -76,9 +76,9 @@ type GoogleTpuV2VmNetworkConfigOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetCanIpForward()
 	ResetEnableExternalIps()
 	ResetNetwork()
@@ -86,7 +86,7 @@ type GoogleTpuV2VmNetworkConfigOutputReference interface {
 	ResetSubnetwork()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -96,7 +96,7 @@ type GoogleTpuV2VmNetworkConfigOutputReference interface {
 
 // The jsii proxy struct for GoogleTpuV2VmNetworkConfigOutputReference
 type jsiiProxy_GoogleTpuV2VmNetworkConfigOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_GoogleTpuV2VmNetworkConfigOutputReference) CanIpForward() interface{} {
@@ -259,8 +259,8 @@ func (j *jsiiProxy_GoogleTpuV2VmNetworkConfigOutputReference) TerraformAttribute
 	return returns
 }
 
-func (j *jsiiProxy_GoogleTpuV2VmNetworkConfigOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_GoogleTpuV2VmNetworkConfigOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -270,7 +270,7 @@ func (j *jsiiProxy_GoogleTpuV2VmNetworkConfigOutputReference) TerraformResource(
 }
 
 
-func NewGoogleTpuV2VmNetworkConfigOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) GoogleTpuV2VmNetworkConfigOutputReference {
+func NewGoogleTpuV2VmNetworkConfigOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) GoogleTpuV2VmNetworkConfigOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewGoogleTpuV2VmNetworkConfigOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -287,7 +287,7 @@ func NewGoogleTpuV2VmNetworkConfigOutputReference(terraformResource cdktf.IInter
 	return &j
 }
 
-func NewGoogleTpuV2VmNetworkConfigOutputReference_Override(g GoogleTpuV2VmNetworkConfigOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewGoogleTpuV2VmNetworkConfigOutputReference_Override(g GoogleTpuV2VmNetworkConfigOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -396,7 +396,7 @@ func (j *jsiiProxy_GoogleTpuV2VmNetworkConfigOutputReference)SetTerraformAttribu
 	)
 }
 
-func (j *jsiiProxy_GoogleTpuV2VmNetworkConfigOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_GoogleTpuV2VmNetworkConfigOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -436,11 +436,11 @@ func (g *jsiiProxy_GoogleTpuV2VmNetworkConfigOutputReference) GetAnyMapAttribute
 	return returns
 }
 
-func (g *jsiiProxy_GoogleTpuV2VmNetworkConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleTpuV2VmNetworkConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -564,8 +564,8 @@ func (g *jsiiProxy_GoogleTpuV2VmNetworkConfigOutputReference) GetStringMapAttrib
 	return returns
 }
 
-func (g *jsiiProxy_GoogleTpuV2VmNetworkConfigOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (g *jsiiProxy_GoogleTpuV2VmNetworkConfigOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -577,11 +577,11 @@ func (g *jsiiProxy_GoogleTpuV2VmNetworkConfigOutputReference) InterpolationAsLis
 	return returns
 }
 
-func (g *jsiiProxy_GoogleTpuV2VmNetworkConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleTpuV2VmNetworkConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -633,7 +633,7 @@ func (g *jsiiProxy_GoogleTpuV2VmNetworkConfigOutputReference) ResetSubnetwork() 
 	)
 }
 
-func (g *jsiiProxy_GoogleTpuV2VmNetworkConfigOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (g *jsiiProxy_GoogleTpuV2VmNetworkConfigOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

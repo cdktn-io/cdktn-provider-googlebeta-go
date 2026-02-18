@@ -5,14 +5,14 @@ package googleidentityplatforminboundsamlconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleidentityplatforminboundsamlconfig/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleidentityplatforminboundsamlconfig/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type GoogleIdentityPlatformInboundSamlConfigSpConfigOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	CallbackUri() *string
 	SetCallbackUri(val *string)
 	CallbackUriInput() *string
@@ -44,15 +44,15 @@ type GoogleIdentityPlatformInboundSamlConfigSpConfigOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -68,14 +68,14 @@ type GoogleIdentityPlatformInboundSamlConfigSpConfigOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetCallbackUri()
 	ResetSpEntityId()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -85,7 +85,7 @@ type GoogleIdentityPlatformInboundSamlConfigSpConfigOutputReference interface {
 
 // The jsii proxy struct for GoogleIdentityPlatformInboundSamlConfigSpConfigOutputReference
 type jsiiProxy_GoogleIdentityPlatformInboundSamlConfigSpConfigOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_GoogleIdentityPlatformInboundSamlConfigSpConfigOutputReference) CallbackUri() *string {
@@ -198,8 +198,8 @@ func (j *jsiiProxy_GoogleIdentityPlatformInboundSamlConfigSpConfigOutputReferenc
 	return returns
 }
 
-func (j *jsiiProxy_GoogleIdentityPlatformInboundSamlConfigSpConfigOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_GoogleIdentityPlatformInboundSamlConfigSpConfigOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -209,7 +209,7 @@ func (j *jsiiProxy_GoogleIdentityPlatformInboundSamlConfigSpConfigOutputReferenc
 }
 
 
-func NewGoogleIdentityPlatformInboundSamlConfigSpConfigOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) GoogleIdentityPlatformInboundSamlConfigSpConfigOutputReference {
+func NewGoogleIdentityPlatformInboundSamlConfigSpConfigOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) GoogleIdentityPlatformInboundSamlConfigSpConfigOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewGoogleIdentityPlatformInboundSamlConfigSpConfigOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -226,7 +226,7 @@ func NewGoogleIdentityPlatformInboundSamlConfigSpConfigOutputReference(terraform
 	return &j
 }
 
-func NewGoogleIdentityPlatformInboundSamlConfigSpConfigOutputReference_Override(g GoogleIdentityPlatformInboundSamlConfigSpConfigOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewGoogleIdentityPlatformInboundSamlConfigSpConfigOutputReference_Override(g GoogleIdentityPlatformInboundSamlConfigSpConfigOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -302,7 +302,7 @@ func (j *jsiiProxy_GoogleIdentityPlatformInboundSamlConfigSpConfigOutputReferenc
 	)
 }
 
-func (j *jsiiProxy_GoogleIdentityPlatformInboundSamlConfigSpConfigOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_GoogleIdentityPlatformInboundSamlConfigSpConfigOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -342,11 +342,11 @@ func (g *jsiiProxy_GoogleIdentityPlatformInboundSamlConfigSpConfigOutputReferenc
 	return returns
 }
 
-func (g *jsiiProxy_GoogleIdentityPlatformInboundSamlConfigSpConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleIdentityPlatformInboundSamlConfigSpConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -470,8 +470,8 @@ func (g *jsiiProxy_GoogleIdentityPlatformInboundSamlConfigSpConfigOutputReferenc
 	return returns
 }
 
-func (g *jsiiProxy_GoogleIdentityPlatformInboundSamlConfigSpConfigOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (g *jsiiProxy_GoogleIdentityPlatformInboundSamlConfigSpConfigOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -483,11 +483,11 @@ func (g *jsiiProxy_GoogleIdentityPlatformInboundSamlConfigSpConfigOutputReferenc
 	return returns
 }
 
-func (g *jsiiProxy_GoogleIdentityPlatformInboundSamlConfigSpConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleIdentityPlatformInboundSamlConfigSpConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -515,7 +515,7 @@ func (g *jsiiProxy_GoogleIdentityPlatformInboundSamlConfigSpConfigOutputReferenc
 	)
 }
 
-func (g *jsiiProxy_GoogleIdentityPlatformInboundSamlConfigSpConfigOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (g *jsiiProxy_GoogleIdentityPlatformInboundSamlConfigSpConfigOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -75,7 +75,7 @@ func (j *jsiiProxy_DataGoogleComputeNetworkAttachment) validateSetCountParameter
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleComputeNetworkAttachment) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataGoogleComputeNetworkAttachment) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

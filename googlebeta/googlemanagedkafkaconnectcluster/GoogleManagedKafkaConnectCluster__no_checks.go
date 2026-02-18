@@ -127,7 +127,7 @@ func (j *jsiiProxy_GoogleManagedKafkaConnectCluster) validateSetLabelsParameters
 	return nil
 }
 
-func (j *jsiiProxy_GoogleManagedKafkaConnectCluster) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleManagedKafkaConnectCluster) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

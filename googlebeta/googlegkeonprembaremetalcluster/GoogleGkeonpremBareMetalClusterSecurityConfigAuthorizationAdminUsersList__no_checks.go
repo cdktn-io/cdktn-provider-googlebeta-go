@@ -15,7 +15,7 @@ func (g *jsiiProxy_GoogleGkeonpremBareMetalClusterSecurityConfigAuthorizationAdm
 	return nil
 }
 
-func (g *jsiiProxy_GoogleGkeonpremBareMetalClusterSecurityConfigAuthorizationAdminUsersList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleGkeonpremBareMetalClusterSecurityConfigAuthorizationAdminUsersList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_GoogleGkeonpremBareMetalClusterSecurityConfigAuthorizationAdm
 	return nil
 }
 
-func (j *jsiiProxy_GoogleGkeonpremBareMetalClusterSecurityConfigAuthorizationAdminUsersList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleGkeonpremBareMetalClusterSecurityConfigAuthorizationAdminUsersList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_GoogleGkeonpremBareMetalClusterSecurityConfigAuthorizationAdm
 	return nil
 }
 
-func validateNewGoogleGkeonpremBareMetalClusterSecurityConfigAuthorizationAdminUsersListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGoogleGkeonpremBareMetalClusterSecurityConfigAuthorizationAdminUsersListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

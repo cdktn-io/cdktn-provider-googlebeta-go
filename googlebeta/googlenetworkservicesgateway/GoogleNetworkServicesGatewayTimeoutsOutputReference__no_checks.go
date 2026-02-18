@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleNetworkServicesGatewayTimeoutsOutputReference) validate
 	return nil
 }
 
-func (g *jsiiProxy_GoogleNetworkServicesGatewayTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleNetworkServicesGatewayTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_GoogleNetworkServicesGatewayTimeoutsOutputReference) validate
 	return nil
 }
 
-func (j *jsiiProxy_GoogleNetworkServicesGatewayTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleNetworkServicesGatewayTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_GoogleNetworkServicesGatewayTimeoutsOutputReference) validate
 	return nil
 }
 
-func validateNewGoogleNetworkServicesGatewayTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleNetworkServicesGatewayTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

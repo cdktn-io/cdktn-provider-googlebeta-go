@@ -111,7 +111,7 @@ func (j *jsiiProxy_GoogleSiteVerificationOwner) validateSetIdParameters(val *str
 	return nil
 }
 
-func (j *jsiiProxy_GoogleSiteVerificationOwner) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleSiteVerificationOwner) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

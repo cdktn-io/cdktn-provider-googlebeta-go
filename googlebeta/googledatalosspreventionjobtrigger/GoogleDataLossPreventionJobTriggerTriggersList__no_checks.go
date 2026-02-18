@@ -15,7 +15,7 @@ func (g *jsiiProxy_GoogleDataLossPreventionJobTriggerTriggersList) validateGetPa
 	return nil
 }
 
-func (g *jsiiProxy_GoogleDataLossPreventionJobTriggerTriggersList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleDataLossPreventionJobTriggerTriggersList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_GoogleDataLossPreventionJobTriggerTriggersList) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_GoogleDataLossPreventionJobTriggerTriggersList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleDataLossPreventionJobTriggerTriggersList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_GoogleDataLossPreventionJobTriggerTriggersList) validateSetWr
 	return nil
 }
 
-func validateNewGoogleDataLossPreventionJobTriggerTriggersListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGoogleDataLossPreventionJobTriggerTriggersListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

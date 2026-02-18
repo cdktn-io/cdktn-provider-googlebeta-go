@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleSccV2FolderNotificationConfigStreamingConfigOutputRefer
 	return nil
 }
 
-func (g *jsiiProxy_GoogleSccV2FolderNotificationConfigStreamingConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleSccV2FolderNotificationConfigStreamingConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_GoogleSccV2FolderNotificationConfigStreamingConfigOutputRefer
 	return nil
 }
 
-func (j *jsiiProxy_GoogleSccV2FolderNotificationConfigStreamingConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleSccV2FolderNotificationConfigStreamingConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleSccV2FolderNotificationConfigStreamingConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleSccV2FolderNotificationConfigStreamingConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -5,14 +5,14 @@ package googledataprocautoscalingpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googledataprocautoscalingpolicy/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocautoscalingpolicy/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type GoogleDataprocAutoscalingPolicySecondaryWorkerConfigOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,9 +43,9 @@ type GoogleDataprocAutoscalingPolicySecondaryWorkerConfigOutputReference interfa
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Weight() *float64
 	SetWeight(val *float64)
 	WeightInput() *float64
@@ -54,7 +54,7 @@ type GoogleDataprocAutoscalingPolicySecondaryWorkerConfigOutputReference interfa
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,15 +70,15 @@ type GoogleDataprocAutoscalingPolicySecondaryWorkerConfigOutputReference interfa
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetMaxInstances()
 	ResetMinInstances()
 	ResetWeight()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -88,7 +88,7 @@ type GoogleDataprocAutoscalingPolicySecondaryWorkerConfigOutputReference interfa
 
 // The jsii proxy struct for GoogleDataprocAutoscalingPolicySecondaryWorkerConfigOutputReference
 type jsiiProxy_GoogleDataprocAutoscalingPolicySecondaryWorkerConfigOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_GoogleDataprocAutoscalingPolicySecondaryWorkerConfigOutputReference) ComplexObjectIndex() interface{} {
@@ -191,8 +191,8 @@ func (j *jsiiProxy_GoogleDataprocAutoscalingPolicySecondaryWorkerConfigOutputRef
 	return returns
 }
 
-func (j *jsiiProxy_GoogleDataprocAutoscalingPolicySecondaryWorkerConfigOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_GoogleDataprocAutoscalingPolicySecondaryWorkerConfigOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -222,7 +222,7 @@ func (j *jsiiProxy_GoogleDataprocAutoscalingPolicySecondaryWorkerConfigOutputRef
 }
 
 
-func NewGoogleDataprocAutoscalingPolicySecondaryWorkerConfigOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) GoogleDataprocAutoscalingPolicySecondaryWorkerConfigOutputReference {
+func NewGoogleDataprocAutoscalingPolicySecondaryWorkerConfigOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) GoogleDataprocAutoscalingPolicySecondaryWorkerConfigOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewGoogleDataprocAutoscalingPolicySecondaryWorkerConfigOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -239,7 +239,7 @@ func NewGoogleDataprocAutoscalingPolicySecondaryWorkerConfigOutputReference(terr
 	return &j
 }
 
-func NewGoogleDataprocAutoscalingPolicySecondaryWorkerConfigOutputReference_Override(g GoogleDataprocAutoscalingPolicySecondaryWorkerConfigOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewGoogleDataprocAutoscalingPolicySecondaryWorkerConfigOutputReference_Override(g GoogleDataprocAutoscalingPolicySecondaryWorkerConfigOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -315,7 +315,7 @@ func (j *jsiiProxy_GoogleDataprocAutoscalingPolicySecondaryWorkerConfigOutputRef
 	)
 }
 
-func (j *jsiiProxy_GoogleDataprocAutoscalingPolicySecondaryWorkerConfigOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_GoogleDataprocAutoscalingPolicySecondaryWorkerConfigOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -366,11 +366,11 @@ func (g *jsiiProxy_GoogleDataprocAutoscalingPolicySecondaryWorkerConfigOutputRef
 	return returns
 }
 
-func (g *jsiiProxy_GoogleDataprocAutoscalingPolicySecondaryWorkerConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleDataprocAutoscalingPolicySecondaryWorkerConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -494,8 +494,8 @@ func (g *jsiiProxy_GoogleDataprocAutoscalingPolicySecondaryWorkerConfigOutputRef
 	return returns
 }
 
-func (g *jsiiProxy_GoogleDataprocAutoscalingPolicySecondaryWorkerConfigOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (g *jsiiProxy_GoogleDataprocAutoscalingPolicySecondaryWorkerConfigOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -507,11 +507,11 @@ func (g *jsiiProxy_GoogleDataprocAutoscalingPolicySecondaryWorkerConfigOutputRef
 	return returns
 }
 
-func (g *jsiiProxy_GoogleDataprocAutoscalingPolicySecondaryWorkerConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleDataprocAutoscalingPolicySecondaryWorkerConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -547,7 +547,7 @@ func (g *jsiiProxy_GoogleDataprocAutoscalingPolicySecondaryWorkerConfigOutputRef
 	)
 }
 
-func (g *jsiiProxy_GoogleDataprocAutoscalingPolicySecondaryWorkerConfigOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (g *jsiiProxy_GoogleDataprocAutoscalingPolicySecondaryWorkerConfigOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

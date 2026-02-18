@@ -51,7 +51,7 @@ func (g *jsiiProxy_GoogleSccFolderCustomModuleCustomConfigCustomOutputProperties
 	return nil
 }
 
-func (g *jsiiProxy_GoogleSccFolderCustomModuleCustomConfigCustomOutputPropertiesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleSccFolderCustomModuleCustomConfigCustomOutputPropertiesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_GoogleSccFolderCustomModuleCustomConfigCustomOutputProperties
 	return nil
 }
 
-func (j *jsiiProxy_GoogleSccFolderCustomModuleCustomConfigCustomOutputPropertiesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleSccFolderCustomModuleCustomConfigCustomOutputPropertiesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleSccFolderCustomModuleCustomConfigCustomOutputPropertiesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewGoogleSccFolderCustomModuleCustomConfigCustomOutputPropertiesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

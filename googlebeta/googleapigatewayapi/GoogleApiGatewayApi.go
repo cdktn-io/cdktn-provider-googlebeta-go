@@ -5,21 +5,21 @@ package googleapigatewayapi
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleapigatewayapi/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleapigatewayapi/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_api_gateway_api google_api_gateway_api}.
 type GoogleApiGatewayApi interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	ApiId() *string
 	SetApiId(val *string)
 	ApiIdInput() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -38,11 +38,11 @@ type GoogleApiGatewayApi interface {
 	DisplayName() *string
 	SetDisplayName(val *string)
 	DisplayNameInput() *string
-	EffectiveLabels() cdktf.StringMap
+	EffectiveLabels() cdktn.StringMap
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -54,9 +54,9 @@ type GoogleApiGatewayApi interface {
 	SetLabels(val *map[string]*string)
 	LabelsInput() *map[string]*string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	ManagedService() *string
 	SetManagedService(val *string)
 	ManagedServiceInput() *string
@@ -67,9 +67,9 @@ type GoogleApiGatewayApi interface {
 	SetProject(val *string)
 	ProjectInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -77,8 +77,8 @@ type GoogleApiGatewayApi interface {
 	// Experimental.
 	RawOverrides() interface{}
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
-	TerraformLabels() cdktf.StringMap
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
+	TerraformLabels() cdktn.StringMap
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -93,7 +93,7 @@ type GoogleApiGatewayApi interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -111,9 +111,9 @@ type GoogleApiGatewayApi interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -153,7 +153,7 @@ type GoogleApiGatewayApi interface {
 
 // The jsii proxy struct for GoogleApiGatewayApi
 type jsiiProxy_GoogleApiGatewayApi struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_GoogleApiGatewayApi) ApiId() *string {
@@ -176,8 +176,8 @@ func (j *jsiiProxy_GoogleApiGatewayApi) ApiIdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleApiGatewayApi) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_GoogleApiGatewayApi) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -256,8 +256,8 @@ func (j *jsiiProxy_GoogleApiGatewayApi) DisplayNameInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleApiGatewayApi) EffectiveLabels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_GoogleApiGatewayApi) EffectiveLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"effectiveLabels",
@@ -266,8 +266,8 @@ func (j *jsiiProxy_GoogleApiGatewayApi) EffectiveLabels() cdktf.StringMap {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleApiGatewayApi) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_GoogleApiGatewayApi) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -336,8 +336,8 @@ func (j *jsiiProxy_GoogleApiGatewayApi) LabelsInput() *map[string]*string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleApiGatewayApi) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_GoogleApiGatewayApi) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -406,8 +406,8 @@ func (j *jsiiProxy_GoogleApiGatewayApi) ProjectInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleApiGatewayApi) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_GoogleApiGatewayApi) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -436,8 +436,8 @@ func (j *jsiiProxy_GoogleApiGatewayApi) RawOverrides() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleApiGatewayApi) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_GoogleApiGatewayApi) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -446,8 +446,8 @@ func (j *jsiiProxy_GoogleApiGatewayApi) TerraformGeneratorMetadata() *cdktf.Terr
 	return returns
 }
 
-func (j *jsiiProxy_GoogleApiGatewayApi) TerraformLabels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_GoogleApiGatewayApi) TerraformLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"terraformLabels",
@@ -578,7 +578,7 @@ func (j *jsiiProxy_GoogleApiGatewayApi)SetDisplayName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_GoogleApiGatewayApi)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_GoogleApiGatewayApi)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -608,7 +608,7 @@ func (j *jsiiProxy_GoogleApiGatewayApi)SetLabels(val *map[string]*string) {
 	)
 }
 
-func (j *jsiiProxy_GoogleApiGatewayApi)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_GoogleApiGatewayApi)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -641,7 +641,7 @@ func (j *jsiiProxy_GoogleApiGatewayApi)SetProject(val *string) {
 	)
 }
 
-func (j *jsiiProxy_GoogleApiGatewayApi)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_GoogleApiGatewayApi)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -660,14 +660,14 @@ func (j *jsiiProxy_GoogleApiGatewayApi)SetProvisioners(val *[]interface{}) {
 	)
 }
 
-// Generates CDKTF code for importing a GoogleApiGatewayApi resource upon running "cdktf plan <stack-name>".
-func GoogleApiGatewayApi_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a GoogleApiGatewayApi resource upon running "cdktn plan <stack-name>".
+func GoogleApiGatewayApi_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateGoogleApiGatewayApi_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google-beta.googleApiGatewayApi.GoogleApiGatewayApi",
@@ -801,11 +801,11 @@ func (g *jsiiProxy_GoogleApiGatewayApi) GetAnyMapAttribute(terraformAttribute *s
 	return returns
 }
 
-func (g *jsiiProxy_GoogleApiGatewayApi) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleApiGatewayApi) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -942,7 +942,7 @@ func (g *jsiiProxy_GoogleApiGatewayApi) HasResourceMove() interface{} {
 	return returns
 }
 
-func (g *jsiiProxy_GoogleApiGatewayApi) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (g *jsiiProxy_GoogleApiGatewayApi) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := g.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -953,11 +953,11 @@ func (g *jsiiProxy_GoogleApiGatewayApi) ImportFrom(id *string, provider cdktf.Te
 	)
 }
 
-func (g *jsiiProxy_GoogleApiGatewayApi) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleApiGatewayApi) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,

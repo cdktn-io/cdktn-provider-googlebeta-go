@@ -115,7 +115,7 @@ func (j *jsiiProxy_GoogleGeminiGeminiGcpEnablementSettingBinding) validateSetLab
 	return nil
 }
 
-func (j *jsiiProxy_GoogleGeminiGeminiGcpEnablementSettingBinding) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleGeminiGeminiGcpEnablementSettingBinding) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

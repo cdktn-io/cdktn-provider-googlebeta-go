@@ -79,7 +79,7 @@ func (j *jsiiProxy_DataGooglePubsubSchemaIamPolicy) validateSetIdParameters(val 
 	return nil
 }
 
-func (j *jsiiProxy_DataGooglePubsubSchemaIamPolicy) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataGooglePubsubSchemaIamPolicy) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -5,14 +5,14 @@ package googletpuv2vm
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googletpuv2vm/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googletpuv2vm/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type GoogleTpuV2VmNetworkConfigsList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -26,8 +26,8 @@ type GoogleTpuV2VmNetworkConfigsList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -35,13 +35,13 @@ type GoogleTpuV2VmNetworkConfigsList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) GoogleTpuV2VmNetworkConfigsOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -51,7 +51,7 @@ type GoogleTpuV2VmNetworkConfigsList interface {
 
 // The jsii proxy struct for GoogleTpuV2VmNetworkConfigsList
 type jsiiProxy_GoogleTpuV2VmNetworkConfigsList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_GoogleTpuV2VmNetworkConfigsList) CreationStack() *[]*string {
@@ -94,8 +94,8 @@ func (j *jsiiProxy_GoogleTpuV2VmNetworkConfigsList) TerraformAttribute() *string
 	return returns
 }
 
-func (j *jsiiProxy_GoogleTpuV2VmNetworkConfigsList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_GoogleTpuV2VmNetworkConfigsList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -115,7 +115,7 @@ func (j *jsiiProxy_GoogleTpuV2VmNetworkConfigsList) WrapsSet() *bool {
 }
 
 
-func NewGoogleTpuV2VmNetworkConfigsList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleTpuV2VmNetworkConfigsList {
+func NewGoogleTpuV2VmNetworkConfigsList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleTpuV2VmNetworkConfigsList {
 	_init_.Initialize()
 
 	if err := validateNewGoogleTpuV2VmNetworkConfigsListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -132,7 +132,7 @@ func NewGoogleTpuV2VmNetworkConfigsList(terraformResource cdktf.IInterpolatingPa
 	return &j
 }
 
-func NewGoogleTpuV2VmNetworkConfigsList_Override(g GoogleTpuV2VmNetworkConfigsList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewGoogleTpuV2VmNetworkConfigsList_Override(g GoogleTpuV2VmNetworkConfigsList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -164,7 +164,7 @@ func (j *jsiiProxy_GoogleTpuV2VmNetworkConfigsList)SetTerraformAttribute(val *st
 	)
 }
 
-func (j *jsiiProxy_GoogleTpuV2VmNetworkConfigsList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_GoogleTpuV2VmNetworkConfigsList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -186,11 +186,11 @@ func (j *jsiiProxy_GoogleTpuV2VmNetworkConfigsList)SetWrapsSet(val *bool) {
 	)
 }
 
-func (g *jsiiProxy_GoogleTpuV2VmNetworkConfigsList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (g *jsiiProxy_GoogleTpuV2VmNetworkConfigsList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := g.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		g,
@@ -231,7 +231,7 @@ func (g *jsiiProxy_GoogleTpuV2VmNetworkConfigsList) Get(index *float64) GoogleTp
 	return returns
 }
 
-func (g *jsiiProxy_GoogleTpuV2VmNetworkConfigsList) Resolve(context cdktf.IResolveContext) interface{} {
+func (g *jsiiProxy_GoogleTpuV2VmNetworkConfigsList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

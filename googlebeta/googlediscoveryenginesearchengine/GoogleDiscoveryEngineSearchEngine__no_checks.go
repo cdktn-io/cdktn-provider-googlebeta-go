@@ -135,7 +135,7 @@ func (j *jsiiProxy_GoogleDiscoveryEngineSearchEngine) validateSetIndustryVertica
 	return nil
 }
 
-func (j *jsiiProxy_GoogleDiscoveryEngineSearchEngine) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleDiscoveryEngineSearchEngine) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

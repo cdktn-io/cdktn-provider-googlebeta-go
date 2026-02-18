@@ -191,7 +191,7 @@ func (j *jsiiProxy_GoogleComputeInstanceFromMachineImage) validateSetLabelsParam
 	return nil
 }
 
-func (j *jsiiProxy_GoogleComputeInstanceFromMachineImage) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleComputeInstanceFromMachineImage) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

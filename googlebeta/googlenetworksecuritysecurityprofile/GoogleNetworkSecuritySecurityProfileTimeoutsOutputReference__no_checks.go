@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleNetworkSecuritySecurityProfileTimeoutsOutputReference) 
 	return nil
 }
 
-func (g *jsiiProxy_GoogleNetworkSecuritySecurityProfileTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleNetworkSecuritySecurityProfileTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_GoogleNetworkSecuritySecurityProfileTimeoutsOutputReference) 
 	return nil
 }
 
-func (j *jsiiProxy_GoogleNetworkSecuritySecurityProfileTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleNetworkSecuritySecurityProfileTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_GoogleNetworkSecuritySecurityProfileTimeoutsOutputReference) 
 	return nil
 }
 
-func validateNewGoogleNetworkSecuritySecurityProfileTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleNetworkSecuritySecurityProfileTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

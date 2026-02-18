@@ -8,7 +8,7 @@ package datagooglefilestoreinstance
 import (
 	"fmt"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (d *jsiiProxy_DataGoogleFilestoreInstanceInitialReplicationReplicasList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -27,7 +27,7 @@ func (d *jsiiProxy_DataGoogleFilestoreInstanceInitialReplicationReplicasList) va
 	return nil
 }
 
-func (d *jsiiProxy_DataGoogleFilestoreInstanceInitialReplicationReplicasList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataGoogleFilestoreInstanceInitialReplicationReplicasList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -43,7 +43,7 @@ func (j *jsiiProxy_DataGoogleFilestoreInstanceInitialReplicationReplicasList) va
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleFilestoreInstanceInitialReplicationReplicasList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataGoogleFilestoreInstanceInitialReplicationReplicasList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -59,7 +59,7 @@ func (j *jsiiProxy_DataGoogleFilestoreInstanceInitialReplicationReplicasList) va
 	return nil
 }
 
-func validateNewDataGoogleFilestoreInstanceInitialReplicationReplicasListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataGoogleFilestoreInstanceInitialReplicationReplicasListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

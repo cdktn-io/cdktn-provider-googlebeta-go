@@ -15,7 +15,7 @@ func (g *jsiiProxy_GoogleApigeeKeystoresAliasesPkcs12CertsInfoList) validateGetP
 	return nil
 }
 
-func (g *jsiiProxy_GoogleApigeeKeystoresAliasesPkcs12CertsInfoList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleApigeeKeystoresAliasesPkcs12CertsInfoList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_GoogleApigeeKeystoresAliasesPkcs12CertsInfoList) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_GoogleApigeeKeystoresAliasesPkcs12CertsInfoList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleApigeeKeystoresAliasesPkcs12CertsInfoList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_GoogleApigeeKeystoresAliasesPkcs12CertsInfoList) validateSetW
 	return nil
 }
 
-func validateNewGoogleApigeeKeystoresAliasesPkcs12CertsInfoListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGoogleApigeeKeystoresAliasesPkcs12CertsInfoListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

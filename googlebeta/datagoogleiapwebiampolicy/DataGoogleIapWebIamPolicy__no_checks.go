@@ -79,7 +79,7 @@ func (j *jsiiProxy_DataGoogleIapWebIamPolicy) validateSetIdParameters(val *strin
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleIapWebIamPolicy) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataGoogleIapWebIamPolicy) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

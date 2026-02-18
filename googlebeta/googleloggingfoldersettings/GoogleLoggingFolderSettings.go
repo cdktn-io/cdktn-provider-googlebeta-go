@@ -5,18 +5,18 @@ package googleloggingfoldersettings
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleloggingfoldersettings/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleloggingfoldersettings/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_logging_folder_settings google_logging_folder_settings}.
 type GoogleLoggingFolderSettings interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -38,9 +38,9 @@ type GoogleLoggingFolderSettings interface {
 	SetFolder(val *string)
 	FolderInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -53,17 +53,17 @@ type GoogleLoggingFolderSettings interface {
 	KmsKeyNameInput() *string
 	KmsServiceAccountId() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	LoggingServiceAccountId() *string
 	Name() *string
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -74,7 +74,7 @@ type GoogleLoggingFolderSettings interface {
 	SetStorageLocation(val *string)
 	StorageLocationInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -89,7 +89,7 @@ type GoogleLoggingFolderSettings interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -107,9 +107,9 @@ type GoogleLoggingFolderSettings interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -148,11 +148,11 @@ type GoogleLoggingFolderSettings interface {
 
 // The jsii proxy struct for GoogleLoggingFolderSettings
 type jsiiProxy_GoogleLoggingFolderSettings struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
-func (j *jsiiProxy_GoogleLoggingFolderSettings) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_GoogleLoggingFolderSettings) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -241,8 +241,8 @@ func (j *jsiiProxy_GoogleLoggingFolderSettings) FolderInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleLoggingFolderSettings) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_GoogleLoggingFolderSettings) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -321,8 +321,8 @@ func (j *jsiiProxy_GoogleLoggingFolderSettings) KmsServiceAccountId() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleLoggingFolderSettings) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_GoogleLoggingFolderSettings) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -361,8 +361,8 @@ func (j *jsiiProxy_GoogleLoggingFolderSettings) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleLoggingFolderSettings) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_GoogleLoggingFolderSettings) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -411,8 +411,8 @@ func (j *jsiiProxy_GoogleLoggingFolderSettings) StorageLocationInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleLoggingFolderSettings) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_GoogleLoggingFolderSettings) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -543,7 +543,7 @@ func (j *jsiiProxy_GoogleLoggingFolderSettings)SetFolder(val *string) {
 	)
 }
 
-func (j *jsiiProxy_GoogleLoggingFolderSettings)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_GoogleLoggingFolderSettings)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -573,7 +573,7 @@ func (j *jsiiProxy_GoogleLoggingFolderSettings)SetKmsKeyName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_GoogleLoggingFolderSettings)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_GoogleLoggingFolderSettings)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -584,7 +584,7 @@ func (j *jsiiProxy_GoogleLoggingFolderSettings)SetLifecycle(val *cdktf.Terraform
 	)
 }
 
-func (j *jsiiProxy_GoogleLoggingFolderSettings)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_GoogleLoggingFolderSettings)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -614,14 +614,14 @@ func (j *jsiiProxy_GoogleLoggingFolderSettings)SetStorageLocation(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a GoogleLoggingFolderSettings resource upon running "cdktf plan <stack-name>".
-func GoogleLoggingFolderSettings_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a GoogleLoggingFolderSettings resource upon running "cdktn plan <stack-name>".
+func GoogleLoggingFolderSettings_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateGoogleLoggingFolderSettings_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google-beta.googleLoggingFolderSettings.GoogleLoggingFolderSettings",
@@ -755,11 +755,11 @@ func (g *jsiiProxy_GoogleLoggingFolderSettings) GetAnyMapAttribute(terraformAttr
 	return returns
 }
 
-func (g *jsiiProxy_GoogleLoggingFolderSettings) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleLoggingFolderSettings) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -896,7 +896,7 @@ func (g *jsiiProxy_GoogleLoggingFolderSettings) HasResourceMove() interface{} {
 	return returns
 }
 
-func (g *jsiiProxy_GoogleLoggingFolderSettings) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (g *jsiiProxy_GoogleLoggingFolderSettings) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := g.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -907,11 +907,11 @@ func (g *jsiiProxy_GoogleLoggingFolderSettings) ImportFrom(id *string, provider 
 	)
 }
 
-func (g *jsiiProxy_GoogleLoggingFolderSettings) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleLoggingFolderSettings) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,

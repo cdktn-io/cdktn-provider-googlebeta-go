@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleComputeRegionResizeRequestRequestedRunDurationOutputRef
 	return nil
 }
 
-func (g *jsiiProxy_GoogleComputeRegionResizeRequestRequestedRunDurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleComputeRegionResizeRequestRequestedRunDurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_GoogleComputeRegionResizeRequestRequestedRunDurationOutputRef
 	return nil
 }
 
-func (j *jsiiProxy_GoogleComputeRegionResizeRequestRequestedRunDurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleComputeRegionResizeRequestRequestedRunDurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleComputeRegionResizeRequestRequestedRunDurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleComputeRegionResizeRequestRequestedRunDurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (g *jsiiProxy_GoogleDeveloperConnectInsightsConfigRuntimeConfigsList) valid
 	return nil
 }
 
-func (g *jsiiProxy_GoogleDeveloperConnectInsightsConfigRuntimeConfigsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleDeveloperConnectInsightsConfigRuntimeConfigsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_GoogleDeveloperConnectInsightsConfigRuntimeConfigsList) valid
 	return nil
 }
 
-func (j *jsiiProxy_GoogleDeveloperConnectInsightsConfigRuntimeConfigsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleDeveloperConnectInsightsConfigRuntimeConfigsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_GoogleDeveloperConnectInsightsConfigRuntimeConfigsList) valid
 	return nil
 }
 
-func validateNewGoogleDeveloperConnectInsightsConfigRuntimeConfigsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGoogleDeveloperConnectInsightsConfigRuntimeConfigsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

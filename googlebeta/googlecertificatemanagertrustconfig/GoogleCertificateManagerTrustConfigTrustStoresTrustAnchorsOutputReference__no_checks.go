@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleCertificateManagerTrustConfigTrustStoresTrustAnchorsOut
 	return nil
 }
 
-func (g *jsiiProxy_GoogleCertificateManagerTrustConfigTrustStoresTrustAnchorsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleCertificateManagerTrustConfigTrustStoresTrustAnchorsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_GoogleCertificateManagerTrustConfigTrustStoresTrustAnchorsOut
 	return nil
 }
 
-func (j *jsiiProxy_GoogleCertificateManagerTrustConfigTrustStoresTrustAnchorsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleCertificateManagerTrustConfigTrustStoresTrustAnchorsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleCertificateManagerTrustConfigTrustStoresTrustAnchorsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewGoogleCertificateManagerTrustConfigTrustStoresTrustAnchorsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

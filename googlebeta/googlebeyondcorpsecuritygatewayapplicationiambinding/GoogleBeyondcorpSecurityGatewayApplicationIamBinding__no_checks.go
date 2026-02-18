@@ -111,7 +111,7 @@ func (j *jsiiProxy_GoogleBeyondcorpSecurityGatewayApplicationIamBinding) validat
 	return nil
 }
 
-func (j *jsiiProxy_GoogleBeyondcorpSecurityGatewayApplicationIamBinding) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleBeyondcorpSecurityGatewayApplicationIamBinding) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

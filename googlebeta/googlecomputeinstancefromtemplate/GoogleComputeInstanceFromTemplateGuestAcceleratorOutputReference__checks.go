@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (g *jsiiProxy_GoogleComputeInstanceFromTemplateGuestAcceleratorOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -93,7 +93,7 @@ func (g *jsiiProxy_GoogleComputeInstanceFromTemplateGuestAcceleratorOutputRefere
 	return nil
 }
 
-func (g *jsiiProxy_GoogleComputeInstanceFromTemplateGuestAcceleratorOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleComputeInstanceFromTemplateGuestAcceleratorOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -176,7 +176,7 @@ func (j *jsiiProxy_GoogleComputeInstanceFromTemplateGuestAcceleratorOutputRefere
 
 func (j *jsiiProxy_GoogleComputeInstanceFromTemplateGuestAcceleratorOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *GoogleComputeInstanceFromTemplateGuestAccelerator:
 		val := val.(*GoogleComputeInstanceFromTemplateGuestAccelerator)
@@ -191,7 +191,7 @@ func (j *jsiiProxy_GoogleComputeInstanceFromTemplateGuestAcceleratorOutputRefere
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *GoogleComputeInstanceFromTemplateGuestAccelerator; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *GoogleComputeInstanceFromTemplateGuestAccelerator; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -206,7 +206,7 @@ func (j *jsiiProxy_GoogleComputeInstanceFromTemplateGuestAcceleratorOutputRefere
 	return nil
 }
 
-func (j *jsiiProxy_GoogleComputeInstanceFromTemplateGuestAcceleratorOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleComputeInstanceFromTemplateGuestAcceleratorOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -222,7 +222,7 @@ func (j *jsiiProxy_GoogleComputeInstanceFromTemplateGuestAcceleratorOutputRefere
 	return nil
 }
 
-func validateNewGoogleComputeInstanceFromTemplateGuestAcceleratorOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewGoogleComputeInstanceFromTemplateGuestAcceleratorOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

@@ -5,14 +5,14 @@ package googlecomputeresourcepolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecomputeresourcepolicy/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeresourcepolicy/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type GoogleComputeResourcePolicySnapshotSchedulePolicyScheduleOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -41,9 +41,9 @@ type GoogleComputeResourcePolicySnapshotSchedulePolicyScheduleOutputReference in
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	WeeklySchedule() GoogleComputeResourcePolicySnapshotSchedulePolicyScheduleWeeklyScheduleOutputReference
 	WeeklyScheduleInput() *GoogleComputeResourcePolicySnapshotSchedulePolicyScheduleWeeklySchedule
 	// Experimental.
@@ -51,7 +51,7 @@ type GoogleComputeResourcePolicySnapshotSchedulePolicyScheduleOutputReference in
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,9 +67,9 @@ type GoogleComputeResourcePolicySnapshotSchedulePolicyScheduleOutputReference in
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutDailySchedule(value *GoogleComputeResourcePolicySnapshotSchedulePolicyScheduleDailySchedule)
 	PutHourlySchedule(value *GoogleComputeResourcePolicySnapshotSchedulePolicyScheduleHourlySchedule)
 	PutWeeklySchedule(value *GoogleComputeResourcePolicySnapshotSchedulePolicyScheduleWeeklySchedule)
@@ -78,7 +78,7 @@ type GoogleComputeResourcePolicySnapshotSchedulePolicyScheduleOutputReference in
 	ResetWeeklySchedule()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -88,7 +88,7 @@ type GoogleComputeResourcePolicySnapshotSchedulePolicyScheduleOutputReference in
 
 // The jsii proxy struct for GoogleComputeResourcePolicySnapshotSchedulePolicyScheduleOutputReference
 type jsiiProxy_GoogleComputeResourcePolicySnapshotSchedulePolicyScheduleOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_GoogleComputeResourcePolicySnapshotSchedulePolicyScheduleOutputReference) ComplexObjectIndex() interface{} {
@@ -191,8 +191,8 @@ func (j *jsiiProxy_GoogleComputeResourcePolicySnapshotSchedulePolicyScheduleOutp
 	return returns
 }
 
-func (j *jsiiProxy_GoogleComputeResourcePolicySnapshotSchedulePolicyScheduleOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_GoogleComputeResourcePolicySnapshotSchedulePolicyScheduleOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -222,7 +222,7 @@ func (j *jsiiProxy_GoogleComputeResourcePolicySnapshotSchedulePolicyScheduleOutp
 }
 
 
-func NewGoogleComputeResourcePolicySnapshotSchedulePolicyScheduleOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) GoogleComputeResourcePolicySnapshotSchedulePolicyScheduleOutputReference {
+func NewGoogleComputeResourcePolicySnapshotSchedulePolicyScheduleOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) GoogleComputeResourcePolicySnapshotSchedulePolicyScheduleOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewGoogleComputeResourcePolicySnapshotSchedulePolicyScheduleOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -239,7 +239,7 @@ func NewGoogleComputeResourcePolicySnapshotSchedulePolicyScheduleOutputReference
 	return &j
 }
 
-func NewGoogleComputeResourcePolicySnapshotSchedulePolicyScheduleOutputReference_Override(g GoogleComputeResourcePolicySnapshotSchedulePolicyScheduleOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewGoogleComputeResourcePolicySnapshotSchedulePolicyScheduleOutputReference_Override(g GoogleComputeResourcePolicySnapshotSchedulePolicyScheduleOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -293,7 +293,7 @@ func (j *jsiiProxy_GoogleComputeResourcePolicySnapshotSchedulePolicyScheduleOutp
 	)
 }
 
-func (j *jsiiProxy_GoogleComputeResourcePolicySnapshotSchedulePolicyScheduleOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_GoogleComputeResourcePolicySnapshotSchedulePolicyScheduleOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -333,11 +333,11 @@ func (g *jsiiProxy_GoogleComputeResourcePolicySnapshotSchedulePolicyScheduleOutp
 	return returns
 }
 
-func (g *jsiiProxy_GoogleComputeResourcePolicySnapshotSchedulePolicyScheduleOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleComputeResourcePolicySnapshotSchedulePolicyScheduleOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -461,8 +461,8 @@ func (g *jsiiProxy_GoogleComputeResourcePolicySnapshotSchedulePolicyScheduleOutp
 	return returns
 }
 
-func (g *jsiiProxy_GoogleComputeResourcePolicySnapshotSchedulePolicyScheduleOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (g *jsiiProxy_GoogleComputeResourcePolicySnapshotSchedulePolicyScheduleOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -474,11 +474,11 @@ func (g *jsiiProxy_GoogleComputeResourcePolicySnapshotSchedulePolicyScheduleOutp
 	return returns
 }
 
-func (g *jsiiProxy_GoogleComputeResourcePolicySnapshotSchedulePolicyScheduleOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleComputeResourcePolicySnapshotSchedulePolicyScheduleOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -547,7 +547,7 @@ func (g *jsiiProxy_GoogleComputeResourcePolicySnapshotSchedulePolicyScheduleOutp
 	)
 }
 
-func (g *jsiiProxy_GoogleComputeResourcePolicySnapshotSchedulePolicyScheduleOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (g *jsiiProxy_GoogleComputeResourcePolicySnapshotSchedulePolicyScheduleOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

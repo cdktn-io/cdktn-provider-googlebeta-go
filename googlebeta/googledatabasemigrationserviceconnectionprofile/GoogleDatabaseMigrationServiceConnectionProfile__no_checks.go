@@ -139,7 +139,7 @@ func (j *jsiiProxy_GoogleDatabaseMigrationServiceConnectionProfile) validateSetL
 	return nil
 }
 
-func (j *jsiiProxy_GoogleDatabaseMigrationServiceConnectionProfile) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleDatabaseMigrationServiceConnectionProfile) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

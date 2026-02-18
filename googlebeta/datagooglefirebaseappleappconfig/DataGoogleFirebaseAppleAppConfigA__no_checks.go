@@ -79,7 +79,7 @@ func (j *jsiiProxy_DataGoogleFirebaseAppleAppConfigA) validateSetCountParameters
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleFirebaseAppleAppConfigA) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataGoogleFirebaseAppleAppConfigA) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

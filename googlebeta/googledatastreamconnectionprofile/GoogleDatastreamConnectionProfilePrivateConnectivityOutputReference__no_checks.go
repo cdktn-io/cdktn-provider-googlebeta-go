@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleDatastreamConnectionProfilePrivateConnectivityOutputRef
 	return nil
 }
 
-func (g *jsiiProxy_GoogleDatastreamConnectionProfilePrivateConnectivityOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleDatastreamConnectionProfilePrivateConnectivityOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_GoogleDatastreamConnectionProfilePrivateConnectivityOutputRef
 	return nil
 }
 
-func (j *jsiiProxy_GoogleDatastreamConnectionProfilePrivateConnectivityOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleDatastreamConnectionProfilePrivateConnectivityOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleDatastreamConnectionProfilePrivateConnectivityOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleDatastreamConnectionProfilePrivateConnectivityOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

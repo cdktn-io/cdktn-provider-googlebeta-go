@@ -139,7 +139,7 @@ func (j *jsiiProxy_GoogleDiscoveryEngineDataStore) validateSetKmsKeyNameParamete
 	return nil
 }
 
-func (j *jsiiProxy_GoogleDiscoveryEngineDataStore) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleDiscoveryEngineDataStore) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

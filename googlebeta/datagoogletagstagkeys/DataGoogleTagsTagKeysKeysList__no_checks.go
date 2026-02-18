@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataGoogleTagsTagKeysKeysList) validateGetParameters(index *f
 	return nil
 }
 
-func (d *jsiiProxy_DataGoogleTagsTagKeysKeysList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataGoogleTagsTagKeysKeysList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataGoogleTagsTagKeysKeysList) validateSetTerraformAttributeP
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleTagsTagKeysKeysList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataGoogleTagsTagKeysKeysList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataGoogleTagsTagKeysKeysList) validateSetWrapsSetParameters(
 	return nil
 }
 
-func validateNewDataGoogleTagsTagKeysKeysListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataGoogleTagsTagKeysKeysListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

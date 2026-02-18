@@ -15,7 +15,7 @@ func (g *jsiiProxy_GoogleDatabaseMigrationServiceConnectionProfileErrorList) val
 	return nil
 }
 
-func (g *jsiiProxy_GoogleDatabaseMigrationServiceConnectionProfileErrorList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleDatabaseMigrationServiceConnectionProfileErrorList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_GoogleDatabaseMigrationServiceConnectionProfileErrorList) val
 	return nil
 }
 
-func (j *jsiiProxy_GoogleDatabaseMigrationServiceConnectionProfileErrorList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleDatabaseMigrationServiceConnectionProfileErrorList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_GoogleDatabaseMigrationServiceConnectionProfileErrorList) val
 	return nil
 }
 
-func validateNewGoogleDatabaseMigrationServiceConnectionProfileErrorListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGoogleDatabaseMigrationServiceConnectionProfileErrorListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

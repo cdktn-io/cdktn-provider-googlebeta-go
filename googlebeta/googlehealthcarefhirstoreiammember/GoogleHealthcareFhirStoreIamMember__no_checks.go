@@ -111,7 +111,7 @@ func (j *jsiiProxy_GoogleHealthcareFhirStoreIamMember) validateSetIdParameters(v
 	return nil
 }
 
-func (j *jsiiProxy_GoogleHealthcareFhirStoreIamMember) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleHealthcareFhirStoreIamMember) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

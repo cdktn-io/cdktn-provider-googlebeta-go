@@ -111,7 +111,7 @@ func (j *jsiiProxy_GoogleDataplexZoneIamPolicy) validateSetLakeParameters(val *s
 	return nil
 }
 
-func (j *jsiiProxy_GoogleDataplexZoneIamPolicy) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleDataplexZoneIamPolicy) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

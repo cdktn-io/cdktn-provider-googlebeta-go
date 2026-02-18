@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleVertexAiDatasetEncryptionSpecOutputReference) validateI
 	return nil
 }
 
-func (g *jsiiProxy_GoogleVertexAiDatasetEncryptionSpecOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleVertexAiDatasetEncryptionSpecOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_GoogleVertexAiDatasetEncryptionSpecOutputReference) validateS
 	return nil
 }
 
-func (j *jsiiProxy_GoogleVertexAiDatasetEncryptionSpecOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleVertexAiDatasetEncryptionSpecOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleVertexAiDatasetEncryptionSpecOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleVertexAiDatasetEncryptionSpecOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

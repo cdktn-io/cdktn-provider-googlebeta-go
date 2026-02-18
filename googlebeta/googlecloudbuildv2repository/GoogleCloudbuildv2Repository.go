@@ -5,21 +5,21 @@ package googlecloudbuildv2repository
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecloudbuildv2repository/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecloudbuildv2repository/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloudbuildv2_repository google_cloudbuildv2_repository}.
 type GoogleCloudbuildv2Repository interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	Annotations() *map[string]*string
 	SetAnnotations(val *map[string]*string)
 	AnnotationsInput() *map[string]*string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -35,12 +35,12 @@ type GoogleCloudbuildv2Repository interface {
 	DependsOn() *[]*string
 	// Experimental.
 	SetDependsOn(val *[]*string)
-	EffectiveAnnotations() cdktf.StringMap
+	EffectiveAnnotations() cdktn.StringMap
 	Etag() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -49,9 +49,9 @@ type GoogleCloudbuildv2Repository interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Location() *string
 	SetLocation(val *string)
 	LocationInput() *string
@@ -67,9 +67,9 @@ type GoogleCloudbuildv2Repository interface {
 	SetProject(val *string)
 	ProjectInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -80,7 +80,7 @@ type GoogleCloudbuildv2Repository interface {
 	SetRemoteUri(val *string)
 	RemoteUriInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -96,7 +96,7 @@ type GoogleCloudbuildv2Repository interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -114,9 +114,9 @@ type GoogleCloudbuildv2Repository interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -155,7 +155,7 @@ type GoogleCloudbuildv2Repository interface {
 
 // The jsii proxy struct for GoogleCloudbuildv2Repository
 type jsiiProxy_GoogleCloudbuildv2Repository struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_GoogleCloudbuildv2Repository) Annotations() *map[string]*string {
@@ -178,8 +178,8 @@ func (j *jsiiProxy_GoogleCloudbuildv2Repository) AnnotationsInput() *map[string]
 	return returns
 }
 
-func (j *jsiiProxy_GoogleCloudbuildv2Repository) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_GoogleCloudbuildv2Repository) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -238,8 +238,8 @@ func (j *jsiiProxy_GoogleCloudbuildv2Repository) DependsOn() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleCloudbuildv2Repository) EffectiveAnnotations() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_GoogleCloudbuildv2Repository) EffectiveAnnotations() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"effectiveAnnotations",
@@ -258,8 +258,8 @@ func (j *jsiiProxy_GoogleCloudbuildv2Repository) Etag() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleCloudbuildv2Repository) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_GoogleCloudbuildv2Repository) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -308,8 +308,8 @@ func (j *jsiiProxy_GoogleCloudbuildv2Repository) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleCloudbuildv2Repository) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_GoogleCloudbuildv2Repository) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -408,8 +408,8 @@ func (j *jsiiProxy_GoogleCloudbuildv2Repository) ProjectInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleCloudbuildv2Repository) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_GoogleCloudbuildv2Repository) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -458,8 +458,8 @@ func (j *jsiiProxy_GoogleCloudbuildv2Repository) RemoteUriInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleCloudbuildv2Repository) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_GoogleCloudbuildv2Repository) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -589,7 +589,7 @@ func (j *jsiiProxy_GoogleCloudbuildv2Repository)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_GoogleCloudbuildv2Repository)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_GoogleCloudbuildv2Repository)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -608,7 +608,7 @@ func (j *jsiiProxy_GoogleCloudbuildv2Repository)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_GoogleCloudbuildv2Repository)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_GoogleCloudbuildv2Repository)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -663,7 +663,7 @@ func (j *jsiiProxy_GoogleCloudbuildv2Repository)SetProject(val *string) {
 	)
 }
 
-func (j *jsiiProxy_GoogleCloudbuildv2Repository)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_GoogleCloudbuildv2Repository)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -693,14 +693,14 @@ func (j *jsiiProxy_GoogleCloudbuildv2Repository)SetRemoteUri(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a GoogleCloudbuildv2Repository resource upon running "cdktf plan <stack-name>".
-func GoogleCloudbuildv2Repository_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a GoogleCloudbuildv2Repository resource upon running "cdktn plan <stack-name>".
+func GoogleCloudbuildv2Repository_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateGoogleCloudbuildv2Repository_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google-beta.googleCloudbuildv2Repository.GoogleCloudbuildv2Repository",
@@ -834,11 +834,11 @@ func (g *jsiiProxy_GoogleCloudbuildv2Repository) GetAnyMapAttribute(terraformAtt
 	return returns
 }
 
-func (g *jsiiProxy_GoogleCloudbuildv2Repository) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleCloudbuildv2Repository) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -975,7 +975,7 @@ func (g *jsiiProxy_GoogleCloudbuildv2Repository) HasResourceMove() interface{} {
 	return returns
 }
 
-func (g *jsiiProxy_GoogleCloudbuildv2Repository) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (g *jsiiProxy_GoogleCloudbuildv2Repository) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := g.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -986,11 +986,11 @@ func (g *jsiiProxy_GoogleCloudbuildv2Repository) ImportFrom(id *string, provider
 	)
 }
 
-func (g *jsiiProxy_GoogleCloudbuildv2Repository) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleCloudbuildv2Repository) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,

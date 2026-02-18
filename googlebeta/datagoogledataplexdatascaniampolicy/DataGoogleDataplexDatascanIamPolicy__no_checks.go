@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataGoogleDataplexDatascanIamPolicy) validateSetIdParameters(
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleDataplexDatascanIamPolicy) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataGoogleDataplexDatascanIamPolicy) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

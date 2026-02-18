@@ -123,7 +123,7 @@ func (j *jsiiProxy_GoogleNetworkConnectivityRegionalEndpoint) validateSetLabelsP
 	return nil
 }
 
-func (j *jsiiProxy_GoogleNetworkConnectivityRegionalEndpoint) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleNetworkConnectivityRegionalEndpoint) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

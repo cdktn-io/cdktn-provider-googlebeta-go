@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleSccV2ProjectSccBigQueryExportTimeoutsOutputReference) v
 	return nil
 }
 
-func (g *jsiiProxy_GoogleSccV2ProjectSccBigQueryExportTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleSccV2ProjectSccBigQueryExportTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_GoogleSccV2ProjectSccBigQueryExportTimeoutsOutputReference) v
 	return nil
 }
 
-func (j *jsiiProxy_GoogleSccV2ProjectSccBigQueryExportTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleSccV2ProjectSccBigQueryExportTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_GoogleSccV2ProjectSccBigQueryExportTimeoutsOutputReference) v
 	return nil
 }
 
-func validateNewGoogleSccV2ProjectSccBigQueryExportTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleSccV2ProjectSccBigQueryExportTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

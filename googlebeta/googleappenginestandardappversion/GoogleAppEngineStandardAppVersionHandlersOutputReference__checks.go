@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (g *jsiiProxy_GoogleAppEngineStandardAppVersionHandlersOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -115,7 +115,7 @@ func (g *jsiiProxy_GoogleAppEngineStandardAppVersionHandlersOutputReference) val
 	return nil
 }
 
-func (g *jsiiProxy_GoogleAppEngineStandardAppVersionHandlersOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleAppEngineStandardAppVersionHandlersOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -198,7 +198,7 @@ func (j *jsiiProxy_GoogleAppEngineStandardAppVersionHandlersOutputReference) val
 
 func (j *jsiiProxy_GoogleAppEngineStandardAppVersionHandlersOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *GoogleAppEngineStandardAppVersionHandlers:
 		val := val.(*GoogleAppEngineStandardAppVersionHandlers)
@@ -213,7 +213,7 @@ func (j *jsiiProxy_GoogleAppEngineStandardAppVersionHandlersOutputReference) val
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *GoogleAppEngineStandardAppVersionHandlers; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *GoogleAppEngineStandardAppVersionHandlers; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -252,7 +252,7 @@ func (j *jsiiProxy_GoogleAppEngineStandardAppVersionHandlersOutputReference) val
 	return nil
 }
 
-func (j *jsiiProxy_GoogleAppEngineStandardAppVersionHandlersOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleAppEngineStandardAppVersionHandlersOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -268,7 +268,7 @@ func (j *jsiiProxy_GoogleAppEngineStandardAppVersionHandlersOutputReference) val
 	return nil
 }
 
-func validateNewGoogleAppEngineStandardAppVersionHandlersOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewGoogleAppEngineStandardAppVersionHandlersOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

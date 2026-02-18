@@ -131,7 +131,7 @@ func (j *jsiiProxy_GooglePrivilegedAccessManagerEntitlement) validateSetIdParame
 	return nil
 }
 
-func (j *jsiiProxy_GooglePrivilegedAccessManagerEntitlement) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GooglePrivilegedAccessManagerEntitlement) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

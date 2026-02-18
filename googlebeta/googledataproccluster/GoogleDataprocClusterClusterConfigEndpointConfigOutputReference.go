@@ -5,14 +5,14 @@ package googledataproccluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googledataproccluster/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataproccluster/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type GoogleDataprocClusterClusterConfigEndpointConfigOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -33,7 +33,7 @@ type GoogleDataprocClusterClusterConfigEndpointConfigOutputReference interface {
 	EnableHttpPortAccessInput() interface{}
 	// Experimental.
 	Fqn() *string
-	HttpPorts() cdktf.StringMap
+	HttpPorts() cdktn.StringMap
 	InternalValue() *GoogleDataprocClusterClusterConfigEndpointConfig
 	SetInternalValue(val *GoogleDataprocClusterClusterConfigEndpointConfig)
 	// Experimental.
@@ -41,15 +41,15 @@ type GoogleDataprocClusterClusterConfigEndpointConfigOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -65,12 +65,12 @@ type GoogleDataprocClusterClusterConfigEndpointConfigOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -80,7 +80,7 @@ type GoogleDataprocClusterClusterConfigEndpointConfigOutputReference interface {
 
 // The jsii proxy struct for GoogleDataprocClusterClusterConfigEndpointConfigOutputReference
 type jsiiProxy_GoogleDataprocClusterClusterConfigEndpointConfigOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_GoogleDataprocClusterClusterConfigEndpointConfigOutputReference) ComplexObjectIndex() interface{} {
@@ -143,8 +143,8 @@ func (j *jsiiProxy_GoogleDataprocClusterClusterConfigEndpointConfigOutputReferen
 	return returns
 }
 
-func (j *jsiiProxy_GoogleDataprocClusterClusterConfigEndpointConfigOutputReference) HttpPorts() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_GoogleDataprocClusterClusterConfigEndpointConfigOutputReference) HttpPorts() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"httpPorts",
@@ -173,8 +173,8 @@ func (j *jsiiProxy_GoogleDataprocClusterClusterConfigEndpointConfigOutputReferen
 	return returns
 }
 
-func (j *jsiiProxy_GoogleDataprocClusterClusterConfigEndpointConfigOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_GoogleDataprocClusterClusterConfigEndpointConfigOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -184,7 +184,7 @@ func (j *jsiiProxy_GoogleDataprocClusterClusterConfigEndpointConfigOutputReferen
 }
 
 
-func NewGoogleDataprocClusterClusterConfigEndpointConfigOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) GoogleDataprocClusterClusterConfigEndpointConfigOutputReference {
+func NewGoogleDataprocClusterClusterConfigEndpointConfigOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) GoogleDataprocClusterClusterConfigEndpointConfigOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewGoogleDataprocClusterClusterConfigEndpointConfigOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -201,7 +201,7 @@ func NewGoogleDataprocClusterClusterConfigEndpointConfigOutputReference(terrafor
 	return &j
 }
 
-func NewGoogleDataprocClusterClusterConfigEndpointConfigOutputReference_Override(g GoogleDataprocClusterClusterConfigEndpointConfigOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewGoogleDataprocClusterClusterConfigEndpointConfigOutputReference_Override(g GoogleDataprocClusterClusterConfigEndpointConfigOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -266,7 +266,7 @@ func (j *jsiiProxy_GoogleDataprocClusterClusterConfigEndpointConfigOutputReferen
 	)
 }
 
-func (j *jsiiProxy_GoogleDataprocClusterClusterConfigEndpointConfigOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_GoogleDataprocClusterClusterConfigEndpointConfigOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -306,11 +306,11 @@ func (g *jsiiProxy_GoogleDataprocClusterClusterConfigEndpointConfigOutputReferen
 	return returns
 }
 
-func (g *jsiiProxy_GoogleDataprocClusterClusterConfigEndpointConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleDataprocClusterClusterConfigEndpointConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -434,8 +434,8 @@ func (g *jsiiProxy_GoogleDataprocClusterClusterConfigEndpointConfigOutputReferen
 	return returns
 }
 
-func (g *jsiiProxy_GoogleDataprocClusterClusterConfigEndpointConfigOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (g *jsiiProxy_GoogleDataprocClusterClusterConfigEndpointConfigOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -447,11 +447,11 @@ func (g *jsiiProxy_GoogleDataprocClusterClusterConfigEndpointConfigOutputReferen
 	return returns
 }
 
-func (g *jsiiProxy_GoogleDataprocClusterClusterConfigEndpointConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleDataprocClusterClusterConfigEndpointConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -463,7 +463,7 @@ func (g *jsiiProxy_GoogleDataprocClusterClusterConfigEndpointConfigOutputReferen
 	return returns
 }
 
-func (g *jsiiProxy_GoogleDataprocClusterClusterConfigEndpointConfigOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (g *jsiiProxy_GoogleDataprocClusterClusterConfigEndpointConfigOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

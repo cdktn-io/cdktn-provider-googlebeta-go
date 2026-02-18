@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleContainerAnalysisNoteIamBindingConditionOutputReference
 	return nil
 }
 
-func (g *jsiiProxy_GoogleContainerAnalysisNoteIamBindingConditionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleContainerAnalysisNoteIamBindingConditionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_GoogleContainerAnalysisNoteIamBindingConditionOutputReference
 	return nil
 }
 
-func (j *jsiiProxy_GoogleContainerAnalysisNoteIamBindingConditionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleContainerAnalysisNoteIamBindingConditionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_GoogleContainerAnalysisNoteIamBindingConditionOutputReference
 	return nil
 }
 
-func validateNewGoogleContainerAnalysisNoteIamBindingConditionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleContainerAnalysisNoteIamBindingConditionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

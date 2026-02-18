@@ -119,7 +119,7 @@ func (j *jsiiProxy_GoogleDataformRepositoryReleaseConfig) validateSetIdParameter
 	return nil
 }
 
-func (j *jsiiProxy_GoogleDataformRepositoryReleaseConfig) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleDataformRepositoryReleaseConfig) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

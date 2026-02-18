@@ -123,7 +123,7 @@ func (j *jsiiProxy_GoogleBackupDrBackupPlan) validateSetIdParameters(val *string
 	return nil
 }
 
-func (j *jsiiProxy_GoogleBackupDrBackupPlan) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleBackupDrBackupPlan) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -51,7 +51,7 @@ func (g *jsiiProxy_GoogleIamDenyPolicyRulesDenyRuleOutputReference) validatePutD
 	return nil
 }
 
-func (g *jsiiProxy_GoogleIamDenyPolicyRulesDenyRuleOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleIamDenyPolicyRulesDenyRuleOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -87,11 +87,11 @@ func (j *jsiiProxy_GoogleIamDenyPolicyRulesDenyRuleOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_GoogleIamDenyPolicyRulesDenyRuleOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleIamDenyPolicyRulesDenyRuleOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleIamDenyPolicyRulesDenyRuleOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleIamDenyPolicyRulesDenyRuleOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

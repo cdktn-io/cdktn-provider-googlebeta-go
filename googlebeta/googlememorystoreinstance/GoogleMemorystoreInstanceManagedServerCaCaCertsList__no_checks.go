@@ -15,7 +15,7 @@ func (g *jsiiProxy_GoogleMemorystoreInstanceManagedServerCaCaCertsList) validate
 	return nil
 }
 
-func (g *jsiiProxy_GoogleMemorystoreInstanceManagedServerCaCaCertsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleMemorystoreInstanceManagedServerCaCaCertsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_GoogleMemorystoreInstanceManagedServerCaCaCertsList) validate
 	return nil
 }
 
-func (j *jsiiProxy_GoogleMemorystoreInstanceManagedServerCaCaCertsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleMemorystoreInstanceManagedServerCaCaCertsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_GoogleMemorystoreInstanceManagedServerCaCaCertsList) validate
 	return nil
 }
 
-func validateNewGoogleMemorystoreInstanceManagedServerCaCaCertsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGoogleMemorystoreInstanceManagedServerCaCaCertsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

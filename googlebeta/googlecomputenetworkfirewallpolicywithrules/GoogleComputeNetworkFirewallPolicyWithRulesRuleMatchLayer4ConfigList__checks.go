@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (g *jsiiProxy_GoogleComputeNetworkFirewallPolicyWithRulesRuleMatchLayer4ConfigList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -29,7 +29,7 @@ func (g *jsiiProxy_GoogleComputeNetworkFirewallPolicyWithRulesRuleMatchLayer4Con
 	return nil
 }
 
-func (g *jsiiProxy_GoogleComputeNetworkFirewallPolicyWithRulesRuleMatchLayer4ConfigList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleComputeNetworkFirewallPolicyWithRulesRuleMatchLayer4ConfigList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -39,7 +39,7 @@ func (g *jsiiProxy_GoogleComputeNetworkFirewallPolicyWithRulesRuleMatchLayer4Con
 
 func (j *jsiiProxy_GoogleComputeNetworkFirewallPolicyWithRulesRuleMatchLayer4ConfigList) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*GoogleComputeNetworkFirewallPolicyWithRulesRuleMatchLayer4Config:
 		val := val.(*[]*GoogleComputeNetworkFirewallPolicyWithRulesRuleMatchLayer4Config)
@@ -58,7 +58,7 @@ func (j *jsiiProxy_GoogleComputeNetworkFirewallPolicyWithRulesRuleMatchLayer4Con
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *[]*GoogleComputeNetworkFirewallPolicyWithRulesRuleMatchLayer4Config; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *[]*GoogleComputeNetworkFirewallPolicyWithRulesRuleMatchLayer4Config; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -73,7 +73,7 @@ func (j *jsiiProxy_GoogleComputeNetworkFirewallPolicyWithRulesRuleMatchLayer4Con
 	return nil
 }
 
-func (j *jsiiProxy_GoogleComputeNetworkFirewallPolicyWithRulesRuleMatchLayer4ConfigList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleComputeNetworkFirewallPolicyWithRulesRuleMatchLayer4ConfigList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -89,7 +89,7 @@ func (j *jsiiProxy_GoogleComputeNetworkFirewallPolicyWithRulesRuleMatchLayer4Con
 	return nil
 }
 
-func validateNewGoogleComputeNetworkFirewallPolicyWithRulesRuleMatchLayer4ConfigListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGoogleComputeNetworkFirewallPolicyWithRulesRuleMatchLayer4ConfigListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

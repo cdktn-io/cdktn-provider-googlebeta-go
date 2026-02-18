@@ -111,7 +111,7 @@ func (j *jsiiProxy_GoogleContainerAnalysisOccurrence) validateSetIdParameters(va
 	return nil
 }
 
-func (j *jsiiProxy_GoogleContainerAnalysisOccurrence) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleContainerAnalysisOccurrence) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

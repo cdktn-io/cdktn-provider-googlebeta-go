@@ -143,7 +143,7 @@ func (j *jsiiProxy_GoogleRedisInstance) validateSetLabelsParameters(val *map[str
 	return nil
 }
 
-func (j *jsiiProxy_GoogleRedisInstance) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleRedisInstance) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

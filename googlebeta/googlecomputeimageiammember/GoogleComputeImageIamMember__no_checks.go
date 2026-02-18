@@ -111,7 +111,7 @@ func (j *jsiiProxy_GoogleComputeImageIamMember) validateSetImageParameters(val *
 	return nil
 }
 
-func (j *jsiiProxy_GoogleComputeImageIamMember) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleComputeImageIamMember) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

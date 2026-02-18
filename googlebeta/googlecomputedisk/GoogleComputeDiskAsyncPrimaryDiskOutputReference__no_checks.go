@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleComputeDiskAsyncPrimaryDiskOutputReference) validateInt
 	return nil
 }
 
-func (g *jsiiProxy_GoogleComputeDiskAsyncPrimaryDiskOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleComputeDiskAsyncPrimaryDiskOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_GoogleComputeDiskAsyncPrimaryDiskOutputReference) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_GoogleComputeDiskAsyncPrimaryDiskOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleComputeDiskAsyncPrimaryDiskOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleComputeDiskAsyncPrimaryDiskOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleComputeDiskAsyncPrimaryDiskOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

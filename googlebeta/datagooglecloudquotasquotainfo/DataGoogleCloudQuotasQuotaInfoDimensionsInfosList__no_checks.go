@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataGoogleCloudQuotasQuotaInfoDimensionsInfosList) validateGe
 	return nil
 }
 
-func (d *jsiiProxy_DataGoogleCloudQuotasQuotaInfoDimensionsInfosList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataGoogleCloudQuotasQuotaInfoDimensionsInfosList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataGoogleCloudQuotasQuotaInfoDimensionsInfosList) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleCloudQuotasQuotaInfoDimensionsInfosList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataGoogleCloudQuotasQuotaInfoDimensionsInfosList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataGoogleCloudQuotasQuotaInfoDimensionsInfosList) validateSe
 	return nil
 }
 
-func validateNewDataGoogleCloudQuotasQuotaInfoDimensionsInfosListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataGoogleCloudQuotasQuotaInfoDimensionsInfosListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -119,7 +119,7 @@ func (j *jsiiProxy_GoogleNetworkServicesTlsRoute) validateSetIdParameters(val *s
 	return nil
 }
 
-func (j *jsiiProxy_GoogleNetworkServicesTlsRoute) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleNetworkServicesTlsRoute) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

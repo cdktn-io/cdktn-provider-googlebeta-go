@@ -63,7 +63,7 @@ func (g *jsiiProxy_GoogleCloudTasksQueueHttpTargetOutputReference) validatePutUr
 	return nil
 }
 
-func (g *jsiiProxy_GoogleCloudTasksQueueHttpTargetOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleCloudTasksQueueHttpTargetOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -87,11 +87,11 @@ func (j *jsiiProxy_GoogleCloudTasksQueueHttpTargetOutputReference) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_GoogleCloudTasksQueueHttpTargetOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleCloudTasksQueueHttpTargetOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleCloudTasksQueueHttpTargetOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleCloudTasksQueueHttpTargetOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -131,7 +131,7 @@ func (j *jsiiProxy_GoogleApigeeInstance) validateSetIpRangeParameters(val *strin
 	return nil
 }
 
-func (j *jsiiProxy_GoogleApigeeInstance) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleApigeeInstance) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

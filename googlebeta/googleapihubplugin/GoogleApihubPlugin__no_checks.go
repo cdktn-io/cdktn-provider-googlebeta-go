@@ -131,7 +131,7 @@ func (j *jsiiProxy_GoogleApihubPlugin) validateSetIdParameters(val *string) erro
 	return nil
 }
 
-func (j *jsiiProxy_GoogleApihubPlugin) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleApihubPlugin) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

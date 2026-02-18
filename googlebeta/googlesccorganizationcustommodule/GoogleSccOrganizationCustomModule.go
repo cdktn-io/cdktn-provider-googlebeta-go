@@ -5,19 +5,19 @@ package googlesccorganizationcustommodule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlesccorganizationcustommodule/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlesccorganizationcustommodule/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_scc_organization_custom_module google_scc_organization_custom_module}.
 type GoogleSccOrganizationCustomModule interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	AncestorModule() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -41,9 +41,9 @@ type GoogleSccOrganizationCustomModule interface {
 	SetEnablementState(val *string)
 	EnablementStateInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -53,9 +53,9 @@ type GoogleSccOrganizationCustomModule interface {
 	IdInput() *string
 	LastEditor() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Name() *string
 	// The tree node.
 	Node() constructs.Node
@@ -63,9 +63,9 @@ type GoogleSccOrganizationCustomModule interface {
 	SetOrganization(val *string)
 	OrganizationInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -73,7 +73,7 @@ type GoogleSccOrganizationCustomModule interface {
 	// Experimental.
 	RawOverrides() interface{}
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -89,7 +89,7 @@ type GoogleSccOrganizationCustomModule interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -107,9 +107,9 @@ type GoogleSccOrganizationCustomModule interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -146,7 +146,7 @@ type GoogleSccOrganizationCustomModule interface {
 
 // The jsii proxy struct for GoogleSccOrganizationCustomModule
 type jsiiProxy_GoogleSccOrganizationCustomModule struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_GoogleSccOrganizationCustomModule) AncestorModule() *string {
@@ -159,8 +159,8 @@ func (j *jsiiProxy_GoogleSccOrganizationCustomModule) AncestorModule() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleSccOrganizationCustomModule) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_GoogleSccOrganizationCustomModule) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -269,8 +269,8 @@ func (j *jsiiProxy_GoogleSccOrganizationCustomModule) EnablementStateInput() *st
 	return returns
 }
 
-func (j *jsiiProxy_GoogleSccOrganizationCustomModule) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_GoogleSccOrganizationCustomModule) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -329,8 +329,8 @@ func (j *jsiiProxy_GoogleSccOrganizationCustomModule) LastEditor() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleSccOrganizationCustomModule) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_GoogleSccOrganizationCustomModule) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -379,8 +379,8 @@ func (j *jsiiProxy_GoogleSccOrganizationCustomModule) OrganizationInput() *strin
 	return returns
 }
 
-func (j *jsiiProxy_GoogleSccOrganizationCustomModule) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_GoogleSccOrganizationCustomModule) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -409,8 +409,8 @@ func (j *jsiiProxy_GoogleSccOrganizationCustomModule) RawOverrides() interface{}
 	return returns
 }
 
-func (j *jsiiProxy_GoogleSccOrganizationCustomModule) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_GoogleSccOrganizationCustomModule) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -551,7 +551,7 @@ func (j *jsiiProxy_GoogleSccOrganizationCustomModule)SetEnablementState(val *str
 	)
 }
 
-func (j *jsiiProxy_GoogleSccOrganizationCustomModule)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_GoogleSccOrganizationCustomModule)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -570,7 +570,7 @@ func (j *jsiiProxy_GoogleSccOrganizationCustomModule)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_GoogleSccOrganizationCustomModule)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_GoogleSccOrganizationCustomModule)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -592,7 +592,7 @@ func (j *jsiiProxy_GoogleSccOrganizationCustomModule)SetOrganization(val *string
 	)
 }
 
-func (j *jsiiProxy_GoogleSccOrganizationCustomModule)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_GoogleSccOrganizationCustomModule)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -611,14 +611,14 @@ func (j *jsiiProxy_GoogleSccOrganizationCustomModule)SetProvisioners(val *[]inte
 	)
 }
 
-// Generates CDKTF code for importing a GoogleSccOrganizationCustomModule resource upon running "cdktf plan <stack-name>".
-func GoogleSccOrganizationCustomModule_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a GoogleSccOrganizationCustomModule resource upon running "cdktn plan <stack-name>".
+func GoogleSccOrganizationCustomModule_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateGoogleSccOrganizationCustomModule_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google-beta.googleSccOrganizationCustomModule.GoogleSccOrganizationCustomModule",
@@ -752,11 +752,11 @@ func (g *jsiiProxy_GoogleSccOrganizationCustomModule) GetAnyMapAttribute(terrafo
 	return returns
 }
 
-func (g *jsiiProxy_GoogleSccOrganizationCustomModule) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleSccOrganizationCustomModule) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -893,7 +893,7 @@ func (g *jsiiProxy_GoogleSccOrganizationCustomModule) HasResourceMove() interfac
 	return returns
 }
 
-func (g *jsiiProxy_GoogleSccOrganizationCustomModule) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (g *jsiiProxy_GoogleSccOrganizationCustomModule) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := g.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -904,11 +904,11 @@ func (g *jsiiProxy_GoogleSccOrganizationCustomModule) ImportFrom(id *string, pro
 	)
 }
 
-func (g *jsiiProxy_GoogleSccOrganizationCustomModule) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleSccOrganizationCustomModule) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,

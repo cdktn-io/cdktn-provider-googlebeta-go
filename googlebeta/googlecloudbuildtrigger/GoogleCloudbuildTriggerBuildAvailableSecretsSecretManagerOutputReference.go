@@ -5,14 +5,14 @@ package googlecloudbuildtrigger
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecloudbuildtrigger/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecloudbuildtrigger/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type GoogleCloudbuildTriggerBuildAvailableSecretsSecretManagerOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -40,9 +40,9 @@ type GoogleCloudbuildTriggerBuildAvailableSecretsSecretManagerOutputReference in
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	VersionName() *string
 	SetVersionName(val *string)
 	VersionNameInput() *string
@@ -51,7 +51,7 @@ type GoogleCloudbuildTriggerBuildAvailableSecretsSecretManagerOutputReference in
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,12 +67,12 @@ type GoogleCloudbuildTriggerBuildAvailableSecretsSecretManagerOutputReference in
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -82,7 +82,7 @@ type GoogleCloudbuildTriggerBuildAvailableSecretsSecretManagerOutputReference in
 
 // The jsii proxy struct for GoogleCloudbuildTriggerBuildAvailableSecretsSecretManagerOutputReference
 type jsiiProxy_GoogleCloudbuildTriggerBuildAvailableSecretsSecretManagerOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_GoogleCloudbuildTriggerBuildAvailableSecretsSecretManagerOutputReference) ComplexObjectIndex() interface{} {
@@ -165,8 +165,8 @@ func (j *jsiiProxy_GoogleCloudbuildTriggerBuildAvailableSecretsSecretManagerOutp
 	return returns
 }
 
-func (j *jsiiProxy_GoogleCloudbuildTriggerBuildAvailableSecretsSecretManagerOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_GoogleCloudbuildTriggerBuildAvailableSecretsSecretManagerOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -196,7 +196,7 @@ func (j *jsiiProxy_GoogleCloudbuildTriggerBuildAvailableSecretsSecretManagerOutp
 }
 
 
-func NewGoogleCloudbuildTriggerBuildAvailableSecretsSecretManagerOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) GoogleCloudbuildTriggerBuildAvailableSecretsSecretManagerOutputReference {
+func NewGoogleCloudbuildTriggerBuildAvailableSecretsSecretManagerOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) GoogleCloudbuildTriggerBuildAvailableSecretsSecretManagerOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewGoogleCloudbuildTriggerBuildAvailableSecretsSecretManagerOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -213,7 +213,7 @@ func NewGoogleCloudbuildTriggerBuildAvailableSecretsSecretManagerOutputReference
 	return &j
 }
 
-func NewGoogleCloudbuildTriggerBuildAvailableSecretsSecretManagerOutputReference_Override(g GoogleCloudbuildTriggerBuildAvailableSecretsSecretManagerOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewGoogleCloudbuildTriggerBuildAvailableSecretsSecretManagerOutputReference_Override(g GoogleCloudbuildTriggerBuildAvailableSecretsSecretManagerOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -278,7 +278,7 @@ func (j *jsiiProxy_GoogleCloudbuildTriggerBuildAvailableSecretsSecretManagerOutp
 	)
 }
 
-func (j *jsiiProxy_GoogleCloudbuildTriggerBuildAvailableSecretsSecretManagerOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_GoogleCloudbuildTriggerBuildAvailableSecretsSecretManagerOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -329,11 +329,11 @@ func (g *jsiiProxy_GoogleCloudbuildTriggerBuildAvailableSecretsSecretManagerOutp
 	return returns
 }
 
-func (g *jsiiProxy_GoogleCloudbuildTriggerBuildAvailableSecretsSecretManagerOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleCloudbuildTriggerBuildAvailableSecretsSecretManagerOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -457,8 +457,8 @@ func (g *jsiiProxy_GoogleCloudbuildTriggerBuildAvailableSecretsSecretManagerOutp
 	return returns
 }
 
-func (g *jsiiProxy_GoogleCloudbuildTriggerBuildAvailableSecretsSecretManagerOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (g *jsiiProxy_GoogleCloudbuildTriggerBuildAvailableSecretsSecretManagerOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -470,11 +470,11 @@ func (g *jsiiProxy_GoogleCloudbuildTriggerBuildAvailableSecretsSecretManagerOutp
 	return returns
 }
 
-func (g *jsiiProxy_GoogleCloudbuildTriggerBuildAvailableSecretsSecretManagerOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleCloudbuildTriggerBuildAvailableSecretsSecretManagerOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -486,7 +486,7 @@ func (g *jsiiProxy_GoogleCloudbuildTriggerBuildAvailableSecretsSecretManagerOutp
 	return returns
 }
 
-func (g *jsiiProxy_GoogleCloudbuildTriggerBuildAvailableSecretsSecretManagerOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (g *jsiiProxy_GoogleCloudbuildTriggerBuildAvailableSecretsSecretManagerOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

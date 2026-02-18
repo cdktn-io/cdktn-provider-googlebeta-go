@@ -115,7 +115,7 @@ func (j *jsiiProxy_GoogleComputeNetworkFirewallPolicyWithRules) validateSetIdPar
 	return nil
 }
 
-func (j *jsiiProxy_GoogleComputeNetworkFirewallPolicyWithRules) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleComputeNetworkFirewallPolicyWithRules) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

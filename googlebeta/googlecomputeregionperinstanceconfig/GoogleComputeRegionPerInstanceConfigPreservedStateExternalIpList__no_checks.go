@@ -15,7 +15,7 @@ func (g *jsiiProxy_GoogleComputeRegionPerInstanceConfigPreservedStateExternalIpL
 	return nil
 }
 
-func (g *jsiiProxy_GoogleComputeRegionPerInstanceConfigPreservedStateExternalIpList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleComputeRegionPerInstanceConfigPreservedStateExternalIpList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_GoogleComputeRegionPerInstanceConfigPreservedStateExternalIpL
 	return nil
 }
 
-func (j *jsiiProxy_GoogleComputeRegionPerInstanceConfigPreservedStateExternalIpList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleComputeRegionPerInstanceConfigPreservedStateExternalIpList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_GoogleComputeRegionPerInstanceConfigPreservedStateExternalIpL
 	return nil
 }
 
-func validateNewGoogleComputeRegionPerInstanceConfigPreservedStateExternalIpListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGoogleComputeRegionPerInstanceConfigPreservedStateExternalIpListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -51,7 +51,7 @@ func (g *jsiiProxy_GoogleCloudTasksQueueHttpTargetHeaderOverridesOutputReference
 	return nil
 }
 
-func (g *jsiiProxy_GoogleCloudTasksQueueHttpTargetHeaderOverridesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleCloudTasksQueueHttpTargetHeaderOverridesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_GoogleCloudTasksQueueHttpTargetHeaderOverridesOutputReference
 	return nil
 }
 
-func (j *jsiiProxy_GoogleCloudTasksQueueHttpTargetHeaderOverridesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleCloudTasksQueueHttpTargetHeaderOverridesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleCloudTasksQueueHttpTargetHeaderOverridesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewGoogleCloudTasksQueueHttpTargetHeaderOverridesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleIntegrationConnectorsConnectionSslConfigClientPrivateKe
 	return nil
 }
 
-func (g *jsiiProxy_GoogleIntegrationConnectorsConnectionSslConfigClientPrivateKeyPassOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleIntegrationConnectorsConnectionSslConfigClientPrivateKeyPassOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_GoogleIntegrationConnectorsConnectionSslConfigClientPrivateKe
 	return nil
 }
 
-func (j *jsiiProxy_GoogleIntegrationConnectorsConnectionSslConfigClientPrivateKeyPassOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleIntegrationConnectorsConnectionSslConfigClientPrivateKeyPassOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleIntegrationConnectorsConnectionSslConfigClientPrivateKeyPassOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleIntegrationConnectorsConnectionSslConfigClientPrivateKeyPassOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

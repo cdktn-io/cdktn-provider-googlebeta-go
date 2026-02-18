@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleClouddeployDeliveryPipelineConditionPipelineReadyCondit
 	return nil
 }
 
-func (g *jsiiProxy_GoogleClouddeployDeliveryPipelineConditionPipelineReadyConditionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleClouddeployDeliveryPipelineConditionPipelineReadyConditionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_GoogleClouddeployDeliveryPipelineConditionPipelineReadyCondit
 	return nil
 }
 
-func (j *jsiiProxy_GoogleClouddeployDeliveryPipelineConditionPipelineReadyConditionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleClouddeployDeliveryPipelineConditionPipelineReadyConditionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleClouddeployDeliveryPipelineConditionPipelineReadyConditionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewGoogleClouddeployDeliveryPipelineConditionPipelineReadyConditionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

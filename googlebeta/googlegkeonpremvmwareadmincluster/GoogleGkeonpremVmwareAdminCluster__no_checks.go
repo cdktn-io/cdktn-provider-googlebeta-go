@@ -167,7 +167,7 @@ func (j *jsiiProxy_GoogleGkeonpremVmwareAdminCluster) validateSetImageTypeParame
 	return nil
 }
 
-func (j *jsiiProxy_GoogleGkeonpremVmwareAdminCluster) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleGkeonpremVmwareAdminCluster) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleDataprocMetastoreServiceIamBindingConditionOutputRefere
 	return nil
 }
 
-func (g *jsiiProxy_GoogleDataprocMetastoreServiceIamBindingConditionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleDataprocMetastoreServiceIamBindingConditionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_GoogleDataprocMetastoreServiceIamBindingConditionOutputRefere
 	return nil
 }
 
-func (j *jsiiProxy_GoogleDataprocMetastoreServiceIamBindingConditionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleDataprocMetastoreServiceIamBindingConditionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_GoogleDataprocMetastoreServiceIamBindingConditionOutputRefere
 	return nil
 }
 
-func validateNewGoogleDataprocMetastoreServiceIamBindingConditionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleDataprocMetastoreServiceIamBindingConditionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

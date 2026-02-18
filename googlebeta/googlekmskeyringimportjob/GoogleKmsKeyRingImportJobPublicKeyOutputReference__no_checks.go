@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleKmsKeyRingImportJobPublicKeyOutputReference) validateIn
 	return nil
 }
 
-func (g *jsiiProxy_GoogleKmsKeyRingImportJobPublicKeyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleKmsKeyRingImportJobPublicKeyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_GoogleKmsKeyRingImportJobPublicKeyOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_GoogleKmsKeyRingImportJobPublicKeyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleKmsKeyRingImportJobPublicKeyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleKmsKeyRingImportJobPublicKeyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewGoogleKmsKeyRingImportJobPublicKeyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

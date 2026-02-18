@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleHealthcareDatasetIamMemberConditionOutputReference) val
 	return nil
 }
 
-func (g *jsiiProxy_GoogleHealthcareDatasetIamMemberConditionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleHealthcareDatasetIamMemberConditionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_GoogleHealthcareDatasetIamMemberConditionOutputReference) val
 	return nil
 }
 
-func (j *jsiiProxy_GoogleHealthcareDatasetIamMemberConditionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleHealthcareDatasetIamMemberConditionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_GoogleHealthcareDatasetIamMemberConditionOutputReference) val
 	return nil
 }
 
-func validateNewGoogleHealthcareDatasetIamMemberConditionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleHealthcareDatasetIamMemberConditionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

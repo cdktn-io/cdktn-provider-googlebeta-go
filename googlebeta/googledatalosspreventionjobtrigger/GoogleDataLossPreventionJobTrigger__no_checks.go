@@ -123,7 +123,7 @@ func (j *jsiiProxy_GoogleDataLossPreventionJobTrigger) validateSetIdParameters(v
 	return nil
 }
 
-func (j *jsiiProxy_GoogleDataLossPreventionJobTrigger) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleDataLossPreventionJobTrigger) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

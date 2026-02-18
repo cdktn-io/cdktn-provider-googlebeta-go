@@ -15,7 +15,7 @@ func (g *jsiiProxy_GoogleApikeysKeyRestrictionsApiTargetsList) validateGetParame
 	return nil
 }
 
-func (g *jsiiProxy_GoogleApikeysKeyRestrictionsApiTargetsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleApikeysKeyRestrictionsApiTargetsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_GoogleApikeysKeyRestrictionsApiTargetsList) validateSetTerraf
 	return nil
 }
 
-func (j *jsiiProxy_GoogleApikeysKeyRestrictionsApiTargetsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleApikeysKeyRestrictionsApiTargetsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_GoogleApikeysKeyRestrictionsApiTargetsList) validateSetWrapsS
 	return nil
 }
 
-func validateNewGoogleApikeysKeyRestrictionsApiTargetsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGoogleApikeysKeyRestrictionsApiTargetsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

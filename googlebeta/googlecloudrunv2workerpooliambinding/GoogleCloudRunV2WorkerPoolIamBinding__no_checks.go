@@ -107,7 +107,7 @@ func (j *jsiiProxy_GoogleCloudRunV2WorkerPoolIamBinding) validateSetIdParameters
 	return nil
 }
 
-func (j *jsiiProxy_GoogleCloudRunV2WorkerPoolIamBinding) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleCloudRunV2WorkerPoolIamBinding) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

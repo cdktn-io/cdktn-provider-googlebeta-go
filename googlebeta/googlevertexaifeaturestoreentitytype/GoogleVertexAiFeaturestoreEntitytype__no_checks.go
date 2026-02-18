@@ -123,7 +123,7 @@ func (j *jsiiProxy_GoogleVertexAiFeaturestoreEntitytype) validateSetLabelsParame
 	return nil
 }
 
-func (j *jsiiProxy_GoogleVertexAiFeaturestoreEntitytype) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleVertexAiFeaturestoreEntitytype) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

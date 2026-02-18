@@ -51,7 +51,7 @@ func (g *jsiiProxy_GoogleSecretManagerSecretReplicationAutoOutputReference) vali
 	return nil
 }
 
-func (g *jsiiProxy_GoogleSecretManagerSecretReplicationAutoOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleSecretManagerSecretReplicationAutoOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_GoogleSecretManagerSecretReplicationAutoOutputReference) vali
 	return nil
 }
 
-func (j *jsiiProxy_GoogleSecretManagerSecretReplicationAutoOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleSecretManagerSecretReplicationAutoOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleSecretManagerSecretReplicationAutoOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleSecretManagerSecretReplicationAutoOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

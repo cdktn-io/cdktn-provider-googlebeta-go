@@ -79,7 +79,7 @@ func (j *jsiiProxy_DataGoogleProjectAncestry) validateSetIdParameters(val *strin
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleProjectAncestry) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataGoogleProjectAncestry) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleBigtableInstanceClusterAutoscalingConfigOutputReference
 	return nil
 }
 
-func (g *jsiiProxy_GoogleBigtableInstanceClusterAutoscalingConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleBigtableInstanceClusterAutoscalingConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_GoogleBigtableInstanceClusterAutoscalingConfigOutputReference
 	return nil
 }
 
-func (j *jsiiProxy_GoogleBigtableInstanceClusterAutoscalingConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleBigtableInstanceClusterAutoscalingConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleBigtableInstanceClusterAutoscalingConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleBigtableInstanceClusterAutoscalingConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

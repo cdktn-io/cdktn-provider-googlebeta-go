@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleSqlDatabaseInstanceRestoreBackupContextOutputReference)
 	return nil
 }
 
-func (g *jsiiProxy_GoogleSqlDatabaseInstanceRestoreBackupContextOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleSqlDatabaseInstanceRestoreBackupContextOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_GoogleSqlDatabaseInstanceRestoreBackupContextOutputReference)
 	return nil
 }
 
-func (j *jsiiProxy_GoogleSqlDatabaseInstanceRestoreBackupContextOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleSqlDatabaseInstanceRestoreBackupContextOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleSqlDatabaseInstanceRestoreBackupContextOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleSqlDatabaseInstanceRestoreBackupContextOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (g *jsiiProxy_GoogleComputeInstanceScratchDiskList) validateGetParameters(i
 	return nil
 }
 
-func (g *jsiiProxy_GoogleComputeInstanceScratchDiskList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleComputeInstanceScratchDiskList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_GoogleComputeInstanceScratchDiskList) validateSetTerraformAtt
 	return nil
 }
 
-func (j *jsiiProxy_GoogleComputeInstanceScratchDiskList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleComputeInstanceScratchDiskList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_GoogleComputeInstanceScratchDiskList) validateSetWrapsSetPara
 	return nil
 }
 
-func validateNewGoogleComputeInstanceScratchDiskListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGoogleComputeInstanceScratchDiskListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

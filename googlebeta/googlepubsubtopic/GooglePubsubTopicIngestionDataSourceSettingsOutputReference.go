@@ -5,14 +5,14 @@ package googlepubsubtopic
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlepubsubtopic/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlepubsubtopic/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type GooglePubsubTopicIngestionDataSourceSettingsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AwsKinesis() GooglePubsubTopicIngestionDataSourceSettingsAwsKinesisOutputReference
 	AwsKinesisInput() *GooglePubsubTopicIngestionDataSourceSettingsAwsKinesis
 	AwsMsk() GooglePubsubTopicIngestionDataSourceSettingsAwsMskOutputReference
@@ -49,15 +49,15 @@ type GooglePubsubTopicIngestionDataSourceSettingsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -73,9 +73,9 @@ type GooglePubsubTopicIngestionDataSourceSettingsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutAwsKinesis(value *GooglePubsubTopicIngestionDataSourceSettingsAwsKinesis)
 	PutAwsMsk(value *GooglePubsubTopicIngestionDataSourceSettingsAwsMsk)
 	PutAzureEventHubs(value *GooglePubsubTopicIngestionDataSourceSettingsAzureEventHubs)
@@ -90,7 +90,7 @@ type GooglePubsubTopicIngestionDataSourceSettingsOutputReference interface {
 	ResetPlatformLogsSettings()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -100,7 +100,7 @@ type GooglePubsubTopicIngestionDataSourceSettingsOutputReference interface {
 
 // The jsii proxy struct for GooglePubsubTopicIngestionDataSourceSettingsOutputReference
 type jsiiProxy_GooglePubsubTopicIngestionDataSourceSettingsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_GooglePubsubTopicIngestionDataSourceSettingsOutputReference) AwsKinesis() GooglePubsubTopicIngestionDataSourceSettingsAwsKinesisOutputReference {
@@ -283,8 +283,8 @@ func (j *jsiiProxy_GooglePubsubTopicIngestionDataSourceSettingsOutputReference) 
 	return returns
 }
 
-func (j *jsiiProxy_GooglePubsubTopicIngestionDataSourceSettingsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_GooglePubsubTopicIngestionDataSourceSettingsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -294,7 +294,7 @@ func (j *jsiiProxy_GooglePubsubTopicIngestionDataSourceSettingsOutputReference) 
 }
 
 
-func NewGooglePubsubTopicIngestionDataSourceSettingsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) GooglePubsubTopicIngestionDataSourceSettingsOutputReference {
+func NewGooglePubsubTopicIngestionDataSourceSettingsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) GooglePubsubTopicIngestionDataSourceSettingsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewGooglePubsubTopicIngestionDataSourceSettingsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -311,7 +311,7 @@ func NewGooglePubsubTopicIngestionDataSourceSettingsOutputReference(terraformRes
 	return &j
 }
 
-func NewGooglePubsubTopicIngestionDataSourceSettingsOutputReference_Override(g GooglePubsubTopicIngestionDataSourceSettingsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewGooglePubsubTopicIngestionDataSourceSettingsOutputReference_Override(g GooglePubsubTopicIngestionDataSourceSettingsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -365,7 +365,7 @@ func (j *jsiiProxy_GooglePubsubTopicIngestionDataSourceSettingsOutputReference)S
 	)
 }
 
-func (j *jsiiProxy_GooglePubsubTopicIngestionDataSourceSettingsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_GooglePubsubTopicIngestionDataSourceSettingsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -405,11 +405,11 @@ func (g *jsiiProxy_GooglePubsubTopicIngestionDataSourceSettingsOutputReference) 
 	return returns
 }
 
-func (g *jsiiProxy_GooglePubsubTopicIngestionDataSourceSettingsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GooglePubsubTopicIngestionDataSourceSettingsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -533,8 +533,8 @@ func (g *jsiiProxy_GooglePubsubTopicIngestionDataSourceSettingsOutputReference) 
 	return returns
 }
 
-func (g *jsiiProxy_GooglePubsubTopicIngestionDataSourceSettingsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (g *jsiiProxy_GooglePubsubTopicIngestionDataSourceSettingsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -546,11 +546,11 @@ func (g *jsiiProxy_GooglePubsubTopicIngestionDataSourceSettingsOutputReference) 
 	return returns
 }
 
-func (g *jsiiProxy_GooglePubsubTopicIngestionDataSourceSettingsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GooglePubsubTopicIngestionDataSourceSettingsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -676,7 +676,7 @@ func (g *jsiiProxy_GooglePubsubTopicIngestionDataSourceSettingsOutputReference) 
 	)
 }
 
-func (g *jsiiProxy_GooglePubsubTopicIngestionDataSourceSettingsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (g *jsiiProxy_GooglePubsubTopicIngestionDataSourceSettingsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

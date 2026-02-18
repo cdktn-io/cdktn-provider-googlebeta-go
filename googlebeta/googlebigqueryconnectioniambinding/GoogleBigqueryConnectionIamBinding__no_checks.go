@@ -111,7 +111,7 @@ func (j *jsiiProxy_GoogleBigqueryConnectionIamBinding) validateSetIdParameters(v
 	return nil
 }
 
-func (j *jsiiProxy_GoogleBigqueryConnectionIamBinding) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleBigqueryConnectionIamBinding) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

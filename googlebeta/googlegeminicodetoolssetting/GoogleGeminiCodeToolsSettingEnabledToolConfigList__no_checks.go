@@ -15,7 +15,7 @@ func (g *jsiiProxy_GoogleGeminiCodeToolsSettingEnabledToolConfigList) validateGe
 	return nil
 }
 
-func (g *jsiiProxy_GoogleGeminiCodeToolsSettingEnabledToolConfigList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleGeminiCodeToolsSettingEnabledToolConfigList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_GoogleGeminiCodeToolsSettingEnabledToolConfigList) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_GoogleGeminiCodeToolsSettingEnabledToolConfigList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleGeminiCodeToolsSettingEnabledToolConfigList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_GoogleGeminiCodeToolsSettingEnabledToolConfigList) validateSe
 	return nil
 }
 
-func validateNewGoogleGeminiCodeToolsSettingEnabledToolConfigListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGoogleGeminiCodeToolsSettingEnabledToolConfigListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

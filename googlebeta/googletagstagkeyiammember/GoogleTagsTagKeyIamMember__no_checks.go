@@ -107,7 +107,7 @@ func (j *jsiiProxy_GoogleTagsTagKeyIamMember) validateSetIdParameters(val *strin
 	return nil
 }
 
-func (j *jsiiProxy_GoogleTagsTagKeyIamMember) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleTagsTagKeyIamMember) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

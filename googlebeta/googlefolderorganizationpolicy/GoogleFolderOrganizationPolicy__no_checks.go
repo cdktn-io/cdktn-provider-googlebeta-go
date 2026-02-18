@@ -127,7 +127,7 @@ func (j *jsiiProxy_GoogleFolderOrganizationPolicy) validateSetIdParameters(val *
 	return nil
 }
 
-func (j *jsiiProxy_GoogleFolderOrganizationPolicy) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleFolderOrganizationPolicy) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

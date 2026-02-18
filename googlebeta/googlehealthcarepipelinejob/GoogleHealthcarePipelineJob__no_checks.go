@@ -131,7 +131,7 @@ func (j *jsiiProxy_GoogleHealthcarePipelineJob) validateSetLabelsParameters(val 
 	return nil
 }
 
-func (j *jsiiProxy_GoogleHealthcarePipelineJob) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleHealthcarePipelineJob) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

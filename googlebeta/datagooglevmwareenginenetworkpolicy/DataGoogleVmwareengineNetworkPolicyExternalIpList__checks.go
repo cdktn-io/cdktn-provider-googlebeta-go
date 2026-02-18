@@ -8,7 +8,7 @@ package datagooglevmwareenginenetworkpolicy
 import (
 	"fmt"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (d *jsiiProxy_DataGoogleVmwareengineNetworkPolicyExternalIpList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -27,7 +27,7 @@ func (d *jsiiProxy_DataGoogleVmwareengineNetworkPolicyExternalIpList) validateGe
 	return nil
 }
 
-func (d *jsiiProxy_DataGoogleVmwareengineNetworkPolicyExternalIpList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataGoogleVmwareengineNetworkPolicyExternalIpList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -43,7 +43,7 @@ func (j *jsiiProxy_DataGoogleVmwareengineNetworkPolicyExternalIpList) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleVmwareengineNetworkPolicyExternalIpList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataGoogleVmwareengineNetworkPolicyExternalIpList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -59,7 +59,7 @@ func (j *jsiiProxy_DataGoogleVmwareengineNetworkPolicyExternalIpList) validateSe
 	return nil
 }
 
-func validateNewDataGoogleVmwareengineNetworkPolicyExternalIpListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataGoogleVmwareengineNetworkPolicyExternalIpListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

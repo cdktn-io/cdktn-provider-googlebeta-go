@@ -5,14 +5,14 @@ package googlegkehubfeaturemembership
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlegkehubfeaturemembership/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlegkehubfeaturemembership/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type GoogleGkeHubFeatureMembershipConfigmanagementOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	Binauthz() GoogleGkeHubFeatureMembershipConfigmanagementBinauthzOutputReference
 	BinauthzInput() *GoogleGkeHubFeatureMembershipConfigmanagementBinauthz
 	// the index of the complex object in a list.
@@ -48,9 +48,9 @@ type GoogleGkeHubFeatureMembershipConfigmanagementOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Version() *string
 	SetVersion(val *string)
 	VersionInput() *string
@@ -59,7 +59,7 @@ type GoogleGkeHubFeatureMembershipConfigmanagementOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -75,9 +75,9 @@ type GoogleGkeHubFeatureMembershipConfigmanagementOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutBinauthz(value *GoogleGkeHubFeatureMembershipConfigmanagementBinauthz)
 	PutConfigSync(value *GoogleGkeHubFeatureMembershipConfigmanagementConfigSync)
 	PutHierarchyController(value *GoogleGkeHubFeatureMembershipConfigmanagementHierarchyController)
@@ -90,7 +90,7 @@ type GoogleGkeHubFeatureMembershipConfigmanagementOutputReference interface {
 	ResetVersion()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -100,7 +100,7 @@ type GoogleGkeHubFeatureMembershipConfigmanagementOutputReference interface {
 
 // The jsii proxy struct for GoogleGkeHubFeatureMembershipConfigmanagementOutputReference
 type jsiiProxy_GoogleGkeHubFeatureMembershipConfigmanagementOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_GoogleGkeHubFeatureMembershipConfigmanagementOutputReference) Binauthz() GoogleGkeHubFeatureMembershipConfigmanagementBinauthzOutputReference {
@@ -263,8 +263,8 @@ func (j *jsiiProxy_GoogleGkeHubFeatureMembershipConfigmanagementOutputReference)
 	return returns
 }
 
-func (j *jsiiProxy_GoogleGkeHubFeatureMembershipConfigmanagementOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_GoogleGkeHubFeatureMembershipConfigmanagementOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -294,7 +294,7 @@ func (j *jsiiProxy_GoogleGkeHubFeatureMembershipConfigmanagementOutputReference)
 }
 
 
-func NewGoogleGkeHubFeatureMembershipConfigmanagementOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) GoogleGkeHubFeatureMembershipConfigmanagementOutputReference {
+func NewGoogleGkeHubFeatureMembershipConfigmanagementOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) GoogleGkeHubFeatureMembershipConfigmanagementOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewGoogleGkeHubFeatureMembershipConfigmanagementOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -311,7 +311,7 @@ func NewGoogleGkeHubFeatureMembershipConfigmanagementOutputReference(terraformRe
 	return &j
 }
 
-func NewGoogleGkeHubFeatureMembershipConfigmanagementOutputReference_Override(g GoogleGkeHubFeatureMembershipConfigmanagementOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewGoogleGkeHubFeatureMembershipConfigmanagementOutputReference_Override(g GoogleGkeHubFeatureMembershipConfigmanagementOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -376,7 +376,7 @@ func (j *jsiiProxy_GoogleGkeHubFeatureMembershipConfigmanagementOutputReference)
 	)
 }
 
-func (j *jsiiProxy_GoogleGkeHubFeatureMembershipConfigmanagementOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_GoogleGkeHubFeatureMembershipConfigmanagementOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -427,11 +427,11 @@ func (g *jsiiProxy_GoogleGkeHubFeatureMembershipConfigmanagementOutputReference)
 	return returns
 }
 
-func (g *jsiiProxy_GoogleGkeHubFeatureMembershipConfigmanagementOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleGkeHubFeatureMembershipConfigmanagementOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -555,8 +555,8 @@ func (g *jsiiProxy_GoogleGkeHubFeatureMembershipConfigmanagementOutputReference)
 	return returns
 }
 
-func (g *jsiiProxy_GoogleGkeHubFeatureMembershipConfigmanagementOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (g *jsiiProxy_GoogleGkeHubFeatureMembershipConfigmanagementOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -568,11 +568,11 @@ func (g *jsiiProxy_GoogleGkeHubFeatureMembershipConfigmanagementOutputReference)
 	return returns
 }
 
-func (g *jsiiProxy_GoogleGkeHubFeatureMembershipConfigmanagementOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleGkeHubFeatureMembershipConfigmanagementOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -676,7 +676,7 @@ func (g *jsiiProxy_GoogleGkeHubFeatureMembershipConfigmanagementOutputReference)
 	)
 }
 
-func (g *jsiiProxy_GoogleGkeHubFeatureMembershipConfigmanagementOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (g *jsiiProxy_GoogleGkeHubFeatureMembershipConfigmanagementOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleSiteVerificationOwnerTimeoutsOutputReference) validateI
 	return nil
 }
 
-func (g *jsiiProxy_GoogleSiteVerificationOwnerTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleSiteVerificationOwnerTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_GoogleSiteVerificationOwnerTimeoutsOutputReference) validateS
 	return nil
 }
 
-func (j *jsiiProxy_GoogleSiteVerificationOwnerTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleSiteVerificationOwnerTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleSiteVerificationOwnerTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleSiteVerificationOwnerTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

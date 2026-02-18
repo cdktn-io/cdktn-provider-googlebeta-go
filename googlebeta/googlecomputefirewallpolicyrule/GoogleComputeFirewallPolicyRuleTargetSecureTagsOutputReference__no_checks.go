@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleComputeFirewallPolicyRuleTargetSecureTagsOutputReferenc
 	return nil
 }
 
-func (g *jsiiProxy_GoogleComputeFirewallPolicyRuleTargetSecureTagsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleComputeFirewallPolicyRuleTargetSecureTagsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_GoogleComputeFirewallPolicyRuleTargetSecureTagsOutputReferenc
 	return nil
 }
 
-func (j *jsiiProxy_GoogleComputeFirewallPolicyRuleTargetSecureTagsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleComputeFirewallPolicyRuleTargetSecureTagsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleComputeFirewallPolicyRuleTargetSecureTagsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewGoogleComputeFirewallPolicyRuleTargetSecureTagsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

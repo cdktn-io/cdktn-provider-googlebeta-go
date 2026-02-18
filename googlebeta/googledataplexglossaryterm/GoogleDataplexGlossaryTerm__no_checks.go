@@ -123,7 +123,7 @@ func (j *jsiiProxy_GoogleDataplexGlossaryTerm) validateSetLabelsParameters(val *
 	return nil
 }
 
-func (j *jsiiProxy_GoogleDataplexGlossaryTerm) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleDataplexGlossaryTerm) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

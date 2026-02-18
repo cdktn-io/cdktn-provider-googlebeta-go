@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataGoogleBeyondcorpAppGatewayAllocatedConnectionsList) valid
 	return nil
 }
 
-func (d *jsiiProxy_DataGoogleBeyondcorpAppGatewayAllocatedConnectionsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataGoogleBeyondcorpAppGatewayAllocatedConnectionsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataGoogleBeyondcorpAppGatewayAllocatedConnectionsList) valid
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleBeyondcorpAppGatewayAllocatedConnectionsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataGoogleBeyondcorpAppGatewayAllocatedConnectionsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataGoogleBeyondcorpAppGatewayAllocatedConnectionsList) valid
 	return nil
 }
 
-func validateNewDataGoogleBeyondcorpAppGatewayAllocatedConnectionsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataGoogleBeyondcorpAppGatewayAllocatedConnectionsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

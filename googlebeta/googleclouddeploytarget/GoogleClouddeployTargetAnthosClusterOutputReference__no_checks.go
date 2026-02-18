@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleClouddeployTargetAnthosClusterOutputReference) validate
 	return nil
 }
 
-func (g *jsiiProxy_GoogleClouddeployTargetAnthosClusterOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleClouddeployTargetAnthosClusterOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_GoogleClouddeployTargetAnthosClusterOutputReference) validate
 	return nil
 }
 
-func (j *jsiiProxy_GoogleClouddeployTargetAnthosClusterOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleClouddeployTargetAnthosClusterOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleClouddeployTargetAnthosClusterOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleClouddeployTargetAnthosClusterOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

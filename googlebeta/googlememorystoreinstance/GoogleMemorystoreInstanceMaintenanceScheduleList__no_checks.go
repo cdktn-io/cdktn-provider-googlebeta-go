@@ -15,7 +15,7 @@ func (g *jsiiProxy_GoogleMemorystoreInstanceMaintenanceScheduleList) validateGet
 	return nil
 }
 
-func (g *jsiiProxy_GoogleMemorystoreInstanceMaintenanceScheduleList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleMemorystoreInstanceMaintenanceScheduleList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_GoogleMemorystoreInstanceMaintenanceScheduleList) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_GoogleMemorystoreInstanceMaintenanceScheduleList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleMemorystoreInstanceMaintenanceScheduleList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_GoogleMemorystoreInstanceMaintenanceScheduleList) validateSet
 	return nil
 }
 
-func validateNewGoogleMemorystoreInstanceMaintenanceScheduleListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGoogleMemorystoreInstanceMaintenanceScheduleListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

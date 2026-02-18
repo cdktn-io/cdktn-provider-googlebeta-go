@@ -51,7 +51,7 @@ func (g *jsiiProxy_GoogleDataprocMetastoreServiceScalingConfigAutoscalingConfigO
 	return nil
 }
 
-func (g *jsiiProxy_GoogleDataprocMetastoreServiceScalingConfigAutoscalingConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleDataprocMetastoreServiceScalingConfigAutoscalingConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_GoogleDataprocMetastoreServiceScalingConfigAutoscalingConfigO
 	return nil
 }
 
-func (j *jsiiProxy_GoogleDataprocMetastoreServiceScalingConfigAutoscalingConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleDataprocMetastoreServiceScalingConfigAutoscalingConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleDataprocMetastoreServiceScalingConfigAutoscalingConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleDataprocMetastoreServiceScalingConfigAutoscalingConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -5,20 +5,20 @@ package googlevmwareenginecluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlevmwareenginecluster/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlevmwareenginecluster/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vmwareengine_cluster google_vmwareengine_cluster}.
 type GoogleVmwareengineCluster interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	AutoscalingSettings() GoogleVmwareengineClusterAutoscalingSettingsOutputReference
 	AutoscalingSettingsInput() *GoogleVmwareengineClusterAutoscalingSettings
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -34,9 +34,9 @@ type GoogleVmwareengineCluster interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -45,10 +45,10 @@ type GoogleVmwareengineCluster interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
-	Management() cdktf.IResolvable
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
+	Management() cdktn.IResolvable
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
@@ -60,9 +60,9 @@ type GoogleVmwareengineCluster interface {
 	SetParent(val *string)
 	ParentInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -71,7 +71,7 @@ type GoogleVmwareengineCluster interface {
 	RawOverrides() interface{}
 	State() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -87,7 +87,7 @@ type GoogleVmwareengineCluster interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -105,9 +105,9 @@ type GoogleVmwareengineCluster interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -147,7 +147,7 @@ type GoogleVmwareengineCluster interface {
 
 // The jsii proxy struct for GoogleVmwareengineCluster
 type jsiiProxy_GoogleVmwareengineCluster struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_GoogleVmwareengineCluster) AutoscalingSettings() GoogleVmwareengineClusterAutoscalingSettingsOutputReference {
@@ -170,8 +170,8 @@ func (j *jsiiProxy_GoogleVmwareengineCluster) AutoscalingSettingsInput() *Google
 	return returns
 }
 
-func (j *jsiiProxy_GoogleVmwareengineCluster) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_GoogleVmwareengineCluster) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -220,8 +220,8 @@ func (j *jsiiProxy_GoogleVmwareengineCluster) DependsOn() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleVmwareengineCluster) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_GoogleVmwareengineCluster) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -270,8 +270,8 @@ func (j *jsiiProxy_GoogleVmwareengineCluster) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleVmwareengineCluster) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_GoogleVmwareengineCluster) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -280,8 +280,8 @@ func (j *jsiiProxy_GoogleVmwareengineCluster) Lifecycle() *cdktf.TerraformResour
 	return returns
 }
 
-func (j *jsiiProxy_GoogleVmwareengineCluster) Management() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_GoogleVmwareengineCluster) Management() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"management",
@@ -360,8 +360,8 @@ func (j *jsiiProxy_GoogleVmwareengineCluster) ParentInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleVmwareengineCluster) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_GoogleVmwareengineCluster) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -400,8 +400,8 @@ func (j *jsiiProxy_GoogleVmwareengineCluster) State() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleVmwareengineCluster) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_GoogleVmwareengineCluster) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -520,7 +520,7 @@ func (j *jsiiProxy_GoogleVmwareengineCluster)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_GoogleVmwareengineCluster)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_GoogleVmwareengineCluster)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -539,7 +539,7 @@ func (j *jsiiProxy_GoogleVmwareengineCluster)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_GoogleVmwareengineCluster)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_GoogleVmwareengineCluster)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -572,7 +572,7 @@ func (j *jsiiProxy_GoogleVmwareengineCluster)SetParent(val *string) {
 	)
 }
 
-func (j *jsiiProxy_GoogleVmwareengineCluster)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_GoogleVmwareengineCluster)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -591,14 +591,14 @@ func (j *jsiiProxy_GoogleVmwareengineCluster)SetProvisioners(val *[]interface{})
 	)
 }
 
-// Generates CDKTF code for importing a GoogleVmwareengineCluster resource upon running "cdktf plan <stack-name>".
-func GoogleVmwareengineCluster_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a GoogleVmwareengineCluster resource upon running "cdktn plan <stack-name>".
+func GoogleVmwareengineCluster_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateGoogleVmwareengineCluster_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google-beta.googleVmwareengineCluster.GoogleVmwareengineCluster",
@@ -732,11 +732,11 @@ func (g *jsiiProxy_GoogleVmwareengineCluster) GetAnyMapAttribute(terraformAttrib
 	return returns
 }
 
-func (g *jsiiProxy_GoogleVmwareengineCluster) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleVmwareengineCluster) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -873,7 +873,7 @@ func (g *jsiiProxy_GoogleVmwareengineCluster) HasResourceMove() interface{} {
 	return returns
 }
 
-func (g *jsiiProxy_GoogleVmwareengineCluster) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (g *jsiiProxy_GoogleVmwareengineCluster) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := g.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -884,11 +884,11 @@ func (g *jsiiProxy_GoogleVmwareengineCluster) ImportFrom(id *string, provider cd
 	)
 }
 
-func (g *jsiiProxy_GoogleVmwareengineCluster) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleVmwareengineCluster) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,

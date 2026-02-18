@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleHealthcareWorkspaceSettingsOutputReference) validateInt
 	return nil
 }
 
-func (g *jsiiProxy_GoogleHealthcareWorkspaceSettingsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleHealthcareWorkspaceSettingsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_GoogleHealthcareWorkspaceSettingsOutputReference) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_GoogleHealthcareWorkspaceSettingsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleHealthcareWorkspaceSettingsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleHealthcareWorkspaceSettingsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleHealthcareWorkspaceSettingsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

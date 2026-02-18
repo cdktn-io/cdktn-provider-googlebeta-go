@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataGoogleSpannerInstanceIamPolicy) validateSetInstanceParame
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleSpannerInstanceIamPolicy) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataGoogleSpannerInstanceIamPolicy) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

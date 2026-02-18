@@ -8,7 +8,7 @@ package googlekmskeyringimportjob
 import (
 	"fmt"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (g *jsiiProxy_GoogleKmsKeyRingImportJobAttestationList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -27,7 +27,7 @@ func (g *jsiiProxy_GoogleKmsKeyRingImportJobAttestationList) validateGetParamete
 	return nil
 }
 
-func (g *jsiiProxy_GoogleKmsKeyRingImportJobAttestationList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleKmsKeyRingImportJobAttestationList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -43,7 +43,7 @@ func (j *jsiiProxy_GoogleKmsKeyRingImportJobAttestationList) validateSetTerrafor
 	return nil
 }
 
-func (j *jsiiProxy_GoogleKmsKeyRingImportJobAttestationList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleKmsKeyRingImportJobAttestationList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -59,7 +59,7 @@ func (j *jsiiProxy_GoogleKmsKeyRingImportJobAttestationList) validateSetWrapsSet
 	return nil
 }
 
-func validateNewGoogleKmsKeyRingImportJobAttestationListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGoogleKmsKeyRingImportJobAttestationListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

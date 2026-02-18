@@ -15,7 +15,7 @@ func (g *jsiiProxy_GoogleComputeServiceAttachmentConnectedEndpointsList) validat
 	return nil
 }
 
-func (g *jsiiProxy_GoogleComputeServiceAttachmentConnectedEndpointsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleComputeServiceAttachmentConnectedEndpointsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_GoogleComputeServiceAttachmentConnectedEndpointsList) validat
 	return nil
 }
 
-func (j *jsiiProxy_GoogleComputeServiceAttachmentConnectedEndpointsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleComputeServiceAttachmentConnectedEndpointsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_GoogleComputeServiceAttachmentConnectedEndpointsList) validat
 	return nil
 }
 
-func validateNewGoogleComputeServiceAttachmentConnectedEndpointsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGoogleComputeServiceAttachmentConnectedEndpointsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

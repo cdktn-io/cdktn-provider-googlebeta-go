@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleBillingAccountIamBindingConditionOutputReference) valid
 	return nil
 }
 
-func (g *jsiiProxy_GoogleBillingAccountIamBindingConditionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleBillingAccountIamBindingConditionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_GoogleBillingAccountIamBindingConditionOutputReference) valid
 	return nil
 }
 
-func (j *jsiiProxy_GoogleBillingAccountIamBindingConditionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleBillingAccountIamBindingConditionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_GoogleBillingAccountIamBindingConditionOutputReference) valid
 	return nil
 }
 
-func validateNewGoogleBillingAccountIamBindingConditionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleBillingAccountIamBindingConditionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

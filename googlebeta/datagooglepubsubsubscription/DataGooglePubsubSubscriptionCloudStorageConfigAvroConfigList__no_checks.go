@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataGooglePubsubSubscriptionCloudStorageConfigAvroConfigList)
 	return nil
 }
 
-func (d *jsiiProxy_DataGooglePubsubSubscriptionCloudStorageConfigAvroConfigList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataGooglePubsubSubscriptionCloudStorageConfigAvroConfigList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataGooglePubsubSubscriptionCloudStorageConfigAvroConfigList)
 	return nil
 }
 
-func (j *jsiiProxy_DataGooglePubsubSubscriptionCloudStorageConfigAvroConfigList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataGooglePubsubSubscriptionCloudStorageConfigAvroConfigList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataGooglePubsubSubscriptionCloudStorageConfigAvroConfigList)
 	return nil
 }
 
-func validateNewDataGooglePubsubSubscriptionCloudStorageConfigAvroConfigListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataGooglePubsubSubscriptionCloudStorageConfigAvroConfigListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -79,7 +79,7 @@ func (j *jsiiProxy_DataGoogleNetblockIpRanges) validateSetIdParameters(val *stri
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleNetblockIpRanges) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataGoogleNetblockIpRanges) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

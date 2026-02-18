@@ -15,7 +15,7 @@ func (g *jsiiProxy_GoogleTpuNodeNetworkEndpointsList) validateGetParameters(inde
 	return nil
 }
 
-func (g *jsiiProxy_GoogleTpuNodeNetworkEndpointsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleTpuNodeNetworkEndpointsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_GoogleTpuNodeNetworkEndpointsList) validateSetTerraformAttrib
 	return nil
 }
 
-func (j *jsiiProxy_GoogleTpuNodeNetworkEndpointsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleTpuNodeNetworkEndpointsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_GoogleTpuNodeNetworkEndpointsList) validateSetWrapsSetParamet
 	return nil
 }
 
-func validateNewGoogleTpuNodeNetworkEndpointsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGoogleTpuNodeNetworkEndpointsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

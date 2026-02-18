@@ -5,14 +5,14 @@ package googlebigquerytable
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlebigquerytable/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebigquerytable/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type GoogleBigqueryTableExternalDataConfigurationBigtableOptionsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	ColumnFamily() GoogleBigqueryTableExternalDataConfigurationBigtableOptionsColumnFamilyList
 	ColumnFamilyInput() interface{}
 	// the index of the complex object in a list.
@@ -48,15 +48,15 @@ type GoogleBigqueryTableExternalDataConfigurationBigtableOptionsOutputReference 
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -72,9 +72,9 @@ type GoogleBigqueryTableExternalDataConfigurationBigtableOptionsOutputReference 
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutColumnFamily(value interface{})
 	ResetColumnFamily()
 	ResetIgnoreUnspecifiedColumnFamilies()
@@ -82,7 +82,7 @@ type GoogleBigqueryTableExternalDataConfigurationBigtableOptionsOutputReference 
 	ResetReadRowkeyAsString()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -92,7 +92,7 @@ type GoogleBigqueryTableExternalDataConfigurationBigtableOptionsOutputReference 
 
 // The jsii proxy struct for GoogleBigqueryTableExternalDataConfigurationBigtableOptionsOutputReference
 type jsiiProxy_GoogleBigqueryTableExternalDataConfigurationBigtableOptionsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_GoogleBigqueryTableExternalDataConfigurationBigtableOptionsOutputReference) ColumnFamily() GoogleBigqueryTableExternalDataConfigurationBigtableOptionsColumnFamilyList {
@@ -235,8 +235,8 @@ func (j *jsiiProxy_GoogleBigqueryTableExternalDataConfigurationBigtableOptionsOu
 	return returns
 }
 
-func (j *jsiiProxy_GoogleBigqueryTableExternalDataConfigurationBigtableOptionsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_GoogleBigqueryTableExternalDataConfigurationBigtableOptionsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -246,7 +246,7 @@ func (j *jsiiProxy_GoogleBigqueryTableExternalDataConfigurationBigtableOptionsOu
 }
 
 
-func NewGoogleBigqueryTableExternalDataConfigurationBigtableOptionsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) GoogleBigqueryTableExternalDataConfigurationBigtableOptionsOutputReference {
+func NewGoogleBigqueryTableExternalDataConfigurationBigtableOptionsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) GoogleBigqueryTableExternalDataConfigurationBigtableOptionsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewGoogleBigqueryTableExternalDataConfigurationBigtableOptionsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -263,7 +263,7 @@ func NewGoogleBigqueryTableExternalDataConfigurationBigtableOptionsOutputReferen
 	return &j
 }
 
-func NewGoogleBigqueryTableExternalDataConfigurationBigtableOptionsOutputReference_Override(g GoogleBigqueryTableExternalDataConfigurationBigtableOptionsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewGoogleBigqueryTableExternalDataConfigurationBigtableOptionsOutputReference_Override(g GoogleBigqueryTableExternalDataConfigurationBigtableOptionsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -350,7 +350,7 @@ func (j *jsiiProxy_GoogleBigqueryTableExternalDataConfigurationBigtableOptionsOu
 	)
 }
 
-func (j *jsiiProxy_GoogleBigqueryTableExternalDataConfigurationBigtableOptionsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_GoogleBigqueryTableExternalDataConfigurationBigtableOptionsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -390,11 +390,11 @@ func (g *jsiiProxy_GoogleBigqueryTableExternalDataConfigurationBigtableOptionsOu
 	return returns
 }
 
-func (g *jsiiProxy_GoogleBigqueryTableExternalDataConfigurationBigtableOptionsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleBigqueryTableExternalDataConfigurationBigtableOptionsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -518,8 +518,8 @@ func (g *jsiiProxy_GoogleBigqueryTableExternalDataConfigurationBigtableOptionsOu
 	return returns
 }
 
-func (g *jsiiProxy_GoogleBigqueryTableExternalDataConfigurationBigtableOptionsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (g *jsiiProxy_GoogleBigqueryTableExternalDataConfigurationBigtableOptionsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -531,11 +531,11 @@ func (g *jsiiProxy_GoogleBigqueryTableExternalDataConfigurationBigtableOptionsOu
 	return returns
 }
 
-func (g *jsiiProxy_GoogleBigqueryTableExternalDataConfigurationBigtableOptionsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleBigqueryTableExternalDataConfigurationBigtableOptionsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -590,7 +590,7 @@ func (g *jsiiProxy_GoogleBigqueryTableExternalDataConfigurationBigtableOptionsOu
 	)
 }
 
-func (g *jsiiProxy_GoogleBigqueryTableExternalDataConfigurationBigtableOptionsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (g *jsiiProxy_GoogleBigqueryTableExternalDataConfigurationBigtableOptionsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

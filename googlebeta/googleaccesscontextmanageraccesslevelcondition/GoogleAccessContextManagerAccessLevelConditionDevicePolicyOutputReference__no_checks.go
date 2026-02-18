@@ -51,7 +51,7 @@ func (g *jsiiProxy_GoogleAccessContextManagerAccessLevelConditionDevicePolicyOut
 	return nil
 }
 
-func (g *jsiiProxy_GoogleAccessContextManagerAccessLevelConditionDevicePolicyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleAccessContextManagerAccessLevelConditionDevicePolicyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -91,11 +91,11 @@ func (j *jsiiProxy_GoogleAccessContextManagerAccessLevelConditionDevicePolicyOut
 	return nil
 }
 
-func (j *jsiiProxy_GoogleAccessContextManagerAccessLevelConditionDevicePolicyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleAccessContextManagerAccessLevelConditionDevicePolicyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleAccessContextManagerAccessLevelConditionDevicePolicyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleAccessContextManagerAccessLevelConditionDevicePolicyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

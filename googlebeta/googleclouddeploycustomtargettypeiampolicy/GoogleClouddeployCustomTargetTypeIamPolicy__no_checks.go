@@ -103,7 +103,7 @@ func (j *jsiiProxy_GoogleClouddeployCustomTargetTypeIamPolicy) validateSetIdPara
 	return nil
 }
 
-func (j *jsiiProxy_GoogleClouddeployCustomTargetTypeIamPolicy) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleClouddeployCustomTargetTypeIamPolicy) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

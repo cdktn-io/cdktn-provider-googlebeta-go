@@ -111,7 +111,7 @@ func (j *jsiiProxy_GoogleSpannerInstanceIamBinding) validateSetInstanceParameter
 	return nil
 }
 
-func (j *jsiiProxy_GoogleSpannerInstanceIamBinding) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleSpannerInstanceIamBinding) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

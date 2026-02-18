@@ -5,21 +5,21 @@ package googlebeyondcorpapplicationiammember
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlebeyondcorpapplicationiammember/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebeyondcorpapplicationiammember/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_beyondcorp_application_iam_member google_beyondcorp_application_iam_member}.
 type GoogleBeyondcorpApplicationIamMember interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	ApplicationId() *string
 	SetApplicationId(val *string)
 	ApplicationIdInput() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	Condition() GoogleBeyondcorpApplicationIamMemberConditionOutputReference
 	ConditionInput() *GoogleBeyondcorpApplicationIamMemberCondition
 	// Experimental.
@@ -38,9 +38,9 @@ type GoogleBeyondcorpApplicationIamMember interface {
 	SetDependsOn(val *[]*string)
 	Etag() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -49,9 +49,9 @@ type GoogleBeyondcorpApplicationIamMember interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Member() *string
 	SetMember(val *string)
 	MemberInput() *string
@@ -61,9 +61,9 @@ type GoogleBeyondcorpApplicationIamMember interface {
 	SetProject(val *string)
 	ProjectInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -77,7 +77,7 @@ type GoogleBeyondcorpApplicationIamMember interface {
 	SetSecurityGatewaysId(val *string)
 	SecurityGatewaysIdInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -90,7 +90,7 @@ type GoogleBeyondcorpApplicationIamMember interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -108,9 +108,9 @@ type GoogleBeyondcorpApplicationIamMember interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -147,7 +147,7 @@ type GoogleBeyondcorpApplicationIamMember interface {
 
 // The jsii proxy struct for GoogleBeyondcorpApplicationIamMember
 type jsiiProxy_GoogleBeyondcorpApplicationIamMember struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_GoogleBeyondcorpApplicationIamMember) ApplicationId() *string {
@@ -170,8 +170,8 @@ func (j *jsiiProxy_GoogleBeyondcorpApplicationIamMember) ApplicationIdInput() *s
 	return returns
 }
 
-func (j *jsiiProxy_GoogleBeyondcorpApplicationIamMember) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_GoogleBeyondcorpApplicationIamMember) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -250,8 +250,8 @@ func (j *jsiiProxy_GoogleBeyondcorpApplicationIamMember) Etag() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleBeyondcorpApplicationIamMember) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_GoogleBeyondcorpApplicationIamMember) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -300,8 +300,8 @@ func (j *jsiiProxy_GoogleBeyondcorpApplicationIamMember) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleBeyondcorpApplicationIamMember) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_GoogleBeyondcorpApplicationIamMember) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -360,8 +360,8 @@ func (j *jsiiProxy_GoogleBeyondcorpApplicationIamMember) ProjectInput() *string 
 	return returns
 }
 
-func (j *jsiiProxy_GoogleBeyondcorpApplicationIamMember) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_GoogleBeyondcorpApplicationIamMember) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -430,8 +430,8 @@ func (j *jsiiProxy_GoogleBeyondcorpApplicationIamMember) SecurityGatewaysIdInput
 	return returns
 }
 
-func (j *jsiiProxy_GoogleBeyondcorpApplicationIamMember) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_GoogleBeyondcorpApplicationIamMember) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -531,7 +531,7 @@ func (j *jsiiProxy_GoogleBeyondcorpApplicationIamMember)SetDependsOn(val *[]*str
 	)
 }
 
-func (j *jsiiProxy_GoogleBeyondcorpApplicationIamMember)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_GoogleBeyondcorpApplicationIamMember)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -550,7 +550,7 @@ func (j *jsiiProxy_GoogleBeyondcorpApplicationIamMember)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_GoogleBeyondcorpApplicationIamMember)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_GoogleBeyondcorpApplicationIamMember)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -583,7 +583,7 @@ func (j *jsiiProxy_GoogleBeyondcorpApplicationIamMember)SetProject(val *string) 
 	)
 }
 
-func (j *jsiiProxy_GoogleBeyondcorpApplicationIamMember)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_GoogleBeyondcorpApplicationIamMember)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -624,14 +624,14 @@ func (j *jsiiProxy_GoogleBeyondcorpApplicationIamMember)SetSecurityGatewaysId(va
 	)
 }
 
-// Generates CDKTF code for importing a GoogleBeyondcorpApplicationIamMember resource upon running "cdktf plan <stack-name>".
-func GoogleBeyondcorpApplicationIamMember_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a GoogleBeyondcorpApplicationIamMember resource upon running "cdktn plan <stack-name>".
+func GoogleBeyondcorpApplicationIamMember_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateGoogleBeyondcorpApplicationIamMember_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google-beta.googleBeyondcorpApplicationIamMember.GoogleBeyondcorpApplicationIamMember",
@@ -765,11 +765,11 @@ func (g *jsiiProxy_GoogleBeyondcorpApplicationIamMember) GetAnyMapAttribute(terr
 	return returns
 }
 
-func (g *jsiiProxy_GoogleBeyondcorpApplicationIamMember) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleBeyondcorpApplicationIamMember) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -906,7 +906,7 @@ func (g *jsiiProxy_GoogleBeyondcorpApplicationIamMember) HasResourceMove() inter
 	return returns
 }
 
-func (g *jsiiProxy_GoogleBeyondcorpApplicationIamMember) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (g *jsiiProxy_GoogleBeyondcorpApplicationIamMember) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := g.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -917,11 +917,11 @@ func (g *jsiiProxy_GoogleBeyondcorpApplicationIamMember) ImportFrom(id *string, 
 	)
 }
 
-func (g *jsiiProxy_GoogleBeyondcorpApplicationIamMember) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleBeyondcorpApplicationIamMember) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,

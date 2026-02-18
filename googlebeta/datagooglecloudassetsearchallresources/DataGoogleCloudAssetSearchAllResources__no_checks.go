@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataGoogleCloudAssetSearchAllResources) validateSetIdParamete
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleCloudAssetSearchAllResources) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataGoogleCloudAssetSearchAllResources) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

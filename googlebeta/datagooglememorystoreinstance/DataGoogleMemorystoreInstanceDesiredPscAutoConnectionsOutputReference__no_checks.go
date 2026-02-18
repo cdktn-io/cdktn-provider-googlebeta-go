@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataGoogleMemorystoreInstanceDesiredPscAutoConnectionsOutputR
 	return nil
 }
 
-func (d *jsiiProxy_DataGoogleMemorystoreInstanceDesiredPscAutoConnectionsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataGoogleMemorystoreInstanceDesiredPscAutoConnectionsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataGoogleMemorystoreInstanceDesiredPscAutoConnectionsOutputR
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleMemorystoreInstanceDesiredPscAutoConnectionsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataGoogleMemorystoreInstanceDesiredPscAutoConnectionsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataGoogleMemorystoreInstanceDesiredPscAutoConnectionsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataGoogleMemorystoreInstanceDesiredPscAutoConnectionsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

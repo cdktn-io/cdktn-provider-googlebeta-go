@@ -79,7 +79,7 @@ func (j *jsiiProxy_DataGoogleDataprocMetastoreServiceIamPolicy) validateSetIdPar
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleDataprocMetastoreServiceIamPolicy) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataGoogleDataprocMetastoreServiceIamPolicy) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

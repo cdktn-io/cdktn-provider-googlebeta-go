@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleContainerAwsNodePoolConfigConfigEncryptionOutputReferen
 	return nil
 }
 
-func (g *jsiiProxy_GoogleContainerAwsNodePoolConfigConfigEncryptionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleContainerAwsNodePoolConfigConfigEncryptionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_GoogleContainerAwsNodePoolConfigConfigEncryptionOutputReferen
 	return nil
 }
 
-func (j *jsiiProxy_GoogleContainerAwsNodePoolConfigConfigEncryptionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleContainerAwsNodePoolConfigConfigEncryptionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleContainerAwsNodePoolConfigConfigEncryptionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleContainerAwsNodePoolConfigConfigEncryptionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

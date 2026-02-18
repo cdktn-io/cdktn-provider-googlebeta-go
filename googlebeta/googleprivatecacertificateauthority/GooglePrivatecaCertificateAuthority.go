@@ -5,19 +5,19 @@ package googleprivatecacertificateauthority
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleprivatecacertificateauthority/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleprivatecacertificateauthority/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_privateca_certificate_authority google_privateca_certificate_authority}.
 type GooglePrivatecaCertificateAuthority interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	AccessUrls() GooglePrivatecaCertificateAuthorityAccessUrlsList
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	CertificateAuthorityId() *string
 	SetCertificateAuthorityId(val *string)
 	CertificateAuthorityIdInput() *string
@@ -44,11 +44,11 @@ type GooglePrivatecaCertificateAuthority interface {
 	DesiredState() *string
 	SetDesiredState(val *string)
 	DesiredStateInput() *string
-	EffectiveLabels() cdktf.StringMap
+	EffectiveLabels() cdktn.StringMap
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -68,9 +68,9 @@ type GooglePrivatecaCertificateAuthority interface {
 	SetLabels(val *map[string]*string)
 	LabelsInput() *map[string]*string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Lifetime() *string
 	SetLifetime(val *string)
 	LifetimeInput() *string
@@ -91,9 +91,9 @@ type GooglePrivatecaCertificateAuthority interface {
 	SetProject(val *string)
 	ProjectInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -107,8 +107,8 @@ type GooglePrivatecaCertificateAuthority interface {
 	SubordinateConfig() GooglePrivatecaCertificateAuthoritySubordinateConfigOutputReference
 	SubordinateConfigInput() *GooglePrivatecaCertificateAuthoritySubordinateConfig
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
-	TerraformLabels() cdktf.StringMap
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
+	TerraformLabels() cdktn.StringMap
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -129,7 +129,7 @@ type GooglePrivatecaCertificateAuthority interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -147,9 +147,9 @@ type GooglePrivatecaCertificateAuthority interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -201,7 +201,7 @@ type GooglePrivatecaCertificateAuthority interface {
 
 // The jsii proxy struct for GooglePrivatecaCertificateAuthority
 type jsiiProxy_GooglePrivatecaCertificateAuthority struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_GooglePrivatecaCertificateAuthority) AccessUrls() GooglePrivatecaCertificateAuthorityAccessUrlsList {
@@ -214,8 +214,8 @@ func (j *jsiiProxy_GooglePrivatecaCertificateAuthority) AccessUrls() GooglePriva
 	return returns
 }
 
-func (j *jsiiProxy_GooglePrivatecaCertificateAuthority) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_GooglePrivatecaCertificateAuthority) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -354,8 +354,8 @@ func (j *jsiiProxy_GooglePrivatecaCertificateAuthority) DesiredStateInput() *str
 	return returns
 }
 
-func (j *jsiiProxy_GooglePrivatecaCertificateAuthority) EffectiveLabels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_GooglePrivatecaCertificateAuthority) EffectiveLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"effectiveLabels",
@@ -364,8 +364,8 @@ func (j *jsiiProxy_GooglePrivatecaCertificateAuthority) EffectiveLabels() cdktf.
 	return returns
 }
 
-func (j *jsiiProxy_GooglePrivatecaCertificateAuthority) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_GooglePrivatecaCertificateAuthority) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -494,8 +494,8 @@ func (j *jsiiProxy_GooglePrivatecaCertificateAuthority) LabelsInput() *map[strin
 	return returns
 }
 
-func (j *jsiiProxy_GooglePrivatecaCertificateAuthority) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_GooglePrivatecaCertificateAuthority) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -634,8 +634,8 @@ func (j *jsiiProxy_GooglePrivatecaCertificateAuthority) ProjectInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GooglePrivatecaCertificateAuthority) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_GooglePrivatecaCertificateAuthority) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -714,8 +714,8 @@ func (j *jsiiProxy_GooglePrivatecaCertificateAuthority) SubordinateConfigInput()
 	return returns
 }
 
-func (j *jsiiProxy_GooglePrivatecaCertificateAuthority) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_GooglePrivatecaCertificateAuthority) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -724,8 +724,8 @@ func (j *jsiiProxy_GooglePrivatecaCertificateAuthority) TerraformGeneratorMetada
 	return returns
 }
 
-func (j *jsiiProxy_GooglePrivatecaCertificateAuthority) TerraformLabels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_GooglePrivatecaCertificateAuthority) TerraformLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"terraformLabels",
@@ -917,7 +917,7 @@ func (j *jsiiProxy_GooglePrivatecaCertificateAuthority)SetDesiredState(val *stri
 	)
 }
 
-func (j *jsiiProxy_GooglePrivatecaCertificateAuthority)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_GooglePrivatecaCertificateAuthority)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -969,7 +969,7 @@ func (j *jsiiProxy_GooglePrivatecaCertificateAuthority)SetLabels(val *map[string
 	)
 }
 
-func (j *jsiiProxy_GooglePrivatecaCertificateAuthority)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_GooglePrivatecaCertificateAuthority)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -1035,7 +1035,7 @@ func (j *jsiiProxy_GooglePrivatecaCertificateAuthority)SetProject(val *string) {
 	)
 }
 
-func (j *jsiiProxy_GooglePrivatecaCertificateAuthority)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_GooglePrivatecaCertificateAuthority)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -1076,14 +1076,14 @@ func (j *jsiiProxy_GooglePrivatecaCertificateAuthority)SetType(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a GooglePrivatecaCertificateAuthority resource upon running "cdktf plan <stack-name>".
-func GooglePrivatecaCertificateAuthority_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a GooglePrivatecaCertificateAuthority resource upon running "cdktn plan <stack-name>".
+func GooglePrivatecaCertificateAuthority_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateGooglePrivatecaCertificateAuthority_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google-beta.googlePrivatecaCertificateAuthority.GooglePrivatecaCertificateAuthority",
@@ -1217,11 +1217,11 @@ func (g *jsiiProxy_GooglePrivatecaCertificateAuthority) GetAnyMapAttribute(terra
 	return returns
 }
 
-func (g *jsiiProxy_GooglePrivatecaCertificateAuthority) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GooglePrivatecaCertificateAuthority) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -1358,7 +1358,7 @@ func (g *jsiiProxy_GooglePrivatecaCertificateAuthority) HasResourceMove() interf
 	return returns
 }
 
-func (g *jsiiProxy_GooglePrivatecaCertificateAuthority) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (g *jsiiProxy_GooglePrivatecaCertificateAuthority) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := g.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1369,11 +1369,11 @@ func (g *jsiiProxy_GooglePrivatecaCertificateAuthority) ImportFrom(id *string, p
 	)
 }
 
-func (g *jsiiProxy_GooglePrivatecaCertificateAuthority) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GooglePrivatecaCertificateAuthority) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,

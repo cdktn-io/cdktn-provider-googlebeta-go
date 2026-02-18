@@ -15,7 +15,7 @@ func (g *jsiiProxy_GoogleLoggingOrganizationBucketConfigIndexConfigsList) valida
 	return nil
 }
 
-func (g *jsiiProxy_GoogleLoggingOrganizationBucketConfigIndexConfigsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleLoggingOrganizationBucketConfigIndexConfigsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_GoogleLoggingOrganizationBucketConfigIndexConfigsList) valida
 	return nil
 }
 
-func (j *jsiiProxy_GoogleLoggingOrganizationBucketConfigIndexConfigsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleLoggingOrganizationBucketConfigIndexConfigsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_GoogleLoggingOrganizationBucketConfigIndexConfigsList) valida
 	return nil
 }
 
-func validateNewGoogleLoggingOrganizationBucketConfigIndexConfigsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGoogleLoggingOrganizationBucketConfigIndexConfigsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

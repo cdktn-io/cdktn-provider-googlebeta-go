@@ -127,7 +127,7 @@ func (j *jsiiProxy_GoogleDatastreamPrivateConnection) validateSetLabelsParameter
 	return nil
 }
 
-func (j *jsiiProxy_GoogleDatastreamPrivateConnection) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleDatastreamPrivateConnection) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataGoogleBigqueryTableExternalCatalogTableOptionsStorageDesc
 	return nil
 }
 
-func (d *jsiiProxy_DataGoogleBigqueryTableExternalCatalogTableOptionsStorageDescriptorList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataGoogleBigqueryTableExternalCatalogTableOptionsStorageDescriptorList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataGoogleBigqueryTableExternalCatalogTableOptionsStorageDesc
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleBigqueryTableExternalCatalogTableOptionsStorageDescriptorList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataGoogleBigqueryTableExternalCatalogTableOptionsStorageDescriptorList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataGoogleBigqueryTableExternalCatalogTableOptionsStorageDesc
 	return nil
 }
 
-func validateNewDataGoogleBigqueryTableExternalCatalogTableOptionsStorageDescriptorListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataGoogleBigqueryTableExternalCatalogTableOptionsStorageDescriptorListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

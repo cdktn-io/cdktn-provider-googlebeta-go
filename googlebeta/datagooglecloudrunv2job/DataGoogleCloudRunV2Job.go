@@ -5,20 +5,20 @@ package datagooglecloudrunv2job
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagooglecloudrunv2job/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagooglecloudrunv2job/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_cloud_run_v2_job google_cloud_run_v2_job}.
 type DataGoogleCloudRunV2Job interface {
-	cdktf.TerraformDataSource
-	Annotations() cdktf.StringMap
+	cdktn.TerraformDataSource
+	Annotations() cdktn.StringMap
 	BinaryAuthorization() DataGoogleCloudRunV2JobBinaryAuthorizationList
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	Client() *string
 	ClientVersion() *string
 	Conditions() DataGoogleCloudRunV2JobConditionsList
@@ -31,20 +31,20 @@ type DataGoogleCloudRunV2Job interface {
 	CreateTime() *string
 	Creator() *string
 	DeleteTime() *string
-	DeletionProtection() cdktf.IResolvable
+	DeletionProtection() cdktn.IResolvable
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
 	SetDependsOn(val *[]*string)
-	EffectiveAnnotations() cdktf.StringMap
-	EffectiveLabels() cdktf.StringMap
+	EffectiveAnnotations() cdktn.StringMap
+	EffectiveLabels() cdktn.StringMap
 	Etag() *string
 	ExecutionCount() *float64
 	ExpireTime() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -53,14 +53,14 @@ type DataGoogleCloudRunV2Job interface {
 	Id() *string
 	SetId(val *string)
 	IdInput() *string
-	Labels() cdktf.StringMap
+	Labels() cdktn.StringMap
 	LastModifier() *string
 	LatestCreatedExecution() DataGoogleCloudRunV2JobLatestCreatedExecutionList
 	LaunchStage() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Location() *string
 	SetLocation(val *string)
 	LocationInput() *string
@@ -74,19 +74,19 @@ type DataGoogleCloudRunV2Job interface {
 	SetProject(val *string)
 	ProjectInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	RawOverrides() interface{}
-	Reconciling() cdktf.IResolvable
+	Reconciling() cdktn.IResolvable
 	RunExecutionToken() *string
 	StartExecutionToken() *string
 	Template() DataGoogleCloudRunV2JobTemplateList
 	TerminalCondition() DataGoogleCloudRunV2JobTerminalConditionList
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
-	TerraformLabels() cdktf.StringMap
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
+	TerraformLabels() cdktn.StringMap
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -98,7 +98,7 @@ type DataGoogleCloudRunV2Job interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -114,7 +114,7 @@ type DataGoogleCloudRunV2Job interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
@@ -140,11 +140,11 @@ type DataGoogleCloudRunV2Job interface {
 
 // The jsii proxy struct for DataGoogleCloudRunV2Job
 type jsiiProxy_DataGoogleCloudRunV2Job struct {
-	internal.Type__cdktfTerraformDataSource
+	internal.Type__cdktnTerraformDataSource
 }
 
-func (j *jsiiProxy_DataGoogleCloudRunV2Job) Annotations() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_DataGoogleCloudRunV2Job) Annotations() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"annotations",
@@ -163,8 +163,8 @@ func (j *jsiiProxy_DataGoogleCloudRunV2Job) BinaryAuthorization() DataGoogleClou
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleCloudRunV2Job) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataGoogleCloudRunV2Job) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -253,8 +253,8 @@ func (j *jsiiProxy_DataGoogleCloudRunV2Job) DeleteTime() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleCloudRunV2Job) DeletionProtection() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataGoogleCloudRunV2Job) DeletionProtection() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"deletionProtection",
@@ -273,8 +273,8 @@ func (j *jsiiProxy_DataGoogleCloudRunV2Job) DependsOn() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleCloudRunV2Job) EffectiveAnnotations() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_DataGoogleCloudRunV2Job) EffectiveAnnotations() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"effectiveAnnotations",
@@ -283,8 +283,8 @@ func (j *jsiiProxy_DataGoogleCloudRunV2Job) EffectiveAnnotations() cdktf.StringM
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleCloudRunV2Job) EffectiveLabels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_DataGoogleCloudRunV2Job) EffectiveLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"effectiveLabels",
@@ -323,8 +323,8 @@ func (j *jsiiProxy_DataGoogleCloudRunV2Job) ExpireTime() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleCloudRunV2Job) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataGoogleCloudRunV2Job) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -383,8 +383,8 @@ func (j *jsiiProxy_DataGoogleCloudRunV2Job) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleCloudRunV2Job) Labels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_DataGoogleCloudRunV2Job) Labels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"labels",
@@ -423,8 +423,8 @@ func (j *jsiiProxy_DataGoogleCloudRunV2Job) LaunchStage() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleCloudRunV2Job) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataGoogleCloudRunV2Job) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -513,8 +513,8 @@ func (j *jsiiProxy_DataGoogleCloudRunV2Job) ProjectInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleCloudRunV2Job) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataGoogleCloudRunV2Job) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -533,8 +533,8 @@ func (j *jsiiProxy_DataGoogleCloudRunV2Job) RawOverrides() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleCloudRunV2Job) Reconciling() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataGoogleCloudRunV2Job) Reconciling() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"reconciling",
@@ -583,8 +583,8 @@ func (j *jsiiProxy_DataGoogleCloudRunV2Job) TerminalCondition() DataGoogleCloudR
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleCloudRunV2Job) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataGoogleCloudRunV2Job) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -593,8 +593,8 @@ func (j *jsiiProxy_DataGoogleCloudRunV2Job) TerraformGeneratorMetadata() *cdktf.
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleCloudRunV2Job) TerraformLabels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_DataGoogleCloudRunV2Job) TerraformLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"terraformLabels",
@@ -692,7 +692,7 @@ func (j *jsiiProxy_DataGoogleCloudRunV2Job)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_DataGoogleCloudRunV2Job)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataGoogleCloudRunV2Job)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -711,7 +711,7 @@ func (j *jsiiProxy_DataGoogleCloudRunV2Job)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataGoogleCloudRunV2Job)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataGoogleCloudRunV2Job)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -755,7 +755,7 @@ func (j *jsiiProxy_DataGoogleCloudRunV2Job)SetProject(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataGoogleCloudRunV2Job)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataGoogleCloudRunV2Job)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -763,14 +763,14 @@ func (j *jsiiProxy_DataGoogleCloudRunV2Job)SetProvider(val cdktf.TerraformProvid
 	)
 }
 
-// Generates CDKTF code for importing a DataGoogleCloudRunV2Job resource upon running "cdktf plan <stack-name>".
-func DataGoogleCloudRunV2Job_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataGoogleCloudRunV2Job resource upon running "cdktn plan <stack-name>".
+func DataGoogleCloudRunV2Job_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataGoogleCloudRunV2Job_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google-beta.dataGoogleCloudRunV2Job.DataGoogleCloudRunV2Job",
@@ -893,11 +893,11 @@ func (d *jsiiProxy_DataGoogleCloudRunV2Job) GetAnyMapAttribute(terraformAttribut
 	return returns
 }
 
-func (d *jsiiProxy_DataGoogleCloudRunV2Job) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataGoogleCloudRunV2Job) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -1021,11 +1021,11 @@ func (d *jsiiProxy_DataGoogleCloudRunV2Job) GetStringMapAttribute(terraformAttri
 	return returns
 }
 
-func (d *jsiiProxy_DataGoogleCloudRunV2Job) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataGoogleCloudRunV2Job) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

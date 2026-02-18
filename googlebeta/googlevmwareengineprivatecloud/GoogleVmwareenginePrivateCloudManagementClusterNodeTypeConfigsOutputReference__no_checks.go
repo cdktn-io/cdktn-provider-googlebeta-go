@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleVmwareenginePrivateCloudManagementClusterNodeTypeConfig
 	return nil
 }
 
-func (g *jsiiProxy_GoogleVmwareenginePrivateCloudManagementClusterNodeTypeConfigsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleVmwareenginePrivateCloudManagementClusterNodeTypeConfigsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_GoogleVmwareenginePrivateCloudManagementClusterNodeTypeConfig
 	return nil
 }
 
-func (j *jsiiProxy_GoogleVmwareenginePrivateCloudManagementClusterNodeTypeConfigsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleVmwareenginePrivateCloudManagementClusterNodeTypeConfigsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleVmwareenginePrivateCloudManagementClusterNodeTypeConfigsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewGoogleVmwareenginePrivateCloudManagementClusterNodeTypeConfigsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

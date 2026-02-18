@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataGoogleSecretManagerRegionalSecretCustomerManagedEncryptio
 	return nil
 }
 
-func (d *jsiiProxy_DataGoogleSecretManagerRegionalSecretCustomerManagedEncryptionList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataGoogleSecretManagerRegionalSecretCustomerManagedEncryptionList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataGoogleSecretManagerRegionalSecretCustomerManagedEncryptio
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleSecretManagerRegionalSecretCustomerManagedEncryptionList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataGoogleSecretManagerRegionalSecretCustomerManagedEncryptionList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataGoogleSecretManagerRegionalSecretCustomerManagedEncryptio
 	return nil
 }
 
-func validateNewDataGoogleSecretManagerRegionalSecretCustomerManagedEncryptionListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataGoogleSecretManagerRegionalSecretCustomerManagedEncryptionListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

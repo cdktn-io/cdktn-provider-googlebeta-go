@@ -55,7 +55,7 @@ func (g *jsiiProxy_GoogleNetworkServicesLbRouteExtensionExtensionChainsOutputRef
 	return nil
 }
 
-func (g *jsiiProxy_GoogleNetworkServicesLbRouteExtensionExtensionChainsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleNetworkServicesLbRouteExtensionExtensionChainsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_GoogleNetworkServicesLbRouteExtensionExtensionChainsOutputRef
 	return nil
 }
 
-func (j *jsiiProxy_GoogleNetworkServicesLbRouteExtensionExtensionChainsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleNetworkServicesLbRouteExtensionExtensionChainsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleNetworkServicesLbRouteExtensionExtensionChainsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewGoogleNetworkServicesLbRouteExtensionExtensionChainsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

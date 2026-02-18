@@ -51,7 +51,7 @@ func (g *jsiiProxy_GoogleIdentityPlatformTenantInboundSamlConfigIdpConfigOutputR
 	return nil
 }
 
-func (g *jsiiProxy_GoogleIdentityPlatformTenantInboundSamlConfigIdpConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleIdentityPlatformTenantInboundSamlConfigIdpConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_GoogleIdentityPlatformTenantInboundSamlConfigIdpConfigOutputR
 	return nil
 }
 
-func (j *jsiiProxy_GoogleIdentityPlatformTenantInboundSamlConfigIdpConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleIdentityPlatformTenantInboundSamlConfigIdpConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleIdentityPlatformTenantInboundSamlConfigIdpConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleIdentityPlatformTenantInboundSamlConfigIdpConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleVertexAiEndpointIamBindingConditionOutputReference) val
 	return nil
 }
 
-func (g *jsiiProxy_GoogleVertexAiEndpointIamBindingConditionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleVertexAiEndpointIamBindingConditionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_GoogleVertexAiEndpointIamBindingConditionOutputReference) val
 	return nil
 }
 
-func (j *jsiiProxy_GoogleVertexAiEndpointIamBindingConditionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleVertexAiEndpointIamBindingConditionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_GoogleVertexAiEndpointIamBindingConditionOutputReference) val
 	return nil
 }
 
-func validateNewGoogleVertexAiEndpointIamBindingConditionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleVertexAiEndpointIamBindingConditionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

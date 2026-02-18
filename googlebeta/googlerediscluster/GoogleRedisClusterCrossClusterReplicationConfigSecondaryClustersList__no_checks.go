@@ -15,7 +15,7 @@ func (g *jsiiProxy_GoogleRedisClusterCrossClusterReplicationConfigSecondaryClust
 	return nil
 }
 
-func (g *jsiiProxy_GoogleRedisClusterCrossClusterReplicationConfigSecondaryClustersList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleRedisClusterCrossClusterReplicationConfigSecondaryClustersList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_GoogleRedisClusterCrossClusterReplicationConfigSecondaryClust
 	return nil
 }
 
-func (j *jsiiProxy_GoogleRedisClusterCrossClusterReplicationConfigSecondaryClustersList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleRedisClusterCrossClusterReplicationConfigSecondaryClustersList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_GoogleRedisClusterCrossClusterReplicationConfigSecondaryClust
 	return nil
 }
 
-func validateNewGoogleRedisClusterCrossClusterReplicationConfigSecondaryClustersListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGoogleRedisClusterCrossClusterReplicationConfigSecondaryClustersListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (g *jsiiProxy_GoogleSecureSourceManagerInstanceHostConfigList) validateGetP
 	return nil
 }
 
-func (g *jsiiProxy_GoogleSecureSourceManagerInstanceHostConfigList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleSecureSourceManagerInstanceHostConfigList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_GoogleSecureSourceManagerInstanceHostConfigList) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_GoogleSecureSourceManagerInstanceHostConfigList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleSecureSourceManagerInstanceHostConfigList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_GoogleSecureSourceManagerInstanceHostConfigList) validateSetW
 	return nil
 }
 
-func validateNewGoogleSecureSourceManagerInstanceHostConfigListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGoogleSecureSourceManagerInstanceHostConfigListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

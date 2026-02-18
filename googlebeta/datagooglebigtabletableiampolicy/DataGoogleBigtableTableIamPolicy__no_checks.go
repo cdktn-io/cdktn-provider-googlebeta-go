@@ -87,7 +87,7 @@ func (j *jsiiProxy_DataGoogleBigtableTableIamPolicy) validateSetInstanceNamePara
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleBigtableTableIamPolicy) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataGoogleBigtableTableIamPolicy) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

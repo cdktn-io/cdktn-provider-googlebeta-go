@@ -51,7 +51,7 @@ func (g *jsiiProxy_GoogleAlloydbClusterMaintenanceUpdatePolicyMaintenanceWindows
 	return nil
 }
 
-func (g *jsiiProxy_GoogleAlloydbClusterMaintenanceUpdatePolicyMaintenanceWindowsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleAlloydbClusterMaintenanceUpdatePolicyMaintenanceWindowsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_GoogleAlloydbClusterMaintenanceUpdatePolicyMaintenanceWindows
 	return nil
 }
 
-func (j *jsiiProxy_GoogleAlloydbClusterMaintenanceUpdatePolicyMaintenanceWindowsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleAlloydbClusterMaintenanceUpdatePolicyMaintenanceWindowsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleAlloydbClusterMaintenanceUpdatePolicyMaintenanceWindowsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewGoogleAlloydbClusterMaintenanceUpdatePolicyMaintenanceWindowsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

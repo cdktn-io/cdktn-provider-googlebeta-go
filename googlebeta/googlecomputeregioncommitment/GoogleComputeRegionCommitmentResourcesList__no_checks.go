@@ -15,7 +15,7 @@ func (g *jsiiProxy_GoogleComputeRegionCommitmentResourcesList) validateGetParame
 	return nil
 }
 
-func (g *jsiiProxy_GoogleComputeRegionCommitmentResourcesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleComputeRegionCommitmentResourcesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_GoogleComputeRegionCommitmentResourcesList) validateSetTerraf
 	return nil
 }
 
-func (j *jsiiProxy_GoogleComputeRegionCommitmentResourcesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleComputeRegionCommitmentResourcesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_GoogleComputeRegionCommitmentResourcesList) validateSetWrapsS
 	return nil
 }
 
-func validateNewGoogleComputeRegionCommitmentResourcesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGoogleComputeRegionCommitmentResourcesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

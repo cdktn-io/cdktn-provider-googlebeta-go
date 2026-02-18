@@ -5,14 +5,14 @@ package datagooglecomposerenvironment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagooglecomposerenvironment/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagooglecomposerenvironment/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataGoogleComposerEnvironmentConfigAOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AirflowUri() *string
 	// the index of the complex object in a list.
 	// Experimental.
@@ -32,8 +32,8 @@ type DataGoogleComposerEnvironmentConfigAOutputReference interface {
 	DagGcsPrefix() *string
 	DatabaseConfig() DataGoogleComposerEnvironmentConfigDatabaseConfigList
 	DataRetentionConfig() DataGoogleComposerEnvironmentConfigDataRetentionConfigList
-	EnablePrivateBuildsOnly() cdktf.IResolvable
-	EnablePrivateEnvironment() cdktf.IResolvable
+	EnablePrivateBuildsOnly() cdktn.IResolvable
+	EnablePrivateEnvironment() cdktn.IResolvable
 	EncryptionConfig() DataGoogleComposerEnvironmentConfigEncryptionConfigList
 	EnvironmentSize() *string
 	// Experimental.
@@ -54,9 +54,9 @@ type DataGoogleComposerEnvironmentConfigAOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	WebServerConfig() DataGoogleComposerEnvironmentConfigWebServerConfigList
 	WebServerNetworkAccessControl() DataGoogleComposerEnvironmentConfigWebServerNetworkAccessControlList
 	WorkloadsConfig() DataGoogleComposerEnvironmentConfigWorkloadsConfigList
@@ -65,7 +65,7 @@ type DataGoogleComposerEnvironmentConfigAOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -81,12 +81,12 @@ type DataGoogleComposerEnvironmentConfigAOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -96,7 +96,7 @@ type DataGoogleComposerEnvironmentConfigAOutputReference interface {
 
 // The jsii proxy struct for DataGoogleComposerEnvironmentConfigAOutputReference
 type jsiiProxy_DataGoogleComposerEnvironmentConfigAOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataGoogleComposerEnvironmentConfigAOutputReference) AirflowUri() *string {
@@ -169,8 +169,8 @@ func (j *jsiiProxy_DataGoogleComposerEnvironmentConfigAOutputReference) DataRete
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleComposerEnvironmentConfigAOutputReference) EnablePrivateBuildsOnly() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataGoogleComposerEnvironmentConfigAOutputReference) EnablePrivateBuildsOnly() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"enablePrivateBuildsOnly",
@@ -179,8 +179,8 @@ func (j *jsiiProxy_DataGoogleComposerEnvironmentConfigAOutputReference) EnablePr
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleComposerEnvironmentConfigAOutputReference) EnablePrivateEnvironment() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataGoogleComposerEnvironmentConfigAOutputReference) EnablePrivateEnvironment() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"enablePrivateEnvironment",
@@ -329,8 +329,8 @@ func (j *jsiiProxy_DataGoogleComposerEnvironmentConfigAOutputReference) Terrafor
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleComposerEnvironmentConfigAOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataGoogleComposerEnvironmentConfigAOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -370,7 +370,7 @@ func (j *jsiiProxy_DataGoogleComposerEnvironmentConfigAOutputReference) Workload
 }
 
 
-func NewDataGoogleComposerEnvironmentConfigAOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataGoogleComposerEnvironmentConfigAOutputReference {
+func NewDataGoogleComposerEnvironmentConfigAOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataGoogleComposerEnvironmentConfigAOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataGoogleComposerEnvironmentConfigAOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -387,7 +387,7 @@ func NewDataGoogleComposerEnvironmentConfigAOutputReference(terraformResource cd
 	return &j
 }
 
-func NewDataGoogleComposerEnvironmentConfigAOutputReference_Override(d DataGoogleComposerEnvironmentConfigAOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewDataGoogleComposerEnvironmentConfigAOutputReference_Override(d DataGoogleComposerEnvironmentConfigAOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -441,7 +441,7 @@ func (j *jsiiProxy_DataGoogleComposerEnvironmentConfigAOutputReference)SetTerraf
 	)
 }
 
-func (j *jsiiProxy_DataGoogleComposerEnvironmentConfigAOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataGoogleComposerEnvironmentConfigAOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -481,11 +481,11 @@ func (d *jsiiProxy_DataGoogleComposerEnvironmentConfigAOutputReference) GetAnyMa
 	return returns
 }
 
-func (d *jsiiProxy_DataGoogleComposerEnvironmentConfigAOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataGoogleComposerEnvironmentConfigAOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -609,8 +609,8 @@ func (d *jsiiProxy_DataGoogleComposerEnvironmentConfigAOutputReference) GetStrin
 	return returns
 }
 
-func (d *jsiiProxy_DataGoogleComposerEnvironmentConfigAOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataGoogleComposerEnvironmentConfigAOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -622,11 +622,11 @@ func (d *jsiiProxy_DataGoogleComposerEnvironmentConfigAOutputReference) Interpol
 	return returns
 }
 
-func (d *jsiiProxy_DataGoogleComposerEnvironmentConfigAOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataGoogleComposerEnvironmentConfigAOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -638,7 +638,7 @@ func (d *jsiiProxy_DataGoogleComposerEnvironmentConfigAOutputReference) Interpol
 	return returns
 }
 
-func (d *jsiiProxy_DataGoogleComposerEnvironmentConfigAOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataGoogleComposerEnvironmentConfigAOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

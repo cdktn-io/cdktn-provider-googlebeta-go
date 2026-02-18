@@ -115,7 +115,7 @@ func (j *jsiiProxy_GoogleVertexAiFeatureOnlineStoreFeatureviewIamBinding) valida
 	return nil
 }
 
-func (j *jsiiProxy_GoogleVertexAiFeatureOnlineStoreFeatureviewIamBinding) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleVertexAiFeatureOnlineStoreFeatureviewIamBinding) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

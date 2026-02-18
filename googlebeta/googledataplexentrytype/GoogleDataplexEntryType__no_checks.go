@@ -127,7 +127,7 @@ func (j *jsiiProxy_GoogleDataplexEntryType) validateSetLabelsParameters(val *map
 	return nil
 }
 
-func (j *jsiiProxy_GoogleDataplexEntryType) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleDataplexEntryType) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

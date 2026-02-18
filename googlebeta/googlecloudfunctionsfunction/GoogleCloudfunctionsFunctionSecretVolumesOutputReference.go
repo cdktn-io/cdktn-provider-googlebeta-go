@@ -5,14 +5,14 @@ package googlecloudfunctionsfunction
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecloudfunctionsfunction/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecloudfunctionsfunction/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type GoogleCloudfunctionsFunctionSecretVolumesOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -46,9 +46,9 @@ type GoogleCloudfunctionsFunctionSecretVolumesOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Versions() GoogleCloudfunctionsFunctionSecretVolumesVersionsList
 	VersionsInput() interface{}
 	// Experimental.
@@ -56,7 +56,7 @@ type GoogleCloudfunctionsFunctionSecretVolumesOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -72,15 +72,15 @@ type GoogleCloudfunctionsFunctionSecretVolumesOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutVersions(value interface{})
 	ResetProjectId()
 	ResetVersions()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -90,7 +90,7 @@ type GoogleCloudfunctionsFunctionSecretVolumesOutputReference interface {
 
 // The jsii proxy struct for GoogleCloudfunctionsFunctionSecretVolumesOutputReference
 type jsiiProxy_GoogleCloudfunctionsFunctionSecretVolumesOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_GoogleCloudfunctionsFunctionSecretVolumesOutputReference) ComplexObjectIndex() interface{} {
@@ -213,8 +213,8 @@ func (j *jsiiProxy_GoogleCloudfunctionsFunctionSecretVolumesOutputReference) Ter
 	return returns
 }
 
-func (j *jsiiProxy_GoogleCloudfunctionsFunctionSecretVolumesOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_GoogleCloudfunctionsFunctionSecretVolumesOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -244,7 +244,7 @@ func (j *jsiiProxy_GoogleCloudfunctionsFunctionSecretVolumesOutputReference) Ver
 }
 
 
-func NewGoogleCloudfunctionsFunctionSecretVolumesOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) GoogleCloudfunctionsFunctionSecretVolumesOutputReference {
+func NewGoogleCloudfunctionsFunctionSecretVolumesOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) GoogleCloudfunctionsFunctionSecretVolumesOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewGoogleCloudfunctionsFunctionSecretVolumesOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -261,7 +261,7 @@ func NewGoogleCloudfunctionsFunctionSecretVolumesOutputReference(terraformResour
 	return &j
 }
 
-func NewGoogleCloudfunctionsFunctionSecretVolumesOutputReference_Override(g GoogleCloudfunctionsFunctionSecretVolumesOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewGoogleCloudfunctionsFunctionSecretVolumesOutputReference_Override(g GoogleCloudfunctionsFunctionSecretVolumesOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -348,7 +348,7 @@ func (j *jsiiProxy_GoogleCloudfunctionsFunctionSecretVolumesOutputReference)SetT
 	)
 }
 
-func (j *jsiiProxy_GoogleCloudfunctionsFunctionSecretVolumesOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_GoogleCloudfunctionsFunctionSecretVolumesOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -388,11 +388,11 @@ func (g *jsiiProxy_GoogleCloudfunctionsFunctionSecretVolumesOutputReference) Get
 	return returns
 }
 
-func (g *jsiiProxy_GoogleCloudfunctionsFunctionSecretVolumesOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleCloudfunctionsFunctionSecretVolumesOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -516,8 +516,8 @@ func (g *jsiiProxy_GoogleCloudfunctionsFunctionSecretVolumesOutputReference) Get
 	return returns
 }
 
-func (g *jsiiProxy_GoogleCloudfunctionsFunctionSecretVolumesOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (g *jsiiProxy_GoogleCloudfunctionsFunctionSecretVolumesOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -529,11 +529,11 @@ func (g *jsiiProxy_GoogleCloudfunctionsFunctionSecretVolumesOutputReference) Int
 	return returns
 }
 
-func (g *jsiiProxy_GoogleCloudfunctionsFunctionSecretVolumesOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleCloudfunctionsFunctionSecretVolumesOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -572,7 +572,7 @@ func (g *jsiiProxy_GoogleCloudfunctionsFunctionSecretVolumesOutputReference) Res
 	)
 }
 
-func (g *jsiiProxy_GoogleCloudfunctionsFunctionSecretVolumesOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (g *jsiiProxy_GoogleCloudfunctionsFunctionSecretVolumesOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

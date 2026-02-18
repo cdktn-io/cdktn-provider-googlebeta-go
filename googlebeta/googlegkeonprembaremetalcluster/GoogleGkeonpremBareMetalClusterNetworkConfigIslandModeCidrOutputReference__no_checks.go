@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleGkeonpremBareMetalClusterNetworkConfigIslandModeCidrOut
 	return nil
 }
 
-func (g *jsiiProxy_GoogleGkeonpremBareMetalClusterNetworkConfigIslandModeCidrOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleGkeonpremBareMetalClusterNetworkConfigIslandModeCidrOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_GoogleGkeonpremBareMetalClusterNetworkConfigIslandModeCidrOut
 	return nil
 }
 
-func (j *jsiiProxy_GoogleGkeonpremBareMetalClusterNetworkConfigIslandModeCidrOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleGkeonpremBareMetalClusterNetworkConfigIslandModeCidrOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleGkeonpremBareMetalClusterNetworkConfigIslandModeCidrOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleGkeonpremBareMetalClusterNetworkConfigIslandModeCidrOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleDataprocBatchSparkSqlBatchOutputReference) validateInte
 	return nil
 }
 
-func (g *jsiiProxy_GoogleDataprocBatchSparkSqlBatchOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleDataprocBatchSparkSqlBatchOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_GoogleDataprocBatchSparkSqlBatchOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_GoogleDataprocBatchSparkSqlBatchOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleDataprocBatchSparkSqlBatchOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleDataprocBatchSparkSqlBatchOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleDataprocBatchSparkSqlBatchOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -175,7 +175,7 @@ func (j *jsiiProxy_GoogleCloudRunV2Service) validateSetLaunchStageParameters(val
 	return nil
 }
 
-func (j *jsiiProxy_GoogleCloudRunV2Service) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleCloudRunV2Service) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

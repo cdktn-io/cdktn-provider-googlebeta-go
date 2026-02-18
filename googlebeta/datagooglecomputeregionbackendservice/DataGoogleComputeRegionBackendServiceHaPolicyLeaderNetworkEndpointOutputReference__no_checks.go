@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataGoogleComputeRegionBackendServiceHaPolicyLeaderNetworkEnd
 	return nil
 }
 
-func (d *jsiiProxy_DataGoogleComputeRegionBackendServiceHaPolicyLeaderNetworkEndpointOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataGoogleComputeRegionBackendServiceHaPolicyLeaderNetworkEndpointOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataGoogleComputeRegionBackendServiceHaPolicyLeaderNetworkEnd
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleComputeRegionBackendServiceHaPolicyLeaderNetworkEndpointOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataGoogleComputeRegionBackendServiceHaPolicyLeaderNetworkEndpointOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataGoogleComputeRegionBackendServiceHaPolicyLeaderNetworkEndpointOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataGoogleComputeRegionBackendServiceHaPolicyLeaderNetworkEndpointOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

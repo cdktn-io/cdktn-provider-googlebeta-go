@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleAccessContextManagerAccessLevelCustomExprOutputReferenc
 	return nil
 }
 
-func (g *jsiiProxy_GoogleAccessContextManagerAccessLevelCustomExprOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleAccessContextManagerAccessLevelCustomExprOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_GoogleAccessContextManagerAccessLevelCustomExprOutputReferenc
 	return nil
 }
 
-func (j *jsiiProxy_GoogleAccessContextManagerAccessLevelCustomExprOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleAccessContextManagerAccessLevelCustomExprOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_GoogleAccessContextManagerAccessLevelCustomExprOutputReferenc
 	return nil
 }
 
-func validateNewGoogleAccessContextManagerAccessLevelCustomExprOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleAccessContextManagerAccessLevelCustomExprOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

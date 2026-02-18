@@ -115,7 +115,7 @@ func (j *jsiiProxy_GoogleGeminiDataSharingWithGoogleSettingBinding) validateSetL
 	return nil
 }
 
-func (j *jsiiProxy_GoogleGeminiDataSharingWithGoogleSettingBinding) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleGeminiDataSharingWithGoogleSettingBinding) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

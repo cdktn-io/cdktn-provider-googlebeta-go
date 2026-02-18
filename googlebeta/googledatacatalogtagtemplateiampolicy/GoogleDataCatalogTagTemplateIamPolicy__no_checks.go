@@ -103,7 +103,7 @@ func (j *jsiiProxy_GoogleDataCatalogTagTemplateIamPolicy) validateSetIdParameter
 	return nil
 }
 
-func (j *jsiiProxy_GoogleDataCatalogTagTemplateIamPolicy) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleDataCatalogTagTemplateIamPolicy) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

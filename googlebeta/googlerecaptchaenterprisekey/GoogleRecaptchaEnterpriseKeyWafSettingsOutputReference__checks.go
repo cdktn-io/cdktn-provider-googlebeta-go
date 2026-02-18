@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (g *jsiiProxy_GoogleRecaptchaEnterpriseKeyWafSettingsOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -93,7 +93,7 @@ func (g *jsiiProxy_GoogleRecaptchaEnterpriseKeyWafSettingsOutputReference) valid
 	return nil
 }
 
-func (g *jsiiProxy_GoogleRecaptchaEnterpriseKeyWafSettingsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleRecaptchaEnterpriseKeyWafSettingsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -182,7 +182,7 @@ func (j *jsiiProxy_GoogleRecaptchaEnterpriseKeyWafSettingsOutputReference) valid
 	return nil
 }
 
-func (j *jsiiProxy_GoogleRecaptchaEnterpriseKeyWafSettingsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleRecaptchaEnterpriseKeyWafSettingsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -206,7 +206,7 @@ func (j *jsiiProxy_GoogleRecaptchaEnterpriseKeyWafSettingsOutputReference) valid
 	return nil
 }
 
-func validateNewGoogleRecaptchaEnterpriseKeyWafSettingsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleRecaptchaEnterpriseKeyWafSettingsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

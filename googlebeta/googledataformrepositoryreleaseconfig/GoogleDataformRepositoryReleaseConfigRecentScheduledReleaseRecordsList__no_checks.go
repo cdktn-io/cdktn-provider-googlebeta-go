@@ -15,7 +15,7 @@ func (g *jsiiProxy_GoogleDataformRepositoryReleaseConfigRecentScheduledReleaseRe
 	return nil
 }
 
-func (g *jsiiProxy_GoogleDataformRepositoryReleaseConfigRecentScheduledReleaseRecordsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleDataformRepositoryReleaseConfigRecentScheduledReleaseRecordsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_GoogleDataformRepositoryReleaseConfigRecentScheduledReleaseRe
 	return nil
 }
 
-func (j *jsiiProxy_GoogleDataformRepositoryReleaseConfigRecentScheduledReleaseRecordsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleDataformRepositoryReleaseConfigRecentScheduledReleaseRecordsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_GoogleDataformRepositoryReleaseConfigRecentScheduledReleaseRe
 	return nil
 }
 
-func validateNewGoogleDataformRepositoryReleaseConfigRecentScheduledReleaseRecordsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGoogleDataformRepositoryReleaseConfigRecentScheduledReleaseRecordsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

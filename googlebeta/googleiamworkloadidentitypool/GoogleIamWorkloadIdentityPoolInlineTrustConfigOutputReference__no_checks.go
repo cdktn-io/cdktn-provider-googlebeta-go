@@ -51,7 +51,7 @@ func (g *jsiiProxy_GoogleIamWorkloadIdentityPoolInlineTrustConfigOutputReference
 	return nil
 }
 
-func (g *jsiiProxy_GoogleIamWorkloadIdentityPoolInlineTrustConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleIamWorkloadIdentityPoolInlineTrustConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_GoogleIamWorkloadIdentityPoolInlineTrustConfigOutputReference
 	return nil
 }
 
-func (j *jsiiProxy_GoogleIamWorkloadIdentityPoolInlineTrustConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleIamWorkloadIdentityPoolInlineTrustConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleIamWorkloadIdentityPoolInlineTrustConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleIamWorkloadIdentityPoolInlineTrustConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

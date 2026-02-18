@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleActiveDirectoryDomainTimeoutsOutputReference) validateI
 	return nil
 }
 
-func (g *jsiiProxy_GoogleActiveDirectoryDomainTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleActiveDirectoryDomainTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_GoogleActiveDirectoryDomainTimeoutsOutputReference) validateS
 	return nil
 }
 
-func (j *jsiiProxy_GoogleActiveDirectoryDomainTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleActiveDirectoryDomainTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_GoogleActiveDirectoryDomainTimeoutsOutputReference) validateS
 	return nil
 }
 
-func validateNewGoogleActiveDirectoryDomainTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleActiveDirectoryDomainTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

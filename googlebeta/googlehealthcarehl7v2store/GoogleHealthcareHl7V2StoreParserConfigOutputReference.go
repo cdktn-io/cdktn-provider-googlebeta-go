@@ -5,14 +5,14 @@ package googlehealthcarehl7v2store
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlehealthcarehl7v2store/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlehealthcarehl7v2store/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type GoogleHealthcareHl7V2StoreParserConfigOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AllowNullHeader() interface{}
 	SetAllowNullHeader(val interface{})
 	AllowNullHeaderInput() interface{}
@@ -46,9 +46,9 @@ type GoogleHealthcareHl7V2StoreParserConfigOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Version() *string
 	SetVersion(val *string)
 	VersionInput() *string
@@ -57,7 +57,7 @@ type GoogleHealthcareHl7V2StoreParserConfigOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -73,16 +73,16 @@ type GoogleHealthcareHl7V2StoreParserConfigOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetAllowNullHeader()
 	ResetSchema()
 	ResetSegmentTerminator()
 	ResetVersion()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -92,7 +92,7 @@ type GoogleHealthcareHl7V2StoreParserConfigOutputReference interface {
 
 // The jsii proxy struct for GoogleHealthcareHl7V2StoreParserConfigOutputReference
 type jsiiProxy_GoogleHealthcareHl7V2StoreParserConfigOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_GoogleHealthcareHl7V2StoreParserConfigOutputReference) AllowNullHeader() interface{} {
@@ -215,8 +215,8 @@ func (j *jsiiProxy_GoogleHealthcareHl7V2StoreParserConfigOutputReference) Terraf
 	return returns
 }
 
-func (j *jsiiProxy_GoogleHealthcareHl7V2StoreParserConfigOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_GoogleHealthcareHl7V2StoreParserConfigOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -246,7 +246,7 @@ func (j *jsiiProxy_GoogleHealthcareHl7V2StoreParserConfigOutputReference) Versio
 }
 
 
-func NewGoogleHealthcareHl7V2StoreParserConfigOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) GoogleHealthcareHl7V2StoreParserConfigOutputReference {
+func NewGoogleHealthcareHl7V2StoreParserConfigOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) GoogleHealthcareHl7V2StoreParserConfigOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewGoogleHealthcareHl7V2StoreParserConfigOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -263,7 +263,7 @@ func NewGoogleHealthcareHl7V2StoreParserConfigOutputReference(terraformResource 
 	return &j
 }
 
-func NewGoogleHealthcareHl7V2StoreParserConfigOutputReference_Override(g GoogleHealthcareHl7V2StoreParserConfigOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewGoogleHealthcareHl7V2StoreParserConfigOutputReference_Override(g GoogleHealthcareHl7V2StoreParserConfigOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -350,7 +350,7 @@ func (j *jsiiProxy_GoogleHealthcareHl7V2StoreParserConfigOutputReference)SetTerr
 	)
 }
 
-func (j *jsiiProxy_GoogleHealthcareHl7V2StoreParserConfigOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_GoogleHealthcareHl7V2StoreParserConfigOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -401,11 +401,11 @@ func (g *jsiiProxy_GoogleHealthcareHl7V2StoreParserConfigOutputReference) GetAny
 	return returns
 }
 
-func (g *jsiiProxy_GoogleHealthcareHl7V2StoreParserConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleHealthcareHl7V2StoreParserConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -529,8 +529,8 @@ func (g *jsiiProxy_GoogleHealthcareHl7V2StoreParserConfigOutputReference) GetStr
 	return returns
 }
 
-func (g *jsiiProxy_GoogleHealthcareHl7V2StoreParserConfigOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (g *jsiiProxy_GoogleHealthcareHl7V2StoreParserConfigOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -542,11 +542,11 @@ func (g *jsiiProxy_GoogleHealthcareHl7V2StoreParserConfigOutputReference) Interp
 	return returns
 }
 
-func (g *jsiiProxy_GoogleHealthcareHl7V2StoreParserConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleHealthcareHl7V2StoreParserConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -590,7 +590,7 @@ func (g *jsiiProxy_GoogleHealthcareHl7V2StoreParserConfigOutputReference) ResetV
 	)
 }
 
-func (g *jsiiProxy_GoogleHealthcareHl7V2StoreParserConfigOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (g *jsiiProxy_GoogleHealthcareHl7V2StoreParserConfigOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

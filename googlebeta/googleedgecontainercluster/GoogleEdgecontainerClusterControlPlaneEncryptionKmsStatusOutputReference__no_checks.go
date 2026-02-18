@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleEdgecontainerClusterControlPlaneEncryptionKmsStatusOutp
 	return nil
 }
 
-func (g *jsiiProxy_GoogleEdgecontainerClusterControlPlaneEncryptionKmsStatusOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleEdgecontainerClusterControlPlaneEncryptionKmsStatusOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_GoogleEdgecontainerClusterControlPlaneEncryptionKmsStatusOutp
 	return nil
 }
 
-func (j *jsiiProxy_GoogleEdgecontainerClusterControlPlaneEncryptionKmsStatusOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleEdgecontainerClusterControlPlaneEncryptionKmsStatusOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleEdgecontainerClusterControlPlaneEncryptionKmsStatusOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewGoogleEdgecontainerClusterControlPlaneEncryptionKmsStatusOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

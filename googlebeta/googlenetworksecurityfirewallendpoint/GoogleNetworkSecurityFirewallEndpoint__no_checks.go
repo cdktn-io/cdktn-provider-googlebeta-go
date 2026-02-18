@@ -115,7 +115,7 @@ func (j *jsiiProxy_GoogleNetworkSecurityFirewallEndpoint) validateSetLabelsParam
 	return nil
 }
 
-func (j *jsiiProxy_GoogleNetworkSecurityFirewallEndpoint) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleNetworkSecurityFirewallEndpoint) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

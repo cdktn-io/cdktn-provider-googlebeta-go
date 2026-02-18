@@ -147,7 +147,7 @@ func (j *jsiiProxy_GoogleComputeFutureReservation) validateSetIdParameters(val *
 	return nil
 }
 
-func (j *jsiiProxy_GoogleComputeFutureReservation) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleComputeFutureReservation) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleComputeResourcePolicySnapshotSchedulePolicySnapshotProp
 	return nil
 }
 
-func (g *jsiiProxy_GoogleComputeResourcePolicySnapshotSchedulePolicySnapshotPropertiesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleComputeResourcePolicySnapshotSchedulePolicySnapshotPropertiesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_GoogleComputeResourcePolicySnapshotSchedulePolicySnapshotProp
 	return nil
 }
 
-func (j *jsiiProxy_GoogleComputeResourcePolicySnapshotSchedulePolicySnapshotPropertiesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleComputeResourcePolicySnapshotSchedulePolicySnapshotPropertiesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleComputeResourcePolicySnapshotSchedulePolicySnapshotPropertiesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleComputeResourcePolicySnapshotSchedulePolicySnapshotPropertiesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

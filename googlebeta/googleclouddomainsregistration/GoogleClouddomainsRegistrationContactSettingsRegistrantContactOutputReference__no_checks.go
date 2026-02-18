@@ -51,7 +51,7 @@ func (g *jsiiProxy_GoogleClouddomainsRegistrationContactSettingsRegistrantContac
 	return nil
 }
 
-func (g *jsiiProxy_GoogleClouddomainsRegistrationContactSettingsRegistrantContactOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleClouddomainsRegistrationContactSettingsRegistrantContactOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_GoogleClouddomainsRegistrationContactSettingsRegistrantContac
 	return nil
 }
 
-func (j *jsiiProxy_GoogleClouddomainsRegistrationContactSettingsRegistrantContactOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleClouddomainsRegistrationContactSettingsRegistrantContactOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleClouddomainsRegistrationContactSettingsRegistrantContactOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleClouddomainsRegistrationContactSettingsRegistrantContactOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

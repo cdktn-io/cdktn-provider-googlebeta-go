@@ -55,7 +55,7 @@ func (g *jsiiProxy_GoogleStorageBucketIpFilterOutputReference) validatePutVpcNet
 	return nil
 }
 
-func (g *jsiiProxy_GoogleStorageBucketIpFilterOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleStorageBucketIpFilterOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -87,11 +87,11 @@ func (j *jsiiProxy_GoogleStorageBucketIpFilterOutputReference) validateSetTerraf
 	return nil
 }
 
-func (j *jsiiProxy_GoogleStorageBucketIpFilterOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleStorageBucketIpFilterOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleStorageBucketIpFilterOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleStorageBucketIpFilterOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

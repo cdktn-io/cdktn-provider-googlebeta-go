@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleFirebaseAppCheckDeviceCheckConfigTimeoutsOutputReferenc
 	return nil
 }
 
-func (g *jsiiProxy_GoogleFirebaseAppCheckDeviceCheckConfigTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleFirebaseAppCheckDeviceCheckConfigTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_GoogleFirebaseAppCheckDeviceCheckConfigTimeoutsOutputReferenc
 	return nil
 }
 
-func (j *jsiiProxy_GoogleFirebaseAppCheckDeviceCheckConfigTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleFirebaseAppCheckDeviceCheckConfigTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_GoogleFirebaseAppCheckDeviceCheckConfigTimeoutsOutputReferenc
 	return nil
 }
 
-func validateNewGoogleFirebaseAppCheckDeviceCheckConfigTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleFirebaseAppCheckDeviceCheckConfigTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

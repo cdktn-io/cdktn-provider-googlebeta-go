@@ -55,7 +55,7 @@ func (g *jsiiProxy_GoogleRedisClusterPersistenceConfigOutputReference) validateP
 	return nil
 }
 
-func (g *jsiiProxy_GoogleRedisClusterPersistenceConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleRedisClusterPersistenceConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_GoogleRedisClusterPersistenceConfigOutputReference) validateS
 	return nil
 }
 
-func (j *jsiiProxy_GoogleRedisClusterPersistenceConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleRedisClusterPersistenceConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleRedisClusterPersistenceConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleRedisClusterPersistenceConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

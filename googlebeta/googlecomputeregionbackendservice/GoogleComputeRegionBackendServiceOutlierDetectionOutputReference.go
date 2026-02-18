@@ -5,14 +5,14 @@ package googlecomputeregionbackendservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecomputeregionbackendservice/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeregionbackendservice/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type GoogleComputeRegionBackendServiceOutlierDetectionOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	BaseEjectionTime() GoogleComputeRegionBackendServiceOutlierDetectionBaseEjectionTimeOutputReference
 	BaseEjectionTimeInput() *GoogleComputeRegionBackendServiceOutlierDetectionBaseEjectionTime
 	// the index of the complex object in a list.
@@ -68,15 +68,15 @@ type GoogleComputeRegionBackendServiceOutlierDetectionOutputReference interface 
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -92,9 +92,9 @@ type GoogleComputeRegionBackendServiceOutlierDetectionOutputReference interface 
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutBaseEjectionTime(value *GoogleComputeRegionBackendServiceOutlierDetectionBaseEjectionTime)
 	PutInterval(value *GoogleComputeRegionBackendServiceOutlierDetectionInterval)
 	ResetBaseEjectionTime()
@@ -110,7 +110,7 @@ type GoogleComputeRegionBackendServiceOutlierDetectionOutputReference interface 
 	ResetSuccessRateStdevFactor()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -120,7 +120,7 @@ type GoogleComputeRegionBackendServiceOutlierDetectionOutputReference interface 
 
 // The jsii proxy struct for GoogleComputeRegionBackendServiceOutlierDetectionOutputReference
 type jsiiProxy_GoogleComputeRegionBackendServiceOutlierDetectionOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_GoogleComputeRegionBackendServiceOutlierDetectionOutputReference) BaseEjectionTime() GoogleComputeRegionBackendServiceOutlierDetectionBaseEjectionTimeOutputReference {
@@ -403,8 +403,8 @@ func (j *jsiiProxy_GoogleComputeRegionBackendServiceOutlierDetectionOutputRefere
 	return returns
 }
 
-func (j *jsiiProxy_GoogleComputeRegionBackendServiceOutlierDetectionOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_GoogleComputeRegionBackendServiceOutlierDetectionOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -414,7 +414,7 @@ func (j *jsiiProxy_GoogleComputeRegionBackendServiceOutlierDetectionOutputRefere
 }
 
 
-func NewGoogleComputeRegionBackendServiceOutlierDetectionOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) GoogleComputeRegionBackendServiceOutlierDetectionOutputReference {
+func NewGoogleComputeRegionBackendServiceOutlierDetectionOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) GoogleComputeRegionBackendServiceOutlierDetectionOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewGoogleComputeRegionBackendServiceOutlierDetectionOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -431,7 +431,7 @@ func NewGoogleComputeRegionBackendServiceOutlierDetectionOutputReference(terrafo
 	return &j
 }
 
-func NewGoogleComputeRegionBackendServiceOutlierDetectionOutputReference_Override(g GoogleComputeRegionBackendServiceOutlierDetectionOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewGoogleComputeRegionBackendServiceOutlierDetectionOutputReference_Override(g GoogleComputeRegionBackendServiceOutlierDetectionOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -584,7 +584,7 @@ func (j *jsiiProxy_GoogleComputeRegionBackendServiceOutlierDetectionOutputRefere
 	)
 }
 
-func (j *jsiiProxy_GoogleComputeRegionBackendServiceOutlierDetectionOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_GoogleComputeRegionBackendServiceOutlierDetectionOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -624,11 +624,11 @@ func (g *jsiiProxy_GoogleComputeRegionBackendServiceOutlierDetectionOutputRefere
 	return returns
 }
 
-func (g *jsiiProxy_GoogleComputeRegionBackendServiceOutlierDetectionOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleComputeRegionBackendServiceOutlierDetectionOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -752,8 +752,8 @@ func (g *jsiiProxy_GoogleComputeRegionBackendServiceOutlierDetectionOutputRefere
 	return returns
 }
 
-func (g *jsiiProxy_GoogleComputeRegionBackendServiceOutlierDetectionOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (g *jsiiProxy_GoogleComputeRegionBackendServiceOutlierDetectionOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -765,11 +765,11 @@ func (g *jsiiProxy_GoogleComputeRegionBackendServiceOutlierDetectionOutputRefere
 	return returns
 }
 
-func (g *jsiiProxy_GoogleComputeRegionBackendServiceOutlierDetectionOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleComputeRegionBackendServiceOutlierDetectionOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -891,7 +891,7 @@ func (g *jsiiProxy_GoogleComputeRegionBackendServiceOutlierDetectionOutputRefere
 	)
 }
 
-func (g *jsiiProxy_GoogleComputeRegionBackendServiceOutlierDetectionOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (g *jsiiProxy_GoogleComputeRegionBackendServiceOutlierDetectionOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

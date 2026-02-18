@@ -67,7 +67,7 @@ func (g *jsiiProxy_GoogleComputeInstanceSchedulingOutputReference) validatePutOn
 	return nil
 }
 
-func (g *jsiiProxy_GoogleComputeInstanceSchedulingOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleComputeInstanceSchedulingOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -127,11 +127,11 @@ func (j *jsiiProxy_GoogleComputeInstanceSchedulingOutputReference) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_GoogleComputeInstanceSchedulingOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleComputeInstanceSchedulingOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleComputeInstanceSchedulingOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleComputeInstanceSchedulingOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

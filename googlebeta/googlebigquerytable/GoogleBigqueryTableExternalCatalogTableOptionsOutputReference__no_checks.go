@@ -51,7 +51,7 @@ func (g *jsiiProxy_GoogleBigqueryTableExternalCatalogTableOptionsOutputReference
 	return nil
 }
 
-func (g *jsiiProxy_GoogleBigqueryTableExternalCatalogTableOptionsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleBigqueryTableExternalCatalogTableOptionsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_GoogleBigqueryTableExternalCatalogTableOptionsOutputReference
 	return nil
 }
 
-func (j *jsiiProxy_GoogleBigqueryTableExternalCatalogTableOptionsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleBigqueryTableExternalCatalogTableOptionsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleBigqueryTableExternalCatalogTableOptionsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleBigqueryTableExternalCatalogTableOptionsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

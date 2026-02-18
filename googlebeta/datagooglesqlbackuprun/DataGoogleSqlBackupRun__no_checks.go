@@ -87,7 +87,7 @@ func (j *jsiiProxy_DataGoogleSqlBackupRun) validateSetInstanceParameters(val *st
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleSqlBackupRun) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataGoogleSqlBackupRun) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleComputeDiskIamMemberConditionOutputReference) validateI
 	return nil
 }
 
-func (g *jsiiProxy_GoogleComputeDiskIamMemberConditionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleComputeDiskIamMemberConditionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_GoogleComputeDiskIamMemberConditionOutputReference) validateS
 	return nil
 }
 
-func (j *jsiiProxy_GoogleComputeDiskIamMemberConditionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleComputeDiskIamMemberConditionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_GoogleComputeDiskIamMemberConditionOutputReference) validateS
 	return nil
 }
 
-func validateNewGoogleComputeDiskIamMemberConditionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleComputeDiskIamMemberConditionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

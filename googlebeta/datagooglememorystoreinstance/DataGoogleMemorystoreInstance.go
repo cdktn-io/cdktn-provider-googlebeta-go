@@ -5,22 +5,22 @@ package datagooglememorystoreinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagooglememorystoreinstance/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagooglememorystoreinstance/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_memorystore_instance google_memorystore_instance}.
 type DataGoogleMemorystoreInstance interface {
-	cdktf.TerraformDataSource
-	AllowFewerZonesDeployment() cdktf.IResolvable
+	cdktn.TerraformDataSource
+	AllowFewerZonesDeployment() cdktn.IResolvable
 	AuthorizationMode() *string
 	AutomatedBackupConfig() DataGoogleMemorystoreInstanceAutomatedBackupConfigList
 	BackupCollection() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
 	// Experimental.
@@ -29,7 +29,7 @@ type DataGoogleMemorystoreInstance interface {
 	SetCount(val interface{})
 	CreateTime() *string
 	CrossInstanceReplicationConfig() DataGoogleMemorystoreInstanceCrossInstanceReplicationConfigList
-	DeletionProtectionEnabled() cdktf.IResolvable
+	DeletionProtectionEnabled() cdktn.IResolvable
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -37,14 +37,14 @@ type DataGoogleMemorystoreInstance interface {
 	DesiredAutoCreatedEndpoints() DataGoogleMemorystoreInstanceDesiredAutoCreatedEndpointsList
 	DesiredPscAutoConnections() DataGoogleMemorystoreInstanceDesiredPscAutoConnectionsList
 	DiscoveryEndpoints() DataGoogleMemorystoreInstanceDiscoveryEndpointsList
-	EffectiveLabels() cdktf.StringMap
+	EffectiveLabels() cdktn.StringMap
 	Endpoints() DataGoogleMemorystoreInstanceEndpointsList
-	EngineConfigs() cdktf.StringMap
+	EngineConfigs() cdktn.StringMap
 	EngineVersion() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -57,11 +57,11 @@ type DataGoogleMemorystoreInstance interface {
 	SetInstanceId(val *string)
 	InstanceIdInput() *string
 	KmsKey() *string
-	Labels() cdktf.StringMap
+	Labels() cdktn.StringMap
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Location() *string
 	SetLocation(val *string)
 	LocationInput() *string
@@ -80,9 +80,9 @@ type DataGoogleMemorystoreInstance interface {
 	SetProject(val *string)
 	ProjectInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	PscAttachmentDetails() DataGoogleMemorystoreInstancePscAttachmentDetailsList
 	PscAutoConnections() DataGoogleMemorystoreInstancePscAutoConnectionsList
 	// Experimental.
@@ -92,8 +92,8 @@ type DataGoogleMemorystoreInstance interface {
 	State() *string
 	StateInfo() DataGoogleMemorystoreInstanceStateInfoList
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
-	TerraformLabels() cdktf.StringMap
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
+	TerraformLabels() cdktn.StringMap
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -107,7 +107,7 @@ type DataGoogleMemorystoreInstance interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -123,7 +123,7 @@ type DataGoogleMemorystoreInstance interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
@@ -149,11 +149,11 @@ type DataGoogleMemorystoreInstance interface {
 
 // The jsii proxy struct for DataGoogleMemorystoreInstance
 type jsiiProxy_DataGoogleMemorystoreInstance struct {
-	internal.Type__cdktfTerraformDataSource
+	internal.Type__cdktnTerraformDataSource
 }
 
-func (j *jsiiProxy_DataGoogleMemorystoreInstance) AllowFewerZonesDeployment() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataGoogleMemorystoreInstance) AllowFewerZonesDeployment() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"allowFewerZonesDeployment",
@@ -192,8 +192,8 @@ func (j *jsiiProxy_DataGoogleMemorystoreInstance) BackupCollection() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleMemorystoreInstance) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataGoogleMemorystoreInstance) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -242,8 +242,8 @@ func (j *jsiiProxy_DataGoogleMemorystoreInstance) CrossInstanceReplicationConfig
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleMemorystoreInstance) DeletionProtectionEnabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataGoogleMemorystoreInstance) DeletionProtectionEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"deletionProtectionEnabled",
@@ -292,8 +292,8 @@ func (j *jsiiProxy_DataGoogleMemorystoreInstance) DiscoveryEndpoints() DataGoogl
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleMemorystoreInstance) EffectiveLabels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_DataGoogleMemorystoreInstance) EffectiveLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"effectiveLabels",
@@ -312,8 +312,8 @@ func (j *jsiiProxy_DataGoogleMemorystoreInstance) Endpoints() DataGoogleMemoryst
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleMemorystoreInstance) EngineConfigs() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_DataGoogleMemorystoreInstance) EngineConfigs() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"engineConfigs",
@@ -332,8 +332,8 @@ func (j *jsiiProxy_DataGoogleMemorystoreInstance) EngineVersion() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleMemorystoreInstance) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataGoogleMemorystoreInstance) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -422,8 +422,8 @@ func (j *jsiiProxy_DataGoogleMemorystoreInstance) KmsKey() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleMemorystoreInstance) Labels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_DataGoogleMemorystoreInstance) Labels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"labels",
@@ -432,8 +432,8 @@ func (j *jsiiProxy_DataGoogleMemorystoreInstance) Labels() cdktf.StringMap {
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleMemorystoreInstance) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataGoogleMemorystoreInstance) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -582,8 +582,8 @@ func (j *jsiiProxy_DataGoogleMemorystoreInstance) ProjectInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleMemorystoreInstance) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataGoogleMemorystoreInstance) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -662,8 +662,8 @@ func (j *jsiiProxy_DataGoogleMemorystoreInstance) StateInfo() DataGoogleMemoryst
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleMemorystoreInstance) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataGoogleMemorystoreInstance) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -672,8 +672,8 @@ func (j *jsiiProxy_DataGoogleMemorystoreInstance) TerraformGeneratorMetadata() *
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleMemorystoreInstance) TerraformLabels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_DataGoogleMemorystoreInstance) TerraformLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"terraformLabels",
@@ -791,7 +791,7 @@ func (j *jsiiProxy_DataGoogleMemorystoreInstance)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_DataGoogleMemorystoreInstance)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataGoogleMemorystoreInstance)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -821,7 +821,7 @@ func (j *jsiiProxy_DataGoogleMemorystoreInstance)SetInstanceId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataGoogleMemorystoreInstance)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataGoogleMemorystoreInstance)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -854,7 +854,7 @@ func (j *jsiiProxy_DataGoogleMemorystoreInstance)SetProject(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataGoogleMemorystoreInstance)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataGoogleMemorystoreInstance)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -862,14 +862,14 @@ func (j *jsiiProxy_DataGoogleMemorystoreInstance)SetProvider(val cdktf.Terraform
 	)
 }
 
-// Generates CDKTF code for importing a DataGoogleMemorystoreInstance resource upon running "cdktf plan <stack-name>".
-func DataGoogleMemorystoreInstance_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataGoogleMemorystoreInstance resource upon running "cdktn plan <stack-name>".
+func DataGoogleMemorystoreInstance_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataGoogleMemorystoreInstance_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google-beta.dataGoogleMemorystoreInstance.DataGoogleMemorystoreInstance",
@@ -992,11 +992,11 @@ func (d *jsiiProxy_DataGoogleMemorystoreInstance) GetAnyMapAttribute(terraformAt
 	return returns
 }
 
-func (d *jsiiProxy_DataGoogleMemorystoreInstance) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataGoogleMemorystoreInstance) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -1120,11 +1120,11 @@ func (d *jsiiProxy_DataGoogleMemorystoreInstance) GetStringMapAttribute(terrafor
 	return returns
 }
 
-func (d *jsiiProxy_DataGoogleMemorystoreInstance) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataGoogleMemorystoreInstance) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

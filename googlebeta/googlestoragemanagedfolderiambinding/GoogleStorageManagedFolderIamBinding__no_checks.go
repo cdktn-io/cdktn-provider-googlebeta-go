@@ -111,7 +111,7 @@ func (j *jsiiProxy_GoogleStorageManagedFolderIamBinding) validateSetIdParameters
 	return nil
 }
 
-func (j *jsiiProxy_GoogleStorageManagedFolderIamBinding) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleStorageManagedFolderIamBinding) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

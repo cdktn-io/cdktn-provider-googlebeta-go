@@ -51,7 +51,7 @@ func (g *jsiiProxy_GoogleDeveloperConnectConnectionGithubEnterpriseConfigOutputR
 	return nil
 }
 
-func (g *jsiiProxy_GoogleDeveloperConnectConnectionGithubEnterpriseConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleDeveloperConnectConnectionGithubEnterpriseConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -91,7 +91,7 @@ func (j *jsiiProxy_GoogleDeveloperConnectConnectionGithubEnterpriseConfigOutputR
 	return nil
 }
 
-func (j *jsiiProxy_GoogleDeveloperConnectConnectionGithubEnterpriseConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleDeveloperConnectConnectionGithubEnterpriseConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -99,7 +99,7 @@ func (j *jsiiProxy_GoogleDeveloperConnectConnectionGithubEnterpriseConfigOutputR
 	return nil
 }
 
-func validateNewGoogleDeveloperConnectConnectionGithubEnterpriseConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleDeveloperConnectConnectionGithubEnterpriseConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

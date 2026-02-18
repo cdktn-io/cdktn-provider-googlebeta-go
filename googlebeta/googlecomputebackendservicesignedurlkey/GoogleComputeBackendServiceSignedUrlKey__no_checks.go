@@ -115,7 +115,7 @@ func (j *jsiiProxy_GoogleComputeBackendServiceSignedUrlKey) validateSetKeyValueP
 	return nil
 }
 
-func (j *jsiiProxy_GoogleComputeBackendServiceSignedUrlKey) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleComputeBackendServiceSignedUrlKey) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

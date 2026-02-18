@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleGkeonpremBareMetalClusterControlPlaneApiServerArgsOutpu
 	return nil
 }
 
-func (g *jsiiProxy_GoogleGkeonpremBareMetalClusterControlPlaneApiServerArgsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleGkeonpremBareMetalClusterControlPlaneApiServerArgsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_GoogleGkeonpremBareMetalClusterControlPlaneApiServerArgsOutpu
 	return nil
 }
 
-func (j *jsiiProxy_GoogleGkeonpremBareMetalClusterControlPlaneApiServerArgsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleGkeonpremBareMetalClusterControlPlaneApiServerArgsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_GoogleGkeonpremBareMetalClusterControlPlaneApiServerArgsOutpu
 	return nil
 }
 
-func validateNewGoogleGkeonpremBareMetalClusterControlPlaneApiServerArgsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewGoogleGkeonpremBareMetalClusterControlPlaneApiServerArgsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

@@ -119,7 +119,7 @@ func (j *jsiiProxy_GoogleComputeGlobalNetworkEndpoint) validateSetIpAddressParam
 	return nil
 }
 
-func (j *jsiiProxy_GoogleComputeGlobalNetworkEndpoint) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleComputeGlobalNetworkEndpoint) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

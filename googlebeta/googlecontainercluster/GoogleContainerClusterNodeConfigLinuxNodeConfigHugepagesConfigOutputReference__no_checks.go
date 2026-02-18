@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleContainerClusterNodeConfigLinuxNodeConfigHugepagesConfi
 	return nil
 }
 
-func (g *jsiiProxy_GoogleContainerClusterNodeConfigLinuxNodeConfigHugepagesConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleContainerClusterNodeConfigLinuxNodeConfigHugepagesConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_GoogleContainerClusterNodeConfigLinuxNodeConfigHugepagesConfi
 	return nil
 }
 
-func (j *jsiiProxy_GoogleContainerClusterNodeConfigLinuxNodeConfigHugepagesConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleContainerClusterNodeConfigLinuxNodeConfigHugepagesConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleContainerClusterNodeConfigLinuxNodeConfigHugepagesConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleContainerClusterNodeConfigLinuxNodeConfigHugepagesConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

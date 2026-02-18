@@ -147,7 +147,7 @@ func (j *jsiiProxy_GoogleComputeGlobalForwardingRule) validateSetLabelsParameter
 	return nil
 }
 
-func (j *jsiiProxy_GoogleComputeGlobalForwardingRule) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleComputeGlobalForwardingRule) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

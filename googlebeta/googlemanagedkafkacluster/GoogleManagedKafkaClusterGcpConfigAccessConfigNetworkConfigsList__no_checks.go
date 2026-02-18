@@ -15,7 +15,7 @@ func (g *jsiiProxy_GoogleManagedKafkaClusterGcpConfigAccessConfigNetworkConfigsL
 	return nil
 }
 
-func (g *jsiiProxy_GoogleManagedKafkaClusterGcpConfigAccessConfigNetworkConfigsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleManagedKafkaClusterGcpConfigAccessConfigNetworkConfigsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_GoogleManagedKafkaClusterGcpConfigAccessConfigNetworkConfigsL
 	return nil
 }
 
-func (j *jsiiProxy_GoogleManagedKafkaClusterGcpConfigAccessConfigNetworkConfigsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleManagedKafkaClusterGcpConfigAccessConfigNetworkConfigsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_GoogleManagedKafkaClusterGcpConfigAccessConfigNetworkConfigsL
 	return nil
 }
 
-func validateNewGoogleManagedKafkaClusterGcpConfigAccessConfigNetworkConfigsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGoogleManagedKafkaClusterGcpConfigAccessConfigNetworkConfigsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

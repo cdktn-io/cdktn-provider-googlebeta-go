@@ -15,7 +15,7 @@ func (g *jsiiProxy_GoogleCloudRunServiceTemplateSpecContainersStartupProbeHttpGe
 	return nil
 }
 
-func (g *jsiiProxy_GoogleCloudRunServiceTemplateSpecContainersStartupProbeHttpGetHttpHeadersList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleCloudRunServiceTemplateSpecContainersStartupProbeHttpGetHttpHeadersList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_GoogleCloudRunServiceTemplateSpecContainersStartupProbeHttpGe
 	return nil
 }
 
-func (j *jsiiProxy_GoogleCloudRunServiceTemplateSpecContainersStartupProbeHttpGetHttpHeadersList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleCloudRunServiceTemplateSpecContainersStartupProbeHttpGetHttpHeadersList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_GoogleCloudRunServiceTemplateSpecContainersStartupProbeHttpGe
 	return nil
 }
 
-func validateNewGoogleCloudRunServiceTemplateSpecContainersStartupProbeHttpGetHttpHeadersListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGoogleCloudRunServiceTemplateSpecContainersStartupProbeHttpGetHttpHeadersListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

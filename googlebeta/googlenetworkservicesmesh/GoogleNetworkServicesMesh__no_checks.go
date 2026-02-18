@@ -119,7 +119,7 @@ func (j *jsiiProxy_GoogleNetworkServicesMesh) validateSetLabelsParameters(val *m
 	return nil
 }
 
-func (j *jsiiProxy_GoogleNetworkServicesMesh) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleNetworkServicesMesh) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

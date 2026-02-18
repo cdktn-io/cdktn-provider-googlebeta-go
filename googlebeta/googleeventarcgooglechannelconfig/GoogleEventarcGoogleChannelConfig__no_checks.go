@@ -111,7 +111,7 @@ func (j *jsiiProxy_GoogleEventarcGoogleChannelConfig) validateSetIdParameters(va
 	return nil
 }
 
-func (j *jsiiProxy_GoogleEventarcGoogleChannelConfig) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleEventarcGoogleChannelConfig) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -119,7 +119,7 @@ func (j *jsiiProxy_GoogleKmsKeyRingImportJob) validateSetKeyRingParameters(val *
 	return nil
 }
 
-func (j *jsiiProxy_GoogleKmsKeyRingImportJob) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleKmsKeyRingImportJob) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

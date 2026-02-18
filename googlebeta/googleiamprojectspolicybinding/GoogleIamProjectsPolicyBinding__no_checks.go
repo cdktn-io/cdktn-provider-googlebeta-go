@@ -123,7 +123,7 @@ func (j *jsiiProxy_GoogleIamProjectsPolicyBinding) validateSetIdParameters(val *
 	return nil
 }
 
-func (j *jsiiProxy_GoogleIamProjectsPolicyBinding) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleIamProjectsPolicyBinding) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

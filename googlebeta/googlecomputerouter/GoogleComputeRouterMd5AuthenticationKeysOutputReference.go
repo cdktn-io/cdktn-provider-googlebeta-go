@@ -5,14 +5,14 @@ package googlecomputerouter
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecomputerouter/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputerouter/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type GoogleComputeRouterMd5AuthenticationKeysOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,15 +43,15 @@ type GoogleComputeRouterMd5AuthenticationKeysOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,12 +67,12 @@ type GoogleComputeRouterMd5AuthenticationKeysOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -82,7 +82,7 @@ type GoogleComputeRouterMd5AuthenticationKeysOutputReference interface {
 
 // The jsii proxy struct for GoogleComputeRouterMd5AuthenticationKeysOutputReference
 type jsiiProxy_GoogleComputeRouterMd5AuthenticationKeysOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_GoogleComputeRouterMd5AuthenticationKeysOutputReference) ComplexObjectIndex() interface{} {
@@ -185,8 +185,8 @@ func (j *jsiiProxy_GoogleComputeRouterMd5AuthenticationKeysOutputReference) Terr
 	return returns
 }
 
-func (j *jsiiProxy_GoogleComputeRouterMd5AuthenticationKeysOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_GoogleComputeRouterMd5AuthenticationKeysOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -196,7 +196,7 @@ func (j *jsiiProxy_GoogleComputeRouterMd5AuthenticationKeysOutputReference) Terr
 }
 
 
-func NewGoogleComputeRouterMd5AuthenticationKeysOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) GoogleComputeRouterMd5AuthenticationKeysOutputReference {
+func NewGoogleComputeRouterMd5AuthenticationKeysOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) GoogleComputeRouterMd5AuthenticationKeysOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewGoogleComputeRouterMd5AuthenticationKeysOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -213,7 +213,7 @@ func NewGoogleComputeRouterMd5AuthenticationKeysOutputReference(terraformResourc
 	return &j
 }
 
-func NewGoogleComputeRouterMd5AuthenticationKeysOutputReference_Override(g GoogleComputeRouterMd5AuthenticationKeysOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewGoogleComputeRouterMd5AuthenticationKeysOutputReference_Override(g GoogleComputeRouterMd5AuthenticationKeysOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -289,7 +289,7 @@ func (j *jsiiProxy_GoogleComputeRouterMd5AuthenticationKeysOutputReference)SetTe
 	)
 }
 
-func (j *jsiiProxy_GoogleComputeRouterMd5AuthenticationKeysOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_GoogleComputeRouterMd5AuthenticationKeysOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -329,11 +329,11 @@ func (g *jsiiProxy_GoogleComputeRouterMd5AuthenticationKeysOutputReference) GetA
 	return returns
 }
 
-func (g *jsiiProxy_GoogleComputeRouterMd5AuthenticationKeysOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleComputeRouterMd5AuthenticationKeysOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -457,8 +457,8 @@ func (g *jsiiProxy_GoogleComputeRouterMd5AuthenticationKeysOutputReference) GetS
 	return returns
 }
 
-func (g *jsiiProxy_GoogleComputeRouterMd5AuthenticationKeysOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (g *jsiiProxy_GoogleComputeRouterMd5AuthenticationKeysOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -470,11 +470,11 @@ func (g *jsiiProxy_GoogleComputeRouterMd5AuthenticationKeysOutputReference) Inte
 	return returns
 }
 
-func (g *jsiiProxy_GoogleComputeRouterMd5AuthenticationKeysOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleComputeRouterMd5AuthenticationKeysOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -486,7 +486,7 @@ func (g *jsiiProxy_GoogleComputeRouterMd5AuthenticationKeysOutputReference) Inte
 	return returns
 }
 
-func (g *jsiiProxy_GoogleComputeRouterMd5AuthenticationKeysOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (g *jsiiProxy_GoogleComputeRouterMd5AuthenticationKeysOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

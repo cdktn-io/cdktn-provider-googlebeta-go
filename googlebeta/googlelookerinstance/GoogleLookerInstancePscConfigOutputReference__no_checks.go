@@ -51,7 +51,7 @@ func (g *jsiiProxy_GoogleLookerInstancePscConfigOutputReference) validatePutServ
 	return nil
 }
 
-func (g *jsiiProxy_GoogleLookerInstancePscConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleLookerInstancePscConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_GoogleLookerInstancePscConfigOutputReference) validateSetTerr
 	return nil
 }
 
-func (j *jsiiProxy_GoogleLookerInstancePscConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleLookerInstancePscConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleLookerInstancePscConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleLookerInstancePscConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

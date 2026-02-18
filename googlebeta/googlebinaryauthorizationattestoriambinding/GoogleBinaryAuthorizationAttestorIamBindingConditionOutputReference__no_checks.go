@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleBinaryAuthorizationAttestorIamBindingConditionOutputRef
 	return nil
 }
 
-func (g *jsiiProxy_GoogleBinaryAuthorizationAttestorIamBindingConditionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleBinaryAuthorizationAttestorIamBindingConditionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_GoogleBinaryAuthorizationAttestorIamBindingConditionOutputRef
 	return nil
 }
 
-func (j *jsiiProxy_GoogleBinaryAuthorizationAttestorIamBindingConditionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleBinaryAuthorizationAttestorIamBindingConditionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_GoogleBinaryAuthorizationAttestorIamBindingConditionOutputRef
 	return nil
 }
 
-func validateNewGoogleBinaryAuthorizationAttestorIamBindingConditionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleBinaryAuthorizationAttestorIamBindingConditionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

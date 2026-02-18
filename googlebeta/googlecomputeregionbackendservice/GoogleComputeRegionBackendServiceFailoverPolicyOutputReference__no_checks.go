@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleComputeRegionBackendServiceFailoverPolicyOutputReferenc
 	return nil
 }
 
-func (g *jsiiProxy_GoogleComputeRegionBackendServiceFailoverPolicyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleComputeRegionBackendServiceFailoverPolicyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_GoogleComputeRegionBackendServiceFailoverPolicyOutputReferenc
 	return nil
 }
 
-func (j *jsiiProxy_GoogleComputeRegionBackendServiceFailoverPolicyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleComputeRegionBackendServiceFailoverPolicyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleComputeRegionBackendServiceFailoverPolicyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleComputeRegionBackendServiceFailoverPolicyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

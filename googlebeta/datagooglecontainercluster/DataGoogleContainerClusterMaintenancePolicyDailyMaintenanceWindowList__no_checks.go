@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataGoogleContainerClusterMaintenancePolicyDailyMaintenanceWi
 	return nil
 }
 
-func (d *jsiiProxy_DataGoogleContainerClusterMaintenancePolicyDailyMaintenanceWindowList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataGoogleContainerClusterMaintenancePolicyDailyMaintenanceWindowList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataGoogleContainerClusterMaintenancePolicyDailyMaintenanceWi
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleContainerClusterMaintenancePolicyDailyMaintenanceWindowList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataGoogleContainerClusterMaintenancePolicyDailyMaintenanceWindowList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataGoogleContainerClusterMaintenancePolicyDailyMaintenanceWi
 	return nil
 }
 
-func validateNewDataGoogleContainerClusterMaintenancePolicyDailyMaintenanceWindowListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataGoogleContainerClusterMaintenancePolicyDailyMaintenanceWindowListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

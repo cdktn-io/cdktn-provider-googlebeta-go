@@ -143,7 +143,7 @@ func (j *jsiiProxy_GoogleContainerAwsCluster) validateSetIdParameters(val *strin
 	return nil
 }
 
-func (j *jsiiProxy_GoogleContainerAwsCluster) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleContainerAwsCluster) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

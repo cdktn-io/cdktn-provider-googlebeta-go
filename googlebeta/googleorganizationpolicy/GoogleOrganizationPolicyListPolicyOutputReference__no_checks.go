@@ -55,7 +55,7 @@ func (g *jsiiProxy_GoogleOrganizationPolicyListPolicyOutputReference) validatePu
 	return nil
 }
 
-func (g *jsiiProxy_GoogleOrganizationPolicyListPolicyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleOrganizationPolicyListPolicyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_GoogleOrganizationPolicyListPolicyOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_GoogleOrganizationPolicyListPolicyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleOrganizationPolicyListPolicyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleOrganizationPolicyListPolicyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleOrganizationPolicyListPolicyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

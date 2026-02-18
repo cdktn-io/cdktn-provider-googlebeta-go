@@ -111,7 +111,7 @@ func (j *jsiiProxy_GoogleActiveDirectoryDomainTrust) validateSetIdParameters(val
 	return nil
 }
 
-func (j *jsiiProxy_GoogleActiveDirectoryDomainTrust) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleActiveDirectoryDomainTrust) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

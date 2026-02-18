@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (g *jsiiProxy_GoogleTpuV2VmDataDisksList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -29,7 +29,7 @@ func (g *jsiiProxy_GoogleTpuV2VmDataDisksList) validateGetParameters(index *floa
 	return nil
 }
 
-func (g *jsiiProxy_GoogleTpuV2VmDataDisksList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleTpuV2VmDataDisksList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -39,7 +39,7 @@ func (g *jsiiProxy_GoogleTpuV2VmDataDisksList) validateResolveParameters(context
 
 func (j *jsiiProxy_GoogleTpuV2VmDataDisksList) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*GoogleTpuV2VmDataDisks:
 		val := val.(*[]*GoogleTpuV2VmDataDisks)
@@ -58,7 +58,7 @@ func (j *jsiiProxy_GoogleTpuV2VmDataDisksList) validateSetInternalValueParameter
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *[]*GoogleTpuV2VmDataDisks; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *[]*GoogleTpuV2VmDataDisks; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -73,7 +73,7 @@ func (j *jsiiProxy_GoogleTpuV2VmDataDisksList) validateSetTerraformAttributePara
 	return nil
 }
 
-func (j *jsiiProxy_GoogleTpuV2VmDataDisksList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleTpuV2VmDataDisksList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -89,7 +89,7 @@ func (j *jsiiProxy_GoogleTpuV2VmDataDisksList) validateSetWrapsSetParameters(val
 	return nil
 }
 
-func validateNewGoogleTpuV2VmDataDisksListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGoogleTpuV2VmDataDisksListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

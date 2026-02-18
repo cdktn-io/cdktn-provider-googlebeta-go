@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleComputeServiceAttachmentConsumerAcceptListsOutputRefere
 	return nil
 }
 
-func (g *jsiiProxy_GoogleComputeServiceAttachmentConsumerAcceptListsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleComputeServiceAttachmentConsumerAcceptListsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_GoogleComputeServiceAttachmentConsumerAcceptListsOutputRefere
 	return nil
 }
 
-func (j *jsiiProxy_GoogleComputeServiceAttachmentConsumerAcceptListsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleComputeServiceAttachmentConsumerAcceptListsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleComputeServiceAttachmentConsumerAcceptListsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewGoogleComputeServiceAttachmentConsumerAcceptListsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

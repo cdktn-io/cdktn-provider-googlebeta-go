@@ -119,7 +119,7 @@ func (j *jsiiProxy_GoogleBigtableAuthorizedView) validateSetInstanceNameParamete
 	return nil
 }
 
-func (j *jsiiProxy_GoogleBigtableAuthorizedView) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleBigtableAuthorizedView) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

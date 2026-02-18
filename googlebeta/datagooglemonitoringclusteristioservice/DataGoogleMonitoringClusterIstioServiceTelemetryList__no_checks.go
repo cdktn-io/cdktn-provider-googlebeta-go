@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataGoogleMonitoringClusterIstioServiceTelemetryList) validat
 	return nil
 }
 
-func (d *jsiiProxy_DataGoogleMonitoringClusterIstioServiceTelemetryList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataGoogleMonitoringClusterIstioServiceTelemetryList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataGoogleMonitoringClusterIstioServiceTelemetryList) validat
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleMonitoringClusterIstioServiceTelemetryList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataGoogleMonitoringClusterIstioServiceTelemetryList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataGoogleMonitoringClusterIstioServiceTelemetryList) validat
 	return nil
 }
 
-func validateNewDataGoogleMonitoringClusterIstioServiceTelemetryListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataGoogleMonitoringClusterIstioServiceTelemetryListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

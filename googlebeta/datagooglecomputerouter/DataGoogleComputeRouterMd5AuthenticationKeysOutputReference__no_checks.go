@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataGoogleComputeRouterMd5AuthenticationKeysOutputReference) 
 	return nil
 }
 
-func (d *jsiiProxy_DataGoogleComputeRouterMd5AuthenticationKeysOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataGoogleComputeRouterMd5AuthenticationKeysOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataGoogleComputeRouterMd5AuthenticationKeysOutputReference) 
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleComputeRouterMd5AuthenticationKeysOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataGoogleComputeRouterMd5AuthenticationKeysOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataGoogleComputeRouterMd5AuthenticationKeysOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataGoogleComputeRouterMd5AuthenticationKeysOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

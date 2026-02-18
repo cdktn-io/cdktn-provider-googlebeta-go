@@ -5,14 +5,14 @@ package googleaccesscontextmanagergcpuseraccessbinding
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleaccesscontextmanagergcpuseraccessbinding/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleaccesscontextmanagergcpuseraccessbinding/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type GoogleAccessContextManagerGcpUserAccessBindingSessionSettingsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -49,9 +49,9 @@ type GoogleAccessContextManagerGcpUserAccessBindingSessionSettingsOutputReferenc
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	UseOidcMaxAge() interface{}
 	SetUseOidcMaxAge(val interface{})
 	UseOidcMaxAgeInput() interface{}
@@ -60,7 +60,7 @@ type GoogleAccessContextManagerGcpUserAccessBindingSessionSettingsOutputReferenc
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -76,9 +76,9 @@ type GoogleAccessContextManagerGcpUserAccessBindingSessionSettingsOutputReferenc
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetMaxInactivity()
 	ResetSessionLength()
 	ResetSessionLengthEnabled()
@@ -86,7 +86,7 @@ type GoogleAccessContextManagerGcpUserAccessBindingSessionSettingsOutputReferenc
 	ResetUseOidcMaxAge()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -96,7 +96,7 @@ type GoogleAccessContextManagerGcpUserAccessBindingSessionSettingsOutputReferenc
 
 // The jsii proxy struct for GoogleAccessContextManagerGcpUserAccessBindingSessionSettingsOutputReference
 type jsiiProxy_GoogleAccessContextManagerGcpUserAccessBindingSessionSettingsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_GoogleAccessContextManagerGcpUserAccessBindingSessionSettingsOutputReference) ComplexObjectIndex() interface{} {
@@ -239,8 +239,8 @@ func (j *jsiiProxy_GoogleAccessContextManagerGcpUserAccessBindingSessionSettings
 	return returns
 }
 
-func (j *jsiiProxy_GoogleAccessContextManagerGcpUserAccessBindingSessionSettingsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_GoogleAccessContextManagerGcpUserAccessBindingSessionSettingsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -270,7 +270,7 @@ func (j *jsiiProxy_GoogleAccessContextManagerGcpUserAccessBindingSessionSettings
 }
 
 
-func NewGoogleAccessContextManagerGcpUserAccessBindingSessionSettingsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) GoogleAccessContextManagerGcpUserAccessBindingSessionSettingsOutputReference {
+func NewGoogleAccessContextManagerGcpUserAccessBindingSessionSettingsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) GoogleAccessContextManagerGcpUserAccessBindingSessionSettingsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewGoogleAccessContextManagerGcpUserAccessBindingSessionSettingsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -287,7 +287,7 @@ func NewGoogleAccessContextManagerGcpUserAccessBindingSessionSettingsOutputRefer
 	return &j
 }
 
-func NewGoogleAccessContextManagerGcpUserAccessBindingSessionSettingsOutputReference_Override(g GoogleAccessContextManagerGcpUserAccessBindingSessionSettingsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewGoogleAccessContextManagerGcpUserAccessBindingSessionSettingsOutputReference_Override(g GoogleAccessContextManagerGcpUserAccessBindingSessionSettingsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -385,7 +385,7 @@ func (j *jsiiProxy_GoogleAccessContextManagerGcpUserAccessBindingSessionSettings
 	)
 }
 
-func (j *jsiiProxy_GoogleAccessContextManagerGcpUserAccessBindingSessionSettingsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_GoogleAccessContextManagerGcpUserAccessBindingSessionSettingsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -436,11 +436,11 @@ func (g *jsiiProxy_GoogleAccessContextManagerGcpUserAccessBindingSessionSettings
 	return returns
 }
 
-func (g *jsiiProxy_GoogleAccessContextManagerGcpUserAccessBindingSessionSettingsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleAccessContextManagerGcpUserAccessBindingSessionSettingsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -564,8 +564,8 @@ func (g *jsiiProxy_GoogleAccessContextManagerGcpUserAccessBindingSessionSettings
 	return returns
 }
 
-func (g *jsiiProxy_GoogleAccessContextManagerGcpUserAccessBindingSessionSettingsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (g *jsiiProxy_GoogleAccessContextManagerGcpUserAccessBindingSessionSettingsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -577,11 +577,11 @@ func (g *jsiiProxy_GoogleAccessContextManagerGcpUserAccessBindingSessionSettings
 	return returns
 }
 
-func (g *jsiiProxy_GoogleAccessContextManagerGcpUserAccessBindingSessionSettingsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleAccessContextManagerGcpUserAccessBindingSessionSettingsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -633,7 +633,7 @@ func (g *jsiiProxy_GoogleAccessContextManagerGcpUserAccessBindingSessionSettings
 	)
 }
 
-func (g *jsiiProxy_GoogleAccessContextManagerGcpUserAccessBindingSessionSettingsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (g *jsiiProxy_GoogleAccessContextManagerGcpUserAccessBindingSessionSettingsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

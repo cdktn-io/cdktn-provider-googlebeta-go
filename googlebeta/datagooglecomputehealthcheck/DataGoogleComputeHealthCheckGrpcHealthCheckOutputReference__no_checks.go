@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataGoogleComputeHealthCheckGrpcHealthCheckOutputReference) v
 	return nil
 }
 
-func (d *jsiiProxy_DataGoogleComputeHealthCheckGrpcHealthCheckOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataGoogleComputeHealthCheckGrpcHealthCheckOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataGoogleComputeHealthCheckGrpcHealthCheckOutputReference) v
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleComputeHealthCheckGrpcHealthCheckOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataGoogleComputeHealthCheckGrpcHealthCheckOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataGoogleComputeHealthCheckGrpcHealthCheckOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataGoogleComputeHealthCheckGrpcHealthCheckOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

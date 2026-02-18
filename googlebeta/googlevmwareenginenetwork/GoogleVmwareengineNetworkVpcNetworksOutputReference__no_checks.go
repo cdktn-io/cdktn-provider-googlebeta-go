@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleVmwareengineNetworkVpcNetworksOutputReference) validate
 	return nil
 }
 
-func (g *jsiiProxy_GoogleVmwareengineNetworkVpcNetworksOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleVmwareengineNetworkVpcNetworksOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_GoogleVmwareengineNetworkVpcNetworksOutputReference) validate
 	return nil
 }
 
-func (j *jsiiProxy_GoogleVmwareengineNetworkVpcNetworksOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleVmwareengineNetworkVpcNetworksOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleVmwareengineNetworkVpcNetworksOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewGoogleVmwareengineNetworkVpcNetworksOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

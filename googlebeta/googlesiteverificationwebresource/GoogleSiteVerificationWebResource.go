@@ -5,18 +5,18 @@ package googlesiteverificationwebresource
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlesiteverificationwebresource/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlesiteverificationwebresource/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_site_verification_web_resource google_site_verification_web_resource}.
 type GoogleSiteVerificationWebResource interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -32,9 +32,9 @@ type GoogleSiteVerificationWebResource interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -43,16 +43,16 @@ type GoogleSiteVerificationWebResource interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	// The tree node.
 	Node() constructs.Node
 	Owners() *[]*string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -62,7 +62,7 @@ type GoogleSiteVerificationWebResource interface {
 	Site() GoogleSiteVerificationWebResourceSiteOutputReference
 	SiteInput() *GoogleSiteVerificationWebResourceSite
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -81,7 +81,7 @@ type GoogleSiteVerificationWebResource interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -99,9 +99,9 @@ type GoogleSiteVerificationWebResource interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -138,11 +138,11 @@ type GoogleSiteVerificationWebResource interface {
 
 // The jsii proxy struct for GoogleSiteVerificationWebResource
 type jsiiProxy_GoogleSiteVerificationWebResource struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
-func (j *jsiiProxy_GoogleSiteVerificationWebResource) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_GoogleSiteVerificationWebResource) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -191,8 +191,8 @@ func (j *jsiiProxy_GoogleSiteVerificationWebResource) DependsOn() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleSiteVerificationWebResource) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_GoogleSiteVerificationWebResource) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -241,8 +241,8 @@ func (j *jsiiProxy_GoogleSiteVerificationWebResource) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleSiteVerificationWebResource) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_GoogleSiteVerificationWebResource) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -271,8 +271,8 @@ func (j *jsiiProxy_GoogleSiteVerificationWebResource) Owners() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleSiteVerificationWebResource) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_GoogleSiteVerificationWebResource) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -321,8 +321,8 @@ func (j *jsiiProxy_GoogleSiteVerificationWebResource) SiteInput() *GoogleSiteVer
 	return returns
 }
 
-func (j *jsiiProxy_GoogleSiteVerificationWebResource) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_GoogleSiteVerificationWebResource) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -461,7 +461,7 @@ func (j *jsiiProxy_GoogleSiteVerificationWebResource)SetDependsOn(val *[]*string
 	)
 }
 
-func (j *jsiiProxy_GoogleSiteVerificationWebResource)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_GoogleSiteVerificationWebResource)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -480,7 +480,7 @@ func (j *jsiiProxy_GoogleSiteVerificationWebResource)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_GoogleSiteVerificationWebResource)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_GoogleSiteVerificationWebResource)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -491,7 +491,7 @@ func (j *jsiiProxy_GoogleSiteVerificationWebResource)SetLifecycle(val *cdktf.Ter
 	)
 }
 
-func (j *jsiiProxy_GoogleSiteVerificationWebResource)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_GoogleSiteVerificationWebResource)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -521,14 +521,14 @@ func (j *jsiiProxy_GoogleSiteVerificationWebResource)SetVerificationMethod(val *
 	)
 }
 
-// Generates CDKTF code for importing a GoogleSiteVerificationWebResource resource upon running "cdktf plan <stack-name>".
-func GoogleSiteVerificationWebResource_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a GoogleSiteVerificationWebResource resource upon running "cdktn plan <stack-name>".
+func GoogleSiteVerificationWebResource_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateGoogleSiteVerificationWebResource_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google-beta.googleSiteVerificationWebResource.GoogleSiteVerificationWebResource",
@@ -662,11 +662,11 @@ func (g *jsiiProxy_GoogleSiteVerificationWebResource) GetAnyMapAttribute(terrafo
 	return returns
 }
 
-func (g *jsiiProxy_GoogleSiteVerificationWebResource) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleSiteVerificationWebResource) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -803,7 +803,7 @@ func (g *jsiiProxy_GoogleSiteVerificationWebResource) HasResourceMove() interfac
 	return returns
 }
 
-func (g *jsiiProxy_GoogleSiteVerificationWebResource) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (g *jsiiProxy_GoogleSiteVerificationWebResource) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := g.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -814,11 +814,11 @@ func (g *jsiiProxy_GoogleSiteVerificationWebResource) ImportFrom(id *string, pro
 	)
 }
 
-func (g *jsiiProxy_GoogleSiteVerificationWebResource) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleSiteVerificationWebResource) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,

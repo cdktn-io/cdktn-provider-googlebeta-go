@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleOsConfigPatchDeploymentInstanceFilterGroupLabelsOutputR
 	return nil
 }
 
-func (g *jsiiProxy_GoogleOsConfigPatchDeploymentInstanceFilterGroupLabelsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleOsConfigPatchDeploymentInstanceFilterGroupLabelsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_GoogleOsConfigPatchDeploymentInstanceFilterGroupLabelsOutputR
 	return nil
 }
 
-func (j *jsiiProxy_GoogleOsConfigPatchDeploymentInstanceFilterGroupLabelsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleOsConfigPatchDeploymentInstanceFilterGroupLabelsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleOsConfigPatchDeploymentInstanceFilterGroupLabelsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewGoogleOsConfigPatchDeploymentInstanceFilterGroupLabelsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

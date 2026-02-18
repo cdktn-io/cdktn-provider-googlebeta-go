@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataGoogleHealthcareFhirStoreIamPolicy) validateSetIdParamete
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleHealthcareFhirStoreIamPolicy) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataGoogleHealthcareFhirStoreIamPolicy) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

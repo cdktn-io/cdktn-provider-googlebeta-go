@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleBillingBudgetAllUpdatesRuleOutputReference) validateInt
 	return nil
 }
 
-func (g *jsiiProxy_GoogleBillingBudgetAllUpdatesRuleOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleBillingBudgetAllUpdatesRuleOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -87,11 +87,11 @@ func (j *jsiiProxy_GoogleBillingBudgetAllUpdatesRuleOutputReference) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_GoogleBillingBudgetAllUpdatesRuleOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleBillingBudgetAllUpdatesRuleOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleBillingBudgetAllUpdatesRuleOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleBillingBudgetAllUpdatesRuleOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

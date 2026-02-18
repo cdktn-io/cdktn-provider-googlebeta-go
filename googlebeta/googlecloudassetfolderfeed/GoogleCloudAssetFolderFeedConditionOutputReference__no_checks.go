@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleCloudAssetFolderFeedConditionOutputReference) validateI
 	return nil
 }
 
-func (g *jsiiProxy_GoogleCloudAssetFolderFeedConditionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleCloudAssetFolderFeedConditionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_GoogleCloudAssetFolderFeedConditionOutputReference) validateS
 	return nil
 }
 
-func (j *jsiiProxy_GoogleCloudAssetFolderFeedConditionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleCloudAssetFolderFeedConditionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_GoogleCloudAssetFolderFeedConditionOutputReference) validateS
 	return nil
 }
 
-func validateNewGoogleCloudAssetFolderFeedConditionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleCloudAssetFolderFeedConditionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

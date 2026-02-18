@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleBigqueryAnalyticsHubDataExchangeIamBindingConditionOutp
 	return nil
 }
 
-func (g *jsiiProxy_GoogleBigqueryAnalyticsHubDataExchangeIamBindingConditionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleBigqueryAnalyticsHubDataExchangeIamBindingConditionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_GoogleBigqueryAnalyticsHubDataExchangeIamBindingConditionOutp
 	return nil
 }
 
-func (j *jsiiProxy_GoogleBigqueryAnalyticsHubDataExchangeIamBindingConditionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleBigqueryAnalyticsHubDataExchangeIamBindingConditionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_GoogleBigqueryAnalyticsHubDataExchangeIamBindingConditionOutp
 	return nil
 }
 
-func validateNewGoogleBigqueryAnalyticsHubDataExchangeIamBindingConditionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleBigqueryAnalyticsHubDataExchangeIamBindingConditionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -5,26 +5,26 @@ package googledatastreamconnectionprofile
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googledatastreamconnectionprofile/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledatastreamconnectionprofile/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type GoogleDatastreamConnectionProfileMysqlProfileSslConfigOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	CaCertificate() *string
 	SetCaCertificate(val *string)
 	CaCertificateInput() *string
-	CaCertificateSet() cdktf.IResolvable
+	CaCertificateSet() cdktn.IResolvable
 	ClientCertificate() *string
 	SetClientCertificate(val *string)
 	ClientCertificateInput() *string
-	ClientCertificateSet() cdktf.IResolvable
+	ClientCertificateSet() cdktn.IResolvable
 	ClientKey() *string
 	SetClientKey(val *string)
 	ClientKeyInput() *string
-	ClientKeySet() cdktf.IResolvable
+	ClientKeySet() cdktn.IResolvable
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -49,15 +49,15 @@ type GoogleDatastreamConnectionProfileMysqlProfileSslConfigOutputReference inter
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -73,15 +73,15 @@ type GoogleDatastreamConnectionProfileMysqlProfileSslConfigOutputReference inter
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetCaCertificate()
 	ResetClientCertificate()
 	ResetClientKey()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -91,7 +91,7 @@ type GoogleDatastreamConnectionProfileMysqlProfileSslConfigOutputReference inter
 
 // The jsii proxy struct for GoogleDatastreamConnectionProfileMysqlProfileSslConfigOutputReference
 type jsiiProxy_GoogleDatastreamConnectionProfileMysqlProfileSslConfigOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_GoogleDatastreamConnectionProfileMysqlProfileSslConfigOutputReference) CaCertificate() *string {
@@ -114,8 +114,8 @@ func (j *jsiiProxy_GoogleDatastreamConnectionProfileMysqlProfileSslConfigOutputR
 	return returns
 }
 
-func (j *jsiiProxy_GoogleDatastreamConnectionProfileMysqlProfileSslConfigOutputReference) CaCertificateSet() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_GoogleDatastreamConnectionProfileMysqlProfileSslConfigOutputReference) CaCertificateSet() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"caCertificateSet",
@@ -144,8 +144,8 @@ func (j *jsiiProxy_GoogleDatastreamConnectionProfileMysqlProfileSslConfigOutputR
 	return returns
 }
 
-func (j *jsiiProxy_GoogleDatastreamConnectionProfileMysqlProfileSslConfigOutputReference) ClientCertificateSet() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_GoogleDatastreamConnectionProfileMysqlProfileSslConfigOutputReference) ClientCertificateSet() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"clientCertificateSet",
@@ -174,8 +174,8 @@ func (j *jsiiProxy_GoogleDatastreamConnectionProfileMysqlProfileSslConfigOutputR
 	return returns
 }
 
-func (j *jsiiProxy_GoogleDatastreamConnectionProfileMysqlProfileSslConfigOutputReference) ClientKeySet() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_GoogleDatastreamConnectionProfileMysqlProfileSslConfigOutputReference) ClientKeySet() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"clientKeySet",
@@ -244,8 +244,8 @@ func (j *jsiiProxy_GoogleDatastreamConnectionProfileMysqlProfileSslConfigOutputR
 	return returns
 }
 
-func (j *jsiiProxy_GoogleDatastreamConnectionProfileMysqlProfileSslConfigOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_GoogleDatastreamConnectionProfileMysqlProfileSslConfigOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -255,7 +255,7 @@ func (j *jsiiProxy_GoogleDatastreamConnectionProfileMysqlProfileSslConfigOutputR
 }
 
 
-func NewGoogleDatastreamConnectionProfileMysqlProfileSslConfigOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) GoogleDatastreamConnectionProfileMysqlProfileSslConfigOutputReference {
+func NewGoogleDatastreamConnectionProfileMysqlProfileSslConfigOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) GoogleDatastreamConnectionProfileMysqlProfileSslConfigOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewGoogleDatastreamConnectionProfileMysqlProfileSslConfigOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -272,7 +272,7 @@ func NewGoogleDatastreamConnectionProfileMysqlProfileSslConfigOutputReference(te
 	return &j
 }
 
-func NewGoogleDatastreamConnectionProfileMysqlProfileSslConfigOutputReference_Override(g GoogleDatastreamConnectionProfileMysqlProfileSslConfigOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewGoogleDatastreamConnectionProfileMysqlProfileSslConfigOutputReference_Override(g GoogleDatastreamConnectionProfileMysqlProfileSslConfigOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -359,7 +359,7 @@ func (j *jsiiProxy_GoogleDatastreamConnectionProfileMysqlProfileSslConfigOutputR
 	)
 }
 
-func (j *jsiiProxy_GoogleDatastreamConnectionProfileMysqlProfileSslConfigOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_GoogleDatastreamConnectionProfileMysqlProfileSslConfigOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -399,11 +399,11 @@ func (g *jsiiProxy_GoogleDatastreamConnectionProfileMysqlProfileSslConfigOutputR
 	return returns
 }
 
-func (g *jsiiProxy_GoogleDatastreamConnectionProfileMysqlProfileSslConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleDatastreamConnectionProfileMysqlProfileSslConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -527,8 +527,8 @@ func (g *jsiiProxy_GoogleDatastreamConnectionProfileMysqlProfileSslConfigOutputR
 	return returns
 }
 
-func (g *jsiiProxy_GoogleDatastreamConnectionProfileMysqlProfileSslConfigOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (g *jsiiProxy_GoogleDatastreamConnectionProfileMysqlProfileSslConfigOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -540,11 +540,11 @@ func (g *jsiiProxy_GoogleDatastreamConnectionProfileMysqlProfileSslConfigOutputR
 	return returns
 }
 
-func (g *jsiiProxy_GoogleDatastreamConnectionProfileMysqlProfileSslConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleDatastreamConnectionProfileMysqlProfileSslConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -580,7 +580,7 @@ func (g *jsiiProxy_GoogleDatastreamConnectionProfileMysqlProfileSslConfigOutputR
 	)
 }
 
-func (g *jsiiProxy_GoogleDatastreamConnectionProfileMysqlProfileSslConfigOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (g *jsiiProxy_GoogleDatastreamConnectionProfileMysqlProfileSslConfigOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

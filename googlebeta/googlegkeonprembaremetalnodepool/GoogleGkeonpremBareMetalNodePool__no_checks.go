@@ -123,7 +123,7 @@ func (j *jsiiProxy_GoogleGkeonpremBareMetalNodePool) validateSetIdParameters(val
 	return nil
 }
 
-func (j *jsiiProxy_GoogleGkeonpremBareMetalNodePool) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleGkeonpremBareMetalNodePool) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

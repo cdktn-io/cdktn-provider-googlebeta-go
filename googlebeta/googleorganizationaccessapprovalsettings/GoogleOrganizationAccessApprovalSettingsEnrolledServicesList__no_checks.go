@@ -15,7 +15,7 @@ func (g *jsiiProxy_GoogleOrganizationAccessApprovalSettingsEnrolledServicesList)
 	return nil
 }
 
-func (g *jsiiProxy_GoogleOrganizationAccessApprovalSettingsEnrolledServicesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleOrganizationAccessApprovalSettingsEnrolledServicesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_GoogleOrganizationAccessApprovalSettingsEnrolledServicesList)
 	return nil
 }
 
-func (j *jsiiProxy_GoogleOrganizationAccessApprovalSettingsEnrolledServicesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleOrganizationAccessApprovalSettingsEnrolledServicesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_GoogleOrganizationAccessApprovalSettingsEnrolledServicesList)
 	return nil
 }
 
-func validateNewGoogleOrganizationAccessApprovalSettingsEnrolledServicesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGoogleOrganizationAccessApprovalSettingsEnrolledServicesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

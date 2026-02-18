@@ -131,7 +131,7 @@ func (j *jsiiProxy_GoogleNetworkServicesEndpointPolicy) validateSetLabelsParamet
 	return nil
 }
 
-func (j *jsiiProxy_GoogleNetworkServicesEndpointPolicy) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleNetworkServicesEndpointPolicy) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

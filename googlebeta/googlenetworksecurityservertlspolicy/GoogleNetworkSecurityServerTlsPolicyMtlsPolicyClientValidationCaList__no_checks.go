@@ -15,7 +15,7 @@ func (g *jsiiProxy_GoogleNetworkSecurityServerTlsPolicyMtlsPolicyClientValidatio
 	return nil
 }
 
-func (g *jsiiProxy_GoogleNetworkSecurityServerTlsPolicyMtlsPolicyClientValidationCaList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleNetworkSecurityServerTlsPolicyMtlsPolicyClientValidationCaList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_GoogleNetworkSecurityServerTlsPolicyMtlsPolicyClientValidatio
 	return nil
 }
 
-func (j *jsiiProxy_GoogleNetworkSecurityServerTlsPolicyMtlsPolicyClientValidationCaList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleNetworkSecurityServerTlsPolicyMtlsPolicyClientValidationCaList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_GoogleNetworkSecurityServerTlsPolicyMtlsPolicyClientValidatio
 	return nil
 }
 
-func validateNewGoogleNetworkSecurityServerTlsPolicyMtlsPolicyClientValidationCaListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGoogleNetworkSecurityServerTlsPolicyMtlsPolicyClientValidationCaListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

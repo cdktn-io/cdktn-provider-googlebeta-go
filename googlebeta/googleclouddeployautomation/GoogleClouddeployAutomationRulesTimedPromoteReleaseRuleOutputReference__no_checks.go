@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleClouddeployAutomationRulesTimedPromoteReleaseRuleOutput
 	return nil
 }
 
-func (g *jsiiProxy_GoogleClouddeployAutomationRulesTimedPromoteReleaseRuleOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleClouddeployAutomationRulesTimedPromoteReleaseRuleOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_GoogleClouddeployAutomationRulesTimedPromoteReleaseRuleOutput
 	return nil
 }
 
-func (j *jsiiProxy_GoogleClouddeployAutomationRulesTimedPromoteReleaseRuleOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleClouddeployAutomationRulesTimedPromoteReleaseRuleOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -91,7 +91,7 @@ func (j *jsiiProxy_GoogleClouddeployAutomationRulesTimedPromoteReleaseRuleOutput
 	return nil
 }
 
-func validateNewGoogleClouddeployAutomationRulesTimedPromoteReleaseRuleOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleClouddeployAutomationRulesTimedPromoteReleaseRuleOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

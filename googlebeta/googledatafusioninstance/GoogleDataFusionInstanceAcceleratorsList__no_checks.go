@@ -15,7 +15,7 @@ func (g *jsiiProxy_GoogleDataFusionInstanceAcceleratorsList) validateGetParamete
 	return nil
 }
 
-func (g *jsiiProxy_GoogleDataFusionInstanceAcceleratorsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleDataFusionInstanceAcceleratorsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_GoogleDataFusionInstanceAcceleratorsList) validateSetTerrafor
 	return nil
 }
 
-func (j *jsiiProxy_GoogleDataFusionInstanceAcceleratorsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleDataFusionInstanceAcceleratorsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_GoogleDataFusionInstanceAcceleratorsList) validateSetWrapsSet
 	return nil
 }
 
-func validateNewGoogleDataFusionInstanceAcceleratorsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGoogleDataFusionInstanceAcceleratorsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

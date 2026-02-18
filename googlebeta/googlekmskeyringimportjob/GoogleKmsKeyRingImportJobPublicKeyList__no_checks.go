@@ -15,7 +15,7 @@ func (g *jsiiProxy_GoogleKmsKeyRingImportJobPublicKeyList) validateGetParameters
 	return nil
 }
 
-func (g *jsiiProxy_GoogleKmsKeyRingImportJobPublicKeyList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleKmsKeyRingImportJobPublicKeyList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_GoogleKmsKeyRingImportJobPublicKeyList) validateSetTerraformA
 	return nil
 }
 
-func (j *jsiiProxy_GoogleKmsKeyRingImportJobPublicKeyList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleKmsKeyRingImportJobPublicKeyList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_GoogleKmsKeyRingImportJobPublicKeyList) validateSetWrapsSetPa
 	return nil
 }
 
-func validateNewGoogleKmsKeyRingImportJobPublicKeyListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGoogleKmsKeyRingImportJobPublicKeyListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -5,14 +5,14 @@ package googlelookerinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlelookerinstance/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlelookerinstance/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type GoogleLookerInstanceUserMetadataOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AdditionalDeveloperUserCount() *float64
 	SetAdditionalDeveloperUserCount(val *float64)
 	AdditionalDeveloperUserCountInput() *float64
@@ -46,15 +46,15 @@ type GoogleLookerInstanceUserMetadataOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,15 +70,15 @@ type GoogleLookerInstanceUserMetadataOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetAdditionalDeveloperUserCount()
 	ResetAdditionalStandardUserCount()
 	ResetAdditionalViewerUserCount()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -88,7 +88,7 @@ type GoogleLookerInstanceUserMetadataOutputReference interface {
 
 // The jsii proxy struct for GoogleLookerInstanceUserMetadataOutputReference
 type jsiiProxy_GoogleLookerInstanceUserMetadataOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_GoogleLookerInstanceUserMetadataOutputReference) AdditionalDeveloperUserCount() *float64 {
@@ -211,8 +211,8 @@ func (j *jsiiProxy_GoogleLookerInstanceUserMetadataOutputReference) TerraformAtt
 	return returns
 }
 
-func (j *jsiiProxy_GoogleLookerInstanceUserMetadataOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_GoogleLookerInstanceUserMetadataOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -222,7 +222,7 @@ func (j *jsiiProxy_GoogleLookerInstanceUserMetadataOutputReference) TerraformRes
 }
 
 
-func NewGoogleLookerInstanceUserMetadataOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) GoogleLookerInstanceUserMetadataOutputReference {
+func NewGoogleLookerInstanceUserMetadataOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) GoogleLookerInstanceUserMetadataOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewGoogleLookerInstanceUserMetadataOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -239,7 +239,7 @@ func NewGoogleLookerInstanceUserMetadataOutputReference(terraformResource cdktf.
 	return &j
 }
 
-func NewGoogleLookerInstanceUserMetadataOutputReference_Override(g GoogleLookerInstanceUserMetadataOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewGoogleLookerInstanceUserMetadataOutputReference_Override(g GoogleLookerInstanceUserMetadataOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -326,7 +326,7 @@ func (j *jsiiProxy_GoogleLookerInstanceUserMetadataOutputReference)SetTerraformA
 	)
 }
 
-func (j *jsiiProxy_GoogleLookerInstanceUserMetadataOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_GoogleLookerInstanceUserMetadataOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -366,11 +366,11 @@ func (g *jsiiProxy_GoogleLookerInstanceUserMetadataOutputReference) GetAnyMapAtt
 	return returns
 }
 
-func (g *jsiiProxy_GoogleLookerInstanceUserMetadataOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleLookerInstanceUserMetadataOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -494,8 +494,8 @@ func (g *jsiiProxy_GoogleLookerInstanceUserMetadataOutputReference) GetStringMap
 	return returns
 }
 
-func (g *jsiiProxy_GoogleLookerInstanceUserMetadataOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (g *jsiiProxy_GoogleLookerInstanceUserMetadataOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -507,11 +507,11 @@ func (g *jsiiProxy_GoogleLookerInstanceUserMetadataOutputReference) Interpolatio
 	return returns
 }
 
-func (g *jsiiProxy_GoogleLookerInstanceUserMetadataOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleLookerInstanceUserMetadataOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -547,7 +547,7 @@ func (g *jsiiProxy_GoogleLookerInstanceUserMetadataOutputReference) ResetAdditio
 	)
 }
 
-func (g *jsiiProxy_GoogleLookerInstanceUserMetadataOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (g *jsiiProxy_GoogleLookerInstanceUserMetadataOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

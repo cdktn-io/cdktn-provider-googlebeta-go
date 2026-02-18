@@ -79,7 +79,7 @@ func (j *jsiiProxy_DataGoogleDataprocMetastoreService) validateSetIdParameters(v
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleDataprocMetastoreService) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataGoogleDataprocMetastoreService) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

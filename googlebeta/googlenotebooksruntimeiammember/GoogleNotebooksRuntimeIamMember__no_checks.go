@@ -107,7 +107,7 @@ func (j *jsiiProxy_GoogleNotebooksRuntimeIamMember) validateSetIdParameters(val 
 	return nil
 }
 
-func (j *jsiiProxy_GoogleNotebooksRuntimeIamMember) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleNotebooksRuntimeIamMember) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

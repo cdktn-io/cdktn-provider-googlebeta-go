@@ -5,18 +5,18 @@ package googlecomputeserviceattachment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecomputeserviceattachment/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeserviceattachment/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_service_attachment google_compute_service_attachment}.
 type GoogleComputeServiceAttachment interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	ConnectedEndpoints() GoogleComputeServiceAttachmentConnectedEndpointsList
 	// Experimental.
 	Connection() interface{}
@@ -51,9 +51,9 @@ type GoogleComputeServiceAttachment interface {
 	EnableProxyProtocolInput() interface{}
 	Fingerprint() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -62,9 +62,9 @@ type GoogleComputeServiceAttachment interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
@@ -80,9 +80,9 @@ type GoogleComputeServiceAttachment interface {
 	SetPropagatedConnectionLimit(val *float64)
 	PropagatedConnectionLimitInput() *float64
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -103,7 +103,7 @@ type GoogleComputeServiceAttachment interface {
 	SetTargetService(val *string)
 	TargetServiceInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -118,7 +118,7 @@ type GoogleComputeServiceAttachment interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -136,9 +136,9 @@ type GoogleComputeServiceAttachment interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -184,11 +184,11 @@ type GoogleComputeServiceAttachment interface {
 
 // The jsii proxy struct for GoogleComputeServiceAttachment
 type jsiiProxy_GoogleComputeServiceAttachment struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
-func (j *jsiiProxy_GoogleComputeServiceAttachment) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_GoogleComputeServiceAttachment) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -377,8 +377,8 @@ func (j *jsiiProxy_GoogleComputeServiceAttachment) Fingerprint() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleComputeServiceAttachment) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_GoogleComputeServiceAttachment) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -427,8 +427,8 @@ func (j *jsiiProxy_GoogleComputeServiceAttachment) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleComputeServiceAttachment) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_GoogleComputeServiceAttachment) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -527,8 +527,8 @@ func (j *jsiiProxy_GoogleComputeServiceAttachment) PropagatedConnectionLimitInpu
 	return returns
 }
 
-func (j *jsiiProxy_GoogleComputeServiceAttachment) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_GoogleComputeServiceAttachment) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -647,8 +647,8 @@ func (j *jsiiProxy_GoogleComputeServiceAttachment) TargetServiceInput() *string 
 	return returns
 }
 
-func (j *jsiiProxy_GoogleComputeServiceAttachment) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_GoogleComputeServiceAttachment) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -812,7 +812,7 @@ func (j *jsiiProxy_GoogleComputeServiceAttachment)SetEnableProxyProtocol(val int
 	)
 }
 
-func (j *jsiiProxy_GoogleComputeServiceAttachment)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_GoogleComputeServiceAttachment)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -831,7 +831,7 @@ func (j *jsiiProxy_GoogleComputeServiceAttachment)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_GoogleComputeServiceAttachment)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_GoogleComputeServiceAttachment)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -886,7 +886,7 @@ func (j *jsiiProxy_GoogleComputeServiceAttachment)SetPropagatedConnectionLimit(v
 	)
 }
 
-func (j *jsiiProxy_GoogleComputeServiceAttachment)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_GoogleComputeServiceAttachment)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -949,14 +949,14 @@ func (j *jsiiProxy_GoogleComputeServiceAttachment)SetTargetService(val *string) 
 	)
 }
 
-// Generates CDKTF code for importing a GoogleComputeServiceAttachment resource upon running "cdktf plan <stack-name>".
-func GoogleComputeServiceAttachment_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a GoogleComputeServiceAttachment resource upon running "cdktn plan <stack-name>".
+func GoogleComputeServiceAttachment_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateGoogleComputeServiceAttachment_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google-beta.googleComputeServiceAttachment.GoogleComputeServiceAttachment",
@@ -1090,11 +1090,11 @@ func (g *jsiiProxy_GoogleComputeServiceAttachment) GetAnyMapAttribute(terraformA
 	return returns
 }
 
-func (g *jsiiProxy_GoogleComputeServiceAttachment) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleComputeServiceAttachment) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -1231,7 +1231,7 @@ func (g *jsiiProxy_GoogleComputeServiceAttachment) HasResourceMove() interface{}
 	return returns
 }
 
-func (g *jsiiProxy_GoogleComputeServiceAttachment) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (g *jsiiProxy_GoogleComputeServiceAttachment) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := g.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1242,11 +1242,11 @@ func (g *jsiiProxy_GoogleComputeServiceAttachment) ImportFrom(id *string, provid
 	)
 }
 
-func (g *jsiiProxy_GoogleComputeServiceAttachment) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleComputeServiceAttachment) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,

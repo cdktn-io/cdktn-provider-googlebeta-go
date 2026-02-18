@@ -5,15 +5,15 @@ package datagooglecloudrunservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagooglecloudrunservice/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagooglecloudrunservice/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataGoogleCloudRunServiceTemplateMetadataOutputReference interface {
-	cdktf.ComplexObject
-	Annotations() cdktf.StringMap
+	cdktn.ComplexObject
+	Annotations() cdktn.StringMap
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -34,7 +34,7 @@ type DataGoogleCloudRunServiceTemplateMetadataOutputReference interface {
 	Generation() *float64
 	InternalValue() *DataGoogleCloudRunServiceTemplateMetadata
 	SetInternalValue(val *DataGoogleCloudRunServiceTemplateMetadata)
-	Labels() cdktf.StringMap
+	Labels() cdktn.StringMap
 	Name() *string
 	Namespace() *string
 	ResourceVersion() *string
@@ -44,16 +44,16 @@ type DataGoogleCloudRunServiceTemplateMetadataOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Uid() *string
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -69,12 +69,12 @@ type DataGoogleCloudRunServiceTemplateMetadataOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -84,11 +84,11 @@ type DataGoogleCloudRunServiceTemplateMetadataOutputReference interface {
 
 // The jsii proxy struct for DataGoogleCloudRunServiceTemplateMetadataOutputReference
 type jsiiProxy_DataGoogleCloudRunServiceTemplateMetadataOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
-func (j *jsiiProxy_DataGoogleCloudRunServiceTemplateMetadataOutputReference) Annotations() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_DataGoogleCloudRunServiceTemplateMetadataOutputReference) Annotations() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"annotations",
@@ -157,8 +157,8 @@ func (j *jsiiProxy_DataGoogleCloudRunServiceTemplateMetadataOutputReference) Int
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleCloudRunServiceTemplateMetadataOutputReference) Labels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_DataGoogleCloudRunServiceTemplateMetadataOutputReference) Labels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"labels",
@@ -217,8 +217,8 @@ func (j *jsiiProxy_DataGoogleCloudRunServiceTemplateMetadataOutputReference) Ter
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleCloudRunServiceTemplateMetadataOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataGoogleCloudRunServiceTemplateMetadataOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -238,7 +238,7 @@ func (j *jsiiProxy_DataGoogleCloudRunServiceTemplateMetadataOutputReference) Uid
 }
 
 
-func NewDataGoogleCloudRunServiceTemplateMetadataOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataGoogleCloudRunServiceTemplateMetadataOutputReference {
+func NewDataGoogleCloudRunServiceTemplateMetadataOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataGoogleCloudRunServiceTemplateMetadataOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataGoogleCloudRunServiceTemplateMetadataOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -255,7 +255,7 @@ func NewDataGoogleCloudRunServiceTemplateMetadataOutputReference(terraformResour
 	return &j
 }
 
-func NewDataGoogleCloudRunServiceTemplateMetadataOutputReference_Override(d DataGoogleCloudRunServiceTemplateMetadataOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewDataGoogleCloudRunServiceTemplateMetadataOutputReference_Override(d DataGoogleCloudRunServiceTemplateMetadataOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -309,7 +309,7 @@ func (j *jsiiProxy_DataGoogleCloudRunServiceTemplateMetadataOutputReference)SetT
 	)
 }
 
-func (j *jsiiProxy_DataGoogleCloudRunServiceTemplateMetadataOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataGoogleCloudRunServiceTemplateMetadataOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -349,11 +349,11 @@ func (d *jsiiProxy_DataGoogleCloudRunServiceTemplateMetadataOutputReference) Get
 	return returns
 }
 
-func (d *jsiiProxy_DataGoogleCloudRunServiceTemplateMetadataOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataGoogleCloudRunServiceTemplateMetadataOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -477,8 +477,8 @@ func (d *jsiiProxy_DataGoogleCloudRunServiceTemplateMetadataOutputReference) Get
 	return returns
 }
 
-func (d *jsiiProxy_DataGoogleCloudRunServiceTemplateMetadataOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataGoogleCloudRunServiceTemplateMetadataOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -490,11 +490,11 @@ func (d *jsiiProxy_DataGoogleCloudRunServiceTemplateMetadataOutputReference) Int
 	return returns
 }
 
-func (d *jsiiProxy_DataGoogleCloudRunServiceTemplateMetadataOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataGoogleCloudRunServiceTemplateMetadataOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -506,7 +506,7 @@ func (d *jsiiProxy_DataGoogleCloudRunServiceTemplateMetadataOutputReference) Int
 	return returns
 }
 
-func (d *jsiiProxy_DataGoogleCloudRunServiceTemplateMetadataOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataGoogleCloudRunServiceTemplateMetadataOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

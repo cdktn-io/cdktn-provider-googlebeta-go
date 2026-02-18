@@ -131,7 +131,7 @@ func (j *jsiiProxy_GoogleLustreInstance) validateSetLabelsParameters(val *map[st
 	return nil
 }
 
-func (j *jsiiProxy_GoogleLustreInstance) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleLustreInstance) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

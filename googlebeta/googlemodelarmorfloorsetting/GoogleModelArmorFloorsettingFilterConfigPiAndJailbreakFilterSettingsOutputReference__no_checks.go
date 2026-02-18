@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleModelArmorFloorsettingFilterConfigPiAndJailbreakFilterS
 	return nil
 }
 
-func (g *jsiiProxy_GoogleModelArmorFloorsettingFilterConfigPiAndJailbreakFilterSettingsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleModelArmorFloorsettingFilterConfigPiAndJailbreakFilterSettingsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_GoogleModelArmorFloorsettingFilterConfigPiAndJailbreakFilterS
 	return nil
 }
 
-func (j *jsiiProxy_GoogleModelArmorFloorsettingFilterConfigPiAndJailbreakFilterSettingsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleModelArmorFloorsettingFilterConfigPiAndJailbreakFilterSettingsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleModelArmorFloorsettingFilterConfigPiAndJailbreakFilterSettingsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleModelArmorFloorsettingFilterConfigPiAndJailbreakFilterSettingsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

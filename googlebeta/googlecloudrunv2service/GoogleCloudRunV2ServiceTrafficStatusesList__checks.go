@@ -8,7 +8,7 @@ package googlecloudrunv2service
 import (
 	"fmt"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (g *jsiiProxy_GoogleCloudRunV2ServiceTrafficStatusesList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -27,7 +27,7 @@ func (g *jsiiProxy_GoogleCloudRunV2ServiceTrafficStatusesList) validateGetParame
 	return nil
 }
 
-func (g *jsiiProxy_GoogleCloudRunV2ServiceTrafficStatusesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleCloudRunV2ServiceTrafficStatusesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -43,7 +43,7 @@ func (j *jsiiProxy_GoogleCloudRunV2ServiceTrafficStatusesList) validateSetTerraf
 	return nil
 }
 
-func (j *jsiiProxy_GoogleCloudRunV2ServiceTrafficStatusesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleCloudRunV2ServiceTrafficStatusesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -59,7 +59,7 @@ func (j *jsiiProxy_GoogleCloudRunV2ServiceTrafficStatusesList) validateSetWrapsS
 	return nil
 }
 
-func validateNewGoogleCloudRunV2ServiceTrafficStatusesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGoogleCloudRunV2ServiceTrafficStatusesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

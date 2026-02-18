@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleFirestoreBackupScheduleDailyRecurrenceOutputReference) 
 	return nil
 }
 
-func (g *jsiiProxy_GoogleFirestoreBackupScheduleDailyRecurrenceOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleFirestoreBackupScheduleDailyRecurrenceOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_GoogleFirestoreBackupScheduleDailyRecurrenceOutputReference) 
 	return nil
 }
 
-func (j *jsiiProxy_GoogleFirestoreBackupScheduleDailyRecurrenceOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleFirestoreBackupScheduleDailyRecurrenceOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleFirestoreBackupScheduleDailyRecurrenceOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleFirestoreBackupScheduleDailyRecurrenceOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

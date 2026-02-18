@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (g *jsiiProxy_GoogleComputeDiskGuestOsFeaturesOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -93,7 +93,7 @@ func (g *jsiiProxy_GoogleComputeDiskGuestOsFeaturesOutputReference) validateInte
 	return nil
 }
 
-func (g *jsiiProxy_GoogleComputeDiskGuestOsFeaturesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleComputeDiskGuestOsFeaturesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -168,7 +168,7 @@ func (j *jsiiProxy_GoogleComputeDiskGuestOsFeaturesOutputReference) validateSetC
 
 func (j *jsiiProxy_GoogleComputeDiskGuestOsFeaturesOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *GoogleComputeDiskGuestOsFeatures:
 		val := val.(*GoogleComputeDiskGuestOsFeatures)
@@ -183,7 +183,7 @@ func (j *jsiiProxy_GoogleComputeDiskGuestOsFeaturesOutputReference) validateSetI
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *GoogleComputeDiskGuestOsFeatures; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *GoogleComputeDiskGuestOsFeatures; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -198,7 +198,7 @@ func (j *jsiiProxy_GoogleComputeDiskGuestOsFeaturesOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_GoogleComputeDiskGuestOsFeaturesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleComputeDiskGuestOsFeaturesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -214,7 +214,7 @@ func (j *jsiiProxy_GoogleComputeDiskGuestOsFeaturesOutputReference) validateSetT
 	return nil
 }
 
-func validateNewGoogleComputeDiskGuestOsFeaturesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewGoogleComputeDiskGuestOsFeaturesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

@@ -107,7 +107,7 @@ func (j *jsiiProxy_GoogleSecretManagerRegionalSecretIamBinding) validateSetIdPar
 	return nil
 }
 
-func (j *jsiiProxy_GoogleSecretManagerRegionalSecretIamBinding) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleSecretManagerRegionalSecretIamBinding) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

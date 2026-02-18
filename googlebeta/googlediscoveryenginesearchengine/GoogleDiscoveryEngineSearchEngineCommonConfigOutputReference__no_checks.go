@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleDiscoveryEngineSearchEngineCommonConfigOutputReference)
 	return nil
 }
 
-func (g *jsiiProxy_GoogleDiscoveryEngineSearchEngineCommonConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleDiscoveryEngineSearchEngineCommonConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_GoogleDiscoveryEngineSearchEngineCommonConfigOutputReference)
 	return nil
 }
 
-func (j *jsiiProxy_GoogleDiscoveryEngineSearchEngineCommonConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleDiscoveryEngineSearchEngineCommonConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleDiscoveryEngineSearchEngineCommonConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleDiscoveryEngineSearchEngineCommonConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

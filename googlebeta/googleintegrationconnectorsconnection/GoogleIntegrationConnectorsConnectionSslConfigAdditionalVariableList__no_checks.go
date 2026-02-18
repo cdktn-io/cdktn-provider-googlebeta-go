@@ -15,7 +15,7 @@ func (g *jsiiProxy_GoogleIntegrationConnectorsConnectionSslConfigAdditionalVaria
 	return nil
 }
 
-func (g *jsiiProxy_GoogleIntegrationConnectorsConnectionSslConfigAdditionalVariableList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleIntegrationConnectorsConnectionSslConfigAdditionalVariableList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_GoogleIntegrationConnectorsConnectionSslConfigAdditionalVaria
 	return nil
 }
 
-func (j *jsiiProxy_GoogleIntegrationConnectorsConnectionSslConfigAdditionalVariableList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleIntegrationConnectorsConnectionSslConfigAdditionalVariableList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_GoogleIntegrationConnectorsConnectionSslConfigAdditionalVaria
 	return nil
 }
 
-func validateNewGoogleIntegrationConnectorsConnectionSslConfigAdditionalVariableListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGoogleIntegrationConnectorsConnectionSslConfigAdditionalVariableListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

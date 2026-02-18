@@ -111,7 +111,7 @@ func (j *jsiiProxy_GoogleContainerAzureClient) validateSetIdParameters(val *stri
 	return nil
 }
 
-func (j *jsiiProxy_GoogleContainerAzureClient) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleContainerAzureClient) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

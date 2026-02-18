@@ -127,7 +127,7 @@ func (j *jsiiProxy_GoogleMonitoringMetricDescriptor) validateSetLaunchStageParam
 	return nil
 }
 
-func (j *jsiiProxy_GoogleMonitoringMetricDescriptor) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleMonitoringMetricDescriptor) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

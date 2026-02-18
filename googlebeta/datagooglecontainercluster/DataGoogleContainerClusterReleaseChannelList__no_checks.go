@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataGoogleContainerClusterReleaseChannelList) validateGetPara
 	return nil
 }
 
-func (d *jsiiProxy_DataGoogleContainerClusterReleaseChannelList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataGoogleContainerClusterReleaseChannelList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataGoogleContainerClusterReleaseChannelList) validateSetTerr
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleContainerClusterReleaseChannelList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataGoogleContainerClusterReleaseChannelList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataGoogleContainerClusterReleaseChannelList) validateSetWrap
 	return nil
 }
 
-func validateNewDataGoogleContainerClusterReleaseChannelListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataGoogleContainerClusterReleaseChannelListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

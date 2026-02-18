@@ -5,23 +5,23 @@ package googleloggingbillingaccountsink
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleloggingbillingaccountsink/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleloggingbillingaccountsink/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_logging_billing_account_sink google_logging_billing_account_sink}.
 type GoogleLoggingBillingAccountSink interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	BigqueryOptions() GoogleLoggingBillingAccountSinkBigqueryOptionsOutputReference
 	BigqueryOptionsInput() *GoogleLoggingBillingAccountSinkBigqueryOptions
 	BillingAccount() *string
 	SetBillingAccount(val *string)
 	BillingAccountInput() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -51,9 +51,9 @@ type GoogleLoggingBillingAccountSink interface {
 	SetFilter(val *string)
 	FilterInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -62,18 +62,18 @@ type GoogleLoggingBillingAccountSink interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -81,7 +81,7 @@ type GoogleLoggingBillingAccountSink interface {
 	// Experimental.
 	RawOverrides() interface{}
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -95,7 +95,7 @@ type GoogleLoggingBillingAccountSink interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -113,9 +113,9 @@ type GoogleLoggingBillingAccountSink interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -156,7 +156,7 @@ type GoogleLoggingBillingAccountSink interface {
 
 // The jsii proxy struct for GoogleLoggingBillingAccountSink
 type jsiiProxy_GoogleLoggingBillingAccountSink struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_GoogleLoggingBillingAccountSink) BigqueryOptions() GoogleLoggingBillingAccountSinkBigqueryOptionsOutputReference {
@@ -199,8 +199,8 @@ func (j *jsiiProxy_GoogleLoggingBillingAccountSink) BillingAccountInput() *strin
 	return returns
 }
 
-func (j *jsiiProxy_GoogleLoggingBillingAccountSink) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_GoogleLoggingBillingAccountSink) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -349,8 +349,8 @@ func (j *jsiiProxy_GoogleLoggingBillingAccountSink) FilterInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleLoggingBillingAccountSink) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_GoogleLoggingBillingAccountSink) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -399,8 +399,8 @@ func (j *jsiiProxy_GoogleLoggingBillingAccountSink) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleLoggingBillingAccountSink) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_GoogleLoggingBillingAccountSink) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -439,8 +439,8 @@ func (j *jsiiProxy_GoogleLoggingBillingAccountSink) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleLoggingBillingAccountSink) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_GoogleLoggingBillingAccountSink) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -469,8 +469,8 @@ func (j *jsiiProxy_GoogleLoggingBillingAccountSink) RawOverrides() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleLoggingBillingAccountSink) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_GoogleLoggingBillingAccountSink) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -624,7 +624,7 @@ func (j *jsiiProxy_GoogleLoggingBillingAccountSink)SetFilter(val *string) {
 	)
 }
 
-func (j *jsiiProxy_GoogleLoggingBillingAccountSink)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_GoogleLoggingBillingAccountSink)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -643,7 +643,7 @@ func (j *jsiiProxy_GoogleLoggingBillingAccountSink)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_GoogleLoggingBillingAccountSink)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_GoogleLoggingBillingAccountSink)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -665,7 +665,7 @@ func (j *jsiiProxy_GoogleLoggingBillingAccountSink)SetName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_GoogleLoggingBillingAccountSink)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_GoogleLoggingBillingAccountSink)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -684,14 +684,14 @@ func (j *jsiiProxy_GoogleLoggingBillingAccountSink)SetProvisioners(val *[]interf
 	)
 }
 
-// Generates CDKTF code for importing a GoogleLoggingBillingAccountSink resource upon running "cdktf plan <stack-name>".
-func GoogleLoggingBillingAccountSink_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a GoogleLoggingBillingAccountSink resource upon running "cdktn plan <stack-name>".
+func GoogleLoggingBillingAccountSink_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateGoogleLoggingBillingAccountSink_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google-beta.googleLoggingBillingAccountSink.GoogleLoggingBillingAccountSink",
@@ -825,11 +825,11 @@ func (g *jsiiProxy_GoogleLoggingBillingAccountSink) GetAnyMapAttribute(terraform
 	return returns
 }
 
-func (g *jsiiProxy_GoogleLoggingBillingAccountSink) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleLoggingBillingAccountSink) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -966,7 +966,7 @@ func (g *jsiiProxy_GoogleLoggingBillingAccountSink) HasResourceMove() interface{
 	return returns
 }
 
-func (g *jsiiProxy_GoogleLoggingBillingAccountSink) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (g *jsiiProxy_GoogleLoggingBillingAccountSink) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := g.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -977,11 +977,11 @@ func (g *jsiiProxy_GoogleLoggingBillingAccountSink) ImportFrom(id *string, provi
 	)
 }
 
-func (g *jsiiProxy_GoogleLoggingBillingAccountSink) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleLoggingBillingAccountSink) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,

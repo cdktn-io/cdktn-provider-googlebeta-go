@@ -5,16 +5,16 @@ package googlegkeonprembaremetalcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlegkeonprembaremetalcluster/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlegkeonprembaremetalcluster/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gkeonprem_bare_metal_cluster google_gkeonprem_bare_metal_cluster}.
 type GoogleGkeonpremBareMetalCluster interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	AdminClusterMembership() *string
 	SetAdminClusterMembership(val *string)
 	AdminClusterMembershipInput() *string
@@ -27,7 +27,7 @@ type GoogleGkeonpremBareMetalCluster interface {
 	BinaryAuthorization() GoogleGkeonpremBareMetalClusterBinaryAuthorizationOutputReference
 	BinaryAuthorizationInput() *GoogleGkeonpremBareMetalClusterBinaryAuthorization
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	ClusterOperations() GoogleGkeonpremBareMetalClusterClusterOperationsOutputReference
 	ClusterOperationsInput() *GoogleGkeonpremBareMetalClusterClusterOperations
 	// Experimental.
@@ -51,14 +51,14 @@ type GoogleGkeonpremBareMetalCluster interface {
 	Description() *string
 	SetDescription(val *string)
 	DescriptionInput() *string
-	EffectiveAnnotations() cdktf.StringMap
+	EffectiveAnnotations() cdktn.StringMap
 	Endpoint() *string
 	Etag() *string
 	Fleet() GoogleGkeonpremBareMetalClusterFleetList
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -67,9 +67,9 @@ type GoogleGkeonpremBareMetalCluster interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	LoadBalancer() GoogleGkeonpremBareMetalClusterLoadBalancerOutputReference
 	LoadBalancerInput() *GoogleGkeonpremBareMetalClusterLoadBalancer
 	LocalName() *string
@@ -95,9 +95,9 @@ type GoogleGkeonpremBareMetalCluster interface {
 	SetProject(val *string)
 	ProjectInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -106,7 +106,7 @@ type GoogleGkeonpremBareMetalCluster interface {
 	ProxyInput() *GoogleGkeonpremBareMetalClusterProxy
 	// Experimental.
 	RawOverrides() interface{}
-	Reconciling() cdktf.IResolvable
+	Reconciling() cdktn.IResolvable
 	SecurityConfig() GoogleGkeonpremBareMetalClusterSecurityConfigOutputReference
 	SecurityConfigInput() *GoogleGkeonpremBareMetalClusterSecurityConfig
 	State() *string
@@ -114,7 +114,7 @@ type GoogleGkeonpremBareMetalCluster interface {
 	Storage() GoogleGkeonpremBareMetalClusterStorageOutputReference
 	StorageInput() *GoogleGkeonpremBareMetalClusterStorage
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -134,7 +134,7 @@ type GoogleGkeonpremBareMetalCluster interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -152,9 +152,9 @@ type GoogleGkeonpremBareMetalCluster interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -215,7 +215,7 @@ type GoogleGkeonpremBareMetalCluster interface {
 
 // The jsii proxy struct for GoogleGkeonpremBareMetalCluster
 type jsiiProxy_GoogleGkeonpremBareMetalCluster struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_GoogleGkeonpremBareMetalCluster) AdminClusterMembership() *string {
@@ -298,8 +298,8 @@ func (j *jsiiProxy_GoogleGkeonpremBareMetalCluster) BinaryAuthorizationInput() *
 	return returns
 }
 
-func (j *jsiiProxy_GoogleGkeonpremBareMetalCluster) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_GoogleGkeonpremBareMetalCluster) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -428,8 +428,8 @@ func (j *jsiiProxy_GoogleGkeonpremBareMetalCluster) DescriptionInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleGkeonpremBareMetalCluster) EffectiveAnnotations() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_GoogleGkeonpremBareMetalCluster) EffectiveAnnotations() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"effectiveAnnotations",
@@ -468,8 +468,8 @@ func (j *jsiiProxy_GoogleGkeonpremBareMetalCluster) Fleet() GoogleGkeonpremBareM
 	return returns
 }
 
-func (j *jsiiProxy_GoogleGkeonpremBareMetalCluster) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_GoogleGkeonpremBareMetalCluster) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -518,8 +518,8 @@ func (j *jsiiProxy_GoogleGkeonpremBareMetalCluster) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleGkeonpremBareMetalCluster) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_GoogleGkeonpremBareMetalCluster) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -728,8 +728,8 @@ func (j *jsiiProxy_GoogleGkeonpremBareMetalCluster) ProjectInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleGkeonpremBareMetalCluster) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_GoogleGkeonpremBareMetalCluster) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -778,8 +778,8 @@ func (j *jsiiProxy_GoogleGkeonpremBareMetalCluster) RawOverrides() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleGkeonpremBareMetalCluster) Reconciling() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_GoogleGkeonpremBareMetalCluster) Reconciling() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"reconciling",
@@ -848,8 +848,8 @@ func (j *jsiiProxy_GoogleGkeonpremBareMetalCluster) StorageInput() *GoogleGkeonp
 	return returns
 }
 
-func (j *jsiiProxy_GoogleGkeonpremBareMetalCluster) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_GoogleGkeonpremBareMetalCluster) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -1052,7 +1052,7 @@ func (j *jsiiProxy_GoogleGkeonpremBareMetalCluster)SetDescription(val *string) {
 	)
 }
 
-func (j *jsiiProxy_GoogleGkeonpremBareMetalCluster)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_GoogleGkeonpremBareMetalCluster)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -1071,7 +1071,7 @@ func (j *jsiiProxy_GoogleGkeonpremBareMetalCluster)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_GoogleGkeonpremBareMetalCluster)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_GoogleGkeonpremBareMetalCluster)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -1115,7 +1115,7 @@ func (j *jsiiProxy_GoogleGkeonpremBareMetalCluster)SetProject(val *string) {
 	)
 }
 
-func (j *jsiiProxy_GoogleGkeonpremBareMetalCluster)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_GoogleGkeonpremBareMetalCluster)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -1134,14 +1134,14 @@ func (j *jsiiProxy_GoogleGkeonpremBareMetalCluster)SetProvisioners(val *[]interf
 	)
 }
 
-// Generates CDKTF code for importing a GoogleGkeonpremBareMetalCluster resource upon running "cdktf plan <stack-name>".
-func GoogleGkeonpremBareMetalCluster_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a GoogleGkeonpremBareMetalCluster resource upon running "cdktn plan <stack-name>".
+func GoogleGkeonpremBareMetalCluster_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateGoogleGkeonpremBareMetalCluster_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google-beta.googleGkeonpremBareMetalCluster.GoogleGkeonpremBareMetalCluster",
@@ -1275,11 +1275,11 @@ func (g *jsiiProxy_GoogleGkeonpremBareMetalCluster) GetAnyMapAttribute(terraform
 	return returns
 }
 
-func (g *jsiiProxy_GoogleGkeonpremBareMetalCluster) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleGkeonpremBareMetalCluster) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -1416,7 +1416,7 @@ func (g *jsiiProxy_GoogleGkeonpremBareMetalCluster) HasResourceMove() interface{
 	return returns
 }
 
-func (g *jsiiProxy_GoogleGkeonpremBareMetalCluster) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (g *jsiiProxy_GoogleGkeonpremBareMetalCluster) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := g.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1427,11 +1427,11 @@ func (g *jsiiProxy_GoogleGkeonpremBareMetalCluster) ImportFrom(id *string, provi
 	)
 }
 
-func (g *jsiiProxy_GoogleGkeonpremBareMetalCluster) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleGkeonpremBareMetalCluster) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,

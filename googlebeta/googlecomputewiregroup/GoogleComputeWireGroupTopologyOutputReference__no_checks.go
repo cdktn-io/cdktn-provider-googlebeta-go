@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleComputeWireGroupTopologyOutputReference) validateInterp
 	return nil
 }
 
-func (g *jsiiProxy_GoogleComputeWireGroupTopologyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleComputeWireGroupTopologyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_GoogleComputeWireGroupTopologyOutputReference) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_GoogleComputeWireGroupTopologyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleComputeWireGroupTopologyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleComputeWireGroupTopologyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewGoogleComputeWireGroupTopologyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

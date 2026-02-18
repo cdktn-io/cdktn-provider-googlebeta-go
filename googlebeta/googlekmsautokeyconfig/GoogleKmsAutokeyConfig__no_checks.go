@@ -115,7 +115,7 @@ func (j *jsiiProxy_GoogleKmsAutokeyConfig) validateSetKeyProjectParameters(val *
 	return nil
 }
 
-func (j *jsiiProxy_GoogleKmsAutokeyConfig) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleKmsAutokeyConfig) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

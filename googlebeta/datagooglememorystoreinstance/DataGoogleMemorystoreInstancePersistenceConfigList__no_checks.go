@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataGoogleMemorystoreInstancePersistenceConfigList) validateG
 	return nil
 }
 
-func (d *jsiiProxy_DataGoogleMemorystoreInstancePersistenceConfigList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataGoogleMemorystoreInstancePersistenceConfigList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataGoogleMemorystoreInstancePersistenceConfigList) validateS
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleMemorystoreInstancePersistenceConfigList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataGoogleMemorystoreInstancePersistenceConfigList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataGoogleMemorystoreInstancePersistenceConfigList) validateS
 	return nil
 }
 
-func validateNewDataGoogleMemorystoreInstancePersistenceConfigListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataGoogleMemorystoreInstancePersistenceConfigListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

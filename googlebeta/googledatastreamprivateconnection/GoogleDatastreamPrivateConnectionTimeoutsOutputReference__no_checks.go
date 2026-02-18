@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleDatastreamPrivateConnectionTimeoutsOutputReference) val
 	return nil
 }
 
-func (g *jsiiProxy_GoogleDatastreamPrivateConnectionTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleDatastreamPrivateConnectionTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_GoogleDatastreamPrivateConnectionTimeoutsOutputReference) val
 	return nil
 }
 
-func (j *jsiiProxy_GoogleDatastreamPrivateConnectionTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleDatastreamPrivateConnectionTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_GoogleDatastreamPrivateConnectionTimeoutsOutputReference) val
 	return nil
 }
 
-func validateNewGoogleDatastreamPrivateConnectionTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleDatastreamPrivateConnectionTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (g *jsiiProxy_GoogleMemcacheInstanceMaintenancePolicyWeeklyMaintenanceWindo
 	return nil
 }
 
-func (g *jsiiProxy_GoogleMemcacheInstanceMaintenancePolicyWeeklyMaintenanceWindowList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleMemcacheInstanceMaintenancePolicyWeeklyMaintenanceWindowList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_GoogleMemcacheInstanceMaintenancePolicyWeeklyMaintenanceWindo
 	return nil
 }
 
-func (j *jsiiProxy_GoogleMemcacheInstanceMaintenancePolicyWeeklyMaintenanceWindowList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleMemcacheInstanceMaintenancePolicyWeeklyMaintenanceWindowList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_GoogleMemcacheInstanceMaintenancePolicyWeeklyMaintenanceWindo
 	return nil
 }
 
-func validateNewGoogleMemcacheInstanceMaintenancePolicyWeeklyMaintenanceWindowListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGoogleMemcacheInstanceMaintenancePolicyWeeklyMaintenanceWindowListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

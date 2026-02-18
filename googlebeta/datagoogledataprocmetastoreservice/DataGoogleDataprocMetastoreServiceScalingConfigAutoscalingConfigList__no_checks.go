@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataGoogleDataprocMetastoreServiceScalingConfigAutoscalingCon
 	return nil
 }
 
-func (d *jsiiProxy_DataGoogleDataprocMetastoreServiceScalingConfigAutoscalingConfigList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataGoogleDataprocMetastoreServiceScalingConfigAutoscalingConfigList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataGoogleDataprocMetastoreServiceScalingConfigAutoscalingCon
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleDataprocMetastoreServiceScalingConfigAutoscalingConfigList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataGoogleDataprocMetastoreServiceScalingConfigAutoscalingConfigList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataGoogleDataprocMetastoreServiceScalingConfigAutoscalingCon
 	return nil
 }
 
-func validateNewDataGoogleDataprocMetastoreServiceScalingConfigAutoscalingConfigListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataGoogleDataprocMetastoreServiceScalingConfigAutoscalingConfigListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

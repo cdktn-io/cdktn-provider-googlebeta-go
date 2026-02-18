@@ -179,7 +179,7 @@ func (j *jsiiProxy_GoogleAlloydbCluster) validateSetLabelsParameters(val *map[st
 	return nil
 }
 
-func (j *jsiiProxy_GoogleAlloydbCluster) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleAlloydbCluster) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

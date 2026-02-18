@@ -63,7 +63,7 @@ func (g *jsiiProxy_GoogleGkeHubFeatureSpecOutputReference) validatePutRbacrolebi
 	return nil
 }
 
-func (g *jsiiProxy_GoogleGkeHubFeatureSpecOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleGkeHubFeatureSpecOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_GoogleGkeHubFeatureSpecOutputReference) validateSetTerraformA
 	return nil
 }
 
-func (j *jsiiProxy_GoogleGkeHubFeatureSpecOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleGkeHubFeatureSpecOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleGkeHubFeatureSpecOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleGkeHubFeatureSpecOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

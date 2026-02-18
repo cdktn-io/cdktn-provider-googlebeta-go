@@ -135,7 +135,7 @@ func (j *jsiiProxy_GoogleBigtableAppProfile) validateSetInstanceParameters(val *
 	return nil
 }
 
-func (j *jsiiProxy_GoogleBigtableAppProfile) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleBigtableAppProfile) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataGooglePubsubSubscriptionBigqueryConfigList) validateGetPa
 	return nil
 }
 
-func (d *jsiiProxy_DataGooglePubsubSubscriptionBigqueryConfigList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataGooglePubsubSubscriptionBigqueryConfigList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataGooglePubsubSubscriptionBigqueryConfigList) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_DataGooglePubsubSubscriptionBigqueryConfigList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataGooglePubsubSubscriptionBigqueryConfigList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataGooglePubsubSubscriptionBigqueryConfigList) validateSetWr
 	return nil
 }
 
-func validateNewDataGooglePubsubSubscriptionBigqueryConfigListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataGooglePubsubSubscriptionBigqueryConfigListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

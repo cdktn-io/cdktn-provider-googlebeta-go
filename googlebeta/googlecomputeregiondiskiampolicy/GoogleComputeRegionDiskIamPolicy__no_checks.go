@@ -103,7 +103,7 @@ func (j *jsiiProxy_GoogleComputeRegionDiskIamPolicy) validateSetIdParameters(val
 	return nil
 }
 
-func (j *jsiiProxy_GoogleComputeRegionDiskIamPolicy) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleComputeRegionDiskIamPolicy) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

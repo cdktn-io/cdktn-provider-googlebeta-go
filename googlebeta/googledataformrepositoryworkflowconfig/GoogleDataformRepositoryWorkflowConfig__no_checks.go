@@ -115,7 +115,7 @@ func (j *jsiiProxy_GoogleDataformRepositoryWorkflowConfig) validateSetIdParamete
 	return nil
 }
 
-func (j *jsiiProxy_GoogleDataformRepositoryWorkflowConfig) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleDataformRepositoryWorkflowConfig) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

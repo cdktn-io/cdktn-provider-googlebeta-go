@@ -135,7 +135,7 @@ func (j *jsiiProxy_GoogleKmsCryptoKey) validateSetLabelsParameters(val *map[stri
 	return nil
 }
 
-func (j *jsiiProxy_GoogleKmsCryptoKey) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleKmsCryptoKey) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

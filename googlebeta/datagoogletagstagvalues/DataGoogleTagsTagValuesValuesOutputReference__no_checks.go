@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataGoogleTagsTagValuesValuesOutputReference) validateInterpo
 	return nil
 }
 
-func (d *jsiiProxy_DataGoogleTagsTagValuesValuesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataGoogleTagsTagValuesValuesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataGoogleTagsTagValuesValuesOutputReference) validateSetTerr
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleTagsTagValuesValuesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataGoogleTagsTagValuesValuesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataGoogleTagsTagValuesValuesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataGoogleTagsTagValuesValuesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

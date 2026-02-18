@@ -79,7 +79,7 @@ func (j *jsiiProxy_DataGoogleComposerImageVersions) validateSetIdParameters(val 
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleComposerImageVersions) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataGoogleComposerImageVersions) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

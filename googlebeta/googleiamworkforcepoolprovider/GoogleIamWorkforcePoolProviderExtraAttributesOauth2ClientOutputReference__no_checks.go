@@ -55,7 +55,7 @@ func (g *jsiiProxy_GoogleIamWorkforcePoolProviderExtraAttributesOauth2ClientOutp
 	return nil
 }
 
-func (g *jsiiProxy_GoogleIamWorkforcePoolProviderExtraAttributesOauth2ClientOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleIamWorkforcePoolProviderExtraAttributesOauth2ClientOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -87,11 +87,11 @@ func (j *jsiiProxy_GoogleIamWorkforcePoolProviderExtraAttributesOauth2ClientOutp
 	return nil
 }
 
-func (j *jsiiProxy_GoogleIamWorkforcePoolProviderExtraAttributesOauth2ClientOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleIamWorkforcePoolProviderExtraAttributesOauth2ClientOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleIamWorkforcePoolProviderExtraAttributesOauth2ClientOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleIamWorkforcePoolProviderExtraAttributesOauth2ClientOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

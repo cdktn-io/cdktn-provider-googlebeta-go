@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleProjectUsageExportBucketTimeoutsOutputReference) valida
 	return nil
 }
 
-func (g *jsiiProxy_GoogleProjectUsageExportBucketTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleProjectUsageExportBucketTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_GoogleProjectUsageExportBucketTimeoutsOutputReference) valida
 	return nil
 }
 
-func (j *jsiiProxy_GoogleProjectUsageExportBucketTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleProjectUsageExportBucketTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleProjectUsageExportBucketTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleProjectUsageExportBucketTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

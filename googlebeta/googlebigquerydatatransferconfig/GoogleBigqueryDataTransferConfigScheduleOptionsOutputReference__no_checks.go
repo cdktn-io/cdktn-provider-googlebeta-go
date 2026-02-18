@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleBigqueryDataTransferConfigScheduleOptionsOutputReferenc
 	return nil
 }
 
-func (g *jsiiProxy_GoogleBigqueryDataTransferConfigScheduleOptionsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleBigqueryDataTransferConfigScheduleOptionsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_GoogleBigqueryDataTransferConfigScheduleOptionsOutputReferenc
 	return nil
 }
 
-func (j *jsiiProxy_GoogleBigqueryDataTransferConfigScheduleOptionsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleBigqueryDataTransferConfigScheduleOptionsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleBigqueryDataTransferConfigScheduleOptionsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleBigqueryDataTransferConfigScheduleOptionsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

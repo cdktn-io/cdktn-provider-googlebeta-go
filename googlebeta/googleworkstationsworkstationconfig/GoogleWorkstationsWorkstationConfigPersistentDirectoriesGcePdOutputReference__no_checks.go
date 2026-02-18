@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleWorkstationsWorkstationConfigPersistentDirectoriesGcePd
 	return nil
 }
 
-func (g *jsiiProxy_GoogleWorkstationsWorkstationConfigPersistentDirectoriesGcePdOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleWorkstationsWorkstationConfigPersistentDirectoriesGcePdOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -87,11 +87,11 @@ func (j *jsiiProxy_GoogleWorkstationsWorkstationConfigPersistentDirectoriesGcePd
 	return nil
 }
 
-func (j *jsiiProxy_GoogleWorkstationsWorkstationConfigPersistentDirectoriesGcePdOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleWorkstationsWorkstationConfigPersistentDirectoriesGcePdOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleWorkstationsWorkstationConfigPersistentDirectoriesGcePdOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleWorkstationsWorkstationConfigPersistentDirectoriesGcePdOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleComputeRegionAutoscalerAutoscalingPolicyScalingSchedule
 	return nil
 }
 
-func (g *jsiiProxy_GoogleComputeRegionAutoscalerAutoscalingPolicyScalingSchedulesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleComputeRegionAutoscalerAutoscalingPolicyScalingSchedulesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -91,7 +91,7 @@ func (j *jsiiProxy_GoogleComputeRegionAutoscalerAutoscalingPolicyScalingSchedule
 	return nil
 }
 
-func (j *jsiiProxy_GoogleComputeRegionAutoscalerAutoscalingPolicyScalingSchedulesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleComputeRegionAutoscalerAutoscalingPolicyScalingSchedulesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -99,7 +99,7 @@ func (j *jsiiProxy_GoogleComputeRegionAutoscalerAutoscalingPolicyScalingSchedule
 	return nil
 }
 
-func validateNewGoogleComputeRegionAutoscalerAutoscalingPolicyScalingSchedulesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewGoogleComputeRegionAutoscalerAutoscalingPolicyScalingSchedulesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

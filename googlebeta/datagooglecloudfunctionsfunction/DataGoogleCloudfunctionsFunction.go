@@ -5,23 +5,23 @@ package datagooglecloudfunctionsfunction
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagooglecloudfunctionsfunction/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagooglecloudfunctionsfunction/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_cloudfunctions_function google_cloudfunctions_function}.
 type DataGoogleCloudfunctionsFunction interface {
-	cdktf.TerraformDataSource
+	cdktn.TerraformDataSource
 	AutomaticUpdatePolicy() DataGoogleCloudfunctionsFunctionAutomaticUpdatePolicyList
 	AvailableMemoryMb() *float64
-	BuildEnvironmentVariables() cdktf.StringMap
+	BuildEnvironmentVariables() cdktn.StringMap
 	BuildServiceAccount() *string
 	BuildWorkerPool() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
 	// Experimental.
@@ -35,14 +35,14 @@ type DataGoogleCloudfunctionsFunction interface {
 	Description() *string
 	DockerRegistry() *string
 	DockerRepository() *string
-	EffectiveLabels() cdktf.StringMap
+	EffectiveLabels() cdktn.StringMap
 	EntryPoint() *string
-	EnvironmentVariables() cdktf.StringMap
+	EnvironmentVariables() cdktn.StringMap
 	EventTrigger() DataGoogleCloudfunctionsFunctionEventTriggerList
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -54,11 +54,11 @@ type DataGoogleCloudfunctionsFunction interface {
 	IdInput() *string
 	IngressSettings() *string
 	KmsKeyName() *string
-	Labels() cdktf.StringMap
+	Labels() cdktn.StringMap
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	MaxInstances() *float64
 	MinInstances() *float64
 	Name() *string
@@ -71,9 +71,9 @@ type DataGoogleCloudfunctionsFunction interface {
 	SetProject(val *string)
 	ProjectInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	RawOverrides() interface{}
 	Region() *string
@@ -88,14 +88,14 @@ type DataGoogleCloudfunctionsFunction interface {
 	SourceRepository() DataGoogleCloudfunctionsFunctionSourceRepositoryList
 	Status() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
-	TerraformLabels() cdktf.StringMap
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
+	TerraformLabels() cdktn.StringMap
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
 	TerraformResourceType() *string
 	Timeout() *float64
-	TriggerHttp() cdktf.IResolvable
+	TriggerHttp() cdktn.IResolvable
 	VersionId() *string
 	VpcConnector() *string
 	VpcConnectorEgressSettings() *string
@@ -104,7 +104,7 @@ type DataGoogleCloudfunctionsFunction interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -120,7 +120,7 @@ type DataGoogleCloudfunctionsFunction interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
@@ -146,7 +146,7 @@ type DataGoogleCloudfunctionsFunction interface {
 
 // The jsii proxy struct for DataGoogleCloudfunctionsFunction
 type jsiiProxy_DataGoogleCloudfunctionsFunction struct {
-	internal.Type__cdktfTerraformDataSource
+	internal.Type__cdktnTerraformDataSource
 }
 
 func (j *jsiiProxy_DataGoogleCloudfunctionsFunction) AutomaticUpdatePolicy() DataGoogleCloudfunctionsFunctionAutomaticUpdatePolicyList {
@@ -169,8 +169,8 @@ func (j *jsiiProxy_DataGoogleCloudfunctionsFunction) AvailableMemoryMb() *float6
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleCloudfunctionsFunction) BuildEnvironmentVariables() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_DataGoogleCloudfunctionsFunction) BuildEnvironmentVariables() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"buildEnvironmentVariables",
@@ -199,8 +199,8 @@ func (j *jsiiProxy_DataGoogleCloudfunctionsFunction) BuildWorkerPool() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleCloudfunctionsFunction) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataGoogleCloudfunctionsFunction) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -269,8 +269,8 @@ func (j *jsiiProxy_DataGoogleCloudfunctionsFunction) DockerRepository() *string 
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleCloudfunctionsFunction) EffectiveLabels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_DataGoogleCloudfunctionsFunction) EffectiveLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"effectiveLabels",
@@ -289,8 +289,8 @@ func (j *jsiiProxy_DataGoogleCloudfunctionsFunction) EntryPoint() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleCloudfunctionsFunction) EnvironmentVariables() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_DataGoogleCloudfunctionsFunction) EnvironmentVariables() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"environmentVariables",
@@ -309,8 +309,8 @@ func (j *jsiiProxy_DataGoogleCloudfunctionsFunction) EventTrigger() DataGoogleCl
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleCloudfunctionsFunction) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataGoogleCloudfunctionsFunction) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -399,8 +399,8 @@ func (j *jsiiProxy_DataGoogleCloudfunctionsFunction) KmsKeyName() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleCloudfunctionsFunction) Labels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_DataGoogleCloudfunctionsFunction) Labels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"labels",
@@ -409,8 +409,8 @@ func (j *jsiiProxy_DataGoogleCloudfunctionsFunction) Labels() cdktf.StringMap {
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleCloudfunctionsFunction) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataGoogleCloudfunctionsFunction) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -499,8 +499,8 @@ func (j *jsiiProxy_DataGoogleCloudfunctionsFunction) ProjectInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleCloudfunctionsFunction) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataGoogleCloudfunctionsFunction) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -619,8 +619,8 @@ func (j *jsiiProxy_DataGoogleCloudfunctionsFunction) Status() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleCloudfunctionsFunction) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataGoogleCloudfunctionsFunction) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -629,8 +629,8 @@ func (j *jsiiProxy_DataGoogleCloudfunctionsFunction) TerraformGeneratorMetadata(
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleCloudfunctionsFunction) TerraformLabels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_DataGoogleCloudfunctionsFunction) TerraformLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"terraformLabels",
@@ -669,8 +669,8 @@ func (j *jsiiProxy_DataGoogleCloudfunctionsFunction) Timeout() *float64 {
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleCloudfunctionsFunction) TriggerHttp() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataGoogleCloudfunctionsFunction) TriggerHttp() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"triggerHttp",
@@ -758,7 +758,7 @@ func (j *jsiiProxy_DataGoogleCloudfunctionsFunction)SetDependsOn(val *[]*string)
 	)
 }
 
-func (j *jsiiProxy_DataGoogleCloudfunctionsFunction)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataGoogleCloudfunctionsFunction)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -777,7 +777,7 @@ func (j *jsiiProxy_DataGoogleCloudfunctionsFunction)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataGoogleCloudfunctionsFunction)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataGoogleCloudfunctionsFunction)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -810,7 +810,7 @@ func (j *jsiiProxy_DataGoogleCloudfunctionsFunction)SetProject(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataGoogleCloudfunctionsFunction)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataGoogleCloudfunctionsFunction)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -829,14 +829,14 @@ func (j *jsiiProxy_DataGoogleCloudfunctionsFunction)SetRegion(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a DataGoogleCloudfunctionsFunction resource upon running "cdktf plan <stack-name>".
-func DataGoogleCloudfunctionsFunction_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataGoogleCloudfunctionsFunction resource upon running "cdktn plan <stack-name>".
+func DataGoogleCloudfunctionsFunction_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataGoogleCloudfunctionsFunction_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google-beta.dataGoogleCloudfunctionsFunction.DataGoogleCloudfunctionsFunction",
@@ -959,11 +959,11 @@ func (d *jsiiProxy_DataGoogleCloudfunctionsFunction) GetAnyMapAttribute(terrafor
 	return returns
 }
 
-func (d *jsiiProxy_DataGoogleCloudfunctionsFunction) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataGoogleCloudfunctionsFunction) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -1087,11 +1087,11 @@ func (d *jsiiProxy_DataGoogleCloudfunctionsFunction) GetStringMapAttribute(terra
 	return returns
 }
 
-func (d *jsiiProxy_DataGoogleCloudfunctionsFunction) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataGoogleCloudfunctionsFunction) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

@@ -119,7 +119,7 @@ func (j *jsiiProxy_GoogleDiscoveryEngineCmekConfig) validateSetKmsKeyParameters(
 	return nil
 }
 
-func (j *jsiiProxy_GoogleDiscoveryEngineCmekConfig) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleDiscoveryEngineCmekConfig) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

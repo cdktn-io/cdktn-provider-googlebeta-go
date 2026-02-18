@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleSpannerDatabaseEncryptionConfigOutputReference) validat
 	return nil
 }
 
-func (g *jsiiProxy_GoogleSpannerDatabaseEncryptionConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleSpannerDatabaseEncryptionConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_GoogleSpannerDatabaseEncryptionConfigOutputReference) validat
 	return nil
 }
 
-func (j *jsiiProxy_GoogleSpannerDatabaseEncryptionConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleSpannerDatabaseEncryptionConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleSpannerDatabaseEncryptionConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleSpannerDatabaseEncryptionConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

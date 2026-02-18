@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleDialogflowCxWebhookGenericWebServiceOauthConfigOutputRe
 	return nil
 }
 
-func (g *jsiiProxy_GoogleDialogflowCxWebhookGenericWebServiceOauthConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleDialogflowCxWebhookGenericWebServiceOauthConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_GoogleDialogflowCxWebhookGenericWebServiceOauthConfigOutputRe
 	return nil
 }
 
-func (j *jsiiProxy_GoogleDialogflowCxWebhookGenericWebServiceOauthConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleDialogflowCxWebhookGenericWebServiceOauthConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -91,7 +91,7 @@ func (j *jsiiProxy_GoogleDialogflowCxWebhookGenericWebServiceOauthConfigOutputRe
 	return nil
 }
 
-func validateNewGoogleDialogflowCxWebhookGenericWebServiceOauthConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleDialogflowCxWebhookGenericWebServiceOauthConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

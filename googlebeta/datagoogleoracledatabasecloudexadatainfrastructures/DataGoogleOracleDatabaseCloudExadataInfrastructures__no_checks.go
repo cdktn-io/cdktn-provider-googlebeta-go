@@ -79,7 +79,7 @@ func (j *jsiiProxy_DataGoogleOracleDatabaseCloudExadataInfrastructures) validate
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleOracleDatabaseCloudExadataInfrastructures) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataGoogleOracleDatabaseCloudExadataInfrastructures) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

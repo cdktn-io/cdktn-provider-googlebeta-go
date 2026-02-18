@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleCloudfunctionsFunctionOnDeployUpdatePolicyOutputReferen
 	return nil
 }
 
-func (g *jsiiProxy_GoogleCloudfunctionsFunctionOnDeployUpdatePolicyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleCloudfunctionsFunctionOnDeployUpdatePolicyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_GoogleCloudfunctionsFunctionOnDeployUpdatePolicyOutputReferen
 	return nil
 }
 
-func (j *jsiiProxy_GoogleCloudfunctionsFunctionOnDeployUpdatePolicyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleCloudfunctionsFunctionOnDeployUpdatePolicyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleCloudfunctionsFunctionOnDeployUpdatePolicyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleCloudfunctionsFunctionOnDeployUpdatePolicyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

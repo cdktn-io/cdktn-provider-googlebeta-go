@@ -5,14 +5,14 @@ package googletranscoderjobtemplate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googletranscoderjobtemplate/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googletranscoderjobtemplate/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type GoogleTranscoderJobTemplateConfigOverlaysAnimationsAnimationFadeOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -46,9 +46,9 @@ type GoogleTranscoderJobTemplateConfigOverlaysAnimationsAnimationFadeOutputRefer
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Xy() GoogleTranscoderJobTemplateConfigOverlaysAnimationsAnimationFadeXyOutputReference
 	XyInput() *GoogleTranscoderJobTemplateConfigOverlaysAnimationsAnimationFadeXy
 	// Experimental.
@@ -56,7 +56,7 @@ type GoogleTranscoderJobTemplateConfigOverlaysAnimationsAnimationFadeOutputRefer
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -72,16 +72,16 @@ type GoogleTranscoderJobTemplateConfigOverlaysAnimationsAnimationFadeOutputRefer
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutXy(value *GoogleTranscoderJobTemplateConfigOverlaysAnimationsAnimationFadeXy)
 	ResetEndTimeOffset()
 	ResetStartTimeOffset()
 	ResetXy()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -91,7 +91,7 @@ type GoogleTranscoderJobTemplateConfigOverlaysAnimationsAnimationFadeOutputRefer
 
 // The jsii proxy struct for GoogleTranscoderJobTemplateConfigOverlaysAnimationsAnimationFadeOutputReference
 type jsiiProxy_GoogleTranscoderJobTemplateConfigOverlaysAnimationsAnimationFadeOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_GoogleTranscoderJobTemplateConfigOverlaysAnimationsAnimationFadeOutputReference) ComplexObjectIndex() interface{} {
@@ -214,8 +214,8 @@ func (j *jsiiProxy_GoogleTranscoderJobTemplateConfigOverlaysAnimationsAnimationF
 	return returns
 }
 
-func (j *jsiiProxy_GoogleTranscoderJobTemplateConfigOverlaysAnimationsAnimationFadeOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_GoogleTranscoderJobTemplateConfigOverlaysAnimationsAnimationFadeOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -245,7 +245,7 @@ func (j *jsiiProxy_GoogleTranscoderJobTemplateConfigOverlaysAnimationsAnimationF
 }
 
 
-func NewGoogleTranscoderJobTemplateConfigOverlaysAnimationsAnimationFadeOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) GoogleTranscoderJobTemplateConfigOverlaysAnimationsAnimationFadeOutputReference {
+func NewGoogleTranscoderJobTemplateConfigOverlaysAnimationsAnimationFadeOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) GoogleTranscoderJobTemplateConfigOverlaysAnimationsAnimationFadeOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewGoogleTranscoderJobTemplateConfigOverlaysAnimationsAnimationFadeOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -262,7 +262,7 @@ func NewGoogleTranscoderJobTemplateConfigOverlaysAnimationsAnimationFadeOutputRe
 	return &j
 }
 
-func NewGoogleTranscoderJobTemplateConfigOverlaysAnimationsAnimationFadeOutputReference_Override(g GoogleTranscoderJobTemplateConfigOverlaysAnimationsAnimationFadeOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewGoogleTranscoderJobTemplateConfigOverlaysAnimationsAnimationFadeOutputReference_Override(g GoogleTranscoderJobTemplateConfigOverlaysAnimationsAnimationFadeOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -349,7 +349,7 @@ func (j *jsiiProxy_GoogleTranscoderJobTemplateConfigOverlaysAnimationsAnimationF
 	)
 }
 
-func (j *jsiiProxy_GoogleTranscoderJobTemplateConfigOverlaysAnimationsAnimationFadeOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_GoogleTranscoderJobTemplateConfigOverlaysAnimationsAnimationFadeOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -389,11 +389,11 @@ func (g *jsiiProxy_GoogleTranscoderJobTemplateConfigOverlaysAnimationsAnimationF
 	return returns
 }
 
-func (g *jsiiProxy_GoogleTranscoderJobTemplateConfigOverlaysAnimationsAnimationFadeOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleTranscoderJobTemplateConfigOverlaysAnimationsAnimationFadeOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -517,8 +517,8 @@ func (g *jsiiProxy_GoogleTranscoderJobTemplateConfigOverlaysAnimationsAnimationF
 	return returns
 }
 
-func (g *jsiiProxy_GoogleTranscoderJobTemplateConfigOverlaysAnimationsAnimationFadeOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (g *jsiiProxy_GoogleTranscoderJobTemplateConfigOverlaysAnimationsAnimationFadeOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -530,11 +530,11 @@ func (g *jsiiProxy_GoogleTranscoderJobTemplateConfigOverlaysAnimationsAnimationF
 	return returns
 }
 
-func (g *jsiiProxy_GoogleTranscoderJobTemplateConfigOverlaysAnimationsAnimationFadeOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleTranscoderJobTemplateConfigOverlaysAnimationsAnimationFadeOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -581,7 +581,7 @@ func (g *jsiiProxy_GoogleTranscoderJobTemplateConfigOverlaysAnimationsAnimationF
 	)
 }
 
-func (g *jsiiProxy_GoogleTranscoderJobTemplateConfigOverlaysAnimationsAnimationFadeOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (g *jsiiProxy_GoogleTranscoderJobTemplateConfigOverlaysAnimationsAnimationFadeOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

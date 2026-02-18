@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleBeyondcorpApplicationTimeoutsOutputReference) validateI
 	return nil
 }
 
-func (g *jsiiProxy_GoogleBeyondcorpApplicationTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleBeyondcorpApplicationTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_GoogleBeyondcorpApplicationTimeoutsOutputReference) validateS
 	return nil
 }
 
-func (j *jsiiProxy_GoogleBeyondcorpApplicationTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleBeyondcorpApplicationTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_GoogleBeyondcorpApplicationTimeoutsOutputReference) validateS
 	return nil
 }
 
-func validateNewGoogleBeyondcorpApplicationTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleBeyondcorpApplicationTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

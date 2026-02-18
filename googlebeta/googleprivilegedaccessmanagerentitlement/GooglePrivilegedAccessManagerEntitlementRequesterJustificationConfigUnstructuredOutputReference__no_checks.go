@@ -47,7 +47,7 @@ func (g *jsiiProxy_GooglePrivilegedAccessManagerEntitlementRequesterJustificatio
 	return nil
 }
 
-func (g *jsiiProxy_GooglePrivilegedAccessManagerEntitlementRequesterJustificationConfigUnstructuredOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GooglePrivilegedAccessManagerEntitlementRequesterJustificationConfigUnstructuredOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_GooglePrivilegedAccessManagerEntitlementRequesterJustificatio
 	return nil
 }
 
-func (j *jsiiProxy_GooglePrivilegedAccessManagerEntitlementRequesterJustificationConfigUnstructuredOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GooglePrivilegedAccessManagerEntitlementRequesterJustificationConfigUnstructuredOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGooglePrivilegedAccessManagerEntitlementRequesterJustificationConfigUnstructuredOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGooglePrivilegedAccessManagerEntitlementRequesterJustificationConfigUnstructuredOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

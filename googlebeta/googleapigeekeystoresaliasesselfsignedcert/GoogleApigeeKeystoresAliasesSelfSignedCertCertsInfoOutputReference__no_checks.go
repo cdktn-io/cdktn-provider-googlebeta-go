@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleApigeeKeystoresAliasesSelfSignedCertCertsInfoOutputRefe
 	return nil
 }
 
-func (g *jsiiProxy_GoogleApigeeKeystoresAliasesSelfSignedCertCertsInfoOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleApigeeKeystoresAliasesSelfSignedCertCertsInfoOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_GoogleApigeeKeystoresAliasesSelfSignedCertCertsInfoOutputRefe
 	return nil
 }
 
-func (j *jsiiProxy_GoogleApigeeKeystoresAliasesSelfSignedCertCertsInfoOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleApigeeKeystoresAliasesSelfSignedCertCertsInfoOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleApigeeKeystoresAliasesSelfSignedCertCertsInfoOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewGoogleApigeeKeystoresAliasesSelfSignedCertCertsInfoOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

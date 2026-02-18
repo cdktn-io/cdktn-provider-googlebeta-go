@@ -115,7 +115,7 @@ func (j *jsiiProxy_GoogleMonitoringCustomService) validateSetIdParameters(val *s
 	return nil
 }
 
-func (j *jsiiProxy_GoogleMonitoringCustomService) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleMonitoringCustomService) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

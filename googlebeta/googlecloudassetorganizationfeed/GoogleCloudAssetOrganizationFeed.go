@@ -5,16 +5,16 @@ package googlecloudassetorganizationfeed
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecloudassetorganizationfeed/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecloudassetorganizationfeed/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_asset_organization_feed google_cloud_asset_organization_feed}.
 type GoogleCloudAssetOrganizationFeed interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	AssetNames() *[]*string
 	SetAssetNames(val *[]*string)
 	AssetNamesInput() *[]*string
@@ -25,7 +25,7 @@ type GoogleCloudAssetOrganizationFeed interface {
 	SetBillingProject(val *string)
 	BillingProjectInput() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	Condition() GoogleCloudAssetOrganizationFeedConditionOutputReference
 	ConditionInput() *GoogleCloudAssetOrganizationFeedCondition
 	// Experimental.
@@ -51,9 +51,9 @@ type GoogleCloudAssetOrganizationFeed interface {
 	FeedOutputConfig() GoogleCloudAssetOrganizationFeedFeedOutputConfigOutputReference
 	FeedOutputConfigInput() *GoogleCloudAssetOrganizationFeedFeedOutputConfig
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -62,9 +62,9 @@ type GoogleCloudAssetOrganizationFeed interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Name() *string
 	// The tree node.
 	Node() constructs.Node
@@ -72,9 +72,9 @@ type GoogleCloudAssetOrganizationFeed interface {
 	SetOrgId(val *string)
 	OrgIdInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -82,7 +82,7 @@ type GoogleCloudAssetOrganizationFeed interface {
 	// Experimental.
 	RawOverrides() interface{}
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -97,7 +97,7 @@ type GoogleCloudAssetOrganizationFeed interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -115,9 +115,9 @@ type GoogleCloudAssetOrganizationFeed interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -159,7 +159,7 @@ type GoogleCloudAssetOrganizationFeed interface {
 
 // The jsii proxy struct for GoogleCloudAssetOrganizationFeed
 type jsiiProxy_GoogleCloudAssetOrganizationFeed struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_GoogleCloudAssetOrganizationFeed) AssetNames() *[]*string {
@@ -222,8 +222,8 @@ func (j *jsiiProxy_GoogleCloudAssetOrganizationFeed) BillingProjectInput() *stri
 	return returns
 }
 
-func (j *jsiiProxy_GoogleCloudAssetOrganizationFeed) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_GoogleCloudAssetOrganizationFeed) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -352,8 +352,8 @@ func (j *jsiiProxy_GoogleCloudAssetOrganizationFeed) FeedOutputConfigInput() *Go
 	return returns
 }
 
-func (j *jsiiProxy_GoogleCloudAssetOrganizationFeed) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_GoogleCloudAssetOrganizationFeed) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -402,8 +402,8 @@ func (j *jsiiProxy_GoogleCloudAssetOrganizationFeed) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleCloudAssetOrganizationFeed) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_GoogleCloudAssetOrganizationFeed) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -452,8 +452,8 @@ func (j *jsiiProxy_GoogleCloudAssetOrganizationFeed) OrgIdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleCloudAssetOrganizationFeed) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_GoogleCloudAssetOrganizationFeed) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -482,8 +482,8 @@ func (j *jsiiProxy_GoogleCloudAssetOrganizationFeed) RawOverrides() interface{} 
 	return returns
 }
 
-func (j *jsiiProxy_GoogleCloudAssetOrganizationFeed) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_GoogleCloudAssetOrganizationFeed) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -647,7 +647,7 @@ func (j *jsiiProxy_GoogleCloudAssetOrganizationFeed)SetFeedId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_GoogleCloudAssetOrganizationFeed)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_GoogleCloudAssetOrganizationFeed)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -666,7 +666,7 @@ func (j *jsiiProxy_GoogleCloudAssetOrganizationFeed)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_GoogleCloudAssetOrganizationFeed)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_GoogleCloudAssetOrganizationFeed)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -688,7 +688,7 @@ func (j *jsiiProxy_GoogleCloudAssetOrganizationFeed)SetOrgId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_GoogleCloudAssetOrganizationFeed)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_GoogleCloudAssetOrganizationFeed)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -707,14 +707,14 @@ func (j *jsiiProxy_GoogleCloudAssetOrganizationFeed)SetProvisioners(val *[]inter
 	)
 }
 
-// Generates CDKTF code for importing a GoogleCloudAssetOrganizationFeed resource upon running "cdktf plan <stack-name>".
-func GoogleCloudAssetOrganizationFeed_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a GoogleCloudAssetOrganizationFeed resource upon running "cdktn plan <stack-name>".
+func GoogleCloudAssetOrganizationFeed_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateGoogleCloudAssetOrganizationFeed_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google-beta.googleCloudAssetOrganizationFeed.GoogleCloudAssetOrganizationFeed",
@@ -848,11 +848,11 @@ func (g *jsiiProxy_GoogleCloudAssetOrganizationFeed) GetAnyMapAttribute(terrafor
 	return returns
 }
 
-func (g *jsiiProxy_GoogleCloudAssetOrganizationFeed) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleCloudAssetOrganizationFeed) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -989,7 +989,7 @@ func (g *jsiiProxy_GoogleCloudAssetOrganizationFeed) HasResourceMove() interface
 	return returns
 }
 
-func (g *jsiiProxy_GoogleCloudAssetOrganizationFeed) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (g *jsiiProxy_GoogleCloudAssetOrganizationFeed) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := g.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1000,11 +1000,11 @@ func (g *jsiiProxy_GoogleCloudAssetOrganizationFeed) ImportFrom(id *string, prov
 	)
 }
 
-func (g *jsiiProxy_GoogleCloudAssetOrganizationFeed) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleCloudAssetOrganizationFeed) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,

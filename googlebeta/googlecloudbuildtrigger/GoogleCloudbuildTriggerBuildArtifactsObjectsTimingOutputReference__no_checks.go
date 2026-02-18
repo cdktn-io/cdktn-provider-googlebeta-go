@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleCloudbuildTriggerBuildArtifactsObjectsTimingOutputRefer
 	return nil
 }
 
-func (g *jsiiProxy_GoogleCloudbuildTriggerBuildArtifactsObjectsTimingOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleCloudbuildTriggerBuildArtifactsObjectsTimingOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_GoogleCloudbuildTriggerBuildArtifactsObjectsTimingOutputRefer
 	return nil
 }
 
-func (j *jsiiProxy_GoogleCloudbuildTriggerBuildArtifactsObjectsTimingOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleCloudbuildTriggerBuildArtifactsObjectsTimingOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleCloudbuildTriggerBuildArtifactsObjectsTimingOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewGoogleCloudbuildTriggerBuildArtifactsObjectsTimingOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

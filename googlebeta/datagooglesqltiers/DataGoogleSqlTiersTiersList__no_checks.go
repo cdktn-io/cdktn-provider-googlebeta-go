@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataGoogleSqlTiersTiersList) validateGetParameters(index *flo
 	return nil
 }
 
-func (d *jsiiProxy_DataGoogleSqlTiersTiersList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataGoogleSqlTiersTiersList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataGoogleSqlTiersTiersList) validateSetTerraformAttributePar
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleSqlTiersTiersList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataGoogleSqlTiersTiersList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataGoogleSqlTiersTiersList) validateSetWrapsSetParameters(va
 	return nil
 }
 
-func validateNewDataGoogleSqlTiersTiersListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataGoogleSqlTiersTiersListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

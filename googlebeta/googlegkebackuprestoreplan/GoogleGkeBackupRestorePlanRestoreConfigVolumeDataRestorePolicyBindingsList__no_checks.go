@@ -15,7 +15,7 @@ func (g *jsiiProxy_GoogleGkeBackupRestorePlanRestoreConfigVolumeDataRestorePolic
 	return nil
 }
 
-func (g *jsiiProxy_GoogleGkeBackupRestorePlanRestoreConfigVolumeDataRestorePolicyBindingsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleGkeBackupRestorePlanRestoreConfigVolumeDataRestorePolicyBindingsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_GoogleGkeBackupRestorePlanRestoreConfigVolumeDataRestorePolic
 	return nil
 }
 
-func (j *jsiiProxy_GoogleGkeBackupRestorePlanRestoreConfigVolumeDataRestorePolicyBindingsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleGkeBackupRestorePlanRestoreConfigVolumeDataRestorePolicyBindingsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_GoogleGkeBackupRestorePlanRestoreConfigVolumeDataRestorePolic
 	return nil
 }
 
-func validateNewGoogleGkeBackupRestorePlanRestoreConfigVolumeDataRestorePolicyBindingsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGoogleGkeBackupRestorePlanRestoreConfigVolumeDataRestorePolicyBindingsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleIdentityPlatformConfigSignInAnonymousOutputReference) v
 	return nil
 }
 
-func (g *jsiiProxy_GoogleIdentityPlatformConfigSignInAnonymousOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleIdentityPlatformConfigSignInAnonymousOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_GoogleIdentityPlatformConfigSignInAnonymousOutputReference) v
 	return nil
 }
 
-func (j *jsiiProxy_GoogleIdentityPlatformConfigSignInAnonymousOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleIdentityPlatformConfigSignInAnonymousOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleIdentityPlatformConfigSignInAnonymousOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleIdentityPlatformConfigSignInAnonymousOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

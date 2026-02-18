@@ -123,7 +123,7 @@ func (j *jsiiProxy_GoogleSecureSourceManagerBranchRule) validateSetIncludePatter
 	return nil
 }
 
-func (j *jsiiProxy_GoogleSecureSourceManagerBranchRule) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleSecureSourceManagerBranchRule) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

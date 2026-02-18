@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleContainerAwsClusterControlPlaneMainVolumeOutputReferenc
 	return nil
 }
 
-func (g *jsiiProxy_GoogleContainerAwsClusterControlPlaneMainVolumeOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleContainerAwsClusterControlPlaneMainVolumeOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_GoogleContainerAwsClusterControlPlaneMainVolumeOutputReferenc
 	return nil
 }
 
-func (j *jsiiProxy_GoogleContainerAwsClusterControlPlaneMainVolumeOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleContainerAwsClusterControlPlaneMainVolumeOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -91,7 +91,7 @@ func (j *jsiiProxy_GoogleContainerAwsClusterControlPlaneMainVolumeOutputReferenc
 	return nil
 }
 
-func validateNewGoogleContainerAwsClusterControlPlaneMainVolumeOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleContainerAwsClusterControlPlaneMainVolumeOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

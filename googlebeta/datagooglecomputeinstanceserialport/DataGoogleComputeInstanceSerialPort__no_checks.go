@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataGoogleComputeInstanceSerialPort) validateSetInstanceParam
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleComputeInstanceSerialPort) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataGoogleComputeInstanceSerialPort) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

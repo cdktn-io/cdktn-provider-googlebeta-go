@@ -5,14 +5,14 @@ package googleoracledatabaseautonomousdatabase
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleoracledatabaseautonomousdatabase/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleoracledatabaseautonomousdatabase/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type GoogleOracleDatabaseAutonomousDatabasePropertiesConnectionStringsAllConnectionStringsList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -24,8 +24,8 @@ type GoogleOracleDatabaseAutonomousDatabasePropertiesConnectionStringsAllConnect
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -33,13 +33,13 @@ type GoogleOracleDatabaseAutonomousDatabasePropertiesConnectionStringsAllConnect
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) GoogleOracleDatabaseAutonomousDatabasePropertiesConnectionStringsAllConnectionStringsOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -49,7 +49,7 @@ type GoogleOracleDatabaseAutonomousDatabasePropertiesConnectionStringsAllConnect
 
 // The jsii proxy struct for GoogleOracleDatabaseAutonomousDatabasePropertiesConnectionStringsAllConnectionStringsList
 type jsiiProxy_GoogleOracleDatabaseAutonomousDatabasePropertiesConnectionStringsAllConnectionStringsList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_GoogleOracleDatabaseAutonomousDatabasePropertiesConnectionStringsAllConnectionStringsList) CreationStack() *[]*string {
@@ -82,8 +82,8 @@ func (j *jsiiProxy_GoogleOracleDatabaseAutonomousDatabasePropertiesConnectionStr
 	return returns
 }
 
-func (j *jsiiProxy_GoogleOracleDatabaseAutonomousDatabasePropertiesConnectionStringsAllConnectionStringsList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_GoogleOracleDatabaseAutonomousDatabasePropertiesConnectionStringsAllConnectionStringsList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -103,7 +103,7 @@ func (j *jsiiProxy_GoogleOracleDatabaseAutonomousDatabasePropertiesConnectionStr
 }
 
 
-func NewGoogleOracleDatabaseAutonomousDatabasePropertiesConnectionStringsAllConnectionStringsList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleOracleDatabaseAutonomousDatabasePropertiesConnectionStringsAllConnectionStringsList {
+func NewGoogleOracleDatabaseAutonomousDatabasePropertiesConnectionStringsAllConnectionStringsList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleOracleDatabaseAutonomousDatabasePropertiesConnectionStringsAllConnectionStringsList {
 	_init_.Initialize()
 
 	if err := validateNewGoogleOracleDatabaseAutonomousDatabasePropertiesConnectionStringsAllConnectionStringsListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -120,7 +120,7 @@ func NewGoogleOracleDatabaseAutonomousDatabasePropertiesConnectionStringsAllConn
 	return &j
 }
 
-func NewGoogleOracleDatabaseAutonomousDatabasePropertiesConnectionStringsAllConnectionStringsList_Override(g GoogleOracleDatabaseAutonomousDatabasePropertiesConnectionStringsAllConnectionStringsList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewGoogleOracleDatabaseAutonomousDatabasePropertiesConnectionStringsAllConnectionStringsList_Override(g GoogleOracleDatabaseAutonomousDatabasePropertiesConnectionStringsAllConnectionStringsList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -141,7 +141,7 @@ func (j *jsiiProxy_GoogleOracleDatabaseAutonomousDatabasePropertiesConnectionStr
 	)
 }
 
-func (j *jsiiProxy_GoogleOracleDatabaseAutonomousDatabasePropertiesConnectionStringsAllConnectionStringsList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_GoogleOracleDatabaseAutonomousDatabasePropertiesConnectionStringsAllConnectionStringsList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -163,11 +163,11 @@ func (j *jsiiProxy_GoogleOracleDatabaseAutonomousDatabasePropertiesConnectionStr
 	)
 }
 
-func (g *jsiiProxy_GoogleOracleDatabaseAutonomousDatabasePropertiesConnectionStringsAllConnectionStringsList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (g *jsiiProxy_GoogleOracleDatabaseAutonomousDatabasePropertiesConnectionStringsAllConnectionStringsList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := g.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		g,
@@ -208,7 +208,7 @@ func (g *jsiiProxy_GoogleOracleDatabaseAutonomousDatabasePropertiesConnectionStr
 	return returns
 }
 
-func (g *jsiiProxy_GoogleOracleDatabaseAutonomousDatabasePropertiesConnectionStringsAllConnectionStringsList) Resolve(context cdktf.IResolveContext) interface{} {
+func (g *jsiiProxy_GoogleOracleDatabaseAutonomousDatabasePropertiesConnectionStringsAllConnectionStringsList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

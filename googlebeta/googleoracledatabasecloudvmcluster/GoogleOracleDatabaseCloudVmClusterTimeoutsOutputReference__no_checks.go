@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleOracleDatabaseCloudVmClusterTimeoutsOutputReference) va
 	return nil
 }
 
-func (g *jsiiProxy_GoogleOracleDatabaseCloudVmClusterTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleOracleDatabaseCloudVmClusterTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_GoogleOracleDatabaseCloudVmClusterTimeoutsOutputReference) va
 	return nil
 }
 
-func (j *jsiiProxy_GoogleOracleDatabaseCloudVmClusterTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleOracleDatabaseCloudVmClusterTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_GoogleOracleDatabaseCloudVmClusterTimeoutsOutputReference) va
 	return nil
 }
 
-func validateNewGoogleOracleDatabaseCloudVmClusterTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleOracleDatabaseCloudVmClusterTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

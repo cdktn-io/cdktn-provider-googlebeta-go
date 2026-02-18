@@ -51,7 +51,7 @@ func (g *jsiiProxy_GooglePubsubTopicMessageTransformsOutputReference) validatePu
 	return nil
 }
 
-func (g *jsiiProxy_GooglePubsubTopicMessageTransformsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GooglePubsubTopicMessageTransformsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_GooglePubsubTopicMessageTransformsOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_GooglePubsubTopicMessageTransformsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GooglePubsubTopicMessageTransformsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGooglePubsubTopicMessageTransformsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewGooglePubsubTopicMessageTransformsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

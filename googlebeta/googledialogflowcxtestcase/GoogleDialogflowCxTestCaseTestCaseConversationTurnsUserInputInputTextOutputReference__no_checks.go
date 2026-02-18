@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleDialogflowCxTestCaseTestCaseConversationTurnsUserInputI
 	return nil
 }
 
-func (g *jsiiProxy_GoogleDialogflowCxTestCaseTestCaseConversationTurnsUserInputInputTextOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleDialogflowCxTestCaseTestCaseConversationTurnsUserInputInputTextOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,7 +67,7 @@ func (j *jsiiProxy_GoogleDialogflowCxTestCaseTestCaseConversationTurnsUserInputI
 	return nil
 }
 
-func (j *jsiiProxy_GoogleDialogflowCxTestCaseTestCaseConversationTurnsUserInputInputTextOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleDialogflowCxTestCaseTestCaseConversationTurnsUserInputInputTextOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_GoogleDialogflowCxTestCaseTestCaseConversationTurnsUserInputI
 	return nil
 }
 
-func validateNewGoogleDialogflowCxTestCaseTestCaseConversationTurnsUserInputInputTextOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleDialogflowCxTestCaseTestCaseConversationTurnsUserInputInputTextOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

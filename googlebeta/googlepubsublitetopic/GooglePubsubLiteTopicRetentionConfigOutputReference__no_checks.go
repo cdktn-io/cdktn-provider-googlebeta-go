@@ -47,7 +47,7 @@ func (g *jsiiProxy_GooglePubsubLiteTopicRetentionConfigOutputReference) validate
 	return nil
 }
 
-func (g *jsiiProxy_GooglePubsubLiteTopicRetentionConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GooglePubsubLiteTopicRetentionConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_GooglePubsubLiteTopicRetentionConfigOutputReference) validate
 	return nil
 }
 
-func (j *jsiiProxy_GooglePubsubLiteTopicRetentionConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GooglePubsubLiteTopicRetentionConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGooglePubsubLiteTopicRetentionConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGooglePubsubLiteTopicRetentionConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

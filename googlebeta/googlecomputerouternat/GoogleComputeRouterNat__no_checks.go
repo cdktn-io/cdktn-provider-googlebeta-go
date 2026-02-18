@@ -151,7 +151,7 @@ func (j *jsiiProxy_GoogleComputeRouterNat) validateSetInitialNatIpsParameters(va
 	return nil
 }
 
-func (j *jsiiProxy_GoogleComputeRouterNat) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleComputeRouterNat) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

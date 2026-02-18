@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleComputeRegionHealthCheckSslHealthCheckOutputReference) 
 	return nil
 }
 
-func (g *jsiiProxy_GoogleComputeRegionHealthCheckSslHealthCheckOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleComputeRegionHealthCheckSslHealthCheckOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -91,11 +91,11 @@ func (j *jsiiProxy_GoogleComputeRegionHealthCheckSslHealthCheckOutputReference) 
 	return nil
 }
 
-func (j *jsiiProxy_GoogleComputeRegionHealthCheckSslHealthCheckOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleComputeRegionHealthCheckSslHealthCheckOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleComputeRegionHealthCheckSslHealthCheckOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleComputeRegionHealthCheckSslHealthCheckOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

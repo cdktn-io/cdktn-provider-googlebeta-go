@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleDataPipelinePipelineScheduleInfoOutputReference) valida
 	return nil
 }
 
-func (g *jsiiProxy_GoogleDataPipelinePipelineScheduleInfoOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleDataPipelinePipelineScheduleInfoOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_GoogleDataPipelinePipelineScheduleInfoOutputReference) valida
 	return nil
 }
 
-func (j *jsiiProxy_GoogleDataPipelinePipelineScheduleInfoOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleDataPipelinePipelineScheduleInfoOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_GoogleDataPipelinePipelineScheduleInfoOutputReference) valida
 	return nil
 }
 
-func validateNewGoogleDataPipelinePipelineScheduleInfoOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleDataPipelinePipelineScheduleInfoOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

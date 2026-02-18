@@ -115,7 +115,7 @@ func (j *jsiiProxy_GoogleBigtableLogicalView) validateSetInstanceParameters(val 
 	return nil
 }
 
-func (j *jsiiProxy_GoogleBigtableLogicalView) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleBigtableLogicalView) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

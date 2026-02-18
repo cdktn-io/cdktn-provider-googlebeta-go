@@ -135,7 +135,7 @@ func (j *jsiiProxy_GoogleCloudAssetProjectFeed) validateSetIdParameters(val *str
 	return nil
 }
 
-func (j *jsiiProxy_GoogleCloudAssetProjectFeed) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleCloudAssetProjectFeed) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

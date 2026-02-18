@@ -51,7 +51,7 @@ func (g *jsiiProxy_GoogleDataCatalogTagTemplateFieldsTypeEnumTypeOutputReference
 	return nil
 }
 
-func (g *jsiiProxy_GoogleDataCatalogTagTemplateFieldsTypeEnumTypeOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleDataCatalogTagTemplateFieldsTypeEnumTypeOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_GoogleDataCatalogTagTemplateFieldsTypeEnumTypeOutputReference
 	return nil
 }
 
-func (j *jsiiProxy_GoogleDataCatalogTagTemplateFieldsTypeEnumTypeOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleDataCatalogTagTemplateFieldsTypeEnumTypeOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleDataCatalogTagTemplateFieldsTypeEnumTypeOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleDataCatalogTagTemplateFieldsTypeEnumTypeOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

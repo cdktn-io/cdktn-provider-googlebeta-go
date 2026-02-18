@@ -139,7 +139,7 @@ func (j *jsiiProxy_GoogleApigeeSecurityAction) validateSetIdParameters(val *stri
 	return nil
 }
 
-func (j *jsiiProxy_GoogleApigeeSecurityAction) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleApigeeSecurityAction) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

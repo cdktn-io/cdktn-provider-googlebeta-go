@@ -51,7 +51,7 @@ func (g *jsiiProxy_GoogleDnsPolicyAlternativeNameServerConfigOutputReference) va
 	return nil
 }
 
-func (g *jsiiProxy_GoogleDnsPolicyAlternativeNameServerConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleDnsPolicyAlternativeNameServerConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_GoogleDnsPolicyAlternativeNameServerConfigOutputReference) va
 	return nil
 }
 
-func (j *jsiiProxy_GoogleDnsPolicyAlternativeNameServerConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleDnsPolicyAlternativeNameServerConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleDnsPolicyAlternativeNameServerConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleDnsPolicyAlternativeNameServerConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

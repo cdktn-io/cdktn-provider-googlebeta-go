@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataGoogleGkeHubMembershipBindingStateOutputReference) valida
 	return nil
 }
 
-func (d *jsiiProxy_DataGoogleGkeHubMembershipBindingStateOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataGoogleGkeHubMembershipBindingStateOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataGoogleGkeHubMembershipBindingStateOutputReference) valida
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleGkeHubMembershipBindingStateOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataGoogleGkeHubMembershipBindingStateOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataGoogleGkeHubMembershipBindingStateOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataGoogleGkeHubMembershipBindingStateOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

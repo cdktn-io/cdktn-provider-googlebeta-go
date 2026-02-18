@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleHealthcareDicomStoreIamBindingConditionOutputReference)
 	return nil
 }
 
-func (g *jsiiProxy_GoogleHealthcareDicomStoreIamBindingConditionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleHealthcareDicomStoreIamBindingConditionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_GoogleHealthcareDicomStoreIamBindingConditionOutputReference)
 	return nil
 }
 
-func (j *jsiiProxy_GoogleHealthcareDicomStoreIamBindingConditionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleHealthcareDicomStoreIamBindingConditionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_GoogleHealthcareDicomStoreIamBindingConditionOutputReference)
 	return nil
 }
 
-func validateNewGoogleHealthcareDicomStoreIamBindingConditionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleHealthcareDicomStoreIamBindingConditionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

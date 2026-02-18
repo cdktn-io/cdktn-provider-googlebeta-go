@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleAppEngineServiceSplitTrafficSplitOutputReference) valid
 	return nil
 }
 
-func (g *jsiiProxy_GoogleAppEngineServiceSplitTrafficSplitOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleAppEngineServiceSplitTrafficSplitOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_GoogleAppEngineServiceSplitTrafficSplitOutputReference) valid
 	return nil
 }
 
-func (j *jsiiProxy_GoogleAppEngineServiceSplitTrafficSplitOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleAppEngineServiceSplitTrafficSplitOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleAppEngineServiceSplitTrafficSplitOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleAppEngineServiceSplitTrafficSplitOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

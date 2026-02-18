@@ -5,19 +5,19 @@ package datagooglecomputerouternat
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagooglecomputerouternat/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagooglecomputerouternat/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_compute_router_nat google_compute_router_nat}.
 type DataGoogleComputeRouterNat interface {
-	cdktf.TerraformDataSource
+	cdktn.TerraformDataSource
 	AutoNetworkTier() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
 	// Experimental.
@@ -29,13 +29,13 @@ type DataGoogleComputeRouterNat interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	DrainNatIps() *[]*string
-	EnableDynamicPortAllocation() cdktf.IResolvable
-	EnableEndpointIndependentMapping() cdktf.IResolvable
+	EnableDynamicPortAllocation() cdktn.IResolvable
+	EnableEndpointIndependentMapping() cdktn.IResolvable
 	EndpointTypes() *[]*string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -46,9 +46,9 @@ type DataGoogleComputeRouterNat interface {
 	IdInput() *string
 	InitialNatIps() *[]*string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	LogConfig() DataGoogleComputeRouterNatLogConfigList
 	MaxPortsPerVm() *float64
 	MinPortsPerVm() *float64
@@ -64,9 +64,9 @@ type DataGoogleComputeRouterNat interface {
 	SetProject(val *string)
 	ProjectInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	RawOverrides() interface{}
 	Region() *string
@@ -83,7 +83,7 @@ type DataGoogleComputeRouterNat interface {
 	TcpTimeWaitTimeoutSec() *float64
 	TcpTransitoryIdleTimeoutSec() *float64
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -95,7 +95,7 @@ type DataGoogleComputeRouterNat interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -111,7 +111,7 @@ type DataGoogleComputeRouterNat interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
@@ -137,7 +137,7 @@ type DataGoogleComputeRouterNat interface {
 
 // The jsii proxy struct for DataGoogleComputeRouterNat
 type jsiiProxy_DataGoogleComputeRouterNat struct {
-	internal.Type__cdktfTerraformDataSource
+	internal.Type__cdktnTerraformDataSource
 }
 
 func (j *jsiiProxy_DataGoogleComputeRouterNat) AutoNetworkTier() *string {
@@ -150,8 +150,8 @@ func (j *jsiiProxy_DataGoogleComputeRouterNat) AutoNetworkTier() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleComputeRouterNat) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataGoogleComputeRouterNat) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -200,8 +200,8 @@ func (j *jsiiProxy_DataGoogleComputeRouterNat) DrainNatIps() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleComputeRouterNat) EnableDynamicPortAllocation() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataGoogleComputeRouterNat) EnableDynamicPortAllocation() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"enableDynamicPortAllocation",
@@ -210,8 +210,8 @@ func (j *jsiiProxy_DataGoogleComputeRouterNat) EnableDynamicPortAllocation() cdk
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleComputeRouterNat) EnableEndpointIndependentMapping() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataGoogleComputeRouterNat) EnableEndpointIndependentMapping() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"enableEndpointIndependentMapping",
@@ -230,8 +230,8 @@ func (j *jsiiProxy_DataGoogleComputeRouterNat) EndpointTypes() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleComputeRouterNat) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataGoogleComputeRouterNat) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -300,8 +300,8 @@ func (j *jsiiProxy_DataGoogleComputeRouterNat) InitialNatIps() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleComputeRouterNat) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataGoogleComputeRouterNat) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -420,8 +420,8 @@ func (j *jsiiProxy_DataGoogleComputeRouterNat) ProjectInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleComputeRouterNat) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataGoogleComputeRouterNat) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -550,8 +550,8 @@ func (j *jsiiProxy_DataGoogleComputeRouterNat) TcpTransitoryIdleTimeoutSec() *fl
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleComputeRouterNat) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataGoogleComputeRouterNat) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -649,7 +649,7 @@ func (j *jsiiProxy_DataGoogleComputeRouterNat)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_DataGoogleComputeRouterNat)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataGoogleComputeRouterNat)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -668,7 +668,7 @@ func (j *jsiiProxy_DataGoogleComputeRouterNat)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataGoogleComputeRouterNat)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataGoogleComputeRouterNat)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -701,7 +701,7 @@ func (j *jsiiProxy_DataGoogleComputeRouterNat)SetProject(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataGoogleComputeRouterNat)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataGoogleComputeRouterNat)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -731,14 +731,14 @@ func (j *jsiiProxy_DataGoogleComputeRouterNat)SetRouter(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a DataGoogleComputeRouterNat resource upon running "cdktf plan <stack-name>".
-func DataGoogleComputeRouterNat_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataGoogleComputeRouterNat resource upon running "cdktn plan <stack-name>".
+func DataGoogleComputeRouterNat_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataGoogleComputeRouterNat_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google-beta.dataGoogleComputeRouterNat.DataGoogleComputeRouterNat",
@@ -861,11 +861,11 @@ func (d *jsiiProxy_DataGoogleComputeRouterNat) GetAnyMapAttribute(terraformAttri
 	return returns
 }
 
-func (d *jsiiProxy_DataGoogleComputeRouterNat) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataGoogleComputeRouterNat) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -989,11 +989,11 @@ func (d *jsiiProxy_DataGoogleComputeRouterNat) GetStringMapAttribute(terraformAt
 	return returns
 }
 
-func (d *jsiiProxy_DataGoogleComputeRouterNat) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataGoogleComputeRouterNat) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

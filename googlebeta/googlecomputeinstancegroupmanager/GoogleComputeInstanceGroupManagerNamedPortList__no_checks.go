@@ -15,7 +15,7 @@ func (g *jsiiProxy_GoogleComputeInstanceGroupManagerNamedPortList) validateGetPa
 	return nil
 }
 
-func (g *jsiiProxy_GoogleComputeInstanceGroupManagerNamedPortList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleComputeInstanceGroupManagerNamedPortList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_GoogleComputeInstanceGroupManagerNamedPortList) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_GoogleComputeInstanceGroupManagerNamedPortList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleComputeInstanceGroupManagerNamedPortList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_GoogleComputeInstanceGroupManagerNamedPortList) validateSetWr
 	return nil
 }
 
-func validateNewGoogleComputeInstanceGroupManagerNamedPortListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGoogleComputeInstanceGroupManagerNamedPortListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

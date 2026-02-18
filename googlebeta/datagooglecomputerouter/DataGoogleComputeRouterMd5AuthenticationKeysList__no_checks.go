@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataGoogleComputeRouterMd5AuthenticationKeysList) validateGet
 	return nil
 }
 
-func (d *jsiiProxy_DataGoogleComputeRouterMd5AuthenticationKeysList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataGoogleComputeRouterMd5AuthenticationKeysList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataGoogleComputeRouterMd5AuthenticationKeysList) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleComputeRouterMd5AuthenticationKeysList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataGoogleComputeRouterMd5AuthenticationKeysList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataGoogleComputeRouterMd5AuthenticationKeysList) validateSet
 	return nil
 }
 
-func validateNewDataGoogleComputeRouterMd5AuthenticationKeysListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataGoogleComputeRouterMd5AuthenticationKeysListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleDataprocBatchEnvironmentConfigExecutionConfigAuthentica
 	return nil
 }
 
-func (g *jsiiProxy_GoogleDataprocBatchEnvironmentConfigExecutionConfigAuthenticationConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleDataprocBatchEnvironmentConfigExecutionConfigAuthenticationConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,7 +67,7 @@ func (j *jsiiProxy_GoogleDataprocBatchEnvironmentConfigExecutionConfigAuthentica
 	return nil
 }
 
-func (j *jsiiProxy_GoogleDataprocBatchEnvironmentConfigExecutionConfigAuthenticationConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleDataprocBatchEnvironmentConfigExecutionConfigAuthenticationConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_GoogleDataprocBatchEnvironmentConfigExecutionConfigAuthentica
 	return nil
 }
 
-func validateNewGoogleDataprocBatchEnvironmentConfigExecutionConfigAuthenticationConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleDataprocBatchEnvironmentConfigExecutionConfigAuthenticationConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

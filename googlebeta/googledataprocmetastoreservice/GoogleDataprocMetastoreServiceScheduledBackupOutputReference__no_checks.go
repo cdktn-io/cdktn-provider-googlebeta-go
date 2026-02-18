@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleDataprocMetastoreServiceScheduledBackupOutputReference)
 	return nil
 }
 
-func (g *jsiiProxy_GoogleDataprocMetastoreServiceScheduledBackupOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleDataprocMetastoreServiceScheduledBackupOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_GoogleDataprocMetastoreServiceScheduledBackupOutputReference)
 	return nil
 }
 
-func (j *jsiiProxy_GoogleDataprocMetastoreServiceScheduledBackupOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleDataprocMetastoreServiceScheduledBackupOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_GoogleDataprocMetastoreServiceScheduledBackupOutputReference)
 	return nil
 }
 
-func validateNewGoogleDataprocMetastoreServiceScheduledBackupOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleDataprocMetastoreServiceScheduledBackupOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

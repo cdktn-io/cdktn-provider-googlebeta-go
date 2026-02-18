@@ -151,7 +151,7 @@ func (j *jsiiProxy_GoogleColabRuntimeTemplate) validateSetLabelsParameters(val *
 	return nil
 }
 
-func (j *jsiiProxy_GoogleColabRuntimeTemplate) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleColabRuntimeTemplate) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

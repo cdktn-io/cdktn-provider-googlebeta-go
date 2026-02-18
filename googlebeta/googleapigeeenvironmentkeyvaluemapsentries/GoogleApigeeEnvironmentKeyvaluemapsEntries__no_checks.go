@@ -111,7 +111,7 @@ func (j *jsiiProxy_GoogleApigeeEnvironmentKeyvaluemapsEntries) validateSetIdPara
 	return nil
 }
 
-func (j *jsiiProxy_GoogleApigeeEnvironmentKeyvaluemapsEntries) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleApigeeEnvironmentKeyvaluemapsEntries) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

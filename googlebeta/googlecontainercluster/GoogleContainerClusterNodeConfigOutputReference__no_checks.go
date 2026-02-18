@@ -135,7 +135,7 @@ func (g *jsiiProxy_GoogleContainerClusterNodeConfigOutputReference) validatePutW
 	return nil
 }
 
-func (g *jsiiProxy_GoogleContainerClusterNodeConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleContainerClusterNodeConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -247,11 +247,11 @@ func (j *jsiiProxy_GoogleContainerClusterNodeConfigOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_GoogleContainerClusterNodeConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleContainerClusterNodeConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleContainerClusterNodeConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleContainerClusterNodeConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

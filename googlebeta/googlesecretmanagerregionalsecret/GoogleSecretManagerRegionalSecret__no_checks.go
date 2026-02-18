@@ -135,7 +135,7 @@ func (j *jsiiProxy_GoogleSecretManagerRegionalSecret) validateSetLabelsParameter
 	return nil
 }
 
-func (j *jsiiProxy_GoogleSecretManagerRegionalSecret) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleSecretManagerRegionalSecret) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

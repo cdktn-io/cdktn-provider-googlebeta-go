@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (g *jsiiProxy_GoogleDialogflowCxEntityTypeExcludedPhrasesList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -29,7 +29,7 @@ func (g *jsiiProxy_GoogleDialogflowCxEntityTypeExcludedPhrasesList) validateGetP
 	return nil
 }
 
-func (g *jsiiProxy_GoogleDialogflowCxEntityTypeExcludedPhrasesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleDialogflowCxEntityTypeExcludedPhrasesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -39,7 +39,7 @@ func (g *jsiiProxy_GoogleDialogflowCxEntityTypeExcludedPhrasesList) validateReso
 
 func (j *jsiiProxy_GoogleDialogflowCxEntityTypeExcludedPhrasesList) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*GoogleDialogflowCxEntityTypeExcludedPhrases:
 		val := val.(*[]*GoogleDialogflowCxEntityTypeExcludedPhrases)
@@ -58,7 +58,7 @@ func (j *jsiiProxy_GoogleDialogflowCxEntityTypeExcludedPhrasesList) validateSetI
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *[]*GoogleDialogflowCxEntityTypeExcludedPhrases; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *[]*GoogleDialogflowCxEntityTypeExcludedPhrases; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -73,7 +73,7 @@ func (j *jsiiProxy_GoogleDialogflowCxEntityTypeExcludedPhrasesList) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_GoogleDialogflowCxEntityTypeExcludedPhrasesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleDialogflowCxEntityTypeExcludedPhrasesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -89,7 +89,7 @@ func (j *jsiiProxy_GoogleDialogflowCxEntityTypeExcludedPhrasesList) validateSetW
 	return nil
 }
 
-func validateNewGoogleDialogflowCxEntityTypeExcludedPhrasesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGoogleDialogflowCxEntityTypeExcludedPhrasesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

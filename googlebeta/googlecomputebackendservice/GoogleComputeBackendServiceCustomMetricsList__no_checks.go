@@ -15,7 +15,7 @@ func (g *jsiiProxy_GoogleComputeBackendServiceCustomMetricsList) validateGetPara
 	return nil
 }
 
-func (g *jsiiProxy_GoogleComputeBackendServiceCustomMetricsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleComputeBackendServiceCustomMetricsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_GoogleComputeBackendServiceCustomMetricsList) validateSetTerr
 	return nil
 }
 
-func (j *jsiiProxy_GoogleComputeBackendServiceCustomMetricsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleComputeBackendServiceCustomMetricsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_GoogleComputeBackendServiceCustomMetricsList) validateSetWrap
 	return nil
 }
 
-func validateNewGoogleComputeBackendServiceCustomMetricsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGoogleComputeBackendServiceCustomMetricsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

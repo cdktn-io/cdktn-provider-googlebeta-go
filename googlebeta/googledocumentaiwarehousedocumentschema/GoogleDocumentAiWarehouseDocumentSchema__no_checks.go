@@ -119,7 +119,7 @@ func (j *jsiiProxy_GoogleDocumentAiWarehouseDocumentSchema) validateSetIdParamet
 	return nil
 }
 
-func (j *jsiiProxy_GoogleDocumentAiWarehouseDocumentSchema) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleDocumentAiWarehouseDocumentSchema) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

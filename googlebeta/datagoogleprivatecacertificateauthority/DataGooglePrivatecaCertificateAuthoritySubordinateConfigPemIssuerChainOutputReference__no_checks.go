@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataGooglePrivatecaCertificateAuthoritySubordinateConfigPemIs
 	return nil
 }
 
-func (d *jsiiProxy_DataGooglePrivatecaCertificateAuthoritySubordinateConfigPemIssuerChainOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataGooglePrivatecaCertificateAuthoritySubordinateConfigPemIssuerChainOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataGooglePrivatecaCertificateAuthoritySubordinateConfigPemIs
 	return nil
 }
 
-func (j *jsiiProxy_DataGooglePrivatecaCertificateAuthoritySubordinateConfigPemIssuerChainOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataGooglePrivatecaCertificateAuthoritySubordinateConfigPemIssuerChainOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataGooglePrivatecaCertificateAuthoritySubordinateConfigPemIssuerChainOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataGooglePrivatecaCertificateAuthoritySubordinateConfigPemIssuerChainOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

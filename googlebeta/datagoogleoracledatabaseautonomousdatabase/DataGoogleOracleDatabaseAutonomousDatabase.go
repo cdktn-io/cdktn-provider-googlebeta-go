@@ -5,22 +5,22 @@ package datagoogleoracledatabaseautonomousdatabase
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagoogleoracledatabaseautonomousdatabase/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagoogleoracledatabaseautonomousdatabase/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_oracle_database_autonomous_database google_oracle_database_autonomous_database}.
 type DataGoogleOracleDatabaseAutonomousDatabase interface {
-	cdktf.TerraformDataSource
+	cdktn.TerraformDataSource
 	AdminPassword() *string
 	AutonomousDatabaseId() *string
 	SetAutonomousDatabaseId(val *string)
 	AutonomousDatabaseIdInput() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	Cidr() *string
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
@@ -30,18 +30,18 @@ type DataGoogleOracleDatabaseAutonomousDatabase interface {
 	SetCount(val interface{})
 	CreateTime() *string
 	Database() *string
-	DeletionProtection() cdktf.IResolvable
+	DeletionProtection() cdktn.IResolvable
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	DisplayName() *string
-	EffectiveLabels() cdktf.StringMap
+	EffectiveLabels() cdktn.StringMap
 	EntitlementId() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -49,11 +49,11 @@ type DataGoogleOracleDatabaseAutonomousDatabase interface {
 	Id() *string
 	SetId(val *string)
 	IdInput() *string
-	Labels() cdktf.StringMap
+	Labels() cdktn.StringMap
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Location() *string
 	SetLocation(val *string)
 	LocationInput() *string
@@ -68,14 +68,14 @@ type DataGoogleOracleDatabaseAutonomousDatabase interface {
 	ProjectInput() *string
 	Properties() DataGoogleOracleDatabaseAutonomousDatabasePropertiesList
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	RawOverrides() interface{}
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
-	TerraformLabels() cdktf.StringMap
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
+	TerraformLabels() cdktn.StringMap
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -85,7 +85,7 @@ type DataGoogleOracleDatabaseAutonomousDatabase interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -101,7 +101,7 @@ type DataGoogleOracleDatabaseAutonomousDatabase interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
@@ -126,7 +126,7 @@ type DataGoogleOracleDatabaseAutonomousDatabase interface {
 
 // The jsii proxy struct for DataGoogleOracleDatabaseAutonomousDatabase
 type jsiiProxy_DataGoogleOracleDatabaseAutonomousDatabase struct {
-	internal.Type__cdktfTerraformDataSource
+	internal.Type__cdktnTerraformDataSource
 }
 
 func (j *jsiiProxy_DataGoogleOracleDatabaseAutonomousDatabase) AdminPassword() *string {
@@ -159,8 +159,8 @@ func (j *jsiiProxy_DataGoogleOracleDatabaseAutonomousDatabase) AutonomousDatabas
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleOracleDatabaseAutonomousDatabase) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataGoogleOracleDatabaseAutonomousDatabase) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -219,8 +219,8 @@ func (j *jsiiProxy_DataGoogleOracleDatabaseAutonomousDatabase) Database() *strin
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleOracleDatabaseAutonomousDatabase) DeletionProtection() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataGoogleOracleDatabaseAutonomousDatabase) DeletionProtection() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"deletionProtection",
@@ -249,8 +249,8 @@ func (j *jsiiProxy_DataGoogleOracleDatabaseAutonomousDatabase) DisplayName() *st
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleOracleDatabaseAutonomousDatabase) EffectiveLabels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_DataGoogleOracleDatabaseAutonomousDatabase) EffectiveLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"effectiveLabels",
@@ -269,8 +269,8 @@ func (j *jsiiProxy_DataGoogleOracleDatabaseAutonomousDatabase) EntitlementId() *
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleOracleDatabaseAutonomousDatabase) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataGoogleOracleDatabaseAutonomousDatabase) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -319,8 +319,8 @@ func (j *jsiiProxy_DataGoogleOracleDatabaseAutonomousDatabase) IdInput() *string
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleOracleDatabaseAutonomousDatabase) Labels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_DataGoogleOracleDatabaseAutonomousDatabase) Labels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"labels",
@@ -329,8 +329,8 @@ func (j *jsiiProxy_DataGoogleOracleDatabaseAutonomousDatabase) Labels() cdktf.St
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleOracleDatabaseAutonomousDatabase) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataGoogleOracleDatabaseAutonomousDatabase) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -439,8 +439,8 @@ func (j *jsiiProxy_DataGoogleOracleDatabaseAutonomousDatabase) Properties() Data
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleOracleDatabaseAutonomousDatabase) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataGoogleOracleDatabaseAutonomousDatabase) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -459,8 +459,8 @@ func (j *jsiiProxy_DataGoogleOracleDatabaseAutonomousDatabase) RawOverrides() in
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleOracleDatabaseAutonomousDatabase) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataGoogleOracleDatabaseAutonomousDatabase) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -469,8 +469,8 @@ func (j *jsiiProxy_DataGoogleOracleDatabaseAutonomousDatabase) TerraformGenerato
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleOracleDatabaseAutonomousDatabase) TerraformLabels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_DataGoogleOracleDatabaseAutonomousDatabase) TerraformLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"terraformLabels",
@@ -559,7 +559,7 @@ func (j *jsiiProxy_DataGoogleOracleDatabaseAutonomousDatabase)SetDependsOn(val *
 	)
 }
 
-func (j *jsiiProxy_DataGoogleOracleDatabaseAutonomousDatabase)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataGoogleOracleDatabaseAutonomousDatabase)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -578,7 +578,7 @@ func (j *jsiiProxy_DataGoogleOracleDatabaseAutonomousDatabase)SetId(val *string)
 	)
 }
 
-func (j *jsiiProxy_DataGoogleOracleDatabaseAutonomousDatabase)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataGoogleOracleDatabaseAutonomousDatabase)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -611,7 +611,7 @@ func (j *jsiiProxy_DataGoogleOracleDatabaseAutonomousDatabase)SetProject(val *st
 	)
 }
 
-func (j *jsiiProxy_DataGoogleOracleDatabaseAutonomousDatabase)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataGoogleOracleDatabaseAutonomousDatabase)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -619,14 +619,14 @@ func (j *jsiiProxy_DataGoogleOracleDatabaseAutonomousDatabase)SetProvider(val cd
 	)
 }
 
-// Generates CDKTF code for importing a DataGoogleOracleDatabaseAutonomousDatabase resource upon running "cdktf plan <stack-name>".
-func DataGoogleOracleDatabaseAutonomousDatabase_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataGoogleOracleDatabaseAutonomousDatabase resource upon running "cdktn plan <stack-name>".
+func DataGoogleOracleDatabaseAutonomousDatabase_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataGoogleOracleDatabaseAutonomousDatabase_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google-beta.dataGoogleOracleDatabaseAutonomousDatabase.DataGoogleOracleDatabaseAutonomousDatabase",
@@ -749,11 +749,11 @@ func (d *jsiiProxy_DataGoogleOracleDatabaseAutonomousDatabase) GetAnyMapAttribut
 	return returns
 }
 
-func (d *jsiiProxy_DataGoogleOracleDatabaseAutonomousDatabase) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataGoogleOracleDatabaseAutonomousDatabase) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -877,11 +877,11 @@ func (d *jsiiProxy_DataGoogleOracleDatabaseAutonomousDatabase) GetStringMapAttri
 	return returns
 }
 
-func (d *jsiiProxy_DataGoogleOracleDatabaseAutonomousDatabase) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataGoogleOracleDatabaseAutonomousDatabase) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

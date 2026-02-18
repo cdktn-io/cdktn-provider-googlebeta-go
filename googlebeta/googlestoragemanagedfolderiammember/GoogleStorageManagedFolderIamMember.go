@@ -5,21 +5,21 @@ package googlestoragemanagedfolderiammember
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlestoragemanagedfolderiammember/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlestoragemanagedfolderiammember/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_managed_folder_iam_member google_storage_managed_folder_iam_member}.
 type GoogleStorageManagedFolderIamMember interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	Bucket() *string
 	SetBucket(val *string)
 	BucketInput() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	Condition() GoogleStorageManagedFolderIamMemberConditionOutputReference
 	ConditionInput() *GoogleStorageManagedFolderIamMemberCondition
 	// Experimental.
@@ -38,9 +38,9 @@ type GoogleStorageManagedFolderIamMember interface {
 	SetDependsOn(val *[]*string)
 	Etag() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -49,9 +49,9 @@ type GoogleStorageManagedFolderIamMember interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	ManagedFolder() *string
 	SetManagedFolder(val *string)
 	ManagedFolderInput() *string
@@ -61,9 +61,9 @@ type GoogleStorageManagedFolderIamMember interface {
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -74,7 +74,7 @@ type GoogleStorageManagedFolderIamMember interface {
 	SetRole(val *string)
 	RoleInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -87,7 +87,7 @@ type GoogleStorageManagedFolderIamMember interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -105,9 +105,9 @@ type GoogleStorageManagedFolderIamMember interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -143,7 +143,7 @@ type GoogleStorageManagedFolderIamMember interface {
 
 // The jsii proxy struct for GoogleStorageManagedFolderIamMember
 type jsiiProxy_GoogleStorageManagedFolderIamMember struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_GoogleStorageManagedFolderIamMember) Bucket() *string {
@@ -166,8 +166,8 @@ func (j *jsiiProxy_GoogleStorageManagedFolderIamMember) BucketInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleStorageManagedFolderIamMember) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_GoogleStorageManagedFolderIamMember) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -246,8 +246,8 @@ func (j *jsiiProxy_GoogleStorageManagedFolderIamMember) Etag() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleStorageManagedFolderIamMember) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_GoogleStorageManagedFolderIamMember) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -296,8 +296,8 @@ func (j *jsiiProxy_GoogleStorageManagedFolderIamMember) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleStorageManagedFolderIamMember) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_GoogleStorageManagedFolderIamMember) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -356,8 +356,8 @@ func (j *jsiiProxy_GoogleStorageManagedFolderIamMember) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleStorageManagedFolderIamMember) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_GoogleStorageManagedFolderIamMember) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -406,8 +406,8 @@ func (j *jsiiProxy_GoogleStorageManagedFolderIamMember) RoleInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleStorageManagedFolderIamMember) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_GoogleStorageManagedFolderIamMember) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -507,7 +507,7 @@ func (j *jsiiProxy_GoogleStorageManagedFolderIamMember)SetDependsOn(val *[]*stri
 	)
 }
 
-func (j *jsiiProxy_GoogleStorageManagedFolderIamMember)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_GoogleStorageManagedFolderIamMember)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -526,7 +526,7 @@ func (j *jsiiProxy_GoogleStorageManagedFolderIamMember)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_GoogleStorageManagedFolderIamMember)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_GoogleStorageManagedFolderIamMember)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -559,7 +559,7 @@ func (j *jsiiProxy_GoogleStorageManagedFolderIamMember)SetMember(val *string) {
 	)
 }
 
-func (j *jsiiProxy_GoogleStorageManagedFolderIamMember)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_GoogleStorageManagedFolderIamMember)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -589,14 +589,14 @@ func (j *jsiiProxy_GoogleStorageManagedFolderIamMember)SetRole(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a GoogleStorageManagedFolderIamMember resource upon running "cdktf plan <stack-name>".
-func GoogleStorageManagedFolderIamMember_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a GoogleStorageManagedFolderIamMember resource upon running "cdktn plan <stack-name>".
+func GoogleStorageManagedFolderIamMember_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateGoogleStorageManagedFolderIamMember_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google-beta.googleStorageManagedFolderIamMember.GoogleStorageManagedFolderIamMember",
@@ -730,11 +730,11 @@ func (g *jsiiProxy_GoogleStorageManagedFolderIamMember) GetAnyMapAttribute(terra
 	return returns
 }
 
-func (g *jsiiProxy_GoogleStorageManagedFolderIamMember) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleStorageManagedFolderIamMember) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -871,7 +871,7 @@ func (g *jsiiProxy_GoogleStorageManagedFolderIamMember) HasResourceMove() interf
 	return returns
 }
 
-func (g *jsiiProxy_GoogleStorageManagedFolderIamMember) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (g *jsiiProxy_GoogleStorageManagedFolderIamMember) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := g.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -882,11 +882,11 @@ func (g *jsiiProxy_GoogleStorageManagedFolderIamMember) ImportFrom(id *string, p
 	)
 }
 
-func (g *jsiiProxy_GoogleStorageManagedFolderIamMember) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleStorageManagedFolderIamMember) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,

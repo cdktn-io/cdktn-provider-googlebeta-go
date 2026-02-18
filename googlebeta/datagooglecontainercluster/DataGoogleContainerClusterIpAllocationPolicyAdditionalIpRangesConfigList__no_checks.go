@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataGoogleContainerClusterIpAllocationPolicyAdditionalIpRange
 	return nil
 }
 
-func (d *jsiiProxy_DataGoogleContainerClusterIpAllocationPolicyAdditionalIpRangesConfigList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataGoogleContainerClusterIpAllocationPolicyAdditionalIpRangesConfigList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataGoogleContainerClusterIpAllocationPolicyAdditionalIpRange
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleContainerClusterIpAllocationPolicyAdditionalIpRangesConfigList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataGoogleContainerClusterIpAllocationPolicyAdditionalIpRangesConfigList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataGoogleContainerClusterIpAllocationPolicyAdditionalIpRange
 	return nil
 }
 
-func validateNewDataGoogleContainerClusterIpAllocationPolicyAdditionalIpRangesConfigListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataGoogleContainerClusterIpAllocationPolicyAdditionalIpRangesConfigListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

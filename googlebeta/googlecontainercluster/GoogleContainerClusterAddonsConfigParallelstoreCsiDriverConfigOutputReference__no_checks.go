@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleContainerClusterAddonsConfigParallelstoreCsiDriverConfi
 	return nil
 }
 
-func (g *jsiiProxy_GoogleContainerClusterAddonsConfigParallelstoreCsiDriverConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleContainerClusterAddonsConfigParallelstoreCsiDriverConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_GoogleContainerClusterAddonsConfigParallelstoreCsiDriverConfi
 	return nil
 }
 
-func (j *jsiiProxy_GoogleContainerClusterAddonsConfigParallelstoreCsiDriverConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleContainerClusterAddonsConfigParallelstoreCsiDriverConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleContainerClusterAddonsConfigParallelstoreCsiDriverConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleContainerClusterAddonsConfigParallelstoreCsiDriverConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

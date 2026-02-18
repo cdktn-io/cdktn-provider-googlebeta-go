@@ -5,18 +5,18 @@ package googleaccesscontextmanageraccesspolicyiambinding
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleaccesscontextmanageraccesspolicyiambinding/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleaccesscontextmanageraccesspolicyiambinding/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_access_context_manager_access_policy_iam_binding google_access_context_manager_access_policy_iam_binding}.
 type GoogleAccessContextManagerAccessPolicyIamBinding interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	Condition() GoogleAccessContextManagerAccessPolicyIamBindingConditionOutputReference
 	ConditionInput() *GoogleAccessContextManagerAccessPolicyIamBindingCondition
 	// Experimental.
@@ -35,9 +35,9 @@ type GoogleAccessContextManagerAccessPolicyIamBinding interface {
 	SetDependsOn(val *[]*string)
 	Etag() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -46,9 +46,9 @@ type GoogleAccessContextManagerAccessPolicyIamBinding interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Members() *[]*string
 	SetMembers(val *[]*string)
 	MembersInput() *[]*string
@@ -58,9 +58,9 @@ type GoogleAccessContextManagerAccessPolicyIamBinding interface {
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -71,7 +71,7 @@ type GoogleAccessContextManagerAccessPolicyIamBinding interface {
 	SetRole(val *string)
 	RoleInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -84,7 +84,7 @@ type GoogleAccessContextManagerAccessPolicyIamBinding interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -102,9 +102,9 @@ type GoogleAccessContextManagerAccessPolicyIamBinding interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -140,11 +140,11 @@ type GoogleAccessContextManagerAccessPolicyIamBinding interface {
 
 // The jsii proxy struct for GoogleAccessContextManagerAccessPolicyIamBinding
 type jsiiProxy_GoogleAccessContextManagerAccessPolicyIamBinding struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
-func (j *jsiiProxy_GoogleAccessContextManagerAccessPolicyIamBinding) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_GoogleAccessContextManagerAccessPolicyIamBinding) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -223,8 +223,8 @@ func (j *jsiiProxy_GoogleAccessContextManagerAccessPolicyIamBinding) Etag() *str
 	return returns
 }
 
-func (j *jsiiProxy_GoogleAccessContextManagerAccessPolicyIamBinding) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_GoogleAccessContextManagerAccessPolicyIamBinding) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -273,8 +273,8 @@ func (j *jsiiProxy_GoogleAccessContextManagerAccessPolicyIamBinding) IdInput() *
 	return returns
 }
 
-func (j *jsiiProxy_GoogleAccessContextManagerAccessPolicyIamBinding) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_GoogleAccessContextManagerAccessPolicyIamBinding) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -333,8 +333,8 @@ func (j *jsiiProxy_GoogleAccessContextManagerAccessPolicyIamBinding) Node() cons
 	return returns
 }
 
-func (j *jsiiProxy_GoogleAccessContextManagerAccessPolicyIamBinding) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_GoogleAccessContextManagerAccessPolicyIamBinding) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -383,8 +383,8 @@ func (j *jsiiProxy_GoogleAccessContextManagerAccessPolicyIamBinding) RoleInput()
 	return returns
 }
 
-func (j *jsiiProxy_GoogleAccessContextManagerAccessPolicyIamBinding) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_GoogleAccessContextManagerAccessPolicyIamBinding) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -473,7 +473,7 @@ func (j *jsiiProxy_GoogleAccessContextManagerAccessPolicyIamBinding)SetDependsOn
 	)
 }
 
-func (j *jsiiProxy_GoogleAccessContextManagerAccessPolicyIamBinding)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_GoogleAccessContextManagerAccessPolicyIamBinding)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -492,7 +492,7 @@ func (j *jsiiProxy_GoogleAccessContextManagerAccessPolicyIamBinding)SetId(val *s
 	)
 }
 
-func (j *jsiiProxy_GoogleAccessContextManagerAccessPolicyIamBinding)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_GoogleAccessContextManagerAccessPolicyIamBinding)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -525,7 +525,7 @@ func (j *jsiiProxy_GoogleAccessContextManagerAccessPolicyIamBinding)SetName(val 
 	)
 }
 
-func (j *jsiiProxy_GoogleAccessContextManagerAccessPolicyIamBinding)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_GoogleAccessContextManagerAccessPolicyIamBinding)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -555,14 +555,14 @@ func (j *jsiiProxy_GoogleAccessContextManagerAccessPolicyIamBinding)SetRole(val 
 	)
 }
 
-// Generates CDKTF code for importing a GoogleAccessContextManagerAccessPolicyIamBinding resource upon running "cdktf plan <stack-name>".
-func GoogleAccessContextManagerAccessPolicyIamBinding_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a GoogleAccessContextManagerAccessPolicyIamBinding resource upon running "cdktn plan <stack-name>".
+func GoogleAccessContextManagerAccessPolicyIamBinding_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateGoogleAccessContextManagerAccessPolicyIamBinding_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google-beta.googleAccessContextManagerAccessPolicyIamBinding.GoogleAccessContextManagerAccessPolicyIamBinding",
@@ -696,11 +696,11 @@ func (g *jsiiProxy_GoogleAccessContextManagerAccessPolicyIamBinding) GetAnyMapAt
 	return returns
 }
 
-func (g *jsiiProxy_GoogleAccessContextManagerAccessPolicyIamBinding) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleAccessContextManagerAccessPolicyIamBinding) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -837,7 +837,7 @@ func (g *jsiiProxy_GoogleAccessContextManagerAccessPolicyIamBinding) HasResource
 	return returns
 }
 
-func (g *jsiiProxy_GoogleAccessContextManagerAccessPolicyIamBinding) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (g *jsiiProxy_GoogleAccessContextManagerAccessPolicyIamBinding) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := g.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -848,11 +848,11 @@ func (g *jsiiProxy_GoogleAccessContextManagerAccessPolicyIamBinding) ImportFrom(
 	)
 }
 
-func (g *jsiiProxy_GoogleAccessContextManagerAccessPolicyIamBinding) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleAccessContextManagerAccessPolicyIamBinding) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,

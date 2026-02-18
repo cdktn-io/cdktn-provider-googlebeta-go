@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleDataprocWorkflowTemplateParametersValidationValuesOutpu
 	return nil
 }
 
-func (g *jsiiProxy_GoogleDataprocWorkflowTemplateParametersValidationValuesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleDataprocWorkflowTemplateParametersValidationValuesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,7 +67,7 @@ func (j *jsiiProxy_GoogleDataprocWorkflowTemplateParametersValidationValuesOutpu
 	return nil
 }
 
-func (j *jsiiProxy_GoogleDataprocWorkflowTemplateParametersValidationValuesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleDataprocWorkflowTemplateParametersValidationValuesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_GoogleDataprocWorkflowTemplateParametersValidationValuesOutpu
 	return nil
 }
 
-func validateNewGoogleDataprocWorkflowTemplateParametersValidationValuesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleDataprocWorkflowTemplateParametersValidationValuesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

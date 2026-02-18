@@ -5,14 +5,14 @@ package googledataformrepository
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googledataformrepository/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataformrepository/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type GoogleDataformRepositoryGitRemoteSettingsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AuthenticationTokenSecretVersion() *string
 	SetAuthenticationTokenSecretVersion(val *string)
 	AuthenticationTokenSecretVersionInput() *string
@@ -45,9 +45,9 @@ type GoogleDataformRepositoryGitRemoteSettingsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	TokenStatus() *string
 	Url() *string
 	SetUrl(val *string)
@@ -57,7 +57,7 @@ type GoogleDataformRepositoryGitRemoteSettingsOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -73,15 +73,15 @@ type GoogleDataformRepositoryGitRemoteSettingsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutSshAuthenticationConfig(value *GoogleDataformRepositoryGitRemoteSettingsSshAuthenticationConfig)
 	ResetAuthenticationTokenSecretVersion()
 	ResetSshAuthenticationConfig()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -91,7 +91,7 @@ type GoogleDataformRepositoryGitRemoteSettingsOutputReference interface {
 
 // The jsii proxy struct for GoogleDataformRepositoryGitRemoteSettingsOutputReference
 type jsiiProxy_GoogleDataformRepositoryGitRemoteSettingsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_GoogleDataformRepositoryGitRemoteSettingsOutputReference) AuthenticationTokenSecretVersion() *string {
@@ -214,8 +214,8 @@ func (j *jsiiProxy_GoogleDataformRepositoryGitRemoteSettingsOutputReference) Ter
 	return returns
 }
 
-func (j *jsiiProxy_GoogleDataformRepositoryGitRemoteSettingsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_GoogleDataformRepositoryGitRemoteSettingsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -255,7 +255,7 @@ func (j *jsiiProxy_GoogleDataformRepositoryGitRemoteSettingsOutputReference) Url
 }
 
 
-func NewGoogleDataformRepositoryGitRemoteSettingsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) GoogleDataformRepositoryGitRemoteSettingsOutputReference {
+func NewGoogleDataformRepositoryGitRemoteSettingsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) GoogleDataformRepositoryGitRemoteSettingsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewGoogleDataformRepositoryGitRemoteSettingsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -272,7 +272,7 @@ func NewGoogleDataformRepositoryGitRemoteSettingsOutputReference(terraformResour
 	return &j
 }
 
-func NewGoogleDataformRepositoryGitRemoteSettingsOutputReference_Override(g GoogleDataformRepositoryGitRemoteSettingsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewGoogleDataformRepositoryGitRemoteSettingsOutputReference_Override(g GoogleDataformRepositoryGitRemoteSettingsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -348,7 +348,7 @@ func (j *jsiiProxy_GoogleDataformRepositoryGitRemoteSettingsOutputReference)SetT
 	)
 }
 
-func (j *jsiiProxy_GoogleDataformRepositoryGitRemoteSettingsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_GoogleDataformRepositoryGitRemoteSettingsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -399,11 +399,11 @@ func (g *jsiiProxy_GoogleDataformRepositoryGitRemoteSettingsOutputReference) Get
 	return returns
 }
 
-func (g *jsiiProxy_GoogleDataformRepositoryGitRemoteSettingsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleDataformRepositoryGitRemoteSettingsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -527,8 +527,8 @@ func (g *jsiiProxy_GoogleDataformRepositoryGitRemoteSettingsOutputReference) Get
 	return returns
 }
 
-func (g *jsiiProxy_GoogleDataformRepositoryGitRemoteSettingsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (g *jsiiProxy_GoogleDataformRepositoryGitRemoteSettingsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -540,11 +540,11 @@ func (g *jsiiProxy_GoogleDataformRepositoryGitRemoteSettingsOutputReference) Int
 	return returns
 }
 
-func (g *jsiiProxy_GoogleDataformRepositoryGitRemoteSettingsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleDataformRepositoryGitRemoteSettingsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -583,7 +583,7 @@ func (g *jsiiProxy_GoogleDataformRepositoryGitRemoteSettingsOutputReference) Res
 	)
 }
 
-func (g *jsiiProxy_GoogleDataformRepositoryGitRemoteSettingsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (g *jsiiProxy_GoogleDataformRepositoryGitRemoteSettingsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

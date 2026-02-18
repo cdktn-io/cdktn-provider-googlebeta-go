@@ -155,7 +155,7 @@ func (j *jsiiProxy_GoogleDeveloperConnectConnection) validateSetLabelsParameters
 	return nil
 }
 
-func (j *jsiiProxy_GoogleDeveloperConnectConnection) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleDeveloperConnectConnection) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

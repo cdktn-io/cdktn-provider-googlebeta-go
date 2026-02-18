@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataGoogleComputeRegionBackendServiceConnectionTrackingPolicy
 	return nil
 }
 
-func (d *jsiiProxy_DataGoogleComputeRegionBackendServiceConnectionTrackingPolicyList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataGoogleComputeRegionBackendServiceConnectionTrackingPolicyList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataGoogleComputeRegionBackendServiceConnectionTrackingPolicy
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleComputeRegionBackendServiceConnectionTrackingPolicyList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataGoogleComputeRegionBackendServiceConnectionTrackingPolicyList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataGoogleComputeRegionBackendServiceConnectionTrackingPolicy
 	return nil
 }
 
-func validateNewDataGoogleComputeRegionBackendServiceConnectionTrackingPolicyListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataGoogleComputeRegionBackendServiceConnectionTrackingPolicyListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataGoogleComputeDiskDiskEncryptionKeyList) validateGetParame
 	return nil
 }
 
-func (d *jsiiProxy_DataGoogleComputeDiskDiskEncryptionKeyList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataGoogleComputeDiskDiskEncryptionKeyList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataGoogleComputeDiskDiskEncryptionKeyList) validateSetTerraf
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleComputeDiskDiskEncryptionKeyList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataGoogleComputeDiskDiskEncryptionKeyList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataGoogleComputeDiskDiskEncryptionKeyList) validateSetWrapsS
 	return nil
 }
 
-func validateNewDataGoogleComputeDiskDiskEncryptionKeyListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataGoogleComputeDiskDiskEncryptionKeyListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

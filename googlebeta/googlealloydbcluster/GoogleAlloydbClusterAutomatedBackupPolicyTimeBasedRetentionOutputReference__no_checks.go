@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleAlloydbClusterAutomatedBackupPolicyTimeBasedRetentionOu
 	return nil
 }
 
-func (g *jsiiProxy_GoogleAlloydbClusterAutomatedBackupPolicyTimeBasedRetentionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleAlloydbClusterAutomatedBackupPolicyTimeBasedRetentionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_GoogleAlloydbClusterAutomatedBackupPolicyTimeBasedRetentionOu
 	return nil
 }
 
-func (j *jsiiProxy_GoogleAlloydbClusterAutomatedBackupPolicyTimeBasedRetentionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleAlloydbClusterAutomatedBackupPolicyTimeBasedRetentionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleAlloydbClusterAutomatedBackupPolicyTimeBasedRetentionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleAlloydbClusterAutomatedBackupPolicyTimeBasedRetentionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

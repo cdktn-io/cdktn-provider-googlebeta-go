@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleNetappVolumeQuotaRuleTimeoutsOutputReference) validateI
 	return nil
 }
 
-func (g *jsiiProxy_GoogleNetappVolumeQuotaRuleTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleNetappVolumeQuotaRuleTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_GoogleNetappVolumeQuotaRuleTimeoutsOutputReference) validateS
 	return nil
 }
 
-func (j *jsiiProxy_GoogleNetappVolumeQuotaRuleTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleNetappVolumeQuotaRuleTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_GoogleNetappVolumeQuotaRuleTimeoutsOutputReference) validateS
 	return nil
 }
 
-func validateNewGoogleNetappVolumeQuotaRuleTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleNetappVolumeQuotaRuleTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

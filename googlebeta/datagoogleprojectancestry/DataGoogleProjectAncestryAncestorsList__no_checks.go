@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataGoogleProjectAncestryAncestorsList) validateGetParameters
 	return nil
 }
 
-func (d *jsiiProxy_DataGoogleProjectAncestryAncestorsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataGoogleProjectAncestryAncestorsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataGoogleProjectAncestryAncestorsList) validateSetTerraformA
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleProjectAncestryAncestorsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataGoogleProjectAncestryAncestorsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataGoogleProjectAncestryAncestorsList) validateSetWrapsSetPa
 	return nil
 }
 
-func validateNewDataGoogleProjectAncestryAncestorsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataGoogleProjectAncestryAncestorsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleModelArmorTemplateTimeoutsOutputReference) validateInte
 	return nil
 }
 
-func (g *jsiiProxy_GoogleModelArmorTemplateTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleModelArmorTemplateTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_GoogleModelArmorTemplateTimeoutsOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_GoogleModelArmorTemplateTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleModelArmorTemplateTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_GoogleModelArmorTemplateTimeoutsOutputReference) validateSetU
 	return nil
 }
 
-func validateNewGoogleModelArmorTemplateTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleModelArmorTemplateTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (g *jsiiProxy_GoogleFirebaseAppHostingDefaultDomainTimeoutsOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -93,7 +93,7 @@ func (g *jsiiProxy_GoogleFirebaseAppHostingDefaultDomainTimeoutsOutputReference)
 	return nil
 }
 
-func (g *jsiiProxy_GoogleFirebaseAppHostingDefaultDomainTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleFirebaseAppHostingDefaultDomainTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -184,7 +184,7 @@ func (j *jsiiProxy_GoogleFirebaseAppHostingDefaultDomainTimeoutsOutputReference)
 
 func (j *jsiiProxy_GoogleFirebaseAppHostingDefaultDomainTimeoutsOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *GoogleFirebaseAppHostingDefaultDomainTimeouts:
 		val := val.(*GoogleFirebaseAppHostingDefaultDomainTimeouts)
@@ -199,7 +199,7 @@ func (j *jsiiProxy_GoogleFirebaseAppHostingDefaultDomainTimeoutsOutputReference)
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *GoogleFirebaseAppHostingDefaultDomainTimeouts; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *GoogleFirebaseAppHostingDefaultDomainTimeouts; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -214,7 +214,7 @@ func (j *jsiiProxy_GoogleFirebaseAppHostingDefaultDomainTimeoutsOutputReference)
 	return nil
 }
 
-func (j *jsiiProxy_GoogleFirebaseAppHostingDefaultDomainTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleFirebaseAppHostingDefaultDomainTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -230,7 +230,7 @@ func (j *jsiiProxy_GoogleFirebaseAppHostingDefaultDomainTimeoutsOutputReference)
 	return nil
 }
 
-func validateNewGoogleFirebaseAppHostingDefaultDomainTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleFirebaseAppHostingDefaultDomainTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

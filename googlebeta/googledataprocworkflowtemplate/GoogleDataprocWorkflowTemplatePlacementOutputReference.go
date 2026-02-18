@@ -5,14 +5,14 @@ package googledataprocworkflowtemplate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googledataprocworkflowtemplate/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocworkflowtemplate/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type GoogleDataprocWorkflowTemplatePlacementOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	ClusterSelector() GoogleDataprocWorkflowTemplatePlacementClusterSelectorOutputReference
 	ClusterSelectorInput() *GoogleDataprocWorkflowTemplatePlacementClusterSelector
 	// the index of the complex object in a list.
@@ -41,15 +41,15 @@ type GoogleDataprocWorkflowTemplatePlacementOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -65,16 +65,16 @@ type GoogleDataprocWorkflowTemplatePlacementOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutClusterSelector(value *GoogleDataprocWorkflowTemplatePlacementClusterSelector)
 	PutManagedCluster(value *GoogleDataprocWorkflowTemplatePlacementManagedCluster)
 	ResetClusterSelector()
 	ResetManagedCluster()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -84,7 +84,7 @@ type GoogleDataprocWorkflowTemplatePlacementOutputReference interface {
 
 // The jsii proxy struct for GoogleDataprocWorkflowTemplatePlacementOutputReference
 type jsiiProxy_GoogleDataprocWorkflowTemplatePlacementOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_GoogleDataprocWorkflowTemplatePlacementOutputReference) ClusterSelector() GoogleDataprocWorkflowTemplatePlacementClusterSelectorOutputReference {
@@ -187,8 +187,8 @@ func (j *jsiiProxy_GoogleDataprocWorkflowTemplatePlacementOutputReference) Terra
 	return returns
 }
 
-func (j *jsiiProxy_GoogleDataprocWorkflowTemplatePlacementOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_GoogleDataprocWorkflowTemplatePlacementOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -198,7 +198,7 @@ func (j *jsiiProxy_GoogleDataprocWorkflowTemplatePlacementOutputReference) Terra
 }
 
 
-func NewGoogleDataprocWorkflowTemplatePlacementOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) GoogleDataprocWorkflowTemplatePlacementOutputReference {
+func NewGoogleDataprocWorkflowTemplatePlacementOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) GoogleDataprocWorkflowTemplatePlacementOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewGoogleDataprocWorkflowTemplatePlacementOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -215,7 +215,7 @@ func NewGoogleDataprocWorkflowTemplatePlacementOutputReference(terraformResource
 	return &j
 }
 
-func NewGoogleDataprocWorkflowTemplatePlacementOutputReference_Override(g GoogleDataprocWorkflowTemplatePlacementOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewGoogleDataprocWorkflowTemplatePlacementOutputReference_Override(g GoogleDataprocWorkflowTemplatePlacementOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -269,7 +269,7 @@ func (j *jsiiProxy_GoogleDataprocWorkflowTemplatePlacementOutputReference)SetTer
 	)
 }
 
-func (j *jsiiProxy_GoogleDataprocWorkflowTemplatePlacementOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_GoogleDataprocWorkflowTemplatePlacementOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -309,11 +309,11 @@ func (g *jsiiProxy_GoogleDataprocWorkflowTemplatePlacementOutputReference) GetAn
 	return returns
 }
 
-func (g *jsiiProxy_GoogleDataprocWorkflowTemplatePlacementOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleDataprocWorkflowTemplatePlacementOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -437,8 +437,8 @@ func (g *jsiiProxy_GoogleDataprocWorkflowTemplatePlacementOutputReference) GetSt
 	return returns
 }
 
-func (g *jsiiProxy_GoogleDataprocWorkflowTemplatePlacementOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (g *jsiiProxy_GoogleDataprocWorkflowTemplatePlacementOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -450,11 +450,11 @@ func (g *jsiiProxy_GoogleDataprocWorkflowTemplatePlacementOutputReference) Inter
 	return returns
 }
 
-func (g *jsiiProxy_GoogleDataprocWorkflowTemplatePlacementOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleDataprocWorkflowTemplatePlacementOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -504,7 +504,7 @@ func (g *jsiiProxy_GoogleDataprocWorkflowTemplatePlacementOutputReference) Reset
 	)
 }
 
-func (g *jsiiProxy_GoogleDataprocWorkflowTemplatePlacementOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (g *jsiiProxy_GoogleDataprocWorkflowTemplatePlacementOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

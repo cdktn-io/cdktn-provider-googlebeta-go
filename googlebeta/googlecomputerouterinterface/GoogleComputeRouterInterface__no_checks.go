@@ -119,7 +119,7 @@ func (j *jsiiProxy_GoogleComputeRouterInterface) validateSetIpVersionParameters(
 	return nil
 }
 
-func (j *jsiiProxy_GoogleComputeRouterInterface) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleComputeRouterInterface) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (g *jsiiProxy_GoogleNetworkSecuritySecurityProfileThreatPreventionProfileSe
 	return nil
 }
 
-func (g *jsiiProxy_GoogleNetworkSecuritySecurityProfileThreatPreventionProfileSeverityOverridesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleNetworkSecuritySecurityProfileThreatPreventionProfileSeverityOverridesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_GoogleNetworkSecuritySecurityProfileThreatPreventionProfileSe
 	return nil
 }
 
-func (j *jsiiProxy_GoogleNetworkSecuritySecurityProfileThreatPreventionProfileSeverityOverridesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleNetworkSecuritySecurityProfileThreatPreventionProfileSeverityOverridesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_GoogleNetworkSecuritySecurityProfileThreatPreventionProfileSe
 	return nil
 }
 
-func validateNewGoogleNetworkSecuritySecurityProfileThreatPreventionProfileSeverityOverridesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGoogleNetworkSecuritySecurityProfileThreatPreventionProfileSeverityOverridesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

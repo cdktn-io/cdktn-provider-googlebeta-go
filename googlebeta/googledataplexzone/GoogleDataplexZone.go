@@ -5,19 +5,19 @@ package googledataplexzone
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googledataplexzone/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataplexzone/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_zone google_dataplex_zone}.
 type GoogleDataplexZone interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	AssetStatus() GoogleDataplexZoneAssetStatusList
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -41,11 +41,11 @@ type GoogleDataplexZone interface {
 	DisplayName() *string
 	SetDisplayName(val *string)
 	DisplayNameInput() *string
-	EffectiveLabels() cdktf.StringMap
+	EffectiveLabels() cdktn.StringMap
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -60,9 +60,9 @@ type GoogleDataplexZone interface {
 	SetLake(val *string)
 	LakeInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Location() *string
 	SetLocation(val *string)
 	LocationInput() *string
@@ -75,9 +75,9 @@ type GoogleDataplexZone interface {
 	SetProject(val *string)
 	ProjectInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -88,8 +88,8 @@ type GoogleDataplexZone interface {
 	ResourceSpecInput() *GoogleDataplexZoneResourceSpec
 	State() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
-	TerraformLabels() cdktf.StringMap
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
+	TerraformLabels() cdktn.StringMap
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -109,7 +109,7 @@ type GoogleDataplexZone interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -127,9 +127,9 @@ type GoogleDataplexZone interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -171,7 +171,7 @@ type GoogleDataplexZone interface {
 
 // The jsii proxy struct for GoogleDataplexZone
 type jsiiProxy_GoogleDataplexZone struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_GoogleDataplexZone) AssetStatus() GoogleDataplexZoneAssetStatusList {
@@ -184,8 +184,8 @@ func (j *jsiiProxy_GoogleDataplexZone) AssetStatus() GoogleDataplexZoneAssetStat
 	return returns
 }
 
-func (j *jsiiProxy_GoogleDataplexZone) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_GoogleDataplexZone) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -304,8 +304,8 @@ func (j *jsiiProxy_GoogleDataplexZone) DisplayNameInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleDataplexZone) EffectiveLabels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_GoogleDataplexZone) EffectiveLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"effectiveLabels",
@@ -314,8 +314,8 @@ func (j *jsiiProxy_GoogleDataplexZone) EffectiveLabels() cdktf.StringMap {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleDataplexZone) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_GoogleDataplexZone) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -404,8 +404,8 @@ func (j *jsiiProxy_GoogleDataplexZone) LakeInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleDataplexZone) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_GoogleDataplexZone) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -484,8 +484,8 @@ func (j *jsiiProxy_GoogleDataplexZone) ProjectInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleDataplexZone) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_GoogleDataplexZone) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -544,8 +544,8 @@ func (j *jsiiProxy_GoogleDataplexZone) State() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleDataplexZone) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_GoogleDataplexZone) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -554,8 +554,8 @@ func (j *jsiiProxy_GoogleDataplexZone) TerraformGeneratorMetadata() *cdktf.Terra
 	return returns
 }
 
-func (j *jsiiProxy_GoogleDataplexZone) TerraformLabels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_GoogleDataplexZone) TerraformLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"terraformLabels",
@@ -726,7 +726,7 @@ func (j *jsiiProxy_GoogleDataplexZone)SetDisplayName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_GoogleDataplexZone)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_GoogleDataplexZone)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -767,7 +767,7 @@ func (j *jsiiProxy_GoogleDataplexZone)SetLake(val *string) {
 	)
 }
 
-func (j *jsiiProxy_GoogleDataplexZone)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_GoogleDataplexZone)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -811,7 +811,7 @@ func (j *jsiiProxy_GoogleDataplexZone)SetProject(val *string) {
 	)
 }
 
-func (j *jsiiProxy_GoogleDataplexZone)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_GoogleDataplexZone)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -841,14 +841,14 @@ func (j *jsiiProxy_GoogleDataplexZone)SetType(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a GoogleDataplexZone resource upon running "cdktf plan <stack-name>".
-func GoogleDataplexZone_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a GoogleDataplexZone resource upon running "cdktn plan <stack-name>".
+func GoogleDataplexZone_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateGoogleDataplexZone_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google-beta.googleDataplexZone.GoogleDataplexZone",
@@ -982,11 +982,11 @@ func (g *jsiiProxy_GoogleDataplexZone) GetAnyMapAttribute(terraformAttribute *st
 	return returns
 }
 
-func (g *jsiiProxy_GoogleDataplexZone) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleDataplexZone) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -1123,7 +1123,7 @@ func (g *jsiiProxy_GoogleDataplexZone) HasResourceMove() interface{} {
 	return returns
 }
 
-func (g *jsiiProxy_GoogleDataplexZone) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (g *jsiiProxy_GoogleDataplexZone) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := g.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1134,11 +1134,11 @@ func (g *jsiiProxy_GoogleDataplexZone) ImportFrom(id *string, provider cdktf.Ter
 	)
 }
 
-func (g *jsiiProxy_GoogleDataplexZone) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleDataplexZone) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,

@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleAlloydbClusterSecondaryConfigOutputReference) validateI
 	return nil
 }
 
-func (g *jsiiProxy_GoogleAlloydbClusterSecondaryConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleAlloydbClusterSecondaryConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_GoogleAlloydbClusterSecondaryConfigOutputReference) validateS
 	return nil
 }
 
-func (j *jsiiProxy_GoogleAlloydbClusterSecondaryConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleAlloydbClusterSecondaryConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleAlloydbClusterSecondaryConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleAlloydbClusterSecondaryConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

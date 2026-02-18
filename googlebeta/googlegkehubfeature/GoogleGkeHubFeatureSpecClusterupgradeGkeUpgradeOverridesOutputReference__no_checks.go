@@ -55,7 +55,7 @@ func (g *jsiiProxy_GoogleGkeHubFeatureSpecClusterupgradeGkeUpgradeOverridesOutpu
 	return nil
 }
 
-func (g *jsiiProxy_GoogleGkeHubFeatureSpecClusterupgradeGkeUpgradeOverridesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleGkeHubFeatureSpecClusterupgradeGkeUpgradeOverridesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_GoogleGkeHubFeatureSpecClusterupgradeGkeUpgradeOverridesOutpu
 	return nil
 }
 
-func (j *jsiiProxy_GoogleGkeHubFeatureSpecClusterupgradeGkeUpgradeOverridesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleGkeHubFeatureSpecClusterupgradeGkeUpgradeOverridesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleGkeHubFeatureSpecClusterupgradeGkeUpgradeOverridesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewGoogleGkeHubFeatureSpecClusterupgradeGkeUpgradeOverridesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

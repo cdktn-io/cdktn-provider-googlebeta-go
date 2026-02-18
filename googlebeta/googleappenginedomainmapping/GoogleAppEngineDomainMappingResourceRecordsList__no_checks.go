@@ -15,7 +15,7 @@ func (g *jsiiProxy_GoogleAppEngineDomainMappingResourceRecordsList) validateGetP
 	return nil
 }
 
-func (g *jsiiProxy_GoogleAppEngineDomainMappingResourceRecordsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleAppEngineDomainMappingResourceRecordsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_GoogleAppEngineDomainMappingResourceRecordsList) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_GoogleAppEngineDomainMappingResourceRecordsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleAppEngineDomainMappingResourceRecordsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_GoogleAppEngineDomainMappingResourceRecordsList) validateSetW
 	return nil
 }
 
-func validateNewGoogleAppEngineDomainMappingResourceRecordsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGoogleAppEngineDomainMappingResourceRecordsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

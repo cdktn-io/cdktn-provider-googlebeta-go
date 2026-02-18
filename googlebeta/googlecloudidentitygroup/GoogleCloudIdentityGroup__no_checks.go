@@ -127,7 +127,7 @@ func (j *jsiiProxy_GoogleCloudIdentityGroup) validateSetLabelsParameters(val *ma
 	return nil
 }
 
-func (j *jsiiProxy_GoogleCloudIdentityGroup) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleCloudIdentityGroup) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

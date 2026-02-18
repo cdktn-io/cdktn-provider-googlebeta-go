@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleSpannerInstanceConfigReplicasOutputReference) validateI
 	return nil
 }
 
-func (g *jsiiProxy_GoogleSpannerInstanceConfigReplicasOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleSpannerInstanceConfigReplicasOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_GoogleSpannerInstanceConfigReplicasOutputReference) validateS
 	return nil
 }
 
-func (j *jsiiProxy_GoogleSpannerInstanceConfigReplicasOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleSpannerInstanceConfigReplicasOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_GoogleSpannerInstanceConfigReplicasOutputReference) validateS
 	return nil
 }
 
-func validateNewGoogleSpannerInstanceConfigReplicasOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewGoogleSpannerInstanceConfigReplicasOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

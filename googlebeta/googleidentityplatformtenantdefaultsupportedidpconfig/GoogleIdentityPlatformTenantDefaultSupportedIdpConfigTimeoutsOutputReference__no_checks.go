@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleIdentityPlatformTenantDefaultSupportedIdpConfigTimeouts
 	return nil
 }
 
-func (g *jsiiProxy_GoogleIdentityPlatformTenantDefaultSupportedIdpConfigTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleIdentityPlatformTenantDefaultSupportedIdpConfigTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_GoogleIdentityPlatformTenantDefaultSupportedIdpConfigTimeouts
 	return nil
 }
 
-func (j *jsiiProxy_GoogleIdentityPlatformTenantDefaultSupportedIdpConfigTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleIdentityPlatformTenantDefaultSupportedIdpConfigTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_GoogleIdentityPlatformTenantDefaultSupportedIdpConfigTimeouts
 	return nil
 }
 
-func validateNewGoogleIdentityPlatformTenantDefaultSupportedIdpConfigTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleIdentityPlatformTenantDefaultSupportedIdpConfigTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

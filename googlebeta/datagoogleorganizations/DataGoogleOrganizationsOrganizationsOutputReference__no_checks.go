@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataGoogleOrganizationsOrganizationsOutputReference) validate
 	return nil
 }
 
-func (d *jsiiProxy_DataGoogleOrganizationsOrganizationsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataGoogleOrganizationsOrganizationsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataGoogleOrganizationsOrganizationsOutputReference) validate
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleOrganizationsOrganizationsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataGoogleOrganizationsOrganizationsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataGoogleOrganizationsOrganizationsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataGoogleOrganizationsOrganizationsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

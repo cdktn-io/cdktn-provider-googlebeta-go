@@ -15,7 +15,7 @@ func (g *jsiiProxy_GoogleComputeUrlMapTestList) validateGetParameters(index *flo
 	return nil
 }
 
-func (g *jsiiProxy_GoogleComputeUrlMapTestList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleComputeUrlMapTestList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_GoogleComputeUrlMapTestList) validateSetTerraformAttributePar
 	return nil
 }
 
-func (j *jsiiProxy_GoogleComputeUrlMapTestList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleComputeUrlMapTestList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_GoogleComputeUrlMapTestList) validateSetWrapsSetParameters(va
 	return nil
 }
 
-func validateNewGoogleComputeUrlMapTestListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGoogleComputeUrlMapTestListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

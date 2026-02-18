@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleVertexAiIndexMetadataConfigAlgorithmConfigTreeAhConfigO
 	return nil
 }
 
-func (g *jsiiProxy_GoogleVertexAiIndexMetadataConfigAlgorithmConfigTreeAhConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleVertexAiIndexMetadataConfigAlgorithmConfigTreeAhConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_GoogleVertexAiIndexMetadataConfigAlgorithmConfigTreeAhConfigO
 	return nil
 }
 
-func (j *jsiiProxy_GoogleVertexAiIndexMetadataConfigAlgorithmConfigTreeAhConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleVertexAiIndexMetadataConfigAlgorithmConfigTreeAhConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleVertexAiIndexMetadataConfigAlgorithmConfigTreeAhConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleVertexAiIndexMetadataConfigAlgorithmConfigTreeAhConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

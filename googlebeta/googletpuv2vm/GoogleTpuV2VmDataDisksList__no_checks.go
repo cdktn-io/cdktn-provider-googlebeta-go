@@ -15,7 +15,7 @@ func (g *jsiiProxy_GoogleTpuV2VmDataDisksList) validateGetParameters(index *floa
 	return nil
 }
 
-func (g *jsiiProxy_GoogleTpuV2VmDataDisksList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleTpuV2VmDataDisksList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_GoogleTpuV2VmDataDisksList) validateSetTerraformAttributePara
 	return nil
 }
 
-func (j *jsiiProxy_GoogleTpuV2VmDataDisksList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleTpuV2VmDataDisksList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_GoogleTpuV2VmDataDisksList) validateSetWrapsSetParameters(val
 	return nil
 }
 
-func validateNewGoogleTpuV2VmDataDisksListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGoogleTpuV2VmDataDisksListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

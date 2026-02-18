@@ -55,7 +55,7 @@ func (g *jsiiProxy_GoogleDataplexZoneDiscoverySpecOutputReference) validatePutJs
 	return nil
 }
 
-func (g *jsiiProxy_GoogleDataplexZoneDiscoverySpecOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleDataplexZoneDiscoverySpecOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -91,11 +91,11 @@ func (j *jsiiProxy_GoogleDataplexZoneDiscoverySpecOutputReference) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_GoogleDataplexZoneDiscoverySpecOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleDataplexZoneDiscoverySpecOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleDataplexZoneDiscoverySpecOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleDataplexZoneDiscoverySpecOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

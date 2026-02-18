@@ -87,7 +87,7 @@ func (g *jsiiProxy_GoogleTranscoderJobTemplateConfigAOutputReference) validatePu
 	return nil
 }
 
-func (g *jsiiProxy_GoogleTranscoderJobTemplateConfigAOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleTranscoderJobTemplateConfigAOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -107,11 +107,11 @@ func (j *jsiiProxy_GoogleTranscoderJobTemplateConfigAOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_GoogleTranscoderJobTemplateConfigAOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleTranscoderJobTemplateConfigAOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleTranscoderJobTemplateConfigAOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleTranscoderJobTemplateConfigAOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleFirestoreDatabaseCmekConfigOutputReference) validateInt
 	return nil
 }
 
-func (g *jsiiProxy_GoogleFirestoreDatabaseCmekConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleFirestoreDatabaseCmekConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_GoogleFirestoreDatabaseCmekConfigOutputReference) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_GoogleFirestoreDatabaseCmekConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleFirestoreDatabaseCmekConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleFirestoreDatabaseCmekConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleFirestoreDatabaseCmekConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

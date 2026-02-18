@@ -5,18 +5,18 @@ package googlenetworksecuritymirroringdeployment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlenetworksecuritymirroringdeployment/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlenetworksecuritymirroringdeployment/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_security_mirroring_deployment google_network_security_mirroring_deployment}.
 type GoogleNetworkSecurityMirroringDeployment interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -35,11 +35,11 @@ type GoogleNetworkSecurityMirroringDeployment interface {
 	Description() *string
 	SetDescription(val *string)
 	DescriptionInput() *string
-	EffectiveLabels() cdktf.StringMap
+	EffectiveLabels() cdktn.StringMap
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	ForwardingRule() *string
 	SetForwardingRule(val *string)
 	ForwardingRuleInput() *string
@@ -54,9 +54,9 @@ type GoogleNetworkSecurityMirroringDeployment interface {
 	SetLabels(val *map[string]*string)
 	LabelsInput() *map[string]*string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Location() *string
 	SetLocation(val *string)
 	LocationInput() *string
@@ -73,20 +73,20 @@ type GoogleNetworkSecurityMirroringDeployment interface {
 	SetProject(val *string)
 	ProjectInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
 	SetProvisioners(val *[]interface{})
 	// Experimental.
 	RawOverrides() interface{}
-	Reconciling() cdktf.IResolvable
+	Reconciling() cdktn.IResolvable
 	State() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
-	TerraformLabels() cdktf.StringMap
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
+	TerraformLabels() cdktn.StringMap
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -102,7 +102,7 @@ type GoogleNetworkSecurityMirroringDeployment interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -120,9 +120,9 @@ type GoogleNetworkSecurityMirroringDeployment interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -161,11 +161,11 @@ type GoogleNetworkSecurityMirroringDeployment interface {
 
 // The jsii proxy struct for GoogleNetworkSecurityMirroringDeployment
 type jsiiProxy_GoogleNetworkSecurityMirroringDeployment struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
-func (j *jsiiProxy_GoogleNetworkSecurityMirroringDeployment) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_GoogleNetworkSecurityMirroringDeployment) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -244,8 +244,8 @@ func (j *jsiiProxy_GoogleNetworkSecurityMirroringDeployment) DescriptionInput() 
 	return returns
 }
 
-func (j *jsiiProxy_GoogleNetworkSecurityMirroringDeployment) EffectiveLabels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_GoogleNetworkSecurityMirroringDeployment) EffectiveLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"effectiveLabels",
@@ -254,8 +254,8 @@ func (j *jsiiProxy_GoogleNetworkSecurityMirroringDeployment) EffectiveLabels() c
 	return returns
 }
 
-func (j *jsiiProxy_GoogleNetworkSecurityMirroringDeployment) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_GoogleNetworkSecurityMirroringDeployment) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -344,8 +344,8 @@ func (j *jsiiProxy_GoogleNetworkSecurityMirroringDeployment) LabelsInput() *map[
 	return returns
 }
 
-func (j *jsiiProxy_GoogleNetworkSecurityMirroringDeployment) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_GoogleNetworkSecurityMirroringDeployment) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -454,8 +454,8 @@ func (j *jsiiProxy_GoogleNetworkSecurityMirroringDeployment) ProjectInput() *str
 	return returns
 }
 
-func (j *jsiiProxy_GoogleNetworkSecurityMirroringDeployment) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_GoogleNetworkSecurityMirroringDeployment) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -484,8 +484,8 @@ func (j *jsiiProxy_GoogleNetworkSecurityMirroringDeployment) RawOverrides() inte
 	return returns
 }
 
-func (j *jsiiProxy_GoogleNetworkSecurityMirroringDeployment) Reconciling() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_GoogleNetworkSecurityMirroringDeployment) Reconciling() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"reconciling",
@@ -504,8 +504,8 @@ func (j *jsiiProxy_GoogleNetworkSecurityMirroringDeployment) State() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleNetworkSecurityMirroringDeployment) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_GoogleNetworkSecurityMirroringDeployment) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -514,8 +514,8 @@ func (j *jsiiProxy_GoogleNetworkSecurityMirroringDeployment) TerraformGeneratorM
 	return returns
 }
 
-func (j *jsiiProxy_GoogleNetworkSecurityMirroringDeployment) TerraformLabels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_GoogleNetworkSecurityMirroringDeployment) TerraformLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"terraformLabels",
@@ -645,7 +645,7 @@ func (j *jsiiProxy_GoogleNetworkSecurityMirroringDeployment)SetDescription(val *
 	)
 }
 
-func (j *jsiiProxy_GoogleNetworkSecurityMirroringDeployment)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_GoogleNetworkSecurityMirroringDeployment)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -686,7 +686,7 @@ func (j *jsiiProxy_GoogleNetworkSecurityMirroringDeployment)SetLabels(val *map[s
 	)
 }
 
-func (j *jsiiProxy_GoogleNetworkSecurityMirroringDeployment)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_GoogleNetworkSecurityMirroringDeployment)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -741,7 +741,7 @@ func (j *jsiiProxy_GoogleNetworkSecurityMirroringDeployment)SetProject(val *stri
 	)
 }
 
-func (j *jsiiProxy_GoogleNetworkSecurityMirroringDeployment)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_GoogleNetworkSecurityMirroringDeployment)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -760,14 +760,14 @@ func (j *jsiiProxy_GoogleNetworkSecurityMirroringDeployment)SetProvisioners(val 
 	)
 }
 
-// Generates CDKTF code for importing a GoogleNetworkSecurityMirroringDeployment resource upon running "cdktf plan <stack-name>".
-func GoogleNetworkSecurityMirroringDeployment_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a GoogleNetworkSecurityMirroringDeployment resource upon running "cdktn plan <stack-name>".
+func GoogleNetworkSecurityMirroringDeployment_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateGoogleNetworkSecurityMirroringDeployment_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google-beta.googleNetworkSecurityMirroringDeployment.GoogleNetworkSecurityMirroringDeployment",
@@ -901,11 +901,11 @@ func (g *jsiiProxy_GoogleNetworkSecurityMirroringDeployment) GetAnyMapAttribute(
 	return returns
 }
 
-func (g *jsiiProxy_GoogleNetworkSecurityMirroringDeployment) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleNetworkSecurityMirroringDeployment) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -1042,7 +1042,7 @@ func (g *jsiiProxy_GoogleNetworkSecurityMirroringDeployment) HasResourceMove() i
 	return returns
 }
 
-func (g *jsiiProxy_GoogleNetworkSecurityMirroringDeployment) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (g *jsiiProxy_GoogleNetworkSecurityMirroringDeployment) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := g.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1053,11 +1053,11 @@ func (g *jsiiProxy_GoogleNetworkSecurityMirroringDeployment) ImportFrom(id *stri
 	)
 }
 
-func (g *jsiiProxy_GoogleNetworkSecurityMirroringDeployment) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleNetworkSecurityMirroringDeployment) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,

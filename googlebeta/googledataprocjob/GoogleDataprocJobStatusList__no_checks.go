@@ -15,7 +15,7 @@ func (g *jsiiProxy_GoogleDataprocJobStatusList) validateGetParameters(index *flo
 	return nil
 }
 
-func (g *jsiiProxy_GoogleDataprocJobStatusList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleDataprocJobStatusList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_GoogleDataprocJobStatusList) validateSetTerraformAttributePar
 	return nil
 }
 
-func (j *jsiiProxy_GoogleDataprocJobStatusList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleDataprocJobStatusList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_GoogleDataprocJobStatusList) validateSetWrapsSetParameters(va
 	return nil
 }
 
-func validateNewGoogleDataprocJobStatusListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGoogleDataprocJobStatusListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

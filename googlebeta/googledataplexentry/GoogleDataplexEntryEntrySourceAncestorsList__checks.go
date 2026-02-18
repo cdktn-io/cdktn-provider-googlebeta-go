@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (g *jsiiProxy_GoogleDataplexEntryEntrySourceAncestorsList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -29,7 +29,7 @@ func (g *jsiiProxy_GoogleDataplexEntryEntrySourceAncestorsList) validateGetParam
 	return nil
 }
 
-func (g *jsiiProxy_GoogleDataplexEntryEntrySourceAncestorsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleDataplexEntryEntrySourceAncestorsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -39,7 +39,7 @@ func (g *jsiiProxy_GoogleDataplexEntryEntrySourceAncestorsList) validateResolveP
 
 func (j *jsiiProxy_GoogleDataplexEntryEntrySourceAncestorsList) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*GoogleDataplexEntryEntrySourceAncestors:
 		val := val.(*[]*GoogleDataplexEntryEntrySourceAncestors)
@@ -58,7 +58,7 @@ func (j *jsiiProxy_GoogleDataplexEntryEntrySourceAncestorsList) validateSetInter
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *[]*GoogleDataplexEntryEntrySourceAncestors; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *[]*GoogleDataplexEntryEntrySourceAncestors; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -73,7 +73,7 @@ func (j *jsiiProxy_GoogleDataplexEntryEntrySourceAncestorsList) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_GoogleDataplexEntryEntrySourceAncestorsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleDataplexEntryEntrySourceAncestorsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -89,7 +89,7 @@ func (j *jsiiProxy_GoogleDataplexEntryEntrySourceAncestorsList) validateSetWraps
 	return nil
 }
 
-func validateNewGoogleDataplexEntryEntrySourceAncestorsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGoogleDataplexEntryEntrySourceAncestorsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

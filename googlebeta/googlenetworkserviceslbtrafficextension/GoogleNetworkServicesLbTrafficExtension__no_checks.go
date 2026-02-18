@@ -123,7 +123,7 @@ func (j *jsiiProxy_GoogleNetworkServicesLbTrafficExtension) validateSetLabelsPar
 	return nil
 }
 
-func (j *jsiiProxy_GoogleNetworkServicesLbTrafficExtension) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleNetworkServicesLbTrafficExtension) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

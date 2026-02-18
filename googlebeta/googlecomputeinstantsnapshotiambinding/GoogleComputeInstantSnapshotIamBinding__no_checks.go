@@ -107,7 +107,7 @@ func (j *jsiiProxy_GoogleComputeInstantSnapshotIamBinding) validateSetIdParamete
 	return nil
 }
 
-func (j *jsiiProxy_GoogleComputeInstantSnapshotIamBinding) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleComputeInstantSnapshotIamBinding) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

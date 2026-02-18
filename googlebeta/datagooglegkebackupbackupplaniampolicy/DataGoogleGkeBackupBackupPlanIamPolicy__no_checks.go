@@ -79,7 +79,7 @@ func (j *jsiiProxy_DataGoogleGkeBackupBackupPlanIamPolicy) validateSetIdParamete
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleGkeBackupBackupPlanIamPolicy) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataGoogleGkeBackupBackupPlanIamPolicy) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

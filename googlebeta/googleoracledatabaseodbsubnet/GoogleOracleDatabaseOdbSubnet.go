@@ -5,18 +5,18 @@ package googleoracledatabaseodbsubnet
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleoracledatabaseodbsubnet/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleoracledatabaseodbsubnet/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_oracle_database_odb_subnet google_oracle_database_odb_subnet}.
 type GoogleOracleDatabaseOdbSubnet interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	CidrRange() *string
 	SetCidrRange(val *string)
 	CidrRangeInput() *string
@@ -38,11 +38,11 @@ type GoogleOracleDatabaseOdbSubnet interface {
 	DependsOn() *[]*string
 	// Experimental.
 	SetDependsOn(val *[]*string)
-	EffectiveLabels() cdktf.StringMap
+	EffectiveLabels() cdktn.StringMap
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -54,9 +54,9 @@ type GoogleOracleDatabaseOdbSubnet interface {
 	SetLabels(val *map[string]*string)
 	LabelsInput() *map[string]*string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Location() *string
 	SetLocation(val *string)
 	LocationInput() *string
@@ -73,9 +73,9 @@ type GoogleOracleDatabaseOdbSubnet interface {
 	SetProject(val *string)
 	ProjectInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -87,8 +87,8 @@ type GoogleOracleDatabaseOdbSubnet interface {
 	RawOverrides() interface{}
 	State() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
-	TerraformLabels() cdktf.StringMap
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
+	TerraformLabels() cdktn.StringMap
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -103,7 +103,7 @@ type GoogleOracleDatabaseOdbSubnet interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -121,9 +121,9 @@ type GoogleOracleDatabaseOdbSubnet interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -162,11 +162,11 @@ type GoogleOracleDatabaseOdbSubnet interface {
 
 // The jsii proxy struct for GoogleOracleDatabaseOdbSubnet
 type jsiiProxy_GoogleOracleDatabaseOdbSubnet struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
-func (j *jsiiProxy_GoogleOracleDatabaseOdbSubnet) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_GoogleOracleDatabaseOdbSubnet) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -265,8 +265,8 @@ func (j *jsiiProxy_GoogleOracleDatabaseOdbSubnet) DependsOn() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleOracleDatabaseOdbSubnet) EffectiveLabels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_GoogleOracleDatabaseOdbSubnet) EffectiveLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"effectiveLabels",
@@ -275,8 +275,8 @@ func (j *jsiiProxy_GoogleOracleDatabaseOdbSubnet) EffectiveLabels() cdktf.String
 	return returns
 }
 
-func (j *jsiiProxy_GoogleOracleDatabaseOdbSubnet) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_GoogleOracleDatabaseOdbSubnet) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -345,8 +345,8 @@ func (j *jsiiProxy_GoogleOracleDatabaseOdbSubnet) LabelsInput() *map[string]*str
 	return returns
 }
 
-func (j *jsiiProxy_GoogleOracleDatabaseOdbSubnet) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_GoogleOracleDatabaseOdbSubnet) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -455,8 +455,8 @@ func (j *jsiiProxy_GoogleOracleDatabaseOdbSubnet) ProjectInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleOracleDatabaseOdbSubnet) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_GoogleOracleDatabaseOdbSubnet) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -515,8 +515,8 @@ func (j *jsiiProxy_GoogleOracleDatabaseOdbSubnet) State() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleOracleDatabaseOdbSubnet) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_GoogleOracleDatabaseOdbSubnet) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -525,8 +525,8 @@ func (j *jsiiProxy_GoogleOracleDatabaseOdbSubnet) TerraformGeneratorMetadata() *
 	return returns
 }
 
-func (j *jsiiProxy_GoogleOracleDatabaseOdbSubnet) TerraformLabels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_GoogleOracleDatabaseOdbSubnet) TerraformLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"terraformLabels",
@@ -657,7 +657,7 @@ func (j *jsiiProxy_GoogleOracleDatabaseOdbSubnet)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_GoogleOracleDatabaseOdbSubnet)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_GoogleOracleDatabaseOdbSubnet)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -687,7 +687,7 @@ func (j *jsiiProxy_GoogleOracleDatabaseOdbSubnet)SetLabels(val *map[string]*stri
 	)
 }
 
-func (j *jsiiProxy_GoogleOracleDatabaseOdbSubnet)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_GoogleOracleDatabaseOdbSubnet)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -742,7 +742,7 @@ func (j *jsiiProxy_GoogleOracleDatabaseOdbSubnet)SetProject(val *string) {
 	)
 }
 
-func (j *jsiiProxy_GoogleOracleDatabaseOdbSubnet)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_GoogleOracleDatabaseOdbSubnet)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -772,14 +772,14 @@ func (j *jsiiProxy_GoogleOracleDatabaseOdbSubnet)SetPurpose(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a GoogleOracleDatabaseOdbSubnet resource upon running "cdktf plan <stack-name>".
-func GoogleOracleDatabaseOdbSubnet_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a GoogleOracleDatabaseOdbSubnet resource upon running "cdktn plan <stack-name>".
+func GoogleOracleDatabaseOdbSubnet_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateGoogleOracleDatabaseOdbSubnet_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google-beta.googleOracleDatabaseOdbSubnet.GoogleOracleDatabaseOdbSubnet",
@@ -913,11 +913,11 @@ func (g *jsiiProxy_GoogleOracleDatabaseOdbSubnet) GetAnyMapAttribute(terraformAt
 	return returns
 }
 
-func (g *jsiiProxy_GoogleOracleDatabaseOdbSubnet) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleOracleDatabaseOdbSubnet) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -1054,7 +1054,7 @@ func (g *jsiiProxy_GoogleOracleDatabaseOdbSubnet) HasResourceMove() interface{} 
 	return returns
 }
 
-func (g *jsiiProxy_GoogleOracleDatabaseOdbSubnet) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (g *jsiiProxy_GoogleOracleDatabaseOdbSubnet) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := g.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1065,11 +1065,11 @@ func (g *jsiiProxy_GoogleOracleDatabaseOdbSubnet) ImportFrom(id *string, provide
 	)
 }
 
-func (g *jsiiProxy_GoogleOracleDatabaseOdbSubnet) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleOracleDatabaseOdbSubnet) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,

@@ -15,7 +15,7 @@ func (g *jsiiProxy_GoogleCertificateManagerCertificateMapGclbTargetsList) valida
 	return nil
 }
 
-func (g *jsiiProxy_GoogleCertificateManagerCertificateMapGclbTargetsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleCertificateManagerCertificateMapGclbTargetsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_GoogleCertificateManagerCertificateMapGclbTargetsList) valida
 	return nil
 }
 
-func (j *jsiiProxy_GoogleCertificateManagerCertificateMapGclbTargetsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleCertificateManagerCertificateMapGclbTargetsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_GoogleCertificateManagerCertificateMapGclbTargetsList) valida
 	return nil
 }
 
-func validateNewGoogleCertificateManagerCertificateMapGclbTargetsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGoogleCertificateManagerCertificateMapGclbTargetsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

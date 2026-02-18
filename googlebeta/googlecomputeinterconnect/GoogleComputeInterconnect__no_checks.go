@@ -139,7 +139,7 @@ func (j *jsiiProxy_GoogleComputeInterconnect) validateSetLabelsParameters(val *m
 	return nil
 }
 
-func (j *jsiiProxy_GoogleComputeInterconnect) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleComputeInterconnect) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

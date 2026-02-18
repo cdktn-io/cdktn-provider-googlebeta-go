@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleLookerInstanceDenyMaintenancePeriodStartDateOutputRefer
 	return nil
 }
 
-func (g *jsiiProxy_GoogleLookerInstanceDenyMaintenancePeriodStartDateOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleLookerInstanceDenyMaintenancePeriodStartDateOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_GoogleLookerInstanceDenyMaintenancePeriodStartDateOutputRefer
 	return nil
 }
 
-func (j *jsiiProxy_GoogleLookerInstanceDenyMaintenancePeriodStartDateOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleLookerInstanceDenyMaintenancePeriodStartDateOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_GoogleLookerInstanceDenyMaintenancePeriodStartDateOutputRefer
 	return nil
 }
 
-func validateNewGoogleLookerInstanceDenyMaintenancePeriodStartDateOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleLookerInstanceDenyMaintenancePeriodStartDateOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

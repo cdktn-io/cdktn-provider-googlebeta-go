@@ -5,20 +5,20 @@ package googlecertificatemanagertrustconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecertificatemanagertrustconfig/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecertificatemanagertrustconfig/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_certificate_manager_trust_config google_certificate_manager_trust_config}.
 type GoogleCertificateManagerTrustConfig interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	AllowlistedCertificates() GoogleCertificateManagerTrustConfigAllowlistedCertificatesList
 	AllowlistedCertificatesInput() interface{}
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -37,11 +37,11 @@ type GoogleCertificateManagerTrustConfig interface {
 	Description() *string
 	SetDescription(val *string)
 	DescriptionInput() *string
-	EffectiveLabels() cdktf.StringMap
+	EffectiveLabels() cdktn.StringMap
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -53,9 +53,9 @@ type GoogleCertificateManagerTrustConfig interface {
 	SetLabels(val *map[string]*string)
 	LabelsInput() *map[string]*string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Location() *string
 	SetLocation(val *string)
 	LocationInput() *string
@@ -68,9 +68,9 @@ type GoogleCertificateManagerTrustConfig interface {
 	SetProject(val *string)
 	ProjectInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -78,8 +78,8 @@ type GoogleCertificateManagerTrustConfig interface {
 	// Experimental.
 	RawOverrides() interface{}
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
-	TerraformLabels() cdktf.StringMap
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
+	TerraformLabels() cdktn.StringMap
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -97,7 +97,7 @@ type GoogleCertificateManagerTrustConfig interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -115,9 +115,9 @@ type GoogleCertificateManagerTrustConfig interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -160,7 +160,7 @@ type GoogleCertificateManagerTrustConfig interface {
 
 // The jsii proxy struct for GoogleCertificateManagerTrustConfig
 type jsiiProxy_GoogleCertificateManagerTrustConfig struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_GoogleCertificateManagerTrustConfig) AllowlistedCertificates() GoogleCertificateManagerTrustConfigAllowlistedCertificatesList {
@@ -183,8 +183,8 @@ func (j *jsiiProxy_GoogleCertificateManagerTrustConfig) AllowlistedCertificatesI
 	return returns
 }
 
-func (j *jsiiProxy_GoogleCertificateManagerTrustConfig) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_GoogleCertificateManagerTrustConfig) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -263,8 +263,8 @@ func (j *jsiiProxy_GoogleCertificateManagerTrustConfig) DescriptionInput() *stri
 	return returns
 }
 
-func (j *jsiiProxy_GoogleCertificateManagerTrustConfig) EffectiveLabels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_GoogleCertificateManagerTrustConfig) EffectiveLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"effectiveLabels",
@@ -273,8 +273,8 @@ func (j *jsiiProxy_GoogleCertificateManagerTrustConfig) EffectiveLabels() cdktf.
 	return returns
 }
 
-func (j *jsiiProxy_GoogleCertificateManagerTrustConfig) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_GoogleCertificateManagerTrustConfig) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -343,8 +343,8 @@ func (j *jsiiProxy_GoogleCertificateManagerTrustConfig) LabelsInput() *map[strin
 	return returns
 }
 
-func (j *jsiiProxy_GoogleCertificateManagerTrustConfig) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_GoogleCertificateManagerTrustConfig) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -423,8 +423,8 @@ func (j *jsiiProxy_GoogleCertificateManagerTrustConfig) ProjectInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleCertificateManagerTrustConfig) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_GoogleCertificateManagerTrustConfig) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -453,8 +453,8 @@ func (j *jsiiProxy_GoogleCertificateManagerTrustConfig) RawOverrides() interface
 	return returns
 }
 
-func (j *jsiiProxy_GoogleCertificateManagerTrustConfig) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_GoogleCertificateManagerTrustConfig) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -463,8 +463,8 @@ func (j *jsiiProxy_GoogleCertificateManagerTrustConfig) TerraformGeneratorMetada
 	return returns
 }
 
-func (j *jsiiProxy_GoogleCertificateManagerTrustConfig) TerraformLabels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_GoogleCertificateManagerTrustConfig) TerraformLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"terraformLabels",
@@ -614,7 +614,7 @@ func (j *jsiiProxy_GoogleCertificateManagerTrustConfig)SetDescription(val *strin
 	)
 }
 
-func (j *jsiiProxy_GoogleCertificateManagerTrustConfig)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_GoogleCertificateManagerTrustConfig)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -644,7 +644,7 @@ func (j *jsiiProxy_GoogleCertificateManagerTrustConfig)SetLabels(val *map[string
 	)
 }
 
-func (j *jsiiProxy_GoogleCertificateManagerTrustConfig)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_GoogleCertificateManagerTrustConfig)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -688,7 +688,7 @@ func (j *jsiiProxy_GoogleCertificateManagerTrustConfig)SetProject(val *string) {
 	)
 }
 
-func (j *jsiiProxy_GoogleCertificateManagerTrustConfig)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_GoogleCertificateManagerTrustConfig)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -707,14 +707,14 @@ func (j *jsiiProxy_GoogleCertificateManagerTrustConfig)SetProvisioners(val *[]in
 	)
 }
 
-// Generates CDKTF code for importing a GoogleCertificateManagerTrustConfig resource upon running "cdktf plan <stack-name>".
-func GoogleCertificateManagerTrustConfig_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a GoogleCertificateManagerTrustConfig resource upon running "cdktn plan <stack-name>".
+func GoogleCertificateManagerTrustConfig_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateGoogleCertificateManagerTrustConfig_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google-beta.googleCertificateManagerTrustConfig.GoogleCertificateManagerTrustConfig",
@@ -848,11 +848,11 @@ func (g *jsiiProxy_GoogleCertificateManagerTrustConfig) GetAnyMapAttribute(terra
 	return returns
 }
 
-func (g *jsiiProxy_GoogleCertificateManagerTrustConfig) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleCertificateManagerTrustConfig) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -989,7 +989,7 @@ func (g *jsiiProxy_GoogleCertificateManagerTrustConfig) HasResourceMove() interf
 	return returns
 }
 
-func (g *jsiiProxy_GoogleCertificateManagerTrustConfig) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (g *jsiiProxy_GoogleCertificateManagerTrustConfig) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := g.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1000,11 +1000,11 @@ func (g *jsiiProxy_GoogleCertificateManagerTrustConfig) ImportFrom(id *string, p
 	)
 }
 
-func (g *jsiiProxy_GoogleCertificateManagerTrustConfig) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleCertificateManagerTrustConfig) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,

@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataGoogleStorageBucketObjectsBucketObjectsOutputReference) v
 	return nil
 }
 
-func (d *jsiiProxy_DataGoogleStorageBucketObjectsBucketObjectsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataGoogleStorageBucketObjectsBucketObjectsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataGoogleStorageBucketObjectsBucketObjectsOutputReference) v
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleStorageBucketObjectsBucketObjectsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataGoogleStorageBucketObjectsBucketObjectsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataGoogleStorageBucketObjectsBucketObjectsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataGoogleStorageBucketObjectsBucketObjectsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

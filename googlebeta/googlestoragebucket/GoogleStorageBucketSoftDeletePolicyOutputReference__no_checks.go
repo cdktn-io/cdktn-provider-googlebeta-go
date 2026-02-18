@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleStorageBucketSoftDeletePolicyOutputReference) validateI
 	return nil
 }
 
-func (g *jsiiProxy_GoogleStorageBucketSoftDeletePolicyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleStorageBucketSoftDeletePolicyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_GoogleStorageBucketSoftDeletePolicyOutputReference) validateS
 	return nil
 }
 
-func (j *jsiiProxy_GoogleStorageBucketSoftDeletePolicyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleStorageBucketSoftDeletePolicyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleStorageBucketSoftDeletePolicyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleStorageBucketSoftDeletePolicyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

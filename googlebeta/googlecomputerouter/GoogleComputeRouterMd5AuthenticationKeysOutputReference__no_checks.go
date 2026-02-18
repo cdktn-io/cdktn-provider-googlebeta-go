@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleComputeRouterMd5AuthenticationKeysOutputReference) vali
 	return nil
 }
 
-func (g *jsiiProxy_GoogleComputeRouterMd5AuthenticationKeysOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleComputeRouterMd5AuthenticationKeysOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_GoogleComputeRouterMd5AuthenticationKeysOutputReference) vali
 	return nil
 }
 
-func (j *jsiiProxy_GoogleComputeRouterMd5AuthenticationKeysOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleComputeRouterMd5AuthenticationKeysOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleComputeRouterMd5AuthenticationKeysOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleComputeRouterMd5AuthenticationKeysOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

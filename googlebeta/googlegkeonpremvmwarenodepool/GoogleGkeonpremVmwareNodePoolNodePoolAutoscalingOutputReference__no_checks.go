@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleGkeonpremVmwareNodePoolNodePoolAutoscalingOutputReferen
 	return nil
 }
 
-func (g *jsiiProxy_GoogleGkeonpremVmwareNodePoolNodePoolAutoscalingOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleGkeonpremVmwareNodePoolNodePoolAutoscalingOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_GoogleGkeonpremVmwareNodePoolNodePoolAutoscalingOutputReferen
 	return nil
 }
 
-func (j *jsiiProxy_GoogleGkeonpremVmwareNodePoolNodePoolAutoscalingOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleGkeonpremVmwareNodePoolNodePoolAutoscalingOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleGkeonpremVmwareNodePoolNodePoolAutoscalingOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleGkeonpremVmwareNodePoolNodePoolAutoscalingOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

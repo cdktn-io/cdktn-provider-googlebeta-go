@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataGoogleGkeHubFeatureSpecMulticlusteringressList) validateG
 	return nil
 }
 
-func (d *jsiiProxy_DataGoogleGkeHubFeatureSpecMulticlusteringressList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataGoogleGkeHubFeatureSpecMulticlusteringressList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataGoogleGkeHubFeatureSpecMulticlusteringressList) validateS
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleGkeHubFeatureSpecMulticlusteringressList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataGoogleGkeHubFeatureSpecMulticlusteringressList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataGoogleGkeHubFeatureSpecMulticlusteringressList) validateS
 	return nil
 }
 
-func validateNewDataGoogleGkeHubFeatureSpecMulticlusteringressListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataGoogleGkeHubFeatureSpecMulticlusteringressListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

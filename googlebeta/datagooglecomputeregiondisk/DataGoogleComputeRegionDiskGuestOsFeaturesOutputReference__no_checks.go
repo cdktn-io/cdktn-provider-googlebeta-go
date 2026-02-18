@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataGoogleComputeRegionDiskGuestOsFeaturesOutputReference) va
 	return nil
 }
 
-func (d *jsiiProxy_DataGoogleComputeRegionDiskGuestOsFeaturesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataGoogleComputeRegionDiskGuestOsFeaturesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataGoogleComputeRegionDiskGuestOsFeaturesOutputReference) va
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleComputeRegionDiskGuestOsFeaturesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataGoogleComputeRegionDiskGuestOsFeaturesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataGoogleComputeRegionDiskGuestOsFeaturesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataGoogleComputeRegionDiskGuestOsFeaturesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

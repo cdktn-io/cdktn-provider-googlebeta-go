@@ -5,19 +5,19 @@ package datagooglesecretmanagersecret
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagooglesecretmanagersecret/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagooglesecretmanagersecret/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_secret_manager_secret google_secret_manager_secret}.
 type DataGoogleSecretManagerSecret interface {
-	cdktf.TerraformDataSource
-	Annotations() cdktf.StringMap
+	cdktn.TerraformDataSource
+	Annotations() cdktn.StringMap
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
 	// Experimental.
@@ -25,18 +25,18 @@ type DataGoogleSecretManagerSecret interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
-	DeletionProtection() cdktf.IResolvable
+	DeletionProtection() cdktn.IResolvable
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
 	SetDependsOn(val *[]*string)
-	EffectiveAnnotations() cdktf.StringMap
-	EffectiveLabels() cdktf.StringMap
+	EffectiveAnnotations() cdktn.StringMap
+	EffectiveLabels() cdktn.StringMap
 	ExpireTime() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -44,11 +44,11 @@ type DataGoogleSecretManagerSecret interface {
 	Id() *string
 	SetId(val *string)
 	IdInput() *string
-	Labels() cdktf.StringMap
+	Labels() cdktn.StringMap
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Name() *string
 	// The tree node.
 	Node() constructs.Node
@@ -56,9 +56,9 @@ type DataGoogleSecretManagerSecret interface {
 	SetProject(val *string)
 	ProjectInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	RawOverrides() interface{}
 	Replication() DataGoogleSecretManagerSecretReplicationList
@@ -66,24 +66,24 @@ type DataGoogleSecretManagerSecret interface {
 	SecretId() *string
 	SetSecretId(val *string)
 	SecretIdInput() *string
-	Tags() cdktf.StringMap
+	Tags() cdktn.StringMap
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
-	TerraformLabels() cdktf.StringMap
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
+	TerraformLabels() cdktn.StringMap
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
 	TerraformResourceType() *string
 	Topics() DataGoogleSecretManagerSecretTopicsList
 	Ttl() *string
-	VersionAliases() cdktf.StringMap
+	VersionAliases() cdktn.StringMap
 	VersionDestroyTtl() *string
 	// Experimental.
 	AddOverride(path *string, value interface{})
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -99,7 +99,7 @@ type DataGoogleSecretManagerSecret interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
@@ -124,11 +124,11 @@ type DataGoogleSecretManagerSecret interface {
 
 // The jsii proxy struct for DataGoogleSecretManagerSecret
 type jsiiProxy_DataGoogleSecretManagerSecret struct {
-	internal.Type__cdktfTerraformDataSource
+	internal.Type__cdktnTerraformDataSource
 }
 
-func (j *jsiiProxy_DataGoogleSecretManagerSecret) Annotations() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_DataGoogleSecretManagerSecret) Annotations() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"annotations",
@@ -137,8 +137,8 @@ func (j *jsiiProxy_DataGoogleSecretManagerSecret) Annotations() cdktf.StringMap 
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleSecretManagerSecret) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataGoogleSecretManagerSecret) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -177,8 +177,8 @@ func (j *jsiiProxy_DataGoogleSecretManagerSecret) CreateTime() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleSecretManagerSecret) DeletionProtection() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataGoogleSecretManagerSecret) DeletionProtection() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"deletionProtection",
@@ -197,8 +197,8 @@ func (j *jsiiProxy_DataGoogleSecretManagerSecret) DependsOn() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleSecretManagerSecret) EffectiveAnnotations() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_DataGoogleSecretManagerSecret) EffectiveAnnotations() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"effectiveAnnotations",
@@ -207,8 +207,8 @@ func (j *jsiiProxy_DataGoogleSecretManagerSecret) EffectiveAnnotations() cdktf.S
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleSecretManagerSecret) EffectiveLabels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_DataGoogleSecretManagerSecret) EffectiveLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"effectiveLabels",
@@ -227,8 +227,8 @@ func (j *jsiiProxy_DataGoogleSecretManagerSecret) ExpireTime() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleSecretManagerSecret) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataGoogleSecretManagerSecret) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -277,8 +277,8 @@ func (j *jsiiProxy_DataGoogleSecretManagerSecret) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleSecretManagerSecret) Labels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_DataGoogleSecretManagerSecret) Labels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"labels",
@@ -287,8 +287,8 @@ func (j *jsiiProxy_DataGoogleSecretManagerSecret) Labels() cdktf.StringMap {
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleSecretManagerSecret) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataGoogleSecretManagerSecret) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -337,8 +337,8 @@ func (j *jsiiProxy_DataGoogleSecretManagerSecret) ProjectInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleSecretManagerSecret) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataGoogleSecretManagerSecret) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -397,8 +397,8 @@ func (j *jsiiProxy_DataGoogleSecretManagerSecret) SecretIdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleSecretManagerSecret) Tags() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_DataGoogleSecretManagerSecret) Tags() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"tags",
@@ -407,8 +407,8 @@ func (j *jsiiProxy_DataGoogleSecretManagerSecret) Tags() cdktf.StringMap {
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleSecretManagerSecret) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataGoogleSecretManagerSecret) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -417,8 +417,8 @@ func (j *jsiiProxy_DataGoogleSecretManagerSecret) TerraformGeneratorMetadata() *
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleSecretManagerSecret) TerraformLabels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_DataGoogleSecretManagerSecret) TerraformLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"terraformLabels",
@@ -467,8 +467,8 @@ func (j *jsiiProxy_DataGoogleSecretManagerSecret) Ttl() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleSecretManagerSecret) VersionAliases() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_DataGoogleSecretManagerSecret) VersionAliases() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"versionAliases",
@@ -536,7 +536,7 @@ func (j *jsiiProxy_DataGoogleSecretManagerSecret)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_DataGoogleSecretManagerSecret)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataGoogleSecretManagerSecret)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -555,7 +555,7 @@ func (j *jsiiProxy_DataGoogleSecretManagerSecret)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataGoogleSecretManagerSecret)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataGoogleSecretManagerSecret)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -577,7 +577,7 @@ func (j *jsiiProxy_DataGoogleSecretManagerSecret)SetProject(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataGoogleSecretManagerSecret)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataGoogleSecretManagerSecret)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -596,14 +596,14 @@ func (j *jsiiProxy_DataGoogleSecretManagerSecret)SetSecretId(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a DataGoogleSecretManagerSecret resource upon running "cdktf plan <stack-name>".
-func DataGoogleSecretManagerSecret_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataGoogleSecretManagerSecret resource upon running "cdktn plan <stack-name>".
+func DataGoogleSecretManagerSecret_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataGoogleSecretManagerSecret_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google-beta.dataGoogleSecretManagerSecret.DataGoogleSecretManagerSecret",
@@ -726,11 +726,11 @@ func (d *jsiiProxy_DataGoogleSecretManagerSecret) GetAnyMapAttribute(terraformAt
 	return returns
 }
 
-func (d *jsiiProxy_DataGoogleSecretManagerSecret) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataGoogleSecretManagerSecret) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -854,11 +854,11 @@ func (d *jsiiProxy_DataGoogleSecretManagerSecret) GetStringMapAttribute(terrafor
 	return returns
 }
 
-func (d *jsiiProxy_DataGoogleSecretManagerSecret) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataGoogleSecretManagerSecret) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleComputeSecurityPolicyRuleRedirectOptionsOutputReference
 	return nil
 }
 
-func (g *jsiiProxy_GoogleComputeSecurityPolicyRuleRedirectOptionsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleComputeSecurityPolicyRuleRedirectOptionsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_GoogleComputeSecurityPolicyRuleRedirectOptionsOutputReference
 	return nil
 }
 
-func (j *jsiiProxy_GoogleComputeSecurityPolicyRuleRedirectOptionsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleComputeSecurityPolicyRuleRedirectOptionsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_GoogleComputeSecurityPolicyRuleRedirectOptionsOutputReference
 	return nil
 }
 
-func validateNewGoogleComputeSecurityPolicyRuleRedirectOptionsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleComputeSecurityPolicyRuleRedirectOptionsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

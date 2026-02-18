@@ -5,21 +5,21 @@ package googledataplexglossarycategory
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googledataplexglossarycategory/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataplexglossarycategory/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_glossary_category google_dataplex_glossary_category}.
 type GoogleDataplexGlossaryCategory interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	CategoryId() *string
 	SetCategoryId(val *string)
 	CategoryIdInput() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -41,11 +41,11 @@ type GoogleDataplexGlossaryCategory interface {
 	DisplayName() *string
 	SetDisplayName(val *string)
 	DisplayNameInput() *string
-	EffectiveLabels() cdktf.StringMap
+	EffectiveLabels() cdktn.StringMap
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -60,9 +60,9 @@ type GoogleDataplexGlossaryCategory interface {
 	SetLabels(val *map[string]*string)
 	LabelsInput() *map[string]*string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Location() *string
 	SetLocation(val *string)
 	LocationInput() *string
@@ -76,9 +76,9 @@ type GoogleDataplexGlossaryCategory interface {
 	SetProject(val *string)
 	ProjectInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -86,8 +86,8 @@ type GoogleDataplexGlossaryCategory interface {
 	// Experimental.
 	RawOverrides() interface{}
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
-	TerraformLabels() cdktf.StringMap
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
+	TerraformLabels() cdktn.StringMap
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -104,7 +104,7 @@ type GoogleDataplexGlossaryCategory interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -122,9 +122,9 @@ type GoogleDataplexGlossaryCategory interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -166,7 +166,7 @@ type GoogleDataplexGlossaryCategory interface {
 
 // The jsii proxy struct for GoogleDataplexGlossaryCategory
 type jsiiProxy_GoogleDataplexGlossaryCategory struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_GoogleDataplexGlossaryCategory) CategoryId() *string {
@@ -189,8 +189,8 @@ func (j *jsiiProxy_GoogleDataplexGlossaryCategory) CategoryIdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleDataplexGlossaryCategory) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_GoogleDataplexGlossaryCategory) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -289,8 +289,8 @@ func (j *jsiiProxy_GoogleDataplexGlossaryCategory) DisplayNameInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleDataplexGlossaryCategory) EffectiveLabels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_GoogleDataplexGlossaryCategory) EffectiveLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"effectiveLabels",
@@ -299,8 +299,8 @@ func (j *jsiiProxy_GoogleDataplexGlossaryCategory) EffectiveLabels() cdktf.Strin
 	return returns
 }
 
-func (j *jsiiProxy_GoogleDataplexGlossaryCategory) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_GoogleDataplexGlossaryCategory) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -389,8 +389,8 @@ func (j *jsiiProxy_GoogleDataplexGlossaryCategory) LabelsInput() *map[string]*st
 	return returns
 }
 
-func (j *jsiiProxy_GoogleDataplexGlossaryCategory) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_GoogleDataplexGlossaryCategory) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -479,8 +479,8 @@ func (j *jsiiProxy_GoogleDataplexGlossaryCategory) ProjectInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleDataplexGlossaryCategory) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_GoogleDataplexGlossaryCategory) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -509,8 +509,8 @@ func (j *jsiiProxy_GoogleDataplexGlossaryCategory) RawOverrides() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleDataplexGlossaryCategory) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_GoogleDataplexGlossaryCategory) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -519,8 +519,8 @@ func (j *jsiiProxy_GoogleDataplexGlossaryCategory) TerraformGeneratorMetadata() 
 	return returns
 }
 
-func (j *jsiiProxy_GoogleDataplexGlossaryCategory) TerraformLabels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_GoogleDataplexGlossaryCategory) TerraformLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"terraformLabels",
@@ -682,7 +682,7 @@ func (j *jsiiProxy_GoogleDataplexGlossaryCategory)SetDisplayName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_GoogleDataplexGlossaryCategory)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_GoogleDataplexGlossaryCategory)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -723,7 +723,7 @@ func (j *jsiiProxy_GoogleDataplexGlossaryCategory)SetLabels(val *map[string]*str
 	)
 }
 
-func (j *jsiiProxy_GoogleDataplexGlossaryCategory)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_GoogleDataplexGlossaryCategory)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -767,7 +767,7 @@ func (j *jsiiProxy_GoogleDataplexGlossaryCategory)SetProject(val *string) {
 	)
 }
 
-func (j *jsiiProxy_GoogleDataplexGlossaryCategory)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_GoogleDataplexGlossaryCategory)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -786,14 +786,14 @@ func (j *jsiiProxy_GoogleDataplexGlossaryCategory)SetProvisioners(val *[]interfa
 	)
 }
 
-// Generates CDKTF code for importing a GoogleDataplexGlossaryCategory resource upon running "cdktf plan <stack-name>".
-func GoogleDataplexGlossaryCategory_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a GoogleDataplexGlossaryCategory resource upon running "cdktn plan <stack-name>".
+func GoogleDataplexGlossaryCategory_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateGoogleDataplexGlossaryCategory_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google-beta.googleDataplexGlossaryCategory.GoogleDataplexGlossaryCategory",
@@ -927,11 +927,11 @@ func (g *jsiiProxy_GoogleDataplexGlossaryCategory) GetAnyMapAttribute(terraformA
 	return returns
 }
 
-func (g *jsiiProxy_GoogleDataplexGlossaryCategory) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleDataplexGlossaryCategory) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -1068,7 +1068,7 @@ func (g *jsiiProxy_GoogleDataplexGlossaryCategory) HasResourceMove() interface{}
 	return returns
 }
 
-func (g *jsiiProxy_GoogleDataplexGlossaryCategory) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (g *jsiiProxy_GoogleDataplexGlossaryCategory) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := g.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1079,11 +1079,11 @@ func (g *jsiiProxy_GoogleDataplexGlossaryCategory) ImportFrom(id *string, provid
 	)
 }
 
-func (g *jsiiProxy_GoogleDataplexGlossaryCategory) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleDataplexGlossaryCategory) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,

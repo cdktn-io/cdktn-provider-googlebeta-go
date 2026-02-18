@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleApikeysKeyRestrictionsApiTargetsOutputReference) valida
 	return nil
 }
 
-func (g *jsiiProxy_GoogleApikeysKeyRestrictionsApiTargetsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleApikeysKeyRestrictionsApiTargetsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_GoogleApikeysKeyRestrictionsApiTargetsOutputReference) valida
 	return nil
 }
 
-func (j *jsiiProxy_GoogleApikeysKeyRestrictionsApiTargetsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleApikeysKeyRestrictionsApiTargetsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleApikeysKeyRestrictionsApiTargetsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewGoogleApikeysKeyRestrictionsApiTargetsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

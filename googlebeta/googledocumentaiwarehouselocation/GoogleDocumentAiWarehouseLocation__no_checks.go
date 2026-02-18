@@ -123,7 +123,7 @@ func (j *jsiiProxy_GoogleDocumentAiWarehouseLocation) validateSetKmsKeyParameter
 	return nil
 }
 
-func (j *jsiiProxy_GoogleDocumentAiWarehouseLocation) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleDocumentAiWarehouseLocation) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

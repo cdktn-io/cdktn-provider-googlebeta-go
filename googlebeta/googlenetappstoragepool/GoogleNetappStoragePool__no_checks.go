@@ -147,7 +147,7 @@ func (j *jsiiProxy_GoogleNetappStoragePool) validateSetLdapEnabledParameters(val
 	return nil
 }
 
-func (j *jsiiProxy_GoogleNetappStoragePool) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleNetappStoragePool) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

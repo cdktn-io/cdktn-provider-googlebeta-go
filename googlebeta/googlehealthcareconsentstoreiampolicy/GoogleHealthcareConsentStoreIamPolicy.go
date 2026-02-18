@@ -5,18 +5,18 @@ package googlehealthcareconsentstoreiampolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlehealthcareconsentstoreiampolicy/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlehealthcareconsentstoreiampolicy/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_healthcare_consent_store_iam_policy google_healthcare_consent_store_iam_policy}.
 type GoogleHealthcareConsentStoreIamPolicy interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -39,9 +39,9 @@ type GoogleHealthcareConsentStoreIamPolicy interface {
 	SetDependsOn(val *[]*string)
 	Etag() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -50,18 +50,18 @@ type GoogleHealthcareConsentStoreIamPolicy interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	// The tree node.
 	Node() constructs.Node
 	PolicyData() *string
 	SetPolicyData(val *string)
 	PolicyDataInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -69,7 +69,7 @@ type GoogleHealthcareConsentStoreIamPolicy interface {
 	// Experimental.
 	RawOverrides() interface{}
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -82,7 +82,7 @@ type GoogleHealthcareConsentStoreIamPolicy interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -100,9 +100,9 @@ type GoogleHealthcareConsentStoreIamPolicy interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -136,11 +136,11 @@ type GoogleHealthcareConsentStoreIamPolicy interface {
 
 // The jsii proxy struct for GoogleHealthcareConsentStoreIamPolicy
 type jsiiProxy_GoogleHealthcareConsentStoreIamPolicy struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
-func (j *jsiiProxy_GoogleHealthcareConsentStoreIamPolicy) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_GoogleHealthcareConsentStoreIamPolicy) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -239,8 +239,8 @@ func (j *jsiiProxy_GoogleHealthcareConsentStoreIamPolicy) Etag() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleHealthcareConsentStoreIamPolicy) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_GoogleHealthcareConsentStoreIamPolicy) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -289,8 +289,8 @@ func (j *jsiiProxy_GoogleHealthcareConsentStoreIamPolicy) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleHealthcareConsentStoreIamPolicy) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_GoogleHealthcareConsentStoreIamPolicy) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -329,8 +329,8 @@ func (j *jsiiProxy_GoogleHealthcareConsentStoreIamPolicy) PolicyDataInput() *str
 	return returns
 }
 
-func (j *jsiiProxy_GoogleHealthcareConsentStoreIamPolicy) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_GoogleHealthcareConsentStoreIamPolicy) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -359,8 +359,8 @@ func (j *jsiiProxy_GoogleHealthcareConsentStoreIamPolicy) RawOverrides() interfa
 	return returns
 }
 
-func (j *jsiiProxy_GoogleHealthcareConsentStoreIamPolicy) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_GoogleHealthcareConsentStoreIamPolicy) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -471,7 +471,7 @@ func (j *jsiiProxy_GoogleHealthcareConsentStoreIamPolicy)SetDependsOn(val *[]*st
 	)
 }
 
-func (j *jsiiProxy_GoogleHealthcareConsentStoreIamPolicy)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_GoogleHealthcareConsentStoreIamPolicy)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -490,7 +490,7 @@ func (j *jsiiProxy_GoogleHealthcareConsentStoreIamPolicy)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_GoogleHealthcareConsentStoreIamPolicy)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_GoogleHealthcareConsentStoreIamPolicy)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -512,7 +512,7 @@ func (j *jsiiProxy_GoogleHealthcareConsentStoreIamPolicy)SetPolicyData(val *stri
 	)
 }
 
-func (j *jsiiProxy_GoogleHealthcareConsentStoreIamPolicy)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_GoogleHealthcareConsentStoreIamPolicy)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -531,14 +531,14 @@ func (j *jsiiProxy_GoogleHealthcareConsentStoreIamPolicy)SetProvisioners(val *[]
 	)
 }
 
-// Generates CDKTF code for importing a GoogleHealthcareConsentStoreIamPolicy resource upon running "cdktf plan <stack-name>".
-func GoogleHealthcareConsentStoreIamPolicy_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a GoogleHealthcareConsentStoreIamPolicy resource upon running "cdktn plan <stack-name>".
+func GoogleHealthcareConsentStoreIamPolicy_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateGoogleHealthcareConsentStoreIamPolicy_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google-beta.googleHealthcareConsentStoreIamPolicy.GoogleHealthcareConsentStoreIamPolicy",
@@ -672,11 +672,11 @@ func (g *jsiiProxy_GoogleHealthcareConsentStoreIamPolicy) GetAnyMapAttribute(ter
 	return returns
 }
 
-func (g *jsiiProxy_GoogleHealthcareConsentStoreIamPolicy) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleHealthcareConsentStoreIamPolicy) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -813,7 +813,7 @@ func (g *jsiiProxy_GoogleHealthcareConsentStoreIamPolicy) HasResourceMove() inte
 	return returns
 }
 
-func (g *jsiiProxy_GoogleHealthcareConsentStoreIamPolicy) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (g *jsiiProxy_GoogleHealthcareConsentStoreIamPolicy) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := g.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -824,11 +824,11 @@ func (g *jsiiProxy_GoogleHealthcareConsentStoreIamPolicy) ImportFrom(id *string,
 	)
 }
 
-func (g *jsiiProxy_GoogleHealthcareConsentStoreIamPolicy) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleHealthcareConsentStoreIamPolicy) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,

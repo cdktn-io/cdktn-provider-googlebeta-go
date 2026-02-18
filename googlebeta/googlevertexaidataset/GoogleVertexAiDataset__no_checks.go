@@ -119,7 +119,7 @@ func (j *jsiiProxy_GoogleVertexAiDataset) validateSetLabelsParameters(val *map[s
 	return nil
 }
 
-func (j *jsiiProxy_GoogleVertexAiDataset) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleVertexAiDataset) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

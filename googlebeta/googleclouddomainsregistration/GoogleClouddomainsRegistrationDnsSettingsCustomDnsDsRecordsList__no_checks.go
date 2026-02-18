@@ -15,7 +15,7 @@ func (g *jsiiProxy_GoogleClouddomainsRegistrationDnsSettingsCustomDnsDsRecordsLi
 	return nil
 }
 
-func (g *jsiiProxy_GoogleClouddomainsRegistrationDnsSettingsCustomDnsDsRecordsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleClouddomainsRegistrationDnsSettingsCustomDnsDsRecordsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_GoogleClouddomainsRegistrationDnsSettingsCustomDnsDsRecordsLi
 	return nil
 }
 
-func (j *jsiiProxy_GoogleClouddomainsRegistrationDnsSettingsCustomDnsDsRecordsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleClouddomainsRegistrationDnsSettingsCustomDnsDsRecordsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_GoogleClouddomainsRegistrationDnsSettingsCustomDnsDsRecordsLi
 	return nil
 }
 
-func validateNewGoogleClouddomainsRegistrationDnsSettingsCustomDnsDsRecordsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGoogleClouddomainsRegistrationDnsSettingsCustomDnsDsRecordsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

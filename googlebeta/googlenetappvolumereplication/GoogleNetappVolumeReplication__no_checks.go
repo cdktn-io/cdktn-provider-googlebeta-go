@@ -127,7 +127,7 @@ func (j *jsiiProxy_GoogleNetappVolumeReplication) validateSetLabelsParameters(va
 	return nil
 }
 
-func (j *jsiiProxy_GoogleNetappVolumeReplication) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleNetappVolumeReplication) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

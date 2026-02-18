@@ -15,7 +15,7 @@ func (g *jsiiProxy_GoogleNetappVolumeReplicationTransferStatsList) validateGetPa
 	return nil
 }
 
-func (g *jsiiProxy_GoogleNetappVolumeReplicationTransferStatsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleNetappVolumeReplicationTransferStatsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_GoogleNetappVolumeReplicationTransferStatsList) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_GoogleNetappVolumeReplicationTransferStatsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleNetappVolumeReplicationTransferStatsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_GoogleNetappVolumeReplicationTransferStatsList) validateSetWr
 	return nil
 }
 
-func validateNewGoogleNetappVolumeReplicationTransferStatsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGoogleNetappVolumeReplicationTransferStatsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

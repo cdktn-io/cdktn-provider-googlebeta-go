@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataGoogleKmsKeyRingsKeyRingsList) validateGetParameters(inde
 	return nil
 }
 
-func (d *jsiiProxy_DataGoogleKmsKeyRingsKeyRingsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataGoogleKmsKeyRingsKeyRingsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataGoogleKmsKeyRingsKeyRingsList) validateSetTerraformAttrib
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleKmsKeyRingsKeyRingsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataGoogleKmsKeyRingsKeyRingsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataGoogleKmsKeyRingsKeyRingsList) validateSetWrapsSetParamet
 	return nil
 }
 
-func validateNewDataGoogleKmsKeyRingsKeyRingsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataGoogleKmsKeyRingsKeyRingsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

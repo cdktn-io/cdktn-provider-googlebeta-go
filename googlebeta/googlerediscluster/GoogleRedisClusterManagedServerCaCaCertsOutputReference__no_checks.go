@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleRedisClusterManagedServerCaCaCertsOutputReference) vali
 	return nil
 }
 
-func (g *jsiiProxy_GoogleRedisClusterManagedServerCaCaCertsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleRedisClusterManagedServerCaCaCertsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_GoogleRedisClusterManagedServerCaCaCertsOutputReference) vali
 	return nil
 }
 
-func (j *jsiiProxy_GoogleRedisClusterManagedServerCaCaCertsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleRedisClusterManagedServerCaCaCertsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleRedisClusterManagedServerCaCaCertsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewGoogleRedisClusterManagedServerCaCaCertsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

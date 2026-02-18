@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (g *jsiiProxy_GoogleApphubWorkloadAttributesOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -98,7 +98,7 @@ func (g *jsiiProxy_GoogleApphubWorkloadAttributesOutputReference) validatePutBus
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*GoogleApphubWorkloadAttributesBusinessOwners:
 		value := value.(*[]*GoogleApphubWorkloadAttributesBusinessOwners)
@@ -117,7 +117,7 @@ func (g *jsiiProxy_GoogleApphubWorkloadAttributesOutputReference) validatePutBus
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*GoogleApphubWorkloadAttributesBusinessOwners; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*GoogleApphubWorkloadAttributesBusinessOwners; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -140,7 +140,7 @@ func (g *jsiiProxy_GoogleApphubWorkloadAttributesOutputReference) validatePutDev
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*GoogleApphubWorkloadAttributesDeveloperOwners:
 		value := value.(*[]*GoogleApphubWorkloadAttributesDeveloperOwners)
@@ -159,7 +159,7 @@ func (g *jsiiProxy_GoogleApphubWorkloadAttributesOutputReference) validatePutDev
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*GoogleApphubWorkloadAttributesDeveloperOwners; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*GoogleApphubWorkloadAttributesDeveloperOwners; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -182,7 +182,7 @@ func (g *jsiiProxy_GoogleApphubWorkloadAttributesOutputReference) validatePutOpe
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*GoogleApphubWorkloadAttributesOperatorOwners:
 		value := value.(*[]*GoogleApphubWorkloadAttributesOperatorOwners)
@@ -201,14 +201,14 @@ func (g *jsiiProxy_GoogleApphubWorkloadAttributesOutputReference) validatePutOpe
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*GoogleApphubWorkloadAttributesOperatorOwners; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*GoogleApphubWorkloadAttributesOperatorOwners; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (g *jsiiProxy_GoogleApphubWorkloadAttributesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleApphubWorkloadAttributesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -297,7 +297,7 @@ func (j *jsiiProxy_GoogleApphubWorkloadAttributesOutputReference) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_GoogleApphubWorkloadAttributesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleApphubWorkloadAttributesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -305,7 +305,7 @@ func (j *jsiiProxy_GoogleApphubWorkloadAttributesOutputReference) validateSetTer
 	return nil
 }
 
-func validateNewGoogleApphubWorkloadAttributesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleApphubWorkloadAttributesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

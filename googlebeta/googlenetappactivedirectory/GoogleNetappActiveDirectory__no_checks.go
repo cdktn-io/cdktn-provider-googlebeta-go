@@ -151,7 +151,7 @@ func (j *jsiiProxy_GoogleNetappActiveDirectory) validateSetLdapSigningParameters
 	return nil
 }
 
-func (j *jsiiProxy_GoogleNetappActiveDirectory) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleNetappActiveDirectory) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

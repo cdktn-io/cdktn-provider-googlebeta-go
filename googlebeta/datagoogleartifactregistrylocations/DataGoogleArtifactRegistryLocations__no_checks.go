@@ -79,7 +79,7 @@ func (j *jsiiProxy_DataGoogleArtifactRegistryLocations) validateSetIdParameters(
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleArtifactRegistryLocations) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataGoogleArtifactRegistryLocations) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

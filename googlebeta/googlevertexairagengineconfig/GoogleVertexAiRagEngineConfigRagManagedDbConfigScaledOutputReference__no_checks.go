@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleVertexAiRagEngineConfigRagManagedDbConfigScaledOutputRe
 	return nil
 }
 
-func (g *jsiiProxy_GoogleVertexAiRagEngineConfigRagManagedDbConfigScaledOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleVertexAiRagEngineConfigRagManagedDbConfigScaledOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_GoogleVertexAiRagEngineConfigRagManagedDbConfigScaledOutputRe
 	return nil
 }
 
-func (j *jsiiProxy_GoogleVertexAiRagEngineConfigRagManagedDbConfigScaledOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleVertexAiRagEngineConfigRagManagedDbConfigScaledOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleVertexAiRagEngineConfigRagManagedDbConfigScaledOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleVertexAiRagEngineConfigRagManagedDbConfigScaledOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

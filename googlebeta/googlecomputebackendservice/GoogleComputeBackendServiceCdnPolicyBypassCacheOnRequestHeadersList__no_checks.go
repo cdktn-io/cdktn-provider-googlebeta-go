@@ -15,7 +15,7 @@ func (g *jsiiProxy_GoogleComputeBackendServiceCdnPolicyBypassCacheOnRequestHeade
 	return nil
 }
 
-func (g *jsiiProxy_GoogleComputeBackendServiceCdnPolicyBypassCacheOnRequestHeadersList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleComputeBackendServiceCdnPolicyBypassCacheOnRequestHeadersList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_GoogleComputeBackendServiceCdnPolicyBypassCacheOnRequestHeade
 	return nil
 }
 
-func (j *jsiiProxy_GoogleComputeBackendServiceCdnPolicyBypassCacheOnRequestHeadersList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleComputeBackendServiceCdnPolicyBypassCacheOnRequestHeadersList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_GoogleComputeBackendServiceCdnPolicyBypassCacheOnRequestHeade
 	return nil
 }
 
-func validateNewGoogleComputeBackendServiceCdnPolicyBypassCacheOnRequestHeadersListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGoogleComputeBackendServiceCdnPolicyBypassCacheOnRequestHeadersListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

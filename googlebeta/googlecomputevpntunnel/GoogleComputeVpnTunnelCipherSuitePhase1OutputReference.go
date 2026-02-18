@@ -5,14 +5,14 @@ package googlecomputevpntunnel
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecomputevpntunnel/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputevpntunnel/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type GoogleComputeVpnTunnelCipherSuitePhase1OutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -49,15 +49,15 @@ type GoogleComputeVpnTunnelCipherSuitePhase1OutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -73,16 +73,16 @@ type GoogleComputeVpnTunnelCipherSuitePhase1OutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetDh()
 	ResetEncryption()
 	ResetIntegrity()
 	ResetPrf()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -92,7 +92,7 @@ type GoogleComputeVpnTunnelCipherSuitePhase1OutputReference interface {
 
 // The jsii proxy struct for GoogleComputeVpnTunnelCipherSuitePhase1OutputReference
 type jsiiProxy_GoogleComputeVpnTunnelCipherSuitePhase1OutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_GoogleComputeVpnTunnelCipherSuitePhase1OutputReference) ComplexObjectIndex() interface{} {
@@ -235,8 +235,8 @@ func (j *jsiiProxy_GoogleComputeVpnTunnelCipherSuitePhase1OutputReference) Terra
 	return returns
 }
 
-func (j *jsiiProxy_GoogleComputeVpnTunnelCipherSuitePhase1OutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_GoogleComputeVpnTunnelCipherSuitePhase1OutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -246,7 +246,7 @@ func (j *jsiiProxy_GoogleComputeVpnTunnelCipherSuitePhase1OutputReference) Terra
 }
 
 
-func NewGoogleComputeVpnTunnelCipherSuitePhase1OutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) GoogleComputeVpnTunnelCipherSuitePhase1OutputReference {
+func NewGoogleComputeVpnTunnelCipherSuitePhase1OutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) GoogleComputeVpnTunnelCipherSuitePhase1OutputReference {
 	_init_.Initialize()
 
 	if err := validateNewGoogleComputeVpnTunnelCipherSuitePhase1OutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -263,7 +263,7 @@ func NewGoogleComputeVpnTunnelCipherSuitePhase1OutputReference(terraformResource
 	return &j
 }
 
-func NewGoogleComputeVpnTunnelCipherSuitePhase1OutputReference_Override(g GoogleComputeVpnTunnelCipherSuitePhase1OutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewGoogleComputeVpnTunnelCipherSuitePhase1OutputReference_Override(g GoogleComputeVpnTunnelCipherSuitePhase1OutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -361,7 +361,7 @@ func (j *jsiiProxy_GoogleComputeVpnTunnelCipherSuitePhase1OutputReference)SetTer
 	)
 }
 
-func (j *jsiiProxy_GoogleComputeVpnTunnelCipherSuitePhase1OutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_GoogleComputeVpnTunnelCipherSuitePhase1OutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -401,11 +401,11 @@ func (g *jsiiProxy_GoogleComputeVpnTunnelCipherSuitePhase1OutputReference) GetAn
 	return returns
 }
 
-func (g *jsiiProxy_GoogleComputeVpnTunnelCipherSuitePhase1OutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleComputeVpnTunnelCipherSuitePhase1OutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -529,8 +529,8 @@ func (g *jsiiProxy_GoogleComputeVpnTunnelCipherSuitePhase1OutputReference) GetSt
 	return returns
 }
 
-func (g *jsiiProxy_GoogleComputeVpnTunnelCipherSuitePhase1OutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (g *jsiiProxy_GoogleComputeVpnTunnelCipherSuitePhase1OutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -542,11 +542,11 @@ func (g *jsiiProxy_GoogleComputeVpnTunnelCipherSuitePhase1OutputReference) Inter
 	return returns
 }
 
-func (g *jsiiProxy_GoogleComputeVpnTunnelCipherSuitePhase1OutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleComputeVpnTunnelCipherSuitePhase1OutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -590,7 +590,7 @@ func (g *jsiiProxy_GoogleComputeVpnTunnelCipherSuitePhase1OutputReference) Reset
 	)
 }
 
-func (g *jsiiProxy_GoogleComputeVpnTunnelCipherSuitePhase1OutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (g *jsiiProxy_GoogleComputeVpnTunnelCipherSuitePhase1OutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

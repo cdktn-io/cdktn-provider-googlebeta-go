@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleDataprocAutoscalingPolicyIamMemberConditionOutputRefere
 	return nil
 }
 
-func (g *jsiiProxy_GoogleDataprocAutoscalingPolicyIamMemberConditionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleDataprocAutoscalingPolicyIamMemberConditionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_GoogleDataprocAutoscalingPolicyIamMemberConditionOutputRefere
 	return nil
 }
 
-func (j *jsiiProxy_GoogleDataprocAutoscalingPolicyIamMemberConditionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleDataprocAutoscalingPolicyIamMemberConditionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_GoogleDataprocAutoscalingPolicyIamMemberConditionOutputRefere
 	return nil
 }
 
-func validateNewGoogleDataprocAutoscalingPolicyIamMemberConditionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleDataprocAutoscalingPolicyIamMemberConditionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -131,7 +131,7 @@ func (j *jsiiProxy_GoogleFirebaseAppHostingBuild) validateSetLabelsParameters(va
 	return nil
 }
 
-func (j *jsiiProxy_GoogleFirebaseAppHostingBuild) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleFirebaseAppHostingBuild) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

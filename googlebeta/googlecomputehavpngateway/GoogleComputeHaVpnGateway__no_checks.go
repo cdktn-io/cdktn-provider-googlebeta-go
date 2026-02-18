@@ -123,7 +123,7 @@ func (j *jsiiProxy_GoogleComputeHaVpnGateway) validateSetLabelsParameters(val *m
 	return nil
 }
 
-func (j *jsiiProxy_GoogleComputeHaVpnGateway) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleComputeHaVpnGateway) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -107,7 +107,7 @@ func (j *jsiiProxy_GoogleCloudbuildv2ConnectionIamMember) validateSetIdParameter
 	return nil
 }
 
-func (j *jsiiProxy_GoogleCloudbuildv2ConnectionIamMember) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleCloudbuildv2ConnectionIamMember) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

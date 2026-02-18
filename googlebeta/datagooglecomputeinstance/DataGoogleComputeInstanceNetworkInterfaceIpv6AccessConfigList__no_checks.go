@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataGoogleComputeInstanceNetworkInterfaceIpv6AccessConfigList
 	return nil
 }
 
-func (d *jsiiProxy_DataGoogleComputeInstanceNetworkInterfaceIpv6AccessConfigList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataGoogleComputeInstanceNetworkInterfaceIpv6AccessConfigList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataGoogleComputeInstanceNetworkInterfaceIpv6AccessConfigList
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleComputeInstanceNetworkInterfaceIpv6AccessConfigList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataGoogleComputeInstanceNetworkInterfaceIpv6AccessConfigList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataGoogleComputeInstanceNetworkInterfaceIpv6AccessConfigList
 	return nil
 }
 
-func validateNewDataGoogleComputeInstanceNetworkInterfaceIpv6AccessConfigListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataGoogleComputeInstanceNetworkInterfaceIpv6AccessConfigListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

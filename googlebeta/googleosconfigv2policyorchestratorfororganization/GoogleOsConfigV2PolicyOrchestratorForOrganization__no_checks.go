@@ -127,7 +127,7 @@ func (j *jsiiProxy_GoogleOsConfigV2PolicyOrchestratorForOrganization) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_GoogleOsConfigV2PolicyOrchestratorForOrganization) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleOsConfigV2PolicyOrchestratorForOrganization) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

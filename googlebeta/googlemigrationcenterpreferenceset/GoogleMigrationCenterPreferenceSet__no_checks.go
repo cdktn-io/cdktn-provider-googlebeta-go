@@ -119,7 +119,7 @@ func (j *jsiiProxy_GoogleMigrationCenterPreferenceSet) validateSetIdParameters(v
 	return nil
 }
 
-func (j *jsiiProxy_GoogleMigrationCenterPreferenceSet) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleMigrationCenterPreferenceSet) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

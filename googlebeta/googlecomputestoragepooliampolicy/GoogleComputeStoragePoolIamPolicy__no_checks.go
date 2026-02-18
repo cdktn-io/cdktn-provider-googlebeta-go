@@ -103,7 +103,7 @@ func (j *jsiiProxy_GoogleComputeStoragePoolIamPolicy) validateSetIdParameters(va
 	return nil
 }
 
-func (j *jsiiProxy_GoogleComputeStoragePoolIamPolicy) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleComputeStoragePoolIamPolicy) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

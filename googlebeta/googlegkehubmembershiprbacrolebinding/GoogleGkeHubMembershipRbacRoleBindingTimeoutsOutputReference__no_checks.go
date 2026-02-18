@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleGkeHubMembershipRbacRoleBindingTimeoutsOutputReference)
 	return nil
 }
 
-func (g *jsiiProxy_GoogleGkeHubMembershipRbacRoleBindingTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleGkeHubMembershipRbacRoleBindingTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_GoogleGkeHubMembershipRbacRoleBindingTimeoutsOutputReference)
 	return nil
 }
 
-func (j *jsiiProxy_GoogleGkeHubMembershipRbacRoleBindingTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleGkeHubMembershipRbacRoleBindingTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleGkeHubMembershipRbacRoleBindingTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleGkeHubMembershipRbacRoleBindingTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataGoogleBigqueryTableTableConstraintsForeignKeysColumnRefer
 	return nil
 }
 
-func (d *jsiiProxy_DataGoogleBigqueryTableTableConstraintsForeignKeysColumnReferencesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataGoogleBigqueryTableTableConstraintsForeignKeysColumnReferencesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataGoogleBigqueryTableTableConstraintsForeignKeysColumnRefer
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleBigqueryTableTableConstraintsForeignKeysColumnReferencesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataGoogleBigqueryTableTableConstraintsForeignKeysColumnReferencesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataGoogleBigqueryTableTableConstraintsForeignKeysColumnRefer
 	return nil
 }
 
-func validateNewDataGoogleBigqueryTableTableConstraintsForeignKeysColumnReferencesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataGoogleBigqueryTableTableConstraintsForeignKeysColumnReferencesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

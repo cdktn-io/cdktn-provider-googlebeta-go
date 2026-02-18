@@ -15,7 +15,7 @@ func (g *jsiiProxy_GoogleComputeInterconnectApplicationAwareInterconnectShapeAve
 	return nil
 }
 
-func (g *jsiiProxy_GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_GoogleComputeInterconnectApplicationAwareInterconnectShapeAve
 	return nil
 }
 
-func (j *jsiiProxy_GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_GoogleComputeInterconnectApplicationAwareInterconnectShapeAve
 	return nil
 }
 
-func validateNewGoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentageListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -135,7 +135,7 @@ func (j *jsiiProxy_GoogleDialogflowCxEntityType) validateSetLanguageCodeParamete
 	return nil
 }
 
-func (j *jsiiProxy_GoogleDialogflowCxEntityType) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleDialogflowCxEntityType) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

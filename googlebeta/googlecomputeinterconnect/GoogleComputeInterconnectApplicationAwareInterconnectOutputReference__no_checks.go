@@ -59,7 +59,7 @@ func (g *jsiiProxy_GoogleComputeInterconnectApplicationAwareInterconnectOutputRe
 	return nil
 }
 
-func (g *jsiiProxy_GoogleComputeInterconnectApplicationAwareInterconnectOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleComputeInterconnectApplicationAwareInterconnectOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_GoogleComputeInterconnectApplicationAwareInterconnectOutputRe
 	return nil
 }
 
-func (j *jsiiProxy_GoogleComputeInterconnectApplicationAwareInterconnectOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleComputeInterconnectApplicationAwareInterconnectOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleComputeInterconnectApplicationAwareInterconnectOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleComputeInterconnectApplicationAwareInterconnectOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

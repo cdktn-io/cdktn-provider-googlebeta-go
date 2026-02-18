@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (g *jsiiProxy_GooglePrivatecaCaPoolIssuancePolicyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -109,7 +109,7 @@ func (g *jsiiProxy_GooglePrivatecaCaPoolIssuancePolicyOutputReference) validateP
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*GooglePrivatecaCaPoolIssuancePolicyAllowedKeyTypes:
 		value := value.(*[]*GooglePrivatecaCaPoolIssuancePolicyAllowedKeyTypes)
@@ -128,7 +128,7 @@ func (g *jsiiProxy_GooglePrivatecaCaPoolIssuancePolicyOutputReference) validateP
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*GooglePrivatecaCaPoolIssuancePolicyAllowedKeyTypes; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*GooglePrivatecaCaPoolIssuancePolicyAllowedKeyTypes; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -157,7 +157,7 @@ func (g *jsiiProxy_GooglePrivatecaCaPoolIssuancePolicyOutputReference) validateP
 	return nil
 }
 
-func (g *jsiiProxy_GooglePrivatecaCaPoolIssuancePolicyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GooglePrivatecaCaPoolIssuancePolicyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -262,7 +262,7 @@ func (j *jsiiProxy_GooglePrivatecaCaPoolIssuancePolicyOutputReference) validateS
 	return nil
 }
 
-func (j *jsiiProxy_GooglePrivatecaCaPoolIssuancePolicyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GooglePrivatecaCaPoolIssuancePolicyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -270,7 +270,7 @@ func (j *jsiiProxy_GooglePrivatecaCaPoolIssuancePolicyOutputReference) validateS
 	return nil
 }
 
-func validateNewGooglePrivatecaCaPoolIssuancePolicyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGooglePrivatecaCaPoolIssuancePolicyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

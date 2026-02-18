@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleCloudIdentityGroupMembershipTimeoutsOutputReference) va
 	return nil
 }
 
-func (g *jsiiProxy_GoogleCloudIdentityGroupMembershipTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleCloudIdentityGroupMembershipTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_GoogleCloudIdentityGroupMembershipTimeoutsOutputReference) va
 	return nil
 }
 
-func (j *jsiiProxy_GoogleCloudIdentityGroupMembershipTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleCloudIdentityGroupMembershipTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_GoogleCloudIdentityGroupMembershipTimeoutsOutputReference) va
 	return nil
 }
 
-func validateNewGoogleCloudIdentityGroupMembershipTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleCloudIdentityGroupMembershipTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -5,21 +5,21 @@ package googlecomputetargetpool
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecomputetargetpool/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputetargetpool/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_target_pool google_compute_target_pool}.
 type GoogleComputeTargetPool interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	BackupPool() *string
 	SetBackupPool(val *string)
 	BackupPoolInput() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -41,9 +41,9 @@ type GoogleComputeTargetPool interface {
 	SetFailoverRatio(val *float64)
 	FailoverRatioInput() *float64
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -58,9 +58,9 @@ type GoogleComputeTargetPool interface {
 	SetInstances(val *[]*string)
 	InstancesInput() *[]*string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
@@ -70,9 +70,9 @@ type GoogleComputeTargetPool interface {
 	SetProject(val *string)
 	ProjectInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -90,7 +90,7 @@ type GoogleComputeTargetPool interface {
 	SetSessionAffinity(val *string)
 	SessionAffinityInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -105,7 +105,7 @@ type GoogleComputeTargetPool interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -123,9 +123,9 @@ type GoogleComputeTargetPool interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -170,7 +170,7 @@ type GoogleComputeTargetPool interface {
 
 // The jsii proxy struct for GoogleComputeTargetPool
 type jsiiProxy_GoogleComputeTargetPool struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_GoogleComputeTargetPool) BackupPool() *string {
@@ -193,8 +193,8 @@ func (j *jsiiProxy_GoogleComputeTargetPool) BackupPoolInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleComputeTargetPool) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_GoogleComputeTargetPool) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -283,8 +283,8 @@ func (j *jsiiProxy_GoogleComputeTargetPool) FailoverRatioInput() *float64 {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleComputeTargetPool) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_GoogleComputeTargetPool) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -373,8 +373,8 @@ func (j *jsiiProxy_GoogleComputeTargetPool) InstancesInput() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleComputeTargetPool) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_GoogleComputeTargetPool) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -433,8 +433,8 @@ func (j *jsiiProxy_GoogleComputeTargetPool) ProjectInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleComputeTargetPool) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_GoogleComputeTargetPool) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -533,8 +533,8 @@ func (j *jsiiProxy_GoogleComputeTargetPool) SessionAffinityInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleComputeTargetPool) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_GoogleComputeTargetPool) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -676,7 +676,7 @@ func (j *jsiiProxy_GoogleComputeTargetPool)SetFailoverRatio(val *float64) {
 	)
 }
 
-func (j *jsiiProxy_GoogleComputeTargetPool)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_GoogleComputeTargetPool)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -717,7 +717,7 @@ func (j *jsiiProxy_GoogleComputeTargetPool)SetInstances(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_GoogleComputeTargetPool)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_GoogleComputeTargetPool)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -750,7 +750,7 @@ func (j *jsiiProxy_GoogleComputeTargetPool)SetProject(val *string) {
 	)
 }
 
-func (j *jsiiProxy_GoogleComputeTargetPool)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_GoogleComputeTargetPool)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -802,14 +802,14 @@ func (j *jsiiProxy_GoogleComputeTargetPool)SetSessionAffinity(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a GoogleComputeTargetPool resource upon running "cdktf plan <stack-name>".
-func GoogleComputeTargetPool_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a GoogleComputeTargetPool resource upon running "cdktn plan <stack-name>".
+func GoogleComputeTargetPool_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateGoogleComputeTargetPool_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google-beta.googleComputeTargetPool.GoogleComputeTargetPool",
@@ -943,11 +943,11 @@ func (g *jsiiProxy_GoogleComputeTargetPool) GetAnyMapAttribute(terraformAttribut
 	return returns
 }
 
-func (g *jsiiProxy_GoogleComputeTargetPool) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleComputeTargetPool) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -1084,7 +1084,7 @@ func (g *jsiiProxy_GoogleComputeTargetPool) HasResourceMove() interface{} {
 	return returns
 }
 
-func (g *jsiiProxy_GoogleComputeTargetPool) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (g *jsiiProxy_GoogleComputeTargetPool) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := g.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1095,11 +1095,11 @@ func (g *jsiiProxy_GoogleComputeTargetPool) ImportFrom(id *string, provider cdkt
 	)
 }
 
-func (g *jsiiProxy_GoogleComputeTargetPool) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleComputeTargetPool) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,

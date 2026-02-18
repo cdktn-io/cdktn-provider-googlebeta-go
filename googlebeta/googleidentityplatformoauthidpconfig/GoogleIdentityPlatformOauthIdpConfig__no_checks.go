@@ -131,7 +131,7 @@ func (j *jsiiProxy_GoogleIdentityPlatformOauthIdpConfig) validateSetIssuerParame
 	return nil
 }
 
-func (j *jsiiProxy_GoogleIdentityPlatformOauthIdpConfig) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleIdentityPlatformOauthIdpConfig) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

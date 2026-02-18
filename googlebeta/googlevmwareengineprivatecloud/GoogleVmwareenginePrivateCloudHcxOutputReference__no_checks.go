@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleVmwareenginePrivateCloudHcxOutputReference) validateInt
 	return nil
 }
 
-func (g *jsiiProxy_GoogleVmwareenginePrivateCloudHcxOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleVmwareenginePrivateCloudHcxOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_GoogleVmwareenginePrivateCloudHcxOutputReference) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_GoogleVmwareenginePrivateCloudHcxOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleVmwareenginePrivateCloudHcxOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleVmwareenginePrivateCloudHcxOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewGoogleVmwareenginePrivateCloudHcxOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

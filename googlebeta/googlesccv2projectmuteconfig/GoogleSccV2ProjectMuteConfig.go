@@ -5,18 +5,18 @@ package googlesccv2projectmuteconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlesccv2projectmuteconfig/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlesccv2projectmuteconfig/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_scc_v2_project_mute_config google_scc_v2_project_mute_config}.
 type GoogleSccV2ProjectMuteConfig interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -39,9 +39,9 @@ type GoogleSccV2ProjectMuteConfig interface {
 	SetFilter(val *string)
 	FilterInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -50,9 +50,9 @@ type GoogleSccV2ProjectMuteConfig interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Location() *string
 	SetLocation(val *string)
 	LocationInput() *string
@@ -67,9 +67,9 @@ type GoogleSccV2ProjectMuteConfig interface {
 	SetProject(val *string)
 	ProjectInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -77,7 +77,7 @@ type GoogleSccV2ProjectMuteConfig interface {
 	// Experimental.
 	RawOverrides() interface{}
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -96,7 +96,7 @@ type GoogleSccV2ProjectMuteConfig interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -114,9 +114,9 @@ type GoogleSccV2ProjectMuteConfig interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -155,11 +155,11 @@ type GoogleSccV2ProjectMuteConfig interface {
 
 // The jsii proxy struct for GoogleSccV2ProjectMuteConfig
 type jsiiProxy_GoogleSccV2ProjectMuteConfig struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
-func (j *jsiiProxy_GoogleSccV2ProjectMuteConfig) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_GoogleSccV2ProjectMuteConfig) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -258,8 +258,8 @@ func (j *jsiiProxy_GoogleSccV2ProjectMuteConfig) FilterInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleSccV2ProjectMuteConfig) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_GoogleSccV2ProjectMuteConfig) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -308,8 +308,8 @@ func (j *jsiiProxy_GoogleSccV2ProjectMuteConfig) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleSccV2ProjectMuteConfig) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_GoogleSccV2ProjectMuteConfig) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -408,8 +408,8 @@ func (j *jsiiProxy_GoogleSccV2ProjectMuteConfig) ProjectInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleSccV2ProjectMuteConfig) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_GoogleSccV2ProjectMuteConfig) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -438,8 +438,8 @@ func (j *jsiiProxy_GoogleSccV2ProjectMuteConfig) RawOverrides() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleSccV2ProjectMuteConfig) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_GoogleSccV2ProjectMuteConfig) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -600,7 +600,7 @@ func (j *jsiiProxy_GoogleSccV2ProjectMuteConfig)SetFilter(val *string) {
 	)
 }
 
-func (j *jsiiProxy_GoogleSccV2ProjectMuteConfig)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_GoogleSccV2ProjectMuteConfig)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -619,7 +619,7 @@ func (j *jsiiProxy_GoogleSccV2ProjectMuteConfig)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_GoogleSccV2ProjectMuteConfig)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_GoogleSccV2ProjectMuteConfig)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -663,7 +663,7 @@ func (j *jsiiProxy_GoogleSccV2ProjectMuteConfig)SetProject(val *string) {
 	)
 }
 
-func (j *jsiiProxy_GoogleSccV2ProjectMuteConfig)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_GoogleSccV2ProjectMuteConfig)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -693,14 +693,14 @@ func (j *jsiiProxy_GoogleSccV2ProjectMuteConfig)SetType(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a GoogleSccV2ProjectMuteConfig resource upon running "cdktf plan <stack-name>".
-func GoogleSccV2ProjectMuteConfig_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a GoogleSccV2ProjectMuteConfig resource upon running "cdktn plan <stack-name>".
+func GoogleSccV2ProjectMuteConfig_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateGoogleSccV2ProjectMuteConfig_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google-beta.googleSccV2ProjectMuteConfig.GoogleSccV2ProjectMuteConfig",
@@ -834,11 +834,11 @@ func (g *jsiiProxy_GoogleSccV2ProjectMuteConfig) GetAnyMapAttribute(terraformAtt
 	return returns
 }
 
-func (g *jsiiProxy_GoogleSccV2ProjectMuteConfig) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleSccV2ProjectMuteConfig) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -975,7 +975,7 @@ func (g *jsiiProxy_GoogleSccV2ProjectMuteConfig) HasResourceMove() interface{} {
 	return returns
 }
 
-func (g *jsiiProxy_GoogleSccV2ProjectMuteConfig) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (g *jsiiProxy_GoogleSccV2ProjectMuteConfig) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := g.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -986,11 +986,11 @@ func (g *jsiiProxy_GoogleSccV2ProjectMuteConfig) ImportFrom(id *string, provider
 	)
 }
 
-func (g *jsiiProxy_GoogleSccV2ProjectMuteConfig) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleSccV2ProjectMuteConfig) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,

@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataGoogleMonitoringAppEngineServiceTelemetryOutputReference)
 	return nil
 }
 
-func (d *jsiiProxy_DataGoogleMonitoringAppEngineServiceTelemetryOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataGoogleMonitoringAppEngineServiceTelemetryOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataGoogleMonitoringAppEngineServiceTelemetryOutputReference)
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleMonitoringAppEngineServiceTelemetryOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataGoogleMonitoringAppEngineServiceTelemetryOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataGoogleMonitoringAppEngineServiceTelemetryOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataGoogleMonitoringAppEngineServiceTelemetryOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

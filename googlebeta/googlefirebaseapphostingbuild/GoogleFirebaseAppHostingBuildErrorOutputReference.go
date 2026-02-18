@@ -5,14 +5,14 @@ package googlefirebaseapphostingbuild
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlefirebaseapphostingbuild/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlefirebaseapphostingbuild/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type GoogleFirebaseAppHostingBuildErrorOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	Code() *float64
 	// the index of the complex object in a list.
 	// Experimental.
@@ -29,7 +29,7 @@ type GoogleFirebaseAppHostingBuildErrorOutputReference interface {
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
-	Details() cdktf.StringMapList
+	Details() cdktn.StringMapList
 	// Experimental.
 	Fqn() *string
 	InternalValue() *GoogleFirebaseAppHostingBuildError
@@ -40,15 +40,15 @@ type GoogleFirebaseAppHostingBuildErrorOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -64,12 +64,12 @@ type GoogleFirebaseAppHostingBuildErrorOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -79,7 +79,7 @@ type GoogleFirebaseAppHostingBuildErrorOutputReference interface {
 
 // The jsii proxy struct for GoogleFirebaseAppHostingBuildErrorOutputReference
 type jsiiProxy_GoogleFirebaseAppHostingBuildErrorOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_GoogleFirebaseAppHostingBuildErrorOutputReference) Code() *float64 {
@@ -122,8 +122,8 @@ func (j *jsiiProxy_GoogleFirebaseAppHostingBuildErrorOutputReference) CreationSt
 	return returns
 }
 
-func (j *jsiiProxy_GoogleFirebaseAppHostingBuildErrorOutputReference) Details() cdktf.StringMapList {
-	var returns cdktf.StringMapList
+func (j *jsiiProxy_GoogleFirebaseAppHostingBuildErrorOutputReference) Details() cdktn.StringMapList {
+	var returns cdktn.StringMapList
 	_jsii_.Get(
 		j,
 		"details",
@@ -172,8 +172,8 @@ func (j *jsiiProxy_GoogleFirebaseAppHostingBuildErrorOutputReference) TerraformA
 	return returns
 }
 
-func (j *jsiiProxy_GoogleFirebaseAppHostingBuildErrorOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_GoogleFirebaseAppHostingBuildErrorOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -183,7 +183,7 @@ func (j *jsiiProxy_GoogleFirebaseAppHostingBuildErrorOutputReference) TerraformR
 }
 
 
-func NewGoogleFirebaseAppHostingBuildErrorOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) GoogleFirebaseAppHostingBuildErrorOutputReference {
+func NewGoogleFirebaseAppHostingBuildErrorOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) GoogleFirebaseAppHostingBuildErrorOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewGoogleFirebaseAppHostingBuildErrorOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -200,7 +200,7 @@ func NewGoogleFirebaseAppHostingBuildErrorOutputReference(terraformResource cdkt
 	return &j
 }
 
-func NewGoogleFirebaseAppHostingBuildErrorOutputReference_Override(g GoogleFirebaseAppHostingBuildErrorOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewGoogleFirebaseAppHostingBuildErrorOutputReference_Override(g GoogleFirebaseAppHostingBuildErrorOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -254,7 +254,7 @@ func (j *jsiiProxy_GoogleFirebaseAppHostingBuildErrorOutputReference)SetTerrafor
 	)
 }
 
-func (j *jsiiProxy_GoogleFirebaseAppHostingBuildErrorOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_GoogleFirebaseAppHostingBuildErrorOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -294,11 +294,11 @@ func (g *jsiiProxy_GoogleFirebaseAppHostingBuildErrorOutputReference) GetAnyMapA
 	return returns
 }
 
-func (g *jsiiProxy_GoogleFirebaseAppHostingBuildErrorOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleFirebaseAppHostingBuildErrorOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -422,8 +422,8 @@ func (g *jsiiProxy_GoogleFirebaseAppHostingBuildErrorOutputReference) GetStringM
 	return returns
 }
 
-func (g *jsiiProxy_GoogleFirebaseAppHostingBuildErrorOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (g *jsiiProxy_GoogleFirebaseAppHostingBuildErrorOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -435,11 +435,11 @@ func (g *jsiiProxy_GoogleFirebaseAppHostingBuildErrorOutputReference) Interpolat
 	return returns
 }
 
-func (g *jsiiProxy_GoogleFirebaseAppHostingBuildErrorOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleFirebaseAppHostingBuildErrorOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -451,7 +451,7 @@ func (g *jsiiProxy_GoogleFirebaseAppHostingBuildErrorOutputReference) Interpolat
 	return returns
 }
 
-func (g *jsiiProxy_GoogleFirebaseAppHostingBuildErrorOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (g *jsiiProxy_GoogleFirebaseAppHostingBuildErrorOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -5,16 +5,16 @@ package googledeveloperconnectconnection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googledeveloperconnectconnection/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledeveloperconnectconnection/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_developer_connect_connection google_developer_connect_connection}.
 type GoogleDeveloperConnectConnection interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	Annotations() *map[string]*string
 	SetAnnotations(val *map[string]*string)
 	AnnotationsInput() *map[string]*string
@@ -23,7 +23,7 @@ type GoogleDeveloperConnectConnection interface {
 	BitbucketDataCenterConfig() GoogleDeveloperConnectConnectionBitbucketDataCenterConfigOutputReference
 	BitbucketDataCenterConfigInput() *GoogleDeveloperConnectConnectionBitbucketDataCenterConfig
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -48,15 +48,15 @@ type GoogleDeveloperConnectConnection interface {
 	Disabled() interface{}
 	SetDisabled(val interface{})
 	DisabledInput() interface{}
-	EffectiveAnnotations() cdktf.StringMap
-	EffectiveLabels() cdktf.StringMap
+	EffectiveAnnotations() cdktn.StringMap
+	EffectiveLabels() cdktn.StringMap
 	Etag() *string
 	SetEtag(val *string)
 	EtagInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -77,9 +77,9 @@ type GoogleDeveloperConnectConnection interface {
 	SetLabels(val *map[string]*string)
 	LabelsInput() *map[string]*string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Location() *string
 	SetLocation(val *string)
 	LocationInput() *string
@@ -90,19 +90,19 @@ type GoogleDeveloperConnectConnection interface {
 	SetProject(val *string)
 	ProjectInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
 	SetProvisioners(val *[]interface{})
 	// Experimental.
 	RawOverrides() interface{}
-	Reconciling() cdktf.IResolvable
+	Reconciling() cdktn.IResolvable
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
-	TerraformLabels() cdktf.StringMap
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
+	TerraformLabels() cdktn.StringMap
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -119,7 +119,7 @@ type GoogleDeveloperConnectConnection interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -137,9 +137,9 @@ type GoogleDeveloperConnectConnection interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -194,7 +194,7 @@ type GoogleDeveloperConnectConnection interface {
 
 // The jsii proxy struct for GoogleDeveloperConnectConnection
 type jsiiProxy_GoogleDeveloperConnectConnection struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_GoogleDeveloperConnectConnection) Annotations() *map[string]*string {
@@ -257,8 +257,8 @@ func (j *jsiiProxy_GoogleDeveloperConnectConnection) BitbucketDataCenterConfigIn
 	return returns
 }
 
-func (j *jsiiProxy_GoogleDeveloperConnectConnection) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_GoogleDeveloperConnectConnection) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -387,8 +387,8 @@ func (j *jsiiProxy_GoogleDeveloperConnectConnection) DisabledInput() interface{}
 	return returns
 }
 
-func (j *jsiiProxy_GoogleDeveloperConnectConnection) EffectiveAnnotations() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_GoogleDeveloperConnectConnection) EffectiveAnnotations() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"effectiveAnnotations",
@@ -397,8 +397,8 @@ func (j *jsiiProxy_GoogleDeveloperConnectConnection) EffectiveAnnotations() cdkt
 	return returns
 }
 
-func (j *jsiiProxy_GoogleDeveloperConnectConnection) EffectiveLabels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_GoogleDeveloperConnectConnection) EffectiveLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"effectiveLabels",
@@ -427,8 +427,8 @@ func (j *jsiiProxy_GoogleDeveloperConnectConnection) EtagInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleDeveloperConnectConnection) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_GoogleDeveloperConnectConnection) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -587,8 +587,8 @@ func (j *jsiiProxy_GoogleDeveloperConnectConnection) LabelsInput() *map[string]*
 	return returns
 }
 
-func (j *jsiiProxy_GoogleDeveloperConnectConnection) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_GoogleDeveloperConnectConnection) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -657,8 +657,8 @@ func (j *jsiiProxy_GoogleDeveloperConnectConnection) ProjectInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleDeveloperConnectConnection) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_GoogleDeveloperConnectConnection) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -687,8 +687,8 @@ func (j *jsiiProxy_GoogleDeveloperConnectConnection) RawOverrides() interface{} 
 	return returns
 }
 
-func (j *jsiiProxy_GoogleDeveloperConnectConnection) Reconciling() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_GoogleDeveloperConnectConnection) Reconciling() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"reconciling",
@@ -697,8 +697,8 @@ func (j *jsiiProxy_GoogleDeveloperConnectConnection) Reconciling() cdktf.IResolv
 	return returns
 }
 
-func (j *jsiiProxy_GoogleDeveloperConnectConnection) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_GoogleDeveloperConnectConnection) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -707,8 +707,8 @@ func (j *jsiiProxy_GoogleDeveloperConnectConnection) TerraformGeneratorMetadata(
 	return returns
 }
 
-func (j *jsiiProxy_GoogleDeveloperConnectConnection) TerraformLabels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_GoogleDeveloperConnectConnection) TerraformLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"terraformLabels",
@@ -881,7 +881,7 @@ func (j *jsiiProxy_GoogleDeveloperConnectConnection)SetEtag(val *string) {
 	)
 }
 
-func (j *jsiiProxy_GoogleDeveloperConnectConnection)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_GoogleDeveloperConnectConnection)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -911,7 +911,7 @@ func (j *jsiiProxy_GoogleDeveloperConnectConnection)SetLabels(val *map[string]*s
 	)
 }
 
-func (j *jsiiProxy_GoogleDeveloperConnectConnection)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_GoogleDeveloperConnectConnection)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -944,7 +944,7 @@ func (j *jsiiProxy_GoogleDeveloperConnectConnection)SetProject(val *string) {
 	)
 }
 
-func (j *jsiiProxy_GoogleDeveloperConnectConnection)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_GoogleDeveloperConnectConnection)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -963,14 +963,14 @@ func (j *jsiiProxy_GoogleDeveloperConnectConnection)SetProvisioners(val *[]inter
 	)
 }
 
-// Generates CDKTF code for importing a GoogleDeveloperConnectConnection resource upon running "cdktf plan <stack-name>".
-func GoogleDeveloperConnectConnection_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a GoogleDeveloperConnectConnection resource upon running "cdktn plan <stack-name>".
+func GoogleDeveloperConnectConnection_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateGoogleDeveloperConnectConnection_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google-beta.googleDeveloperConnectConnection.GoogleDeveloperConnectConnection",
@@ -1104,11 +1104,11 @@ func (g *jsiiProxy_GoogleDeveloperConnectConnection) GetAnyMapAttribute(terrafor
 	return returns
 }
 
-func (g *jsiiProxy_GoogleDeveloperConnectConnection) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleDeveloperConnectConnection) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -1245,7 +1245,7 @@ func (g *jsiiProxy_GoogleDeveloperConnectConnection) HasResourceMove() interface
 	return returns
 }
 
-func (g *jsiiProxy_GoogleDeveloperConnectConnection) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (g *jsiiProxy_GoogleDeveloperConnectConnection) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := g.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1256,11 +1256,11 @@ func (g *jsiiProxy_GoogleDeveloperConnectConnection) ImportFrom(id *string, prov
 	)
 }
 
-func (g *jsiiProxy_GoogleDeveloperConnectConnection) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleDeveloperConnectConnection) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,

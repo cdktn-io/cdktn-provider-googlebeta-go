@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataGoogleComputeBackendServiceDynamicForwardingIpPortSelecti
 	return nil
 }
 
-func (d *jsiiProxy_DataGoogleComputeBackendServiceDynamicForwardingIpPortSelectionList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataGoogleComputeBackendServiceDynamicForwardingIpPortSelectionList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataGoogleComputeBackendServiceDynamicForwardingIpPortSelecti
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleComputeBackendServiceDynamicForwardingIpPortSelectionList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataGoogleComputeBackendServiceDynamicForwardingIpPortSelectionList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataGoogleComputeBackendServiceDynamicForwardingIpPortSelecti
 	return nil
 }
 
-func validateNewDataGoogleComputeBackendServiceDynamicForwardingIpPortSelectionListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataGoogleComputeBackendServiceDynamicForwardingIpPortSelectionListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

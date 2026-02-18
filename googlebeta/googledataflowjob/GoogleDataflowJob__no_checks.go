@@ -127,7 +127,7 @@ func (j *jsiiProxy_GoogleDataflowJob) validateSetLabelsParameters(val *map[strin
 	return nil
 }
 
-func (j *jsiiProxy_GoogleDataflowJob) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleDataflowJob) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

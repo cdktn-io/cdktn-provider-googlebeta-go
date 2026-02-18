@@ -87,7 +87,7 @@ func (j *jsiiProxy_DataGoogleKmsCryptoKeyLatestVersion) validateSetIdParameters(
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleKmsCryptoKeyLatestVersion) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataGoogleKmsCryptoKeyLatestVersion) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

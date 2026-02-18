@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataGoogleStorageBucketHierarchicalNamespaceList) validateGet
 	return nil
 }
 
-func (d *jsiiProxy_DataGoogleStorageBucketHierarchicalNamespaceList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataGoogleStorageBucketHierarchicalNamespaceList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataGoogleStorageBucketHierarchicalNamespaceList) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleStorageBucketHierarchicalNamespaceList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataGoogleStorageBucketHierarchicalNamespaceList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataGoogleStorageBucketHierarchicalNamespaceList) validateSet
 	return nil
 }
 
-func validateNewDataGoogleStorageBucketHierarchicalNamespaceListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataGoogleStorageBucketHierarchicalNamespaceListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

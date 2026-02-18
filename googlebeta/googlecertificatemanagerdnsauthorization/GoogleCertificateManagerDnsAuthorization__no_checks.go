@@ -119,7 +119,7 @@ func (j *jsiiProxy_GoogleCertificateManagerDnsAuthorization) validateSetLabelsPa
 	return nil
 }
 
-func (j *jsiiProxy_GoogleCertificateManagerDnsAuthorization) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleCertificateManagerDnsAuthorization) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

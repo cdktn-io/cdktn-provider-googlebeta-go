@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataGoogleContainerClusterAddonsConfigHorizontalPodAutoscalin
 	return nil
 }
 
-func (d *jsiiProxy_DataGoogleContainerClusterAddonsConfigHorizontalPodAutoscalingList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataGoogleContainerClusterAddonsConfigHorizontalPodAutoscalingList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataGoogleContainerClusterAddonsConfigHorizontalPodAutoscalin
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleContainerClusterAddonsConfigHorizontalPodAutoscalingList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataGoogleContainerClusterAddonsConfigHorizontalPodAutoscalingList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataGoogleContainerClusterAddonsConfigHorizontalPodAutoscalin
 	return nil
 }
 
-func validateNewDataGoogleContainerClusterAddonsConfigHorizontalPodAutoscalingListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataGoogleContainerClusterAddonsConfigHorizontalPodAutoscalingListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

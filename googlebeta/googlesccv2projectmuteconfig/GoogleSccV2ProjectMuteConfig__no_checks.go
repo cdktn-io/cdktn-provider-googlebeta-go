@@ -115,7 +115,7 @@ func (j *jsiiProxy_GoogleSccV2ProjectMuteConfig) validateSetIdParameters(val *st
 	return nil
 }
 
-func (j *jsiiProxy_GoogleSccV2ProjectMuteConfig) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleSccV2ProjectMuteConfig) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

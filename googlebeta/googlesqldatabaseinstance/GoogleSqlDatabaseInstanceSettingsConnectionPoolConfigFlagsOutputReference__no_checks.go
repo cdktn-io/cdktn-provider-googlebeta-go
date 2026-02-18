@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleSqlDatabaseInstanceSettingsConnectionPoolConfigFlagsOut
 	return nil
 }
 
-func (g *jsiiProxy_GoogleSqlDatabaseInstanceSettingsConnectionPoolConfigFlagsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleSqlDatabaseInstanceSettingsConnectionPoolConfigFlagsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsConnectionPoolConfigFlagsOut
 	return nil
 }
 
-func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsConnectionPoolConfigFlagsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsConnectionPoolConfigFlagsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsConnectionPoolConfigFlagsOut
 	return nil
 }
 
-func validateNewGoogleSqlDatabaseInstanceSettingsConnectionPoolConfigFlagsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewGoogleSqlDatabaseInstanceSettingsConnectionPoolConfigFlagsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

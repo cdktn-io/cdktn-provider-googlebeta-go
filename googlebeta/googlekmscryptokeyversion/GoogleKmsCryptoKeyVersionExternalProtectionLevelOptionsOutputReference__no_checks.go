@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleKmsCryptoKeyVersionExternalProtectionLevelOptionsOutput
 	return nil
 }
 
-func (g *jsiiProxy_GoogleKmsCryptoKeyVersionExternalProtectionLevelOptionsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleKmsCryptoKeyVersionExternalProtectionLevelOptionsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_GoogleKmsCryptoKeyVersionExternalProtectionLevelOptionsOutput
 	return nil
 }
 
-func (j *jsiiProxy_GoogleKmsCryptoKeyVersionExternalProtectionLevelOptionsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleKmsCryptoKeyVersionExternalProtectionLevelOptionsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleKmsCryptoKeyVersionExternalProtectionLevelOptionsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleKmsCryptoKeyVersionExternalProtectionLevelOptionsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

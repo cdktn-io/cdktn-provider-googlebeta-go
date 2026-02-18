@@ -51,7 +51,7 @@ func (g *jsiiProxy_GoogleMonitoringAlertPolicyDocumentationOutputReference) vali
 	return nil
 }
 
-func (g *jsiiProxy_GoogleMonitoringAlertPolicyDocumentationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleMonitoringAlertPolicyDocumentationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_GoogleMonitoringAlertPolicyDocumentationOutputReference) vali
 	return nil
 }
 
-func (j *jsiiProxy_GoogleMonitoringAlertPolicyDocumentationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleMonitoringAlertPolicyDocumentationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleMonitoringAlertPolicyDocumentationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleMonitoringAlertPolicyDocumentationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

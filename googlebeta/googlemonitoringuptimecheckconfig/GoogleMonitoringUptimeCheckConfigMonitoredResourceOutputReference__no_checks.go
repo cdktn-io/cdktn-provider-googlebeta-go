@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleMonitoringUptimeCheckConfigMonitoredResourceOutputRefer
 	return nil
 }
 
-func (g *jsiiProxy_GoogleMonitoringUptimeCheckConfigMonitoredResourceOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleMonitoringUptimeCheckConfigMonitoredResourceOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_GoogleMonitoringUptimeCheckConfigMonitoredResourceOutputRefer
 	return nil
 }
 
-func (j *jsiiProxy_GoogleMonitoringUptimeCheckConfigMonitoredResourceOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleMonitoringUptimeCheckConfigMonitoredResourceOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_GoogleMonitoringUptimeCheckConfigMonitoredResourceOutputRefer
 	return nil
 }
 
-func validateNewGoogleMonitoringUptimeCheckConfigMonitoredResourceOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleMonitoringUptimeCheckConfigMonitoredResourceOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

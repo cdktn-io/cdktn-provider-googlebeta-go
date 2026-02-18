@@ -87,7 +87,7 @@ func (j *jsiiProxy_DataGoogleSiteVerificationToken) validateSetIdentifierParamet
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleSiteVerificationToken) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataGoogleSiteVerificationToken) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

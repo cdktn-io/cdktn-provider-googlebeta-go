@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleContainerAzureNodePoolConfigRootVolumeOutputReference) 
 	return nil
 }
 
-func (g *jsiiProxy_GoogleContainerAzureNodePoolConfigRootVolumeOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleContainerAzureNodePoolConfigRootVolumeOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_GoogleContainerAzureNodePoolConfigRootVolumeOutputReference) 
 	return nil
 }
 
-func (j *jsiiProxy_GoogleContainerAzureNodePoolConfigRootVolumeOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleContainerAzureNodePoolConfigRootVolumeOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleContainerAzureNodePoolConfigRootVolumeOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleContainerAzureNodePoolConfigRootVolumeOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

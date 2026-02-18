@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleSourcerepoRepositoryPubsubConfigsOutputReference) valid
 	return nil
 }
 
-func (g *jsiiProxy_GoogleSourcerepoRepositoryPubsubConfigsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleSourcerepoRepositoryPubsubConfigsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_GoogleSourcerepoRepositoryPubsubConfigsOutputReference) valid
 	return nil
 }
 
-func (j *jsiiProxy_GoogleSourcerepoRepositoryPubsubConfigsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleSourcerepoRepositoryPubsubConfigsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_GoogleSourcerepoRepositoryPubsubConfigsOutputReference) valid
 	return nil
 }
 
-func validateNewGoogleSourcerepoRepositoryPubsubConfigsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewGoogleSourcerepoRepositoryPubsubConfigsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataGoogleSecretManagerSecretReplicationAutoList) validateGet
 	return nil
 }
 
-func (d *jsiiProxy_DataGoogleSecretManagerSecretReplicationAutoList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataGoogleSecretManagerSecretReplicationAutoList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataGoogleSecretManagerSecretReplicationAutoList) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleSecretManagerSecretReplicationAutoList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataGoogleSecretManagerSecretReplicationAutoList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataGoogleSecretManagerSecretReplicationAutoList) validateSet
 	return nil
 }
 
-func validateNewDataGoogleSecretManagerSecretReplicationAutoListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataGoogleSecretManagerSecretReplicationAutoListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

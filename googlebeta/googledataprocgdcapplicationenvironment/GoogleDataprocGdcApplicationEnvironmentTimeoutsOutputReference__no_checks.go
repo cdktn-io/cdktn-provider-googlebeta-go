@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleDataprocGdcApplicationEnvironmentTimeoutsOutputReferenc
 	return nil
 }
 
-func (g *jsiiProxy_GoogleDataprocGdcApplicationEnvironmentTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleDataprocGdcApplicationEnvironmentTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_GoogleDataprocGdcApplicationEnvironmentTimeoutsOutputReferenc
 	return nil
 }
 
-func (j *jsiiProxy_GoogleDataprocGdcApplicationEnvironmentTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleDataprocGdcApplicationEnvironmentTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_GoogleDataprocGdcApplicationEnvironmentTimeoutsOutputReferenc
 	return nil
 }
 
-func validateNewGoogleDataprocGdcApplicationEnvironmentTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleDataprocGdcApplicationEnvironmentTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

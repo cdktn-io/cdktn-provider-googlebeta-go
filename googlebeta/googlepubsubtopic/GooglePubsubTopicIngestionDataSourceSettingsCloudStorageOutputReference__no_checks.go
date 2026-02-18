@@ -59,7 +59,7 @@ func (g *jsiiProxy_GooglePubsubTopicIngestionDataSourceSettingsCloudStorageOutpu
 	return nil
 }
 
-func (g *jsiiProxy_GooglePubsubTopicIngestionDataSourceSettingsCloudStorageOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GooglePubsubTopicIngestionDataSourceSettingsCloudStorageOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -91,11 +91,11 @@ func (j *jsiiProxy_GooglePubsubTopicIngestionDataSourceSettingsCloudStorageOutpu
 	return nil
 }
 
-func (j *jsiiProxy_GooglePubsubTopicIngestionDataSourceSettingsCloudStorageOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GooglePubsubTopicIngestionDataSourceSettingsCloudStorageOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGooglePubsubTopicIngestionDataSourceSettingsCloudStorageOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGooglePubsubTopicIngestionDataSourceSettingsCloudStorageOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleDatastreamConnectionProfileOracleProfileOutputReference
 	return nil
 }
 
-func (g *jsiiProxy_GoogleDatastreamConnectionProfileOracleProfileOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleDatastreamConnectionProfileOracleProfileOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -91,7 +91,7 @@ func (j *jsiiProxy_GoogleDatastreamConnectionProfileOracleProfileOutputReference
 	return nil
 }
 
-func (j *jsiiProxy_GoogleDatastreamConnectionProfileOracleProfileOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleDatastreamConnectionProfileOracleProfileOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -99,7 +99,7 @@ func (j *jsiiProxy_GoogleDatastreamConnectionProfileOracleProfileOutputReference
 	return nil
 }
 
-func validateNewGoogleDatastreamConnectionProfileOracleProfileOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleDatastreamConnectionProfileOracleProfileOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

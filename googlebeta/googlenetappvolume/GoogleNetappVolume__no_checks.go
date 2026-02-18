@@ -155,7 +155,7 @@ func (j *jsiiProxy_GoogleNetappVolume) validateSetLargeCapacityParameters(val in
 	return nil
 }
 
-func (j *jsiiProxy_GoogleNetappVolume) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleNetappVolume) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

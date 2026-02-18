@@ -15,7 +15,7 @@ func (g *jsiiProxy_GoogleDataplexAssetResourceStatusList) validateGetParameters(
 	return nil
 }
 
-func (g *jsiiProxy_GoogleDataplexAssetResourceStatusList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleDataplexAssetResourceStatusList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_GoogleDataplexAssetResourceStatusList) validateSetTerraformAt
 	return nil
 }
 
-func (j *jsiiProxy_GoogleDataplexAssetResourceStatusList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleDataplexAssetResourceStatusList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_GoogleDataplexAssetResourceStatusList) validateSetWrapsSetPar
 	return nil
 }
 
-func validateNewGoogleDataplexAssetResourceStatusListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGoogleDataplexAssetResourceStatusListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

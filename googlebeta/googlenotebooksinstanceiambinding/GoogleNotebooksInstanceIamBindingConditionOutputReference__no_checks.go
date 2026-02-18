@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleNotebooksInstanceIamBindingConditionOutputReference) va
 	return nil
 }
 
-func (g *jsiiProxy_GoogleNotebooksInstanceIamBindingConditionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleNotebooksInstanceIamBindingConditionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_GoogleNotebooksInstanceIamBindingConditionOutputReference) va
 	return nil
 }
 
-func (j *jsiiProxy_GoogleNotebooksInstanceIamBindingConditionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleNotebooksInstanceIamBindingConditionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_GoogleNotebooksInstanceIamBindingConditionOutputReference) va
 	return nil
 }
 
-func validateNewGoogleNotebooksInstanceIamBindingConditionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleNotebooksInstanceIamBindingConditionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -79,7 +79,7 @@ func (j *jsiiProxy_DataGoogleAccessApprovalOrganizationServiceAccount) validateS
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleAccessApprovalOrganizationServiceAccount) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataGoogleAccessApprovalOrganizationServiceAccount) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

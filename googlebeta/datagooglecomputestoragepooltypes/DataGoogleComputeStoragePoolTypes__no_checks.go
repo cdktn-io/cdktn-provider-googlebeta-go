@@ -75,7 +75,7 @@ func (j *jsiiProxy_DataGoogleComputeStoragePoolTypes) validateSetCountParameters
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleComputeStoragePoolTypes) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataGoogleComputeStoragePoolTypes) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -5,16 +5,16 @@ package googlecontainercluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecontainercluster/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecontainercluster/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_cluster google_container_cluster}.
 type GoogleContainerCluster interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	AddonsConfig() GoogleContainerClusterAddonsConfigOutputReference
 	AddonsConfigInput() *GoogleContainerClusterAddonsConfig
 	AllowNetAdmin() interface{}
@@ -27,7 +27,7 @@ type GoogleContainerCluster interface {
 	BinaryAuthorization() GoogleContainerClusterBinaryAuthorizationOutputReference
 	BinaryAuthorizationInput() *GoogleContainerClusterBinaryAuthorization
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	ClusterAutoscaling() GoogleContainerClusterClusterAutoscalingOutputReference
 	ClusterAutoscalingInput() *GoogleContainerClusterClusterAutoscaling
 	ClusterIpv4Cidr() *string
@@ -76,7 +76,7 @@ type GoogleContainerCluster interface {
 	DisableL4LbFirewallReconciliationInput() interface{}
 	DnsConfig() GoogleContainerClusterDnsConfigOutputReference
 	DnsConfigInput() *GoogleContainerClusterDnsConfig
-	EffectiveLabels() cdktf.StringMap
+	EffectiveLabels() cdktn.StringMap
 	EnableAutopilot() interface{}
 	SetEnableAutopilot(val interface{})
 	EnableAutopilotInput() interface{}
@@ -115,9 +115,9 @@ type GoogleContainerCluster interface {
 	Fleet() GoogleContainerClusterFleetOutputReference
 	FleetInput() *GoogleContainerClusterFleet
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -141,9 +141,9 @@ type GoogleContainerCluster interface {
 	IpAllocationPolicyInput() *GoogleContainerClusterIpAllocationPolicy
 	LabelFingerprint() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Location() *string
 	SetLocation(val *string)
 	LocationInput() *string
@@ -216,9 +216,9 @@ type GoogleContainerCluster interface {
 	ProtectConfig() GoogleContainerClusterProtectConfigOutputReference
 	ProtectConfigInput() *GoogleContainerClusterProtectConfig
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -249,8 +249,8 @@ type GoogleContainerCluster interface {
 	SetSubnetwork(val *string)
 	SubnetworkInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
-	TerraformLabels() cdktf.StringMap
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
+	TerraformLabels() cdktn.StringMap
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -276,7 +276,7 @@ type GoogleContainerCluster interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -294,9 +294,9 @@ type GoogleContainerCluster interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -458,7 +458,7 @@ type GoogleContainerCluster interface {
 
 // The jsii proxy struct for GoogleContainerCluster
 type jsiiProxy_GoogleContainerCluster struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_GoogleContainerCluster) AddonsConfig() GoogleContainerClusterAddonsConfigOutputReference {
@@ -561,8 +561,8 @@ func (j *jsiiProxy_GoogleContainerCluster) BinaryAuthorizationInput() *GoogleCon
 	return returns
 }
 
-func (j *jsiiProxy_GoogleContainerCluster) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_GoogleContainerCluster) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -891,8 +891,8 @@ func (j *jsiiProxy_GoogleContainerCluster) DnsConfigInput() *GoogleContainerClus
 	return returns
 }
 
-func (j *jsiiProxy_GoogleContainerCluster) EffectiveLabels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_GoogleContainerCluster) EffectiveLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"effectiveLabels",
@@ -1171,8 +1171,8 @@ func (j *jsiiProxy_GoogleContainerCluster) FleetInput() *GoogleContainerClusterF
 	return returns
 }
 
-func (j *jsiiProxy_GoogleContainerCluster) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_GoogleContainerCluster) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -1351,8 +1351,8 @@ func (j *jsiiProxy_GoogleContainerCluster) LabelFingerprint() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleContainerCluster) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_GoogleContainerCluster) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -1951,8 +1951,8 @@ func (j *jsiiProxy_GoogleContainerCluster) ProtectConfigInput() *GoogleContainer
 	return returns
 }
 
-func (j *jsiiProxy_GoogleContainerCluster) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_GoogleContainerCluster) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -2181,8 +2181,8 @@ func (j *jsiiProxy_GoogleContainerCluster) SubnetworkInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleContainerCluster) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_GoogleContainerCluster) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -2191,8 +2191,8 @@ func (j *jsiiProxy_GoogleContainerCluster) TerraformGeneratorMetadata() *cdktf.T
 	return returns
 }
 
-func (j *jsiiProxy_GoogleContainerCluster) TerraformLabels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_GoogleContainerCluster) TerraformLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"terraformLabels",
@@ -2598,7 +2598,7 @@ func (j *jsiiProxy_GoogleContainerCluster)SetEnableTpu(val interface{}) {
 	)
 }
 
-func (j *jsiiProxy_GoogleContainerCluster)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_GoogleContainerCluster)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -2639,7 +2639,7 @@ func (j *jsiiProxy_GoogleContainerCluster)SetInTransitEncryptionConfig(val *stri
 	)
 }
 
-func (j *jsiiProxy_GoogleContainerCluster)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_GoogleContainerCluster)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -2771,7 +2771,7 @@ func (j *jsiiProxy_GoogleContainerCluster)SetProject(val *string) {
 	)
 }
 
-func (j *jsiiProxy_GoogleContainerCluster)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_GoogleContainerCluster)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -2823,14 +2823,14 @@ func (j *jsiiProxy_GoogleContainerCluster)SetSubnetwork(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a GoogleContainerCluster resource upon running "cdktf plan <stack-name>".
-func GoogleContainerCluster_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a GoogleContainerCluster resource upon running "cdktn plan <stack-name>".
+func GoogleContainerCluster_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateGoogleContainerCluster_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google-beta.googleContainerCluster.GoogleContainerCluster",
@@ -2964,11 +2964,11 @@ func (g *jsiiProxy_GoogleContainerCluster) GetAnyMapAttribute(terraformAttribute
 	return returns
 }
 
-func (g *jsiiProxy_GoogleContainerCluster) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleContainerCluster) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -3105,7 +3105,7 @@ func (g *jsiiProxy_GoogleContainerCluster) HasResourceMove() interface{} {
 	return returns
 }
 
-func (g *jsiiProxy_GoogleContainerCluster) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (g *jsiiProxy_GoogleContainerCluster) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := g.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -3116,11 +3116,11 @@ func (g *jsiiProxy_GoogleContainerCluster) ImportFrom(id *string, provider cdktf
 	)
 }
 
-func (g *jsiiProxy_GoogleContainerCluster) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleContainerCluster) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,

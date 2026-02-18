@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataGoogleCloudfunctionsFunctionSecretVolumesList) validateGe
 	return nil
 }
 
-func (d *jsiiProxy_DataGoogleCloudfunctionsFunctionSecretVolumesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataGoogleCloudfunctionsFunctionSecretVolumesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataGoogleCloudfunctionsFunctionSecretVolumesList) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleCloudfunctionsFunctionSecretVolumesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataGoogleCloudfunctionsFunctionSecretVolumesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataGoogleCloudfunctionsFunctionSecretVolumesList) validateSe
 	return nil
 }
 
-func validateNewDataGoogleCloudfunctionsFunctionSecretVolumesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataGoogleCloudfunctionsFunctionSecretVolumesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleComputeInterconnectAttachmentPrivateInterconnectInfoOut
 	return nil
 }
 
-func (g *jsiiProxy_GoogleComputeInterconnectAttachmentPrivateInterconnectInfoOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleComputeInterconnectAttachmentPrivateInterconnectInfoOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_GoogleComputeInterconnectAttachmentPrivateInterconnectInfoOut
 	return nil
 }
 
-func (j *jsiiProxy_GoogleComputeInterconnectAttachmentPrivateInterconnectInfoOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleComputeInterconnectAttachmentPrivateInterconnectInfoOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleComputeInterconnectAttachmentPrivateInterconnectInfoOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewGoogleComputeInterconnectAttachmentPrivateInterconnectInfoOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

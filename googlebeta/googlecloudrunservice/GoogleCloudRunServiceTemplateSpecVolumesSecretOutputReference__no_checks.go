@@ -51,7 +51,7 @@ func (g *jsiiProxy_GoogleCloudRunServiceTemplateSpecVolumesSecretOutputReference
 	return nil
 }
 
-func (g *jsiiProxy_GoogleCloudRunServiceTemplateSpecVolumesSecretOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleCloudRunServiceTemplateSpecVolumesSecretOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_GoogleCloudRunServiceTemplateSpecVolumesSecretOutputReference
 	return nil
 }
 
-func (j *jsiiProxy_GoogleCloudRunServiceTemplateSpecVolumesSecretOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleCloudRunServiceTemplateSpecVolumesSecretOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleCloudRunServiceTemplateSpecVolumesSecretOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleCloudRunServiceTemplateSpecVolumesSecretOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

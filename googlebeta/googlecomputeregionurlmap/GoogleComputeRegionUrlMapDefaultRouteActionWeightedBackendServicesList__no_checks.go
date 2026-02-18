@@ -15,7 +15,7 @@ func (g *jsiiProxy_GoogleComputeRegionUrlMapDefaultRouteActionWeightedBackendSer
 	return nil
 }
 
-func (g *jsiiProxy_GoogleComputeRegionUrlMapDefaultRouteActionWeightedBackendServicesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleComputeRegionUrlMapDefaultRouteActionWeightedBackendServicesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_GoogleComputeRegionUrlMapDefaultRouteActionWeightedBackendSer
 	return nil
 }
 
-func (j *jsiiProxy_GoogleComputeRegionUrlMapDefaultRouteActionWeightedBackendServicesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleComputeRegionUrlMapDefaultRouteActionWeightedBackendServicesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_GoogleComputeRegionUrlMapDefaultRouteActionWeightedBackendSer
 	return nil
 }
 
-func validateNewGoogleComputeRegionUrlMapDefaultRouteActionWeightedBackendServicesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGoogleComputeRegionUrlMapDefaultRouteActionWeightedBackendServicesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

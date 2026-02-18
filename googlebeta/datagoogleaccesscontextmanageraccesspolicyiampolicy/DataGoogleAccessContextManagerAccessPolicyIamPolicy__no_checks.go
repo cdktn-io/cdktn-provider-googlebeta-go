@@ -79,7 +79,7 @@ func (j *jsiiProxy_DataGoogleAccessContextManagerAccessPolicyIamPolicy) validate
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleAccessContextManagerAccessPolicyIamPolicy) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataGoogleAccessContextManagerAccessPolicyIamPolicy) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

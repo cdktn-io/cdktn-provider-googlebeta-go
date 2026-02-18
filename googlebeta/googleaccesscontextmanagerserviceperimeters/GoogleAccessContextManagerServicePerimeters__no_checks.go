@@ -111,7 +111,7 @@ func (j *jsiiProxy_GoogleAccessContextManagerServicePerimeters) validateSetIdPar
 	return nil
 }
 
-func (j *jsiiProxy_GoogleAccessContextManagerServicePerimeters) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleAccessContextManagerServicePerimeters) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

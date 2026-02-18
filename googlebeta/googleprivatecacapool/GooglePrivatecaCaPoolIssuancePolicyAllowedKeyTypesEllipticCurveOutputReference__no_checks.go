@@ -47,7 +47,7 @@ func (g *jsiiProxy_GooglePrivatecaCaPoolIssuancePolicyAllowedKeyTypesEllipticCur
 	return nil
 }
 
-func (g *jsiiProxy_GooglePrivatecaCaPoolIssuancePolicyAllowedKeyTypesEllipticCurveOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GooglePrivatecaCaPoolIssuancePolicyAllowedKeyTypesEllipticCurveOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_GooglePrivatecaCaPoolIssuancePolicyAllowedKeyTypesEllipticCur
 	return nil
 }
 
-func (j *jsiiProxy_GooglePrivatecaCaPoolIssuancePolicyAllowedKeyTypesEllipticCurveOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GooglePrivatecaCaPoolIssuancePolicyAllowedKeyTypesEllipticCurveOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGooglePrivatecaCaPoolIssuancePolicyAllowedKeyTypesEllipticCurveOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGooglePrivatecaCaPoolIssuancePolicyAllowedKeyTypesEllipticCurveOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

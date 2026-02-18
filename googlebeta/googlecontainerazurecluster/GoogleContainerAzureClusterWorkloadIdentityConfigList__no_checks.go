@@ -15,7 +15,7 @@ func (g *jsiiProxy_GoogleContainerAzureClusterWorkloadIdentityConfigList) valida
 	return nil
 }
 
-func (g *jsiiProxy_GoogleContainerAzureClusterWorkloadIdentityConfigList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleContainerAzureClusterWorkloadIdentityConfigList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_GoogleContainerAzureClusterWorkloadIdentityConfigList) valida
 	return nil
 }
 
-func (j *jsiiProxy_GoogleContainerAzureClusterWorkloadIdentityConfigList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleContainerAzureClusterWorkloadIdentityConfigList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_GoogleContainerAzureClusterWorkloadIdentityConfigList) valida
 	return nil
 }
 
-func validateNewGoogleContainerAzureClusterWorkloadIdentityConfigListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGoogleContainerAzureClusterWorkloadIdentityConfigListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

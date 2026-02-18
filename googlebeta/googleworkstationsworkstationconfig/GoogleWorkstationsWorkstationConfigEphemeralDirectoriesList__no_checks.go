@@ -15,7 +15,7 @@ func (g *jsiiProxy_GoogleWorkstationsWorkstationConfigEphemeralDirectoriesList) 
 	return nil
 }
 
-func (g *jsiiProxy_GoogleWorkstationsWorkstationConfigEphemeralDirectoriesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleWorkstationsWorkstationConfigEphemeralDirectoriesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_GoogleWorkstationsWorkstationConfigEphemeralDirectoriesList) 
 	return nil
 }
 
-func (j *jsiiProxy_GoogleWorkstationsWorkstationConfigEphemeralDirectoriesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleWorkstationsWorkstationConfigEphemeralDirectoriesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_GoogleWorkstationsWorkstationConfigEphemeralDirectoriesList) 
 	return nil
 }
 
-func validateNewGoogleWorkstationsWorkstationConfigEphemeralDirectoriesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGoogleWorkstationsWorkstationConfigEphemeralDirectoriesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

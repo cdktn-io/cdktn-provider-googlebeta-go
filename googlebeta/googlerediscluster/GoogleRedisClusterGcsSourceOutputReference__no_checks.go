@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleRedisClusterGcsSourceOutputReference) validateInterpola
 	return nil
 }
 
-func (g *jsiiProxy_GoogleRedisClusterGcsSourceOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleRedisClusterGcsSourceOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,7 +67,7 @@ func (j *jsiiProxy_GoogleRedisClusterGcsSourceOutputReference) validateSetTerraf
 	return nil
 }
 
-func (j *jsiiProxy_GoogleRedisClusterGcsSourceOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleRedisClusterGcsSourceOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_GoogleRedisClusterGcsSourceOutputReference) validateSetUrisPa
 	return nil
 }
 
-func validateNewGoogleRedisClusterGcsSourceOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleRedisClusterGcsSourceOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

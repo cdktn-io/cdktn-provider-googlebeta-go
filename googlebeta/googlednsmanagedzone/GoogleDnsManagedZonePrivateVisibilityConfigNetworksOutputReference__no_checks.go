@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleDnsManagedZonePrivateVisibilityConfigNetworksOutputRefe
 	return nil
 }
 
-func (g *jsiiProxy_GoogleDnsManagedZonePrivateVisibilityConfigNetworksOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleDnsManagedZonePrivateVisibilityConfigNetworksOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_GoogleDnsManagedZonePrivateVisibilityConfigNetworksOutputRefe
 	return nil
 }
 
-func (j *jsiiProxy_GoogleDnsManagedZonePrivateVisibilityConfigNetworksOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleDnsManagedZonePrivateVisibilityConfigNetworksOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleDnsManagedZonePrivateVisibilityConfigNetworksOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewGoogleDnsManagedZonePrivateVisibilityConfigNetworksOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

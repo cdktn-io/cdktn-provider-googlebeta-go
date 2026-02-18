@@ -15,7 +15,7 @@ func (g *jsiiProxy_GoogleIamDenyPolicyRulesList) validateGetParameters(index *fl
 	return nil
 }
 
-func (g *jsiiProxy_GoogleIamDenyPolicyRulesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleIamDenyPolicyRulesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_GoogleIamDenyPolicyRulesList) validateSetTerraformAttributePa
 	return nil
 }
 
-func (j *jsiiProxy_GoogleIamDenyPolicyRulesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleIamDenyPolicyRulesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_GoogleIamDenyPolicyRulesList) validateSetWrapsSetParameters(v
 	return nil
 }
 
-func validateNewGoogleIamDenyPolicyRulesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGoogleIamDenyPolicyRulesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

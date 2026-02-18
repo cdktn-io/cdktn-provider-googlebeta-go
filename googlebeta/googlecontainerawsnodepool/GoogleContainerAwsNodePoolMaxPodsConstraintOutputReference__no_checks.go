@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleContainerAwsNodePoolMaxPodsConstraintOutputReference) v
 	return nil
 }
 
-func (g *jsiiProxy_GoogleContainerAwsNodePoolMaxPodsConstraintOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleContainerAwsNodePoolMaxPodsConstraintOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_GoogleContainerAwsNodePoolMaxPodsConstraintOutputReference) v
 	return nil
 }
 
-func (j *jsiiProxy_GoogleContainerAwsNodePoolMaxPodsConstraintOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleContainerAwsNodePoolMaxPodsConstraintOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleContainerAwsNodePoolMaxPodsConstraintOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleContainerAwsNodePoolMaxPodsConstraintOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

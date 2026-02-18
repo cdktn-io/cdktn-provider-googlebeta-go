@@ -135,7 +135,7 @@ func (j *jsiiProxy_GoogleApigeeKeystoresAliasesSelfSignedCert) validateSetKeysto
 	return nil
 }
 
-func (j *jsiiProxy_GoogleApigeeKeystoresAliasesSelfSignedCert) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleApigeeKeystoresAliasesSelfSignedCert) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

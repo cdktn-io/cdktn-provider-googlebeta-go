@@ -107,7 +107,7 @@ func (j *jsiiProxy_GoogleComputeImageIamPolicy) validateSetImageParameters(val *
 	return nil
 }
 
-func (j *jsiiProxy_GoogleComputeImageIamPolicy) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleComputeImageIamPolicy) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

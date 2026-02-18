@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleTpuV2VmSchedulingConfigOutputReference) validateInterpo
 	return nil
 }
 
-func (g *jsiiProxy_GoogleTpuV2VmSchedulingConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleTpuV2VmSchedulingConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_GoogleTpuV2VmSchedulingConfigOutputReference) validateSetTerr
 	return nil
 }
 
-func (j *jsiiProxy_GoogleTpuV2VmSchedulingConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleTpuV2VmSchedulingConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleTpuV2VmSchedulingConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleTpuV2VmSchedulingConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

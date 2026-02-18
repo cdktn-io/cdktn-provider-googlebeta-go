@@ -15,7 +15,7 @@ func (g *jsiiProxy_GooglePrivatecaCaPoolIssuancePolicyAllowedKeyTypesList) valid
 	return nil
 }
 
-func (g *jsiiProxy_GooglePrivatecaCaPoolIssuancePolicyAllowedKeyTypesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GooglePrivatecaCaPoolIssuancePolicyAllowedKeyTypesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_GooglePrivatecaCaPoolIssuancePolicyAllowedKeyTypesList) valid
 	return nil
 }
 
-func (j *jsiiProxy_GooglePrivatecaCaPoolIssuancePolicyAllowedKeyTypesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GooglePrivatecaCaPoolIssuancePolicyAllowedKeyTypesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_GooglePrivatecaCaPoolIssuancePolicyAllowedKeyTypesList) valid
 	return nil
 }
 
-func validateNewGooglePrivatecaCaPoolIssuancePolicyAllowedKeyTypesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGooglePrivatecaCaPoolIssuancePolicyAllowedKeyTypesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

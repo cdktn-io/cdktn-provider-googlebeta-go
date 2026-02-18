@@ -51,7 +51,7 @@ func (g *jsiiProxy_GoogleEdgecontainerClusterMaintenancePolicyWindowRecurringWin
 	return nil
 }
 
-func (g *jsiiProxy_GoogleEdgecontainerClusterMaintenancePolicyWindowRecurringWindowOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleEdgecontainerClusterMaintenancePolicyWindowRecurringWindowOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_GoogleEdgecontainerClusterMaintenancePolicyWindowRecurringWin
 	return nil
 }
 
-func (j *jsiiProxy_GoogleEdgecontainerClusterMaintenancePolicyWindowRecurringWindowOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleEdgecontainerClusterMaintenancePolicyWindowRecurringWindowOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleEdgecontainerClusterMaintenancePolicyWindowRecurringWindowOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleEdgecontainerClusterMaintenancePolicyWindowRecurringWindowOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

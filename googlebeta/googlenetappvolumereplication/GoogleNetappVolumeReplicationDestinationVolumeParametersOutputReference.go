@@ -5,14 +5,14 @@ package googlenetappvolumereplication
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlenetappvolumereplication/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlenetappvolumereplication/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type GoogleNetappVolumeReplicationDestinationVolumeParametersOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -46,9 +46,9 @@ type GoogleNetappVolumeReplicationDestinationVolumeParametersOutputReference int
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	TieringPolicy() GoogleNetappVolumeReplicationDestinationVolumeParametersTieringPolicyOutputReference
 	TieringPolicyInput() *GoogleNetappVolumeReplicationDestinationVolumeParametersTieringPolicy
 	VolumeId() *string
@@ -59,7 +59,7 @@ type GoogleNetappVolumeReplicationDestinationVolumeParametersOutputReference int
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -75,9 +75,9 @@ type GoogleNetappVolumeReplicationDestinationVolumeParametersOutputReference int
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutTieringPolicy(value *GoogleNetappVolumeReplicationDestinationVolumeParametersTieringPolicy)
 	ResetDescription()
 	ResetShareName()
@@ -85,7 +85,7 @@ type GoogleNetappVolumeReplicationDestinationVolumeParametersOutputReference int
 	ResetVolumeId()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -95,7 +95,7 @@ type GoogleNetappVolumeReplicationDestinationVolumeParametersOutputReference int
 
 // The jsii proxy struct for GoogleNetappVolumeReplicationDestinationVolumeParametersOutputReference
 type jsiiProxy_GoogleNetappVolumeReplicationDestinationVolumeParametersOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_GoogleNetappVolumeReplicationDestinationVolumeParametersOutputReference) ComplexObjectIndex() interface{} {
@@ -218,8 +218,8 @@ func (j *jsiiProxy_GoogleNetappVolumeReplicationDestinationVolumeParametersOutpu
 	return returns
 }
 
-func (j *jsiiProxy_GoogleNetappVolumeReplicationDestinationVolumeParametersOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_GoogleNetappVolumeReplicationDestinationVolumeParametersOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -269,7 +269,7 @@ func (j *jsiiProxy_GoogleNetappVolumeReplicationDestinationVolumeParametersOutpu
 }
 
 
-func NewGoogleNetappVolumeReplicationDestinationVolumeParametersOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) GoogleNetappVolumeReplicationDestinationVolumeParametersOutputReference {
+func NewGoogleNetappVolumeReplicationDestinationVolumeParametersOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) GoogleNetappVolumeReplicationDestinationVolumeParametersOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewGoogleNetappVolumeReplicationDestinationVolumeParametersOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -286,7 +286,7 @@ func NewGoogleNetappVolumeReplicationDestinationVolumeParametersOutputReference(
 	return &j
 }
 
-func NewGoogleNetappVolumeReplicationDestinationVolumeParametersOutputReference_Override(g GoogleNetappVolumeReplicationDestinationVolumeParametersOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewGoogleNetappVolumeReplicationDestinationVolumeParametersOutputReference_Override(g GoogleNetappVolumeReplicationDestinationVolumeParametersOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -373,7 +373,7 @@ func (j *jsiiProxy_GoogleNetappVolumeReplicationDestinationVolumeParametersOutpu
 	)
 }
 
-func (j *jsiiProxy_GoogleNetappVolumeReplicationDestinationVolumeParametersOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_GoogleNetappVolumeReplicationDestinationVolumeParametersOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -424,11 +424,11 @@ func (g *jsiiProxy_GoogleNetappVolumeReplicationDestinationVolumeParametersOutpu
 	return returns
 }
 
-func (g *jsiiProxy_GoogleNetappVolumeReplicationDestinationVolumeParametersOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleNetappVolumeReplicationDestinationVolumeParametersOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -552,8 +552,8 @@ func (g *jsiiProxy_GoogleNetappVolumeReplicationDestinationVolumeParametersOutpu
 	return returns
 }
 
-func (g *jsiiProxy_GoogleNetappVolumeReplicationDestinationVolumeParametersOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (g *jsiiProxy_GoogleNetappVolumeReplicationDestinationVolumeParametersOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -565,11 +565,11 @@ func (g *jsiiProxy_GoogleNetappVolumeReplicationDestinationVolumeParametersOutpu
 	return returns
 }
 
-func (g *jsiiProxy_GoogleNetappVolumeReplicationDestinationVolumeParametersOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleNetappVolumeReplicationDestinationVolumeParametersOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -624,7 +624,7 @@ func (g *jsiiProxy_GoogleNetappVolumeReplicationDestinationVolumeParametersOutpu
 	)
 }
 
-func (g *jsiiProxy_GoogleNetappVolumeReplicationDestinationVolumeParametersOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (g *jsiiProxy_GoogleNetappVolumeReplicationDestinationVolumeParametersOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -15,7 +15,7 @@ func (g *jsiiProxy_GoogleVmwareengineClusterAutoscalingSettingsAutoscalingPolici
 	return nil
 }
 
-func (g *jsiiProxy_GoogleVmwareengineClusterAutoscalingSettingsAutoscalingPoliciesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleVmwareengineClusterAutoscalingSettingsAutoscalingPoliciesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_GoogleVmwareengineClusterAutoscalingSettingsAutoscalingPolici
 	return nil
 }
 
-func (j *jsiiProxy_GoogleVmwareengineClusterAutoscalingSettingsAutoscalingPoliciesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleVmwareengineClusterAutoscalingSettingsAutoscalingPoliciesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_GoogleVmwareengineClusterAutoscalingSettingsAutoscalingPolici
 	return nil
 }
 
-func validateNewGoogleVmwareengineClusterAutoscalingSettingsAutoscalingPoliciesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGoogleVmwareengineClusterAutoscalingSettingsAutoscalingPoliciesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

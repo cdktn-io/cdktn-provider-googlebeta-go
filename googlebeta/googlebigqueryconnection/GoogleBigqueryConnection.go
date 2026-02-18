@@ -5,22 +5,22 @@ package googlebigqueryconnection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlebigqueryconnection/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebigqueryconnection/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_connection google_bigquery_connection}.
 type GoogleBigqueryConnection interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	Aws() GoogleBigqueryConnectionAwsOutputReference
 	AwsInput() *GoogleBigqueryConnectionAws
 	Azure() GoogleBigqueryConnectionAzureOutputReference
 	AzureInput() *GoogleBigqueryConnectionAzure
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	CloudResource() GoogleBigqueryConnectionCloudResourceOutputReference
 	CloudResourceInput() *GoogleBigqueryConnectionCloudResource
 	CloudSpanner() GoogleBigqueryConnectionCloudSpannerOutputReference
@@ -48,9 +48,9 @@ type GoogleBigqueryConnection interface {
 	SetDescription(val *string)
 	DescriptionInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	FriendlyName() *string
@@ -58,7 +58,7 @@ type GoogleBigqueryConnection interface {
 	FriendlyNameInput() *string
 	// Experimental.
 	FriendlyUniqueId() *string
-	HasCredential() cdktf.IResolvable
+	HasCredential() cdktn.IResolvable
 	Id() *string
 	SetId(val *string)
 	IdInput() *string
@@ -66,9 +66,9 @@ type GoogleBigqueryConnection interface {
 	SetKmsKeyName(val *string)
 	KmsKeyNameInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Location() *string
 	SetLocation(val *string)
 	LocationInput() *string
@@ -79,9 +79,9 @@ type GoogleBigqueryConnection interface {
 	SetProject(val *string)
 	ProjectInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -91,7 +91,7 @@ type GoogleBigqueryConnection interface {
 	Spark() GoogleBigqueryConnectionSparkOutputReference
 	SparkInput() *GoogleBigqueryConnectionSpark
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -106,7 +106,7 @@ type GoogleBigqueryConnection interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -124,9 +124,9 @@ type GoogleBigqueryConnection interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -180,7 +180,7 @@ type GoogleBigqueryConnection interface {
 
 // The jsii proxy struct for GoogleBigqueryConnection
 type jsiiProxy_GoogleBigqueryConnection struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_GoogleBigqueryConnection) Aws() GoogleBigqueryConnectionAwsOutputReference {
@@ -223,8 +223,8 @@ func (j *jsiiProxy_GoogleBigqueryConnection) AzureInput() *GoogleBigqueryConnect
 	return returns
 }
 
-func (j *jsiiProxy_GoogleBigqueryConnection) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_GoogleBigqueryConnection) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -373,8 +373,8 @@ func (j *jsiiProxy_GoogleBigqueryConnection) DescriptionInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleBigqueryConnection) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_GoogleBigqueryConnection) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -423,8 +423,8 @@ func (j *jsiiProxy_GoogleBigqueryConnection) FriendlyUniqueId() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleBigqueryConnection) HasCredential() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_GoogleBigqueryConnection) HasCredential() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"hasCredential",
@@ -473,8 +473,8 @@ func (j *jsiiProxy_GoogleBigqueryConnection) KmsKeyNameInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleBigqueryConnection) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_GoogleBigqueryConnection) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -543,8 +543,8 @@ func (j *jsiiProxy_GoogleBigqueryConnection) ProjectInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleBigqueryConnection) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_GoogleBigqueryConnection) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -593,8 +593,8 @@ func (j *jsiiProxy_GoogleBigqueryConnection) SparkInput() *GoogleBigqueryConnect
 	return returns
 }
 
-func (j *jsiiProxy_GoogleBigqueryConnection) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_GoogleBigqueryConnection) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -725,7 +725,7 @@ func (j *jsiiProxy_GoogleBigqueryConnection)SetDescription(val *string) {
 	)
 }
 
-func (j *jsiiProxy_GoogleBigqueryConnection)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_GoogleBigqueryConnection)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -766,7 +766,7 @@ func (j *jsiiProxy_GoogleBigqueryConnection)SetKmsKeyName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_GoogleBigqueryConnection)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_GoogleBigqueryConnection)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -799,7 +799,7 @@ func (j *jsiiProxy_GoogleBigqueryConnection)SetProject(val *string) {
 	)
 }
 
-func (j *jsiiProxy_GoogleBigqueryConnection)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_GoogleBigqueryConnection)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -818,14 +818,14 @@ func (j *jsiiProxy_GoogleBigqueryConnection)SetProvisioners(val *[]interface{}) 
 	)
 }
 
-// Generates CDKTF code for importing a GoogleBigqueryConnection resource upon running "cdktf plan <stack-name>".
-func GoogleBigqueryConnection_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a GoogleBigqueryConnection resource upon running "cdktn plan <stack-name>".
+func GoogleBigqueryConnection_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateGoogleBigqueryConnection_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google-beta.googleBigqueryConnection.GoogleBigqueryConnection",
@@ -959,11 +959,11 @@ func (g *jsiiProxy_GoogleBigqueryConnection) GetAnyMapAttribute(terraformAttribu
 	return returns
 }
 
-func (g *jsiiProxy_GoogleBigqueryConnection) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleBigqueryConnection) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -1100,7 +1100,7 @@ func (g *jsiiProxy_GoogleBigqueryConnection) HasResourceMove() interface{} {
 	return returns
 }
 
-func (g *jsiiProxy_GoogleBigqueryConnection) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (g *jsiiProxy_GoogleBigqueryConnection) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := g.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1111,11 +1111,11 @@ func (g *jsiiProxy_GoogleBigqueryConnection) ImportFrom(id *string, provider cdk
 	)
 }
 
-func (g *jsiiProxy_GoogleBigqueryConnection) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleBigqueryConnection) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,

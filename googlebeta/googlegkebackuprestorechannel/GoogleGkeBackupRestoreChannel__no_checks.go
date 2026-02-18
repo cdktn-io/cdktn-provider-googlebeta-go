@@ -119,7 +119,7 @@ func (j *jsiiProxy_GoogleGkeBackupRestoreChannel) validateSetLabelsParameters(va
 	return nil
 }
 
-func (j *jsiiProxy_GoogleGkeBackupRestoreChannel) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleGkeBackupRestoreChannel) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

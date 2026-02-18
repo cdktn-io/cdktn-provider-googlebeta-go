@@ -119,7 +119,7 @@ func (j *jsiiProxy_GoogleVertexAiFeaturestoreEntitytypeFeature) validateSetLabel
 	return nil
 }
 
-func (j *jsiiProxy_GoogleVertexAiFeaturestoreEntitytypeFeature) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleVertexAiFeaturestoreEntitytypeFeature) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

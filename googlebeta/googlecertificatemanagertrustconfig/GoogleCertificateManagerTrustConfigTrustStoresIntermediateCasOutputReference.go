@@ -5,14 +5,14 @@ package googlecertificatemanagertrustconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecertificatemanagertrustconfig/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecertificatemanagertrustconfig/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type GoogleCertificateManagerTrustConfigTrustStoresIntermediateCasOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -40,15 +40,15 @@ type GoogleCertificateManagerTrustConfigTrustStoresIntermediateCasOutputReferenc
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -64,13 +64,13 @@ type GoogleCertificateManagerTrustConfigTrustStoresIntermediateCasOutputReferenc
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetPemCertificate()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -80,7 +80,7 @@ type GoogleCertificateManagerTrustConfigTrustStoresIntermediateCasOutputReferenc
 
 // The jsii proxy struct for GoogleCertificateManagerTrustConfigTrustStoresIntermediateCasOutputReference
 type jsiiProxy_GoogleCertificateManagerTrustConfigTrustStoresIntermediateCasOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_GoogleCertificateManagerTrustConfigTrustStoresIntermediateCasOutputReference) ComplexObjectIndex() interface{} {
@@ -163,8 +163,8 @@ func (j *jsiiProxy_GoogleCertificateManagerTrustConfigTrustStoresIntermediateCas
 	return returns
 }
 
-func (j *jsiiProxy_GoogleCertificateManagerTrustConfigTrustStoresIntermediateCasOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_GoogleCertificateManagerTrustConfigTrustStoresIntermediateCasOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -174,7 +174,7 @@ func (j *jsiiProxy_GoogleCertificateManagerTrustConfigTrustStoresIntermediateCas
 }
 
 
-func NewGoogleCertificateManagerTrustConfigTrustStoresIntermediateCasOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) GoogleCertificateManagerTrustConfigTrustStoresIntermediateCasOutputReference {
+func NewGoogleCertificateManagerTrustConfigTrustStoresIntermediateCasOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) GoogleCertificateManagerTrustConfigTrustStoresIntermediateCasOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewGoogleCertificateManagerTrustConfigTrustStoresIntermediateCasOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -191,7 +191,7 @@ func NewGoogleCertificateManagerTrustConfigTrustStoresIntermediateCasOutputRefer
 	return &j
 }
 
-func NewGoogleCertificateManagerTrustConfigTrustStoresIntermediateCasOutputReference_Override(g GoogleCertificateManagerTrustConfigTrustStoresIntermediateCasOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewGoogleCertificateManagerTrustConfigTrustStoresIntermediateCasOutputReference_Override(g GoogleCertificateManagerTrustConfigTrustStoresIntermediateCasOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -256,7 +256,7 @@ func (j *jsiiProxy_GoogleCertificateManagerTrustConfigTrustStoresIntermediateCas
 	)
 }
 
-func (j *jsiiProxy_GoogleCertificateManagerTrustConfigTrustStoresIntermediateCasOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_GoogleCertificateManagerTrustConfigTrustStoresIntermediateCasOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -296,11 +296,11 @@ func (g *jsiiProxy_GoogleCertificateManagerTrustConfigTrustStoresIntermediateCas
 	return returns
 }
 
-func (g *jsiiProxy_GoogleCertificateManagerTrustConfigTrustStoresIntermediateCasOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleCertificateManagerTrustConfigTrustStoresIntermediateCasOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -424,8 +424,8 @@ func (g *jsiiProxy_GoogleCertificateManagerTrustConfigTrustStoresIntermediateCas
 	return returns
 }
 
-func (g *jsiiProxy_GoogleCertificateManagerTrustConfigTrustStoresIntermediateCasOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (g *jsiiProxy_GoogleCertificateManagerTrustConfigTrustStoresIntermediateCasOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -437,11 +437,11 @@ func (g *jsiiProxy_GoogleCertificateManagerTrustConfigTrustStoresIntermediateCas
 	return returns
 }
 
-func (g *jsiiProxy_GoogleCertificateManagerTrustConfigTrustStoresIntermediateCasOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleCertificateManagerTrustConfigTrustStoresIntermediateCasOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -461,7 +461,7 @@ func (g *jsiiProxy_GoogleCertificateManagerTrustConfigTrustStoresIntermediateCas
 	)
 }
 
-func (g *jsiiProxy_GoogleCertificateManagerTrustConfigTrustStoresIntermediateCasOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (g *jsiiProxy_GoogleCertificateManagerTrustConfigTrustStoresIntermediateCasOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

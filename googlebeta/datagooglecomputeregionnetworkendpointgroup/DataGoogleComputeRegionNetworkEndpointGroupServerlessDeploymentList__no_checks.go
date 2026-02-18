@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataGoogleComputeRegionNetworkEndpointGroupServerlessDeployme
 	return nil
 }
 
-func (d *jsiiProxy_DataGoogleComputeRegionNetworkEndpointGroupServerlessDeploymentList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataGoogleComputeRegionNetworkEndpointGroupServerlessDeploymentList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataGoogleComputeRegionNetworkEndpointGroupServerlessDeployme
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleComputeRegionNetworkEndpointGroupServerlessDeploymentList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataGoogleComputeRegionNetworkEndpointGroupServerlessDeploymentList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataGoogleComputeRegionNetworkEndpointGroupServerlessDeployme
 	return nil
 }
 
-func validateNewDataGoogleComputeRegionNetworkEndpointGroupServerlessDeploymentListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataGoogleComputeRegionNetworkEndpointGroupServerlessDeploymentListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

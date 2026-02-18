@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleSecurityScannerScanConfigAuthenticationCustomAccountOut
 	return nil
 }
 
-func (g *jsiiProxy_GoogleSecurityScannerScanConfigAuthenticationCustomAccountOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleSecurityScannerScanConfigAuthenticationCustomAccountOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_GoogleSecurityScannerScanConfigAuthenticationCustomAccountOut
 	return nil
 }
 
-func (j *jsiiProxy_GoogleSecurityScannerScanConfigAuthenticationCustomAccountOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleSecurityScannerScanConfigAuthenticationCustomAccountOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_GoogleSecurityScannerScanConfigAuthenticationCustomAccountOut
 	return nil
 }
 
-func validateNewGoogleSecurityScannerScanConfigAuthenticationCustomAccountOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleSecurityScannerScanConfigAuthenticationCustomAccountOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

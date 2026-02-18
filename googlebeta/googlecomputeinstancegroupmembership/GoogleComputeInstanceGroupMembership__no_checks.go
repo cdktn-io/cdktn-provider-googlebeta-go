@@ -115,7 +115,7 @@ func (j *jsiiProxy_GoogleComputeInstanceGroupMembership) validateSetInstanceGrou
 	return nil
 }
 
-func (j *jsiiProxy_GoogleComputeInstanceGroupMembership) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleComputeInstanceGroupMembership) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

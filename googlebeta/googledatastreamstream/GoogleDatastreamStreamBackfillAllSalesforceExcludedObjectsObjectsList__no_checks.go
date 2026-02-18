@@ -15,7 +15,7 @@ func (g *jsiiProxy_GoogleDatastreamStreamBackfillAllSalesforceExcludedObjectsObj
 	return nil
 }
 
-func (g *jsiiProxy_GoogleDatastreamStreamBackfillAllSalesforceExcludedObjectsObjectsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleDatastreamStreamBackfillAllSalesforceExcludedObjectsObjectsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_GoogleDatastreamStreamBackfillAllSalesforceExcludedObjectsObj
 	return nil
 }
 
-func (j *jsiiProxy_GoogleDatastreamStreamBackfillAllSalesforceExcludedObjectsObjectsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleDatastreamStreamBackfillAllSalesforceExcludedObjectsObjectsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_GoogleDatastreamStreamBackfillAllSalesforceExcludedObjectsObj
 	return nil
 }
 
-func validateNewGoogleDatastreamStreamBackfillAllSalesforceExcludedObjectsObjectsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGoogleDatastreamStreamBackfillAllSalesforceExcludedObjectsObjectsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

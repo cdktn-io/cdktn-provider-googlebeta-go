@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleContainerClusterMaintenancePolicyMaintenanceExclusionEx
 	return nil
 }
 
-func (g *jsiiProxy_GoogleContainerClusterMaintenancePolicyMaintenanceExclusionExclusionOptionsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleContainerClusterMaintenancePolicyMaintenanceExclusionExclusionOptionsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_GoogleContainerClusterMaintenancePolicyMaintenanceExclusionEx
 	return nil
 }
 
-func (j *jsiiProxy_GoogleContainerClusterMaintenancePolicyMaintenanceExclusionExclusionOptionsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleContainerClusterMaintenancePolicyMaintenanceExclusionExclusionOptionsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleContainerClusterMaintenancePolicyMaintenanceExclusionExclusionOptionsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleContainerClusterMaintenancePolicyMaintenanceExclusionExclusionOptionsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -119,7 +119,7 @@ func (j *jsiiProxy_GoogleBeyondcorpAppConnector) validateSetLabelsParameters(val
 	return nil
 }
 
-func (j *jsiiProxy_GoogleBeyondcorpAppConnector) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleBeyondcorpAppConnector) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

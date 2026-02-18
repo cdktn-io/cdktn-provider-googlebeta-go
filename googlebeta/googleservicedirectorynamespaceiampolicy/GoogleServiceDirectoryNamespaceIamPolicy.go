@@ -5,18 +5,18 @@ package googleservicedirectorynamespaceiampolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleservicedirectorynamespaceiampolicy/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleservicedirectorynamespaceiampolicy/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_service_directory_namespace_iam_policy google_service_directory_namespace_iam_policy}.
 type GoogleServiceDirectoryNamespaceIamPolicy interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -33,9 +33,9 @@ type GoogleServiceDirectoryNamespaceIamPolicy interface {
 	SetDependsOn(val *[]*string)
 	Etag() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -44,9 +44,9 @@ type GoogleServiceDirectoryNamespaceIamPolicy interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
@@ -56,9 +56,9 @@ type GoogleServiceDirectoryNamespaceIamPolicy interface {
 	SetPolicyData(val *string)
 	PolicyDataInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -66,7 +66,7 @@ type GoogleServiceDirectoryNamespaceIamPolicy interface {
 	// Experimental.
 	RawOverrides() interface{}
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -79,7 +79,7 @@ type GoogleServiceDirectoryNamespaceIamPolicy interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -97,9 +97,9 @@ type GoogleServiceDirectoryNamespaceIamPolicy interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -133,11 +133,11 @@ type GoogleServiceDirectoryNamespaceIamPolicy interface {
 
 // The jsii proxy struct for GoogleServiceDirectoryNamespaceIamPolicy
 type jsiiProxy_GoogleServiceDirectoryNamespaceIamPolicy struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
-func (j *jsiiProxy_GoogleServiceDirectoryNamespaceIamPolicy) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_GoogleServiceDirectoryNamespaceIamPolicy) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -196,8 +196,8 @@ func (j *jsiiProxy_GoogleServiceDirectoryNamespaceIamPolicy) Etag() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleServiceDirectoryNamespaceIamPolicy) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_GoogleServiceDirectoryNamespaceIamPolicy) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -246,8 +246,8 @@ func (j *jsiiProxy_GoogleServiceDirectoryNamespaceIamPolicy) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleServiceDirectoryNamespaceIamPolicy) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_GoogleServiceDirectoryNamespaceIamPolicy) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -306,8 +306,8 @@ func (j *jsiiProxy_GoogleServiceDirectoryNamespaceIamPolicy) PolicyDataInput() *
 	return returns
 }
 
-func (j *jsiiProxy_GoogleServiceDirectoryNamespaceIamPolicy) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_GoogleServiceDirectoryNamespaceIamPolicy) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -336,8 +336,8 @@ func (j *jsiiProxy_GoogleServiceDirectoryNamespaceIamPolicy) RawOverrides() inte
 	return returns
 }
 
-func (j *jsiiProxy_GoogleServiceDirectoryNamespaceIamPolicy) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_GoogleServiceDirectoryNamespaceIamPolicy) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -426,7 +426,7 @@ func (j *jsiiProxy_GoogleServiceDirectoryNamespaceIamPolicy)SetDependsOn(val *[]
 	)
 }
 
-func (j *jsiiProxy_GoogleServiceDirectoryNamespaceIamPolicy)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_GoogleServiceDirectoryNamespaceIamPolicy)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -445,7 +445,7 @@ func (j *jsiiProxy_GoogleServiceDirectoryNamespaceIamPolicy)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_GoogleServiceDirectoryNamespaceIamPolicy)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_GoogleServiceDirectoryNamespaceIamPolicy)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -478,7 +478,7 @@ func (j *jsiiProxy_GoogleServiceDirectoryNamespaceIamPolicy)SetPolicyData(val *s
 	)
 }
 
-func (j *jsiiProxy_GoogleServiceDirectoryNamespaceIamPolicy)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_GoogleServiceDirectoryNamespaceIamPolicy)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -497,14 +497,14 @@ func (j *jsiiProxy_GoogleServiceDirectoryNamespaceIamPolicy)SetProvisioners(val 
 	)
 }
 
-// Generates CDKTF code for importing a GoogleServiceDirectoryNamespaceIamPolicy resource upon running "cdktf plan <stack-name>".
-func GoogleServiceDirectoryNamespaceIamPolicy_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a GoogleServiceDirectoryNamespaceIamPolicy resource upon running "cdktn plan <stack-name>".
+func GoogleServiceDirectoryNamespaceIamPolicy_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateGoogleServiceDirectoryNamespaceIamPolicy_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google-beta.googleServiceDirectoryNamespaceIamPolicy.GoogleServiceDirectoryNamespaceIamPolicy",
@@ -638,11 +638,11 @@ func (g *jsiiProxy_GoogleServiceDirectoryNamespaceIamPolicy) GetAnyMapAttribute(
 	return returns
 }
 
-func (g *jsiiProxy_GoogleServiceDirectoryNamespaceIamPolicy) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleServiceDirectoryNamespaceIamPolicy) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -779,7 +779,7 @@ func (g *jsiiProxy_GoogleServiceDirectoryNamespaceIamPolicy) HasResourceMove() i
 	return returns
 }
 
-func (g *jsiiProxy_GoogleServiceDirectoryNamespaceIamPolicy) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (g *jsiiProxy_GoogleServiceDirectoryNamespaceIamPolicy) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := g.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -790,11 +790,11 @@ func (g *jsiiProxy_GoogleServiceDirectoryNamespaceIamPolicy) ImportFrom(id *stri
 	)
 }
 
-func (g *jsiiProxy_GoogleServiceDirectoryNamespaceIamPolicy) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleServiceDirectoryNamespaceIamPolicy) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,

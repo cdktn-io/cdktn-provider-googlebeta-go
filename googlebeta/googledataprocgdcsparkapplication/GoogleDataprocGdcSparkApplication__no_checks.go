@@ -143,7 +143,7 @@ func (j *jsiiProxy_GoogleDataprocGdcSparkApplication) validateSetLabelsParameter
 	return nil
 }
 
-func (j *jsiiProxy_GoogleDataprocGdcSparkApplication) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleDataprocGdcSparkApplication) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

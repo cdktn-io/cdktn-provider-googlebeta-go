@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleArtifactRegistryRepositoryMavenConfigOutputReference) v
 	return nil
 }
 
-func (g *jsiiProxy_GoogleArtifactRegistryRepositoryMavenConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleArtifactRegistryRepositoryMavenConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_GoogleArtifactRegistryRepositoryMavenConfigOutputReference) v
 	return nil
 }
 
-func (j *jsiiProxy_GoogleArtifactRegistryRepositoryMavenConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleArtifactRegistryRepositoryMavenConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_GoogleArtifactRegistryRepositoryMavenConfigOutputReference) v
 	return nil
 }
 
-func validateNewGoogleArtifactRegistryRepositoryMavenConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleArtifactRegistryRepositoryMavenConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

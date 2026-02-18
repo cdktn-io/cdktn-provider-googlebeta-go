@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleIntegrationsAuthConfigDecryptedCredentialServiceAccount
 	return nil
 }
 
-func (g *jsiiProxy_GoogleIntegrationsAuthConfigDecryptedCredentialServiceAccountCredentialsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleIntegrationsAuthConfigDecryptedCredentialServiceAccountCredentialsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_GoogleIntegrationsAuthConfigDecryptedCredentialServiceAccount
 	return nil
 }
 
-func (j *jsiiProxy_GoogleIntegrationsAuthConfigDecryptedCredentialServiceAccountCredentialsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleIntegrationsAuthConfigDecryptedCredentialServiceAccountCredentialsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleIntegrationsAuthConfigDecryptedCredentialServiceAccountCredentialsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleIntegrationsAuthConfigDecryptedCredentialServiceAccountCredentialsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

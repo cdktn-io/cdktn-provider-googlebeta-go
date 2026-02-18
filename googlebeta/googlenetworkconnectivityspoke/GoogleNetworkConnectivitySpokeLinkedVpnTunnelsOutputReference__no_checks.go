@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleNetworkConnectivitySpokeLinkedVpnTunnelsOutputReference
 	return nil
 }
 
-func (g *jsiiProxy_GoogleNetworkConnectivitySpokeLinkedVpnTunnelsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleNetworkConnectivitySpokeLinkedVpnTunnelsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_GoogleNetworkConnectivitySpokeLinkedVpnTunnelsOutputReference
 	return nil
 }
 
-func (j *jsiiProxy_GoogleNetworkConnectivitySpokeLinkedVpnTunnelsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleNetworkConnectivitySpokeLinkedVpnTunnelsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_GoogleNetworkConnectivitySpokeLinkedVpnTunnelsOutputReference
 	return nil
 }
 
-func validateNewGoogleNetworkConnectivitySpokeLinkedVpnTunnelsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleNetworkConnectivitySpokeLinkedVpnTunnelsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

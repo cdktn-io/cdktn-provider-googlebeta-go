@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleChronicleDataAccessScopeAllowedDataAccessLabelsIngestio
 	return nil
 }
 
-func (g *jsiiProxy_GoogleChronicleDataAccessScopeAllowedDataAccessLabelsIngestionLabelOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleChronicleDataAccessScopeAllowedDataAccessLabelsIngestionLabelOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_GoogleChronicleDataAccessScopeAllowedDataAccessLabelsIngestio
 	return nil
 }
 
-func (j *jsiiProxy_GoogleChronicleDataAccessScopeAllowedDataAccessLabelsIngestionLabelOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleChronicleDataAccessScopeAllowedDataAccessLabelsIngestionLabelOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleChronicleDataAccessScopeAllowedDataAccessLabelsIngestionLabelOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleChronicleDataAccessScopeAllowedDataAccessLabelsIngestionLabelOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

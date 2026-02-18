@@ -79,7 +79,7 @@ func (j *jsiiProxy_DataGoogleVmwareengineExternalAccessRule) validateSetIdParame
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleVmwareengineExternalAccessRule) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataGoogleVmwareengineExternalAccessRule) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

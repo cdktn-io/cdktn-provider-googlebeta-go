@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataGoogleStorageControlProjectIntelligenceConfigFilterInclud
 	return nil
 }
 
-func (d *jsiiProxy_DataGoogleStorageControlProjectIntelligenceConfigFilterIncludedCloudStorageLocationsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataGoogleStorageControlProjectIntelligenceConfigFilterIncludedCloudStorageLocationsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataGoogleStorageControlProjectIntelligenceConfigFilterInclud
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleStorageControlProjectIntelligenceConfigFilterIncludedCloudStorageLocationsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataGoogleStorageControlProjectIntelligenceConfigFilterIncludedCloudStorageLocationsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataGoogleStorageControlProjectIntelligenceConfigFilterInclud
 	return nil
 }
 
-func validateNewDataGoogleStorageControlProjectIntelligenceConfigFilterIncludedCloudStorageLocationsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataGoogleStorageControlProjectIntelligenceConfigFilterIncludedCloudStorageLocationsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

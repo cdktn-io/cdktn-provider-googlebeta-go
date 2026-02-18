@@ -123,7 +123,7 @@ func (j *jsiiProxy_GoogleEdgecontainerVpnConnection) validateSetLabelsParameters
 	return nil
 }
 
-func (j *jsiiProxy_GoogleEdgecontainerVpnConnection) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleEdgecontainerVpnConnection) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

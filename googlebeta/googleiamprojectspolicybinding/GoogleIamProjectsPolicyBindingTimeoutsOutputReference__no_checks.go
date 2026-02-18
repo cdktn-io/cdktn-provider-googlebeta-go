@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleIamProjectsPolicyBindingTimeoutsOutputReference) valida
 	return nil
 }
 
-func (g *jsiiProxy_GoogleIamProjectsPolicyBindingTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleIamProjectsPolicyBindingTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_GoogleIamProjectsPolicyBindingTimeoutsOutputReference) valida
 	return nil
 }
 
-func (j *jsiiProxy_GoogleIamProjectsPolicyBindingTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleIamProjectsPolicyBindingTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_GoogleIamProjectsPolicyBindingTimeoutsOutputReference) valida
 	return nil
 }
 
-func validateNewGoogleIamProjectsPolicyBindingTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleIamProjectsPolicyBindingTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

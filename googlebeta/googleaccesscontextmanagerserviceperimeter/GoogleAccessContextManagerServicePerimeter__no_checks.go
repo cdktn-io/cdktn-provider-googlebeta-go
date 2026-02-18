@@ -119,7 +119,7 @@ func (j *jsiiProxy_GoogleAccessContextManagerServicePerimeter) validateSetIdPara
 	return nil
 }
 
-func (j *jsiiProxy_GoogleAccessContextManagerServicePerimeter) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleAccessContextManagerServicePerimeter) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

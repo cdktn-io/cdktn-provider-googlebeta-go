@@ -127,7 +127,7 @@ func (j *jsiiProxy_GoogleNetworkSecuritySecurityProfile) validateSetLabelsParame
 	return nil
 }
 
-func (j *jsiiProxy_GoogleNetworkSecuritySecurityProfile) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleNetworkSecuritySecurityProfile) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleDataplexLakeMetastoreOutputReference) validateInterpola
 	return nil
 }
 
-func (g *jsiiProxy_GoogleDataplexLakeMetastoreOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleDataplexLakeMetastoreOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_GoogleDataplexLakeMetastoreOutputReference) validateSetTerraf
 	return nil
 }
 
-func (j *jsiiProxy_GoogleDataplexLakeMetastoreOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleDataplexLakeMetastoreOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleDataplexLakeMetastoreOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleDataplexLakeMetastoreOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

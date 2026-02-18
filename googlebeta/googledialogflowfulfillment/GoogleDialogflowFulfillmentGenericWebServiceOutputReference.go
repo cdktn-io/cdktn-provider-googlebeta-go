@@ -5,14 +5,14 @@ package googledialogflowfulfillment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googledialogflowfulfillment/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledialogflowfulfillment/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type GoogleDialogflowFulfillmentGenericWebServiceOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,9 +43,9 @@ type GoogleDialogflowFulfillmentGenericWebServiceOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Uri() *string
 	SetUri(val *string)
 	UriInput() *string
@@ -57,7 +57,7 @@ type GoogleDialogflowFulfillmentGenericWebServiceOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -73,15 +73,15 @@ type GoogleDialogflowFulfillmentGenericWebServiceOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetPassword()
 	ResetRequestHeaders()
 	ResetUsername()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -91,7 +91,7 @@ type GoogleDialogflowFulfillmentGenericWebServiceOutputReference interface {
 
 // The jsii proxy struct for GoogleDialogflowFulfillmentGenericWebServiceOutputReference
 type jsiiProxy_GoogleDialogflowFulfillmentGenericWebServiceOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_GoogleDialogflowFulfillmentGenericWebServiceOutputReference) ComplexObjectIndex() interface{} {
@@ -194,8 +194,8 @@ func (j *jsiiProxy_GoogleDialogflowFulfillmentGenericWebServiceOutputReference) 
 	return returns
 }
 
-func (j *jsiiProxy_GoogleDialogflowFulfillmentGenericWebServiceOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_GoogleDialogflowFulfillmentGenericWebServiceOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -245,7 +245,7 @@ func (j *jsiiProxy_GoogleDialogflowFulfillmentGenericWebServiceOutputReference) 
 }
 
 
-func NewGoogleDialogflowFulfillmentGenericWebServiceOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) GoogleDialogflowFulfillmentGenericWebServiceOutputReference {
+func NewGoogleDialogflowFulfillmentGenericWebServiceOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) GoogleDialogflowFulfillmentGenericWebServiceOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewGoogleDialogflowFulfillmentGenericWebServiceOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -262,7 +262,7 @@ func NewGoogleDialogflowFulfillmentGenericWebServiceOutputReference(terraformRes
 	return &j
 }
 
-func NewGoogleDialogflowFulfillmentGenericWebServiceOutputReference_Override(g GoogleDialogflowFulfillmentGenericWebServiceOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewGoogleDialogflowFulfillmentGenericWebServiceOutputReference_Override(g GoogleDialogflowFulfillmentGenericWebServiceOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -338,7 +338,7 @@ func (j *jsiiProxy_GoogleDialogflowFulfillmentGenericWebServiceOutputReference)S
 	)
 }
 
-func (j *jsiiProxy_GoogleDialogflowFulfillmentGenericWebServiceOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_GoogleDialogflowFulfillmentGenericWebServiceOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -400,11 +400,11 @@ func (g *jsiiProxy_GoogleDialogflowFulfillmentGenericWebServiceOutputReference) 
 	return returns
 }
 
-func (g *jsiiProxy_GoogleDialogflowFulfillmentGenericWebServiceOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleDialogflowFulfillmentGenericWebServiceOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -528,8 +528,8 @@ func (g *jsiiProxy_GoogleDialogflowFulfillmentGenericWebServiceOutputReference) 
 	return returns
 }
 
-func (g *jsiiProxy_GoogleDialogflowFulfillmentGenericWebServiceOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (g *jsiiProxy_GoogleDialogflowFulfillmentGenericWebServiceOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -541,11 +541,11 @@ func (g *jsiiProxy_GoogleDialogflowFulfillmentGenericWebServiceOutputReference) 
 	return returns
 }
 
-func (g *jsiiProxy_GoogleDialogflowFulfillmentGenericWebServiceOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleDialogflowFulfillmentGenericWebServiceOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -581,7 +581,7 @@ func (g *jsiiProxy_GoogleDialogflowFulfillmentGenericWebServiceOutputReference) 
 	)
 }
 
-func (g *jsiiProxy_GoogleDialogflowFulfillmentGenericWebServiceOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (g *jsiiProxy_GoogleDialogflowFulfillmentGenericWebServiceOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

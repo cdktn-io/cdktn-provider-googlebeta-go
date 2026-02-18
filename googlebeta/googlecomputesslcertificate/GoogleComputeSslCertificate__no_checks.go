@@ -115,7 +115,7 @@ func (j *jsiiProxy_GoogleComputeSslCertificate) validateSetIdParameters(val *str
 	return nil
 }
 
-func (j *jsiiProxy_GoogleComputeSslCertificate) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleComputeSslCertificate) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

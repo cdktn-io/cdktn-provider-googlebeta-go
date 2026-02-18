@@ -115,7 +115,7 @@ func (j *jsiiProxy_GoogleDocumentAiProcessor) validateSetKmsKeyNameParameters(va
 	return nil
 }
 
-func (j *jsiiProxy_GoogleDocumentAiProcessor) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleDocumentAiProcessor) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

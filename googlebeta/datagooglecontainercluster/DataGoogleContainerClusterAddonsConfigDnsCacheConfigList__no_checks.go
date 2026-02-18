@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataGoogleContainerClusterAddonsConfigDnsCacheConfigList) val
 	return nil
 }
 
-func (d *jsiiProxy_DataGoogleContainerClusterAddonsConfigDnsCacheConfigList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataGoogleContainerClusterAddonsConfigDnsCacheConfigList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataGoogleContainerClusterAddonsConfigDnsCacheConfigList) val
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleContainerClusterAddonsConfigDnsCacheConfigList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataGoogleContainerClusterAddonsConfigDnsCacheConfigList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataGoogleContainerClusterAddonsConfigDnsCacheConfigList) val
 	return nil
 }
 
-func validateNewDataGoogleContainerClusterAddonsConfigDnsCacheConfigListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataGoogleContainerClusterAddonsConfigDnsCacheConfigListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

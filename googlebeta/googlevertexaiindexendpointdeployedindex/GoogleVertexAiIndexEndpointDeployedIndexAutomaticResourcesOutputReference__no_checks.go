@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleVertexAiIndexEndpointDeployedIndexAutomaticResourcesOut
 	return nil
 }
 
-func (g *jsiiProxy_GoogleVertexAiIndexEndpointDeployedIndexAutomaticResourcesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleVertexAiIndexEndpointDeployedIndexAutomaticResourcesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_GoogleVertexAiIndexEndpointDeployedIndexAutomaticResourcesOut
 	return nil
 }
 
-func (j *jsiiProxy_GoogleVertexAiIndexEndpointDeployedIndexAutomaticResourcesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleVertexAiIndexEndpointDeployedIndexAutomaticResourcesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleVertexAiIndexEndpointDeployedIndexAutomaticResourcesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleVertexAiIndexEndpointDeployedIndexAutomaticResourcesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

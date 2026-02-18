@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleComputePacketMirroringCollectorIlbOutputReference) vali
 	return nil
 }
 
-func (g *jsiiProxy_GoogleComputePacketMirroringCollectorIlbOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleComputePacketMirroringCollectorIlbOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,7 +67,7 @@ func (j *jsiiProxy_GoogleComputePacketMirroringCollectorIlbOutputReference) vali
 	return nil
 }
 
-func (j *jsiiProxy_GoogleComputePacketMirroringCollectorIlbOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleComputePacketMirroringCollectorIlbOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_GoogleComputePacketMirroringCollectorIlbOutputReference) vali
 	return nil
 }
 
-func validateNewGoogleComputePacketMirroringCollectorIlbOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleComputePacketMirroringCollectorIlbOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataGoogleContainerClusterResourceUsageExportConfigBigqueryDe
 	return nil
 }
 
-func (d *jsiiProxy_DataGoogleContainerClusterResourceUsageExportConfigBigqueryDestinationList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataGoogleContainerClusterResourceUsageExportConfigBigqueryDestinationList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataGoogleContainerClusterResourceUsageExportConfigBigqueryDe
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleContainerClusterResourceUsageExportConfigBigqueryDestinationList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataGoogleContainerClusterResourceUsageExportConfigBigqueryDestinationList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataGoogleContainerClusterResourceUsageExportConfigBigqueryDe
 	return nil
 }
 
-func validateNewDataGoogleContainerClusterResourceUsageExportConfigBigqueryDestinationListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataGoogleContainerClusterResourceUsageExportConfigBigqueryDestinationListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

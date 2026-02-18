@@ -119,7 +119,7 @@ func (j *jsiiProxy_GoogleSecretManagerRegionalSecretVersion) validateSetIsSecret
 	return nil
 }
 
-func (j *jsiiProxy_GoogleSecretManagerRegionalSecretVersion) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleSecretManagerRegionalSecretVersion) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleComputeSubnetworkLogConfigOutputReference) validateInte
 	return nil
 }
 
-func (g *jsiiProxy_GoogleComputeSubnetworkLogConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleComputeSubnetworkLogConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -87,11 +87,11 @@ func (j *jsiiProxy_GoogleComputeSubnetworkLogConfigOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_GoogleComputeSubnetworkLogConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleComputeSubnetworkLogConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleComputeSubnetworkLogConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleComputeSubnetworkLogConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

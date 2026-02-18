@@ -111,7 +111,7 @@ func (j *jsiiProxy_GoogleVmwareengineNetwork) validateSetIdParameters(val *strin
 	return nil
 }
 
-func (j *jsiiProxy_GoogleVmwareengineNetwork) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleVmwareengineNetwork) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

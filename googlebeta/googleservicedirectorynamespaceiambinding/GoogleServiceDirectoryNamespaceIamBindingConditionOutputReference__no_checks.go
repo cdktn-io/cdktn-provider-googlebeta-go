@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleServiceDirectoryNamespaceIamBindingConditionOutputRefer
 	return nil
 }
 
-func (g *jsiiProxy_GoogleServiceDirectoryNamespaceIamBindingConditionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleServiceDirectoryNamespaceIamBindingConditionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_GoogleServiceDirectoryNamespaceIamBindingConditionOutputRefer
 	return nil
 }
 
-func (j *jsiiProxy_GoogleServiceDirectoryNamespaceIamBindingConditionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleServiceDirectoryNamespaceIamBindingConditionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_GoogleServiceDirectoryNamespaceIamBindingConditionOutputRefer
 	return nil
 }
 
-func validateNewGoogleServiceDirectoryNamespaceIamBindingConditionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleServiceDirectoryNamespaceIamBindingConditionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

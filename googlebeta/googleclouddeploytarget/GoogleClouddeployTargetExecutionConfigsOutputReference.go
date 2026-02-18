@@ -5,14 +5,14 @@ package googleclouddeploytarget
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleclouddeploytarget/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleclouddeploytarget/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type GoogleClouddeployTargetExecutionConfigsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	ArtifactStorage() *string
 	SetArtifactStorage(val *string)
 	ArtifactStorageInput() *string
@@ -46,9 +46,9 @@ type GoogleClouddeployTargetExecutionConfigsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Usages() *[]*string
 	SetUsages(val *[]*string)
 	UsagesInput() *[]*string
@@ -63,7 +63,7 @@ type GoogleClouddeployTargetExecutionConfigsOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -79,9 +79,9 @@ type GoogleClouddeployTargetExecutionConfigsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetArtifactStorage()
 	ResetExecutionTimeout()
 	ResetServiceAccount()
@@ -89,7 +89,7 @@ type GoogleClouddeployTargetExecutionConfigsOutputReference interface {
 	ResetWorkerPool()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -99,7 +99,7 @@ type GoogleClouddeployTargetExecutionConfigsOutputReference interface {
 
 // The jsii proxy struct for GoogleClouddeployTargetExecutionConfigsOutputReference
 type jsiiProxy_GoogleClouddeployTargetExecutionConfigsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_GoogleClouddeployTargetExecutionConfigsOutputReference) ArtifactStorage() *string {
@@ -222,8 +222,8 @@ func (j *jsiiProxy_GoogleClouddeployTargetExecutionConfigsOutputReference) Terra
 	return returns
 }
 
-func (j *jsiiProxy_GoogleClouddeployTargetExecutionConfigsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_GoogleClouddeployTargetExecutionConfigsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -293,7 +293,7 @@ func (j *jsiiProxy_GoogleClouddeployTargetExecutionConfigsOutputReference) Worke
 }
 
 
-func NewGoogleClouddeployTargetExecutionConfigsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) GoogleClouddeployTargetExecutionConfigsOutputReference {
+func NewGoogleClouddeployTargetExecutionConfigsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) GoogleClouddeployTargetExecutionConfigsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewGoogleClouddeployTargetExecutionConfigsOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -310,7 +310,7 @@ func NewGoogleClouddeployTargetExecutionConfigsOutputReference(terraformResource
 	return &j
 }
 
-func NewGoogleClouddeployTargetExecutionConfigsOutputReference_Override(g GoogleClouddeployTargetExecutionConfigsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewGoogleClouddeployTargetExecutionConfigsOutputReference_Override(g GoogleClouddeployTargetExecutionConfigsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -397,7 +397,7 @@ func (j *jsiiProxy_GoogleClouddeployTargetExecutionConfigsOutputReference)SetTer
 	)
 }
 
-func (j *jsiiProxy_GoogleClouddeployTargetExecutionConfigsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_GoogleClouddeployTargetExecutionConfigsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -470,11 +470,11 @@ func (g *jsiiProxy_GoogleClouddeployTargetExecutionConfigsOutputReference) GetAn
 	return returns
 }
 
-func (g *jsiiProxy_GoogleClouddeployTargetExecutionConfigsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleClouddeployTargetExecutionConfigsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -598,8 +598,8 @@ func (g *jsiiProxy_GoogleClouddeployTargetExecutionConfigsOutputReference) GetSt
 	return returns
 }
 
-func (g *jsiiProxy_GoogleClouddeployTargetExecutionConfigsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (g *jsiiProxy_GoogleClouddeployTargetExecutionConfigsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -611,11 +611,11 @@ func (g *jsiiProxy_GoogleClouddeployTargetExecutionConfigsOutputReference) Inter
 	return returns
 }
 
-func (g *jsiiProxy_GoogleClouddeployTargetExecutionConfigsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleClouddeployTargetExecutionConfigsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -667,7 +667,7 @@ func (g *jsiiProxy_GoogleClouddeployTargetExecutionConfigsOutputReference) Reset
 	)
 }
 
-func (g *jsiiProxy_GoogleClouddeployTargetExecutionConfigsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (g *jsiiProxy_GoogleClouddeployTargetExecutionConfigsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

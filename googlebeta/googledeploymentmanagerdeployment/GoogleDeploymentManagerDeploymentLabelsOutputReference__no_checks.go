@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleDeploymentManagerDeploymentLabelsOutputReference) valid
 	return nil
 }
 
-func (g *jsiiProxy_GoogleDeploymentManagerDeploymentLabelsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleDeploymentManagerDeploymentLabelsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_GoogleDeploymentManagerDeploymentLabelsOutputReference) valid
 	return nil
 }
 
-func (j *jsiiProxy_GoogleDeploymentManagerDeploymentLabelsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleDeploymentManagerDeploymentLabelsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_GoogleDeploymentManagerDeploymentLabelsOutputReference) valid
 	return nil
 }
 
-func validateNewGoogleDeploymentManagerDeploymentLabelsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewGoogleDeploymentManagerDeploymentLabelsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

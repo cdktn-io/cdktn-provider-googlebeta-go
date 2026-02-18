@@ -15,7 +15,7 @@ func (g *jsiiProxy_GoogleComputeResizeRequestStatusErrorList) validateGetParamet
 	return nil
 }
 
-func (g *jsiiProxy_GoogleComputeResizeRequestStatusErrorList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleComputeResizeRequestStatusErrorList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_GoogleComputeResizeRequestStatusErrorList) validateSetTerrafo
 	return nil
 }
 
-func (j *jsiiProxy_GoogleComputeResizeRequestStatusErrorList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleComputeResizeRequestStatusErrorList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_GoogleComputeResizeRequestStatusErrorList) validateSetWrapsSe
 	return nil
 }
 
-func validateNewGoogleComputeResizeRequestStatusErrorListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGoogleComputeResizeRequestStatusErrorListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

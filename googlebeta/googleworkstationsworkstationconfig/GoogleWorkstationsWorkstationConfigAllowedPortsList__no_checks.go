@@ -15,7 +15,7 @@ func (g *jsiiProxy_GoogleWorkstationsWorkstationConfigAllowedPortsList) validate
 	return nil
 }
 
-func (g *jsiiProxy_GoogleWorkstationsWorkstationConfigAllowedPortsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleWorkstationsWorkstationConfigAllowedPortsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_GoogleWorkstationsWorkstationConfigAllowedPortsList) validate
 	return nil
 }
 
-func (j *jsiiProxy_GoogleWorkstationsWorkstationConfigAllowedPortsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleWorkstationsWorkstationConfigAllowedPortsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_GoogleWorkstationsWorkstationConfigAllowedPortsList) validate
 	return nil
 }
 
-func validateNewGoogleWorkstationsWorkstationConfigAllowedPortsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGoogleWorkstationsWorkstationConfigAllowedPortsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (g *jsiiProxy_GooglePubsubLiteReservationTimeoutsOutputReference) validateI
 	return nil
 }
 
-func (g *jsiiProxy_GooglePubsubLiteReservationTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GooglePubsubLiteReservationTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_GooglePubsubLiteReservationTimeoutsOutputReference) validateS
 	return nil
 }
 
-func (j *jsiiProxy_GooglePubsubLiteReservationTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GooglePubsubLiteReservationTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_GooglePubsubLiteReservationTimeoutsOutputReference) validateS
 	return nil
 }
 
-func validateNewGooglePubsubLiteReservationTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGooglePubsubLiteReservationTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

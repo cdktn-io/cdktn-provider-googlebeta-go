@@ -15,7 +15,7 @@ func (g *jsiiProxy_GoogleApphubWorkloadAttributesDeveloperOwnersList) validateGe
 	return nil
 }
 
-func (g *jsiiProxy_GoogleApphubWorkloadAttributesDeveloperOwnersList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleApphubWorkloadAttributesDeveloperOwnersList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_GoogleApphubWorkloadAttributesDeveloperOwnersList) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_GoogleApphubWorkloadAttributesDeveloperOwnersList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleApphubWorkloadAttributesDeveloperOwnersList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_GoogleApphubWorkloadAttributesDeveloperOwnersList) validateSe
 	return nil
 }
 
-func validateNewGoogleApphubWorkloadAttributesDeveloperOwnersListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGoogleApphubWorkloadAttributesDeveloperOwnersListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

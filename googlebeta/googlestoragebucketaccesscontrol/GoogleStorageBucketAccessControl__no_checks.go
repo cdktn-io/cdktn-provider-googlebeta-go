@@ -115,7 +115,7 @@ func (j *jsiiProxy_GoogleStorageBucketAccessControl) validateSetIdParameters(val
 	return nil
 }
 
-func (j *jsiiProxy_GoogleStorageBucketAccessControl) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleStorageBucketAccessControl) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

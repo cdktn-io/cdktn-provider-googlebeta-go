@@ -5,21 +5,21 @@ package datagooglealloydbcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagooglealloydbcluster/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagooglealloydbcluster/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_alloydb_cluster google_alloydb_cluster}.
 type DataGoogleAlloydbCluster interface {
-	cdktf.TerraformDataSource
-	Annotations() cdktf.StringMap
+	cdktn.TerraformDataSource
+	Annotations() cdktn.StringMap
 	AutomatedBackupPolicy() DataGoogleAlloydbClusterAutomatedBackupPolicyList
 	BackupSource() DataGoogleAlloydbClusterBackupSourceList
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	ClusterId() *string
 	SetClusterId(val *string)
 	ClusterIdInput() *string
@@ -39,15 +39,15 @@ type DataGoogleAlloydbCluster interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	DisplayName() *string
-	EffectiveAnnotations() cdktf.StringMap
-	EffectiveLabels() cdktf.StringMap
+	EffectiveAnnotations() cdktn.StringMap
+	EffectiveLabels() cdktn.StringMap
 	EncryptionConfig() DataGoogleAlloydbClusterEncryptionConfigList
 	EncryptionInfo() DataGoogleAlloydbClusterEncryptionInfoList
 	Etag() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -56,11 +56,11 @@ type DataGoogleAlloydbCluster interface {
 	SetId(val *string)
 	IdInput() *string
 	InitialUser() DataGoogleAlloydbClusterInitialUserList
-	Labels() cdktf.StringMap
+	Labels() cdktn.StringMap
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Location() *string
 	SetLocation(val *string)
 	LocationInput() *string
@@ -74,22 +74,22 @@ type DataGoogleAlloydbCluster interface {
 	SetProject(val *string)
 	ProjectInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	PscConfig() DataGoogleAlloydbClusterPscConfigList
 	// Experimental.
 	RawOverrides() interface{}
-	Reconciling() cdktf.IResolvable
+	Reconciling() cdktn.IResolvable
 	RestoreBackupSource() DataGoogleAlloydbClusterRestoreBackupSourceList
 	RestoreContinuousBackupSource() DataGoogleAlloydbClusterRestoreContinuousBackupSourceList
 	SecondaryConfig() DataGoogleAlloydbClusterSecondaryConfigList
-	SkipAwaitMajorVersionUpgrade() cdktf.IResolvable
+	SkipAwaitMajorVersionUpgrade() cdktn.IResolvable
 	State() *string
 	SubscriptionType() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
-	TerraformLabels() cdktf.StringMap
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
+	TerraformLabels() cdktn.StringMap
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -101,7 +101,7 @@ type DataGoogleAlloydbCluster interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -117,7 +117,7 @@ type DataGoogleAlloydbCluster interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
@@ -143,11 +143,11 @@ type DataGoogleAlloydbCluster interface {
 
 // The jsii proxy struct for DataGoogleAlloydbCluster
 type jsiiProxy_DataGoogleAlloydbCluster struct {
-	internal.Type__cdktfTerraformDataSource
+	internal.Type__cdktnTerraformDataSource
 }
 
-func (j *jsiiProxy_DataGoogleAlloydbCluster) Annotations() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_DataGoogleAlloydbCluster) Annotations() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"annotations",
@@ -176,8 +176,8 @@ func (j *jsiiProxy_DataGoogleAlloydbCluster) BackupSource() DataGoogleAlloydbClu
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleAlloydbCluster) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataGoogleAlloydbCluster) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -296,8 +296,8 @@ func (j *jsiiProxy_DataGoogleAlloydbCluster) DisplayName() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleAlloydbCluster) EffectiveAnnotations() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_DataGoogleAlloydbCluster) EffectiveAnnotations() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"effectiveAnnotations",
@@ -306,8 +306,8 @@ func (j *jsiiProxy_DataGoogleAlloydbCluster) EffectiveAnnotations() cdktf.String
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleAlloydbCluster) EffectiveLabels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_DataGoogleAlloydbCluster) EffectiveLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"effectiveLabels",
@@ -346,8 +346,8 @@ func (j *jsiiProxy_DataGoogleAlloydbCluster) Etag() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleAlloydbCluster) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataGoogleAlloydbCluster) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -406,8 +406,8 @@ func (j *jsiiProxy_DataGoogleAlloydbCluster) InitialUser() DataGoogleAlloydbClus
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleAlloydbCluster) Labels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_DataGoogleAlloydbCluster) Labels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"labels",
@@ -416,8 +416,8 @@ func (j *jsiiProxy_DataGoogleAlloydbCluster) Labels() cdktf.StringMap {
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleAlloydbCluster) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataGoogleAlloydbCluster) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -516,8 +516,8 @@ func (j *jsiiProxy_DataGoogleAlloydbCluster) ProjectInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleAlloydbCluster) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataGoogleAlloydbCluster) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -546,8 +546,8 @@ func (j *jsiiProxy_DataGoogleAlloydbCluster) RawOverrides() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleAlloydbCluster) Reconciling() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataGoogleAlloydbCluster) Reconciling() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"reconciling",
@@ -586,8 +586,8 @@ func (j *jsiiProxy_DataGoogleAlloydbCluster) SecondaryConfig() DataGoogleAlloydb
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleAlloydbCluster) SkipAwaitMajorVersionUpgrade() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataGoogleAlloydbCluster) SkipAwaitMajorVersionUpgrade() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"skipAwaitMajorVersionUpgrade",
@@ -616,8 +616,8 @@ func (j *jsiiProxy_DataGoogleAlloydbCluster) SubscriptionType() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleAlloydbCluster) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataGoogleAlloydbCluster) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -626,8 +626,8 @@ func (j *jsiiProxy_DataGoogleAlloydbCluster) TerraformGeneratorMetadata() *cdktf
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleAlloydbCluster) TerraformLabels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_DataGoogleAlloydbCluster) TerraformLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"terraformLabels",
@@ -736,7 +736,7 @@ func (j *jsiiProxy_DataGoogleAlloydbCluster)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_DataGoogleAlloydbCluster)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataGoogleAlloydbCluster)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -755,7 +755,7 @@ func (j *jsiiProxy_DataGoogleAlloydbCluster)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataGoogleAlloydbCluster)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataGoogleAlloydbCluster)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -788,7 +788,7 @@ func (j *jsiiProxy_DataGoogleAlloydbCluster)SetProject(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataGoogleAlloydbCluster)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataGoogleAlloydbCluster)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -796,14 +796,14 @@ func (j *jsiiProxy_DataGoogleAlloydbCluster)SetProvider(val cdktf.TerraformProvi
 	)
 }
 
-// Generates CDKTF code for importing a DataGoogleAlloydbCluster resource upon running "cdktf plan <stack-name>".
-func DataGoogleAlloydbCluster_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataGoogleAlloydbCluster resource upon running "cdktn plan <stack-name>".
+func DataGoogleAlloydbCluster_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataGoogleAlloydbCluster_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google-beta.dataGoogleAlloydbCluster.DataGoogleAlloydbCluster",
@@ -926,11 +926,11 @@ func (d *jsiiProxy_DataGoogleAlloydbCluster) GetAnyMapAttribute(terraformAttribu
 	return returns
 }
 
-func (d *jsiiProxy_DataGoogleAlloydbCluster) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataGoogleAlloydbCluster) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -1054,11 +1054,11 @@ func (d *jsiiProxy_DataGoogleAlloydbCluster) GetStringMapAttribute(terraformAttr
 	return returns
 }
 
-func (d *jsiiProxy_DataGoogleAlloydbCluster) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataGoogleAlloydbCluster) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

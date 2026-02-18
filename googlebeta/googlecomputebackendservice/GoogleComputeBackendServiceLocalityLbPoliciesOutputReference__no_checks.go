@@ -55,7 +55,7 @@ func (g *jsiiProxy_GoogleComputeBackendServiceLocalityLbPoliciesOutputReference)
 	return nil
 }
 
-func (g *jsiiProxy_GoogleComputeBackendServiceLocalityLbPoliciesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleComputeBackendServiceLocalityLbPoliciesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_GoogleComputeBackendServiceLocalityLbPoliciesOutputReference)
 	return nil
 }
 
-func (j *jsiiProxy_GoogleComputeBackendServiceLocalityLbPoliciesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleComputeBackendServiceLocalityLbPoliciesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleComputeBackendServiceLocalityLbPoliciesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewGoogleComputeBackendServiceLocalityLbPoliciesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

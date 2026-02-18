@@ -5,14 +5,14 @@ package datagooglememorystoreinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagooglememorystoreinstance/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagooglememorystoreinstance/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataGoogleMemorystoreInstancePersistenceConfigOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AofConfig() DataGoogleMemorystoreInstancePersistenceConfigAofConfigList
 	// the index of the complex object in a list.
 	// Experimental.
@@ -40,15 +40,15 @@ type DataGoogleMemorystoreInstancePersistenceConfigOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -64,12 +64,12 @@ type DataGoogleMemorystoreInstancePersistenceConfigOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -79,7 +79,7 @@ type DataGoogleMemorystoreInstancePersistenceConfigOutputReference interface {
 
 // The jsii proxy struct for DataGoogleMemorystoreInstancePersistenceConfigOutputReference
 type jsiiProxy_DataGoogleMemorystoreInstancePersistenceConfigOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataGoogleMemorystoreInstancePersistenceConfigOutputReference) AofConfig() DataGoogleMemorystoreInstancePersistenceConfigAofConfigList {
@@ -172,8 +172,8 @@ func (j *jsiiProxy_DataGoogleMemorystoreInstancePersistenceConfigOutputReference
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleMemorystoreInstancePersistenceConfigOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataGoogleMemorystoreInstancePersistenceConfigOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -183,7 +183,7 @@ func (j *jsiiProxy_DataGoogleMemorystoreInstancePersistenceConfigOutputReference
 }
 
 
-func NewDataGoogleMemorystoreInstancePersistenceConfigOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataGoogleMemorystoreInstancePersistenceConfigOutputReference {
+func NewDataGoogleMemorystoreInstancePersistenceConfigOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataGoogleMemorystoreInstancePersistenceConfigOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataGoogleMemorystoreInstancePersistenceConfigOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -200,7 +200,7 @@ func NewDataGoogleMemorystoreInstancePersistenceConfigOutputReference(terraformR
 	return &j
 }
 
-func NewDataGoogleMemorystoreInstancePersistenceConfigOutputReference_Override(d DataGoogleMemorystoreInstancePersistenceConfigOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewDataGoogleMemorystoreInstancePersistenceConfigOutputReference_Override(d DataGoogleMemorystoreInstancePersistenceConfigOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -254,7 +254,7 @@ func (j *jsiiProxy_DataGoogleMemorystoreInstancePersistenceConfigOutputReference
 	)
 }
 
-func (j *jsiiProxy_DataGoogleMemorystoreInstancePersistenceConfigOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataGoogleMemorystoreInstancePersistenceConfigOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -294,11 +294,11 @@ func (d *jsiiProxy_DataGoogleMemorystoreInstancePersistenceConfigOutputReference
 	return returns
 }
 
-func (d *jsiiProxy_DataGoogleMemorystoreInstancePersistenceConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataGoogleMemorystoreInstancePersistenceConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -422,8 +422,8 @@ func (d *jsiiProxy_DataGoogleMemorystoreInstancePersistenceConfigOutputReference
 	return returns
 }
 
-func (d *jsiiProxy_DataGoogleMemorystoreInstancePersistenceConfigOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataGoogleMemorystoreInstancePersistenceConfigOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -435,11 +435,11 @@ func (d *jsiiProxy_DataGoogleMemorystoreInstancePersistenceConfigOutputReference
 	return returns
 }
 
-func (d *jsiiProxy_DataGoogleMemorystoreInstancePersistenceConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataGoogleMemorystoreInstancePersistenceConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -451,7 +451,7 @@ func (d *jsiiProxy_DataGoogleMemorystoreInstancePersistenceConfigOutputReference
 	return returns
 }
 
-func (d *jsiiProxy_DataGoogleMemorystoreInstancePersistenceConfigOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataGoogleMemorystoreInstancePersistenceConfigOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

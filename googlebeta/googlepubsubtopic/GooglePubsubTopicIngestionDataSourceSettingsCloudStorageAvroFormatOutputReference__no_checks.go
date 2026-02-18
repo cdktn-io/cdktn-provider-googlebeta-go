@@ -47,7 +47,7 @@ func (g *jsiiProxy_GooglePubsubTopicIngestionDataSourceSettingsCloudStorageAvroF
 	return nil
 }
 
-func (g *jsiiProxy_GooglePubsubTopicIngestionDataSourceSettingsCloudStorageAvroFormatOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GooglePubsubTopicIngestionDataSourceSettingsCloudStorageAvroFormatOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_GooglePubsubTopicIngestionDataSourceSettingsCloudStorageAvroF
 	return nil
 }
 
-func (j *jsiiProxy_GooglePubsubTopicIngestionDataSourceSettingsCloudStorageAvroFormatOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GooglePubsubTopicIngestionDataSourceSettingsCloudStorageAvroFormatOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGooglePubsubTopicIngestionDataSourceSettingsCloudStorageAvroFormatOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGooglePubsubTopicIngestionDataSourceSettingsCloudStorageAvroFormatOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

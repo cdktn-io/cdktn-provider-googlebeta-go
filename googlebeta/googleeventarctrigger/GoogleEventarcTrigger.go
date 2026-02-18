@@ -5,22 +5,22 @@ package googleeventarctrigger
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleeventarctrigger/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleeventarctrigger/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_eventarc_trigger google_eventarc_trigger}.
 type GoogleEventarcTrigger interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	Channel() *string
 	SetChannel(val *string)
 	ChannelInput() *string
-	Conditions() cdktf.StringMap
+	Conditions() cdktn.StringMap
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -38,15 +38,15 @@ type GoogleEventarcTrigger interface {
 	SetDependsOn(val *[]*string)
 	Destination() GoogleEventarcTriggerDestinationOutputReference
 	DestinationInput() *GoogleEventarcTriggerDestination
-	EffectiveLabels() cdktf.StringMap
+	EffectiveLabels() cdktn.StringMap
 	Etag() *string
 	EventDataContentType() *string
 	SetEventDataContentType(val *string)
 	EventDataContentTypeInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -58,9 +58,9 @@ type GoogleEventarcTrigger interface {
 	SetLabels(val *map[string]*string)
 	LabelsInput() *map[string]*string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Location() *string
 	SetLocation(val *string)
 	LocationInput() *string
@@ -75,9 +75,9 @@ type GoogleEventarcTrigger interface {
 	SetProject(val *string)
 	ProjectInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -88,8 +88,8 @@ type GoogleEventarcTrigger interface {
 	SetServiceAccount(val *string)
 	ServiceAccountInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
-	TerraformLabels() cdktf.StringMap
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
+	TerraformLabels() cdktn.StringMap
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -108,7 +108,7 @@ type GoogleEventarcTrigger interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -126,9 +126,9 @@ type GoogleEventarcTrigger interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -173,11 +173,11 @@ type GoogleEventarcTrigger interface {
 
 // The jsii proxy struct for GoogleEventarcTrigger
 type jsiiProxy_GoogleEventarcTrigger struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
-func (j *jsiiProxy_GoogleEventarcTrigger) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_GoogleEventarcTrigger) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -206,8 +206,8 @@ func (j *jsiiProxy_GoogleEventarcTrigger) ChannelInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleEventarcTrigger) Conditions() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_GoogleEventarcTrigger) Conditions() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"conditions",
@@ -286,8 +286,8 @@ func (j *jsiiProxy_GoogleEventarcTrigger) DestinationInput() *GoogleEventarcTrig
 	return returns
 }
 
-func (j *jsiiProxy_GoogleEventarcTrigger) EffectiveLabels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_GoogleEventarcTrigger) EffectiveLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"effectiveLabels",
@@ -326,8 +326,8 @@ func (j *jsiiProxy_GoogleEventarcTrigger) EventDataContentTypeInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleEventarcTrigger) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_GoogleEventarcTrigger) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -396,8 +396,8 @@ func (j *jsiiProxy_GoogleEventarcTrigger) LabelsInput() *map[string]*string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleEventarcTrigger) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_GoogleEventarcTrigger) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -496,8 +496,8 @@ func (j *jsiiProxy_GoogleEventarcTrigger) ProjectInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleEventarcTrigger) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_GoogleEventarcTrigger) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -546,8 +546,8 @@ func (j *jsiiProxy_GoogleEventarcTrigger) ServiceAccountInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleEventarcTrigger) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_GoogleEventarcTrigger) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -556,8 +556,8 @@ func (j *jsiiProxy_GoogleEventarcTrigger) TerraformGeneratorMetadata() *cdktf.Te
 	return returns
 }
 
-func (j *jsiiProxy_GoogleEventarcTrigger) TerraformLabels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_GoogleEventarcTrigger) TerraformLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"terraformLabels",
@@ -728,7 +728,7 @@ func (j *jsiiProxy_GoogleEventarcTrigger)SetEventDataContentType(val *string) {
 	)
 }
 
-func (j *jsiiProxy_GoogleEventarcTrigger)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_GoogleEventarcTrigger)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -758,7 +758,7 @@ func (j *jsiiProxy_GoogleEventarcTrigger)SetLabels(val *map[string]*string) {
 	)
 }
 
-func (j *jsiiProxy_GoogleEventarcTrigger)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_GoogleEventarcTrigger)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -802,7 +802,7 @@ func (j *jsiiProxy_GoogleEventarcTrigger)SetProject(val *string) {
 	)
 }
 
-func (j *jsiiProxy_GoogleEventarcTrigger)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_GoogleEventarcTrigger)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -832,14 +832,14 @@ func (j *jsiiProxy_GoogleEventarcTrigger)SetServiceAccount(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a GoogleEventarcTrigger resource upon running "cdktf plan <stack-name>".
-func GoogleEventarcTrigger_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a GoogleEventarcTrigger resource upon running "cdktn plan <stack-name>".
+func GoogleEventarcTrigger_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateGoogleEventarcTrigger_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google-beta.googleEventarcTrigger.GoogleEventarcTrigger",
@@ -973,11 +973,11 @@ func (g *jsiiProxy_GoogleEventarcTrigger) GetAnyMapAttribute(terraformAttribute 
 	return returns
 }
 
-func (g *jsiiProxy_GoogleEventarcTrigger) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleEventarcTrigger) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -1114,7 +1114,7 @@ func (g *jsiiProxy_GoogleEventarcTrigger) HasResourceMove() interface{} {
 	return returns
 }
 
-func (g *jsiiProxy_GoogleEventarcTrigger) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (g *jsiiProxy_GoogleEventarcTrigger) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := g.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1125,11 +1125,11 @@ func (g *jsiiProxy_GoogleEventarcTrigger) ImportFrom(id *string, provider cdktf.
 	)
 }
 
-func (g *jsiiProxy_GoogleEventarcTrigger) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleEventarcTrigger) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,

@@ -123,7 +123,7 @@ func (j *jsiiProxy_GoogleSpannerInstanceConfigA) validateSetLabelsParameters(val
 	return nil
 }
 
-func (j *jsiiProxy_GoogleSpannerInstanceConfigA) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleSpannerInstanceConfigA) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -55,7 +55,7 @@ func (g *jsiiProxy_GoogleDataplexDatascanDataDiscoverySpecOutputReference) valid
 	return nil
 }
 
-func (g *jsiiProxy_GoogleDataplexDatascanDataDiscoverySpecOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleDataplexDatascanDataDiscoverySpecOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_GoogleDataplexDatascanDataDiscoverySpecOutputReference) valid
 	return nil
 }
 
-func (j *jsiiProxy_GoogleDataplexDatascanDataDiscoverySpecOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleDataplexDatascanDataDiscoverySpecOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleDataplexDatascanDataDiscoverySpecOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleDataplexDatascanDataDiscoverySpecOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

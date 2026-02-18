@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleBigqueryConnectionAwsAccessRoleOutputReference) validat
 	return nil
 }
 
-func (g *jsiiProxy_GoogleBigqueryConnectionAwsAccessRoleOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleBigqueryConnectionAwsAccessRoleOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_GoogleBigqueryConnectionAwsAccessRoleOutputReference) validat
 	return nil
 }
 
-func (j *jsiiProxy_GoogleBigqueryConnectionAwsAccessRoleOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleBigqueryConnectionAwsAccessRoleOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleBigqueryConnectionAwsAccessRoleOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleBigqueryConnectionAwsAccessRoleOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

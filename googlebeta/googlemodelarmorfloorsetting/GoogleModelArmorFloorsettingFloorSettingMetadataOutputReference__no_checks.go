@@ -51,7 +51,7 @@ func (g *jsiiProxy_GoogleModelArmorFloorsettingFloorSettingMetadataOutputReferen
 	return nil
 }
 
-func (g *jsiiProxy_GoogleModelArmorFloorsettingFloorSettingMetadataOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleModelArmorFloorsettingFloorSettingMetadataOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_GoogleModelArmorFloorsettingFloorSettingMetadataOutputReferen
 	return nil
 }
 
-func (j *jsiiProxy_GoogleModelArmorFloorsettingFloorSettingMetadataOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleModelArmorFloorsettingFloorSettingMetadataOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleModelArmorFloorsettingFloorSettingMetadataOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleModelArmorFloorsettingFloorSettingMetadataOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

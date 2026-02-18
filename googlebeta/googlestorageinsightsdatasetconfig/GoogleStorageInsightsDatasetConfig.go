@@ -5,18 +5,18 @@ package googlestorageinsightsdatasetconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlestorageinsightsdatasetconfig/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlestorageinsightsdatasetconfig/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_insights_dataset_config google_storage_insights_dataset_config}.
 type GoogleStorageInsightsDatasetConfig interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -44,9 +44,9 @@ type GoogleStorageInsightsDatasetConfig interface {
 	ExcludeCloudStorageLocations() GoogleStorageInsightsDatasetConfigExcludeCloudStorageLocationsOutputReference
 	ExcludeCloudStorageLocationsInput() *GoogleStorageInsightsDatasetConfigExcludeCloudStorageLocations
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -64,9 +64,9 @@ type GoogleStorageInsightsDatasetConfig interface {
 	SetIncludeNewlyCreatedBuckets(val interface{})
 	IncludeNewlyCreatedBucketsInput() interface{}
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Link() GoogleStorageInsightsDatasetConfigLinkList
 	LinkDataset() interface{}
 	SetLinkDataset(val interface{})
@@ -87,9 +87,9 @@ type GoogleStorageInsightsDatasetConfig interface {
 	SetProject(val *string)
 	ProjectInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -104,7 +104,7 @@ type GoogleStorageInsightsDatasetConfig interface {
 	SourceProjects() GoogleStorageInsightsDatasetConfigSourceProjectsOutputReference
 	SourceProjectsInput() *GoogleStorageInsightsDatasetConfigSourceProjects
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -121,7 +121,7 @@ type GoogleStorageInsightsDatasetConfig interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -139,9 +139,9 @@ type GoogleStorageInsightsDatasetConfig interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -196,11 +196,11 @@ type GoogleStorageInsightsDatasetConfig interface {
 
 // The jsii proxy struct for GoogleStorageInsightsDatasetConfig
 type jsiiProxy_GoogleStorageInsightsDatasetConfig struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
-func (j *jsiiProxy_GoogleStorageInsightsDatasetConfig) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_GoogleStorageInsightsDatasetConfig) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -349,8 +349,8 @@ func (j *jsiiProxy_GoogleStorageInsightsDatasetConfig) ExcludeCloudStorageLocati
 	return returns
 }
 
-func (j *jsiiProxy_GoogleStorageInsightsDatasetConfig) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_GoogleStorageInsightsDatasetConfig) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -479,8 +479,8 @@ func (j *jsiiProxy_GoogleStorageInsightsDatasetConfig) IncludeNewlyCreatedBucket
 	return returns
 }
 
-func (j *jsiiProxy_GoogleStorageInsightsDatasetConfig) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_GoogleStorageInsightsDatasetConfig) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -619,8 +619,8 @@ func (j *jsiiProxy_GoogleStorageInsightsDatasetConfig) ProjectInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleStorageInsightsDatasetConfig) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_GoogleStorageInsightsDatasetConfig) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -709,8 +709,8 @@ func (j *jsiiProxy_GoogleStorageInsightsDatasetConfig) SourceProjectsInput() *Go
 	return returns
 }
 
-func (j *jsiiProxy_GoogleStorageInsightsDatasetConfig) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_GoogleStorageInsightsDatasetConfig) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -861,7 +861,7 @@ func (j *jsiiProxy_GoogleStorageInsightsDatasetConfig)SetDescription(val *string
 	)
 }
 
-func (j *jsiiProxy_GoogleStorageInsightsDatasetConfig)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_GoogleStorageInsightsDatasetConfig)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -891,7 +891,7 @@ func (j *jsiiProxy_GoogleStorageInsightsDatasetConfig)SetIncludeNewlyCreatedBuck
 	)
 }
 
-func (j *jsiiProxy_GoogleStorageInsightsDatasetConfig)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_GoogleStorageInsightsDatasetConfig)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -957,7 +957,7 @@ func (j *jsiiProxy_GoogleStorageInsightsDatasetConfig)SetProject(val *string) {
 	)
 }
 
-func (j *jsiiProxy_GoogleStorageInsightsDatasetConfig)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_GoogleStorageInsightsDatasetConfig)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -987,14 +987,14 @@ func (j *jsiiProxy_GoogleStorageInsightsDatasetConfig)SetRetentionPeriodDays(val
 	)
 }
 
-// Generates CDKTF code for importing a GoogleStorageInsightsDatasetConfig resource upon running "cdktf plan <stack-name>".
-func GoogleStorageInsightsDatasetConfig_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a GoogleStorageInsightsDatasetConfig resource upon running "cdktn plan <stack-name>".
+func GoogleStorageInsightsDatasetConfig_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateGoogleStorageInsightsDatasetConfig_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google-beta.googleStorageInsightsDatasetConfig.GoogleStorageInsightsDatasetConfig",
@@ -1128,11 +1128,11 @@ func (g *jsiiProxy_GoogleStorageInsightsDatasetConfig) GetAnyMapAttribute(terraf
 	return returns
 }
 
-func (g *jsiiProxy_GoogleStorageInsightsDatasetConfig) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleStorageInsightsDatasetConfig) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -1269,7 +1269,7 @@ func (g *jsiiProxy_GoogleStorageInsightsDatasetConfig) HasResourceMove() interfa
 	return returns
 }
 
-func (g *jsiiProxy_GoogleStorageInsightsDatasetConfig) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (g *jsiiProxy_GoogleStorageInsightsDatasetConfig) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := g.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1280,11 +1280,11 @@ func (g *jsiiProxy_GoogleStorageInsightsDatasetConfig) ImportFrom(id *string, pr
 	)
 }
 
-func (g *jsiiProxy_GoogleStorageInsightsDatasetConfig) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleStorageInsightsDatasetConfig) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,

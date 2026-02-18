@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataGoogleComposerEnvironmentConfigNodeConfigIpAllocationPoli
 	return nil
 }
 
-func (d *jsiiProxy_DataGoogleComposerEnvironmentConfigNodeConfigIpAllocationPolicyList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataGoogleComposerEnvironmentConfigNodeConfigIpAllocationPolicyList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataGoogleComposerEnvironmentConfigNodeConfigIpAllocationPoli
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleComposerEnvironmentConfigNodeConfigIpAllocationPolicyList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataGoogleComposerEnvironmentConfigNodeConfigIpAllocationPolicyList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataGoogleComposerEnvironmentConfigNodeConfigIpAllocationPoli
 	return nil
 }
 
-func validateNewDataGoogleComposerEnvironmentConfigNodeConfigIpAllocationPolicyListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataGoogleComposerEnvironmentConfigNodeConfigIpAllocationPolicyListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

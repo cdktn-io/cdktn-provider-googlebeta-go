@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleIamFoldersPolicyBindingConditionOutputReference) valida
 	return nil
 }
 
-func (g *jsiiProxy_GoogleIamFoldersPolicyBindingConditionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleIamFoldersPolicyBindingConditionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_GoogleIamFoldersPolicyBindingConditionOutputReference) valida
 	return nil
 }
 
-func (j *jsiiProxy_GoogleIamFoldersPolicyBindingConditionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleIamFoldersPolicyBindingConditionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_GoogleIamFoldersPolicyBindingConditionOutputReference) valida
 	return nil
 }
 
-func validateNewGoogleIamFoldersPolicyBindingConditionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleIamFoldersPolicyBindingConditionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

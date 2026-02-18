@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleLoggingLogViewIamMemberConditionOutputReference) valida
 	return nil
 }
 
-func (g *jsiiProxy_GoogleLoggingLogViewIamMemberConditionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleLoggingLogViewIamMemberConditionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_GoogleLoggingLogViewIamMemberConditionOutputReference) valida
 	return nil
 }
 
-func (j *jsiiProxy_GoogleLoggingLogViewIamMemberConditionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleLoggingLogViewIamMemberConditionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_GoogleLoggingLogViewIamMemberConditionOutputReference) valida
 	return nil
 }
 
-func validateNewGoogleLoggingLogViewIamMemberConditionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleLoggingLogViewIamMemberConditionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

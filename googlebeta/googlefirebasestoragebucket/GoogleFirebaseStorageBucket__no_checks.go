@@ -111,7 +111,7 @@ func (j *jsiiProxy_GoogleFirebaseStorageBucket) validateSetIdParameters(val *str
 	return nil
 }
 
-func (j *jsiiProxy_GoogleFirebaseStorageBucket) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleFirebaseStorageBucket) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

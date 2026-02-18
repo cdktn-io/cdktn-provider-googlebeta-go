@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleChronicleRuleDeploymentTimeoutsOutputReference) validat
 	return nil
 }
 
-func (g *jsiiProxy_GoogleChronicleRuleDeploymentTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleChronicleRuleDeploymentTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_GoogleChronicleRuleDeploymentTimeoutsOutputReference) validat
 	return nil
 }
 
-func (j *jsiiProxy_GoogleChronicleRuleDeploymentTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleChronicleRuleDeploymentTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_GoogleChronicleRuleDeploymentTimeoutsOutputReference) validat
 	return nil
 }
 
-func validateNewGoogleChronicleRuleDeploymentTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleChronicleRuleDeploymentTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataGoogleKmsCryptoKeysKeysVersionTemplateList) validateGetPa
 	return nil
 }
 
-func (d *jsiiProxy_DataGoogleKmsCryptoKeysKeysVersionTemplateList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataGoogleKmsCryptoKeysKeysVersionTemplateList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataGoogleKmsCryptoKeysKeysVersionTemplateList) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleKmsCryptoKeysKeysVersionTemplateList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataGoogleKmsCryptoKeysKeysVersionTemplateList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataGoogleKmsCryptoKeysKeysVersionTemplateList) validateSetWr
 	return nil
 }
 
-func validateNewDataGoogleKmsCryptoKeysKeysVersionTemplateListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataGoogleKmsCryptoKeysKeysVersionTemplateListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

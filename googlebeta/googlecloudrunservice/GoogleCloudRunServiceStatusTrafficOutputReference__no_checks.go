@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleCloudRunServiceStatusTrafficOutputReference) validateIn
 	return nil
 }
 
-func (g *jsiiProxy_GoogleCloudRunServiceStatusTrafficOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleCloudRunServiceStatusTrafficOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_GoogleCloudRunServiceStatusTrafficOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_GoogleCloudRunServiceStatusTrafficOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleCloudRunServiceStatusTrafficOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleCloudRunServiceStatusTrafficOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewGoogleCloudRunServiceStatusTrafficOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

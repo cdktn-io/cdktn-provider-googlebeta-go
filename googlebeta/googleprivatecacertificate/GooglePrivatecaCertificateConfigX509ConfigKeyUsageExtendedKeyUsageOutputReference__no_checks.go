@@ -47,7 +47,7 @@ func (g *jsiiProxy_GooglePrivatecaCertificateConfigX509ConfigKeyUsageExtendedKey
 	return nil
 }
 
-func (g *jsiiProxy_GooglePrivatecaCertificateConfigX509ConfigKeyUsageExtendedKeyUsageOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GooglePrivatecaCertificateConfigX509ConfigKeyUsageExtendedKeyUsageOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_GooglePrivatecaCertificateConfigX509ConfigKeyUsageExtendedKey
 	return nil
 }
 
-func (j *jsiiProxy_GooglePrivatecaCertificateConfigX509ConfigKeyUsageExtendedKeyUsageOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GooglePrivatecaCertificateConfigX509ConfigKeyUsageExtendedKeyUsageOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -95,7 +95,7 @@ func (j *jsiiProxy_GooglePrivatecaCertificateConfigX509ConfigKeyUsageExtendedKey
 	return nil
 }
 
-func validateNewGooglePrivatecaCertificateConfigX509ConfigKeyUsageExtendedKeyUsageOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGooglePrivatecaCertificateConfigX509ConfigKeyUsageExtendedKeyUsageOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

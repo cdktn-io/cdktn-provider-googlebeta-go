@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleComputeInstanceTemplateIamBindingConditionOutputReferen
 	return nil
 }
 
-func (g *jsiiProxy_GoogleComputeInstanceTemplateIamBindingConditionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleComputeInstanceTemplateIamBindingConditionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_GoogleComputeInstanceTemplateIamBindingConditionOutputReferen
 	return nil
 }
 
-func (j *jsiiProxy_GoogleComputeInstanceTemplateIamBindingConditionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleComputeInstanceTemplateIamBindingConditionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_GoogleComputeInstanceTemplateIamBindingConditionOutputReferen
 	return nil
 }
 
-func validateNewGoogleComputeInstanceTemplateIamBindingConditionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleComputeInstanceTemplateIamBindingConditionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

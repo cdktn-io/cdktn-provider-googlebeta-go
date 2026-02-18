@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleIapSettingsAccessSettingsCorsSettingsOutputReference) v
 	return nil
 }
 
-func (g *jsiiProxy_GoogleIapSettingsAccessSettingsCorsSettingsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleIapSettingsAccessSettingsCorsSettingsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_GoogleIapSettingsAccessSettingsCorsSettingsOutputReference) v
 	return nil
 }
 
-func (j *jsiiProxy_GoogleIapSettingsAccessSettingsCorsSettingsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleIapSettingsAccessSettingsCorsSettingsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleIapSettingsAccessSettingsCorsSettingsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleIapSettingsAccessSettingsCorsSettingsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

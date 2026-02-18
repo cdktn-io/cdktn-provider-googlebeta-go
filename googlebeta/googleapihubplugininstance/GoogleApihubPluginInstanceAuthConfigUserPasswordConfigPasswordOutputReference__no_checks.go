@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleApihubPluginInstanceAuthConfigUserPasswordConfigPasswor
 	return nil
 }
 
-func (g *jsiiProxy_GoogleApihubPluginInstanceAuthConfigUserPasswordConfigPasswordOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleApihubPluginInstanceAuthConfigUserPasswordConfigPasswordOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_GoogleApihubPluginInstanceAuthConfigUserPasswordConfigPasswor
 	return nil
 }
 
-func (j *jsiiProxy_GoogleApihubPluginInstanceAuthConfigUserPasswordConfigPasswordOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleApihubPluginInstanceAuthConfigUserPasswordConfigPasswordOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleApihubPluginInstanceAuthConfigUserPasswordConfigPasswordOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleApihubPluginInstanceAuthConfigUserPasswordConfigPasswordOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

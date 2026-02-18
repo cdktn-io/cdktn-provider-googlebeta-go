@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleChronicleRetrohuntProcessIntervalOutputReference) valid
 	return nil
 }
 
-func (g *jsiiProxy_GoogleChronicleRetrohuntProcessIntervalOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleChronicleRetrohuntProcessIntervalOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_GoogleChronicleRetrohuntProcessIntervalOutputReference) valid
 	return nil
 }
 
-func (j *jsiiProxy_GoogleChronicleRetrohuntProcessIntervalOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleChronicleRetrohuntProcessIntervalOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleChronicleRetrohuntProcessIntervalOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleChronicleRetrohuntProcessIntervalOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataGoogleComputeHaVpnGatewayVpnInterfacesOutputReference) va
 	return nil
 }
 
-func (d *jsiiProxy_DataGoogleComputeHaVpnGatewayVpnInterfacesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataGoogleComputeHaVpnGatewayVpnInterfacesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataGoogleComputeHaVpnGatewayVpnInterfacesOutputReference) va
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleComputeHaVpnGatewayVpnInterfacesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataGoogleComputeHaVpnGatewayVpnInterfacesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataGoogleComputeHaVpnGatewayVpnInterfacesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataGoogleComputeHaVpnGatewayVpnInterfacesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

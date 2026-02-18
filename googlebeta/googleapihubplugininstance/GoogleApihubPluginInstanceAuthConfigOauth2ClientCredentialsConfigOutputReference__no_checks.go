@@ -51,7 +51,7 @@ func (g *jsiiProxy_GoogleApihubPluginInstanceAuthConfigOauth2ClientCredentialsCo
 	return nil
 }
 
-func (g *jsiiProxy_GoogleApihubPluginInstanceAuthConfigOauth2ClientCredentialsConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleApihubPluginInstanceAuthConfigOauth2ClientCredentialsConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_GoogleApihubPluginInstanceAuthConfigOauth2ClientCredentialsCo
 	return nil
 }
 
-func (j *jsiiProxy_GoogleApihubPluginInstanceAuthConfigOauth2ClientCredentialsConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleApihubPluginInstanceAuthConfigOauth2ClientCredentialsConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleApihubPluginInstanceAuthConfigOauth2ClientCredentialsConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleApihubPluginInstanceAuthConfigOauth2ClientCredentialsConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

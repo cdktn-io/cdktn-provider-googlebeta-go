@@ -15,7 +15,7 @@ func (g *jsiiProxy_GoogleBeyondcorpApplicationUpstreamsList) validateGetParamete
 	return nil
 }
 
-func (g *jsiiProxy_GoogleBeyondcorpApplicationUpstreamsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleBeyondcorpApplicationUpstreamsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_GoogleBeyondcorpApplicationUpstreamsList) validateSetTerrafor
 	return nil
 }
 
-func (j *jsiiProxy_GoogleBeyondcorpApplicationUpstreamsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleBeyondcorpApplicationUpstreamsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_GoogleBeyondcorpApplicationUpstreamsList) validateSetWrapsSet
 	return nil
 }
 
-func validateNewGoogleBeyondcorpApplicationUpstreamsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGoogleBeyondcorpApplicationUpstreamsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

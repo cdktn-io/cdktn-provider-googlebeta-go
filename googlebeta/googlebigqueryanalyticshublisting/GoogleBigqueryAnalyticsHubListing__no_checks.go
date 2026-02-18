@@ -163,7 +163,7 @@ func (j *jsiiProxy_GoogleBigqueryAnalyticsHubListing) validateSetIdParameters(va
 	return nil
 }
 
-func (j *jsiiProxy_GoogleBigqueryAnalyticsHubListing) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleBigqueryAnalyticsHubListing) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

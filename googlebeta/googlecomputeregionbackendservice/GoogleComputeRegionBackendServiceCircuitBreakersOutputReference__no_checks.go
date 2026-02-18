@@ -51,7 +51,7 @@ func (g *jsiiProxy_GoogleComputeRegionBackendServiceCircuitBreakersOutputReferen
 	return nil
 }
 
-func (g *jsiiProxy_GoogleComputeRegionBackendServiceCircuitBreakersOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleComputeRegionBackendServiceCircuitBreakersOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -91,11 +91,11 @@ func (j *jsiiProxy_GoogleComputeRegionBackendServiceCircuitBreakersOutputReferen
 	return nil
 }
 
-func (j *jsiiProxy_GoogleComputeRegionBackendServiceCircuitBreakersOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleComputeRegionBackendServiceCircuitBreakersOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleComputeRegionBackendServiceCircuitBreakersOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleComputeRegionBackendServiceCircuitBreakersOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

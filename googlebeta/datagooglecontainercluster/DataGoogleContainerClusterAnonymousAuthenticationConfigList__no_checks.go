@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataGoogleContainerClusterAnonymousAuthenticationConfigList) 
 	return nil
 }
 
-func (d *jsiiProxy_DataGoogleContainerClusterAnonymousAuthenticationConfigList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataGoogleContainerClusterAnonymousAuthenticationConfigList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataGoogleContainerClusterAnonymousAuthenticationConfigList) 
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleContainerClusterAnonymousAuthenticationConfigList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataGoogleContainerClusterAnonymousAuthenticationConfigList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataGoogleContainerClusterAnonymousAuthenticationConfigList) 
 	return nil
 }
 
-func validateNewDataGoogleContainerClusterAnonymousAuthenticationConfigListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataGoogleContainerClusterAnonymousAuthenticationConfigListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

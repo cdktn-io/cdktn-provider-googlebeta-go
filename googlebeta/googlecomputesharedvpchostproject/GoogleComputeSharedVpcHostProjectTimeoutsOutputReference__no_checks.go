@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleComputeSharedVpcHostProjectTimeoutsOutputReference) val
 	return nil
 }
 
-func (g *jsiiProxy_GoogleComputeSharedVpcHostProjectTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleComputeSharedVpcHostProjectTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_GoogleComputeSharedVpcHostProjectTimeoutsOutputReference) val
 	return nil
 }
 
-func (j *jsiiProxy_GoogleComputeSharedVpcHostProjectTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleComputeSharedVpcHostProjectTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleComputeSharedVpcHostProjectTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleComputeSharedVpcHostProjectTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleSqlDatabaseInstanceServerCaCertOutputReference) validat
 	return nil
 }
 
-func (g *jsiiProxy_GoogleSqlDatabaseInstanceServerCaCertOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleSqlDatabaseInstanceServerCaCertOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_GoogleSqlDatabaseInstanceServerCaCertOutputReference) validat
 	return nil
 }
 
-func (j *jsiiProxy_GoogleSqlDatabaseInstanceServerCaCertOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleSqlDatabaseInstanceServerCaCertOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleSqlDatabaseInstanceServerCaCertOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewGoogleSqlDatabaseInstanceServerCaCertOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

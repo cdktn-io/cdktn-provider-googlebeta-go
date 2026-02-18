@@ -111,7 +111,7 @@ func (j *jsiiProxy_GoogleKmsKeyRingIamMember) validateSetKeyRingIdParameters(val
 	return nil
 }
 
-func (j *jsiiProxy_GoogleKmsKeyRingIamMember) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleKmsKeyRingIamMember) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

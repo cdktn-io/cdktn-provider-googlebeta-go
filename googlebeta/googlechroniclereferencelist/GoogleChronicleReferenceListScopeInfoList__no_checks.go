@@ -15,7 +15,7 @@ func (g *jsiiProxy_GoogleChronicleReferenceListScopeInfoList) validateGetParamet
 	return nil
 }
 
-func (g *jsiiProxy_GoogleChronicleReferenceListScopeInfoList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleChronicleReferenceListScopeInfoList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_GoogleChronicleReferenceListScopeInfoList) validateSetTerrafo
 	return nil
 }
 
-func (j *jsiiProxy_GoogleChronicleReferenceListScopeInfoList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleChronicleReferenceListScopeInfoList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_GoogleChronicleReferenceListScopeInfoList) validateSetWrapsSe
 	return nil
 }
 
-func validateNewGoogleChronicleReferenceListScopeInfoListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGoogleChronicleReferenceListScopeInfoListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

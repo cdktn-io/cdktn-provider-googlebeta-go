@@ -143,7 +143,7 @@ func (j *jsiiProxy_GoogleComputeNetwork) validateSetInternalIpv6RangeParameters(
 	return nil
 }
 
-func (j *jsiiProxy_GoogleComputeNetwork) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleComputeNetwork) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

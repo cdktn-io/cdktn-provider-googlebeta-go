@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataGoogleDnsManagedZonesManagedZonesList) validateGetParamet
 	return nil
 }
 
-func (d *jsiiProxy_DataGoogleDnsManagedZonesManagedZonesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataGoogleDnsManagedZonesManagedZonesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataGoogleDnsManagedZonesManagedZonesList) validateSetTerrafo
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleDnsManagedZonesManagedZonesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataGoogleDnsManagedZonesManagedZonesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataGoogleDnsManagedZonesManagedZonesList) validateSetWrapsSe
 	return nil
 }
 
-func validateNewDataGoogleDnsManagedZonesManagedZonesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataGoogleDnsManagedZonesManagedZonesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

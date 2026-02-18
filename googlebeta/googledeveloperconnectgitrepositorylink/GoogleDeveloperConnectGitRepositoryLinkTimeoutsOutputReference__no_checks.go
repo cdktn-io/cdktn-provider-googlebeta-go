@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleDeveloperConnectGitRepositoryLinkTimeoutsOutputReferenc
 	return nil
 }
 
-func (g *jsiiProxy_GoogleDeveloperConnectGitRepositoryLinkTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleDeveloperConnectGitRepositoryLinkTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_GoogleDeveloperConnectGitRepositoryLinkTimeoutsOutputReferenc
 	return nil
 }
 
-func (j *jsiiProxy_GoogleDeveloperConnectGitRepositoryLinkTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleDeveloperConnectGitRepositoryLinkTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_GoogleDeveloperConnectGitRepositoryLinkTimeoutsOutputReferenc
 	return nil
 }
 
-func validateNewGoogleDeveloperConnectGitRepositoryLinkTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleDeveloperConnectGitRepositoryLinkTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

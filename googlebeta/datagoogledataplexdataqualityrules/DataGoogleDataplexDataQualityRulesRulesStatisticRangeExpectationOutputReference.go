@@ -5,14 +5,14 @@ package datagoogledataplexdataqualityrules
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagoogledataplexdataqualityrules/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagoogledataplexdataqualityrules/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataGoogleDataplexDataQualityRulesRulesStatisticRangeExpectationOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -35,22 +35,22 @@ type DataGoogleDataplexDataQualityRulesRulesStatisticRangeExpectationOutputRefer
 	MaxValue() *string
 	MinValue() *string
 	Statistic() *string
-	StrictMaxEnabled() cdktf.IResolvable
-	StrictMinEnabled() cdktf.IResolvable
+	StrictMaxEnabled() cdktn.IResolvable
+	StrictMinEnabled() cdktn.IResolvable
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -66,12 +66,12 @@ type DataGoogleDataplexDataQualityRulesRulesStatisticRangeExpectationOutputRefer
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -81,7 +81,7 @@ type DataGoogleDataplexDataQualityRulesRulesStatisticRangeExpectationOutputRefer
 
 // The jsii proxy struct for DataGoogleDataplexDataQualityRulesRulesStatisticRangeExpectationOutputReference
 type jsiiProxy_DataGoogleDataplexDataQualityRulesRulesStatisticRangeExpectationOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataGoogleDataplexDataQualityRulesRulesStatisticRangeExpectationOutputReference) ComplexObjectIndex() interface{} {
@@ -164,8 +164,8 @@ func (j *jsiiProxy_DataGoogleDataplexDataQualityRulesRulesStatisticRangeExpectat
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleDataplexDataQualityRulesRulesStatisticRangeExpectationOutputReference) StrictMaxEnabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataGoogleDataplexDataQualityRulesRulesStatisticRangeExpectationOutputReference) StrictMaxEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"strictMaxEnabled",
@@ -174,8 +174,8 @@ func (j *jsiiProxy_DataGoogleDataplexDataQualityRulesRulesStatisticRangeExpectat
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleDataplexDataQualityRulesRulesStatisticRangeExpectationOutputReference) StrictMinEnabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataGoogleDataplexDataQualityRulesRulesStatisticRangeExpectationOutputReference) StrictMinEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"strictMinEnabled",
@@ -194,8 +194,8 @@ func (j *jsiiProxy_DataGoogleDataplexDataQualityRulesRulesStatisticRangeExpectat
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleDataplexDataQualityRulesRulesStatisticRangeExpectationOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataGoogleDataplexDataQualityRulesRulesStatisticRangeExpectationOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -205,7 +205,7 @@ func (j *jsiiProxy_DataGoogleDataplexDataQualityRulesRulesStatisticRangeExpectat
 }
 
 
-func NewDataGoogleDataplexDataQualityRulesRulesStatisticRangeExpectationOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataGoogleDataplexDataQualityRulesRulesStatisticRangeExpectationOutputReference {
+func NewDataGoogleDataplexDataQualityRulesRulesStatisticRangeExpectationOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataGoogleDataplexDataQualityRulesRulesStatisticRangeExpectationOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataGoogleDataplexDataQualityRulesRulesStatisticRangeExpectationOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -222,7 +222,7 @@ func NewDataGoogleDataplexDataQualityRulesRulesStatisticRangeExpectationOutputRe
 	return &j
 }
 
-func NewDataGoogleDataplexDataQualityRulesRulesStatisticRangeExpectationOutputReference_Override(d DataGoogleDataplexDataQualityRulesRulesStatisticRangeExpectationOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewDataGoogleDataplexDataQualityRulesRulesStatisticRangeExpectationOutputReference_Override(d DataGoogleDataplexDataQualityRulesRulesStatisticRangeExpectationOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -276,7 +276,7 @@ func (j *jsiiProxy_DataGoogleDataplexDataQualityRulesRulesStatisticRangeExpectat
 	)
 }
 
-func (j *jsiiProxy_DataGoogleDataplexDataQualityRulesRulesStatisticRangeExpectationOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataGoogleDataplexDataQualityRulesRulesStatisticRangeExpectationOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -316,11 +316,11 @@ func (d *jsiiProxy_DataGoogleDataplexDataQualityRulesRulesStatisticRangeExpectat
 	return returns
 }
 
-func (d *jsiiProxy_DataGoogleDataplexDataQualityRulesRulesStatisticRangeExpectationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataGoogleDataplexDataQualityRulesRulesStatisticRangeExpectationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -444,8 +444,8 @@ func (d *jsiiProxy_DataGoogleDataplexDataQualityRulesRulesStatisticRangeExpectat
 	return returns
 }
 
-func (d *jsiiProxy_DataGoogleDataplexDataQualityRulesRulesStatisticRangeExpectationOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataGoogleDataplexDataQualityRulesRulesStatisticRangeExpectationOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -457,11 +457,11 @@ func (d *jsiiProxy_DataGoogleDataplexDataQualityRulesRulesStatisticRangeExpectat
 	return returns
 }
 
-func (d *jsiiProxy_DataGoogleDataplexDataQualityRulesRulesStatisticRangeExpectationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataGoogleDataplexDataQualityRulesRulesStatisticRangeExpectationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -473,7 +473,7 @@ func (d *jsiiProxy_DataGoogleDataplexDataQualityRulesRulesStatisticRangeExpectat
 	return returns
 }
 
-func (d *jsiiProxy_DataGoogleDataplexDataQualityRulesRulesStatisticRangeExpectationOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataGoogleDataplexDataQualityRulesRulesStatisticRangeExpectationOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

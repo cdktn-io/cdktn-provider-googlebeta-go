@@ -107,7 +107,7 @@ func (j *jsiiProxy_GoogleClouddeployCustomTargetTypeIamBinding) validateSetIdPar
 	return nil
 }
 
-func (j *jsiiProxy_GoogleClouddeployCustomTargetTypeIamBinding) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleClouddeployCustomTargetTypeIamBinding) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleComputeRegionNetworkEndpointGroupAppEngineOutputReferen
 	return nil
 }
 
-func (g *jsiiProxy_GoogleComputeRegionNetworkEndpointGroupAppEngineOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleComputeRegionNetworkEndpointGroupAppEngineOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_GoogleComputeRegionNetworkEndpointGroupAppEngineOutputReferen
 	return nil
 }
 
-func (j *jsiiProxy_GoogleComputeRegionNetworkEndpointGroupAppEngineOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleComputeRegionNetworkEndpointGroupAppEngineOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_GoogleComputeRegionNetworkEndpointGroupAppEngineOutputReferen
 	return nil
 }
 
-func validateNewGoogleComputeRegionNetworkEndpointGroupAppEngineOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleComputeRegionNetworkEndpointGroupAppEngineOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

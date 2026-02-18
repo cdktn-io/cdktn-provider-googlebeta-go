@@ -15,7 +15,7 @@ func (g *jsiiProxy_GoogleFirebaseHostingVersionConfigRedirectsList) validateGetP
 	return nil
 }
 
-func (g *jsiiProxy_GoogleFirebaseHostingVersionConfigRedirectsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleFirebaseHostingVersionConfigRedirectsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_GoogleFirebaseHostingVersionConfigRedirectsList) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_GoogleFirebaseHostingVersionConfigRedirectsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleFirebaseHostingVersionConfigRedirectsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_GoogleFirebaseHostingVersionConfigRedirectsList) validateSetW
 	return nil
 }
 
-func validateNewGoogleFirebaseHostingVersionConfigRedirectsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGoogleFirebaseHostingVersionConfigRedirectsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

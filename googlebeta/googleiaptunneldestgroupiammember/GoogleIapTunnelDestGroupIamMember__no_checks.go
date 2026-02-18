@@ -111,7 +111,7 @@ func (j *jsiiProxy_GoogleIapTunnelDestGroupIamMember) validateSetIdParameters(va
 	return nil
 }
 
-func (j *jsiiProxy_GoogleIapTunnelDestGroupIamMember) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleIapTunnelDestGroupIamMember) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

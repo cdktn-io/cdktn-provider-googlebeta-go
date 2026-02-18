@@ -15,7 +15,7 @@ func (g *jsiiProxy_GoogleDataprocWorkflowTemplateParametersList) validateGetPara
 	return nil
 }
 
-func (g *jsiiProxy_GoogleDataprocWorkflowTemplateParametersList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleDataprocWorkflowTemplateParametersList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_GoogleDataprocWorkflowTemplateParametersList) validateSetTerr
 	return nil
 }
 
-func (j *jsiiProxy_GoogleDataprocWorkflowTemplateParametersList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleDataprocWorkflowTemplateParametersList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_GoogleDataprocWorkflowTemplateParametersList) validateSetWrap
 	return nil
 }
 
-func validateNewGoogleDataprocWorkflowTemplateParametersListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGoogleDataprocWorkflowTemplateParametersListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

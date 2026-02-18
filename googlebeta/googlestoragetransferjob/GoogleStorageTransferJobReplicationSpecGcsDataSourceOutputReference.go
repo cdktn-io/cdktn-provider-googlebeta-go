@@ -5,14 +5,14 @@ package googlestoragetransferjob
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlestoragetransferjob/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlestoragetransferjob/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type GoogleStorageTransferJobReplicationSpecGcsDataSourceOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	BucketName() *string
 	SetBucketName(val *string)
 	BucketNameInput() *string
@@ -43,15 +43,15 @@ type GoogleStorageTransferJobReplicationSpecGcsDataSourceOutputReference interfa
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,13 +67,13 @@ type GoogleStorageTransferJobReplicationSpecGcsDataSourceOutputReference interfa
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetPath()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -83,7 +83,7 @@ type GoogleStorageTransferJobReplicationSpecGcsDataSourceOutputReference interfa
 
 // The jsii proxy struct for GoogleStorageTransferJobReplicationSpecGcsDataSourceOutputReference
 type jsiiProxy_GoogleStorageTransferJobReplicationSpecGcsDataSourceOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_GoogleStorageTransferJobReplicationSpecGcsDataSourceOutputReference) BucketName() *string {
@@ -186,8 +186,8 @@ func (j *jsiiProxy_GoogleStorageTransferJobReplicationSpecGcsDataSourceOutputRef
 	return returns
 }
 
-func (j *jsiiProxy_GoogleStorageTransferJobReplicationSpecGcsDataSourceOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_GoogleStorageTransferJobReplicationSpecGcsDataSourceOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -197,7 +197,7 @@ func (j *jsiiProxy_GoogleStorageTransferJobReplicationSpecGcsDataSourceOutputRef
 }
 
 
-func NewGoogleStorageTransferJobReplicationSpecGcsDataSourceOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) GoogleStorageTransferJobReplicationSpecGcsDataSourceOutputReference {
+func NewGoogleStorageTransferJobReplicationSpecGcsDataSourceOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) GoogleStorageTransferJobReplicationSpecGcsDataSourceOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewGoogleStorageTransferJobReplicationSpecGcsDataSourceOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -214,7 +214,7 @@ func NewGoogleStorageTransferJobReplicationSpecGcsDataSourceOutputReference(terr
 	return &j
 }
 
-func NewGoogleStorageTransferJobReplicationSpecGcsDataSourceOutputReference_Override(g GoogleStorageTransferJobReplicationSpecGcsDataSourceOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewGoogleStorageTransferJobReplicationSpecGcsDataSourceOutputReference_Override(g GoogleStorageTransferJobReplicationSpecGcsDataSourceOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -290,7 +290,7 @@ func (j *jsiiProxy_GoogleStorageTransferJobReplicationSpecGcsDataSourceOutputRef
 	)
 }
 
-func (j *jsiiProxy_GoogleStorageTransferJobReplicationSpecGcsDataSourceOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_GoogleStorageTransferJobReplicationSpecGcsDataSourceOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -330,11 +330,11 @@ func (g *jsiiProxy_GoogleStorageTransferJobReplicationSpecGcsDataSourceOutputRef
 	return returns
 }
 
-func (g *jsiiProxy_GoogleStorageTransferJobReplicationSpecGcsDataSourceOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleStorageTransferJobReplicationSpecGcsDataSourceOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -458,8 +458,8 @@ func (g *jsiiProxy_GoogleStorageTransferJobReplicationSpecGcsDataSourceOutputRef
 	return returns
 }
 
-func (g *jsiiProxy_GoogleStorageTransferJobReplicationSpecGcsDataSourceOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (g *jsiiProxy_GoogleStorageTransferJobReplicationSpecGcsDataSourceOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -471,11 +471,11 @@ func (g *jsiiProxy_GoogleStorageTransferJobReplicationSpecGcsDataSourceOutputRef
 	return returns
 }
 
-func (g *jsiiProxy_GoogleStorageTransferJobReplicationSpecGcsDataSourceOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleStorageTransferJobReplicationSpecGcsDataSourceOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -495,7 +495,7 @@ func (g *jsiiProxy_GoogleStorageTransferJobReplicationSpecGcsDataSourceOutputRef
 	)
 }
 
-func (g *jsiiProxy_GoogleStorageTransferJobReplicationSpecGcsDataSourceOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (g *jsiiProxy_GoogleStorageTransferJobReplicationSpecGcsDataSourceOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

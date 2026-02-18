@@ -123,7 +123,7 @@ func (j *jsiiProxy_GoogleIdentityPlatformInboundSamlConfig) validateSetIdParamet
 	return nil
 }
 
-func (j *jsiiProxy_GoogleIdentityPlatformInboundSamlConfig) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleIdentityPlatformInboundSamlConfig) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

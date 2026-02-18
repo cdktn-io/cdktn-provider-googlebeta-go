@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataGoogleMonitoringClusterIstioService) validateSetIdParamet
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleMonitoringClusterIstioService) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataGoogleMonitoringClusterIstioService) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

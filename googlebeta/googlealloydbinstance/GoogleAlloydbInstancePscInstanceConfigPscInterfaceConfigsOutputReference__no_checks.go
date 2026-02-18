@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleAlloydbInstancePscInstanceConfigPscInterfaceConfigsOutp
 	return nil
 }
 
-func (g *jsiiProxy_GoogleAlloydbInstancePscInstanceConfigPscInterfaceConfigsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleAlloydbInstancePscInstanceConfigPscInterfaceConfigsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_GoogleAlloydbInstancePscInstanceConfigPscInterfaceConfigsOutp
 	return nil
 }
 
-func (j *jsiiProxy_GoogleAlloydbInstancePscInstanceConfigPscInterfaceConfigsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleAlloydbInstancePscInstanceConfigPscInterfaceConfigsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleAlloydbInstancePscInstanceConfigPscInterfaceConfigsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewGoogleAlloydbInstancePscInstanceConfigPscInterfaceConfigsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

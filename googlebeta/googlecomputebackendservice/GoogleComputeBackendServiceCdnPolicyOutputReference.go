@@ -5,14 +5,14 @@ package googlecomputebackendservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecomputebackendservice/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputebackendservice/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type GoogleComputeBackendServiceCdnPolicyOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	BypassCacheOnRequestHeaders() GoogleComputeBackendServiceCdnPolicyBypassCacheOnRequestHeadersList
 	BypassCacheOnRequestHeadersInput() interface{}
 	CacheKeyPolicy() GoogleComputeBackendServiceCdnPolicyCacheKeyPolicyOutputReference
@@ -67,15 +67,15 @@ type GoogleComputeBackendServiceCdnPolicyOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -91,9 +91,9 @@ type GoogleComputeBackendServiceCdnPolicyOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutBypassCacheOnRequestHeaders(value interface{})
 	PutCacheKeyPolicy(value *GoogleComputeBackendServiceCdnPolicyCacheKeyPolicy)
 	PutNegativeCachingPolicy(value interface{})
@@ -110,7 +110,7 @@ type GoogleComputeBackendServiceCdnPolicyOutputReference interface {
 	ResetSignedUrlCacheMaxAgeSec()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -120,7 +120,7 @@ type GoogleComputeBackendServiceCdnPolicyOutputReference interface {
 
 // The jsii proxy struct for GoogleComputeBackendServiceCdnPolicyOutputReference
 type jsiiProxy_GoogleComputeBackendServiceCdnPolicyOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_GoogleComputeBackendServiceCdnPolicyOutputReference) BypassCacheOnRequestHeaders() GoogleComputeBackendServiceCdnPolicyBypassCacheOnRequestHeadersList {
@@ -403,8 +403,8 @@ func (j *jsiiProxy_GoogleComputeBackendServiceCdnPolicyOutputReference) Terrafor
 	return returns
 }
 
-func (j *jsiiProxy_GoogleComputeBackendServiceCdnPolicyOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_GoogleComputeBackendServiceCdnPolicyOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -414,7 +414,7 @@ func (j *jsiiProxy_GoogleComputeBackendServiceCdnPolicyOutputReference) Terrafor
 }
 
 
-func NewGoogleComputeBackendServiceCdnPolicyOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) GoogleComputeBackendServiceCdnPolicyOutputReference {
+func NewGoogleComputeBackendServiceCdnPolicyOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) GoogleComputeBackendServiceCdnPolicyOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewGoogleComputeBackendServiceCdnPolicyOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -431,7 +431,7 @@ func NewGoogleComputeBackendServiceCdnPolicyOutputReference(terraformResource cd
 	return &j
 }
 
-func NewGoogleComputeBackendServiceCdnPolicyOutputReference_Override(g GoogleComputeBackendServiceCdnPolicyOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewGoogleComputeBackendServiceCdnPolicyOutputReference_Override(g GoogleComputeBackendServiceCdnPolicyOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -573,7 +573,7 @@ func (j *jsiiProxy_GoogleComputeBackendServiceCdnPolicyOutputReference)SetTerraf
 	)
 }
 
-func (j *jsiiProxy_GoogleComputeBackendServiceCdnPolicyOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_GoogleComputeBackendServiceCdnPolicyOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -613,11 +613,11 @@ func (g *jsiiProxy_GoogleComputeBackendServiceCdnPolicyOutputReference) GetAnyMa
 	return returns
 }
 
-func (g *jsiiProxy_GoogleComputeBackendServiceCdnPolicyOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleComputeBackendServiceCdnPolicyOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -741,8 +741,8 @@ func (g *jsiiProxy_GoogleComputeBackendServiceCdnPolicyOutputReference) GetStrin
 	return returns
 }
 
-func (g *jsiiProxy_GoogleComputeBackendServiceCdnPolicyOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (g *jsiiProxy_GoogleComputeBackendServiceCdnPolicyOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -754,11 +754,11 @@ func (g *jsiiProxy_GoogleComputeBackendServiceCdnPolicyOutputReference) Interpol
 	return returns
 }
 
-func (g *jsiiProxy_GoogleComputeBackendServiceCdnPolicyOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleComputeBackendServiceCdnPolicyOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -891,7 +891,7 @@ func (g *jsiiProxy_GoogleComputeBackendServiceCdnPolicyOutputReference) ResetSig
 	)
 }
 
-func (g *jsiiProxy_GoogleComputeBackendServiceCdnPolicyOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (g *jsiiProxy_GoogleComputeBackendServiceCdnPolicyOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

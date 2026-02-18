@@ -175,7 +175,7 @@ func (j *jsiiProxy_GoogleComputeRouterPeer) validateSetIpv6NexthopAddressParamet
 	return nil
 }
 
-func (j *jsiiProxy_GoogleComputeRouterPeer) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleComputeRouterPeer) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

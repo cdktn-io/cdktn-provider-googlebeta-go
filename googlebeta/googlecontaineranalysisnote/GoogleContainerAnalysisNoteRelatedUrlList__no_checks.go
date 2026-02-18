@@ -15,7 +15,7 @@ func (g *jsiiProxy_GoogleContainerAnalysisNoteRelatedUrlList) validateGetParamet
 	return nil
 }
 
-func (g *jsiiProxy_GoogleContainerAnalysisNoteRelatedUrlList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleContainerAnalysisNoteRelatedUrlList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_GoogleContainerAnalysisNoteRelatedUrlList) validateSetTerrafo
 	return nil
 }
 
-func (j *jsiiProxy_GoogleContainerAnalysisNoteRelatedUrlList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleContainerAnalysisNoteRelatedUrlList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_GoogleContainerAnalysisNoteRelatedUrlList) validateSetWrapsSe
 	return nil
 }
 
-func validateNewGoogleContainerAnalysisNoteRelatedUrlListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGoogleContainerAnalysisNoteRelatedUrlListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

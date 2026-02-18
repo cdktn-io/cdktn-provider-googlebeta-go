@@ -51,7 +51,7 @@ func (g *jsiiProxy_GoogleIntegrationConnectorsConnectionAuthConfigUserPasswordOu
 	return nil
 }
 
-func (g *jsiiProxy_GoogleIntegrationConnectorsConnectionAuthConfigUserPasswordOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleIntegrationConnectorsConnectionAuthConfigUserPasswordOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_GoogleIntegrationConnectorsConnectionAuthConfigUserPasswordOu
 	return nil
 }
 
-func (j *jsiiProxy_GoogleIntegrationConnectorsConnectionAuthConfigUserPasswordOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleIntegrationConnectorsConnectionAuthConfigUserPasswordOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_GoogleIntegrationConnectorsConnectionAuthConfigUserPasswordOu
 	return nil
 }
 
-func validateNewGoogleIntegrationConnectorsConnectionAuthConfigUserPasswordOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleIntegrationConnectorsConnectionAuthConfigUserPasswordOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

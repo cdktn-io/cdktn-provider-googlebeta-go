@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleContainerClusterDatabaseEncryptionOutputReference) vali
 	return nil
 }
 
-func (g *jsiiProxy_GoogleContainerClusterDatabaseEncryptionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleContainerClusterDatabaseEncryptionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_GoogleContainerClusterDatabaseEncryptionOutputReference) vali
 	return nil
 }
 
-func (j *jsiiProxy_GoogleContainerClusterDatabaseEncryptionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleContainerClusterDatabaseEncryptionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleContainerClusterDatabaseEncryptionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleContainerClusterDatabaseEncryptionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

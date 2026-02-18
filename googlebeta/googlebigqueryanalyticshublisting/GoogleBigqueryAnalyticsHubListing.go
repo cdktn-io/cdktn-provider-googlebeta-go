@@ -5,16 +5,16 @@ package googlebigqueryanalyticshublisting
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlebigqueryanalyticshublisting/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebigqueryanalyticshublisting/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_analytics_hub_listing google_bigquery_analytics_hub_listing}.
 type GoogleBigqueryAnalyticsHubListing interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	AllowOnlyMetadataSharing() interface{}
 	SetAllowOnlyMetadataSharing(val interface{})
 	AllowOnlyMetadataSharingInput() interface{}
@@ -24,7 +24,7 @@ type GoogleBigqueryAnalyticsHubListing interface {
 	SetCategories(val *[]*string)
 	CategoriesInput() *[]*string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	CommercialInfo() GoogleBigqueryAnalyticsHubListingCommercialInfoList
 	// Experimental.
 	Connection() interface{}
@@ -61,9 +61,9 @@ type GoogleBigqueryAnalyticsHubListing interface {
 	SetDocumentation(val *string)
 	DocumentationInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -75,9 +75,9 @@ type GoogleBigqueryAnalyticsHubListing interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	ListingId() *string
 	SetListingId(val *string)
 	ListingIdInput() *string
@@ -97,9 +97,9 @@ type GoogleBigqueryAnalyticsHubListing interface {
 	SetProject(val *string)
 	ProjectInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -117,7 +117,7 @@ type GoogleBigqueryAnalyticsHubListing interface {
 	RestrictedExportConfigInput() *GoogleBigqueryAnalyticsHubListingRestrictedExportConfig
 	State() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -132,7 +132,7 @@ type GoogleBigqueryAnalyticsHubListing interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -150,9 +150,9 @@ type GoogleBigqueryAnalyticsHubListing interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -209,7 +209,7 @@ type GoogleBigqueryAnalyticsHubListing interface {
 
 // The jsii proxy struct for GoogleBigqueryAnalyticsHubListing
 type jsiiProxy_GoogleBigqueryAnalyticsHubListing struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_GoogleBigqueryAnalyticsHubListing) AllowOnlyMetadataSharing() interface{} {
@@ -272,8 +272,8 @@ func (j *jsiiProxy_GoogleBigqueryAnalyticsHubListing) CategoriesInput() *[]*stri
 	return returns
 }
 
-func (j *jsiiProxy_GoogleBigqueryAnalyticsHubListing) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_GoogleBigqueryAnalyticsHubListing) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -472,8 +472,8 @@ func (j *jsiiProxy_GoogleBigqueryAnalyticsHubListing) DocumentationInput() *stri
 	return returns
 }
 
-func (j *jsiiProxy_GoogleBigqueryAnalyticsHubListing) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_GoogleBigqueryAnalyticsHubListing) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -542,8 +542,8 @@ func (j *jsiiProxy_GoogleBigqueryAnalyticsHubListing) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleBigqueryAnalyticsHubListing) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_GoogleBigqueryAnalyticsHubListing) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -672,8 +672,8 @@ func (j *jsiiProxy_GoogleBigqueryAnalyticsHubListing) ProjectInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleBigqueryAnalyticsHubListing) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_GoogleBigqueryAnalyticsHubListing) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -792,8 +792,8 @@ func (j *jsiiProxy_GoogleBigqueryAnalyticsHubListing) State() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleBigqueryAnalyticsHubListing) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_GoogleBigqueryAnalyticsHubListing) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -990,7 +990,7 @@ func (j *jsiiProxy_GoogleBigqueryAnalyticsHubListing)SetDocumentation(val *strin
 	)
 }
 
-func (j *jsiiProxy_GoogleBigqueryAnalyticsHubListing)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_GoogleBigqueryAnalyticsHubListing)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -1020,7 +1020,7 @@ func (j *jsiiProxy_GoogleBigqueryAnalyticsHubListing)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_GoogleBigqueryAnalyticsHubListing)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_GoogleBigqueryAnalyticsHubListing)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -1086,7 +1086,7 @@ func (j *jsiiProxy_GoogleBigqueryAnalyticsHubListing)SetProject(val *string) {
 	)
 }
 
-func (j *jsiiProxy_GoogleBigqueryAnalyticsHubListing)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_GoogleBigqueryAnalyticsHubListing)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -1116,14 +1116,14 @@ func (j *jsiiProxy_GoogleBigqueryAnalyticsHubListing)SetRequestAccess(val *strin
 	)
 }
 
-// Generates CDKTF code for importing a GoogleBigqueryAnalyticsHubListing resource upon running "cdktf plan <stack-name>".
-func GoogleBigqueryAnalyticsHubListing_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a GoogleBigqueryAnalyticsHubListing resource upon running "cdktn plan <stack-name>".
+func GoogleBigqueryAnalyticsHubListing_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateGoogleBigqueryAnalyticsHubListing_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google-beta.googleBigqueryAnalyticsHubListing.GoogleBigqueryAnalyticsHubListing",
@@ -1257,11 +1257,11 @@ func (g *jsiiProxy_GoogleBigqueryAnalyticsHubListing) GetAnyMapAttribute(terrafo
 	return returns
 }
 
-func (g *jsiiProxy_GoogleBigqueryAnalyticsHubListing) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleBigqueryAnalyticsHubListing) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -1398,7 +1398,7 @@ func (g *jsiiProxy_GoogleBigqueryAnalyticsHubListing) HasResourceMove() interfac
 	return returns
 }
 
-func (g *jsiiProxy_GoogleBigqueryAnalyticsHubListing) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (g *jsiiProxy_GoogleBigqueryAnalyticsHubListing) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := g.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1409,11 +1409,11 @@ func (g *jsiiProxy_GoogleBigqueryAnalyticsHubListing) ImportFrom(id *string, pro
 	)
 }
 
-func (g *jsiiProxy_GoogleBigqueryAnalyticsHubListing) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleBigqueryAnalyticsHubListing) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,

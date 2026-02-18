@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleBigqueryJobQueryDestinationTableOutputReference) valida
 	return nil
 }
 
-func (g *jsiiProxy_GoogleBigqueryJobQueryDestinationTableOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleBigqueryJobQueryDestinationTableOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_GoogleBigqueryJobQueryDestinationTableOutputReference) valida
 	return nil
 }
 
-func (j *jsiiProxy_GoogleBigqueryJobQueryDestinationTableOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleBigqueryJobQueryDestinationTableOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleBigqueryJobQueryDestinationTableOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleBigqueryJobQueryDestinationTableOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

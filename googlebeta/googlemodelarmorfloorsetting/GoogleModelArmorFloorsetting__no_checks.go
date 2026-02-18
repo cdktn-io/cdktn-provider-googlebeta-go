@@ -127,7 +127,7 @@ func (j *jsiiProxy_GoogleModelArmorFloorsetting) validateSetIntegratedServicesPa
 	return nil
 }
 
-func (j *jsiiProxy_GoogleModelArmorFloorsetting) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleModelArmorFloorsetting) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

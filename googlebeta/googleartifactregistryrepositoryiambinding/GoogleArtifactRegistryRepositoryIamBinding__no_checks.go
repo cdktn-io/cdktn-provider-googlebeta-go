@@ -107,7 +107,7 @@ func (j *jsiiProxy_GoogleArtifactRegistryRepositoryIamBinding) validateSetIdPara
 	return nil
 }
 
-func (j *jsiiProxy_GoogleArtifactRegistryRepositoryIamBinding) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleArtifactRegistryRepositoryIamBinding) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

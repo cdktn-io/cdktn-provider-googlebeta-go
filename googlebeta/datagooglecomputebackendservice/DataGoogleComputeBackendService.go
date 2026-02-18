@@ -5,20 +5,20 @@ package datagooglecomputebackendservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagooglecomputebackendservice/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagooglecomputebackendservice/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_compute_backend_service google_compute_backend_service}.
 type DataGoogleComputeBackendService interface {
-	cdktf.TerraformDataSource
+	cdktn.TerraformDataSource
 	AffinityCookieTtlSec() *float64
 	Backend() DataGoogleComputeBackendServiceBackendList
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	CdnPolicy() DataGoogleComputeBackendServiceCdnPolicyList
 	CircuitBreakers() DataGoogleComputeBackendServiceCircuitBreakersList
 	CompressionMode() *string
@@ -41,14 +41,14 @@ type DataGoogleComputeBackendService interface {
 	Description() *string
 	DynamicForwarding() DataGoogleComputeBackendServiceDynamicForwardingList
 	EdgeSecurityPolicy() *string
-	EnableCdn() cdktf.IResolvable
+	EnableCdn() cdktn.IResolvable
 	ExternalManagedMigrationState() *string
 	ExternalManagedMigrationTestingPercentage() *float64
 	Fingerprint() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -61,9 +61,9 @@ type DataGoogleComputeBackendService interface {
 	IdInput() *string
 	IpAddressSelectionPolicy() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	LoadBalancingScheme() *string
 	LocalityLbPolicies() DataGoogleComputeBackendServiceLocalityLbPoliciesList
 	LocalityLbPolicy() *string
@@ -82,9 +82,9 @@ type DataGoogleComputeBackendService interface {
 	ProjectInput() *string
 	Protocol() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	RawOverrides() interface{}
 	SecurityPolicy() *string
@@ -94,7 +94,7 @@ type DataGoogleComputeBackendService interface {
 	SessionAffinity() *string
 	StrongSessionAffinityCookie() DataGoogleComputeBackendServiceStrongSessionAffinityCookieList
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -106,7 +106,7 @@ type DataGoogleComputeBackendService interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -122,7 +122,7 @@ type DataGoogleComputeBackendService interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
@@ -147,7 +147,7 @@ type DataGoogleComputeBackendService interface {
 
 // The jsii proxy struct for DataGoogleComputeBackendService
 type jsiiProxy_DataGoogleComputeBackendService struct {
-	internal.Type__cdktfTerraformDataSource
+	internal.Type__cdktnTerraformDataSource
 }
 
 func (j *jsiiProxy_DataGoogleComputeBackendService) AffinityCookieTtlSec() *float64 {
@@ -170,8 +170,8 @@ func (j *jsiiProxy_DataGoogleComputeBackendService) Backend() DataGoogleComputeB
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleComputeBackendService) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataGoogleComputeBackendService) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -330,8 +330,8 @@ func (j *jsiiProxy_DataGoogleComputeBackendService) EdgeSecurityPolicy() *string
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleComputeBackendService) EnableCdn() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataGoogleComputeBackendService) EnableCdn() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"enableCdn",
@@ -370,8 +370,8 @@ func (j *jsiiProxy_DataGoogleComputeBackendService) Fingerprint() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleComputeBackendService) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataGoogleComputeBackendService) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -460,8 +460,8 @@ func (j *jsiiProxy_DataGoogleComputeBackendService) IpAddressSelectionPolicy() *
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleComputeBackendService) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataGoogleComputeBackendService) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -610,8 +610,8 @@ func (j *jsiiProxy_DataGoogleComputeBackendService) Protocol() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleComputeBackendService) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataGoogleComputeBackendService) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -690,8 +690,8 @@ func (j *jsiiProxy_DataGoogleComputeBackendService) StrongSessionAffinityCookie(
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleComputeBackendService) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataGoogleComputeBackendService) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -789,7 +789,7 @@ func (j *jsiiProxy_DataGoogleComputeBackendService)SetDependsOn(val *[]*string) 
 	)
 }
 
-func (j *jsiiProxy_DataGoogleComputeBackendService)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataGoogleComputeBackendService)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -808,7 +808,7 @@ func (j *jsiiProxy_DataGoogleComputeBackendService)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataGoogleComputeBackendService)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataGoogleComputeBackendService)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -841,7 +841,7 @@ func (j *jsiiProxy_DataGoogleComputeBackendService)SetProject(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataGoogleComputeBackendService)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataGoogleComputeBackendService)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -849,14 +849,14 @@ func (j *jsiiProxy_DataGoogleComputeBackendService)SetProvider(val cdktf.Terrafo
 	)
 }
 
-// Generates CDKTF code for importing a DataGoogleComputeBackendService resource upon running "cdktf plan <stack-name>".
-func DataGoogleComputeBackendService_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataGoogleComputeBackendService resource upon running "cdktn plan <stack-name>".
+func DataGoogleComputeBackendService_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataGoogleComputeBackendService_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google-beta.dataGoogleComputeBackendService.DataGoogleComputeBackendService",
@@ -979,11 +979,11 @@ func (d *jsiiProxy_DataGoogleComputeBackendService) GetAnyMapAttribute(terraform
 	return returns
 }
 
-func (d *jsiiProxy_DataGoogleComputeBackendService) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataGoogleComputeBackendService) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -1107,11 +1107,11 @@ func (d *jsiiProxy_DataGoogleComputeBackendService) GetStringMapAttribute(terraf
 	return returns
 }
 
-func (d *jsiiProxy_DataGoogleComputeBackendService) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataGoogleComputeBackendService) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

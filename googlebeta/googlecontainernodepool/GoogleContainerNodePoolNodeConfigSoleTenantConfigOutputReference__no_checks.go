@@ -51,7 +51,7 @@ func (g *jsiiProxy_GoogleContainerNodePoolNodeConfigSoleTenantConfigOutputRefere
 	return nil
 }
 
-func (g *jsiiProxy_GoogleContainerNodePoolNodeConfigSoleTenantConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleContainerNodePoolNodeConfigSoleTenantConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_GoogleContainerNodePoolNodeConfigSoleTenantConfigOutputRefere
 	return nil
 }
 
-func (j *jsiiProxy_GoogleContainerNodePoolNodeConfigSoleTenantConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleContainerNodePoolNodeConfigSoleTenantConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleContainerNodePoolNodeConfigSoleTenantConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleContainerNodePoolNodeConfigSoleTenantConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (g *jsiiProxy_GoogleKmsEkmConnectionServiceResolversOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -98,7 +98,7 @@ func (g *jsiiProxy_GoogleKmsEkmConnectionServiceResolversOutputReference) valida
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*GoogleKmsEkmConnectionServiceResolversServerCertificates:
 		value := value.(*[]*GoogleKmsEkmConnectionServiceResolversServerCertificates)
@@ -117,14 +117,14 @@ func (g *jsiiProxy_GoogleKmsEkmConnectionServiceResolversOutputReference) valida
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*GoogleKmsEkmConnectionServiceResolversServerCertificates; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*GoogleKmsEkmConnectionServiceResolversServerCertificates; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (g *jsiiProxy_GoogleKmsEkmConnectionServiceResolversOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleKmsEkmConnectionServiceResolversOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -215,7 +215,7 @@ func (j *jsiiProxy_GoogleKmsEkmConnectionServiceResolversOutputReference) valida
 
 func (j *jsiiProxy_GoogleKmsEkmConnectionServiceResolversOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *GoogleKmsEkmConnectionServiceResolvers:
 		val := val.(*GoogleKmsEkmConnectionServiceResolvers)
@@ -230,7 +230,7 @@ func (j *jsiiProxy_GoogleKmsEkmConnectionServiceResolversOutputReference) valida
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *GoogleKmsEkmConnectionServiceResolvers; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *GoogleKmsEkmConnectionServiceResolvers; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -253,7 +253,7 @@ func (j *jsiiProxy_GoogleKmsEkmConnectionServiceResolversOutputReference) valida
 	return nil
 }
 
-func (j *jsiiProxy_GoogleKmsEkmConnectionServiceResolversOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleKmsEkmConnectionServiceResolversOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -261,7 +261,7 @@ func (j *jsiiProxy_GoogleKmsEkmConnectionServiceResolversOutputReference) valida
 	return nil
 }
 
-func validateNewGoogleKmsEkmConnectionServiceResolversOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewGoogleKmsEkmConnectionServiceResolversOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

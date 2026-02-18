@@ -115,7 +115,7 @@ func (j *jsiiProxy_GoogleFirebaseExtensionsInstance) validateSetInstanceIdParame
 	return nil
 }
 
-func (j *jsiiProxy_GoogleFirebaseExtensionsInstance) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleFirebaseExtensionsInstance) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

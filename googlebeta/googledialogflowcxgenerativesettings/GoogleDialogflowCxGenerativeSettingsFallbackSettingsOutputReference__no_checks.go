@@ -51,7 +51,7 @@ func (g *jsiiProxy_GoogleDialogflowCxGenerativeSettingsFallbackSettingsOutputRef
 	return nil
 }
 
-func (g *jsiiProxy_GoogleDialogflowCxGenerativeSettingsFallbackSettingsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleDialogflowCxGenerativeSettingsFallbackSettingsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_GoogleDialogflowCxGenerativeSettingsFallbackSettingsOutputRef
 	return nil
 }
 
-func (j *jsiiProxy_GoogleDialogflowCxGenerativeSettingsFallbackSettingsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleDialogflowCxGenerativeSettingsFallbackSettingsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleDialogflowCxGenerativeSettingsFallbackSettingsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleDialogflowCxGenerativeSettingsFallbackSettingsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

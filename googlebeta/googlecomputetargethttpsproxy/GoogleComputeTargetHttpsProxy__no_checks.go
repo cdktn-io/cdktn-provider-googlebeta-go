@@ -123,7 +123,7 @@ func (j *jsiiProxy_GoogleComputeTargetHttpsProxy) validateSetIdParameters(val *s
 	return nil
 }
 
-func (j *jsiiProxy_GoogleComputeTargetHttpsProxy) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleComputeTargetHttpsProxy) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

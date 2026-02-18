@@ -5,14 +5,14 @@ package googlegkeonpremvmwareadmincluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlegkeonpremvmwareadmincluster/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlegkeonpremvmwareadmincluster/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type GoogleGkeonpremVmwareAdminClusterNetworkConfigOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -51,9 +51,9 @@ type GoogleGkeonpremVmwareAdminClusterNetworkConfigOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	VcenterNetwork() *string
 	SetVcenterNetwork(val *string)
 	VcenterNetworkInput() *string
@@ -62,7 +62,7 @@ type GoogleGkeonpremVmwareAdminClusterNetworkConfigOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -78,9 +78,9 @@ type GoogleGkeonpremVmwareAdminClusterNetworkConfigOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutDhcpIpConfig(value *GoogleGkeonpremVmwareAdminClusterNetworkConfigDhcpIpConfig)
 	PutHaControlPlaneConfig(value *GoogleGkeonpremVmwareAdminClusterNetworkConfigHaControlPlaneConfig)
 	PutHostConfig(value *GoogleGkeonpremVmwareAdminClusterNetworkConfigHostConfig)
@@ -92,7 +92,7 @@ type GoogleGkeonpremVmwareAdminClusterNetworkConfigOutputReference interface {
 	ResetVcenterNetwork()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -102,7 +102,7 @@ type GoogleGkeonpremVmwareAdminClusterNetworkConfigOutputReference interface {
 
 // The jsii proxy struct for GoogleGkeonpremVmwareAdminClusterNetworkConfigOutputReference
 type jsiiProxy_GoogleGkeonpremVmwareAdminClusterNetworkConfigOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_GoogleGkeonpremVmwareAdminClusterNetworkConfigOutputReference) ComplexObjectIndex() interface{} {
@@ -285,8 +285,8 @@ func (j *jsiiProxy_GoogleGkeonpremVmwareAdminClusterNetworkConfigOutputReference
 	return returns
 }
 
-func (j *jsiiProxy_GoogleGkeonpremVmwareAdminClusterNetworkConfigOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_GoogleGkeonpremVmwareAdminClusterNetworkConfigOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -316,7 +316,7 @@ func (j *jsiiProxy_GoogleGkeonpremVmwareAdminClusterNetworkConfigOutputReference
 }
 
 
-func NewGoogleGkeonpremVmwareAdminClusterNetworkConfigOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) GoogleGkeonpremVmwareAdminClusterNetworkConfigOutputReference {
+func NewGoogleGkeonpremVmwareAdminClusterNetworkConfigOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) GoogleGkeonpremVmwareAdminClusterNetworkConfigOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewGoogleGkeonpremVmwareAdminClusterNetworkConfigOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -333,7 +333,7 @@ func NewGoogleGkeonpremVmwareAdminClusterNetworkConfigOutputReference(terraformR
 	return &j
 }
 
-func NewGoogleGkeonpremVmwareAdminClusterNetworkConfigOutputReference_Override(g GoogleGkeonpremVmwareAdminClusterNetworkConfigOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewGoogleGkeonpremVmwareAdminClusterNetworkConfigOutputReference_Override(g GoogleGkeonpremVmwareAdminClusterNetworkConfigOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -409,7 +409,7 @@ func (j *jsiiProxy_GoogleGkeonpremVmwareAdminClusterNetworkConfigOutputReference
 	)
 }
 
-func (j *jsiiProxy_GoogleGkeonpremVmwareAdminClusterNetworkConfigOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_GoogleGkeonpremVmwareAdminClusterNetworkConfigOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -460,11 +460,11 @@ func (g *jsiiProxy_GoogleGkeonpremVmwareAdminClusterNetworkConfigOutputReference
 	return returns
 }
 
-func (g *jsiiProxy_GoogleGkeonpremVmwareAdminClusterNetworkConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleGkeonpremVmwareAdminClusterNetworkConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -588,8 +588,8 @@ func (g *jsiiProxy_GoogleGkeonpremVmwareAdminClusterNetworkConfigOutputReference
 	return returns
 }
 
-func (g *jsiiProxy_GoogleGkeonpremVmwareAdminClusterNetworkConfigOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (g *jsiiProxy_GoogleGkeonpremVmwareAdminClusterNetworkConfigOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -601,11 +601,11 @@ func (g *jsiiProxy_GoogleGkeonpremVmwareAdminClusterNetworkConfigOutputReference
 	return returns
 }
 
-func (g *jsiiProxy_GoogleGkeonpremVmwareAdminClusterNetworkConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleGkeonpremVmwareAdminClusterNetworkConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -701,7 +701,7 @@ func (g *jsiiProxy_GoogleGkeonpremVmwareAdminClusterNetworkConfigOutputReference
 	)
 }
 
-func (g *jsiiProxy_GoogleGkeonpremVmwareAdminClusterNetworkConfigOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (g *jsiiProxy_GoogleGkeonpremVmwareAdminClusterNetworkConfigOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

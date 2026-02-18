@@ -75,7 +75,7 @@ func (j *jsiiProxy_DataGoogleClientConfig) validateSetCountParameters(val interf
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleClientConfig) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataGoogleClientConfig) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleIntegrationsClientCloudKmsConfigOutputReference) valida
 	return nil
 }
 
-func (g *jsiiProxy_GoogleIntegrationsClientCloudKmsConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleIntegrationsClientCloudKmsConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -87,11 +87,11 @@ func (j *jsiiProxy_GoogleIntegrationsClientCloudKmsConfigOutputReference) valida
 	return nil
 }
 
-func (j *jsiiProxy_GoogleIntegrationsClientCloudKmsConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleIntegrationsClientCloudKmsConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleIntegrationsClientCloudKmsConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleIntegrationsClientCloudKmsConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

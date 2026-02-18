@@ -51,7 +51,7 @@ func (g *jsiiProxy_GoogleNotebooksRuntimeSoftwareConfigOutputReference) validate
 	return nil
 }
 
-func (g *jsiiProxy_GoogleNotebooksRuntimeSoftwareConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleNotebooksRuntimeSoftwareConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -103,11 +103,11 @@ func (j *jsiiProxy_GoogleNotebooksRuntimeSoftwareConfigOutputReference) validate
 	return nil
 }
 
-func (j *jsiiProxy_GoogleNotebooksRuntimeSoftwareConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleNotebooksRuntimeSoftwareConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleNotebooksRuntimeSoftwareConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleNotebooksRuntimeSoftwareConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

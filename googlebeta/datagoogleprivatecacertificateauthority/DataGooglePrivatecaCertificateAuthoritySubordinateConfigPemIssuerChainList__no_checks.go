@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataGooglePrivatecaCertificateAuthoritySubordinateConfigPemIs
 	return nil
 }
 
-func (d *jsiiProxy_DataGooglePrivatecaCertificateAuthoritySubordinateConfigPemIssuerChainList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataGooglePrivatecaCertificateAuthoritySubordinateConfigPemIssuerChainList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataGooglePrivatecaCertificateAuthoritySubordinateConfigPemIs
 	return nil
 }
 
-func (j *jsiiProxy_DataGooglePrivatecaCertificateAuthoritySubordinateConfigPemIssuerChainList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataGooglePrivatecaCertificateAuthoritySubordinateConfigPemIssuerChainList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataGooglePrivatecaCertificateAuthoritySubordinateConfigPemIs
 	return nil
 }
 
-func validateNewDataGooglePrivatecaCertificateAuthoritySubordinateConfigPemIssuerChainListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataGooglePrivatecaCertificateAuthoritySubordinateConfigPemIssuerChainListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

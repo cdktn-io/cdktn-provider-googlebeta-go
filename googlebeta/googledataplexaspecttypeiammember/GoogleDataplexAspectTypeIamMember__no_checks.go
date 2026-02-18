@@ -111,7 +111,7 @@ func (j *jsiiProxy_GoogleDataplexAspectTypeIamMember) validateSetIdParameters(va
 	return nil
 }
 
-func (j *jsiiProxy_GoogleDataplexAspectTypeIamMember) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleDataplexAspectTypeIamMember) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

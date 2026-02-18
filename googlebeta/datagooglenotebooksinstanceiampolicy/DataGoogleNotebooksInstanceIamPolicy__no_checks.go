@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataGoogleNotebooksInstanceIamPolicy) validateSetInstanceName
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleNotebooksInstanceIamPolicy) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataGoogleNotebooksInstanceIamPolicy) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

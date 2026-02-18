@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataGoogleComputeBackendServiceDynamicForwardingList) validat
 	return nil
 }
 
-func (d *jsiiProxy_DataGoogleComputeBackendServiceDynamicForwardingList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataGoogleComputeBackendServiceDynamicForwardingList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataGoogleComputeBackendServiceDynamicForwardingList) validat
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleComputeBackendServiceDynamicForwardingList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataGoogleComputeBackendServiceDynamicForwardingList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataGoogleComputeBackendServiceDynamicForwardingList) validat
 	return nil
 }
 
-func validateNewDataGoogleComputeBackendServiceDynamicForwardingListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataGoogleComputeBackendServiceDynamicForwardingListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

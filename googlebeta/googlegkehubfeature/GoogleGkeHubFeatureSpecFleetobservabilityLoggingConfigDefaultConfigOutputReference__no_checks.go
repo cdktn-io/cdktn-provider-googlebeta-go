@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleGkeHubFeatureSpecFleetobservabilityLoggingConfigDefault
 	return nil
 }
 
-func (g *jsiiProxy_GoogleGkeHubFeatureSpecFleetobservabilityLoggingConfigDefaultConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleGkeHubFeatureSpecFleetobservabilityLoggingConfigDefaultConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_GoogleGkeHubFeatureSpecFleetobservabilityLoggingConfigDefault
 	return nil
 }
 
-func (j *jsiiProxy_GoogleGkeHubFeatureSpecFleetobservabilityLoggingConfigDefaultConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleGkeHubFeatureSpecFleetobservabilityLoggingConfigDefaultConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleGkeHubFeatureSpecFleetobservabilityLoggingConfigDefaultConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleGkeHubFeatureSpecFleetobservabilityLoggingConfigDefaultConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

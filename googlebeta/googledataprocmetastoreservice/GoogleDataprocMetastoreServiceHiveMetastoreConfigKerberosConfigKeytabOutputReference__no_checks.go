@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleDataprocMetastoreServiceHiveMetastoreConfigKerberosConf
 	return nil
 }
 
-func (g *jsiiProxy_GoogleDataprocMetastoreServiceHiveMetastoreConfigKerberosConfigKeytabOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleDataprocMetastoreServiceHiveMetastoreConfigKerberosConfigKeytabOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_GoogleDataprocMetastoreServiceHiveMetastoreConfigKerberosConf
 	return nil
 }
 
-func (j *jsiiProxy_GoogleDataprocMetastoreServiceHiveMetastoreConfigKerberosConfigKeytabOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleDataprocMetastoreServiceHiveMetastoreConfigKerberosConfigKeytabOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleDataprocMetastoreServiceHiveMetastoreConfigKerberosConfigKeytabOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleDataprocMetastoreServiceHiveMetastoreConfigKerberosConfigKeytabOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

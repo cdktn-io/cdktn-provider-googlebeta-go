@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataGoogleBigqueryConnectionIamPolicy) validateSetIdParameter
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleBigqueryConnectionIamPolicy) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataGoogleBigqueryConnectionIamPolicy) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

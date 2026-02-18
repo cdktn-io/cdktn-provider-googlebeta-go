@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleDataplexTaskNotebookInfrastructureSpecContainerImageOut
 	return nil
 }
 
-func (g *jsiiProxy_GoogleDataplexTaskNotebookInfrastructureSpecContainerImageOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleDataplexTaskNotebookInfrastructureSpecContainerImageOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_GoogleDataplexTaskNotebookInfrastructureSpecContainerImageOut
 	return nil
 }
 
-func (j *jsiiProxy_GoogleDataplexTaskNotebookInfrastructureSpecContainerImageOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleDataplexTaskNotebookInfrastructureSpecContainerImageOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleDataplexTaskNotebookInfrastructureSpecContainerImageOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleDataplexTaskNotebookInfrastructureSpecContainerImageOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

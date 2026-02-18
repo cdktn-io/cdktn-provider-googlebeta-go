@@ -5,14 +5,14 @@ package googlediscoveryenginecmekconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlediscoveryenginecmekconfig/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlediscoveryenginecmekconfig/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type GoogleDiscoveryEngineCmekConfigSingleRegionKeysList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -26,8 +26,8 @@ type GoogleDiscoveryEngineCmekConfigSingleRegionKeysList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -35,13 +35,13 @@ type GoogleDiscoveryEngineCmekConfigSingleRegionKeysList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) GoogleDiscoveryEngineCmekConfigSingleRegionKeysOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -51,7 +51,7 @@ type GoogleDiscoveryEngineCmekConfigSingleRegionKeysList interface {
 
 // The jsii proxy struct for GoogleDiscoveryEngineCmekConfigSingleRegionKeysList
 type jsiiProxy_GoogleDiscoveryEngineCmekConfigSingleRegionKeysList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_GoogleDiscoveryEngineCmekConfigSingleRegionKeysList) CreationStack() *[]*string {
@@ -94,8 +94,8 @@ func (j *jsiiProxy_GoogleDiscoveryEngineCmekConfigSingleRegionKeysList) Terrafor
 	return returns
 }
 
-func (j *jsiiProxy_GoogleDiscoveryEngineCmekConfigSingleRegionKeysList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_GoogleDiscoveryEngineCmekConfigSingleRegionKeysList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -115,7 +115,7 @@ func (j *jsiiProxy_GoogleDiscoveryEngineCmekConfigSingleRegionKeysList) WrapsSet
 }
 
 
-func NewGoogleDiscoveryEngineCmekConfigSingleRegionKeysList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDiscoveryEngineCmekConfigSingleRegionKeysList {
+func NewGoogleDiscoveryEngineCmekConfigSingleRegionKeysList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleDiscoveryEngineCmekConfigSingleRegionKeysList {
 	_init_.Initialize()
 
 	if err := validateNewGoogleDiscoveryEngineCmekConfigSingleRegionKeysListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -132,7 +132,7 @@ func NewGoogleDiscoveryEngineCmekConfigSingleRegionKeysList(terraformResource cd
 	return &j
 }
 
-func NewGoogleDiscoveryEngineCmekConfigSingleRegionKeysList_Override(g GoogleDiscoveryEngineCmekConfigSingleRegionKeysList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewGoogleDiscoveryEngineCmekConfigSingleRegionKeysList_Override(g GoogleDiscoveryEngineCmekConfigSingleRegionKeysList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -164,7 +164,7 @@ func (j *jsiiProxy_GoogleDiscoveryEngineCmekConfigSingleRegionKeysList)SetTerraf
 	)
 }
 
-func (j *jsiiProxy_GoogleDiscoveryEngineCmekConfigSingleRegionKeysList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_GoogleDiscoveryEngineCmekConfigSingleRegionKeysList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -186,11 +186,11 @@ func (j *jsiiProxy_GoogleDiscoveryEngineCmekConfigSingleRegionKeysList)SetWrapsS
 	)
 }
 
-func (g *jsiiProxy_GoogleDiscoveryEngineCmekConfigSingleRegionKeysList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (g *jsiiProxy_GoogleDiscoveryEngineCmekConfigSingleRegionKeysList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := g.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		g,
@@ -231,7 +231,7 @@ func (g *jsiiProxy_GoogleDiscoveryEngineCmekConfigSingleRegionKeysList) Get(inde
 	return returns
 }
 
-func (g *jsiiProxy_GoogleDiscoveryEngineCmekConfigSingleRegionKeysList) Resolve(context cdktf.IResolveContext) interface{} {
+func (g *jsiiProxy_GoogleDiscoveryEngineCmekConfigSingleRegionKeysList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

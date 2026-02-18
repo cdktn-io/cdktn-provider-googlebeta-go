@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleComputeRouterRoutePolicyTermsActionsOutputReference) va
 	return nil
 }
 
-func (g *jsiiProxy_GoogleComputeRouterRoutePolicyTermsActionsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleComputeRouterRoutePolicyTermsActionsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_GoogleComputeRouterRoutePolicyTermsActionsOutputReference) va
 	return nil
 }
 
-func (j *jsiiProxy_GoogleComputeRouterRoutePolicyTermsActionsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleComputeRouterRoutePolicyTermsActionsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_GoogleComputeRouterRoutePolicyTermsActionsOutputReference) va
 	return nil
 }
 
-func validateNewGoogleComputeRouterRoutePolicyTermsActionsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewGoogleComputeRouterRoutePolicyTermsActionsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

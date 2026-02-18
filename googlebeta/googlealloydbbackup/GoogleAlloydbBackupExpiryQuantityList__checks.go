@@ -8,7 +8,7 @@ package googlealloydbbackup
 import (
 	"fmt"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (g *jsiiProxy_GoogleAlloydbBackupExpiryQuantityList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -27,7 +27,7 @@ func (g *jsiiProxy_GoogleAlloydbBackupExpiryQuantityList) validateGetParameters(
 	return nil
 }
 
-func (g *jsiiProxy_GoogleAlloydbBackupExpiryQuantityList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleAlloydbBackupExpiryQuantityList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -43,7 +43,7 @@ func (j *jsiiProxy_GoogleAlloydbBackupExpiryQuantityList) validateSetTerraformAt
 	return nil
 }
 
-func (j *jsiiProxy_GoogleAlloydbBackupExpiryQuantityList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleAlloydbBackupExpiryQuantityList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -59,7 +59,7 @@ func (j *jsiiProxy_GoogleAlloydbBackupExpiryQuantityList) validateSetWrapsSetPar
 	return nil
 }
 
-func validateNewGoogleAlloydbBackupExpiryQuantityListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGoogleAlloydbBackupExpiryQuantityListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

@@ -135,7 +135,7 @@ func (j *jsiiProxy_GoogleNetworkConnectivityInternalRange) validateSetLabelsPara
 	return nil
 }
 
-func (j *jsiiProxy_GoogleNetworkConnectivityInternalRange) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleNetworkConnectivityInternalRange) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (g *jsiiProxy_GoogleWorkbenchInstanceUpgradeHistoryList) validateGetParamet
 	return nil
 }
 
-func (g *jsiiProxy_GoogleWorkbenchInstanceUpgradeHistoryList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleWorkbenchInstanceUpgradeHistoryList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_GoogleWorkbenchInstanceUpgradeHistoryList) validateSetTerrafo
 	return nil
 }
 
-func (j *jsiiProxy_GoogleWorkbenchInstanceUpgradeHistoryList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleWorkbenchInstanceUpgradeHistoryList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_GoogleWorkbenchInstanceUpgradeHistoryList) validateSetWrapsSe
 	return nil
 }
 
-func validateNewGoogleWorkbenchInstanceUpgradeHistoryListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGoogleWorkbenchInstanceUpgradeHistoryListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

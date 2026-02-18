@@ -5,18 +5,18 @@ package datagooglekmscryptokey
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagooglekmscryptokey/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagooglekmscryptokey/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_kms_crypto_key google_kms_crypto_key}.
 type DataGoogleKmsCryptoKey interface {
-	cdktf.TerraformDataSource
+	cdktn.TerraformDataSource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
 	// Experimental.
@@ -29,11 +29,11 @@ type DataGoogleKmsCryptoKey interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	DestroyScheduledDuration() *string
-	EffectiveLabels() cdktf.StringMap
+	EffectiveLabels() cdktn.StringMap
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -41,16 +41,16 @@ type DataGoogleKmsCryptoKey interface {
 	Id() *string
 	SetId(val *string)
 	IdInput() *string
-	ImportOnly() cdktf.IResolvable
+	ImportOnly() cdktn.IResolvable
 	KeyAccessJustificationsPolicy() DataGoogleKmsCryptoKeyKeyAccessJustificationsPolicyList
 	KeyRing() *string
 	SetKeyRing(val *string)
 	KeyRingInput() *string
-	Labels() cdktf.StringMap
+	Labels() cdktn.StringMap
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
@@ -58,17 +58,17 @@ type DataGoogleKmsCryptoKey interface {
 	Node() constructs.Node
 	Primary() DataGoogleKmsCryptoKeyPrimaryList
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	Purpose() *string
 	// Experimental.
 	RawOverrides() interface{}
 	RotationPeriod() *string
-	SkipInitialVersionCreation() cdktf.IResolvable
+	SkipInitialVersionCreation() cdktn.IResolvable
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
-	TerraformLabels() cdktf.StringMap
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
+	TerraformLabels() cdktn.StringMap
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -79,7 +79,7 @@ type DataGoogleKmsCryptoKey interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -95,7 +95,7 @@ type DataGoogleKmsCryptoKey interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
@@ -119,11 +119,11 @@ type DataGoogleKmsCryptoKey interface {
 
 // The jsii proxy struct for DataGoogleKmsCryptoKey
 type jsiiProxy_DataGoogleKmsCryptoKey struct {
-	internal.Type__cdktfTerraformDataSource
+	internal.Type__cdktnTerraformDataSource
 }
 
-func (j *jsiiProxy_DataGoogleKmsCryptoKey) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataGoogleKmsCryptoKey) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -182,8 +182,8 @@ func (j *jsiiProxy_DataGoogleKmsCryptoKey) DestroyScheduledDuration() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleKmsCryptoKey) EffectiveLabels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_DataGoogleKmsCryptoKey) EffectiveLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"effectiveLabels",
@@ -192,8 +192,8 @@ func (j *jsiiProxy_DataGoogleKmsCryptoKey) EffectiveLabels() cdktf.StringMap {
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleKmsCryptoKey) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataGoogleKmsCryptoKey) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -242,8 +242,8 @@ func (j *jsiiProxy_DataGoogleKmsCryptoKey) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleKmsCryptoKey) ImportOnly() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataGoogleKmsCryptoKey) ImportOnly() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"importOnly",
@@ -282,8 +282,8 @@ func (j *jsiiProxy_DataGoogleKmsCryptoKey) KeyRingInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleKmsCryptoKey) Labels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_DataGoogleKmsCryptoKey) Labels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"labels",
@@ -292,8 +292,8 @@ func (j *jsiiProxy_DataGoogleKmsCryptoKey) Labels() cdktf.StringMap {
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleKmsCryptoKey) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataGoogleKmsCryptoKey) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -342,8 +342,8 @@ func (j *jsiiProxy_DataGoogleKmsCryptoKey) Primary() DataGoogleKmsCryptoKeyPrima
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleKmsCryptoKey) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataGoogleKmsCryptoKey) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -382,8 +382,8 @@ func (j *jsiiProxy_DataGoogleKmsCryptoKey) RotationPeriod() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleKmsCryptoKey) SkipInitialVersionCreation() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataGoogleKmsCryptoKey) SkipInitialVersionCreation() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"skipInitialVersionCreation",
@@ -392,8 +392,8 @@ func (j *jsiiProxy_DataGoogleKmsCryptoKey) SkipInitialVersionCreation() cdktf.IR
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleKmsCryptoKey) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataGoogleKmsCryptoKey) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -402,8 +402,8 @@ func (j *jsiiProxy_DataGoogleKmsCryptoKey) TerraformGeneratorMetadata() *cdktf.T
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleKmsCryptoKey) TerraformLabels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_DataGoogleKmsCryptoKey) TerraformLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"terraformLabels",
@@ -491,7 +491,7 @@ func (j *jsiiProxy_DataGoogleKmsCryptoKey)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_DataGoogleKmsCryptoKey)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataGoogleKmsCryptoKey)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -521,7 +521,7 @@ func (j *jsiiProxy_DataGoogleKmsCryptoKey)SetKeyRing(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataGoogleKmsCryptoKey)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataGoogleKmsCryptoKey)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -543,7 +543,7 @@ func (j *jsiiProxy_DataGoogleKmsCryptoKey)SetName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataGoogleKmsCryptoKey)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataGoogleKmsCryptoKey)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -551,14 +551,14 @@ func (j *jsiiProxy_DataGoogleKmsCryptoKey)SetProvider(val cdktf.TerraformProvide
 	)
 }
 
-// Generates CDKTF code for importing a DataGoogleKmsCryptoKey resource upon running "cdktf plan <stack-name>".
-func DataGoogleKmsCryptoKey_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataGoogleKmsCryptoKey resource upon running "cdktn plan <stack-name>".
+func DataGoogleKmsCryptoKey_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataGoogleKmsCryptoKey_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google-beta.dataGoogleKmsCryptoKey.DataGoogleKmsCryptoKey",
@@ -681,11 +681,11 @@ func (d *jsiiProxy_DataGoogleKmsCryptoKey) GetAnyMapAttribute(terraformAttribute
 	return returns
 }
 
-func (d *jsiiProxy_DataGoogleKmsCryptoKey) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataGoogleKmsCryptoKey) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -809,11 +809,11 @@ func (d *jsiiProxy_DataGoogleKmsCryptoKey) GetStringMapAttribute(terraformAttrib
 	return returns
 }
 
-func (d *jsiiProxy_DataGoogleKmsCryptoKey) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataGoogleKmsCryptoKey) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

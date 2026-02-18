@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleRedisClusterUserCreatedConnectionsTimeoutsOutputReferen
 	return nil
 }
 
-func (g *jsiiProxy_GoogleRedisClusterUserCreatedConnectionsTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleRedisClusterUserCreatedConnectionsTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_GoogleRedisClusterUserCreatedConnectionsTimeoutsOutputReferen
 	return nil
 }
 
-func (j *jsiiProxy_GoogleRedisClusterUserCreatedConnectionsTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleRedisClusterUserCreatedConnectionsTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_GoogleRedisClusterUserCreatedConnectionsTimeoutsOutputReferen
 	return nil
 }
 
-func validateNewGoogleRedisClusterUserCreatedConnectionsTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleRedisClusterUserCreatedConnectionsTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

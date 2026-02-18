@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleDataplexAssetDiscoveryStatusOutputReference) validateIn
 	return nil
 }
 
-func (g *jsiiProxy_GoogleDataplexAssetDiscoveryStatusOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleDataplexAssetDiscoveryStatusOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_GoogleDataplexAssetDiscoveryStatusOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_GoogleDataplexAssetDiscoveryStatusOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleDataplexAssetDiscoveryStatusOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleDataplexAssetDiscoveryStatusOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewGoogleDataplexAssetDiscoveryStatusOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

@@ -5,21 +5,21 @@ package googlefirebaseappcheckplayintegrityconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlefirebaseappcheckplayintegrityconfig/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlefirebaseappcheckplayintegrityconfig/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_firebase_app_check_play_integrity_config google_firebase_app_check_play_integrity_config}.
 type GoogleFirebaseAppCheckPlayIntegrityConfig interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	AppId() *string
 	SetAppId(val *string)
 	AppIdInput() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -35,9 +35,9 @@ type GoogleFirebaseAppCheckPlayIntegrityConfig interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -46,9 +46,9 @@ type GoogleFirebaseAppCheckPlayIntegrityConfig interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Name() *string
 	// The tree node.
 	Node() constructs.Node
@@ -56,9 +56,9 @@ type GoogleFirebaseAppCheckPlayIntegrityConfig interface {
 	SetProject(val *string)
 	ProjectInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -66,7 +66,7 @@ type GoogleFirebaseAppCheckPlayIntegrityConfig interface {
 	// Experimental.
 	RawOverrides() interface{}
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -84,7 +84,7 @@ type GoogleFirebaseAppCheckPlayIntegrityConfig interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -102,9 +102,9 @@ type GoogleFirebaseAppCheckPlayIntegrityConfig interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -142,7 +142,7 @@ type GoogleFirebaseAppCheckPlayIntegrityConfig interface {
 
 // The jsii proxy struct for GoogleFirebaseAppCheckPlayIntegrityConfig
 type jsiiProxy_GoogleFirebaseAppCheckPlayIntegrityConfig struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_GoogleFirebaseAppCheckPlayIntegrityConfig) AppId() *string {
@@ -165,8 +165,8 @@ func (j *jsiiProxy_GoogleFirebaseAppCheckPlayIntegrityConfig) AppIdInput() *stri
 	return returns
 }
 
-func (j *jsiiProxy_GoogleFirebaseAppCheckPlayIntegrityConfig) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_GoogleFirebaseAppCheckPlayIntegrityConfig) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -215,8 +215,8 @@ func (j *jsiiProxy_GoogleFirebaseAppCheckPlayIntegrityConfig) DependsOn() *[]*st
 	return returns
 }
 
-func (j *jsiiProxy_GoogleFirebaseAppCheckPlayIntegrityConfig) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_GoogleFirebaseAppCheckPlayIntegrityConfig) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -265,8 +265,8 @@ func (j *jsiiProxy_GoogleFirebaseAppCheckPlayIntegrityConfig) IdInput() *string 
 	return returns
 }
 
-func (j *jsiiProxy_GoogleFirebaseAppCheckPlayIntegrityConfig) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_GoogleFirebaseAppCheckPlayIntegrityConfig) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -315,8 +315,8 @@ func (j *jsiiProxy_GoogleFirebaseAppCheckPlayIntegrityConfig) ProjectInput() *st
 	return returns
 }
 
-func (j *jsiiProxy_GoogleFirebaseAppCheckPlayIntegrityConfig) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_GoogleFirebaseAppCheckPlayIntegrityConfig) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -345,8 +345,8 @@ func (j *jsiiProxy_GoogleFirebaseAppCheckPlayIntegrityConfig) RawOverrides() int
 	return returns
 }
 
-func (j *jsiiProxy_GoogleFirebaseAppCheckPlayIntegrityConfig) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_GoogleFirebaseAppCheckPlayIntegrityConfig) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -486,7 +486,7 @@ func (j *jsiiProxy_GoogleFirebaseAppCheckPlayIntegrityConfig)SetDependsOn(val *[
 	)
 }
 
-func (j *jsiiProxy_GoogleFirebaseAppCheckPlayIntegrityConfig)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_GoogleFirebaseAppCheckPlayIntegrityConfig)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -505,7 +505,7 @@ func (j *jsiiProxy_GoogleFirebaseAppCheckPlayIntegrityConfig)SetId(val *string) 
 	)
 }
 
-func (j *jsiiProxy_GoogleFirebaseAppCheckPlayIntegrityConfig)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_GoogleFirebaseAppCheckPlayIntegrityConfig)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -527,7 +527,7 @@ func (j *jsiiProxy_GoogleFirebaseAppCheckPlayIntegrityConfig)SetProject(val *str
 	)
 }
 
-func (j *jsiiProxy_GoogleFirebaseAppCheckPlayIntegrityConfig)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_GoogleFirebaseAppCheckPlayIntegrityConfig)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -557,14 +557,14 @@ func (j *jsiiProxy_GoogleFirebaseAppCheckPlayIntegrityConfig)SetTokenTtl(val *st
 	)
 }
 
-// Generates CDKTF code for importing a GoogleFirebaseAppCheckPlayIntegrityConfig resource upon running "cdktf plan <stack-name>".
-func GoogleFirebaseAppCheckPlayIntegrityConfig_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a GoogleFirebaseAppCheckPlayIntegrityConfig resource upon running "cdktn plan <stack-name>".
+func GoogleFirebaseAppCheckPlayIntegrityConfig_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateGoogleFirebaseAppCheckPlayIntegrityConfig_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google-beta.googleFirebaseAppCheckPlayIntegrityConfig.GoogleFirebaseAppCheckPlayIntegrityConfig",
@@ -698,11 +698,11 @@ func (g *jsiiProxy_GoogleFirebaseAppCheckPlayIntegrityConfig) GetAnyMapAttribute
 	return returns
 }
 
-func (g *jsiiProxy_GoogleFirebaseAppCheckPlayIntegrityConfig) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleFirebaseAppCheckPlayIntegrityConfig) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -839,7 +839,7 @@ func (g *jsiiProxy_GoogleFirebaseAppCheckPlayIntegrityConfig) HasResourceMove() 
 	return returns
 }
 
-func (g *jsiiProxy_GoogleFirebaseAppCheckPlayIntegrityConfig) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (g *jsiiProxy_GoogleFirebaseAppCheckPlayIntegrityConfig) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := g.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -850,11 +850,11 @@ func (g *jsiiProxy_GoogleFirebaseAppCheckPlayIntegrityConfig) ImportFrom(id *str
 	)
 }
 
-func (g *jsiiProxy_GoogleFirebaseAppCheckPlayIntegrityConfig) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleFirebaseAppCheckPlayIntegrityConfig) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,

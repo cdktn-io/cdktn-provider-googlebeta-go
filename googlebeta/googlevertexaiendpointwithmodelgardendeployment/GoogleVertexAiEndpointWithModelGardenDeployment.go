@@ -5,18 +5,18 @@ package googlevertexaiendpointwithmodelgardendeployment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlevertexaiendpointwithmodelgardendeployment/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlevertexaiendpointwithmodelgardendeployment/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_endpoint_with_model_garden_deployment google_vertex_ai_endpoint_with_model_garden_deployment}.
 type GoogleVertexAiEndpointWithModelGardenDeployment interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -39,9 +39,9 @@ type GoogleVertexAiEndpointWithModelGardenDeployment interface {
 	EndpointConfig() GoogleVertexAiEndpointWithModelGardenDeploymentEndpointConfigOutputReference
 	EndpointConfigInput() *GoogleVertexAiEndpointWithModelGardenDeploymentEndpointConfig
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -53,9 +53,9 @@ type GoogleVertexAiEndpointWithModelGardenDeployment interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Location() *string
 	SetLocation(val *string)
 	LocationInput() *string
@@ -67,9 +67,9 @@ type GoogleVertexAiEndpointWithModelGardenDeployment interface {
 	SetProject(val *string)
 	ProjectInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -80,7 +80,7 @@ type GoogleVertexAiEndpointWithModelGardenDeployment interface {
 	// Experimental.
 	RawOverrides() interface{}
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -95,7 +95,7 @@ type GoogleVertexAiEndpointWithModelGardenDeployment interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -113,9 +113,9 @@ type GoogleVertexAiEndpointWithModelGardenDeployment interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -160,11 +160,11 @@ type GoogleVertexAiEndpointWithModelGardenDeployment interface {
 
 // The jsii proxy struct for GoogleVertexAiEndpointWithModelGardenDeployment
 type jsiiProxy_GoogleVertexAiEndpointWithModelGardenDeployment struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
-func (j *jsiiProxy_GoogleVertexAiEndpointWithModelGardenDeployment) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_GoogleVertexAiEndpointWithModelGardenDeployment) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -283,8 +283,8 @@ func (j *jsiiProxy_GoogleVertexAiEndpointWithModelGardenDeployment) EndpointConf
 	return returns
 }
 
-func (j *jsiiProxy_GoogleVertexAiEndpointWithModelGardenDeployment) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_GoogleVertexAiEndpointWithModelGardenDeployment) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -353,8 +353,8 @@ func (j *jsiiProxy_GoogleVertexAiEndpointWithModelGardenDeployment) IdInput() *s
 	return returns
 }
 
-func (j *jsiiProxy_GoogleVertexAiEndpointWithModelGardenDeployment) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_GoogleVertexAiEndpointWithModelGardenDeployment) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -433,8 +433,8 @@ func (j *jsiiProxy_GoogleVertexAiEndpointWithModelGardenDeployment) ProjectInput
 	return returns
 }
 
-func (j *jsiiProxy_GoogleVertexAiEndpointWithModelGardenDeployment) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_GoogleVertexAiEndpointWithModelGardenDeployment) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -483,8 +483,8 @@ func (j *jsiiProxy_GoogleVertexAiEndpointWithModelGardenDeployment) RawOverrides
 	return returns
 }
 
-func (j *jsiiProxy_GoogleVertexAiEndpointWithModelGardenDeployment) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_GoogleVertexAiEndpointWithModelGardenDeployment) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -593,7 +593,7 @@ func (j *jsiiProxy_GoogleVertexAiEndpointWithModelGardenDeployment)SetDependsOn(
 	)
 }
 
-func (j *jsiiProxy_GoogleVertexAiEndpointWithModelGardenDeployment)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_GoogleVertexAiEndpointWithModelGardenDeployment)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -623,7 +623,7 @@ func (j *jsiiProxy_GoogleVertexAiEndpointWithModelGardenDeployment)SetId(val *st
 	)
 }
 
-func (j *jsiiProxy_GoogleVertexAiEndpointWithModelGardenDeployment)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_GoogleVertexAiEndpointWithModelGardenDeployment)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -656,7 +656,7 @@ func (j *jsiiProxy_GoogleVertexAiEndpointWithModelGardenDeployment)SetProject(va
 	)
 }
 
-func (j *jsiiProxy_GoogleVertexAiEndpointWithModelGardenDeployment)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_GoogleVertexAiEndpointWithModelGardenDeployment)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -686,14 +686,14 @@ func (j *jsiiProxy_GoogleVertexAiEndpointWithModelGardenDeployment)SetPublisherM
 	)
 }
 
-// Generates CDKTF code for importing a GoogleVertexAiEndpointWithModelGardenDeployment resource upon running "cdktf plan <stack-name>".
-func GoogleVertexAiEndpointWithModelGardenDeployment_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a GoogleVertexAiEndpointWithModelGardenDeployment resource upon running "cdktn plan <stack-name>".
+func GoogleVertexAiEndpointWithModelGardenDeployment_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateGoogleVertexAiEndpointWithModelGardenDeployment_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google-beta.googleVertexAiEndpointWithModelGardenDeployment.GoogleVertexAiEndpointWithModelGardenDeployment",
@@ -827,11 +827,11 @@ func (g *jsiiProxy_GoogleVertexAiEndpointWithModelGardenDeployment) GetAnyMapAtt
 	return returns
 }
 
-func (g *jsiiProxy_GoogleVertexAiEndpointWithModelGardenDeployment) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleVertexAiEndpointWithModelGardenDeployment) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -968,7 +968,7 @@ func (g *jsiiProxy_GoogleVertexAiEndpointWithModelGardenDeployment) HasResourceM
 	return returns
 }
 
-func (g *jsiiProxy_GoogleVertexAiEndpointWithModelGardenDeployment) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (g *jsiiProxy_GoogleVertexAiEndpointWithModelGardenDeployment) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := g.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -979,11 +979,11 @@ func (g *jsiiProxy_GoogleVertexAiEndpointWithModelGardenDeployment) ImportFrom(i
 	)
 }
 
-func (g *jsiiProxy_GoogleVertexAiEndpointWithModelGardenDeployment) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleVertexAiEndpointWithModelGardenDeployment) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,

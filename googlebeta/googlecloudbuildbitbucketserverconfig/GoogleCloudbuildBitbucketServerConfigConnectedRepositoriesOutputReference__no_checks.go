@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleCloudbuildBitbucketServerConfigConnectedRepositoriesOut
 	return nil
 }
 
-func (g *jsiiProxy_GoogleCloudbuildBitbucketServerConfigConnectedRepositoriesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleCloudbuildBitbucketServerConfigConnectedRepositoriesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_GoogleCloudbuildBitbucketServerConfigConnectedRepositoriesOut
 	return nil
 }
 
-func (j *jsiiProxy_GoogleCloudbuildBitbucketServerConfigConnectedRepositoriesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleCloudbuildBitbucketServerConfigConnectedRepositoriesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleCloudbuildBitbucketServerConfigConnectedRepositoriesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewGoogleCloudbuildBitbucketServerConfigConnectedRepositoriesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

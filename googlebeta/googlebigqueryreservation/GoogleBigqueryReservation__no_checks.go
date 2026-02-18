@@ -123,7 +123,7 @@ func (j *jsiiProxy_GoogleBigqueryReservation) validateSetIgnoreIdleSlotsParamete
 	return nil
 }
 
-func (j *jsiiProxy_GoogleBigqueryReservation) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleBigqueryReservation) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

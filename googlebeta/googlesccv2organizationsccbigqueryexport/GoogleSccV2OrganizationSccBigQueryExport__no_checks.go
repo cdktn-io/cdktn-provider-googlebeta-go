@@ -123,7 +123,7 @@ func (j *jsiiProxy_GoogleSccV2OrganizationSccBigQueryExport) validateSetIdParame
 	return nil
 }
 
-func (j *jsiiProxy_GoogleSccV2OrganizationSccBigQueryExport) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleSccV2OrganizationSccBigQueryExport) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

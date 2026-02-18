@@ -55,7 +55,7 @@ func (g *jsiiProxy_GoogleCloudbuildTriggerRepositoryEventConfigOutputReference) 
 	return nil
 }
 
-func (g *jsiiProxy_GoogleCloudbuildTriggerRepositoryEventConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleCloudbuildTriggerRepositoryEventConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_GoogleCloudbuildTriggerRepositoryEventConfigOutputReference) 
 	return nil
 }
 
-func (j *jsiiProxy_GoogleCloudbuildTriggerRepositoryEventConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleCloudbuildTriggerRepositoryEventConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleCloudbuildTriggerRepositoryEventConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleCloudbuildTriggerRepositoryEventConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

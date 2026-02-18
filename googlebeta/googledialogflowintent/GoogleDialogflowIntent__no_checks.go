@@ -131,7 +131,7 @@ func (j *jsiiProxy_GoogleDialogflowIntent) validateSetIsFallbackParameters(val i
 	return nil
 }
 
-func (j *jsiiProxy_GoogleDialogflowIntent) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleDialogflowIntent) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

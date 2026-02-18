@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleActiveDirectoryPeeringTimeoutsOutputReference) validate
 	return nil
 }
 
-func (g *jsiiProxy_GoogleActiveDirectoryPeeringTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleActiveDirectoryPeeringTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_GoogleActiveDirectoryPeeringTimeoutsOutputReference) validate
 	return nil
 }
 
-func (j *jsiiProxy_GoogleActiveDirectoryPeeringTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleActiveDirectoryPeeringTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_GoogleActiveDirectoryPeeringTimeoutsOutputReference) validate
 	return nil
 }
 
-func validateNewGoogleActiveDirectoryPeeringTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleActiveDirectoryPeeringTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

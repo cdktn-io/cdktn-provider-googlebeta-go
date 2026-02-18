@@ -127,7 +127,7 @@ func (j *jsiiProxy_GoogleContactCenterInsightsAnalysisRule) validateSetIdParamet
 	return nil
 }
 
-func (j *jsiiProxy_GoogleContactCenterInsightsAnalysisRule) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleContactCenterInsightsAnalysisRule) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

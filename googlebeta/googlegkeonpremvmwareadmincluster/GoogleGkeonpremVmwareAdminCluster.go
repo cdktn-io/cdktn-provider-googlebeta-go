@@ -5,16 +5,16 @@ package googlegkeonpremvmwareadmincluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlegkeonpremvmwareadmincluster/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlegkeonpremvmwareadmincluster/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gkeonprem_vmware_admin_cluster google_gkeonprem_vmware_admin_cluster}.
 type GoogleGkeonpremVmwareAdminCluster interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	AddonNode() GoogleGkeonpremVmwareAdminClusterAddonNodeOutputReference
 	AddonNodeInput() *GoogleGkeonpremVmwareAdminClusterAddonNode
 	Annotations() *map[string]*string
@@ -30,7 +30,7 @@ type GoogleGkeonpremVmwareAdminCluster interface {
 	SetBootstrapClusterMembership(val *string)
 	BootstrapClusterMembershipInput() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -51,7 +51,7 @@ type GoogleGkeonpremVmwareAdminCluster interface {
 	Description() *string
 	SetDescription(val *string)
 	DescriptionInput() *string
-	EffectiveAnnotations() cdktf.StringMap
+	EffectiveAnnotations() cdktn.StringMap
 	EnableAdvancedCluster() interface{}
 	SetEnableAdvancedCluster(val interface{})
 	EnableAdvancedClusterInput() interface{}
@@ -59,9 +59,9 @@ type GoogleGkeonpremVmwareAdminCluster interface {
 	Etag() *string
 	Fleet() GoogleGkeonpremVmwareAdminClusterFleetList
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -73,9 +73,9 @@ type GoogleGkeonpremVmwareAdminCluster interface {
 	SetImageType(val *string)
 	ImageTypeInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	LoadBalancer() GoogleGkeonpremVmwareAdminClusterLoadBalancerOutputReference
 	LoadBalancerInput() *GoogleGkeonpremVmwareAdminClusterLoadBalancer
 	LocalName() *string
@@ -100,20 +100,20 @@ type GoogleGkeonpremVmwareAdminCluster interface {
 	SetProject(val *string)
 	ProjectInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
 	SetProvisioners(val *[]interface{})
 	// Experimental.
 	RawOverrides() interface{}
-	Reconciling() cdktf.IResolvable
+	Reconciling() cdktn.IResolvable
 	State() *string
 	Status() GoogleGkeonpremVmwareAdminClusterStatusList
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -132,7 +132,7 @@ type GoogleGkeonpremVmwareAdminCluster interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -150,9 +150,9 @@ type GoogleGkeonpremVmwareAdminCluster interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -214,7 +214,7 @@ type GoogleGkeonpremVmwareAdminCluster interface {
 
 // The jsii proxy struct for GoogleGkeonpremVmwareAdminCluster
 type jsiiProxy_GoogleGkeonpremVmwareAdminCluster struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_GoogleGkeonpremVmwareAdminCluster) AddonNode() GoogleGkeonpremVmwareAdminClusterAddonNodeOutputReference {
@@ -337,8 +337,8 @@ func (j *jsiiProxy_GoogleGkeonpremVmwareAdminCluster) BootstrapClusterMembership
 	return returns
 }
 
-func (j *jsiiProxy_GoogleGkeonpremVmwareAdminCluster) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_GoogleGkeonpremVmwareAdminCluster) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -437,8 +437,8 @@ func (j *jsiiProxy_GoogleGkeonpremVmwareAdminCluster) DescriptionInput() *string
 	return returns
 }
 
-func (j *jsiiProxy_GoogleGkeonpremVmwareAdminCluster) EffectiveAnnotations() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_GoogleGkeonpremVmwareAdminCluster) EffectiveAnnotations() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"effectiveAnnotations",
@@ -497,8 +497,8 @@ func (j *jsiiProxy_GoogleGkeonpremVmwareAdminCluster) Fleet() GoogleGkeonpremVmw
 	return returns
 }
 
-func (j *jsiiProxy_GoogleGkeonpremVmwareAdminCluster) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_GoogleGkeonpremVmwareAdminCluster) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -567,8 +567,8 @@ func (j *jsiiProxy_GoogleGkeonpremVmwareAdminCluster) ImageTypeInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleGkeonpremVmwareAdminCluster) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_GoogleGkeonpremVmwareAdminCluster) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -757,8 +757,8 @@ func (j *jsiiProxy_GoogleGkeonpremVmwareAdminCluster) ProjectInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleGkeonpremVmwareAdminCluster) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_GoogleGkeonpremVmwareAdminCluster) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -787,8 +787,8 @@ func (j *jsiiProxy_GoogleGkeonpremVmwareAdminCluster) RawOverrides() interface{}
 	return returns
 }
 
-func (j *jsiiProxy_GoogleGkeonpremVmwareAdminCluster) Reconciling() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_GoogleGkeonpremVmwareAdminCluster) Reconciling() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"reconciling",
@@ -817,8 +817,8 @@ func (j *jsiiProxy_GoogleGkeonpremVmwareAdminCluster) Status() GoogleGkeonpremVm
 	return returns
 }
 
-func (j *jsiiProxy_GoogleGkeonpremVmwareAdminCluster) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_GoogleGkeonpremVmwareAdminCluster) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -1011,7 +1011,7 @@ func (j *jsiiProxy_GoogleGkeonpremVmwareAdminCluster)SetEnableAdvancedCluster(va
 	)
 }
 
-func (j *jsiiProxy_GoogleGkeonpremVmwareAdminCluster)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_GoogleGkeonpremVmwareAdminCluster)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -1041,7 +1041,7 @@ func (j *jsiiProxy_GoogleGkeonpremVmwareAdminCluster)SetImageType(val *string) {
 	)
 }
 
-func (j *jsiiProxy_GoogleGkeonpremVmwareAdminCluster)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_GoogleGkeonpremVmwareAdminCluster)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -1096,7 +1096,7 @@ func (j *jsiiProxy_GoogleGkeonpremVmwareAdminCluster)SetProject(val *string) {
 	)
 }
 
-func (j *jsiiProxy_GoogleGkeonpremVmwareAdminCluster)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_GoogleGkeonpremVmwareAdminCluster)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -1115,14 +1115,14 @@ func (j *jsiiProxy_GoogleGkeonpremVmwareAdminCluster)SetProvisioners(val *[]inte
 	)
 }
 
-// Generates CDKTF code for importing a GoogleGkeonpremVmwareAdminCluster resource upon running "cdktf plan <stack-name>".
-func GoogleGkeonpremVmwareAdminCluster_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a GoogleGkeonpremVmwareAdminCluster resource upon running "cdktn plan <stack-name>".
+func GoogleGkeonpremVmwareAdminCluster_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateGoogleGkeonpremVmwareAdminCluster_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google-beta.googleGkeonpremVmwareAdminCluster.GoogleGkeonpremVmwareAdminCluster",
@@ -1256,11 +1256,11 @@ func (g *jsiiProxy_GoogleGkeonpremVmwareAdminCluster) GetAnyMapAttribute(terrafo
 	return returns
 }
 
-func (g *jsiiProxy_GoogleGkeonpremVmwareAdminCluster) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleGkeonpremVmwareAdminCluster) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -1397,7 +1397,7 @@ func (g *jsiiProxy_GoogleGkeonpremVmwareAdminCluster) HasResourceMove() interfac
 	return returns
 }
 
-func (g *jsiiProxy_GoogleGkeonpremVmwareAdminCluster) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (g *jsiiProxy_GoogleGkeonpremVmwareAdminCluster) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := g.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1408,11 +1408,11 @@ func (g *jsiiProxy_GoogleGkeonpremVmwareAdminCluster) ImportFrom(id *string, pro
 	)
 }
 
-func (g *jsiiProxy_GoogleGkeonpremVmwareAdminCluster) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleGkeonpremVmwareAdminCluster) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,

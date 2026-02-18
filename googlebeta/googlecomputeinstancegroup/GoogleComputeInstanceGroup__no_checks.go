@@ -119,7 +119,7 @@ func (j *jsiiProxy_GoogleComputeInstanceGroup) validateSetInstancesParameters(va
 	return nil
 }
 
-func (j *jsiiProxy_GoogleComputeInstanceGroup) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleComputeInstanceGroup) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -5,21 +5,21 @@ package googleiapwebtypeappengineiambinding
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleiapwebtypeappengineiambinding/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleiapwebtypeappengineiambinding/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iap_web_type_app_engine_iam_binding google_iap_web_type_app_engine_iam_binding}.
 type GoogleIapWebTypeAppEngineIamBinding interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	AppId() *string
 	SetAppId(val *string)
 	AppIdInput() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	Condition() GoogleIapWebTypeAppEngineIamBindingConditionOutputReference
 	ConditionInput() *GoogleIapWebTypeAppEngineIamBindingCondition
 	// Experimental.
@@ -38,9 +38,9 @@ type GoogleIapWebTypeAppEngineIamBinding interface {
 	SetDependsOn(val *[]*string)
 	Etag() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -49,9 +49,9 @@ type GoogleIapWebTypeAppEngineIamBinding interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Members() *[]*string
 	SetMembers(val *[]*string)
 	MembersInput() *[]*string
@@ -61,9 +61,9 @@ type GoogleIapWebTypeAppEngineIamBinding interface {
 	SetProject(val *string)
 	ProjectInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -74,7 +74,7 @@ type GoogleIapWebTypeAppEngineIamBinding interface {
 	SetRole(val *string)
 	RoleInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -87,7 +87,7 @@ type GoogleIapWebTypeAppEngineIamBinding interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -105,9 +105,9 @@ type GoogleIapWebTypeAppEngineIamBinding interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -144,7 +144,7 @@ type GoogleIapWebTypeAppEngineIamBinding interface {
 
 // The jsii proxy struct for GoogleIapWebTypeAppEngineIamBinding
 type jsiiProxy_GoogleIapWebTypeAppEngineIamBinding struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_GoogleIapWebTypeAppEngineIamBinding) AppId() *string {
@@ -167,8 +167,8 @@ func (j *jsiiProxy_GoogleIapWebTypeAppEngineIamBinding) AppIdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleIapWebTypeAppEngineIamBinding) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_GoogleIapWebTypeAppEngineIamBinding) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -247,8 +247,8 @@ func (j *jsiiProxy_GoogleIapWebTypeAppEngineIamBinding) Etag() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleIapWebTypeAppEngineIamBinding) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_GoogleIapWebTypeAppEngineIamBinding) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -297,8 +297,8 @@ func (j *jsiiProxy_GoogleIapWebTypeAppEngineIamBinding) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleIapWebTypeAppEngineIamBinding) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_GoogleIapWebTypeAppEngineIamBinding) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -357,8 +357,8 @@ func (j *jsiiProxy_GoogleIapWebTypeAppEngineIamBinding) ProjectInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleIapWebTypeAppEngineIamBinding) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_GoogleIapWebTypeAppEngineIamBinding) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -407,8 +407,8 @@ func (j *jsiiProxy_GoogleIapWebTypeAppEngineIamBinding) RoleInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleIapWebTypeAppEngineIamBinding) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_GoogleIapWebTypeAppEngineIamBinding) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -508,7 +508,7 @@ func (j *jsiiProxy_GoogleIapWebTypeAppEngineIamBinding)SetDependsOn(val *[]*stri
 	)
 }
 
-func (j *jsiiProxy_GoogleIapWebTypeAppEngineIamBinding)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_GoogleIapWebTypeAppEngineIamBinding)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -527,7 +527,7 @@ func (j *jsiiProxy_GoogleIapWebTypeAppEngineIamBinding)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_GoogleIapWebTypeAppEngineIamBinding)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_GoogleIapWebTypeAppEngineIamBinding)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -560,7 +560,7 @@ func (j *jsiiProxy_GoogleIapWebTypeAppEngineIamBinding)SetProject(val *string) {
 	)
 }
 
-func (j *jsiiProxy_GoogleIapWebTypeAppEngineIamBinding)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_GoogleIapWebTypeAppEngineIamBinding)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -590,14 +590,14 @@ func (j *jsiiProxy_GoogleIapWebTypeAppEngineIamBinding)SetRole(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a GoogleIapWebTypeAppEngineIamBinding resource upon running "cdktf plan <stack-name>".
-func GoogleIapWebTypeAppEngineIamBinding_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a GoogleIapWebTypeAppEngineIamBinding resource upon running "cdktn plan <stack-name>".
+func GoogleIapWebTypeAppEngineIamBinding_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateGoogleIapWebTypeAppEngineIamBinding_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google-beta.googleIapWebTypeAppEngineIamBinding.GoogleIapWebTypeAppEngineIamBinding",
@@ -731,11 +731,11 @@ func (g *jsiiProxy_GoogleIapWebTypeAppEngineIamBinding) GetAnyMapAttribute(terra
 	return returns
 }
 
-func (g *jsiiProxy_GoogleIapWebTypeAppEngineIamBinding) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleIapWebTypeAppEngineIamBinding) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -872,7 +872,7 @@ func (g *jsiiProxy_GoogleIapWebTypeAppEngineIamBinding) HasResourceMove() interf
 	return returns
 }
 
-func (g *jsiiProxy_GoogleIapWebTypeAppEngineIamBinding) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (g *jsiiProxy_GoogleIapWebTypeAppEngineIamBinding) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := g.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -883,11 +883,11 @@ func (g *jsiiProxy_GoogleIapWebTypeAppEngineIamBinding) ImportFrom(id *string, p
 	)
 }
 
-func (g *jsiiProxy_GoogleIapWebTypeAppEngineIamBinding) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleIapWebTypeAppEngineIamBinding) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,

@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleContainerAwsClusterNetworkingOutputReference) validateI
 	return nil
 }
 
-func (g *jsiiProxy_GoogleContainerAwsClusterNetworkingOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleContainerAwsClusterNetworkingOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_GoogleContainerAwsClusterNetworkingOutputReference) validateS
 	return nil
 }
 
-func (j *jsiiProxy_GoogleContainerAwsClusterNetworkingOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleContainerAwsClusterNetworkingOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_GoogleContainerAwsClusterNetworkingOutputReference) validateS
 	return nil
 }
 
-func validateNewGoogleContainerAwsClusterNetworkingOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleContainerAwsClusterNetworkingOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

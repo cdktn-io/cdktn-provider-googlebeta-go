@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataGoogleBackupDrBackupPlanAssociationRulesConfigInfoLastBac
 	return nil
 }
 
-func (d *jsiiProxy_DataGoogleBackupDrBackupPlanAssociationRulesConfigInfoLastBackupErrorOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataGoogleBackupDrBackupPlanAssociationRulesConfigInfoLastBackupErrorOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataGoogleBackupDrBackupPlanAssociationRulesConfigInfoLastBac
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleBackupDrBackupPlanAssociationRulesConfigInfoLastBackupErrorOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataGoogleBackupDrBackupPlanAssociationRulesConfigInfoLastBackupErrorOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataGoogleBackupDrBackupPlanAssociationRulesConfigInfoLastBackupErrorOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataGoogleBackupDrBackupPlanAssociationRulesConfigInfoLastBackupErrorOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

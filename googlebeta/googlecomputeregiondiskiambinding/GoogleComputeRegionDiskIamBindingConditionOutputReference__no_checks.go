@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleComputeRegionDiskIamBindingConditionOutputReference) va
 	return nil
 }
 
-func (g *jsiiProxy_GoogleComputeRegionDiskIamBindingConditionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleComputeRegionDiskIamBindingConditionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_GoogleComputeRegionDiskIamBindingConditionOutputReference) va
 	return nil
 }
 
-func (j *jsiiProxy_GoogleComputeRegionDiskIamBindingConditionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleComputeRegionDiskIamBindingConditionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_GoogleComputeRegionDiskIamBindingConditionOutputReference) va
 	return nil
 }
 
-func validateNewGoogleComputeRegionDiskIamBindingConditionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleComputeRegionDiskIamBindingConditionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

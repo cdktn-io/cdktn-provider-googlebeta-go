@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataGoogleComputeRegionInstanceTemplate) validateSetIdParamet
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleComputeRegionInstanceTemplate) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataGoogleComputeRegionInstanceTemplate) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

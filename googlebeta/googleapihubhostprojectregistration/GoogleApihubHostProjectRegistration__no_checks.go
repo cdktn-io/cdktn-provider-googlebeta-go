@@ -115,7 +115,7 @@ func (j *jsiiProxy_GoogleApihubHostProjectRegistration) validateSetIdParameters(
 	return nil
 }
 
-func (j *jsiiProxy_GoogleApihubHostProjectRegistration) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleApihubHostProjectRegistration) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

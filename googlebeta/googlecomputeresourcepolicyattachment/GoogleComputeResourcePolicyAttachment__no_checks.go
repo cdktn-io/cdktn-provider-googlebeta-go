@@ -111,7 +111,7 @@ func (j *jsiiProxy_GoogleComputeResourcePolicyAttachment) validateSetInstancePar
 	return nil
 }
 
-func (j *jsiiProxy_GoogleComputeResourcePolicyAttachment) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleComputeResourcePolicyAttachment) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

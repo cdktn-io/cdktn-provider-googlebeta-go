@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleBigtableAppProfileStandardIsolationOutputReference) val
 	return nil
 }
 
-func (g *jsiiProxy_GoogleBigtableAppProfileStandardIsolationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleBigtableAppProfileStandardIsolationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_GoogleBigtableAppProfileStandardIsolationOutputReference) val
 	return nil
 }
 
-func (j *jsiiProxy_GoogleBigtableAppProfileStandardIsolationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleBigtableAppProfileStandardIsolationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleBigtableAppProfileStandardIsolationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleBigtableAppProfileStandardIsolationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

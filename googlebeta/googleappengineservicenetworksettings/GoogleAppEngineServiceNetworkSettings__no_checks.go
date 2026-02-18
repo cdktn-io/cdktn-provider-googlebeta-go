@@ -111,7 +111,7 @@ func (j *jsiiProxy_GoogleAppEngineServiceNetworkSettings) validateSetIdParameter
 	return nil
 }
 
-func (j *jsiiProxy_GoogleAppEngineServiceNetworkSettings) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleAppEngineServiceNetworkSettings) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

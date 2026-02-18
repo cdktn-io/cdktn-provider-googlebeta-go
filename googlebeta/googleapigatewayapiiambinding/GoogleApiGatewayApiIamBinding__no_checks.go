@@ -111,7 +111,7 @@ func (j *jsiiProxy_GoogleApiGatewayApiIamBinding) validateSetIdParameters(val *s
 	return nil
 }
 
-func (j *jsiiProxy_GoogleApiGatewayApiIamBinding) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleApiGatewayApiIamBinding) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

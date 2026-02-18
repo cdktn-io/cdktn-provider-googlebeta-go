@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleContainerClusterGkeAutoUpgradeConfigOutputReference) va
 	return nil
 }
 
-func (g *jsiiProxy_GoogleContainerClusterGkeAutoUpgradeConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleContainerClusterGkeAutoUpgradeConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_GoogleContainerClusterGkeAutoUpgradeConfigOutputReference) va
 	return nil
 }
 
-func (j *jsiiProxy_GoogleContainerClusterGkeAutoUpgradeConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleContainerClusterGkeAutoUpgradeConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleContainerClusterGkeAutoUpgradeConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleContainerClusterGkeAutoUpgradeConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

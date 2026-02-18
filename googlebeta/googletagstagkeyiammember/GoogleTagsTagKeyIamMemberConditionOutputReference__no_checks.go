@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleTagsTagKeyIamMemberConditionOutputReference) validateIn
 	return nil
 }
 
-func (g *jsiiProxy_GoogleTagsTagKeyIamMemberConditionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleTagsTagKeyIamMemberConditionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_GoogleTagsTagKeyIamMemberConditionOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_GoogleTagsTagKeyIamMemberConditionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleTagsTagKeyIamMemberConditionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_GoogleTagsTagKeyIamMemberConditionOutputReference) validateSe
 	return nil
 }
 
-func validateNewGoogleTagsTagKeyIamMemberConditionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleTagsTagKeyIamMemberConditionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

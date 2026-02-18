@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleIdentityPlatformConfigSignInPhoneNumberOutputReference)
 	return nil
 }
 
-func (g *jsiiProxy_GoogleIdentityPlatformConfigSignInPhoneNumberOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleIdentityPlatformConfigSignInPhoneNumberOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_GoogleIdentityPlatformConfigSignInPhoneNumberOutputReference)
 	return nil
 }
 
-func (j *jsiiProxy_GoogleIdentityPlatformConfigSignInPhoneNumberOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleIdentityPlatformConfigSignInPhoneNumberOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_GoogleIdentityPlatformConfigSignInPhoneNumberOutputReference)
 	return nil
 }
 
-func validateNewGoogleIdentityPlatformConfigSignInPhoneNumberOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleIdentityPlatformConfigSignInPhoneNumberOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

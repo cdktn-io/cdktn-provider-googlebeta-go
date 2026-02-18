@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleGkeonpremVmwareClusterVcenterOutputReference) validateI
 	return nil
 }
 
-func (g *jsiiProxy_GoogleGkeonpremVmwareClusterVcenterOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleGkeonpremVmwareClusterVcenterOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -95,11 +95,11 @@ func (j *jsiiProxy_GoogleGkeonpremVmwareClusterVcenterOutputReference) validateS
 	return nil
 }
 
-func (j *jsiiProxy_GoogleGkeonpremVmwareClusterVcenterOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleGkeonpremVmwareClusterVcenterOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleGkeonpremVmwareClusterVcenterOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleGkeonpremVmwareClusterVcenterOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

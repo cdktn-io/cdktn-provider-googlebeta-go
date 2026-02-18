@@ -111,7 +111,7 @@ func (j *jsiiProxy_GoogleComputeProjectCloudArmorTier) validateSetIdParameters(v
 	return nil
 }
 
-func (j *jsiiProxy_GoogleComputeProjectCloudArmorTier) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleComputeProjectCloudArmorTier) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -5,16 +5,16 @@ package googledataflowflextemplatejob
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googledataflowflextemplatejob/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataflowflextemplatejob/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataflow_flex_template_job google_dataflow_flex_template_job}.
 type GoogleDataflowFlexTemplateJob interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	AdditionalExperiments() *[]*string
 	SetAdditionalExperiments(val *[]*string)
 	AdditionalExperimentsInput() *[]*string
@@ -25,7 +25,7 @@ type GoogleDataflowFlexTemplateJob interface {
 	SetAutoscalingAlgorithm(val *string)
 	AutoscalingAlgorithmInput() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -43,14 +43,14 @@ type GoogleDataflowFlexTemplateJob interface {
 	DependsOn() *[]*string
 	// Experimental.
 	SetDependsOn(val *[]*string)
-	EffectiveLabels() cdktf.StringMap
+	EffectiveLabels() cdktn.StringMap
 	EnableStreamingEngine() interface{}
 	SetEnableStreamingEngine(val interface{})
 	EnableStreamingEngineInput() interface{}
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -72,9 +72,9 @@ type GoogleDataflowFlexTemplateJob interface {
 	SetLauncherMachineType(val *string)
 	LauncherMachineTypeInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	MachineType() *string
 	SetMachineType(val *string)
 	MachineTypeInput() *string
@@ -102,9 +102,9 @@ type GoogleDataflowFlexTemplateJob interface {
 	SetProject(val *string)
 	ProjectInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -134,8 +134,8 @@ type GoogleDataflowFlexTemplateJob interface {
 	SetTempLocation(val *string)
 	TempLocationInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
-	TerraformLabels() cdktf.StringMap
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
+	TerraformLabels() cdktn.StringMap
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -152,7 +152,7 @@ type GoogleDataflowFlexTemplateJob interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -170,9 +170,9 @@ type GoogleDataflowFlexTemplateJob interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -229,7 +229,7 @@ type GoogleDataflowFlexTemplateJob interface {
 
 // The jsii proxy struct for GoogleDataflowFlexTemplateJob
 type jsiiProxy_GoogleDataflowFlexTemplateJob struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_GoogleDataflowFlexTemplateJob) AdditionalExperiments() *[]*string {
@@ -292,8 +292,8 @@ func (j *jsiiProxy_GoogleDataflowFlexTemplateJob) AutoscalingAlgorithmInput() *s
 	return returns
 }
 
-func (j *jsiiProxy_GoogleDataflowFlexTemplateJob) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_GoogleDataflowFlexTemplateJob) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -362,8 +362,8 @@ func (j *jsiiProxy_GoogleDataflowFlexTemplateJob) DependsOn() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleDataflowFlexTemplateJob) EffectiveLabels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_GoogleDataflowFlexTemplateJob) EffectiveLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"effectiveLabels",
@@ -392,8 +392,8 @@ func (j *jsiiProxy_GoogleDataflowFlexTemplateJob) EnableStreamingEngineInput() i
 	return returns
 }
 
-func (j *jsiiProxy_GoogleDataflowFlexTemplateJob) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_GoogleDataflowFlexTemplateJob) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -532,8 +532,8 @@ func (j *jsiiProxy_GoogleDataflowFlexTemplateJob) LauncherMachineTypeInput() *st
 	return returns
 }
 
-func (j *jsiiProxy_GoogleDataflowFlexTemplateJob) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_GoogleDataflowFlexTemplateJob) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -712,8 +712,8 @@ func (j *jsiiProxy_GoogleDataflowFlexTemplateJob) ProjectInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleDataflowFlexTemplateJob) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_GoogleDataflowFlexTemplateJob) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -892,8 +892,8 @@ func (j *jsiiProxy_GoogleDataflowFlexTemplateJob) TempLocationInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleDataflowFlexTemplateJob) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_GoogleDataflowFlexTemplateJob) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -902,8 +902,8 @@ func (j *jsiiProxy_GoogleDataflowFlexTemplateJob) TerraformGeneratorMetadata() *
 	return returns
 }
 
-func (j *jsiiProxy_GoogleDataflowFlexTemplateJob) TerraformLabels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_GoogleDataflowFlexTemplateJob) TerraformLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"terraformLabels",
@@ -1077,7 +1077,7 @@ func (j *jsiiProxy_GoogleDataflowFlexTemplateJob)SetEnableStreamingEngine(val in
 	)
 }
 
-func (j *jsiiProxy_GoogleDataflowFlexTemplateJob)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_GoogleDataflowFlexTemplateJob)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -1140,7 +1140,7 @@ func (j *jsiiProxy_GoogleDataflowFlexTemplateJob)SetLauncherMachineType(val *str
 	)
 }
 
-func (j *jsiiProxy_GoogleDataflowFlexTemplateJob)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_GoogleDataflowFlexTemplateJob)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -1239,7 +1239,7 @@ func (j *jsiiProxy_GoogleDataflowFlexTemplateJob)SetProject(val *string) {
 	)
 }
 
-func (j *jsiiProxy_GoogleDataflowFlexTemplateJob)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_GoogleDataflowFlexTemplateJob)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -1346,14 +1346,14 @@ func (j *jsiiProxy_GoogleDataflowFlexTemplateJob)SetTransformNameMapping(val *ma
 	)
 }
 
-// Generates CDKTF code for importing a GoogleDataflowFlexTemplateJob resource upon running "cdktf plan <stack-name>".
-func GoogleDataflowFlexTemplateJob_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a GoogleDataflowFlexTemplateJob resource upon running "cdktn plan <stack-name>".
+func GoogleDataflowFlexTemplateJob_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateGoogleDataflowFlexTemplateJob_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google-beta.googleDataflowFlexTemplateJob.GoogleDataflowFlexTemplateJob",
@@ -1487,11 +1487,11 @@ func (g *jsiiProxy_GoogleDataflowFlexTemplateJob) GetAnyMapAttribute(terraformAt
 	return returns
 }
 
-func (g *jsiiProxy_GoogleDataflowFlexTemplateJob) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleDataflowFlexTemplateJob) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -1628,7 +1628,7 @@ func (g *jsiiProxy_GoogleDataflowFlexTemplateJob) HasResourceMove() interface{} 
 	return returns
 }
 
-func (g *jsiiProxy_GoogleDataflowFlexTemplateJob) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (g *jsiiProxy_GoogleDataflowFlexTemplateJob) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := g.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1639,11 +1639,11 @@ func (g *jsiiProxy_GoogleDataflowFlexTemplateJob) ImportFrom(id *string, provide
 	)
 }
 
-func (g *jsiiProxy_GoogleDataflowFlexTemplateJob) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleDataflowFlexTemplateJob) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,

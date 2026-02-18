@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleEdgecontainerClusterAuthorizationAdminUsersOutputRefere
 	return nil
 }
 
-func (g *jsiiProxy_GoogleEdgecontainerClusterAuthorizationAdminUsersOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleEdgecontainerClusterAuthorizationAdminUsersOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,7 +67,7 @@ func (j *jsiiProxy_GoogleEdgecontainerClusterAuthorizationAdminUsersOutputRefere
 	return nil
 }
 
-func (j *jsiiProxy_GoogleEdgecontainerClusterAuthorizationAdminUsersOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleEdgecontainerClusterAuthorizationAdminUsersOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_GoogleEdgecontainerClusterAuthorizationAdminUsersOutputRefere
 	return nil
 }
 
-func validateNewGoogleEdgecontainerClusterAuthorizationAdminUsersOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleEdgecontainerClusterAuthorizationAdminUsersOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleLoggingBillingAccountSinkBigqueryOptionsOutputReference
 	return nil
 }
 
-func (g *jsiiProxy_GoogleLoggingBillingAccountSinkBigqueryOptionsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleLoggingBillingAccountSinkBigqueryOptionsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,7 +67,7 @@ func (j *jsiiProxy_GoogleLoggingBillingAccountSinkBigqueryOptionsOutputReference
 	return nil
 }
 
-func (j *jsiiProxy_GoogleLoggingBillingAccountSinkBigqueryOptionsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleLoggingBillingAccountSinkBigqueryOptionsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_GoogleLoggingBillingAccountSinkBigqueryOptionsOutputReference
 	return nil
 }
 
-func validateNewGoogleLoggingBillingAccountSinkBigqueryOptionsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleLoggingBillingAccountSinkBigqueryOptionsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

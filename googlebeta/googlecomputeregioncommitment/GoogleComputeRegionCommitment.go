@@ -5,16 +5,16 @@ package googlecomputeregioncommitment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecomputeregioncommitment/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeregioncommitment/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_commitment google_compute_region_commitment}.
 type GoogleComputeRegionCommitment interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	AutoRenew() interface{}
 	SetAutoRenew(val interface{})
 	AutoRenewInput() interface{}
@@ -22,7 +22,7 @@ type GoogleComputeRegionCommitment interface {
 	SetCategory(val *string)
 	CategoryInput() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	CommitmentId() *float64
 	// Experimental.
 	Connection() interface{}
@@ -47,9 +47,9 @@ type GoogleComputeRegionCommitment interface {
 	SetExistingReservations(val *string)
 	ExistingReservationsInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -60,9 +60,9 @@ type GoogleComputeRegionCommitment interface {
 	LicenseResource() GoogleComputeRegionCommitmentLicenseResourceOutputReference
 	LicenseResourceInput() *GoogleComputeRegionCommitmentLicenseResource
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
@@ -75,9 +75,9 @@ type GoogleComputeRegionCommitment interface {
 	SetProject(val *string)
 	ProjectInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -94,7 +94,7 @@ type GoogleComputeRegionCommitment interface {
 	Status() *string
 	StatusMessage() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -112,7 +112,7 @@ type GoogleComputeRegionCommitment interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -130,9 +130,9 @@ type GoogleComputeRegionCommitment interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -179,7 +179,7 @@ type GoogleComputeRegionCommitment interface {
 
 // The jsii proxy struct for GoogleComputeRegionCommitment
 type jsiiProxy_GoogleComputeRegionCommitment struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_GoogleComputeRegionCommitment) AutoRenew() interface{} {
@@ -222,8 +222,8 @@ func (j *jsiiProxy_GoogleComputeRegionCommitment) CategoryInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleComputeRegionCommitment) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_GoogleComputeRegionCommitment) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -342,8 +342,8 @@ func (j *jsiiProxy_GoogleComputeRegionCommitment) ExistingReservationsInput() *s
 	return returns
 }
 
-func (j *jsiiProxy_GoogleComputeRegionCommitment) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_GoogleComputeRegionCommitment) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -412,8 +412,8 @@ func (j *jsiiProxy_GoogleComputeRegionCommitment) LicenseResourceInput() *Google
 	return returns
 }
 
-func (j *jsiiProxy_GoogleComputeRegionCommitment) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_GoogleComputeRegionCommitment) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -492,8 +492,8 @@ func (j *jsiiProxy_GoogleComputeRegionCommitment) ProjectInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleComputeRegionCommitment) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_GoogleComputeRegionCommitment) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -602,8 +602,8 @@ func (j *jsiiProxy_GoogleComputeRegionCommitment) StatusMessage() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleComputeRegionCommitment) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_GoogleComputeRegionCommitment) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -776,7 +776,7 @@ func (j *jsiiProxy_GoogleComputeRegionCommitment)SetExistingReservations(val *st
 	)
 }
 
-func (j *jsiiProxy_GoogleComputeRegionCommitment)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_GoogleComputeRegionCommitment)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -795,7 +795,7 @@ func (j *jsiiProxy_GoogleComputeRegionCommitment)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_GoogleComputeRegionCommitment)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_GoogleComputeRegionCommitment)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -839,7 +839,7 @@ func (j *jsiiProxy_GoogleComputeRegionCommitment)SetProject(val *string) {
 	)
 }
 
-func (j *jsiiProxy_GoogleComputeRegionCommitment)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_GoogleComputeRegionCommitment)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -880,14 +880,14 @@ func (j *jsiiProxy_GoogleComputeRegionCommitment)SetType(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a GoogleComputeRegionCommitment resource upon running "cdktf plan <stack-name>".
-func GoogleComputeRegionCommitment_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a GoogleComputeRegionCommitment resource upon running "cdktn plan <stack-name>".
+func GoogleComputeRegionCommitment_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateGoogleComputeRegionCommitment_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google-beta.googleComputeRegionCommitment.GoogleComputeRegionCommitment",
@@ -1021,11 +1021,11 @@ func (g *jsiiProxy_GoogleComputeRegionCommitment) GetAnyMapAttribute(terraformAt
 	return returns
 }
 
-func (g *jsiiProxy_GoogleComputeRegionCommitment) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleComputeRegionCommitment) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -1162,7 +1162,7 @@ func (g *jsiiProxy_GoogleComputeRegionCommitment) HasResourceMove() interface{} 
 	return returns
 }
 
-func (g *jsiiProxy_GoogleComputeRegionCommitment) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (g *jsiiProxy_GoogleComputeRegionCommitment) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := g.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1173,11 +1173,11 @@ func (g *jsiiProxy_GoogleComputeRegionCommitment) ImportFrom(id *string, provide
 	)
 }
 
-func (g *jsiiProxy_GoogleComputeRegionCommitment) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleComputeRegionCommitment) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,

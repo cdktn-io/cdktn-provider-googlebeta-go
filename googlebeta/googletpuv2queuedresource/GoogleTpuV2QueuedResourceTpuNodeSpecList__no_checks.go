@@ -15,7 +15,7 @@ func (g *jsiiProxy_GoogleTpuV2QueuedResourceTpuNodeSpecList) validateGetParamete
 	return nil
 }
 
-func (g *jsiiProxy_GoogleTpuV2QueuedResourceTpuNodeSpecList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleTpuV2QueuedResourceTpuNodeSpecList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_GoogleTpuV2QueuedResourceTpuNodeSpecList) validateSetTerrafor
 	return nil
 }
 
-func (j *jsiiProxy_GoogleTpuV2QueuedResourceTpuNodeSpecList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleTpuV2QueuedResourceTpuNodeSpecList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_GoogleTpuV2QueuedResourceTpuNodeSpecList) validateSetWrapsSet
 	return nil
 }
 
-func validateNewGoogleTpuV2QueuedResourceTpuNodeSpecListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGoogleTpuV2QueuedResourceTpuNodeSpecListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

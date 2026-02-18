@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleMlEngineModelDefaultVersionOutputReference) validateInt
 	return nil
 }
 
-func (g *jsiiProxy_GoogleMlEngineModelDefaultVersionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleMlEngineModelDefaultVersionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_GoogleMlEngineModelDefaultVersionOutputReference) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_GoogleMlEngineModelDefaultVersionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleMlEngineModelDefaultVersionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleMlEngineModelDefaultVersionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleMlEngineModelDefaultVersionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -5,14 +5,14 @@ package googlecontainerawscluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecontainerawscluster/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecontainerawscluster/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type GoogleContainerAwsClusterControlPlaneMainVolumeOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -46,9 +46,9 @@ type GoogleContainerAwsClusterControlPlaneMainVolumeOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Throughput() *float64
 	SetThroughput(val *float64)
 	ThroughputInput() *float64
@@ -60,7 +60,7 @@ type GoogleContainerAwsClusterControlPlaneMainVolumeOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -76,9 +76,9 @@ type GoogleContainerAwsClusterControlPlaneMainVolumeOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetIops()
 	ResetKmsKeyArn()
 	ResetSizeGib()
@@ -86,7 +86,7 @@ type GoogleContainerAwsClusterControlPlaneMainVolumeOutputReference interface {
 	ResetVolumeType()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -96,7 +96,7 @@ type GoogleContainerAwsClusterControlPlaneMainVolumeOutputReference interface {
 
 // The jsii proxy struct for GoogleContainerAwsClusterControlPlaneMainVolumeOutputReference
 type jsiiProxy_GoogleContainerAwsClusterControlPlaneMainVolumeOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_GoogleContainerAwsClusterControlPlaneMainVolumeOutputReference) ComplexObjectIndex() interface{} {
@@ -219,8 +219,8 @@ func (j *jsiiProxy_GoogleContainerAwsClusterControlPlaneMainVolumeOutputReferenc
 	return returns
 }
 
-func (j *jsiiProxy_GoogleContainerAwsClusterControlPlaneMainVolumeOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_GoogleContainerAwsClusterControlPlaneMainVolumeOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -270,7 +270,7 @@ func (j *jsiiProxy_GoogleContainerAwsClusterControlPlaneMainVolumeOutputReferenc
 }
 
 
-func NewGoogleContainerAwsClusterControlPlaneMainVolumeOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) GoogleContainerAwsClusterControlPlaneMainVolumeOutputReference {
+func NewGoogleContainerAwsClusterControlPlaneMainVolumeOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) GoogleContainerAwsClusterControlPlaneMainVolumeOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewGoogleContainerAwsClusterControlPlaneMainVolumeOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -287,7 +287,7 @@ func NewGoogleContainerAwsClusterControlPlaneMainVolumeOutputReference(terraform
 	return &j
 }
 
-func NewGoogleContainerAwsClusterControlPlaneMainVolumeOutputReference_Override(g GoogleContainerAwsClusterControlPlaneMainVolumeOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewGoogleContainerAwsClusterControlPlaneMainVolumeOutputReference_Override(g GoogleContainerAwsClusterControlPlaneMainVolumeOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -374,7 +374,7 @@ func (j *jsiiProxy_GoogleContainerAwsClusterControlPlaneMainVolumeOutputReferenc
 	)
 }
 
-func (j *jsiiProxy_GoogleContainerAwsClusterControlPlaneMainVolumeOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_GoogleContainerAwsClusterControlPlaneMainVolumeOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -436,11 +436,11 @@ func (g *jsiiProxy_GoogleContainerAwsClusterControlPlaneMainVolumeOutputReferenc
 	return returns
 }
 
-func (g *jsiiProxy_GoogleContainerAwsClusterControlPlaneMainVolumeOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleContainerAwsClusterControlPlaneMainVolumeOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -564,8 +564,8 @@ func (g *jsiiProxy_GoogleContainerAwsClusterControlPlaneMainVolumeOutputReferenc
 	return returns
 }
 
-func (g *jsiiProxy_GoogleContainerAwsClusterControlPlaneMainVolumeOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (g *jsiiProxy_GoogleContainerAwsClusterControlPlaneMainVolumeOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -577,11 +577,11 @@ func (g *jsiiProxy_GoogleContainerAwsClusterControlPlaneMainVolumeOutputReferenc
 	return returns
 }
 
-func (g *jsiiProxy_GoogleContainerAwsClusterControlPlaneMainVolumeOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleContainerAwsClusterControlPlaneMainVolumeOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -633,7 +633,7 @@ func (g *jsiiProxy_GoogleContainerAwsClusterControlPlaneMainVolumeOutputReferenc
 	)
 }
 
-func (g *jsiiProxy_GoogleContainerAwsClusterControlPlaneMainVolumeOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (g *jsiiProxy_GoogleContainerAwsClusterControlPlaneMainVolumeOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

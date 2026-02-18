@@ -111,7 +111,7 @@ func (j *jsiiProxy_GoogleCloudfunctionsFunctionIamBinding) validateSetIdParamete
 	return nil
 }
 
-func (j *jsiiProxy_GoogleCloudfunctionsFunctionIamBinding) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleCloudfunctionsFunctionIamBinding) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

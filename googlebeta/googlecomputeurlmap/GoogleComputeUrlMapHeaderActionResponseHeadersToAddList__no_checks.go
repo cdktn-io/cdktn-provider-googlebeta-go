@@ -15,7 +15,7 @@ func (g *jsiiProxy_GoogleComputeUrlMapHeaderActionResponseHeadersToAddList) vali
 	return nil
 }
 
-func (g *jsiiProxy_GoogleComputeUrlMapHeaderActionResponseHeadersToAddList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleComputeUrlMapHeaderActionResponseHeadersToAddList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_GoogleComputeUrlMapHeaderActionResponseHeadersToAddList) vali
 	return nil
 }
 
-func (j *jsiiProxy_GoogleComputeUrlMapHeaderActionResponseHeadersToAddList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleComputeUrlMapHeaderActionResponseHeadersToAddList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_GoogleComputeUrlMapHeaderActionResponseHeadersToAddList) vali
 	return nil
 }
 
-func validateNewGoogleComputeUrlMapHeaderActionResponseHeadersToAddListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGoogleComputeUrlMapHeaderActionResponseHeadersToAddListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

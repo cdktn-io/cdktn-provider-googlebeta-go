@@ -55,7 +55,7 @@ func (g *jsiiProxy_GoogleClouddeployTargetAssociatedEntitiesOutputReference) val
 	return nil
 }
 
-func (g *jsiiProxy_GoogleClouddeployTargetAssociatedEntitiesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleClouddeployTargetAssociatedEntitiesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_GoogleClouddeployTargetAssociatedEntitiesOutputReference) val
 	return nil
 }
 
-func (j *jsiiProxy_GoogleClouddeployTargetAssociatedEntitiesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleClouddeployTargetAssociatedEntitiesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleClouddeployTargetAssociatedEntitiesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewGoogleClouddeployTargetAssociatedEntitiesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

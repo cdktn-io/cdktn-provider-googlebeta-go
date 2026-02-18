@@ -5,14 +5,14 @@ package googleosconfigguestpolicies
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleosconfigguestpolicies/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleosconfigguestpolicies/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type GoogleOsConfigGuestPoliciesRecipesUpdateStepsFileCopyOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	ArtifactId() *string
 	SetArtifactId(val *string)
 	ArtifactIdInput() *string
@@ -49,15 +49,15 @@ type GoogleOsConfigGuestPoliciesRecipesUpdateStepsFileCopyOutputReference interf
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -73,14 +73,14 @@ type GoogleOsConfigGuestPoliciesRecipesUpdateStepsFileCopyOutputReference interf
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetOverwrite()
 	ResetPermissions()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -90,7 +90,7 @@ type GoogleOsConfigGuestPoliciesRecipesUpdateStepsFileCopyOutputReference interf
 
 // The jsii proxy struct for GoogleOsConfigGuestPoliciesRecipesUpdateStepsFileCopyOutputReference
 type jsiiProxy_GoogleOsConfigGuestPoliciesRecipesUpdateStepsFileCopyOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_GoogleOsConfigGuestPoliciesRecipesUpdateStepsFileCopyOutputReference) ArtifactId() *string {
@@ -233,8 +233,8 @@ func (j *jsiiProxy_GoogleOsConfigGuestPoliciesRecipesUpdateStepsFileCopyOutputRe
 	return returns
 }
 
-func (j *jsiiProxy_GoogleOsConfigGuestPoliciesRecipesUpdateStepsFileCopyOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_GoogleOsConfigGuestPoliciesRecipesUpdateStepsFileCopyOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -244,7 +244,7 @@ func (j *jsiiProxy_GoogleOsConfigGuestPoliciesRecipesUpdateStepsFileCopyOutputRe
 }
 
 
-func NewGoogleOsConfigGuestPoliciesRecipesUpdateStepsFileCopyOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) GoogleOsConfigGuestPoliciesRecipesUpdateStepsFileCopyOutputReference {
+func NewGoogleOsConfigGuestPoliciesRecipesUpdateStepsFileCopyOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) GoogleOsConfigGuestPoliciesRecipesUpdateStepsFileCopyOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewGoogleOsConfigGuestPoliciesRecipesUpdateStepsFileCopyOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -261,7 +261,7 @@ func NewGoogleOsConfigGuestPoliciesRecipesUpdateStepsFileCopyOutputReference(ter
 	return &j
 }
 
-func NewGoogleOsConfigGuestPoliciesRecipesUpdateStepsFileCopyOutputReference_Override(g GoogleOsConfigGuestPoliciesRecipesUpdateStepsFileCopyOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewGoogleOsConfigGuestPoliciesRecipesUpdateStepsFileCopyOutputReference_Override(g GoogleOsConfigGuestPoliciesRecipesUpdateStepsFileCopyOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -359,7 +359,7 @@ func (j *jsiiProxy_GoogleOsConfigGuestPoliciesRecipesUpdateStepsFileCopyOutputRe
 	)
 }
 
-func (j *jsiiProxy_GoogleOsConfigGuestPoliciesRecipesUpdateStepsFileCopyOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_GoogleOsConfigGuestPoliciesRecipesUpdateStepsFileCopyOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -399,11 +399,11 @@ func (g *jsiiProxy_GoogleOsConfigGuestPoliciesRecipesUpdateStepsFileCopyOutputRe
 	return returns
 }
 
-func (g *jsiiProxy_GoogleOsConfigGuestPoliciesRecipesUpdateStepsFileCopyOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleOsConfigGuestPoliciesRecipesUpdateStepsFileCopyOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -527,8 +527,8 @@ func (g *jsiiProxy_GoogleOsConfigGuestPoliciesRecipesUpdateStepsFileCopyOutputRe
 	return returns
 }
 
-func (g *jsiiProxy_GoogleOsConfigGuestPoliciesRecipesUpdateStepsFileCopyOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (g *jsiiProxy_GoogleOsConfigGuestPoliciesRecipesUpdateStepsFileCopyOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -540,11 +540,11 @@ func (g *jsiiProxy_GoogleOsConfigGuestPoliciesRecipesUpdateStepsFileCopyOutputRe
 	return returns
 }
 
-func (g *jsiiProxy_GoogleOsConfigGuestPoliciesRecipesUpdateStepsFileCopyOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleOsConfigGuestPoliciesRecipesUpdateStepsFileCopyOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -572,7 +572,7 @@ func (g *jsiiProxy_GoogleOsConfigGuestPoliciesRecipesUpdateStepsFileCopyOutputRe
 	)
 }
 
-func (g *jsiiProxy_GoogleOsConfigGuestPoliciesRecipesUpdateStepsFileCopyOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (g *jsiiProxy_GoogleOsConfigGuestPoliciesRecipesUpdateStepsFileCopyOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -5,14 +5,14 @@ package googleredisinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleredisinstance/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleredisinstance/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type GoogleRedisInstanceMaintenancePolicyWeeklyMaintenanceWindowOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,15 +43,15 @@ type GoogleRedisInstanceMaintenancePolicyWeeklyMaintenanceWindowOutputReference 
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,13 +67,13 @@ type GoogleRedisInstanceMaintenancePolicyWeeklyMaintenanceWindowOutputReference 
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutStartTime(value *GoogleRedisInstanceMaintenancePolicyWeeklyMaintenanceWindowStartTime)
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -83,7 +83,7 @@ type GoogleRedisInstanceMaintenancePolicyWeeklyMaintenanceWindowOutputReference 
 
 // The jsii proxy struct for GoogleRedisInstanceMaintenancePolicyWeeklyMaintenanceWindowOutputReference
 type jsiiProxy_GoogleRedisInstanceMaintenancePolicyWeeklyMaintenanceWindowOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_GoogleRedisInstanceMaintenancePolicyWeeklyMaintenanceWindowOutputReference) ComplexObjectIndex() interface{} {
@@ -196,8 +196,8 @@ func (j *jsiiProxy_GoogleRedisInstanceMaintenancePolicyWeeklyMaintenanceWindowOu
 	return returns
 }
 
-func (j *jsiiProxy_GoogleRedisInstanceMaintenancePolicyWeeklyMaintenanceWindowOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_GoogleRedisInstanceMaintenancePolicyWeeklyMaintenanceWindowOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -207,7 +207,7 @@ func (j *jsiiProxy_GoogleRedisInstanceMaintenancePolicyWeeklyMaintenanceWindowOu
 }
 
 
-func NewGoogleRedisInstanceMaintenancePolicyWeeklyMaintenanceWindowOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) GoogleRedisInstanceMaintenancePolicyWeeklyMaintenanceWindowOutputReference {
+func NewGoogleRedisInstanceMaintenancePolicyWeeklyMaintenanceWindowOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) GoogleRedisInstanceMaintenancePolicyWeeklyMaintenanceWindowOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewGoogleRedisInstanceMaintenancePolicyWeeklyMaintenanceWindowOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -224,7 +224,7 @@ func NewGoogleRedisInstanceMaintenancePolicyWeeklyMaintenanceWindowOutputReferen
 	return &j
 }
 
-func NewGoogleRedisInstanceMaintenancePolicyWeeklyMaintenanceWindowOutputReference_Override(g GoogleRedisInstanceMaintenancePolicyWeeklyMaintenanceWindowOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewGoogleRedisInstanceMaintenancePolicyWeeklyMaintenanceWindowOutputReference_Override(g GoogleRedisInstanceMaintenancePolicyWeeklyMaintenanceWindowOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -289,7 +289,7 @@ func (j *jsiiProxy_GoogleRedisInstanceMaintenancePolicyWeeklyMaintenanceWindowOu
 	)
 }
 
-func (j *jsiiProxy_GoogleRedisInstanceMaintenancePolicyWeeklyMaintenanceWindowOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_GoogleRedisInstanceMaintenancePolicyWeeklyMaintenanceWindowOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -329,11 +329,11 @@ func (g *jsiiProxy_GoogleRedisInstanceMaintenancePolicyWeeklyMaintenanceWindowOu
 	return returns
 }
 
-func (g *jsiiProxy_GoogleRedisInstanceMaintenancePolicyWeeklyMaintenanceWindowOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleRedisInstanceMaintenancePolicyWeeklyMaintenanceWindowOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -457,8 +457,8 @@ func (g *jsiiProxy_GoogleRedisInstanceMaintenancePolicyWeeklyMaintenanceWindowOu
 	return returns
 }
 
-func (g *jsiiProxy_GoogleRedisInstanceMaintenancePolicyWeeklyMaintenanceWindowOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (g *jsiiProxy_GoogleRedisInstanceMaintenancePolicyWeeklyMaintenanceWindowOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -470,11 +470,11 @@ func (g *jsiiProxy_GoogleRedisInstanceMaintenancePolicyWeeklyMaintenanceWindowOu
 	return returns
 }
 
-func (g *jsiiProxy_GoogleRedisInstanceMaintenancePolicyWeeklyMaintenanceWindowOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleRedisInstanceMaintenancePolicyWeeklyMaintenanceWindowOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -497,7 +497,7 @@ func (g *jsiiProxy_GoogleRedisInstanceMaintenancePolicyWeeklyMaintenanceWindowOu
 	)
 }
 
-func (g *jsiiProxy_GoogleRedisInstanceMaintenancePolicyWeeklyMaintenanceWindowOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (g *jsiiProxy_GoogleRedisInstanceMaintenancePolicyWeeklyMaintenanceWindowOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

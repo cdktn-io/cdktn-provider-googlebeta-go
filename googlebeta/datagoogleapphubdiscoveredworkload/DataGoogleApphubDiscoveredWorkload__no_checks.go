@@ -79,7 +79,7 @@ func (j *jsiiProxy_DataGoogleApphubDiscoveredWorkload) validateSetIdParameters(v
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleApphubDiscoveredWorkload) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataGoogleApphubDiscoveredWorkload) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

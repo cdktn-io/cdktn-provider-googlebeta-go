@@ -111,7 +111,7 @@ func (j *jsiiProxy_GoogleCloudQuotasQuotaAdjusterSettings) validateSetIdParamete
 	return nil
 }
 
-func (j *jsiiProxy_GoogleCloudQuotasQuotaAdjusterSettings) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleCloudQuotasQuotaAdjusterSettings) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

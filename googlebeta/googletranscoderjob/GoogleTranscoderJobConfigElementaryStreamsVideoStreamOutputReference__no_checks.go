@@ -51,7 +51,7 @@ func (g *jsiiProxy_GoogleTranscoderJobConfigElementaryStreamsVideoStreamOutputRe
 	return nil
 }
 
-func (g *jsiiProxy_GoogleTranscoderJobConfigElementaryStreamsVideoStreamOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleTranscoderJobConfigElementaryStreamsVideoStreamOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_GoogleTranscoderJobConfigElementaryStreamsVideoStreamOutputRe
 	return nil
 }
 
-func (j *jsiiProxy_GoogleTranscoderJobConfigElementaryStreamsVideoStreamOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleTranscoderJobConfigElementaryStreamsVideoStreamOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleTranscoderJobConfigElementaryStreamsVideoStreamOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleTranscoderJobConfigElementaryStreamsVideoStreamOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

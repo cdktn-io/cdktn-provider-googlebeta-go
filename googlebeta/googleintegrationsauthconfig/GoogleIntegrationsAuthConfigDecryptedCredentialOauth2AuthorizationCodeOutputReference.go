@@ -5,14 +5,14 @@ package googleintegrationsauthconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleintegrationsauthconfig/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleintegrationsauthconfig/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AuthEndpoint() *string
 	SetAuthEndpoint(val *string)
 	AuthEndpointInput() *string
@@ -49,9 +49,9 @@ type GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeOutpu
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	TokenEndpoint() *string
 	SetTokenEndpoint(val *string)
 	TokenEndpointInput() *string
@@ -60,7 +60,7 @@ type GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeOutpu
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -76,9 +76,9 @@ type GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeOutpu
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetAuthEndpoint()
 	ResetClientId()
 	ResetClientSecret()
@@ -86,7 +86,7 @@ type GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeOutpu
 	ResetTokenEndpoint()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -96,7 +96,7 @@ type GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeOutpu
 
 // The jsii proxy struct for GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeOutputReference
 type jsiiProxy_GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeOutputReference) AuthEndpoint() *string {
@@ -239,8 +239,8 @@ func (j *jsiiProxy_GoogleIntegrationsAuthConfigDecryptedCredentialOauth2Authoriz
 	return returns
 }
 
-func (j *jsiiProxy_GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -270,7 +270,7 @@ func (j *jsiiProxy_GoogleIntegrationsAuthConfigDecryptedCredentialOauth2Authoriz
 }
 
 
-func NewGoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeOutputReference {
+func NewGoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewGoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -287,7 +287,7 @@ func NewGoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeOu
 	return &j
 }
 
-func NewGoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeOutputReference_Override(g GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewGoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeOutputReference_Override(g GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -385,7 +385,7 @@ func (j *jsiiProxy_GoogleIntegrationsAuthConfigDecryptedCredentialOauth2Authoriz
 	)
 }
 
-func (j *jsiiProxy_GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -436,11 +436,11 @@ func (g *jsiiProxy_GoogleIntegrationsAuthConfigDecryptedCredentialOauth2Authoriz
 	return returns
 }
 
-func (g *jsiiProxy_GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -564,8 +564,8 @@ func (g *jsiiProxy_GoogleIntegrationsAuthConfigDecryptedCredentialOauth2Authoriz
 	return returns
 }
 
-func (g *jsiiProxy_GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (g *jsiiProxy_GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -577,11 +577,11 @@ func (g *jsiiProxy_GoogleIntegrationsAuthConfigDecryptedCredentialOauth2Authoriz
 	return returns
 }
 
-func (g *jsiiProxy_GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -633,7 +633,7 @@ func (g *jsiiProxy_GoogleIntegrationsAuthConfigDecryptedCredentialOauth2Authoriz
 	)
 }
 
-func (g *jsiiProxy_GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (g *jsiiProxy_GoogleIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -51,7 +51,7 @@ func (g *jsiiProxy_GoogleGkeonpremVmwareClusterControlPlaneNodeOutputReference) 
 	return nil
 }
 
-func (g *jsiiProxy_GoogleGkeonpremVmwareClusterControlPlaneNodeOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleGkeonpremVmwareClusterControlPlaneNodeOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_GoogleGkeonpremVmwareClusterControlPlaneNodeOutputReference) 
 	return nil
 }
 
-func (j *jsiiProxy_GoogleGkeonpremVmwareClusterControlPlaneNodeOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleGkeonpremVmwareClusterControlPlaneNodeOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleGkeonpremVmwareClusterControlPlaneNodeOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleGkeonpremVmwareClusterControlPlaneNodeOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

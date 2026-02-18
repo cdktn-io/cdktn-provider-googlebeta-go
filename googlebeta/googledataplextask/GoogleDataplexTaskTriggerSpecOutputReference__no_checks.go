@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleDataplexTaskTriggerSpecOutputReference) validateInterpo
 	return nil
 }
 
-func (g *jsiiProxy_GoogleDataplexTaskTriggerSpecOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleDataplexTaskTriggerSpecOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_GoogleDataplexTaskTriggerSpecOutputReference) validateSetTerr
 	return nil
 }
 
-func (j *jsiiProxy_GoogleDataplexTaskTriggerSpecOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleDataplexTaskTriggerSpecOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -91,7 +91,7 @@ func (j *jsiiProxy_GoogleDataplexTaskTriggerSpecOutputReference) validateSetType
 	return nil
 }
 
-func validateNewGoogleDataplexTaskTriggerSpecOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleDataplexTaskTriggerSpecOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

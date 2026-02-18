@@ -115,7 +115,7 @@ func (j *jsiiProxy_GoogleComputeGlobalNetworkEndpointGroup) validateSetIdParamet
 	return nil
 }
 
-func (j *jsiiProxy_GoogleComputeGlobalNetworkEndpointGroup) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleComputeGlobalNetworkEndpointGroup) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

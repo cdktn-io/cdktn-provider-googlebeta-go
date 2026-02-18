@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataGoogleComposerEnvironmentStorageConfigList) validateGetPa
 	return nil
 }
 
-func (d *jsiiProxy_DataGoogleComposerEnvironmentStorageConfigList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataGoogleComposerEnvironmentStorageConfigList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataGoogleComposerEnvironmentStorageConfigList) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleComposerEnvironmentStorageConfigList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataGoogleComposerEnvironmentStorageConfigList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataGoogleComposerEnvironmentStorageConfigList) validateSetWr
 	return nil
 }
 
-func validateNewDataGoogleComposerEnvironmentStorageConfigListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataGoogleComposerEnvironmentStorageConfigListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

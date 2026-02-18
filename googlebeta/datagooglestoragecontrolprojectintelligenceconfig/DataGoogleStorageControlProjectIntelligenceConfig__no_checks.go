@@ -79,7 +79,7 @@ func (j *jsiiProxy_DataGoogleStorageControlProjectIntelligenceConfig) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleStorageControlProjectIntelligenceConfig) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataGoogleStorageControlProjectIntelligenceConfig) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -91,7 +91,7 @@ func (j *jsiiProxy_DataGoogleKmsSecretAsymmetric) validateSetIdParameters(val *s
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleKmsSecretAsymmetric) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataGoogleKmsSecretAsymmetric) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

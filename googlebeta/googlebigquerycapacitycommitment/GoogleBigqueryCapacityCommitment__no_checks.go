@@ -119,7 +119,7 @@ func (j *jsiiProxy_GoogleBigqueryCapacityCommitment) validateSetIdParameters(val
 	return nil
 }
 
-func (j *jsiiProxy_GoogleBigqueryCapacityCommitment) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleBigqueryCapacityCommitment) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

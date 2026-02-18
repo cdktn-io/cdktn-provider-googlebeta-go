@@ -79,7 +79,7 @@ func (j *jsiiProxy_DataGoogleDnsRecordSet) validateSetIdParameters(val *string) 
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleDnsRecordSet) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataGoogleDnsRecordSet) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

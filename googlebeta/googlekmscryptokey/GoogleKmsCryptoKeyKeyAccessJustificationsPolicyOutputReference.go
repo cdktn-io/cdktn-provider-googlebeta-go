@@ -5,14 +5,14 @@ package googlekmscryptokey
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlekmscryptokey/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlekmscryptokey/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type GoogleKmsCryptoKeyKeyAccessJustificationsPolicyOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AllowedAccessReasons() *[]*string
 	SetAllowedAccessReasons(val *[]*string)
 	AllowedAccessReasonsInput() *[]*string
@@ -40,15 +40,15 @@ type GoogleKmsCryptoKeyKeyAccessJustificationsPolicyOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -64,13 +64,13 @@ type GoogleKmsCryptoKeyKeyAccessJustificationsPolicyOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetAllowedAccessReasons()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -80,7 +80,7 @@ type GoogleKmsCryptoKeyKeyAccessJustificationsPolicyOutputReference interface {
 
 // The jsii proxy struct for GoogleKmsCryptoKeyKeyAccessJustificationsPolicyOutputReference
 type jsiiProxy_GoogleKmsCryptoKeyKeyAccessJustificationsPolicyOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_GoogleKmsCryptoKeyKeyAccessJustificationsPolicyOutputReference) AllowedAccessReasons() *[]*string {
@@ -163,8 +163,8 @@ func (j *jsiiProxy_GoogleKmsCryptoKeyKeyAccessJustificationsPolicyOutputReferenc
 	return returns
 }
 
-func (j *jsiiProxy_GoogleKmsCryptoKeyKeyAccessJustificationsPolicyOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_GoogleKmsCryptoKeyKeyAccessJustificationsPolicyOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -174,7 +174,7 @@ func (j *jsiiProxy_GoogleKmsCryptoKeyKeyAccessJustificationsPolicyOutputReferenc
 }
 
 
-func NewGoogleKmsCryptoKeyKeyAccessJustificationsPolicyOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) GoogleKmsCryptoKeyKeyAccessJustificationsPolicyOutputReference {
+func NewGoogleKmsCryptoKeyKeyAccessJustificationsPolicyOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) GoogleKmsCryptoKeyKeyAccessJustificationsPolicyOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewGoogleKmsCryptoKeyKeyAccessJustificationsPolicyOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -191,7 +191,7 @@ func NewGoogleKmsCryptoKeyKeyAccessJustificationsPolicyOutputReference(terraform
 	return &j
 }
 
-func NewGoogleKmsCryptoKeyKeyAccessJustificationsPolicyOutputReference_Override(g GoogleKmsCryptoKeyKeyAccessJustificationsPolicyOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewGoogleKmsCryptoKeyKeyAccessJustificationsPolicyOutputReference_Override(g GoogleKmsCryptoKeyKeyAccessJustificationsPolicyOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -256,7 +256,7 @@ func (j *jsiiProxy_GoogleKmsCryptoKeyKeyAccessJustificationsPolicyOutputReferenc
 	)
 }
 
-func (j *jsiiProxy_GoogleKmsCryptoKeyKeyAccessJustificationsPolicyOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_GoogleKmsCryptoKeyKeyAccessJustificationsPolicyOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -296,11 +296,11 @@ func (g *jsiiProxy_GoogleKmsCryptoKeyKeyAccessJustificationsPolicyOutputReferenc
 	return returns
 }
 
-func (g *jsiiProxy_GoogleKmsCryptoKeyKeyAccessJustificationsPolicyOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleKmsCryptoKeyKeyAccessJustificationsPolicyOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -424,8 +424,8 @@ func (g *jsiiProxy_GoogleKmsCryptoKeyKeyAccessJustificationsPolicyOutputReferenc
 	return returns
 }
 
-func (g *jsiiProxy_GoogleKmsCryptoKeyKeyAccessJustificationsPolicyOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (g *jsiiProxy_GoogleKmsCryptoKeyKeyAccessJustificationsPolicyOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -437,11 +437,11 @@ func (g *jsiiProxy_GoogleKmsCryptoKeyKeyAccessJustificationsPolicyOutputReferenc
 	return returns
 }
 
-func (g *jsiiProxy_GoogleKmsCryptoKeyKeyAccessJustificationsPolicyOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleKmsCryptoKeyKeyAccessJustificationsPolicyOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -461,7 +461,7 @@ func (g *jsiiProxy_GoogleKmsCryptoKeyKeyAccessJustificationsPolicyOutputReferenc
 	)
 }
 
-func (g *jsiiProxy_GoogleKmsCryptoKeyKeyAccessJustificationsPolicyOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (g *jsiiProxy_GoogleKmsCryptoKeyKeyAccessJustificationsPolicyOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleLoggingBillingAccountBucketConfigCmekSettingsOutputRefe
 	return nil
 }
 
-func (g *jsiiProxy_GoogleLoggingBillingAccountBucketConfigCmekSettingsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleLoggingBillingAccountBucketConfigCmekSettingsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_GoogleLoggingBillingAccountBucketConfigCmekSettingsOutputRefe
 	return nil
 }
 
-func (j *jsiiProxy_GoogleLoggingBillingAccountBucketConfigCmekSettingsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleLoggingBillingAccountBucketConfigCmekSettingsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleLoggingBillingAccountBucketConfigCmekSettingsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleLoggingBillingAccountBucketConfigCmekSettingsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -5,14 +5,14 @@ package googlecloudquotasquotapreference
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecloudquotasquotapreference/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecloudquotasquotapreference/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type GoogleCloudQuotasQuotaPreferenceQuotaConfigOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	Annotations() *map[string]*string
 	SetAnnotations(val *map[string]*string)
 	AnnotationsInput() *map[string]*string
@@ -46,16 +46,16 @@ type GoogleCloudQuotasQuotaPreferenceQuotaConfigOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	TraceId() *string
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -71,13 +71,13 @@ type GoogleCloudQuotasQuotaPreferenceQuotaConfigOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetAnnotations()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -87,7 +87,7 @@ type GoogleCloudQuotasQuotaPreferenceQuotaConfigOutputReference interface {
 
 // The jsii proxy struct for GoogleCloudQuotasQuotaPreferenceQuotaConfigOutputReference
 type jsiiProxy_GoogleCloudQuotasQuotaPreferenceQuotaConfigOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_GoogleCloudQuotasQuotaPreferenceQuotaConfigOutputReference) Annotations() *map[string]*string {
@@ -220,8 +220,8 @@ func (j *jsiiProxy_GoogleCloudQuotasQuotaPreferenceQuotaConfigOutputReference) T
 	return returns
 }
 
-func (j *jsiiProxy_GoogleCloudQuotasQuotaPreferenceQuotaConfigOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_GoogleCloudQuotasQuotaPreferenceQuotaConfigOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -241,7 +241,7 @@ func (j *jsiiProxy_GoogleCloudQuotasQuotaPreferenceQuotaConfigOutputReference) T
 }
 
 
-func NewGoogleCloudQuotasQuotaPreferenceQuotaConfigOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) GoogleCloudQuotasQuotaPreferenceQuotaConfigOutputReference {
+func NewGoogleCloudQuotasQuotaPreferenceQuotaConfigOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) GoogleCloudQuotasQuotaPreferenceQuotaConfigOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewGoogleCloudQuotasQuotaPreferenceQuotaConfigOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -258,7 +258,7 @@ func NewGoogleCloudQuotasQuotaPreferenceQuotaConfigOutputReference(terraformReso
 	return &j
 }
 
-func NewGoogleCloudQuotasQuotaPreferenceQuotaConfigOutputReference_Override(g GoogleCloudQuotasQuotaPreferenceQuotaConfigOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewGoogleCloudQuotasQuotaPreferenceQuotaConfigOutputReference_Override(g GoogleCloudQuotasQuotaPreferenceQuotaConfigOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -334,7 +334,7 @@ func (j *jsiiProxy_GoogleCloudQuotasQuotaPreferenceQuotaConfigOutputReference)Se
 	)
 }
 
-func (j *jsiiProxy_GoogleCloudQuotasQuotaPreferenceQuotaConfigOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_GoogleCloudQuotasQuotaPreferenceQuotaConfigOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -374,11 +374,11 @@ func (g *jsiiProxy_GoogleCloudQuotasQuotaPreferenceQuotaConfigOutputReference) G
 	return returns
 }
 
-func (g *jsiiProxy_GoogleCloudQuotasQuotaPreferenceQuotaConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleCloudQuotasQuotaPreferenceQuotaConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -502,8 +502,8 @@ func (g *jsiiProxy_GoogleCloudQuotasQuotaPreferenceQuotaConfigOutputReference) G
 	return returns
 }
 
-func (g *jsiiProxy_GoogleCloudQuotasQuotaPreferenceQuotaConfigOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (g *jsiiProxy_GoogleCloudQuotasQuotaPreferenceQuotaConfigOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -515,11 +515,11 @@ func (g *jsiiProxy_GoogleCloudQuotasQuotaPreferenceQuotaConfigOutputReference) I
 	return returns
 }
 
-func (g *jsiiProxy_GoogleCloudQuotasQuotaPreferenceQuotaConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleCloudQuotasQuotaPreferenceQuotaConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -539,7 +539,7 @@ func (g *jsiiProxy_GoogleCloudQuotasQuotaPreferenceQuotaConfigOutputReference) R
 	)
 }
 
-func (g *jsiiProxy_GoogleCloudQuotasQuotaPreferenceQuotaConfigOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (g *jsiiProxy_GoogleCloudQuotasQuotaPreferenceQuotaConfigOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

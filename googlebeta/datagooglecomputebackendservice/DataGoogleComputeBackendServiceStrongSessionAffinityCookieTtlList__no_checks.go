@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataGoogleComputeBackendServiceStrongSessionAffinityCookieTtl
 	return nil
 }
 
-func (d *jsiiProxy_DataGoogleComputeBackendServiceStrongSessionAffinityCookieTtlList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataGoogleComputeBackendServiceStrongSessionAffinityCookieTtlList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataGoogleComputeBackendServiceStrongSessionAffinityCookieTtl
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleComputeBackendServiceStrongSessionAffinityCookieTtlList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataGoogleComputeBackendServiceStrongSessionAffinityCookieTtlList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataGoogleComputeBackendServiceStrongSessionAffinityCookieTtl
 	return nil
 }
 
-func validateNewDataGoogleComputeBackendServiceStrongSessionAffinityCookieTtlListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataGoogleComputeBackendServiceStrongSessionAffinityCookieTtlListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

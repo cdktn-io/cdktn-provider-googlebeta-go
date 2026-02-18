@@ -111,7 +111,7 @@ func (j *jsiiProxy_GoogleDataprocJobIamMember) validateSetJobIdParameters(val *s
 	return nil
 }
 
-func (j *jsiiProxy_GoogleDataprocJobIamMember) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleDataprocJobIamMember) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

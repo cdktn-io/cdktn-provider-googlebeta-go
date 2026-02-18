@@ -5,18 +5,18 @@ package googlediscoveryenginetargetsite
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlediscoveryenginetargetsite/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlediscoveryenginetargetsite/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_discovery_engine_target_site google_discovery_engine_target_site}.
 type GoogleDiscoveryEngineTargetSite interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -39,9 +39,9 @@ type GoogleDiscoveryEngineTargetSite interface {
 	ExactMatchInput() interface{}
 	FailureReason() GoogleDiscoveryEngineTargetSiteFailureReasonList
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -52,9 +52,9 @@ type GoogleDiscoveryEngineTargetSite interface {
 	IdInput() *string
 	IndexingStatus() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Location() *string
 	SetLocation(val *string)
 	LocationInput() *string
@@ -68,9 +68,9 @@ type GoogleDiscoveryEngineTargetSite interface {
 	SetProvidedUriPattern(val *string)
 	ProvidedUriPatternInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -81,7 +81,7 @@ type GoogleDiscoveryEngineTargetSite interface {
 	SiteVerificationInfo() GoogleDiscoveryEngineTargetSiteSiteVerificationInfoList
 	TargetSiteId() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -100,7 +100,7 @@ type GoogleDiscoveryEngineTargetSite interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -118,9 +118,9 @@ type GoogleDiscoveryEngineTargetSite interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -159,11 +159,11 @@ type GoogleDiscoveryEngineTargetSite interface {
 
 // The jsii proxy struct for GoogleDiscoveryEngineTargetSite
 type jsiiProxy_GoogleDiscoveryEngineTargetSite struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
-func (j *jsiiProxy_GoogleDiscoveryEngineTargetSite) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_GoogleDiscoveryEngineTargetSite) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -262,8 +262,8 @@ func (j *jsiiProxy_GoogleDiscoveryEngineTargetSite) FailureReason() GoogleDiscov
 	return returns
 }
 
-func (j *jsiiProxy_GoogleDiscoveryEngineTargetSite) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_GoogleDiscoveryEngineTargetSite) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -332,8 +332,8 @@ func (j *jsiiProxy_GoogleDiscoveryEngineTargetSite) IndexingStatus() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleDiscoveryEngineTargetSite) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_GoogleDiscoveryEngineTargetSite) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -422,8 +422,8 @@ func (j *jsiiProxy_GoogleDiscoveryEngineTargetSite) ProvidedUriPatternInput() *s
 	return returns
 }
 
-func (j *jsiiProxy_GoogleDiscoveryEngineTargetSite) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_GoogleDiscoveryEngineTargetSite) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -482,8 +482,8 @@ func (j *jsiiProxy_GoogleDiscoveryEngineTargetSite) TargetSiteId() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleDiscoveryEngineTargetSite) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_GoogleDiscoveryEngineTargetSite) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -644,7 +644,7 @@ func (j *jsiiProxy_GoogleDiscoveryEngineTargetSite)SetExactMatch(val interface{}
 	)
 }
 
-func (j *jsiiProxy_GoogleDiscoveryEngineTargetSite)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_GoogleDiscoveryEngineTargetSite)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -663,7 +663,7 @@ func (j *jsiiProxy_GoogleDiscoveryEngineTargetSite)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_GoogleDiscoveryEngineTargetSite)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_GoogleDiscoveryEngineTargetSite)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -707,7 +707,7 @@ func (j *jsiiProxy_GoogleDiscoveryEngineTargetSite)SetProvidedUriPattern(val *st
 	)
 }
 
-func (j *jsiiProxy_GoogleDiscoveryEngineTargetSite)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_GoogleDiscoveryEngineTargetSite)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -737,14 +737,14 @@ func (j *jsiiProxy_GoogleDiscoveryEngineTargetSite)SetType(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a GoogleDiscoveryEngineTargetSite resource upon running "cdktf plan <stack-name>".
-func GoogleDiscoveryEngineTargetSite_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a GoogleDiscoveryEngineTargetSite resource upon running "cdktn plan <stack-name>".
+func GoogleDiscoveryEngineTargetSite_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateGoogleDiscoveryEngineTargetSite_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google-beta.googleDiscoveryEngineTargetSite.GoogleDiscoveryEngineTargetSite",
@@ -878,11 +878,11 @@ func (g *jsiiProxy_GoogleDiscoveryEngineTargetSite) GetAnyMapAttribute(terraform
 	return returns
 }
 
-func (g *jsiiProxy_GoogleDiscoveryEngineTargetSite) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleDiscoveryEngineTargetSite) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -1019,7 +1019,7 @@ func (g *jsiiProxy_GoogleDiscoveryEngineTargetSite) HasResourceMove() interface{
 	return returns
 }
 
-func (g *jsiiProxy_GoogleDiscoveryEngineTargetSite) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (g *jsiiProxy_GoogleDiscoveryEngineTargetSite) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := g.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1030,11 +1030,11 @@ func (g *jsiiProxy_GoogleDiscoveryEngineTargetSite) ImportFrom(id *string, provi
 	)
 }
 
-func (g *jsiiProxy_GoogleDiscoveryEngineTargetSite) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleDiscoveryEngineTargetSite) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,

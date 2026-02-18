@@ -147,7 +147,7 @@ func (j *jsiiProxy_GoogleStorageInsightsDatasetConfig) validateSetIncludeNewlyCr
 	return nil
 }
 
-func (j *jsiiProxy_GoogleStorageInsightsDatasetConfig) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleStorageInsightsDatasetConfig) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

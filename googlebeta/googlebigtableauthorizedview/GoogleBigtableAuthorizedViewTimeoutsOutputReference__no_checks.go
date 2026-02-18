@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleBigtableAuthorizedViewTimeoutsOutputReference) validate
 	return nil
 }
 
-func (g *jsiiProxy_GoogleBigtableAuthorizedViewTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleBigtableAuthorizedViewTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_GoogleBigtableAuthorizedViewTimeoutsOutputReference) validate
 	return nil
 }
 
-func (j *jsiiProxy_GoogleBigtableAuthorizedViewTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleBigtableAuthorizedViewTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_GoogleBigtableAuthorizedViewTimeoutsOutputReference) validate
 	return nil
 }
 
-func validateNewGoogleBigtableAuthorizedViewTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleBigtableAuthorizedViewTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

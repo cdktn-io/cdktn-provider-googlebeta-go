@@ -5,14 +5,14 @@ package googlecomputeinstancefrommachineimage
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecomputeinstancefrommachineimage/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinstancefrommachineimage/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type GoogleComputeInstanceFromMachineImageAttachedDiskOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -33,7 +33,7 @@ type GoogleComputeInstanceFromMachineImageAttachedDiskOutputReference interface 
 	DiskEncryptionKeyRsa() *string
 	DiskEncryptionKeySha256() *string
 	DiskEncryptionServiceAccount() *string
-	ForceAttach() cdktf.IResolvable
+	ForceAttach() cdktn.IResolvable
 	// Experimental.
 	Fqn() *string
 	InternalValue() *GoogleComputeInstanceFromMachineImageAttachedDisk
@@ -46,15 +46,15 @@ type GoogleComputeInstanceFromMachineImageAttachedDiskOutputReference interface 
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,12 +70,12 @@ type GoogleComputeInstanceFromMachineImageAttachedDiskOutputReference interface 
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -85,7 +85,7 @@ type GoogleComputeInstanceFromMachineImageAttachedDiskOutputReference interface 
 
 // The jsii proxy struct for GoogleComputeInstanceFromMachineImageAttachedDiskOutputReference
 type jsiiProxy_GoogleComputeInstanceFromMachineImageAttachedDiskOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_GoogleComputeInstanceFromMachineImageAttachedDiskOutputReference) ComplexObjectIndex() interface{} {
@@ -168,8 +168,8 @@ func (j *jsiiProxy_GoogleComputeInstanceFromMachineImageAttachedDiskOutputRefere
 	return returns
 }
 
-func (j *jsiiProxy_GoogleComputeInstanceFromMachineImageAttachedDiskOutputReference) ForceAttach() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_GoogleComputeInstanceFromMachineImageAttachedDiskOutputReference) ForceAttach() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"forceAttach",
@@ -238,8 +238,8 @@ func (j *jsiiProxy_GoogleComputeInstanceFromMachineImageAttachedDiskOutputRefere
 	return returns
 }
 
-func (j *jsiiProxy_GoogleComputeInstanceFromMachineImageAttachedDiskOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_GoogleComputeInstanceFromMachineImageAttachedDiskOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -249,7 +249,7 @@ func (j *jsiiProxy_GoogleComputeInstanceFromMachineImageAttachedDiskOutputRefere
 }
 
 
-func NewGoogleComputeInstanceFromMachineImageAttachedDiskOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) GoogleComputeInstanceFromMachineImageAttachedDiskOutputReference {
+func NewGoogleComputeInstanceFromMachineImageAttachedDiskOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) GoogleComputeInstanceFromMachineImageAttachedDiskOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewGoogleComputeInstanceFromMachineImageAttachedDiskOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -266,7 +266,7 @@ func NewGoogleComputeInstanceFromMachineImageAttachedDiskOutputReference(terrafo
 	return &j
 }
 
-func NewGoogleComputeInstanceFromMachineImageAttachedDiskOutputReference_Override(g GoogleComputeInstanceFromMachineImageAttachedDiskOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewGoogleComputeInstanceFromMachineImageAttachedDiskOutputReference_Override(g GoogleComputeInstanceFromMachineImageAttachedDiskOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -320,7 +320,7 @@ func (j *jsiiProxy_GoogleComputeInstanceFromMachineImageAttachedDiskOutputRefere
 	)
 }
 
-func (j *jsiiProxy_GoogleComputeInstanceFromMachineImageAttachedDiskOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_GoogleComputeInstanceFromMachineImageAttachedDiskOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -360,11 +360,11 @@ func (g *jsiiProxy_GoogleComputeInstanceFromMachineImageAttachedDiskOutputRefere
 	return returns
 }
 
-func (g *jsiiProxy_GoogleComputeInstanceFromMachineImageAttachedDiskOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleComputeInstanceFromMachineImageAttachedDiskOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -488,8 +488,8 @@ func (g *jsiiProxy_GoogleComputeInstanceFromMachineImageAttachedDiskOutputRefere
 	return returns
 }
 
-func (g *jsiiProxy_GoogleComputeInstanceFromMachineImageAttachedDiskOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (g *jsiiProxy_GoogleComputeInstanceFromMachineImageAttachedDiskOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -501,11 +501,11 @@ func (g *jsiiProxy_GoogleComputeInstanceFromMachineImageAttachedDiskOutputRefere
 	return returns
 }
 
-func (g *jsiiProxy_GoogleComputeInstanceFromMachineImageAttachedDiskOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleComputeInstanceFromMachineImageAttachedDiskOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -517,7 +517,7 @@ func (g *jsiiProxy_GoogleComputeInstanceFromMachineImageAttachedDiskOutputRefere
 	return returns
 }
 
-func (g *jsiiProxy_GoogleComputeInstanceFromMachineImageAttachedDiskOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (g *jsiiProxy_GoogleComputeInstanceFromMachineImageAttachedDiskOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

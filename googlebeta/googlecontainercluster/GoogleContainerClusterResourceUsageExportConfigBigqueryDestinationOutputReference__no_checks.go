@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleContainerClusterResourceUsageExportConfigBigqueryDestin
 	return nil
 }
 
-func (g *jsiiProxy_GoogleContainerClusterResourceUsageExportConfigBigqueryDestinationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleContainerClusterResourceUsageExportConfigBigqueryDestinationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_GoogleContainerClusterResourceUsageExportConfigBigqueryDestin
 	return nil
 }
 
-func (j *jsiiProxy_GoogleContainerClusterResourceUsageExportConfigBigqueryDestinationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleContainerClusterResourceUsageExportConfigBigqueryDestinationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleContainerClusterResourceUsageExportConfigBigqueryDestinationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleContainerClusterResourceUsageExportConfigBigqueryDestinationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

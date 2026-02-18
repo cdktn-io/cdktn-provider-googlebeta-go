@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleRecaptchaEnterpriseKeyWebSettingsOutputReference) valid
 	return nil
 }
 
-func (g *jsiiProxy_GoogleRecaptchaEnterpriseKeyWebSettingsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleRecaptchaEnterpriseKeyWebSettingsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -87,11 +87,11 @@ func (j *jsiiProxy_GoogleRecaptchaEnterpriseKeyWebSettingsOutputReference) valid
 	return nil
 }
 
-func (j *jsiiProxy_GoogleRecaptchaEnterpriseKeyWebSettingsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleRecaptchaEnterpriseKeyWebSettingsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleRecaptchaEnterpriseKeyWebSettingsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleRecaptchaEnterpriseKeyWebSettingsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -5,18 +5,18 @@ package datagooglecloudidentitygroupmemberships
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagooglecloudidentitygroupmemberships/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagooglecloudidentitygroupmemberships/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_cloud_identity_group_memberships google_cloud_identity_group_memberships}.
 type DataGoogleCloudIdentityGroupMemberships interface {
-	cdktf.TerraformDataSource
+	cdktn.TerraformDataSource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
 	// Experimental.
@@ -28,9 +28,9 @@ type DataGoogleCloudIdentityGroupMemberships interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -42,20 +42,20 @@ type DataGoogleCloudIdentityGroupMemberships interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Memberships() DataGoogleCloudIdentityGroupMembershipsMembershipsList
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	RawOverrides() interface{}
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -65,7 +65,7 @@ type DataGoogleCloudIdentityGroupMemberships interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -81,7 +81,7 @@ type DataGoogleCloudIdentityGroupMemberships interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
@@ -105,11 +105,11 @@ type DataGoogleCloudIdentityGroupMemberships interface {
 
 // The jsii proxy struct for DataGoogleCloudIdentityGroupMemberships
 type jsiiProxy_DataGoogleCloudIdentityGroupMemberships struct {
-	internal.Type__cdktfTerraformDataSource
+	internal.Type__cdktnTerraformDataSource
 }
 
-func (j *jsiiProxy_DataGoogleCloudIdentityGroupMemberships) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataGoogleCloudIdentityGroupMemberships) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -148,8 +148,8 @@ func (j *jsiiProxy_DataGoogleCloudIdentityGroupMemberships) DependsOn() *[]*stri
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleCloudIdentityGroupMemberships) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataGoogleCloudIdentityGroupMemberships) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -218,8 +218,8 @@ func (j *jsiiProxy_DataGoogleCloudIdentityGroupMemberships) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleCloudIdentityGroupMemberships) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataGoogleCloudIdentityGroupMemberships) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -248,8 +248,8 @@ func (j *jsiiProxy_DataGoogleCloudIdentityGroupMemberships) Node() constructs.No
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleCloudIdentityGroupMemberships) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataGoogleCloudIdentityGroupMemberships) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -268,8 +268,8 @@ func (j *jsiiProxy_DataGoogleCloudIdentityGroupMemberships) RawOverrides() inter
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleCloudIdentityGroupMemberships) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataGoogleCloudIdentityGroupMemberships) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -347,7 +347,7 @@ func (j *jsiiProxy_DataGoogleCloudIdentityGroupMemberships)SetDependsOn(val *[]*
 	)
 }
 
-func (j *jsiiProxy_DataGoogleCloudIdentityGroupMemberships)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataGoogleCloudIdentityGroupMemberships)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -377,7 +377,7 @@ func (j *jsiiProxy_DataGoogleCloudIdentityGroupMemberships)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataGoogleCloudIdentityGroupMemberships)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataGoogleCloudIdentityGroupMemberships)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -388,7 +388,7 @@ func (j *jsiiProxy_DataGoogleCloudIdentityGroupMemberships)SetLifecycle(val *cdk
 	)
 }
 
-func (j *jsiiProxy_DataGoogleCloudIdentityGroupMemberships)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataGoogleCloudIdentityGroupMemberships)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -396,14 +396,14 @@ func (j *jsiiProxy_DataGoogleCloudIdentityGroupMemberships)SetProvider(val cdktf
 	)
 }
 
-// Generates CDKTF code for importing a DataGoogleCloudIdentityGroupMemberships resource upon running "cdktf plan <stack-name>".
-func DataGoogleCloudIdentityGroupMemberships_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataGoogleCloudIdentityGroupMemberships resource upon running "cdktn plan <stack-name>".
+func DataGoogleCloudIdentityGroupMemberships_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataGoogleCloudIdentityGroupMemberships_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google-beta.dataGoogleCloudIdentityGroupMemberships.DataGoogleCloudIdentityGroupMemberships",
@@ -526,11 +526,11 @@ func (d *jsiiProxy_DataGoogleCloudIdentityGroupMemberships) GetAnyMapAttribute(t
 	return returns
 }
 
-func (d *jsiiProxy_DataGoogleCloudIdentityGroupMemberships) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataGoogleCloudIdentityGroupMemberships) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -654,11 +654,11 @@ func (d *jsiiProxy_DataGoogleCloudIdentityGroupMemberships) GetStringMapAttribut
 	return returns
 }
 
-func (d *jsiiProxy_DataGoogleCloudIdentityGroupMemberships) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataGoogleCloudIdentityGroupMemberships) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

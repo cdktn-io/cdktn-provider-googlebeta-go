@@ -5,18 +5,18 @@ package googlevertexaifeaturestoreentitytypeiampolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlevertexaifeaturestoreentitytypeiampolicy/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlevertexaifeaturestoreentitytypeiampolicy/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_featurestore_entitytype_iam_policy google_vertex_ai_featurestore_entitytype_iam_policy}.
 type GoogleVertexAiFeaturestoreEntitytypeIamPolicy interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -39,9 +39,9 @@ type GoogleVertexAiFeaturestoreEntitytypeIamPolicy interface {
 	SetFeaturestore(val *string)
 	FeaturestoreInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -50,18 +50,18 @@ type GoogleVertexAiFeaturestoreEntitytypeIamPolicy interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	// The tree node.
 	Node() constructs.Node
 	PolicyData() *string
 	SetPolicyData(val *string)
 	PolicyDataInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -69,7 +69,7 @@ type GoogleVertexAiFeaturestoreEntitytypeIamPolicy interface {
 	// Experimental.
 	RawOverrides() interface{}
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -82,7 +82,7 @@ type GoogleVertexAiFeaturestoreEntitytypeIamPolicy interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -100,9 +100,9 @@ type GoogleVertexAiFeaturestoreEntitytypeIamPolicy interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -136,11 +136,11 @@ type GoogleVertexAiFeaturestoreEntitytypeIamPolicy interface {
 
 // The jsii proxy struct for GoogleVertexAiFeaturestoreEntitytypeIamPolicy
 type jsiiProxy_GoogleVertexAiFeaturestoreEntitytypeIamPolicy struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
-func (j *jsiiProxy_GoogleVertexAiFeaturestoreEntitytypeIamPolicy) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_GoogleVertexAiFeaturestoreEntitytypeIamPolicy) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -239,8 +239,8 @@ func (j *jsiiProxy_GoogleVertexAiFeaturestoreEntitytypeIamPolicy) FeaturestoreIn
 	return returns
 }
 
-func (j *jsiiProxy_GoogleVertexAiFeaturestoreEntitytypeIamPolicy) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_GoogleVertexAiFeaturestoreEntitytypeIamPolicy) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -289,8 +289,8 @@ func (j *jsiiProxy_GoogleVertexAiFeaturestoreEntitytypeIamPolicy) IdInput() *str
 	return returns
 }
 
-func (j *jsiiProxy_GoogleVertexAiFeaturestoreEntitytypeIamPolicy) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_GoogleVertexAiFeaturestoreEntitytypeIamPolicy) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -329,8 +329,8 @@ func (j *jsiiProxy_GoogleVertexAiFeaturestoreEntitytypeIamPolicy) PolicyDataInpu
 	return returns
 }
 
-func (j *jsiiProxy_GoogleVertexAiFeaturestoreEntitytypeIamPolicy) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_GoogleVertexAiFeaturestoreEntitytypeIamPolicy) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -359,8 +359,8 @@ func (j *jsiiProxy_GoogleVertexAiFeaturestoreEntitytypeIamPolicy) RawOverrides()
 	return returns
 }
 
-func (j *jsiiProxy_GoogleVertexAiFeaturestoreEntitytypeIamPolicy) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_GoogleVertexAiFeaturestoreEntitytypeIamPolicy) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -471,7 +471,7 @@ func (j *jsiiProxy_GoogleVertexAiFeaturestoreEntitytypeIamPolicy)SetFeaturestore
 	)
 }
 
-func (j *jsiiProxy_GoogleVertexAiFeaturestoreEntitytypeIamPolicy)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_GoogleVertexAiFeaturestoreEntitytypeIamPolicy)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -490,7 +490,7 @@ func (j *jsiiProxy_GoogleVertexAiFeaturestoreEntitytypeIamPolicy)SetId(val *stri
 	)
 }
 
-func (j *jsiiProxy_GoogleVertexAiFeaturestoreEntitytypeIamPolicy)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_GoogleVertexAiFeaturestoreEntitytypeIamPolicy)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -512,7 +512,7 @@ func (j *jsiiProxy_GoogleVertexAiFeaturestoreEntitytypeIamPolicy)SetPolicyData(v
 	)
 }
 
-func (j *jsiiProxy_GoogleVertexAiFeaturestoreEntitytypeIamPolicy)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_GoogleVertexAiFeaturestoreEntitytypeIamPolicy)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -531,14 +531,14 @@ func (j *jsiiProxy_GoogleVertexAiFeaturestoreEntitytypeIamPolicy)SetProvisioners
 	)
 }
 
-// Generates CDKTF code for importing a GoogleVertexAiFeaturestoreEntitytypeIamPolicy resource upon running "cdktf plan <stack-name>".
-func GoogleVertexAiFeaturestoreEntitytypeIamPolicy_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a GoogleVertexAiFeaturestoreEntitytypeIamPolicy resource upon running "cdktn plan <stack-name>".
+func GoogleVertexAiFeaturestoreEntitytypeIamPolicy_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateGoogleVertexAiFeaturestoreEntitytypeIamPolicy_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google-beta.googleVertexAiFeaturestoreEntitytypeIamPolicy.GoogleVertexAiFeaturestoreEntitytypeIamPolicy",
@@ -672,11 +672,11 @@ func (g *jsiiProxy_GoogleVertexAiFeaturestoreEntitytypeIamPolicy) GetAnyMapAttri
 	return returns
 }
 
-func (g *jsiiProxy_GoogleVertexAiFeaturestoreEntitytypeIamPolicy) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleVertexAiFeaturestoreEntitytypeIamPolicy) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -813,7 +813,7 @@ func (g *jsiiProxy_GoogleVertexAiFeaturestoreEntitytypeIamPolicy) HasResourceMov
 	return returns
 }
 
-func (g *jsiiProxy_GoogleVertexAiFeaturestoreEntitytypeIamPolicy) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (g *jsiiProxy_GoogleVertexAiFeaturestoreEntitytypeIamPolicy) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := g.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -824,11 +824,11 @@ func (g *jsiiProxy_GoogleVertexAiFeaturestoreEntitytypeIamPolicy) ImportFrom(id 
 	)
 }
 
-func (g *jsiiProxy_GoogleVertexAiFeaturestoreEntitytypeIamPolicy) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleVertexAiFeaturestoreEntitytypeIamPolicy) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,

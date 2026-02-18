@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleBinaryAuthorizationPolicyClusterAdmissionRulesOutputRef
 	return nil
 }
 
-func (g *jsiiProxy_GoogleBinaryAuthorizationPolicyClusterAdmissionRulesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleBinaryAuthorizationPolicyClusterAdmissionRulesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_GoogleBinaryAuthorizationPolicyClusterAdmissionRulesOutputRef
 	return nil
 }
 
-func (j *jsiiProxy_GoogleBinaryAuthorizationPolicyClusterAdmissionRulesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleBinaryAuthorizationPolicyClusterAdmissionRulesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleBinaryAuthorizationPolicyClusterAdmissionRulesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewGoogleBinaryAuthorizationPolicyClusterAdmissionRulesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

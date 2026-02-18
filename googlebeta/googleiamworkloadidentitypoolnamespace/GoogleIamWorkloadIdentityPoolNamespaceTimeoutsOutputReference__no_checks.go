@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleIamWorkloadIdentityPoolNamespaceTimeoutsOutputReference
 	return nil
 }
 
-func (g *jsiiProxy_GoogleIamWorkloadIdentityPoolNamespaceTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleIamWorkloadIdentityPoolNamespaceTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_GoogleIamWorkloadIdentityPoolNamespaceTimeoutsOutputReference
 	return nil
 }
 
-func (j *jsiiProxy_GoogleIamWorkloadIdentityPoolNamespaceTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleIamWorkloadIdentityPoolNamespaceTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_GoogleIamWorkloadIdentityPoolNamespaceTimeoutsOutputReference
 	return nil
 }
 
-func validateNewGoogleIamWorkloadIdentityPoolNamespaceTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleIamWorkloadIdentityPoolNamespaceTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

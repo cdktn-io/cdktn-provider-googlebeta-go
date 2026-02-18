@@ -139,7 +139,7 @@ func (j *jsiiProxy_GoogleDataflowFlexTemplateJob) validateSetLauncherMachineType
 	return nil
 }
 
-func (j *jsiiProxy_GoogleDataflowFlexTemplateJob) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleDataflowFlexTemplateJob) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

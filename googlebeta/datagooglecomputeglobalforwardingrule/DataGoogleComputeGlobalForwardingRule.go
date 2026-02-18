@@ -5,20 +5,20 @@ package datagooglecomputeglobalforwardingrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagooglecomputeglobalforwardingrule/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagooglecomputeglobalforwardingrule/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_compute_global_forwarding_rule google_compute_global_forwarding_rule}.
 type DataGoogleComputeGlobalForwardingRule interface {
-	cdktf.TerraformDataSource
-	AllowPscGlobalAccess() cdktf.IResolvable
+	cdktn.TerraformDataSource
+	AllowPscGlobalAccess() cdktn.IResolvable
 	BaseForwardingRule() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
 	// Experimental.
@@ -30,13 +30,13 @@ type DataGoogleComputeGlobalForwardingRule interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	Description() *string
-	EffectiveLabels() cdktf.StringMap
+	EffectiveLabels() cdktn.StringMap
 	ExternalManagedBackendBucketMigrationState() *string
 	ExternalManagedBackendBucketMigrationTestingPercentage() *float64
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	ForwardingRuleId() *float64
 	// Experimental.
 	Fqn() *string
@@ -49,11 +49,11 @@ type DataGoogleComputeGlobalForwardingRule interface {
 	IpProtocol() *string
 	IpVersion() *string
 	LabelFingerprint() *string
-	Labels() cdktf.StringMap
+	Labels() cdktn.StringMap
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	LoadBalancingScheme() *string
 	MetadataFilters() DataGoogleComputeGlobalForwardingRuleMetadataFiltersList
 	Name() *string
@@ -61,7 +61,7 @@ type DataGoogleComputeGlobalForwardingRule interface {
 	NameInput() *string
 	Network() *string
 	NetworkTier() *string
-	NoAutomateDnsZone() cdktf.IResolvable
+	NoAutomateDnsZone() cdktn.IResolvable
 	// The tree node.
 	Node() constructs.Node
 	PortRange() *string
@@ -69,9 +69,9 @@ type DataGoogleComputeGlobalForwardingRule interface {
 	SetProject(val *string)
 	ProjectInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	PscConnectionId() *string
 	PscConnectionStatus() *string
 	// Experimental.
@@ -82,8 +82,8 @@ type DataGoogleComputeGlobalForwardingRule interface {
 	Subnetwork() *string
 	Target() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
-	TerraformLabels() cdktf.StringMap
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
+	TerraformLabels() cdktn.StringMap
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -93,7 +93,7 @@ type DataGoogleComputeGlobalForwardingRule interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -109,7 +109,7 @@ type DataGoogleComputeGlobalForwardingRule interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
@@ -134,11 +134,11 @@ type DataGoogleComputeGlobalForwardingRule interface {
 
 // The jsii proxy struct for DataGoogleComputeGlobalForwardingRule
 type jsiiProxy_DataGoogleComputeGlobalForwardingRule struct {
-	internal.Type__cdktfTerraformDataSource
+	internal.Type__cdktnTerraformDataSource
 }
 
-func (j *jsiiProxy_DataGoogleComputeGlobalForwardingRule) AllowPscGlobalAccess() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataGoogleComputeGlobalForwardingRule) AllowPscGlobalAccess() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"allowPscGlobalAccess",
@@ -157,8 +157,8 @@ func (j *jsiiProxy_DataGoogleComputeGlobalForwardingRule) BaseForwardingRule() *
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleComputeGlobalForwardingRule) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataGoogleComputeGlobalForwardingRule) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -207,8 +207,8 @@ func (j *jsiiProxy_DataGoogleComputeGlobalForwardingRule) Description() *string 
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleComputeGlobalForwardingRule) EffectiveLabels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_DataGoogleComputeGlobalForwardingRule) EffectiveLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"effectiveLabels",
@@ -237,8 +237,8 @@ func (j *jsiiProxy_DataGoogleComputeGlobalForwardingRule) ExternalManagedBackend
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleComputeGlobalForwardingRule) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataGoogleComputeGlobalForwardingRule) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -337,8 +337,8 @@ func (j *jsiiProxy_DataGoogleComputeGlobalForwardingRule) LabelFingerprint() *st
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleComputeGlobalForwardingRule) Labels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_DataGoogleComputeGlobalForwardingRule) Labels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"labels",
@@ -347,8 +347,8 @@ func (j *jsiiProxy_DataGoogleComputeGlobalForwardingRule) Labels() cdktf.StringM
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleComputeGlobalForwardingRule) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataGoogleComputeGlobalForwardingRule) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -417,8 +417,8 @@ func (j *jsiiProxy_DataGoogleComputeGlobalForwardingRule) NetworkTier() *string 
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleComputeGlobalForwardingRule) NoAutomateDnsZone() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataGoogleComputeGlobalForwardingRule) NoAutomateDnsZone() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"noAutomateDnsZone",
@@ -467,8 +467,8 @@ func (j *jsiiProxy_DataGoogleComputeGlobalForwardingRule) ProjectInput() *string
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleComputeGlobalForwardingRule) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataGoogleComputeGlobalForwardingRule) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -557,8 +557,8 @@ func (j *jsiiProxy_DataGoogleComputeGlobalForwardingRule) Target() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleComputeGlobalForwardingRule) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataGoogleComputeGlobalForwardingRule) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -567,8 +567,8 @@ func (j *jsiiProxy_DataGoogleComputeGlobalForwardingRule) TerraformGeneratorMeta
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleComputeGlobalForwardingRule) TerraformLabels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_DataGoogleComputeGlobalForwardingRule) TerraformLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"terraformLabels",
@@ -646,7 +646,7 @@ func (j *jsiiProxy_DataGoogleComputeGlobalForwardingRule)SetDependsOn(val *[]*st
 	)
 }
 
-func (j *jsiiProxy_DataGoogleComputeGlobalForwardingRule)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataGoogleComputeGlobalForwardingRule)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -665,7 +665,7 @@ func (j *jsiiProxy_DataGoogleComputeGlobalForwardingRule)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataGoogleComputeGlobalForwardingRule)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataGoogleComputeGlobalForwardingRule)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -698,7 +698,7 @@ func (j *jsiiProxy_DataGoogleComputeGlobalForwardingRule)SetProject(val *string)
 	)
 }
 
-func (j *jsiiProxy_DataGoogleComputeGlobalForwardingRule)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataGoogleComputeGlobalForwardingRule)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -706,14 +706,14 @@ func (j *jsiiProxy_DataGoogleComputeGlobalForwardingRule)SetProvider(val cdktf.T
 	)
 }
 
-// Generates CDKTF code for importing a DataGoogleComputeGlobalForwardingRule resource upon running "cdktf plan <stack-name>".
-func DataGoogleComputeGlobalForwardingRule_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataGoogleComputeGlobalForwardingRule resource upon running "cdktn plan <stack-name>".
+func DataGoogleComputeGlobalForwardingRule_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataGoogleComputeGlobalForwardingRule_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google-beta.dataGoogleComputeGlobalForwardingRule.DataGoogleComputeGlobalForwardingRule",
@@ -836,11 +836,11 @@ func (d *jsiiProxy_DataGoogleComputeGlobalForwardingRule) GetAnyMapAttribute(ter
 	return returns
 }
 
-func (d *jsiiProxy_DataGoogleComputeGlobalForwardingRule) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataGoogleComputeGlobalForwardingRule) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -964,11 +964,11 @@ func (d *jsiiProxy_DataGoogleComputeGlobalForwardingRule) GetStringMapAttribute(
 	return returns
 }
 
-func (d *jsiiProxy_DataGoogleComputeGlobalForwardingRule) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataGoogleComputeGlobalForwardingRule) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

@@ -127,7 +127,7 @@ func (j *jsiiProxy_GoogleCloudbuildWorkerPool) validateSetIdParameters(val *stri
 	return nil
 }
 
-func (j *jsiiProxy_GoogleCloudbuildWorkerPool) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleCloudbuildWorkerPool) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

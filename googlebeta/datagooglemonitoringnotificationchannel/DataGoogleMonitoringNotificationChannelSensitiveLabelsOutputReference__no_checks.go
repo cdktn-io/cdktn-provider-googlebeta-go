@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataGoogleMonitoringNotificationChannelSensitiveLabelsOutputR
 	return nil
 }
 
-func (d *jsiiProxy_DataGoogleMonitoringNotificationChannelSensitiveLabelsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataGoogleMonitoringNotificationChannelSensitiveLabelsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataGoogleMonitoringNotificationChannelSensitiveLabelsOutputR
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleMonitoringNotificationChannelSensitiveLabelsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataGoogleMonitoringNotificationChannelSensitiveLabelsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataGoogleMonitoringNotificationChannelSensitiveLabelsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataGoogleMonitoringNotificationChannelSensitiveLabelsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

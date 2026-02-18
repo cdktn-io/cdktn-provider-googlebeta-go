@@ -111,7 +111,7 @@ func (j *jsiiProxy_GoogleKmsCryptoKeyIamBinding) validateSetIdParameters(val *st
 	return nil
 }
 
-func (j *jsiiProxy_GoogleKmsCryptoKeyIamBinding) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleKmsCryptoKeyIamBinding) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

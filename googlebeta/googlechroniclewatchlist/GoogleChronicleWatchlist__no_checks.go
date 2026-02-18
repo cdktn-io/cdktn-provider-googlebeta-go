@@ -127,7 +127,7 @@ func (j *jsiiProxy_GoogleChronicleWatchlist) validateSetInstanceParameters(val *
 	return nil
 }
 
-func (j *jsiiProxy_GoogleChronicleWatchlist) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleChronicleWatchlist) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

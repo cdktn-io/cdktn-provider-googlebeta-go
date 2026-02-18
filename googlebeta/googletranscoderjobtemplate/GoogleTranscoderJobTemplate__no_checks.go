@@ -119,7 +119,7 @@ func (j *jsiiProxy_GoogleTranscoderJobTemplate) validateSetLabelsParameters(val 
 	return nil
 }
 
-func (j *jsiiProxy_GoogleTranscoderJobTemplate) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleTranscoderJobTemplate) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

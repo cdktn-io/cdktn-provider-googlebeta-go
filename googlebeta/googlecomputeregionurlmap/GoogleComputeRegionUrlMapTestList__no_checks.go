@@ -15,7 +15,7 @@ func (g *jsiiProxy_GoogleComputeRegionUrlMapTestList) validateGetParameters(inde
 	return nil
 }
 
-func (g *jsiiProxy_GoogleComputeRegionUrlMapTestList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleComputeRegionUrlMapTestList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_GoogleComputeRegionUrlMapTestList) validateSetTerraformAttrib
 	return nil
 }
 
-func (j *jsiiProxy_GoogleComputeRegionUrlMapTestList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleComputeRegionUrlMapTestList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_GoogleComputeRegionUrlMapTestList) validateSetWrapsSetParamet
 	return nil
 }
 
-func validateNewGoogleComputeRegionUrlMapTestListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGoogleComputeRegionUrlMapTestListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

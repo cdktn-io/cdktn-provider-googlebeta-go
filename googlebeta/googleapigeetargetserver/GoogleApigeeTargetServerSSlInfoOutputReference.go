@@ -5,14 +5,14 @@ package googleapigeetargetserver
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleapigeetargetserver/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleapigeetargetserver/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type GoogleApigeeTargetServerSSlInfoOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	Ciphers() *[]*string
 	SetCiphers(val *[]*string)
 	CiphersInput() *[]*string
@@ -63,9 +63,9 @@ type GoogleApigeeTargetServerSSlInfoOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	TrustStore() *string
 	SetTrustStore(val *string)
 	TrustStoreInput() *string
@@ -74,7 +74,7 @@ type GoogleApigeeTargetServerSSlInfoOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -90,9 +90,9 @@ type GoogleApigeeTargetServerSSlInfoOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutCommonName(value *GoogleApigeeTargetServerSSlInfoCommonName)
 	ResetCiphers()
 	ResetClientAuthEnabled()
@@ -105,7 +105,7 @@ type GoogleApigeeTargetServerSSlInfoOutputReference interface {
 	ResetTrustStore()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -115,7 +115,7 @@ type GoogleApigeeTargetServerSSlInfoOutputReference interface {
 
 // The jsii proxy struct for GoogleApigeeTargetServerSSlInfoOutputReference
 type jsiiProxy_GoogleApigeeTargetServerSSlInfoOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_GoogleApigeeTargetServerSSlInfoOutputReference) Ciphers() *[]*string {
@@ -358,8 +358,8 @@ func (j *jsiiProxy_GoogleApigeeTargetServerSSlInfoOutputReference) TerraformAttr
 	return returns
 }
 
-func (j *jsiiProxy_GoogleApigeeTargetServerSSlInfoOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_GoogleApigeeTargetServerSSlInfoOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -389,7 +389,7 @@ func (j *jsiiProxy_GoogleApigeeTargetServerSSlInfoOutputReference) TrustStoreInp
 }
 
 
-func NewGoogleApigeeTargetServerSSlInfoOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) GoogleApigeeTargetServerSSlInfoOutputReference {
+func NewGoogleApigeeTargetServerSSlInfoOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) GoogleApigeeTargetServerSSlInfoOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewGoogleApigeeTargetServerSSlInfoOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -406,7 +406,7 @@ func NewGoogleApigeeTargetServerSSlInfoOutputReference(terraformResource cdktf.I
 	return &j
 }
 
-func NewGoogleApigeeTargetServerSSlInfoOutputReference_Override(g GoogleApigeeTargetServerSSlInfoOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewGoogleApigeeTargetServerSSlInfoOutputReference_Override(g GoogleApigeeTargetServerSSlInfoOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -548,7 +548,7 @@ func (j *jsiiProxy_GoogleApigeeTargetServerSSlInfoOutputReference)SetTerraformAt
 	)
 }
 
-func (j *jsiiProxy_GoogleApigeeTargetServerSSlInfoOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_GoogleApigeeTargetServerSSlInfoOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -599,11 +599,11 @@ func (g *jsiiProxy_GoogleApigeeTargetServerSSlInfoOutputReference) GetAnyMapAttr
 	return returns
 }
 
-func (g *jsiiProxy_GoogleApigeeTargetServerSSlInfoOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleApigeeTargetServerSSlInfoOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -727,8 +727,8 @@ func (g *jsiiProxy_GoogleApigeeTargetServerSSlInfoOutputReference) GetStringMapA
 	return returns
 }
 
-func (g *jsiiProxy_GoogleApigeeTargetServerSSlInfoOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (g *jsiiProxy_GoogleApigeeTargetServerSSlInfoOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -740,11 +740,11 @@ func (g *jsiiProxy_GoogleApigeeTargetServerSSlInfoOutputReference) Interpolation
 	return returns
 }
 
-func (g *jsiiProxy_GoogleApigeeTargetServerSSlInfoOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleApigeeTargetServerSSlInfoOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -839,7 +839,7 @@ func (g *jsiiProxy_GoogleApigeeTargetServerSSlInfoOutputReference) ResetTrustSto
 	)
 }
 
-func (g *jsiiProxy_GoogleApigeeTargetServerSSlInfoOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (g *jsiiProxy_GoogleApigeeTargetServerSSlInfoOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

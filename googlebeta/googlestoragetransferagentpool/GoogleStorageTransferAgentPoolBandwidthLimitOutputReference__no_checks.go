@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleStorageTransferAgentPoolBandwidthLimitOutputReference) 
 	return nil
 }
 
-func (g *jsiiProxy_GoogleStorageTransferAgentPoolBandwidthLimitOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleStorageTransferAgentPoolBandwidthLimitOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_GoogleStorageTransferAgentPoolBandwidthLimitOutputReference) 
 	return nil
 }
 
-func (j *jsiiProxy_GoogleStorageTransferAgentPoolBandwidthLimitOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleStorageTransferAgentPoolBandwidthLimitOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleStorageTransferAgentPoolBandwidthLimitOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleStorageTransferAgentPoolBandwidthLimitOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

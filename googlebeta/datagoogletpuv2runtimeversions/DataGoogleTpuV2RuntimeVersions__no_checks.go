@@ -79,7 +79,7 @@ func (j *jsiiProxy_DataGoogleTpuV2RuntimeVersions) validateSetIdParameters(val *
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleTpuV2RuntimeVersions) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataGoogleTpuV2RuntimeVersions) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

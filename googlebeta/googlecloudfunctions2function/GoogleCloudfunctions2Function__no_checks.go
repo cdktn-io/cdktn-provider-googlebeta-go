@@ -131,7 +131,7 @@ func (j *jsiiProxy_GoogleCloudfunctions2Function) validateSetLabelsParameters(va
 	return nil
 }
 
-func (j *jsiiProxy_GoogleCloudfunctions2Function) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleCloudfunctions2Function) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

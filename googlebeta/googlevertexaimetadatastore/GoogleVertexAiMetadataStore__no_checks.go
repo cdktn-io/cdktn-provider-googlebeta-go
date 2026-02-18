@@ -115,7 +115,7 @@ func (j *jsiiProxy_GoogleVertexAiMetadataStore) validateSetIdParameters(val *str
 	return nil
 }
 
-func (j *jsiiProxy_GoogleVertexAiMetadataStore) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleVertexAiMetadataStore) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

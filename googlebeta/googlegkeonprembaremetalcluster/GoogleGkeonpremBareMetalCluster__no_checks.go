@@ -175,7 +175,7 @@ func (j *jsiiProxy_GoogleGkeonpremBareMetalCluster) validateSetIdParameters(val 
 	return nil
 }
 
-func (j *jsiiProxy_GoogleGkeonpremBareMetalCluster) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleGkeonpremBareMetalCluster) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

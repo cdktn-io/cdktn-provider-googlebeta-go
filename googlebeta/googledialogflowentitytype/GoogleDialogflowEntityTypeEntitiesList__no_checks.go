@@ -15,7 +15,7 @@ func (g *jsiiProxy_GoogleDialogflowEntityTypeEntitiesList) validateGetParameters
 	return nil
 }
 
-func (g *jsiiProxy_GoogleDialogflowEntityTypeEntitiesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleDialogflowEntityTypeEntitiesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_GoogleDialogflowEntityTypeEntitiesList) validateSetTerraformA
 	return nil
 }
 
-func (j *jsiiProxy_GoogleDialogflowEntityTypeEntitiesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleDialogflowEntityTypeEntitiesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_GoogleDialogflowEntityTypeEntitiesList) validateSetWrapsSetPa
 	return nil
 }
 
-func validateNewGoogleDialogflowEntityTypeEntitiesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGoogleDialogflowEntityTypeEntitiesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

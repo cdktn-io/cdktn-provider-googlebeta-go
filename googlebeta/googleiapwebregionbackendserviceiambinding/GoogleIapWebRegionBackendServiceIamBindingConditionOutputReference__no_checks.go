@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleIapWebRegionBackendServiceIamBindingConditionOutputRefe
 	return nil
 }
 
-func (g *jsiiProxy_GoogleIapWebRegionBackendServiceIamBindingConditionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleIapWebRegionBackendServiceIamBindingConditionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_GoogleIapWebRegionBackendServiceIamBindingConditionOutputRefe
 	return nil
 }
 
-func (j *jsiiProxy_GoogleIapWebRegionBackendServiceIamBindingConditionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleIapWebRegionBackendServiceIamBindingConditionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_GoogleIapWebRegionBackendServiceIamBindingConditionOutputRefe
 	return nil
 }
 
-func validateNewGoogleIapWebRegionBackendServiceIamBindingConditionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleIapWebRegionBackendServiceIamBindingConditionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

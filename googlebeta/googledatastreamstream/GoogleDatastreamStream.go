@@ -5,22 +5,22 @@ package googledatastreamstream
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googledatastreamstream/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledatastreamstream/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_datastream_stream google_datastream_stream}.
 type GoogleDatastreamStream interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	BackfillAll() GoogleDatastreamStreamBackfillAllOutputReference
 	BackfillAllInput() *GoogleDatastreamStreamBackfillAll
 	BackfillNone() GoogleDatastreamStreamBackfillNoneOutputReference
 	BackfillNoneInput() *GoogleDatastreamStreamBackfillNone
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -49,11 +49,11 @@ type GoogleDatastreamStream interface {
 	DisplayName() *string
 	SetDisplayName(val *string)
 	DisplayNameInput() *string
-	EffectiveLabels() cdktf.StringMap
+	EffectiveLabels() cdktn.StringMap
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -65,9 +65,9 @@ type GoogleDatastreamStream interface {
 	SetLabels(val *map[string]*string)
 	LabelsInput() *map[string]*string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Location() *string
 	SetLocation(val *string)
 	LocationInput() *string
@@ -78,9 +78,9 @@ type GoogleDatastreamStream interface {
 	SetProject(val *string)
 	ProjectInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -94,8 +94,8 @@ type GoogleDatastreamStream interface {
 	SetStreamId(val *string)
 	StreamIdInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
-	TerraformLabels() cdktf.StringMap
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
+	TerraformLabels() cdktn.StringMap
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -110,7 +110,7 @@ type GoogleDatastreamStream interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -128,9 +128,9 @@ type GoogleDatastreamStream interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -177,7 +177,7 @@ type GoogleDatastreamStream interface {
 
 // The jsii proxy struct for GoogleDatastreamStream
 type jsiiProxy_GoogleDatastreamStream struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_GoogleDatastreamStream) BackfillAll() GoogleDatastreamStreamBackfillAllOutputReference {
@@ -220,8 +220,8 @@ func (j *jsiiProxy_GoogleDatastreamStream) BackfillNoneInput() *GoogleDatastream
 	return returns
 }
 
-func (j *jsiiProxy_GoogleDatastreamStream) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_GoogleDatastreamStream) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -370,8 +370,8 @@ func (j *jsiiProxy_GoogleDatastreamStream) DisplayNameInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleDatastreamStream) EffectiveLabels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_GoogleDatastreamStream) EffectiveLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"effectiveLabels",
@@ -380,8 +380,8 @@ func (j *jsiiProxy_GoogleDatastreamStream) EffectiveLabels() cdktf.StringMap {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleDatastreamStream) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_GoogleDatastreamStream) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -450,8 +450,8 @@ func (j *jsiiProxy_GoogleDatastreamStream) LabelsInput() *map[string]*string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleDatastreamStream) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_GoogleDatastreamStream) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -520,8 +520,8 @@ func (j *jsiiProxy_GoogleDatastreamStream) ProjectInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleDatastreamStream) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_GoogleDatastreamStream) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -600,8 +600,8 @@ func (j *jsiiProxy_GoogleDatastreamStream) StreamIdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleDatastreamStream) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_GoogleDatastreamStream) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -610,8 +610,8 @@ func (j *jsiiProxy_GoogleDatastreamStream) TerraformGeneratorMetadata() *cdktf.T
 	return returns
 }
 
-func (j *jsiiProxy_GoogleDatastreamStream) TerraformLabels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_GoogleDatastreamStream) TerraformLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"terraformLabels",
@@ -764,7 +764,7 @@ func (j *jsiiProxy_GoogleDatastreamStream)SetDisplayName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_GoogleDatastreamStream)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_GoogleDatastreamStream)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -794,7 +794,7 @@ func (j *jsiiProxy_GoogleDatastreamStream)SetLabels(val *map[string]*string) {
 	)
 }
 
-func (j *jsiiProxy_GoogleDatastreamStream)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_GoogleDatastreamStream)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -827,7 +827,7 @@ func (j *jsiiProxy_GoogleDatastreamStream)SetProject(val *string) {
 	)
 }
 
-func (j *jsiiProxy_GoogleDatastreamStream)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_GoogleDatastreamStream)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -857,14 +857,14 @@ func (j *jsiiProxy_GoogleDatastreamStream)SetStreamId(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a GoogleDatastreamStream resource upon running "cdktf plan <stack-name>".
-func GoogleDatastreamStream_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a GoogleDatastreamStream resource upon running "cdktn plan <stack-name>".
+func GoogleDatastreamStream_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateGoogleDatastreamStream_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStream",
@@ -998,11 +998,11 @@ func (g *jsiiProxy_GoogleDatastreamStream) GetAnyMapAttribute(terraformAttribute
 	return returns
 }
 
-func (g *jsiiProxy_GoogleDatastreamStream) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleDatastreamStream) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -1139,7 +1139,7 @@ func (g *jsiiProxy_GoogleDatastreamStream) HasResourceMove() interface{} {
 	return returns
 }
 
-func (g *jsiiProxy_GoogleDatastreamStream) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (g *jsiiProxy_GoogleDatastreamStream) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := g.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1150,11 +1150,11 @@ func (g *jsiiProxy_GoogleDatastreamStream) ImportFrom(id *string, provider cdktf
 	)
 }
 
-func (g *jsiiProxy_GoogleDatastreamStream) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleDatastreamStream) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,

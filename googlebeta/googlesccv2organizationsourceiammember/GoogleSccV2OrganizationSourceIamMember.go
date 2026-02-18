@@ -5,18 +5,18 @@ package googlesccv2organizationsourceiammember
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlesccv2organizationsourceiammember/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlesccv2organizationsourceiammember/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_scc_v2_organization_source_iam_member google_scc_v2_organization_source_iam_member}.
 type GoogleSccV2OrganizationSourceIamMember interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	Condition() GoogleSccV2OrganizationSourceIamMemberConditionOutputReference
 	ConditionInput() *GoogleSccV2OrganizationSourceIamMemberCondition
 	// Experimental.
@@ -35,9 +35,9 @@ type GoogleSccV2OrganizationSourceIamMember interface {
 	SetDependsOn(val *[]*string)
 	Etag() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -46,9 +46,9 @@ type GoogleSccV2OrganizationSourceIamMember interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Member() *string
 	SetMember(val *string)
 	MemberInput() *string
@@ -58,9 +58,9 @@ type GoogleSccV2OrganizationSourceIamMember interface {
 	SetOrganization(val *string)
 	OrganizationInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -74,7 +74,7 @@ type GoogleSccV2OrganizationSourceIamMember interface {
 	SetSource(val *string)
 	SourceInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -87,7 +87,7 @@ type GoogleSccV2OrganizationSourceIamMember interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -105,9 +105,9 @@ type GoogleSccV2OrganizationSourceIamMember interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -143,11 +143,11 @@ type GoogleSccV2OrganizationSourceIamMember interface {
 
 // The jsii proxy struct for GoogleSccV2OrganizationSourceIamMember
 type jsiiProxy_GoogleSccV2OrganizationSourceIamMember struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
-func (j *jsiiProxy_GoogleSccV2OrganizationSourceIamMember) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_GoogleSccV2OrganizationSourceIamMember) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -226,8 +226,8 @@ func (j *jsiiProxy_GoogleSccV2OrganizationSourceIamMember) Etag() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleSccV2OrganizationSourceIamMember) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_GoogleSccV2OrganizationSourceIamMember) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -276,8 +276,8 @@ func (j *jsiiProxy_GoogleSccV2OrganizationSourceIamMember) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleSccV2OrganizationSourceIamMember) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_GoogleSccV2OrganizationSourceIamMember) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -336,8 +336,8 @@ func (j *jsiiProxy_GoogleSccV2OrganizationSourceIamMember) OrganizationInput() *
 	return returns
 }
 
-func (j *jsiiProxy_GoogleSccV2OrganizationSourceIamMember) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_GoogleSccV2OrganizationSourceIamMember) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -406,8 +406,8 @@ func (j *jsiiProxy_GoogleSccV2OrganizationSourceIamMember) SourceInput() *string
 	return returns
 }
 
-func (j *jsiiProxy_GoogleSccV2OrganizationSourceIamMember) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_GoogleSccV2OrganizationSourceIamMember) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -496,7 +496,7 @@ func (j *jsiiProxy_GoogleSccV2OrganizationSourceIamMember)SetDependsOn(val *[]*s
 	)
 }
 
-func (j *jsiiProxy_GoogleSccV2OrganizationSourceIamMember)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_GoogleSccV2OrganizationSourceIamMember)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -515,7 +515,7 @@ func (j *jsiiProxy_GoogleSccV2OrganizationSourceIamMember)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_GoogleSccV2OrganizationSourceIamMember)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_GoogleSccV2OrganizationSourceIamMember)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -548,7 +548,7 @@ func (j *jsiiProxy_GoogleSccV2OrganizationSourceIamMember)SetOrganization(val *s
 	)
 }
 
-func (j *jsiiProxy_GoogleSccV2OrganizationSourceIamMember)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_GoogleSccV2OrganizationSourceIamMember)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -589,14 +589,14 @@ func (j *jsiiProxy_GoogleSccV2OrganizationSourceIamMember)SetSource(val *string)
 	)
 }
 
-// Generates CDKTF code for importing a GoogleSccV2OrganizationSourceIamMember resource upon running "cdktf plan <stack-name>".
-func GoogleSccV2OrganizationSourceIamMember_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a GoogleSccV2OrganizationSourceIamMember resource upon running "cdktn plan <stack-name>".
+func GoogleSccV2OrganizationSourceIamMember_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateGoogleSccV2OrganizationSourceIamMember_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google-beta.googleSccV2OrganizationSourceIamMember.GoogleSccV2OrganizationSourceIamMember",
@@ -730,11 +730,11 @@ func (g *jsiiProxy_GoogleSccV2OrganizationSourceIamMember) GetAnyMapAttribute(te
 	return returns
 }
 
-func (g *jsiiProxy_GoogleSccV2OrganizationSourceIamMember) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleSccV2OrganizationSourceIamMember) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -871,7 +871,7 @@ func (g *jsiiProxy_GoogleSccV2OrganizationSourceIamMember) HasResourceMove() int
 	return returns
 }
 
-func (g *jsiiProxy_GoogleSccV2OrganizationSourceIamMember) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (g *jsiiProxy_GoogleSccV2OrganizationSourceIamMember) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := g.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -882,11 +882,11 @@ func (g *jsiiProxy_GoogleSccV2OrganizationSourceIamMember) ImportFrom(id *string
 	)
 }
 
-func (g *jsiiProxy_GoogleSccV2OrganizationSourceIamMember) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleSccV2OrganizationSourceIamMember) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,

@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleCloudIdentityGroupAdditionalGroupKeysOutputReference) v
 	return nil
 }
 
-func (g *jsiiProxy_GoogleCloudIdentityGroupAdditionalGroupKeysOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleCloudIdentityGroupAdditionalGroupKeysOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_GoogleCloudIdentityGroupAdditionalGroupKeysOutputReference) v
 	return nil
 }
 
-func (j *jsiiProxy_GoogleCloudIdentityGroupAdditionalGroupKeysOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleCloudIdentityGroupAdditionalGroupKeysOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleCloudIdentityGroupAdditionalGroupKeysOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewGoogleCloudIdentityGroupAdditionalGroupKeysOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

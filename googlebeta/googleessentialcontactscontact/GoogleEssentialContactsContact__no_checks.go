@@ -115,7 +115,7 @@ func (j *jsiiProxy_GoogleEssentialContactsContact) validateSetLanguageTagParamet
 	return nil
 }
 
-func (j *jsiiProxy_GoogleEssentialContactsContact) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleEssentialContactsContact) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

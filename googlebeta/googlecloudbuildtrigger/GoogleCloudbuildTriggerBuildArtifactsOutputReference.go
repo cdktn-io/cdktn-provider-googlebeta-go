@@ -5,14 +5,14 @@ package googlecloudbuildtrigger
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecloudbuildtrigger/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecloudbuildtrigger/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type GoogleCloudbuildTriggerBuildArtifactsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -48,15 +48,15 @@ type GoogleCloudbuildTriggerBuildArtifactsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -72,9 +72,9 @@ type GoogleCloudbuildTriggerBuildArtifactsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutMavenArtifacts(value interface{})
 	PutNpmPackages(value interface{})
 	PutObjects(value *GoogleCloudbuildTriggerBuildArtifactsObjects)
@@ -86,7 +86,7 @@ type GoogleCloudbuildTriggerBuildArtifactsOutputReference interface {
 	ResetPythonPackages()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -96,7 +96,7 @@ type GoogleCloudbuildTriggerBuildArtifactsOutputReference interface {
 
 // The jsii proxy struct for GoogleCloudbuildTriggerBuildArtifactsOutputReference
 type jsiiProxy_GoogleCloudbuildTriggerBuildArtifactsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_GoogleCloudbuildTriggerBuildArtifactsOutputReference) ComplexObjectIndex() interface{} {
@@ -259,8 +259,8 @@ func (j *jsiiProxy_GoogleCloudbuildTriggerBuildArtifactsOutputReference) Terrafo
 	return returns
 }
 
-func (j *jsiiProxy_GoogleCloudbuildTriggerBuildArtifactsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_GoogleCloudbuildTriggerBuildArtifactsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -270,7 +270,7 @@ func (j *jsiiProxy_GoogleCloudbuildTriggerBuildArtifactsOutputReference) Terrafo
 }
 
 
-func NewGoogleCloudbuildTriggerBuildArtifactsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) GoogleCloudbuildTriggerBuildArtifactsOutputReference {
+func NewGoogleCloudbuildTriggerBuildArtifactsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) GoogleCloudbuildTriggerBuildArtifactsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewGoogleCloudbuildTriggerBuildArtifactsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -287,7 +287,7 @@ func NewGoogleCloudbuildTriggerBuildArtifactsOutputReference(terraformResource c
 	return &j
 }
 
-func NewGoogleCloudbuildTriggerBuildArtifactsOutputReference_Override(g GoogleCloudbuildTriggerBuildArtifactsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewGoogleCloudbuildTriggerBuildArtifactsOutputReference_Override(g GoogleCloudbuildTriggerBuildArtifactsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -352,7 +352,7 @@ func (j *jsiiProxy_GoogleCloudbuildTriggerBuildArtifactsOutputReference)SetTerra
 	)
 }
 
-func (j *jsiiProxy_GoogleCloudbuildTriggerBuildArtifactsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_GoogleCloudbuildTriggerBuildArtifactsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -392,11 +392,11 @@ func (g *jsiiProxy_GoogleCloudbuildTriggerBuildArtifactsOutputReference) GetAnyM
 	return returns
 }
 
-func (g *jsiiProxy_GoogleCloudbuildTriggerBuildArtifactsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleCloudbuildTriggerBuildArtifactsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -520,8 +520,8 @@ func (g *jsiiProxy_GoogleCloudbuildTriggerBuildArtifactsOutputReference) GetStri
 	return returns
 }
 
-func (g *jsiiProxy_GoogleCloudbuildTriggerBuildArtifactsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (g *jsiiProxy_GoogleCloudbuildTriggerBuildArtifactsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -533,11 +533,11 @@ func (g *jsiiProxy_GoogleCloudbuildTriggerBuildArtifactsOutputReference) Interpo
 	return returns
 }
 
-func (g *jsiiProxy_GoogleCloudbuildTriggerBuildArtifactsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleCloudbuildTriggerBuildArtifactsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -633,7 +633,7 @@ func (g *jsiiProxy_GoogleCloudbuildTriggerBuildArtifactsOutputReference) ResetPy
 	)
 }
 
-func (g *jsiiProxy_GoogleCloudbuildTriggerBuildArtifactsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (g *jsiiProxy_GoogleCloudbuildTriggerBuildArtifactsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

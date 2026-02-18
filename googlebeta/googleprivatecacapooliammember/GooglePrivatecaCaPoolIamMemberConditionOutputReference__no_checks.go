@@ -47,7 +47,7 @@ func (g *jsiiProxy_GooglePrivatecaCaPoolIamMemberConditionOutputReference) valid
 	return nil
 }
 
-func (g *jsiiProxy_GooglePrivatecaCaPoolIamMemberConditionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GooglePrivatecaCaPoolIamMemberConditionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_GooglePrivatecaCaPoolIamMemberConditionOutputReference) valid
 	return nil
 }
 
-func (j *jsiiProxy_GooglePrivatecaCaPoolIamMemberConditionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GooglePrivatecaCaPoolIamMemberConditionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_GooglePrivatecaCaPoolIamMemberConditionOutputReference) valid
 	return nil
 }
 
-func validateNewGooglePrivatecaCaPoolIamMemberConditionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGooglePrivatecaCaPoolIamMemberConditionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

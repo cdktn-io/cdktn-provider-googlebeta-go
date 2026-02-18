@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataGooglePubsubSubscriptionMessageTransformsList) validateGe
 	return nil
 }
 
-func (d *jsiiProxy_DataGooglePubsubSubscriptionMessageTransformsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataGooglePubsubSubscriptionMessageTransformsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataGooglePubsubSubscriptionMessageTransformsList) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_DataGooglePubsubSubscriptionMessageTransformsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataGooglePubsubSubscriptionMessageTransformsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataGooglePubsubSubscriptionMessageTransformsList) validateSe
 	return nil
 }
 
-func validateNewDataGooglePubsubSubscriptionMessageTransformsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataGooglePubsubSubscriptionMessageTransformsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

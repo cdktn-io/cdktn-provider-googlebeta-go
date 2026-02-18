@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (g *jsiiProxy_GoogleFilestoreInstanceDirectoryServicesLdapOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -93,7 +93,7 @@ func (g *jsiiProxy_GoogleFilestoreInstanceDirectoryServicesLdapOutputReference) 
 	return nil
 }
 
-func (g *jsiiProxy_GoogleFilestoreInstanceDirectoryServicesLdapOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleFilestoreInstanceDirectoryServicesLdapOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -206,7 +206,7 @@ func (j *jsiiProxy_GoogleFilestoreInstanceDirectoryServicesLdapOutputReference) 
 	return nil
 }
 
-func (j *jsiiProxy_GoogleFilestoreInstanceDirectoryServicesLdapOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleFilestoreInstanceDirectoryServicesLdapOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -222,7 +222,7 @@ func (j *jsiiProxy_GoogleFilestoreInstanceDirectoryServicesLdapOutputReference) 
 	return nil
 }
 
-func validateNewGoogleFilestoreInstanceDirectoryServicesLdapOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleFilestoreInstanceDirectoryServicesLdapOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

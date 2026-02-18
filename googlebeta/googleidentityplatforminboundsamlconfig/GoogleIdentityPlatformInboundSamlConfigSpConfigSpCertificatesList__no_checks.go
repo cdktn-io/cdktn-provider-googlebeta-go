@@ -15,7 +15,7 @@ func (g *jsiiProxy_GoogleIdentityPlatformInboundSamlConfigSpConfigSpCertificates
 	return nil
 }
 
-func (g *jsiiProxy_GoogleIdentityPlatformInboundSamlConfigSpConfigSpCertificatesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleIdentityPlatformInboundSamlConfigSpConfigSpCertificatesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_GoogleIdentityPlatformInboundSamlConfigSpConfigSpCertificates
 	return nil
 }
 
-func (j *jsiiProxy_GoogleIdentityPlatformInboundSamlConfigSpConfigSpCertificatesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleIdentityPlatformInboundSamlConfigSpConfigSpCertificatesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_GoogleIdentityPlatformInboundSamlConfigSpConfigSpCertificates
 	return nil
 }
 
-func validateNewGoogleIdentityPlatformInboundSamlConfigSpConfigSpCertificatesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGoogleIdentityPlatformInboundSamlConfigSpConfigSpCertificatesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

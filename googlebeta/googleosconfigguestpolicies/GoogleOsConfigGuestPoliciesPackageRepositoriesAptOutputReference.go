@@ -5,14 +5,14 @@ package googleosconfigguestpolicies
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleosconfigguestpolicies/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleosconfigguestpolicies/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type GoogleOsConfigGuestPoliciesPackageRepositoriesAptOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	ArchiveType() *string
 	SetArchiveType(val *string)
 	ArchiveTypeInput() *string
@@ -49,9 +49,9 @@ type GoogleOsConfigGuestPoliciesPackageRepositoriesAptOutputReference interface 
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Uri() *string
 	SetUri(val *string)
 	UriInput() *string
@@ -60,7 +60,7 @@ type GoogleOsConfigGuestPoliciesPackageRepositoriesAptOutputReference interface 
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -76,14 +76,14 @@ type GoogleOsConfigGuestPoliciesPackageRepositoriesAptOutputReference interface 
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetArchiveType()
 	ResetGpgKey()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -93,7 +93,7 @@ type GoogleOsConfigGuestPoliciesPackageRepositoriesAptOutputReference interface 
 
 // The jsii proxy struct for GoogleOsConfigGuestPoliciesPackageRepositoriesAptOutputReference
 type jsiiProxy_GoogleOsConfigGuestPoliciesPackageRepositoriesAptOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_GoogleOsConfigGuestPoliciesPackageRepositoriesAptOutputReference) ArchiveType() *string {
@@ -236,8 +236,8 @@ func (j *jsiiProxy_GoogleOsConfigGuestPoliciesPackageRepositoriesAptOutputRefere
 	return returns
 }
 
-func (j *jsiiProxy_GoogleOsConfigGuestPoliciesPackageRepositoriesAptOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_GoogleOsConfigGuestPoliciesPackageRepositoriesAptOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -267,7 +267,7 @@ func (j *jsiiProxy_GoogleOsConfigGuestPoliciesPackageRepositoriesAptOutputRefere
 }
 
 
-func NewGoogleOsConfigGuestPoliciesPackageRepositoriesAptOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) GoogleOsConfigGuestPoliciesPackageRepositoriesAptOutputReference {
+func NewGoogleOsConfigGuestPoliciesPackageRepositoriesAptOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) GoogleOsConfigGuestPoliciesPackageRepositoriesAptOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewGoogleOsConfigGuestPoliciesPackageRepositoriesAptOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -284,7 +284,7 @@ func NewGoogleOsConfigGuestPoliciesPackageRepositoriesAptOutputReference(terrafo
 	return &j
 }
 
-func NewGoogleOsConfigGuestPoliciesPackageRepositoriesAptOutputReference_Override(g GoogleOsConfigGuestPoliciesPackageRepositoriesAptOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewGoogleOsConfigGuestPoliciesPackageRepositoriesAptOutputReference_Override(g GoogleOsConfigGuestPoliciesPackageRepositoriesAptOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -382,7 +382,7 @@ func (j *jsiiProxy_GoogleOsConfigGuestPoliciesPackageRepositoriesAptOutputRefere
 	)
 }
 
-func (j *jsiiProxy_GoogleOsConfigGuestPoliciesPackageRepositoriesAptOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_GoogleOsConfigGuestPoliciesPackageRepositoriesAptOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -433,11 +433,11 @@ func (g *jsiiProxy_GoogleOsConfigGuestPoliciesPackageRepositoriesAptOutputRefere
 	return returns
 }
 
-func (g *jsiiProxy_GoogleOsConfigGuestPoliciesPackageRepositoriesAptOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleOsConfigGuestPoliciesPackageRepositoriesAptOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -561,8 +561,8 @@ func (g *jsiiProxy_GoogleOsConfigGuestPoliciesPackageRepositoriesAptOutputRefere
 	return returns
 }
 
-func (g *jsiiProxy_GoogleOsConfigGuestPoliciesPackageRepositoriesAptOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (g *jsiiProxy_GoogleOsConfigGuestPoliciesPackageRepositoriesAptOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -574,11 +574,11 @@ func (g *jsiiProxy_GoogleOsConfigGuestPoliciesPackageRepositoriesAptOutputRefere
 	return returns
 }
 
-func (g *jsiiProxy_GoogleOsConfigGuestPoliciesPackageRepositoriesAptOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleOsConfigGuestPoliciesPackageRepositoriesAptOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -606,7 +606,7 @@ func (g *jsiiProxy_GoogleOsConfigGuestPoliciesPackageRepositoriesAptOutputRefere
 	)
 }
 
-func (g *jsiiProxy_GoogleOsConfigGuestPoliciesPackageRepositoriesAptOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (g *jsiiProxy_GoogleOsConfigGuestPoliciesPackageRepositoriesAptOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

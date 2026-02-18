@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleNetworkConnectivityGroupAutoAcceptOutputReference) vali
 	return nil
 }
 
-func (g *jsiiProxy_GoogleNetworkConnectivityGroupAutoAcceptOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleNetworkConnectivityGroupAutoAcceptOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_GoogleNetworkConnectivityGroupAutoAcceptOutputReference) vali
 	return nil
 }
 
-func (j *jsiiProxy_GoogleNetworkConnectivityGroupAutoAcceptOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleNetworkConnectivityGroupAutoAcceptOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleNetworkConnectivityGroupAutoAcceptOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleNetworkConnectivityGroupAutoAcceptOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

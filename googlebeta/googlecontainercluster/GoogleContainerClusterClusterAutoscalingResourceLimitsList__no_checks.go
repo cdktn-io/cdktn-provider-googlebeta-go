@@ -15,7 +15,7 @@ func (g *jsiiProxy_GoogleContainerClusterClusterAutoscalingResourceLimitsList) v
 	return nil
 }
 
-func (g *jsiiProxy_GoogleContainerClusterClusterAutoscalingResourceLimitsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleContainerClusterClusterAutoscalingResourceLimitsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_GoogleContainerClusterClusterAutoscalingResourceLimitsList) v
 	return nil
 }
 
-func (j *jsiiProxy_GoogleContainerClusterClusterAutoscalingResourceLimitsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleContainerClusterClusterAutoscalingResourceLimitsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_GoogleContainerClusterClusterAutoscalingResourceLimitsList) v
 	return nil
 }
 
-func validateNewGoogleContainerClusterClusterAutoscalingResourceLimitsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGoogleContainerClusterClusterAutoscalingResourceLimitsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

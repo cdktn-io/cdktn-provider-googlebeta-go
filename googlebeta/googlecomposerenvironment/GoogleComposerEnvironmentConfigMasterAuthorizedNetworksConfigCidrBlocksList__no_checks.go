@@ -15,7 +15,7 @@ func (g *jsiiProxy_GoogleComposerEnvironmentConfigMasterAuthorizedNetworksConfig
 	return nil
 }
 
-func (g *jsiiProxy_GoogleComposerEnvironmentConfigMasterAuthorizedNetworksConfigCidrBlocksList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleComposerEnvironmentConfigMasterAuthorizedNetworksConfigCidrBlocksList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_GoogleComposerEnvironmentConfigMasterAuthorizedNetworksConfig
 	return nil
 }
 
-func (j *jsiiProxy_GoogleComposerEnvironmentConfigMasterAuthorizedNetworksConfigCidrBlocksList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleComposerEnvironmentConfigMasterAuthorizedNetworksConfigCidrBlocksList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_GoogleComposerEnvironmentConfigMasterAuthorizedNetworksConfig
 	return nil
 }
 
-func validateNewGoogleComposerEnvironmentConfigMasterAuthorizedNetworksConfigCidrBlocksListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGoogleComposerEnvironmentConfigMasterAuthorizedNetworksConfigCidrBlocksListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

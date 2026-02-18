@@ -107,7 +107,7 @@ func (j *jsiiProxy_GoogleKmsEkmConnectionIamBinding) validateSetIdParameters(val
 	return nil
 }
 
-func (j *jsiiProxy_GoogleKmsEkmConnectionIamBinding) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleKmsEkmConnectionIamBinding) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

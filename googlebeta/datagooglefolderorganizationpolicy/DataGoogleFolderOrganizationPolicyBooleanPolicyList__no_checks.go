@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataGoogleFolderOrganizationPolicyBooleanPolicyList) validate
 	return nil
 }
 
-func (d *jsiiProxy_DataGoogleFolderOrganizationPolicyBooleanPolicyList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataGoogleFolderOrganizationPolicyBooleanPolicyList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataGoogleFolderOrganizationPolicyBooleanPolicyList) validate
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleFolderOrganizationPolicyBooleanPolicyList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataGoogleFolderOrganizationPolicyBooleanPolicyList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataGoogleFolderOrganizationPolicyBooleanPolicyList) validate
 	return nil
 }
 
-func validateNewDataGoogleFolderOrganizationPolicyBooleanPolicyListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataGoogleFolderOrganizationPolicyBooleanPolicyListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

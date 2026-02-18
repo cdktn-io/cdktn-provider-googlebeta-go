@@ -115,7 +115,7 @@ func (j *jsiiProxy_GoogleComputeRegionTargetHttpProxy) validateSetIdParameters(v
 	return nil
 }
 
-func (j *jsiiProxy_GoogleComputeRegionTargetHttpProxy) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleComputeRegionTargetHttpProxy) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

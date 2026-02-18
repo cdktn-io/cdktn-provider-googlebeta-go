@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleDataplexDatascanDataProfileSpecPostScanActionsBigqueryE
 	return nil
 }
 
-func (g *jsiiProxy_GoogleDataplexDatascanDataProfileSpecPostScanActionsBigqueryExportOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleDataplexDatascanDataProfileSpecPostScanActionsBigqueryExportOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_GoogleDataplexDatascanDataProfileSpecPostScanActionsBigqueryE
 	return nil
 }
 
-func (j *jsiiProxy_GoogleDataplexDatascanDataProfileSpecPostScanActionsBigqueryExportOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleDataplexDatascanDataProfileSpecPostScanActionsBigqueryExportOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleDataplexDatascanDataProfileSpecPostScanActionsBigqueryExportOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleDataplexDatascanDataProfileSpecPostScanActionsBigqueryExportOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

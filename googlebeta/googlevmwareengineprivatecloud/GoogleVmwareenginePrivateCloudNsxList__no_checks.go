@@ -15,7 +15,7 @@ func (g *jsiiProxy_GoogleVmwareenginePrivateCloudNsxList) validateGetParameters(
 	return nil
 }
 
-func (g *jsiiProxy_GoogleVmwareenginePrivateCloudNsxList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleVmwareenginePrivateCloudNsxList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_GoogleVmwareenginePrivateCloudNsxList) validateSetTerraformAt
 	return nil
 }
 
-func (j *jsiiProxy_GoogleVmwareenginePrivateCloudNsxList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleVmwareenginePrivateCloudNsxList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_GoogleVmwareenginePrivateCloudNsxList) validateSetWrapsSetPar
 	return nil
 }
 
-func validateNewGoogleVmwareenginePrivateCloudNsxListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGoogleVmwareenginePrivateCloudNsxListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleWorkbenchInstanceGceSetupDataDisksOutputReference) vali
 	return nil
 }
 
-func (g *jsiiProxy_GoogleWorkbenchInstanceGceSetupDataDisksOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleWorkbenchInstanceGceSetupDataDisksOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_GoogleWorkbenchInstanceGceSetupDataDisksOutputReference) vali
 	return nil
 }
 
-func (j *jsiiProxy_GoogleWorkbenchInstanceGceSetupDataDisksOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleWorkbenchInstanceGceSetupDataDisksOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleWorkbenchInstanceGceSetupDataDisksOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleWorkbenchInstanceGceSetupDataDisksOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

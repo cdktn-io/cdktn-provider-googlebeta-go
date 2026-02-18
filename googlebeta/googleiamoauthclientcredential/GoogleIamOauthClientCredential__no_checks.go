@@ -115,7 +115,7 @@ func (j *jsiiProxy_GoogleIamOauthClientCredential) validateSetIdParameters(val *
 	return nil
 }
 
-func (j *jsiiProxy_GoogleIamOauthClientCredential) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleIamOauthClientCredential) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -123,7 +123,7 @@ func (j *jsiiProxy_GoogleHealthcareDicomStore) validateSetLabelsParameters(val *
 	return nil
 }
 
-func (j *jsiiProxy_GoogleHealthcareDicomStore) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleHealthcareDicomStore) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

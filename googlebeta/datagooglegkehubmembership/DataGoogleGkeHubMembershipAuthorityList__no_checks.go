@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataGoogleGkeHubMembershipAuthorityList) validateGetParameter
 	return nil
 }
 
-func (d *jsiiProxy_DataGoogleGkeHubMembershipAuthorityList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataGoogleGkeHubMembershipAuthorityList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataGoogleGkeHubMembershipAuthorityList) validateSetTerraform
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleGkeHubMembershipAuthorityList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataGoogleGkeHubMembershipAuthorityList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataGoogleGkeHubMembershipAuthorityList) validateSetWrapsSetP
 	return nil
 }
 
-func validateNewDataGoogleGkeHubMembershipAuthorityListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataGoogleGkeHubMembershipAuthorityListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

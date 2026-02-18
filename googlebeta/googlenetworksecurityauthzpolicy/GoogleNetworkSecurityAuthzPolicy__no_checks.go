@@ -131,7 +131,7 @@ func (j *jsiiProxy_GoogleNetworkSecurityAuthzPolicy) validateSetLabelsParameters
 	return nil
 }
 
-func (j *jsiiProxy_GoogleNetworkSecurityAuthzPolicy) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleNetworkSecurityAuthzPolicy) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

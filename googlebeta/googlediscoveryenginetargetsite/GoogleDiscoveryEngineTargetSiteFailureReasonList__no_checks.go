@@ -15,7 +15,7 @@ func (g *jsiiProxy_GoogleDiscoveryEngineTargetSiteFailureReasonList) validateGet
 	return nil
 }
 
-func (g *jsiiProxy_GoogleDiscoveryEngineTargetSiteFailureReasonList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleDiscoveryEngineTargetSiteFailureReasonList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_GoogleDiscoveryEngineTargetSiteFailureReasonList) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_GoogleDiscoveryEngineTargetSiteFailureReasonList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleDiscoveryEngineTargetSiteFailureReasonList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_GoogleDiscoveryEngineTargetSiteFailureReasonList) validateSet
 	return nil
 }
 
-func validateNewGoogleDiscoveryEngineTargetSiteFailureReasonListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGoogleDiscoveryEngineTargetSiteFailureReasonListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

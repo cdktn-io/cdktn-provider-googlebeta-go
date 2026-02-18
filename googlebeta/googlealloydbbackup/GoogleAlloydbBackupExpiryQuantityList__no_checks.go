@@ -15,7 +15,7 @@ func (g *jsiiProxy_GoogleAlloydbBackupExpiryQuantityList) validateGetParameters(
 	return nil
 }
 
-func (g *jsiiProxy_GoogleAlloydbBackupExpiryQuantityList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleAlloydbBackupExpiryQuantityList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_GoogleAlloydbBackupExpiryQuantityList) validateSetTerraformAt
 	return nil
 }
 
-func (j *jsiiProxy_GoogleAlloydbBackupExpiryQuantityList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleAlloydbBackupExpiryQuantityList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_GoogleAlloydbBackupExpiryQuantityList) validateSetWrapsSetPar
 	return nil
 }
 
-func validateNewGoogleAlloydbBackupExpiryQuantityListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGoogleAlloydbBackupExpiryQuantityListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

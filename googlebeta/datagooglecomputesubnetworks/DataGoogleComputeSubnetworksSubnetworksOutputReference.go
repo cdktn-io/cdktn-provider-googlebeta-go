@@ -5,14 +5,14 @@ package datagooglecomputesubnetworks
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagooglecomputesubnetworks/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagooglecomputesubnetworks/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataGoogleComputeSubnetworksSubnetworksOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -38,22 +38,22 @@ type DataGoogleComputeSubnetworksSubnetworksOutputReference interface {
 	Network() *string
 	NetworkName() *string
 	NetworkSelfLink() *string
-	PrivateIpGoogleAccess() cdktf.IResolvable
+	PrivateIpGoogleAccess() cdktn.IResolvable
 	SelfLink() *string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -69,12 +69,12 @@ type DataGoogleComputeSubnetworksSubnetworksOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -84,7 +84,7 @@ type DataGoogleComputeSubnetworksSubnetworksOutputReference interface {
 
 // The jsii proxy struct for DataGoogleComputeSubnetworksSubnetworksOutputReference
 type jsiiProxy_DataGoogleComputeSubnetworksSubnetworksOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataGoogleComputeSubnetworksSubnetworksOutputReference) ComplexObjectIndex() interface{} {
@@ -197,8 +197,8 @@ func (j *jsiiProxy_DataGoogleComputeSubnetworksSubnetworksOutputReference) Netwo
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleComputeSubnetworksSubnetworksOutputReference) PrivateIpGoogleAccess() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataGoogleComputeSubnetworksSubnetworksOutputReference) PrivateIpGoogleAccess() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"privateIpGoogleAccess",
@@ -227,8 +227,8 @@ func (j *jsiiProxy_DataGoogleComputeSubnetworksSubnetworksOutputReference) Terra
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleComputeSubnetworksSubnetworksOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataGoogleComputeSubnetworksSubnetworksOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -238,7 +238,7 @@ func (j *jsiiProxy_DataGoogleComputeSubnetworksSubnetworksOutputReference) Terra
 }
 
 
-func NewDataGoogleComputeSubnetworksSubnetworksOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataGoogleComputeSubnetworksSubnetworksOutputReference {
+func NewDataGoogleComputeSubnetworksSubnetworksOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataGoogleComputeSubnetworksSubnetworksOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataGoogleComputeSubnetworksSubnetworksOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -255,7 +255,7 @@ func NewDataGoogleComputeSubnetworksSubnetworksOutputReference(terraformResource
 	return &j
 }
 
-func NewDataGoogleComputeSubnetworksSubnetworksOutputReference_Override(d DataGoogleComputeSubnetworksSubnetworksOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewDataGoogleComputeSubnetworksSubnetworksOutputReference_Override(d DataGoogleComputeSubnetworksSubnetworksOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -309,7 +309,7 @@ func (j *jsiiProxy_DataGoogleComputeSubnetworksSubnetworksOutputReference)SetTer
 	)
 }
 
-func (j *jsiiProxy_DataGoogleComputeSubnetworksSubnetworksOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataGoogleComputeSubnetworksSubnetworksOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -349,11 +349,11 @@ func (d *jsiiProxy_DataGoogleComputeSubnetworksSubnetworksOutputReference) GetAn
 	return returns
 }
 
-func (d *jsiiProxy_DataGoogleComputeSubnetworksSubnetworksOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataGoogleComputeSubnetworksSubnetworksOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -477,8 +477,8 @@ func (d *jsiiProxy_DataGoogleComputeSubnetworksSubnetworksOutputReference) GetSt
 	return returns
 }
 
-func (d *jsiiProxy_DataGoogleComputeSubnetworksSubnetworksOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataGoogleComputeSubnetworksSubnetworksOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -490,11 +490,11 @@ func (d *jsiiProxy_DataGoogleComputeSubnetworksSubnetworksOutputReference) Inter
 	return returns
 }
 
-func (d *jsiiProxy_DataGoogleComputeSubnetworksSubnetworksOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataGoogleComputeSubnetworksSubnetworksOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -506,7 +506,7 @@ func (d *jsiiProxy_DataGoogleComputeSubnetworksSubnetworksOutputReference) Inter
 	return returns
 }
 
-func (d *jsiiProxy_DataGoogleComputeSubnetworksSubnetworksOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataGoogleComputeSubnetworksSubnetworksOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

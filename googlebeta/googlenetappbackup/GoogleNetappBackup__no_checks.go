@@ -115,7 +115,7 @@ func (j *jsiiProxy_GoogleNetappBackup) validateSetLabelsParameters(val *map[stri
 	return nil
 }
 
-func (j *jsiiProxy_GoogleNetappBackup) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleNetappBackup) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataGoogleServiceAccountsAccountsList) validateGetParameters(
 	return nil
 }
 
-func (d *jsiiProxy_DataGoogleServiceAccountsAccountsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataGoogleServiceAccountsAccountsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataGoogleServiceAccountsAccountsList) validateSetTerraformAt
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleServiceAccountsAccountsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataGoogleServiceAccountsAccountsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataGoogleServiceAccountsAccountsList) validateSetWrapsSetPar
 	return nil
 }
 
-func validateNewDataGoogleServiceAccountsAccountsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataGoogleServiceAccountsAccountsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (g *jsiiProxy_GoogleContainerClusterNodeConfigSoleTenantConfigNodeAffinityL
 	return nil
 }
 
-func (g *jsiiProxy_GoogleContainerClusterNodeConfigSoleTenantConfigNodeAffinityList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleContainerClusterNodeConfigSoleTenantConfigNodeAffinityList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_GoogleContainerClusterNodeConfigSoleTenantConfigNodeAffinityL
 	return nil
 }
 
-func (j *jsiiProxy_GoogleContainerClusterNodeConfigSoleTenantConfigNodeAffinityList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleContainerClusterNodeConfigSoleTenantConfigNodeAffinityList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_GoogleContainerClusterNodeConfigSoleTenantConfigNodeAffinityL
 	return nil
 }
 
-func validateNewGoogleContainerClusterNodeConfigSoleTenantConfigNodeAffinityListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGoogleContainerClusterNodeConfigSoleTenantConfigNodeAffinityListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

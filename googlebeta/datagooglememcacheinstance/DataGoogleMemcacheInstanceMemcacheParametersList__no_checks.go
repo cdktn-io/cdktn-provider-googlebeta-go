@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataGoogleMemcacheInstanceMemcacheParametersList) validateGet
 	return nil
 }
 
-func (d *jsiiProxy_DataGoogleMemcacheInstanceMemcacheParametersList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataGoogleMemcacheInstanceMemcacheParametersList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataGoogleMemcacheInstanceMemcacheParametersList) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleMemcacheInstanceMemcacheParametersList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataGoogleMemcacheInstanceMemcacheParametersList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataGoogleMemcacheInstanceMemcacheParametersList) validateSet
 	return nil
 }
 
-func validateNewDataGoogleMemcacheInstanceMemcacheParametersListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataGoogleMemcacheInstanceMemcacheParametersListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

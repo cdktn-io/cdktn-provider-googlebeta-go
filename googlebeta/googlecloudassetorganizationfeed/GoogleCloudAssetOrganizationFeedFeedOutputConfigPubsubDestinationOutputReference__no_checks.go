@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleCloudAssetOrganizationFeedFeedOutputConfigPubsubDestina
 	return nil
 }
 
-func (g *jsiiProxy_GoogleCloudAssetOrganizationFeedFeedOutputConfigPubsubDestinationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleCloudAssetOrganizationFeedFeedOutputConfigPubsubDestinationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,7 +67,7 @@ func (j *jsiiProxy_GoogleCloudAssetOrganizationFeedFeedOutputConfigPubsubDestina
 	return nil
 }
 
-func (j *jsiiProxy_GoogleCloudAssetOrganizationFeedFeedOutputConfigPubsubDestinationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleCloudAssetOrganizationFeedFeedOutputConfigPubsubDestinationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_GoogleCloudAssetOrganizationFeedFeedOutputConfigPubsubDestina
 	return nil
 }
 
-func validateNewGoogleCloudAssetOrganizationFeedFeedOutputConfigPubsubDestinationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleCloudAssetOrganizationFeedFeedOutputConfigPubsubDestinationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -107,7 +107,7 @@ func (j *jsiiProxy_GoogleDataFusionInstanceIamMember) validateSetIdParameters(va
 	return nil
 }
 
-func (j *jsiiProxy_GoogleDataFusionInstanceIamMember) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleDataFusionInstanceIamMember) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

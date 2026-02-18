@@ -15,7 +15,7 @@ func (g *jsiiProxy_GoogleApihubPluginActionsConfigList) validateGetParameters(in
 	return nil
 }
 
-func (g *jsiiProxy_GoogleApihubPluginActionsConfigList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleApihubPluginActionsConfigList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_GoogleApihubPluginActionsConfigList) validateSetTerraformAttr
 	return nil
 }
 
-func (j *jsiiProxy_GoogleApihubPluginActionsConfigList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleApihubPluginActionsConfigList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_GoogleApihubPluginActionsConfigList) validateSetWrapsSetParam
 	return nil
 }
 
-func validateNewGoogleApihubPluginActionsConfigListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGoogleApihubPluginActionsConfigListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -51,7 +51,7 @@ func (g *jsiiProxy_GoogleManagedKafkaClusterGcpConfigAccessConfigOutputReference
 	return nil
 }
 
-func (g *jsiiProxy_GoogleManagedKafkaClusterGcpConfigAccessConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleManagedKafkaClusterGcpConfigAccessConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_GoogleManagedKafkaClusterGcpConfigAccessConfigOutputReference
 	return nil
 }
 
-func (j *jsiiProxy_GoogleManagedKafkaClusterGcpConfigAccessConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleManagedKafkaClusterGcpConfigAccessConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleManagedKafkaClusterGcpConfigAccessConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleManagedKafkaClusterGcpConfigAccessConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

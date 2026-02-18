@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataGoogleOracleDatabaseDbServers) validateSetIdParameters(va
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleOracleDatabaseDbServers) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataGoogleOracleDatabaseDbServers) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

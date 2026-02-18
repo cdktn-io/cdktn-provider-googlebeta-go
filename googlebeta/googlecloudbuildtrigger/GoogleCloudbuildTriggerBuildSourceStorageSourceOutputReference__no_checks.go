@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleCloudbuildTriggerBuildSourceStorageSourceOutputReferenc
 	return nil
 }
 
-func (g *jsiiProxy_GoogleCloudbuildTriggerBuildSourceStorageSourceOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleCloudbuildTriggerBuildSourceStorageSourceOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_GoogleCloudbuildTriggerBuildSourceStorageSourceOutputReferenc
 	return nil
 }
 
-func (j *jsiiProxy_GoogleCloudbuildTriggerBuildSourceStorageSourceOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleCloudbuildTriggerBuildSourceStorageSourceOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleCloudbuildTriggerBuildSourceStorageSourceOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleCloudbuildTriggerBuildSourceStorageSourceOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

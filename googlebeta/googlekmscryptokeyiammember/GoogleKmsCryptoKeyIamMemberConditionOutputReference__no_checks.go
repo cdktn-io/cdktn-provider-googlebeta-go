@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleKmsCryptoKeyIamMemberConditionOutputReference) validate
 	return nil
 }
 
-func (g *jsiiProxy_GoogleKmsCryptoKeyIamMemberConditionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleKmsCryptoKeyIamMemberConditionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_GoogleKmsCryptoKeyIamMemberConditionOutputReference) validate
 	return nil
 }
 
-func (j *jsiiProxy_GoogleKmsCryptoKeyIamMemberConditionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleKmsCryptoKeyIamMemberConditionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_GoogleKmsCryptoKeyIamMemberConditionOutputReference) validate
 	return nil
 }
 
-func validateNewGoogleKmsCryptoKeyIamMemberConditionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleKmsCryptoKeyIamMemberConditionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

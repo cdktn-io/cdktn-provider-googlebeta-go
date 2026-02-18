@@ -55,7 +55,7 @@ func (g *jsiiProxy_GoogleBackupDrBackupPlanBackupRulesStandardScheduleOutputRefe
 	return nil
 }
 
-func (g *jsiiProxy_GoogleBackupDrBackupPlanBackupRulesStandardScheduleOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleBackupDrBackupPlanBackupRulesStandardScheduleOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -95,7 +95,7 @@ func (j *jsiiProxy_GoogleBackupDrBackupPlanBackupRulesStandardScheduleOutputRefe
 	return nil
 }
 
-func (j *jsiiProxy_GoogleBackupDrBackupPlanBackupRulesStandardScheduleOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleBackupDrBackupPlanBackupRulesStandardScheduleOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -103,7 +103,7 @@ func (j *jsiiProxy_GoogleBackupDrBackupPlanBackupRulesStandardScheduleOutputRefe
 	return nil
 }
 
-func validateNewGoogleBackupDrBackupPlanBackupRulesStandardScheduleOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleBackupDrBackupPlanBackupRulesStandardScheduleOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

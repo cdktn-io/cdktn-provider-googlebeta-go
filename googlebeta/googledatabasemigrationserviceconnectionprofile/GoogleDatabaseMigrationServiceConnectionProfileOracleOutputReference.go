@@ -5,14 +5,14 @@ package googledatabasemigrationserviceconnectionprofile
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googledatabasemigrationserviceconnectionprofile/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledatabasemigrationserviceconnectionprofile/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type GoogleDatabaseMigrationServiceConnectionProfileOracleOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,7 +43,7 @@ type GoogleDatabaseMigrationServiceConnectionProfileOracleOutputReference interf
 	Password() *string
 	SetPassword(val *string)
 	PasswordInput() *string
-	PasswordSet() cdktf.IResolvable
+	PasswordSet() cdktn.IResolvable
 	Port() *float64
 	SetPort(val *float64)
 	PortInput() *float64
@@ -58,9 +58,9 @@ type GoogleDatabaseMigrationServiceConnectionProfileOracleOutputReference interf
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Username() *string
 	SetUsername(val *string)
 	UsernameInput() *string
@@ -69,7 +69,7 @@ type GoogleDatabaseMigrationServiceConnectionProfileOracleOutputReference interf
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -85,9 +85,9 @@ type GoogleDatabaseMigrationServiceConnectionProfileOracleOutputReference interf
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutForwardSshConnectivity(value *GoogleDatabaseMigrationServiceConnectionProfileOracleForwardSshConnectivity)
 	PutPrivateConnectivity(value *GoogleDatabaseMigrationServiceConnectionProfileOraclePrivateConnectivity)
 	PutSsl(value *GoogleDatabaseMigrationServiceConnectionProfileOracleSsl)
@@ -98,7 +98,7 @@ type GoogleDatabaseMigrationServiceConnectionProfileOracleOutputReference interf
 	ResetStaticServiceIpConnectivity()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -108,7 +108,7 @@ type GoogleDatabaseMigrationServiceConnectionProfileOracleOutputReference interf
 
 // The jsii proxy struct for GoogleDatabaseMigrationServiceConnectionProfileOracleOutputReference
 type jsiiProxy_GoogleDatabaseMigrationServiceConnectionProfileOracleOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_GoogleDatabaseMigrationServiceConnectionProfileOracleOutputReference) ComplexObjectIndex() interface{} {
@@ -241,8 +241,8 @@ func (j *jsiiProxy_GoogleDatabaseMigrationServiceConnectionProfileOracleOutputRe
 	return returns
 }
 
-func (j *jsiiProxy_GoogleDatabaseMigrationServiceConnectionProfileOracleOutputReference) PasswordSet() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_GoogleDatabaseMigrationServiceConnectionProfileOracleOutputReference) PasswordSet() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"passwordSet",
@@ -341,8 +341,8 @@ func (j *jsiiProxy_GoogleDatabaseMigrationServiceConnectionProfileOracleOutputRe
 	return returns
 }
 
-func (j *jsiiProxy_GoogleDatabaseMigrationServiceConnectionProfileOracleOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_GoogleDatabaseMigrationServiceConnectionProfileOracleOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -372,7 +372,7 @@ func (j *jsiiProxy_GoogleDatabaseMigrationServiceConnectionProfileOracleOutputRe
 }
 
 
-func NewGoogleDatabaseMigrationServiceConnectionProfileOracleOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) GoogleDatabaseMigrationServiceConnectionProfileOracleOutputReference {
+func NewGoogleDatabaseMigrationServiceConnectionProfileOracleOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) GoogleDatabaseMigrationServiceConnectionProfileOracleOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewGoogleDatabaseMigrationServiceConnectionProfileOracleOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -389,7 +389,7 @@ func NewGoogleDatabaseMigrationServiceConnectionProfileOracleOutputReference(ter
 	return &j
 }
 
-func NewGoogleDatabaseMigrationServiceConnectionProfileOracleOutputReference_Override(g GoogleDatabaseMigrationServiceConnectionProfileOracleOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewGoogleDatabaseMigrationServiceConnectionProfileOracleOutputReference_Override(g GoogleDatabaseMigrationServiceConnectionProfileOracleOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -487,7 +487,7 @@ func (j *jsiiProxy_GoogleDatabaseMigrationServiceConnectionProfileOracleOutputRe
 	)
 }
 
-func (j *jsiiProxy_GoogleDatabaseMigrationServiceConnectionProfileOracleOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_GoogleDatabaseMigrationServiceConnectionProfileOracleOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -538,11 +538,11 @@ func (g *jsiiProxy_GoogleDatabaseMigrationServiceConnectionProfileOracleOutputRe
 	return returns
 }
 
-func (g *jsiiProxy_GoogleDatabaseMigrationServiceConnectionProfileOracleOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleDatabaseMigrationServiceConnectionProfileOracleOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -666,8 +666,8 @@ func (g *jsiiProxy_GoogleDatabaseMigrationServiceConnectionProfileOracleOutputRe
 	return returns
 }
 
-func (g *jsiiProxy_GoogleDatabaseMigrationServiceConnectionProfileOracleOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (g *jsiiProxy_GoogleDatabaseMigrationServiceConnectionProfileOracleOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -679,11 +679,11 @@ func (g *jsiiProxy_GoogleDatabaseMigrationServiceConnectionProfileOracleOutputRe
 	return returns
 }
 
-func (g *jsiiProxy_GoogleDatabaseMigrationServiceConnectionProfileOracleOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleDatabaseMigrationServiceConnectionProfileOracleOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -771,7 +771,7 @@ func (g *jsiiProxy_GoogleDatabaseMigrationServiceConnectionProfileOracleOutputRe
 	)
 }
 
-func (g *jsiiProxy_GoogleDatabaseMigrationServiceConnectionProfileOracleOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (g *jsiiProxy_GoogleDatabaseMigrationServiceConnectionProfileOracleOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

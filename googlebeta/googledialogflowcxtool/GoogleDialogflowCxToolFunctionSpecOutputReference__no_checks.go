@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleDialogflowCxToolFunctionSpecOutputReference) validateIn
 	return nil
 }
 
-func (g *jsiiProxy_GoogleDialogflowCxToolFunctionSpecOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleDialogflowCxToolFunctionSpecOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_GoogleDialogflowCxToolFunctionSpecOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_GoogleDialogflowCxToolFunctionSpecOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleDialogflowCxToolFunctionSpecOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleDialogflowCxToolFunctionSpecOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleDialogflowCxToolFunctionSpecOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

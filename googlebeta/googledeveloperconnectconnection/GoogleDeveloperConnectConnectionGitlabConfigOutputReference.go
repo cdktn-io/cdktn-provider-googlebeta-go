@@ -5,14 +5,14 @@ package googledeveloperconnectconnection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googledeveloperconnectconnection/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledeveloperconnectconnection/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type GoogleDeveloperConnectConnectionGitlabConfigOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AuthorizerCredential() GoogleDeveloperConnectConnectionGitlabConfigAuthorizerCredentialOutputReference
 	AuthorizerCredentialInput() *GoogleDeveloperConnectConnectionGitlabConfigAuthorizerCredential
 	// the index of the complex object in a list.
@@ -41,9 +41,9 @@ type GoogleDeveloperConnectConnectionGitlabConfigOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	WebhookSecretSecretVersion() *string
 	SetWebhookSecretSecretVersion(val *string)
 	WebhookSecretSecretVersionInput() *string
@@ -52,7 +52,7 @@ type GoogleDeveloperConnectConnectionGitlabConfigOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -68,14 +68,14 @@ type GoogleDeveloperConnectConnectionGitlabConfigOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutAuthorizerCredential(value *GoogleDeveloperConnectConnectionGitlabConfigAuthorizerCredential)
 	PutReadAuthorizerCredential(value *GoogleDeveloperConnectConnectionGitlabConfigReadAuthorizerCredential)
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -85,7 +85,7 @@ type GoogleDeveloperConnectConnectionGitlabConfigOutputReference interface {
 
 // The jsii proxy struct for GoogleDeveloperConnectConnectionGitlabConfigOutputReference
 type jsiiProxy_GoogleDeveloperConnectConnectionGitlabConfigOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_GoogleDeveloperConnectConnectionGitlabConfigOutputReference) AuthorizerCredential() GoogleDeveloperConnectConnectionGitlabConfigAuthorizerCredentialOutputReference {
@@ -188,8 +188,8 @@ func (j *jsiiProxy_GoogleDeveloperConnectConnectionGitlabConfigOutputReference) 
 	return returns
 }
 
-func (j *jsiiProxy_GoogleDeveloperConnectConnectionGitlabConfigOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_GoogleDeveloperConnectConnectionGitlabConfigOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -219,7 +219,7 @@ func (j *jsiiProxy_GoogleDeveloperConnectConnectionGitlabConfigOutputReference) 
 }
 
 
-func NewGoogleDeveloperConnectConnectionGitlabConfigOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) GoogleDeveloperConnectConnectionGitlabConfigOutputReference {
+func NewGoogleDeveloperConnectConnectionGitlabConfigOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) GoogleDeveloperConnectConnectionGitlabConfigOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewGoogleDeveloperConnectConnectionGitlabConfigOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -236,7 +236,7 @@ func NewGoogleDeveloperConnectConnectionGitlabConfigOutputReference(terraformRes
 	return &j
 }
 
-func NewGoogleDeveloperConnectConnectionGitlabConfigOutputReference_Override(g GoogleDeveloperConnectConnectionGitlabConfigOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewGoogleDeveloperConnectConnectionGitlabConfigOutputReference_Override(g GoogleDeveloperConnectConnectionGitlabConfigOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -290,7 +290,7 @@ func (j *jsiiProxy_GoogleDeveloperConnectConnectionGitlabConfigOutputReference)S
 	)
 }
 
-func (j *jsiiProxy_GoogleDeveloperConnectConnectionGitlabConfigOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_GoogleDeveloperConnectConnectionGitlabConfigOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -341,11 +341,11 @@ func (g *jsiiProxy_GoogleDeveloperConnectConnectionGitlabConfigOutputReference) 
 	return returns
 }
 
-func (g *jsiiProxy_GoogleDeveloperConnectConnectionGitlabConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleDeveloperConnectConnectionGitlabConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -469,8 +469,8 @@ func (g *jsiiProxy_GoogleDeveloperConnectConnectionGitlabConfigOutputReference) 
 	return returns
 }
 
-func (g *jsiiProxy_GoogleDeveloperConnectConnectionGitlabConfigOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (g *jsiiProxy_GoogleDeveloperConnectConnectionGitlabConfigOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -482,11 +482,11 @@ func (g *jsiiProxy_GoogleDeveloperConnectConnectionGitlabConfigOutputReference) 
 	return returns
 }
 
-func (g *jsiiProxy_GoogleDeveloperConnectConnectionGitlabConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleDeveloperConnectConnectionGitlabConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -520,7 +520,7 @@ func (g *jsiiProxy_GoogleDeveloperConnectConnectionGitlabConfigOutputReference) 
 	)
 }
 
-func (g *jsiiProxy_GoogleDeveloperConnectConnectionGitlabConfigOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (g *jsiiProxy_GoogleDeveloperConnectConnectionGitlabConfigOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

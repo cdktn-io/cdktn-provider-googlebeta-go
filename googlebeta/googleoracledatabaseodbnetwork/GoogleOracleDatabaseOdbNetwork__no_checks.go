@@ -115,7 +115,7 @@ func (j *jsiiProxy_GoogleOracleDatabaseOdbNetwork) validateSetLabelsParameters(v
 	return nil
 }
 
-func (j *jsiiProxy_GoogleOracleDatabaseOdbNetwork) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleOracleDatabaseOdbNetwork) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

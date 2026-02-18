@@ -5,14 +5,14 @@ package googlecloudbuildtrigger
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecloudbuildtrigger/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecloudbuildtrigger/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type GoogleCloudbuildTriggerBuildArtifactsMavenArtifactsList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -26,8 +26,8 @@ type GoogleCloudbuildTriggerBuildArtifactsMavenArtifactsList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -35,13 +35,13 @@ type GoogleCloudbuildTriggerBuildArtifactsMavenArtifactsList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) GoogleCloudbuildTriggerBuildArtifactsMavenArtifactsOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -51,7 +51,7 @@ type GoogleCloudbuildTriggerBuildArtifactsMavenArtifactsList interface {
 
 // The jsii proxy struct for GoogleCloudbuildTriggerBuildArtifactsMavenArtifactsList
 type jsiiProxy_GoogleCloudbuildTriggerBuildArtifactsMavenArtifactsList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_GoogleCloudbuildTriggerBuildArtifactsMavenArtifactsList) CreationStack() *[]*string {
@@ -94,8 +94,8 @@ func (j *jsiiProxy_GoogleCloudbuildTriggerBuildArtifactsMavenArtifactsList) Terr
 	return returns
 }
 
-func (j *jsiiProxy_GoogleCloudbuildTriggerBuildArtifactsMavenArtifactsList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_GoogleCloudbuildTriggerBuildArtifactsMavenArtifactsList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -115,7 +115,7 @@ func (j *jsiiProxy_GoogleCloudbuildTriggerBuildArtifactsMavenArtifactsList) Wrap
 }
 
 
-func NewGoogleCloudbuildTriggerBuildArtifactsMavenArtifactsList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCloudbuildTriggerBuildArtifactsMavenArtifactsList {
+func NewGoogleCloudbuildTriggerBuildArtifactsMavenArtifactsList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleCloudbuildTriggerBuildArtifactsMavenArtifactsList {
 	_init_.Initialize()
 
 	if err := validateNewGoogleCloudbuildTriggerBuildArtifactsMavenArtifactsListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -132,7 +132,7 @@ func NewGoogleCloudbuildTriggerBuildArtifactsMavenArtifactsList(terraformResourc
 	return &j
 }
 
-func NewGoogleCloudbuildTriggerBuildArtifactsMavenArtifactsList_Override(g GoogleCloudbuildTriggerBuildArtifactsMavenArtifactsList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewGoogleCloudbuildTriggerBuildArtifactsMavenArtifactsList_Override(g GoogleCloudbuildTriggerBuildArtifactsMavenArtifactsList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -164,7 +164,7 @@ func (j *jsiiProxy_GoogleCloudbuildTriggerBuildArtifactsMavenArtifactsList)SetTe
 	)
 }
 
-func (j *jsiiProxy_GoogleCloudbuildTriggerBuildArtifactsMavenArtifactsList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_GoogleCloudbuildTriggerBuildArtifactsMavenArtifactsList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -186,11 +186,11 @@ func (j *jsiiProxy_GoogleCloudbuildTriggerBuildArtifactsMavenArtifactsList)SetWr
 	)
 }
 
-func (g *jsiiProxy_GoogleCloudbuildTriggerBuildArtifactsMavenArtifactsList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (g *jsiiProxy_GoogleCloudbuildTriggerBuildArtifactsMavenArtifactsList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := g.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		g,
@@ -231,7 +231,7 @@ func (g *jsiiProxy_GoogleCloudbuildTriggerBuildArtifactsMavenArtifactsList) Get(
 	return returns
 }
 
-func (g *jsiiProxy_GoogleCloudbuildTriggerBuildArtifactsMavenArtifactsList) Resolve(context cdktf.IResolveContext) interface{} {
+func (g *jsiiProxy_GoogleCloudbuildTriggerBuildArtifactsMavenArtifactsList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

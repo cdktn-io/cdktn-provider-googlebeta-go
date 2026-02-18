@@ -15,7 +15,7 @@ func (g *jsiiProxy_GoogleContainerNodePoolNodeConfigEffectiveTaintsList) validat
 	return nil
 }
 
-func (g *jsiiProxy_GoogleContainerNodePoolNodeConfigEffectiveTaintsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleContainerNodePoolNodeConfigEffectiveTaintsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_GoogleContainerNodePoolNodeConfigEffectiveTaintsList) validat
 	return nil
 }
 
-func (j *jsiiProxy_GoogleContainerNodePoolNodeConfigEffectiveTaintsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleContainerNodePoolNodeConfigEffectiveTaintsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_GoogleContainerNodePoolNodeConfigEffectiveTaintsList) validat
 	return nil
 }
 
-func validateNewGoogleContainerNodePoolNodeConfigEffectiveTaintsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGoogleContainerNodePoolNodeConfigEffectiveTaintsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

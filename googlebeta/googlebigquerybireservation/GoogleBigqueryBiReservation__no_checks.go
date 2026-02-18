@@ -111,7 +111,7 @@ func (j *jsiiProxy_GoogleBigqueryBiReservation) validateSetIdParameters(val *str
 	return nil
 }
 
-func (j *jsiiProxy_GoogleBigqueryBiReservation) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleBigqueryBiReservation) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

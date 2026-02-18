@@ -15,7 +15,7 @@ func (g *jsiiProxy_GoogleGkeHubMembershipRbacRoleBindingStateList) validateGetPa
 	return nil
 }
 
-func (g *jsiiProxy_GoogleGkeHubMembershipRbacRoleBindingStateList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleGkeHubMembershipRbacRoleBindingStateList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_GoogleGkeHubMembershipRbacRoleBindingStateList) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_GoogleGkeHubMembershipRbacRoleBindingStateList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleGkeHubMembershipRbacRoleBindingStateList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_GoogleGkeHubMembershipRbacRoleBindingStateList) validateSetWr
 	return nil
 }
 
-func validateNewGoogleGkeHubMembershipRbacRoleBindingStateListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGoogleGkeHubMembershipRbacRoleBindingStateListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

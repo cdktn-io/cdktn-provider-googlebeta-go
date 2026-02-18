@@ -151,7 +151,7 @@ func (j *jsiiProxy_GoogleComputeHealthCheck) validateSetIdParameters(val *string
 	return nil
 }
 
-func (j *jsiiProxy_GoogleComputeHealthCheck) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleComputeHealthCheck) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

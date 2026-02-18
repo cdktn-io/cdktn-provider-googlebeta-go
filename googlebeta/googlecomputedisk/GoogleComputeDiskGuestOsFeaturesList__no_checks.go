@@ -15,7 +15,7 @@ func (g *jsiiProxy_GoogleComputeDiskGuestOsFeaturesList) validateGetParameters(i
 	return nil
 }
 
-func (g *jsiiProxy_GoogleComputeDiskGuestOsFeaturesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleComputeDiskGuestOsFeaturesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_GoogleComputeDiskGuestOsFeaturesList) validateSetTerraformAtt
 	return nil
 }
 
-func (j *jsiiProxy_GoogleComputeDiskGuestOsFeaturesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleComputeDiskGuestOsFeaturesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_GoogleComputeDiskGuestOsFeaturesList) validateSetWrapsSetPara
 	return nil
 }
 
-func validateNewGoogleComputeDiskGuestOsFeaturesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGoogleComputeDiskGuestOsFeaturesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

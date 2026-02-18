@@ -15,7 +15,7 @@ func (g *jsiiProxy_GoogleIdentityPlatformConfigMfaProviderConfigsList) validateG
 	return nil
 }
 
-func (g *jsiiProxy_GoogleIdentityPlatformConfigMfaProviderConfigsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleIdentityPlatformConfigMfaProviderConfigsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_GoogleIdentityPlatformConfigMfaProviderConfigsList) validateS
 	return nil
 }
 
-func (j *jsiiProxy_GoogleIdentityPlatformConfigMfaProviderConfigsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleIdentityPlatformConfigMfaProviderConfigsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_GoogleIdentityPlatformConfigMfaProviderConfigsList) validateS
 	return nil
 }
 
-func validateNewGoogleIdentityPlatformConfigMfaProviderConfigsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGoogleIdentityPlatformConfigMfaProviderConfigsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

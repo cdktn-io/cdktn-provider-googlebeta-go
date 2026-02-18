@@ -51,7 +51,7 @@ func (g *jsiiProxy_GoogleDataprocBatchEnvironmentConfigExecutionConfigOutputRefe
 	return nil
 }
 
-func (g *jsiiProxy_GoogleDataprocBatchEnvironmentConfigExecutionConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleDataprocBatchEnvironmentConfigExecutionConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -95,7 +95,7 @@ func (j *jsiiProxy_GoogleDataprocBatchEnvironmentConfigExecutionConfigOutputRefe
 	return nil
 }
 
-func (j *jsiiProxy_GoogleDataprocBatchEnvironmentConfigExecutionConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleDataprocBatchEnvironmentConfigExecutionConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -103,7 +103,7 @@ func (j *jsiiProxy_GoogleDataprocBatchEnvironmentConfigExecutionConfigOutputRefe
 	return nil
 }
 
-func validateNewGoogleDataprocBatchEnvironmentConfigExecutionConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleDataprocBatchEnvironmentConfigExecutionConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

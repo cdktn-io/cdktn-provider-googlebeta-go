@@ -107,7 +107,7 @@ func (j *jsiiProxy_GoogleComputeRegionBackendServiceIamBinding) validateSetIdPar
 	return nil
 }
 
-func (j *jsiiProxy_GoogleComputeRegionBackendServiceIamBinding) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleComputeRegionBackendServiceIamBinding) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

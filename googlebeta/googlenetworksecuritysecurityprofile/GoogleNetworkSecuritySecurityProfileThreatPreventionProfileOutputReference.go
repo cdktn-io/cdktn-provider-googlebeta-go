@@ -5,14 +5,14 @@ package googlenetworksecuritysecurityprofile
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlenetworksecuritysecurityprofile/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlenetworksecuritysecurityprofile/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type GoogleNetworkSecuritySecurityProfileThreatPreventionProfileOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AntivirusOverrides() GoogleNetworkSecuritySecurityProfileThreatPreventionProfileAntivirusOverridesList
 	AntivirusOverridesInput() interface{}
 	// the index of the complex object in a list.
@@ -41,9 +41,9 @@ type GoogleNetworkSecuritySecurityProfileThreatPreventionProfileOutputReference 
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	ThreatOverrides() GoogleNetworkSecuritySecurityProfileThreatPreventionProfileThreatOverridesList
 	ThreatOverridesInput() interface{}
 	// Experimental.
@@ -51,7 +51,7 @@ type GoogleNetworkSecuritySecurityProfileThreatPreventionProfileOutputReference 
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,9 +67,9 @@ type GoogleNetworkSecuritySecurityProfileThreatPreventionProfileOutputReference 
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutAntivirusOverrides(value interface{})
 	PutSeverityOverrides(value interface{})
 	PutThreatOverrides(value interface{})
@@ -78,7 +78,7 @@ type GoogleNetworkSecuritySecurityProfileThreatPreventionProfileOutputReference 
 	ResetThreatOverrides()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -88,7 +88,7 @@ type GoogleNetworkSecuritySecurityProfileThreatPreventionProfileOutputReference 
 
 // The jsii proxy struct for GoogleNetworkSecuritySecurityProfileThreatPreventionProfileOutputReference
 type jsiiProxy_GoogleNetworkSecuritySecurityProfileThreatPreventionProfileOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_GoogleNetworkSecuritySecurityProfileThreatPreventionProfileOutputReference) AntivirusOverrides() GoogleNetworkSecuritySecurityProfileThreatPreventionProfileAntivirusOverridesList {
@@ -191,8 +191,8 @@ func (j *jsiiProxy_GoogleNetworkSecuritySecurityProfileThreatPreventionProfileOu
 	return returns
 }
 
-func (j *jsiiProxy_GoogleNetworkSecuritySecurityProfileThreatPreventionProfileOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_GoogleNetworkSecuritySecurityProfileThreatPreventionProfileOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -222,7 +222,7 @@ func (j *jsiiProxy_GoogleNetworkSecuritySecurityProfileThreatPreventionProfileOu
 }
 
 
-func NewGoogleNetworkSecuritySecurityProfileThreatPreventionProfileOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) GoogleNetworkSecuritySecurityProfileThreatPreventionProfileOutputReference {
+func NewGoogleNetworkSecuritySecurityProfileThreatPreventionProfileOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) GoogleNetworkSecuritySecurityProfileThreatPreventionProfileOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewGoogleNetworkSecuritySecurityProfileThreatPreventionProfileOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -239,7 +239,7 @@ func NewGoogleNetworkSecuritySecurityProfileThreatPreventionProfileOutputReferen
 	return &j
 }
 
-func NewGoogleNetworkSecuritySecurityProfileThreatPreventionProfileOutputReference_Override(g GoogleNetworkSecuritySecurityProfileThreatPreventionProfileOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewGoogleNetworkSecuritySecurityProfileThreatPreventionProfileOutputReference_Override(g GoogleNetworkSecuritySecurityProfileThreatPreventionProfileOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -293,7 +293,7 @@ func (j *jsiiProxy_GoogleNetworkSecuritySecurityProfileThreatPreventionProfileOu
 	)
 }
 
-func (j *jsiiProxy_GoogleNetworkSecuritySecurityProfileThreatPreventionProfileOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_GoogleNetworkSecuritySecurityProfileThreatPreventionProfileOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -333,11 +333,11 @@ func (g *jsiiProxy_GoogleNetworkSecuritySecurityProfileThreatPreventionProfileOu
 	return returns
 }
 
-func (g *jsiiProxy_GoogleNetworkSecuritySecurityProfileThreatPreventionProfileOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleNetworkSecuritySecurityProfileThreatPreventionProfileOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -461,8 +461,8 @@ func (g *jsiiProxy_GoogleNetworkSecuritySecurityProfileThreatPreventionProfileOu
 	return returns
 }
 
-func (g *jsiiProxy_GoogleNetworkSecuritySecurityProfileThreatPreventionProfileOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (g *jsiiProxy_GoogleNetworkSecuritySecurityProfileThreatPreventionProfileOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -474,11 +474,11 @@ func (g *jsiiProxy_GoogleNetworkSecuritySecurityProfileThreatPreventionProfileOu
 	return returns
 }
 
-func (g *jsiiProxy_GoogleNetworkSecuritySecurityProfileThreatPreventionProfileOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleNetworkSecuritySecurityProfileThreatPreventionProfileOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -547,7 +547,7 @@ func (g *jsiiProxy_GoogleNetworkSecuritySecurityProfileThreatPreventionProfileOu
 	)
 }
 
-func (g *jsiiProxy_GoogleNetworkSecuritySecurityProfileThreatPreventionProfileOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (g *jsiiProxy_GoogleNetworkSecuritySecurityProfileThreatPreventionProfileOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

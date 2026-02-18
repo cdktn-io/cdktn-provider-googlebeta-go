@@ -119,7 +119,7 @@ func (j *jsiiProxy_GoogleDataLossPreventionDeidentifyTemplate) validateSetIdPara
 	return nil
 }
 
-func (j *jsiiProxy_GoogleDataLossPreventionDeidentifyTemplate) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleDataLossPreventionDeidentifyTemplate) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

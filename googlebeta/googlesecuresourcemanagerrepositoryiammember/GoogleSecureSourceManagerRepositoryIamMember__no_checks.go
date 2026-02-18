@@ -107,7 +107,7 @@ func (j *jsiiProxy_GoogleSecureSourceManagerRepositoryIamMember) validateSetIdPa
 	return nil
 }
 
-func (j *jsiiProxy_GoogleSecureSourceManagerRepositoryIamMember) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleSecureSourceManagerRepositoryIamMember) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

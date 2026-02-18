@@ -51,7 +51,7 @@ func (g *jsiiProxy_GoogleIamPrincipalAccessBoundaryPolicyDetailsOutputReference)
 	return nil
 }
 
-func (g *jsiiProxy_GoogleIamPrincipalAccessBoundaryPolicyDetailsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleIamPrincipalAccessBoundaryPolicyDetailsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_GoogleIamPrincipalAccessBoundaryPolicyDetailsOutputReference)
 	return nil
 }
 
-func (j *jsiiProxy_GoogleIamPrincipalAccessBoundaryPolicyDetailsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleIamPrincipalAccessBoundaryPolicyDetailsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleIamPrincipalAccessBoundaryPolicyDetailsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleIamPrincipalAccessBoundaryPolicyDetailsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

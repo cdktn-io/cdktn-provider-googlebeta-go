@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleComputeInterconnectApplicationAwareInterconnectStrictPr
 	return nil
 }
 
-func (g *jsiiProxy_GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_GoogleComputeInterconnectApplicationAwareInterconnectStrictPr
 	return nil
 }
 
-func (j *jsiiProxy_GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

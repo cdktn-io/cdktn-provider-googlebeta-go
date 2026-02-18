@@ -111,7 +111,7 @@ func (j *jsiiProxy_GoogleFirebaserulesRuleset) validateSetIdParameters(val *stri
 	return nil
 }
 
-func (j *jsiiProxy_GoogleFirebaserulesRuleset) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleFirebaserulesRuleset) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

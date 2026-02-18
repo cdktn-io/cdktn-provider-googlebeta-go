@@ -111,7 +111,7 @@ func (j *jsiiProxy_GoogleServiceDirectoryNamespace) validateSetLabelsParameters(
 	return nil
 }
 
-func (j *jsiiProxy_GoogleServiceDirectoryNamespace) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleServiceDirectoryNamespace) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

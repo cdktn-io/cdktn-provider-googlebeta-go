@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleCertificateManagerCertificateMapGclbTargetsIpConfigsOut
 	return nil
 }
 
-func (g *jsiiProxy_GoogleCertificateManagerCertificateMapGclbTargetsIpConfigsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleCertificateManagerCertificateMapGclbTargetsIpConfigsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_GoogleCertificateManagerCertificateMapGclbTargetsIpConfigsOut
 	return nil
 }
 
-func (j *jsiiProxy_GoogleCertificateManagerCertificateMapGclbTargetsIpConfigsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleCertificateManagerCertificateMapGclbTargetsIpConfigsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleCertificateManagerCertificateMapGclbTargetsIpConfigsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewGoogleCertificateManagerCertificateMapGclbTargetsIpConfigsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

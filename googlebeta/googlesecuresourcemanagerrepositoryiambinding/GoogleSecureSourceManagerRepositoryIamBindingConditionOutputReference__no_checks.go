@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleSecureSourceManagerRepositoryIamBindingConditionOutputR
 	return nil
 }
 
-func (g *jsiiProxy_GoogleSecureSourceManagerRepositoryIamBindingConditionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleSecureSourceManagerRepositoryIamBindingConditionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_GoogleSecureSourceManagerRepositoryIamBindingConditionOutputR
 	return nil
 }
 
-func (j *jsiiProxy_GoogleSecureSourceManagerRepositoryIamBindingConditionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleSecureSourceManagerRepositoryIamBindingConditionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_GoogleSecureSourceManagerRepositoryIamBindingConditionOutputR
 	return nil
 }
 
-func validateNewGoogleSecureSourceManagerRepositoryIamBindingConditionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleSecureSourceManagerRepositoryIamBindingConditionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (g *jsiiProxy_GoogleAppEngineStandardAppVersionHandlersList) validateGetPar
 	return nil
 }
 
-func (g *jsiiProxy_GoogleAppEngineStandardAppVersionHandlersList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleAppEngineStandardAppVersionHandlersList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_GoogleAppEngineStandardAppVersionHandlersList) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_GoogleAppEngineStandardAppVersionHandlersList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleAppEngineStandardAppVersionHandlersList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_GoogleAppEngineStandardAppVersionHandlersList) validateSetWra
 	return nil
 }
 
-func validateNewGoogleAppEngineStandardAppVersionHandlersListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGoogleAppEngineStandardAppVersionHandlersListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

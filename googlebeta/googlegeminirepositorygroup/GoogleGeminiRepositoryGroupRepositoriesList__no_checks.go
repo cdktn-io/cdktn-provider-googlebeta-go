@@ -15,7 +15,7 @@ func (g *jsiiProxy_GoogleGeminiRepositoryGroupRepositoriesList) validateGetParam
 	return nil
 }
 
-func (g *jsiiProxy_GoogleGeminiRepositoryGroupRepositoriesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleGeminiRepositoryGroupRepositoriesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_GoogleGeminiRepositoryGroupRepositoriesList) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_GoogleGeminiRepositoryGroupRepositoriesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleGeminiRepositoryGroupRepositoriesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_GoogleGeminiRepositoryGroupRepositoriesList) validateSetWraps
 	return nil
 }
 
-func validateNewGoogleGeminiRepositoryGroupRepositoriesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGoogleGeminiRepositoryGroupRepositoriesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

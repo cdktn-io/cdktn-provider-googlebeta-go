@@ -15,7 +15,7 @@ func (g *jsiiProxy_GoogleVmwareengineNetworkVpcNetworksList) validateGetParamete
 	return nil
 }
 
-func (g *jsiiProxy_GoogleVmwareengineNetworkVpcNetworksList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleVmwareengineNetworkVpcNetworksList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_GoogleVmwareengineNetworkVpcNetworksList) validateSetTerrafor
 	return nil
 }
 
-func (j *jsiiProxy_GoogleVmwareengineNetworkVpcNetworksList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleVmwareengineNetworkVpcNetworksList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_GoogleVmwareengineNetworkVpcNetworksList) validateSetWrapsSet
 	return nil
 }
 
-func validateNewGoogleVmwareengineNetworkVpcNetworksListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGoogleVmwareengineNetworkVpcNetworksListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

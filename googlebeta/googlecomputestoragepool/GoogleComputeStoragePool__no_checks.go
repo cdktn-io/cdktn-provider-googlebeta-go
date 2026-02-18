@@ -119,7 +119,7 @@ func (j *jsiiProxy_GoogleComputeStoragePool) validateSetLabelsParameters(val *ma
 	return nil
 }
 
-func (j *jsiiProxy_GoogleComputeStoragePool) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleComputeStoragePool) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

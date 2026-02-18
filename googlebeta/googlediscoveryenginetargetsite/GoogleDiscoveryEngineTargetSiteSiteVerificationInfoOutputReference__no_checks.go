@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleDiscoveryEngineTargetSiteSiteVerificationInfoOutputRefe
 	return nil
 }
 
-func (g *jsiiProxy_GoogleDiscoveryEngineTargetSiteSiteVerificationInfoOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleDiscoveryEngineTargetSiteSiteVerificationInfoOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_GoogleDiscoveryEngineTargetSiteSiteVerificationInfoOutputRefe
 	return nil
 }
 
-func (j *jsiiProxy_GoogleDiscoveryEngineTargetSiteSiteVerificationInfoOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleDiscoveryEngineTargetSiteSiteVerificationInfoOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleDiscoveryEngineTargetSiteSiteVerificationInfoOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewGoogleDiscoveryEngineTargetSiteSiteVerificationInfoOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

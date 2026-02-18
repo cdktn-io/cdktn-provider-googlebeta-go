@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleOsConfigGuestPoliciesRecipesUpdateStepsArchiveExtractio
 	return nil
 }
 
-func (g *jsiiProxy_GoogleOsConfigGuestPoliciesRecipesUpdateStepsArchiveExtractionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleOsConfigGuestPoliciesRecipesUpdateStepsArchiveExtractionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_GoogleOsConfigGuestPoliciesRecipesUpdateStepsArchiveExtractio
 	return nil
 }
 
-func (j *jsiiProxy_GoogleOsConfigGuestPoliciesRecipesUpdateStepsArchiveExtractionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleOsConfigGuestPoliciesRecipesUpdateStepsArchiveExtractionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_GoogleOsConfigGuestPoliciesRecipesUpdateStepsArchiveExtractio
 	return nil
 }
 
-func validateNewGoogleOsConfigGuestPoliciesRecipesUpdateStepsArchiveExtractionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleOsConfigGuestPoliciesRecipesUpdateStepsArchiveExtractionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

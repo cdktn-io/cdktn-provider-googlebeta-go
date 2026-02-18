@@ -75,7 +75,7 @@ func (j *jsiiProxy_DataGoogleDnsManagedZones) validateSetCountParameters(val int
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleDnsManagedZones) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataGoogleDnsManagedZones) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

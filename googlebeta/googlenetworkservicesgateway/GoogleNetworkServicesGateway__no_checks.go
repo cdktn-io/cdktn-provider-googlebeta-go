@@ -139,7 +139,7 @@ func (j *jsiiProxy_GoogleNetworkServicesGateway) validateSetLabelsParameters(val
 	return nil
 }
 
-func (j *jsiiProxy_GoogleNetworkServicesGateway) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleNetworkServicesGateway) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

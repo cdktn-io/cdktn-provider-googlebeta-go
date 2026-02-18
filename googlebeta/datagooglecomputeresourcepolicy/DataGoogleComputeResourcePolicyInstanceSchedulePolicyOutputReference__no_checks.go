@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataGoogleComputeResourcePolicyInstanceSchedulePolicyOutputRe
 	return nil
 }
 
-func (d *jsiiProxy_DataGoogleComputeResourcePolicyInstanceSchedulePolicyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataGoogleComputeResourcePolicyInstanceSchedulePolicyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataGoogleComputeResourcePolicyInstanceSchedulePolicyOutputRe
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleComputeResourcePolicyInstanceSchedulePolicyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataGoogleComputeResourcePolicyInstanceSchedulePolicyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataGoogleComputeResourcePolicyInstanceSchedulePolicyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataGoogleComputeResourcePolicyInstanceSchedulePolicyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

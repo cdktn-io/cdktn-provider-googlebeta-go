@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleBiglakeDatabaseHiveOptionsOutputReference) validateInte
 	return nil
 }
 
-func (g *jsiiProxy_GoogleBiglakeDatabaseHiveOptionsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleBiglakeDatabaseHiveOptionsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_GoogleBiglakeDatabaseHiveOptionsOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_GoogleBiglakeDatabaseHiveOptionsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleBiglakeDatabaseHiveOptionsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleBiglakeDatabaseHiveOptionsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleBiglakeDatabaseHiveOptionsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

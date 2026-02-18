@@ -111,7 +111,7 @@ func (j *jsiiProxy_GoogleFirebaseHostingRelease) validateSetIdParameters(val *st
 	return nil
 }
 
-func (j *jsiiProxy_GoogleFirebaseHostingRelease) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleFirebaseHostingRelease) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

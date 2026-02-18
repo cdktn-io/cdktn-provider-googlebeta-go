@@ -51,7 +51,7 @@ func (g *jsiiProxy_GoogleComputeBackendServiceNetworkPassThroughLbTrafficPolicyO
 	return nil
 }
 
-func (g *jsiiProxy_GoogleComputeBackendServiceNetworkPassThroughLbTrafficPolicyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleComputeBackendServiceNetworkPassThroughLbTrafficPolicyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_GoogleComputeBackendServiceNetworkPassThroughLbTrafficPolicyO
 	return nil
 }
 
-func (j *jsiiProxy_GoogleComputeBackendServiceNetworkPassThroughLbTrafficPolicyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleComputeBackendServiceNetworkPassThroughLbTrafficPolicyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleComputeBackendServiceNetworkPassThroughLbTrafficPolicyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleComputeBackendServiceNetworkPassThroughLbTrafficPolicyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

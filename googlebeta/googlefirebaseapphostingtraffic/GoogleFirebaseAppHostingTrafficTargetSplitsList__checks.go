@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (g *jsiiProxy_GoogleFirebaseAppHostingTrafficTargetSplitsList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -29,7 +29,7 @@ func (g *jsiiProxy_GoogleFirebaseAppHostingTrafficTargetSplitsList) validateGetP
 	return nil
 }
 
-func (g *jsiiProxy_GoogleFirebaseAppHostingTrafficTargetSplitsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleFirebaseAppHostingTrafficTargetSplitsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -39,7 +39,7 @@ func (g *jsiiProxy_GoogleFirebaseAppHostingTrafficTargetSplitsList) validateReso
 
 func (j *jsiiProxy_GoogleFirebaseAppHostingTrafficTargetSplitsList) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*GoogleFirebaseAppHostingTrafficTargetSplits:
 		val := val.(*[]*GoogleFirebaseAppHostingTrafficTargetSplits)
@@ -58,7 +58,7 @@ func (j *jsiiProxy_GoogleFirebaseAppHostingTrafficTargetSplitsList) validateSetI
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *[]*GoogleFirebaseAppHostingTrafficTargetSplits; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *[]*GoogleFirebaseAppHostingTrafficTargetSplits; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -73,7 +73,7 @@ func (j *jsiiProxy_GoogleFirebaseAppHostingTrafficTargetSplitsList) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_GoogleFirebaseAppHostingTrafficTargetSplitsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleFirebaseAppHostingTrafficTargetSplitsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -89,7 +89,7 @@ func (j *jsiiProxy_GoogleFirebaseAppHostingTrafficTargetSplitsList) validateSetW
 	return nil
 }
 
-func validateNewGoogleFirebaseAppHostingTrafficTargetSplitsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGoogleFirebaseAppHostingTrafficTargetSplitsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

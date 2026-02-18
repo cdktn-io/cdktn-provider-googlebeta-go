@@ -111,7 +111,7 @@ func (j *jsiiProxy_GoogleBigtableInstanceIamMember) validateSetInstanceParameter
 	return nil
 }
 
-func (j *jsiiProxy_GoogleBigtableInstanceIamMember) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleBigtableInstanceIamMember) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

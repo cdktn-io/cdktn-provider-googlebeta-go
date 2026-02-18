@@ -119,7 +119,7 @@ func (j *jsiiProxy_GoogleFirebaseAndroidApp) validateSetIdParameters(val *string
 	return nil
 }
 
-func (j *jsiiProxy_GoogleFirebaseAndroidApp) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleFirebaseAndroidApp) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

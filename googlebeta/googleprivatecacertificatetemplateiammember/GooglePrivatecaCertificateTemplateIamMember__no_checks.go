@@ -111,7 +111,7 @@ func (j *jsiiProxy_GooglePrivatecaCertificateTemplateIamMember) validateSetIdPar
 	return nil
 }
 
-func (j *jsiiProxy_GooglePrivatecaCertificateTemplateIamMember) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GooglePrivatecaCertificateTemplateIamMember) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

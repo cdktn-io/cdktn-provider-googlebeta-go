@@ -127,7 +127,7 @@ func (j *jsiiProxy_GoogleComputeTargetPool) validateSetInstancesParameters(val *
 	return nil
 }
 
-func (j *jsiiProxy_GoogleComputeTargetPool) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleComputeTargetPool) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (g *jsiiProxy_GoogleOracleDatabaseCloudExadataInfrastructurePropertiesCusto
 	return nil
 }
 
-func (g *jsiiProxy_GoogleOracleDatabaseCloudExadataInfrastructurePropertiesCustomerContactsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleOracleDatabaseCloudExadataInfrastructurePropertiesCustomerContactsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_GoogleOracleDatabaseCloudExadataInfrastructurePropertiesCusto
 	return nil
 }
 
-func (j *jsiiProxy_GoogleOracleDatabaseCloudExadataInfrastructurePropertiesCustomerContactsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleOracleDatabaseCloudExadataInfrastructurePropertiesCustomerContactsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_GoogleOracleDatabaseCloudExadataInfrastructurePropertiesCusto
 	return nil
 }
 
-func validateNewGoogleOracleDatabaseCloudExadataInfrastructurePropertiesCustomerContactsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGoogleOracleDatabaseCloudExadataInfrastructurePropertiesCustomerContactsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

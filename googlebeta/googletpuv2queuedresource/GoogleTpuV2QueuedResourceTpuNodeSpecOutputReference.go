@@ -5,14 +5,14 @@ package googletpuv2queuedresource
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googletpuv2queuedresource/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googletpuv2queuedresource/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type GoogleTpuV2QueuedResourceTpuNodeSpecOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -45,15 +45,15 @@ type GoogleTpuV2QueuedResourceTpuNodeSpecOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -69,14 +69,14 @@ type GoogleTpuV2QueuedResourceTpuNodeSpecOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutNodeAttribute(value *GoogleTpuV2QueuedResourceTpuNodeSpecNode)
 	ResetNodeId()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -86,7 +86,7 @@ type GoogleTpuV2QueuedResourceTpuNodeSpecOutputReference interface {
 
 // The jsii proxy struct for GoogleTpuV2QueuedResourceTpuNodeSpecOutputReference
 type jsiiProxy_GoogleTpuV2QueuedResourceTpuNodeSpecOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_GoogleTpuV2QueuedResourceTpuNodeSpecOutputReference) ComplexObjectIndex() interface{} {
@@ -209,8 +209,8 @@ func (j *jsiiProxy_GoogleTpuV2QueuedResourceTpuNodeSpecOutputReference) Terrafor
 	return returns
 }
 
-func (j *jsiiProxy_GoogleTpuV2QueuedResourceTpuNodeSpecOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_GoogleTpuV2QueuedResourceTpuNodeSpecOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -220,7 +220,7 @@ func (j *jsiiProxy_GoogleTpuV2QueuedResourceTpuNodeSpecOutputReference) Terrafor
 }
 
 
-func NewGoogleTpuV2QueuedResourceTpuNodeSpecOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) GoogleTpuV2QueuedResourceTpuNodeSpecOutputReference {
+func NewGoogleTpuV2QueuedResourceTpuNodeSpecOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) GoogleTpuV2QueuedResourceTpuNodeSpecOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewGoogleTpuV2QueuedResourceTpuNodeSpecOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -237,7 +237,7 @@ func NewGoogleTpuV2QueuedResourceTpuNodeSpecOutputReference(terraformResource cd
 	return &j
 }
 
-func NewGoogleTpuV2QueuedResourceTpuNodeSpecOutputReference_Override(g GoogleTpuV2QueuedResourceTpuNodeSpecOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewGoogleTpuV2QueuedResourceTpuNodeSpecOutputReference_Override(g GoogleTpuV2QueuedResourceTpuNodeSpecOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -313,7 +313,7 @@ func (j *jsiiProxy_GoogleTpuV2QueuedResourceTpuNodeSpecOutputReference)SetTerraf
 	)
 }
 
-func (j *jsiiProxy_GoogleTpuV2QueuedResourceTpuNodeSpecOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_GoogleTpuV2QueuedResourceTpuNodeSpecOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -353,11 +353,11 @@ func (g *jsiiProxy_GoogleTpuV2QueuedResourceTpuNodeSpecOutputReference) GetAnyMa
 	return returns
 }
 
-func (g *jsiiProxy_GoogleTpuV2QueuedResourceTpuNodeSpecOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleTpuV2QueuedResourceTpuNodeSpecOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -481,8 +481,8 @@ func (g *jsiiProxy_GoogleTpuV2QueuedResourceTpuNodeSpecOutputReference) GetStrin
 	return returns
 }
 
-func (g *jsiiProxy_GoogleTpuV2QueuedResourceTpuNodeSpecOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (g *jsiiProxy_GoogleTpuV2QueuedResourceTpuNodeSpecOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -494,11 +494,11 @@ func (g *jsiiProxy_GoogleTpuV2QueuedResourceTpuNodeSpecOutputReference) Interpol
 	return returns
 }
 
-func (g *jsiiProxy_GoogleTpuV2QueuedResourceTpuNodeSpecOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleTpuV2QueuedResourceTpuNodeSpecOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -529,7 +529,7 @@ func (g *jsiiProxy_GoogleTpuV2QueuedResourceTpuNodeSpecOutputReference) ResetNod
 	)
 }
 
-func (g *jsiiProxy_GoogleTpuV2QueuedResourceTpuNodeSpecOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (g *jsiiProxy_GoogleTpuV2QueuedResourceTpuNodeSpecOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

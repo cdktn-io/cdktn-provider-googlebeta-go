@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (g *jsiiProxy_GoogleCloudQuotasQuotaPreferenceQuotaConfigOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -93,7 +93,7 @@ func (g *jsiiProxy_GoogleCloudQuotasQuotaPreferenceQuotaConfigOutputReference) v
 	return nil
 }
 
-func (g *jsiiProxy_GoogleCloudQuotasQuotaPreferenceQuotaConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleCloudQuotasQuotaPreferenceQuotaConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -198,7 +198,7 @@ func (j *jsiiProxy_GoogleCloudQuotasQuotaPreferenceQuotaConfigOutputReference) v
 	return nil
 }
 
-func (j *jsiiProxy_GoogleCloudQuotasQuotaPreferenceQuotaConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleCloudQuotasQuotaPreferenceQuotaConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -206,7 +206,7 @@ func (j *jsiiProxy_GoogleCloudQuotasQuotaPreferenceQuotaConfigOutputReference) v
 	return nil
 }
 
-func validateNewGoogleCloudQuotasQuotaPreferenceQuotaConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleCloudQuotasQuotaPreferenceQuotaConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

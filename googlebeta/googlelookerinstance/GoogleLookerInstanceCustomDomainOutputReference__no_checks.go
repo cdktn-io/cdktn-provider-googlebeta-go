@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleLookerInstanceCustomDomainOutputReference) validateInte
 	return nil
 }
 
-func (g *jsiiProxy_GoogleLookerInstanceCustomDomainOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleLookerInstanceCustomDomainOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_GoogleLookerInstanceCustomDomainOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_GoogleLookerInstanceCustomDomainOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleLookerInstanceCustomDomainOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleLookerInstanceCustomDomainOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleLookerInstanceCustomDomainOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

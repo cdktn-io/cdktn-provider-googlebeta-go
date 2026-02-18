@@ -111,7 +111,7 @@ func (j *jsiiProxy_GoogleAppEngineServiceSplitTraffic) validateSetIdParameters(v
 	return nil
 }
 
-func (j *jsiiProxy_GoogleAppEngineServiceSplitTraffic) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleAppEngineServiceSplitTraffic) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

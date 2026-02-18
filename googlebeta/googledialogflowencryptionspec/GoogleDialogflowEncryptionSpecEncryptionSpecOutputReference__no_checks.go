@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleDialogflowEncryptionSpecEncryptionSpecOutputReference) 
 	return nil
 }
 
-func (g *jsiiProxy_GoogleDialogflowEncryptionSpecEncryptionSpecOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleDialogflowEncryptionSpecEncryptionSpecOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_GoogleDialogflowEncryptionSpecEncryptionSpecOutputReference) 
 	return nil
 }
 
-func (j *jsiiProxy_GoogleDialogflowEncryptionSpecEncryptionSpecOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleDialogflowEncryptionSpecEncryptionSpecOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleDialogflowEncryptionSpecEncryptionSpecOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleDialogflowEncryptionSpecEncryptionSpecOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

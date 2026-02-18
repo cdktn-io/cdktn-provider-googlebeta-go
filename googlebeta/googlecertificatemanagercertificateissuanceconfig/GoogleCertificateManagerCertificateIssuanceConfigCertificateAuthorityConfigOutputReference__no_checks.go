@@ -51,7 +51,7 @@ func (g *jsiiProxy_GoogleCertificateManagerCertificateIssuanceConfigCertificateA
 	return nil
 }
 
-func (g *jsiiProxy_GoogleCertificateManagerCertificateIssuanceConfigCertificateAuthorityConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleCertificateManagerCertificateIssuanceConfigCertificateAuthorityConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_GoogleCertificateManagerCertificateIssuanceConfigCertificateA
 	return nil
 }
 
-func (j *jsiiProxy_GoogleCertificateManagerCertificateIssuanceConfigCertificateAuthorityConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleCertificateManagerCertificateIssuanceConfigCertificateAuthorityConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleCertificateManagerCertificateIssuanceConfigCertificateAuthorityConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleCertificateManagerCertificateIssuanceConfigCertificateAuthorityConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

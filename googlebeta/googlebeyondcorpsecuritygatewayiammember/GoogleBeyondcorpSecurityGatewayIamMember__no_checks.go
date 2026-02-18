@@ -107,7 +107,7 @@ func (j *jsiiProxy_GoogleBeyondcorpSecurityGatewayIamMember) validateSetIdParame
 	return nil
 }
 
-func (j *jsiiProxy_GoogleBeyondcorpSecurityGatewayIamMember) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleBeyondcorpSecurityGatewayIamMember) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

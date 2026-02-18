@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleIdentityPlatformConfigMonitoringRequestLoggingOutputRef
 	return nil
 }
 
-func (g *jsiiProxy_GoogleIdentityPlatformConfigMonitoringRequestLoggingOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleIdentityPlatformConfigMonitoringRequestLoggingOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_GoogleIdentityPlatformConfigMonitoringRequestLoggingOutputRef
 	return nil
 }
 
-func (j *jsiiProxy_GoogleIdentityPlatformConfigMonitoringRequestLoggingOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleIdentityPlatformConfigMonitoringRequestLoggingOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleIdentityPlatformConfigMonitoringRequestLoggingOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleIdentityPlatformConfigMonitoringRequestLoggingOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

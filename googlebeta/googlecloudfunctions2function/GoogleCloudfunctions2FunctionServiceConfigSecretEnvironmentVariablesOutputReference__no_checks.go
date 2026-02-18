@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleCloudfunctions2FunctionServiceConfigSecretEnvironmentVa
 	return nil
 }
 
-func (g *jsiiProxy_GoogleCloudfunctions2FunctionServiceConfigSecretEnvironmentVariablesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleCloudfunctions2FunctionServiceConfigSecretEnvironmentVariablesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_GoogleCloudfunctions2FunctionServiceConfigSecretEnvironmentVa
 	return nil
 }
 
-func (j *jsiiProxy_GoogleCloudfunctions2FunctionServiceConfigSecretEnvironmentVariablesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleCloudfunctions2FunctionServiceConfigSecretEnvironmentVariablesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_GoogleCloudfunctions2FunctionServiceConfigSecretEnvironmentVa
 	return nil
 }
 
-func validateNewGoogleCloudfunctions2FunctionServiceConfigSecretEnvironmentVariablesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewGoogleCloudfunctions2FunctionServiceConfigSecretEnvironmentVariablesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

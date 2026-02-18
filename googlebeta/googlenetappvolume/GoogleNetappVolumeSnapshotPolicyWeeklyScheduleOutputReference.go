@@ -5,14 +5,14 @@ package googlenetappvolume
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlenetappvolume/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlenetappvolume/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type GoogleNetappVolumeSnapshotPolicyWeeklyScheduleOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -49,15 +49,15 @@ type GoogleNetappVolumeSnapshotPolicyWeeklyScheduleOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -73,15 +73,15 @@ type GoogleNetappVolumeSnapshotPolicyWeeklyScheduleOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetDay()
 	ResetHour()
 	ResetMinute()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -91,7 +91,7 @@ type GoogleNetappVolumeSnapshotPolicyWeeklyScheduleOutputReference interface {
 
 // The jsii proxy struct for GoogleNetappVolumeSnapshotPolicyWeeklyScheduleOutputReference
 type jsiiProxy_GoogleNetappVolumeSnapshotPolicyWeeklyScheduleOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_GoogleNetappVolumeSnapshotPolicyWeeklyScheduleOutputReference) ComplexObjectIndex() interface{} {
@@ -234,8 +234,8 @@ func (j *jsiiProxy_GoogleNetappVolumeSnapshotPolicyWeeklyScheduleOutputReference
 	return returns
 }
 
-func (j *jsiiProxy_GoogleNetappVolumeSnapshotPolicyWeeklyScheduleOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_GoogleNetappVolumeSnapshotPolicyWeeklyScheduleOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -245,7 +245,7 @@ func (j *jsiiProxy_GoogleNetappVolumeSnapshotPolicyWeeklyScheduleOutputReference
 }
 
 
-func NewGoogleNetappVolumeSnapshotPolicyWeeklyScheduleOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) GoogleNetappVolumeSnapshotPolicyWeeklyScheduleOutputReference {
+func NewGoogleNetappVolumeSnapshotPolicyWeeklyScheduleOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) GoogleNetappVolumeSnapshotPolicyWeeklyScheduleOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewGoogleNetappVolumeSnapshotPolicyWeeklyScheduleOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -262,7 +262,7 @@ func NewGoogleNetappVolumeSnapshotPolicyWeeklyScheduleOutputReference(terraformR
 	return &j
 }
 
-func NewGoogleNetappVolumeSnapshotPolicyWeeklyScheduleOutputReference_Override(g GoogleNetappVolumeSnapshotPolicyWeeklyScheduleOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewGoogleNetappVolumeSnapshotPolicyWeeklyScheduleOutputReference_Override(g GoogleNetappVolumeSnapshotPolicyWeeklyScheduleOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -360,7 +360,7 @@ func (j *jsiiProxy_GoogleNetappVolumeSnapshotPolicyWeeklyScheduleOutputReference
 	)
 }
 
-func (j *jsiiProxy_GoogleNetappVolumeSnapshotPolicyWeeklyScheduleOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_GoogleNetappVolumeSnapshotPolicyWeeklyScheduleOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -400,11 +400,11 @@ func (g *jsiiProxy_GoogleNetappVolumeSnapshotPolicyWeeklyScheduleOutputReference
 	return returns
 }
 
-func (g *jsiiProxy_GoogleNetappVolumeSnapshotPolicyWeeklyScheduleOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleNetappVolumeSnapshotPolicyWeeklyScheduleOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -528,8 +528,8 @@ func (g *jsiiProxy_GoogleNetappVolumeSnapshotPolicyWeeklyScheduleOutputReference
 	return returns
 }
 
-func (g *jsiiProxy_GoogleNetappVolumeSnapshotPolicyWeeklyScheduleOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (g *jsiiProxy_GoogleNetappVolumeSnapshotPolicyWeeklyScheduleOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -541,11 +541,11 @@ func (g *jsiiProxy_GoogleNetappVolumeSnapshotPolicyWeeklyScheduleOutputReference
 	return returns
 }
 
-func (g *jsiiProxy_GoogleNetappVolumeSnapshotPolicyWeeklyScheduleOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleNetappVolumeSnapshotPolicyWeeklyScheduleOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -581,7 +581,7 @@ func (g *jsiiProxy_GoogleNetappVolumeSnapshotPolicyWeeklyScheduleOutputReference
 	)
 }
 
-func (g *jsiiProxy_GoogleNetappVolumeSnapshotPolicyWeeklyScheduleOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (g *jsiiProxy_GoogleNetappVolumeSnapshotPolicyWeeklyScheduleOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

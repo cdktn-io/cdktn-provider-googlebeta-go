@@ -51,7 +51,7 @@ func (g *jsiiProxy_GoogleApigeeApiProductGraphqlOperationGroupOutputReference) v
 	return nil
 }
 
-func (g *jsiiProxy_GoogleApigeeApiProductGraphqlOperationGroupOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleApigeeApiProductGraphqlOperationGroupOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_GoogleApigeeApiProductGraphqlOperationGroupOutputReference) v
 	return nil
 }
 
-func (j *jsiiProxy_GoogleApigeeApiProductGraphqlOperationGroupOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleApigeeApiProductGraphqlOperationGroupOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleApigeeApiProductGraphqlOperationGroupOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleApigeeApiProductGraphqlOperationGroupOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

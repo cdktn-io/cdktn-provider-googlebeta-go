@@ -119,7 +119,7 @@ func (j *jsiiProxy_GoogleFolderAccessApprovalSettings) validateSetIdParameters(v
 	return nil
 }
 
-func (j *jsiiProxy_GoogleFolderAccessApprovalSettings) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleFolderAccessApprovalSettings) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

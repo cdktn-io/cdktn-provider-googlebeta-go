@@ -123,7 +123,7 @@ func (j *jsiiProxy_GoogleVmwareenginePrivateCloud) validateSetIdParameters(val *
 	return nil
 }
 
-func (j *jsiiProxy_GoogleVmwareenginePrivateCloud) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleVmwareenginePrivateCloud) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

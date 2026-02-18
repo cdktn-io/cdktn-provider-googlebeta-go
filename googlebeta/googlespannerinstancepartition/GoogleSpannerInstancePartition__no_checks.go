@@ -119,7 +119,7 @@ func (j *jsiiProxy_GoogleSpannerInstancePartition) validateSetInstanceParameters
 	return nil
 }
 
-func (j *jsiiProxy_GoogleSpannerInstancePartition) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleSpannerInstancePartition) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

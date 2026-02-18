@@ -119,7 +119,7 @@ func (j *jsiiProxy_GoogleLoggingFolderExclusion) validateSetIdParameters(val *st
 	return nil
 }
 
-func (j *jsiiProxy_GoogleLoggingFolderExclusion) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleLoggingFolderExclusion) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

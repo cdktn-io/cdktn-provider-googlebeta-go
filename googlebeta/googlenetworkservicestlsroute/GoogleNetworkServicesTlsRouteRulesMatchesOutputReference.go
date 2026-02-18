@@ -5,14 +5,14 @@ package googlenetworkservicestlsroute
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlenetworkservicestlsroute/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlenetworkservicestlsroute/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type GoogleNetworkServicesTlsRouteRulesMatchesOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	Alpn() *[]*string
 	SetAlpn(val *[]*string)
 	AlpnInput() *[]*string
@@ -43,15 +43,15 @@ type GoogleNetworkServicesTlsRouteRulesMatchesOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,14 +67,14 @@ type GoogleNetworkServicesTlsRouteRulesMatchesOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetAlpn()
 	ResetSniHost()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -84,7 +84,7 @@ type GoogleNetworkServicesTlsRouteRulesMatchesOutputReference interface {
 
 // The jsii proxy struct for GoogleNetworkServicesTlsRouteRulesMatchesOutputReference
 type jsiiProxy_GoogleNetworkServicesTlsRouteRulesMatchesOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_GoogleNetworkServicesTlsRouteRulesMatchesOutputReference) Alpn() *[]*string {
@@ -187,8 +187,8 @@ func (j *jsiiProxy_GoogleNetworkServicesTlsRouteRulesMatchesOutputReference) Ter
 	return returns
 }
 
-func (j *jsiiProxy_GoogleNetworkServicesTlsRouteRulesMatchesOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_GoogleNetworkServicesTlsRouteRulesMatchesOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -198,7 +198,7 @@ func (j *jsiiProxy_GoogleNetworkServicesTlsRouteRulesMatchesOutputReference) Ter
 }
 
 
-func NewGoogleNetworkServicesTlsRouteRulesMatchesOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) GoogleNetworkServicesTlsRouteRulesMatchesOutputReference {
+func NewGoogleNetworkServicesTlsRouteRulesMatchesOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) GoogleNetworkServicesTlsRouteRulesMatchesOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewGoogleNetworkServicesTlsRouteRulesMatchesOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -215,7 +215,7 @@ func NewGoogleNetworkServicesTlsRouteRulesMatchesOutputReference(terraformResour
 	return &j
 }
 
-func NewGoogleNetworkServicesTlsRouteRulesMatchesOutputReference_Override(g GoogleNetworkServicesTlsRouteRulesMatchesOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewGoogleNetworkServicesTlsRouteRulesMatchesOutputReference_Override(g GoogleNetworkServicesTlsRouteRulesMatchesOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -291,7 +291,7 @@ func (j *jsiiProxy_GoogleNetworkServicesTlsRouteRulesMatchesOutputReference)SetT
 	)
 }
 
-func (j *jsiiProxy_GoogleNetworkServicesTlsRouteRulesMatchesOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_GoogleNetworkServicesTlsRouteRulesMatchesOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -331,11 +331,11 @@ func (g *jsiiProxy_GoogleNetworkServicesTlsRouteRulesMatchesOutputReference) Get
 	return returns
 }
 
-func (g *jsiiProxy_GoogleNetworkServicesTlsRouteRulesMatchesOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleNetworkServicesTlsRouteRulesMatchesOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -459,8 +459,8 @@ func (g *jsiiProxy_GoogleNetworkServicesTlsRouteRulesMatchesOutputReference) Get
 	return returns
 }
 
-func (g *jsiiProxy_GoogleNetworkServicesTlsRouteRulesMatchesOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (g *jsiiProxy_GoogleNetworkServicesTlsRouteRulesMatchesOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -472,11 +472,11 @@ func (g *jsiiProxy_GoogleNetworkServicesTlsRouteRulesMatchesOutputReference) Int
 	return returns
 }
 
-func (g *jsiiProxy_GoogleNetworkServicesTlsRouteRulesMatchesOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleNetworkServicesTlsRouteRulesMatchesOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -504,7 +504,7 @@ func (g *jsiiProxy_GoogleNetworkServicesTlsRouteRulesMatchesOutputReference) Res
 	)
 }
 
-func (g *jsiiProxy_GoogleNetworkServicesTlsRouteRulesMatchesOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (g *jsiiProxy_GoogleNetworkServicesTlsRouteRulesMatchesOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

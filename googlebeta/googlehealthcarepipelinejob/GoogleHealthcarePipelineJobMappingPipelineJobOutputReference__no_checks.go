@@ -55,7 +55,7 @@ func (g *jsiiProxy_GoogleHealthcarePipelineJobMappingPipelineJobOutputReference)
 	return nil
 }
 
-func (g *jsiiProxy_GoogleHealthcarePipelineJobMappingPipelineJobOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleHealthcarePipelineJobMappingPipelineJobOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_GoogleHealthcarePipelineJobMappingPipelineJobOutputReference)
 	return nil
 }
 
-func (j *jsiiProxy_GoogleHealthcarePipelineJobMappingPipelineJobOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleHealthcarePipelineJobMappingPipelineJobOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleHealthcarePipelineJobMappingPipelineJobOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleHealthcarePipelineJobMappingPipelineJobOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

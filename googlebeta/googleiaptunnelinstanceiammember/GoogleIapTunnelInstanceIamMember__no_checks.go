@@ -111,7 +111,7 @@ func (j *jsiiProxy_GoogleIapTunnelInstanceIamMember) validateSetInstanceParamete
 	return nil
 }
 
-func (j *jsiiProxy_GoogleIapTunnelInstanceIamMember) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleIapTunnelInstanceIamMember) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

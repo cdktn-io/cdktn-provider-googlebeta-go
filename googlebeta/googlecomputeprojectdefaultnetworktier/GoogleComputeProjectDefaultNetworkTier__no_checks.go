@@ -107,7 +107,7 @@ func (j *jsiiProxy_GoogleComputeProjectDefaultNetworkTier) validateSetIdParamete
 	return nil
 }
 
-func (j *jsiiProxy_GoogleComputeProjectDefaultNetworkTier) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleComputeProjectDefaultNetworkTier) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

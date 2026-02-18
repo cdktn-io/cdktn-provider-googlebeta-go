@@ -5,23 +5,23 @@ package googleloggingmetric
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleloggingmetric/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleloggingmetric/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_logging_metric google_logging_metric}.
 type GoogleLoggingMetric interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	BucketName() *string
 	SetBucketName(val *string)
 	BucketNameInput() *string
 	BucketOptions() GoogleLoggingMetricBucketOptionsOutputReference
 	BucketOptionsInput() *GoogleLoggingMetricBucketOptions
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -46,9 +46,9 @@ type GoogleLoggingMetric interface {
 	SetFilter(val *string)
 	FilterInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -60,9 +60,9 @@ type GoogleLoggingMetric interface {
 	SetLabelExtractors(val *map[string]*string)
 	LabelExtractorsInput() *map[string]*string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	MetricDescriptor() GoogleLoggingMetricMetricDescriptorOutputReference
 	MetricDescriptorInput() *GoogleLoggingMetricMetricDescriptor
 	Name() *string
@@ -74,9 +74,9 @@ type GoogleLoggingMetric interface {
 	SetProject(val *string)
 	ProjectInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -84,7 +84,7 @@ type GoogleLoggingMetric interface {
 	// Experimental.
 	RawOverrides() interface{}
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -102,7 +102,7 @@ type GoogleLoggingMetric interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -120,9 +120,9 @@ type GoogleLoggingMetric interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -168,7 +168,7 @@ type GoogleLoggingMetric interface {
 
 // The jsii proxy struct for GoogleLoggingMetric
 type jsiiProxy_GoogleLoggingMetric struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_GoogleLoggingMetric) BucketName() *string {
@@ -211,8 +211,8 @@ func (j *jsiiProxy_GoogleLoggingMetric) BucketOptionsInput() *GoogleLoggingMetri
 	return returns
 }
 
-func (j *jsiiProxy_GoogleLoggingMetric) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_GoogleLoggingMetric) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -321,8 +321,8 @@ func (j *jsiiProxy_GoogleLoggingMetric) FilterInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleLoggingMetric) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_GoogleLoggingMetric) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -391,8 +391,8 @@ func (j *jsiiProxy_GoogleLoggingMetric) LabelExtractorsInput() *map[string]*stri
 	return returns
 }
 
-func (j *jsiiProxy_GoogleLoggingMetric) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_GoogleLoggingMetric) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -471,8 +471,8 @@ func (j *jsiiProxy_GoogleLoggingMetric) ProjectInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleLoggingMetric) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_GoogleLoggingMetric) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -501,8 +501,8 @@ func (j *jsiiProxy_GoogleLoggingMetric) RawOverrides() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleLoggingMetric) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_GoogleLoggingMetric) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -675,7 +675,7 @@ func (j *jsiiProxy_GoogleLoggingMetric)SetFilter(val *string) {
 	)
 }
 
-func (j *jsiiProxy_GoogleLoggingMetric)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_GoogleLoggingMetric)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -705,7 +705,7 @@ func (j *jsiiProxy_GoogleLoggingMetric)SetLabelExtractors(val *map[string]*strin
 	)
 }
 
-func (j *jsiiProxy_GoogleLoggingMetric)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_GoogleLoggingMetric)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -738,7 +738,7 @@ func (j *jsiiProxy_GoogleLoggingMetric)SetProject(val *string) {
 	)
 }
 
-func (j *jsiiProxy_GoogleLoggingMetric)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_GoogleLoggingMetric)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -768,14 +768,14 @@ func (j *jsiiProxy_GoogleLoggingMetric)SetValueExtractor(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a GoogleLoggingMetric resource upon running "cdktf plan <stack-name>".
-func GoogleLoggingMetric_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a GoogleLoggingMetric resource upon running "cdktn plan <stack-name>".
+func GoogleLoggingMetric_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateGoogleLoggingMetric_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google-beta.googleLoggingMetric.GoogleLoggingMetric",
@@ -909,11 +909,11 @@ func (g *jsiiProxy_GoogleLoggingMetric) GetAnyMapAttribute(terraformAttribute *s
 	return returns
 }
 
-func (g *jsiiProxy_GoogleLoggingMetric) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleLoggingMetric) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -1050,7 +1050,7 @@ func (g *jsiiProxy_GoogleLoggingMetric) HasResourceMove() interface{} {
 	return returns
 }
 
-func (g *jsiiProxy_GoogleLoggingMetric) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (g *jsiiProxy_GoogleLoggingMetric) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := g.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1061,11 +1061,11 @@ func (g *jsiiProxy_GoogleLoggingMetric) ImportFrom(id *string, provider cdktf.Te
 	)
 }
 
-func (g *jsiiProxy_GoogleLoggingMetric) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleLoggingMetric) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,

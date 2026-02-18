@@ -87,7 +87,7 @@ func (j *jsiiProxy_DataGoogleIamTestablePermissions) validateSetIdParameters(val
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleIamTestablePermissions) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataGoogleIamTestablePermissions) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

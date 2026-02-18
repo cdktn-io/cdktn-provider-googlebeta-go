@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleApigeeAddonsConfigAddonsConfigApiSecurityConfigOutputRe
 	return nil
 }
 
-func (g *jsiiProxy_GoogleApigeeAddonsConfigAddonsConfigApiSecurityConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleApigeeAddonsConfigAddonsConfigApiSecurityConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_GoogleApigeeAddonsConfigAddonsConfigApiSecurityConfigOutputRe
 	return nil
 }
 
-func (j *jsiiProxy_GoogleApigeeAddonsConfigAddonsConfigApiSecurityConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleApigeeAddonsConfigAddonsConfigApiSecurityConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleApigeeAddonsConfigAddonsConfigApiSecurityConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleApigeeAddonsConfigAddonsConfigApiSecurityConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -119,7 +119,7 @@ func (j *jsiiProxy_GoogleComputeResizeRequest) validateSetInstanceGroupManagerPa
 	return nil
 }
 
-func (j *jsiiProxy_GoogleComputeResizeRequest) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleComputeResizeRequest) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

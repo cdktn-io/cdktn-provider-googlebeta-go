@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleNetworkSecurityInterceptEndpointGroupConnectedDeploymen
 	return nil
 }
 
-func (g *jsiiProxy_GoogleNetworkSecurityInterceptEndpointGroupConnectedDeploymentGroupLocationsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleNetworkSecurityInterceptEndpointGroupConnectedDeploymentGroupLocationsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_GoogleNetworkSecurityInterceptEndpointGroupConnectedDeploymen
 	return nil
 }
 
-func (j *jsiiProxy_GoogleNetworkSecurityInterceptEndpointGroupConnectedDeploymentGroupLocationsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleNetworkSecurityInterceptEndpointGroupConnectedDeploymentGroupLocationsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleNetworkSecurityInterceptEndpointGroupConnectedDeploymentGroupLocationsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewGoogleNetworkSecurityInterceptEndpointGroupConnectedDeploymentGroupLocationsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

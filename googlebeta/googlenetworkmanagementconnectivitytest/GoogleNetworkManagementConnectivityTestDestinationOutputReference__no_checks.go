@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleNetworkManagementConnectivityTestDestinationOutputRefer
 	return nil
 }
 
-func (g *jsiiProxy_GoogleNetworkManagementConnectivityTestDestinationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleNetworkManagementConnectivityTestDestinationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -111,11 +111,11 @@ func (j *jsiiProxy_GoogleNetworkManagementConnectivityTestDestinationOutputRefer
 	return nil
 }
 
-func (j *jsiiProxy_GoogleNetworkManagementConnectivityTestDestinationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleNetworkManagementConnectivityTestDestinationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleNetworkManagementConnectivityTestDestinationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleNetworkManagementConnectivityTestDestinationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

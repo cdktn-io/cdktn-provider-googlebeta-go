@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataGoogleSecretManagerRegionalSecrets) validateSetIdParamete
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleSecretManagerRegionalSecrets) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataGoogleSecretManagerRegionalSecrets) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

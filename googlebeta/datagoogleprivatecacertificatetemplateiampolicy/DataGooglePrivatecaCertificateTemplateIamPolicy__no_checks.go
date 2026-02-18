@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataGooglePrivatecaCertificateTemplateIamPolicy) validateSetI
 	return nil
 }
 
-func (j *jsiiProxy_DataGooglePrivatecaCertificateTemplateIamPolicy) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataGooglePrivatecaCertificateTemplateIamPolicy) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -79,7 +79,7 @@ func (j *jsiiProxy_DataGoogleCertificateManagerCertificateMap) validateSetIdPara
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleCertificateManagerCertificateMap) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataGoogleCertificateManagerCertificateMap) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

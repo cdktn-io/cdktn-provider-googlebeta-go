@@ -119,7 +119,7 @@ func (j *jsiiProxy_GoogleDataLossPreventionInspectTemplate) validateSetIdParamet
 	return nil
 }
 
-func (j *jsiiProxy_GoogleDataLossPreventionInspectTemplate) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleDataLossPreventionInspectTemplate) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

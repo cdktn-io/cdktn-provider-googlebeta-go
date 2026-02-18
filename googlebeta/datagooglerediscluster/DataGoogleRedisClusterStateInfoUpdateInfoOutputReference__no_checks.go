@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataGoogleRedisClusterStateInfoUpdateInfoOutputReference) val
 	return nil
 }
 
-func (d *jsiiProxy_DataGoogleRedisClusterStateInfoUpdateInfoOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataGoogleRedisClusterStateInfoUpdateInfoOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataGoogleRedisClusterStateInfoUpdateInfoOutputReference) val
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleRedisClusterStateInfoUpdateInfoOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataGoogleRedisClusterStateInfoUpdateInfoOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataGoogleRedisClusterStateInfoUpdateInfoOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataGoogleRedisClusterStateInfoUpdateInfoOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

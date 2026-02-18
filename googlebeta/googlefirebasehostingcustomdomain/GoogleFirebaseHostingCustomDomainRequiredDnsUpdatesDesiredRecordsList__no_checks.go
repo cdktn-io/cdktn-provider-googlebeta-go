@@ -15,7 +15,7 @@ func (g *jsiiProxy_GoogleFirebaseHostingCustomDomainRequiredDnsUpdatesDesiredRec
 	return nil
 }
 
-func (g *jsiiProxy_GoogleFirebaseHostingCustomDomainRequiredDnsUpdatesDesiredRecordsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleFirebaseHostingCustomDomainRequiredDnsUpdatesDesiredRecordsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_GoogleFirebaseHostingCustomDomainRequiredDnsUpdatesDesiredRec
 	return nil
 }
 
-func (j *jsiiProxy_GoogleFirebaseHostingCustomDomainRequiredDnsUpdatesDesiredRecordsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleFirebaseHostingCustomDomainRequiredDnsUpdatesDesiredRecordsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_GoogleFirebaseHostingCustomDomainRequiredDnsUpdatesDesiredRec
 	return nil
 }
 
-func validateNewGoogleFirebaseHostingCustomDomainRequiredDnsUpdatesDesiredRecordsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGoogleFirebaseHostingCustomDomainRequiredDnsUpdatesDesiredRecordsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

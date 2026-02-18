@@ -131,7 +131,7 @@ func (j *jsiiProxy_GoogleDiscoveryEngineRecommendationEngine) validateSetIndustr
 	return nil
 }
 
-func (j *jsiiProxy_GoogleDiscoveryEngineRecommendationEngine) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleDiscoveryEngineRecommendationEngine) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

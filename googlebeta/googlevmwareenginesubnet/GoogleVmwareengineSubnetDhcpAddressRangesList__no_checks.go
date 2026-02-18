@@ -15,7 +15,7 @@ func (g *jsiiProxy_GoogleVmwareengineSubnetDhcpAddressRangesList) validateGetPar
 	return nil
 }
 
-func (g *jsiiProxy_GoogleVmwareengineSubnetDhcpAddressRangesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleVmwareengineSubnetDhcpAddressRangesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_GoogleVmwareengineSubnetDhcpAddressRangesList) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_GoogleVmwareengineSubnetDhcpAddressRangesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleVmwareengineSubnetDhcpAddressRangesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_GoogleVmwareengineSubnetDhcpAddressRangesList) validateSetWra
 	return nil
 }
 
-func validateNewGoogleVmwareengineSubnetDhcpAddressRangesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGoogleVmwareengineSubnetDhcpAddressRangesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -5,14 +5,14 @@ package googleeventarctrigger
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleeventarctrigger/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleeventarctrigger/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type GoogleEventarcTriggerDestinationOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	CloudFunction() *string
 	CloudRunService() GoogleEventarcTriggerDestinationCloudRunServiceOutputReference
 	CloudRunServiceInput() *GoogleEventarcTriggerDestinationCloudRunService
@@ -46,9 +46,9 @@ type GoogleEventarcTriggerDestinationOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Workflow() *string
 	SetWorkflow(val *string)
 	WorkflowInput() *string
@@ -57,7 +57,7 @@ type GoogleEventarcTriggerDestinationOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -73,9 +73,9 @@ type GoogleEventarcTriggerDestinationOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutCloudRunService(value *GoogleEventarcTriggerDestinationCloudRunService)
 	PutGke(value *GoogleEventarcTriggerDestinationGke)
 	PutHttpEndpoint(value *GoogleEventarcTriggerDestinationHttpEndpoint)
@@ -87,7 +87,7 @@ type GoogleEventarcTriggerDestinationOutputReference interface {
 	ResetWorkflow()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -97,7 +97,7 @@ type GoogleEventarcTriggerDestinationOutputReference interface {
 
 // The jsii proxy struct for GoogleEventarcTriggerDestinationOutputReference
 type jsiiProxy_GoogleEventarcTriggerDestinationOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_GoogleEventarcTriggerDestinationOutputReference) CloudFunction() *string {
@@ -250,8 +250,8 @@ func (j *jsiiProxy_GoogleEventarcTriggerDestinationOutputReference) TerraformAtt
 	return returns
 }
 
-func (j *jsiiProxy_GoogleEventarcTriggerDestinationOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_GoogleEventarcTriggerDestinationOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -281,7 +281,7 @@ func (j *jsiiProxy_GoogleEventarcTriggerDestinationOutputReference) WorkflowInpu
 }
 
 
-func NewGoogleEventarcTriggerDestinationOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) GoogleEventarcTriggerDestinationOutputReference {
+func NewGoogleEventarcTriggerDestinationOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) GoogleEventarcTriggerDestinationOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewGoogleEventarcTriggerDestinationOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -298,7 +298,7 @@ func NewGoogleEventarcTriggerDestinationOutputReference(terraformResource cdktf.
 	return &j
 }
 
-func NewGoogleEventarcTriggerDestinationOutputReference_Override(g GoogleEventarcTriggerDestinationOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewGoogleEventarcTriggerDestinationOutputReference_Override(g GoogleEventarcTriggerDestinationOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -352,7 +352,7 @@ func (j *jsiiProxy_GoogleEventarcTriggerDestinationOutputReference)SetTerraformA
 	)
 }
 
-func (j *jsiiProxy_GoogleEventarcTriggerDestinationOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_GoogleEventarcTriggerDestinationOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -403,11 +403,11 @@ func (g *jsiiProxy_GoogleEventarcTriggerDestinationOutputReference) GetAnyMapAtt
 	return returns
 }
 
-func (g *jsiiProxy_GoogleEventarcTriggerDestinationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleEventarcTriggerDestinationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -531,8 +531,8 @@ func (g *jsiiProxy_GoogleEventarcTriggerDestinationOutputReference) GetStringMap
 	return returns
 }
 
-func (g *jsiiProxy_GoogleEventarcTriggerDestinationOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (g *jsiiProxy_GoogleEventarcTriggerDestinationOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -544,11 +544,11 @@ func (g *jsiiProxy_GoogleEventarcTriggerDestinationOutputReference) Interpolatio
 	return returns
 }
 
-func (g *jsiiProxy_GoogleEventarcTriggerDestinationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleEventarcTriggerDestinationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -644,7 +644,7 @@ func (g *jsiiProxy_GoogleEventarcTriggerDestinationOutputReference) ResetWorkflo
 	)
 }
 
-func (g *jsiiProxy_GoogleEventarcTriggerDestinationOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (g *jsiiProxy_GoogleEventarcTriggerDestinationOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

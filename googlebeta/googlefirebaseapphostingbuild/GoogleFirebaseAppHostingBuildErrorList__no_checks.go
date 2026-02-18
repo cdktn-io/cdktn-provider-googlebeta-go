@@ -15,7 +15,7 @@ func (g *jsiiProxy_GoogleFirebaseAppHostingBuildErrorList) validateGetParameters
 	return nil
 }
 
-func (g *jsiiProxy_GoogleFirebaseAppHostingBuildErrorList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleFirebaseAppHostingBuildErrorList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_GoogleFirebaseAppHostingBuildErrorList) validateSetTerraformA
 	return nil
 }
 
-func (j *jsiiProxy_GoogleFirebaseAppHostingBuildErrorList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleFirebaseAppHostingBuildErrorList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_GoogleFirebaseAppHostingBuildErrorList) validateSetWrapsSetPa
 	return nil
 }
 
-func validateNewGoogleFirebaseAppHostingBuildErrorListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGoogleFirebaseAppHostingBuildErrorListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

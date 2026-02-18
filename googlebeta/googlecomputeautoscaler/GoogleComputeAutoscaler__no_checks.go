@@ -115,7 +115,7 @@ func (j *jsiiProxy_GoogleComputeAutoscaler) validateSetIdParameters(val *string)
 	return nil
 }
 
-func (j *jsiiProxy_GoogleComputeAutoscaler) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleComputeAutoscaler) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

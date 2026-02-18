@@ -51,7 +51,7 @@ func (g *jsiiProxy_GoogleDataprocAutoscalingPolicyBasicAlgorithmOutputReference)
 	return nil
 }
 
-func (g *jsiiProxy_GoogleDataprocAutoscalingPolicyBasicAlgorithmOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleDataprocAutoscalingPolicyBasicAlgorithmOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_GoogleDataprocAutoscalingPolicyBasicAlgorithmOutputReference)
 	return nil
 }
 
-func (j *jsiiProxy_GoogleDataprocAutoscalingPolicyBasicAlgorithmOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleDataprocAutoscalingPolicyBasicAlgorithmOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleDataprocAutoscalingPolicyBasicAlgorithmOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleDataprocAutoscalingPolicyBasicAlgorithmOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

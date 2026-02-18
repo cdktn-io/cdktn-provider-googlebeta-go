@@ -111,7 +111,7 @@ func (j *jsiiProxy_GoogleComputeDiskAsyncReplication) validateSetIdParameters(va
 	return nil
 }
 
-func (j *jsiiProxy_GoogleComputeDiskAsyncReplication) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleComputeDiskAsyncReplication) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

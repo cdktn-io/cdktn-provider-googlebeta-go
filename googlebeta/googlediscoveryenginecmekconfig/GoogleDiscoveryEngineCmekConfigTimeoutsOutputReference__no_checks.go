@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleDiscoveryEngineCmekConfigTimeoutsOutputReference) valid
 	return nil
 }
 
-func (g *jsiiProxy_GoogleDiscoveryEngineCmekConfigTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleDiscoveryEngineCmekConfigTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_GoogleDiscoveryEngineCmekConfigTimeoutsOutputReference) valid
 	return nil
 }
 
-func (j *jsiiProxy_GoogleDiscoveryEngineCmekConfigTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleDiscoveryEngineCmekConfigTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_GoogleDiscoveryEngineCmekConfigTimeoutsOutputReference) valid
 	return nil
 }
 
-func validateNewGoogleDiscoveryEngineCmekConfigTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleDiscoveryEngineCmekConfigTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

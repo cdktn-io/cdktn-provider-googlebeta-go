@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleDataFusionInstanceNetworkConfigPrivateServiceConnectCon
 	return nil
 }
 
-func (g *jsiiProxy_GoogleDataFusionInstanceNetworkConfigPrivateServiceConnectConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleDataFusionInstanceNetworkConfigPrivateServiceConnectConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_GoogleDataFusionInstanceNetworkConfigPrivateServiceConnectCon
 	return nil
 }
 
-func (j *jsiiProxy_GoogleDataFusionInstanceNetworkConfigPrivateServiceConnectConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleDataFusionInstanceNetworkConfigPrivateServiceConnectConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_GoogleDataFusionInstanceNetworkConfigPrivateServiceConnectCon
 	return nil
 }
 
-func validateNewGoogleDataFusionInstanceNetworkConfigPrivateServiceConnectConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleDataFusionInstanceNetworkConfigPrivateServiceConnectConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

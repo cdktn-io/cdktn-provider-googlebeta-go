@@ -131,7 +131,7 @@ func (j *jsiiProxy_GoogleComputeRegionSecurityPolicyRule) validateSetIdParameter
 	return nil
 }
 
-func (j *jsiiProxy_GoogleComputeRegionSecurityPolicyRule) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleComputeRegionSecurityPolicyRule) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

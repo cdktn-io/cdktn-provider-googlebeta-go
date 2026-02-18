@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleBigqueryDatasetDefaultEncryptionConfigurationOutputRefe
 	return nil
 }
 
-func (g *jsiiProxy_GoogleBigqueryDatasetDefaultEncryptionConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleBigqueryDatasetDefaultEncryptionConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_GoogleBigqueryDatasetDefaultEncryptionConfigurationOutputRefe
 	return nil
 }
 
-func (j *jsiiProxy_GoogleBigqueryDatasetDefaultEncryptionConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleBigqueryDatasetDefaultEncryptionConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleBigqueryDatasetDefaultEncryptionConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleBigqueryDatasetDefaultEncryptionConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

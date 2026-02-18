@@ -5,21 +5,21 @@ package googlecomputeorganizationsecuritypolicyrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecomputeorganizationsecuritypolicyrule/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeorganizationsecuritypolicyrule/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_organization_security_policy_rule google_compute_organization_security_policy_rule}.
 type GoogleComputeOrganizationSecurityPolicyRule interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	Action() *string
 	SetAction(val *string)
 	ActionInput() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -44,9 +44,9 @@ type GoogleComputeOrganizationSecurityPolicyRule interface {
 	SetEnableLogging(val interface{})
 	EnableLoggingInput() interface{}
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -55,9 +55,9 @@ type GoogleComputeOrganizationSecurityPolicyRule interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Match() GoogleComputeOrganizationSecurityPolicyRuleMatchOutputReference
 	MatchInput() *GoogleComputeOrganizationSecurityPolicyRuleMatch
 	// The tree node.
@@ -72,9 +72,9 @@ type GoogleComputeOrganizationSecurityPolicyRule interface {
 	SetPriority(val *float64)
 	PriorityInput() *float64
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -88,7 +88,7 @@ type GoogleComputeOrganizationSecurityPolicyRule interface {
 	SetTargetServiceAccounts(val *[]*string)
 	TargetServiceAccountsInput() *[]*string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -103,7 +103,7 @@ type GoogleComputeOrganizationSecurityPolicyRule interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -121,9 +121,9 @@ type GoogleComputeOrganizationSecurityPolicyRule interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -166,7 +166,7 @@ type GoogleComputeOrganizationSecurityPolicyRule interface {
 
 // The jsii proxy struct for GoogleComputeOrganizationSecurityPolicyRule
 type jsiiProxy_GoogleComputeOrganizationSecurityPolicyRule struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_GoogleComputeOrganizationSecurityPolicyRule) Action() *string {
@@ -189,8 +189,8 @@ func (j *jsiiProxy_GoogleComputeOrganizationSecurityPolicyRule) ActionInput() *s
 	return returns
 }
 
-func (j *jsiiProxy_GoogleComputeOrganizationSecurityPolicyRule) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_GoogleComputeOrganizationSecurityPolicyRule) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -299,8 +299,8 @@ func (j *jsiiProxy_GoogleComputeOrganizationSecurityPolicyRule) EnableLoggingInp
 	return returns
 }
 
-func (j *jsiiProxy_GoogleComputeOrganizationSecurityPolicyRule) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_GoogleComputeOrganizationSecurityPolicyRule) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -349,8 +349,8 @@ func (j *jsiiProxy_GoogleComputeOrganizationSecurityPolicyRule) IdInput() *strin
 	return returns
 }
 
-func (j *jsiiProxy_GoogleComputeOrganizationSecurityPolicyRule) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_GoogleComputeOrganizationSecurityPolicyRule) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -449,8 +449,8 @@ func (j *jsiiProxy_GoogleComputeOrganizationSecurityPolicyRule) PriorityInput() 
 	return returns
 }
 
-func (j *jsiiProxy_GoogleComputeOrganizationSecurityPolicyRule) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_GoogleComputeOrganizationSecurityPolicyRule) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -519,8 +519,8 @@ func (j *jsiiProxy_GoogleComputeOrganizationSecurityPolicyRule) TargetServiceAcc
 	return returns
 }
 
-func (j *jsiiProxy_GoogleComputeOrganizationSecurityPolicyRule) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_GoogleComputeOrganizationSecurityPolicyRule) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -673,7 +673,7 @@ func (j *jsiiProxy_GoogleComputeOrganizationSecurityPolicyRule)SetEnableLogging(
 	)
 }
 
-func (j *jsiiProxy_GoogleComputeOrganizationSecurityPolicyRule)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_GoogleComputeOrganizationSecurityPolicyRule)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -692,7 +692,7 @@ func (j *jsiiProxy_GoogleComputeOrganizationSecurityPolicyRule)SetId(val *string
 	)
 }
 
-func (j *jsiiProxy_GoogleComputeOrganizationSecurityPolicyRule)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_GoogleComputeOrganizationSecurityPolicyRule)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -736,7 +736,7 @@ func (j *jsiiProxy_GoogleComputeOrganizationSecurityPolicyRule)SetPriority(val *
 	)
 }
 
-func (j *jsiiProxy_GoogleComputeOrganizationSecurityPolicyRule)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_GoogleComputeOrganizationSecurityPolicyRule)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -777,14 +777,14 @@ func (j *jsiiProxy_GoogleComputeOrganizationSecurityPolicyRule)SetTargetServiceA
 	)
 }
 
-// Generates CDKTF code for importing a GoogleComputeOrganizationSecurityPolicyRule resource upon running "cdktf plan <stack-name>".
-func GoogleComputeOrganizationSecurityPolicyRule_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a GoogleComputeOrganizationSecurityPolicyRule resource upon running "cdktn plan <stack-name>".
+func GoogleComputeOrganizationSecurityPolicyRule_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateGoogleComputeOrganizationSecurityPolicyRule_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google-beta.googleComputeOrganizationSecurityPolicyRule.GoogleComputeOrganizationSecurityPolicyRule",
@@ -918,11 +918,11 @@ func (g *jsiiProxy_GoogleComputeOrganizationSecurityPolicyRule) GetAnyMapAttribu
 	return returns
 }
 
-func (g *jsiiProxy_GoogleComputeOrganizationSecurityPolicyRule) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleComputeOrganizationSecurityPolicyRule) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -1059,7 +1059,7 @@ func (g *jsiiProxy_GoogleComputeOrganizationSecurityPolicyRule) HasResourceMove(
 	return returns
 }
 
-func (g *jsiiProxy_GoogleComputeOrganizationSecurityPolicyRule) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (g *jsiiProxy_GoogleComputeOrganizationSecurityPolicyRule) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := g.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1070,11 +1070,11 @@ func (g *jsiiProxy_GoogleComputeOrganizationSecurityPolicyRule) ImportFrom(id *s
 	)
 }
 
-func (g *jsiiProxy_GoogleComputeOrganizationSecurityPolicyRule) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleComputeOrganizationSecurityPolicyRule) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,

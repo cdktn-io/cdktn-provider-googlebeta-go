@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleNetworkConnectivityPolicyBasedRouteVirtualMachineOutput
 	return nil
 }
 
-func (g *jsiiProxy_GoogleNetworkConnectivityPolicyBasedRouteVirtualMachineOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleNetworkConnectivityPolicyBasedRouteVirtualMachineOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_GoogleNetworkConnectivityPolicyBasedRouteVirtualMachineOutput
 	return nil
 }
 
-func (j *jsiiProxy_GoogleNetworkConnectivityPolicyBasedRouteVirtualMachineOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleNetworkConnectivityPolicyBasedRouteVirtualMachineOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleNetworkConnectivityPolicyBasedRouteVirtualMachineOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleNetworkConnectivityPolicyBasedRouteVirtualMachineOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

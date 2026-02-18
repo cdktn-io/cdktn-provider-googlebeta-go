@@ -5,21 +5,21 @@ package googlestorageobjectaccesscontrol
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlestorageobjectaccesscontrol/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlestorageobjectaccesscontrol/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_object_access_control google_storage_object_access_control}.
 type GoogleStorageObjectAccessControl interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	Bucket() *string
 	SetBucket(val *string)
 	BucketInput() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -41,9 +41,9 @@ type GoogleStorageObjectAccessControl interface {
 	EntityId() *string
 	EntityInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -53,9 +53,9 @@ type GoogleStorageObjectAccessControl interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	// The tree node.
 	Node() constructs.Node
 	Object() *string
@@ -63,9 +63,9 @@ type GoogleStorageObjectAccessControl interface {
 	ObjectInput() *string
 	ProjectTeam() GoogleStorageObjectAccessControlProjectTeamList
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -76,7 +76,7 @@ type GoogleStorageObjectAccessControl interface {
 	SetRole(val *string)
 	RoleInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -91,7 +91,7 @@ type GoogleStorageObjectAccessControl interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -109,9 +109,9 @@ type GoogleStorageObjectAccessControl interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -147,7 +147,7 @@ type GoogleStorageObjectAccessControl interface {
 
 // The jsii proxy struct for GoogleStorageObjectAccessControl
 type jsiiProxy_GoogleStorageObjectAccessControl struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_GoogleStorageObjectAccessControl) Bucket() *string {
@@ -170,8 +170,8 @@ func (j *jsiiProxy_GoogleStorageObjectAccessControl) BucketInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleStorageObjectAccessControl) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_GoogleStorageObjectAccessControl) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -270,8 +270,8 @@ func (j *jsiiProxy_GoogleStorageObjectAccessControl) EntityInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleStorageObjectAccessControl) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_GoogleStorageObjectAccessControl) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -330,8 +330,8 @@ func (j *jsiiProxy_GoogleStorageObjectAccessControl) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleStorageObjectAccessControl) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_GoogleStorageObjectAccessControl) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -380,8 +380,8 @@ func (j *jsiiProxy_GoogleStorageObjectAccessControl) ProjectTeam() GoogleStorage
 	return returns
 }
 
-func (j *jsiiProxy_GoogleStorageObjectAccessControl) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_GoogleStorageObjectAccessControl) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -430,8 +430,8 @@ func (j *jsiiProxy_GoogleStorageObjectAccessControl) RoleInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleStorageObjectAccessControl) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_GoogleStorageObjectAccessControl) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -562,7 +562,7 @@ func (j *jsiiProxy_GoogleStorageObjectAccessControl)SetEntity(val *string) {
 	)
 }
 
-func (j *jsiiProxy_GoogleStorageObjectAccessControl)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_GoogleStorageObjectAccessControl)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -581,7 +581,7 @@ func (j *jsiiProxy_GoogleStorageObjectAccessControl)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_GoogleStorageObjectAccessControl)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_GoogleStorageObjectAccessControl)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -603,7 +603,7 @@ func (j *jsiiProxy_GoogleStorageObjectAccessControl)SetObject(val *string) {
 	)
 }
 
-func (j *jsiiProxy_GoogleStorageObjectAccessControl)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_GoogleStorageObjectAccessControl)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -633,14 +633,14 @@ func (j *jsiiProxy_GoogleStorageObjectAccessControl)SetRole(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a GoogleStorageObjectAccessControl resource upon running "cdktf plan <stack-name>".
-func GoogleStorageObjectAccessControl_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a GoogleStorageObjectAccessControl resource upon running "cdktn plan <stack-name>".
+func GoogleStorageObjectAccessControl_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateGoogleStorageObjectAccessControl_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google-beta.googleStorageObjectAccessControl.GoogleStorageObjectAccessControl",
@@ -774,11 +774,11 @@ func (g *jsiiProxy_GoogleStorageObjectAccessControl) GetAnyMapAttribute(terrafor
 	return returns
 }
 
-func (g *jsiiProxy_GoogleStorageObjectAccessControl) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleStorageObjectAccessControl) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -915,7 +915,7 @@ func (g *jsiiProxy_GoogleStorageObjectAccessControl) HasResourceMove() interface
 	return returns
 }
 
-func (g *jsiiProxy_GoogleStorageObjectAccessControl) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (g *jsiiProxy_GoogleStorageObjectAccessControl) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := g.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -926,11 +926,11 @@ func (g *jsiiProxy_GoogleStorageObjectAccessControl) ImportFrom(id *string, prov
 	)
 }
 
-func (g *jsiiProxy_GoogleStorageObjectAccessControl) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleStorageObjectAccessControl) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,

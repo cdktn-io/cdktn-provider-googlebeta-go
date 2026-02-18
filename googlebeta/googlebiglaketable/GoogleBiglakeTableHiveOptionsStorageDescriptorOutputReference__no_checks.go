@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleBiglakeTableHiveOptionsStorageDescriptorOutputReference
 	return nil
 }
 
-func (g *jsiiProxy_GoogleBiglakeTableHiveOptionsStorageDescriptorOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleBiglakeTableHiveOptionsStorageDescriptorOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_GoogleBiglakeTableHiveOptionsStorageDescriptorOutputReference
 	return nil
 }
 
-func (j *jsiiProxy_GoogleBiglakeTableHiveOptionsStorageDescriptorOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleBiglakeTableHiveOptionsStorageDescriptorOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleBiglakeTableHiveOptionsStorageDescriptorOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleBiglakeTableHiveOptionsStorageDescriptorOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

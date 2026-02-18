@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataGoogleMonitoringUptimeCheckIpsUptimeCheckIpsList) validat
 	return nil
 }
 
-func (d *jsiiProxy_DataGoogleMonitoringUptimeCheckIpsUptimeCheckIpsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataGoogleMonitoringUptimeCheckIpsUptimeCheckIpsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataGoogleMonitoringUptimeCheckIpsUptimeCheckIpsList) validat
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleMonitoringUptimeCheckIpsUptimeCheckIpsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataGoogleMonitoringUptimeCheckIpsUptimeCheckIpsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataGoogleMonitoringUptimeCheckIpsUptimeCheckIpsList) validat
 	return nil
 }
 
-func validateNewDataGoogleMonitoringUptimeCheckIpsUptimeCheckIpsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataGoogleMonitoringUptimeCheckIpsUptimeCheckIpsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

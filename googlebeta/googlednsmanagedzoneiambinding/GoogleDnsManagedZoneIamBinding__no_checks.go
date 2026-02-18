@@ -107,7 +107,7 @@ func (j *jsiiProxy_GoogleDnsManagedZoneIamBinding) validateSetIdParameters(val *
 	return nil
 }
 
-func (j *jsiiProxy_GoogleDnsManagedZoneIamBinding) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleDnsManagedZoneIamBinding) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

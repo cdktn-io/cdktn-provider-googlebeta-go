@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleBeyondcorpApplicationIamMemberConditionOutputReference)
 	return nil
 }
 
-func (g *jsiiProxy_GoogleBeyondcorpApplicationIamMemberConditionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleBeyondcorpApplicationIamMemberConditionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_GoogleBeyondcorpApplicationIamMemberConditionOutputReference)
 	return nil
 }
 
-func (j *jsiiProxy_GoogleBeyondcorpApplicationIamMemberConditionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleBeyondcorpApplicationIamMemberConditionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_GoogleBeyondcorpApplicationIamMemberConditionOutputReference)
 	return nil
 }
 
-func validateNewGoogleBeyondcorpApplicationIamMemberConditionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleBeyondcorpApplicationIamMemberConditionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

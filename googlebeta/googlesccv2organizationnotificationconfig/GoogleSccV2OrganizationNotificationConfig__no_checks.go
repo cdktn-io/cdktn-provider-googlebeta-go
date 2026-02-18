@@ -119,7 +119,7 @@ func (j *jsiiProxy_GoogleSccV2OrganizationNotificationConfig) validateSetIdParam
 	return nil
 }
 
-func (j *jsiiProxy_GoogleSccV2OrganizationNotificationConfig) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleSccV2OrganizationNotificationConfig) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

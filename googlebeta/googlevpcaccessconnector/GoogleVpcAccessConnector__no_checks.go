@@ -115,7 +115,7 @@ func (j *jsiiProxy_GoogleVpcAccessConnector) validateSetIpCidrRangeParameters(va
 	return nil
 }
 
-func (j *jsiiProxy_GoogleVpcAccessConnector) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleVpcAccessConnector) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

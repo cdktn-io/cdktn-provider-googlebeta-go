@@ -79,7 +79,7 @@ func (j *jsiiProxy_DataGoogleAlloydbSupportedDatabaseFlags) validateSetIdParamet
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleAlloydbSupportedDatabaseFlags) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataGoogleAlloydbSupportedDatabaseFlags) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

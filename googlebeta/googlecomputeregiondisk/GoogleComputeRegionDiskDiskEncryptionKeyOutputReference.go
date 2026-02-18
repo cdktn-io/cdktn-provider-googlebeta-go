@@ -5,14 +5,14 @@ package googlecomputeregiondisk
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecomputeregiondisk/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeregiondisk/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type GoogleComputeRegionDiskDiskEncryptionKeyOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -47,15 +47,15 @@ type GoogleComputeRegionDiskDiskEncryptionKeyOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -71,15 +71,15 @@ type GoogleComputeRegionDiskDiskEncryptionKeyOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetKmsKeyName()
 	ResetRawKey()
 	ResetRsaEncryptedKey()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -89,7 +89,7 @@ type GoogleComputeRegionDiskDiskEncryptionKeyOutputReference interface {
 
 // The jsii proxy struct for GoogleComputeRegionDiskDiskEncryptionKeyOutputReference
 type jsiiProxy_GoogleComputeRegionDiskDiskEncryptionKeyOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_GoogleComputeRegionDiskDiskEncryptionKeyOutputReference) ComplexObjectIndex() interface{} {
@@ -222,8 +222,8 @@ func (j *jsiiProxy_GoogleComputeRegionDiskDiskEncryptionKeyOutputReference) Terr
 	return returns
 }
 
-func (j *jsiiProxy_GoogleComputeRegionDiskDiskEncryptionKeyOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_GoogleComputeRegionDiskDiskEncryptionKeyOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -233,7 +233,7 @@ func (j *jsiiProxy_GoogleComputeRegionDiskDiskEncryptionKeyOutputReference) Terr
 }
 
 
-func NewGoogleComputeRegionDiskDiskEncryptionKeyOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) GoogleComputeRegionDiskDiskEncryptionKeyOutputReference {
+func NewGoogleComputeRegionDiskDiskEncryptionKeyOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) GoogleComputeRegionDiskDiskEncryptionKeyOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewGoogleComputeRegionDiskDiskEncryptionKeyOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -250,7 +250,7 @@ func NewGoogleComputeRegionDiskDiskEncryptionKeyOutputReference(terraformResourc
 	return &j
 }
 
-func NewGoogleComputeRegionDiskDiskEncryptionKeyOutputReference_Override(g GoogleComputeRegionDiskDiskEncryptionKeyOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewGoogleComputeRegionDiskDiskEncryptionKeyOutputReference_Override(g GoogleComputeRegionDiskDiskEncryptionKeyOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -337,7 +337,7 @@ func (j *jsiiProxy_GoogleComputeRegionDiskDiskEncryptionKeyOutputReference)SetTe
 	)
 }
 
-func (j *jsiiProxy_GoogleComputeRegionDiskDiskEncryptionKeyOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_GoogleComputeRegionDiskDiskEncryptionKeyOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -377,11 +377,11 @@ func (g *jsiiProxy_GoogleComputeRegionDiskDiskEncryptionKeyOutputReference) GetA
 	return returns
 }
 
-func (g *jsiiProxy_GoogleComputeRegionDiskDiskEncryptionKeyOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleComputeRegionDiskDiskEncryptionKeyOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -505,8 +505,8 @@ func (g *jsiiProxy_GoogleComputeRegionDiskDiskEncryptionKeyOutputReference) GetS
 	return returns
 }
 
-func (g *jsiiProxy_GoogleComputeRegionDiskDiskEncryptionKeyOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (g *jsiiProxy_GoogleComputeRegionDiskDiskEncryptionKeyOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -518,11 +518,11 @@ func (g *jsiiProxy_GoogleComputeRegionDiskDiskEncryptionKeyOutputReference) Inte
 	return returns
 }
 
-func (g *jsiiProxy_GoogleComputeRegionDiskDiskEncryptionKeyOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleComputeRegionDiskDiskEncryptionKeyOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -558,7 +558,7 @@ func (g *jsiiProxy_GoogleComputeRegionDiskDiskEncryptionKeyOutputReference) Rese
 	)
 }
 
-func (g *jsiiProxy_GoogleComputeRegionDiskDiskEncryptionKeyOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (g *jsiiProxy_GoogleComputeRegionDiskDiskEncryptionKeyOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

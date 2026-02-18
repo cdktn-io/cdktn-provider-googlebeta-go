@@ -119,7 +119,7 @@ func (j *jsiiProxy_GoogleActiveDirectoryPeering) validateSetLabelsParameters(val
 	return nil
 }
 
-func (j *jsiiProxy_GoogleActiveDirectoryPeering) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleActiveDirectoryPeering) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

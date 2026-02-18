@@ -51,7 +51,7 @@ func (g *jsiiProxy_GoogleComputeInstanceFromMachineImageReservationAffinityOutpu
 	return nil
 }
 
-func (g *jsiiProxy_GoogleComputeInstanceFromMachineImageReservationAffinityOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleComputeInstanceFromMachineImageReservationAffinityOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_GoogleComputeInstanceFromMachineImageReservationAffinityOutpu
 	return nil
 }
 
-func (j *jsiiProxy_GoogleComputeInstanceFromMachineImageReservationAffinityOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleComputeInstanceFromMachineImageReservationAffinityOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_GoogleComputeInstanceFromMachineImageReservationAffinityOutpu
 	return nil
 }
 
-func validateNewGoogleComputeInstanceFromMachineImageReservationAffinityOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleComputeInstanceFromMachineImageReservationAffinityOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

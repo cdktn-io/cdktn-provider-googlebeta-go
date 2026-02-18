@@ -131,7 +131,7 @@ func (j *jsiiProxy_GoogleComputeServiceAttachment) validateSetIdParameters(val *
 	return nil
 }
 
-func (j *jsiiProxy_GoogleComputeServiceAttachment) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleComputeServiceAttachment) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

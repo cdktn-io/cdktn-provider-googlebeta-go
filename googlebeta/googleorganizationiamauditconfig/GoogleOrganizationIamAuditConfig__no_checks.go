@@ -107,7 +107,7 @@ func (j *jsiiProxy_GoogleOrganizationIamAuditConfig) validateSetIdParameters(val
 	return nil
 }
 
-func (j *jsiiProxy_GoogleOrganizationIamAuditConfig) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleOrganizationIamAuditConfig) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

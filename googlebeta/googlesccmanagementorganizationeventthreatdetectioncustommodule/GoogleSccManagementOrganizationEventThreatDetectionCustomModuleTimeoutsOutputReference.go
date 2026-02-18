@@ -5,14 +5,14 @@ package googlesccmanagementorganizationeventthreatdetectioncustommodule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlesccmanagementorganizationeventthreatdetectioncustommodule/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlesccmanagementorganizationeventthreatdetectioncustommodule/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type GoogleSccManagementOrganizationEventThreatDetectionCustomModuleTimeoutsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,9 +43,9 @@ type GoogleSccManagementOrganizationEventThreatDetectionCustomModuleTimeoutsOutp
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Update() *string
 	SetUpdate(val *string)
 	UpdateInput() *string
@@ -54,7 +54,7 @@ type GoogleSccManagementOrganizationEventThreatDetectionCustomModuleTimeoutsOutp
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,15 +70,15 @@ type GoogleSccManagementOrganizationEventThreatDetectionCustomModuleTimeoutsOutp
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetCreate()
 	ResetDelete()
 	ResetUpdate()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -88,7 +88,7 @@ type GoogleSccManagementOrganizationEventThreatDetectionCustomModuleTimeoutsOutp
 
 // The jsii proxy struct for GoogleSccManagementOrganizationEventThreatDetectionCustomModuleTimeoutsOutputReference
 type jsiiProxy_GoogleSccManagementOrganizationEventThreatDetectionCustomModuleTimeoutsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_GoogleSccManagementOrganizationEventThreatDetectionCustomModuleTimeoutsOutputReference) ComplexObjectIndex() interface{} {
@@ -191,8 +191,8 @@ func (j *jsiiProxy_GoogleSccManagementOrganizationEventThreatDetectionCustomModu
 	return returns
 }
 
-func (j *jsiiProxy_GoogleSccManagementOrganizationEventThreatDetectionCustomModuleTimeoutsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_GoogleSccManagementOrganizationEventThreatDetectionCustomModuleTimeoutsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -222,7 +222,7 @@ func (j *jsiiProxy_GoogleSccManagementOrganizationEventThreatDetectionCustomModu
 }
 
 
-func NewGoogleSccManagementOrganizationEventThreatDetectionCustomModuleTimeoutsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) GoogleSccManagementOrganizationEventThreatDetectionCustomModuleTimeoutsOutputReference {
+func NewGoogleSccManagementOrganizationEventThreatDetectionCustomModuleTimeoutsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) GoogleSccManagementOrganizationEventThreatDetectionCustomModuleTimeoutsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewGoogleSccManagementOrganizationEventThreatDetectionCustomModuleTimeoutsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -239,7 +239,7 @@ func NewGoogleSccManagementOrganizationEventThreatDetectionCustomModuleTimeoutsO
 	return &j
 }
 
-func NewGoogleSccManagementOrganizationEventThreatDetectionCustomModuleTimeoutsOutputReference_Override(g GoogleSccManagementOrganizationEventThreatDetectionCustomModuleTimeoutsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewGoogleSccManagementOrganizationEventThreatDetectionCustomModuleTimeoutsOutputReference_Override(g GoogleSccManagementOrganizationEventThreatDetectionCustomModuleTimeoutsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -315,7 +315,7 @@ func (j *jsiiProxy_GoogleSccManagementOrganizationEventThreatDetectionCustomModu
 	)
 }
 
-func (j *jsiiProxy_GoogleSccManagementOrganizationEventThreatDetectionCustomModuleTimeoutsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_GoogleSccManagementOrganizationEventThreatDetectionCustomModuleTimeoutsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -366,11 +366,11 @@ func (g *jsiiProxy_GoogleSccManagementOrganizationEventThreatDetectionCustomModu
 	return returns
 }
 
-func (g *jsiiProxy_GoogleSccManagementOrganizationEventThreatDetectionCustomModuleTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleSccManagementOrganizationEventThreatDetectionCustomModuleTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -494,8 +494,8 @@ func (g *jsiiProxy_GoogleSccManagementOrganizationEventThreatDetectionCustomModu
 	return returns
 }
 
-func (g *jsiiProxy_GoogleSccManagementOrganizationEventThreatDetectionCustomModuleTimeoutsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (g *jsiiProxy_GoogleSccManagementOrganizationEventThreatDetectionCustomModuleTimeoutsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -507,11 +507,11 @@ func (g *jsiiProxy_GoogleSccManagementOrganizationEventThreatDetectionCustomModu
 	return returns
 }
 
-func (g *jsiiProxy_GoogleSccManagementOrganizationEventThreatDetectionCustomModuleTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleSccManagementOrganizationEventThreatDetectionCustomModuleTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -547,7 +547,7 @@ func (g *jsiiProxy_GoogleSccManagementOrganizationEventThreatDetectionCustomModu
 	)
 }
 
-func (g *jsiiProxy_GoogleSccManagementOrganizationEventThreatDetectionCustomModuleTimeoutsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (g *jsiiProxy_GoogleSccManagementOrganizationEventThreatDetectionCustomModuleTimeoutsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

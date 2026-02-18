@@ -5,14 +5,14 @@ package googledatastreamprivateconnection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googledatastreamprivateconnection/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledatastreamprivateconnection/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type GoogleDatastreamPrivateConnectionErrorOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -28,7 +28,7 @@ type GoogleDatastreamPrivateConnectionErrorOutputReference interface {
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
-	Details() cdktf.StringMap
+	Details() cdktn.StringMap
 	// Experimental.
 	Fqn() *string
 	InternalValue() *GoogleDatastreamPrivateConnectionError
@@ -39,15 +39,15 @@ type GoogleDatastreamPrivateConnectionErrorOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -63,12 +63,12 @@ type GoogleDatastreamPrivateConnectionErrorOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -78,7 +78,7 @@ type GoogleDatastreamPrivateConnectionErrorOutputReference interface {
 
 // The jsii proxy struct for GoogleDatastreamPrivateConnectionErrorOutputReference
 type jsiiProxy_GoogleDatastreamPrivateConnectionErrorOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_GoogleDatastreamPrivateConnectionErrorOutputReference) ComplexObjectIndex() interface{} {
@@ -111,8 +111,8 @@ func (j *jsiiProxy_GoogleDatastreamPrivateConnectionErrorOutputReference) Creati
 	return returns
 }
 
-func (j *jsiiProxy_GoogleDatastreamPrivateConnectionErrorOutputReference) Details() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_GoogleDatastreamPrivateConnectionErrorOutputReference) Details() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"details",
@@ -161,8 +161,8 @@ func (j *jsiiProxy_GoogleDatastreamPrivateConnectionErrorOutputReference) Terraf
 	return returns
 }
 
-func (j *jsiiProxy_GoogleDatastreamPrivateConnectionErrorOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_GoogleDatastreamPrivateConnectionErrorOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -172,7 +172,7 @@ func (j *jsiiProxy_GoogleDatastreamPrivateConnectionErrorOutputReference) Terraf
 }
 
 
-func NewGoogleDatastreamPrivateConnectionErrorOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) GoogleDatastreamPrivateConnectionErrorOutputReference {
+func NewGoogleDatastreamPrivateConnectionErrorOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) GoogleDatastreamPrivateConnectionErrorOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewGoogleDatastreamPrivateConnectionErrorOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -189,7 +189,7 @@ func NewGoogleDatastreamPrivateConnectionErrorOutputReference(terraformResource 
 	return &j
 }
 
-func NewGoogleDatastreamPrivateConnectionErrorOutputReference_Override(g GoogleDatastreamPrivateConnectionErrorOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewGoogleDatastreamPrivateConnectionErrorOutputReference_Override(g GoogleDatastreamPrivateConnectionErrorOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -243,7 +243,7 @@ func (j *jsiiProxy_GoogleDatastreamPrivateConnectionErrorOutputReference)SetTerr
 	)
 }
 
-func (j *jsiiProxy_GoogleDatastreamPrivateConnectionErrorOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_GoogleDatastreamPrivateConnectionErrorOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -283,11 +283,11 @@ func (g *jsiiProxy_GoogleDatastreamPrivateConnectionErrorOutputReference) GetAny
 	return returns
 }
 
-func (g *jsiiProxy_GoogleDatastreamPrivateConnectionErrorOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleDatastreamPrivateConnectionErrorOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -411,8 +411,8 @@ func (g *jsiiProxy_GoogleDatastreamPrivateConnectionErrorOutputReference) GetStr
 	return returns
 }
 
-func (g *jsiiProxy_GoogleDatastreamPrivateConnectionErrorOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (g *jsiiProxy_GoogleDatastreamPrivateConnectionErrorOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -424,11 +424,11 @@ func (g *jsiiProxy_GoogleDatastreamPrivateConnectionErrorOutputReference) Interp
 	return returns
 }
 
-func (g *jsiiProxy_GoogleDatastreamPrivateConnectionErrorOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleDatastreamPrivateConnectionErrorOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -440,7 +440,7 @@ func (g *jsiiProxy_GoogleDatastreamPrivateConnectionErrorOutputReference) Interp
 	return returns
 }
 
-func (g *jsiiProxy_GoogleDatastreamPrivateConnectionErrorOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (g *jsiiProxy_GoogleDatastreamPrivateConnectionErrorOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

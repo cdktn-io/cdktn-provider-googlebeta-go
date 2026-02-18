@@ -5,14 +5,14 @@ package googleloggingmetric
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleloggingmetric/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleloggingmetric/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type GoogleLoggingMetricMetricDescriptorOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -45,9 +45,9 @@ type GoogleLoggingMetricMetricDescriptorOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Unit() *string
 	SetUnit(val *string)
 	UnitInput() *string
@@ -59,7 +59,7 @@ type GoogleLoggingMetricMetricDescriptorOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -75,16 +75,16 @@ type GoogleLoggingMetricMetricDescriptorOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutLabels(value interface{})
 	ResetDisplayName()
 	ResetLabels()
 	ResetUnit()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -94,7 +94,7 @@ type GoogleLoggingMetricMetricDescriptorOutputReference interface {
 
 // The jsii proxy struct for GoogleLoggingMetricMetricDescriptorOutputReference
 type jsiiProxy_GoogleLoggingMetricMetricDescriptorOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_GoogleLoggingMetricMetricDescriptorOutputReference) ComplexObjectIndex() interface{} {
@@ -217,8 +217,8 @@ func (j *jsiiProxy_GoogleLoggingMetricMetricDescriptorOutputReference) Terraform
 	return returns
 }
 
-func (j *jsiiProxy_GoogleLoggingMetricMetricDescriptorOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_GoogleLoggingMetricMetricDescriptorOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -268,7 +268,7 @@ func (j *jsiiProxy_GoogleLoggingMetricMetricDescriptorOutputReference) ValueType
 }
 
 
-func NewGoogleLoggingMetricMetricDescriptorOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) GoogleLoggingMetricMetricDescriptorOutputReference {
+func NewGoogleLoggingMetricMetricDescriptorOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) GoogleLoggingMetricMetricDescriptorOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewGoogleLoggingMetricMetricDescriptorOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -285,7 +285,7 @@ func NewGoogleLoggingMetricMetricDescriptorOutputReference(terraformResource cdk
 	return &j
 }
 
-func NewGoogleLoggingMetricMetricDescriptorOutputReference_Override(g GoogleLoggingMetricMetricDescriptorOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewGoogleLoggingMetricMetricDescriptorOutputReference_Override(g GoogleLoggingMetricMetricDescriptorOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -361,7 +361,7 @@ func (j *jsiiProxy_GoogleLoggingMetricMetricDescriptorOutputReference)SetTerrafo
 	)
 }
 
-func (j *jsiiProxy_GoogleLoggingMetricMetricDescriptorOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_GoogleLoggingMetricMetricDescriptorOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -423,11 +423,11 @@ func (g *jsiiProxy_GoogleLoggingMetricMetricDescriptorOutputReference) GetAnyMap
 	return returns
 }
 
-func (g *jsiiProxy_GoogleLoggingMetricMetricDescriptorOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleLoggingMetricMetricDescriptorOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -551,8 +551,8 @@ func (g *jsiiProxy_GoogleLoggingMetricMetricDescriptorOutputReference) GetString
 	return returns
 }
 
-func (g *jsiiProxy_GoogleLoggingMetricMetricDescriptorOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (g *jsiiProxy_GoogleLoggingMetricMetricDescriptorOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -564,11 +564,11 @@ func (g *jsiiProxy_GoogleLoggingMetricMetricDescriptorOutputReference) Interpola
 	return returns
 }
 
-func (g *jsiiProxy_GoogleLoggingMetricMetricDescriptorOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleLoggingMetricMetricDescriptorOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -615,7 +615,7 @@ func (g *jsiiProxy_GoogleLoggingMetricMetricDescriptorOutputReference) ResetUnit
 	)
 }
 
-func (g *jsiiProxy_GoogleLoggingMetricMetricDescriptorOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (g *jsiiProxy_GoogleLoggingMetricMetricDescriptorOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

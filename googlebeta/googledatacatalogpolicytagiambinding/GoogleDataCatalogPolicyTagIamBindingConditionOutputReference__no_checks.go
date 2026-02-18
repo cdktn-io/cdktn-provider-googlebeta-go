@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleDataCatalogPolicyTagIamBindingConditionOutputReference)
 	return nil
 }
 
-func (g *jsiiProxy_GoogleDataCatalogPolicyTagIamBindingConditionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleDataCatalogPolicyTagIamBindingConditionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_GoogleDataCatalogPolicyTagIamBindingConditionOutputReference)
 	return nil
 }
 
-func (j *jsiiProxy_GoogleDataCatalogPolicyTagIamBindingConditionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleDataCatalogPolicyTagIamBindingConditionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_GoogleDataCatalogPolicyTagIamBindingConditionOutputReference)
 	return nil
 }
 
-func validateNewGoogleDataCatalogPolicyTagIamBindingConditionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleDataCatalogPolicyTagIamBindingConditionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

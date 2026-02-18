@@ -15,7 +15,7 @@ func (g *jsiiProxy_GoogleRedisClusterDiscoveryEndpointsList) validateGetParamete
 	return nil
 }
 
-func (g *jsiiProxy_GoogleRedisClusterDiscoveryEndpointsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleRedisClusterDiscoveryEndpointsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_GoogleRedisClusterDiscoveryEndpointsList) validateSetTerrafor
 	return nil
 }
 
-func (j *jsiiProxy_GoogleRedisClusterDiscoveryEndpointsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleRedisClusterDiscoveryEndpointsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_GoogleRedisClusterDiscoveryEndpointsList) validateSetWrapsSet
 	return nil
 }
 
-func validateNewGoogleRedisClusterDiscoveryEndpointsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGoogleRedisClusterDiscoveryEndpointsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

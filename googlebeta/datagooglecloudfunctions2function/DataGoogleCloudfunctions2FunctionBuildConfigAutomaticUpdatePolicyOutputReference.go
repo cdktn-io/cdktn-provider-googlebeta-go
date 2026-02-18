@@ -5,14 +5,14 @@ package datagooglecloudfunctions2function
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagooglecloudfunctions2function/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagooglecloudfunctions2function/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataGoogleCloudfunctions2FunctionBuildConfigAutomaticUpdatePolicyOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -37,15 +37,15 @@ type DataGoogleCloudfunctions2FunctionBuildConfigAutomaticUpdatePolicyOutputRefe
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -61,12 +61,12 @@ type DataGoogleCloudfunctions2FunctionBuildConfigAutomaticUpdatePolicyOutputRefe
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -76,7 +76,7 @@ type DataGoogleCloudfunctions2FunctionBuildConfigAutomaticUpdatePolicyOutputRefe
 
 // The jsii proxy struct for DataGoogleCloudfunctions2FunctionBuildConfigAutomaticUpdatePolicyOutputReference
 type jsiiProxy_DataGoogleCloudfunctions2FunctionBuildConfigAutomaticUpdatePolicyOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataGoogleCloudfunctions2FunctionBuildConfigAutomaticUpdatePolicyOutputReference) ComplexObjectIndex() interface{} {
@@ -139,8 +139,8 @@ func (j *jsiiProxy_DataGoogleCloudfunctions2FunctionBuildConfigAutomaticUpdatePo
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleCloudfunctions2FunctionBuildConfigAutomaticUpdatePolicyOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataGoogleCloudfunctions2FunctionBuildConfigAutomaticUpdatePolicyOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -150,7 +150,7 @@ func (j *jsiiProxy_DataGoogleCloudfunctions2FunctionBuildConfigAutomaticUpdatePo
 }
 
 
-func NewDataGoogleCloudfunctions2FunctionBuildConfigAutomaticUpdatePolicyOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataGoogleCloudfunctions2FunctionBuildConfigAutomaticUpdatePolicyOutputReference {
+func NewDataGoogleCloudfunctions2FunctionBuildConfigAutomaticUpdatePolicyOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataGoogleCloudfunctions2FunctionBuildConfigAutomaticUpdatePolicyOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataGoogleCloudfunctions2FunctionBuildConfigAutomaticUpdatePolicyOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -167,7 +167,7 @@ func NewDataGoogleCloudfunctions2FunctionBuildConfigAutomaticUpdatePolicyOutputR
 	return &j
 }
 
-func NewDataGoogleCloudfunctions2FunctionBuildConfigAutomaticUpdatePolicyOutputReference_Override(d DataGoogleCloudfunctions2FunctionBuildConfigAutomaticUpdatePolicyOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewDataGoogleCloudfunctions2FunctionBuildConfigAutomaticUpdatePolicyOutputReference_Override(d DataGoogleCloudfunctions2FunctionBuildConfigAutomaticUpdatePolicyOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -221,7 +221,7 @@ func (j *jsiiProxy_DataGoogleCloudfunctions2FunctionBuildConfigAutomaticUpdatePo
 	)
 }
 
-func (j *jsiiProxy_DataGoogleCloudfunctions2FunctionBuildConfigAutomaticUpdatePolicyOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataGoogleCloudfunctions2FunctionBuildConfigAutomaticUpdatePolicyOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -261,11 +261,11 @@ func (d *jsiiProxy_DataGoogleCloudfunctions2FunctionBuildConfigAutomaticUpdatePo
 	return returns
 }
 
-func (d *jsiiProxy_DataGoogleCloudfunctions2FunctionBuildConfigAutomaticUpdatePolicyOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataGoogleCloudfunctions2FunctionBuildConfigAutomaticUpdatePolicyOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -389,8 +389,8 @@ func (d *jsiiProxy_DataGoogleCloudfunctions2FunctionBuildConfigAutomaticUpdatePo
 	return returns
 }
 
-func (d *jsiiProxy_DataGoogleCloudfunctions2FunctionBuildConfigAutomaticUpdatePolicyOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataGoogleCloudfunctions2FunctionBuildConfigAutomaticUpdatePolicyOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -402,11 +402,11 @@ func (d *jsiiProxy_DataGoogleCloudfunctions2FunctionBuildConfigAutomaticUpdatePo
 	return returns
 }
 
-func (d *jsiiProxy_DataGoogleCloudfunctions2FunctionBuildConfigAutomaticUpdatePolicyOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataGoogleCloudfunctions2FunctionBuildConfigAutomaticUpdatePolicyOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -418,7 +418,7 @@ func (d *jsiiProxy_DataGoogleCloudfunctions2FunctionBuildConfigAutomaticUpdatePo
 	return returns
 }
 
-func (d *jsiiProxy_DataGoogleCloudfunctions2FunctionBuildConfigAutomaticUpdatePolicyOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataGoogleCloudfunctions2FunctionBuildConfigAutomaticUpdatePolicyOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

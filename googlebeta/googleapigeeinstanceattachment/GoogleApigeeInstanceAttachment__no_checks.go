@@ -115,7 +115,7 @@ func (j *jsiiProxy_GoogleApigeeInstanceAttachment) validateSetInstanceIdParamete
 	return nil
 }
 
-func (j *jsiiProxy_GoogleApigeeInstanceAttachment) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleApigeeInstanceAttachment) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

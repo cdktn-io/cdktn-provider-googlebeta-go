@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleComputeVpnTunnelCipherSuitePhase1OutputReference) valid
 	return nil
 }
 
-func (g *jsiiProxy_GoogleComputeVpnTunnelCipherSuitePhase1OutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleComputeVpnTunnelCipherSuitePhase1OutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_GoogleComputeVpnTunnelCipherSuitePhase1OutputReference) valid
 	return nil
 }
 
-func (j *jsiiProxy_GoogleComputeVpnTunnelCipherSuitePhase1OutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleComputeVpnTunnelCipherSuitePhase1OutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleComputeVpnTunnelCipherSuitePhase1OutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleComputeVpnTunnelCipherSuitePhase1OutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

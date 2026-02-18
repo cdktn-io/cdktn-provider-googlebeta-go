@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataGoogleServiceAccountAccessToken) validateSetIdParameters(
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleServiceAccountAccessToken) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataGoogleServiceAccountAccessToken) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

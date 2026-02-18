@@ -107,7 +107,7 @@ func (j *jsiiProxy_GoogleIamWorkloadIdentityPoolIamMember) validateSetIdParamete
 	return nil
 }
 
-func (j *jsiiProxy_GoogleIamWorkloadIdentityPoolIamMember) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleIamWorkloadIdentityPoolIamMember) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

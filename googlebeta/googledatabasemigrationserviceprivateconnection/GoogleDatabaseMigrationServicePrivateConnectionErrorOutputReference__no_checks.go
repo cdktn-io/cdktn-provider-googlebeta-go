@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleDatabaseMigrationServicePrivateConnectionErrorOutputRef
 	return nil
 }
 
-func (g *jsiiProxy_GoogleDatabaseMigrationServicePrivateConnectionErrorOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleDatabaseMigrationServicePrivateConnectionErrorOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_GoogleDatabaseMigrationServicePrivateConnectionErrorOutputRef
 	return nil
 }
 
-func (j *jsiiProxy_GoogleDatabaseMigrationServicePrivateConnectionErrorOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleDatabaseMigrationServicePrivateConnectionErrorOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleDatabaseMigrationServicePrivateConnectionErrorOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewGoogleDatabaseMigrationServicePrivateConnectionErrorOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

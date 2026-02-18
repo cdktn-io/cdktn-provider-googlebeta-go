@@ -131,7 +131,7 @@ func (j *jsiiProxy_GoogleVmwareengineExternalAccessRule) validateSetIpProtocolPa
 	return nil
 }
 
-func (j *jsiiProxy_GoogleVmwareengineExternalAccessRule) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleVmwareengineExternalAccessRule) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

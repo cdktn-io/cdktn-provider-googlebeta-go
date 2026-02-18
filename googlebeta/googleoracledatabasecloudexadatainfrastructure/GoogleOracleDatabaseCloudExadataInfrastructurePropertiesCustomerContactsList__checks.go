@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (g *jsiiProxy_GoogleOracleDatabaseCloudExadataInfrastructurePropertiesCustomerContactsList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -29,7 +29,7 @@ func (g *jsiiProxy_GoogleOracleDatabaseCloudExadataInfrastructurePropertiesCusto
 	return nil
 }
 
-func (g *jsiiProxy_GoogleOracleDatabaseCloudExadataInfrastructurePropertiesCustomerContactsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleOracleDatabaseCloudExadataInfrastructurePropertiesCustomerContactsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -39,7 +39,7 @@ func (g *jsiiProxy_GoogleOracleDatabaseCloudExadataInfrastructurePropertiesCusto
 
 func (j *jsiiProxy_GoogleOracleDatabaseCloudExadataInfrastructurePropertiesCustomerContactsList) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*GoogleOracleDatabaseCloudExadataInfrastructurePropertiesCustomerContacts:
 		val := val.(*[]*GoogleOracleDatabaseCloudExadataInfrastructurePropertiesCustomerContacts)
@@ -58,7 +58,7 @@ func (j *jsiiProxy_GoogleOracleDatabaseCloudExadataInfrastructurePropertiesCusto
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *[]*GoogleOracleDatabaseCloudExadataInfrastructurePropertiesCustomerContacts; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *[]*GoogleOracleDatabaseCloudExadataInfrastructurePropertiesCustomerContacts; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -73,7 +73,7 @@ func (j *jsiiProxy_GoogleOracleDatabaseCloudExadataInfrastructurePropertiesCusto
 	return nil
 }
 
-func (j *jsiiProxy_GoogleOracleDatabaseCloudExadataInfrastructurePropertiesCustomerContactsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleOracleDatabaseCloudExadataInfrastructurePropertiesCustomerContactsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -89,7 +89,7 @@ func (j *jsiiProxy_GoogleOracleDatabaseCloudExadataInfrastructurePropertiesCusto
 	return nil
 }
 
-func validateNewGoogleOracleDatabaseCloudExadataInfrastructurePropertiesCustomerContactsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGoogleOracleDatabaseCloudExadataInfrastructurePropertiesCustomerContactsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

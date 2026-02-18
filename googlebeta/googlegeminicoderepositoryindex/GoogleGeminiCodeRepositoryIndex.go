@@ -5,18 +5,18 @@ package googlegeminicoderepositoryindex
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlegeminicoderepositoryindex/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlegeminicoderepositoryindex/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gemini_code_repository_index google_gemini_code_repository_index}.
 type GoogleGeminiCodeRepositoryIndex interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	CodeRepositoryIndexId() *string
 	SetCodeRepositoryIndexId(val *string)
 	CodeRepositoryIndexIdInput() *string
@@ -35,14 +35,14 @@ type GoogleGeminiCodeRepositoryIndex interface {
 	DependsOn() *[]*string
 	// Experimental.
 	SetDependsOn(val *[]*string)
-	EffectiveLabels() cdktf.StringMap
+	EffectiveLabels() cdktn.StringMap
 	ForceDestroy() interface{}
 	SetForceDestroy(val interface{})
 	ForceDestroyInput() interface{}
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -57,9 +57,9 @@ type GoogleGeminiCodeRepositoryIndex interface {
 	SetLabels(val *map[string]*string)
 	LabelsInput() *map[string]*string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Location() *string
 	SetLocation(val *string)
 	LocationInput() *string
@@ -70,9 +70,9 @@ type GoogleGeminiCodeRepositoryIndex interface {
 	SetProject(val *string)
 	ProjectInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -81,8 +81,8 @@ type GoogleGeminiCodeRepositoryIndex interface {
 	RawOverrides() interface{}
 	State() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
-	TerraformLabels() cdktf.StringMap
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
+	TerraformLabels() cdktn.StringMap
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -98,7 +98,7 @@ type GoogleGeminiCodeRepositoryIndex interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -116,9 +116,9 @@ type GoogleGeminiCodeRepositoryIndex interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -158,11 +158,11 @@ type GoogleGeminiCodeRepositoryIndex interface {
 
 // The jsii proxy struct for GoogleGeminiCodeRepositoryIndex
 type jsiiProxy_GoogleGeminiCodeRepositoryIndex struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
-func (j *jsiiProxy_GoogleGeminiCodeRepositoryIndex) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_GoogleGeminiCodeRepositoryIndex) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -241,8 +241,8 @@ func (j *jsiiProxy_GoogleGeminiCodeRepositoryIndex) DependsOn() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleGeminiCodeRepositoryIndex) EffectiveLabels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_GoogleGeminiCodeRepositoryIndex) EffectiveLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"effectiveLabels",
@@ -271,8 +271,8 @@ func (j *jsiiProxy_GoogleGeminiCodeRepositoryIndex) ForceDestroyInput() interfac
 	return returns
 }
 
-func (j *jsiiProxy_GoogleGeminiCodeRepositoryIndex) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_GoogleGeminiCodeRepositoryIndex) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -361,8 +361,8 @@ func (j *jsiiProxy_GoogleGeminiCodeRepositoryIndex) LabelsInput() *map[string]*s
 	return returns
 }
 
-func (j *jsiiProxy_GoogleGeminiCodeRepositoryIndex) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_GoogleGeminiCodeRepositoryIndex) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -431,8 +431,8 @@ func (j *jsiiProxy_GoogleGeminiCodeRepositoryIndex) ProjectInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleGeminiCodeRepositoryIndex) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_GoogleGeminiCodeRepositoryIndex) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -471,8 +471,8 @@ func (j *jsiiProxy_GoogleGeminiCodeRepositoryIndex) State() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleGeminiCodeRepositoryIndex) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_GoogleGeminiCodeRepositoryIndex) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -481,8 +481,8 @@ func (j *jsiiProxy_GoogleGeminiCodeRepositoryIndex) TerraformGeneratorMetadata()
 	return returns
 }
 
-func (j *jsiiProxy_GoogleGeminiCodeRepositoryIndex) TerraformLabels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_GoogleGeminiCodeRepositoryIndex) TerraformLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"terraformLabels",
@@ -623,7 +623,7 @@ func (j *jsiiProxy_GoogleGeminiCodeRepositoryIndex)SetForceDestroy(val interface
 	)
 }
 
-func (j *jsiiProxy_GoogleGeminiCodeRepositoryIndex)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_GoogleGeminiCodeRepositoryIndex)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -664,7 +664,7 @@ func (j *jsiiProxy_GoogleGeminiCodeRepositoryIndex)SetLabels(val *map[string]*st
 	)
 }
 
-func (j *jsiiProxy_GoogleGeminiCodeRepositoryIndex)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_GoogleGeminiCodeRepositoryIndex)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -697,7 +697,7 @@ func (j *jsiiProxy_GoogleGeminiCodeRepositoryIndex)SetProject(val *string) {
 	)
 }
 
-func (j *jsiiProxy_GoogleGeminiCodeRepositoryIndex)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_GoogleGeminiCodeRepositoryIndex)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -716,14 +716,14 @@ func (j *jsiiProxy_GoogleGeminiCodeRepositoryIndex)SetProvisioners(val *[]interf
 	)
 }
 
-// Generates CDKTF code for importing a GoogleGeminiCodeRepositoryIndex resource upon running "cdktf plan <stack-name>".
-func GoogleGeminiCodeRepositoryIndex_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a GoogleGeminiCodeRepositoryIndex resource upon running "cdktn plan <stack-name>".
+func GoogleGeminiCodeRepositoryIndex_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateGoogleGeminiCodeRepositoryIndex_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google-beta.googleGeminiCodeRepositoryIndex.GoogleGeminiCodeRepositoryIndex",
@@ -857,11 +857,11 @@ func (g *jsiiProxy_GoogleGeminiCodeRepositoryIndex) GetAnyMapAttribute(terraform
 	return returns
 }
 
-func (g *jsiiProxy_GoogleGeminiCodeRepositoryIndex) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleGeminiCodeRepositoryIndex) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -998,7 +998,7 @@ func (g *jsiiProxy_GoogleGeminiCodeRepositoryIndex) HasResourceMove() interface{
 	return returns
 }
 
-func (g *jsiiProxy_GoogleGeminiCodeRepositoryIndex) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (g *jsiiProxy_GoogleGeminiCodeRepositoryIndex) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := g.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1009,11 +1009,11 @@ func (g *jsiiProxy_GoogleGeminiCodeRepositoryIndex) ImportFrom(id *string, provi
 	)
 }
 
-func (g *jsiiProxy_GoogleGeminiCodeRepositoryIndex) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleGeminiCodeRepositoryIndex) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,

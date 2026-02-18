@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleComputeImageShieldedInstanceInitialStateDbxsOutputRefer
 	return nil
 }
 
-func (g *jsiiProxy_GoogleComputeImageShieldedInstanceInitialStateDbxsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleComputeImageShieldedInstanceInitialStateDbxsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_GoogleComputeImageShieldedInstanceInitialStateDbxsOutputRefer
 	return nil
 }
 
-func (j *jsiiProxy_GoogleComputeImageShieldedInstanceInitialStateDbxsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleComputeImageShieldedInstanceInitialStateDbxsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleComputeImageShieldedInstanceInitialStateDbxsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewGoogleComputeImageShieldedInstanceInitialStateDbxsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

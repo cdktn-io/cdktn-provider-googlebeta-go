@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataGoogleCloudAssetSearchAllResourcesResultsList) validateGe
 	return nil
 }
 
-func (d *jsiiProxy_DataGoogleCloudAssetSearchAllResourcesResultsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataGoogleCloudAssetSearchAllResourcesResultsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataGoogleCloudAssetSearchAllResourcesResultsList) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleCloudAssetSearchAllResourcesResultsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataGoogleCloudAssetSearchAllResourcesResultsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataGoogleCloudAssetSearchAllResourcesResultsList) validateSe
 	return nil
 }
 
-func validateNewDataGoogleCloudAssetSearchAllResourcesResultsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataGoogleCloudAssetSearchAllResourcesResultsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

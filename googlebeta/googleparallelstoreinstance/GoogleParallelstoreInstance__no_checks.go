@@ -135,7 +135,7 @@ func (j *jsiiProxy_GoogleParallelstoreInstance) validateSetLabelsParameters(val 
 	return nil
 }
 
-func (j *jsiiProxy_GoogleParallelstoreInstance) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleParallelstoreInstance) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

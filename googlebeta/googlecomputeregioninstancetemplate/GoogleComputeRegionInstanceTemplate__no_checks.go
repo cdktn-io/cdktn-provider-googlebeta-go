@@ -171,7 +171,7 @@ func (j *jsiiProxy_GoogleComputeRegionInstanceTemplate) validateSetLabelsParamet
 	return nil
 }
 
-func (j *jsiiProxy_GoogleComputeRegionInstanceTemplate) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleComputeRegionInstanceTemplate) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -5,18 +5,18 @@ package googlecomputeattacheddisk
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecomputeattacheddisk/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeattacheddisk/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_attached_disk google_compute_attached_disk}.
 type GoogleComputeAttachedDisk interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -38,9 +38,9 @@ type GoogleComputeAttachedDisk interface {
 	SetDisk(val *string)
 	DiskInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -55,9 +55,9 @@ type GoogleComputeAttachedDisk interface {
 	SetInterface(val *string)
 	InterfaceInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Mode() *string
 	SetMode(val *string)
 	ModeInput() *string
@@ -67,9 +67,9 @@ type GoogleComputeAttachedDisk interface {
 	SetProject(val *string)
 	ProjectInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -77,7 +77,7 @@ type GoogleComputeAttachedDisk interface {
 	// Experimental.
 	RawOverrides() interface{}
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -95,7 +95,7 @@ type GoogleComputeAttachedDisk interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -113,9 +113,9 @@ type GoogleComputeAttachedDisk interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -156,11 +156,11 @@ type GoogleComputeAttachedDisk interface {
 
 // The jsii proxy struct for GoogleComputeAttachedDisk
 type jsiiProxy_GoogleComputeAttachedDisk struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
-func (j *jsiiProxy_GoogleComputeAttachedDisk) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_GoogleComputeAttachedDisk) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -249,8 +249,8 @@ func (j *jsiiProxy_GoogleComputeAttachedDisk) DiskInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleComputeAttachedDisk) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_GoogleComputeAttachedDisk) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -339,8 +339,8 @@ func (j *jsiiProxy_GoogleComputeAttachedDisk) InterfaceInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleComputeAttachedDisk) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_GoogleComputeAttachedDisk) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -399,8 +399,8 @@ func (j *jsiiProxy_GoogleComputeAttachedDisk) ProjectInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleComputeAttachedDisk) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_GoogleComputeAttachedDisk) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -429,8 +429,8 @@ func (j *jsiiProxy_GoogleComputeAttachedDisk) RawOverrides() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleComputeAttachedDisk) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_GoogleComputeAttachedDisk) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -581,7 +581,7 @@ func (j *jsiiProxy_GoogleComputeAttachedDisk)SetDisk(val *string) {
 	)
 }
 
-func (j *jsiiProxy_GoogleComputeAttachedDisk)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_GoogleComputeAttachedDisk)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -622,7 +622,7 @@ func (j *jsiiProxy_GoogleComputeAttachedDisk)SetInterface(val *string) {
 	)
 }
 
-func (j *jsiiProxy_GoogleComputeAttachedDisk)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_GoogleComputeAttachedDisk)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -655,7 +655,7 @@ func (j *jsiiProxy_GoogleComputeAttachedDisk)SetProject(val *string) {
 	)
 }
 
-func (j *jsiiProxy_GoogleComputeAttachedDisk)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_GoogleComputeAttachedDisk)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -685,14 +685,14 @@ func (j *jsiiProxy_GoogleComputeAttachedDisk)SetZone(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a GoogleComputeAttachedDisk resource upon running "cdktf plan <stack-name>".
-func GoogleComputeAttachedDisk_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a GoogleComputeAttachedDisk resource upon running "cdktn plan <stack-name>".
+func GoogleComputeAttachedDisk_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateGoogleComputeAttachedDisk_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google-beta.googleComputeAttachedDisk.GoogleComputeAttachedDisk",
@@ -826,11 +826,11 @@ func (g *jsiiProxy_GoogleComputeAttachedDisk) GetAnyMapAttribute(terraformAttrib
 	return returns
 }
 
-func (g *jsiiProxy_GoogleComputeAttachedDisk) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleComputeAttachedDisk) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -967,7 +967,7 @@ func (g *jsiiProxy_GoogleComputeAttachedDisk) HasResourceMove() interface{} {
 	return returns
 }
 
-func (g *jsiiProxy_GoogleComputeAttachedDisk) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (g *jsiiProxy_GoogleComputeAttachedDisk) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := g.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -978,11 +978,11 @@ func (g *jsiiProxy_GoogleComputeAttachedDisk) ImportFrom(id *string, provider cd
 	)
 }
 
-func (g *jsiiProxy_GoogleComputeAttachedDisk) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleComputeAttachedDisk) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,

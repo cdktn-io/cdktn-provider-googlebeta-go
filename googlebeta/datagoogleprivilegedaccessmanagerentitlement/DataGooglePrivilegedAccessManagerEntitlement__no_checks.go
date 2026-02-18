@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataGooglePrivilegedAccessManagerEntitlement) validateSetIdPa
 	return nil
 }
 
-func (j *jsiiProxy_DataGooglePrivilegedAccessManagerEntitlement) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataGooglePrivilegedAccessManagerEntitlement) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

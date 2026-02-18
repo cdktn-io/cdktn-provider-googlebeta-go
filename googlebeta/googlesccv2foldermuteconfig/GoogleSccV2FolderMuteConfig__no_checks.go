@@ -119,7 +119,7 @@ func (j *jsiiProxy_GoogleSccV2FolderMuteConfig) validateSetIdParameters(val *str
 	return nil
 }
 
-func (j *jsiiProxy_GoogleSccV2FolderMuteConfig) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleSccV2FolderMuteConfig) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

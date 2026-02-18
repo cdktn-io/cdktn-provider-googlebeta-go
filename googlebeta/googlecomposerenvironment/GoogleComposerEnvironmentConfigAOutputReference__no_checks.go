@@ -95,7 +95,7 @@ func (g *jsiiProxy_GoogleComposerEnvironmentConfigAOutputReference) validatePutW
 	return nil
 }
 
-func (g *jsiiProxy_GoogleComposerEnvironmentConfigAOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleComposerEnvironmentConfigAOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -135,11 +135,11 @@ func (j *jsiiProxy_GoogleComposerEnvironmentConfigAOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_GoogleComposerEnvironmentConfigAOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleComposerEnvironmentConfigAOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleComposerEnvironmentConfigAOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleComposerEnvironmentConfigAOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (g *jsiiProxy_GoogleNetworkServicesHttpRouteRulesMatchesHeadersOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -104,7 +104,7 @@ func (g *jsiiProxy_GoogleNetworkServicesHttpRouteRulesMatchesHeadersOutputRefere
 	return nil
 }
 
-func (g *jsiiProxy_GoogleNetworkServicesHttpRouteRulesMatchesHeadersOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleNetworkServicesHttpRouteRulesMatchesHeadersOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -195,7 +195,7 @@ func (j *jsiiProxy_GoogleNetworkServicesHttpRouteRulesMatchesHeadersOutputRefere
 
 func (j *jsiiProxy_GoogleNetworkServicesHttpRouteRulesMatchesHeadersOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *GoogleNetworkServicesHttpRouteRulesMatchesHeaders:
 		val := val.(*GoogleNetworkServicesHttpRouteRulesMatchesHeaders)
@@ -210,7 +210,7 @@ func (j *jsiiProxy_GoogleNetworkServicesHttpRouteRulesMatchesHeadersOutputRefere
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *GoogleNetworkServicesHttpRouteRulesMatchesHeaders; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *GoogleNetworkServicesHttpRouteRulesMatchesHeaders; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -226,11 +226,11 @@ func (j *jsiiProxy_GoogleNetworkServicesHttpRouteRulesMatchesHeadersOutputRefere
 		// ok
 	case bool:
 		// ok
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktf.IResolvable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -254,11 +254,11 @@ func (j *jsiiProxy_GoogleNetworkServicesHttpRouteRulesMatchesHeadersOutputRefere
 		// ok
 	case bool:
 		// ok
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktf.IResolvable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -289,7 +289,7 @@ func (j *jsiiProxy_GoogleNetworkServicesHttpRouteRulesMatchesHeadersOutputRefere
 	return nil
 }
 
-func (j *jsiiProxy_GoogleNetworkServicesHttpRouteRulesMatchesHeadersOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleNetworkServicesHttpRouteRulesMatchesHeadersOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -297,7 +297,7 @@ func (j *jsiiProxy_GoogleNetworkServicesHttpRouteRulesMatchesHeadersOutputRefere
 	return nil
 }
 
-func validateNewGoogleNetworkServicesHttpRouteRulesMatchesHeadersOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewGoogleNetworkServicesHttpRouteRulesMatchesHeadersOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

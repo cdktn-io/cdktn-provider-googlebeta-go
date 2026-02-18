@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleChronicleWatchlistEntityPopulationMechanismManualOutput
 	return nil
 }
 
-func (g *jsiiProxy_GoogleChronicleWatchlistEntityPopulationMechanismManualOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleChronicleWatchlistEntityPopulationMechanismManualOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_GoogleChronicleWatchlistEntityPopulationMechanismManualOutput
 	return nil
 }
 
-func (j *jsiiProxy_GoogleChronicleWatchlistEntityPopulationMechanismManualOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleChronicleWatchlistEntityPopulationMechanismManualOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleChronicleWatchlistEntityPopulationMechanismManualOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleChronicleWatchlistEntityPopulationMechanismManualOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

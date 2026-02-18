@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleFirebaserulesRulesetSourceFilesOutputReference) validat
 	return nil
 }
 
-func (g *jsiiProxy_GoogleFirebaserulesRulesetSourceFilesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleFirebaserulesRulesetSourceFilesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_GoogleFirebaserulesRulesetSourceFilesOutputReference) validat
 	return nil
 }
 
-func (j *jsiiProxy_GoogleFirebaserulesRulesetSourceFilesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleFirebaserulesRulesetSourceFilesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleFirebaserulesRulesetSourceFilesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewGoogleFirebaserulesRulesetSourceFilesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

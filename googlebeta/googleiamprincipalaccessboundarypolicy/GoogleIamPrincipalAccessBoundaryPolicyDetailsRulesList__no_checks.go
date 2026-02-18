@@ -15,7 +15,7 @@ func (g *jsiiProxy_GoogleIamPrincipalAccessBoundaryPolicyDetailsRulesList) valid
 	return nil
 }
 
-func (g *jsiiProxy_GoogleIamPrincipalAccessBoundaryPolicyDetailsRulesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleIamPrincipalAccessBoundaryPolicyDetailsRulesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_GoogleIamPrincipalAccessBoundaryPolicyDetailsRulesList) valid
 	return nil
 }
 
-func (j *jsiiProxy_GoogleIamPrincipalAccessBoundaryPolicyDetailsRulesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleIamPrincipalAccessBoundaryPolicyDetailsRulesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_GoogleIamPrincipalAccessBoundaryPolicyDetailsRulesList) valid
 	return nil
 }
 
-func validateNewGoogleIamPrincipalAccessBoundaryPolicyDetailsRulesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGoogleIamPrincipalAccessBoundaryPolicyDetailsRulesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

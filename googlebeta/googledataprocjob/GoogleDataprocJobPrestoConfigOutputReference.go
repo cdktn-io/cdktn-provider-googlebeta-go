@@ -5,14 +5,14 @@ package googledataprocjob
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googledataprocjob/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocjob/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type GoogleDataprocJobPrestoConfigOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	ClientTags() *[]*string
 	SetClientTags(val *[]*string)
 	ClientTagsInput() *[]*string
@@ -57,15 +57,15 @@ type GoogleDataprocJobPrestoConfigOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -81,9 +81,9 @@ type GoogleDataprocJobPrestoConfigOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutLoggingConfig(value *GoogleDataprocJobPrestoConfigLoggingConfig)
 	ResetClientTags()
 	ResetContinueOnFailure()
@@ -94,7 +94,7 @@ type GoogleDataprocJobPrestoConfigOutputReference interface {
 	ResetQueryList()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -104,7 +104,7 @@ type GoogleDataprocJobPrestoConfigOutputReference interface {
 
 // The jsii proxy struct for GoogleDataprocJobPrestoConfigOutputReference
 type jsiiProxy_GoogleDataprocJobPrestoConfigOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_GoogleDataprocJobPrestoConfigOutputReference) ClientTags() *[]*string {
@@ -307,8 +307,8 @@ func (j *jsiiProxy_GoogleDataprocJobPrestoConfigOutputReference) TerraformAttrib
 	return returns
 }
 
-func (j *jsiiProxy_GoogleDataprocJobPrestoConfigOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_GoogleDataprocJobPrestoConfigOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -318,7 +318,7 @@ func (j *jsiiProxy_GoogleDataprocJobPrestoConfigOutputReference) TerraformResour
 }
 
 
-func NewGoogleDataprocJobPrestoConfigOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) GoogleDataprocJobPrestoConfigOutputReference {
+func NewGoogleDataprocJobPrestoConfigOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) GoogleDataprocJobPrestoConfigOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewGoogleDataprocJobPrestoConfigOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -335,7 +335,7 @@ func NewGoogleDataprocJobPrestoConfigOutputReference(terraformResource cdktf.IIn
 	return &j
 }
 
-func NewGoogleDataprocJobPrestoConfigOutputReference_Override(g GoogleDataprocJobPrestoConfigOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewGoogleDataprocJobPrestoConfigOutputReference_Override(g GoogleDataprocJobPrestoConfigOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -455,7 +455,7 @@ func (j *jsiiProxy_GoogleDataprocJobPrestoConfigOutputReference)SetTerraformAttr
 	)
 }
 
-func (j *jsiiProxy_GoogleDataprocJobPrestoConfigOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_GoogleDataprocJobPrestoConfigOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -495,11 +495,11 @@ func (g *jsiiProxy_GoogleDataprocJobPrestoConfigOutputReference) GetAnyMapAttrib
 	return returns
 }
 
-func (g *jsiiProxy_GoogleDataprocJobPrestoConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleDataprocJobPrestoConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -623,8 +623,8 @@ func (g *jsiiProxy_GoogleDataprocJobPrestoConfigOutputReference) GetStringMapAtt
 	return returns
 }
 
-func (g *jsiiProxy_GoogleDataprocJobPrestoConfigOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (g *jsiiProxy_GoogleDataprocJobPrestoConfigOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -636,11 +636,11 @@ func (g *jsiiProxy_GoogleDataprocJobPrestoConfigOutputReference) InterpolationAs
 	return returns
 }
 
-func (g *jsiiProxy_GoogleDataprocJobPrestoConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleDataprocJobPrestoConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -719,7 +719,7 @@ func (g *jsiiProxy_GoogleDataprocJobPrestoConfigOutputReference) ResetQueryList(
 	)
 }
 
-func (g *jsiiProxy_GoogleDataprocJobPrestoConfigOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (g *jsiiProxy_GoogleDataprocJobPrestoConfigOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

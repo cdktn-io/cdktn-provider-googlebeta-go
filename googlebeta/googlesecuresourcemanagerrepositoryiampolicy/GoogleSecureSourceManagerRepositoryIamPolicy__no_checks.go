@@ -103,7 +103,7 @@ func (j *jsiiProxy_GoogleSecureSourceManagerRepositoryIamPolicy) validateSetIdPa
 	return nil
 }
 
-func (j *jsiiProxy_GoogleSecureSourceManagerRepositoryIamPolicy) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleSecureSourceManagerRepositoryIamPolicy) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

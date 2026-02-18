@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleNetworkServicesTlsRouteRulesActionDestinationsOutputRef
 	return nil
 }
 
-func (g *jsiiProxy_GoogleNetworkServicesTlsRouteRulesActionDestinationsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleNetworkServicesTlsRouteRulesActionDestinationsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_GoogleNetworkServicesTlsRouteRulesActionDestinationsOutputRef
 	return nil
 }
 
-func (j *jsiiProxy_GoogleNetworkServicesTlsRouteRulesActionDestinationsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleNetworkServicesTlsRouteRulesActionDestinationsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_GoogleNetworkServicesTlsRouteRulesActionDestinationsOutputRef
 	return nil
 }
 
-func validateNewGoogleNetworkServicesTlsRouteRulesActionDestinationsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewGoogleNetworkServicesTlsRouteRulesActionDestinationsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

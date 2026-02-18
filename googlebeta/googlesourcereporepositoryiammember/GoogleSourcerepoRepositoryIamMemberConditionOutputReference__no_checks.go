@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleSourcerepoRepositoryIamMemberConditionOutputReference) 
 	return nil
 }
 
-func (g *jsiiProxy_GoogleSourcerepoRepositoryIamMemberConditionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleSourcerepoRepositoryIamMemberConditionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_GoogleSourcerepoRepositoryIamMemberConditionOutputReference) 
 	return nil
 }
 
-func (j *jsiiProxy_GoogleSourcerepoRepositoryIamMemberConditionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleSourcerepoRepositoryIamMemberConditionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_GoogleSourcerepoRepositoryIamMemberConditionOutputReference) 
 	return nil
 }
 
-func validateNewGoogleSourcerepoRepositoryIamMemberConditionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleSourcerepoRepositoryIamMemberConditionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

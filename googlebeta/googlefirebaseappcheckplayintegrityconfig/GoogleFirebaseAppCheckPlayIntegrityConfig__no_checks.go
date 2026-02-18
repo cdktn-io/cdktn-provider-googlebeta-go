@@ -111,7 +111,7 @@ func (j *jsiiProxy_GoogleFirebaseAppCheckPlayIntegrityConfig) validateSetIdParam
 	return nil
 }
 
-func (j *jsiiProxy_GoogleFirebaseAppCheckPlayIntegrityConfig) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleFirebaseAppCheckPlayIntegrityConfig) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

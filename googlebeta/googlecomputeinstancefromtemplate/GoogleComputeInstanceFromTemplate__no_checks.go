@@ -199,7 +199,7 @@ func (j *jsiiProxy_GoogleComputeInstanceFromTemplate) validateSetLabelsParameter
 	return nil
 }
 
-func (j *jsiiProxy_GoogleComputeInstanceFromTemplate) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleComputeInstanceFromTemplate) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

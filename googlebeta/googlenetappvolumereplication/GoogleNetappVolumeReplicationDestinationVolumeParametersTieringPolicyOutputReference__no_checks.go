@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleNetappVolumeReplicationDestinationVolumeParametersTieri
 	return nil
 }
 
-func (g *jsiiProxy_GoogleNetappVolumeReplicationDestinationVolumeParametersTieringPolicyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleNetappVolumeReplicationDestinationVolumeParametersTieringPolicyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_GoogleNetappVolumeReplicationDestinationVolumeParametersTieri
 	return nil
 }
 
-func (j *jsiiProxy_GoogleNetappVolumeReplicationDestinationVolumeParametersTieringPolicyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleNetappVolumeReplicationDestinationVolumeParametersTieringPolicyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_GoogleNetappVolumeReplicationDestinationVolumeParametersTieri
 	return nil
 }
 
-func validateNewGoogleNetappVolumeReplicationDestinationVolumeParametersTieringPolicyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleNetappVolumeReplicationDestinationVolumeParametersTieringPolicyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

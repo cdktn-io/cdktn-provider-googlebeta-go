@@ -135,7 +135,7 @@ func (j *jsiiProxy_GoogleStorageBatchOperationsJob) validateSetJobIdParameters(v
 	return nil
 }
 
-func (j *jsiiProxy_GoogleStorageBatchOperationsJob) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleStorageBatchOperationsJob) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

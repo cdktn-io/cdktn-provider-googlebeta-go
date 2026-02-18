@@ -15,7 +15,7 @@ func (g *jsiiProxy_GoogleOrganizationIamAuditConfigAuditLogConfigList) validateG
 	return nil
 }
 
-func (g *jsiiProxy_GoogleOrganizationIamAuditConfigAuditLogConfigList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleOrganizationIamAuditConfigAuditLogConfigList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_GoogleOrganizationIamAuditConfigAuditLogConfigList) validateS
 	return nil
 }
 
-func (j *jsiiProxy_GoogleOrganizationIamAuditConfigAuditLogConfigList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleOrganizationIamAuditConfigAuditLogConfigList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_GoogleOrganizationIamAuditConfigAuditLogConfigList) validateS
 	return nil
 }
 
-func validateNewGoogleOrganizationIamAuditConfigAuditLogConfigListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGoogleOrganizationIamAuditConfigAuditLogConfigListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

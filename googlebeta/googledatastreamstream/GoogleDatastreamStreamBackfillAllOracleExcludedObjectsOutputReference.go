@@ -5,14 +5,14 @@ package googledatastreamstream
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googledatastreamstream/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledatastreamstream/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -39,15 +39,15 @@ type GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOutputReference inter
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -63,13 +63,13 @@ type GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOutputReference inter
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutOracleSchemas(value interface{})
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -79,7 +79,7 @@ type GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOutputReference inter
 
 // The jsii proxy struct for GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOutputReference
 type jsiiProxy_GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOutputReference) ComplexObjectIndex() interface{} {
@@ -162,8 +162,8 @@ func (j *jsiiProxy_GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOutputR
 	return returns
 }
 
-func (j *jsiiProxy_GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -173,7 +173,7 @@ func (j *jsiiProxy_GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOutputR
 }
 
 
-func NewGoogleDatastreamStreamBackfillAllOracleExcludedObjectsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOutputReference {
+func NewGoogleDatastreamStreamBackfillAllOracleExcludedObjectsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewGoogleDatastreamStreamBackfillAllOracleExcludedObjectsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -190,7 +190,7 @@ func NewGoogleDatastreamStreamBackfillAllOracleExcludedObjectsOutputReference(te
 	return &j
 }
 
-func NewGoogleDatastreamStreamBackfillAllOracleExcludedObjectsOutputReference_Override(g GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewGoogleDatastreamStreamBackfillAllOracleExcludedObjectsOutputReference_Override(g GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -244,7 +244,7 @@ func (j *jsiiProxy_GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOutputR
 	)
 }
 
-func (j *jsiiProxy_GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -284,11 +284,11 @@ func (g *jsiiProxy_GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOutputR
 	return returns
 }
 
-func (g *jsiiProxy_GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -412,8 +412,8 @@ func (g *jsiiProxy_GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOutputR
 	return returns
 }
 
-func (g *jsiiProxy_GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (g *jsiiProxy_GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -425,11 +425,11 @@ func (g *jsiiProxy_GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOutputR
 	return returns
 }
 
-func (g *jsiiProxy_GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -452,7 +452,7 @@ func (g *jsiiProxy_GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOutputR
 	)
 }
 
-func (g *jsiiProxy_GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (g *jsiiProxy_GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

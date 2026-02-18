@@ -51,7 +51,7 @@ func (g *jsiiProxy_GoogleBigqueryTableExternalDataConfigurationBigtableOptionsCo
 	return nil
 }
 
-func (g *jsiiProxy_GoogleBigqueryTableExternalDataConfigurationBigtableOptionsColumnFamilyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleBigqueryTableExternalDataConfigurationBigtableOptionsColumnFamilyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_GoogleBigqueryTableExternalDataConfigurationBigtableOptionsCo
 	return nil
 }
 
-func (j *jsiiProxy_GoogleBigqueryTableExternalDataConfigurationBigtableOptionsColumnFamilyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleBigqueryTableExternalDataConfigurationBigtableOptionsColumnFamilyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -91,7 +91,7 @@ func (j *jsiiProxy_GoogleBigqueryTableExternalDataConfigurationBigtableOptionsCo
 	return nil
 }
 
-func validateNewGoogleBigqueryTableExternalDataConfigurationBigtableOptionsColumnFamilyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewGoogleBigqueryTableExternalDataConfigurationBigtableOptionsColumnFamilyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

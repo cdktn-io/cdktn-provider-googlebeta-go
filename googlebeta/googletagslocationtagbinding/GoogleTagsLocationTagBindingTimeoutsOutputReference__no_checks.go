@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleTagsLocationTagBindingTimeoutsOutputReference) validate
 	return nil
 }
 
-func (g *jsiiProxy_GoogleTagsLocationTagBindingTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleTagsLocationTagBindingTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_GoogleTagsLocationTagBindingTimeoutsOutputReference) validate
 	return nil
 }
 
-func (j *jsiiProxy_GoogleTagsLocationTagBindingTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleTagsLocationTagBindingTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleTagsLocationTagBindingTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleTagsLocationTagBindingTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

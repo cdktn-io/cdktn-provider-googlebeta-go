@@ -51,7 +51,7 @@ func (g *jsiiProxy_GoogleContainerAnalysisOccurrenceAttestationOutputReference) 
 	return nil
 }
 
-func (g *jsiiProxy_GoogleContainerAnalysisOccurrenceAttestationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleContainerAnalysisOccurrenceAttestationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_GoogleContainerAnalysisOccurrenceAttestationOutputReference) 
 	return nil
 }
 
-func (j *jsiiProxy_GoogleContainerAnalysisOccurrenceAttestationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleContainerAnalysisOccurrenceAttestationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleContainerAnalysisOccurrenceAttestationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleContainerAnalysisOccurrenceAttestationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

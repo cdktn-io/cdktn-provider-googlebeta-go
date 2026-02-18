@@ -135,7 +135,7 @@ func (j *jsiiProxy_GoogleRecaptchaEnterpriseKey) validateSetLabelsParameters(val
 	return nil
 }
 
-func (j *jsiiProxy_GoogleRecaptchaEnterpriseKey) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleRecaptchaEnterpriseKey) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

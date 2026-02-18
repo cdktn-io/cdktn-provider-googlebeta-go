@@ -111,7 +111,7 @@ func (j *jsiiProxy_GoogleVmwareengineSubnet) validateSetIpCidrRangeParameters(va
 	return nil
 }
 
-func (j *jsiiProxy_GoogleVmwareengineSubnet) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleVmwareengineSubnet) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

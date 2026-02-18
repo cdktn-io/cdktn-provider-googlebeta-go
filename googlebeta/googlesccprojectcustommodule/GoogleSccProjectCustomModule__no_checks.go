@@ -119,7 +119,7 @@ func (j *jsiiProxy_GoogleSccProjectCustomModule) validateSetIdParameters(val *st
 	return nil
 }
 
-func (j *jsiiProxy_GoogleSccProjectCustomModule) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleSccProjectCustomModule) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

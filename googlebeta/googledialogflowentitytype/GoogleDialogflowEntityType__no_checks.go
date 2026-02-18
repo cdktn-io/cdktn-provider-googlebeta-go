@@ -123,7 +123,7 @@ func (j *jsiiProxy_GoogleDialogflowEntityType) validateSetKindParameters(val *st
 	return nil
 }
 
-func (j *jsiiProxy_GoogleDialogflowEntityType) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleDialogflowEntityType) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

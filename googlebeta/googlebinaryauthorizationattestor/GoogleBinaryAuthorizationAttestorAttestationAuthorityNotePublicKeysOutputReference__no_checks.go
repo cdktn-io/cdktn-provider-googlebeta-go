@@ -51,7 +51,7 @@ func (g *jsiiProxy_GoogleBinaryAuthorizationAttestorAttestationAuthorityNotePubl
 	return nil
 }
 
-func (g *jsiiProxy_GoogleBinaryAuthorizationAttestorAttestationAuthorityNotePublicKeysOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleBinaryAuthorizationAttestorAttestationAuthorityNotePublicKeysOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_GoogleBinaryAuthorizationAttestorAttestationAuthorityNotePubl
 	return nil
 }
 
-func (j *jsiiProxy_GoogleBinaryAuthorizationAttestorAttestationAuthorityNotePublicKeysOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleBinaryAuthorizationAttestorAttestationAuthorityNotePublicKeysOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleBinaryAuthorizationAttestorAttestationAuthorityNotePublicKeysOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewGoogleBinaryAuthorizationAttestorAttestationAuthorityNotePublicKeysOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

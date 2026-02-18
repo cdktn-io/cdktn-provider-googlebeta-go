@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleContainerClusterUserManagedKeysConfigOutputReference) v
 	return nil
 }
 
-func (g *jsiiProxy_GoogleContainerClusterUserManagedKeysConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleContainerClusterUserManagedKeysConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -99,11 +99,11 @@ func (j *jsiiProxy_GoogleContainerClusterUserManagedKeysConfigOutputReference) v
 	return nil
 }
 
-func (j *jsiiProxy_GoogleContainerClusterUserManagedKeysConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleContainerClusterUserManagedKeysConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleContainerClusterUserManagedKeysConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleContainerClusterUserManagedKeysConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

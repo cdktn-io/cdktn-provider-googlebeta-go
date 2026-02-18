@@ -5,16 +5,16 @@ package googlebackupdrbackupplan
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlebackupdrbackupplan/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlebackupdrbackupplan/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_backup_dr_backup_plan google_backup_dr_backup_plan}.
 type GoogleBackupDrBackupPlan interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	BackupPlanId() *string
 	SetBackupPlanId(val *string)
 	BackupPlanIdInput() *string
@@ -25,7 +25,7 @@ type GoogleBackupDrBackupPlan interface {
 	BackupVaultInput() *string
 	BackupVaultServiceAccount() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -45,9 +45,9 @@ type GoogleBackupDrBackupPlan interface {
 	SetDescription(val *string)
 	DescriptionInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -56,9 +56,9 @@ type GoogleBackupDrBackupPlan interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Location() *string
 	SetLocation(val *string)
 	LocationInput() *string
@@ -72,9 +72,9 @@ type GoogleBackupDrBackupPlan interface {
 	SetProject(val *string)
 	ProjectInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -86,7 +86,7 @@ type GoogleBackupDrBackupPlan interface {
 	ResourceTypeInput() *string
 	SupportedResourceTypes() *[]*string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -102,7 +102,7 @@ type GoogleBackupDrBackupPlan interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -120,9 +120,9 @@ type GoogleBackupDrBackupPlan interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -162,7 +162,7 @@ type GoogleBackupDrBackupPlan interface {
 
 // The jsii proxy struct for GoogleBackupDrBackupPlan
 type jsiiProxy_GoogleBackupDrBackupPlan struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_GoogleBackupDrBackupPlan) BackupPlanId() *string {
@@ -235,8 +235,8 @@ func (j *jsiiProxy_GoogleBackupDrBackupPlan) BackupVaultServiceAccount() *string
 	return returns
 }
 
-func (j *jsiiProxy_GoogleBackupDrBackupPlan) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_GoogleBackupDrBackupPlan) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -315,8 +315,8 @@ func (j *jsiiProxy_GoogleBackupDrBackupPlan) DescriptionInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleBackupDrBackupPlan) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_GoogleBackupDrBackupPlan) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -365,8 +365,8 @@ func (j *jsiiProxy_GoogleBackupDrBackupPlan) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleBackupDrBackupPlan) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_GoogleBackupDrBackupPlan) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -455,8 +455,8 @@ func (j *jsiiProxy_GoogleBackupDrBackupPlan) ProjectInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleBackupDrBackupPlan) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_GoogleBackupDrBackupPlan) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -515,8 +515,8 @@ func (j *jsiiProxy_GoogleBackupDrBackupPlan) SupportedResourceTypes() *[]*string
 	return returns
 }
 
-func (j *jsiiProxy_GoogleBackupDrBackupPlan) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_GoogleBackupDrBackupPlan) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -668,7 +668,7 @@ func (j *jsiiProxy_GoogleBackupDrBackupPlan)SetDescription(val *string) {
 	)
 }
 
-func (j *jsiiProxy_GoogleBackupDrBackupPlan)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_GoogleBackupDrBackupPlan)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -687,7 +687,7 @@ func (j *jsiiProxy_GoogleBackupDrBackupPlan)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_GoogleBackupDrBackupPlan)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_GoogleBackupDrBackupPlan)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -731,7 +731,7 @@ func (j *jsiiProxy_GoogleBackupDrBackupPlan)SetProject(val *string) {
 	)
 }
 
-func (j *jsiiProxy_GoogleBackupDrBackupPlan)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_GoogleBackupDrBackupPlan)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -761,14 +761,14 @@ func (j *jsiiProxy_GoogleBackupDrBackupPlan)SetResourceType(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a GoogleBackupDrBackupPlan resource upon running "cdktf plan <stack-name>".
-func GoogleBackupDrBackupPlan_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a GoogleBackupDrBackupPlan resource upon running "cdktn plan <stack-name>".
+func GoogleBackupDrBackupPlan_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateGoogleBackupDrBackupPlan_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlan",
@@ -902,11 +902,11 @@ func (g *jsiiProxy_GoogleBackupDrBackupPlan) GetAnyMapAttribute(terraformAttribu
 	return returns
 }
 
-func (g *jsiiProxy_GoogleBackupDrBackupPlan) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleBackupDrBackupPlan) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -1043,7 +1043,7 @@ func (g *jsiiProxy_GoogleBackupDrBackupPlan) HasResourceMove() interface{} {
 	return returns
 }
 
-func (g *jsiiProxy_GoogleBackupDrBackupPlan) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (g *jsiiProxy_GoogleBackupDrBackupPlan) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := g.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1054,11 +1054,11 @@ func (g *jsiiProxy_GoogleBackupDrBackupPlan) ImportFrom(id *string, provider cdk
 	)
 }
 
-func (g *jsiiProxy_GoogleBackupDrBackupPlan) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleBackupDrBackupPlan) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,

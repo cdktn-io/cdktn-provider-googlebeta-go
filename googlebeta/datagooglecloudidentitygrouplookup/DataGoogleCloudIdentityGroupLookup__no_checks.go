@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataGoogleCloudIdentityGroupLookup) validateSetIdParameters(v
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleCloudIdentityGroupLookup) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataGoogleCloudIdentityGroupLookup) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

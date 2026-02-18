@@ -139,7 +139,7 @@ func (j *jsiiProxy_GoogleIamWorkforcePoolProvider) validateSetIdParameters(val *
 	return nil
 }
 
-func (j *jsiiProxy_GoogleIamWorkforcePoolProvider) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleIamWorkforcePoolProvider) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

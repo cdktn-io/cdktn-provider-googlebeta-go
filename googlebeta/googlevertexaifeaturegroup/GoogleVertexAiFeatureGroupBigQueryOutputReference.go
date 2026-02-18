@@ -5,14 +5,14 @@ package googlevertexaifeaturegroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlevertexaifeaturegroup/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlevertexaifeaturegroup/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type GoogleVertexAiFeatureGroupBigQueryOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	BigQuerySource() GoogleVertexAiFeatureGroupBigQueryBigQuerySourceOutputReference
 	BigQuerySourceInput() *GoogleVertexAiFeatureGroupBigQueryBigQuerySource
 	// the index of the complex object in a list.
@@ -42,15 +42,15 @@ type GoogleVertexAiFeatureGroupBigQueryOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -66,14 +66,14 @@ type GoogleVertexAiFeatureGroupBigQueryOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutBigQuerySource(value *GoogleVertexAiFeatureGroupBigQueryBigQuerySource)
 	ResetEntityIdColumns()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -83,7 +83,7 @@ type GoogleVertexAiFeatureGroupBigQueryOutputReference interface {
 
 // The jsii proxy struct for GoogleVertexAiFeatureGroupBigQueryOutputReference
 type jsiiProxy_GoogleVertexAiFeatureGroupBigQueryOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_GoogleVertexAiFeatureGroupBigQueryOutputReference) BigQuerySource() GoogleVertexAiFeatureGroupBigQueryBigQuerySourceOutputReference {
@@ -186,8 +186,8 @@ func (j *jsiiProxy_GoogleVertexAiFeatureGroupBigQueryOutputReference) TerraformA
 	return returns
 }
 
-func (j *jsiiProxy_GoogleVertexAiFeatureGroupBigQueryOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_GoogleVertexAiFeatureGroupBigQueryOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -197,7 +197,7 @@ func (j *jsiiProxy_GoogleVertexAiFeatureGroupBigQueryOutputReference) TerraformR
 }
 
 
-func NewGoogleVertexAiFeatureGroupBigQueryOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) GoogleVertexAiFeatureGroupBigQueryOutputReference {
+func NewGoogleVertexAiFeatureGroupBigQueryOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) GoogleVertexAiFeatureGroupBigQueryOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewGoogleVertexAiFeatureGroupBigQueryOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -214,7 +214,7 @@ func NewGoogleVertexAiFeatureGroupBigQueryOutputReference(terraformResource cdkt
 	return &j
 }
 
-func NewGoogleVertexAiFeatureGroupBigQueryOutputReference_Override(g GoogleVertexAiFeatureGroupBigQueryOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewGoogleVertexAiFeatureGroupBigQueryOutputReference_Override(g GoogleVertexAiFeatureGroupBigQueryOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -279,7 +279,7 @@ func (j *jsiiProxy_GoogleVertexAiFeatureGroupBigQueryOutputReference)SetTerrafor
 	)
 }
 
-func (j *jsiiProxy_GoogleVertexAiFeatureGroupBigQueryOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_GoogleVertexAiFeatureGroupBigQueryOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -319,11 +319,11 @@ func (g *jsiiProxy_GoogleVertexAiFeatureGroupBigQueryOutputReference) GetAnyMapA
 	return returns
 }
 
-func (g *jsiiProxy_GoogleVertexAiFeatureGroupBigQueryOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleVertexAiFeatureGroupBigQueryOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -447,8 +447,8 @@ func (g *jsiiProxy_GoogleVertexAiFeatureGroupBigQueryOutputReference) GetStringM
 	return returns
 }
 
-func (g *jsiiProxy_GoogleVertexAiFeatureGroupBigQueryOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (g *jsiiProxy_GoogleVertexAiFeatureGroupBigQueryOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -460,11 +460,11 @@ func (g *jsiiProxy_GoogleVertexAiFeatureGroupBigQueryOutputReference) Interpolat
 	return returns
 }
 
-func (g *jsiiProxy_GoogleVertexAiFeatureGroupBigQueryOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleVertexAiFeatureGroupBigQueryOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -495,7 +495,7 @@ func (g *jsiiProxy_GoogleVertexAiFeatureGroupBigQueryOutputReference) ResetEntit
 	)
 }
 
-func (g *jsiiProxy_GoogleVertexAiFeatureGroupBigQueryOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (g *jsiiProxy_GoogleVertexAiFeatureGroupBigQueryOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

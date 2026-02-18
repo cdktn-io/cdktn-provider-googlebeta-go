@@ -115,7 +115,7 @@ func (j *jsiiProxy_GoogleVmwareengineExternalAddress) validateSetInternalIpParam
 	return nil
 }
 
-func (j *jsiiProxy_GoogleVmwareengineExternalAddress) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleVmwareengineExternalAddress) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

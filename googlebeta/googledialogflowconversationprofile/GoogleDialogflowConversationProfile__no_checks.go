@@ -147,7 +147,7 @@ func (j *jsiiProxy_GoogleDialogflowConversationProfile) validateSetLanguageCodeP
 	return nil
 }
 
-func (j *jsiiProxy_GoogleDialogflowConversationProfile) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleDialogflowConversationProfile) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

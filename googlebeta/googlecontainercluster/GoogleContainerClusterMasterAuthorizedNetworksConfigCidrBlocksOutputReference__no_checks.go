@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleContainerClusterMasterAuthorizedNetworksConfigCidrBlock
 	return nil
 }
 
-func (g *jsiiProxy_GoogleContainerClusterMasterAuthorizedNetworksConfigCidrBlocksOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleContainerClusterMasterAuthorizedNetworksConfigCidrBlocksOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_GoogleContainerClusterMasterAuthorizedNetworksConfigCidrBlock
 	return nil
 }
 
-func (j *jsiiProxy_GoogleContainerClusterMasterAuthorizedNetworksConfigCidrBlocksOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleContainerClusterMasterAuthorizedNetworksConfigCidrBlocksOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleContainerClusterMasterAuthorizedNetworksConfigCidrBlocksOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewGoogleContainerClusterMasterAuthorizedNetworksConfigCidrBlocksOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

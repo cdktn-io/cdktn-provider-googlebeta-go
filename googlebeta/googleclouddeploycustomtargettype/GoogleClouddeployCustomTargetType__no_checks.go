@@ -123,7 +123,7 @@ func (j *jsiiProxy_GoogleClouddeployCustomTargetType) validateSetLabelsParameter
 	return nil
 }
 
-func (j *jsiiProxy_GoogleClouddeployCustomTargetType) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleClouddeployCustomTargetType) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

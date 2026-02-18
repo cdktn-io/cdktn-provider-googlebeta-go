@@ -5,21 +5,21 @@ package googlenetworkservicesauthzextension
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlenetworkservicesauthzextension/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlenetworkservicesauthzextension/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_services_authz_extension google_network_services_authz_extension}.
 type GoogleNetworkServicesAuthzExtension interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	Authority() *string
 	SetAuthority(val *string)
 	AuthorityInput() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -38,14 +38,14 @@ type GoogleNetworkServicesAuthzExtension interface {
 	Description() *string
 	SetDescription(val *string)
 	DescriptionInput() *string
-	EffectiveLabels() cdktf.StringMap
+	EffectiveLabels() cdktn.StringMap
 	FailOpen() interface{}
 	SetFailOpen(val interface{})
 	FailOpenInput() interface{}
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	ForwardHeaders() *[]*string
 	SetForwardHeaders(val *[]*string)
 	ForwardHeadersInput() *[]*string
@@ -60,9 +60,9 @@ type GoogleNetworkServicesAuthzExtension interface {
 	SetLabels(val *map[string]*string)
 	LabelsInput() *map[string]*string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	LoadBalancingScheme() *string
 	SetLoadBalancingScheme(val *string)
 	LoadBalancingSchemeInput() *string
@@ -81,9 +81,9 @@ type GoogleNetworkServicesAuthzExtension interface {
 	SetProject(val *string)
 	ProjectInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -94,8 +94,8 @@ type GoogleNetworkServicesAuthzExtension interface {
 	SetService(val *string)
 	ServiceInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
-	TerraformLabels() cdktf.StringMap
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
+	TerraformLabels() cdktn.StringMap
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -117,7 +117,7 @@ type GoogleNetworkServicesAuthzExtension interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -135,9 +135,9 @@ type GoogleNetworkServicesAuthzExtension interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -180,7 +180,7 @@ type GoogleNetworkServicesAuthzExtension interface {
 
 // The jsii proxy struct for GoogleNetworkServicesAuthzExtension
 type jsiiProxy_GoogleNetworkServicesAuthzExtension struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_GoogleNetworkServicesAuthzExtension) Authority() *string {
@@ -203,8 +203,8 @@ func (j *jsiiProxy_GoogleNetworkServicesAuthzExtension) AuthorityInput() *string
 	return returns
 }
 
-func (j *jsiiProxy_GoogleNetworkServicesAuthzExtension) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_GoogleNetworkServicesAuthzExtension) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -283,8 +283,8 @@ func (j *jsiiProxy_GoogleNetworkServicesAuthzExtension) DescriptionInput() *stri
 	return returns
 }
 
-func (j *jsiiProxy_GoogleNetworkServicesAuthzExtension) EffectiveLabels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_GoogleNetworkServicesAuthzExtension) EffectiveLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"effectiveLabels",
@@ -313,8 +313,8 @@ func (j *jsiiProxy_GoogleNetworkServicesAuthzExtension) FailOpenInput() interfac
 	return returns
 }
 
-func (j *jsiiProxy_GoogleNetworkServicesAuthzExtension) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_GoogleNetworkServicesAuthzExtension) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -403,8 +403,8 @@ func (j *jsiiProxy_GoogleNetworkServicesAuthzExtension) LabelsInput() *map[strin
 	return returns
 }
 
-func (j *jsiiProxy_GoogleNetworkServicesAuthzExtension) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_GoogleNetworkServicesAuthzExtension) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -523,8 +523,8 @@ func (j *jsiiProxy_GoogleNetworkServicesAuthzExtension) ProjectInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleNetworkServicesAuthzExtension) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_GoogleNetworkServicesAuthzExtension) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -573,8 +573,8 @@ func (j *jsiiProxy_GoogleNetworkServicesAuthzExtension) ServiceInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleNetworkServicesAuthzExtension) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_GoogleNetworkServicesAuthzExtension) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -583,8 +583,8 @@ func (j *jsiiProxy_GoogleNetworkServicesAuthzExtension) TerraformGeneratorMetada
 	return returns
 }
 
-func (j *jsiiProxy_GoogleNetworkServicesAuthzExtension) TerraformLabels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_GoogleNetworkServicesAuthzExtension) TerraformLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"terraformLabels",
@@ -776,7 +776,7 @@ func (j *jsiiProxy_GoogleNetworkServicesAuthzExtension)SetFailOpen(val interface
 	)
 }
 
-func (j *jsiiProxy_GoogleNetworkServicesAuthzExtension)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_GoogleNetworkServicesAuthzExtension)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -817,7 +817,7 @@ func (j *jsiiProxy_GoogleNetworkServicesAuthzExtension)SetLabels(val *map[string
 	)
 }
 
-func (j *jsiiProxy_GoogleNetworkServicesAuthzExtension)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_GoogleNetworkServicesAuthzExtension)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -883,7 +883,7 @@ func (j *jsiiProxy_GoogleNetworkServicesAuthzExtension)SetProject(val *string) {
 	)
 }
 
-func (j *jsiiProxy_GoogleNetworkServicesAuthzExtension)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_GoogleNetworkServicesAuthzExtension)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -935,14 +935,14 @@ func (j *jsiiProxy_GoogleNetworkServicesAuthzExtension)SetWireFormat(val *string
 	)
 }
 
-// Generates CDKTF code for importing a GoogleNetworkServicesAuthzExtension resource upon running "cdktf plan <stack-name>".
-func GoogleNetworkServicesAuthzExtension_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a GoogleNetworkServicesAuthzExtension resource upon running "cdktn plan <stack-name>".
+func GoogleNetworkServicesAuthzExtension_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateGoogleNetworkServicesAuthzExtension_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google-beta.googleNetworkServicesAuthzExtension.GoogleNetworkServicesAuthzExtension",
@@ -1076,11 +1076,11 @@ func (g *jsiiProxy_GoogleNetworkServicesAuthzExtension) GetAnyMapAttribute(terra
 	return returns
 }
 
-func (g *jsiiProxy_GoogleNetworkServicesAuthzExtension) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleNetworkServicesAuthzExtension) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -1217,7 +1217,7 @@ func (g *jsiiProxy_GoogleNetworkServicesAuthzExtension) HasResourceMove() interf
 	return returns
 }
 
-func (g *jsiiProxy_GoogleNetworkServicesAuthzExtension) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (g *jsiiProxy_GoogleNetworkServicesAuthzExtension) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := g.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1228,11 +1228,11 @@ func (g *jsiiProxy_GoogleNetworkServicesAuthzExtension) ImportFrom(id *string, p
 	)
 }
 
-func (g *jsiiProxy_GoogleNetworkServicesAuthzExtension) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleNetworkServicesAuthzExtension) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,

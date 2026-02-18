@@ -5,14 +5,14 @@ package googleedgecontainercluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleedgecontainercluster/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleedgecontainercluster/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type GoogleEdgecontainerClusterAuthorizationOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AdminUsers() GoogleEdgecontainerClusterAuthorizationAdminUsersOutputReference
 	AdminUsersInput() *GoogleEdgecontainerClusterAuthorizationAdminUsers
 	// the index of the complex object in a list.
@@ -39,15 +39,15 @@ type GoogleEdgecontainerClusterAuthorizationOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -63,13 +63,13 @@ type GoogleEdgecontainerClusterAuthorizationOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutAdminUsers(value *GoogleEdgecontainerClusterAuthorizationAdminUsers)
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -79,7 +79,7 @@ type GoogleEdgecontainerClusterAuthorizationOutputReference interface {
 
 // The jsii proxy struct for GoogleEdgecontainerClusterAuthorizationOutputReference
 type jsiiProxy_GoogleEdgecontainerClusterAuthorizationOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_GoogleEdgecontainerClusterAuthorizationOutputReference) AdminUsers() GoogleEdgecontainerClusterAuthorizationAdminUsersOutputReference {
@@ -162,8 +162,8 @@ func (j *jsiiProxy_GoogleEdgecontainerClusterAuthorizationOutputReference) Terra
 	return returns
 }
 
-func (j *jsiiProxy_GoogleEdgecontainerClusterAuthorizationOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_GoogleEdgecontainerClusterAuthorizationOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -173,7 +173,7 @@ func (j *jsiiProxy_GoogleEdgecontainerClusterAuthorizationOutputReference) Terra
 }
 
 
-func NewGoogleEdgecontainerClusterAuthorizationOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) GoogleEdgecontainerClusterAuthorizationOutputReference {
+func NewGoogleEdgecontainerClusterAuthorizationOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) GoogleEdgecontainerClusterAuthorizationOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewGoogleEdgecontainerClusterAuthorizationOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -190,7 +190,7 @@ func NewGoogleEdgecontainerClusterAuthorizationOutputReference(terraformResource
 	return &j
 }
 
-func NewGoogleEdgecontainerClusterAuthorizationOutputReference_Override(g GoogleEdgecontainerClusterAuthorizationOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewGoogleEdgecontainerClusterAuthorizationOutputReference_Override(g GoogleEdgecontainerClusterAuthorizationOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -244,7 +244,7 @@ func (j *jsiiProxy_GoogleEdgecontainerClusterAuthorizationOutputReference)SetTer
 	)
 }
 
-func (j *jsiiProxy_GoogleEdgecontainerClusterAuthorizationOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_GoogleEdgecontainerClusterAuthorizationOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -284,11 +284,11 @@ func (g *jsiiProxy_GoogleEdgecontainerClusterAuthorizationOutputReference) GetAn
 	return returns
 }
 
-func (g *jsiiProxy_GoogleEdgecontainerClusterAuthorizationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleEdgecontainerClusterAuthorizationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -412,8 +412,8 @@ func (g *jsiiProxy_GoogleEdgecontainerClusterAuthorizationOutputReference) GetSt
 	return returns
 }
 
-func (g *jsiiProxy_GoogleEdgecontainerClusterAuthorizationOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (g *jsiiProxy_GoogleEdgecontainerClusterAuthorizationOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -425,11 +425,11 @@ func (g *jsiiProxy_GoogleEdgecontainerClusterAuthorizationOutputReference) Inter
 	return returns
 }
 
-func (g *jsiiProxy_GoogleEdgecontainerClusterAuthorizationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleEdgecontainerClusterAuthorizationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -452,7 +452,7 @@ func (g *jsiiProxy_GoogleEdgecontainerClusterAuthorizationOutputReference) PutAd
 	)
 }
 
-func (g *jsiiProxy_GoogleEdgecontainerClusterAuthorizationOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (g *jsiiProxy_GoogleEdgecontainerClusterAuthorizationOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

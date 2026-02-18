@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleContainerClusterNodeConfigKubeletConfigEvictionMinimumR
 	return nil
 }
 
-func (g *jsiiProxy_GoogleContainerClusterNodeConfigKubeletConfigEvictionMinimumReclaimOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleContainerClusterNodeConfigKubeletConfigEvictionMinimumReclaimOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -91,11 +91,11 @@ func (j *jsiiProxy_GoogleContainerClusterNodeConfigKubeletConfigEvictionMinimumR
 	return nil
 }
 
-func (j *jsiiProxy_GoogleContainerClusterNodeConfigKubeletConfigEvictionMinimumReclaimOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleContainerClusterNodeConfigKubeletConfigEvictionMinimumReclaimOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleContainerClusterNodeConfigKubeletConfigEvictionMinimumReclaimOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleContainerClusterNodeConfigKubeletConfigEvictionMinimumReclaimOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

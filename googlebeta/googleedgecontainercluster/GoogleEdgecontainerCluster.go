@@ -5,20 +5,20 @@ package googleedgecontainercluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleedgecontainercluster/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleedgecontainercluster/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_edgecontainer_cluster google_edgecontainer_cluster}.
 type GoogleEdgecontainerCluster interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	Authorization() GoogleEdgecontainerClusterAuthorizationOutputReference
 	AuthorizationInput() *GoogleEdgecontainerClusterAuthorization
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	ClusterCaCertificate() *string
 	// Experimental.
 	Connection() interface{}
@@ -43,7 +43,7 @@ type GoogleEdgecontainerCluster interface {
 	DependsOn() *[]*string
 	// Experimental.
 	SetDependsOn(val *[]*string)
-	EffectiveLabels() cdktf.StringMap
+	EffectiveLabels() cdktn.StringMap
 	Endpoint() *string
 	ExternalLoadBalancerIpv4AddressPools() *[]*string
 	SetExternalLoadBalancerIpv4AddressPools(val *[]*string)
@@ -51,9 +51,9 @@ type GoogleEdgecontainerCluster interface {
 	Fleet() GoogleEdgecontainerClusterFleetOutputReference
 	FleetInput() *GoogleEdgecontainerClusterFleet
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -65,9 +65,9 @@ type GoogleEdgecontainerCluster interface {
 	SetLabels(val *map[string]*string)
 	LabelsInput() *map[string]*string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Location() *string
 	SetLocation(val *string)
 	LocationInput() *string
@@ -87,9 +87,9 @@ type GoogleEdgecontainerCluster interface {
 	SetProject(val *string)
 	ProjectInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -106,8 +106,8 @@ type GoogleEdgecontainerCluster interface {
 	SetTargetVersion(val *string)
 	TargetVersionInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
-	TerraformLabels() cdktf.StringMap
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
+	TerraformLabels() cdktn.StringMap
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -123,7 +123,7 @@ type GoogleEdgecontainerCluster interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -141,9 +141,9 @@ type GoogleEdgecontainerCluster interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -196,7 +196,7 @@ type GoogleEdgecontainerCluster interface {
 
 // The jsii proxy struct for GoogleEdgecontainerCluster
 type jsiiProxy_GoogleEdgecontainerCluster struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_GoogleEdgecontainerCluster) Authorization() GoogleEdgecontainerClusterAuthorizationOutputReference {
@@ -219,8 +219,8 @@ func (j *jsiiProxy_GoogleEdgecontainerCluster) AuthorizationInput() *GoogleEdgec
 	return returns
 }
 
-func (j *jsiiProxy_GoogleEdgecontainerCluster) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_GoogleEdgecontainerCluster) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -359,8 +359,8 @@ func (j *jsiiProxy_GoogleEdgecontainerCluster) DependsOn() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleEdgecontainerCluster) EffectiveLabels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_GoogleEdgecontainerCluster) EffectiveLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"effectiveLabels",
@@ -419,8 +419,8 @@ func (j *jsiiProxy_GoogleEdgecontainerCluster) FleetInput() *GoogleEdgecontainer
 	return returns
 }
 
-func (j *jsiiProxy_GoogleEdgecontainerCluster) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_GoogleEdgecontainerCluster) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -489,8 +489,8 @@ func (j *jsiiProxy_GoogleEdgecontainerCluster) LabelsInput() *map[string]*string
 	return returns
 }
 
-func (j *jsiiProxy_GoogleEdgecontainerCluster) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_GoogleEdgecontainerCluster) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -639,8 +639,8 @@ func (j *jsiiProxy_GoogleEdgecontainerCluster) ProjectInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleEdgecontainerCluster) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_GoogleEdgecontainerCluster) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -739,8 +739,8 @@ func (j *jsiiProxy_GoogleEdgecontainerCluster) TargetVersionInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleEdgecontainerCluster) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_GoogleEdgecontainerCluster) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -749,8 +749,8 @@ func (j *jsiiProxy_GoogleEdgecontainerCluster) TerraformGeneratorMetadata() *cdk
 	return returns
 }
 
-func (j *jsiiProxy_GoogleEdgecontainerCluster) TerraformLabels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_GoogleEdgecontainerCluster) TerraformLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"terraformLabels",
@@ -891,7 +891,7 @@ func (j *jsiiProxy_GoogleEdgecontainerCluster)SetExternalLoadBalancerIpv4Address
 	)
 }
 
-func (j *jsiiProxy_GoogleEdgecontainerCluster)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_GoogleEdgecontainerCluster)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -921,7 +921,7 @@ func (j *jsiiProxy_GoogleEdgecontainerCluster)SetLabels(val *map[string]*string)
 	)
 }
 
-func (j *jsiiProxy_GoogleEdgecontainerCluster)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_GoogleEdgecontainerCluster)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -965,7 +965,7 @@ func (j *jsiiProxy_GoogleEdgecontainerCluster)SetProject(val *string) {
 	)
 }
 
-func (j *jsiiProxy_GoogleEdgecontainerCluster)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_GoogleEdgecontainerCluster)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -1006,14 +1006,14 @@ func (j *jsiiProxy_GoogleEdgecontainerCluster)SetTargetVersion(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a GoogleEdgecontainerCluster resource upon running "cdktf plan <stack-name>".
-func GoogleEdgecontainerCluster_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a GoogleEdgecontainerCluster resource upon running "cdktn plan <stack-name>".
+func GoogleEdgecontainerCluster_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateGoogleEdgecontainerCluster_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google-beta.googleEdgecontainerCluster.GoogleEdgecontainerCluster",
@@ -1147,11 +1147,11 @@ func (g *jsiiProxy_GoogleEdgecontainerCluster) GetAnyMapAttribute(terraformAttri
 	return returns
 }
 
-func (g *jsiiProxy_GoogleEdgecontainerCluster) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleEdgecontainerCluster) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -1288,7 +1288,7 @@ func (g *jsiiProxy_GoogleEdgecontainerCluster) HasResourceMove() interface{} {
 	return returns
 }
 
-func (g *jsiiProxy_GoogleEdgecontainerCluster) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (g *jsiiProxy_GoogleEdgecontainerCluster) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := g.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1299,11 +1299,11 @@ func (g *jsiiProxy_GoogleEdgecontainerCluster) ImportFrom(id *string, provider c
 	)
 }
 
-func (g *jsiiProxy_GoogleEdgecontainerCluster) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleEdgecontainerCluster) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,

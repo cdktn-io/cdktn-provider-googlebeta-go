@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataGoogleIapTunnelDestGroupIamPolicy) validateSetIdParameter
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleIapTunnelDestGroupIamPolicy) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataGoogleIapTunnelDestGroupIamPolicy) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

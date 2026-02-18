@@ -119,7 +119,7 @@ func (j *jsiiProxy_GoogleContainerAnalysisNote) validateSetIdParameters(val *str
 	return nil
 }
 
-func (j *jsiiProxy_GoogleContainerAnalysisNote) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleContainerAnalysisNote) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

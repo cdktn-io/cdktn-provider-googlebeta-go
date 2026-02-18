@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleComputeBackendServiceLocalityLbPoliciesCustomPolicyOutp
 	return nil
 }
 
-func (g *jsiiProxy_GoogleComputeBackendServiceLocalityLbPoliciesCustomPolicyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleComputeBackendServiceLocalityLbPoliciesCustomPolicyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_GoogleComputeBackendServiceLocalityLbPoliciesCustomPolicyOutp
 	return nil
 }
 
-func (j *jsiiProxy_GoogleComputeBackendServiceLocalityLbPoliciesCustomPolicyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleComputeBackendServiceLocalityLbPoliciesCustomPolicyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleComputeBackendServiceLocalityLbPoliciesCustomPolicyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleComputeBackendServiceLocalityLbPoliciesCustomPolicyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

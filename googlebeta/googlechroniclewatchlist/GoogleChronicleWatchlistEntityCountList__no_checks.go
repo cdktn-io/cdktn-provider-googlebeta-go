@@ -15,7 +15,7 @@ func (g *jsiiProxy_GoogleChronicleWatchlistEntityCountList) validateGetParameter
 	return nil
 }
 
-func (g *jsiiProxy_GoogleChronicleWatchlistEntityCountList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleChronicleWatchlistEntityCountList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_GoogleChronicleWatchlistEntityCountList) validateSetTerraform
 	return nil
 }
 
-func (j *jsiiProxy_GoogleChronicleWatchlistEntityCountList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleChronicleWatchlistEntityCountList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_GoogleChronicleWatchlistEntityCountList) validateSetWrapsSetP
 	return nil
 }
 
-func validateNewGoogleChronicleWatchlistEntityCountListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGoogleChronicleWatchlistEntityCountListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

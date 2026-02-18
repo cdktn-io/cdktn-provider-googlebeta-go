@@ -119,7 +119,7 @@ func (j *jsiiProxy_GoogleAccessContextManagerAuthorizedOrgsDesc) validateSetIdPa
 	return nil
 }
 
-func (j *jsiiProxy_GoogleAccessContextManagerAuthorizedOrgsDesc) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleAccessContextManagerAuthorizedOrgsDesc) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

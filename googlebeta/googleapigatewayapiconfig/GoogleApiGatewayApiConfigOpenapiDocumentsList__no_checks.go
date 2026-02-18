@@ -15,7 +15,7 @@ func (g *jsiiProxy_GoogleApiGatewayApiConfigOpenapiDocumentsList) validateGetPar
 	return nil
 }
 
-func (g *jsiiProxy_GoogleApiGatewayApiConfigOpenapiDocumentsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleApiGatewayApiConfigOpenapiDocumentsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_GoogleApiGatewayApiConfigOpenapiDocumentsList) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_GoogleApiGatewayApiConfigOpenapiDocumentsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleApiGatewayApiConfigOpenapiDocumentsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_GoogleApiGatewayApiConfigOpenapiDocumentsList) validateSetWra
 	return nil
 }
 
-func validateNewGoogleApiGatewayApiConfigOpenapiDocumentsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGoogleApiGatewayApiConfigOpenapiDocumentsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

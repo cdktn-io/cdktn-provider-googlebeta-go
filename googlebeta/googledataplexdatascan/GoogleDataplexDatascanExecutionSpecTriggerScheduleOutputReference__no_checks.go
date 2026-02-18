@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleDataplexDatascanExecutionSpecTriggerScheduleOutputRefer
 	return nil
 }
 
-func (g *jsiiProxy_GoogleDataplexDatascanExecutionSpecTriggerScheduleOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleDataplexDatascanExecutionSpecTriggerScheduleOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_GoogleDataplexDatascanExecutionSpecTriggerScheduleOutputRefer
 	return nil
 }
 
-func (j *jsiiProxy_GoogleDataplexDatascanExecutionSpecTriggerScheduleOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleDataplexDatascanExecutionSpecTriggerScheduleOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleDataplexDatascanExecutionSpecTriggerScheduleOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleDataplexDatascanExecutionSpecTriggerScheduleOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

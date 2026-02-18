@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataGoogleRedisClusterAutomatedBackupConfigFixedFrequencySche
 	return nil
 }
 
-func (d *jsiiProxy_DataGoogleRedisClusterAutomatedBackupConfigFixedFrequencyScheduleList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataGoogleRedisClusterAutomatedBackupConfigFixedFrequencyScheduleList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataGoogleRedisClusterAutomatedBackupConfigFixedFrequencySche
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleRedisClusterAutomatedBackupConfigFixedFrequencyScheduleList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataGoogleRedisClusterAutomatedBackupConfigFixedFrequencyScheduleList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataGoogleRedisClusterAutomatedBackupConfigFixedFrequencySche
 	return nil
 }
 
-func validateNewDataGoogleRedisClusterAutomatedBackupConfigFixedFrequencyScheduleListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataGoogleRedisClusterAutomatedBackupConfigFixedFrequencyScheduleListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

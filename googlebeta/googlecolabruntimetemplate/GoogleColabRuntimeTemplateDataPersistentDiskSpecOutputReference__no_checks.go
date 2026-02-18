@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleColabRuntimeTemplateDataPersistentDiskSpecOutputReferen
 	return nil
 }
 
-func (g *jsiiProxy_GoogleColabRuntimeTemplateDataPersistentDiskSpecOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleColabRuntimeTemplateDataPersistentDiskSpecOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_GoogleColabRuntimeTemplateDataPersistentDiskSpecOutputReferen
 	return nil
 }
 
-func (j *jsiiProxy_GoogleColabRuntimeTemplateDataPersistentDiskSpecOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleColabRuntimeTemplateDataPersistentDiskSpecOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleColabRuntimeTemplateDataPersistentDiskSpecOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleColabRuntimeTemplateDataPersistentDiskSpecOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

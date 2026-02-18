@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleMonitoringMetricDescriptorTimeoutsOutputReference) vali
 	return nil
 }
 
-func (g *jsiiProxy_GoogleMonitoringMetricDescriptorTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleMonitoringMetricDescriptorTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_GoogleMonitoringMetricDescriptorTimeoutsOutputReference) vali
 	return nil
 }
 
-func (j *jsiiProxy_GoogleMonitoringMetricDescriptorTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleMonitoringMetricDescriptorTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_GoogleMonitoringMetricDescriptorTimeoutsOutputReference) vali
 	return nil
 }
 
-func validateNewGoogleMonitoringMetricDescriptorTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleMonitoringMetricDescriptorTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

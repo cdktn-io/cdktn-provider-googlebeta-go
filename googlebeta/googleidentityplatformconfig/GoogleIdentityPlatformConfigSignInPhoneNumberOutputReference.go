@@ -5,14 +5,14 @@ package googleidentityplatformconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googleidentityplatformconfig/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googleidentityplatformconfig/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type GoogleIdentityPlatformConfigSignInPhoneNumberOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -40,9 +40,9 @@ type GoogleIdentityPlatformConfigSignInPhoneNumberOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	TestPhoneNumbers() *map[string]*string
 	SetTestPhoneNumbers(val *map[string]*string)
 	TestPhoneNumbersInput() *map[string]*string
@@ -51,7 +51,7 @@ type GoogleIdentityPlatformConfigSignInPhoneNumberOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,13 +67,13 @@ type GoogleIdentityPlatformConfigSignInPhoneNumberOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetTestPhoneNumbers()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -83,7 +83,7 @@ type GoogleIdentityPlatformConfigSignInPhoneNumberOutputReference interface {
 
 // The jsii proxy struct for GoogleIdentityPlatformConfigSignInPhoneNumberOutputReference
 type jsiiProxy_GoogleIdentityPlatformConfigSignInPhoneNumberOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_GoogleIdentityPlatformConfigSignInPhoneNumberOutputReference) ComplexObjectIndex() interface{} {
@@ -166,8 +166,8 @@ func (j *jsiiProxy_GoogleIdentityPlatformConfigSignInPhoneNumberOutputReference)
 	return returns
 }
 
-func (j *jsiiProxy_GoogleIdentityPlatformConfigSignInPhoneNumberOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_GoogleIdentityPlatformConfigSignInPhoneNumberOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -197,7 +197,7 @@ func (j *jsiiProxy_GoogleIdentityPlatformConfigSignInPhoneNumberOutputReference)
 }
 
 
-func NewGoogleIdentityPlatformConfigSignInPhoneNumberOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) GoogleIdentityPlatformConfigSignInPhoneNumberOutputReference {
+func NewGoogleIdentityPlatformConfigSignInPhoneNumberOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) GoogleIdentityPlatformConfigSignInPhoneNumberOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewGoogleIdentityPlatformConfigSignInPhoneNumberOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -214,7 +214,7 @@ func NewGoogleIdentityPlatformConfigSignInPhoneNumberOutputReference(terraformRe
 	return &j
 }
 
-func NewGoogleIdentityPlatformConfigSignInPhoneNumberOutputReference_Override(g GoogleIdentityPlatformConfigSignInPhoneNumberOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewGoogleIdentityPlatformConfigSignInPhoneNumberOutputReference_Override(g GoogleIdentityPlatformConfigSignInPhoneNumberOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -279,7 +279,7 @@ func (j *jsiiProxy_GoogleIdentityPlatformConfigSignInPhoneNumberOutputReference)
 	)
 }
 
-func (j *jsiiProxy_GoogleIdentityPlatformConfigSignInPhoneNumberOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_GoogleIdentityPlatformConfigSignInPhoneNumberOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -330,11 +330,11 @@ func (g *jsiiProxy_GoogleIdentityPlatformConfigSignInPhoneNumberOutputReference)
 	return returns
 }
 
-func (g *jsiiProxy_GoogleIdentityPlatformConfigSignInPhoneNumberOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleIdentityPlatformConfigSignInPhoneNumberOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -458,8 +458,8 @@ func (g *jsiiProxy_GoogleIdentityPlatformConfigSignInPhoneNumberOutputReference)
 	return returns
 }
 
-func (g *jsiiProxy_GoogleIdentityPlatformConfigSignInPhoneNumberOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (g *jsiiProxy_GoogleIdentityPlatformConfigSignInPhoneNumberOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -471,11 +471,11 @@ func (g *jsiiProxy_GoogleIdentityPlatformConfigSignInPhoneNumberOutputReference)
 	return returns
 }
 
-func (g *jsiiProxy_GoogleIdentityPlatformConfigSignInPhoneNumberOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleIdentityPlatformConfigSignInPhoneNumberOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -495,7 +495,7 @@ func (g *jsiiProxy_GoogleIdentityPlatformConfigSignInPhoneNumberOutputReference)
 	)
 }
 
-func (g *jsiiProxy_GoogleIdentityPlatformConfigSignInPhoneNumberOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (g *jsiiProxy_GoogleIdentityPlatformConfigSignInPhoneNumberOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

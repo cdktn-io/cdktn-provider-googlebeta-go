@@ -5,14 +5,14 @@ package googlecomputeserviceattachment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecomputeserviceattachment/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeserviceattachment/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type GoogleComputeServiceAttachmentConnectedEndpointsList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -24,8 +24,8 @@ type GoogleComputeServiceAttachmentConnectedEndpointsList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -33,13 +33,13 @@ type GoogleComputeServiceAttachmentConnectedEndpointsList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) GoogleComputeServiceAttachmentConnectedEndpointsOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -49,7 +49,7 @@ type GoogleComputeServiceAttachmentConnectedEndpointsList interface {
 
 // The jsii proxy struct for GoogleComputeServiceAttachmentConnectedEndpointsList
 type jsiiProxy_GoogleComputeServiceAttachmentConnectedEndpointsList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_GoogleComputeServiceAttachmentConnectedEndpointsList) CreationStack() *[]*string {
@@ -82,8 +82,8 @@ func (j *jsiiProxy_GoogleComputeServiceAttachmentConnectedEndpointsList) Terrafo
 	return returns
 }
 
-func (j *jsiiProxy_GoogleComputeServiceAttachmentConnectedEndpointsList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_GoogleComputeServiceAttachmentConnectedEndpointsList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -103,7 +103,7 @@ func (j *jsiiProxy_GoogleComputeServiceAttachmentConnectedEndpointsList) WrapsSe
 }
 
 
-func NewGoogleComputeServiceAttachmentConnectedEndpointsList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeServiceAttachmentConnectedEndpointsList {
+func NewGoogleComputeServiceAttachmentConnectedEndpointsList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) GoogleComputeServiceAttachmentConnectedEndpointsList {
 	_init_.Initialize()
 
 	if err := validateNewGoogleComputeServiceAttachmentConnectedEndpointsListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -120,7 +120,7 @@ func NewGoogleComputeServiceAttachmentConnectedEndpointsList(terraformResource c
 	return &j
 }
 
-func NewGoogleComputeServiceAttachmentConnectedEndpointsList_Override(g GoogleComputeServiceAttachmentConnectedEndpointsList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewGoogleComputeServiceAttachmentConnectedEndpointsList_Override(g GoogleComputeServiceAttachmentConnectedEndpointsList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -141,7 +141,7 @@ func (j *jsiiProxy_GoogleComputeServiceAttachmentConnectedEndpointsList)SetTerra
 	)
 }
 
-func (j *jsiiProxy_GoogleComputeServiceAttachmentConnectedEndpointsList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_GoogleComputeServiceAttachmentConnectedEndpointsList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -163,11 +163,11 @@ func (j *jsiiProxy_GoogleComputeServiceAttachmentConnectedEndpointsList)SetWraps
 	)
 }
 
-func (g *jsiiProxy_GoogleComputeServiceAttachmentConnectedEndpointsList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (g *jsiiProxy_GoogleComputeServiceAttachmentConnectedEndpointsList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := g.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		g,
@@ -208,7 +208,7 @@ func (g *jsiiProxy_GoogleComputeServiceAttachmentConnectedEndpointsList) Get(ind
 	return returns
 }
 
-func (g *jsiiProxy_GoogleComputeServiceAttachmentConnectedEndpointsList) Resolve(context cdktf.IResolveContext) interface{} {
+func (g *jsiiProxy_GoogleComputeServiceAttachmentConnectedEndpointsList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

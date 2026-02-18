@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleApiGatewayApiConfigGrpcServicesSourceOutputReference) v
 	return nil
 }
 
-func (g *jsiiProxy_GoogleApiGatewayApiConfigGrpcServicesSourceOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleApiGatewayApiConfigGrpcServicesSourceOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_GoogleApiGatewayApiConfigGrpcServicesSourceOutputReference) v
 	return nil
 }
 
-func (j *jsiiProxy_GoogleApiGatewayApiConfigGrpcServicesSourceOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleApiGatewayApiConfigGrpcServicesSourceOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleApiGatewayApiConfigGrpcServicesSourceOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewGoogleApiGatewayApiConfigGrpcServicesSourceOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

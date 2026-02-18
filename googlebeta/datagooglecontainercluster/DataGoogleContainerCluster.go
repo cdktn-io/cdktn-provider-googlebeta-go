@@ -5,23 +5,23 @@ package datagooglecontainercluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagooglecontainercluster/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagooglecontainercluster/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_container_cluster google_container_cluster}.
 type DataGoogleContainerCluster interface {
-	cdktf.TerraformDataSource
+	cdktn.TerraformDataSource
 	AddonsConfig() DataGoogleContainerClusterAddonsConfigList
-	AllowNetAdmin() cdktf.IResolvable
+	AllowNetAdmin() cdktn.IResolvable
 	AnonymousAuthenticationConfig() DataGoogleContainerClusterAnonymousAuthenticationConfigList
 	AuthenticatorGroupsConfig() DataGoogleContainerClusterAuthenticatorGroupsConfigList
 	BinaryAuthorization() DataGoogleContainerClusterBinaryAuthorizationList
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	ClusterAutoscaling() DataGoogleContainerClusterClusterAutoscalingList
 	ClusterIpv4Cidr() *string
 	ClusterTelemetry() DataGoogleContainerClusterClusterTelemetryList
@@ -38,33 +38,33 @@ type DataGoogleContainerCluster interface {
 	DatapathProvider() *string
 	DefaultMaxPodsPerNode() *float64
 	DefaultSnatStatus() DataGoogleContainerClusterDefaultSnatStatusList
-	DeletionProtection() cdktf.IResolvable
+	DeletionProtection() cdktn.IResolvable
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	Description() *string
-	DisableL4LbFirewallReconciliation() cdktf.IResolvable
+	DisableL4LbFirewallReconciliation() cdktn.IResolvable
 	DnsConfig() DataGoogleContainerClusterDnsConfigList
-	EffectiveLabels() cdktf.StringMap
-	EnableAutopilot() cdktf.IResolvable
-	EnableCiliumClusterwideNetworkPolicy() cdktf.IResolvable
-	EnableFqdnNetworkPolicy() cdktf.IResolvable
-	EnableIntranodeVisibility() cdktf.IResolvable
+	EffectiveLabels() cdktn.StringMap
+	EnableAutopilot() cdktn.IResolvable
+	EnableCiliumClusterwideNetworkPolicy() cdktn.IResolvable
+	EnableFqdnNetworkPolicy() cdktn.IResolvable
+	EnableIntranodeVisibility() cdktn.IResolvable
 	EnableK8SBetaApis() DataGoogleContainerClusterEnableK8SBetaApisList
-	EnableKubernetesAlpha() cdktf.IResolvable
-	EnableL4IlbSubsetting() cdktf.IResolvable
-	EnableLegacyAbac() cdktf.IResolvable
-	EnableMultiNetworking() cdktf.IResolvable
-	EnableShieldedNodes() cdktf.IResolvable
-	EnableTpu() cdktf.IResolvable
+	EnableKubernetesAlpha() cdktn.IResolvable
+	EnableL4IlbSubsetting() cdktn.IResolvable
+	EnableLegacyAbac() cdktn.IResolvable
+	EnableMultiNetworking() cdktn.IResolvable
+	EnableShieldedNodes() cdktn.IResolvable
+	EnableTpu() cdktn.IResolvable
 	Endpoint() *string
 	EnterpriseConfig() DataGoogleContainerClusterEnterpriseConfigList
 	Fleet() DataGoogleContainerClusterFleetList
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -80,9 +80,9 @@ type DataGoogleContainerCluster interface {
 	IpAllocationPolicy() DataGoogleContainerClusterIpAllocationPolicyList
 	LabelFingerprint() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Location() *string
 	SetLocation(val *string)
 	LocationInput() *string
@@ -122,15 +122,15 @@ type DataGoogleContainerCluster interface {
 	ProjectInput() *string
 	ProtectConfig() DataGoogleContainerClusterProtectConfigList
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	RawOverrides() interface{}
 	RbacBindingConfig() DataGoogleContainerClusterRbacBindingConfigList
 	ReleaseChannel() DataGoogleContainerClusterReleaseChannelList
-	RemoveDefaultNodePool() cdktf.IResolvable
-	ResourceLabels() cdktf.StringMap
+	RemoveDefaultNodePool() cdktn.IResolvable
+	ResourceLabels() cdktn.StringMap
 	ResourceUsageExportConfig() DataGoogleContainerClusterResourceUsageExportConfigList
 	SecretManagerConfig() DataGoogleContainerClusterSecretManagerConfigList
 	SecurityPostureConfig() DataGoogleContainerClusterSecurityPostureConfigList
@@ -139,8 +139,8 @@ type DataGoogleContainerCluster interface {
 	ServicesIpv4Cidr() *string
 	Subnetwork() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
-	TerraformLabels() cdktf.StringMap
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
+	TerraformLabels() cdktn.StringMap
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -156,7 +156,7 @@ type DataGoogleContainerCluster interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -172,7 +172,7 @@ type DataGoogleContainerCluster interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
@@ -198,7 +198,7 @@ type DataGoogleContainerCluster interface {
 
 // The jsii proxy struct for DataGoogleContainerCluster
 type jsiiProxy_DataGoogleContainerCluster struct {
-	internal.Type__cdktfTerraformDataSource
+	internal.Type__cdktnTerraformDataSource
 }
 
 func (j *jsiiProxy_DataGoogleContainerCluster) AddonsConfig() DataGoogleContainerClusterAddonsConfigList {
@@ -211,8 +211,8 @@ func (j *jsiiProxy_DataGoogleContainerCluster) AddonsConfig() DataGoogleContaine
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleContainerCluster) AllowNetAdmin() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataGoogleContainerCluster) AllowNetAdmin() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"allowNetAdmin",
@@ -251,8 +251,8 @@ func (j *jsiiProxy_DataGoogleContainerCluster) BinaryAuthorization() DataGoogleC
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleContainerCluster) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataGoogleContainerCluster) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -381,8 +381,8 @@ func (j *jsiiProxy_DataGoogleContainerCluster) DefaultSnatStatus() DataGoogleCon
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleContainerCluster) DeletionProtection() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataGoogleContainerCluster) DeletionProtection() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"deletionProtection",
@@ -411,8 +411,8 @@ func (j *jsiiProxy_DataGoogleContainerCluster) Description() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleContainerCluster) DisableL4LbFirewallReconciliation() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataGoogleContainerCluster) DisableL4LbFirewallReconciliation() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"disableL4LbFirewallReconciliation",
@@ -431,8 +431,8 @@ func (j *jsiiProxy_DataGoogleContainerCluster) DnsConfig() DataGoogleContainerCl
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleContainerCluster) EffectiveLabels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_DataGoogleContainerCluster) EffectiveLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"effectiveLabels",
@@ -441,8 +441,8 @@ func (j *jsiiProxy_DataGoogleContainerCluster) EffectiveLabels() cdktf.StringMap
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleContainerCluster) EnableAutopilot() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataGoogleContainerCluster) EnableAutopilot() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"enableAutopilot",
@@ -451,8 +451,8 @@ func (j *jsiiProxy_DataGoogleContainerCluster) EnableAutopilot() cdktf.IResolvab
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleContainerCluster) EnableCiliumClusterwideNetworkPolicy() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataGoogleContainerCluster) EnableCiliumClusterwideNetworkPolicy() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"enableCiliumClusterwideNetworkPolicy",
@@ -461,8 +461,8 @@ func (j *jsiiProxy_DataGoogleContainerCluster) EnableCiliumClusterwideNetworkPol
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleContainerCluster) EnableFqdnNetworkPolicy() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataGoogleContainerCluster) EnableFqdnNetworkPolicy() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"enableFqdnNetworkPolicy",
@@ -471,8 +471,8 @@ func (j *jsiiProxy_DataGoogleContainerCluster) EnableFqdnNetworkPolicy() cdktf.I
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleContainerCluster) EnableIntranodeVisibility() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataGoogleContainerCluster) EnableIntranodeVisibility() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"enableIntranodeVisibility",
@@ -491,8 +491,8 @@ func (j *jsiiProxy_DataGoogleContainerCluster) EnableK8SBetaApis() DataGoogleCon
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleContainerCluster) EnableKubernetesAlpha() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataGoogleContainerCluster) EnableKubernetesAlpha() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"enableKubernetesAlpha",
@@ -501,8 +501,8 @@ func (j *jsiiProxy_DataGoogleContainerCluster) EnableKubernetesAlpha() cdktf.IRe
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleContainerCluster) EnableL4IlbSubsetting() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataGoogleContainerCluster) EnableL4IlbSubsetting() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"enableL4IlbSubsetting",
@@ -511,8 +511,8 @@ func (j *jsiiProxy_DataGoogleContainerCluster) EnableL4IlbSubsetting() cdktf.IRe
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleContainerCluster) EnableLegacyAbac() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataGoogleContainerCluster) EnableLegacyAbac() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"enableLegacyAbac",
@@ -521,8 +521,8 @@ func (j *jsiiProxy_DataGoogleContainerCluster) EnableLegacyAbac() cdktf.IResolva
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleContainerCluster) EnableMultiNetworking() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataGoogleContainerCluster) EnableMultiNetworking() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"enableMultiNetworking",
@@ -531,8 +531,8 @@ func (j *jsiiProxy_DataGoogleContainerCluster) EnableMultiNetworking() cdktf.IRe
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleContainerCluster) EnableShieldedNodes() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataGoogleContainerCluster) EnableShieldedNodes() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"enableShieldedNodes",
@@ -541,8 +541,8 @@ func (j *jsiiProxy_DataGoogleContainerCluster) EnableShieldedNodes() cdktf.IReso
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleContainerCluster) EnableTpu() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataGoogleContainerCluster) EnableTpu() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"enableTpu",
@@ -581,8 +581,8 @@ func (j *jsiiProxy_DataGoogleContainerCluster) Fleet() DataGoogleContainerCluste
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleContainerCluster) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataGoogleContainerCluster) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -701,8 +701,8 @@ func (j *jsiiProxy_DataGoogleContainerCluster) LabelFingerprint() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleContainerCluster) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataGoogleContainerCluster) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -1051,8 +1051,8 @@ func (j *jsiiProxy_DataGoogleContainerCluster) ProtectConfig() DataGoogleContain
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleContainerCluster) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataGoogleContainerCluster) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -1091,8 +1091,8 @@ func (j *jsiiProxy_DataGoogleContainerCluster) ReleaseChannel() DataGoogleContai
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleContainerCluster) RemoveDefaultNodePool() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataGoogleContainerCluster) RemoveDefaultNodePool() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"removeDefaultNodePool",
@@ -1101,8 +1101,8 @@ func (j *jsiiProxy_DataGoogleContainerCluster) RemoveDefaultNodePool() cdktf.IRe
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleContainerCluster) ResourceLabels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_DataGoogleContainerCluster) ResourceLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"resourceLabels",
@@ -1181,8 +1181,8 @@ func (j *jsiiProxy_DataGoogleContainerCluster) Subnetwork() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleContainerCluster) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataGoogleContainerCluster) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -1191,8 +1191,8 @@ func (j *jsiiProxy_DataGoogleContainerCluster) TerraformGeneratorMetadata() *cdk
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleContainerCluster) TerraformLabels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_DataGoogleContainerCluster) TerraformLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"terraformLabels",
@@ -1330,7 +1330,7 @@ func (j *jsiiProxy_DataGoogleContainerCluster)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_DataGoogleContainerCluster)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataGoogleContainerCluster)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -1349,7 +1349,7 @@ func (j *jsiiProxy_DataGoogleContainerCluster)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataGoogleContainerCluster)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataGoogleContainerCluster)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -1393,7 +1393,7 @@ func (j *jsiiProxy_DataGoogleContainerCluster)SetProject(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataGoogleContainerCluster)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataGoogleContainerCluster)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -1401,14 +1401,14 @@ func (j *jsiiProxy_DataGoogleContainerCluster)SetProvider(val cdktf.TerraformPro
 	)
 }
 
-// Generates CDKTF code for importing a DataGoogleContainerCluster resource upon running "cdktf plan <stack-name>".
-func DataGoogleContainerCluster_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataGoogleContainerCluster resource upon running "cdktn plan <stack-name>".
+func DataGoogleContainerCluster_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataGoogleContainerCluster_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google-beta.dataGoogleContainerCluster.DataGoogleContainerCluster",
@@ -1531,11 +1531,11 @@ func (d *jsiiProxy_DataGoogleContainerCluster) GetAnyMapAttribute(terraformAttri
 	return returns
 }
 
-func (d *jsiiProxy_DataGoogleContainerCluster) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataGoogleContainerCluster) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -1659,11 +1659,11 @@ func (d *jsiiProxy_DataGoogleContainerCluster) GetStringMapAttribute(terraformAt
 	return returns
 }
 
-func (d *jsiiProxy_DataGoogleContainerCluster) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataGoogleContainerCluster) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleContainerAzureClusterAuthorizationAdminGroupsOutputRefe
 	return nil
 }
 
-func (g *jsiiProxy_GoogleContainerAzureClusterAuthorizationAdminGroupsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleContainerAzureClusterAuthorizationAdminGroupsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_GoogleContainerAzureClusterAuthorizationAdminGroupsOutputRefe
 	return nil
 }
 
-func (j *jsiiProxy_GoogleContainerAzureClusterAuthorizationAdminGroupsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleContainerAzureClusterAuthorizationAdminGroupsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleContainerAzureClusterAuthorizationAdminGroupsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewGoogleContainerAzureClusterAuthorizationAdminGroupsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

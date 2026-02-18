@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataGoogleComposerUserWorkloadsConfigMap) validateSetIdParame
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleComposerUserWorkloadsConfigMap) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataGoogleComposerUserWorkloadsConfigMap) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

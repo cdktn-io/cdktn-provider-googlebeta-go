@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataGoogleMonitoringMeshIstioServiceTelemetryList) validateGe
 	return nil
 }
 
-func (d *jsiiProxy_DataGoogleMonitoringMeshIstioServiceTelemetryList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataGoogleMonitoringMeshIstioServiceTelemetryList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataGoogleMonitoringMeshIstioServiceTelemetryList) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleMonitoringMeshIstioServiceTelemetryList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataGoogleMonitoringMeshIstioServiceTelemetryList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataGoogleMonitoringMeshIstioServiceTelemetryList) validateSe
 	return nil
 }
 
-func validateNewDataGoogleMonitoringMeshIstioServiceTelemetryListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataGoogleMonitoringMeshIstioServiceTelemetryListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

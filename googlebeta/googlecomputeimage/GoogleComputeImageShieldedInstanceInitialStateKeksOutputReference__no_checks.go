@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleComputeImageShieldedInstanceInitialStateKeksOutputRefer
 	return nil
 }
 
-func (g *jsiiProxy_GoogleComputeImageShieldedInstanceInitialStateKeksOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleComputeImageShieldedInstanceInitialStateKeksOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_GoogleComputeImageShieldedInstanceInitialStateKeksOutputRefer
 	return nil
 }
 
-func (j *jsiiProxy_GoogleComputeImageShieldedInstanceInitialStateKeksOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleComputeImageShieldedInstanceInitialStateKeksOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleComputeImageShieldedInstanceInitialStateKeksOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewGoogleComputeImageShieldedInstanceInitialStateKeksOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

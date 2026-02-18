@@ -119,7 +119,7 @@ func (j *jsiiProxy_GoogleDataCatalogEntryGroup) validateSetIdParameters(val *str
 	return nil
 }
 
-func (j *jsiiProxy_GoogleDataCatalogEntryGroup) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleDataCatalogEntryGroup) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

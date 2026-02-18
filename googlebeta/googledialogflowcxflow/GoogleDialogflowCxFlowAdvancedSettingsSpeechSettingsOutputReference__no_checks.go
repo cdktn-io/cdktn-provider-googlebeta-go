@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleDialogflowCxFlowAdvancedSettingsSpeechSettingsOutputRef
 	return nil
 }
 
-func (g *jsiiProxy_GoogleDialogflowCxFlowAdvancedSettingsSpeechSettingsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleDialogflowCxFlowAdvancedSettingsSpeechSettingsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_GoogleDialogflowCxFlowAdvancedSettingsSpeechSettingsOutputRef
 	return nil
 }
 
-func (j *jsiiProxy_GoogleDialogflowCxFlowAdvancedSettingsSpeechSettingsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleDialogflowCxFlowAdvancedSettingsSpeechSettingsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_GoogleDialogflowCxFlowAdvancedSettingsSpeechSettingsOutputRef
 	return nil
 }
 
-func validateNewGoogleDialogflowCxFlowAdvancedSettingsSpeechSettingsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleDialogflowCxFlowAdvancedSettingsSpeechSettingsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

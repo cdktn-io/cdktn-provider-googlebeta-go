@@ -15,7 +15,7 @@ func (g *jsiiProxy_GoogleMonitoringServiceTelemetryList) validateGetParameters(i
 	return nil
 }
 
-func (g *jsiiProxy_GoogleMonitoringServiceTelemetryList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleMonitoringServiceTelemetryList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_GoogleMonitoringServiceTelemetryList) validateSetTerraformAtt
 	return nil
 }
 
-func (j *jsiiProxy_GoogleMonitoringServiceTelemetryList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleMonitoringServiceTelemetryList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_GoogleMonitoringServiceTelemetryList) validateSetWrapsSetPara
 	return nil
 }
 
-func validateNewGoogleMonitoringServiceTelemetryListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGoogleMonitoringServiceTelemetryListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

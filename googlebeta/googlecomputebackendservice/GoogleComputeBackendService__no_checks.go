@@ -215,7 +215,7 @@ func (j *jsiiProxy_GoogleComputeBackendService) validateSetIpAddressSelectionPol
 	return nil
 }
 
-func (j *jsiiProxy_GoogleComputeBackendService) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleComputeBackendService) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

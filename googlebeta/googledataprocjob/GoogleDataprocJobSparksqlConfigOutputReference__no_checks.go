@@ -51,7 +51,7 @@ func (g *jsiiProxy_GoogleDataprocJobSparksqlConfigOutputReference) validatePutLo
 	return nil
 }
 
-func (g *jsiiProxy_GoogleDataprocJobSparksqlConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleDataprocJobSparksqlConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -91,11 +91,11 @@ func (j *jsiiProxy_GoogleDataprocJobSparksqlConfigOutputReference) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_GoogleDataprocJobSparksqlConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleDataprocJobSparksqlConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleDataprocJobSparksqlConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleDataprocJobSparksqlConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

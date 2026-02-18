@@ -131,7 +131,7 @@ func (j *jsiiProxy_GoogleVertexAiFeatureOnlineStore) validateSetLabelsParameters
 	return nil
 }
 
-func (j *jsiiProxy_GoogleVertexAiFeatureOnlineStore) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleVertexAiFeatureOnlineStore) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleNetappVolumeSnapshotPolicyMonthlyScheduleOutputReferenc
 	return nil
 }
 
-func (g *jsiiProxy_GoogleNetappVolumeSnapshotPolicyMonthlyScheduleOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleNetappVolumeSnapshotPolicyMonthlyScheduleOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_GoogleNetappVolumeSnapshotPolicyMonthlyScheduleOutputReferenc
 	return nil
 }
 
-func (j *jsiiProxy_GoogleNetappVolumeSnapshotPolicyMonthlyScheduleOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleNetappVolumeSnapshotPolicyMonthlyScheduleOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleNetappVolumeSnapshotPolicyMonthlyScheduleOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleNetappVolumeSnapshotPolicyMonthlyScheduleOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

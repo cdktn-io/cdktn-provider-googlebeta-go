@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleComputeInstanceTemplateAdvancedMachineFeaturesOutputRef
 	return nil
 }
 
-func (g *jsiiProxy_GoogleComputeInstanceTemplateAdvancedMachineFeaturesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleComputeInstanceTemplateAdvancedMachineFeaturesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_GoogleComputeInstanceTemplateAdvancedMachineFeaturesOutputRef
 	return nil
 }
 
-func (j *jsiiProxy_GoogleComputeInstanceTemplateAdvancedMachineFeaturesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleComputeInstanceTemplateAdvancedMachineFeaturesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -95,7 +95,7 @@ func (j *jsiiProxy_GoogleComputeInstanceTemplateAdvancedMachineFeaturesOutputRef
 	return nil
 }
 
-func validateNewGoogleComputeInstanceTemplateAdvancedMachineFeaturesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleComputeInstanceTemplateAdvancedMachineFeaturesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

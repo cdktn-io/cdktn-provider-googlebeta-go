@@ -131,7 +131,7 @@ func (j *jsiiProxy_GoogleCloudSchedulerJob) validateSetIdParameters(val *string)
 	return nil
 }
 
-func (j *jsiiProxy_GoogleCloudSchedulerJob) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleCloudSchedulerJob) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

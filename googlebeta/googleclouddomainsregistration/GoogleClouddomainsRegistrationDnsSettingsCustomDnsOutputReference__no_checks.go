@@ -51,7 +51,7 @@ func (g *jsiiProxy_GoogleClouddomainsRegistrationDnsSettingsCustomDnsOutputRefer
 	return nil
 }
 
-func (g *jsiiProxy_GoogleClouddomainsRegistrationDnsSettingsCustomDnsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleClouddomainsRegistrationDnsSettingsCustomDnsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_GoogleClouddomainsRegistrationDnsSettingsCustomDnsOutputRefer
 	return nil
 }
 
-func (j *jsiiProxy_GoogleClouddomainsRegistrationDnsSettingsCustomDnsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleClouddomainsRegistrationDnsSettingsCustomDnsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleClouddomainsRegistrationDnsSettingsCustomDnsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleClouddomainsRegistrationDnsSettingsCustomDnsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

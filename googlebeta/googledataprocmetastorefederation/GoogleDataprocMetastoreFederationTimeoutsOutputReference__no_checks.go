@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleDataprocMetastoreFederationTimeoutsOutputReference) val
 	return nil
 }
 
-func (g *jsiiProxy_GoogleDataprocMetastoreFederationTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleDataprocMetastoreFederationTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_GoogleDataprocMetastoreFederationTimeoutsOutputReference) val
 	return nil
 }
 
-func (j *jsiiProxy_GoogleDataprocMetastoreFederationTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleDataprocMetastoreFederationTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_GoogleDataprocMetastoreFederationTimeoutsOutputReference) val
 	return nil
 }
 
-func validateNewGoogleDataprocMetastoreFederationTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleDataprocMetastoreFederationTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

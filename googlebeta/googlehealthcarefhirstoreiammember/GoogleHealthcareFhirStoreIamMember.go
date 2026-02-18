@@ -5,18 +5,18 @@ package googlehealthcarefhirstoreiammember
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlehealthcarefhirstoreiammember/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlehealthcarefhirstoreiammember/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_healthcare_fhir_store_iam_member google_healthcare_fhir_store_iam_member}.
 type GoogleHealthcareFhirStoreIamMember interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	Condition() GoogleHealthcareFhirStoreIamMemberConditionOutputReference
 	ConditionInput() *GoogleHealthcareFhirStoreIamMemberCondition
 	// Experimental.
@@ -38,9 +38,9 @@ type GoogleHealthcareFhirStoreIamMember interface {
 	SetFhirStoreId(val *string)
 	FhirStoreIdInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -49,18 +49,18 @@ type GoogleHealthcareFhirStoreIamMember interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Member() *string
 	SetMember(val *string)
 	MemberInput() *string
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -71,7 +71,7 @@ type GoogleHealthcareFhirStoreIamMember interface {
 	SetRole(val *string)
 	RoleInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -84,7 +84,7 @@ type GoogleHealthcareFhirStoreIamMember interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -102,9 +102,9 @@ type GoogleHealthcareFhirStoreIamMember interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -140,11 +140,11 @@ type GoogleHealthcareFhirStoreIamMember interface {
 
 // The jsii proxy struct for GoogleHealthcareFhirStoreIamMember
 type jsiiProxy_GoogleHealthcareFhirStoreIamMember struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
-func (j *jsiiProxy_GoogleHealthcareFhirStoreIamMember) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_GoogleHealthcareFhirStoreIamMember) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -243,8 +243,8 @@ func (j *jsiiProxy_GoogleHealthcareFhirStoreIamMember) FhirStoreIdInput() *strin
 	return returns
 }
 
-func (j *jsiiProxy_GoogleHealthcareFhirStoreIamMember) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_GoogleHealthcareFhirStoreIamMember) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -293,8 +293,8 @@ func (j *jsiiProxy_GoogleHealthcareFhirStoreIamMember) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleHealthcareFhirStoreIamMember) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_GoogleHealthcareFhirStoreIamMember) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -333,8 +333,8 @@ func (j *jsiiProxy_GoogleHealthcareFhirStoreIamMember) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleHealthcareFhirStoreIamMember) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_GoogleHealthcareFhirStoreIamMember) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -383,8 +383,8 @@ func (j *jsiiProxy_GoogleHealthcareFhirStoreIamMember) RoleInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleHealthcareFhirStoreIamMember) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_GoogleHealthcareFhirStoreIamMember) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -484,7 +484,7 @@ func (j *jsiiProxy_GoogleHealthcareFhirStoreIamMember)SetFhirStoreId(val *string
 	)
 }
 
-func (j *jsiiProxy_GoogleHealthcareFhirStoreIamMember)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_GoogleHealthcareFhirStoreIamMember)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -503,7 +503,7 @@ func (j *jsiiProxy_GoogleHealthcareFhirStoreIamMember)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_GoogleHealthcareFhirStoreIamMember)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_GoogleHealthcareFhirStoreIamMember)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -525,7 +525,7 @@ func (j *jsiiProxy_GoogleHealthcareFhirStoreIamMember)SetMember(val *string) {
 	)
 }
 
-func (j *jsiiProxy_GoogleHealthcareFhirStoreIamMember)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_GoogleHealthcareFhirStoreIamMember)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -555,14 +555,14 @@ func (j *jsiiProxy_GoogleHealthcareFhirStoreIamMember)SetRole(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a GoogleHealthcareFhirStoreIamMember resource upon running "cdktf plan <stack-name>".
-func GoogleHealthcareFhirStoreIamMember_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a GoogleHealthcareFhirStoreIamMember resource upon running "cdktn plan <stack-name>".
+func GoogleHealthcareFhirStoreIamMember_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateGoogleHealthcareFhirStoreIamMember_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google-beta.googleHealthcareFhirStoreIamMember.GoogleHealthcareFhirStoreIamMember",
@@ -696,11 +696,11 @@ func (g *jsiiProxy_GoogleHealthcareFhirStoreIamMember) GetAnyMapAttribute(terraf
 	return returns
 }
 
-func (g *jsiiProxy_GoogleHealthcareFhirStoreIamMember) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleHealthcareFhirStoreIamMember) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -837,7 +837,7 @@ func (g *jsiiProxy_GoogleHealthcareFhirStoreIamMember) HasResourceMove() interfa
 	return returns
 }
 
-func (g *jsiiProxy_GoogleHealthcareFhirStoreIamMember) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (g *jsiiProxy_GoogleHealthcareFhirStoreIamMember) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := g.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -848,11 +848,11 @@ func (g *jsiiProxy_GoogleHealthcareFhirStoreIamMember) ImportFrom(id *string, pr
 	)
 }
 
-func (g *jsiiProxy_GoogleHealthcareFhirStoreIamMember) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleHealthcareFhirStoreIamMember) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,

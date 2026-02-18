@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleApphubApplicationAttributesBusinessOwnersOutputReferenc
 	return nil
 }
 
-func (g *jsiiProxy_GoogleApphubApplicationAttributesBusinessOwnersOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleApphubApplicationAttributesBusinessOwnersOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_GoogleApphubApplicationAttributesBusinessOwnersOutputReferenc
 	return nil
 }
 
-func (j *jsiiProxy_GoogleApphubApplicationAttributesBusinessOwnersOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleApphubApplicationAttributesBusinessOwnersOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleApphubApplicationAttributesBusinessOwnersOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewGoogleApphubApplicationAttributesBusinessOwnersOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

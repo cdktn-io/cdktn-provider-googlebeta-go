@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleEndpointsServiceEndpointsOutputReference) validateInter
 	return nil
 }
 
-func (g *jsiiProxy_GoogleEndpointsServiceEndpointsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleEndpointsServiceEndpointsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_GoogleEndpointsServiceEndpointsOutputReference) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_GoogleEndpointsServiceEndpointsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleEndpointsServiceEndpointsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleEndpointsServiceEndpointsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewGoogleEndpointsServiceEndpointsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

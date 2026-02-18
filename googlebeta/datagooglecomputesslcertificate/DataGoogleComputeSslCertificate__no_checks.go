@@ -79,7 +79,7 @@ func (j *jsiiProxy_DataGoogleComputeSslCertificate) validateSetIdParameters(val 
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleComputeSslCertificate) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataGoogleComputeSslCertificate) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

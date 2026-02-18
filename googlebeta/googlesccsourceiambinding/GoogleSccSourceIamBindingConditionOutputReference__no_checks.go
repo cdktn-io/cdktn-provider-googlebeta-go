@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleSccSourceIamBindingConditionOutputReference) validateIn
 	return nil
 }
 
-func (g *jsiiProxy_GoogleSccSourceIamBindingConditionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleSccSourceIamBindingConditionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_GoogleSccSourceIamBindingConditionOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_GoogleSccSourceIamBindingConditionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleSccSourceIamBindingConditionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_GoogleSccSourceIamBindingConditionOutputReference) validateSe
 	return nil
 }
 
-func validateNewGoogleSccSourceIamBindingConditionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleSccSourceIamBindingConditionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

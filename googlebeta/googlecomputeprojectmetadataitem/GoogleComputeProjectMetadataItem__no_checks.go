@@ -111,7 +111,7 @@ func (j *jsiiProxy_GoogleComputeProjectMetadataItem) validateSetKeyParameters(va
 	return nil
 }
 
-func (j *jsiiProxy_GoogleComputeProjectMetadataItem) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleComputeProjectMetadataItem) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

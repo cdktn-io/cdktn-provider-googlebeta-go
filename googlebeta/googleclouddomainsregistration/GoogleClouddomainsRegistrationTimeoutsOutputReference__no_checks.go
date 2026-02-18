@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleClouddomainsRegistrationTimeoutsOutputReference) valida
 	return nil
 }
 
-func (g *jsiiProxy_GoogleClouddomainsRegistrationTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleClouddomainsRegistrationTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_GoogleClouddomainsRegistrationTimeoutsOutputReference) valida
 	return nil
 }
 
-func (j *jsiiProxy_GoogleClouddomainsRegistrationTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleClouddomainsRegistrationTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_GoogleClouddomainsRegistrationTimeoutsOutputReference) valida
 	return nil
 }
 
-func validateNewGoogleClouddomainsRegistrationTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleClouddomainsRegistrationTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

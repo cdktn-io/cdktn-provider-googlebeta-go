@@ -5,14 +5,14 @@ package googlecloudfunctionsfunction
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecloudfunctionsfunction/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecloudfunctionsfunction/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type GoogleCloudfunctionsFunctionEventTriggerFailurePolicyOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -40,15 +40,15 @@ type GoogleCloudfunctionsFunctionEventTriggerFailurePolicyOutputReference interf
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -64,12 +64,12 @@ type GoogleCloudfunctionsFunctionEventTriggerFailurePolicyOutputReference interf
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -79,7 +79,7 @@ type GoogleCloudfunctionsFunctionEventTriggerFailurePolicyOutputReference interf
 
 // The jsii proxy struct for GoogleCloudfunctionsFunctionEventTriggerFailurePolicyOutputReference
 type jsiiProxy_GoogleCloudfunctionsFunctionEventTriggerFailurePolicyOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_GoogleCloudfunctionsFunctionEventTriggerFailurePolicyOutputReference) ComplexObjectIndex() interface{} {
@@ -162,8 +162,8 @@ func (j *jsiiProxy_GoogleCloudfunctionsFunctionEventTriggerFailurePolicyOutputRe
 	return returns
 }
 
-func (j *jsiiProxy_GoogleCloudfunctionsFunctionEventTriggerFailurePolicyOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_GoogleCloudfunctionsFunctionEventTriggerFailurePolicyOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -173,7 +173,7 @@ func (j *jsiiProxy_GoogleCloudfunctionsFunctionEventTriggerFailurePolicyOutputRe
 }
 
 
-func NewGoogleCloudfunctionsFunctionEventTriggerFailurePolicyOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) GoogleCloudfunctionsFunctionEventTriggerFailurePolicyOutputReference {
+func NewGoogleCloudfunctionsFunctionEventTriggerFailurePolicyOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) GoogleCloudfunctionsFunctionEventTriggerFailurePolicyOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewGoogleCloudfunctionsFunctionEventTriggerFailurePolicyOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -190,7 +190,7 @@ func NewGoogleCloudfunctionsFunctionEventTriggerFailurePolicyOutputReference(ter
 	return &j
 }
 
-func NewGoogleCloudfunctionsFunctionEventTriggerFailurePolicyOutputReference_Override(g GoogleCloudfunctionsFunctionEventTriggerFailurePolicyOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewGoogleCloudfunctionsFunctionEventTriggerFailurePolicyOutputReference_Override(g GoogleCloudfunctionsFunctionEventTriggerFailurePolicyOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -255,7 +255,7 @@ func (j *jsiiProxy_GoogleCloudfunctionsFunctionEventTriggerFailurePolicyOutputRe
 	)
 }
 
-func (j *jsiiProxy_GoogleCloudfunctionsFunctionEventTriggerFailurePolicyOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_GoogleCloudfunctionsFunctionEventTriggerFailurePolicyOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -295,11 +295,11 @@ func (g *jsiiProxy_GoogleCloudfunctionsFunctionEventTriggerFailurePolicyOutputRe
 	return returns
 }
 
-func (g *jsiiProxy_GoogleCloudfunctionsFunctionEventTriggerFailurePolicyOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleCloudfunctionsFunctionEventTriggerFailurePolicyOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -423,8 +423,8 @@ func (g *jsiiProxy_GoogleCloudfunctionsFunctionEventTriggerFailurePolicyOutputRe
 	return returns
 }
 
-func (g *jsiiProxy_GoogleCloudfunctionsFunctionEventTriggerFailurePolicyOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (g *jsiiProxy_GoogleCloudfunctionsFunctionEventTriggerFailurePolicyOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -436,11 +436,11 @@ func (g *jsiiProxy_GoogleCloudfunctionsFunctionEventTriggerFailurePolicyOutputRe
 	return returns
 }
 
-func (g *jsiiProxy_GoogleCloudfunctionsFunctionEventTriggerFailurePolicyOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleCloudfunctionsFunctionEventTriggerFailurePolicyOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -452,7 +452,7 @@ func (g *jsiiProxy_GoogleCloudfunctionsFunctionEventTriggerFailurePolicyOutputRe
 	return returns
 }
 
-func (g *jsiiProxy_GoogleCloudfunctionsFunctionEventTriggerFailurePolicyOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (g *jsiiProxy_GoogleCloudfunctionsFunctionEventTriggerFailurePolicyOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

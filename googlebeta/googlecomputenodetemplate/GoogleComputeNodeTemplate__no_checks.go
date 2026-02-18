@@ -131,7 +131,7 @@ func (j *jsiiProxy_GoogleComputeNodeTemplate) validateSetIdParameters(val *strin
 	return nil
 }
 
-func (j *jsiiProxy_GoogleComputeNodeTemplate) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleComputeNodeTemplate) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

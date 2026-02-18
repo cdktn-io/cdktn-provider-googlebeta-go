@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataGoogleGkeHubMembershipEndpointGkeClusterList) validateGet
 	return nil
 }
 
-func (d *jsiiProxy_DataGoogleGkeHubMembershipEndpointGkeClusterList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataGoogleGkeHubMembershipEndpointGkeClusterList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataGoogleGkeHubMembershipEndpointGkeClusterList) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleGkeHubMembershipEndpointGkeClusterList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataGoogleGkeHubMembershipEndpointGkeClusterList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataGoogleGkeHubMembershipEndpointGkeClusterList) validateSet
 	return nil
 }
 
-func validateNewDataGoogleGkeHubMembershipEndpointGkeClusterListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataGoogleGkeHubMembershipEndpointGkeClusterListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

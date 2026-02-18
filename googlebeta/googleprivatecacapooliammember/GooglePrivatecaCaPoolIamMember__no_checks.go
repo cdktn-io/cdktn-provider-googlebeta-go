@@ -111,7 +111,7 @@ func (j *jsiiProxy_GooglePrivatecaCaPoolIamMember) validateSetIdParameters(val *
 	return nil
 }
 
-func (j *jsiiProxy_GooglePrivatecaCaPoolIamMember) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GooglePrivatecaCaPoolIamMember) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

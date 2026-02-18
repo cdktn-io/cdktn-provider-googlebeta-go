@@ -119,7 +119,7 @@ func (j *jsiiProxy_GoogleSccEventThreatDetectionCustomModule) validateSetIdParam
 	return nil
 }
 
-func (j *jsiiProxy_GoogleSccEventThreatDetectionCustomModule) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleSccEventThreatDetectionCustomModule) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

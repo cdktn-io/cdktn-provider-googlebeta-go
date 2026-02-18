@@ -5,19 +5,19 @@ package datagooglestoragebucket
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/datagooglestoragebucket/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/datagooglestoragebucket/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_storage_bucket google_storage_bucket}.
 type DataGoogleStorageBucket interface {
-	cdktf.TerraformDataSource
+	cdktn.TerraformDataSource
 	Autoclass() DataGoogleStorageBucketAutoclassList
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
 	Cors() DataGoogleStorageBucketCorsList
@@ -26,19 +26,19 @@ type DataGoogleStorageBucket interface {
 	// Experimental.
 	SetCount(val interface{})
 	CustomPlacementConfig() DataGoogleStorageBucketCustomPlacementConfigList
-	DefaultEventBasedHold() cdktf.IResolvable
+	DefaultEventBasedHold() cdktn.IResolvable
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
 	SetDependsOn(val *[]*string)
-	EffectiveLabels() cdktf.StringMap
-	EnableObjectRetention() cdktf.IResolvable
+	EffectiveLabels() cdktn.StringMap
+	EnableObjectRetention() cdktn.IResolvable
 	Encryption() DataGoogleStorageBucketEncryptionList
-	ForceDestroy() cdktf.IResolvable
+	ForceDestroy() cdktn.IResolvable
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -48,11 +48,11 @@ type DataGoogleStorageBucket interface {
 	SetId(val *string)
 	IdInput() *string
 	IpFilter() DataGoogleStorageBucketIpFilterList
-	Labels() cdktf.StringMap
+	Labels() cdktn.StringMap
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	LifecycleRule() DataGoogleStorageBucketLifecycleRuleList
 	Location() *string
 	Logging() DataGoogleStorageBucketLoggingList
@@ -66,27 +66,27 @@ type DataGoogleStorageBucket interface {
 	ProjectInput() *string
 	ProjectNumber() *float64
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	PublicAccessPrevention() *string
 	// Experimental.
 	RawOverrides() interface{}
-	RequesterPays() cdktf.IResolvable
+	RequesterPays() cdktn.IResolvable
 	RetentionPolicy() DataGoogleStorageBucketRetentionPolicyList
 	Rpo() *string
 	SelfLink() *string
 	SoftDeletePolicy() DataGoogleStorageBucketSoftDeletePolicyList
 	StorageClass() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
-	TerraformLabels() cdktf.StringMap
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
+	TerraformLabels() cdktn.StringMap
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
 	TerraformResourceType() *string
 	TimeCreated() *string
-	UniformBucketLevelAccess() cdktf.IResolvable
+	UniformBucketLevelAccess() cdktn.IResolvable
 	Updated() *string
 	Url() *string
 	Versioning() DataGoogleStorageBucketVersioningList
@@ -96,7 +96,7 @@ type DataGoogleStorageBucket interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -112,7 +112,7 @@ type DataGoogleStorageBucket interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
@@ -137,7 +137,7 @@ type DataGoogleStorageBucket interface {
 
 // The jsii proxy struct for DataGoogleStorageBucket
 type jsiiProxy_DataGoogleStorageBucket struct {
-	internal.Type__cdktfTerraformDataSource
+	internal.Type__cdktnTerraformDataSource
 }
 
 func (j *jsiiProxy_DataGoogleStorageBucket) Autoclass() DataGoogleStorageBucketAutoclassList {
@@ -150,8 +150,8 @@ func (j *jsiiProxy_DataGoogleStorageBucket) Autoclass() DataGoogleStorageBucketA
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleStorageBucket) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataGoogleStorageBucket) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -200,8 +200,8 @@ func (j *jsiiProxy_DataGoogleStorageBucket) CustomPlacementConfig() DataGoogleSt
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleStorageBucket) DefaultEventBasedHold() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataGoogleStorageBucket) DefaultEventBasedHold() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"defaultEventBasedHold",
@@ -220,8 +220,8 @@ func (j *jsiiProxy_DataGoogleStorageBucket) DependsOn() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleStorageBucket) EffectiveLabels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_DataGoogleStorageBucket) EffectiveLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"effectiveLabels",
@@ -230,8 +230,8 @@ func (j *jsiiProxy_DataGoogleStorageBucket) EffectiveLabels() cdktf.StringMap {
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleStorageBucket) EnableObjectRetention() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataGoogleStorageBucket) EnableObjectRetention() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"enableObjectRetention",
@@ -250,8 +250,8 @@ func (j *jsiiProxy_DataGoogleStorageBucket) Encryption() DataGoogleStorageBucket
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleStorageBucket) ForceDestroy() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataGoogleStorageBucket) ForceDestroy() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"forceDestroy",
@@ -260,8 +260,8 @@ func (j *jsiiProxy_DataGoogleStorageBucket) ForceDestroy() cdktf.IResolvable {
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleStorageBucket) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataGoogleStorageBucket) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -330,8 +330,8 @@ func (j *jsiiProxy_DataGoogleStorageBucket) IpFilter() DataGoogleStorageBucketIp
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleStorageBucket) Labels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_DataGoogleStorageBucket) Labels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"labels",
@@ -340,8 +340,8 @@ func (j *jsiiProxy_DataGoogleStorageBucket) Labels() cdktf.StringMap {
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleStorageBucket) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataGoogleStorageBucket) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -440,8 +440,8 @@ func (j *jsiiProxy_DataGoogleStorageBucket) ProjectNumber() *float64 {
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleStorageBucket) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataGoogleStorageBucket) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -470,8 +470,8 @@ func (j *jsiiProxy_DataGoogleStorageBucket) RawOverrides() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleStorageBucket) RequesterPays() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataGoogleStorageBucket) RequesterPays() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"requesterPays",
@@ -530,8 +530,8 @@ func (j *jsiiProxy_DataGoogleStorageBucket) StorageClass() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleStorageBucket) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataGoogleStorageBucket) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -540,8 +540,8 @@ func (j *jsiiProxy_DataGoogleStorageBucket) TerraformGeneratorMetadata() *cdktf.
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleStorageBucket) TerraformLabels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_DataGoogleStorageBucket) TerraformLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"terraformLabels",
@@ -580,8 +580,8 @@ func (j *jsiiProxy_DataGoogleStorageBucket) TimeCreated() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleStorageBucket) UniformBucketLevelAccess() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataGoogleStorageBucket) UniformBucketLevelAccess() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"uniformBucketLevelAccess",
@@ -679,7 +679,7 @@ func (j *jsiiProxy_DataGoogleStorageBucket)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_DataGoogleStorageBucket)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataGoogleStorageBucket)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -698,7 +698,7 @@ func (j *jsiiProxy_DataGoogleStorageBucket)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataGoogleStorageBucket)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataGoogleStorageBucket)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -731,7 +731,7 @@ func (j *jsiiProxy_DataGoogleStorageBucket)SetProject(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataGoogleStorageBucket)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataGoogleStorageBucket)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -739,14 +739,14 @@ func (j *jsiiProxy_DataGoogleStorageBucket)SetProvider(val cdktf.TerraformProvid
 	)
 }
 
-// Generates CDKTF code for importing a DataGoogleStorageBucket resource upon running "cdktf plan <stack-name>".
-func DataGoogleStorageBucket_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataGoogleStorageBucket resource upon running "cdktn plan <stack-name>".
+func DataGoogleStorageBucket_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataGoogleStorageBucket_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google-beta.dataGoogleStorageBucket.DataGoogleStorageBucket",
@@ -869,11 +869,11 @@ func (d *jsiiProxy_DataGoogleStorageBucket) GetAnyMapAttribute(terraformAttribut
 	return returns
 }
 
-func (d *jsiiProxy_DataGoogleStorageBucket) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataGoogleStorageBucket) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -997,11 +997,11 @@ func (d *jsiiProxy_DataGoogleStorageBucket) GetStringMapAttribute(terraformAttri
 	return returns
 }
 
-func (d *jsiiProxy_DataGoogleStorageBucket) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataGoogleStorageBucket) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

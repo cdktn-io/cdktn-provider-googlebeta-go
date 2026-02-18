@@ -15,7 +15,7 @@ func (g *jsiiProxy_GoogleComputeFutureReservationStatusLastKnownGoodStateList) v
 	return nil
 }
 
-func (g *jsiiProxy_GoogleComputeFutureReservationStatusLastKnownGoodStateList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleComputeFutureReservationStatusLastKnownGoodStateList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_GoogleComputeFutureReservationStatusLastKnownGoodStateList) v
 	return nil
 }
 
-func (j *jsiiProxy_GoogleComputeFutureReservationStatusLastKnownGoodStateList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleComputeFutureReservationStatusLastKnownGoodStateList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_GoogleComputeFutureReservationStatusLastKnownGoodStateList) v
 	return nil
 }
 
-func validateNewGoogleComputeFutureReservationStatusLastKnownGoodStateListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGoogleComputeFutureReservationStatusLastKnownGoodStateListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

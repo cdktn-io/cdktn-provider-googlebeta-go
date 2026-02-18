@@ -123,7 +123,7 @@ func (j *jsiiProxy_GoogleBeyondcorpApplication) validateSetIdParameters(val *str
 	return nil
 }
 
-func (j *jsiiProxy_GoogleBeyondcorpApplication) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleBeyondcorpApplication) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

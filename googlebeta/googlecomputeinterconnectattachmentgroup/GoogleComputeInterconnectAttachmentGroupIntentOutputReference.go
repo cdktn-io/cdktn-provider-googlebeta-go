@@ -5,14 +5,14 @@ package googlecomputeinterconnectattachmentgroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecomputeinterconnectattachmentgroup/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecomputeinterconnectattachmentgroup/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type GoogleComputeInterconnectAttachmentGroupIntentOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AvailabilitySla() *string
 	SetAvailabilitySla(val *string)
 	AvailabilitySlaInput() *string
@@ -40,15 +40,15 @@ type GoogleComputeInterconnectAttachmentGroupIntentOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -64,13 +64,13 @@ type GoogleComputeInterconnectAttachmentGroupIntentOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetAvailabilitySla()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -80,7 +80,7 @@ type GoogleComputeInterconnectAttachmentGroupIntentOutputReference interface {
 
 // The jsii proxy struct for GoogleComputeInterconnectAttachmentGroupIntentOutputReference
 type jsiiProxy_GoogleComputeInterconnectAttachmentGroupIntentOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_GoogleComputeInterconnectAttachmentGroupIntentOutputReference) AvailabilitySla() *string {
@@ -163,8 +163,8 @@ func (j *jsiiProxy_GoogleComputeInterconnectAttachmentGroupIntentOutputReference
 	return returns
 }
 
-func (j *jsiiProxy_GoogleComputeInterconnectAttachmentGroupIntentOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_GoogleComputeInterconnectAttachmentGroupIntentOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -174,7 +174,7 @@ func (j *jsiiProxy_GoogleComputeInterconnectAttachmentGroupIntentOutputReference
 }
 
 
-func NewGoogleComputeInterconnectAttachmentGroupIntentOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) GoogleComputeInterconnectAttachmentGroupIntentOutputReference {
+func NewGoogleComputeInterconnectAttachmentGroupIntentOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) GoogleComputeInterconnectAttachmentGroupIntentOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewGoogleComputeInterconnectAttachmentGroupIntentOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -191,7 +191,7 @@ func NewGoogleComputeInterconnectAttachmentGroupIntentOutputReference(terraformR
 	return &j
 }
 
-func NewGoogleComputeInterconnectAttachmentGroupIntentOutputReference_Override(g GoogleComputeInterconnectAttachmentGroupIntentOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewGoogleComputeInterconnectAttachmentGroupIntentOutputReference_Override(g GoogleComputeInterconnectAttachmentGroupIntentOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -256,7 +256,7 @@ func (j *jsiiProxy_GoogleComputeInterconnectAttachmentGroupIntentOutputReference
 	)
 }
 
-func (j *jsiiProxy_GoogleComputeInterconnectAttachmentGroupIntentOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_GoogleComputeInterconnectAttachmentGroupIntentOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -296,11 +296,11 @@ func (g *jsiiProxy_GoogleComputeInterconnectAttachmentGroupIntentOutputReference
 	return returns
 }
 
-func (g *jsiiProxy_GoogleComputeInterconnectAttachmentGroupIntentOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleComputeInterconnectAttachmentGroupIntentOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -424,8 +424,8 @@ func (g *jsiiProxy_GoogleComputeInterconnectAttachmentGroupIntentOutputReference
 	return returns
 }
 
-func (g *jsiiProxy_GoogleComputeInterconnectAttachmentGroupIntentOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (g *jsiiProxy_GoogleComputeInterconnectAttachmentGroupIntentOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -437,11 +437,11 @@ func (g *jsiiProxy_GoogleComputeInterconnectAttachmentGroupIntentOutputReference
 	return returns
 }
 
-func (g *jsiiProxy_GoogleComputeInterconnectAttachmentGroupIntentOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleComputeInterconnectAttachmentGroupIntentOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -461,7 +461,7 @@ func (g *jsiiProxy_GoogleComputeInterconnectAttachmentGroupIntentOutputReference
 	)
 }
 
-func (g *jsiiProxy_GoogleComputeInterconnectAttachmentGroupIntentOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (g *jsiiProxy_GoogleComputeInterconnectAttachmentGroupIntentOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := g.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

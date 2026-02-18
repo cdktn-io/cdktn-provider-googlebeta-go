@@ -5,23 +5,23 @@ package googlecloudschedulerjob
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecloudschedulerjob/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecloudschedulerjob/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_scheduler_job google_cloud_scheduler_job}.
 type GoogleCloudSchedulerJob interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	AppEngineHttpTarget() GoogleCloudSchedulerJobAppEngineHttpTargetOutputReference
 	AppEngineHttpTargetInput() *GoogleCloudSchedulerJobAppEngineHttpTarget
 	AttemptDeadline() *string
 	SetAttemptDeadline(val *string)
 	AttemptDeadlineInput() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -40,9 +40,9 @@ type GoogleCloudSchedulerJob interface {
 	SetDescription(val *string)
 	DescriptionInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -53,9 +53,9 @@ type GoogleCloudSchedulerJob interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
@@ -68,9 +68,9 @@ type GoogleCloudSchedulerJob interface {
 	SetProject(val *string)
 	ProjectInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -89,7 +89,7 @@ type GoogleCloudSchedulerJob interface {
 	ScheduleInput() *string
 	State() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -107,7 +107,7 @@ type GoogleCloudSchedulerJob interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -125,9 +125,9 @@ type GoogleCloudSchedulerJob interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -178,7 +178,7 @@ type GoogleCloudSchedulerJob interface {
 
 // The jsii proxy struct for GoogleCloudSchedulerJob
 type jsiiProxy_GoogleCloudSchedulerJob struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_GoogleCloudSchedulerJob) AppEngineHttpTarget() GoogleCloudSchedulerJobAppEngineHttpTargetOutputReference {
@@ -221,8 +221,8 @@ func (j *jsiiProxy_GoogleCloudSchedulerJob) AttemptDeadlineInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleCloudSchedulerJob) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_GoogleCloudSchedulerJob) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -291,8 +291,8 @@ func (j *jsiiProxy_GoogleCloudSchedulerJob) DescriptionInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleCloudSchedulerJob) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_GoogleCloudSchedulerJob) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -361,8 +361,8 @@ func (j *jsiiProxy_GoogleCloudSchedulerJob) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleCloudSchedulerJob) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_GoogleCloudSchedulerJob) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -441,8 +441,8 @@ func (j *jsiiProxy_GoogleCloudSchedulerJob) ProjectInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleCloudSchedulerJob) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_GoogleCloudSchedulerJob) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -561,8 +561,8 @@ func (j *jsiiProxy_GoogleCloudSchedulerJob) State() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleCloudSchedulerJob) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_GoogleCloudSchedulerJob) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -713,7 +713,7 @@ func (j *jsiiProxy_GoogleCloudSchedulerJob)SetDescription(val *string) {
 	)
 }
 
-func (j *jsiiProxy_GoogleCloudSchedulerJob)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_GoogleCloudSchedulerJob)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -732,7 +732,7 @@ func (j *jsiiProxy_GoogleCloudSchedulerJob)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_GoogleCloudSchedulerJob)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_GoogleCloudSchedulerJob)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -776,7 +776,7 @@ func (j *jsiiProxy_GoogleCloudSchedulerJob)SetProject(val *string) {
 	)
 }
 
-func (j *jsiiProxy_GoogleCloudSchedulerJob)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_GoogleCloudSchedulerJob)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -828,14 +828,14 @@ func (j *jsiiProxy_GoogleCloudSchedulerJob)SetTimeZone(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a GoogleCloudSchedulerJob resource upon running "cdktf plan <stack-name>".
-func GoogleCloudSchedulerJob_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a GoogleCloudSchedulerJob resource upon running "cdktn plan <stack-name>".
+func GoogleCloudSchedulerJob_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateGoogleCloudSchedulerJob_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google-beta.googleCloudSchedulerJob.GoogleCloudSchedulerJob",
@@ -969,11 +969,11 @@ func (g *jsiiProxy_GoogleCloudSchedulerJob) GetAnyMapAttribute(terraformAttribut
 	return returns
 }
 
-func (g *jsiiProxy_GoogleCloudSchedulerJob) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleCloudSchedulerJob) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -1110,7 +1110,7 @@ func (g *jsiiProxy_GoogleCloudSchedulerJob) HasResourceMove() interface{} {
 	return returns
 }
 
-func (g *jsiiProxy_GoogleCloudSchedulerJob) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (g *jsiiProxy_GoogleCloudSchedulerJob) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := g.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1121,11 +1121,11 @@ func (g *jsiiProxy_GoogleCloudSchedulerJob) ImportFrom(id *string, provider cdkt
 	)
 }
 
-func (g *jsiiProxy_GoogleCloudSchedulerJob) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleCloudSchedulerJob) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,

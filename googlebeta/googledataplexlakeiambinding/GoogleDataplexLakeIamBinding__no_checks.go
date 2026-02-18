@@ -111,7 +111,7 @@ func (j *jsiiProxy_GoogleDataplexLakeIamBinding) validateSetLakeParameters(val *
 	return nil
 }
 
-func (j *jsiiProxy_GoogleDataplexLakeIamBinding) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleDataplexLakeIamBinding) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

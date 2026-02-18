@@ -115,7 +115,7 @@ func (j *jsiiProxy_GoogleIamWorkloadIdentityPoolNamespace) validateSetIdParamete
 	return nil
 }
 
-func (j *jsiiProxy_GoogleIamWorkloadIdentityPoolNamespace) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleIamWorkloadIdentityPoolNamespace) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

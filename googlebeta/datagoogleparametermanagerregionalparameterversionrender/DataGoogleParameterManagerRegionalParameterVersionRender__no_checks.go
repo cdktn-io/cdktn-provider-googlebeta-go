@@ -79,7 +79,7 @@ func (j *jsiiProxy_DataGoogleParameterManagerRegionalParameterVersionRender) val
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleParameterManagerRegionalParameterVersionRender) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataGoogleParameterManagerRegionalParameterVersionRender) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

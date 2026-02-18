@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleComputeInstanceGroupManagerResourcePoliciesOutputRefere
 	return nil
 }
 
-func (g *jsiiProxy_GoogleComputeInstanceGroupManagerResourcePoliciesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleComputeInstanceGroupManagerResourcePoliciesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,7 +67,7 @@ func (j *jsiiProxy_GoogleComputeInstanceGroupManagerResourcePoliciesOutputRefere
 	return nil
 }
 
-func (j *jsiiProxy_GoogleComputeInstanceGroupManagerResourcePoliciesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleComputeInstanceGroupManagerResourcePoliciesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_GoogleComputeInstanceGroupManagerResourcePoliciesOutputRefere
 	return nil
 }
 
-func validateNewGoogleComputeInstanceGroupManagerResourcePoliciesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleComputeInstanceGroupManagerResourcePoliciesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleSpannerBackupScheduleFullBackupSpecOutputReference) val
 	return nil
 }
 
-func (g *jsiiProxy_GoogleSpannerBackupScheduleFullBackupSpecOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleSpannerBackupScheduleFullBackupSpecOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_GoogleSpannerBackupScheduleFullBackupSpecOutputReference) val
 	return nil
 }
 
-func (j *jsiiProxy_GoogleSpannerBackupScheduleFullBackupSpecOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleSpannerBackupScheduleFullBackupSpecOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleSpannerBackupScheduleFullBackupSpecOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleSpannerBackupScheduleFullBackupSpecOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleCloudbuildTriggerGitFileSourceOutputReference) validate
 	return nil
 }
 
-func (g *jsiiProxy_GoogleCloudbuildTriggerGitFileSourceOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleCloudbuildTriggerGitFileSourceOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -91,7 +91,7 @@ func (j *jsiiProxy_GoogleCloudbuildTriggerGitFileSourceOutputReference) validate
 	return nil
 }
 
-func (j *jsiiProxy_GoogleCloudbuildTriggerGitFileSourceOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleCloudbuildTriggerGitFileSourceOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -99,7 +99,7 @@ func (j *jsiiProxy_GoogleCloudbuildTriggerGitFileSourceOutputReference) validate
 	return nil
 }
 
-func validateNewGoogleCloudbuildTriggerGitFileSourceOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleCloudbuildTriggerGitFileSourceOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

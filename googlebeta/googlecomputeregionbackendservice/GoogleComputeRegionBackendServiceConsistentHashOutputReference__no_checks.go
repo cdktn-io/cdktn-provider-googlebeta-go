@@ -51,7 +51,7 @@ func (g *jsiiProxy_GoogleComputeRegionBackendServiceConsistentHashOutputReferenc
 	return nil
 }
 
-func (g *jsiiProxy_GoogleComputeRegionBackendServiceConsistentHashOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleComputeRegionBackendServiceConsistentHashOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_GoogleComputeRegionBackendServiceConsistentHashOutputReferenc
 	return nil
 }
 
-func (j *jsiiProxy_GoogleComputeRegionBackendServiceConsistentHashOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleComputeRegionBackendServiceConsistentHashOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleComputeRegionBackendServiceConsistentHashOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleComputeRegionBackendServiceConsistentHashOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

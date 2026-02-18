@@ -15,7 +15,7 @@ func (g *jsiiProxy_GoogleCertificateManagerCertificateManagedAuthorizationAttemp
 	return nil
 }
 
-func (g *jsiiProxy_GoogleCertificateManagerCertificateManagedAuthorizationAttemptInfoList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleCertificateManagerCertificateManagedAuthorizationAttemptInfoList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_GoogleCertificateManagerCertificateManagedAuthorizationAttemp
 	return nil
 }
 
-func (j *jsiiProxy_GoogleCertificateManagerCertificateManagedAuthorizationAttemptInfoList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleCertificateManagerCertificateManagedAuthorizationAttemptInfoList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_GoogleCertificateManagerCertificateManagedAuthorizationAttemp
 	return nil
 }
 
-func validateNewGoogleCertificateManagerCertificateManagedAuthorizationAttemptInfoListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGoogleCertificateManagerCertificateManagedAuthorizationAttemptInfoListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

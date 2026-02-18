@@ -143,7 +143,7 @@ func (j *jsiiProxy_GoogleOracleDatabaseCloudVmCluster) validateSetLabelsParamete
 	return nil
 }
 
-func (j *jsiiProxy_GoogleOracleDatabaseCloudVmCluster) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleOracleDatabaseCloudVmCluster) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleEventarcTriggerTransportPubsubOutputReference) validate
 	return nil
 }
 
-func (g *jsiiProxy_GoogleEventarcTriggerTransportPubsubOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleEventarcTriggerTransportPubsubOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,7 +67,7 @@ func (j *jsiiProxy_GoogleEventarcTriggerTransportPubsubOutputReference) validate
 	return nil
 }
 
-func (j *jsiiProxy_GoogleEventarcTriggerTransportPubsubOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleEventarcTriggerTransportPubsubOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_GoogleEventarcTriggerTransportPubsubOutputReference) validate
 	return nil
 }
 
-func validateNewGoogleEventarcTriggerTransportPubsubOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleEventarcTriggerTransportPubsubOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

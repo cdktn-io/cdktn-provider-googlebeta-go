@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleVertexAiFeaturestoreOnlineServingConfigScalingOutputRef
 	return nil
 }
 
-func (g *jsiiProxy_GoogleVertexAiFeaturestoreOnlineServingConfigScalingOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleVertexAiFeaturestoreOnlineServingConfigScalingOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_GoogleVertexAiFeaturestoreOnlineServingConfigScalingOutputRef
 	return nil
 }
 
-func (j *jsiiProxy_GoogleVertexAiFeaturestoreOnlineServingConfigScalingOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleVertexAiFeaturestoreOnlineServingConfigScalingOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleVertexAiFeaturestoreOnlineServingConfigScalingOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleVertexAiFeaturestoreOnlineServingConfigScalingOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

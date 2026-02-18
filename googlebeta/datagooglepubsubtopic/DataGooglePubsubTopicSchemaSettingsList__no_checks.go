@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataGooglePubsubTopicSchemaSettingsList) validateGetParameter
 	return nil
 }
 
-func (d *jsiiProxy_DataGooglePubsubTopicSchemaSettingsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataGooglePubsubTopicSchemaSettingsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataGooglePubsubTopicSchemaSettingsList) validateSetTerraform
 	return nil
 }
 
-func (j *jsiiProxy_DataGooglePubsubTopicSchemaSettingsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataGooglePubsubTopicSchemaSettingsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataGooglePubsubTopicSchemaSettingsList) validateSetWrapsSetP
 	return nil
 }
 
-func validateNewDataGooglePubsubTopicSchemaSettingsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataGooglePubsubTopicSchemaSettingsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

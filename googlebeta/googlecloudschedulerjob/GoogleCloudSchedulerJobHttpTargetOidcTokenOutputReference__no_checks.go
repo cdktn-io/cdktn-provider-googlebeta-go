@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleCloudSchedulerJobHttpTargetOidcTokenOutputReference) va
 	return nil
 }
 
-func (g *jsiiProxy_GoogleCloudSchedulerJobHttpTargetOidcTokenOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleCloudSchedulerJobHttpTargetOidcTokenOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_GoogleCloudSchedulerJobHttpTargetOidcTokenOutputReference) va
 	return nil
 }
 
-func (j *jsiiProxy_GoogleCloudSchedulerJobHttpTargetOidcTokenOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleCloudSchedulerJobHttpTargetOidcTokenOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleCloudSchedulerJobHttpTargetOidcTokenOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleCloudSchedulerJobHttpTargetOidcTokenOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

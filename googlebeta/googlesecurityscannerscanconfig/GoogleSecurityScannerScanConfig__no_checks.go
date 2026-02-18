@@ -127,7 +127,7 @@ func (j *jsiiProxy_GoogleSecurityScannerScanConfig) validateSetIdParameters(val 
 	return nil
 }
 
-func (j *jsiiProxy_GoogleSecurityScannerScanConfig) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleSecurityScannerScanConfig) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

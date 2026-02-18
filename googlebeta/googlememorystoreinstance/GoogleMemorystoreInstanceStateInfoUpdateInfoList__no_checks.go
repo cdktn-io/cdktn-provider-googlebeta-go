@@ -15,7 +15,7 @@ func (g *jsiiProxy_GoogleMemorystoreInstanceStateInfoUpdateInfoList) validateGet
 	return nil
 }
 
-func (g *jsiiProxy_GoogleMemorystoreInstanceStateInfoUpdateInfoList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleMemorystoreInstanceStateInfoUpdateInfoList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_GoogleMemorystoreInstanceStateInfoUpdateInfoList) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_GoogleMemorystoreInstanceStateInfoUpdateInfoList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleMemorystoreInstanceStateInfoUpdateInfoList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_GoogleMemorystoreInstanceStateInfoUpdateInfoList) validateSet
 	return nil
 }
 
-func validateNewGoogleMemorystoreInstanceStateInfoUpdateInfoListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGoogleMemorystoreInstanceStateInfoUpdateInfoListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

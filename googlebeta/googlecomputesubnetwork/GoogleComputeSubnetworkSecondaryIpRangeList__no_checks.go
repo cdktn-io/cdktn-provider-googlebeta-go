@@ -15,7 +15,7 @@ func (g *jsiiProxy_GoogleComputeSubnetworkSecondaryIpRangeList) validateGetParam
 	return nil
 }
 
-func (g *jsiiProxy_GoogleComputeSubnetworkSecondaryIpRangeList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleComputeSubnetworkSecondaryIpRangeList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_GoogleComputeSubnetworkSecondaryIpRangeList) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_GoogleComputeSubnetworkSecondaryIpRangeList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleComputeSubnetworkSecondaryIpRangeList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_GoogleComputeSubnetworkSecondaryIpRangeList) validateSetWraps
 	return nil
 }
 
-func validateNewGoogleComputeSubnetworkSecondaryIpRangeListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGoogleComputeSubnetworkSecondaryIpRangeListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

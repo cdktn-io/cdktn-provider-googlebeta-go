@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleCloudfunctionsFunctionEventTriggerFailurePolicyOutputRe
 	return nil
 }
 
-func (g *jsiiProxy_GoogleCloudfunctionsFunctionEventTriggerFailurePolicyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleCloudfunctionsFunctionEventTriggerFailurePolicyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_GoogleCloudfunctionsFunctionEventTriggerFailurePolicyOutputRe
 	return nil
 }
 
-func (j *jsiiProxy_GoogleCloudfunctionsFunctionEventTriggerFailurePolicyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleCloudfunctionsFunctionEventTriggerFailurePolicyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleCloudfunctionsFunctionEventTriggerFailurePolicyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleCloudfunctionsFunctionEventTriggerFailurePolicyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

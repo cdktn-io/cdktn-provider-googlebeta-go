@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleClouddeployTargetAssociatedEntitiesGkeClustersOutputRef
 	return nil
 }
 
-func (g *jsiiProxy_GoogleClouddeployTargetAssociatedEntitiesGkeClustersOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleClouddeployTargetAssociatedEntitiesGkeClustersOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_GoogleClouddeployTargetAssociatedEntitiesGkeClustersOutputRef
 	return nil
 }
 
-func (j *jsiiProxy_GoogleClouddeployTargetAssociatedEntitiesGkeClustersOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleClouddeployTargetAssociatedEntitiesGkeClustersOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleClouddeployTargetAssociatedEntitiesGkeClustersOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewGoogleClouddeployTargetAssociatedEntitiesGkeClustersOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

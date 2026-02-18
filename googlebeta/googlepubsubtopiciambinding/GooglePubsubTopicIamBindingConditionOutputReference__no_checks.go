@@ -47,7 +47,7 @@ func (g *jsiiProxy_GooglePubsubTopicIamBindingConditionOutputReference) validate
 	return nil
 }
 
-func (g *jsiiProxy_GooglePubsubTopicIamBindingConditionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GooglePubsubTopicIamBindingConditionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_GooglePubsubTopicIamBindingConditionOutputReference) validate
 	return nil
 }
 
-func (j *jsiiProxy_GooglePubsubTopicIamBindingConditionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GooglePubsubTopicIamBindingConditionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_GooglePubsubTopicIamBindingConditionOutputReference) validate
 	return nil
 }
 
-func validateNewGooglePubsubTopicIamBindingConditionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGooglePubsubTopicIamBindingConditionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

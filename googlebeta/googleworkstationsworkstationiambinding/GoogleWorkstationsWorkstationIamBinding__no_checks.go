@@ -107,7 +107,7 @@ func (j *jsiiProxy_GoogleWorkstationsWorkstationIamBinding) validateSetIdParamet
 	return nil
 }
 
-func (j *jsiiProxy_GoogleWorkstationsWorkstationIamBinding) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleWorkstationsWorkstationIamBinding) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

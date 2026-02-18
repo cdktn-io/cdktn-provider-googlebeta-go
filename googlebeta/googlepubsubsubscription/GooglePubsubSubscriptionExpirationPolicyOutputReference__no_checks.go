@@ -47,7 +47,7 @@ func (g *jsiiProxy_GooglePubsubSubscriptionExpirationPolicyOutputReference) vali
 	return nil
 }
 
-func (g *jsiiProxy_GooglePubsubSubscriptionExpirationPolicyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GooglePubsubSubscriptionExpirationPolicyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,7 +67,7 @@ func (j *jsiiProxy_GooglePubsubSubscriptionExpirationPolicyOutputReference) vali
 	return nil
 }
 
-func (j *jsiiProxy_GooglePubsubSubscriptionExpirationPolicyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GooglePubsubSubscriptionExpirationPolicyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_GooglePubsubSubscriptionExpirationPolicyOutputReference) vali
 	return nil
 }
 
-func validateNewGooglePubsubSubscriptionExpirationPolicyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGooglePubsubSubscriptionExpirationPolicyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

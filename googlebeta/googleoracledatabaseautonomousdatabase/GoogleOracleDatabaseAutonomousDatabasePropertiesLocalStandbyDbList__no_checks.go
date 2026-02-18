@@ -15,7 +15,7 @@ func (g *jsiiProxy_GoogleOracleDatabaseAutonomousDatabasePropertiesLocalStandbyD
 	return nil
 }
 
-func (g *jsiiProxy_GoogleOracleDatabaseAutonomousDatabasePropertiesLocalStandbyDbList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleOracleDatabaseAutonomousDatabasePropertiesLocalStandbyDbList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_GoogleOracleDatabaseAutonomousDatabasePropertiesLocalStandbyD
 	return nil
 }
 
-func (j *jsiiProxy_GoogleOracleDatabaseAutonomousDatabasePropertiesLocalStandbyDbList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleOracleDatabaseAutonomousDatabasePropertiesLocalStandbyDbList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_GoogleOracleDatabaseAutonomousDatabasePropertiesLocalStandbyD
 	return nil
 }
 
-func validateNewGoogleOracleDatabaseAutonomousDatabasePropertiesLocalStandbyDbListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGoogleOracleDatabaseAutonomousDatabasePropertiesLocalStandbyDbListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

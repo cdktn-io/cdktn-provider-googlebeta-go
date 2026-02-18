@@ -15,7 +15,7 @@ func (g *jsiiProxy_GoogleDiscoveryEngineChatEngineChatEngineMetadataList) valida
 	return nil
 }
 
-func (g *jsiiProxy_GoogleDiscoveryEngineChatEngineChatEngineMetadataList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleDiscoveryEngineChatEngineChatEngineMetadataList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_GoogleDiscoveryEngineChatEngineChatEngineMetadataList) valida
 	return nil
 }
 
-func (j *jsiiProxy_GoogleDiscoveryEngineChatEngineChatEngineMetadataList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleDiscoveryEngineChatEngineChatEngineMetadataList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_GoogleDiscoveryEngineChatEngineChatEngineMetadataList) valida
 	return nil
 }
 
-func validateNewGoogleDiscoveryEngineChatEngineChatEngineMetadataListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewGoogleDiscoveryEngineChatEngineChatEngineMetadataListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

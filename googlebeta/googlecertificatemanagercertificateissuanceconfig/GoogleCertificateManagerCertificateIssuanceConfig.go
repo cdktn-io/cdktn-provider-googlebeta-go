@@ -5,18 +5,18 @@ package googlecertificatemanagercertificateissuanceconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlecertificatemanagercertificateissuanceconfig/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlecertificatemanagercertificateissuanceconfig/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_certificate_manager_certificate_issuance_config google_certificate_manager_certificate_issuance_config}.
 type GoogleCertificateManagerCertificateIssuanceConfig interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	CertificateAuthorityConfig() GoogleCertificateManagerCertificateIssuanceConfigCertificateAuthorityConfigOutputReference
 	CertificateAuthorityConfigInput() *GoogleCertificateManagerCertificateIssuanceConfigCertificateAuthorityConfig
 	// Experimental.
@@ -37,11 +37,11 @@ type GoogleCertificateManagerCertificateIssuanceConfig interface {
 	Description() *string
 	SetDescription(val *string)
 	DescriptionInput() *string
-	EffectiveLabels() cdktf.StringMap
+	EffectiveLabels() cdktn.StringMap
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -56,9 +56,9 @@ type GoogleCertificateManagerCertificateIssuanceConfig interface {
 	SetLabels(val *map[string]*string)
 	LabelsInput() *map[string]*string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Lifetime() *string
 	SetLifetime(val *string)
 	LifetimeInput() *string
@@ -74,9 +74,9 @@ type GoogleCertificateManagerCertificateIssuanceConfig interface {
 	SetProject(val *string)
 	ProjectInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -87,8 +87,8 @@ type GoogleCertificateManagerCertificateIssuanceConfig interface {
 	SetRotationWindowPercentage(val *float64)
 	RotationWindowPercentageInput() *float64
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
-	TerraformLabels() cdktf.StringMap
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
+	TerraformLabels() cdktn.StringMap
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -104,7 +104,7 @@ type GoogleCertificateManagerCertificateIssuanceConfig interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -122,9 +122,9 @@ type GoogleCertificateManagerCertificateIssuanceConfig interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -165,11 +165,11 @@ type GoogleCertificateManagerCertificateIssuanceConfig interface {
 
 // The jsii proxy struct for GoogleCertificateManagerCertificateIssuanceConfig
 type jsiiProxy_GoogleCertificateManagerCertificateIssuanceConfig struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
-func (j *jsiiProxy_GoogleCertificateManagerCertificateIssuanceConfig) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_GoogleCertificateManagerCertificateIssuanceConfig) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -268,8 +268,8 @@ func (j *jsiiProxy_GoogleCertificateManagerCertificateIssuanceConfig) Descriptio
 	return returns
 }
 
-func (j *jsiiProxy_GoogleCertificateManagerCertificateIssuanceConfig) EffectiveLabels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_GoogleCertificateManagerCertificateIssuanceConfig) EffectiveLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"effectiveLabels",
@@ -278,8 +278,8 @@ func (j *jsiiProxy_GoogleCertificateManagerCertificateIssuanceConfig) EffectiveL
 	return returns
 }
 
-func (j *jsiiProxy_GoogleCertificateManagerCertificateIssuanceConfig) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_GoogleCertificateManagerCertificateIssuanceConfig) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -368,8 +368,8 @@ func (j *jsiiProxy_GoogleCertificateManagerCertificateIssuanceConfig) LabelsInpu
 	return returns
 }
 
-func (j *jsiiProxy_GoogleCertificateManagerCertificateIssuanceConfig) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_GoogleCertificateManagerCertificateIssuanceConfig) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -468,8 +468,8 @@ func (j *jsiiProxy_GoogleCertificateManagerCertificateIssuanceConfig) ProjectInp
 	return returns
 }
 
-func (j *jsiiProxy_GoogleCertificateManagerCertificateIssuanceConfig) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_GoogleCertificateManagerCertificateIssuanceConfig) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -518,8 +518,8 @@ func (j *jsiiProxy_GoogleCertificateManagerCertificateIssuanceConfig) RotationWi
 	return returns
 }
 
-func (j *jsiiProxy_GoogleCertificateManagerCertificateIssuanceConfig) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_GoogleCertificateManagerCertificateIssuanceConfig) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -528,8 +528,8 @@ func (j *jsiiProxy_GoogleCertificateManagerCertificateIssuanceConfig) TerraformG
 	return returns
 }
 
-func (j *jsiiProxy_GoogleCertificateManagerCertificateIssuanceConfig) TerraformLabels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_GoogleCertificateManagerCertificateIssuanceConfig) TerraformLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"terraformLabels",
@@ -659,7 +659,7 @@ func (j *jsiiProxy_GoogleCertificateManagerCertificateIssuanceConfig)SetDescript
 	)
 }
 
-func (j *jsiiProxy_GoogleCertificateManagerCertificateIssuanceConfig)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_GoogleCertificateManagerCertificateIssuanceConfig)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -700,7 +700,7 @@ func (j *jsiiProxy_GoogleCertificateManagerCertificateIssuanceConfig)SetLabels(v
 	)
 }
 
-func (j *jsiiProxy_GoogleCertificateManagerCertificateIssuanceConfig)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_GoogleCertificateManagerCertificateIssuanceConfig)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -755,7 +755,7 @@ func (j *jsiiProxy_GoogleCertificateManagerCertificateIssuanceConfig)SetProject(
 	)
 }
 
-func (j *jsiiProxy_GoogleCertificateManagerCertificateIssuanceConfig)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_GoogleCertificateManagerCertificateIssuanceConfig)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -785,14 +785,14 @@ func (j *jsiiProxy_GoogleCertificateManagerCertificateIssuanceConfig)SetRotation
 	)
 }
 
-// Generates CDKTF code for importing a GoogleCertificateManagerCertificateIssuanceConfig resource upon running "cdktf plan <stack-name>".
-func GoogleCertificateManagerCertificateIssuanceConfig_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a GoogleCertificateManagerCertificateIssuanceConfig resource upon running "cdktn plan <stack-name>".
+func GoogleCertificateManagerCertificateIssuanceConfig_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateGoogleCertificateManagerCertificateIssuanceConfig_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google-beta.googleCertificateManagerCertificateIssuanceConfig.GoogleCertificateManagerCertificateIssuanceConfig",
@@ -926,11 +926,11 @@ func (g *jsiiProxy_GoogleCertificateManagerCertificateIssuanceConfig) GetAnyMapA
 	return returns
 }
 
-func (g *jsiiProxy_GoogleCertificateManagerCertificateIssuanceConfig) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleCertificateManagerCertificateIssuanceConfig) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -1067,7 +1067,7 @@ func (g *jsiiProxy_GoogleCertificateManagerCertificateIssuanceConfig) HasResourc
 	return returns
 }
 
-func (g *jsiiProxy_GoogleCertificateManagerCertificateIssuanceConfig) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (g *jsiiProxy_GoogleCertificateManagerCertificateIssuanceConfig) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := g.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1078,11 +1078,11 @@ func (g *jsiiProxy_GoogleCertificateManagerCertificateIssuanceConfig) ImportFrom
 	)
 }
 
-func (g *jsiiProxy_GoogleCertificateManagerCertificateIssuanceConfig) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleCertificateManagerCertificateIssuanceConfig) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,

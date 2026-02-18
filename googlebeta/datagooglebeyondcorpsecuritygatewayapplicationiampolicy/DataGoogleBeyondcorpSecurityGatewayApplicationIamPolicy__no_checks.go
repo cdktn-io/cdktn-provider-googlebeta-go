@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataGoogleBeyondcorpSecurityGatewayApplicationIamPolicy) vali
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleBeyondcorpSecurityGatewayApplicationIamPolicy) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataGoogleBeyondcorpSecurityGatewayApplicationIamPolicy) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

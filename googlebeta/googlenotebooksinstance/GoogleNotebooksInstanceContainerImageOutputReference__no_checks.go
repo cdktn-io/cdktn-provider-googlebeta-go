@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleNotebooksInstanceContainerImageOutputReference) validat
 	return nil
 }
 
-func (g *jsiiProxy_GoogleNotebooksInstanceContainerImageOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleNotebooksInstanceContainerImageOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_GoogleNotebooksInstanceContainerImageOutputReference) validat
 	return nil
 }
 
-func (j *jsiiProxy_GoogleNotebooksInstanceContainerImageOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleNotebooksInstanceContainerImageOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleNotebooksInstanceContainerImageOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleNotebooksInstanceContainerImageOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

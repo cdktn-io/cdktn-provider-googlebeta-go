@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleDialogflowEncryptionSpecTimeoutsOutputReference) valida
 	return nil
 }
 
-func (g *jsiiProxy_GoogleDialogflowEncryptionSpecTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleDialogflowEncryptionSpecTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_GoogleDialogflowEncryptionSpecTimeoutsOutputReference) valida
 	return nil
 }
 
-func (j *jsiiProxy_GoogleDialogflowEncryptionSpecTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleDialogflowEncryptionSpecTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleDialogflowEncryptionSpecTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleDialogflowEncryptionSpecTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

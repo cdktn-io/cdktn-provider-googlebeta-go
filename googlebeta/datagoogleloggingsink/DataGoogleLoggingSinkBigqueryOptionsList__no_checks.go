@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataGoogleLoggingSinkBigqueryOptionsList) validateGetParamete
 	return nil
 }
 
-func (d *jsiiProxy_DataGoogleLoggingSinkBigqueryOptionsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataGoogleLoggingSinkBigqueryOptionsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataGoogleLoggingSinkBigqueryOptionsList) validateSetTerrafor
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleLoggingSinkBigqueryOptionsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataGoogleLoggingSinkBigqueryOptionsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataGoogleLoggingSinkBigqueryOptionsList) validateSetWrapsSet
 	return nil
 }
 
-func validateNewDataGoogleLoggingSinkBigqueryOptionsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataGoogleLoggingSinkBigqueryOptionsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

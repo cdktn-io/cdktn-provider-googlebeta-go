@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleGkeBackupBackupPlanRetentionPolicyOutputReference) vali
 	return nil
 }
 
-func (g *jsiiProxy_GoogleGkeBackupBackupPlanRetentionPolicyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleGkeBackupBackupPlanRetentionPolicyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_GoogleGkeBackupBackupPlanRetentionPolicyOutputReference) vali
 	return nil
 }
 
-func (j *jsiiProxy_GoogleGkeBackupBackupPlanRetentionPolicyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleGkeBackupBackupPlanRetentionPolicyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleGkeBackupBackupPlanRetentionPolicyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleGkeBackupBackupPlanRetentionPolicyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

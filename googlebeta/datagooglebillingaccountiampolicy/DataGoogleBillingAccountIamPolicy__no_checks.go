@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataGoogleBillingAccountIamPolicy) validateSetIdParameters(va
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleBillingAccountIamPolicy) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataGoogleBillingAccountIamPolicy) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -5,21 +5,21 @@ package googlefirebaseappcheckdevicecheckconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googlefirebaseappcheckdevicecheckconfig/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlefirebaseappcheckdevicecheckconfig/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_firebase_app_check_device_check_config google_firebase_app_check_device_check_config}.
 type GoogleFirebaseAppCheckDeviceCheckConfig interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	AppId() *string
 	SetAppId(val *string)
 	AppIdInput() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -35,9 +35,9 @@ type GoogleFirebaseAppCheckDeviceCheckConfig interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -49,23 +49,23 @@ type GoogleFirebaseAppCheckDeviceCheckConfig interface {
 	SetKeyId(val *string)
 	KeyIdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Name() *string
 	// The tree node.
 	Node() constructs.Node
 	PrivateKey() *string
 	SetPrivateKey(val *string)
 	PrivateKeyInput() *string
-	PrivateKeySet() cdktf.IResolvable
+	PrivateKeySet() cdktn.IResolvable
 	Project() *string
 	SetProject(val *string)
 	ProjectInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -73,7 +73,7 @@ type GoogleFirebaseAppCheckDeviceCheckConfig interface {
 	// Experimental.
 	RawOverrides() interface{}
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -91,7 +91,7 @@ type GoogleFirebaseAppCheckDeviceCheckConfig interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -109,9 +109,9 @@ type GoogleFirebaseAppCheckDeviceCheckConfig interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -149,7 +149,7 @@ type GoogleFirebaseAppCheckDeviceCheckConfig interface {
 
 // The jsii proxy struct for GoogleFirebaseAppCheckDeviceCheckConfig
 type jsiiProxy_GoogleFirebaseAppCheckDeviceCheckConfig struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_GoogleFirebaseAppCheckDeviceCheckConfig) AppId() *string {
@@ -172,8 +172,8 @@ func (j *jsiiProxy_GoogleFirebaseAppCheckDeviceCheckConfig) AppIdInput() *string
 	return returns
 }
 
-func (j *jsiiProxy_GoogleFirebaseAppCheckDeviceCheckConfig) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_GoogleFirebaseAppCheckDeviceCheckConfig) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -222,8 +222,8 @@ func (j *jsiiProxy_GoogleFirebaseAppCheckDeviceCheckConfig) DependsOn() *[]*stri
 	return returns
 }
 
-func (j *jsiiProxy_GoogleFirebaseAppCheckDeviceCheckConfig) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_GoogleFirebaseAppCheckDeviceCheckConfig) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -292,8 +292,8 @@ func (j *jsiiProxy_GoogleFirebaseAppCheckDeviceCheckConfig) KeyIdInput() *string
 	return returns
 }
 
-func (j *jsiiProxy_GoogleFirebaseAppCheckDeviceCheckConfig) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_GoogleFirebaseAppCheckDeviceCheckConfig) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -342,8 +342,8 @@ func (j *jsiiProxy_GoogleFirebaseAppCheckDeviceCheckConfig) PrivateKeyInput() *s
 	return returns
 }
 
-func (j *jsiiProxy_GoogleFirebaseAppCheckDeviceCheckConfig) PrivateKeySet() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_GoogleFirebaseAppCheckDeviceCheckConfig) PrivateKeySet() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"privateKeySet",
@@ -372,8 +372,8 @@ func (j *jsiiProxy_GoogleFirebaseAppCheckDeviceCheckConfig) ProjectInput() *stri
 	return returns
 }
 
-func (j *jsiiProxy_GoogleFirebaseAppCheckDeviceCheckConfig) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_GoogleFirebaseAppCheckDeviceCheckConfig) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -402,8 +402,8 @@ func (j *jsiiProxy_GoogleFirebaseAppCheckDeviceCheckConfig) RawOverrides() inter
 	return returns
 }
 
-func (j *jsiiProxy_GoogleFirebaseAppCheckDeviceCheckConfig) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_GoogleFirebaseAppCheckDeviceCheckConfig) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -543,7 +543,7 @@ func (j *jsiiProxy_GoogleFirebaseAppCheckDeviceCheckConfig)SetDependsOn(val *[]*
 	)
 }
 
-func (j *jsiiProxy_GoogleFirebaseAppCheckDeviceCheckConfig)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_GoogleFirebaseAppCheckDeviceCheckConfig)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -573,7 +573,7 @@ func (j *jsiiProxy_GoogleFirebaseAppCheckDeviceCheckConfig)SetKeyId(val *string)
 	)
 }
 
-func (j *jsiiProxy_GoogleFirebaseAppCheckDeviceCheckConfig)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_GoogleFirebaseAppCheckDeviceCheckConfig)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -606,7 +606,7 @@ func (j *jsiiProxy_GoogleFirebaseAppCheckDeviceCheckConfig)SetProject(val *strin
 	)
 }
 
-func (j *jsiiProxy_GoogleFirebaseAppCheckDeviceCheckConfig)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_GoogleFirebaseAppCheckDeviceCheckConfig)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -636,14 +636,14 @@ func (j *jsiiProxy_GoogleFirebaseAppCheckDeviceCheckConfig)SetTokenTtl(val *stri
 	)
 }
 
-// Generates CDKTF code for importing a GoogleFirebaseAppCheckDeviceCheckConfig resource upon running "cdktf plan <stack-name>".
-func GoogleFirebaseAppCheckDeviceCheckConfig_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a GoogleFirebaseAppCheckDeviceCheckConfig resource upon running "cdktn plan <stack-name>".
+func GoogleFirebaseAppCheckDeviceCheckConfig_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateGoogleFirebaseAppCheckDeviceCheckConfig_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google-beta.googleFirebaseAppCheckDeviceCheckConfig.GoogleFirebaseAppCheckDeviceCheckConfig",
@@ -777,11 +777,11 @@ func (g *jsiiProxy_GoogleFirebaseAppCheckDeviceCheckConfig) GetAnyMapAttribute(t
 	return returns
 }
 
-func (g *jsiiProxy_GoogleFirebaseAppCheckDeviceCheckConfig) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleFirebaseAppCheckDeviceCheckConfig) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -918,7 +918,7 @@ func (g *jsiiProxy_GoogleFirebaseAppCheckDeviceCheckConfig) HasResourceMove() in
 	return returns
 }
 
-func (g *jsiiProxy_GoogleFirebaseAppCheckDeviceCheckConfig) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (g *jsiiProxy_GoogleFirebaseAppCheckDeviceCheckConfig) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := g.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -929,11 +929,11 @@ func (g *jsiiProxy_GoogleFirebaseAppCheckDeviceCheckConfig) ImportFrom(id *strin
 	)
 }
 
-func (g *jsiiProxy_GoogleFirebaseAppCheckDeviceCheckConfig) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleFirebaseAppCheckDeviceCheckConfig) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,

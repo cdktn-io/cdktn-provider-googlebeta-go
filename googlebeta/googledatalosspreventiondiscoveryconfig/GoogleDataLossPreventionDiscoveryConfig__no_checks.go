@@ -127,7 +127,7 @@ func (j *jsiiProxy_GoogleDataLossPreventionDiscoveryConfig) validateSetInspectTe
 	return nil
 }
 
-func (j *jsiiProxy_GoogleDataLossPreventionDiscoveryConfig) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleDataLossPreventionDiscoveryConfig) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

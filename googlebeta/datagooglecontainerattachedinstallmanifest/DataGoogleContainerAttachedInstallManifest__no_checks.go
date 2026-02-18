@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataGoogleContainerAttachedInstallManifest) validateSetIdPara
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleContainerAttachedInstallManifest) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataGoogleContainerAttachedInstallManifest) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

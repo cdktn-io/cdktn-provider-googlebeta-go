@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (g *jsiiProxy_GoogleComputeUrlMapPathMatcherOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -142,7 +142,7 @@ func (g *jsiiProxy_GoogleComputeUrlMapPathMatcherOutputReference) validatePutPat
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*GoogleComputeUrlMapPathMatcherPathRule:
 		value := value.(*[]*GoogleComputeUrlMapPathMatcherPathRule)
@@ -161,7 +161,7 @@ func (g *jsiiProxy_GoogleComputeUrlMapPathMatcherOutputReference) validatePutPat
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*GoogleComputeUrlMapPathMatcherPathRule; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*GoogleComputeUrlMapPathMatcherPathRule; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -173,7 +173,7 @@ func (g *jsiiProxy_GoogleComputeUrlMapPathMatcherOutputReference) validatePutRou
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*GoogleComputeUrlMapPathMatcherRouteRules:
 		value := value.(*[]*GoogleComputeUrlMapPathMatcherRouteRules)
@@ -192,14 +192,14 @@ func (g *jsiiProxy_GoogleComputeUrlMapPathMatcherOutputReference) validatePutRou
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*GoogleComputeUrlMapPathMatcherRouteRules; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*GoogleComputeUrlMapPathMatcherRouteRules; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (g *jsiiProxy_GoogleComputeUrlMapPathMatcherOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleComputeUrlMapPathMatcherOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -290,7 +290,7 @@ func (j *jsiiProxy_GoogleComputeUrlMapPathMatcherOutputReference) validateSetDes
 
 func (j *jsiiProxy_GoogleComputeUrlMapPathMatcherOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *GoogleComputeUrlMapPathMatcher:
 		val := val.(*GoogleComputeUrlMapPathMatcher)
@@ -305,7 +305,7 @@ func (j *jsiiProxy_GoogleComputeUrlMapPathMatcherOutputReference) validateSetInt
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *GoogleComputeUrlMapPathMatcher; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *GoogleComputeUrlMapPathMatcher; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -328,7 +328,7 @@ func (j *jsiiProxy_GoogleComputeUrlMapPathMatcherOutputReference) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_GoogleComputeUrlMapPathMatcherOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleComputeUrlMapPathMatcherOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -336,7 +336,7 @@ func (j *jsiiProxy_GoogleComputeUrlMapPathMatcherOutputReference) validateSetTer
 	return nil
 }
 
-func validateNewGoogleComputeUrlMapPathMatcherOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewGoogleComputeUrlMapPathMatcherOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

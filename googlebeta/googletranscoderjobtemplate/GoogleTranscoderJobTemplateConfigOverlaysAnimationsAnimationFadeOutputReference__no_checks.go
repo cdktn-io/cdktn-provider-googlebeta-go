@@ -51,7 +51,7 @@ func (g *jsiiProxy_GoogleTranscoderJobTemplateConfigOverlaysAnimationsAnimationF
 	return nil
 }
 
-func (g *jsiiProxy_GoogleTranscoderJobTemplateConfigOverlaysAnimationsAnimationFadeOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GoogleTranscoderJobTemplateConfigOverlaysAnimationsAnimationFadeOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_GoogleTranscoderJobTemplateConfigOverlaysAnimationsAnimationF
 	return nil
 }
 
-func (j *jsiiProxy_GoogleTranscoderJobTemplateConfigOverlaysAnimationsAnimationFadeOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GoogleTranscoderJobTemplateConfigOverlaysAnimationsAnimationFadeOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewGoogleTranscoderJobTemplateConfigOverlaysAnimationsAnimationFadeOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleTranscoderJobTemplateConfigOverlaysAnimationsAnimationFadeOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

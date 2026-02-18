@@ -123,7 +123,7 @@ func (j *jsiiProxy_GoogleEdgenetworkInterconnectAttachment) validateSetLabelsPar
 	return nil
 }
 
-func (j *jsiiProxy_GoogleEdgenetworkInterconnectAttachment) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleEdgenetworkInterconnectAttachment) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -131,7 +131,7 @@ func (j *jsiiProxy_GoogleNetworkManagementVpcFlowLogsConfig) validateSetLabelsPa
 	return nil
 }
 
-func (j *jsiiProxy_GoogleNetworkManagementVpcFlowLogsConfig) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleNetworkManagementVpcFlowLogsConfig) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

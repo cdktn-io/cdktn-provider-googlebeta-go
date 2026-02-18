@@ -5,16 +5,16 @@ package googledataprocgdcapplicationenvironment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v16/googledataprocgdcapplicationenvironment/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googledataprocgdcapplicationenvironment/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_gdc_application_environment google_dataproc_gdc_application_environment}.
 type GoogleDataprocGdcApplicationEnvironment interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	Annotations() *map[string]*string
 	SetAnnotations(val *map[string]*string)
 	AnnotationsInput() *map[string]*string
@@ -22,7 +22,7 @@ type GoogleDataprocGdcApplicationEnvironment interface {
 	SetApplicationEnvironmentId(val *string)
 	ApplicationEnvironmentIdInput() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -41,12 +41,12 @@ type GoogleDataprocGdcApplicationEnvironment interface {
 	DisplayName() *string
 	SetDisplayName(val *string)
 	DisplayNameInput() *string
-	EffectiveAnnotations() cdktf.StringMap
-	EffectiveLabels() cdktf.StringMap
+	EffectiveAnnotations() cdktn.StringMap
+	EffectiveLabels() cdktn.StringMap
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -58,9 +58,9 @@ type GoogleDataprocGdcApplicationEnvironment interface {
 	SetLabels(val *map[string]*string)
 	LabelsInput() *map[string]*string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Location() *string
 	SetLocation(val *string)
 	LocationInput() *string
@@ -74,9 +74,9 @@ type GoogleDataprocGdcApplicationEnvironment interface {
 	SetProject(val *string)
 	ProjectInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -89,8 +89,8 @@ type GoogleDataprocGdcApplicationEnvironment interface {
 	SparkApplicationEnvironmentConfig() GoogleDataprocGdcApplicationEnvironmentSparkApplicationEnvironmentConfigOutputReference
 	SparkApplicationEnvironmentConfigInput() *GoogleDataprocGdcApplicationEnvironmentSparkApplicationEnvironmentConfig
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
-	TerraformLabels() cdktf.StringMap
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
+	TerraformLabels() cdktn.StringMap
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -107,7 +107,7 @@ type GoogleDataprocGdcApplicationEnvironment interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -125,9 +125,9 @@ type GoogleDataprocGdcApplicationEnvironment interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -171,7 +171,7 @@ type GoogleDataprocGdcApplicationEnvironment interface {
 
 // The jsii proxy struct for GoogleDataprocGdcApplicationEnvironment
 type jsiiProxy_GoogleDataprocGdcApplicationEnvironment struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_GoogleDataprocGdcApplicationEnvironment) Annotations() *map[string]*string {
@@ -214,8 +214,8 @@ func (j *jsiiProxy_GoogleDataprocGdcApplicationEnvironment) ApplicationEnvironme
 	return returns
 }
 
-func (j *jsiiProxy_GoogleDataprocGdcApplicationEnvironment) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_GoogleDataprocGdcApplicationEnvironment) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -294,8 +294,8 @@ func (j *jsiiProxy_GoogleDataprocGdcApplicationEnvironment) DisplayNameInput() *
 	return returns
 }
 
-func (j *jsiiProxy_GoogleDataprocGdcApplicationEnvironment) EffectiveAnnotations() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_GoogleDataprocGdcApplicationEnvironment) EffectiveAnnotations() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"effectiveAnnotations",
@@ -304,8 +304,8 @@ func (j *jsiiProxy_GoogleDataprocGdcApplicationEnvironment) EffectiveAnnotations
 	return returns
 }
 
-func (j *jsiiProxy_GoogleDataprocGdcApplicationEnvironment) EffectiveLabels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_GoogleDataprocGdcApplicationEnvironment) EffectiveLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"effectiveLabels",
@@ -314,8 +314,8 @@ func (j *jsiiProxy_GoogleDataprocGdcApplicationEnvironment) EffectiveLabels() cd
 	return returns
 }
 
-func (j *jsiiProxy_GoogleDataprocGdcApplicationEnvironment) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_GoogleDataprocGdcApplicationEnvironment) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -384,8 +384,8 @@ func (j *jsiiProxy_GoogleDataprocGdcApplicationEnvironment) LabelsInput() *map[s
 	return returns
 }
 
-func (j *jsiiProxy_GoogleDataprocGdcApplicationEnvironment) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_GoogleDataprocGdcApplicationEnvironment) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -474,8 +474,8 @@ func (j *jsiiProxy_GoogleDataprocGdcApplicationEnvironment) ProjectInput() *stri
 	return returns
 }
 
-func (j *jsiiProxy_GoogleDataprocGdcApplicationEnvironment) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_GoogleDataprocGdcApplicationEnvironment) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -544,8 +544,8 @@ func (j *jsiiProxy_GoogleDataprocGdcApplicationEnvironment) SparkApplicationEnvi
 	return returns
 }
 
-func (j *jsiiProxy_GoogleDataprocGdcApplicationEnvironment) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_GoogleDataprocGdcApplicationEnvironment) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -554,8 +554,8 @@ func (j *jsiiProxy_GoogleDataprocGdcApplicationEnvironment) TerraformGeneratorMe
 	return returns
 }
 
-func (j *jsiiProxy_GoogleDataprocGdcApplicationEnvironment) TerraformLabels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_GoogleDataprocGdcApplicationEnvironment) TerraformLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"terraformLabels",
@@ -717,7 +717,7 @@ func (j *jsiiProxy_GoogleDataprocGdcApplicationEnvironment)SetDisplayName(val *s
 	)
 }
 
-func (j *jsiiProxy_GoogleDataprocGdcApplicationEnvironment)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_GoogleDataprocGdcApplicationEnvironment)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -747,7 +747,7 @@ func (j *jsiiProxy_GoogleDataprocGdcApplicationEnvironment)SetLabels(val *map[st
 	)
 }
 
-func (j *jsiiProxy_GoogleDataprocGdcApplicationEnvironment)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_GoogleDataprocGdcApplicationEnvironment)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -791,7 +791,7 @@ func (j *jsiiProxy_GoogleDataprocGdcApplicationEnvironment)SetProject(val *strin
 	)
 }
 
-func (j *jsiiProxy_GoogleDataprocGdcApplicationEnvironment)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_GoogleDataprocGdcApplicationEnvironment)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -821,14 +821,14 @@ func (j *jsiiProxy_GoogleDataprocGdcApplicationEnvironment)SetServiceinstance(va
 	)
 }
 
-// Generates CDKTF code for importing a GoogleDataprocGdcApplicationEnvironment resource upon running "cdktf plan <stack-name>".
-func GoogleDataprocGdcApplicationEnvironment_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a GoogleDataprocGdcApplicationEnvironment resource upon running "cdktn plan <stack-name>".
+func GoogleDataprocGdcApplicationEnvironment_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateGoogleDataprocGdcApplicationEnvironment_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-google-beta.googleDataprocGdcApplicationEnvironment.GoogleDataprocGdcApplicationEnvironment",
@@ -962,11 +962,11 @@ func (g *jsiiProxy_GoogleDataprocGdcApplicationEnvironment) GetAnyMapAttribute(t
 	return returns
 }
 
-func (g *jsiiProxy_GoogleDataprocGdcApplicationEnvironment) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleDataprocGdcApplicationEnvironment) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,
@@ -1103,7 +1103,7 @@ func (g *jsiiProxy_GoogleDataprocGdcApplicationEnvironment) HasResourceMove() in
 	return returns
 }
 
-func (g *jsiiProxy_GoogleDataprocGdcApplicationEnvironment) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (g *jsiiProxy_GoogleDataprocGdcApplicationEnvironment) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := g.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1114,11 +1114,11 @@ func (g *jsiiProxy_GoogleDataprocGdcApplicationEnvironment) ImportFrom(id *strin
 	)
 }
 
-func (g *jsiiProxy_GoogleDataprocGdcApplicationEnvironment) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (g *jsiiProxy_GoogleDataprocGdcApplicationEnvironment) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := g.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		g,

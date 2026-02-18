@@ -111,7 +111,7 @@ func (j *jsiiProxy_GoogleGeminiReleaseChannelSettingBinding) validateSetLabelsPa
 	return nil
 }
 
-func (j *jsiiProxy_GoogleGeminiReleaseChannelSettingBinding) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GoogleGeminiReleaseChannelSettingBinding) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 
