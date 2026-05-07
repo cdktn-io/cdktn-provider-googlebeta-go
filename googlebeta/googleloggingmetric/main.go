@@ -92,6 +92,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "valueExtractor", GoGetter: "ValueExtractor"},
 			_jsii_.MemberProperty{JsiiProperty: "valueExtractorInput", GoGetter: "ValueExtractorInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_GoogleLoggingMetric{}

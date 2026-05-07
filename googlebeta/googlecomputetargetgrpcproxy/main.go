@@ -80,6 +80,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "urlMapInput", GoGetter: "UrlMapInput"},
 			_jsii_.MemberProperty{JsiiProperty: "validateForProxyless", GoGetter: "ValidateForProxyless"},
 			_jsii_.MemberProperty{JsiiProperty: "validateForProxylessInput", GoGetter: "ValidateForProxylessInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_GoogleComputeTargetGrpcProxy{}

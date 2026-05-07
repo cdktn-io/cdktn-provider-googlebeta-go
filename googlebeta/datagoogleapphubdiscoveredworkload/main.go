@@ -56,6 +56,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toMetadata", GoMethod: "ToMetadata"},
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 			_jsii_.MemberProperty{JsiiProperty: "workloadProperties", GoGetter: "WorkloadProperties"},
 			_jsii_.MemberProperty{JsiiProperty: "workloadReference", GoGetter: "WorkloadReference"},
 			_jsii_.MemberProperty{JsiiProperty: "workloadUri", GoGetter: "WorkloadUri"},

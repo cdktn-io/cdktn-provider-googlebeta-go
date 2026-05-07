@@ -92,6 +92,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "vaultNameInput", GoGetter: "VaultNameInput"},
 			_jsii_.MemberProperty{JsiiProperty: "volumeRegion", GoGetter: "VolumeRegion"},
 			_jsii_.MemberProperty{JsiiProperty: "volumeUsageBytes", GoGetter: "VolumeUsageBytes"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_GoogleNetappBackup{}

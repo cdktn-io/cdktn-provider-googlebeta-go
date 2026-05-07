@@ -96,6 +96,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "transferSpec", GoGetter: "TransferSpec"},
 			_jsii_.MemberProperty{JsiiProperty: "transferSpecInput", GoGetter: "TransferSpecInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_GoogleStorageTransferJob{}

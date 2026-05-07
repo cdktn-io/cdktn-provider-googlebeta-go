@@ -151,6 +151,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "unixPermissions", GoGetter: "UnixPermissions"},
 			_jsii_.MemberProperty{JsiiProperty: "unixPermissionsInput", GoGetter: "UnixPermissionsInput"},
 			_jsii_.MemberProperty{JsiiProperty: "usedGib", GoGetter: "UsedGib"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 			_jsii_.MemberProperty{JsiiProperty: "zone", GoGetter: "Zone"},
 		},
 		func() interface{} {

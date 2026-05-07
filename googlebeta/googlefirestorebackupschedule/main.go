@@ -79,6 +79,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "weeklyRecurrence", GoGetter: "WeeklyRecurrence"},
 			_jsii_.MemberProperty{JsiiProperty: "weeklyRecurrenceInput", GoGetter: "WeeklyRecurrenceInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_GoogleFirestoreBackupSchedule{}

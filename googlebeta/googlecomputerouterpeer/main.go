@@ -145,6 +145,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toMetadata", GoMethod: "ToMetadata"},
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 			_jsii_.MemberProperty{JsiiProperty: "zeroAdvertisedRoutePriority", GoGetter: "ZeroAdvertisedRoutePriority"},
 			_jsii_.MemberProperty{JsiiProperty: "zeroAdvertisedRoutePriorityInput", GoGetter: "ZeroAdvertisedRoutePriorityInput"},
 			_jsii_.MemberProperty{JsiiProperty: "zeroCustomLearnedRoutePriority", GoGetter: "ZeroCustomLearnedRoutePriority"},

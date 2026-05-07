@@ -116,6 +116,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "virtualRepositoryConfigInput", GoGetter: "VirtualRepositoryConfigInput"},
 			_jsii_.MemberProperty{JsiiProperty: "vulnerabilityScanningConfig", GoGetter: "VulnerabilityScanningConfig"},
 			_jsii_.MemberProperty{JsiiProperty: "vulnerabilityScanningConfigInput", GoGetter: "VulnerabilityScanningConfigInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_GoogleArtifactRegistryRepository{}

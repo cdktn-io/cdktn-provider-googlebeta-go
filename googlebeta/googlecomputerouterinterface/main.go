@@ -93,6 +93,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "vpnTunnel", GoGetter: "VpnTunnel"},
 			_jsii_.MemberProperty{JsiiProperty: "vpnTunnelInput", GoGetter: "VpnTunnelInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_GoogleComputeRouterInterface{}

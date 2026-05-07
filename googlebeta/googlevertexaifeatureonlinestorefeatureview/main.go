@@ -96,6 +96,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateTime", GoGetter: "UpdateTime"},
 			_jsii_.MemberProperty{JsiiProperty: "vectorSearchConfig", GoGetter: "VectorSearchConfig"},
 			_jsii_.MemberProperty{JsiiProperty: "vectorSearchConfigInput", GoGetter: "VectorSearchConfigInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_GoogleVertexAiFeatureOnlineStoreFeatureview{}

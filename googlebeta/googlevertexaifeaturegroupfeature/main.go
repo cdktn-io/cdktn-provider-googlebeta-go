@@ -84,6 +84,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateTime", GoGetter: "UpdateTime"},
 			_jsii_.MemberProperty{JsiiProperty: "versionColumnName", GoGetter: "VersionColumnName"},
 			_jsii_.MemberProperty{JsiiProperty: "versionColumnNameInput", GoGetter: "VersionColumnNameInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_GoogleVertexAiFeatureGroupFeature{}

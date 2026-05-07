@@ -67,6 +67,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "validNodeVersions", GoGetter: "ValidNodeVersions"},
 			_jsii_.MemberProperty{JsiiProperty: "versionPrefix", GoGetter: "VersionPrefix"},
 			_jsii_.MemberProperty{JsiiProperty: "versionPrefixInput", GoGetter: "VersionPrefixInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_DataGoogleContainerEngineVersions{}

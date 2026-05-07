@@ -155,6 +155,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "waitForInstancesInput", GoGetter: "WaitForInstancesInput"},
 			_jsii_.MemberProperty{JsiiProperty: "waitForInstancesStatus", GoGetter: "WaitForInstancesStatus"},
 			_jsii_.MemberProperty{JsiiProperty: "waitForInstancesStatusInput", GoGetter: "WaitForInstancesStatusInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_GoogleComputeRegionInstanceGroupManager{}

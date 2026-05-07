@@ -136,6 +136,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "transformNameMapping", GoGetter: "TransformNameMapping"},
 			_jsii_.MemberProperty{JsiiProperty: "transformNameMappingInput", GoGetter: "TransformNameMappingInput"},
 			_jsii_.MemberProperty{JsiiProperty: "type", GoGetter: "Type"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_GoogleDataflowFlexTemplateJob{}

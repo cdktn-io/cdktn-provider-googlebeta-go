@@ -89,6 +89,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateTime", GoGetter: "UpdateTime"},
 			_jsii_.MemberProperty{JsiiProperty: "wellKnownRoots", GoGetter: "WellKnownRoots"},
 			_jsii_.MemberProperty{JsiiProperty: "wellKnownRootsInput", GoGetter: "WellKnownRootsInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_GoogleNetworkSecurityBackendAuthenticationConfig{}

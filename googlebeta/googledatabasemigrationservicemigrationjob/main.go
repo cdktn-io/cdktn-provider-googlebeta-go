@@ -115,6 +115,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
 			_jsii_.MemberProperty{JsiiProperty: "vpcPeeringConnectivity", GoGetter: "VpcPeeringConnectivity"},
 			_jsii_.MemberProperty{JsiiProperty: "vpcPeeringConnectivityInput", GoGetter: "VpcPeeringConnectivityInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_GoogleDatabaseMigrationServiceMigrationJob{}

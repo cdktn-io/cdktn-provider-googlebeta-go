@@ -80,6 +80,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "trustHandshakeSecretInput", GoGetter: "TrustHandshakeSecretInput"},
 			_jsii_.MemberProperty{JsiiProperty: "trustType", GoGetter: "TrustType"},
 			_jsii_.MemberProperty{JsiiProperty: "trustTypeInput", GoGetter: "TrustTypeInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_GoogleActiveDirectoryDomainTrust{}

@@ -143,6 +143,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "vcenterInput", GoGetter: "VcenterInput"},
 			_jsii_.MemberProperty{JsiiProperty: "vmTrackingEnabled", GoGetter: "VmTrackingEnabled"},
 			_jsii_.MemberProperty{JsiiProperty: "vmTrackingEnabledInput", GoGetter: "VmTrackingEnabledInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_GoogleGkeonpremVmwareCluster{}

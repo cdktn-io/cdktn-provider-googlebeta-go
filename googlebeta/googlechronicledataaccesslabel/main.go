@@ -82,6 +82,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "udmQuery", GoGetter: "UdmQuery"},
 			_jsii_.MemberProperty{JsiiProperty: "udmQueryInput", GoGetter: "UdmQueryInput"},
 			_jsii_.MemberProperty{JsiiProperty: "updateTime", GoGetter: "UpdateTime"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_GoogleChronicleDataAccessLabel{}

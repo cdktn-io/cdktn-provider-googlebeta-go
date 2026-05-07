@@ -89,6 +89,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "weeklyBackupLimit", GoGetter: "WeeklyBackupLimit"},
 			_jsii_.MemberProperty{JsiiProperty: "weeklyBackupLimitInput", GoGetter: "WeeklyBackupLimitInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_GoogleNetappBackupPolicy{}

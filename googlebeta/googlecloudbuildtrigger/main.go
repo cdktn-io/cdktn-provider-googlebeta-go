@@ -143,6 +143,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "triggerTemplateInput", GoGetter: "TriggerTemplateInput"},
 			_jsii_.MemberProperty{JsiiProperty: "webhookConfig", GoGetter: "WebhookConfig"},
 			_jsii_.MemberProperty{JsiiProperty: "webhookConfigInput", GoGetter: "WebhookConfigInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_GoogleCloudbuildTrigger{}

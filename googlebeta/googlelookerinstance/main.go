@@ -132,6 +132,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateTime", GoGetter: "UpdateTime"},
 			_jsii_.MemberProperty{JsiiProperty: "userMetadata", GoGetter: "UserMetadata"},
 			_jsii_.MemberProperty{JsiiProperty: "userMetadataInput", GoGetter: "UserMetadataInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_GoogleLookerInstance{}

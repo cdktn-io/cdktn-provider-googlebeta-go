@@ -95,6 +95,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "vpcInput", GoGetter: "VpcInput"},
 			_jsii_.MemberProperty{JsiiProperty: "vpcProject", GoGetter: "VpcProject"},
 			_jsii_.MemberProperty{JsiiProperty: "vpcProjectInput", GoGetter: "VpcProjectInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_GoogleEdgecontainerVpnConnection{}

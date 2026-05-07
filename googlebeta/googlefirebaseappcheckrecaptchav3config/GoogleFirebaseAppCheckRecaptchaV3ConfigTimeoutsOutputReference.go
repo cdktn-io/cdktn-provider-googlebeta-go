@@ -5,9 +5,9 @@ package googlefirebaseappcheckrecaptchav3config
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v17/googlefirebaseappcheckrecaptchav3config/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefirebaseappcheckrecaptchav3config/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 

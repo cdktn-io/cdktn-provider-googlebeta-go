@@ -115,6 +115,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "violationNotificationsEnabled", GoGetter: "ViolationNotificationsEnabled"},
 			_jsii_.MemberProperty{JsiiProperty: "violationNotificationsEnabledInput", GoGetter: "ViolationNotificationsEnabledInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 			_jsii_.MemberProperty{JsiiProperty: "workloadOptions", GoGetter: "WorkloadOptions"},
 			_jsii_.MemberProperty{JsiiProperty: "workloadOptionsInput", GoGetter: "WorkloadOptionsInput"},
 		},

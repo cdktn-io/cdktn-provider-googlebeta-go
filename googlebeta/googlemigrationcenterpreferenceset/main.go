@@ -82,6 +82,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateTime", GoGetter: "UpdateTime"},
 			_jsii_.MemberProperty{JsiiProperty: "virtualMachinePreferences", GoGetter: "VirtualMachinePreferences"},
 			_jsii_.MemberProperty{JsiiProperty: "virtualMachinePreferencesInput", GoGetter: "VirtualMachinePreferencesInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_GoogleMigrationCenterPreferenceSet{}

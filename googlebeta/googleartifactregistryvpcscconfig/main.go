@@ -72,6 +72,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "vpcscPolicy", GoGetter: "VpcscPolicy"},
 			_jsii_.MemberProperty{JsiiProperty: "vpcscPolicyInput", GoGetter: "VpcscPolicyInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_GoogleArtifactRegistryVpcscConfig{}

@@ -604,6 +604,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "vmwareengineCustomEndpointInput", GoGetter: "VmwareengineCustomEndpointInput"},
 			_jsii_.MemberProperty{JsiiProperty: "vpcAccessCustomEndpoint", GoGetter: "VpcAccessCustomEndpoint"},
 			_jsii_.MemberProperty{JsiiProperty: "vpcAccessCustomEndpointInput", GoGetter: "VpcAccessCustomEndpointInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 			_jsii_.MemberProperty{JsiiProperty: "workbenchCustomEndpoint", GoGetter: "WorkbenchCustomEndpoint"},
 			_jsii_.MemberProperty{JsiiProperty: "workbenchCustomEndpointInput", GoGetter: "WorkbenchCustomEndpointInput"},
 			_jsii_.MemberProperty{JsiiProperty: "workflowsCustomEndpoint", GoGetter: "WorkflowsCustomEndpoint"},

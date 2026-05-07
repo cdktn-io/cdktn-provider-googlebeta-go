@@ -111,6 +111,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "ttsConfig", GoGetter: "TtsConfig"},
 			_jsii_.MemberProperty{JsiiProperty: "ttsConfigInput", GoGetter: "TtsConfigInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_GoogleDialogflowConversationProfile{}

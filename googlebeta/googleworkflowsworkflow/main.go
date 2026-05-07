@@ -110,6 +110,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateTime", GoGetter: "UpdateTime"},
 			_jsii_.MemberProperty{JsiiProperty: "userEnvVars", GoGetter: "UserEnvVars"},
 			_jsii_.MemberProperty{JsiiProperty: "userEnvVarsInput", GoGetter: "UserEnvVarsInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_GoogleWorkflowsWorkflow{}

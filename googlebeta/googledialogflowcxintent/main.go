@@ -99,6 +99,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "trainingPhrases", GoGetter: "TrainingPhrases"},
 			_jsii_.MemberProperty{JsiiProperty: "trainingPhrasesInput", GoGetter: "TrainingPhrasesInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_GoogleDialogflowCxIntent{}

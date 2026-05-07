@@ -108,6 +108,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "volumeNameInput", GoGetter: "VolumeNameInput"},
 			_jsii_.MemberProperty{JsiiProperty: "waitForMirror", GoGetter: "WaitForMirror"},
 			_jsii_.MemberProperty{JsiiProperty: "waitForMirrorInput", GoGetter: "WaitForMirrorInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_GoogleNetappVolumeReplication{}

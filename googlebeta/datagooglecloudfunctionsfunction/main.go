@@ -92,6 +92,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "versionId", GoGetter: "VersionId"},
 			_jsii_.MemberProperty{JsiiProperty: "vpcConnector", GoGetter: "VpcConnector"},
 			_jsii_.MemberProperty{JsiiProperty: "vpcConnectorEgressSettings", GoGetter: "VpcConnectorEgressSettings"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_DataGoogleCloudfunctionsFunction{}

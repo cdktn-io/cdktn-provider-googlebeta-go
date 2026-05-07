@@ -95,6 +95,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "userSpecifiedSystemInput", GoGetter: "UserSpecifiedSystemInput"},
 			_jsii_.MemberProperty{JsiiProperty: "userSpecifiedType", GoGetter: "UserSpecifiedType"},
 			_jsii_.MemberProperty{JsiiProperty: "userSpecifiedTypeInput", GoGetter: "UserSpecifiedTypeInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_GoogleDataCatalogEntry{}

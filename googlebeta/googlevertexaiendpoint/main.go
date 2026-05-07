@@ -109,6 +109,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "trafficSplit", GoGetter: "TrafficSplit"},
 			_jsii_.MemberProperty{JsiiProperty: "trafficSplitInput", GoGetter: "TrafficSplitInput"},
 			_jsii_.MemberProperty{JsiiProperty: "updateTime", GoGetter: "UpdateTime"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_GoogleVertexAiEndpoint{}

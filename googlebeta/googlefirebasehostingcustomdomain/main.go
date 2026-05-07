@@ -90,6 +90,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateTime", GoGetter: "UpdateTime"},
 			_jsii_.MemberProperty{JsiiProperty: "waitDnsVerification", GoGetter: "WaitDnsVerification"},
 			_jsii_.MemberProperty{JsiiProperty: "waitDnsVerificationInput", GoGetter: "WaitDnsVerificationInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_GoogleFirebaseHostingCustomDomain{}

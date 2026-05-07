@@ -69,6 +69,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "verificationMethod", GoGetter: "VerificationMethod"},
 			_jsii_.MemberProperty{JsiiProperty: "verificationMethodInput", GoGetter: "VerificationMethodInput"},
 			_jsii_.MemberProperty{JsiiProperty: "webResourceId", GoGetter: "WebResourceId"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_GoogleSiteVerificationWebResource{}

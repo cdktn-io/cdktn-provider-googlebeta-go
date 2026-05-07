@@ -91,6 +91,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "watchlistIdInput", GoGetter: "WatchlistIdInput"},
 			_jsii_.MemberProperty{JsiiProperty: "watchlistUserPreferences", GoGetter: "WatchlistUserPreferences"},
 			_jsii_.MemberProperty{JsiiProperty: "watchlistUserPreferencesInput", GoGetter: "WatchlistUserPreferencesInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_GoogleChronicleWatchlist{}

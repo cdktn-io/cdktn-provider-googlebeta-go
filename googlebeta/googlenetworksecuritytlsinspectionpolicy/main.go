@@ -92,6 +92,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "trustConfig", GoGetter: "TrustConfig"},
 			_jsii_.MemberProperty{JsiiProperty: "trustConfigInput", GoGetter: "TrustConfigInput"},
 			_jsii_.MemberProperty{JsiiProperty: "updateTime", GoGetter: "UpdateTime"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_GoogleNetworkSecurityTlsInspectionPolicy{}

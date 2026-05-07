@@ -87,6 +87,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "trustStores", GoGetter: "TrustStores"},
 			_jsii_.MemberProperty{JsiiProperty: "trustStoresInput", GoGetter: "TrustStoresInput"},
 			_jsii_.MemberProperty{JsiiProperty: "updateTime", GoGetter: "UpdateTime"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_GoogleCertificateManagerTrustConfig{}

@@ -94,6 +94,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateTime", GoGetter: "UpdateTime"},
 			_jsii_.MemberProperty{JsiiProperty: "vmwareCluster", GoGetter: "VmwareCluster"},
 			_jsii_.MemberProperty{JsiiProperty: "vmwareClusterInput", GoGetter: "VmwareClusterInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_GoogleGkeonpremVmwareNodePool{}

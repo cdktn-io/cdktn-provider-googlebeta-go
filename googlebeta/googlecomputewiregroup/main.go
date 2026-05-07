@@ -90,6 +90,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wireProperties", GoGetter: "WireProperties"},
 			_jsii_.MemberProperty{JsiiProperty: "wirePropertiesInput", GoGetter: "WirePropertiesInput"},
 			_jsii_.MemberProperty{JsiiProperty: "wires", GoGetter: "Wires"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_GoogleComputeWireGroup{}

@@ -123,6 +123,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "vpnGatewayInput", GoGetter: "VpnGatewayInput"},
 			_jsii_.MemberProperty{JsiiProperty: "vpnGatewayInterface", GoGetter: "VpnGatewayInterface"},
 			_jsii_.MemberProperty{JsiiProperty: "vpnGatewayInterfaceInput", GoGetter: "VpnGatewayInterfaceInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_GoogleComputeVpnTunnel{}

@@ -99,6 +99,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateTime", GoGetter: "UpdateTime"},
 			_jsii_.MemberProperty{JsiiProperty: "wireFormat", GoGetter: "WireFormat"},
 			_jsii_.MemberProperty{JsiiProperty: "wireFormatInput", GoGetter: "WireFormatInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_GoogleNetworkServicesAuthzExtension{}

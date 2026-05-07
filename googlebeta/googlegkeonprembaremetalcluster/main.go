@@ -140,6 +140,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "upgradePolicy", GoGetter: "UpgradePolicy"},
 			_jsii_.MemberProperty{JsiiProperty: "upgradePolicyInput", GoGetter: "UpgradePolicyInput"},
 			_jsii_.MemberProperty{JsiiProperty: "validationCheck", GoGetter: "ValidationCheck"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_GoogleGkeonpremBareMetalCluster{}

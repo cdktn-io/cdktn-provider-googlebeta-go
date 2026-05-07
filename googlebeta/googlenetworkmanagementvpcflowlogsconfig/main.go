@@ -111,6 +111,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "vpcFlowLogsConfigIdInput", GoGetter: "VpcFlowLogsConfigIdInput"},
 			_jsii_.MemberProperty{JsiiProperty: "vpnTunnel", GoGetter: "VpnTunnel"},
 			_jsii_.MemberProperty{JsiiProperty: "vpnTunnelInput", GoGetter: "VpnTunnelInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_GoogleNetworkManagementVpcFlowLogsConfig{}

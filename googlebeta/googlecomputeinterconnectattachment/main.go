@@ -141,6 +141,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
 			_jsii_.MemberProperty{JsiiProperty: "vlanTag8021Q", GoGetter: "VlanTag8021Q"},
 			_jsii_.MemberProperty{JsiiProperty: "vlanTag8021QInput", GoGetter: "VlanTag8021QInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_GoogleComputeInterconnectAttachment{}

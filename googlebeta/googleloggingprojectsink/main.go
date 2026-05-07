@@ -88,6 +88,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "uniqueWriterIdentity", GoGetter: "UniqueWriterIdentity"},
 			_jsii_.MemberProperty{JsiiProperty: "uniqueWriterIdentityInput", GoGetter: "UniqueWriterIdentityInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 			_jsii_.MemberProperty{JsiiProperty: "writerIdentity", GoGetter: "WriterIdentity"},
 		},
 		func() interface{} {

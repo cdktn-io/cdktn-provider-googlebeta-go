@@ -97,6 +97,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "userLabelsInput", GoGetter: "UserLabelsInput"},
 			_jsii_.MemberProperty{JsiiProperty: "windowsBasedSli", GoGetter: "WindowsBasedSli"},
 			_jsii_.MemberProperty{JsiiProperty: "windowsBasedSliInput", GoGetter: "WindowsBasedSliInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_GoogleMonitoringSlo{}

@@ -75,6 +75,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateTime", GoGetter: "UpdateTime"},
 			_jsii_.MemberProperty{JsiiProperty: "versionConfigs", GoGetter: "VersionConfigs"},
 			_jsii_.MemberProperty{JsiiProperty: "versionConfigsInput", GoGetter: "VersionConfigsInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_GoogleDialogflowCxEnvironment{}

@@ -86,6 +86,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateTime", GoGetter: "UpdateTime"},
 			_jsii_.MemberProperty{JsiiProperty: "webGroundingType", GoGetter: "WebGroundingType"},
 			_jsii_.MemberProperty{JsiiProperty: "webGroundingTypeInput", GoGetter: "WebGroundingTypeInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_GoogleGeminiGeminiGcpEnablementSetting{}
