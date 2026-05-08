@@ -5,14 +5,14 @@ package googleosconfigv2policyorchestratorforfolder
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestratorforfolder/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestratorforfolder/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder google_os_config_v2_policy_orchestrator_for_folder}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder google_os_config_v2_policy_orchestrator_for_folder}.
 type GoogleOsConfigV2PolicyOrchestratorForFolder interface {
 	cdktn.TerraformResource
 	Action() *string
@@ -619,7 +619,7 @@ func (j *jsiiProxy_GoogleOsConfigV2PolicyOrchestratorForFolder) UpdateTime() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder google_os_config_v2_policy_orchestrator_for_folder} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder google_os_config_v2_policy_orchestrator_for_folder} Resource.
 func NewGoogleOsConfigV2PolicyOrchestratorForFolder(scope constructs.Construct, id *string, config *GoogleOsConfigV2PolicyOrchestratorForFolderConfig) GoogleOsConfigV2PolicyOrchestratorForFolder {
 	_init_.Initialize()
 
@@ -637,7 +637,7 @@ func NewGoogleOsConfigV2PolicyOrchestratorForFolder(scope constructs.Construct, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder google_os_config_v2_policy_orchestrator_for_folder} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator_for_folder google_os_config_v2_policy_orchestrator_for_folder} Resource.
 func NewGoogleOsConfigV2PolicyOrchestratorForFolder_Override(g GoogleOsConfigV2PolicyOrchestratorForFolder, scope constructs.Construct, id *string, config *GoogleOsConfigV2PolicyOrchestratorForFolderConfig) {
 	_init_.Initialize()
 

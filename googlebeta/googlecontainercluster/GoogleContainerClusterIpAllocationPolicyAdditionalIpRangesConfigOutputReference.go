@@ -5,9 +5,9 @@ package googlecontainercluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecontainercluster/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecontainercluster/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -35,6 +35,9 @@ type GoogleContainerClusterIpAllocationPolicyAdditionalIpRangesConfigOutputRefer
 	PodIpv4RangeNames() *[]*string
 	SetPodIpv4RangeNames(val *[]*string)
 	PodIpv4RangeNamesInput() *[]*string
+	Status() *string
+	SetStatus(val *string)
+	StatusInput() *string
 	Subnetwork() *string
 	SetSubnetwork(val *string)
 	SubnetworkInput() *string
@@ -71,6 +74,7 @@ type GoogleContainerClusterIpAllocationPolicyAdditionalIpRangesConfigOutputRefer
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetPodIpv4RangeNames()
+	ResetStatus()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -151,6 +155,26 @@ func (j *jsiiProxy_GoogleContainerClusterIpAllocationPolicyAdditionalIpRangesCon
 	_jsii_.Get(
 		j,
 		"podIpv4RangeNamesInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleContainerClusterIpAllocationPolicyAdditionalIpRangesConfigOutputReference) Status() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"status",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleContainerClusterIpAllocationPolicyAdditionalIpRangesConfigOutputReference) StatusInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"statusInput",
 		&returns,
 	)
 	return returns
@@ -264,6 +288,17 @@ func (j *jsiiProxy_GoogleContainerClusterIpAllocationPolicyAdditionalIpRangesCon
 	_jsii_.Set(
 		j,
 		"podIpv4RangeNames",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleContainerClusterIpAllocationPolicyAdditionalIpRangesConfigOutputReference)SetStatus(val *string) {
+	if err := j.validateSetStatusParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"status",
 		val,
 	)
 }
@@ -491,6 +526,14 @@ func (g *jsiiProxy_GoogleContainerClusterIpAllocationPolicyAdditionalIpRangesCon
 	_jsii_.InvokeVoid(
 		g,
 		"resetPodIpv4RangeNames",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleContainerClusterIpAllocationPolicyAdditionalIpRangesConfigOutputReference) ResetStatus() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetStatus",
 		nil, // no parameters
 	)
 }

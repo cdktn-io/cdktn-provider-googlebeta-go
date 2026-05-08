@@ -1,0 +1,37 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package datagooglebeyondcorpsecuritygateway
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (d *jsiiProxy_DataGoogleBeyondcorpSecurityGatewayServiceDiscoveryList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataGoogleBeyondcorpSecurityGatewayServiceDiscoveryList) validateGetParameters(index *float64) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataGoogleBeyondcorpSecurityGatewayServiceDiscoveryList) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataGoogleBeyondcorpSecurityGatewayServiceDiscoveryList) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataGoogleBeyondcorpSecurityGatewayServiceDiscoveryList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataGoogleBeyondcorpSecurityGatewayServiceDiscoveryList) validateSetWrapsSetParameters(val *bool) error {
+	return nil
+}
+
+func validateNewDataGoogleBeyondcorpSecurityGatewayServiceDiscoveryListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+	return nil
+}
+

@@ -5,9 +5,9 @@ package googlecontainercluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecontainercluster/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecontainercluster/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -35,6 +35,8 @@ type GoogleContainerClusterNodePoolAutoConfigLinuxNodeConfigOutputReference inte
 	Fqn() *string
 	InternalValue() *GoogleContainerClusterNodePoolAutoConfigLinuxNodeConfig
 	SetInternalValue(val *GoogleContainerClusterNodePoolAutoConfigLinuxNodeConfig)
+	NodeKernelModuleLoading() GoogleContainerClusterNodePoolAutoConfigLinuxNodeConfigNodeKernelModuleLoadingOutputReference
+	NodeKernelModuleLoadingInput() *GoogleContainerClusterNodePoolAutoConfigLinuxNodeConfigNodeKernelModuleLoading
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -67,7 +69,9 @@ type GoogleContainerClusterNodePoolAutoConfigLinuxNodeConfigOutputReference inte
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutNodeKernelModuleLoading(value *GoogleContainerClusterNodePoolAutoConfigLinuxNodeConfigNodeKernelModuleLoading)
 	ResetCgroupMode()
+	ResetNodeKernelModuleLoading()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -148,6 +152,26 @@ func (j *jsiiProxy_GoogleContainerClusterNodePoolAutoConfigLinuxNodeConfigOutput
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleContainerClusterNodePoolAutoConfigLinuxNodeConfigOutputReference) NodeKernelModuleLoading() GoogleContainerClusterNodePoolAutoConfigLinuxNodeConfigNodeKernelModuleLoadingOutputReference {
+	var returns GoogleContainerClusterNodePoolAutoConfigLinuxNodeConfigNodeKernelModuleLoadingOutputReference
+	_jsii_.Get(
+		j,
+		"nodeKernelModuleLoading",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleContainerClusterNodePoolAutoConfigLinuxNodeConfigOutputReference) NodeKernelModuleLoadingInput() *GoogleContainerClusterNodePoolAutoConfigLinuxNodeConfigNodeKernelModuleLoading {
+	var returns *GoogleContainerClusterNodePoolAutoConfigLinuxNodeConfigNodeKernelModuleLoading
+	_jsii_.Get(
+		j,
+		"nodeKernelModuleLoadingInput",
 		&returns,
 	)
 	return returns
@@ -453,10 +477,29 @@ func (g *jsiiProxy_GoogleContainerClusterNodePoolAutoConfigLinuxNodeConfigOutput
 	return returns
 }
 
+func (g *jsiiProxy_GoogleContainerClusterNodePoolAutoConfigLinuxNodeConfigOutputReference) PutNodeKernelModuleLoading(value *GoogleContainerClusterNodePoolAutoConfigLinuxNodeConfigNodeKernelModuleLoading) {
+	if err := g.validatePutNodeKernelModuleLoadingParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putNodeKernelModuleLoading",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleContainerClusterNodePoolAutoConfigLinuxNodeConfigOutputReference) ResetCgroupMode() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetCgroupMode",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleContainerClusterNodePoolAutoConfigLinuxNodeConfigOutputReference) ResetNodeKernelModuleLoading() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetNodeKernelModuleLoading",
 		nil, // no parameters
 	)
 }

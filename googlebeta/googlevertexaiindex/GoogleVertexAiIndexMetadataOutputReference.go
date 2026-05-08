@@ -5,9 +5,9 @@ package googlevertexaiindex
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlevertexaiindex/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaiindex/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -73,7 +73,6 @@ type GoogleVertexAiIndexMetadataOutputReference interface {
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutConfig(value *GoogleVertexAiIndexMetadataConfig)
-	ResetConfig()
 	ResetContentsDeltaUri()
 	ResetIsCompleteOverwrite()
 	// Produce the Token's value at resolution time.
@@ -520,14 +519,6 @@ func (g *jsiiProxy_GoogleVertexAiIndexMetadataOutputReference) PutConfig(value *
 		g,
 		"putConfig",
 		[]interface{}{value},
-	)
-}
-
-func (g *jsiiProxy_GoogleVertexAiIndexMetadataOutputReference) ResetConfig() {
-	_jsii_.InvokeVoid(
-		g,
-		"resetConfig",
-		nil, // no parameters
 	)
 }
 

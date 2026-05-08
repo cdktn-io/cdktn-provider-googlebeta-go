@@ -5,9 +5,9 @@ package googlecomputeregioninstancegroupmanager
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeregioninstancegroupmanager/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeregioninstancegroupmanager/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -28,6 +28,8 @@ type GoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSel
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
+	Disks() GoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsDisksList
+	DisksInput() interface{}
 	// Experimental.
 	Fqn() *string
 	InternalValue() interface{}
@@ -35,6 +37,9 @@ type GoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSel
 	MachineTypes() *[]*string
 	SetMachineTypes(val *[]*string)
 	MachineTypesInput() *[]*string
+	MinCpuPlatform() *string
+	SetMinCpuPlatform(val *string)
+	MinCpuPlatformInput() *string
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
@@ -73,6 +78,9 @@ type GoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSel
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutDisks(value interface{})
+	ResetDisks()
+	ResetMinCpuPlatform()
 	ResetRank()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -119,6 +127,26 @@ func (j *jsiiProxy_GoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPol
 	return returns
 }
 
+func (j *jsiiProxy_GoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsOutputReference) Disks() GoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsDisksList {
+	var returns GoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsDisksList
+	_jsii_.Get(
+		j,
+		"disks",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsOutputReference) DisksInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"disksInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsOutputReference) Fqn() *string {
 	var returns *string
 	_jsii_.Get(
@@ -154,6 +182,26 @@ func (j *jsiiProxy_GoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPol
 	_jsii_.Get(
 		j,
 		"machineTypesInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsOutputReference) MinCpuPlatform() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"minCpuPlatform",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsOutputReference) MinCpuPlatformInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"minCpuPlatformInput",
 		&returns,
 	)
 	return returns
@@ -287,6 +335,17 @@ func (j *jsiiProxy_GoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPol
 	_jsii_.Set(
 		j,
 		"machineTypes",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsOutputReference)SetMinCpuPlatform(val *string) {
+	if err := j.validateSetMinCpuPlatformParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"minCpuPlatform",
 		val,
 	)
 }
@@ -519,6 +578,33 @@ func (g *jsiiProxy_GoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPol
 	)
 
 	return returns
+}
+
+func (g *jsiiProxy_GoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsOutputReference) PutDisks(value interface{}) {
+	if err := g.validatePutDisksParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putDisks",
+		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsOutputReference) ResetDisks() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDisks",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsOutputReference) ResetMinCpuPlatform() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetMinCpuPlatform",
+		nil, // no parameters
+	)
 }
 
 func (g *jsiiProxy_GoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsOutputReference) ResetRank() {

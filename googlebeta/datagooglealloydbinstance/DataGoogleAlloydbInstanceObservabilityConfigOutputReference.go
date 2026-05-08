@@ -5,9 +5,9 @@ package datagooglealloydbinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglealloydbinstance/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglealloydbinstance/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -47,6 +47,7 @@ type DataGoogleAlloydbInstanceObservabilityConfigOutputReference interface {
 	// Experimental.
 	SetTerraformResource(val cdktn.IInterpolatingParent)
 	TrackActiveQueries() cdktn.IResolvable
+	TrackClientAddress() cdktn.IResolvable
 	TrackWaitEvents() cdktn.IResolvable
 	TrackWaitEventTypes() cdktn.IResolvable
 	// Experimental.
@@ -223,6 +224,16 @@ func (j *jsiiProxy_DataGoogleAlloydbInstanceObservabilityConfigOutputReference) 
 	_jsii_.Get(
 		j,
 		"trackActiveQueries",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleAlloydbInstanceObservabilityConfigOutputReference) TrackClientAddress() cdktn.IResolvable {
+	var returns cdktn.IResolvable
+	_jsii_.Get(
+		j,
+		"trackClientAddress",
 		&returns,
 	)
 	return returns

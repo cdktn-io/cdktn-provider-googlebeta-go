@@ -5,9 +5,9 @@ package googledatalosspreventiondiscoveryconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatalosspreventiondiscoveryconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledatalosspreventiondiscoveryconfig/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -32,6 +32,8 @@ type GoogleDataLossPreventionDiscoveryConfigTargetsCloudStorageTargetFilterColle
 	Fqn() *string
 	IncludeRegexes() GoogleDataLossPreventionDiscoveryConfigTargetsCloudStorageTargetFilterCollectionIncludeRegexesOutputReference
 	IncludeRegexesInput() *GoogleDataLossPreventionDiscoveryConfigTargetsCloudStorageTargetFilterCollectionIncludeRegexes
+	IncludeTags() GoogleDataLossPreventionDiscoveryConfigTargetsCloudStorageTargetFilterCollectionIncludeTagsOutputReference
+	IncludeTagsInput() *GoogleDataLossPreventionDiscoveryConfigTargetsCloudStorageTargetFilterCollectionIncludeTags
 	InternalValue() *GoogleDataLossPreventionDiscoveryConfigTargetsCloudStorageTargetFilterCollection
 	SetInternalValue(val *GoogleDataLossPreventionDiscoveryConfigTargetsCloudStorageTargetFilterCollection)
 	// Experimental.
@@ -67,7 +69,9 @@ type GoogleDataLossPreventionDiscoveryConfigTargetsCloudStorageTargetFilterColle
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutIncludeRegexes(value *GoogleDataLossPreventionDiscoveryConfigTargetsCloudStorageTargetFilterCollectionIncludeRegexes)
+	PutIncludeTags(value *GoogleDataLossPreventionDiscoveryConfigTargetsCloudStorageTargetFilterCollectionIncludeTags)
 	ResetIncludeRegexes()
+	ResetIncludeTags()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -138,6 +142,26 @@ func (j *jsiiProxy_GoogleDataLossPreventionDiscoveryConfigTargetsCloudStorageTar
 	_jsii_.Get(
 		j,
 		"includeRegexesInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDataLossPreventionDiscoveryConfigTargetsCloudStorageTargetFilterCollectionOutputReference) IncludeTags() GoogleDataLossPreventionDiscoveryConfigTargetsCloudStorageTargetFilterCollectionIncludeTagsOutputReference {
+	var returns GoogleDataLossPreventionDiscoveryConfigTargetsCloudStorageTargetFilterCollectionIncludeTagsOutputReference
+	_jsii_.Get(
+		j,
+		"includeTags",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDataLossPreventionDiscoveryConfigTargetsCloudStorageTargetFilterCollectionOutputReference) IncludeTagsInput() *GoogleDataLossPreventionDiscoveryConfigTargetsCloudStorageTargetFilterCollectionIncludeTags {
+	var returns *GoogleDataLossPreventionDiscoveryConfigTargetsCloudStorageTargetFilterCollectionIncludeTags
+	_jsii_.Get(
+		j,
+		"includeTagsInput",
 		&returns,
 	)
 	return returns
@@ -453,10 +477,29 @@ func (g *jsiiProxy_GoogleDataLossPreventionDiscoveryConfigTargetsCloudStorageTar
 	)
 }
 
+func (g *jsiiProxy_GoogleDataLossPreventionDiscoveryConfigTargetsCloudStorageTargetFilterCollectionOutputReference) PutIncludeTags(value *GoogleDataLossPreventionDiscoveryConfigTargetsCloudStorageTargetFilterCollectionIncludeTags) {
+	if err := g.validatePutIncludeTagsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putIncludeTags",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleDataLossPreventionDiscoveryConfigTargetsCloudStorageTargetFilterCollectionOutputReference) ResetIncludeRegexes() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetIncludeRegexes",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleDataLossPreventionDiscoveryConfigTargetsCloudStorageTargetFilterCollectionOutputReference) ResetIncludeTags() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetIncludeTags",
 		nil, // no parameters
 	)
 }

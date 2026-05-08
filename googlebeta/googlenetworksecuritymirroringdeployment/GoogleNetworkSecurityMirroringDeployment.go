@@ -5,14 +5,14 @@ package googlenetworksecuritymirroringdeployment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenetworksecuritymirroringdeployment/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenetworksecuritymirroringdeployment/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_security_mirroring_deployment google_network_security_mirroring_deployment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_security_mirroring_deployment google_network_security_mirroring_deployment}.
 type GoogleNetworkSecurityMirroringDeployment interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -584,7 +584,7 @@ func (j *jsiiProxy_GoogleNetworkSecurityMirroringDeployment) UpdateTime() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_security_mirroring_deployment google_network_security_mirroring_deployment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_security_mirroring_deployment google_network_security_mirroring_deployment} Resource.
 func NewGoogleNetworkSecurityMirroringDeployment(scope constructs.Construct, id *string, config *GoogleNetworkSecurityMirroringDeploymentConfig) GoogleNetworkSecurityMirroringDeployment {
 	_init_.Initialize()
 
@@ -602,7 +602,7 @@ func NewGoogleNetworkSecurityMirroringDeployment(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_security_mirroring_deployment google_network_security_mirroring_deployment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_security_mirroring_deployment google_network_security_mirroring_deployment} Resource.
 func NewGoogleNetworkSecurityMirroringDeployment_Override(g GoogleNetworkSecurityMirroringDeployment, scope constructs.Construct, id *string, config *GoogleNetworkSecurityMirroringDeploymentConfig) {
 	_init_.Initialize()
 

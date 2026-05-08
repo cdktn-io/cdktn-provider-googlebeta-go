@@ -5,14 +5,14 @@ package googlecomputenetworkendpoints
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputenetworkendpoints/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputenetworkendpoints/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_network_endpoints google_compute_network_endpoints}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_network_endpoints google_compute_network_endpoints}.
 type GoogleComputeNetworkEndpoints interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -438,7 +438,7 @@ func (j *jsiiProxy_GoogleComputeNetworkEndpoints) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_network_endpoints google_compute_network_endpoints} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_network_endpoints google_compute_network_endpoints} Resource.
 func NewGoogleComputeNetworkEndpoints(scope constructs.Construct, id *string, config *GoogleComputeNetworkEndpointsConfig) GoogleComputeNetworkEndpoints {
 	_init_.Initialize()
 
@@ -456,7 +456,7 @@ func NewGoogleComputeNetworkEndpoints(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_network_endpoints google_compute_network_endpoints} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_network_endpoints google_compute_network_endpoints} Resource.
 func NewGoogleComputeNetworkEndpoints_Override(g GoogleComputeNetworkEndpoints, scope constructs.Construct, id *string, config *GoogleComputeNetworkEndpointsConfig) {
 	_init_.Initialize()
 

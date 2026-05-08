@@ -75,10 +75,6 @@ func (g *jsiiProxy_GoogleApigeeKeystoresAliasesKeyCertFile) validateOverrideLogi
 	return nil
 }
 
-func (g *jsiiProxy_GoogleApigeeKeystoresAliasesKeyCertFile) validatePutCertsInfoParameters(value *GoogleApigeeKeystoresAliasesKeyCertFileCertsInfo) error {
-	return nil
-}
-
 func (g *jsiiProxy_GoogleApigeeKeystoresAliasesKeyCertFile) validatePutTimeoutsParameters(value *GoogleApigeeKeystoresAliasesKeyCertFileTimeouts) error {
 	return nil
 }
@@ -116,10 +112,6 @@ func (j *jsiiProxy_GoogleApigeeKeystoresAliasesKeyCertFile) validateSetCountPara
 }
 
 func (j *jsiiProxy_GoogleApigeeKeystoresAliasesKeyCertFile) validateSetEnvironmentParameters(val *string) error {
-	return nil
-}
-
-func (j *jsiiProxy_GoogleApigeeKeystoresAliasesKeyCertFile) validateSetIdParameters(val *string) error {
 	return nil
 }
 

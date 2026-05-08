@@ -5,14 +5,14 @@ package googlenetworksecurityaddressgroupiampolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenetworksecurityaddressgroupiampolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenetworksecurityaddressgroupiampolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_security_address_group_iam_policy google_network_security_address_group_iam_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_security_address_group_iam_policy google_network_security_address_group_iam_policy}.
 type GoogleNetworkSecurityAddressGroupIamPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -424,7 +424,7 @@ func (j *jsiiProxy_GoogleNetworkSecurityAddressGroupIamPolicy) TerraformResource
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_security_address_group_iam_policy google_network_security_address_group_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_security_address_group_iam_policy google_network_security_address_group_iam_policy} Resource.
 func NewGoogleNetworkSecurityAddressGroupIamPolicy(scope constructs.Construct, id *string, config *GoogleNetworkSecurityAddressGroupIamPolicyConfig) GoogleNetworkSecurityAddressGroupIamPolicy {
 	_init_.Initialize()
 
@@ -442,7 +442,7 @@ func NewGoogleNetworkSecurityAddressGroupIamPolicy(scope constructs.Construct, i
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_security_address_group_iam_policy google_network_security_address_group_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_security_address_group_iam_policy google_network_security_address_group_iam_policy} Resource.
 func NewGoogleNetworkSecurityAddressGroupIamPolicy_Override(g GoogleNetworkSecurityAddressGroupIamPolicy, scope constructs.Construct, id *string, config *GoogleNetworkSecurityAddressGroupIamPolicyConfig) {
 	_init_.Initialize()
 

@@ -47,6 +47,10 @@ func (g *jsiiProxy_GoogleSecureSourceManagerInstancePrivateConfigOutputReference
 	return nil
 }
 
+func (g *jsiiProxy_GoogleSecureSourceManagerInstancePrivateConfigOutputReference) validatePutCustomHostConfigParameters(value *GoogleSecureSourceManagerInstancePrivateConfigCustomHostConfig) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleSecureSourceManagerInstancePrivateConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }

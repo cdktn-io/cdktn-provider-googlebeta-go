@@ -5,9 +5,9 @@ package googlevertexaiendpoint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlevertexaiendpoint/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaiendpoint/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -41,6 +41,8 @@ type GoogleVertexAiEndpointPrivateServiceConnectConfigOutputReference interface 
 	ProjectAllowlist() *[]*string
 	SetProjectAllowlist(val *[]*string)
 	ProjectAllowlistInput() *[]*string
+	PscAutomationConfigs() GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigsList
+	PscAutomationConfigsInput() interface{}
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -73,8 +75,10 @@ type GoogleVertexAiEndpointPrivateServiceConnectConfigOutputReference interface 
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutPscAutomationConfigs(value interface{})
 	ResetEnableSecurePrivateServiceConnect()
 	ResetProjectAllowlist()
+	ResetPscAutomationConfigs()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -195,6 +199,26 @@ func (j *jsiiProxy_GoogleVertexAiEndpointPrivateServiceConnectConfigOutputRefere
 	_jsii_.Get(
 		j,
 		"projectAllowlistInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleVertexAiEndpointPrivateServiceConnectConfigOutputReference) PscAutomationConfigs() GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigsList {
+	var returns GoogleVertexAiEndpointPrivateServiceConnectConfigPscAutomationConfigsList
+	_jsii_.Get(
+		j,
+		"pscAutomationConfigs",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleVertexAiEndpointPrivateServiceConnectConfigOutputReference) PscAutomationConfigsInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"pscAutomationConfigsInput",
 		&returns,
 	)
 	return returns
@@ -522,6 +546,17 @@ func (g *jsiiProxy_GoogleVertexAiEndpointPrivateServiceConnectConfigOutputRefere
 	return returns
 }
 
+func (g *jsiiProxy_GoogleVertexAiEndpointPrivateServiceConnectConfigOutputReference) PutPscAutomationConfigs(value interface{}) {
+	if err := g.validatePutPscAutomationConfigsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putPscAutomationConfigs",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleVertexAiEndpointPrivateServiceConnectConfigOutputReference) ResetEnableSecurePrivateServiceConnect() {
 	_jsii_.InvokeVoid(
 		g,
@@ -534,6 +569,14 @@ func (g *jsiiProxy_GoogleVertexAiEndpointPrivateServiceConnectConfigOutputRefere
 	_jsii_.InvokeVoid(
 		g,
 		"resetProjectAllowlist",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleVertexAiEndpointPrivateServiceConnectConfigOutputReference) ResetPscAutomationConfigs() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetPscAutomationConfigs",
 		nil, // no parameters
 	)
 }

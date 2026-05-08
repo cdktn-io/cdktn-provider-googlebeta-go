@@ -5,14 +5,14 @@ package googlecomputeregioncommitment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeregioncommitment/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeregioncommitment/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_commitment google_compute_region_commitment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_commitment google_compute_region_commitment}.
 type GoogleComputeRegionCommitment interface {
 	cdktn.TerraformResource
 	AutoRenew() interface{}
@@ -68,6 +68,8 @@ type GoogleComputeRegionCommitment interface {
 	NameInput() *string
 	// The tree node.
 	Node() constructs.Node
+	Params() GoogleComputeRegionCommitmentParamsOutputReference
+	ParamsInput() *GoogleComputeRegionCommitmentParams
 	Plan() *string
 	SetPlan(val *string)
 	PlanInput() *string
@@ -148,6 +150,7 @@ type GoogleComputeRegionCommitment interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutLicenseResource(value *GoogleComputeRegionCommitmentLicenseResource)
+	PutParams(value *GoogleComputeRegionCommitmentParams)
 	PutResources(value interface{})
 	PutTimeouts(value *GoogleComputeRegionCommitmentTimeouts)
 	ResetAutoRenew()
@@ -159,6 +162,7 @@ type GoogleComputeRegionCommitment interface {
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
+	ResetParams()
 	ResetProject()
 	ResetRegion()
 	ResetResources()
@@ -461,6 +465,26 @@ func (j *jsiiProxy_GoogleComputeRegionCommitment) Node() constructs.Node {
 	return returns
 }
 
+func (j *jsiiProxy_GoogleComputeRegionCommitment) Params() GoogleComputeRegionCommitmentParamsOutputReference {
+	var returns GoogleComputeRegionCommitmentParamsOutputReference
+	_jsii_.Get(
+		j,
+		"params",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeRegionCommitment) ParamsInput() *GoogleComputeRegionCommitmentParams {
+	var returns *GoogleComputeRegionCommitmentParams
+	_jsii_.Get(
+		j,
+		"paramsInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleComputeRegionCommitment) Plan() *string {
 	var returns *string
 	_jsii_.Get(
@@ -682,7 +706,7 @@ func (j *jsiiProxy_GoogleComputeRegionCommitment) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_commitment google_compute_region_commitment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_commitment google_compute_region_commitment} Resource.
 func NewGoogleComputeRegionCommitment(scope constructs.Construct, id *string, config *GoogleComputeRegionCommitmentConfig) GoogleComputeRegionCommitment {
 	_init_.Initialize()
 
@@ -700,7 +724,7 @@ func NewGoogleComputeRegionCommitment(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_commitment google_compute_region_commitment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_commitment google_compute_region_commitment} Resource.
 func NewGoogleComputeRegionCommitment_Override(g GoogleComputeRegionCommitment, scope constructs.Construct, id *string, config *GoogleComputeRegionCommitmentConfig) {
 	_init_.Initialize()
 
@@ -1253,6 +1277,17 @@ func (g *jsiiProxy_GoogleComputeRegionCommitment) PutLicenseResource(value *Goog
 	)
 }
 
+func (g *jsiiProxy_GoogleComputeRegionCommitment) PutParams(value *GoogleComputeRegionCommitmentParams) {
+	if err := g.validatePutParamsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putParams",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleComputeRegionCommitment) PutResources(value interface{}) {
 	if err := g.validatePutResourcesParameters(value); err != nil {
 		panic(err)
@@ -1327,6 +1362,14 @@ func (g *jsiiProxy_GoogleComputeRegionCommitment) ResetOverrideLogicalId() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetOverrideLogicalId",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleComputeRegionCommitment) ResetParams() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetParams",
 		nil, // no parameters
 	)
 }

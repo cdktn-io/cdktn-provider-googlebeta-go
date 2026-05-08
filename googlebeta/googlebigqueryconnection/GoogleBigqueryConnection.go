@@ -5,14 +5,14 @@ package googlebigqueryconnection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebigqueryconnection/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebigqueryconnection/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_connection google_bigquery_connection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_connection google_bigquery_connection}.
 type GoogleBigqueryConnection interface {
 	cdktn.TerraformResource
 	Aws() GoogleBigqueryConnectionAwsOutputReference
@@ -27,6 +27,8 @@ type GoogleBigqueryConnection interface {
 	CloudSpannerInput() *GoogleBigqueryConnectionCloudSpanner
 	CloudSql() GoogleBigqueryConnectionCloudSqlOutputReference
 	CloudSqlInput() *GoogleBigqueryConnectionCloudSql
+	Configuration() GoogleBigqueryConnectionConfigurationOutputReference
+	ConfigurationInput() *GoogleBigqueryConnectionConfiguration
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -146,6 +148,7 @@ type GoogleBigqueryConnection interface {
 	PutCloudResource(value *GoogleBigqueryConnectionCloudResource)
 	PutCloudSpanner(value *GoogleBigqueryConnectionCloudSpanner)
 	PutCloudSql(value *GoogleBigqueryConnectionCloudSql)
+	PutConfiguration(value *GoogleBigqueryConnectionConfiguration)
 	PutSpark(value *GoogleBigqueryConnectionSpark)
 	PutTimeouts(value *GoogleBigqueryConnectionTimeouts)
 	ResetAws()
@@ -153,6 +156,7 @@ type GoogleBigqueryConnection interface {
 	ResetCloudResource()
 	ResetCloudSpanner()
 	ResetCloudSql()
+	ResetConfiguration()
 	ResetConnectionId()
 	ResetDescription()
 	ResetFriendlyName()
@@ -297,6 +301,26 @@ func (j *jsiiProxy_GoogleBigqueryConnection) CloudSqlInput() *GoogleBigqueryConn
 	_jsii_.Get(
 		j,
 		"cloudSqlInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleBigqueryConnection) Configuration() GoogleBigqueryConnectionConfigurationOutputReference {
+	var returns GoogleBigqueryConnectionConfigurationOutputReference
+	_jsii_.Get(
+		j,
+		"configuration",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleBigqueryConnection) ConfigurationInput() *GoogleBigqueryConnectionConfiguration {
+	var returns *GoogleBigqueryConnectionConfiguration
+	_jsii_.Get(
+		j,
+		"configurationInput",
 		&returns,
 	)
 	return returns
@@ -653,7 +677,7 @@ func (j *jsiiProxy_GoogleBigqueryConnection) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_connection google_bigquery_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_connection google_bigquery_connection} Resource.
 func NewGoogleBigqueryConnection(scope constructs.Construct, id *string, config *GoogleBigqueryConnectionConfig) GoogleBigqueryConnection {
 	_init_.Initialize()
 
@@ -671,7 +695,7 @@ func NewGoogleBigqueryConnection(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_connection google_bigquery_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_connection google_bigquery_connection} Resource.
 func NewGoogleBigqueryConnection_Override(g GoogleBigqueryConnection, scope constructs.Construct, id *string, config *GoogleBigqueryConnectionConfig) {
 	_init_.Initialize()
 
@@ -1235,6 +1259,17 @@ func (g *jsiiProxy_GoogleBigqueryConnection) PutCloudSql(value *GoogleBigqueryCo
 	)
 }
 
+func (g *jsiiProxy_GoogleBigqueryConnection) PutConfiguration(value *GoogleBigqueryConnectionConfiguration) {
+	if err := g.validatePutConfigurationParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putConfiguration",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleBigqueryConnection) PutSpark(value *GoogleBigqueryConnectionSpark) {
 	if err := g.validatePutSparkParameters(value); err != nil {
 		panic(err)
@@ -1293,6 +1328,14 @@ func (g *jsiiProxy_GoogleBigqueryConnection) ResetCloudSql() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetCloudSql",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleBigqueryConnection) ResetConfiguration() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetConfiguration",
 		nil, // no parameters
 	)
 }

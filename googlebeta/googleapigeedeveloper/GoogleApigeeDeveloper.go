@@ -5,14 +5,14 @@ package googleapigeedeveloper
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapigeedeveloper/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapigeedeveloper/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apigee_developer google_apigee_developer}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apigee_developer google_apigee_developer}.
 type GoogleApigeeDeveloper interface {
 	cdktn.TerraformResource
 	Attributes() GoogleApigeeDeveloperAttributesList
@@ -526,7 +526,7 @@ func (j *jsiiProxy_GoogleApigeeDeveloper) UserNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apigee_developer google_apigee_developer} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apigee_developer google_apigee_developer} Resource.
 func NewGoogleApigeeDeveloper(scope constructs.Construct, id *string, config *GoogleApigeeDeveloperConfig) GoogleApigeeDeveloper {
 	_init_.Initialize()
 
@@ -544,7 +544,7 @@ func NewGoogleApigeeDeveloper(scope constructs.Construct, id *string, config *Go
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apigee_developer google_apigee_developer} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apigee_developer google_apigee_developer} Resource.
 func NewGoogleApigeeDeveloper_Override(g GoogleApigeeDeveloper, scope constructs.Construct, id *string, config *GoogleApigeeDeveloperConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package datagooglednsmanagedzone
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglednsmanagedzone/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglednsmanagedzone/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_dns_managed_zone google_dns_managed_zone}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_dns_managed_zone google_dns_managed_zone}.
 type DataGoogleDnsManagedZone interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -363,7 +363,7 @@ func (j *jsiiProxy_DataGoogleDnsManagedZone) Visibility() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_dns_managed_zone google_dns_managed_zone} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_dns_managed_zone google_dns_managed_zone} Data Source.
 func NewDataGoogleDnsManagedZone(scope constructs.Construct, id *string, config *DataGoogleDnsManagedZoneConfig) DataGoogleDnsManagedZone {
 	_init_.Initialize()
 
@@ -381,7 +381,7 @@ func NewDataGoogleDnsManagedZone(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_dns_managed_zone google_dns_managed_zone} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_dns_managed_zone google_dns_managed_zone} Data Source.
 func NewDataGoogleDnsManagedZone_Override(d DataGoogleDnsManagedZone, scope constructs.Construct, id *string, config *DataGoogleDnsManagedZoneConfig) {
 	_init_.Initialize()
 

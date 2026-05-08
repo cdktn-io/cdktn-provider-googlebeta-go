@@ -83,6 +83,10 @@ func (g *jsiiProxy_GoogleComputeImage) validatePutImageEncryptionKeyParameters(v
 	return nil
 }
 
+func (g *jsiiProxy_GoogleComputeImage) validatePutParamsParameters(value *GoogleComputeImageParams) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleComputeImage) validatePutRawDiskParameters(value *GoogleComputeImageRawDisk) error {
 	return nil
 }

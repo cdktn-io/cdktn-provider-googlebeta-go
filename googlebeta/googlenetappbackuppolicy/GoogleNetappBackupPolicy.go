@@ -5,14 +5,14 @@ package googlenetappbackuppolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenetappbackuppolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenetappbackuppolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_backup_policy google_netapp_backup_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_backup_policy google_netapp_backup_policy}.
 type GoogleNetappBackupPolicy interface {
 	cdktn.TerraformResource
 	AssignedVolumeCount() *float64
@@ -609,7 +609,7 @@ func (j *jsiiProxy_GoogleNetappBackupPolicy) WeeklyBackupLimitInput() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_backup_policy google_netapp_backup_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_backup_policy google_netapp_backup_policy} Resource.
 func NewGoogleNetappBackupPolicy(scope constructs.Construct, id *string, config *GoogleNetappBackupPolicyConfig) GoogleNetappBackupPolicy {
 	_init_.Initialize()
 
@@ -627,7 +627,7 @@ func NewGoogleNetappBackupPolicy(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_backup_policy google_netapp_backup_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_backup_policy google_netapp_backup_policy} Resource.
 func NewGoogleNetappBackupPolicy_Override(g GoogleNetappBackupPolicy, scope constructs.Construct, id *string, config *GoogleNetappBackupPolicyConfig) {
 	_init_.Initialize()
 

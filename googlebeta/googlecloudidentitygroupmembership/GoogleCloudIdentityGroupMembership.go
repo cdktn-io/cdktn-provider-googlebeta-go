@@ -5,14 +5,14 @@ package googlecloudidentitygroupmembership
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudidentitygroupmembership/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudidentitygroupmembership/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_identity_group_membership google_cloud_identity_group_membership}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_identity_group_membership google_cloud_identity_group_membership}.
 type GoogleCloudIdentityGroupMembership interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -505,7 +505,7 @@ func (j *jsiiProxy_GoogleCloudIdentityGroupMembership) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_identity_group_membership google_cloud_identity_group_membership} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_identity_group_membership google_cloud_identity_group_membership} Resource.
 func NewGoogleCloudIdentityGroupMembership(scope constructs.Construct, id *string, config *GoogleCloudIdentityGroupMembershipConfig) GoogleCloudIdentityGroupMembership {
 	_init_.Initialize()
 
@@ -523,7 +523,7 @@ func NewGoogleCloudIdentityGroupMembership(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_identity_group_membership google_cloud_identity_group_membership} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_identity_group_membership google_cloud_identity_group_membership} Resource.
 func NewGoogleCloudIdentityGroupMembership_Override(g GoogleCloudIdentityGroupMembership, scope constructs.Construct, id *string, config *GoogleCloudIdentityGroupMembershipConfig) {
 	_init_.Initialize()
 

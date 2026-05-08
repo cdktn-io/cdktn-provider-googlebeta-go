@@ -5,14 +5,14 @@ package googleserviceaccountiammember
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleserviceaccountiammember/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleserviceaccountiammember/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_service_account_iam_member google_service_account_iam_member}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_service_account_iam_member google_service_account_iam_member}.
 type GoogleServiceAccountIamMember interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -423,7 +423,7 @@ func (j *jsiiProxy_GoogleServiceAccountIamMember) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_service_account_iam_member google_service_account_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_service_account_iam_member google_service_account_iam_member} Resource.
 func NewGoogleServiceAccountIamMember(scope constructs.Construct, id *string, config *GoogleServiceAccountIamMemberConfig) GoogleServiceAccountIamMember {
 	_init_.Initialize()
 
@@ -441,7 +441,7 @@ func NewGoogleServiceAccountIamMember(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_service_account_iam_member google_service_account_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_service_account_iam_member google_service_account_iam_member} Resource.
 func NewGoogleServiceAccountIamMember_Override(g GoogleServiceAccountIamMember, scope constructs.Construct, id *string, config *GoogleServiceAccountIamMemberConfig) {
 	_init_.Initialize()
 

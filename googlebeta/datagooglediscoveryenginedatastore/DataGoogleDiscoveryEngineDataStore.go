@@ -1,0 +1,1052 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+package datagooglediscoveryenginedatastore
+
+import (
+	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
+
+	"github.com/aws/constructs-go/constructs/v10"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglediscoveryenginedatastore/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
+)
+
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_discovery_engine_data_store google_discovery_engine_data_store}.
+type DataGoogleDiscoveryEngineDataStore interface {
+	cdktn.TerraformDataSource
+	AdvancedSiteSearchConfig() DataGoogleDiscoveryEngineDataStoreAdvancedSiteSearchConfigList
+	// Experimental.
+	CdktfStack() cdktn.TerraformStack
+	// Experimental.
+	ConstructNodeMetadata() *map[string]interface{}
+	ContentConfig() *string
+	// Experimental.
+	Count() interface{}
+	// Experimental.
+	SetCount(val interface{})
+	CreateAdvancedSiteSearch() cdktn.IResolvable
+	CreateTime() *string
+	DataStoreId() *string
+	SetDataStoreId(val *string)
+	DataStoreIdInput() *string
+	DefaultSchemaId() *string
+	// Experimental.
+	DependsOn() *[]*string
+	// Experimental.
+	SetDependsOn(val *[]*string)
+	DisplayName() *string
+	SetDisplayName(val *string)
+	DisplayNameInput() *string
+	DocumentProcessingConfig() DataGoogleDiscoveryEngineDataStoreDocumentProcessingConfigList
+	// Experimental.
+	ForEach() cdktn.ITerraformIterator
+	// Experimental.
+	SetForEach(val cdktn.ITerraformIterator)
+	// Experimental.
+	Fqn() *string
+	// Experimental.
+	FriendlyUniqueId() *string
+	Id() *string
+	SetId(val *string)
+	IdInput() *string
+	IndustryVertical() *string
+	KmsKeyName() *string
+	// Experimental.
+	Lifecycle() *cdktn.TerraformResourceLifecycle
+	// Experimental.
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
+	Location() *string
+	SetLocation(val *string)
+	LocationInput() *string
+	Name() *string
+	// The tree node.
+	Node() constructs.Node
+	Project() *string
+	SetProject(val *string)
+	ProjectInput() *string
+	// Experimental.
+	Provider() cdktn.TerraformProvider
+	// Experimental.
+	SetProvider(val cdktn.TerraformProvider)
+	// Experimental.
+	RawOverrides() interface{}
+	SkipDefaultSchemaCreation() cdktn.IResolvable
+	SolutionTypes() *[]*string
+	// Experimental.
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
+	// Experimental.
+	TerraformMetaArguments() *map[string]interface{}
+	// Experimental.
+	TerraformResourceType() *string
+	// Experimental.
+	AddOverride(path *string, value interface{})
+	// Experimental.
+	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+	// Experimental.
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
+	// Experimental.
+	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+	// Experimental.
+	GetListAttribute(terraformAttribute *string) *[]*string
+	// Experimental.
+	GetNumberAttribute(terraformAttribute *string) *float64
+	// Experimental.
+	GetNumberListAttribute(terraformAttribute *string) *[]*float64
+	// Experimental.
+	GetNumberMapAttribute(terraformAttribute *string) *map[string]*float64
+	// Experimental.
+	GetStringAttribute(terraformAttribute *string) *string
+	// Experimental.
+	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+	// Experimental.
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	// Overrides the auto-generated logical ID with a specific ID.
+	// Experimental.
+	OverrideLogicalId(newLogicalId *string)
+	ResetDataStoreId()
+	ResetDisplayName()
+	ResetId()
+	ResetLocation()
+	// Resets a previously passed logical Id to use the auto-generated logical id again.
+	// Experimental.
+	ResetOverrideLogicalId()
+	ResetProject()
+	SynthesizeAttributes() *map[string]interface{}
+	SynthesizeHclAttributes() *map[string]interface{}
+	// Adds this resource to the terraform JSON output.
+	// Experimental.
+	ToHclTerraform() interface{}
+	// Experimental.
+	ToMetadata() interface{}
+	// Returns a string representation of this construct.
+	ToString() *string
+	// Adds this resource to the terraform JSON output.
+	// Experimental.
+	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
+}
+
+// The jsii proxy struct for DataGoogleDiscoveryEngineDataStore
+type jsiiProxy_DataGoogleDiscoveryEngineDataStore struct {
+	internal.Type__cdktnTerraformDataSource
+}
+
+func (j *jsiiProxy_DataGoogleDiscoveryEngineDataStore) AdvancedSiteSearchConfig() DataGoogleDiscoveryEngineDataStoreAdvancedSiteSearchConfigList {
+	var returns DataGoogleDiscoveryEngineDataStoreAdvancedSiteSearchConfigList
+	_jsii_.Get(
+		j,
+		"advancedSiteSearchConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleDiscoveryEngineDataStore) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
+	_jsii_.Get(
+		j,
+		"cdktfStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleDiscoveryEngineDataStore) ConstructNodeMetadata() *map[string]interface{} {
+	var returns *map[string]interface{}
+	_jsii_.Get(
+		j,
+		"constructNodeMetadata",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleDiscoveryEngineDataStore) ContentConfig() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"contentConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleDiscoveryEngineDataStore) Count() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleDiscoveryEngineDataStore) CreateAdvancedSiteSearch() cdktn.IResolvable {
+	var returns cdktn.IResolvable
+	_jsii_.Get(
+		j,
+		"createAdvancedSiteSearch",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleDiscoveryEngineDataStore) CreateTime() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleDiscoveryEngineDataStore) DataStoreId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"dataStoreId",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleDiscoveryEngineDataStore) DataStoreIdInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"dataStoreIdInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleDiscoveryEngineDataStore) DefaultSchemaId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"defaultSchemaId",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleDiscoveryEngineDataStore) DependsOn() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"dependsOn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleDiscoveryEngineDataStore) DisplayName() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"displayName",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleDiscoveryEngineDataStore) DisplayNameInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"displayNameInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleDiscoveryEngineDataStore) DocumentProcessingConfig() DataGoogleDiscoveryEngineDataStoreDocumentProcessingConfigList {
+	var returns DataGoogleDiscoveryEngineDataStoreDocumentProcessingConfigList
+	_jsii_.Get(
+		j,
+		"documentProcessingConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleDiscoveryEngineDataStore) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
+	_jsii_.Get(
+		j,
+		"forEach",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleDiscoveryEngineDataStore) Fqn() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"fqn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleDiscoveryEngineDataStore) FriendlyUniqueId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"friendlyUniqueId",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleDiscoveryEngineDataStore) Id() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"id",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleDiscoveryEngineDataStore) IdInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"idInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleDiscoveryEngineDataStore) IndustryVertical() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"industryVertical",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleDiscoveryEngineDataStore) KmsKeyName() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"kmsKeyName",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleDiscoveryEngineDataStore) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
+	_jsii_.Get(
+		j,
+		"lifecycle",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleDiscoveryEngineDataStore) Location() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"location",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleDiscoveryEngineDataStore) LocationInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"locationInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleDiscoveryEngineDataStore) Name() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"name",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleDiscoveryEngineDataStore) Node() constructs.Node {
+	var returns constructs.Node
+	_jsii_.Get(
+		j,
+		"node",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleDiscoveryEngineDataStore) Project() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"project",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleDiscoveryEngineDataStore) ProjectInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"projectInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleDiscoveryEngineDataStore) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
+	_jsii_.Get(
+		j,
+		"provider",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleDiscoveryEngineDataStore) RawOverrides() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"rawOverrides",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleDiscoveryEngineDataStore) SkipDefaultSchemaCreation() cdktn.IResolvable {
+	var returns cdktn.IResolvable
+	_jsii_.Get(
+		j,
+		"skipDefaultSchemaCreation",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleDiscoveryEngineDataStore) SolutionTypes() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"solutionTypes",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleDiscoveryEngineDataStore) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
+	_jsii_.Get(
+		j,
+		"terraformGeneratorMetadata",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleDiscoveryEngineDataStore) TerraformMetaArguments() *map[string]interface{} {
+	var returns *map[string]interface{}
+	_jsii_.Get(
+		j,
+		"terraformMetaArguments",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleDiscoveryEngineDataStore) TerraformResourceType() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"terraformResourceType",
+		&returns,
+	)
+	return returns
+}
+
+
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_discovery_engine_data_store google_discovery_engine_data_store} Data Source.
+func NewDataGoogleDiscoveryEngineDataStore(scope constructs.Construct, id *string, config *DataGoogleDiscoveryEngineDataStoreConfig) DataGoogleDiscoveryEngineDataStore {
+	_init_.Initialize()
+
+	if err := validateNewDataGoogleDiscoveryEngineDataStoreParameters(scope, id, config); err != nil {
+		panic(err)
+	}
+	j := jsiiProxy_DataGoogleDiscoveryEngineDataStore{}
+
+	_jsii_.Create(
+		"@cdktn/provider-google-beta.dataGoogleDiscoveryEngineDataStore.DataGoogleDiscoveryEngineDataStore",
+		[]interface{}{scope, id, config},
+		&j,
+	)
+
+	return &j
+}
+
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_discovery_engine_data_store google_discovery_engine_data_store} Data Source.
+func NewDataGoogleDiscoveryEngineDataStore_Override(d DataGoogleDiscoveryEngineDataStore, scope constructs.Construct, id *string, config *DataGoogleDiscoveryEngineDataStoreConfig) {
+	_init_.Initialize()
+
+	_jsii_.Create(
+		"@cdktn/provider-google-beta.dataGoogleDiscoveryEngineDataStore.DataGoogleDiscoveryEngineDataStore",
+		[]interface{}{scope, id, config},
+		d,
+	)
+}
+
+func (j *jsiiProxy_DataGoogleDiscoveryEngineDataStore)SetCount(val interface{}) {
+	if err := j.validateSetCountParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DataGoogleDiscoveryEngineDataStore)SetDataStoreId(val *string) {
+	if err := j.validateSetDataStoreIdParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"dataStoreId",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DataGoogleDiscoveryEngineDataStore)SetDependsOn(val *[]*string) {
+	_jsii_.Set(
+		j,
+		"dependsOn",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DataGoogleDiscoveryEngineDataStore)SetDisplayName(val *string) {
+	if err := j.validateSetDisplayNameParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"displayName",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DataGoogleDiscoveryEngineDataStore)SetForEach(val cdktn.ITerraformIterator) {
+	_jsii_.Set(
+		j,
+		"forEach",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DataGoogleDiscoveryEngineDataStore)SetId(val *string) {
+	if err := j.validateSetIdParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"id",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DataGoogleDiscoveryEngineDataStore)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
+	if err := j.validateSetLifecycleParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"lifecycle",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DataGoogleDiscoveryEngineDataStore)SetLocation(val *string) {
+	if err := j.validateSetLocationParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"location",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DataGoogleDiscoveryEngineDataStore)SetProject(val *string) {
+	if err := j.validateSetProjectParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"project",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DataGoogleDiscoveryEngineDataStore)SetProvider(val cdktn.TerraformProvider) {
+	_jsii_.Set(
+		j,
+		"provider",
+		val,
+	)
+}
+
+// Generates CDKTN code for importing a DataGoogleDiscoveryEngineDataStore resource upon running "cdktn plan <stack-name>".
+func DataGoogleDiscoveryEngineDataStore_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
+	_init_.Initialize()
+
+	if err := validateDataGoogleDiscoveryEngineDataStore_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
+		panic(err)
+	}
+	var returns cdktn.ImportableResource
+
+	_jsii_.StaticInvoke(
+		"@cdktn/provider-google-beta.dataGoogleDiscoveryEngineDataStore.DataGoogleDiscoveryEngineDataStore",
+		"generateConfigForImport",
+		[]interface{}{scope, importToId, importFromId, provider},
+		&returns,
+	)
+
+	return returns
+}
+
+// Checks if `x` is a construct.
+//
+// Use this method instead of `instanceof` to properly detect `Construct`
+// instances, even when the construct library is symlinked.
+//
+// Explanation: in JavaScript, multiple copies of the `constructs` library on
+// disk are seen as independent, completely different libraries. As a
+// consequence, the class `Construct` in each copy of the `constructs` library
+// is seen as a different class, and an instance of one class will not test as
+// `instanceof` the other class. `npm install` will not create installations
+// like this, but users may manually symlink construct libraries together or
+// use a monorepo tool: in those cases, multiple copies of the `constructs`
+// library can be accidentally installed, and `instanceof` will behave
+// unpredictably. It is safest to avoid using `instanceof`, and using
+// this type-testing method instead.
+//
+// Returns: true if `x` is an object created from a class which extends `Construct`.
+func DataGoogleDiscoveryEngineDataStore_IsConstruct(x interface{}) *bool {
+	_init_.Initialize()
+
+	if err := validateDataGoogleDiscoveryEngineDataStore_IsConstructParameters(x); err != nil {
+		panic(err)
+	}
+	var returns *bool
+
+	_jsii_.StaticInvoke(
+		"@cdktn/provider-google-beta.dataGoogleDiscoveryEngineDataStore.DataGoogleDiscoveryEngineDataStore",
+		"isConstruct",
+		[]interface{}{x},
+		&returns,
+	)
+
+	return returns
+}
+
+// Experimental.
+func DataGoogleDiscoveryEngineDataStore_IsTerraformDataSource(x interface{}) *bool {
+	_init_.Initialize()
+
+	if err := validateDataGoogleDiscoveryEngineDataStore_IsTerraformDataSourceParameters(x); err != nil {
+		panic(err)
+	}
+	var returns *bool
+
+	_jsii_.StaticInvoke(
+		"@cdktn/provider-google-beta.dataGoogleDiscoveryEngineDataStore.DataGoogleDiscoveryEngineDataStore",
+		"isTerraformDataSource",
+		[]interface{}{x},
+		&returns,
+	)
+
+	return returns
+}
+
+// Experimental.
+func DataGoogleDiscoveryEngineDataStore_IsTerraformElement(x interface{}) *bool {
+	_init_.Initialize()
+
+	if err := validateDataGoogleDiscoveryEngineDataStore_IsTerraformElementParameters(x); err != nil {
+		panic(err)
+	}
+	var returns *bool
+
+	_jsii_.StaticInvoke(
+		"@cdktn/provider-google-beta.dataGoogleDiscoveryEngineDataStore.DataGoogleDiscoveryEngineDataStore",
+		"isTerraformElement",
+		[]interface{}{x},
+		&returns,
+	)
+
+	return returns
+}
+
+func DataGoogleDiscoveryEngineDataStore_TfResourceType() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdktn/provider-google-beta.dataGoogleDiscoveryEngineDataStore.DataGoogleDiscoveryEngineDataStore",
+		"tfResourceType",
+		&returns,
+	)
+	return returns
+}
+
+func (d *jsiiProxy_DataGoogleDiscoveryEngineDataStore) AddOverride(path *string, value interface{}) {
+	if err := d.validateAddOverrideParameters(path, value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		d,
+		"addOverride",
+		[]interface{}{path, value},
+	)
+}
+
+func (d *jsiiProxy_DataGoogleDiscoveryEngineDataStore) GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{} {
+	if err := d.validateGetAnyMapAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *map[string]interface{}
+
+	_jsii_.Invoke(
+		d,
+		"getAnyMapAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataGoogleDiscoveryEngineDataStore) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
+	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns cdktn.IResolvable
+
+	_jsii_.Invoke(
+		d,
+		"getBooleanAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataGoogleDiscoveryEngineDataStore) GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool {
+	if err := d.validateGetBooleanMapAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *map[string]*bool
+
+	_jsii_.Invoke(
+		d,
+		"getBooleanMapAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataGoogleDiscoveryEngineDataStore) GetListAttribute(terraformAttribute *string) *[]*string {
+	if err := d.validateGetListAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *[]*string
+
+	_jsii_.Invoke(
+		d,
+		"getListAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataGoogleDiscoveryEngineDataStore) GetNumberAttribute(terraformAttribute *string) *float64 {
+	if err := d.validateGetNumberAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *float64
+
+	_jsii_.Invoke(
+		d,
+		"getNumberAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataGoogleDiscoveryEngineDataStore) GetNumberListAttribute(terraformAttribute *string) *[]*float64 {
+	if err := d.validateGetNumberListAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *[]*float64
+
+	_jsii_.Invoke(
+		d,
+		"getNumberListAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataGoogleDiscoveryEngineDataStore) GetNumberMapAttribute(terraformAttribute *string) *map[string]*float64 {
+	if err := d.validateGetNumberMapAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *map[string]*float64
+
+	_jsii_.Invoke(
+		d,
+		"getNumberMapAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataGoogleDiscoveryEngineDataStore) GetStringAttribute(terraformAttribute *string) *string {
+	if err := d.validateGetStringAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *string
+
+	_jsii_.Invoke(
+		d,
+		"getStringAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataGoogleDiscoveryEngineDataStore) GetStringMapAttribute(terraformAttribute *string) *map[string]*string {
+	if err := d.validateGetStringMapAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *map[string]*string
+
+	_jsii_.Invoke(
+		d,
+		"getStringMapAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataGoogleDiscoveryEngineDataStore) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
+	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns cdktn.IResolvable
+
+	_jsii_.Invoke(
+		d,
+		"interpolationForAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataGoogleDiscoveryEngineDataStore) OverrideLogicalId(newLogicalId *string) {
+	if err := d.validateOverrideLogicalIdParameters(newLogicalId); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		d,
+		"overrideLogicalId",
+		[]interface{}{newLogicalId},
+	)
+}
+
+func (d *jsiiProxy_DataGoogleDiscoveryEngineDataStore) ResetDataStoreId() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetDataStoreId",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DataGoogleDiscoveryEngineDataStore) ResetDisplayName() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetDisplayName",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DataGoogleDiscoveryEngineDataStore) ResetId() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetId",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DataGoogleDiscoveryEngineDataStore) ResetLocation() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetLocation",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DataGoogleDiscoveryEngineDataStore) ResetOverrideLogicalId() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetOverrideLogicalId",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DataGoogleDiscoveryEngineDataStore) ResetProject() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetProject",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DataGoogleDiscoveryEngineDataStore) SynthesizeAttributes() *map[string]interface{} {
+	var returns *map[string]interface{}
+
+	_jsii_.Invoke(
+		d,
+		"synthesizeAttributes",
+		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataGoogleDiscoveryEngineDataStore) SynthesizeHclAttributes() *map[string]interface{} {
+	var returns *map[string]interface{}
+
+	_jsii_.Invoke(
+		d,
+		"synthesizeHclAttributes",
+		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataGoogleDiscoveryEngineDataStore) ToHclTerraform() interface{} {
+	var returns interface{}
+
+	_jsii_.Invoke(
+		d,
+		"toHclTerraform",
+		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataGoogleDiscoveryEngineDataStore) ToMetadata() interface{} {
+	var returns interface{}
+
+	_jsii_.Invoke(
+		d,
+		"toMetadata",
+		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataGoogleDiscoveryEngineDataStore) ToString() *string {
+	var returns *string
+
+	_jsii_.Invoke(
+		d,
+		"toString",
+		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataGoogleDiscoveryEngineDataStore) ToTerraform() interface{} {
+	var returns interface{}
+
+	_jsii_.Invoke(
+		d,
+		"toTerraform",
+		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataGoogleDiscoveryEngineDataStore) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
+		&returns,
+	)
+
+	return returns
+}
+

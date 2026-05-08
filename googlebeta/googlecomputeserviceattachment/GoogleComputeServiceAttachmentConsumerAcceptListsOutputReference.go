@@ -5,9 +5,9 @@ package googlecomputeserviceattachment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeserviceattachment/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeserviceattachment/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -31,6 +31,9 @@ type GoogleComputeServiceAttachmentConsumerAcceptListsOutputReference interface 
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
+	EndpointUrl() *string
+	SetEndpointUrl(val *string)
+	EndpointUrlInput() *string
 	// Experimental.
 	Fqn() *string
 	InternalValue() interface{}
@@ -73,6 +76,7 @@ type GoogleComputeServiceAttachmentConsumerAcceptListsOutputReference interface 
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	ResetEndpointUrl()
 	ResetNetworkUrl()
 	ResetProjectIdOrNum()
 	// Produce the Token's value at resolution time.
@@ -135,6 +139,26 @@ func (j *jsiiProxy_GoogleComputeServiceAttachmentConsumerAcceptListsOutputRefere
 	_jsii_.Get(
 		j,
 		"creationStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeServiceAttachmentConsumerAcceptListsOutputReference) EndpointUrl() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"endpointUrl",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeServiceAttachmentConsumerAcceptListsOutputReference) EndpointUrlInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"endpointUrlInput",
 		&returns,
 	)
 	return returns
@@ -277,6 +301,17 @@ func (j *jsiiProxy_GoogleComputeServiceAttachmentConsumerAcceptListsOutputRefere
 	_jsii_.Set(
 		j,
 		"connectionLimit",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleComputeServiceAttachmentConsumerAcceptListsOutputReference)SetEndpointUrl(val *string) {
+	if err := j.validateSetEndpointUrlParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"endpointUrl",
 		val,
 	)
 }
@@ -520,6 +555,14 @@ func (g *jsiiProxy_GoogleComputeServiceAttachmentConsumerAcceptListsOutputRefere
 	)
 
 	return returns
+}
+
+func (g *jsiiProxy_GoogleComputeServiceAttachmentConsumerAcceptListsOutputReference) ResetEndpointUrl() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetEndpointUrl",
+		nil, // no parameters
+	)
 }
 
 func (g *jsiiProxy_GoogleComputeServiceAttachmentConsumerAcceptListsOutputReference) ResetNetworkUrl() {

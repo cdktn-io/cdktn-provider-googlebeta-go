@@ -5,14 +5,14 @@ package googlecomputeinstancegroupmanager
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinstancegroupmanager/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeinstancegroupmanager/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_instance_group_manager google_compute_instance_group_manager}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_instance_group_manager google_compute_instance_group_manager}.
 type GoogleComputeInstanceGroupManager interface {
 	cdktn.TerraformResource
 	AllInstancesConfig() GoogleComputeInstanceGroupManagerAllInstancesConfigOutputReference
@@ -106,6 +106,8 @@ type GoogleComputeInstanceGroupManager interface {
 	TargetSize() *float64
 	SetTargetSize(val *float64)
 	TargetSizeInput() *float64
+	TargetSizePolicy() GoogleComputeInstanceGroupManagerTargetSizePolicyList
+	TargetSizePolicyInput() interface{}
 	TargetStoppedSize() *float64
 	SetTargetStoppedSize(val *float64)
 	TargetStoppedSizeInput() *float64
@@ -186,6 +188,7 @@ type GoogleComputeInstanceGroupManager interface {
 	PutStatefulDisk(value interface{})
 	PutStatefulExternalIp(value interface{})
 	PutStatefulInternalIp(value interface{})
+	PutTargetSizePolicy(value interface{})
 	PutTimeouts(value *GoogleComputeInstanceGroupManagerTimeouts)
 	PutUpdatePolicy(value *GoogleComputeInstanceGroupManagerUpdatePolicy)
 	PutVersion(value interface{})
@@ -208,6 +211,7 @@ type GoogleComputeInstanceGroupManager interface {
 	ResetStatefulInternalIp()
 	ResetTargetPools()
 	ResetTargetSize()
+	ResetTargetSizePolicy()
 	ResetTargetStoppedSize()
 	ResetTargetSuspendedSize()
 	ResetTimeouts()
@@ -802,6 +806,26 @@ func (j *jsiiProxy_GoogleComputeInstanceGroupManager) TargetSizeInput() *float64
 	return returns
 }
 
+func (j *jsiiProxy_GoogleComputeInstanceGroupManager) TargetSizePolicy() GoogleComputeInstanceGroupManagerTargetSizePolicyList {
+	var returns GoogleComputeInstanceGroupManagerTargetSizePolicyList
+	_jsii_.Get(
+		j,
+		"targetSizePolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeInstanceGroupManager) TargetSizePolicyInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"targetSizePolicyInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleComputeInstanceGroupManager) TargetStoppedSize() *float64 {
 	var returns *float64
 	_jsii_.Get(
@@ -993,7 +1017,7 @@ func (j *jsiiProxy_GoogleComputeInstanceGroupManager) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_instance_group_manager google_compute_instance_group_manager} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_instance_group_manager google_compute_instance_group_manager} Resource.
 func NewGoogleComputeInstanceGroupManager(scope constructs.Construct, id *string, config *GoogleComputeInstanceGroupManagerConfig) GoogleComputeInstanceGroupManager {
 	_init_.Initialize()
 
@@ -1011,7 +1035,7 @@ func NewGoogleComputeInstanceGroupManager(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_instance_group_manager google_compute_instance_group_manager} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_instance_group_manager google_compute_instance_group_manager} Resource.
 func NewGoogleComputeInstanceGroupManager_Override(g GoogleComputeInstanceGroupManager, scope constructs.Construct, id *string, config *GoogleComputeInstanceGroupManagerConfig) {
 	_init_.Initialize()
 
@@ -1696,6 +1720,17 @@ func (g *jsiiProxy_GoogleComputeInstanceGroupManager) PutStatefulInternalIp(valu
 	)
 }
 
+func (g *jsiiProxy_GoogleComputeInstanceGroupManager) PutTargetSizePolicy(value interface{}) {
+	if err := g.validatePutTargetSizePolicyParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putTargetSizePolicy",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleComputeInstanceGroupManager) PutTimeouts(value *GoogleComputeInstanceGroupManagerTimeouts) {
 	if err := g.validatePutTimeoutsParameters(value); err != nil {
 		panic(err)
@@ -1861,6 +1896,14 @@ func (g *jsiiProxy_GoogleComputeInstanceGroupManager) ResetTargetSize() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetTargetSize",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleComputeInstanceGroupManager) ResetTargetSizePolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetTargetSizePolicy",
 		nil, // no parameters
 	)
 }

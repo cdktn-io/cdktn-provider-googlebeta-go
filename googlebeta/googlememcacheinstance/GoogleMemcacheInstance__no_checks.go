@@ -119,6 +119,10 @@ func (j *jsiiProxy_GoogleMemcacheInstance) validateSetCountParameters(val interf
 	return nil
 }
 
+func (j *jsiiProxy_GoogleMemcacheInstance) validateSetDeletionProtectionParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleMemcacheInstance) validateSetDisplayNameParameters(val *string) error {
 	return nil
 }

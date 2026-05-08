@@ -5,14 +5,14 @@ package googlecloudrunv2workerpooliammember
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudrunv2workerpooliammember/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudrunv2workerpooliammember/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_v2_worker_pool_iam_member google_cloud_run_v2_worker_pool_iam_member}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_v2_worker_pool_iam_member google_cloud_run_v2_worker_pool_iam_member}.
 type GoogleCloudRunV2WorkerPoolIamMember interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -471,7 +471,7 @@ func (j *jsiiProxy_GoogleCloudRunV2WorkerPoolIamMember) TerraformResourceType() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_v2_worker_pool_iam_member google_cloud_run_v2_worker_pool_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_v2_worker_pool_iam_member google_cloud_run_v2_worker_pool_iam_member} Resource.
 func NewGoogleCloudRunV2WorkerPoolIamMember(scope constructs.Construct, id *string, config *GoogleCloudRunV2WorkerPoolIamMemberConfig) GoogleCloudRunV2WorkerPoolIamMember {
 	_init_.Initialize()
 
@@ -489,7 +489,7 @@ func NewGoogleCloudRunV2WorkerPoolIamMember(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_v2_worker_pool_iam_member google_cloud_run_v2_worker_pool_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_v2_worker_pool_iam_member google_cloud_run_v2_worker_pool_iam_member} Resource.
 func NewGoogleCloudRunV2WorkerPoolIamMember_Override(g GoogleCloudRunV2WorkerPoolIamMember, scope constructs.Construct, id *string, config *GoogleCloudRunV2WorkerPoolIamMemberConfig) {
 	_init_.Initialize()
 

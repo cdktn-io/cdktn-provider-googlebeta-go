@@ -5,14 +5,14 @@ package googlegkeonpremvmwarenodepool
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegkeonpremvmwarenodepool/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlegkeonpremvmwarenodepool/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gkeonprem_vmware_node_pool google_gkeonprem_vmware_node_pool}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gkeonprem_vmware_node_pool google_gkeonprem_vmware_node_pool}.
 type GoogleGkeonpremVmwareNodePool interface {
 	cdktn.TerraformResource
 	Annotations() *map[string]*string
@@ -69,6 +69,8 @@ type GoogleGkeonpremVmwareNodePool interface {
 	NodePoolAutoscaling() GoogleGkeonpremVmwareNodePoolNodePoolAutoscalingOutputReference
 	NodePoolAutoscalingInput() *GoogleGkeonpremVmwareNodePoolNodePoolAutoscaling
 	OnPremVersion() *string
+	SetOnPremVersion(val *string)
+	OnPremVersionInput() *string
 	Project() *string
 	SetProject(val *string)
 	ProjectInput() *string
@@ -148,6 +150,7 @@ type GoogleGkeonpremVmwareNodePool interface {
 	ResetDisplayName()
 	ResetId()
 	ResetNodePoolAutoscaling()
+	ResetOnPremVersion()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
@@ -470,6 +473,16 @@ func (j *jsiiProxy_GoogleGkeonpremVmwareNodePool) OnPremVersion() *string {
 	return returns
 }
 
+func (j *jsiiProxy_GoogleGkeonpremVmwareNodePool) OnPremVersionInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"onPremVersionInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleGkeonpremVmwareNodePool) Project() *string {
 	var returns *string
 	_jsii_.Get(
@@ -641,7 +654,7 @@ func (j *jsiiProxy_GoogleGkeonpremVmwareNodePool) VmwareClusterInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gkeonprem_vmware_node_pool google_gkeonprem_vmware_node_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gkeonprem_vmware_node_pool google_gkeonprem_vmware_node_pool} Resource.
 func NewGoogleGkeonpremVmwareNodePool(scope constructs.Construct, id *string, config *GoogleGkeonpremVmwareNodePoolConfig) GoogleGkeonpremVmwareNodePool {
 	_init_.Initialize()
 
@@ -659,7 +672,7 @@ func NewGoogleGkeonpremVmwareNodePool(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gkeonprem_vmware_node_pool google_gkeonprem_vmware_node_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gkeonprem_vmware_node_pool google_gkeonprem_vmware_node_pool} Resource.
 func NewGoogleGkeonpremVmwareNodePool_Override(g GoogleGkeonpremVmwareNodePool, scope constructs.Construct, id *string, config *GoogleGkeonpremVmwareNodePoolConfig) {
 	_init_.Initialize()
 
@@ -770,6 +783,17 @@ func (j *jsiiProxy_GoogleGkeonpremVmwareNodePool)SetName(val *string) {
 	_jsii_.Set(
 		j,
 		"name",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleGkeonpremVmwareNodePool)SetOnPremVersion(val *string) {
+	if err := j.validateSetOnPremVersionParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"onPremVersion",
 		val,
 	)
 }
@@ -1229,6 +1253,14 @@ func (g *jsiiProxy_GoogleGkeonpremVmwareNodePool) ResetNodePoolAutoscaling() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetNodePoolAutoscaling",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleGkeonpremVmwareNodePool) ResetOnPremVersion() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetOnPremVersion",
 		nil, // no parameters
 	)
 }

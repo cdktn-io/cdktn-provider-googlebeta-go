@@ -5,14 +5,14 @@ package googledatafusioninstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatafusioninstance/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledatafusioninstance/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_data_fusion_instance google_data_fusion_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_data_fusion_instance google_data_fusion_instance}.
 type GoogleDataFusionInstance interface {
 	cdktn.TerraformResource
 	Accelerators() GoogleDataFusionInstanceAcceleratorsList
@@ -88,6 +88,9 @@ type GoogleDataFusionInstance interface {
 	SetOptions(val *map[string]*string)
 	OptionsInput() *map[string]*string
 	P4ServiceAccount() *string
+	PatchRevision() *string
+	SetPatchRevision(val *string)
+	PatchRevisionInput() *string
 	PrivateInstance() interface{}
 	SetPrivateInstance(val interface{})
 	PrivateInstanceInput() interface{}
@@ -198,6 +201,7 @@ type GoogleDataFusionInstance interface {
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
+	ResetPatchRevision()
 	ResetPrivateInstance()
 	ResetProject()
 	ResetRegion()
@@ -662,6 +666,26 @@ func (j *jsiiProxy_GoogleDataFusionInstance) P4ServiceAccount() *string {
 	return returns
 }
 
+func (j *jsiiProxy_GoogleDataFusionInstance) PatchRevision() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"patchRevision",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDataFusionInstance) PatchRevisionInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"patchRevisionInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleDataFusionInstance) PrivateInstance() interface{} {
 	var returns interface{}
 	_jsii_.Get(
@@ -953,7 +977,7 @@ func (j *jsiiProxy_GoogleDataFusionInstance) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_data_fusion_instance google_data_fusion_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_data_fusion_instance google_data_fusion_instance} Resource.
 func NewGoogleDataFusionInstance(scope constructs.Construct, id *string, config *GoogleDataFusionInstanceConfig) GoogleDataFusionInstance {
 	_init_.Initialize()
 
@@ -971,7 +995,7 @@ func NewGoogleDataFusionInstance(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_data_fusion_instance google_data_fusion_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_data_fusion_instance google_data_fusion_instance} Resource.
 func NewGoogleDataFusionInstance_Override(g GoogleDataFusionInstance, scope constructs.Construct, id *string, config *GoogleDataFusionInstanceConfig) {
 	_init_.Initialize()
 
@@ -1137,6 +1161,17 @@ func (j *jsiiProxy_GoogleDataFusionInstance)SetOptions(val *map[string]*string) 
 	_jsii_.Set(
 		j,
 		"options",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleDataFusionInstance)SetPatchRevision(val *string) {
+	if err := j.validateSetPatchRevisionParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"patchRevision",
 		val,
 	)
 }
@@ -1753,6 +1788,14 @@ func (g *jsiiProxy_GoogleDataFusionInstance) ResetOverrideLogicalId() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetOverrideLogicalId",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleDataFusionInstance) ResetPatchRevision() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetPatchRevision",
 		nil, // no parameters
 	)
 }

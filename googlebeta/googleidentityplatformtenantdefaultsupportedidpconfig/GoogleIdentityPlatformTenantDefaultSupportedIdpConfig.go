@@ -5,14 +5,14 @@ package googleidentityplatformtenantdefaultsupportedidpconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleidentityplatformtenantdefaultsupportedidpconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleidentityplatformtenantdefaultsupportedidpconfig/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_identity_platform_tenant_default_supported_idp_config google_identity_platform_tenant_default_supported_idp_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_identity_platform_tenant_default_supported_idp_config google_identity_platform_tenant_default_supported_idp_config}.
 type GoogleIdentityPlatformTenantDefaultSupportedIdpConfig interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -494,7 +494,7 @@ func (j *jsiiProxy_GoogleIdentityPlatformTenantDefaultSupportedIdpConfig) Timeou
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_identity_platform_tenant_default_supported_idp_config google_identity_platform_tenant_default_supported_idp_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_identity_platform_tenant_default_supported_idp_config google_identity_platform_tenant_default_supported_idp_config} Resource.
 func NewGoogleIdentityPlatformTenantDefaultSupportedIdpConfig(scope constructs.Construct, id *string, config *GoogleIdentityPlatformTenantDefaultSupportedIdpConfigConfig) GoogleIdentityPlatformTenantDefaultSupportedIdpConfig {
 	_init_.Initialize()
 
@@ -512,7 +512,7 @@ func NewGoogleIdentityPlatformTenantDefaultSupportedIdpConfig(scope constructs.C
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_identity_platform_tenant_default_supported_idp_config google_identity_platform_tenant_default_supported_idp_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_identity_platform_tenant_default_supported_idp_config google_identity_platform_tenant_default_supported_idp_config} Resource.
 func NewGoogleIdentityPlatformTenantDefaultSupportedIdpConfig_Override(g GoogleIdentityPlatformTenantDefaultSupportedIdpConfig, scope constructs.Construct, id *string, config *GoogleIdentityPlatformTenantDefaultSupportedIdpConfigConfig) {
 	_init_.Initialize()
 

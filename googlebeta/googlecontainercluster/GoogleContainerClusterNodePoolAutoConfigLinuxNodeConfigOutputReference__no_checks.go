@@ -47,6 +47,10 @@ func (g *jsiiProxy_GoogleContainerClusterNodePoolAutoConfigLinuxNodeConfigOutput
 	return nil
 }
 
+func (g *jsiiProxy_GoogleContainerClusterNodePoolAutoConfigLinuxNodeConfigOutputReference) validatePutNodeKernelModuleLoadingParameters(value *GoogleContainerClusterNodePoolAutoConfigLinuxNodeConfigNodeKernelModuleLoading) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleContainerClusterNodePoolAutoConfigLinuxNodeConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }

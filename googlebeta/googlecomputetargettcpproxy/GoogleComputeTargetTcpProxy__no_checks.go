@@ -119,6 +119,10 @@ func (j *jsiiProxy_GoogleComputeTargetTcpProxy) validateSetLifecycleParameters(v
 	return nil
 }
 
+func (j *jsiiProxy_GoogleComputeTargetTcpProxy) validateSetLoadBalancingSchemeParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleComputeTargetTcpProxy) validateSetNameParameters(val *string) error {
 	return nil
 }

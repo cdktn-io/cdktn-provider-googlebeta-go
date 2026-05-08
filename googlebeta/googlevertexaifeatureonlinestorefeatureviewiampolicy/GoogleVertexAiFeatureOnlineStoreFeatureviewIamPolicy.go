@@ -5,14 +5,14 @@ package googlevertexaifeatureonlinestorefeatureviewiampolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlevertexaifeatureonlinestorefeatureviewiampolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaifeatureonlinestorefeatureviewiampolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_feature_online_store_featureview_iam_policy google_vertex_ai_feature_online_store_featureview_iam_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_feature_online_store_featureview_iam_policy google_vertex_ai_feature_online_store_featureview_iam_policy}.
 type GoogleVertexAiFeatureOnlineStoreFeatureviewIamPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -447,7 +447,7 @@ func (j *jsiiProxy_GoogleVertexAiFeatureOnlineStoreFeatureviewIamPolicy) Terrafo
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_feature_online_store_featureview_iam_policy google_vertex_ai_feature_online_store_featureview_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_feature_online_store_featureview_iam_policy google_vertex_ai_feature_online_store_featureview_iam_policy} Resource.
 func NewGoogleVertexAiFeatureOnlineStoreFeatureviewIamPolicy(scope constructs.Construct, id *string, config *GoogleVertexAiFeatureOnlineStoreFeatureviewIamPolicyConfig) GoogleVertexAiFeatureOnlineStoreFeatureviewIamPolicy {
 	_init_.Initialize()
 
@@ -465,7 +465,7 @@ func NewGoogleVertexAiFeatureOnlineStoreFeatureviewIamPolicy(scope constructs.Co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_feature_online_store_featureview_iam_policy google_vertex_ai_feature_online_store_featureview_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_feature_online_store_featureview_iam_policy google_vertex_ai_feature_online_store_featureview_iam_policy} Resource.
 func NewGoogleVertexAiFeatureOnlineStoreFeatureviewIamPolicy_Override(g GoogleVertexAiFeatureOnlineStoreFeatureviewIamPolicy, scope constructs.Construct, id *string, config *GoogleVertexAiFeatureOnlineStoreFeatureviewIamPolicyConfig) {
 	_init_.Initialize()
 

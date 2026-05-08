@@ -5,14 +5,14 @@ package datagoogleaccessapprovalprojectserviceaccount
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagoogleaccessapprovalprojectserviceaccount/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagoogleaccessapprovalprojectserviceaccount/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_access_approval_project_service_account google_access_approval_project_service_account}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_access_approval_project_service_account google_access_approval_project_service_account}.
 type DataGoogleAccessApprovalProjectServiceAccount interface {
 	cdktn.TerraformDataSource
 	AccountEmail() *string
@@ -319,7 +319,7 @@ func (j *jsiiProxy_DataGoogleAccessApprovalProjectServiceAccount) TerraformResou
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_access_approval_project_service_account google_access_approval_project_service_account} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_access_approval_project_service_account google_access_approval_project_service_account} Data Source.
 func NewDataGoogleAccessApprovalProjectServiceAccount(scope constructs.Construct, id *string, config *DataGoogleAccessApprovalProjectServiceAccountConfig) DataGoogleAccessApprovalProjectServiceAccount {
 	_init_.Initialize()
 
@@ -337,7 +337,7 @@ func NewDataGoogleAccessApprovalProjectServiceAccount(scope constructs.Construct
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_access_approval_project_service_account google_access_approval_project_service_account} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_access_approval_project_service_account google_access_approval_project_service_account} Data Source.
 func NewDataGoogleAccessApprovalProjectServiceAccount_Override(d DataGoogleAccessApprovalProjectServiceAccount, scope constructs.Construct, id *string, config *DataGoogleAccessApprovalProjectServiceAccountConfig) {
 	_init_.Initialize()
 

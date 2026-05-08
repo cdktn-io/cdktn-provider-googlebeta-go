@@ -5,14 +5,14 @@ package googledataplextask
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplextask/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplextask/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_task google_dataplex_task}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_task google_dataplex_task}.
 type GoogleDataplexTask interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -693,7 +693,7 @@ func (j *jsiiProxy_GoogleDataplexTask) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_task google_dataplex_task} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_task google_dataplex_task} Resource.
 func NewGoogleDataplexTask(scope constructs.Construct, id *string, config *GoogleDataplexTaskConfig) GoogleDataplexTask {
 	_init_.Initialize()
 
@@ -711,7 +711,7 @@ func NewGoogleDataplexTask(scope constructs.Construct, id *string, config *Googl
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_task google_dataplex_task} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_task google_dataplex_task} Resource.
 func NewGoogleDataplexTask_Override(g GoogleDataplexTask, scope constructs.Construct, id *string, config *GoogleDataplexTaskConfig) {
 	_init_.Initialize()
 

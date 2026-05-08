@@ -5,14 +5,14 @@ package googlesqlsslcert
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlesqlsslcert/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlesqlsslcert/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_ssl_cert google_sql_ssl_cert}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_ssl_cert google_sql_ssl_cert}.
 type GoogleSqlSslCert interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -490,7 +490,7 @@ func (j *jsiiProxy_GoogleSqlSslCert) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_ssl_cert google_sql_ssl_cert} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_ssl_cert google_sql_ssl_cert} Resource.
 func NewGoogleSqlSslCert(scope constructs.Construct, id *string, config *GoogleSqlSslCertConfig) GoogleSqlSslCert {
 	_init_.Initialize()
 
@@ -508,7 +508,7 @@ func NewGoogleSqlSslCert(scope constructs.Construct, id *string, config *GoogleS
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_ssl_cert google_sql_ssl_cert} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_ssl_cert google_sql_ssl_cert} Resource.
 func NewGoogleSqlSslCert_Override(g GoogleSqlSslCert, scope constructs.Construct, id *string, config *GoogleSqlSslCertConfig) {
 	_init_.Initialize()
 

@@ -47,6 +47,10 @@ func (g *jsiiProxy_GoogleDatastreamStreamSourceConfigOutputReference) validateIn
 	return nil
 }
 
+func (g *jsiiProxy_GoogleDatastreamStreamSourceConfigOutputReference) validatePutMongodbSourceConfigParameters(value *GoogleDatastreamStreamSourceConfigMongodbSourceConfig) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleDatastreamStreamSourceConfigOutputReference) validatePutMysqlSourceConfigParameters(value *GoogleDatastreamStreamSourceConfigMysqlSourceConfig) error {
 	return nil
 }
@@ -60,6 +64,10 @@ func (g *jsiiProxy_GoogleDatastreamStreamSourceConfigOutputReference) validatePu
 }
 
 func (g *jsiiProxy_GoogleDatastreamStreamSourceConfigOutputReference) validatePutSalesforceSourceConfigParameters(value *GoogleDatastreamStreamSourceConfigSalesforceSourceConfig) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleDatastreamStreamSourceConfigOutputReference) validatePutSpannerSourceConfigParameters(value *GoogleDatastreamStreamSourceConfigSpannerSourceConfig) error {
 	return nil
 }
 

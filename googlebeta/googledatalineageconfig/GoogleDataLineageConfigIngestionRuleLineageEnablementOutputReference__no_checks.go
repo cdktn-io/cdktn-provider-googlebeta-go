@@ -1,0 +1,81 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package googledatalineageconfig
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (g *jsiiProxy_GoogleDataLineageConfigIngestionRuleLineageEnablementOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleDataLineageConfigIngestionRuleLineageEnablementOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleDataLineageConfigIngestionRuleLineageEnablementOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleDataLineageConfigIngestionRuleLineageEnablementOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleDataLineageConfigIngestionRuleLineageEnablementOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleDataLineageConfigIngestionRuleLineageEnablementOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleDataLineageConfigIngestionRuleLineageEnablementOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleDataLineageConfigIngestionRuleLineageEnablementOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleDataLineageConfigIngestionRuleLineageEnablementOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleDataLineageConfigIngestionRuleLineageEnablementOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleDataLineageConfigIngestionRuleLineageEnablementOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleDataLineageConfigIngestionRuleLineageEnablementOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleDataLineageConfigIngestionRuleLineageEnablementOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleDataLineageConfigIngestionRuleLineageEnablementOutputReference) validateSetEnabledParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleDataLineageConfigIngestionRuleLineageEnablementOutputReference) validateSetInternalValueParameters(val *GoogleDataLineageConfigIngestionRuleLineageEnablement) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleDataLineageConfigIngestionRuleLineageEnablementOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleDataLineageConfigIngestionRuleLineageEnablementOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewGoogleDataLineageConfigIngestionRuleLineageEnablementOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

@@ -411,6 +411,14 @@ func (j *jsiiProxy_GoogleNetworkServicesTlsRoute) validateSetLifecycleParameters
 	return nil
 }
 
+func (j *jsiiProxy_GoogleNetworkServicesTlsRoute) validateSetLocationParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_GoogleNetworkServicesTlsRoute) validateSetMeshesParameters(val *[]*string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
@@ -476,6 +484,14 @@ func (j *jsiiProxy_GoogleNetworkServicesTlsRoute) validateSetProvisionersParamet
 				return fmt.Errorf("parameter val[%#v] must be one of the allowed types: *cdktn.FileProvisioner, *cdktn.LocalExecProvisioner, *cdktn.RemoteExecProvisioner; received %#v (a %T)", idx_97dfc6, v, v)
 			}
 		}
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_GoogleNetworkServicesTlsRoute) validateSetTargetProxiesParameters(val *[]*string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
 
 	return nil

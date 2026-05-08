@@ -5,14 +5,14 @@ package googledataflowflextemplatejob
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataflowflextemplatejob/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataflowflextemplatejob/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataflow_flex_template_job google_dataflow_flex_template_job}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataflow_flex_template_job google_dataflow_flex_template_job}.
 type GoogleDataflowFlexTemplateJob interface {
 	cdktn.TerraformResource
 	AdditionalExperiments() *[]*string
@@ -972,7 +972,7 @@ func (j *jsiiProxy_GoogleDataflowFlexTemplateJob) Type() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataflow_flex_template_job google_dataflow_flex_template_job} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataflow_flex_template_job google_dataflow_flex_template_job} Resource.
 func NewGoogleDataflowFlexTemplateJob(scope constructs.Construct, id *string, config *GoogleDataflowFlexTemplateJobConfig) GoogleDataflowFlexTemplateJob {
 	_init_.Initialize()
 
@@ -990,7 +990,7 @@ func NewGoogleDataflowFlexTemplateJob(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataflow_flex_template_job google_dataflow_flex_template_job} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataflow_flex_template_job google_dataflow_flex_template_job} Resource.
 func NewGoogleDataflowFlexTemplateJob_Override(g GoogleDataflowFlexTemplateJob, scope constructs.Construct, id *string, config *GoogleDataflowFlexTemplateJobConfig) {
 	_init_.Initialize()
 

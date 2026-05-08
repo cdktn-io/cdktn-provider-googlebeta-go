@@ -5,9 +5,9 @@ package datagooglebigquerytable
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglebigquerytable/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglebigquerytable/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -34,6 +34,7 @@ type DataGoogleBigqueryTableExternalDataConfigurationOutputReference interface {
 	// Experimental.
 	CreationStack() *[]*string
 	CsvOptions() DataGoogleBigqueryTableExternalDataConfigurationCsvOptionsList
+	DecimalTargetTypes() *[]*string
 	FileSetSpecType() *string
 	// Experimental.
 	Fqn() *string
@@ -184,6 +185,16 @@ func (j *jsiiProxy_DataGoogleBigqueryTableExternalDataConfigurationOutputReferen
 	_jsii_.Get(
 		j,
 		"csvOptions",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleBigqueryTableExternalDataConfigurationOutputReference) DecimalTargetTypes() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"decimalTargetTypes",
 		&returns,
 	)
 	return returns

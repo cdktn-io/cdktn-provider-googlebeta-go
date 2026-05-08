@@ -1,6 +1,6 @@
-# CDKTN Go bindings for hashicorp/google-beta provider version 6.50.0
+# CDKTN Go bindings for hashicorp/google-beta provider version 7.31.0
 
-This repo builds and publishes the [Terraform google-beta provider](https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs) bindings for [CDK Terrain](https://cdktn.io).
+This repo builds and publishes the [Terraform google-beta provider](https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs) bindings for [CDK Terrain](https://cdktn.io).
 
 ## Go Package
 
@@ -18,12 +18,12 @@ Find auto-generated docs for this provider [here](https://github.com/cdktn-io/cd
 
 ## Versioning
 
-This project is explicitly not tracking the Terraform google-beta provider version 1:1. In fact, it always tracks `latest` of `~> 6.50.0` with every release. If there are scenarios where you explicitly have to pin your provider version, you can do so by [generating the provider constructs manually](https://cdktn.io/docs/concepts/providers#import-providers).
+This project is explicitly not tracking the Terraform google-beta provider version 1:1. In fact, it always tracks `latest` of `~> 7.0` with every release. If there are scenarios where you explicitly have to pin your provider version, you can do so by [generating the provider constructs manually](https://cdktn.io/docs/concepts/providers#import-providers).
 
 These are the upstream dependencies:
 
 * [CDK Terrain](https://cdktn.io) - Last official release
-* [Terraform google-beta provider](https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0)
+* [Terraform google-beta provider](https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0)
 * [Terraform Engine](https://terraform.io)
 
 If there are breaking changes (backward incompatible) in any of the above, the major version of this project will be bumped.

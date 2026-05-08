@@ -51,6 +51,10 @@ func (g *jsiiProxy_GoogleBlockchainNodeEngineBlockchainNodesEthereumDetailsValid
 	return nil
 }
 
+func (j *jsiiProxy_GoogleBlockchainNodeEngineBlockchainNodesEthereumDetailsValidatorConfigOutputReference) validateSetBeaconFeeRecipientParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleBlockchainNodeEngineBlockchainNodesEthereumDetailsValidatorConfigOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
 	return nil
 }

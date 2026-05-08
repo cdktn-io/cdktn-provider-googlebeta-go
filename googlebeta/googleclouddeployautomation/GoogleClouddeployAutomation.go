@@ -5,14 +5,14 @@ package googleclouddeployautomation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleclouddeployautomation/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeployautomation/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_automation google_clouddeploy_automation}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_automation google_clouddeploy_automation}.
 type GoogleClouddeployAutomation interface {
 	cdktn.TerraformResource
 	Annotations() *map[string]*string
@@ -678,7 +678,7 @@ func (j *jsiiProxy_GoogleClouddeployAutomation) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_automation google_clouddeploy_automation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_automation google_clouddeploy_automation} Resource.
 func NewGoogleClouddeployAutomation(scope constructs.Construct, id *string, config *GoogleClouddeployAutomationConfig) GoogleClouddeployAutomation {
 	_init_.Initialize()
 
@@ -696,7 +696,7 @@ func NewGoogleClouddeployAutomation(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_clouddeploy_automation google_clouddeploy_automation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_clouddeploy_automation google_clouddeploy_automation} Resource.
 func NewGoogleClouddeployAutomation_Override(g GoogleClouddeployAutomation, scope constructs.Construct, id *string, config *GoogleClouddeployAutomationConfig) {
 	_init_.Initialize()
 

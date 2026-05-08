@@ -5,14 +5,14 @@ package googlevertexaifeaturestoreentitytypefeature
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlevertexaifeaturestoreentitytypefeature/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaifeaturestoreentitytypefeature/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_featurestore_entitytype_feature google_vertex_ai_featurestore_entitytype_feature}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_featurestore_entitytype_feature google_vertex_ai_featurestore_entitytype_feature}.
 type GoogleVertexAiFeaturestoreEntitytypeFeature interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -527,7 +527,7 @@ func (j *jsiiProxy_GoogleVertexAiFeaturestoreEntitytypeFeature) ValueTypeInput()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_featurestore_entitytype_feature google_vertex_ai_featurestore_entitytype_feature} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_featurestore_entitytype_feature google_vertex_ai_featurestore_entitytype_feature} Resource.
 func NewGoogleVertexAiFeaturestoreEntitytypeFeature(scope constructs.Construct, id *string, config *GoogleVertexAiFeaturestoreEntitytypeFeatureConfig) GoogleVertexAiFeaturestoreEntitytypeFeature {
 	_init_.Initialize()
 
@@ -545,7 +545,7 @@ func NewGoogleVertexAiFeaturestoreEntitytypeFeature(scope constructs.Construct, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_featurestore_entitytype_feature google_vertex_ai_featurestore_entitytype_feature} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_featurestore_entitytype_feature google_vertex_ai_featurestore_entitytype_feature} Resource.
 func NewGoogleVertexAiFeaturestoreEntitytypeFeature_Override(g GoogleVertexAiFeaturestoreEntitytypeFeature, scope constructs.Construct, id *string, config *GoogleVertexAiFeaturestoreEntitytypeFeatureConfig) {
 	_init_.Initialize()
 

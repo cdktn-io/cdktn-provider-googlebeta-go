@@ -5,9 +5,9 @@ package datagooglecontainercluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglecontainercluster/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglecontainercluster/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -31,6 +31,7 @@ type DataGoogleContainerClusterClusterAutoscalingOutputReference interface {
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
+	DefaultComputeClassEnabled() cdktn.IResolvable
 	Enabled() cdktn.IResolvable
 	// Experimental.
 	Fqn() *string
@@ -139,6 +140,16 @@ func (j *jsiiProxy_DataGoogleContainerClusterClusterAutoscalingOutputReference) 
 	_jsii_.Get(
 		j,
 		"creationStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleContainerClusterClusterAutoscalingOutputReference) DefaultComputeClassEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
+	_jsii_.Get(
+		j,
+		"defaultComputeClassEnabled",
 		&returns,
 	)
 	return returns

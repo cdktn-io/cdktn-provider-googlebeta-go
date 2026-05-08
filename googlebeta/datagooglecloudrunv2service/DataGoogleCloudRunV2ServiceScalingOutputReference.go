@@ -5,9 +5,9 @@ package datagooglecloudrunv2service
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglecloudrunv2service/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglecloudrunv2service/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -33,6 +33,7 @@ type DataGoogleCloudRunV2ServiceScalingOutputReference interface {
 	InternalValue() *DataGoogleCloudRunV2ServiceScaling
 	SetInternalValue(val *DataGoogleCloudRunV2ServiceScaling)
 	ManualInstanceCount() *float64
+	MaxInstanceCount() *float64
 	MinInstanceCount() *float64
 	ScalingMode() *string
 	// Experimental.
@@ -137,6 +138,16 @@ func (j *jsiiProxy_DataGoogleCloudRunV2ServiceScalingOutputReference) ManualInst
 	_jsii_.Get(
 		j,
 		"manualInstanceCount",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleCloudRunV2ServiceScalingOutputReference) MaxInstanceCount() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"maxInstanceCount",
 		&returns,
 	)
 	return returns

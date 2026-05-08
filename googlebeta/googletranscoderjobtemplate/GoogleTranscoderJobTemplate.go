@@ -5,14 +5,14 @@ package googletranscoderjobtemplate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googletranscoderjobtemplate/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googletranscoderjobtemplate/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_transcoder_job_template google_transcoder_job_template}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_transcoder_job_template google_transcoder_job_template}.
 type GoogleTranscoderJobTemplate interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -494,7 +494,7 @@ func (j *jsiiProxy_GoogleTranscoderJobTemplate) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_transcoder_job_template google_transcoder_job_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_transcoder_job_template google_transcoder_job_template} Resource.
 func NewGoogleTranscoderJobTemplate(scope constructs.Construct, id *string, config *GoogleTranscoderJobTemplateConfig) GoogleTranscoderJobTemplate {
 	_init_.Initialize()
 
@@ -512,7 +512,7 @@ func NewGoogleTranscoderJobTemplate(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_transcoder_job_template google_transcoder_job_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_transcoder_job_template google_transcoder_job_template} Resource.
 func NewGoogleTranscoderJobTemplate_Override(g GoogleTranscoderJobTemplate, scope constructs.Construct, id *string, config *GoogleTranscoderJobTemplateConfig) {
 	_init_.Initialize()
 

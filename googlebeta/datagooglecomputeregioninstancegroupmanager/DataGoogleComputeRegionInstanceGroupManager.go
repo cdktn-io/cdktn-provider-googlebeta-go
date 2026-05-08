@@ -5,14 +5,14 @@ package datagooglecomputeregioninstancegroupmanager
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglecomputeregioninstancegroupmanager/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglecomputeregioninstancegroupmanager/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_compute_region_instance_group_manager google_compute_region_instance_group_manager}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_compute_region_instance_group_manager google_compute_region_instance_group_manager}.
 type DataGoogleComputeRegionInstanceGroupManager interface {
 	cdktn.TerraformDataSource
 	AllInstancesConfig() DataGoogleComputeRegionInstanceGroupManagerAllInstancesConfigList
@@ -74,6 +74,7 @@ type DataGoogleComputeRegionInstanceGroupManager interface {
 	Region() *string
 	SetRegion(val *string)
 	RegionInput() *string
+	ResourcePolicies() DataGoogleComputeRegionInstanceGroupManagerResourcePoliciesList
 	SelfLink() *string
 	SetSelfLink(val *string)
 	SelfLinkInput() *string
@@ -84,6 +85,7 @@ type DataGoogleComputeRegionInstanceGroupManager interface {
 	Status() DataGoogleComputeRegionInstanceGroupManagerStatusList
 	TargetPools() *[]*string
 	TargetSize() *float64
+	TargetSizePolicy() DataGoogleComputeRegionInstanceGroupManagerTargetSizePolicyList
 	TargetStoppedSize() *float64
 	TargetSuspendedSize() *float64
 	// Experimental.
@@ -497,6 +499,16 @@ func (j *jsiiProxy_DataGoogleComputeRegionInstanceGroupManager) RegionInput() *s
 	return returns
 }
 
+func (j *jsiiProxy_DataGoogleComputeRegionInstanceGroupManager) ResourcePolicies() DataGoogleComputeRegionInstanceGroupManagerResourcePoliciesList {
+	var returns DataGoogleComputeRegionInstanceGroupManagerResourcePoliciesList
+	_jsii_.Get(
+		j,
+		"resourcePolicies",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataGoogleComputeRegionInstanceGroupManager) SelfLink() *string {
 	var returns *string
 	_jsii_.Get(
@@ -582,6 +594,16 @@ func (j *jsiiProxy_DataGoogleComputeRegionInstanceGroupManager) TargetSize() *fl
 	_jsii_.Get(
 		j,
 		"targetSize",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleComputeRegionInstanceGroupManager) TargetSizePolicy() DataGoogleComputeRegionInstanceGroupManagerTargetSizePolicyList {
+	var returns DataGoogleComputeRegionInstanceGroupManagerTargetSizePolicyList
+	_jsii_.Get(
+		j,
+		"targetSizePolicy",
 		&returns,
 	)
 	return returns
@@ -678,7 +700,7 @@ func (j *jsiiProxy_DataGoogleComputeRegionInstanceGroupManager) WaitForInstances
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_compute_region_instance_group_manager google_compute_region_instance_group_manager} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_compute_region_instance_group_manager google_compute_region_instance_group_manager} Data Source.
 func NewDataGoogleComputeRegionInstanceGroupManager(scope constructs.Construct, id *string, config *DataGoogleComputeRegionInstanceGroupManagerConfig) DataGoogleComputeRegionInstanceGroupManager {
 	_init_.Initialize()
 
@@ -696,7 +718,7 @@ func NewDataGoogleComputeRegionInstanceGroupManager(scope constructs.Construct, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_compute_region_instance_group_manager google_compute_region_instance_group_manager} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_compute_region_instance_group_manager google_compute_region_instance_group_manager} Data Source.
 func NewDataGoogleComputeRegionInstanceGroupManager_Override(d DataGoogleComputeRegionInstanceGroupManager, scope constructs.Construct, id *string, config *DataGoogleComputeRegionInstanceGroupManagerConfig) {
 	_init_.Initialize()
 

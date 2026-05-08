@@ -206,6 +206,14 @@ func (j *jsiiProxy_GoogleSpannerInstanceAutoscalingConfigAutoscalingTargetsOutpu
 	return nil
 }
 
+func (j *jsiiProxy_GoogleSpannerInstanceAutoscalingConfigAutoscalingTargetsOutputReference) validateSetTotalCpuUtilizationPercentParameters(val *float64) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func validateNewGoogleSpannerInstanceAutoscalingConfigAutoscalingTargetsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")

@@ -87,6 +87,10 @@ func (g *jsiiProxy_GoogleCloudbuildTrigger) validatePutBuildAttributeParameters(
 	return nil
 }
 
+func (g *jsiiProxy_GoogleCloudbuildTrigger) validatePutDeveloperConnectEventConfigParameters(value *GoogleCloudbuildTriggerDeveloperConnectEventConfig) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleCloudbuildTrigger) validatePutGitFileSourceParameters(value *GoogleCloudbuildTriggerGitFileSource) error {
 	return nil
 }

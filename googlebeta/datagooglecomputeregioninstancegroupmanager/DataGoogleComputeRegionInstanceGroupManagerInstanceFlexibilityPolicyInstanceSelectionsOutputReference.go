@@ -5,9 +5,9 @@ package datagooglecomputeregioninstancegroupmanager
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglecomputeregioninstancegroupmanager/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglecomputeregioninstancegroupmanager/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -28,11 +28,13 @@ type DataGoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanc
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
+	Disks() DataGoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsDisksList
 	// Experimental.
 	Fqn() *string
 	InternalValue() *DataGoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelections
 	SetInternalValue(val *DataGoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelections)
 	MachineTypes() *[]*string
+	MinCpuPlatform() *string
 	Name() *string
 	Rank() *float64
 	// Experimental.
@@ -112,6 +114,16 @@ func (j *jsiiProxy_DataGoogleComputeRegionInstanceGroupManagerInstanceFlexibilit
 	return returns
 }
 
+func (j *jsiiProxy_DataGoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsOutputReference) Disks() DataGoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsDisksList {
+	var returns DataGoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsDisksList
+	_jsii_.Get(
+		j,
+		"disks",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataGoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsOutputReference) Fqn() *string {
 	var returns *string
 	_jsii_.Get(
@@ -137,6 +149,16 @@ func (j *jsiiProxy_DataGoogleComputeRegionInstanceGroupManagerInstanceFlexibilit
 	_jsii_.Get(
 		j,
 		"machineTypes",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsOutputReference) MinCpuPlatform() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"minCpuPlatform",
 		&returns,
 	)
 	return returns

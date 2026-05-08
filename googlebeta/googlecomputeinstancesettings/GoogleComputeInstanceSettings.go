@@ -5,14 +5,14 @@ package googlecomputeinstancesettings
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinstancesettings/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeinstancesettings/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_instance_settings google_compute_instance_settings}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_instance_settings google_compute_instance_settings}.
 type GoogleComputeInstanceSettings interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -425,7 +425,7 @@ func (j *jsiiProxy_GoogleComputeInstanceSettings) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_instance_settings google_compute_instance_settings} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_instance_settings google_compute_instance_settings} Resource.
 func NewGoogleComputeInstanceSettings(scope constructs.Construct, id *string, config *GoogleComputeInstanceSettingsConfig) GoogleComputeInstanceSettings {
 	_init_.Initialize()
 
@@ -443,7 +443,7 @@ func NewGoogleComputeInstanceSettings(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_instance_settings google_compute_instance_settings} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_instance_settings google_compute_instance_settings} Resource.
 func NewGoogleComputeInstanceSettings_Override(g GoogleComputeInstanceSettings, scope constructs.Construct, id *string, config *GoogleComputeInstanceSettingsConfig) {
 	_init_.Initialize()
 

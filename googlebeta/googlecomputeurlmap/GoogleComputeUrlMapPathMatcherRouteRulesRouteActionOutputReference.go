@@ -5,14 +5,16 @@ package googlecomputeurlmap
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeurlmap/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeurlmap/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type GoogleComputeUrlMapPathMatcherRouteRulesRouteActionOutputReference interface {
 	cdktn.ComplexObject
+	CachePolicy() GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyOutputReference
+	CachePolicyInput() *GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicy
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -80,6 +82,7 @@ type GoogleComputeUrlMapPathMatcherRouteRulesRouteActionOutputReference interfac
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutCachePolicy(value *GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicy)
 	PutCorsPolicy(value *GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCorsPolicy)
 	PutFaultInjectionPolicy(value *GoogleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicy)
 	PutMaxStreamDuration(value *GoogleComputeUrlMapPathMatcherRouteRulesRouteActionMaxStreamDuration)
@@ -88,6 +91,7 @@ type GoogleComputeUrlMapPathMatcherRouteRulesRouteActionOutputReference interfac
 	PutTimeout(value *GoogleComputeUrlMapPathMatcherRouteRulesRouteActionTimeout)
 	PutUrlRewrite(value *GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewrite)
 	PutWeightedBackendServices(value interface{})
+	ResetCachePolicy()
 	ResetCorsPolicy()
 	ResetFaultInjectionPolicy()
 	ResetMaxStreamDuration()
@@ -109,6 +113,26 @@ type GoogleComputeUrlMapPathMatcherRouteRulesRouteActionOutputReference interfac
 // The jsii proxy struct for GoogleComputeUrlMapPathMatcherRouteRulesRouteActionOutputReference
 type jsiiProxy_GoogleComputeUrlMapPathMatcherRouteRulesRouteActionOutputReference struct {
 	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_GoogleComputeUrlMapPathMatcherRouteRulesRouteActionOutputReference) CachePolicy() GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyOutputReference {
+	var returns GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicyOutputReference
+	_jsii_.Get(
+		j,
+		"cachePolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeUrlMapPathMatcherRouteRulesRouteActionOutputReference) CachePolicyInput() *GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicy {
+	var returns *GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicy
+	_jsii_.Get(
+		j,
+		"cachePolicyInput",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_GoogleComputeUrlMapPathMatcherRouteRulesRouteActionOutputReference) ComplexObjectIndex() interface{} {
@@ -610,6 +634,17 @@ func (g *jsiiProxy_GoogleComputeUrlMapPathMatcherRouteRulesRouteActionOutputRefe
 	return returns
 }
 
+func (g *jsiiProxy_GoogleComputeUrlMapPathMatcherRouteRulesRouteActionOutputReference) PutCachePolicy(value *GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicy) {
+	if err := g.validatePutCachePolicyParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putCachePolicy",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleComputeUrlMapPathMatcherRouteRulesRouteActionOutputReference) PutCorsPolicy(value *GoogleComputeUrlMapPathMatcherRouteRulesRouteActionCorsPolicy) {
 	if err := g.validatePutCorsPolicyParameters(value); err != nil {
 		panic(err)
@@ -695,6 +730,14 @@ func (g *jsiiProxy_GoogleComputeUrlMapPathMatcherRouteRulesRouteActionOutputRefe
 		g,
 		"putWeightedBackendServices",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleComputeUrlMapPathMatcherRouteRulesRouteActionOutputReference) ResetCachePolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetCachePolicy",
+		nil, // no parameters
 	)
 }
 

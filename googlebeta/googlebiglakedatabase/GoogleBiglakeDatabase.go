@@ -5,14 +5,14 @@ package googlebiglakedatabase
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebiglakedatabase/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebiglakedatabase/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_biglake_database google_biglake_database}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_biglake_database google_biglake_database}.
 type GoogleBiglakeDatabase interface {
 	cdktn.TerraformResource
 	Catalog() *string
@@ -479,7 +479,7 @@ func (j *jsiiProxy_GoogleBiglakeDatabase) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_biglake_database google_biglake_database} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_biglake_database google_biglake_database} Resource.
 func NewGoogleBiglakeDatabase(scope constructs.Construct, id *string, config *GoogleBiglakeDatabaseConfig) GoogleBiglakeDatabase {
 	_init_.Initialize()
 
@@ -497,7 +497,7 @@ func NewGoogleBiglakeDatabase(scope constructs.Construct, id *string, config *Go
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_biglake_database google_biglake_database} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_biglake_database google_biglake_database} Resource.
 func NewGoogleBiglakeDatabase_Override(g GoogleBiglakeDatabase, scope constructs.Construct, id *string, config *GoogleBiglakeDatabaseConfig) {
 	_init_.Initialize()
 

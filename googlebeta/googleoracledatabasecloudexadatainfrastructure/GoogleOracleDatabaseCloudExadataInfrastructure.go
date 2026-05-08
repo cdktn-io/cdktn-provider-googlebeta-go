@@ -5,14 +5,14 @@ package googleoracledatabasecloudexadatainfrastructure
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleoracledatabasecloudexadatainfrastructure/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleoracledatabasecloudexadatainfrastructure/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_oracle_database_cloud_exadata_infrastructure google_oracle_database_cloud_exadata_infrastructure}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_oracle_database_cloud_exadata_infrastructure google_oracle_database_cloud_exadata_infrastructure}.
 type GoogleOracleDatabaseCloudExadataInfrastructure interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -588,7 +588,7 @@ func (j *jsiiProxy_GoogleOracleDatabaseCloudExadataInfrastructure) TimeoutsInput
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_oracle_database_cloud_exadata_infrastructure google_oracle_database_cloud_exadata_infrastructure} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_oracle_database_cloud_exadata_infrastructure google_oracle_database_cloud_exadata_infrastructure} Resource.
 func NewGoogleOracleDatabaseCloudExadataInfrastructure(scope constructs.Construct, id *string, config *GoogleOracleDatabaseCloudExadataInfrastructureConfig) GoogleOracleDatabaseCloudExadataInfrastructure {
 	_init_.Initialize()
 
@@ -606,7 +606,7 @@ func NewGoogleOracleDatabaseCloudExadataInfrastructure(scope constructs.Construc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_oracle_database_cloud_exadata_infrastructure google_oracle_database_cloud_exadata_infrastructure} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_oracle_database_cloud_exadata_infrastructure google_oracle_database_cloud_exadata_infrastructure} Resource.
 func NewGoogleOracleDatabaseCloudExadataInfrastructure_Override(g GoogleOracleDatabaseCloudExadataInfrastructure, scope constructs.Construct, id *string, config *GoogleOracleDatabaseCloudExadataInfrastructureConfig) {
 	_init_.Initialize()
 

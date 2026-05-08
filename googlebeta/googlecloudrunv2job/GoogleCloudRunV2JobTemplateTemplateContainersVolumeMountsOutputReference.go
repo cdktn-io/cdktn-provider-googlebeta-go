@@ -5,9 +5,9 @@ package googlecloudrunv2job
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudrunv2job/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudrunv2job/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -38,6 +38,9 @@ type GoogleCloudRunV2JobTemplateTemplateContainersVolumeMountsOutputReference in
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
+	SubPath() *string
+	SetSubPath(val *string)
+	SubPathInput() *string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -70,6 +73,7 @@ type GoogleCloudRunV2JobTemplateTemplateContainersVolumeMountsOutputReference in
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	ResetSubPath()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -175,6 +179,26 @@ func (j *jsiiProxy_GoogleCloudRunV2JobTemplateTemplateContainersVolumeMountsOutp
 	return returns
 }
 
+func (j *jsiiProxy_GoogleCloudRunV2JobTemplateTemplateContainersVolumeMountsOutputReference) SubPath() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"subPath",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCloudRunV2JobTemplateTemplateContainersVolumeMountsOutputReference) SubPathInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"subPathInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleCloudRunV2JobTemplateTemplateContainersVolumeMountsOutputReference) TerraformAttribute() *string {
 	var returns *string
 	_jsii_.Get(
@@ -274,6 +298,17 @@ func (j *jsiiProxy_GoogleCloudRunV2JobTemplateTemplateContainersVolumeMountsOutp
 	_jsii_.Set(
 		j,
 		"name",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleCloudRunV2JobTemplateTemplateContainersVolumeMountsOutputReference)SetSubPath(val *string) {
+	if err := j.validateSetSubPathParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"subPath",
 		val,
 	)
 }
@@ -484,6 +519,14 @@ func (g *jsiiProxy_GoogleCloudRunV2JobTemplateTemplateContainersVolumeMountsOutp
 	)
 
 	return returns
+}
+
+func (g *jsiiProxy_GoogleCloudRunV2JobTemplateTemplateContainersVolumeMountsOutputReference) ResetSubPath() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetSubPath",
+		nil, // no parameters
+	)
 }
 
 func (g *jsiiProxy_GoogleCloudRunV2JobTemplateTemplateContainersVolumeMountsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {

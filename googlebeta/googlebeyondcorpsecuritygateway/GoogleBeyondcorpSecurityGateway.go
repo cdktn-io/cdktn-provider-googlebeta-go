@@ -5,14 +5,14 @@ package googlebeyondcorpsecuritygateway
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebeyondcorpsecuritygateway/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebeyondcorpsecuritygateway/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_beyondcorp_security_gateway google_beyondcorp_security_gateway}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_beyondcorp_security_gateway google_beyondcorp_security_gateway}.
 type GoogleBeyondcorpSecurityGateway interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -57,6 +57,8 @@ type GoogleBeyondcorpSecurityGateway interface {
 	Location() *string
 	SetLocation(val *string)
 	LocationInput() *string
+	Logging() GoogleBeyondcorpSecurityGatewayLoggingOutputReference
+	LoggingInput() *GoogleBeyondcorpSecurityGatewayLogging
 	Name() *string
 	// The tree node.
 	Node() constructs.Node
@@ -71,11 +73,15 @@ type GoogleBeyondcorpSecurityGateway interface {
 	Provisioners() *[]interface{}
 	// Experimental.
 	SetProvisioners(val *[]interface{})
+	ProxyProtocolConfig() GoogleBeyondcorpSecurityGatewayProxyProtocolConfigOutputReference
+	ProxyProtocolConfigInput() *GoogleBeyondcorpSecurityGatewayProxyProtocolConfig
 	// Experimental.
 	RawOverrides() interface{}
 	SecurityGatewayId() *string
 	SetSecurityGatewayId(val *string)
 	SecurityGatewayIdInput() *string
+	ServiceDiscovery() GoogleBeyondcorpSecurityGatewayServiceDiscoveryOutputReference
+	ServiceDiscoveryInput() *GoogleBeyondcorpSecurityGatewayServiceDiscovery
 	State() *string
 	// Experimental.
 	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
@@ -130,15 +136,21 @@ type GoogleBeyondcorpSecurityGateway interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutHubs(value interface{})
+	PutLogging(value *GoogleBeyondcorpSecurityGatewayLogging)
+	PutProxyProtocolConfig(value *GoogleBeyondcorpSecurityGatewayProxyProtocolConfig)
+	PutServiceDiscovery(value *GoogleBeyondcorpSecurityGatewayServiceDiscovery)
 	PutTimeouts(value *GoogleBeyondcorpSecurityGatewayTimeouts)
 	ResetDisplayName()
 	ResetHubs()
 	ResetId()
 	ResetLocation()
+	ResetLogging()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
 	ResetProject()
+	ResetProxyProtocolConfig()
+	ResetServiceDiscovery()
 	ResetTimeouts()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
@@ -367,6 +379,26 @@ func (j *jsiiProxy_GoogleBeyondcorpSecurityGateway) LocationInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_GoogleBeyondcorpSecurityGateway) Logging() GoogleBeyondcorpSecurityGatewayLoggingOutputReference {
+	var returns GoogleBeyondcorpSecurityGatewayLoggingOutputReference
+	_jsii_.Get(
+		j,
+		"logging",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleBeyondcorpSecurityGateway) LoggingInput() *GoogleBeyondcorpSecurityGatewayLogging {
+	var returns *GoogleBeyondcorpSecurityGatewayLogging
+	_jsii_.Get(
+		j,
+		"loggingInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleBeyondcorpSecurityGateway) Name() *string {
 	var returns *string
 	_jsii_.Get(
@@ -427,6 +459,26 @@ func (j *jsiiProxy_GoogleBeyondcorpSecurityGateway) Provisioners() *[]interface{
 	return returns
 }
 
+func (j *jsiiProxy_GoogleBeyondcorpSecurityGateway) ProxyProtocolConfig() GoogleBeyondcorpSecurityGatewayProxyProtocolConfigOutputReference {
+	var returns GoogleBeyondcorpSecurityGatewayProxyProtocolConfigOutputReference
+	_jsii_.Get(
+		j,
+		"proxyProtocolConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleBeyondcorpSecurityGateway) ProxyProtocolConfigInput() *GoogleBeyondcorpSecurityGatewayProxyProtocolConfig {
+	var returns *GoogleBeyondcorpSecurityGatewayProxyProtocolConfig
+	_jsii_.Get(
+		j,
+		"proxyProtocolConfigInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleBeyondcorpSecurityGateway) RawOverrides() interface{} {
 	var returns interface{}
 	_jsii_.Get(
@@ -452,6 +504,26 @@ func (j *jsiiProxy_GoogleBeyondcorpSecurityGateway) SecurityGatewayIdInput() *st
 	_jsii_.Get(
 		j,
 		"securityGatewayIdInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleBeyondcorpSecurityGateway) ServiceDiscovery() GoogleBeyondcorpSecurityGatewayServiceDiscoveryOutputReference {
+	var returns GoogleBeyondcorpSecurityGatewayServiceDiscoveryOutputReference
+	_jsii_.Get(
+		j,
+		"serviceDiscovery",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleBeyondcorpSecurityGateway) ServiceDiscoveryInput() *GoogleBeyondcorpSecurityGatewayServiceDiscovery {
+	var returns *GoogleBeyondcorpSecurityGatewayServiceDiscovery
+	_jsii_.Get(
+		j,
+		"serviceDiscoveryInput",
 		&returns,
 	)
 	return returns
@@ -528,7 +600,7 @@ func (j *jsiiProxy_GoogleBeyondcorpSecurityGateway) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_beyondcorp_security_gateway google_beyondcorp_security_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_beyondcorp_security_gateway google_beyondcorp_security_gateway} Resource.
 func NewGoogleBeyondcorpSecurityGateway(scope constructs.Construct, id *string, config *GoogleBeyondcorpSecurityGatewayConfig) GoogleBeyondcorpSecurityGateway {
 	_init_.Initialize()
 
@@ -546,7 +618,7 @@ func NewGoogleBeyondcorpSecurityGateway(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_beyondcorp_security_gateway google_beyondcorp_security_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_beyondcorp_security_gateway google_beyondcorp_security_gateway} Resource.
 func NewGoogleBeyondcorpSecurityGateway_Override(g GoogleBeyondcorpSecurityGateway, scope constructs.Construct, id *string, config *GoogleBeyondcorpSecurityGatewayConfig) {
 	_init_.Initialize()
 
@@ -1044,6 +1116,39 @@ func (g *jsiiProxy_GoogleBeyondcorpSecurityGateway) PutHubs(value interface{}) {
 	)
 }
 
+func (g *jsiiProxy_GoogleBeyondcorpSecurityGateway) PutLogging(value *GoogleBeyondcorpSecurityGatewayLogging) {
+	if err := g.validatePutLoggingParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putLogging",
+		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleBeyondcorpSecurityGateway) PutProxyProtocolConfig(value *GoogleBeyondcorpSecurityGatewayProxyProtocolConfig) {
+	if err := g.validatePutProxyProtocolConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putProxyProtocolConfig",
+		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleBeyondcorpSecurityGateway) PutServiceDiscovery(value *GoogleBeyondcorpSecurityGatewayServiceDiscovery) {
+	if err := g.validatePutServiceDiscoveryParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putServiceDiscovery",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleBeyondcorpSecurityGateway) PutTimeouts(value *GoogleBeyondcorpSecurityGatewayTimeouts) {
 	if err := g.validatePutTimeoutsParameters(value); err != nil {
 		panic(err)
@@ -1087,6 +1192,14 @@ func (g *jsiiProxy_GoogleBeyondcorpSecurityGateway) ResetLocation() {
 	)
 }
 
+func (g *jsiiProxy_GoogleBeyondcorpSecurityGateway) ResetLogging() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetLogging",
+		nil, // no parameters
+	)
+}
+
 func (g *jsiiProxy_GoogleBeyondcorpSecurityGateway) ResetOverrideLogicalId() {
 	_jsii_.InvokeVoid(
 		g,
@@ -1099,6 +1212,22 @@ func (g *jsiiProxy_GoogleBeyondcorpSecurityGateway) ResetProject() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetProject",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleBeyondcorpSecurityGateway) ResetProxyProtocolConfig() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetProxyProtocolConfig",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleBeyondcorpSecurityGateway) ResetServiceDiscovery() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetServiceDiscovery",
 		nil, // no parameters
 	)
 }

@@ -5,9 +5,9 @@ package datagooglecontainercluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglecontainercluster/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglecontainercluster/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -43,6 +43,7 @@ type DataGoogleContainerClusterNodePoolOutputReference interface {
 	NetworkConfig() DataGoogleContainerClusterNodePoolNetworkConfigList
 	NodeConfig() DataGoogleContainerClusterNodePoolNodeConfigList
 	NodeCount() *float64
+	NodeDrainConfig() DataGoogleContainerClusterNodePoolNodeDrainConfigList
 	NodeLocations() *[]*string
 	PlacementPolicy() DataGoogleContainerClusterNodePoolPlacementPolicyList
 	QueuedProvisioning() DataGoogleContainerClusterNodePoolQueuedProvisioningList
@@ -250,6 +251,16 @@ func (j *jsiiProxy_DataGoogleContainerClusterNodePoolOutputReference) NodeCount(
 	_jsii_.Get(
 		j,
 		"nodeCount",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleContainerClusterNodePoolOutputReference) NodeDrainConfig() DataGoogleContainerClusterNodePoolNodeDrainConfigList {
+	var returns DataGoogleContainerClusterNodePoolNodeDrainConfigList
+	_jsii_.Get(
+		j,
+		"nodeDrainConfig",
 		&returns,
 	)
 	return returns

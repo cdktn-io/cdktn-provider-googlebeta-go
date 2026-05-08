@@ -67,6 +67,10 @@ func (j *jsiiProxy_GoogleDatastreamStreamDestinationConfigBigqueryDestinationCon
 	return nil
 }
 
+func (j *jsiiProxy_GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigSourceHierarchyDatasetsOutputReference) validateSetProjectIdParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigSourceHierarchyDatasetsOutputReference) validateSetTerraformAttributeParameters(val *string) error {
 	return nil
 }

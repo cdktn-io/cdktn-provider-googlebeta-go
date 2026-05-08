@@ -79,6 +79,10 @@ func (j *jsiiProxy_GoogleSpannerInstanceAutoscalingConfigAutoscalingTargetsOutpu
 	return nil
 }
 
+func (j *jsiiProxy_GoogleSpannerInstanceAutoscalingConfigAutoscalingTargetsOutputReference) validateSetTotalCpuUtilizationPercentParameters(val *float64) error {
+	return nil
+}
+
 func validateNewGoogleSpannerInstanceAutoscalingConfigAutoscalingTargetsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }

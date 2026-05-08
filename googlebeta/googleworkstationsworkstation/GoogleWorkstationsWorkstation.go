@@ -5,14 +5,14 @@ package googleworkstationsworkstation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleworkstationsworkstation/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleworkstationsworkstation/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_workstations_workstation google_workstations_workstation}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_workstations_workstation google_workstations_workstation}.
 type GoogleWorkstationsWorkstation interface {
 	cdktn.TerraformResource
 	Annotations() *map[string]*string
@@ -667,7 +667,7 @@ func (j *jsiiProxy_GoogleWorkstationsWorkstation) WorkstationIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_workstations_workstation google_workstations_workstation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_workstations_workstation google_workstations_workstation} Resource.
 func NewGoogleWorkstationsWorkstation(scope constructs.Construct, id *string, config *GoogleWorkstationsWorkstationConfig) GoogleWorkstationsWorkstation {
 	_init_.Initialize()
 
@@ -685,7 +685,7 @@ func NewGoogleWorkstationsWorkstation(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_workstations_workstation google_workstations_workstation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_workstations_workstation google_workstations_workstation} Resource.
 func NewGoogleWorkstationsWorkstation_Override(g GoogleWorkstationsWorkstation, scope constructs.Construct, id *string, config *GoogleWorkstationsWorkstationConfig) {
 	_init_.Initialize()
 

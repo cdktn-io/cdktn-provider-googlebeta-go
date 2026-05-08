@@ -5,9 +5,9 @@ package googlestoragebucket
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestoragebucket/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlestoragebucket/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -35,9 +35,9 @@ type GoogleStorageBucketRetentionPolicyOutputReference interface {
 	IsLocked() interface{}
 	SetIsLocked(val interface{})
 	IsLockedInput() interface{}
-	RetentionPeriod() *float64
-	SetRetentionPeriod(val *float64)
-	RetentionPeriodInput() *float64
+	RetentionPeriod() *string
+	SetRetentionPeriod(val *string)
+	RetentionPeriodInput() *string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -156,8 +156,8 @@ func (j *jsiiProxy_GoogleStorageBucketRetentionPolicyOutputReference) IsLockedIn
 	return returns
 }
 
-func (j *jsiiProxy_GoogleStorageBucketRetentionPolicyOutputReference) RetentionPeriod() *float64 {
-	var returns *float64
+func (j *jsiiProxy_GoogleStorageBucketRetentionPolicyOutputReference) RetentionPeriod() *string {
+	var returns *string
 	_jsii_.Get(
 		j,
 		"retentionPeriod",
@@ -166,8 +166,8 @@ func (j *jsiiProxy_GoogleStorageBucketRetentionPolicyOutputReference) RetentionP
 	return returns
 }
 
-func (j *jsiiProxy_GoogleStorageBucketRetentionPolicyOutputReference) RetentionPeriodInput() *float64 {
-	var returns *float64
+func (j *jsiiProxy_GoogleStorageBucketRetentionPolicyOutputReference) RetentionPeriodInput() *string {
+	var returns *string
 	_jsii_.Get(
 		j,
 		"retentionPeriodInput",
@@ -268,7 +268,7 @@ func (j *jsiiProxy_GoogleStorageBucketRetentionPolicyOutputReference)SetIsLocked
 	)
 }
 
-func (j *jsiiProxy_GoogleStorageBucketRetentionPolicyOutputReference)SetRetentionPeriod(val *float64) {
+func (j *jsiiProxy_GoogleStorageBucketRetentionPolicyOutputReference)SetRetentionPeriod(val *string) {
 	if err := j.validateSetRetentionPeriodParameters(val); err != nil {
 		panic(err)
 	}

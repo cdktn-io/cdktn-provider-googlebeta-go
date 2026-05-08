@@ -5,14 +5,14 @@ package googleaccesscontextmanagerserviceperimeteregresspolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleaccesscontextmanagerserviceperimeteregresspolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleaccesscontextmanagerserviceperimeteregresspolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_access_context_manager_service_perimeter_egress_policy google_access_context_manager_service_perimeter_egress_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_access_context_manager_service_perimeter_egress_policy google_access_context_manager_service_perimeter_egress_policy}.
 type GoogleAccessContextManagerServicePerimeterEgressPolicy interface {
 	cdktn.TerraformResource
 	AccessPolicyId() *string
@@ -460,7 +460,7 @@ func (j *jsiiProxy_GoogleAccessContextManagerServicePerimeterEgressPolicy) Title
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_access_context_manager_service_perimeter_egress_policy google_access_context_manager_service_perimeter_egress_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_access_context_manager_service_perimeter_egress_policy google_access_context_manager_service_perimeter_egress_policy} Resource.
 func NewGoogleAccessContextManagerServicePerimeterEgressPolicy(scope constructs.Construct, id *string, config *GoogleAccessContextManagerServicePerimeterEgressPolicyConfig) GoogleAccessContextManagerServicePerimeterEgressPolicy {
 	_init_.Initialize()
 
@@ -478,7 +478,7 @@ func NewGoogleAccessContextManagerServicePerimeterEgressPolicy(scope constructs.
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_access_context_manager_service_perimeter_egress_policy google_access_context_manager_service_perimeter_egress_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_access_context_manager_service_perimeter_egress_policy google_access_context_manager_service_perimeter_egress_policy} Resource.
 func NewGoogleAccessContextManagerServicePerimeterEgressPolicy_Override(g GoogleAccessContextManagerServicePerimeterEgressPolicy, scope constructs.Construct, id *string, config *GoogleAccessContextManagerServicePerimeterEgressPolicyConfig) {
 	_init_.Initialize()
 

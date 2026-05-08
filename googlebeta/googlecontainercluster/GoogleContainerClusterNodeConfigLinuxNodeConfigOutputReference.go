@@ -5,14 +5,16 @@ package googlecontainercluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecontainercluster/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecontainercluster/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type GoogleContainerClusterNodeConfigLinuxNodeConfigOutputReference interface {
 	cdktn.ComplexObject
+	AccurateTimeConfig() GoogleContainerClusterNodeConfigLinuxNodeConfigAccurateTimeConfigOutputReference
+	AccurateTimeConfigInput() *GoogleContainerClusterNodeConfigLinuxNodeConfigAccurateTimeConfig
 	CgroupMode() *string
 	SetCgroupMode(val *string)
 	CgroupModeInput() *string
@@ -37,6 +39,10 @@ type GoogleContainerClusterNodeConfigLinuxNodeConfigOutputReference interface {
 	HugepagesConfigInput() *GoogleContainerClusterNodeConfigLinuxNodeConfigHugepagesConfig
 	InternalValue() *GoogleContainerClusterNodeConfigLinuxNodeConfig
 	SetInternalValue(val *GoogleContainerClusterNodeConfigLinuxNodeConfig)
+	NodeKernelModuleLoading() GoogleContainerClusterNodeConfigLinuxNodeConfigNodeKernelModuleLoadingOutputReference
+	NodeKernelModuleLoadingInput() *GoogleContainerClusterNodeConfigLinuxNodeConfigNodeKernelModuleLoading
+	SwapConfig() GoogleContainerClusterNodeConfigLinuxNodeConfigSwapConfigOutputReference
+	SwapConfigInput() *GoogleContainerClusterNodeConfigLinuxNodeConfigSwapConfig
 	Sysctls() *map[string]*string
 	SetSysctls(val *map[string]*string)
 	SysctlsInput() *map[string]*string
@@ -78,9 +84,15 @@ type GoogleContainerClusterNodeConfigLinuxNodeConfigOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutAccurateTimeConfig(value *GoogleContainerClusterNodeConfigLinuxNodeConfigAccurateTimeConfig)
 	PutHugepagesConfig(value *GoogleContainerClusterNodeConfigLinuxNodeConfigHugepagesConfig)
+	PutNodeKernelModuleLoading(value *GoogleContainerClusterNodeConfigLinuxNodeConfigNodeKernelModuleLoading)
+	PutSwapConfig(value *GoogleContainerClusterNodeConfigLinuxNodeConfigSwapConfig)
+	ResetAccurateTimeConfig()
 	ResetCgroupMode()
 	ResetHugepagesConfig()
+	ResetNodeKernelModuleLoading()
+	ResetSwapConfig()
 	ResetSysctls()
 	ResetTransparentHugepageDefrag()
 	ResetTransparentHugepageEnabled()
@@ -97,6 +109,26 @@ type GoogleContainerClusterNodeConfigLinuxNodeConfigOutputReference interface {
 // The jsii proxy struct for GoogleContainerClusterNodeConfigLinuxNodeConfigOutputReference
 type jsiiProxy_GoogleContainerClusterNodeConfigLinuxNodeConfigOutputReference struct {
 	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_GoogleContainerClusterNodeConfigLinuxNodeConfigOutputReference) AccurateTimeConfig() GoogleContainerClusterNodeConfigLinuxNodeConfigAccurateTimeConfigOutputReference {
+	var returns GoogleContainerClusterNodeConfigLinuxNodeConfigAccurateTimeConfigOutputReference
+	_jsii_.Get(
+		j,
+		"accurateTimeConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleContainerClusterNodeConfigLinuxNodeConfigOutputReference) AccurateTimeConfigInput() *GoogleContainerClusterNodeConfigLinuxNodeConfigAccurateTimeConfig {
+	var returns *GoogleContainerClusterNodeConfigLinuxNodeConfigAccurateTimeConfig
+	_jsii_.Get(
+		j,
+		"accurateTimeConfigInput",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_GoogleContainerClusterNodeConfigLinuxNodeConfigOutputReference) CgroupMode() *string {
@@ -184,6 +216,46 @@ func (j *jsiiProxy_GoogleContainerClusterNodeConfigLinuxNodeConfigOutputReferenc
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleContainerClusterNodeConfigLinuxNodeConfigOutputReference) NodeKernelModuleLoading() GoogleContainerClusterNodeConfigLinuxNodeConfigNodeKernelModuleLoadingOutputReference {
+	var returns GoogleContainerClusterNodeConfigLinuxNodeConfigNodeKernelModuleLoadingOutputReference
+	_jsii_.Get(
+		j,
+		"nodeKernelModuleLoading",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleContainerClusterNodeConfigLinuxNodeConfigOutputReference) NodeKernelModuleLoadingInput() *GoogleContainerClusterNodeConfigLinuxNodeConfigNodeKernelModuleLoading {
+	var returns *GoogleContainerClusterNodeConfigLinuxNodeConfigNodeKernelModuleLoading
+	_jsii_.Get(
+		j,
+		"nodeKernelModuleLoadingInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleContainerClusterNodeConfigLinuxNodeConfigOutputReference) SwapConfig() GoogleContainerClusterNodeConfigLinuxNodeConfigSwapConfigOutputReference {
+	var returns GoogleContainerClusterNodeConfigLinuxNodeConfigSwapConfigOutputReference
+	_jsii_.Get(
+		j,
+		"swapConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleContainerClusterNodeConfigLinuxNodeConfigOutputReference) SwapConfigInput() *GoogleContainerClusterNodeConfigLinuxNodeConfigSwapConfig {
+	var returns *GoogleContainerClusterNodeConfigLinuxNodeConfigSwapConfig
+	_jsii_.Get(
+		j,
+		"swapConfigInput",
 		&returns,
 	)
 	return returns
@@ -582,6 +654,17 @@ func (g *jsiiProxy_GoogleContainerClusterNodeConfigLinuxNodeConfigOutputReferenc
 	return returns
 }
 
+func (g *jsiiProxy_GoogleContainerClusterNodeConfigLinuxNodeConfigOutputReference) PutAccurateTimeConfig(value *GoogleContainerClusterNodeConfigLinuxNodeConfigAccurateTimeConfig) {
+	if err := g.validatePutAccurateTimeConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putAccurateTimeConfig",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleContainerClusterNodeConfigLinuxNodeConfigOutputReference) PutHugepagesConfig(value *GoogleContainerClusterNodeConfigLinuxNodeConfigHugepagesConfig) {
 	if err := g.validatePutHugepagesConfigParameters(value); err != nil {
 		panic(err)
@@ -590,6 +673,36 @@ func (g *jsiiProxy_GoogleContainerClusterNodeConfigLinuxNodeConfigOutputReferenc
 		g,
 		"putHugepagesConfig",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleContainerClusterNodeConfigLinuxNodeConfigOutputReference) PutNodeKernelModuleLoading(value *GoogleContainerClusterNodeConfigLinuxNodeConfigNodeKernelModuleLoading) {
+	if err := g.validatePutNodeKernelModuleLoadingParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putNodeKernelModuleLoading",
+		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleContainerClusterNodeConfigLinuxNodeConfigOutputReference) PutSwapConfig(value *GoogleContainerClusterNodeConfigLinuxNodeConfigSwapConfig) {
+	if err := g.validatePutSwapConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putSwapConfig",
+		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleContainerClusterNodeConfigLinuxNodeConfigOutputReference) ResetAccurateTimeConfig() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetAccurateTimeConfig",
+		nil, // no parameters
 	)
 }
 
@@ -605,6 +718,22 @@ func (g *jsiiProxy_GoogleContainerClusterNodeConfigLinuxNodeConfigOutputReferenc
 	_jsii_.InvokeVoid(
 		g,
 		"resetHugepagesConfig",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleContainerClusterNodeConfigLinuxNodeConfigOutputReference) ResetNodeKernelModuleLoading() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetNodeKernelModuleLoading",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleContainerClusterNodeConfigLinuxNodeConfigOutputReference) ResetSwapConfig() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetSwapConfig",
 		nil, // no parameters
 	)
 }

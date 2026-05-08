@@ -1,0 +1,77 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package googlecomputereservation
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (g *jsiiProxy_GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceOutputReference) validateSetInternalValueParameters(val *GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenance) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewGoogleComputeReservationResourceStatusReservationMaintenanceUpcomingGroupMaintenanceOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

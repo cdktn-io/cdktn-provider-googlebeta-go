@@ -5,14 +5,14 @@ package googlecomputedisk
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputedisk/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputedisk/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_disk google_compute_disk}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_disk google_compute_disk}.
 type GoogleComputeDisk interface {
 	cdktn.TerraformResource
 	AccessMode() *string
@@ -56,6 +56,9 @@ type GoogleComputeDisk interface {
 	EnableConfidentialCompute() interface{}
 	SetEnableConfidentialCompute(val interface{})
 	EnableConfidentialComputeInput() interface{}
+	EraseWindowsVssSignature() interface{}
+	SetEraseWindowsVssSignature(val interface{})
+	EraseWindowsVssSignatureInput() interface{}
 	// Experimental.
 	ForEach() cdktn.ITerraformIterator
 	// Experimental.
@@ -224,6 +227,7 @@ type GoogleComputeDisk interface {
 	ResetDescription()
 	ResetDiskEncryptionKey()
 	ResetEnableConfidentialCompute()
+	ResetEraseWindowsVssSignature()
 	ResetGuestOsFeatures()
 	ResetId()
 	ResetImage()
@@ -513,6 +517,26 @@ func (j *jsiiProxy_GoogleComputeDisk) EnableConfidentialComputeInput() interface
 	_jsii_.Get(
 		j,
 		"enableConfidentialComputeInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeDisk) EraseWindowsVssSignature() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"eraseWindowsVssSignature",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeDisk) EraseWindowsVssSignatureInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"eraseWindowsVssSignatureInput",
 		&returns,
 	)
 	return returns
@@ -1229,7 +1253,7 @@ func (j *jsiiProxy_GoogleComputeDisk) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_disk google_compute_disk} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_disk google_compute_disk} Resource.
 func NewGoogleComputeDisk(scope constructs.Construct, id *string, config *GoogleComputeDiskConfig) GoogleComputeDisk {
 	_init_.Initialize()
 
@@ -1247,7 +1271,7 @@ func NewGoogleComputeDisk(scope constructs.Construct, id *string, config *Google
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_disk google_compute_disk} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_disk google_compute_disk} Resource.
 func NewGoogleComputeDisk_Override(g GoogleComputeDisk, scope constructs.Construct, id *string, config *GoogleComputeDiskConfig) {
 	_init_.Initialize()
 
@@ -1350,6 +1374,17 @@ func (j *jsiiProxy_GoogleComputeDisk)SetEnableConfidentialCompute(val interface{
 	_jsii_.Set(
 		j,
 		"enableConfidentialCompute",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleComputeDisk)SetEraseWindowsVssSignature(val interface{}) {
+	if err := j.validateSetEraseWindowsVssSignatureParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"eraseWindowsVssSignature",
 		val,
 	)
 }
@@ -2102,6 +2137,14 @@ func (g *jsiiProxy_GoogleComputeDisk) ResetEnableConfidentialCompute() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetEnableConfidentialCompute",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleComputeDisk) ResetEraseWindowsVssSignature() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetEraseWindowsVssSignature",
 		nil, // no parameters
 	)
 }

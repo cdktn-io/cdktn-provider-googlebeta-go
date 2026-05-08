@@ -5,9 +5,9 @@ package datagooglecomputeinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglecomputeinstance/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglecomputeinstance/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -45,7 +45,9 @@ type DataGoogleComputeInstanceSchedulingOutputReference interface {
 	OnHostMaintenance() *string
 	OnInstanceStopAction() DataGoogleComputeInstanceSchedulingOnInstanceStopActionList
 	Preemptible() cdktn.IResolvable
+	PreemptionNoticeDuration() DataGoogleComputeInstanceSchedulingPreemptionNoticeDurationList
 	ProvisioningModel() *string
+	SkipGuestOsShutdown() cdktn.IResolvable
 	TerminationTime() *string
 	// Experimental.
 	TerraformAttribute() *string
@@ -274,11 +276,31 @@ func (j *jsiiProxy_DataGoogleComputeInstanceSchedulingOutputReference) Preemptib
 	return returns
 }
 
+func (j *jsiiProxy_DataGoogleComputeInstanceSchedulingOutputReference) PreemptionNoticeDuration() DataGoogleComputeInstanceSchedulingPreemptionNoticeDurationList {
+	var returns DataGoogleComputeInstanceSchedulingPreemptionNoticeDurationList
+	_jsii_.Get(
+		j,
+		"preemptionNoticeDuration",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataGoogleComputeInstanceSchedulingOutputReference) ProvisioningModel() *string {
 	var returns *string
 	_jsii_.Get(
 		j,
 		"provisioningModel",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleComputeInstanceSchedulingOutputReference) SkipGuestOsShutdown() cdktn.IResolvable {
+	var returns cdktn.IResolvable
+	_jsii_.Get(
+		j,
+		"skipGuestOsShutdown",
 		&returns,
 	)
 	return returns

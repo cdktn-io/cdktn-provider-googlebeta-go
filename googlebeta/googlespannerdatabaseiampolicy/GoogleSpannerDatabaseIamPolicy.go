@@ -5,14 +5,14 @@ package googlespannerdatabaseiampolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlespannerdatabaseiampolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlespannerdatabaseiampolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_spanner_database_iam_policy google_spanner_database_iam_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_spanner_database_iam_policy google_spanner_database_iam_policy}.
 type GoogleSpannerDatabaseIamPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -423,7 +423,7 @@ func (j *jsiiProxy_GoogleSpannerDatabaseIamPolicy) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_spanner_database_iam_policy google_spanner_database_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_spanner_database_iam_policy google_spanner_database_iam_policy} Resource.
 func NewGoogleSpannerDatabaseIamPolicy(scope constructs.Construct, id *string, config *GoogleSpannerDatabaseIamPolicyConfig) GoogleSpannerDatabaseIamPolicy {
 	_init_.Initialize()
 
@@ -441,7 +441,7 @@ func NewGoogleSpannerDatabaseIamPolicy(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_spanner_database_iam_policy google_spanner_database_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_spanner_database_iam_policy google_spanner_database_iam_policy} Resource.
 func NewGoogleSpannerDatabaseIamPolicy_Override(g GoogleSpannerDatabaseIamPolicy, scope constructs.Construct, id *string, config *GoogleSpannerDatabaseIamPolicyConfig) {
 	_init_.Initialize()
 

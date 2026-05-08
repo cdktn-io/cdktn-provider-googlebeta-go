@@ -5,14 +5,14 @@ package googlecomputehealthcheck
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputehealthcheck/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputehealthcheck/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_health_check google_compute_health_check}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_health_check google_compute_health_check}.
 type GoogleComputeHealthCheck interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -759,7 +759,7 @@ func (j *jsiiProxy_GoogleComputeHealthCheck) UnhealthyThresholdInput() *float64 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_health_check google_compute_health_check} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_health_check google_compute_health_check} Resource.
 func NewGoogleComputeHealthCheck(scope constructs.Construct, id *string, config *GoogleComputeHealthCheckConfig) GoogleComputeHealthCheck {
 	_init_.Initialize()
 
@@ -777,7 +777,7 @@ func NewGoogleComputeHealthCheck(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_health_check google_compute_health_check} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_health_check google_compute_health_check} Resource.
 func NewGoogleComputeHealthCheck_Override(g GoogleComputeHealthCheck, scope constructs.Construct, id *string, config *GoogleComputeHealthCheckConfig) {
 	_init_.Initialize()
 

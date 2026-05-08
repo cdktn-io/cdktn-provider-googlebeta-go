@@ -5,14 +5,14 @@ package googlecomputediskiambinding
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputediskiambinding/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputediskiambinding/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_disk_iam_binding google_compute_disk_iam_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_disk_iam_binding google_compute_disk_iam_binding}.
 type GoogleComputeDiskIamBinding interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -471,7 +471,7 @@ func (j *jsiiProxy_GoogleComputeDiskIamBinding) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_disk_iam_binding google_compute_disk_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_disk_iam_binding google_compute_disk_iam_binding} Resource.
 func NewGoogleComputeDiskIamBinding(scope constructs.Construct, id *string, config *GoogleComputeDiskIamBindingConfig) GoogleComputeDiskIamBinding {
 	_init_.Initialize()
 
@@ -489,7 +489,7 @@ func NewGoogleComputeDiskIamBinding(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_disk_iam_binding google_compute_disk_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_disk_iam_binding google_compute_disk_iam_binding} Resource.
 func NewGoogleComputeDiskIamBinding_Override(g GoogleComputeDiskIamBinding, scope constructs.Construct, id *string, config *GoogleComputeDiskIamBindingConfig) {
 	_init_.Initialize()
 

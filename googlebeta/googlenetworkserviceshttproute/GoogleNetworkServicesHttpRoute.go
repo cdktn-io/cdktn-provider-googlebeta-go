@@ -5,14 +5,14 @@ package googlenetworkserviceshttproute
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenetworkserviceshttproute/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenetworkserviceshttproute/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_services_http_route google_network_services_http_route}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_services_http_route google_network_services_http_route}.
 type GoogleNetworkServicesHttpRoute interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -587,7 +587,7 @@ func (j *jsiiProxy_GoogleNetworkServicesHttpRoute) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_services_http_route google_network_services_http_route} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_services_http_route google_network_services_http_route} Resource.
 func NewGoogleNetworkServicesHttpRoute(scope constructs.Construct, id *string, config *GoogleNetworkServicesHttpRouteConfig) GoogleNetworkServicesHttpRoute {
 	_init_.Initialize()
 
@@ -605,7 +605,7 @@ func NewGoogleNetworkServicesHttpRoute(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_services_http_route google_network_services_http_route} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_services_http_route google_network_services_http_route} Resource.
 func NewGoogleNetworkServicesHttpRoute_Override(g GoogleNetworkServicesHttpRoute, scope constructs.Construct, id *string, config *GoogleNetworkServicesHttpRouteConfig) {
 	_init_.Initialize()
 

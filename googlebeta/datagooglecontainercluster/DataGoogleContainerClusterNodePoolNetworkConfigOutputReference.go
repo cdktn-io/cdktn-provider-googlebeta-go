@@ -5,14 +5,15 @@ package datagooglecontainercluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglecontainercluster/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglecontainercluster/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataGoogleContainerClusterNodePoolNetworkConfigOutputReference interface {
 	cdktn.ComplexObject
+	AcceleratorNetworkProfile() *string
 	AdditionalNodeNetworkConfigs() DataGoogleContainerClusterNodePoolNetworkConfigAdditionalNodeNetworkConfigsList
 	AdditionalPodNetworkConfigs() DataGoogleContainerClusterNodePoolNetworkConfigAdditionalPodNetworkConfigsList
 	// the index of the complex object in a list.
@@ -86,6 +87,16 @@ type DataGoogleContainerClusterNodePoolNetworkConfigOutputReference interface {
 // The jsii proxy struct for DataGoogleContainerClusterNodePoolNetworkConfigOutputReference
 type jsiiProxy_DataGoogleContainerClusterNodePoolNetworkConfigOutputReference struct {
 	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_DataGoogleContainerClusterNodePoolNetworkConfigOutputReference) AcceleratorNetworkProfile() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"acceleratorNetworkProfile",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_DataGoogleContainerClusterNodePoolNetworkConfigOutputReference) AdditionalNodeNetworkConfigs() DataGoogleContainerClusterNodePoolNetworkConfigAdditionalNodeNetworkConfigsList {

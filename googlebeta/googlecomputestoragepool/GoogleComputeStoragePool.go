@@ -5,14 +5,14 @@ package googlecomputestoragepool
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputestoragepool/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputestoragepool/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_storage_pool google_compute_storage_pool}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_storage_pool google_compute_storage_pool}.
 type GoogleComputeStoragePool interface {
 	cdktn.TerraformResource
 	CapacityProvisioningType() *string
@@ -65,6 +65,8 @@ type GoogleComputeStoragePool interface {
 	NameInput() *string
 	// The tree node.
 	Node() constructs.Node
+	Params() GoogleComputeStoragePoolParamsOutputReference
+	ParamsInput() *GoogleComputeStoragePoolParams
 	PerformanceProvisioningType() *string
 	SetPerformanceProvisioningType(val *string)
 	PerformanceProvisioningTypeInput() *string
@@ -150,6 +152,7 @@ type GoogleComputeStoragePool interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	PutParams(value *GoogleComputeStoragePoolParams)
 	PutTimeouts(value *GoogleComputeStoragePoolTimeouts)
 	ResetCapacityProvisioningType()
 	ResetDeletionProtection()
@@ -158,6 +161,7 @@ type GoogleComputeStoragePool interface {
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
+	ResetParams()
 	ResetPerformanceProvisioningType()
 	ResetPoolProvisionedIops()
 	ResetProject()
@@ -440,6 +444,26 @@ func (j *jsiiProxy_GoogleComputeStoragePool) Node() constructs.Node {
 	return returns
 }
 
+func (j *jsiiProxy_GoogleComputeStoragePool) Params() GoogleComputeStoragePoolParamsOutputReference {
+	var returns GoogleComputeStoragePoolParamsOutputReference
+	_jsii_.Get(
+		j,
+		"params",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeStoragePool) ParamsInput() *GoogleComputeStoragePoolParams {
+	var returns *GoogleComputeStoragePoolParams
+	_jsii_.Get(
+		j,
+		"paramsInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleComputeStoragePool) PerformanceProvisioningType() *string {
 	var returns *string
 	_jsii_.Get(
@@ -691,7 +715,7 @@ func (j *jsiiProxy_GoogleComputeStoragePool) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_storage_pool google_compute_storage_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_storage_pool google_compute_storage_pool} Resource.
 func NewGoogleComputeStoragePool(scope constructs.Construct, id *string, config *GoogleComputeStoragePoolConfig) GoogleComputeStoragePool {
 	_init_.Initialize()
 
@@ -709,7 +733,7 @@ func NewGoogleComputeStoragePool(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_storage_pool google_compute_storage_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_storage_pool google_compute_storage_pool} Resource.
 func NewGoogleComputeStoragePool_Override(g GoogleComputeStoragePool, scope constructs.Construct, id *string, config *GoogleComputeStoragePoolConfig) {
 	_init_.Initialize()
 
@@ -1273,6 +1297,17 @@ func (g *jsiiProxy_GoogleComputeStoragePool) OverrideLogicalId(newLogicalId *str
 	)
 }
 
+func (g *jsiiProxy_GoogleComputeStoragePool) PutParams(value *GoogleComputeStoragePoolParams) {
+	if err := g.validatePutParamsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putParams",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleComputeStoragePool) PutTimeouts(value *GoogleComputeStoragePoolTimeouts) {
 	if err := g.validatePutTimeoutsParameters(value); err != nil {
 		panic(err)
@@ -1320,6 +1355,14 @@ func (g *jsiiProxy_GoogleComputeStoragePool) ResetOverrideLogicalId() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetOverrideLogicalId",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleComputeStoragePool) ResetParams() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetParams",
 		nil, // no parameters
 	)
 }

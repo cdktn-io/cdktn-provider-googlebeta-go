@@ -5,9 +5,9 @@ package datagooglecontainercluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglecontainercluster/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglecontainercluster/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -33,6 +33,7 @@ type DataGoogleContainerClusterIpAllocationPolicyAdditionalIpRangesConfigOutputR
 	InternalValue() *DataGoogleContainerClusterIpAllocationPolicyAdditionalIpRangesConfig
 	SetInternalValue(val *DataGoogleContainerClusterIpAllocationPolicyAdditionalIpRangesConfig)
 	PodIpv4RangeNames() *[]*string
+	Status() *string
 	Subnetwork() *string
 	// Experimental.
 	TerraformAttribute() *string
@@ -136,6 +137,16 @@ func (j *jsiiProxy_DataGoogleContainerClusterIpAllocationPolicyAdditionalIpRange
 	_jsii_.Get(
 		j,
 		"podIpv4RangeNames",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleContainerClusterIpAllocationPolicyAdditionalIpRangesConfigOutputReference) Status() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"status",
 		&returns,
 	)
 	return returns

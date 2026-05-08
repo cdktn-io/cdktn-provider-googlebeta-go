@@ -5,14 +5,14 @@ package googleassuredworkloadsworkload
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleassuredworkloadsworkload/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleassuredworkloadsworkload/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_assured_workloads_workload google_assured_workloads_workload}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_assured_workloads_workload google_assured_workloads_workload}.
 type GoogleAssuredWorkloadsWorkload interface {
 	cdktn.TerraformResource
 	BillingAccount() *string
@@ -809,7 +809,7 @@ func (j *jsiiProxy_GoogleAssuredWorkloadsWorkload) WorkloadOptionsInput() *Googl
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_assured_workloads_workload google_assured_workloads_workload} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_assured_workloads_workload google_assured_workloads_workload} Resource.
 func NewGoogleAssuredWorkloadsWorkload(scope constructs.Construct, id *string, config *GoogleAssuredWorkloadsWorkloadConfig) GoogleAssuredWorkloadsWorkload {
 	_init_.Initialize()
 
@@ -827,7 +827,7 @@ func NewGoogleAssuredWorkloadsWorkload(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_assured_workloads_workload google_assured_workloads_workload} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_assured_workloads_workload google_assured_workloads_workload} Resource.
 func NewGoogleAssuredWorkloadsWorkload_Override(g GoogleAssuredWorkloadsWorkload, scope constructs.Construct, id *string, config *GoogleAssuredWorkloadsWorkloadConfig) {
 	_init_.Initialize()
 

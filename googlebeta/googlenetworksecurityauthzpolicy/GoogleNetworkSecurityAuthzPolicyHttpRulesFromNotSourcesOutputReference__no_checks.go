@@ -47,6 +47,10 @@ func (g *jsiiProxy_GoogleNetworkSecurityAuthzPolicyHttpRulesFromNotSourcesOutput
 	return nil
 }
 
+func (g *jsiiProxy_GoogleNetworkSecurityAuthzPolicyHttpRulesFromNotSourcesOutputReference) validatePutIpBlocksParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleNetworkSecurityAuthzPolicyHttpRulesFromNotSourcesOutputReference) validatePutPrincipalsParameters(value interface{}) error {
 	return nil
 }

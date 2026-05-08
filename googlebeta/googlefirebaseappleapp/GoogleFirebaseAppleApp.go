@@ -5,14 +5,14 @@ package googlefirebaseappleapp
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefirebaseappleapp/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlefirebaseappleapp/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_firebase_apple_app google_firebase_apple_app}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_firebase_apple_app google_firebase_apple_app}.
 type GoogleFirebaseAppleApp interface {
 	cdktn.TerraformResource
 	ApiKeyId() *string
@@ -531,7 +531,7 @@ func (j *jsiiProxy_GoogleFirebaseAppleApp) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_firebase_apple_app google_firebase_apple_app} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_firebase_apple_app google_firebase_apple_app} Resource.
 func NewGoogleFirebaseAppleApp(scope constructs.Construct, id *string, config *GoogleFirebaseAppleAppConfig) GoogleFirebaseAppleApp {
 	_init_.Initialize()
 
@@ -549,7 +549,7 @@ func NewGoogleFirebaseAppleApp(scope constructs.Construct, id *string, config *G
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_firebase_apple_app google_firebase_apple_app} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_firebase_apple_app google_firebase_apple_app} Resource.
 func NewGoogleFirebaseAppleApp_Override(g GoogleFirebaseAppleApp, scope constructs.Construct, id *string, config *GoogleFirebaseAppleAppConfig) {
 	_init_.Initialize()
 

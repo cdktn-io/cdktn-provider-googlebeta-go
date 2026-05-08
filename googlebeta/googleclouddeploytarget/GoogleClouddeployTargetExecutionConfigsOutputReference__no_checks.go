@@ -47,6 +47,14 @@ func (g *jsiiProxy_GoogleClouddeployTargetExecutionConfigsOutputReference) valid
 	return nil
 }
 
+func (g *jsiiProxy_GoogleClouddeployTargetExecutionConfigsOutputReference) validatePutDefaultPoolParameters(value *GoogleClouddeployTargetExecutionConfigsDefaultPool) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleClouddeployTargetExecutionConfigsOutputReference) validatePutPrivatePoolParameters(value *GoogleClouddeployTargetExecutionConfigsPrivatePool) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleClouddeployTargetExecutionConfigsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }

@@ -5,9 +5,9 @@ package datagooglecloudrunv2service
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglecloudrunv2service/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglecloudrunv2service/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -42,7 +42,9 @@ type DataGoogleCloudRunV2ServiceTemplateContainersOutputReference interface {
 	LivenessProbe() DataGoogleCloudRunV2ServiceTemplateContainersLivenessProbeList
 	Name() *string
 	Ports() DataGoogleCloudRunV2ServiceTemplateContainersPortsList
+	ReadinessProbe() DataGoogleCloudRunV2ServiceTemplateContainersReadinessProbeList
 	Resources() DataGoogleCloudRunV2ServiceTemplateContainersResourcesList
+	SourceCode() DataGoogleCloudRunV2ServiceTemplateContainersSourceCodeList
 	StartupProbe() DataGoogleCloudRunV2ServiceTemplateContainersStartupProbeList
 	// Experimental.
 	TerraformAttribute() *string
@@ -243,11 +245,31 @@ func (j *jsiiProxy_DataGoogleCloudRunV2ServiceTemplateContainersOutputReference)
 	return returns
 }
 
+func (j *jsiiProxy_DataGoogleCloudRunV2ServiceTemplateContainersOutputReference) ReadinessProbe() DataGoogleCloudRunV2ServiceTemplateContainersReadinessProbeList {
+	var returns DataGoogleCloudRunV2ServiceTemplateContainersReadinessProbeList
+	_jsii_.Get(
+		j,
+		"readinessProbe",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataGoogleCloudRunV2ServiceTemplateContainersOutputReference) Resources() DataGoogleCloudRunV2ServiceTemplateContainersResourcesList {
 	var returns DataGoogleCloudRunV2ServiceTemplateContainersResourcesList
 	_jsii_.Get(
 		j,
 		"resources",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleCloudRunV2ServiceTemplateContainersOutputReference) SourceCode() DataGoogleCloudRunV2ServiceTemplateContainersSourceCodeList {
+	var returns DataGoogleCloudRunV2ServiceTemplateContainersSourceCodeList
+	_jsii_.Get(
+		j,
+		"sourceCode",
 		&returns,
 	)
 	return returns

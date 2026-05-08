@@ -5,14 +5,14 @@ package googleiaptunneliambinding
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleiaptunneliambinding/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleiaptunneliambinding/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iap_tunnel_iam_binding google_iap_tunnel_iam_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_tunnel_iam_binding google_iap_tunnel_iam_binding}.
 type GoogleIapTunnelIamBinding interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -424,7 +424,7 @@ func (j *jsiiProxy_GoogleIapTunnelIamBinding) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iap_tunnel_iam_binding google_iap_tunnel_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_tunnel_iam_binding google_iap_tunnel_iam_binding} Resource.
 func NewGoogleIapTunnelIamBinding(scope constructs.Construct, id *string, config *GoogleIapTunnelIamBindingConfig) GoogleIapTunnelIamBinding {
 	_init_.Initialize()
 
@@ -442,7 +442,7 @@ func NewGoogleIapTunnelIamBinding(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iap_tunnel_iam_binding google_iap_tunnel_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_tunnel_iam_binding google_iap_tunnel_iam_binding} Resource.
 func NewGoogleIapTunnelIamBinding_Override(g GoogleIapTunnelIamBinding, scope constructs.Construct, id *string, config *GoogleIapTunnelIamBindingConfig) {
 	_init_.Initialize()
 

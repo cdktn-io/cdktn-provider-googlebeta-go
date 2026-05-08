@@ -1,0 +1,41 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package googlecesagent
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (g *jsiiProxy_GoogleCesAgentBeforeAgentCallbacksList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleCesAgentBeforeAgentCallbacksList) validateGetParameters(index *float64) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleCesAgentBeforeAgentCallbacksList) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleCesAgentBeforeAgentCallbacksList) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleCesAgentBeforeAgentCallbacksList) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleCesAgentBeforeAgentCallbacksList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleCesAgentBeforeAgentCallbacksList) validateSetWrapsSetParameters(val *bool) error {
+	return nil
+}
+
+func validateNewGoogleCesAgentBeforeAgentCallbacksListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+	return nil
+}
+

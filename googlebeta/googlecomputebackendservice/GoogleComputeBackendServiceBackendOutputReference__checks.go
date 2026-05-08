@@ -277,6 +277,30 @@ func (j *jsiiProxy_GoogleComputeBackendServiceBackendOutputReference) validateSe
 	return nil
 }
 
+func (j *jsiiProxy_GoogleComputeBackendServiceBackendOutputReference) validateSetMaxInFlightRequestsParameters(val *float64) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_GoogleComputeBackendServiceBackendOutputReference) validateSetMaxInFlightRequestsPerEndpointParameters(val *float64) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_GoogleComputeBackendServiceBackendOutputReference) validateSetMaxInFlightRequestsPerInstanceParameters(val *float64) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_GoogleComputeBackendServiceBackendOutputReference) validateSetMaxRateParameters(val *float64) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
@@ -326,6 +350,14 @@ func (j *jsiiProxy_GoogleComputeBackendServiceBackendOutputReference) validateSe
 }
 
 func (j *jsiiProxy_GoogleComputeBackendServiceBackendOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_GoogleComputeBackendServiceBackendOutputReference) validateSetTrafficDurationParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}

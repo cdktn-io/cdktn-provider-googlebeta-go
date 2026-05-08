@@ -107,6 +107,10 @@ func (j *jsiiProxy_GoogleDataplexAspectType) validateSetCountParameters(val inte
 	return nil
 }
 
+func (j *jsiiProxy_GoogleDataplexAspectType) validateSetDataClassificationParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleDataplexAspectType) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

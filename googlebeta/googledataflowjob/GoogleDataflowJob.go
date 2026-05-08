@@ -5,14 +5,14 @@ package googledataflowjob
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataflowjob/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataflowjob/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataflow_job google_dataflow_job}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataflow_job google_dataflow_job}.
 type GoogleDataflowJob interface {
 	cdktn.TerraformResource
 	AdditionalExperiments() *[]*string
@@ -875,7 +875,7 @@ func (j *jsiiProxy_GoogleDataflowJob) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataflow_job google_dataflow_job} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataflow_job google_dataflow_job} Resource.
 func NewGoogleDataflowJob(scope constructs.Construct, id *string, config *GoogleDataflowJobConfig) GoogleDataflowJob {
 	_init_.Initialize()
 
@@ -893,7 +893,7 @@ func NewGoogleDataflowJob(scope constructs.Construct, id *string, config *Google
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataflow_job google_dataflow_job} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataflow_job google_dataflow_job} Resource.
 func NewGoogleDataflowJob_Override(g GoogleDataflowJob, scope constructs.Construct, id *string, config *GoogleDataflowJobConfig) {
 	_init_.Initialize()
 

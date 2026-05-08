@@ -5,14 +5,14 @@ package datagooglecloudrunv2job
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglecloudrunv2job/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglecloudrunv2job/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_cloud_run_v2_job google_cloud_run_v2_job}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_cloud_run_v2_job google_cloud_run_v2_job}.
 type DataGoogleCloudRunV2Job interface {
 	cdktn.TerraformDataSource
 	Annotations() cdktn.StringMap
@@ -653,7 +653,7 @@ func (j *jsiiProxy_DataGoogleCloudRunV2Job) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_cloud_run_v2_job google_cloud_run_v2_job} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_cloud_run_v2_job google_cloud_run_v2_job} Data Source.
 func NewDataGoogleCloudRunV2Job(scope constructs.Construct, id *string, config *DataGoogleCloudRunV2JobConfig) DataGoogleCloudRunV2Job {
 	_init_.Initialize()
 
@@ -671,7 +671,7 @@ func NewDataGoogleCloudRunV2Job(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_cloud_run_v2_job google_cloud_run_v2_job} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_cloud_run_v2_job google_cloud_run_v2_job} Data Source.
 func NewDataGoogleCloudRunV2Job_Override(d DataGoogleCloudRunV2Job, scope constructs.Construct, id *string, config *DataGoogleCloudRunV2JobConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,15 @@ package googlecomputereservation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputereservation/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputereservation/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type GoogleComputeReservationSpecificReservationOutputReference interface {
 	cdktn.ComplexObject
+	AssuredCount() *float64
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -89,6 +90,16 @@ type GoogleComputeReservationSpecificReservationOutputReference interface {
 // The jsii proxy struct for GoogleComputeReservationSpecificReservationOutputReference
 type jsiiProxy_GoogleComputeReservationSpecificReservationOutputReference struct {
 	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_GoogleComputeReservationSpecificReservationOutputReference) AssuredCount() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"assuredCount",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_GoogleComputeReservationSpecificReservationOutputReference) ComplexObjectIndex() interface{} {

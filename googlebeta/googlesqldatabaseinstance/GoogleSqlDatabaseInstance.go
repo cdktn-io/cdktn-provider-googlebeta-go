@@ -5,17 +5,20 @@ package googlesqldatabaseinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlesqldatabaseinstance/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlesqldatabaseinstance/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance google_sql_database_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance google_sql_database_instance}.
 type GoogleSqlDatabaseInstance interface {
 	cdktn.TerraformResource
 	AvailableMaintenanceVersions() *[]*string
+	BackupdrBackup() *string
+	SetBackupdrBackup(val *string)
+	BackupdrBackupInput() *string
 	// Experimental.
 	CdktfStack() cdktn.TerraformStack
 	Clone() GoogleSqlDatabaseInstanceCloneOutputReference
@@ -46,6 +49,9 @@ type GoogleSqlDatabaseInstance interface {
 	EncryptionKeyName() *string
 	SetEncryptionKeyName(val *string)
 	EncryptionKeyNameInput() *string
+	FinalBackupDescription() *string
+	SetFinalBackupDescription(val *string)
+	FinalBackupDescriptionInput() *string
 	FirstIpAddress() *string
 	// Experimental.
 	ForEach() cdktn.ITerraformIterator
@@ -80,6 +86,8 @@ type GoogleSqlDatabaseInstance interface {
 	NodeCount() *float64
 	SetNodeCount(val *float64)
 	NodeCountInput() *float64
+	PointInTimeRestoreContext() GoogleSqlDatabaseInstancePointInTimeRestoreContextOutputReference
+	PointInTimeRestoreContextInput() *GoogleSqlDatabaseInstancePointInTimeRestoreContext
 	PrivateIpAddress() *string
 	Project() *string
 	SetProject(val *string)
@@ -111,6 +119,12 @@ type GoogleSqlDatabaseInstance interface {
 	RootPassword() *string
 	SetRootPassword(val *string)
 	RootPasswordInput() *string
+	RootPasswordWo() *string
+	SetRootPasswordWo(val *string)
+	RootPasswordWoInput() *string
+	RootPasswordWoVersion() *string
+	SetRootPasswordWoVersion(val *string)
+	RootPasswordWoVersionInput() *string
 	SelfLink() *string
 	ServerCaCert() GoogleSqlDatabaseInstanceServerCaCertList
 	ServiceAccountEmailAddress() *string
@@ -168,14 +182,17 @@ type GoogleSqlDatabaseInstance interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutClone(value *GoogleSqlDatabaseInstanceClone)
+	PutPointInTimeRestoreContext(value *GoogleSqlDatabaseInstancePointInTimeRestoreContext)
 	PutReplicaConfiguration(value *GoogleSqlDatabaseInstanceReplicaConfiguration)
 	PutReplicationCluster(value *GoogleSqlDatabaseInstanceReplicationCluster)
 	PutRestoreBackupContext(value *GoogleSqlDatabaseInstanceRestoreBackupContext)
 	PutSettings(value *GoogleSqlDatabaseInstanceSettings)
 	PutTimeouts(value *GoogleSqlDatabaseInstanceTimeouts)
+	ResetBackupdrBackup()
 	ResetClone()
 	ResetDeletionProtection()
 	ResetEncryptionKeyName()
+	ResetFinalBackupDescription()
 	ResetId()
 	ResetInstanceType()
 	ResetMaintenanceVersion()
@@ -185,6 +202,7 @@ type GoogleSqlDatabaseInstance interface {
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
+	ResetPointInTimeRestoreContext()
 	ResetProject()
 	ResetRegion()
 	ResetReplicaConfiguration()
@@ -192,6 +210,8 @@ type GoogleSqlDatabaseInstance interface {
 	ResetReplicationCluster()
 	ResetRestoreBackupContext()
 	ResetRootPassword()
+	ResetRootPasswordWo()
+	ResetRootPasswordWoVersion()
 	ResetSettings()
 	ResetTimeouts()
 	SynthesizeAttributes() *map[string]interface{}
@@ -226,6 +246,26 @@ func (j *jsiiProxy_GoogleSqlDatabaseInstance) AvailableMaintenanceVersions() *[]
 	_jsii_.Get(
 		j,
 		"availableMaintenanceVersions",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleSqlDatabaseInstance) BackupdrBackup() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"backupdrBackup",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleSqlDatabaseInstance) BackupdrBackupInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"backupdrBackupInput",
 		&returns,
 	)
 	return returns
@@ -386,6 +426,26 @@ func (j *jsiiProxy_GoogleSqlDatabaseInstance) EncryptionKeyNameInput() *string {
 	_jsii_.Get(
 		j,
 		"encryptionKeyNameInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleSqlDatabaseInstance) FinalBackupDescription() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"finalBackupDescription",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleSqlDatabaseInstance) FinalBackupDescriptionInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"finalBackupDescriptionInput",
 		&returns,
 	)
 	return returns
@@ -576,6 +636,26 @@ func (j *jsiiProxy_GoogleSqlDatabaseInstance) NodeCountInput() *float64 {
 	_jsii_.Get(
 		j,
 		"nodeCountInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleSqlDatabaseInstance) PointInTimeRestoreContext() GoogleSqlDatabaseInstancePointInTimeRestoreContextOutputReference {
+	var returns GoogleSqlDatabaseInstancePointInTimeRestoreContextOutputReference
+	_jsii_.Get(
+		j,
+		"pointInTimeRestoreContext",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleSqlDatabaseInstance) PointInTimeRestoreContextInput() *GoogleSqlDatabaseInstancePointInTimeRestoreContext {
+	var returns *GoogleSqlDatabaseInstancePointInTimeRestoreContext
+	_jsii_.Get(
+		j,
+		"pointInTimeRestoreContextInput",
 		&returns,
 	)
 	return returns
@@ -781,6 +861,46 @@ func (j *jsiiProxy_GoogleSqlDatabaseInstance) RootPasswordInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_GoogleSqlDatabaseInstance) RootPasswordWo() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"rootPasswordWo",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleSqlDatabaseInstance) RootPasswordWoInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"rootPasswordWoInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleSqlDatabaseInstance) RootPasswordWoVersion() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"rootPasswordWoVersion",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleSqlDatabaseInstance) RootPasswordWoVersionInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"rootPasswordWoVersionInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleSqlDatabaseInstance) SelfLink() *string {
 	var returns *string
 	_jsii_.Get(
@@ -882,7 +1002,7 @@ func (j *jsiiProxy_GoogleSqlDatabaseInstance) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance google_sql_database_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance google_sql_database_instance} Resource.
 func NewGoogleSqlDatabaseInstance(scope constructs.Construct, id *string, config *GoogleSqlDatabaseInstanceConfig) GoogleSqlDatabaseInstance {
 	_init_.Initialize()
 
@@ -900,7 +1020,7 @@ func NewGoogleSqlDatabaseInstance(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_database_instance google_sql_database_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_database_instance google_sql_database_instance} Resource.
 func NewGoogleSqlDatabaseInstance_Override(g GoogleSqlDatabaseInstance, scope constructs.Construct, id *string, config *GoogleSqlDatabaseInstanceConfig) {
 	_init_.Initialize()
 
@@ -908,6 +1028,17 @@ func NewGoogleSqlDatabaseInstance_Override(g GoogleSqlDatabaseInstance, scope co
 		"@cdktn/provider-google-beta.googleSqlDatabaseInstance.GoogleSqlDatabaseInstance",
 		[]interface{}{scope, id, config},
 		g,
+	)
+}
+
+func (j *jsiiProxy_GoogleSqlDatabaseInstance)SetBackupdrBackup(val *string) {
+	if err := j.validateSetBackupdrBackupParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"backupdrBackup",
+		val,
 	)
 }
 
@@ -970,6 +1101,17 @@ func (j *jsiiProxy_GoogleSqlDatabaseInstance)SetEncryptionKeyName(val *string) {
 	_jsii_.Set(
 		j,
 		"encryptionKeyName",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleSqlDatabaseInstance)SetFinalBackupDescription(val *string) {
+	if err := j.validateSetFinalBackupDescriptionParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"finalBackupDescription",
 		val,
 	)
 }
@@ -1118,6 +1260,28 @@ func (j *jsiiProxy_GoogleSqlDatabaseInstance)SetRootPassword(val *string) {
 	_jsii_.Set(
 		j,
 		"rootPassword",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleSqlDatabaseInstance)SetRootPasswordWo(val *string) {
+	if err := j.validateSetRootPasswordWoParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"rootPasswordWo",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleSqlDatabaseInstance)SetRootPasswordWoVersion(val *string) {
+	if err := j.validateSetRootPasswordWoVersionParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"rootPasswordWoVersion",
 		val,
 	)
 }
@@ -1486,6 +1650,17 @@ func (g *jsiiProxy_GoogleSqlDatabaseInstance) PutClone(value *GoogleSqlDatabaseI
 	)
 }
 
+func (g *jsiiProxy_GoogleSqlDatabaseInstance) PutPointInTimeRestoreContext(value *GoogleSqlDatabaseInstancePointInTimeRestoreContext) {
+	if err := g.validatePutPointInTimeRestoreContextParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putPointInTimeRestoreContext",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleSqlDatabaseInstance) PutReplicaConfiguration(value *GoogleSqlDatabaseInstanceReplicaConfiguration) {
 	if err := g.validatePutReplicaConfigurationParameters(value); err != nil {
 		panic(err)
@@ -1541,6 +1716,14 @@ func (g *jsiiProxy_GoogleSqlDatabaseInstance) PutTimeouts(value *GoogleSqlDataba
 	)
 }
 
+func (g *jsiiProxy_GoogleSqlDatabaseInstance) ResetBackupdrBackup() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetBackupdrBackup",
+		nil, // no parameters
+	)
+}
+
 func (g *jsiiProxy_GoogleSqlDatabaseInstance) ResetClone() {
 	_jsii_.InvokeVoid(
 		g,
@@ -1561,6 +1744,14 @@ func (g *jsiiProxy_GoogleSqlDatabaseInstance) ResetEncryptionKeyName() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetEncryptionKeyName",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleSqlDatabaseInstance) ResetFinalBackupDescription() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetFinalBackupDescription",
 		nil, // no parameters
 	)
 }
@@ -1621,6 +1812,14 @@ func (g *jsiiProxy_GoogleSqlDatabaseInstance) ResetOverrideLogicalId() {
 	)
 }
 
+func (g *jsiiProxy_GoogleSqlDatabaseInstance) ResetPointInTimeRestoreContext() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetPointInTimeRestoreContext",
+		nil, // no parameters
+	)
+}
+
 func (g *jsiiProxy_GoogleSqlDatabaseInstance) ResetProject() {
 	_jsii_.InvokeVoid(
 		g,
@@ -1673,6 +1872,22 @@ func (g *jsiiProxy_GoogleSqlDatabaseInstance) ResetRootPassword() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetRootPassword",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleSqlDatabaseInstance) ResetRootPasswordWo() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetRootPasswordWo",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleSqlDatabaseInstance) ResetRootPasswordWoVersion() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetRootPasswordWoVersion",
 		nil, // no parameters
 	)
 }

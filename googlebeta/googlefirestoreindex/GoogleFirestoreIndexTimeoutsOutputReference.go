@@ -5,9 +5,9 @@ package googlefirestoreindex
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefirestoreindex/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlefirestoreindex/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -46,6 +46,9 @@ type GoogleFirestoreIndexTimeoutsOutputReference interface {
 	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
 	SetTerraformResource(val cdktn.IInterpolatingParent)
+	Update() *string
+	SetUpdate(val *string)
+	UpdateInput() *string
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
@@ -72,6 +75,7 @@ type GoogleFirestoreIndexTimeoutsOutputReference interface {
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetCreate()
 	ResetDelete()
+	ResetUpdate()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -197,6 +201,26 @@ func (j *jsiiProxy_GoogleFirestoreIndexTimeoutsOutputReference) TerraformResourc
 	return returns
 }
 
+func (j *jsiiProxy_GoogleFirestoreIndexTimeoutsOutputReference) Update() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"update",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleFirestoreIndexTimeoutsOutputReference) UpdateInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"updateInput",
+		&returns,
+	)
+	return returns
+}
+
 
 func NewGoogleFirestoreIndexTimeoutsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) GoogleFirestoreIndexTimeoutsOutputReference {
 	_init_.Initialize()
@@ -298,6 +322,17 @@ func (j *jsiiProxy_GoogleFirestoreIndexTimeoutsOutputReference)SetTerraformResou
 	_jsii_.Set(
 		j,
 		"terraformResource",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleFirestoreIndexTimeoutsOutputReference)SetUpdate(val *string) {
+	if err := j.validateSetUpdateParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"update",
 		val,
 	)
 }
@@ -500,6 +535,14 @@ func (g *jsiiProxy_GoogleFirestoreIndexTimeoutsOutputReference) ResetDelete() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetDelete",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleFirestoreIndexTimeoutsOutputReference) ResetUpdate() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetUpdate",
 		nil, // no parameters
 	)
 }

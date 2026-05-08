@@ -5,14 +5,14 @@ package googlebigqueryreservationassignment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebigqueryreservationassignment/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebigqueryreservationassignment/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_reservation_assignment google_bigquery_reservation_assignment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_reservation_assignment google_bigquery_reservation_assignment}.
 type GoogleBigqueryReservationAssignment interface {
 	cdktn.TerraformResource
 	Assignee() *string
@@ -482,7 +482,7 @@ func (j *jsiiProxy_GoogleBigqueryReservationAssignment) TimeoutsInput() interfac
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_reservation_assignment google_bigquery_reservation_assignment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_reservation_assignment google_bigquery_reservation_assignment} Resource.
 func NewGoogleBigqueryReservationAssignment(scope constructs.Construct, id *string, config *GoogleBigqueryReservationAssignmentConfig) GoogleBigqueryReservationAssignment {
 	_init_.Initialize()
 
@@ -500,7 +500,7 @@ func NewGoogleBigqueryReservationAssignment(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_reservation_assignment google_bigquery_reservation_assignment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_reservation_assignment google_bigquery_reservation_assignment} Resource.
 func NewGoogleBigqueryReservationAssignment_Override(g GoogleBigqueryReservationAssignment, scope constructs.Construct, id *string, config *GoogleBigqueryReservationAssignmentConfig) {
 	_init_.Initialize()
 

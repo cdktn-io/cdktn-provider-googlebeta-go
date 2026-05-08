@@ -5,9 +5,9 @@ package datagooglecontainercluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglecontainercluster/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglecontainercluster/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -29,6 +29,7 @@ type DataGoogleContainerClusterMaintenancePolicyOutputReference interface {
 	// Experimental.
 	CreationStack() *[]*string
 	DailyMaintenanceWindow() DataGoogleContainerClusterMaintenancePolicyDailyMaintenanceWindowList
+	DisruptionBudget() DataGoogleContainerClusterMaintenancePolicyDisruptionBudgetList
 	// Experimental.
 	Fqn() *string
 	InternalValue() *DataGoogleContainerClusterMaintenancePolicy
@@ -117,6 +118,16 @@ func (j *jsiiProxy_DataGoogleContainerClusterMaintenancePolicyOutputReference) D
 	_jsii_.Get(
 		j,
 		"dailyMaintenanceWindow",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleContainerClusterMaintenancePolicyOutputReference) DisruptionBudget() DataGoogleContainerClusterMaintenancePolicyDisruptionBudgetList {
+	var returns DataGoogleContainerClusterMaintenancePolicyDisruptionBudgetList
+	_jsii_.Get(
+		j,
+		"disruptionBudget",
 		&returns,
 	)
 	return returns

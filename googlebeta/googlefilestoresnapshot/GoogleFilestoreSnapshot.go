@@ -5,14 +5,14 @@ package googlefilestoresnapshot
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefilestoresnapshot/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlefilestoresnapshot/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_filestore_snapshot google_filestore_snapshot}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_filestore_snapshot google_filestore_snapshot}.
 type GoogleFilestoreSnapshot interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -539,7 +539,7 @@ func (j *jsiiProxy_GoogleFilestoreSnapshot) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_filestore_snapshot google_filestore_snapshot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_filestore_snapshot google_filestore_snapshot} Resource.
 func NewGoogleFilestoreSnapshot(scope constructs.Construct, id *string, config *GoogleFilestoreSnapshotConfig) GoogleFilestoreSnapshot {
 	_init_.Initialize()
 
@@ -557,7 +557,7 @@ func NewGoogleFilestoreSnapshot(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_filestore_snapshot google_filestore_snapshot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_filestore_snapshot google_filestore_snapshot} Resource.
 func NewGoogleFilestoreSnapshot_Override(g GoogleFilestoreSnapshot, scope constructs.Construct, id *string, config *GoogleFilestoreSnapshotConfig) {
 	_init_.Initialize()
 

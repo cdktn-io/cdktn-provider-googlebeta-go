@@ -5,14 +5,14 @@ package googlediscoveryenginetargetsite
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlediscoveryenginetargetsite/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlediscoveryenginetargetsite/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_discovery_engine_target_site google_discovery_engine_target_site}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_discovery_engine_target_site google_discovery_engine_target_site}.
 type GoogleDiscoveryEngineTargetSite interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -572,7 +572,7 @@ func (j *jsiiProxy_GoogleDiscoveryEngineTargetSite) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_discovery_engine_target_site google_discovery_engine_target_site} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_discovery_engine_target_site google_discovery_engine_target_site} Resource.
 func NewGoogleDiscoveryEngineTargetSite(scope constructs.Construct, id *string, config *GoogleDiscoveryEngineTargetSiteConfig) GoogleDiscoveryEngineTargetSite {
 	_init_.Initialize()
 
@@ -590,7 +590,7 @@ func NewGoogleDiscoveryEngineTargetSite(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_discovery_engine_target_site google_discovery_engine_target_site} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_discovery_engine_target_site google_discovery_engine_target_site} Resource.
 func NewGoogleDiscoveryEngineTargetSite_Override(g GoogleDiscoveryEngineTargetSite, scope constructs.Construct, id *string, config *GoogleDiscoveryEngineTargetSiteConfig) {
 	_init_.Initialize()
 

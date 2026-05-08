@@ -5,14 +5,14 @@ package googlevertexaifeaturestoreentitytypeiambinding
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlevertexaifeaturestoreentitytypeiambinding/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaifeaturestoreentitytypeiambinding/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_featurestore_entitytype_iam_binding google_vertex_ai_featurestore_entitytype_iam_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_featurestore_entitytype_iam_binding google_vertex_ai_featurestore_entitytype_iam_binding}.
 type GoogleVertexAiFeaturestoreEntitytypeIamBinding interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -446,7 +446,7 @@ func (j *jsiiProxy_GoogleVertexAiFeaturestoreEntitytypeIamBinding) TerraformReso
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_featurestore_entitytype_iam_binding google_vertex_ai_featurestore_entitytype_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_featurestore_entitytype_iam_binding google_vertex_ai_featurestore_entitytype_iam_binding} Resource.
 func NewGoogleVertexAiFeaturestoreEntitytypeIamBinding(scope constructs.Construct, id *string, config *GoogleVertexAiFeaturestoreEntitytypeIamBindingConfig) GoogleVertexAiFeaturestoreEntitytypeIamBinding {
 	_init_.Initialize()
 
@@ -464,7 +464,7 @@ func NewGoogleVertexAiFeaturestoreEntitytypeIamBinding(scope constructs.Construc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_featurestore_entitytype_iam_binding google_vertex_ai_featurestore_entitytype_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_featurestore_entitytype_iam_binding google_vertex_ai_featurestore_entitytype_iam_binding} Resource.
 func NewGoogleVertexAiFeaturestoreEntitytypeIamBinding_Override(g GoogleVertexAiFeaturestoreEntitytypeIamBinding, scope constructs.Construct, id *string, config *GoogleVertexAiFeaturestoreEntitytypeIamBindingConfig) {
 	_init_.Initialize()
 

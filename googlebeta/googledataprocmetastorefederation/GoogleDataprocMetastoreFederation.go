@@ -5,14 +5,14 @@ package googledataprocmetastorefederation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataprocmetastorefederation/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataprocmetastorefederation/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_metastore_federation google_dataproc_metastore_federation}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_metastore_federation google_dataproc_metastore_federation}.
 type GoogleDataprocMetastoreFederation interface {
 	cdktn.TerraformResource
 	BackendMetastores() GoogleDataprocMetastoreFederationBackendMetastoresList
@@ -81,6 +81,9 @@ type GoogleDataprocMetastoreFederation interface {
 	RawOverrides() interface{}
 	State() *string
 	StateMessage() *string
+	Tags() *map[string]*string
+	SetTags(val *map[string]*string)
+	TagsInput() *map[string]*string
 	// Experimental.
 	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	TerraformLabels() cdktn.StringMap
@@ -148,6 +151,7 @@ type GoogleDataprocMetastoreFederation interface {
 	// Experimental.
 	ResetOverrideLogicalId()
 	ResetProject()
+	ResetTags()
 	ResetTimeouts()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
@@ -506,6 +510,26 @@ func (j *jsiiProxy_GoogleDataprocMetastoreFederation) StateMessage() *string {
 	return returns
 }
 
+func (j *jsiiProxy_GoogleDataprocMetastoreFederation) Tags() *map[string]*string {
+	var returns *map[string]*string
+	_jsii_.Get(
+		j,
+		"tags",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDataprocMetastoreFederation) TagsInput() *map[string]*string {
+	var returns *map[string]*string
+	_jsii_.Get(
+		j,
+		"tagsInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleDataprocMetastoreFederation) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
 	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
@@ -607,7 +631,7 @@ func (j *jsiiProxy_GoogleDataprocMetastoreFederation) VersionInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_metastore_federation google_dataproc_metastore_federation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_metastore_federation google_dataproc_metastore_federation} Resource.
 func NewGoogleDataprocMetastoreFederation(scope constructs.Construct, id *string, config *GoogleDataprocMetastoreFederationConfig) GoogleDataprocMetastoreFederation {
 	_init_.Initialize()
 
@@ -625,7 +649,7 @@ func NewGoogleDataprocMetastoreFederation(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataproc_metastore_federation google_dataproc_metastore_federation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_metastore_federation google_dataproc_metastore_federation} Resource.
 func NewGoogleDataprocMetastoreFederation_Override(g GoogleDataprocMetastoreFederation, scope constructs.Construct, id *string, config *GoogleDataprocMetastoreFederationConfig) {
 	_init_.Initialize()
 
@@ -766,6 +790,17 @@ func (j *jsiiProxy_GoogleDataprocMetastoreFederation)SetProvisioners(val *[]inte
 	_jsii_.Set(
 		j,
 		"provisioners",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleDataprocMetastoreFederation)SetTags(val *map[string]*string) {
+	if err := j.validateSetTagsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"tags",
 		val,
 	)
 }
@@ -1200,6 +1235,14 @@ func (g *jsiiProxy_GoogleDataprocMetastoreFederation) ResetProject() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetProject",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleDataprocMetastoreFederation) ResetTags() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetTags",
 		nil, // no parameters
 	)
 }

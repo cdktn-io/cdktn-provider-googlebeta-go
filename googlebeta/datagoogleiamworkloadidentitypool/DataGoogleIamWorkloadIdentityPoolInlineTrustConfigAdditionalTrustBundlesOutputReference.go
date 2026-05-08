@@ -5,9 +5,9 @@ package datagoogleiamworkloadidentitypool
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagoogleiamworkloadidentitypool/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagoogleiamworkloadidentitypool/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -41,6 +41,7 @@ type DataGoogleIamWorkloadIdentityPoolInlineTrustConfigAdditionalTrustBundlesOut
 	// Experimental.
 	SetTerraformResource(val cdktn.IInterpolatingParent)
 	TrustAnchors() DataGoogleIamWorkloadIdentityPoolInlineTrustConfigAdditionalTrustBundlesTrustAnchorsList
+	TrustDefaultSharedCa() cdktn.IResolvable
 	TrustDomain() *string
 	// Experimental.
 	ComputeFqn() *string
@@ -156,6 +157,16 @@ func (j *jsiiProxy_DataGoogleIamWorkloadIdentityPoolInlineTrustConfigAdditionalT
 	_jsii_.Get(
 		j,
 		"trustAnchors",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleIamWorkloadIdentityPoolInlineTrustConfigAdditionalTrustBundlesOutputReference) TrustDefaultSharedCa() cdktn.IResolvable {
+	var returns cdktn.IResolvable
+	_jsii_.Get(
+		j,
+		"trustDefaultSharedCa",
 		&returns,
 	)
 	return returns

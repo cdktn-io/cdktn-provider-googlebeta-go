@@ -5,14 +5,14 @@ package googledialogflowcxversion
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowcxversion/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowcxversion/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_version google_dialogflow_cx_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_version google_dialogflow_cx_version}.
 type GoogleDialogflowCxVersion interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -458,7 +458,7 @@ func (j *jsiiProxy_GoogleDialogflowCxVersion) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_version google_dialogflow_cx_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_version google_dialogflow_cx_version} Resource.
 func NewGoogleDialogflowCxVersion(scope constructs.Construct, id *string, config *GoogleDialogflowCxVersionConfig) GoogleDialogflowCxVersion {
 	_init_.Initialize()
 
@@ -476,7 +476,7 @@ func NewGoogleDialogflowCxVersion(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_cx_version google_dialogflow_cx_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_version google_dialogflow_cx_version} Resource.
 func NewGoogleDialogflowCxVersion_Override(g GoogleDialogflowCxVersion, scope constructs.Construct, id *string, config *GoogleDialogflowCxVersionConfig) {
 	_init_.Initialize()
 

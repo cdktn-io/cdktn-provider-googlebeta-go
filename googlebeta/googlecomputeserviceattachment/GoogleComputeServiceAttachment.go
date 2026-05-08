@@ -5,14 +5,14 @@ package googlecomputeserviceattachment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeserviceattachment/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeserviceattachment/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_service_attachment google_compute_service_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment google_compute_service_attachment}.
 type GoogleComputeServiceAttachment interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -87,6 +87,7 @@ type GoogleComputeServiceAttachment interface {
 	Provisioners() *[]interface{}
 	// Experimental.
 	SetProvisioners(val *[]interface{})
+	PscServiceAttachmentId() GoogleComputeServiceAttachmentPscServiceAttachmentIdList
 	// Experimental.
 	RawOverrides() interface{}
 	ReconcileConnections() interface{}
@@ -99,6 +100,9 @@ type GoogleComputeServiceAttachment interface {
 	SendPropagatedConnectionLimitIfZero() interface{}
 	SetSendPropagatedConnectionLimitIfZero(val interface{})
 	SendPropagatedConnectionLimitIfZeroInput() interface{}
+	ShowNatIps() interface{}
+	SetShowNatIps(val interface{})
+	ShowNatIpsInput() interface{}
 	TargetService() *string
 	SetTargetService(val *string)
 	TargetServiceInput() *string
@@ -110,6 +114,8 @@ type GoogleComputeServiceAttachment interface {
 	TerraformResourceType() *string
 	Timeouts() GoogleComputeServiceAttachmentTimeoutsOutputReference
 	TimeoutsInput() interface{}
+	TunnelingConfig() GoogleComputeServiceAttachmentTunnelingConfigOutputReference
+	TunnelingConfigInput() *GoogleComputeServiceAttachmentTunnelingConfig
 	// Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
 	// Experimental.
 	AddMoveTarget(moveTarget *string)
@@ -155,6 +161,7 @@ type GoogleComputeServiceAttachment interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutConsumerAcceptLists(value interface{})
 	PutTimeouts(value *GoogleComputeServiceAttachmentTimeouts)
+	PutTunnelingConfig(value *GoogleComputeServiceAttachmentTunnelingConfig)
 	ResetConsumerAcceptLists()
 	ResetConsumerRejectLists()
 	ResetDescription()
@@ -168,7 +175,9 @@ type GoogleComputeServiceAttachment interface {
 	ResetReconcileConnections()
 	ResetRegion()
 	ResetSendPropagatedConnectionLimitIfZero()
+	ResetShowNatIps()
 	ResetTimeouts()
+	ResetTunnelingConfig()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
 	// Experimental.
@@ -556,6 +565,16 @@ func (j *jsiiProxy_GoogleComputeServiceAttachment) Provisioners() *[]interface{}
 	return returns
 }
 
+func (j *jsiiProxy_GoogleComputeServiceAttachment) PscServiceAttachmentId() GoogleComputeServiceAttachmentPscServiceAttachmentIdList {
+	var returns GoogleComputeServiceAttachmentPscServiceAttachmentIdList
+	_jsii_.Get(
+		j,
+		"pscServiceAttachmentId",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleComputeServiceAttachment) RawOverrides() interface{} {
 	var returns interface{}
 	_jsii_.Get(
@@ -636,6 +655,26 @@ func (j *jsiiProxy_GoogleComputeServiceAttachment) SendPropagatedConnectionLimit
 	return returns
 }
 
+func (j *jsiiProxy_GoogleComputeServiceAttachment) ShowNatIps() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"showNatIps",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeServiceAttachment) ShowNatIpsInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"showNatIpsInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleComputeServiceAttachment) TargetService() *string {
 	var returns *string
 	_jsii_.Get(
@@ -706,8 +745,28 @@ func (j *jsiiProxy_GoogleComputeServiceAttachment) TimeoutsInput() interface{} {
 	return returns
 }
 
+func (j *jsiiProxy_GoogleComputeServiceAttachment) TunnelingConfig() GoogleComputeServiceAttachmentTunnelingConfigOutputReference {
+	var returns GoogleComputeServiceAttachmentTunnelingConfigOutputReference
+	_jsii_.Get(
+		j,
+		"tunnelingConfig",
+		&returns,
+	)
+	return returns
+}
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_service_attachment google_compute_service_attachment} Resource.
+func (j *jsiiProxy_GoogleComputeServiceAttachment) TunnelingConfigInput() *GoogleComputeServiceAttachmentTunnelingConfig {
+	var returns *GoogleComputeServiceAttachmentTunnelingConfig
+	_jsii_.Get(
+		j,
+		"tunnelingConfigInput",
+		&returns,
+	)
+	return returns
+}
+
+
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment google_compute_service_attachment} Resource.
 func NewGoogleComputeServiceAttachment(scope constructs.Construct, id *string, config *GoogleComputeServiceAttachmentConfig) GoogleComputeServiceAttachment {
 	_init_.Initialize()
 
@@ -725,7 +784,7 @@ func NewGoogleComputeServiceAttachment(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_service_attachment google_compute_service_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_service_attachment google_compute_service_attachment} Resource.
 func NewGoogleComputeServiceAttachment_Override(g GoogleComputeServiceAttachment, scope constructs.Construct, id *string, config *GoogleComputeServiceAttachmentConfig) {
 	_init_.Initialize()
 
@@ -943,6 +1002,17 @@ func (j *jsiiProxy_GoogleComputeServiceAttachment)SetSendPropagatedConnectionLim
 	_jsii_.Set(
 		j,
 		"sendPropagatedConnectionLimitIfZero",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleComputeServiceAttachment)SetShowNatIps(val interface{}) {
+	if err := j.validateSetShowNatIpsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"showNatIps",
 		val,
 	)
 }
@@ -1333,6 +1403,17 @@ func (g *jsiiProxy_GoogleComputeServiceAttachment) PutTimeouts(value *GoogleComp
 	)
 }
 
+func (g *jsiiProxy_GoogleComputeServiceAttachment) PutTunnelingConfig(value *GoogleComputeServiceAttachmentTunnelingConfig) {
+	if err := g.validatePutTunnelingConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putTunnelingConfig",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleComputeServiceAttachment) ResetConsumerAcceptLists() {
 	_jsii_.InvokeVoid(
 		g,
@@ -1421,10 +1502,26 @@ func (g *jsiiProxy_GoogleComputeServiceAttachment) ResetSendPropagatedConnection
 	)
 }
 
+func (g *jsiiProxy_GoogleComputeServiceAttachment) ResetShowNatIps() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetShowNatIps",
+		nil, // no parameters
+	)
+}
+
 func (g *jsiiProxy_GoogleComputeServiceAttachment) ResetTimeouts() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetTimeouts",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleComputeServiceAttachment) ResetTunnelingConfig() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetTunnelingConfig",
 		nil, // no parameters
 	)
 }

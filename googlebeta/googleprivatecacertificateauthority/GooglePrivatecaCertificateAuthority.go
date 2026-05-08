@@ -5,14 +5,14 @@ package googleprivatecacertificateauthority
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleprivatecacertificateauthority/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleprivatecacertificateauthority/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_privateca_certificate_authority google_privateca_certificate_authority}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_privateca_certificate_authority google_privateca_certificate_authority}.
 type GooglePrivatecaCertificateAuthority interface {
 	cdktn.TerraformResource
 	AccessUrls() GooglePrivatecaCertificateAuthorityAccessUrlsList
@@ -834,7 +834,7 @@ func (j *jsiiProxy_GooglePrivatecaCertificateAuthority) UserDefinedAccessUrlsInp
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_privateca_certificate_authority google_privateca_certificate_authority} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_privateca_certificate_authority google_privateca_certificate_authority} Resource.
 func NewGooglePrivatecaCertificateAuthority(scope constructs.Construct, id *string, config *GooglePrivatecaCertificateAuthorityConfig) GooglePrivatecaCertificateAuthority {
 	_init_.Initialize()
 
@@ -852,7 +852,7 @@ func NewGooglePrivatecaCertificateAuthority(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_privateca_certificate_authority google_privateca_certificate_authority} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_privateca_certificate_authority google_privateca_certificate_authority} Resource.
 func NewGooglePrivatecaCertificateAuthority_Override(g GooglePrivatecaCertificateAuthority, scope constructs.Construct, id *string, config *GooglePrivatecaCertificateAuthorityConfig) {
 	_init_.Initialize()
 

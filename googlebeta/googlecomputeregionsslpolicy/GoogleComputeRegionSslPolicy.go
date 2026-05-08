@@ -5,14 +5,14 @@ package googlecomputeregionsslpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeregionsslpolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeregionsslpolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_ssl_policy google_compute_region_ssl_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_ssl_policy google_compute_region_ssl_policy}.
 type GoogleComputeRegionSslPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -554,7 +554,7 @@ func (j *jsiiProxy_GoogleComputeRegionSslPolicy) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_ssl_policy google_compute_region_ssl_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_ssl_policy google_compute_region_ssl_policy} Resource.
 func NewGoogleComputeRegionSslPolicy(scope constructs.Construct, id *string, config *GoogleComputeRegionSslPolicyConfig) GoogleComputeRegionSslPolicy {
 	_init_.Initialize()
 
@@ -572,7 +572,7 @@ func NewGoogleComputeRegionSslPolicy(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_ssl_policy google_compute_region_ssl_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_ssl_policy google_compute_region_ssl_policy} Resource.
 func NewGoogleComputeRegionSslPolicy_Override(g GoogleComputeRegionSslPolicy, scope constructs.Construct, id *string, config *GoogleComputeRegionSslPolicyConfig) {
 	_init_.Initialize()
 

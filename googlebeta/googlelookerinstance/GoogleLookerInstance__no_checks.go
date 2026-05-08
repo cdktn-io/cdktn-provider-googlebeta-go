@@ -79,6 +79,10 @@ func (g *jsiiProxy_GoogleLookerInstance) validatePutAdminSettingsParameters(valu
 	return nil
 }
 
+func (g *jsiiProxy_GoogleLookerInstance) validatePutControlledEgressConfigParameters(value *GoogleLookerInstanceControlledEgressConfig) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleLookerInstance) validatePutCustomDomainParameters(value *GoogleLookerInstanceCustomDomain) error {
 	return nil
 }
@@ -96,6 +100,10 @@ func (g *jsiiProxy_GoogleLookerInstance) validatePutMaintenanceWindowParameters(
 }
 
 func (g *jsiiProxy_GoogleLookerInstance) validatePutOauthConfigParameters(value *GoogleLookerInstanceOauthConfig) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleLookerInstance) validatePutPeriodicExportConfigParameters(value *GoogleLookerInstancePeriodicExportConfig) error {
 	return nil
 }
 
@@ -135,6 +143,10 @@ func (j *jsiiProxy_GoogleLookerInstance) validateSetConsumerNetworkParameters(va
 	return nil
 }
 
+func (j *jsiiProxy_GoogleLookerInstance) validateSetControlledEgressEnabledParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleLookerInstance) validateSetCountParameters(val interface{}) error {
 	return nil
 }
@@ -144,6 +156,10 @@ func (j *jsiiProxy_GoogleLookerInstance) validateSetDeletionPolicyParameters(val
 }
 
 func (j *jsiiProxy_GoogleLookerInstance) validateSetFipsEnabledParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleLookerInstance) validateSetGeminiEnabledParameters(val interface{}) error {
 	return nil
 }
 

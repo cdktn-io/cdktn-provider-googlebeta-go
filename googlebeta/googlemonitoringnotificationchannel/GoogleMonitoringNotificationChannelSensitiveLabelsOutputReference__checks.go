@@ -109,6 +109,22 @@ func (j *jsiiProxy_GoogleMonitoringNotificationChannelSensitiveLabelsOutputRefer
 	return nil
 }
 
+func (j *jsiiProxy_GoogleMonitoringNotificationChannelSensitiveLabelsOutputReference) validateSetAuthTokenWoParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_GoogleMonitoringNotificationChannelSensitiveLabelsOutputReference) validateSetAuthTokenWoVersionParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_GoogleMonitoringNotificationChannelSensitiveLabelsOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
 	switch val.(type) {
 	case *string:
@@ -190,7 +206,39 @@ func (j *jsiiProxy_GoogleMonitoringNotificationChannelSensitiveLabelsOutputRefer
 	return nil
 }
 
+func (j *jsiiProxy_GoogleMonitoringNotificationChannelSensitiveLabelsOutputReference) validateSetPasswordWoParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_GoogleMonitoringNotificationChannelSensitiveLabelsOutputReference) validateSetPasswordWoVersionParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_GoogleMonitoringNotificationChannelSensitiveLabelsOutputReference) validateSetServiceKeyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_GoogleMonitoringNotificationChannelSensitiveLabelsOutputReference) validateSetServiceKeyWoParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_GoogleMonitoringNotificationChannelSensitiveLabelsOutputReference) validateSetServiceKeyWoVersionParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}

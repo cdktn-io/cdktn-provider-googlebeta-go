@@ -5,14 +5,14 @@ package googleosconfigv2policyorchestrator
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigv2policyorchestrator/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigv2policyorchestrator/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator google_os_config_v2_policy_orchestrator}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator google_os_config_v2_policy_orchestrator}.
 type GoogleOsConfigV2PolicyOrchestrator interface {
 	cdktn.TerraformResource
 	Action() *string
@@ -609,7 +609,7 @@ func (j *jsiiProxy_GoogleOsConfigV2PolicyOrchestrator) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator google_os_config_v2_policy_orchestrator} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator google_os_config_v2_policy_orchestrator} Resource.
 func NewGoogleOsConfigV2PolicyOrchestrator(scope constructs.Construct, id *string, config *GoogleOsConfigV2PolicyOrchestratorConfig) GoogleOsConfigV2PolicyOrchestrator {
 	_init_.Initialize()
 
@@ -627,7 +627,7 @@ func NewGoogleOsConfigV2PolicyOrchestrator(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_v2_policy_orchestrator google_os_config_v2_policy_orchestrator} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_v2_policy_orchestrator google_os_config_v2_policy_orchestrator} Resource.
 func NewGoogleOsConfigV2PolicyOrchestrator_Override(g GoogleOsConfigV2PolicyOrchestrator, scope constructs.Construct, id *string, config *GoogleOsConfigV2PolicyOrchestratorConfig) {
 	_init_.Initialize()
 

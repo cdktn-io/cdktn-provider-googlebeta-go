@@ -5,14 +5,14 @@ package googlecomputeregionnetworkfirewallpolicyassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeregionnetworkfirewallpolicyassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeregionnetworkfirewallpolicyassociation/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_network_firewall_policy_association google_compute_region_network_firewall_policy_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_network_firewall_policy_association google_compute_region_network_firewall_policy_association}.
 type GoogleComputeRegionNetworkFirewallPolicyAssociation interface {
 	cdktn.TerraformResource
 	AttachmentTarget() *string
@@ -57,6 +57,9 @@ type GoogleComputeRegionNetworkFirewallPolicyAssociation interface {
 	NameInput() *string
 	// The tree node.
 	Node() constructs.Node
+	Priority() *float64
+	SetPriority(val *float64)
+	PriorityInput() *float64
 	Project() *string
 	SetProject(val *string)
 	ProjectInput() *string
@@ -130,6 +133,7 @@ type GoogleComputeRegionNetworkFirewallPolicyAssociation interface {
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
+	ResetPriority()
 	ResetProject()
 	ResetRegion()
 	ResetTimeouts()
@@ -340,6 +344,26 @@ func (j *jsiiProxy_GoogleComputeRegionNetworkFirewallPolicyAssociation) Node() c
 	return returns
 }
 
+func (j *jsiiProxy_GoogleComputeRegionNetworkFirewallPolicyAssociation) Priority() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"priority",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeRegionNetworkFirewallPolicyAssociation) PriorityInput() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"priorityInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleComputeRegionNetworkFirewallPolicyAssociation) Project() *string {
 	var returns *string
 	_jsii_.Get(
@@ -471,7 +495,7 @@ func (j *jsiiProxy_GoogleComputeRegionNetworkFirewallPolicyAssociation) Timeouts
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_network_firewall_policy_association google_compute_region_network_firewall_policy_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_network_firewall_policy_association google_compute_region_network_firewall_policy_association} Resource.
 func NewGoogleComputeRegionNetworkFirewallPolicyAssociation(scope constructs.Construct, id *string, config *GoogleComputeRegionNetworkFirewallPolicyAssociationConfig) GoogleComputeRegionNetworkFirewallPolicyAssociation {
 	_init_.Initialize()
 
@@ -489,7 +513,7 @@ func NewGoogleComputeRegionNetworkFirewallPolicyAssociation(scope constructs.Con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_network_firewall_policy_association google_compute_region_network_firewall_policy_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_network_firewall_policy_association google_compute_region_network_firewall_policy_association} Resource.
 func NewGoogleComputeRegionNetworkFirewallPolicyAssociation_Override(g GoogleComputeRegionNetworkFirewallPolicyAssociation, scope constructs.Construct, id *string, config *GoogleComputeRegionNetworkFirewallPolicyAssociationConfig) {
 	_init_.Initialize()
 
@@ -589,6 +613,17 @@ func (j *jsiiProxy_GoogleComputeRegionNetworkFirewallPolicyAssociation)SetName(v
 	_jsii_.Set(
 		j,
 		"name",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleComputeRegionNetworkFirewallPolicyAssociation)SetPriority(val *float64) {
+	if err := j.validateSetPriorityParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"priority",
 		val,
 	)
 }
@@ -1010,6 +1045,14 @@ func (g *jsiiProxy_GoogleComputeRegionNetworkFirewallPolicyAssociation) ResetOve
 	_jsii_.InvokeVoid(
 		g,
 		"resetOverrideLogicalId",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleComputeRegionNetworkFirewallPolicyAssociation) ResetPriority() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetPriority",
 		nil, // no parameters
 	)
 }

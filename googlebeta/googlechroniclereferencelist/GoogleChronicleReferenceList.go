@@ -5,14 +5,14 @@ package googlechroniclereferencelist
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlechroniclereferencelist/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechroniclereferencelist/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_chronicle_reference_list google_chronicle_reference_list}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_reference_list google_chronicle_reference_list}.
 type GoogleChronicleReferenceList interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -80,7 +80,8 @@ type GoogleChronicleReferenceList interface {
 	RevisionCreateTime() *string
 	RuleAssociationsCount() *float64
 	Rules() *[]*string
-	ScopeInfo() GoogleChronicleReferenceListScopeInfoList
+	ScopeInfo() GoogleChronicleReferenceListScopeInfoOutputReference
+	ScopeInfoInput() *GoogleChronicleReferenceListScopeInfo
 	SyntaxType() *string
 	SetSyntaxType(val *string)
 	SyntaxTypeInput() *string
@@ -136,12 +137,14 @@ type GoogleChronicleReferenceList interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutEntries(value interface{})
+	PutScopeInfo(value *GoogleChronicleReferenceListScopeInfo)
 	PutTimeouts(value *GoogleChronicleReferenceListTimeouts)
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
 	ResetProject()
+	ResetScopeInfo()
 	ResetTimeouts()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
@@ -490,11 +493,21 @@ func (j *jsiiProxy_GoogleChronicleReferenceList) Rules() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleChronicleReferenceList) ScopeInfo() GoogleChronicleReferenceListScopeInfoList {
-	var returns GoogleChronicleReferenceListScopeInfoList
+func (j *jsiiProxy_GoogleChronicleReferenceList) ScopeInfo() GoogleChronicleReferenceListScopeInfoOutputReference {
+	var returns GoogleChronicleReferenceListScopeInfoOutputReference
 	_jsii_.Get(
 		j,
 		"scopeInfo",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleChronicleReferenceList) ScopeInfoInput() *GoogleChronicleReferenceListScopeInfo {
+	var returns *GoogleChronicleReferenceListScopeInfo
+	_jsii_.Get(
+		j,
+		"scopeInfoInput",
 		&returns,
 	)
 	return returns
@@ -571,7 +584,7 @@ func (j *jsiiProxy_GoogleChronicleReferenceList) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_chronicle_reference_list google_chronicle_reference_list} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_reference_list google_chronicle_reference_list} Resource.
 func NewGoogleChronicleReferenceList(scope constructs.Construct, id *string, config *GoogleChronicleReferenceListConfig) GoogleChronicleReferenceList {
 	_init_.Initialize()
 
@@ -589,7 +602,7 @@ func NewGoogleChronicleReferenceList(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_chronicle_reference_list google_chronicle_reference_list} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_reference_list google_chronicle_reference_list} Resource.
 func NewGoogleChronicleReferenceList_Override(g GoogleChronicleReferenceList, scope constructs.Construct, id *string, config *GoogleChronicleReferenceListConfig) {
 	_init_.Initialize()
 
@@ -1109,6 +1122,17 @@ func (g *jsiiProxy_GoogleChronicleReferenceList) PutEntries(value interface{}) {
 	)
 }
 
+func (g *jsiiProxy_GoogleChronicleReferenceList) PutScopeInfo(value *GoogleChronicleReferenceListScopeInfo) {
+	if err := g.validatePutScopeInfoParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putScopeInfo",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleChronicleReferenceList) PutTimeouts(value *GoogleChronicleReferenceListTimeouts) {
 	if err := g.validatePutTimeoutsParameters(value); err != nil {
 		panic(err)
@@ -1140,6 +1164,14 @@ func (g *jsiiProxy_GoogleChronicleReferenceList) ResetProject() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetProject",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleChronicleReferenceList) ResetScopeInfo() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetScopeInfo",
 		nil, // no parameters
 	)
 }

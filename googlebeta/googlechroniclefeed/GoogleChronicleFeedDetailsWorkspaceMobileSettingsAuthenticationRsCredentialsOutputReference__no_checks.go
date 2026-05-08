@@ -1,0 +1,81 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package googlechroniclefeed
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (g *jsiiProxy_GoogleChronicleFeedDetailsWorkspaceMobileSettingsAuthenticationRsCredentialsOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleChronicleFeedDetailsWorkspaceMobileSettingsAuthenticationRsCredentialsOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleChronicleFeedDetailsWorkspaceMobileSettingsAuthenticationRsCredentialsOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleChronicleFeedDetailsWorkspaceMobileSettingsAuthenticationRsCredentialsOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleChronicleFeedDetailsWorkspaceMobileSettingsAuthenticationRsCredentialsOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleChronicleFeedDetailsWorkspaceMobileSettingsAuthenticationRsCredentialsOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleChronicleFeedDetailsWorkspaceMobileSettingsAuthenticationRsCredentialsOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleChronicleFeedDetailsWorkspaceMobileSettingsAuthenticationRsCredentialsOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleChronicleFeedDetailsWorkspaceMobileSettingsAuthenticationRsCredentialsOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleChronicleFeedDetailsWorkspaceMobileSettingsAuthenticationRsCredentialsOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleChronicleFeedDetailsWorkspaceMobileSettingsAuthenticationRsCredentialsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleChronicleFeedDetailsWorkspaceMobileSettingsAuthenticationRsCredentialsOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleChronicleFeedDetailsWorkspaceMobileSettingsAuthenticationRsCredentialsOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleChronicleFeedDetailsWorkspaceMobileSettingsAuthenticationRsCredentialsOutputReference) validateSetInternalValueParameters(val *GoogleChronicleFeedDetailsWorkspaceMobileSettingsAuthenticationRsCredentials) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleChronicleFeedDetailsWorkspaceMobileSettingsAuthenticationRsCredentialsOutputReference) validateSetPrivateKeyParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleChronicleFeedDetailsWorkspaceMobileSettingsAuthenticationRsCredentialsOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleChronicleFeedDetailsWorkspaceMobileSettingsAuthenticationRsCredentialsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewGoogleChronicleFeedDetailsWorkspaceMobileSettingsAuthenticationRsCredentialsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

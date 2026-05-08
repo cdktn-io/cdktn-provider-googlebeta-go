@@ -59,6 +59,10 @@ func (j *jsiiProxy_GoogleVertexAiFeatureOnlineStoreFeatureviewSyncConfigOutputRe
 	return nil
 }
 
+func (j *jsiiProxy_GoogleVertexAiFeatureOnlineStoreFeatureviewSyncConfigOutputReference) validateSetContinuousParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleVertexAiFeatureOnlineStoreFeatureviewSyncConfigOutputReference) validateSetCronParameters(val *string) error {
 	return nil
 }

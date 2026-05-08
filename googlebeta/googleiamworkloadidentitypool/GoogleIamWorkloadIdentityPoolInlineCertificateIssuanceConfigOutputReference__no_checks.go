@@ -87,6 +87,10 @@ func (j *jsiiProxy_GoogleIamWorkloadIdentityPoolInlineCertificateIssuanceConfigO
 	return nil
 }
 
+func (j *jsiiProxy_GoogleIamWorkloadIdentityPoolInlineCertificateIssuanceConfigOutputReference) validateSetUseDefaultSharedCaParameters(val interface{}) error {
+	return nil
+}
+
 func validateNewGoogleIamWorkloadIdentityPoolInlineCertificateIssuanceConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }

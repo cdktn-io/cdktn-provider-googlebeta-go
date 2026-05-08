@@ -5,14 +5,14 @@ package googlebillingaccountiampolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebillingaccountiampolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebillingaccountiampolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_billing_account_iam_policy google_billing_account_iam_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_billing_account_iam_policy google_billing_account_iam_policy}.
 type GoogleBillingAccountIamPolicy interface {
 	cdktn.TerraformResource
 	BillingAccountId() *string
@@ -376,7 +376,7 @@ func (j *jsiiProxy_GoogleBillingAccountIamPolicy) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_billing_account_iam_policy google_billing_account_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_billing_account_iam_policy google_billing_account_iam_policy} Resource.
 func NewGoogleBillingAccountIamPolicy(scope constructs.Construct, id *string, config *GoogleBillingAccountIamPolicyConfig) GoogleBillingAccountIamPolicy {
 	_init_.Initialize()
 
@@ -394,7 +394,7 @@ func NewGoogleBillingAccountIamPolicy(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_billing_account_iam_policy google_billing_account_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_billing_account_iam_policy google_billing_account_iam_policy} Resource.
 func NewGoogleBillingAccountIamPolicy_Override(g GoogleBillingAccountIamPolicy, scope constructs.Construct, id *string, config *GoogleBillingAccountIamPolicyConfig) {
 	_init_.Initialize()
 

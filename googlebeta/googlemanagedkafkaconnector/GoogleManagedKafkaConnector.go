@@ -5,14 +5,14 @@ package googlemanagedkafkaconnector
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlemanagedkafkaconnector/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlemanagedkafkaconnector/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_managed_kafka_connector google_managed_kafka_connector}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_managed_kafka_connector google_managed_kafka_connector}.
 type GoogleManagedKafkaConnector interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -506,7 +506,7 @@ func (j *jsiiProxy_GoogleManagedKafkaConnector) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_managed_kafka_connector google_managed_kafka_connector} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_managed_kafka_connector google_managed_kafka_connector} Resource.
 func NewGoogleManagedKafkaConnector(scope constructs.Construct, id *string, config *GoogleManagedKafkaConnectorConfig) GoogleManagedKafkaConnector {
 	_init_.Initialize()
 
@@ -524,7 +524,7 @@ func NewGoogleManagedKafkaConnector(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_managed_kafka_connector google_managed_kafka_connector} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_managed_kafka_connector google_managed_kafka_connector} Resource.
 func NewGoogleManagedKafkaConnector_Override(g GoogleManagedKafkaConnector, scope constructs.Construct, id *string, config *GoogleManagedKafkaConnectorConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package googleruntimeconfigconfigiambinding
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleruntimeconfigconfigiambinding/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleruntimeconfigconfigiambinding/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_runtimeconfig_config_iam_binding google_runtimeconfig_config_iam_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_runtimeconfig_config_iam_binding google_runtimeconfig_config_iam_binding}.
 type GoogleRuntimeconfigConfigIamBinding interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -447,7 +447,7 @@ func (j *jsiiProxy_GoogleRuntimeconfigConfigIamBinding) TerraformResourceType() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_runtimeconfig_config_iam_binding google_runtimeconfig_config_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_runtimeconfig_config_iam_binding google_runtimeconfig_config_iam_binding} Resource.
 func NewGoogleRuntimeconfigConfigIamBinding(scope constructs.Construct, id *string, config *GoogleRuntimeconfigConfigIamBindingConfig) GoogleRuntimeconfigConfigIamBinding {
 	_init_.Initialize()
 
@@ -465,7 +465,7 @@ func NewGoogleRuntimeconfigConfigIamBinding(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_runtimeconfig_config_iam_binding google_runtimeconfig_config_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_runtimeconfig_config_iam_binding google_runtimeconfig_config_iam_binding} Resource.
 func NewGoogleRuntimeconfigConfigIamBinding_Override(g GoogleRuntimeconfigConfigIamBinding, scope constructs.Construct, id *string, config *GoogleRuntimeconfigConfigIamBindingConfig) {
 	_init_.Initialize()
 

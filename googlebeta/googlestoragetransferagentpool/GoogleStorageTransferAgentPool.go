@@ -5,14 +5,14 @@ package googlestoragetransferagentpool
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestoragetransferagentpool/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlestoragetransferagentpool/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_agent_pool google_storage_transfer_agent_pool}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_agent_pool google_storage_transfer_agent_pool}.
 type GoogleStorageTransferAgentPool interface {
 	cdktn.TerraformResource
 	BandwidthLimit() GoogleStorageTransferAgentPoolBandwidthLimitOutputReference
@@ -449,7 +449,7 @@ func (j *jsiiProxy_GoogleStorageTransferAgentPool) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_agent_pool google_storage_transfer_agent_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_agent_pool google_storage_transfer_agent_pool} Resource.
 func NewGoogleStorageTransferAgentPool(scope constructs.Construct, id *string, config *GoogleStorageTransferAgentPoolConfig) GoogleStorageTransferAgentPool {
 	_init_.Initialize()
 
@@ -467,7 +467,7 @@ func NewGoogleStorageTransferAgentPool(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_transfer_agent_pool google_storage_transfer_agent_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_transfer_agent_pool google_storage_transfer_agent_pool} Resource.
 func NewGoogleStorageTransferAgentPool_Override(g GoogleStorageTransferAgentPool, scope constructs.Construct, id *string, config *GoogleStorageTransferAgentPoolConfig) {
 	_init_.Initialize()
 

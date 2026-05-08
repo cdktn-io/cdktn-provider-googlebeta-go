@@ -5,14 +5,14 @@ package googleruntimeconfigconfigiammember
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleruntimeconfigconfigiammember/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleruntimeconfigconfigiammember/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_runtimeconfig_config_iam_member google_runtimeconfig_config_iam_member}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_runtimeconfig_config_iam_member google_runtimeconfig_config_iam_member}.
 type GoogleRuntimeconfigConfigIamMember interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -447,7 +447,7 @@ func (j *jsiiProxy_GoogleRuntimeconfigConfigIamMember) TerraformResourceType() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_runtimeconfig_config_iam_member google_runtimeconfig_config_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_runtimeconfig_config_iam_member google_runtimeconfig_config_iam_member} Resource.
 func NewGoogleRuntimeconfigConfigIamMember(scope constructs.Construct, id *string, config *GoogleRuntimeconfigConfigIamMemberConfig) GoogleRuntimeconfigConfigIamMember {
 	_init_.Initialize()
 
@@ -465,7 +465,7 @@ func NewGoogleRuntimeconfigConfigIamMember(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_runtimeconfig_config_iam_member google_runtimeconfig_config_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_runtimeconfig_config_iam_member google_runtimeconfig_config_iam_member} Resource.
 func NewGoogleRuntimeconfigConfigIamMember_Override(g GoogleRuntimeconfigConfigIamMember, scope constructs.Construct, id *string, config *GoogleRuntimeconfigConfigIamMemberConfig) {
 	_init_.Initialize()
 

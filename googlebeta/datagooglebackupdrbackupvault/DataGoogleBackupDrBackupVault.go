@@ -5,14 +5,14 @@ package datagooglebackupdrbackupvault
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglebackupdrbackupvault/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglebackupdrbackupvault/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_backup_dr_backup_vault google_backup_dr_backup_vault}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_backup_dr_backup_vault google_backup_dr_backup_vault}.
 type DataGoogleBackupDrBackupVault interface {
 	cdktn.TerraformDataSource
 	AccessRestriction() *string
@@ -42,6 +42,7 @@ type DataGoogleBackupDrBackupVault interface {
 	EffectiveAnnotations() cdktn.StringMap
 	EffectiveLabels() cdktn.StringMap
 	EffectiveTime() *string
+	EncryptionConfig() DataGoogleBackupDrBackupVaultEncryptionConfigList
 	Etag() *string
 	ForceDelete() cdktn.IResolvable
 	ForceUpdate() cdktn.IResolvable
@@ -323,6 +324,16 @@ func (j *jsiiProxy_DataGoogleBackupDrBackupVault) EffectiveTime() *string {
 	_jsii_.Get(
 		j,
 		"effectiveTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleBackupDrBackupVault) EncryptionConfig() DataGoogleBackupDrBackupVaultEncryptionConfigList {
+	var returns DataGoogleBackupDrBackupVaultEncryptionConfigList
+	_jsii_.Get(
+		j,
+		"encryptionConfig",
 		&returns,
 	)
 	return returns
@@ -619,7 +630,7 @@ func (j *jsiiProxy_DataGoogleBackupDrBackupVault) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_backup_dr_backup_vault google_backup_dr_backup_vault} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_backup_dr_backup_vault google_backup_dr_backup_vault} Data Source.
 func NewDataGoogleBackupDrBackupVault(scope constructs.Construct, id *string, config *DataGoogleBackupDrBackupVaultConfig) DataGoogleBackupDrBackupVault {
 	_init_.Initialize()
 
@@ -637,7 +648,7 @@ func NewDataGoogleBackupDrBackupVault(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_backup_dr_backup_vault google_backup_dr_backup_vault} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_backup_dr_backup_vault google_backup_dr_backup_vault} Data Source.
 func NewDataGoogleBackupDrBackupVault_Override(d DataGoogleBackupDrBackupVault, scope constructs.Construct, id *string, config *DataGoogleBackupDrBackupVaultConfig) {
 	_init_.Initialize()
 

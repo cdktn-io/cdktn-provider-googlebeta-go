@@ -5,14 +5,14 @@ package googleprojectdefaultserviceaccounts
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleprojectdefaultserviceaccounts/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleprojectdefaultserviceaccounts/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_project_default_service_accounts google_project_default_service_accounts}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_project_default_service_accounts google_project_default_service_accounts}.
 type GoogleProjectDefaultServiceAccounts interface {
 	cdktn.TerraformResource
 	Action() *string
@@ -424,7 +424,7 @@ func (j *jsiiProxy_GoogleProjectDefaultServiceAccounts) TimeoutsInput() interfac
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_project_default_service_accounts google_project_default_service_accounts} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_project_default_service_accounts google_project_default_service_accounts} Resource.
 func NewGoogleProjectDefaultServiceAccounts(scope constructs.Construct, id *string, config *GoogleProjectDefaultServiceAccountsConfig) GoogleProjectDefaultServiceAccounts {
 	_init_.Initialize()
 
@@ -442,7 +442,7 @@ func NewGoogleProjectDefaultServiceAccounts(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_project_default_service_accounts google_project_default_service_accounts} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_project_default_service_accounts google_project_default_service_accounts} Resource.
 func NewGoogleProjectDefaultServiceAccounts_Override(g GoogleProjectDefaultServiceAccounts, scope constructs.Construct, id *string, config *GoogleProjectDefaultServiceAccountsConfig) {
 	_init_.Initialize()
 

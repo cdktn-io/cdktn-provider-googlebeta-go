@@ -5,14 +5,14 @@ package googlenetworkserviceslbtrafficextension
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenetworkserviceslbtrafficextension/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenetworkserviceslbtrafficextension/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_services_lb_traffic_extension google_network_services_lb_traffic_extension}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_services_lb_traffic_extension google_network_services_lb_traffic_extension}.
 type GoogleNetworkServicesLbTrafficExtension interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -139,7 +139,6 @@ type GoogleNetworkServicesLbTrafficExtension interface {
 	ResetDescription()
 	ResetId()
 	ResetLabels()
-	ResetLoadBalancingScheme()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
@@ -553,7 +552,7 @@ func (j *jsiiProxy_GoogleNetworkServicesLbTrafficExtension) TimeoutsInput() inte
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_services_lb_traffic_extension google_network_services_lb_traffic_extension} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_services_lb_traffic_extension google_network_services_lb_traffic_extension} Resource.
 func NewGoogleNetworkServicesLbTrafficExtension(scope constructs.Construct, id *string, config *GoogleNetworkServicesLbTrafficExtensionConfig) GoogleNetworkServicesLbTrafficExtension {
 	_init_.Initialize()
 
@@ -571,7 +570,7 @@ func NewGoogleNetworkServicesLbTrafficExtension(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_services_lb_traffic_extension google_network_services_lb_traffic_extension} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_services_lb_traffic_extension google_network_services_lb_traffic_extension} Resource.
 func NewGoogleNetworkServicesLbTrafficExtension_Override(g GoogleNetworkServicesLbTrafficExtension, scope constructs.Construct, id *string, config *GoogleNetworkServicesLbTrafficExtensionConfig) {
 	_init_.Initialize()
 
@@ -1133,14 +1132,6 @@ func (g *jsiiProxy_GoogleNetworkServicesLbTrafficExtension) ResetLabels() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetLabels",
-		nil, // no parameters
-	)
-}
-
-func (g *jsiiProxy_GoogleNetworkServicesLbTrafficExtension) ResetLoadBalancingScheme() {
-	_jsii_.InvokeVoid(
-		g,
-		"resetLoadBalancingScheme",
 		nil, // no parameters
 	)
 }

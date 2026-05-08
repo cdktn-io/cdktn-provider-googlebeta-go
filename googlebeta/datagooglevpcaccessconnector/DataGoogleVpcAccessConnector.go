@@ -5,14 +5,14 @@ package datagooglevpcaccessconnector
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglevpcaccessconnector/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglevpcaccessconnector/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_vpc_access_connector google_vpc_access_connector}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_vpc_access_connector google_vpc_access_connector}.
 type DataGoogleVpcAccessConnector interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -466,7 +466,7 @@ func (j *jsiiProxy_DataGoogleVpcAccessConnector) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_vpc_access_connector google_vpc_access_connector} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_vpc_access_connector google_vpc_access_connector} Data Source.
 func NewDataGoogleVpcAccessConnector(scope constructs.Construct, id *string, config *DataGoogleVpcAccessConnectorConfig) DataGoogleVpcAccessConnector {
 	_init_.Initialize()
 
@@ -484,7 +484,7 @@ func NewDataGoogleVpcAccessConnector(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_vpc_access_connector google_vpc_access_connector} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_vpc_access_connector google_vpc_access_connector} Data Source.
 func NewDataGoogleVpcAccessConnector_Override(d DataGoogleVpcAccessConnector, scope constructs.Construct, id *string, config *DataGoogleVpcAccessConnectorConfig) {
 	_init_.Initialize()
 

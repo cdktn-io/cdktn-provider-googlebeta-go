@@ -71,6 +71,10 @@ func (j *jsiiProxy_GoogleComputeInstanceFromTemplateNetworkInterfaceOutputRefere
 	return nil
 }
 
+func (j *jsiiProxy_GoogleComputeInstanceFromTemplateNetworkInterfaceOutputReference) validateSetIgmpQueryParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleComputeInstanceFromTemplateNetworkInterfaceOutputReference) validateSetInternalIpv6PrefixLengthParameters(val *float64) error {
 	return nil
 }
@@ -124,6 +128,10 @@ func (j *jsiiProxy_GoogleComputeInstanceFromTemplateNetworkInterfaceOutputRefere
 }
 
 func (j *jsiiProxy_GoogleComputeInstanceFromTemplateNetworkInterfaceOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleComputeInstanceFromTemplateNetworkInterfaceOutputReference) validateSetVlanParameters(val *float64) error {
 	return nil
 }
 

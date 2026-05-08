@@ -5,15 +5,16 @@ package datagooglecomputeresourcepolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglecomputeresourcepolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglecomputeresourcepolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataGoogleComputeResourcePolicyWorkloadPolicyOutputReference interface {
 	cdktn.ComplexObject
 	AcceleratorTopology() *string
+	AcceleratorTopologyMode() *string
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -87,6 +88,16 @@ func (j *jsiiProxy_DataGoogleComputeResourcePolicyWorkloadPolicyOutputReference)
 	_jsii_.Get(
 		j,
 		"acceleratorTopology",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleComputeResourcePolicyWorkloadPolicyOutputReference) AcceleratorTopologyMode() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"acceleratorTopologyMode",
 		&returns,
 	)
 	return returns

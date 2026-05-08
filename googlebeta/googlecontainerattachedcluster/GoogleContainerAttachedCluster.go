@@ -5,14 +5,14 @@ package googlecontainerattachedcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecontainerattachedcluster/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecontainerattachedcluster/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_attached_cluster google_container_attached_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_attached_cluster google_container_attached_cluster}.
 type GoogleContainerAttachedCluster interface {
 	cdktn.TerraformResource
 	Annotations() *map[string]*string
@@ -831,7 +831,7 @@ func (j *jsiiProxy_GoogleContainerAttachedCluster) WorkloadIdentityConfig() Goog
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_attached_cluster google_container_attached_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_attached_cluster google_container_attached_cluster} Resource.
 func NewGoogleContainerAttachedCluster(scope constructs.Construct, id *string, config *GoogleContainerAttachedClusterConfig) GoogleContainerAttachedCluster {
 	_init_.Initialize()
 
@@ -849,7 +849,7 @@ func NewGoogleContainerAttachedCluster(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_container_attached_cluster google_container_attached_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_attached_cluster google_container_attached_cluster} Resource.
 func NewGoogleContainerAttachedCluster_Override(g GoogleContainerAttachedCluster, scope constructs.Construct, id *string, config *GoogleContainerAttachedClusterConfig) {
 	_init_.Initialize()
 

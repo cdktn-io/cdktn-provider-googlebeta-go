@@ -5,14 +5,14 @@ package googlegeminiloggingsettingbinding
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegeminiloggingsettingbinding/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlegeminiloggingsettingbinding/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gemini_logging_setting_binding google_gemini_logging_setting_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gemini_logging_setting_binding google_gemini_logging_setting_binding}.
 type GoogleGeminiLoggingSettingBinding interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -563,7 +563,7 @@ func (j *jsiiProxy_GoogleGeminiLoggingSettingBinding) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gemini_logging_setting_binding google_gemini_logging_setting_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gemini_logging_setting_binding google_gemini_logging_setting_binding} Resource.
 func NewGoogleGeminiLoggingSettingBinding(scope constructs.Construct, id *string, config *GoogleGeminiLoggingSettingBindingConfig) GoogleGeminiLoggingSettingBinding {
 	_init_.Initialize()
 
@@ -581,7 +581,7 @@ func NewGoogleGeminiLoggingSettingBinding(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gemini_logging_setting_binding google_gemini_logging_setting_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gemini_logging_setting_binding google_gemini_logging_setting_binding} Resource.
 func NewGoogleGeminiLoggingSettingBinding_Override(g GoogleGeminiLoggingSettingBinding, scope constructs.Construct, id *string, config *GoogleGeminiLoggingSettingBindingConfig) {
 	_init_.Initialize()
 

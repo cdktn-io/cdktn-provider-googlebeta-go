@@ -5,14 +5,14 @@ package googlestorageinsightsreportconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestorageinsightsreportconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlestorageinsightsreportconfig/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_insights_report_config google_storage_insights_report_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_insights_report_config google_storage_insights_report_config}.
 type GoogleStorageInsightsReportConfig interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -36,6 +36,9 @@ type GoogleStorageInsightsReportConfig interface {
 	DisplayName() *string
 	SetDisplayName(val *string)
 	DisplayNameInput() *string
+	ForceDestroy() interface{}
+	SetForceDestroy(val interface{})
+	ForceDestroyInput() interface{}
 	// Experimental.
 	ForEach() cdktn.ITerraformIterator
 	// Experimental.
@@ -134,6 +137,7 @@ type GoogleStorageInsightsReportConfig interface {
 	PutTimeouts(value *GoogleStorageInsightsReportConfigTimeouts)
 	ResetCsvOptions()
 	ResetDisplayName()
+	ResetForceDestroy()
 	ResetFrequencyOptions()
 	ResetId()
 	ResetObjectMetadataReportOptions()
@@ -255,6 +259,26 @@ func (j *jsiiProxy_GoogleStorageInsightsReportConfig) DisplayNameInput() *string
 	_jsii_.Get(
 		j,
 		"displayNameInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleStorageInsightsReportConfig) ForceDestroy() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"forceDestroy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleStorageInsightsReportConfig) ForceDestroyInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"forceDestroyInput",
 		&returns,
 	)
 	return returns
@@ -521,7 +545,7 @@ func (j *jsiiProxy_GoogleStorageInsightsReportConfig) TimeoutsInput() interface{
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_insights_report_config google_storage_insights_report_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_insights_report_config google_storage_insights_report_config} Resource.
 func NewGoogleStorageInsightsReportConfig(scope constructs.Construct, id *string, config *GoogleStorageInsightsReportConfigConfig) GoogleStorageInsightsReportConfig {
 	_init_.Initialize()
 
@@ -539,7 +563,7 @@ func NewGoogleStorageInsightsReportConfig(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_insights_report_config google_storage_insights_report_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_insights_report_config google_storage_insights_report_config} Resource.
 func NewGoogleStorageInsightsReportConfig_Override(g GoogleStorageInsightsReportConfig, scope constructs.Construct, id *string, config *GoogleStorageInsightsReportConfigConfig) {
 	_init_.Initialize()
 
@@ -587,6 +611,17 @@ func (j *jsiiProxy_GoogleStorageInsightsReportConfig)SetDisplayName(val *string)
 	_jsii_.Set(
 		j,
 		"displayName",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleStorageInsightsReportConfig)SetForceDestroy(val interface{}) {
+	if err := j.validateSetForceDestroyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"forceDestroy",
 		val,
 	)
 }
@@ -1082,6 +1117,14 @@ func (g *jsiiProxy_GoogleStorageInsightsReportConfig) ResetDisplayName() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetDisplayName",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleStorageInsightsReportConfig) ResetForceDestroy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetForceDestroy",
 		nil, // no parameters
 	)
 }

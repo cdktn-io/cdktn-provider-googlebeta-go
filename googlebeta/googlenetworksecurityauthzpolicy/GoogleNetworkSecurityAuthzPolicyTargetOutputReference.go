@@ -5,9 +5,9 @@ package googlenetworksecurityauthzpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenetworksecurityauthzpolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenetworksecurityauthzpolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -70,6 +70,7 @@ type GoogleNetworkSecurityAuthzPolicyTargetOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	ResetLoadBalancingScheme()
 	ResetResources()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -485,6 +486,14 @@ func (g *jsiiProxy_GoogleNetworkSecurityAuthzPolicyTargetOutputReference) Interp
 	)
 
 	return returns
+}
+
+func (g *jsiiProxy_GoogleNetworkSecurityAuthzPolicyTargetOutputReference) ResetLoadBalancingScheme() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetLoadBalancingScheme",
+		nil, // no parameters
+	)
 }
 
 func (g *jsiiProxy_GoogleNetworkSecurityAuthzPolicyTargetOutputReference) ResetResources() {

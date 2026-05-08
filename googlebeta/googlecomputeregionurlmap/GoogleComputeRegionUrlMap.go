@@ -5,14 +5,14 @@ package googlecomputeregionurlmap
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeregionurlmap/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeregionurlmap/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map google_compute_region_url_map}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map google_compute_region_url_map}.
 type GoogleComputeRegionUrlMap interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -51,6 +51,8 @@ type GoogleComputeRegionUrlMap interface {
 	Fqn() *string
 	// Experimental.
 	FriendlyUniqueId() *string
+	HeaderAction() GoogleComputeRegionUrlMapHeaderActionOutputReference
+	HeaderActionInput() *GoogleComputeRegionUrlMapHeaderAction
 	HostRule() GoogleComputeRegionUrlMapHostRuleList
 	HostRuleInput() interface{}
 	Id() *string
@@ -140,6 +142,7 @@ type GoogleComputeRegionUrlMap interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutDefaultRouteAction(value *GoogleComputeRegionUrlMapDefaultRouteAction)
 	PutDefaultUrlRedirect(value *GoogleComputeRegionUrlMapDefaultUrlRedirect)
+	PutHeaderAction(value *GoogleComputeRegionUrlMapHeaderAction)
 	PutHostRule(value interface{})
 	PutPathMatcher(value interface{})
 	PutTest(value interface{})
@@ -148,6 +151,7 @@ type GoogleComputeRegionUrlMap interface {
 	ResetDefaultService()
 	ResetDefaultUrlRedirect()
 	ResetDescription()
+	ResetHeaderAction()
 	ResetHostRule()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -360,6 +364,26 @@ func (j *jsiiProxy_GoogleComputeRegionUrlMap) FriendlyUniqueId() *string {
 	_jsii_.Get(
 		j,
 		"friendlyUniqueId",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeRegionUrlMap) HeaderAction() GoogleComputeRegionUrlMapHeaderActionOutputReference {
+	var returns GoogleComputeRegionUrlMapHeaderActionOutputReference
+	_jsii_.Get(
+		j,
+		"headerAction",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeRegionUrlMap) HeaderActionInput() *GoogleComputeRegionUrlMapHeaderAction {
+	var returns *GoogleComputeRegionUrlMapHeaderAction
+	_jsii_.Get(
+		j,
+		"headerActionInput",
 		&returns,
 	)
 	return returns
@@ -626,7 +650,7 @@ func (j *jsiiProxy_GoogleComputeRegionUrlMap) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map google_compute_region_url_map} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map google_compute_region_url_map} Resource.
 func NewGoogleComputeRegionUrlMap(scope constructs.Construct, id *string, config *GoogleComputeRegionUrlMapConfig) GoogleComputeRegionUrlMap {
 	_init_.Initialize()
 
@@ -644,7 +668,7 @@ func NewGoogleComputeRegionUrlMap(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_url_map google_compute_region_url_map} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_url_map google_compute_region_url_map} Resource.
 func NewGoogleComputeRegionUrlMap_Override(g GoogleComputeRegionUrlMap, scope constructs.Construct, id *string, config *GoogleComputeRegionUrlMapConfig) {
 	_init_.Initialize()
 
@@ -1164,6 +1188,17 @@ func (g *jsiiProxy_GoogleComputeRegionUrlMap) PutDefaultUrlRedirect(value *Googl
 	)
 }
 
+func (g *jsiiProxy_GoogleComputeRegionUrlMap) PutHeaderAction(value *GoogleComputeRegionUrlMapHeaderAction) {
+	if err := g.validatePutHeaderActionParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putHeaderAction",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleComputeRegionUrlMap) PutHostRule(value interface{}) {
 	if err := g.validatePutHostRuleParameters(value); err != nil {
 		panic(err)
@@ -1236,6 +1271,14 @@ func (g *jsiiProxy_GoogleComputeRegionUrlMap) ResetDescription() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetDescription",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleComputeRegionUrlMap) ResetHeaderAction() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetHeaderAction",
 		nil, // no parameters
 	)
 }

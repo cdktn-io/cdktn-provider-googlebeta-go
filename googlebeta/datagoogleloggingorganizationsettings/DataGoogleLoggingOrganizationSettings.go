@@ -5,14 +5,14 @@ package datagoogleloggingorganizationsettings
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagoogleloggingorganizationsettings/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagoogleloggingorganizationsettings/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_logging_organization_settings google_logging_organization_settings}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_logging_organization_settings google_logging_organization_settings}.
 type DataGoogleLoggingOrganizationSettings interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -363,7 +363,7 @@ func (j *jsiiProxy_DataGoogleLoggingOrganizationSettings) TerraformResourceType(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_logging_organization_settings google_logging_organization_settings} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_logging_organization_settings google_logging_organization_settings} Data Source.
 func NewDataGoogleLoggingOrganizationSettings(scope constructs.Construct, id *string, config *DataGoogleLoggingOrganizationSettingsConfig) DataGoogleLoggingOrganizationSettings {
 	_init_.Initialize()
 
@@ -381,7 +381,7 @@ func NewDataGoogleLoggingOrganizationSettings(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_logging_organization_settings google_logging_organization_settings} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_logging_organization_settings google_logging_organization_settings} Data Source.
 func NewDataGoogleLoggingOrganizationSettings_Override(d DataGoogleLoggingOrganizationSettings, scope constructs.Construct, id *string, config *DataGoogleLoggingOrganizationSettingsConfig) {
 	_init_.Initialize()
 

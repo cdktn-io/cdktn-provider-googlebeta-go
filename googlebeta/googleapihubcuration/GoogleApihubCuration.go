@@ -5,14 +5,14 @@ package googleapihubcuration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapihubcuration/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapihubcuration/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apihub_curation google_apihub_curation}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apihub_curation google_apihub_curation}.
 type GoogleApihubCuration interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -560,7 +560,7 @@ func (j *jsiiProxy_GoogleApihubCuration) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apihub_curation google_apihub_curation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apihub_curation google_apihub_curation} Resource.
 func NewGoogleApihubCuration(scope constructs.Construct, id *string, config *GoogleApihubCurationConfig) GoogleApihubCuration {
 	_init_.Initialize()
 
@@ -578,7 +578,7 @@ func NewGoogleApihubCuration(scope constructs.Construct, id *string, config *Goo
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apihub_curation google_apihub_curation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apihub_curation google_apihub_curation} Resource.
 func NewGoogleApihubCuration_Override(g GoogleApihubCuration, scope constructs.Construct, id *string, config *GoogleApihubCurationConfig) {
 	_init_.Initialize()
 

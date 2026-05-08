@@ -5,14 +5,14 @@ package googlecloudrunv2service
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudrunv2service/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudrunv2service/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_v2_service google_cloud_run_v2_service}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_v2_service google_cloud_run_v2_service}.
 type GoogleCloudRunV2Service interface {
 	cdktn.TerraformResource
 	Annotations() *map[string]*string
@@ -101,6 +101,8 @@ type GoogleCloudRunV2Service interface {
 	Location() *string
 	SetLocation(val *string)
 	LocationInput() *string
+	MultiRegionSettings() GoogleCloudRunV2ServiceMultiRegionSettingsOutputReference
+	MultiRegionSettingsInput() *GoogleCloudRunV2ServiceMultiRegionSettings
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
@@ -187,6 +189,7 @@ type GoogleCloudRunV2Service interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutBinaryAuthorization(value *GoogleCloudRunV2ServiceBinaryAuthorization)
 	PutBuildConfig(value *GoogleCloudRunV2ServiceBuildConfig)
+	PutMultiRegionSettings(value *GoogleCloudRunV2ServiceMultiRegionSettings)
 	PutScaling(value *GoogleCloudRunV2ServiceScaling)
 	PutTemplate(value *GoogleCloudRunV2ServiceTemplate)
 	PutTimeouts(value *GoogleCloudRunV2ServiceTimeouts)
@@ -206,6 +209,7 @@ type GoogleCloudRunV2Service interface {
 	ResetInvokerIamDisabled()
 	ResetLabels()
 	ResetLaunchStage()
+	ResetMultiRegionSettings()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
@@ -770,6 +774,26 @@ func (j *jsiiProxy_GoogleCloudRunV2Service) LocationInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_GoogleCloudRunV2Service) MultiRegionSettings() GoogleCloudRunV2ServiceMultiRegionSettingsOutputReference {
+	var returns GoogleCloudRunV2ServiceMultiRegionSettingsOutputReference
+	_jsii_.Get(
+		j,
+		"multiRegionSettings",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCloudRunV2Service) MultiRegionSettingsInput() *GoogleCloudRunV2ServiceMultiRegionSettings {
+	var returns *GoogleCloudRunV2ServiceMultiRegionSettings
+	_jsii_.Get(
+		j,
+		"multiRegionSettingsInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleCloudRunV2Service) Name() *string {
 	var returns *string
 	_jsii_.Get(
@@ -1051,7 +1075,7 @@ func (j *jsiiProxy_GoogleCloudRunV2Service) Urls() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_v2_service google_cloud_run_v2_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_v2_service google_cloud_run_v2_service} Resource.
 func NewGoogleCloudRunV2Service(scope constructs.Construct, id *string, config *GoogleCloudRunV2ServiceConfig) GoogleCloudRunV2Service {
 	_init_.Initialize()
 
@@ -1069,7 +1093,7 @@ func NewGoogleCloudRunV2Service(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_v2_service google_cloud_run_v2_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_v2_service google_cloud_run_v2_service} Resource.
 func NewGoogleCloudRunV2Service_Override(g GoogleCloudRunV2Service, scope constructs.Construct, id *string, config *GoogleCloudRunV2ServiceConfig) {
 	_init_.Initialize()
 
@@ -1699,6 +1723,17 @@ func (g *jsiiProxy_GoogleCloudRunV2Service) PutBuildConfig(value *GoogleCloudRun
 	)
 }
 
+func (g *jsiiProxy_GoogleCloudRunV2Service) PutMultiRegionSettings(value *GoogleCloudRunV2ServiceMultiRegionSettings) {
+	if err := g.validatePutMultiRegionSettingsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putMultiRegionSettings",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleCloudRunV2Service) PutScaling(value *GoogleCloudRunV2ServiceScaling) {
 	if err := g.validatePutScalingParameters(value); err != nil {
 		panic(err)
@@ -1859,6 +1894,14 @@ func (g *jsiiProxy_GoogleCloudRunV2Service) ResetLaunchStage() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetLaunchStage",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleCloudRunV2Service) ResetMultiRegionSettings() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetMultiRegionSettings",
 		nil, // no parameters
 	)
 }

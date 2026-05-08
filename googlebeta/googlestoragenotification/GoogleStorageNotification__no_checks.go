@@ -111,10 +111,6 @@ func (j *jsiiProxy_GoogleStorageNotification) validateSetEventTypesParameters(va
 	return nil
 }
 
-func (j *jsiiProxy_GoogleStorageNotification) validateSetIdParameters(val *string) error {
-	return nil
-}
-
 func (j *jsiiProxy_GoogleStorageNotification) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }

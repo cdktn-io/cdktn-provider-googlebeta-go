@@ -1,0 +1,81 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package googlestoragebucket
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (g *jsiiProxy_GoogleStorageBucketEncryptionGoogleManagedEncryptionEnforcementConfigOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleStorageBucketEncryptionGoogleManagedEncryptionEnforcementConfigOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleStorageBucketEncryptionGoogleManagedEncryptionEnforcementConfigOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleStorageBucketEncryptionGoogleManagedEncryptionEnforcementConfigOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleStorageBucketEncryptionGoogleManagedEncryptionEnforcementConfigOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleStorageBucketEncryptionGoogleManagedEncryptionEnforcementConfigOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleStorageBucketEncryptionGoogleManagedEncryptionEnforcementConfigOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleStorageBucketEncryptionGoogleManagedEncryptionEnforcementConfigOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleStorageBucketEncryptionGoogleManagedEncryptionEnforcementConfigOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleStorageBucketEncryptionGoogleManagedEncryptionEnforcementConfigOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleStorageBucketEncryptionGoogleManagedEncryptionEnforcementConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleStorageBucketEncryptionGoogleManagedEncryptionEnforcementConfigOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleStorageBucketEncryptionGoogleManagedEncryptionEnforcementConfigOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleStorageBucketEncryptionGoogleManagedEncryptionEnforcementConfigOutputReference) validateSetInternalValueParameters(val *GoogleStorageBucketEncryptionGoogleManagedEncryptionEnforcementConfig) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleStorageBucketEncryptionGoogleManagedEncryptionEnforcementConfigOutputReference) validateSetRestrictionModeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleStorageBucketEncryptionGoogleManagedEncryptionEnforcementConfigOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleStorageBucketEncryptionGoogleManagedEncryptionEnforcementConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewGoogleStorageBucketEncryptionGoogleManagedEncryptionEnforcementConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

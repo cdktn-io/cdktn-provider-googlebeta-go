@@ -5,9 +5,9 @@ package googlecontainercluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecontainercluster/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecontainercluster/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -28,6 +28,9 @@ type GoogleContainerClusterAddonsConfigLustreCsiDriverConfigOutputReference inte
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
+	DisableMultiNic() interface{}
+	SetDisableMultiNic(val interface{})
+	DisableMultiNicInput() interface{}
 	Enabled() interface{}
 	SetEnabled(val interface{})
 	EnabledInput() interface{}
@@ -70,6 +73,7 @@ type GoogleContainerClusterAddonsConfigLustreCsiDriverConfigOutputReference inte
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	ResetDisableMultiNic()
 	ResetEnableLegacyLustrePort()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -111,6 +115,26 @@ func (j *jsiiProxy_GoogleContainerClusterAddonsConfigLustreCsiDriverConfigOutput
 	_jsii_.Get(
 		j,
 		"creationStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleContainerClusterAddonsConfigLustreCsiDriverConfigOutputReference) DisableMultiNic() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"disableMultiNic",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleContainerClusterAddonsConfigLustreCsiDriverConfigOutputReference) DisableMultiNicInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"disableMultiNicInput",
 		&returns,
 	)
 	return returns
@@ -242,6 +266,17 @@ func (j *jsiiProxy_GoogleContainerClusterAddonsConfigLustreCsiDriverConfigOutput
 	_jsii_.Set(
 		j,
 		"complexObjectIsFromSet",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleContainerClusterAddonsConfigLustreCsiDriverConfigOutputReference)SetDisableMultiNic(val interface{}) {
+	if err := j.validateSetDisableMultiNicParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"disableMultiNic",
 		val,
 	)
 }
@@ -485,6 +520,14 @@ func (g *jsiiProxy_GoogleContainerClusterAddonsConfigLustreCsiDriverConfigOutput
 	)
 
 	return returns
+}
+
+func (g *jsiiProxy_GoogleContainerClusterAddonsConfigLustreCsiDriverConfigOutputReference) ResetDisableMultiNic() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDisableMultiNic",
+		nil, // no parameters
+	)
 }
 
 func (g *jsiiProxy_GoogleContainerClusterAddonsConfigLustreCsiDriverConfigOutputReference) ResetEnableLegacyLustrePort() {

@@ -5,14 +5,14 @@ package googlebinaryauthorizationpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebinaryauthorizationpolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebinaryauthorizationpolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_binary_authorization_policy google_binary_authorization_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_binary_authorization_policy google_binary_authorization_policy}.
 type GoogleBinaryAuthorizationPolicy interface {
 	cdktn.TerraformResource
 	AdmissionWhitelistPatterns() GoogleBinaryAuthorizationPolicyAdmissionWhitelistPatternsList
@@ -486,7 +486,7 @@ func (j *jsiiProxy_GoogleBinaryAuthorizationPolicy) TimeoutsInput() interface{} 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_binary_authorization_policy google_binary_authorization_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_binary_authorization_policy google_binary_authorization_policy} Resource.
 func NewGoogleBinaryAuthorizationPolicy(scope constructs.Construct, id *string, config *GoogleBinaryAuthorizationPolicyConfig) GoogleBinaryAuthorizationPolicy {
 	_init_.Initialize()
 
@@ -504,7 +504,7 @@ func NewGoogleBinaryAuthorizationPolicy(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_binary_authorization_policy google_binary_authorization_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_binary_authorization_policy google_binary_authorization_policy} Resource.
 func NewGoogleBinaryAuthorizationPolicy_Override(g GoogleBinaryAuthorizationPolicy, scope constructs.Construct, id *string, config *GoogleBinaryAuthorizationPolicyConfig) {
 	_init_.Initialize()
 

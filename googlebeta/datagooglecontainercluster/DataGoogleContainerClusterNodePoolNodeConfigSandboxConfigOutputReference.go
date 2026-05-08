@@ -5,9 +5,9 @@ package datagooglecontainercluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglecontainercluster/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglecontainercluster/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -41,6 +41,7 @@ type DataGoogleContainerClusterNodePoolNodeConfigSandboxConfigOutputReference in
 	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
 	SetTerraformResource(val cdktn.IInterpolatingParent)
+	Type() *string
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
@@ -155,6 +156,16 @@ func (j *jsiiProxy_DataGoogleContainerClusterNodePoolNodeConfigSandboxConfigOutp
 	_jsii_.Get(
 		j,
 		"terraformResource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleContainerClusterNodePoolNodeConfigSandboxConfigOutputReference) Type() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"type",
 		&returns,
 	)
 	return returns

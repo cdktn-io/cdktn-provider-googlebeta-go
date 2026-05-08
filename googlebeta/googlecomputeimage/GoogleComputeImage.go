@@ -5,14 +5,14 @@ package googlecomputeimage
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeimage/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeimage/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_image google_compute_image}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_image google_compute_image}.
 type GoogleComputeImage interface {
 	cdktn.TerraformResource
 	ArchiveSizeBytes() *float64
@@ -74,6 +74,8 @@ type GoogleComputeImage interface {
 	NameInput() *string
 	// The tree node.
 	Node() constructs.Node
+	Params() GoogleComputeImageParamsOutputReference
+	ParamsInput() *GoogleComputeImageParams
 	Project() *string
 	SetProject(val *string)
 	ProjectInput() *string
@@ -164,6 +166,7 @@ type GoogleComputeImage interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutGuestOsFeatures(value interface{})
 	PutImageEncryptionKey(value *GoogleComputeImageImageEncryptionKey)
+	PutParams(value *GoogleComputeImageParams)
 	PutRawDisk(value *GoogleComputeImageRawDisk)
 	PutShieldedInstanceInitialState(value *GoogleComputeImageShieldedInstanceInitialState)
 	PutSourceDiskEncryptionKey(value *GoogleComputeImageSourceDiskEncryptionKey)
@@ -181,6 +184,7 @@ type GoogleComputeImage interface {
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
+	ResetParams()
 	ResetProject()
 	ResetRawDisk()
 	ResetShieldedInstanceInitialState()
@@ -539,6 +543,26 @@ func (j *jsiiProxy_GoogleComputeImage) Node() constructs.Node {
 	return returns
 }
 
+func (j *jsiiProxy_GoogleComputeImage) Params() GoogleComputeImageParamsOutputReference {
+	var returns GoogleComputeImageParamsOutputReference
+	_jsii_.Get(
+		j,
+		"params",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeImage) ParamsInput() *GoogleComputeImageParams {
+	var returns *GoogleComputeImageParams
+	_jsii_.Get(
+		j,
+		"paramsInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleComputeImage) Project() *string {
 	var returns *string
 	_jsii_.Get(
@@ -840,7 +864,7 @@ func (j *jsiiProxy_GoogleComputeImage) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_image google_compute_image} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_image google_compute_image} Resource.
 func NewGoogleComputeImage(scope constructs.Construct, id *string, config *GoogleComputeImageConfig) GoogleComputeImage {
 	_init_.Initialize()
 
@@ -858,7 +882,7 @@ func NewGoogleComputeImage(scope constructs.Construct, id *string, config *Googl
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_image google_compute_image} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_image google_compute_image} Resource.
 func NewGoogleComputeImage_Override(g GoogleComputeImage, scope constructs.Construct, id *string, config *GoogleComputeImageConfig) {
 	_init_.Initialize()
 
@@ -1444,6 +1468,17 @@ func (g *jsiiProxy_GoogleComputeImage) PutImageEncryptionKey(value *GoogleComput
 	)
 }
 
+func (g *jsiiProxy_GoogleComputeImage) PutParams(value *GoogleComputeImageParams) {
+	if err := g.validatePutParamsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putParams",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleComputeImage) PutRawDisk(value *GoogleComputeImageRawDisk) {
 	if err := g.validatePutRawDiskParameters(value); err != nil {
 		panic(err)
@@ -1578,6 +1613,14 @@ func (g *jsiiProxy_GoogleComputeImage) ResetOverrideLogicalId() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetOverrideLogicalId",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleComputeImage) ResetParams() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetParams",
 		nil, // no parameters
 	)
 }

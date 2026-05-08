@@ -258,6 +258,14 @@ func validateGoogleTagsTagKey_IsTerraformResourceParameters(x interface{}) error
 	return nil
 }
 
+func (j *jsiiProxy_GoogleTagsTagKey) validateSetAllowedValuesRegexParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_GoogleTagsTagKey) validateSetConnectionParameters(val interface{}) error {
 	switch val.(type) {
 	case *cdktn.SSHProvisionerConnection:

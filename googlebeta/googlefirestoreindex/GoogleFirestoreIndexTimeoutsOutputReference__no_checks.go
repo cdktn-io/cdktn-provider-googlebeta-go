@@ -79,6 +79,10 @@ func (j *jsiiProxy_GoogleFirestoreIndexTimeoutsOutputReference) validateSetTerra
 	return nil
 }
 
+func (j *jsiiProxy_GoogleFirestoreIndexTimeoutsOutputReference) validateSetUpdateParameters(val *string) error {
+	return nil
+}
+
 func validateNewGoogleFirestoreIndexTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }

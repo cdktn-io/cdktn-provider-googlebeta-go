@@ -5,14 +5,14 @@ package googledataplexassetiambinding
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexassetiambinding/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexassetiambinding/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_asset_iam_binding google_dataplex_asset_iam_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_asset_iam_binding google_dataplex_asset_iam_binding}.
 type GoogleDataplexAssetIamBinding interface {
 	cdktn.TerraformResource
 	Asset() *string
@@ -517,7 +517,7 @@ func (j *jsiiProxy_GoogleDataplexAssetIamBinding) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_asset_iam_binding google_dataplex_asset_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_asset_iam_binding google_dataplex_asset_iam_binding} Resource.
 func NewGoogleDataplexAssetIamBinding(scope constructs.Construct, id *string, config *GoogleDataplexAssetIamBindingConfig) GoogleDataplexAssetIamBinding {
 	_init_.Initialize()
 
@@ -535,7 +535,7 @@ func NewGoogleDataplexAssetIamBinding(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_asset_iam_binding google_dataplex_asset_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_asset_iam_binding google_dataplex_asset_iam_binding} Resource.
 func NewGoogleDataplexAssetIamBinding_Override(g GoogleDataplexAssetIamBinding, scope constructs.Construct, id *string, config *GoogleDataplexAssetIamBindingConfig) {
 	_init_.Initialize()
 

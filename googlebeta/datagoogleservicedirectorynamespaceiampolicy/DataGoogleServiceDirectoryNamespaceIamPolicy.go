@@ -5,14 +5,14 @@ package datagoogleservicedirectorynamespaceiampolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagoogleservicedirectorynamespaceiampolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagoogleservicedirectorynamespaceiampolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_service_directory_namespace_iam_policy google_service_directory_namespace_iam_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_service_directory_namespace_iam_policy google_service_directory_namespace_iam_policy}.
 type DataGoogleServiceDirectoryNamespaceIamPolicy interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -319,7 +319,7 @@ func (j *jsiiProxy_DataGoogleServiceDirectoryNamespaceIamPolicy) TerraformResour
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_service_directory_namespace_iam_policy google_service_directory_namespace_iam_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_service_directory_namespace_iam_policy google_service_directory_namespace_iam_policy} Data Source.
 func NewDataGoogleServiceDirectoryNamespaceIamPolicy(scope constructs.Construct, id *string, config *DataGoogleServiceDirectoryNamespaceIamPolicyConfig) DataGoogleServiceDirectoryNamespaceIamPolicy {
 	_init_.Initialize()
 
@@ -337,7 +337,7 @@ func NewDataGoogleServiceDirectoryNamespaceIamPolicy(scope constructs.Construct,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_service_directory_namespace_iam_policy google_service_directory_namespace_iam_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_service_directory_namespace_iam_policy google_service_directory_namespace_iam_policy} Data Source.
 func NewDataGoogleServiceDirectoryNamespaceIamPolicy_Override(d DataGoogleServiceDirectoryNamespaceIamPolicy, scope constructs.Construct, id *string, config *DataGoogleServiceDirectoryNamespaceIamPolicyConfig) {
 	_init_.Initialize()
 

@@ -5,15 +5,16 @@ package googlecomputeinterconnectattachmentgroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinterconnectattachmentgroup/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeinterconnectattachmentgroup/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type GoogleComputeInterconnectAttachmentGroupLogicalStructureRegionsMetrosFacilitiesZonesOutputReference interface {
 	cdktn.ComplexObject
 	Attachment() *[]*string
+	Attachments() *[]*string
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -86,6 +87,16 @@ func (j *jsiiProxy_GoogleComputeInterconnectAttachmentGroupLogicalStructureRegio
 	_jsii_.Get(
 		j,
 		"attachment",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeInterconnectAttachmentGroupLogicalStructureRegionsMetrosFacilitiesZonesOutputReference) Attachments() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"attachments",
 		&returns,
 	)
 	return returns

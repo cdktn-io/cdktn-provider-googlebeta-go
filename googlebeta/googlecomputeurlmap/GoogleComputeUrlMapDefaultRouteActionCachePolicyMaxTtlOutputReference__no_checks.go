@@ -1,0 +1,85 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package googlecomputeurlmap
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (g *jsiiProxy_GoogleComputeUrlMapDefaultRouteActionCachePolicyMaxTtlOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleComputeUrlMapDefaultRouteActionCachePolicyMaxTtlOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleComputeUrlMapDefaultRouteActionCachePolicyMaxTtlOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleComputeUrlMapDefaultRouteActionCachePolicyMaxTtlOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleComputeUrlMapDefaultRouteActionCachePolicyMaxTtlOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleComputeUrlMapDefaultRouteActionCachePolicyMaxTtlOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleComputeUrlMapDefaultRouteActionCachePolicyMaxTtlOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleComputeUrlMapDefaultRouteActionCachePolicyMaxTtlOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleComputeUrlMapDefaultRouteActionCachePolicyMaxTtlOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleComputeUrlMapDefaultRouteActionCachePolicyMaxTtlOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleComputeUrlMapDefaultRouteActionCachePolicyMaxTtlOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleComputeUrlMapDefaultRouteActionCachePolicyMaxTtlOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleComputeUrlMapDefaultRouteActionCachePolicyMaxTtlOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleComputeUrlMapDefaultRouteActionCachePolicyMaxTtlOutputReference) validateSetInternalValueParameters(val *GoogleComputeUrlMapDefaultRouteActionCachePolicyMaxTtl) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleComputeUrlMapDefaultRouteActionCachePolicyMaxTtlOutputReference) validateSetNanosParameters(val *float64) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleComputeUrlMapDefaultRouteActionCachePolicyMaxTtlOutputReference) validateSetSecondsParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleComputeUrlMapDefaultRouteActionCachePolicyMaxTtlOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleComputeUrlMapDefaultRouteActionCachePolicyMaxTtlOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewGoogleComputeUrlMapDefaultRouteActionCachePolicyMaxTtlOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

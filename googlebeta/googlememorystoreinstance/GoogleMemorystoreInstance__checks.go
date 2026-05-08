@@ -397,26 +397,6 @@ func validateGoogleMemorystoreInstance_IsTerraformResourceParameters(x interface
 	return nil
 }
 
-func (j *jsiiProxy_GoogleMemorystoreInstance) validateSetAllowFewerZonesDeploymentParameters(val interface{}) error {
-	if val == nil {
-		return fmt.Errorf("parameter val is required, but nil was provided")
-	}
-	switch val.(type) {
-	case *bool:
-		// ok
-	case bool:
-		// ok
-	case cdktn.IResolvable:
-		// ok
-	default:
-		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
-		}
-	}
-
-	return nil
-}
-
 func (j *jsiiProxy_GoogleMemorystoreInstance) validateSetAuthorizationModeParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
@@ -599,6 +579,14 @@ func (j *jsiiProxy_GoogleMemorystoreInstance) validateSetLocationParameters(val 
 	return nil
 }
 
+func (j *jsiiProxy_GoogleMemorystoreInstance) validateSetMaintenanceVersionParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_GoogleMemorystoreInstance) validateSetModeParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
@@ -670,6 +658,22 @@ func (j *jsiiProxy_GoogleMemorystoreInstance) validateSetProvisionersParameters(
 }
 
 func (j *jsiiProxy_GoogleMemorystoreInstance) validateSetReplicaCountParameters(val *float64) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_GoogleMemorystoreInstance) validateSetServerCaModeParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_GoogleMemorystoreInstance) validateSetServerCaPoolParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}

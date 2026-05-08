@@ -5,9 +5,9 @@ package datagooglepubsubsubscription
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglepubsubsubscription/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglepubsubsubscription/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -50,6 +50,7 @@ type DataGooglePubsubSubscriptionCloudStorageConfigOutputReference interface {
 	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
 	SetTerraformResource(val cdktn.IInterpolatingParent)
+	TextConfig() DataGooglePubsubSubscriptionCloudStorageConfigTextConfigList
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
@@ -254,6 +255,16 @@ func (j *jsiiProxy_DataGooglePubsubSubscriptionCloudStorageConfigOutputReference
 	_jsii_.Get(
 		j,
 		"terraformResource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGooglePubsubSubscriptionCloudStorageConfigOutputReference) TextConfig() DataGooglePubsubSubscriptionCloudStorageConfigTextConfigList {
+	var returns DataGooglePubsubSubscriptionCloudStorageConfigTextConfigList
+	_jsii_.Get(
+		j,
+		"textConfig",
 		&returns,
 	)
 	return returns

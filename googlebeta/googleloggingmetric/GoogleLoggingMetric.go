@@ -5,14 +5,14 @@ package googleloggingmetric
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleloggingmetric/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleloggingmetric/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_logging_metric google_logging_metric}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_logging_metric google_logging_metric}.
 type GoogleLoggingMetric interface {
 	cdktn.TerraformResource
 	BucketName() *string
@@ -581,7 +581,7 @@ func (j *jsiiProxy_GoogleLoggingMetric) ValueExtractorInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_logging_metric google_logging_metric} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_logging_metric google_logging_metric} Resource.
 func NewGoogleLoggingMetric(scope constructs.Construct, id *string, config *GoogleLoggingMetricConfig) GoogleLoggingMetric {
 	_init_.Initialize()
 
@@ -599,7 +599,7 @@ func NewGoogleLoggingMetric(scope constructs.Construct, id *string, config *Goog
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_logging_metric google_logging_metric} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_logging_metric google_logging_metric} Resource.
 func NewGoogleLoggingMetric_Override(g GoogleLoggingMetric, scope constructs.Construct, id *string, config *GoogleLoggingMetricConfig) {
 	_init_.Initialize()
 

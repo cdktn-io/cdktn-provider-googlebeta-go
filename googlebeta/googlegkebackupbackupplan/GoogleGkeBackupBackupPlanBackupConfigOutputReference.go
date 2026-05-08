@@ -5,9 +5,9 @@ package googlegkebackupbackupplan
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegkebackupbackupplan/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlegkebackupbackupplan/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -48,6 +48,8 @@ type GoogleGkeBackupBackupPlanBackupConfigOutputReference interface {
 	PermissiveModeInput() interface{}
 	SelectedApplications() GoogleGkeBackupBackupPlanBackupConfigSelectedApplicationsOutputReference
 	SelectedApplicationsInput() *GoogleGkeBackupBackupPlanBackupConfigSelectedApplications
+	SelectedNamespaceLabels() GoogleGkeBackupBackupPlanBackupConfigSelectedNamespaceLabelsOutputReference
+	SelectedNamespaceLabelsInput() *GoogleGkeBackupBackupPlanBackupConfigSelectedNamespaceLabels
 	SelectedNamespaces() GoogleGkeBackupBackupPlanBackupConfigSelectedNamespacesOutputReference
 	SelectedNamespacesInput() *GoogleGkeBackupBackupPlanBackupConfigSelectedNamespaces
 	// Experimental.
@@ -84,6 +86,7 @@ type GoogleGkeBackupBackupPlanBackupConfigOutputReference interface {
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutEncryptionKey(value *GoogleGkeBackupBackupPlanBackupConfigEncryptionKey)
 	PutSelectedApplications(value *GoogleGkeBackupBackupPlanBackupConfigSelectedApplications)
+	PutSelectedNamespaceLabels(value *GoogleGkeBackupBackupPlanBackupConfigSelectedNamespaceLabels)
 	PutSelectedNamespaces(value *GoogleGkeBackupBackupPlanBackupConfigSelectedNamespaces)
 	ResetAllNamespaces()
 	ResetEncryptionKey()
@@ -91,6 +94,7 @@ type GoogleGkeBackupBackupPlanBackupConfigOutputReference interface {
 	ResetIncludeVolumeData()
 	ResetPermissiveMode()
 	ResetSelectedApplications()
+	ResetSelectedNamespaceLabels()
 	ResetSelectedNamespaces()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -272,6 +276,26 @@ func (j *jsiiProxy_GoogleGkeBackupBackupPlanBackupConfigOutputReference) Selecte
 	_jsii_.Get(
 		j,
 		"selectedApplicationsInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleGkeBackupBackupPlanBackupConfigOutputReference) SelectedNamespaceLabels() GoogleGkeBackupBackupPlanBackupConfigSelectedNamespaceLabelsOutputReference {
+	var returns GoogleGkeBackupBackupPlanBackupConfigSelectedNamespaceLabelsOutputReference
+	_jsii_.Get(
+		j,
+		"selectedNamespaceLabels",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleGkeBackupBackupPlanBackupConfigOutputReference) SelectedNamespaceLabelsInput() *GoogleGkeBackupBackupPlanBackupConfigSelectedNamespaceLabels {
+	var returns *GoogleGkeBackupBackupPlanBackupConfigSelectedNamespaceLabels
+	_jsii_.Get(
+		j,
+		"selectedNamespaceLabelsInput",
 		&returns,
 	)
 	return returns
@@ -652,6 +676,17 @@ func (g *jsiiProxy_GoogleGkeBackupBackupPlanBackupConfigOutputReference) PutSele
 	)
 }
 
+func (g *jsiiProxy_GoogleGkeBackupBackupPlanBackupConfigOutputReference) PutSelectedNamespaceLabels(value *GoogleGkeBackupBackupPlanBackupConfigSelectedNamespaceLabels) {
+	if err := g.validatePutSelectedNamespaceLabelsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putSelectedNamespaceLabels",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleGkeBackupBackupPlanBackupConfigOutputReference) PutSelectedNamespaces(value *GoogleGkeBackupBackupPlanBackupConfigSelectedNamespaces) {
 	if err := g.validatePutSelectedNamespacesParameters(value); err != nil {
 		panic(err)
@@ -707,6 +742,14 @@ func (g *jsiiProxy_GoogleGkeBackupBackupPlanBackupConfigOutputReference) ResetSe
 	_jsii_.InvokeVoid(
 		g,
 		"resetSelectedApplications",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleGkeBackupBackupPlanBackupConfigOutputReference) ResetSelectedNamespaceLabels() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetSelectedNamespaceLabels",
 		nil, // no parameters
 	)
 }

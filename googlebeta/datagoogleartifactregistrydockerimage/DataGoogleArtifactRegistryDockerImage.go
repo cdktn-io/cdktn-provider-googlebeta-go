@@ -5,14 +5,14 @@ package datagoogleartifactregistrydockerimage
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagoogleartifactregistrydockerimage/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagoogleartifactregistrydockerimage/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_artifact_registry_docker_image google_artifact_registry_docker_image}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_artifact_registry_docker_image google_artifact_registry_docker_image}.
 type DataGoogleArtifactRegistryDockerImage interface {
 	cdktn.TerraformDataSource
 	BuildTime() *string
@@ -455,7 +455,7 @@ func (j *jsiiProxy_DataGoogleArtifactRegistryDockerImage) UploadTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_artifact_registry_docker_image google_artifact_registry_docker_image} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_artifact_registry_docker_image google_artifact_registry_docker_image} Data Source.
 func NewDataGoogleArtifactRegistryDockerImage(scope constructs.Construct, id *string, config *DataGoogleArtifactRegistryDockerImageConfig) DataGoogleArtifactRegistryDockerImage {
 	_init_.Initialize()
 
@@ -473,7 +473,7 @@ func NewDataGoogleArtifactRegistryDockerImage(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_artifact_registry_docker_image google_artifact_registry_docker_image} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_artifact_registry_docker_image google_artifact_registry_docker_image} Data Source.
 func NewDataGoogleArtifactRegistryDockerImage_Override(d DataGoogleArtifactRegistryDockerImage, scope constructs.Construct, id *string, config *DataGoogleArtifactRegistryDockerImageConfig) {
 	_init_.Initialize()
 

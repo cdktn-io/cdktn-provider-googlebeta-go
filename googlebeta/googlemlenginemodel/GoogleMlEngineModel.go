@@ -5,14 +5,14 @@ package googlemlenginemodel
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlemlenginemodel/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlemlenginemodel/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_ml_engine_model google_ml_engine_model}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ml_engine_model google_ml_engine_model}.
 type GoogleMlEngineModel interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -556,7 +556,7 @@ func (j *jsiiProxy_GoogleMlEngineModel) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_ml_engine_model google_ml_engine_model} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ml_engine_model google_ml_engine_model} Resource.
 func NewGoogleMlEngineModel(scope constructs.Construct, id *string, config *GoogleMlEngineModelConfig) GoogleMlEngineModel {
 	_init_.Initialize()
 
@@ -574,7 +574,7 @@ func NewGoogleMlEngineModel(scope constructs.Construct, id *string, config *Goog
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_ml_engine_model google_ml_engine_model} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ml_engine_model google_ml_engine_model} Resource.
 func NewGoogleMlEngineModel_Override(g GoogleMlEngineModel, scope constructs.Construct, id *string, config *GoogleMlEngineModelConfig) {
 	_init_.Initialize()
 

@@ -5,9 +5,9 @@ package datagooglesqldatabaseinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglesqldatabaseinstance/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglesqldatabaseinstance/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -41,6 +41,7 @@ type DataGoogleSqlDatabaseInstanceSettingsIpConfigurationOutputReference interfa
 	PscConfig() DataGoogleSqlDatabaseInstanceSettingsIpConfigurationPscConfigList
 	ServerCaMode() *string
 	ServerCaPool() *string
+	ServerCertificateRotationMode() *string
 	SslMode() *string
 	// Experimental.
 	TerraformAttribute() *string
@@ -224,6 +225,16 @@ func (j *jsiiProxy_DataGoogleSqlDatabaseInstanceSettingsIpConfigurationOutputRef
 	_jsii_.Get(
 		j,
 		"serverCaPool",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleSqlDatabaseInstanceSettingsIpConfigurationOutputReference) ServerCertificateRotationMode() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"serverCertificateRotationMode",
 		&returns,
 	)
 	return returns

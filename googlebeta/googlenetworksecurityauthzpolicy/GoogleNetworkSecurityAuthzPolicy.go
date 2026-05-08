@@ -5,14 +5,14 @@ package googlenetworksecurityauthzpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenetworksecurityauthzpolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenetworksecurityauthzpolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_security_authz_policy google_network_security_authz_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_security_authz_policy google_network_security_authz_policy}.
 type GoogleNetworkSecurityAuthzPolicy interface {
 	cdktn.TerraformResource
 	Action() *string
@@ -69,6 +69,9 @@ type GoogleNetworkSecurityAuthzPolicy interface {
 	NameInput() *string
 	// The tree node.
 	Node() constructs.Node
+	PolicyProfile() *string
+	SetPolicyProfile(val *string)
+	PolicyProfileInput() *string
 	Project() *string
 	SetProject(val *string)
 	ProjectInput() *string
@@ -149,6 +152,7 @@ type GoogleNetworkSecurityAuthzPolicy interface {
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
+	ResetPolicyProfile()
 	ResetProject()
 	ResetTimeouts()
 	SynthesizeAttributes() *map[string]interface{}
@@ -458,6 +462,26 @@ func (j *jsiiProxy_GoogleNetworkSecurityAuthzPolicy) Node() constructs.Node {
 	return returns
 }
 
+func (j *jsiiProxy_GoogleNetworkSecurityAuthzPolicy) PolicyProfile() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"policyProfile",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleNetworkSecurityAuthzPolicy) PolicyProfileInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"policyProfileInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleNetworkSecurityAuthzPolicy) Project() *string {
 	var returns *string
 	_jsii_.Get(
@@ -599,7 +623,7 @@ func (j *jsiiProxy_GoogleNetworkSecurityAuthzPolicy) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_security_authz_policy google_network_security_authz_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_security_authz_policy google_network_security_authz_policy} Resource.
 func NewGoogleNetworkSecurityAuthzPolicy(scope constructs.Construct, id *string, config *GoogleNetworkSecurityAuthzPolicyConfig) GoogleNetworkSecurityAuthzPolicy {
 	_init_.Initialize()
 
@@ -617,7 +641,7 @@ func NewGoogleNetworkSecurityAuthzPolicy(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_security_authz_policy google_network_security_authz_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_security_authz_policy google_network_security_authz_policy} Resource.
 func NewGoogleNetworkSecurityAuthzPolicy_Override(g GoogleNetworkSecurityAuthzPolicy, scope constructs.Construct, id *string, config *GoogleNetworkSecurityAuthzPolicyConfig) {
 	_init_.Initialize()
 
@@ -739,6 +763,17 @@ func (j *jsiiProxy_GoogleNetworkSecurityAuthzPolicy)SetName(val *string) {
 	_jsii_.Set(
 		j,
 		"name",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleNetworkSecurityAuthzPolicy)SetPolicyProfile(val *string) {
+	if err := j.validateSetPolicyProfileParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"policyProfile",
 		val,
 	)
 }
@@ -1214,6 +1249,14 @@ func (g *jsiiProxy_GoogleNetworkSecurityAuthzPolicy) ResetOverrideLogicalId() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetOverrideLogicalId",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleNetworkSecurityAuthzPolicy) ResetPolicyProfile() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetPolicyProfile",
 		nil, // no parameters
 	)
 }

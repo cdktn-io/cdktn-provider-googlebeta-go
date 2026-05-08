@@ -5,14 +5,17 @@ package googlecomputewiregroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputewiregroup/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputewiregroup/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type GoogleComputeWireGroupWirePropertiesOutputReference interface {
 	cdktn.ComplexObject
+	BandwidthAllocation() *string
+	SetBandwidthAllocation(val *string)
+	BandwidthAllocationInput() *string
 	BandwidthUnmetered() *float64
 	SetBandwidthUnmetered(val *float64)
 	BandwidthUnmeteredInput() *float64
@@ -85,6 +88,26 @@ type GoogleComputeWireGroupWirePropertiesOutputReference interface {
 // The jsii proxy struct for GoogleComputeWireGroupWirePropertiesOutputReference
 type jsiiProxy_GoogleComputeWireGroupWirePropertiesOutputReference struct {
 	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_GoogleComputeWireGroupWirePropertiesOutputReference) BandwidthAllocation() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"bandwidthAllocation",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeWireGroupWirePropertiesOutputReference) BandwidthAllocationInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"bandwidthAllocationInput",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_GoogleComputeWireGroupWirePropertiesOutputReference) BandwidthUnmetered() *float64 {
@@ -222,6 +245,17 @@ func NewGoogleComputeWireGroupWirePropertiesOutputReference_Override(g GoogleCom
 		"@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroupWirePropertiesOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		g,
+	)
+}
+
+func (j *jsiiProxy_GoogleComputeWireGroupWirePropertiesOutputReference)SetBandwidthAllocation(val *string) {
+	if err := j.validateSetBandwidthAllocationParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"bandwidthAllocation",
+		val,
 	)
 }
 

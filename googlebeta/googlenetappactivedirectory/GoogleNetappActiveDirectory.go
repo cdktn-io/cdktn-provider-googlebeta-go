@@ -5,14 +5,14 @@ package googlenetappactivedirectory
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenetappactivedirectory/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenetappactivedirectory/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_active_directory google_netapp_active_directory}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_active_directory google_netapp_active_directory}.
 type GoogleNetappActiveDirectory interface {
 	cdktn.TerraformResource
 	Administrators() *[]*string
@@ -895,7 +895,7 @@ func (j *jsiiProxy_GoogleNetappActiveDirectory) UsernameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_active_directory google_netapp_active_directory} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_active_directory google_netapp_active_directory} Resource.
 func NewGoogleNetappActiveDirectory(scope constructs.Construct, id *string, config *GoogleNetappActiveDirectoryConfig) GoogleNetappActiveDirectory {
 	_init_.Initialize()
 
@@ -913,7 +913,7 @@ func NewGoogleNetappActiveDirectory(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_netapp_active_directory google_netapp_active_directory} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_active_directory google_netapp_active_directory} Resource.
 func NewGoogleNetappActiveDirectory_Override(g GoogleNetappActiveDirectory, scope constructs.Construct, id *string, config *GoogleNetappActiveDirectoryConfig) {
 	_init_.Initialize()
 

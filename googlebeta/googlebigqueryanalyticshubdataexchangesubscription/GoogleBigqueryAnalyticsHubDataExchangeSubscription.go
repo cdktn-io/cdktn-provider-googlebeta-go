@@ -5,14 +5,14 @@ package googlebigqueryanalyticshubdataexchangesubscription
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebigqueryanalyticshubdataexchangesubscription/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebigqueryanalyticshubdataexchangesubscription/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_analytics_hub_data_exchange_subscription google_bigquery_analytics_hub_data_exchange_subscription}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_analytics_hub_data_exchange_subscription google_bigquery_analytics_hub_data_exchange_subscription}.
 type GoogleBigqueryAnalyticsHubDataExchangeSubscription interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -675,7 +675,7 @@ func (j *jsiiProxy_GoogleBigqueryAnalyticsHubDataExchangeSubscription) TimeoutsI
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_analytics_hub_data_exchange_subscription google_bigquery_analytics_hub_data_exchange_subscription} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_analytics_hub_data_exchange_subscription google_bigquery_analytics_hub_data_exchange_subscription} Resource.
 func NewGoogleBigqueryAnalyticsHubDataExchangeSubscription(scope constructs.Construct, id *string, config *GoogleBigqueryAnalyticsHubDataExchangeSubscriptionConfig) GoogleBigqueryAnalyticsHubDataExchangeSubscription {
 	_init_.Initialize()
 
@@ -693,7 +693,7 @@ func NewGoogleBigqueryAnalyticsHubDataExchangeSubscription(scope constructs.Cons
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_analytics_hub_data_exchange_subscription google_bigquery_analytics_hub_data_exchange_subscription} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_analytics_hub_data_exchange_subscription google_bigquery_analytics_hub_data_exchange_subscription} Resource.
 func NewGoogleBigqueryAnalyticsHubDataExchangeSubscription_Override(g GoogleBigqueryAnalyticsHubDataExchangeSubscription, scope constructs.Construct, id *string, config *GoogleBigqueryAnalyticsHubDataExchangeSubscriptionConfig) {
 	_init_.Initialize()
 

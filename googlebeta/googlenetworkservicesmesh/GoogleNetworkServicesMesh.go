@@ -5,14 +5,14 @@ package googlenetworkservicesmesh
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenetworkservicesmesh/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenetworkservicesmesh/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_services_mesh google_network_services_mesh}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_services_mesh google_network_services_mesh}.
 type GoogleNetworkServicesMesh interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -541,7 +541,7 @@ func (j *jsiiProxy_GoogleNetworkServicesMesh) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_services_mesh google_network_services_mesh} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_services_mesh google_network_services_mesh} Resource.
 func NewGoogleNetworkServicesMesh(scope constructs.Construct, id *string, config *GoogleNetworkServicesMeshConfig) GoogleNetworkServicesMesh {
 	_init_.Initialize()
 
@@ -559,7 +559,7 @@ func NewGoogleNetworkServicesMesh(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_services_mesh google_network_services_mesh} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_services_mesh google_network_services_mesh} Resource.
 func NewGoogleNetworkServicesMesh_Override(g GoogleNetworkServicesMesh, scope constructs.Construct, id *string, config *GoogleNetworkServicesMeshConfig) {
 	_init_.Initialize()
 

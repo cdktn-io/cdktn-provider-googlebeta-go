@@ -5,14 +5,16 @@ package googleclouddeploydeliverypipeline
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleclouddeploydeliverypipeline/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardOutputReference interface {
 	cdktn.ComplexObject
+	Analysis() GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardAnalysisOutputReference
+	AnalysisInput() *GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardAnalysis
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -46,6 +48,8 @@ type GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardOutput
 	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Verify() interface{}
 	SetVerify(val interface{})
+	VerifyConfig() GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardVerifyConfigOutputReference
+	VerifyConfigInput() *GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardVerifyConfig
 	VerifyInput() interface{}
 	// Experimental.
 	ComputeFqn() *string
@@ -71,11 +75,15 @@ type GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardOutput
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutAnalysis(value *GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardAnalysis)
 	PutPostdeploy(value *GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardPostdeploy)
 	PutPredeploy(value *GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardPredeploy)
+	PutVerifyConfig(value *GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardVerifyConfig)
+	ResetAnalysis()
 	ResetPostdeploy()
 	ResetPredeploy()
 	ResetVerify()
+	ResetVerifyConfig()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -89,6 +97,26 @@ type GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardOutput
 // The jsii proxy struct for GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardOutputReference
 type jsiiProxy_GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardOutputReference struct {
 	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardOutputReference) Analysis() GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardAnalysisOutputReference {
+	var returns GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardAnalysisOutputReference
+	_jsii_.Get(
+		j,
+		"analysis",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardOutputReference) AnalysisInput() *GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardAnalysis {
+	var returns *GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardAnalysis
+	_jsii_.Get(
+		j,
+		"analysisInput",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardOutputReference) ComplexObjectIndex() interface{} {
@@ -206,6 +234,26 @@ func (j *jsiiProxy_GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategy
 	_jsii_.Get(
 		j,
 		"verify",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardOutputReference) VerifyConfig() GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardVerifyConfigOutputReference {
+	var returns GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardVerifyConfigOutputReference
+	_jsii_.Get(
+		j,
+		"verifyConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardOutputReference) VerifyConfigInput() *GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardVerifyConfig {
+	var returns *GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardVerifyConfig
+	_jsii_.Get(
+		j,
+		"verifyConfigInput",
 		&returns,
 	)
 	return returns
@@ -501,6 +549,17 @@ func (g *jsiiProxy_GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategy
 	return returns
 }
 
+func (g *jsiiProxy_GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardOutputReference) PutAnalysis(value *GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardAnalysis) {
+	if err := g.validatePutAnalysisParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putAnalysis",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardOutputReference) PutPostdeploy(value *GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardPostdeploy) {
 	if err := g.validatePutPostdeployParameters(value); err != nil {
 		panic(err)
@@ -520,6 +579,25 @@ func (g *jsiiProxy_GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategy
 		g,
 		"putPredeploy",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardOutputReference) PutVerifyConfig(value *GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardVerifyConfig) {
+	if err := g.validatePutVerifyConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putVerifyConfig",
+		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardOutputReference) ResetAnalysis() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetAnalysis",
+		nil, // no parameters
 	)
 }
 
@@ -543,6 +621,14 @@ func (g *jsiiProxy_GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategy
 	_jsii_.InvokeVoid(
 		g,
 		"resetVerify",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardOutputReference) ResetVerifyConfig() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetVerifyConfig",
 		nil, // no parameters
 	)
 }

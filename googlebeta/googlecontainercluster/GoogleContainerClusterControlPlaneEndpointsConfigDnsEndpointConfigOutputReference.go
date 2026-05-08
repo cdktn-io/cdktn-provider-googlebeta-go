@@ -5,9 +5,9 @@ package googlecontainercluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecontainercluster/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecontainercluster/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -31,6 +31,12 @@ type GoogleContainerClusterControlPlaneEndpointsConfigDnsEndpointConfigOutputRef
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
+	EnableK8SCertsViaDns() interface{}
+	SetEnableK8SCertsViaDns(val interface{})
+	EnableK8SCertsViaDnsInput() interface{}
+	EnableK8STokensViaDns() interface{}
+	SetEnableK8STokensViaDns(val interface{})
+	EnableK8STokensViaDnsInput() interface{}
 	Endpoint() *string
 	SetEndpoint(val *string)
 	EndpointInput() *string
@@ -71,6 +77,8 @@ type GoogleContainerClusterControlPlaneEndpointsConfigDnsEndpointConfigOutputRef
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetAllowExternalTraffic()
+	ResetEnableK8SCertsViaDns()
+	ResetEnableK8STokensViaDns()
 	ResetEndpoint()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -132,6 +140,46 @@ func (j *jsiiProxy_GoogleContainerClusterControlPlaneEndpointsConfigDnsEndpointC
 	_jsii_.Get(
 		j,
 		"creationStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleContainerClusterControlPlaneEndpointsConfigDnsEndpointConfigOutputReference) EnableK8SCertsViaDns() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"enableK8SCertsViaDns",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleContainerClusterControlPlaneEndpointsConfigDnsEndpointConfigOutputReference) EnableK8SCertsViaDnsInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"enableK8SCertsViaDnsInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleContainerClusterControlPlaneEndpointsConfigDnsEndpointConfigOutputReference) EnableK8STokensViaDns() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"enableK8STokensViaDns",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleContainerClusterControlPlaneEndpointsConfigDnsEndpointConfigOutputReference) EnableK8STokensViaDnsInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"enableK8STokensViaDnsInput",
 		&returns,
 	)
 	return returns
@@ -254,6 +302,28 @@ func (j *jsiiProxy_GoogleContainerClusterControlPlaneEndpointsConfigDnsEndpointC
 	_jsii_.Set(
 		j,
 		"complexObjectIsFromSet",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleContainerClusterControlPlaneEndpointsConfigDnsEndpointConfigOutputReference)SetEnableK8SCertsViaDns(val interface{}) {
+	if err := j.validateSetEnableK8SCertsViaDnsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"enableK8SCertsViaDns",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleContainerClusterControlPlaneEndpointsConfigDnsEndpointConfigOutputReference)SetEnableK8STokensViaDns(val interface{}) {
+	if err := j.validateSetEnableK8STokensViaDnsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"enableK8STokensViaDns",
 		val,
 	)
 }
@@ -492,6 +562,22 @@ func (g *jsiiProxy_GoogleContainerClusterControlPlaneEndpointsConfigDnsEndpointC
 	_jsii_.InvokeVoid(
 		g,
 		"resetAllowExternalTraffic",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleContainerClusterControlPlaneEndpointsConfigDnsEndpointConfigOutputReference) ResetEnableK8SCertsViaDns() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetEnableK8SCertsViaDns",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleContainerClusterControlPlaneEndpointsConfigDnsEndpointConfigOutputReference) ResetEnableK8STokensViaDns() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetEnableK8STokensViaDns",
 		nil, // no parameters
 	)
 }

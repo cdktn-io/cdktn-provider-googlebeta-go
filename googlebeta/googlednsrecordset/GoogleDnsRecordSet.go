@@ -5,14 +5,14 @@ package googlednsrecordset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlednsrecordset/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlednsrecordset/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dns_record_set google_dns_record_set}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dns_record_set google_dns_record_set}.
 type GoogleDnsRecordSet interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -484,7 +484,7 @@ func (j *jsiiProxy_GoogleDnsRecordSet) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dns_record_set google_dns_record_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dns_record_set google_dns_record_set} Resource.
 func NewGoogleDnsRecordSet(scope constructs.Construct, id *string, config *GoogleDnsRecordSetConfig) GoogleDnsRecordSet {
 	_init_.Initialize()
 
@@ -502,7 +502,7 @@ func NewGoogleDnsRecordSet(scope constructs.Construct, id *string, config *Googl
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dns_record_set google_dns_record_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dns_record_set google_dns_record_set} Resource.
 func NewGoogleDnsRecordSet_Override(g GoogleDnsRecordSet, scope constructs.Construct, id *string, config *GoogleDnsRecordSetConfig) {
 	_init_.Initialize()
 

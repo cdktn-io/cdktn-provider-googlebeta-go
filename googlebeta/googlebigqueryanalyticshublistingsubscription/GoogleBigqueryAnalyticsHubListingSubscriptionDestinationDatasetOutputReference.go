@@ -5,9 +5,9 @@ package googlebigqueryanalyticshublistingsubscription
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebigqueryanalyticshublistingsubscription/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebigqueryanalyticshublistingsubscription/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -46,6 +46,9 @@ type GoogleBigqueryAnalyticsHubListingSubscriptionDestinationDatasetOutputRefere
 	Location() *string
 	SetLocation(val *string)
 	LocationInput() *string
+	ReplicaLocations() *[]*string
+	SetReplicaLocations(val *[]*string)
+	ReplicaLocationsInput() *[]*string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -82,6 +85,7 @@ type GoogleBigqueryAnalyticsHubListingSubscriptionDestinationDatasetOutputRefere
 	ResetDescription()
 	ResetFriendlyName()
 	ResetLabels()
+	ResetReplicaLocations()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -247,6 +251,26 @@ func (j *jsiiProxy_GoogleBigqueryAnalyticsHubListingSubscriptionDestinationDatas
 	return returns
 }
 
+func (j *jsiiProxy_GoogleBigqueryAnalyticsHubListingSubscriptionDestinationDatasetOutputReference) ReplicaLocations() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"replicaLocations",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleBigqueryAnalyticsHubListingSubscriptionDestinationDatasetOutputReference) ReplicaLocationsInput() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"replicaLocationsInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleBigqueryAnalyticsHubListingSubscriptionDestinationDatasetOutputReference) TerraformAttribute() *string {
 	var returns *string
 	_jsii_.Get(
@@ -368,6 +392,17 @@ func (j *jsiiProxy_GoogleBigqueryAnalyticsHubListingSubscriptionDestinationDatas
 	_jsii_.Set(
 		j,
 		"location",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleBigqueryAnalyticsHubListingSubscriptionDestinationDatasetOutputReference)SetReplicaLocations(val *[]*string) {
+	if err := j.validateSetReplicaLocationsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"replicaLocations",
 		val,
 	)
 }
@@ -611,6 +646,14 @@ func (g *jsiiProxy_GoogleBigqueryAnalyticsHubListingSubscriptionDestinationDatas
 	_jsii_.InvokeVoid(
 		g,
 		"resetLabels",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleBigqueryAnalyticsHubListingSubscriptionDestinationDatasetOutputReference) ResetReplicaLocations() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetReplicaLocations",
 		nil, // no parameters
 	)
 }

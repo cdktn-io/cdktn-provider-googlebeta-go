@@ -5,14 +5,14 @@ package googlenetworksecuritymirroringendpointgroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenetworksecuritymirroringendpointgroup/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenetworksecuritymirroringendpointgroup/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_security_mirroring_endpoint_group google_network_security_mirroring_endpoint_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_security_mirroring_endpoint_group google_network_security_mirroring_endpoint_group}.
 type GoogleNetworkSecurityMirroringEndpointGroup interface {
 	cdktn.TerraformResource
 	Associations() GoogleNetworkSecurityMirroringEndpointGroupAssociationsList
@@ -62,6 +62,9 @@ type GoogleNetworkSecurityMirroringEndpointGroup interface {
 	MirroringDeploymentGroup() *string
 	SetMirroringDeploymentGroup(val *string)
 	MirroringDeploymentGroupInput() *string
+	MirroringDeploymentGroups() *[]*string
+	SetMirroringDeploymentGroups(val *[]*string)
+	MirroringDeploymentGroupsInput() *[]*string
 	MirroringEndpointGroupId() *string
 	SetMirroringEndpointGroupId(val *string)
 	MirroringEndpointGroupIdInput() *string
@@ -92,6 +95,9 @@ type GoogleNetworkSecurityMirroringEndpointGroup interface {
 	TerraformResourceType() *string
 	Timeouts() GoogleNetworkSecurityMirroringEndpointGroupTimeoutsOutputReference
 	TimeoutsInput() interface{}
+	Type() *string
+	SetType(val *string)
+	TypeInput() *string
 	UpdateTime() *string
 	// Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
 	// Experimental.
@@ -140,11 +146,14 @@ type GoogleNetworkSecurityMirroringEndpointGroup interface {
 	ResetDescription()
 	ResetId()
 	ResetLabels()
+	ResetMirroringDeploymentGroup()
+	ResetMirroringDeploymentGroups()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
 	ResetProject()
 	ResetTimeouts()
+	ResetType()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
 	// Experimental.
@@ -402,6 +411,26 @@ func (j *jsiiProxy_GoogleNetworkSecurityMirroringEndpointGroup) MirroringDeploym
 	return returns
 }
 
+func (j *jsiiProxy_GoogleNetworkSecurityMirroringEndpointGroup) MirroringDeploymentGroups() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"mirroringDeploymentGroups",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleNetworkSecurityMirroringEndpointGroup) MirroringDeploymentGroupsInput() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"mirroringDeploymentGroupsInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleNetworkSecurityMirroringEndpointGroup) MirroringEndpointGroupId() *string {
 	var returns *string
 	_jsii_.Get(
@@ -572,6 +601,26 @@ func (j *jsiiProxy_GoogleNetworkSecurityMirroringEndpointGroup) TimeoutsInput() 
 	return returns
 }
 
+func (j *jsiiProxy_GoogleNetworkSecurityMirroringEndpointGroup) Type() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"type",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleNetworkSecurityMirroringEndpointGroup) TypeInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"typeInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleNetworkSecurityMirroringEndpointGroup) UpdateTime() *string {
 	var returns *string
 	_jsii_.Get(
@@ -583,7 +632,7 @@ func (j *jsiiProxy_GoogleNetworkSecurityMirroringEndpointGroup) UpdateTime() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_security_mirroring_endpoint_group google_network_security_mirroring_endpoint_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_security_mirroring_endpoint_group google_network_security_mirroring_endpoint_group} Resource.
 func NewGoogleNetworkSecurityMirroringEndpointGroup(scope constructs.Construct, id *string, config *GoogleNetworkSecurityMirroringEndpointGroupConfig) GoogleNetworkSecurityMirroringEndpointGroup {
 	_init_.Initialize()
 
@@ -601,7 +650,7 @@ func NewGoogleNetworkSecurityMirroringEndpointGroup(scope constructs.Construct, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_security_mirroring_endpoint_group google_network_security_mirroring_endpoint_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_security_mirroring_endpoint_group google_network_security_mirroring_endpoint_group} Resource.
 func NewGoogleNetworkSecurityMirroringEndpointGroup_Override(g GoogleNetworkSecurityMirroringEndpointGroup, scope constructs.Construct, id *string, config *GoogleNetworkSecurityMirroringEndpointGroupConfig) {
 	_init_.Initialize()
 
@@ -716,6 +765,17 @@ func (j *jsiiProxy_GoogleNetworkSecurityMirroringEndpointGroup)SetMirroringDeplo
 	)
 }
 
+func (j *jsiiProxy_GoogleNetworkSecurityMirroringEndpointGroup)SetMirroringDeploymentGroups(val *[]*string) {
+	if err := j.validateSetMirroringDeploymentGroupsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"mirroringDeploymentGroups",
+		val,
+	)
+}
+
 func (j *jsiiProxy_GoogleNetworkSecurityMirroringEndpointGroup)SetMirroringEndpointGroupId(val *string) {
 	if err := j.validateSetMirroringEndpointGroupIdParameters(val); err != nil {
 		panic(err)
@@ -753,6 +813,17 @@ func (j *jsiiProxy_GoogleNetworkSecurityMirroringEndpointGroup)SetProvisioners(v
 	_jsii_.Set(
 		j,
 		"provisioners",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleNetworkSecurityMirroringEndpointGroup)SetType(val *string) {
+	if err := j.validateSetTypeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"type",
 		val,
 	)
 }
@@ -1145,6 +1216,22 @@ func (g *jsiiProxy_GoogleNetworkSecurityMirroringEndpointGroup) ResetLabels() {
 	)
 }
 
+func (g *jsiiProxy_GoogleNetworkSecurityMirroringEndpointGroup) ResetMirroringDeploymentGroup() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetMirroringDeploymentGroup",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleNetworkSecurityMirroringEndpointGroup) ResetMirroringDeploymentGroups() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetMirroringDeploymentGroups",
+		nil, // no parameters
+	)
+}
+
 func (g *jsiiProxy_GoogleNetworkSecurityMirroringEndpointGroup) ResetOverrideLogicalId() {
 	_jsii_.InvokeVoid(
 		g,
@@ -1165,6 +1252,14 @@ func (g *jsiiProxy_GoogleNetworkSecurityMirroringEndpointGroup) ResetTimeouts() 
 	_jsii_.InvokeVoid(
 		g,
 		"resetTimeouts",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleNetworkSecurityMirroringEndpointGroup) ResetType() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetType",
 		nil, // no parameters
 	)
 }

@@ -5,14 +5,14 @@ package googlebigquerybireservation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebigquerybireservation/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebigquerybireservation/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_bi_reservation google_bigquery_bi_reservation}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_bi_reservation google_bigquery_bi_reservation}.
 type GoogleBigqueryBiReservation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -460,7 +460,7 @@ func (j *jsiiProxy_GoogleBigqueryBiReservation) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_bi_reservation google_bigquery_bi_reservation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_bi_reservation google_bigquery_bi_reservation} Resource.
 func NewGoogleBigqueryBiReservation(scope constructs.Construct, id *string, config *GoogleBigqueryBiReservationConfig) GoogleBigqueryBiReservation {
 	_init_.Initialize()
 
@@ -478,7 +478,7 @@ func NewGoogleBigqueryBiReservation(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_bi_reservation google_bigquery_bi_reservation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_bi_reservation google_bigquery_bi_reservation} Resource.
 func NewGoogleBigqueryBiReservation_Override(g GoogleBigqueryBiReservation, scope constructs.Construct, id *string, config *GoogleBigqueryBiReservationConfig) {
 	_init_.Initialize()
 

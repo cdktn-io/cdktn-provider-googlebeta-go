@@ -5,14 +5,14 @@ package googleosconfigpatchdeployment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosconfigpatchdeployment/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosconfigpatchdeployment/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_patch_deployment google_os_config_patch_deployment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_patch_deployment google_os_config_patch_deployment}.
 type GoogleOsConfigPatchDeployment interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -601,7 +601,7 @@ func (j *jsiiProxy_GoogleOsConfigPatchDeployment) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_patch_deployment google_os_config_patch_deployment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_patch_deployment google_os_config_patch_deployment} Resource.
 func NewGoogleOsConfigPatchDeployment(scope constructs.Construct, id *string, config *GoogleOsConfigPatchDeploymentConfig) GoogleOsConfigPatchDeployment {
 	_init_.Initialize()
 
@@ -619,7 +619,7 @@ func NewGoogleOsConfigPatchDeployment(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_config_patch_deployment google_os_config_patch_deployment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_patch_deployment google_os_config_patch_deployment} Resource.
 func NewGoogleOsConfigPatchDeployment_Override(g GoogleOsConfigPatchDeployment, scope constructs.Construct, id *string, config *GoogleOsConfigPatchDeploymentConfig) {
 	_init_.Initialize()
 

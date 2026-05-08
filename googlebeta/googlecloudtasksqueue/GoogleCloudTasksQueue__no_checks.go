@@ -123,6 +123,10 @@ func (j *jsiiProxy_GoogleCloudTasksQueue) validateSetCountParameters(val interfa
 	return nil
 }
 
+func (j *jsiiProxy_GoogleCloudTasksQueue) validateSetDesiredStateParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleCloudTasksQueue) validateSetIdParameters(val *string) error {
 	return nil
 }

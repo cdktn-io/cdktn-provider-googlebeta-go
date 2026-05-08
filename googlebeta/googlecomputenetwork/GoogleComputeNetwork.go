@@ -5,14 +5,14 @@ package googlecomputenetwork
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputenetwork/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputenetwork/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_network google_compute_network}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_network google_compute_network}.
 type GoogleComputeNetwork interface {
 	cdktn.TerraformResource
 	AutoCreateSubnetworks() interface{}
@@ -39,6 +39,9 @@ type GoogleComputeNetwork interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeleteBgpAlwaysCompareMed() interface{}
+	SetDeleteBgpAlwaysCompareMed(val interface{})
+	DeleteBgpAlwaysCompareMedInput() interface{}
 	DeleteDefaultRoutesOnCreate() interface{}
 	SetDeleteDefaultRoutesOnCreate(val interface{})
 	DeleteDefaultRoutesOnCreateInput() interface{}
@@ -163,6 +166,7 @@ type GoogleComputeNetwork interface {
 	ResetBgpAlwaysCompareMed()
 	ResetBgpBestPathSelectionMode()
 	ResetBgpInterRegionCost()
+	ResetDeleteBgpAlwaysCompareMed()
 	ResetDeleteDefaultRoutesOnCreate()
 	ResetDescription()
 	ResetEnableUlaInternalIpv6()
@@ -320,6 +324,26 @@ func (j *jsiiProxy_GoogleComputeNetwork) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeNetwork) DeleteBgpAlwaysCompareMed() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"deleteBgpAlwaysCompareMed",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeNetwork) DeleteBgpAlwaysCompareMedInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"deleteBgpAlwaysCompareMedInput",
 		&returns,
 	)
 	return returns
@@ -746,7 +770,7 @@ func (j *jsiiProxy_GoogleComputeNetwork) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_network google_compute_network} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_network google_compute_network} Resource.
 func NewGoogleComputeNetwork(scope constructs.Construct, id *string, config *GoogleComputeNetworkConfig) GoogleComputeNetwork {
 	_init_.Initialize()
 
@@ -764,7 +788,7 @@ func NewGoogleComputeNetwork(scope constructs.Construct, id *string, config *Goo
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_network google_compute_network} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_network google_compute_network} Resource.
 func NewGoogleComputeNetwork_Override(g GoogleComputeNetwork, scope constructs.Construct, id *string, config *GoogleComputeNetworkConfig) {
 	_init_.Initialize()
 
@@ -837,6 +861,17 @@ func (j *jsiiProxy_GoogleComputeNetwork)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleComputeNetwork)SetDeleteBgpAlwaysCompareMed(val interface{}) {
+	if err := j.validateSetDeleteBgpAlwaysCompareMedParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deleteBgpAlwaysCompareMed",
 		val,
 	)
 }
@@ -1411,6 +1446,14 @@ func (g *jsiiProxy_GoogleComputeNetwork) ResetBgpInterRegionCost() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetBgpInterRegionCost",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleComputeNetwork) ResetDeleteBgpAlwaysCompareMed() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeleteBgpAlwaysCompareMed",
 		nil, // no parameters
 	)
 }

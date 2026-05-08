@@ -5,14 +5,14 @@ package googlecomputediskresourcepolicyattachment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputediskresourcepolicyattachment/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputediskresourcepolicyattachment/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_disk_resource_policy_attachment google_compute_disk_resource_policy_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_disk_resource_policy_attachment google_compute_disk_resource_policy_attachment}.
 type GoogleComputeDiskResourcePolicyAttachment interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -437,7 +437,7 @@ func (j *jsiiProxy_GoogleComputeDiskResourcePolicyAttachment) ZoneInput() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_disk_resource_policy_attachment google_compute_disk_resource_policy_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_disk_resource_policy_attachment google_compute_disk_resource_policy_attachment} Resource.
 func NewGoogleComputeDiskResourcePolicyAttachment(scope constructs.Construct, id *string, config *GoogleComputeDiskResourcePolicyAttachmentConfig) GoogleComputeDiskResourcePolicyAttachment {
 	_init_.Initialize()
 
@@ -455,7 +455,7 @@ func NewGoogleComputeDiskResourcePolicyAttachment(scope constructs.Construct, id
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_disk_resource_policy_attachment google_compute_disk_resource_policy_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_disk_resource_policy_attachment google_compute_disk_resource_policy_attachment} Resource.
 func NewGoogleComputeDiskResourcePolicyAttachment_Override(g GoogleComputeDiskResourcePolicyAttachment, scope constructs.Construct, id *string, config *GoogleComputeDiskResourcePolicyAttachmentConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package googlechronicledataaccessscope
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlechronicledataaccessscope/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicledataaccessscope/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_chronicle_data_access_scope google_chronicle_data_access_scope}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_data_access_scope google_chronicle_data_access_scope}.
 type GoogleChronicleDataAccessScope interface {
 	cdktn.TerraformResource
 	AllowAll() interface{}
@@ -598,7 +598,7 @@ func (j *jsiiProxy_GoogleChronicleDataAccessScope) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_chronicle_data_access_scope google_chronicle_data_access_scope} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_data_access_scope google_chronicle_data_access_scope} Resource.
 func NewGoogleChronicleDataAccessScope(scope constructs.Construct, id *string, config *GoogleChronicleDataAccessScopeConfig) GoogleChronicleDataAccessScope {
 	_init_.Initialize()
 
@@ -616,7 +616,7 @@ func NewGoogleChronicleDataAccessScope(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_chronicle_data_access_scope google_chronicle_data_access_scope} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_data_access_scope google_chronicle_data_access_scope} Resource.
 func NewGoogleChronicleDataAccessScope_Override(g GoogleChronicleDataAccessScope, scope constructs.Construct, id *string, config *GoogleChronicleDataAccessScopeConfig) {
 	_init_.Initialize()
 

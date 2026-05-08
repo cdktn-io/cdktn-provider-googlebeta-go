@@ -127,6 +127,10 @@ func (j *jsiiProxy_GoogleNetworkSecurityMirroringEndpointGroup) validateSetMirro
 	return nil
 }
 
+func (j *jsiiProxy_GoogleNetworkSecurityMirroringEndpointGroup) validateSetMirroringDeploymentGroupsParameters(val *[]*string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleNetworkSecurityMirroringEndpointGroup) validateSetMirroringEndpointGroupIdParameters(val *string) error {
 	return nil
 }
@@ -136,6 +140,10 @@ func (j *jsiiProxy_GoogleNetworkSecurityMirroringEndpointGroup) validateSetProje
 }
 
 func (j *jsiiProxy_GoogleNetworkSecurityMirroringEndpointGroup) validateSetProvisionersParameters(val *[]interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleNetworkSecurityMirroringEndpointGroup) validateSetTypeParameters(val *string) error {
 	return nil
 }
 

@@ -5,14 +5,14 @@ package datagooglevmwareenginenetwork
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglevmwareenginenetwork/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglevmwareenginenetwork/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_vmwareengine_network google_vmwareengine_network}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_vmwareengine_network google_vmwareengine_network}.
 type DataGoogleVmwareengineNetwork interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -23,11 +23,13 @@ type DataGoogleVmwareengineNetwork interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	CreateTime() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	Description() *string
+	Etag() *string
 	// Experimental.
 	ForEach() cdktn.ITerraformIterator
 	// Experimental.
@@ -69,6 +71,7 @@ type DataGoogleVmwareengineNetwork interface {
 	TerraformResourceType() *string
 	Type() *string
 	Uid() *string
+	UpdateTime() *string
 	VpcNetworks() DataGoogleVmwareengineNetworkVpcNetworksList
 	// Experimental.
 	AddOverride(path *string, value interface{})
@@ -158,6 +161,16 @@ func (j *jsiiProxy_DataGoogleVmwareengineNetwork) Count() interface{} {
 	return returns
 }
 
+func (j *jsiiProxy_DataGoogleVmwareengineNetwork) CreateTime() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"createTime",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataGoogleVmwareengineNetwork) DependsOn() *[]*string {
 	var returns *[]*string
 	_jsii_.Get(
@@ -173,6 +186,16 @@ func (j *jsiiProxy_DataGoogleVmwareengineNetwork) Description() *string {
 	_jsii_.Get(
 		j,
 		"description",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleVmwareengineNetwork) Etag() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"etag",
 		&returns,
 	)
 	return returns
@@ -388,6 +411,16 @@ func (j *jsiiProxy_DataGoogleVmwareengineNetwork) Uid() *string {
 	return returns
 }
 
+func (j *jsiiProxy_DataGoogleVmwareengineNetwork) UpdateTime() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"updateTime",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataGoogleVmwareengineNetwork) VpcNetworks() DataGoogleVmwareengineNetworkVpcNetworksList {
 	var returns DataGoogleVmwareengineNetworkVpcNetworksList
 	_jsii_.Get(
@@ -399,7 +432,7 @@ func (j *jsiiProxy_DataGoogleVmwareengineNetwork) VpcNetworks() DataGoogleVmware
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_vmwareengine_network google_vmwareengine_network} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_vmwareengine_network google_vmwareengine_network} Data Source.
 func NewDataGoogleVmwareengineNetwork(scope constructs.Construct, id *string, config *DataGoogleVmwareengineNetworkConfig) DataGoogleVmwareengineNetwork {
 	_init_.Initialize()
 
@@ -417,7 +450,7 @@ func NewDataGoogleVmwareengineNetwork(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_vmwareengine_network google_vmwareengine_network} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_vmwareengine_network google_vmwareengine_network} Data Source.
 func NewDataGoogleVmwareengineNetwork_Override(d DataGoogleVmwareengineNetwork, scope constructs.Construct, id *string, config *DataGoogleVmwareengineNetworkConfig) {
 	_init_.Initialize()
 

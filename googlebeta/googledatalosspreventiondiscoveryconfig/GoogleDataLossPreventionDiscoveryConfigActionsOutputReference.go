@@ -5,9 +5,9 @@ package googledatalosspreventiondiscoveryconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatalosspreventiondiscoveryconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledatalosspreventiondiscoveryconfig/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -34,6 +34,12 @@ type GoogleDataLossPreventionDiscoveryConfigActionsOutputReference interface {
 	Fqn() *string
 	InternalValue() interface{}
 	SetInternalValue(val interface{})
+	PublishToChronicle() GoogleDataLossPreventionDiscoveryConfigActionsPublishToChronicleOutputReference
+	PublishToChronicleInput() *GoogleDataLossPreventionDiscoveryConfigActionsPublishToChronicle
+	PublishToDataplexCatalog() GoogleDataLossPreventionDiscoveryConfigActionsPublishToDataplexCatalogOutputReference
+	PublishToDataplexCatalogInput() *GoogleDataLossPreventionDiscoveryConfigActionsPublishToDataplexCatalog
+	PublishToScc() GoogleDataLossPreventionDiscoveryConfigActionsPublishToSccOutputReference
+	PublishToSccInput() *GoogleDataLossPreventionDiscoveryConfigActionsPublishToScc
 	PubSubNotification() GoogleDataLossPreventionDiscoveryConfigActionsPubSubNotificationOutputReference
 	PubSubNotificationInput() *GoogleDataLossPreventionDiscoveryConfigActionsPubSubNotification
 	TagResources() GoogleDataLossPreventionDiscoveryConfigActionsTagResourcesOutputReference
@@ -71,9 +77,15 @@ type GoogleDataLossPreventionDiscoveryConfigActionsOutputReference interface {
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutExportData(value *GoogleDataLossPreventionDiscoveryConfigActionsExportData)
+	PutPublishToChronicle(value *GoogleDataLossPreventionDiscoveryConfigActionsPublishToChronicle)
+	PutPublishToDataplexCatalog(value *GoogleDataLossPreventionDiscoveryConfigActionsPublishToDataplexCatalog)
+	PutPublishToScc(value *GoogleDataLossPreventionDiscoveryConfigActionsPublishToScc)
 	PutPubSubNotification(value *GoogleDataLossPreventionDiscoveryConfigActionsPubSubNotification)
 	PutTagResources(value *GoogleDataLossPreventionDiscoveryConfigActionsTagResources)
 	ResetExportData()
+	ResetPublishToChronicle()
+	ResetPublishToDataplexCatalog()
+	ResetPublishToScc()
 	ResetPubSubNotification()
 	ResetTagResources()
 	// Produce the Token's value at resolution time.
@@ -156,6 +168,66 @@ func (j *jsiiProxy_GoogleDataLossPreventionDiscoveryConfigActionsOutputReference
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDataLossPreventionDiscoveryConfigActionsOutputReference) PublishToChronicle() GoogleDataLossPreventionDiscoveryConfigActionsPublishToChronicleOutputReference {
+	var returns GoogleDataLossPreventionDiscoveryConfigActionsPublishToChronicleOutputReference
+	_jsii_.Get(
+		j,
+		"publishToChronicle",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDataLossPreventionDiscoveryConfigActionsOutputReference) PublishToChronicleInput() *GoogleDataLossPreventionDiscoveryConfigActionsPublishToChronicle {
+	var returns *GoogleDataLossPreventionDiscoveryConfigActionsPublishToChronicle
+	_jsii_.Get(
+		j,
+		"publishToChronicleInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDataLossPreventionDiscoveryConfigActionsOutputReference) PublishToDataplexCatalog() GoogleDataLossPreventionDiscoveryConfigActionsPublishToDataplexCatalogOutputReference {
+	var returns GoogleDataLossPreventionDiscoveryConfigActionsPublishToDataplexCatalogOutputReference
+	_jsii_.Get(
+		j,
+		"publishToDataplexCatalog",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDataLossPreventionDiscoveryConfigActionsOutputReference) PublishToDataplexCatalogInput() *GoogleDataLossPreventionDiscoveryConfigActionsPublishToDataplexCatalog {
+	var returns *GoogleDataLossPreventionDiscoveryConfigActionsPublishToDataplexCatalog
+	_jsii_.Get(
+		j,
+		"publishToDataplexCatalogInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDataLossPreventionDiscoveryConfigActionsOutputReference) PublishToScc() GoogleDataLossPreventionDiscoveryConfigActionsPublishToSccOutputReference {
+	var returns GoogleDataLossPreventionDiscoveryConfigActionsPublishToSccOutputReference
+	_jsii_.Get(
+		j,
+		"publishToScc",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDataLossPreventionDiscoveryConfigActionsOutputReference) PublishToSccInput() *GoogleDataLossPreventionDiscoveryConfigActionsPublishToScc {
+	var returns *GoogleDataLossPreventionDiscoveryConfigActionsPublishToScc
+	_jsii_.Get(
+		j,
+		"publishToSccInput",
 		&returns,
 	)
 	return returns
@@ -501,6 +573,39 @@ func (g *jsiiProxy_GoogleDataLossPreventionDiscoveryConfigActionsOutputReference
 	)
 }
 
+func (g *jsiiProxy_GoogleDataLossPreventionDiscoveryConfigActionsOutputReference) PutPublishToChronicle(value *GoogleDataLossPreventionDiscoveryConfigActionsPublishToChronicle) {
+	if err := g.validatePutPublishToChronicleParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putPublishToChronicle",
+		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleDataLossPreventionDiscoveryConfigActionsOutputReference) PutPublishToDataplexCatalog(value *GoogleDataLossPreventionDiscoveryConfigActionsPublishToDataplexCatalog) {
+	if err := g.validatePutPublishToDataplexCatalogParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putPublishToDataplexCatalog",
+		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleDataLossPreventionDiscoveryConfigActionsOutputReference) PutPublishToScc(value *GoogleDataLossPreventionDiscoveryConfigActionsPublishToScc) {
+	if err := g.validatePutPublishToSccParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putPublishToScc",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleDataLossPreventionDiscoveryConfigActionsOutputReference) PutPubSubNotification(value *GoogleDataLossPreventionDiscoveryConfigActionsPubSubNotification) {
 	if err := g.validatePutPubSubNotificationParameters(value); err != nil {
 		panic(err)
@@ -527,6 +632,30 @@ func (g *jsiiProxy_GoogleDataLossPreventionDiscoveryConfigActionsOutputReference
 	_jsii_.InvokeVoid(
 		g,
 		"resetExportData",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleDataLossPreventionDiscoveryConfigActionsOutputReference) ResetPublishToChronicle() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetPublishToChronicle",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleDataLossPreventionDiscoveryConfigActionsOutputReference) ResetPublishToDataplexCatalog() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetPublishToDataplexCatalog",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleDataLossPreventionDiscoveryConfigActionsOutputReference) ResetPublishToScc() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetPublishToScc",
 		nil, // no parameters
 	)
 }

@@ -5,14 +5,14 @@ package googlealloydbinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlealloydbinstance/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlealloydbinstance/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_instance google_alloydb_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_instance google_alloydb_instance}.
 type GoogleAlloydbInstance interface {
 	cdktn.TerraformResource
 	ActivationPolicy() *string
@@ -35,6 +35,8 @@ type GoogleAlloydbInstance interface {
 	Connection() interface{}
 	// Experimental.
 	SetConnection(val interface{})
+	ConnectionPoolConfig() GoogleAlloydbInstanceConnectionPoolConfigOutputReference
+	ConnectionPoolConfigInput() *GoogleAlloydbInstanceConnectionPoolConfig
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
 	// Experimental.
@@ -166,6 +168,7 @@ type GoogleAlloydbInstance interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutClientConnectionConfig(value *GoogleAlloydbInstanceClientConnectionConfig)
+	PutConnectionPoolConfig(value *GoogleAlloydbInstanceConnectionPoolConfig)
 	PutMachineConfig(value *GoogleAlloydbInstanceMachineConfig)
 	PutNetworkConfig(value *GoogleAlloydbInstanceNetworkConfig)
 	PutObservabilityConfig(value *GoogleAlloydbInstanceObservabilityConfig)
@@ -177,6 +180,7 @@ type GoogleAlloydbInstance interface {
 	ResetAnnotations()
 	ResetAvailabilityType()
 	ResetClientConnectionConfig()
+	ResetConnectionPoolConfig()
 	ResetDatabaseFlags()
 	ResetDisplayName()
 	ResetGceZone()
@@ -334,6 +338,26 @@ func (j *jsiiProxy_GoogleAlloydbInstance) Connection() interface{} {
 	_jsii_.Get(
 		j,
 		"connection",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleAlloydbInstance) ConnectionPoolConfig() GoogleAlloydbInstanceConnectionPoolConfigOutputReference {
+	var returns GoogleAlloydbInstanceConnectionPoolConfigOutputReference
+	_jsii_.Get(
+		j,
+		"connectionPoolConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleAlloydbInstance) ConnectionPoolConfigInput() *GoogleAlloydbInstanceConnectionPoolConfig {
+	var returns *GoogleAlloydbInstanceConnectionPoolConfig
+	_jsii_.Get(
+		j,
+		"connectionPoolConfigInput",
 		&returns,
 	)
 	return returns
@@ -880,7 +904,7 @@ func (j *jsiiProxy_GoogleAlloydbInstance) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_instance google_alloydb_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_instance google_alloydb_instance} Resource.
 func NewGoogleAlloydbInstance(scope constructs.Construct, id *string, config *GoogleAlloydbInstanceConfig) GoogleAlloydbInstance {
 	_init_.Initialize()
 
@@ -898,7 +922,7 @@ func NewGoogleAlloydbInstance(scope constructs.Construct, id *string, config *Go
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_alloydb_instance google_alloydb_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_instance google_alloydb_instance} Resource.
 func NewGoogleAlloydbInstance_Override(g GoogleAlloydbInstance, scope constructs.Construct, id *string, config *GoogleAlloydbInstanceConfig) {
 	_init_.Initialize()
 
@@ -1462,6 +1486,17 @@ func (g *jsiiProxy_GoogleAlloydbInstance) PutClientConnectionConfig(value *Googl
 	)
 }
 
+func (g *jsiiProxy_GoogleAlloydbInstance) PutConnectionPoolConfig(value *GoogleAlloydbInstanceConnectionPoolConfig) {
+	if err := g.validatePutConnectionPoolConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putConnectionPoolConfig",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleAlloydbInstance) PutMachineConfig(value *GoogleAlloydbInstanceMachineConfig) {
 	if err := g.validatePutMachineConfigParameters(value); err != nil {
 		panic(err)
@@ -1567,6 +1602,14 @@ func (g *jsiiProxy_GoogleAlloydbInstance) ResetClientConnectionConfig() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetClientConnectionConfig",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleAlloydbInstance) ResetConnectionPoolConfig() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetConnectionPoolConfig",
 		nil, // no parameters
 	)
 }

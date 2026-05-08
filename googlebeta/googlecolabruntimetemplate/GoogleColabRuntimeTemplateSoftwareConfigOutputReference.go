@@ -5,14 +5,16 @@ package googlecolabruntimetemplate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecolabruntimetemplate/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecolabruntimetemplate/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type GoogleColabRuntimeTemplateSoftwareConfigOutputReference interface {
 	cdktn.ComplexObject
+	ColabImage() GoogleColabRuntimeTemplateSoftwareConfigColabImageOutputReference
+	ColabImageInput() *GoogleColabRuntimeTemplateSoftwareConfigColabImage
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -68,8 +70,10 @@ type GoogleColabRuntimeTemplateSoftwareConfigOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutColabImage(value *GoogleColabRuntimeTemplateSoftwareConfigColabImage)
 	PutEnv(value interface{})
 	PutPostStartupScriptConfig(value *GoogleColabRuntimeTemplateSoftwareConfigPostStartupScriptConfig)
+	ResetColabImage()
 	ResetEnv()
 	ResetPostStartupScriptConfig()
 	// Produce the Token's value at resolution time.
@@ -85,6 +89,26 @@ type GoogleColabRuntimeTemplateSoftwareConfigOutputReference interface {
 // The jsii proxy struct for GoogleColabRuntimeTemplateSoftwareConfigOutputReference
 type jsiiProxy_GoogleColabRuntimeTemplateSoftwareConfigOutputReference struct {
 	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_GoogleColabRuntimeTemplateSoftwareConfigOutputReference) ColabImage() GoogleColabRuntimeTemplateSoftwareConfigColabImageOutputReference {
+	var returns GoogleColabRuntimeTemplateSoftwareConfigColabImageOutputReference
+	_jsii_.Get(
+		j,
+		"colabImage",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleColabRuntimeTemplateSoftwareConfigOutputReference) ColabImageInput() *GoogleColabRuntimeTemplateSoftwareConfigColabImage {
+	var returns *GoogleColabRuntimeTemplateSoftwareConfigColabImage
+	_jsii_.Get(
+		j,
+		"colabImageInput",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_GoogleColabRuntimeTemplateSoftwareConfigOutputReference) ComplexObjectIndex() interface{} {
@@ -466,6 +490,17 @@ func (g *jsiiProxy_GoogleColabRuntimeTemplateSoftwareConfigOutputReference) Inte
 	return returns
 }
 
+func (g *jsiiProxy_GoogleColabRuntimeTemplateSoftwareConfigOutputReference) PutColabImage(value *GoogleColabRuntimeTemplateSoftwareConfigColabImage) {
+	if err := g.validatePutColabImageParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putColabImage",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleColabRuntimeTemplateSoftwareConfigOutputReference) PutEnv(value interface{}) {
 	if err := g.validatePutEnvParameters(value); err != nil {
 		panic(err)
@@ -485,6 +520,14 @@ func (g *jsiiProxy_GoogleColabRuntimeTemplateSoftwareConfigOutputReference) PutP
 		g,
 		"putPostStartupScriptConfig",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleColabRuntimeTemplateSoftwareConfigOutputReference) ResetColabImage() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetColabImage",
+		nil, // no parameters
 	)
 }
 

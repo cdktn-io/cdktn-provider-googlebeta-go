@@ -5,9 +5,9 @@ package datagooglecontainercluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglecontainercluster/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglecontainercluster/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -33,6 +33,7 @@ type DataGoogleContainerClusterNodePoolAutoConfigLinuxNodeConfigOutputReference 
 	Fqn() *string
 	InternalValue() *DataGoogleContainerClusterNodePoolAutoConfigLinuxNodeConfig
 	SetInternalValue(val *DataGoogleContainerClusterNodePoolAutoConfigLinuxNodeConfig)
+	NodeKernelModuleLoading() DataGoogleContainerClusterNodePoolAutoConfigLinuxNodeConfigNodeKernelModuleLoadingList
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -135,6 +136,16 @@ func (j *jsiiProxy_DataGoogleContainerClusterNodePoolAutoConfigLinuxNodeConfigOu
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleContainerClusterNodePoolAutoConfigLinuxNodeConfigOutputReference) NodeKernelModuleLoading() DataGoogleContainerClusterNodePoolAutoConfigLinuxNodeConfigNodeKernelModuleLoadingList {
+	var returns DataGoogleContainerClusterNodePoolAutoConfigLinuxNodeConfigNodeKernelModuleLoadingList
+	_jsii_.Get(
+		j,
+		"nodeKernelModuleLoading",
 		&returns,
 	)
 	return returns

@@ -5,9 +5,9 @@ package googlecontainercluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecontainercluster/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecontainercluster/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -17,6 +17,8 @@ type GoogleContainerClusterIpAllocationPolicyOutputReference interface {
 	AdditionalIpRangesConfigInput() interface{}
 	AdditionalPodRangesConfig() GoogleContainerClusterIpAllocationPolicyAdditionalPodRangesConfigOutputReference
 	AdditionalPodRangesConfigInput() *GoogleContainerClusterIpAllocationPolicyAdditionalPodRangesConfig
+	AutoIpamConfig() GoogleContainerClusterIpAllocationPolicyAutoIpamConfigOutputReference
+	AutoIpamConfigInput() *GoogleContainerClusterIpAllocationPolicyAutoIpamConfig
 	ClusterIpv4CidrBlock() *string
 	SetClusterIpv4CidrBlock(val *string)
 	ClusterIpv4CidrBlockInput() *string
@@ -42,6 +44,8 @@ type GoogleContainerClusterIpAllocationPolicyOutputReference interface {
 	Fqn() *string
 	InternalValue() *GoogleContainerClusterIpAllocationPolicy
 	SetInternalValue(val *GoogleContainerClusterIpAllocationPolicy)
+	NetworkTierConfig() GoogleContainerClusterIpAllocationPolicyNetworkTierConfigOutputReference
+	NetworkTierConfigInput() *GoogleContainerClusterIpAllocationPolicyNetworkTierConfig
 	PodCidrOverprovisionConfig() GoogleContainerClusterIpAllocationPolicyPodCidrOverprovisionConfigOutputReference
 	PodCidrOverprovisionConfigInput() *GoogleContainerClusterIpAllocationPolicyPodCidrOverprovisionConfig
 	ServicesIpv4CidrBlock() *string
@@ -87,11 +91,15 @@ type GoogleContainerClusterIpAllocationPolicyOutputReference interface {
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutAdditionalIpRangesConfig(value interface{})
 	PutAdditionalPodRangesConfig(value *GoogleContainerClusterIpAllocationPolicyAdditionalPodRangesConfig)
+	PutAutoIpamConfig(value *GoogleContainerClusterIpAllocationPolicyAutoIpamConfig)
+	PutNetworkTierConfig(value *GoogleContainerClusterIpAllocationPolicyNetworkTierConfig)
 	PutPodCidrOverprovisionConfig(value *GoogleContainerClusterIpAllocationPolicyPodCidrOverprovisionConfig)
 	ResetAdditionalIpRangesConfig()
 	ResetAdditionalPodRangesConfig()
+	ResetAutoIpamConfig()
 	ResetClusterIpv4CidrBlock()
 	ResetClusterSecondaryRangeName()
+	ResetNetworkTierConfig()
 	ResetPodCidrOverprovisionConfig()
 	ResetServicesIpv4CidrBlock()
 	ResetServicesSecondaryRangeName()
@@ -146,6 +154,26 @@ func (j *jsiiProxy_GoogleContainerClusterIpAllocationPolicyOutputReference) Addi
 	_jsii_.Get(
 		j,
 		"additionalPodRangesConfigInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleContainerClusterIpAllocationPolicyOutputReference) AutoIpamConfig() GoogleContainerClusterIpAllocationPolicyAutoIpamConfigOutputReference {
+	var returns GoogleContainerClusterIpAllocationPolicyAutoIpamConfigOutputReference
+	_jsii_.Get(
+		j,
+		"autoIpamConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleContainerClusterIpAllocationPolicyOutputReference) AutoIpamConfigInput() *GoogleContainerClusterIpAllocationPolicyAutoIpamConfig {
+	var returns *GoogleContainerClusterIpAllocationPolicyAutoIpamConfig
+	_jsii_.Get(
+		j,
+		"autoIpamConfigInput",
 		&returns,
 	)
 	return returns
@@ -236,6 +264,26 @@ func (j *jsiiProxy_GoogleContainerClusterIpAllocationPolicyOutputReference) Inte
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleContainerClusterIpAllocationPolicyOutputReference) NetworkTierConfig() GoogleContainerClusterIpAllocationPolicyNetworkTierConfigOutputReference {
+	var returns GoogleContainerClusterIpAllocationPolicyNetworkTierConfigOutputReference
+	_jsii_.Get(
+		j,
+		"networkTierConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleContainerClusterIpAllocationPolicyOutputReference) NetworkTierConfigInput() *GoogleContainerClusterIpAllocationPolicyNetworkTierConfig {
+	var returns *GoogleContainerClusterIpAllocationPolicyNetworkTierConfig
+	_jsii_.Get(
+		j,
+		"networkTierConfigInput",
 		&returns,
 	)
 	return returns
@@ -687,6 +735,28 @@ func (g *jsiiProxy_GoogleContainerClusterIpAllocationPolicyOutputReference) PutA
 	)
 }
 
+func (g *jsiiProxy_GoogleContainerClusterIpAllocationPolicyOutputReference) PutAutoIpamConfig(value *GoogleContainerClusterIpAllocationPolicyAutoIpamConfig) {
+	if err := g.validatePutAutoIpamConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putAutoIpamConfig",
+		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleContainerClusterIpAllocationPolicyOutputReference) PutNetworkTierConfig(value *GoogleContainerClusterIpAllocationPolicyNetworkTierConfig) {
+	if err := g.validatePutNetworkTierConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putNetworkTierConfig",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleContainerClusterIpAllocationPolicyOutputReference) PutPodCidrOverprovisionConfig(value *GoogleContainerClusterIpAllocationPolicyPodCidrOverprovisionConfig) {
 	if err := g.validatePutPodCidrOverprovisionConfigParameters(value); err != nil {
 		panic(err)
@@ -714,6 +784,14 @@ func (g *jsiiProxy_GoogleContainerClusterIpAllocationPolicyOutputReference) Rese
 	)
 }
 
+func (g *jsiiProxy_GoogleContainerClusterIpAllocationPolicyOutputReference) ResetAutoIpamConfig() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetAutoIpamConfig",
+		nil, // no parameters
+	)
+}
+
 func (g *jsiiProxy_GoogleContainerClusterIpAllocationPolicyOutputReference) ResetClusterIpv4CidrBlock() {
 	_jsii_.InvokeVoid(
 		g,
@@ -726,6 +804,14 @@ func (g *jsiiProxy_GoogleContainerClusterIpAllocationPolicyOutputReference) Rese
 	_jsii_.InvokeVoid(
 		g,
 		"resetClusterSecondaryRangeName",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleContainerClusterIpAllocationPolicyOutputReference) ResetNetworkTierConfig() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetNetworkTierConfig",
 		nil, // no parameters
 	)
 }

@@ -5,9 +5,9 @@ package datagooglebackupdrbackupplanassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglebackupdrbackupplanassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglebackupdrbackupplanassociation/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -34,6 +34,7 @@ type DataGoogleBackupDrBackupPlanAssociationRulesConfigInfoOutputReference inter
 	SetInternalValue(val *DataGoogleBackupDrBackupPlanAssociationRulesConfigInfo)
 	LastBackupError() DataGoogleBackupDrBackupPlanAssociationRulesConfigInfoLastBackupErrorList
 	LastBackupState() *string
+	LastSuccessfulBackupConsistencyTime() *string
 	RuleId() *string
 	// Experimental.
 	TerraformAttribute() *string
@@ -147,6 +148,16 @@ func (j *jsiiProxy_DataGoogleBackupDrBackupPlanAssociationRulesConfigInfoOutputR
 	_jsii_.Get(
 		j,
 		"lastBackupState",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleBackupDrBackupPlanAssociationRulesConfigInfoOutputReference) LastSuccessfulBackupConsistencyTime() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"lastSuccessfulBackupConsistencyTime",
 		&returns,
 	)
 	return returns

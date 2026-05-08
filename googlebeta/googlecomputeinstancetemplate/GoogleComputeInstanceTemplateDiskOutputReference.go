@@ -5,9 +5,9 @@ package googlecomputeinstancetemplate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinstancetemplate/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeinstancetemplate/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -92,6 +92,9 @@ type GoogleComputeInstanceTemplateDiskOutputReference interface {
 	SourceSnapshotEncryptionKey() GoogleComputeInstanceTemplateDiskSourceSnapshotEncryptionKeyOutputReference
 	SourceSnapshotEncryptionKeyInput() *GoogleComputeInstanceTemplateDiskSourceSnapshotEncryptionKey
 	SourceSnapshotInput() *string
+	StoragePool() *string
+	SetStoragePool(val *string)
+	StoragePoolInput() *string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -151,6 +154,7 @@ type GoogleComputeInstanceTemplateDiskOutputReference interface {
 	ResetSourceImageEncryptionKey()
 	ResetSourceSnapshot()
 	ResetSourceSnapshotEncryptionKey()
+	ResetStoragePool()
 	ResetType()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -637,6 +641,26 @@ func (j *jsiiProxy_GoogleComputeInstanceTemplateDiskOutputReference) SourceSnaps
 	return returns
 }
 
+func (j *jsiiProxy_GoogleComputeInstanceTemplateDiskOutputReference) StoragePool() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"storagePool",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeInstanceTemplateDiskOutputReference) StoragePoolInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"storagePoolInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleComputeInstanceTemplateDiskOutputReference) TerraformAttribute() *string {
 	var returns *string
 	_jsii_.Get(
@@ -932,6 +956,17 @@ func (j *jsiiProxy_GoogleComputeInstanceTemplateDiskOutputReference)SetSourceSna
 	_jsii_.Set(
 		j,
 		"sourceSnapshot",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleComputeInstanceTemplateDiskOutputReference)SetStoragePool(val *string) {
+	if err := j.validateSetStoragePoolParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"storagePool",
 		val,
 	)
 }
@@ -1352,6 +1387,14 @@ func (g *jsiiProxy_GoogleComputeInstanceTemplateDiskOutputReference) ResetSource
 	_jsii_.InvokeVoid(
 		g,
 		"resetSourceSnapshotEncryptionKey",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleComputeInstanceTemplateDiskOutputReference) ResetStoragePool() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetStoragePool",
 		nil, // no parameters
 	)
 }

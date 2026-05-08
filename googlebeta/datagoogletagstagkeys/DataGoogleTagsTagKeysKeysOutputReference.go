@@ -5,14 +5,15 @@ package datagoogletagstagkeys
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagoogletagstagkeys/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagoogletagstagkeys/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataGoogleTagsTagKeysKeysOutputReference interface {
 	cdktn.ComplexObject
+	AllowedValuesRegex() *string
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -86,6 +87,16 @@ type DataGoogleTagsTagKeysKeysOutputReference interface {
 // The jsii proxy struct for DataGoogleTagsTagKeysKeysOutputReference
 type jsiiProxy_DataGoogleTagsTagKeysKeysOutputReference struct {
 	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_DataGoogleTagsTagKeysKeysOutputReference) AllowedValuesRegex() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"allowedValuesRegex",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_DataGoogleTagsTagKeysKeysOutputReference) ComplexObjectIndex() interface{} {

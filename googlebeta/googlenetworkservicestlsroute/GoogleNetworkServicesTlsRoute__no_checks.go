@@ -123,6 +123,10 @@ func (j *jsiiProxy_GoogleNetworkServicesTlsRoute) validateSetLifecycleParameters
 	return nil
 }
 
+func (j *jsiiProxy_GoogleNetworkServicesTlsRoute) validateSetLocationParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleNetworkServicesTlsRoute) validateSetMeshesParameters(val *[]*string) error {
 	return nil
 }
@@ -136,6 +140,10 @@ func (j *jsiiProxy_GoogleNetworkServicesTlsRoute) validateSetProjectParameters(v
 }
 
 func (j *jsiiProxy_GoogleNetworkServicesTlsRoute) validateSetProvisionersParameters(val *[]interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleNetworkServicesTlsRoute) validateSetTargetProxiesParameters(val *[]*string) error {
 	return nil
 }
 

@@ -5,14 +5,14 @@ package googlepubsubschemaiampolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlepubsubschemaiampolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlepubsubschemaiampolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_pubsub_schema_iam_policy google_pubsub_schema_iam_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_pubsub_schema_iam_policy google_pubsub_schema_iam_policy}.
 type GooglePubsubSchemaIamPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -400,7 +400,7 @@ func (j *jsiiProxy_GooglePubsubSchemaIamPolicy) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_pubsub_schema_iam_policy google_pubsub_schema_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_pubsub_schema_iam_policy google_pubsub_schema_iam_policy} Resource.
 func NewGooglePubsubSchemaIamPolicy(scope constructs.Construct, id *string, config *GooglePubsubSchemaIamPolicyConfig) GooglePubsubSchemaIamPolicy {
 	_init_.Initialize()
 
@@ -418,7 +418,7 @@ func NewGooglePubsubSchemaIamPolicy(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_pubsub_schema_iam_policy google_pubsub_schema_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_pubsub_schema_iam_policy google_pubsub_schema_iam_policy} Resource.
 func NewGooglePubsubSchemaIamPolicy_Override(g GooglePubsubSchemaIamPolicy, scope constructs.Construct, id *string, config *GooglePubsubSchemaIamPolicyConfig) {
 	_init_.Initialize()
 

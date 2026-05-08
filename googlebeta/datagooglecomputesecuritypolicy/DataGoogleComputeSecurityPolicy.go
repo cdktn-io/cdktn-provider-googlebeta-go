@@ -5,14 +5,14 @@ package datagooglecomputesecuritypolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglecomputesecuritypolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglecomputesecuritypolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_compute_security_policy google_compute_security_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_compute_security_policy google_compute_security_policy}.
 type DataGoogleComputeSecurityPolicy interface {
 	cdktn.TerraformDataSource
 	AdaptiveProtectionConfig() DataGoogleComputeSecurityPolicyAdaptiveProtectionConfigList
@@ -30,6 +30,7 @@ type DataGoogleComputeSecurityPolicy interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	Description() *string
+	EffectiveLabels() cdktn.StringMap
 	Fingerprint() *string
 	// Experimental.
 	ForEach() cdktn.ITerraformIterator
@@ -42,6 +43,8 @@ type DataGoogleComputeSecurityPolicy interface {
 	Id() *string
 	SetId(val *string)
 	IdInput() *string
+	LabelFingerprint() *string
+	Labels() cdktn.StringMap
 	// Experimental.
 	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
@@ -67,6 +70,7 @@ type DataGoogleComputeSecurityPolicy interface {
 	SelfLinkInput() *string
 	// Experimental.
 	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
+	TerraformLabels() cdktn.StringMap
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -202,6 +206,16 @@ func (j *jsiiProxy_DataGoogleComputeSecurityPolicy) Description() *string {
 	return returns
 }
 
+func (j *jsiiProxy_DataGoogleComputeSecurityPolicy) EffectiveLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
+	_jsii_.Get(
+		j,
+		"effectiveLabels",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataGoogleComputeSecurityPolicy) Fingerprint() *string {
 	var returns *string
 	_jsii_.Get(
@@ -257,6 +271,26 @@ func (j *jsiiProxy_DataGoogleComputeSecurityPolicy) IdInput() *string {
 	_jsii_.Get(
 		j,
 		"idInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleComputeSecurityPolicy) LabelFingerprint() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"labelFingerprint",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleComputeSecurityPolicy) Labels() cdktn.StringMap {
+	var returns cdktn.StringMap
+	_jsii_.Get(
+		j,
+		"labels",
 		&returns,
 	)
 	return returns
@@ -392,6 +426,16 @@ func (j *jsiiProxy_DataGoogleComputeSecurityPolicy) TerraformGeneratorMetadata()
 	return returns
 }
 
+func (j *jsiiProxy_DataGoogleComputeSecurityPolicy) TerraformLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
+	_jsii_.Get(
+		j,
+		"terraformLabels",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataGoogleComputeSecurityPolicy) TerraformMetaArguments() *map[string]interface{} {
 	var returns *map[string]interface{}
 	_jsii_.Get(
@@ -423,7 +467,7 @@ func (j *jsiiProxy_DataGoogleComputeSecurityPolicy) Type() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_compute_security_policy google_compute_security_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_compute_security_policy google_compute_security_policy} Data Source.
 func NewDataGoogleComputeSecurityPolicy(scope constructs.Construct, id *string, config *DataGoogleComputeSecurityPolicyConfig) DataGoogleComputeSecurityPolicy {
 	_init_.Initialize()
 
@@ -441,7 +485,7 @@ func NewDataGoogleComputeSecurityPolicy(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_compute_security_policy google_compute_security_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_compute_security_policy google_compute_security_policy} Data Source.
 func NewDataGoogleComputeSecurityPolicy_Override(d DataGoogleComputeSecurityPolicy, scope constructs.Construct, id *string, config *DataGoogleComputeSecurityPolicyConfig) {
 	_init_.Initialize()
 

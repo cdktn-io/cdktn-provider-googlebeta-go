@@ -5,14 +5,14 @@ package googleidentityplatformtenant
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleidentityplatformtenant/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleidentityplatformtenant/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_identity_platform_tenant google_identity_platform_tenant}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_identity_platform_tenant google_identity_platform_tenant}.
 type GoogleIdentityPlatformTenant interface {
 	cdktn.TerraformResource
 	AllowPasswordSignup() interface{}
@@ -497,7 +497,7 @@ func (j *jsiiProxy_GoogleIdentityPlatformTenant) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_identity_platform_tenant google_identity_platform_tenant} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_identity_platform_tenant google_identity_platform_tenant} Resource.
 func NewGoogleIdentityPlatformTenant(scope constructs.Construct, id *string, config *GoogleIdentityPlatformTenantConfig) GoogleIdentityPlatformTenant {
 	_init_.Initialize()
 
@@ -515,7 +515,7 @@ func NewGoogleIdentityPlatformTenant(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_identity_platform_tenant google_identity_platform_tenant} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_identity_platform_tenant google_identity_platform_tenant} Resource.
 func NewGoogleIdentityPlatformTenant_Override(g GoogleIdentityPlatformTenant, scope constructs.Construct, id *string, config *GoogleIdentityPlatformTenantConfig) {
 	_init_.Initialize()
 

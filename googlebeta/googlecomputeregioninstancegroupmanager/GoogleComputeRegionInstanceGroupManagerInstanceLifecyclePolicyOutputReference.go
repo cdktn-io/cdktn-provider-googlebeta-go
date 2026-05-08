@@ -5,9 +5,9 @@ package googlecomputeregioninstancegroupmanager
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeregioninstancegroupmanager/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeregioninstancegroupmanager/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -41,6 +41,8 @@ type GoogleComputeRegionInstanceGroupManagerInstanceLifecyclePolicyOutputReferen
 	OnFailedHealthCheck() *string
 	SetOnFailedHealthCheck(val *string)
 	OnFailedHealthCheckInput() *string
+	OnRepair() GoogleComputeRegionInstanceGroupManagerInstanceLifecyclePolicyOnRepairOutputReference
+	OnRepairInput() *GoogleComputeRegionInstanceGroupManagerInstanceLifecyclePolicyOnRepair
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -73,9 +75,11 @@ type GoogleComputeRegionInstanceGroupManagerInstanceLifecyclePolicyOutputReferen
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutOnRepair(value *GoogleComputeRegionInstanceGroupManagerInstanceLifecyclePolicyOnRepair)
 	ResetDefaultActionOnFailure()
 	ResetForceUpdateOnRepair()
 	ResetOnFailedHealthCheck()
+	ResetOnRepair()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -196,6 +200,26 @@ func (j *jsiiProxy_GoogleComputeRegionInstanceGroupManagerInstanceLifecyclePolic
 	_jsii_.Get(
 		j,
 		"onFailedHealthCheckInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeRegionInstanceGroupManagerInstanceLifecyclePolicyOutputReference) OnRepair() GoogleComputeRegionInstanceGroupManagerInstanceLifecyclePolicyOnRepairOutputReference {
+	var returns GoogleComputeRegionInstanceGroupManagerInstanceLifecyclePolicyOnRepairOutputReference
+	_jsii_.Get(
+		j,
+		"onRepair",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeRegionInstanceGroupManagerInstanceLifecyclePolicyOutputReference) OnRepairInput() *GoogleComputeRegionInstanceGroupManagerInstanceLifecyclePolicyOnRepair {
+	var returns *GoogleComputeRegionInstanceGroupManagerInstanceLifecyclePolicyOnRepair
+	_jsii_.Get(
+		j,
+		"onRepairInput",
 		&returns,
 	)
 	return returns
@@ -523,6 +547,17 @@ func (g *jsiiProxy_GoogleComputeRegionInstanceGroupManagerInstanceLifecyclePolic
 	return returns
 }
 
+func (g *jsiiProxy_GoogleComputeRegionInstanceGroupManagerInstanceLifecyclePolicyOutputReference) PutOnRepair(value *GoogleComputeRegionInstanceGroupManagerInstanceLifecyclePolicyOnRepair) {
+	if err := g.validatePutOnRepairParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putOnRepair",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleComputeRegionInstanceGroupManagerInstanceLifecyclePolicyOutputReference) ResetDefaultActionOnFailure() {
 	_jsii_.InvokeVoid(
 		g,
@@ -543,6 +578,14 @@ func (g *jsiiProxy_GoogleComputeRegionInstanceGroupManagerInstanceLifecyclePolic
 	_jsii_.InvokeVoid(
 		g,
 		"resetOnFailedHealthCheck",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleComputeRegionInstanceGroupManagerInstanceLifecyclePolicyOutputReference) ResetOnRepair() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetOnRepair",
 		nil, // no parameters
 	)
 }

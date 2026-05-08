@@ -5,14 +5,14 @@ package googleprivatecacertificate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleprivatecacertificate/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleprivatecacertificate/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_privateca_certificate google_privateca_certificate}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_privateca_certificate google_privateca_certificate}.
 type GooglePrivatecaCertificate interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -679,7 +679,7 @@ func (j *jsiiProxy_GooglePrivatecaCertificate) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_privateca_certificate google_privateca_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_privateca_certificate google_privateca_certificate} Resource.
 func NewGooglePrivatecaCertificate(scope constructs.Construct, id *string, config *GooglePrivatecaCertificateConfig) GooglePrivatecaCertificate {
 	_init_.Initialize()
 
@@ -697,7 +697,7 @@ func NewGooglePrivatecaCertificate(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_privateca_certificate google_privateca_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_privateca_certificate google_privateca_certificate} Resource.
 func NewGooglePrivatecaCertificate_Override(g GooglePrivatecaCertificate, scope constructs.Construct, id *string, config *GooglePrivatecaCertificateConfig) {
 	_init_.Initialize()
 

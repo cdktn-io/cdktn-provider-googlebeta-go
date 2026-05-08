@@ -5,14 +5,14 @@ package googleaccesscontextmanageraccesslevels
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleaccesscontextmanageraccesslevels/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleaccesscontextmanageraccesslevels/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_access_context_manager_access_levels google_access_context_manager_access_levels}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_access_context_manager_access_levels google_access_context_manager_access_levels}.
 type GoogleAccessContextManagerAccessLevels interface {
 	cdktn.TerraformResource
 	AccessLevels() GoogleAccessContextManagerAccessLevelsAccessLevelsList
@@ -390,7 +390,7 @@ func (j *jsiiProxy_GoogleAccessContextManagerAccessLevels) TimeoutsInput() inter
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_access_context_manager_access_levels google_access_context_manager_access_levels} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_access_context_manager_access_levels google_access_context_manager_access_levels} Resource.
 func NewGoogleAccessContextManagerAccessLevels(scope constructs.Construct, id *string, config *GoogleAccessContextManagerAccessLevelsConfig) GoogleAccessContextManagerAccessLevels {
 	_init_.Initialize()
 
@@ -408,7 +408,7 @@ func NewGoogleAccessContextManagerAccessLevels(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_access_context_manager_access_levels google_access_context_manager_access_levels} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_access_context_manager_access_levels google_access_context_manager_access_levels} Resource.
 func NewGoogleAccessContextManagerAccessLevels_Override(g GoogleAccessContextManagerAccessLevels, scope constructs.Construct, id *string, config *GoogleAccessContextManagerAccessLevelsConfig) {
 	_init_.Initialize()
 

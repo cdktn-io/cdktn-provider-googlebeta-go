@@ -5,14 +5,14 @@ package googleiapwebbackendserviceiampolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleiapwebbackendserviceiampolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleiapwebbackendserviceiampolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iap_web_backend_service_iam_policy google_iap_web_backend_service_iam_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_web_backend_service_iam_policy google_iap_web_backend_service_iam_policy}.
 type GoogleIapWebBackendServiceIamPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -400,7 +400,7 @@ func (j *jsiiProxy_GoogleIapWebBackendServiceIamPolicy) WebBackendServiceInput()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iap_web_backend_service_iam_policy google_iap_web_backend_service_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_web_backend_service_iam_policy google_iap_web_backend_service_iam_policy} Resource.
 func NewGoogleIapWebBackendServiceIamPolicy(scope constructs.Construct, id *string, config *GoogleIapWebBackendServiceIamPolicyConfig) GoogleIapWebBackendServiceIamPolicy {
 	_init_.Initialize()
 
@@ -418,7 +418,7 @@ func NewGoogleIapWebBackendServiceIamPolicy(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iap_web_backend_service_iam_policy google_iap_web_backend_service_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_web_backend_service_iam_policy google_iap_web_backend_service_iam_policy} Resource.
 func NewGoogleIapWebBackendServiceIamPolicy_Override(g GoogleIapWebBackendServiceIamPolicy, scope constructs.Construct, id *string, config *GoogleIapWebBackendServiceIamPolicyConfig) {
 	_init_.Initialize()
 

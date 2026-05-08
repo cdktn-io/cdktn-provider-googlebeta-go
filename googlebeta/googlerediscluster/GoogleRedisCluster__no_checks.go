@@ -127,10 +127,6 @@ func validateGoogleRedisCluster_IsTerraformResourceParameters(x interface{}) err
 	return nil
 }
 
-func (j *jsiiProxy_GoogleRedisCluster) validateSetAllowFewerZonesDeploymentParameters(val interface{}) error {
-	return nil
-}
-
 func (j *jsiiProxy_GoogleRedisCluster) validateSetAuthorizationModeParameters(val *string) error {
 	return nil
 }
@@ -155,7 +151,15 @@ func (j *jsiiProxy_GoogleRedisCluster) validateSetKmsKeyParameters(val *string) 
 	return nil
 }
 
+func (j *jsiiProxy_GoogleRedisCluster) validateSetLabelsParameters(val *map[string]*string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleRedisCluster) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleRedisCluster) validateSetMaintenanceVersionParameters(val *string) error {
 	return nil
 }
 
@@ -184,6 +188,14 @@ func (j *jsiiProxy_GoogleRedisCluster) validateSetRegionParameters(val *string) 
 }
 
 func (j *jsiiProxy_GoogleRedisCluster) validateSetReplicaCountParameters(val *float64) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleRedisCluster) validateSetServerCaModeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleRedisCluster) validateSetServerCaPoolParameters(val *string) error {
 	return nil
 }
 

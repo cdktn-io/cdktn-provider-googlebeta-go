@@ -5,9 +5,9 @@ package googlenetworkconnectivityspoke
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenetworkconnectivityspoke/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenetworkconnectivityspoke/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -28,8 +28,17 @@ type GoogleNetworkConnectivitySpokeLinkedRouterApplianceInstancesOutputReference
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
+	ExcludeExportRanges() *[]*string
+	SetExcludeExportRanges(val *[]*string)
+	ExcludeExportRangesInput() *[]*string
+	ExcludeImportRanges() *[]*string
+	SetExcludeImportRanges(val *[]*string)
+	ExcludeImportRangesInput() *[]*string
 	// Experimental.
 	Fqn() *string
+	IncludeExportRanges() *[]*string
+	SetIncludeExportRanges(val *[]*string)
+	IncludeExportRangesInput() *[]*string
 	IncludeImportRanges() *[]*string
 	SetIncludeImportRanges(val *[]*string)
 	IncludeImportRangesInput() *[]*string
@@ -73,6 +82,9 @@ type GoogleNetworkConnectivitySpokeLinkedRouterApplianceInstancesOutputReference
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutInstances(value interface{})
+	ResetExcludeExportRanges()
+	ResetExcludeImportRanges()
+	ResetIncludeExportRanges()
 	ResetIncludeImportRanges()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -119,11 +131,71 @@ func (j *jsiiProxy_GoogleNetworkConnectivitySpokeLinkedRouterApplianceInstancesO
 	return returns
 }
 
+func (j *jsiiProxy_GoogleNetworkConnectivitySpokeLinkedRouterApplianceInstancesOutputReference) ExcludeExportRanges() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"excludeExportRanges",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleNetworkConnectivitySpokeLinkedRouterApplianceInstancesOutputReference) ExcludeExportRangesInput() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"excludeExportRangesInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleNetworkConnectivitySpokeLinkedRouterApplianceInstancesOutputReference) ExcludeImportRanges() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"excludeImportRanges",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleNetworkConnectivitySpokeLinkedRouterApplianceInstancesOutputReference) ExcludeImportRangesInput() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"excludeImportRangesInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleNetworkConnectivitySpokeLinkedRouterApplianceInstancesOutputReference) Fqn() *string {
 	var returns *string
 	_jsii_.Get(
 		j,
 		"fqn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleNetworkConnectivitySpokeLinkedRouterApplianceInstancesOutputReference) IncludeExportRanges() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"includeExportRanges",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleNetworkConnectivitySpokeLinkedRouterApplianceInstancesOutputReference) IncludeExportRangesInput() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"includeExportRangesInput",
 		&returns,
 	)
 	return returns
@@ -265,6 +337,39 @@ func (j *jsiiProxy_GoogleNetworkConnectivitySpokeLinkedRouterApplianceInstancesO
 	_jsii_.Set(
 		j,
 		"complexObjectIsFromSet",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleNetworkConnectivitySpokeLinkedRouterApplianceInstancesOutputReference)SetExcludeExportRanges(val *[]*string) {
+	if err := j.validateSetExcludeExportRangesParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"excludeExportRanges",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleNetworkConnectivitySpokeLinkedRouterApplianceInstancesOutputReference)SetExcludeImportRanges(val *[]*string) {
+	if err := j.validateSetExcludeImportRangesParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"excludeImportRanges",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleNetworkConnectivitySpokeLinkedRouterApplianceInstancesOutputReference)SetIncludeExportRanges(val *[]*string) {
+	if err := j.validateSetIncludeExportRangesParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"includeExportRanges",
 		val,
 	)
 }
@@ -518,6 +623,30 @@ func (g *jsiiProxy_GoogleNetworkConnectivitySpokeLinkedRouterApplianceInstancesO
 		g,
 		"putInstances",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleNetworkConnectivitySpokeLinkedRouterApplianceInstancesOutputReference) ResetExcludeExportRanges() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetExcludeExportRanges",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleNetworkConnectivitySpokeLinkedRouterApplianceInstancesOutputReference) ResetExcludeImportRanges() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetExcludeImportRanges",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleNetworkConnectivitySpokeLinkedRouterApplianceInstancesOutputReference) ResetIncludeExportRanges() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetIncludeExportRanges",
+		nil, // no parameters
 	)
 }
 

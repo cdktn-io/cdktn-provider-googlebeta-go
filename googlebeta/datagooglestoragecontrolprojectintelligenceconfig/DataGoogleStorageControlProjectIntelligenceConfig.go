@@ -5,14 +5,14 @@ package datagooglestoragecontrolprojectintelligenceconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglestoragecontrolprojectintelligenceconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglestoragecontrolprojectintelligenceconfig/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_storage_control_project_intelligence_config google_storage_control_project_intelligence_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_storage_control_project_intelligence_config google_storage_control_project_intelligence_config}.
 type DataGoogleStorageControlProjectIntelligenceConfig interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -352,7 +352,7 @@ func (j *jsiiProxy_DataGoogleStorageControlProjectIntelligenceConfig) UpdateTime
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_storage_control_project_intelligence_config google_storage_control_project_intelligence_config} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_storage_control_project_intelligence_config google_storage_control_project_intelligence_config} Data Source.
 func NewDataGoogleStorageControlProjectIntelligenceConfig(scope constructs.Construct, id *string, config *DataGoogleStorageControlProjectIntelligenceConfigConfig) DataGoogleStorageControlProjectIntelligenceConfig {
 	_init_.Initialize()
 
@@ -370,7 +370,7 @@ func NewDataGoogleStorageControlProjectIntelligenceConfig(scope constructs.Const
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_storage_control_project_intelligence_config google_storage_control_project_intelligence_config} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_storage_control_project_intelligence_config google_storage_control_project_intelligence_config} Data Source.
 func NewDataGoogleStorageControlProjectIntelligenceConfig_Override(d DataGoogleStorageControlProjectIntelligenceConfig, scope constructs.Construct, id *string, config *DataGoogleStorageControlProjectIntelligenceConfigConfig) {
 	_init_.Initialize()
 

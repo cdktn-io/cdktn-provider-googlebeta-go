@@ -75,6 +75,10 @@ func (j *jsiiProxy_GoogleContainerClusterClusterAutoscalingOutputReference) vali
 	return nil
 }
 
+func (j *jsiiProxy_GoogleContainerClusterClusterAutoscalingOutputReference) validateSetDefaultComputeClassEnabledParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleContainerClusterClusterAutoscalingOutputReference) validateSetEnabledParameters(val interface{}) error {
 	return nil
 }

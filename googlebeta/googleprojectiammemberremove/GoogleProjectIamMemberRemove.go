@@ -5,14 +5,14 @@ package googleprojectiammemberremove
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleprojectiammemberremove/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleprojectiammemberremove/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_project_iam_member_remove google_project_iam_member_remove}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_project_iam_member_remove google_project_iam_member_remove}.
 type GoogleProjectIamMemberRemove interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -388,7 +388,7 @@ func (j *jsiiProxy_GoogleProjectIamMemberRemove) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_project_iam_member_remove google_project_iam_member_remove} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_project_iam_member_remove google_project_iam_member_remove} Resource.
 func NewGoogleProjectIamMemberRemove(scope constructs.Construct, id *string, config *GoogleProjectIamMemberRemoveConfig) GoogleProjectIamMemberRemove {
 	_init_.Initialize()
 
@@ -406,7 +406,7 @@ func NewGoogleProjectIamMemberRemove(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_project_iam_member_remove google_project_iam_member_remove} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_project_iam_member_remove google_project_iam_member_remove} Resource.
 func NewGoogleProjectIamMemberRemove_Override(g GoogleProjectIamMemberRemove, scope constructs.Construct, id *string, config *GoogleProjectIamMemberRemoveConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,15 @@ package datagooglepubsubtopic
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglepubsubtopic/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglepubsubtopic/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataGooglePubsubTopicMessageTransformsOutputReference interface {
 	cdktn.ComplexObject
+	AiInference() DataGooglePubsubTopicMessageTransformsAiInferenceList
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -79,6 +80,16 @@ type DataGooglePubsubTopicMessageTransformsOutputReference interface {
 // The jsii proxy struct for DataGooglePubsubTopicMessageTransformsOutputReference
 type jsiiProxy_DataGooglePubsubTopicMessageTransformsOutputReference struct {
 	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_DataGooglePubsubTopicMessageTransformsOutputReference) AiInference() DataGooglePubsubTopicMessageTransformsAiInferenceList {
+	var returns DataGooglePubsubTopicMessageTransformsAiInferenceList
+	_jsii_.Get(
+		j,
+		"aiInference",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_DataGooglePubsubTopicMessageTransformsOutputReference) ComplexObjectIndex() interface{} {

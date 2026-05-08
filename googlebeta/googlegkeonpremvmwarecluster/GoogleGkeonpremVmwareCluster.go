@@ -5,14 +5,14 @@ package googlegkeonpremvmwarecluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegkeonpremvmwarecluster/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlegkeonpremvmwarecluster/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gkeonprem_vmware_cluster google_gkeonprem_vmware_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gkeonprem_vmware_cluster google_gkeonprem_vmware_cluster}.
 type GoogleGkeonpremVmwareCluster interface {
 	cdktn.TerraformResource
 	AdminClusterMembership() *string
@@ -110,6 +110,9 @@ type GoogleGkeonpremVmwareCluster interface {
 	// Experimental.
 	RawOverrides() interface{}
 	Reconciling() cdktn.IResolvable
+	SkipValidations() *[]*string
+	SetSkipValidations(val *[]*string)
+	SkipValidationsInput() *[]*string
 	State() *string
 	Status() GoogleGkeonpremVmwareClusterStatusList
 	Storage() GoogleGkeonpremVmwareClusterStorageOutputReference
@@ -202,6 +205,7 @@ type GoogleGkeonpremVmwareCluster interface {
 	// Experimental.
 	ResetOverrideLogicalId()
 	ResetProject()
+	ResetSkipValidations()
 	ResetStorage()
 	ResetTimeouts()
 	ResetUpgradePolicy()
@@ -804,6 +808,26 @@ func (j *jsiiProxy_GoogleGkeonpremVmwareCluster) Reconciling() cdktn.IResolvable
 	return returns
 }
 
+func (j *jsiiProxy_GoogleGkeonpremVmwareCluster) SkipValidations() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"skipValidations",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleGkeonpremVmwareCluster) SkipValidationsInput() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"skipValidationsInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleGkeonpremVmwareCluster) State() *string {
 	var returns *string
 	_jsii_.Get(
@@ -985,7 +1009,7 @@ func (j *jsiiProxy_GoogleGkeonpremVmwareCluster) VmTrackingEnabledInput() interf
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gkeonprem_vmware_cluster google_gkeonprem_vmware_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gkeonprem_vmware_cluster google_gkeonprem_vmware_cluster} Resource.
 func NewGoogleGkeonpremVmwareCluster(scope constructs.Construct, id *string, config *GoogleGkeonpremVmwareClusterConfig) GoogleGkeonpremVmwareCluster {
 	_init_.Initialize()
 
@@ -1003,7 +1027,7 @@ func NewGoogleGkeonpremVmwareCluster(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gkeonprem_vmware_cluster google_gkeonprem_vmware_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gkeonprem_vmware_cluster google_gkeonprem_vmware_cluster} Resource.
 func NewGoogleGkeonpremVmwareCluster_Override(g GoogleGkeonpremVmwareCluster, scope constructs.Construct, id *string, config *GoogleGkeonpremVmwareClusterConfig) {
 	_init_.Initialize()
 
@@ -1199,6 +1223,17 @@ func (j *jsiiProxy_GoogleGkeonpremVmwareCluster)SetProvisioners(val *[]interface
 	_jsii_.Set(
 		j,
 		"provisioners",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleGkeonpremVmwareCluster)SetSkipValidations(val *[]*string) {
+	if err := j.validateSetSkipValidationsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"skipValidations",
 		val,
 	)
 }
@@ -1796,6 +1831,14 @@ func (g *jsiiProxy_GoogleGkeonpremVmwareCluster) ResetProject() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetProject",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleGkeonpremVmwareCluster) ResetSkipValidations() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetSkipValidations",
 		nil, // no parameters
 	)
 }

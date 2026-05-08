@@ -5,9 +5,9 @@ package googledatastreamstream
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatastreamstream/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledatastreamstream/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -34,6 +34,9 @@ type GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigSourceHiera
 	Fqn() *string
 	InternalValue() *GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigSourceHierarchyDatasets
 	SetInternalValue(val *GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigSourceHierarchyDatasets)
+	ProjectId() *string
+	SetProjectId(val *string)
+	ProjectIdInput() *string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -67,6 +70,7 @@ type GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigSourceHiera
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutDatasetTemplate(value *GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigSourceHierarchyDatasetsDatasetTemplate)
+	ResetProjectId()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -152,6 +156,26 @@ func (j *jsiiProxy_GoogleDatastreamStreamDestinationConfigBigqueryDestinationCon
 	return returns
 }
 
+func (j *jsiiProxy_GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigSourceHierarchyDatasetsOutputReference) ProjectId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"projectId",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigSourceHierarchyDatasetsOutputReference) ProjectIdInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"projectIdInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigSourceHierarchyDatasetsOutputReference) TerraformAttribute() *string {
 	var returns *string
 	_jsii_.Get(
@@ -229,6 +253,17 @@ func (j *jsiiProxy_GoogleDatastreamStreamDestinationConfigBigqueryDestinationCon
 	_jsii_.Set(
 		j,
 		"internalValue",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigSourceHierarchyDatasetsOutputReference)SetProjectId(val *string) {
+	if err := j.validateSetProjectIdParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"projectId",
 		val,
 	)
 }
@@ -449,6 +484,14 @@ func (g *jsiiProxy_GoogleDatastreamStreamDestinationConfigBigqueryDestinationCon
 		g,
 		"putDatasetTemplate",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigSourceHierarchyDatasetsOutputReference) ResetProjectId() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetProjectId",
+		nil, // no parameters
 	)
 }
 

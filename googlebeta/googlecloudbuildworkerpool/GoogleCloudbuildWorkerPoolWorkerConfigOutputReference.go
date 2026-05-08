@@ -5,9 +5,9 @@ package googlecloudbuildworkerpool
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudbuildworkerpool/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudbuildworkerpool/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -31,6 +31,9 @@ type GoogleCloudbuildWorkerPoolWorkerConfigOutputReference interface {
 	DiskSizeGb() *float64
 	SetDiskSizeGb(val *float64)
 	DiskSizeGbInput() *float64
+	EnableNestedVirtualization() interface{}
+	SetEnableNestedVirtualization(val interface{})
+	EnableNestedVirtualizationInput() interface{}
 	// Experimental.
 	Fqn() *string
 	InternalValue() *GoogleCloudbuildWorkerPoolWorkerConfig
@@ -74,6 +77,7 @@ type GoogleCloudbuildWorkerPoolWorkerConfigOutputReference interface {
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetDiskSizeGb()
+	ResetEnableNestedVirtualization()
 	ResetMachineType()
 	ResetNoExternalIp()
 	// Produce the Token's value at resolution time.
@@ -136,6 +140,26 @@ func (j *jsiiProxy_GoogleCloudbuildWorkerPoolWorkerConfigOutputReference) DiskSi
 	_jsii_.Get(
 		j,
 		"diskSizeGbInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCloudbuildWorkerPoolWorkerConfigOutputReference) EnableNestedVirtualization() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"enableNestedVirtualization",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCloudbuildWorkerPoolWorkerConfigOutputReference) EnableNestedVirtualizationInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"enableNestedVirtualizationInput",
 		&returns,
 	)
 	return returns
@@ -278,6 +302,17 @@ func (j *jsiiProxy_GoogleCloudbuildWorkerPoolWorkerConfigOutputReference)SetDisk
 	_jsii_.Set(
 		j,
 		"diskSizeGb",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleCloudbuildWorkerPoolWorkerConfigOutputReference)SetEnableNestedVirtualization(val interface{}) {
+	if err := j.validateSetEnableNestedVirtualizationParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"enableNestedVirtualization",
 		val,
 	)
 }
@@ -527,6 +562,14 @@ func (g *jsiiProxy_GoogleCloudbuildWorkerPoolWorkerConfigOutputReference) ResetD
 	_jsii_.InvokeVoid(
 		g,
 		"resetDiskSizeGb",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleCloudbuildWorkerPoolWorkerConfigOutputReference) ResetEnableNestedVirtualization() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetEnableNestedVirtualization",
 		nil, // no parameters
 	)
 }

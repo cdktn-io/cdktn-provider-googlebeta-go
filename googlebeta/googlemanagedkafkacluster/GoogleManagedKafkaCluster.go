@@ -5,16 +5,18 @@ package googlemanagedkafkacluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlemanagedkafkacluster/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlemanagedkafkacluster/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_managed_kafka_cluster google_managed_kafka_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_managed_kafka_cluster google_managed_kafka_cluster}.
 type GoogleManagedKafkaCluster interface {
 	cdktn.TerraformResource
+	BrokerCapacityConfig() GoogleManagedKafkaClusterBrokerCapacityConfigOutputReference
+	BrokerCapacityConfigInput() *GoogleManagedKafkaClusterBrokerCapacityConfig
 	CapacityConfig() GoogleManagedKafkaClusterCapacityConfigOutputReference
 	CapacityConfigInput() *GoogleManagedKafkaClusterCapacityConfig
 	// Experimental.
@@ -135,11 +137,13 @@ type GoogleManagedKafkaCluster interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	PutBrokerCapacityConfig(value *GoogleManagedKafkaClusterBrokerCapacityConfig)
 	PutCapacityConfig(value *GoogleManagedKafkaClusterCapacityConfig)
 	PutGcpConfig(value *GoogleManagedKafkaClusterGcpConfig)
 	PutRebalanceConfig(value *GoogleManagedKafkaClusterRebalanceConfig)
 	PutTimeouts(value *GoogleManagedKafkaClusterTimeouts)
 	PutTlsConfig(value *GoogleManagedKafkaClusterTlsConfig)
+	ResetBrokerCapacityConfig()
 	ResetId()
 	ResetLabels()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -174,6 +178,26 @@ type GoogleManagedKafkaCluster interface {
 // The jsii proxy struct for GoogleManagedKafkaCluster
 type jsiiProxy_GoogleManagedKafkaCluster struct {
 	internal.Type__cdktnTerraformResource
+}
+
+func (j *jsiiProxy_GoogleManagedKafkaCluster) BrokerCapacityConfig() GoogleManagedKafkaClusterBrokerCapacityConfigOutputReference {
+	var returns GoogleManagedKafkaClusterBrokerCapacityConfigOutputReference
+	_jsii_.Get(
+		j,
+		"brokerCapacityConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleManagedKafkaCluster) BrokerCapacityConfigInput() *GoogleManagedKafkaClusterBrokerCapacityConfig {
+	var returns *GoogleManagedKafkaClusterBrokerCapacityConfig
+	_jsii_.Get(
+		j,
+		"brokerCapacityConfigInput",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_GoogleManagedKafkaCluster) CapacityConfig() GoogleManagedKafkaClusterCapacityConfigOutputReference {
@@ -597,7 +621,7 @@ func (j *jsiiProxy_GoogleManagedKafkaCluster) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_managed_kafka_cluster google_managed_kafka_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_managed_kafka_cluster google_managed_kafka_cluster} Resource.
 func NewGoogleManagedKafkaCluster(scope constructs.Construct, id *string, config *GoogleManagedKafkaClusterConfig) GoogleManagedKafkaCluster {
 	_init_.Initialize()
 
@@ -615,7 +639,7 @@ func NewGoogleManagedKafkaCluster(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_managed_kafka_cluster google_managed_kafka_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_managed_kafka_cluster google_managed_kafka_cluster} Resource.
 func NewGoogleManagedKafkaCluster_Override(g GoogleManagedKafkaCluster, scope constructs.Construct, id *string, config *GoogleManagedKafkaClusterConfig) {
 	_init_.Initialize()
 
@@ -1102,6 +1126,17 @@ func (g *jsiiProxy_GoogleManagedKafkaCluster) OverrideLogicalId(newLogicalId *st
 	)
 }
 
+func (g *jsiiProxy_GoogleManagedKafkaCluster) PutBrokerCapacityConfig(value *GoogleManagedKafkaClusterBrokerCapacityConfig) {
+	if err := g.validatePutBrokerCapacityConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putBrokerCapacityConfig",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleManagedKafkaCluster) PutCapacityConfig(value *GoogleManagedKafkaClusterCapacityConfig) {
 	if err := g.validatePutCapacityConfigParameters(value); err != nil {
 		panic(err)
@@ -1154,6 +1189,14 @@ func (g *jsiiProxy_GoogleManagedKafkaCluster) PutTlsConfig(value *GoogleManagedK
 		g,
 		"putTlsConfig",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleManagedKafkaCluster) ResetBrokerCapacityConfig() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetBrokerCapacityConfig",
+		nil, // no parameters
 	)
 }
 

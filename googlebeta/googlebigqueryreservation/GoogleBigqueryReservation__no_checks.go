@@ -147,6 +147,10 @@ func (j *jsiiProxy_GoogleBigqueryReservation) validateSetProvisionersParameters(
 	return nil
 }
 
+func (j *jsiiProxy_GoogleBigqueryReservation) validateSetReservationGroupParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleBigqueryReservation) validateSetScalingModeParameters(val *string) error {
 	return nil
 }

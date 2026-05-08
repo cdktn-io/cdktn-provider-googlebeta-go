@@ -5,14 +5,15 @@ package datagooglecontainercluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglecontainercluster/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglecontainercluster/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataGoogleContainerClusterNodeConfigLinuxNodeConfigOutputReference interface {
 	cdktn.ComplexObject
+	AccurateTimeConfig() DataGoogleContainerClusterNodeConfigLinuxNodeConfigAccurateTimeConfigList
 	CgroupMode() *string
 	// the index of the complex object in a list.
 	// Experimental.
@@ -34,6 +35,8 @@ type DataGoogleContainerClusterNodeConfigLinuxNodeConfigOutputReference interfac
 	HugepagesConfig() DataGoogleContainerClusterNodeConfigLinuxNodeConfigHugepagesConfigList
 	InternalValue() *DataGoogleContainerClusterNodeConfigLinuxNodeConfig
 	SetInternalValue(val *DataGoogleContainerClusterNodeConfigLinuxNodeConfig)
+	NodeKernelModuleLoading() DataGoogleContainerClusterNodeConfigLinuxNodeConfigNodeKernelModuleLoadingList
+	SwapConfig() DataGoogleContainerClusterNodeConfigLinuxNodeConfigSwapConfigList
 	Sysctls() cdktn.StringMap
 	// Experimental.
 	TerraformAttribute() *string
@@ -82,6 +85,16 @@ type DataGoogleContainerClusterNodeConfigLinuxNodeConfigOutputReference interfac
 // The jsii proxy struct for DataGoogleContainerClusterNodeConfigLinuxNodeConfigOutputReference
 type jsiiProxy_DataGoogleContainerClusterNodeConfigLinuxNodeConfigOutputReference struct {
 	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_DataGoogleContainerClusterNodeConfigLinuxNodeConfigOutputReference) AccurateTimeConfig() DataGoogleContainerClusterNodeConfigLinuxNodeConfigAccurateTimeConfigList {
+	var returns DataGoogleContainerClusterNodeConfigLinuxNodeConfigAccurateTimeConfigList
+	_jsii_.Get(
+		j,
+		"accurateTimeConfig",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_DataGoogleContainerClusterNodeConfigLinuxNodeConfigOutputReference) CgroupMode() *string {
@@ -149,6 +162,26 @@ func (j *jsiiProxy_DataGoogleContainerClusterNodeConfigLinuxNodeConfigOutputRefe
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleContainerClusterNodeConfigLinuxNodeConfigOutputReference) NodeKernelModuleLoading() DataGoogleContainerClusterNodeConfigLinuxNodeConfigNodeKernelModuleLoadingList {
+	var returns DataGoogleContainerClusterNodeConfigLinuxNodeConfigNodeKernelModuleLoadingList
+	_jsii_.Get(
+		j,
+		"nodeKernelModuleLoading",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleContainerClusterNodeConfigLinuxNodeConfigOutputReference) SwapConfig() DataGoogleContainerClusterNodeConfigLinuxNodeConfigSwapConfigList {
+	var returns DataGoogleContainerClusterNodeConfigLinuxNodeConfigSwapConfigList
+	_jsii_.Get(
+		j,
+		"swapConfig",
 		&returns,
 	)
 	return returns

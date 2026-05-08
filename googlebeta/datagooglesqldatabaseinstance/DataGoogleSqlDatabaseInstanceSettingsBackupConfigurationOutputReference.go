@@ -5,15 +5,16 @@ package datagooglesqldatabaseinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglesqldatabaseinstance/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglesqldatabaseinstance/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataGoogleSqlDatabaseInstanceSettingsBackupConfigurationOutputReference interface {
 	cdktn.ComplexObject
 	BackupRetentionSettings() DataGoogleSqlDatabaseInstanceSettingsBackupConfigurationBackupRetentionSettingsList
+	BackupTier() *string
 	BinaryLogEnabled() cdktn.IResolvable
 	// the index of the complex object in a list.
 	// Experimental.
@@ -91,6 +92,16 @@ func (j *jsiiProxy_DataGoogleSqlDatabaseInstanceSettingsBackupConfigurationOutpu
 	_jsii_.Get(
 		j,
 		"backupRetentionSettings",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleSqlDatabaseInstanceSettingsBackupConfigurationOutputReference) BackupTier() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"backupTier",
 		&returns,
 	)
 	return returns

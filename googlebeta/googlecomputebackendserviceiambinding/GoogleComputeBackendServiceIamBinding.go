@@ -5,14 +5,14 @@ package googlecomputebackendserviceiambinding
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputebackendserviceiambinding/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputebackendserviceiambinding/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service_iam_binding google_compute_backend_service_iam_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service_iam_binding google_compute_backend_service_iam_binding}.
 type GoogleComputeBackendServiceIamBinding interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -447,7 +447,7 @@ func (j *jsiiProxy_GoogleComputeBackendServiceIamBinding) TerraformResourceType(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service_iam_binding google_compute_backend_service_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service_iam_binding google_compute_backend_service_iam_binding} Resource.
 func NewGoogleComputeBackendServiceIamBinding(scope constructs.Construct, id *string, config *GoogleComputeBackendServiceIamBindingConfig) GoogleComputeBackendServiceIamBinding {
 	_init_.Initialize()
 
@@ -465,7 +465,7 @@ func NewGoogleComputeBackendServiceIamBinding(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_backend_service_iam_binding google_compute_backend_service_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_service_iam_binding google_compute_backend_service_iam_binding} Resource.
 func NewGoogleComputeBackendServiceIamBinding_Override(g GoogleComputeBackendServiceIamBinding, scope constructs.Construct, id *string, config *GoogleComputeBackendServiceIamBindingConfig) {
 	_init_.Initialize()
 

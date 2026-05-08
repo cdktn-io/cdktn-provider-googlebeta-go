@@ -5,14 +5,14 @@ package googlenetworkservicesedgecacheorigin
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenetworkservicesedgecacheorigin/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenetworkservicesedgecacheorigin/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_services_edge_cache_origin google_network_services_edge_cache_origin}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_services_edge_cache_origin google_network_services_edge_cache_origin}.
 type GoogleNetworkServicesEdgeCacheOrigin interface {
 	cdktn.TerraformResource
 	AwsV4Authentication() GoogleNetworkServicesEdgeCacheOriginAwsV4AuthenticationOutputReference
@@ -723,7 +723,7 @@ func (j *jsiiProxy_GoogleNetworkServicesEdgeCacheOrigin) TimeoutsInput() interfa
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_services_edge_cache_origin google_network_services_edge_cache_origin} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_services_edge_cache_origin google_network_services_edge_cache_origin} Resource.
 func NewGoogleNetworkServicesEdgeCacheOrigin(scope constructs.Construct, id *string, config *GoogleNetworkServicesEdgeCacheOriginConfig) GoogleNetworkServicesEdgeCacheOrigin {
 	_init_.Initialize()
 
@@ -741,7 +741,7 @@ func NewGoogleNetworkServicesEdgeCacheOrigin(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_services_edge_cache_origin google_network_services_edge_cache_origin} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_services_edge_cache_origin google_network_services_edge_cache_origin} Resource.
 func NewGoogleNetworkServicesEdgeCacheOrigin_Override(g GoogleNetworkServicesEdgeCacheOrigin, scope constructs.Construct, id *string, config *GoogleNetworkServicesEdgeCacheOriginConfig) {
 	_init_.Initialize()
 

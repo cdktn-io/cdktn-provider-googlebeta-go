@@ -5,16 +5,17 @@ package googlecomputereservation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputereservation/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputereservation/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_reservation google_compute_reservation}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_reservation google_compute_reservation}.
 type GoogleComputeReservation interface {
 	cdktn.TerraformResource
+	BlockNames() *[]*string
 	// Experimental.
 	CdktfStack() cdktn.TerraformStack
 	Commitment() *string
@@ -53,12 +54,12 @@ type GoogleComputeReservation interface {
 	// Experimental.
 	FriendlyUniqueId() *string
 	Id() *string
-	SetId(val *string)
-	IdInput() *string
+	Kind() *string
 	// Experimental.
 	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
 	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
+	LinkedCommitments() *[]*string
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
@@ -77,8 +78,11 @@ type GoogleComputeReservation interface {
 	SetProvisioners(val *[]interface{})
 	// Experimental.
 	RawOverrides() interface{}
+	ReservationBlockCount() *float64
 	ReservationSharingPolicy() GoogleComputeReservationReservationSharingPolicyOutputReference
 	ReservationSharingPolicyInput() *GoogleComputeReservationReservationSharingPolicy
+	ResourceStatus() GoogleComputeReservationResourceStatusList
+	SatisfiesPzs() cdktn.IResolvable
 	SelfLink() *string
 	ShareSettings() GoogleComputeReservationShareSettingsOutputReference
 	ShareSettingsInput() *GoogleComputeReservationShareSettings
@@ -151,7 +155,6 @@ type GoogleComputeReservation interface {
 	ResetDeleteAtTime()
 	ResetDescription()
 	ResetEnableEmergentMaintenance()
-	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
@@ -185,6 +188,16 @@ type GoogleComputeReservation interface {
 // The jsii proxy struct for GoogleComputeReservation
 type jsiiProxy_GoogleComputeReservation struct {
 	internal.Type__cdktnTerraformResource
+}
+
+func (j *jsiiProxy_GoogleComputeReservation) BlockNames() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"blockNames",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_GoogleComputeReservation) CdktfStack() cdktn.TerraformStack {
@@ -377,11 +390,11 @@ func (j *jsiiProxy_GoogleComputeReservation) Id() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleComputeReservation) IdInput() *string {
+func (j *jsiiProxy_GoogleComputeReservation) Kind() *string {
 	var returns *string
 	_jsii_.Get(
 		j,
-		"idInput",
+		"kind",
 		&returns,
 	)
 	return returns
@@ -392,6 +405,16 @@ func (j *jsiiProxy_GoogleComputeReservation) Lifecycle() *cdktn.TerraformResourc
 	_jsii_.Get(
 		j,
 		"lifecycle",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeReservation) LinkedCommitments() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"linkedCommitments",
 		&returns,
 	)
 	return returns
@@ -477,6 +500,16 @@ func (j *jsiiProxy_GoogleComputeReservation) RawOverrides() interface{} {
 	return returns
 }
 
+func (j *jsiiProxy_GoogleComputeReservation) ReservationBlockCount() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"reservationBlockCount",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleComputeReservation) ReservationSharingPolicy() GoogleComputeReservationReservationSharingPolicyOutputReference {
 	var returns GoogleComputeReservationReservationSharingPolicyOutputReference
 	_jsii_.Get(
@@ -492,6 +525,26 @@ func (j *jsiiProxy_GoogleComputeReservation) ReservationSharingPolicyInput() *Go
 	_jsii_.Get(
 		j,
 		"reservationSharingPolicyInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeReservation) ResourceStatus() GoogleComputeReservationResourceStatusList {
+	var returns GoogleComputeReservationResourceStatusList
+	_jsii_.Get(
+		j,
+		"resourceStatus",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeReservation) SatisfiesPzs() cdktn.IResolvable {
+	var returns cdktn.IResolvable
+	_jsii_.Get(
+		j,
+		"satisfiesPzs",
 		&returns,
 	)
 	return returns
@@ -648,7 +701,7 @@ func (j *jsiiProxy_GoogleComputeReservation) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_reservation google_compute_reservation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_reservation google_compute_reservation} Resource.
 func NewGoogleComputeReservation(scope constructs.Construct, id *string, config *GoogleComputeReservationConfig) GoogleComputeReservation {
 	_init_.Initialize()
 
@@ -666,7 +719,7 @@ func NewGoogleComputeReservation(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_reservation google_compute_reservation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_reservation google_compute_reservation} Resource.
 func NewGoogleComputeReservation_Override(g GoogleComputeReservation, scope constructs.Construct, id *string, config *GoogleComputeReservationConfig) {
 	_init_.Initialize()
 
@@ -744,17 +797,6 @@ func (j *jsiiProxy_GoogleComputeReservation)SetForEach(val cdktn.ITerraformItera
 	_jsii_.Set(
 		j,
 		"forEach",
-		val,
-	)
-}
-
-func (j *jsiiProxy_GoogleComputeReservation)SetId(val *string) {
-	if err := j.validateSetIdParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"id",
 		val,
 	)
 }
@@ -1269,14 +1311,6 @@ func (g *jsiiProxy_GoogleComputeReservation) ResetEnableEmergentMaintenance() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetEnableEmergentMaintenance",
-		nil, // no parameters
-	)
-}
-
-func (g *jsiiProxy_GoogleComputeReservation) ResetId() {
-	_jsii_.InvokeVoid(
-		g,
-		"resetId",
 		nil, // no parameters
 	)
 }

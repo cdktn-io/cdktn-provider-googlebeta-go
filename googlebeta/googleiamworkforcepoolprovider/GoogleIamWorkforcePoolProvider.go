@@ -5,14 +5,14 @@ package googleiamworkforcepoolprovider
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleiamworkforcepoolprovider/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleiamworkforcepoolprovider/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iam_workforce_pool_provider google_iam_workforce_pool_provider}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iam_workforce_pool_provider google_iam_workforce_pool_provider}.
 type GoogleIamWorkforcePoolProvider interface {
 	cdktn.TerraformResource
 	AttributeCondition() *string
@@ -40,12 +40,17 @@ type GoogleIamWorkforcePoolProvider interface {
 	Description() *string
 	SetDescription(val *string)
 	DescriptionInput() *string
+	DetailedAuditLogging() interface{}
+	SetDetailedAuditLogging(val interface{})
+	DetailedAuditLoggingInput() interface{}
 	Disabled() interface{}
 	SetDisabled(val interface{})
 	DisabledInput() interface{}
 	DisplayName() *string
 	SetDisplayName(val *string)
 	DisplayNameInput() *string
+	ExtendedAttributesOauth2Client() GoogleIamWorkforcePoolProviderExtendedAttributesOauth2ClientOutputReference
+	ExtendedAttributesOauth2ClientInput() *GoogleIamWorkforcePoolProviderExtendedAttributesOauth2Client
 	ExtraAttributesOauth2Client() GoogleIamWorkforcePoolProviderExtraAttributesOauth2ClientOutputReference
 	ExtraAttributesOauth2ClientInput() *GoogleIamWorkforcePoolProviderExtraAttributesOauth2Client
 	// Experimental.
@@ -86,6 +91,9 @@ type GoogleIamWorkforcePoolProvider interface {
 	RawOverrides() interface{}
 	Saml() GoogleIamWorkforcePoolProviderSamlOutputReference
 	SamlInput() *GoogleIamWorkforcePoolProviderSaml
+	ScimUsage() *string
+	SetScimUsage(val *string)
+	ScimUsageInput() *string
 	State() *string
 	// Experimental.
 	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
@@ -141,6 +149,7 @@ type GoogleIamWorkforcePoolProvider interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	PutExtendedAttributesOauth2Client(value *GoogleIamWorkforcePoolProviderExtendedAttributesOauth2Client)
 	PutExtraAttributesOauth2Client(value *GoogleIamWorkforcePoolProviderExtraAttributesOauth2Client)
 	PutOidc(value *GoogleIamWorkforcePoolProviderOidc)
 	PutSaml(value *GoogleIamWorkforcePoolProviderSaml)
@@ -148,8 +157,10 @@ type GoogleIamWorkforcePoolProvider interface {
 	ResetAttributeCondition()
 	ResetAttributeMapping()
 	ResetDescription()
+	ResetDetailedAuditLogging()
 	ResetDisabled()
 	ResetDisplayName()
+	ResetExtendedAttributesOauth2Client()
 	ResetExtraAttributesOauth2Client()
 	ResetId()
 	ResetOidc()
@@ -157,6 +168,7 @@ type GoogleIamWorkforcePoolProvider interface {
 	// Experimental.
 	ResetOverrideLogicalId()
 	ResetSaml()
+	ResetScimUsage()
 	ResetTimeouts()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
@@ -295,6 +307,26 @@ func (j *jsiiProxy_GoogleIamWorkforcePoolProvider) DescriptionInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_GoogleIamWorkforcePoolProvider) DetailedAuditLogging() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"detailedAuditLogging",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleIamWorkforcePoolProvider) DetailedAuditLoggingInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"detailedAuditLoggingInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleIamWorkforcePoolProvider) Disabled() interface{} {
 	var returns interface{}
 	_jsii_.Get(
@@ -330,6 +362,26 @@ func (j *jsiiProxy_GoogleIamWorkforcePoolProvider) DisplayNameInput() *string {
 	_jsii_.Get(
 		j,
 		"displayNameInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleIamWorkforcePoolProvider) ExtendedAttributesOauth2Client() GoogleIamWorkforcePoolProviderExtendedAttributesOauth2ClientOutputReference {
+	var returns GoogleIamWorkforcePoolProviderExtendedAttributesOauth2ClientOutputReference
+	_jsii_.Get(
+		j,
+		"extendedAttributesOauth2Client",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleIamWorkforcePoolProvider) ExtendedAttributesOauth2ClientInput() *GoogleIamWorkforcePoolProviderExtendedAttributesOauth2Client {
+	var returns *GoogleIamWorkforcePoolProviderExtendedAttributesOauth2Client
+	_jsii_.Get(
+		j,
+		"extendedAttributesOauth2ClientInput",
 		&returns,
 	)
 	return returns
@@ -545,6 +597,26 @@ func (j *jsiiProxy_GoogleIamWorkforcePoolProvider) SamlInput() *GoogleIamWorkfor
 	return returns
 }
 
+func (j *jsiiProxy_GoogleIamWorkforcePoolProvider) ScimUsage() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"scimUsage",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleIamWorkforcePoolProvider) ScimUsageInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"scimUsageInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleIamWorkforcePoolProvider) State() *string {
 	var returns *string
 	_jsii_.Get(
@@ -626,7 +698,7 @@ func (j *jsiiProxy_GoogleIamWorkforcePoolProvider) WorkforcePoolIdInput() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iam_workforce_pool_provider google_iam_workforce_pool_provider} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iam_workforce_pool_provider google_iam_workforce_pool_provider} Resource.
 func NewGoogleIamWorkforcePoolProvider(scope constructs.Construct, id *string, config *GoogleIamWorkforcePoolProviderConfig) GoogleIamWorkforcePoolProvider {
 	_init_.Initialize()
 
@@ -644,7 +716,7 @@ func NewGoogleIamWorkforcePoolProvider(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iam_workforce_pool_provider google_iam_workforce_pool_provider} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iam_workforce_pool_provider google_iam_workforce_pool_provider} Resource.
 func NewGoogleIamWorkforcePoolProvider_Override(g GoogleIamWorkforcePoolProvider, scope constructs.Construct, id *string, config *GoogleIamWorkforcePoolProviderConfig) {
 	_init_.Initialize()
 
@@ -714,6 +786,17 @@ func (j *jsiiProxy_GoogleIamWorkforcePoolProvider)SetDescription(val *string) {
 	_jsii_.Set(
 		j,
 		"description",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleIamWorkforcePoolProvider)SetDetailedAuditLogging(val interface{}) {
+	if err := j.validateSetDetailedAuditLoggingParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"detailedAuditLogging",
 		val,
 	)
 }
@@ -807,6 +890,17 @@ func (j *jsiiProxy_GoogleIamWorkforcePoolProvider)SetProvisioners(val *[]interfa
 	_jsii_.Set(
 		j,
 		"provisioners",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleIamWorkforcePoolProvider)SetScimUsage(val *string) {
+	if err := j.validateSetScimUsageParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"scimUsage",
 		val,
 	)
 }
@@ -1175,6 +1269,17 @@ func (g *jsiiProxy_GoogleIamWorkforcePoolProvider) OverrideLogicalId(newLogicalI
 	)
 }
 
+func (g *jsiiProxy_GoogleIamWorkforcePoolProvider) PutExtendedAttributesOauth2Client(value *GoogleIamWorkforcePoolProviderExtendedAttributesOauth2Client) {
+	if err := g.validatePutExtendedAttributesOauth2ClientParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putExtendedAttributesOauth2Client",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleIamWorkforcePoolProvider) PutExtraAttributesOauth2Client(value *GoogleIamWorkforcePoolProviderExtraAttributesOauth2Client) {
 	if err := g.validatePutExtraAttributesOauth2ClientParameters(value); err != nil {
 		panic(err)
@@ -1243,6 +1348,14 @@ func (g *jsiiProxy_GoogleIamWorkforcePoolProvider) ResetDescription() {
 	)
 }
 
+func (g *jsiiProxy_GoogleIamWorkforcePoolProvider) ResetDetailedAuditLogging() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDetailedAuditLogging",
+		nil, // no parameters
+	)
+}
+
 func (g *jsiiProxy_GoogleIamWorkforcePoolProvider) ResetDisabled() {
 	_jsii_.InvokeVoid(
 		g,
@@ -1255,6 +1368,14 @@ func (g *jsiiProxy_GoogleIamWorkforcePoolProvider) ResetDisplayName() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetDisplayName",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleIamWorkforcePoolProvider) ResetExtendedAttributesOauth2Client() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetExtendedAttributesOauth2Client",
 		nil, // no parameters
 	)
 }
@@ -1295,6 +1416,14 @@ func (g *jsiiProxy_GoogleIamWorkforcePoolProvider) ResetSaml() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetSaml",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleIamWorkforcePoolProvider) ResetScimUsage() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetScimUsage",
 		nil, // no parameters
 	)
 }

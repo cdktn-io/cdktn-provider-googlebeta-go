@@ -1,0 +1,93 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package googlediscoveryenginesearchengine
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (g *jsiiProxy_GoogleDiscoveryEngineSearchEngineKnowledgeGraphConfigOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleDiscoveryEngineSearchEngineKnowledgeGraphConfigOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleDiscoveryEngineSearchEngineKnowledgeGraphConfigOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleDiscoveryEngineSearchEngineKnowledgeGraphConfigOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleDiscoveryEngineSearchEngineKnowledgeGraphConfigOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleDiscoveryEngineSearchEngineKnowledgeGraphConfigOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleDiscoveryEngineSearchEngineKnowledgeGraphConfigOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleDiscoveryEngineSearchEngineKnowledgeGraphConfigOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleDiscoveryEngineSearchEngineKnowledgeGraphConfigOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleDiscoveryEngineSearchEngineKnowledgeGraphConfigOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleDiscoveryEngineSearchEngineKnowledgeGraphConfigOutputReference) validatePutFeatureConfigParameters(value *GoogleDiscoveryEngineSearchEngineKnowledgeGraphConfigFeatureConfig) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleDiscoveryEngineSearchEngineKnowledgeGraphConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleDiscoveryEngineSearchEngineKnowledgeGraphConfigOutputReference) validateSetCloudKnowledgeGraphTypesParameters(val *[]*string) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleDiscoveryEngineSearchEngineKnowledgeGraphConfigOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleDiscoveryEngineSearchEngineKnowledgeGraphConfigOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleDiscoveryEngineSearchEngineKnowledgeGraphConfigOutputReference) validateSetEnableCloudKnowledgeGraphParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleDiscoveryEngineSearchEngineKnowledgeGraphConfigOutputReference) validateSetEnablePrivateKnowledgeGraphParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleDiscoveryEngineSearchEngineKnowledgeGraphConfigOutputReference) validateSetInternalValueParameters(val *GoogleDiscoveryEngineSearchEngineKnowledgeGraphConfig) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleDiscoveryEngineSearchEngineKnowledgeGraphConfigOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleDiscoveryEngineSearchEngineKnowledgeGraphConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewGoogleDiscoveryEngineSearchEngineKnowledgeGraphConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

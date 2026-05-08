@@ -5,14 +5,14 @@ package datagooglevmwareenginecluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglevmwareenginecluster/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglevmwareenginecluster/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_vmwareengine_cluster google_vmwareengine_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_vmwareengine_cluster google_vmwareengine_cluster}.
 type DataGoogleVmwareengineCluster interface {
 	cdktn.TerraformDataSource
 	AutoscalingSettings() DataGoogleVmwareengineClusterAutoscalingSettingsList
@@ -24,6 +24,8 @@ type DataGoogleVmwareengineCluster interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	CreateTime() *string
+	DatastoreMountConfig() DataGoogleVmwareengineClusterDatastoreMountConfigList
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -67,6 +69,7 @@ type DataGoogleVmwareengineCluster interface {
 	// Experimental.
 	TerraformResourceType() *string
 	Uid() *string
+	UpdateTime() *string
 	// Experimental.
 	AddOverride(path *string, value interface{})
 	// Experimental.
@@ -159,6 +162,26 @@ func (j *jsiiProxy_DataGoogleVmwareengineCluster) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleVmwareengineCluster) CreateTime() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleVmwareengineCluster) DatastoreMountConfig() DataGoogleVmwareengineClusterDatastoreMountConfigList {
+	var returns DataGoogleVmwareengineClusterDatastoreMountConfigList
+	_jsii_.Get(
+		j,
+		"datastoreMountConfig",
 		&returns,
 	)
 	return returns
@@ -374,8 +397,18 @@ func (j *jsiiProxy_DataGoogleVmwareengineCluster) Uid() *string {
 	return returns
 }
 
+func (j *jsiiProxy_DataGoogleVmwareengineCluster) UpdateTime() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"updateTime",
+		&returns,
+	)
+	return returns
+}
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_vmwareengine_cluster google_vmwareengine_cluster} Data Source.
+
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_vmwareengine_cluster google_vmwareengine_cluster} Data Source.
 func NewDataGoogleVmwareengineCluster(scope constructs.Construct, id *string, config *DataGoogleVmwareengineClusterConfig) DataGoogleVmwareengineCluster {
 	_init_.Initialize()
 
@@ -393,7 +426,7 @@ func NewDataGoogleVmwareengineCluster(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_vmwareengine_cluster google_vmwareengine_cluster} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_vmwareengine_cluster google_vmwareengine_cluster} Data Source.
 func NewDataGoogleVmwareengineCluster_Override(d DataGoogleVmwareengineCluster, scope constructs.Construct, id *string, config *DataGoogleVmwareengineClusterConfig) {
 	_init_.Initialize()
 

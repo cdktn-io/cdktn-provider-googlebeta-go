@@ -5,9 +5,9 @@ package googlechroniclereferencelist
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlechroniclereferencelist/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechroniclereferencelist/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -33,6 +33,8 @@ type GoogleChronicleReferenceListScopeInfoReferenceListScopeOutputReference inte
 	InternalValue() *GoogleChronicleReferenceListScopeInfoReferenceListScope
 	SetInternalValue(val *GoogleChronicleReferenceListScopeInfoReferenceListScope)
 	ScopeNames() *[]*string
+	SetScopeNames(val *[]*string)
+	ScopeNamesInput() *[]*string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -65,6 +67,7 @@ type GoogleChronicleReferenceListScopeInfoReferenceListScopeOutputReference inte
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	ResetScopeNames()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -140,6 +143,16 @@ func (j *jsiiProxy_GoogleChronicleReferenceListScopeInfoReferenceListScopeOutput
 	return returns
 }
 
+func (j *jsiiProxy_GoogleChronicleReferenceListScopeInfoReferenceListScopeOutputReference) ScopeNamesInput() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"scopeNamesInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleChronicleReferenceListScopeInfoReferenceListScopeOutputReference) TerraformAttribute() *string {
 	var returns *string
 	_jsii_.Get(
@@ -161,29 +174,29 @@ func (j *jsiiProxy_GoogleChronicleReferenceListScopeInfoReferenceListScopeOutput
 }
 
 
-func NewGoogleChronicleReferenceListScopeInfoReferenceListScopeOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) GoogleChronicleReferenceListScopeInfoReferenceListScopeOutputReference {
+func NewGoogleChronicleReferenceListScopeInfoReferenceListScopeOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) GoogleChronicleReferenceListScopeInfoReferenceListScopeOutputReference {
 	_init_.Initialize()
 
-	if err := validateNewGoogleChronicleReferenceListScopeInfoReferenceListScopeOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
+	if err := validateNewGoogleChronicleReferenceListScopeInfoReferenceListScopeOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
 		panic(err)
 	}
 	j := jsiiProxy_GoogleChronicleReferenceListScopeInfoReferenceListScopeOutputReference{}
 
 	_jsii_.Create(
 		"@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoReferenceListScopeOutputReference",
-		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
+		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
 
 	return &j
 }
 
-func NewGoogleChronicleReferenceListScopeInfoReferenceListScopeOutputReference_Override(g GoogleChronicleReferenceListScopeInfoReferenceListScopeOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewGoogleChronicleReferenceListScopeInfoReferenceListScopeOutputReference_Override(g GoogleChronicleReferenceListScopeInfoReferenceListScopeOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
 		"@cdktn/provider-google-beta.googleChronicleReferenceList.GoogleChronicleReferenceListScopeInfoReferenceListScopeOutputReference",
-		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
+		[]interface{}{terraformResource, terraformAttribute},
 		g,
 	)
 }
@@ -217,6 +230,17 @@ func (j *jsiiProxy_GoogleChronicleReferenceListScopeInfoReferenceListScopeOutput
 	_jsii_.Set(
 		j,
 		"internalValue",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleChronicleReferenceListScopeInfoReferenceListScopeOutputReference)SetScopeNames(val *[]*string) {
+	if err := j.validateSetScopeNamesParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"scopeNames",
 		val,
 	)
 }
@@ -427,6 +451,14 @@ func (g *jsiiProxy_GoogleChronicleReferenceListScopeInfoReferenceListScopeOutput
 	)
 
 	return returns
+}
+
+func (g *jsiiProxy_GoogleChronicleReferenceListScopeInfoReferenceListScopeOutputReference) ResetScopeNames() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetScopeNames",
+		nil, // no parameters
+	)
 }
 
 func (g *jsiiProxy_GoogleChronicleReferenceListScopeInfoReferenceListScopeOutputReference) Resolve(context cdktn.IResolveContext) interface{} {

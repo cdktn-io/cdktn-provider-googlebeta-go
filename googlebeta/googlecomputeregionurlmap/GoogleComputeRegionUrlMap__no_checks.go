@@ -83,6 +83,10 @@ func (g *jsiiProxy_GoogleComputeRegionUrlMap) validatePutDefaultUrlRedirectParam
 	return nil
 }
 
+func (g *jsiiProxy_GoogleComputeRegionUrlMap) validatePutHeaderActionParameters(value *GoogleComputeRegionUrlMapHeaderAction) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleComputeRegionUrlMap) validatePutHostRuleParameters(value interface{}) error {
 	return nil
 }

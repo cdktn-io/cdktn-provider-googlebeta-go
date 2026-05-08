@@ -75,6 +75,14 @@ func (g *jsiiProxy_GoogleSqlDatabaseInstanceSettingsOutputReference) validatePut
 	return nil
 }
 
+func (g *jsiiProxy_GoogleSqlDatabaseInstanceSettingsOutputReference) validatePutEntraidConfigParameters(value *GoogleSqlDatabaseInstanceSettingsEntraidConfig) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleSqlDatabaseInstanceSettingsOutputReference) validatePutFinalBackupConfigParameters(value *GoogleSqlDatabaseInstanceSettingsFinalBackupConfig) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleSqlDatabaseInstanceSettingsOutputReference) validatePutInsightsConfigParameters(value *GoogleSqlDatabaseInstanceSettingsInsightsConfig) error {
 	return nil
 }
@@ -95,6 +103,10 @@ func (g *jsiiProxy_GoogleSqlDatabaseInstanceSettingsOutputReference) validatePut
 	return nil
 }
 
+func (g *jsiiProxy_GoogleSqlDatabaseInstanceSettingsOutputReference) validatePutReadPoolAutoScaleConfigParameters(value *GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfig) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleSqlDatabaseInstanceSettingsOutputReference) validatePutSqlServerAuditConfigParameters(value *GoogleSqlDatabaseInstanceSettingsSqlServerAuditConfig) error {
 	return nil
 }
@@ -104,6 +116,10 @@ func (g *jsiiProxy_GoogleSqlDatabaseInstanceSettingsOutputReference) validateRes
 }
 
 func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsOutputReference) validateSetActivationPolicyParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsOutputReference) validateSetAutoUpgradeEnabledParameters(val interface{}) error {
 	return nil
 }
 
@@ -124,6 +140,10 @@ func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsOutputReference) validateSet
 }
 
 func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsOutputReference) validateSetConnectorEnforcementParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsOutputReference) validateSetDataApiAccessParameters(val *string) error {
 	return nil
 }
 

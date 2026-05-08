@@ -5,14 +5,14 @@ package googleworkflowsworkflow
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleworkflowsworkflow/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleworkflowsworkflow/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_workflows_workflow google_workflows_workflow}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_workflows_workflow google_workflows_workflow}.
 type GoogleWorkflowsWorkflow interface {
 	cdktn.TerraformResource
 	CallLogLevel() *string
@@ -745,7 +745,7 @@ func (j *jsiiProxy_GoogleWorkflowsWorkflow) UserEnvVarsInput() *map[string]*stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_workflows_workflow google_workflows_workflow} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_workflows_workflow google_workflows_workflow} Resource.
 func NewGoogleWorkflowsWorkflow(scope constructs.Construct, id *string, config *GoogleWorkflowsWorkflowConfig) GoogleWorkflowsWorkflow {
 	_init_.Initialize()
 
@@ -763,7 +763,7 @@ func NewGoogleWorkflowsWorkflow(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_workflows_workflow google_workflows_workflow} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_workflows_workflow google_workflows_workflow} Resource.
 func NewGoogleWorkflowsWorkflow_Override(g GoogleWorkflowsWorkflow, scope constructs.Construct, id *string, config *GoogleWorkflowsWorkflowConfig) {
 	_init_.Initialize()
 

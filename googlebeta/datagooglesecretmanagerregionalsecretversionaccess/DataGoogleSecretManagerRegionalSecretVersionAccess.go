@@ -5,14 +5,14 @@ package datagooglesecretmanagerregionalsecretversionaccess
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglesecretmanagerregionalsecretversionaccess/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglesecretmanagerregionalsecretversionaccess/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_secret_manager_regional_secret_version_access google_secret_manager_regional_secret_version_access}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_secret_manager_regional_secret_version_access google_secret_manager_regional_secret_version_access}.
 type DataGoogleSecretManagerRegionalSecretVersionAccess interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -415,7 +415,7 @@ func (j *jsiiProxy_DataGoogleSecretManagerRegionalSecretVersionAccess) VersionIn
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_secret_manager_regional_secret_version_access google_secret_manager_regional_secret_version_access} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_secret_manager_regional_secret_version_access google_secret_manager_regional_secret_version_access} Data Source.
 func NewDataGoogleSecretManagerRegionalSecretVersionAccess(scope constructs.Construct, id *string, config *DataGoogleSecretManagerRegionalSecretVersionAccessConfig) DataGoogleSecretManagerRegionalSecretVersionAccess {
 	_init_.Initialize()
 
@@ -433,7 +433,7 @@ func NewDataGoogleSecretManagerRegionalSecretVersionAccess(scope constructs.Cons
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_secret_manager_regional_secret_version_access google_secret_manager_regional_secret_version_access} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_secret_manager_regional_secret_version_access google_secret_manager_regional_secret_version_access} Data Source.
 func NewDataGoogleSecretManagerRegionalSecretVersionAccess_Override(d DataGoogleSecretManagerRegionalSecretVersionAccess, scope constructs.Construct, id *string, config *DataGoogleSecretManagerRegionalSecretVersionAccessConfig) {
 	_init_.Initialize()
 

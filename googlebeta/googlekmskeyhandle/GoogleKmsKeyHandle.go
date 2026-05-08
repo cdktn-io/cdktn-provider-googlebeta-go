@@ -5,14 +5,14 @@ package googlekmskeyhandle
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlekmskeyhandle/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlekmskeyhandle/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_kms_key_handle google_kms_key_handle}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_kms_key_handle google_kms_key_handle}.
 type GoogleKmsKeyHandle interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -447,7 +447,7 @@ func (j *jsiiProxy_GoogleKmsKeyHandle) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_kms_key_handle google_kms_key_handle} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_kms_key_handle google_kms_key_handle} Resource.
 func NewGoogleKmsKeyHandle(scope constructs.Construct, id *string, config *GoogleKmsKeyHandleConfig) GoogleKmsKeyHandle {
 	_init_.Initialize()
 
@@ -465,7 +465,7 @@ func NewGoogleKmsKeyHandle(scope constructs.Construct, id *string, config *Googl
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_kms_key_handle google_kms_key_handle} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_kms_key_handle google_kms_key_handle} Resource.
 func NewGoogleKmsKeyHandle_Override(g GoogleKmsKeyHandle, scope constructs.Construct, id *string, config *GoogleKmsKeyHandleConfig) {
 	_init_.Initialize()
 

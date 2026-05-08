@@ -5,9 +5,9 @@ package googlecomputereservation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputereservation/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputereservation/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -36,6 +36,7 @@ type GoogleComputeReservationSpecificReservationInstancePropertiesOutputReferenc
 	SetInternalValue(val *GoogleComputeReservationSpecificReservationInstanceProperties)
 	LocalSsds() GoogleComputeReservationSpecificReservationInstancePropertiesLocalSsdsList
 	LocalSsdsInput() interface{}
+	LocationHint() *string
 	MachineType() *string
 	SetMachineType(val *string)
 	MachineTypeInput() *string
@@ -183,6 +184,16 @@ func (j *jsiiProxy_GoogleComputeReservationSpecificReservationInstanceProperties
 	_jsii_.Get(
 		j,
 		"localSsdsInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeReservationSpecificReservationInstancePropertiesOutputReference) LocationHint() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"locationHint",
 		&returns,
 	)
 	return returns

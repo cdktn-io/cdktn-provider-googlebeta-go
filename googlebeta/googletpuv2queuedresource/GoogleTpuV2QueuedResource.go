@@ -5,14 +5,14 @@ package googletpuv2queuedresource
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googletpuv2queuedresource/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googletpuv2queuedresource/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_tpu_v2_queued_resource google_tpu_v2_queued_resource}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_tpu_v2_queued_resource google_tpu_v2_queued_resource}.
 type GoogleTpuV2QueuedResource interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -438,7 +438,7 @@ func (j *jsiiProxy_GoogleTpuV2QueuedResource) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_tpu_v2_queued_resource google_tpu_v2_queued_resource} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_tpu_v2_queued_resource google_tpu_v2_queued_resource} Resource.
 func NewGoogleTpuV2QueuedResource(scope constructs.Construct, id *string, config *GoogleTpuV2QueuedResourceConfig) GoogleTpuV2QueuedResource {
 	_init_.Initialize()
 
@@ -456,7 +456,7 @@ func NewGoogleTpuV2QueuedResource(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_tpu_v2_queued_resource google_tpu_v2_queued_resource} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_tpu_v2_queued_resource google_tpu_v2_queued_resource} Resource.
 func NewGoogleTpuV2QueuedResource_Override(g GoogleTpuV2QueuedResource, scope constructs.Construct, id *string, config *GoogleTpuV2QueuedResourceConfig) {
 	_init_.Initialize()
 

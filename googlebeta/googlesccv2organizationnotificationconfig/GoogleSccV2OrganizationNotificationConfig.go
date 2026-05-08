@@ -5,14 +5,14 @@ package googlesccv2organizationnotificationconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlesccv2organizationnotificationconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlesccv2organizationnotificationconfig/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_scc_v2_organization_notification_config google_scc_v2_organization_notification_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_scc_v2_organization_notification_config google_scc_v2_organization_notification_config}.
 type GoogleSccV2OrganizationNotificationConfig interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -505,7 +505,7 @@ func (j *jsiiProxy_GoogleSccV2OrganizationNotificationConfig) TimeoutsInput() in
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_scc_v2_organization_notification_config google_scc_v2_organization_notification_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_scc_v2_organization_notification_config google_scc_v2_organization_notification_config} Resource.
 func NewGoogleSccV2OrganizationNotificationConfig(scope constructs.Construct, id *string, config *GoogleSccV2OrganizationNotificationConfigConfig) GoogleSccV2OrganizationNotificationConfig {
 	_init_.Initialize()
 
@@ -523,7 +523,7 @@ func NewGoogleSccV2OrganizationNotificationConfig(scope constructs.Construct, id
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_scc_v2_organization_notification_config google_scc_v2_organization_notification_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_scc_v2_organization_notification_config google_scc_v2_organization_notification_config} Resource.
 func NewGoogleSccV2OrganizationNotificationConfig_Override(g GoogleSccV2OrganizationNotificationConfig, scope constructs.Construct, id *string, config *GoogleSccV2OrganizationNotificationConfigConfig) {
 	_init_.Initialize()
 

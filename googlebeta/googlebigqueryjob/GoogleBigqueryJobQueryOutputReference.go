@@ -5,9 +5,9 @@ package googlebigqueryjob
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebigqueryjob/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebigqueryjob/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -26,6 +26,8 @@ type GoogleBigqueryJobQueryOutputReference interface {
 	ComplexObjectIsFromSet() *bool
 	// Experimental.
 	SetComplexObjectIsFromSet(val *bool)
+	ConnectionProperties() GoogleBigqueryJobQueryConnectionPropertiesList
+	ConnectionPropertiesInput() interface{}
 	Continuous() interface{}
 	SetContinuous(val interface{})
 	ContinuousInput() interface{}
@@ -113,12 +115,14 @@ type GoogleBigqueryJobQueryOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutConnectionProperties(value interface{})
 	PutDefaultDataset(value *GoogleBigqueryJobQueryDefaultDataset)
 	PutDestinationEncryptionConfiguration(value *GoogleBigqueryJobQueryDestinationEncryptionConfiguration)
 	PutDestinationTable(value *GoogleBigqueryJobQueryDestinationTable)
 	PutScriptOptions(value *GoogleBigqueryJobQueryScriptOptions)
 	PutUserDefinedFunctionResources(value interface{})
 	ResetAllowLargeResults()
+	ResetConnectionProperties()
 	ResetContinuous()
 	ResetCreateDisposition()
 	ResetDefaultDataset()
@@ -185,6 +189,26 @@ func (j *jsiiProxy_GoogleBigqueryJobQueryOutputReference) ComplexObjectIsFromSet
 	_jsii_.Get(
 		j,
 		"complexObjectIsFromSet",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleBigqueryJobQueryOutputReference) ConnectionProperties() GoogleBigqueryJobQueryConnectionPropertiesList {
+	var returns GoogleBigqueryJobQueryConnectionPropertiesList
+	_jsii_.Get(
+		j,
+		"connectionProperties",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleBigqueryJobQueryOutputReference) ConnectionPropertiesInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"connectionPropertiesInput",
 		&returns,
 	)
 	return returns
@@ -992,6 +1016,17 @@ func (g *jsiiProxy_GoogleBigqueryJobQueryOutputReference) InterpolationForAttrib
 	return returns
 }
 
+func (g *jsiiProxy_GoogleBigqueryJobQueryOutputReference) PutConnectionProperties(value interface{}) {
+	if err := g.validatePutConnectionPropertiesParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putConnectionProperties",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleBigqueryJobQueryOutputReference) PutDefaultDataset(value *GoogleBigqueryJobQueryDefaultDataset) {
 	if err := g.validatePutDefaultDatasetParameters(value); err != nil {
 		panic(err)
@@ -1051,6 +1086,14 @@ func (g *jsiiProxy_GoogleBigqueryJobQueryOutputReference) ResetAllowLargeResults
 	_jsii_.InvokeVoid(
 		g,
 		"resetAllowLargeResults",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleBigqueryJobQueryOutputReference) ResetConnectionProperties() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetConnectionProperties",
 		nil, // no parameters
 	)
 }

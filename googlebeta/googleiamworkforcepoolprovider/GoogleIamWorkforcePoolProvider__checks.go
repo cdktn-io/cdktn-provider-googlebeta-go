@@ -207,6 +207,17 @@ func (g *jsiiProxy_GoogleIamWorkforcePoolProvider) validateOverrideLogicalIdPara
 	return nil
 }
 
+func (g *jsiiProxy_GoogleIamWorkforcePoolProvider) validatePutExtendedAttributesOauth2ClientParameters(value *GoogleIamWorkforcePoolProviderExtendedAttributesOauth2Client) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
+	}
+
+	return nil
+}
+
 func (g *jsiiProxy_GoogleIamWorkforcePoolProvider) validatePutExtraAttributesOauth2ClientParameters(value *GoogleIamWorkforcePoolProviderExtraAttributesOauth2Client) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")
@@ -405,6 +416,26 @@ func (j *jsiiProxy_GoogleIamWorkforcePoolProvider) validateSetDescriptionParamet
 	return nil
 }
 
+func (j *jsiiProxy_GoogleIamWorkforcePoolProvider) validateSetDetailedAuditLoggingParameters(val interface{}) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+	switch val.(type) {
+	case *bool:
+		// ok
+	case bool:
+		// ok
+	case cdktn.IResolvable:
+		// ok
+	default:
+		if !_jsii_.IsAnonymousProxy(val) {
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
+		}
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_GoogleIamWorkforcePoolProvider) validateSetDisabledParameters(val interface{}) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
@@ -506,6 +537,14 @@ func (j *jsiiProxy_GoogleIamWorkforcePoolProvider) validateSetProvisionersParame
 				return fmt.Errorf("parameter val[%#v] must be one of the allowed types: *cdktn.FileProvisioner, *cdktn.LocalExecProvisioner, *cdktn.RemoteExecProvisioner; received %#v (a %T)", idx_97dfc6, v, v)
 			}
 		}
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_GoogleIamWorkforcePoolProvider) validateSetScimUsageParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
 
 	return nil

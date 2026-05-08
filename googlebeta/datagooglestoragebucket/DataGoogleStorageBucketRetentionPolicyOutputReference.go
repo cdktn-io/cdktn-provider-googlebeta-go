@@ -5,9 +5,9 @@ package datagooglestoragebucket
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglestoragebucket/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglestoragebucket/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -33,7 +33,7 @@ type DataGoogleStorageBucketRetentionPolicyOutputReference interface {
 	InternalValue() *DataGoogleStorageBucketRetentionPolicy
 	SetInternalValue(val *DataGoogleStorageBucketRetentionPolicy)
 	IsLocked() cdktn.IResolvable
-	RetentionPeriod() *float64
+	RetentionPeriod() *string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -141,8 +141,8 @@ func (j *jsiiProxy_DataGoogleStorageBucketRetentionPolicyOutputReference) IsLock
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleStorageBucketRetentionPolicyOutputReference) RetentionPeriod() *float64 {
-	var returns *float64
+func (j *jsiiProxy_DataGoogleStorageBucketRetentionPolicyOutputReference) RetentionPeriod() *string {
+	var returns *string
 	_jsii_.Get(
 		j,
 		"retentionPeriod",

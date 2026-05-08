@@ -5,9 +5,9 @@ package datagooglecomputeregioninstancetemplate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglecomputeregioninstancetemplate/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglecomputeregioninstancetemplate/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -45,7 +45,9 @@ type DataGoogleComputeRegionInstanceTemplateSchedulingOutputReference interface 
 	OnHostMaintenance() *string
 	OnInstanceStopAction() DataGoogleComputeRegionInstanceTemplateSchedulingOnInstanceStopActionList
 	Preemptible() cdktn.IResolvable
+	PreemptionNoticeDuration() DataGoogleComputeRegionInstanceTemplateSchedulingPreemptionNoticeDurationList
 	ProvisioningModel() *string
+	SkipGuestOsShutdown() cdktn.IResolvable
 	TerminationTime() *string
 	// Experimental.
 	TerraformAttribute() *string
@@ -274,11 +276,31 @@ func (j *jsiiProxy_DataGoogleComputeRegionInstanceTemplateSchedulingOutputRefere
 	return returns
 }
 
+func (j *jsiiProxy_DataGoogleComputeRegionInstanceTemplateSchedulingOutputReference) PreemptionNoticeDuration() DataGoogleComputeRegionInstanceTemplateSchedulingPreemptionNoticeDurationList {
+	var returns DataGoogleComputeRegionInstanceTemplateSchedulingPreemptionNoticeDurationList
+	_jsii_.Get(
+		j,
+		"preemptionNoticeDuration",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataGoogleComputeRegionInstanceTemplateSchedulingOutputReference) ProvisioningModel() *string {
 	var returns *string
 	_jsii_.Get(
 		j,
 		"provisioningModel",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleComputeRegionInstanceTemplateSchedulingOutputReference) SkipGuestOsShutdown() cdktn.IResolvable {
+	var returns cdktn.IResolvable
+	_jsii_.Get(
+		j,
+		"skipGuestOsShutdown",
 		&returns,
 	)
 	return returns

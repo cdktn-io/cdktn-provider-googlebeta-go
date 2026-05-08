@@ -1,0 +1,85 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package googlediscoveryengineassistant
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (g *jsiiProxy_GoogleDiscoveryEngineAssistantCustomerPolicyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleDiscoveryEngineAssistantCustomerPolicyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleDiscoveryEngineAssistantCustomerPolicyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleDiscoveryEngineAssistantCustomerPolicyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleDiscoveryEngineAssistantCustomerPolicyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleDiscoveryEngineAssistantCustomerPolicyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleDiscoveryEngineAssistantCustomerPolicyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleDiscoveryEngineAssistantCustomerPolicyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleDiscoveryEngineAssistantCustomerPolicyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleDiscoveryEngineAssistantCustomerPolicyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleDiscoveryEngineAssistantCustomerPolicyOutputReference) validatePutBannedPhrasesParameters(value interface{}) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleDiscoveryEngineAssistantCustomerPolicyOutputReference) validatePutModelArmorConfigParameters(value *GoogleDiscoveryEngineAssistantCustomerPolicyModelArmorConfig) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleDiscoveryEngineAssistantCustomerPolicyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleDiscoveryEngineAssistantCustomerPolicyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleDiscoveryEngineAssistantCustomerPolicyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleDiscoveryEngineAssistantCustomerPolicyOutputReference) validateSetInternalValueParameters(val *GoogleDiscoveryEngineAssistantCustomerPolicy) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleDiscoveryEngineAssistantCustomerPolicyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleDiscoveryEngineAssistantCustomerPolicyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewGoogleDiscoveryEngineAssistantCustomerPolicyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

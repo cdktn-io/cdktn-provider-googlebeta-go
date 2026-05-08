@@ -399,6 +399,14 @@ func (j *jsiiProxy_GoogleFirestoreDatabase) validateSetDeletionPolicyParameters(
 	return nil
 }
 
+func (j *jsiiProxy_GoogleFirestoreDatabase) validateSetFirestoreDataAccessModeParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_GoogleFirestoreDatabase) validateSetIdParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
@@ -416,6 +424,14 @@ func (j *jsiiProxy_GoogleFirestoreDatabase) validateSetLifecycleParameters(val *
 }
 
 func (j *jsiiProxy_GoogleFirestoreDatabase) validateSetLocationIdParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_GoogleFirestoreDatabase) validateSetMongodbCompatibleDataAccessModeParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -488,6 +504,14 @@ func (j *jsiiProxy_GoogleFirestoreDatabase) validateSetProvisionersParameters(va
 				return fmt.Errorf("parameter val[%#v] must be one of the allowed types: *cdktn.FileProvisioner, *cdktn.LocalExecProvisioner, *cdktn.RemoteExecProvisioner; received %#v (a %T)", idx_97dfc6, v, v)
 			}
 		}
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_GoogleFirestoreDatabase) validateSetRealtimeUpdatesModeParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
 
 	return nil

@@ -5,14 +5,14 @@ package datagooglepubsubtopic
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglepubsubtopic/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglepubsubtopic/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_pubsub_topic google_pubsub_topic}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_pubsub_topic google_pubsub_topic}.
 type DataGooglePubsubTopic interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -64,6 +64,7 @@ type DataGooglePubsubTopic interface {
 	// Experimental.
 	RawOverrides() interface{}
 	SchemaSettings() DataGooglePubsubTopicSchemaSettingsList
+	Tags() cdktn.StringMap
 	// Experimental.
 	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	TerraformLabels() cdktn.StringMap
@@ -379,6 +380,16 @@ func (j *jsiiProxy_DataGooglePubsubTopic) SchemaSettings() DataGooglePubsubTopic
 	return returns
 }
 
+func (j *jsiiProxy_DataGooglePubsubTopic) Tags() cdktn.StringMap {
+	var returns cdktn.StringMap
+	_jsii_.Get(
+		j,
+		"tags",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataGooglePubsubTopic) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
 	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
@@ -420,7 +431,7 @@ func (j *jsiiProxy_DataGooglePubsubTopic) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_pubsub_topic google_pubsub_topic} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_pubsub_topic google_pubsub_topic} Data Source.
 func NewDataGooglePubsubTopic(scope constructs.Construct, id *string, config *DataGooglePubsubTopicConfig) DataGooglePubsubTopic {
 	_init_.Initialize()
 
@@ -438,7 +449,7 @@ func NewDataGooglePubsubTopic(scope constructs.Construct, id *string, config *Da
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_pubsub_topic google_pubsub_topic} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_pubsub_topic google_pubsub_topic} Data Source.
 func NewDataGooglePubsubTopic_Override(d DataGooglePubsubTopic, scope constructs.Construct, id *string, config *DataGooglePubsubTopicConfig) {
 	_init_.Initialize()
 

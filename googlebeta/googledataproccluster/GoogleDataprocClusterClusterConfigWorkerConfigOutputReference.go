@@ -5,9 +5,9 @@ package googledataproccluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataproccluster/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataproccluster/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -37,6 +37,8 @@ type GoogleDataprocClusterClusterConfigWorkerConfigOutputReference interface {
 	ImageUri() *string
 	SetImageUri(val *string)
 	ImageUriInput() *string
+	InstanceFlexibilityPolicy() GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyOutputReference
+	InstanceFlexibilityPolicyInput() *GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicy
 	InstanceNames() *[]*string
 	InternalValue() *GoogleDataprocClusterClusterConfigWorkerConfig
 	SetInternalValue(val *GoogleDataprocClusterClusterConfigWorkerConfig)
@@ -86,9 +88,11 @@ type GoogleDataprocClusterClusterConfigWorkerConfigOutputReference interface {
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutAccelerators(value interface{})
 	PutDiskConfig(value *GoogleDataprocClusterClusterConfigWorkerConfigDiskConfig)
+	PutInstanceFlexibilityPolicy(value *GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicy)
 	ResetAccelerators()
 	ResetDiskConfig()
 	ResetImageUri()
+	ResetInstanceFlexibilityPolicy()
 	ResetMachineType()
 	ResetMinCpuPlatform()
 	ResetMinNumInstances()
@@ -203,6 +207,26 @@ func (j *jsiiProxy_GoogleDataprocClusterClusterConfigWorkerConfigOutputReference
 	_jsii_.Get(
 		j,
 		"imageUriInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDataprocClusterClusterConfigWorkerConfigOutputReference) InstanceFlexibilityPolicy() GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyOutputReference {
+	var returns GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyOutputReference
+	_jsii_.Get(
+		j,
+		"instanceFlexibilityPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDataprocClusterClusterConfigWorkerConfigOutputReference) InstanceFlexibilityPolicyInput() *GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicy {
+	var returns *GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicy
+	_jsii_.Get(
+		j,
+		"instanceFlexibilityPolicyInput",
 		&returns,
 	)
 	return returns
@@ -674,6 +698,17 @@ func (g *jsiiProxy_GoogleDataprocClusterClusterConfigWorkerConfigOutputReference
 	)
 }
 
+func (g *jsiiProxy_GoogleDataprocClusterClusterConfigWorkerConfigOutputReference) PutInstanceFlexibilityPolicy(value *GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicy) {
+	if err := g.validatePutInstanceFlexibilityPolicyParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putInstanceFlexibilityPolicy",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleDataprocClusterClusterConfigWorkerConfigOutputReference) ResetAccelerators() {
 	_jsii_.InvokeVoid(
 		g,
@@ -694,6 +729,14 @@ func (g *jsiiProxy_GoogleDataprocClusterClusterConfigWorkerConfigOutputReference
 	_jsii_.InvokeVoid(
 		g,
 		"resetImageUri",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleDataprocClusterClusterConfigWorkerConfigOutputReference) ResetInstanceFlexibilityPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetInstanceFlexibilityPolicy",
 		nil, // no parameters
 	)
 }

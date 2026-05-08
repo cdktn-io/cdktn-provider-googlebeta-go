@@ -5,14 +5,14 @@ package datagoogleclouddeploycustomtargettypeiampolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagoogleclouddeploycustomtargettypeiampolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagoogleclouddeploycustomtargettypeiampolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_clouddeploy_custom_target_type_iam_policy google_clouddeploy_custom_target_type_iam_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_clouddeploy_custom_target_type_iam_policy google_clouddeploy_custom_target_type_iam_policy}.
 type DataGoogleClouddeployCustomTargetTypeIamPolicy interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -367,7 +367,7 @@ func (j *jsiiProxy_DataGoogleClouddeployCustomTargetTypeIamPolicy) TerraformReso
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_clouddeploy_custom_target_type_iam_policy google_clouddeploy_custom_target_type_iam_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_clouddeploy_custom_target_type_iam_policy google_clouddeploy_custom_target_type_iam_policy} Data Source.
 func NewDataGoogleClouddeployCustomTargetTypeIamPolicy(scope constructs.Construct, id *string, config *DataGoogleClouddeployCustomTargetTypeIamPolicyConfig) DataGoogleClouddeployCustomTargetTypeIamPolicy {
 	_init_.Initialize()
 
@@ -385,7 +385,7 @@ func NewDataGoogleClouddeployCustomTargetTypeIamPolicy(scope constructs.Construc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_clouddeploy_custom_target_type_iam_policy google_clouddeploy_custom_target_type_iam_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_clouddeploy_custom_target_type_iam_policy google_clouddeploy_custom_target_type_iam_policy} Data Source.
 func NewDataGoogleClouddeployCustomTargetTypeIamPolicy_Override(d DataGoogleClouddeployCustomTargetTypeIamPolicy, scope constructs.Construct, id *string, config *DataGoogleClouddeployCustomTargetTypeIamPolicyConfig) {
 	_init_.Initialize()
 

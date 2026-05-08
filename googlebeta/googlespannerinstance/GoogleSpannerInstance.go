@@ -5,14 +5,14 @@ package googlespannerinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlespannerinstance/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlespannerinstance/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_spanner_instance google_spanner_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_spanner_instance google_spanner_instance}.
 type GoogleSpannerInstance interface {
 	cdktn.TerraformResource
 	AutoscalingConfig() GoogleSpannerInstanceAutoscalingConfigOutputReference
@@ -662,7 +662,7 @@ func (j *jsiiProxy_GoogleSpannerInstance) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_spanner_instance google_spanner_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_spanner_instance google_spanner_instance} Resource.
 func NewGoogleSpannerInstance(scope constructs.Construct, id *string, config *GoogleSpannerInstanceConfig) GoogleSpannerInstance {
 	_init_.Initialize()
 
@@ -680,7 +680,7 @@ func NewGoogleSpannerInstance(scope constructs.Construct, id *string, config *Go
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_spanner_instance google_spanner_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_spanner_instance google_spanner_instance} Resource.
 func NewGoogleSpannerInstance_Override(g GoogleSpannerInstance, scope constructs.Construct, id *string, config *GoogleSpannerInstanceConfig) {
 	_init_.Initialize()
 

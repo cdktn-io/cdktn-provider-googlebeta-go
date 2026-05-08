@@ -5,9 +5,9 @@ package datagooglecontainercluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglecontainercluster/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglecontainercluster/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -46,7 +46,9 @@ type DataGoogleContainerClusterAddonsConfigOutputReference interface {
 	LustreCsiDriverConfig() DataGoogleContainerClusterAddonsConfigLustreCsiDriverConfigList
 	NetworkPolicyConfig() DataGoogleContainerClusterAddonsConfigNetworkPolicyConfigList
 	ParallelstoreCsiDriverConfig() DataGoogleContainerClusterAddonsConfigParallelstoreCsiDriverConfigList
+	PodSnapshotConfig() DataGoogleContainerClusterAddonsConfigPodSnapshotConfigList
 	RayOperatorConfig() DataGoogleContainerClusterAddonsConfigRayOperatorConfigList
+	SliceControllerConfig() DataGoogleContainerClusterAddonsConfigSliceControllerConfigList
 	StatefulHaConfig() DataGoogleContainerClusterAddonsConfigStatefulHaConfigList
 	// Experimental.
 	TerraformAttribute() *string
@@ -285,11 +287,31 @@ func (j *jsiiProxy_DataGoogleContainerClusterAddonsConfigOutputReference) Parall
 	return returns
 }
 
+func (j *jsiiProxy_DataGoogleContainerClusterAddonsConfigOutputReference) PodSnapshotConfig() DataGoogleContainerClusterAddonsConfigPodSnapshotConfigList {
+	var returns DataGoogleContainerClusterAddonsConfigPodSnapshotConfigList
+	_jsii_.Get(
+		j,
+		"podSnapshotConfig",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataGoogleContainerClusterAddonsConfigOutputReference) RayOperatorConfig() DataGoogleContainerClusterAddonsConfigRayOperatorConfigList {
 	var returns DataGoogleContainerClusterAddonsConfigRayOperatorConfigList
 	_jsii_.Get(
 		j,
 		"rayOperatorConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleContainerClusterAddonsConfigOutputReference) SliceControllerConfig() DataGoogleContainerClusterAddonsConfigSliceControllerConfigList {
+	var returns DataGoogleContainerClusterAddonsConfigSliceControllerConfigList
+	_jsii_.Get(
+		j,
+		"sliceControllerConfig",
 		&returns,
 	)
 	return returns

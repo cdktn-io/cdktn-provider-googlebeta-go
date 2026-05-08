@@ -1,0 +1,220 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build !no_runtime_type_checking
+
+package googlecloudrunservice
+
+import (
+	"fmt"
+
+	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
+
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
+)
+
+func (g *jsiiProxy_GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpcOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	if terraformAttribute == nil {
+		return fmt.Errorf("parameter terraformAttribute is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (g *jsiiProxy_GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpcOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	if terraformAttribute == nil {
+		return fmt.Errorf("parameter terraformAttribute is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (g *jsiiProxy_GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpcOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	if terraformAttribute == nil {
+		return fmt.Errorf("parameter terraformAttribute is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (g *jsiiProxy_GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpcOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	if terraformAttribute == nil {
+		return fmt.Errorf("parameter terraformAttribute is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (g *jsiiProxy_GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpcOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	if terraformAttribute == nil {
+		return fmt.Errorf("parameter terraformAttribute is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (g *jsiiProxy_GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpcOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	if terraformAttribute == nil {
+		return fmt.Errorf("parameter terraformAttribute is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (g *jsiiProxy_GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpcOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	if terraformAttribute == nil {
+		return fmt.Errorf("parameter terraformAttribute is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (g *jsiiProxy_GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpcOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	if terraformAttribute == nil {
+		return fmt.Errorf("parameter terraformAttribute is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (g *jsiiProxy_GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpcOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	if terraformAttribute == nil {
+		return fmt.Errorf("parameter terraformAttribute is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (g *jsiiProxy_GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpcOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	if terraformAttribute == nil {
+		return fmt.Errorf("parameter terraformAttribute is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (g *jsiiProxy_GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpcOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	if context == nil {
+		return fmt.Errorf("parameter context is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpcOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	switch val.(type) {
+	case *string:
+		// ok
+	case string:
+		// ok
+	case *float64:
+		// ok
+	case float64:
+		// ok
+	case *int:
+		// ok
+	case int:
+		// ok
+	case *uint:
+		// ok
+	case uint:
+		// ok
+	case *int8:
+		// ok
+	case int8:
+		// ok
+	case *int16:
+		// ok
+	case int16:
+		// ok
+	case *int32:
+		// ok
+	case int32:
+		// ok
+	case *int64:
+		// ok
+	case int64:
+		// ok
+	case *uint8:
+		// ok
+	case uint8:
+		// ok
+	case *uint16:
+		// ok
+	case uint16:
+		// ok
+	case *uint32:
+		// ok
+	case uint32:
+		// ok
+	case *uint64:
+		// ok
+	case uint64:
+		// ok
+	default:
+		return fmt.Errorf("parameter val must be one of the allowed types: *string, *float64; received %#v (a %T)", val, val)
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpcOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpcOutputReference) validateSetInternalValueParameters(val *GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpc) error {
+	if err := _jsii_.ValidateStruct(val, func() string { return "parameter val" }); err != nil {
+		return err
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpcOutputReference) validateSetPortParameters(val *float64) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpcOutputReference) validateSetServiceParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpcOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_GoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpcOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func validateNewGoogleCloudRunServiceTemplateSpecContainersReadinessProbeGrpcOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	if terraformResource == nil {
+		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
+	}
+
+	if terraformAttribute == nil {
+		return fmt.Errorf("parameter terraformAttribute is required, but nil was provided")
+	}
+
+	return nil
+}
+

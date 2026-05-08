@@ -5,14 +5,14 @@ package googlechronicleruledeployment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlechronicleruledeployment/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlechronicleruledeployment/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_chronicle_rule_deployment google_chronicle_rule_deployment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_rule_deployment google_chronicle_rule_deployment}.
 type GoogleChronicleRuleDeployment interface {
 	cdktn.TerraformResource
 	Alerting() interface{}
@@ -598,7 +598,7 @@ func (j *jsiiProxy_GoogleChronicleRuleDeployment) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_chronicle_rule_deployment google_chronicle_rule_deployment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_rule_deployment google_chronicle_rule_deployment} Resource.
 func NewGoogleChronicleRuleDeployment(scope constructs.Construct, id *string, config *GoogleChronicleRuleDeploymentConfig) GoogleChronicleRuleDeployment {
 	_init_.Initialize()
 
@@ -616,7 +616,7 @@ func NewGoogleChronicleRuleDeployment(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_chronicle_rule_deployment google_chronicle_rule_deployment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_rule_deployment google_chronicle_rule_deployment} Resource.
 func NewGoogleChronicleRuleDeployment_Override(g GoogleChronicleRuleDeployment, scope constructs.Construct, id *string, config *GoogleChronicleRuleDeploymentConfig) {
 	_init_.Initialize()
 

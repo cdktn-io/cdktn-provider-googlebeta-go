@@ -5,14 +5,14 @@ package googlecolabnotebookexecution
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecolabnotebookexecution/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecolabnotebookexecution/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_colab_notebook_execution google_colab_notebook_execution}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_colab_notebook_execution google_colab_notebook_execution}.
 type GoogleColabNotebookExecution interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -27,6 +27,8 @@ type GoogleColabNotebookExecution interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	CustomEnvironmentSpec() GoogleColabNotebookExecutionCustomEnvironmentSpecOutputReference
+	CustomEnvironmentSpecInput() *GoogleColabNotebookExecutionCustomEnvironmentSpec
 	DataformRepositorySource() GoogleColabNotebookExecutionDataformRepositorySourceOutputReference
 	DataformRepositorySourceInput() *GoogleColabNotebookExecutionDataformRepositorySource
 	// Experimental.
@@ -142,10 +144,12 @@ type GoogleColabNotebookExecution interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	PutCustomEnvironmentSpec(value *GoogleColabNotebookExecutionCustomEnvironmentSpec)
 	PutDataformRepositorySource(value *GoogleColabNotebookExecutionDataformRepositorySource)
 	PutDirectNotebookSource(value *GoogleColabNotebookExecutionDirectNotebookSource)
 	PutGcsNotebookSource(value *GoogleColabNotebookExecutionGcsNotebookSource)
 	PutTimeouts(value *GoogleColabNotebookExecutionTimeouts)
+	ResetCustomEnvironmentSpec()
 	ResetDataformRepositorySource()
 	ResetDirectNotebookSource()
 	ResetExecutionTimeout()
@@ -222,6 +226,26 @@ func (j *jsiiProxy_GoogleColabNotebookExecution) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleColabNotebookExecution) CustomEnvironmentSpec() GoogleColabNotebookExecutionCustomEnvironmentSpecOutputReference {
+	var returns GoogleColabNotebookExecutionCustomEnvironmentSpecOutputReference
+	_jsii_.Get(
+		j,
+		"customEnvironmentSpec",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleColabNotebookExecution) CustomEnvironmentSpecInput() *GoogleColabNotebookExecutionCustomEnvironmentSpec {
+	var returns *GoogleColabNotebookExecutionCustomEnvironmentSpec
+	_jsii_.Get(
+		j,
+		"customEnvironmentSpecInput",
 		&returns,
 	)
 	return returns
@@ -628,7 +652,7 @@ func (j *jsiiProxy_GoogleColabNotebookExecution) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_colab_notebook_execution google_colab_notebook_execution} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_colab_notebook_execution google_colab_notebook_execution} Resource.
 func NewGoogleColabNotebookExecution(scope constructs.Construct, id *string, config *GoogleColabNotebookExecutionConfig) GoogleColabNotebookExecution {
 	_init_.Initialize()
 
@@ -646,7 +670,7 @@ func NewGoogleColabNotebookExecution(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_colab_notebook_execution google_colab_notebook_execution} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_colab_notebook_execution google_colab_notebook_execution} Resource.
 func NewGoogleColabNotebookExecution_Override(g GoogleColabNotebookExecution, scope constructs.Construct, id *string, config *GoogleColabNotebookExecutionConfig) {
 	_init_.Initialize()
 
@@ -1188,6 +1212,17 @@ func (g *jsiiProxy_GoogleColabNotebookExecution) OverrideLogicalId(newLogicalId 
 	)
 }
 
+func (g *jsiiProxy_GoogleColabNotebookExecution) PutCustomEnvironmentSpec(value *GoogleColabNotebookExecutionCustomEnvironmentSpec) {
+	if err := g.validatePutCustomEnvironmentSpecParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putCustomEnvironmentSpec",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleColabNotebookExecution) PutDataformRepositorySource(value *GoogleColabNotebookExecutionDataformRepositorySource) {
 	if err := g.validatePutDataformRepositorySourceParameters(value); err != nil {
 		panic(err)
@@ -1229,6 +1264,14 @@ func (g *jsiiProxy_GoogleColabNotebookExecution) PutTimeouts(value *GoogleColabN
 		g,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleColabNotebookExecution) ResetCustomEnvironmentSpec() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetCustomEnvironmentSpec",
+		nil, // no parameters
 	)
 }
 

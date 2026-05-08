@@ -5,14 +5,14 @@ package googleeventarctrigger
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleeventarctrigger/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleeventarctrigger/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_eventarc_trigger google_eventarc_trigger}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_eventarc_trigger google_eventarc_trigger}.
 type GoogleEventarcTrigger interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -84,6 +84,8 @@ type GoogleEventarcTrigger interface {
 	SetProvisioners(val *[]interface{})
 	// Experimental.
 	RawOverrides() interface{}
+	RetryPolicy() GoogleEventarcTriggerRetryPolicyOutputReference
+	RetryPolicyInput() *GoogleEventarcTriggerRetryPolicy
 	ServiceAccount() *string
 	SetServiceAccount(val *string)
 	ServiceAccountInput() *string
@@ -145,6 +147,7 @@ type GoogleEventarcTrigger interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutDestination(value *GoogleEventarcTriggerDestination)
 	PutMatchingCriteria(value interface{})
+	PutRetryPolicy(value *GoogleEventarcTriggerRetryPolicy)
 	PutTimeouts(value *GoogleEventarcTriggerTimeouts)
 	PutTransport(value *GoogleEventarcTriggerTransport)
 	ResetChannel()
@@ -155,6 +158,7 @@ type GoogleEventarcTrigger interface {
 	// Experimental.
 	ResetOverrideLogicalId()
 	ResetProject()
+	ResetRetryPolicy()
 	ResetServiceAccount()
 	ResetTimeouts()
 	ResetTransport()
@@ -535,6 +539,26 @@ func (j *jsiiProxy_GoogleEventarcTrigger) RawOverrides() interface{} {
 	return returns
 }
 
+func (j *jsiiProxy_GoogleEventarcTrigger) RetryPolicy() GoogleEventarcTriggerRetryPolicyOutputReference {
+	var returns GoogleEventarcTriggerRetryPolicyOutputReference
+	_jsii_.Get(
+		j,
+		"retryPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleEventarcTrigger) RetryPolicyInput() *GoogleEventarcTriggerRetryPolicy {
+	var returns *GoogleEventarcTriggerRetryPolicy
+	_jsii_.Get(
+		j,
+		"retryPolicyInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleEventarcTrigger) ServiceAccount() *string {
 	var returns *string
 	_jsii_.Get(
@@ -656,7 +680,7 @@ func (j *jsiiProxy_GoogleEventarcTrigger) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_eventarc_trigger google_eventarc_trigger} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_eventarc_trigger google_eventarc_trigger} Resource.
 func NewGoogleEventarcTrigger(scope constructs.Construct, id *string, config *GoogleEventarcTriggerConfig) GoogleEventarcTrigger {
 	_init_.Initialize()
 
@@ -674,7 +698,7 @@ func NewGoogleEventarcTrigger(scope constructs.Construct, id *string, config *Go
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_eventarc_trigger google_eventarc_trigger} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_eventarc_trigger google_eventarc_trigger} Resource.
 func NewGoogleEventarcTrigger_Override(g GoogleEventarcTrigger, scope constructs.Construct, id *string, config *GoogleEventarcTriggerConfig) {
 	_init_.Initialize()
 
@@ -1216,6 +1240,17 @@ func (g *jsiiProxy_GoogleEventarcTrigger) PutMatchingCriteria(value interface{})
 	)
 }
 
+func (g *jsiiProxy_GoogleEventarcTrigger) PutRetryPolicy(value *GoogleEventarcTriggerRetryPolicy) {
+	if err := g.validatePutRetryPolicyParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putRetryPolicy",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleEventarcTrigger) PutTimeouts(value *GoogleEventarcTriggerTimeouts) {
 	if err := g.validatePutTimeoutsParameters(value); err != nil {
 		panic(err)
@@ -1282,6 +1317,14 @@ func (g *jsiiProxy_GoogleEventarcTrigger) ResetProject() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetProject",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleEventarcTrigger) ResetRetryPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetRetryPolicy",
 		nil, // no parameters
 	)
 }

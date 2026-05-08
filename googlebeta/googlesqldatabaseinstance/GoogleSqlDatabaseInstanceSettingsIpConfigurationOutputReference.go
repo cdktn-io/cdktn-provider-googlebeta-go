@@ -5,9 +5,9 @@ package googlesqldatabaseinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlesqldatabaseinstance/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlesqldatabaseinstance/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -57,6 +57,9 @@ type GoogleSqlDatabaseInstanceSettingsIpConfigurationOutputReference interface {
 	ServerCaPool() *string
 	SetServerCaPool(val *string)
 	ServerCaPoolInput() *string
+	ServerCertificateRotationMode() *string
+	SetServerCertificateRotationMode(val *string)
+	ServerCertificateRotationModeInput() *string
 	SslMode() *string
 	SetSslMode(val *string)
 	SslModeInput() *string
@@ -103,6 +106,7 @@ type GoogleSqlDatabaseInstanceSettingsIpConfigurationOutputReference interface {
 	ResetPscConfig()
 	ResetServerCaMode()
 	ResetServerCaPool()
+	ResetServerCertificateRotationMode()
 	ResetSslMode()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -349,6 +353,26 @@ func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsIpConfigurationOutputReferen
 	return returns
 }
 
+func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsIpConfigurationOutputReference) ServerCertificateRotationMode() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"serverCertificateRotationMode",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsIpConfigurationOutputReference) ServerCertificateRotationModeInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"serverCertificateRotationModeInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsIpConfigurationOutputReference) SslMode() *string {
 	var returns *string
 	_jsii_.Get(
@@ -523,6 +547,17 @@ func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsIpConfigurationOutputReferen
 	_jsii_.Set(
 		j,
 		"serverCaPool",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsIpConfigurationOutputReference)SetServerCertificateRotationMode(val *string) {
+	if err := j.validateSetServerCertificateRotationModeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"serverCertificateRotationMode",
 		val,
 	)
 }
@@ -836,6 +871,14 @@ func (g *jsiiProxy_GoogleSqlDatabaseInstanceSettingsIpConfigurationOutputReferen
 	_jsii_.InvokeVoid(
 		g,
 		"resetServerCaPool",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleSqlDatabaseInstanceSettingsIpConfigurationOutputReference) ResetServerCertificateRotationMode() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetServerCertificateRotationMode",
 		nil, // no parameters
 	)
 }

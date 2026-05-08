@@ -5,9 +5,9 @@ package googlediscoveryenginesearchengine
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlediscoveryenginesearchengine/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlediscoveryenginesearchengine/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -32,6 +32,9 @@ type GoogleDiscoveryEngineSearchEngineSearchEngineConfigOutputReference interfac
 	Fqn() *string
 	InternalValue() *GoogleDiscoveryEngineSearchEngineSearchEngineConfig
 	SetInternalValue(val *GoogleDiscoveryEngineSearchEngineSearchEngineConfig)
+	RequiredSubscriptionTier() *string
+	SetRequiredSubscriptionTier(val *string)
+	RequiredSubscriptionTierInput() *string
 	SearchAddOns() *[]*string
 	SetSearchAddOns(val *[]*string)
 	SearchAddOnsInput() *[]*string
@@ -70,6 +73,7 @@ type GoogleDiscoveryEngineSearchEngineSearchEngineConfigOutputReference interfac
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	ResetRequiredSubscriptionTier()
 	ResetSearchAddOns()
 	ResetSearchTier()
 	// Produce the Token's value at resolution time.
@@ -132,6 +136,26 @@ func (j *jsiiProxy_GoogleDiscoveryEngineSearchEngineSearchEngineConfigOutputRefe
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDiscoveryEngineSearchEngineSearchEngineConfigOutputReference) RequiredSubscriptionTier() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"requiredSubscriptionTier",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDiscoveryEngineSearchEngineSearchEngineConfigOutputReference) RequiredSubscriptionTierInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"requiredSubscriptionTierInput",
 		&returns,
 	)
 	return returns
@@ -254,6 +278,17 @@ func (j *jsiiProxy_GoogleDiscoveryEngineSearchEngineSearchEngineConfigOutputRefe
 	_jsii_.Set(
 		j,
 		"internalValue",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleDiscoveryEngineSearchEngineSearchEngineConfigOutputReference)SetRequiredSubscriptionTier(val *string) {
+	if err := j.validateSetRequiredSubscriptionTierParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"requiredSubscriptionTier",
 		val,
 	)
 }
@@ -486,6 +521,14 @@ func (g *jsiiProxy_GoogleDiscoveryEngineSearchEngineSearchEngineConfigOutputRefe
 	)
 
 	return returns
+}
+
+func (g *jsiiProxy_GoogleDiscoveryEngineSearchEngineSearchEngineConfigOutputReference) ResetRequiredSubscriptionTier() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetRequiredSubscriptionTier",
+		nil, // no parameters
+	)
 }
 
 func (g *jsiiProxy_GoogleDiscoveryEngineSearchEngineSearchEngineConfigOutputReference) ResetSearchAddOns() {

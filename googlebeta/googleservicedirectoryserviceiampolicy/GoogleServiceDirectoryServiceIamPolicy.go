@@ -5,14 +5,14 @@ package googleservicedirectoryserviceiampolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleservicedirectoryserviceiampolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleservicedirectoryserviceiampolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_service_directory_service_iam_policy google_service_directory_service_iam_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_service_directory_service_iam_policy google_service_directory_service_iam_policy}.
 type GoogleServiceDirectoryServiceIamPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -376,7 +376,7 @@ func (j *jsiiProxy_GoogleServiceDirectoryServiceIamPolicy) TerraformResourceType
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_service_directory_service_iam_policy google_service_directory_service_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_service_directory_service_iam_policy google_service_directory_service_iam_policy} Resource.
 func NewGoogleServiceDirectoryServiceIamPolicy(scope constructs.Construct, id *string, config *GoogleServiceDirectoryServiceIamPolicyConfig) GoogleServiceDirectoryServiceIamPolicy {
 	_init_.Initialize()
 
@@ -394,7 +394,7 @@ func NewGoogleServiceDirectoryServiceIamPolicy(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_service_directory_service_iam_policy google_service_directory_service_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_service_directory_service_iam_policy google_service_directory_service_iam_policy} Resource.
 func NewGoogleServiceDirectoryServiceIamPolicy_Override(g GoogleServiceDirectoryServiceIamPolicy, scope constructs.Construct, id *string, config *GoogleServiceDirectoryServiceIamPolicyConfig) {
 	_init_.Initialize()
 

@@ -5,9 +5,9 @@ package googledatalosspreventionjobtrigger
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatalosspreventionjobtrigger/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledatalosspreventionjobtrigger/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -35,6 +35,8 @@ type GoogleDataLossPreventionJobTriggerInspectJobActionsSaveFindingsOutputConfig
 	OutputSchema() *string
 	SetOutputSchema(val *string)
 	OutputSchemaInput() *string
+	StoragePath() GoogleDataLossPreventionJobTriggerInspectJobActionsSaveFindingsOutputConfigStoragePathOutputReference
+	StoragePathInput() *GoogleDataLossPreventionJobTriggerInspectJobActionsSaveFindingsOutputConfigStoragePath
 	Table() GoogleDataLossPreventionJobTriggerInspectJobActionsSaveFindingsOutputConfigTableOutputReference
 	TableInput() *GoogleDataLossPreventionJobTriggerInspectJobActionsSaveFindingsOutputConfigTable
 	// Experimental.
@@ -69,8 +71,11 @@ type GoogleDataLossPreventionJobTriggerInspectJobActionsSaveFindingsOutputConfig
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutStoragePath(value *GoogleDataLossPreventionJobTriggerInspectJobActionsSaveFindingsOutputConfigStoragePath)
 	PutTable(value *GoogleDataLossPreventionJobTriggerInspectJobActionsSaveFindingsOutputConfigTable)
 	ResetOutputSchema()
+	ResetStoragePath()
+	ResetTable()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -151,6 +156,26 @@ func (j *jsiiProxy_GoogleDataLossPreventionJobTriggerInspectJobActionsSaveFindin
 	_jsii_.Get(
 		j,
 		"outputSchemaInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDataLossPreventionJobTriggerInspectJobActionsSaveFindingsOutputConfigOutputReference) StoragePath() GoogleDataLossPreventionJobTriggerInspectJobActionsSaveFindingsOutputConfigStoragePathOutputReference {
+	var returns GoogleDataLossPreventionJobTriggerInspectJobActionsSaveFindingsOutputConfigStoragePathOutputReference
+	_jsii_.Get(
+		j,
+		"storagePath",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDataLossPreventionJobTriggerInspectJobActionsSaveFindingsOutputConfigOutputReference) StoragePathInput() *GoogleDataLossPreventionJobTriggerInspectJobActionsSaveFindingsOutputConfigStoragePath {
+	var returns *GoogleDataLossPreventionJobTriggerInspectJobActionsSaveFindingsOutputConfigStoragePath
+	_jsii_.Get(
+		j,
+		"storagePathInput",
 		&returns,
 	)
 	return returns
@@ -476,6 +501,17 @@ func (g *jsiiProxy_GoogleDataLossPreventionJobTriggerInspectJobActionsSaveFindin
 	return returns
 }
 
+func (g *jsiiProxy_GoogleDataLossPreventionJobTriggerInspectJobActionsSaveFindingsOutputConfigOutputReference) PutStoragePath(value *GoogleDataLossPreventionJobTriggerInspectJobActionsSaveFindingsOutputConfigStoragePath) {
+	if err := g.validatePutStoragePathParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putStoragePath",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleDataLossPreventionJobTriggerInspectJobActionsSaveFindingsOutputConfigOutputReference) PutTable(value *GoogleDataLossPreventionJobTriggerInspectJobActionsSaveFindingsOutputConfigTable) {
 	if err := g.validatePutTableParameters(value); err != nil {
 		panic(err)
@@ -491,6 +527,22 @@ func (g *jsiiProxy_GoogleDataLossPreventionJobTriggerInspectJobActionsSaveFindin
 	_jsii_.InvokeVoid(
 		g,
 		"resetOutputSchema",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleDataLossPreventionJobTriggerInspectJobActionsSaveFindingsOutputConfigOutputReference) ResetStoragePath() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetStoragePath",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleDataLossPreventionJobTriggerInspectJobActionsSaveFindingsOutputConfigOutputReference) ResetTable() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetTable",
 		nil, // no parameters
 	)
 }

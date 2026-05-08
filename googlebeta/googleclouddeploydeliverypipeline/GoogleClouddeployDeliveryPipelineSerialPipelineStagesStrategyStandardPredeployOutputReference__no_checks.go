@@ -47,6 +47,10 @@ func (g *jsiiProxy_GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategy
 	return nil
 }
 
+func (g *jsiiProxy_GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardPredeployOutputReference) validatePutTasksParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardPredeployOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }

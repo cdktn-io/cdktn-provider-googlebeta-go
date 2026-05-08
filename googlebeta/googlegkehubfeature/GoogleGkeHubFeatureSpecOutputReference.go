@@ -5,9 +5,9 @@ package googlegkehubfeature
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegkehubfeature/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlegkehubfeature/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -48,6 +48,8 @@ type GoogleGkeHubFeatureSpecOutputReference interface {
 	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
 	SetTerraformResource(val cdktn.IInterpolatingParent)
+	Workloadidentity() GoogleGkeHubFeatureSpecWorkloadidentityOutputReference
+	WorkloadidentityInput() *GoogleGkeHubFeatureSpecWorkloadidentity
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
@@ -76,10 +78,12 @@ type GoogleGkeHubFeatureSpecOutputReference interface {
 	PutFleetobservability(value *GoogleGkeHubFeatureSpecFleetobservability)
 	PutMulticlusteringress(value *GoogleGkeHubFeatureSpecMulticlusteringress)
 	PutRbacrolebindingactuation(value *GoogleGkeHubFeatureSpecRbacrolebindingactuation)
+	PutWorkloadidentity(value *GoogleGkeHubFeatureSpecWorkloadidentity)
 	ResetClusterupgrade()
 	ResetFleetobservability()
 	ResetMulticlusteringress()
 	ResetRbacrolebindingactuation()
+	ResetWorkloadidentity()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -240,6 +244,26 @@ func (j *jsiiProxy_GoogleGkeHubFeatureSpecOutputReference) TerraformResource() c
 	_jsii_.Get(
 		j,
 		"terraformResource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleGkeHubFeatureSpecOutputReference) Workloadidentity() GoogleGkeHubFeatureSpecWorkloadidentityOutputReference {
+	var returns GoogleGkeHubFeatureSpecWorkloadidentityOutputReference
+	_jsii_.Get(
+		j,
+		"workloadidentity",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleGkeHubFeatureSpecOutputReference) WorkloadidentityInput() *GoogleGkeHubFeatureSpecWorkloadidentity {
+	var returns *GoogleGkeHubFeatureSpecWorkloadidentity
+	_jsii_.Get(
+		j,
+		"workloadidentityInput",
 		&returns,
 	)
 	return returns
@@ -558,6 +582,17 @@ func (g *jsiiProxy_GoogleGkeHubFeatureSpecOutputReference) PutRbacrolebindingact
 	)
 }
 
+func (g *jsiiProxy_GoogleGkeHubFeatureSpecOutputReference) PutWorkloadidentity(value *GoogleGkeHubFeatureSpecWorkloadidentity) {
+	if err := g.validatePutWorkloadidentityParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putWorkloadidentity",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleGkeHubFeatureSpecOutputReference) ResetClusterupgrade() {
 	_jsii_.InvokeVoid(
 		g,
@@ -586,6 +621,14 @@ func (g *jsiiProxy_GoogleGkeHubFeatureSpecOutputReference) ResetRbacrolebindinga
 	_jsii_.InvokeVoid(
 		g,
 		"resetRbacrolebindingactuation",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleGkeHubFeatureSpecOutputReference) ResetWorkloadidentity() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetWorkloadidentity",
 		nil, // no parameters
 	)
 }

@@ -5,14 +5,14 @@ package googleprivatecacapooliambinding
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleprivatecacapooliambinding/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleprivatecacapooliambinding/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_privateca_ca_pool_iam_binding google_privateca_ca_pool_iam_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_privateca_ca_pool_iam_binding google_privateca_ca_pool_iam_binding}.
 type GooglePrivatecaCaPoolIamBinding interface {
 	cdktn.TerraformResource
 	CaPool() *string
@@ -471,7 +471,7 @@ func (j *jsiiProxy_GooglePrivatecaCaPoolIamBinding) TerraformResourceType() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_privateca_ca_pool_iam_binding google_privateca_ca_pool_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_privateca_ca_pool_iam_binding google_privateca_ca_pool_iam_binding} Resource.
 func NewGooglePrivatecaCaPoolIamBinding(scope constructs.Construct, id *string, config *GooglePrivatecaCaPoolIamBindingConfig) GooglePrivatecaCaPoolIamBinding {
 	_init_.Initialize()
 
@@ -489,7 +489,7 @@ func NewGooglePrivatecaCaPoolIamBinding(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_privateca_ca_pool_iam_binding google_privateca_ca_pool_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_privateca_ca_pool_iam_binding google_privateca_ca_pool_iam_binding} Resource.
 func NewGooglePrivatecaCaPoolIamBinding_Override(g GooglePrivatecaCaPoolIamBinding, scope constructs.Construct, id *string, config *GooglePrivatecaCaPoolIamBindingConfig) {
 	_init_.Initialize()
 

@@ -5,9 +5,9 @@ package googleclouddeploydeliverypipeline
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleclouddeploydeliverypipeline/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleclouddeploydeliverypipeline/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -35,6 +35,8 @@ type GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardPredep
 	Fqn() *string
 	InternalValue() *GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardPredeploy
 	SetInternalValue(val *GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardPredeploy)
+	Tasks() GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardPredeployTasksList
+	TasksInput() interface{}
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -67,7 +69,9 @@ type GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardPredep
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutTasks(value interface{})
 	ResetActions()
+	ResetTasks()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -148,6 +152,26 @@ func (j *jsiiProxy_GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategy
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardPredeployOutputReference) Tasks() GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardPredeployTasksList {
+	var returns GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardPredeployTasksList
+	_jsii_.Get(
+		j,
+		"tasks",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardPredeployOutputReference) TasksInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"tasksInput",
 		&returns,
 	)
 	return returns
@@ -453,10 +477,29 @@ func (g *jsiiProxy_GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategy
 	return returns
 }
 
+func (g *jsiiProxy_GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardPredeployOutputReference) PutTasks(value interface{}) {
+	if err := g.validatePutTasksParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putTasks",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardPredeployOutputReference) ResetActions() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetActions",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleClouddeployDeliveryPipelineSerialPipelineStagesStrategyStandardPredeployOutputReference) ResetTasks() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetTasks",
 		nil, // no parameters
 	)
 }

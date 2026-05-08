@@ -5,14 +5,14 @@ package googleiamorganizationspolicybinding
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleiamorganizationspolicybinding/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleiamorganizationspolicybinding/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iam_organizations_policy_binding google_iam_organizations_policy_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iam_organizations_policy_binding google_iam_organizations_policy_binding}.
 type GoogleIamOrganizationsPolicyBinding interface {
 	cdktn.TerraformResource
 	Annotations() *map[string]*string
@@ -631,7 +631,7 @@ func (j *jsiiProxy_GoogleIamOrganizationsPolicyBinding) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iam_organizations_policy_binding google_iam_organizations_policy_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iam_organizations_policy_binding google_iam_organizations_policy_binding} Resource.
 func NewGoogleIamOrganizationsPolicyBinding(scope constructs.Construct, id *string, config *GoogleIamOrganizationsPolicyBindingConfig) GoogleIamOrganizationsPolicyBinding {
 	_init_.Initialize()
 
@@ -649,7 +649,7 @@ func NewGoogleIamOrganizationsPolicyBinding(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iam_organizations_policy_binding google_iam_organizations_policy_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iam_organizations_policy_binding google_iam_organizations_policy_binding} Resource.
 func NewGoogleIamOrganizationsPolicyBinding_Override(g GoogleIamOrganizationsPolicyBinding, scope constructs.Construct, id *string, config *GoogleIamOrganizationsPolicyBindingConfig) {
 	_init_.Initialize()
 

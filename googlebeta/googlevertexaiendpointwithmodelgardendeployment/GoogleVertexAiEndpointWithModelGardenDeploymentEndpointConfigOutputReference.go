@@ -5,9 +5,9 @@ package googlevertexaiendpointwithmodelgardendeployment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlevertexaiendpointwithmodelgardendeployment/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaiendpointwithmodelgardendeployment/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -38,6 +38,8 @@ type GoogleVertexAiEndpointWithModelGardenDeploymentEndpointConfigOutputReferenc
 	Fqn() *string
 	InternalValue() *GoogleVertexAiEndpointWithModelGardenDeploymentEndpointConfig
 	SetInternalValue(val *GoogleVertexAiEndpointWithModelGardenDeploymentEndpointConfig)
+	PrivateServiceConnectConfig() GoogleVertexAiEndpointWithModelGardenDeploymentEndpointConfigPrivateServiceConnectConfigOutputReference
+	PrivateServiceConnectConfigInput() *GoogleVertexAiEndpointWithModelGardenDeploymentEndpointConfigPrivateServiceConnectConfig
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -70,8 +72,10 @@ type GoogleVertexAiEndpointWithModelGardenDeploymentEndpointConfigOutputReferenc
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutPrivateServiceConnectConfig(value *GoogleVertexAiEndpointWithModelGardenDeploymentEndpointConfigPrivateServiceConnectConfig)
 	ResetDedicatedEndpointEnabled()
 	ResetEndpointDisplayName()
+	ResetPrivateServiceConnectConfig()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -172,6 +176,26 @@ func (j *jsiiProxy_GoogleVertexAiEndpointWithModelGardenDeploymentEndpointConfig
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleVertexAiEndpointWithModelGardenDeploymentEndpointConfigOutputReference) PrivateServiceConnectConfig() GoogleVertexAiEndpointWithModelGardenDeploymentEndpointConfigPrivateServiceConnectConfigOutputReference {
+	var returns GoogleVertexAiEndpointWithModelGardenDeploymentEndpointConfigPrivateServiceConnectConfigOutputReference
+	_jsii_.Get(
+		j,
+		"privateServiceConnectConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleVertexAiEndpointWithModelGardenDeploymentEndpointConfigOutputReference) PrivateServiceConnectConfigInput() *GoogleVertexAiEndpointWithModelGardenDeploymentEndpointConfigPrivateServiceConnectConfig {
+	var returns *GoogleVertexAiEndpointWithModelGardenDeploymentEndpointConfigPrivateServiceConnectConfig
+	_jsii_.Get(
+		j,
+		"privateServiceConnectConfigInput",
 		&returns,
 	)
 	return returns
@@ -488,6 +512,17 @@ func (g *jsiiProxy_GoogleVertexAiEndpointWithModelGardenDeploymentEndpointConfig
 	return returns
 }
 
+func (g *jsiiProxy_GoogleVertexAiEndpointWithModelGardenDeploymentEndpointConfigOutputReference) PutPrivateServiceConnectConfig(value *GoogleVertexAiEndpointWithModelGardenDeploymentEndpointConfigPrivateServiceConnectConfig) {
+	if err := g.validatePutPrivateServiceConnectConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putPrivateServiceConnectConfig",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleVertexAiEndpointWithModelGardenDeploymentEndpointConfigOutputReference) ResetDedicatedEndpointEnabled() {
 	_jsii_.InvokeVoid(
 		g,
@@ -500,6 +535,14 @@ func (g *jsiiProxy_GoogleVertexAiEndpointWithModelGardenDeploymentEndpointConfig
 	_jsii_.InvokeVoid(
 		g,
 		"resetEndpointDisplayName",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleVertexAiEndpointWithModelGardenDeploymentEndpointConfigOutputReference) ResetPrivateServiceConnectConfig() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetPrivateServiceConnectConfig",
 		nil, // no parameters
 	)
 }

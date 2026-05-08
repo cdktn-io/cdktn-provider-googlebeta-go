@@ -5,14 +5,14 @@ package datagooglefirebaseappleapp
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglefirebaseappleapp/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglefirebaseappleapp/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_firebase_apple_app google_firebase_apple_app}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_firebase_apple_app google_firebase_apple_app}.
 type DataGoogleFirebaseAppleApp interface {
 	cdktn.TerraformDataSource
 	ApiKeyId() *string
@@ -398,7 +398,7 @@ func (j *jsiiProxy_DataGoogleFirebaseAppleApp) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_firebase_apple_app google_firebase_apple_app} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_firebase_apple_app google_firebase_apple_app} Data Source.
 func NewDataGoogleFirebaseAppleApp(scope constructs.Construct, id *string, config *DataGoogleFirebaseAppleAppConfig) DataGoogleFirebaseAppleApp {
 	_init_.Initialize()
 
@@ -416,7 +416,7 @@ func NewDataGoogleFirebaseAppleApp(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_firebase_apple_app google_firebase_apple_app} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_firebase_apple_app google_firebase_apple_app} Data Source.
 func NewDataGoogleFirebaseAppleApp_Override(d DataGoogleFirebaseAppleApp, scope constructs.Construct, id *string, config *DataGoogleFirebaseAppleAppConfig) {
 	_init_.Initialize()
 

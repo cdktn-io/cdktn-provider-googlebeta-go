@@ -5,14 +5,14 @@ package googlecomputeregioninstancegroupmanager
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeregioninstancegroupmanager/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeregioninstancegroupmanager/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_group_manager google_compute_region_instance_group_manager}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager google_compute_region_instance_group_manager}.
 type GoogleComputeRegionInstanceGroupManager interface {
 	cdktn.TerraformResource
 	AllInstancesConfig() GoogleComputeRegionInstanceGroupManagerAllInstancesConfigOutputReference
@@ -98,6 +98,8 @@ type GoogleComputeRegionInstanceGroupManager interface {
 	Region() *string
 	SetRegion(val *string)
 	RegionInput() *string
+	ResourcePolicies() GoogleComputeRegionInstanceGroupManagerResourcePoliciesOutputReference
+	ResourcePoliciesInput() *GoogleComputeRegionInstanceGroupManagerResourcePolicies
 	SelfLink() *string
 	StandbyPolicy() GoogleComputeRegionInstanceGroupManagerStandbyPolicyOutputReference
 	StandbyPolicyInput() *GoogleComputeRegionInstanceGroupManagerStandbyPolicy
@@ -114,6 +116,8 @@ type GoogleComputeRegionInstanceGroupManager interface {
 	TargetSize() *float64
 	SetTargetSize(val *float64)
 	TargetSizeInput() *float64
+	TargetSizePolicy() GoogleComputeRegionInstanceGroupManagerTargetSizePolicyList
+	TargetSizePolicyInput() interface{}
 	TargetStoppedSize() *float64
 	SetTargetStoppedSize(val *float64)
 	TargetStoppedSizeInput() *float64
@@ -187,10 +191,12 @@ type GoogleComputeRegionInstanceGroupManager interface {
 	PutInstanceLifecyclePolicy(value *GoogleComputeRegionInstanceGroupManagerInstanceLifecyclePolicy)
 	PutNamedPort(value interface{})
 	PutParams(value *GoogleComputeRegionInstanceGroupManagerParams)
+	PutResourcePolicies(value *GoogleComputeRegionInstanceGroupManagerResourcePolicies)
 	PutStandbyPolicy(value *GoogleComputeRegionInstanceGroupManagerStandbyPolicy)
 	PutStatefulDisk(value interface{})
 	PutStatefulExternalIp(value interface{})
 	PutStatefulInternalIp(value interface{})
+	PutTargetSizePolicy(value interface{})
 	PutTimeouts(value *GoogleComputeRegionInstanceGroupManagerTimeouts)
 	PutUpdatePolicy(value *GoogleComputeRegionInstanceGroupManagerUpdatePolicy)
 	PutVersion(value interface{})
@@ -210,12 +216,14 @@ type GoogleComputeRegionInstanceGroupManager interface {
 	ResetParams()
 	ResetProject()
 	ResetRegion()
+	ResetResourcePolicies()
 	ResetStandbyPolicy()
 	ResetStatefulDisk()
 	ResetStatefulExternalIp()
 	ResetStatefulInternalIp()
 	ResetTargetPools()
 	ResetTargetSize()
+	ResetTargetSizePolicy()
 	ResetTargetStoppedSize()
 	ResetTargetSuspendedSize()
 	ResetTimeouts()
@@ -719,6 +727,26 @@ func (j *jsiiProxy_GoogleComputeRegionInstanceGroupManager) RegionInput() *strin
 	return returns
 }
 
+func (j *jsiiProxy_GoogleComputeRegionInstanceGroupManager) ResourcePolicies() GoogleComputeRegionInstanceGroupManagerResourcePoliciesOutputReference {
+	var returns GoogleComputeRegionInstanceGroupManagerResourcePoliciesOutputReference
+	_jsii_.Get(
+		j,
+		"resourcePolicies",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeRegionInstanceGroupManager) ResourcePoliciesInput() *GoogleComputeRegionInstanceGroupManagerResourcePolicies {
+	var returns *GoogleComputeRegionInstanceGroupManagerResourcePolicies
+	_jsii_.Get(
+		j,
+		"resourcePoliciesInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleComputeRegionInstanceGroupManager) SelfLink() *string {
 	var returns *string
 	_jsii_.Get(
@@ -854,6 +882,26 @@ func (j *jsiiProxy_GoogleComputeRegionInstanceGroupManager) TargetSizeInput() *f
 	_jsii_.Get(
 		j,
 		"targetSizeInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeRegionInstanceGroupManager) TargetSizePolicy() GoogleComputeRegionInstanceGroupManagerTargetSizePolicyList {
+	var returns GoogleComputeRegionInstanceGroupManagerTargetSizePolicyList
+	_jsii_.Get(
+		j,
+		"targetSizePolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeRegionInstanceGroupManager) TargetSizePolicyInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"targetSizePolicyInput",
 		&returns,
 	)
 	return returns
@@ -1030,7 +1078,7 @@ func (j *jsiiProxy_GoogleComputeRegionInstanceGroupManager) WaitForInstancesStat
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_group_manager google_compute_region_instance_group_manager} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager google_compute_region_instance_group_manager} Resource.
 func NewGoogleComputeRegionInstanceGroupManager(scope constructs.Construct, id *string, config *GoogleComputeRegionInstanceGroupManagerConfig) GoogleComputeRegionInstanceGroupManager {
 	_init_.Initialize()
 
@@ -1048,7 +1096,7 @@ func NewGoogleComputeRegionInstanceGroupManager(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_instance_group_manager google_compute_region_instance_group_manager} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_instance_group_manager google_compute_region_instance_group_manager} Resource.
 func NewGoogleComputeRegionInstanceGroupManager_Override(g GoogleComputeRegionInstanceGroupManager, scope constructs.Construct, id *string, config *GoogleComputeRegionInstanceGroupManagerConfig) {
 	_init_.Initialize()
 
@@ -1711,6 +1759,17 @@ func (g *jsiiProxy_GoogleComputeRegionInstanceGroupManager) PutParams(value *Goo
 	)
 }
 
+func (g *jsiiProxy_GoogleComputeRegionInstanceGroupManager) PutResourcePolicies(value *GoogleComputeRegionInstanceGroupManagerResourcePolicies) {
+	if err := g.validatePutResourcePoliciesParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putResourcePolicies",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleComputeRegionInstanceGroupManager) PutStandbyPolicy(value *GoogleComputeRegionInstanceGroupManagerStandbyPolicy) {
 	if err := g.validatePutStandbyPolicyParameters(value); err != nil {
 		panic(err)
@@ -1751,6 +1810,17 @@ func (g *jsiiProxy_GoogleComputeRegionInstanceGroupManager) PutStatefulInternalI
 	_jsii_.InvokeVoid(
 		g,
 		"putStatefulInternalIp",
+		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleComputeRegionInstanceGroupManager) PutTargetSizePolicy(value interface{}) {
+	if err := g.validatePutTargetSizePolicyParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putTargetSizePolicy",
 		[]interface{}{value},
 	)
 }
@@ -1900,6 +1970,14 @@ func (g *jsiiProxy_GoogleComputeRegionInstanceGroupManager) ResetRegion() {
 	)
 }
 
+func (g *jsiiProxy_GoogleComputeRegionInstanceGroupManager) ResetResourcePolicies() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetResourcePolicies",
+		nil, // no parameters
+	)
+}
+
 func (g *jsiiProxy_GoogleComputeRegionInstanceGroupManager) ResetStandbyPolicy() {
 	_jsii_.InvokeVoid(
 		g,
@@ -1944,6 +2022,14 @@ func (g *jsiiProxy_GoogleComputeRegionInstanceGroupManager) ResetTargetSize() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetTargetSize",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleComputeRegionInstanceGroupManager) ResetTargetSizePolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetTargetSizePolicy",
 		nil, // no parameters
 	)
 }

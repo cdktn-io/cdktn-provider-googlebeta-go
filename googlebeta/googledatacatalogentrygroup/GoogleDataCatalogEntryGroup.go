@@ -5,14 +5,14 @@ package googledatacatalogentrygroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatacatalogentrygroup/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledatacatalogentrygroup/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_data_catalog_entry_group google_data_catalog_entry_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_data_catalog_entry_group google_data_catalog_entry_group}.
 type GoogleDataCatalogEntryGroup interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -473,7 +473,7 @@ func (j *jsiiProxy_GoogleDataCatalogEntryGroup) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_data_catalog_entry_group google_data_catalog_entry_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_data_catalog_entry_group google_data_catalog_entry_group} Resource.
 func NewGoogleDataCatalogEntryGroup(scope constructs.Construct, id *string, config *GoogleDataCatalogEntryGroupConfig) GoogleDataCatalogEntryGroup {
 	_init_.Initialize()
 
@@ -491,7 +491,7 @@ func NewGoogleDataCatalogEntryGroup(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_data_catalog_entry_group google_data_catalog_entry_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_data_catalog_entry_group google_data_catalog_entry_group} Resource.
 func NewGoogleDataCatalogEntryGroup_Override(g GoogleDataCatalogEntryGroup, scope constructs.Construct, id *string, config *GoogleDataCatalogEntryGroupConfig) {
 	_init_.Initialize()
 

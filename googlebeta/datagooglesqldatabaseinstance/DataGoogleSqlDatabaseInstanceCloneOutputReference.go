@@ -5,9 +5,9 @@ package datagooglesqldatabaseinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglesqldatabaseinstance/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglesqldatabaseinstance/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -36,7 +36,9 @@ type DataGoogleSqlDatabaseInstanceCloneOutputReference interface {
 	SetInternalValue(val *DataGoogleSqlDatabaseInstanceClone)
 	PointInTime() *string
 	PreferredZone() *string
+	SourceInstanceDeletionTime() *string
 	SourceInstanceName() *string
+	SourceProject() *string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -174,11 +176,31 @@ func (j *jsiiProxy_DataGoogleSqlDatabaseInstanceCloneOutputReference) PreferredZ
 	return returns
 }
 
+func (j *jsiiProxy_DataGoogleSqlDatabaseInstanceCloneOutputReference) SourceInstanceDeletionTime() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"sourceInstanceDeletionTime",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataGoogleSqlDatabaseInstanceCloneOutputReference) SourceInstanceName() *string {
 	var returns *string
 	_jsii_.Get(
 		j,
 		"sourceInstanceName",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleSqlDatabaseInstanceCloneOutputReference) SourceProject() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"sourceProject",
 		&returns,
 	)
 	return returns

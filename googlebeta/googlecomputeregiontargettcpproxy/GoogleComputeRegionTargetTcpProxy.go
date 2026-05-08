@@ -5,14 +5,14 @@ package googlecomputeregiontargettcpproxy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeregiontargettcpproxy/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeregiontargettcpproxy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_target_tcp_proxy google_compute_region_target_tcp_proxy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_target_tcp_proxy google_compute_region_target_tcp_proxy}.
 type GoogleComputeRegionTargetTcpProxy interface {
 	cdktn.TerraformResource
 	BackendService() *string
@@ -53,6 +53,9 @@ type GoogleComputeRegionTargetTcpProxy interface {
 	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
 	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
+	LoadBalancingScheme() *string
+	SetLoadBalancingScheme(val *string)
+	LoadBalancingSchemeInput() *string
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
@@ -134,8 +137,10 @@ type GoogleComputeRegionTargetTcpProxy interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *GoogleComputeRegionTargetTcpProxyTimeouts)
+	ResetBackendService()
 	ResetDescription()
 	ResetId()
+	ResetLoadBalancingScheme()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
@@ -326,6 +331,26 @@ func (j *jsiiProxy_GoogleComputeRegionTargetTcpProxy) Lifecycle() *cdktn.Terrafo
 	_jsii_.Get(
 		j,
 		"lifecycle",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeRegionTargetTcpProxy) LoadBalancingScheme() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"loadBalancingScheme",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeRegionTargetTcpProxy) LoadBalancingSchemeInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"loadBalancingSchemeInput",
 		&returns,
 	)
 	return returns
@@ -542,7 +567,7 @@ func (j *jsiiProxy_GoogleComputeRegionTargetTcpProxy) TimeoutsInput() interface{
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_target_tcp_proxy google_compute_region_target_tcp_proxy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_target_tcp_proxy google_compute_region_target_tcp_proxy} Resource.
 func NewGoogleComputeRegionTargetTcpProxy(scope constructs.Construct, id *string, config *GoogleComputeRegionTargetTcpProxyConfig) GoogleComputeRegionTargetTcpProxy {
 	_init_.Initialize()
 
@@ -560,7 +585,7 @@ func NewGoogleComputeRegionTargetTcpProxy(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_target_tcp_proxy google_compute_region_target_tcp_proxy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_target_tcp_proxy google_compute_region_target_tcp_proxy} Resource.
 func NewGoogleComputeRegionTargetTcpProxy_Override(g GoogleComputeRegionTargetTcpProxy, scope constructs.Construct, id *string, config *GoogleComputeRegionTargetTcpProxyConfig) {
 	_init_.Initialize()
 
@@ -649,6 +674,17 @@ func (j *jsiiProxy_GoogleComputeRegionTargetTcpProxy)SetLifecycle(val *cdktn.Ter
 	_jsii_.Set(
 		j,
 		"lifecycle",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleComputeRegionTargetTcpProxy)SetLoadBalancingScheme(val *string) {
+	if err := j.validateSetLoadBalancingSchemeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"loadBalancingScheme",
 		val,
 	)
 }
@@ -1091,6 +1127,14 @@ func (g *jsiiProxy_GoogleComputeRegionTargetTcpProxy) PutTimeouts(value *GoogleC
 	)
 }
 
+func (g *jsiiProxy_GoogleComputeRegionTargetTcpProxy) ResetBackendService() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetBackendService",
+		nil, // no parameters
+	)
+}
+
 func (g *jsiiProxy_GoogleComputeRegionTargetTcpProxy) ResetDescription() {
 	_jsii_.InvokeVoid(
 		g,
@@ -1103,6 +1147,14 @@ func (g *jsiiProxy_GoogleComputeRegionTargetTcpProxy) ResetId() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetId",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleComputeRegionTargetTcpProxy) ResetLoadBalancingScheme() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetLoadBalancingScheme",
 		nil, // no parameters
 	)
 }

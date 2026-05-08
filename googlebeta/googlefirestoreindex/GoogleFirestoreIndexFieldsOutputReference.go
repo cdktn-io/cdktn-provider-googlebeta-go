@@ -5,9 +5,9 @@ package googlefirestoreindex
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefirestoreindex/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlefirestoreindex/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -41,6 +41,8 @@ type GoogleFirestoreIndexFieldsOutputReference interface {
 	Order() *string
 	SetOrder(val *string)
 	OrderInput() *string
+	SearchConfig() GoogleFirestoreIndexFieldsSearchConfigOutputReference
+	SearchConfigInput() *GoogleFirestoreIndexFieldsSearchConfig
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -75,10 +77,12 @@ type GoogleFirestoreIndexFieldsOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutSearchConfig(value *GoogleFirestoreIndexFieldsSearchConfig)
 	PutVectorConfig(value *GoogleFirestoreIndexFieldsVectorConfig)
 	ResetArrayConfig()
 	ResetFieldPath()
 	ResetOrder()
+	ResetSearchConfig()
 	ResetVectorConfig()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -200,6 +204,26 @@ func (j *jsiiProxy_GoogleFirestoreIndexFieldsOutputReference) OrderInput() *stri
 	_jsii_.Get(
 		j,
 		"orderInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleFirestoreIndexFieldsOutputReference) SearchConfig() GoogleFirestoreIndexFieldsSearchConfigOutputReference {
+	var returns GoogleFirestoreIndexFieldsSearchConfigOutputReference
+	_jsii_.Get(
+		j,
+		"searchConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleFirestoreIndexFieldsOutputReference) SearchConfigInput() *GoogleFirestoreIndexFieldsSearchConfig {
+	var returns *GoogleFirestoreIndexFieldsSearchConfig
+	_jsii_.Get(
+		j,
+		"searchConfigInput",
 		&returns,
 	)
 	return returns
@@ -547,6 +571,17 @@ func (g *jsiiProxy_GoogleFirestoreIndexFieldsOutputReference) InterpolationForAt
 	return returns
 }
 
+func (g *jsiiProxy_GoogleFirestoreIndexFieldsOutputReference) PutSearchConfig(value *GoogleFirestoreIndexFieldsSearchConfig) {
+	if err := g.validatePutSearchConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putSearchConfig",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleFirestoreIndexFieldsOutputReference) PutVectorConfig(value *GoogleFirestoreIndexFieldsVectorConfig) {
 	if err := g.validatePutVectorConfigParameters(value); err != nil {
 		panic(err)
@@ -578,6 +613,14 @@ func (g *jsiiProxy_GoogleFirestoreIndexFieldsOutputReference) ResetOrder() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetOrder",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleFirestoreIndexFieldsOutputReference) ResetSearchConfig() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetSearchConfig",
 		nil, // no parameters
 	)
 }

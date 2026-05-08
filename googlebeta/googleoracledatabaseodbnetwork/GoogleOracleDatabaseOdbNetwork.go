@@ -5,14 +5,14 @@ package googleoracledatabaseodbnetwork
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleoracledatabaseodbnetwork/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleoracledatabaseodbnetwork/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_oracle_database_odb_network google_oracle_database_odb_network}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_oracle_database_odb_network google_oracle_database_odb_network}.
 type GoogleOracleDatabaseOdbNetwork interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -45,6 +45,9 @@ type GoogleOracleDatabaseOdbNetwork interface {
 	Fqn() *string
 	// Experimental.
 	FriendlyUniqueId() *string
+	GcpOracleZone() *string
+	SetGcpOracleZone(val *string)
+	GcpOracleZoneInput() *string
 	Id() *string
 	SetId(val *string)
 	IdInput() *string
@@ -135,6 +138,7 @@ type GoogleOracleDatabaseOdbNetwork interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *GoogleOracleDatabaseOdbNetworkTimeouts)
 	ResetDeletionProtection()
+	ResetGcpOracleZone()
 	ResetId()
 	ResetLabels()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -294,6 +298,26 @@ func (j *jsiiProxy_GoogleOracleDatabaseOdbNetwork) FriendlyUniqueId() *string {
 	_jsii_.Get(
 		j,
 		"friendlyUniqueId",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleOracleDatabaseOdbNetwork) GcpOracleZone() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"gcpOracleZone",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleOracleDatabaseOdbNetwork) GcpOracleZoneInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"gcpOracleZoneInput",
 		&returns,
 	)
 	return returns
@@ -550,7 +574,7 @@ func (j *jsiiProxy_GoogleOracleDatabaseOdbNetwork) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_oracle_database_odb_network google_oracle_database_odb_network} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_oracle_database_odb_network google_oracle_database_odb_network} Resource.
 func NewGoogleOracleDatabaseOdbNetwork(scope constructs.Construct, id *string, config *GoogleOracleDatabaseOdbNetworkConfig) GoogleOracleDatabaseOdbNetwork {
 	_init_.Initialize()
 
@@ -568,7 +592,7 @@ func NewGoogleOracleDatabaseOdbNetwork(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_oracle_database_odb_network google_oracle_database_odb_network} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_oracle_database_odb_network google_oracle_database_odb_network} Resource.
 func NewGoogleOracleDatabaseOdbNetwork_Override(g GoogleOracleDatabaseOdbNetwork, scope constructs.Construct, id *string, config *GoogleOracleDatabaseOdbNetworkConfig) {
 	_init_.Initialize()
 
@@ -624,6 +648,17 @@ func (j *jsiiProxy_GoogleOracleDatabaseOdbNetwork)SetForEach(val cdktn.ITerrafor
 	_jsii_.Set(
 		j,
 		"forEach",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleOracleDatabaseOdbNetwork)SetGcpOracleZone(val *string) {
+	if err := j.validateSetGcpOracleZoneParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"gcpOracleZone",
 		val,
 	)
 }
@@ -1092,6 +1127,14 @@ func (g *jsiiProxy_GoogleOracleDatabaseOdbNetwork) ResetDeletionProtection() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetDeletionProtection",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleOracleDatabaseOdbNetwork) ResetGcpOracleZone() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetGcpOracleZone",
 		nil, // no parameters
 	)
 }

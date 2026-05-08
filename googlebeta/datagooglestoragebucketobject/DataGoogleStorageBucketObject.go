@@ -5,14 +5,14 @@ package datagooglestoragebucketobject
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglestoragebucketobject/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglestoragebucketobject/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_storage_bucket_object google_storage_bucket_object}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_storage_bucket_object google_storage_bucket_object}.
 type DataGoogleStorageBucketObject interface {
 	cdktn.TerraformDataSource
 	Bucket() *string
@@ -28,6 +28,7 @@ type DataGoogleStorageBucketObject interface {
 	ContentEncoding() *string
 	ContentLanguage() *string
 	ContentType() *string
+	Contexts() DataGoogleStorageBucketObjectContextsList
 	// Experimental.
 	Count() interface{}
 	// Experimental.
@@ -241,6 +242,16 @@ func (j *jsiiProxy_DataGoogleStorageBucketObject) ContentType() *string {
 	_jsii_.Get(
 		j,
 		"contentType",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleStorageBucketObject) Contexts() DataGoogleStorageBucketObjectContextsList {
+	var returns DataGoogleStorageBucketObjectContextsList
+	_jsii_.Get(
+		j,
+		"contexts",
 		&returns,
 	)
 	return returns
@@ -597,7 +608,7 @@ func (j *jsiiProxy_DataGoogleStorageBucketObject) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_storage_bucket_object google_storage_bucket_object} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_storage_bucket_object google_storage_bucket_object} Data Source.
 func NewDataGoogleStorageBucketObject(scope constructs.Construct, id *string, config *DataGoogleStorageBucketObjectConfig) DataGoogleStorageBucketObject {
 	_init_.Initialize()
 
@@ -615,7 +626,7 @@ func NewDataGoogleStorageBucketObject(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_storage_bucket_object google_storage_bucket_object} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_storage_bucket_object google_storage_bucket_object} Data Source.
 func NewDataGoogleStorageBucketObject_Override(d DataGoogleStorageBucketObject, scope constructs.Construct, id *string, config *DataGoogleStorageBucketObjectConfig) {
 	_init_.Initialize()
 

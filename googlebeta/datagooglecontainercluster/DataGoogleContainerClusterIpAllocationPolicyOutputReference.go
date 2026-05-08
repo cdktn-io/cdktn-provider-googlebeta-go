@@ -5,9 +5,9 @@ package datagooglecontainercluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglecontainercluster/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglecontainercluster/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -15,6 +15,7 @@ type DataGoogleContainerClusterIpAllocationPolicyOutputReference interface {
 	cdktn.ComplexObject
 	AdditionalIpRangesConfig() DataGoogleContainerClusterIpAllocationPolicyAdditionalIpRangesConfigList
 	AdditionalPodRangesConfig() DataGoogleContainerClusterIpAllocationPolicyAdditionalPodRangesConfigList
+	AutoIpamConfig() DataGoogleContainerClusterIpAllocationPolicyAutoIpamConfigList
 	ClusterIpv4CidrBlock() *string
 	ClusterSecondaryRangeName() *string
 	// the index of the complex object in a list.
@@ -36,6 +37,7 @@ type DataGoogleContainerClusterIpAllocationPolicyOutputReference interface {
 	Fqn() *string
 	InternalValue() *DataGoogleContainerClusterIpAllocationPolicy
 	SetInternalValue(val *DataGoogleContainerClusterIpAllocationPolicy)
+	NetworkTierConfig() DataGoogleContainerClusterIpAllocationPolicyNetworkTierConfigList
 	PodCidrOverprovisionConfig() DataGoogleContainerClusterIpAllocationPolicyPodCidrOverprovisionConfigList
 	ServicesIpv4CidrBlock() *string
 	ServicesSecondaryRangeName() *string
@@ -107,6 +109,16 @@ func (j *jsiiProxy_DataGoogleContainerClusterIpAllocationPolicyOutputReference) 
 	return returns
 }
 
+func (j *jsiiProxy_DataGoogleContainerClusterIpAllocationPolicyOutputReference) AutoIpamConfig() DataGoogleContainerClusterIpAllocationPolicyAutoIpamConfigList {
+	var returns DataGoogleContainerClusterIpAllocationPolicyAutoIpamConfigList
+	_jsii_.Get(
+		j,
+		"autoIpamConfig",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataGoogleContainerClusterIpAllocationPolicyOutputReference) ClusterIpv4CidrBlock() *string {
 	var returns *string
 	_jsii_.Get(
@@ -172,6 +184,16 @@ func (j *jsiiProxy_DataGoogleContainerClusterIpAllocationPolicyOutputReference) 
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleContainerClusterIpAllocationPolicyOutputReference) NetworkTierConfig() DataGoogleContainerClusterIpAllocationPolicyNetworkTierConfigList {
+	var returns DataGoogleContainerClusterIpAllocationPolicyNetworkTierConfigList
+	_jsii_.Get(
+		j,
+		"networkTierConfig",
 		&returns,
 	)
 	return returns

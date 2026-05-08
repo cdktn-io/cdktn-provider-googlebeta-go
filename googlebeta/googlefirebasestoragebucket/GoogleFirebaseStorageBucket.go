@@ -5,14 +5,14 @@ package googlefirebasestoragebucket
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefirebasestoragebucket/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlefirebasestoragebucket/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_firebase_storage_bucket google_firebase_storage_bucket}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_firebase_storage_bucket google_firebase_storage_bucket}.
 type GoogleFirebaseStorageBucket interface {
 	cdktn.TerraformResource
 	BucketId() *string
@@ -402,7 +402,7 @@ func (j *jsiiProxy_GoogleFirebaseStorageBucket) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_firebase_storage_bucket google_firebase_storage_bucket} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_firebase_storage_bucket google_firebase_storage_bucket} Resource.
 func NewGoogleFirebaseStorageBucket(scope constructs.Construct, id *string, config *GoogleFirebaseStorageBucketConfig) GoogleFirebaseStorageBucket {
 	_init_.Initialize()
 
@@ -420,7 +420,7 @@ func NewGoogleFirebaseStorageBucket(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_firebase_storage_bucket google_firebase_storage_bucket} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_firebase_storage_bucket google_firebase_storage_bucket} Resource.
 func NewGoogleFirebaseStorageBucket_Override(g GoogleFirebaseStorageBucket, scope constructs.Construct, id *string, config *GoogleFirebaseStorageBucketConfig) {
 	_init_.Initialize()
 

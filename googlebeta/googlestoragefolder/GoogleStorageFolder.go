@@ -5,14 +5,14 @@ package googlestoragefolder
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestoragefolder/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlestoragefolder/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_folder google_storage_folder}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_folder google_storage_folder}.
 type GoogleStorageFolder interface {
 	cdktn.TerraformResource
 	Bucket() *string
@@ -457,7 +457,7 @@ func (j *jsiiProxy_GoogleStorageFolder) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_folder google_storage_folder} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_folder google_storage_folder} Resource.
 func NewGoogleStorageFolder(scope constructs.Construct, id *string, config *GoogleStorageFolderConfig) GoogleStorageFolder {
 	_init_.Initialize()
 
@@ -475,7 +475,7 @@ func NewGoogleStorageFolder(scope constructs.Construct, id *string, config *Goog
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_folder google_storage_folder} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_folder google_storage_folder} Resource.
 func NewGoogleStorageFolder_Override(g GoogleStorageFolder, scope constructs.Construct, id *string, config *GoogleStorageFolderConfig) {
 	_init_.Initialize()
 

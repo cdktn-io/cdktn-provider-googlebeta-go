@@ -5,14 +5,14 @@ package googlestoragebatchoperationsjob
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlestoragebatchoperationsjob/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlestoragebatchoperationsjob/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_batch_operations_job google_storage_batch_operations_job}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_batch_operations_job google_storage_batch_operations_job}.
 type GoogleStorageBatchOperationsJob interface {
 	cdktn.TerraformResource
 	BucketList() GoogleStorageBatchOperationsJobBucketListStructOutputReference
@@ -590,7 +590,7 @@ func (j *jsiiProxy_GoogleStorageBatchOperationsJob) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_batch_operations_job google_storage_batch_operations_job} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_batch_operations_job google_storage_batch_operations_job} Resource.
 func NewGoogleStorageBatchOperationsJob(scope constructs.Construct, id *string, config *GoogleStorageBatchOperationsJobConfig) GoogleStorageBatchOperationsJob {
 	_init_.Initialize()
 
@@ -608,7 +608,7 @@ func NewGoogleStorageBatchOperationsJob(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_storage_batch_operations_job google_storage_batch_operations_job} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_batch_operations_job google_storage_batch_operations_job} Resource.
 func NewGoogleStorageBatchOperationsJob_Override(g GoogleStorageBatchOperationsJob, scope constructs.Construct, id *string, config *GoogleStorageBatchOperationsJobConfig) {
 	_init_.Initialize()
 

@@ -5,9 +5,9 @@ package googlecomputeorganizationsecuritypolicyrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeorganizationsecuritypolicyrule/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeorganizationsecuritypolicyrule/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -74,6 +74,7 @@ type GoogleComputeOrganizationSecurityPolicyRuleMatchConfigOutputReference inter
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutLayer4Config(value interface{})
 	ResetDestIpRanges()
+	ResetLayer4Config()
 	ResetSrcIpRanges()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -526,6 +527,14 @@ func (g *jsiiProxy_GoogleComputeOrganizationSecurityPolicyRuleMatchConfigOutputR
 	_jsii_.InvokeVoid(
 		g,
 		"resetDestIpRanges",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleComputeOrganizationSecurityPolicyRuleMatchConfigOutputReference) ResetLayer4Config() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetLayer4Config",
 		nil, // no parameters
 	)
 }

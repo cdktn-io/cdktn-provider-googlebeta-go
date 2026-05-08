@@ -5,9 +5,9 @@ package datagooglecomputeregioninstancetemplate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglecomputeregioninstancetemplate/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglecomputeregioninstancetemplate/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -53,6 +53,7 @@ type DataGoogleComputeRegionInstanceTemplateDiskOutputReference interface {
 	SourceImageEncryptionKey() DataGoogleComputeRegionInstanceTemplateDiskSourceImageEncryptionKeyList
 	SourceSnapshot() *string
 	SourceSnapshotEncryptionKey() DataGoogleComputeRegionInstanceTemplateDiskSourceSnapshotEncryptionKeyList
+	StoragePool() *string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -356,6 +357,16 @@ func (j *jsiiProxy_DataGoogleComputeRegionInstanceTemplateDiskOutputReference) S
 	_jsii_.Get(
 		j,
 		"sourceSnapshotEncryptionKey",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleComputeRegionInstanceTemplateDiskOutputReference) StoragePool() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"storagePool",
 		&returns,
 	)
 	return returns

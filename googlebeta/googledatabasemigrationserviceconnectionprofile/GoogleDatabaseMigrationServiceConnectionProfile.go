@@ -5,14 +5,14 @@ package googledatabasemigrationserviceconnectionprofile
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatabasemigrationserviceconnectionprofile/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledatabasemigrationserviceconnectionprofile/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_database_migration_service_connection_profile google_database_migration_service_connection_profile}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_database_migration_service_connection_profile google_database_migration_service_connection_profile}.
 type GoogleDatabaseMigrationServiceConnectionProfile interface {
 	cdktn.TerraformResource
 	Alloydb() GoogleDatabaseMigrationServiceConnectionProfileAlloydbOutputReference
@@ -659,7 +659,7 @@ func (j *jsiiProxy_GoogleDatabaseMigrationServiceConnectionProfile) TimeoutsInpu
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_database_migration_service_connection_profile google_database_migration_service_connection_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_database_migration_service_connection_profile google_database_migration_service_connection_profile} Resource.
 func NewGoogleDatabaseMigrationServiceConnectionProfile(scope constructs.Construct, id *string, config *GoogleDatabaseMigrationServiceConnectionProfileConfig) GoogleDatabaseMigrationServiceConnectionProfile {
 	_init_.Initialize()
 
@@ -677,7 +677,7 @@ func NewGoogleDatabaseMigrationServiceConnectionProfile(scope constructs.Constru
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_database_migration_service_connection_profile google_database_migration_service_connection_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_database_migration_service_connection_profile google_database_migration_service_connection_profile} Resource.
 func NewGoogleDatabaseMigrationServiceConnectionProfile_Override(g GoogleDatabaseMigrationServiceConnectionProfile, scope constructs.Construct, id *string, config *GoogleDatabaseMigrationServiceConnectionProfileConfig) {
 	_init_.Initialize()
 

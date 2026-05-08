@@ -5,14 +5,14 @@ package googlednsmanagedzoneiammember
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlednsmanagedzoneiammember/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlednsmanagedzoneiammember/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dns_managed_zone_iam_member google_dns_managed_zone_iam_member}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dns_managed_zone_iam_member google_dns_managed_zone_iam_member}.
 type GoogleDnsManagedZoneIamMember interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -447,7 +447,7 @@ func (j *jsiiProxy_GoogleDnsManagedZoneIamMember) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dns_managed_zone_iam_member google_dns_managed_zone_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dns_managed_zone_iam_member google_dns_managed_zone_iam_member} Resource.
 func NewGoogleDnsManagedZoneIamMember(scope constructs.Construct, id *string, config *GoogleDnsManagedZoneIamMemberConfig) GoogleDnsManagedZoneIamMember {
 	_init_.Initialize()
 
@@ -465,7 +465,7 @@ func NewGoogleDnsManagedZoneIamMember(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dns_managed_zone_iam_member google_dns_managed_zone_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dns_managed_zone_iam_member google_dns_managed_zone_iam_member} Resource.
 func NewGoogleDnsManagedZoneIamMember_Override(g GoogleDnsManagedZoneIamMember, scope constructs.Construct, id *string, config *GoogleDnsManagedZoneIamMemberConfig) {
 	_init_.Initialize()
 

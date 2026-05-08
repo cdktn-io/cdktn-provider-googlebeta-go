@@ -1,0 +1,77 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package datagooglecloudfunctions2function
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (d *jsiiProxy_DataGoogleCloudfunctions2FunctionServiceConfigDirectVpcNetworkInterfaceOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataGoogleCloudfunctions2FunctionServiceConfigDirectVpcNetworkInterfaceOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataGoogleCloudfunctions2FunctionServiceConfigDirectVpcNetworkInterfaceOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataGoogleCloudfunctions2FunctionServiceConfigDirectVpcNetworkInterfaceOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataGoogleCloudfunctions2FunctionServiceConfigDirectVpcNetworkInterfaceOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataGoogleCloudfunctions2FunctionServiceConfigDirectVpcNetworkInterfaceOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataGoogleCloudfunctions2FunctionServiceConfigDirectVpcNetworkInterfaceOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataGoogleCloudfunctions2FunctionServiceConfigDirectVpcNetworkInterfaceOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataGoogleCloudfunctions2FunctionServiceConfigDirectVpcNetworkInterfaceOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataGoogleCloudfunctions2FunctionServiceConfigDirectVpcNetworkInterfaceOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataGoogleCloudfunctions2FunctionServiceConfigDirectVpcNetworkInterfaceOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataGoogleCloudfunctions2FunctionServiceConfigDirectVpcNetworkInterfaceOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataGoogleCloudfunctions2FunctionServiceConfigDirectVpcNetworkInterfaceOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataGoogleCloudfunctions2FunctionServiceConfigDirectVpcNetworkInterfaceOutputReference) validateSetInternalValueParameters(val *DataGoogleCloudfunctions2FunctionServiceConfigDirectVpcNetworkInterface) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataGoogleCloudfunctions2FunctionServiceConfigDirectVpcNetworkInterfaceOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataGoogleCloudfunctions2FunctionServiceConfigDirectVpcNetworkInterfaceOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewDataGoogleCloudfunctions2FunctionServiceConfigDirectVpcNetworkInterfaceOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

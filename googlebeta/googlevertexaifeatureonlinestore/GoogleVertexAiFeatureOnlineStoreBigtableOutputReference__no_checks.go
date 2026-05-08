@@ -63,6 +63,10 @@ func (j *jsiiProxy_GoogleVertexAiFeatureOnlineStoreBigtableOutputReference) vali
 	return nil
 }
 
+func (j *jsiiProxy_GoogleVertexAiFeatureOnlineStoreBigtableOutputReference) validateSetEnableDirectBigtableAccessParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleVertexAiFeatureOnlineStoreBigtableOutputReference) validateSetInternalValueParameters(val *GoogleVertexAiFeatureOnlineStoreBigtable) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (j *jsiiProxy_GoogleVertexAiFeatureOnlineStoreBigtableOutputReference) vali
 }
 
 func (j *jsiiProxy_GoogleVertexAiFeatureOnlineStoreBigtableOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleVertexAiFeatureOnlineStoreBigtableOutputReference) validateSetZoneParameters(val *string) error {
 	return nil
 }
 

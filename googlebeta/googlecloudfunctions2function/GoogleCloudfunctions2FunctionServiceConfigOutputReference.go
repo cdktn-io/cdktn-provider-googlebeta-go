@@ -5,9 +5,9 @@ package googlecloudfunctions2function
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudfunctions2function/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudfunctions2function/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -40,6 +40,11 @@ type GoogleCloudfunctions2FunctionServiceConfigOutputReference interface {
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
+	DirectVpcEgress() *string
+	SetDirectVpcEgress(val *string)
+	DirectVpcEgressInput() *string
+	DirectVpcNetworkInterface() GoogleCloudfunctions2FunctionServiceConfigDirectVpcNetworkInterfaceList
+	DirectVpcNetworkInterfaceInput() interface{}
 	EnvironmentVariables() *map[string]*string
 	SetEnvironmentVariables(val *map[string]*string)
 	EnvironmentVariablesInput() *map[string]*string
@@ -65,11 +70,9 @@ type GoogleCloudfunctions2FunctionServiceConfigOutputReference interface {
 	SecretVolumes() GoogleCloudfunctions2FunctionServiceConfigSecretVolumesList
 	SecretVolumesInput() interface{}
 	Service() *string
-	SetService(val *string)
 	ServiceAccountEmail() *string
 	SetServiceAccountEmail(val *string)
 	ServiceAccountEmailInput() *string
-	ServiceInput() *string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -112,12 +115,15 @@ type GoogleCloudfunctions2FunctionServiceConfigOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutDirectVpcNetworkInterface(value interface{})
 	PutSecretEnvironmentVariables(value interface{})
 	PutSecretVolumes(value interface{})
 	ResetAllTrafficOnLatestRevision()
 	ResetAvailableCpu()
 	ResetAvailableMemory()
 	ResetBinaryAuthorizationPolicy()
+	ResetDirectVpcEgress()
+	ResetDirectVpcNetworkInterface()
 	ResetEnvironmentVariables()
 	ResetIngressSettings()
 	ResetMaxInstanceCount()
@@ -125,7 +131,6 @@ type GoogleCloudfunctions2FunctionServiceConfigOutputReference interface {
 	ResetMinInstanceCount()
 	ResetSecretEnvironmentVariables()
 	ResetSecretVolumes()
-	ResetService()
 	ResetServiceAccountEmail()
 	ResetTimeoutSeconds()
 	ResetVpcConnector()
@@ -250,6 +255,46 @@ func (j *jsiiProxy_GoogleCloudfunctions2FunctionServiceConfigOutputReference) Cr
 	_jsii_.Get(
 		j,
 		"creationStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCloudfunctions2FunctionServiceConfigOutputReference) DirectVpcEgress() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"directVpcEgress",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCloudfunctions2FunctionServiceConfigOutputReference) DirectVpcEgressInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"directVpcEgressInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCloudfunctions2FunctionServiceConfigOutputReference) DirectVpcNetworkInterface() GoogleCloudfunctions2FunctionServiceConfigDirectVpcNetworkInterfaceList {
+	var returns GoogleCloudfunctions2FunctionServiceConfigDirectVpcNetworkInterfaceList
+	_jsii_.Get(
+		j,
+		"directVpcNetworkInterface",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCloudfunctions2FunctionServiceConfigOutputReference) DirectVpcNetworkInterfaceInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"directVpcNetworkInterfaceInput",
 		&returns,
 	)
 	return returns
@@ -455,16 +500,6 @@ func (j *jsiiProxy_GoogleCloudfunctions2FunctionServiceConfigOutputReference) Se
 	return returns
 }
 
-func (j *jsiiProxy_GoogleCloudfunctions2FunctionServiceConfigOutputReference) ServiceInput() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"serviceInput",
-		&returns,
-	)
-	return returns
-}
-
 func (j *jsiiProxy_GoogleCloudfunctions2FunctionServiceConfigOutputReference) TerraformAttribute() *string {
 	var returns *string
 	_jsii_.Get(
@@ -649,6 +684,17 @@ func (j *jsiiProxy_GoogleCloudfunctions2FunctionServiceConfigOutputReference)Set
 	)
 }
 
+func (j *jsiiProxy_GoogleCloudfunctions2FunctionServiceConfigOutputReference)SetDirectVpcEgress(val *string) {
+	if err := j.validateSetDirectVpcEgressParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"directVpcEgress",
+		val,
+	)
+}
+
 func (j *jsiiProxy_GoogleCloudfunctions2FunctionServiceConfigOutputReference)SetEnvironmentVariables(val *map[string]*string) {
 	if err := j.validateSetEnvironmentVariablesParameters(val); err != nil {
 		panic(err)
@@ -711,17 +757,6 @@ func (j *jsiiProxy_GoogleCloudfunctions2FunctionServiceConfigOutputReference)Set
 	_jsii_.Set(
 		j,
 		"minInstanceCount",
-		val,
-	)
-}
-
-func (j *jsiiProxy_GoogleCloudfunctions2FunctionServiceConfigOutputReference)SetService(val *string) {
-	if err := j.validateSetServiceParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"service",
 		val,
 	)
 }
@@ -978,6 +1013,17 @@ func (g *jsiiProxy_GoogleCloudfunctions2FunctionServiceConfigOutputReference) In
 	return returns
 }
 
+func (g *jsiiProxy_GoogleCloudfunctions2FunctionServiceConfigOutputReference) PutDirectVpcNetworkInterface(value interface{}) {
+	if err := g.validatePutDirectVpcNetworkInterfaceParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putDirectVpcNetworkInterface",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleCloudfunctions2FunctionServiceConfigOutputReference) PutSecretEnvironmentVariables(value interface{}) {
 	if err := g.validatePutSecretEnvironmentVariablesParameters(value); err != nil {
 		panic(err)
@@ -1028,6 +1074,22 @@ func (g *jsiiProxy_GoogleCloudfunctions2FunctionServiceConfigOutputReference) Re
 	_jsii_.InvokeVoid(
 		g,
 		"resetBinaryAuthorizationPolicy",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleCloudfunctions2FunctionServiceConfigOutputReference) ResetDirectVpcEgress() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDirectVpcEgress",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleCloudfunctions2FunctionServiceConfigOutputReference) ResetDirectVpcNetworkInterface() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDirectVpcNetworkInterface",
 		nil, // no parameters
 	)
 }
@@ -1084,14 +1146,6 @@ func (g *jsiiProxy_GoogleCloudfunctions2FunctionServiceConfigOutputReference) Re
 	_jsii_.InvokeVoid(
 		g,
 		"resetSecretVolumes",
-		nil, // no parameters
-	)
-}
-
-func (g *jsiiProxy_GoogleCloudfunctions2FunctionServiceConfigOutputReference) ResetService() {
-	_jsii_.InvokeVoid(
-		g,
-		"resetService",
 		nil, // no parameters
 	)
 }

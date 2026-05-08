@@ -5,14 +5,14 @@ package googlepubsubschemaiammember
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlepubsubschemaiammember/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlepubsubschemaiammember/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_pubsub_schema_iam_member google_pubsub_schema_iam_member}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_pubsub_schema_iam_member google_pubsub_schema_iam_member}.
 type GooglePubsubSchemaIamMember interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -447,7 +447,7 @@ func (j *jsiiProxy_GooglePubsubSchemaIamMember) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_pubsub_schema_iam_member google_pubsub_schema_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_pubsub_schema_iam_member google_pubsub_schema_iam_member} Resource.
 func NewGooglePubsubSchemaIamMember(scope constructs.Construct, id *string, config *GooglePubsubSchemaIamMemberConfig) GooglePubsubSchemaIamMember {
 	_init_.Initialize()
 
@@ -465,7 +465,7 @@ func NewGooglePubsubSchemaIamMember(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_pubsub_schema_iam_member google_pubsub_schema_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_pubsub_schema_iam_member google_pubsub_schema_iam_member} Resource.
 func NewGooglePubsubSchemaIamMember_Override(g GooglePubsubSchemaIamMember, scope constructs.Construct, id *string, config *GooglePubsubSchemaIamMemberConfig) {
 	_init_.Initialize()
 

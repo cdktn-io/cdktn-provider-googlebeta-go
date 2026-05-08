@@ -5,14 +5,14 @@ package googleosloginsshpublickey
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleosloginsshpublickey/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleosloginsshpublickey/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_login_ssh_public_key google_os_login_ssh_public_key}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_login_ssh_public_key google_os_login_ssh_public_key}.
 type GoogleOsLoginSshPublicKey interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -448,7 +448,7 @@ func (j *jsiiProxy_GoogleOsLoginSshPublicKey) UserInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_login_ssh_public_key google_os_login_ssh_public_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_login_ssh_public_key google_os_login_ssh_public_key} Resource.
 func NewGoogleOsLoginSshPublicKey(scope constructs.Construct, id *string, config *GoogleOsLoginSshPublicKeyConfig) GoogleOsLoginSshPublicKey {
 	_init_.Initialize()
 
@@ -466,7 +466,7 @@ func NewGoogleOsLoginSshPublicKey(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_os_login_ssh_public_key google_os_login_ssh_public_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_login_ssh_public_key google_os_login_ssh_public_key} Resource.
 func NewGoogleOsLoginSshPublicKey_Override(g GoogleOsLoginSshPublicKey, scope constructs.Construct, id *string, config *GoogleOsLoginSshPublicKeyConfig) {
 	_init_.Initialize()
 

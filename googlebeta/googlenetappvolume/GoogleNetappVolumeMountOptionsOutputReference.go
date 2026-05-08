@@ -5,9 +5,9 @@ package googlenetappvolume
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenetappvolume/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenetappvolume/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -35,6 +35,7 @@ type GoogleNetappVolumeMountOptionsOutputReference interface {
 	Instructions() *string
 	InternalValue() *GoogleNetappVolumeMountOptions
 	SetInternalValue(val *GoogleNetappVolumeMountOptions)
+	IpAddress() *string
 	Protocol() *string
 	// Experimental.
 	TerraformAttribute() *string
@@ -158,6 +159,16 @@ func (j *jsiiProxy_GoogleNetappVolumeMountOptionsOutputReference) InternalValue(
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleNetappVolumeMountOptionsOutputReference) IpAddress() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"ipAddress",
 		&returns,
 	)
 	return returns

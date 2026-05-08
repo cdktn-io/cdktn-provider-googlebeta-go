@@ -5,9 +5,9 @@ package googlecomputeregionurlmap
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeregionurlmap/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeregionurlmap/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -40,6 +40,8 @@ type GoogleComputeRegionUrlMapPathMatcherOutputReference interface {
 	DescriptionInput() *string
 	// Experimental.
 	Fqn() *string
+	HeaderAction() GoogleComputeRegionUrlMapPathMatcherHeaderActionOutputReference
+	HeaderActionInput() *GoogleComputeRegionUrlMapPathMatcherHeaderAction
 	InternalValue() interface{}
 	SetInternalValue(val interface{})
 	Name() *string
@@ -83,12 +85,14 @@ type GoogleComputeRegionUrlMapPathMatcherOutputReference interface {
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutDefaultRouteAction(value *GoogleComputeRegionUrlMapPathMatcherDefaultRouteAction)
 	PutDefaultUrlRedirect(value *GoogleComputeRegionUrlMapPathMatcherDefaultUrlRedirect)
+	PutHeaderAction(value *GoogleComputeRegionUrlMapPathMatcherHeaderAction)
 	PutPathRule(value interface{})
 	PutRouteRules(value interface{})
 	ResetDefaultRouteAction()
 	ResetDefaultService()
 	ResetDefaultUrlRedirect()
 	ResetDescription()
+	ResetHeaderAction()
 	ResetPathRule()
 	ResetRouteRules()
 	// Produce the Token's value at resolution time.
@@ -221,6 +225,26 @@ func (j *jsiiProxy_GoogleComputeRegionUrlMapPathMatcherOutputReference) Fqn() *s
 	_jsii_.Get(
 		j,
 		"fqn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeRegionUrlMapPathMatcherOutputReference) HeaderAction() GoogleComputeRegionUrlMapPathMatcherHeaderActionOutputReference {
+	var returns GoogleComputeRegionUrlMapPathMatcherHeaderActionOutputReference
+	_jsii_.Get(
+		j,
+		"headerAction",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeRegionUrlMapPathMatcherOutputReference) HeaderActionInput() *GoogleComputeRegionUrlMapPathMatcherHeaderAction {
+	var returns *GoogleComputeRegionUrlMapPathMatcherHeaderAction
+	_jsii_.Get(
+		j,
+		"headerActionInput",
 		&returns,
 	)
 	return returns
@@ -640,6 +664,17 @@ func (g *jsiiProxy_GoogleComputeRegionUrlMapPathMatcherOutputReference) PutDefau
 	)
 }
 
+func (g *jsiiProxy_GoogleComputeRegionUrlMapPathMatcherOutputReference) PutHeaderAction(value *GoogleComputeRegionUrlMapPathMatcherHeaderAction) {
+	if err := g.validatePutHeaderActionParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putHeaderAction",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleComputeRegionUrlMapPathMatcherOutputReference) PutPathRule(value interface{}) {
 	if err := g.validatePutPathRuleParameters(value); err != nil {
 		panic(err)
@@ -690,6 +725,14 @@ func (g *jsiiProxy_GoogleComputeRegionUrlMapPathMatcherOutputReference) ResetDes
 	_jsii_.InvokeVoid(
 		g,
 		"resetDescription",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleComputeRegionUrlMapPathMatcherOutputReference) ResetHeaderAction() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetHeaderAction",
 		nil, // no parameters
 	)
 }

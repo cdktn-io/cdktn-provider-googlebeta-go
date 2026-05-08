@@ -5,9 +5,9 @@ package googlebeyondcorpsecuritygatewayapplication
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebeyondcorpsecuritygatewayapplication/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebeyondcorpsecuritygatewayapplication/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -70,7 +70,6 @@ type GoogleBeyondcorpSecurityGatewayApplicationEndpointMatchersOutputReference i
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
-	ResetPorts()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -485,14 +484,6 @@ func (g *jsiiProxy_GoogleBeyondcorpSecurityGatewayApplicationEndpointMatchersOut
 	)
 
 	return returns
-}
-
-func (g *jsiiProxy_GoogleBeyondcorpSecurityGatewayApplicationEndpointMatchersOutputReference) ResetPorts() {
-	_jsii_.InvokeVoid(
-		g,
-		"resetPorts",
-		nil, // no parameters
-	)
 }
 
 func (g *jsiiProxy_GoogleBeyondcorpSecurityGatewayApplicationEndpointMatchersOutputReference) Resolve(context cdktn.IResolveContext) interface{} {

@@ -5,9 +5,9 @@ package datagooglecontainercluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglecontainercluster/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglecontainercluster/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -28,6 +28,7 @@ type DataGoogleContainerClusterMaintenancePolicyMaintenanceExclusionExclusionOpt
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
+	EndTimeBehavior() *string
 	// Experimental.
 	Fqn() *string
 	InternalValue() *DataGoogleContainerClusterMaintenancePolicyMaintenanceExclusionExclusionOptions
@@ -105,6 +106,16 @@ func (j *jsiiProxy_DataGoogleContainerClusterMaintenancePolicyMaintenanceExclusi
 	_jsii_.Get(
 		j,
 		"creationStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleContainerClusterMaintenancePolicyMaintenanceExclusionExclusionOptionsOutputReference) EndTimeBehavior() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"endTimeBehavior",
 		&returns,
 	)
 	return returns

@@ -5,14 +5,14 @@ package googlefirebaseextensionsinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefirebaseextensionsinstance/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlefirebaseextensionsinstance/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_firebase_extensions_instance google_firebase_extensions_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_firebase_extensions_instance google_firebase_extensions_instance}.
 type GoogleFirebaseExtensionsInstance interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -523,7 +523,7 @@ func (j *jsiiProxy_GoogleFirebaseExtensionsInstance) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_firebase_extensions_instance google_firebase_extensions_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_firebase_extensions_instance google_firebase_extensions_instance} Resource.
 func NewGoogleFirebaseExtensionsInstance(scope constructs.Construct, id *string, config *GoogleFirebaseExtensionsInstanceConfig) GoogleFirebaseExtensionsInstance {
 	_init_.Initialize()
 
@@ -541,7 +541,7 @@ func NewGoogleFirebaseExtensionsInstance(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_firebase_extensions_instance google_firebase_extensions_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_firebase_extensions_instance google_firebase_extensions_instance} Resource.
 func NewGoogleFirebaseExtensionsInstance_Override(g GoogleFirebaseExtensionsInstance, scope constructs.Construct, id *string, config *GoogleFirebaseExtensionsInstanceConfig) {
 	_init_.Initialize()
 

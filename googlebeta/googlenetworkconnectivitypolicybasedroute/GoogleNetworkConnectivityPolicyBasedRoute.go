@@ -5,14 +5,14 @@ package googlenetworkconnectivitypolicybasedroute
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenetworkconnectivitypolicybasedroute/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenetworkconnectivitypolicybasedroute/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_connectivity_policy_based_route google_network_connectivity_policy_based_route}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_policy_based_route google_network_connectivity_policy_based_route}.
 type GoogleNetworkConnectivityPolicyBasedRoute interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -670,7 +670,7 @@ func (j *jsiiProxy_GoogleNetworkConnectivityPolicyBasedRoute) Warnings() GoogleN
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_connectivity_policy_based_route google_network_connectivity_policy_based_route} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_policy_based_route google_network_connectivity_policy_based_route} Resource.
 func NewGoogleNetworkConnectivityPolicyBasedRoute(scope constructs.Construct, id *string, config *GoogleNetworkConnectivityPolicyBasedRouteConfig) GoogleNetworkConnectivityPolicyBasedRoute {
 	_init_.Initialize()
 
@@ -688,7 +688,7 @@ func NewGoogleNetworkConnectivityPolicyBasedRoute(scope constructs.Construct, id
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_connectivity_policy_based_route google_network_connectivity_policy_based_route} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_policy_based_route google_network_connectivity_policy_based_route} Resource.
 func NewGoogleNetworkConnectivityPolicyBasedRoute_Override(g GoogleNetworkConnectivityPolicyBasedRoute, scope constructs.Construct, id *string, config *GoogleNetworkConnectivityPolicyBasedRouteConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package googleidentityplatformtenantinboundsamlconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleidentityplatformtenantinboundsamlconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleidentityplatformtenantinboundsamlconfig/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_identity_platform_tenant_inbound_saml_config google_identity_platform_tenant_inbound_saml_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_identity_platform_tenant_inbound_saml_config google_identity_platform_tenant_inbound_saml_config}.
 type GoogleIdentityPlatformTenantInboundSamlConfig interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -506,7 +506,7 @@ func (j *jsiiProxy_GoogleIdentityPlatformTenantInboundSamlConfig) TimeoutsInput(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_identity_platform_tenant_inbound_saml_config google_identity_platform_tenant_inbound_saml_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_identity_platform_tenant_inbound_saml_config google_identity_platform_tenant_inbound_saml_config} Resource.
 func NewGoogleIdentityPlatformTenantInboundSamlConfig(scope constructs.Construct, id *string, config *GoogleIdentityPlatformTenantInboundSamlConfigConfig) GoogleIdentityPlatformTenantInboundSamlConfig {
 	_init_.Initialize()
 
@@ -524,7 +524,7 @@ func NewGoogleIdentityPlatformTenantInboundSamlConfig(scope constructs.Construct
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_identity_platform_tenant_inbound_saml_config google_identity_platform_tenant_inbound_saml_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_identity_platform_tenant_inbound_saml_config google_identity_platform_tenant_inbound_saml_config} Resource.
 func NewGoogleIdentityPlatformTenantInboundSamlConfig_Override(g GoogleIdentityPlatformTenantInboundSamlConfig, scope constructs.Construct, id *string, config *GoogleIdentityPlatformTenantInboundSamlConfigConfig) {
 	_init_.Initialize()
 

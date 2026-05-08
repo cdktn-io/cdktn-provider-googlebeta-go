@@ -5,9 +5,9 @@ package googlecloudrunservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudrunservice/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudrunservice/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -52,6 +52,8 @@ type GoogleCloudRunServiceTemplateSpecContainersOutputReference interface {
 	NameInput() *string
 	Ports() GoogleCloudRunServiceTemplateSpecContainersPortsList
 	PortsInput() interface{}
+	ReadinessProbe() GoogleCloudRunServiceTemplateSpecContainersReadinessProbeOutputReference
+	ReadinessProbeInput() *GoogleCloudRunServiceTemplateSpecContainersReadinessProbe
 	Resources() GoogleCloudRunServiceTemplateSpecContainersResourcesOutputReference
 	ResourcesInput() *GoogleCloudRunServiceTemplateSpecContainersResources
 	StartupProbe() GoogleCloudRunServiceTemplateSpecContainersStartupProbeOutputReference
@@ -97,6 +99,7 @@ type GoogleCloudRunServiceTemplateSpecContainersOutputReference interface {
 	PutEnvFrom(value interface{})
 	PutLivenessProbe(value *GoogleCloudRunServiceTemplateSpecContainersLivenessProbe)
 	PutPorts(value interface{})
+	PutReadinessProbe(value *GoogleCloudRunServiceTemplateSpecContainersReadinessProbe)
 	PutResources(value *GoogleCloudRunServiceTemplateSpecContainersResources)
 	PutStartupProbe(value *GoogleCloudRunServiceTemplateSpecContainersStartupProbe)
 	PutVolumeMounts(value interface{})
@@ -107,6 +110,7 @@ type GoogleCloudRunServiceTemplateSpecContainersOutputReference interface {
 	ResetLivenessProbe()
 	ResetName()
 	ResetPorts()
+	ResetReadinessProbe()
 	ResetResources()
 	ResetStartupProbe()
 	ResetVolumeMounts()
@@ -331,6 +335,26 @@ func (j *jsiiProxy_GoogleCloudRunServiceTemplateSpecContainersOutputReference) P
 	_jsii_.Get(
 		j,
 		"portsInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCloudRunServiceTemplateSpecContainersOutputReference) ReadinessProbe() GoogleCloudRunServiceTemplateSpecContainersReadinessProbeOutputReference {
+	var returns GoogleCloudRunServiceTemplateSpecContainersReadinessProbeOutputReference
+	_jsii_.Get(
+		j,
+		"readinessProbe",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCloudRunServiceTemplateSpecContainersOutputReference) ReadinessProbeInput() *GoogleCloudRunServiceTemplateSpecContainersReadinessProbe {
+	var returns *GoogleCloudRunServiceTemplateSpecContainersReadinessProbe
+	_jsii_.Get(
+		j,
+		"readinessProbeInput",
 		&returns,
 	)
 	return returns
@@ -804,6 +828,17 @@ func (g *jsiiProxy_GoogleCloudRunServiceTemplateSpecContainersOutputReference) P
 	)
 }
 
+func (g *jsiiProxy_GoogleCloudRunServiceTemplateSpecContainersOutputReference) PutReadinessProbe(value *GoogleCloudRunServiceTemplateSpecContainersReadinessProbe) {
+	if err := g.validatePutReadinessProbeParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putReadinessProbe",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleCloudRunServiceTemplateSpecContainersOutputReference) PutResources(value *GoogleCloudRunServiceTemplateSpecContainersResources) {
 	if err := g.validatePutResourcesParameters(value); err != nil {
 		panic(err)
@@ -889,6 +924,14 @@ func (g *jsiiProxy_GoogleCloudRunServiceTemplateSpecContainersOutputReference) R
 	_jsii_.InvokeVoid(
 		g,
 		"resetPorts",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleCloudRunServiceTemplateSpecContainersOutputReference) ResetReadinessProbe() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetReadinessProbe",
 		nil, // no parameters
 	)
 }

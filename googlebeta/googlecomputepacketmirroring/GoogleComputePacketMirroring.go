@@ -5,14 +5,14 @@ package googlecomputepacketmirroring
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputepacketmirroring/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputepacketmirroring/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_packet_mirroring google_compute_packet_mirroring}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_packet_mirroring google_compute_packet_mirroring}.
 type GoogleComputePacketMirroring interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -36,6 +36,9 @@ type GoogleComputePacketMirroring interface {
 	Description() *string
 	SetDescription(val *string)
 	DescriptionInput() *string
+	Enable() *string
+	SetEnable(val *string)
+	EnableInput() *string
 	Filter() GoogleComputePacketMirroringFilterOutputReference
 	FilterInput() *GoogleComputePacketMirroringFilter
 	// Experimental.
@@ -138,6 +141,7 @@ type GoogleComputePacketMirroring interface {
 	PutNetwork(value *GoogleComputePacketMirroringNetwork)
 	PutTimeouts(value *GoogleComputePacketMirroringTimeouts)
 	ResetDescription()
+	ResetEnable()
 	ResetFilter()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -259,6 +263,26 @@ func (j *jsiiProxy_GoogleComputePacketMirroring) DescriptionInput() *string {
 	_jsii_.Get(
 		j,
 		"descriptionInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputePacketMirroring) Enable() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"enable",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputePacketMirroring) EnableInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"enableInput",
 		&returns,
 	)
 	return returns
@@ -555,7 +579,7 @@ func (j *jsiiProxy_GoogleComputePacketMirroring) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_packet_mirroring google_compute_packet_mirroring} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_packet_mirroring google_compute_packet_mirroring} Resource.
 func NewGoogleComputePacketMirroring(scope constructs.Construct, id *string, config *GoogleComputePacketMirroringConfig) GoogleComputePacketMirroring {
 	_init_.Initialize()
 
@@ -573,7 +597,7 @@ func NewGoogleComputePacketMirroring(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_packet_mirroring google_compute_packet_mirroring} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_packet_mirroring google_compute_packet_mirroring} Resource.
 func NewGoogleComputePacketMirroring_Override(g GoogleComputePacketMirroring, scope constructs.Construct, id *string, config *GoogleComputePacketMirroringConfig) {
 	_init_.Initialize()
 
@@ -621,6 +645,17 @@ func (j *jsiiProxy_GoogleComputePacketMirroring)SetDescription(val *string) {
 	_jsii_.Set(
 		j,
 		"description",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleComputePacketMirroring)SetEnable(val *string) {
+	if err := j.validateSetEnableParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"enable",
 		val,
 	)
 }
@@ -1130,6 +1165,14 @@ func (g *jsiiProxy_GoogleComputePacketMirroring) ResetDescription() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetDescription",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleComputePacketMirroring) ResetEnable() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetEnable",
 		nil, // no parameters
 	)
 }

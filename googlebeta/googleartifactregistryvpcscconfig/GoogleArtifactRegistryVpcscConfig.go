@@ -5,14 +5,14 @@ package googleartifactregistryvpcscconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleartifactregistryvpcscconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleartifactregistryvpcscconfig/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_artifact_registry_vpcsc_config google_artifact_registry_vpcsc_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_artifact_registry_vpcsc_config google_artifact_registry_vpcsc_config}.
 type GoogleArtifactRegistryVpcscConfig interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -426,7 +426,7 @@ func (j *jsiiProxy_GoogleArtifactRegistryVpcscConfig) VpcscPolicyInput() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_artifact_registry_vpcsc_config google_artifact_registry_vpcsc_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_artifact_registry_vpcsc_config google_artifact_registry_vpcsc_config} Resource.
 func NewGoogleArtifactRegistryVpcscConfig(scope constructs.Construct, id *string, config *GoogleArtifactRegistryVpcscConfigConfig) GoogleArtifactRegistryVpcscConfig {
 	_init_.Initialize()
 
@@ -444,7 +444,7 @@ func NewGoogleArtifactRegistryVpcscConfig(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_artifact_registry_vpcsc_config google_artifact_registry_vpcsc_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_artifact_registry_vpcsc_config google_artifact_registry_vpcsc_config} Resource.
 func NewGoogleArtifactRegistryVpcscConfig_Override(g GoogleArtifactRegistryVpcscConfig, scope constructs.Construct, id *string, config *GoogleArtifactRegistryVpcscConfigConfig) {
 	_init_.Initialize()
 

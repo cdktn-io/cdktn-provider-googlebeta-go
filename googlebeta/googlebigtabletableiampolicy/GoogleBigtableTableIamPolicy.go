@@ -5,14 +5,14 @@ package googlebigtabletableiampolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebigtabletableiampolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebigtabletableiampolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigtable_table_iam_policy google_bigtable_table_iam_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigtable_table_iam_policy google_bigtable_table_iam_policy}.
 type GoogleBigtableTableIamPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -43,9 +43,6 @@ type GoogleBigtableTableIamPolicy interface {
 	Id() *string
 	SetId(val *string)
 	IdInput() *string
-	Instance() *string
-	SetInstance(val *string)
-	InstanceInput() *string
 	InstanceName() *string
 	SetInstanceName(val *string)
 	InstanceNameInput() *string
@@ -124,8 +121,6 @@ type GoogleBigtableTableIamPolicy interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	ResetId()
-	ResetInstance()
-	ResetInstanceName()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
@@ -262,26 +257,6 @@ func (j *jsiiProxy_GoogleBigtableTableIamPolicy) IdInput() *string {
 	_jsii_.Get(
 		j,
 		"idInput",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_GoogleBigtableTableIamPolicy) Instance() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"instance",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_GoogleBigtableTableIamPolicy) InstanceInput() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"instanceInput",
 		&returns,
 	)
 	return returns
@@ -448,7 +423,7 @@ func (j *jsiiProxy_GoogleBigtableTableIamPolicy) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigtable_table_iam_policy google_bigtable_table_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigtable_table_iam_policy google_bigtable_table_iam_policy} Resource.
 func NewGoogleBigtableTableIamPolicy(scope constructs.Construct, id *string, config *GoogleBigtableTableIamPolicyConfig) GoogleBigtableTableIamPolicy {
 	_init_.Initialize()
 
@@ -466,7 +441,7 @@ func NewGoogleBigtableTableIamPolicy(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigtable_table_iam_policy google_bigtable_table_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigtable_table_iam_policy google_bigtable_table_iam_policy} Resource.
 func NewGoogleBigtableTableIamPolicy_Override(g GoogleBigtableTableIamPolicy, scope constructs.Construct, id *string, config *GoogleBigtableTableIamPolicyConfig) {
 	_init_.Initialize()
 
@@ -522,17 +497,6 @@ func (j *jsiiProxy_GoogleBigtableTableIamPolicy)SetId(val *string) {
 	_jsii_.Set(
 		j,
 		"id",
-		val,
-	)
-}
-
-func (j *jsiiProxy_GoogleBigtableTableIamPolicy)SetInstance(val *string) {
-	if err := j.validateSetInstanceParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"instance",
 		val,
 	)
 }
@@ -968,22 +932,6 @@ func (g *jsiiProxy_GoogleBigtableTableIamPolicy) ResetId() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetId",
-		nil, // no parameters
-	)
-}
-
-func (g *jsiiProxy_GoogleBigtableTableIamPolicy) ResetInstance() {
-	_jsii_.InvokeVoid(
-		g,
-		"resetInstance",
-		nil, // no parameters
-	)
-}
-
-func (g *jsiiProxy_GoogleBigtableTableIamPolicy) ResetInstanceName() {
-	_jsii_.InvokeVoid(
-		g,
-		"resetInstanceName",
 		nil, // no parameters
 	)
 }

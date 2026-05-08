@@ -5,9 +5,9 @@ package datagooglebigquerytable
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglebigquerytable/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglebigquerytable/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -38,6 +38,7 @@ type DataGoogleBigqueryTableExternalDataConfigurationCsvOptionsOutputReference i
 	SetInternalValue(val *DataGoogleBigqueryTableExternalDataConfigurationCsvOptions)
 	Quote() *string
 	SkipLeadingRows() *float64
+	SourceColumnMatch() *string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -190,6 +191,16 @@ func (j *jsiiProxy_DataGoogleBigqueryTableExternalDataConfigurationCsvOptionsOut
 	_jsii_.Get(
 		j,
 		"skipLeadingRows",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleBigqueryTableExternalDataConfigurationCsvOptionsOutputReference) SourceColumnMatch() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"sourceColumnMatch",
 		&returns,
 	)
 	return returns

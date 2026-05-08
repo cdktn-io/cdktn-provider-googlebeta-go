@@ -5,9 +5,9 @@ package googledataproccluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataproccluster/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataproccluster/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -47,6 +47,9 @@ type GoogleDataprocClusterClusterConfigGceClusterConfigOutputReference interface
 	NodeGroupAffinityInput() *GoogleDataprocClusterClusterConfigGceClusterConfigNodeGroupAffinity
 	ReservationAffinity() GoogleDataprocClusterClusterConfigGceClusterConfigReservationAffinityOutputReference
 	ReservationAffinityInput() *GoogleDataprocClusterClusterConfigGceClusterConfigReservationAffinity
+	ResourceManagerTags() *map[string]*string
+	SetResourceManagerTags(val *map[string]*string)
+	ResourceManagerTagsInput() *map[string]*string
 	ServiceAccount() *string
 	SetServiceAccount(val *string)
 	ServiceAccountInput() *string
@@ -106,6 +109,7 @@ type GoogleDataprocClusterClusterConfigGceClusterConfigOutputReference interface
 	ResetNetwork()
 	ResetNodeGroupAffinity()
 	ResetReservationAffinity()
+	ResetResourceManagerTags()
 	ResetServiceAccount()
 	ResetServiceAccountScopes()
 	ResetShieldedInstanceConfig()
@@ -292,6 +296,26 @@ func (j *jsiiProxy_GoogleDataprocClusterClusterConfigGceClusterConfigOutputRefer
 	_jsii_.Get(
 		j,
 		"reservationAffinityInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDataprocClusterClusterConfigGceClusterConfigOutputReference) ResourceManagerTags() *map[string]*string {
+	var returns *map[string]*string
+	_jsii_.Get(
+		j,
+		"resourceManagerTags",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDataprocClusterClusterConfigGceClusterConfigOutputReference) ResourceManagerTagsInput() *map[string]*string {
+	var returns *map[string]*string
+	_jsii_.Get(
+		j,
+		"resourceManagerTagsInput",
 		&returns,
 	)
 	return returns
@@ -527,6 +551,17 @@ func (j *jsiiProxy_GoogleDataprocClusterClusterConfigGceClusterConfigOutputRefer
 	_jsii_.Set(
 		j,
 		"network",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleDataprocClusterClusterConfigGceClusterConfigOutputReference)SetResourceManagerTags(val *map[string]*string) {
+	if err := j.validateSetResourceManagerTagsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"resourceManagerTags",
 		val,
 	)
 }
@@ -882,6 +917,14 @@ func (g *jsiiProxy_GoogleDataprocClusterClusterConfigGceClusterConfigOutputRefer
 	_jsii_.InvokeVoid(
 		g,
 		"resetReservationAffinity",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleDataprocClusterClusterConfigGceClusterConfigOutputReference) ResetResourceManagerTags() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetResourceManagerTags",
 		nil, // no parameters
 	)
 }

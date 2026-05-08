@@ -131,6 +131,10 @@ func (j *jsiiProxy_GoogleRedisInstance) validateSetCustomerManagedKeyParameters(
 	return nil
 }
 
+func (j *jsiiProxy_GoogleRedisInstance) validateSetDeletionProtectionParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleRedisInstance) validateSetDisplayNameParameters(val *string) error {
 	return nil
 }

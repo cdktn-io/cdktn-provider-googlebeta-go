@@ -99,6 +99,10 @@ func (j *jsiiProxy_GoogleCloudRunV2ServiceTemplateOutputReference) validateSetGp
 	return nil
 }
 
+func (j *jsiiProxy_GoogleCloudRunV2ServiceTemplateOutputReference) validateSetHealthCheckDisabledParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleCloudRunV2ServiceTemplateOutputReference) validateSetInternalValueParameters(val *GoogleCloudRunV2ServiceTemplate) error {
 	return nil
 }

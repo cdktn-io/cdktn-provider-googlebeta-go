@@ -1,0 +1,77 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package googlecesappversion
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (g *jsiiProxy_GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthenticationServiceAccountAuthConfigOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthenticationServiceAccountAuthConfigOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthenticationServiceAccountAuthConfigOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthenticationServiceAccountAuthConfigOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthenticationServiceAccountAuthConfigOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthenticationServiceAccountAuthConfigOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthenticationServiceAccountAuthConfigOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthenticationServiceAccountAuthConfigOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthenticationServiceAccountAuthConfigOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthenticationServiceAccountAuthConfigOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthenticationServiceAccountAuthConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthenticationServiceAccountAuthConfigOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthenticationServiceAccountAuthConfigOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthenticationServiceAccountAuthConfigOutputReference) validateSetInternalValueParameters(val *GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthenticationServiceAccountAuthConfig) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthenticationServiceAccountAuthConfigOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthenticationServiceAccountAuthConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewGoogleCesAppVersionSnapshotToolsetsOpenApiToolsetApiAuthenticationServiceAccountAuthConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

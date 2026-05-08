@@ -5,14 +5,14 @@ package googlesecuresourcemanagerbranchrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlesecuresourcemanagerbranchrule/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlesecuresourcemanagerbranchrule/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_secure_source_manager_branch_rule google_secure_source_manager_branch_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_secure_source_manager_branch_rule google_secure_source_manager_branch_rule}.
 type GoogleSecureSourceManagerBranchRule interface {
 	cdktn.TerraformResource
 	AllowStaleReviews() interface{}
@@ -671,7 +671,7 @@ func (j *jsiiProxy_GoogleSecureSourceManagerBranchRule) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_secure_source_manager_branch_rule google_secure_source_manager_branch_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_secure_source_manager_branch_rule google_secure_source_manager_branch_rule} Resource.
 func NewGoogleSecureSourceManagerBranchRule(scope constructs.Construct, id *string, config *GoogleSecureSourceManagerBranchRuleConfig) GoogleSecureSourceManagerBranchRule {
 	_init_.Initialize()
 
@@ -689,7 +689,7 @@ func NewGoogleSecureSourceManagerBranchRule(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_secure_source_manager_branch_rule google_secure_source_manager_branch_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_secure_source_manager_branch_rule google_secure_source_manager_branch_rule} Resource.
 func NewGoogleSecureSourceManagerBranchRule_Override(g GoogleSecureSourceManagerBranchRule, scope constructs.Construct, id *string, config *GoogleSecureSourceManagerBranchRuleConfig) {
 	_init_.Initialize()
 

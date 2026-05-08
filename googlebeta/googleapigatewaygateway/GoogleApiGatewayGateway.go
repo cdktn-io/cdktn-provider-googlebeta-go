@@ -5,14 +5,14 @@ package googleapigatewaygateway
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapigatewaygateway/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapigatewaygateway/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_api_gateway_gateway google_api_gateway_gateway}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_api_gateway_gateway google_api_gateway_gateway}.
 type GoogleApiGatewayGateway interface {
 	cdktn.TerraformResource
 	ApiConfig() *string
@@ -529,7 +529,7 @@ func (j *jsiiProxy_GoogleApiGatewayGateway) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_api_gateway_gateway google_api_gateway_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_api_gateway_gateway google_api_gateway_gateway} Resource.
 func NewGoogleApiGatewayGateway(scope constructs.Construct, id *string, config *GoogleApiGatewayGatewayConfig) GoogleApiGatewayGateway {
 	_init_.Initialize()
 
@@ -547,7 +547,7 @@ func NewGoogleApiGatewayGateway(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_api_gateway_gateway google_api_gateway_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_api_gateway_gateway google_api_gateway_gateway} Resource.
 func NewGoogleApiGatewayGateway_Override(g GoogleApiGatewayGateway, scope constructs.Construct, id *string, config *GoogleApiGatewayGatewayConfig) {
 	_init_.Initialize()
 

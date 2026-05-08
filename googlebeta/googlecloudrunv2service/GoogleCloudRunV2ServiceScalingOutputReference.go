@@ -5,9 +5,9 @@ package googlecloudrunv2service
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudrunv2service/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudrunv2service/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -35,6 +35,9 @@ type GoogleCloudRunV2ServiceScalingOutputReference interface {
 	ManualInstanceCount() *float64
 	SetManualInstanceCount(val *float64)
 	ManualInstanceCountInput() *float64
+	MaxInstanceCount() *float64
+	SetMaxInstanceCount(val *float64)
+	MaxInstanceCountInput() *float64
 	MinInstanceCount() *float64
 	SetMinInstanceCount(val *float64)
 	MinInstanceCountInput() *float64
@@ -74,6 +77,7 @@ type GoogleCloudRunV2ServiceScalingOutputReference interface {
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetManualInstanceCount()
+	ResetMaxInstanceCount()
 	ResetMinInstanceCount()
 	ResetScalingMode()
 	// Produce the Token's value at resolution time.
@@ -156,6 +160,26 @@ func (j *jsiiProxy_GoogleCloudRunV2ServiceScalingOutputReference) ManualInstance
 	_jsii_.Get(
 		j,
 		"manualInstanceCountInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCloudRunV2ServiceScalingOutputReference) MaxInstanceCount() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"maxInstanceCount",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCloudRunV2ServiceScalingOutputReference) MaxInstanceCountInput() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"maxInstanceCountInput",
 		&returns,
 	)
 	return returns
@@ -289,6 +313,17 @@ func (j *jsiiProxy_GoogleCloudRunV2ServiceScalingOutputReference)SetManualInstan
 	_jsii_.Set(
 		j,
 		"manualInstanceCount",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleCloudRunV2ServiceScalingOutputReference)SetMaxInstanceCount(val *float64) {
+	if err := j.validateSetMaxInstanceCountParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"maxInstanceCount",
 		val,
 	)
 }
@@ -527,6 +562,14 @@ func (g *jsiiProxy_GoogleCloudRunV2ServiceScalingOutputReference) ResetManualIns
 	_jsii_.InvokeVoid(
 		g,
 		"resetManualInstanceCount",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleCloudRunV2ServiceScalingOutputReference) ResetMaxInstanceCount() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetMaxInstanceCount",
 		nil, // no parameters
 	)
 }

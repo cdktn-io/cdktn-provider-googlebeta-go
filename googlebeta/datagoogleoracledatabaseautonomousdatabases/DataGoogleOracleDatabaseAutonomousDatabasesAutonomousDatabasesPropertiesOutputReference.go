@@ -5,9 +5,9 @@ package datagoogleoracledatabaseautonomousdatabases
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagoogleoracledatabaseautonomousdatabases/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagoogleoracledatabaseautonomousdatabases/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -34,6 +34,7 @@ type DataGoogleOracleDatabaseAutonomousDatabasesAutonomousDatabasesPropertiesOut
 	ComputeCount() *float64
 	ConnectionStrings() DataGoogleOracleDatabaseAutonomousDatabasesAutonomousDatabasesPropertiesConnectionStringsList
 	ConnectionUrls() DataGoogleOracleDatabaseAutonomousDatabasesAutonomousDatabasesPropertiesConnectionUrlsList
+	CpuCoreCount() *float64
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -81,6 +82,7 @@ type DataGoogleOracleDatabaseAutonomousDatabasesAutonomousDatabasesPropertiesOut
 	RefreshableState() *string
 	Role() *string
 	ScheduledOperationDetails() DataGoogleOracleDatabaseAutonomousDatabasesAutonomousDatabasesPropertiesScheduledOperationDetailsList
+	SecretId() *string
 	SqlWebDeveloperUrl() *string
 	State() *string
 	SupportedCloneRegions() *[]*string
@@ -94,6 +96,7 @@ type DataGoogleOracleDatabaseAutonomousDatabasesAutonomousDatabasesPropertiesOut
 	SetTerraformResource(val cdktn.IInterpolatingParent)
 	TotalAutoBackupStorageSizeGbs() *float64
 	UsedDataStorageSizeTbs() *float64
+	VaultId() *string
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
@@ -258,6 +261,16 @@ func (j *jsiiProxy_DataGoogleOracleDatabaseAutonomousDatabasesAutonomousDatabase
 	_jsii_.Get(
 		j,
 		"connectionUrls",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleOracleDatabaseAutonomousDatabasesAutonomousDatabasesPropertiesOutputReference) CpuCoreCount() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"cpuCoreCount",
 		&returns,
 	)
 	return returns
@@ -673,6 +686,16 @@ func (j *jsiiProxy_DataGoogleOracleDatabaseAutonomousDatabasesAutonomousDatabase
 	return returns
 }
 
+func (j *jsiiProxy_DataGoogleOracleDatabaseAutonomousDatabasesAutonomousDatabasesPropertiesOutputReference) SecretId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"secretId",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataGoogleOracleDatabaseAutonomousDatabasesAutonomousDatabasesPropertiesOutputReference) SqlWebDeveloperUrl() *string {
 	var returns *string
 	_jsii_.Get(
@@ -738,6 +761,16 @@ func (j *jsiiProxy_DataGoogleOracleDatabaseAutonomousDatabasesAutonomousDatabase
 	_jsii_.Get(
 		j,
 		"usedDataStorageSizeTbs",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleOracleDatabaseAutonomousDatabasesAutonomousDatabasesPropertiesOutputReference) VaultId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"vaultId",
 		&returns,
 	)
 	return returns

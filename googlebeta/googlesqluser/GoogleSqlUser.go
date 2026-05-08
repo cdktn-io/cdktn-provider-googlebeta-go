@@ -5,14 +5,14 @@ package googlesqluser
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlesqluser/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlesqluser/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_user google_sql_user}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_user google_sql_user}.
 type GoogleSqlUser interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -27,6 +27,9 @@ type GoogleSqlUser interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DatabaseRoles() *[]*string
+	SetDatabaseRoles(val *[]*string)
+	DatabaseRolesInput() *[]*string
 	DeletionPolicy() *string
 	SetDeletionPolicy(val *string)
 	DeletionPolicyInput() *string
@@ -45,6 +48,7 @@ type GoogleSqlUser interface {
 	Host() *string
 	SetHost(val *string)
 	HostInput() *string
+	IamEmail() *string
 	Id() *string
 	SetId(val *string)
 	IdInput() *string
@@ -141,6 +145,7 @@ type GoogleSqlUser interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutPasswordPolicy(value *GoogleSqlUserPasswordPolicy)
 	PutTimeouts(value *GoogleSqlUserTimeouts)
+	ResetDatabaseRoles()
 	ResetDeletionPolicy()
 	ResetHost()
 	ResetId()
@@ -221,6 +226,26 @@ func (j *jsiiProxy_GoogleSqlUser) Count() interface{} {
 	return returns
 }
 
+func (j *jsiiProxy_GoogleSqlUser) DatabaseRoles() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"databaseRoles",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleSqlUser) DatabaseRolesInput() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"databaseRolesInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleSqlUser) DeletionPolicy() *string {
 	var returns *string
 	_jsii_.Get(
@@ -296,6 +321,16 @@ func (j *jsiiProxy_GoogleSqlUser) HostInput() *string {
 	_jsii_.Get(
 		j,
 		"hostInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleSqlUser) IamEmail() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"iamEmail",
 		&returns,
 	)
 	return returns
@@ -592,7 +627,7 @@ func (j *jsiiProxy_GoogleSqlUser) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_user google_sql_user} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_user google_sql_user} Resource.
 func NewGoogleSqlUser(scope constructs.Construct, id *string, config *GoogleSqlUserConfig) GoogleSqlUser {
 	_init_.Initialize()
 
@@ -610,7 +645,7 @@ func NewGoogleSqlUser(scope constructs.Construct, id *string, config *GoogleSqlU
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sql_user google_sql_user} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sql_user google_sql_user} Resource.
 func NewGoogleSqlUser_Override(g GoogleSqlUser, scope constructs.Construct, id *string, config *GoogleSqlUserConfig) {
 	_init_.Initialize()
 
@@ -639,6 +674,17 @@ func (j *jsiiProxy_GoogleSqlUser)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleSqlUser)SetDatabaseRoles(val *[]*string) {
+	if err := j.validateSetDatabaseRolesParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"databaseRoles",
 		val,
 	)
 }
@@ -1171,6 +1217,14 @@ func (g *jsiiProxy_GoogleSqlUser) PutTimeouts(value *GoogleSqlUserTimeouts) {
 		g,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleSqlUser) ResetDatabaseRoles() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDatabaseRoles",
+		nil, // no parameters
 	)
 }
 

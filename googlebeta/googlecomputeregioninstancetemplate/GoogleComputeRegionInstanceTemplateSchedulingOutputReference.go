@@ -5,9 +5,9 @@ package googlecomputeregioninstancetemplate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeregioninstancetemplate/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeregioninstancetemplate/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -66,9 +66,14 @@ type GoogleComputeRegionInstanceTemplateSchedulingOutputReference interface {
 	Preemptible() interface{}
 	SetPreemptible(val interface{})
 	PreemptibleInput() interface{}
+	PreemptionNoticeDuration() GoogleComputeRegionInstanceTemplateSchedulingPreemptionNoticeDurationOutputReference
+	PreemptionNoticeDurationInput() *GoogleComputeRegionInstanceTemplateSchedulingPreemptionNoticeDuration
 	ProvisioningModel() *string
 	SetProvisioningModel(val *string)
 	ProvisioningModelInput() *string
+	SkipGuestOsShutdown() interface{}
+	SetSkipGuestOsShutdown(val interface{})
+	SkipGuestOsShutdownInput() interface{}
 	TerminationTime() *string
 	SetTerminationTime(val *string)
 	TerminationTimeInput() *string
@@ -109,6 +114,7 @@ type GoogleComputeRegionInstanceTemplateSchedulingOutputReference interface {
 	PutMaxRunDuration(value *GoogleComputeRegionInstanceTemplateSchedulingMaxRunDuration)
 	PutNodeAffinities(value interface{})
 	PutOnInstanceStopAction(value *GoogleComputeRegionInstanceTemplateSchedulingOnInstanceStopAction)
+	PutPreemptionNoticeDuration(value *GoogleComputeRegionInstanceTemplateSchedulingPreemptionNoticeDuration)
 	ResetAutomaticRestart()
 	ResetAvailabilityDomain()
 	ResetGracefulShutdown()
@@ -122,7 +128,9 @@ type GoogleComputeRegionInstanceTemplateSchedulingOutputReference interface {
 	ResetOnHostMaintenance()
 	ResetOnInstanceStopAction()
 	ResetPreemptible()
+	ResetPreemptionNoticeDuration()
 	ResetProvisioningModel()
+	ResetSkipGuestOsShutdown()
 	ResetTerminationTime()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -449,6 +457,26 @@ func (j *jsiiProxy_GoogleComputeRegionInstanceTemplateSchedulingOutputReference)
 	return returns
 }
 
+func (j *jsiiProxy_GoogleComputeRegionInstanceTemplateSchedulingOutputReference) PreemptionNoticeDuration() GoogleComputeRegionInstanceTemplateSchedulingPreemptionNoticeDurationOutputReference {
+	var returns GoogleComputeRegionInstanceTemplateSchedulingPreemptionNoticeDurationOutputReference
+	_jsii_.Get(
+		j,
+		"preemptionNoticeDuration",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeRegionInstanceTemplateSchedulingOutputReference) PreemptionNoticeDurationInput() *GoogleComputeRegionInstanceTemplateSchedulingPreemptionNoticeDuration {
+	var returns *GoogleComputeRegionInstanceTemplateSchedulingPreemptionNoticeDuration
+	_jsii_.Get(
+		j,
+		"preemptionNoticeDurationInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleComputeRegionInstanceTemplateSchedulingOutputReference) ProvisioningModel() *string {
 	var returns *string
 	_jsii_.Get(
@@ -464,6 +492,26 @@ func (j *jsiiProxy_GoogleComputeRegionInstanceTemplateSchedulingOutputReference)
 	_jsii_.Get(
 		j,
 		"provisioningModelInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeRegionInstanceTemplateSchedulingOutputReference) SkipGuestOsShutdown() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"skipGuestOsShutdown",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeRegionInstanceTemplateSchedulingOutputReference) SkipGuestOsShutdownInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"skipGuestOsShutdownInput",
 		&returns,
 	)
 	return returns
@@ -665,6 +713,17 @@ func (j *jsiiProxy_GoogleComputeRegionInstanceTemplateSchedulingOutputReference)
 	_jsii_.Set(
 		j,
 		"provisioningModel",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleComputeRegionInstanceTemplateSchedulingOutputReference)SetSkipGuestOsShutdown(val interface{}) {
+	if err := j.validateSetSkipGuestOsShutdownParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"skipGuestOsShutdown",
 		val,
 	)
 }
@@ -943,6 +1002,17 @@ func (g *jsiiProxy_GoogleComputeRegionInstanceTemplateSchedulingOutputReference)
 	)
 }
 
+func (g *jsiiProxy_GoogleComputeRegionInstanceTemplateSchedulingOutputReference) PutPreemptionNoticeDuration(value *GoogleComputeRegionInstanceTemplateSchedulingPreemptionNoticeDuration) {
+	if err := g.validatePutPreemptionNoticeDurationParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putPreemptionNoticeDuration",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleComputeRegionInstanceTemplateSchedulingOutputReference) ResetAutomaticRestart() {
 	_jsii_.InvokeVoid(
 		g,
@@ -1047,10 +1117,26 @@ func (g *jsiiProxy_GoogleComputeRegionInstanceTemplateSchedulingOutputReference)
 	)
 }
 
+func (g *jsiiProxy_GoogleComputeRegionInstanceTemplateSchedulingOutputReference) ResetPreemptionNoticeDuration() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetPreemptionNoticeDuration",
+		nil, // no parameters
+	)
+}
+
 func (g *jsiiProxy_GoogleComputeRegionInstanceTemplateSchedulingOutputReference) ResetProvisioningModel() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetProvisioningModel",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleComputeRegionInstanceTemplateSchedulingOutputReference) ResetSkipGuestOsShutdown() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetSkipGuestOsShutdown",
 		nil, // no parameters
 	)
 }

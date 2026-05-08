@@ -1,0 +1,89 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package googlenetworkservicesmulticastgrouprangeactivation
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (g *jsiiProxy_GoogleNetworkServicesMulticastGroupRangeActivationTimeoutsOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleNetworkServicesMulticastGroupRangeActivationTimeoutsOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleNetworkServicesMulticastGroupRangeActivationTimeoutsOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleNetworkServicesMulticastGroupRangeActivationTimeoutsOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleNetworkServicesMulticastGroupRangeActivationTimeoutsOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleNetworkServicesMulticastGroupRangeActivationTimeoutsOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleNetworkServicesMulticastGroupRangeActivationTimeoutsOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleNetworkServicesMulticastGroupRangeActivationTimeoutsOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleNetworkServicesMulticastGroupRangeActivationTimeoutsOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleNetworkServicesMulticastGroupRangeActivationTimeoutsOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleNetworkServicesMulticastGroupRangeActivationTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleNetworkServicesMulticastGroupRangeActivationTimeoutsOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleNetworkServicesMulticastGroupRangeActivationTimeoutsOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleNetworkServicesMulticastGroupRangeActivationTimeoutsOutputReference) validateSetCreateParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleNetworkServicesMulticastGroupRangeActivationTimeoutsOutputReference) validateSetDeleteParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleNetworkServicesMulticastGroupRangeActivationTimeoutsOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleNetworkServicesMulticastGroupRangeActivationTimeoutsOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleNetworkServicesMulticastGroupRangeActivationTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleNetworkServicesMulticastGroupRangeActivationTimeoutsOutputReference) validateSetUpdateParameters(val *string) error {
+	return nil
+}
+
+func validateNewGoogleNetworkServicesMulticastGroupRangeActivationTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

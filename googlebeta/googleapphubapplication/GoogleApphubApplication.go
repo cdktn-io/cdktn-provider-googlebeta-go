@@ -5,14 +5,14 @@ package googleapphubapplication
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapphubapplication/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapphubapplication/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apphub_application google_apphub_application}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apphub_application google_apphub_application}.
 type GoogleApphubApplication interface {
 	cdktn.TerraformResource
 	ApplicationId() *string
@@ -563,7 +563,7 @@ func (j *jsiiProxy_GoogleApphubApplication) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apphub_application google_apphub_application} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apphub_application google_apphub_application} Resource.
 func NewGoogleApphubApplication(scope constructs.Construct, id *string, config *GoogleApphubApplicationConfig) GoogleApphubApplication {
 	_init_.Initialize()
 
@@ -581,7 +581,7 @@ func NewGoogleApphubApplication(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_apphub_application google_apphub_application} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apphub_application google_apphub_application} Resource.
 func NewGoogleApphubApplication_Override(g GoogleApphubApplication, scope constructs.Construct, id *string, config *GoogleApphubApplicationConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package datagooglemonitoringistiocanonicalservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglemonitoringistiocanonicalservice/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglemonitoringistiocanonicalservice/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_monitoring_istio_canonical_service google_monitoring_istio_canonical_service}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_monitoring_istio_canonical_service google_monitoring_istio_canonical_service}.
 type DataGoogleMonitoringIstioCanonicalService interface {
 	cdktn.TerraformDataSource
 	CanonicalService() *string
@@ -422,7 +422,7 @@ func (j *jsiiProxy_DataGoogleMonitoringIstioCanonicalService) UserLabels() cdktn
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_monitoring_istio_canonical_service google_monitoring_istio_canonical_service} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_monitoring_istio_canonical_service google_monitoring_istio_canonical_service} Data Source.
 func NewDataGoogleMonitoringIstioCanonicalService(scope constructs.Construct, id *string, config *DataGoogleMonitoringIstioCanonicalServiceConfig) DataGoogleMonitoringIstioCanonicalService {
 	_init_.Initialize()
 
@@ -440,7 +440,7 @@ func NewDataGoogleMonitoringIstioCanonicalService(scope constructs.Construct, id
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_monitoring_istio_canonical_service google_monitoring_istio_canonical_service} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_monitoring_istio_canonical_service google_monitoring_istio_canonical_service} Data Source.
 func NewDataGoogleMonitoringIstioCanonicalService_Override(d DataGoogleMonitoringIstioCanonicalService, scope constructs.Construct, id *string, config *DataGoogleMonitoringIstioCanonicalServiceConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package googleorgpolicypolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleorgpolicypolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleorgpolicypolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_org_policy_policy google_org_policy_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_org_policy_policy google_org_policy_policy}.
 type GoogleOrgPolicyPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -448,7 +448,7 @@ func (j *jsiiProxy_GoogleOrgPolicyPolicy) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_org_policy_policy google_org_policy_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_org_policy_policy google_org_policy_policy} Resource.
 func NewGoogleOrgPolicyPolicy(scope constructs.Construct, id *string, config *GoogleOrgPolicyPolicyConfig) GoogleOrgPolicyPolicy {
 	_init_.Initialize()
 
@@ -466,7 +466,7 @@ func NewGoogleOrgPolicyPolicy(scope constructs.Construct, id *string, config *Go
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_org_policy_policy google_org_policy_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_org_policy_policy google_org_policy_policy} Resource.
 func NewGoogleOrgPolicyPolicy_Override(g GoogleOrgPolicyPolicy, scope constructs.Construct, id *string, config *GoogleOrgPolicyPolicyConfig) {
 	_init_.Initialize()
 

@@ -5,9 +5,9 @@ package datagooglealloydbcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglealloydbcluster/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglealloydbcluster/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -33,6 +33,8 @@ type DataGoogleAlloydbClusterInitialUserOutputReference interface {
 	InternalValue() *DataGoogleAlloydbClusterInitialUser
 	SetInternalValue(val *DataGoogleAlloydbClusterInitialUser)
 	Password() *string
+	PasswordWo() *string
+	PasswordWoVersion() *string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -136,6 +138,26 @@ func (j *jsiiProxy_DataGoogleAlloydbClusterInitialUserOutputReference) Password(
 	_jsii_.Get(
 		j,
 		"password",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleAlloydbClusterInitialUserOutputReference) PasswordWo() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"passwordWo",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleAlloydbClusterInitialUserOutputReference) PasswordWoVersion() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"passwordWoVersion",
 		&returns,
 	)
 	return returns

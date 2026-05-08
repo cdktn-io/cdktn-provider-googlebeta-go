@@ -1,0 +1,85 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package googlevertexaireasoningengine
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (g *jsiiProxy_GoogleVertexAiReasoningEngineSpecDeploymentSpecSecretEnvSecretRefOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleVertexAiReasoningEngineSpecDeploymentSpecSecretEnvSecretRefOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleVertexAiReasoningEngineSpecDeploymentSpecSecretEnvSecretRefOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleVertexAiReasoningEngineSpecDeploymentSpecSecretEnvSecretRefOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleVertexAiReasoningEngineSpecDeploymentSpecSecretEnvSecretRefOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleVertexAiReasoningEngineSpecDeploymentSpecSecretEnvSecretRefOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleVertexAiReasoningEngineSpecDeploymentSpecSecretEnvSecretRefOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleVertexAiReasoningEngineSpecDeploymentSpecSecretEnvSecretRefOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleVertexAiReasoningEngineSpecDeploymentSpecSecretEnvSecretRefOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleVertexAiReasoningEngineSpecDeploymentSpecSecretEnvSecretRefOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleVertexAiReasoningEngineSpecDeploymentSpecSecretEnvSecretRefOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleVertexAiReasoningEngineSpecDeploymentSpecSecretEnvSecretRefOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleVertexAiReasoningEngineSpecDeploymentSpecSecretEnvSecretRefOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleVertexAiReasoningEngineSpecDeploymentSpecSecretEnvSecretRefOutputReference) validateSetInternalValueParameters(val *GoogleVertexAiReasoningEngineSpecDeploymentSpecSecretEnvSecretRef) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleVertexAiReasoningEngineSpecDeploymentSpecSecretEnvSecretRefOutputReference) validateSetSecretParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleVertexAiReasoningEngineSpecDeploymentSpecSecretEnvSecretRefOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleVertexAiReasoningEngineSpecDeploymentSpecSecretEnvSecretRefOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleVertexAiReasoningEngineSpecDeploymentSpecSecretEnvSecretRefOutputReference) validateSetVersionParameters(val *string) error {
+	return nil
+}
+
+func validateNewGoogleVertexAiReasoningEngineSpecDeploymentSpecSecretEnvSecretRefOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

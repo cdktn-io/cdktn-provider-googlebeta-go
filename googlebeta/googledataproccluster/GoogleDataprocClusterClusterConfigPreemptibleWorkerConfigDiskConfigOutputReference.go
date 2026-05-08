@@ -5,14 +5,20 @@ package googledataproccluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataproccluster/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataproccluster/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigDiskConfigOutputReference interface {
 	cdktn.ComplexObject
+	BootDiskProvisionedIops() *float64
+	SetBootDiskProvisionedIops(val *float64)
+	BootDiskProvisionedIopsInput() *float64
+	BootDiskProvisionedThroughput() *float64
+	SetBootDiskProvisionedThroughput(val *float64)
+	BootDiskProvisionedThroughputInput() *float64
 	BootDiskSizeGb() *float64
 	SetBootDiskSizeGb(val *float64)
 	BootDiskSizeGbInput() *float64
@@ -76,6 +82,8 @@ type GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigDiskConfigOutputRe
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	ResetBootDiskProvisionedIops()
+	ResetBootDiskProvisionedThroughput()
 	ResetBootDiskSizeGb()
 	ResetBootDiskType()
 	ResetLocalSsdInterface()
@@ -93,6 +101,46 @@ type GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigDiskConfigOutputRe
 // The jsii proxy struct for GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigDiskConfigOutputReference
 type jsiiProxy_GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigDiskConfigOutputReference struct {
 	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigDiskConfigOutputReference) BootDiskProvisionedIops() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"bootDiskProvisionedIops",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigDiskConfigOutputReference) BootDiskProvisionedIopsInput() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"bootDiskProvisionedIopsInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigDiskConfigOutputReference) BootDiskProvisionedThroughput() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"bootDiskProvisionedThroughput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigDiskConfigOutputReference) BootDiskProvisionedThroughputInput() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"bootDiskProvisionedThroughputInput",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigDiskConfigOutputReference) BootDiskSizeGb() *float64 {
@@ -270,6 +318,28 @@ func NewGoogleDataprocClusterClusterConfigPreemptibleWorkerConfigDiskConfigOutpu
 		"@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigDiskConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		g,
+	)
+}
+
+func (j *jsiiProxy_GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigDiskConfigOutputReference)SetBootDiskProvisionedIops(val *float64) {
+	if err := j.validateSetBootDiskProvisionedIopsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"bootDiskProvisionedIops",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigDiskConfigOutputReference)SetBootDiskProvisionedThroughput(val *float64) {
+	if err := j.validateSetBootDiskProvisionedThroughputParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"bootDiskProvisionedThroughput",
+		val,
 	)
 }
 
@@ -556,6 +626,22 @@ func (g *jsiiProxy_GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigDisk
 	)
 
 	return returns
+}
+
+func (g *jsiiProxy_GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigDiskConfigOutputReference) ResetBootDiskProvisionedIops() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetBootDiskProvisionedIops",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigDiskConfigOutputReference) ResetBootDiskProvisionedThroughput() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetBootDiskProvisionedThroughput",
+		nil, // no parameters
+	)
 }
 
 func (g *jsiiProxy_GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigDiskConfigOutputReference) ResetBootDiskSizeGb() {

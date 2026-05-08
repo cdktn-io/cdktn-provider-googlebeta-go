@@ -5,14 +5,14 @@ package googleserviceaccount
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleserviceaccount/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleserviceaccount/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_service_account google_service_account}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_service_account google_service_account}.
 type GoogleServiceAccount interface {
 	cdktn.TerraformResource
 	AccountId() *string
@@ -530,7 +530,7 @@ func (j *jsiiProxy_GoogleServiceAccount) UniqueId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_service_account google_service_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_service_account google_service_account} Resource.
 func NewGoogleServiceAccount(scope constructs.Construct, id *string, config *GoogleServiceAccountConfig) GoogleServiceAccount {
 	_init_.Initialize()
 
@@ -548,7 +548,7 @@ func NewGoogleServiceAccount(scope constructs.Construct, id *string, config *Goo
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_service_account google_service_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_service_account google_service_account} Resource.
 func NewGoogleServiceAccount_Override(g GoogleServiceAccount, scope constructs.Construct, id *string, config *GoogleServiceAccountConfig) {
 	_init_.Initialize()
 

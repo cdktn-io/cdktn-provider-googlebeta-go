@@ -5,9 +5,9 @@ package googleiamworkloadidentitypool
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleiamworkloadidentitypool/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleiamworkloadidentitypool/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -42,6 +42,9 @@ type GoogleIamWorkloadIdentityPoolInlineTrustConfigAdditionalTrustBundlesOutputR
 	SetTerraformResource(val cdktn.IInterpolatingParent)
 	TrustAnchors() GoogleIamWorkloadIdentityPoolInlineTrustConfigAdditionalTrustBundlesTrustAnchorsList
 	TrustAnchorsInput() interface{}
+	TrustDefaultSharedCa() interface{}
+	SetTrustDefaultSharedCa(val interface{})
+	TrustDefaultSharedCaInput() interface{}
 	TrustDomain() *string
 	SetTrustDomain(val *string)
 	TrustDomainInput() *string
@@ -70,6 +73,7 @@ type GoogleIamWorkloadIdentityPoolInlineTrustConfigAdditionalTrustBundlesOutputR
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutTrustAnchors(value interface{})
+	ResetTrustDefaultSharedCa()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -175,6 +179,26 @@ func (j *jsiiProxy_GoogleIamWorkloadIdentityPoolInlineTrustConfigAdditionalTrust
 	return returns
 }
 
+func (j *jsiiProxy_GoogleIamWorkloadIdentityPoolInlineTrustConfigAdditionalTrustBundlesOutputReference) TrustDefaultSharedCa() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"trustDefaultSharedCa",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleIamWorkloadIdentityPoolInlineTrustConfigAdditionalTrustBundlesOutputReference) TrustDefaultSharedCaInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"trustDefaultSharedCaInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleIamWorkloadIdentityPoolInlineTrustConfigAdditionalTrustBundlesOutputReference) TrustDomain() *string {
 	var returns *string
 	_jsii_.Get(
@@ -274,6 +298,17 @@ func (j *jsiiProxy_GoogleIamWorkloadIdentityPoolInlineTrustConfigAdditionalTrust
 	_jsii_.Set(
 		j,
 		"terraformResource",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleIamWorkloadIdentityPoolInlineTrustConfigAdditionalTrustBundlesOutputReference)SetTrustDefaultSharedCa(val interface{}) {
+	if err := j.validateSetTrustDefaultSharedCaParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"trustDefaultSharedCa",
 		val,
 	)
 }
@@ -483,6 +518,14 @@ func (g *jsiiProxy_GoogleIamWorkloadIdentityPoolInlineTrustConfigAdditionalTrust
 		g,
 		"putTrustAnchors",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleIamWorkloadIdentityPoolInlineTrustConfigAdditionalTrustBundlesOutputReference) ResetTrustDefaultSharedCa() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetTrustDefaultSharedCa",
+		nil, // no parameters
 	)
 }
 

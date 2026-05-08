@@ -5,14 +5,14 @@ package googlecloudquotasquotapreference
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudquotasquotapreference/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudquotasquotapreference/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_quotas_quota_preference google_cloud_quotas_quota_preference}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_quotas_quota_preference google_cloud_quotas_quota_preference}.
 type GoogleCloudQuotasQuotaPreference interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -602,7 +602,7 @@ func (j *jsiiProxy_GoogleCloudQuotasQuotaPreference) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_quotas_quota_preference google_cloud_quotas_quota_preference} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_quotas_quota_preference google_cloud_quotas_quota_preference} Resource.
 func NewGoogleCloudQuotasQuotaPreference(scope constructs.Construct, id *string, config *GoogleCloudQuotasQuotaPreferenceConfig) GoogleCloudQuotasQuotaPreference {
 	_init_.Initialize()
 
@@ -620,7 +620,7 @@ func NewGoogleCloudQuotasQuotaPreference(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_quotas_quota_preference google_cloud_quotas_quota_preference} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_quotas_quota_preference google_cloud_quotas_quota_preference} Resource.
 func NewGoogleCloudQuotasQuotaPreference_Override(g GoogleCloudQuotasQuotaPreference, scope constructs.Construct, id *string, config *GoogleCloudQuotasQuotaPreferenceConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package googledatalosspreventiondiscoveryconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatalosspreventiondiscoveryconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledatalosspreventiondiscoveryconfig/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_data_loss_prevention_discovery_config google_data_loss_prevention_discovery_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_data_loss_prevention_discovery_config google_data_loss_prevention_discovery_config}.
 type GoogleDataLossPreventionDiscoveryConfig interface {
 	cdktn.TerraformResource
 	Actions() GoogleDataLossPreventionDiscoveryConfigActionsList
@@ -65,6 +65,8 @@ type GoogleDataLossPreventionDiscoveryConfig interface {
 	Node() constructs.Node
 	OrgConfig() GoogleDataLossPreventionDiscoveryConfigOrgConfigOutputReference
 	OrgConfigInput() *GoogleDataLossPreventionDiscoveryConfigOrgConfig
+	OtherCloudStartingLocation() GoogleDataLossPreventionDiscoveryConfigOtherCloudStartingLocationOutputReference
+	OtherCloudStartingLocationInput() *GoogleDataLossPreventionDiscoveryConfigOtherCloudStartingLocation
 	Parent() *string
 	SetParent(val *string)
 	ParentInput() *string
@@ -137,6 +139,7 @@ type GoogleDataLossPreventionDiscoveryConfig interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutActions(value interface{})
 	PutOrgConfig(value *GoogleDataLossPreventionDiscoveryConfigOrgConfig)
+	PutOtherCloudStartingLocation(value *GoogleDataLossPreventionDiscoveryConfigOtherCloudStartingLocation)
 	PutTargets(value interface{})
 	PutTimeouts(value *GoogleDataLossPreventionDiscoveryConfigTimeouts)
 	ResetActions()
@@ -144,6 +147,7 @@ type GoogleDataLossPreventionDiscoveryConfig interface {
 	ResetId()
 	ResetInspectTemplates()
 	ResetOrgConfig()
+	ResetOtherCloudStartingLocation()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
@@ -437,6 +441,26 @@ func (j *jsiiProxy_GoogleDataLossPreventionDiscoveryConfig) OrgConfigInput() *Go
 	return returns
 }
 
+func (j *jsiiProxy_GoogleDataLossPreventionDiscoveryConfig) OtherCloudStartingLocation() GoogleDataLossPreventionDiscoveryConfigOtherCloudStartingLocationOutputReference {
+	var returns GoogleDataLossPreventionDiscoveryConfigOtherCloudStartingLocationOutputReference
+	_jsii_.Get(
+		j,
+		"otherCloudStartingLocation",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDataLossPreventionDiscoveryConfig) OtherCloudStartingLocationInput() *GoogleDataLossPreventionDiscoveryConfigOtherCloudStartingLocation {
+	var returns *GoogleDataLossPreventionDiscoveryConfigOtherCloudStartingLocation
+	_jsii_.Get(
+		j,
+		"otherCloudStartingLocationInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleDataLossPreventionDiscoveryConfig) Parent() *string {
 	var returns *string
 	_jsii_.Get(
@@ -588,7 +612,7 @@ func (j *jsiiProxy_GoogleDataLossPreventionDiscoveryConfig) UpdateTime() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_data_loss_prevention_discovery_config google_data_loss_prevention_discovery_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_data_loss_prevention_discovery_config google_data_loss_prevention_discovery_config} Resource.
 func NewGoogleDataLossPreventionDiscoveryConfig(scope constructs.Construct, id *string, config *GoogleDataLossPreventionDiscoveryConfigConfig) GoogleDataLossPreventionDiscoveryConfig {
 	_init_.Initialize()
 
@@ -606,7 +630,7 @@ func NewGoogleDataLossPreventionDiscoveryConfig(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_data_loss_prevention_discovery_config google_data_loss_prevention_discovery_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_data_loss_prevention_discovery_config google_data_loss_prevention_discovery_config} Resource.
 func NewGoogleDataLossPreventionDiscoveryConfig_Override(g GoogleDataLossPreventionDiscoveryConfig, scope constructs.Construct, id *string, config *GoogleDataLossPreventionDiscoveryConfigConfig) {
 	_init_.Initialize()
 
@@ -1126,6 +1150,17 @@ func (g *jsiiProxy_GoogleDataLossPreventionDiscoveryConfig) PutOrgConfig(value *
 	)
 }
 
+func (g *jsiiProxy_GoogleDataLossPreventionDiscoveryConfig) PutOtherCloudStartingLocation(value *GoogleDataLossPreventionDiscoveryConfigOtherCloudStartingLocation) {
+	if err := g.validatePutOtherCloudStartingLocationParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putOtherCloudStartingLocation",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleDataLossPreventionDiscoveryConfig) PutTargets(value interface{}) {
 	if err := g.validatePutTargetsParameters(value); err != nil {
 		panic(err)
@@ -1184,6 +1219,14 @@ func (g *jsiiProxy_GoogleDataLossPreventionDiscoveryConfig) ResetOrgConfig() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetOrgConfig",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleDataLossPreventionDiscoveryConfig) ResetOtherCloudStartingLocation() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetOtherCloudStartingLocation",
 		nil, // no parameters
 	)
 }

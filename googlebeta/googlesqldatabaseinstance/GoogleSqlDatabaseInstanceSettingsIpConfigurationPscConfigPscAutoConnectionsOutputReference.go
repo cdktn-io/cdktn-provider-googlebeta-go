@@ -5,9 +5,9 @@ package googlesqldatabaseinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlesqldatabaseinstance/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlesqldatabaseinstance/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -26,6 +26,7 @@ type GoogleSqlDatabaseInstanceSettingsIpConfigurationPscConfigPscAutoConnections
 	ConsumerNetwork() *string
 	SetConsumerNetwork(val *string)
 	ConsumerNetworkInput() *string
+	ConsumerNetworkStatus() *string
 	ConsumerServiceProjectId() *string
 	SetConsumerServiceProjectId(val *string)
 	ConsumerServiceProjectIdInput() *string
@@ -38,6 +39,8 @@ type GoogleSqlDatabaseInstanceSettingsIpConfigurationPscConfigPscAutoConnections
 	Fqn() *string
 	InternalValue() interface{}
 	SetInternalValue(val interface{})
+	IpAddress() *string
+	Status() *string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -126,6 +129,16 @@ func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsIpConfigurationPscConfigPscA
 	return returns
 }
 
+func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsIpConfigurationPscConfigPscAutoConnectionsOutputReference) ConsumerNetworkStatus() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"consumerNetworkStatus",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsIpConfigurationPscConfigPscAutoConnectionsOutputReference) ConsumerServiceProjectId() *string {
 	var returns *string
 	_jsii_.Get(
@@ -171,6 +184,26 @@ func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsIpConfigurationPscConfigPscA
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsIpConfigurationPscConfigPscAutoConnectionsOutputReference) IpAddress() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"ipAddress",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsIpConfigurationPscConfigPscAutoConnectionsOutputReference) Status() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"status",
 		&returns,
 	)
 	return returns

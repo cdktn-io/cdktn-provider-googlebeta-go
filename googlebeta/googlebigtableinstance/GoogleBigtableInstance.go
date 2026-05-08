@@ -5,14 +5,14 @@ package googlebigtableinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebigtableinstance/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebigtableinstance/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigtable_instance google_bigtable_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigtable_instance google_bigtable_instance}.
 type GoogleBigtableInstance interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -82,6 +82,9 @@ type GoogleBigtableInstance interface {
 	SetProvisioners(val *[]interface{})
 	// Experimental.
 	RawOverrides() interface{}
+	Tags() *map[string]*string
+	SetTags(val *map[string]*string)
+	TagsInput() *map[string]*string
 	// Experimental.
 	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	TerraformLabels() cdktn.StringMap
@@ -147,6 +150,7 @@ type GoogleBigtableInstance interface {
 	// Experimental.
 	ResetOverrideLogicalId()
 	ResetProject()
+	ResetTags()
 	ResetTimeouts()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
@@ -495,6 +499,26 @@ func (j *jsiiProxy_GoogleBigtableInstance) RawOverrides() interface{} {
 	return returns
 }
 
+func (j *jsiiProxy_GoogleBigtableInstance) Tags() *map[string]*string {
+	var returns *map[string]*string
+	_jsii_.Get(
+		j,
+		"tags",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleBigtableInstance) TagsInput() *map[string]*string {
+	var returns *map[string]*string
+	_jsii_.Get(
+		j,
+		"tagsInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleBigtableInstance) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
 	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
@@ -556,7 +580,7 @@ func (j *jsiiProxy_GoogleBigtableInstance) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigtable_instance google_bigtable_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigtable_instance google_bigtable_instance} Resource.
 func NewGoogleBigtableInstance(scope constructs.Construct, id *string, config *GoogleBigtableInstanceConfig) GoogleBigtableInstance {
 	_init_.Initialize()
 
@@ -574,7 +598,7 @@ func NewGoogleBigtableInstance(scope constructs.Construct, id *string, config *G
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigtable_instance google_bigtable_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigtable_instance google_bigtable_instance} Resource.
 func NewGoogleBigtableInstance_Override(g GoogleBigtableInstance, scope constructs.Construct, id *string, config *GoogleBigtableInstanceConfig) {
 	_init_.Initialize()
 
@@ -737,6 +761,17 @@ func (j *jsiiProxy_GoogleBigtableInstance)SetProvisioners(val *[]interface{}) {
 	_jsii_.Set(
 		j,
 		"provisioners",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleBigtableInstance)SetTags(val *map[string]*string) {
+	if err := j.validateSetTagsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"tags",
 		val,
 	)
 }
@@ -1184,6 +1219,14 @@ func (g *jsiiProxy_GoogleBigtableInstance) ResetProject() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetProject",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleBigtableInstance) ResetTags() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetTags",
 		nil, // no parameters
 	)
 }

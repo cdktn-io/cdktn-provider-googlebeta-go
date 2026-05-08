@@ -5,14 +5,14 @@ package googlecertificatemanagerdnsauthorization
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecertificatemanagerdnsauthorization/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecertificatemanagerdnsauthorization/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_certificate_manager_dns_authorization google_certificate_manager_dns_authorization}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_certificate_manager_dns_authorization google_certificate_manager_dns_authorization}.
 type GoogleCertificateManagerDnsAuthorization interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -542,7 +542,7 @@ func (j *jsiiProxy_GoogleCertificateManagerDnsAuthorization) TypeInput() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_certificate_manager_dns_authorization google_certificate_manager_dns_authorization} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_certificate_manager_dns_authorization google_certificate_manager_dns_authorization} Resource.
 func NewGoogleCertificateManagerDnsAuthorization(scope constructs.Construct, id *string, config *GoogleCertificateManagerDnsAuthorizationConfig) GoogleCertificateManagerDnsAuthorization {
 	_init_.Initialize()
 
@@ -560,7 +560,7 @@ func NewGoogleCertificateManagerDnsAuthorization(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_certificate_manager_dns_authorization google_certificate_manager_dns_authorization} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_certificate_manager_dns_authorization google_certificate_manager_dns_authorization} Resource.
 func NewGoogleCertificateManagerDnsAuthorization_Override(g GoogleCertificateManagerDnsAuthorization, scope constructs.Construct, id *string, config *GoogleCertificateManagerDnsAuthorizationConfig) {
 	_init_.Initialize()
 

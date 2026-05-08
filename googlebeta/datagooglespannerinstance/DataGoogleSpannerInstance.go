@@ -5,14 +5,14 @@ package datagooglespannerinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglespannerinstance/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglespannerinstance/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_spanner_instance google_spanner_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_spanner_instance google_spanner_instance}.
 type DataGoogleSpannerInstance interface {
 	cdktn.TerraformDataSource
 	AutoscalingConfig() DataGoogleSpannerInstanceAutoscalingConfigList
@@ -490,7 +490,7 @@ func (j *jsiiProxy_DataGoogleSpannerInstance) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_spanner_instance google_spanner_instance} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_spanner_instance google_spanner_instance} Data Source.
 func NewDataGoogleSpannerInstance(scope constructs.Construct, id *string, config *DataGoogleSpannerInstanceConfig) DataGoogleSpannerInstance {
 	_init_.Initialize()
 
@@ -508,7 +508,7 @@ func NewDataGoogleSpannerInstance(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_spanner_instance google_spanner_instance} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_spanner_instance google_spanner_instance} Data Source.
 func NewDataGoogleSpannerInstance_Override(d DataGoogleSpannerInstance, scope constructs.Construct, id *string, config *DataGoogleSpannerInstanceConfig) {
 	_init_.Initialize()
 

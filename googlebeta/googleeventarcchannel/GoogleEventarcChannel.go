@@ -5,14 +5,14 @@ package googleeventarcchannel
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleeventarcchannel/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleeventarcchannel/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_eventarc_channel google_eventarc_channel}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_eventarc_channel google_eventarc_channel}.
 type GoogleEventarcChannel interface {
 	cdktn.TerraformResource
 	ActivationToken() *string
@@ -36,6 +36,7 @@ type GoogleEventarcChannel interface {
 	DependsOn() *[]*string
 	// Experimental.
 	SetDependsOn(val *[]*string)
+	EffectiveLabels() cdktn.StringMap
 	// Experimental.
 	ForEach() cdktn.ITerraformIterator
 	// Experimental.
@@ -47,6 +48,9 @@ type GoogleEventarcChannel interface {
 	Id() *string
 	SetId(val *string)
 	IdInput() *string
+	Labels() *map[string]*string
+	SetLabels(val *map[string]*string)
+	LabelsInput() *map[string]*string
 	// Experimental.
 	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
@@ -76,6 +80,7 @@ type GoogleEventarcChannel interface {
 	State() *string
 	// Experimental.
 	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
+	TerraformLabels() cdktn.StringMap
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -133,6 +138,7 @@ type GoogleEventarcChannel interface {
 	PutTimeouts(value *GoogleEventarcChannelTimeouts)
 	ResetCryptoKeyName()
 	ResetId()
+	ResetLabels()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
@@ -256,6 +262,16 @@ func (j *jsiiProxy_GoogleEventarcChannel) DependsOn() *[]*string {
 	return returns
 }
 
+func (j *jsiiProxy_GoogleEventarcChannel) EffectiveLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
+	_jsii_.Get(
+		j,
+		"effectiveLabels",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleEventarcChannel) ForEach() cdktn.ITerraformIterator {
 	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
@@ -301,6 +317,26 @@ func (j *jsiiProxy_GoogleEventarcChannel) IdInput() *string {
 	_jsii_.Get(
 		j,
 		"idInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleEventarcChannel) Labels() *map[string]*string {
+	var returns *map[string]*string
+	_jsii_.Get(
+		j,
+		"labels",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleEventarcChannel) LabelsInput() *map[string]*string {
+	var returns *map[string]*string
+	_jsii_.Get(
+		j,
+		"labelsInput",
 		&returns,
 	)
 	return returns
@@ -446,6 +482,16 @@ func (j *jsiiProxy_GoogleEventarcChannel) TerraformGeneratorMetadata() *cdktn.Te
 	return returns
 }
 
+func (j *jsiiProxy_GoogleEventarcChannel) TerraformLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
+	_jsii_.Get(
+		j,
+		"terraformLabels",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleEventarcChannel) TerraformMetaArguments() *map[string]interface{} {
 	var returns *map[string]interface{}
 	_jsii_.Get(
@@ -527,7 +573,7 @@ func (j *jsiiProxy_GoogleEventarcChannel) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_eventarc_channel google_eventarc_channel} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_eventarc_channel google_eventarc_channel} Resource.
 func NewGoogleEventarcChannel(scope constructs.Construct, id *string, config *GoogleEventarcChannelConfig) GoogleEventarcChannel {
 	_init_.Initialize()
 
@@ -545,7 +591,7 @@ func NewGoogleEventarcChannel(scope constructs.Construct, id *string, config *Go
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_eventarc_channel google_eventarc_channel} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_eventarc_channel google_eventarc_channel} Resource.
 func NewGoogleEventarcChannel_Override(g GoogleEventarcChannel, scope constructs.Construct, id *string, config *GoogleEventarcChannelConfig) {
 	_init_.Initialize()
 
@@ -612,6 +658,17 @@ func (j *jsiiProxy_GoogleEventarcChannel)SetId(val *string) {
 	_jsii_.Set(
 		j,
 		"id",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleEventarcChannel)SetLabels(val *map[string]*string) {
+	if err := j.validateSetLabelsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"labels",
 		val,
 	)
 }
@@ -1066,6 +1123,14 @@ func (g *jsiiProxy_GoogleEventarcChannel) ResetId() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetId",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleEventarcChannel) ResetLabels() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetLabels",
 		nil, // no parameters
 	)
 }

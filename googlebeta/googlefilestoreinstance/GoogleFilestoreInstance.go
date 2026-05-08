@@ -5,14 +5,14 @@ package googlefilestoreinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefilestoreinstance/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlefilestoreinstance/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_filestore_instance google_filestore_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_filestore_instance google_filestore_instance}.
 type GoogleFilestoreInstance interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -41,6 +41,9 @@ type GoogleFilestoreInstance interface {
 	Description() *string
 	SetDescription(val *string)
 	DescriptionInput() *string
+	DesiredReplicaState() *string
+	SetDesiredReplicaState(val *string)
+	DesiredReplicaStateInput() *string
 	DirectoryServices() GoogleFilestoreInstanceDirectoryServicesOutputReference
 	DirectoryServicesInput() *GoogleFilestoreInstanceDirectoryServices
 	EffectiveLabels() cdktn.StringMap
@@ -169,6 +172,7 @@ type GoogleFilestoreInstance interface {
 	ResetDeletionProtectionEnabled()
 	ResetDeletionProtectionReason()
 	ResetDescription()
+	ResetDesiredReplicaState()
 	ResetDirectoryServices()
 	ResetId()
 	ResetInitialReplication()
@@ -326,6 +330,26 @@ func (j *jsiiProxy_GoogleFilestoreInstance) DescriptionInput() *string {
 	_jsii_.Get(
 		j,
 		"descriptionInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleFilestoreInstance) DesiredReplicaState() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"desiredReplicaState",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleFilestoreInstance) DesiredReplicaStateInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"desiredReplicaStateInput",
 		&returns,
 	)
 	return returns
@@ -802,7 +826,7 @@ func (j *jsiiProxy_GoogleFilestoreInstance) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_filestore_instance google_filestore_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_filestore_instance google_filestore_instance} Resource.
 func NewGoogleFilestoreInstance(scope constructs.Construct, id *string, config *GoogleFilestoreInstanceConfig) GoogleFilestoreInstance {
 	_init_.Initialize()
 
@@ -820,7 +844,7 @@ func NewGoogleFilestoreInstance(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_filestore_instance google_filestore_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_filestore_instance google_filestore_instance} Resource.
 func NewGoogleFilestoreInstance_Override(g GoogleFilestoreInstance, scope constructs.Construct, id *string, config *GoogleFilestoreInstanceConfig) {
 	_init_.Initialize()
 
@@ -890,6 +914,17 @@ func (j *jsiiProxy_GoogleFilestoreInstance)SetDescription(val *string) {
 	_jsii_.Set(
 		j,
 		"description",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleFilestoreInstance)SetDesiredReplicaState(val *string) {
+	if err := j.validateSetDesiredReplicaStateParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"desiredReplicaState",
 		val,
 	)
 }
@@ -1481,6 +1516,14 @@ func (g *jsiiProxy_GoogleFilestoreInstance) ResetDescription() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetDescription",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleFilestoreInstance) ResetDesiredReplicaState() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDesiredReplicaState",
 		nil, // no parameters
 	)
 }

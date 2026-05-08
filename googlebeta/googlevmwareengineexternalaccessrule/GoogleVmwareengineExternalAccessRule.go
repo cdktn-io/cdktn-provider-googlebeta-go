@@ -5,14 +5,14 @@ package googlevmwareengineexternalaccessrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlevmwareengineexternalaccessrule/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevmwareengineexternalaccessrule/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vmwareengine_external_access_rule google_vmwareengine_external_access_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vmwareengine_external_access_rule google_vmwareengine_external_access_rule}.
 type GoogleVmwareengineExternalAccessRule interface {
 	cdktn.TerraformResource
 	Action() *string
@@ -618,7 +618,7 @@ func (j *jsiiProxy_GoogleVmwareengineExternalAccessRule) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vmwareengine_external_access_rule google_vmwareengine_external_access_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vmwareengine_external_access_rule google_vmwareengine_external_access_rule} Resource.
 func NewGoogleVmwareengineExternalAccessRule(scope constructs.Construct, id *string, config *GoogleVmwareengineExternalAccessRuleConfig) GoogleVmwareengineExternalAccessRule {
 	_init_.Initialize()
 
@@ -636,7 +636,7 @@ func NewGoogleVmwareengineExternalAccessRule(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vmwareengine_external_access_rule google_vmwareengine_external_access_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vmwareengine_external_access_rule google_vmwareengine_external_access_rule} Resource.
 func NewGoogleVmwareengineExternalAccessRule_Override(g GoogleVmwareengineExternalAccessRule, scope constructs.Construct, id *string, config *GoogleVmwareengineExternalAccessRuleConfig) {
 	_init_.Initialize()
 

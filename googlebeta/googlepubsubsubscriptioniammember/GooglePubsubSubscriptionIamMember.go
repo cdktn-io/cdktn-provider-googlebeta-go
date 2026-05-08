@@ -5,14 +5,14 @@ package googlepubsubsubscriptioniammember
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlepubsubsubscriptioniammember/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlepubsubsubscriptioniammember/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_pubsub_subscription_iam_member google_pubsub_subscription_iam_member}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_pubsub_subscription_iam_member google_pubsub_subscription_iam_member}.
 type GooglePubsubSubscriptionIamMember interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -447,7 +447,7 @@ func (j *jsiiProxy_GooglePubsubSubscriptionIamMember) TerraformResourceType() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_pubsub_subscription_iam_member google_pubsub_subscription_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_pubsub_subscription_iam_member google_pubsub_subscription_iam_member} Resource.
 func NewGooglePubsubSubscriptionIamMember(scope constructs.Construct, id *string, config *GooglePubsubSubscriptionIamMemberConfig) GooglePubsubSubscriptionIamMember {
 	_init_.Initialize()
 
@@ -465,7 +465,7 @@ func NewGooglePubsubSubscriptionIamMember(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_pubsub_subscription_iam_member google_pubsub_subscription_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_pubsub_subscription_iam_member google_pubsub_subscription_iam_member} Resource.
 func NewGooglePubsubSubscriptionIamMember_Override(g GooglePubsubSubscriptionIamMember, scope constructs.Construct, id *string, config *GooglePubsubSubscriptionIamMemberConfig) {
 	_init_.Initialize()
 

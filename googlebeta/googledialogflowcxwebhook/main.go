@@ -188,6 +188,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "parameterMappingInput", GoGetter: "ParameterMappingInput"},
 			_jsii_.MemberMethod{JsiiMethod: "putOauthConfig", GoMethod: "PutOauthConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "putSecretVersionsForRequestHeaders", GoMethod: "PutSecretVersionsForRequestHeaders"},
+			_jsii_.MemberMethod{JsiiMethod: "putServiceAccountAuthConfig", GoMethod: "PutServiceAccountAuthConfig"},
 			_jsii_.MemberProperty{JsiiProperty: "requestBody", GoGetter: "RequestBody"},
 			_jsii_.MemberProperty{JsiiProperty: "requestBodyInput", GoGetter: "RequestBodyInput"},
 			_jsii_.MemberProperty{JsiiProperty: "requestHeaders", GoGetter: "RequestHeaders"},
@@ -200,6 +201,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetRequestHeaders", GoMethod: "ResetRequestHeaders"},
 			_jsii_.MemberMethod{JsiiMethod: "resetSecretVersionForUsernamePassword", GoMethod: "ResetSecretVersionForUsernamePassword"},
 			_jsii_.MemberMethod{JsiiMethod: "resetSecretVersionsForRequestHeaders", GoMethod: "ResetSecretVersionsForRequestHeaders"},
+			_jsii_.MemberMethod{JsiiMethod: "resetServiceAccountAuthConfig", GoMethod: "ResetServiceAccountAuthConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "resetServiceAgentAuth", GoMethod: "ResetServiceAgentAuth"},
 			_jsii_.MemberMethod{JsiiMethod: "resetWebhookType", GoMethod: "ResetWebhookType"},
 			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
@@ -207,6 +209,8 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "secretVersionForUsernamePasswordInput", GoGetter: "SecretVersionForUsernamePasswordInput"},
 			_jsii_.MemberProperty{JsiiProperty: "secretVersionsForRequestHeaders", GoGetter: "SecretVersionsForRequestHeaders"},
 			_jsii_.MemberProperty{JsiiProperty: "secretVersionsForRequestHeadersInput", GoGetter: "SecretVersionsForRequestHeadersInput"},
+			_jsii_.MemberProperty{JsiiProperty: "serviceAccountAuthConfig", GoGetter: "ServiceAccountAuthConfig"},
+			_jsii_.MemberProperty{JsiiProperty: "serviceAccountAuthConfigInput", GoGetter: "ServiceAccountAuthConfigInput"},
 			_jsii_.MemberProperty{JsiiProperty: "serviceAgentAuth", GoGetter: "ServiceAgentAuth"},
 			_jsii_.MemberProperty{JsiiProperty: "serviceAgentAuthInput", GoGetter: "ServiceAgentAuthInput"},
 			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
@@ -281,6 +285,44 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GoogleDialogflowCxWebhookGenericWebServiceSecretVersionsForRequestHeadersOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-google-beta.googleDialogflowCxWebhook.GoogleDialogflowCxWebhookGenericWebServiceServiceAccountAuthConfig",
+		reflect.TypeOf((*GoogleDialogflowCxWebhookGenericWebServiceServiceAccountAuthConfig)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-google-beta.googleDialogflowCxWebhook.GoogleDialogflowCxWebhookGenericWebServiceServiceAccountAuthConfigOutputReference",
+		reflect.TypeOf((*GoogleDialogflowCxWebhookGenericWebServiceServiceAccountAuthConfigOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "serviceAccount", GoGetter: "ServiceAccount"},
+			_jsii_.MemberProperty{JsiiProperty: "serviceAccountInput", GoGetter: "ServiceAccountInput"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_GoogleDialogflowCxWebhookGenericWebServiceServiceAccountAuthConfigOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
@@ -373,6 +415,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "parameterMappingInput", GoGetter: "ParameterMappingInput"},
 			_jsii_.MemberMethod{JsiiMethod: "putOauthConfig", GoMethod: "PutOauthConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "putSecretVersionsForRequestHeaders", GoMethod: "PutSecretVersionsForRequestHeaders"},
+			_jsii_.MemberMethod{JsiiMethod: "putServiceAccountAuthConfig", GoMethod: "PutServiceAccountAuthConfig"},
 			_jsii_.MemberProperty{JsiiProperty: "requestBody", GoGetter: "RequestBody"},
 			_jsii_.MemberProperty{JsiiProperty: "requestBodyInput", GoGetter: "RequestBodyInput"},
 			_jsii_.MemberProperty{JsiiProperty: "requestHeaders", GoGetter: "RequestHeaders"},
@@ -385,6 +428,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetRequestHeaders", GoMethod: "ResetRequestHeaders"},
 			_jsii_.MemberMethod{JsiiMethod: "resetSecretVersionForUsernamePassword", GoMethod: "ResetSecretVersionForUsernamePassword"},
 			_jsii_.MemberMethod{JsiiMethod: "resetSecretVersionsForRequestHeaders", GoMethod: "ResetSecretVersionsForRequestHeaders"},
+			_jsii_.MemberMethod{JsiiMethod: "resetServiceAccountAuthConfig", GoMethod: "ResetServiceAccountAuthConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "resetServiceAgentAuth", GoMethod: "ResetServiceAgentAuth"},
 			_jsii_.MemberMethod{JsiiMethod: "resetWebhookType", GoMethod: "ResetWebhookType"},
 			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
@@ -392,6 +436,8 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "secretVersionForUsernamePasswordInput", GoGetter: "SecretVersionForUsernamePasswordInput"},
 			_jsii_.MemberProperty{JsiiProperty: "secretVersionsForRequestHeaders", GoGetter: "SecretVersionsForRequestHeaders"},
 			_jsii_.MemberProperty{JsiiProperty: "secretVersionsForRequestHeadersInput", GoGetter: "SecretVersionsForRequestHeadersInput"},
+			_jsii_.MemberProperty{JsiiProperty: "serviceAccountAuthConfig", GoGetter: "ServiceAccountAuthConfig"},
+			_jsii_.MemberProperty{JsiiProperty: "serviceAccountAuthConfigInput", GoGetter: "ServiceAccountAuthConfigInput"},
 			_jsii_.MemberProperty{JsiiProperty: "serviceAgentAuth", GoGetter: "ServiceAgentAuth"},
 			_jsii_.MemberProperty{JsiiProperty: "serviceAgentAuthInput", GoGetter: "ServiceAgentAuthInput"},
 			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
@@ -466,6 +512,44 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GoogleDialogflowCxWebhookServiceDirectoryGenericWebServiceSecretVersionsForRequestHeadersOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-google-beta.googleDialogflowCxWebhook.GoogleDialogflowCxWebhookServiceDirectoryGenericWebServiceServiceAccountAuthConfig",
+		reflect.TypeOf((*GoogleDialogflowCxWebhookServiceDirectoryGenericWebServiceServiceAccountAuthConfig)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-google-beta.googleDialogflowCxWebhook.GoogleDialogflowCxWebhookServiceDirectoryGenericWebServiceServiceAccountAuthConfigOutputReference",
+		reflect.TypeOf((*GoogleDialogflowCxWebhookServiceDirectoryGenericWebServiceServiceAccountAuthConfigOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "serviceAccount", GoGetter: "ServiceAccount"},
+			_jsii_.MemberProperty{JsiiProperty: "serviceAccountInput", GoGetter: "ServiceAccountInput"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_GoogleDialogflowCxWebhookServiceDirectoryGenericWebServiceServiceAccountAuthConfigOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},

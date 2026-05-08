@@ -55,6 +55,10 @@ func (j *jsiiProxy_GoogleComputeResourcePolicyWorkloadPolicyOutputReference) val
 	return nil
 }
 
+func (j *jsiiProxy_GoogleComputeResourcePolicyWorkloadPolicyOutputReference) validateSetAcceleratorTopologyModeParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleComputeResourcePolicyWorkloadPolicyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
 	return nil
 }

@@ -1,0 +1,89 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package googlediscoveryenginewidgetconfig
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (g *jsiiProxy_GoogleDiscoveryEngineWidgetConfigUiSettingsDataStoreUiConfigsOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleDiscoveryEngineWidgetConfigUiSettingsDataStoreUiConfigsOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleDiscoveryEngineWidgetConfigUiSettingsDataStoreUiConfigsOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleDiscoveryEngineWidgetConfigUiSettingsDataStoreUiConfigsOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleDiscoveryEngineWidgetConfigUiSettingsDataStoreUiConfigsOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleDiscoveryEngineWidgetConfigUiSettingsDataStoreUiConfigsOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleDiscoveryEngineWidgetConfigUiSettingsDataStoreUiConfigsOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleDiscoveryEngineWidgetConfigUiSettingsDataStoreUiConfigsOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleDiscoveryEngineWidgetConfigUiSettingsDataStoreUiConfigsOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleDiscoveryEngineWidgetConfigUiSettingsDataStoreUiConfigsOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleDiscoveryEngineWidgetConfigUiSettingsDataStoreUiConfigsOutputReference) validatePutFacetFieldParameters(value interface{}) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleDiscoveryEngineWidgetConfigUiSettingsDataStoreUiConfigsOutputReference) validatePutFieldsUiComponentsMapParameters(value interface{}) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleDiscoveryEngineWidgetConfigUiSettingsDataStoreUiConfigsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleDiscoveryEngineWidgetConfigUiSettingsDataStoreUiConfigsOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleDiscoveryEngineWidgetConfigUiSettingsDataStoreUiConfigsOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleDiscoveryEngineWidgetConfigUiSettingsDataStoreUiConfigsOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleDiscoveryEngineWidgetConfigUiSettingsDataStoreUiConfigsOutputReference) validateSetNameParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleDiscoveryEngineWidgetConfigUiSettingsDataStoreUiConfigsOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleDiscoveryEngineWidgetConfigUiSettingsDataStoreUiConfigsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewGoogleDiscoveryEngineWidgetConfigUiSettingsDataStoreUiConfigsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

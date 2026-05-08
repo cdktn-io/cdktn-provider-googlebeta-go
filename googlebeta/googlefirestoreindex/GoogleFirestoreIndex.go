@@ -5,14 +5,14 @@ package googlefirestoreindex
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlefirestoreindex/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlefirestoreindex/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_firestore_index google_firestore_index}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_firestore_index google_firestore_index}.
 type GoogleFirestoreIndex interface {
 	cdktn.TerraformResource
 	ApiScope() *string
@@ -36,6 +36,9 @@ type GoogleFirestoreIndex interface {
 	Database() *string
 	SetDatabase(val *string)
 	DatabaseInput() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	Density() *string
 	SetDensity(val *string)
 	DensityInput() *string
@@ -82,6 +85,9 @@ type GoogleFirestoreIndex interface {
 	QueryScopeInput() *string
 	// Experimental.
 	RawOverrides() interface{}
+	SkipWait() interface{}
+	SetSkipWait(val interface{})
+	SkipWaitInput() interface{}
 	// Experimental.
 	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
@@ -90,6 +96,9 @@ type GoogleFirestoreIndex interface {
 	TerraformResourceType() *string
 	Timeouts() GoogleFirestoreIndexTimeoutsOutputReference
 	TimeoutsInput() interface{}
+	Unique() interface{}
+	SetUnique(val interface{})
+	UniqueInput() interface{}
 	// Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
 	// Experimental.
 	AddMoveTarget(moveTarget *string)
@@ -137,6 +146,7 @@ type GoogleFirestoreIndex interface {
 	PutTimeouts(value *GoogleFirestoreIndexTimeouts)
 	ResetApiScope()
 	ResetDatabase()
+	ResetDeletionPolicy()
 	ResetDensity()
 	ResetId()
 	ResetMultikey()
@@ -145,7 +155,9 @@ type GoogleFirestoreIndex interface {
 	ResetOverrideLogicalId()
 	ResetProject()
 	ResetQueryScope()
+	ResetSkipWait()
 	ResetTimeouts()
+	ResetUnique()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
 	// Experimental.
@@ -268,6 +280,26 @@ func (j *jsiiProxy_GoogleFirestoreIndex) DatabaseInput() *string {
 	_jsii_.Get(
 		j,
 		"databaseInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleFirestoreIndex) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleFirestoreIndex) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -493,6 +525,26 @@ func (j *jsiiProxy_GoogleFirestoreIndex) RawOverrides() interface{} {
 	return returns
 }
 
+func (j *jsiiProxy_GoogleFirestoreIndex) SkipWait() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"skipWait",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleFirestoreIndex) SkipWaitInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"skipWaitInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleFirestoreIndex) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
 	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
@@ -543,8 +595,28 @@ func (j *jsiiProxy_GoogleFirestoreIndex) TimeoutsInput() interface{} {
 	return returns
 }
 
+func (j *jsiiProxy_GoogleFirestoreIndex) Unique() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"unique",
+		&returns,
+	)
+	return returns
+}
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_firestore_index google_firestore_index} Resource.
+func (j *jsiiProxy_GoogleFirestoreIndex) UniqueInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"uniqueInput",
+		&returns,
+	)
+	return returns
+}
+
+
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_firestore_index google_firestore_index} Resource.
 func NewGoogleFirestoreIndex(scope constructs.Construct, id *string, config *GoogleFirestoreIndexConfig) GoogleFirestoreIndex {
 	_init_.Initialize()
 
@@ -562,7 +634,7 @@ func NewGoogleFirestoreIndex(scope constructs.Construct, id *string, config *Goo
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_firestore_index google_firestore_index} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_firestore_index google_firestore_index} Resource.
 func NewGoogleFirestoreIndex_Override(g GoogleFirestoreIndex, scope constructs.Construct, id *string, config *GoogleFirestoreIndexConfig) {
 	_init_.Initialize()
 
@@ -624,6 +696,17 @@ func (j *jsiiProxy_GoogleFirestoreIndex)SetDatabase(val *string) {
 	_jsii_.Set(
 		j,
 		"database",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleFirestoreIndex)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -725,6 +808,28 @@ func (j *jsiiProxy_GoogleFirestoreIndex)SetQueryScope(val *string) {
 	_jsii_.Set(
 		j,
 		"queryScope",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleFirestoreIndex)SetSkipWait(val interface{}) {
+	if err := j.validateSetSkipWaitParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"skipWait",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleFirestoreIndex)SetUnique(val interface{}) {
+	if err := j.validateSetUniqueParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"unique",
 		val,
 	)
 }
@@ -1120,6 +1225,14 @@ func (g *jsiiProxy_GoogleFirestoreIndex) ResetDatabase() {
 	)
 }
 
+func (g *jsiiProxy_GoogleFirestoreIndex) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
+	)
+}
+
 func (g *jsiiProxy_GoogleFirestoreIndex) ResetDensity() {
 	_jsii_.InvokeVoid(
 		g,
@@ -1168,10 +1281,26 @@ func (g *jsiiProxy_GoogleFirestoreIndex) ResetQueryScope() {
 	)
 }
 
+func (g *jsiiProxy_GoogleFirestoreIndex) ResetSkipWait() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetSkipWait",
+		nil, // no parameters
+	)
+}
+
 func (g *jsiiProxy_GoogleFirestoreIndex) ResetTimeouts() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetTimeouts",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleFirestoreIndex) ResetUnique() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetUnique",
 		nil, // no parameters
 	)
 }

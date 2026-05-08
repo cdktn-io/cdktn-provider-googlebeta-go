@@ -5,14 +5,14 @@ package googlecomposeruserworkloadssecret
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomposeruserworkloadssecret/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomposeruserworkloadssecret/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_composer_user_workloads_secret google_composer_user_workloads_secret}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_composer_user_workloads_secret google_composer_user_workloads_secret}.
 type GoogleComposerUserWorkloadsSecret interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -461,7 +461,7 @@ func (j *jsiiProxy_GoogleComposerUserWorkloadsSecret) TimeoutsInput() interface{
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_composer_user_workloads_secret google_composer_user_workloads_secret} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_composer_user_workloads_secret google_composer_user_workloads_secret} Resource.
 func NewGoogleComposerUserWorkloadsSecret(scope constructs.Construct, id *string, config *GoogleComposerUserWorkloadsSecretConfig) GoogleComposerUserWorkloadsSecret {
 	_init_.Initialize()
 
@@ -479,7 +479,7 @@ func NewGoogleComposerUserWorkloadsSecret(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_composer_user_workloads_secret google_composer_user_workloads_secret} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_composer_user_workloads_secret google_composer_user_workloads_secret} Resource.
 func NewGoogleComposerUserWorkloadsSecret_Override(g GoogleComposerUserWorkloadsSecret, scope constructs.Construct, id *string, config *GoogleComposerUserWorkloadsSecretConfig) {
 	_init_.Initialize()
 

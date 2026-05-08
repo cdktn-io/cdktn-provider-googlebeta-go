@@ -67,6 +67,10 @@ func (j *jsiiProxy_GoogleContainerClusterIpAllocationPolicyAdditionalIpRangesCon
 	return nil
 }
 
+func (j *jsiiProxy_GoogleContainerClusterIpAllocationPolicyAdditionalIpRangesConfigOutputReference) validateSetStatusParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleContainerClusterIpAllocationPolicyAdditionalIpRangesConfigOutputReference) validateSetSubnetworkParameters(val *string) error {
 	return nil
 }

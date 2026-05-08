@@ -5,14 +5,14 @@ package googlebigqueryjob
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebigqueryjob/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebigqueryjob/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job google_bigquery_job}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job google_bigquery_job}.
 type GoogleBigqueryJob interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -83,6 +83,9 @@ type GoogleBigqueryJob interface {
 	QueryInput() *GoogleBigqueryJobQuery
 	// Experimental.
 	RawOverrides() interface{}
+	Reservation() *string
+	SetReservation(val *string)
+	ReservationInput() *string
 	Status() GoogleBigqueryJobStatusList
 	// Experimental.
 	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
@@ -154,6 +157,7 @@ type GoogleBigqueryJob interface {
 	ResetOverrideLogicalId()
 	ResetProject()
 	ResetQuery()
+	ResetReservation()
 	ResetTimeouts()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
@@ -532,6 +536,26 @@ func (j *jsiiProxy_GoogleBigqueryJob) RawOverrides() interface{} {
 	return returns
 }
 
+func (j *jsiiProxy_GoogleBigqueryJob) Reservation() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"reservation",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleBigqueryJob) ReservationInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"reservationInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleBigqueryJob) Status() GoogleBigqueryJobStatusList {
 	var returns GoogleBigqueryJobStatusList
 	_jsii_.Get(
@@ -613,7 +637,7 @@ func (j *jsiiProxy_GoogleBigqueryJob) UserEmail() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job google_bigquery_job} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job google_bigquery_job} Resource.
 func NewGoogleBigqueryJob(scope constructs.Construct, id *string, config *GoogleBigqueryJobConfig) GoogleBigqueryJob {
 	_init_.Initialize()
 
@@ -631,7 +655,7 @@ func NewGoogleBigqueryJob(scope constructs.Construct, id *string, config *Google
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_bigquery_job google_bigquery_job} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_job google_bigquery_job} Resource.
 func NewGoogleBigqueryJob_Override(g GoogleBigqueryJob, scope constructs.Construct, id *string, config *GoogleBigqueryJobConfig) {
 	_init_.Initialize()
 
@@ -772,6 +796,17 @@ func (j *jsiiProxy_GoogleBigqueryJob)SetProvisioners(val *[]interface{}) {
 	_jsii_.Set(
 		j,
 		"provisioners",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleBigqueryJob)SetReservation(val *string) {
+	if err := j.validateSetReservationParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"reservation",
 		val,
 	)
 }
@@ -1260,6 +1295,14 @@ func (g *jsiiProxy_GoogleBigqueryJob) ResetQuery() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetQuery",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleBigqueryJob) ResetReservation() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetReservation",
 		nil, // no parameters
 	)
 }

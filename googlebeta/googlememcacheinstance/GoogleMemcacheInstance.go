@@ -5,14 +5,14 @@ package googlememcacheinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlememcacheinstance/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlememcacheinstance/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_memcache_instance google_memcache_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_memcache_instance google_memcache_instance}.
 type GoogleMemcacheInstance interface {
 	cdktn.TerraformResource
 	AuthorizedNetwork() *string
@@ -31,6 +31,9 @@ type GoogleMemcacheInstance interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionProtection() interface{}
+	SetDeletionProtection(val interface{})
+	DeletionProtectionInput() interface{}
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -157,6 +160,7 @@ type GoogleMemcacheInstance interface {
 	PutNodeConfig(value *GoogleMemcacheInstanceNodeConfig)
 	PutTimeouts(value *GoogleMemcacheInstanceTimeouts)
 	ResetAuthorizedNetwork()
+	ResetDeletionProtection()
 	ResetDisplayName()
 	ResetId()
 	ResetLabels()
@@ -263,6 +267,26 @@ func (j *jsiiProxy_GoogleMemcacheInstance) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleMemcacheInstance) DeletionProtection() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"deletionProtection",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleMemcacheInstance) DeletionProtectionInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"deletionProtectionInput",
 		&returns,
 	)
 	return returns
@@ -729,7 +753,7 @@ func (j *jsiiProxy_GoogleMemcacheInstance) ZonesInput() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_memcache_instance google_memcache_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_memcache_instance google_memcache_instance} Resource.
 func NewGoogleMemcacheInstance(scope constructs.Construct, id *string, config *GoogleMemcacheInstanceConfig) GoogleMemcacheInstance {
 	_init_.Initialize()
 
@@ -747,7 +771,7 @@ func NewGoogleMemcacheInstance(scope constructs.Construct, id *string, config *G
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_memcache_instance google_memcache_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_memcache_instance google_memcache_instance} Resource.
 func NewGoogleMemcacheInstance_Override(g GoogleMemcacheInstance, scope constructs.Construct, id *string, config *GoogleMemcacheInstanceConfig) {
 	_init_.Initialize()
 
@@ -787,6 +811,17 @@ func (j *jsiiProxy_GoogleMemcacheInstance)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleMemcacheInstance)SetDeletionProtection(val interface{}) {
+	if err := j.validateSetDeletionProtectionParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionProtection",
 		val,
 	)
 }
@@ -1348,6 +1383,14 @@ func (g *jsiiProxy_GoogleMemcacheInstance) ResetAuthorizedNetwork() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetAuthorizedNetwork",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleMemcacheInstance) ResetDeletionProtection() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionProtection",
 		nil, // no parameters
 	)
 }

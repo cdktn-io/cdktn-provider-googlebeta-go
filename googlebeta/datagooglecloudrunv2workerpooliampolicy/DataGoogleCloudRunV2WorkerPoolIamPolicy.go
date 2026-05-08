@@ -5,14 +5,14 @@ package datagooglecloudrunv2workerpooliampolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglecloudrunv2workerpooliampolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglecloudrunv2workerpooliampolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_cloud_run_v2_worker_pool_iam_policy google_cloud_run_v2_worker_pool_iam_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_cloud_run_v2_worker_pool_iam_policy google_cloud_run_v2_worker_pool_iam_policy}.
 type DataGoogleCloudRunV2WorkerPoolIamPolicy interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -367,7 +367,7 @@ func (j *jsiiProxy_DataGoogleCloudRunV2WorkerPoolIamPolicy) TerraformResourceTyp
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_cloud_run_v2_worker_pool_iam_policy google_cloud_run_v2_worker_pool_iam_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_cloud_run_v2_worker_pool_iam_policy google_cloud_run_v2_worker_pool_iam_policy} Data Source.
 func NewDataGoogleCloudRunV2WorkerPoolIamPolicy(scope constructs.Construct, id *string, config *DataGoogleCloudRunV2WorkerPoolIamPolicyConfig) DataGoogleCloudRunV2WorkerPoolIamPolicy {
 	_init_.Initialize()
 
@@ -385,7 +385,7 @@ func NewDataGoogleCloudRunV2WorkerPoolIamPolicy(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_cloud_run_v2_worker_pool_iam_policy google_cloud_run_v2_worker_pool_iam_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_cloud_run_v2_worker_pool_iam_policy google_cloud_run_v2_worker_pool_iam_policy} Data Source.
 func NewDataGoogleCloudRunV2WorkerPoolIamPolicy_Override(d DataGoogleCloudRunV2WorkerPoolIamPolicy, scope constructs.Construct, id *string, config *DataGoogleCloudRunV2WorkerPoolIamPolicyConfig) {
 	_init_.Initialize()
 

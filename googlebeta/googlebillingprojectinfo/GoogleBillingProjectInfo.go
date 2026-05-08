@@ -5,14 +5,14 @@ package googlebillingprojectinfo
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlebillingprojectinfo/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebillingprojectinfo/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_billing_project_info google_billing_project_info}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_billing_project_info google_billing_project_info}.
 type GoogleBillingProjectInfo interface {
 	cdktn.TerraformResource
 	BillingAccount() *string
@@ -390,7 +390,7 @@ func (j *jsiiProxy_GoogleBillingProjectInfo) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_billing_project_info google_billing_project_info} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_billing_project_info google_billing_project_info} Resource.
 func NewGoogleBillingProjectInfo(scope constructs.Construct, id *string, config *GoogleBillingProjectInfoConfig) GoogleBillingProjectInfo {
 	_init_.Initialize()
 
@@ -408,7 +408,7 @@ func NewGoogleBillingProjectInfo(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_billing_project_info google_billing_project_info} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_billing_project_info google_billing_project_info} Resource.
 func NewGoogleBillingProjectInfo_Override(g GoogleBillingProjectInfo, scope constructs.Construct, id *string, config *GoogleBillingProjectInfoConfig) {
 	_init_.Initialize()
 

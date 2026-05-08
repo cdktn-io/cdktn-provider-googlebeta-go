@@ -5,9 +5,9 @@ package googledataplexdatascan
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexdatascan/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexdatascan/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -34,6 +34,8 @@ type GoogleDataplexDatascanExecutionSpecTriggerOutputReference interface {
 	SetInternalValue(val *GoogleDataplexDatascanExecutionSpecTrigger)
 	OnDemand() GoogleDataplexDatascanExecutionSpecTriggerOnDemandOutputReference
 	OnDemandInput() *GoogleDataplexDatascanExecutionSpecTriggerOnDemand
+	OneTime() GoogleDataplexDatascanExecutionSpecTriggerOneTimeOutputReference
+	OneTimeInput() *GoogleDataplexDatascanExecutionSpecTriggerOneTime
 	Schedule() GoogleDataplexDatascanExecutionSpecTriggerScheduleOutputReference
 	ScheduleInput() *GoogleDataplexDatascanExecutionSpecTriggerSchedule
 	// Experimental.
@@ -69,8 +71,10 @@ type GoogleDataplexDatascanExecutionSpecTriggerOutputReference interface {
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutOnDemand(value *GoogleDataplexDatascanExecutionSpecTriggerOnDemand)
+	PutOneTime(value *GoogleDataplexDatascanExecutionSpecTriggerOneTime)
 	PutSchedule(value *GoogleDataplexDatascanExecutionSpecTriggerSchedule)
 	ResetOnDemand()
+	ResetOneTime()
 	ResetSchedule()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -152,6 +156,26 @@ func (j *jsiiProxy_GoogleDataplexDatascanExecutionSpecTriggerOutputReference) On
 	_jsii_.Get(
 		j,
 		"onDemandInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDataplexDatascanExecutionSpecTriggerOutputReference) OneTime() GoogleDataplexDatascanExecutionSpecTriggerOneTimeOutputReference {
+	var returns GoogleDataplexDatascanExecutionSpecTriggerOneTimeOutputReference
+	_jsii_.Get(
+		j,
+		"oneTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDataplexDatascanExecutionSpecTriggerOutputReference) OneTimeInput() *GoogleDataplexDatascanExecutionSpecTriggerOneTime {
+	var returns *GoogleDataplexDatascanExecutionSpecTriggerOneTime
+	_jsii_.Get(
+		j,
+		"oneTimeInput",
 		&returns,
 	)
 	return returns
@@ -477,6 +501,17 @@ func (g *jsiiProxy_GoogleDataplexDatascanExecutionSpecTriggerOutputReference) Pu
 	)
 }
 
+func (g *jsiiProxy_GoogleDataplexDatascanExecutionSpecTriggerOutputReference) PutOneTime(value *GoogleDataplexDatascanExecutionSpecTriggerOneTime) {
+	if err := g.validatePutOneTimeParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putOneTime",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleDataplexDatascanExecutionSpecTriggerOutputReference) PutSchedule(value *GoogleDataplexDatascanExecutionSpecTriggerSchedule) {
 	if err := g.validatePutScheduleParameters(value); err != nil {
 		panic(err)
@@ -492,6 +527,14 @@ func (g *jsiiProxy_GoogleDataplexDatascanExecutionSpecTriggerOutputReference) Re
 	_jsii_.InvokeVoid(
 		g,
 		"resetOnDemand",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleDataplexDatascanExecutionSpecTriggerOutputReference) ResetOneTime() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetOneTime",
 		nil, // no parameters
 	)
 }

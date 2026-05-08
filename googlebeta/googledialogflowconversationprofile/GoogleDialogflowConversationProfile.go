@@ -5,14 +5,14 @@ package googledialogflowconversationprofile
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledialogflowconversationprofile/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledialogflowconversationprofile/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile google_dialogflow_conversation_profile}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile google_dialogflow_conversation_profile}.
 type GoogleDialogflowConversationProfile interface {
 	cdktn.TerraformResource
 	AutomatedAgentConfig() GoogleDialogflowConversationProfileAutomatedAgentConfigOutputReference
@@ -66,6 +66,8 @@ type GoogleDialogflowConversationProfile interface {
 	Name() *string
 	NewMessageEventNotificationConfig() GoogleDialogflowConversationProfileNewMessageEventNotificationConfigOutputReference
 	NewMessageEventNotificationConfigInput() *GoogleDialogflowConversationProfileNewMessageEventNotificationConfig
+	NewRecognitionResultNotificationConfig() GoogleDialogflowConversationProfileNewRecognitionResultNotificationConfigOutputReference
+	NewRecognitionResultNotificationConfigInput() *GoogleDialogflowConversationProfileNewRecognitionResultNotificationConfig
 	// The tree node.
 	Node() constructs.Node
 	NotificationConfig() GoogleDialogflowConversationProfileNotificationConfigOutputReference
@@ -101,6 +103,9 @@ type GoogleDialogflowConversationProfile interface {
 	TimeZoneInput() *string
 	TtsConfig() GoogleDialogflowConversationProfileTtsConfigOutputReference
 	TtsConfigInput() *GoogleDialogflowConversationProfileTtsConfig
+	UseBidiStreaming() interface{}
+	SetUseBidiStreaming(val interface{})
+	UseBidiStreamingInput() interface{}
 	// Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
 	// Experimental.
 	AddMoveTarget(moveTarget *string)
@@ -149,6 +154,7 @@ type GoogleDialogflowConversationProfile interface {
 	PutHumanAgentHandoffConfig(value *GoogleDialogflowConversationProfileHumanAgentHandoffConfig)
 	PutLoggingConfig(value *GoogleDialogflowConversationProfileLoggingConfig)
 	PutNewMessageEventNotificationConfig(value *GoogleDialogflowConversationProfileNewMessageEventNotificationConfig)
+	PutNewRecognitionResultNotificationConfig(value *GoogleDialogflowConversationProfileNewRecognitionResultNotificationConfig)
 	PutNotificationConfig(value *GoogleDialogflowConversationProfileNotificationConfig)
 	PutSttConfig(value *GoogleDialogflowConversationProfileSttConfig)
 	PutTimeouts(value *GoogleDialogflowConversationProfileTimeouts)
@@ -160,6 +166,7 @@ type GoogleDialogflowConversationProfile interface {
 	ResetLanguageCode()
 	ResetLoggingConfig()
 	ResetNewMessageEventNotificationConfig()
+	ResetNewRecognitionResultNotificationConfig()
 	ResetNotificationConfig()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -170,6 +177,7 @@ type GoogleDialogflowConversationProfile interface {
 	ResetTimeouts()
 	ResetTimeZone()
 	ResetTtsConfig()
+	ResetUseBidiStreaming()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
 	// Experimental.
@@ -477,6 +485,26 @@ func (j *jsiiProxy_GoogleDialogflowConversationProfile) NewMessageEventNotificat
 	return returns
 }
 
+func (j *jsiiProxy_GoogleDialogflowConversationProfile) NewRecognitionResultNotificationConfig() GoogleDialogflowConversationProfileNewRecognitionResultNotificationConfigOutputReference {
+	var returns GoogleDialogflowConversationProfileNewRecognitionResultNotificationConfigOutputReference
+	_jsii_.Get(
+		j,
+		"newRecognitionResultNotificationConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDialogflowConversationProfile) NewRecognitionResultNotificationConfigInput() *GoogleDialogflowConversationProfileNewRecognitionResultNotificationConfig {
+	var returns *GoogleDialogflowConversationProfileNewRecognitionResultNotificationConfig
+	_jsii_.Get(
+		j,
+		"newRecognitionResultNotificationConfigInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleDialogflowConversationProfile) Node() constructs.Node {
 	var returns constructs.Node
 	_jsii_.Get(
@@ -687,8 +715,28 @@ func (j *jsiiProxy_GoogleDialogflowConversationProfile) TtsConfigInput() *Google
 	return returns
 }
 
+func (j *jsiiProxy_GoogleDialogflowConversationProfile) UseBidiStreaming() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"useBidiStreaming",
+		&returns,
+	)
+	return returns
+}
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile google_dialogflow_conversation_profile} Resource.
+func (j *jsiiProxy_GoogleDialogflowConversationProfile) UseBidiStreamingInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"useBidiStreamingInput",
+		&returns,
+	)
+	return returns
+}
+
+
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile google_dialogflow_conversation_profile} Resource.
 func NewGoogleDialogflowConversationProfile(scope constructs.Construct, id *string, config *GoogleDialogflowConversationProfileConfig) GoogleDialogflowConversationProfile {
 	_init_.Initialize()
 
@@ -706,7 +754,7 @@ func NewGoogleDialogflowConversationProfile(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dialogflow_conversation_profile google_dialogflow_conversation_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_conversation_profile google_dialogflow_conversation_profile} Resource.
 func NewGoogleDialogflowConversationProfile_Override(g GoogleDialogflowConversationProfile, scope constructs.Construct, id *string, config *GoogleDialogflowConversationProfileConfig) {
 	_init_.Initialize()
 
@@ -858,6 +906,17 @@ func (j *jsiiProxy_GoogleDialogflowConversationProfile)SetTimeZone(val *string) 
 	_jsii_.Set(
 		j,
 		"timeZone",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleDialogflowConversationProfile)SetUseBidiStreaming(val interface{}) {
+	if err := j.validateSetUseBidiStreamingParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"useBidiStreaming",
 		val,
 	)
 }
@@ -1270,6 +1329,17 @@ func (g *jsiiProxy_GoogleDialogflowConversationProfile) PutNewMessageEventNotifi
 	)
 }
 
+func (g *jsiiProxy_GoogleDialogflowConversationProfile) PutNewRecognitionResultNotificationConfig(value *GoogleDialogflowConversationProfileNewRecognitionResultNotificationConfig) {
+	if err := g.validatePutNewRecognitionResultNotificationConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putNewRecognitionResultNotificationConfig",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleDialogflowConversationProfile) PutNotificationConfig(value *GoogleDialogflowConversationProfileNotificationConfig) {
 	if err := g.validatePutNotificationConfigParameters(value); err != nil {
 		panic(err)
@@ -1370,6 +1440,14 @@ func (g *jsiiProxy_GoogleDialogflowConversationProfile) ResetNewMessageEventNoti
 	)
 }
 
+func (g *jsiiProxy_GoogleDialogflowConversationProfile) ResetNewRecognitionResultNotificationConfig() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetNewRecognitionResultNotificationConfig",
+		nil, // no parameters
+	)
+}
+
 func (g *jsiiProxy_GoogleDialogflowConversationProfile) ResetNotificationConfig() {
 	_jsii_.InvokeVoid(
 		g,
@@ -1430,6 +1508,14 @@ func (g *jsiiProxy_GoogleDialogflowConversationProfile) ResetTtsConfig() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetTtsConfig",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleDialogflowConversationProfile) ResetUseBidiStreaming() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetUseBidiStreaming",
 		nil, // no parameters
 	)
 }

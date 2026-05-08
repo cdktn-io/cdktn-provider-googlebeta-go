@@ -5,14 +5,14 @@ package googlenetworkconnectivityinternalrange
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenetworkconnectivityinternalrange/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenetworkconnectivityinternalrange/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_connectivity_internal_range google_network_connectivity_internal_range}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_internal_range google_network_connectivity_internal_range}.
 type GoogleNetworkConnectivityInternalRange interface {
 	cdktn.TerraformResource
 	AllocationOptions() GoogleNetworkConnectivityInternalRangeAllocationOptionsOutputReference
@@ -732,7 +732,7 @@ func (j *jsiiProxy_GoogleNetworkConnectivityInternalRange) Users() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_connectivity_internal_range google_network_connectivity_internal_range} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_internal_range google_network_connectivity_internal_range} Resource.
 func NewGoogleNetworkConnectivityInternalRange(scope constructs.Construct, id *string, config *GoogleNetworkConnectivityInternalRangeConfig) GoogleNetworkConnectivityInternalRange {
 	_init_.Initialize()
 
@@ -750,7 +750,7 @@ func NewGoogleNetworkConnectivityInternalRange(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_connectivity_internal_range google_network_connectivity_internal_range} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_internal_range google_network_connectivity_internal_range} Resource.
 func NewGoogleNetworkConnectivityInternalRange_Override(g GoogleNetworkConnectivityInternalRange, scope constructs.Construct, id *string, config *GoogleNetworkConnectivityInternalRangeConfig) {
 	_init_.Initialize()
 

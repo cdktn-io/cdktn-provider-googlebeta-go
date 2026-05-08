@@ -5,14 +5,14 @@ package googlesourcereporepository
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlesourcereporepository/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlesourcereporepository/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sourcerepo_repository google_sourcerepo_repository}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sourcerepo_repository google_sourcerepo_repository}.
 type GoogleSourcerepoRepository interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -460,7 +460,7 @@ func (j *jsiiProxy_GoogleSourcerepoRepository) Url() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sourcerepo_repository google_sourcerepo_repository} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sourcerepo_repository google_sourcerepo_repository} Resource.
 func NewGoogleSourcerepoRepository(scope constructs.Construct, id *string, config *GoogleSourcerepoRepositoryConfig) GoogleSourcerepoRepository {
 	_init_.Initialize()
 
@@ -478,7 +478,7 @@ func NewGoogleSourcerepoRepository(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_sourcerepo_repository google_sourcerepo_repository} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_sourcerepo_repository google_sourcerepo_repository} Resource.
 func NewGoogleSourcerepoRepository_Override(g GoogleSourcerepoRepository, scope constructs.Construct, id *string, config *GoogleSourcerepoRepositoryConfig) {
 	_init_.Initialize()
 

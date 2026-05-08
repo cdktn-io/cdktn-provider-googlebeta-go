@@ -87,6 +87,10 @@ func (g *jsiiProxy_GoogleVertexAiFeatureOnlineStore) validatePutEmbeddingManagem
 	return nil
 }
 
+func (g *jsiiProxy_GoogleVertexAiFeatureOnlineStore) validatePutEncryptionSpecParameters(value *GoogleVertexAiFeatureOnlineStoreEncryptionSpec) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleVertexAiFeatureOnlineStore) validatePutOptimizedParameters(value *GoogleVertexAiFeatureOnlineStoreOptimized) error {
 	return nil
 }

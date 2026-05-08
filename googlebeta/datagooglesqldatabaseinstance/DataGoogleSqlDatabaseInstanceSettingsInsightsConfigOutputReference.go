@@ -5,9 +5,9 @@ package datagooglesqldatabaseinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglesqldatabaseinstance/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglesqldatabaseinstance/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -28,6 +28,7 @@ type DataGoogleSqlDatabaseInstanceSettingsInsightsConfigOutputReference interfac
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
+	EnhancedQueryInsightsEnabled() cdktn.IResolvable
 	// Experimental.
 	Fqn() *string
 	InternalValue() *DataGoogleSqlDatabaseInstanceSettingsInsightsConfig
@@ -109,6 +110,16 @@ func (j *jsiiProxy_DataGoogleSqlDatabaseInstanceSettingsInsightsConfigOutputRefe
 	_jsii_.Get(
 		j,
 		"creationStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleSqlDatabaseInstanceSettingsInsightsConfigOutputReference) EnhancedQueryInsightsEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
+	_jsii_.Get(
+		j,
+		"enhancedQueryInsightsEnabled",
 		&returns,
 	)
 	return returns

@@ -51,6 +51,10 @@ func (g *jsiiProxy_GooglePubsubSubscriptionCloudStorageConfigOutputReference) va
 	return nil
 }
 
+func (g *jsiiProxy_GooglePubsubSubscriptionCloudStorageConfigOutputReference) validatePutTextConfigParameters(value *GooglePubsubSubscriptionCloudStorageConfigTextConfig) error {
+	return nil
+}
+
 func (g *jsiiProxy_GooglePubsubSubscriptionCloudStorageConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }

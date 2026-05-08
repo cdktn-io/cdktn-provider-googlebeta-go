@@ -79,11 +79,23 @@ func (g *jsiiProxy_GoogleDialogflowCxAgent) validatePutAdvancedSettingsParameter
 	return nil
 }
 
+func (g *jsiiProxy_GoogleDialogflowCxAgent) validatePutAnswerFeedbackSettingsParameters(value *GoogleDialogflowCxAgentAnswerFeedbackSettings) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleDialogflowCxAgent) validatePutClientCertificateSettingsParameters(value *GoogleDialogflowCxAgentClientCertificateSettings) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleDialogflowCxAgent) validatePutGenAppBuilderSettingsParameters(value *GoogleDialogflowCxAgentGenAppBuilderSettings) error {
 	return nil
 }
 
 func (g *jsiiProxy_GoogleDialogflowCxAgent) validatePutGitIntegrationSettingsParameters(value *GoogleDialogflowCxAgentGitIntegrationSettings) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleDialogflowCxAgent) validatePutPersonalizationSettingsParameters(value *GoogleDialogflowCxAgentPersonalizationSettings) error {
 	return nil
 }
 
@@ -143,6 +155,10 @@ func (j *jsiiProxy_GoogleDialogflowCxAgent) validateSetDisplayNameParameters(val
 	return nil
 }
 
+func (j *jsiiProxy_GoogleDialogflowCxAgent) validateSetEnableMultiLanguageTrainingParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleDialogflowCxAgent) validateSetEnableSpellCorrectionParameters(val interface{}) error {
 	return nil
 }
@@ -163,6 +179,10 @@ func (j *jsiiProxy_GoogleDialogflowCxAgent) validateSetLocationParameters(val *s
 	return nil
 }
 
+func (j *jsiiProxy_GoogleDialogflowCxAgent) validateSetLockedParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleDialogflowCxAgent) validateSetProjectParameters(val *string) error {
 	return nil
 }
@@ -172,6 +192,10 @@ func (j *jsiiProxy_GoogleDialogflowCxAgent) validateSetProvisionersParameters(va
 }
 
 func (j *jsiiProxy_GoogleDialogflowCxAgent) validateSetSecuritySettingsParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleDialogflowCxAgent) validateSetStartPlaybookParameters(val *string) error {
 	return nil
 }
 

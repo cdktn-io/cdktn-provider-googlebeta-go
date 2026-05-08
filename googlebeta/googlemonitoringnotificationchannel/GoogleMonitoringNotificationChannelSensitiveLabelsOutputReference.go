@@ -5,9 +5,9 @@ package googlemonitoringnotificationchannel
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlemonitoringnotificationchannel/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlemonitoringnotificationchannel/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -16,6 +16,12 @@ type GoogleMonitoringNotificationChannelSensitiveLabelsOutputReference interface
 	AuthToken() *string
 	SetAuthToken(val *string)
 	AuthTokenInput() *string
+	AuthTokenWo() *string
+	SetAuthTokenWo(val *string)
+	AuthTokenWoInput() *string
+	AuthTokenWoVersion() *string
+	SetAuthTokenWoVersion(val *string)
+	AuthTokenWoVersionInput() *string
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -38,9 +44,21 @@ type GoogleMonitoringNotificationChannelSensitiveLabelsOutputReference interface
 	Password() *string
 	SetPassword(val *string)
 	PasswordInput() *string
+	PasswordWo() *string
+	SetPasswordWo(val *string)
+	PasswordWoInput() *string
+	PasswordWoVersion() *string
+	SetPasswordWoVersion(val *string)
+	PasswordWoVersionInput() *string
 	ServiceKey() *string
 	SetServiceKey(val *string)
 	ServiceKeyInput() *string
+	ServiceKeyWo() *string
+	SetServiceKeyWo(val *string)
+	ServiceKeyWoInput() *string
+	ServiceKeyWoVersion() *string
+	SetServiceKeyWoVersion(val *string)
+	ServiceKeyWoVersionInput() *string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -74,8 +92,14 @@ type GoogleMonitoringNotificationChannelSensitiveLabelsOutputReference interface
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetAuthToken()
+	ResetAuthTokenWo()
+	ResetAuthTokenWoVersion()
 	ResetPassword()
+	ResetPasswordWo()
+	ResetPasswordWoVersion()
 	ResetServiceKey()
+	ResetServiceKeyWo()
+	ResetServiceKeyWoVersion()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -106,6 +130,46 @@ func (j *jsiiProxy_GoogleMonitoringNotificationChannelSensitiveLabelsOutputRefer
 	_jsii_.Get(
 		j,
 		"authTokenInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleMonitoringNotificationChannelSensitiveLabelsOutputReference) AuthTokenWo() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"authTokenWo",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleMonitoringNotificationChannelSensitiveLabelsOutputReference) AuthTokenWoInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"authTokenWoInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleMonitoringNotificationChannelSensitiveLabelsOutputReference) AuthTokenWoVersion() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"authTokenWoVersion",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleMonitoringNotificationChannelSensitiveLabelsOutputReference) AuthTokenWoVersionInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"authTokenWoVersionInput",
 		&returns,
 	)
 	return returns
@@ -181,6 +245,46 @@ func (j *jsiiProxy_GoogleMonitoringNotificationChannelSensitiveLabelsOutputRefer
 	return returns
 }
 
+func (j *jsiiProxy_GoogleMonitoringNotificationChannelSensitiveLabelsOutputReference) PasswordWo() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"passwordWo",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleMonitoringNotificationChannelSensitiveLabelsOutputReference) PasswordWoInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"passwordWoInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleMonitoringNotificationChannelSensitiveLabelsOutputReference) PasswordWoVersion() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"passwordWoVersion",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleMonitoringNotificationChannelSensitiveLabelsOutputReference) PasswordWoVersionInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"passwordWoVersionInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleMonitoringNotificationChannelSensitiveLabelsOutputReference) ServiceKey() *string {
 	var returns *string
 	_jsii_.Get(
@@ -196,6 +300,46 @@ func (j *jsiiProxy_GoogleMonitoringNotificationChannelSensitiveLabelsOutputRefer
 	_jsii_.Get(
 		j,
 		"serviceKeyInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleMonitoringNotificationChannelSensitiveLabelsOutputReference) ServiceKeyWo() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"serviceKeyWo",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleMonitoringNotificationChannelSensitiveLabelsOutputReference) ServiceKeyWoInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"serviceKeyWoInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleMonitoringNotificationChannelSensitiveLabelsOutputReference) ServiceKeyWoVersion() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"serviceKeyWoVersion",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleMonitoringNotificationChannelSensitiveLabelsOutputReference) ServiceKeyWoVersionInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"serviceKeyWoVersionInput",
 		&returns,
 	)
 	return returns
@@ -260,6 +404,28 @@ func (j *jsiiProxy_GoogleMonitoringNotificationChannelSensitiveLabelsOutputRefer
 	)
 }
 
+func (j *jsiiProxy_GoogleMonitoringNotificationChannelSensitiveLabelsOutputReference)SetAuthTokenWo(val *string) {
+	if err := j.validateSetAuthTokenWoParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"authTokenWo",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleMonitoringNotificationChannelSensitiveLabelsOutputReference)SetAuthTokenWoVersion(val *string) {
+	if err := j.validateSetAuthTokenWoVersionParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"authTokenWoVersion",
+		val,
+	)
+}
+
 func (j *jsiiProxy_GoogleMonitoringNotificationChannelSensitiveLabelsOutputReference)SetComplexObjectIndex(val interface{}) {
 	if err := j.validateSetComplexObjectIndexParameters(val); err != nil {
 		panic(err)
@@ -304,6 +470,28 @@ func (j *jsiiProxy_GoogleMonitoringNotificationChannelSensitiveLabelsOutputRefer
 	)
 }
 
+func (j *jsiiProxy_GoogleMonitoringNotificationChannelSensitiveLabelsOutputReference)SetPasswordWo(val *string) {
+	if err := j.validateSetPasswordWoParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"passwordWo",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleMonitoringNotificationChannelSensitiveLabelsOutputReference)SetPasswordWoVersion(val *string) {
+	if err := j.validateSetPasswordWoVersionParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"passwordWoVersion",
+		val,
+	)
+}
+
 func (j *jsiiProxy_GoogleMonitoringNotificationChannelSensitiveLabelsOutputReference)SetServiceKey(val *string) {
 	if err := j.validateSetServiceKeyParameters(val); err != nil {
 		panic(err)
@@ -311,6 +499,28 @@ func (j *jsiiProxy_GoogleMonitoringNotificationChannelSensitiveLabelsOutputRefer
 	_jsii_.Set(
 		j,
 		"serviceKey",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleMonitoringNotificationChannelSensitiveLabelsOutputReference)SetServiceKeyWo(val *string) {
+	if err := j.validateSetServiceKeyWoParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"serviceKeyWo",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleMonitoringNotificationChannelSensitiveLabelsOutputReference)SetServiceKeyWoVersion(val *string) {
+	if err := j.validateSetServiceKeyWoVersionParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"serviceKeyWoVersion",
 		val,
 	)
 }
@@ -531,6 +741,22 @@ func (g *jsiiProxy_GoogleMonitoringNotificationChannelSensitiveLabelsOutputRefer
 	)
 }
 
+func (g *jsiiProxy_GoogleMonitoringNotificationChannelSensitiveLabelsOutputReference) ResetAuthTokenWo() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetAuthTokenWo",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleMonitoringNotificationChannelSensitiveLabelsOutputReference) ResetAuthTokenWoVersion() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetAuthTokenWoVersion",
+		nil, // no parameters
+	)
+}
+
 func (g *jsiiProxy_GoogleMonitoringNotificationChannelSensitiveLabelsOutputReference) ResetPassword() {
 	_jsii_.InvokeVoid(
 		g,
@@ -539,10 +765,42 @@ func (g *jsiiProxy_GoogleMonitoringNotificationChannelSensitiveLabelsOutputRefer
 	)
 }
 
+func (g *jsiiProxy_GoogleMonitoringNotificationChannelSensitiveLabelsOutputReference) ResetPasswordWo() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetPasswordWo",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleMonitoringNotificationChannelSensitiveLabelsOutputReference) ResetPasswordWoVersion() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetPasswordWoVersion",
+		nil, // no parameters
+	)
+}
+
 func (g *jsiiProxy_GoogleMonitoringNotificationChannelSensitiveLabelsOutputReference) ResetServiceKey() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetServiceKey",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleMonitoringNotificationChannelSensitiveLabelsOutputReference) ResetServiceKeyWo() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetServiceKeyWo",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleMonitoringNotificationChannelSensitiveLabelsOutputReference) ResetServiceKeyWoVersion() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetServiceKeyWoVersion",
 		nil, // no parameters
 	)
 }

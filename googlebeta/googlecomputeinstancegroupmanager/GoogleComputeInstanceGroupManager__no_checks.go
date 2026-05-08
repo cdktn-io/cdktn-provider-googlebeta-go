@@ -115,6 +115,10 @@ func (g *jsiiProxy_GoogleComputeInstanceGroupManager) validatePutStatefulInterna
 	return nil
 }
 
+func (g *jsiiProxy_GoogleComputeInstanceGroupManager) validatePutTargetSizePolicyParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleComputeInstanceGroupManager) validatePutTimeoutsParameters(value *GoogleComputeInstanceGroupManagerTimeouts) error {
 	return nil
 }

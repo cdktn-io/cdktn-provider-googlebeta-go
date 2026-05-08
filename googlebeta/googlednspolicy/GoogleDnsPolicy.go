@@ -5,14 +5,14 @@ package googlednspolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlednspolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlednspolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dns_policy google_dns_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dns_policy google_dns_policy}.
 type GoogleDnsPolicy interface {
 	cdktn.TerraformResource
 	AlternativeNameServerConfig() GoogleDnsPolicyAlternativeNameServerConfigOutputReference
@@ -534,7 +534,7 @@ func (j *jsiiProxy_GoogleDnsPolicy) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dns_policy google_dns_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dns_policy google_dns_policy} Resource.
 func NewGoogleDnsPolicy(scope constructs.Construct, id *string, config *GoogleDnsPolicyConfig) GoogleDnsPolicy {
 	_init_.Initialize()
 
@@ -552,7 +552,7 @@ func NewGoogleDnsPolicy(scope constructs.Construct, id *string, config *GoogleDn
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dns_policy google_dns_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dns_policy google_dns_policy} Resource.
 func NewGoogleDnsPolicy_Override(g GoogleDnsPolicy, scope constructs.Construct, id *string, config *GoogleDnsPolicyConfig) {
 	_init_.Initialize()
 

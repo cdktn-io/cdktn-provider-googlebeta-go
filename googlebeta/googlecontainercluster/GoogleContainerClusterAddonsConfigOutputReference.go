@@ -5,9 +5,9 @@ package googlecontainercluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecontainercluster/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecontainercluster/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -60,8 +60,12 @@ type GoogleContainerClusterAddonsConfigOutputReference interface {
 	NetworkPolicyConfigInput() *GoogleContainerClusterAddonsConfigNetworkPolicyConfig
 	ParallelstoreCsiDriverConfig() GoogleContainerClusterAddonsConfigParallelstoreCsiDriverConfigOutputReference
 	ParallelstoreCsiDriverConfigInput() *GoogleContainerClusterAddonsConfigParallelstoreCsiDriverConfig
+	PodSnapshotConfig() GoogleContainerClusterAddonsConfigPodSnapshotConfigOutputReference
+	PodSnapshotConfigInput() *GoogleContainerClusterAddonsConfigPodSnapshotConfig
 	RayOperatorConfig() GoogleContainerClusterAddonsConfigRayOperatorConfigList
 	RayOperatorConfigInput() interface{}
+	SliceControllerConfig() GoogleContainerClusterAddonsConfigSliceControllerConfigOutputReference
+	SliceControllerConfigInput() *GoogleContainerClusterAddonsConfigSliceControllerConfig
 	StatefulHaConfig() GoogleContainerClusterAddonsConfigStatefulHaConfigOutputReference
 	StatefulHaConfigInput() *GoogleContainerClusterAddonsConfigStatefulHaConfig
 	// Experimental.
@@ -110,7 +114,9 @@ type GoogleContainerClusterAddonsConfigOutputReference interface {
 	PutLustreCsiDriverConfig(value *GoogleContainerClusterAddonsConfigLustreCsiDriverConfig)
 	PutNetworkPolicyConfig(value *GoogleContainerClusterAddonsConfigNetworkPolicyConfig)
 	PutParallelstoreCsiDriverConfig(value *GoogleContainerClusterAddonsConfigParallelstoreCsiDriverConfig)
+	PutPodSnapshotConfig(value *GoogleContainerClusterAddonsConfigPodSnapshotConfig)
 	PutRayOperatorConfig(value interface{})
+	PutSliceControllerConfig(value *GoogleContainerClusterAddonsConfigSliceControllerConfig)
 	PutStatefulHaConfig(value *GoogleContainerClusterAddonsConfigStatefulHaConfig)
 	ResetCloudrunConfig()
 	ResetConfigConnectorConfig()
@@ -126,7 +132,9 @@ type GoogleContainerClusterAddonsConfigOutputReference interface {
 	ResetLustreCsiDriverConfig()
 	ResetNetworkPolicyConfig()
 	ResetParallelstoreCsiDriverConfig()
+	ResetPodSnapshotConfig()
 	ResetRayOperatorConfig()
+	ResetSliceControllerConfig()
 	ResetStatefulHaConfig()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -473,6 +481,26 @@ func (j *jsiiProxy_GoogleContainerClusterAddonsConfigOutputReference) Parallelst
 	return returns
 }
 
+func (j *jsiiProxy_GoogleContainerClusterAddonsConfigOutputReference) PodSnapshotConfig() GoogleContainerClusterAddonsConfigPodSnapshotConfigOutputReference {
+	var returns GoogleContainerClusterAddonsConfigPodSnapshotConfigOutputReference
+	_jsii_.Get(
+		j,
+		"podSnapshotConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleContainerClusterAddonsConfigOutputReference) PodSnapshotConfigInput() *GoogleContainerClusterAddonsConfigPodSnapshotConfig {
+	var returns *GoogleContainerClusterAddonsConfigPodSnapshotConfig
+	_jsii_.Get(
+		j,
+		"podSnapshotConfigInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleContainerClusterAddonsConfigOutputReference) RayOperatorConfig() GoogleContainerClusterAddonsConfigRayOperatorConfigList {
 	var returns GoogleContainerClusterAddonsConfigRayOperatorConfigList
 	_jsii_.Get(
@@ -488,6 +516,26 @@ func (j *jsiiProxy_GoogleContainerClusterAddonsConfigOutputReference) RayOperato
 	_jsii_.Get(
 		j,
 		"rayOperatorConfigInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleContainerClusterAddonsConfigOutputReference) SliceControllerConfig() GoogleContainerClusterAddonsConfigSliceControllerConfigOutputReference {
+	var returns GoogleContainerClusterAddonsConfigSliceControllerConfigOutputReference
+	_jsii_.Get(
+		j,
+		"sliceControllerConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleContainerClusterAddonsConfigOutputReference) SliceControllerConfigInput() *GoogleContainerClusterAddonsConfigSliceControllerConfig {
+	var returns *GoogleContainerClusterAddonsConfigSliceControllerConfig
+	_jsii_.Get(
+		j,
+		"sliceControllerConfigInput",
 		&returns,
 	)
 	return returns
@@ -956,6 +1004,17 @@ func (g *jsiiProxy_GoogleContainerClusterAddonsConfigOutputReference) PutParalle
 	)
 }
 
+func (g *jsiiProxy_GoogleContainerClusterAddonsConfigOutputReference) PutPodSnapshotConfig(value *GoogleContainerClusterAddonsConfigPodSnapshotConfig) {
+	if err := g.validatePutPodSnapshotConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putPodSnapshotConfig",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleContainerClusterAddonsConfigOutputReference) PutRayOperatorConfig(value interface{}) {
 	if err := g.validatePutRayOperatorConfigParameters(value); err != nil {
 		panic(err)
@@ -963,6 +1022,17 @@ func (g *jsiiProxy_GoogleContainerClusterAddonsConfigOutputReference) PutRayOper
 	_jsii_.InvokeVoid(
 		g,
 		"putRayOperatorConfig",
+		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleContainerClusterAddonsConfigOutputReference) PutSliceControllerConfig(value *GoogleContainerClusterAddonsConfigSliceControllerConfig) {
+	if err := g.validatePutSliceControllerConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putSliceControllerConfig",
 		[]interface{}{value},
 	)
 }
@@ -1090,10 +1160,26 @@ func (g *jsiiProxy_GoogleContainerClusterAddonsConfigOutputReference) ResetParal
 	)
 }
 
+func (g *jsiiProxy_GoogleContainerClusterAddonsConfigOutputReference) ResetPodSnapshotConfig() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetPodSnapshotConfig",
+		nil, // no parameters
+	)
+}
+
 func (g *jsiiProxy_GoogleContainerClusterAddonsConfigOutputReference) ResetRayOperatorConfig() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetRayOperatorConfig",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleContainerClusterAddonsConfigOutputReference) ResetSliceControllerConfig() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetSliceControllerConfig",
 		nil, // no parameters
 	)
 }

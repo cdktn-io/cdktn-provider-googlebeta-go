@@ -5,9 +5,9 @@ package datagooglecontainercluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglecontainercluster/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglecontainercluster/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -35,6 +35,7 @@ type DataGoogleContainerClusterFleetOutputReference interface {
 	Membership() *string
 	MembershipId() *string
 	MembershipLocation() *string
+	MembershipType() *string
 	PreRegistered() cdktn.IResolvable
 	Project() *string
 	// Experimental.
@@ -159,6 +160,16 @@ func (j *jsiiProxy_DataGoogleContainerClusterFleetOutputReference) MembershipLoc
 	_jsii_.Get(
 		j,
 		"membershipLocation",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleContainerClusterFleetOutputReference) MembershipType() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"membershipType",
 		&returns,
 	)
 	return returns

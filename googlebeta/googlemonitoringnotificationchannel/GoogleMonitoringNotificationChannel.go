@@ -5,14 +5,14 @@ package googlemonitoringnotificationchannel
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlemonitoringnotificationchannel/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlemonitoringnotificationchannel/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_monitoring_notification_channel google_monitoring_notification_channel}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_monitoring_notification_channel google_monitoring_notification_channel}.
 type GoogleMonitoringNotificationChannel interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -580,7 +580,7 @@ func (j *jsiiProxy_GoogleMonitoringNotificationChannel) VerificationStatus() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_monitoring_notification_channel google_monitoring_notification_channel} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_monitoring_notification_channel google_monitoring_notification_channel} Resource.
 func NewGoogleMonitoringNotificationChannel(scope constructs.Construct, id *string, config *GoogleMonitoringNotificationChannelConfig) GoogleMonitoringNotificationChannel {
 	_init_.Initialize()
 
@@ -598,7 +598,7 @@ func NewGoogleMonitoringNotificationChannel(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_monitoring_notification_channel google_monitoring_notification_channel} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_monitoring_notification_channel google_monitoring_notification_channel} Resource.
 func NewGoogleMonitoringNotificationChannel_Override(g GoogleMonitoringNotificationChannel, scope constructs.Construct, id *string, config *GoogleMonitoringNotificationChannelConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package googlecolabschedule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecolabschedule/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecolabschedule/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_colab_schedule google_colab_schedule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_colab_schedule google_colab_schedule}.
 type GoogleColabSchedule interface {
 	cdktn.TerraformResource
 	AllowQueueing() interface{}
@@ -624,7 +624,7 @@ func (j *jsiiProxy_GoogleColabSchedule) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_colab_schedule google_colab_schedule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_colab_schedule google_colab_schedule} Resource.
 func NewGoogleColabSchedule(scope constructs.Construct, id *string, config *GoogleColabScheduleConfig) GoogleColabSchedule {
 	_init_.Initialize()
 
@@ -642,7 +642,7 @@ func NewGoogleColabSchedule(scope constructs.Construct, id *string, config *Goog
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_colab_schedule google_colab_schedule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_colab_schedule google_colab_schedule} Resource.
 func NewGoogleColabSchedule_Override(g GoogleColabSchedule, scope constructs.Construct, id *string, config *GoogleColabScheduleConfig) {
 	_init_.Initialize()
 

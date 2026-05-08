@@ -5,9 +5,9 @@ package datagooglecloudrunv2workerpool
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglecloudrunv2workerpool/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglecloudrunv2workerpool/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -37,8 +37,10 @@ type DataGoogleCloudRunV2WorkerPoolTemplateContainersOutputReference interface {
 	Image() *string
 	InternalValue() *DataGoogleCloudRunV2WorkerPoolTemplateContainers
 	SetInternalValue(val *DataGoogleCloudRunV2WorkerPoolTemplateContainers)
+	LivenessProbe() DataGoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeList
 	Name() *string
 	Resources() DataGoogleCloudRunV2WorkerPoolTemplateContainersResourcesList
+	StartupProbe() DataGoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeList
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -188,6 +190,16 @@ func (j *jsiiProxy_DataGoogleCloudRunV2WorkerPoolTemplateContainersOutputReferen
 	return returns
 }
 
+func (j *jsiiProxy_DataGoogleCloudRunV2WorkerPoolTemplateContainersOutputReference) LivenessProbe() DataGoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeList {
+	var returns DataGoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeList
+	_jsii_.Get(
+		j,
+		"livenessProbe",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataGoogleCloudRunV2WorkerPoolTemplateContainersOutputReference) Name() *string {
 	var returns *string
 	_jsii_.Get(
@@ -203,6 +215,16 @@ func (j *jsiiProxy_DataGoogleCloudRunV2WorkerPoolTemplateContainersOutputReferen
 	_jsii_.Get(
 		j,
 		"resources",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleCloudRunV2WorkerPoolTemplateContainersOutputReference) StartupProbe() DataGoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeList {
+	var returns DataGoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeList
+	_jsii_.Get(
+		j,
+		"startupProbe",
 		&returns,
 	)
 	return returns

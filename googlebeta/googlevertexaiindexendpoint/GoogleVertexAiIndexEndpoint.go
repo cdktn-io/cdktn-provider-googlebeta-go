@@ -5,14 +5,14 @@ package googlevertexaiindexendpoint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlevertexaiindexendpoint/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlevertexaiindexendpoint/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_index_endpoint google_vertex_ai_index_endpoint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_index_endpoint google_vertex_ai_index_endpoint}.
 type GoogleVertexAiIndexEndpoint interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -39,6 +39,8 @@ type GoogleVertexAiIndexEndpoint interface {
 	SetDisplayName(val *string)
 	DisplayNameInput() *string
 	EffectiveLabels() cdktn.StringMap
+	EncryptionSpec() GoogleVertexAiIndexEndpointEncryptionSpecOutputReference
+	EncryptionSpecInput() *GoogleVertexAiIndexEndpointEncryptionSpec
 	Etag() *string
 	// Experimental.
 	ForEach() cdktn.ITerraformIterator
@@ -139,9 +141,11 @@ type GoogleVertexAiIndexEndpoint interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	PutEncryptionSpec(value *GoogleVertexAiIndexEndpointEncryptionSpec)
 	PutPrivateServiceConnectConfig(value *GoogleVertexAiIndexEndpointPrivateServiceConnectConfig)
 	PutTimeouts(value *GoogleVertexAiIndexEndpointTimeouts)
 	ResetDescription()
+	ResetEncryptionSpec()
 	ResetId()
 	ResetLabels()
 	ResetNetwork()
@@ -285,6 +289,26 @@ func (j *jsiiProxy_GoogleVertexAiIndexEndpoint) EffectiveLabels() cdktn.StringMa
 	_jsii_.Get(
 		j,
 		"effectiveLabels",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleVertexAiIndexEndpoint) EncryptionSpec() GoogleVertexAiIndexEndpointEncryptionSpecOutputReference {
+	var returns GoogleVertexAiIndexEndpointEncryptionSpecOutputReference
+	_jsii_.Get(
+		j,
+		"encryptionSpec",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleVertexAiIndexEndpoint) EncryptionSpecInput() *GoogleVertexAiIndexEndpointEncryptionSpec {
+	var returns *GoogleVertexAiIndexEndpointEncryptionSpec
+	_jsii_.Get(
+		j,
+		"encryptionSpecInput",
 		&returns,
 	)
 	return returns
@@ -611,7 +635,7 @@ func (j *jsiiProxy_GoogleVertexAiIndexEndpoint) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_index_endpoint google_vertex_ai_index_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_index_endpoint google_vertex_ai_index_endpoint} Resource.
 func NewGoogleVertexAiIndexEndpoint(scope constructs.Construct, id *string, config *GoogleVertexAiIndexEndpointConfig) GoogleVertexAiIndexEndpoint {
 	_init_.Initialize()
 
@@ -629,7 +653,7 @@ func NewGoogleVertexAiIndexEndpoint(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_vertex_ai_index_endpoint google_vertex_ai_index_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_index_endpoint google_vertex_ai_index_endpoint} Resource.
 func NewGoogleVertexAiIndexEndpoint_Override(g GoogleVertexAiIndexEndpoint, scope constructs.Construct, id *string, config *GoogleVertexAiIndexEndpointConfig) {
 	_init_.Initialize()
 
@@ -1149,6 +1173,17 @@ func (g *jsiiProxy_GoogleVertexAiIndexEndpoint) OverrideLogicalId(newLogicalId *
 	)
 }
 
+func (g *jsiiProxy_GoogleVertexAiIndexEndpoint) PutEncryptionSpec(value *GoogleVertexAiIndexEndpointEncryptionSpec) {
+	if err := g.validatePutEncryptionSpecParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putEncryptionSpec",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleVertexAiIndexEndpoint) PutPrivateServiceConnectConfig(value *GoogleVertexAiIndexEndpointPrivateServiceConnectConfig) {
 	if err := g.validatePutPrivateServiceConnectConfigParameters(value); err != nil {
 		panic(err)
@@ -1175,6 +1210,14 @@ func (g *jsiiProxy_GoogleVertexAiIndexEndpoint) ResetDescription() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetDescription",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleVertexAiIndexEndpoint) ResetEncryptionSpec() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetEncryptionSpec",
 		nil, // no parameters
 	)
 }

@@ -5,9 +5,9 @@ package googleprivilegedaccessmanagerentitlement
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleprivilegedaccessmanagerentitlement/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleprivilegedaccessmanagerentitlement/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -38,6 +38,7 @@ type GooglePrivilegedAccessManagerEntitlementApprovalWorkflowManualApprovalsStep
 	CreationStack() *[]*string
 	// Experimental.
 	Fqn() *string
+	Id() *string
 	InternalValue() interface{}
 	SetInternalValue(val interface{})
 	// Experimental.
@@ -185,6 +186,16 @@ func (j *jsiiProxy_GooglePrivilegedAccessManagerEntitlementApprovalWorkflowManua
 	_jsii_.Get(
 		j,
 		"fqn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GooglePrivilegedAccessManagerEntitlementApprovalWorkflowManualApprovalsStepsOutputReference) Id() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"id",
 		&returns,
 	)
 	return returns

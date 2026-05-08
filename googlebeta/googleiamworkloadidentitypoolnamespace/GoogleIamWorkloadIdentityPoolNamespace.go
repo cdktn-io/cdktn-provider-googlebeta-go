@@ -5,14 +5,14 @@ package googleiamworkloadidentitypoolnamespace
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleiamworkloadidentitypoolnamespace/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleiamworkloadidentitypoolnamespace/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iam_workload_identity_pool_namespace google_iam_workload_identity_pool_namespace}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iam_workload_identity_pool_namespace google_iam_workload_identity_pool_namespace}.
 type GoogleIamWorkloadIdentityPoolNamespace interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -494,7 +494,7 @@ func (j *jsiiProxy_GoogleIamWorkloadIdentityPoolNamespace) WorkloadIdentityPoolN
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iam_workload_identity_pool_namespace google_iam_workload_identity_pool_namespace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iam_workload_identity_pool_namespace google_iam_workload_identity_pool_namespace} Resource.
 func NewGoogleIamWorkloadIdentityPoolNamespace(scope constructs.Construct, id *string, config *GoogleIamWorkloadIdentityPoolNamespaceConfig) GoogleIamWorkloadIdentityPoolNamespace {
 	_init_.Initialize()
 
@@ -512,7 +512,7 @@ func NewGoogleIamWorkloadIdentityPoolNamespace(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iam_workload_identity_pool_namespace google_iam_workload_identity_pool_namespace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iam_workload_identity_pool_namespace google_iam_workload_identity_pool_namespace} Resource.
 func NewGoogleIamWorkloadIdentityPoolNamespace_Override(g GoogleIamWorkloadIdentityPoolNamespace, scope constructs.Construct, id *string, config *GoogleIamWorkloadIdentityPoolNamespaceConfig) {
 	_init_.Initialize()
 

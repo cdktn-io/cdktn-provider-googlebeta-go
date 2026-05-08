@@ -5,14 +5,14 @@ package googlegkebackupbackupplan
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegkebackupbackupplan/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlegkebackupbackupplan/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gke_backup_backup_plan google_gke_backup_backup_plan}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gke_backup_backup_plan google_gke_backup_backup_plan}.
 type GoogleGkeBackupBackupPlan interface {
 	cdktn.TerraformResource
 	BackupConfig() GoogleGkeBackupBackupPlanBackupConfigOutputReference
@@ -75,6 +75,7 @@ type GoogleGkeBackupBackupPlan interface {
 	Project() *string
 	SetProject(val *string)
 	ProjectInput() *string
+	ProtectedNamespaceCount() *float64
 	ProtectedPodCount() *float64
 	// Experimental.
 	Provider() cdktn.TerraformProvider
@@ -506,6 +507,16 @@ func (j *jsiiProxy_GoogleGkeBackupBackupPlan) ProjectInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_GoogleGkeBackupBackupPlan) ProtectedNamespaceCount() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"protectedNamespaceCount",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleGkeBackupBackupPlan) ProtectedPodCount() *float64 {
 	var returns *float64
 	_jsii_.Get(
@@ -657,7 +668,7 @@ func (j *jsiiProxy_GoogleGkeBackupBackupPlan) Uid() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gke_backup_backup_plan google_gke_backup_backup_plan} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gke_backup_backup_plan google_gke_backup_backup_plan} Resource.
 func NewGoogleGkeBackupBackupPlan(scope constructs.Construct, id *string, config *GoogleGkeBackupBackupPlanConfig) GoogleGkeBackupBackupPlan {
 	_init_.Initialize()
 
@@ -675,7 +686,7 @@ func NewGoogleGkeBackupBackupPlan(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gke_backup_backup_plan google_gke_backup_backup_plan} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gke_backup_backup_plan google_gke_backup_backup_plan} Resource.
 func NewGoogleGkeBackupBackupPlan_Override(g GoogleGkeBackupBackupPlan, scope constructs.Construct, id *string, config *GoogleGkeBackupBackupPlanConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package datagoogleaccesscontextmanageraccesspolicyiampolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagoogleaccesscontextmanageraccesspolicyiampolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagoogleaccesscontextmanageraccesspolicyiampolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_access_context_manager_access_policy_iam_policy google_access_context_manager_access_policy_iam_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_access_context_manager_access_policy_iam_policy google_access_context_manager_access_policy_iam_policy}.
 type DataGoogleAccessContextManagerAccessPolicyIamPolicy interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -319,7 +319,7 @@ func (j *jsiiProxy_DataGoogleAccessContextManagerAccessPolicyIamPolicy) Terrafor
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_access_context_manager_access_policy_iam_policy google_access_context_manager_access_policy_iam_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_access_context_manager_access_policy_iam_policy google_access_context_manager_access_policy_iam_policy} Data Source.
 func NewDataGoogleAccessContextManagerAccessPolicyIamPolicy(scope constructs.Construct, id *string, config *DataGoogleAccessContextManagerAccessPolicyIamPolicyConfig) DataGoogleAccessContextManagerAccessPolicyIamPolicy {
 	_init_.Initialize()
 
@@ -337,7 +337,7 @@ func NewDataGoogleAccessContextManagerAccessPolicyIamPolicy(scope constructs.Con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_access_context_manager_access_policy_iam_policy google_access_context_manager_access_policy_iam_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_access_context_manager_access_policy_iam_policy google_access_context_manager_access_policy_iam_policy} Data Source.
 func NewDataGoogleAccessContextManagerAccessPolicyIamPolicy_Override(d DataGoogleAccessContextManagerAccessPolicyIamPolicy, scope constructs.Construct, id *string, config *DataGoogleAccessContextManagerAccessPolicyIamPolicyConfig) {
 	_init_.Initialize()
 

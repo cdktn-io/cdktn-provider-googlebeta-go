@@ -5,14 +5,14 @@ package googledocumentaiprocessordefaultversion
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledocumentaiprocessordefaultversion/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledocumentaiprocessordefaultversion/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_document_ai_processor_default_version google_document_ai_processor_default_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_document_ai_processor_default_version google_document_ai_processor_default_version}.
 type GoogleDocumentAiProcessorDefaultVersion interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -389,7 +389,7 @@ func (j *jsiiProxy_GoogleDocumentAiProcessorDefaultVersion) VersionInput() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_document_ai_processor_default_version google_document_ai_processor_default_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_document_ai_processor_default_version google_document_ai_processor_default_version} Resource.
 func NewGoogleDocumentAiProcessorDefaultVersion(scope constructs.Construct, id *string, config *GoogleDocumentAiProcessorDefaultVersionConfig) GoogleDocumentAiProcessorDefaultVersion {
 	_init_.Initialize()
 
@@ -407,7 +407,7 @@ func NewGoogleDocumentAiProcessorDefaultVersion(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_document_ai_processor_default_version google_document_ai_processor_default_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_document_ai_processor_default_version google_document_ai_processor_default_version} Resource.
 func NewGoogleDocumentAiProcessorDefaultVersion_Override(g GoogleDocumentAiProcessorDefaultVersion, scope constructs.Construct, id *string, config *GoogleDocumentAiProcessorDefaultVersionConfig) {
 	_init_.Initialize()
 

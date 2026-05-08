@@ -181,6 +181,17 @@ func (g *jsiiProxy_GoogleDataplexDatascanDataQualitySpecRulesOutputReference) va
 	return nil
 }
 
+func (g *jsiiProxy_GoogleDataplexDatascanDataQualitySpecRulesOutputReference) validatePutTemplateReferenceParameters(value *GoogleDataplexDatascanDataQualitySpecRulesTemplateReference) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
+	}
+
+	return nil
+}
+
 func (g *jsiiProxy_GoogleDataplexDatascanDataQualitySpecRulesOutputReference) validatePutUniquenessExpectationParameters(value *GoogleDataplexDatascanDataQualitySpecRulesUniquenessExpectation) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")
@@ -195,6 +206,14 @@ func (g *jsiiProxy_GoogleDataplexDatascanDataQualitySpecRulesOutputReference) va
 func (g *jsiiProxy_GoogleDataplexDatascanDataQualitySpecRulesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_GoogleDataplexDatascanDataQualitySpecRulesOutputReference) validateSetAttributesParameters(val *map[string]*string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
 
 	return nil

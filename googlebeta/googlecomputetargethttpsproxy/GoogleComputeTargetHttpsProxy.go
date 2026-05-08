@@ -5,14 +5,14 @@ package googlecomputetargethttpsproxy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputetargethttpsproxy/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputetargethttpsproxy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_target_https_proxy google_compute_target_https_proxy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_target_https_proxy google_compute_target_https_proxy}.
 type GoogleComputeTargetHttpsProxy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -697,7 +697,7 @@ func (j *jsiiProxy_GoogleComputeTargetHttpsProxy) UrlMapInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_target_https_proxy google_compute_target_https_proxy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_target_https_proxy google_compute_target_https_proxy} Resource.
 func NewGoogleComputeTargetHttpsProxy(scope constructs.Construct, id *string, config *GoogleComputeTargetHttpsProxyConfig) GoogleComputeTargetHttpsProxy {
 	_init_.Initialize()
 
@@ -715,7 +715,7 @@ func NewGoogleComputeTargetHttpsProxy(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_target_https_proxy google_compute_target_https_proxy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_target_https_proxy google_compute_target_https_proxy} Resource.
 func NewGoogleComputeTargetHttpsProxy_Override(g GoogleComputeTargetHttpsProxy, scope constructs.Construct, id *string, config *GoogleComputeTargetHttpsProxyConfig) {
 	_init_.Initialize()
 

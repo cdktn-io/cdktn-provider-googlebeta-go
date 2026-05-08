@@ -5,14 +5,14 @@ package googlemigrationcentergroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlemigrationcentergroup/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlemigrationcentergroup/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_migration_center_group google_migration_center_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_migration_center_group google_migration_center_group}.
 type GoogleMigrationCenterGroup interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -540,7 +540,7 @@ func (j *jsiiProxy_GoogleMigrationCenterGroup) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_migration_center_group google_migration_center_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_migration_center_group google_migration_center_group} Resource.
 func NewGoogleMigrationCenterGroup(scope constructs.Construct, id *string, config *GoogleMigrationCenterGroupConfig) GoogleMigrationCenterGroup {
 	_init_.Initialize()
 
@@ -558,7 +558,7 @@ func NewGoogleMigrationCenterGroup(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_migration_center_group google_migration_center_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_migration_center_group google_migration_center_group} Resource.
 func NewGoogleMigrationCenterGroup_Override(g GoogleMigrationCenterGroup, scope constructs.Construct, id *string, config *GoogleMigrationCenterGroupConfig) {
 	_init_.Initialize()
 

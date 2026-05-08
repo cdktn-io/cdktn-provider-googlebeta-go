@@ -1,0 +1,89 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package googlelustreinstance
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (g *jsiiProxy_GoogleLustreInstanceMaintenancePolicyMaintenanceExclusionWindowEndDateOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleLustreInstanceMaintenancePolicyMaintenanceExclusionWindowEndDateOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleLustreInstanceMaintenancePolicyMaintenanceExclusionWindowEndDateOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleLustreInstanceMaintenancePolicyMaintenanceExclusionWindowEndDateOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleLustreInstanceMaintenancePolicyMaintenanceExclusionWindowEndDateOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleLustreInstanceMaintenancePolicyMaintenanceExclusionWindowEndDateOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleLustreInstanceMaintenancePolicyMaintenanceExclusionWindowEndDateOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleLustreInstanceMaintenancePolicyMaintenanceExclusionWindowEndDateOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleLustreInstanceMaintenancePolicyMaintenanceExclusionWindowEndDateOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleLustreInstanceMaintenancePolicyMaintenanceExclusionWindowEndDateOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleLustreInstanceMaintenancePolicyMaintenanceExclusionWindowEndDateOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleLustreInstanceMaintenancePolicyMaintenanceExclusionWindowEndDateOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleLustreInstanceMaintenancePolicyMaintenanceExclusionWindowEndDateOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleLustreInstanceMaintenancePolicyMaintenanceExclusionWindowEndDateOutputReference) validateSetDayParameters(val *float64) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleLustreInstanceMaintenancePolicyMaintenanceExclusionWindowEndDateOutputReference) validateSetInternalValueParameters(val *GoogleLustreInstanceMaintenancePolicyMaintenanceExclusionWindowEndDate) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleLustreInstanceMaintenancePolicyMaintenanceExclusionWindowEndDateOutputReference) validateSetMonthParameters(val *float64) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleLustreInstanceMaintenancePolicyMaintenanceExclusionWindowEndDateOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleLustreInstanceMaintenancePolicyMaintenanceExclusionWindowEndDateOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleLustreInstanceMaintenancePolicyMaintenanceExclusionWindowEndDateOutputReference) validateSetYearParameters(val *float64) error {
+	return nil
+}
+
+func validateNewGoogleLustreInstanceMaintenancePolicyMaintenanceExclusionWindowEndDateOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

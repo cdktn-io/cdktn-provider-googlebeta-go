@@ -5,14 +5,14 @@ package googlecomputehttphealthcheck
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputehttphealthcheck/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputehttphealthcheck/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_http_health_check google_compute_http_health_check}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_http_health_check google_compute_http_health_check}.
 type GoogleComputeHttpHealthCheck interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -604,7 +604,7 @@ func (j *jsiiProxy_GoogleComputeHttpHealthCheck) UnhealthyThresholdInput() *floa
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_http_health_check google_compute_http_health_check} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_http_health_check google_compute_http_health_check} Resource.
 func NewGoogleComputeHttpHealthCheck(scope constructs.Construct, id *string, config *GoogleComputeHttpHealthCheckConfig) GoogleComputeHttpHealthCheck {
 	_init_.Initialize()
 
@@ -622,7 +622,7 @@ func NewGoogleComputeHttpHealthCheck(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_http_health_check google_compute_http_health_check} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_http_health_check google_compute_http_health_check} Resource.
 func NewGoogleComputeHttpHealthCheck_Override(g GoogleComputeHttpHealthCheck, scope constructs.Construct, id *string, config *GoogleComputeHttpHealthCheckConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package googlecomputeinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinstance/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeinstance/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_instance google_compute_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_instance google_compute_instance}.
 type GoogleComputeInstance interface {
 	cdktn.TerraformResource
 	AdvancedMachineFeatures() GoogleComputeInstanceAdvancedMachineFeaturesOutputReference
@@ -61,6 +61,9 @@ type GoogleComputeInstance interface {
 	EnableDisplay() interface{}
 	SetEnableDisplay(val interface{})
 	EnableDisplayInput() interface{}
+	EraseWindowsVssSignature() interface{}
+	SetEraseWindowsVssSignature(val interface{})
+	EraseWindowsVssSignatureInput() interface{}
 	// Experimental.
 	ForEach() cdktn.ITerraformIterator
 	// Experimental.
@@ -228,6 +231,7 @@ type GoogleComputeInstance interface {
 	ResetDescription()
 	ResetDesiredStatus()
 	ResetEnableDisplay()
+	ResetEraseWindowsVssSignature()
 	ResetGuestAccelerator()
 	ResetHostname()
 	ResetId()
@@ -565,6 +569,26 @@ func (j *jsiiProxy_GoogleComputeInstance) EnableDisplayInput() interface{} {
 	_jsii_.Get(
 		j,
 		"enableDisplayInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeInstance) EraseWindowsVssSignature() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"eraseWindowsVssSignature",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeInstance) EraseWindowsVssSignatureInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"eraseWindowsVssSignatureInput",
 		&returns,
 	)
 	return returns
@@ -1241,7 +1265,7 @@ func (j *jsiiProxy_GoogleComputeInstance) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_instance google_compute_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_instance google_compute_instance} Resource.
 func NewGoogleComputeInstance(scope constructs.Construct, id *string, config *GoogleComputeInstanceConfig) GoogleComputeInstance {
 	_init_.Initialize()
 
@@ -1259,7 +1283,7 @@ func NewGoogleComputeInstance(scope constructs.Construct, id *string, config *Go
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_instance google_compute_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_instance google_compute_instance} Resource.
 func NewGoogleComputeInstance_Override(g GoogleComputeInstance, scope constructs.Construct, id *string, config *GoogleComputeInstanceConfig) {
 	_init_.Initialize()
 
@@ -1362,6 +1386,17 @@ func (j *jsiiProxy_GoogleComputeInstance)SetEnableDisplay(val interface{}) {
 	_jsii_.Set(
 		j,
 		"enableDisplay",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleComputeInstance)SetEraseWindowsVssSignature(val interface{}) {
+	if err := j.validateSetEraseWindowsVssSignatureParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"eraseWindowsVssSignature",
 		val,
 	)
 }
@@ -2144,6 +2179,14 @@ func (g *jsiiProxy_GoogleComputeInstance) ResetEnableDisplay() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetEnableDisplay",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleComputeInstance) ResetEraseWindowsVssSignature() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetEraseWindowsVssSignature",
 		nil, // no parameters
 	)
 }

@@ -5,14 +5,14 @@ package datagoogleartifactregistrytags
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagoogleartifactregistrytags/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagoogleartifactregistrytags/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_artifact_registry_tags google_artifact_registry_tags}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_artifact_registry_tags google_artifact_registry_tags}.
 type DataGoogleArtifactRegistryTags interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -402,7 +402,7 @@ func (j *jsiiProxy_DataGoogleArtifactRegistryTags) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_artifact_registry_tags google_artifact_registry_tags} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_artifact_registry_tags google_artifact_registry_tags} Data Source.
 func NewDataGoogleArtifactRegistryTags(scope constructs.Construct, id *string, config *DataGoogleArtifactRegistryTagsConfig) DataGoogleArtifactRegistryTags {
 	_init_.Initialize()
 
@@ -420,7 +420,7 @@ func NewDataGoogleArtifactRegistryTags(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_artifact_registry_tags google_artifact_registry_tags} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_artifact_registry_tags google_artifact_registry_tags} Data Source.
 func NewDataGoogleArtifactRegistryTags_Override(d DataGoogleArtifactRegistryTags, scope constructs.Construct, id *string, config *DataGoogleArtifactRegistryTagsConfig) {
 	_init_.Initialize()
 

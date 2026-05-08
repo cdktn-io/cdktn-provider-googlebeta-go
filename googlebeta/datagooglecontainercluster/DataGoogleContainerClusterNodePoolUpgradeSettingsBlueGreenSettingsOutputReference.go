@@ -5,14 +5,15 @@ package datagooglecontainercluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglecontainercluster/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglecontainercluster/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataGoogleContainerClusterNodePoolUpgradeSettingsBlueGreenSettingsOutputReference interface {
 	cdktn.ComplexObject
+	AutoscaledRolloutPolicy() DataGoogleContainerClusterNodePoolUpgradeSettingsBlueGreenSettingsAutoscaledRolloutPolicyList
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -79,6 +80,16 @@ type DataGoogleContainerClusterNodePoolUpgradeSettingsBlueGreenSettingsOutputRef
 // The jsii proxy struct for DataGoogleContainerClusterNodePoolUpgradeSettingsBlueGreenSettingsOutputReference
 type jsiiProxy_DataGoogleContainerClusterNodePoolUpgradeSettingsBlueGreenSettingsOutputReference struct {
 	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_DataGoogleContainerClusterNodePoolUpgradeSettingsBlueGreenSettingsOutputReference) AutoscaledRolloutPolicy() DataGoogleContainerClusterNodePoolUpgradeSettingsBlueGreenSettingsAutoscaledRolloutPolicyList {
+	var returns DataGoogleContainerClusterNodePoolUpgradeSettingsBlueGreenSettingsAutoscaledRolloutPolicyList
+	_jsii_.Get(
+		j,
+		"autoscaledRolloutPolicy",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_DataGoogleContainerClusterNodePoolUpgradeSettingsBlueGreenSettingsOutputReference) ComplexObjectIndex() interface{} {

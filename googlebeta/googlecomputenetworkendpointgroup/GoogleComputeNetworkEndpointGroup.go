@@ -5,14 +5,14 @@ package googlecomputenetworkendpointgroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputenetworkendpointgroup/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputenetworkendpointgroup/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_network_endpoint_group google_compute_network_endpoint_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_network_endpoint_group google_compute_network_endpoint_group}.
 type GoogleComputeNetworkEndpointGroup interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -566,7 +566,7 @@ func (j *jsiiProxy_GoogleComputeNetworkEndpointGroup) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_network_endpoint_group google_compute_network_endpoint_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_network_endpoint_group google_compute_network_endpoint_group} Resource.
 func NewGoogleComputeNetworkEndpointGroup(scope constructs.Construct, id *string, config *GoogleComputeNetworkEndpointGroupConfig) GoogleComputeNetworkEndpointGroup {
 	_init_.Initialize()
 
@@ -584,7 +584,7 @@ func NewGoogleComputeNetworkEndpointGroup(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_network_endpoint_group google_compute_network_endpoint_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_network_endpoint_group google_compute_network_endpoint_group} Resource.
 func NewGoogleComputeNetworkEndpointGroup_Override(g GoogleComputeNetworkEndpointGroup, scope constructs.Construct, id *string, config *GoogleComputeNetworkEndpointGroupConfig) {
 	_init_.Initialize()
 

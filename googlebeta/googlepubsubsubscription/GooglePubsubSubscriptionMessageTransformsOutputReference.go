@@ -5,14 +5,16 @@ package googlepubsubsubscription
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlepubsubsubscription/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlepubsubsubscription/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type GooglePubsubSubscriptionMessageTransformsOutputReference interface {
 	cdktn.ComplexObject
+	AiInference() GooglePubsubSubscriptionMessageTransformsAiInferenceOutputReference
+	AiInferenceInput() *GooglePubsubSubscriptionMessageTransformsAiInference
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -69,7 +71,9 @@ type GooglePubsubSubscriptionMessageTransformsOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutAiInference(value *GooglePubsubSubscriptionMessageTransformsAiInference)
 	PutJavascriptUdf(value *GooglePubsubSubscriptionMessageTransformsJavascriptUdf)
+	ResetAiInference()
 	ResetDisabled()
 	ResetJavascriptUdf()
 	// Produce the Token's value at resolution time.
@@ -85,6 +89,26 @@ type GooglePubsubSubscriptionMessageTransformsOutputReference interface {
 // The jsii proxy struct for GooglePubsubSubscriptionMessageTransformsOutputReference
 type jsiiProxy_GooglePubsubSubscriptionMessageTransformsOutputReference struct {
 	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_GooglePubsubSubscriptionMessageTransformsOutputReference) AiInference() GooglePubsubSubscriptionMessageTransformsAiInferenceOutputReference {
+	var returns GooglePubsubSubscriptionMessageTransformsAiInferenceOutputReference
+	_jsii_.Get(
+		j,
+		"aiInference",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GooglePubsubSubscriptionMessageTransformsOutputReference) AiInferenceInput() *GooglePubsubSubscriptionMessageTransformsAiInference {
+	var returns *GooglePubsubSubscriptionMessageTransformsAiInference
+	_jsii_.Get(
+		j,
+		"aiInferenceInput",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_GooglePubsubSubscriptionMessageTransformsOutputReference) ComplexObjectIndex() interface{} {
@@ -477,6 +501,17 @@ func (g *jsiiProxy_GooglePubsubSubscriptionMessageTransformsOutputReference) Int
 	return returns
 }
 
+func (g *jsiiProxy_GooglePubsubSubscriptionMessageTransformsOutputReference) PutAiInference(value *GooglePubsubSubscriptionMessageTransformsAiInference) {
+	if err := g.validatePutAiInferenceParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putAiInference",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GooglePubsubSubscriptionMessageTransformsOutputReference) PutJavascriptUdf(value *GooglePubsubSubscriptionMessageTransformsJavascriptUdf) {
 	if err := g.validatePutJavascriptUdfParameters(value); err != nil {
 		panic(err)
@@ -485,6 +520,14 @@ func (g *jsiiProxy_GooglePubsubSubscriptionMessageTransformsOutputReference) Put
 		g,
 		"putJavascriptUdf",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GooglePubsubSubscriptionMessageTransformsOutputReference) ResetAiInference() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetAiInference",
+		nil, // no parameters
 	)
 }
 

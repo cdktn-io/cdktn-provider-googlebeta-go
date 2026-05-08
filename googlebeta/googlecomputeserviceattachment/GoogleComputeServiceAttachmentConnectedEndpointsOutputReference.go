@@ -5,9 +5,9 @@ package googlecomputeserviceattachment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeserviceattachment/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeserviceattachment/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -34,6 +34,7 @@ type GoogleComputeServiceAttachmentConnectedEndpointsOutputReference interface {
 	Fqn() *string
 	InternalValue() *GoogleComputeServiceAttachmentConnectedEndpoints
 	SetInternalValue(val *GoogleComputeServiceAttachmentConnectedEndpoints)
+	NatIps() *[]*string
 	PropagatedConnectionCount() *float64
 	PscConnectionId() *string
 	Status() *string
@@ -149,6 +150,16 @@ func (j *jsiiProxy_GoogleComputeServiceAttachmentConnectedEndpointsOutputReferen
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeServiceAttachmentConnectedEndpointsOutputReference) NatIps() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"natIps",
 		&returns,
 	)
 	return returns

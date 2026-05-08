@@ -1,0 +1,81 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package googlehypercomputeclustercluster
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (g *jsiiProxy_GoogleHypercomputeclusterClusterStorageResourcesConfigNewBucketHierarchicalNamespaceOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleHypercomputeclusterClusterStorageResourcesConfigNewBucketHierarchicalNamespaceOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleHypercomputeclusterClusterStorageResourcesConfigNewBucketHierarchicalNamespaceOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleHypercomputeclusterClusterStorageResourcesConfigNewBucketHierarchicalNamespaceOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleHypercomputeclusterClusterStorageResourcesConfigNewBucketHierarchicalNamespaceOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleHypercomputeclusterClusterStorageResourcesConfigNewBucketHierarchicalNamespaceOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleHypercomputeclusterClusterStorageResourcesConfigNewBucketHierarchicalNamespaceOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleHypercomputeclusterClusterStorageResourcesConfigNewBucketHierarchicalNamespaceOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleHypercomputeclusterClusterStorageResourcesConfigNewBucketHierarchicalNamespaceOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleHypercomputeclusterClusterStorageResourcesConfigNewBucketHierarchicalNamespaceOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleHypercomputeclusterClusterStorageResourcesConfigNewBucketHierarchicalNamespaceOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleHypercomputeclusterClusterStorageResourcesConfigNewBucketHierarchicalNamespaceOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleHypercomputeclusterClusterStorageResourcesConfigNewBucketHierarchicalNamespaceOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleHypercomputeclusterClusterStorageResourcesConfigNewBucketHierarchicalNamespaceOutputReference) validateSetEnabledParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleHypercomputeclusterClusterStorageResourcesConfigNewBucketHierarchicalNamespaceOutputReference) validateSetInternalValueParameters(val *GoogleHypercomputeclusterClusterStorageResourcesConfigNewBucketHierarchicalNamespace) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleHypercomputeclusterClusterStorageResourcesConfigNewBucketHierarchicalNamespaceOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleHypercomputeclusterClusterStorageResourcesConfigNewBucketHierarchicalNamespaceOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewGoogleHypercomputeclusterClusterStorageResourcesConfigNewBucketHierarchicalNamespaceOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

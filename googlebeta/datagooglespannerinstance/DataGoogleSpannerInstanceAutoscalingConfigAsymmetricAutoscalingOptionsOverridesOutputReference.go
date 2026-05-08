@@ -5,15 +5,17 @@ package datagooglespannerinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglespannerinstance/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglespannerinstance/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataGoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesOutputReference interface {
 	cdktn.ComplexObject
 	AutoscalingLimits() DataGoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesAutoscalingLimitsList
+	AutoscalingTargetHighPriorityCpuUtilizationPercent() *float64
+	AutoscalingTargetTotalCpuUtilizationPercent() *float64
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -29,6 +31,8 @@ type DataGoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverr
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
+	DisableHighPriorityCpuAutoscaling() cdktn.IResolvable
+	DisableTotalCpuAutoscaling() cdktn.IResolvable
 	// Experimental.
 	Fqn() *string
 	InternalValue() *DataGoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverrides
@@ -90,6 +94,26 @@ func (j *jsiiProxy_DataGoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscali
 	return returns
 }
 
+func (j *jsiiProxy_DataGoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesOutputReference) AutoscalingTargetHighPriorityCpuUtilizationPercent() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"autoscalingTargetHighPriorityCpuUtilizationPercent",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesOutputReference) AutoscalingTargetTotalCpuUtilizationPercent() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"autoscalingTargetTotalCpuUtilizationPercent",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataGoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesOutputReference) ComplexObjectIndex() interface{} {
 	var returns interface{}
 	_jsii_.Get(
@@ -115,6 +139,26 @@ func (j *jsiiProxy_DataGoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscali
 	_jsii_.Get(
 		j,
 		"creationStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesOutputReference) DisableHighPriorityCpuAutoscaling() cdktn.IResolvable {
+	var returns cdktn.IResolvable
+	_jsii_.Get(
+		j,
+		"disableHighPriorityCpuAutoscaling",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesOutputReference) DisableTotalCpuAutoscaling() cdktn.IResolvable {
+	var returns cdktn.IResolvable
+	_jsii_.Get(
+		j,
+		"disableTotalCpuAutoscaling",
 		&returns,
 	)
 	return returns

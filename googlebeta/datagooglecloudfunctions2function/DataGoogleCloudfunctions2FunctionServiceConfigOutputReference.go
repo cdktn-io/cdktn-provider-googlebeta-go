@@ -5,9 +5,9 @@ package datagooglecloudfunctions2function
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglecloudfunctions2function/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglecloudfunctions2function/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -32,6 +32,8 @@ type DataGoogleCloudfunctions2FunctionServiceConfigOutputReference interface {
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
+	DirectVpcEgress() *string
+	DirectVpcNetworkInterface() DataGoogleCloudfunctions2FunctionServiceConfigDirectVpcNetworkInterfaceList
 	EnvironmentVariables() cdktn.StringMap
 	// Experimental.
 	Fqn() *string
@@ -162,6 +164,26 @@ func (j *jsiiProxy_DataGoogleCloudfunctions2FunctionServiceConfigOutputReference
 	_jsii_.Get(
 		j,
 		"creationStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleCloudfunctions2FunctionServiceConfigOutputReference) DirectVpcEgress() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"directVpcEgress",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleCloudfunctions2FunctionServiceConfigOutputReference) DirectVpcNetworkInterface() DataGoogleCloudfunctions2FunctionServiceConfigDirectVpcNetworkInterfaceList {
+	var returns DataGoogleCloudfunctions2FunctionServiceConfigDirectVpcNetworkInterfaceList
+	_jsii_.Get(
+		j,
+		"directVpcNetworkInterface",
 		&returns,
 	)
 	return returns

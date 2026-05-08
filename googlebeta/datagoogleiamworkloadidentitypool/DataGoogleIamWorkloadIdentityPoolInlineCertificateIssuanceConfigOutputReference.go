@@ -5,9 +5,9 @@ package datagoogleiamworkloadidentitypool
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagoogleiamworkloadidentitypool/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagoogleiamworkloadidentitypool/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -44,6 +44,7 @@ type DataGoogleIamWorkloadIdentityPoolInlineCertificateIssuanceConfigOutputRefer
 	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
 	SetTerraformResource(val cdktn.IInterpolatingParent)
+	UseDefaultSharedCa() cdktn.IResolvable
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
@@ -188,6 +189,16 @@ func (j *jsiiProxy_DataGoogleIamWorkloadIdentityPoolInlineCertificateIssuanceCon
 	_jsii_.Get(
 		j,
 		"terraformResource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleIamWorkloadIdentityPoolInlineCertificateIssuanceConfigOutputReference) UseDefaultSharedCa() cdktn.IResolvable {
+	var returns cdktn.IResolvable
+	_jsii_.Get(
+		j,
+		"useDefaultSharedCa",
 		&returns,
 	)
 	return returns

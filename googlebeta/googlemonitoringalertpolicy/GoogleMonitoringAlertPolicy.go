@@ -5,14 +5,14 @@ package googlemonitoringalertpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlemonitoringalertpolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlemonitoringalertpolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_monitoring_alert_policy google_monitoring_alert_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_monitoring_alert_policy google_monitoring_alert_policy}.
 type GoogleMonitoringAlertPolicy interface {
 	cdktn.TerraformResource
 	AlertStrategy() GoogleMonitoringAlertPolicyAlertStrategyOutputReference
@@ -602,7 +602,7 @@ func (j *jsiiProxy_GoogleMonitoringAlertPolicy) UserLabelsInput() *map[string]*s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_monitoring_alert_policy google_monitoring_alert_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_monitoring_alert_policy google_monitoring_alert_policy} Resource.
 func NewGoogleMonitoringAlertPolicy(scope constructs.Construct, id *string, config *GoogleMonitoringAlertPolicyConfig) GoogleMonitoringAlertPolicy {
 	_init_.Initialize()
 
@@ -620,7 +620,7 @@ func NewGoogleMonitoringAlertPolicy(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_monitoring_alert_policy google_monitoring_alert_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_monitoring_alert_policy google_monitoring_alert_policy} Resource.
 func NewGoogleMonitoringAlertPolicy_Override(g GoogleMonitoringAlertPolicy, scope constructs.Construct, id *string, config *GoogleMonitoringAlertPolicyConfig) {
 	_init_.Initialize()
 

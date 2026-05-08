@@ -1,0 +1,85 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package googledatabasemigrationservicemigrationjob
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (g *jsiiProxy_GoogleDatabaseMigrationServiceMigrationJobObjectsConfigSourceObjectsConfigOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleDatabaseMigrationServiceMigrationJobObjectsConfigSourceObjectsConfigOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleDatabaseMigrationServiceMigrationJobObjectsConfigSourceObjectsConfigOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleDatabaseMigrationServiceMigrationJobObjectsConfigSourceObjectsConfigOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleDatabaseMigrationServiceMigrationJobObjectsConfigSourceObjectsConfigOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleDatabaseMigrationServiceMigrationJobObjectsConfigSourceObjectsConfigOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleDatabaseMigrationServiceMigrationJobObjectsConfigSourceObjectsConfigOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleDatabaseMigrationServiceMigrationJobObjectsConfigSourceObjectsConfigOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleDatabaseMigrationServiceMigrationJobObjectsConfigSourceObjectsConfigOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleDatabaseMigrationServiceMigrationJobObjectsConfigSourceObjectsConfigOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleDatabaseMigrationServiceMigrationJobObjectsConfigSourceObjectsConfigOutputReference) validatePutObjectConfigsParameters(value interface{}) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleDatabaseMigrationServiceMigrationJobObjectsConfigSourceObjectsConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleDatabaseMigrationServiceMigrationJobObjectsConfigSourceObjectsConfigOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleDatabaseMigrationServiceMigrationJobObjectsConfigSourceObjectsConfigOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleDatabaseMigrationServiceMigrationJobObjectsConfigSourceObjectsConfigOutputReference) validateSetInternalValueParameters(val *GoogleDatabaseMigrationServiceMigrationJobObjectsConfigSourceObjectsConfig) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleDatabaseMigrationServiceMigrationJobObjectsConfigSourceObjectsConfigOutputReference) validateSetObjectsSelectionTypeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleDatabaseMigrationServiceMigrationJobObjectsConfigSourceObjectsConfigOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleDatabaseMigrationServiceMigrationJobObjectsConfigSourceObjectsConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewGoogleDatabaseMigrationServiceMigrationJobObjectsConfigSourceObjectsConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

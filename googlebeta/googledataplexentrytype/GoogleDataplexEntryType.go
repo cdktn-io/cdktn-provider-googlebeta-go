@@ -5,14 +5,14 @@ package googledataplexentrytype
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledataplexentrytype/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledataplexentrytype/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_entry_type google_dataplex_entry_type}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_entry_type google_dataplex_entry_type}.
 type GoogleDataplexEntryType interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -649,7 +649,7 @@ func (j *jsiiProxy_GoogleDataplexEntryType) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_entry_type google_dataplex_entry_type} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_entry_type google_dataplex_entry_type} Resource.
 func NewGoogleDataplexEntryType(scope constructs.Construct, id *string, config *GoogleDataplexEntryTypeConfig) GoogleDataplexEntryType {
 	_init_.Initialize()
 
@@ -667,7 +667,7 @@ func NewGoogleDataplexEntryType(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_dataplex_entry_type google_dataplex_entry_type} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_entry_type google_dataplex_entry_type} Resource.
 func NewGoogleDataplexEntryType_Override(g GoogleDataplexEntryType, scope constructs.Construct, id *string, config *GoogleDataplexEntryTypeConfig) {
 	_init_.Initialize()
 

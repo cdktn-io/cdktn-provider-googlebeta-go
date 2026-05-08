@@ -5,14 +5,14 @@ package datagooglecomposeruserworkloadssecret
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglecomposeruserworkloadssecret/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglecomposeruserworkloadssecret/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_composer_user_workloads_secret google_composer_user_workloads_secret}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_composer_user_workloads_secret google_composer_user_workloads_secret}.
 type DataGoogleComposerUserWorkloadsSecret interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -379,7 +379,7 @@ func (j *jsiiProxy_DataGoogleComposerUserWorkloadsSecret) TerraformResourceType(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_composer_user_workloads_secret google_composer_user_workloads_secret} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_composer_user_workloads_secret google_composer_user_workloads_secret} Data Source.
 func NewDataGoogleComposerUserWorkloadsSecret(scope constructs.Construct, id *string, config *DataGoogleComposerUserWorkloadsSecretConfig) DataGoogleComposerUserWorkloadsSecret {
 	_init_.Initialize()
 
@@ -397,7 +397,7 @@ func NewDataGoogleComposerUserWorkloadsSecret(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_composer_user_workloads_secret google_composer_user_workloads_secret} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_composer_user_workloads_secret google_composer_user_workloads_secret} Data Source.
 func NewDataGoogleComposerUserWorkloadsSecret_Override(d DataGoogleComposerUserWorkloadsSecret, scope constructs.Construct, id *string, config *DataGoogleComposerUserWorkloadsSecretConfig) {
 	_init_.Initialize()
 

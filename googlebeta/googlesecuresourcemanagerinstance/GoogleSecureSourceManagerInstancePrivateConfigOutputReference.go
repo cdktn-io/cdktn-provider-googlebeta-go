@@ -5,9 +5,9 @@ package googlesecuresourcemanagerinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlesecuresourcemanagerinstance/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlesecuresourcemanagerinstance/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -31,6 +31,8 @@ type GoogleSecureSourceManagerInstancePrivateConfigOutputReference interface {
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
+	CustomHostConfig() GoogleSecureSourceManagerInstancePrivateConfigCustomHostConfigOutputReference
+	CustomHostConfigInput() *GoogleSecureSourceManagerInstancePrivateConfigCustomHostConfig
 	// Experimental.
 	Fqn() *string
 	HttpServiceAttachment() *string
@@ -72,6 +74,9 @@ type GoogleSecureSourceManagerInstancePrivateConfigOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutCustomHostConfig(value *GoogleSecureSourceManagerInstancePrivateConfigCustomHostConfig)
+	ResetCaPool()
+	ResetCustomHostConfig()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -132,6 +137,26 @@ func (j *jsiiProxy_GoogleSecureSourceManagerInstancePrivateConfigOutputReference
 	_jsii_.Get(
 		j,
 		"creationStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleSecureSourceManagerInstancePrivateConfigOutputReference) CustomHostConfig() GoogleSecureSourceManagerInstancePrivateConfigCustomHostConfigOutputReference {
+	var returns GoogleSecureSourceManagerInstancePrivateConfigCustomHostConfigOutputReference
+	_jsii_.Get(
+		j,
+		"customHostConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleSecureSourceManagerInstancePrivateConfigOutputReference) CustomHostConfigInput() *GoogleSecureSourceManagerInstancePrivateConfigCustomHostConfig {
+	var returns *GoogleSecureSourceManagerInstancePrivateConfigCustomHostConfig
+	_jsii_.Get(
+		j,
+		"customHostConfigInput",
 		&returns,
 	)
 	return returns
@@ -506,6 +531,33 @@ func (g *jsiiProxy_GoogleSecureSourceManagerInstancePrivateConfigOutputReference
 	)
 
 	return returns
+}
+
+func (g *jsiiProxy_GoogleSecureSourceManagerInstancePrivateConfigOutputReference) PutCustomHostConfig(value *GoogleSecureSourceManagerInstancePrivateConfigCustomHostConfig) {
+	if err := g.validatePutCustomHostConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putCustomHostConfig",
+		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleSecureSourceManagerInstancePrivateConfigOutputReference) ResetCaPool() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetCaPool",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleSecureSourceManagerInstancePrivateConfigOutputReference) ResetCustomHostConfig() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetCustomHostConfig",
+		nil, // no parameters
+	)
 }
 
 func (g *jsiiProxy_GoogleSecureSourceManagerInstancePrivateConfigOutputReference) Resolve(context cdktn.IResolveContext) interface{} {

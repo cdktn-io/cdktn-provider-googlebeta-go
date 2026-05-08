@@ -1,0 +1,81 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package googlecesevaluation
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (g *jsiiProxy_GoogleCesEvaluationGoldenTurnsStepsUserInputEventOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleCesEvaluationGoldenTurnsStepsUserInputEventOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleCesEvaluationGoldenTurnsStepsUserInputEventOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleCesEvaluationGoldenTurnsStepsUserInputEventOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleCesEvaluationGoldenTurnsStepsUserInputEventOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleCesEvaluationGoldenTurnsStepsUserInputEventOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleCesEvaluationGoldenTurnsStepsUserInputEventOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleCesEvaluationGoldenTurnsStepsUserInputEventOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleCesEvaluationGoldenTurnsStepsUserInputEventOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleCesEvaluationGoldenTurnsStepsUserInputEventOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleCesEvaluationGoldenTurnsStepsUserInputEventOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleCesEvaluationGoldenTurnsStepsUserInputEventOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleCesEvaluationGoldenTurnsStepsUserInputEventOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleCesEvaluationGoldenTurnsStepsUserInputEventOutputReference) validateSetEventParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleCesEvaluationGoldenTurnsStepsUserInputEventOutputReference) validateSetInternalValueParameters(val *GoogleCesEvaluationGoldenTurnsStepsUserInputEvent) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleCesEvaluationGoldenTurnsStepsUserInputEventOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleCesEvaluationGoldenTurnsStepsUserInputEventOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewGoogleCesEvaluationGoldenTurnsStepsUserInputEventOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

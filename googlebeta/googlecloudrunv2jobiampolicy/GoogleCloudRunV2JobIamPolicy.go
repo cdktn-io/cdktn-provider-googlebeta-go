@@ -5,14 +5,14 @@ package googlecloudrunv2jobiampolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecloudrunv2jobiampolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudrunv2jobiampolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_v2_job_iam_policy google_cloud_run_v2_job_iam_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_v2_job_iam_policy google_cloud_run_v2_job_iam_policy}.
 type GoogleCloudRunV2JobIamPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -424,7 +424,7 @@ func (j *jsiiProxy_GoogleCloudRunV2JobIamPolicy) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_v2_job_iam_policy google_cloud_run_v2_job_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_v2_job_iam_policy google_cloud_run_v2_job_iam_policy} Resource.
 func NewGoogleCloudRunV2JobIamPolicy(scope constructs.Construct, id *string, config *GoogleCloudRunV2JobIamPolicyConfig) GoogleCloudRunV2JobIamPolicy {
 	_init_.Initialize()
 
@@ -442,7 +442,7 @@ func NewGoogleCloudRunV2JobIamPolicy(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_cloud_run_v2_job_iam_policy google_cloud_run_v2_job_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_v2_job_iam_policy google_cloud_run_v2_job_iam_policy} Resource.
 func NewGoogleCloudRunV2JobIamPolicy_Override(g GoogleCloudRunV2JobIamPolicy, scope constructs.Construct, id *string, config *GoogleCloudRunV2JobIamPolicyConfig) {
 	_init_.Initialize()
 

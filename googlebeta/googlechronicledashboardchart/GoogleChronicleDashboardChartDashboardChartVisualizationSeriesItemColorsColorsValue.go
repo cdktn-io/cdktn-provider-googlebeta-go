@@ -1,0 +1,13 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+package googlechronicledashboardchart
+
+
+type GoogleChronicleDashboardChartDashboardChartVisualizationSeriesItemColorsColorsValue struct {
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_dashboard_chart#color GoogleChronicleDashboardChart#color}.
+	Color *string `field:"optional" json:"color" yaml:"color"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_dashboard_chart#label GoogleChronicleDashboardChart#label}.
+	Label *string `field:"optional" json:"label" yaml:"label"`
+}
+

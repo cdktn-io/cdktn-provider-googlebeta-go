@@ -5,14 +5,14 @@ package googleiamworkforcepoolproviderkey
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleiamworkforcepoolproviderkey/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleiamworkforcepoolproviderkey/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iam_workforce_pool_provider_key google_iam_workforce_pool_provider_key}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iam_workforce_pool_provider_key google_iam_workforce_pool_provider_key}.
 type GoogleIamWorkforcePoolProviderKey interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -514,7 +514,7 @@ func (j *jsiiProxy_GoogleIamWorkforcePoolProviderKey) WorkforcePoolIdInput() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iam_workforce_pool_provider_key google_iam_workforce_pool_provider_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iam_workforce_pool_provider_key google_iam_workforce_pool_provider_key} Resource.
 func NewGoogleIamWorkforcePoolProviderKey(scope constructs.Construct, id *string, config *GoogleIamWorkforcePoolProviderKeyConfig) GoogleIamWorkforcePoolProviderKey {
 	_init_.Initialize()
 
@@ -532,7 +532,7 @@ func NewGoogleIamWorkforcePoolProviderKey(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iam_workforce_pool_provider_key google_iam_workforce_pool_provider_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iam_workforce_pool_provider_key google_iam_workforce_pool_provider_key} Resource.
 func NewGoogleIamWorkforcePoolProviderKey_Override(g GoogleIamWorkforcePoolProviderKey, scope constructs.Construct, id *string, config *GoogleIamWorkforcePoolProviderKeyConfig) {
 	_init_.Initialize()
 

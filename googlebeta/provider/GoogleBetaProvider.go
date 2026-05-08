@@ -5,14 +5,14 @@ package provider
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/provider/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/provider/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs google-beta}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs google-beta}.
 type GoogleBetaProvider interface {
 	cdktn.TerraformProvider
 	AccessApprovalCustomEndpoint() *string
@@ -72,6 +72,9 @@ type GoogleBetaProvider interface {
 	BiglakeCustomEndpoint() *string
 	SetBiglakeCustomEndpoint(val *string)
 	BiglakeCustomEndpointInput() *string
+	BiglakeIcebergCustomEndpoint() *string
+	SetBiglakeIcebergCustomEndpoint(val *string)
+	BiglakeIcebergCustomEndpointInput() *string
 	BigqueryAnalyticsHubCustomEndpoint() *string
 	SetBigqueryAnalyticsHubCustomEndpoint(val *string)
 	BigqueryAnalyticsHubCustomEndpointInput() *string
@@ -84,6 +87,9 @@ type GoogleBetaProvider interface {
 	BigqueryDatapolicyCustomEndpoint() *string
 	SetBigqueryDatapolicyCustomEndpoint(val *string)
 	BigqueryDatapolicyCustomEndpointInput() *string
+	BigqueryDatapolicyv2CustomEndpoint() *string
+	SetBigqueryDatapolicyv2CustomEndpoint(val *string)
+	BigqueryDatapolicyv2CustomEndpointInput() *string
 	BigqueryDataTransferCustomEndpoint() *string
 	SetBigqueryDataTransferCustomEndpoint(val *string)
 	BigqueryDataTransferCustomEndpointInput() *string
@@ -93,6 +99,9 @@ type GoogleBetaProvider interface {
 	BigtableCustomEndpoint() *string
 	SetBigtableCustomEndpoint(val *string)
 	BigtableCustomEndpointInput() *string
+	BillingBudgetsCustomEndpoint() *string
+	SetBillingBudgetsCustomEndpoint(val *string)
+	BillingBudgetsCustomEndpointInput() *string
 	BillingCustomEndpoint() *string
 	SetBillingCustomEndpoint(val *string)
 	BillingCustomEndpointInput() *string
@@ -110,6 +119,9 @@ type GoogleBetaProvider interface {
 	CertificateManagerCustomEndpoint() *string
 	SetCertificateManagerCustomEndpoint(val *string)
 	CertificateManagerCustomEndpointInput() *string
+	CesCustomEndpoint() *string
+	SetCesCustomEndpoint(val *string)
+	CesCustomEndpointInput() *string
 	ChronicleCustomEndpoint() *string
 	SetChronicleCustomEndpoint(val *string)
 	ChronicleCustomEndpointInput() *string
@@ -158,6 +170,9 @@ type GoogleBetaProvider interface {
 	CloudSchedulerCustomEndpoint() *string
 	SetCloudSchedulerCustomEndpoint(val *string)
 	CloudSchedulerCustomEndpointInput() *string
+	CloudSecurityComplianceCustomEndpoint() *string
+	SetCloudSecurityComplianceCustomEndpoint(val *string)
+	CloudSecurityComplianceCustomEndpointInput() *string
 	CloudTasksCustomEndpoint() *string
 	SetCloudTasksCustomEndpoint(val *string)
 	CloudTasksCustomEndpointInput() *string
@@ -211,6 +226,9 @@ type GoogleBetaProvider interface {
 	DataFusionCustomEndpoint() *string
 	SetDataFusionCustomEndpoint(val *string)
 	DataFusionCustomEndpointInput() *string
+	DataLineageCustomEndpoint() *string
+	SetDataLineageCustomEndpoint(val *string)
+	DataLineageCustomEndpointInput() *string
 	DataLossPreventionCustomEndpoint() *string
 	SetDataLossPreventionCustomEndpoint(val *string)
 	DataLossPreventionCustomEndpointInput() *string
@@ -277,6 +295,9 @@ type GoogleBetaProvider interface {
 	FilestoreCustomEndpoint() *string
 	SetFilestoreCustomEndpoint(val *string)
 	FilestoreCustomEndpointInput() *string
+	FirebaseAiLogicCustomEndpoint() *string
+	SetFirebaseAiLogicCustomEndpoint(val *string)
+	FirebaseAiLogicCustomEndpointInput() *string
 	FirebaseAppCheckCustomEndpoint() *string
 	SetFirebaseAppCheckCustomEndpoint(val *string)
 	FirebaseAppCheckCustomEndpointInput() *string
@@ -298,6 +319,9 @@ type GoogleBetaProvider interface {
 	FirebaseHostingCustomEndpoint() *string
 	SetFirebaseHostingCustomEndpoint(val *string)
 	FirebaseHostingCustomEndpointInput() *string
+	FirebaseRemoteConfigCustomEndpoint() *string
+	SetFirebaseRemoteConfigCustomEndpoint(val *string)
+	FirebaseRemoteConfigCustomEndpointInput() *string
 	FirebaserulesCustomEndpoint() *string
 	SetFirebaserulesCustomEndpoint(val *string)
 	FirebaserulesCustomEndpointInput() *string
@@ -329,6 +353,9 @@ type GoogleBetaProvider interface {
 	HealthcareCustomEndpoint() *string
 	SetHealthcareCustomEndpoint(val *string)
 	HealthcareCustomEndpointInput() *string
+	HypercomputeclusterCustomEndpoint() *string
+	SetHypercomputeclusterCustomEndpoint(val *string)
+	HypercomputeclusterCustomEndpointInput() *string
 	Iam2CustomEndpoint() *string
 	SetIam2CustomEndpoint(val *string)
 	Iam2CustomEndpointInput() *string
@@ -409,6 +436,9 @@ type GoogleBetaProvider interface {
 	NetworkConnectivityCustomEndpoint() *string
 	SetNetworkConnectivityCustomEndpoint(val *string)
 	NetworkConnectivityCustomEndpointInput() *string
+	NetworkConnectivityv1CustomEndpoint() *string
+	SetNetworkConnectivityv1CustomEndpoint(val *string)
+	NetworkConnectivityv1CustomEndpointInput() *string
 	NetworkManagementCustomEndpoint() *string
 	SetNetworkManagementCustomEndpoint(val *string)
 	NetworkManagementCustomEndpointInput() *string
@@ -423,6 +453,9 @@ type GoogleBetaProvider interface {
 	NotebooksCustomEndpoint() *string
 	SetNotebooksCustomEndpoint(val *string)
 	NotebooksCustomEndpointInput() *string
+	ObservabilityCustomEndpoint() *string
+	SetObservabilityCustomEndpoint(val *string)
+	ObservabilityCustomEndpointInput() *string
 	OracleDatabaseCustomEndpoint() *string
 	SetOracleDatabaseCustomEndpoint(val *string)
 	OracleDatabaseCustomEndpointInput() *string
@@ -447,6 +480,15 @@ type GoogleBetaProvider interface {
 	ParameterManagerRegionalCustomEndpoint() *string
 	SetParameterManagerRegionalCustomEndpoint(val *string)
 	ParameterManagerRegionalCustomEndpointInput() *string
+	PollInterval() *string
+	SetPollInterval(val *string)
+	PollIntervalInput() *string
+	PreferGlobalEndpoints() interface{}
+	SetPreferGlobalEndpoints(val interface{})
+	PreferGlobalEndpointsInput() interface{}
+	PreferRegionalEndpoints() interface{}
+	SetPreferRegionalEndpoints(val interface{})
+	PreferRegionalEndpointsInput() interface{}
 	PrivatecaCustomEndpoint() *string
 	SetPrivatecaCustomEndpoint(val *string)
 	PrivatecaCustomEndpointInput() *string
@@ -497,6 +539,9 @@ type GoogleBetaProvider interface {
 	SetRuntimeConfigCustomEndpoint(val *string)
 	RuntimeconfigCustomEndpointInput() *string
 	RuntimeConfigCustomEndpointInput() *string
+	SaasRuntimeCustomEndpoint() *string
+	SetSaasRuntimeCustomEndpoint(val *string)
+	SaasRuntimeCustomEndpointInput() *string
 	Scopes() *[]*string
 	SetScopes(val *[]*string)
 	ScopesInput() *[]*string
@@ -578,9 +623,6 @@ type GoogleBetaProvider interface {
 	TerraformProviderSource() *string
 	// Experimental.
 	TerraformResourceType() *string
-	TpuCustomEndpoint() *string
-	SetTpuCustomEndpoint(val *string)
-	TpuCustomEndpointInput() *string
 	TpuV2CustomEndpoint() *string
 	SetTpuV2CustomEndpoint(val *string)
 	TpuV2CustomEndpointInput() *string
@@ -593,6 +635,9 @@ type GoogleBetaProvider interface {
 	UserProjectOverride() interface{}
 	SetUserProjectOverride(val interface{})
 	UserProjectOverrideInput() interface{}
+	VectorSearchCustomEndpoint() *string
+	SetVectorSearchCustomEndpoint(val *string)
+	VectorSearchCustomEndpointInput() *string
 	VertexAiCustomEndpoint() *string
 	SetVertexAiCustomEndpoint(val *string)
 	VertexAiCustomEndpointInput() *string
@@ -608,6 +653,9 @@ type GoogleBetaProvider interface {
 	WorkflowsCustomEndpoint() *string
 	SetWorkflowsCustomEndpoint(val *string)
 	WorkflowsCustomEndpointInput() *string
+	WorkloadIdentityCustomEndpoint() *string
+	SetWorkloadIdentityCustomEndpoint(val *string)
+	WorkloadIdentityCustomEndpointInput() *string
 	WorkstationsCustomEndpoint() *string
 	SetWorkstationsCustomEndpoint(val *string)
 	WorkstationsCustomEndpointInput() *string
@@ -638,18 +686,22 @@ type GoogleBetaProvider interface {
 	ResetBatching()
 	ResetBeyondcorpCustomEndpoint()
 	ResetBiglakeCustomEndpoint()
+	ResetBiglakeIcebergCustomEndpoint()
 	ResetBigqueryAnalyticsHubCustomEndpoint()
 	ResetBigqueryConnectionCustomEndpoint()
 	ResetBigQueryCustomEndpoint()
 	ResetBigqueryDatapolicyCustomEndpoint()
+	ResetBigqueryDatapolicyv2CustomEndpoint()
 	ResetBigqueryDataTransferCustomEndpoint()
 	ResetBigqueryReservationCustomEndpoint()
 	ResetBigtableCustomEndpoint()
+	ResetBillingBudgetsCustomEndpoint()
 	ResetBillingCustomEndpoint()
 	ResetBillingProject()
 	ResetBinaryAuthorizationCustomEndpoint()
 	ResetBlockchainNodeEngineCustomEndpoint()
 	ResetCertificateManagerCustomEndpoint()
+	ResetCesCustomEndpoint()
 	ResetChronicleCustomEndpoint()
 	ResetCloudAssetCustomEndpoint()
 	ResetCloudBillingCustomEndpoint()
@@ -666,6 +718,7 @@ type GoogleBetaProvider interface {
 	ResetCloudRunCustomEndpoint()
 	ResetCloudRunV2CustomEndpoint()
 	ResetCloudSchedulerCustomEndpoint()
+	ResetCloudSecurityComplianceCustomEndpoint()
 	ResetCloudTasksCustomEndpoint()
 	ResetColabCustomEndpoint()
 	ResetComposerCustomEndpoint()
@@ -683,6 +736,7 @@ type GoogleBetaProvider interface {
 	ResetDataflowCustomEndpoint()
 	ResetDataformCustomEndpoint()
 	ResetDataFusionCustomEndpoint()
+	ResetDataLineageCustomEndpoint()
 	ResetDataLossPreventionCustomEndpoint()
 	ResetDataPipelineCustomEndpoint()
 	ResetDataplexCustomEndpoint()
@@ -705,6 +759,7 @@ type GoogleBetaProvider interface {
 	ResetEventarcCustomEndpoint()
 	ResetExternalCredentials()
 	ResetFilestoreCustomEndpoint()
+	ResetFirebaseAiLogicCustomEndpoint()
 	ResetFirebaseAppCheckCustomEndpoint()
 	ResetFirebaseAppHostingCustomEndpoint()
 	ResetFirebaseCustomEndpoint()
@@ -712,6 +767,7 @@ type GoogleBetaProvider interface {
 	ResetFirebaseDataConnectCustomEndpoint()
 	ResetFirebaseExtensionsCustomEndpoint()
 	ResetFirebaseHostingCustomEndpoint()
+	ResetFirebaseRemoteConfigCustomEndpoint()
 	ResetFirebaserulesCustomEndpoint()
 	ResetFirebaseStorageCustomEndpoint()
 	ResetFirestoreCustomEndpoint()
@@ -721,6 +777,7 @@ type GoogleBetaProvider interface {
 	ResetGkeHubCustomEndpoint()
 	ResetGkeonpremCustomEndpoint()
 	ResetHealthcareCustomEndpoint()
+	ResetHypercomputeclusterCustomEndpoint()
 	ResetIam2CustomEndpoint()
 	ResetIam3CustomEndpoint()
 	ResetIamBetaCustomEndpoint()
@@ -747,10 +804,12 @@ type GoogleBetaProvider interface {
 	ResetMonitoringCustomEndpoint()
 	ResetNetappCustomEndpoint()
 	ResetNetworkConnectivityCustomEndpoint()
+	ResetNetworkConnectivityv1CustomEndpoint()
 	ResetNetworkManagementCustomEndpoint()
 	ResetNetworkSecurityCustomEndpoint()
 	ResetNetworkServicesCustomEndpoint()
 	ResetNotebooksCustomEndpoint()
+	ResetObservabilityCustomEndpoint()
 	ResetOracleDatabaseCustomEndpoint()
 	ResetOrgPolicyCustomEndpoint()
 	ResetOsConfigCustomEndpoint()
@@ -762,6 +821,9 @@ type GoogleBetaProvider interface {
 	ResetParallelstoreCustomEndpoint()
 	ResetParameterManagerCustomEndpoint()
 	ResetParameterManagerRegionalCustomEndpoint()
+	ResetPollInterval()
+	ResetPreferGlobalEndpoints()
+	ResetPreferRegionalEndpoints()
 	ResetPrivatecaCustomEndpoint()
 	ResetPrivilegedAccessManagerCustomEndpoint()
 	ResetProject()
@@ -778,6 +840,7 @@ type GoogleBetaProvider interface {
 	ResetResourceManagerV3CustomEndpoint()
 	ResetRuntimeconfigCustomEndpoint()
 	ResetRuntimeConfigCustomEndpoint()
+	ResetSaasRuntimeCustomEndpoint()
 	ResetScopes()
 	ResetSecretManagerCustomEndpoint()
 	ResetSecretManagerRegionalCustomEndpoint()
@@ -803,16 +866,17 @@ type GoogleBetaProvider interface {
 	ResetTagsCustomEndpoint()
 	ResetTagsLocationCustomEndpoint()
 	ResetTerraformAttributionLabelAdditionStrategy()
-	ResetTpuCustomEndpoint()
 	ResetTpuV2CustomEndpoint()
 	ResetTranscoderCustomEndpoint()
 	ResetUniverseDomain()
 	ResetUserProjectOverride()
+	ResetVectorSearchCustomEndpoint()
 	ResetVertexAiCustomEndpoint()
 	ResetVmwareengineCustomEndpoint()
 	ResetVpcAccessCustomEndpoint()
 	ResetWorkbenchCustomEndpoint()
 	ResetWorkflowsCustomEndpoint()
+	ResetWorkloadIdentityCustomEndpoint()
 	ResetWorkstationsCustomEndpoint()
 	ResetZone()
 	SynthesizeAttributes() *map[string]interface{}
@@ -1222,6 +1286,26 @@ func (j *jsiiProxy_GoogleBetaProvider) BiglakeCustomEndpointInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_GoogleBetaProvider) BiglakeIcebergCustomEndpoint() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"biglakeIcebergCustomEndpoint",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleBetaProvider) BiglakeIcebergCustomEndpointInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"biglakeIcebergCustomEndpointInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleBetaProvider) BigqueryAnalyticsHubCustomEndpoint() *string {
 	var returns *string
 	_jsii_.Get(
@@ -1302,6 +1386,26 @@ func (j *jsiiProxy_GoogleBetaProvider) BigqueryDatapolicyCustomEndpointInput() *
 	return returns
 }
 
+func (j *jsiiProxy_GoogleBetaProvider) BigqueryDatapolicyv2CustomEndpoint() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"bigqueryDatapolicyv2CustomEndpoint",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleBetaProvider) BigqueryDatapolicyv2CustomEndpointInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"bigqueryDatapolicyv2CustomEndpointInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleBetaProvider) BigqueryDataTransferCustomEndpoint() *string {
 	var returns *string
 	_jsii_.Get(
@@ -1357,6 +1461,26 @@ func (j *jsiiProxy_GoogleBetaProvider) BigtableCustomEndpointInput() *string {
 	_jsii_.Get(
 		j,
 		"bigtableCustomEndpointInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleBetaProvider) BillingBudgetsCustomEndpoint() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"billingBudgetsCustomEndpoint",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleBetaProvider) BillingBudgetsCustomEndpointInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"billingBudgetsCustomEndpointInput",
 		&returns,
 	)
 	return returns
@@ -1467,6 +1591,26 @@ func (j *jsiiProxy_GoogleBetaProvider) CertificateManagerCustomEndpointInput() *
 	_jsii_.Get(
 		j,
 		"certificateManagerCustomEndpointInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleBetaProvider) CesCustomEndpoint() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"cesCustomEndpoint",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleBetaProvider) CesCustomEndpointInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"cesCustomEndpointInput",
 		&returns,
 	)
 	return returns
@@ -1787,6 +1931,26 @@ func (j *jsiiProxy_GoogleBetaProvider) CloudSchedulerCustomEndpointInput() *stri
 	_jsii_.Get(
 		j,
 		"cloudSchedulerCustomEndpointInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleBetaProvider) CloudSecurityComplianceCustomEndpoint() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"cloudSecurityComplianceCustomEndpoint",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleBetaProvider) CloudSecurityComplianceCustomEndpointInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"cloudSecurityComplianceCustomEndpointInput",
 		&returns,
 	)
 	return returns
@@ -2137,6 +2301,26 @@ func (j *jsiiProxy_GoogleBetaProvider) DataFusionCustomEndpointInput() *string {
 	_jsii_.Get(
 		j,
 		"dataFusionCustomEndpointInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleBetaProvider) DataLineageCustomEndpoint() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"dataLineageCustomEndpoint",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleBetaProvider) DataLineageCustomEndpointInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"dataLineageCustomEndpointInput",
 		&returns,
 	)
 	return returns
@@ -2582,6 +2766,26 @@ func (j *jsiiProxy_GoogleBetaProvider) FilestoreCustomEndpointInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_GoogleBetaProvider) FirebaseAiLogicCustomEndpoint() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"firebaseAiLogicCustomEndpoint",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleBetaProvider) FirebaseAiLogicCustomEndpointInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"firebaseAiLogicCustomEndpointInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleBetaProvider) FirebaseAppCheckCustomEndpoint() *string {
 	var returns *string
 	_jsii_.Get(
@@ -2717,6 +2921,26 @@ func (j *jsiiProxy_GoogleBetaProvider) FirebaseHostingCustomEndpointInput() *str
 	_jsii_.Get(
 		j,
 		"firebaseHostingCustomEndpointInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleBetaProvider) FirebaseRemoteConfigCustomEndpoint() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"firebaseRemoteConfigCustomEndpoint",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleBetaProvider) FirebaseRemoteConfigCustomEndpointInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"firebaseRemoteConfigCustomEndpointInput",
 		&returns,
 	)
 	return returns
@@ -2917,6 +3141,26 @@ func (j *jsiiProxy_GoogleBetaProvider) HealthcareCustomEndpointInput() *string {
 	_jsii_.Get(
 		j,
 		"healthcareCustomEndpointInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleBetaProvider) HypercomputeclusterCustomEndpoint() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"hypercomputeclusterCustomEndpoint",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleBetaProvider) HypercomputeclusterCustomEndpointInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"hypercomputeclusterCustomEndpointInput",
 		&returns,
 	)
 	return returns
@@ -3452,6 +3696,26 @@ func (j *jsiiProxy_GoogleBetaProvider) NetworkConnectivityCustomEndpointInput() 
 	return returns
 }
 
+func (j *jsiiProxy_GoogleBetaProvider) NetworkConnectivityv1CustomEndpoint() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"networkConnectivityv1CustomEndpoint",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleBetaProvider) NetworkConnectivityv1CustomEndpointInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"networkConnectivityv1CustomEndpointInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleBetaProvider) NetworkManagementCustomEndpoint() *string {
 	var returns *string
 	_jsii_.Get(
@@ -3537,6 +3801,26 @@ func (j *jsiiProxy_GoogleBetaProvider) NotebooksCustomEndpointInput() *string {
 	_jsii_.Get(
 		j,
 		"notebooksCustomEndpointInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleBetaProvider) ObservabilityCustomEndpoint() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"observabilityCustomEndpoint",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleBetaProvider) ObservabilityCustomEndpointInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"observabilityCustomEndpointInput",
 		&returns,
 	)
 	return returns
@@ -3697,6 +3981,66 @@ func (j *jsiiProxy_GoogleBetaProvider) ParameterManagerRegionalCustomEndpointInp
 	_jsii_.Get(
 		j,
 		"parameterManagerRegionalCustomEndpointInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleBetaProvider) PollInterval() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"pollInterval",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleBetaProvider) PollIntervalInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"pollIntervalInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleBetaProvider) PreferGlobalEndpoints() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"preferGlobalEndpoints",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleBetaProvider) PreferGlobalEndpointsInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"preferGlobalEndpointsInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleBetaProvider) PreferRegionalEndpoints() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"preferRegionalEndpoints",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleBetaProvider) PreferRegionalEndpointsInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"preferRegionalEndpointsInput",
 		&returns,
 	)
 	return returns
@@ -4027,6 +4371,26 @@ func (j *jsiiProxy_GoogleBetaProvider) RuntimeConfigCustomEndpointInput() *strin
 	_jsii_.Get(
 		j,
 		"runtimeConfigCustomEndpointInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleBetaProvider) SaasRuntimeCustomEndpoint() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"saasRuntimeCustomEndpoint",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleBetaProvider) SaasRuntimeCustomEndpointInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"saasRuntimeCustomEndpointInput",
 		&returns,
 	)
 	return returns
@@ -4562,26 +4926,6 @@ func (j *jsiiProxy_GoogleBetaProvider) TerraformResourceType() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleBetaProvider) TpuCustomEndpoint() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"tpuCustomEndpoint",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_GoogleBetaProvider) TpuCustomEndpointInput() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"tpuCustomEndpointInput",
-		&returns,
-	)
-	return returns
-}
-
 func (j *jsiiProxy_GoogleBetaProvider) TpuV2CustomEndpoint() *string {
 	var returns *string
 	_jsii_.Get(
@@ -4657,6 +5001,26 @@ func (j *jsiiProxy_GoogleBetaProvider) UserProjectOverrideInput() interface{} {
 	_jsii_.Get(
 		j,
 		"userProjectOverrideInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleBetaProvider) VectorSearchCustomEndpoint() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"vectorSearchCustomEndpoint",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleBetaProvider) VectorSearchCustomEndpointInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"vectorSearchCustomEndpointInput",
 		&returns,
 	)
 	return returns
@@ -4762,6 +5126,26 @@ func (j *jsiiProxy_GoogleBetaProvider) WorkflowsCustomEndpointInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_GoogleBetaProvider) WorkloadIdentityCustomEndpoint() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"workloadIdentityCustomEndpoint",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleBetaProvider) WorkloadIdentityCustomEndpointInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"workloadIdentityCustomEndpointInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleBetaProvider) WorkstationsCustomEndpoint() *string {
 	var returns *string
 	_jsii_.Get(
@@ -4803,7 +5187,7 @@ func (j *jsiiProxy_GoogleBetaProvider) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs google-beta} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs google-beta} Resource.
 func NewGoogleBetaProvider(scope constructs.Construct, id *string, config *GoogleBetaProviderConfig) GoogleBetaProvider {
 	_init_.Initialize()
 
@@ -4821,7 +5205,7 @@ func NewGoogleBetaProvider(scope constructs.Construct, id *string, config *Googl
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs google-beta} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs google-beta} Resource.
 func NewGoogleBetaProvider_Override(g GoogleBetaProvider, scope constructs.Construct, id *string, config *GoogleBetaProviderConfig) {
 	_init_.Initialize()
 
@@ -4990,6 +5374,14 @@ func (j *jsiiProxy_GoogleBetaProvider)SetBiglakeCustomEndpoint(val *string) {
 	)
 }
 
+func (j *jsiiProxy_GoogleBetaProvider)SetBiglakeIcebergCustomEndpoint(val *string) {
+	_jsii_.Set(
+		j,
+		"biglakeIcebergCustomEndpoint",
+		val,
+	)
+}
+
 func (j *jsiiProxy_GoogleBetaProvider)SetBigqueryAnalyticsHubCustomEndpoint(val *string) {
 	_jsii_.Set(
 		j,
@@ -5022,6 +5414,14 @@ func (j *jsiiProxy_GoogleBetaProvider)SetBigqueryDatapolicyCustomEndpoint(val *s
 	)
 }
 
+func (j *jsiiProxy_GoogleBetaProvider)SetBigqueryDatapolicyv2CustomEndpoint(val *string) {
+	_jsii_.Set(
+		j,
+		"bigqueryDatapolicyv2CustomEndpoint",
+		val,
+	)
+}
+
 func (j *jsiiProxy_GoogleBetaProvider)SetBigqueryDataTransferCustomEndpoint(val *string) {
 	_jsii_.Set(
 		j,
@@ -5042,6 +5442,14 @@ func (j *jsiiProxy_GoogleBetaProvider)SetBigtableCustomEndpoint(val *string) {
 	_jsii_.Set(
 		j,
 		"bigtableCustomEndpoint",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleBetaProvider)SetBillingBudgetsCustomEndpoint(val *string) {
+	_jsii_.Set(
+		j,
+		"billingBudgetsCustomEndpoint",
 		val,
 	)
 }
@@ -5082,6 +5490,14 @@ func (j *jsiiProxy_GoogleBetaProvider)SetCertificateManagerCustomEndpoint(val *s
 	_jsii_.Set(
 		j,
 		"certificateManagerCustomEndpoint",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleBetaProvider)SetCesCustomEndpoint(val *string) {
+	_jsii_.Set(
+		j,
+		"cesCustomEndpoint",
 		val,
 	)
 }
@@ -5210,6 +5626,14 @@ func (j *jsiiProxy_GoogleBetaProvider)SetCloudSchedulerCustomEndpoint(val *strin
 	_jsii_.Set(
 		j,
 		"cloudSchedulerCustomEndpoint",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleBetaProvider)SetCloudSecurityComplianceCustomEndpoint(val *string) {
+	_jsii_.Set(
+		j,
+		"cloudSecurityComplianceCustomEndpoint",
 		val,
 	)
 }
@@ -5346,6 +5770,14 @@ func (j *jsiiProxy_GoogleBetaProvider)SetDataFusionCustomEndpoint(val *string) {
 	_jsii_.Set(
 		j,
 		"dataFusionCustomEndpoint",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleBetaProvider)SetDataLineageCustomEndpoint(val *string) {
+	_jsii_.Set(
+		j,
+		"dataLineageCustomEndpoint",
 		val,
 	)
 }
@@ -5529,6 +5961,14 @@ func (j *jsiiProxy_GoogleBetaProvider)SetFilestoreCustomEndpoint(val *string) {
 	)
 }
 
+func (j *jsiiProxy_GoogleBetaProvider)SetFirebaseAiLogicCustomEndpoint(val *string) {
+	_jsii_.Set(
+		j,
+		"firebaseAiLogicCustomEndpoint",
+		val,
+	)
+}
+
 func (j *jsiiProxy_GoogleBetaProvider)SetFirebaseAppCheckCustomEndpoint(val *string) {
 	_jsii_.Set(
 		j,
@@ -5581,6 +6021,14 @@ func (j *jsiiProxy_GoogleBetaProvider)SetFirebaseHostingCustomEndpoint(val *stri
 	_jsii_.Set(
 		j,
 		"firebaseHostingCustomEndpoint",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleBetaProvider)SetFirebaseRemoteConfigCustomEndpoint(val *string) {
+	_jsii_.Set(
+		j,
+		"firebaseRemoteConfigCustomEndpoint",
 		val,
 	)
 }
@@ -5653,6 +6101,14 @@ func (j *jsiiProxy_GoogleBetaProvider)SetHealthcareCustomEndpoint(val *string) {
 	_jsii_.Set(
 		j,
 		"healthcareCustomEndpoint",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleBetaProvider)SetHypercomputeclusterCustomEndpoint(val *string) {
+	_jsii_.Set(
+		j,
+		"hypercomputeclusterCustomEndpoint",
 		val,
 	)
 }
@@ -5865,6 +6321,14 @@ func (j *jsiiProxy_GoogleBetaProvider)SetNetworkConnectivityCustomEndpoint(val *
 	)
 }
 
+func (j *jsiiProxy_GoogleBetaProvider)SetNetworkConnectivityv1CustomEndpoint(val *string) {
+	_jsii_.Set(
+		j,
+		"networkConnectivityv1CustomEndpoint",
+		val,
+	)
+}
+
 func (j *jsiiProxy_GoogleBetaProvider)SetNetworkManagementCustomEndpoint(val *string) {
 	_jsii_.Set(
 		j,
@@ -5893,6 +6357,14 @@ func (j *jsiiProxy_GoogleBetaProvider)SetNotebooksCustomEndpoint(val *string) {
 	_jsii_.Set(
 		j,
 		"notebooksCustomEndpoint",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleBetaProvider)SetObservabilityCustomEndpoint(val *string) {
+	_jsii_.Set(
+		j,
+		"observabilityCustomEndpoint",
 		val,
 	)
 }
@@ -5957,6 +6429,36 @@ func (j *jsiiProxy_GoogleBetaProvider)SetParameterManagerRegionalCustomEndpoint(
 	_jsii_.Set(
 		j,
 		"parameterManagerRegionalCustomEndpoint",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleBetaProvider)SetPollInterval(val *string) {
+	_jsii_.Set(
+		j,
+		"pollInterval",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleBetaProvider)SetPreferGlobalEndpoints(val interface{}) {
+	if err := j.validateSetPreferGlobalEndpointsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"preferGlobalEndpoints",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleBetaProvider)SetPreferRegionalEndpoints(val interface{}) {
+	if err := j.validateSetPreferRegionalEndpointsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"preferRegionalEndpoints",
 		val,
 	)
 }
@@ -6085,6 +6587,14 @@ func (j *jsiiProxy_GoogleBetaProvider)SetRuntimeConfigCustomEndpoint(val *string
 	_jsii_.Set(
 		j,
 		"runtimeConfigCustomEndpoint",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleBetaProvider)SetSaasRuntimeCustomEndpoint(val *string) {
+	_jsii_.Set(
+		j,
+		"saasRuntimeCustomEndpoint",
 		val,
 	)
 }
@@ -6289,14 +6799,6 @@ func (j *jsiiProxy_GoogleBetaProvider)SetTerraformAttributionLabelAdditionStrate
 	)
 }
 
-func (j *jsiiProxy_GoogleBetaProvider)SetTpuCustomEndpoint(val *string) {
-	_jsii_.Set(
-		j,
-		"tpuCustomEndpoint",
-		val,
-	)
-}
-
 func (j *jsiiProxy_GoogleBetaProvider)SetTpuV2CustomEndpoint(val *string) {
 	_jsii_.Set(
 		j,
@@ -6328,6 +6830,14 @@ func (j *jsiiProxy_GoogleBetaProvider)SetUserProjectOverride(val interface{}) {
 	_jsii_.Set(
 		j,
 		"userProjectOverride",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleBetaProvider)SetVectorSearchCustomEndpoint(val *string) {
+	_jsii_.Set(
+		j,
+		"vectorSearchCustomEndpoint",
 		val,
 	)
 }
@@ -6368,6 +6878,14 @@ func (j *jsiiProxy_GoogleBetaProvider)SetWorkflowsCustomEndpoint(val *string) {
 	_jsii_.Set(
 		j,
 		"workflowsCustomEndpoint",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleBetaProvider)SetWorkloadIdentityCustomEndpoint(val *string) {
+	_jsii_.Set(
+		j,
+		"workloadIdentityCustomEndpoint",
 		val,
 	)
 }
@@ -6665,6 +7183,14 @@ func (g *jsiiProxy_GoogleBetaProvider) ResetBiglakeCustomEndpoint() {
 	)
 }
 
+func (g *jsiiProxy_GoogleBetaProvider) ResetBiglakeIcebergCustomEndpoint() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetBiglakeIcebergCustomEndpoint",
+		nil, // no parameters
+	)
+}
+
 func (g *jsiiProxy_GoogleBetaProvider) ResetBigqueryAnalyticsHubCustomEndpoint() {
 	_jsii_.InvokeVoid(
 		g,
@@ -6697,6 +7223,14 @@ func (g *jsiiProxy_GoogleBetaProvider) ResetBigqueryDatapolicyCustomEndpoint() {
 	)
 }
 
+func (g *jsiiProxy_GoogleBetaProvider) ResetBigqueryDatapolicyv2CustomEndpoint() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetBigqueryDatapolicyv2CustomEndpoint",
+		nil, // no parameters
+	)
+}
+
 func (g *jsiiProxy_GoogleBetaProvider) ResetBigqueryDataTransferCustomEndpoint() {
 	_jsii_.InvokeVoid(
 		g,
@@ -6717,6 +7251,14 @@ func (g *jsiiProxy_GoogleBetaProvider) ResetBigtableCustomEndpoint() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetBigtableCustomEndpoint",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleBetaProvider) ResetBillingBudgetsCustomEndpoint() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetBillingBudgetsCustomEndpoint",
 		nil, // no parameters
 	)
 }
@@ -6757,6 +7299,14 @@ func (g *jsiiProxy_GoogleBetaProvider) ResetCertificateManagerCustomEndpoint() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetCertificateManagerCustomEndpoint",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleBetaProvider) ResetCesCustomEndpoint() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetCesCustomEndpoint",
 		nil, // no parameters
 	)
 }
@@ -6885,6 +7435,14 @@ func (g *jsiiProxy_GoogleBetaProvider) ResetCloudSchedulerCustomEndpoint() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetCloudSchedulerCustomEndpoint",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleBetaProvider) ResetCloudSecurityComplianceCustomEndpoint() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetCloudSecurityComplianceCustomEndpoint",
 		nil, // no parameters
 	)
 }
@@ -7021,6 +7579,14 @@ func (g *jsiiProxy_GoogleBetaProvider) ResetDataFusionCustomEndpoint() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetDataFusionCustomEndpoint",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleBetaProvider) ResetDataLineageCustomEndpoint() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDataLineageCustomEndpoint",
 		nil, // no parameters
 	)
 }
@@ -7201,6 +7767,14 @@ func (g *jsiiProxy_GoogleBetaProvider) ResetFilestoreCustomEndpoint() {
 	)
 }
 
+func (g *jsiiProxy_GoogleBetaProvider) ResetFirebaseAiLogicCustomEndpoint() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetFirebaseAiLogicCustomEndpoint",
+		nil, // no parameters
+	)
+}
+
 func (g *jsiiProxy_GoogleBetaProvider) ResetFirebaseAppCheckCustomEndpoint() {
 	_jsii_.InvokeVoid(
 		g,
@@ -7253,6 +7827,14 @@ func (g *jsiiProxy_GoogleBetaProvider) ResetFirebaseHostingCustomEndpoint() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetFirebaseHostingCustomEndpoint",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleBetaProvider) ResetFirebaseRemoteConfigCustomEndpoint() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetFirebaseRemoteConfigCustomEndpoint",
 		nil, // no parameters
 	)
 }
@@ -7325,6 +7907,14 @@ func (g *jsiiProxy_GoogleBetaProvider) ResetHealthcareCustomEndpoint() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetHealthcareCustomEndpoint",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleBetaProvider) ResetHypercomputeclusterCustomEndpoint() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetHypercomputeclusterCustomEndpoint",
 		nil, // no parameters
 	)
 }
@@ -7537,6 +8127,14 @@ func (g *jsiiProxy_GoogleBetaProvider) ResetNetworkConnectivityCustomEndpoint() 
 	)
 }
 
+func (g *jsiiProxy_GoogleBetaProvider) ResetNetworkConnectivityv1CustomEndpoint() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetNetworkConnectivityv1CustomEndpoint",
+		nil, // no parameters
+	)
+}
+
 func (g *jsiiProxy_GoogleBetaProvider) ResetNetworkManagementCustomEndpoint() {
 	_jsii_.InvokeVoid(
 		g,
@@ -7565,6 +8163,14 @@ func (g *jsiiProxy_GoogleBetaProvider) ResetNotebooksCustomEndpoint() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetNotebooksCustomEndpoint",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleBetaProvider) ResetObservabilityCustomEndpoint() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetObservabilityCustomEndpoint",
 		nil, // no parameters
 	)
 }
@@ -7637,6 +8243,30 @@ func (g *jsiiProxy_GoogleBetaProvider) ResetParameterManagerRegionalCustomEndpoi
 	_jsii_.InvokeVoid(
 		g,
 		"resetParameterManagerRegionalCustomEndpoint",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleBetaProvider) ResetPollInterval() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetPollInterval",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleBetaProvider) ResetPreferGlobalEndpoints() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetPreferGlobalEndpoints",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleBetaProvider) ResetPreferRegionalEndpoints() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetPreferRegionalEndpoints",
 		nil, // no parameters
 	)
 }
@@ -7765,6 +8395,14 @@ func (g *jsiiProxy_GoogleBetaProvider) ResetRuntimeConfigCustomEndpoint() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetRuntimeConfigCustomEndpoint",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleBetaProvider) ResetSaasRuntimeCustomEndpoint() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetSaasRuntimeCustomEndpoint",
 		nil, // no parameters
 	)
 }
@@ -7969,14 +8607,6 @@ func (g *jsiiProxy_GoogleBetaProvider) ResetTerraformAttributionLabelAdditionStr
 	)
 }
 
-func (g *jsiiProxy_GoogleBetaProvider) ResetTpuCustomEndpoint() {
-	_jsii_.InvokeVoid(
-		g,
-		"resetTpuCustomEndpoint",
-		nil, // no parameters
-	)
-}
-
 func (g *jsiiProxy_GoogleBetaProvider) ResetTpuV2CustomEndpoint() {
 	_jsii_.InvokeVoid(
 		g,
@@ -8005,6 +8635,14 @@ func (g *jsiiProxy_GoogleBetaProvider) ResetUserProjectOverride() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetUserProjectOverride",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleBetaProvider) ResetVectorSearchCustomEndpoint() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetVectorSearchCustomEndpoint",
 		nil, // no parameters
 	)
 }
@@ -8045,6 +8683,14 @@ func (g *jsiiProxy_GoogleBetaProvider) ResetWorkflowsCustomEndpoint() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetWorkflowsCustomEndpoint",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleBetaProvider) ResetWorkloadIdentityCustomEndpoint() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetWorkloadIdentityCustomEndpoint",
 		nil, // no parameters
 	)
 }

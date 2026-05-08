@@ -5,9 +5,9 @@ package googlesqldatabaseinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlesqldatabaseinstance/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlesqldatabaseinstance/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -15,6 +15,7 @@ type GoogleSqlDatabaseInstanceSettingsBackupConfigurationOutputReference interfa
 	cdktn.ComplexObject
 	BackupRetentionSettings() GoogleSqlDatabaseInstanceSettingsBackupConfigurationBackupRetentionSettingsOutputReference
 	BackupRetentionSettingsInput() *GoogleSqlDatabaseInstanceSettingsBackupConfigurationBackupRetentionSettings
+	BackupTier() *string
 	BinaryLogEnabled() interface{}
 	SetBinaryLogEnabled(val interface{})
 	BinaryLogEnabledInput() interface{}
@@ -122,6 +123,16 @@ func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsBackupConfigurationOutputRef
 	_jsii_.Get(
 		j,
 		"backupRetentionSettingsInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsBackupConfigurationOutputReference) BackupTier() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"backupTier",
 		&returns,
 	)
 	return returns

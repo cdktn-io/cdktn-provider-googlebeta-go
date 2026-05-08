@@ -5,9 +5,9 @@ package googlecontainercluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecontainercluster/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecontainercluster/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -34,6 +34,8 @@ type GoogleContainerClusterNodeConfigContainerdConfigOutputReference interface {
 	SetInternalValue(val *GoogleContainerClusterNodeConfigContainerdConfig)
 	PrivateRegistryAccessConfig() GoogleContainerClusterNodeConfigContainerdConfigPrivateRegistryAccessConfigOutputReference
 	PrivateRegistryAccessConfigInput() *GoogleContainerClusterNodeConfigContainerdConfigPrivateRegistryAccessConfig
+	RegistryHosts() GoogleContainerClusterNodeConfigContainerdConfigRegistryHostsList
+	RegistryHostsInput() interface{}
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -42,6 +44,8 @@ type GoogleContainerClusterNodeConfigContainerdConfigOutputReference interface {
 	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
 	SetTerraformResource(val cdktn.IInterpolatingParent)
+	WritableCgroups() GoogleContainerClusterNodeConfigContainerdConfigWritableCgroupsOutputReference
+	WritableCgroupsInput() *GoogleContainerClusterNodeConfigContainerdConfigWritableCgroups
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
@@ -67,7 +71,11 @@ type GoogleContainerClusterNodeConfigContainerdConfigOutputReference interface {
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutPrivateRegistryAccessConfig(value *GoogleContainerClusterNodeConfigContainerdConfigPrivateRegistryAccessConfig)
+	PutRegistryHosts(value interface{})
+	PutWritableCgroups(value *GoogleContainerClusterNodeConfigContainerdConfigWritableCgroups)
 	ResetPrivateRegistryAccessConfig()
+	ResetRegistryHosts()
+	ResetWritableCgroups()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -153,6 +161,26 @@ func (j *jsiiProxy_GoogleContainerClusterNodeConfigContainerdConfigOutputReferen
 	return returns
 }
 
+func (j *jsiiProxy_GoogleContainerClusterNodeConfigContainerdConfigOutputReference) RegistryHosts() GoogleContainerClusterNodeConfigContainerdConfigRegistryHostsList {
+	var returns GoogleContainerClusterNodeConfigContainerdConfigRegistryHostsList
+	_jsii_.Get(
+		j,
+		"registryHosts",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleContainerClusterNodeConfigContainerdConfigOutputReference) RegistryHostsInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"registryHostsInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleContainerClusterNodeConfigContainerdConfigOutputReference) TerraformAttribute() *string {
 	var returns *string
 	_jsii_.Get(
@@ -168,6 +196,26 @@ func (j *jsiiProxy_GoogleContainerClusterNodeConfigContainerdConfigOutputReferen
 	_jsii_.Get(
 		j,
 		"terraformResource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleContainerClusterNodeConfigContainerdConfigOutputReference) WritableCgroups() GoogleContainerClusterNodeConfigContainerdConfigWritableCgroupsOutputReference {
+	var returns GoogleContainerClusterNodeConfigContainerdConfigWritableCgroupsOutputReference
+	_jsii_.Get(
+		j,
+		"writableCgroups",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleContainerClusterNodeConfigContainerdConfigOutputReference) WritableCgroupsInput() *GoogleContainerClusterNodeConfigContainerdConfigWritableCgroups {
+	var returns *GoogleContainerClusterNodeConfigContainerdConfigWritableCgroups
+	_jsii_.Get(
+		j,
+		"writableCgroupsInput",
 		&returns,
 	)
 	return returns
@@ -453,10 +501,48 @@ func (g *jsiiProxy_GoogleContainerClusterNodeConfigContainerdConfigOutputReferen
 	)
 }
 
+func (g *jsiiProxy_GoogleContainerClusterNodeConfigContainerdConfigOutputReference) PutRegistryHosts(value interface{}) {
+	if err := g.validatePutRegistryHostsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putRegistryHosts",
+		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleContainerClusterNodeConfigContainerdConfigOutputReference) PutWritableCgroups(value *GoogleContainerClusterNodeConfigContainerdConfigWritableCgroups) {
+	if err := g.validatePutWritableCgroupsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putWritableCgroups",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleContainerClusterNodeConfigContainerdConfigOutputReference) ResetPrivateRegistryAccessConfig() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetPrivateRegistryAccessConfig",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleContainerClusterNodeConfigContainerdConfigOutputReference) ResetRegistryHosts() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetRegistryHosts",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleContainerClusterNodeConfigContainerdConfigOutputReference) ResetWritableCgroups() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetWritableCgroups",
 		nil, // no parameters
 	)
 }

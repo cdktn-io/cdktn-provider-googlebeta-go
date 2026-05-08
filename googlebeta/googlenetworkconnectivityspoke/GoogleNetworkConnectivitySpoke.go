@@ -5,14 +5,14 @@ package googlenetworkconnectivityspoke
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenetworkconnectivityspoke/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenetworkconnectivityspoke/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_connectivity_spoke google_network_connectivity_spoke}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_spoke google_network_connectivity_spoke}.
 type GoogleNetworkConnectivitySpoke interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -44,6 +44,8 @@ type GoogleNetworkConnectivitySpoke interface {
 	Fqn() *string
 	// Experimental.
 	FriendlyUniqueId() *string
+	Gateway() GoogleNetworkConnectivitySpokeGatewayOutputReference
+	GatewayInput() *GoogleNetworkConnectivitySpokeGateway
 	Group() *string
 	SetGroup(val *string)
 	GroupInput() *string
@@ -147,6 +149,7 @@ type GoogleNetworkConnectivitySpoke interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	PutGateway(value *GoogleNetworkConnectivitySpokeGateway)
 	PutLinkedInterconnectAttachments(value *GoogleNetworkConnectivitySpokeLinkedInterconnectAttachments)
 	PutLinkedProducerVpcNetwork(value *GoogleNetworkConnectivitySpokeLinkedProducerVpcNetwork)
 	PutLinkedRouterApplianceInstances(value *GoogleNetworkConnectivitySpokeLinkedRouterApplianceInstances)
@@ -154,6 +157,7 @@ type GoogleNetworkConnectivitySpoke interface {
 	PutLinkedVpnTunnels(value *GoogleNetworkConnectivitySpokeLinkedVpnTunnels)
 	PutTimeouts(value *GoogleNetworkConnectivitySpokeTimeouts)
 	ResetDescription()
+	ResetGateway()
 	ResetGroup()
 	ResetId()
 	ResetLabels()
@@ -309,6 +313,26 @@ func (j *jsiiProxy_GoogleNetworkConnectivitySpoke) FriendlyUniqueId() *string {
 	_jsii_.Get(
 		j,
 		"friendlyUniqueId",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleNetworkConnectivitySpoke) Gateway() GoogleNetworkConnectivitySpokeGatewayOutputReference {
+	var returns GoogleNetworkConnectivitySpokeGatewayOutputReference
+	_jsii_.Get(
+		j,
+		"gateway",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleNetworkConnectivitySpoke) GatewayInput() *GoogleNetworkConnectivitySpokeGateway {
+	var returns *GoogleNetworkConnectivitySpokeGateway
+	_jsii_.Get(
+		j,
+		"gatewayInput",
 		&returns,
 	)
 	return returns
@@ -705,7 +729,7 @@ func (j *jsiiProxy_GoogleNetworkConnectivitySpoke) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_connectivity_spoke google_network_connectivity_spoke} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_spoke google_network_connectivity_spoke} Resource.
 func NewGoogleNetworkConnectivitySpoke(scope constructs.Construct, id *string, config *GoogleNetworkConnectivitySpokeConfig) GoogleNetworkConnectivitySpoke {
 	_init_.Initialize()
 
@@ -723,7 +747,7 @@ func NewGoogleNetworkConnectivitySpoke(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_connectivity_spoke google_network_connectivity_spoke} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_spoke google_network_connectivity_spoke} Resource.
 func NewGoogleNetworkConnectivitySpoke_Override(g GoogleNetworkConnectivitySpoke, scope constructs.Construct, id *string, config *GoogleNetworkConnectivitySpokeConfig) {
 	_init_.Initialize()
 
@@ -1243,6 +1267,17 @@ func (g *jsiiProxy_GoogleNetworkConnectivitySpoke) OverrideLogicalId(newLogicalI
 	)
 }
 
+func (g *jsiiProxy_GoogleNetworkConnectivitySpoke) PutGateway(value *GoogleNetworkConnectivitySpokeGateway) {
+	if err := g.validatePutGatewayParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putGateway",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleNetworkConnectivitySpoke) PutLinkedInterconnectAttachments(value *GoogleNetworkConnectivitySpokeLinkedInterconnectAttachments) {
 	if err := g.validatePutLinkedInterconnectAttachmentsParameters(value); err != nil {
 		panic(err)
@@ -1313,6 +1348,14 @@ func (g *jsiiProxy_GoogleNetworkConnectivitySpoke) ResetDescription() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetDescription",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleNetworkConnectivitySpoke) ResetGateway() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetGateway",
 		nil, // no parameters
 	)
 }

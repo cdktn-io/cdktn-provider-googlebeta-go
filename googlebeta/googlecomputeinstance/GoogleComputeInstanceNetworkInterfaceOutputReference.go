@@ -5,9 +5,9 @@ package googlecomputeinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinstance/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeinstance/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -34,6 +34,9 @@ type GoogleComputeInstanceNetworkInterfaceOutputReference interface {
 	CreationStack() *[]*string
 	// Experimental.
 	Fqn() *string
+	IgmpQuery() *string
+	SetIgmpQuery(val *string)
+	IgmpQueryInput() *string
 	InternalIpv6PrefixLength() *float64
 	SetInternalIpv6PrefixLength(val *float64)
 	InternalIpv6PrefixLengthInput() *float64
@@ -45,6 +48,7 @@ type GoogleComputeInstanceNetworkInterfaceOutputReference interface {
 	Ipv6Address() *string
 	SetIpv6Address(val *string)
 	Ipv6AddressInput() *string
+	MacAddress() *string
 	Name() *string
 	Network() *string
 	SetNetwork(val *string)
@@ -58,6 +62,7 @@ type GoogleComputeInstanceNetworkInterfaceOutputReference interface {
 	NicType() *string
 	SetNicType(val *string)
 	NicTypeInput() *string
+	ParentNicName() *string
 	QueueCount() *float64
 	SetQueueCount(val *float64)
 	QueueCountInput() *float64
@@ -81,6 +86,9 @@ type GoogleComputeInstanceNetworkInterfaceOutputReference interface {
 	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
 	SetTerraformResource(val cdktn.IInterpolatingParent)
+	Vlan() *float64
+	SetVlan(val *float64)
+	VlanInput() *float64
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
@@ -110,6 +118,7 @@ type GoogleComputeInstanceNetworkInterfaceOutputReference interface {
 	PutIpv6AccessConfig(value interface{})
 	ResetAccessConfig()
 	ResetAliasIpRange()
+	ResetIgmpQuery()
 	ResetInternalIpv6PrefixLength()
 	ResetIpv6AccessConfig()
 	ResetIpv6Address()
@@ -122,6 +131,7 @@ type GoogleComputeInstanceNetworkInterfaceOutputReference interface {
 	ResetStackType()
 	ResetSubnetwork()
 	ResetSubnetworkProject()
+	ResetVlan()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -217,6 +227,26 @@ func (j *jsiiProxy_GoogleComputeInstanceNetworkInterfaceOutputReference) Fqn() *
 	return returns
 }
 
+func (j *jsiiProxy_GoogleComputeInstanceNetworkInterfaceOutputReference) IgmpQuery() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"igmpQuery",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeInstanceNetworkInterfaceOutputReference) IgmpQueryInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"igmpQueryInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleComputeInstanceNetworkInterfaceOutputReference) InternalIpv6PrefixLength() *float64 {
 	var returns *float64
 	_jsii_.Get(
@@ -292,6 +322,16 @@ func (j *jsiiProxy_GoogleComputeInstanceNetworkInterfaceOutputReference) Ipv6Add
 	_jsii_.Get(
 		j,
 		"ipv6AddressInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeInstanceNetworkInterfaceOutputReference) MacAddress() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"macAddress",
 		&returns,
 	)
 	return returns
@@ -382,6 +422,16 @@ func (j *jsiiProxy_GoogleComputeInstanceNetworkInterfaceOutputReference) NicType
 	_jsii_.Get(
 		j,
 		"nicTypeInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeInstanceNetworkInterfaceOutputReference) ParentNicName() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"parentNicName",
 		&returns,
 	)
 	return returns
@@ -507,6 +557,26 @@ func (j *jsiiProxy_GoogleComputeInstanceNetworkInterfaceOutputReference) Terrafo
 	return returns
 }
 
+func (j *jsiiProxy_GoogleComputeInstanceNetworkInterfaceOutputReference) Vlan() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"vlan",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeInstanceNetworkInterfaceOutputReference) VlanInput() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"vlanInput",
+		&returns,
+	)
+	return returns
+}
+
 
 func NewGoogleComputeInstanceNetworkInterfaceOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) GoogleComputeInstanceNetworkInterfaceOutputReference {
 	_init_.Initialize()
@@ -553,6 +623,17 @@ func (j *jsiiProxy_GoogleComputeInstanceNetworkInterfaceOutputReference)SetCompl
 	_jsii_.Set(
 		j,
 		"complexObjectIsFromSet",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleComputeInstanceNetworkInterfaceOutputReference)SetIgmpQuery(val *string) {
+	if err := j.validateSetIgmpQueryParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"igmpQuery",
 		val,
 	)
 }
@@ -707,6 +788,17 @@ func (j *jsiiProxy_GoogleComputeInstanceNetworkInterfaceOutputReference)SetTerra
 	_jsii_.Set(
 		j,
 		"terraformResource",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleComputeInstanceNetworkInterfaceOutputReference)SetVlan(val *float64) {
+	if err := j.validateSetVlanParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"vlan",
 		val,
 	)
 }
@@ -946,6 +1038,14 @@ func (g *jsiiProxy_GoogleComputeInstanceNetworkInterfaceOutputReference) ResetAl
 	)
 }
 
+func (g *jsiiProxy_GoogleComputeInstanceNetworkInterfaceOutputReference) ResetIgmpQuery() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetIgmpQuery",
+		nil, // no parameters
+	)
+}
+
 func (g *jsiiProxy_GoogleComputeInstanceNetworkInterfaceOutputReference) ResetInternalIpv6PrefixLength() {
 	_jsii_.InvokeVoid(
 		g,
@@ -1038,6 +1138,14 @@ func (g *jsiiProxy_GoogleComputeInstanceNetworkInterfaceOutputReference) ResetSu
 	_jsii_.InvokeVoid(
 		g,
 		"resetSubnetworkProject",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleComputeInstanceNetworkInterfaceOutputReference) ResetVlan() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetVlan",
 		nil, // no parameters
 	)
 }

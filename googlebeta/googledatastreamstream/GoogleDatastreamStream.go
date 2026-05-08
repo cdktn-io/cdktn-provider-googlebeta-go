@@ -5,14 +5,14 @@ package googledatastreamstream
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googledatastreamstream/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googledatastreamstream/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_datastream_stream google_datastream_stream}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_datastream_stream google_datastream_stream}.
 type GoogleDatastreamStream interface {
 	cdktn.TerraformResource
 	BackfillAll() GoogleDatastreamStreamBackfillAllOutputReference
@@ -87,6 +87,8 @@ type GoogleDatastreamStream interface {
 	SetProvisioners(val *[]interface{})
 	// Experimental.
 	RawOverrides() interface{}
+	RuleSets() GoogleDatastreamStreamRuleSetsList
+	RuleSetsInput() interface{}
 	SourceConfig() GoogleDatastreamStreamSourceConfigOutputReference
 	SourceConfigInput() *GoogleDatastreamStreamSourceConfig
 	State() *string
@@ -148,6 +150,7 @@ type GoogleDatastreamStream interface {
 	PutBackfillAll(value *GoogleDatastreamStreamBackfillAll)
 	PutBackfillNone(value *GoogleDatastreamStreamBackfillNone)
 	PutDestinationConfig(value *GoogleDatastreamStreamDestinationConfig)
+	PutRuleSets(value interface{})
 	PutSourceConfig(value *GoogleDatastreamStreamSourceConfig)
 	PutTimeouts(value *GoogleDatastreamStreamTimeouts)
 	ResetBackfillAll()
@@ -161,6 +164,7 @@ type GoogleDatastreamStream interface {
 	// Experimental.
 	ResetOverrideLogicalId()
 	ResetProject()
+	ResetRuleSets()
 	ResetTimeouts()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
@@ -559,6 +563,26 @@ func (j *jsiiProxy_GoogleDatastreamStream) RawOverrides() interface{} {
 	return returns
 }
 
+func (j *jsiiProxy_GoogleDatastreamStream) RuleSets() GoogleDatastreamStreamRuleSetsList {
+	var returns GoogleDatastreamStreamRuleSetsList
+	_jsii_.Get(
+		j,
+		"ruleSets",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDatastreamStream) RuleSetsInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"ruleSetsInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleDatastreamStream) SourceConfig() GoogleDatastreamStreamSourceConfigOutputReference {
 	var returns GoogleDatastreamStreamSourceConfigOutputReference
 	_jsii_.Get(
@@ -670,7 +694,7 @@ func (j *jsiiProxy_GoogleDatastreamStream) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_datastream_stream google_datastream_stream} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_datastream_stream google_datastream_stream} Resource.
 func NewGoogleDatastreamStream(scope constructs.Construct, id *string, config *GoogleDatastreamStreamConfig) GoogleDatastreamStream {
 	_init_.Initialize()
 
@@ -688,7 +712,7 @@ func NewGoogleDatastreamStream(scope constructs.Construct, id *string, config *G
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_datastream_stream google_datastream_stream} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_datastream_stream google_datastream_stream} Resource.
 func NewGoogleDatastreamStream_Override(g GoogleDatastreamStream, scope constructs.Construct, id *string, config *GoogleDatastreamStreamConfig) {
 	_init_.Initialize()
 
@@ -1252,6 +1276,17 @@ func (g *jsiiProxy_GoogleDatastreamStream) PutDestinationConfig(value *GoogleDat
 	)
 }
 
+func (g *jsiiProxy_GoogleDatastreamStream) PutRuleSets(value interface{}) {
+	if err := g.validatePutRuleSetsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putRuleSets",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleDatastreamStream) PutSourceConfig(value *GoogleDatastreamStreamSourceConfig) {
 	if err := g.validatePutSourceConfigParameters(value); err != nil {
 		panic(err)
@@ -1342,6 +1377,14 @@ func (g *jsiiProxy_GoogleDatastreamStream) ResetProject() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetProject",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleDatastreamStream) ResetRuleSets() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetRuleSets",
 		nil, // no parameters
 	)
 }

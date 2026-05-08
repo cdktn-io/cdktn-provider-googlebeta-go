@@ -5,14 +5,14 @@ package datagoogleiaptunneliampolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagoogleiaptunneliampolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagoogleiaptunneliampolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_iap_tunnel_iam_policy google_iap_tunnel_iam_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_iap_tunnel_iam_policy google_iap_tunnel_iam_policy}.
 type DataGoogleIapTunnelIamPolicy interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -320,7 +320,7 @@ func (j *jsiiProxy_DataGoogleIapTunnelIamPolicy) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_iap_tunnel_iam_policy google_iap_tunnel_iam_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_iap_tunnel_iam_policy google_iap_tunnel_iam_policy} Data Source.
 func NewDataGoogleIapTunnelIamPolicy(scope constructs.Construct, id *string, config *DataGoogleIapTunnelIamPolicyConfig) DataGoogleIapTunnelIamPolicy {
 	_init_.Initialize()
 
@@ -338,7 +338,7 @@ func NewDataGoogleIapTunnelIamPolicy(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/data-sources/google_iap_tunnel_iam_policy google_iap_tunnel_iam_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_iap_tunnel_iam_policy google_iap_tunnel_iam_policy} Data Source.
 func NewDataGoogleIapTunnelIamPolicy_Override(d DataGoogleIapTunnelIamPolicy, scope constructs.Construct, id *string, config *DataGoogleIapTunnelIamPolicyConfig) {
 	_init_.Initialize()
 

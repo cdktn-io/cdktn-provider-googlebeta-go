@@ -5,14 +5,14 @@ package googlesecretmanagerregionalsecretversion
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlesecretmanagerregionalsecretversion/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlesecretmanagerregionalsecretversion/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_secret_manager_regional_secret_version google_secret_manager_regional_secret_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_secret_manager_regional_secret_version google_secret_manager_regional_secret_version}.
 type GoogleSecretManagerRegionalSecretVersion interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -527,7 +527,7 @@ func (j *jsiiProxy_GoogleSecretManagerRegionalSecretVersion) Version() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_secret_manager_regional_secret_version google_secret_manager_regional_secret_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_secret_manager_regional_secret_version google_secret_manager_regional_secret_version} Resource.
 func NewGoogleSecretManagerRegionalSecretVersion(scope constructs.Construct, id *string, config *GoogleSecretManagerRegionalSecretVersionConfig) GoogleSecretManagerRegionalSecretVersion {
 	_init_.Initialize()
 
@@ -545,7 +545,7 @@ func NewGoogleSecretManagerRegionalSecretVersion(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_secret_manager_regional_secret_version google_secret_manager_regional_secret_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_secret_manager_regional_secret_version google_secret_manager_regional_secret_version} Resource.
 func NewGoogleSecretManagerRegionalSecretVersion_Override(g GoogleSecretManagerRegionalSecretVersion, scope constructs.Construct, id *string, config *GoogleSecretManagerRegionalSecretVersionConfig) {
 	_init_.Initialize()
 

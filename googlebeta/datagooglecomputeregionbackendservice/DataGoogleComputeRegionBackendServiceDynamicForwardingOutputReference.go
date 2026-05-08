@@ -5,9 +5,9 @@ package datagooglecomputeregionbackendservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/datagooglecomputeregionbackendservice/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglecomputeregionbackendservice/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -28,6 +28,7 @@ type DataGoogleComputeRegionBackendServiceDynamicForwardingOutputReference inter
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
+	ForwardProxy() DataGoogleComputeRegionBackendServiceDynamicForwardingForwardProxyList
 	// Experimental.
 	Fqn() *string
 	InternalValue() *DataGoogleComputeRegionBackendServiceDynamicForwarding
@@ -105,6 +106,16 @@ func (j *jsiiProxy_DataGoogleComputeRegionBackendServiceDynamicForwardingOutputR
 	_jsii_.Get(
 		j,
 		"creationStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleComputeRegionBackendServiceDynamicForwardingOutputReference) ForwardProxy() DataGoogleComputeRegionBackendServiceDynamicForwardingForwardProxyList {
+	var returns DataGoogleComputeRegionBackendServiceDynamicForwardingForwardProxyList
+	_jsii_.Get(
+		j,
+		"forwardProxy",
 		&returns,
 	)
 	return returns

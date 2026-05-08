@@ -5,14 +5,14 @@ package googlegeminigeminigcpenablementsetting
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlegeminigeminigcpenablementsetting/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlegeminigeminigcpenablementsetting/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gemini_gemini_gcp_enablement_setting google_gemini_gemini_gcp_enablement_setting}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gemini_gemini_gcp_enablement_setting google_gemini_gemini_gcp_enablement_setting}.
 type GoogleGeminiGeminiGcpEnablementSetting interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -564,7 +564,7 @@ func (j *jsiiProxy_GoogleGeminiGeminiGcpEnablementSetting) WebGroundingTypeInput
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gemini_gemini_gcp_enablement_setting google_gemini_gemini_gcp_enablement_setting} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gemini_gemini_gcp_enablement_setting google_gemini_gemini_gcp_enablement_setting} Resource.
 func NewGoogleGeminiGeminiGcpEnablementSetting(scope constructs.Construct, id *string, config *GoogleGeminiGeminiGcpEnablementSettingConfig) GoogleGeminiGeminiGcpEnablementSetting {
 	_init_.Initialize()
 
@@ -582,7 +582,7 @@ func NewGoogleGeminiGeminiGcpEnablementSetting(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_gemini_gemini_gcp_enablement_setting google_gemini_gemini_gcp_enablement_setting} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gemini_gemini_gcp_enablement_setting google_gemini_gemini_gcp_enablement_setting} Resource.
 func NewGoogleGeminiGeminiGcpEnablementSetting_Override(g GoogleGeminiGeminiGcpEnablementSetting, scope constructs.Construct, id *string, config *GoogleGeminiGeminiGcpEnablementSettingConfig) {
 	_init_.Initialize()
 

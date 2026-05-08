@@ -5,9 +5,9 @@ package googlecomputeorganizationsecuritypolicyrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeorganizationsecuritypolicyrule/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeorganizationsecuritypolicyrule/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -33,6 +33,8 @@ type GoogleComputeOrganizationSecurityPolicyRuleMatchOutputReference interface {
 	Description() *string
 	SetDescription(val *string)
 	DescriptionInput() *string
+	Expr() GoogleComputeOrganizationSecurityPolicyRuleMatchExprOutputReference
+	ExprInput() *GoogleComputeOrganizationSecurityPolicyRuleMatchExpr
 	// Experimental.
 	Fqn() *string
 	InternalValue() *GoogleComputeOrganizationSecurityPolicyRuleMatch
@@ -73,7 +75,10 @@ type GoogleComputeOrganizationSecurityPolicyRuleMatchOutputReference interface {
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutConfig(value *GoogleComputeOrganizationSecurityPolicyRuleMatchConfig)
+	PutExpr(value *GoogleComputeOrganizationSecurityPolicyRuleMatchExpr)
+	ResetConfig()
 	ResetDescription()
+	ResetExpr()
 	ResetVersionedExpr()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -155,6 +160,26 @@ func (j *jsiiProxy_GoogleComputeOrganizationSecurityPolicyRuleMatchOutputReferen
 	_jsii_.Get(
 		j,
 		"descriptionInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeOrganizationSecurityPolicyRuleMatchOutputReference) Expr() GoogleComputeOrganizationSecurityPolicyRuleMatchExprOutputReference {
+	var returns GoogleComputeOrganizationSecurityPolicyRuleMatchExprOutputReference
+	_jsii_.Get(
+		j,
+		"expr",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeOrganizationSecurityPolicyRuleMatchOutputReference) ExprInput() *GoogleComputeOrganizationSecurityPolicyRuleMatchExpr {
+	var returns *GoogleComputeOrganizationSecurityPolicyRuleMatchExpr
+	_jsii_.Get(
+		j,
+		"exprInput",
 		&returns,
 	)
 	return returns
@@ -522,10 +547,37 @@ func (g *jsiiProxy_GoogleComputeOrganizationSecurityPolicyRuleMatchOutputReferen
 	)
 }
 
+func (g *jsiiProxy_GoogleComputeOrganizationSecurityPolicyRuleMatchOutputReference) PutExpr(value *GoogleComputeOrganizationSecurityPolicyRuleMatchExpr) {
+	if err := g.validatePutExprParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putExpr",
+		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleComputeOrganizationSecurityPolicyRuleMatchOutputReference) ResetConfig() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetConfig",
+		nil, // no parameters
+	)
+}
+
 func (g *jsiiProxy_GoogleComputeOrganizationSecurityPolicyRuleMatchOutputReference) ResetDescription() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetDescription",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleComputeOrganizationSecurityPolicyRuleMatchOutputReference) ResetExpr() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetExpr",
 		nil, // no parameters
 	)
 }

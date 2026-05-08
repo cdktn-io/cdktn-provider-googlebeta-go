@@ -5,14 +5,14 @@ package googlenetworkservicesservicelbpolicies
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlenetworkservicesservicelbpolicies/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlenetworkservicesservicelbpolicies/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_services_service_lb_policies google_network_services_service_lb_policies}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_services_service_lb_policies google_network_services_service_lb_policies}.
 type GoogleNetworkServicesServiceLbPolicies interface {
 	cdktn.TerraformResource
 	AutoCapacityDrain() GoogleNetworkServicesServiceLbPoliciesAutoCapacityDrainOutputReference
@@ -51,6 +51,8 @@ type GoogleNetworkServicesServiceLbPolicies interface {
 	Id() *string
 	SetId(val *string)
 	IdInput() *string
+	IsolationConfig() GoogleNetworkServicesServiceLbPoliciesIsolationConfigOutputReference
+	IsolationConfigInput() *GoogleNetworkServicesServiceLbPoliciesIsolationConfig
 	Labels() *map[string]*string
 	SetLabels(val *map[string]*string)
 	LabelsInput() *map[string]*string
@@ -137,11 +139,13 @@ type GoogleNetworkServicesServiceLbPolicies interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutAutoCapacityDrain(value *GoogleNetworkServicesServiceLbPoliciesAutoCapacityDrain)
 	PutFailoverConfig(value *GoogleNetworkServicesServiceLbPoliciesFailoverConfig)
+	PutIsolationConfig(value *GoogleNetworkServicesServiceLbPoliciesIsolationConfig)
 	PutTimeouts(value *GoogleNetworkServicesServiceLbPoliciesTimeouts)
 	ResetAutoCapacityDrain()
 	ResetDescription()
 	ResetFailoverConfig()
 	ResetId()
+	ResetIsolationConfig()
 	ResetLabels()
 	ResetLoadBalancingAlgorithm()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -351,6 +355,26 @@ func (j *jsiiProxy_GoogleNetworkServicesServiceLbPolicies) IdInput() *string {
 	_jsii_.Get(
 		j,
 		"idInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleNetworkServicesServiceLbPolicies) IsolationConfig() GoogleNetworkServicesServiceLbPoliciesIsolationConfigOutputReference {
+	var returns GoogleNetworkServicesServiceLbPoliciesIsolationConfigOutputReference
+	_jsii_.Get(
+		j,
+		"isolationConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleNetworkServicesServiceLbPolicies) IsolationConfigInput() *GoogleNetworkServicesServiceLbPoliciesIsolationConfig {
+	var returns *GoogleNetworkServicesServiceLbPoliciesIsolationConfig
+	_jsii_.Get(
+		j,
+		"isolationConfigInput",
 		&returns,
 	)
 	return returns
@@ -577,7 +601,7 @@ func (j *jsiiProxy_GoogleNetworkServicesServiceLbPolicies) UpdateTime() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_services_service_lb_policies google_network_services_service_lb_policies} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_services_service_lb_policies google_network_services_service_lb_policies} Resource.
 func NewGoogleNetworkServicesServiceLbPolicies(scope constructs.Construct, id *string, config *GoogleNetworkServicesServiceLbPoliciesConfig) GoogleNetworkServicesServiceLbPolicies {
 	_init_.Initialize()
 
@@ -595,7 +619,7 @@ func NewGoogleNetworkServicesServiceLbPolicies(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_network_services_service_lb_policies google_network_services_service_lb_policies} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_services_service_lb_policies google_network_services_service_lb_policies} Resource.
 func NewGoogleNetworkServicesServiceLbPolicies_Override(g GoogleNetworkServicesServiceLbPolicies, scope constructs.Construct, id *string, config *GoogleNetworkServicesServiceLbPoliciesConfig) {
 	_init_.Initialize()
 
@@ -1126,6 +1150,17 @@ func (g *jsiiProxy_GoogleNetworkServicesServiceLbPolicies) PutFailoverConfig(val
 	)
 }
 
+func (g *jsiiProxy_GoogleNetworkServicesServiceLbPolicies) PutIsolationConfig(value *GoogleNetworkServicesServiceLbPoliciesIsolationConfig) {
+	if err := g.validatePutIsolationConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putIsolationConfig",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleNetworkServicesServiceLbPolicies) PutTimeouts(value *GoogleNetworkServicesServiceLbPoliciesTimeouts) {
 	if err := g.validatePutTimeoutsParameters(value); err != nil {
 		panic(err)
@@ -1165,6 +1200,14 @@ func (g *jsiiProxy_GoogleNetworkServicesServiceLbPolicies) ResetId() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetId",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleNetworkServicesServiceLbPolicies) ResetIsolationConfig() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetIsolationConfig",
 		nil, // no parameters
 	)
 }

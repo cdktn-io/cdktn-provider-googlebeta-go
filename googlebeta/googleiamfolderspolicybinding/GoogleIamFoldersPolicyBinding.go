@@ -5,14 +5,14 @@ package googleiamfolderspolicybinding
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleiamfolderspolicybinding/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleiamfolderspolicybinding/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iam_folders_policy_binding google_iam_folders_policy_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iam_folders_policy_binding google_iam_folders_policy_binding}.
 type GoogleIamFoldersPolicyBinding interface {
 	cdktn.TerraformResource
 	Annotations() *map[string]*string
@@ -631,7 +631,7 @@ func (j *jsiiProxy_GoogleIamFoldersPolicyBinding) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iam_folders_policy_binding google_iam_folders_policy_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iam_folders_policy_binding google_iam_folders_policy_binding} Resource.
 func NewGoogleIamFoldersPolicyBinding(scope constructs.Construct, id *string, config *GoogleIamFoldersPolicyBindingConfig) GoogleIamFoldersPolicyBinding {
 	_init_.Initialize()
 
@@ -649,7 +649,7 @@ func NewGoogleIamFoldersPolicyBinding(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_iam_folders_policy_binding google_iam_folders_policy_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iam_folders_policy_binding google_iam_folders_policy_binding} Resource.
 func NewGoogleIamFoldersPolicyBinding_Override(g GoogleIamFoldersPolicyBinding, scope constructs.Construct, id *string, config *GoogleIamFoldersPolicyBindingConfig) {
 	_init_.Initialize()
 

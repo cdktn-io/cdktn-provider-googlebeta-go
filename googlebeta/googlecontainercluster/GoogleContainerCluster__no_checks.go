@@ -87,6 +87,10 @@ func (g *jsiiProxy_GoogleContainerCluster) validatePutAuthenticatorGroupsConfigP
 	return nil
 }
 
+func (g *jsiiProxy_GoogleContainerCluster) validatePutAutopilotClusterPolicyConfigParameters(value *GoogleContainerClusterAutopilotClusterPolicyConfig) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleContainerCluster) validatePutBinaryAuthorizationParameters(value *GoogleContainerClusterBinaryAuthorization) error {
 	return nil
 }
@@ -156,6 +160,14 @@ func (g *jsiiProxy_GoogleContainerCluster) validatePutLoggingConfigParameters(va
 }
 
 func (g *jsiiProxy_GoogleContainerCluster) validatePutMaintenancePolicyParameters(value *GoogleContainerClusterMaintenancePolicy) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleContainerCluster) validatePutManagedMachineLearningDiagnosticsConfigParameters(value *GoogleContainerClusterManagedMachineLearningDiagnosticsConfig) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleContainerCluster) validatePutManagedOpentelemetryConfigParameters(value *GoogleContainerClusterManagedOpentelemetryConfig) error {
 	return nil
 }
 
@@ -235,6 +247,10 @@ func (g *jsiiProxy_GoogleContainerCluster) validatePutSecretManagerConfigParamet
 	return nil
 }
 
+func (g *jsiiProxy_GoogleContainerCluster) validatePutSecretSyncConfigParameters(value *GoogleContainerClusterSecretSyncConfig) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleContainerCluster) validatePutSecurityPostureConfigParameters(value *GoogleContainerClusterSecurityPostureConfig) error {
 	return nil
 }
@@ -284,6 +300,10 @@ func validateGoogleContainerCluster_IsTerraformResourceParameters(x interface{})
 }
 
 func (j *jsiiProxy_GoogleContainerCluster) validateSetAllowNetAdminParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleContainerCluster) validateSetAutopilotPrivilegedAdmissionParameters(val *[]*string) error {
 	return nil
 }
 

@@ -5,14 +5,14 @@ package googlekmscryptokeyiammember
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlekmscryptokeyiammember/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlekmscryptokeyiammember/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_kms_crypto_key_iam_member google_kms_crypto_key_iam_member}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_kms_crypto_key_iam_member google_kms_crypto_key_iam_member}.
 type GoogleKmsCryptoKeyIamMember interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -423,7 +423,7 @@ func (j *jsiiProxy_GoogleKmsCryptoKeyIamMember) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_kms_crypto_key_iam_member google_kms_crypto_key_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_kms_crypto_key_iam_member google_kms_crypto_key_iam_member} Resource.
 func NewGoogleKmsCryptoKeyIamMember(scope constructs.Construct, id *string, config *GoogleKmsCryptoKeyIamMemberConfig) GoogleKmsCryptoKeyIamMember {
 	_init_.Initialize()
 
@@ -441,7 +441,7 @@ func NewGoogleKmsCryptoKeyIamMember(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_kms_crypto_key_iam_member google_kms_crypto_key_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_kms_crypto_key_iam_member google_kms_crypto_key_iam_member} Resource.
 func NewGoogleKmsCryptoKeyIamMember_Override(g GoogleKmsCryptoKeyIamMember, scope constructs.Construct, id *string, config *GoogleKmsCryptoKeyIamMemberConfig) {
 	_init_.Initialize()
 

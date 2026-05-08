@@ -5,14 +5,14 @@ package googlecomputeregiondisk
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeregiondisk/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeregiondisk/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_disk google_compute_region_disk}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_disk google_compute_region_disk}.
 type GoogleComputeRegionDisk interface {
 	cdktn.TerraformResource
 	AccessMode() *string
@@ -50,6 +50,9 @@ type GoogleComputeRegionDisk interface {
 	DiskEncryptionKeyInput() *GoogleComputeRegionDiskDiskEncryptionKey
 	DiskId() *string
 	EffectiveLabels() cdktn.StringMap
+	EraseWindowsVssSignature() interface{}
+	SetEraseWindowsVssSignature(val interface{})
+	EraseWindowsVssSignatureInput() interface{}
 	// Experimental.
 	ForEach() cdktn.ITerraformIterator
 	// Experimental.
@@ -193,6 +196,7 @@ type GoogleComputeRegionDisk interface {
 	ResetCreateSnapshotBeforeDestroyPrefix()
 	ResetDescription()
 	ResetDiskEncryptionKey()
+	ResetEraseWindowsVssSignature()
 	ResetGuestOsFeatures()
 	ResetId()
 	ResetInterface()
@@ -434,6 +438,26 @@ func (j *jsiiProxy_GoogleComputeRegionDisk) EffectiveLabels() cdktn.StringMap {
 	_jsii_.Get(
 		j,
 		"effectiveLabels",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeRegionDisk) EraseWindowsVssSignature() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"eraseWindowsVssSignature",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeRegionDisk) EraseWindowsVssSignatureInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"eraseWindowsVssSignatureInput",
 		&returns,
 	)
 	return returns
@@ -990,7 +1014,7 @@ func (j *jsiiProxy_GoogleComputeRegionDisk) Users() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_disk google_compute_region_disk} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_disk google_compute_region_disk} Resource.
 func NewGoogleComputeRegionDisk(scope constructs.Construct, id *string, config *GoogleComputeRegionDiskConfig) GoogleComputeRegionDisk {
 	_init_.Initialize()
 
@@ -1008,7 +1032,7 @@ func NewGoogleComputeRegionDisk(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_region_disk google_compute_region_disk} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_disk google_compute_region_disk} Resource.
 func NewGoogleComputeRegionDisk_Override(g GoogleComputeRegionDisk, scope constructs.Construct, id *string, config *GoogleComputeRegionDiskConfig) {
 	_init_.Initialize()
 
@@ -1089,6 +1113,17 @@ func (j *jsiiProxy_GoogleComputeRegionDisk)SetDescription(val *string) {
 	_jsii_.Set(
 		j,
 		"description",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleComputeRegionDisk)SetEraseWindowsVssSignature(val interface{}) {
+	if err := j.validateSetEraseWindowsVssSignatureParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"eraseWindowsVssSignature",
 		val,
 	)
 }
@@ -1748,6 +1783,14 @@ func (g *jsiiProxy_GoogleComputeRegionDisk) ResetDiskEncryptionKey() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetDiskEncryptionKey",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleComputeRegionDisk) ResetEraseWindowsVssSignature() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetEraseWindowsVssSignature",
 		nil, // no parameters
 	)
 }

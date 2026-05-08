@@ -75,6 +75,10 @@ func (g *jsiiProxy_GoogleComputeHaVpnGateway) validateOverrideLogicalIdParameter
 	return nil
 }
 
+func (g *jsiiProxy_GoogleComputeHaVpnGateway) validatePutParamsParameters(value *GoogleComputeHaVpnGatewayParams) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleComputeHaVpnGateway) validatePutTimeoutsParameters(value *GoogleComputeHaVpnGatewayTimeouts) error {
 	return nil
 }

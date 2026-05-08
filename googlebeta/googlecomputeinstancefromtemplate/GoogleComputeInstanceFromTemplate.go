@@ -5,14 +5,14 @@ package googlecomputeinstancefromtemplate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googlecomputeinstancefromtemplate/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeinstancefromtemplate/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_instance_from_template google_compute_instance_from_template}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_instance_from_template google_compute_instance_from_template}.
 type GoogleComputeInstanceFromTemplate interface {
 	cdktn.TerraformResource
 	AdvancedMachineFeatures() GoogleComputeInstanceFromTemplateAdvancedMachineFeaturesOutputReference
@@ -61,6 +61,9 @@ type GoogleComputeInstanceFromTemplate interface {
 	EnableDisplay() interface{}
 	SetEnableDisplay(val interface{})
 	EnableDisplayInput() interface{}
+	EraseWindowsVssSignature() interface{}
+	SetEraseWindowsVssSignature(val interface{})
+	EraseWindowsVssSignatureInput() interface{}
 	// Experimental.
 	ForEach() cdktn.ITerraformIterator
 	// Experimental.
@@ -232,6 +235,7 @@ type GoogleComputeInstanceFromTemplate interface {
 	ResetDescription()
 	ResetDesiredStatus()
 	ResetEnableDisplay()
+	ResetEraseWindowsVssSignature()
 	ResetGuestAccelerator()
 	ResetHostname()
 	ResetId()
@@ -571,6 +575,26 @@ func (j *jsiiProxy_GoogleComputeInstanceFromTemplate) EnableDisplayInput() inter
 	_jsii_.Get(
 		j,
 		"enableDisplayInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeInstanceFromTemplate) EraseWindowsVssSignature() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"eraseWindowsVssSignature",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeInstanceFromTemplate) EraseWindowsVssSignatureInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"eraseWindowsVssSignatureInput",
 		&returns,
 	)
 	return returns
@@ -1267,7 +1291,7 @@ func (j *jsiiProxy_GoogleComputeInstanceFromTemplate) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_instance_from_template google_compute_instance_from_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_instance_from_template google_compute_instance_from_template} Resource.
 func NewGoogleComputeInstanceFromTemplate(scope constructs.Construct, id *string, config *GoogleComputeInstanceFromTemplateConfig) GoogleComputeInstanceFromTemplate {
 	_init_.Initialize()
 
@@ -1285,7 +1309,7 @@ func NewGoogleComputeInstanceFromTemplate(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_compute_instance_from_template google_compute_instance_from_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_instance_from_template google_compute_instance_from_template} Resource.
 func NewGoogleComputeInstanceFromTemplate_Override(g GoogleComputeInstanceFromTemplate, scope constructs.Construct, id *string, config *GoogleComputeInstanceFromTemplateConfig) {
 	_init_.Initialize()
 
@@ -1388,6 +1412,17 @@ func (j *jsiiProxy_GoogleComputeInstanceFromTemplate)SetEnableDisplay(val interf
 	_jsii_.Set(
 		j,
 		"enableDisplay",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleComputeInstanceFromTemplate)SetEraseWindowsVssSignature(val interface{}) {
+	if err := j.validateSetEraseWindowsVssSignatureParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"eraseWindowsVssSignature",
 		val,
 	)
 }
@@ -2189,6 +2224,14 @@ func (g *jsiiProxy_GoogleComputeInstanceFromTemplate) ResetEnableDisplay() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetEnableDisplay",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleComputeInstanceFromTemplate) ResetEraseWindowsVssSignature() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetEraseWindowsVssSignature",
 		nil, // no parameters
 	)
 }

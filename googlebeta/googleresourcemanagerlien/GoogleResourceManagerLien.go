@@ -5,14 +5,14 @@ package googleresourcemanagerlien
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleresourcemanagerlien/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleresourcemanagerlien/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_resource_manager_lien google_resource_manager_lien}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_resource_manager_lien google_resource_manager_lien}.
 type GoogleResourceManagerLien interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -457,7 +457,7 @@ func (j *jsiiProxy_GoogleResourceManagerLien) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_resource_manager_lien google_resource_manager_lien} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_resource_manager_lien google_resource_manager_lien} Resource.
 func NewGoogleResourceManagerLien(scope constructs.Construct, id *string, config *GoogleResourceManagerLienConfig) GoogleResourceManagerLien {
 	_init_.Initialize()
 
@@ -475,7 +475,7 @@ func NewGoogleResourceManagerLien(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/6.50.0/docs/resources/google_resource_manager_lien google_resource_manager_lien} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_resource_manager_lien google_resource_manager_lien} Resource.
 func NewGoogleResourceManagerLien_Override(g GoogleResourceManagerLien, scope constructs.Construct, id *string, config *GoogleResourceManagerLienConfig) {
 	_init_.Initialize()
 

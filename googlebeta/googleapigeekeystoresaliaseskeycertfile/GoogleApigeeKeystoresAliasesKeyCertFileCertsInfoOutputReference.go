@@ -5,16 +5,15 @@ package googleapigeekeystoresaliaseskeycertfile
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v18/googleapigeekeystoresaliaseskeycertfile/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleapigeekeystoresaliaseskeycertfile/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type GoogleApigeeKeystoresAliasesKeyCertFileCertsInfoOutputReference interface {
 	cdktn.ComplexObject
-	CertInfo() GoogleApigeeKeystoresAliasesKeyCertFileCertsInfoCertInfoList
-	CertInfoInput() interface{}
+	BasicConstraints() *string
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -30,10 +29,18 @@ type GoogleApigeeKeystoresAliasesKeyCertFileCertsInfoOutputReference interface {
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
+	ExpiryDate() *string
 	// Experimental.
 	Fqn() *string
 	InternalValue() *GoogleApigeeKeystoresAliasesKeyCertFileCertsInfo
 	SetInternalValue(val *GoogleApigeeKeystoresAliasesKeyCertFileCertsInfo)
+	Issuer() *string
+	IsValid() *string
+	PublicKey() *string
+	SerialNumber() *string
+	SigAlgName() *string
+	Subject() *string
+	SubjectAlternativeNames() *[]*string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -42,6 +49,8 @@ type GoogleApigeeKeystoresAliasesKeyCertFileCertsInfoOutputReference interface {
 	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
 	SetTerraformResource(val cdktn.IInterpolatingParent)
+	ValidFrom() *string
+	Version() *float64
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
@@ -66,8 +75,6 @@ type GoogleApigeeKeystoresAliasesKeyCertFileCertsInfoOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
-	PutCertInfo(value interface{})
-	ResetCertInfo()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -83,21 +90,11 @@ type jsiiProxy_GoogleApigeeKeystoresAliasesKeyCertFileCertsInfoOutputReference s
 	internal.Type__cdktnComplexObject
 }
 
-func (j *jsiiProxy_GoogleApigeeKeystoresAliasesKeyCertFileCertsInfoOutputReference) CertInfo() GoogleApigeeKeystoresAliasesKeyCertFileCertsInfoCertInfoList {
-	var returns GoogleApigeeKeystoresAliasesKeyCertFileCertsInfoCertInfoList
+func (j *jsiiProxy_GoogleApigeeKeystoresAliasesKeyCertFileCertsInfoOutputReference) BasicConstraints() *string {
+	var returns *string
 	_jsii_.Get(
 		j,
-		"certInfo",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_GoogleApigeeKeystoresAliasesKeyCertFileCertsInfoOutputReference) CertInfoInput() interface{} {
-	var returns interface{}
-	_jsii_.Get(
-		j,
-		"certInfoInput",
+		"basicConstraints",
 		&returns,
 	)
 	return returns
@@ -133,6 +130,16 @@ func (j *jsiiProxy_GoogleApigeeKeystoresAliasesKeyCertFileCertsInfoOutputReferen
 	return returns
 }
 
+func (j *jsiiProxy_GoogleApigeeKeystoresAliasesKeyCertFileCertsInfoOutputReference) ExpiryDate() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"expiryDate",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleApigeeKeystoresAliasesKeyCertFileCertsInfoOutputReference) Fqn() *string {
 	var returns *string
 	_jsii_.Get(
@@ -148,6 +155,76 @@ func (j *jsiiProxy_GoogleApigeeKeystoresAliasesKeyCertFileCertsInfoOutputReferen
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleApigeeKeystoresAliasesKeyCertFileCertsInfoOutputReference) Issuer() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"issuer",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleApigeeKeystoresAliasesKeyCertFileCertsInfoOutputReference) IsValid() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"isValid",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleApigeeKeystoresAliasesKeyCertFileCertsInfoOutputReference) PublicKey() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"publicKey",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleApigeeKeystoresAliasesKeyCertFileCertsInfoOutputReference) SerialNumber() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"serialNumber",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleApigeeKeystoresAliasesKeyCertFileCertsInfoOutputReference) SigAlgName() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"sigAlgName",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleApigeeKeystoresAliasesKeyCertFileCertsInfoOutputReference) Subject() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"subject",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleApigeeKeystoresAliasesKeyCertFileCertsInfoOutputReference) SubjectAlternativeNames() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"subjectAlternativeNames",
 		&returns,
 	)
 	return returns
@@ -173,30 +250,50 @@ func (j *jsiiProxy_GoogleApigeeKeystoresAliasesKeyCertFileCertsInfoOutputReferen
 	return returns
 }
 
+func (j *jsiiProxy_GoogleApigeeKeystoresAliasesKeyCertFileCertsInfoOutputReference) ValidFrom() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"validFrom",
+		&returns,
+	)
+	return returns
+}
 
-func NewGoogleApigeeKeystoresAliasesKeyCertFileCertsInfoOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) GoogleApigeeKeystoresAliasesKeyCertFileCertsInfoOutputReference {
+func (j *jsiiProxy_GoogleApigeeKeystoresAliasesKeyCertFileCertsInfoOutputReference) Version() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"version",
+		&returns,
+	)
+	return returns
+}
+
+
+func NewGoogleApigeeKeystoresAliasesKeyCertFileCertsInfoOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) GoogleApigeeKeystoresAliasesKeyCertFileCertsInfoOutputReference {
 	_init_.Initialize()
 
-	if err := validateNewGoogleApigeeKeystoresAliasesKeyCertFileCertsInfoOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
+	if err := validateNewGoogleApigeeKeystoresAliasesKeyCertFileCertsInfoOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
 		panic(err)
 	}
 	j := jsiiProxy_GoogleApigeeKeystoresAliasesKeyCertFileCertsInfoOutputReference{}
 
 	_jsii_.Create(
 		"@cdktn/provider-google-beta.googleApigeeKeystoresAliasesKeyCertFile.GoogleApigeeKeystoresAliasesKeyCertFileCertsInfoOutputReference",
-		[]interface{}{terraformResource, terraformAttribute},
+		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
 
 	return &j
 }
 
-func NewGoogleApigeeKeystoresAliasesKeyCertFileCertsInfoOutputReference_Override(g GoogleApigeeKeystoresAliasesKeyCertFileCertsInfoOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
+func NewGoogleApigeeKeystoresAliasesKeyCertFileCertsInfoOutputReference_Override(g GoogleApigeeKeystoresAliasesKeyCertFileCertsInfoOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
 		"@cdktn/provider-google-beta.googleApigeeKeystoresAliasesKeyCertFile.GoogleApigeeKeystoresAliasesKeyCertFileCertsInfoOutputReference",
-		[]interface{}{terraformResource, terraformAttribute},
+		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		g,
 	)
 }
@@ -440,25 +537,6 @@ func (g *jsiiProxy_GoogleApigeeKeystoresAliasesKeyCertFileCertsInfoOutputReferen
 	)
 
 	return returns
-}
-
-func (g *jsiiProxy_GoogleApigeeKeystoresAliasesKeyCertFileCertsInfoOutputReference) PutCertInfo(value interface{}) {
-	if err := g.validatePutCertInfoParameters(value); err != nil {
-		panic(err)
-	}
-	_jsii_.InvokeVoid(
-		g,
-		"putCertInfo",
-		[]interface{}{value},
-	)
-}
-
-func (g *jsiiProxy_GoogleApigeeKeystoresAliasesKeyCertFileCertsInfoOutputReference) ResetCertInfo() {
-	_jsii_.InvokeVoid(
-		g,
-		"resetCertInfo",
-		nil, // no parameters
-	)
 }
 
 func (g *jsiiProxy_GoogleApigeeKeystoresAliasesKeyCertFileCertsInfoOutputReference) Resolve(context cdktn.IResolveContext) interface{} {

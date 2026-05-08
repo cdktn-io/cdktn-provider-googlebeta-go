@@ -1,0 +1,89 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package googlesaasruntimeunitkind
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (g *jsiiProxy_GoogleSaasRuntimeUnitKindInputVariableMappingsOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleSaasRuntimeUnitKindInputVariableMappingsOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleSaasRuntimeUnitKindInputVariableMappingsOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleSaasRuntimeUnitKindInputVariableMappingsOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleSaasRuntimeUnitKindInputVariableMappingsOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleSaasRuntimeUnitKindInputVariableMappingsOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleSaasRuntimeUnitKindInputVariableMappingsOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleSaasRuntimeUnitKindInputVariableMappingsOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleSaasRuntimeUnitKindInputVariableMappingsOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleSaasRuntimeUnitKindInputVariableMappingsOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleSaasRuntimeUnitKindInputVariableMappingsOutputReference) validatePutFromParameters(value *GoogleSaasRuntimeUnitKindInputVariableMappingsFrom) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleSaasRuntimeUnitKindInputVariableMappingsOutputReference) validatePutToParameters(value *GoogleSaasRuntimeUnitKindInputVariableMappingsTo) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleSaasRuntimeUnitKindInputVariableMappingsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleSaasRuntimeUnitKindInputVariableMappingsOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleSaasRuntimeUnitKindInputVariableMappingsOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleSaasRuntimeUnitKindInputVariableMappingsOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleSaasRuntimeUnitKindInputVariableMappingsOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleSaasRuntimeUnitKindInputVariableMappingsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleSaasRuntimeUnitKindInputVariableMappingsOutputReference) validateSetVariableParameters(val *string) error {
+	return nil
+}
+
+func validateNewGoogleSaasRuntimeUnitKindInputVariableMappingsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+
