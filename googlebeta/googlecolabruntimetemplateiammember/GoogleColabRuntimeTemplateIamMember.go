@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_colab_runtime_template_iam_member google_colab_runtime_template_iam_member}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_colab_runtime_template_iam_member google_colab_runtime_template_iam_member}.
 type GoogleColabRuntimeTemplateIamMember interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -471,7 +471,7 @@ func (j *jsiiProxy_GoogleColabRuntimeTemplateIamMember) TerraformResourceType() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_colab_runtime_template_iam_member google_colab_runtime_template_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_colab_runtime_template_iam_member google_colab_runtime_template_iam_member} Resource.
 func NewGoogleColabRuntimeTemplateIamMember(scope constructs.Construct, id *string, config *GoogleColabRuntimeTemplateIamMemberConfig) GoogleColabRuntimeTemplateIamMember {
 	_init_.Initialize()
 
@@ -489,7 +489,7 @@ func NewGoogleColabRuntimeTemplateIamMember(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_colab_runtime_template_iam_member google_colab_runtime_template_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_colab_runtime_template_iam_member google_colab_runtime_template_iam_member} Resource.
 func NewGoogleColabRuntimeTemplateIamMember_Override(g GoogleColabRuntimeTemplateIamMember, scope constructs.Construct, id *string, config *GoogleColabRuntimeTemplateIamMemberConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_hub_iam_binding google_network_connectivity_hub_iam_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_connectivity_hub_iam_binding google_network_connectivity_hub_iam_binding}.
 type GoogleNetworkConnectivityHubIamBinding interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -447,7 +447,7 @@ func (j *jsiiProxy_GoogleNetworkConnectivityHubIamBinding) TerraformResourceType
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_hub_iam_binding google_network_connectivity_hub_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_connectivity_hub_iam_binding google_network_connectivity_hub_iam_binding} Resource.
 func NewGoogleNetworkConnectivityHubIamBinding(scope constructs.Construct, id *string, config *GoogleNetworkConnectivityHubIamBindingConfig) GoogleNetworkConnectivityHubIamBinding {
 	_init_.Initialize()
 
@@ -465,7 +465,7 @@ func NewGoogleNetworkConnectivityHubIamBinding(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_hub_iam_binding google_network_connectivity_hub_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_connectivity_hub_iam_binding google_network_connectivity_hub_iam_binding} Resource.
 func NewGoogleNetworkConnectivityHubIamBinding_Override(g GoogleNetworkConnectivityHubIamBinding, scope constructs.Construct, id *string, config *GoogleNetworkConnectivityHubIamBindingConfig) {
 	_init_.Initialize()
 

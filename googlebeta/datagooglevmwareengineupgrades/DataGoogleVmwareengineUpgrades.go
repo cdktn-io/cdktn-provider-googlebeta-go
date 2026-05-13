@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_vmwareengine_upgrades google_vmwareengine_upgrades}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_vmwareengine_upgrades google_vmwareengine_upgrades}.
 type DataGoogleVmwareengineUpgrades interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -332,7 +332,7 @@ func (j *jsiiProxy_DataGoogleVmwareengineUpgrades) Upgrades() DataGoogleVmwareen
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_vmwareengine_upgrades google_vmwareengine_upgrades} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_vmwareengine_upgrades google_vmwareengine_upgrades} Data Source.
 func NewDataGoogleVmwareengineUpgrades(scope constructs.Construct, id *string, config *DataGoogleVmwareengineUpgradesConfig) DataGoogleVmwareengineUpgrades {
 	_init_.Initialize()
 
@@ -350,7 +350,7 @@ func NewDataGoogleVmwareengineUpgrades(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_vmwareengine_upgrades google_vmwareengine_upgrades} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_vmwareengine_upgrades google_vmwareengine_upgrades} Data Source.
 func NewDataGoogleVmwareengineUpgrades_Override(d DataGoogleVmwareengineUpgrades, scope constructs.Construct, id *string, config *DataGoogleVmwareengineUpgradesConfig) {
 	_init_.Initialize()
 

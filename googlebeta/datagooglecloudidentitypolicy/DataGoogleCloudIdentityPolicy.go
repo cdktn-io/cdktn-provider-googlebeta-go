@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_cloud_identity_policy google_cloud_identity_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_cloud_identity_policy google_cloud_identity_policy}.
 type DataGoogleCloudIdentityPolicy interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -341,7 +341,7 @@ func (j *jsiiProxy_DataGoogleCloudIdentityPolicy) Type() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_cloud_identity_policy google_cloud_identity_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_cloud_identity_policy google_cloud_identity_policy} Data Source.
 func NewDataGoogleCloudIdentityPolicy(scope constructs.Construct, id *string, config *DataGoogleCloudIdentityPolicyConfig) DataGoogleCloudIdentityPolicy {
 	_init_.Initialize()
 
@@ -359,7 +359,7 @@ func NewDataGoogleCloudIdentityPolicy(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_cloud_identity_policy google_cloud_identity_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_cloud_identity_policy google_cloud_identity_policy} Data Source.
 func NewDataGoogleCloudIdentityPolicy_Override(d DataGoogleCloudIdentityPolicy, scope constructs.Construct, id *string, config *DataGoogleCloudIdentityPolicyConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_privileged_access_manager_settings google_privileged_access_manager_settings}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_privileged_access_manager_settings google_privileged_access_manager_settings}.
 type GooglePrivilegedAccessManagerSettings interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -481,7 +481,7 @@ func (j *jsiiProxy_GooglePrivilegedAccessManagerSettings) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_privileged_access_manager_settings google_privileged_access_manager_settings} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_privileged_access_manager_settings google_privileged_access_manager_settings} Resource.
 func NewGooglePrivilegedAccessManagerSettings(scope constructs.Construct, id *string, config *GooglePrivilegedAccessManagerSettingsConfig) GooglePrivilegedAccessManagerSettings {
 	_init_.Initialize()
 
@@ -499,7 +499,7 @@ func NewGooglePrivilegedAccessManagerSettings(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_privileged_access_manager_settings google_privileged_access_manager_settings} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_privileged_access_manager_settings google_privileged_access_manager_settings} Resource.
 func NewGooglePrivilegedAccessManagerSettings_Override(g GooglePrivilegedAccessManagerSettings, scope constructs.Construct, id *string, config *GooglePrivilegedAccessManagerSettingsConfig) {
 	_init_.Initialize()
 

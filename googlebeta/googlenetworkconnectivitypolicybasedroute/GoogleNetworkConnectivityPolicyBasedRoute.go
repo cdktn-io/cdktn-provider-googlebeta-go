@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_policy_based_route google_network_connectivity_policy_based_route}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_connectivity_policy_based_route google_network_connectivity_policy_based_route}.
 type GoogleNetworkConnectivityPolicyBasedRoute interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -670,7 +670,7 @@ func (j *jsiiProxy_GoogleNetworkConnectivityPolicyBasedRoute) Warnings() GoogleN
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_policy_based_route google_network_connectivity_policy_based_route} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_connectivity_policy_based_route google_network_connectivity_policy_based_route} Resource.
 func NewGoogleNetworkConnectivityPolicyBasedRoute(scope constructs.Construct, id *string, config *GoogleNetworkConnectivityPolicyBasedRouteConfig) GoogleNetworkConnectivityPolicyBasedRoute {
 	_init_.Initialize()
 
@@ -688,7 +688,7 @@ func NewGoogleNetworkConnectivityPolicyBasedRoute(scope constructs.Construct, id
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_policy_based_route google_network_connectivity_policy_based_route} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_connectivity_policy_based_route google_network_connectivity_policy_based_route} Resource.
 func NewGoogleNetworkConnectivityPolicyBasedRoute_Override(g GoogleNetworkConnectivityPolicyBasedRoute, scope constructs.Construct, id *string, config *GoogleNetworkConnectivityPolicyBasedRouteConfig) {
 	_init_.Initialize()
 

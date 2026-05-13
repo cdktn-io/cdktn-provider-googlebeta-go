@@ -12,9 +12,11 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gke_hub_rollout_sequence google_gke_hub_rollout_sequence}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_gke_hub_rollout_sequence google_gke_hub_rollout_sequence}.
 type GoogleGkeHubRolloutSequence interface {
 	cdktn.TerraformResource
+	AutoUpgradeConfig() GoogleGkeHubRolloutSequenceAutoUpgradeConfigOutputReference
+	AutoUpgradeConfigInput() *GoogleGkeHubRolloutSequenceAutoUpgradeConfig
 	// Experimental.
 	CdktfStack() cdktn.TerraformStack
 	// Experimental.
@@ -133,9 +135,11 @@ type GoogleGkeHubRolloutSequence interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	PutAutoUpgradeConfig(value *GoogleGkeHubRolloutSequenceAutoUpgradeConfig)
 	PutIgnoredClustersSelector(value *GoogleGkeHubRolloutSequenceIgnoredClustersSelector)
 	PutStages(value interface{})
 	PutTimeouts(value *GoogleGkeHubRolloutSequenceTimeouts)
+	ResetAutoUpgradeConfig()
 	ResetDisplayName()
 	ResetId()
 	ResetIgnoredClustersSelector()
@@ -170,6 +174,26 @@ type GoogleGkeHubRolloutSequence interface {
 // The jsii proxy struct for GoogleGkeHubRolloutSequence
 type jsiiProxy_GoogleGkeHubRolloutSequence struct {
 	internal.Type__cdktnTerraformResource
+}
+
+func (j *jsiiProxy_GoogleGkeHubRolloutSequence) AutoUpgradeConfig() GoogleGkeHubRolloutSequenceAutoUpgradeConfigOutputReference {
+	var returns GoogleGkeHubRolloutSequenceAutoUpgradeConfigOutputReference
+	_jsii_.Get(
+		j,
+		"autoUpgradeConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleGkeHubRolloutSequence) AutoUpgradeConfigInput() *GoogleGkeHubRolloutSequenceAutoUpgradeConfig {
+	var returns *GoogleGkeHubRolloutSequenceAutoUpgradeConfig
+	_jsii_.Get(
+		j,
+		"autoUpgradeConfigInput",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_GoogleGkeHubRolloutSequence) CdktfStack() cdktn.TerraformStack {
@@ -573,7 +597,7 @@ func (j *jsiiProxy_GoogleGkeHubRolloutSequence) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gke_hub_rollout_sequence google_gke_hub_rollout_sequence} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_gke_hub_rollout_sequence google_gke_hub_rollout_sequence} Resource.
 func NewGoogleGkeHubRolloutSequence(scope constructs.Construct, id *string, config *GoogleGkeHubRolloutSequenceConfig) GoogleGkeHubRolloutSequence {
 	_init_.Initialize()
 
@@ -591,7 +615,7 @@ func NewGoogleGkeHubRolloutSequence(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gke_hub_rollout_sequence google_gke_hub_rollout_sequence} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_gke_hub_rollout_sequence google_gke_hub_rollout_sequence} Resource.
 func NewGoogleGkeHubRolloutSequence_Override(g GoogleGkeHubRolloutSequence, scope constructs.Construct, id *string, config *GoogleGkeHubRolloutSequenceConfig) {
 	_init_.Initialize()
 
@@ -1078,6 +1102,17 @@ func (g *jsiiProxy_GoogleGkeHubRolloutSequence) OverrideLogicalId(newLogicalId *
 	)
 }
 
+func (g *jsiiProxy_GoogleGkeHubRolloutSequence) PutAutoUpgradeConfig(value *GoogleGkeHubRolloutSequenceAutoUpgradeConfig) {
+	if err := g.validatePutAutoUpgradeConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putAutoUpgradeConfig",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleGkeHubRolloutSequence) PutIgnoredClustersSelector(value *GoogleGkeHubRolloutSequenceIgnoredClustersSelector) {
 	if err := g.validatePutIgnoredClustersSelectorParameters(value); err != nil {
 		panic(err)
@@ -1108,6 +1143,14 @@ func (g *jsiiProxy_GoogleGkeHubRolloutSequence) PutTimeouts(value *GoogleGkeHubR
 		g,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleGkeHubRolloutSequence) ResetAutoUpgradeConfig() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetAutoUpgradeConfig",
+		nil, // no parameters
 	)
 }
 

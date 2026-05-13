@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_app_version google_ces_app_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_app_version google_ces_app_version}.
 type GoogleCesAppVersion interface {
 	cdktn.TerraformResource
 	App() *string
@@ -539,7 +539,7 @@ func (j *jsiiProxy_GoogleCesAppVersion) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_app_version google_ces_app_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_app_version google_ces_app_version} Resource.
 func NewGoogleCesAppVersion(scope constructs.Construct, id *string, config *GoogleCesAppVersionConfig) GoogleCesAppVersion {
 	_init_.Initialize()
 
@@ -557,7 +557,7 @@ func NewGoogleCesAppVersion(scope constructs.Construct, id *string, config *Goog
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_app_version google_ces_app_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_app_version google_ces_app_version} Resource.
 func NewGoogleCesAppVersion_Override(g GoogleCesAppVersion, scope constructs.Construct, id *string, config *GoogleCesAppVersionConfig) {
 	_init_.Initialize()
 

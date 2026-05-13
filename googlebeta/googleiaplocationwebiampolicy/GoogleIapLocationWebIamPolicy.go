@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_location_web_iam_policy google_iap_location_web_iam_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iap_location_web_iam_policy google_iap_location_web_iam_policy}.
 type GoogleIapLocationWebIamPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -400,7 +400,7 @@ func (j *jsiiProxy_GoogleIapLocationWebIamPolicy) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_location_web_iam_policy google_iap_location_web_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iap_location_web_iam_policy google_iap_location_web_iam_policy} Resource.
 func NewGoogleIapLocationWebIamPolicy(scope constructs.Construct, id *string, config *GoogleIapLocationWebIamPolicyConfig) GoogleIapLocationWebIamPolicy {
 	_init_.Initialize()
 
@@ -418,7 +418,7 @@ func NewGoogleIapLocationWebIamPolicy(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_location_web_iam_policy google_iap_location_web_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iap_location_web_iam_policy google_iap_location_web_iam_policy} Resource.
 func NewGoogleIapLocationWebIamPolicy_Override(g GoogleIapLocationWebIamPolicy, scope constructs.Construct, id *string, config *GoogleIapLocationWebIamPolicyConfig) {
 	_init_.Initialize()
 

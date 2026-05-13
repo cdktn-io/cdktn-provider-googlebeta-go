@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_biglake_iceberg_table google_biglake_iceberg_table}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_biglake_iceberg_table google_biglake_iceberg_table}.
 type GoogleBiglakeIcebergTable interface {
 	cdktn.TerraformResource
 	Catalog() *string
@@ -531,7 +531,7 @@ func (j *jsiiProxy_GoogleBiglakeIcebergTable) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_biglake_iceberg_table google_biglake_iceberg_table} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_biglake_iceberg_table google_biglake_iceberg_table} Resource.
 func NewGoogleBiglakeIcebergTable(scope constructs.Construct, id *string, config *GoogleBiglakeIcebergTableConfig) GoogleBiglakeIcebergTable {
 	_init_.Initialize()
 
@@ -549,7 +549,7 @@ func NewGoogleBiglakeIcebergTable(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_biglake_iceberg_table google_biglake_iceberg_table} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_biglake_iceberg_table google_biglake_iceberg_table} Resource.
 func NewGoogleBiglakeIcebergTable_Override(g GoogleBiglakeIcebergTable, scope constructs.Construct, id *string, config *GoogleBiglakeIcebergTableConfig) {
 	_init_.Initialize()
 

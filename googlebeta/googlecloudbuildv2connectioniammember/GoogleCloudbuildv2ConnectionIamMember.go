@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloudbuildv2_connection_iam_member google_cloudbuildv2_connection_iam_member}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloudbuildv2_connection_iam_member google_cloudbuildv2_connection_iam_member}.
 type GoogleCloudbuildv2ConnectionIamMember interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -471,7 +471,7 @@ func (j *jsiiProxy_GoogleCloudbuildv2ConnectionIamMember) TerraformResourceType(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloudbuildv2_connection_iam_member google_cloudbuildv2_connection_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloudbuildv2_connection_iam_member google_cloudbuildv2_connection_iam_member} Resource.
 func NewGoogleCloudbuildv2ConnectionIamMember(scope constructs.Construct, id *string, config *GoogleCloudbuildv2ConnectionIamMemberConfig) GoogleCloudbuildv2ConnectionIamMember {
 	_init_.Initialize()
 
@@ -489,7 +489,7 @@ func NewGoogleCloudbuildv2ConnectionIamMember(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloudbuildv2_connection_iam_member google_cloudbuildv2_connection_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloudbuildv2_connection_iam_member google_cloudbuildv2_connection_iam_member} Resource.
 func NewGoogleCloudbuildv2ConnectionIamMember_Override(g GoogleCloudbuildv2ConnectionIamMember, scope constructs.Construct, id *string, config *GoogleCloudbuildv2ConnectionIamMemberConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_contact_center_insights_auto_labeling_rule google_contact_center_insights_auto_labeling_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_contact_center_insights_auto_labeling_rule google_contact_center_insights_auto_labeling_rule}.
 type GoogleContactCenterInsightsAutoLabelingRule interface {
 	cdktn.TerraformResource
 	Active() interface{}
@@ -591,7 +591,7 @@ func (j *jsiiProxy_GoogleContactCenterInsightsAutoLabelingRule) UpdateTime() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_contact_center_insights_auto_labeling_rule google_contact_center_insights_auto_labeling_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_contact_center_insights_auto_labeling_rule google_contact_center_insights_auto_labeling_rule} Resource.
 func NewGoogleContactCenterInsightsAutoLabelingRule(scope constructs.Construct, id *string, config *GoogleContactCenterInsightsAutoLabelingRuleConfig) GoogleContactCenterInsightsAutoLabelingRule {
 	_init_.Initialize()
 
@@ -609,7 +609,7 @@ func NewGoogleContactCenterInsightsAutoLabelingRule(scope constructs.Construct, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_contact_center_insights_auto_labeling_rule google_contact_center_insights_auto_labeling_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_contact_center_insights_auto_labeling_rule google_contact_center_insights_auto_labeling_rule} Resource.
 func NewGoogleContactCenterInsightsAutoLabelingRule_Override(g GoogleContactCenterInsightsAutoLabelingRule, scope constructs.Construct, id *string, config *GoogleContactCenterInsightsAutoLabelingRuleConfig) {
 	_init_.Initialize()
 

@@ -10,7 +10,7 @@ type GooglePubsubSubscriptionMessageTransformsAiInferenceUnstructuredInference s
 	// The parameters object is combined with the data field of the Pub/Sub
 	// message to form the inference request.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_pubsub_subscription#parameters GooglePubsubSubscription#parameters}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_pubsub_subscription#parameters GooglePubsubSubscription#parameters}
 	Parameters *map[string]*string `field:"optional" json:"parameters" yaml:"parameters"`
 }
 

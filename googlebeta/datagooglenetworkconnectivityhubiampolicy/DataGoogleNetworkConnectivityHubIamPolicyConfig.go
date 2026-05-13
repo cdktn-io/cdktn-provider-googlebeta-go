@@ -22,14 +22,14 @@ type DataGoogleNetworkConnectivityHubIamPolicyConfig struct {
 	Provider cdktn.TerraformProvider `field:"optional" json:"provider" yaml:"provider"`
 	// Experimental.
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_network_connectivity_hub_iam_policy#hub DataGoogleNetworkConnectivityHubIamPolicy#hub}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_network_connectivity_hub_iam_policy#hub DataGoogleNetworkConnectivityHubIamPolicy#hub}.
 	Hub *string `field:"required" json:"hub" yaml:"hub"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_network_connectivity_hub_iam_policy#id DataGoogleNetworkConnectivityHubIamPolicy#id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_network_connectivity_hub_iam_policy#id DataGoogleNetworkConnectivityHubIamPolicy#id}.
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
 	Id *string `field:"optional" json:"id" yaml:"id"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_network_connectivity_hub_iam_policy#project DataGoogleNetworkConnectivityHubIamPolicy#project}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_network_connectivity_hub_iam_policy#project DataGoogleNetworkConnectivityHubIamPolicy#project}.
 	Project *string `field:"optional" json:"project" yaml:"project"`
 }
 

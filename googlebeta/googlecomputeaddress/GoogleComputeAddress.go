@@ -12,11 +12,12 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_address google_compute_address}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_address google_compute_address}.
 type GoogleComputeAddress interface {
 	cdktn.TerraformResource
 	Address() *string
 	SetAddress(val *string)
+	AddressId() *string
 	AddressInput() *string
 	AddressType() *string
 	SetAddressType(val *string)
@@ -212,6 +213,16 @@ func (j *jsiiProxy_GoogleComputeAddress) Address() *string {
 	_jsii_.Get(
 		j,
 		"address",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeAddress) AddressId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"addressId",
 		&returns,
 	)
 	return returns
@@ -768,7 +779,7 @@ func (j *jsiiProxy_GoogleComputeAddress) Users() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_address google_compute_address} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_address google_compute_address} Resource.
 func NewGoogleComputeAddress(scope constructs.Construct, id *string, config *GoogleComputeAddressConfig) GoogleComputeAddress {
 	_init_.Initialize()
 
@@ -786,7 +797,7 @@ func NewGoogleComputeAddress(scope constructs.Construct, id *string, config *Goo
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_address google_compute_address} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_address google_compute_address} Resource.
 func NewGoogleComputeAddress_Override(g GoogleComputeAddress, scope constructs.Construct, id *string, config *GoogleComputeAddressConfig) {
 	_init_.Initialize()
 

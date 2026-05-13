@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_beyondcorp_security_gateway_iam_binding google_beyondcorp_security_gateway_iam_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_beyondcorp_security_gateway_iam_binding google_beyondcorp_security_gateway_iam_binding}.
 type GoogleBeyondcorpSecurityGatewayIamBinding interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -471,7 +471,7 @@ func (j *jsiiProxy_GoogleBeyondcorpSecurityGatewayIamBinding) TerraformResourceT
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_beyondcorp_security_gateway_iam_binding google_beyondcorp_security_gateway_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_beyondcorp_security_gateway_iam_binding google_beyondcorp_security_gateway_iam_binding} Resource.
 func NewGoogleBeyondcorpSecurityGatewayIamBinding(scope constructs.Construct, id *string, config *GoogleBeyondcorpSecurityGatewayIamBindingConfig) GoogleBeyondcorpSecurityGatewayIamBinding {
 	_init_.Initialize()
 
@@ -489,7 +489,7 @@ func NewGoogleBeyondcorpSecurityGatewayIamBinding(scope constructs.Construct, id
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_beyondcorp_security_gateway_iam_binding google_beyondcorp_security_gateway_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_beyondcorp_security_gateway_iam_binding google_beyondcorp_security_gateway_iam_binding} Resource.
 func NewGoogleBeyondcorpSecurityGatewayIamBinding_Override(g GoogleBeyondcorpSecurityGatewayIamBinding, scope constructs.Construct, id *string, config *GoogleBeyondcorpSecurityGatewayIamBindingConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_bucket_iam_binding google_storage_bucket_iam_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_storage_bucket_iam_binding google_storage_bucket_iam_binding}.
 type GoogleStorageBucketIamBinding interface {
 	cdktn.TerraformResource
 	Bucket() *string
@@ -447,7 +447,7 @@ func (j *jsiiProxy_GoogleStorageBucketIamBinding) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_bucket_iam_binding google_storage_bucket_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_storage_bucket_iam_binding google_storage_bucket_iam_binding} Resource.
 func NewGoogleStorageBucketIamBinding(scope constructs.Construct, id *string, config *GoogleStorageBucketIamBindingConfig) GoogleStorageBucketIamBinding {
 	_init_.Initialize()
 
@@ -465,7 +465,7 @@ func NewGoogleStorageBucketIamBinding(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_bucket_iam_binding google_storage_bucket_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_storage_bucket_iam_binding google_storage_bucket_iam_binding} Resource.
 func NewGoogleStorageBucketIamBinding_Override(g GoogleStorageBucketIamBinding, scope constructs.Construct, id *string, config *GoogleStorageBucketIamBindingConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_model_armor_floorsetting google_model_armor_floorsetting}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_model_armor_floorsetting google_model_armor_floorsetting}.
 type GoogleModelArmorFloorsetting interface {
 	cdktn.TerraformResource
 	AiPlatformFloorSetting() GoogleModelArmorFloorsettingAiPlatformFloorSettingOutputReference
@@ -565,7 +565,7 @@ func (j *jsiiProxy_GoogleModelArmorFloorsetting) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_model_armor_floorsetting google_model_armor_floorsetting} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_model_armor_floorsetting google_model_armor_floorsetting} Resource.
 func NewGoogleModelArmorFloorsetting(scope constructs.Construct, id *string, config *GoogleModelArmorFloorsettingConfig) GoogleModelArmorFloorsetting {
 	_init_.Initialize()
 
@@ -583,7 +583,7 @@ func NewGoogleModelArmorFloorsetting(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_model_armor_floorsetting google_model_armor_floorsetting} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_model_armor_floorsetting google_model_armor_floorsetting} Resource.
 func NewGoogleModelArmorFloorsetting_Override(g GoogleModelArmorFloorsetting, scope constructs.Construct, id *string, config *GoogleModelArmorFloorsettingConfig) {
 	_init_.Initialize()
 

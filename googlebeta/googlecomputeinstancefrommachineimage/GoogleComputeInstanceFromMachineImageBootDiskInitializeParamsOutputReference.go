@@ -38,6 +38,7 @@ type GoogleComputeInstanceFromMachineImageBootDiskInitializeParamsOutputReferenc
 	Labels() cdktn.StringMap
 	ProvisionedIops() *float64
 	ProvisionedThroughput() *float64
+	ReplicaZones() *[]*string
 	ResourceManagerTags() cdktn.StringMap
 	ResourcePolicies() *[]*string
 	Size() *float64
@@ -198,6 +199,16 @@ func (j *jsiiProxy_GoogleComputeInstanceFromMachineImageBootDiskInitializeParams
 	_jsii_.Get(
 		j,
 		"provisionedThroughput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeInstanceFromMachineImageBootDiskInitializeParamsOutputReference) ReplicaZones() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"replicaZones",
 		&returns,
 	)
 	return returns

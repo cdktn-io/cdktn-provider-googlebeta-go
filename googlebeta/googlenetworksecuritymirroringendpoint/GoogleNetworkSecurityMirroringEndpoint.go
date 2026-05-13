@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_security_mirroring_endpoint google_network_security_mirroring_endpoint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_security_mirroring_endpoint google_network_security_mirroring_endpoint}.
 type GoogleNetworkSecurityMirroringEndpoint interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -561,7 +561,7 @@ func (j *jsiiProxy_GoogleNetworkSecurityMirroringEndpoint) UpdateTime() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_security_mirroring_endpoint google_network_security_mirroring_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_security_mirroring_endpoint google_network_security_mirroring_endpoint} Resource.
 func NewGoogleNetworkSecurityMirroringEndpoint(scope constructs.Construct, id *string, config *GoogleNetworkSecurityMirroringEndpointConfig) GoogleNetworkSecurityMirroringEndpoint {
 	_init_.Initialize()
 
@@ -579,7 +579,7 @@ func NewGoogleNetworkSecurityMirroringEndpoint(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_security_mirroring_endpoint google_network_security_mirroring_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_security_mirroring_endpoint google_network_security_mirroring_endpoint} Resource.
 func NewGoogleNetworkSecurityMirroringEndpoint_Override(g GoogleNetworkSecurityMirroringEndpoint, scope constructs.Construct, id *string, config *GoogleNetworkSecurityMirroringEndpointConfig) {
 	_init_.Initialize()
 

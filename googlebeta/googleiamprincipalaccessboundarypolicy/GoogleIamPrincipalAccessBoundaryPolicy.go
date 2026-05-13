@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iam_principal_access_boundary_policy google_iam_principal_access_boundary_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iam_principal_access_boundary_policy google_iam_principal_access_boundary_policy}.
 type GoogleIamPrincipalAccessBoundaryPolicy interface {
 	cdktn.TerraformResource
 	Annotations() *map[string]*string
@@ -550,7 +550,7 @@ func (j *jsiiProxy_GoogleIamPrincipalAccessBoundaryPolicy) UpdateTime() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iam_principal_access_boundary_policy google_iam_principal_access_boundary_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iam_principal_access_boundary_policy google_iam_principal_access_boundary_policy} Resource.
 func NewGoogleIamPrincipalAccessBoundaryPolicy(scope constructs.Construct, id *string, config *GoogleIamPrincipalAccessBoundaryPolicyConfig) GoogleIamPrincipalAccessBoundaryPolicy {
 	_init_.Initialize()
 
@@ -568,7 +568,7 @@ func NewGoogleIamPrincipalAccessBoundaryPolicy(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iam_principal_access_boundary_policy google_iam_principal_access_boundary_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iam_principal_access_boundary_policy google_iam_principal_access_boundary_policy} Resource.
 func NewGoogleIamPrincipalAccessBoundaryPolicy_Override(g GoogleIamPrincipalAccessBoundaryPolicy, scope constructs.Construct, id *string, config *GoogleIamPrincipalAccessBoundaryPolicyConfig) {
 	_init_.Initialize()
 

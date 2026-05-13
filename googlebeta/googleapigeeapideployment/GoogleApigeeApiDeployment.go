@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apigee_api_deployment google_apigee_api_deployment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_api_deployment google_apigee_api_deployment}.
 type GoogleApigeeApiDeployment interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -422,7 +422,7 @@ func (j *jsiiProxy_GoogleApigeeApiDeployment) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apigee_api_deployment google_apigee_api_deployment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_api_deployment google_apigee_api_deployment} Resource.
 func NewGoogleApigeeApiDeployment(scope constructs.Construct, id *string, config *GoogleApigeeApiDeploymentConfig) GoogleApigeeApiDeployment {
 	_init_.Initialize()
 
@@ -440,7 +440,7 @@ func NewGoogleApigeeApiDeployment(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apigee_api_deployment google_apigee_api_deployment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_api_deployment google_apigee_api_deployment} Resource.
 func NewGoogleApigeeApiDeployment_Override(g GoogleApigeeApiDeployment, scope constructs.Construct, id *string, config *GoogleApigeeApiDeploymentConfig) {
 	_init_.Initialize()
 

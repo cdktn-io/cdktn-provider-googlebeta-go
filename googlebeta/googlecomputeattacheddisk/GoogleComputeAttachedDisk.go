@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_attached_disk google_compute_attached_disk}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_attached_disk google_compute_attached_disk}.
 type GoogleComputeAttachedDisk interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -509,7 +509,7 @@ func (j *jsiiProxy_GoogleComputeAttachedDisk) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_attached_disk google_compute_attached_disk} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_attached_disk google_compute_attached_disk} Resource.
 func NewGoogleComputeAttachedDisk(scope constructs.Construct, id *string, config *GoogleComputeAttachedDiskConfig) GoogleComputeAttachedDisk {
 	_init_.Initialize()
 
@@ -527,7 +527,7 @@ func NewGoogleComputeAttachedDisk(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_attached_disk google_compute_attached_disk} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_attached_disk google_compute_attached_disk} Resource.
 func NewGoogleComputeAttachedDisk_Override(g GoogleComputeAttachedDisk, scope constructs.Construct, id *string, config *GoogleComputeAttachedDiskConfig) {
 	_init_.Initialize()
 

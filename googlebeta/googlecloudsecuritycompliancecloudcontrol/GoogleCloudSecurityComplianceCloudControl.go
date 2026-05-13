@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_security_compliance_cloud_control google_cloud_security_compliance_cloud_control}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloud_security_compliance_cloud_control google_cloud_security_compliance_cloud_control}.
 type GoogleCloudSecurityComplianceCloudControl interface {
 	cdktn.TerraformResource
 	Categories() *[]*string
@@ -694,7 +694,7 @@ func (j *jsiiProxy_GoogleCloudSecurityComplianceCloudControl) TimeoutsInput() in
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_security_compliance_cloud_control google_cloud_security_compliance_cloud_control} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloud_security_compliance_cloud_control google_cloud_security_compliance_cloud_control} Resource.
 func NewGoogleCloudSecurityComplianceCloudControl(scope constructs.Construct, id *string, config *GoogleCloudSecurityComplianceCloudControlConfig) GoogleCloudSecurityComplianceCloudControl {
 	_init_.Initialize()
 
@@ -712,7 +712,7 @@ func NewGoogleCloudSecurityComplianceCloudControl(scope constructs.Construct, id
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_security_compliance_cloud_control google_cloud_security_compliance_cloud_control} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloud_security_compliance_cloud_control google_cloud_security_compliance_cloud_control} Resource.
 func NewGoogleCloudSecurityComplianceCloudControl_Override(g GoogleCloudSecurityComplianceCloudControl, scope constructs.Construct, id *string, config *GoogleCloudSecurityComplianceCloudControlConfig) {
 	_init_.Initialize()
 

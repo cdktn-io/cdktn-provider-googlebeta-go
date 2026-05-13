@@ -30,6 +30,8 @@ type GoogleWorkstationsWorkstationConfigPersistentDirectoriesOutputReference int
 	CreationStack() *[]*string
 	// Experimental.
 	Fqn() *string
+	GceHd() GoogleWorkstationsWorkstationConfigPersistentDirectoriesGceHdOutputReference
+	GceHdInput() *GoogleWorkstationsWorkstationConfigPersistentDirectoriesGceHd
 	GcePd() GoogleWorkstationsWorkstationConfigPersistentDirectoriesGcePdOutputReference
 	GcePdInput() *GoogleWorkstationsWorkstationConfigPersistentDirectoriesGcePd
 	InternalValue() interface{}
@@ -69,7 +71,9 @@ type GoogleWorkstationsWorkstationConfigPersistentDirectoriesOutputReference int
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutGceHd(value *GoogleWorkstationsWorkstationConfigPersistentDirectoriesGceHd)
 	PutGcePd(value *GoogleWorkstationsWorkstationConfigPersistentDirectoriesGcePd)
+	ResetGceHd()
 	ResetGcePd()
 	ResetMountPath()
 	// Produce the Token's value at resolution time.
@@ -122,6 +126,26 @@ func (j *jsiiProxy_GoogleWorkstationsWorkstationConfigPersistentDirectoriesOutpu
 	_jsii_.Get(
 		j,
 		"fqn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleWorkstationsWorkstationConfigPersistentDirectoriesOutputReference) GceHd() GoogleWorkstationsWorkstationConfigPersistentDirectoriesGceHdOutputReference {
+	var returns GoogleWorkstationsWorkstationConfigPersistentDirectoriesGceHdOutputReference
+	_jsii_.Get(
+		j,
+		"gceHd",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleWorkstationsWorkstationConfigPersistentDirectoriesOutputReference) GceHdInput() *GoogleWorkstationsWorkstationConfigPersistentDirectoriesGceHd {
+	var returns *GoogleWorkstationsWorkstationConfigPersistentDirectoriesGceHd
+	_jsii_.Get(
+		j,
+		"gceHdInput",
 		&returns,
 	)
 	return returns
@@ -477,6 +501,17 @@ func (g *jsiiProxy_GoogleWorkstationsWorkstationConfigPersistentDirectoriesOutpu
 	return returns
 }
 
+func (g *jsiiProxy_GoogleWorkstationsWorkstationConfigPersistentDirectoriesOutputReference) PutGceHd(value *GoogleWorkstationsWorkstationConfigPersistentDirectoriesGceHd) {
+	if err := g.validatePutGceHdParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putGceHd",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleWorkstationsWorkstationConfigPersistentDirectoriesOutputReference) PutGcePd(value *GoogleWorkstationsWorkstationConfigPersistentDirectoriesGcePd) {
 	if err := g.validatePutGcePdParameters(value); err != nil {
 		panic(err)
@@ -485,6 +520,14 @@ func (g *jsiiProxy_GoogleWorkstationsWorkstationConfigPersistentDirectoriesOutpu
 		g,
 		"putGcePd",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleWorkstationsWorkstationConfigPersistentDirectoriesOutputReference) ResetGceHd() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetGceHd",
+		nil, // no parameters
 	)
 }
 

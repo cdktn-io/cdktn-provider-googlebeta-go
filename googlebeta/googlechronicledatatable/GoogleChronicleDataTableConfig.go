@@ -30,23 +30,23 @@ type GoogleChronicleDataTableConfig struct {
 	// - Contains only letters, numbers and underscore.
 	// - Must be unique and has length < 256.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_data_table#data_table_id GoogleChronicleDataTable#data_table_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_chronicle_data_table#data_table_id GoogleChronicleDataTable#data_table_id}
 	DataTableId *string `field:"required" json:"dataTableId" yaml:"dataTableId"`
 	// A user-provided description of the data table.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_data_table#description GoogleChronicleDataTable#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_chronicle_data_table#description GoogleChronicleDataTable#description}
 	Description *string `field:"required" json:"description" yaml:"description"`
 	// Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_data_table#instance GoogleChronicleDataTable#instance}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_chronicle_data_table#instance GoogleChronicleDataTable#instance}
 	Instance *string `field:"required" json:"instance" yaml:"instance"`
 	// Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_data_table#location GoogleChronicleDataTable#location}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_chronicle_data_table#location GoogleChronicleDataTable#location}
 	Location *string `field:"required" json:"location" yaml:"location"`
 	// column_info block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_data_table#column_info GoogleChronicleDataTable#column_info}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_chronicle_data_table#column_info GoogleChronicleDataTable#column_info}
 	ColumnInfo interface{} `field:"optional" json:"columnInfo" yaml:"columnInfo"`
 	// The policy governing the deletion of the data table.
 	//
@@ -54,26 +54,26 @@ type GoogleChronicleDataTableConfig struct {
 	// If set to 'DEFAULT',or if the field is omitted, the data table must be empty before it can be deleted.
 	// Possible values: DEFAULT, FORCE
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_data_table#deletion_policy GoogleChronicleDataTable#deletion_policy}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_chronicle_data_table#deletion_policy GoogleChronicleDataTable#deletion_policy}
 	DeletionPolicy *string `field:"optional" json:"deletionPolicy" yaml:"deletionPolicy"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_data_table#id GoogleChronicleDataTable#id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_chronicle_data_table#id GoogleChronicleDataTable#id}.
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
 	Id *string `field:"optional" json:"id" yaml:"id"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_data_table#project GoogleChronicleDataTable#project}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_chronicle_data_table#project GoogleChronicleDataTable#project}.
 	Project *string `field:"optional" json:"project" yaml:"project"`
 	// User-provided TTL of the data table.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_data_table#row_time_to_live GoogleChronicleDataTable#row_time_to_live}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_chronicle_data_table#row_time_to_live GoogleChronicleDataTable#row_time_to_live}
 	RowTimeToLive *string `field:"optional" json:"rowTimeToLive" yaml:"rowTimeToLive"`
 	// scope_info block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_data_table#scope_info GoogleChronicleDataTable#scope_info}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_chronicle_data_table#scope_info GoogleChronicleDataTable#scope_info}
 	ScopeInfo *GoogleChronicleDataTableScopeInfo `field:"optional" json:"scopeInfo" yaml:"scopeInfo"`
 	// timeouts block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_data_table#timeouts GoogleChronicleDataTable#timeouts}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_chronicle_data_table#timeouts GoogleChronicleDataTable#timeouts}
 	Timeouts *GoogleChronicleDataTableTimeouts `field:"optional" json:"timeouts" yaml:"timeouts"`
 }
 

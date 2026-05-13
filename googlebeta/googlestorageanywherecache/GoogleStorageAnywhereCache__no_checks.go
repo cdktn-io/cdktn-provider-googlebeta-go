@@ -115,6 +115,10 @@ func (j *jsiiProxy_GoogleStorageAnywhereCache) validateSetIdParameters(val *stri
 	return nil
 }
 
+func (j *jsiiProxy_GoogleStorageAnywhereCache) validateSetIngestOnWriteParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleStorageAnywhereCache) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }

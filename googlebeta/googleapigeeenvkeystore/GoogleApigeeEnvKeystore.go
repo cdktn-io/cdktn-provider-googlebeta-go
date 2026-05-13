@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apigee_env_keystore google_apigee_env_keystore}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_env_keystore google_apigee_env_keystore}.
 type GoogleApigeeEnvKeystore interface {
 	cdktn.TerraformResource
 	Aliases() *[]*string
@@ -400,7 +400,7 @@ func (j *jsiiProxy_GoogleApigeeEnvKeystore) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apigee_env_keystore google_apigee_env_keystore} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_env_keystore google_apigee_env_keystore} Resource.
 func NewGoogleApigeeEnvKeystore(scope constructs.Construct, id *string, config *GoogleApigeeEnvKeystoreConfig) GoogleApigeeEnvKeystore {
 	_init_.Initialize()
 
@@ -418,7 +418,7 @@ func NewGoogleApigeeEnvKeystore(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apigee_env_keystore google_apigee_env_keystore} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_env_keystore google_apigee_env_keystore} Resource.
 func NewGoogleApigeeEnvKeystore_Override(g GoogleApigeeEnvKeystore, scope constructs.Construct, id *string, config *GoogleApigeeEnvKeystoreConfig) {
 	_init_.Initialize()
 

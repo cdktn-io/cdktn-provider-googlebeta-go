@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_firebase_ai_logic_config google_firebase_ai_logic_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_firebase_ai_logic_config google_firebase_ai_logic_config}.
 type GoogleFirebaseAiLogicConfig interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -474,7 +474,7 @@ func (j *jsiiProxy_GoogleFirebaseAiLogicConfig) TrafficFilterInput() *GoogleFire
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_firebase_ai_logic_config google_firebase_ai_logic_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_firebase_ai_logic_config google_firebase_ai_logic_config} Resource.
 func NewGoogleFirebaseAiLogicConfig(scope constructs.Construct, id *string, config *GoogleFirebaseAiLogicConfigConfig) GoogleFirebaseAiLogicConfig {
 	_init_.Initialize()
 
@@ -492,7 +492,7 @@ func NewGoogleFirebaseAiLogicConfig(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_firebase_ai_logic_config google_firebase_ai_logic_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_firebase_ai_logic_config google_firebase_ai_logic_config} Resource.
 func NewGoogleFirebaseAiLogicConfig_Override(g GoogleFirebaseAiLogicConfig, scope constructs.Construct, id *string, config *GoogleFirebaseAiLogicConfigConfig) {
 	_init_.Initialize()
 

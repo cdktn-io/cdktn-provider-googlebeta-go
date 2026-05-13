@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_agent_registry_iam_policy google_iap_agent_registry_iam_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iap_agent_registry_iam_policy google_iap_agent_registry_iam_policy}.
 type GoogleIapAgentRegistryIamPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -400,7 +400,7 @@ func (j *jsiiProxy_GoogleIapAgentRegistryIamPolicy) TerraformResourceType() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_agent_registry_iam_policy google_iap_agent_registry_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iap_agent_registry_iam_policy google_iap_agent_registry_iam_policy} Resource.
 func NewGoogleIapAgentRegistryIamPolicy(scope constructs.Construct, id *string, config *GoogleIapAgentRegistryIamPolicyConfig) GoogleIapAgentRegistryIamPolicy {
 	_init_.Initialize()
 
@@ -418,7 +418,7 @@ func NewGoogleIapAgentRegistryIamPolicy(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_agent_registry_iam_policy google_iap_agent_registry_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iap_agent_registry_iam_policy google_iap_agent_registry_iam_policy} Resource.
 func NewGoogleIapAgentRegistryIamPolicy_Override(g GoogleIapAgentRegistryIamPolicy, scope constructs.Construct, id *string, config *GoogleIapAgentRegistryIamPolicyConfig) {
 	_init_.Initialize()
 

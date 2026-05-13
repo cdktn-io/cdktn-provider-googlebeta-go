@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_image_iam_binding google_compute_image_iam_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_image_iam_binding google_compute_image_iam_binding}.
 type GoogleComputeImageIamBinding interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -447,7 +447,7 @@ func (j *jsiiProxy_GoogleComputeImageIamBinding) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_image_iam_binding google_compute_image_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_image_iam_binding google_compute_image_iam_binding} Resource.
 func NewGoogleComputeImageIamBinding(scope constructs.Construct, id *string, config *GoogleComputeImageIamBindingConfig) GoogleComputeImageIamBinding {
 	_init_.Initialize()
 
@@ -465,7 +465,7 @@ func NewGoogleComputeImageIamBinding(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_image_iam_binding google_compute_image_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_image_iam_binding google_compute_image_iam_binding} Resource.
 func NewGoogleComputeImageIamBinding_Override(g GoogleComputeImageIamBinding, scope constructs.Construct, id *string, config *GoogleComputeImageIamBindingConfig) {
 	_init_.Initialize()
 

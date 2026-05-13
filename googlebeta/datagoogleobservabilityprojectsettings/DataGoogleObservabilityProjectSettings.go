@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_observability_project_settings google_observability_project_settings}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_observability_project_settings google_observability_project_settings}.
 type DataGoogleObservabilityProjectSettings interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -364,7 +364,7 @@ func (j *jsiiProxy_DataGoogleObservabilityProjectSettings) TerraformResourceType
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_observability_project_settings google_observability_project_settings} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_observability_project_settings google_observability_project_settings} Data Source.
 func NewDataGoogleObservabilityProjectSettings(scope constructs.Construct, id *string, config *DataGoogleObservabilityProjectSettingsConfig) DataGoogleObservabilityProjectSettings {
 	_init_.Initialize()
 
@@ -382,7 +382,7 @@ func NewDataGoogleObservabilityProjectSettings(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_observability_project_settings google_observability_project_settings} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_observability_project_settings google_observability_project_settings} Data Source.
 func NewDataGoogleObservabilityProjectSettings_Override(d DataGoogleObservabilityProjectSettings, scope constructs.Construct, id *string, config *DataGoogleObservabilityProjectSettingsConfig) {
 	_init_.Initialize()
 

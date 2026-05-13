@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_instance_template_iam_member google_compute_instance_template_iam_member}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_instance_template_iam_member google_compute_instance_template_iam_member}.
 type GoogleComputeInstanceTemplateIamMember interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -447,7 +447,7 @@ func (j *jsiiProxy_GoogleComputeInstanceTemplateIamMember) TerraformResourceType
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_instance_template_iam_member google_compute_instance_template_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_instance_template_iam_member google_compute_instance_template_iam_member} Resource.
 func NewGoogleComputeInstanceTemplateIamMember(scope constructs.Construct, id *string, config *GoogleComputeInstanceTemplateIamMemberConfig) GoogleComputeInstanceTemplateIamMember {
 	_init_.Initialize()
 
@@ -465,7 +465,7 @@ func NewGoogleComputeInstanceTemplateIamMember(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_instance_template_iam_member google_compute_instance_template_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_instance_template_iam_member google_compute_instance_template_iam_member} Resource.
 func NewGoogleComputeInstanceTemplateIamMember_Override(g GoogleComputeInstanceTemplateIamMember, scope constructs.Construct, id *string, config *GoogleComputeInstanceTemplateIamMemberConfig) {
 	_init_.Initialize()
 

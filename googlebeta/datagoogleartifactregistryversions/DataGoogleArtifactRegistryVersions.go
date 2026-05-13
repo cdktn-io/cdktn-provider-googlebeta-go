@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_artifact_registry_versions google_artifact_registry_versions}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_artifact_registry_versions google_artifact_registry_versions}.
 type DataGoogleArtifactRegistryVersions interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -426,7 +426,7 @@ func (j *jsiiProxy_DataGoogleArtifactRegistryVersions) ViewInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_artifact_registry_versions google_artifact_registry_versions} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_artifact_registry_versions google_artifact_registry_versions} Data Source.
 func NewDataGoogleArtifactRegistryVersions(scope constructs.Construct, id *string, config *DataGoogleArtifactRegistryVersionsConfig) DataGoogleArtifactRegistryVersions {
 	_init_.Initialize()
 
@@ -444,7 +444,7 @@ func NewDataGoogleArtifactRegistryVersions(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_artifact_registry_versions google_artifact_registry_versions} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_artifact_registry_versions google_artifact_registry_versions} Data Source.
 func NewDataGoogleArtifactRegistryVersions_Override(d DataGoogleArtifactRegistryVersions, scope constructs.Construct, id *string, config *DataGoogleArtifactRegistryVersionsConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_logging_folder_exclusion google_logging_folder_exclusion}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_logging_folder_exclusion google_logging_folder_exclusion}.
 type GoogleLoggingFolderExclusion interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -436,7 +436,7 @@ func (j *jsiiProxy_GoogleLoggingFolderExclusion) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_logging_folder_exclusion google_logging_folder_exclusion} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_logging_folder_exclusion google_logging_folder_exclusion} Resource.
 func NewGoogleLoggingFolderExclusion(scope constructs.Construct, id *string, config *GoogleLoggingFolderExclusionConfig) GoogleLoggingFolderExclusion {
 	_init_.Initialize()
 
@@ -454,7 +454,7 @@ func NewGoogleLoggingFolderExclusion(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_logging_folder_exclusion google_logging_folder_exclusion} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_logging_folder_exclusion google_logging_folder_exclusion} Resource.
 func NewGoogleLoggingFolderExclusion_Override(g GoogleLoggingFolderExclusion, scope constructs.Construct, id *string, config *GoogleLoggingFolderExclusionConfig) {
 	_init_.Initialize()
 

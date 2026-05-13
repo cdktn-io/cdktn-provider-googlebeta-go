@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_saas_runtime_saas google_saas_runtime_saas}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_saas_runtime_saas google_saas_runtime_saas}.
 type GoogleSaasRuntimeSaas interface {
 	cdktn.TerraformResource
 	Annotations() *map[string]*string
@@ -573,7 +573,7 @@ func (j *jsiiProxy_GoogleSaasRuntimeSaas) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_saas_runtime_saas google_saas_runtime_saas} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_saas_runtime_saas google_saas_runtime_saas} Resource.
 func NewGoogleSaasRuntimeSaas(scope constructs.Construct, id *string, config *GoogleSaasRuntimeSaasConfig) GoogleSaasRuntimeSaas {
 	_init_.Initialize()
 
@@ -591,7 +591,7 @@ func NewGoogleSaasRuntimeSaas(scope constructs.Construct, id *string, config *Go
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_saas_runtime_saas google_saas_runtime_saas} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_saas_runtime_saas google_saas_runtime_saas} Resource.
 func NewGoogleSaasRuntimeSaas_Override(g GoogleSaasRuntimeSaas, scope constructs.Construct, id *string, config *GoogleSaasRuntimeSaasConfig) {
 	_init_.Initialize()
 

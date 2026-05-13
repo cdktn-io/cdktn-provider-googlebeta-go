@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_bigquery_datapolicyv2_data_policy_iam_policy google_bigquery_datapolicyv2_data_policy_iam_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_bigquery_datapolicyv2_data_policy_iam_policy google_bigquery_datapolicyv2_data_policy_iam_policy}.
 type DataGoogleBigqueryDatapolicyv2DataPolicyIamPolicy interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -367,7 +367,7 @@ func (j *jsiiProxy_DataGoogleBigqueryDatapolicyv2DataPolicyIamPolicy) TerraformR
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_bigquery_datapolicyv2_data_policy_iam_policy google_bigquery_datapolicyv2_data_policy_iam_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_bigquery_datapolicyv2_data_policy_iam_policy google_bigquery_datapolicyv2_data_policy_iam_policy} Data Source.
 func NewDataGoogleBigqueryDatapolicyv2DataPolicyIamPolicy(scope constructs.Construct, id *string, config *DataGoogleBigqueryDatapolicyv2DataPolicyIamPolicyConfig) DataGoogleBigqueryDatapolicyv2DataPolicyIamPolicy {
 	_init_.Initialize()
 
@@ -385,7 +385,7 @@ func NewDataGoogleBigqueryDatapolicyv2DataPolicyIamPolicy(scope constructs.Const
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_bigquery_datapolicyv2_data_policy_iam_policy google_bigquery_datapolicyv2_data_policy_iam_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_bigquery_datapolicyv2_data_policy_iam_policy google_bigquery_datapolicyv2_data_policy_iam_policy} Data Source.
 func NewDataGoogleBigqueryDatapolicyv2DataPolicyIamPolicy_Override(d DataGoogleBigqueryDatapolicyv2DataPolicyIamPolicy, scope constructs.Construct, id *string, config *DataGoogleBigqueryDatapolicyv2DataPolicyIamPolicyConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster_iam_binding google_dataproc_cluster_iam_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataproc_cluster_iam_binding google_dataproc_cluster_iam_binding}.
 type GoogleDataprocClusterIamBinding interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -471,7 +471,7 @@ func (j *jsiiProxy_GoogleDataprocClusterIamBinding) TerraformResourceType() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster_iam_binding google_dataproc_cluster_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataproc_cluster_iam_binding google_dataproc_cluster_iam_binding} Resource.
 func NewGoogleDataprocClusterIamBinding(scope constructs.Construct, id *string, config *GoogleDataprocClusterIamBindingConfig) GoogleDataprocClusterIamBinding {
 	_init_.Initialize()
 
@@ -489,7 +489,7 @@ func NewGoogleDataprocClusterIamBinding(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataproc_cluster_iam_binding google_dataproc_cluster_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataproc_cluster_iam_binding google_dataproc_cluster_iam_binding} Resource.
 func NewGoogleDataprocClusterIamBinding_Override(g GoogleDataprocClusterIamBinding, scope constructs.Construct, id *string, config *GoogleDataprocClusterIamBindingConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_repository_iam_policy google_dataform_repository_iam_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataform_repository_iam_policy google_dataform_repository_iam_policy}.
 type GoogleDataformRepositoryIamPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -424,7 +424,7 @@ func (j *jsiiProxy_GoogleDataformRepositoryIamPolicy) TerraformResourceType() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_repository_iam_policy google_dataform_repository_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataform_repository_iam_policy google_dataform_repository_iam_policy} Resource.
 func NewGoogleDataformRepositoryIamPolicy(scope constructs.Construct, id *string, config *GoogleDataformRepositoryIamPolicyConfig) GoogleDataformRepositoryIamPolicy {
 	_init_.Initialize()
 
@@ -442,7 +442,7 @@ func NewGoogleDataformRepositoryIamPolicy(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_repository_iam_policy google_dataform_repository_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataform_repository_iam_policy google_dataform_repository_iam_policy} Resource.
 func NewGoogleDataformRepositoryIamPolicy_Override(g GoogleDataformRepositoryIamPolicy, scope constructs.Construct, id *string, config *GoogleDataformRepositoryIamPolicyConfig) {
 	_init_.Initialize()
 

@@ -32,13 +32,13 @@ type DataGoogleComputeReservationConfig struct {
 	// characters must be a dash, lowercase letter, or digit, except the last
 	// character, which cannot be a dash.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_compute_reservation#name DataGoogleComputeReservation#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_compute_reservation#name DataGoogleComputeReservation#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// The zone where the reservation is made.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_compute_reservation#zone DataGoogleComputeReservation#zone}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_compute_reservation#zone DataGoogleComputeReservation#zone}
 	Zone *string `field:"required" json:"zone" yaml:"zone"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_compute_reservation#project DataGoogleComputeReservation#project}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_compute_reservation#project DataGoogleComputeReservation#project}.
 	Project *string `field:"optional" json:"project" yaml:"project"`
 }
 

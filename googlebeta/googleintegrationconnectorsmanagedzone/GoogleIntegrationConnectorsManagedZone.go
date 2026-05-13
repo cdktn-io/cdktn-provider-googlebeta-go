@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_integration_connectors_managed_zone google_integration_connectors_managed_zone}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_managed_zone google_integration_connectors_managed_zone}.
 type GoogleIntegrationConnectorsManagedZone interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -551,7 +551,7 @@ func (j *jsiiProxy_GoogleIntegrationConnectorsManagedZone) UpdateTime() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_integration_connectors_managed_zone google_integration_connectors_managed_zone} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_managed_zone google_integration_connectors_managed_zone} Resource.
 func NewGoogleIntegrationConnectorsManagedZone(scope constructs.Construct, id *string, config *GoogleIntegrationConnectorsManagedZoneConfig) GoogleIntegrationConnectorsManagedZone {
 	_init_.Initialize()
 
@@ -569,7 +569,7 @@ func NewGoogleIntegrationConnectorsManagedZone(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_integration_connectors_managed_zone google_integration_connectors_managed_zone} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_managed_zone google_integration_connectors_managed_zone} Resource.
 func NewGoogleIntegrationConnectorsManagedZone_Override(g GoogleIntegrationConnectorsManagedZone, scope constructs.Construct, id *string, config *GoogleIntegrationConnectorsManagedZoneConfig) {
 	_init_.Initialize()
 

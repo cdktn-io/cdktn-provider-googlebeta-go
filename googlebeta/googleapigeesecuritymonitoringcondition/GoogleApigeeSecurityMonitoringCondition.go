@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apigee_security_monitoring_condition google_apigee_security_monitoring_condition}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_security_monitoring_condition google_apigee_security_monitoring_condition}.
 type GoogleApigeeSecurityMonitoringCondition interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -514,7 +514,7 @@ func (j *jsiiProxy_GoogleApigeeSecurityMonitoringCondition) UpdateTime() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apigee_security_monitoring_condition google_apigee_security_monitoring_condition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_security_monitoring_condition google_apigee_security_monitoring_condition} Resource.
 func NewGoogleApigeeSecurityMonitoringCondition(scope constructs.Construct, id *string, config *GoogleApigeeSecurityMonitoringConditionConfig) GoogleApigeeSecurityMonitoringCondition {
 	_init_.Initialize()
 
@@ -532,7 +532,7 @@ func NewGoogleApigeeSecurityMonitoringCondition(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apigee_security_monitoring_condition google_apigee_security_monitoring_condition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_security_monitoring_condition google_apigee_security_monitoring_condition} Resource.
 func NewGoogleApigeeSecurityMonitoringCondition_Override(g GoogleApigeeSecurityMonitoringCondition, scope constructs.Construct, id *string, config *GoogleApigeeSecurityMonitoringConditionConfig) {
 	_init_.Initialize()
 

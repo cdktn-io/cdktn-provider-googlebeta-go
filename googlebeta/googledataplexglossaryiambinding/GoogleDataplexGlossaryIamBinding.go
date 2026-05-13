@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_glossary_iam_binding google_dataplex_glossary_iam_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataplex_glossary_iam_binding google_dataplex_glossary_iam_binding}.
 type GoogleDataplexGlossaryIamBinding interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -471,7 +471,7 @@ func (j *jsiiProxy_GoogleDataplexGlossaryIamBinding) TerraformResourceType() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_glossary_iam_binding google_dataplex_glossary_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataplex_glossary_iam_binding google_dataplex_glossary_iam_binding} Resource.
 func NewGoogleDataplexGlossaryIamBinding(scope constructs.Construct, id *string, config *GoogleDataplexGlossaryIamBindingConfig) GoogleDataplexGlossaryIamBinding {
 	_init_.Initialize()
 
@@ -489,7 +489,7 @@ func NewGoogleDataplexGlossaryIamBinding(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_glossary_iam_binding google_dataplex_glossary_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataplex_glossary_iam_binding google_dataplex_glossary_iam_binding} Resource.
 func NewGoogleDataplexGlossaryIamBinding_Override(g GoogleDataplexGlossaryIamBinding, scope constructs.Construct, id *string, config *GoogleDataplexGlossaryIamBindingConfig) {
 	_init_.Initialize()
 

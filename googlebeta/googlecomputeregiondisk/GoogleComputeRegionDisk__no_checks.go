@@ -87,6 +87,10 @@ func (g *jsiiProxy_GoogleComputeRegionDisk) validatePutGuestOsFeaturesParameters
 	return nil
 }
 
+func (g *jsiiProxy_GoogleComputeRegionDisk) validatePutSourceImageEncryptionKeyParameters(value *GoogleComputeRegionDiskSourceImageEncryptionKey) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleComputeRegionDisk) validatePutSourceSnapshotEncryptionKeyParameters(value *GoogleComputeRegionDiskSourceSnapshotEncryptionKey) error {
 	return nil
 }
@@ -140,6 +144,10 @@ func (j *jsiiProxy_GoogleComputeRegionDisk) validateSetEraseWindowsVssSignatureP
 }
 
 func (j *jsiiProxy_GoogleComputeRegionDisk) validateSetIdParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleComputeRegionDisk) validateSetImageParameters(val *string) error {
 	return nil
 }
 

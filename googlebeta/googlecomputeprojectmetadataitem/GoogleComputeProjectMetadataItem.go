@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_project_metadata_item google_compute_project_metadata_item}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_project_metadata_item google_compute_project_metadata_item}.
 type GoogleComputeProjectMetadataItem interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -413,7 +413,7 @@ func (j *jsiiProxy_GoogleComputeProjectMetadataItem) ValueInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_project_metadata_item google_compute_project_metadata_item} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_project_metadata_item google_compute_project_metadata_item} Resource.
 func NewGoogleComputeProjectMetadataItem(scope constructs.Construct, id *string, config *GoogleComputeProjectMetadataItemConfig) GoogleComputeProjectMetadataItem {
 	_init_.Initialize()
 
@@ -431,7 +431,7 @@ func NewGoogleComputeProjectMetadataItem(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_project_metadata_item google_compute_project_metadata_item} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_project_metadata_item google_compute_project_metadata_item} Resource.
 func NewGoogleComputeProjectMetadataItem_Override(g GoogleComputeProjectMetadataItem, scope constructs.Construct, id *string, config *GoogleComputeProjectMetadataItemConfig) {
 	_init_.Initialize()
 

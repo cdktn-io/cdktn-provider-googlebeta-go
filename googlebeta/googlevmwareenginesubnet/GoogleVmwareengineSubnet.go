@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vmwareengine_subnet google_vmwareengine_subnet}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vmwareengine_subnet google_vmwareengine_subnet}.
 type GoogleVmwareengineSubnet interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -522,7 +522,7 @@ func (j *jsiiProxy_GoogleVmwareengineSubnet) VlanId() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vmwareengine_subnet google_vmwareengine_subnet} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vmwareengine_subnet google_vmwareengine_subnet} Resource.
 func NewGoogleVmwareengineSubnet(scope constructs.Construct, id *string, config *GoogleVmwareengineSubnetConfig) GoogleVmwareengineSubnet {
 	_init_.Initialize()
 
@@ -540,7 +540,7 @@ func NewGoogleVmwareengineSubnet(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vmwareengine_subnet google_vmwareengine_subnet} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vmwareengine_subnet google_vmwareengine_subnet} Resource.
 func NewGoogleVmwareengineSubnet_Override(g GoogleVmwareengineSubnet, scope constructs.Construct, id *string, config *GoogleVmwareengineSubnetConfig) {
 	_init_.Initialize()
 

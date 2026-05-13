@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_reservation_group google_bigquery_reservation_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_bigquery_reservation_group google_bigquery_reservation_group}.
 type GoogleBigqueryReservationGroup interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -414,7 +414,7 @@ func (j *jsiiProxy_GoogleBigqueryReservationGroup) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_reservation_group google_bigquery_reservation_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_bigquery_reservation_group google_bigquery_reservation_group} Resource.
 func NewGoogleBigqueryReservationGroup(scope constructs.Construct, id *string, config *GoogleBigqueryReservationGroupConfig) GoogleBigqueryReservationGroup {
 	_init_.Initialize()
 
@@ -432,7 +432,7 @@ func NewGoogleBigqueryReservationGroup(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_reservation_group google_bigquery_reservation_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_bigquery_reservation_group google_bigquery_reservation_group} Resource.
 func NewGoogleBigqueryReservationGroup_Override(g GoogleBigqueryReservationGroup, scope constructs.Construct, id *string, config *GoogleBigqueryReservationGroupConfig) {
 	_init_.Initialize()
 

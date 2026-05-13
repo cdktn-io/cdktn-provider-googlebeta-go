@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_datapolicyv2_data_policy_iam_member google_bigquery_datapolicyv2_data_policy_iam_member}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_bigquery_datapolicyv2_data_policy_iam_member google_bigquery_datapolicyv2_data_policy_iam_member}.
 type GoogleBigqueryDatapolicyv2DataPolicyIamMember interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -471,7 +471,7 @@ func (j *jsiiProxy_GoogleBigqueryDatapolicyv2DataPolicyIamMember) TerraformResou
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_datapolicyv2_data_policy_iam_member google_bigquery_datapolicyv2_data_policy_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_bigquery_datapolicyv2_data_policy_iam_member google_bigquery_datapolicyv2_data_policy_iam_member} Resource.
 func NewGoogleBigqueryDatapolicyv2DataPolicyIamMember(scope constructs.Construct, id *string, config *GoogleBigqueryDatapolicyv2DataPolicyIamMemberConfig) GoogleBigqueryDatapolicyv2DataPolicyIamMember {
 	_init_.Initialize()
 
@@ -489,7 +489,7 @@ func NewGoogleBigqueryDatapolicyv2DataPolicyIamMember(scope constructs.Construct
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_datapolicyv2_data_policy_iam_member google_bigquery_datapolicyv2_data_policy_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_bigquery_datapolicyv2_data_policy_iam_member google_bigquery_datapolicyv2_data_policy_iam_member} Resource.
 func NewGoogleBigqueryDatapolicyv2DataPolicyIamMember_Override(g GoogleBigqueryDatapolicyv2DataPolicyIamMember, scope constructs.Construct, id *string, config *GoogleBigqueryDatapolicyv2DataPolicyIamMemberConfig) {
 	_init_.Initialize()
 

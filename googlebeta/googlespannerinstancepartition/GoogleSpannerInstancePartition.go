@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_spanner_instance_partition google_spanner_instance_partition}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_spanner_instance_partition google_spanner_instance_partition}.
 type GoogleSpannerInstancePartition interface {
 	cdktn.TerraformResource
 	AutoscalingConfig() GoogleSpannerInstancePartitionAutoscalingConfigOutputReference
@@ -542,7 +542,7 @@ func (j *jsiiProxy_GoogleSpannerInstancePartition) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_spanner_instance_partition google_spanner_instance_partition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_spanner_instance_partition google_spanner_instance_partition} Resource.
 func NewGoogleSpannerInstancePartition(scope constructs.Construct, id *string, config *GoogleSpannerInstancePartitionConfig) GoogleSpannerInstancePartition {
 	_init_.Initialize()
 
@@ -560,7 +560,7 @@ func NewGoogleSpannerInstancePartition(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_spanner_instance_partition google_spanner_instance_partition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_spanner_instance_partition google_spanner_instance_partition} Resource.
 func NewGoogleSpannerInstancePartition_Override(g GoogleSpannerInstancePartition, scope constructs.Construct, id *string, config *GoogleSpannerInstancePartitionConfig) {
 	_init_.Initialize()
 

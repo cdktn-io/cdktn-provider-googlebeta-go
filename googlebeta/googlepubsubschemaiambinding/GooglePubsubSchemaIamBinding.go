@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_pubsub_schema_iam_binding google_pubsub_schema_iam_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_pubsub_schema_iam_binding google_pubsub_schema_iam_binding}.
 type GooglePubsubSchemaIamBinding interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -447,7 +447,7 @@ func (j *jsiiProxy_GooglePubsubSchemaIamBinding) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_pubsub_schema_iam_binding google_pubsub_schema_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_pubsub_schema_iam_binding google_pubsub_schema_iam_binding} Resource.
 func NewGooglePubsubSchemaIamBinding(scope constructs.Construct, id *string, config *GooglePubsubSchemaIamBindingConfig) GooglePubsubSchemaIamBinding {
 	_init_.Initialize()
 
@@ -465,7 +465,7 @@ func NewGooglePubsubSchemaIamBinding(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_pubsub_schema_iam_binding google_pubsub_schema_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_pubsub_schema_iam_binding google_pubsub_schema_iam_binding} Resource.
 func NewGooglePubsubSchemaIamBinding_Override(g GooglePubsubSchemaIamBinding, scope constructs.Construct, id *string, config *GooglePubsubSchemaIamBindingConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_multicloud_data_transfer_config google_network_connectivity_multicloud_data_transfer_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_connectivity_multicloud_data_transfer_config google_network_connectivity_multicloud_data_transfer_config}.
 type GoogleNetworkConnectivityMulticloudDataTransferConfig interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -573,7 +573,7 @@ func (j *jsiiProxy_GoogleNetworkConnectivityMulticloudDataTransferConfig) Update
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_multicloud_data_transfer_config google_network_connectivity_multicloud_data_transfer_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_connectivity_multicloud_data_transfer_config google_network_connectivity_multicloud_data_transfer_config} Resource.
 func NewGoogleNetworkConnectivityMulticloudDataTransferConfig(scope constructs.Construct, id *string, config *GoogleNetworkConnectivityMulticloudDataTransferConfigConfig) GoogleNetworkConnectivityMulticloudDataTransferConfig {
 	_init_.Initialize()
 
@@ -591,7 +591,7 @@ func NewGoogleNetworkConnectivityMulticloudDataTransferConfig(scope constructs.C
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_multicloud_data_transfer_config google_network_connectivity_multicloud_data_transfer_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_connectivity_multicloud_data_transfer_config google_network_connectivity_multicloud_data_transfer_config} Resource.
 func NewGoogleNetworkConnectivityMulticloudDataTransferConfig_Override(g GoogleNetworkConnectivityMulticloudDataTransferConfig, scope constructs.Construct, id *string, config *GoogleNetworkConnectivityMulticloudDataTransferConfigConfig) {
 	_init_.Initialize()
 

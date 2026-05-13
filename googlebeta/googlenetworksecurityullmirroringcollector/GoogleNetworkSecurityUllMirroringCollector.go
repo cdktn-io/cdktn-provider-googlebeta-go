@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_security_ull_mirroring_collector google_network_security_ull_mirroring_collector}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_security_ull_mirroring_collector google_network_security_ull_mirroring_collector}.
 type GoogleNetworkSecurityUllMirroringCollector interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -560,7 +560,7 @@ func (j *jsiiProxy_GoogleNetworkSecurityUllMirroringCollector) UpdateTime() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_security_ull_mirroring_collector google_network_security_ull_mirroring_collector} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_security_ull_mirroring_collector google_network_security_ull_mirroring_collector} Resource.
 func NewGoogleNetworkSecurityUllMirroringCollector(scope constructs.Construct, id *string, config *GoogleNetworkSecurityUllMirroringCollectorConfig) GoogleNetworkSecurityUllMirroringCollector {
 	_init_.Initialize()
 
@@ -578,7 +578,7 @@ func NewGoogleNetworkSecurityUllMirroringCollector(scope constructs.Construct, i
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_security_ull_mirroring_collector google_network_security_ull_mirroring_collector} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_security_ull_mirroring_collector google_network_security_ull_mirroring_collector} Resource.
 func NewGoogleNetworkSecurityUllMirroringCollector_Override(g GoogleNetworkSecurityUllMirroringCollector, scope constructs.Construct, id *string, config *GoogleNetworkSecurityUllMirroringCollectorConfig) {
 	_init_.Initialize()
 

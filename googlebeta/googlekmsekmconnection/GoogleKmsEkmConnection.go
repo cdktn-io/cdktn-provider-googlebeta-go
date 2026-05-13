@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_kms_ekm_connection google_kms_ekm_connection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_kms_ekm_connection google_kms_ekm_connection}.
 type GoogleKmsEkmConnection interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -519,7 +519,7 @@ func (j *jsiiProxy_GoogleKmsEkmConnection) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_kms_ekm_connection google_kms_ekm_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_kms_ekm_connection google_kms_ekm_connection} Resource.
 func NewGoogleKmsEkmConnection(scope constructs.Construct, id *string, config *GoogleKmsEkmConnectionConfig) GoogleKmsEkmConnection {
 	_init_.Initialize()
 
@@ -537,7 +537,7 @@ func NewGoogleKmsEkmConnection(scope constructs.Construct, id *string, config *G
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_kms_ekm_connection google_kms_ekm_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_kms_ekm_connection google_kms_ekm_connection} Resource.
 func NewGoogleKmsEkmConnection_Override(g GoogleKmsEkmConnection, scope constructs.Construct, id *string, config *GoogleKmsEkmConnectionConfig) {
 	_init_.Initialize()
 

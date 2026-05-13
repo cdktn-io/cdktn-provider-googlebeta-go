@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_network_firewall_policy_association google_compute_network_firewall_policy_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_network_firewall_policy_association google_compute_network_firewall_policy_association}.
 type GoogleComputeNetworkFirewallPolicyAssociation interface {
 	cdktn.TerraformResource
 	AttachmentTarget() *string
@@ -447,7 +447,7 @@ func (j *jsiiProxy_GoogleComputeNetworkFirewallPolicyAssociation) TimeoutsInput(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_network_firewall_policy_association google_compute_network_firewall_policy_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_network_firewall_policy_association google_compute_network_firewall_policy_association} Resource.
 func NewGoogleComputeNetworkFirewallPolicyAssociation(scope constructs.Construct, id *string, config *GoogleComputeNetworkFirewallPolicyAssociationConfig) GoogleComputeNetworkFirewallPolicyAssociation {
 	_init_.Initialize()
 
@@ -465,7 +465,7 @@ func NewGoogleComputeNetworkFirewallPolicyAssociation(scope constructs.Construct
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_network_firewall_policy_association google_compute_network_firewall_policy_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_network_firewall_policy_association google_compute_network_firewall_policy_association} Resource.
 func NewGoogleComputeNetworkFirewallPolicyAssociation_Override(g GoogleComputeNetworkFirewallPolicyAssociation, scope constructs.Construct, id *string, config *GoogleComputeNetworkFirewallPolicyAssociationConfig) {
 	_init_.Initialize()
 

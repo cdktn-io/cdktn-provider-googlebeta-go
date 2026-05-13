@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_iap_app_engine_version_iam_policy google_iap_app_engine_version_iam_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_iap_app_engine_version_iam_policy google_iap_app_engine_version_iam_policy}.
 type DataGoogleIapAppEngineVersionIamPolicy interface {
 	cdktn.TerraformDataSource
 	AppId() *string
@@ -389,7 +389,7 @@ func (j *jsiiProxy_DataGoogleIapAppEngineVersionIamPolicy) VersionIdInput() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_iap_app_engine_version_iam_policy google_iap_app_engine_version_iam_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_iap_app_engine_version_iam_policy google_iap_app_engine_version_iam_policy} Data Source.
 func NewDataGoogleIapAppEngineVersionIamPolicy(scope constructs.Construct, id *string, config *DataGoogleIapAppEngineVersionIamPolicyConfig) DataGoogleIapAppEngineVersionIamPolicy {
 	_init_.Initialize()
 
@@ -407,7 +407,7 @@ func NewDataGoogleIapAppEngineVersionIamPolicy(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_iap_app_engine_version_iam_policy google_iap_app_engine_version_iam_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_iap_app_engine_version_iam_policy google_iap_app_engine_version_iam_policy} Data Source.
 func NewDataGoogleIapAppEngineVersionIamPolicy_Override(d DataGoogleIapAppEngineVersionIamPolicy, scope constructs.Construct, id *string, config *DataGoogleIapAppEngineVersionIamPolicyConfig) {
 	_init_.Initialize()
 

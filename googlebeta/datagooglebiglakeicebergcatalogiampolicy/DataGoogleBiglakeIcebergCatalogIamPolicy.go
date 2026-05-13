@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_biglake_iceberg_catalog_iam_policy google_biglake_iceberg_catalog_iam_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_biglake_iceberg_catalog_iam_policy google_biglake_iceberg_catalog_iam_policy}.
 type DataGoogleBiglakeIcebergCatalogIamPolicy interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -343,7 +343,7 @@ func (j *jsiiProxy_DataGoogleBiglakeIcebergCatalogIamPolicy) TerraformResourceTy
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_biglake_iceberg_catalog_iam_policy google_biglake_iceberg_catalog_iam_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_biglake_iceberg_catalog_iam_policy google_biglake_iceberg_catalog_iam_policy} Data Source.
 func NewDataGoogleBiglakeIcebergCatalogIamPolicy(scope constructs.Construct, id *string, config *DataGoogleBiglakeIcebergCatalogIamPolicyConfig) DataGoogleBiglakeIcebergCatalogIamPolicy {
 	_init_.Initialize()
 
@@ -361,7 +361,7 @@ func NewDataGoogleBiglakeIcebergCatalogIamPolicy(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_biglake_iceberg_catalog_iam_policy google_biglake_iceberg_catalog_iam_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_biglake_iceberg_catalog_iam_policy google_biglake_iceberg_catalog_iam_policy} Data Source.
 func NewDataGoogleBiglakeIcebergCatalogIamPolicy_Override(d DataGoogleBiglakeIcebergCatalogIamPolicy, scope constructs.Construct, id *string, config *DataGoogleBiglakeIcebergCatalogIamPolicyConfig) {
 	_init_.Initialize()
 

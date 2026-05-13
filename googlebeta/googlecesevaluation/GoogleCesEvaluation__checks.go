@@ -218,6 +218,17 @@ func (g *jsiiProxy_GoogleCesEvaluation) validatePutGoldenParameters(value *Googl
 	return nil
 }
 
+func (g *jsiiProxy_GoogleCesEvaluation) validatePutScenarioParameters(value *GoogleCesEvaluationScenario) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
+	}
+
+	return nil
+}
+
 func (g *jsiiProxy_GoogleCesEvaluation) validatePutTimeoutsParameters(value *GoogleCesEvaluationTimeouts) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")

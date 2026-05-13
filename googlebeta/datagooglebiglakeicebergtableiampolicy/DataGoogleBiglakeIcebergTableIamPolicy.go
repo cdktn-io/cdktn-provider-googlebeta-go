@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_biglake_iceberg_table_iam_policy google_biglake_iceberg_table_iam_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_biglake_iceberg_table_iam_policy google_biglake_iceberg_table_iam_policy}.
 type DataGoogleBiglakeIcebergTableIamPolicy interface {
 	cdktn.TerraformDataSource
 	Catalog() *string
@@ -389,7 +389,7 @@ func (j *jsiiProxy_DataGoogleBiglakeIcebergTableIamPolicy) TerraformResourceType
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_biglake_iceberg_table_iam_policy google_biglake_iceberg_table_iam_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_biglake_iceberg_table_iam_policy google_biglake_iceberg_table_iam_policy} Data Source.
 func NewDataGoogleBiglakeIcebergTableIamPolicy(scope constructs.Construct, id *string, config *DataGoogleBiglakeIcebergTableIamPolicyConfig) DataGoogleBiglakeIcebergTableIamPolicy {
 	_init_.Initialize()
 
@@ -407,7 +407,7 @@ func NewDataGoogleBiglakeIcebergTableIamPolicy(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_biglake_iceberg_table_iam_policy google_biglake_iceberg_table_iam_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_biglake_iceberg_table_iam_policy google_biglake_iceberg_table_iam_policy} Data Source.
 func NewDataGoogleBiglakeIcebergTableIamPolicy_Override(d DataGoogleBiglakeIcebergTableIamPolicy, scope constructs.Construct, id *string, config *DataGoogleBiglakeIcebergTableIamPolicyConfig) {
 	_init_.Initialize()
 

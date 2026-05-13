@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_firebase_admin_sdk_config google_firebase_admin_sdk_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_firebase_admin_sdk_config google_firebase_admin_sdk_config}.
 type DataGoogleFirebaseAdminSdkConfig interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -318,7 +318,7 @@ func (j *jsiiProxy_DataGoogleFirebaseAdminSdkConfig) TerraformResourceType() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_firebase_admin_sdk_config google_firebase_admin_sdk_config} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_firebase_admin_sdk_config google_firebase_admin_sdk_config} Data Source.
 func NewDataGoogleFirebaseAdminSdkConfig(scope constructs.Construct, id *string, config *DataGoogleFirebaseAdminSdkConfigConfig) DataGoogleFirebaseAdminSdkConfig {
 	_init_.Initialize()
 
@@ -336,7 +336,7 @@ func NewDataGoogleFirebaseAdminSdkConfig(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_firebase_admin_sdk_config google_firebase_admin_sdk_config} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_firebase_admin_sdk_config google_firebase_admin_sdk_config} Data Source.
 func NewDataGoogleFirebaseAdminSdkConfig_Override(d DataGoogleFirebaseAdminSdkConfig, scope constructs.Construct, id *string, config *DataGoogleFirebaseAdminSdkConfigConfig) {
 	_init_.Initialize()
 

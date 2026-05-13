@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_kms_key_handle google_kms_key_handle}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_kms_key_handle google_kms_key_handle}.
 type DataGoogleKmsKeyHandle interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -366,7 +366,7 @@ func (j *jsiiProxy_DataGoogleKmsKeyHandle) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_kms_key_handle google_kms_key_handle} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_kms_key_handle google_kms_key_handle} Data Source.
 func NewDataGoogleKmsKeyHandle(scope constructs.Construct, id *string, config *DataGoogleKmsKeyHandleConfig) DataGoogleKmsKeyHandle {
 	_init_.Initialize()
 
@@ -384,7 +384,7 @@ func NewDataGoogleKmsKeyHandle(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_kms_key_handle google_kms_key_handle} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_kms_key_handle google_kms_key_handle} Data Source.
 func NewDataGoogleKmsKeyHandle_Override(d DataGoogleKmsKeyHandle, scope constructs.Construct, id *string, config *DataGoogleKmsKeyHandleConfig) {
 	_init_.Initialize()
 

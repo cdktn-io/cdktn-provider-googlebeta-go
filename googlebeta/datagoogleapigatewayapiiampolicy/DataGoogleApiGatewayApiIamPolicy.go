@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_api_gateway_api_iam_policy google_api_gateway_api_iam_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_api_gateway_api_iam_policy google_api_gateway_api_iam_policy}.
 type DataGoogleApiGatewayApiIamPolicy interface {
 	cdktn.TerraformDataSource
 	Api() *string
@@ -343,7 +343,7 @@ func (j *jsiiProxy_DataGoogleApiGatewayApiIamPolicy) TerraformResourceType() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_api_gateway_api_iam_policy google_api_gateway_api_iam_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_api_gateway_api_iam_policy google_api_gateway_api_iam_policy} Data Source.
 func NewDataGoogleApiGatewayApiIamPolicy(scope constructs.Construct, id *string, config *DataGoogleApiGatewayApiIamPolicyConfig) DataGoogleApiGatewayApiIamPolicy {
 	_init_.Initialize()
 
@@ -361,7 +361,7 @@ func NewDataGoogleApiGatewayApiIamPolicy(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_api_gateway_api_iam_policy google_api_gateway_api_iam_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_api_gateway_api_iam_policy google_api_gateway_api_iam_policy} Data Source.
 func NewDataGoogleApiGatewayApiIamPolicy_Override(d DataGoogleApiGatewayApiIamPolicy, scope constructs.Construct, id *string, config *DataGoogleApiGatewayApiIamPolicyConfig) {
 	_init_.Initialize()
 

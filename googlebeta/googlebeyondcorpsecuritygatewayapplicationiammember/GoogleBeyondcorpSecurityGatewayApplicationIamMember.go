@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_beyondcorp_security_gateway_application_iam_member google_beyondcorp_security_gateway_application_iam_member}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_beyondcorp_security_gateway_application_iam_member google_beyondcorp_security_gateway_application_iam_member}.
 type GoogleBeyondcorpSecurityGatewayApplicationIamMember interface {
 	cdktn.TerraformResource
 	ApplicationId() *string
@@ -470,7 +470,7 @@ func (j *jsiiProxy_GoogleBeyondcorpSecurityGatewayApplicationIamMember) Terrafor
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_beyondcorp_security_gateway_application_iam_member google_beyondcorp_security_gateway_application_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_beyondcorp_security_gateway_application_iam_member google_beyondcorp_security_gateway_application_iam_member} Resource.
 func NewGoogleBeyondcorpSecurityGatewayApplicationIamMember(scope constructs.Construct, id *string, config *GoogleBeyondcorpSecurityGatewayApplicationIamMemberConfig) GoogleBeyondcorpSecurityGatewayApplicationIamMember {
 	_init_.Initialize()
 
@@ -488,7 +488,7 @@ func NewGoogleBeyondcorpSecurityGatewayApplicationIamMember(scope constructs.Con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_beyondcorp_security_gateway_application_iam_member google_beyondcorp_security_gateway_application_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_beyondcorp_security_gateway_application_iam_member google_beyondcorp_security_gateway_application_iam_member} Resource.
 func NewGoogleBeyondcorpSecurityGatewayApplicationIamMember_Override(g GoogleBeyondcorpSecurityGatewayApplicationIamMember, scope constructs.Construct, id *string, config *GoogleBeyondcorpSecurityGatewayApplicationIamMemberConfig) {
 	_init_.Initialize()
 

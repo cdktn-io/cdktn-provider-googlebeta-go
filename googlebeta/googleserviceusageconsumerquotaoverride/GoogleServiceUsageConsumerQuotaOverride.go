@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_service_usage_consumer_quota_override google_service_usage_consumer_quota_override}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_service_usage_consumer_quota_override google_service_usage_consumer_quota_override}.
 type GoogleServiceUsageConsumerQuotaOverride interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -518,7 +518,7 @@ func (j *jsiiProxy_GoogleServiceUsageConsumerQuotaOverride) TimeoutsInput() inte
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_service_usage_consumer_quota_override google_service_usage_consumer_quota_override} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_service_usage_consumer_quota_override google_service_usage_consumer_quota_override} Resource.
 func NewGoogleServiceUsageConsumerQuotaOverride(scope constructs.Construct, id *string, config *GoogleServiceUsageConsumerQuotaOverrideConfig) GoogleServiceUsageConsumerQuotaOverride {
 	_init_.Initialize()
 
@@ -536,7 +536,7 @@ func NewGoogleServiceUsageConsumerQuotaOverride(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_service_usage_consumer_quota_override google_service_usage_consumer_quota_override} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_service_usage_consumer_quota_override google_service_usage_consumer_quota_override} Resource.
 func NewGoogleServiceUsageConsumerQuotaOverride_Override(g GoogleServiceUsageConsumerQuotaOverride, scope constructs.Construct, id *string, config *GoogleServiceUsageConsumerQuotaOverrideConfig) {
 	_init_.Initialize()
 

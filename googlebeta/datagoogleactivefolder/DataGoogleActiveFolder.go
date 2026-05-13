@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_active_folder google_active_folder}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_active_folder google_active_folder}.
 type DataGoogleActiveFolder interface {
 	cdktn.TerraformDataSource
 	ApiMethod() *string
@@ -355,7 +355,7 @@ func (j *jsiiProxy_DataGoogleActiveFolder) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_active_folder google_active_folder} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_active_folder google_active_folder} Data Source.
 func NewDataGoogleActiveFolder(scope constructs.Construct, id *string, config *DataGoogleActiveFolderConfig) DataGoogleActiveFolder {
 	_init_.Initialize()
 
@@ -373,7 +373,7 @@ func NewDataGoogleActiveFolder(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_active_folder google_active_folder} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_active_folder google_active_folder} Data Source.
 func NewDataGoogleActiveFolder_Override(d DataGoogleActiveFolder, scope constructs.Construct, id *string, config *DataGoogleActiveFolderConfig) {
 	_init_.Initialize()
 

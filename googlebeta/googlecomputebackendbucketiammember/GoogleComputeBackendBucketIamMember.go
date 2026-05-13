@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_bucket_iam_member google_compute_backend_bucket_iam_member}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_backend_bucket_iam_member google_compute_backend_bucket_iam_member}.
 type GoogleComputeBackendBucketIamMember interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -447,7 +447,7 @@ func (j *jsiiProxy_GoogleComputeBackendBucketIamMember) TerraformResourceType() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_bucket_iam_member google_compute_backend_bucket_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_backend_bucket_iam_member google_compute_backend_bucket_iam_member} Resource.
 func NewGoogleComputeBackendBucketIamMember(scope constructs.Construct, id *string, config *GoogleComputeBackendBucketIamMemberConfig) GoogleComputeBackendBucketIamMember {
 	_init_.Initialize()
 
@@ -465,7 +465,7 @@ func NewGoogleComputeBackendBucketIamMember(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_backend_bucket_iam_member google_compute_backend_bucket_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_backend_bucket_iam_member google_compute_backend_bucket_iam_member} Resource.
 func NewGoogleComputeBackendBucketIamMember_Override(g GoogleComputeBackendBucketIamMember, scope constructs.Construct, id *string, config *GoogleComputeBackendBucketIamMemberConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_eventarc_enrollment google_eventarc_enrollment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_eventarc_enrollment google_eventarc_enrollment}.
 type GoogleEventarcEnrollment interface {
 	cdktn.TerraformResource
 	Annotations() *map[string]*string
@@ -642,7 +642,7 @@ func (j *jsiiProxy_GoogleEventarcEnrollment) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_eventarc_enrollment google_eventarc_enrollment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_eventarc_enrollment google_eventarc_enrollment} Resource.
 func NewGoogleEventarcEnrollment(scope constructs.Construct, id *string, config *GoogleEventarcEnrollmentConfig) GoogleEventarcEnrollment {
 	_init_.Initialize()
 
@@ -660,7 +660,7 @@ func NewGoogleEventarcEnrollment(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_eventarc_enrollment google_eventarc_enrollment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_eventarc_enrollment google_eventarc_enrollment} Resource.
 func NewGoogleEventarcEnrollment_Override(g GoogleEventarcEnrollment, scope constructs.Construct, id *string, config *GoogleEventarcEnrollmentConfig) {
 	_init_.Initialize()
 

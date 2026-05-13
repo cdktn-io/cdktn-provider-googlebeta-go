@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_compute_ha_vpn_gateway google_compute_ha_vpn_gateway}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_compute_ha_vpn_gateway google_compute_ha_vpn_gateway}.
 type DataGoogleComputeHaVpnGateway interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -466,7 +466,7 @@ func (j *jsiiProxy_DataGoogleComputeHaVpnGateway) VpnInterfaces() DataGoogleComp
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_compute_ha_vpn_gateway google_compute_ha_vpn_gateway} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_compute_ha_vpn_gateway google_compute_ha_vpn_gateway} Data Source.
 func NewDataGoogleComputeHaVpnGateway(scope constructs.Construct, id *string, config *DataGoogleComputeHaVpnGatewayConfig) DataGoogleComputeHaVpnGateway {
 	_init_.Initialize()
 
@@ -484,7 +484,7 @@ func NewDataGoogleComputeHaVpnGateway(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_compute_ha_vpn_gateway google_compute_ha_vpn_gateway} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_compute_ha_vpn_gateway google_compute_ha_vpn_gateway} Data Source.
 func NewDataGoogleComputeHaVpnGateway_Override(d DataGoogleComputeHaVpnGateway, scope constructs.Construct, id *string, config *DataGoogleComputeHaVpnGatewayConfig) {
 	_init_.Initialize()
 

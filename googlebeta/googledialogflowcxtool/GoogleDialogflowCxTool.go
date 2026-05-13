@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool google_dialogflow_cx_tool}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dialogflow_cx_tool google_dialogflow_cx_tool}.
 type GoogleDialogflowCxTool interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -531,7 +531,7 @@ func (j *jsiiProxy_GoogleDialogflowCxTool) ToolType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool google_dialogflow_cx_tool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dialogflow_cx_tool google_dialogflow_cx_tool} Resource.
 func NewGoogleDialogflowCxTool(scope constructs.Construct, id *string, config *GoogleDialogflowCxToolConfig) GoogleDialogflowCxTool {
 	_init_.Initialize()
 
@@ -549,7 +549,7 @@ func NewGoogleDialogflowCxTool(scope constructs.Construct, id *string, config *G
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_cx_tool google_dialogflow_cx_tool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dialogflow_cx_tool google_dialogflow_cx_tool} Resource.
 func NewGoogleDialogflowCxTool_Override(g GoogleDialogflowCxTool, scope constructs.Construct, id *string, config *GoogleDialogflowCxToolConfig) {
 	_init_.Initialize()
 

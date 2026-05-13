@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_biglake_iceberg_namespace_iam_binding google_biglake_iceberg_namespace_iam_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_biglake_iceberg_namespace_iam_binding google_biglake_iceberg_namespace_iam_binding}.
 type GoogleBiglakeIcebergNamespaceIamBinding interface {
 	cdktn.TerraformResource
 	Catalog() *string
@@ -470,7 +470,7 @@ func (j *jsiiProxy_GoogleBiglakeIcebergNamespaceIamBinding) TerraformResourceTyp
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_biglake_iceberg_namespace_iam_binding google_biglake_iceberg_namespace_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_biglake_iceberg_namespace_iam_binding google_biglake_iceberg_namespace_iam_binding} Resource.
 func NewGoogleBiglakeIcebergNamespaceIamBinding(scope constructs.Construct, id *string, config *GoogleBiglakeIcebergNamespaceIamBindingConfig) GoogleBiglakeIcebergNamespaceIamBinding {
 	_init_.Initialize()
 
@@ -488,7 +488,7 @@ func NewGoogleBiglakeIcebergNamespaceIamBinding(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_biglake_iceberg_namespace_iam_binding google_biglake_iceberg_namespace_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_biglake_iceberg_namespace_iam_binding google_biglake_iceberg_namespace_iam_binding} Resource.
 func NewGoogleBiglakeIcebergNamespaceIamBinding_Override(g GoogleBiglakeIcebergNamespaceIamBinding, scope constructs.Construct, id *string, config *GoogleBiglakeIcebergNamespaceIamBindingConfig) {
 	_init_.Initialize()
 

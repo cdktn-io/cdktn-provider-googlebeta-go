@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_firebase_ai_logic_prompt_template_lock google_firebase_ai_logic_prompt_template_lock}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_firebase_ai_logic_prompt_template_lock google_firebase_ai_logic_prompt_template_lock}.
 type GoogleFirebaseAiLogicPromptTemplateLock interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -435,7 +435,7 @@ func (j *jsiiProxy_GoogleFirebaseAiLogicPromptTemplateLock) TimeoutsInput() inte
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_firebase_ai_logic_prompt_template_lock google_firebase_ai_logic_prompt_template_lock} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_firebase_ai_logic_prompt_template_lock google_firebase_ai_logic_prompt_template_lock} Resource.
 func NewGoogleFirebaseAiLogicPromptTemplateLock(scope constructs.Construct, id *string, config *GoogleFirebaseAiLogicPromptTemplateLockConfig) GoogleFirebaseAiLogicPromptTemplateLock {
 	_init_.Initialize()
 
@@ -453,7 +453,7 @@ func NewGoogleFirebaseAiLogicPromptTemplateLock(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_firebase_ai_logic_prompt_template_lock google_firebase_ai_logic_prompt_template_lock} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_firebase_ai_logic_prompt_template_lock google_firebase_ai_logic_prompt_template_lock} Resource.
 func NewGoogleFirebaseAiLogicPromptTemplateLock_Override(g GoogleFirebaseAiLogicPromptTemplateLock, scope constructs.Construct, id *string, config *GoogleFirebaseAiLogicPromptTemplateLockConfig) {
 	_init_.Initialize()
 

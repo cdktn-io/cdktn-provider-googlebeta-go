@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iam_workload_identity_pool_managed_identity google_iam_workload_identity_pool_managed_identity}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iam_workload_identity_pool_managed_identity google_iam_workload_identity_pool_managed_identity}.
 type GoogleIamWorkloadIdentityPoolManagedIdentity interface {
 	cdktn.TerraformResource
 	AttestationRules() GoogleIamWorkloadIdentityPoolManagedIdentityAttestationRulesList
@@ -530,7 +530,7 @@ func (j *jsiiProxy_GoogleIamWorkloadIdentityPoolManagedIdentity) WorkloadIdentit
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iam_workload_identity_pool_managed_identity google_iam_workload_identity_pool_managed_identity} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iam_workload_identity_pool_managed_identity google_iam_workload_identity_pool_managed_identity} Resource.
 func NewGoogleIamWorkloadIdentityPoolManagedIdentity(scope constructs.Construct, id *string, config *GoogleIamWorkloadIdentityPoolManagedIdentityConfig) GoogleIamWorkloadIdentityPoolManagedIdentity {
 	_init_.Initialize()
 
@@ -548,7 +548,7 @@ func NewGoogleIamWorkloadIdentityPoolManagedIdentity(scope constructs.Construct,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iam_workload_identity_pool_managed_identity google_iam_workload_identity_pool_managed_identity} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iam_workload_identity_pool_managed_identity google_iam_workload_identity_pool_managed_identity} Resource.
 func NewGoogleIamWorkloadIdentityPoolManagedIdentity_Override(g GoogleIamWorkloadIdentityPoolManagedIdentity, scope constructs.Construct, id *string, config *GoogleIamWorkloadIdentityPoolManagedIdentityConfig) {
 	_init_.Initialize()
 

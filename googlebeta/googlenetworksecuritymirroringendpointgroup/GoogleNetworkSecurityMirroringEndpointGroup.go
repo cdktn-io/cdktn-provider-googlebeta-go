@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_security_mirroring_endpoint_group google_network_security_mirroring_endpoint_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_security_mirroring_endpoint_group google_network_security_mirroring_endpoint_group}.
 type GoogleNetworkSecurityMirroringEndpointGroup interface {
 	cdktn.TerraformResource
 	Associations() GoogleNetworkSecurityMirroringEndpointGroupAssociationsList
@@ -632,7 +632,7 @@ func (j *jsiiProxy_GoogleNetworkSecurityMirroringEndpointGroup) UpdateTime() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_security_mirroring_endpoint_group google_network_security_mirroring_endpoint_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_security_mirroring_endpoint_group google_network_security_mirroring_endpoint_group} Resource.
 func NewGoogleNetworkSecurityMirroringEndpointGroup(scope constructs.Construct, id *string, config *GoogleNetworkSecurityMirroringEndpointGroupConfig) GoogleNetworkSecurityMirroringEndpointGroup {
 	_init_.Initialize()
 
@@ -650,7 +650,7 @@ func NewGoogleNetworkSecurityMirroringEndpointGroup(scope constructs.Construct, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_security_mirroring_endpoint_group google_network_security_mirroring_endpoint_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_security_mirroring_endpoint_group google_network_security_mirroring_endpoint_group} Resource.
 func NewGoogleNetworkSecurityMirroringEndpointGroup_Override(g GoogleNetworkSecurityMirroringEndpointGroup, scope constructs.Construct, id *string, config *GoogleNetworkSecurityMirroringEndpointGroupConfig) {
 	_init_.Initialize()
 

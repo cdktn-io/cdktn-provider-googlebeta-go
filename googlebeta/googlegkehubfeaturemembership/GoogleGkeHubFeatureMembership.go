@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gke_hub_feature_membership google_gke_hub_feature_membership}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_gke_hub_feature_membership google_gke_hub_feature_membership}.
 type GoogleGkeHubFeatureMembership interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -532,7 +532,7 @@ func (j *jsiiProxy_GoogleGkeHubFeatureMembership) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gke_hub_feature_membership google_gke_hub_feature_membership} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_gke_hub_feature_membership google_gke_hub_feature_membership} Resource.
 func NewGoogleGkeHubFeatureMembership(scope constructs.Construct, id *string, config *GoogleGkeHubFeatureMembershipConfig) GoogleGkeHubFeatureMembership {
 	_init_.Initialize()
 
@@ -550,7 +550,7 @@ func NewGoogleGkeHubFeatureMembership(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gke_hub_feature_membership google_gke_hub_feature_membership} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_gke_hub_feature_membership google_gke_hub_feature_membership} Resource.
 func NewGoogleGkeHubFeatureMembership_Override(g GoogleGkeHubFeatureMembership, scope constructs.Construct, id *string, config *GoogleGkeHubFeatureMembershipConfig) {
 	_init_.Initialize()
 

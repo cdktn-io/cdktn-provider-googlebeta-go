@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_spanner_instance_config google_spanner_instance_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_spanner_instance_config google_spanner_instance_config}.
 type GoogleSpannerInstanceConfigA interface {
 	cdktn.TerraformResource
 	BaseConfig() *string
@@ -518,7 +518,7 @@ func (j *jsiiProxy_GoogleSpannerInstanceConfigA) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_spanner_instance_config google_spanner_instance_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_spanner_instance_config google_spanner_instance_config} Resource.
 func NewGoogleSpannerInstanceConfigA(scope constructs.Construct, id *string, config *GoogleSpannerInstanceConfigAConfig) GoogleSpannerInstanceConfigA {
 	_init_.Initialize()
 
@@ -536,7 +536,7 @@ func NewGoogleSpannerInstanceConfigA(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_spanner_instance_config google_spanner_instance_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_spanner_instance_config google_spanner_instance_config} Resource.
 func NewGoogleSpannerInstanceConfigA_Override(g GoogleSpannerInstanceConfigA, scope constructs.Construct, id *string, config *GoogleSpannerInstanceConfigAConfig) {
 	_init_.Initialize()
 

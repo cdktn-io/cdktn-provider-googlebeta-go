@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_observability_trace_scope google_observability_trace_scope}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_observability_trace_scope google_observability_trace_scope}.
 type GoogleObservabilityTraceScope interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -493,7 +493,7 @@ func (j *jsiiProxy_GoogleObservabilityTraceScope) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_observability_trace_scope google_observability_trace_scope} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_observability_trace_scope google_observability_trace_scope} Resource.
 func NewGoogleObservabilityTraceScope(scope constructs.Construct, id *string, config *GoogleObservabilityTraceScopeConfig) GoogleObservabilityTraceScope {
 	_init_.Initialize()
 
@@ -511,7 +511,7 @@ func NewGoogleObservabilityTraceScope(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_observability_trace_scope google_observability_trace_scope} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_observability_trace_scope google_observability_trace_scope} Resource.
 func NewGoogleObservabilityTraceScope_Override(g GoogleObservabilityTraceScope, scope constructs.Construct, id *string, config *GoogleObservabilityTraceScopeConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation google_ces_evaluation}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation google_ces_evaluation}.
 type GoogleCesEvaluation interface {
 	cdktn.TerraformResource
 	App() *string
@@ -86,6 +86,8 @@ type GoogleCesEvaluation interface {
 	SetProvisioners(val *[]interface{})
 	// Experimental.
 	RawOverrides() interface{}
+	Scenario() GoogleCesEvaluationScenarioOutputReference
+	ScenarioInput() *GoogleCesEvaluationScenario
 	Tags() *[]*string
 	SetTags(val *[]*string)
 	TagsInput() *[]*string
@@ -142,6 +144,7 @@ type GoogleCesEvaluation interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutGolden(value *GoogleCesEvaluationGolden)
+	PutScenario(value *GoogleCesEvaluationScenario)
 	PutTimeouts(value *GoogleCesEvaluationTimeouts)
 	ResetDescription()
 	ResetGolden()
@@ -150,6 +153,7 @@ type GoogleCesEvaluation interface {
 	// Experimental.
 	ResetOverrideLogicalId()
 	ResetProject()
+	ResetScenario()
 	ResetTags()
 	ResetTimeouts()
 	SynthesizeAttributes() *map[string]interface{}
@@ -549,6 +553,26 @@ func (j *jsiiProxy_GoogleCesEvaluation) RawOverrides() interface{} {
 	return returns
 }
 
+func (j *jsiiProxy_GoogleCesEvaluation) Scenario() GoogleCesEvaluationScenarioOutputReference {
+	var returns GoogleCesEvaluationScenarioOutputReference
+	_jsii_.Get(
+		j,
+		"scenario",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCesEvaluation) ScenarioInput() *GoogleCesEvaluationScenario {
+	var returns *GoogleCesEvaluationScenario
+	_jsii_.Get(
+		j,
+		"scenarioInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleCesEvaluation) Tags() *[]*string {
 	var returns *[]*string
 	_jsii_.Get(
@@ -630,7 +654,7 @@ func (j *jsiiProxy_GoogleCesEvaluation) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation google_ces_evaluation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation google_ces_evaluation} Resource.
 func NewGoogleCesEvaluation(scope constructs.Construct, id *string, config *GoogleCesEvaluationConfig) GoogleCesEvaluation {
 	_init_.Initialize()
 
@@ -648,7 +672,7 @@ func NewGoogleCesEvaluation(scope constructs.Construct, id *string, config *Goog
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation google_ces_evaluation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation google_ces_evaluation} Resource.
 func NewGoogleCesEvaluation_Override(g GoogleCesEvaluation, scope constructs.Construct, id *string, config *GoogleCesEvaluationConfig) {
 	_init_.Initialize()
 
@@ -1179,6 +1203,17 @@ func (g *jsiiProxy_GoogleCesEvaluation) PutGolden(value *GoogleCesEvaluationGold
 	)
 }
 
+func (g *jsiiProxy_GoogleCesEvaluation) PutScenario(value *GoogleCesEvaluationScenario) {
+	if err := g.validatePutScenarioParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putScenario",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleCesEvaluation) PutTimeouts(value *GoogleCesEvaluationTimeouts) {
 	if err := g.validatePutTimeoutsParameters(value); err != nil {
 		panic(err)
@@ -1226,6 +1261,14 @@ func (g *jsiiProxy_GoogleCesEvaluation) ResetProject() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetProject",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleCesEvaluation) ResetScenario() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetScenario",
 		nil, // no parameters
 	)
 }

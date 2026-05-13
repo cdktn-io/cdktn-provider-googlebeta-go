@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_saas_runtime_rollout_kind google_saas_runtime_rollout_kind}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_saas_runtime_rollout_kind google_saas_runtime_rollout_kind}.
 type GoogleSaasRuntimeRolloutKind interface {
 	cdktn.TerraformResource
 	Annotations() *map[string]*string
@@ -657,7 +657,7 @@ func (j *jsiiProxy_GoogleSaasRuntimeRolloutKind) UpdateUnitKindStrategyInput() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_saas_runtime_rollout_kind google_saas_runtime_rollout_kind} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_saas_runtime_rollout_kind google_saas_runtime_rollout_kind} Resource.
 func NewGoogleSaasRuntimeRolloutKind(scope constructs.Construct, id *string, config *GoogleSaasRuntimeRolloutKindConfig) GoogleSaasRuntimeRolloutKind {
 	_init_.Initialize()
 
@@ -675,7 +675,7 @@ func NewGoogleSaasRuntimeRolloutKind(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_saas_runtime_rollout_kind google_saas_runtime_rollout_kind} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_saas_runtime_rollout_kind google_saas_runtime_rollout_kind} Resource.
 func NewGoogleSaasRuntimeRolloutKind_Override(g GoogleSaasRuntimeRolloutKind, scope constructs.Construct, id *string, config *GoogleSaasRuntimeRolloutKindConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apigee_instance google_apigee_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_instance google_apigee_instance}.
 type GoogleApigeeInstance interface {
 	cdktn.TerraformResource
 	AccessLoggingConfig() GoogleApigeeInstanceAccessLoggingConfigOutputReference
@@ -613,7 +613,7 @@ func (j *jsiiProxy_GoogleApigeeInstance) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apigee_instance google_apigee_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_instance google_apigee_instance} Resource.
 func NewGoogleApigeeInstance(scope constructs.Construct, id *string, config *GoogleApigeeInstanceConfig) GoogleApigeeInstance {
 	_init_.Initialize()
 
@@ -631,7 +631,7 @@ func NewGoogleApigeeInstance(scope constructs.Construct, id *string, config *Goo
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apigee_instance google_apigee_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_instance google_apigee_instance} Resource.
 func NewGoogleApigeeInstance_Override(g GoogleApigeeInstance, scope constructs.Construct, id *string, config *GoogleApigeeInstanceConfig) {
 	_init_.Initialize()
 

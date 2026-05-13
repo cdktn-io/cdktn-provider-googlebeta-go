@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_apphub_discovered_workload google_apphub_discovered_workload}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_apphub_discovered_workload google_apphub_discovered_workload}.
 type DataGoogleApphubDiscoveredWorkload interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -377,7 +377,7 @@ func (j *jsiiProxy_DataGoogleApphubDiscoveredWorkload) WorkloadUriInput() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_apphub_discovered_workload google_apphub_discovered_workload} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_apphub_discovered_workload google_apphub_discovered_workload} Data Source.
 func NewDataGoogleApphubDiscoveredWorkload(scope constructs.Construct, id *string, config *DataGoogleApphubDiscoveredWorkloadConfig) DataGoogleApphubDiscoveredWorkload {
 	_init_.Initialize()
 
@@ -395,7 +395,7 @@ func NewDataGoogleApphubDiscoveredWorkload(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_apphub_discovered_workload google_apphub_discovered_workload} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_apphub_discovered_workload google_apphub_discovered_workload} Data Source.
 func NewDataGoogleApphubDiscoveredWorkload_Override(d DataGoogleApphubDiscoveredWorkload, scope constructs.Construct, id *string, config *DataGoogleApphubDiscoveredWorkloadConfig) {
 	_init_.Initialize()
 

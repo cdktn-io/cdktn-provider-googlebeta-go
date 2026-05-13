@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume_snapshot google_netapp_volume_snapshot}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_volume_snapshot google_netapp_volume_snapshot}.
 type GoogleNetappVolumeSnapshot interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -517,7 +517,7 @@ func (j *jsiiProxy_GoogleNetappVolumeSnapshot) VolumeNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume_snapshot google_netapp_volume_snapshot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_volume_snapshot google_netapp_volume_snapshot} Resource.
 func NewGoogleNetappVolumeSnapshot(scope constructs.Construct, id *string, config *GoogleNetappVolumeSnapshotConfig) GoogleNetappVolumeSnapshot {
 	_init_.Initialize()
 
@@ -535,7 +535,7 @@ func NewGoogleNetappVolumeSnapshot(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume_snapshot google_netapp_volume_snapshot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_volume_snapshot google_netapp_volume_snapshot} Resource.
 func NewGoogleNetappVolumeSnapshot_Override(g GoogleNetappVolumeSnapshot, scope constructs.Construct, id *string, config *GoogleNetappVolumeSnapshotConfig) {
 	_init_.Initialize()
 

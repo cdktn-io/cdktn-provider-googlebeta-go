@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_services_multicast_consumer_association google_network_services_multicast_consumer_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_services_multicast_consumer_association google_network_services_multicast_consumer_association}.
 type GoogleNetworkServicesMulticastConsumerAssociation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -595,7 +595,7 @@ func (j *jsiiProxy_GoogleNetworkServicesMulticastConsumerAssociation) UpdateTime
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_services_multicast_consumer_association google_network_services_multicast_consumer_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_services_multicast_consumer_association google_network_services_multicast_consumer_association} Resource.
 func NewGoogleNetworkServicesMulticastConsumerAssociation(scope constructs.Construct, id *string, config *GoogleNetworkServicesMulticastConsumerAssociationConfig) GoogleNetworkServicesMulticastConsumerAssociation {
 	_init_.Initialize()
 
@@ -613,7 +613,7 @@ func NewGoogleNetworkServicesMulticastConsumerAssociation(scope constructs.Const
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_services_multicast_consumer_association google_network_services_multicast_consumer_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_services_multicast_consumer_association google_network_services_multicast_consumer_association} Resource.
 func NewGoogleNetworkServicesMulticastConsumerAssociation_Override(g GoogleNetworkServicesMulticastConsumerAssociation, scope constructs.Construct, id *string, config *GoogleNetworkServicesMulticastConsumerAssociationConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_artifact_registry_npm_package google_artifact_registry_npm_package}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_artifact_registry_npm_package google_artifact_registry_npm_package}.
 type DataGoogleArtifactRegistryNpmPackage interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -422,7 +422,7 @@ func (j *jsiiProxy_DataGoogleArtifactRegistryNpmPackage) Version() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_artifact_registry_npm_package google_artifact_registry_npm_package} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_artifact_registry_npm_package google_artifact_registry_npm_package} Data Source.
 func NewDataGoogleArtifactRegistryNpmPackage(scope constructs.Construct, id *string, config *DataGoogleArtifactRegistryNpmPackageConfig) DataGoogleArtifactRegistryNpmPackage {
 	_init_.Initialize()
 
@@ -440,7 +440,7 @@ func NewDataGoogleArtifactRegistryNpmPackage(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_artifact_registry_npm_package google_artifact_registry_npm_package} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_artifact_registry_npm_package google_artifact_registry_npm_package} Data Source.
 func NewDataGoogleArtifactRegistryNpmPackage_Override(d DataGoogleArtifactRegistryNpmPackage, scope constructs.Construct, id *string, config *DataGoogleArtifactRegistryNpmPackageConfig) {
 	_init_.Initialize()
 

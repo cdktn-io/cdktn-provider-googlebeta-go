@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_services_multicast_group_range google_network_services_multicast_group_range}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_services_multicast_group_range google_network_services_multicast_group_range}.
 type GoogleNetworkServicesMulticastGroupRange interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -691,7 +691,7 @@ func (j *jsiiProxy_GoogleNetworkServicesMulticastGroupRange) UpdateTime() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_services_multicast_group_range google_network_services_multicast_group_range} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_services_multicast_group_range google_network_services_multicast_group_range} Resource.
 func NewGoogleNetworkServicesMulticastGroupRange(scope constructs.Construct, id *string, config *GoogleNetworkServicesMulticastGroupRangeConfig) GoogleNetworkServicesMulticastGroupRange {
 	_init_.Initialize()
 
@@ -709,7 +709,7 @@ func NewGoogleNetworkServicesMulticastGroupRange(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_services_multicast_group_range google_network_services_multicast_group_range} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_services_multicast_group_range google_network_services_multicast_group_range} Resource.
 func NewGoogleNetworkServicesMulticastGroupRange_Override(g GoogleNetworkServicesMulticastGroupRange, scope constructs.Construct, id *string, config *GoogleNetworkServicesMulticastGroupRangeConfig) {
 	_init_.Initialize()
 

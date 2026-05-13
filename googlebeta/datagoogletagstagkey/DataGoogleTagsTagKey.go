@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_tags_tag_key google_tags_tag_key}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_tags_tag_key google_tags_tag_key}.
 type DataGoogleTagsTagKey interface {
 	cdktn.TerraformDataSource
 	AllowedValuesRegex() *string
@@ -373,7 +373,7 @@ func (j *jsiiProxy_DataGoogleTagsTagKey) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_tags_tag_key google_tags_tag_key} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_tags_tag_key google_tags_tag_key} Data Source.
 func NewDataGoogleTagsTagKey(scope constructs.Construct, id *string, config *DataGoogleTagsTagKeyConfig) DataGoogleTagsTagKey {
 	_init_.Initialize()
 
@@ -391,7 +391,7 @@ func NewDataGoogleTagsTagKey(scope constructs.Construct, id *string, config *Dat
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_tags_tag_key google_tags_tag_key} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_tags_tag_key google_tags_tag_key} Data Source.
 func NewDataGoogleTagsTagKey_Override(d DataGoogleTagsTagKey, scope constructs.Construct, id *string, config *DataGoogleTagsTagKeyConfig) {
 	_init_.Initialize()
 

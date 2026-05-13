@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_bucket_iam_policy google_compute_region_backend_bucket_iam_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_backend_bucket_iam_policy google_compute_region_backend_bucket_iam_policy}.
 type GoogleComputeRegionBackendBucketIamPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -424,7 +424,7 @@ func (j *jsiiProxy_GoogleComputeRegionBackendBucketIamPolicy) TerraformResourceT
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_bucket_iam_policy google_compute_region_backend_bucket_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_backend_bucket_iam_policy google_compute_region_backend_bucket_iam_policy} Resource.
 func NewGoogleComputeRegionBackendBucketIamPolicy(scope constructs.Construct, id *string, config *GoogleComputeRegionBackendBucketIamPolicyConfig) GoogleComputeRegionBackendBucketIamPolicy {
 	_init_.Initialize()
 
@@ -442,7 +442,7 @@ func NewGoogleComputeRegionBackendBucketIamPolicy(scope constructs.Construct, id
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_bucket_iam_policy google_compute_region_backend_bucket_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_backend_bucket_iam_policy google_compute_region_backend_bucket_iam_policy} Resource.
 func NewGoogleComputeRegionBackendBucketIamPolicy_Override(g GoogleComputeRegionBackendBucketIamPolicy, scope constructs.Construct, id *string, config *GoogleComputeRegionBackendBucketIamPolicyConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_anywhere_cache google_storage_anywhere_cache}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_storage_anywhere_cache google_storage_anywhere_cache}.
 type GoogleStorageAnywhereCache interface {
 	cdktn.TerraformResource
 	AdmissionPolicy() *string
@@ -50,6 +50,9 @@ type GoogleStorageAnywhereCache interface {
 	Id() *string
 	SetId(val *string)
 	IdInput() *string
+	IngestOnWrite() interface{}
+	SetIngestOnWrite(val interface{})
+	IngestOnWriteInput() interface{}
 	// Experimental.
 	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
@@ -129,6 +132,7 @@ type GoogleStorageAnywhereCache interface {
 	PutTimeouts(value *GoogleStorageAnywhereCacheTimeouts)
 	ResetAdmissionPolicy()
 	ResetId()
+	ResetIngestOnWrite()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
@@ -321,6 +325,26 @@ func (j *jsiiProxy_GoogleStorageAnywhereCache) IdInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_GoogleStorageAnywhereCache) IngestOnWrite() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"ingestOnWrite",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleStorageAnywhereCache) IngestOnWriteInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"ingestOnWriteInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleStorageAnywhereCache) Lifecycle() *cdktn.TerraformResourceLifecycle {
 	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
@@ -492,7 +516,7 @@ func (j *jsiiProxy_GoogleStorageAnywhereCache) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_anywhere_cache google_storage_anywhere_cache} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_storage_anywhere_cache google_storage_anywhere_cache} Resource.
 func NewGoogleStorageAnywhereCache(scope constructs.Construct, id *string, config *GoogleStorageAnywhereCacheConfig) GoogleStorageAnywhereCache {
 	_init_.Initialize()
 
@@ -510,7 +534,7 @@ func NewGoogleStorageAnywhereCache(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_anywhere_cache google_storage_anywhere_cache} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_storage_anywhere_cache google_storage_anywhere_cache} Resource.
 func NewGoogleStorageAnywhereCache_Override(g GoogleStorageAnywhereCache, scope constructs.Construct, id *string, config *GoogleStorageAnywhereCacheConfig) {
 	_init_.Initialize()
 
@@ -588,6 +612,17 @@ func (j *jsiiProxy_GoogleStorageAnywhereCache)SetId(val *string) {
 	_jsii_.Set(
 		j,
 		"id",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleStorageAnywhereCache)SetIngestOnWrite(val interface{}) {
+	if err := j.validateSetIngestOnWriteParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"ingestOnWrite",
 		val,
 	)
 }
@@ -1020,6 +1055,14 @@ func (g *jsiiProxy_GoogleStorageAnywhereCache) ResetId() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetId",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleStorageAnywhereCache) ResetIngestOnWrite() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetIngestOnWrite",
 		nil, // no parameters
 	)
 }

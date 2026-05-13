@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_kms_folder_kaj_policy_config google_kms_folder_kaj_policy_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_kms_folder_kaj_policy_config google_kms_folder_kaj_policy_config}.
 type GoogleKmsFolderKajPolicyConfig interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -390,7 +390,7 @@ func (j *jsiiProxy_GoogleKmsFolderKajPolicyConfig) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_kms_folder_kaj_policy_config google_kms_folder_kaj_policy_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_kms_folder_kaj_policy_config google_kms_folder_kaj_policy_config} Resource.
 func NewGoogleKmsFolderKajPolicyConfig(scope constructs.Construct, id *string, config *GoogleKmsFolderKajPolicyConfigConfig) GoogleKmsFolderKajPolicyConfig {
 	_init_.Initialize()
 
@@ -408,7 +408,7 @@ func NewGoogleKmsFolderKajPolicyConfig(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_kms_folder_kaj_policy_config google_kms_folder_kaj_policy_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_kms_folder_kaj_policy_config google_kms_folder_kaj_policy_config} Resource.
 func NewGoogleKmsFolderKajPolicyConfig_Override(g GoogleKmsFolderKajPolicyConfig, scope constructs.Construct, id *string, config *GoogleKmsFolderKajPolicyConfigConfig) {
 	_init_.Initialize()
 

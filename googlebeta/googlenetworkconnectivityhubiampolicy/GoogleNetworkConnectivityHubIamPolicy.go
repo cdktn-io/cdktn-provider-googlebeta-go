@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_hub_iam_policy google_network_connectivity_hub_iam_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_connectivity_hub_iam_policy google_network_connectivity_hub_iam_policy}.
 type GoogleNetworkConnectivityHubIamPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -400,7 +400,7 @@ func (j *jsiiProxy_GoogleNetworkConnectivityHubIamPolicy) TerraformResourceType(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_hub_iam_policy google_network_connectivity_hub_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_connectivity_hub_iam_policy google_network_connectivity_hub_iam_policy} Resource.
 func NewGoogleNetworkConnectivityHubIamPolicy(scope constructs.Construct, id *string, config *GoogleNetworkConnectivityHubIamPolicyConfig) GoogleNetworkConnectivityHubIamPolicy {
 	_init_.Initialize()
 
@@ -418,7 +418,7 @@ func NewGoogleNetworkConnectivityHubIamPolicy(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_hub_iam_policy google_network_connectivity_hub_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_connectivity_hub_iam_policy google_network_connectivity_hub_iam_policy} Resource.
 func NewGoogleNetworkConnectivityHubIamPolicy_Override(g GoogleNetworkConnectivityHubIamPolicy, scope constructs.Construct, id *string, config *GoogleNetworkConnectivityHubIamPolicyConfig) {
 	_init_.Initialize()
 

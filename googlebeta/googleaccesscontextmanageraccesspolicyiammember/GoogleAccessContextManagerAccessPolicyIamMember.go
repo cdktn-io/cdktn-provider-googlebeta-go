@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_access_context_manager_access_policy_iam_member google_access_context_manager_access_policy_iam_member}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_access_context_manager_access_policy_iam_member google_access_context_manager_access_policy_iam_member}.
 type GoogleAccessContextManagerAccessPolicyIamMember interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -423,7 +423,7 @@ func (j *jsiiProxy_GoogleAccessContextManagerAccessPolicyIamMember) TerraformRes
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_access_context_manager_access_policy_iam_member google_access_context_manager_access_policy_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_access_context_manager_access_policy_iam_member google_access_context_manager_access_policy_iam_member} Resource.
 func NewGoogleAccessContextManagerAccessPolicyIamMember(scope constructs.Construct, id *string, config *GoogleAccessContextManagerAccessPolicyIamMemberConfig) GoogleAccessContextManagerAccessPolicyIamMember {
 	_init_.Initialize()
 
@@ -441,7 +441,7 @@ func NewGoogleAccessContextManagerAccessPolicyIamMember(scope constructs.Constru
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_access_context_manager_access_policy_iam_member google_access_context_manager_access_policy_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_access_context_manager_access_policy_iam_member google_access_context_manager_access_policy_iam_member} Resource.
 func NewGoogleAccessContextManagerAccessPolicyIamMember_Override(g GoogleAccessContextManagerAccessPolicyIamMember, scope constructs.Construct, id *string, config *GoogleAccessContextManagerAccessPolicyIamMemberConfig) {
 	_init_.Initialize()
 

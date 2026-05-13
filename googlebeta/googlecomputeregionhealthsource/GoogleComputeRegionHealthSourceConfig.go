@@ -32,11 +32,11 @@ type GoogleComputeRegionHealthSourceConfig struct {
 	// be a dash, lowercase letter, or digit, except the last character, which
 	// cannot be a dash.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_health_source#name GoogleComputeRegionHealthSource#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_health_source#name GoogleComputeRegionHealthSource#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// URL of the region where the health source resides.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_health_source#region GoogleComputeRegionHealthSource#region}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_health_source#region GoogleComputeRegionHealthSource#region}
 	Region *string `field:"required" json:"region" yaml:"region"`
 	// Specifies the type of the 'HealthSource'.
 	//
@@ -44,11 +44,11 @@ type GoogleComputeRegionHealthSourceConfig struct {
 	// is 'BACKEND_SERVICE'. Must be specified when the
 	// 'HealthSource' is created, and cannot be mutated. Possible values: ["BACKEND_SERVICE"]
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_health_source#source_type GoogleComputeRegionHealthSource#source_type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_health_source#source_type GoogleComputeRegionHealthSource#source_type}
 	SourceType *string `field:"required" json:"sourceType" yaml:"sourceType"`
 	// An optional description of this resource. Provide this property when you create the resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_health_source#description GoogleComputeRegionHealthSource#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_health_source#description GoogleComputeRegionHealthSource#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
 	// URL to the 'HealthAggregationPolicy' resource.
 	//
@@ -56,9 +56,9 @@ type GoogleComputeRegionHealthSourceConfig struct {
 	// be regional and in the same region as the 'HealthSource'. Can be
 	// mutated.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_health_source#health_aggregation_policy GoogleComputeRegionHealthSource#health_aggregation_policy}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_health_source#health_aggregation_policy GoogleComputeRegionHealthSource#health_aggregation_policy}
 	HealthAggregationPolicy *string `field:"optional" json:"healthAggregationPolicy" yaml:"healthAggregationPolicy"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_health_source#project GoogleComputeRegionHealthSource#project}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_health_source#project GoogleComputeRegionHealthSource#project}.
 	Project *string `field:"optional" json:"project" yaml:"project"`
 	// URLs to the source resources.
 	//
@@ -73,11 +73,11 @@ type GoogleComputeRegionHealthSourceConfig struct {
 	// 'BackendService' may not use 'haPolicy'. Can be
 	// mutated.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_health_source#sources GoogleComputeRegionHealthSource#sources}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_health_source#sources GoogleComputeRegionHealthSource#sources}
 	Sources *[]*string `field:"optional" json:"sources" yaml:"sources"`
 	// timeouts block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_health_source#timeouts GoogleComputeRegionHealthSource#timeouts}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_health_source#timeouts GoogleComputeRegionHealthSource#timeouts}
 	Timeouts *GoogleComputeRegionHealthSourceTimeouts `field:"optional" json:"timeouts" yaml:"timeouts"`
 }
 

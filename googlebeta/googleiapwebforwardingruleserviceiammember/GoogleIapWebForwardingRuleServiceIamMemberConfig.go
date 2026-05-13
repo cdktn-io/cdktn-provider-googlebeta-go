@@ -22,22 +22,22 @@ type GoogleIapWebForwardingRuleServiceIamMemberConfig struct {
 	Provider cdktn.TerraformProvider `field:"optional" json:"provider" yaml:"provider"`
 	// Experimental.
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_web_forwarding_rule_service_iam_member#forwarding_rule_service_name GoogleIapWebForwardingRuleServiceIamMember#forwarding_rule_service_name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iap_web_forwarding_rule_service_iam_member#forwarding_rule_service_name GoogleIapWebForwardingRuleServiceIamMember#forwarding_rule_service_name}.
 	ForwardingRuleServiceName *string `field:"required" json:"forwardingRuleServiceName" yaml:"forwardingRuleServiceName"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_web_forwarding_rule_service_iam_member#member GoogleIapWebForwardingRuleServiceIamMember#member}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iap_web_forwarding_rule_service_iam_member#member GoogleIapWebForwardingRuleServiceIamMember#member}.
 	Member *string `field:"required" json:"member" yaml:"member"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_web_forwarding_rule_service_iam_member#role GoogleIapWebForwardingRuleServiceIamMember#role}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iap_web_forwarding_rule_service_iam_member#role GoogleIapWebForwardingRuleServiceIamMember#role}.
 	Role *string `field:"required" json:"role" yaml:"role"`
 	// condition block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_web_forwarding_rule_service_iam_member#condition GoogleIapWebForwardingRuleServiceIamMember#condition}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iap_web_forwarding_rule_service_iam_member#condition GoogleIapWebForwardingRuleServiceIamMember#condition}
 	Condition *GoogleIapWebForwardingRuleServiceIamMemberCondition `field:"optional" json:"condition" yaml:"condition"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_web_forwarding_rule_service_iam_member#id GoogleIapWebForwardingRuleServiceIamMember#id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iap_web_forwarding_rule_service_iam_member#id GoogleIapWebForwardingRuleServiceIamMember#id}.
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
 	Id *string `field:"optional" json:"id" yaml:"id"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_web_forwarding_rule_service_iam_member#project GoogleIapWebForwardingRuleServiceIamMember#project}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iap_web_forwarding_rule_service_iam_member#project GoogleIapWebForwardingRuleServiceIamMember#project}.
 	Project *string `field:"optional" json:"project" yaml:"project"`
 }
 

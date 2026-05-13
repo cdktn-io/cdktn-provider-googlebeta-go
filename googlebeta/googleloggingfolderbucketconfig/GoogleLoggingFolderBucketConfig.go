@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_logging_folder_bucket_config google_logging_folder_bucket_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_logging_folder_bucket_config google_logging_folder_bucket_config}.
 type GoogleLoggingFolderBucketConfig interface {
 	cdktn.TerraformResource
 	BucketId() *string
@@ -506,7 +506,7 @@ func (j *jsiiProxy_GoogleLoggingFolderBucketConfig) TerraformResourceType() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_logging_folder_bucket_config google_logging_folder_bucket_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_logging_folder_bucket_config google_logging_folder_bucket_config} Resource.
 func NewGoogleLoggingFolderBucketConfig(scope constructs.Construct, id *string, config *GoogleLoggingFolderBucketConfigConfig) GoogleLoggingFolderBucketConfig {
 	_init_.Initialize()
 
@@ -524,7 +524,7 @@ func NewGoogleLoggingFolderBucketConfig(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_logging_folder_bucket_config google_logging_folder_bucket_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_logging_folder_bucket_config google_logging_folder_bucket_config} Resource.
 func NewGoogleLoggingFolderBucketConfig_Override(g GoogleLoggingFolderBucketConfig, scope constructs.Construct, id *string, config *GoogleLoggingFolderBucketConfigConfig) {
 	_init_.Initialize()
 

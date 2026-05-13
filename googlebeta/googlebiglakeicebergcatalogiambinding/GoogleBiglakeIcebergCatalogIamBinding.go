@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_biglake_iceberg_catalog_iam_binding google_biglake_iceberg_catalog_iam_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_biglake_iceberg_catalog_iam_binding google_biglake_iceberg_catalog_iam_binding}.
 type GoogleBiglakeIcebergCatalogIamBinding interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -447,7 +447,7 @@ func (j *jsiiProxy_GoogleBiglakeIcebergCatalogIamBinding) TerraformResourceType(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_biglake_iceberg_catalog_iam_binding google_biglake_iceberg_catalog_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_biglake_iceberg_catalog_iam_binding google_biglake_iceberg_catalog_iam_binding} Resource.
 func NewGoogleBiglakeIcebergCatalogIamBinding(scope constructs.Construct, id *string, config *GoogleBiglakeIcebergCatalogIamBindingConfig) GoogleBiglakeIcebergCatalogIamBinding {
 	_init_.Initialize()
 
@@ -465,7 +465,7 @@ func NewGoogleBiglakeIcebergCatalogIamBinding(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_biglake_iceberg_catalog_iam_binding google_biglake_iceberg_catalog_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_biglake_iceberg_catalog_iam_binding google_biglake_iceberg_catalog_iam_binding} Resource.
 func NewGoogleBiglakeIcebergCatalogIamBinding_Override(g GoogleBiglakeIcebergCatalogIamBinding, scope constructs.Construct, id *string, config *GoogleBiglakeIcebergCatalogIamBindingConfig) {
 	_init_.Initialize()
 

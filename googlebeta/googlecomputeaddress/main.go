@@ -17,6 +17,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
 			_jsii_.MemberProperty{JsiiProperty: "address", GoGetter: "Address"},
+			_jsii_.MemberProperty{JsiiProperty: "addressId", GoGetter: "AddressId"},
 			_jsii_.MemberProperty{JsiiProperty: "addressInput", GoGetter: "AddressInput"},
 			_jsii_.MemberProperty{JsiiProperty: "addressType", GoGetter: "AddressType"},
 			_jsii_.MemberProperty{JsiiProperty: "addressTypeInput", GoGetter: "AddressTypeInput"},

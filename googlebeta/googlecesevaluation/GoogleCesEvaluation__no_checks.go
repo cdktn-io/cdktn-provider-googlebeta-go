@@ -79,6 +79,10 @@ func (g *jsiiProxy_GoogleCesEvaluation) validatePutGoldenParameters(value *Googl
 	return nil
 }
 
+func (g *jsiiProxy_GoogleCesEvaluation) validatePutScenarioParameters(value *GoogleCesEvaluationScenario) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleCesEvaluation) validatePutTimeoutsParameters(value *GoogleCesEvaluationTimeouts) error {
 	return nil
 }

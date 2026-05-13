@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloudbuild_trigger google_cloudbuild_trigger}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloudbuild_trigger google_cloudbuild_trigger}.
 type GoogleCloudbuildTrigger interface {
 	cdktn.TerraformResource
 	ApprovalConfig() GoogleCloudbuildTriggerApprovalConfigOutputReference
@@ -941,7 +941,7 @@ func (j *jsiiProxy_GoogleCloudbuildTrigger) WebhookConfigInput() *GoogleCloudbui
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloudbuild_trigger google_cloudbuild_trigger} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloudbuild_trigger google_cloudbuild_trigger} Resource.
 func NewGoogleCloudbuildTrigger(scope constructs.Construct, id *string, config *GoogleCloudbuildTriggerConfig) GoogleCloudbuildTrigger {
 	_init_.Initialize()
 
@@ -959,7 +959,7 @@ func NewGoogleCloudbuildTrigger(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloudbuild_trigger google_cloudbuild_trigger} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloudbuild_trigger google_cloudbuild_trigger} Resource.
 func NewGoogleCloudbuildTrigger_Override(g GoogleCloudbuildTrigger, scope constructs.Construct, id *string, config *GoogleCloudbuildTriggerConfig) {
 	_init_.Initialize()
 

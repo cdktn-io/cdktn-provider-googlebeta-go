@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_guest_policies google_os_config_guest_policies}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_os_config_guest_policies google_os_config_guest_policies}.
 type GoogleOsConfigGuestPolicies interface {
 	cdktn.TerraformResource
 	Assignment() GoogleOsConfigGuestPoliciesAssignmentOutputReference
@@ -566,7 +566,7 @@ func (j *jsiiProxy_GoogleOsConfigGuestPolicies) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_guest_policies google_os_config_guest_policies} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_os_config_guest_policies google_os_config_guest_policies} Resource.
 func NewGoogleOsConfigGuestPolicies(scope constructs.Construct, id *string, config *GoogleOsConfigGuestPoliciesConfig) GoogleOsConfigGuestPolicies {
 	_init_.Initialize()
 
@@ -584,7 +584,7 @@ func NewGoogleOsConfigGuestPolicies(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_os_config_guest_policies google_os_config_guest_policies} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_os_config_guest_policies google_os_config_guest_policies} Resource.
 func NewGoogleOsConfigGuestPolicies_Override(g GoogleOsConfigGuestPolicies, scope constructs.Construct, id *string, config *GoogleOsConfigGuestPoliciesConfig) {
 	_init_.Initialize()
 

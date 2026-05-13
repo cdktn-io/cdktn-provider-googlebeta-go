@@ -9,7 +9,7 @@ type GoogleFirebaseAiLogicConfigTrafficFilter struct {
 	//
 	// If true, only calls using server templates are permitted.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_firebase_ai_logic_config#template_only GoogleFirebaseAiLogicConfig#template_only}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_firebase_ai_logic_config#template_only GoogleFirebaseAiLogicConfig#template_only}
 	TemplateOnly interface{} `field:"optional" json:"templateOnly" yaml:"templateOnly"`
 }
 

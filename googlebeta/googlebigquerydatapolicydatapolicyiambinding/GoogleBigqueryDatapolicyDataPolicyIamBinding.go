@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_datapolicy_data_policy_iam_binding google_bigquery_datapolicy_data_policy_iam_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_bigquery_datapolicy_data_policy_iam_binding google_bigquery_datapolicy_data_policy_iam_binding}.
 type GoogleBigqueryDatapolicyDataPolicyIamBinding interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -471,7 +471,7 @@ func (j *jsiiProxy_GoogleBigqueryDatapolicyDataPolicyIamBinding) TerraformResour
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_datapolicy_data_policy_iam_binding google_bigquery_datapolicy_data_policy_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_bigquery_datapolicy_data_policy_iam_binding google_bigquery_datapolicy_data_policy_iam_binding} Resource.
 func NewGoogleBigqueryDatapolicyDataPolicyIamBinding(scope constructs.Construct, id *string, config *GoogleBigqueryDatapolicyDataPolicyIamBindingConfig) GoogleBigqueryDatapolicyDataPolicyIamBinding {
 	_init_.Initialize()
 
@@ -489,7 +489,7 @@ func NewGoogleBigqueryDatapolicyDataPolicyIamBinding(scope constructs.Construct,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigquery_datapolicy_data_policy_iam_binding google_bigquery_datapolicy_data_policy_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_bigquery_datapolicy_data_policy_iam_binding google_bigquery_datapolicy_data_policy_iam_binding} Resource.
 func NewGoogleBigqueryDatapolicyDataPolicyIamBinding_Override(g GoogleBigqueryDatapolicyDataPolicyIamBinding, scope constructs.Construct, id *string, config *GoogleBigqueryDatapolicyDataPolicyIamBindingConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apigee_environment_keyvaluemaps_entries google_apigee_environment_keyvaluemaps_entries}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_environment_keyvaluemaps_entries google_apigee_environment_keyvaluemaps_entries}.
 type GoogleApigeeEnvironmentKeyvaluemapsEntries interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -412,7 +412,7 @@ func (j *jsiiProxy_GoogleApigeeEnvironmentKeyvaluemapsEntries) ValueInput() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apigee_environment_keyvaluemaps_entries google_apigee_environment_keyvaluemaps_entries} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_environment_keyvaluemaps_entries google_apigee_environment_keyvaluemaps_entries} Resource.
 func NewGoogleApigeeEnvironmentKeyvaluemapsEntries(scope constructs.Construct, id *string, config *GoogleApigeeEnvironmentKeyvaluemapsEntriesConfig) GoogleApigeeEnvironmentKeyvaluemapsEntries {
 	_init_.Initialize()
 
@@ -430,7 +430,7 @@ func NewGoogleApigeeEnvironmentKeyvaluemapsEntries(scope constructs.Construct, i
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apigee_environment_keyvaluemaps_entries google_apigee_environment_keyvaluemaps_entries} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_environment_keyvaluemaps_entries google_apigee_environment_keyvaluemaps_entries} Resource.
 func NewGoogleApigeeEnvironmentKeyvaluemapsEntries_Override(g GoogleApigeeEnvironmentKeyvaluemapsEntries, scope constructs.Construct, id *string, config *GoogleApigeeEnvironmentKeyvaluemapsEntriesConfig) {
 	_init_.Initialize()
 

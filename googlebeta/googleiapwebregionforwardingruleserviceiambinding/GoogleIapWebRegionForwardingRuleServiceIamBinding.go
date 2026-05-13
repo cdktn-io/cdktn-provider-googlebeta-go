@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_web_region_forwarding_rule_service_iam_binding google_iap_web_region_forwarding_rule_service_iam_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iap_web_region_forwarding_rule_service_iam_binding google_iap_web_region_forwarding_rule_service_iam_binding}.
 type GoogleIapWebRegionForwardingRuleServiceIamBinding interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -471,7 +471,7 @@ func (j *jsiiProxy_GoogleIapWebRegionForwardingRuleServiceIamBinding) TerraformR
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_web_region_forwarding_rule_service_iam_binding google_iap_web_region_forwarding_rule_service_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iap_web_region_forwarding_rule_service_iam_binding google_iap_web_region_forwarding_rule_service_iam_binding} Resource.
 func NewGoogleIapWebRegionForwardingRuleServiceIamBinding(scope constructs.Construct, id *string, config *GoogleIapWebRegionForwardingRuleServiceIamBindingConfig) GoogleIapWebRegionForwardingRuleServiceIamBinding {
 	_init_.Initialize()
 
@@ -489,7 +489,7 @@ func NewGoogleIapWebRegionForwardingRuleServiceIamBinding(scope constructs.Const
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_web_region_forwarding_rule_service_iam_binding google_iap_web_region_forwarding_rule_service_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iap_web_region_forwarding_rule_service_iam_binding google_iap_web_region_forwarding_rule_service_iam_binding} Resource.
 func NewGoogleIapWebRegionForwardingRuleServiceIamBinding_Override(g GoogleIapWebRegionForwardingRuleServiceIamBinding, scope constructs.Construct, id *string, config *GoogleIapWebRegionForwardingRuleServiceIamBindingConfig) {
 	_init_.Initialize()
 

@@ -22,24 +22,24 @@ type DataGoogleBackupDrDataSourcesConfig struct {
 	Provider cdktn.TerraformProvider `field:"optional" json:"provider" yaml:"provider"`
 	// Experimental.
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_backup_dr_data_sources#backup_vault_id DataGoogleBackupDrDataSources#backup_vault_id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_backup_dr_data_sources#backup_vault_id DataGoogleBackupDrDataSources#backup_vault_id}.
 	BackupVaultId *string `field:"required" json:"backupVaultId" yaml:"backupVaultId"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_backup_dr_data_sources#location DataGoogleBackupDrDataSources#location}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_backup_dr_data_sources#location DataGoogleBackupDrDataSources#location}.
 	Location *string `field:"required" json:"location" yaml:"location"`
 	// The filter to apply to list results.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_backup_dr_data_sources#filter DataGoogleBackupDrDataSources#filter}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_backup_dr_data_sources#filter DataGoogleBackupDrDataSources#filter}
 	Filter *string `field:"optional" json:"filter" yaml:"filter"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_backup_dr_data_sources#id DataGoogleBackupDrDataSources#id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_backup_dr_data_sources#id DataGoogleBackupDrDataSources#id}.
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
 	Id *string `field:"optional" json:"id" yaml:"id"`
 	// The order to sort results by.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_backup_dr_data_sources#order_by DataGoogleBackupDrDataSources#order_by}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_backup_dr_data_sources#order_by DataGoogleBackupDrDataSources#order_by}
 	OrderBy *string `field:"optional" json:"orderBy" yaml:"orderBy"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_backup_dr_data_sources#project DataGoogleBackupDrDataSources#project}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_backup_dr_data_sources#project DataGoogleBackupDrDataSources#project}.
 	Project *string `field:"optional" json:"project" yaml:"project"`
 }
 

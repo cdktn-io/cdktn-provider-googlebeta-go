@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_iap_client google_iap_client}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_iap_client google_iap_client}.
 type DataGoogleIapClient interface {
 	cdktn.TerraformDataSource
 	Brand() *string
@@ -342,7 +342,7 @@ func (j *jsiiProxy_DataGoogleIapClient) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_iap_client google_iap_client} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_iap_client google_iap_client} Data Source.
 func NewDataGoogleIapClient(scope constructs.Construct, id *string, config *DataGoogleIapClientConfig) DataGoogleIapClient {
 	_init_.Initialize()
 
@@ -360,7 +360,7 @@ func NewDataGoogleIapClient(scope constructs.Construct, id *string, config *Data
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_iap_client google_iap_client} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_iap_client google_iap_client} Data Source.
 func NewDataGoogleIapClient_Override(d DataGoogleIapClient, scope constructs.Construct, id *string, config *DataGoogleIapClientConfig) {
 	_init_.Initialize()
 

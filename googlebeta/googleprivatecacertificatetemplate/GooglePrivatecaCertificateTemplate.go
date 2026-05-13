@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_privateca_certificate_template google_privateca_certificate_template}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_privateca_certificate_template google_privateca_certificate_template}.
 type GooglePrivatecaCertificateTemplate interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -601,7 +601,7 @@ func (j *jsiiProxy_GooglePrivatecaCertificateTemplate) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_privateca_certificate_template google_privateca_certificate_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_privateca_certificate_template google_privateca_certificate_template} Resource.
 func NewGooglePrivatecaCertificateTemplate(scope constructs.Construct, id *string, config *GooglePrivatecaCertificateTemplateConfig) GooglePrivatecaCertificateTemplate {
 	_init_.Initialize()
 
@@ -619,7 +619,7 @@ func NewGooglePrivatecaCertificateTemplate(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_privateca_certificate_template google_privateca_certificate_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_privateca_certificate_template google_privateca_certificate_template} Resource.
 func NewGooglePrivatecaCertificateTemplate_Override(g GooglePrivatecaCertificateTemplate, scope constructs.Construct, id *string, config *GooglePrivatecaCertificateTemplateConfig) {
 	_init_.Initialize()
 

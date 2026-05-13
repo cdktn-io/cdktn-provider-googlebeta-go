@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_security_compliance_framework google_cloud_security_compliance_framework}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloud_security_compliance_framework google_cloud_security_compliance_framework}.
 type GoogleCloudSecurityComplianceFramework interface {
 	cdktn.TerraformResource
 	Category() *[]*string
@@ -561,7 +561,7 @@ func (j *jsiiProxy_GoogleCloudSecurityComplianceFramework) Type() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_security_compliance_framework google_cloud_security_compliance_framework} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloud_security_compliance_framework google_cloud_security_compliance_framework} Resource.
 func NewGoogleCloudSecurityComplianceFramework(scope constructs.Construct, id *string, config *GoogleCloudSecurityComplianceFrameworkConfig) GoogleCloudSecurityComplianceFramework {
 	_init_.Initialize()
 
@@ -579,7 +579,7 @@ func NewGoogleCloudSecurityComplianceFramework(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_security_compliance_framework google_cloud_security_compliance_framework} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloud_security_compliance_framework google_cloud_security_compliance_framework} Resource.
 func NewGoogleCloudSecurityComplianceFramework_Override(g GoogleCloudSecurityComplianceFramework, scope constructs.Construct, id *string, config *GoogleCloudSecurityComplianceFrameworkConfig) {
 	_init_.Initialize()
 

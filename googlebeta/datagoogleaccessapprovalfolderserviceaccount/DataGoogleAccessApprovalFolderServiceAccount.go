@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_access_approval_folder_service_account google_access_approval_folder_service_account}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_access_approval_folder_service_account google_access_approval_folder_service_account}.
 type DataGoogleAccessApprovalFolderServiceAccount interface {
 	cdktn.TerraformDataSource
 	AccountEmail() *string
@@ -319,7 +319,7 @@ func (j *jsiiProxy_DataGoogleAccessApprovalFolderServiceAccount) TerraformResour
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_access_approval_folder_service_account google_access_approval_folder_service_account} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_access_approval_folder_service_account google_access_approval_folder_service_account} Data Source.
 func NewDataGoogleAccessApprovalFolderServiceAccount(scope constructs.Construct, id *string, config *DataGoogleAccessApprovalFolderServiceAccountConfig) DataGoogleAccessApprovalFolderServiceAccount {
 	_init_.Initialize()
 
@@ -337,7 +337,7 @@ func NewDataGoogleAccessApprovalFolderServiceAccount(scope constructs.Construct,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_access_approval_folder_service_account google_access_approval_folder_service_account} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_access_approval_folder_service_account google_access_approval_folder_service_account} Data Source.
 func NewDataGoogleAccessApprovalFolderServiceAccount_Override(d DataGoogleAccessApprovalFolderServiceAccount, scope constructs.Construct, id *string, config *DataGoogleAccessApprovalFolderServiceAccountConfig) {
 	_init_.Initialize()
 

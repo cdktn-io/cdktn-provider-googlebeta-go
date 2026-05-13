@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_health_aggregation_policy google_compute_region_health_aggregation_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_health_aggregation_policy google_compute_region_health_aggregation_policy}.
 type GoogleComputeRegionHealthAggregationPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -529,7 +529,7 @@ func (j *jsiiProxy_GoogleComputeRegionHealthAggregationPolicy) TimeoutsInput() i
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_health_aggregation_policy google_compute_region_health_aggregation_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_health_aggregation_policy google_compute_region_health_aggregation_policy} Resource.
 func NewGoogleComputeRegionHealthAggregationPolicy(scope constructs.Construct, id *string, config *GoogleComputeRegionHealthAggregationPolicyConfig) GoogleComputeRegionHealthAggregationPolicy {
 	_init_.Initialize()
 
@@ -547,7 +547,7 @@ func NewGoogleComputeRegionHealthAggregationPolicy(scope constructs.Construct, i
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_health_aggregation_policy google_compute_region_health_aggregation_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_health_aggregation_policy google_compute_region_health_aggregation_policy} Resource.
 func NewGoogleComputeRegionHealthAggregationPolicy_Override(g GoogleComputeRegionHealthAggregationPolicy, scope constructs.Construct, id *string, config *GoogleComputeRegionHealthAggregationPolicyConfig) {
 	_init_.Initialize()
 

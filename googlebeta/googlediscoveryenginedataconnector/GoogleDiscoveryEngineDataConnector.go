@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_discovery_engine_data_connector google_discovery_engine_data_connector}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_discovery_engine_data_connector google_discovery_engine_data_connector}.
 type GoogleDiscoveryEngineDataConnector interface {
 	cdktn.TerraformResource
 	ActionConfig() GoogleDiscoveryEngineDataConnectorActionConfigOutputReference
@@ -961,7 +961,7 @@ func (j *jsiiProxy_GoogleDiscoveryEngineDataConnector) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_discovery_engine_data_connector google_discovery_engine_data_connector} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_discovery_engine_data_connector google_discovery_engine_data_connector} Resource.
 func NewGoogleDiscoveryEngineDataConnector(scope constructs.Construct, id *string, config *GoogleDiscoveryEngineDataConnectorConfig) GoogleDiscoveryEngineDataConnector {
 	_init_.Initialize()
 
@@ -979,7 +979,7 @@ func NewGoogleDiscoveryEngineDataConnector(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_discovery_engine_data_connector google_discovery_engine_data_connector} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_discovery_engine_data_connector google_discovery_engine_data_connector} Resource.
 func NewGoogleDiscoveryEngineDataConnector_Override(g GoogleDiscoveryEngineDataConnector, scope constructs.Construct, id *string, config *GoogleDiscoveryEngineDataConnectorConfig) {
 	_init_.Initialize()
 

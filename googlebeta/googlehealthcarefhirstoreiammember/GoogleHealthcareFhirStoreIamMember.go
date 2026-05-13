@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_healthcare_fhir_store_iam_member google_healthcare_fhir_store_iam_member}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_healthcare_fhir_store_iam_member google_healthcare_fhir_store_iam_member}.
 type GoogleHealthcareFhirStoreIamMember interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -423,7 +423,7 @@ func (j *jsiiProxy_GoogleHealthcareFhirStoreIamMember) TerraformResourceType() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_healthcare_fhir_store_iam_member google_healthcare_fhir_store_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_healthcare_fhir_store_iam_member google_healthcare_fhir_store_iam_member} Resource.
 func NewGoogleHealthcareFhirStoreIamMember(scope constructs.Construct, id *string, config *GoogleHealthcareFhirStoreIamMemberConfig) GoogleHealthcareFhirStoreIamMember {
 	_init_.Initialize()
 
@@ -441,7 +441,7 @@ func NewGoogleHealthcareFhirStoreIamMember(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_healthcare_fhir_store_iam_member google_healthcare_fhir_store_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_healthcare_fhir_store_iam_member google_healthcare_fhir_store_iam_member} Resource.
 func NewGoogleHealthcareFhirStoreIamMember_Override(g GoogleHealthcareFhirStoreIamMember, scope constructs.Construct, id *string, config *GoogleHealthcareFhirStoreIamMemberConfig) {
 	_init_.Initialize()
 

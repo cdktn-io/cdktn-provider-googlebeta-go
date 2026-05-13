@@ -7,7 +7,7 @@ package googlealloydbinstance
 type GoogleAlloydbInstanceConnectionPoolConfig struct {
 	// Whether to enabled Managed Connection Pool.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_instance#enabled GoogleAlloydbInstance#enabled}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_alloydb_instance#enabled GoogleAlloydbInstance#enabled}
 	Enabled interface{} `field:"required" json:"enabled" yaml:"enabled"`
 	// Flags for configuring managed connection pooling when it is enabled.
 	//
@@ -20,7 +20,7 @@ type GoogleAlloydbInstanceConnectionPoolConfig struct {
 	// underscores instead of dashes in the name. For example,
 	// "connection-pooling-pool-mode" would be "pool_mode".
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_alloydb_instance#flags GoogleAlloydbInstance#flags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_alloydb_instance#flags GoogleAlloydbInstance#flags}
 	Flags *map[string]*string `field:"optional" json:"flags" yaml:"flags"`
 }
 

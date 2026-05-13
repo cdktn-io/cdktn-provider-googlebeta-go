@@ -19,7 +19,7 @@ type GoogleChronicleFeedDetailsFoxItStixSettingsSsl struct {
 	//
 	// -----END RSA PRIVATE KEY-----
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_feed#encoded_private_key GoogleChronicleFeed#encoded_private_key}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_chronicle_feed#encoded_private_key GoogleChronicleFeed#encoded_private_key}
 	EncodedPrivateKey *string `field:"optional" json:"encodedPrivateKey" yaml:"encodedPrivateKey"`
 	// The encoded SSL certificate.
 	//
@@ -32,7 +32,7 @@ type GoogleChronicleFeedDetailsFoxItStixSettingsSsl struct {
 	//
 	// -----END CERTIFICATE-----
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_feed#ssl_certificate GoogleChronicleFeed#ssl_certificate}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_chronicle_feed#ssl_certificate GoogleChronicleFeed#ssl_certificate}
 	SslCertificate *string `field:"optional" json:"sslCertificate" yaml:"sslCertificate"`
 }
 

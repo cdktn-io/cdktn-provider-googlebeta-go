@@ -32,13 +32,13 @@ type DataGoogleComputeStoragePoolConfig struct {
 	// and all following characters must be a dash, lowercase letter, or digit,
 	// except the last character, which cannot be a dash.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_compute_storage_pool#name DataGoogleComputeStoragePool#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_compute_storage_pool#name DataGoogleComputeStoragePool#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// A reference to the zone where the storage pool resides.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_compute_storage_pool#zone DataGoogleComputeStoragePool#zone}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_compute_storage_pool#zone DataGoogleComputeStoragePool#zone}
 	Zone *string `field:"required" json:"zone" yaml:"zone"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_compute_storage_pool#project DataGoogleComputeStoragePool#project}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_compute_storage_pool#project DataGoogleComputeStoragePool#project}.
 	Project *string `field:"optional" json:"project" yaml:"project"`
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_security_policy google_compute_security_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_security_policy google_compute_security_policy}.
 type GoogleComputeSecurityPolicy interface {
 	cdktn.TerraformResource
 	AdaptiveProtectionConfig() GoogleComputeSecurityPolicyAdaptiveProtectionConfigOutputReference
@@ -613,7 +613,7 @@ func (j *jsiiProxy_GoogleComputeSecurityPolicy) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_security_policy google_compute_security_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_security_policy google_compute_security_policy} Resource.
 func NewGoogleComputeSecurityPolicy(scope constructs.Construct, id *string, config *GoogleComputeSecurityPolicyConfig) GoogleComputeSecurityPolicy {
 	_init_.Initialize()
 
@@ -631,7 +631,7 @@ func NewGoogleComputeSecurityPolicy(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_security_policy google_compute_security_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_security_policy google_compute_security_policy} Resource.
 func NewGoogleComputeSecurityPolicy_Override(g GoogleComputeSecurityPolicy, scope constructs.Construct, id *string, config *GoogleComputeSecurityPolicyConfig) {
 	_init_.Initialize()
 

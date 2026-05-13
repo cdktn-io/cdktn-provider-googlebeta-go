@@ -55,6 +55,8 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "hasResourceMove", GoMethod: "HasResourceMove"},
 			_jsii_.MemberProperty{JsiiProperty: "id", GoGetter: "Id"},
 			_jsii_.MemberProperty{JsiiProperty: "idInput", GoGetter: "IdInput"},
+			_jsii_.MemberProperty{JsiiProperty: "image", GoGetter: "Image"},
+			_jsii_.MemberProperty{JsiiProperty: "imageInput", GoGetter: "ImageInput"},
 			_jsii_.MemberMethod{JsiiMethod: "importFrom", GoMethod: "ImportFrom"},
 			_jsii_.MemberProperty{JsiiProperty: "interface", GoGetter: "Interface"},
 			_jsii_.MemberProperty{JsiiProperty: "interfaceInput", GoGetter: "InterfaceInput"},
@@ -87,6 +89,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "putAsyncPrimaryDisk", GoMethod: "PutAsyncPrimaryDisk"},
 			_jsii_.MemberMethod{JsiiMethod: "putDiskEncryptionKey", GoMethod: "PutDiskEncryptionKey"},
 			_jsii_.MemberMethod{JsiiMethod: "putGuestOsFeatures", GoMethod: "PutGuestOsFeatures"},
+			_jsii_.MemberMethod{JsiiMethod: "putSourceImageEncryptionKey", GoMethod: "PutSourceImageEncryptionKey"},
 			_jsii_.MemberMethod{JsiiMethod: "putSourceSnapshotEncryptionKey", GoMethod: "PutSourceSnapshotEncryptionKey"},
 			_jsii_.MemberMethod{JsiiMethod: "putTimeouts", GoMethod: "PutTimeouts"},
 			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
@@ -103,6 +106,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetEraseWindowsVssSignature", GoMethod: "ResetEraseWindowsVssSignature"},
 			_jsii_.MemberMethod{JsiiMethod: "resetGuestOsFeatures", GoMethod: "ResetGuestOsFeatures"},
 			_jsii_.MemberMethod{JsiiMethod: "resetId", GoMethod: "ResetId"},
+			_jsii_.MemberMethod{JsiiMethod: "resetImage", GoMethod: "ResetImage"},
 			_jsii_.MemberMethod{JsiiMethod: "resetInterface", GoMethod: "ResetInterface"},
 			_jsii_.MemberMethod{JsiiMethod: "resetLabels", GoMethod: "ResetLabels"},
 			_jsii_.MemberMethod{JsiiMethod: "resetLicenses", GoMethod: "ResetLicenses"},
@@ -115,6 +119,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetSize", GoMethod: "ResetSize"},
 			_jsii_.MemberMethod{JsiiMethod: "resetSnapshot", GoMethod: "ResetSnapshot"},
 			_jsii_.MemberMethod{JsiiMethod: "resetSourceDisk", GoMethod: "ResetSourceDisk"},
+			_jsii_.MemberMethod{JsiiMethod: "resetSourceImageEncryptionKey", GoMethod: "ResetSourceImageEncryptionKey"},
 			_jsii_.MemberMethod{JsiiMethod: "resetSourceSnapshotEncryptionKey", GoMethod: "ResetSourceSnapshotEncryptionKey"},
 			_jsii_.MemberMethod{JsiiMethod: "resetTimeouts", GoMethod: "ResetTimeouts"},
 			_jsii_.MemberMethod{JsiiMethod: "resetType", GoMethod: "ResetType"},
@@ -126,6 +131,9 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "sourceDisk", GoGetter: "SourceDisk"},
 			_jsii_.MemberProperty{JsiiProperty: "sourceDiskId", GoGetter: "SourceDiskId"},
 			_jsii_.MemberProperty{JsiiProperty: "sourceDiskInput", GoGetter: "SourceDiskInput"},
+			_jsii_.MemberProperty{JsiiProperty: "sourceImageEncryptionKey", GoGetter: "SourceImageEncryptionKey"},
+			_jsii_.MemberProperty{JsiiProperty: "sourceImageEncryptionKeyInput", GoGetter: "SourceImageEncryptionKeyInput"},
+			_jsii_.MemberProperty{JsiiProperty: "sourceImageId", GoGetter: "SourceImageId"},
 			_jsii_.MemberProperty{JsiiProperty: "sourceSnapshotEncryptionKey", GoGetter: "SourceSnapshotEncryptionKey"},
 			_jsii_.MemberProperty{JsiiProperty: "sourceSnapshotEncryptionKeyInput", GoGetter: "SourceSnapshotEncryptionKeyInput"},
 			_jsii_.MemberProperty{JsiiProperty: "sourceSnapshotId", GoGetter: "SourceSnapshotId"},
@@ -296,6 +304,55 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GoogleComputeRegionDiskGuestOsFeaturesOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-google-beta.googleComputeRegionDisk.GoogleComputeRegionDiskSourceImageEncryptionKey",
+		reflect.TypeOf((*GoogleComputeRegionDiskSourceImageEncryptionKey)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-google-beta.googleComputeRegionDisk.GoogleComputeRegionDiskSourceImageEncryptionKeyOutputReference",
+		reflect.TypeOf((*GoogleComputeRegionDiskSourceImageEncryptionKeyOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "kmsKeyName", GoGetter: "KmsKeyName"},
+			_jsii_.MemberProperty{JsiiProperty: "kmsKeyNameInput", GoGetter: "KmsKeyNameInput"},
+			_jsii_.MemberProperty{JsiiProperty: "kmsKeyServiceAccount", GoGetter: "KmsKeyServiceAccount"},
+			_jsii_.MemberProperty{JsiiProperty: "kmsKeyServiceAccountInput", GoGetter: "KmsKeyServiceAccountInput"},
+			_jsii_.MemberProperty{JsiiProperty: "rawKey", GoGetter: "RawKey"},
+			_jsii_.MemberProperty{JsiiProperty: "rawKeyInput", GoGetter: "RawKeyInput"},
+			_jsii_.MemberMethod{JsiiMethod: "resetKmsKeyName", GoMethod: "ResetKmsKeyName"},
+			_jsii_.MemberMethod{JsiiMethod: "resetKmsKeyServiceAccount", GoMethod: "ResetKmsKeyServiceAccount"},
+			_jsii_.MemberMethod{JsiiMethod: "resetRawKey", GoMethod: "ResetRawKey"},
+			_jsii_.MemberMethod{JsiiMethod: "resetRsaEncryptedKey", GoMethod: "ResetRsaEncryptedKey"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "rsaEncryptedKey", GoGetter: "RsaEncryptedKey"},
+			_jsii_.MemberProperty{JsiiProperty: "rsaEncryptedKeyInput", GoGetter: "RsaEncryptedKeyInput"},
+			_jsii_.MemberProperty{JsiiProperty: "sha256", GoGetter: "Sha256"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_GoogleComputeRegionDiskSourceImageEncryptionKeyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},

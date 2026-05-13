@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_contact_center_insights_qa_scorecard google_contact_center_insights_qa_scorecard}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_contact_center_insights_qa_scorecard google_contact_center_insights_qa_scorecard}.
 type GoogleContactCenterInsightsQaScorecard interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -542,7 +542,7 @@ func (j *jsiiProxy_GoogleContactCenterInsightsQaScorecard) UpdateTime() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_contact_center_insights_qa_scorecard google_contact_center_insights_qa_scorecard} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_contact_center_insights_qa_scorecard google_contact_center_insights_qa_scorecard} Resource.
 func NewGoogleContactCenterInsightsQaScorecard(scope constructs.Construct, id *string, config *GoogleContactCenterInsightsQaScorecardConfig) GoogleContactCenterInsightsQaScorecard {
 	_init_.Initialize()
 
@@ -560,7 +560,7 @@ func NewGoogleContactCenterInsightsQaScorecard(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_contact_center_insights_qa_scorecard google_contact_center_insights_qa_scorecard} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_contact_center_insights_qa_scorecard google_contact_center_insights_qa_scorecard} Resource.
 func NewGoogleContactCenterInsightsQaScorecard_Override(g GoogleContactCenterInsightsQaScorecard, scope constructs.Construct, id *string, config *GoogleContactCenterInsightsQaScorecardConfig) {
 	_init_.Initialize()
 

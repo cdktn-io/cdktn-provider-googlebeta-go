@@ -7,7 +7,7 @@ package googlecloudsecuritycompliancecloudcontrol
 type GoogleCloudSecurityComplianceCloudControlParameterSpecValidationAllowedValuesValuesStringListValue struct {
 	// The strings in the list.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_security_compliance_cloud_control#values GoogleCloudSecurityComplianceCloudControl#values}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloud_security_compliance_cloud_control#values GoogleCloudSecurityComplianceCloudControl#values}
 	Values *[]*string `field:"required" json:"values" yaml:"values"`
 }
 

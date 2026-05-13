@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_vertex_ai_reasoning_engine_query google_vertex_ai_reasoning_engine_query}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_vertex_ai_reasoning_engine_query google_vertex_ai_reasoning_engine_query}.
 type DataGoogleVertexAiReasoningEngineQuery interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -403,7 +403,7 @@ func (j *jsiiProxy_DataGoogleVertexAiReasoningEngineQuery) TerraformResourceType
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_vertex_ai_reasoning_engine_query google_vertex_ai_reasoning_engine_query} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_vertex_ai_reasoning_engine_query google_vertex_ai_reasoning_engine_query} Data Source.
 func NewDataGoogleVertexAiReasoningEngineQuery(scope constructs.Construct, id *string, config *DataGoogleVertexAiReasoningEngineQueryConfig) DataGoogleVertexAiReasoningEngineQuery {
 	_init_.Initialize()
 
@@ -421,7 +421,7 @@ func NewDataGoogleVertexAiReasoningEngineQuery(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_vertex_ai_reasoning_engine_query google_vertex_ai_reasoning_engine_query} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_vertex_ai_reasoning_engine_query google_vertex_ai_reasoning_engine_query} Data Source.
 func NewDataGoogleVertexAiReasoningEngineQuery_Override(d DataGoogleVertexAiReasoningEngineQuery, scope constructs.Construct, id *string, config *DataGoogleVertexAiReasoningEngineQueryConfig) {
 	_init_.Initialize()
 

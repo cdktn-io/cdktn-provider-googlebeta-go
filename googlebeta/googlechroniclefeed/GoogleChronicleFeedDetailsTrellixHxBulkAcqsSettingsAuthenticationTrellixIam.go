@@ -12,7 +12,7 @@ type GoogleChronicleFeedDetailsTrellixHxBulkAcqsSettingsAuthenticationTrellixIam
 	// It is assumed that the Client ID generated in Trellix IAM is internally
 	// consistent with Trellix IAM authentication requirements / validation.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_feed#client_id GoogleChronicleFeed#client_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_chronicle_feed#client_id GoogleChronicleFeed#client_id}
 	ClientId *string `field:"required" json:"clientId" yaml:"clientId"`
 	// Secret associated with the Client ID.
 	//
@@ -21,7 +21,7 @@ type GoogleChronicleFeedDetailsTrellixHxBulkAcqsSettingsAuthenticationTrellixIam
 	// assumed that the secret generated in Trellix IAM is internally
 	// consistent with Trellix IAM authentication requirements / validation.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_feed#client_secret GoogleChronicleFeed#client_secret}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_chronicle_feed#client_secret GoogleChronicleFeed#client_secret}
 	ClientSecret *string `field:"required" json:"clientSecret" yaml:"clientSecret"`
 	// OAUTH 2 scope to request for the authentication token.
 	//
@@ -30,7 +30,7 @@ type GoogleChronicleFeedDetailsTrellixHxBulkAcqsSettingsAuthenticationTrellixIam
 	// assumed that the scope provided is internally consistent with Trellix IAM
 	// authentication requirements / validation.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_feed#scope GoogleChronicleFeed#scope}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_chronicle_feed#scope GoogleChronicleFeed#scope}
 	Scope *string `field:"required" json:"scope" yaml:"scope"`
 }
 

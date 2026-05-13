@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_backup_dr_restore_workload google_backup_dr_restore_workload}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_backup_dr_restore_workload google_backup_dr_restore_workload}.
 type GoogleBackupDrRestoreWorkload interface {
 	cdktn.TerraformResource
 	BackupId() *string
@@ -662,7 +662,7 @@ func (j *jsiiProxy_GoogleBackupDrRestoreWorkload) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_backup_dr_restore_workload google_backup_dr_restore_workload} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_backup_dr_restore_workload google_backup_dr_restore_workload} Resource.
 func NewGoogleBackupDrRestoreWorkload(scope constructs.Construct, id *string, config *GoogleBackupDrRestoreWorkloadConfig) GoogleBackupDrRestoreWorkload {
 	_init_.Initialize()
 
@@ -680,7 +680,7 @@ func NewGoogleBackupDrRestoreWorkload(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_backup_dr_restore_workload google_backup_dr_restore_workload} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_backup_dr_restore_workload google_backup_dr_restore_workload} Resource.
 func NewGoogleBackupDrRestoreWorkload_Override(g GoogleBackupDrRestoreWorkload, scope constructs.Construct, id *string, config *GoogleBackupDrRestoreWorkloadConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_security_mirroring_endpoint_group_association google_network_security_mirroring_endpoint_group_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_security_mirroring_endpoint_group_association google_network_security_mirroring_endpoint_group_association}.
 type GoogleNetworkSecurityMirroringEndpointGroupAssociation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -583,7 +583,7 @@ func (j *jsiiProxy_GoogleNetworkSecurityMirroringEndpointGroupAssociation) Updat
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_security_mirroring_endpoint_group_association google_network_security_mirroring_endpoint_group_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_security_mirroring_endpoint_group_association google_network_security_mirroring_endpoint_group_association} Resource.
 func NewGoogleNetworkSecurityMirroringEndpointGroupAssociation(scope constructs.Construct, id *string, config *GoogleNetworkSecurityMirroringEndpointGroupAssociationConfig) GoogleNetworkSecurityMirroringEndpointGroupAssociation {
 	_init_.Initialize()
 
@@ -601,7 +601,7 @@ func NewGoogleNetworkSecurityMirroringEndpointGroupAssociation(scope constructs.
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_security_mirroring_endpoint_group_association google_network_security_mirroring_endpoint_group_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_security_mirroring_endpoint_group_association google_network_security_mirroring_endpoint_group_association} Resource.
 func NewGoogleNetworkSecurityMirroringEndpointGroupAssociation_Override(g GoogleNetworkSecurityMirroringEndpointGroupAssociation, scope constructs.Construct, id *string, config *GoogleNetworkSecurityMirroringEndpointGroupAssociationConfig) {
 	_init_.Initialize()
 

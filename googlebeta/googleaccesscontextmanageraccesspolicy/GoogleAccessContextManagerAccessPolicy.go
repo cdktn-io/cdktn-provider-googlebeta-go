@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_access_context_manager_access_policy google_access_context_manager_access_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_access_context_manager_access_policy google_access_context_manager_access_policy}.
 type GoogleAccessContextManagerAccessPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -446,7 +446,7 @@ func (j *jsiiProxy_GoogleAccessContextManagerAccessPolicy) UpdateTime() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_access_context_manager_access_policy google_access_context_manager_access_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_access_context_manager_access_policy google_access_context_manager_access_policy} Resource.
 func NewGoogleAccessContextManagerAccessPolicy(scope constructs.Construct, id *string, config *GoogleAccessContextManagerAccessPolicyConfig) GoogleAccessContextManagerAccessPolicy {
 	_init_.Initialize()
 
@@ -464,7 +464,7 @@ func NewGoogleAccessContextManagerAccessPolicy(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_access_context_manager_access_policy google_access_context_manager_access_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_access_context_manager_access_policy google_access_context_manager_access_policy} Resource.
 func NewGoogleAccessContextManagerAccessPolicy_Override(g GoogleAccessContextManagerAccessPolicy, scope constructs.Construct, id *string, config *GoogleAccessContextManagerAccessPolicyConfig) {
 	_init_.Initialize()
 

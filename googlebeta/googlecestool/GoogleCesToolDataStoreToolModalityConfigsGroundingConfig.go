@@ -7,7 +7,7 @@ package googlecestool
 type GoogleCesToolDataStoreToolModalityConfigsGroundingConfig struct {
 	// Whether grounding is disabled.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_tool#disabled GoogleCesTool#disabled}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_tool#disabled GoogleCesTool#disabled}
 	Disabled interface{} `field:"optional" json:"disabled" yaml:"disabled"`
 	// The groundedness threshold of the answer based on the retrieved sources.
 	//
@@ -18,7 +18,7 @@ type GoogleCesToolDataStoreToolModalityConfigsGroundingConfig struct {
 	// For example, a level of 3 means that the groundedness score must be
 	// 3 or higher for the response to be returned.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_tool#grounding_level GoogleCesTool#grounding_level}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_tool#grounding_level GoogleCesTool#grounding_level}
 	GroundingLevel *float64 `field:"optional" json:"groundingLevel" yaml:"groundingLevel"`
 }
 

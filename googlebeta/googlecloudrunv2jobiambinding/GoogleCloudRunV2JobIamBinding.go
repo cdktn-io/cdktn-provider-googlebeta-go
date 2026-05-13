@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_v2_job_iam_binding google_cloud_run_v2_job_iam_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloud_run_v2_job_iam_binding google_cloud_run_v2_job_iam_binding}.
 type GoogleCloudRunV2JobIamBinding interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -471,7 +471,7 @@ func (j *jsiiProxy_GoogleCloudRunV2JobIamBinding) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_v2_job_iam_binding google_cloud_run_v2_job_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloud_run_v2_job_iam_binding google_cloud_run_v2_job_iam_binding} Resource.
 func NewGoogleCloudRunV2JobIamBinding(scope constructs.Construct, id *string, config *GoogleCloudRunV2JobIamBindingConfig) GoogleCloudRunV2JobIamBinding {
 	_init_.Initialize()
 
@@ -489,7 +489,7 @@ func NewGoogleCloudRunV2JobIamBinding(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_v2_job_iam_binding google_cloud_run_v2_job_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloud_run_v2_job_iam_binding google_cloud_run_v2_job_iam_binding} Resource.
 func NewGoogleCloudRunV2JobIamBinding_Override(g GoogleCloudRunV2JobIamBinding, scope constructs.Construct, id *string, config *GoogleCloudRunV2JobIamBindingConfig) {
 	_init_.Initialize()
 

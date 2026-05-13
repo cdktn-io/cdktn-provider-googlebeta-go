@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_firebase_remote_config_remote_config google_firebase_remote_config_remote_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_firebase_remote_config_remote_config google_firebase_remote_config_remote_config}.
 type GoogleFirebaseRemoteConfigRemoteConfig interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -461,7 +461,7 @@ func (j *jsiiProxy_GoogleFirebaseRemoteConfigRemoteConfig) Version() GoogleFireb
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_firebase_remote_config_remote_config google_firebase_remote_config_remote_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_firebase_remote_config_remote_config google_firebase_remote_config_remote_config} Resource.
 func NewGoogleFirebaseRemoteConfigRemoteConfig(scope constructs.Construct, id *string, config *GoogleFirebaseRemoteConfigRemoteConfigConfig) GoogleFirebaseRemoteConfigRemoteConfig {
 	_init_.Initialize()
 
@@ -479,7 +479,7 @@ func NewGoogleFirebaseRemoteConfigRemoteConfig(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_firebase_remote_config_remote_config google_firebase_remote_config_remote_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_firebase_remote_config_remote_config google_firebase_remote_config_remote_config} Resource.
 func NewGoogleFirebaseRemoteConfigRemoteConfig_Override(g GoogleFirebaseRemoteConfigRemoteConfig, scope constructs.Construct, id *string, config *GoogleFirebaseRemoteConfigRemoteConfigConfig) {
 	_init_.Initialize()
 

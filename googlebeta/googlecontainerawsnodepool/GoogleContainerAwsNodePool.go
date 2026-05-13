@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_aws_node_pool google_container_aws_node_pool}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_container_aws_node_pool google_container_aws_node_pool}.
 type GoogleContainerAwsNodePool interface {
 	cdktn.TerraformResource
 	Annotations() *map[string]*string
@@ -724,7 +724,7 @@ func (j *jsiiProxy_GoogleContainerAwsNodePool) VersionInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_aws_node_pool google_container_aws_node_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_container_aws_node_pool google_container_aws_node_pool} Resource.
 func NewGoogleContainerAwsNodePool(scope constructs.Construct, id *string, config *GoogleContainerAwsNodePoolConfig) GoogleContainerAwsNodePool {
 	_init_.Initialize()
 
@@ -742,7 +742,7 @@ func NewGoogleContainerAwsNodePool(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_container_aws_node_pool google_container_aws_node_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_container_aws_node_pool google_container_aws_node_pool} Resource.
 func NewGoogleContainerAwsNodePool_Override(g GoogleContainerAwsNodePool, scope constructs.Construct, id *string, config *GoogleContainerAwsNodePoolConfig) {
 	_init_.Initialize()
 

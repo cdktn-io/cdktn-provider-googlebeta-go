@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_artifact_registry_maven_artifact google_artifact_registry_maven_artifact}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_artifact_registry_maven_artifact google_artifact_registry_maven_artifact}.
 type DataGoogleArtifactRegistryMavenArtifact interface {
 	cdktn.TerraformDataSource
 	ArtifactId() *string
@@ -445,7 +445,7 @@ func (j *jsiiProxy_DataGoogleArtifactRegistryMavenArtifact) Version() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_artifact_registry_maven_artifact google_artifact_registry_maven_artifact} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_artifact_registry_maven_artifact google_artifact_registry_maven_artifact} Data Source.
 func NewDataGoogleArtifactRegistryMavenArtifact(scope constructs.Construct, id *string, config *DataGoogleArtifactRegistryMavenArtifactConfig) DataGoogleArtifactRegistryMavenArtifact {
 	_init_.Initialize()
 
@@ -463,7 +463,7 @@ func NewDataGoogleArtifactRegistryMavenArtifact(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_artifact_registry_maven_artifact google_artifact_registry_maven_artifact} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_artifact_registry_maven_artifact google_artifact_registry_maven_artifact} Data Source.
 func NewDataGoogleArtifactRegistryMavenArtifact_Override(d DataGoogleArtifactRegistryMavenArtifact, scope constructs.Construct, id *string, config *DataGoogleArtifactRegistryMavenArtifactConfig) {
 	_init_.Initialize()
 

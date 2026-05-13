@@ -24,7 +24,7 @@ type GoogleFirestoreUserCredsConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The Firestore database ID.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_firestore_user_creds#database GoogleFirestoreUserCreds#database}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_firestore_user_creds#database GoogleFirestoreUserCreds#database}
 	Database *string `field:"required" json:"database" yaml:"database"`
 	// The ID to use for the user creds, which will become the final component of the user cred's resource name.
 	//
@@ -32,18 +32,18 @@ type GoogleFirestoreUserCredsConfig struct {
 	// with first character a letter and the last a letter or a number. Must not
 	// be UUID-like /[0-9a-f]{8}(-[0-9a-f]{4}){3}-[0-9a-f]{12}/.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_firestore_user_creds#name GoogleFirestoreUserCreds#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_firestore_user_creds#name GoogleFirestoreUserCreds#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_firestore_user_creds#id GoogleFirestoreUserCreds#id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_firestore_user_creds#id GoogleFirestoreUserCreds#id}.
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
 	Id *string `field:"optional" json:"id" yaml:"id"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_firestore_user_creds#project GoogleFirestoreUserCreds#project}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_firestore_user_creds#project GoogleFirestoreUserCreds#project}.
 	Project *string `field:"optional" json:"project" yaml:"project"`
 	// timeouts block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_firestore_user_creds#timeouts GoogleFirestoreUserCreds#timeouts}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_firestore_user_creds#timeouts GoogleFirestoreUserCreds#timeouts}
 	Timeouts *GoogleFirestoreUserCredsTimeouts `field:"optional" json:"timeouts" yaml:"timeouts"`
 }
 

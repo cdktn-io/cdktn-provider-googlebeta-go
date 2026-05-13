@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_router_route_policy google_compute_router_route_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_router_route_policy google_compute_router_route_policy}.
 type GoogleComputeRouterRoutePolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -495,7 +495,7 @@ func (j *jsiiProxy_GoogleComputeRouterRoutePolicy) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_router_route_policy google_compute_router_route_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_router_route_policy google_compute_router_route_policy} Resource.
 func NewGoogleComputeRouterRoutePolicy(scope constructs.Construct, id *string, config *GoogleComputeRouterRoutePolicyConfig) GoogleComputeRouterRoutePolicy {
 	_init_.Initialize()
 
@@ -513,7 +513,7 @@ func NewGoogleComputeRouterRoutePolicy(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_router_route_policy google_compute_router_route_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_router_route_policy google_compute_router_route_policy} Resource.
 func NewGoogleComputeRouterRoutePolicy_Override(g GoogleComputeRouterRoutePolicy, scope constructs.Construct, id *string, config *GoogleComputeRouterRoutePolicyConfig) {
 	_init_.Initialize()
 

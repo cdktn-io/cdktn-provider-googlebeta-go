@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_security_dns_threat_detector google_network_security_dns_threat_detector}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_security_dns_threat_detector google_network_security_dns_threat_detector}.
 type GoogleNetworkSecurityDnsThreatDetector interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -530,7 +530,7 @@ func (j *jsiiProxy_GoogleNetworkSecurityDnsThreatDetector) UpdateTime() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_security_dns_threat_detector google_network_security_dns_threat_detector} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_security_dns_threat_detector google_network_security_dns_threat_detector} Resource.
 func NewGoogleNetworkSecurityDnsThreatDetector(scope constructs.Construct, id *string, config *GoogleNetworkSecurityDnsThreatDetectorConfig) GoogleNetworkSecurityDnsThreatDetector {
 	_init_.Initialize()
 
@@ -548,7 +548,7 @@ func NewGoogleNetworkSecurityDnsThreatDetector(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_security_dns_threat_detector google_network_security_dns_threat_detector} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_security_dns_threat_detector google_network_security_dns_threat_detector} Resource.
 func NewGoogleNetworkSecurityDnsThreatDetector_Override(g GoogleNetworkSecurityDnsThreatDetector, scope constructs.Construct, id *string, config *GoogleNetworkSecurityDnsThreatDetectorConfig) {
 	_init_.Initialize()
 

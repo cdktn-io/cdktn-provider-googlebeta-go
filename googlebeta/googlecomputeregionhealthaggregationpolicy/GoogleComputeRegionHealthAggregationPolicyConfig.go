@@ -32,15 +32,15 @@ type GoogleComputeRegionHealthAggregationPolicyConfig struct {
 	// be a dash, lowercase letter, or digit, except the last character, which
 	// cannot be a dash.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_health_aggregation_policy#name GoogleComputeRegionHealthAggregationPolicy#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_health_aggregation_policy#name GoogleComputeRegionHealthAggregationPolicy#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// URL of the region where the health aggregation policy resides.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_health_aggregation_policy#region GoogleComputeRegionHealthAggregationPolicy#region}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_health_aggregation_policy#region GoogleComputeRegionHealthAggregationPolicy#region}
 	Region *string `field:"required" json:"region" yaml:"region"`
 	// An optional description of this resource. Provide this property when you create the resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_health_aggregation_policy#description GoogleComputeRegionHealthAggregationPolicy#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_health_aggregation_policy#description GoogleComputeRegionHealthAggregationPolicy#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
 	// Can only be set if the 'policyType' field is 'BACKEND_SERVICE_POLICY'.
 	//
@@ -55,7 +55,7 @@ type GoogleComputeRegionHealthAggregationPolicyConfig struct {
 	// endpoints within a Network Endpoint Group or instances within an Instance
 	// Group.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_health_aggregation_policy#healthy_percent_threshold GoogleComputeRegionHealthAggregationPolicy#healthy_percent_threshold}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_health_aggregation_policy#healthy_percent_threshold GoogleComputeRegionHealthAggregationPolicy#healthy_percent_threshold}
 	HealthyPercentThreshold *float64 `field:"optional" json:"healthyPercentThreshold" yaml:"healthyPercentThreshold"`
 	// Can only be set if the 'policyType' field is 'BACKEND_SERVICE_POLICY'.
 	//
@@ -70,7 +70,7 @@ type GoogleComputeRegionHealthAggregationPolicyConfig struct {
 	// network endpoints within a Network Endpoint Group or instances within an
 	// Instance Group.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_health_aggregation_policy#min_healthy_threshold GoogleComputeRegionHealthAggregationPolicy#min_healthy_threshold}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_health_aggregation_policy#min_healthy_threshold GoogleComputeRegionHealthAggregationPolicy#min_healthy_threshold}
 	MinHealthyThreshold *float64 `field:"optional" json:"minHealthyThreshold" yaml:"minHealthyThreshold"`
 	// Specifies the type of the healthAggregationPolicy.
 	//
@@ -80,13 +80,13 @@ type GoogleComputeRegionHealthAggregationPolicyConfig struct {
 	// be specified when the healthAggregationPolicy is created, and cannot be
 	// mutated. Default value: "BACKEND_SERVICE_POLICY" Possible values: ["DNS_PUBLIC_IP_POLICY", "BACKEND_SERVICE_POLICY"]
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_health_aggregation_policy#policy_type GoogleComputeRegionHealthAggregationPolicy#policy_type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_health_aggregation_policy#policy_type GoogleComputeRegionHealthAggregationPolicy#policy_type}
 	PolicyType *string `field:"optional" json:"policyType" yaml:"policyType"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_health_aggregation_policy#project GoogleComputeRegionHealthAggregationPolicy#project}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_health_aggregation_policy#project GoogleComputeRegionHealthAggregationPolicy#project}.
 	Project *string `field:"optional" json:"project" yaml:"project"`
 	// timeouts block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_health_aggregation_policy#timeouts GoogleComputeRegionHealthAggregationPolicy#timeouts}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_health_aggregation_policy#timeouts GoogleComputeRegionHealthAggregationPolicy#timeouts}
 	Timeouts *GoogleComputeRegionHealthAggregationPolicyTimeouts `field:"optional" json:"timeouts" yaml:"timeouts"`
 }
 

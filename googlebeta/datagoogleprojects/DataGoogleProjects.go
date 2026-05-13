@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_projects google_projects}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_projects google_projects}.
 type DataGoogleProjects interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -308,7 +308,7 @@ func (j *jsiiProxy_DataGoogleProjects) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_projects google_projects} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_projects google_projects} Data Source.
 func NewDataGoogleProjects(scope constructs.Construct, id *string, config *DataGoogleProjectsConfig) DataGoogleProjects {
 	_init_.Initialize()
 
@@ -326,7 +326,7 @@ func NewDataGoogleProjects(scope constructs.Construct, id *string, config *DataG
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_projects google_projects} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_projects google_projects} Data Source.
 func NewDataGoogleProjects_Override(d DataGoogleProjects, scope constructs.Construct, id *string, config *DataGoogleProjectsConfig) {
 	_init_.Initialize()
 

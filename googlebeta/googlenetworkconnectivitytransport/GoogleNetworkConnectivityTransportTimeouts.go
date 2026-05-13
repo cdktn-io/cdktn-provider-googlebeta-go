@@ -5,11 +5,11 @@ package googlenetworkconnectivitytransport
 
 
 type GoogleNetworkConnectivityTransportTimeouts struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_transport#create GoogleNetworkConnectivityTransport#create}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_connectivity_transport#create GoogleNetworkConnectivityTransport#create}.
 	Create *string `field:"optional" json:"create" yaml:"create"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_transport#delete GoogleNetworkConnectivityTransport#delete}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_connectivity_transport#delete GoogleNetworkConnectivityTransport#delete}.
 	Delete *string `field:"optional" json:"delete" yaml:"delete"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_connectivity_transport#update GoogleNetworkConnectivityTransport#update}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_connectivity_transport#update GoogleNetworkConnectivityTransport#update}.
 	Update *string `field:"optional" json:"update" yaml:"update"`
 }
 

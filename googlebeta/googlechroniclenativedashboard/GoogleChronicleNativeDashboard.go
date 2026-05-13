@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_native_dashboard google_chronicle_native_dashboard}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_chronicle_native_dashboard google_chronicle_native_dashboard}.
 type GoogleChronicleNativeDashboard interface {
 	cdktn.TerraformResource
 	Access() *string
@@ -679,7 +679,7 @@ func (j *jsiiProxy_GoogleChronicleNativeDashboard) UpdateUserId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_native_dashboard google_chronicle_native_dashboard} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_chronicle_native_dashboard google_chronicle_native_dashboard} Resource.
 func NewGoogleChronicleNativeDashboard(scope constructs.Construct, id *string, config *GoogleChronicleNativeDashboardConfig) GoogleChronicleNativeDashboard {
 	_init_.Initialize()
 
@@ -697,7 +697,7 @@ func NewGoogleChronicleNativeDashboard(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_native_dashboard google_chronicle_native_dashboard} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_chronicle_native_dashboard google_chronicle_native_dashboard} Resource.
 func NewGoogleChronicleNativeDashboard_Override(g GoogleChronicleNativeDashboard, scope constructs.Construct, id *string, config *GoogleChronicleNativeDashboardConfig) {
 	_init_.Initialize()
 

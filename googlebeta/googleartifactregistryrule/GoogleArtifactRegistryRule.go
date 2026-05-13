@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_artifact_registry_rule google_artifact_registry_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_artifact_registry_rule google_artifact_registry_rule}.
 type GoogleArtifactRegistryRule interface {
 	cdktn.TerraformResource
 	Action() *string
@@ -544,7 +544,7 @@ func (j *jsiiProxy_GoogleArtifactRegistryRule) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_artifact_registry_rule google_artifact_registry_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_artifact_registry_rule google_artifact_registry_rule} Resource.
 func NewGoogleArtifactRegistryRule(scope constructs.Construct, id *string, config *GoogleArtifactRegistryRuleConfig) GoogleArtifactRegistryRule {
 	_init_.Initialize()
 
@@ -562,7 +562,7 @@ func NewGoogleArtifactRegistryRule(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_artifact_registry_rule google_artifact_registry_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_artifact_registry_rule google_artifact_registry_rule} Resource.
 func NewGoogleArtifactRegistryRule_Override(g GoogleArtifactRegistryRule, scope constructs.Construct, id *string, config *GoogleArtifactRegistryRuleConfig) {
 	_init_.Initialize()
 

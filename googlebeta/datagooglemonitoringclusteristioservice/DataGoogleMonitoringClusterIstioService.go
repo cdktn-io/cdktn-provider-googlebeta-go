@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_monitoring_cluster_istio_service google_monitoring_cluster_istio_service}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_monitoring_cluster_istio_service google_monitoring_cluster_istio_service}.
 type DataGoogleMonitoringClusterIstioService interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -445,7 +445,7 @@ func (j *jsiiProxy_DataGoogleMonitoringClusterIstioService) UserLabels() cdktn.S
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_monitoring_cluster_istio_service google_monitoring_cluster_istio_service} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_monitoring_cluster_istio_service google_monitoring_cluster_istio_service} Data Source.
 func NewDataGoogleMonitoringClusterIstioService(scope constructs.Construct, id *string, config *DataGoogleMonitoringClusterIstioServiceConfig) DataGoogleMonitoringClusterIstioService {
 	_init_.Initialize()
 
@@ -463,7 +463,7 @@ func NewDataGoogleMonitoringClusterIstioService(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_monitoring_cluster_istio_service google_monitoring_cluster_istio_service} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_monitoring_cluster_istio_service google_monitoring_cluster_istio_service} Data Source.
 func NewDataGoogleMonitoringClusterIstioService_Override(d DataGoogleMonitoringClusterIstioService, scope constructs.Construct, id *string, config *DataGoogleMonitoringClusterIstioServiceConfig) {
 	_init_.Initialize()
 

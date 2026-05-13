@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_observability_folder_settings google_observability_folder_settings}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_observability_folder_settings google_observability_folder_settings}.
 type GoogleObservabilityFolderSettings interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -459,7 +459,7 @@ func (j *jsiiProxy_GoogleObservabilityFolderSettings) TimeoutsInput() interface{
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_observability_folder_settings google_observability_folder_settings} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_observability_folder_settings google_observability_folder_settings} Resource.
 func NewGoogleObservabilityFolderSettings(scope constructs.Construct, id *string, config *GoogleObservabilityFolderSettingsConfig) GoogleObservabilityFolderSettings {
 	_init_.Initialize()
 
@@ -477,7 +477,7 @@ func NewGoogleObservabilityFolderSettings(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_observability_folder_settings google_observability_folder_settings} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_observability_folder_settings google_observability_folder_settings} Resource.
 func NewGoogleObservabilityFolderSettings_Override(g GoogleObservabilityFolderSettings, scope constructs.Construct, id *string, config *GoogleObservabilityFolderSettingsConfig) {
 	_init_.Initialize()
 

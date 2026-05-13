@@ -17,11 +17,11 @@ type GoogleCesToolsetOpenApiToolsetTlsConfigCaCerts struct {
 	// -out example.com.crt \
 	// -extfile <(printf "\nsubjectAltName='DNS:www.example.com'")
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_toolset#cert GoogleCesToolset#cert}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_toolset#cert GoogleCesToolset#cert}
 	Cert *string `field:"required" json:"cert" yaml:"cert"`
 	// The name of the allowed custom CA certificates. This can be used to disambiguate the custom CA certificates.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_toolset#display_name GoogleCesToolset#display_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_toolset#display_name GoogleCesToolset#display_name}
 	DisplayName *string `field:"required" json:"displayName" yaml:"displayName"`
 }
 

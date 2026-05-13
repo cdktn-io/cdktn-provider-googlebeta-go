@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_rollout_plan google_compute_rollout_plan}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_rollout_plan google_compute_rollout_plan}.
 type GoogleComputeRolloutPlan interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -472,7 +472,7 @@ func (j *jsiiProxy_GoogleComputeRolloutPlan) WavesInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_rollout_plan google_compute_rollout_plan} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_rollout_plan google_compute_rollout_plan} Resource.
 func NewGoogleComputeRolloutPlan(scope constructs.Construct, id *string, config *GoogleComputeRolloutPlanConfig) GoogleComputeRolloutPlan {
 	_init_.Initialize()
 
@@ -490,7 +490,7 @@ func NewGoogleComputeRolloutPlan(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_rollout_plan google_compute_rollout_plan} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_rollout_plan google_compute_rollout_plan} Resource.
 func NewGoogleComputeRolloutPlan_Override(g GoogleComputeRolloutPlan, scope constructs.Construct, id *string, config *GoogleComputeRolloutPlanConfig) {
 	_init_.Initialize()
 

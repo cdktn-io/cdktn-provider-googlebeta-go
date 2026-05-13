@@ -17,7 +17,7 @@ type GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyCacheKeyPolicy 
 	// includedQueryParameters to define which parameters should be part of
 	// the cache key.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_url_map#excluded_query_parameters GoogleComputeUrlMap#excluded_query_parameters}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_url_map#excluded_query_parameters GoogleComputeUrlMap#excluded_query_parameters}
 	ExcludedQueryParameters *[]*string `field:"optional" json:"excludedQueryParameters" yaml:"excludedQueryParameters"`
 	// Allows HTTP cookies (by name) to be used in the cache key.
 	//
@@ -29,11 +29,11 @@ type GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyCacheKeyPolicy 
 	// Buckets will result in a configuration error. Up to 5 cookie names can
 	// be specified.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_url_map#included_cookie_names GoogleComputeUrlMap#included_cookie_names}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_url_map#included_cookie_names GoogleComputeUrlMap#included_cookie_names}
 	IncludedCookieNames *[]*string `field:"optional" json:"includedCookieNames" yaml:"includedCookieNames"`
 	// Allows HTTP request headers (by name) to be used in the cache key.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_url_map#included_header_names GoogleComputeUrlMap#included_header_names}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_url_map#included_header_names GoogleComputeUrlMap#included_header_names}
 	IncludedHeaderNames *[]*string `field:"optional" json:"includedHeaderNames" yaml:"includedHeaderNames"`
 	// Names of query string parameters to include in cache keys.
 	//
@@ -42,7 +42,7 @@ type GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyCacheKeyPolicy 
 	// or excludedQueryParameters, not both. '&' and '=' will be percent
 	// encoded and not treated as delimiters.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_url_map#included_query_parameters GoogleComputeUrlMap#included_query_parameters}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_url_map#included_query_parameters GoogleComputeUrlMap#included_query_parameters}
 	IncludedQueryParameters *[]*string `field:"optional" json:"includedQueryParameters" yaml:"includedQueryParameters"`
 	// If true, requests to different hosts will be cached separately.
 	//
@@ -53,7 +53,7 @@ type GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyCacheKeyPolicy 
 	// a route that points exclusively to Backend Buckets will result in a
 	// configuration error.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_url_map#include_host GoogleComputeUrlMap#include_host}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_url_map#include_host GoogleComputeUrlMap#include_host}
 	IncludeHost interface{} `field:"optional" json:"includeHost" yaml:"includeHost"`
 	// If true, http and https requests will be cached separately.
 	//
@@ -64,7 +64,7 @@ type GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyCacheKeyPolicy 
 	// route that points exclusively to Backend Buckets will result in a
 	// configuration error.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_url_map#include_protocol GoogleComputeUrlMap#include_protocol}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_url_map#include_protocol GoogleComputeUrlMap#include_protocol}
 	IncludeProtocol interface{} `field:"optional" json:"includeProtocol" yaml:"includeProtocol"`
 	// If true, include query string parameters in the cache key according to includedQueryParameters and excludedQueryParameters.
 	//
@@ -77,7 +77,7 @@ type GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyCacheKeyPolicy 
 	// includedQueryParameters to define which parameters should be part of
 	// the cache key.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_url_map#include_query_string GoogleComputeUrlMap#include_query_string}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_url_map#include_query_string GoogleComputeUrlMap#include_query_string}
 	IncludeQueryString interface{} `field:"optional" json:"includeQueryString" yaml:"includeQueryString"`
 }
 

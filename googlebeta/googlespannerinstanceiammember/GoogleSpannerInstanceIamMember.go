@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_spanner_instance_iam_member google_spanner_instance_iam_member}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_spanner_instance_iam_member google_spanner_instance_iam_member}.
 type GoogleSpannerInstanceIamMember interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -447,7 +447,7 @@ func (j *jsiiProxy_GoogleSpannerInstanceIamMember) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_spanner_instance_iam_member google_spanner_instance_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_spanner_instance_iam_member google_spanner_instance_iam_member} Resource.
 func NewGoogleSpannerInstanceIamMember(scope constructs.Construct, id *string, config *GoogleSpannerInstanceIamMemberConfig) GoogleSpannerInstanceIamMember {
 	_init_.Initialize()
 
@@ -465,7 +465,7 @@ func NewGoogleSpannerInstanceIamMember(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_spanner_instance_iam_member google_spanner_instance_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_spanner_instance_iam_member google_spanner_instance_iam_member} Resource.
 func NewGoogleSpannerInstanceIamMember_Override(g GoogleSpannerInstanceIamMember, scope constructs.Construct, id *string, config *GoogleSpannerInstanceIamMemberConfig) {
 	_init_.Initialize()
 

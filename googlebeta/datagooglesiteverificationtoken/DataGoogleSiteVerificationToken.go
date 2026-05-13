@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_site_verification_token google_site_verification_token}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_site_verification_token google_site_verification_token}.
 type DataGoogleSiteVerificationToken interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -378,7 +378,7 @@ func (j *jsiiProxy_DataGoogleSiteVerificationToken) VerificationMethodInput() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_site_verification_token google_site_verification_token} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_site_verification_token google_site_verification_token} Data Source.
 func NewDataGoogleSiteVerificationToken(scope constructs.Construct, id *string, config *DataGoogleSiteVerificationTokenConfig) DataGoogleSiteVerificationToken {
 	_init_.Initialize()
 
@@ -396,7 +396,7 @@ func NewDataGoogleSiteVerificationToken(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_site_verification_token google_site_verification_token} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_site_verification_token google_site_verification_token} Data Source.
 func NewDataGoogleSiteVerificationToken_Override(d DataGoogleSiteVerificationToken, scope constructs.Construct, id *string, config *DataGoogleSiteVerificationTokenConfig) {
 	_init_.Initialize()
 

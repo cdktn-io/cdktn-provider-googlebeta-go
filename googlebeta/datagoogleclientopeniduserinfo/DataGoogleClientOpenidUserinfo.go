@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_client_openid_userinfo google_client_openid_userinfo}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_client_openid_userinfo google_client_openid_userinfo}.
 type DataGoogleClientOpenidUserinfo interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -272,7 +272,7 @@ func (j *jsiiProxy_DataGoogleClientOpenidUserinfo) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_client_openid_userinfo google_client_openid_userinfo} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_client_openid_userinfo google_client_openid_userinfo} Data Source.
 func NewDataGoogleClientOpenidUserinfo(scope constructs.Construct, id *string, config *DataGoogleClientOpenidUserinfoConfig) DataGoogleClientOpenidUserinfo {
 	_init_.Initialize()
 
@@ -290,7 +290,7 @@ func NewDataGoogleClientOpenidUserinfo(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_client_openid_userinfo google_client_openid_userinfo} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_client_openid_userinfo google_client_openid_userinfo} Data Source.
 func NewDataGoogleClientOpenidUserinfo_Override(d DataGoogleClientOpenidUserinfo, scope constructs.Construct, id *string, config *DataGoogleClientOpenidUserinfoConfig) {
 	_init_.Initialize()
 

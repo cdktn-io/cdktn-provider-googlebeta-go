@@ -9,7 +9,7 @@ type GoogleCesAppModelSettings struct {
 	//
 	// If not set, the agent will inherit the model from its parent agent.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_app#model GoogleCesApp#model}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_app#model GoogleCesApp#model}
 	Model *string `field:"optional" json:"model" yaml:"model"`
 	// If set, this temperature will be used for the LLM model.
 	//
@@ -18,7 +18,7 @@ type GoogleCesAppModelSettings struct {
 	// produce responses that are more predictable. Higher temperatures produce
 	// responses that are more creative.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_app#temperature GoogleCesApp#temperature}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_app#temperature GoogleCesApp#temperature}
 	Temperature *float64 `field:"optional" json:"temperature" yaml:"temperature"`
 }
 

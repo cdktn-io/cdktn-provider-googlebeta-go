@@ -12,11 +12,11 @@ type GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyNegativeCaching
 	// specified as values, and you cannot specify a status code more than
 	// once.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_url_map#code GoogleComputeUrlMap#code}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_url_map#code GoogleComputeUrlMap#code}
 	Code *float64 `field:"optional" json:"code" yaml:"code"`
 	// ttl block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_url_map#ttl GoogleComputeUrlMap#ttl}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_url_map#ttl GoogleComputeUrlMap#ttl}
 	Ttl *GoogleComputeUrlMapPathMatcherPathRuleRouteActionCachePolicyNegativeCachingPolicyTtl `field:"optional" json:"ttl" yaml:"ttl"`
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume_quota_rule google_netapp_volume_quota_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_volume_quota_rule google_netapp_volume_quota_rule}.
 type GoogleNetappVolumeQuotaRule interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -610,7 +610,7 @@ func (j *jsiiProxy_GoogleNetappVolumeQuotaRule) VolumeNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume_quota_rule google_netapp_volume_quota_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_volume_quota_rule google_netapp_volume_quota_rule} Resource.
 func NewGoogleNetappVolumeQuotaRule(scope constructs.Construct, id *string, config *GoogleNetappVolumeQuotaRuleConfig) GoogleNetappVolumeQuotaRule {
 	_init_.Initialize()
 
@@ -628,7 +628,7 @@ func NewGoogleNetappVolumeQuotaRule(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_netapp_volume_quota_rule google_netapp_volume_quota_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_volume_quota_rule google_netapp_volume_quota_rule} Resource.
 func NewGoogleNetappVolumeQuotaRule_Override(g GoogleNetappVolumeQuotaRule, scope constructs.Construct, id *string, config *GoogleNetappVolumeQuotaRuleConfig) {
 	_init_.Initialize()
 

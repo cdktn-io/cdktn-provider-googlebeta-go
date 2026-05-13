@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_project_organization_policy google_project_organization_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_project_organization_policy google_project_organization_policy}.
 type DataGoogleProjectOrganizationPolicy interface {
 	cdktn.TerraformDataSource
 	BooleanPolicy() DataGoogleProjectOrganizationPolicyBooleanPolicyList
@@ -386,7 +386,7 @@ func (j *jsiiProxy_DataGoogleProjectOrganizationPolicy) Version() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_project_organization_policy google_project_organization_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_project_organization_policy google_project_organization_policy} Data Source.
 func NewDataGoogleProjectOrganizationPolicy(scope constructs.Construct, id *string, config *DataGoogleProjectOrganizationPolicyConfig) DataGoogleProjectOrganizationPolicy {
 	_init_.Initialize()
 
@@ -404,7 +404,7 @@ func NewDataGoogleProjectOrganizationPolicy(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_project_organization_policy google_project_organization_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_project_organization_policy google_project_organization_policy} Data Source.
 func NewDataGoogleProjectOrganizationPolicy_Override(d DataGoogleProjectOrganizationPolicy, scope constructs.Construct, id *string, config *DataGoogleProjectOrganizationPolicyConfig) {
 	_init_.Initialize()
 

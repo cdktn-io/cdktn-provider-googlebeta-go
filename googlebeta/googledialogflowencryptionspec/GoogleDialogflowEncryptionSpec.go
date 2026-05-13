@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_encryption_spec google_dialogflow_encryption_spec}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dialogflow_encryption_spec google_dialogflow_encryption_spec}.
 type GoogleDialogflowEncryptionSpec interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -413,7 +413,7 @@ func (j *jsiiProxy_GoogleDialogflowEncryptionSpec) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_encryption_spec google_dialogflow_encryption_spec} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dialogflow_encryption_spec google_dialogflow_encryption_spec} Resource.
 func NewGoogleDialogflowEncryptionSpec(scope constructs.Construct, id *string, config *GoogleDialogflowEncryptionSpecConfig) GoogleDialogflowEncryptionSpec {
 	_init_.Initialize()
 
@@ -431,7 +431,7 @@ func NewGoogleDialogflowEncryptionSpec(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_encryption_spec google_dialogflow_encryption_spec} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dialogflow_encryption_spec google_dialogflow_encryption_spec} Resource.
 func NewGoogleDialogflowEncryptionSpec_Override(g GoogleDialogflowEncryptionSpec, scope constructs.Construct, id *string, config *GoogleDialogflowEncryptionSpecConfig) {
 	_init_.Initialize()
 

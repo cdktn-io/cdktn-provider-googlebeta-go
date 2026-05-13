@@ -12,9 +12,11 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_organization_security_policy google_compute_organization_security_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_organization_security_policy google_compute_organization_security_policy}.
 type GoogleComputeOrganizationSecurityPolicy interface {
 	cdktn.TerraformResource
+	AdvancedOptionsConfig() GoogleComputeOrganizationSecurityPolicyAdvancedOptionsConfigOutputReference
+	AdvancedOptionsConfigInput() *GoogleComputeOrganizationSecurityPolicyAdvancedOptionsConfig
 	// Experimental.
 	CdktfStack() cdktn.TerraformStack
 	// Experimental.
@@ -126,7 +128,9 @@ type GoogleComputeOrganizationSecurityPolicy interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	PutAdvancedOptionsConfig(value *GoogleComputeOrganizationSecurityPolicyAdvancedOptionsConfig)
 	PutTimeouts(value *GoogleComputeOrganizationSecurityPolicyTimeouts)
+	ResetAdvancedOptionsConfig()
 	ResetDescription()
 	ResetDisplayName()
 	ResetId()
@@ -161,6 +165,26 @@ type GoogleComputeOrganizationSecurityPolicy interface {
 // The jsii proxy struct for GoogleComputeOrganizationSecurityPolicy
 type jsiiProxy_GoogleComputeOrganizationSecurityPolicy struct {
 	internal.Type__cdktnTerraformResource
+}
+
+func (j *jsiiProxy_GoogleComputeOrganizationSecurityPolicy) AdvancedOptionsConfig() GoogleComputeOrganizationSecurityPolicyAdvancedOptionsConfigOutputReference {
+	var returns GoogleComputeOrganizationSecurityPolicyAdvancedOptionsConfigOutputReference
+	_jsii_.Get(
+		j,
+		"advancedOptionsConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeOrganizationSecurityPolicy) AdvancedOptionsConfigInput() *GoogleComputeOrganizationSecurityPolicyAdvancedOptionsConfig {
+	var returns *GoogleComputeOrganizationSecurityPolicyAdvancedOptionsConfig
+	_jsii_.Get(
+		j,
+		"advancedOptionsConfigInput",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_GoogleComputeOrganizationSecurityPolicy) CdktfStack() cdktn.TerraformStack {
@@ -484,7 +508,7 @@ func (j *jsiiProxy_GoogleComputeOrganizationSecurityPolicy) TypeInput() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_organization_security_policy google_compute_organization_security_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_organization_security_policy google_compute_organization_security_policy} Resource.
 func NewGoogleComputeOrganizationSecurityPolicy(scope constructs.Construct, id *string, config *GoogleComputeOrganizationSecurityPolicyConfig) GoogleComputeOrganizationSecurityPolicy {
 	_init_.Initialize()
 
@@ -502,7 +526,7 @@ func NewGoogleComputeOrganizationSecurityPolicy(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_organization_security_policy google_compute_organization_security_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_organization_security_policy google_compute_organization_security_policy} Resource.
 func NewGoogleComputeOrganizationSecurityPolicy_Override(g GoogleComputeOrganizationSecurityPolicy, scope constructs.Construct, id *string, config *GoogleComputeOrganizationSecurityPolicyConfig) {
 	_init_.Initialize()
 
@@ -1000,6 +1024,17 @@ func (g *jsiiProxy_GoogleComputeOrganizationSecurityPolicy) OverrideLogicalId(ne
 	)
 }
 
+func (g *jsiiProxy_GoogleComputeOrganizationSecurityPolicy) PutAdvancedOptionsConfig(value *GoogleComputeOrganizationSecurityPolicyAdvancedOptionsConfig) {
+	if err := g.validatePutAdvancedOptionsConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putAdvancedOptionsConfig",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleComputeOrganizationSecurityPolicy) PutTimeouts(value *GoogleComputeOrganizationSecurityPolicyTimeouts) {
 	if err := g.validatePutTimeoutsParameters(value); err != nil {
 		panic(err)
@@ -1008,6 +1043,14 @@ func (g *jsiiProxy_GoogleComputeOrganizationSecurityPolicy) PutTimeouts(value *G
 		g,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleComputeOrganizationSecurityPolicy) ResetAdvancedOptionsConfig() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetAdvancedOptionsConfig",
+		nil, // no parameters
 	)
 }
 

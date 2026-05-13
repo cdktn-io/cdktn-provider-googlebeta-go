@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_beyondcorp_security_gateway_application_iam_policy google_beyondcorp_security_gateway_application_iam_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_beyondcorp_security_gateway_application_iam_policy google_beyondcorp_security_gateway_application_iam_policy}.
 type GoogleBeyondcorpSecurityGatewayApplicationIamPolicy interface {
 	cdktn.TerraformResource
 	ApplicationId() *string
@@ -423,7 +423,7 @@ func (j *jsiiProxy_GoogleBeyondcorpSecurityGatewayApplicationIamPolicy) Terrafor
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_beyondcorp_security_gateway_application_iam_policy google_beyondcorp_security_gateway_application_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_beyondcorp_security_gateway_application_iam_policy google_beyondcorp_security_gateway_application_iam_policy} Resource.
 func NewGoogleBeyondcorpSecurityGatewayApplicationIamPolicy(scope constructs.Construct, id *string, config *GoogleBeyondcorpSecurityGatewayApplicationIamPolicyConfig) GoogleBeyondcorpSecurityGatewayApplicationIamPolicy {
 	_init_.Initialize()
 
@@ -441,7 +441,7 @@ func NewGoogleBeyondcorpSecurityGatewayApplicationIamPolicy(scope constructs.Con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_beyondcorp_security_gateway_application_iam_policy google_beyondcorp_security_gateway_application_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_beyondcorp_security_gateway_application_iam_policy google_beyondcorp_security_gateway_application_iam_policy} Resource.
 func NewGoogleBeyondcorpSecurityGatewayApplicationIamPolicy_Override(g GoogleBeyondcorpSecurityGatewayApplicationIamPolicy, scope constructs.Construct, id *string, config *GoogleBeyondcorpSecurityGatewayApplicationIamPolicyConfig) {
 	_init_.Initialize()
 

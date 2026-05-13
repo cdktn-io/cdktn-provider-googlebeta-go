@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_oracle_database_odb_subnet google_oracle_database_odb_subnet}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_oracle_database_odb_subnet google_oracle_database_odb_subnet}.
 type DataGoogleOracleDatabaseOdbSubnet interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -466,7 +466,7 @@ func (j *jsiiProxy_DataGoogleOracleDatabaseOdbSubnet) TerraformResourceType() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_oracle_database_odb_subnet google_oracle_database_odb_subnet} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_oracle_database_odb_subnet google_oracle_database_odb_subnet} Data Source.
 func NewDataGoogleOracleDatabaseOdbSubnet(scope constructs.Construct, id *string, config *DataGoogleOracleDatabaseOdbSubnetConfig) DataGoogleOracleDatabaseOdbSubnet {
 	_init_.Initialize()
 
@@ -484,7 +484,7 @@ func NewDataGoogleOracleDatabaseOdbSubnet(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_oracle_database_odb_subnet google_oracle_database_odb_subnet} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_oracle_database_odb_subnet google_oracle_database_odb_subnet} Data Source.
 func NewDataGoogleOracleDatabaseOdbSubnet_Override(d DataGoogleOracleDatabaseOdbSubnet, scope constructs.Construct, id *string, config *DataGoogleOracleDatabaseOdbSubnetConfig) {
 	_init_.Initialize()
 

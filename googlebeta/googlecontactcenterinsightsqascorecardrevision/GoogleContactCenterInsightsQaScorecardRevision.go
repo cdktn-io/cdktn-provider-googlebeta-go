@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_contact_center_insights_qa_scorecard_revision google_contact_center_insights_qa_scorecard_revision}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_contact_center_insights_qa_scorecard_revision google_contact_center_insights_qa_scorecard_revision}.
 type GoogleContactCenterInsightsQaScorecardRevision interface {
 	cdktn.TerraformResource
 	AlternateIds() *[]*string
@@ -492,7 +492,7 @@ func (j *jsiiProxy_GoogleContactCenterInsightsQaScorecardRevision) TimeoutsInput
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_contact_center_insights_qa_scorecard_revision google_contact_center_insights_qa_scorecard_revision} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_contact_center_insights_qa_scorecard_revision google_contact_center_insights_qa_scorecard_revision} Resource.
 func NewGoogleContactCenterInsightsQaScorecardRevision(scope constructs.Construct, id *string, config *GoogleContactCenterInsightsQaScorecardRevisionConfig) GoogleContactCenterInsightsQaScorecardRevision {
 	_init_.Initialize()
 
@@ -510,7 +510,7 @@ func NewGoogleContactCenterInsightsQaScorecardRevision(scope constructs.Construc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_contact_center_insights_qa_scorecard_revision google_contact_center_insights_qa_scorecard_revision} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_contact_center_insights_qa_scorecard_revision google_contact_center_insights_qa_scorecard_revision} Resource.
 func NewGoogleContactCenterInsightsQaScorecardRevision_Override(g GoogleContactCenterInsightsQaScorecardRevision, scope constructs.Construct, id *string, config *GoogleContactCenterInsightsQaScorecardRevisionConfig) {
 	_init_.Initialize()
 

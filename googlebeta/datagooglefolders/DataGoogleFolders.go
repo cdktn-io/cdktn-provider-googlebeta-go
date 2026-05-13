@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_folders google_folders}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_folders google_folders}.
 type DataGoogleFolders interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -308,7 +308,7 @@ func (j *jsiiProxy_DataGoogleFolders) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_folders google_folders} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_folders google_folders} Data Source.
 func NewDataGoogleFolders(scope constructs.Construct, id *string, config *DataGoogleFoldersConfig) DataGoogleFolders {
 	_init_.Initialize()
 
@@ -326,7 +326,7 @@ func NewDataGoogleFolders(scope constructs.Construct, id *string, config *DataGo
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_folders google_folders} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_folders google_folders} Data Source.
 func NewDataGoogleFolders_Override(d DataGoogleFolders, scope constructs.Construct, id *string, config *DataGoogleFoldersConfig) {
 	_init_.Initialize()
 

@@ -24,7 +24,7 @@ type GoogleDiscoveryEngineUserStoreConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The geographic location where the data store should reside. The value can only be one of "global", "us" and "eu".
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_discovery_engine_user_store#location GoogleDiscoveryEngineUserStore#location}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_discovery_engine_user_store#location GoogleDiscoveryEngineUserStore#location}
 	Location *string `field:"required" json:"location" yaml:"location"`
 	// The resource name of the default license config assigned to users created in this user store.
 	//
@@ -35,7 +35,7 @@ type GoogleDiscoveryEngineUserStoreConfig struct {
 	// If the default license config doesn't have remaining license seats left,
 	// new users will not be assigned with license.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_discovery_engine_user_store#default_license_config GoogleDiscoveryEngineUserStore#default_license_config}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_discovery_engine_user_store#default_license_config GoogleDiscoveryEngineUserStore#default_license_config}
 	DefaultLicenseConfig *string `field:"optional" json:"defaultLicenseConfig" yaml:"defaultLicenseConfig"`
 	// Whether to enable automatic license update for users with expired licenses in this user store.
 	//
@@ -43,29 +43,29 @@ type GoogleDiscoveryEngineUserStoreConfig struct {
 	// automatically be updated to the default subscription if there are
 	// remaining license seats.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_discovery_engine_user_store#enable_expired_license_auto_update GoogleDiscoveryEngineUserStore#enable_expired_license_auto_update}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_discovery_engine_user_store#enable_expired_license_auto_update GoogleDiscoveryEngineUserStore#enable_expired_license_auto_update}
 	EnableExpiredLicenseAutoUpdate interface{} `field:"optional" json:"enableExpiredLicenseAutoUpdate" yaml:"enableExpiredLicenseAutoUpdate"`
 	// Whether to enable automatic license registration for new users created in this user store.
 	//
 	// If enabled, new users will automatically register under
 	// the default subscription.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_discovery_engine_user_store#enable_license_auto_register GoogleDiscoveryEngineUserStore#enable_license_auto_register}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_discovery_engine_user_store#enable_license_auto_register GoogleDiscoveryEngineUserStore#enable_license_auto_register}
 	EnableLicenseAutoRegister interface{} `field:"optional" json:"enableLicenseAutoRegister" yaml:"enableLicenseAutoRegister"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_discovery_engine_user_store#id GoogleDiscoveryEngineUserStore#id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_discovery_engine_user_store#id GoogleDiscoveryEngineUserStore#id}.
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
 	Id *string `field:"optional" json:"id" yaml:"id"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_discovery_engine_user_store#project GoogleDiscoveryEngineUserStore#project}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_discovery_engine_user_store#project GoogleDiscoveryEngineUserStore#project}.
 	Project *string `field:"optional" json:"project" yaml:"project"`
 	// timeouts block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_discovery_engine_user_store#timeouts GoogleDiscoveryEngineUserStore#timeouts}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_discovery_engine_user_store#timeouts GoogleDiscoveryEngineUserStore#timeouts}
 	Timeouts *GoogleDiscoveryEngineUserStoreTimeouts `field:"optional" json:"timeouts" yaml:"timeouts"`
 	// The ID of the user store. Currently only accepts "default_user_store".
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_discovery_engine_user_store#user_store_id GoogleDiscoveryEngineUserStore#user_store_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_discovery_engine_user_store#user_store_id GoogleDiscoveryEngineUserStore#user_store_id}
 	UserStoreId *string `field:"optional" json:"userStoreId" yaml:"userStoreId"`
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gke_hub_fleet google_gke_hub_fleet}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_gke_hub_fleet google_gke_hub_fleet}.
 type GoogleGkeHubFleet interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -470,7 +470,7 @@ func (j *jsiiProxy_GoogleGkeHubFleet) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gke_hub_fleet google_gke_hub_fleet} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_gke_hub_fleet google_gke_hub_fleet} Resource.
 func NewGoogleGkeHubFleet(scope constructs.Construct, id *string, config *GoogleGkeHubFleetConfig) GoogleGkeHubFleet {
 	_init_.Initialize()
 
@@ -488,7 +488,7 @@ func NewGoogleGkeHubFleet(scope constructs.Construct, id *string, config *Google
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_gke_hub_fleet google_gke_hub_fleet} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_gke_hub_fleet google_gke_hub_fleet} Resource.
 func NewGoogleGkeHubFleet_Override(g GoogleGkeHubFleet, scope constructs.Construct, id *string, config *GoogleGkeHubFleetConfig) {
 	_init_.Initialize()
 

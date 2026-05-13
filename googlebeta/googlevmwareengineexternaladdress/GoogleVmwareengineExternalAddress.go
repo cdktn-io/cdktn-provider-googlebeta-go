@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vmwareengine_external_address google_vmwareengine_external_address}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vmwareengine_external_address google_vmwareengine_external_address}.
 type GoogleVmwareengineExternalAddress interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -491,7 +491,7 @@ func (j *jsiiProxy_GoogleVmwareengineExternalAddress) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vmwareengine_external_address google_vmwareengine_external_address} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vmwareengine_external_address google_vmwareengine_external_address} Resource.
 func NewGoogleVmwareengineExternalAddress(scope constructs.Construct, id *string, config *GoogleVmwareengineExternalAddressConfig) GoogleVmwareengineExternalAddress {
 	_init_.Initialize()
 
@@ -509,7 +509,7 @@ func NewGoogleVmwareengineExternalAddress(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vmwareengine_external_address google_vmwareengine_external_address} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vmwareengine_external_address google_vmwareengine_external_address} Resource.
 func NewGoogleVmwareengineExternalAddress_Override(g GoogleVmwareengineExternalAddress, scope constructs.Construct, id *string, config *GoogleVmwareengineExternalAddressConfig) {
 	_init_.Initialize()
 

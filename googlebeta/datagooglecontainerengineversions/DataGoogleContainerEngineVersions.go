@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_container_engine_versions google_container_engine_versions}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_container_engine_versions google_container_engine_versions}.
 type DataGoogleContainerEngineVersions interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -434,7 +434,7 @@ func (j *jsiiProxy_DataGoogleContainerEngineVersions) VersionPrefixInput() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_container_engine_versions google_container_engine_versions} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_container_engine_versions google_container_engine_versions} Data Source.
 func NewDataGoogleContainerEngineVersions(scope constructs.Construct, id *string, config *DataGoogleContainerEngineVersionsConfig) DataGoogleContainerEngineVersions {
 	_init_.Initialize()
 
@@ -452,7 +452,7 @@ func NewDataGoogleContainerEngineVersions(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_container_engine_versions google_container_engine_versions} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_container_engine_versions google_container_engine_versions} Data Source.
 func NewDataGoogleContainerEngineVersions_Override(d DataGoogleContainerEngineVersions, scope constructs.Construct, id *string, config *DataGoogleContainerEngineVersionsConfig) {
 	_init_.Initialize()
 

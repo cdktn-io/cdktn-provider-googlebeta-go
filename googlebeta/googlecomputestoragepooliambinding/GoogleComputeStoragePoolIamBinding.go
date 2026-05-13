@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_storage_pool_iam_binding google_compute_storage_pool_iam_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_storage_pool_iam_binding google_compute_storage_pool_iam_binding}.
 type GoogleComputeStoragePoolIamBinding interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -471,7 +471,7 @@ func (j *jsiiProxy_GoogleComputeStoragePoolIamBinding) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_storage_pool_iam_binding google_compute_storage_pool_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_storage_pool_iam_binding google_compute_storage_pool_iam_binding} Resource.
 func NewGoogleComputeStoragePoolIamBinding(scope constructs.Construct, id *string, config *GoogleComputeStoragePoolIamBindingConfig) GoogleComputeStoragePoolIamBinding {
 	_init_.Initialize()
 
@@ -489,7 +489,7 @@ func NewGoogleComputeStoragePoolIamBinding(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_storage_pool_iam_binding google_compute_storage_pool_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_storage_pool_iam_binding google_compute_storage_pool_iam_binding} Resource.
 func NewGoogleComputeStoragePoolIamBinding_Override(g GoogleComputeStoragePoolIamBinding, scope constructs.Construct, id *string, config *GoogleComputeStoragePoolIamBindingConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_instance_iam_binding google_compute_instance_iam_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_instance_iam_binding google_compute_instance_iam_binding}.
 type GoogleComputeInstanceIamBinding interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -471,7 +471,7 @@ func (j *jsiiProxy_GoogleComputeInstanceIamBinding) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_instance_iam_binding google_compute_instance_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_instance_iam_binding google_compute_instance_iam_binding} Resource.
 func NewGoogleComputeInstanceIamBinding(scope constructs.Construct, id *string, config *GoogleComputeInstanceIamBindingConfig) GoogleComputeInstanceIamBinding {
 	_init_.Initialize()
 
@@ -489,7 +489,7 @@ func NewGoogleComputeInstanceIamBinding(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_instance_iam_binding google_compute_instance_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_instance_iam_binding google_compute_instance_iam_binding} Resource.
 func NewGoogleComputeInstanceIamBinding_Override(g GoogleComputeInstanceIamBinding, scope constructs.Construct, id *string, config *GoogleComputeInstanceIamBindingConfig) {
 	_init_.Initialize()
 

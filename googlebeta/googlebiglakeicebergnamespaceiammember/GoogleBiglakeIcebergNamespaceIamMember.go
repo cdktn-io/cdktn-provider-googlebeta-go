@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_biglake_iceberg_namespace_iam_member google_biglake_iceberg_namespace_iam_member}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_biglake_iceberg_namespace_iam_member google_biglake_iceberg_namespace_iam_member}.
 type GoogleBiglakeIcebergNamespaceIamMember interface {
 	cdktn.TerraformResource
 	Catalog() *string
@@ -470,7 +470,7 @@ func (j *jsiiProxy_GoogleBiglakeIcebergNamespaceIamMember) TerraformResourceType
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_biglake_iceberg_namespace_iam_member google_biglake_iceberg_namespace_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_biglake_iceberg_namespace_iam_member google_biglake_iceberg_namespace_iam_member} Resource.
 func NewGoogleBiglakeIcebergNamespaceIamMember(scope constructs.Construct, id *string, config *GoogleBiglakeIcebergNamespaceIamMemberConfig) GoogleBiglakeIcebergNamespaceIamMember {
 	_init_.Initialize()
 
@@ -488,7 +488,7 @@ func NewGoogleBiglakeIcebergNamespaceIamMember(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_biglake_iceberg_namespace_iam_member google_biglake_iceberg_namespace_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_biglake_iceberg_namespace_iam_member google_biglake_iceberg_namespace_iam_member} Resource.
 func NewGoogleBiglakeIcebergNamespaceIamMember_Override(g GoogleBiglakeIcebergNamespaceIamMember, scope constructs.Construct, id *string, config *GoogleBiglakeIcebergNamespaceIamMemberConfig) {
 	_init_.Initialize()
 

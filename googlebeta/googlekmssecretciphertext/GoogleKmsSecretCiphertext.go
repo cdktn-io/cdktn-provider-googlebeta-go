@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_kms_secret_ciphertext google_kms_secret_ciphertext}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_kms_secret_ciphertext google_kms_secret_ciphertext}.
 type GoogleKmsSecretCiphertext interface {
 	cdktn.TerraformResource
 	AdditionalAuthenticatedData() *string
@@ -424,7 +424,7 @@ func (j *jsiiProxy_GoogleKmsSecretCiphertext) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_kms_secret_ciphertext google_kms_secret_ciphertext} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_kms_secret_ciphertext google_kms_secret_ciphertext} Resource.
 func NewGoogleKmsSecretCiphertext(scope constructs.Construct, id *string, config *GoogleKmsSecretCiphertextConfig) GoogleKmsSecretCiphertext {
 	_init_.Initialize()
 
@@ -442,7 +442,7 @@ func NewGoogleKmsSecretCiphertext(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_kms_secret_ciphertext google_kms_secret_ciphertext} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_kms_secret_ciphertext google_kms_secret_ciphertext} Resource.
 func NewGoogleKmsSecretCiphertext_Override(g GoogleKmsSecretCiphertext, scope constructs.Construct, id *string, config *GoogleKmsSecretCiphertextConfig) {
 	_init_.Initialize()
 

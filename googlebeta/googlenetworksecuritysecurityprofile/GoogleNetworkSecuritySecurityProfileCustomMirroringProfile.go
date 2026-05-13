@@ -11,7 +11,7 @@ type GoogleNetworkSecuritySecurityProfileCustomMirroringProfile struct {
 	// a replica will be mirrored to the location-local target in this group.
 	// Format: projects/{project_id}/locations/global/mirroringEndpointGroups/{endpoint_group_id}
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_security_security_profile#mirroring_endpoint_group GoogleNetworkSecuritySecurityProfile#mirroring_endpoint_group}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_security_security_profile#mirroring_endpoint_group GoogleNetworkSecuritySecurityProfile#mirroring_endpoint_group}
 	MirroringEndpointGroup *string `field:"required" json:"mirroringEndpointGroup" yaml:"mirroringEndpointGroup"`
 	// The target downstream Mirroring Deployment Groups.
 	//
@@ -19,7 +19,7 @@ type GoogleNetworkSecuritySecurityProfileCustomMirroringProfile struct {
 	// the deployment groups that the packet should be mirrored to by the broker.
 	// Format: projects/{project_id}/locations/global/mirroringDeploymentGroups/{deployment_group_id}
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_security_security_profile#mirroring_deployment_groups GoogleNetworkSecuritySecurityProfile#mirroring_deployment_groups}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_security_security_profile#mirroring_deployment_groups GoogleNetworkSecuritySecurityProfile#mirroring_deployment_groups}
 	MirroringDeploymentGroups *[]*string `field:"optional" json:"mirroringDeploymentGroups" yaml:"mirroringDeploymentGroups"`
 }
 

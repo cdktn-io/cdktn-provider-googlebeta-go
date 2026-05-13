@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_compute_interconnect_locations google_compute_interconnect_locations}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_compute_interconnect_locations google_compute_interconnect_locations}.
 type DataGoogleComputeInterconnectLocations interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -309,7 +309,7 @@ func (j *jsiiProxy_DataGoogleComputeInterconnectLocations) TerraformResourceType
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_compute_interconnect_locations google_compute_interconnect_locations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_compute_interconnect_locations google_compute_interconnect_locations} Data Source.
 func NewDataGoogleComputeInterconnectLocations(scope constructs.Construct, id *string, config *DataGoogleComputeInterconnectLocationsConfig) DataGoogleComputeInterconnectLocations {
 	_init_.Initialize()
 
@@ -327,7 +327,7 @@ func NewDataGoogleComputeInterconnectLocations(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/data-sources/google_compute_interconnect_locations google_compute_interconnect_locations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_compute_interconnect_locations google_compute_interconnect_locations} Data Source.
 func NewDataGoogleComputeInterconnectLocations_Override(d DataGoogleComputeInterconnectLocations, scope constructs.Construct, id *string, config *DataGoogleComputeInterconnectLocationsConfig) {
 	_init_.Initialize()
 

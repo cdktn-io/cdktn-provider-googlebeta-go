@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_v2_worker_pool_iam_binding google_cloud_run_v2_worker_pool_iam_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloud_run_v2_worker_pool_iam_binding google_cloud_run_v2_worker_pool_iam_binding}.
 type GoogleCloudRunV2WorkerPoolIamBinding interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -471,7 +471,7 @@ func (j *jsiiProxy_GoogleCloudRunV2WorkerPoolIamBinding) TerraformResourceType()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_v2_worker_pool_iam_binding google_cloud_run_v2_worker_pool_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloud_run_v2_worker_pool_iam_binding google_cloud_run_v2_worker_pool_iam_binding} Resource.
 func NewGoogleCloudRunV2WorkerPoolIamBinding(scope constructs.Construct, id *string, config *GoogleCloudRunV2WorkerPoolIamBindingConfig) GoogleCloudRunV2WorkerPoolIamBinding {
 	_init_.Initialize()
 
@@ -489,7 +489,7 @@ func NewGoogleCloudRunV2WorkerPoolIamBinding(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_cloud_run_v2_worker_pool_iam_binding google_cloud_run_v2_worker_pool_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloud_run_v2_worker_pool_iam_binding google_cloud_run_v2_worker_pool_iam_binding} Resource.
 func NewGoogleCloudRunV2WorkerPoolIamBinding_Override(g GoogleCloudRunV2WorkerPoolIamBinding, scope constructs.Construct, id *string, config *GoogleCloudRunV2WorkerPoolIamBindingConfig) {
 	_init_.Initialize()
 

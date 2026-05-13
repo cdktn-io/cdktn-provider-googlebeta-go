@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_security_sac_realm google_network_security_sac_realm}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_security_sac_realm google_network_security_sac_realm}.
 type GoogleNetworkSecuritySacRealm interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -527,7 +527,7 @@ func (j *jsiiProxy_GoogleNetworkSecuritySacRealm) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_security_sac_realm google_network_security_sac_realm} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_security_sac_realm google_network_security_sac_realm} Resource.
 func NewGoogleNetworkSecuritySacRealm(scope constructs.Construct, id *string, config *GoogleNetworkSecuritySacRealmConfig) GoogleNetworkSecuritySacRealm {
 	_init_.Initialize()
 
@@ -545,7 +545,7 @@ func NewGoogleNetworkSecuritySacRealm(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_security_sac_realm google_network_security_sac_realm} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_security_sac_realm google_network_security_sac_realm} Resource.
 func NewGoogleNetworkSecuritySacRealm_Override(g GoogleNetworkSecuritySacRealm, scope constructs.Construct, id *string, config *GoogleNetworkSecuritySacRealmConfig) {
 	_init_.Initialize()
 

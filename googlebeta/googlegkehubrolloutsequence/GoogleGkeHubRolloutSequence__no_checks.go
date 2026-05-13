@@ -75,6 +75,10 @@ func (g *jsiiProxy_GoogleGkeHubRolloutSequence) validateOverrideLogicalIdParamet
 	return nil
 }
 
+func (g *jsiiProxy_GoogleGkeHubRolloutSequence) validatePutAutoUpgradeConfigParameters(value *GoogleGkeHubRolloutSequenceAutoUpgradeConfig) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleGkeHubRolloutSequence) validatePutIgnoredClustersSelectorParameters(value *GoogleGkeHubRolloutSequenceIgnoredClustersSelector) error {
 	return nil
 }
