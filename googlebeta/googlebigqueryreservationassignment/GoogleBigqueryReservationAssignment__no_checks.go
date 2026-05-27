@@ -107,6 +107,10 @@ func (j *jsiiProxy_GoogleBigqueryReservationAssignment) validateSetCountParamete
 	return nil
 }
 
+func (j *jsiiProxy_GoogleBigqueryReservationAssignment) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleBigqueryReservationAssignment) validateSetIdParameters(val *string) error {
 	return nil
 }

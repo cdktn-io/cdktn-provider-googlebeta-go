@@ -103,6 +103,10 @@ func (j *jsiiProxy_GoogleMonitoringMonitoredProject) validateSetCountParameters(
 	return nil
 }
 
+func (j *jsiiProxy_GoogleMonitoringMonitoredProject) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleMonitoringMonitoredProject) validateSetIdParameters(val *string) error {
 	return nil
 }

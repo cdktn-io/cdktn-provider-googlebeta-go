@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataplex_datascan google_dataplex_datascan}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataplex_datascan google_dataplex_datascan}.
 type GoogleDataplexDatascan interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -41,6 +41,9 @@ type GoogleDataplexDatascan interface {
 	DataScanId() *string
 	SetDataScanId(val *string)
 	DataScanIdInput() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -162,6 +165,7 @@ type GoogleDataplexDatascan interface {
 	ResetDataDocumentationSpec()
 	ResetDataProfileSpec()
 	ResetDataQualitySpec()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetDisplayName()
 	ResetExecutionIdentity()
@@ -364,6 +368,26 @@ func (j *jsiiProxy_GoogleDataplexDatascan) DataScanIdInput() *string {
 	_jsii_.Get(
 		j,
 		"dataScanIdInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDataplexDatascan) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDataplexDatascan) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -750,7 +774,7 @@ func (j *jsiiProxy_GoogleDataplexDatascan) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataplex_datascan google_dataplex_datascan} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataplex_datascan google_dataplex_datascan} Resource.
 func NewGoogleDataplexDatascan(scope constructs.Construct, id *string, config *GoogleDataplexDatascanConfig) GoogleDataplexDatascan {
 	_init_.Initialize()
 
@@ -768,7 +792,7 @@ func NewGoogleDataplexDatascan(scope constructs.Construct, id *string, config *G
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataplex_datascan google_dataplex_datascan} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataplex_datascan google_dataplex_datascan} Resource.
 func NewGoogleDataplexDatascan_Override(g GoogleDataplexDatascan, scope constructs.Construct, id *string, config *GoogleDataplexDatascanConfig) {
 	_init_.Initialize()
 
@@ -808,6 +832,17 @@ func (j *jsiiProxy_GoogleDataplexDatascan)SetDataScanId(val *string) {
 	_jsii_.Set(
 		j,
 		"dataScanId",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleDataplexDatascan)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1393,6 +1428,14 @@ func (g *jsiiProxy_GoogleDataplexDatascan) ResetDataQualitySpec() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetDataQualitySpec",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleDataplexDatascan) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

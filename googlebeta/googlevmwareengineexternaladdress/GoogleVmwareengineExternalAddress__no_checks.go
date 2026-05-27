@@ -103,6 +103,10 @@ func (j *jsiiProxy_GoogleVmwareengineExternalAddress) validateSetCountParameters
 	return nil
 }
 
+func (j *jsiiProxy_GoogleVmwareengineExternalAddress) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleVmwareengineExternalAddress) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

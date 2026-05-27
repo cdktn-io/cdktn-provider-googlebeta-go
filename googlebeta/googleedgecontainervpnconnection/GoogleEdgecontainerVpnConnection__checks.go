@@ -367,6 +367,14 @@ func (j *jsiiProxy_GoogleEdgecontainerVpnConnection) validateSetCountParameters(
 	return nil
 }
 
+func (j *jsiiProxy_GoogleEdgecontainerVpnConnection) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_GoogleEdgecontainerVpnConnection) validateSetEnableHighAvailabilityParameters(val interface{}) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

@@ -107,6 +107,10 @@ func (j *jsiiProxy_GoogleMigrationCenterPreferenceSet) validateSetCountParameter
 	return nil
 }
 
+func (j *jsiiProxy_GoogleMigrationCenterPreferenceSet) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleMigrationCenterPreferenceSet) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

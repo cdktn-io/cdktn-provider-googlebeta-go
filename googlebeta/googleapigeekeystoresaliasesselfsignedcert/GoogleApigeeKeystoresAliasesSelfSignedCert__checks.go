@@ -386,6 +386,14 @@ func (j *jsiiProxy_GoogleApigeeKeystoresAliasesSelfSignedCert) validateSetCountP
 	return nil
 }
 
+func (j *jsiiProxy_GoogleApigeeKeystoresAliasesSelfSignedCert) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_GoogleApigeeKeystoresAliasesSelfSignedCert) validateSetEnvironmentParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

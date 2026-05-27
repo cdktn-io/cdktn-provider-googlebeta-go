@@ -379,6 +379,14 @@ func (j *jsiiProxy_GoogleIamWorkloadIdentityPoolManagedIdentity) validateSetCoun
 	return nil
 }
 
+func (j *jsiiProxy_GoogleIamWorkloadIdentityPoolManagedIdentity) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_GoogleIamWorkloadIdentityPoolManagedIdentity) validateSetDescriptionParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

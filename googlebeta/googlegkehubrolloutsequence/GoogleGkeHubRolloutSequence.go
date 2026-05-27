@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_gke_hub_rollout_sequence google_gke_hub_rollout_sequence}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_gke_hub_rollout_sequence google_gke_hub_rollout_sequence}.
 type GoogleGkeHubRolloutSequence interface {
 	cdktn.TerraformResource
 	AutoUpgradeConfig() GoogleGkeHubRolloutSequenceAutoUpgradeConfigOutputReference
@@ -31,6 +31,9 @@ type GoogleGkeHubRolloutSequence interface {
 	SetCount(val interface{})
 	CreateTime() *string
 	DeleteTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -140,6 +143,7 @@ type GoogleGkeHubRolloutSequence interface {
 	PutStages(value interface{})
 	PutTimeouts(value *GoogleGkeHubRolloutSequenceTimeouts)
 	ResetAutoUpgradeConfig()
+	ResetDeletionPolicy()
 	ResetDisplayName()
 	ResetId()
 	ResetIgnoredClustersSelector()
@@ -251,6 +255,26 @@ func (j *jsiiProxy_GoogleGkeHubRolloutSequence) DeleteTime() *string {
 	_jsii_.Get(
 		j,
 		"deleteTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleGkeHubRolloutSequence) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleGkeHubRolloutSequence) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -597,7 +621,7 @@ func (j *jsiiProxy_GoogleGkeHubRolloutSequence) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_gke_hub_rollout_sequence google_gke_hub_rollout_sequence} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_gke_hub_rollout_sequence google_gke_hub_rollout_sequence} Resource.
 func NewGoogleGkeHubRolloutSequence(scope constructs.Construct, id *string, config *GoogleGkeHubRolloutSequenceConfig) GoogleGkeHubRolloutSequence {
 	_init_.Initialize()
 
@@ -615,7 +639,7 @@ func NewGoogleGkeHubRolloutSequence(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_gke_hub_rollout_sequence google_gke_hub_rollout_sequence} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_gke_hub_rollout_sequence google_gke_hub_rollout_sequence} Resource.
 func NewGoogleGkeHubRolloutSequence_Override(g GoogleGkeHubRolloutSequence, scope constructs.Construct, id *string, config *GoogleGkeHubRolloutSequenceConfig) {
 	_init_.Initialize()
 
@@ -644,6 +668,17 @@ func (j *jsiiProxy_GoogleGkeHubRolloutSequence)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleGkeHubRolloutSequence)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1150,6 +1185,14 @@ func (g *jsiiProxy_GoogleGkeHubRolloutSequence) ResetAutoUpgradeConfig() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetAutoUpgradeConfig",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleGkeHubRolloutSequence) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

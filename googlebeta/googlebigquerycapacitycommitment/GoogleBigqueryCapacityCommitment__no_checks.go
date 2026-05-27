@@ -107,6 +107,10 @@ func (j *jsiiProxy_GoogleBigqueryCapacityCommitment) validateSetCountParameters(
 	return nil
 }
 
+func (j *jsiiProxy_GoogleBigqueryCapacityCommitment) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleBigqueryCapacityCommitment) validateSetEditionParameters(val *string) error {
 	return nil
 }

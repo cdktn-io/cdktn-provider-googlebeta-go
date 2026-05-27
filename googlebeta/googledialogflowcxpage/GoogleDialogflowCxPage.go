@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dialogflow_cx_page google_dialogflow_cx_page}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dialogflow_cx_page google_dialogflow_cx_page}.
 type GoogleDialogflowCxPage interface {
 	cdktn.TerraformResource
 	AdvancedSettings() GoogleDialogflowCxPageAdvancedSettingsOutputReference
@@ -29,6 +29,9 @@ type GoogleDialogflowCxPage interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -142,6 +145,7 @@ type GoogleDialogflowCxPage interface {
 	PutTimeouts(value *GoogleDialogflowCxPageTimeouts)
 	PutTransitionRoutes(value interface{})
 	ResetAdvancedSettings()
+	ResetDeletionPolicy()
 	ResetEntryFulfillment()
 	ResetEventHandlers()
 	ResetForm()
@@ -237,6 +241,26 @@ func (j *jsiiProxy_GoogleDialogflowCxPage) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDialogflowCxPage) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDialogflowCxPage) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -593,7 +617,7 @@ func (j *jsiiProxy_GoogleDialogflowCxPage) TransitionRoutesInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dialogflow_cx_page google_dialogflow_cx_page} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dialogflow_cx_page google_dialogflow_cx_page} Resource.
 func NewGoogleDialogflowCxPage(scope constructs.Construct, id *string, config *GoogleDialogflowCxPageConfig) GoogleDialogflowCxPage {
 	_init_.Initialize()
 
@@ -611,7 +635,7 @@ func NewGoogleDialogflowCxPage(scope constructs.Construct, id *string, config *G
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dialogflow_cx_page google_dialogflow_cx_page} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dialogflow_cx_page google_dialogflow_cx_page} Resource.
 func NewGoogleDialogflowCxPage_Override(g GoogleDialogflowCxPage, scope constructs.Construct, id *string, config *GoogleDialogflowCxPageConfig) {
 	_init_.Initialize()
 
@@ -640,6 +664,17 @@ func (j *jsiiProxy_GoogleDialogflowCxPage)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleDialogflowCxPage)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1179,6 +1214,14 @@ func (g *jsiiProxy_GoogleDialogflowCxPage) ResetAdvancedSettings() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetAdvancedSettings",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleDialogflowCxPage) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

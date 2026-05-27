@@ -327,6 +327,10 @@ func (j *jsiiProxy_GoogleContainerCluster) validateSetDefaultMaxPodsPerNodeParam
 	return nil
 }
 
+func (j *jsiiProxy_GoogleContainerCluster) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleContainerCluster) validateSetDeletionProtectionParameters(val interface{}) error {
 	return nil
 }

@@ -359,6 +359,14 @@ func (j *jsiiProxy_GoogleComputeInstanceSettings) validateSetCountParameters(val
 	return nil
 }
 
+func (j *jsiiProxy_GoogleComputeInstanceSettings) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_GoogleComputeInstanceSettings) validateSetIdParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

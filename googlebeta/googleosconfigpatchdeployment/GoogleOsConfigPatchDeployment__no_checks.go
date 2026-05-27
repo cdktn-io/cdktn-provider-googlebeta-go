@@ -123,6 +123,10 @@ func (j *jsiiProxy_GoogleOsConfigPatchDeployment) validateSetCountParameters(val
 	return nil
 }
 
+func (j *jsiiProxy_GoogleOsConfigPatchDeployment) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleOsConfigPatchDeployment) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

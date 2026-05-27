@@ -123,6 +123,10 @@ func (j *jsiiProxy_GoogleHypercomputeclusterCluster) validateSetCountParameters(
 	return nil
 }
 
+func (j *jsiiProxy_GoogleHypercomputeclusterCluster) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleHypercomputeclusterCluster) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

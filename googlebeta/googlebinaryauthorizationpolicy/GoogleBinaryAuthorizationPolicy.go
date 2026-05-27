@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_binary_authorization_policy google_binary_authorization_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_binary_authorization_policy google_binary_authorization_policy}.
 type GoogleBinaryAuthorizationPolicy interface {
 	cdktn.TerraformResource
 	AdmissionWhitelistPatterns() GoogleBinaryAuthorizationPolicyAdmissionWhitelistPatternsList
@@ -33,6 +33,9 @@ type GoogleBinaryAuthorizationPolicy interface {
 	SetCount(val interface{})
 	DefaultAdmissionRule() GoogleBinaryAuthorizationPolicyDefaultAdmissionRuleOutputReference
 	DefaultAdmissionRuleInput() *GoogleBinaryAuthorizationPolicyDefaultAdmissionRule
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -130,6 +133,7 @@ type GoogleBinaryAuthorizationPolicy interface {
 	PutTimeouts(value *GoogleBinaryAuthorizationPolicyTimeouts)
 	ResetAdmissionWhitelistPatterns()
 	ResetClusterAdmissionRules()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetGlobalPolicyEvaluationMode()
 	ResetId()
@@ -260,6 +264,26 @@ func (j *jsiiProxy_GoogleBinaryAuthorizationPolicy) DefaultAdmissionRuleInput() 
 	_jsii_.Get(
 		j,
 		"defaultAdmissionRuleInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleBinaryAuthorizationPolicy) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleBinaryAuthorizationPolicy) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -486,7 +510,7 @@ func (j *jsiiProxy_GoogleBinaryAuthorizationPolicy) TimeoutsInput() interface{} 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_binary_authorization_policy google_binary_authorization_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_binary_authorization_policy google_binary_authorization_policy} Resource.
 func NewGoogleBinaryAuthorizationPolicy(scope constructs.Construct, id *string, config *GoogleBinaryAuthorizationPolicyConfig) GoogleBinaryAuthorizationPolicy {
 	_init_.Initialize()
 
@@ -504,7 +528,7 @@ func NewGoogleBinaryAuthorizationPolicy(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_binary_authorization_policy google_binary_authorization_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_binary_authorization_policy google_binary_authorization_policy} Resource.
 func NewGoogleBinaryAuthorizationPolicy_Override(g GoogleBinaryAuthorizationPolicy, scope constructs.Construct, id *string, config *GoogleBinaryAuthorizationPolicyConfig) {
 	_init_.Initialize()
 
@@ -533,6 +557,17 @@ func (j *jsiiProxy_GoogleBinaryAuthorizationPolicy)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleBinaryAuthorizationPolicy)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1036,6 +1071,14 @@ func (g *jsiiProxy_GoogleBinaryAuthorizationPolicy) ResetClusterAdmissionRules()
 	_jsii_.InvokeVoid(
 		g,
 		"resetClusterAdmissionRules",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleBinaryAuthorizationPolicy) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

@@ -143,6 +143,10 @@ func (j *jsiiProxy_GoogleDiscoveryEngineDataConnector) validateSetDataSourceVers
 	return nil
 }
 
+func (j *jsiiProxy_GoogleDiscoveryEngineDataConnector) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleDiscoveryEngineDataConnector) validateSetIdParameters(val *string) error {
 	return nil
 }

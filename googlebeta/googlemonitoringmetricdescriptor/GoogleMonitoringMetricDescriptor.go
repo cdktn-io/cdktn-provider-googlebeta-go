@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_monitoring_metric_descriptor google_monitoring_metric_descriptor}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_monitoring_metric_descriptor google_monitoring_metric_descriptor}.
 type GoogleMonitoringMetricDescriptor interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -27,6 +27,9 @@ type GoogleMonitoringMetricDescriptor interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -142,6 +145,7 @@ type GoogleMonitoringMetricDescriptor interface {
 	PutLabels(value interface{})
 	PutMetadata(value *GoogleMonitoringMetricDescriptorMetadata)
 	PutTimeouts(value *GoogleMonitoringMetricDescriptorTimeouts)
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetDisplayName()
 	ResetId()
@@ -216,6 +220,26 @@ func (j *jsiiProxy_GoogleMonitoringMetricDescriptor) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleMonitoringMetricDescriptor) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleMonitoringMetricDescriptor) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -602,7 +626,7 @@ func (j *jsiiProxy_GoogleMonitoringMetricDescriptor) ValueTypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_monitoring_metric_descriptor google_monitoring_metric_descriptor} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_monitoring_metric_descriptor google_monitoring_metric_descriptor} Resource.
 func NewGoogleMonitoringMetricDescriptor(scope constructs.Construct, id *string, config *GoogleMonitoringMetricDescriptorConfig) GoogleMonitoringMetricDescriptor {
 	_init_.Initialize()
 
@@ -620,7 +644,7 @@ func NewGoogleMonitoringMetricDescriptor(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_monitoring_metric_descriptor google_monitoring_metric_descriptor} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_monitoring_metric_descriptor google_monitoring_metric_descriptor} Resource.
 func NewGoogleMonitoringMetricDescriptor_Override(g GoogleMonitoringMetricDescriptor, scope constructs.Construct, id *string, config *GoogleMonitoringMetricDescriptorConfig) {
 	_init_.Initialize()
 
@@ -649,6 +673,17 @@ func (j *jsiiProxy_GoogleMonitoringMetricDescriptor)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleMonitoringMetricDescriptor)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1181,6 +1216,14 @@ func (g *jsiiProxy_GoogleMonitoringMetricDescriptor) PutTimeouts(value *GoogleMo
 		g,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleMonitoringMetricDescriptor) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

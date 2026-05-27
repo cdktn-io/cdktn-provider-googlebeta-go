@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_guardrail google_ces_guardrail}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_guardrail google_ces_guardrail}.
 type GoogleCesGuardrail interface {
 	cdktn.TerraformResource
 	Action() GoogleCesGuardrailActionOutputReference
@@ -37,6 +37,9 @@ type GoogleCesGuardrail interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -156,6 +159,7 @@ type GoogleCesGuardrail interface {
 	ResetAction()
 	ResetCodeCallback()
 	ResetContentFilter()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetEnabled()
 	ResetId()
@@ -319,6 +323,26 @@ func (j *jsiiProxy_GoogleCesGuardrail) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCesGuardrail) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCesGuardrail) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -695,7 +719,7 @@ func (j *jsiiProxy_GoogleCesGuardrail) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_guardrail google_ces_guardrail} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_guardrail google_ces_guardrail} Resource.
 func NewGoogleCesGuardrail(scope constructs.Construct, id *string, config *GoogleCesGuardrailConfig) GoogleCesGuardrail {
 	_init_.Initialize()
 
@@ -713,7 +737,7 @@ func NewGoogleCesGuardrail(scope constructs.Construct, id *string, config *Googl
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_guardrail google_ces_guardrail} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_guardrail google_ces_guardrail} Resource.
 func NewGoogleCesGuardrail_Override(g GoogleCesGuardrail, scope constructs.Construct, id *string, config *GoogleCesGuardrailConfig) {
 	_init_.Initialize()
 
@@ -753,6 +777,17 @@ func (j *jsiiProxy_GoogleCesGuardrail)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleCesGuardrail)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1330,6 +1365,14 @@ func (g *jsiiProxy_GoogleCesGuardrail) ResetContentFilter() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetContentFilter",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleCesGuardrail) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

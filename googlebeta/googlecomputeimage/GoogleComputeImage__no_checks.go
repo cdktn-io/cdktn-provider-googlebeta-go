@@ -135,6 +135,10 @@ func (j *jsiiProxy_GoogleComputeImage) validateSetCountParameters(val interface{
 	return nil
 }
 
+func (j *jsiiProxy_GoogleComputeImage) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleComputeImage) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

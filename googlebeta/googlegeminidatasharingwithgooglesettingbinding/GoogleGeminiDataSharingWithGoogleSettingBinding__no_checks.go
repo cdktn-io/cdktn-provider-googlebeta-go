@@ -107,6 +107,10 @@ func (j *jsiiProxy_GoogleGeminiDataSharingWithGoogleSettingBinding) validateSetD
 	return nil
 }
 
+func (j *jsiiProxy_GoogleGeminiDataSharingWithGoogleSettingBinding) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleGeminiDataSharingWithGoogleSettingBinding) validateSetIdParameters(val *string) error {
 	return nil
 }

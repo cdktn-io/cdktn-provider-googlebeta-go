@@ -107,6 +107,10 @@ func (j *jsiiProxy_GoogleTpuV2QueuedResource) validateSetCountParameters(val int
 	return nil
 }
 
+func (j *jsiiProxy_GoogleTpuV2QueuedResource) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleTpuV2QueuedResource) validateSetIdParameters(val *string) error {
 	return nil
 }

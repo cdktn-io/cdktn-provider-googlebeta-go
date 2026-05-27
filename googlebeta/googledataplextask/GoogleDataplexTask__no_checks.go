@@ -119,6 +119,10 @@ func (j *jsiiProxy_GoogleDataplexTask) validateSetCountParameters(val interface{
 	return nil
 }
 
+func (j *jsiiProxy_GoogleDataplexTask) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleDataplexTask) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

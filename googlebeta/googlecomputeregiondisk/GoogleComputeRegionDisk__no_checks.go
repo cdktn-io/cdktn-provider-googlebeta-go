@@ -135,6 +135,10 @@ func (j *jsiiProxy_GoogleComputeRegionDisk) validateSetCreateSnapshotBeforeDestr
 	return nil
 }
 
+func (j *jsiiProxy_GoogleComputeRegionDisk) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleComputeRegionDisk) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

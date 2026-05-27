@@ -107,6 +107,10 @@ func (j *jsiiProxy_GoogleNetworkServicesMulticastGroupRangeActivation) validateS
 	return nil
 }
 
+func (j *jsiiProxy_GoogleNetworkServicesMulticastGroupRangeActivation) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleNetworkServicesMulticastGroupRangeActivation) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

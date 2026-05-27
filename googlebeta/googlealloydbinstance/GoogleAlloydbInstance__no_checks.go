@@ -155,6 +155,10 @@ func (j *jsiiProxy_GoogleAlloydbInstance) validateSetDatabaseFlagsParameters(val
 	return nil
 }
 
+func (j *jsiiProxy_GoogleAlloydbInstance) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleAlloydbInstance) validateSetDisplayNameParameters(val *string) error {
 	return nil
 }

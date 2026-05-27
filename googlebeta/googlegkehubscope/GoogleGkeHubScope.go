@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_gke_hub_scope google_gke_hub_scope}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_gke_hub_scope google_gke_hub_scope}.
 type GoogleGkeHubScope interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -29,6 +29,9 @@ type GoogleGkeHubScope interface {
 	SetCount(val interface{})
 	CreateTime() *string
 	DeleteTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -130,6 +133,7 @@ type GoogleGkeHubScope interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *GoogleGkeHubScopeTimeouts)
+	ResetDeletionPolicy()
 	ResetId()
 	ResetLabels()
 	ResetNamespaceLabels()
@@ -220,6 +224,26 @@ func (j *jsiiProxy_GoogleGkeHubScope) DeleteTime() *string {
 	_jsii_.Get(
 		j,
 		"deleteTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleGkeHubScope) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleGkeHubScope) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -526,7 +550,7 @@ func (j *jsiiProxy_GoogleGkeHubScope) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_gke_hub_scope google_gke_hub_scope} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_gke_hub_scope google_gke_hub_scope} Resource.
 func NewGoogleGkeHubScope(scope constructs.Construct, id *string, config *GoogleGkeHubScopeConfig) GoogleGkeHubScope {
 	_init_.Initialize()
 
@@ -544,7 +568,7 @@ func NewGoogleGkeHubScope(scope constructs.Construct, id *string, config *Google
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_gke_hub_scope google_gke_hub_scope} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_gke_hub_scope google_gke_hub_scope} Resource.
 func NewGoogleGkeHubScope_Override(g GoogleGkeHubScope, scope constructs.Construct, id *string, config *GoogleGkeHubScopeConfig) {
 	_init_.Initialize()
 
@@ -573,6 +597,17 @@ func (j *jsiiProxy_GoogleGkeHubScope)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleGkeHubScope)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1039,6 +1074,14 @@ func (g *jsiiProxy_GoogleGkeHubScope) PutTimeouts(value *GoogleGkeHubScopeTimeou
 		g,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleGkeHubScope) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

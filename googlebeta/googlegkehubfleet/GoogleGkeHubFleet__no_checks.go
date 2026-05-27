@@ -107,6 +107,10 @@ func (j *jsiiProxy_GoogleGkeHubFleet) validateSetCountParameters(val interface{}
 	return nil
 }
 
+func (j *jsiiProxy_GoogleGkeHubFleet) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleGkeHubFleet) validateSetDisplayNameParameters(val *string) error {
 	return nil
 }

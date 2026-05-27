@@ -143,6 +143,10 @@ func (j *jsiiProxy_GoogleDeveloperConnectConnection) validateSetCountParameters(
 	return nil
 }
 
+func (j *jsiiProxy_GoogleDeveloperConnectConnection) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleDeveloperConnectConnection) validateSetDisabledParameters(val interface{}) error {
 	return nil
 }

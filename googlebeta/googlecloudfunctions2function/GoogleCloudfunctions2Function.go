@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloudfunctions2_function google_cloudfunctions2_function}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions2_function google_cloudfunctions2_function}.
 type GoogleCloudfunctions2Function interface {
 	cdktn.TerraformResource
 	BuildConfig() GoogleCloudfunctions2FunctionBuildConfigOutputReference
@@ -29,6 +29,9 @@ type GoogleCloudfunctions2Function interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -144,6 +147,7 @@ type GoogleCloudfunctions2Function interface {
 	PutServiceConfig(value *GoogleCloudfunctions2FunctionServiceConfig)
 	PutTimeouts(value *GoogleCloudfunctions2FunctionTimeouts)
 	ResetBuildConfig()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetEventTrigger()
 	ResetId()
@@ -237,6 +241,26 @@ func (j *jsiiProxy_GoogleCloudfunctions2Function) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCloudfunctions2Function) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCloudfunctions2Function) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -623,7 +647,7 @@ func (j *jsiiProxy_GoogleCloudfunctions2Function) Url() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloudfunctions2_function google_cloudfunctions2_function} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions2_function google_cloudfunctions2_function} Resource.
 func NewGoogleCloudfunctions2Function(scope constructs.Construct, id *string, config *GoogleCloudfunctions2FunctionConfig) GoogleCloudfunctions2Function {
 	_init_.Initialize()
 
@@ -641,7 +665,7 @@ func NewGoogleCloudfunctions2Function(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloudfunctions2_function google_cloudfunctions2_function} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions2_function google_cloudfunctions2_function} Resource.
 func NewGoogleCloudfunctions2Function_Override(g GoogleCloudfunctions2Function, scope constructs.Construct, id *string, config *GoogleCloudfunctions2FunctionConfig) {
 	_init_.Initialize()
 
@@ -670,6 +694,17 @@ func (j *jsiiProxy_GoogleCloudfunctions2Function)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleCloudfunctions2Function)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1198,6 +1233,14 @@ func (g *jsiiProxy_GoogleCloudfunctions2Function) ResetBuildConfig() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetBuildConfig",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleCloudfunctions2Function) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

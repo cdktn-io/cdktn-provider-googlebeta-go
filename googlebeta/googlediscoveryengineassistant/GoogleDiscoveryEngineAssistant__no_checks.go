@@ -119,6 +119,10 @@ func (j *jsiiProxy_GoogleDiscoveryEngineAssistant) validateSetCountParameters(va
 	return nil
 }
 
+func (j *jsiiProxy_GoogleDiscoveryEngineAssistant) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleDiscoveryEngineAssistant) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

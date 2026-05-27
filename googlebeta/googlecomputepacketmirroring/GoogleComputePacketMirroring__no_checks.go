@@ -119,6 +119,10 @@ func (j *jsiiProxy_GoogleComputePacketMirroring) validateSetCountParameters(val 
 	return nil
 }
 
+func (j *jsiiProxy_GoogleComputePacketMirroring) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleComputePacketMirroring) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

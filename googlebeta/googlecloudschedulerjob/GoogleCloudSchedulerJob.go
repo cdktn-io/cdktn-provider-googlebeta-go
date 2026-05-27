@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloud_scheduler_job google_cloud_scheduler_job}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloud_scheduler_job google_cloud_scheduler_job}.
 type GoogleCloudSchedulerJob interface {
 	cdktn.TerraformResource
 	AppEngineHttpTarget() GoogleCloudSchedulerJobAppEngineHttpTargetOutputReference
@@ -32,6 +32,9 @@ type GoogleCloudSchedulerJob interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -149,6 +152,7 @@ type GoogleCloudSchedulerJob interface {
 	PutTimeouts(value *GoogleCloudSchedulerJobTimeouts)
 	ResetAppEngineHttpTarget()
 	ResetAttemptDeadline()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetHttpTarget()
 	ResetId()
@@ -265,6 +269,26 @@ func (j *jsiiProxy_GoogleCloudSchedulerJob) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCloudSchedulerJob) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCloudSchedulerJob) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -641,7 +665,7 @@ func (j *jsiiProxy_GoogleCloudSchedulerJob) TimeZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloud_scheduler_job google_cloud_scheduler_job} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloud_scheduler_job google_cloud_scheduler_job} Resource.
 func NewGoogleCloudSchedulerJob(scope constructs.Construct, id *string, config *GoogleCloudSchedulerJobConfig) GoogleCloudSchedulerJob {
 	_init_.Initialize()
 
@@ -659,7 +683,7 @@ func NewGoogleCloudSchedulerJob(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloud_scheduler_job google_cloud_scheduler_job} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloud_scheduler_job google_cloud_scheduler_job} Resource.
 func NewGoogleCloudSchedulerJob_Override(g GoogleCloudSchedulerJob, scope constructs.Construct, id *string, config *GoogleCloudSchedulerJobConfig) {
 	_init_.Initialize()
 
@@ -699,6 +723,17 @@ func (j *jsiiProxy_GoogleCloudSchedulerJob)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleCloudSchedulerJob)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1257,6 +1292,14 @@ func (g *jsiiProxy_GoogleCloudSchedulerJob) ResetAttemptDeadline() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetAttemptDeadline",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleCloudSchedulerJob) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

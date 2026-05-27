@@ -111,6 +111,10 @@ func (j *jsiiProxy_GoogleSccFolderSccBigQueryExport) validateSetDatasetParameter
 	return nil
 }
 
+func (j *jsiiProxy_GoogleSccFolderSccBigQueryExport) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleSccFolderSccBigQueryExport) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

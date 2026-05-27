@@ -103,6 +103,10 @@ func (j *jsiiProxy_GoogleStorageObjectAcl) validateSetCountParameters(val interf
 	return nil
 }
 
+func (j *jsiiProxy_GoogleStorageObjectAcl) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleStorageObjectAcl) validateSetIdParameters(val *string) error {
 	return nil
 }

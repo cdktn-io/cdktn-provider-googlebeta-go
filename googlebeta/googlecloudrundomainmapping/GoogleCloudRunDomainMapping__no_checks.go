@@ -111,6 +111,10 @@ func (j *jsiiProxy_GoogleCloudRunDomainMapping) validateSetCountParameters(val i
 	return nil
 }
 
+func (j *jsiiProxy_GoogleCloudRunDomainMapping) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleCloudRunDomainMapping) validateSetIdParameters(val *string) error {
 	return nil
 }

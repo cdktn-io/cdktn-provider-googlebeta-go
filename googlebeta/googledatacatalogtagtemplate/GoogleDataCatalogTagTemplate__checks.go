@@ -379,6 +379,14 @@ func (j *jsiiProxy_GoogleDataCatalogTagTemplate) validateSetCountParameters(val 
 	return nil
 }
 
+func (j *jsiiProxy_GoogleDataCatalogTagTemplate) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_GoogleDataCatalogTagTemplate) validateSetDisplayNameParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

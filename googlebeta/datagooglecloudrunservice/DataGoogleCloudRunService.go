@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_cloud_run_service google_cloud_run_service}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/data-sources/google_cloud_run_service google_cloud_run_service}.
 type DataGoogleCloudRunService interface {
 	cdktn.TerraformDataSource
 	AutogenerateRevisionName() cdktn.IResolvable
@@ -24,6 +24,7 @@ type DataGoogleCloudRunService interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -163,6 +164,16 @@ func (j *jsiiProxy_DataGoogleCloudRunService) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleCloudRunService) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
 		&returns,
 	)
 	return returns
@@ -399,7 +410,7 @@ func (j *jsiiProxy_DataGoogleCloudRunService) Traffic() DataGoogleCloudRunServic
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_cloud_run_service google_cloud_run_service} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/data-sources/google_cloud_run_service google_cloud_run_service} Data Source.
 func NewDataGoogleCloudRunService(scope constructs.Construct, id *string, config *DataGoogleCloudRunServiceConfig) DataGoogleCloudRunService {
 	_init_.Initialize()
 
@@ -417,7 +428,7 @@ func NewDataGoogleCloudRunService(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_cloud_run_service google_cloud_run_service} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/data-sources/google_cloud_run_service google_cloud_run_service} Data Source.
 func NewDataGoogleCloudRunService_Override(d DataGoogleCloudRunService, scope constructs.Construct, id *string, config *DataGoogleCloudRunServiceConfig) {
 	_init_.Initialize()
 

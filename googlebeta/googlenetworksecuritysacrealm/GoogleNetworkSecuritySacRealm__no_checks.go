@@ -107,6 +107,10 @@ func (j *jsiiProxy_GoogleNetworkSecuritySacRealm) validateSetCountParameters(val
 	return nil
 }
 
+func (j *jsiiProxy_GoogleNetworkSecuritySacRealm) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleNetworkSecuritySacRealm) validateSetIdParameters(val *string) error {
 	return nil
 }

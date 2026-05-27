@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_storage_transfer_agent_pool google_storage_transfer_agent_pool}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_storage_transfer_agent_pool google_storage_transfer_agent_pool}.
 type GoogleStorageTransferAgentPool interface {
 	cdktn.TerraformResource
 	BandwidthLimit() GoogleStorageTransferAgentPoolBandwidthLimitOutputReference
@@ -29,6 +29,9 @@ type GoogleStorageTransferAgentPool interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -124,6 +127,7 @@ type GoogleStorageTransferAgentPool interface {
 	PutBandwidthLimit(value *GoogleStorageTransferAgentPoolBandwidthLimit)
 	PutTimeouts(value *GoogleStorageTransferAgentPoolTimeouts)
 	ResetBandwidthLimit()
+	ResetDeletionPolicy()
 	ResetDisplayName()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -213,6 +217,26 @@ func (j *jsiiProxy_GoogleStorageTransferAgentPool) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleStorageTransferAgentPool) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleStorageTransferAgentPool) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -449,7 +473,7 @@ func (j *jsiiProxy_GoogleStorageTransferAgentPool) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_storage_transfer_agent_pool google_storage_transfer_agent_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_storage_transfer_agent_pool google_storage_transfer_agent_pool} Resource.
 func NewGoogleStorageTransferAgentPool(scope constructs.Construct, id *string, config *GoogleStorageTransferAgentPoolConfig) GoogleStorageTransferAgentPool {
 	_init_.Initialize()
 
@@ -467,7 +491,7 @@ func NewGoogleStorageTransferAgentPool(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_storage_transfer_agent_pool google_storage_transfer_agent_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_storage_transfer_agent_pool google_storage_transfer_agent_pool} Resource.
 func NewGoogleStorageTransferAgentPool_Override(g GoogleStorageTransferAgentPool, scope constructs.Construct, id *string, config *GoogleStorageTransferAgentPoolConfig) {
 	_init_.Initialize()
 
@@ -496,6 +520,17 @@ func (j *jsiiProxy_GoogleStorageTransferAgentPool)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleStorageTransferAgentPool)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -969,6 +1004,14 @@ func (g *jsiiProxy_GoogleStorageTransferAgentPool) ResetBandwidthLimit() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetBandwidthLimit",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleStorageTransferAgentPool) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

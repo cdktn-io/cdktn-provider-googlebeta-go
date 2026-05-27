@@ -367,6 +367,14 @@ func (j *jsiiProxy_GoogleKmsCryptoKeyVersion) validateSetCryptoKeyParameters(val
 	return nil
 }
 
+func (j *jsiiProxy_GoogleKmsCryptoKeyVersion) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_GoogleKmsCryptoKeyVersion) validateSetIdParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

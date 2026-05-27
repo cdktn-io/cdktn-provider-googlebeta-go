@@ -107,6 +107,10 @@ func (j *jsiiProxy_GoogleComputeSslCertificate) validateSetCountParameters(val i
 	return nil
 }
 
+func (j *jsiiProxy_GoogleComputeSslCertificate) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleComputeSslCertificate) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

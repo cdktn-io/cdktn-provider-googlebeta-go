@@ -123,6 +123,10 @@ func (j *jsiiProxy_GoogleCloudSchedulerJob) validateSetCountParameters(val inter
 	return nil
 }
 
+func (j *jsiiProxy_GoogleCloudSchedulerJob) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleCloudSchedulerJob) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

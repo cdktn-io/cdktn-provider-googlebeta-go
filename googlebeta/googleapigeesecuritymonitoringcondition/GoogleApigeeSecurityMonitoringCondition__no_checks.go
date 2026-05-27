@@ -111,6 +111,10 @@ func (j *jsiiProxy_GoogleApigeeSecurityMonitoringCondition) validateSetCountPara
 	return nil
 }
 
+func (j *jsiiProxy_GoogleApigeeSecurityMonitoringCondition) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleApigeeSecurityMonitoringCondition) validateSetIdParameters(val *string) error {
 	return nil
 }

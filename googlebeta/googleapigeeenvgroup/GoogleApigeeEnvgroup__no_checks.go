@@ -103,6 +103,10 @@ func (j *jsiiProxy_GoogleApigeeEnvgroup) validateSetCountParameters(val interfac
 	return nil
 }
 
+func (j *jsiiProxy_GoogleApigeeEnvgroup) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleApigeeEnvgroup) validateSetHostnamesParameters(val *[]*string) error {
 	return nil
 }

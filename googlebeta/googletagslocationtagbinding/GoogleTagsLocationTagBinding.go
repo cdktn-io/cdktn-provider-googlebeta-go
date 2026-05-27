@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_tags_location_tag_binding google_tags_location_tag_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_tags_location_tag_binding google_tags_location_tag_binding}.
 type GoogleTagsLocationTagBinding interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -27,6 +27,9 @@ type GoogleTagsLocationTagBinding interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -120,6 +123,7 @@ type GoogleTagsLocationTagBinding interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *GoogleTagsLocationTagBindingTimeouts)
+	ResetDeletionPolicy()
 	ResetId()
 	ResetLocation()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -188,6 +192,26 @@ func (j *jsiiProxy_GoogleTagsLocationTagBinding) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleTagsLocationTagBinding) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleTagsLocationTagBinding) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -424,7 +448,7 @@ func (j *jsiiProxy_GoogleTagsLocationTagBinding) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_tags_location_tag_binding google_tags_location_tag_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_tags_location_tag_binding google_tags_location_tag_binding} Resource.
 func NewGoogleTagsLocationTagBinding(scope constructs.Construct, id *string, config *GoogleTagsLocationTagBindingConfig) GoogleTagsLocationTagBinding {
 	_init_.Initialize()
 
@@ -442,7 +466,7 @@ func NewGoogleTagsLocationTagBinding(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_tags_location_tag_binding google_tags_location_tag_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_tags_location_tag_binding google_tags_location_tag_binding} Resource.
 func NewGoogleTagsLocationTagBinding_Override(g GoogleTagsLocationTagBinding, scope constructs.Construct, id *string, config *GoogleTagsLocationTagBindingConfig) {
 	_init_.Initialize()
 
@@ -471,6 +495,17 @@ func (j *jsiiProxy_GoogleTagsLocationTagBinding)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleTagsLocationTagBinding)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -926,6 +961,14 @@ func (g *jsiiProxy_GoogleTagsLocationTagBinding) PutTimeouts(value *GoogleTagsLo
 		g,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleTagsLocationTagBinding) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

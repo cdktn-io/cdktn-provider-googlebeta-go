@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_api_gateway_gateway google_api_gateway_gateway}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_api_gateway_gateway google_api_gateway_gateway}.
 type GoogleApiGatewayGateway interface {
 	cdktn.TerraformResource
 	ApiConfig() *string
@@ -31,6 +31,9 @@ type GoogleApiGatewayGateway interface {
 	// Experimental.
 	SetCount(val interface{})
 	DefaultHostname() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -132,6 +135,7 @@ type GoogleApiGatewayGateway interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *GoogleApiGatewayGatewayTimeouts)
+	ResetDeletionPolicy()
 	ResetDisplayName()
 	ResetId()
 	ResetLabels()
@@ -233,6 +237,26 @@ func (j *jsiiProxy_GoogleApiGatewayGateway) DefaultHostname() *string {
 	_jsii_.Get(
 		j,
 		"defaultHostname",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleApiGatewayGateway) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleApiGatewayGateway) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -529,7 +553,7 @@ func (j *jsiiProxy_GoogleApiGatewayGateway) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_api_gateway_gateway google_api_gateway_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_api_gateway_gateway google_api_gateway_gateway} Resource.
 func NewGoogleApiGatewayGateway(scope constructs.Construct, id *string, config *GoogleApiGatewayGatewayConfig) GoogleApiGatewayGateway {
 	_init_.Initialize()
 
@@ -547,7 +571,7 @@ func NewGoogleApiGatewayGateway(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_api_gateway_gateway google_api_gateway_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_api_gateway_gateway google_api_gateway_gateway} Resource.
 func NewGoogleApiGatewayGateway_Override(g GoogleApiGatewayGateway, scope constructs.Construct, id *string, config *GoogleApiGatewayGatewayConfig) {
 	_init_.Initialize()
 
@@ -587,6 +611,17 @@ func (j *jsiiProxy_GoogleApiGatewayGateway)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleApiGatewayGateway)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1064,6 +1099,14 @@ func (g *jsiiProxy_GoogleApiGatewayGateway) PutTimeouts(value *GoogleApiGatewayG
 		g,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleApiGatewayGateway) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

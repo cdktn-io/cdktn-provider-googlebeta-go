@@ -111,6 +111,10 @@ func (j *jsiiProxy_GoogleBiglakeTable) validateSetDatabaseParameters(val *string
 	return nil
 }
 
+func (j *jsiiProxy_GoogleBiglakeTable) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleBiglakeTable) validateSetIdParameters(val *string) error {
 	return nil
 }

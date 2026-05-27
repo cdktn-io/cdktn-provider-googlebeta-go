@@ -103,6 +103,10 @@ func (j *jsiiProxy_GoogleApphubServiceProjectAttachment) validateSetCountParamet
 	return nil
 }
 
+func (j *jsiiProxy_GoogleApphubServiceProjectAttachment) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleApphubServiceProjectAttachment) validateSetIdParameters(val *string) error {
 	return nil
 }

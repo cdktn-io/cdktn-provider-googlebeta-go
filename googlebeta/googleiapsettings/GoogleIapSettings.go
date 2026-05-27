@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iap_settings google_iap_settings}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_iap_settings google_iap_settings}.
 type GoogleIapSettings interface {
 	cdktn.TerraformResource
 	AccessSettings() GoogleIapSettingsAccessSettingsOutputReference
@@ -31,6 +31,9 @@ type GoogleIapSettings interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -121,6 +124,7 @@ type GoogleIapSettings interface {
 	PutTimeouts(value *GoogleIapSettingsTimeouts)
 	ResetAccessSettings()
 	ResetApplicationSettings()
+	ResetDeletionPolicy()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -228,6 +232,26 @@ func (j *jsiiProxy_GoogleIapSettings) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleIapSettings) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleIapSettings) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -414,7 +438,7 @@ func (j *jsiiProxy_GoogleIapSettings) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iap_settings google_iap_settings} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_iap_settings google_iap_settings} Resource.
 func NewGoogleIapSettings(scope constructs.Construct, id *string, config *GoogleIapSettingsConfig) GoogleIapSettings {
 	_init_.Initialize()
 
@@ -432,7 +456,7 @@ func NewGoogleIapSettings(scope constructs.Construct, id *string, config *Google
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iap_settings google_iap_settings} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_iap_settings google_iap_settings} Resource.
 func NewGoogleIapSettings_Override(g GoogleIapSettings, scope constructs.Construct, id *string, config *GoogleIapSettingsConfig) {
 	_init_.Initialize()
 
@@ -461,6 +485,17 @@ func (j *jsiiProxy_GoogleIapSettings)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleIapSettings)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -931,6 +966,14 @@ func (g *jsiiProxy_GoogleIapSettings) ResetApplicationSettings() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetApplicationSettings",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleIapSettings) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

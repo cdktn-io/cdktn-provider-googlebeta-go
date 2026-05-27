@@ -103,6 +103,10 @@ func (j *jsiiProxy_GoogleDataCatalogPolicyTag) validateSetCountParameters(val in
 	return nil
 }
 
+func (j *jsiiProxy_GoogleDataCatalogPolicyTag) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleDataCatalogPolicyTag) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

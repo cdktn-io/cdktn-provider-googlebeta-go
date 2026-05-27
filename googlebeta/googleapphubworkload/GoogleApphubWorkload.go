@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apphub_workload google_apphub_workload}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apphub_workload google_apphub_workload}.
 type GoogleApphubWorkload interface {
 	cdktn.TerraformResource
 	ApplicationId() *string
@@ -33,6 +33,9 @@ type GoogleApphubWorkload interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -142,6 +145,7 @@ type GoogleApphubWorkload interface {
 	PutAttributes(value *GoogleApphubWorkloadAttributes)
 	PutTimeouts(value *GoogleApphubWorkloadTimeouts)
 	ResetAttributes()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetDisplayName()
 	ResetId()
@@ -262,6 +266,26 @@ func (j *jsiiProxy_GoogleApphubWorkload) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleApphubWorkload) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleApphubWorkload) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -608,7 +632,7 @@ func (j *jsiiProxy_GoogleApphubWorkload) WorkloadReference() GoogleApphubWorkloa
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apphub_workload google_apphub_workload} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apphub_workload google_apphub_workload} Resource.
 func NewGoogleApphubWorkload(scope constructs.Construct, id *string, config *GoogleApphubWorkloadConfig) GoogleApphubWorkload {
 	_init_.Initialize()
 
@@ -626,7 +650,7 @@ func NewGoogleApphubWorkload(scope constructs.Construct, id *string, config *Goo
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apphub_workload google_apphub_workload} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apphub_workload google_apphub_workload} Resource.
 func NewGoogleApphubWorkload_Override(g GoogleApphubWorkload, scope constructs.Construct, id *string, config *GoogleApphubWorkloadConfig) {
 	_init_.Initialize()
 
@@ -666,6 +690,17 @@ func (j *jsiiProxy_GoogleApphubWorkload)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleApphubWorkload)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1172,6 +1207,14 @@ func (g *jsiiProxy_GoogleApphubWorkload) ResetAttributes() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetAttributes",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleApphubWorkload) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

@@ -111,6 +111,10 @@ func (j *jsiiProxy_GoogleSpannerInstanceConfigA) validateSetCountParameters(val 
 	return nil
 }
 
+func (j *jsiiProxy_GoogleSpannerInstanceConfigA) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleSpannerInstanceConfigA) validateSetDisplayNameParameters(val *string) error {
 	return nil
 }

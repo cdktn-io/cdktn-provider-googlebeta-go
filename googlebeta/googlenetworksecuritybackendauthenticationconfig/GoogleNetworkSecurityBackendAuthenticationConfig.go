@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_security_backend_authentication_config google_network_security_backend_authentication_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_security_backend_authentication_config google_network_security_backend_authentication_config}.
 type GoogleNetworkSecurityBackendAuthenticationConfig interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -31,6 +31,9 @@ type GoogleNetworkSecurityBackendAuthenticationConfig interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -139,6 +142,7 @@ type GoogleNetworkSecurityBackendAuthenticationConfig interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *GoogleNetworkSecurityBackendAuthenticationConfigTimeouts)
 	ResetClientCertificate()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	ResetLabels()
@@ -242,6 +246,26 @@ func (j *jsiiProxy_GoogleNetworkSecurityBackendAuthenticationConfig) CreateTime(
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleNetworkSecurityBackendAuthenticationConfig) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleNetworkSecurityBackendAuthenticationConfig) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -578,7 +602,7 @@ func (j *jsiiProxy_GoogleNetworkSecurityBackendAuthenticationConfig) WellKnownRo
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_security_backend_authentication_config google_network_security_backend_authentication_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_security_backend_authentication_config google_network_security_backend_authentication_config} Resource.
 func NewGoogleNetworkSecurityBackendAuthenticationConfig(scope constructs.Construct, id *string, config *GoogleNetworkSecurityBackendAuthenticationConfigConfig) GoogleNetworkSecurityBackendAuthenticationConfig {
 	_init_.Initialize()
 
@@ -596,7 +620,7 @@ func NewGoogleNetworkSecurityBackendAuthenticationConfig(scope constructs.Constr
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_security_backend_authentication_config google_network_security_backend_authentication_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_security_backend_authentication_config google_network_security_backend_authentication_config} Resource.
 func NewGoogleNetworkSecurityBackendAuthenticationConfig_Override(g GoogleNetworkSecurityBackendAuthenticationConfig, scope constructs.Construct, id *string, config *GoogleNetworkSecurityBackendAuthenticationConfigConfig) {
 	_init_.Initialize()
 
@@ -636,6 +660,17 @@ func (j *jsiiProxy_GoogleNetworkSecurityBackendAuthenticationConfig)SetCount(val
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleNetworkSecurityBackendAuthenticationConfig)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1142,6 +1177,14 @@ func (g *jsiiProxy_GoogleNetworkSecurityBackendAuthenticationConfig) ResetClient
 	_jsii_.InvokeVoid(
 		g,
 		"resetClientCertificate",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleNetworkSecurityBackendAuthenticationConfig) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

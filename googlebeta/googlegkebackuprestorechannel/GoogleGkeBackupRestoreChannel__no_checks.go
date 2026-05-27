@@ -103,6 +103,10 @@ func (j *jsiiProxy_GoogleGkeBackupRestoreChannel) validateSetCountParameters(val
 	return nil
 }
 
+func (j *jsiiProxy_GoogleGkeBackupRestoreChannel) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleGkeBackupRestoreChannel) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

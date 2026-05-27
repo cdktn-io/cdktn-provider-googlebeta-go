@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_bigtable_app_profile google_bigtable_app_profile}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_bigtable_app_profile google_bigtable_app_profile}.
 type GoogleBigtableAppProfile interface {
 	cdktn.TerraformResource
 	AppProfileId() *string
@@ -32,6 +32,9 @@ type GoogleBigtableAppProfile interface {
 	SetCount(val interface{})
 	DataBoostIsolationReadOnly() GoogleBigtableAppProfileDataBoostIsolationReadOnlyOutputReference
 	DataBoostIsolationReadOnlyInput() *GoogleBigtableAppProfileDataBoostIsolationReadOnly
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -145,6 +148,7 @@ type GoogleBigtableAppProfile interface {
 	PutStandardIsolation(value *GoogleBigtableAppProfileStandardIsolation)
 	PutTimeouts(value *GoogleBigtableAppProfileTimeouts)
 	ResetDataBoostIsolationReadOnly()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	ResetIgnoreWarnings()
@@ -261,6 +265,26 @@ func (j *jsiiProxy_GoogleBigtableAppProfile) DataBoostIsolationReadOnlyInput() *
 	_jsii_.Get(
 		j,
 		"dataBoostIsolationReadOnlyInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleBigtableAppProfile) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleBigtableAppProfile) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -617,7 +641,7 @@ func (j *jsiiProxy_GoogleBigtableAppProfile) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_bigtable_app_profile google_bigtable_app_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_bigtable_app_profile google_bigtable_app_profile} Resource.
 func NewGoogleBigtableAppProfile(scope constructs.Construct, id *string, config *GoogleBigtableAppProfileConfig) GoogleBigtableAppProfile {
 	_init_.Initialize()
 
@@ -635,7 +659,7 @@ func NewGoogleBigtableAppProfile(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_bigtable_app_profile google_bigtable_app_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_bigtable_app_profile google_bigtable_app_profile} Resource.
 func NewGoogleBigtableAppProfile_Override(g GoogleBigtableAppProfile, scope constructs.Construct, id *string, config *GoogleBigtableAppProfileConfig) {
 	_init_.Initialize()
 
@@ -675,6 +699,17 @@ func (j *jsiiProxy_GoogleBigtableAppProfile)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleBigtableAppProfile)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1214,6 +1249,14 @@ func (g *jsiiProxy_GoogleBigtableAppProfile) ResetDataBoostIsolationReadOnly() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetDataBoostIsolationReadOnly",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleBigtableAppProfile) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

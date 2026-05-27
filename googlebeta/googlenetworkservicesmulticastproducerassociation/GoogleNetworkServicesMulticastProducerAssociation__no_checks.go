@@ -103,6 +103,10 @@ func (j *jsiiProxy_GoogleNetworkServicesMulticastProducerAssociation) validateSe
 	return nil
 }
 
+func (j *jsiiProxy_GoogleNetworkServicesMulticastProducerAssociation) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleNetworkServicesMulticastProducerAssociation) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

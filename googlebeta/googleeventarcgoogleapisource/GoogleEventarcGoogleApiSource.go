@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_eventarc_google_api_source google_eventarc_google_api_source}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_eventarc_google_api_source google_eventarc_google_api_source}.
 type GoogleEventarcGoogleApiSource interface {
 	cdktn.TerraformResource
 	Annotations() *map[string]*string
@@ -34,6 +34,9 @@ type GoogleEventarcGoogleApiSource interface {
 	CryptoKeyName() *string
 	SetCryptoKeyName(val *string)
 	CryptoKeyNameInput() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -147,6 +150,7 @@ type GoogleEventarcGoogleApiSource interface {
 	PutTimeouts(value *GoogleEventarcGoogleApiSourceTimeouts)
 	ResetAnnotations()
 	ResetCryptoKeyName()
+	ResetDeletionPolicy()
 	ResetDisplayName()
 	ResetId()
 	ResetLabels()
@@ -268,6 +272,26 @@ func (j *jsiiProxy_GoogleEventarcGoogleApiSource) CryptoKeyNameInput() *string {
 	_jsii_.Get(
 		j,
 		"cryptoKeyNameInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleEventarcGoogleApiSource) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleEventarcGoogleApiSource) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -644,7 +668,7 @@ func (j *jsiiProxy_GoogleEventarcGoogleApiSource) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_eventarc_google_api_source google_eventarc_google_api_source} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_eventarc_google_api_source google_eventarc_google_api_source} Resource.
 func NewGoogleEventarcGoogleApiSource(scope constructs.Construct, id *string, config *GoogleEventarcGoogleApiSourceConfig) GoogleEventarcGoogleApiSource {
 	_init_.Initialize()
 
@@ -662,7 +686,7 @@ func NewGoogleEventarcGoogleApiSource(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_eventarc_google_api_source google_eventarc_google_api_source} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_eventarc_google_api_source google_eventarc_google_api_source} Resource.
 func NewGoogleEventarcGoogleApiSource_Override(g GoogleEventarcGoogleApiSource, scope constructs.Construct, id *string, config *GoogleEventarcGoogleApiSourceConfig) {
 	_init_.Initialize()
 
@@ -713,6 +737,17 @@ func (j *jsiiProxy_GoogleEventarcGoogleApiSource)SetCryptoKeyName(val *string) {
 	_jsii_.Set(
 		j,
 		"cryptoKeyName",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleEventarcGoogleApiSource)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1227,6 +1262,14 @@ func (g *jsiiProxy_GoogleEventarcGoogleApiSource) ResetCryptoKeyName() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetCryptoKeyName",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleEventarcGoogleApiSource) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

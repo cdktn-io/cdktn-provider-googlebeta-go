@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_parameter_manager_parameter google_parameter_manager_parameter}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/data-sources/google_parameter_manager_parameter google_parameter_manager_parameter}.
 type DataGoogleParameterManagerParameter interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -24,6 +24,7 @@ type DataGoogleParameterManagerParameter interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -164,6 +165,16 @@ func (j *jsiiProxy_DataGoogleParameterManagerParameter) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleParameterManagerParameter) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
 		&returns,
 	)
 	return returns
@@ -420,7 +431,7 @@ func (j *jsiiProxy_DataGoogleParameterManagerParameter) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_parameter_manager_parameter google_parameter_manager_parameter} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/data-sources/google_parameter_manager_parameter google_parameter_manager_parameter} Data Source.
 func NewDataGoogleParameterManagerParameter(scope constructs.Construct, id *string, config *DataGoogleParameterManagerParameterConfig) DataGoogleParameterManagerParameter {
 	_init_.Initialize()
 
@@ -438,7 +449,7 @@ func NewDataGoogleParameterManagerParameter(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_parameter_manager_parameter google_parameter_manager_parameter} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/data-sources/google_parameter_manager_parameter google_parameter_manager_parameter} Data Source.
 func NewDataGoogleParameterManagerParameter_Override(d DataGoogleParameterManagerParameter, scope constructs.Construct, id *string, config *DataGoogleParameterManagerParameterConfig) {
 	_init_.Initialize()
 

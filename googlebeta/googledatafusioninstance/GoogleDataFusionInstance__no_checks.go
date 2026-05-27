@@ -123,6 +123,10 @@ func (j *jsiiProxy_GoogleDataFusionInstance) validateSetDataprocServiceAccountPa
 	return nil
 }
 
+func (j *jsiiProxy_GoogleDataFusionInstance) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleDataFusionInstance) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

@@ -107,6 +107,10 @@ func (j *jsiiProxy_GoogleIamAccessBoundaryPolicy) validateSetCountParameters(val
 	return nil
 }
 
+func (j *jsiiProxy_GoogleIamAccessBoundaryPolicy) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleIamAccessBoundaryPolicy) validateSetDisplayNameParameters(val *string) error {
 	return nil
 }

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_clouddeploy_automation google_clouddeploy_automation}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_clouddeploy_automation google_clouddeploy_automation}.
 type GoogleClouddeployAutomation interface {
 	cdktn.TerraformResource
 	Annotations() *map[string]*string
@@ -31,6 +31,9 @@ type GoogleClouddeployAutomation interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	DeliveryPipeline() *string
 	SetDeliveryPipeline(val *string)
 	DeliveryPipelineInput() *string
@@ -151,6 +154,7 @@ type GoogleClouddeployAutomation interface {
 	PutSelector(value *GoogleClouddeployAutomationSelector)
 	PutTimeouts(value *GoogleClouddeployAutomationTimeouts)
 	ResetAnnotations()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	ResetLabels()
@@ -252,6 +256,26 @@ func (j *jsiiProxy_GoogleClouddeployAutomation) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleClouddeployAutomation) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleClouddeployAutomation) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -678,7 +702,7 @@ func (j *jsiiProxy_GoogleClouddeployAutomation) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_clouddeploy_automation google_clouddeploy_automation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_clouddeploy_automation google_clouddeploy_automation} Resource.
 func NewGoogleClouddeployAutomation(scope constructs.Construct, id *string, config *GoogleClouddeployAutomationConfig) GoogleClouddeployAutomation {
 	_init_.Initialize()
 
@@ -696,7 +720,7 @@ func NewGoogleClouddeployAutomation(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_clouddeploy_automation google_clouddeploy_automation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_clouddeploy_automation google_clouddeploy_automation} Resource.
 func NewGoogleClouddeployAutomation_Override(g GoogleClouddeployAutomation, scope constructs.Construct, id *string, config *GoogleClouddeployAutomationConfig) {
 	_init_.Initialize()
 
@@ -736,6 +760,17 @@ func (j *jsiiProxy_GoogleClouddeployAutomation)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleClouddeployAutomation)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1275,6 +1310,14 @@ func (g *jsiiProxy_GoogleClouddeployAutomation) ResetAnnotations() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetAnnotations",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleClouddeployAutomation) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

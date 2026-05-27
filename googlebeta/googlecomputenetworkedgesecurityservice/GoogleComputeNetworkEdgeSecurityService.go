@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_network_edge_security_service google_compute_network_edge_security_service}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_network_edge_security_service google_compute_network_edge_security_service}.
 type GoogleComputeNetworkEdgeSecurityService interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -28,6 +28,9 @@ type GoogleComputeNetworkEdgeSecurityService interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreationTimestamp() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -130,6 +133,7 @@ type GoogleComputeNetworkEdgeSecurityService interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *GoogleComputeNetworkEdgeSecurityServiceTimeouts)
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -211,6 +215,26 @@ func (j *jsiiProxy_GoogleComputeNetworkEdgeSecurityService) CreationTimestamp() 
 	_jsii_.Get(
 		j,
 		"creationTimestamp",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeNetworkEdgeSecurityService) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeNetworkEdgeSecurityService) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -517,7 +541,7 @@ func (j *jsiiProxy_GoogleComputeNetworkEdgeSecurityService) TimeoutsInput() inte
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_network_edge_security_service google_compute_network_edge_security_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_network_edge_security_service google_compute_network_edge_security_service} Resource.
 func NewGoogleComputeNetworkEdgeSecurityService(scope constructs.Construct, id *string, config *GoogleComputeNetworkEdgeSecurityServiceConfig) GoogleComputeNetworkEdgeSecurityService {
 	_init_.Initialize()
 
@@ -535,7 +559,7 @@ func NewGoogleComputeNetworkEdgeSecurityService(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_network_edge_security_service google_compute_network_edge_security_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_network_edge_security_service google_compute_network_edge_security_service} Resource.
 func NewGoogleComputeNetworkEdgeSecurityService_Override(g GoogleComputeNetworkEdgeSecurityService, scope constructs.Construct, id *string, config *GoogleComputeNetworkEdgeSecurityServiceConfig) {
 	_init_.Initialize()
 
@@ -564,6 +588,17 @@ func (j *jsiiProxy_GoogleComputeNetworkEdgeSecurityService)SetCount(val interfac
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleComputeNetworkEdgeSecurityService)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1041,6 +1076,14 @@ func (g *jsiiProxy_GoogleComputeNetworkEdgeSecurityService) PutTimeouts(value *G
 		g,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleComputeNetworkEdgeSecurityService) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

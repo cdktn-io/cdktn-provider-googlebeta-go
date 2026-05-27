@@ -123,6 +123,10 @@ func (j *jsiiProxy_GoogleNetworkServicesEdgeCacheOrigin) validateSetCountParamet
 	return nil
 }
 
+func (j *jsiiProxy_GoogleNetworkServicesEdgeCacheOrigin) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleNetworkServicesEdgeCacheOrigin) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

@@ -115,6 +115,10 @@ func (j *jsiiProxy_GoogleAccessContextManagerGcpUserAccessBinding) validateSetCo
 	return nil
 }
 
+func (j *jsiiProxy_GoogleAccessContextManagerGcpUserAccessBinding) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleAccessContextManagerGcpUserAccessBinding) validateSetGroupKeyParameters(val *string) error {
 	return nil
 }

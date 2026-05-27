@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_api google_apigee_api}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_api google_apigee_api}.
 type GoogleApigeeApi interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -30,6 +30,9 @@ type GoogleApigeeApi interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -126,6 +129,7 @@ type GoogleApigeeApi interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *GoogleApigeeApiTimeouts)
+	ResetDeletionPolicy()
 	ResetDetectMd5Hash()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -214,6 +218,26 @@ func (j *jsiiProxy_GoogleApigeeApi) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleApigeeApi) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleApigeeApi) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -480,7 +504,7 @@ func (j *jsiiProxy_GoogleApigeeApi) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_api google_apigee_api} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_api google_apigee_api} Resource.
 func NewGoogleApigeeApi(scope constructs.Construct, id *string, config *GoogleApigeeApiConfig) GoogleApigeeApi {
 	_init_.Initialize()
 
@@ -498,7 +522,7 @@ func NewGoogleApigeeApi(scope constructs.Construct, id *string, config *GoogleAp
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_api google_apigee_api} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_api google_apigee_api} Resource.
 func NewGoogleApigeeApi_Override(g GoogleApigeeApi, scope constructs.Construct, id *string, config *GoogleApigeeApiConfig) {
 	_init_.Initialize()
 
@@ -538,6 +562,17 @@ func (j *jsiiProxy_GoogleApigeeApi)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleApigeeApi)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -993,6 +1028,14 @@ func (g *jsiiProxy_GoogleApigeeApi) PutTimeouts(value *GoogleApigeeApiTimeouts) 
 		g,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleApigeeApi) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_bigtable_schema_bundle google_bigtable_schema_bundle}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_bigtable_schema_bundle google_bigtable_schema_bundle}.
 type GoogleBigtableSchemaBundle interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -27,6 +27,9 @@ type GoogleBigtableSchemaBundle interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -130,6 +133,7 @@ type GoogleBigtableSchemaBundle interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutProtoSchema(value *GoogleBigtableSchemaBundleProtoSchema)
 	PutTimeouts(value *GoogleBigtableSchemaBundleTimeouts)
+	ResetDeletionPolicy()
 	ResetId()
 	ResetIgnoreWarnings()
 	ResetInstance()
@@ -201,6 +205,26 @@ func (j *jsiiProxy_GoogleBigtableSchemaBundle) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleBigtableSchemaBundle) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleBigtableSchemaBundle) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -507,7 +531,7 @@ func (j *jsiiProxy_GoogleBigtableSchemaBundle) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_bigtable_schema_bundle google_bigtable_schema_bundle} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_bigtable_schema_bundle google_bigtable_schema_bundle} Resource.
 func NewGoogleBigtableSchemaBundle(scope constructs.Construct, id *string, config *GoogleBigtableSchemaBundleConfig) GoogleBigtableSchemaBundle {
 	_init_.Initialize()
 
@@ -525,7 +549,7 @@ func NewGoogleBigtableSchemaBundle(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_bigtable_schema_bundle google_bigtable_schema_bundle} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_bigtable_schema_bundle google_bigtable_schema_bundle} Resource.
 func NewGoogleBigtableSchemaBundle_Override(g GoogleBigtableSchemaBundle, scope constructs.Construct, id *string, config *GoogleBigtableSchemaBundleConfig) {
 	_init_.Initialize()
 
@@ -554,6 +578,17 @@ func (j *jsiiProxy_GoogleBigtableSchemaBundle)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleBigtableSchemaBundle)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1042,6 +1077,14 @@ func (g *jsiiProxy_GoogleBigtableSchemaBundle) PutTimeouts(value *GoogleBigtable
 		g,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleBigtableSchemaBundle) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

@@ -127,6 +127,10 @@ func (j *jsiiProxy_GoogleCloudAssetFolderFeed) validateSetCountParameters(val in
 	return nil
 }
 
+func (j *jsiiProxy_GoogleCloudAssetFolderFeed) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleCloudAssetFolderFeed) validateSetFeedIdParameters(val *string) error {
 	return nil
 }

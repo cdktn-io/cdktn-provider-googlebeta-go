@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_bigquery_bi_reservation google_bigquery_bi_reservation}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_bigquery_bi_reservation google_bigquery_bi_reservation}.
 type GoogleBigqueryBiReservation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -27,6 +27,9 @@ type GoogleBigqueryBiReservation interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -124,6 +127,7 @@ type GoogleBigqueryBiReservation interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutPreferredTables(value interface{})
 	PutTimeouts(value *GoogleBigqueryBiReservationTimeouts)
+	ResetDeletionPolicy()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -194,6 +198,26 @@ func (j *jsiiProxy_GoogleBigqueryBiReservation) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleBigqueryBiReservation) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleBigqueryBiReservation) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -460,7 +484,7 @@ func (j *jsiiProxy_GoogleBigqueryBiReservation) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_bigquery_bi_reservation google_bigquery_bi_reservation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_bigquery_bi_reservation google_bigquery_bi_reservation} Resource.
 func NewGoogleBigqueryBiReservation(scope constructs.Construct, id *string, config *GoogleBigqueryBiReservationConfig) GoogleBigqueryBiReservation {
 	_init_.Initialize()
 
@@ -478,7 +502,7 @@ func NewGoogleBigqueryBiReservation(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_bigquery_bi_reservation google_bigquery_bi_reservation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_bigquery_bi_reservation google_bigquery_bi_reservation} Resource.
 func NewGoogleBigqueryBiReservation_Override(g GoogleBigqueryBiReservation, scope constructs.Construct, id *string, config *GoogleBigqueryBiReservationConfig) {
 	_init_.Initialize()
 
@@ -507,6 +531,17 @@ func (j *jsiiProxy_GoogleBigqueryBiReservation)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleBigqueryBiReservation)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -973,6 +1008,14 @@ func (g *jsiiProxy_GoogleBigqueryBiReservation) PutTimeouts(value *GoogleBigquer
 		g,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleBigqueryBiReservation) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

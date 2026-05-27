@@ -111,6 +111,10 @@ func (j *jsiiProxy_GoogleModelArmorTemplate) validateSetCountParameters(val inte
 	return nil
 }
 
+func (j *jsiiProxy_GoogleModelArmorTemplate) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleModelArmorTemplate) validateSetIdParameters(val *string) error {
 	return nil
 }

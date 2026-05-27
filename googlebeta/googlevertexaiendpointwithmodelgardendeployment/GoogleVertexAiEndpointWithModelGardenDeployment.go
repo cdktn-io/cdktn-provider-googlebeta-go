@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_endpoint_with_model_garden_deployment google_vertex_ai_endpoint_with_model_garden_deployment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_endpoint_with_model_garden_deployment google_vertex_ai_endpoint_with_model_garden_deployment}.
 type GoogleVertexAiEndpointWithModelGardenDeployment interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -27,6 +27,9 @@ type GoogleVertexAiEndpointWithModelGardenDeployment interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -134,6 +137,7 @@ type GoogleVertexAiEndpointWithModelGardenDeployment interface {
 	PutEndpointConfig(value *GoogleVertexAiEndpointWithModelGardenDeploymentEndpointConfig)
 	PutModelConfig(value *GoogleVertexAiEndpointWithModelGardenDeploymentModelConfig)
 	PutTimeouts(value *GoogleVertexAiEndpointWithModelGardenDeploymentTimeouts)
+	ResetDeletionPolicy()
 	ResetDeployConfig()
 	ResetEndpointConfig()
 	ResetHuggingFaceModelId()
@@ -207,6 +211,26 @@ func (j *jsiiProxy_GoogleVertexAiEndpointWithModelGardenDeployment) Count() inte
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleVertexAiEndpointWithModelGardenDeployment) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleVertexAiEndpointWithModelGardenDeployment) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -543,7 +567,7 @@ func (j *jsiiProxy_GoogleVertexAiEndpointWithModelGardenDeployment) TimeoutsInpu
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_endpoint_with_model_garden_deployment google_vertex_ai_endpoint_with_model_garden_deployment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_endpoint_with_model_garden_deployment google_vertex_ai_endpoint_with_model_garden_deployment} Resource.
 func NewGoogleVertexAiEndpointWithModelGardenDeployment(scope constructs.Construct, id *string, config *GoogleVertexAiEndpointWithModelGardenDeploymentConfig) GoogleVertexAiEndpointWithModelGardenDeployment {
 	_init_.Initialize()
 
@@ -561,7 +585,7 @@ func NewGoogleVertexAiEndpointWithModelGardenDeployment(scope constructs.Constru
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_endpoint_with_model_garden_deployment google_vertex_ai_endpoint_with_model_garden_deployment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_endpoint_with_model_garden_deployment google_vertex_ai_endpoint_with_model_garden_deployment} Resource.
 func NewGoogleVertexAiEndpointWithModelGardenDeployment_Override(g GoogleVertexAiEndpointWithModelGardenDeployment, scope constructs.Construct, id *string, config *GoogleVertexAiEndpointWithModelGardenDeploymentConfig) {
 	_init_.Initialize()
 
@@ -590,6 +614,17 @@ func (j *jsiiProxy_GoogleVertexAiEndpointWithModelGardenDeployment)SetCount(val 
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleVertexAiEndpointWithModelGardenDeployment)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1089,6 +1124,14 @@ func (g *jsiiProxy_GoogleVertexAiEndpointWithModelGardenDeployment) PutTimeouts(
 		g,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleVertexAiEndpointWithModelGardenDeployment) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

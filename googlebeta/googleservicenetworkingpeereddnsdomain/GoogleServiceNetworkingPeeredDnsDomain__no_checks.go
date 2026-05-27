@@ -103,6 +103,10 @@ func (j *jsiiProxy_GoogleServiceNetworkingPeeredDnsDomain) validateSetCountParam
 	return nil
 }
 
+func (j *jsiiProxy_GoogleServiceNetworkingPeeredDnsDomain) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleServiceNetworkingPeeredDnsDomain) validateSetDnsSuffixParameters(val *string) error {
 	return nil
 }

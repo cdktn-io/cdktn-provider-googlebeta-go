@@ -111,6 +111,10 @@ func (j *jsiiProxy_GoogleOrganizationAccessApprovalSettings) validateSetCountPar
 	return nil
 }
 
+func (j *jsiiProxy_GoogleOrganizationAccessApprovalSettings) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleOrganizationAccessApprovalSettings) validateSetIdParameters(val *string) error {
 	return nil
 }

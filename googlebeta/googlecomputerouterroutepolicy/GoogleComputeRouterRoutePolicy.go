@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_router_route_policy google_compute_router_route_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_router_route_policy google_compute_router_route_policy}.
 type GoogleComputeRouterRoutePolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -27,6 +27,9 @@ type GoogleComputeRouterRoutePolicy interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -129,6 +132,7 @@ type GoogleComputeRouterRoutePolicy interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutTerms(value interface{})
 	PutTimeouts(value *GoogleComputeRouterRoutePolicyTimeouts)
+	ResetDeletionPolicy()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -199,6 +203,26 @@ func (j *jsiiProxy_GoogleComputeRouterRoutePolicy) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeRouterRoutePolicy) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeRouterRoutePolicy) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -495,7 +519,7 @@ func (j *jsiiProxy_GoogleComputeRouterRoutePolicy) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_router_route_policy google_compute_router_route_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_router_route_policy google_compute_router_route_policy} Resource.
 func NewGoogleComputeRouterRoutePolicy(scope constructs.Construct, id *string, config *GoogleComputeRouterRoutePolicyConfig) GoogleComputeRouterRoutePolicy {
 	_init_.Initialize()
 
@@ -513,7 +537,7 @@ func NewGoogleComputeRouterRoutePolicy(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_router_route_policy google_compute_router_route_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_router_route_policy google_compute_router_route_policy} Resource.
 func NewGoogleComputeRouterRoutePolicy_Override(g GoogleComputeRouterRoutePolicy, scope constructs.Construct, id *string, config *GoogleComputeRouterRoutePolicyConfig) {
 	_init_.Initialize()
 
@@ -542,6 +566,17 @@ func (j *jsiiProxy_GoogleComputeRouterRoutePolicy)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleComputeRouterRoutePolicy)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1030,6 +1065,14 @@ func (g *jsiiProxy_GoogleComputeRouterRoutePolicy) PutTimeouts(value *GoogleComp
 		g,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleComputeRouterRoutePolicy) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

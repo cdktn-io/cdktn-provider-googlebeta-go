@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_eventarc_trigger google_eventarc_trigger}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_eventarc_trigger google_eventarc_trigger}.
 type GoogleEventarcTrigger interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -32,6 +32,9 @@ type GoogleEventarcTrigger interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -151,6 +154,7 @@ type GoogleEventarcTrigger interface {
 	PutTimeouts(value *GoogleEventarcTriggerTimeouts)
 	PutTransport(value *GoogleEventarcTriggerTransport)
 	ResetChannel()
+	ResetDeletionPolicy()
 	ResetEventDataContentType()
 	ResetId()
 	ResetLabels()
@@ -264,6 +268,26 @@ func (j *jsiiProxy_GoogleEventarcTrigger) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleEventarcTrigger) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleEventarcTrigger) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -680,7 +704,7 @@ func (j *jsiiProxy_GoogleEventarcTrigger) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_eventarc_trigger google_eventarc_trigger} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_eventarc_trigger google_eventarc_trigger} Resource.
 func NewGoogleEventarcTrigger(scope constructs.Construct, id *string, config *GoogleEventarcTriggerConfig) GoogleEventarcTrigger {
 	_init_.Initialize()
 
@@ -698,7 +722,7 @@ func NewGoogleEventarcTrigger(scope constructs.Construct, id *string, config *Go
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_eventarc_trigger google_eventarc_trigger} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_eventarc_trigger google_eventarc_trigger} Resource.
 func NewGoogleEventarcTrigger_Override(g GoogleEventarcTrigger, scope constructs.Construct, id *string, config *GoogleEventarcTriggerConfig) {
 	_init_.Initialize()
 
@@ -738,6 +762,17 @@ func (j *jsiiProxy_GoogleEventarcTrigger)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleEventarcTrigger)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1277,6 +1312,14 @@ func (g *jsiiProxy_GoogleEventarcTrigger) ResetChannel() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetChannel",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleEventarcTrigger) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

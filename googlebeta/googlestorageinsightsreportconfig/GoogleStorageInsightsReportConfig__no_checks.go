@@ -119,6 +119,10 @@ func (j *jsiiProxy_GoogleStorageInsightsReportConfig) validateSetCountParameters
 	return nil
 }
 
+func (j *jsiiProxy_GoogleStorageInsightsReportConfig) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleStorageInsightsReportConfig) validateSetDisplayNameParameters(val *string) error {
 	return nil
 }

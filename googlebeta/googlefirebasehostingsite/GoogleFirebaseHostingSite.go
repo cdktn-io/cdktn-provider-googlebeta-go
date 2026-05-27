@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_firebase_hosting_site google_firebase_hosting_site}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_firebase_hosting_site google_firebase_hosting_site}.
 type GoogleFirebaseHostingSite interface {
 	cdktn.TerraformResource
 	AppId() *string
@@ -31,6 +31,9 @@ type GoogleFirebaseHostingSite interface {
 	// Experimental.
 	SetCount(val interface{})
 	DefaultUrl() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -123,6 +126,7 @@ type GoogleFirebaseHostingSite interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *GoogleFirebaseHostingSiteTimeouts)
 	ResetAppId()
+	ResetDeletionPolicy()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -222,6 +226,26 @@ func (j *jsiiProxy_GoogleFirebaseHostingSite) DefaultUrl() *string {
 	_jsii_.Get(
 		j,
 		"defaultUrl",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleFirebaseHostingSite) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleFirebaseHostingSite) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -448,7 +472,7 @@ func (j *jsiiProxy_GoogleFirebaseHostingSite) Type() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_firebase_hosting_site google_firebase_hosting_site} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_firebase_hosting_site google_firebase_hosting_site} Resource.
 func NewGoogleFirebaseHostingSite(scope constructs.Construct, id *string, config *GoogleFirebaseHostingSiteConfig) GoogleFirebaseHostingSite {
 	_init_.Initialize()
 
@@ -466,7 +490,7 @@ func NewGoogleFirebaseHostingSite(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_firebase_hosting_site google_firebase_hosting_site} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_firebase_hosting_site google_firebase_hosting_site} Resource.
 func NewGoogleFirebaseHostingSite_Override(g GoogleFirebaseHostingSite, scope constructs.Construct, id *string, config *GoogleFirebaseHostingSiteConfig) {
 	_init_.Initialize()
 
@@ -506,6 +530,17 @@ func (j *jsiiProxy_GoogleFirebaseHostingSite)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleFirebaseHostingSite)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -957,6 +992,14 @@ func (g *jsiiProxy_GoogleFirebaseHostingSite) ResetAppId() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetAppId",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleFirebaseHostingSite) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

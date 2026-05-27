@@ -111,6 +111,10 @@ func (j *jsiiProxy_GoogleDataplexEntry) validateSetCountParameters(val interface
 	return nil
 }
 
+func (j *jsiiProxy_GoogleDataplexEntry) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleDataplexEntry) validateSetEntryGroupIdParameters(val *string) error {
 	return nil
 }

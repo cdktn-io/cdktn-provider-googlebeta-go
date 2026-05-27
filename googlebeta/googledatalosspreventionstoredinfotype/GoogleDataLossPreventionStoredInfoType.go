@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_data_loss_prevention_stored_info_type google_data_loss_prevention_stored_info_type}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_data_loss_prevention_stored_info_type google_data_loss_prevention_stored_info_type}.
 type GoogleDataLossPreventionStoredInfoType interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -27,6 +27,9 @@ type GoogleDataLossPreventionStoredInfoType interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -132,6 +135,7 @@ type GoogleDataLossPreventionStoredInfoType interface {
 	PutLargeCustomDictionary(value *GoogleDataLossPreventionStoredInfoTypeLargeCustomDictionary)
 	PutRegex(value *GoogleDataLossPreventionStoredInfoTypeRegex)
 	PutTimeouts(value *GoogleDataLossPreventionStoredInfoTypeTimeouts)
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetDictionary()
 	ResetDisplayName()
@@ -205,6 +209,26 @@ func (j *jsiiProxy_GoogleDataLossPreventionStoredInfoType) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDataLossPreventionStoredInfoType) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDataLossPreventionStoredInfoType) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -521,7 +545,7 @@ func (j *jsiiProxy_GoogleDataLossPreventionStoredInfoType) TimeoutsInput() inter
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_data_loss_prevention_stored_info_type google_data_loss_prevention_stored_info_type} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_data_loss_prevention_stored_info_type google_data_loss_prevention_stored_info_type} Resource.
 func NewGoogleDataLossPreventionStoredInfoType(scope constructs.Construct, id *string, config *GoogleDataLossPreventionStoredInfoTypeConfig) GoogleDataLossPreventionStoredInfoType {
 	_init_.Initialize()
 
@@ -539,7 +563,7 @@ func NewGoogleDataLossPreventionStoredInfoType(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_data_loss_prevention_stored_info_type google_data_loss_prevention_stored_info_type} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_data_loss_prevention_stored_info_type google_data_loss_prevention_stored_info_type} Resource.
 func NewGoogleDataLossPreventionStoredInfoType_Override(g GoogleDataLossPreventionStoredInfoType, scope constructs.Construct, id *string, config *GoogleDataLossPreventionStoredInfoTypeConfig) {
 	_init_.Initialize()
 
@@ -568,6 +592,17 @@ func (j *jsiiProxy_GoogleDataLossPreventionStoredInfoType)SetCount(val interface
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleDataLossPreventionStoredInfoType)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1067,6 +1102,14 @@ func (g *jsiiProxy_GoogleDataLossPreventionStoredInfoType) PutTimeouts(value *Go
 		g,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleDataLossPreventionStoredInfoType) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

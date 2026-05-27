@@ -111,6 +111,10 @@ func (j *jsiiProxy_GoogleIdentityPlatformTenantInboundSamlConfig) validateSetCou
 	return nil
 }
 
+func (j *jsiiProxy_GoogleIdentityPlatformTenantInboundSamlConfig) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleIdentityPlatformTenantInboundSamlConfig) validateSetDisplayNameParameters(val *string) error {
 	return nil
 }

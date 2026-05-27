@@ -111,6 +111,10 @@ func (j *jsiiProxy_GoogleNetworkSecuritySacAttachment) validateSetCountryParamet
 	return nil
 }
 
+func (j *jsiiProxy_GoogleNetworkSecuritySacAttachment) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleNetworkSecuritySacAttachment) validateSetIdParameters(val *string) error {
 	return nil
 }

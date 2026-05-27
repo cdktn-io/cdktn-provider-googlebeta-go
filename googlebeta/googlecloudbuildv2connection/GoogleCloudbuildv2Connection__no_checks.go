@@ -127,6 +127,10 @@ func (j *jsiiProxy_GoogleCloudbuildv2Connection) validateSetCountParameters(val 
 	return nil
 }
 
+func (j *jsiiProxy_GoogleCloudbuildv2Connection) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleCloudbuildv2Connection) validateSetDisabledParameters(val interface{}) error {
 	return nil
 }

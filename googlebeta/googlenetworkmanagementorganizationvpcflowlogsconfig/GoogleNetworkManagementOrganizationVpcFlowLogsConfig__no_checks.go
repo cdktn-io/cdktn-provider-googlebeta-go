@@ -111,6 +111,10 @@ func (j *jsiiProxy_GoogleNetworkManagementOrganizationVpcFlowLogsConfig) validat
 	return nil
 }
 
+func (j *jsiiProxy_GoogleNetworkManagementOrganizationVpcFlowLogsConfig) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleNetworkManagementOrganizationVpcFlowLogsConfig) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

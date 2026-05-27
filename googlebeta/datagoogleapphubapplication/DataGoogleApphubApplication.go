@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_apphub_application google_apphub_application}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/data-sources/google_apphub_application google_apphub_application}.
 type DataGoogleApphubApplication interface {
 	cdktn.TerraformDataSource
 	ApplicationId() *string
@@ -28,6 +28,7 @@ type DataGoogleApphubApplication interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -196,6 +197,16 @@ func (j *jsiiProxy_DataGoogleApphubApplication) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleApphubApplication) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
 		&returns,
 	)
 	return returns
@@ -442,7 +453,7 @@ func (j *jsiiProxy_DataGoogleApphubApplication) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_apphub_application google_apphub_application} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/data-sources/google_apphub_application google_apphub_application} Data Source.
 func NewDataGoogleApphubApplication(scope constructs.Construct, id *string, config *DataGoogleApphubApplicationConfig) DataGoogleApphubApplication {
 	_init_.Initialize()
 
@@ -460,7 +471,7 @@ func NewDataGoogleApphubApplication(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_apphub_application google_apphub_application} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/data-sources/google_apphub_application google_apphub_application} Data Source.
 func NewDataGoogleApphubApplication_Override(d DataGoogleApphubApplication, scope constructs.Construct, id *string, config *DataGoogleApphubApplicationConfig) {
 	_init_.Initialize()
 

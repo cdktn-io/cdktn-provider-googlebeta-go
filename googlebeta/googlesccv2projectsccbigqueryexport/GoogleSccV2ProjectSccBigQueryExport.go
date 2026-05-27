@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_scc_v2_project_scc_big_query_export google_scc_v2_project_scc_big_query_export}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_v2_project_scc_big_query_export google_scc_v2_project_scc_big_query_export}.
 type GoogleSccV2ProjectSccBigQueryExport interface {
 	cdktn.TerraformResource
 	BigQueryExportId() *string
@@ -34,6 +34,9 @@ type GoogleSccV2ProjectSccBigQueryExport interface {
 	Dataset() *string
 	SetDataset(val *string)
 	DatasetInput() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -134,6 +137,7 @@ type GoogleSccV2ProjectSccBigQueryExport interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *GoogleSccV2ProjectSccBigQueryExportTimeouts)
 	ResetDataset()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetFilter()
 	ResetId()
@@ -255,6 +259,26 @@ func (j *jsiiProxy_GoogleSccV2ProjectSccBigQueryExport) DatasetInput() *string {
 	_jsii_.Get(
 		j,
 		"datasetInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleSccV2ProjectSccBigQueryExport) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleSccV2ProjectSccBigQueryExport) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -541,7 +565,7 @@ func (j *jsiiProxy_GoogleSccV2ProjectSccBigQueryExport) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_scc_v2_project_scc_big_query_export google_scc_v2_project_scc_big_query_export} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_v2_project_scc_big_query_export google_scc_v2_project_scc_big_query_export} Resource.
 func NewGoogleSccV2ProjectSccBigQueryExport(scope constructs.Construct, id *string, config *GoogleSccV2ProjectSccBigQueryExportConfig) GoogleSccV2ProjectSccBigQueryExport {
 	_init_.Initialize()
 
@@ -559,7 +583,7 @@ func NewGoogleSccV2ProjectSccBigQueryExport(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_scc_v2_project_scc_big_query_export google_scc_v2_project_scc_big_query_export} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_v2_project_scc_big_query_export google_scc_v2_project_scc_big_query_export} Resource.
 func NewGoogleSccV2ProjectSccBigQueryExport_Override(g GoogleSccV2ProjectSccBigQueryExport, scope constructs.Construct, id *string, config *GoogleSccV2ProjectSccBigQueryExportConfig) {
 	_init_.Initialize()
 
@@ -610,6 +634,17 @@ func (j *jsiiProxy_GoogleSccV2ProjectSccBigQueryExport)SetDataset(val *string) {
 	_jsii_.Set(
 		j,
 		"dataset",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleSccV2ProjectSccBigQueryExport)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1083,6 +1118,14 @@ func (g *jsiiProxy_GoogleSccV2ProjectSccBigQueryExport) ResetDataset() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetDataset",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleSccV2ProjectSccBigQueryExport) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

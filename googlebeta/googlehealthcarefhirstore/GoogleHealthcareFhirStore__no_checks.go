@@ -135,6 +135,10 @@ func (j *jsiiProxy_GoogleHealthcareFhirStore) validateSetDefaultSearchHandlingSt
 	return nil
 }
 
+func (j *jsiiProxy_GoogleHealthcareFhirStore) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleHealthcareFhirStore) validateSetDisableReferentialIntegrityParameters(val interface{}) error {
 	return nil
 }

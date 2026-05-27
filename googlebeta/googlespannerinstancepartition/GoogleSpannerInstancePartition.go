@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_spanner_instance_partition google_spanner_instance_partition}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_spanner_instance_partition google_spanner_instance_partition}.
 type GoogleSpannerInstancePartition interface {
 	cdktn.TerraformResource
 	AutoscalingConfig() GoogleSpannerInstancePartitionAutoscalingConfigOutputReference
@@ -32,6 +32,9 @@ type GoogleSpannerInstancePartition interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -136,6 +139,7 @@ type GoogleSpannerInstancePartition interface {
 	PutAutoscalingConfig(value *GoogleSpannerInstancePartitionAutoscalingConfig)
 	PutTimeouts(value *GoogleSpannerInstancePartitionTimeouts)
 	ResetAutoscalingConfig()
+	ResetDeletionPolicy()
 	ResetId()
 	ResetNodeCount()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -246,6 +250,26 @@ func (j *jsiiProxy_GoogleSpannerInstancePartition) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleSpannerInstancePartition) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleSpannerInstancePartition) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -542,7 +566,7 @@ func (j *jsiiProxy_GoogleSpannerInstancePartition) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_spanner_instance_partition google_spanner_instance_partition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_spanner_instance_partition google_spanner_instance_partition} Resource.
 func NewGoogleSpannerInstancePartition(scope constructs.Construct, id *string, config *GoogleSpannerInstancePartitionConfig) GoogleSpannerInstancePartition {
 	_init_.Initialize()
 
@@ -560,7 +584,7 @@ func NewGoogleSpannerInstancePartition(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_spanner_instance_partition google_spanner_instance_partition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_spanner_instance_partition google_spanner_instance_partition} Resource.
 func NewGoogleSpannerInstancePartition_Override(g GoogleSpannerInstancePartition, scope constructs.Construct, id *string, config *GoogleSpannerInstancePartitionConfig) {
 	_init_.Initialize()
 
@@ -600,6 +624,17 @@ func (j *jsiiProxy_GoogleSpannerInstancePartition)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleSpannerInstancePartition)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1106,6 +1141,14 @@ func (g *jsiiProxy_GoogleSpannerInstancePartition) ResetAutoscalingConfig() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetAutoscalingConfig",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleSpannerInstancePartition) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

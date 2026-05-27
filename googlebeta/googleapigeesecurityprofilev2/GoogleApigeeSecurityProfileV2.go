@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_security_profile_v2 google_apigee_security_profile_v2}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_security_profile_v2 google_apigee_security_profile_v2}.
 type GoogleApigeeSecurityProfileV2 interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -28,6 +28,9 @@ type GoogleApigeeSecurityProfileV2 interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -125,6 +128,7 @@ type GoogleApigeeSecurityProfileV2 interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutProfileAssessmentConfigs(value interface{})
 	PutTimeouts(value *GoogleApigeeSecurityProfileV2Timeouts)
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -203,6 +207,26 @@ func (j *jsiiProxy_GoogleApigeeSecurityProfileV2) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleApigeeSecurityProfileV2) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleApigeeSecurityProfileV2) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -469,7 +493,7 @@ func (j *jsiiProxy_GoogleApigeeSecurityProfileV2) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_security_profile_v2 google_apigee_security_profile_v2} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_security_profile_v2 google_apigee_security_profile_v2} Resource.
 func NewGoogleApigeeSecurityProfileV2(scope constructs.Construct, id *string, config *GoogleApigeeSecurityProfileV2Config) GoogleApigeeSecurityProfileV2 {
 	_init_.Initialize()
 
@@ -487,7 +511,7 @@ func NewGoogleApigeeSecurityProfileV2(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_security_profile_v2 google_apigee_security_profile_v2} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_security_profile_v2 google_apigee_security_profile_v2} Resource.
 func NewGoogleApigeeSecurityProfileV2_Override(g GoogleApigeeSecurityProfileV2, scope constructs.Construct, id *string, config *GoogleApigeeSecurityProfileV2Config) {
 	_init_.Initialize()
 
@@ -516,6 +540,17 @@ func (j *jsiiProxy_GoogleApigeeSecurityProfileV2)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleApigeeSecurityProfileV2)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -982,6 +1017,14 @@ func (g *jsiiProxy_GoogleApigeeSecurityProfileV2) PutTimeouts(value *GoogleApige
 		g,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleApigeeSecurityProfileV2) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

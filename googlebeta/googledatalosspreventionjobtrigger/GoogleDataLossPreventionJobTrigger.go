@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_data_loss_prevention_job_trigger google_data_loss_prevention_job_trigger}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_data_loss_prevention_job_trigger google_data_loss_prevention_job_trigger}.
 type GoogleDataLossPreventionJobTrigger interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -28,6 +28,9 @@ type GoogleDataLossPreventionJobTrigger interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -135,6 +138,7 @@ type GoogleDataLossPreventionJobTrigger interface {
 	PutInspectJob(value *GoogleDataLossPreventionJobTriggerInspectJob)
 	PutTimeouts(value *GoogleDataLossPreventionJobTriggerTimeouts)
 	PutTriggers(value interface{})
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetDisplayName()
 	ResetId()
@@ -217,6 +221,26 @@ func (j *jsiiProxy_GoogleDataLossPreventionJobTrigger) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDataLossPreventionJobTrigger) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDataLossPreventionJobTrigger) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -553,7 +577,7 @@ func (j *jsiiProxy_GoogleDataLossPreventionJobTrigger) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_data_loss_prevention_job_trigger google_data_loss_prevention_job_trigger} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_data_loss_prevention_job_trigger google_data_loss_prevention_job_trigger} Resource.
 func NewGoogleDataLossPreventionJobTrigger(scope constructs.Construct, id *string, config *GoogleDataLossPreventionJobTriggerConfig) GoogleDataLossPreventionJobTrigger {
 	_init_.Initialize()
 
@@ -571,7 +595,7 @@ func NewGoogleDataLossPreventionJobTrigger(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_data_loss_prevention_job_trigger google_data_loss_prevention_job_trigger} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_data_loss_prevention_job_trigger google_data_loss_prevention_job_trigger} Resource.
 func NewGoogleDataLossPreventionJobTrigger_Override(g GoogleDataLossPreventionJobTrigger, scope constructs.Construct, id *string, config *GoogleDataLossPreventionJobTriggerConfig) {
 	_init_.Initialize()
 
@@ -600,6 +624,17 @@ func (j *jsiiProxy_GoogleDataLossPreventionJobTrigger)SetCount(val interface{}) 
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleDataLossPreventionJobTrigger)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1099,6 +1134,14 @@ func (g *jsiiProxy_GoogleDataLossPreventionJobTrigger) PutTriggers(value interfa
 		g,
 		"putTriggers",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleDataLossPreventionJobTrigger) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

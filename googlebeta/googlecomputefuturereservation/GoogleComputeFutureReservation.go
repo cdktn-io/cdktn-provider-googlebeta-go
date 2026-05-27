@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_future_reservation google_compute_future_reservation}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_future_reservation google_compute_future_reservation}.
 type GoogleComputeFutureReservation interface {
 	cdktn.TerraformResource
 	AggregateReservation() GoogleComputeFutureReservationAggregateReservationOutputReference
@@ -40,6 +40,9 @@ type GoogleComputeFutureReservation interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreationTimestamp() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -174,6 +177,7 @@ type GoogleComputeFutureReservation interface {
 	ResetAutoCreatedReservationsDuration()
 	ResetAutoDeleteAutoCreatedReservations()
 	ResetCommitmentInfo()
+	ResetDeletionPolicy()
 	ResetDeploymentType()
 	ResetDescription()
 	ResetId()
@@ -362,6 +366,26 @@ func (j *jsiiProxy_GoogleComputeFutureReservation) CreationTimestamp() *string {
 	_jsii_.Get(
 		j,
 		"creationTimestamp",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeFutureReservation) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeFutureReservation) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -828,7 +852,7 @@ func (j *jsiiProxy_GoogleComputeFutureReservation) Zone() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_future_reservation google_compute_future_reservation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_future_reservation google_compute_future_reservation} Resource.
 func NewGoogleComputeFutureReservation(scope constructs.Construct, id *string, config *GoogleComputeFutureReservationConfig) GoogleComputeFutureReservation {
 	_init_.Initialize()
 
@@ -846,7 +870,7 @@ func NewGoogleComputeFutureReservation(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_future_reservation google_compute_future_reservation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_future_reservation google_compute_future_reservation} Resource.
 func NewGoogleComputeFutureReservation_Override(g GoogleComputeFutureReservation, scope constructs.Construct, id *string, config *GoogleComputeFutureReservationConfig) {
 	_init_.Initialize()
 
@@ -897,6 +921,17 @@ func (j *jsiiProxy_GoogleComputeFutureReservation)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleComputeFutureReservation)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1534,6 +1569,14 @@ func (g *jsiiProxy_GoogleComputeFutureReservation) ResetCommitmentInfo() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetCommitmentInfo",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleComputeFutureReservation) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

@@ -348,6 +348,14 @@ func (j *jsiiProxy_GoogleGeminiGeminiGcpEnablementSettingBinding) validateSetCou
 	return nil
 }
 
+func (j *jsiiProxy_GoogleGeminiGeminiGcpEnablementSettingBinding) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_GoogleGeminiGeminiGcpEnablementSettingBinding) validateSetGeminiGcpEnablementSettingIdParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

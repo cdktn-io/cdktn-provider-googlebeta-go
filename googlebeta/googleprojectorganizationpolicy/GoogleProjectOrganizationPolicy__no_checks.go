@@ -119,6 +119,10 @@ func (j *jsiiProxy_GoogleProjectOrganizationPolicy) validateSetCountParameters(v
 	return nil
 }
 
+func (j *jsiiProxy_GoogleProjectOrganizationPolicy) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleProjectOrganizationPolicy) validateSetIdParameters(val *string) error {
 	return nil
 }

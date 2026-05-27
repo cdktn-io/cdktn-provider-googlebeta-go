@@ -348,6 +348,14 @@ func (j *jsiiProxy_GoogleAccessContextManagerServicePerimeterResource) validateS
 	return nil
 }
 
+func (j *jsiiProxy_GoogleAccessContextManagerServicePerimeterResource) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_GoogleAccessContextManagerServicePerimeterResource) validateSetIdParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

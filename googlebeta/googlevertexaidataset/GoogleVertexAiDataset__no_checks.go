@@ -107,6 +107,10 @@ func (j *jsiiProxy_GoogleVertexAiDataset) validateSetCountParameters(val interfa
 	return nil
 }
 
+func (j *jsiiProxy_GoogleVertexAiDataset) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleVertexAiDataset) validateSetDisplayNameParameters(val *string) error {
 	return nil
 }

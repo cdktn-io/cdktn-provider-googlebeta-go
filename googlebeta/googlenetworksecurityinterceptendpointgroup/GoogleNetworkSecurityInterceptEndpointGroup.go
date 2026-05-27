@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_security_intercept_endpoint_group google_network_security_intercept_endpoint_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_security_intercept_endpoint_group google_network_security_intercept_endpoint_group}.
 type GoogleNetworkSecurityInterceptEndpointGroup interface {
 	cdktn.TerraformResource
 	Associations() GoogleNetworkSecurityInterceptEndpointGroupAssociationsList
@@ -30,6 +30,9 @@ type GoogleNetworkSecurityInterceptEndpointGroup interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -137,6 +140,7 @@ type GoogleNetworkSecurityInterceptEndpointGroup interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *GoogleNetworkSecurityInterceptEndpointGroupTimeouts)
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	ResetLabels()
@@ -237,6 +241,26 @@ func (j *jsiiProxy_GoogleNetworkSecurityInterceptEndpointGroup) CreateTime() *st
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleNetworkSecurityInterceptEndpointGroup) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleNetworkSecurityInterceptEndpointGroup) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -583,7 +607,7 @@ func (j *jsiiProxy_GoogleNetworkSecurityInterceptEndpointGroup) UpdateTime() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_security_intercept_endpoint_group google_network_security_intercept_endpoint_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_security_intercept_endpoint_group google_network_security_intercept_endpoint_group} Resource.
 func NewGoogleNetworkSecurityInterceptEndpointGroup(scope constructs.Construct, id *string, config *GoogleNetworkSecurityInterceptEndpointGroupConfig) GoogleNetworkSecurityInterceptEndpointGroup {
 	_init_.Initialize()
 
@@ -601,7 +625,7 @@ func NewGoogleNetworkSecurityInterceptEndpointGroup(scope constructs.Construct, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_security_intercept_endpoint_group google_network_security_intercept_endpoint_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_security_intercept_endpoint_group google_network_security_intercept_endpoint_group} Resource.
 func NewGoogleNetworkSecurityInterceptEndpointGroup_Override(g GoogleNetworkSecurityInterceptEndpointGroup, scope constructs.Construct, id *string, config *GoogleNetworkSecurityInterceptEndpointGroupConfig) {
 	_init_.Initialize()
 
@@ -630,6 +654,17 @@ func (j *jsiiProxy_GoogleNetworkSecurityInterceptEndpointGroup)SetCount(val inte
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleNetworkSecurityInterceptEndpointGroup)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1118,6 +1153,14 @@ func (g *jsiiProxy_GoogleNetworkSecurityInterceptEndpointGroup) PutTimeouts(valu
 		g,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleNetworkSecurityInterceptEndpointGroup) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

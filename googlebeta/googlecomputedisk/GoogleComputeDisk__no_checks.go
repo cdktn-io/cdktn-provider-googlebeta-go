@@ -143,6 +143,10 @@ func (j *jsiiProxy_GoogleComputeDisk) validateSetCreateSnapshotBeforeDestroyPref
 	return nil
 }
 
+func (j *jsiiProxy_GoogleComputeDisk) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleComputeDisk) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

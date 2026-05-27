@@ -103,6 +103,10 @@ func (j *jsiiProxy_GoogleComputeAutoscalerAutoscalingPolicyOutputReference) vali
 	return nil
 }
 
+func (j *jsiiProxy_GoogleComputeAutoscalerAutoscalingPolicyOutputReference) validateSetStabilizationPeriodParameters(val *float64) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleComputeAutoscalerAutoscalingPolicyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
 	return nil
 }

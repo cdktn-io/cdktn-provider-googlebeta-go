@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_instance_settings google_compute_instance_settings}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_instance_settings google_compute_instance_settings}.
 type GoogleComputeInstanceSettings interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -27,6 +27,9 @@ type GoogleComputeInstanceSettings interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -120,6 +123,7 @@ type GoogleComputeInstanceSettings interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutMetadata(value *GoogleComputeInstanceSettingsMetadata)
 	PutTimeouts(value *GoogleComputeInstanceSettingsTimeouts)
+	ResetDeletionPolicy()
 	ResetId()
 	ResetMetadata()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -189,6 +193,26 @@ func (j *jsiiProxy_GoogleComputeInstanceSettings) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeInstanceSettings) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeInstanceSettings) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -425,7 +449,7 @@ func (j *jsiiProxy_GoogleComputeInstanceSettings) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_instance_settings google_compute_instance_settings} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_instance_settings google_compute_instance_settings} Resource.
 func NewGoogleComputeInstanceSettings(scope constructs.Construct, id *string, config *GoogleComputeInstanceSettingsConfig) GoogleComputeInstanceSettings {
 	_init_.Initialize()
 
@@ -443,7 +467,7 @@ func NewGoogleComputeInstanceSettings(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_instance_settings google_compute_instance_settings} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_instance_settings google_compute_instance_settings} Resource.
 func NewGoogleComputeInstanceSettings_Override(g GoogleComputeInstanceSettings, scope constructs.Construct, id *string, config *GoogleComputeInstanceSettingsConfig) {
 	_init_.Initialize()
 
@@ -472,6 +496,17 @@ func (j *jsiiProxy_GoogleComputeInstanceSettings)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleComputeInstanceSettings)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -927,6 +962,14 @@ func (g *jsiiProxy_GoogleComputeInstanceSettings) PutTimeouts(value *GoogleCompu
 		g,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleComputeInstanceSettings) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

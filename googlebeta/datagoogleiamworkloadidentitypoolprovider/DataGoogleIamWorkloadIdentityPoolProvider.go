@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_iam_workload_identity_pool_provider google_iam_workload_identity_pool_provider}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/data-sources/google_iam_workload_identity_pool_provider google_iam_workload_identity_pool_provider}.
 type DataGoogleIamWorkloadIdentityPoolProvider interface {
 	cdktn.TerraformDataSource
 	AttributeCondition() *string
@@ -26,6 +26,7 @@ type DataGoogleIamWorkloadIdentityPoolProvider interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -189,6 +190,16 @@ func (j *jsiiProxy_DataGoogleIamWorkloadIdentityPoolProvider) Count() interface{
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleIamWorkloadIdentityPoolProvider) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
 		&returns,
 	)
 	return returns
@@ -465,7 +476,7 @@ func (j *jsiiProxy_DataGoogleIamWorkloadIdentityPoolProvider) X509() DataGoogleI
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_iam_workload_identity_pool_provider google_iam_workload_identity_pool_provider} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/data-sources/google_iam_workload_identity_pool_provider google_iam_workload_identity_pool_provider} Data Source.
 func NewDataGoogleIamWorkloadIdentityPoolProvider(scope constructs.Construct, id *string, config *DataGoogleIamWorkloadIdentityPoolProviderConfig) DataGoogleIamWorkloadIdentityPoolProvider {
 	_init_.Initialize()
 
@@ -483,7 +494,7 @@ func NewDataGoogleIamWorkloadIdentityPoolProvider(scope constructs.Construct, id
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_iam_workload_identity_pool_provider google_iam_workload_identity_pool_provider} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/data-sources/google_iam_workload_identity_pool_provider google_iam_workload_identity_pool_provider} Data Source.
 func NewDataGoogleIamWorkloadIdentityPoolProvider_Override(d DataGoogleIamWorkloadIdentityPoolProvider, scope constructs.Construct, id *string, config *DataGoogleIamWorkloadIdentityPoolProviderConfig) {
 	_init_.Initialize()
 

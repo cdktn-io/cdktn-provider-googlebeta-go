@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_cloud_run_v2_job google_cloud_run_v2_job}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/data-sources/google_cloud_run_v2_job google_cloud_run_v2_job}.
 type DataGoogleCloudRunV2Job interface {
 	cdktn.TerraformDataSource
 	Annotations() cdktn.StringMap
@@ -31,6 +31,7 @@ type DataGoogleCloudRunV2Job interface {
 	CreateTime() *string
 	Creator() *string
 	DeleteTime() *string
+	DeletionPolicy() *string
 	DeletionProtection() cdktn.IResolvable
 	// Experimental.
 	DependsOn() *[]*string
@@ -257,6 +258,16 @@ func (j *jsiiProxy_DataGoogleCloudRunV2Job) DeleteTime() *string {
 	_jsii_.Get(
 		j,
 		"deleteTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleCloudRunV2Job) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
 		&returns,
 	)
 	return returns
@@ -653,7 +664,7 @@ func (j *jsiiProxy_DataGoogleCloudRunV2Job) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_cloud_run_v2_job google_cloud_run_v2_job} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/data-sources/google_cloud_run_v2_job google_cloud_run_v2_job} Data Source.
 func NewDataGoogleCloudRunV2Job(scope constructs.Construct, id *string, config *DataGoogleCloudRunV2JobConfig) DataGoogleCloudRunV2Job {
 	_init_.Initialize()
 
@@ -671,7 +682,7 @@ func NewDataGoogleCloudRunV2Job(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_cloud_run_v2_job google_cloud_run_v2_job} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/data-sources/google_cloud_run_v2_job google_cloud_run_v2_job} Data Source.
 func NewDataGoogleCloudRunV2Job_Override(d DataGoogleCloudRunV2Job, scope constructs.Construct, id *string, config *DataGoogleCloudRunV2JobConfig) {
 	_init_.Initialize()
 

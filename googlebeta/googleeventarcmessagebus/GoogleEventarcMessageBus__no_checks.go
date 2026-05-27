@@ -115,6 +115,10 @@ func (j *jsiiProxy_GoogleEventarcMessageBus) validateSetCryptoKeyNameParameters(
 	return nil
 }
 
+func (j *jsiiProxy_GoogleEventarcMessageBus) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleEventarcMessageBus) validateSetDisplayNameParameters(val *string) error {
 	return nil
 }

@@ -356,6 +356,14 @@ func (j *jsiiProxy_GoogleComputePublicDelegatedPrefix) validateSetCountParameter
 	return nil
 }
 
+func (j *jsiiProxy_GoogleComputePublicDelegatedPrefix) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_GoogleComputePublicDelegatedPrefix) validateSetDescriptionParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization google_os_config_v2_policy_orchestrator_for_organization}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization google_os_config_v2_policy_orchestrator_for_organization}.
 type GoogleOsConfigV2PolicyOrchestratorForOrganization interface {
 	cdktn.TerraformResource
 	Action() *string
@@ -31,6 +31,9 @@ type GoogleOsConfigV2PolicyOrchestratorForOrganization interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -142,6 +145,7 @@ type GoogleOsConfigV2PolicyOrchestratorForOrganization interface {
 	PutOrchestratedResource(value *GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestratedResource)
 	PutOrchestrationScope(value *GoogleOsConfigV2PolicyOrchestratorForOrganizationOrchestrationScope)
 	PutTimeouts(value *GoogleOsConfigV2PolicyOrchestratorForOrganizationTimeouts)
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	ResetLabels()
@@ -243,6 +247,26 @@ func (j *jsiiProxy_GoogleOsConfigV2PolicyOrchestratorForOrganization) CreateTime
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleOsConfigV2PolicyOrchestratorForOrganization) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleOsConfigV2PolicyOrchestratorForOrganization) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -619,7 +643,7 @@ func (j *jsiiProxy_GoogleOsConfigV2PolicyOrchestratorForOrganization) UpdateTime
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization google_os_config_v2_policy_orchestrator_for_organization} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization google_os_config_v2_policy_orchestrator_for_organization} Resource.
 func NewGoogleOsConfigV2PolicyOrchestratorForOrganization(scope constructs.Construct, id *string, config *GoogleOsConfigV2PolicyOrchestratorForOrganizationConfig) GoogleOsConfigV2PolicyOrchestratorForOrganization {
 	_init_.Initialize()
 
@@ -637,7 +661,7 @@ func NewGoogleOsConfigV2PolicyOrchestratorForOrganization(scope constructs.Const
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization google_os_config_v2_policy_orchestrator_for_organization} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator_for_organization google_os_config_v2_policy_orchestrator_for_organization} Resource.
 func NewGoogleOsConfigV2PolicyOrchestratorForOrganization_Override(g GoogleOsConfigV2PolicyOrchestratorForOrganization, scope constructs.Construct, id *string, config *GoogleOsConfigV2PolicyOrchestratorForOrganizationConfig) {
 	_init_.Initialize()
 
@@ -677,6 +701,17 @@ func (j *jsiiProxy_GoogleOsConfigV2PolicyOrchestratorForOrganization)SetCount(va
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleOsConfigV2PolicyOrchestratorForOrganization)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1176,6 +1211,14 @@ func (g *jsiiProxy_GoogleOsConfigV2PolicyOrchestratorForOrganization) PutTimeout
 		g,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleOsConfigV2PolicyOrchestratorForOrganization) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

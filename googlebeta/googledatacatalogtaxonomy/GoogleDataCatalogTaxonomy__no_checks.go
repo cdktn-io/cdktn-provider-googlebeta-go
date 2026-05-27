@@ -107,6 +107,10 @@ func (j *jsiiProxy_GoogleDataCatalogTaxonomy) validateSetCountParameters(val int
 	return nil
 }
 
+func (j *jsiiProxy_GoogleDataCatalogTaxonomy) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleDataCatalogTaxonomy) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

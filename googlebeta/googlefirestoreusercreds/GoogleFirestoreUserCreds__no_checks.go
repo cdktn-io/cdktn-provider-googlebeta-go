@@ -107,6 +107,10 @@ func (j *jsiiProxy_GoogleFirestoreUserCreds) validateSetDatabaseParameters(val *
 	return nil
 }
 
+func (j *jsiiProxy_GoogleFirestoreUserCreds) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleFirestoreUserCreds) validateSetIdParameters(val *string) error {
 	return nil
 }

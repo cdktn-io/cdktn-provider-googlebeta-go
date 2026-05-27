@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_bigtable_instance google_bigtable_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_bigtable_instance google_bigtable_instance}.
 type GoogleBigtableInstance interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -29,6 +29,9 @@ type GoogleBigtableInstance interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	DeletionProtection() interface{}
 	SetDeletionProtection(val interface{})
 	DeletionProtectionInput() interface{}
@@ -140,6 +143,7 @@ type GoogleBigtableInstance interface {
 	PutCluster(value interface{})
 	PutTimeouts(value *GoogleBigtableInstanceTimeouts)
 	ResetCluster()
+	ResetDeletionPolicy()
 	ResetDeletionProtection()
 	ResetDisplayName()
 	ResetForceDestroy()
@@ -234,6 +238,26 @@ func (j *jsiiProxy_GoogleBigtableInstance) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleBigtableInstance) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleBigtableInstance) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -580,7 +604,7 @@ func (j *jsiiProxy_GoogleBigtableInstance) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_bigtable_instance google_bigtable_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_bigtable_instance google_bigtable_instance} Resource.
 func NewGoogleBigtableInstance(scope constructs.Construct, id *string, config *GoogleBigtableInstanceConfig) GoogleBigtableInstance {
 	_init_.Initialize()
 
@@ -598,7 +622,7 @@ func NewGoogleBigtableInstance(scope constructs.Construct, id *string, config *G
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_bigtable_instance google_bigtable_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_bigtable_instance google_bigtable_instance} Resource.
 func NewGoogleBigtableInstance_Override(g GoogleBigtableInstance, scope constructs.Construct, id *string, config *GoogleBigtableInstanceConfig) {
 	_init_.Initialize()
 
@@ -627,6 +651,17 @@ func (j *jsiiProxy_GoogleBigtableInstance)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleBigtableInstance)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1155,6 +1190,14 @@ func (g *jsiiProxy_GoogleBigtableInstance) ResetCluster() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetCluster",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleBigtableInstance) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

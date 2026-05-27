@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_logging_project_bucket_config google_logging_project_bucket_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_logging_project_bucket_config google_logging_project_bucket_config}.
 type GoogleLoggingProjectBucketConfig interface {
 	cdktn.TerraformResource
 	BucketId() *string
@@ -32,6 +32,9 @@ type GoogleLoggingProjectBucketConfig interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -137,6 +140,7 @@ type GoogleLoggingProjectBucketConfig interface {
 	PutCmekSettings(value *GoogleLoggingProjectBucketConfigCmekSettings)
 	PutIndexConfigs(value interface{})
 	ResetCmekSettings()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetEnableAnalytics()
 	ResetId()
@@ -248,6 +252,26 @@ func (j *jsiiProxy_GoogleLoggingProjectBucketConfig) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleLoggingProjectBucketConfig) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleLoggingProjectBucketConfig) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -554,7 +578,7 @@ func (j *jsiiProxy_GoogleLoggingProjectBucketConfig) TerraformResourceType() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_logging_project_bucket_config google_logging_project_bucket_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_logging_project_bucket_config google_logging_project_bucket_config} Resource.
 func NewGoogleLoggingProjectBucketConfig(scope constructs.Construct, id *string, config *GoogleLoggingProjectBucketConfigConfig) GoogleLoggingProjectBucketConfig {
 	_init_.Initialize()
 
@@ -572,7 +596,7 @@ func NewGoogleLoggingProjectBucketConfig(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_logging_project_bucket_config google_logging_project_bucket_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_logging_project_bucket_config google_logging_project_bucket_config} Resource.
 func NewGoogleLoggingProjectBucketConfig_Override(g GoogleLoggingProjectBucketConfig, scope constructs.Construct, id *string, config *GoogleLoggingProjectBucketConfigConfig) {
 	_init_.Initialize()
 
@@ -612,6 +636,17 @@ func (j *jsiiProxy_GoogleLoggingProjectBucketConfig)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleLoggingProjectBucketConfig)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1118,6 +1153,14 @@ func (g *jsiiProxy_GoogleLoggingProjectBucketConfig) ResetCmekSettings() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetCmekSettings",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleLoggingProjectBucketConfig) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

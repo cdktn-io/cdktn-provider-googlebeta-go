@@ -34,6 +34,7 @@ type DataGoogleComputeForwardingRulesRulesOutputReference interface {
 	// Experimental.
 	CreationStack() *[]*string
 	CreationTimestamp() *string
+	DeletionPolicy() *string
 	Description() *string
 	EffectiveLabels() cdktn.StringMap
 	ForwardingRuleId() *float64
@@ -200,6 +201,16 @@ func (j *jsiiProxy_DataGoogleComputeForwardingRulesRulesOutputReference) Creatio
 	_jsii_.Get(
 		j,
 		"creationTimestamp",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleComputeForwardingRulesRulesOutputReference) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
 		&returns,
 	)
 	return returns

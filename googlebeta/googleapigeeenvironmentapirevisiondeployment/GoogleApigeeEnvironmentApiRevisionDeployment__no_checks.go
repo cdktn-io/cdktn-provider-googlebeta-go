@@ -107,6 +107,10 @@ func (j *jsiiProxy_GoogleApigeeEnvironmentApiRevisionDeployment) validateSetCoun
 	return nil
 }
 
+func (j *jsiiProxy_GoogleApigeeEnvironmentApiRevisionDeployment) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleApigeeEnvironmentApiRevisionDeployment) validateSetEnvironmentParameters(val *string) error {
 	return nil
 }

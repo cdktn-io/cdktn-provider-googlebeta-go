@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_management_vpc_flow_logs_config google_network_management_vpc_flow_logs_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_management_vpc_flow_logs_config google_network_management_vpc_flow_logs_config}.
 type GoogleNetworkManagementVpcFlowLogsConfig interface {
 	cdktn.TerraformResource
 	AggregationInterval() *string
@@ -31,6 +31,9 @@ type GoogleNetworkManagementVpcFlowLogsConfig interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -162,6 +165,7 @@ type GoogleNetworkManagementVpcFlowLogsConfig interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *GoogleNetworkManagementVpcFlowLogsConfigTimeouts)
 	ResetAggregationInterval()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetFilterExpr()
 	ResetFlowSampling()
@@ -271,6 +275,26 @@ func (j *jsiiProxy_GoogleNetworkManagementVpcFlowLogsConfig) CreateTime() *strin
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleNetworkManagementVpcFlowLogsConfig) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleNetworkManagementVpcFlowLogsConfig) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -767,7 +791,7 @@ func (j *jsiiProxy_GoogleNetworkManagementVpcFlowLogsConfig) VpnTunnelInput() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_management_vpc_flow_logs_config google_network_management_vpc_flow_logs_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_management_vpc_flow_logs_config google_network_management_vpc_flow_logs_config} Resource.
 func NewGoogleNetworkManagementVpcFlowLogsConfig(scope constructs.Construct, id *string, config *GoogleNetworkManagementVpcFlowLogsConfigConfig) GoogleNetworkManagementVpcFlowLogsConfig {
 	_init_.Initialize()
 
@@ -785,7 +809,7 @@ func NewGoogleNetworkManagementVpcFlowLogsConfig(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_management_vpc_flow_logs_config google_network_management_vpc_flow_logs_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_management_vpc_flow_logs_config google_network_management_vpc_flow_logs_config} Resource.
 func NewGoogleNetworkManagementVpcFlowLogsConfig_Override(g GoogleNetworkManagementVpcFlowLogsConfig, scope constructs.Construct, id *string, config *GoogleNetworkManagementVpcFlowLogsConfigConfig) {
 	_init_.Initialize()
 
@@ -825,6 +849,17 @@ func (j *jsiiProxy_GoogleNetworkManagementVpcFlowLogsConfig)SetCount(val interfa
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleNetworkManagementVpcFlowLogsConfig)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1408,6 +1443,14 @@ func (g *jsiiProxy_GoogleNetworkManagementVpcFlowLogsConfig) ResetAggregationInt
 	_jsii_.InvokeVoid(
 		g,
 		"resetAggregationInterval",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleNetworkManagementVpcFlowLogsConfig) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

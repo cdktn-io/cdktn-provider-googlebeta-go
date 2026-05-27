@@ -33,6 +33,7 @@ type DataGoogleOracleDatabaseAutonomousDatabasesAutonomousDatabasesOutputReferen
 	// Experimental.
 	CreationStack() *[]*string
 	Database() *string
+	DeletionPolicy() *string
 	DeletionProtection() cdktn.IResolvable
 	DisasterRecoverySupportedLocations() *[]*string
 	DisplayName() *string
@@ -175,6 +176,16 @@ func (j *jsiiProxy_DataGoogleOracleDatabaseAutonomousDatabasesAutonomousDatabase
 	_jsii_.Get(
 		j,
 		"database",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleOracleDatabaseAutonomousDatabasesAutonomousDatabasesOutputReference) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
 		&returns,
 	)
 	return returns

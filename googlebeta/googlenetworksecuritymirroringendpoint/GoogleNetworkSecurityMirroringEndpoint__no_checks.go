@@ -103,6 +103,10 @@ func (j *jsiiProxy_GoogleNetworkSecurityMirroringEndpoint) validateSetCountParam
 	return nil
 }
 
+func (j *jsiiProxy_GoogleNetworkSecurityMirroringEndpoint) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleNetworkSecurityMirroringEndpoint) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

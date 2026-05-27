@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_global_address google_compute_global_address}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_global_address google_compute_global_address}.
 type GoogleComputeGlobalAddress interface {
 	cdktn.TerraformResource
 	Address() *string
@@ -34,6 +34,9 @@ type GoogleComputeGlobalAddress interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreationTimestamp() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -147,6 +150,7 @@ type GoogleComputeGlobalAddress interface {
 	PutTimeouts(value *GoogleComputeGlobalAddressTimeouts)
 	ResetAddress()
 	ResetAddressType()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	ResetIpVersion()
@@ -271,6 +275,26 @@ func (j *jsiiProxy_GoogleComputeGlobalAddress) CreationTimestamp() *string {
 	_jsii_.Get(
 		j,
 		"creationTimestamp",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeGlobalAddress) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeGlobalAddress) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -637,7 +661,7 @@ func (j *jsiiProxy_GoogleComputeGlobalAddress) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_global_address google_compute_global_address} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_global_address google_compute_global_address} Resource.
 func NewGoogleComputeGlobalAddress(scope constructs.Construct, id *string, config *GoogleComputeGlobalAddressConfig) GoogleComputeGlobalAddress {
 	_init_.Initialize()
 
@@ -655,7 +679,7 @@ func NewGoogleComputeGlobalAddress(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_global_address google_compute_global_address} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_global_address google_compute_global_address} Resource.
 func NewGoogleComputeGlobalAddress_Override(g GoogleComputeGlobalAddress, scope constructs.Construct, id *string, config *GoogleComputeGlobalAddressConfig) {
 	_init_.Initialize()
 
@@ -706,6 +730,17 @@ func (j *jsiiProxy_GoogleComputeGlobalAddress)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleComputeGlobalAddress)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1231,6 +1266,14 @@ func (g *jsiiProxy_GoogleComputeGlobalAddress) ResetAddressType() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetAddressType",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleComputeGlobalAddress) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_bigquery_analytics_hub_listing_subscription google_bigquery_analytics_hub_listing_subscription}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_bigquery_analytics_hub_listing_subscription google_bigquery_analytics_hub_listing_subscription}.
 type GoogleBigqueryAnalyticsHubListingSubscription interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -32,6 +32,9 @@ type GoogleBigqueryAnalyticsHubListingSubscription interface {
 	DataExchangeId() *string
 	SetDataExchangeId(val *string)
 	DataExchangeIdInput() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -138,6 +141,7 @@ type GoogleBigqueryAnalyticsHubListingSubscription interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutDestinationDataset(value *GoogleBigqueryAnalyticsHubListingSubscriptionDestinationDataset)
 	PutTimeouts(value *GoogleBigqueryAnalyticsHubListingSubscriptionTimeouts)
+	ResetDeletionPolicy()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -246,6 +250,26 @@ func (j *jsiiProxy_GoogleBigqueryAnalyticsHubListingSubscription) DataExchangeId
 	_jsii_.Get(
 		j,
 		"dataExchangeIdInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleBigqueryAnalyticsHubListingSubscription) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleBigqueryAnalyticsHubListingSubscription) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -602,7 +626,7 @@ func (j *jsiiProxy_GoogleBigqueryAnalyticsHubListingSubscription) TimeoutsInput(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_bigquery_analytics_hub_listing_subscription google_bigquery_analytics_hub_listing_subscription} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_bigquery_analytics_hub_listing_subscription google_bigquery_analytics_hub_listing_subscription} Resource.
 func NewGoogleBigqueryAnalyticsHubListingSubscription(scope constructs.Construct, id *string, config *GoogleBigqueryAnalyticsHubListingSubscriptionConfig) GoogleBigqueryAnalyticsHubListingSubscription {
 	_init_.Initialize()
 
@@ -620,7 +644,7 @@ func NewGoogleBigqueryAnalyticsHubListingSubscription(scope constructs.Construct
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_bigquery_analytics_hub_listing_subscription google_bigquery_analytics_hub_listing_subscription} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_bigquery_analytics_hub_listing_subscription google_bigquery_analytics_hub_listing_subscription} Resource.
 func NewGoogleBigqueryAnalyticsHubListingSubscription_Override(g GoogleBigqueryAnalyticsHubListingSubscription, scope constructs.Construct, id *string, config *GoogleBigqueryAnalyticsHubListingSubscriptionConfig) {
 	_init_.Initialize()
 
@@ -660,6 +684,17 @@ func (j *jsiiProxy_GoogleBigqueryAnalyticsHubListingSubscription)SetDataExchange
 	_jsii_.Set(
 		j,
 		"dataExchangeId",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleBigqueryAnalyticsHubListingSubscription)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1126,6 +1161,14 @@ func (g *jsiiProxy_GoogleBigqueryAnalyticsHubListingSubscription) PutTimeouts(va
 		g,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleBigqueryAnalyticsHubListingSubscription) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloudbuild_worker_pool google_cloudbuild_worker_pool}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudbuild_worker_pool google_cloudbuild_worker_pool}.
 type GoogleCloudbuildWorkerPool interface {
 	cdktn.TerraformResource
 	Annotations() *map[string]*string
@@ -32,6 +32,9 @@ type GoogleCloudbuildWorkerPool interface {
 	SetCount(val interface{})
 	CreateTime() *string
 	DeleteTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -141,6 +144,7 @@ type GoogleCloudbuildWorkerPool interface {
 	PutTimeouts(value *GoogleCloudbuildWorkerPoolTimeouts)
 	PutWorkerConfig(value *GoogleCloudbuildWorkerPoolWorkerConfig)
 	ResetAnnotations()
+	ResetDeletionPolicy()
 	ResetDisplayName()
 	ResetId()
 	ResetNetworkConfig()
@@ -253,6 +257,26 @@ func (j *jsiiProxy_GoogleCloudbuildWorkerPool) DeleteTime() *string {
 	_jsii_.Get(
 		j,
 		"deleteTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCloudbuildWorkerPool) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCloudbuildWorkerPool) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -599,7 +623,7 @@ func (j *jsiiProxy_GoogleCloudbuildWorkerPool) WorkerConfigInput() *GoogleCloudb
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloudbuild_worker_pool google_cloudbuild_worker_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudbuild_worker_pool google_cloudbuild_worker_pool} Resource.
 func NewGoogleCloudbuildWorkerPool(scope constructs.Construct, id *string, config *GoogleCloudbuildWorkerPoolConfig) GoogleCloudbuildWorkerPool {
 	_init_.Initialize()
 
@@ -617,7 +641,7 @@ func NewGoogleCloudbuildWorkerPool(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloudbuild_worker_pool google_cloudbuild_worker_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudbuild_worker_pool google_cloudbuild_worker_pool} Resource.
 func NewGoogleCloudbuildWorkerPool_Override(g GoogleCloudbuildWorkerPool, scope constructs.Construct, id *string, config *GoogleCloudbuildWorkerPoolConfig) {
 	_init_.Initialize()
 
@@ -657,6 +681,17 @@ func (j *jsiiProxy_GoogleCloudbuildWorkerPool)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleCloudbuildWorkerPool)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1163,6 +1198,14 @@ func (g *jsiiProxy_GoogleCloudbuildWorkerPool) ResetAnnotations() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetAnnotations",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleCloudbuildWorkerPool) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

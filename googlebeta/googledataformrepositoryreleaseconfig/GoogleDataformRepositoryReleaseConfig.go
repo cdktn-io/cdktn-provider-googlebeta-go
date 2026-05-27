@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataform_repository_release_config google_dataform_repository_release_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataform_repository_release_config google_dataform_repository_release_config}.
 type GoogleDataformRepositoryReleaseConfig interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -32,6 +32,9 @@ type GoogleDataformRepositoryReleaseConfig interface {
 	CronSchedule() *string
 	SetCronSchedule(val *string)
 	CronScheduleInput() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -140,6 +143,7 @@ type GoogleDataformRepositoryReleaseConfig interface {
 	PutTimeouts(value *GoogleDataformRepositoryReleaseConfigTimeouts)
 	ResetCodeCompilationConfig()
 	ResetCronSchedule()
+	ResetDeletionPolicy()
 	ResetDisabled()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -252,6 +256,26 @@ func (j *jsiiProxy_GoogleDataformRepositoryReleaseConfig) CronScheduleInput() *s
 	_jsii_.Get(
 		j,
 		"cronScheduleInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDataformRepositoryReleaseConfig) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDataformRepositoryReleaseConfig) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -568,7 +592,7 @@ func (j *jsiiProxy_GoogleDataformRepositoryReleaseConfig) TimeZoneInput() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataform_repository_release_config google_dataform_repository_release_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataform_repository_release_config google_dataform_repository_release_config} Resource.
 func NewGoogleDataformRepositoryReleaseConfig(scope constructs.Construct, id *string, config *GoogleDataformRepositoryReleaseConfigConfig) GoogleDataformRepositoryReleaseConfig {
 	_init_.Initialize()
 
@@ -586,7 +610,7 @@ func NewGoogleDataformRepositoryReleaseConfig(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataform_repository_release_config google_dataform_repository_release_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataform_repository_release_config google_dataform_repository_release_config} Resource.
 func NewGoogleDataformRepositoryReleaseConfig_Override(g GoogleDataformRepositoryReleaseConfig, scope constructs.Construct, id *string, config *GoogleDataformRepositoryReleaseConfigConfig) {
 	_init_.Initialize()
 
@@ -626,6 +650,17 @@ func (j *jsiiProxy_GoogleDataformRepositoryReleaseConfig)SetCronSchedule(val *st
 	_jsii_.Set(
 		j,
 		"cronSchedule",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleDataformRepositoryReleaseConfig)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1151,6 +1186,14 @@ func (g *jsiiProxy_GoogleDataformRepositoryReleaseConfig) ResetCronSchedule() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetCronSchedule",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleDataformRepositoryReleaseConfig) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

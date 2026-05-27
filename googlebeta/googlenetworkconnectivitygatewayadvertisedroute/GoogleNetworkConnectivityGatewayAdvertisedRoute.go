@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_connectivity_gateway_advertised_route google_network_connectivity_gateway_advertised_route}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_connectivity_gateway_advertised_route google_network_connectivity_gateway_advertised_route}.
 type GoogleNetworkConnectivityGatewayAdvertisedRoute interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -28,6 +28,9 @@ type GoogleNetworkConnectivityGatewayAdvertisedRoute interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -143,6 +146,7 @@ type GoogleNetworkConnectivityGatewayAdvertisedRoute interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *GoogleNetworkConnectivityGatewayAdvertisedRouteTimeouts)
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	ResetIpRange()
@@ -226,6 +230,26 @@ func (j *jsiiProxy_GoogleNetworkConnectivityGatewayAdvertisedRoute) CreateTime()
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleNetworkConnectivityGatewayAdvertisedRoute) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleNetworkConnectivityGatewayAdvertisedRoute) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -622,7 +646,7 @@ func (j *jsiiProxy_GoogleNetworkConnectivityGatewayAdvertisedRoute) UpdateTime()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_connectivity_gateway_advertised_route google_network_connectivity_gateway_advertised_route} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_connectivity_gateway_advertised_route google_network_connectivity_gateway_advertised_route} Resource.
 func NewGoogleNetworkConnectivityGatewayAdvertisedRoute(scope constructs.Construct, id *string, config *GoogleNetworkConnectivityGatewayAdvertisedRouteConfig) GoogleNetworkConnectivityGatewayAdvertisedRoute {
 	_init_.Initialize()
 
@@ -640,7 +664,7 @@ func NewGoogleNetworkConnectivityGatewayAdvertisedRoute(scope constructs.Constru
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_connectivity_gateway_advertised_route google_network_connectivity_gateway_advertised_route} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_connectivity_gateway_advertised_route google_network_connectivity_gateway_advertised_route} Resource.
 func NewGoogleNetworkConnectivityGatewayAdvertisedRoute_Override(g GoogleNetworkConnectivityGatewayAdvertisedRoute, scope constructs.Construct, id *string, config *GoogleNetworkConnectivityGatewayAdvertisedRouteConfig) {
 	_init_.Initialize()
 
@@ -669,6 +693,17 @@ func (j *jsiiProxy_GoogleNetworkConnectivityGatewayAdvertisedRoute)SetCount(val 
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleNetworkConnectivityGatewayAdvertisedRoute)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1190,6 +1225,14 @@ func (g *jsiiProxy_GoogleNetworkConnectivityGatewayAdvertisedRoute) PutTimeouts(
 		g,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleNetworkConnectivityGatewayAdvertisedRoute) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

@@ -115,6 +115,10 @@ func (j *jsiiProxy_GoogleVmwareengineExternalAccessRule) validateSetCountParamet
 	return nil
 }
 
+func (j *jsiiProxy_GoogleVmwareengineExternalAccessRule) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleVmwareengineExternalAccessRule) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_monitoring_app_engine_service google_monitoring_app_engine_service}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/data-sources/google_monitoring_app_engine_service google_monitoring_app_engine_service}.
 type DataGoogleMonitoringAppEngineService interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -23,6 +23,7 @@ type DataGoogleMonitoringAppEngineService interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -150,6 +151,16 @@ func (j *jsiiProxy_DataGoogleMonitoringAppEngineService) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleMonitoringAppEngineService) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
 		&returns,
 	)
 	return returns
@@ -376,7 +387,7 @@ func (j *jsiiProxy_DataGoogleMonitoringAppEngineService) UserLabels() cdktn.Stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_monitoring_app_engine_service google_monitoring_app_engine_service} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/data-sources/google_monitoring_app_engine_service google_monitoring_app_engine_service} Data Source.
 func NewDataGoogleMonitoringAppEngineService(scope constructs.Construct, id *string, config *DataGoogleMonitoringAppEngineServiceConfig) DataGoogleMonitoringAppEngineService {
 	_init_.Initialize()
 
@@ -394,7 +405,7 @@ func NewDataGoogleMonitoringAppEngineService(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_monitoring_app_engine_service google_monitoring_app_engine_service} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/data-sources/google_monitoring_app_engine_service google_monitoring_app_engine_service} Data Source.
 func NewDataGoogleMonitoringAppEngineService_Override(d DataGoogleMonitoringAppEngineService, scope constructs.Construct, id *string, config *DataGoogleMonitoringAppEngineServiceConfig) {
 	_init_.Initialize()
 

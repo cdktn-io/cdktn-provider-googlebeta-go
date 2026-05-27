@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_document_ai_warehouse_document_schema google_document_ai_warehouse_document_schema}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_document_ai_warehouse_document_schema google_document_ai_warehouse_document_schema}.
 type GoogleDocumentAiWarehouseDocumentSchema interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -27,6 +27,9 @@ type GoogleDocumentAiWarehouseDocumentSchema interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -126,6 +129,7 @@ type GoogleDocumentAiWarehouseDocumentSchema interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutPropertyDefinitions(value interface{})
 	PutTimeouts(value *GoogleDocumentAiWarehouseDocumentSchemaTimeouts)
+	ResetDeletionPolicy()
 	ResetDocumentIsFolder()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -194,6 +198,26 @@ func (j *jsiiProxy_GoogleDocumentAiWarehouseDocumentSchema) Count() interface{} 
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDocumentAiWarehouseDocumentSchema) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDocumentAiWarehouseDocumentSchema) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -470,7 +494,7 @@ func (j *jsiiProxy_GoogleDocumentAiWarehouseDocumentSchema) TimeoutsInput() inte
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_document_ai_warehouse_document_schema google_document_ai_warehouse_document_schema} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_document_ai_warehouse_document_schema google_document_ai_warehouse_document_schema} Resource.
 func NewGoogleDocumentAiWarehouseDocumentSchema(scope constructs.Construct, id *string, config *GoogleDocumentAiWarehouseDocumentSchemaConfig) GoogleDocumentAiWarehouseDocumentSchema {
 	_init_.Initialize()
 
@@ -488,7 +512,7 @@ func NewGoogleDocumentAiWarehouseDocumentSchema(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_document_ai_warehouse_document_schema google_document_ai_warehouse_document_schema} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_document_ai_warehouse_document_schema google_document_ai_warehouse_document_schema} Resource.
 func NewGoogleDocumentAiWarehouseDocumentSchema_Override(g GoogleDocumentAiWarehouseDocumentSchema, scope constructs.Construct, id *string, config *GoogleDocumentAiWarehouseDocumentSchemaConfig) {
 	_init_.Initialize()
 
@@ -517,6 +541,17 @@ func (j *jsiiProxy_GoogleDocumentAiWarehouseDocumentSchema)SetCount(val interfac
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleDocumentAiWarehouseDocumentSchema)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -994,6 +1029,14 @@ func (g *jsiiProxy_GoogleDocumentAiWarehouseDocumentSchema) PutTimeouts(value *G
 		g,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleDocumentAiWarehouseDocumentSchema) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

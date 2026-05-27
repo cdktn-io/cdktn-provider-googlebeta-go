@@ -107,6 +107,10 @@ func (j *jsiiProxy_GoogleMonitoringCustomService) validateSetCountParameters(val
 	return nil
 }
 
+func (j *jsiiProxy_GoogleMonitoringCustomService) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleMonitoringCustomService) validateSetDisplayNameParameters(val *string) error {
 	return nil
 }

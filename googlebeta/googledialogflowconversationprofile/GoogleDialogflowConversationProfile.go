@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dialogflow_conversation_profile google_dialogflow_conversation_profile}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dialogflow_conversation_profile google_dialogflow_conversation_profile}.
 type GoogleDialogflowConversationProfile interface {
 	cdktn.TerraformResource
 	AutomatedAgentConfig() GoogleDialogflowConversationProfileAutomatedAgentConfigOutputReference
@@ -29,6 +29,9 @@ type GoogleDialogflowConversationProfile interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -160,6 +163,7 @@ type GoogleDialogflowConversationProfile interface {
 	PutTimeouts(value *GoogleDialogflowConversationProfileTimeouts)
 	PutTtsConfig(value *GoogleDialogflowConversationProfileTtsConfig)
 	ResetAutomatedAgentConfig()
+	ResetDeletionPolicy()
 	ResetHumanAgentAssistantConfig()
 	ResetHumanAgentHandoffConfig()
 	ResetId()
@@ -260,6 +264,26 @@ func (j *jsiiProxy_GoogleDialogflowConversationProfile) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDialogflowConversationProfile) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDialogflowConversationProfile) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -736,7 +760,7 @@ func (j *jsiiProxy_GoogleDialogflowConversationProfile) UseBidiStreamingInput() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dialogflow_conversation_profile google_dialogflow_conversation_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dialogflow_conversation_profile google_dialogflow_conversation_profile} Resource.
 func NewGoogleDialogflowConversationProfile(scope constructs.Construct, id *string, config *GoogleDialogflowConversationProfileConfig) GoogleDialogflowConversationProfile {
 	_init_.Initialize()
 
@@ -754,7 +778,7 @@ func NewGoogleDialogflowConversationProfile(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dialogflow_conversation_profile google_dialogflow_conversation_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dialogflow_conversation_profile google_dialogflow_conversation_profile} Resource.
 func NewGoogleDialogflowConversationProfile_Override(g GoogleDialogflowConversationProfile, scope constructs.Construct, id *string, config *GoogleDialogflowConversationProfileConfig) {
 	_init_.Initialize()
 
@@ -783,6 +807,17 @@ func (j *jsiiProxy_GoogleDialogflowConversationProfile)SetCount(val interface{})
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleDialogflowConversationProfile)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1388,6 +1423,14 @@ func (g *jsiiProxy_GoogleDialogflowConversationProfile) ResetAutomatedAgentConfi
 	_jsii_.InvokeVoid(
 		g,
 		"resetAutomatedAgentConfig",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleDialogflowConversationProfile) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

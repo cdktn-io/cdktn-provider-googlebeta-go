@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_secret_manager_regional_secret google_secret_manager_regional_secret}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/data-sources/google_secret_manager_regional_secret google_secret_manager_regional_secret}.
 type DataGoogleSecretManagerRegionalSecret interface {
 	cdktn.TerraformDataSource
 	Annotations() cdktn.StringMap
@@ -26,6 +26,7 @@ type DataGoogleSecretManagerRegionalSecret interface {
 	SetCount(val interface{})
 	CreateTime() *string
 	CustomerManagedEncryption() DataGoogleSecretManagerRegionalSecretCustomerManagedEncryptionList
+	DeletionPolicy() *string
 	DeletionProtection() cdktn.IResolvable
 	// Experimental.
 	DependsOn() *[]*string
@@ -194,6 +195,16 @@ func (j *jsiiProxy_DataGoogleSecretManagerRegionalSecret) CustomerManagedEncrypt
 	_jsii_.Get(
 		j,
 		"customerManagedEncryption",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleSecretManagerRegionalSecret) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
 		&returns,
 	)
 	return returns
@@ -520,7 +531,7 @@ func (j *jsiiProxy_DataGoogleSecretManagerRegionalSecret) VersionDestroyTtl() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_secret_manager_regional_secret google_secret_manager_regional_secret} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/data-sources/google_secret_manager_regional_secret google_secret_manager_regional_secret} Data Source.
 func NewDataGoogleSecretManagerRegionalSecret(scope constructs.Construct, id *string, config *DataGoogleSecretManagerRegionalSecretConfig) DataGoogleSecretManagerRegionalSecret {
 	_init_.Initialize()
 
@@ -538,7 +549,7 @@ func NewDataGoogleSecretManagerRegionalSecret(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_secret_manager_regional_secret google_secret_manager_regional_secret} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/data-sources/google_secret_manager_regional_secret google_secret_manager_regional_secret} Data Source.
 func NewDataGoogleSecretManagerRegionalSecret_Override(d DataGoogleSecretManagerRegionalSecret, scope constructs.Construct, id *string, config *DataGoogleSecretManagerRegionalSecretConfig) {
 	_init_.Initialize()
 

@@ -103,6 +103,10 @@ func (j *jsiiProxy_GoogleFirebaseAiLogicPromptTemplateLock) validateSetCountPara
 	return nil
 }
 
+func (j *jsiiProxy_GoogleFirebaseAiLogicPromptTemplateLock) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleFirebaseAiLogicPromptTemplateLock) validateSetIdParameters(val *string) error {
 	return nil
 }

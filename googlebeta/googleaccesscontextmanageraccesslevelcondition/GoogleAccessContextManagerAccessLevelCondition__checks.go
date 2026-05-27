@@ -398,6 +398,14 @@ func (j *jsiiProxy_GoogleAccessContextManagerAccessLevelCondition) validateSetCo
 	return nil
 }
 
+func (j *jsiiProxy_GoogleAccessContextManagerAccessLevelCondition) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_GoogleAccessContextManagerAccessLevelCondition) validateSetIdParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

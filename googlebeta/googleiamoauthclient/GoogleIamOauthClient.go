@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iam_oauth_client google_iam_oauth_client}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_iam_oauth_client google_iam_oauth_client}.
 type GoogleIamOauthClient interface {
 	cdktn.TerraformResource
 	AllowedGrantTypes() *[]*string
@@ -40,6 +40,9 @@ type GoogleIamOauthClient interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -145,6 +148,7 @@ type GoogleIamOauthClient interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *GoogleIamOauthClientTimeouts)
 	ResetClientType()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetDisabled()
 	ResetDisplayName()
@@ -306,6 +310,26 @@ func (j *jsiiProxy_GoogleIamOauthClient) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleIamOauthClient) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleIamOauthClient) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -622,7 +646,7 @@ func (j *jsiiProxy_GoogleIamOauthClient) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iam_oauth_client google_iam_oauth_client} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_iam_oauth_client google_iam_oauth_client} Resource.
 func NewGoogleIamOauthClient(scope constructs.Construct, id *string, config *GoogleIamOauthClientConfig) GoogleIamOauthClient {
 	_init_.Initialize()
 
@@ -640,7 +664,7 @@ func NewGoogleIamOauthClient(scope constructs.Construct, id *string, config *Goo
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iam_oauth_client google_iam_oauth_client} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_iam_oauth_client google_iam_oauth_client} Resource.
 func NewGoogleIamOauthClient_Override(g GoogleIamOauthClient, scope constructs.Construct, id *string, config *GoogleIamOauthClientConfig) {
 	_init_.Initialize()
 
@@ -713,6 +737,17 @@ func (j *jsiiProxy_GoogleIamOauthClient)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleIamOauthClient)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1208,6 +1243,14 @@ func (g *jsiiProxy_GoogleIamOauthClient) ResetClientType() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetClientType",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleIamOauthClient) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

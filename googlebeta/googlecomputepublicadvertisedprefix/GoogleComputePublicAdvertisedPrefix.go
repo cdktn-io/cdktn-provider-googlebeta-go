@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_public_advertised_prefix google_compute_public_advertised_prefix}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_public_advertised_prefix google_compute_public_advertised_prefix}.
 type GoogleComputePublicAdvertisedPrefix interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -27,6 +27,9 @@ type GoogleComputePublicAdvertisedPrefix interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -133,6 +136,7 @@ type GoogleComputePublicAdvertisedPrefix interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *GoogleComputePublicAdvertisedPrefixTimeouts)
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetDnsVerificationIp()
 	ResetId()
@@ -205,6 +209,26 @@ func (j *jsiiProxy_GoogleComputePublicAdvertisedPrefix) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputePublicAdvertisedPrefix) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputePublicAdvertisedPrefix) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -531,7 +555,7 @@ func (j *jsiiProxy_GoogleComputePublicAdvertisedPrefix) TimeoutsInput() interfac
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_public_advertised_prefix google_compute_public_advertised_prefix} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_public_advertised_prefix google_compute_public_advertised_prefix} Resource.
 func NewGoogleComputePublicAdvertisedPrefix(scope constructs.Construct, id *string, config *GoogleComputePublicAdvertisedPrefixConfig) GoogleComputePublicAdvertisedPrefix {
 	_init_.Initialize()
 
@@ -549,7 +573,7 @@ func NewGoogleComputePublicAdvertisedPrefix(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_public_advertised_prefix google_compute_public_advertised_prefix} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_public_advertised_prefix google_compute_public_advertised_prefix} Resource.
 func NewGoogleComputePublicAdvertisedPrefix_Override(g GoogleComputePublicAdvertisedPrefix, scope constructs.Construct, id *string, config *GoogleComputePublicAdvertisedPrefixConfig) {
 	_init_.Initialize()
 
@@ -578,6 +602,17 @@ func (j *jsiiProxy_GoogleComputePublicAdvertisedPrefix)SetCount(val interface{})
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleComputePublicAdvertisedPrefix)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1077,6 +1112,14 @@ func (g *jsiiProxy_GoogleComputePublicAdvertisedPrefix) PutTimeouts(value *Googl
 		g,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleComputePublicAdvertisedPrefix) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

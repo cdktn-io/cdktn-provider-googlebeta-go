@@ -103,6 +103,10 @@ func (j *jsiiProxy_GoogleSccV2FolderMuteConfig) validateSetCountParameters(val i
 	return nil
 }
 
+func (j *jsiiProxy_GoogleSccV2FolderMuteConfig) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleSccV2FolderMuteConfig) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

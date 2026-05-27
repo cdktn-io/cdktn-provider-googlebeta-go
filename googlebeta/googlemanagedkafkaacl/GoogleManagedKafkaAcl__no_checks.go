@@ -115,6 +115,10 @@ func (j *jsiiProxy_GoogleManagedKafkaAcl) validateSetCountParameters(val interfa
 	return nil
 }
 
+func (j *jsiiProxy_GoogleManagedKafkaAcl) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleManagedKafkaAcl) validateSetIdParameters(val *string) error {
 	return nil
 }

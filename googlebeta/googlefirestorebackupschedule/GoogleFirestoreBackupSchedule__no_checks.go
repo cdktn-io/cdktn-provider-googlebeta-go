@@ -115,6 +115,10 @@ func (j *jsiiProxy_GoogleFirestoreBackupSchedule) validateSetDatabaseParameters(
 	return nil
 }
 
+func (j *jsiiProxy_GoogleFirestoreBackupSchedule) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleFirestoreBackupSchedule) validateSetIdParameters(val *string) error {
 	return nil
 }

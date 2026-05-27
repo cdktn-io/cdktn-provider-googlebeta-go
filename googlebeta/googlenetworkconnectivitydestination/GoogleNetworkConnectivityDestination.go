@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_connectivity_destination google_network_connectivity_destination}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_connectivity_destination google_network_connectivity_destination}.
 type GoogleNetworkConnectivityDestination interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -28,6 +28,9 @@ type GoogleNetworkConnectivityDestination interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -141,6 +144,7 @@ type GoogleNetworkConnectivityDestination interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutEndpoints(value interface{})
 	PutTimeouts(value *GoogleNetworkConnectivityDestinationTimeouts)
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	ResetLabels()
@@ -221,6 +225,26 @@ func (j *jsiiProxy_GoogleNetworkConnectivityDestination) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleNetworkConnectivityDestination) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleNetworkConnectivityDestination) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -607,7 +631,7 @@ func (j *jsiiProxy_GoogleNetworkConnectivityDestination) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_connectivity_destination google_network_connectivity_destination} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_connectivity_destination google_network_connectivity_destination} Resource.
 func NewGoogleNetworkConnectivityDestination(scope constructs.Construct, id *string, config *GoogleNetworkConnectivityDestinationConfig) GoogleNetworkConnectivityDestination {
 	_init_.Initialize()
 
@@ -625,7 +649,7 @@ func NewGoogleNetworkConnectivityDestination(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_connectivity_destination google_network_connectivity_destination} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_connectivity_destination google_network_connectivity_destination} Resource.
 func NewGoogleNetworkConnectivityDestination_Override(g GoogleNetworkConnectivityDestination, scope constructs.Construct, id *string, config *GoogleNetworkConnectivityDestinationConfig) {
 	_init_.Initialize()
 
@@ -654,6 +678,17 @@ func (j *jsiiProxy_GoogleNetworkConnectivityDestination)SetCount(val interface{}
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleNetworkConnectivityDestination)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1164,6 +1199,14 @@ func (g *jsiiProxy_GoogleNetworkConnectivityDestination) PutTimeouts(value *Goog
 		g,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleNetworkConnectivityDestination) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

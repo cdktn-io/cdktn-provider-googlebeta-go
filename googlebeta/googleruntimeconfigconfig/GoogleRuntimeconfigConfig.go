@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_runtimeconfig_config google_runtimeconfig_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_runtimeconfig_config google_runtimeconfig_config}.
 type GoogleRuntimeconfigConfig interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -27,6 +27,9 @@ type GoogleRuntimeconfigConfig interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -116,6 +119,7 @@ type GoogleRuntimeconfigConfig interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -184,6 +188,26 @@ func (j *jsiiProxy_GoogleRuntimeconfigConfig) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleRuntimeconfigConfig) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleRuntimeconfigConfig) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -390,7 +414,7 @@ func (j *jsiiProxy_GoogleRuntimeconfigConfig) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_runtimeconfig_config google_runtimeconfig_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_runtimeconfig_config google_runtimeconfig_config} Resource.
 func NewGoogleRuntimeconfigConfig(scope constructs.Construct, id *string, config *GoogleRuntimeconfigConfigConfig) GoogleRuntimeconfigConfig {
 	_init_.Initialize()
 
@@ -408,7 +432,7 @@ func NewGoogleRuntimeconfigConfig(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_runtimeconfig_config google_runtimeconfig_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_runtimeconfig_config google_runtimeconfig_config} Resource.
 func NewGoogleRuntimeconfigConfig_Override(g GoogleRuntimeconfigConfig, scope constructs.Construct, id *string, config *GoogleRuntimeconfigConfigConfig) {
 	_init_.Initialize()
 
@@ -437,6 +461,17 @@ func (j *jsiiProxy_GoogleRuntimeconfigConfig)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleRuntimeconfigConfig)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -881,6 +916,14 @@ func (g *jsiiProxy_GoogleRuntimeconfigConfig) OverrideLogicalId(newLogicalId *st
 		g,
 		"overrideLogicalId",
 		[]interface{}{newLogicalId},
+	)
+}
+
+func (g *jsiiProxy_GoogleRuntimeconfigConfig) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

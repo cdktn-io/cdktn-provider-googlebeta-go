@@ -111,6 +111,10 @@ func (j *jsiiProxy_GoogleEventarcEnrollment) validateSetCountParameters(val inte
 	return nil
 }
 
+func (j *jsiiProxy_GoogleEventarcEnrollment) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleEventarcEnrollment) validateSetDestinationParameters(val *string) error {
 	return nil
 }

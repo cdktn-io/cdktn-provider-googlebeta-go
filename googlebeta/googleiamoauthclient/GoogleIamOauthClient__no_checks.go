@@ -119,6 +119,10 @@ func (j *jsiiProxy_GoogleIamOauthClient) validateSetCountParameters(val interfac
 	return nil
 }
 
+func (j *jsiiProxy_GoogleIamOauthClient) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleIamOauthClient) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

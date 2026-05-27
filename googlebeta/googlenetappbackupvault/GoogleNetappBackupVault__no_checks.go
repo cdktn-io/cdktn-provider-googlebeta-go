@@ -115,6 +115,10 @@ func (j *jsiiProxy_GoogleNetappBackupVault) validateSetCountParameters(val inter
 	return nil
 }
 
+func (j *jsiiProxy_GoogleNetappBackupVault) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleNetappBackupVault) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

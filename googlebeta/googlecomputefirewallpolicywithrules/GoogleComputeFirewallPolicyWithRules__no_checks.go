@@ -107,6 +107,10 @@ func (j *jsiiProxy_GoogleComputeFirewallPolicyWithRules) validateSetCountParamet
 	return nil
 }
 
+func (j *jsiiProxy_GoogleComputeFirewallPolicyWithRules) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleComputeFirewallPolicyWithRules) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

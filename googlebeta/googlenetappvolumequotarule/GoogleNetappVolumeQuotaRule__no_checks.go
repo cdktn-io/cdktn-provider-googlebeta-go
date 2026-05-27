@@ -103,6 +103,10 @@ func (j *jsiiProxy_GoogleNetappVolumeQuotaRule) validateSetCountParameters(val i
 	return nil
 }
 
+func (j *jsiiProxy_GoogleNetappVolumeQuotaRule) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleNetappVolumeQuotaRule) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

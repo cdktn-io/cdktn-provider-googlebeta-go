@@ -103,6 +103,10 @@ func (j *jsiiProxy_GoogleMonitoringGroup) validateSetCountParameters(val interfa
 	return nil
 }
 
+func (j *jsiiProxy_GoogleMonitoringGroup) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleMonitoringGroup) validateSetDisplayNameParameters(val *string) error {
 	return nil
 }

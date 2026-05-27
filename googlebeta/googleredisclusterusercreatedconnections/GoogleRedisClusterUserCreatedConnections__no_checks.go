@@ -107,6 +107,10 @@ func (j *jsiiProxy_GoogleRedisClusterUserCreatedConnections) validateSetCountPar
 	return nil
 }
 
+func (j *jsiiProxy_GoogleRedisClusterUserCreatedConnections) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleRedisClusterUserCreatedConnections) validateSetIdParameters(val *string) error {
 	return nil
 }

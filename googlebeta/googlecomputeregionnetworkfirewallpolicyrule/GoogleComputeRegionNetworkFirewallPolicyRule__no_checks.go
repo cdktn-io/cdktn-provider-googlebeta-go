@@ -115,6 +115,10 @@ func (j *jsiiProxy_GoogleComputeRegionNetworkFirewallPolicyRule) validateSetCoun
 	return nil
 }
 
+func (j *jsiiProxy_GoogleComputeRegionNetworkFirewallPolicyRule) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleComputeRegionNetworkFirewallPolicyRule) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

@@ -107,6 +107,10 @@ func (j *jsiiProxy_GoogleNetworkConnectivityDestination) validateSetCountParamet
 	return nil
 }
 
+func (j *jsiiProxy_GoogleNetworkConnectivityDestination) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleNetworkConnectivityDestination) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_target_tcp_proxy google_compute_region_target_tcp_proxy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_target_tcp_proxy google_compute_region_target_tcp_proxy}.
 type GoogleComputeRegionTargetTcpProxy interface {
 	cdktn.TerraformResource
 	BackendService() *string
@@ -31,6 +31,9 @@ type GoogleComputeRegionTargetTcpProxy interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreationTimestamp() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -138,6 +141,7 @@ type GoogleComputeRegionTargetTcpProxy interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *GoogleComputeRegionTargetTcpProxyTimeouts)
 	ResetBackendService()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	ResetLoadBalancingScheme()
@@ -241,6 +245,26 @@ func (j *jsiiProxy_GoogleComputeRegionTargetTcpProxy) CreationTimestamp() *strin
 	_jsii_.Get(
 		j,
 		"creationTimestamp",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeRegionTargetTcpProxy) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeRegionTargetTcpProxy) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -567,7 +591,7 @@ func (j *jsiiProxy_GoogleComputeRegionTargetTcpProxy) TimeoutsInput() interface{
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_target_tcp_proxy google_compute_region_target_tcp_proxy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_target_tcp_proxy google_compute_region_target_tcp_proxy} Resource.
 func NewGoogleComputeRegionTargetTcpProxy(scope constructs.Construct, id *string, config *GoogleComputeRegionTargetTcpProxyConfig) GoogleComputeRegionTargetTcpProxy {
 	_init_.Initialize()
 
@@ -585,7 +609,7 @@ func NewGoogleComputeRegionTargetTcpProxy(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_target_tcp_proxy google_compute_region_target_tcp_proxy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_target_tcp_proxy google_compute_region_target_tcp_proxy} Resource.
 func NewGoogleComputeRegionTargetTcpProxy_Override(g GoogleComputeRegionTargetTcpProxy, scope constructs.Construct, id *string, config *GoogleComputeRegionTargetTcpProxyConfig) {
 	_init_.Initialize()
 
@@ -625,6 +649,17 @@ func (j *jsiiProxy_GoogleComputeRegionTargetTcpProxy)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleComputeRegionTargetTcpProxy)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1131,6 +1166,14 @@ func (g *jsiiProxy_GoogleComputeRegionTargetTcpProxy) ResetBackendService() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetBackendService",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleComputeRegionTargetTcpProxy) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

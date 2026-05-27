@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_pubsub_topic google_pubsub_topic}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/data-sources/google_pubsub_topic google_pubsub_topic}.
 type DataGooglePubsubTopic interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -23,6 +23,7 @@ type DataGooglePubsubTopic interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -155,6 +156,16 @@ func (j *jsiiProxy_DataGooglePubsubTopic) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGooglePubsubTopic) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
 		&returns,
 	)
 	return returns
@@ -431,7 +442,7 @@ func (j *jsiiProxy_DataGooglePubsubTopic) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_pubsub_topic google_pubsub_topic} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/data-sources/google_pubsub_topic google_pubsub_topic} Data Source.
 func NewDataGooglePubsubTopic(scope constructs.Construct, id *string, config *DataGooglePubsubTopicConfig) DataGooglePubsubTopic {
 	_init_.Initialize()
 
@@ -449,7 +460,7 @@ func NewDataGooglePubsubTopic(scope constructs.Construct, id *string, config *Da
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_pubsub_topic google_pubsub_topic} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/data-sources/google_pubsub_topic google_pubsub_topic} Data Source.
 func NewDataGooglePubsubTopic_Override(d DataGooglePubsubTopic, scope constructs.Construct, id *string, config *DataGooglePubsubTopicConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_identity_platform_tenant google_identity_platform_tenant}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_identity_platform_tenant google_identity_platform_tenant}.
 type GoogleIdentityPlatformTenant interface {
 	cdktn.TerraformResource
 	AllowPasswordSignup() interface{}
@@ -32,6 +32,9 @@ type GoogleIdentityPlatformTenant interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -131,6 +134,7 @@ type GoogleIdentityPlatformTenant interface {
 	PutTimeouts(value *GoogleIdentityPlatformTenantTimeouts)
 	ResetAllowPasswordSignup()
 	ResetClient()
+	ResetDeletionPolicy()
 	ResetDisableAuth()
 	ResetEnableEmailLinkSignin()
 	ResetId()
@@ -241,6 +245,26 @@ func (j *jsiiProxy_GoogleIdentityPlatformTenant) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleIdentityPlatformTenant) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleIdentityPlatformTenant) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -497,7 +521,7 @@ func (j *jsiiProxy_GoogleIdentityPlatformTenant) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_identity_platform_tenant google_identity_platform_tenant} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_identity_platform_tenant google_identity_platform_tenant} Resource.
 func NewGoogleIdentityPlatformTenant(scope constructs.Construct, id *string, config *GoogleIdentityPlatformTenantConfig) GoogleIdentityPlatformTenant {
 	_init_.Initialize()
 
@@ -515,7 +539,7 @@ func NewGoogleIdentityPlatformTenant(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_identity_platform_tenant google_identity_platform_tenant} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_identity_platform_tenant google_identity_platform_tenant} Resource.
 func NewGoogleIdentityPlatformTenant_Override(g GoogleIdentityPlatformTenant, scope constructs.Construct, id *string, config *GoogleIdentityPlatformTenantConfig) {
 	_init_.Initialize()
 
@@ -555,6 +579,17 @@ func (j *jsiiProxy_GoogleIdentityPlatformTenant)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleIdentityPlatformTenant)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1047,6 +1082,14 @@ func (g *jsiiProxy_GoogleIdentityPlatformTenant) ResetClient() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetClient",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleIdentityPlatformTenant) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

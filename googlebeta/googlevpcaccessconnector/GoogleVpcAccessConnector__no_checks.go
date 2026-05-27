@@ -107,6 +107,10 @@ func (j *jsiiProxy_GoogleVpcAccessConnector) validateSetCountParameters(val inte
 	return nil
 }
 
+func (j *jsiiProxy_GoogleVpcAccessConnector) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleVpcAccessConnector) validateSetIdParameters(val *string) error {
 	return nil
 }

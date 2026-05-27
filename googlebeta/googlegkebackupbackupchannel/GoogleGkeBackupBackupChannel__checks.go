@@ -348,6 +348,14 @@ func (j *jsiiProxy_GoogleGkeBackupBackupChannel) validateSetCountParameters(val 
 	return nil
 }
 
+func (j *jsiiProxy_GoogleGkeBackupBackupChannel) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_GoogleGkeBackupBackupChannel) validateSetDescriptionParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

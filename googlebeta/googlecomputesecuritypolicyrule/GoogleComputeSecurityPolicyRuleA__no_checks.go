@@ -127,6 +127,10 @@ func (j *jsiiProxy_GoogleComputeSecurityPolicyRuleA) validateSetCountParameters(
 	return nil
 }
 
+func (j *jsiiProxy_GoogleComputeSecurityPolicyRuleA) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleComputeSecurityPolicyRuleA) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

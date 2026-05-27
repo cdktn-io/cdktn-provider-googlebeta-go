@@ -107,6 +107,10 @@ func (j *jsiiProxy_GoogleFirebaseHostingSite) validateSetCountParameters(val int
 	return nil
 }
 
+func (j *jsiiProxy_GoogleFirebaseHostingSite) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleFirebaseHostingSite) validateSetIdParameters(val *string) error {
 	return nil
 }

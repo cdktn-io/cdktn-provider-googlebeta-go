@@ -115,6 +115,10 @@ func (j *jsiiProxy_GoogleChronicleNativeDashboard) validateSetCountParameters(va
 	return nil
 }
 
+func (j *jsiiProxy_GoogleChronicleNativeDashboard) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleChronicleNativeDashboard) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

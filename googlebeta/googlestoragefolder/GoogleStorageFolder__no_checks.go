@@ -107,6 +107,10 @@ func (j *jsiiProxy_GoogleStorageFolder) validateSetCountParameters(val interface
 	return nil
 }
 
+func (j *jsiiProxy_GoogleStorageFolder) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleStorageFolder) validateSetForceDestroyParameters(val interface{}) error {
 	return nil
 }

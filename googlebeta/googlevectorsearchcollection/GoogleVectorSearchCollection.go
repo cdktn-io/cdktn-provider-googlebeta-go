@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vector_search_collection google_vector_search_collection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vector_search_collection google_vector_search_collection}.
 type GoogleVectorSearchCollection interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -34,6 +34,9 @@ type GoogleVectorSearchCollection interface {
 	DataSchema() *string
 	SetDataSchema(val *string)
 	DataSchemaInput() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -143,6 +146,7 @@ type GoogleVectorSearchCollection interface {
 	PutTimeouts(value *GoogleVectorSearchCollectionTimeouts)
 	PutVectorSchema(value interface{})
 	ResetDataSchema()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetDisplayName()
 	ResetEncryptionSpec()
@@ -266,6 +270,26 @@ func (j *jsiiProxy_GoogleVectorSearchCollection) DataSchemaInput() *string {
 	_jsii_.Get(
 		j,
 		"dataSchemaInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleVectorSearchCollection) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleVectorSearchCollection) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -612,7 +636,7 @@ func (j *jsiiProxy_GoogleVectorSearchCollection) VectorSchemaInput() interface{}
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vector_search_collection google_vector_search_collection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vector_search_collection google_vector_search_collection} Resource.
 func NewGoogleVectorSearchCollection(scope constructs.Construct, id *string, config *GoogleVectorSearchCollectionConfig) GoogleVectorSearchCollection {
 	_init_.Initialize()
 
@@ -630,7 +654,7 @@ func NewGoogleVectorSearchCollection(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vector_search_collection google_vector_search_collection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vector_search_collection google_vector_search_collection} Resource.
 func NewGoogleVectorSearchCollection_Override(g GoogleVectorSearchCollection, scope constructs.Construct, id *string, config *GoogleVectorSearchCollectionConfig) {
 	_init_.Initialize()
 
@@ -681,6 +705,17 @@ func (j *jsiiProxy_GoogleVectorSearchCollection)SetDataSchema(val *string) {
 	_jsii_.Set(
 		j,
 		"dataSchema",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleVectorSearchCollection)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1187,6 +1222,14 @@ func (g *jsiiProxy_GoogleVectorSearchCollection) ResetDataSchema() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetDataSchema",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleVectorSearchCollection) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

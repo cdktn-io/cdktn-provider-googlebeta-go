@@ -391,6 +391,14 @@ func (j *jsiiProxy_GoogleOracleDatabaseCloudVmCluster) validateSetCountParameter
 	return nil
 }
 
+func (j *jsiiProxy_GoogleOracleDatabaseCloudVmCluster) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_GoogleOracleDatabaseCloudVmCluster) validateSetDeletionProtectionParameters(val interface{}) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

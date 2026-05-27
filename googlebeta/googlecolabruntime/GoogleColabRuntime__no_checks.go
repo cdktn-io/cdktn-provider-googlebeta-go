@@ -111,6 +111,10 @@ func (j *jsiiProxy_GoogleColabRuntime) validateSetCountParameters(val interface{
 	return nil
 }
 
+func (j *jsiiProxy_GoogleColabRuntime) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleColabRuntime) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

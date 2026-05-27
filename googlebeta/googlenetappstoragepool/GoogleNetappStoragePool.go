@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_storage_pool google_netapp_storage_pool}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_storage_pool google_netapp_storage_pool}.
 type GoogleNetappStoragePool interface {
 	cdktn.TerraformResource
 	ActiveDirectory() *string
@@ -41,6 +41,9 @@ type GoogleNetappStoragePool interface {
 	CustomPerformanceEnabled() interface{}
 	SetCustomPerformanceEnabled(val interface{})
 	CustomPerformanceEnabledInput() interface{}
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -193,6 +196,7 @@ type GoogleNetappStoragePool interface {
 	ResetActiveDirectory()
 	ResetAllowAutoTiering()
 	ResetCustomPerformanceEnabled()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetEnableHotTierAutoResize()
 	ResetHotTierSizeGib()
@@ -376,6 +380,26 @@ func (j *jsiiProxy_GoogleNetappStoragePool) CustomPerformanceEnabledInput() inte
 	_jsii_.Get(
 		j,
 		"customPerformanceEnabledInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleNetappStoragePool) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleNetappStoragePool) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -1002,7 +1026,7 @@ func (j *jsiiProxy_GoogleNetappStoragePool) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_storage_pool google_netapp_storage_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_storage_pool google_netapp_storage_pool} Resource.
 func NewGoogleNetappStoragePool(scope constructs.Construct, id *string, config *GoogleNetappStoragePoolConfig) GoogleNetappStoragePool {
 	_init_.Initialize()
 
@@ -1020,7 +1044,7 @@ func NewGoogleNetappStoragePool(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_storage_pool google_netapp_storage_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_storage_pool google_netapp_storage_pool} Resource.
 func NewGoogleNetappStoragePool_Override(g GoogleNetappStoragePool, scope constructs.Construct, id *string, config *GoogleNetappStoragePoolConfig) {
 	_init_.Initialize()
 
@@ -1093,6 +1117,17 @@ func (j *jsiiProxy_GoogleNetappStoragePool)SetCustomPerformanceEnabled(val inter
 	_jsii_.Set(
 		j,
 		"customPerformanceEnabled",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleNetappStoragePool)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1758,6 +1793,14 @@ func (g *jsiiProxy_GoogleNetappStoragePool) ResetCustomPerformanceEnabled() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetCustomPerformanceEnabled",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleNetappStoragePool) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

@@ -348,6 +348,14 @@ func (j *jsiiProxy_GoogleApigeeSharedflowDeployment) validateSetCountParameters(
 	return nil
 }
 
+func (j *jsiiProxy_GoogleApigeeSharedflowDeployment) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_GoogleApigeeSharedflowDeployment) validateSetEnvironmentParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

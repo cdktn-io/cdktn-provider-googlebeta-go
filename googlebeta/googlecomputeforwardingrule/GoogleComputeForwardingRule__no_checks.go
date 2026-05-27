@@ -123,6 +123,10 @@ func (j *jsiiProxy_GoogleComputeForwardingRule) validateSetCountParameters(val i
 	return nil
 }
 
+func (j *jsiiProxy_GoogleComputeForwardingRule) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleComputeForwardingRule) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

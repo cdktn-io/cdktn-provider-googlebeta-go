@@ -135,6 +135,10 @@ func (j *jsiiProxy_GoogleDiscoveryEngineControl) validateSetCountParameters(val 
 	return nil
 }
 
+func (j *jsiiProxy_GoogleDiscoveryEngineControl) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleDiscoveryEngineControl) validateSetDisplayNameParameters(val *string) error {
 	return nil
 }

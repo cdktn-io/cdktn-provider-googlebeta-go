@@ -370,6 +370,14 @@ func (j *jsiiProxy_GoogleComputeMachineImage) validateSetCountParameters(val int
 	return nil
 }
 
+func (j *jsiiProxy_GoogleComputeMachineImage) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_GoogleComputeMachineImage) validateSetDescriptionParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

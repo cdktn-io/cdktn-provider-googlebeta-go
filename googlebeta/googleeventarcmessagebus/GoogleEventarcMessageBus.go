@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_eventarc_message_bus google_eventarc_message_bus}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_eventarc_message_bus google_eventarc_message_bus}.
 type GoogleEventarcMessageBus interface {
 	cdktn.TerraformResource
 	Annotations() *map[string]*string
@@ -34,6 +34,9 @@ type GoogleEventarcMessageBus interface {
 	CryptoKeyName() *string
 	SetCryptoKeyName(val *string)
 	CryptoKeyNameInput() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -144,6 +147,7 @@ type GoogleEventarcMessageBus interface {
 	PutTimeouts(value *GoogleEventarcMessageBusTimeouts)
 	ResetAnnotations()
 	ResetCryptoKeyName()
+	ResetDeletionPolicy()
 	ResetDisplayName()
 	ResetId()
 	ResetLabels()
@@ -265,6 +269,26 @@ func (j *jsiiProxy_GoogleEventarcMessageBus) CryptoKeyNameInput() *string {
 	_jsii_.Get(
 		j,
 		"cryptoKeyNameInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleEventarcMessageBus) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleEventarcMessageBus) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -621,7 +645,7 @@ func (j *jsiiProxy_GoogleEventarcMessageBus) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_eventarc_message_bus google_eventarc_message_bus} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_eventarc_message_bus google_eventarc_message_bus} Resource.
 func NewGoogleEventarcMessageBus(scope constructs.Construct, id *string, config *GoogleEventarcMessageBusConfig) GoogleEventarcMessageBus {
 	_init_.Initialize()
 
@@ -639,7 +663,7 @@ func NewGoogleEventarcMessageBus(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_eventarc_message_bus google_eventarc_message_bus} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_eventarc_message_bus google_eventarc_message_bus} Resource.
 func NewGoogleEventarcMessageBus_Override(g GoogleEventarcMessageBus, scope constructs.Construct, id *string, config *GoogleEventarcMessageBusConfig) {
 	_init_.Initialize()
 
@@ -690,6 +714,17 @@ func (j *jsiiProxy_GoogleEventarcMessageBus)SetCryptoKeyName(val *string) {
 	_jsii_.Set(
 		j,
 		"cryptoKeyName",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleEventarcMessageBus)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1193,6 +1228,14 @@ func (g *jsiiProxy_GoogleEventarcMessageBus) ResetCryptoKeyName() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetCryptoKeyName",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleEventarcMessageBus) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

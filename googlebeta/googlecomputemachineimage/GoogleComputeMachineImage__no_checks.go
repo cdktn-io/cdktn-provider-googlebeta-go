@@ -111,6 +111,10 @@ func (j *jsiiProxy_GoogleComputeMachineImage) validateSetCountParameters(val int
 	return nil
 }
 
+func (j *jsiiProxy_GoogleComputeMachineImage) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleComputeMachineImage) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

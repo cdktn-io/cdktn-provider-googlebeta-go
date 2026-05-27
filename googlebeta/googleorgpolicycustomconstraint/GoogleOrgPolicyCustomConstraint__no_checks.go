@@ -111,6 +111,10 @@ func (j *jsiiProxy_GoogleOrgPolicyCustomConstraint) validateSetCountParameters(v
 	return nil
 }
 
+func (j *jsiiProxy_GoogleOrgPolicyCustomConstraint) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleOrgPolicyCustomConstraint) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

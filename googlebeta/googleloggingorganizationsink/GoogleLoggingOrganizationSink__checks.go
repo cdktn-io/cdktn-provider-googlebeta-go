@@ -379,6 +379,14 @@ func (j *jsiiProxy_GoogleLoggingOrganizationSink) validateSetCountParameters(val
 	return nil
 }
 
+func (j *jsiiProxy_GoogleLoggingOrganizationSink) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_GoogleLoggingOrganizationSink) validateSetDescriptionParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

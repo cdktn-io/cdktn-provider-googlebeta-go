@@ -79,6 +79,10 @@ func (j *jsiiProxy_GoogleHypercomputeclusterClusterStorageResourcesConfigNewLust
 	return nil
 }
 
+func (j *jsiiProxy_GoogleHypercomputeclusterClusterStorageResourcesConfigNewLustreOutputReference) validateSetPerUnitStorageThroughputParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleHypercomputeclusterClusterStorageResourcesConfigNewLustreOutputReference) validateSetTerraformAttributeParameters(val *string) error {
 	return nil
 }

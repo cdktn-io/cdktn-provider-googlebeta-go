@@ -27,6 +27,8 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "constructNodeMetadata", GoGetter: "ConstructNodeMetadata"},
 			_jsii_.MemberProperty{JsiiProperty: "count", GoGetter: "Count"},
 			_jsii_.MemberProperty{JsiiProperty: "createTime", GoGetter: "CreateTime"},
+			_jsii_.MemberProperty{JsiiProperty: "deletionPolicy", GoGetter: "DeletionPolicy"},
+			_jsii_.MemberProperty{JsiiProperty: "deletionPolicyInput", GoGetter: "DeletionPolicyInput"},
 			_jsii_.MemberProperty{JsiiProperty: "dependsOn", GoGetter: "DependsOn"},
 			_jsii_.MemberProperty{JsiiProperty: "displayName", GoGetter: "DisplayName"},
 			_jsii_.MemberProperty{JsiiProperty: "displayNameInput", GoGetter: "DisplayNameInput"},
@@ -64,6 +66,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "putChannelProfile", GoMethod: "PutChannelProfile"},
 			_jsii_.MemberMethod{JsiiMethod: "putTimeouts", GoMethod: "PutTimeouts"},
 			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
+			_jsii_.MemberMethod{JsiiMethod: "resetDeletionPolicy", GoMethod: "ResetDeletionPolicy"},
 			_jsii_.MemberMethod{JsiiMethod: "resetId", GoMethod: "ResetId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetProject", GoMethod: "ResetProject"},
@@ -210,10 +213,14 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
 			_jsii_.MemberProperty{JsiiProperty: "modality", GoGetter: "Modality"},
 			_jsii_.MemberProperty{JsiiProperty: "modalityInput", GoGetter: "ModalityInput"},
+			_jsii_.MemberMethod{JsiiMethod: "putSecuritySettings", GoMethod: "PutSecuritySettings"},
 			_jsii_.MemberMethod{JsiiMethod: "resetModality", GoMethod: "ResetModality"},
+			_jsii_.MemberMethod{JsiiMethod: "resetSecuritySettings", GoMethod: "ResetSecuritySettings"},
 			_jsii_.MemberMethod{JsiiMethod: "resetTheme", GoMethod: "ResetTheme"},
 			_jsii_.MemberMethod{JsiiMethod: "resetWebWidgetTitle", GoMethod: "ResetWebWidgetTitle"},
 			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "securitySettings", GoGetter: "SecuritySettings"},
+			_jsii_.MemberProperty{JsiiProperty: "securitySettingsInput", GoGetter: "SecuritySettingsInput"},
 			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
 			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
 			_jsii_.MemberProperty{JsiiProperty: "theme", GoGetter: "Theme"},
@@ -224,6 +231,54 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GoogleCesDeploymentChannelProfileWebWidgetConfigOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-google-beta.googleCesDeployment.GoogleCesDeploymentChannelProfileWebWidgetConfigSecuritySettings",
+		reflect.TypeOf((*GoogleCesDeploymentChannelProfileWebWidgetConfigSecuritySettings)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-google-beta.googleCesDeployment.GoogleCesDeploymentChannelProfileWebWidgetConfigSecuritySettingsOutputReference",
+		reflect.TypeOf((*GoogleCesDeploymentChannelProfileWebWidgetConfigSecuritySettingsOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "allowedOrigins", GoGetter: "AllowedOrigins"},
+			_jsii_.MemberProperty{JsiiProperty: "allowedOriginsInput", GoGetter: "AllowedOriginsInput"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "enableOriginCheck", GoGetter: "EnableOriginCheck"},
+			_jsii_.MemberProperty{JsiiProperty: "enableOriginCheckInput", GoGetter: "EnableOriginCheckInput"},
+			_jsii_.MemberProperty{JsiiProperty: "enablePublicAccess", GoGetter: "EnablePublicAccess"},
+			_jsii_.MemberProperty{JsiiProperty: "enablePublicAccessInput", GoGetter: "EnablePublicAccessInput"},
+			_jsii_.MemberProperty{JsiiProperty: "enableRecaptcha", GoGetter: "EnableRecaptcha"},
+			_jsii_.MemberProperty{JsiiProperty: "enableRecaptchaInput", GoGetter: "EnableRecaptchaInput"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "resetAllowedOrigins", GoMethod: "ResetAllowedOrigins"},
+			_jsii_.MemberMethod{JsiiMethod: "resetEnableOriginCheck", GoMethod: "ResetEnableOriginCheck"},
+			_jsii_.MemberMethod{JsiiMethod: "resetEnablePublicAccess", GoMethod: "ResetEnablePublicAccess"},
+			_jsii_.MemberMethod{JsiiMethod: "resetEnableRecaptcha", GoMethod: "ResetEnableRecaptcha"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_GoogleCesDeploymentChannelProfileWebWidgetConfigSecuritySettingsOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},

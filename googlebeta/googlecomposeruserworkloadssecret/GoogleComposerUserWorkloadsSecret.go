@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_composer_user_workloads_secret google_composer_user_workloads_secret}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_composer_user_workloads_secret google_composer_user_workloads_secret}.
 type GoogleComposerUserWorkloadsSecret interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -30,6 +30,9 @@ type GoogleComposerUserWorkloadsSecret interface {
 	Data() *map[string]*string
 	SetData(val *map[string]*string)
 	DataInput() *map[string]*string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -126,6 +129,7 @@ type GoogleComposerUserWorkloadsSecret interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *GoogleComposerUserWorkloadsSecretTimeouts)
 	ResetData()
+	ResetDeletionPolicy()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -215,6 +219,26 @@ func (j *jsiiProxy_GoogleComposerUserWorkloadsSecret) DataInput() *map[string]*s
 	_jsii_.Get(
 		j,
 		"dataInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComposerUserWorkloadsSecret) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComposerUserWorkloadsSecret) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -461,7 +485,7 @@ func (j *jsiiProxy_GoogleComposerUserWorkloadsSecret) TimeoutsInput() interface{
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_composer_user_workloads_secret google_composer_user_workloads_secret} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_composer_user_workloads_secret google_composer_user_workloads_secret} Resource.
 func NewGoogleComposerUserWorkloadsSecret(scope constructs.Construct, id *string, config *GoogleComposerUserWorkloadsSecretConfig) GoogleComposerUserWorkloadsSecret {
 	_init_.Initialize()
 
@@ -479,7 +503,7 @@ func NewGoogleComposerUserWorkloadsSecret(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_composer_user_workloads_secret google_composer_user_workloads_secret} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_composer_user_workloads_secret google_composer_user_workloads_secret} Resource.
 func NewGoogleComposerUserWorkloadsSecret_Override(g GoogleComposerUserWorkloadsSecret, scope constructs.Construct, id *string, config *GoogleComposerUserWorkloadsSecretConfig) {
 	_init_.Initialize()
 
@@ -519,6 +543,17 @@ func (j *jsiiProxy_GoogleComposerUserWorkloadsSecret)SetData(val *map[string]*st
 	_jsii_.Set(
 		j,
 		"data",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleComposerUserWorkloadsSecret)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -992,6 +1027,14 @@ func (g *jsiiProxy_GoogleComposerUserWorkloadsSecret) ResetData() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetData",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleComposerUserWorkloadsSecret) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

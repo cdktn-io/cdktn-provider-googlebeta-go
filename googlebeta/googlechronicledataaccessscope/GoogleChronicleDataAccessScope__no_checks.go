@@ -119,6 +119,10 @@ func (j *jsiiProxy_GoogleChronicleDataAccessScope) validateSetDataAccessScopeIdP
 	return nil
 }
 
+func (j *jsiiProxy_GoogleChronicleDataAccessScope) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleChronicleDataAccessScope) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

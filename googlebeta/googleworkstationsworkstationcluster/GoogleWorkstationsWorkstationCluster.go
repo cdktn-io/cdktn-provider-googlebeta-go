@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_workstations_workstation_cluster google_workstations_workstation_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_workstations_workstation_cluster google_workstations_workstation_cluster}.
 type GoogleWorkstationsWorkstationCluster interface {
 	cdktn.TerraformResource
 	Annotations() *map[string]*string
@@ -34,6 +34,9 @@ type GoogleWorkstationsWorkstationCluster interface {
 	SetCount(val interface{})
 	CreateTime() *string
 	Degraded() cdktn.IResolvable
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -104,9 +107,15 @@ type GoogleWorkstationsWorkstationCluster interface {
 	Timeouts() GoogleWorkstationsWorkstationClusterTimeoutsOutputReference
 	TimeoutsInput() interface{}
 	Uid() *string
+	WorkstationAuthorizationUrl() *string
+	SetWorkstationAuthorizationUrl(val *string)
+	WorkstationAuthorizationUrlInput() *string
 	WorkstationClusterId() *string
 	SetWorkstationClusterId(val *string)
 	WorkstationClusterIdInput() *string
+	WorkstationLaunchUrl() *string
+	SetWorkstationLaunchUrl(val *string)
+	WorkstationLaunchUrlInput() *string
 	// Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
 	// Experimental.
 	AddMoveTarget(moveTarget *string)
@@ -154,6 +163,7 @@ type GoogleWorkstationsWorkstationCluster interface {
 	PutPrivateClusterConfig(value *GoogleWorkstationsWorkstationClusterPrivateClusterConfig)
 	PutTimeouts(value *GoogleWorkstationsWorkstationClusterTimeouts)
 	ResetAnnotations()
+	ResetDeletionPolicy()
 	ResetDisplayName()
 	ResetDomainConfig()
 	ResetId()
@@ -166,6 +176,8 @@ type GoogleWorkstationsWorkstationCluster interface {
 	ResetProject()
 	ResetTags()
 	ResetTimeouts()
+	ResetWorkstationAuthorizationUrl()
+	ResetWorkstationLaunchUrl()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
 	// Experimental.
@@ -288,6 +300,26 @@ func (j *jsiiProxy_GoogleWorkstationsWorkstationCluster) Degraded() cdktn.IResol
 	_jsii_.Get(
 		j,
 		"degraded",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleWorkstationsWorkstationCluster) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleWorkstationsWorkstationCluster) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -693,6 +725,26 @@ func (j *jsiiProxy_GoogleWorkstationsWorkstationCluster) Uid() *string {
 	return returns
 }
 
+func (j *jsiiProxy_GoogleWorkstationsWorkstationCluster) WorkstationAuthorizationUrl() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"workstationAuthorizationUrl",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleWorkstationsWorkstationCluster) WorkstationAuthorizationUrlInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"workstationAuthorizationUrlInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleWorkstationsWorkstationCluster) WorkstationClusterId() *string {
 	var returns *string
 	_jsii_.Get(
@@ -713,8 +765,28 @@ func (j *jsiiProxy_GoogleWorkstationsWorkstationCluster) WorkstationClusterIdInp
 	return returns
 }
 
+func (j *jsiiProxy_GoogleWorkstationsWorkstationCluster) WorkstationLaunchUrl() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"workstationLaunchUrl",
+		&returns,
+	)
+	return returns
+}
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_workstations_workstation_cluster google_workstations_workstation_cluster} Resource.
+func (j *jsiiProxy_GoogleWorkstationsWorkstationCluster) WorkstationLaunchUrlInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"workstationLaunchUrlInput",
+		&returns,
+	)
+	return returns
+}
+
+
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_workstations_workstation_cluster google_workstations_workstation_cluster} Resource.
 func NewGoogleWorkstationsWorkstationCluster(scope constructs.Construct, id *string, config *GoogleWorkstationsWorkstationClusterConfig) GoogleWorkstationsWorkstationCluster {
 	_init_.Initialize()
 
@@ -732,7 +804,7 @@ func NewGoogleWorkstationsWorkstationCluster(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_workstations_workstation_cluster google_workstations_workstation_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_workstations_workstation_cluster google_workstations_workstation_cluster} Resource.
 func NewGoogleWorkstationsWorkstationCluster_Override(g GoogleWorkstationsWorkstationCluster, scope constructs.Construct, id *string, config *GoogleWorkstationsWorkstationClusterConfig) {
 	_init_.Initialize()
 
@@ -772,6 +844,17 @@ func (j *jsiiProxy_GoogleWorkstationsWorkstationCluster)SetCount(val interface{}
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleWorkstationsWorkstationCluster)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -910,6 +993,17 @@ func (j *jsiiProxy_GoogleWorkstationsWorkstationCluster)SetTags(val *map[string]
 	)
 }
 
+func (j *jsiiProxy_GoogleWorkstationsWorkstationCluster)SetWorkstationAuthorizationUrl(val *string) {
+	if err := j.validateSetWorkstationAuthorizationUrlParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"workstationAuthorizationUrl",
+		val,
+	)
+}
+
 func (j *jsiiProxy_GoogleWorkstationsWorkstationCluster)SetWorkstationClusterId(val *string) {
 	if err := j.validateSetWorkstationClusterIdParameters(val); err != nil {
 		panic(err)
@@ -917,6 +1011,17 @@ func (j *jsiiProxy_GoogleWorkstationsWorkstationCluster)SetWorkstationClusterId(
 	_jsii_.Set(
 		j,
 		"workstationClusterId",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleWorkstationsWorkstationCluster)SetWorkstationLaunchUrl(val *string) {
+	if err := j.validateSetWorkstationLaunchUrlParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"workstationLaunchUrl",
 		val,
 	)
 }
@@ -1315,6 +1420,14 @@ func (g *jsiiProxy_GoogleWorkstationsWorkstationCluster) ResetAnnotations() {
 	)
 }
 
+func (g *jsiiProxy_GoogleWorkstationsWorkstationCluster) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
+	)
+}
+
 func (g *jsiiProxy_GoogleWorkstationsWorkstationCluster) ResetDisplayName() {
 	_jsii_.InvokeVoid(
 		g,
@@ -1391,6 +1504,22 @@ func (g *jsiiProxy_GoogleWorkstationsWorkstationCluster) ResetTimeouts() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetTimeouts",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleWorkstationsWorkstationCluster) ResetWorkstationAuthorizationUrl() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetWorkstationAuthorizationUrl",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleWorkstationsWorkstationCluster) ResetWorkstationLaunchUrl() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetWorkstationLaunchUrl",
 		nil, // no parameters
 	)
 }

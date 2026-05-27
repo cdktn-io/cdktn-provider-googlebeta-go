@@ -107,6 +107,10 @@ func (j *jsiiProxy_GoogleComputeDiskAsyncReplication) validateSetCountParameters
 	return nil
 }
 
+func (j *jsiiProxy_GoogleComputeDiskAsyncReplication) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleComputeDiskAsyncReplication) validateSetIdParameters(val *string) error {
 	return nil
 }

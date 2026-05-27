@@ -119,6 +119,10 @@ func (j *jsiiProxy_GoogleHealthcareHl7V2Store) validateSetDatasetParameters(val 
 	return nil
 }
 
+func (j *jsiiProxy_GoogleHealthcareHl7V2Store) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleHealthcareHl7V2Store) validateSetIdParameters(val *string) error {
 	return nil
 }

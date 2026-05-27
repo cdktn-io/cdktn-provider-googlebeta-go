@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_data_pipeline_pipeline google_data_pipeline_pipeline}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_data_pipeline_pipeline google_data_pipeline_pipeline}.
 type GoogleDataPipelinePipeline interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -28,6 +28,9 @@ type GoogleDataPipelinePipeline interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -143,6 +146,7 @@ type GoogleDataPipelinePipeline interface {
 	PutScheduleInfo(value *GoogleDataPipelinePipelineScheduleInfo)
 	PutTimeouts(value *GoogleDataPipelinePipelineTimeouts)
 	PutWorkload(value *GoogleDataPipelinePipelineWorkload)
+	ResetDeletionPolicy()
 	ResetDisplayName()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -227,6 +231,26 @@ func (j *jsiiProxy_GoogleDataPipelinePipeline) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDataPipelinePipeline) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDataPipelinePipeline) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -613,7 +637,7 @@ func (j *jsiiProxy_GoogleDataPipelinePipeline) WorkloadInput() *GoogleDataPipeli
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_data_pipeline_pipeline google_data_pipeline_pipeline} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_data_pipeline_pipeline google_data_pipeline_pipeline} Resource.
 func NewGoogleDataPipelinePipeline(scope constructs.Construct, id *string, config *GoogleDataPipelinePipelineConfig) GoogleDataPipelinePipeline {
 	_init_.Initialize()
 
@@ -631,7 +655,7 @@ func NewGoogleDataPipelinePipeline(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_data_pipeline_pipeline google_data_pipeline_pipeline} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_data_pipeline_pipeline google_data_pipeline_pipeline} Resource.
 func NewGoogleDataPipelinePipeline_Override(g GoogleDataPipelinePipeline, scope constructs.Construct, id *string, config *GoogleDataPipelinePipelineConfig) {
 	_init_.Initialize()
 
@@ -660,6 +684,17 @@ func (j *jsiiProxy_GoogleDataPipelinePipeline)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleDataPipelinePipeline)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1192,6 +1227,14 @@ func (g *jsiiProxy_GoogleDataPipelinePipeline) PutWorkload(value *GoogleDataPipe
 		g,
 		"putWorkload",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleDataPipelinePipeline) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_colab_runtime_template google_colab_runtime_template}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_colab_runtime_template google_colab_runtime_template}.
 type GoogleColabRuntimeTemplate interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -29,6 +29,9 @@ type GoogleColabRuntimeTemplate interface {
 	SetCount(val interface{})
 	DataPersistentDiskSpec() GoogleColabRuntimeTemplateDataPersistentDiskSpecOutputReference
 	DataPersistentDiskSpecInput() *GoogleColabRuntimeTemplateDataPersistentDiskSpec
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -158,6 +161,7 @@ type GoogleColabRuntimeTemplate interface {
 	PutSoftwareConfig(value *GoogleColabRuntimeTemplateSoftwareConfig)
 	PutTimeouts(value *GoogleColabRuntimeTemplateTimeouts)
 	ResetDataPersistentDiskSpec()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetEncryptionSpec()
 	ResetEucConfig()
@@ -257,6 +261,26 @@ func (j *jsiiProxy_GoogleColabRuntimeTemplate) DataPersistentDiskSpecInput() *Go
 	_jsii_.Get(
 		j,
 		"dataPersistentDiskSpecInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleColabRuntimeTemplate) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleColabRuntimeTemplate) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -723,7 +747,7 @@ func (j *jsiiProxy_GoogleColabRuntimeTemplate) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_colab_runtime_template google_colab_runtime_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_colab_runtime_template google_colab_runtime_template} Resource.
 func NewGoogleColabRuntimeTemplate(scope constructs.Construct, id *string, config *GoogleColabRuntimeTemplateConfig) GoogleColabRuntimeTemplate {
 	_init_.Initialize()
 
@@ -741,7 +765,7 @@ func NewGoogleColabRuntimeTemplate(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_colab_runtime_template google_colab_runtime_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_colab_runtime_template google_colab_runtime_template} Resource.
 func NewGoogleColabRuntimeTemplate_Override(g GoogleColabRuntimeTemplate, scope constructs.Construct, id *string, config *GoogleColabRuntimeTemplateConfig) {
 	_init_.Initialize()
 
@@ -770,6 +794,17 @@ func (j *jsiiProxy_GoogleColabRuntimeTemplate)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleColabRuntimeTemplate)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1364,6 +1399,14 @@ func (g *jsiiProxy_GoogleColabRuntimeTemplate) ResetDataPersistentDiskSpec() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetDataPersistentDiskSpec",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleColabRuntimeTemplate) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

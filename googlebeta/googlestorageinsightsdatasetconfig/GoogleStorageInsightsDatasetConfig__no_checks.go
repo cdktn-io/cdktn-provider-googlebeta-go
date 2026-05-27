@@ -139,6 +139,10 @@ func (j *jsiiProxy_GoogleStorageInsightsDatasetConfig) validateSetDatasetConfigI
 	return nil
 }
 
+func (j *jsiiProxy_GoogleStorageInsightsDatasetConfig) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleStorageInsightsDatasetConfig) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

@@ -103,6 +103,10 @@ func (j *jsiiProxy_GoogleFilestoreBackup) validateSetCountParameters(val interfa
 	return nil
 }
 
+func (j *jsiiProxy_GoogleFilestoreBackup) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleFilestoreBackup) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

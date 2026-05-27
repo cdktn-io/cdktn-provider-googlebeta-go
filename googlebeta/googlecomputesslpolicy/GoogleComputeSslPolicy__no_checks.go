@@ -107,6 +107,10 @@ func (j *jsiiProxy_GoogleComputeSslPolicy) validateSetCustomFeaturesParameters(v
 	return nil
 }
 
+func (j *jsiiProxy_GoogleComputeSslPolicy) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleComputeSslPolicy) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

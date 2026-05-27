@@ -378,6 +378,14 @@ func (j *jsiiProxy_GoogleSecurityScannerScanConfig) validateSetCountParameters(v
 	return nil
 }
 
+func (j *jsiiProxy_GoogleSecurityScannerScanConfig) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_GoogleSecurityScannerScanConfig) validateSetDisplayNameParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloud_tasks_queue google_cloud_tasks_queue}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloud_tasks_queue google_cloud_tasks_queue}.
 type GoogleCloudTasksQueue interface {
 	cdktn.TerraformResource
 	AppEngineRoutingOverride() GoogleCloudTasksQueueAppEngineRoutingOverrideOutputReference
@@ -29,6 +29,9 @@ type GoogleCloudTasksQueue interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -139,6 +142,7 @@ type GoogleCloudTasksQueue interface {
 	PutStackdriverLoggingConfig(value *GoogleCloudTasksQueueStackdriverLoggingConfig)
 	PutTimeouts(value *GoogleCloudTasksQueueTimeouts)
 	ResetAppEngineRoutingOverride()
+	ResetDeletionPolicy()
 	ResetDesiredState()
 	ResetHttpTarget()
 	ResetId()
@@ -232,6 +236,26 @@ func (j *jsiiProxy_GoogleCloudTasksQueue) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCloudTasksQueue) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCloudTasksQueue) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -568,7 +592,7 @@ func (j *jsiiProxy_GoogleCloudTasksQueue) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloud_tasks_queue google_cloud_tasks_queue} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloud_tasks_queue google_cloud_tasks_queue} Resource.
 func NewGoogleCloudTasksQueue(scope constructs.Construct, id *string, config *GoogleCloudTasksQueueConfig) GoogleCloudTasksQueue {
 	_init_.Initialize()
 
@@ -586,7 +610,7 @@ func NewGoogleCloudTasksQueue(scope constructs.Construct, id *string, config *Go
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloud_tasks_queue google_cloud_tasks_queue} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloud_tasks_queue google_cloud_tasks_queue} Resource.
 func NewGoogleCloudTasksQueue_Override(g GoogleCloudTasksQueue, scope constructs.Construct, id *string, config *GoogleCloudTasksQueueConfig) {
 	_init_.Initialize()
 
@@ -615,6 +639,17 @@ func (j *jsiiProxy_GoogleCloudTasksQueue)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleCloudTasksQueue)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1143,6 +1178,14 @@ func (g *jsiiProxy_GoogleCloudTasksQueue) ResetAppEngineRoutingOverride() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetAppEngineRoutingOverride",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleCloudTasksQueue) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

@@ -107,6 +107,10 @@ func (j *jsiiProxy_GoogleWorkstationsWorkstation) validateSetCountParameters(val
 	return nil
 }
 
+func (j *jsiiProxy_GoogleWorkstationsWorkstation) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleWorkstationsWorkstation) validateSetDisplayNameParameters(val *string) error {
 	return nil
 }

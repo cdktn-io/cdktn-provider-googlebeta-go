@@ -123,6 +123,10 @@ func (j *jsiiProxy_GoogleApigeeSecurityAction) validateSetCountParameters(val in
 	return nil
 }
 
+func (j *jsiiProxy_GoogleApigeeSecurityAction) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleApigeeSecurityAction) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

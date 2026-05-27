@@ -103,6 +103,10 @@ func (j *jsiiProxy_GoogleNetworkServicesMesh) validateSetCountParameters(val int
 	return nil
 }
 
+func (j *jsiiProxy_GoogleNetworkServicesMesh) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleNetworkServicesMesh) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

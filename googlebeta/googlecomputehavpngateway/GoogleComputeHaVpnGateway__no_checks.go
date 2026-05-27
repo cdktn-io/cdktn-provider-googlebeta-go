@@ -111,6 +111,10 @@ func (j *jsiiProxy_GoogleComputeHaVpnGateway) validateSetCountParameters(val int
 	return nil
 }
 
+func (j *jsiiProxy_GoogleComputeHaVpnGateway) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleComputeHaVpnGateway) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

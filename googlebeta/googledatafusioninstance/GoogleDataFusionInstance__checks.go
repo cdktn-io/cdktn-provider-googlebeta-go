@@ -420,6 +420,14 @@ func (j *jsiiProxy_GoogleDataFusionInstance) validateSetDataprocServiceAccountPa
 	return nil
 }
 
+func (j *jsiiProxy_GoogleDataFusionInstance) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_GoogleDataFusionInstance) validateSetDescriptionParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

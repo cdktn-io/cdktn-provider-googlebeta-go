@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_target_pool google_compute_target_pool}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_target_pool google_compute_target_pool}.
 type GoogleComputeTargetPool interface {
 	cdktn.TerraformResource
 	BackupPool() *string
@@ -30,6 +30,9 @@ type GoogleComputeTargetPool interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -142,6 +145,7 @@ type GoogleComputeTargetPool interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *GoogleComputeTargetPoolTimeouts)
 	ResetBackupPool()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetFailoverRatio()
 	ResetHealthChecks()
@@ -237,6 +241,26 @@ func (j *jsiiProxy_GoogleComputeTargetPool) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeTargetPool) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeTargetPool) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -593,7 +617,7 @@ func (j *jsiiProxy_GoogleComputeTargetPool) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_target_pool google_compute_target_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_target_pool google_compute_target_pool} Resource.
 func NewGoogleComputeTargetPool(scope constructs.Construct, id *string, config *GoogleComputeTargetPoolConfig) GoogleComputeTargetPool {
 	_init_.Initialize()
 
@@ -611,7 +635,7 @@ func NewGoogleComputeTargetPool(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_target_pool google_compute_target_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_target_pool google_compute_target_pool} Resource.
 func NewGoogleComputeTargetPool_Override(g GoogleComputeTargetPool, scope constructs.Construct, id *string, config *GoogleComputeTargetPoolConfig) {
 	_init_.Initialize()
 
@@ -651,6 +675,17 @@ func (j *jsiiProxy_GoogleComputeTargetPool)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleComputeTargetPool)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1179,6 +1214,14 @@ func (g *jsiiProxy_GoogleComputeTargetPool) ResetBackupPool() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetBackupPool",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleComputeTargetPool) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

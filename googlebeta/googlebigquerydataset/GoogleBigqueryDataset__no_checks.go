@@ -139,6 +139,10 @@ func (j *jsiiProxy_GoogleBigqueryDataset) validateSetDeleteContentsOnDestroyPara
 	return nil
 }
 
+func (j *jsiiProxy_GoogleBigqueryDataset) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleBigqueryDataset) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

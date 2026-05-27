@@ -131,6 +131,10 @@ func (j *jsiiProxy_GoogleDataprocBatch) validateSetCountParameters(val interface
 	return nil
 }
 
+func (j *jsiiProxy_GoogleDataprocBatch) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleDataprocBatch) validateSetIdParameters(val *string) error {
 	return nil
 }

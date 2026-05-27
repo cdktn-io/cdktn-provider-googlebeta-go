@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_blockchain_node_engine_blockchain_nodes google_blockchain_node_engine_blockchain_nodes}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_blockchain_node_engine_blockchain_nodes google_blockchain_node_engine_blockchain_nodes}.
 type GoogleBlockchainNodeEngineBlockchainNodes interface {
 	cdktn.TerraformResource
 	BlockchainNodeId() *string
@@ -35,6 +35,9 @@ type GoogleBlockchainNodeEngineBlockchainNodes interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -135,6 +138,7 @@ type GoogleBlockchainNodeEngineBlockchainNodes interface {
 	PutEthereumDetails(value *GoogleBlockchainNodeEngineBlockchainNodesEthereumDetails)
 	PutTimeouts(value *GoogleBlockchainNodeEngineBlockchainNodesTimeouts)
 	ResetBlockchainType()
+	ResetDeletionPolicy()
 	ResetEthereumDetails()
 	ResetId()
 	ResetLabels()
@@ -265,6 +269,26 @@ func (j *jsiiProxy_GoogleBlockchainNodeEngineBlockchainNodes) CreateTime() *stri
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleBlockchainNodeEngineBlockchainNodes) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleBlockchainNodeEngineBlockchainNodes) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -551,7 +575,7 @@ func (j *jsiiProxy_GoogleBlockchainNodeEngineBlockchainNodes) UpdateTime() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_blockchain_node_engine_blockchain_nodes google_blockchain_node_engine_blockchain_nodes} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_blockchain_node_engine_blockchain_nodes google_blockchain_node_engine_blockchain_nodes} Resource.
 func NewGoogleBlockchainNodeEngineBlockchainNodes(scope constructs.Construct, id *string, config *GoogleBlockchainNodeEngineBlockchainNodesConfig) GoogleBlockchainNodeEngineBlockchainNodes {
 	_init_.Initialize()
 
@@ -569,7 +593,7 @@ func NewGoogleBlockchainNodeEngineBlockchainNodes(scope constructs.Construct, id
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_blockchain_node_engine_blockchain_nodes google_blockchain_node_engine_blockchain_nodes} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_blockchain_node_engine_blockchain_nodes google_blockchain_node_engine_blockchain_nodes} Resource.
 func NewGoogleBlockchainNodeEngineBlockchainNodes_Override(g GoogleBlockchainNodeEngineBlockchainNodes, scope constructs.Construct, id *string, config *GoogleBlockchainNodeEngineBlockchainNodesConfig) {
 	_init_.Initialize()
 
@@ -620,6 +644,17 @@ func (j *jsiiProxy_GoogleBlockchainNodeEngineBlockchainNodes)SetCount(val interf
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleBlockchainNodeEngineBlockchainNodes)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1093,6 +1128,14 @@ func (g *jsiiProxy_GoogleBlockchainNodeEngineBlockchainNodes) ResetBlockchainTyp
 	_jsii_.InvokeVoid(
 		g,
 		"resetBlockchainType",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleBlockchainNodeEngineBlockchainNodes) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

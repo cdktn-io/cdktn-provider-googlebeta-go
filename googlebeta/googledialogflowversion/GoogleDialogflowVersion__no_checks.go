@@ -103,6 +103,10 @@ func (j *jsiiProxy_GoogleDialogflowVersion) validateSetCountParameters(val inter
 	return nil
 }
 
+func (j *jsiiProxy_GoogleDialogflowVersion) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleDialogflowVersion) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

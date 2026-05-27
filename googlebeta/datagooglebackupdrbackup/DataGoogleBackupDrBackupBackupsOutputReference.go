@@ -25,6 +25,7 @@ type DataGoogleBackupDrBackupBackupsOutputReference interface {
 	ComplexObjectIsFromSet() *bool
 	// Experimental.
 	SetComplexObjectIsFromSet(val *bool)
+	ComputeInstanceBackupProperties() DataGoogleBackupDrBackupBackupsComputeInstanceBackupPropertiesList
 	CreateTime() *string
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
@@ -32,6 +33,7 @@ type DataGoogleBackupDrBackupBackupsOutputReference interface {
 	// Experimental.
 	CreationStack() *[]*string
 	DataSourceId() *string
+	DiskBackupProperties() DataGoogleBackupDrBackupBackupsDiskBackupPropertiesList
 	// Experimental.
 	Fqn() *string
 	InternalValue() *DataGoogleBackupDrBackupBackups
@@ -125,6 +127,16 @@ func (j *jsiiProxy_DataGoogleBackupDrBackupBackupsOutputReference) ComplexObject
 	return returns
 }
 
+func (j *jsiiProxy_DataGoogleBackupDrBackupBackupsOutputReference) ComputeInstanceBackupProperties() DataGoogleBackupDrBackupBackupsComputeInstanceBackupPropertiesList {
+	var returns DataGoogleBackupDrBackupBackupsComputeInstanceBackupPropertiesList
+	_jsii_.Get(
+		j,
+		"computeInstanceBackupProperties",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataGoogleBackupDrBackupBackupsOutputReference) CreateTime() *string {
 	var returns *string
 	_jsii_.Get(
@@ -150,6 +162,16 @@ func (j *jsiiProxy_DataGoogleBackupDrBackupBackupsOutputReference) DataSourceId(
 	_jsii_.Get(
 		j,
 		"dataSourceId",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleBackupDrBackupBackupsOutputReference) DiskBackupProperties() DataGoogleBackupDrBackupBackupsDiskBackupPropertiesList {
+	var returns DataGoogleBackupDrBackupBackupsDiskBackupPropertiesList
+	_jsii_.Get(
+		j,
+		"diskBackupProperties",
 		&returns,
 	)
 	return returns

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_gke_backup_backup_plan google_gke_backup_backup_plan}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_gke_backup_backup_plan google_gke_backup_backup_plan}.
 type GoogleGkeBackupBackupPlan interface {
 	cdktn.TerraformResource
 	BackupConfig() GoogleGkeBackupBackupPlanBackupConfigOutputReference
@@ -37,6 +37,9 @@ type GoogleGkeBackupBackupPlan interface {
 	Deactivated() interface{}
 	SetDeactivated(val interface{})
 	DeactivatedInput() interface{}
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -151,6 +154,7 @@ type GoogleGkeBackupBackupPlan interface {
 	ResetBackupConfig()
 	ResetBackupSchedule()
 	ResetDeactivated()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	ResetLabels()
@@ -302,6 +306,26 @@ func (j *jsiiProxy_GoogleGkeBackupBackupPlan) DeactivatedInput() interface{} {
 	_jsii_.Get(
 		j,
 		"deactivatedInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleGkeBackupBackupPlan) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleGkeBackupBackupPlan) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -668,7 +692,7 @@ func (j *jsiiProxy_GoogleGkeBackupBackupPlan) Uid() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_gke_backup_backup_plan google_gke_backup_backup_plan} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_gke_backup_backup_plan google_gke_backup_backup_plan} Resource.
 func NewGoogleGkeBackupBackupPlan(scope constructs.Construct, id *string, config *GoogleGkeBackupBackupPlanConfig) GoogleGkeBackupBackupPlan {
 	_init_.Initialize()
 
@@ -686,7 +710,7 @@ func NewGoogleGkeBackupBackupPlan(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_gke_backup_backup_plan google_gke_backup_backup_plan} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_gke_backup_backup_plan google_gke_backup_backup_plan} Resource.
 func NewGoogleGkeBackupBackupPlan_Override(g GoogleGkeBackupBackupPlan, scope constructs.Construct, id *string, config *GoogleGkeBackupBackupPlanConfig) {
 	_init_.Initialize()
 
@@ -737,6 +761,17 @@ func (j *jsiiProxy_GoogleGkeBackupBackupPlan)SetDeactivated(val interface{}) {
 	_jsii_.Set(
 		j,
 		"deactivated",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleGkeBackupBackupPlan)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1270,6 +1305,14 @@ func (g *jsiiProxy_GoogleGkeBackupBackupPlan) ResetDeactivated() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetDeactivated",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleGkeBackupBackupPlan) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

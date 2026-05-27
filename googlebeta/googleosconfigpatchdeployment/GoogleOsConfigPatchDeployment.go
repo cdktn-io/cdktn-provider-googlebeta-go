@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_os_config_patch_deployment google_os_config_patch_deployment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_patch_deployment google_os_config_patch_deployment}.
 type GoogleOsConfigPatchDeployment interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -28,6 +28,9 @@ type GoogleOsConfigPatchDeployment interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -141,6 +144,7 @@ type GoogleOsConfigPatchDeployment interface {
 	PutRecurringSchedule(value *GoogleOsConfigPatchDeploymentRecurringSchedule)
 	PutRollout(value *GoogleOsConfigPatchDeploymentRollout)
 	PutTimeouts(value *GoogleOsConfigPatchDeploymentTimeouts)
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetDuration()
 	ResetId()
@@ -225,6 +229,26 @@ func (j *jsiiProxy_GoogleOsConfigPatchDeployment) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleOsConfigPatchDeployment) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleOsConfigPatchDeployment) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -601,7 +625,7 @@ func (j *jsiiProxy_GoogleOsConfigPatchDeployment) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_os_config_patch_deployment google_os_config_patch_deployment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_patch_deployment google_os_config_patch_deployment} Resource.
 func NewGoogleOsConfigPatchDeployment(scope constructs.Construct, id *string, config *GoogleOsConfigPatchDeploymentConfig) GoogleOsConfigPatchDeployment {
 	_init_.Initialize()
 
@@ -619,7 +643,7 @@ func NewGoogleOsConfigPatchDeployment(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_os_config_patch_deployment google_os_config_patch_deployment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_patch_deployment google_os_config_patch_deployment} Resource.
 func NewGoogleOsConfigPatchDeployment_Override(g GoogleOsConfigPatchDeployment, scope constructs.Construct, id *string, config *GoogleOsConfigPatchDeploymentConfig) {
 	_init_.Initialize()
 
@@ -648,6 +672,17 @@ func (j *jsiiProxy_GoogleOsConfigPatchDeployment)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleOsConfigPatchDeployment)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1169,6 +1204,14 @@ func (g *jsiiProxy_GoogleOsConfigPatchDeployment) PutTimeouts(value *GoogleOsCon
 		g,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleOsConfigPatchDeployment) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

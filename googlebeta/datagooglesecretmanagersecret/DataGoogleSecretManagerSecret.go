@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_secret_manager_secret google_secret_manager_secret}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/data-sources/google_secret_manager_secret google_secret_manager_secret}.
 type DataGoogleSecretManagerSecret interface {
 	cdktn.TerraformDataSource
 	Annotations() cdktn.StringMap
@@ -25,6 +25,7 @@ type DataGoogleSecretManagerSecret interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
 	DeletionProtection() cdktn.IResolvable
 	// Experimental.
 	DependsOn() *[]*string
@@ -181,6 +182,16 @@ func (j *jsiiProxy_DataGoogleSecretManagerSecret) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleSecretManagerSecret) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
 		&returns,
 	)
 	return returns
@@ -497,7 +508,7 @@ func (j *jsiiProxy_DataGoogleSecretManagerSecret) VersionDestroyTtl() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_secret_manager_secret google_secret_manager_secret} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/data-sources/google_secret_manager_secret google_secret_manager_secret} Data Source.
 func NewDataGoogleSecretManagerSecret(scope constructs.Construct, id *string, config *DataGoogleSecretManagerSecretConfig) DataGoogleSecretManagerSecret {
 	_init_.Initialize()
 
@@ -515,7 +526,7 @@ func NewDataGoogleSecretManagerSecret(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_secret_manager_secret google_secret_manager_secret} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/data-sources/google_secret_manager_secret google_secret_manager_secret} Data Source.
 func NewDataGoogleSecretManagerSecret_Override(d DataGoogleSecretManagerSecret, scope constructs.Construct, id *string, config *DataGoogleSecretManagerSecretConfig) {
 	_init_.Initialize()
 

@@ -111,6 +111,10 @@ func (j *jsiiProxy_GoogleDialogflowIntent) validateSetDefaultResponsePlatformsPa
 	return nil
 }
 
+func (j *jsiiProxy_GoogleDialogflowIntent) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleDialogflowIntent) validateSetDisplayNameParameters(val *string) error {
 	return nil
 }

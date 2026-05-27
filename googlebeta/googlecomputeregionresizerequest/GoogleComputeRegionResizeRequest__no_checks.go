@@ -107,6 +107,10 @@ func (j *jsiiProxy_GoogleComputeRegionResizeRequest) validateSetCountParameters(
 	return nil
 }
 
+func (j *jsiiProxy_GoogleComputeRegionResizeRequest) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleComputeRegionResizeRequest) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloudbuildv2_connection google_cloudbuildv2_connection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudbuildv2_connection google_cloudbuildv2_connection}.
 type GoogleCloudbuildv2Connection interface {
 	cdktn.TerraformResource
 	Annotations() *map[string]*string
@@ -35,6 +35,9 @@ type GoogleCloudbuildv2Connection interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -149,6 +152,7 @@ type GoogleCloudbuildv2Connection interface {
 	ResetAnnotations()
 	ResetBitbucketCloudConfig()
 	ResetBitbucketDataCenterConfig()
+	ResetDeletionPolicy()
 	ResetDisabled()
 	ResetGithubConfig()
 	ResetGithubEnterpriseConfig()
@@ -291,6 +295,26 @@ func (j *jsiiProxy_GoogleCloudbuildv2Connection) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCloudbuildv2Connection) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCloudbuildv2Connection) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -647,7 +671,7 @@ func (j *jsiiProxy_GoogleCloudbuildv2Connection) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloudbuildv2_connection google_cloudbuildv2_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudbuildv2_connection google_cloudbuildv2_connection} Resource.
 func NewGoogleCloudbuildv2Connection(scope constructs.Construct, id *string, config *GoogleCloudbuildv2ConnectionConfig) GoogleCloudbuildv2Connection {
 	_init_.Initialize()
 
@@ -665,7 +689,7 @@ func NewGoogleCloudbuildv2Connection(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloudbuildv2_connection google_cloudbuildv2_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudbuildv2_connection google_cloudbuildv2_connection} Resource.
 func NewGoogleCloudbuildv2Connection_Override(g GoogleCloudbuildv2Connection, scope constructs.Construct, id *string, config *GoogleCloudbuildv2ConnectionConfig) {
 	_init_.Initialize()
 
@@ -705,6 +729,17 @@ func (j *jsiiProxy_GoogleCloudbuildv2Connection)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleCloudbuildv2Connection)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1249,6 +1284,14 @@ func (g *jsiiProxy_GoogleCloudbuildv2Connection) ResetBitbucketDataCenterConfig(
 	_jsii_.InvokeVoid(
 		g,
 		"resetBitbucketDataCenterConfig",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleCloudbuildv2Connection) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

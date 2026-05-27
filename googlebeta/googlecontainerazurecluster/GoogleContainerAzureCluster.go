@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_container_azure_cluster google_container_azure_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_container_azure_cluster google_container_azure_cluster}.
 type GoogleContainerAzureCluster interface {
 	cdktn.TerraformResource
 	Annotations() *map[string]*string
@@ -43,6 +43,9 @@ type GoogleContainerAzureCluster interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -164,6 +167,7 @@ type GoogleContainerAzureCluster interface {
 	ResetAnnotations()
 	ResetAzureServicesAuthentication()
 	ResetClient()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	ResetLoggingConfig()
@@ -364,6 +368,26 @@ func (j *jsiiProxy_GoogleContainerAzureCluster) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleContainerAzureCluster) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleContainerAzureCluster) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -770,7 +794,7 @@ func (j *jsiiProxy_GoogleContainerAzureCluster) WorkloadIdentityConfig() GoogleC
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_container_azure_cluster google_container_azure_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_container_azure_cluster google_container_azure_cluster} Resource.
 func NewGoogleContainerAzureCluster(scope constructs.Construct, id *string, config *GoogleContainerAzureClusterConfig) GoogleContainerAzureCluster {
 	_init_.Initialize()
 
@@ -788,7 +812,7 @@ func NewGoogleContainerAzureCluster(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_container_azure_cluster google_container_azure_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_container_azure_cluster google_container_azure_cluster} Resource.
 func NewGoogleContainerAzureCluster_Override(g GoogleContainerAzureCluster, scope constructs.Construct, id *string, config *GoogleContainerAzureClusterConfig) {
 	_init_.Initialize()
 
@@ -850,6 +874,17 @@ func (j *jsiiProxy_GoogleContainerAzureCluster)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleContainerAzureCluster)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1416,6 +1451,14 @@ func (g *jsiiProxy_GoogleContainerAzureCluster) ResetClient() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetClient",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleContainerAzureCluster) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

@@ -447,6 +447,14 @@ func (j *jsiiProxy_GoogleBigqueryRoutine) validateSetDefinitionBodyParameters(va
 	return nil
 }
 
+func (j *jsiiProxy_GoogleBigqueryRoutine) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_GoogleBigqueryRoutine) validateSetDescriptionParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

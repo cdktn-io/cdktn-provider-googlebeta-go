@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_developer_connect_insights_config google_developer_connect_insights_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_developer_connect_insights_config google_developer_connect_insights_config}.
 type GoogleDeveloperConnectInsightsConfig interface {
 	cdktn.TerraformResource
 	Annotations() *map[string]*string
@@ -36,6 +36,9 @@ type GoogleDeveloperConnectInsightsConfig interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -147,6 +150,7 @@ type GoogleDeveloperConnectInsightsConfig interface {
 	ResetAnnotations()
 	ResetAppHubApplication()
 	ResetArtifactConfigs()
+	ResetDeletionPolicy()
 	ResetId()
 	ResetLabels()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -287,6 +291,26 @@ func (j *jsiiProxy_GoogleDeveloperConnectInsightsConfig) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDeveloperConnectInsightsConfig) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDeveloperConnectInsightsConfig) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -643,7 +667,7 @@ func (j *jsiiProxy_GoogleDeveloperConnectInsightsConfig) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_developer_connect_insights_config google_developer_connect_insights_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_developer_connect_insights_config google_developer_connect_insights_config} Resource.
 func NewGoogleDeveloperConnectInsightsConfig(scope constructs.Construct, id *string, config *GoogleDeveloperConnectInsightsConfigConfig) GoogleDeveloperConnectInsightsConfig {
 	_init_.Initialize()
 
@@ -661,7 +685,7 @@ func NewGoogleDeveloperConnectInsightsConfig(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_developer_connect_insights_config google_developer_connect_insights_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_developer_connect_insights_config google_developer_connect_insights_config} Resource.
 func NewGoogleDeveloperConnectInsightsConfig_Override(g GoogleDeveloperConnectInsightsConfig, scope constructs.Construct, id *string, config *GoogleDeveloperConnectInsightsConfigConfig) {
 	_init_.Initialize()
 
@@ -712,6 +736,17 @@ func (j *jsiiProxy_GoogleDeveloperConnectInsightsConfig)SetCount(val interface{}
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleDeveloperConnectInsightsConfig)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1223,6 +1258,14 @@ func (g *jsiiProxy_GoogleDeveloperConnectInsightsConfig) ResetArtifactConfigs() 
 	_jsii_.InvokeVoid(
 		g,
 		"resetArtifactConfigs",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleDeveloperConnectInsightsConfig) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

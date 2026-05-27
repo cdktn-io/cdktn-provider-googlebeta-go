@@ -107,6 +107,10 @@ func (j *jsiiProxy_GoogleDataLossPreventionInspectTemplate) validateSetCountPara
 	return nil
 }
 
+func (j *jsiiProxy_GoogleDataLossPreventionInspectTemplate) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleDataLossPreventionInspectTemplate) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

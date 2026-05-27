@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_identity_platform_tenant_inbound_saml_config google_identity_platform_tenant_inbound_saml_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_identity_platform_tenant_inbound_saml_config google_identity_platform_tenant_inbound_saml_config}.
 type GoogleIdentityPlatformTenantInboundSamlConfig interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -27,6 +27,9 @@ type GoogleIdentityPlatformTenantInboundSamlConfig interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -131,6 +134,7 @@ type GoogleIdentityPlatformTenantInboundSamlConfig interface {
 	PutIdpConfig(value *GoogleIdentityPlatformTenantInboundSamlConfigIdpConfig)
 	PutSpConfig(value *GoogleIdentityPlatformTenantInboundSamlConfigSpConfig)
 	PutTimeouts(value *GoogleIdentityPlatformTenantInboundSamlConfigTimeouts)
+	ResetDeletionPolicy()
 	ResetEnabled()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -200,6 +204,26 @@ func (j *jsiiProxy_GoogleIdentityPlatformTenantInboundSamlConfig) Count() interf
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleIdentityPlatformTenantInboundSamlConfig) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleIdentityPlatformTenantInboundSamlConfig) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -506,7 +530,7 @@ func (j *jsiiProxy_GoogleIdentityPlatformTenantInboundSamlConfig) TimeoutsInput(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_identity_platform_tenant_inbound_saml_config google_identity_platform_tenant_inbound_saml_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_identity_platform_tenant_inbound_saml_config google_identity_platform_tenant_inbound_saml_config} Resource.
 func NewGoogleIdentityPlatformTenantInboundSamlConfig(scope constructs.Construct, id *string, config *GoogleIdentityPlatformTenantInboundSamlConfigConfig) GoogleIdentityPlatformTenantInboundSamlConfig {
 	_init_.Initialize()
 
@@ -524,7 +548,7 @@ func NewGoogleIdentityPlatformTenantInboundSamlConfig(scope constructs.Construct
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_identity_platform_tenant_inbound_saml_config google_identity_platform_tenant_inbound_saml_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_identity_platform_tenant_inbound_saml_config google_identity_platform_tenant_inbound_saml_config} Resource.
 func NewGoogleIdentityPlatformTenantInboundSamlConfig_Override(g GoogleIdentityPlatformTenantInboundSamlConfig, scope constructs.Construct, id *string, config *GoogleIdentityPlatformTenantInboundSamlConfigConfig) {
 	_init_.Initialize()
 
@@ -553,6 +577,17 @@ func (j *jsiiProxy_GoogleIdentityPlatformTenantInboundSamlConfig)SetCount(val in
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleIdentityPlatformTenantInboundSamlConfig)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1052,6 +1087,14 @@ func (g *jsiiProxy_GoogleIdentityPlatformTenantInboundSamlConfig) PutTimeouts(va
 		g,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleIdentityPlatformTenantInboundSamlConfig) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

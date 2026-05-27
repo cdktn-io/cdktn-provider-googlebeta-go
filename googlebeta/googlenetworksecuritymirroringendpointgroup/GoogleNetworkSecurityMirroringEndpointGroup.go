@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_security_mirroring_endpoint_group google_network_security_mirroring_endpoint_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_security_mirroring_endpoint_group google_network_security_mirroring_endpoint_group}.
 type GoogleNetworkSecurityMirroringEndpointGroup interface {
 	cdktn.TerraformResource
 	Associations() GoogleNetworkSecurityMirroringEndpointGroupAssociationsList
@@ -30,6 +30,9 @@ type GoogleNetworkSecurityMirroringEndpointGroup interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -143,6 +146,7 @@ type GoogleNetworkSecurityMirroringEndpointGroup interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *GoogleNetworkSecurityMirroringEndpointGroupTimeouts)
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	ResetLabels()
@@ -246,6 +250,26 @@ func (j *jsiiProxy_GoogleNetworkSecurityMirroringEndpointGroup) CreateTime() *st
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleNetworkSecurityMirroringEndpointGroup) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleNetworkSecurityMirroringEndpointGroup) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -632,7 +656,7 @@ func (j *jsiiProxy_GoogleNetworkSecurityMirroringEndpointGroup) UpdateTime() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_security_mirroring_endpoint_group google_network_security_mirroring_endpoint_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_security_mirroring_endpoint_group google_network_security_mirroring_endpoint_group} Resource.
 func NewGoogleNetworkSecurityMirroringEndpointGroup(scope constructs.Construct, id *string, config *GoogleNetworkSecurityMirroringEndpointGroupConfig) GoogleNetworkSecurityMirroringEndpointGroup {
 	_init_.Initialize()
 
@@ -650,7 +674,7 @@ func NewGoogleNetworkSecurityMirroringEndpointGroup(scope constructs.Construct, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_security_mirroring_endpoint_group google_network_security_mirroring_endpoint_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_security_mirroring_endpoint_group google_network_security_mirroring_endpoint_group} Resource.
 func NewGoogleNetworkSecurityMirroringEndpointGroup_Override(g GoogleNetworkSecurityMirroringEndpointGroup, scope constructs.Construct, id *string, config *GoogleNetworkSecurityMirroringEndpointGroupConfig) {
 	_init_.Initialize()
 
@@ -679,6 +703,17 @@ func (j *jsiiProxy_GoogleNetworkSecurityMirroringEndpointGroup)SetCount(val inte
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleNetworkSecurityMirroringEndpointGroup)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1189,6 +1224,14 @@ func (g *jsiiProxy_GoogleNetworkSecurityMirroringEndpointGroup) PutTimeouts(valu
 		g,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleNetworkSecurityMirroringEndpointGroup) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_firebase_storage_bucket google_firebase_storage_bucket}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_firebase_storage_bucket google_firebase_storage_bucket}.
 type GoogleFirebaseStorageBucket interface {
 	cdktn.TerraformResource
 	BucketId() *string
@@ -30,6 +30,9 @@ type GoogleFirebaseStorageBucket interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -118,6 +121,7 @@ type GoogleFirebaseStorageBucket interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *GoogleFirebaseStorageBucketTimeouts)
 	ResetBucketId()
+	ResetDeletionPolicy()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -206,6 +210,26 @@ func (j *jsiiProxy_GoogleFirebaseStorageBucket) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleFirebaseStorageBucket) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleFirebaseStorageBucket) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -402,7 +426,7 @@ func (j *jsiiProxy_GoogleFirebaseStorageBucket) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_firebase_storage_bucket google_firebase_storage_bucket} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_firebase_storage_bucket google_firebase_storage_bucket} Resource.
 func NewGoogleFirebaseStorageBucket(scope constructs.Construct, id *string, config *GoogleFirebaseStorageBucketConfig) GoogleFirebaseStorageBucket {
 	_init_.Initialize()
 
@@ -420,7 +444,7 @@ func NewGoogleFirebaseStorageBucket(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_firebase_storage_bucket google_firebase_storage_bucket} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_firebase_storage_bucket google_firebase_storage_bucket} Resource.
 func NewGoogleFirebaseStorageBucket_Override(g GoogleFirebaseStorageBucket, scope constructs.Construct, id *string, config *GoogleFirebaseStorageBucketConfig) {
 	_init_.Initialize()
 
@@ -460,6 +484,17 @@ func (j *jsiiProxy_GoogleFirebaseStorageBucket)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleFirebaseStorageBucket)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -900,6 +935,14 @@ func (g *jsiiProxy_GoogleFirebaseStorageBucket) ResetBucketId() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetBucketId",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleFirebaseStorageBucket) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

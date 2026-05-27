@@ -107,6 +107,10 @@ func (j *jsiiProxy_GoogleCertificateManagerCertificateIssuanceConfig) validateSe
 	return nil
 }
 
+func (j *jsiiProxy_GoogleCertificateManagerCertificateIssuanceConfig) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleCertificateManagerCertificateIssuanceConfig) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

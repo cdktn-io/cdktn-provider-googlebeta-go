@@ -103,6 +103,10 @@ func (j *jsiiProxy_GoogleKmsProjectAutokeyConfig) validateSetCountParameters(val
 	return nil
 }
 
+func (j *jsiiProxy_GoogleKmsProjectAutokeyConfig) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleKmsProjectAutokeyConfig) validateSetIdParameters(val *string) error {
 	return nil
 }

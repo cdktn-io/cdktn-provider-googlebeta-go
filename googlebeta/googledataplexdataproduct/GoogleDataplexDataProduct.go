@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataplex_data_product google_dataplex_data_product}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataplex_data_product google_dataplex_data_product}.
 type GoogleDataplexDataProduct interface {
 	cdktn.TerraformResource
 	AccessGroups() GoogleDataplexDataProductAccessGroupsList
@@ -34,6 +34,9 @@ type GoogleDataplexDataProduct interface {
 	DataProductId() *string
 	SetDataProductId(val *string)
 	DataProductIdInput() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -142,6 +145,7 @@ type GoogleDataplexDataProduct interface {
 	PutAccessGroups(value interface{})
 	PutTimeouts(value *GoogleDataplexDataProductTimeouts)
 	ResetAccessGroups()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	ResetLabels()
@@ -272,6 +276,26 @@ func (j *jsiiProxy_GoogleDataplexDataProduct) DataProductIdInput() *string {
 	_jsii_.Get(
 		j,
 		"dataProductIdInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDataplexDataProduct) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDataplexDataProduct) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -608,7 +632,7 @@ func (j *jsiiProxy_GoogleDataplexDataProduct) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataplex_data_product google_dataplex_data_product} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataplex_data_product google_dataplex_data_product} Resource.
 func NewGoogleDataplexDataProduct(scope constructs.Construct, id *string, config *GoogleDataplexDataProductConfig) GoogleDataplexDataProduct {
 	_init_.Initialize()
 
@@ -626,7 +650,7 @@ func NewGoogleDataplexDataProduct(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataplex_data_product google_dataplex_data_product} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataplex_data_product google_dataplex_data_product} Resource.
 func NewGoogleDataplexDataProduct_Override(g GoogleDataplexDataProduct, scope constructs.Construct, id *string, config *GoogleDataplexDataProductConfig) {
 	_init_.Initialize()
 
@@ -666,6 +690,17 @@ func (j *jsiiProxy_GoogleDataplexDataProduct)SetDataProductId(val *string) {
 	_jsii_.Set(
 		j,
 		"dataProductId",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleDataplexDataProduct)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1172,6 +1207,14 @@ func (g *jsiiProxy_GoogleDataplexDataProduct) ResetAccessGroups() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetAccessGroups",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleDataplexDataProduct) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

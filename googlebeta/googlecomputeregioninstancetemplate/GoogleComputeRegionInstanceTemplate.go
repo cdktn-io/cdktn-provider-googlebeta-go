@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_instance_template google_compute_region_instance_template}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_instance_template google_compute_region_instance_template}.
 type GoogleComputeRegionInstanceTemplate interface {
 	cdktn.TerraformResource
 	AdvancedMachineFeatures() GoogleComputeRegionInstanceTemplateAdvancedMachineFeaturesOutputReference
@@ -35,6 +35,9 @@ type GoogleComputeRegionInstanceTemplate interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreationTimestamp() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -204,6 +207,7 @@ type GoogleComputeRegionInstanceTemplate interface {
 	ResetAdvancedMachineFeatures()
 	ResetCanIpForward()
 	ResetConfidentialInstanceConfig()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetEnableDisplay()
 	ResetGuestAccelerator()
@@ -364,6 +368,26 @@ func (j *jsiiProxy_GoogleComputeRegionInstanceTemplate) CreationTimestamp() *str
 	_jsii_.Get(
 		j,
 		"creationTimestamp",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeRegionInstanceTemplate) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeRegionInstanceTemplate) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -1090,7 +1114,7 @@ func (j *jsiiProxy_GoogleComputeRegionInstanceTemplate) TimeoutsInput() interfac
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_instance_template google_compute_region_instance_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_instance_template google_compute_region_instance_template} Resource.
 func NewGoogleComputeRegionInstanceTemplate(scope constructs.Construct, id *string, config *GoogleComputeRegionInstanceTemplateConfig) GoogleComputeRegionInstanceTemplate {
 	_init_.Initialize()
 
@@ -1108,7 +1132,7 @@ func NewGoogleComputeRegionInstanceTemplate(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_instance_template google_compute_region_instance_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_instance_template google_compute_region_instance_template} Resource.
 func NewGoogleComputeRegionInstanceTemplate_Override(g GoogleComputeRegionInstanceTemplate, scope constructs.Construct, id *string, config *GoogleComputeRegionInstanceTemplateConfig) {
 	_init_.Initialize()
 
@@ -1148,6 +1172,17 @@ func (j *jsiiProxy_GoogleComputeRegionInstanceTemplate)SetCount(val interface{})
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleComputeRegionInstanceTemplate)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1890,6 +1925,14 @@ func (g *jsiiProxy_GoogleComputeRegionInstanceTemplate) ResetConfidentialInstanc
 	_jsii_.InvokeVoid(
 		g,
 		"resetConfidentialInstanceConfig",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleComputeRegionInstanceTemplate) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

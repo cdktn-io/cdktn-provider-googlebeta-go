@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_healthcare_consent_store google_healthcare_consent_store}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_healthcare_consent_store google_healthcare_consent_store}.
 type GoogleHealthcareConsentStore interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -33,6 +33,9 @@ type GoogleHealthcareConsentStore interface {
 	DefaultConsentTtl() *string
 	SetDefaultConsentTtl(val *string)
 	DefaultConsentTtlInput() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -128,6 +131,7 @@ type GoogleHealthcareConsentStore interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *GoogleHealthcareConsentStoreTimeouts)
 	ResetDefaultConsentTtl()
+	ResetDeletionPolicy()
 	ResetEnableConsentCreateOnUpdate()
 	ResetId()
 	ResetLabels()
@@ -237,6 +241,26 @@ func (j *jsiiProxy_GoogleHealthcareConsentStore) DefaultConsentTtlInput() *strin
 	_jsii_.Get(
 		j,
 		"defaultConsentTtlInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleHealthcareConsentStore) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleHealthcareConsentStore) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -483,7 +507,7 @@ func (j *jsiiProxy_GoogleHealthcareConsentStore) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_healthcare_consent_store google_healthcare_consent_store} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_healthcare_consent_store google_healthcare_consent_store} Resource.
 func NewGoogleHealthcareConsentStore(scope constructs.Construct, id *string, config *GoogleHealthcareConsentStoreConfig) GoogleHealthcareConsentStore {
 	_init_.Initialize()
 
@@ -501,7 +525,7 @@ func NewGoogleHealthcareConsentStore(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_healthcare_consent_store google_healthcare_consent_store} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_healthcare_consent_store google_healthcare_consent_store} Resource.
 func NewGoogleHealthcareConsentStore_Override(g GoogleHealthcareConsentStore, scope constructs.Construct, id *string, config *GoogleHealthcareConsentStoreConfig) {
 	_init_.Initialize()
 
@@ -552,6 +576,17 @@ func (j *jsiiProxy_GoogleHealthcareConsentStore)SetDefaultConsentTtl(val *string
 	_jsii_.Set(
 		j,
 		"defaultConsentTtl",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleHealthcareConsentStore)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1014,6 +1049,14 @@ func (g *jsiiProxy_GoogleHealthcareConsentStore) ResetDefaultConsentTtl() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetDefaultConsentTtl",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleHealthcareConsentStore) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

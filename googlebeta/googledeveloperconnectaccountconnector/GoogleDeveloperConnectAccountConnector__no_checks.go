@@ -123,6 +123,10 @@ func (j *jsiiProxy_GoogleDeveloperConnectAccountConnector) validateSetCountParam
 	return nil
 }
 
+func (j *jsiiProxy_GoogleDeveloperConnectAccountConnector) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleDeveloperConnectAccountConnector) validateSetEtagParameters(val *string) error {
 	return nil
 }

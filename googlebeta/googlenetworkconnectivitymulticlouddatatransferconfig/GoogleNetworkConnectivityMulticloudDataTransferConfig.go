@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_connectivity_multicloud_data_transfer_config google_network_connectivity_multicloud_data_transfer_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_connectivity_multicloud_data_transfer_config google_network_connectivity_multicloud_data_transfer_config}.
 type GoogleNetworkConnectivityMulticloudDataTransferConfig interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -28,6 +28,9 @@ type GoogleNetworkConnectivityMulticloudDataTransferConfig interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -136,6 +139,7 @@ type GoogleNetworkConnectivityMulticloudDataTransferConfig interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutServices(value interface{})
 	PutTimeouts(value *GoogleNetworkConnectivityMulticloudDataTransferConfigTimeouts)
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	ResetLabels()
@@ -217,6 +221,26 @@ func (j *jsiiProxy_GoogleNetworkConnectivityMulticloudDataTransferConfig) Create
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleNetworkConnectivityMulticloudDataTransferConfig) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleNetworkConnectivityMulticloudDataTransferConfig) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -573,7 +597,7 @@ func (j *jsiiProxy_GoogleNetworkConnectivityMulticloudDataTransferConfig) Update
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_connectivity_multicloud_data_transfer_config google_network_connectivity_multicloud_data_transfer_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_connectivity_multicloud_data_transfer_config google_network_connectivity_multicloud_data_transfer_config} Resource.
 func NewGoogleNetworkConnectivityMulticloudDataTransferConfig(scope constructs.Construct, id *string, config *GoogleNetworkConnectivityMulticloudDataTransferConfigConfig) GoogleNetworkConnectivityMulticloudDataTransferConfig {
 	_init_.Initialize()
 
@@ -591,7 +615,7 @@ func NewGoogleNetworkConnectivityMulticloudDataTransferConfig(scope constructs.C
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_connectivity_multicloud_data_transfer_config google_network_connectivity_multicloud_data_transfer_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_connectivity_multicloud_data_transfer_config google_network_connectivity_multicloud_data_transfer_config} Resource.
 func NewGoogleNetworkConnectivityMulticloudDataTransferConfig_Override(g GoogleNetworkConnectivityMulticloudDataTransferConfig, scope constructs.Construct, id *string, config *GoogleNetworkConnectivityMulticloudDataTransferConfigConfig) {
 	_init_.Initialize()
 
@@ -620,6 +644,17 @@ func (j *jsiiProxy_GoogleNetworkConnectivityMulticloudDataTransferConfig)SetCoun
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleNetworkConnectivityMulticloudDataTransferConfig)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1108,6 +1143,14 @@ func (g *jsiiProxy_GoogleNetworkConnectivityMulticloudDataTransferConfig) PutTim
 		g,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleNetworkConnectivityMulticloudDataTransferConfig) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_services_agent_gateway google_network_services_agent_gateway}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_services_agent_gateway google_network_services_agent_gateway}.
 type GoogleNetworkServicesAgentGateway interface {
 	cdktn.TerraformResource
 	AgentGatewayCard() GoogleNetworkServicesAgentGatewayAgentGatewayCardList
@@ -29,6 +29,9 @@ type GoogleNetworkServicesAgentGateway interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -146,6 +149,7 @@ type GoogleNetworkServicesAgentGateway interface {
 	PutNetworkConfig(value *GoogleNetworkServicesAgentGatewayNetworkConfig)
 	PutSelfManaged(value *GoogleNetworkServicesAgentGatewaySelfManaged)
 	PutTimeouts(value *GoogleNetworkServicesAgentGatewayTimeouts)
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetGoogleManaged()
 	ResetId()
@@ -240,6 +244,26 @@ func (j *jsiiProxy_GoogleNetworkServicesAgentGateway) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleNetworkServicesAgentGateway) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleNetworkServicesAgentGateway) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -646,7 +670,7 @@ func (j *jsiiProxy_GoogleNetworkServicesAgentGateway) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_services_agent_gateway google_network_services_agent_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_services_agent_gateway google_network_services_agent_gateway} Resource.
 func NewGoogleNetworkServicesAgentGateway(scope constructs.Construct, id *string, config *GoogleNetworkServicesAgentGatewayConfig) GoogleNetworkServicesAgentGateway {
 	_init_.Initialize()
 
@@ -664,7 +688,7 @@ func NewGoogleNetworkServicesAgentGateway(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_services_agent_gateway google_network_services_agent_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_services_agent_gateway google_network_services_agent_gateway} Resource.
 func NewGoogleNetworkServicesAgentGateway_Override(g GoogleNetworkServicesAgentGateway, scope constructs.Construct, id *string, config *GoogleNetworkServicesAgentGatewayConfig) {
 	_init_.Initialize()
 
@@ -693,6 +717,17 @@ func (j *jsiiProxy_GoogleNetworkServicesAgentGateway)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleNetworkServicesAgentGateway)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1225,6 +1260,14 @@ func (g *jsiiProxy_GoogleNetworkServicesAgentGateway) PutTimeouts(value *GoogleN
 		g,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleNetworkServicesAgentGateway) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

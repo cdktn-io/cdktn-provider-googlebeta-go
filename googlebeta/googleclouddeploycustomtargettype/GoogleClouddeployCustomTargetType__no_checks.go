@@ -115,6 +115,10 @@ func (j *jsiiProxy_GoogleClouddeployCustomTargetType) validateSetCountParameters
 	return nil
 }
 
+func (j *jsiiProxy_GoogleClouddeployCustomTargetType) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleClouddeployCustomTargetType) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

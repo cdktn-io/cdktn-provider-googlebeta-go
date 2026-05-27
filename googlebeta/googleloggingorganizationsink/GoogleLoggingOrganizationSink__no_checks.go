@@ -107,6 +107,10 @@ func (j *jsiiProxy_GoogleLoggingOrganizationSink) validateSetCountParameters(val
 	return nil
 }
 
+func (j *jsiiProxy_GoogleLoggingOrganizationSink) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleLoggingOrganizationSink) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

@@ -22,15 +22,27 @@ type DataGoogleServiceNetworkingPeeredDnsDomainConfig struct {
 	Provider cdktn.TerraformProvider `field:"optional" json:"provider" yaml:"provider"`
 	// Experimental.
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_service_networking_peered_dns_domain#name DataGoogleServiceNetworkingPeeredDnsDomain#name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/data-sources/google_service_networking_peered_dns_domain#name DataGoogleServiceNetworkingPeeredDnsDomain#name}.
 	Name *string `field:"required" json:"name" yaml:"name"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_service_networking_peered_dns_domain#network DataGoogleServiceNetworkingPeeredDnsDomain#network}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/data-sources/google_service_networking_peered_dns_domain#network DataGoogleServiceNetworkingPeeredDnsDomain#network}.
 	Network *string `field:"required" json:"network" yaml:"network"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_service_networking_peered_dns_domain#project DataGoogleServiceNetworkingPeeredDnsDomain#project}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/data-sources/google_service_networking_peered_dns_domain#project DataGoogleServiceNetworkingPeeredDnsDomain#project}.
 	Project *string `field:"required" json:"project" yaml:"project"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_service_networking_peered_dns_domain#service DataGoogleServiceNetworkingPeeredDnsDomain#service}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/data-sources/google_service_networking_peered_dns_domain#service DataGoogleServiceNetworkingPeeredDnsDomain#service}.
 	Service *string `field:"required" json:"service" yaml:"service"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_service_networking_peered_dns_domain#id DataGoogleServiceNetworkingPeeredDnsDomain#id}.
+	// Whether Terraform will be prevented from destroying the instance.
+	//
+	// Defaults to "DELETE".
+	// When a 'terraform destroy' or 'terraform apply' would delete the instance,
+	// the command will fail if this field is set to "PREVENT" in Terraform state.
+	// When set to "ABANDON", the command will remove the resource from Terraform
+	// management without updating or deleting the resource in the API.
+	// When set to "DELETE", deleting the resource is allowed.
+	//
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/data-sources/google_service_networking_peered_dns_domain#deletion_policy DataGoogleServiceNetworkingPeeredDnsDomain#deletion_policy}
+	DeletionPolicy *string `field:"optional" json:"deletionPolicy" yaml:"deletionPolicy"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/data-sources/google_service_networking_peered_dns_domain#id DataGoogleServiceNetworkingPeeredDnsDomain#id}.
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

@@ -115,6 +115,10 @@ func (j *jsiiProxy_GoogleComputeGlobalForwardingRule) validateSetCountParameters
 	return nil
 }
 
+func (j *jsiiProxy_GoogleComputeGlobalForwardingRule) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleComputeGlobalForwardingRule) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

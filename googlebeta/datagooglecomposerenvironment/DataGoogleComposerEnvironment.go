@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_composer_environment google_composer_environment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/data-sources/google_composer_environment google_composer_environment}.
 type DataGoogleComposerEnvironment interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -24,6 +24,7 @@ type DataGoogleComposerEnvironment interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -164,6 +165,16 @@ func (j *jsiiProxy_DataGoogleComposerEnvironment) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleComposerEnvironment) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
 		&returns,
 	)
 	return returns
@@ -400,7 +411,7 @@ func (j *jsiiProxy_DataGoogleComposerEnvironment) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_composer_environment google_composer_environment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/data-sources/google_composer_environment google_composer_environment} Data Source.
 func NewDataGoogleComposerEnvironment(scope constructs.Construct, id *string, config *DataGoogleComposerEnvironmentConfig) DataGoogleComposerEnvironment {
 	_init_.Initialize()
 
@@ -418,7 +429,7 @@ func NewDataGoogleComposerEnvironment(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_composer_environment google_composer_environment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/data-sources/google_composer_environment google_composer_environment} Data Source.
 func NewDataGoogleComposerEnvironment_Override(d DataGoogleComposerEnvironment, scope constructs.Construct, id *string, config *DataGoogleComposerEnvironmentConfig) {
 	_init_.Initialize()
 

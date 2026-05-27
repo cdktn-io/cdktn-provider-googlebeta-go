@@ -115,6 +115,10 @@ func (j *jsiiProxy_GoogleCesEvaluation) validateSetCountParameters(val interface
 	return nil
 }
 
+func (j *jsiiProxy_GoogleCesEvaluation) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleCesEvaluation) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

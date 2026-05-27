@@ -111,6 +111,10 @@ func (j *jsiiProxy_GoogleBigqueryAnalyticsHubDataExchange) validateSetDataExchan
 	return nil
 }
 
+func (j *jsiiProxy_GoogleBigqueryAnalyticsHubDataExchange) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleBigqueryAnalyticsHubDataExchange) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

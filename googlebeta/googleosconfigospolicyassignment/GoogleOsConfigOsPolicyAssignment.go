@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_os_config_os_policy_assignment google_os_config_os_policy_assignment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_os_policy_assignment google_os_config_os_policy_assignment}.
 type GoogleOsConfigOsPolicyAssignment interface {
 	cdktn.TerraformResource
 	Baseline() cdktn.IResolvable
@@ -29,6 +29,9 @@ type GoogleOsConfigOsPolicyAssignment interface {
 	// Experimental.
 	SetCount(val interface{})
 	Deleted() cdktn.IResolvable
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -142,6 +145,7 @@ type GoogleOsConfigOsPolicyAssignment interface {
 	PutOsPolicies(value interface{})
 	PutRollout(value *GoogleOsConfigOsPolicyAssignmentRollout)
 	PutTimeouts(value *GoogleOsConfigOsPolicyAssignmentTimeouts)
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -232,6 +236,26 @@ func (j *jsiiProxy_GoogleOsConfigOsPolicyAssignment) Deleted() cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"deleted",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleOsConfigOsPolicyAssignment) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleOsConfigOsPolicyAssignment) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -618,7 +642,7 @@ func (j *jsiiProxy_GoogleOsConfigOsPolicyAssignment) Uid() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_os_config_os_policy_assignment google_os_config_os_policy_assignment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_os_policy_assignment google_os_config_os_policy_assignment} Resource.
 func NewGoogleOsConfigOsPolicyAssignment(scope constructs.Construct, id *string, config *GoogleOsConfigOsPolicyAssignmentConfig) GoogleOsConfigOsPolicyAssignment {
 	_init_.Initialize()
 
@@ -636,7 +660,7 @@ func NewGoogleOsConfigOsPolicyAssignment(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_os_config_os_policy_assignment google_os_config_os_policy_assignment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_os_policy_assignment google_os_config_os_policy_assignment} Resource.
 func NewGoogleOsConfigOsPolicyAssignment_Override(g GoogleOsConfigOsPolicyAssignment, scope constructs.Construct, id *string, config *GoogleOsConfigOsPolicyAssignmentConfig) {
 	_init_.Initialize()
 
@@ -665,6 +689,17 @@ func (j *jsiiProxy_GoogleOsConfigOsPolicyAssignment)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleOsConfigOsPolicyAssignment)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1175,6 +1210,14 @@ func (g *jsiiProxy_GoogleOsConfigOsPolicyAssignment) PutTimeouts(value *GoogleOs
 		g,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleOsConfigOsPolicyAssignment) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

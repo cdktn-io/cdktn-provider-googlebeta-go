@@ -107,6 +107,10 @@ func (j *jsiiProxy_GoogleAppEngineDomainMapping) validateSetCountParameters(val 
 	return nil
 }
 
+func (j *jsiiProxy_GoogleAppEngineDomainMapping) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleAppEngineDomainMapping) validateSetDomainNameParameters(val *string) error {
 	return nil
 }

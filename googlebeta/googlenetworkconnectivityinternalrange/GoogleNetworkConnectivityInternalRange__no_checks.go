@@ -111,6 +111,10 @@ func (j *jsiiProxy_GoogleNetworkConnectivityInternalRange) validateSetCountParam
 	return nil
 }
 
+func (j *jsiiProxy_GoogleNetworkConnectivityInternalRange) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleNetworkConnectivityInternalRange) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

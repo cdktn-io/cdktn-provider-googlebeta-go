@@ -35,6 +35,8 @@ type GoogleCesDeploymentChannelProfileWebWidgetConfigOutputReference interface {
 	Modality() *string
 	SetModality(val *string)
 	ModalityInput() *string
+	SecuritySettings() GoogleCesDeploymentChannelProfileWebWidgetConfigSecuritySettingsOutputReference
+	SecuritySettingsInput() *GoogleCesDeploymentChannelProfileWebWidgetConfigSecuritySettings
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -73,7 +75,9 @@ type GoogleCesDeploymentChannelProfileWebWidgetConfigOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutSecuritySettings(value *GoogleCesDeploymentChannelProfileWebWidgetConfigSecuritySettings)
 	ResetModality()
+	ResetSecuritySettings()
 	ResetTheme()
 	ResetWebWidgetTitle()
 	// Produce the Token's value at resolution time.
@@ -156,6 +160,26 @@ func (j *jsiiProxy_GoogleCesDeploymentChannelProfileWebWidgetConfigOutputReferen
 	_jsii_.Get(
 		j,
 		"modalityInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCesDeploymentChannelProfileWebWidgetConfigOutputReference) SecuritySettings() GoogleCesDeploymentChannelProfileWebWidgetConfigSecuritySettingsOutputReference {
+	var returns GoogleCesDeploymentChannelProfileWebWidgetConfigSecuritySettingsOutputReference
+	_jsii_.Get(
+		j,
+		"securitySettings",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCesDeploymentChannelProfileWebWidgetConfigOutputReference) SecuritySettingsInput() *GoogleCesDeploymentChannelProfileWebWidgetConfigSecuritySettings {
+	var returns *GoogleCesDeploymentChannelProfileWebWidgetConfigSecuritySettings
+	_jsii_.Get(
+		j,
+		"securitySettingsInput",
 		&returns,
 	)
 	return returns
@@ -523,10 +547,29 @@ func (g *jsiiProxy_GoogleCesDeploymentChannelProfileWebWidgetConfigOutputReferen
 	return returns
 }
 
+func (g *jsiiProxy_GoogleCesDeploymentChannelProfileWebWidgetConfigOutputReference) PutSecuritySettings(value *GoogleCesDeploymentChannelProfileWebWidgetConfigSecuritySettings) {
+	if err := g.validatePutSecuritySettingsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putSecuritySettings",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleCesDeploymentChannelProfileWebWidgetConfigOutputReference) ResetModality() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetModality",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleCesDeploymentChannelProfileWebWidgetConfigOutputReference) ResetSecuritySettings() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetSecuritySettings",
 		nil, // no parameters
 	)
 }

@@ -29,6 +29,7 @@ type DataGoogleNetworkManagementConnectivityTestsConnectivityTestsOutputReferenc
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
+	DeletionPolicy() *string
 	Description() *string
 	Destination() DataGoogleNetworkManagementConnectivityTestsConnectivityTestsDestinationList
 	EffectiveLabels() cdktn.StringMap
@@ -126,6 +127,16 @@ func (j *jsiiProxy_DataGoogleNetworkManagementConnectivityTestsConnectivityTests
 	_jsii_.Get(
 		j,
 		"creationStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleNetworkManagementConnectivityTestsConnectivityTestsOutputReference) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
 		&returns,
 	)
 	return returns

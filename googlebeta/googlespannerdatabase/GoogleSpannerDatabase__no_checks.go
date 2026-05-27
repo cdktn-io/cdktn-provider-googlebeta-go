@@ -119,6 +119,10 @@ func (j *jsiiProxy_GoogleSpannerDatabase) validateSetDefaultTimeZoneParameters(v
 	return nil
 }
 
+func (j *jsiiProxy_GoogleSpannerDatabase) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleSpannerDatabase) validateSetDeletionProtectionParameters(val interface{}) error {
 	return nil
 }

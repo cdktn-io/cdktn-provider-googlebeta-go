@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_gke_hub_feature_membership google_gke_hub_feature_membership}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_gke_hub_feature_membership google_gke_hub_feature_membership}.
 type GoogleGkeHubFeatureMembership interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -29,6 +29,9 @@ type GoogleGkeHubFeatureMembership interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -135,6 +138,7 @@ type GoogleGkeHubFeatureMembership interface {
 	PutPolicycontroller(value *GoogleGkeHubFeatureMembershipPolicycontroller)
 	PutTimeouts(value *GoogleGkeHubFeatureMembershipTimeouts)
 	ResetConfigmanagement()
+	ResetDeletionPolicy()
 	ResetId()
 	ResetMembershipLocation()
 	ResetMesh()
@@ -226,6 +230,26 @@ func (j *jsiiProxy_GoogleGkeHubFeatureMembership) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleGkeHubFeatureMembership) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleGkeHubFeatureMembership) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -532,7 +556,7 @@ func (j *jsiiProxy_GoogleGkeHubFeatureMembership) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_gke_hub_feature_membership google_gke_hub_feature_membership} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_gke_hub_feature_membership google_gke_hub_feature_membership} Resource.
 func NewGoogleGkeHubFeatureMembership(scope constructs.Construct, id *string, config *GoogleGkeHubFeatureMembershipConfig) GoogleGkeHubFeatureMembership {
 	_init_.Initialize()
 
@@ -550,7 +574,7 @@ func NewGoogleGkeHubFeatureMembership(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_gke_hub_feature_membership google_gke_hub_feature_membership} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_gke_hub_feature_membership google_gke_hub_feature_membership} Resource.
 func NewGoogleGkeHubFeatureMembership_Override(g GoogleGkeHubFeatureMembership, scope constructs.Construct, id *string, config *GoogleGkeHubFeatureMembershipConfig) {
 	_init_.Initialize()
 
@@ -579,6 +603,17 @@ func (j *jsiiProxy_GoogleGkeHubFeatureMembership)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleGkeHubFeatureMembership)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1096,6 +1131,14 @@ func (g *jsiiProxy_GoogleGkeHubFeatureMembership) ResetConfigmanagement() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetConfigmanagement",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleGkeHubFeatureMembership) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

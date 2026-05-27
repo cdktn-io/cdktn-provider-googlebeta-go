@@ -107,6 +107,10 @@ func (j *jsiiProxy_GoogleBeyondcorpAppConnector) validateSetCountParameters(val 
 	return nil
 }
 
+func (j *jsiiProxy_GoogleBeyondcorpAppConnector) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleBeyondcorpAppConnector) validateSetDisplayNameParameters(val *string) error {
 	return nil
 }

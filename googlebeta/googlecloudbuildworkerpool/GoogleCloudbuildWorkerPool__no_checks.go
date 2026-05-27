@@ -119,6 +119,10 @@ func (j *jsiiProxy_GoogleCloudbuildWorkerPool) validateSetCountParameters(val in
 	return nil
 }
 
+func (j *jsiiProxy_GoogleCloudbuildWorkerPool) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleCloudbuildWorkerPool) validateSetDisplayNameParameters(val *string) error {
 	return nil
 }

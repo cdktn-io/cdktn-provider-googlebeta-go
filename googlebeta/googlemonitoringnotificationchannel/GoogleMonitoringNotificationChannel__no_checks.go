@@ -107,6 +107,10 @@ func (j *jsiiProxy_GoogleMonitoringNotificationChannel) validateSetCountParamete
 	return nil
 }
 
+func (j *jsiiProxy_GoogleMonitoringNotificationChannel) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleMonitoringNotificationChannel) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

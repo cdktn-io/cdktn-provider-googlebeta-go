@@ -370,6 +370,14 @@ func (j *jsiiProxy_GoogleAccessContextManagerServicePerimeterDryRunEgressPolicy)
 	return nil
 }
 
+func (j *jsiiProxy_GoogleAccessContextManagerServicePerimeterDryRunEgressPolicy) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_GoogleAccessContextManagerServicePerimeterDryRunEgressPolicy) validateSetIdParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

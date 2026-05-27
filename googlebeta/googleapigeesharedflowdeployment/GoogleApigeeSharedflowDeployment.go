@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_sharedflow_deployment google_apigee_sharedflow_deployment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_sharedflow_deployment google_apigee_sharedflow_deployment}.
 type GoogleApigeeSharedflowDeployment interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -27,6 +27,9 @@ type GoogleApigeeSharedflowDeployment interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -125,6 +128,7 @@ type GoogleApigeeSharedflowDeployment interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *GoogleApigeeSharedflowDeploymentTimeouts)
+	ResetDeletionPolicy()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -193,6 +197,26 @@ func (j *jsiiProxy_GoogleApigeeSharedflowDeployment) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleApigeeSharedflowDeployment) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleApigeeSharedflowDeployment) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -459,7 +483,7 @@ func (j *jsiiProxy_GoogleApigeeSharedflowDeployment) TimeoutsInput() interface{}
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_sharedflow_deployment google_apigee_sharedflow_deployment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_sharedflow_deployment google_apigee_sharedflow_deployment} Resource.
 func NewGoogleApigeeSharedflowDeployment(scope constructs.Construct, id *string, config *GoogleApigeeSharedflowDeploymentConfig) GoogleApigeeSharedflowDeployment {
 	_init_.Initialize()
 
@@ -477,7 +501,7 @@ func NewGoogleApigeeSharedflowDeployment(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_sharedflow_deployment google_apigee_sharedflow_deployment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_sharedflow_deployment google_apigee_sharedflow_deployment} Resource.
 func NewGoogleApigeeSharedflowDeployment_Override(g GoogleApigeeSharedflowDeployment, scope constructs.Construct, id *string, config *GoogleApigeeSharedflowDeploymentConfig) {
 	_init_.Initialize()
 
@@ -506,6 +530,17 @@ func (j *jsiiProxy_GoogleApigeeSharedflowDeployment)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleApigeeSharedflowDeployment)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -983,6 +1018,14 @@ func (g *jsiiProxy_GoogleApigeeSharedflowDeployment) PutTimeouts(value *GoogleAp
 		g,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleApigeeSharedflowDeployment) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

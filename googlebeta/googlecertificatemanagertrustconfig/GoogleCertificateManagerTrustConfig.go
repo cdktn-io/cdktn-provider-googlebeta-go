@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_certificate_manager_trust_config google_certificate_manager_trust_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_certificate_manager_trust_config google_certificate_manager_trust_config}.
 type GoogleCertificateManagerTrustConfig interface {
 	cdktn.TerraformResource
 	AllowlistedCertificates() GoogleCertificateManagerTrustConfigAllowlistedCertificatesList
@@ -30,6 +30,9 @@ type GoogleCertificateManagerTrustConfig interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -136,6 +139,7 @@ type GoogleCertificateManagerTrustConfig interface {
 	PutTimeouts(value *GoogleCertificateManagerTrustConfigTimeouts)
 	PutTrustStores(value interface{})
 	ResetAllowlistedCertificates()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	ResetLabels()
@@ -237,6 +241,26 @@ func (j *jsiiProxy_GoogleCertificateManagerTrustConfig) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCertificateManagerTrustConfig) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCertificateManagerTrustConfig) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -553,7 +577,7 @@ func (j *jsiiProxy_GoogleCertificateManagerTrustConfig) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_certificate_manager_trust_config google_certificate_manager_trust_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_certificate_manager_trust_config google_certificate_manager_trust_config} Resource.
 func NewGoogleCertificateManagerTrustConfig(scope constructs.Construct, id *string, config *GoogleCertificateManagerTrustConfigConfig) GoogleCertificateManagerTrustConfig {
 	_init_.Initialize()
 
@@ -571,7 +595,7 @@ func NewGoogleCertificateManagerTrustConfig(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_certificate_manager_trust_config google_certificate_manager_trust_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_certificate_manager_trust_config google_certificate_manager_trust_config} Resource.
 func NewGoogleCertificateManagerTrustConfig_Override(g GoogleCertificateManagerTrustConfig, scope constructs.Construct, id *string, config *GoogleCertificateManagerTrustConfigConfig) {
 	_init_.Initialize()
 
@@ -600,6 +624,17 @@ func (j *jsiiProxy_GoogleCertificateManagerTrustConfig)SetCount(val interface{})
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleCertificateManagerTrustConfig)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1106,6 +1141,14 @@ func (g *jsiiProxy_GoogleCertificateManagerTrustConfig) ResetAllowlistedCertific
 	_jsii_.InvokeVoid(
 		g,
 		"resetAllowlistedCertificates",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleCertificateManagerTrustConfig) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

@@ -123,6 +123,10 @@ func (j *jsiiProxy_GoogleComputeReservation) validateSetDeleteAtTimeParameters(v
 	return nil
 }
 
+func (j *jsiiProxy_GoogleComputeReservation) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleComputeReservation) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

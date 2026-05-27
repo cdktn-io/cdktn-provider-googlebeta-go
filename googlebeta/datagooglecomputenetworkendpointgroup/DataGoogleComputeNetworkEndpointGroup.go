@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_compute_network_endpoint_group google_compute_network_endpoint_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/data-sources/google_compute_network_endpoint_group google_compute_network_endpoint_group}.
 type DataGoogleComputeNetworkEndpointGroup interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -24,6 +24,7 @@ type DataGoogleComputeNetworkEndpointGroup interface {
 	// Experimental.
 	SetCount(val interface{})
 	DefaultPort() *float64
+	DeletionPolicy() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -171,6 +172,16 @@ func (j *jsiiProxy_DataGoogleComputeNetworkEndpointGroup) DefaultPort() *float64
 	_jsii_.Get(
 		j,
 		"defaultPort",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleComputeNetworkEndpointGroup) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
 		&returns,
 	)
 	return returns
@@ -447,7 +458,7 @@ func (j *jsiiProxy_DataGoogleComputeNetworkEndpointGroup) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_compute_network_endpoint_group google_compute_network_endpoint_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/data-sources/google_compute_network_endpoint_group google_compute_network_endpoint_group} Data Source.
 func NewDataGoogleComputeNetworkEndpointGroup(scope constructs.Construct, id *string, config *DataGoogleComputeNetworkEndpointGroupConfig) DataGoogleComputeNetworkEndpointGroup {
 	_init_.Initialize()
 
@@ -465,7 +476,7 @@ func NewDataGoogleComputeNetworkEndpointGroup(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_compute_network_endpoint_group google_compute_network_endpoint_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/data-sources/google_compute_network_endpoint_group google_compute_network_endpoint_group} Data Source.
 func NewDataGoogleComputeNetworkEndpointGroup_Override(d DataGoogleComputeNetworkEndpointGroup, scope constructs.Construct, id *string, config *DataGoogleComputeNetworkEndpointGroupConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_alloydb_instance google_alloydb_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_alloydb_instance google_alloydb_instance}.
 type GoogleAlloydbInstance interface {
 	cdktn.TerraformResource
 	ActivationPolicy() *string
@@ -47,6 +47,9 @@ type GoogleAlloydbInstance interface {
 	DatabaseFlags() *map[string]*string
 	SetDatabaseFlags(val *map[string]*string)
 	DatabaseFlagsInput() *map[string]*string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -182,6 +185,7 @@ type GoogleAlloydbInstance interface {
 	ResetClientConnectionConfig()
 	ResetConnectionPoolConfig()
 	ResetDatabaseFlags()
+	ResetDeletionPolicy()
 	ResetDisplayName()
 	ResetGceZone()
 	ResetId()
@@ -408,6 +412,26 @@ func (j *jsiiProxy_GoogleAlloydbInstance) DatabaseFlagsInput() *map[string]*stri
 	_jsii_.Get(
 		j,
 		"databaseFlagsInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleAlloydbInstance) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleAlloydbInstance) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -904,7 +928,7 @@ func (j *jsiiProxy_GoogleAlloydbInstance) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_alloydb_instance google_alloydb_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_alloydb_instance google_alloydb_instance} Resource.
 func NewGoogleAlloydbInstance(scope constructs.Construct, id *string, config *GoogleAlloydbInstanceConfig) GoogleAlloydbInstance {
 	_init_.Initialize()
 
@@ -922,7 +946,7 @@ func NewGoogleAlloydbInstance(scope constructs.Construct, id *string, config *Go
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_alloydb_instance google_alloydb_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_alloydb_instance google_alloydb_instance} Resource.
 func NewGoogleAlloydbInstance_Override(g GoogleAlloydbInstance, scope constructs.Construct, id *string, config *GoogleAlloydbInstanceConfig) {
 	_init_.Initialize()
 
@@ -1006,6 +1030,17 @@ func (j *jsiiProxy_GoogleAlloydbInstance)SetDatabaseFlags(val *map[string]*strin
 	_jsii_.Set(
 		j,
 		"databaseFlags",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleAlloydbInstance)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1618,6 +1653,14 @@ func (g *jsiiProxy_GoogleAlloydbInstance) ResetDatabaseFlags() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetDatabaseFlags",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleAlloydbInstance) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

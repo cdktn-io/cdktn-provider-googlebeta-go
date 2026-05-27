@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_gke_backup_restore_plan google_gke_backup_restore_plan}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_gke_backup_restore_plan google_gke_backup_restore_plan}.
 type GoogleGkeBackupRestorePlan interface {
 	cdktn.TerraformResource
 	BackupPlan() *string
@@ -33,6 +33,9 @@ type GoogleGkeBackupRestorePlan interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -139,6 +142,7 @@ type GoogleGkeBackupRestorePlan interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutRestoreConfig(value *GoogleGkeBackupRestorePlanRestoreConfig)
 	PutTimeouts(value *GoogleGkeBackupRestorePlanTimeouts)
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	ResetLabels()
@@ -249,6 +253,26 @@ func (j *jsiiProxy_GoogleGkeBackupRestorePlan) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleGkeBackupRestorePlan) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleGkeBackupRestorePlan) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -585,7 +609,7 @@ func (j *jsiiProxy_GoogleGkeBackupRestorePlan) Uid() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_gke_backup_restore_plan google_gke_backup_restore_plan} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_gke_backup_restore_plan google_gke_backup_restore_plan} Resource.
 func NewGoogleGkeBackupRestorePlan(scope constructs.Construct, id *string, config *GoogleGkeBackupRestorePlanConfig) GoogleGkeBackupRestorePlan {
 	_init_.Initialize()
 
@@ -603,7 +627,7 @@ func NewGoogleGkeBackupRestorePlan(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_gke_backup_restore_plan google_gke_backup_restore_plan} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_gke_backup_restore_plan google_gke_backup_restore_plan} Resource.
 func NewGoogleGkeBackupRestorePlan_Override(g GoogleGkeBackupRestorePlan, scope constructs.Construct, id *string, config *GoogleGkeBackupRestorePlanConfig) {
 	_init_.Initialize()
 
@@ -654,6 +678,17 @@ func (j *jsiiProxy_GoogleGkeBackupRestorePlan)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleGkeBackupRestorePlan)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1142,6 +1177,14 @@ func (g *jsiiProxy_GoogleGkeBackupRestorePlan) PutTimeouts(value *GoogleGkeBacku
 		g,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleGkeBackupRestorePlan) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

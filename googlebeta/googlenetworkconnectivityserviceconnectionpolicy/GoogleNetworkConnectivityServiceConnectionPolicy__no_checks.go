@@ -107,6 +107,10 @@ func (j *jsiiProxy_GoogleNetworkConnectivityServiceConnectionPolicy) validateSet
 	return nil
 }
 
+func (j *jsiiProxy_GoogleNetworkConnectivityServiceConnectionPolicy) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleNetworkConnectivityServiceConnectionPolicy) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

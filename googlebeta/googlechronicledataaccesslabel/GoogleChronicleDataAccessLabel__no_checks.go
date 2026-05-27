@@ -107,6 +107,10 @@ func (j *jsiiProxy_GoogleChronicleDataAccessLabel) validateSetDataAccessLabelIdP
 	return nil
 }
 
+func (j *jsiiProxy_GoogleChronicleDataAccessLabel) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleChronicleDataAccessLabel) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

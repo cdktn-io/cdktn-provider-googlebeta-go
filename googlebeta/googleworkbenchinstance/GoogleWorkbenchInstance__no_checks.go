@@ -107,6 +107,10 @@ func (j *jsiiProxy_GoogleWorkbenchInstance) validateSetCountParameters(val inter
 	return nil
 }
 
+func (j *jsiiProxy_GoogleWorkbenchInstance) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleWorkbenchInstance) validateSetDesiredStateParameters(val *string) error {
 	return nil
 }

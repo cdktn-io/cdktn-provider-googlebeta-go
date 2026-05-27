@@ -135,6 +135,10 @@ func (j *jsiiProxy_GoogleWorkstationsWorkstationConfigA) validateSetCountParamet
 	return nil
 }
 
+func (j *jsiiProxy_GoogleWorkstationsWorkstationConfigA) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleWorkstationsWorkstationConfigA) validateSetDisableTcpConnectionsParameters(val interface{}) error {
 	return nil
 }

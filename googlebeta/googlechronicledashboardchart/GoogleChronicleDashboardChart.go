@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_chronicle_dashboard_chart google_chronicle_dashboard_chart}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_chronicle_dashboard_chart google_chronicle_dashboard_chart}.
 type GoogleChronicleDashboardChart interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -34,6 +34,9 @@ type GoogleChronicleDashboardChart interface {
 	DashboardChartInput() *GoogleChronicleDashboardChartDashboardChart
 	DashboardQuery() GoogleChronicleDashboardChartDashboardQueryOutputReference
 	DashboardQueryInput() *GoogleChronicleDashboardChartDashboardQuery
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -135,6 +138,7 @@ type GoogleChronicleDashboardChart interface {
 	PutTimeouts(value *GoogleChronicleDashboardChartTimeouts)
 	ResetChartLayout()
 	ResetDashboardQuery()
+	ResetDeletionPolicy()
 	ResetId()
 	ResetNativeDashboard()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -274,6 +278,26 @@ func (j *jsiiProxy_GoogleChronicleDashboardChart) DashboardQueryInput() *GoogleC
 	_jsii_.Get(
 		j,
 		"dashboardQueryInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleChronicleDashboardChart) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleChronicleDashboardChart) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -530,7 +554,7 @@ func (j *jsiiProxy_GoogleChronicleDashboardChart) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_chronicle_dashboard_chart google_chronicle_dashboard_chart} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_chronicle_dashboard_chart google_chronicle_dashboard_chart} Resource.
 func NewGoogleChronicleDashboardChart(scope constructs.Construct, id *string, config *GoogleChronicleDashboardChartConfig) GoogleChronicleDashboardChart {
 	_init_.Initialize()
 
@@ -548,7 +572,7 @@ func NewGoogleChronicleDashboardChart(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_chronicle_dashboard_chart google_chronicle_dashboard_chart} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_chronicle_dashboard_chart google_chronicle_dashboard_chart} Resource.
 func NewGoogleChronicleDashboardChart_Override(g GoogleChronicleDashboardChart, scope constructs.Construct, id *string, config *GoogleChronicleDashboardChartConfig) {
 	_init_.Initialize()
 
@@ -577,6 +601,17 @@ func (j *jsiiProxy_GoogleChronicleDashboardChart)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleChronicleDashboardChart)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1091,6 +1126,14 @@ func (g *jsiiProxy_GoogleChronicleDashboardChart) ResetDashboardQuery() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetDashboardQuery",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleChronicleDashboardChart) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

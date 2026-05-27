@@ -103,6 +103,10 @@ func (j *jsiiProxy_GoogleApigeeSharedflowDeployment) validateSetCountParameters(
 	return nil
 }
 
+func (j *jsiiProxy_GoogleApigeeSharedflowDeployment) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleApigeeSharedflowDeployment) validateSetEnvironmentParameters(val *string) error {
 	return nil
 }

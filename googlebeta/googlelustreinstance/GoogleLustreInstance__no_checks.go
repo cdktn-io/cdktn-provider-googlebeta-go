@@ -119,6 +119,10 @@ func (j *jsiiProxy_GoogleLustreInstance) validateSetCountParameters(val interfac
 	return nil
 }
 
+func (j *jsiiProxy_GoogleLustreInstance) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleLustreInstance) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

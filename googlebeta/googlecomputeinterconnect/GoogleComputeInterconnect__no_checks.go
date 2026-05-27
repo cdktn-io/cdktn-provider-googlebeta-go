@@ -127,6 +127,10 @@ func (j *jsiiProxy_GoogleComputeInterconnect) validateSetCustomerNameParameters(
 	return nil
 }
 
+func (j *jsiiProxy_GoogleComputeInterconnect) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleComputeInterconnect) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

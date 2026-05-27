@@ -103,6 +103,10 @@ func (j *jsiiProxy_GoogleAccessContextManagerIngressPolicy) validateSetCountPara
 	return nil
 }
 
+func (j *jsiiProxy_GoogleAccessContextManagerIngressPolicy) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleAccessContextManagerIngressPolicy) validateSetIdParameters(val *string) error {
 	return nil
 }

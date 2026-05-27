@@ -35,6 +35,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "datapathProvider", GoGetter: "DatapathProvider"},
 			_jsii_.MemberProperty{JsiiProperty: "defaultMaxPodsPerNode", GoGetter: "DefaultMaxPodsPerNode"},
 			_jsii_.MemberProperty{JsiiProperty: "defaultSnatStatus", GoGetter: "DefaultSnatStatus"},
+			_jsii_.MemberProperty{JsiiProperty: "deletionPolicy", GoGetter: "DeletionPolicy"},
 			_jsii_.MemberProperty{JsiiProperty: "deletionProtection", GoGetter: "DeletionProtection"},
 			_jsii_.MemberProperty{JsiiProperty: "dependsOn", GoGetter: "DependsOn"},
 			_jsii_.MemberProperty{JsiiProperty: "description", GoGetter: "Description"},

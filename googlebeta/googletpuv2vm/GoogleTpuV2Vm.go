@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_tpu_v2_vm google_tpu_v2_vm}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_tpu_v2_vm google_tpu_v2_vm}.
 type GoogleTpuV2Vm interface {
 	cdktn.TerraformResource
 	AcceleratorConfig() GoogleTpuV2VmAcceleratorConfigOutputReference
@@ -38,6 +38,9 @@ type GoogleTpuV2Vm interface {
 	SetCount(val interface{})
 	DataDisks() GoogleTpuV2VmDataDisksList
 	DataDisksInput() interface{}
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -175,6 +178,7 @@ type GoogleTpuV2Vm interface {
 	ResetAcceleratorType()
 	ResetCidrBlock()
 	ResetDataDisks()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	ResetLabels()
@@ -343,6 +347,26 @@ func (j *jsiiProxy_GoogleTpuV2Vm) DataDisksInput() interface{} {
 	_jsii_.Get(
 		j,
 		"dataDisksInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleTpuV2Vm) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleTpuV2Vm) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -859,7 +883,7 @@ func (j *jsiiProxy_GoogleTpuV2Vm) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_tpu_v2_vm google_tpu_v2_vm} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_tpu_v2_vm google_tpu_v2_vm} Resource.
 func NewGoogleTpuV2Vm(scope constructs.Construct, id *string, config *GoogleTpuV2VmConfig) GoogleTpuV2Vm {
 	_init_.Initialize()
 
@@ -877,7 +901,7 @@ func NewGoogleTpuV2Vm(scope constructs.Construct, id *string, config *GoogleTpuV
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_tpu_v2_vm google_tpu_v2_vm} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_tpu_v2_vm google_tpu_v2_vm} Resource.
 func NewGoogleTpuV2Vm_Override(g GoogleTpuV2Vm, scope constructs.Construct, id *string, config *GoogleTpuV2VmConfig) {
 	_init_.Initialize()
 
@@ -928,6 +952,17 @@ func (j *jsiiProxy_GoogleTpuV2Vm)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleTpuV2Vm)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1546,6 +1581,14 @@ func (g *jsiiProxy_GoogleTpuV2Vm) ResetDataDisks() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetDataDisks",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleTpuV2Vm) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

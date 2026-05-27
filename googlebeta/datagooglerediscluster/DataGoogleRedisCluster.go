@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_redis_cluster google_redis_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/data-sources/google_redis_cluster google_redis_cluster}.
 type DataGoogleRedisCluster interface {
 	cdktn.TerraformDataSource
 	AuthorizationMode() *string
@@ -29,6 +29,7 @@ type DataGoogleRedisCluster interface {
 	SetCount(val interface{})
 	CreateTime() *string
 	CrossClusterReplicationConfig() DataGoogleRedisClusterCrossClusterReplicationConfigList
+	DeletionPolicy() *string
 	DeletionProtectionEnabled() cdktn.IResolvable
 	// Experimental.
 	DependsOn() *[]*string
@@ -245,6 +246,16 @@ func (j *jsiiProxy_DataGoogleRedisCluster) CrossClusterReplicationConfig() DataG
 	_jsii_.Get(
 		j,
 		"crossClusterReplicationConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleRedisCluster) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
 		&returns,
 	)
 	return returns
@@ -741,7 +752,7 @@ func (j *jsiiProxy_DataGoogleRedisCluster) ZoneDistributionConfig() DataGoogleRe
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_redis_cluster google_redis_cluster} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/data-sources/google_redis_cluster google_redis_cluster} Data Source.
 func NewDataGoogleRedisCluster(scope constructs.Construct, id *string, config *DataGoogleRedisClusterConfig) DataGoogleRedisCluster {
 	_init_.Initialize()
 
@@ -759,7 +770,7 @@ func NewDataGoogleRedisCluster(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_redis_cluster google_redis_cluster} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/data-sources/google_redis_cluster google_redis_cluster} Data Source.
 func NewDataGoogleRedisCluster_Override(d DataGoogleRedisCluster, scope constructs.Construct, id *string, config *DataGoogleRedisClusterConfig) {
 	_init_.Initialize()
 

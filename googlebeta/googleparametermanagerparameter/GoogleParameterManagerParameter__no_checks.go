@@ -103,6 +103,10 @@ func (j *jsiiProxy_GoogleParameterManagerParameter) validateSetCountParameters(v
 	return nil
 }
 
+func (j *jsiiProxy_GoogleParameterManagerParameter) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleParameterManagerParameter) validateSetFormatParameters(val *string) error {
 	return nil
 }

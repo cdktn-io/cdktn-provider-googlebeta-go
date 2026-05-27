@@ -111,6 +111,10 @@ func (j *jsiiProxy_GoogleCertificateManagerTrustConfig) validateSetCountParamete
 	return nil
 }
 
+func (j *jsiiProxy_GoogleCertificateManagerTrustConfig) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleCertificateManagerTrustConfig) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

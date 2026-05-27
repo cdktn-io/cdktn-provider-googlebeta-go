@@ -107,6 +107,10 @@ func (j *jsiiProxy_GoogleNetappBackupPolicy) validateSetDailyBackupLimitParamete
 	return nil
 }
 
+func (j *jsiiProxy_GoogleNetappBackupPolicy) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleNetappBackupPolicy) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

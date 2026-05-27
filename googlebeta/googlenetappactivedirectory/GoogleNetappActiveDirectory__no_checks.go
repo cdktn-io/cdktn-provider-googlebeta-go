@@ -115,6 +115,10 @@ func (j *jsiiProxy_GoogleNetappActiveDirectory) validateSetCountParameters(val i
 	return nil
 }
 
+func (j *jsiiProxy_GoogleNetappActiveDirectory) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleNetappActiveDirectory) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

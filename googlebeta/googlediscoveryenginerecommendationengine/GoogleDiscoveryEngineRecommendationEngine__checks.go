@@ -378,6 +378,14 @@ func (j *jsiiProxy_GoogleDiscoveryEngineRecommendationEngine) validateSetDataSto
 	return nil
 }
 
+func (j *jsiiProxy_GoogleDiscoveryEngineRecommendationEngine) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_GoogleDiscoveryEngineRecommendationEngine) validateSetDisplayNameParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

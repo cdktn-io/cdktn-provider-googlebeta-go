@@ -460,6 +460,14 @@ func (j *jsiiProxy_GoogleHypercomputeclusterCluster) validateSetCountParameters(
 	return nil
 }
 
+func (j *jsiiProxy_GoogleHypercomputeclusterCluster) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_GoogleHypercomputeclusterCluster) validateSetDescriptionParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

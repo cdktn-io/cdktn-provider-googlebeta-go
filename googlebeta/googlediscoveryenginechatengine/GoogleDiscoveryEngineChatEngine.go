@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_discovery_engine_chat_engine google_discovery_engine_chat_engine}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_discovery_engine_chat_engine google_discovery_engine_chat_engine}.
 type GoogleDiscoveryEngineChatEngine interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -39,6 +39,9 @@ type GoogleDiscoveryEngineChatEngine interface {
 	DataStoreIds() *[]*string
 	SetDataStoreIds(val *[]*string)
 	DataStoreIdsInput() *[]*string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -142,6 +145,7 @@ type GoogleDiscoveryEngineChatEngine interface {
 	PutCommonConfig(value *GoogleDiscoveryEngineChatEngineCommonConfig)
 	PutTimeouts(value *GoogleDiscoveryEngineChatEngineTimeouts)
 	ResetCommonConfig()
+	ResetDeletionPolicy()
 	ResetId()
 	ResetIndustryVertical()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -311,6 +315,26 @@ func (j *jsiiProxy_GoogleDiscoveryEngineChatEngine) DataStoreIdsInput() *[]*stri
 	_jsii_.Get(
 		j,
 		"dataStoreIdsInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDiscoveryEngineChatEngine) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDiscoveryEngineChatEngine) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -597,7 +621,7 @@ func (j *jsiiProxy_GoogleDiscoveryEngineChatEngine) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_discovery_engine_chat_engine google_discovery_engine_chat_engine} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_discovery_engine_chat_engine google_discovery_engine_chat_engine} Resource.
 func NewGoogleDiscoveryEngineChatEngine(scope constructs.Construct, id *string, config *GoogleDiscoveryEngineChatEngineConfig) GoogleDiscoveryEngineChatEngine {
 	_init_.Initialize()
 
@@ -615,7 +639,7 @@ func NewGoogleDiscoveryEngineChatEngine(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_discovery_engine_chat_engine google_discovery_engine_chat_engine} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_discovery_engine_chat_engine google_discovery_engine_chat_engine} Resource.
 func NewGoogleDiscoveryEngineChatEngine_Override(g GoogleDiscoveryEngineChatEngine, scope constructs.Construct, id *string, config *GoogleDiscoveryEngineChatEngineConfig) {
 	_init_.Initialize()
 
@@ -666,6 +690,17 @@ func (j *jsiiProxy_GoogleDiscoveryEngineChatEngine)SetDataStoreIds(val *[]*strin
 	_jsii_.Set(
 		j,
 		"dataStoreIds",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleDiscoveryEngineChatEngine)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1172,6 +1207,14 @@ func (g *jsiiProxy_GoogleDiscoveryEngineChatEngine) ResetCommonConfig() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetCommonConfig",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleDiscoveryEngineChatEngine) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

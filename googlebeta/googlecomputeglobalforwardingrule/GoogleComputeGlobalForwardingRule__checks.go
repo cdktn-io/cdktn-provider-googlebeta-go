@@ -410,6 +410,14 @@ func (j *jsiiProxy_GoogleComputeGlobalForwardingRule) validateSetCountParameters
 	return nil
 }
 
+func (j *jsiiProxy_GoogleComputeGlobalForwardingRule) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_GoogleComputeGlobalForwardingRule) validateSetDescriptionParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

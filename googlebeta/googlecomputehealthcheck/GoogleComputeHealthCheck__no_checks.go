@@ -139,6 +139,10 @@ func (j *jsiiProxy_GoogleComputeHealthCheck) validateSetCountParameters(val inte
 	return nil
 }
 
+func (j *jsiiProxy_GoogleComputeHealthCheck) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleComputeHealthCheck) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

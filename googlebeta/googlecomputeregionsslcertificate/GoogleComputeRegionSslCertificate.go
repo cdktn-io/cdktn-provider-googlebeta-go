@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_ssl_certificate google_compute_region_ssl_certificate}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_ssl_certificate google_compute_region_ssl_certificate}.
 type GoogleComputeRegionSslCertificate interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -32,6 +32,9 @@ type GoogleComputeRegionSslCertificate interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreationTimestamp() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -141,6 +144,7 @@ type GoogleComputeRegionSslCertificate interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *GoogleComputeRegionSslCertificateTimeouts)
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	ResetName()
@@ -256,6 +260,26 @@ func (j *jsiiProxy_GoogleComputeRegionSslCertificate) CreationTimestamp() *strin
 	_jsii_.Get(
 		j,
 		"creationTimestamp",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeRegionSslCertificate) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeRegionSslCertificate) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -602,7 +626,7 @@ func (j *jsiiProxy_GoogleComputeRegionSslCertificate) TimeoutsInput() interface{
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_ssl_certificate google_compute_region_ssl_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_ssl_certificate google_compute_region_ssl_certificate} Resource.
 func NewGoogleComputeRegionSslCertificate(scope constructs.Construct, id *string, config *GoogleComputeRegionSslCertificateConfig) GoogleComputeRegionSslCertificate {
 	_init_.Initialize()
 
@@ -620,7 +644,7 @@ func NewGoogleComputeRegionSslCertificate(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_ssl_certificate google_compute_region_ssl_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_ssl_certificate google_compute_region_ssl_certificate} Resource.
 func NewGoogleComputeRegionSslCertificate_Override(g GoogleComputeRegionSslCertificate, scope constructs.Construct, id *string, config *GoogleComputeRegionSslCertificateConfig) {
 	_init_.Initialize()
 
@@ -660,6 +684,17 @@ func (j *jsiiProxy_GoogleComputeRegionSslCertificate)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleComputeRegionSslCertificate)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1170,6 +1205,14 @@ func (g *jsiiProxy_GoogleComputeRegionSslCertificate) PutTimeouts(value *GoogleC
 		g,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleComputeRegionSslCertificate) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

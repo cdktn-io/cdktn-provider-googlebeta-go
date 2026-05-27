@@ -147,6 +147,10 @@ func (j *jsiiProxy_GoogleDialogflowCxAgent) validateSetDeleteChatEngineOnDestroy
 	return nil
 }
 
+func (j *jsiiProxy_GoogleDialogflowCxAgent) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleDialogflowCxAgent) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

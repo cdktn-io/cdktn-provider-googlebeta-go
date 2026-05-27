@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_chronicle_data_access_label google_chronicle_data_access_label}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_chronicle_data_access_label google_chronicle_data_access_label}.
 type GoogleChronicleDataAccessLabel interface {
 	cdktn.TerraformResource
 	Author() *string
@@ -32,6 +32,9 @@ type GoogleChronicleDataAccessLabel interface {
 	DataAccessLabelId() *string
 	SetDataAccessLabelId(val *string)
 	DataAccessLabelIdInput() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -134,6 +137,7 @@ type GoogleChronicleDataAccessLabel interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *GoogleChronicleDataAccessLabelTimeouts)
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -243,6 +247,26 @@ func (j *jsiiProxy_GoogleChronicleDataAccessLabel) DataAccessLabelIdInput() *str
 	_jsii_.Get(
 		j,
 		"dataAccessLabelIdInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleChronicleDataAccessLabel) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleChronicleDataAccessLabel) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -549,7 +573,7 @@ func (j *jsiiProxy_GoogleChronicleDataAccessLabel) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_chronicle_data_access_label google_chronicle_data_access_label} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_chronicle_data_access_label google_chronicle_data_access_label} Resource.
 func NewGoogleChronicleDataAccessLabel(scope constructs.Construct, id *string, config *GoogleChronicleDataAccessLabelConfig) GoogleChronicleDataAccessLabel {
 	_init_.Initialize()
 
@@ -567,7 +591,7 @@ func NewGoogleChronicleDataAccessLabel(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_chronicle_data_access_label google_chronicle_data_access_label} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_chronicle_data_access_label google_chronicle_data_access_label} Resource.
 func NewGoogleChronicleDataAccessLabel_Override(g GoogleChronicleDataAccessLabel, scope constructs.Construct, id *string, config *GoogleChronicleDataAccessLabelConfig) {
 	_init_.Initialize()
 
@@ -607,6 +631,17 @@ func (j *jsiiProxy_GoogleChronicleDataAccessLabel)SetDataAccessLabelId(val *stri
 	_jsii_.Set(
 		j,
 		"dataAccessLabelId",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleChronicleDataAccessLabel)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1084,6 +1119,14 @@ func (g *jsiiProxy_GoogleChronicleDataAccessLabel) PutTimeouts(value *GoogleChro
 		g,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleChronicleDataAccessLabel) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_storage_pool google_compute_storage_pool}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_storage_pool google_compute_storage_pool}.
 type GoogleComputeStoragePool interface {
 	cdktn.TerraformResource
 	CapacityProvisioningType() *string
@@ -31,6 +31,9 @@ type GoogleComputeStoragePool interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreationTimestamp() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	DeletionProtection() interface{}
 	SetDeletionProtection(val interface{})
 	DeletionProtectionInput() interface{}
@@ -155,6 +158,7 @@ type GoogleComputeStoragePool interface {
 	PutParams(value *GoogleComputeStoragePoolParams)
 	PutTimeouts(value *GoogleComputeStoragePoolTimeouts)
 	ResetCapacityProvisioningType()
+	ResetDeletionPolicy()
 	ResetDeletionProtection()
 	ResetDescription()
 	ResetLabels()
@@ -259,6 +263,26 @@ func (j *jsiiProxy_GoogleComputeStoragePool) CreationTimestamp() *string {
 	_jsii_.Get(
 		j,
 		"creationTimestamp",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeStoragePool) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeStoragePool) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -715,7 +739,7 @@ func (j *jsiiProxy_GoogleComputeStoragePool) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_storage_pool google_compute_storage_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_storage_pool google_compute_storage_pool} Resource.
 func NewGoogleComputeStoragePool(scope constructs.Construct, id *string, config *GoogleComputeStoragePoolConfig) GoogleComputeStoragePool {
 	_init_.Initialize()
 
@@ -733,7 +757,7 @@ func NewGoogleComputeStoragePool(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_storage_pool google_compute_storage_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_storage_pool google_compute_storage_pool} Resource.
 func NewGoogleComputeStoragePool_Override(g GoogleComputeStoragePool, scope constructs.Construct, id *string, config *GoogleComputeStoragePoolConfig) {
 	_init_.Initialize()
 
@@ -773,6 +797,17 @@ func (j *jsiiProxy_GoogleComputeStoragePool)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleComputeStoragePool)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1323,6 +1358,14 @@ func (g *jsiiProxy_GoogleComputeStoragePool) ResetCapacityProvisioningType() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetCapacityProvisioningType",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleComputeStoragePool) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

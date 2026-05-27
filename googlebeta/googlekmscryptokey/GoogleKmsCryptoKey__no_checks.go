@@ -115,6 +115,10 @@ func (j *jsiiProxy_GoogleKmsCryptoKey) validateSetCryptoKeyBackendParameters(val
 	return nil
 }
 
+func (j *jsiiProxy_GoogleKmsCryptoKey) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleKmsCryptoKey) validateSetDestroyScheduledDurationParameters(val *string) error {
 	return nil
 }

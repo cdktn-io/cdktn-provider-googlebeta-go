@@ -103,6 +103,10 @@ func (j *jsiiProxy_GoogleObservabilityTraceScope) validateSetCountParameters(val
 	return nil
 }
 
+func (j *jsiiProxy_GoogleObservabilityTraceScope) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleObservabilityTraceScope) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

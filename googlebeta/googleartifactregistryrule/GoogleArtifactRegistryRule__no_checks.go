@@ -111,6 +111,10 @@ func (j *jsiiProxy_GoogleArtifactRegistryRule) validateSetCountParameters(val in
 	return nil
 }
 
+func (j *jsiiProxy_GoogleArtifactRegistryRule) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleArtifactRegistryRule) validateSetIdParameters(val *string) error {
 	return nil
 }

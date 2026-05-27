@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_database_migration_service_private_connection google_database_migration_service_private_connection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_database_migration_service_private_connection google_database_migration_service_private_connection}.
 type GoogleDatabaseMigrationServicePrivateConnection interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -30,6 +30,9 @@ type GoogleDatabaseMigrationServicePrivateConnection interface {
 	CreateWithoutValidation() interface{}
 	SetCreateWithoutValidation(val interface{})
 	CreateWithoutValidationInput() interface{}
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -77,6 +80,8 @@ type GoogleDatabaseMigrationServicePrivateConnection interface {
 	Provisioners() *[]interface{}
 	// Experimental.
 	SetProvisioners(val *[]interface{})
+	PscInterfaceConfig() GoogleDatabaseMigrationServicePrivateConnectionPscInterfaceConfigOutputReference
+	PscInterfaceConfigInput() *GoogleDatabaseMigrationServicePrivateConnectionPscInterfaceConfig
 	// Experimental.
 	RawOverrides() interface{}
 	State() *string
@@ -134,9 +139,11 @@ type GoogleDatabaseMigrationServicePrivateConnection interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	PutPscInterfaceConfig(value *GoogleDatabaseMigrationServicePrivateConnectionPscInterfaceConfig)
 	PutTimeouts(value *GoogleDatabaseMigrationServicePrivateConnectionTimeouts)
 	PutVpcPeeringConfig(value *GoogleDatabaseMigrationServicePrivateConnectionVpcPeeringConfig)
 	ResetCreateWithoutValidation()
+	ResetDeletionPolicy()
 	ResetDisplayName()
 	ResetId()
 	ResetLabels()
@@ -144,7 +151,9 @@ type GoogleDatabaseMigrationServicePrivateConnection interface {
 	// Experimental.
 	ResetOverrideLogicalId()
 	ResetProject()
+	ResetPscInterfaceConfig()
 	ResetTimeouts()
+	ResetVpcPeeringConfig()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
 	// Experimental.
@@ -227,6 +236,26 @@ func (j *jsiiProxy_GoogleDatabaseMigrationServicePrivateConnection) CreateWithou
 	_jsii_.Get(
 		j,
 		"createWithoutValidationInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDatabaseMigrationServicePrivateConnection) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDatabaseMigrationServicePrivateConnection) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -462,6 +491,26 @@ func (j *jsiiProxy_GoogleDatabaseMigrationServicePrivateConnection) Provisioners
 	return returns
 }
 
+func (j *jsiiProxy_GoogleDatabaseMigrationServicePrivateConnection) PscInterfaceConfig() GoogleDatabaseMigrationServicePrivateConnectionPscInterfaceConfigOutputReference {
+	var returns GoogleDatabaseMigrationServicePrivateConnectionPscInterfaceConfigOutputReference
+	_jsii_.Get(
+		j,
+		"pscInterfaceConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDatabaseMigrationServicePrivateConnection) PscInterfaceConfigInput() *GoogleDatabaseMigrationServicePrivateConnectionPscInterfaceConfig {
+	var returns *GoogleDatabaseMigrationServicePrivateConnectionPscInterfaceConfig
+	_jsii_.Get(
+		j,
+		"pscInterfaceConfigInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleDatabaseMigrationServicePrivateConnection) RawOverrides() interface{} {
 	var returns interface{}
 	_jsii_.Get(
@@ -563,7 +612,7 @@ func (j *jsiiProxy_GoogleDatabaseMigrationServicePrivateConnection) VpcPeeringCo
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_database_migration_service_private_connection google_database_migration_service_private_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_database_migration_service_private_connection google_database_migration_service_private_connection} Resource.
 func NewGoogleDatabaseMigrationServicePrivateConnection(scope constructs.Construct, id *string, config *GoogleDatabaseMigrationServicePrivateConnectionConfig) GoogleDatabaseMigrationServicePrivateConnection {
 	_init_.Initialize()
 
@@ -581,7 +630,7 @@ func NewGoogleDatabaseMigrationServicePrivateConnection(scope constructs.Constru
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_database_migration_service_private_connection google_database_migration_service_private_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_database_migration_service_private_connection google_database_migration_service_private_connection} Resource.
 func NewGoogleDatabaseMigrationServicePrivateConnection_Override(g GoogleDatabaseMigrationServicePrivateConnection, scope constructs.Construct, id *string, config *GoogleDatabaseMigrationServicePrivateConnectionConfig) {
 	_init_.Initialize()
 
@@ -621,6 +670,17 @@ func (j *jsiiProxy_GoogleDatabaseMigrationServicePrivateConnection)SetCreateWith
 	_jsii_.Set(
 		j,
 		"createWithoutValidation",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleDatabaseMigrationServicePrivateConnection)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1090,6 +1150,17 @@ func (g *jsiiProxy_GoogleDatabaseMigrationServicePrivateConnection) OverrideLogi
 	)
 }
 
+func (g *jsiiProxy_GoogleDatabaseMigrationServicePrivateConnection) PutPscInterfaceConfig(value *GoogleDatabaseMigrationServicePrivateConnectionPscInterfaceConfig) {
+	if err := g.validatePutPscInterfaceConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putPscInterfaceConfig",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleDatabaseMigrationServicePrivateConnection) PutTimeouts(value *GoogleDatabaseMigrationServicePrivateConnectionTimeouts) {
 	if err := g.validatePutTimeoutsParameters(value); err != nil {
 		panic(err)
@@ -1116,6 +1187,14 @@ func (g *jsiiProxy_GoogleDatabaseMigrationServicePrivateConnection) ResetCreateW
 	_jsii_.InvokeVoid(
 		g,
 		"resetCreateWithoutValidation",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleDatabaseMigrationServicePrivateConnection) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }
@@ -1160,10 +1239,26 @@ func (g *jsiiProxy_GoogleDatabaseMigrationServicePrivateConnection) ResetProject
 	)
 }
 
+func (g *jsiiProxy_GoogleDatabaseMigrationServicePrivateConnection) ResetPscInterfaceConfig() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetPscInterfaceConfig",
+		nil, // no parameters
+	)
+}
+
 func (g *jsiiProxy_GoogleDatabaseMigrationServicePrivateConnection) ResetTimeouts() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetTimeouts",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleDatabaseMigrationServicePrivateConnection) ResetVpcPeeringConfig() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetVpcPeeringConfig",
 		nil, // no parameters
 	)
 }

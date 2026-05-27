@@ -111,6 +111,10 @@ func (j *jsiiProxy_GoogleFolderAccessApprovalSettings) validateSetCountParameter
 	return nil
 }
 
+func (j *jsiiProxy_GoogleFolderAccessApprovalSettings) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleFolderAccessApprovalSettings) validateSetFolderIdParameters(val *string) error {
 	return nil
 }

@@ -348,6 +348,14 @@ func (j *jsiiProxy_GoogleGkeHubScope) validateSetCountParameters(val interface{}
 	return nil
 }
 
+func (j *jsiiProxy_GoogleGkeHubScope) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_GoogleGkeHubScope) validateSetIdParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

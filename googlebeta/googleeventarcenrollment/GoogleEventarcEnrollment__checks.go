@@ -364,6 +364,14 @@ func (j *jsiiProxy_GoogleEventarcEnrollment) validateSetCountParameters(val inte
 	return nil
 }
 
+func (j *jsiiProxy_GoogleEventarcEnrollment) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_GoogleEventarcEnrollment) validateSetDestinationParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

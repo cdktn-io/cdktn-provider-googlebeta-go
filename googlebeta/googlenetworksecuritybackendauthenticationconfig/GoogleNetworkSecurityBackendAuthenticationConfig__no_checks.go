@@ -107,6 +107,10 @@ func (j *jsiiProxy_GoogleNetworkSecurityBackendAuthenticationConfig) validateSet
 	return nil
 }
 
+func (j *jsiiProxy_GoogleNetworkSecurityBackendAuthenticationConfig) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleNetworkSecurityBackendAuthenticationConfig) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

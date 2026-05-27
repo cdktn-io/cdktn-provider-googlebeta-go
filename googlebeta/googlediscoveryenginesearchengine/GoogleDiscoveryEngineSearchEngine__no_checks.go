@@ -127,6 +127,10 @@ func (j *jsiiProxy_GoogleDiscoveryEngineSearchEngine) validateSetDataStoreIdsPar
 	return nil
 }
 
+func (j *jsiiProxy_GoogleDiscoveryEngineSearchEngine) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleDiscoveryEngineSearchEngine) validateSetDisableAnalyticsParameters(val interface{}) error {
 	return nil
 }

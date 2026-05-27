@@ -107,6 +107,10 @@ func (j *jsiiProxy_GoogleContainerAnalysisOccurrence) validateSetCountParameters
 	return nil
 }
 
+func (j *jsiiProxy_GoogleContainerAnalysisOccurrence) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleContainerAnalysisOccurrence) validateSetIdParameters(val *string) error {
 	return nil
 }

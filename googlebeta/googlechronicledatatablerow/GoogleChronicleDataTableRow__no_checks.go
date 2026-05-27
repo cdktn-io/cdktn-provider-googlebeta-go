@@ -107,6 +107,10 @@ func (j *jsiiProxy_GoogleChronicleDataTableRow) validateSetDataTableIdParameters
 	return nil
 }
 
+func (j *jsiiProxy_GoogleChronicleDataTableRow) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleChronicleDataTableRow) validateSetIdParameters(val *string) error {
 	return nil
 }

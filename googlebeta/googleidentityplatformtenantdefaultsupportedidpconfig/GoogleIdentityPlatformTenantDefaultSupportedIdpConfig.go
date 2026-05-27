@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_identity_platform_tenant_default_supported_idp_config google_identity_platform_tenant_default_supported_idp_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_identity_platform_tenant_default_supported_idp_config google_identity_platform_tenant_default_supported_idp_config}.
 type GoogleIdentityPlatformTenantDefaultSupportedIdpConfig interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -33,6 +33,9 @@ type GoogleIdentityPlatformTenantDefaultSupportedIdpConfig interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -129,6 +132,7 @@ type GoogleIdentityPlatformTenantDefaultSupportedIdpConfig interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *GoogleIdentityPlatformTenantDefaultSupportedIdpConfigTimeouts)
+	ResetDeletionPolicy()
 	ResetEnabled()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -238,6 +242,26 @@ func (j *jsiiProxy_GoogleIdentityPlatformTenantDefaultSupportedIdpConfig) Count(
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleIdentityPlatformTenantDefaultSupportedIdpConfig) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleIdentityPlatformTenantDefaultSupportedIdpConfig) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -494,7 +518,7 @@ func (j *jsiiProxy_GoogleIdentityPlatformTenantDefaultSupportedIdpConfig) Timeou
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_identity_platform_tenant_default_supported_idp_config google_identity_platform_tenant_default_supported_idp_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_identity_platform_tenant_default_supported_idp_config google_identity_platform_tenant_default_supported_idp_config} Resource.
 func NewGoogleIdentityPlatformTenantDefaultSupportedIdpConfig(scope constructs.Construct, id *string, config *GoogleIdentityPlatformTenantDefaultSupportedIdpConfigConfig) GoogleIdentityPlatformTenantDefaultSupportedIdpConfig {
 	_init_.Initialize()
 
@@ -512,7 +536,7 @@ func NewGoogleIdentityPlatformTenantDefaultSupportedIdpConfig(scope constructs.C
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_identity_platform_tenant_default_supported_idp_config google_identity_platform_tenant_default_supported_idp_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_identity_platform_tenant_default_supported_idp_config google_identity_platform_tenant_default_supported_idp_config} Resource.
 func NewGoogleIdentityPlatformTenantDefaultSupportedIdpConfig_Override(g GoogleIdentityPlatformTenantDefaultSupportedIdpConfig, scope constructs.Construct, id *string, config *GoogleIdentityPlatformTenantDefaultSupportedIdpConfigConfig) {
 	_init_.Initialize()
 
@@ -563,6 +587,17 @@ func (j *jsiiProxy_GoogleIdentityPlatformTenantDefaultSupportedIdpConfig)SetCoun
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleIdentityPlatformTenantDefaultSupportedIdpConfig)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1029,6 +1064,14 @@ func (g *jsiiProxy_GoogleIdentityPlatformTenantDefaultSupportedIdpConfig) PutTim
 		g,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleIdentityPlatformTenantDefaultSupportedIdpConfig) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

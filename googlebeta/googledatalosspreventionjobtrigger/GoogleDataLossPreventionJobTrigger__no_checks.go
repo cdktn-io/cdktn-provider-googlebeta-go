@@ -111,6 +111,10 @@ func (j *jsiiProxy_GoogleDataLossPreventionJobTrigger) validateSetCountParameter
 	return nil
 }
 
+func (j *jsiiProxy_GoogleDataLossPreventionJobTrigger) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleDataLossPreventionJobTrigger) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

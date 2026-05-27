@@ -486,6 +486,14 @@ func (j *jsiiProxy_GoogleCloudRunV2Service) validateSetDefaultUriDisabledParamet
 	return nil
 }
 
+func (j *jsiiProxy_GoogleCloudRunV2Service) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_GoogleCloudRunV2Service) validateSetDeletionProtectionParameters(val interface{}) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

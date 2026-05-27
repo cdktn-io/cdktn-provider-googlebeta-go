@@ -143,6 +143,10 @@ func (j *jsiiProxy_GoogleDataprocJob) validateSetCountParameters(val interface{}
 	return nil
 }
 
+func (j *jsiiProxy_GoogleDataprocJob) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleDataprocJob) validateSetForceDeleteParameters(val interface{}) error {
 	return nil
 }

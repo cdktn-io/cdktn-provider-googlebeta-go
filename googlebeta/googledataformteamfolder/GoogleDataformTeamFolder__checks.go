@@ -348,6 +348,14 @@ func (j *jsiiProxy_GoogleDataformTeamFolder) validateSetCountParameters(val inte
 	return nil
 }
 
+func (j *jsiiProxy_GoogleDataformTeamFolder) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_GoogleDataformTeamFolder) validateSetDisplayNameParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

@@ -123,6 +123,10 @@ func (j *jsiiProxy_GoogleEventarcTrigger) validateSetCountParameters(val interfa
 	return nil
 }
 
+func (j *jsiiProxy_GoogleEventarcTrigger) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleEventarcTrigger) validateSetEventDataContentTypeParameters(val *string) error {
 	return nil
 }

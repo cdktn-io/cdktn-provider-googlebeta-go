@@ -28,6 +28,7 @@ type DataGoogleCertificateManagerCertificatesCertificatesOutputReference interfa
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
+	DeletionPolicy() *string
 	Description() *string
 	EffectiveLabels() cdktn.StringMap
 	// Experimental.
@@ -114,6 +115,16 @@ func (j *jsiiProxy_DataGoogleCertificateManagerCertificatesCertificatesOutputRef
 	_jsii_.Get(
 		j,
 		"creationStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleCertificateManagerCertificatesCertificatesOutputReference) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
 		&returns,
 	)
 	return returns

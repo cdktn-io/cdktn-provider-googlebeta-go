@@ -107,6 +107,10 @@ func (j *jsiiProxy_GoogleApigeeDnsZone) validateSetCountParameters(val interface
 	return nil
 }
 
+func (j *jsiiProxy_GoogleApigeeDnsZone) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleApigeeDnsZone) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

@@ -119,6 +119,10 @@ func (j *jsiiProxy_GoogleNetappStoragePool) validateSetCustomPerformanceEnabledP
 	return nil
 }
 
+func (j *jsiiProxy_GoogleNetappStoragePool) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleNetappStoragePool) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

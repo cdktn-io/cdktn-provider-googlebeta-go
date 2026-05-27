@@ -111,6 +111,10 @@ func (j *jsiiProxy_GoogleBackupDrBackupPlanAssociation) validateSetCountParamete
 	return nil
 }
 
+func (j *jsiiProxy_GoogleBackupDrBackupPlanAssociation) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleBackupDrBackupPlanAssociation) validateSetIdParameters(val *string) error {
 	return nil
 }

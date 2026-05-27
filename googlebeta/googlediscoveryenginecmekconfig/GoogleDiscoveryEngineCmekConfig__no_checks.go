@@ -111,6 +111,10 @@ func (j *jsiiProxy_GoogleDiscoveryEngineCmekConfig) validateSetCountParameters(v
 	return nil
 }
 
+func (j *jsiiProxy_GoogleDiscoveryEngineCmekConfig) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleDiscoveryEngineCmekConfig) validateSetIdParameters(val *string) error {
 	return nil
 }

@@ -107,6 +107,10 @@ func (j *jsiiProxy_GoogleComputePublicDelegatedPrefix) validateSetCountParameter
 	return nil
 }
 
+func (j *jsiiProxy_GoogleComputePublicDelegatedPrefix) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleComputePublicDelegatedPrefix) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

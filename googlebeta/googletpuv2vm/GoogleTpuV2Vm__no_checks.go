@@ -139,6 +139,10 @@ func (j *jsiiProxy_GoogleTpuV2Vm) validateSetCountParameters(val interface{}) er
 	return nil
 }
 
+func (j *jsiiProxy_GoogleTpuV2Vm) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleTpuV2Vm) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

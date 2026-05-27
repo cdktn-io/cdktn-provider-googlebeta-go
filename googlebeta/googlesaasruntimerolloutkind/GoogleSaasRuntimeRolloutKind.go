@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_saas_runtime_rollout_kind google_saas_runtime_rollout_kind}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_saas_runtime_rollout_kind google_saas_runtime_rollout_kind}.
 type GoogleSaasRuntimeRolloutKind interface {
 	cdktn.TerraformResource
 	Annotations() *map[string]*string
@@ -31,6 +31,9 @@ type GoogleSaasRuntimeRolloutKind interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -148,6 +151,7 @@ type GoogleSaasRuntimeRolloutKind interface {
 	PutErrorBudget(value *GoogleSaasRuntimeRolloutKindErrorBudget)
 	PutTimeouts(value *GoogleSaasRuntimeRolloutKindTimeouts)
 	ResetAnnotations()
+	ResetDeletionPolicy()
 	ResetErrorBudget()
 	ResetId()
 	ResetLabels()
@@ -251,6 +255,26 @@ func (j *jsiiProxy_GoogleSaasRuntimeRolloutKind) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleSaasRuntimeRolloutKind) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleSaasRuntimeRolloutKind) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -657,7 +681,7 @@ func (j *jsiiProxy_GoogleSaasRuntimeRolloutKind) UpdateUnitKindStrategyInput() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_saas_runtime_rollout_kind google_saas_runtime_rollout_kind} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_saas_runtime_rollout_kind google_saas_runtime_rollout_kind} Resource.
 func NewGoogleSaasRuntimeRolloutKind(scope constructs.Construct, id *string, config *GoogleSaasRuntimeRolloutKindConfig) GoogleSaasRuntimeRolloutKind {
 	_init_.Initialize()
 
@@ -675,7 +699,7 @@ func NewGoogleSaasRuntimeRolloutKind(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_saas_runtime_rollout_kind google_saas_runtime_rollout_kind} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_saas_runtime_rollout_kind google_saas_runtime_rollout_kind} Resource.
 func NewGoogleSaasRuntimeRolloutKind_Override(g GoogleSaasRuntimeRolloutKind, scope constructs.Construct, id *string, config *GoogleSaasRuntimeRolloutKindConfig) {
 	_init_.Initialize()
 
@@ -715,6 +739,17 @@ func (j *jsiiProxy_GoogleSaasRuntimeRolloutKind)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleSaasRuntimeRolloutKind)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1243,6 +1278,14 @@ func (g *jsiiProxy_GoogleSaasRuntimeRolloutKind) ResetAnnotations() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetAnnotations",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleSaasRuntimeRolloutKind) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

@@ -107,6 +107,10 @@ func (j *jsiiProxy_GoogleApigeeSharedflow) validateSetCountParameters(val interf
 	return nil
 }
 
+func (j *jsiiProxy_GoogleApigeeSharedflow) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleApigeeSharedflow) validateSetDetectMd5HashParameters(val *string) error {
 	return nil
 }

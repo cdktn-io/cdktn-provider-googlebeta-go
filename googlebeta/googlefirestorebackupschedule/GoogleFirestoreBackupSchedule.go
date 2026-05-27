@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_firestore_backup_schedule google_firestore_backup_schedule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_firestore_backup_schedule google_firestore_backup_schedule}.
 type GoogleFirestoreBackupSchedule interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -32,6 +32,9 @@ type GoogleFirestoreBackupSchedule interface {
 	Database() *string
 	SetDatabase(val *string)
 	DatabaseInput() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -128,6 +131,7 @@ type GoogleFirestoreBackupSchedule interface {
 	PutWeeklyRecurrence(value *GoogleFirestoreBackupScheduleWeeklyRecurrence)
 	ResetDailyRecurrence()
 	ResetDatabase()
+	ResetDeletionPolicy()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -237,6 +241,26 @@ func (j *jsiiProxy_GoogleFirestoreBackupSchedule) DatabaseInput() *string {
 	_jsii_.Get(
 		j,
 		"databaseInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleFirestoreBackupSchedule) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleFirestoreBackupSchedule) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -473,7 +497,7 @@ func (j *jsiiProxy_GoogleFirestoreBackupSchedule) WeeklyRecurrenceInput() *Googl
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_firestore_backup_schedule google_firestore_backup_schedule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_firestore_backup_schedule google_firestore_backup_schedule} Resource.
 func NewGoogleFirestoreBackupSchedule(scope constructs.Construct, id *string, config *GoogleFirestoreBackupScheduleConfig) GoogleFirestoreBackupSchedule {
 	_init_.Initialize()
 
@@ -491,7 +515,7 @@ func NewGoogleFirestoreBackupSchedule(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_firestore_backup_schedule google_firestore_backup_schedule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_firestore_backup_schedule google_firestore_backup_schedule} Resource.
 func NewGoogleFirestoreBackupSchedule_Override(g GoogleFirestoreBackupSchedule, scope constructs.Construct, id *string, config *GoogleFirestoreBackupScheduleConfig) {
 	_init_.Initialize()
 
@@ -531,6 +555,17 @@ func (j *jsiiProxy_GoogleFirestoreBackupSchedule)SetDatabase(val *string) {
 	_jsii_.Set(
 		j,
 		"database",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleFirestoreBackupSchedule)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1012,6 +1047,14 @@ func (g *jsiiProxy_GoogleFirestoreBackupSchedule) ResetDatabase() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetDatabase",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleFirestoreBackupSchedule) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

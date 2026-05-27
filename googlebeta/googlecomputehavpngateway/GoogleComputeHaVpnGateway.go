@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_ha_vpn_gateway google_compute_ha_vpn_gateway}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_ha_vpn_gateway google_compute_ha_vpn_gateway}.
 type GoogleComputeHaVpnGateway interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -27,6 +27,9 @@ type GoogleComputeHaVpnGateway interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -144,6 +147,7 @@ type GoogleComputeHaVpnGateway interface {
 	PutParams(value *GoogleComputeHaVpnGatewayParams)
 	PutTimeouts(value *GoogleComputeHaVpnGatewayTimeouts)
 	PutVpnInterfaces(value interface{})
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetGatewayIpVersion()
 	ResetId()
@@ -219,6 +223,26 @@ func (j *jsiiProxy_GoogleComputeHaVpnGateway) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeHaVpnGateway) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeHaVpnGateway) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -625,7 +649,7 @@ func (j *jsiiProxy_GoogleComputeHaVpnGateway) VpnInterfacesInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_ha_vpn_gateway google_compute_ha_vpn_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_ha_vpn_gateway google_compute_ha_vpn_gateway} Resource.
 func NewGoogleComputeHaVpnGateway(scope constructs.Construct, id *string, config *GoogleComputeHaVpnGatewayConfig) GoogleComputeHaVpnGateway {
 	_init_.Initialize()
 
@@ -643,7 +667,7 @@ func NewGoogleComputeHaVpnGateway(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_ha_vpn_gateway google_compute_ha_vpn_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_ha_vpn_gateway google_compute_ha_vpn_gateway} Resource.
 func NewGoogleComputeHaVpnGateway_Override(g GoogleComputeHaVpnGateway, scope constructs.Construct, id *string, config *GoogleComputeHaVpnGatewayConfig) {
 	_init_.Initialize()
 
@@ -672,6 +696,17 @@ func (j *jsiiProxy_GoogleComputeHaVpnGateway)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleComputeHaVpnGateway)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1204,6 +1239,14 @@ func (g *jsiiProxy_GoogleComputeHaVpnGateway) PutVpnInterfaces(value interface{}
 		g,
 		"putVpnInterfaces",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleComputeHaVpnGateway) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

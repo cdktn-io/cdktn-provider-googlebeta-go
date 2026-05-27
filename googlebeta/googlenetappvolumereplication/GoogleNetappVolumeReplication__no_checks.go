@@ -111,6 +111,10 @@ func (j *jsiiProxy_GoogleNetappVolumeReplication) validateSetDeleteDestinationVo
 	return nil
 }
 
+func (j *jsiiProxy_GoogleNetappVolumeReplication) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleNetappVolumeReplication) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_agent google_ces_agent}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_agent google_ces_agent}.
 type GoogleCesAgent interface {
 	cdktn.TerraformResource
 	AfterAgentCallbacks() GoogleCesAgentAfterAgentCallbacksList
@@ -49,6 +49,9 @@ type GoogleCesAgent interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -183,6 +186,7 @@ type GoogleCesAgent interface {
 	ResetBeforeModelCallbacks()
 	ResetBeforeToolCallbacks()
 	ResetChildAgents()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetGuardrails()
 	ResetId()
@@ -449,6 +453,26 @@ func (j *jsiiProxy_GoogleCesAgent) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCesAgent) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCesAgent) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -875,7 +899,7 @@ func (j *jsiiProxy_GoogleCesAgent) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_agent google_ces_agent} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_agent google_ces_agent} Resource.
 func NewGoogleCesAgent(scope constructs.Construct, id *string, config *GoogleCesAgentConfig) GoogleCesAgent {
 	_init_.Initialize()
 
@@ -893,7 +917,7 @@ func NewGoogleCesAgent(scope constructs.Construct, id *string, config *GoogleCes
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_agent google_ces_agent} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_agent google_ces_agent} Resource.
 func NewGoogleCesAgent_Override(g GoogleCesAgent, scope constructs.Construct, id *string, config *GoogleCesAgentConfig) {
 	_init_.Initialize()
 
@@ -955,6 +979,17 @@ func (j *jsiiProxy_GoogleCesAgent)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleCesAgent)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1627,6 +1662,14 @@ func (g *jsiiProxy_GoogleCesAgent) ResetChildAgents() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetChildAgents",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleCesAgent) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

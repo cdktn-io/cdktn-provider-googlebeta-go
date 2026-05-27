@@ -135,6 +135,10 @@ func (j *jsiiProxy_GoogleComputeFutureReservation) validateSetCountParameters(va
 	return nil
 }
 
+func (j *jsiiProxy_GoogleComputeFutureReservation) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleComputeFutureReservation) validateSetDeploymentTypeParameters(val *string) error {
 	return nil
 }

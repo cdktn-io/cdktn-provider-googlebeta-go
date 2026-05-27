@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_interconnect_group google_compute_interconnect_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_interconnect_group google_compute_interconnect_group}.
 type GoogleComputeInterconnectGroup interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -29,6 +29,9 @@ type GoogleComputeInterconnectGroup interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreationTimestamp() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -128,6 +131,7 @@ type GoogleComputeInterconnectGroup interface {
 	PutIntent(value *GoogleComputeInterconnectGroupIntent)
 	PutInterconnects(value interface{})
 	PutTimeouts(value *GoogleComputeInterconnectGroupTimeouts)
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	ResetInterconnects()
@@ -218,6 +222,26 @@ func (j *jsiiProxy_GoogleComputeInterconnectGroup) CreationTimestamp() *string {
 	_jsii_.Get(
 		j,
 		"creationTimestamp",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeInterconnectGroup) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeInterconnectGroup) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -494,7 +518,7 @@ func (j *jsiiProxy_GoogleComputeInterconnectGroup) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_interconnect_group google_compute_interconnect_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_interconnect_group google_compute_interconnect_group} Resource.
 func NewGoogleComputeInterconnectGroup(scope constructs.Construct, id *string, config *GoogleComputeInterconnectGroupConfig) GoogleComputeInterconnectGroup {
 	_init_.Initialize()
 
@@ -512,7 +536,7 @@ func NewGoogleComputeInterconnectGroup(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_interconnect_group google_compute_interconnect_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_interconnect_group google_compute_interconnect_group} Resource.
 func NewGoogleComputeInterconnectGroup_Override(g GoogleComputeInterconnectGroup, scope constructs.Construct, id *string, config *GoogleComputeInterconnectGroupConfig) {
 	_init_.Initialize()
 
@@ -541,6 +565,17 @@ func (j *jsiiProxy_GoogleComputeInterconnectGroup)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleComputeInterconnectGroup)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1018,6 +1053,14 @@ func (g *jsiiProxy_GoogleComputeInterconnectGroup) PutTimeouts(value *GoogleComp
 		g,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleComputeInterconnectGroup) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

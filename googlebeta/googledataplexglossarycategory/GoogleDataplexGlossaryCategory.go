@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataplex_glossary_category google_dataplex_glossary_category}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataplex_glossary_category google_dataplex_glossary_category}.
 type GoogleDataplexGlossaryCategory interface {
 	cdktn.TerraformResource
 	CategoryId() *string
@@ -31,6 +31,9 @@ type GoogleDataplexGlossaryCategory interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -141,6 +144,7 @@ type GoogleDataplexGlossaryCategory interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *GoogleDataplexGlossaryCategoryTimeouts)
 	ResetCategoryId()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetDisplayName()
 	ResetGlossaryId()
@@ -243,6 +247,26 @@ func (j *jsiiProxy_GoogleDataplexGlossaryCategory) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDataplexGlossaryCategory) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDataplexGlossaryCategory) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -599,7 +623,7 @@ func (j *jsiiProxy_GoogleDataplexGlossaryCategory) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataplex_glossary_category google_dataplex_glossary_category} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataplex_glossary_category google_dataplex_glossary_category} Resource.
 func NewGoogleDataplexGlossaryCategory(scope constructs.Construct, id *string, config *GoogleDataplexGlossaryCategoryConfig) GoogleDataplexGlossaryCategory {
 	_init_.Initialize()
 
@@ -617,7 +641,7 @@ func NewGoogleDataplexGlossaryCategory(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataplex_glossary_category google_dataplex_glossary_category} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataplex_glossary_category google_dataplex_glossary_category} Resource.
 func NewGoogleDataplexGlossaryCategory_Override(g GoogleDataplexGlossaryCategory, scope constructs.Construct, id *string, config *GoogleDataplexGlossaryCategoryConfig) {
 	_init_.Initialize()
 
@@ -657,6 +681,17 @@ func (j *jsiiProxy_GoogleDataplexGlossaryCategory)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleDataplexGlossaryCategory)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1163,6 +1198,14 @@ func (g *jsiiProxy_GoogleDataplexGlossaryCategory) ResetCategoryId() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetCategoryId",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleDataplexGlossaryCategory) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

@@ -27,6 +27,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "defaultPartitionExpirationMs", GoGetter: "DefaultPartitionExpirationMs"},
 			_jsii_.MemberProperty{JsiiProperty: "defaultTableExpirationMs", GoGetter: "DefaultTableExpirationMs"},
 			_jsii_.MemberProperty{JsiiProperty: "deleteContentsOnDestroy", GoGetter: "DeleteContentsOnDestroy"},
+			_jsii_.MemberProperty{JsiiProperty: "deletionPolicy", GoGetter: "DeletionPolicy"},
 			_jsii_.MemberProperty{JsiiProperty: "dependsOn", GoGetter: "DependsOn"},
 			_jsii_.MemberProperty{JsiiProperty: "description", GoGetter: "Description"},
 			_jsii_.MemberProperty{JsiiProperty: "effectiveLabels", GoGetter: "EffectiveLabels"},

@@ -103,6 +103,10 @@ func (j *jsiiProxy_GoogleNetworkConnectivityGatewayAdvertisedRoute) validateSetC
 	return nil
 }
 
+func (j *jsiiProxy_GoogleNetworkConnectivityGatewayAdvertisedRoute) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleNetworkConnectivityGatewayAdvertisedRoute) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

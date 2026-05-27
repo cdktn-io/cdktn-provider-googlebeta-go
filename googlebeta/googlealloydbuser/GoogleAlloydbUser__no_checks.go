@@ -111,6 +111,10 @@ func (j *jsiiProxy_GoogleAlloydbUser) validateSetDatabaseRolesParameters(val *[]
 	return nil
 }
 
+func (j *jsiiProxy_GoogleAlloydbUser) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleAlloydbUser) validateSetIdParameters(val *string) error {
 	return nil
 }

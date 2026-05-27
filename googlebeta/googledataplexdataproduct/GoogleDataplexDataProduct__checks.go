@@ -387,6 +387,14 @@ func (j *jsiiProxy_GoogleDataplexDataProduct) validateSetDataProductIdParameters
 	return nil
 }
 
+func (j *jsiiProxy_GoogleDataplexDataProduct) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_GoogleDataplexDataProduct) validateSetDescriptionParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

@@ -119,6 +119,10 @@ func (j *jsiiProxy_GoogleColabNotebookExecution) validateSetCountParameters(val 
 	return nil
 }
 
+func (j *jsiiProxy_GoogleColabNotebookExecution) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleColabNotebookExecution) validateSetDisplayNameParameters(val *string) error {
 	return nil
 }

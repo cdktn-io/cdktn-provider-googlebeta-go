@@ -155,6 +155,10 @@ func (j *jsiiProxy_GoogleStorageBucket) validateSetDefaultEventBasedHoldParamete
 	return nil
 }
 
+func (j *jsiiProxy_GoogleStorageBucket) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleStorageBucket) validateSetEnableObjectRetentionParameters(val interface{}) error {
 	return nil
 }

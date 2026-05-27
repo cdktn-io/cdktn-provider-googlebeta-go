@@ -127,6 +127,10 @@ func (j *jsiiProxy_GoogleDialogflowCxPage) validateSetCountParameters(val interf
 	return nil
 }
 
+func (j *jsiiProxy_GoogleDialogflowCxPage) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleDialogflowCxPage) validateSetDisplayNameParameters(val *string) error {
 	return nil
 }

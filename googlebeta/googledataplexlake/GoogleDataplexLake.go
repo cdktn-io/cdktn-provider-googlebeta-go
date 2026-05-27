@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataplex_lake google_dataplex_lake}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataplex_lake google_dataplex_lake}.
 type GoogleDataplexLake interface {
 	cdktn.TerraformResource
 	AssetStatus() GoogleDataplexLakeAssetStatusList
@@ -29,6 +29,9 @@ type GoogleDataplexLake interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -140,6 +143,7 @@ type GoogleDataplexLake interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutMetastore(value *GoogleDataplexLakeMetastore)
 	PutTimeouts(value *GoogleDataplexLakeTimeouts)
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetDisplayName()
 	ResetId()
@@ -232,6 +236,26 @@ func (j *jsiiProxy_GoogleDataplexLake) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDataplexLake) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDataplexLake) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -608,7 +632,7 @@ func (j *jsiiProxy_GoogleDataplexLake) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataplex_lake google_dataplex_lake} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataplex_lake google_dataplex_lake} Resource.
 func NewGoogleDataplexLake(scope constructs.Construct, id *string, config *GoogleDataplexLakeConfig) GoogleDataplexLake {
 	_init_.Initialize()
 
@@ -626,7 +650,7 @@ func NewGoogleDataplexLake(scope constructs.Construct, id *string, config *Googl
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataplex_lake google_dataplex_lake} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataplex_lake google_dataplex_lake} Resource.
 func NewGoogleDataplexLake_Override(g GoogleDataplexLake, scope constructs.Construct, id *string, config *GoogleDataplexLakeConfig) {
 	_init_.Initialize()
 
@@ -655,6 +679,17 @@ func (j *jsiiProxy_GoogleDataplexLake)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleDataplexLake)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1154,6 +1189,14 @@ func (g *jsiiProxy_GoogleDataplexLake) PutTimeouts(value *GoogleDataplexLakeTime
 		g,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleDataplexLake) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_dns_zone google_apigee_dns_zone}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_dns_zone google_apigee_dns_zone}.
 type GoogleApigeeDnsZone interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -27,6 +27,9 @@ type GoogleApigeeDnsZone interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -126,6 +129,7 @@ type GoogleApigeeDnsZone interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutPeeringConfig(value *GoogleApigeeDnsZonePeeringConfig)
 	PutTimeouts(value *GoogleApigeeDnsZoneTimeouts)
+	ResetDeletionPolicy()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -193,6 +197,26 @@ func (j *jsiiProxy_GoogleApigeeDnsZone) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleApigeeDnsZone) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleApigeeDnsZone) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -469,7 +493,7 @@ func (j *jsiiProxy_GoogleApigeeDnsZone) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_dns_zone google_apigee_dns_zone} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_dns_zone google_apigee_dns_zone} Resource.
 func NewGoogleApigeeDnsZone(scope constructs.Construct, id *string, config *GoogleApigeeDnsZoneConfig) GoogleApigeeDnsZone {
 	_init_.Initialize()
 
@@ -487,7 +511,7 @@ func NewGoogleApigeeDnsZone(scope constructs.Construct, id *string, config *Goog
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_dns_zone google_apigee_dns_zone} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_dns_zone google_apigee_dns_zone} Resource.
 func NewGoogleApigeeDnsZone_Override(g GoogleApigeeDnsZone, scope constructs.Construct, id *string, config *GoogleApigeeDnsZoneConfig) {
 	_init_.Initialize()
 
@@ -516,6 +540,17 @@ func (j *jsiiProxy_GoogleApigeeDnsZone)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleApigeeDnsZone)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -993,6 +1028,14 @@ func (g *jsiiProxy_GoogleApigeeDnsZone) PutTimeouts(value *GoogleApigeeDnsZoneTi
 		g,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleApigeeDnsZone) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

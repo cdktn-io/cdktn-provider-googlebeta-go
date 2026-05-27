@@ -135,6 +135,10 @@ func (j *jsiiProxy_GoogleSqlDatabaseInstance) validateSetDatabaseVersionParamete
 	return nil
 }
 
+func (j *jsiiProxy_GoogleSqlDatabaseInstance) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleSqlDatabaseInstance) validateSetDeletionProtectionParameters(val interface{}) error {
 	return nil
 }

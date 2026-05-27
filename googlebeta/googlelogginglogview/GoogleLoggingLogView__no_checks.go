@@ -107,6 +107,10 @@ func (j *jsiiProxy_GoogleLoggingLogView) validateSetCountParameters(val interfac
 	return nil
 }
 
+func (j *jsiiProxy_GoogleLoggingLogView) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleLoggingLogView) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

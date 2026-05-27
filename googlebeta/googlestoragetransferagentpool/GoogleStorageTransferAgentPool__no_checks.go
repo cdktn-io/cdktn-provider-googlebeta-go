@@ -107,6 +107,10 @@ func (j *jsiiProxy_GoogleStorageTransferAgentPool) validateSetCountParameters(va
 	return nil
 }
 
+func (j *jsiiProxy_GoogleStorageTransferAgentPool) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleStorageTransferAgentPool) validateSetDisplayNameParameters(val *string) error {
 	return nil
 }

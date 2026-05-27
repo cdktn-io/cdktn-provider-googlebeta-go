@@ -107,6 +107,10 @@ func (j *jsiiProxy_GoogleApiGatewayApi) validateSetCountParameters(val interface
 	return nil
 }
 
+func (j *jsiiProxy_GoogleApiGatewayApi) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleApiGatewayApi) validateSetDisplayNameParameters(val *string) error {
 	return nil
 }

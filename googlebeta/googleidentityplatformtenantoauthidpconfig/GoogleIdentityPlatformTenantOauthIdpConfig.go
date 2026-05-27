@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_identity_platform_tenant_oauth_idp_config google_identity_platform_tenant_oauth_idp_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_identity_platform_tenant_oauth_idp_config google_identity_platform_tenant_oauth_idp_config}.
 type GoogleIdentityPlatformTenantOauthIdpConfig interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -33,6 +33,9 @@ type GoogleIdentityPlatformTenantOauthIdpConfig interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -135,6 +138,7 @@ type GoogleIdentityPlatformTenantOauthIdpConfig interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *GoogleIdentityPlatformTenantOauthIdpConfigTimeouts)
 	ResetClientSecret()
+	ResetDeletionPolicy()
 	ResetEnabled()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -244,6 +248,26 @@ func (j *jsiiProxy_GoogleIdentityPlatformTenantOauthIdpConfig) Count() interface
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleIdentityPlatformTenantOauthIdpConfig) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleIdentityPlatformTenantOauthIdpConfig) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -530,7 +554,7 @@ func (j *jsiiProxy_GoogleIdentityPlatformTenantOauthIdpConfig) TimeoutsInput() i
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_identity_platform_tenant_oauth_idp_config google_identity_platform_tenant_oauth_idp_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_identity_platform_tenant_oauth_idp_config google_identity_platform_tenant_oauth_idp_config} Resource.
 func NewGoogleIdentityPlatformTenantOauthIdpConfig(scope constructs.Construct, id *string, config *GoogleIdentityPlatformTenantOauthIdpConfigConfig) GoogleIdentityPlatformTenantOauthIdpConfig {
 	_init_.Initialize()
 
@@ -548,7 +572,7 @@ func NewGoogleIdentityPlatformTenantOauthIdpConfig(scope constructs.Construct, i
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_identity_platform_tenant_oauth_idp_config google_identity_platform_tenant_oauth_idp_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_identity_platform_tenant_oauth_idp_config google_identity_platform_tenant_oauth_idp_config} Resource.
 func NewGoogleIdentityPlatformTenantOauthIdpConfig_Override(g GoogleIdentityPlatformTenantOauthIdpConfig, scope constructs.Construct, id *string, config *GoogleIdentityPlatformTenantOauthIdpConfigConfig) {
 	_init_.Initialize()
 
@@ -599,6 +623,17 @@ func (j *jsiiProxy_GoogleIdentityPlatformTenantOauthIdpConfig)SetCount(val inter
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleIdentityPlatformTenantOauthIdpConfig)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1094,6 +1129,14 @@ func (g *jsiiProxy_GoogleIdentityPlatformTenantOauthIdpConfig) ResetClientSecret
 	_jsii_.InvokeVoid(
 		g,
 		"resetClientSecret",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleIdentityPlatformTenantOauthIdpConfig) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

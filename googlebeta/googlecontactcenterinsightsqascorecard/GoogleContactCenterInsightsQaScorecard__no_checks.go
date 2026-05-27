@@ -103,6 +103,10 @@ func (j *jsiiProxy_GoogleContactCenterInsightsQaScorecard) validateSetCountParam
 	return nil
 }
 
+func (j *jsiiProxy_GoogleContactCenterInsightsQaScorecard) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleContactCenterInsightsQaScorecard) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

@@ -23,6 +23,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "createTime", GoGetter: "CreateTime"},
 			_jsii_.MemberProperty{JsiiProperty: "database", GoGetter: "Database"},
 			_jsii_.MemberProperty{JsiiProperty: "databaseInput", GoGetter: "DatabaseInput"},
+			_jsii_.MemberProperty{JsiiProperty: "deletionPolicy", GoGetter: "DeletionPolicy"},
 			_jsii_.MemberProperty{JsiiProperty: "dependsOn", GoGetter: "DependsOn"},
 			_jsii_.MemberProperty{JsiiProperty: "documentId", GoGetter: "DocumentId"},
 			_jsii_.MemberProperty{JsiiProperty: "documentIdInput", GoGetter: "DocumentIdInput"},

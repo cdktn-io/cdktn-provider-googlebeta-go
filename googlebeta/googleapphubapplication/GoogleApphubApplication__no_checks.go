@@ -115,6 +115,10 @@ func (j *jsiiProxy_GoogleApphubApplication) validateSetCountParameters(val inter
 	return nil
 }
 
+func (j *jsiiProxy_GoogleApphubApplication) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleApphubApplication) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

@@ -111,6 +111,10 @@ func (j *jsiiProxy_GoogleIapSettings) validateSetCountParameters(val interface{}
 	return nil
 }
 
+func (j *jsiiProxy_GoogleIapSettings) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleIapSettings) validateSetIdParameters(val *string) error {
 	return nil
 }

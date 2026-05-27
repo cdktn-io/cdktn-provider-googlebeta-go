@@ -135,6 +135,10 @@ func (j *jsiiProxy_GoogleBigqueryConnection) validateSetCountParameters(val inte
 	return nil
 }
 
+func (j *jsiiProxy_GoogleBigqueryConnection) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleBigqueryConnection) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

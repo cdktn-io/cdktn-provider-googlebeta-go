@@ -402,6 +402,14 @@ func (j *jsiiProxy_GoogleOracleDatabaseAutonomousDatabase) validateSetDatabasePa
 	return nil
 }
 
+func (j *jsiiProxy_GoogleOracleDatabaseAutonomousDatabase) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_GoogleOracleDatabaseAutonomousDatabase) validateSetDeletionProtectionParameters(val interface{}) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

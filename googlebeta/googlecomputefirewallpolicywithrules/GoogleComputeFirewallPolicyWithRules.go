@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_firewall_policy_with_rules google_compute_firewall_policy_with_rules}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_firewall_policy_with_rules google_compute_firewall_policy_with_rules}.
 type GoogleComputeFirewallPolicyWithRules interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -28,6 +28,9 @@ type GoogleComputeFirewallPolicyWithRules interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreationTimestamp() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -129,6 +132,7 @@ type GoogleComputeFirewallPolicyWithRules interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutRule(value interface{})
 	PutTimeouts(value *GoogleComputeFirewallPolicyWithRulesTimeouts)
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -207,6 +211,26 @@ func (j *jsiiProxy_GoogleComputeFirewallPolicyWithRules) CreationTimestamp() *st
 	_jsii_.Get(
 		j,
 		"creationTimestamp",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeFirewallPolicyWithRules) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeFirewallPolicyWithRules) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -513,7 +537,7 @@ func (j *jsiiProxy_GoogleComputeFirewallPolicyWithRules) TimeoutsInput() interfa
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_firewall_policy_with_rules google_compute_firewall_policy_with_rules} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_firewall_policy_with_rules google_compute_firewall_policy_with_rules} Resource.
 func NewGoogleComputeFirewallPolicyWithRules(scope constructs.Construct, id *string, config *GoogleComputeFirewallPolicyWithRulesConfig) GoogleComputeFirewallPolicyWithRules {
 	_init_.Initialize()
 
@@ -531,7 +555,7 @@ func NewGoogleComputeFirewallPolicyWithRules(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_firewall_policy_with_rules google_compute_firewall_policy_with_rules} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_firewall_policy_with_rules google_compute_firewall_policy_with_rules} Resource.
 func NewGoogleComputeFirewallPolicyWithRules_Override(g GoogleComputeFirewallPolicyWithRules, scope constructs.Construct, id *string, config *GoogleComputeFirewallPolicyWithRulesConfig) {
 	_init_.Initialize()
 
@@ -560,6 +584,17 @@ func (j *jsiiProxy_GoogleComputeFirewallPolicyWithRules)SetCount(val interface{}
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleComputeFirewallPolicyWithRules)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1026,6 +1061,14 @@ func (g *jsiiProxy_GoogleComputeFirewallPolicyWithRules) PutTimeouts(value *Goog
 		g,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleComputeFirewallPolicyWithRules) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

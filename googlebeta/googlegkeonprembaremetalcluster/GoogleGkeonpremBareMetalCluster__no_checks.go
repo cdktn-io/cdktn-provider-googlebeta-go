@@ -167,6 +167,10 @@ func (j *jsiiProxy_GoogleGkeonpremBareMetalCluster) validateSetCountParameters(v
 	return nil
 }
 
+func (j *jsiiProxy_GoogleGkeonpremBareMetalCluster) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleGkeonpremBareMetalCluster) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataform_repository_workflow_config google_dataform_repository_workflow_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataform_repository_workflow_config google_dataform_repository_workflow_config}.
 type GoogleDataformRepositoryWorkflowConfig interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -30,6 +30,9 @@ type GoogleDataformRepositoryWorkflowConfig interface {
 	CronSchedule() *string
 	SetCronSchedule(val *string)
 	CronScheduleInput() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -136,6 +139,7 @@ type GoogleDataformRepositoryWorkflowConfig interface {
 	PutInvocationConfig(value *GoogleDataformRepositoryWorkflowConfigInvocationConfig)
 	PutTimeouts(value *GoogleDataformRepositoryWorkflowConfigTimeouts)
 	ResetCronSchedule()
+	ResetDeletionPolicy()
 	ResetId()
 	ResetInvocationConfig()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -228,6 +232,26 @@ func (j *jsiiProxy_GoogleDataformRepositoryWorkflowConfig) CronScheduleInput() *
 	_jsii_.Get(
 		j,
 		"cronScheduleInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDataformRepositoryWorkflowConfig) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDataformRepositoryWorkflowConfig) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -544,7 +568,7 @@ func (j *jsiiProxy_GoogleDataformRepositoryWorkflowConfig) TimeZoneInput() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataform_repository_workflow_config google_dataform_repository_workflow_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataform_repository_workflow_config google_dataform_repository_workflow_config} Resource.
 func NewGoogleDataformRepositoryWorkflowConfig(scope constructs.Construct, id *string, config *GoogleDataformRepositoryWorkflowConfigConfig) GoogleDataformRepositoryWorkflowConfig {
 	_init_.Initialize()
 
@@ -562,7 +586,7 @@ func NewGoogleDataformRepositoryWorkflowConfig(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataform_repository_workflow_config google_dataform_repository_workflow_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataform_repository_workflow_config google_dataform_repository_workflow_config} Resource.
 func NewGoogleDataformRepositoryWorkflowConfig_Override(g GoogleDataformRepositoryWorkflowConfig, scope constructs.Construct, id *string, config *GoogleDataformRepositoryWorkflowConfigConfig) {
 	_init_.Initialize()
 
@@ -602,6 +626,17 @@ func (j *jsiiProxy_GoogleDataformRepositoryWorkflowConfig)SetCronSchedule(val *s
 	_jsii_.Set(
 		j,
 		"cronSchedule",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleDataformRepositoryWorkflowConfig)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1108,6 +1143,14 @@ func (g *jsiiProxy_GoogleDataformRepositoryWorkflowConfig) ResetCronSchedule() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetCronSchedule",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleDataformRepositoryWorkflowConfig) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

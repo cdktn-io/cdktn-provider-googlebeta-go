@@ -103,6 +103,10 @@ func (j *jsiiProxy_GoogleComputeRouterInterface) validateSetCountParameters(val 
 	return nil
 }
 
+func (j *jsiiProxy_GoogleComputeRouterInterface) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleComputeRouterInterface) validateSetIdParameters(val *string) error {
 	return nil
 }

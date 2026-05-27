@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_network_firewall_policy_packet_mirroring_rule google_compute_network_firewall_policy_packet_mirroring_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_network_firewall_policy_packet_mirroring_rule google_compute_network_firewall_policy_packet_mirroring_rule}.
 type GoogleComputeNetworkFirewallPolicyPacketMirroringRule interface {
 	cdktn.TerraformResource
 	Action() *string
@@ -31,6 +31,9 @@ type GoogleComputeNetworkFirewallPolicyPacketMirroringRule interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreationTimestamp() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -149,6 +152,7 @@ type GoogleComputeNetworkFirewallPolicyPacketMirroringRule interface {
 	PutMatch(value *GoogleComputeNetworkFirewallPolicyPacketMirroringRuleMatch)
 	PutTargetSecureTags(value interface{})
 	PutTimeouts(value *GoogleComputeNetworkFirewallPolicyPacketMirroringRuleTimeouts)
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetDisabled()
 	ResetId()
@@ -253,6 +257,26 @@ func (j *jsiiProxy_GoogleComputeNetworkFirewallPolicyPacketMirroringRule) Creati
 	_jsii_.Get(
 		j,
 		"creationTimestamp",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeNetworkFirewallPolicyPacketMirroringRule) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeNetworkFirewallPolicyPacketMirroringRule) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -659,7 +683,7 @@ func (j *jsiiProxy_GoogleComputeNetworkFirewallPolicyPacketMirroringRule) TlsIns
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_network_firewall_policy_packet_mirroring_rule google_compute_network_firewall_policy_packet_mirroring_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_network_firewall_policy_packet_mirroring_rule google_compute_network_firewall_policy_packet_mirroring_rule} Resource.
 func NewGoogleComputeNetworkFirewallPolicyPacketMirroringRule(scope constructs.Construct, id *string, config *GoogleComputeNetworkFirewallPolicyPacketMirroringRuleConfig) GoogleComputeNetworkFirewallPolicyPacketMirroringRule {
 	_init_.Initialize()
 
@@ -677,7 +701,7 @@ func NewGoogleComputeNetworkFirewallPolicyPacketMirroringRule(scope constructs.C
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_network_firewall_policy_packet_mirroring_rule google_compute_network_firewall_policy_packet_mirroring_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_network_firewall_policy_packet_mirroring_rule google_compute_network_firewall_policy_packet_mirroring_rule} Resource.
 func NewGoogleComputeNetworkFirewallPolicyPacketMirroringRule_Override(g GoogleComputeNetworkFirewallPolicyPacketMirroringRule, scope constructs.Construct, id *string, config *GoogleComputeNetworkFirewallPolicyPacketMirroringRuleConfig) {
 	_init_.Initialize()
 
@@ -717,6 +741,17 @@ func (j *jsiiProxy_GoogleComputeNetworkFirewallPolicyPacketMirroringRule)SetCoun
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleComputeNetworkFirewallPolicyPacketMirroringRule)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1260,6 +1295,14 @@ func (g *jsiiProxy_GoogleComputeNetworkFirewallPolicyPacketMirroringRule) PutTim
 		g,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleComputeNetworkFirewallPolicyPacketMirroringRule) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

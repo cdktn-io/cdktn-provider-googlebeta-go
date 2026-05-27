@@ -123,6 +123,10 @@ func (j *jsiiProxy_GoogleComputeRouterNat) validateSetCountParameters(val interf
 	return nil
 }
 
+func (j *jsiiProxy_GoogleComputeRouterNat) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleComputeRouterNat) validateSetDrainNatIpsParameters(val *[]*string) error {
 	return nil
 }

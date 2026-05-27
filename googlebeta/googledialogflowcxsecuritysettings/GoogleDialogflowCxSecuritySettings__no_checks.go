@@ -115,6 +115,10 @@ func (j *jsiiProxy_GoogleDialogflowCxSecuritySettings) validateSetDeidentifyTemp
 	return nil
 }
 
+func (j *jsiiProxy_GoogleDialogflowCxSecuritySettings) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleDialogflowCxSecuritySettings) validateSetDisplayNameParameters(val *string) error {
 	return nil
 }

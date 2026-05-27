@@ -103,6 +103,10 @@ func (j *jsiiProxy_GoogleStorageHmacKey) validateSetCountParameters(val interfac
 	return nil
 }
 
+func (j *jsiiProxy_GoogleStorageHmacKey) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleStorageHmacKey) validateSetIdParameters(val *string) error {
 	return nil
 }

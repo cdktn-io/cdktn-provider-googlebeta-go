@@ -127,6 +127,10 @@ func (j *jsiiProxy_GoogleDnsManagedZone) validateSetCountParameters(val interfac
 	return nil
 }
 
+func (j *jsiiProxy_GoogleDnsManagedZone) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleDnsManagedZone) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

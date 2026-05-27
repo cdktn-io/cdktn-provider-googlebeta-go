@@ -107,6 +107,10 @@ func (j *jsiiProxy_GoogleNetappKmsconfig) validateSetCryptoKeyNameParameters(val
 	return nil
 }
 
+func (j *jsiiProxy_GoogleNetappKmsconfig) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleNetappKmsconfig) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

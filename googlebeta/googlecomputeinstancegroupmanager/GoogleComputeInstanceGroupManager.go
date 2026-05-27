@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_instance_group_manager google_compute_instance_group_manager}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_instance_group_manager google_compute_instance_group_manager}.
 type GoogleComputeInstanceGroupManager interface {
 	cdktn.TerraformResource
 	AllInstancesConfig() GoogleComputeInstanceGroupManagerAllInstancesConfigOutputReference
@@ -35,6 +35,9 @@ type GoogleComputeInstanceGroupManager interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreationTimestamp() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -194,6 +197,7 @@ type GoogleComputeInstanceGroupManager interface {
 	PutVersion(value interface{})
 	ResetAllInstancesConfig()
 	ResetAutoHealingPolicies()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	ResetInstanceLifecyclePolicy()
@@ -351,6 +355,26 @@ func (j *jsiiProxy_GoogleComputeInstanceGroupManager) CreationTimestamp() *strin
 	_jsii_.Get(
 		j,
 		"creationTimestamp",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeInstanceGroupManager) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeInstanceGroupManager) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -1017,7 +1041,7 @@ func (j *jsiiProxy_GoogleComputeInstanceGroupManager) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_instance_group_manager google_compute_instance_group_manager} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_instance_group_manager google_compute_instance_group_manager} Resource.
 func NewGoogleComputeInstanceGroupManager(scope constructs.Construct, id *string, config *GoogleComputeInstanceGroupManagerConfig) GoogleComputeInstanceGroupManager {
 	_init_.Initialize()
 
@@ -1035,7 +1059,7 @@ func NewGoogleComputeInstanceGroupManager(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_instance_group_manager google_compute_instance_group_manager} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_instance_group_manager google_compute_instance_group_manager} Resource.
 func NewGoogleComputeInstanceGroupManager_Override(g GoogleComputeInstanceGroupManager, scope constructs.Construct, id *string, config *GoogleComputeInstanceGroupManagerConfig) {
 	_init_.Initialize()
 
@@ -1075,6 +1099,17 @@ func (j *jsiiProxy_GoogleComputeInstanceGroupManager)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleComputeInstanceGroupManager)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1776,6 +1811,14 @@ func (g *jsiiProxy_GoogleComputeInstanceGroupManager) ResetAutoHealingPolicies()
 	_jsii_.InvokeVoid(
 		g,
 		"resetAutoHealingPolicies",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleComputeInstanceGroupManager) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

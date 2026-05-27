@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_machine_image google_compute_machine_image}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_machine_image google_compute_machine_image}.
 type GoogleComputeMachineImage interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -27,6 +27,9 @@ type GoogleComputeMachineImage interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -133,6 +136,7 @@ type GoogleComputeMachineImage interface {
 	PutMachineImageEncryptionKey(value *GoogleComputeMachineImageMachineImageEncryptionKey)
 	PutParams(value *GoogleComputeMachineImageParams)
 	PutTimeouts(value *GoogleComputeMachineImageTimeouts)
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetGuestFlush()
 	ResetId()
@@ -205,6 +209,26 @@ func (j *jsiiProxy_GoogleComputeMachineImage) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeMachineImage) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeMachineImage) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -531,7 +555,7 @@ func (j *jsiiProxy_GoogleComputeMachineImage) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_machine_image google_compute_machine_image} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_machine_image google_compute_machine_image} Resource.
 func NewGoogleComputeMachineImage(scope constructs.Construct, id *string, config *GoogleComputeMachineImageConfig) GoogleComputeMachineImage {
 	_init_.Initialize()
 
@@ -549,7 +573,7 @@ func NewGoogleComputeMachineImage(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_machine_image google_compute_machine_image} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_machine_image google_compute_machine_image} Resource.
 func NewGoogleComputeMachineImage_Override(g GoogleComputeMachineImage, scope constructs.Construct, id *string, config *GoogleComputeMachineImageConfig) {
 	_init_.Initialize()
 
@@ -578,6 +602,17 @@ func (j *jsiiProxy_GoogleComputeMachineImage)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleComputeMachineImage)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1077,6 +1112,14 @@ func (g *jsiiProxy_GoogleComputeMachineImage) PutTimeouts(value *GoogleComputeMa
 		g,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleComputeMachineImage) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

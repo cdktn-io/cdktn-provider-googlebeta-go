@@ -111,6 +111,10 @@ func (j *jsiiProxy_GoogleOrgPolicyPolicy) validateSetCountParameters(val interfa
 	return nil
 }
 
+func (j *jsiiProxy_GoogleOrgPolicyPolicy) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleOrgPolicyPolicy) validateSetIdParameters(val *string) error {
 	return nil
 }

@@ -111,6 +111,10 @@ func (j *jsiiProxy_GoogleEdgecontainerVpnConnection) validateSetCountParameters(
 	return nil
 }
 
+func (j *jsiiProxy_GoogleEdgecontainerVpnConnection) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleEdgecontainerVpnConnection) validateSetEnableHighAvailabilityParameters(val interface{}) error {
 	return nil
 }

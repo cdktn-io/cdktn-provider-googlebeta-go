@@ -111,6 +111,10 @@ func (j *jsiiProxy_GoogleComposerEnvironment) validateSetCountParameters(val int
 	return nil
 }
 
+func (j *jsiiProxy_GoogleComposerEnvironment) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleComposerEnvironment) validateSetIdParameters(val *string) error {
 	return nil
 }

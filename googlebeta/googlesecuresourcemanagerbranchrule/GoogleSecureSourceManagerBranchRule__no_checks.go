@@ -111,6 +111,10 @@ func (j *jsiiProxy_GoogleSecureSourceManagerBranchRule) validateSetCountParamete
 	return nil
 }
 
+func (j *jsiiProxy_GoogleSecureSourceManagerBranchRule) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleSecureSourceManagerBranchRule) validateSetDisabledParameters(val interface{}) error {
 	return nil
 }

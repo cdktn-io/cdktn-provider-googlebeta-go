@@ -1,0 +1,13 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+package googledatabasemigrationserviceconnectionprofile
+
+
+type GoogleDatabaseMigrationServiceConnectionProfilePostgresqlPrivateConnectivity struct {
+	// Required. The resource name (URI) of the private connection.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_database_migration_service_connection_profile#private_connection GoogleDatabaseMigrationServiceConnectionProfile#private_connection}
+	PrivateConnection *string `field:"required" json:"privateConnection" yaml:"privateConnection"`
+}
+

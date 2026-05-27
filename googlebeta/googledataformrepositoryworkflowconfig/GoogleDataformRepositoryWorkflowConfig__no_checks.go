@@ -111,6 +111,10 @@ func (j *jsiiProxy_GoogleDataformRepositoryWorkflowConfig) validateSetCronSchedu
 	return nil
 }
 
+func (j *jsiiProxy_GoogleDataformRepositoryWorkflowConfig) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleDataformRepositoryWorkflowConfig) validateSetIdParameters(val *string) error {
 	return nil
 }

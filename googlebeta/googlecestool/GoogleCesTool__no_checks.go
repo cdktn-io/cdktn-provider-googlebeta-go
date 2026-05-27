@@ -123,6 +123,10 @@ func (j *jsiiProxy_GoogleCesTool) validateSetCountParameters(val interface{}) er
 	return nil
 }
 
+func (j *jsiiProxy_GoogleCesTool) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleCesTool) validateSetExecutionTypeParameters(val *string) error {
 	return nil
 }

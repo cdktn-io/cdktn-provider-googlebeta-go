@@ -103,6 +103,10 @@ func (j *jsiiProxy_GoogleApigeeSpace) validateSetCountParameters(val interface{}
 	return nil
 }
 
+func (j *jsiiProxy_GoogleApigeeSpace) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleApigeeSpace) validateSetDisplayNameParameters(val *string) error {
 	return nil
 }

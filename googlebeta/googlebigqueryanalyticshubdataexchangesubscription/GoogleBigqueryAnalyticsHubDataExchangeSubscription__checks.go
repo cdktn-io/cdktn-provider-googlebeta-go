@@ -383,6 +383,14 @@ func (j *jsiiProxy_GoogleBigqueryAnalyticsHubDataExchangeSubscription) validateS
 	return nil
 }
 
+func (j *jsiiProxy_GoogleBigqueryAnalyticsHubDataExchangeSubscription) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_GoogleBigqueryAnalyticsHubDataExchangeSubscription) validateSetIdParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

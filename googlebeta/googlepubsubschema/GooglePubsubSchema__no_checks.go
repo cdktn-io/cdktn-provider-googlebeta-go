@@ -107,6 +107,10 @@ func (j *jsiiProxy_GooglePubsubSchema) validateSetDefinitionParameters(val *stri
 	return nil
 }
 
+func (j *jsiiProxy_GooglePubsubSchema) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GooglePubsubSchema) validateSetIdParameters(val *string) error {
 	return nil
 }

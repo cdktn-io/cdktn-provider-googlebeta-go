@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dialogflow_cx_security_settings google_dialogflow_cx_security_settings}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dialogflow_cx_security_settings google_dialogflow_cx_security_settings}.
 type GoogleDialogflowCxSecuritySettings interface {
 	cdktn.TerraformResource
 	AudioExportSettings() GoogleDialogflowCxSecuritySettingsAudioExportSettingsOutputReference
@@ -32,6 +32,9 @@ type GoogleDialogflowCxSecuritySettings interface {
 	DeidentifyTemplate() *string
 	SetDeidentifyTemplate(val *string)
 	DeidentifyTemplateInput() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -149,6 +152,7 @@ type GoogleDialogflowCxSecuritySettings interface {
 	PutTimeouts(value *GoogleDialogflowCxSecuritySettingsTimeouts)
 	ResetAudioExportSettings()
 	ResetDeidentifyTemplate()
+	ResetDeletionPolicy()
 	ResetId()
 	ResetInsightsExportSettings()
 	ResetInspectTemplate()
@@ -264,6 +268,26 @@ func (j *jsiiProxy_GoogleDialogflowCxSecuritySettings) DeidentifyTemplateInput()
 	_jsii_.Get(
 		j,
 		"deidentifyTemplateInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDialogflowCxSecuritySettings) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDialogflowCxSecuritySettings) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -640,7 +664,7 @@ func (j *jsiiProxy_GoogleDialogflowCxSecuritySettings) TimeoutsInput() interface
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dialogflow_cx_security_settings google_dialogflow_cx_security_settings} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dialogflow_cx_security_settings google_dialogflow_cx_security_settings} Resource.
 func NewGoogleDialogflowCxSecuritySettings(scope constructs.Construct, id *string, config *GoogleDialogflowCxSecuritySettingsConfig) GoogleDialogflowCxSecuritySettings {
 	_init_.Initialize()
 
@@ -658,7 +682,7 @@ func NewGoogleDialogflowCxSecuritySettings(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dialogflow_cx_security_settings google_dialogflow_cx_security_settings} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dialogflow_cx_security_settings google_dialogflow_cx_security_settings} Resource.
 func NewGoogleDialogflowCxSecuritySettings_Override(g GoogleDialogflowCxSecuritySettings, scope constructs.Construct, id *string, config *GoogleDialogflowCxSecuritySettingsConfig) {
 	_init_.Initialize()
 
@@ -698,6 +722,17 @@ func (j *jsiiProxy_GoogleDialogflowCxSecuritySettings)SetDeidentifyTemplate(val 
 	_jsii_.Set(
 		j,
 		"deidentifyTemplate",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleDialogflowCxSecuritySettings)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1256,6 +1291,14 @@ func (g *jsiiProxy_GoogleDialogflowCxSecuritySettings) ResetDeidentifyTemplate()
 	_jsii_.InvokeVoid(
 		g,
 		"resetDeidentifyTemplate",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleDialogflowCxSecuritySettings) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

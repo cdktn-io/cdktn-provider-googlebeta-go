@@ -29,6 +29,7 @@ type DataGoogleTagsTagValuesValuesOutputReference interface {
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
+	DeletionPolicy() *string
 	Description() *string
 	// Experimental.
 	Fqn() *string
@@ -121,6 +122,16 @@ func (j *jsiiProxy_DataGoogleTagsTagValuesValuesOutputReference) CreationStack()
 	_jsii_.Get(
 		j,
 		"creationStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleTagsTagValuesValuesOutputReference) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
 		&returns,
 	)
 	return returns

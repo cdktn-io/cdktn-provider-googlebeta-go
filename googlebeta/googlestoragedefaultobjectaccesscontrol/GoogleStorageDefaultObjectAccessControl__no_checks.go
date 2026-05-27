@@ -107,6 +107,10 @@ func (j *jsiiProxy_GoogleStorageDefaultObjectAccessControl) validateSetCountPara
 	return nil
 }
 
+func (j *jsiiProxy_GoogleStorageDefaultObjectAccessControl) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleStorageDefaultObjectAccessControl) validateSetEntityParameters(val *string) error {
 	return nil
 }

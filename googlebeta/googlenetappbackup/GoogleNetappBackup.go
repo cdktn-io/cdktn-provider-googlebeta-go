@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_backup google_netapp_backup}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_backup google_netapp_backup}.
 type GoogleNetappBackup interface {
 	cdktn.TerraformResource
 	BackupRegion() *string
@@ -31,6 +31,9 @@ type GoogleNetappBackup interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -65,6 +68,8 @@ type GoogleNetappBackup interface {
 	NameInput() *string
 	// The tree node.
 	Node() constructs.Node
+	OntapSource() GoogleNetappBackupOntapSourceOutputReference
+	OntapSourceInput() *GoogleNetappBackupOntapSource
 	Project() *string
 	SetProject(val *string)
 	ProjectInput() *string
@@ -142,10 +147,13 @@ type GoogleNetappBackup interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	PutOntapSource(value *GoogleNetappBackupOntapSource)
 	PutTimeouts(value *GoogleNetappBackupTimeouts)
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	ResetLabels()
+	ResetOntapSource()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
@@ -255,6 +263,26 @@ func (j *jsiiProxy_GoogleNetappBackup) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleNetappBackup) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleNetappBackup) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -425,6 +453,26 @@ func (j *jsiiProxy_GoogleNetappBackup) Node() constructs.Node {
 	_jsii_.Get(
 		j,
 		"node",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleNetappBackup) OntapSource() GoogleNetappBackupOntapSourceOutputReference {
+	var returns GoogleNetappBackupOntapSourceOutputReference
+	_jsii_.Get(
+		j,
+		"ontapSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleNetappBackup) OntapSourceInput() *GoogleNetappBackupOntapSource {
+	var returns *GoogleNetappBackupOntapSource
+	_jsii_.Get(
+		j,
+		"ontapSourceInput",
 		&returns,
 	)
 	return returns
@@ -631,7 +679,7 @@ func (j *jsiiProxy_GoogleNetappBackup) VolumeUsageBytes() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_backup google_netapp_backup} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_backup google_netapp_backup} Resource.
 func NewGoogleNetappBackup(scope constructs.Construct, id *string, config *GoogleNetappBackupConfig) GoogleNetappBackup {
 	_init_.Initialize()
 
@@ -649,7 +697,7 @@ func NewGoogleNetappBackup(scope constructs.Construct, id *string, config *Googl
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_backup google_netapp_backup} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_backup google_netapp_backup} Resource.
 func NewGoogleNetappBackup_Override(g GoogleNetappBackup, scope constructs.Construct, id *string, config *GoogleNetappBackupConfig) {
 	_init_.Initialize()
 
@@ -678,6 +726,17 @@ func (j *jsiiProxy_GoogleNetappBackup)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleNetappBackup)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1180,6 +1239,17 @@ func (g *jsiiProxy_GoogleNetappBackup) OverrideLogicalId(newLogicalId *string) {
 	)
 }
 
+func (g *jsiiProxy_GoogleNetappBackup) PutOntapSource(value *GoogleNetappBackupOntapSource) {
+	if err := g.validatePutOntapSourceParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putOntapSource",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleNetappBackup) PutTimeouts(value *GoogleNetappBackupTimeouts) {
 	if err := g.validatePutTimeoutsParameters(value); err != nil {
 		panic(err)
@@ -1188,6 +1258,14 @@ func (g *jsiiProxy_GoogleNetappBackup) PutTimeouts(value *GoogleNetappBackupTime
 		g,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleNetappBackup) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 
@@ -1211,6 +1289,14 @@ func (g *jsiiProxy_GoogleNetappBackup) ResetLabels() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetLabels",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleNetappBackup) ResetOntapSource() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetOntapSource",
 		nil, // no parameters
 	)
 }

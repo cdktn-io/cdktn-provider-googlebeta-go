@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_firebase_app_check_debug_token google_firebase_app_check_debug_token}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_firebase_app_check_debug_token google_firebase_app_check_debug_token}.
 type GoogleFirebaseAppCheckDebugToken interface {
 	cdktn.TerraformResource
 	AppId() *string
@@ -31,6 +31,9 @@ type GoogleFirebaseAppCheckDebugToken interface {
 	// Experimental.
 	SetCount(val interface{})
 	DebugTokenId() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -123,6 +126,7 @@ type GoogleFirebaseAppCheckDebugToken interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *GoogleFirebaseAppCheckDebugTokenTimeouts)
+	ResetDeletionPolicy()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -221,6 +225,26 @@ func (j *jsiiProxy_GoogleFirebaseAppCheckDebugToken) DebugTokenId() *string {
 	_jsii_.Get(
 		j,
 		"debugTokenId",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleFirebaseAppCheckDebugToken) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleFirebaseAppCheckDebugToken) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -447,7 +471,7 @@ func (j *jsiiProxy_GoogleFirebaseAppCheckDebugToken) TokenInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_firebase_app_check_debug_token google_firebase_app_check_debug_token} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_firebase_app_check_debug_token google_firebase_app_check_debug_token} Resource.
 func NewGoogleFirebaseAppCheckDebugToken(scope constructs.Construct, id *string, config *GoogleFirebaseAppCheckDebugTokenConfig) GoogleFirebaseAppCheckDebugToken {
 	_init_.Initialize()
 
@@ -465,7 +489,7 @@ func NewGoogleFirebaseAppCheckDebugToken(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_firebase_app_check_debug_token google_firebase_app_check_debug_token} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_firebase_app_check_debug_token google_firebase_app_check_debug_token} Resource.
 func NewGoogleFirebaseAppCheckDebugToken_Override(g GoogleFirebaseAppCheckDebugToken, scope constructs.Construct, id *string, config *GoogleFirebaseAppCheckDebugTokenConfig) {
 	_init_.Initialize()
 
@@ -505,6 +529,17 @@ func (j *jsiiProxy_GoogleFirebaseAppCheckDebugToken)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleFirebaseAppCheckDebugToken)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -960,6 +995,14 @@ func (g *jsiiProxy_GoogleFirebaseAppCheckDebugToken) PutTimeouts(value *GoogleFi
 		g,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleFirebaseAppCheckDebugToken) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

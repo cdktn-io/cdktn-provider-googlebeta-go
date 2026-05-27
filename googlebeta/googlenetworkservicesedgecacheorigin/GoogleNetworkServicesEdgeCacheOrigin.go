@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_services_edge_cache_origin google_network_services_edge_cache_origin}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_services_edge_cache_origin google_network_services_edge_cache_origin}.
 type GoogleNetworkServicesEdgeCacheOrigin interface {
 	cdktn.TerraformResource
 	AwsV4Authentication() GoogleNetworkServicesEdgeCacheOriginAwsV4AuthenticationOutputReference
@@ -29,6 +29,9 @@ type GoogleNetworkServicesEdgeCacheOrigin interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -158,6 +161,7 @@ type GoogleNetworkServicesEdgeCacheOrigin interface {
 	PutTimeout(value *GoogleNetworkServicesEdgeCacheOriginTimeout)
 	PutTimeouts(value *GoogleNetworkServicesEdgeCacheOriginTimeouts)
 	ResetAwsV4Authentication()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetFailoverOrigin()
 	ResetFlexShielding()
@@ -257,6 +261,26 @@ func (j *jsiiProxy_GoogleNetworkServicesEdgeCacheOrigin) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleNetworkServicesEdgeCacheOrigin) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleNetworkServicesEdgeCacheOrigin) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -723,7 +747,7 @@ func (j *jsiiProxy_GoogleNetworkServicesEdgeCacheOrigin) TimeoutsInput() interfa
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_services_edge_cache_origin google_network_services_edge_cache_origin} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_services_edge_cache_origin google_network_services_edge_cache_origin} Resource.
 func NewGoogleNetworkServicesEdgeCacheOrigin(scope constructs.Construct, id *string, config *GoogleNetworkServicesEdgeCacheOriginConfig) GoogleNetworkServicesEdgeCacheOrigin {
 	_init_.Initialize()
 
@@ -741,7 +765,7 @@ func NewGoogleNetworkServicesEdgeCacheOrigin(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_services_edge_cache_origin google_network_services_edge_cache_origin} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_services_edge_cache_origin google_network_services_edge_cache_origin} Resource.
 func NewGoogleNetworkServicesEdgeCacheOrigin_Override(g GoogleNetworkServicesEdgeCacheOrigin, scope constructs.Construct, id *string, config *GoogleNetworkServicesEdgeCacheOriginConfig) {
 	_init_.Initialize()
 
@@ -770,6 +794,17 @@ func (j *jsiiProxy_GoogleNetworkServicesEdgeCacheOrigin)SetCount(val interface{}
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleNetworkServicesEdgeCacheOrigin)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1364,6 +1399,14 @@ func (g *jsiiProxy_GoogleNetworkServicesEdgeCacheOrigin) ResetAwsV4Authenticatio
 	_jsii_.InvokeVoid(
 		g,
 		"resetAwsV4Authentication",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleNetworkServicesEdgeCacheOrigin) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

@@ -348,6 +348,14 @@ func (j *jsiiProxy_GoogleBigtableLogicalView) validateSetCountParameters(val int
 	return nil
 }
 
+func (j *jsiiProxy_GoogleBigtableLogicalView) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_GoogleBigtableLogicalView) validateSetDeletionProtectionParameters(val interface{}) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

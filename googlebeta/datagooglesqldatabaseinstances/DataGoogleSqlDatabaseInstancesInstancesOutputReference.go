@@ -33,6 +33,7 @@ type DataGoogleSqlDatabaseInstancesInstancesOutputReference interface {
 	// Experimental.
 	CreationStack() *[]*string
 	DatabaseVersion() *string
+	DeletionPolicy() *string
 	DeletionProtection() cdktn.IResolvable
 	DnsName() *string
 	DnsNames() DataGoogleSqlDatabaseInstancesInstancesDnsNamesList
@@ -188,6 +189,16 @@ func (j *jsiiProxy_DataGoogleSqlDatabaseInstancesInstancesOutputReference) Datab
 	_jsii_.Get(
 		j,
 		"databaseVersion",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleSqlDatabaseInstancesInstancesOutputReference) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
 		&returns,
 	)
 	return returns

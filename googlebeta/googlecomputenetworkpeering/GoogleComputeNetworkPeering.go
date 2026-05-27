@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_network_peering google_compute_network_peering}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_network_peering google_compute_network_peering}.
 type GoogleComputeNetworkPeering interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -27,6 +27,9 @@ type GoogleComputeNetworkPeering interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -139,6 +142,7 @@ type GoogleComputeNetworkPeering interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *GoogleComputeNetworkPeeringTimeouts)
+	ResetDeletionPolicy()
 	ResetExportCustomRoutes()
 	ResetExportSubnetRoutesWithPublicIp()
 	ResetId()
@@ -212,6 +216,26 @@ func (j *jsiiProxy_GoogleComputeNetworkPeering) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeNetworkPeering) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeNetworkPeering) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -578,7 +602,7 @@ func (j *jsiiProxy_GoogleComputeNetworkPeering) UpdateStrategyInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_network_peering google_compute_network_peering} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_network_peering google_compute_network_peering} Resource.
 func NewGoogleComputeNetworkPeering(scope constructs.Construct, id *string, config *GoogleComputeNetworkPeeringConfig) GoogleComputeNetworkPeering {
 	_init_.Initialize()
 
@@ -596,7 +620,7 @@ func NewGoogleComputeNetworkPeering(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_network_peering google_compute_network_peering} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_network_peering google_compute_network_peering} Resource.
 func NewGoogleComputeNetworkPeering_Override(g GoogleComputeNetworkPeering, scope constructs.Construct, id *string, config *GoogleComputeNetworkPeeringConfig) {
 	_init_.Initialize()
 
@@ -625,6 +649,17 @@ func (j *jsiiProxy_GoogleComputeNetworkPeering)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleComputeNetworkPeering)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1146,6 +1181,14 @@ func (g *jsiiProxy_GoogleComputeNetworkPeering) PutTimeouts(value *GoogleCompute
 		g,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleComputeNetworkPeering) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

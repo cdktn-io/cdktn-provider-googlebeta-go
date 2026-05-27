@@ -392,6 +392,14 @@ func (j *jsiiProxy_GoogleDataprocSessionTemplate) validateSetCountParameters(val
 	return nil
 }
 
+func (j *jsiiProxy_GoogleDataprocSessionTemplate) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_GoogleDataprocSessionTemplate) validateSetIdParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

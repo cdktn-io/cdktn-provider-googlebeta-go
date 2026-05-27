@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integrations_auth_config google_integrations_auth_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integrations_auth_config google_integrations_auth_config}.
 type GoogleIntegrationsAuthConfig interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -35,6 +35,9 @@ type GoogleIntegrationsAuthConfig interface {
 	CredentialType() *string
 	DecryptedCredential() GoogleIntegrationsAuthConfigDecryptedCredentialOutputReference
 	DecryptedCredentialInput() *GoogleIntegrationsAuthConfigDecryptedCredential
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -150,6 +153,7 @@ type GoogleIntegrationsAuthConfig interface {
 	PutTimeouts(value *GoogleIntegrationsAuthConfigTimeouts)
 	ResetClientCertificate()
 	ResetDecryptedCredential()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetExpiryNotificationDuration()
 	ResetId()
@@ -302,6 +306,26 @@ func (j *jsiiProxy_GoogleIntegrationsAuthConfig) DecryptedCredentialInput() *Goo
 	_jsii_.Get(
 		j,
 		"decryptedCredentialInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleIntegrationsAuthConfig) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleIntegrationsAuthConfig) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -678,7 +702,7 @@ func (j *jsiiProxy_GoogleIntegrationsAuthConfig) VisibilityInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integrations_auth_config google_integrations_auth_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integrations_auth_config google_integrations_auth_config} Resource.
 func NewGoogleIntegrationsAuthConfig(scope constructs.Construct, id *string, config *GoogleIntegrationsAuthConfigConfig) GoogleIntegrationsAuthConfig {
 	_init_.Initialize()
 
@@ -696,7 +720,7 @@ func NewGoogleIntegrationsAuthConfig(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integrations_auth_config google_integrations_auth_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integrations_auth_config google_integrations_auth_config} Resource.
 func NewGoogleIntegrationsAuthConfig_Override(g GoogleIntegrationsAuthConfig, scope constructs.Construct, id *string, config *GoogleIntegrationsAuthConfigConfig) {
 	_init_.Initialize()
 
@@ -725,6 +749,17 @@ func (j *jsiiProxy_GoogleIntegrationsAuthConfig)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleIntegrationsAuthConfig)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1261,6 +1296,14 @@ func (g *jsiiProxy_GoogleIntegrationsAuthConfig) ResetDecryptedCredential() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetDecryptedCredential",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleIntegrationsAuthConfig) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_sourcerepo_repository google_sourcerepo_repository}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_sourcerepo_repository google_sourcerepo_repository}.
 type GoogleSourcerepoRepository interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -30,6 +30,9 @@ type GoogleSourcerepoRepository interface {
 	CreateIgnoreAlreadyExists() interface{}
 	SetCreateIgnoreAlreadyExists(val interface{})
 	CreateIgnoreAlreadyExistsInput() interface{}
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -125,6 +128,7 @@ type GoogleSourcerepoRepository interface {
 	PutPubsubConfigs(value interface{})
 	PutTimeouts(value *GoogleSourcerepoRepositoryTimeouts)
 	ResetCreateIgnoreAlreadyExists()
+	ResetDeletionPolicy()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -214,6 +218,26 @@ func (j *jsiiProxy_GoogleSourcerepoRepository) CreateIgnoreAlreadyExistsInput() 
 	_jsii_.Get(
 		j,
 		"createIgnoreAlreadyExistsInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleSourcerepoRepository) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleSourcerepoRepository) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -460,7 +484,7 @@ func (j *jsiiProxy_GoogleSourcerepoRepository) Url() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_sourcerepo_repository google_sourcerepo_repository} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_sourcerepo_repository google_sourcerepo_repository} Resource.
 func NewGoogleSourcerepoRepository(scope constructs.Construct, id *string, config *GoogleSourcerepoRepositoryConfig) GoogleSourcerepoRepository {
 	_init_.Initialize()
 
@@ -478,7 +502,7 @@ func NewGoogleSourcerepoRepository(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_sourcerepo_repository google_sourcerepo_repository} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_sourcerepo_repository google_sourcerepo_repository} Resource.
 func NewGoogleSourcerepoRepository_Override(g GoogleSourcerepoRepository, scope constructs.Construct, id *string, config *GoogleSourcerepoRepositoryConfig) {
 	_init_.Initialize()
 
@@ -518,6 +542,17 @@ func (j *jsiiProxy_GoogleSourcerepoRepository)SetCreateIgnoreAlreadyExists(val i
 	_jsii_.Set(
 		j,
 		"createIgnoreAlreadyExists",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleSourcerepoRepository)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -980,6 +1015,14 @@ func (g *jsiiProxy_GoogleSourcerepoRepository) ResetCreateIgnoreAlreadyExists() 
 	_jsii_.InvokeVoid(
 		g,
 		"resetCreateIgnoreAlreadyExists",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleSourcerepoRepository) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

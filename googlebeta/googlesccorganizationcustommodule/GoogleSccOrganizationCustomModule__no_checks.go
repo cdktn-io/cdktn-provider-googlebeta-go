@@ -107,6 +107,10 @@ func (j *jsiiProxy_GoogleSccOrganizationCustomModule) validateSetCountParameters
 	return nil
 }
 
+func (j *jsiiProxy_GoogleSccOrganizationCustomModule) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleSccOrganizationCustomModule) validateSetDisplayNameParameters(val *string) error {
 	return nil
 }

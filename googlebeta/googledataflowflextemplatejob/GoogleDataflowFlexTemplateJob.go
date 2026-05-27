@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataflow_flex_template_job google_dataflow_flex_template_job}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataflow_flex_template_job google_dataflow_flex_template_job}.
 type GoogleDataflowFlexTemplateJob interface {
 	cdktn.TerraformResource
 	AdditionalExperiments() *[]*string
@@ -39,6 +39,9 @@ type GoogleDataflowFlexTemplateJob interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -190,6 +193,7 @@ type GoogleDataflowFlexTemplateJob interface {
 	ResetAdditionalExperiments()
 	ResetAdditionalPipelineOptions()
 	ResetAutoscalingAlgorithm()
+	ResetDeletionPolicy()
 	ResetEnableStreamingEngine()
 	ResetId()
 	ResetIpConfiguration()
@@ -356,6 +360,26 @@ func (j *jsiiProxy_GoogleDataflowFlexTemplateJob) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDataflowFlexTemplateJob) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDataflowFlexTemplateJob) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -972,7 +996,7 @@ func (j *jsiiProxy_GoogleDataflowFlexTemplateJob) Type() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataflow_flex_template_job google_dataflow_flex_template_job} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataflow_flex_template_job google_dataflow_flex_template_job} Resource.
 func NewGoogleDataflowFlexTemplateJob(scope constructs.Construct, id *string, config *GoogleDataflowFlexTemplateJobConfig) GoogleDataflowFlexTemplateJob {
 	_init_.Initialize()
 
@@ -990,7 +1014,7 @@ func NewGoogleDataflowFlexTemplateJob(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataflow_flex_template_job google_dataflow_flex_template_job} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataflow_flex_template_job google_dataflow_flex_template_job} Resource.
 func NewGoogleDataflowFlexTemplateJob_Override(g GoogleDataflowFlexTemplateJob, scope constructs.Construct, id *string, config *GoogleDataflowFlexTemplateJobConfig) {
 	_init_.Initialize()
 
@@ -1063,6 +1087,17 @@ func (j *jsiiProxy_GoogleDataflowFlexTemplateJob)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleDataflowFlexTemplateJob)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1728,6 +1763,14 @@ func (g *jsiiProxy_GoogleDataflowFlexTemplateJob) ResetAutoscalingAlgorithm() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetAutoscalingAlgorithm",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleDataflowFlexTemplateJob) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

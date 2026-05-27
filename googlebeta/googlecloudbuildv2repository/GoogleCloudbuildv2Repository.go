@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloudbuildv2_repository google_cloudbuildv2_repository}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudbuildv2_repository google_cloudbuildv2_repository}.
 type GoogleCloudbuildv2Repository interface {
 	cdktn.TerraformResource
 	Annotations() *map[string]*string
@@ -31,6 +31,9 @@ type GoogleCloudbuildv2Repository interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -133,6 +136,7 @@ type GoogleCloudbuildv2Repository interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *GoogleCloudbuildv2RepositoryTimeouts)
 	ResetAnnotations()
+	ResetDeletionPolicy()
 	ResetId()
 	ResetLocation()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -232,6 +236,26 @@ func (j *jsiiProxy_GoogleCloudbuildv2Repository) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCloudbuildv2Repository) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCloudbuildv2Repository) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -528,7 +552,7 @@ func (j *jsiiProxy_GoogleCloudbuildv2Repository) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloudbuildv2_repository google_cloudbuildv2_repository} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudbuildv2_repository google_cloudbuildv2_repository} Resource.
 func NewGoogleCloudbuildv2Repository(scope constructs.Construct, id *string, config *GoogleCloudbuildv2RepositoryConfig) GoogleCloudbuildv2Repository {
 	_init_.Initialize()
 
@@ -546,7 +570,7 @@ func NewGoogleCloudbuildv2Repository(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloudbuildv2_repository google_cloudbuildv2_repository} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudbuildv2_repository google_cloudbuildv2_repository} Resource.
 func NewGoogleCloudbuildv2Repository_Override(g GoogleCloudbuildv2Repository, scope constructs.Construct, id *string, config *GoogleCloudbuildv2RepositoryConfig) {
 	_init_.Initialize()
 
@@ -586,6 +610,17 @@ func (j *jsiiProxy_GoogleCloudbuildv2Repository)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleCloudbuildv2Repository)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1070,6 +1105,14 @@ func (g *jsiiProxy_GoogleCloudbuildv2Repository) ResetAnnotations() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetAnnotations",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleCloudbuildv2Repository) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

@@ -107,6 +107,10 @@ func (j *jsiiProxy_GoogleApigeeApi) validateSetCountParameters(val interface{}) 
 	return nil
 }
 
+func (j *jsiiProxy_GoogleApigeeApi) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleApigeeApi) validateSetDetectMd5HashParameters(val *string) error {
 	return nil
 }

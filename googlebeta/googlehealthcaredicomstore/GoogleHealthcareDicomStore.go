@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_healthcare_dicom_store google_healthcare_dicom_store}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_healthcare_dicom_store google_healthcare_dicom_store}.
 type GoogleHealthcareDicomStore interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -30,6 +30,9 @@ type GoogleHealthcareDicomStore interface {
 	Dataset() *string
 	SetDataset(val *string)
 	DatasetInput() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -128,6 +131,7 @@ type GoogleHealthcareDicomStore interface {
 	PutNotificationConfig(value *GoogleHealthcareDicomStoreNotificationConfig)
 	PutStreamConfigs(value interface{})
 	PutTimeouts(value *GoogleHealthcareDicomStoreTimeouts)
+	ResetDeletionPolicy()
 	ResetId()
 	ResetLabels()
 	ResetNotificationConfig()
@@ -218,6 +222,26 @@ func (j *jsiiProxy_GoogleHealthcareDicomStore) DatasetInput() *string {
 	_jsii_.Get(
 		j,
 		"datasetInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleHealthcareDicomStore) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleHealthcareDicomStore) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -494,7 +518,7 @@ func (j *jsiiProxy_GoogleHealthcareDicomStore) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_healthcare_dicom_store google_healthcare_dicom_store} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_healthcare_dicom_store google_healthcare_dicom_store} Resource.
 func NewGoogleHealthcareDicomStore(scope constructs.Construct, id *string, config *GoogleHealthcareDicomStoreConfig) GoogleHealthcareDicomStore {
 	_init_.Initialize()
 
@@ -512,7 +536,7 @@ func NewGoogleHealthcareDicomStore(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_healthcare_dicom_store google_healthcare_dicom_store} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_healthcare_dicom_store google_healthcare_dicom_store} Resource.
 func NewGoogleHealthcareDicomStore_Override(g GoogleHealthcareDicomStore, scope constructs.Construct, id *string, config *GoogleHealthcareDicomStoreConfig) {
 	_init_.Initialize()
 
@@ -552,6 +576,17 @@ func (j *jsiiProxy_GoogleHealthcareDicomStore)SetDataset(val *string) {
 	_jsii_.Set(
 		j,
 		"dataset",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleHealthcareDicomStore)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1018,6 +1053,14 @@ func (g *jsiiProxy_GoogleHealthcareDicomStore) PutTimeouts(value *GoogleHealthca
 		g,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleHealthcareDicomStore) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

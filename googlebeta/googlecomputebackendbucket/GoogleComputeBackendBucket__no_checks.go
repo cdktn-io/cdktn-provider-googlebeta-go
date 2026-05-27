@@ -123,6 +123,10 @@ func (j *jsiiProxy_GoogleComputeBackendBucket) validateSetCustomResponseHeadersP
 	return nil
 }
 
+func (j *jsiiProxy_GoogleComputeBackendBucket) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleComputeBackendBucket) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

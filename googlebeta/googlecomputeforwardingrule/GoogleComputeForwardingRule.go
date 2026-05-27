@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_forwarding_rule google_compute_forwarding_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_forwarding_rule google_compute_forwarding_rule}.
 type GoogleComputeForwardingRule interface {
 	cdktn.TerraformResource
 	AllowGlobalAccess() interface{}
@@ -41,6 +41,9 @@ type GoogleComputeForwardingRule interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreationTimestamp() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -202,6 +205,7 @@ type GoogleComputeForwardingRule interface {
 	ResetAllowPscGlobalAccess()
 	ResetAllPorts()
 	ResetBackendService()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	ResetIpAddress()
@@ -390,6 +394,26 @@ func (j *jsiiProxy_GoogleComputeForwardingRule) CreationTimestamp() *string {
 	_jsii_.Get(
 		j,
 		"creationTimestamp",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeForwardingRule) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeForwardingRule) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -1076,7 +1100,7 @@ func (j *jsiiProxy_GoogleComputeForwardingRule) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_forwarding_rule google_compute_forwarding_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_forwarding_rule google_compute_forwarding_rule} Resource.
 func NewGoogleComputeForwardingRule(scope constructs.Construct, id *string, config *GoogleComputeForwardingRuleConfig) GoogleComputeForwardingRule {
 	_init_.Initialize()
 
@@ -1094,7 +1118,7 @@ func NewGoogleComputeForwardingRule(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_forwarding_rule google_compute_forwarding_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_forwarding_rule google_compute_forwarding_rule} Resource.
 func NewGoogleComputeForwardingRule_Override(g GoogleComputeForwardingRule, scope constructs.Construct, id *string, config *GoogleComputeForwardingRuleConfig) {
 	_init_.Initialize()
 
@@ -1167,6 +1191,17 @@ func (j *jsiiProxy_GoogleComputeForwardingRule)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleComputeForwardingRule)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1862,6 +1897,14 @@ func (g *jsiiProxy_GoogleComputeForwardingRule) ResetBackendService() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetBackendService",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleComputeForwardingRule) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

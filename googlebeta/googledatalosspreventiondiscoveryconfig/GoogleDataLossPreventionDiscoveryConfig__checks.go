@@ -432,6 +432,14 @@ func (j *jsiiProxy_GoogleDataLossPreventionDiscoveryConfig) validateSetCountPara
 	return nil
 }
 
+func (j *jsiiProxy_GoogleDataLossPreventionDiscoveryConfig) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_GoogleDataLossPreventionDiscoveryConfig) validateSetDisplayNameParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

@@ -75,6 +75,10 @@ func (g *jsiiProxy_GoogleNetappBackup) validateOverrideLogicalIdParameters(newLo
 	return nil
 }
 
+func (g *jsiiProxy_GoogleNetappBackup) validatePutOntapSourceParameters(value *GoogleNetappBackupOntapSource) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleNetappBackup) validatePutTimeoutsParameters(value *GoogleNetappBackupTimeouts) error {
 	return nil
 }
@@ -100,6 +104,10 @@ func (j *jsiiProxy_GoogleNetappBackup) validateSetConnectionParameters(val inter
 }
 
 func (j *jsiiProxy_GoogleNetappBackup) validateSetCountParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleNetappBackup) validateSetDeletionPolicyParameters(val *string) error {
 	return nil
 }
 

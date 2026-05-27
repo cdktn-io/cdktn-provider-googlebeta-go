@@ -75,6 +75,10 @@ func (g *jsiiProxy_GoogleDatabaseMigrationServicePrivateConnection) validateOver
 	return nil
 }
 
+func (g *jsiiProxy_GoogleDatabaseMigrationServicePrivateConnection) validatePutPscInterfaceConfigParameters(value *GoogleDatabaseMigrationServicePrivateConnectionPscInterfaceConfig) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleDatabaseMigrationServicePrivateConnection) validatePutTimeoutsParameters(value *GoogleDatabaseMigrationServicePrivateConnectionTimeouts) error {
 	return nil
 }
@@ -108,6 +112,10 @@ func (j *jsiiProxy_GoogleDatabaseMigrationServicePrivateConnection) validateSetC
 }
 
 func (j *jsiiProxy_GoogleDatabaseMigrationServicePrivateConnection) validateSetCreateWithoutValidationParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleDatabaseMigrationServicePrivateConnection) validateSetDeletionPolicyParameters(val *string) error {
 	return nil
 }
 

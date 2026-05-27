@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dialogflow_cx_generator google_dialogflow_cx_generator}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dialogflow_cx_generator google_dialogflow_cx_generator}.
 type GoogleDialogflowCxGenerator interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -27,6 +27,9 @@ type GoogleDialogflowCxGenerator interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -132,6 +135,7 @@ type GoogleDialogflowCxGenerator interface {
 	PutPlaceholders(value interface{})
 	PutPromptText(value *GoogleDialogflowCxGeneratorPromptText)
 	PutTimeouts(value *GoogleDialogflowCxGeneratorTimeouts)
+	ResetDeletionPolicy()
 	ResetId()
 	ResetLanguageCode()
 	ResetLlmModelSettings()
@@ -204,6 +208,26 @@ func (j *jsiiProxy_GoogleDialogflowCxGenerator) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDialogflowCxGenerator) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDialogflowCxGenerator) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -520,7 +544,7 @@ func (j *jsiiProxy_GoogleDialogflowCxGenerator) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dialogflow_cx_generator google_dialogflow_cx_generator} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dialogflow_cx_generator google_dialogflow_cx_generator} Resource.
 func NewGoogleDialogflowCxGenerator(scope constructs.Construct, id *string, config *GoogleDialogflowCxGeneratorConfig) GoogleDialogflowCxGenerator {
 	_init_.Initialize()
 
@@ -538,7 +562,7 @@ func NewGoogleDialogflowCxGenerator(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dialogflow_cx_generator google_dialogflow_cx_generator} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dialogflow_cx_generator google_dialogflow_cx_generator} Resource.
 func NewGoogleDialogflowCxGenerator_Override(g GoogleDialogflowCxGenerator, scope constructs.Construct, id *string, config *GoogleDialogflowCxGeneratorConfig) {
 	_init_.Initialize()
 
@@ -567,6 +591,17 @@ func (j *jsiiProxy_GoogleDialogflowCxGenerator)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleDialogflowCxGenerator)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1066,6 +1101,14 @@ func (g *jsiiProxy_GoogleDialogflowCxGenerator) PutTimeouts(value *GoogleDialogf
 		g,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleDialogflowCxGenerator) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

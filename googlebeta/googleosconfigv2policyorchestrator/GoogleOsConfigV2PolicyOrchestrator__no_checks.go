@@ -115,6 +115,10 @@ func (j *jsiiProxy_GoogleOsConfigV2PolicyOrchestrator) validateSetCountParameter
 	return nil
 }
 
+func (j *jsiiProxy_GoogleOsConfigV2PolicyOrchestrator) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleOsConfigV2PolicyOrchestrator) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

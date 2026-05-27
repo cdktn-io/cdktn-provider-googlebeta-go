@@ -107,6 +107,10 @@ func (j *jsiiProxy_GoogleStorageBucketAcl) validateSetDefaultAclParameters(val *
 	return nil
 }
 
+func (j *jsiiProxy_GoogleStorageBucketAcl) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleStorageBucketAcl) validateSetIdParameters(val *string) error {
 	return nil
 }

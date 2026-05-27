@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloud_identity_group_membership google_cloud_identity_group_membership}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloud_identity_group_membership google_cloud_identity_group_membership}.
 type GoogleCloudIdentityGroupMembership interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -31,6 +31,9 @@ type GoogleCloudIdentityGroupMembership interface {
 	SetCreateIgnoreAlreadyExists(val interface{})
 	CreateIgnoreAlreadyExistsInput() interface{}
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -130,6 +133,7 @@ type GoogleCloudIdentityGroupMembership interface {
 	PutRoles(value interface{})
 	PutTimeouts(value *GoogleCloudIdentityGroupMembershipTimeouts)
 	ResetCreateIgnoreAlreadyExists()
+	ResetDeletionPolicy()
 	ResetId()
 	ResetMemberKey()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -229,6 +233,26 @@ func (j *jsiiProxy_GoogleCloudIdentityGroupMembership) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCloudIdentityGroupMembership) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCloudIdentityGroupMembership) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -505,7 +529,7 @@ func (j *jsiiProxy_GoogleCloudIdentityGroupMembership) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloud_identity_group_membership google_cloud_identity_group_membership} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloud_identity_group_membership google_cloud_identity_group_membership} Resource.
 func NewGoogleCloudIdentityGroupMembership(scope constructs.Construct, id *string, config *GoogleCloudIdentityGroupMembershipConfig) GoogleCloudIdentityGroupMembership {
 	_init_.Initialize()
 
@@ -523,7 +547,7 @@ func NewGoogleCloudIdentityGroupMembership(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloud_identity_group_membership google_cloud_identity_group_membership} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloud_identity_group_membership google_cloud_identity_group_membership} Resource.
 func NewGoogleCloudIdentityGroupMembership_Override(g GoogleCloudIdentityGroupMembership, scope constructs.Construct, id *string, config *GoogleCloudIdentityGroupMembershipConfig) {
 	_init_.Initialize()
 
@@ -563,6 +587,17 @@ func (j *jsiiProxy_GoogleCloudIdentityGroupMembership)SetCreateIgnoreAlreadyExis
 	_jsii_.Set(
 		j,
 		"createIgnoreAlreadyExists",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleCloudIdentityGroupMembership)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1036,6 +1071,14 @@ func (g *jsiiProxy_GoogleCloudIdentityGroupMembership) ResetCreateIgnoreAlreadyE
 	_jsii_.InvokeVoid(
 		g,
 		"resetCreateIgnoreAlreadyExists",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleCloudIdentityGroupMembership) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_spanner_instance google_spanner_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_spanner_instance google_spanner_instance}.
 type GoogleSpannerInstance interface {
 	cdktn.TerraformResource
 	AutoscalingConfig() GoogleSpannerInstanceAutoscalingConfigOutputReference
@@ -35,6 +35,9 @@ type GoogleSpannerInstance interface {
 	DefaultBackupScheduleType() *string
 	SetDefaultBackupScheduleType(val *string)
 	DefaultBackupScheduleTypeInput() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -151,6 +154,7 @@ type GoogleSpannerInstance interface {
 	PutTimeouts(value *GoogleSpannerInstanceTimeouts)
 	ResetAutoscalingConfig()
 	ResetDefaultBackupScheduleType()
+	ResetDeletionPolicy()
 	ResetEdition()
 	ResetForceDestroy()
 	ResetId()
@@ -286,6 +290,26 @@ func (j *jsiiProxy_GoogleSpannerInstance) DefaultBackupScheduleTypeInput() *stri
 	_jsii_.Get(
 		j,
 		"defaultBackupScheduleTypeInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleSpannerInstance) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleSpannerInstance) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -662,7 +686,7 @@ func (j *jsiiProxy_GoogleSpannerInstance) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_spanner_instance google_spanner_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_spanner_instance google_spanner_instance} Resource.
 func NewGoogleSpannerInstance(scope constructs.Construct, id *string, config *GoogleSpannerInstanceConfig) GoogleSpannerInstance {
 	_init_.Initialize()
 
@@ -680,7 +704,7 @@ func NewGoogleSpannerInstance(scope constructs.Construct, id *string, config *Go
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_spanner_instance google_spanner_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_spanner_instance google_spanner_instance} Resource.
 func NewGoogleSpannerInstance_Override(g GoogleSpannerInstance, scope constructs.Construct, id *string, config *GoogleSpannerInstanceConfig) {
 	_init_.Initialize()
 
@@ -731,6 +755,17 @@ func (j *jsiiProxy_GoogleSpannerInstance)SetDefaultBackupScheduleType(val *strin
 	_jsii_.Set(
 		j,
 		"defaultBackupScheduleType",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleSpannerInstance)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1278,6 +1313,14 @@ func (g *jsiiProxy_GoogleSpannerInstance) ResetDefaultBackupScheduleType() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetDefaultBackupScheduleType",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleSpannerInstance) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

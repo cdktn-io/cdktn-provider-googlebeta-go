@@ -35,6 +35,9 @@ type GoogleHypercomputeclusterClusterStorageResourcesConfigNewBucketAutoclassOut
 	Fqn() *string
 	InternalValue() *GoogleHypercomputeclusterClusterStorageResourcesConfigNewBucketAutoclass
 	SetInternalValue(val *GoogleHypercomputeclusterClusterStorageResourcesConfigNewBucketAutoclass)
+	TerminalStorageClass() *string
+	SetTerminalStorageClass(val *string)
+	TerminalStorageClassInput() *string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -67,6 +70,7 @@ type GoogleHypercomputeclusterClusterStorageResourcesConfigNewBucketAutoclassOut
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	ResetTerminalStorageClass()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -147,6 +151,26 @@ func (j *jsiiProxy_GoogleHypercomputeclusterClusterStorageResourcesConfigNewBuck
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleHypercomputeclusterClusterStorageResourcesConfigNewBucketAutoclassOutputReference) TerminalStorageClass() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"terminalStorageClass",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleHypercomputeclusterClusterStorageResourcesConfigNewBucketAutoclassOutputReference) TerminalStorageClassInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"terminalStorageClassInput",
 		&returns,
 	)
 	return returns
@@ -240,6 +264,17 @@ func (j *jsiiProxy_GoogleHypercomputeclusterClusterStorageResourcesConfigNewBuck
 	_jsii_.Set(
 		j,
 		"internalValue",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleHypercomputeclusterClusterStorageResourcesConfigNewBucketAutoclassOutputReference)SetTerminalStorageClass(val *string) {
+	if err := j.validateSetTerminalStorageClassParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"terminalStorageClass",
 		val,
 	)
 }
@@ -450,6 +485,14 @@ func (g *jsiiProxy_GoogleHypercomputeclusterClusterStorageResourcesConfigNewBuck
 	)
 
 	return returns
+}
+
+func (g *jsiiProxy_GoogleHypercomputeclusterClusterStorageResourcesConfigNewBucketAutoclassOutputReference) ResetTerminalStorageClass() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetTerminalStorageClass",
+		nil, // no parameters
+	)
 }
 
 func (g *jsiiProxy_GoogleHypercomputeclusterClusterStorageResourcesConfigNewBucketAutoclassOutputReference) Resolve(context cdktn.IResolveContext) interface{} {

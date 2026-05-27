@@ -187,6 +187,10 @@ func (j *jsiiProxy_GoogleComputeBackendService) validateSetCustomResponseHeaders
 	return nil
 }
 
+func (j *jsiiProxy_GoogleComputeBackendService) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleComputeBackendService) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

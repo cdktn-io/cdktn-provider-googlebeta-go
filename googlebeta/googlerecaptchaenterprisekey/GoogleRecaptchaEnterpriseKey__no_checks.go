@@ -123,6 +123,10 @@ func (j *jsiiProxy_GoogleRecaptchaEnterpriseKey) validateSetCountParameters(val 
 	return nil
 }
 
+func (j *jsiiProxy_GoogleRecaptchaEnterpriseKey) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleRecaptchaEnterpriseKey) validateSetDisplayNameParameters(val *string) error {
 	return nil
 }

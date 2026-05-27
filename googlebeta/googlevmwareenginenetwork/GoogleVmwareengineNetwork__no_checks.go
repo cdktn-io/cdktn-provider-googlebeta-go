@@ -103,6 +103,10 @@ func (j *jsiiProxy_GoogleVmwareengineNetwork) validateSetCountParameters(val int
 	return nil
 }
 
+func (j *jsiiProxy_GoogleVmwareengineNetwork) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleVmwareengineNetwork) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

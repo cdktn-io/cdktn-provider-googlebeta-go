@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_security_server_tls_policy google_network_security_server_tls_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_security_server_tls_policy google_network_security_server_tls_policy}.
 type GoogleNetworkSecurityServerTlsPolicy interface {
 	cdktn.TerraformResource
 	AllowOpen() interface{}
@@ -31,6 +31,9 @@ type GoogleNetworkSecurityServerTlsPolicy interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -139,6 +142,7 @@ type GoogleNetworkSecurityServerTlsPolicy interface {
 	PutServerCertificate(value *GoogleNetworkSecurityServerTlsPolicyServerCertificate)
 	PutTimeouts(value *GoogleNetworkSecurityServerTlsPolicyTimeouts)
 	ResetAllowOpen()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	ResetLabels()
@@ -242,6 +246,26 @@ func (j *jsiiProxy_GoogleNetworkSecurityServerTlsPolicy) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleNetworkSecurityServerTlsPolicy) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleNetworkSecurityServerTlsPolicy) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -578,7 +602,7 @@ func (j *jsiiProxy_GoogleNetworkSecurityServerTlsPolicy) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_security_server_tls_policy google_network_security_server_tls_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_security_server_tls_policy google_network_security_server_tls_policy} Resource.
 func NewGoogleNetworkSecurityServerTlsPolicy(scope constructs.Construct, id *string, config *GoogleNetworkSecurityServerTlsPolicyConfig) GoogleNetworkSecurityServerTlsPolicy {
 	_init_.Initialize()
 
@@ -596,7 +620,7 @@ func NewGoogleNetworkSecurityServerTlsPolicy(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_security_server_tls_policy google_network_security_server_tls_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_security_server_tls_policy google_network_security_server_tls_policy} Resource.
 func NewGoogleNetworkSecurityServerTlsPolicy_Override(g GoogleNetworkSecurityServerTlsPolicy, scope constructs.Construct, id *string, config *GoogleNetworkSecurityServerTlsPolicyConfig) {
 	_init_.Initialize()
 
@@ -636,6 +660,17 @@ func (j *jsiiProxy_GoogleNetworkSecurityServerTlsPolicy)SetCount(val interface{}
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleNetworkSecurityServerTlsPolicy)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1142,6 +1177,14 @@ func (g *jsiiProxy_GoogleNetworkSecurityServerTlsPolicy) ResetAllowOpen() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetAllowOpen",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleNetworkSecurityServerTlsPolicy) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

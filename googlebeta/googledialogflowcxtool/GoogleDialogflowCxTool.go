@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dialogflow_cx_tool google_dialogflow_cx_tool}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dialogflow_cx_tool google_dialogflow_cx_tool}.
 type GoogleDialogflowCxTool interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -31,6 +31,9 @@ type GoogleDialogflowCxTool interface {
 	SetCount(val interface{})
 	DataStoreSpec() GoogleDialogflowCxToolDataStoreSpecOutputReference
 	DataStoreSpecInput() *GoogleDialogflowCxToolDataStoreSpec
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -135,6 +138,7 @@ type GoogleDialogflowCxTool interface {
 	PutTimeouts(value *GoogleDialogflowCxToolTimeouts)
 	ResetConnectorSpec()
 	ResetDataStoreSpec()
+	ResetDeletionPolicy()
 	ResetFunctionSpec()
 	ResetId()
 	ResetOpenApiSpec()
@@ -245,6 +249,26 @@ func (j *jsiiProxy_GoogleDialogflowCxTool) DataStoreSpecInput() *GoogleDialogflo
 	_jsii_.Get(
 		j,
 		"dataStoreSpecInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDialogflowCxTool) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDialogflowCxTool) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -531,7 +555,7 @@ func (j *jsiiProxy_GoogleDialogflowCxTool) ToolType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dialogflow_cx_tool google_dialogflow_cx_tool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dialogflow_cx_tool google_dialogflow_cx_tool} Resource.
 func NewGoogleDialogflowCxTool(scope constructs.Construct, id *string, config *GoogleDialogflowCxToolConfig) GoogleDialogflowCxTool {
 	_init_.Initialize()
 
@@ -549,7 +573,7 @@ func NewGoogleDialogflowCxTool(scope constructs.Construct, id *string, config *G
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dialogflow_cx_tool google_dialogflow_cx_tool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dialogflow_cx_tool google_dialogflow_cx_tool} Resource.
 func NewGoogleDialogflowCxTool_Override(g GoogleDialogflowCxTool, scope constructs.Construct, id *string, config *GoogleDialogflowCxToolConfig) {
 	_init_.Initialize()
 
@@ -578,6 +602,17 @@ func (j *jsiiProxy_GoogleDialogflowCxTool)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleDialogflowCxTool)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1092,6 +1127,14 @@ func (g *jsiiProxy_GoogleDialogflowCxTool) ResetDataStoreSpec() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetDataStoreSpec",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleDialogflowCxTool) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

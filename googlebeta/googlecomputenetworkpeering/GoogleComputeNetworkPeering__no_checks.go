@@ -103,6 +103,10 @@ func (j *jsiiProxy_GoogleComputeNetworkPeering) validateSetCountParameters(val i
 	return nil
 }
 
+func (j *jsiiProxy_GoogleComputeNetworkPeering) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleComputeNetworkPeering) validateSetExportCustomRoutesParameters(val interface{}) error {
 	return nil
 }

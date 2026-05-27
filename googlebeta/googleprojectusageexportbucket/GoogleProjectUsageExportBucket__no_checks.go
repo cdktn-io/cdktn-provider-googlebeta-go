@@ -107,6 +107,10 @@ func (j *jsiiProxy_GoogleProjectUsageExportBucket) validateSetCountParameters(va
 	return nil
 }
 
+func (j *jsiiProxy_GoogleProjectUsageExportBucket) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleProjectUsageExportBucket) validateSetIdParameters(val *string) error {
 	return nil
 }

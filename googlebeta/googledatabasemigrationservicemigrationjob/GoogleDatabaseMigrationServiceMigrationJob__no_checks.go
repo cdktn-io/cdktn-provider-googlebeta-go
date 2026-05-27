@@ -87,6 +87,10 @@ func (g *jsiiProxy_GoogleDatabaseMigrationServiceMigrationJob) validatePutPerfor
 	return nil
 }
 
+func (g *jsiiProxy_GoogleDatabaseMigrationServiceMigrationJob) validatePutPostgresHomogeneousConfigParameters(value *GoogleDatabaseMigrationServiceMigrationJobPostgresHomogeneousConfig) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleDatabaseMigrationServiceMigrationJob) validatePutReverseSshConnectivityParameters(value *GoogleDatabaseMigrationServiceMigrationJobReverseSshConnectivity) error {
 	return nil
 }
@@ -124,6 +128,10 @@ func (j *jsiiProxy_GoogleDatabaseMigrationServiceMigrationJob) validateSetConnec
 }
 
 func (j *jsiiProxy_GoogleDatabaseMigrationServiceMigrationJob) validateSetCountParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleDatabaseMigrationServiceMigrationJob) validateSetDeletionPolicyParameters(val *string) error {
 	return nil
 }
 

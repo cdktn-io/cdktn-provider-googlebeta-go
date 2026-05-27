@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_project_iam_custom_role google_project_iam_custom_role}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_project_iam_custom_role google_project_iam_custom_role}.
 type GoogleProjectIamCustomRole interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -28,6 +28,9 @@ type GoogleProjectIamCustomRole interface {
 	// Experimental.
 	SetCount(val interface{})
 	Deleted() cdktn.IResolvable
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -127,6 +130,7 @@ type GoogleProjectIamCustomRole interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -206,6 +210,26 @@ func (j *jsiiProxy_GoogleProjectIamCustomRole) Deleted() cdktn.IResolvable {
 	_jsii_.Get(
 		j,
 		"deleted",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleProjectIamCustomRole) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleProjectIamCustomRole) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -482,7 +506,7 @@ func (j *jsiiProxy_GoogleProjectIamCustomRole) TitleInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_project_iam_custom_role google_project_iam_custom_role} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_project_iam_custom_role google_project_iam_custom_role} Resource.
 func NewGoogleProjectIamCustomRole(scope constructs.Construct, id *string, config *GoogleProjectIamCustomRoleConfig) GoogleProjectIamCustomRole {
 	_init_.Initialize()
 
@@ -500,7 +524,7 @@ func NewGoogleProjectIamCustomRole(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_project_iam_custom_role google_project_iam_custom_role} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_project_iam_custom_role google_project_iam_custom_role} Resource.
 func NewGoogleProjectIamCustomRole_Override(g GoogleProjectIamCustomRole, scope constructs.Construct, id *string, config *GoogleProjectIamCustomRoleConfig) {
 	_init_.Initialize()
 
@@ -529,6 +553,17 @@ func (j *jsiiProxy_GoogleProjectIamCustomRole)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleProjectIamCustomRole)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1006,6 +1041,14 @@ func (g *jsiiProxy_GoogleProjectIamCustomRole) OverrideLogicalId(newLogicalId *s
 		g,
 		"overrideLogicalId",
 		[]interface{}{newLogicalId},
+	)
+}
+
+func (g *jsiiProxy_GoogleProjectIamCustomRole) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

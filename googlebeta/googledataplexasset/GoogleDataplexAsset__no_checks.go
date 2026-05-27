@@ -115,6 +115,10 @@ func (j *jsiiProxy_GoogleDataplexAsset) validateSetDataplexZoneParameters(val *s
 	return nil
 }
 
+func (j *jsiiProxy_GoogleDataplexAsset) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleDataplexAsset) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

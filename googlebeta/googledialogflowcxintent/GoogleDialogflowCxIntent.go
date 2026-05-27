@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dialogflow_cx_intent google_dialogflow_cx_intent}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dialogflow_cx_intent google_dialogflow_cx_intent}.
 type GoogleDialogflowCxIntent interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -27,6 +27,9 @@ type GoogleDialogflowCxIntent interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -146,6 +149,7 @@ type GoogleDialogflowCxIntent interface {
 	PutParameters(value interface{})
 	PutTimeouts(value *GoogleDialogflowCxIntentTimeouts)
 	PutTrainingPhrases(value interface{})
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	ResetIsDefaultNegativeIntent()
@@ -223,6 +227,26 @@ func (j *jsiiProxy_GoogleDialogflowCxIntent) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDialogflowCxIntent) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDialogflowCxIntent) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -639,7 +663,7 @@ func (j *jsiiProxy_GoogleDialogflowCxIntent) TrainingPhrasesInput() interface{} 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dialogflow_cx_intent google_dialogflow_cx_intent} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dialogflow_cx_intent google_dialogflow_cx_intent} Resource.
 func NewGoogleDialogflowCxIntent(scope constructs.Construct, id *string, config *GoogleDialogflowCxIntentConfig) GoogleDialogflowCxIntent {
 	_init_.Initialize()
 
@@ -657,7 +681,7 @@ func NewGoogleDialogflowCxIntent(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dialogflow_cx_intent google_dialogflow_cx_intent} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dialogflow_cx_intent google_dialogflow_cx_intent} Resource.
 func NewGoogleDialogflowCxIntent_Override(g GoogleDialogflowCxIntent, scope constructs.Construct, id *string, config *GoogleDialogflowCxIntentConfig) {
 	_init_.Initialize()
 
@@ -686,6 +710,17 @@ func (j *jsiiProxy_GoogleDialogflowCxIntent)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleDialogflowCxIntent)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1229,6 +1264,14 @@ func (g *jsiiProxy_GoogleDialogflowCxIntent) PutTrainingPhrases(value interface{
 		g,
 		"putTrainingPhrases",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleDialogflowCxIntent) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

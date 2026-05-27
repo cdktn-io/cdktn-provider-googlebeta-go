@@ -151,6 +151,10 @@ func (j *jsiiProxy_GoogleBigqueryTable) validateSetDatasetIdParameters(val *stri
 	return nil
 }
 
+func (j *jsiiProxy_GoogleBigqueryTable) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleBigqueryTable) validateSetDeletionProtectionParameters(val interface{}) error {
 	return nil
 }

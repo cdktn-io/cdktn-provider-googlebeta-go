@@ -111,6 +111,10 @@ func (j *jsiiProxy_GoogleChronicleFeed) validateSetCountParameters(val interface
 	return nil
 }
 
+func (j *jsiiProxy_GoogleChronicleFeed) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleChronicleFeed) validateSetDisplayNameParameters(val *string) error {
 	return nil
 }

@@ -131,6 +131,10 @@ func (j *jsiiProxy_GoogleMonitoringUptimeCheckConfig) validateSetCountParameters
 	return nil
 }
 
+func (j *jsiiProxy_GoogleMonitoringUptimeCheckConfig) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleMonitoringUptimeCheckConfig) validateSetDisplayNameParameters(val *string) error {
 	return nil
 }

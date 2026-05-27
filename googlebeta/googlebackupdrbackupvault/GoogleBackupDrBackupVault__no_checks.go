@@ -131,6 +131,10 @@ func (j *jsiiProxy_GoogleBackupDrBackupVault) validateSetCountParameters(val int
 	return nil
 }
 
+func (j *jsiiProxy_GoogleBackupDrBackupVault) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleBackupDrBackupVault) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

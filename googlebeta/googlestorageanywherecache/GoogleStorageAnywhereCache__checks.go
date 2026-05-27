@@ -364,6 +364,14 @@ func (j *jsiiProxy_GoogleStorageAnywhereCache) validateSetCountParameters(val in
 	return nil
 }
 
+func (j *jsiiProxy_GoogleStorageAnywhereCache) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_GoogleStorageAnywhereCache) validateSetIdParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

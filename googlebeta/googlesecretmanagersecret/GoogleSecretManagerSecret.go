@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_secret_manager_secret google_secret_manager_secret}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_secret_manager_secret google_secret_manager_secret}.
 type GoogleSecretManagerSecret interface {
 	cdktn.TerraformResource
 	Annotations() *map[string]*string
@@ -31,6 +31,9 @@ type GoogleSecretManagerSecret interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	DeletionProtection() interface{}
 	SetDeletionProtection(val interface{})
 	DeletionProtectionInput() interface{}
@@ -155,6 +158,7 @@ type GoogleSecretManagerSecret interface {
 	PutTimeouts(value *GoogleSecretManagerSecretTimeouts)
 	PutTopics(value interface{})
 	ResetAnnotations()
+	ResetDeletionPolicy()
 	ResetDeletionProtection()
 	ResetExpireTime()
 	ResetId()
@@ -262,6 +266,26 @@ func (j *jsiiProxy_GoogleSecretManagerSecret) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleSecretManagerSecret) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleSecretManagerSecret) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -708,7 +732,7 @@ func (j *jsiiProxy_GoogleSecretManagerSecret) VersionDestroyTtlInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_secret_manager_secret google_secret_manager_secret} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_secret_manager_secret google_secret_manager_secret} Resource.
 func NewGoogleSecretManagerSecret(scope constructs.Construct, id *string, config *GoogleSecretManagerSecretConfig) GoogleSecretManagerSecret {
 	_init_.Initialize()
 
@@ -726,7 +750,7 @@ func NewGoogleSecretManagerSecret(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_secret_manager_secret google_secret_manager_secret} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_secret_manager_secret google_secret_manager_secret} Resource.
 func NewGoogleSecretManagerSecret_Override(g GoogleSecretManagerSecret, scope constructs.Construct, id *string, config *GoogleSecretManagerSecretConfig) {
 	_init_.Initialize()
 
@@ -766,6 +790,17 @@ func (j *jsiiProxy_GoogleSecretManagerSecret)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleSecretManagerSecret)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1327,6 +1362,14 @@ func (g *jsiiProxy_GoogleSecretManagerSecret) ResetAnnotations() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetAnnotations",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleSecretManagerSecret) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

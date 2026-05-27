@@ -135,6 +135,10 @@ func (j *jsiiProxy_GoogleEdgecontainerCluster) validateSetDefaultMaxPodsPerNodeP
 	return nil
 }
 
+func (j *jsiiProxy_GoogleEdgecontainerCluster) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleEdgecontainerCluster) validateSetExternalLoadBalancerIpv4AddressPoolsParameters(val *[]*string) error {
 	return nil
 }

@@ -111,6 +111,10 @@ func (j *jsiiProxy_GoogleApihubCuration) validateSetCurationIdParameters(val *st
 	return nil
 }
 
+func (j *jsiiProxy_GoogleApihubCuration) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleApihubCuration) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

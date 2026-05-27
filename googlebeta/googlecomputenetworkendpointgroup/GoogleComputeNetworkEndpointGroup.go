@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_network_endpoint_group google_compute_network_endpoint_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_network_endpoint_group google_compute_network_endpoint_group}.
 type GoogleComputeNetworkEndpointGroup interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -30,6 +30,9 @@ type GoogleComputeNetworkEndpointGroup interface {
 	DefaultPort() *float64
 	SetDefaultPort(val *float64)
 	DefaultPortInput() *float64
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -138,6 +141,7 @@ type GoogleComputeNetworkEndpointGroup interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *GoogleComputeNetworkEndpointGroupTimeouts)
 	ResetDefaultPort()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	ResetNetworkEndpointType()
@@ -230,6 +234,26 @@ func (j *jsiiProxy_GoogleComputeNetworkEndpointGroup) DefaultPortInput() *float6
 	_jsii_.Get(
 		j,
 		"defaultPortInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeNetworkEndpointGroup) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeNetworkEndpointGroup) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -566,7 +590,7 @@ func (j *jsiiProxy_GoogleComputeNetworkEndpointGroup) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_network_endpoint_group google_compute_network_endpoint_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_network_endpoint_group google_compute_network_endpoint_group} Resource.
 func NewGoogleComputeNetworkEndpointGroup(scope constructs.Construct, id *string, config *GoogleComputeNetworkEndpointGroupConfig) GoogleComputeNetworkEndpointGroup {
 	_init_.Initialize()
 
@@ -584,7 +608,7 @@ func NewGoogleComputeNetworkEndpointGroup(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_network_endpoint_group google_compute_network_endpoint_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_network_endpoint_group google_compute_network_endpoint_group} Resource.
 func NewGoogleComputeNetworkEndpointGroup_Override(g GoogleComputeNetworkEndpointGroup, scope constructs.Construct, id *string, config *GoogleComputeNetworkEndpointGroupConfig) {
 	_init_.Initialize()
 
@@ -624,6 +648,17 @@ func (j *jsiiProxy_GoogleComputeNetworkEndpointGroup)SetDefaultPort(val *float64
 	_jsii_.Set(
 		j,
 		"defaultPort",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleComputeNetworkEndpointGroup)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1130,6 +1165,14 @@ func (g *jsiiProxy_GoogleComputeNetworkEndpointGroup) ResetDefaultPort() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetDefaultPort",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleComputeNetworkEndpointGroup) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

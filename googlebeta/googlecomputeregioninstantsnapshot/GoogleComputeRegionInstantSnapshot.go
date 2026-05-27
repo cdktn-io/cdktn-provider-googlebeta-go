@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_instant_snapshot google_compute_region_instant_snapshot}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_instant_snapshot google_compute_region_instant_snapshot}.
 type GoogleComputeRegionInstantSnapshot interface {
 	cdktn.TerraformResource
 	Architecture() *string
@@ -29,6 +29,9 @@ type GoogleComputeRegionInstantSnapshot interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreationTimestamp() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -143,6 +146,7 @@ type GoogleComputeRegionInstantSnapshot interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutParams(value *GoogleComputeRegionInstantSnapshotParams)
 	PutTimeouts(value *GoogleComputeRegionInstantSnapshotTimeouts)
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	ResetLabels()
@@ -235,6 +239,26 @@ func (j *jsiiProxy_GoogleComputeRegionInstantSnapshot) CreationTimestamp() *stri
 	_jsii_.Get(
 		j,
 		"creationTimestamp",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeRegionInstantSnapshot) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeRegionInstantSnapshot) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -641,7 +665,7 @@ func (j *jsiiProxy_GoogleComputeRegionInstantSnapshot) TimeoutsInput() interface
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_instant_snapshot google_compute_region_instant_snapshot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_instant_snapshot google_compute_region_instant_snapshot} Resource.
 func NewGoogleComputeRegionInstantSnapshot(scope constructs.Construct, id *string, config *GoogleComputeRegionInstantSnapshotConfig) GoogleComputeRegionInstantSnapshot {
 	_init_.Initialize()
 
@@ -659,7 +683,7 @@ func NewGoogleComputeRegionInstantSnapshot(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_instant_snapshot google_compute_region_instant_snapshot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_instant_snapshot google_compute_region_instant_snapshot} Resource.
 func NewGoogleComputeRegionInstantSnapshot_Override(g GoogleComputeRegionInstantSnapshot, scope constructs.Construct, id *string, config *GoogleComputeRegionInstantSnapshotConfig) {
 	_init_.Initialize()
 
@@ -688,6 +712,17 @@ func (j *jsiiProxy_GoogleComputeRegionInstantSnapshot)SetCount(val interface{}) 
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleComputeRegionInstantSnapshot)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1187,6 +1222,14 @@ func (g *jsiiProxy_GoogleComputeRegionInstantSnapshot) PutTimeouts(value *Google
 		g,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleComputeRegionInstantSnapshot) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

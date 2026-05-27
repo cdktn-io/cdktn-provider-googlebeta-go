@@ -103,6 +103,10 @@ func (j *jsiiProxy_GoogleServiceUsageConsumerQuotaOverride) validateSetCountPara
 	return nil
 }
 
+func (j *jsiiProxy_GoogleServiceUsageConsumerQuotaOverride) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleServiceUsageConsumerQuotaOverride) validateSetDimensionsParameters(val *map[string]*string) error {
 	return nil
 }

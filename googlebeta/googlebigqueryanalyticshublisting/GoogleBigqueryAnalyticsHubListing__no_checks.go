@@ -139,6 +139,10 @@ func (j *jsiiProxy_GoogleBigqueryAnalyticsHubListing) validateSetDeleteCommercia
 	return nil
 }
 
+func (j *jsiiProxy_GoogleBigqueryAnalyticsHubListing) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleBigqueryAnalyticsHubListing) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

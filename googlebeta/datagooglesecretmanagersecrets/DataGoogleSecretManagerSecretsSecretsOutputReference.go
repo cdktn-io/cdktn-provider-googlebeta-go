@@ -30,6 +30,7 @@ type DataGoogleSecretManagerSecretsSecretsOutputReference interface {
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
+	DeletionPolicy() *string
 	DeletionProtection() cdktn.IResolvable
 	EffectiveAnnotations() cdktn.StringMap
 	EffectiveLabels() cdktn.StringMap
@@ -142,6 +143,16 @@ func (j *jsiiProxy_DataGoogleSecretManagerSecretsSecretsOutputReference) Creatio
 	_jsii_.Get(
 		j,
 		"creationStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleSecretManagerSecretsSecretsOutputReference) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
 		&returns,
 	)
 	return returns

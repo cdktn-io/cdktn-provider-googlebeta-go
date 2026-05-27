@@ -99,6 +99,10 @@ func (j *jsiiProxy_GoogleRuntimeconfigConfig) validateSetCountParameters(val int
 	return nil
 }
 
+func (j *jsiiProxy_GoogleRuntimeconfigConfig) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleRuntimeconfigConfig) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

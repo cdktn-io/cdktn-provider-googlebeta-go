@@ -107,6 +107,10 @@ func (j *jsiiProxy_GoogleNetworkServicesLbTrafficExtension) validateSetCountPara
 	return nil
 }
 
+func (j *jsiiProxy_GoogleNetworkServicesLbTrafficExtension) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleNetworkServicesLbTrafficExtension) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

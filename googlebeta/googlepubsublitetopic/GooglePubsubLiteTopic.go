@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_pubsub_lite_topic google_pubsub_lite_topic}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_pubsub_lite_topic google_pubsub_lite_topic}.
 type GooglePubsubLiteTopic interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -27,6 +27,9 @@ type GooglePubsubLiteTopic interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -131,6 +134,7 @@ type GooglePubsubLiteTopic interface {
 	PutReservationConfig(value *GooglePubsubLiteTopicReservationConfig)
 	PutRetentionConfig(value *GooglePubsubLiteTopicRetentionConfig)
 	PutTimeouts(value *GooglePubsubLiteTopicTimeouts)
+	ResetDeletionPolicy()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -204,6 +208,26 @@ func (j *jsiiProxy_GooglePubsubLiteTopic) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GooglePubsubLiteTopic) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GooglePubsubLiteTopic) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -510,7 +534,7 @@ func (j *jsiiProxy_GooglePubsubLiteTopic) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_pubsub_lite_topic google_pubsub_lite_topic} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_pubsub_lite_topic google_pubsub_lite_topic} Resource.
 func NewGooglePubsubLiteTopic(scope constructs.Construct, id *string, config *GooglePubsubLiteTopicConfig) GooglePubsubLiteTopic {
 	_init_.Initialize()
 
@@ -528,7 +552,7 @@ func NewGooglePubsubLiteTopic(scope constructs.Construct, id *string, config *Go
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_pubsub_lite_topic google_pubsub_lite_topic} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_pubsub_lite_topic google_pubsub_lite_topic} Resource.
 func NewGooglePubsubLiteTopic_Override(g GooglePubsubLiteTopic, scope constructs.Construct, id *string, config *GooglePubsubLiteTopicConfig) {
 	_init_.Initialize()
 
@@ -557,6 +581,17 @@ func (j *jsiiProxy_GooglePubsubLiteTopic)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GooglePubsubLiteTopic)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1056,6 +1091,14 @@ func (g *jsiiProxy_GooglePubsubLiteTopic) PutTimeouts(value *GooglePubsubLiteTop
 		g,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GooglePubsubLiteTopic) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

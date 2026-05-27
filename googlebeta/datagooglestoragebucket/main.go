@@ -22,6 +22,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "count", GoGetter: "Count"},
 			_jsii_.MemberProperty{JsiiProperty: "customPlacementConfig", GoGetter: "CustomPlacementConfig"},
 			_jsii_.MemberProperty{JsiiProperty: "defaultEventBasedHold", GoGetter: "DefaultEventBasedHold"},
+			_jsii_.MemberProperty{JsiiProperty: "deletionPolicy", GoGetter: "DeletionPolicy"},
 			_jsii_.MemberProperty{JsiiProperty: "dependsOn", GoGetter: "DependsOn"},
 			_jsii_.MemberProperty{JsiiProperty: "effectiveLabels", GoGetter: "EffectiveLabels"},
 			_jsii_.MemberProperty{JsiiProperty: "enableObjectRetention", GoGetter: "EnableObjectRetention"},

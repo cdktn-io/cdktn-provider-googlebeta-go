@@ -103,6 +103,10 @@ func (j *jsiiProxy_GoogleComputeNetworkEdgeSecurityService) validateSetCountPara
 	return nil
 }
 
+func (j *jsiiProxy_GoogleComputeNetworkEdgeSecurityService) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleComputeNetworkEdgeSecurityService) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

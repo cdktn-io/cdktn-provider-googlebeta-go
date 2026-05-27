@@ -107,6 +107,10 @@ func (j *jsiiProxy_GoogleComputeTargetTcpProxy) validateSetCountParameters(val i
 	return nil
 }
 
+func (j *jsiiProxy_GoogleComputeTargetTcpProxy) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleComputeTargetTcpProxy) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

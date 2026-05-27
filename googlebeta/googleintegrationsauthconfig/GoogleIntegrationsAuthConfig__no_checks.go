@@ -111,6 +111,10 @@ func (j *jsiiProxy_GoogleIntegrationsAuthConfig) validateSetCountParameters(val 
 	return nil
 }
 
+func (j *jsiiProxy_GoogleIntegrationsAuthConfig) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleIntegrationsAuthConfig) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

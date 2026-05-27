@@ -111,6 +111,10 @@ func (j *jsiiProxy_GoogleChronicleWatchlist) validateSetCountParameters(val inte
 	return nil
 }
 
+func (j *jsiiProxy_GoogleChronicleWatchlist) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleChronicleWatchlist) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

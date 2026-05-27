@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_filestore_instance google_filestore_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_filestore_instance google_filestore_instance}.
 type GoogleFilestoreInstance interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -28,6 +28,9 @@ type GoogleFilestoreInstance interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	DeletionProtectionEnabled() interface{}
 	SetDeletionProtectionEnabled(val interface{})
 	DeletionProtectionEnabledInput() interface{}
@@ -169,6 +172,7 @@ type GoogleFilestoreInstance interface {
 	PutNetworks(value interface{})
 	PutPerformanceConfig(value *GoogleFilestoreInstancePerformanceConfig)
 	PutTimeouts(value *GoogleFilestoreInstanceTimeouts)
+	ResetDeletionPolicy()
 	ResetDeletionProtectionEnabled()
 	ResetDeletionProtectionReason()
 	ResetDescription()
@@ -260,6 +264,26 @@ func (j *jsiiProxy_GoogleFilestoreInstance) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleFilestoreInstance) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleFilestoreInstance) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -826,7 +850,7 @@ func (j *jsiiProxy_GoogleFilestoreInstance) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_filestore_instance google_filestore_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_filestore_instance google_filestore_instance} Resource.
 func NewGoogleFilestoreInstance(scope constructs.Construct, id *string, config *GoogleFilestoreInstanceConfig) GoogleFilestoreInstance {
 	_init_.Initialize()
 
@@ -844,7 +868,7 @@ func NewGoogleFilestoreInstance(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_filestore_instance google_filestore_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_filestore_instance google_filestore_instance} Resource.
 func NewGoogleFilestoreInstance_Override(g GoogleFilestoreInstance, scope constructs.Construct, id *string, config *GoogleFilestoreInstanceConfig) {
 	_init_.Initialize()
 
@@ -873,6 +897,17 @@ func (j *jsiiProxy_GoogleFilestoreInstance)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleFilestoreInstance)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1493,6 +1528,14 @@ func (g *jsiiProxy_GoogleFilestoreInstance) PutTimeouts(value *GoogleFilestoreIn
 		g,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleFilestoreInstance) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

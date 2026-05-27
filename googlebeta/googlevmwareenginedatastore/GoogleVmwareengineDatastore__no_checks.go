@@ -107,6 +107,10 @@ func (j *jsiiProxy_GoogleVmwareengineDatastore) validateSetCountParameters(val i
 	return nil
 }
 
+func (j *jsiiProxy_GoogleVmwareengineDatastore) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleVmwareengineDatastore) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

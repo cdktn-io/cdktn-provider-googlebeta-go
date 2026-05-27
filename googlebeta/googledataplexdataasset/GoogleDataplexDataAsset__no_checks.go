@@ -115,6 +115,10 @@ func (j *jsiiProxy_GoogleDataplexDataAsset) validateSetDataProductIdParameters(v
 	return nil
 }
 
+func (j *jsiiProxy_GoogleDataplexDataAsset) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleDataplexDataAsset) validateSetIdParameters(val *string) error {
 	return nil
 }

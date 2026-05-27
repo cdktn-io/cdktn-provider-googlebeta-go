@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloud_security_compliance_framework_deployment google_cloud_security_compliance_framework_deployment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloud_security_compliance_framework_deployment google_cloud_security_compliance_framework_deployment}.
 type GoogleCloudSecurityComplianceFrameworkDeployment interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -32,6 +32,9 @@ type GoogleCloudSecurityComplianceFrameworkDeployment interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -139,6 +142,7 @@ type GoogleCloudSecurityComplianceFrameworkDeployment interface {
 	PutFramework(value *GoogleCloudSecurityComplianceFrameworkDeploymentFramework)
 	PutTargetResourceConfig(value *GoogleCloudSecurityComplianceFrameworkDeploymentTargetResourceConfig)
 	PutTimeouts(value *GoogleCloudSecurityComplianceFrameworkDeploymentTimeouts)
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -257,6 +261,26 @@ func (j *jsiiProxy_GoogleCloudSecurityComplianceFrameworkDeployment) CreateTime(
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCloudSecurityComplianceFrameworkDeployment) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCloudSecurityComplianceFrameworkDeployment) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -593,7 +617,7 @@ func (j *jsiiProxy_GoogleCloudSecurityComplianceFrameworkDeployment) UpdateTime(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloud_security_compliance_framework_deployment google_cloud_security_compliance_framework_deployment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloud_security_compliance_framework_deployment google_cloud_security_compliance_framework_deployment} Resource.
 func NewGoogleCloudSecurityComplianceFrameworkDeployment(scope constructs.Construct, id *string, config *GoogleCloudSecurityComplianceFrameworkDeploymentConfig) GoogleCloudSecurityComplianceFrameworkDeployment {
 	_init_.Initialize()
 
@@ -611,7 +635,7 @@ func NewGoogleCloudSecurityComplianceFrameworkDeployment(scope constructs.Constr
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloud_security_compliance_framework_deployment google_cloud_security_compliance_framework_deployment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloud_security_compliance_framework_deployment google_cloud_security_compliance_framework_deployment} Resource.
 func NewGoogleCloudSecurityComplianceFrameworkDeployment_Override(g GoogleCloudSecurityComplianceFrameworkDeployment, scope constructs.Construct, id *string, config *GoogleCloudSecurityComplianceFrameworkDeploymentConfig) {
 	_init_.Initialize()
 
@@ -640,6 +664,17 @@ func (j *jsiiProxy_GoogleCloudSecurityComplianceFrameworkDeployment)SetCount(val
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleCloudSecurityComplianceFrameworkDeployment)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1139,6 +1174,14 @@ func (g *jsiiProxy_GoogleCloudSecurityComplianceFrameworkDeployment) PutTimeouts
 		g,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleCloudSecurityComplianceFrameworkDeployment) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

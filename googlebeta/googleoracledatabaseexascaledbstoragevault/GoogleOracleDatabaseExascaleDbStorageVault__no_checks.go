@@ -107,6 +107,10 @@ func (j *jsiiProxy_GoogleOracleDatabaseExascaleDbStorageVault) validateSetCountP
 	return nil
 }
 
+func (j *jsiiProxy_GoogleOracleDatabaseExascaleDbStorageVault) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleOracleDatabaseExascaleDbStorageVault) validateSetDeletionProtectionParameters(val interface{}) error {
 	return nil
 }

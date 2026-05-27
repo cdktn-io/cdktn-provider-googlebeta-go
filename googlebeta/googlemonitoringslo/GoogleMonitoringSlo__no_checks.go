@@ -119,6 +119,10 @@ func (j *jsiiProxy_GoogleMonitoringSlo) validateSetCountParameters(val interface
 	return nil
 }
 
+func (j *jsiiProxy_GoogleMonitoringSlo) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleMonitoringSlo) validateSetDisplayNameParameters(val *string) error {
 	return nil
 }

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_logging_saved_query google_logging_saved_query}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_logging_saved_query google_logging_saved_query}.
 type GoogleLoggingSavedQuery interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -28,6 +28,9 @@ type GoogleLoggingSavedQuery interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -136,6 +139,7 @@ type GoogleLoggingSavedQuery interface {
 	PutLoggingQuery(value *GoogleLoggingSavedQueryLoggingQuery)
 	PutOpsAnalyticsQuery(value *GoogleLoggingSavedQueryOpsAnalyticsQuery)
 	PutTimeouts(value *GoogleLoggingSavedQueryTimeouts)
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	ResetLoggingQuery()
@@ -216,6 +220,26 @@ func (j *jsiiProxy_GoogleLoggingSavedQuery) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleLoggingSavedQuery) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleLoggingSavedQuery) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -552,7 +576,7 @@ func (j *jsiiProxy_GoogleLoggingSavedQuery) VisibilityInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_logging_saved_query google_logging_saved_query} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_logging_saved_query google_logging_saved_query} Resource.
 func NewGoogleLoggingSavedQuery(scope constructs.Construct, id *string, config *GoogleLoggingSavedQueryConfig) GoogleLoggingSavedQuery {
 	_init_.Initialize()
 
@@ -570,7 +594,7 @@ func NewGoogleLoggingSavedQuery(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_logging_saved_query google_logging_saved_query} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_logging_saved_query google_logging_saved_query} Resource.
 func NewGoogleLoggingSavedQuery_Override(g GoogleLoggingSavedQuery, scope constructs.Construct, id *string, config *GoogleLoggingSavedQueryConfig) {
 	_init_.Initialize()
 
@@ -599,6 +623,17 @@ func (j *jsiiProxy_GoogleLoggingSavedQuery)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleLoggingSavedQuery)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1109,6 +1144,14 @@ func (g *jsiiProxy_GoogleLoggingSavedQuery) PutTimeouts(value *GoogleLoggingSave
 		g,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleLoggingSavedQuery) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

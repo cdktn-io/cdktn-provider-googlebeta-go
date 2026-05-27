@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_spanner_instance google_spanner_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/data-sources/google_spanner_instance google_spanner_instance}.
 type DataGoogleSpannerInstance interface {
 	cdktn.TerraformDataSource
 	AutoscalingConfig() DataGoogleSpannerInstanceAutoscalingConfigList
@@ -28,6 +28,7 @@ type DataGoogleSpannerInstance interface {
 	// Experimental.
 	SetCount(val interface{})
 	DefaultBackupScheduleType() *string
+	DeletionPolicy() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -204,6 +205,16 @@ func (j *jsiiProxy_DataGoogleSpannerInstance) DefaultBackupScheduleType() *strin
 	_jsii_.Get(
 		j,
 		"defaultBackupScheduleType",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleSpannerInstance) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
 		&returns,
 	)
 	return returns
@@ -490,7 +501,7 @@ func (j *jsiiProxy_DataGoogleSpannerInstance) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_spanner_instance google_spanner_instance} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/data-sources/google_spanner_instance google_spanner_instance} Data Source.
 func NewDataGoogleSpannerInstance(scope constructs.Construct, id *string, config *DataGoogleSpannerInstanceConfig) DataGoogleSpannerInstance {
 	_init_.Initialize()
 
@@ -508,7 +519,7 @@ func NewDataGoogleSpannerInstance(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_spanner_instance google_spanner_instance} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/data-sources/google_spanner_instance google_spanner_instance} Data Source.
 func NewDataGoogleSpannerInstance_Override(d DataGoogleSpannerInstance, scope constructs.Construct, id *string, config *DataGoogleSpannerInstanceConfig) {
 	_init_.Initialize()
 

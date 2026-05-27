@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_keystores_aliases_self_signed_cert google_apigee_keystores_aliases_self_signed_cert}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_keystores_aliases_self_signed_cert google_apigee_keystores_aliases_self_signed_cert}.
 type GoogleApigeeKeystoresAliasesSelfSignedCert interface {
 	cdktn.TerraformResource
 	Alias() *string
@@ -34,6 +34,9 @@ type GoogleApigeeKeystoresAliasesSelfSignedCert interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -140,6 +143,7 @@ type GoogleApigeeKeystoresAliasesSelfSignedCert interface {
 	PutSubjectAlternativeDnsNames(value *GoogleApigeeKeystoresAliasesSelfSignedCertSubjectAlternativeDnsNames)
 	PutTimeouts(value *GoogleApigeeKeystoresAliasesSelfSignedCertTimeouts)
 	ResetCertValidityInDays()
+	ResetDeletionPolicy()
 	ResetId()
 	ResetKeySize()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -259,6 +263,26 @@ func (j *jsiiProxy_GoogleApigeeKeystoresAliasesSelfSignedCert) Count() interface
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleApigeeKeystoresAliasesSelfSignedCert) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleApigeeKeystoresAliasesSelfSignedCert) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -575,7 +599,7 @@ func (j *jsiiProxy_GoogleApigeeKeystoresAliasesSelfSignedCert) Type() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_keystores_aliases_self_signed_cert google_apigee_keystores_aliases_self_signed_cert} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_keystores_aliases_self_signed_cert google_apigee_keystores_aliases_self_signed_cert} Resource.
 func NewGoogleApigeeKeystoresAliasesSelfSignedCert(scope constructs.Construct, id *string, config *GoogleApigeeKeystoresAliasesSelfSignedCertConfig) GoogleApigeeKeystoresAliasesSelfSignedCert {
 	_init_.Initialize()
 
@@ -593,7 +617,7 @@ func NewGoogleApigeeKeystoresAliasesSelfSignedCert(scope constructs.Construct, i
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_keystores_aliases_self_signed_cert google_apigee_keystores_aliases_self_signed_cert} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_keystores_aliases_self_signed_cert google_apigee_keystores_aliases_self_signed_cert} Resource.
 func NewGoogleApigeeKeystoresAliasesSelfSignedCert_Override(g GoogleApigeeKeystoresAliasesSelfSignedCert, scope constructs.Construct, id *string, config *GoogleApigeeKeystoresAliasesSelfSignedCertConfig) {
 	_init_.Initialize()
 
@@ -644,6 +668,17 @@ func (j *jsiiProxy_GoogleApigeeKeystoresAliasesSelfSignedCert)SetCount(val inter
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleApigeeKeystoresAliasesSelfSignedCert)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1150,6 +1185,14 @@ func (g *jsiiProxy_GoogleApigeeKeystoresAliasesSelfSignedCert) ResetCertValidity
 	_jsii_.InvokeVoid(
 		g,
 		"resetCertValidityInDays",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleApigeeKeystoresAliasesSelfSignedCert) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

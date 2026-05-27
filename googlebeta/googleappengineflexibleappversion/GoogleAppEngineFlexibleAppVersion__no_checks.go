@@ -167,6 +167,10 @@ func (j *jsiiProxy_GoogleAppEngineFlexibleAppVersion) validateSetDeleteServiceOn
 	return nil
 }
 
+func (j *jsiiProxy_GoogleAppEngineFlexibleAppVersion) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleAppEngineFlexibleAppVersion) validateSetEnvVariablesParameters(val *map[string]*string) error {
 	return nil
 }

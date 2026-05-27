@@ -348,6 +348,14 @@ func (j *jsiiProxy_GoogleNetworkSecurityUrlLists) validateSetCountParameters(val
 	return nil
 }
 
+func (j *jsiiProxy_GoogleNetworkSecurityUrlLists) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_GoogleNetworkSecurityUrlLists) validateSetDescriptionParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

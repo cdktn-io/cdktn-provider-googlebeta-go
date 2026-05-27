@@ -29,6 +29,7 @@ type DataGoogleParameterManagerParametersParametersOutputReference interface {
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
+	DeletionPolicy() *string
 	EffectiveLabels() cdktn.StringMap
 	Format() *string
 	// Experimental.
@@ -125,6 +126,16 @@ func (j *jsiiProxy_DataGoogleParameterManagerParametersParametersOutputReference
 	_jsii_.Get(
 		j,
 		"creationStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleParameterManagerParametersParametersOutputReference) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
 		&returns,
 	)
 	return returns

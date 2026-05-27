@@ -443,6 +443,14 @@ func (j *jsiiProxy_GoogleDialogflowCxFlow) validateSetCountParameters(val interf
 	return nil
 }
 
+func (j *jsiiProxy_GoogleDialogflowCxFlow) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_GoogleDialogflowCxFlow) validateSetDescriptionParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

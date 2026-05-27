@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_data_loss_prevention_discovery_config google_data_loss_prevention_discovery_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_data_loss_prevention_discovery_config google_data_loss_prevention_discovery_config}.
 type GoogleDataLossPreventionDiscoveryConfig interface {
 	cdktn.TerraformResource
 	Actions() GoogleDataLossPreventionDiscoveryConfigActionsList
@@ -30,6 +30,9 @@ type GoogleDataLossPreventionDiscoveryConfig interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -143,6 +146,7 @@ type GoogleDataLossPreventionDiscoveryConfig interface {
 	PutTargets(value interface{})
 	PutTimeouts(value *GoogleDataLossPreventionDiscoveryConfigTimeouts)
 	ResetActions()
+	ResetDeletionPolicy()
 	ResetDisplayName()
 	ResetId()
 	ResetInspectTemplates()
@@ -246,6 +250,26 @@ func (j *jsiiProxy_GoogleDataLossPreventionDiscoveryConfig) CreateTime() *string
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDataLossPreventionDiscoveryConfig) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDataLossPreventionDiscoveryConfig) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -612,7 +636,7 @@ func (j *jsiiProxy_GoogleDataLossPreventionDiscoveryConfig) UpdateTime() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_data_loss_prevention_discovery_config google_data_loss_prevention_discovery_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_data_loss_prevention_discovery_config google_data_loss_prevention_discovery_config} Resource.
 func NewGoogleDataLossPreventionDiscoveryConfig(scope constructs.Construct, id *string, config *GoogleDataLossPreventionDiscoveryConfigConfig) GoogleDataLossPreventionDiscoveryConfig {
 	_init_.Initialize()
 
@@ -630,7 +654,7 @@ func NewGoogleDataLossPreventionDiscoveryConfig(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_data_loss_prevention_discovery_config google_data_loss_prevention_discovery_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_data_loss_prevention_discovery_config google_data_loss_prevention_discovery_config} Resource.
 func NewGoogleDataLossPreventionDiscoveryConfig_Override(g GoogleDataLossPreventionDiscoveryConfig, scope constructs.Construct, id *string, config *GoogleDataLossPreventionDiscoveryConfigConfig) {
 	_init_.Initialize()
 
@@ -659,6 +683,17 @@ func (j *jsiiProxy_GoogleDataLossPreventionDiscoveryConfig)SetCount(val interfac
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleDataLossPreventionDiscoveryConfig)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1187,6 +1222,14 @@ func (g *jsiiProxy_GoogleDataLossPreventionDiscoveryConfig) ResetActions() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetActions",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleDataLossPreventionDiscoveryConfig) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

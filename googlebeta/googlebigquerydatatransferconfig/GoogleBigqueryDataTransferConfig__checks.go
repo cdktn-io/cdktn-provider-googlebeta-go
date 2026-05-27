@@ -408,6 +408,14 @@ func (j *jsiiProxy_GoogleBigqueryDataTransferConfig) validateSetDataSourceIdPara
 	return nil
 }
 
+func (j *jsiiProxy_GoogleBigqueryDataTransferConfig) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_GoogleBigqueryDataTransferConfig) validateSetDestinationDatasetIdParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

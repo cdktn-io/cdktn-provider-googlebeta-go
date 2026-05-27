@@ -107,6 +107,10 @@ func (j *jsiiProxy_GoogleComputeOrganizationSecurityPolicyAssociation) validateS
 	return nil
 }
 
+func (j *jsiiProxy_GoogleComputeOrganizationSecurityPolicyAssociation) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleComputeOrganizationSecurityPolicyAssociation) validateSetExcludedFoldersParameters(val *[]*string) error {
 	return nil
 }

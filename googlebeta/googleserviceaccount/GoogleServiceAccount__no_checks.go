@@ -111,6 +111,10 @@ func (j *jsiiProxy_GoogleServiceAccount) validateSetCreateIgnoreAlreadyExistsPar
 	return nil
 }
 
+func (j *jsiiProxy_GoogleServiceAccount) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleServiceAccount) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

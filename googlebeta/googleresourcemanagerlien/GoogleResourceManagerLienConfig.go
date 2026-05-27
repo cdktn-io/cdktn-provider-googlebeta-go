@@ -24,7 +24,7 @@ type GoogleResourceManagerLienConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// A stable, user-visible/meaningful string identifying the origin of the Lien, intended to be inspected programmatically. Maximum length of 200 characters.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_resource_manager_lien#origin GoogleResourceManagerLien#origin}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_resource_manager_lien#origin GoogleResourceManagerLien#origin}
 	Origin *string `field:"required" json:"origin" yaml:"origin"`
 	// A reference to the resource this Lien is attached to.
 	//
@@ -32,11 +32,11 @@ type GoogleResourceManagerLienConfig struct {
 	// Since a variety of objects can have Liens against them, you must provide the type
 	// prefix (e.g. "projects/my-project-name").
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_resource_manager_lien#parent GoogleResourceManagerLien#parent}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_resource_manager_lien#parent GoogleResourceManagerLien#parent}
 	Parent *string `field:"required" json:"parent" yaml:"parent"`
 	// Concise user-visible strings indicating why an action cannot be performed on a resource. Maximum length of 200 characters.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_resource_manager_lien#reason GoogleResourceManagerLien#reason}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_resource_manager_lien#reason GoogleResourceManagerLien#reason}
 	Reason *string `field:"required" json:"reason" yaml:"reason"`
 	// The types of operations which should be blocked as a result of this Lien.
 	//
@@ -45,16 +45,28 @@ type GoogleResourceManagerLienConfig struct {
 	// list is meaningless and will be rejected.
 	// e.g. ['resourcemanager.projects.delete']
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_resource_manager_lien#restrictions GoogleResourceManagerLien#restrictions}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_resource_manager_lien#restrictions GoogleResourceManagerLien#restrictions}
 	Restrictions *[]*string `field:"required" json:"restrictions" yaml:"restrictions"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_resource_manager_lien#id GoogleResourceManagerLien#id}.
+	// Whether Terraform will be prevented from destroying the instance.
+	//
+	// Defaults to "DELETE".
+	// When a 'terraform destroy' or 'terraform apply' would delete the instance,
+	// the command will fail if this field is set to "PREVENT" in Terraform state.
+	// When set to "ABANDON", the command will remove the resource from Terraform
+	// management without updating or deleting the resource in the API.
+	// When set to "DELETE", deleting the resource is allowed.
+	//
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_resource_manager_lien#deletion_policy GoogleResourceManagerLien#deletion_policy}
+	DeletionPolicy *string `field:"optional" json:"deletionPolicy" yaml:"deletionPolicy"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_resource_manager_lien#id GoogleResourceManagerLien#id}.
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
 	Id *string `field:"optional" json:"id" yaml:"id"`
 	// timeouts block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_resource_manager_lien#timeouts GoogleResourceManagerLien#timeouts}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_resource_manager_lien#timeouts GoogleResourceManagerLien#timeouts}
 	Timeouts *GoogleResourceManagerLienTimeouts `field:"optional" json:"timeouts" yaml:"timeouts"`
 }
 

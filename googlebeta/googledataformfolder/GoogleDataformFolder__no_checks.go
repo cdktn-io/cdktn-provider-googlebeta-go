@@ -107,6 +107,10 @@ func (j *jsiiProxy_GoogleDataformFolder) validateSetCountParameters(val interfac
 	return nil
 }
 
+func (j *jsiiProxy_GoogleDataformFolder) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleDataformFolder) validateSetDisplayNameParameters(val *string) error {
 	return nil
 }

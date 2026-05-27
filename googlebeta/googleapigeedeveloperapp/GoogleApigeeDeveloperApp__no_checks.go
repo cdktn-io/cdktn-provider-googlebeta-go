@@ -119,6 +119,10 @@ func (j *jsiiProxy_GoogleApigeeDeveloperApp) validateSetCountParameters(val inte
 	return nil
 }
 
+func (j *jsiiProxy_GoogleApigeeDeveloperApp) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleApigeeDeveloperApp) validateSetDeveloperEmailParameters(val *string) error {
 	return nil
 }

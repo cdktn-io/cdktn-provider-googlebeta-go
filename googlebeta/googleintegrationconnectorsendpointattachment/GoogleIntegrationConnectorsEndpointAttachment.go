@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_endpoint_attachment google_integration_connectors_endpoint_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_endpoint_attachment google_integration_connectors_endpoint_attachment}.
 type GoogleIntegrationConnectorsEndpointAttachment interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -28,6 +28,9 @@ type GoogleIntegrationConnectorsEndpointAttachment interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -136,6 +139,7 @@ type GoogleIntegrationConnectorsEndpointAttachment interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *GoogleIntegrationConnectorsEndpointAttachmentTimeouts)
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetEndpointGlobalAccess()
 	ResetId()
@@ -217,6 +221,26 @@ func (j *jsiiProxy_GoogleIntegrationConnectorsEndpointAttachment) CreateTime() *
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleIntegrationConnectorsEndpointAttachment) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleIntegrationConnectorsEndpointAttachment) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -563,7 +587,7 @@ func (j *jsiiProxy_GoogleIntegrationConnectorsEndpointAttachment) UpdateTime() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_endpoint_attachment google_integration_connectors_endpoint_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_endpoint_attachment google_integration_connectors_endpoint_attachment} Resource.
 func NewGoogleIntegrationConnectorsEndpointAttachment(scope constructs.Construct, id *string, config *GoogleIntegrationConnectorsEndpointAttachmentConfig) GoogleIntegrationConnectorsEndpointAttachment {
 	_init_.Initialize()
 
@@ -581,7 +605,7 @@ func NewGoogleIntegrationConnectorsEndpointAttachment(scope constructs.Construct
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_endpoint_attachment google_integration_connectors_endpoint_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_endpoint_attachment google_integration_connectors_endpoint_attachment} Resource.
 func NewGoogleIntegrationConnectorsEndpointAttachment_Override(g GoogleIntegrationConnectorsEndpointAttachment, scope constructs.Construct, id *string, config *GoogleIntegrationConnectorsEndpointAttachmentConfig) {
 	_init_.Initialize()
 
@@ -610,6 +634,17 @@ func (j *jsiiProxy_GoogleIntegrationConnectorsEndpointAttachment)SetCount(val in
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleIntegrationConnectorsEndpointAttachment)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1109,6 +1144,14 @@ func (g *jsiiProxy_GoogleIntegrationConnectorsEndpointAttachment) PutTimeouts(va
 		g,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleIntegrationConnectorsEndpointAttachment) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

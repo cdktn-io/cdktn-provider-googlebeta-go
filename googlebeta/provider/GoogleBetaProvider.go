@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs google-beta}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs google-beta}.
 type GoogleBetaProvider interface {
 	cdktn.TerraformProvider
 	AccessApprovalCustomEndpoint() *string
@@ -253,6 +253,9 @@ type GoogleBetaProvider interface {
 	DefaultLabels() *map[string]*string
 	SetDefaultLabels(val *map[string]*string)
 	DefaultLabelsInput() *map[string]*string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	DeploymentManagerCustomEndpoint() *string
 	SetDeploymentManagerCustomEndpoint(val *string)
 	DeploymentManagerCustomEndpointInput() *string
@@ -745,6 +748,7 @@ type GoogleBetaProvider interface {
 	ResetDataprocMetastoreCustomEndpoint()
 	ResetDatastreamCustomEndpoint()
 	ResetDefaultLabels()
+	ResetDeletionPolicy()
 	ResetDeploymentManagerCustomEndpoint()
 	ResetDeveloperConnectCustomEndpoint()
 	ResetDialogflowCustomEndpoint()
@@ -2481,6 +2485,26 @@ func (j *jsiiProxy_GoogleBetaProvider) DefaultLabelsInput() *map[string]*string 
 	_jsii_.Get(
 		j,
 		"defaultLabelsInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleBetaProvider) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleBetaProvider) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -5187,7 +5211,7 @@ func (j *jsiiProxy_GoogleBetaProvider) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs google-beta} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs google-beta} Resource.
 func NewGoogleBetaProvider(scope constructs.Construct, id *string, config *GoogleBetaProviderConfig) GoogleBetaProvider {
 	_init_.Initialize()
 
@@ -5205,7 +5229,7 @@ func NewGoogleBetaProvider(scope constructs.Construct, id *string, config *Googl
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs google-beta} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs google-beta} Resource.
 func NewGoogleBetaProvider_Override(g GoogleBetaProvider, scope constructs.Construct, id *string, config *GoogleBetaProviderConfig) {
 	_init_.Initialize()
 
@@ -5842,6 +5866,14 @@ func (j *jsiiProxy_GoogleBetaProvider)SetDefaultLabels(val *map[string]*string) 
 	_jsii_.Set(
 		j,
 		"defaultLabels",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleBetaProvider)SetDeletionPolicy(val *string) {
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -7651,6 +7683,14 @@ func (g *jsiiProxy_GoogleBetaProvider) ResetDefaultLabels() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetDefaultLabels",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleBetaProvider) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

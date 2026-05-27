@@ -111,6 +111,10 @@ func (j *jsiiProxy_GoogleNetworkServicesEdgeCacheService) validateSetCountParame
 	return nil
 }
 
+func (j *jsiiProxy_GoogleNetworkServicesEdgeCacheService) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleNetworkServicesEdgeCacheService) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_biglake_iceberg_catalog google_biglake_iceberg_catalog}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_biglake_iceberg_catalog google_biglake_iceberg_catalog}.
 type GoogleBiglakeIcebergCatalog interface {
 	cdktn.TerraformResource
 	BiglakeServiceAccount() *string
@@ -36,6 +36,9 @@ type GoogleBiglakeIcebergCatalog interface {
 	SetCredentialMode(val *string)
 	CredentialModeInput() *string
 	DefaultLocation() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -132,6 +135,7 @@ type GoogleBiglakeIcebergCatalog interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *GoogleBiglakeIcebergCatalogTimeouts)
 	ResetCredentialMode()
+	ResetDeletionPolicy()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -271,6 +275,26 @@ func (j *jsiiProxy_GoogleBiglakeIcebergCatalog) DefaultLocation() *string {
 	_jsii_.Get(
 		j,
 		"defaultLocation",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleBiglakeIcebergCatalog) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleBiglakeIcebergCatalog) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -527,7 +551,7 @@ func (j *jsiiProxy_GoogleBiglakeIcebergCatalog) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_biglake_iceberg_catalog google_biglake_iceberg_catalog} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_biglake_iceberg_catalog google_biglake_iceberg_catalog} Resource.
 func NewGoogleBiglakeIcebergCatalog(scope constructs.Construct, id *string, config *GoogleBiglakeIcebergCatalogConfig) GoogleBiglakeIcebergCatalog {
 	_init_.Initialize()
 
@@ -545,7 +569,7 @@ func NewGoogleBiglakeIcebergCatalog(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_biglake_iceberg_catalog google_biglake_iceberg_catalog} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_biglake_iceberg_catalog google_biglake_iceberg_catalog} Resource.
 func NewGoogleBiglakeIcebergCatalog_Override(g GoogleBiglakeIcebergCatalog, scope constructs.Construct, id *string, config *GoogleBiglakeIcebergCatalogConfig) {
 	_init_.Initialize()
 
@@ -596,6 +620,17 @@ func (j *jsiiProxy_GoogleBiglakeIcebergCatalog)SetCredentialMode(val *string) {
 	_jsii_.Set(
 		j,
 		"credentialMode",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleBiglakeIcebergCatalog)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1058,6 +1093,14 @@ func (g *jsiiProxy_GoogleBiglakeIcebergCatalog) ResetCredentialMode() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetCredentialMode",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleBiglakeIcebergCatalog) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

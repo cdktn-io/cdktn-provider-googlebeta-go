@@ -103,6 +103,10 @@ func (j *jsiiProxy_GoogleApigeeEnvgroupAttachment) validateSetCountParameters(va
 	return nil
 }
 
+func (j *jsiiProxy_GoogleApigeeEnvgroupAttachment) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleApigeeEnvgroupAttachment) validateSetEnvgroupIdParameters(val *string) error {
 	return nil
 }

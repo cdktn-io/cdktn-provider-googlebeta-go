@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_security_mirroring_deployment_group google_network_security_mirroring_deployment_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_security_mirroring_deployment_group google_network_security_mirroring_deployment_group}.
 type GoogleNetworkSecurityMirroringDeploymentGroup interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -29,6 +29,9 @@ type GoogleNetworkSecurityMirroringDeploymentGroup interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -137,6 +140,7 @@ type GoogleNetworkSecurityMirroringDeploymentGroup interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *GoogleNetworkSecurityMirroringDeploymentGroupTimeouts)
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	ResetLabels()
@@ -227,6 +231,26 @@ func (j *jsiiProxy_GoogleNetworkSecurityMirroringDeploymentGroup) CreateTime() *
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleNetworkSecurityMirroringDeploymentGroup) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleNetworkSecurityMirroringDeploymentGroup) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -583,7 +607,7 @@ func (j *jsiiProxy_GoogleNetworkSecurityMirroringDeploymentGroup) UpdateTime() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_security_mirroring_deployment_group google_network_security_mirroring_deployment_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_security_mirroring_deployment_group google_network_security_mirroring_deployment_group} Resource.
 func NewGoogleNetworkSecurityMirroringDeploymentGroup(scope constructs.Construct, id *string, config *GoogleNetworkSecurityMirroringDeploymentGroupConfig) GoogleNetworkSecurityMirroringDeploymentGroup {
 	_init_.Initialize()
 
@@ -601,7 +625,7 @@ func NewGoogleNetworkSecurityMirroringDeploymentGroup(scope constructs.Construct
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_security_mirroring_deployment_group google_network_security_mirroring_deployment_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_security_mirroring_deployment_group google_network_security_mirroring_deployment_group} Resource.
 func NewGoogleNetworkSecurityMirroringDeploymentGroup_Override(g GoogleNetworkSecurityMirroringDeploymentGroup, scope constructs.Construct, id *string, config *GoogleNetworkSecurityMirroringDeploymentGroupConfig) {
 	_init_.Initialize()
 
@@ -630,6 +654,17 @@ func (j *jsiiProxy_GoogleNetworkSecurityMirroringDeploymentGroup)SetCount(val in
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleNetworkSecurityMirroringDeploymentGroup)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1118,6 +1153,14 @@ func (g *jsiiProxy_GoogleNetworkSecurityMirroringDeploymentGroup) PutTimeouts(va
 		g,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleNetworkSecurityMirroringDeploymentGroup) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

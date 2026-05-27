@@ -119,6 +119,10 @@ func (j *jsiiProxy_GoogleCloudRunService) validateSetCountParameters(val interfa
 	return nil
 }
 
+func (j *jsiiProxy_GoogleCloudRunService) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleCloudRunService) validateSetIdParameters(val *string) error {
 	return nil
 }

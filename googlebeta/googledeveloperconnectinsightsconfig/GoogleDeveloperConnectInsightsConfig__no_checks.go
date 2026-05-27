@@ -119,6 +119,10 @@ func (j *jsiiProxy_GoogleDeveloperConnectInsightsConfig) validateSetCountParamet
 	return nil
 }
 
+func (j *jsiiProxy_GoogleDeveloperConnectInsightsConfig) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleDeveloperConnectInsightsConfig) validateSetIdParameters(val *string) error {
 	return nil
 }

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_vpc_access_connector google_vpc_access_connector}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/data-sources/google_vpc_access_connector google_vpc_access_connector}.
 type DataGoogleVpcAccessConnector interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -24,6 +24,7 @@ type DataGoogleVpcAccessConnector interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -170,6 +171,16 @@ func (j *jsiiProxy_DataGoogleVpcAccessConnector) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleVpcAccessConnector) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
 		&returns,
 	)
 	return returns
@@ -466,7 +477,7 @@ func (j *jsiiProxy_DataGoogleVpcAccessConnector) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_vpc_access_connector google_vpc_access_connector} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/data-sources/google_vpc_access_connector google_vpc_access_connector} Data Source.
 func NewDataGoogleVpcAccessConnector(scope constructs.Construct, id *string, config *DataGoogleVpcAccessConnectorConfig) DataGoogleVpcAccessConnector {
 	_init_.Initialize()
 
@@ -484,7 +495,7 @@ func NewDataGoogleVpcAccessConnector(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_vpc_access_connector google_vpc_access_connector} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/data-sources/google_vpc_access_connector google_vpc_access_connector} Data Source.
 func NewDataGoogleVpcAccessConnector_Override(d DataGoogleVpcAccessConnector, scope constructs.Construct, id *string, config *DataGoogleVpcAccessConnectorConfig) {
 	_init_.Initialize()
 

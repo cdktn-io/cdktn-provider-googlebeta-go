@@ -29,6 +29,7 @@ type DataGoogleKmsCryptoKeysKeysOutputReference interface {
 	// Experimental.
 	CreationStack() *[]*string
 	CryptoKeyBackend() *string
+	DeletionPolicy() *string
 	DestroyScheduledDuration() *string
 	EffectiveLabels() cdktn.StringMap
 	// Experimental.
@@ -129,6 +130,16 @@ func (j *jsiiProxy_DataGoogleKmsCryptoKeysKeysOutputReference) CryptoKeyBackend(
 	_jsii_.Get(
 		j,
 		"cryptoKeyBackend",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleKmsCryptoKeysKeysOutputReference) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
 		&returns,
 	)
 	return returns

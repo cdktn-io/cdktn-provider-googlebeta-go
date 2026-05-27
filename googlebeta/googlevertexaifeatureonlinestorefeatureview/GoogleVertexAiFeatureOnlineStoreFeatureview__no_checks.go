@@ -119,6 +119,10 @@ func (j *jsiiProxy_GoogleVertexAiFeatureOnlineStoreFeatureview) validateSetCount
 	return nil
 }
 
+func (j *jsiiProxy_GoogleVertexAiFeatureOnlineStoreFeatureview) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleVertexAiFeatureOnlineStoreFeatureview) validateSetFeatureOnlineStoreParameters(val *string) error {
 	return nil
 }

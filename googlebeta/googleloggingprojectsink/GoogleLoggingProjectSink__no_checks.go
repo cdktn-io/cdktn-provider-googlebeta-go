@@ -111,6 +111,10 @@ func (j *jsiiProxy_GoogleLoggingProjectSink) validateSetCustomWriterIdentityPara
 	return nil
 }
 
+func (j *jsiiProxy_GoogleLoggingProjectSink) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleLoggingProjectSink) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

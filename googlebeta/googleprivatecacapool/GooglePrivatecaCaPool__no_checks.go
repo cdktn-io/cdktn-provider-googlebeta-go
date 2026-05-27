@@ -115,6 +115,10 @@ func (j *jsiiProxy_GooglePrivatecaCaPool) validateSetCountParameters(val interfa
 	return nil
 }
 
+func (j *jsiiProxy_GooglePrivatecaCaPool) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GooglePrivatecaCaPool) validateSetIdParameters(val *string) error {
 	return nil
 }

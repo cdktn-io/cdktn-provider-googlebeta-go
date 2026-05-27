@@ -115,6 +115,10 @@ func (j *jsiiProxy_GoogleChronicleDashboardChart) validateSetCountParameters(val
 	return nil
 }
 
+func (j *jsiiProxy_GoogleChronicleDashboardChart) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleChronicleDashboardChart) validateSetIdParameters(val *string) error {
 	return nil
 }

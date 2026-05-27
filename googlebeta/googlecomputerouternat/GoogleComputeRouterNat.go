@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_router_nat google_compute_router_nat}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_router_nat google_compute_router_nat}.
 type GoogleComputeRouterNat interface {
 	cdktn.TerraformResource
 	AutoNetworkTier() *string
@@ -30,6 +30,9 @@ type GoogleComputeRouterNat interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -189,6 +192,7 @@ type GoogleComputeRouterNat interface {
 	PutSubnetwork(value interface{})
 	PutTimeouts(value *GoogleComputeRouterNatTimeouts)
 	ResetAutoNetworkTier()
+	ResetDeletionPolicy()
 	ResetDrainNatIps()
 	ResetEnableDynamicPortAllocation()
 	ResetEnableEndpointIndependentMapping()
@@ -298,6 +302,26 @@ func (j *jsiiProxy_GoogleComputeRouterNat) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeRouterNat) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeRouterNat) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -964,7 +988,7 @@ func (j *jsiiProxy_GoogleComputeRouterNat) UdpIdleTimeoutSecInput() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_router_nat google_compute_router_nat} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_router_nat google_compute_router_nat} Resource.
 func NewGoogleComputeRouterNat(scope constructs.Construct, id *string, config *GoogleComputeRouterNatConfig) GoogleComputeRouterNat {
 	_init_.Initialize()
 
@@ -982,7 +1006,7 @@ func NewGoogleComputeRouterNat(scope constructs.Construct, id *string, config *G
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_router_nat google_compute_router_nat} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_router_nat google_compute_router_nat} Resource.
 func NewGoogleComputeRouterNat_Override(g GoogleComputeRouterNat, scope constructs.Construct, id *string, config *GoogleComputeRouterNatConfig) {
 	_init_.Initialize()
 
@@ -1022,6 +1046,17 @@ func (j *jsiiProxy_GoogleComputeRouterNat)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleComputeRouterNat)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1726,6 +1761,14 @@ func (g *jsiiProxy_GoogleComputeRouterNat) ResetAutoNetworkTier() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetAutoNetworkTier",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleComputeRouterNat) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

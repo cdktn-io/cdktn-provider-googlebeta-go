@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_beyondcorp_app_connection google_beyondcorp_app_connection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/data-sources/google_beyondcorp_app_connection google_beyondcorp_app_connection}.
 type DataGoogleBeyondcorpAppConnection interface {
 	cdktn.TerraformDataSource
 	ApplicationEndpoint() DataGoogleBeyondcorpAppConnectionApplicationEndpointList
@@ -25,6 +25,7 @@ type DataGoogleBeyondcorpAppConnection interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -177,6 +178,16 @@ func (j *jsiiProxy_DataGoogleBeyondcorpAppConnection) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleBeyondcorpAppConnection) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
 		&returns,
 	)
 	return returns
@@ -433,7 +444,7 @@ func (j *jsiiProxy_DataGoogleBeyondcorpAppConnection) Type() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_beyondcorp_app_connection google_beyondcorp_app_connection} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/data-sources/google_beyondcorp_app_connection google_beyondcorp_app_connection} Data Source.
 func NewDataGoogleBeyondcorpAppConnection(scope constructs.Construct, id *string, config *DataGoogleBeyondcorpAppConnectionConfig) DataGoogleBeyondcorpAppConnection {
 	_init_.Initialize()
 
@@ -451,7 +462,7 @@ func NewDataGoogleBeyondcorpAppConnection(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_beyondcorp_app_connection google_beyondcorp_app_connection} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/data-sources/google_beyondcorp_app_connection google_beyondcorp_app_connection} Data Source.
 func NewDataGoogleBeyondcorpAppConnection_Override(d DataGoogleBeyondcorpAppConnection, scope constructs.Construct, id *string, config *DataGoogleBeyondcorpAppConnectionConfig) {
 	_init_.Initialize()
 

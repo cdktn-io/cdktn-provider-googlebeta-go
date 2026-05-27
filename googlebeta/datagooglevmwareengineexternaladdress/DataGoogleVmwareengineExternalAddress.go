@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_vmwareengine_external_address google_vmwareengine_external_address}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/data-sources/google_vmwareengine_external_address google_vmwareengine_external_address}.
 type DataGoogleVmwareengineExternalAddress interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -24,6 +24,7 @@ type DataGoogleVmwareengineExternalAddress interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -161,6 +162,16 @@ func (j *jsiiProxy_DataGoogleVmwareengineExternalAddress) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleVmwareengineExternalAddress) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
 		&returns,
 	)
 	return returns
@@ -397,7 +408,7 @@ func (j *jsiiProxy_DataGoogleVmwareengineExternalAddress) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_vmwareengine_external_address google_vmwareengine_external_address} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/data-sources/google_vmwareengine_external_address google_vmwareengine_external_address} Data Source.
 func NewDataGoogleVmwareengineExternalAddress(scope constructs.Construct, id *string, config *DataGoogleVmwareengineExternalAddressConfig) DataGoogleVmwareengineExternalAddress {
 	_init_.Initialize()
 
@@ -415,7 +426,7 @@ func NewDataGoogleVmwareengineExternalAddress(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_vmwareengine_external_address google_vmwareengine_external_address} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/data-sources/google_vmwareengine_external_address google_vmwareengine_external_address} Data Source.
 func NewDataGoogleVmwareengineExternalAddress_Override(d DataGoogleVmwareengineExternalAddress, scope constructs.Construct, id *string, config *DataGoogleVmwareengineExternalAddressConfig) {
 	_init_.Initialize()
 

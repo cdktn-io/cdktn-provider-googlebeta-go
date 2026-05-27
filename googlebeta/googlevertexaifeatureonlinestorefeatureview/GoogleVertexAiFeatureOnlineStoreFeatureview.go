@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_feature_online_store_featureview google_vertex_ai_feature_online_store_featureview}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_feature_online_store_featureview google_vertex_ai_feature_online_store_featureview}.
 type GoogleVertexAiFeatureOnlineStoreFeatureview interface {
 	cdktn.TerraformResource
 	BigQuerySource() GoogleVertexAiFeatureOnlineStoreFeatureviewBigQuerySourceOutputReference
@@ -30,6 +30,9 @@ type GoogleVertexAiFeatureOnlineStoreFeatureview interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -142,6 +145,7 @@ type GoogleVertexAiFeatureOnlineStoreFeatureview interface {
 	PutTimeouts(value *GoogleVertexAiFeatureOnlineStoreFeatureviewTimeouts)
 	PutVectorSearchConfig(value *GoogleVertexAiFeatureOnlineStoreFeatureviewVectorSearchConfig)
 	ResetBigQuerySource()
+	ResetDeletionPolicy()
 	ResetFeatureRegistrySource()
 	ResetId()
 	ResetLabels()
@@ -246,6 +250,26 @@ func (j *jsiiProxy_GoogleVertexAiFeatureOnlineStoreFeatureview) CreateTime() *st
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleVertexAiFeatureOnlineStoreFeatureview) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleVertexAiFeatureOnlineStoreFeatureview) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -602,7 +626,7 @@ func (j *jsiiProxy_GoogleVertexAiFeatureOnlineStoreFeatureview) VectorSearchConf
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_feature_online_store_featureview google_vertex_ai_feature_online_store_featureview} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_feature_online_store_featureview google_vertex_ai_feature_online_store_featureview} Resource.
 func NewGoogleVertexAiFeatureOnlineStoreFeatureview(scope constructs.Construct, id *string, config *GoogleVertexAiFeatureOnlineStoreFeatureviewConfig) GoogleVertexAiFeatureOnlineStoreFeatureview {
 	_init_.Initialize()
 
@@ -620,7 +644,7 @@ func NewGoogleVertexAiFeatureOnlineStoreFeatureview(scope constructs.Construct, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_feature_online_store_featureview google_vertex_ai_feature_online_store_featureview} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_feature_online_store_featureview google_vertex_ai_feature_online_store_featureview} Resource.
 func NewGoogleVertexAiFeatureOnlineStoreFeatureview_Override(g GoogleVertexAiFeatureOnlineStoreFeatureview, scope constructs.Construct, id *string, config *GoogleVertexAiFeatureOnlineStoreFeatureviewConfig) {
 	_init_.Initialize()
 
@@ -649,6 +673,17 @@ func (j *jsiiProxy_GoogleVertexAiFeatureOnlineStoreFeatureview)SetCount(val inte
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleVertexAiFeatureOnlineStoreFeatureview)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1177,6 +1212,14 @@ func (g *jsiiProxy_GoogleVertexAiFeatureOnlineStoreFeatureview) ResetBigQuerySou
 	_jsii_.InvokeVoid(
 		g,
 		"resetBigQuerySource",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleVertexAiFeatureOnlineStoreFeatureview) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

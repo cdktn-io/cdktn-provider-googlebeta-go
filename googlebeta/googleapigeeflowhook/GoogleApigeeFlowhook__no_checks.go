@@ -107,6 +107,10 @@ func (j *jsiiProxy_GoogleApigeeFlowhook) validateSetCountParameters(val interfac
 	return nil
 }
 
+func (j *jsiiProxy_GoogleApigeeFlowhook) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleApigeeFlowhook) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

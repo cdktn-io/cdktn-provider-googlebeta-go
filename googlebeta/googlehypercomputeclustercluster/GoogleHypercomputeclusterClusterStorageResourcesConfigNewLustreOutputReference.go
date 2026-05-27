@@ -44,6 +44,9 @@ type GoogleHypercomputeclusterClusterStorageResourcesConfigNewLustreOutputRefere
 	Lustre() *string
 	SetLustre(val *string)
 	LustreInput() *string
+	PerUnitStorageThroughput() *string
+	SetPerUnitStorageThroughput(val *string)
+	PerUnitStorageThroughputInput() *string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -77,6 +80,7 @@ type GoogleHypercomputeclusterClusterStorageResourcesConfigNewLustreOutputRefere
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetDescription()
+	ResetPerUnitStorageThroughput()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -222,6 +226,26 @@ func (j *jsiiProxy_GoogleHypercomputeclusterClusterStorageResourcesConfigNewLust
 	return returns
 }
 
+func (j *jsiiProxy_GoogleHypercomputeclusterClusterStorageResourcesConfigNewLustreOutputReference) PerUnitStorageThroughput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"perUnitStorageThroughput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleHypercomputeclusterClusterStorageResourcesConfigNewLustreOutputReference) PerUnitStorageThroughputInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"perUnitStorageThroughputInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleHypercomputeclusterClusterStorageResourcesConfigNewLustreOutputReference) TerraformAttribute() *string {
 	var returns *string
 	_jsii_.Get(
@@ -343,6 +367,17 @@ func (j *jsiiProxy_GoogleHypercomputeclusterClusterStorageResourcesConfigNewLust
 	_jsii_.Set(
 		j,
 		"lustre",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleHypercomputeclusterClusterStorageResourcesConfigNewLustreOutputReference)SetPerUnitStorageThroughput(val *string) {
+	if err := j.validateSetPerUnitStorageThroughputParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"perUnitStorageThroughput",
 		val,
 	)
 }
@@ -559,6 +594,14 @@ func (g *jsiiProxy_GoogleHypercomputeclusterClusterStorageResourcesConfigNewLust
 	_jsii_.InvokeVoid(
 		g,
 		"resetDescription",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleHypercomputeclusterClusterStorageResourcesConfigNewLustreOutputReference) ResetPerUnitStorageThroughput() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetPerUnitStorageThroughput",
 		nil, // no parameters
 	)
 }

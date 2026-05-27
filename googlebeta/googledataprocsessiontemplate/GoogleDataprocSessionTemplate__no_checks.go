@@ -119,6 +119,10 @@ func (j *jsiiProxy_GoogleDataprocSessionTemplate) validateSetCountParameters(val
 	return nil
 }
 
+func (j *jsiiProxy_GoogleDataprocSessionTemplate) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleDataprocSessionTemplate) validateSetIdParameters(val *string) error {
 	return nil
 }

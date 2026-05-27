@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_data_loss_prevention_deidentify_template google_data_loss_prevention_deidentify_template}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_data_loss_prevention_deidentify_template google_data_loss_prevention_deidentify_template}.
 type GoogleDataLossPreventionDeidentifyTemplate interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -30,6 +30,9 @@ type GoogleDataLossPreventionDeidentifyTemplate interface {
 	CreateTime() *string
 	DeidentifyConfig() GoogleDataLossPreventionDeidentifyTemplateDeidentifyConfigOutputReference
 	DeidentifyConfigInput() *GoogleDataLossPreventionDeidentifyTemplateDeidentifyConfig
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -128,6 +131,7 @@ type GoogleDataLossPreventionDeidentifyTemplate interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutDeidentifyConfig(value *GoogleDataLossPreventionDeidentifyTemplateDeidentifyConfig)
 	PutTimeouts(value *GoogleDataLossPreventionDeidentifyTemplateTimeouts)
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetDisplayName()
 	ResetId()
@@ -228,6 +232,26 @@ func (j *jsiiProxy_GoogleDataLossPreventionDeidentifyTemplate) DeidentifyConfigI
 	_jsii_.Get(
 		j,
 		"deidentifyConfigInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDataLossPreventionDeidentifyTemplate) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDataLossPreventionDeidentifyTemplate) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -494,7 +518,7 @@ func (j *jsiiProxy_GoogleDataLossPreventionDeidentifyTemplate) UpdateTime() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_data_loss_prevention_deidentify_template google_data_loss_prevention_deidentify_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_data_loss_prevention_deidentify_template google_data_loss_prevention_deidentify_template} Resource.
 func NewGoogleDataLossPreventionDeidentifyTemplate(scope constructs.Construct, id *string, config *GoogleDataLossPreventionDeidentifyTemplateConfig) GoogleDataLossPreventionDeidentifyTemplate {
 	_init_.Initialize()
 
@@ -512,7 +536,7 @@ func NewGoogleDataLossPreventionDeidentifyTemplate(scope constructs.Construct, i
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_data_loss_prevention_deidentify_template google_data_loss_prevention_deidentify_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_data_loss_prevention_deidentify_template google_data_loss_prevention_deidentify_template} Resource.
 func NewGoogleDataLossPreventionDeidentifyTemplate_Override(g GoogleDataLossPreventionDeidentifyTemplate, scope constructs.Construct, id *string, config *GoogleDataLossPreventionDeidentifyTemplateConfig) {
 	_init_.Initialize()
 
@@ -541,6 +565,17 @@ func (j *jsiiProxy_GoogleDataLossPreventionDeidentifyTemplate)SetCount(val inter
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleDataLossPreventionDeidentifyTemplate)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1018,6 +1053,14 @@ func (g *jsiiProxy_GoogleDataLossPreventionDeidentifyTemplate) PutTimeouts(value
 		g,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleDataLossPreventionDeidentifyTemplate) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

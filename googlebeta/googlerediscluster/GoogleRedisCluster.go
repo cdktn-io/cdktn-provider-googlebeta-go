@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_redis_cluster google_redis_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_redis_cluster google_redis_cluster}.
 type GoogleRedisCluster interface {
 	cdktn.TerraformResource
 	AuthorizationMode() *string
@@ -37,6 +37,9 @@ type GoogleRedisCluster interface {
 	CreateTime() *string
 	CrossClusterReplicationConfig() GoogleRedisClusterCrossClusterReplicationConfigOutputReference
 	CrossClusterReplicationConfigInput() *GoogleRedisClusterCrossClusterReplicationConfig
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	DeletionProtectionEnabled() interface{}
 	SetDeletionProtectionEnabled(val interface{})
 	DeletionProtectionEnabledInput() interface{}
@@ -198,6 +201,7 @@ type GoogleRedisCluster interface {
 	ResetAuthorizationMode()
 	ResetAutomatedBackupConfig()
 	ResetCrossClusterReplicationConfig()
+	ResetDeletionPolicy()
 	ResetDeletionProtectionEnabled()
 	ResetGcsSource()
 	ResetId()
@@ -374,6 +378,26 @@ func (j *jsiiProxy_GoogleRedisCluster) CrossClusterReplicationConfigInput() *Goo
 	_jsii_.Get(
 		j,
 		"crossClusterReplicationConfigInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleRedisCluster) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleRedisCluster) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -1070,7 +1094,7 @@ func (j *jsiiProxy_GoogleRedisCluster) ZoneDistributionConfigInput() *GoogleRedi
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_redis_cluster google_redis_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_redis_cluster google_redis_cluster} Resource.
 func NewGoogleRedisCluster(scope constructs.Construct, id *string, config *GoogleRedisClusterConfig) GoogleRedisCluster {
 	_init_.Initialize()
 
@@ -1088,7 +1112,7 @@ func NewGoogleRedisCluster(scope constructs.Construct, id *string, config *Googl
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_redis_cluster google_redis_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_redis_cluster google_redis_cluster} Resource.
 func NewGoogleRedisCluster_Override(g GoogleRedisCluster, scope constructs.Construct, id *string, config *GoogleRedisClusterConfig) {
 	_init_.Initialize()
 
@@ -1128,6 +1152,17 @@ func (j *jsiiProxy_GoogleRedisCluster)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleRedisCluster)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1815,6 +1850,14 @@ func (g *jsiiProxy_GoogleRedisCluster) ResetCrossClusterReplicationConfig() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetCrossClusterReplicationConfig",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleRedisCluster) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

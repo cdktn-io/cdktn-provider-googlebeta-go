@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_access_context_manager_access_level_condition google_access_context_manager_access_level_condition}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_access_context_manager_access_level_condition google_access_context_manager_access_level_condition}.
 type GoogleAccessContextManagerAccessLevelCondition interface {
 	cdktn.TerraformResource
 	AccessLevel() *string
@@ -31,6 +31,9 @@ type GoogleAccessContextManagerAccessLevelCondition interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -135,6 +138,7 @@ type GoogleAccessContextManagerAccessLevelCondition interface {
 	PutDevicePolicy(value *GoogleAccessContextManagerAccessLevelConditionDevicePolicy)
 	PutTimeouts(value *GoogleAccessContextManagerAccessLevelConditionTimeouts)
 	PutVpcNetworkSources(value interface{})
+	ResetDeletionPolicy()
 	ResetDevicePolicy()
 	ResetId()
 	ResetIpSubnetworks()
@@ -239,6 +243,26 @@ func (j *jsiiProxy_GoogleAccessContextManagerAccessLevelCondition) Count() inter
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleAccessContextManagerAccessLevelCondition) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleAccessContextManagerAccessLevelCondition) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -545,7 +569,7 @@ func (j *jsiiProxy_GoogleAccessContextManagerAccessLevelCondition) VpcNetworkSou
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_access_context_manager_access_level_condition google_access_context_manager_access_level_condition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_access_context_manager_access_level_condition google_access_context_manager_access_level_condition} Resource.
 func NewGoogleAccessContextManagerAccessLevelCondition(scope constructs.Construct, id *string, config *GoogleAccessContextManagerAccessLevelConditionConfig) GoogleAccessContextManagerAccessLevelCondition {
 	_init_.Initialize()
 
@@ -563,7 +587,7 @@ func NewGoogleAccessContextManagerAccessLevelCondition(scope constructs.Construc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_access_context_manager_access_level_condition google_access_context_manager_access_level_condition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_access_context_manager_access_level_condition google_access_context_manager_access_level_condition} Resource.
 func NewGoogleAccessContextManagerAccessLevelCondition_Override(g GoogleAccessContextManagerAccessLevelCondition, scope constructs.Construct, id *string, config *GoogleAccessContextManagerAccessLevelConditionConfig) {
 	_init_.Initialize()
 
@@ -603,6 +627,17 @@ func (j *jsiiProxy_GoogleAccessContextManagerAccessLevelCondition)SetCount(val i
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleAccessContextManagerAccessLevelCondition)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1102,6 +1137,14 @@ func (g *jsiiProxy_GoogleAccessContextManagerAccessLevelCondition) PutVpcNetwork
 		g,
 		"putVpcNetworkSources",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleAccessContextManagerAccessLevelCondition) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

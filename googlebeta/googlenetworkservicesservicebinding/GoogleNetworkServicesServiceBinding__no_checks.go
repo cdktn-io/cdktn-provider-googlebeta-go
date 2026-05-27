@@ -103,6 +103,10 @@ func (j *jsiiProxy_GoogleNetworkServicesServiceBinding) validateSetCountParamete
 	return nil
 }
 
+func (j *jsiiProxy_GoogleNetworkServicesServiceBinding) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleNetworkServicesServiceBinding) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

@@ -111,6 +111,10 @@ func (j *jsiiProxy_GoogleNetworkServicesWasmPlugin) validateSetCountParameters(v
 	return nil
 }
 
+func (j *jsiiProxy_GoogleNetworkServicesWasmPlugin) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleNetworkServicesWasmPlugin) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

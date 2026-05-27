@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_target_https_proxy google_compute_target_https_proxy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_target_https_proxy google_compute_target_https_proxy}.
 type GoogleComputeTargetHttpsProxy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -34,6 +34,9 @@ type GoogleComputeTargetHttpsProxy interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreationTimestamp() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -155,6 +158,7 @@ type GoogleComputeTargetHttpsProxy interface {
 	PutTimeouts(value *GoogleComputeTargetHttpsProxyTimeouts)
 	ResetCertificateManagerCertificates()
 	ResetCertificateMap()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetHttpKeepAliveTimeoutSec()
 	ResetId()
@@ -281,6 +285,26 @@ func (j *jsiiProxy_GoogleComputeTargetHttpsProxy) CreationTimestamp() *string {
 	_jsii_.Get(
 		j,
 		"creationTimestamp",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeTargetHttpsProxy) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeTargetHttpsProxy) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -697,7 +721,7 @@ func (j *jsiiProxy_GoogleComputeTargetHttpsProxy) UrlMapInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_target_https_proxy google_compute_target_https_proxy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_target_https_proxy google_compute_target_https_proxy} Resource.
 func NewGoogleComputeTargetHttpsProxy(scope constructs.Construct, id *string, config *GoogleComputeTargetHttpsProxyConfig) GoogleComputeTargetHttpsProxy {
 	_init_.Initialize()
 
@@ -715,7 +739,7 @@ func NewGoogleComputeTargetHttpsProxy(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_target_https_proxy google_compute_target_https_proxy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_target_https_proxy google_compute_target_https_proxy} Resource.
 func NewGoogleComputeTargetHttpsProxy_Override(g GoogleComputeTargetHttpsProxy, scope constructs.Construct, id *string, config *GoogleComputeTargetHttpsProxyConfig) {
 	_init_.Initialize()
 
@@ -766,6 +790,17 @@ func (j *jsiiProxy_GoogleComputeTargetHttpsProxy)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleComputeTargetHttpsProxy)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1324,6 +1359,14 @@ func (g *jsiiProxy_GoogleComputeTargetHttpsProxy) ResetCertificateMap() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetCertificateMap",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleComputeTargetHttpsProxy) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

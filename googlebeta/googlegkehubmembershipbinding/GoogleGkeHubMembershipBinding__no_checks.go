@@ -103,6 +103,10 @@ func (j *jsiiProxy_GoogleGkeHubMembershipBinding) validateSetCountParameters(val
 	return nil
 }
 
+func (j *jsiiProxy_GoogleGkeHubMembershipBinding) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleGkeHubMembershipBinding) validateSetIdParameters(val *string) error {
 	return nil
 }

@@ -107,6 +107,10 @@ func (j *jsiiProxy_GoogleSecureSourceManagerHook) validateSetCountParameters(val
 	return nil
 }
 
+func (j *jsiiProxy_GoogleSecureSourceManagerHook) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleSecureSourceManagerHook) validateSetDisabledParameters(val interface{}) error {
 	return nil
 }

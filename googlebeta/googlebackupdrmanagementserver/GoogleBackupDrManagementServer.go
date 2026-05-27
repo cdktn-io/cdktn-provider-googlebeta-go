@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_backup_dr_management_server google_backup_dr_management_server}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_backup_dr_management_server google_backup_dr_management_server}.
 type GoogleBackupDrManagementServer interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -27,6 +27,9 @@ type GoogleBackupDrManagementServer interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -127,6 +130,7 @@ type GoogleBackupDrManagementServer interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutNetworks(value interface{})
 	PutTimeouts(value *GoogleBackupDrManagementServerTimeouts)
+	ResetDeletionPolicy()
 	ResetId()
 	ResetNetworks()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -197,6 +201,26 @@ func (j *jsiiProxy_GoogleBackupDrManagementServer) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleBackupDrManagementServer) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleBackupDrManagementServer) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -483,7 +507,7 @@ func (j *jsiiProxy_GoogleBackupDrManagementServer) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_backup_dr_management_server google_backup_dr_management_server} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_backup_dr_management_server google_backup_dr_management_server} Resource.
 func NewGoogleBackupDrManagementServer(scope constructs.Construct, id *string, config *GoogleBackupDrManagementServerConfig) GoogleBackupDrManagementServer {
 	_init_.Initialize()
 
@@ -501,7 +525,7 @@ func NewGoogleBackupDrManagementServer(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_backup_dr_management_server google_backup_dr_management_server} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_backup_dr_management_server google_backup_dr_management_server} Resource.
 func NewGoogleBackupDrManagementServer_Override(g GoogleBackupDrManagementServer, scope constructs.Construct, id *string, config *GoogleBackupDrManagementServerConfig) {
 	_init_.Initialize()
 
@@ -530,6 +554,17 @@ func (j *jsiiProxy_GoogleBackupDrManagementServer)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleBackupDrManagementServer)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1007,6 +1042,14 @@ func (g *jsiiProxy_GoogleBackupDrManagementServer) PutTimeouts(value *GoogleBack
 		g,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleBackupDrManagementServer) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

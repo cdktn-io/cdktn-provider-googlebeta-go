@@ -367,6 +367,14 @@ func (j *jsiiProxy_GoogleOracleDatabaseDbSystem) validateSetDbSystemIdParameters
 	return nil
 }
 
+func (j *jsiiProxy_GoogleOracleDatabaseDbSystem) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_GoogleOracleDatabaseDbSystem) validateSetDeletionProtectionParameters(val interface{}) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

@@ -367,6 +367,14 @@ func (j *jsiiProxy_GoogleApihubCuration) validateSetCurationIdParameters(val *st
 	return nil
 }
 
+func (j *jsiiProxy_GoogleApihubCuration) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_GoogleApihubCuration) validateSetDescriptionParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

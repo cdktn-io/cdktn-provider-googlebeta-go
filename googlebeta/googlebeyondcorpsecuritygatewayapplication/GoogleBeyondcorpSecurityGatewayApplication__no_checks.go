@@ -115,6 +115,10 @@ func (j *jsiiProxy_GoogleBeyondcorpSecurityGatewayApplication) validateSetCountP
 	return nil
 }
 
+func (j *jsiiProxy_GoogleBeyondcorpSecurityGatewayApplication) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleBeyondcorpSecurityGatewayApplication) validateSetDisplayNameParameters(val *string) error {
 	return nil
 }

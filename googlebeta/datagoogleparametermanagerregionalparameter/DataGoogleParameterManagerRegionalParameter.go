@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_parameter_manager_regional_parameter google_parameter_manager_regional_parameter}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/data-sources/google_parameter_manager_regional_parameter google_parameter_manager_regional_parameter}.
 type DataGoogleParameterManagerRegionalParameter interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -24,6 +24,7 @@ type DataGoogleParameterManagerRegionalParameter interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -167,6 +168,16 @@ func (j *jsiiProxy_DataGoogleParameterManagerRegionalParameter) CreateTime() *st
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleParameterManagerRegionalParameter) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
 		&returns,
 	)
 	return returns
@@ -443,7 +454,7 @@ func (j *jsiiProxy_DataGoogleParameterManagerRegionalParameter) UpdateTime() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_parameter_manager_regional_parameter google_parameter_manager_regional_parameter} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/data-sources/google_parameter_manager_regional_parameter google_parameter_manager_regional_parameter} Data Source.
 func NewDataGoogleParameterManagerRegionalParameter(scope constructs.Construct, id *string, config *DataGoogleParameterManagerRegionalParameterConfig) DataGoogleParameterManagerRegionalParameter {
 	_init_.Initialize()
 
@@ -461,7 +472,7 @@ func NewDataGoogleParameterManagerRegionalParameter(scope constructs.Construct, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_parameter_manager_regional_parameter google_parameter_manager_regional_parameter} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/data-sources/google_parameter_manager_regional_parameter google_parameter_manager_regional_parameter} Data Source.
 func NewDataGoogleParameterManagerRegionalParameter_Override(d DataGoogleParameterManagerRegionalParameter, scope constructs.Construct, id *string, config *DataGoogleParameterManagerRegionalParameterConfig) {
 	_init_.Initialize()
 

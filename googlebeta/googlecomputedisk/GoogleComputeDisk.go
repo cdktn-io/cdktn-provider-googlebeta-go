@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_disk google_compute_disk}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_disk google_compute_disk}.
 type GoogleComputeDisk interface {
 	cdktn.TerraformResource
 	AccessMode() *string
@@ -42,6 +42,9 @@ type GoogleComputeDisk interface {
 	SetCreateSnapshotBeforeDestroyPrefix(val *string)
 	CreateSnapshotBeforeDestroyPrefixInput() *string
 	CreationTimestamp() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -224,6 +227,7 @@ type GoogleComputeDisk interface {
 	ResetAsyncPrimaryDisk()
 	ResetCreateSnapshotBeforeDestroy()
 	ResetCreateSnapshotBeforeDestroyPrefix()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetDiskEncryptionKey()
 	ResetEnableConfidentialCompute()
@@ -427,6 +431,26 @@ func (j *jsiiProxy_GoogleComputeDisk) CreationTimestamp() *string {
 	_jsii_.Get(
 		j,
 		"creationTimestamp",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeDisk) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeDisk) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -1253,7 +1277,7 @@ func (j *jsiiProxy_GoogleComputeDisk) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_disk google_compute_disk} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_disk google_compute_disk} Resource.
 func NewGoogleComputeDisk(scope constructs.Construct, id *string, config *GoogleComputeDiskConfig) GoogleComputeDisk {
 	_init_.Initialize()
 
@@ -1271,7 +1295,7 @@ func NewGoogleComputeDisk(scope constructs.Construct, id *string, config *Google
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_disk google_compute_disk} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_disk google_compute_disk} Resource.
 func NewGoogleComputeDisk_Override(g GoogleComputeDisk, scope constructs.Construct, id *string, config *GoogleComputeDiskConfig) {
 	_init_.Initialize()
 
@@ -1344,6 +1368,17 @@ func (j *jsiiProxy_GoogleComputeDisk)SetCreateSnapshotBeforeDestroyPrefix(val *s
 	_jsii_.Set(
 		j,
 		"createSnapshotBeforeDestroyPrefix",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleComputeDisk)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -2113,6 +2148,14 @@ func (g *jsiiProxy_GoogleComputeDisk) ResetCreateSnapshotBeforeDestroyPrefix() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetCreateSnapshotBeforeDestroyPrefix",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleComputeDisk) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

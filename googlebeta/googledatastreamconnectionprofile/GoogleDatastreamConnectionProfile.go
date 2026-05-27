@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_connection_profile google_datastream_connection_profile}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_connection_profile google_datastream_connection_profile}.
 type GoogleDatastreamConnectionProfile interface {
 	cdktn.TerraformResource
 	BigqueryProfile() GoogleDatastreamConnectionProfileBigqueryProfileOutputReference
@@ -35,6 +35,9 @@ type GoogleDatastreamConnectionProfile interface {
 	CreateWithoutValidation() interface{}
 	SetCreateWithoutValidation(val interface{})
 	CreateWithoutValidationInput() interface{}
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -166,6 +169,7 @@ type GoogleDatastreamConnectionProfile interface {
 	PutTimeouts(value *GoogleDatastreamConnectionProfileTimeouts)
 	ResetBigqueryProfile()
 	ResetCreateWithoutValidation()
+	ResetDeletionPolicy()
 	ResetForwardSshConnectivity()
 	ResetGcsProfile()
 	ResetId()
@@ -305,6 +309,26 @@ func (j *jsiiProxy_GoogleDatastreamConnectionProfile) CreateWithoutValidationInp
 	_jsii_.Get(
 		j,
 		"createWithoutValidationInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDatastreamConnectionProfile) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDatastreamConnectionProfile) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -781,7 +805,7 @@ func (j *jsiiProxy_GoogleDatastreamConnectionProfile) TimeoutsInput() interface{
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_connection_profile google_datastream_connection_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_connection_profile google_datastream_connection_profile} Resource.
 func NewGoogleDatastreamConnectionProfile(scope constructs.Construct, id *string, config *GoogleDatastreamConnectionProfileConfig) GoogleDatastreamConnectionProfile {
 	_init_.Initialize()
 
@@ -799,7 +823,7 @@ func NewGoogleDatastreamConnectionProfile(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_connection_profile google_datastream_connection_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_connection_profile google_datastream_connection_profile} Resource.
 func NewGoogleDatastreamConnectionProfile_Override(g GoogleDatastreamConnectionProfile, scope constructs.Construct, id *string, config *GoogleDatastreamConnectionProfileConfig) {
 	_init_.Initialize()
 
@@ -850,6 +874,17 @@ func (j *jsiiProxy_GoogleDatastreamConnectionProfile)SetCreateWithoutValidation(
 	_jsii_.Set(
 		j,
 		"createWithoutValidation",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleDatastreamConnectionProfile)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1452,6 +1487,14 @@ func (g *jsiiProxy_GoogleDatastreamConnectionProfile) ResetCreateWithoutValidati
 	_jsii_.InvokeVoid(
 		g,
 		"resetCreateWithoutValidation",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleDatastreamConnectionProfile) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

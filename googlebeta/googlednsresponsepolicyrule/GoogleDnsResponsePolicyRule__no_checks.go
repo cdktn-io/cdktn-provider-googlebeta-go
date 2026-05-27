@@ -111,6 +111,10 @@ func (j *jsiiProxy_GoogleDnsResponsePolicyRule) validateSetCountParameters(val i
 	return nil
 }
 
+func (j *jsiiProxy_GoogleDnsResponsePolicyRule) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleDnsResponsePolicyRule) validateSetDnsNameParameters(val *string) error {
 	return nil
 }

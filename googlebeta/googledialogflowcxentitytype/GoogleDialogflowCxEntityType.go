@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dialogflow_cx_entity_type google_dialogflow_cx_entity_type}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dialogflow_cx_entity_type google_dialogflow_cx_entity_type}.
 type GoogleDialogflowCxEntityType interface {
 	cdktn.TerraformResource
 	AutoExpansionMode() *string
@@ -30,6 +30,9 @@ type GoogleDialogflowCxEntityType interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -139,6 +142,7 @@ type GoogleDialogflowCxEntityType interface {
 	PutExcludedPhrases(value interface{})
 	PutTimeouts(value *GoogleDialogflowCxEntityTypeTimeouts)
 	ResetAutoExpansionMode()
+	ResetDeletionPolicy()
 	ResetEnableFuzzyExtraction()
 	ResetExcludedPhrases()
 	ResetId()
@@ -231,6 +235,26 @@ func (j *jsiiProxy_GoogleDialogflowCxEntityType) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDialogflowCxEntityType) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDialogflowCxEntityType) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -567,7 +591,7 @@ func (j *jsiiProxy_GoogleDialogflowCxEntityType) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dialogflow_cx_entity_type google_dialogflow_cx_entity_type} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dialogflow_cx_entity_type google_dialogflow_cx_entity_type} Resource.
 func NewGoogleDialogflowCxEntityType(scope constructs.Construct, id *string, config *GoogleDialogflowCxEntityTypeConfig) GoogleDialogflowCxEntityType {
 	_init_.Initialize()
 
@@ -585,7 +609,7 @@ func NewGoogleDialogflowCxEntityType(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dialogflow_cx_entity_type google_dialogflow_cx_entity_type} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dialogflow_cx_entity_type google_dialogflow_cx_entity_type} Resource.
 func NewGoogleDialogflowCxEntityType_Override(g GoogleDialogflowCxEntityType, scope constructs.Construct, id *string, config *GoogleDialogflowCxEntityTypeConfig) {
 	_init_.Initialize()
 
@@ -625,6 +649,17 @@ func (j *jsiiProxy_GoogleDialogflowCxEntityType)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleDialogflowCxEntityType)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1142,6 +1177,14 @@ func (g *jsiiProxy_GoogleDialogflowCxEntityType) ResetAutoExpansionMode() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetAutoExpansionMode",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleDialogflowCxEntityType) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

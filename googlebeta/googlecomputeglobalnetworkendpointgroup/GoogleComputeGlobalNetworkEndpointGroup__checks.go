@@ -356,6 +356,14 @@ func (j *jsiiProxy_GoogleComputeGlobalNetworkEndpointGroup) validateSetDefaultPo
 	return nil
 }
 
+func (j *jsiiProxy_GoogleComputeGlobalNetworkEndpointGroup) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_GoogleComputeGlobalNetworkEndpointGroup) validateSetDescriptionParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_notebooks_environment google_notebooks_environment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_notebooks_environment google_notebooks_environment}.
 type GoogleNotebooksEnvironment interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -30,6 +30,9 @@ type GoogleNotebooksEnvironment interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -136,6 +139,7 @@ type GoogleNotebooksEnvironment interface {
 	PutTimeouts(value *GoogleNotebooksEnvironmentTimeouts)
 	PutVmImage(value *GoogleNotebooksEnvironmentVmImage)
 	ResetContainerImage()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetDisplayName()
 	ResetId()
@@ -238,6 +242,26 @@ func (j *jsiiProxy_GoogleNotebooksEnvironment) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleNotebooksEnvironment) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleNotebooksEnvironment) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -544,7 +568,7 @@ func (j *jsiiProxy_GoogleNotebooksEnvironment) VmImageInput() *GoogleNotebooksEn
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_notebooks_environment google_notebooks_environment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_notebooks_environment google_notebooks_environment} Resource.
 func NewGoogleNotebooksEnvironment(scope constructs.Construct, id *string, config *GoogleNotebooksEnvironmentConfig) GoogleNotebooksEnvironment {
 	_init_.Initialize()
 
@@ -562,7 +586,7 @@ func NewGoogleNotebooksEnvironment(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_notebooks_environment google_notebooks_environment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_notebooks_environment google_notebooks_environment} Resource.
 func NewGoogleNotebooksEnvironment_Override(g GoogleNotebooksEnvironment, scope constructs.Construct, id *string, config *GoogleNotebooksEnvironmentConfig) {
 	_init_.Initialize()
 
@@ -591,6 +615,17 @@ func (j *jsiiProxy_GoogleNotebooksEnvironment)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleNotebooksEnvironment)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1108,6 +1143,14 @@ func (g *jsiiProxy_GoogleNotebooksEnvironment) ResetContainerImage() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetContainerImage",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleNotebooksEnvironment) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

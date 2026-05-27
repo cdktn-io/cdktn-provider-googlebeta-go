@@ -107,6 +107,10 @@ func (j *jsiiProxy_GoogleCloudIdentityGroup) validateSetCountParameters(val inte
 	return nil
 }
 
+func (j *jsiiProxy_GoogleCloudIdentityGroup) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleCloudIdentityGroup) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

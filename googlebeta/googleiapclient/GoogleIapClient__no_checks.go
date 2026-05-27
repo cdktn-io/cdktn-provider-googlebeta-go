@@ -107,6 +107,10 @@ func (j *jsiiProxy_GoogleIapClient) validateSetCountParameters(val interface{}) 
 	return nil
 }
 
+func (j *jsiiProxy_GoogleIapClient) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleIapClient) validateSetDisplayNameParameters(val *string) error {
 	return nil
 }

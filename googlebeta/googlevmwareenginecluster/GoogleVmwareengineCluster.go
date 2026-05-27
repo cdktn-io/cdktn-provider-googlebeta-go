@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vmwareengine_cluster google_vmwareengine_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vmwareengine_cluster google_vmwareengine_cluster}.
 type GoogleVmwareengineCluster interface {
 	cdktn.TerraformResource
 	AutoscalingSettings() GoogleVmwareengineClusterAutoscalingSettingsOutputReference
@@ -32,6 +32,9 @@ type GoogleVmwareengineCluster interface {
 	CreateTime() *string
 	DatastoreMountConfig() GoogleVmwareengineClusterDatastoreMountConfigList
 	DatastoreMountConfigInput() interface{}
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -132,6 +135,7 @@ type GoogleVmwareengineCluster interface {
 	PutTimeouts(value *GoogleVmwareengineClusterTimeouts)
 	ResetAutoscalingSettings()
 	ResetDatastoreMountConfig()
+	ResetDeletionPolicy()
 	ResetId()
 	ResetNodeTypeConfigs()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -250,6 +254,26 @@ func (j *jsiiProxy_GoogleVmwareengineCluster) DatastoreMountConfigInput() interf
 	_jsii_.Get(
 		j,
 		"datastoreMountConfigInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleVmwareengineCluster) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleVmwareengineCluster) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -516,7 +540,7 @@ func (j *jsiiProxy_GoogleVmwareengineCluster) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vmwareengine_cluster google_vmwareengine_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vmwareengine_cluster google_vmwareengine_cluster} Resource.
 func NewGoogleVmwareengineCluster(scope constructs.Construct, id *string, config *GoogleVmwareengineClusterConfig) GoogleVmwareengineCluster {
 	_init_.Initialize()
 
@@ -534,7 +558,7 @@ func NewGoogleVmwareengineCluster(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vmwareengine_cluster google_vmwareengine_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vmwareengine_cluster google_vmwareengine_cluster} Resource.
 func NewGoogleVmwareengineCluster_Override(g GoogleVmwareengineCluster, scope constructs.Construct, id *string, config *GoogleVmwareengineClusterConfig) {
 	_init_.Initialize()
 
@@ -563,6 +587,17 @@ func (j *jsiiProxy_GoogleVmwareengineCluster)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleVmwareengineCluster)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1055,6 +1090,14 @@ func (g *jsiiProxy_GoogleVmwareengineCluster) ResetDatastoreMountConfig() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetDatastoreMountConfig",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleVmwareengineCluster) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

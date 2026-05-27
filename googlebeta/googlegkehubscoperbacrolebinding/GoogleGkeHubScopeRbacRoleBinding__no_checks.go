@@ -107,6 +107,10 @@ func (j *jsiiProxy_GoogleGkeHubScopeRbacRoleBinding) validateSetCountParameters(
 	return nil
 }
 
+func (j *jsiiProxy_GoogleGkeHubScopeRbacRoleBinding) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleGkeHubScopeRbacRoleBinding) validateSetGroupParameters(val *string) error {
 	return nil
 }

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_os_config_v2_policy_orchestrator google_os_config_v2_policy_orchestrator}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator google_os_config_v2_policy_orchestrator}.
 type GoogleOsConfigV2PolicyOrchestrator interface {
 	cdktn.TerraformResource
 	Action() *string
@@ -31,6 +31,9 @@ type GoogleOsConfigV2PolicyOrchestrator interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -141,6 +144,7 @@ type GoogleOsConfigV2PolicyOrchestrator interface {
 	PutOrchestratedResource(value *GoogleOsConfigV2PolicyOrchestratorOrchestratedResource)
 	PutOrchestrationScope(value *GoogleOsConfigV2PolicyOrchestratorOrchestrationScope)
 	PutTimeouts(value *GoogleOsConfigV2PolicyOrchestratorTimeouts)
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	ResetLabels()
@@ -243,6 +247,26 @@ func (j *jsiiProxy_GoogleOsConfigV2PolicyOrchestrator) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleOsConfigV2PolicyOrchestrator) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleOsConfigV2PolicyOrchestrator) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -609,7 +633,7 @@ func (j *jsiiProxy_GoogleOsConfigV2PolicyOrchestrator) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_os_config_v2_policy_orchestrator google_os_config_v2_policy_orchestrator} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator google_os_config_v2_policy_orchestrator} Resource.
 func NewGoogleOsConfigV2PolicyOrchestrator(scope constructs.Construct, id *string, config *GoogleOsConfigV2PolicyOrchestratorConfig) GoogleOsConfigV2PolicyOrchestrator {
 	_init_.Initialize()
 
@@ -627,7 +651,7 @@ func NewGoogleOsConfigV2PolicyOrchestrator(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_os_config_v2_policy_orchestrator google_os_config_v2_policy_orchestrator} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator google_os_config_v2_policy_orchestrator} Resource.
 func NewGoogleOsConfigV2PolicyOrchestrator_Override(g GoogleOsConfigV2PolicyOrchestrator, scope constructs.Construct, id *string, config *GoogleOsConfigV2PolicyOrchestratorConfig) {
 	_init_.Initialize()
 
@@ -667,6 +691,17 @@ func (j *jsiiProxy_GoogleOsConfigV2PolicyOrchestrator)SetCount(val interface{}) 
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleOsConfigV2PolicyOrchestrator)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1166,6 +1201,14 @@ func (g *jsiiProxy_GoogleOsConfigV2PolicyOrchestrator) PutTimeouts(value *Google
 		g,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleOsConfigV2PolicyOrchestrator) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

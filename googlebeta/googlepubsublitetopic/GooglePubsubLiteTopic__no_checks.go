@@ -115,6 +115,10 @@ func (j *jsiiProxy_GooglePubsubLiteTopic) validateSetCountParameters(val interfa
 	return nil
 }
 
+func (j *jsiiProxy_GooglePubsubLiteTopic) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GooglePubsubLiteTopic) validateSetIdParameters(val *string) error {
 	return nil
 }

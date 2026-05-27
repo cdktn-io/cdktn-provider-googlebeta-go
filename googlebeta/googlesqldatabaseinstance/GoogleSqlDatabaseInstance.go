@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_sql_database_instance google_sql_database_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_sql_database_instance google_sql_database_instance}.
 type GoogleSqlDatabaseInstance interface {
 	cdktn.TerraformResource
 	AvailableMaintenanceVersions() *[]*string
@@ -37,6 +37,9 @@ type GoogleSqlDatabaseInstance interface {
 	DatabaseVersion() *string
 	SetDatabaseVersion(val *string)
 	DatabaseVersionInput() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	DeletionProtection() interface{}
 	SetDeletionProtection(val interface{})
 	DeletionProtectionInput() interface{}
@@ -190,6 +193,7 @@ type GoogleSqlDatabaseInstance interface {
 	PutTimeouts(value *GoogleSqlDatabaseInstanceTimeouts)
 	ResetBackupdrBackup()
 	ResetClone()
+	ResetDeletionPolicy()
 	ResetDeletionProtection()
 	ResetEncryptionKeyName()
 	ResetFinalBackupDescription()
@@ -356,6 +360,26 @@ func (j *jsiiProxy_GoogleSqlDatabaseInstance) DatabaseVersionInput() *string {
 	_jsii_.Get(
 		j,
 		"databaseVersionInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleSqlDatabaseInstance) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleSqlDatabaseInstance) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -1002,7 +1026,7 @@ func (j *jsiiProxy_GoogleSqlDatabaseInstance) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_sql_database_instance google_sql_database_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_sql_database_instance google_sql_database_instance} Resource.
 func NewGoogleSqlDatabaseInstance(scope constructs.Construct, id *string, config *GoogleSqlDatabaseInstanceConfig) GoogleSqlDatabaseInstance {
 	_init_.Initialize()
 
@@ -1020,7 +1044,7 @@ func NewGoogleSqlDatabaseInstance(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_sql_database_instance google_sql_database_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_sql_database_instance google_sql_database_instance} Resource.
 func NewGoogleSqlDatabaseInstance_Override(g GoogleSqlDatabaseInstance, scope constructs.Construct, id *string, config *GoogleSqlDatabaseInstanceConfig) {
 	_init_.Initialize()
 
@@ -1071,6 +1095,17 @@ func (j *jsiiProxy_GoogleSqlDatabaseInstance)SetDatabaseVersion(val *string) {
 	_jsii_.Set(
 		j,
 		"databaseVersion",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleSqlDatabaseInstance)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1728,6 +1763,14 @@ func (g *jsiiProxy_GoogleSqlDatabaseInstance) ResetClone() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetClone",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleSqlDatabaseInstance) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

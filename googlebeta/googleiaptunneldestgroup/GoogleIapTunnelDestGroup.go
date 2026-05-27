@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iap_tunnel_dest_group google_iap_tunnel_dest_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_iap_tunnel_dest_group google_iap_tunnel_dest_group}.
 type GoogleIapTunnelDestGroup interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -30,6 +30,9 @@ type GoogleIapTunnelDestGroup interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -127,6 +130,7 @@ type GoogleIapTunnelDestGroup interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *GoogleIapTunnelDestGroupTimeouts)
 	ResetCidrs()
+	ResetDeletionPolicy()
 	ResetFqdns()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -217,6 +221,26 @@ func (j *jsiiProxy_GoogleIapTunnelDestGroup) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleIapTunnelDestGroup) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleIapTunnelDestGroup) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -473,7 +497,7 @@ func (j *jsiiProxy_GoogleIapTunnelDestGroup) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iap_tunnel_dest_group google_iap_tunnel_dest_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_iap_tunnel_dest_group google_iap_tunnel_dest_group} Resource.
 func NewGoogleIapTunnelDestGroup(scope constructs.Construct, id *string, config *GoogleIapTunnelDestGroupConfig) GoogleIapTunnelDestGroup {
 	_init_.Initialize()
 
@@ -491,7 +515,7 @@ func NewGoogleIapTunnelDestGroup(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iap_tunnel_dest_group google_iap_tunnel_dest_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_iap_tunnel_dest_group google_iap_tunnel_dest_group} Resource.
 func NewGoogleIapTunnelDestGroup_Override(g GoogleIapTunnelDestGroup, scope constructs.Construct, id *string, config *GoogleIapTunnelDestGroupConfig) {
 	_init_.Initialize()
 
@@ -531,6 +555,17 @@ func (j *jsiiProxy_GoogleIapTunnelDestGroup)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleIapTunnelDestGroup)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1004,6 +1039,14 @@ func (g *jsiiProxy_GoogleIapTunnelDestGroup) ResetCidrs() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetCidrs",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleIapTunnelDestGroup) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

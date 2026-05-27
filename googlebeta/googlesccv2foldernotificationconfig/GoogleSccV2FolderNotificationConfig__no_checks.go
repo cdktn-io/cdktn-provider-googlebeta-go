@@ -111,6 +111,10 @@ func (j *jsiiProxy_GoogleSccV2FolderNotificationConfig) validateSetCountParamete
 	return nil
 }
 
+func (j *jsiiProxy_GoogleSccV2FolderNotificationConfig) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleSccV2FolderNotificationConfig) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

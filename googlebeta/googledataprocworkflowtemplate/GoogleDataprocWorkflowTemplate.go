@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataproc_workflow_template google_dataproc_workflow_template}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataproc_workflow_template google_dataproc_workflow_template}.
 type GoogleDataprocWorkflowTemplate interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -31,6 +31,9 @@ type GoogleDataprocWorkflowTemplate interface {
 	DagTimeout() *string
 	SetDagTimeout(val *string)
 	DagTimeoutInput() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -145,6 +148,7 @@ type GoogleDataprocWorkflowTemplate interface {
 	PutPlacement(value *GoogleDataprocWorkflowTemplatePlacement)
 	PutTimeouts(value *GoogleDataprocWorkflowTemplateTimeouts)
 	ResetDagTimeout()
+	ResetDeletionPolicy()
 	ResetEncryptionConfig()
 	ResetId()
 	ResetLabels()
@@ -247,6 +251,26 @@ func (j *jsiiProxy_GoogleDataprocWorkflowTemplate) DagTimeoutInput() *string {
 	_jsii_.Get(
 		j,
 		"dagTimeoutInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDataprocWorkflowTemplate) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDataprocWorkflowTemplate) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -623,7 +647,7 @@ func (j *jsiiProxy_GoogleDataprocWorkflowTemplate) VersionInput() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataproc_workflow_template google_dataproc_workflow_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataproc_workflow_template google_dataproc_workflow_template} Resource.
 func NewGoogleDataprocWorkflowTemplate(scope constructs.Construct, id *string, config *GoogleDataprocWorkflowTemplateConfig) GoogleDataprocWorkflowTemplate {
 	_init_.Initialize()
 
@@ -641,7 +665,7 @@ func NewGoogleDataprocWorkflowTemplate(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataproc_workflow_template google_dataproc_workflow_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataproc_workflow_template google_dataproc_workflow_template} Resource.
 func NewGoogleDataprocWorkflowTemplate_Override(g GoogleDataprocWorkflowTemplate, scope constructs.Construct, id *string, config *GoogleDataprocWorkflowTemplateConfig) {
 	_init_.Initialize()
 
@@ -681,6 +705,17 @@ func (j *jsiiProxy_GoogleDataprocWorkflowTemplate)SetDagTimeout(val *string) {
 	_jsii_.Set(
 		j,
 		"dagTimeout",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleDataprocWorkflowTemplate)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1209,6 +1244,14 @@ func (g *jsiiProxy_GoogleDataprocWorkflowTemplate) ResetDagTimeout() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetDagTimeout",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleDataprocWorkflowTemplate) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vpc_access_connector google_vpc_access_connector}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vpc_access_connector google_vpc_access_connector}.
 type GoogleVpcAccessConnector interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -28,6 +28,9 @@ type GoogleVpcAccessConnector interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -146,6 +149,7 @@ type GoogleVpcAccessConnector interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutSubnet(value *GoogleVpcAccessConnectorSubnet)
 	PutTimeouts(value *GoogleVpcAccessConnectorTimeouts)
+	ResetDeletionPolicy()
 	ResetId()
 	ResetIpCidrRange()
 	ResetMachineType()
@@ -233,6 +237,26 @@ func (j *jsiiProxy_GoogleVpcAccessConnector) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleVpcAccessConnector) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleVpcAccessConnector) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -639,7 +663,7 @@ func (j *jsiiProxy_GoogleVpcAccessConnector) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vpc_access_connector google_vpc_access_connector} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vpc_access_connector google_vpc_access_connector} Resource.
 func NewGoogleVpcAccessConnector(scope constructs.Construct, id *string, config *GoogleVpcAccessConnectorConfig) GoogleVpcAccessConnector {
 	_init_.Initialize()
 
@@ -657,7 +681,7 @@ func NewGoogleVpcAccessConnector(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vpc_access_connector google_vpc_access_connector} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vpc_access_connector google_vpc_access_connector} Resource.
 func NewGoogleVpcAccessConnector_Override(g GoogleVpcAccessConnector, scope constructs.Construct, id *string, config *GoogleVpcAccessConnectorConfig) {
 	_init_.Initialize()
 
@@ -686,6 +710,17 @@ func (j *jsiiProxy_GoogleVpcAccessConnector)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleVpcAccessConnector)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1229,6 +1264,14 @@ func (g *jsiiProxy_GoogleVpcAccessConnector) PutTimeouts(value *GoogleVpcAccessC
 		g,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleVpcAccessConnector) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

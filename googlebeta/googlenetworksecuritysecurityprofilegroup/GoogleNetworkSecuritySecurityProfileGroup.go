@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_security_security_profile_group google_network_security_security_profile_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_security_security_profile_group google_network_security_security_profile_group}.
 type GoogleNetworkSecuritySecurityProfileGroup interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -34,6 +34,9 @@ type GoogleNetworkSecuritySecurityProfileGroup interface {
 	CustomMirroringProfile() *string
 	SetCustomMirroringProfile(val *string)
 	CustomMirroringProfileInput() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -144,6 +147,7 @@ type GoogleNetworkSecuritySecurityProfileGroup interface {
 	PutTimeouts(value *GoogleNetworkSecuritySecurityProfileGroupTimeouts)
 	ResetCustomInterceptProfile()
 	ResetCustomMirroringProfile()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	ResetLabels()
@@ -267,6 +271,26 @@ func (j *jsiiProxy_GoogleNetworkSecuritySecurityProfileGroup) CustomMirroringPro
 	_jsii_.Get(
 		j,
 		"customMirroringProfileInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleNetworkSecuritySecurityProfileGroup) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleNetworkSecuritySecurityProfileGroup) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -613,7 +637,7 @@ func (j *jsiiProxy_GoogleNetworkSecuritySecurityProfileGroup) UrlFilteringProfil
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_security_security_profile_group google_network_security_security_profile_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_security_security_profile_group google_network_security_security_profile_group} Resource.
 func NewGoogleNetworkSecuritySecurityProfileGroup(scope constructs.Construct, id *string, config *GoogleNetworkSecuritySecurityProfileGroupConfig) GoogleNetworkSecuritySecurityProfileGroup {
 	_init_.Initialize()
 
@@ -631,7 +655,7 @@ func NewGoogleNetworkSecuritySecurityProfileGroup(scope constructs.Construct, id
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_security_security_profile_group google_network_security_security_profile_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_security_security_profile_group google_network_security_security_profile_group} Resource.
 func NewGoogleNetworkSecuritySecurityProfileGroup_Override(g GoogleNetworkSecuritySecurityProfileGroup, scope constructs.Construct, id *string, config *GoogleNetworkSecuritySecurityProfileGroupConfig) {
 	_init_.Initialize()
 
@@ -682,6 +706,17 @@ func (j *jsiiProxy_GoogleNetworkSecuritySecurityProfileGroup)SetCustomMirroringP
 	_jsii_.Set(
 		j,
 		"customMirroringProfile",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleNetworkSecuritySecurityProfileGroup)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1196,6 +1231,14 @@ func (g *jsiiProxy_GoogleNetworkSecuritySecurityProfileGroup) ResetCustomMirrori
 	_jsii_.InvokeVoid(
 		g,
 		"resetCustomMirroringProfile",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleNetworkSecuritySecurityProfileGroup) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

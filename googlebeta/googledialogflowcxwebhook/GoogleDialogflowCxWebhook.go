@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dialogflow_cx_webhook google_dialogflow_cx_webhook}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dialogflow_cx_webhook google_dialogflow_cx_webhook}.
 type GoogleDialogflowCxWebhook interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -27,6 +27,9 @@ type GoogleDialogflowCxWebhook interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -139,6 +142,7 @@ type GoogleDialogflowCxWebhook interface {
 	PutGenericWebService(value *GoogleDialogflowCxWebhookGenericWebService)
 	PutServiceDirectory(value *GoogleDialogflowCxWebhookServiceDirectory)
 	PutTimeouts(value *GoogleDialogflowCxWebhookTimeouts)
+	ResetDeletionPolicy()
 	ResetDisabled()
 	ResetEnableSpellCorrection()
 	ResetEnableStackdriverLogging()
@@ -214,6 +218,26 @@ func (j *jsiiProxy_GoogleDialogflowCxWebhook) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDialogflowCxWebhook) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDialogflowCxWebhook) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -580,7 +604,7 @@ func (j *jsiiProxy_GoogleDialogflowCxWebhook) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dialogflow_cx_webhook google_dialogflow_cx_webhook} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dialogflow_cx_webhook google_dialogflow_cx_webhook} Resource.
 func NewGoogleDialogflowCxWebhook(scope constructs.Construct, id *string, config *GoogleDialogflowCxWebhookConfig) GoogleDialogflowCxWebhook {
 	_init_.Initialize()
 
@@ -598,7 +622,7 @@ func NewGoogleDialogflowCxWebhook(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dialogflow_cx_webhook google_dialogflow_cx_webhook} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dialogflow_cx_webhook google_dialogflow_cx_webhook} Resource.
 func NewGoogleDialogflowCxWebhook_Override(g GoogleDialogflowCxWebhook, scope constructs.Construct, id *string, config *GoogleDialogflowCxWebhookConfig) {
 	_init_.Initialize()
 
@@ -627,6 +651,17 @@ func (j *jsiiProxy_GoogleDialogflowCxWebhook)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleDialogflowCxWebhook)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1148,6 +1183,14 @@ func (g *jsiiProxy_GoogleDialogflowCxWebhook) PutTimeouts(value *GoogleDialogflo
 		g,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleDialogflowCxWebhook) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

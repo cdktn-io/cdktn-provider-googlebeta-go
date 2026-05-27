@@ -30,6 +30,7 @@ type DataGoogleCloudIdentityGroupsGroupsOutputReference interface {
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
+	DeletionPolicy() *string
 	Description() *string
 	DisplayName() *string
 	// Experimental.
@@ -134,6 +135,16 @@ func (j *jsiiProxy_DataGoogleCloudIdentityGroupsGroupsOutputReference) CreationS
 	_jsii_.Get(
 		j,
 		"creationStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleCloudIdentityGroupsGroupsOutputReference) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
 		&returns,
 	)
 	return returns

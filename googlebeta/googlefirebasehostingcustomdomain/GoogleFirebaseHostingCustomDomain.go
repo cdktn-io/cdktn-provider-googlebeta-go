@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_firebase_hosting_custom_domain google_firebase_hosting_custom_domain}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_firebase_hosting_custom_domain google_firebase_hosting_custom_domain}.
 type GoogleFirebaseHostingCustomDomain interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -36,6 +36,9 @@ type GoogleFirebaseHostingCustomDomain interface {
 	SetCustomDomain(val *string)
 	CustomDomainInput() *string
 	DeleteTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -141,6 +144,7 @@ type GoogleFirebaseHostingCustomDomain interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *GoogleFirebaseHostingCustomDomainTimeouts)
 	ResetCertPreference()
+	ResetDeletionPolicy()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -281,6 +285,26 @@ func (j *jsiiProxy_GoogleFirebaseHostingCustomDomain) DeleteTime() *string {
 	_jsii_.Get(
 		j,
 		"deleteTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleFirebaseHostingCustomDomain) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleFirebaseHostingCustomDomain) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -617,7 +641,7 @@ func (j *jsiiProxy_GoogleFirebaseHostingCustomDomain) WaitDnsVerificationInput()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_firebase_hosting_custom_domain google_firebase_hosting_custom_domain} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_firebase_hosting_custom_domain google_firebase_hosting_custom_domain} Resource.
 func NewGoogleFirebaseHostingCustomDomain(scope constructs.Construct, id *string, config *GoogleFirebaseHostingCustomDomainConfig) GoogleFirebaseHostingCustomDomain {
 	_init_.Initialize()
 
@@ -635,7 +659,7 @@ func NewGoogleFirebaseHostingCustomDomain(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_firebase_hosting_custom_domain google_firebase_hosting_custom_domain} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_firebase_hosting_custom_domain google_firebase_hosting_custom_domain} Resource.
 func NewGoogleFirebaseHostingCustomDomain_Override(g GoogleFirebaseHostingCustomDomain, scope constructs.Construct, id *string, config *GoogleFirebaseHostingCustomDomainConfig) {
 	_init_.Initialize()
 
@@ -686,6 +710,17 @@ func (j *jsiiProxy_GoogleFirebaseHostingCustomDomain)SetCustomDomain(val *string
 	_jsii_.Set(
 		j,
 		"customDomain",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleFirebaseHostingCustomDomain)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1159,6 +1194,14 @@ func (g *jsiiProxy_GoogleFirebaseHostingCustomDomain) ResetCertPreference() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetCertPreference",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleFirebaseHostingCustomDomain) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

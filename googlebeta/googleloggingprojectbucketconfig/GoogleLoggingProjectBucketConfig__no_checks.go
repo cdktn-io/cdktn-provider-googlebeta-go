@@ -111,6 +111,10 @@ func (j *jsiiProxy_GoogleLoggingProjectBucketConfig) validateSetCountParameters(
 	return nil
 }
 
+func (j *jsiiProxy_GoogleLoggingProjectBucketConfig) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleLoggingProjectBucketConfig) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

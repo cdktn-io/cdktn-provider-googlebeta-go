@@ -115,6 +115,10 @@ func (j *jsiiProxy_GoogleGkeHubRolloutSequence) validateSetCountParameters(val i
 	return nil
 }
 
+func (j *jsiiProxy_GoogleGkeHubRolloutSequence) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleGkeHubRolloutSequence) validateSetDisplayNameParameters(val *string) error {
 	return nil
 }

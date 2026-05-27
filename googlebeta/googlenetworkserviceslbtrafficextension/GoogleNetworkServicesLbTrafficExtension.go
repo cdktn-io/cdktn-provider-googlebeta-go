@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_services_lb_traffic_extension google_network_services_lb_traffic_extension}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_services_lb_traffic_extension google_network_services_lb_traffic_extension}.
 type GoogleNetworkServicesLbTrafficExtension interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -27,6 +27,9 @@ type GoogleNetworkServicesLbTrafficExtension interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -136,6 +139,7 @@ type GoogleNetworkServicesLbTrafficExtension interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutExtensionChains(value interface{})
 	PutTimeouts(value *GoogleNetworkServicesLbTrafficExtensionTimeouts)
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	ResetLabels()
@@ -206,6 +210,26 @@ func (j *jsiiProxy_GoogleNetworkServicesLbTrafficExtension) Count() interface{} 
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleNetworkServicesLbTrafficExtension) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleNetworkServicesLbTrafficExtension) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -552,7 +576,7 @@ func (j *jsiiProxy_GoogleNetworkServicesLbTrafficExtension) TimeoutsInput() inte
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_services_lb_traffic_extension google_network_services_lb_traffic_extension} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_services_lb_traffic_extension google_network_services_lb_traffic_extension} Resource.
 func NewGoogleNetworkServicesLbTrafficExtension(scope constructs.Construct, id *string, config *GoogleNetworkServicesLbTrafficExtensionConfig) GoogleNetworkServicesLbTrafficExtension {
 	_init_.Initialize()
 
@@ -570,7 +594,7 @@ func NewGoogleNetworkServicesLbTrafficExtension(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_services_lb_traffic_extension google_network_services_lb_traffic_extension} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_services_lb_traffic_extension google_network_services_lb_traffic_extension} Resource.
 func NewGoogleNetworkServicesLbTrafficExtension_Override(g GoogleNetworkServicesLbTrafficExtension, scope constructs.Construct, id *string, config *GoogleNetworkServicesLbTrafficExtensionConfig) {
 	_init_.Initialize()
 
@@ -599,6 +623,17 @@ func (j *jsiiProxy_GoogleNetworkServicesLbTrafficExtension)SetCount(val interfac
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleNetworkServicesLbTrafficExtension)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1109,6 +1144,14 @@ func (g *jsiiProxy_GoogleNetworkServicesLbTrafficExtension) PutTimeouts(value *G
 		g,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleNetworkServicesLbTrafficExtension) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

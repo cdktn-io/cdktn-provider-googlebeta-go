@@ -103,6 +103,10 @@ func (j *jsiiProxy_GoogleKmsKeyRingImportJob) validateSetCountParameters(val int
 	return nil
 }
 
+func (j *jsiiProxy_GoogleKmsKeyRingImportJob) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleKmsKeyRingImportJob) validateSetIdParameters(val *string) error {
 	return nil
 }

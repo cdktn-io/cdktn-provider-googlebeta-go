@@ -23,6 +23,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "datasetConfigId", GoGetter: "DatasetConfigId"},
 			_jsii_.MemberProperty{JsiiProperty: "datasetConfigIdInput", GoGetter: "DatasetConfigIdInput"},
 			_jsii_.MemberProperty{JsiiProperty: "datasetConfigState", GoGetter: "DatasetConfigState"},
+			_jsii_.MemberProperty{JsiiProperty: "deletionPolicy", GoGetter: "DeletionPolicy"},
 			_jsii_.MemberProperty{JsiiProperty: "dependsOn", GoGetter: "DependsOn"},
 			_jsii_.MemberProperty{JsiiProperty: "description", GoGetter: "Description"},
 			_jsii_.MemberProperty{JsiiProperty: "excludeCloudStorageBuckets", GoGetter: "ExcludeCloudStorageBuckets"},

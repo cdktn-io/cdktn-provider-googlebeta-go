@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_compute_router_nat google_compute_router_nat}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/data-sources/google_compute_router_nat google_compute_router_nat}.
 type DataGoogleComputeRouterNat interface {
 	cdktn.TerraformDataSource
 	AutoNetworkTier() *string
@@ -24,6 +24,7 @@ type DataGoogleComputeRouterNat interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -184,6 +185,16 @@ func (j *jsiiProxy_DataGoogleComputeRouterNat) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleComputeRouterNat) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
 		&returns,
 	)
 	return returns
@@ -610,7 +621,7 @@ func (j *jsiiProxy_DataGoogleComputeRouterNat) UdpIdleTimeoutSec() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_compute_router_nat google_compute_router_nat} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/data-sources/google_compute_router_nat google_compute_router_nat} Data Source.
 func NewDataGoogleComputeRouterNat(scope constructs.Construct, id *string, config *DataGoogleComputeRouterNatConfig) DataGoogleComputeRouterNat {
 	_init_.Initialize()
 
@@ -628,7 +639,7 @@ func NewDataGoogleComputeRouterNat(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_compute_router_nat google_compute_router_nat} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/data-sources/google_compute_router_nat google_compute_router_nat} Data Source.
 func NewDataGoogleComputeRouterNat_Override(d DataGoogleComputeRouterNat, scope constructs.Construct, id *string, config *DataGoogleComputeRouterNatConfig) {
 	_init_.Initialize()
 

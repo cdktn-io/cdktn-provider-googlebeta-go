@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_tpu_v2_queued_resource google_tpu_v2_queued_resource}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_tpu_v2_queued_resource google_tpu_v2_queued_resource}.
 type GoogleTpuV2QueuedResource interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -27,6 +27,9 @@ type GoogleTpuV2QueuedResource interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -122,6 +125,7 @@ type GoogleTpuV2QueuedResource interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *GoogleTpuV2QueuedResourceTimeouts)
 	PutTpu(value *GoogleTpuV2QueuedResourceTpu)
+	ResetDeletionPolicy()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -192,6 +196,26 @@ func (j *jsiiProxy_GoogleTpuV2QueuedResource) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleTpuV2QueuedResource) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleTpuV2QueuedResource) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -438,7 +462,7 @@ func (j *jsiiProxy_GoogleTpuV2QueuedResource) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_tpu_v2_queued_resource google_tpu_v2_queued_resource} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_tpu_v2_queued_resource google_tpu_v2_queued_resource} Resource.
 func NewGoogleTpuV2QueuedResource(scope constructs.Construct, id *string, config *GoogleTpuV2QueuedResourceConfig) GoogleTpuV2QueuedResource {
 	_init_.Initialize()
 
@@ -456,7 +480,7 @@ func NewGoogleTpuV2QueuedResource(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_tpu_v2_queued_resource google_tpu_v2_queued_resource} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_tpu_v2_queued_resource google_tpu_v2_queued_resource} Resource.
 func NewGoogleTpuV2QueuedResource_Override(g GoogleTpuV2QueuedResource, scope constructs.Construct, id *string, config *GoogleTpuV2QueuedResourceConfig) {
 	_init_.Initialize()
 
@@ -485,6 +509,17 @@ func (j *jsiiProxy_GoogleTpuV2QueuedResource)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleTpuV2QueuedResource)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -951,6 +986,14 @@ func (g *jsiiProxy_GoogleTpuV2QueuedResource) PutTpu(value *GoogleTpuV2QueuedRes
 		g,
 		"putTpu",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleTpuV2QueuedResource) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

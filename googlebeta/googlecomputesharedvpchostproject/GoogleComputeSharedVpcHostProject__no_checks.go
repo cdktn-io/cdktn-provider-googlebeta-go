@@ -103,6 +103,10 @@ func (j *jsiiProxy_GoogleComputeSharedVpcHostProject) validateSetCountParameters
 	return nil
 }
 
+func (j *jsiiProxy_GoogleComputeSharedVpcHostProject) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleComputeSharedVpcHostProject) validateSetIdParameters(val *string) error {
 	return nil
 }

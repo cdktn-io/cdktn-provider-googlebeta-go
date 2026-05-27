@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_vertex_ai_index google_vertex_ai_index}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/data-sources/google_vertex_ai_index google_vertex_ai_index}.
 type DataGoogleVertexAiIndex interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -24,6 +24,7 @@ type DataGoogleVertexAiIndex interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -172,6 +173,16 @@ func (j *jsiiProxy_DataGoogleVertexAiIndex) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleVertexAiIndex) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
 		&returns,
 	)
 	return returns
@@ -498,7 +509,7 @@ func (j *jsiiProxy_DataGoogleVertexAiIndex) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_vertex_ai_index google_vertex_ai_index} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/data-sources/google_vertex_ai_index google_vertex_ai_index} Data Source.
 func NewDataGoogleVertexAiIndex(scope constructs.Construct, id *string, config *DataGoogleVertexAiIndexConfig) DataGoogleVertexAiIndex {
 	_init_.Initialize()
 
@@ -516,7 +527,7 @@ func NewDataGoogleVertexAiIndex(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_vertex_ai_index google_vertex_ai_index} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/data-sources/google_vertex_ai_index google_vertex_ai_index} Data Source.
 func NewDataGoogleVertexAiIndex_Override(d DataGoogleVertexAiIndex, scope constructs.Construct, id *string, config *DataGoogleVertexAiIndexConfig) {
 	_init_.Initialize()
 

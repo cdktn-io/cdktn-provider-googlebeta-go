@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_workstations_workstation google_workstations_workstation}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_workstations_workstation google_workstations_workstation}.
 type GoogleWorkstationsWorkstation interface {
 	cdktn.TerraformResource
 	Annotations() *map[string]*string
@@ -31,6 +31,9 @@ type GoogleWorkstationsWorkstation interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -149,6 +152,7 @@ type GoogleWorkstationsWorkstation interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *GoogleWorkstationsWorkstationTimeouts)
 	ResetAnnotations()
+	ResetDeletionPolicy()
 	ResetDisplayName()
 	ResetEnv()
 	ResetId()
@@ -251,6 +255,26 @@ func (j *jsiiProxy_GoogleWorkstationsWorkstation) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleWorkstationsWorkstation) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleWorkstationsWorkstation) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -667,7 +691,7 @@ func (j *jsiiProxy_GoogleWorkstationsWorkstation) WorkstationIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_workstations_workstation google_workstations_workstation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_workstations_workstation google_workstations_workstation} Resource.
 func NewGoogleWorkstationsWorkstation(scope constructs.Construct, id *string, config *GoogleWorkstationsWorkstationConfig) GoogleWorkstationsWorkstation {
 	_init_.Initialize()
 
@@ -685,7 +709,7 @@ func NewGoogleWorkstationsWorkstation(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_workstations_workstation google_workstations_workstation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_workstations_workstation google_workstations_workstation} Resource.
 func NewGoogleWorkstationsWorkstation_Override(g GoogleWorkstationsWorkstation, scope constructs.Construct, id *string, config *GoogleWorkstationsWorkstationConfig) {
 	_init_.Initialize()
 
@@ -725,6 +749,17 @@ func (j *jsiiProxy_GoogleWorkstationsWorkstation)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleWorkstationsWorkstation)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1253,6 +1288,14 @@ func (g *jsiiProxy_GoogleWorkstationsWorkstation) ResetAnnotations() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetAnnotations",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleWorkstationsWorkstation) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_backup_dr_management_server google_backup_dr_management_server}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/data-sources/google_backup_dr_management_server google_backup_dr_management_server}.
 type DataGoogleBackupDrManagementServer interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -23,6 +23,7 @@ type DataGoogleBackupDrManagementServer interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -147,6 +148,16 @@ func (j *jsiiProxy_DataGoogleBackupDrManagementServer) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleBackupDrManagementServer) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
 		&returns,
 	)
 	return returns
@@ -363,7 +374,7 @@ func (j *jsiiProxy_DataGoogleBackupDrManagementServer) Type() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_backup_dr_management_server google_backup_dr_management_server} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/data-sources/google_backup_dr_management_server google_backup_dr_management_server} Data Source.
 func NewDataGoogleBackupDrManagementServer(scope constructs.Construct, id *string, config *DataGoogleBackupDrManagementServerConfig) DataGoogleBackupDrManagementServer {
 	_init_.Initialize()
 
@@ -381,7 +392,7 @@ func NewDataGoogleBackupDrManagementServer(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_backup_dr_management_server google_backup_dr_management_server} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/data-sources/google_backup_dr_management_server google_backup_dr_management_server} Data Source.
 func NewDataGoogleBackupDrManagementServer_Override(d DataGoogleBackupDrManagementServer, scope constructs.Construct, id *string, config *DataGoogleBackupDrManagementServerConfig) {
 	_init_.Initialize()
 

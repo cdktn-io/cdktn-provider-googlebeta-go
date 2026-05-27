@@ -337,6 +337,14 @@ func (j *jsiiProxy_GoogleOrganizationIamCustomRole) validateSetCountParameters(v
 	return nil
 }
 
+func (j *jsiiProxy_GoogleOrganizationIamCustomRole) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_GoogleOrganizationIamCustomRole) validateSetDescriptionParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

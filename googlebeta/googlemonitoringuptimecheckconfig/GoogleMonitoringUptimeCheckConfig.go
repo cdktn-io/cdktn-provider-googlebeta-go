@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_monitoring_uptime_check_config google_monitoring_uptime_check_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_monitoring_uptime_check_config google_monitoring_uptime_check_config}.
 type GoogleMonitoringUptimeCheckConfig interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -32,6 +32,9 @@ type GoogleMonitoringUptimeCheckConfig interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -156,6 +159,7 @@ type GoogleMonitoringUptimeCheckConfig interface {
 	PutTimeouts(value *GoogleMonitoringUptimeCheckConfigTimeouts)
 	ResetCheckerType()
 	ResetContentMatchers()
+	ResetDeletionPolicy()
 	ResetHttpCheck()
 	ResetId()
 	ResetLogCheckFailures()
@@ -273,6 +277,26 @@ func (j *jsiiProxy_GoogleMonitoringUptimeCheckConfig) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleMonitoringUptimeCheckConfig) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleMonitoringUptimeCheckConfig) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -699,7 +723,7 @@ func (j *jsiiProxy_GoogleMonitoringUptimeCheckConfig) UserLabelsInput() *map[str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_monitoring_uptime_check_config google_monitoring_uptime_check_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_monitoring_uptime_check_config google_monitoring_uptime_check_config} Resource.
 func NewGoogleMonitoringUptimeCheckConfig(scope constructs.Construct, id *string, config *GoogleMonitoringUptimeCheckConfigConfig) GoogleMonitoringUptimeCheckConfig {
 	_init_.Initialize()
 
@@ -717,7 +741,7 @@ func NewGoogleMonitoringUptimeCheckConfig(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_monitoring_uptime_check_config google_monitoring_uptime_check_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_monitoring_uptime_check_config google_monitoring_uptime_check_config} Resource.
 func NewGoogleMonitoringUptimeCheckConfig_Override(g GoogleMonitoringUptimeCheckConfig, scope constructs.Construct, id *string, config *GoogleMonitoringUptimeCheckConfigConfig) {
 	_init_.Initialize()
 
@@ -757,6 +781,17 @@ func (j *jsiiProxy_GoogleMonitoringUptimeCheckConfig)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleMonitoringUptimeCheckConfig)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1337,6 +1372,14 @@ func (g *jsiiProxy_GoogleMonitoringUptimeCheckConfig) ResetContentMatchers() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetContentMatchers",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleMonitoringUptimeCheckConfig) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

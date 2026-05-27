@@ -107,6 +107,10 @@ func (j *jsiiProxy_GoogleProjectService) validateSetCountParameters(val interfac
 	return nil
 }
 
+func (j *jsiiProxy_GoogleProjectService) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleProjectService) validateSetDisableDependentServicesParameters(val interface{}) error {
 	return nil
 }

@@ -127,6 +127,10 @@ func (j *jsiiProxy_GoogleDataprocGdcSparkApplication) validateSetCountParameters
 	return nil
 }
 
+func (j *jsiiProxy_GoogleDataprocGdcSparkApplication) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleDataprocGdcSparkApplication) validateSetDependencyImagesParameters(val *[]*string) error {
 	return nil
 }

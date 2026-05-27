@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_managed_kafka_acl google_managed_kafka_acl}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_managed_kafka_acl google_managed_kafka_acl}.
 type GoogleManagedKafkaAcl interface {
 	cdktn.TerraformResource
 	AclEntries() GoogleManagedKafkaAclAclEntriesList
@@ -35,6 +35,9 @@ type GoogleManagedKafkaAcl interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -130,6 +133,7 @@ type GoogleManagedKafkaAcl interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutAclEntries(value interface{})
 	PutTimeouts(value *GoogleManagedKafkaAclTimeouts)
+	ResetDeletionPolicy()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -258,6 +262,26 @@ func (j *jsiiProxy_GoogleManagedKafkaAcl) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleManagedKafkaAcl) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleManagedKafkaAcl) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -514,7 +538,7 @@ func (j *jsiiProxy_GoogleManagedKafkaAcl) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_managed_kafka_acl google_managed_kafka_acl} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_managed_kafka_acl google_managed_kafka_acl} Resource.
 func NewGoogleManagedKafkaAcl(scope constructs.Construct, id *string, config *GoogleManagedKafkaAclConfig) GoogleManagedKafkaAcl {
 	_init_.Initialize()
 
@@ -532,7 +556,7 @@ func NewGoogleManagedKafkaAcl(scope constructs.Construct, id *string, config *Go
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_managed_kafka_acl google_managed_kafka_acl} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_managed_kafka_acl google_managed_kafka_acl} Resource.
 func NewGoogleManagedKafkaAcl_Override(g GoogleManagedKafkaAcl, scope constructs.Construct, id *string, config *GoogleManagedKafkaAclConfig) {
 	_init_.Initialize()
 
@@ -583,6 +607,17 @@ func (j *jsiiProxy_GoogleManagedKafkaAcl)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleManagedKafkaAcl)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1038,6 +1073,14 @@ func (g *jsiiProxy_GoogleManagedKafkaAcl) PutTimeouts(value *GoogleManagedKafkaA
 		g,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleManagedKafkaAcl) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

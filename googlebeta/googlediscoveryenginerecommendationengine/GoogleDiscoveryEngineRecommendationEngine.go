@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_discovery_engine_recommendation_engine google_discovery_engine_recommendation_engine}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_discovery_engine_recommendation_engine google_discovery_engine_recommendation_engine}.
 type GoogleDiscoveryEngineRecommendationEngine interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -33,6 +33,9 @@ type GoogleDiscoveryEngineRecommendationEngine interface {
 	DataStoreIds() *[]*string
 	SetDataStoreIds(val *[]*string)
 	DataStoreIdsInput() *[]*string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -138,6 +141,7 @@ type GoogleDiscoveryEngineRecommendationEngine interface {
 	PutMediaRecommendationEngineConfig(value *GoogleDiscoveryEngineRecommendationEngineMediaRecommendationEngineConfig)
 	PutTimeouts(value *GoogleDiscoveryEngineRecommendationEngineTimeouts)
 	ResetCommonConfig()
+	ResetDeletionPolicy()
 	ResetId()
 	ResetIndustryVertical()
 	ResetMediaRecommendationEngineConfig()
@@ -258,6 +262,26 @@ func (j *jsiiProxy_GoogleDiscoveryEngineRecommendationEngine) DataStoreIdsInput(
 	_jsii_.Get(
 		j,
 		"dataStoreIdsInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDiscoveryEngineRecommendationEngine) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDiscoveryEngineRecommendationEngine) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -564,7 +588,7 @@ func (j *jsiiProxy_GoogleDiscoveryEngineRecommendationEngine) UpdateTime() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_discovery_engine_recommendation_engine google_discovery_engine_recommendation_engine} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_discovery_engine_recommendation_engine google_discovery_engine_recommendation_engine} Resource.
 func NewGoogleDiscoveryEngineRecommendationEngine(scope constructs.Construct, id *string, config *GoogleDiscoveryEngineRecommendationEngineConfig) GoogleDiscoveryEngineRecommendationEngine {
 	_init_.Initialize()
 
@@ -582,7 +606,7 @@ func NewGoogleDiscoveryEngineRecommendationEngine(scope constructs.Construct, id
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_discovery_engine_recommendation_engine google_discovery_engine_recommendation_engine} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_discovery_engine_recommendation_engine google_discovery_engine_recommendation_engine} Resource.
 func NewGoogleDiscoveryEngineRecommendationEngine_Override(g GoogleDiscoveryEngineRecommendationEngine, scope constructs.Construct, id *string, config *GoogleDiscoveryEngineRecommendationEngineConfig) {
 	_init_.Initialize()
 
@@ -622,6 +646,17 @@ func (j *jsiiProxy_GoogleDiscoveryEngineRecommendationEngine)SetDataStoreIds(val
 	_jsii_.Set(
 		j,
 		"dataStoreIds",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleDiscoveryEngineRecommendationEngine)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1128,6 +1163,14 @@ func (g *jsiiProxy_GoogleDiscoveryEngineRecommendationEngine) ResetCommonConfig(
 	_jsii_.InvokeVoid(
 		g,
 		"resetCommonConfig",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleDiscoveryEngineRecommendationEngine) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

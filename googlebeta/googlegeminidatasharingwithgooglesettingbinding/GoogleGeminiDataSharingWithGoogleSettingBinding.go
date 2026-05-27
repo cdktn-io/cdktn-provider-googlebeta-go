@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_gemini_data_sharing_with_google_setting_binding google_gemini_data_sharing_with_google_setting_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_gemini_data_sharing_with_google_setting_binding google_gemini_data_sharing_with_google_setting_binding}.
 type GoogleGeminiDataSharingWithGoogleSettingBinding interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -31,6 +31,9 @@ type GoogleGeminiDataSharingWithGoogleSettingBinding interface {
 	DataSharingWithGoogleSettingId() *string
 	SetDataSharingWithGoogleSettingId(val *string)
 	DataSharingWithGoogleSettingIdInput() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -136,6 +139,7 @@ type GoogleGeminiDataSharingWithGoogleSettingBinding interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *GoogleGeminiDataSharingWithGoogleSettingBindingTimeouts)
+	ResetDeletionPolicy()
 	ResetId()
 	ResetLabels()
 	ResetLocation()
@@ -237,6 +241,26 @@ func (j *jsiiProxy_GoogleGeminiDataSharingWithGoogleSettingBinding) DataSharingW
 	_jsii_.Get(
 		j,
 		"dataSharingWithGoogleSettingIdInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleGeminiDataSharingWithGoogleSettingBinding) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleGeminiDataSharingWithGoogleSettingBinding) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -563,7 +587,7 @@ func (j *jsiiProxy_GoogleGeminiDataSharingWithGoogleSettingBinding) UpdateTime()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_gemini_data_sharing_with_google_setting_binding google_gemini_data_sharing_with_google_setting_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_gemini_data_sharing_with_google_setting_binding google_gemini_data_sharing_with_google_setting_binding} Resource.
 func NewGoogleGeminiDataSharingWithGoogleSettingBinding(scope constructs.Construct, id *string, config *GoogleGeminiDataSharingWithGoogleSettingBindingConfig) GoogleGeminiDataSharingWithGoogleSettingBinding {
 	_init_.Initialize()
 
@@ -581,7 +605,7 @@ func NewGoogleGeminiDataSharingWithGoogleSettingBinding(scope constructs.Constru
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_gemini_data_sharing_with_google_setting_binding google_gemini_data_sharing_with_google_setting_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_gemini_data_sharing_with_google_setting_binding google_gemini_data_sharing_with_google_setting_binding} Resource.
 func NewGoogleGeminiDataSharingWithGoogleSettingBinding_Override(g GoogleGeminiDataSharingWithGoogleSettingBinding, scope constructs.Construct, id *string, config *GoogleGeminiDataSharingWithGoogleSettingBindingConfig) {
 	_init_.Initialize()
 
@@ -621,6 +645,17 @@ func (j *jsiiProxy_GoogleGeminiDataSharingWithGoogleSettingBinding)SetDataSharin
 	_jsii_.Set(
 		j,
 		"dataSharingWithGoogleSettingId",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleGeminiDataSharingWithGoogleSettingBinding)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1109,6 +1144,14 @@ func (g *jsiiProxy_GoogleGeminiDataSharingWithGoogleSettingBinding) PutTimeouts(
 		g,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleGeminiDataSharingWithGoogleSettingBinding) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

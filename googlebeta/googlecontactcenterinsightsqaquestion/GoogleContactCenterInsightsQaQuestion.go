@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_contact_center_insights_qa_question google_contact_center_insights_qa_question}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_contact_center_insights_qa_question google_contact_center_insights_qa_question}.
 type GoogleContactCenterInsightsQaQuestion interface {
 	cdktn.TerraformResource
 	Abbreviation() *string
@@ -36,6 +36,9 @@ type GoogleContactCenterInsightsQaQuestion interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -161,6 +164,7 @@ type GoogleContactCenterInsightsQaQuestion interface {
 	ResetAbbreviation()
 	ResetAnswerChoices()
 	ResetAnswerInstructions()
+	ResetDeletionPolicy()
 	ResetId()
 	ResetMetrics()
 	ResetOrder()
@@ -307,6 +311,26 @@ func (j *jsiiProxy_GoogleContactCenterInsightsQaQuestion) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleContactCenterInsightsQaQuestion) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleContactCenterInsightsQaQuestion) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -733,7 +757,7 @@ func (j *jsiiProxy_GoogleContactCenterInsightsQaQuestion) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_contact_center_insights_qa_question google_contact_center_insights_qa_question} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_contact_center_insights_qa_question google_contact_center_insights_qa_question} Resource.
 func NewGoogleContactCenterInsightsQaQuestion(scope constructs.Construct, id *string, config *GoogleContactCenterInsightsQaQuestionConfig) GoogleContactCenterInsightsQaQuestion {
 	_init_.Initialize()
 
@@ -751,7 +775,7 @@ func NewGoogleContactCenterInsightsQaQuestion(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_contact_center_insights_qa_question google_contact_center_insights_qa_question} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_contact_center_insights_qa_question google_contact_center_insights_qa_question} Resource.
 func NewGoogleContactCenterInsightsQaQuestion_Override(g GoogleContactCenterInsightsQaQuestion, scope constructs.Construct, id *string, config *GoogleContactCenterInsightsQaQuestionConfig) {
 	_init_.Initialize()
 
@@ -802,6 +826,17 @@ func (j *jsiiProxy_GoogleContactCenterInsightsQaQuestion)SetCount(val interface{
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleContactCenterInsightsQaQuestion)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1390,6 +1425,14 @@ func (g *jsiiProxy_GoogleContactCenterInsightsQaQuestion) ResetAnswerInstruction
 	_jsii_.InvokeVoid(
 		g,
 		"resetAnswerInstructions",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleContactCenterInsightsQaQuestion) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

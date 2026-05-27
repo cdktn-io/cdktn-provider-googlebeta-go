@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apihub_plugin google_apihub_plugin}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apihub_plugin google_apihub_plugin}.
 type GoogleApihubPlugin interface {
 	cdktn.TerraformResource
 	ActionsConfig() GoogleApihubPluginActionsConfigList
@@ -32,6 +32,9 @@ type GoogleApihubPlugin interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -147,6 +150,7 @@ type GoogleApihubPlugin interface {
 	PutTimeouts(value *GoogleApihubPluginTimeouts)
 	ResetActionsConfig()
 	ResetConfigTemplate()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetDocumentation()
 	ResetHostingService()
@@ -269,6 +273,26 @@ func (j *jsiiProxy_GoogleApihubPlugin) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleApihubPlugin) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleApihubPlugin) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -635,7 +659,7 @@ func (j *jsiiProxy_GoogleApihubPlugin) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apihub_plugin google_apihub_plugin} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apihub_plugin google_apihub_plugin} Resource.
 func NewGoogleApihubPlugin(scope constructs.Construct, id *string, config *GoogleApihubPluginConfig) GoogleApihubPlugin {
 	_init_.Initialize()
 
@@ -653,7 +677,7 @@ func NewGoogleApihubPlugin(scope constructs.Construct, id *string, config *Googl
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apihub_plugin google_apihub_plugin} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apihub_plugin google_apihub_plugin} Resource.
 func NewGoogleApihubPlugin_Override(g GoogleApihubPlugin, scope constructs.Construct, id *string, config *GoogleApihubPluginConfig) {
 	_init_.Initialize()
 
@@ -682,6 +706,17 @@ func (j *jsiiProxy_GoogleApihubPlugin)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleApihubPlugin)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1229,6 +1264,14 @@ func (g *jsiiProxy_GoogleApihubPlugin) ResetConfigTemplate() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetConfigTemplate",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleApihubPlugin) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

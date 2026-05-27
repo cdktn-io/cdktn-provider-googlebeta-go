@@ -30,6 +30,7 @@ type DataGoogleComputeRouterStatusBestRoutesOutputReference interface {
 	// Experimental.
 	CreationStack() *[]*string
 	CreationTimestamp() *string
+	DeletionPolicy() *string
 	Description() *string
 	DestRange() *string
 	// Experimental.
@@ -150,6 +151,16 @@ func (j *jsiiProxy_DataGoogleComputeRouterStatusBestRoutesOutputReference) Creat
 	_jsii_.Get(
 		j,
 		"creationTimestamp",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleComputeRouterStatusBestRoutesOutputReference) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
 		&returns,
 	)
 	return returns

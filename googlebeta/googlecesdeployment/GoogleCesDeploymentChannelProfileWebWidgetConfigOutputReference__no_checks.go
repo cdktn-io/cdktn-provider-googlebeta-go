@@ -47,6 +47,10 @@ func (g *jsiiProxy_GoogleCesDeploymentChannelProfileWebWidgetConfigOutputReferen
 	return nil
 }
 
+func (g *jsiiProxy_GoogleCesDeploymentChannelProfileWebWidgetConfigOutputReference) validatePutSecuritySettingsParameters(value *GoogleCesDeploymentChannelProfileWebWidgetConfigSecuritySettings) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleCesDeploymentChannelProfileWebWidgetConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }

@@ -103,6 +103,10 @@ func (j *jsiiProxy_GoogleIamWorkforcePoolProviderScimToken) validateSetCountPara
 	return nil
 }
 
+func (j *jsiiProxy_GoogleIamWorkforcePoolProviderScimToken) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleIamWorkforcePoolProviderScimToken) validateSetDisplayNameParameters(val *string) error {
 	return nil
 }

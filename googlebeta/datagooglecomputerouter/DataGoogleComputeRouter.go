@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_compute_router google_compute_router}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/data-sources/google_compute_router google_compute_router}.
 type DataGoogleComputeRouter interface {
 	cdktn.TerraformDataSource
 	Bgp() DataGoogleComputeRouterBgpList
@@ -25,6 +25,7 @@ type DataGoogleComputeRouter interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreationTimestamp() *string
+	DeletionPolicy() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -180,6 +181,16 @@ func (j *jsiiProxy_DataGoogleComputeRouter) CreationTimestamp() *string {
 	_jsii_.Get(
 		j,
 		"creationTimestamp",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleComputeRouter) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
 		&returns,
 	)
 	return returns
@@ -456,7 +467,7 @@ func (j *jsiiProxy_DataGoogleComputeRouter) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_compute_router google_compute_router} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/data-sources/google_compute_router google_compute_router} Data Source.
 func NewDataGoogleComputeRouter(scope constructs.Construct, id *string, config *DataGoogleComputeRouterConfig) DataGoogleComputeRouter {
 	_init_.Initialize()
 
@@ -474,7 +485,7 @@ func NewDataGoogleComputeRouter(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_compute_router google_compute_router} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/data-sources/google_compute_router google_compute_router} Data Source.
 func NewDataGoogleComputeRouter_Override(d DataGoogleComputeRouter, scope constructs.Construct, id *string, config *DataGoogleComputeRouterConfig) {
 	_init_.Initialize()
 

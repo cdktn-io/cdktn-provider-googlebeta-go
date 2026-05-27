@@ -115,6 +115,10 @@ func (j *jsiiProxy_GoogleIdentityPlatformOauthIdpConfig) validateSetCountParamet
 	return nil
 }
 
+func (j *jsiiProxy_GoogleIdentityPlatformOauthIdpConfig) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleIdentityPlatformOauthIdpConfig) validateSetDisplayNameParameters(val *string) error {
 	return nil
 }

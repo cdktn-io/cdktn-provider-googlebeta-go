@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_backup_vault google_netapp_backup_vault}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_backup_vault google_netapp_backup_vault}.
 type GoogleNetappBackupVault interface {
 	cdktn.TerraformResource
 	BackupRegion() *string
@@ -37,6 +37,9 @@ type GoogleNetappBackupVault interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -149,6 +152,7 @@ type GoogleNetappBackupVault interface {
 	ResetBackupRegion()
 	ResetBackupRetentionPolicy()
 	ResetBackupVaultType()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	ResetKmsConfig()
@@ -300,6 +304,26 @@ func (j *jsiiProxy_GoogleNetappBackupVault) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleNetappBackupVault) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleNetappBackupVault) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -656,7 +680,7 @@ func (j *jsiiProxy_GoogleNetappBackupVault) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_backup_vault google_netapp_backup_vault} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_backup_vault google_netapp_backup_vault} Resource.
 func NewGoogleNetappBackupVault(scope constructs.Construct, id *string, config *GoogleNetappBackupVaultConfig) GoogleNetappBackupVault {
 	_init_.Initialize()
 
@@ -674,7 +698,7 @@ func NewGoogleNetappBackupVault(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_backup_vault google_netapp_backup_vault} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_backup_vault google_netapp_backup_vault} Resource.
 func NewGoogleNetappBackupVault_Override(g GoogleNetappBackupVault, scope constructs.Construct, id *string, config *GoogleNetappBackupVaultConfig) {
 	_init_.Initialize()
 
@@ -725,6 +749,17 @@ func (j *jsiiProxy_GoogleNetappBackupVault)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleNetappBackupVault)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1247,6 +1282,14 @@ func (g *jsiiProxy_GoogleNetappBackupVault) ResetBackupVaultType() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetBackupVaultType",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleNetappBackupVault) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

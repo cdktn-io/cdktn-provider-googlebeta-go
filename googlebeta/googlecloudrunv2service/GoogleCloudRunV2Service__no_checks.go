@@ -147,6 +147,10 @@ func (j *jsiiProxy_GoogleCloudRunV2Service) validateSetDefaultUriDisabledParamet
 	return nil
 }
 
+func (j *jsiiProxy_GoogleCloudRunV2Service) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleCloudRunV2Service) validateSetDeletionProtectionParameters(val interface{}) error {
 	return nil
 }

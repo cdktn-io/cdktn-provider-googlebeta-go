@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_tags_tag_key google_tags_tag_key}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_tags_tag_key google_tags_tag_key}.
 type GoogleTagsTagKey interface {
 	cdktn.TerraformResource
 	AllowedValuesRegex() *string
@@ -31,6 +31,9 @@ type GoogleTagsTagKey interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -133,6 +136,7 @@ type GoogleTagsTagKey interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *GoogleTagsTagKeyTimeouts)
 	ResetAllowedValuesRegex()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -233,6 +237,26 @@ func (j *jsiiProxy_GoogleTagsTagKey) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleTagsTagKey) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleTagsTagKey) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -529,7 +553,7 @@ func (j *jsiiProxy_GoogleTagsTagKey) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_tags_tag_key google_tags_tag_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_tags_tag_key google_tags_tag_key} Resource.
 func NewGoogleTagsTagKey(scope constructs.Construct, id *string, config *GoogleTagsTagKeyConfig) GoogleTagsTagKey {
 	_init_.Initialize()
 
@@ -547,7 +571,7 @@ func NewGoogleTagsTagKey(scope constructs.Construct, id *string, config *GoogleT
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_tags_tag_key google_tags_tag_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_tags_tag_key google_tags_tag_key} Resource.
 func NewGoogleTagsTagKey_Override(g GoogleTagsTagKey, scope constructs.Construct, id *string, config *GoogleTagsTagKeyConfig) {
 	_init_.Initialize()
 
@@ -587,6 +611,17 @@ func (j *jsiiProxy_GoogleTagsTagKey)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleTagsTagKey)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1071,6 +1106,14 @@ func (g *jsiiProxy_GoogleTagsTagKey) ResetAllowedValuesRegex() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetAllowedValuesRegex",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleTagsTagKey) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

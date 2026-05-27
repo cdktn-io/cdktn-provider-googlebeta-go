@@ -111,6 +111,10 @@ func (j *jsiiProxy_GoogleNetworkSecurityGatewaySecurityPolicyRule) validateSetCo
 	return nil
 }
 
+func (j *jsiiProxy_GoogleNetworkSecurityGatewaySecurityPolicyRule) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleNetworkSecurityGatewaySecurityPolicyRule) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_logging_sink google_logging_sink}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/data-sources/google_logging_sink google_logging_sink}.
 type DataGoogleLoggingSink interface {
 	cdktn.TerraformDataSource
 	BigqueryOptions() DataGoogleLoggingSinkBigqueryOptionsList
@@ -24,6 +24,7 @@ type DataGoogleLoggingSink interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -155,6 +156,16 @@ func (j *jsiiProxy_DataGoogleLoggingSink) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleLoggingSink) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
 		&returns,
 	)
 	return returns
@@ -361,7 +372,7 @@ func (j *jsiiProxy_DataGoogleLoggingSink) WriterIdentity() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_logging_sink google_logging_sink} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/data-sources/google_logging_sink google_logging_sink} Data Source.
 func NewDataGoogleLoggingSink(scope constructs.Construct, id *string, config *DataGoogleLoggingSinkConfig) DataGoogleLoggingSink {
 	_init_.Initialize()
 
@@ -379,7 +390,7 @@ func NewDataGoogleLoggingSink(scope constructs.Construct, id *string, config *Da
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_logging_sink google_logging_sink} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/data-sources/google_logging_sink google_logging_sink} Data Source.
 func NewDataGoogleLoggingSink_Override(d DataGoogleLoggingSink, scope constructs.Construct, id *string, config *DataGoogleLoggingSinkConfig) {
 	_init_.Initialize()
 

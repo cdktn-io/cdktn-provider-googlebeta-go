@@ -111,6 +111,10 @@ func (j *jsiiProxy_GoogleFirebaseHostingCustomDomain) validateSetCustomDomainPar
 	return nil
 }
 
+func (j *jsiiProxy_GoogleFirebaseHostingCustomDomain) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleFirebaseHostingCustomDomain) validateSetIdParameters(val *string) error {
 	return nil
 }

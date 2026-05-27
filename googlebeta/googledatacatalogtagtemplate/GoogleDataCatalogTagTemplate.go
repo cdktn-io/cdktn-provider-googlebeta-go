@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_data_catalog_tag_template google_data_catalog_tag_template}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_data_catalog_tag_template google_data_catalog_tag_template}.
 type GoogleDataCatalogTagTemplate interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -27,6 +27,9 @@ type GoogleDataCatalogTagTemplate interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -129,6 +132,7 @@ type GoogleDataCatalogTagTemplate interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutFields(value interface{})
 	PutTimeouts(value *GoogleDataCatalogTagTemplateTimeouts)
+	ResetDeletionPolicy()
 	ResetDisplayName()
 	ResetForceDelete()
 	ResetId()
@@ -200,6 +204,26 @@ func (j *jsiiProxy_GoogleDataCatalogTagTemplate) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDataCatalogTagTemplate) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDataCatalogTagTemplate) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -496,7 +520,7 @@ func (j *jsiiProxy_GoogleDataCatalogTagTemplate) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_data_catalog_tag_template google_data_catalog_tag_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_data_catalog_tag_template google_data_catalog_tag_template} Resource.
 func NewGoogleDataCatalogTagTemplate(scope constructs.Construct, id *string, config *GoogleDataCatalogTagTemplateConfig) GoogleDataCatalogTagTemplate {
 	_init_.Initialize()
 
@@ -514,7 +538,7 @@ func NewGoogleDataCatalogTagTemplate(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_data_catalog_tag_template google_data_catalog_tag_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_data_catalog_tag_template google_data_catalog_tag_template} Resource.
 func NewGoogleDataCatalogTagTemplate_Override(g GoogleDataCatalogTagTemplate, scope constructs.Construct, id *string, config *GoogleDataCatalogTagTemplateConfig) {
 	_init_.Initialize()
 
@@ -543,6 +567,17 @@ func (j *jsiiProxy_GoogleDataCatalogTagTemplate)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleDataCatalogTagTemplate)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1031,6 +1066,14 @@ func (g *jsiiProxy_GoogleDataCatalogTagTemplate) PutTimeouts(value *GoogleDataCa
 		g,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleDataCatalogTagTemplate) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

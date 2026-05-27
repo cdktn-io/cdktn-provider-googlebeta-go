@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_alloydb_backup google_alloydb_backup}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_alloydb_backup google_alloydb_backup}.
 type GoogleAlloydbBackup interface {
 	cdktn.TerraformResource
 	Annotations() *map[string]*string
@@ -39,6 +39,9 @@ type GoogleAlloydbBackup interface {
 	SetCount(val interface{})
 	CreateTime() *string
 	DeleteTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -157,6 +160,7 @@ type GoogleAlloydbBackup interface {
 	PutEncryptionConfig(value *GoogleAlloydbBackupEncryptionConfig)
 	PutTimeouts(value *GoogleAlloydbBackupTimeouts)
 	ResetAnnotations()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetDisplayName()
 	ResetEncryptionConfig()
@@ -320,6 +324,26 @@ func (j *jsiiProxy_GoogleAlloydbBackup) DeleteTime() *string {
 	_jsii_.Get(
 		j,
 		"deleteTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleAlloydbBackup) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleAlloydbBackup) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -756,7 +780,7 @@ func (j *jsiiProxy_GoogleAlloydbBackup) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_alloydb_backup google_alloydb_backup} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_alloydb_backup google_alloydb_backup} Resource.
 func NewGoogleAlloydbBackup(scope constructs.Construct, id *string, config *GoogleAlloydbBackupConfig) GoogleAlloydbBackup {
 	_init_.Initialize()
 
@@ -774,7 +798,7 @@ func NewGoogleAlloydbBackup(scope constructs.Construct, id *string, config *Goog
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_alloydb_backup google_alloydb_backup} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_alloydb_backup google_alloydb_backup} Resource.
 func NewGoogleAlloydbBackup_Override(g GoogleAlloydbBackup, scope constructs.Construct, id *string, config *GoogleAlloydbBackupConfig) {
 	_init_.Initialize()
 
@@ -836,6 +860,17 @@ func (j *jsiiProxy_GoogleAlloydbBackup)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleAlloydbBackup)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1342,6 +1377,14 @@ func (g *jsiiProxy_GoogleAlloydbBackup) ResetAnnotations() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetAnnotations",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleAlloydbBackup) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

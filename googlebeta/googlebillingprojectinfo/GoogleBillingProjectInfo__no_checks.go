@@ -107,6 +107,10 @@ func (j *jsiiProxy_GoogleBillingProjectInfo) validateSetCountParameters(val inte
 	return nil
 }
 
+func (j *jsiiProxy_GoogleBillingProjectInfo) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleBillingProjectInfo) validateSetIdParameters(val *string) error {
 	return nil
 }

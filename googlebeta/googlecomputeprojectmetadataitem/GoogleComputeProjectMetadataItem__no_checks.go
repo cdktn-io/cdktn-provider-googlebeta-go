@@ -103,6 +103,10 @@ func (j *jsiiProxy_GoogleComputeProjectMetadataItem) validateSetCountParameters(
 	return nil
 }
 
+func (j *jsiiProxy_GoogleComputeProjectMetadataItem) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleComputeProjectMetadataItem) validateSetIdParameters(val *string) error {
 	return nil
 }

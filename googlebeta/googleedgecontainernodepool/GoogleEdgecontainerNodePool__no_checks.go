@@ -115,6 +115,10 @@ func (j *jsiiProxy_GoogleEdgecontainerNodePool) validateSetCountParameters(val i
 	return nil
 }
 
+func (j *jsiiProxy_GoogleEdgecontainerNodePool) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleEdgecontainerNodePool) validateSetIdParameters(val *string) error {
 	return nil
 }

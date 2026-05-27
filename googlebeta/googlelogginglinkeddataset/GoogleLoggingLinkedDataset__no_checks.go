@@ -111,6 +111,10 @@ func (j *jsiiProxy_GoogleLoggingLinkedDataset) validateSetCountParameters(val in
 	return nil
 }
 
+func (j *jsiiProxy_GoogleLoggingLinkedDataset) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleLoggingLinkedDataset) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

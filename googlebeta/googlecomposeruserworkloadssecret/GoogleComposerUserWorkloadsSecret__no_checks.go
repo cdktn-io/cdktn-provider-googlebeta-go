@@ -107,6 +107,10 @@ func (j *jsiiProxy_GoogleComposerUserWorkloadsSecret) validateSetDataParameters(
 	return nil
 }
 
+func (j *jsiiProxy_GoogleComposerUserWorkloadsSecret) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleComposerUserWorkloadsSecret) validateSetEnvironmentParameters(val *string) error {
 	return nil
 }

@@ -115,6 +115,10 @@ func (j *jsiiProxy_GoogleBinaryAuthorizationPolicy) validateSetCountParameters(v
 	return nil
 }
 
+func (j *jsiiProxy_GoogleBinaryAuthorizationPolicy) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleBinaryAuthorizationPolicy) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

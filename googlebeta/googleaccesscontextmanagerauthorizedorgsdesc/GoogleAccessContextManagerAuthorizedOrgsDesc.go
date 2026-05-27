@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_access_context_manager_authorized_orgs_desc google_access_context_manager_authorized_orgs_desc}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_access_context_manager_authorized_orgs_desc google_access_context_manager_authorized_orgs_desc}.
 type GoogleAccessContextManagerAuthorizedOrgsDesc interface {
 	cdktn.TerraformResource
 	AssetType() *string
@@ -37,6 +37,9 @@ type GoogleAccessContextManagerAuthorizedOrgsDesc interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -133,6 +136,7 @@ type GoogleAccessContextManagerAuthorizedOrgsDesc interface {
 	ResetAssetType()
 	ResetAuthorizationDirection()
 	ResetAuthorizationType()
+	ResetDeletionPolicy()
 	ResetId()
 	ResetOrgs()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -271,6 +275,26 @@ func (j *jsiiProxy_GoogleAccessContextManagerAuthorizedOrgsDesc) CreateTime() *s
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleAccessContextManagerAuthorizedOrgsDesc) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleAccessContextManagerAuthorizedOrgsDesc) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -507,7 +531,7 @@ func (j *jsiiProxy_GoogleAccessContextManagerAuthorizedOrgsDesc) UpdateTime() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_access_context_manager_authorized_orgs_desc google_access_context_manager_authorized_orgs_desc} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_access_context_manager_authorized_orgs_desc google_access_context_manager_authorized_orgs_desc} Resource.
 func NewGoogleAccessContextManagerAuthorizedOrgsDesc(scope constructs.Construct, id *string, config *GoogleAccessContextManagerAuthorizedOrgsDescConfig) GoogleAccessContextManagerAuthorizedOrgsDesc {
 	_init_.Initialize()
 
@@ -525,7 +549,7 @@ func NewGoogleAccessContextManagerAuthorizedOrgsDesc(scope constructs.Construct,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_access_context_manager_authorized_orgs_desc google_access_context_manager_authorized_orgs_desc} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_access_context_manager_authorized_orgs_desc google_access_context_manager_authorized_orgs_desc} Resource.
 func NewGoogleAccessContextManagerAuthorizedOrgsDesc_Override(g GoogleAccessContextManagerAuthorizedOrgsDesc, scope constructs.Construct, id *string, config *GoogleAccessContextManagerAuthorizedOrgsDescConfig) {
 	_init_.Initialize()
 
@@ -587,6 +611,17 @@ func (j *jsiiProxy_GoogleAccessContextManagerAuthorizedOrgsDesc)SetCount(val int
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleAccessContextManagerAuthorizedOrgsDesc)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1065,6 +1100,14 @@ func (g *jsiiProxy_GoogleAccessContextManagerAuthorizedOrgsDesc) ResetAuthorizat
 	_jsii_.InvokeVoid(
 		g,
 		"resetAuthorizationType",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleAccessContextManagerAuthorizedOrgsDesc) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

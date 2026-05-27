@@ -131,6 +131,10 @@ func (j *jsiiProxy_GoogleCesGuardrail) validateSetCountParameters(val interface{
 	return nil
 }
 
+func (j *jsiiProxy_GoogleCesGuardrail) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleCesGuardrail) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

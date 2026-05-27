@@ -131,6 +131,10 @@ func (j *jsiiProxy_GoogleComputeNetwork) validateSetDeleteDefaultRoutesOnCreateP
 	return nil
 }
 
+func (j *jsiiProxy_GoogleComputeNetwork) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleComputeNetwork) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

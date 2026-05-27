@@ -103,6 +103,10 @@ func (j *jsiiProxy_GoogleFirebaseAppCheckResourcePolicy) validateSetCountParamet
 	return nil
 }
 
+func (j *jsiiProxy_GoogleFirebaseAppCheckResourcePolicy) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleFirebaseAppCheckResourcePolicy) validateSetEnforcementModeParameters(val *string) error {
 	return nil
 }

@@ -303,6 +303,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "connectionName", GoGetter: "ConnectionName"},
 			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
 			_jsii_.MemberProperty{JsiiProperty: "databaseVersion", GoGetter: "DatabaseVersion"},
+			_jsii_.MemberProperty{JsiiProperty: "deletionPolicy", GoGetter: "DeletionPolicy"},
 			_jsii_.MemberProperty{JsiiProperty: "deletionProtection", GoGetter: "DeletionProtection"},
 			_jsii_.MemberProperty{JsiiProperty: "dnsName", GoGetter: "DnsName"},
 			_jsii_.MemberProperty{JsiiProperty: "dnsNames", GoGetter: "DnsNames"},

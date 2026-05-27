@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_oracle_database_cloud_exadata_infrastructure google_oracle_database_cloud_exadata_infrastructure}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_oracle_database_cloud_exadata_infrastructure google_oracle_database_cloud_exadata_infrastructure}.
 type GoogleOracleDatabaseCloudExadataInfrastructure interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -31,6 +31,9 @@ type GoogleOracleDatabaseCloudExadataInfrastructure interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	DeletionProtection() interface{}
 	SetDeletionProtection(val interface{})
 	DeletionProtectionInput() interface{}
@@ -139,6 +142,7 @@ type GoogleOracleDatabaseCloudExadataInfrastructure interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutProperties(value *GoogleOracleDatabaseCloudExadataInfrastructureProperties)
 	PutTimeouts(value *GoogleOracleDatabaseCloudExadataInfrastructureTimeouts)
+	ResetDeletionPolicy()
 	ResetDeletionProtection()
 	ResetDisplayName()
 	ResetGcpOracleZone()
@@ -242,6 +246,26 @@ func (j *jsiiProxy_GoogleOracleDatabaseCloudExadataInfrastructure) CreateTime() 
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleOracleDatabaseCloudExadataInfrastructure) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleOracleDatabaseCloudExadataInfrastructure) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -588,7 +612,7 @@ func (j *jsiiProxy_GoogleOracleDatabaseCloudExadataInfrastructure) TimeoutsInput
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_oracle_database_cloud_exadata_infrastructure google_oracle_database_cloud_exadata_infrastructure} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_oracle_database_cloud_exadata_infrastructure google_oracle_database_cloud_exadata_infrastructure} Resource.
 func NewGoogleOracleDatabaseCloudExadataInfrastructure(scope constructs.Construct, id *string, config *GoogleOracleDatabaseCloudExadataInfrastructureConfig) GoogleOracleDatabaseCloudExadataInfrastructure {
 	_init_.Initialize()
 
@@ -606,7 +630,7 @@ func NewGoogleOracleDatabaseCloudExadataInfrastructure(scope constructs.Construc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_oracle_database_cloud_exadata_infrastructure google_oracle_database_cloud_exadata_infrastructure} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_oracle_database_cloud_exadata_infrastructure google_oracle_database_cloud_exadata_infrastructure} Resource.
 func NewGoogleOracleDatabaseCloudExadataInfrastructure_Override(g GoogleOracleDatabaseCloudExadataInfrastructure, scope constructs.Construct, id *string, config *GoogleOracleDatabaseCloudExadataInfrastructureConfig) {
 	_init_.Initialize()
 
@@ -646,6 +670,17 @@ func (j *jsiiProxy_GoogleOracleDatabaseCloudExadataInfrastructure)SetCount(val i
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleOracleDatabaseCloudExadataInfrastructure)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1145,6 +1180,14 @@ func (g *jsiiProxy_GoogleOracleDatabaseCloudExadataInfrastructure) PutTimeouts(v
 		g,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleOracleDatabaseCloudExadataInfrastructure) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

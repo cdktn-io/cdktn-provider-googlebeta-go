@@ -364,6 +364,14 @@ func (j *jsiiProxy_GoogleSccProjectSccBigQueryExport) validateSetDatasetParamete
 	return nil
 }
 
+func (j *jsiiProxy_GoogleSccProjectSccBigQueryExport) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_GoogleSccProjectSccBigQueryExport) validateSetDescriptionParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

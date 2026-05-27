@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_envgroup_attachment google_apigee_envgroup_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_envgroup_attachment google_apigee_envgroup_attachment}.
 type GoogleApigeeEnvgroupAttachment interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -27,6 +27,9 @@ type GoogleApigeeEnvgroupAttachment interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -117,6 +120,7 @@ type GoogleApigeeEnvgroupAttachment interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *GoogleApigeeEnvgroupAttachmentTimeouts)
+	ResetDeletionPolicy()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -184,6 +188,26 @@ func (j *jsiiProxy_GoogleApigeeEnvgroupAttachment) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleApigeeEnvgroupAttachment) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleApigeeEnvgroupAttachment) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -400,7 +424,7 @@ func (j *jsiiProxy_GoogleApigeeEnvgroupAttachment) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_envgroup_attachment google_apigee_envgroup_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_envgroup_attachment google_apigee_envgroup_attachment} Resource.
 func NewGoogleApigeeEnvgroupAttachment(scope constructs.Construct, id *string, config *GoogleApigeeEnvgroupAttachmentConfig) GoogleApigeeEnvgroupAttachment {
 	_init_.Initialize()
 
@@ -418,7 +442,7 @@ func NewGoogleApigeeEnvgroupAttachment(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_envgroup_attachment google_apigee_envgroup_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_envgroup_attachment google_apigee_envgroup_attachment} Resource.
 func NewGoogleApigeeEnvgroupAttachment_Override(g GoogleApigeeEnvgroupAttachment, scope constructs.Construct, id *string, config *GoogleApigeeEnvgroupAttachmentConfig) {
 	_init_.Initialize()
 
@@ -447,6 +471,17 @@ func (j *jsiiProxy_GoogleApigeeEnvgroupAttachment)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleApigeeEnvgroupAttachment)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -891,6 +926,14 @@ func (g *jsiiProxy_GoogleApigeeEnvgroupAttachment) PutTimeouts(value *GoogleApig
 		g,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleApigeeEnvgroupAttachment) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_container_node_pool google_container_node_pool}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_container_node_pool google_container_node_pool}.
 type GoogleContainerNodePool interface {
 	cdktn.TerraformResource
 	Autoscaling() GoogleContainerNodePoolAutoscalingOutputReference
@@ -32,6 +32,9 @@ type GoogleContainerNodePool interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -168,6 +171,7 @@ type GoogleContainerNodePool interface {
 	PutTimeouts(value *GoogleContainerNodePoolTimeouts)
 	PutUpgradeSettings(value *GoogleContainerNodePoolUpgradeSettings)
 	ResetAutoscaling()
+	ResetDeletionPolicy()
 	ResetId()
 	ResetInitialNodeCount()
 	ResetLocation()
@@ -291,6 +295,26 @@ func (j *jsiiProxy_GoogleContainerNodePool) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleContainerNodePool) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleContainerNodePool) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -807,7 +831,7 @@ func (j *jsiiProxy_GoogleContainerNodePool) VersionInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_container_node_pool google_container_node_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_container_node_pool google_container_node_pool} Resource.
 func NewGoogleContainerNodePool(scope constructs.Construct, id *string, config *GoogleContainerNodePoolConfig) GoogleContainerNodePool {
 	_init_.Initialize()
 
@@ -825,7 +849,7 @@ func NewGoogleContainerNodePool(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_container_node_pool google_container_node_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_container_node_pool google_container_node_pool} Resource.
 func NewGoogleContainerNodePool_Override(g GoogleContainerNodePool, scope constructs.Construct, id *string, config *GoogleContainerNodePoolConfig) {
 	_init_.Initialize()
 
@@ -865,6 +889,17 @@ func (j *jsiiProxy_GoogleContainerNodePool)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleContainerNodePool)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1481,6 +1516,14 @@ func (g *jsiiProxy_GoogleContainerNodePool) ResetAutoscaling() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetAutoscaling",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleContainerNodePool) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

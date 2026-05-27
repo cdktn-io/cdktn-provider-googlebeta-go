@@ -107,6 +107,10 @@ func (j *jsiiProxy_GoogleMonitoringDashboard) validateSetDashboardJsonParameters
 	return nil
 }
 
+func (j *jsiiProxy_GoogleMonitoringDashboard) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleMonitoringDashboard) validateSetIdParameters(val *string) error {
 	return nil
 }

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_environment_api_revision_deployment google_apigee_environment_api_revision_deployment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_environment_api_revision_deployment google_apigee_environment_api_revision_deployment}.
 type GoogleApigeeEnvironmentApiRevisionDeployment interface {
 	cdktn.TerraformResource
 	Api() *string
@@ -31,6 +31,9 @@ type GoogleApigeeEnvironmentApiRevisionDeployment interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -134,6 +137,7 @@ type GoogleApigeeEnvironmentApiRevisionDeployment interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *GoogleApigeeEnvironmentApiRevisionDeploymentTimeouts)
+	ResetDeletionPolicy()
 	ResetId()
 	ResetOverride()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -234,6 +238,26 @@ func (j *jsiiProxy_GoogleApigeeEnvironmentApiRevisionDeployment) Count() interfa
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleApigeeEnvironmentApiRevisionDeployment) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleApigeeEnvironmentApiRevisionDeployment) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -540,7 +564,7 @@ func (j *jsiiProxy_GoogleApigeeEnvironmentApiRevisionDeployment) TimeoutsInput()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_environment_api_revision_deployment google_apigee_environment_api_revision_deployment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_environment_api_revision_deployment google_apigee_environment_api_revision_deployment} Resource.
 func NewGoogleApigeeEnvironmentApiRevisionDeployment(scope constructs.Construct, id *string, config *GoogleApigeeEnvironmentApiRevisionDeploymentConfig) GoogleApigeeEnvironmentApiRevisionDeployment {
 	_init_.Initialize()
 
@@ -558,7 +582,7 @@ func NewGoogleApigeeEnvironmentApiRevisionDeployment(scope constructs.Construct,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_environment_api_revision_deployment google_apigee_environment_api_revision_deployment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_environment_api_revision_deployment google_apigee_environment_api_revision_deployment} Resource.
 func NewGoogleApigeeEnvironmentApiRevisionDeployment_Override(g GoogleApigeeEnvironmentApiRevisionDeployment, scope constructs.Construct, id *string, config *GoogleApigeeEnvironmentApiRevisionDeploymentConfig) {
 	_init_.Initialize()
 
@@ -598,6 +622,17 @@ func (j *jsiiProxy_GoogleApigeeEnvironmentApiRevisionDeployment)SetCount(val int
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleApigeeEnvironmentApiRevisionDeployment)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1086,6 +1121,14 @@ func (g *jsiiProxy_GoogleApigeeEnvironmentApiRevisionDeployment) PutTimeouts(val
 		g,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleApigeeEnvironmentApiRevisionDeployment) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

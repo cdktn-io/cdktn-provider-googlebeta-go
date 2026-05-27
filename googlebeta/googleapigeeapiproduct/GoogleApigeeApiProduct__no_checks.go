@@ -127,6 +127,10 @@ func (j *jsiiProxy_GoogleApigeeApiProduct) validateSetCountParameters(val interf
 	return nil
 }
 
+func (j *jsiiProxy_GoogleApigeeApiProduct) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleApigeeApiProduct) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

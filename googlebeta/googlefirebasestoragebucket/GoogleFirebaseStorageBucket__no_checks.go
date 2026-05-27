@@ -107,6 +107,10 @@ func (j *jsiiProxy_GoogleFirebaseStorageBucket) validateSetCountParameters(val i
 	return nil
 }
 
+func (j *jsiiProxy_GoogleFirebaseStorageBucket) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleFirebaseStorageBucket) validateSetIdParameters(val *string) error {
 	return nil
 }

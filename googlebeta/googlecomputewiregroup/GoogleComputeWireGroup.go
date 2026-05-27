@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_wire_group google_compute_wire_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_wire_group google_compute_wire_group}.
 type GoogleComputeWireGroup interface {
 	cdktn.TerraformResource
 	AdminEnabled() interface{}
@@ -34,6 +34,9 @@ type GoogleComputeWireGroup interface {
 	CrossSiteNetwork() *string
 	SetCrossSiteNetwork(val *string)
 	CrossSiteNetworkInput() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -138,6 +141,7 @@ type GoogleComputeWireGroup interface {
 	PutWireGroupProperties(value *GoogleComputeWireGroupWireGroupProperties)
 	PutWireProperties(value *GoogleComputeWireGroupWireProperties)
 	ResetAdminEnabled()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetEndpoints()
 	ResetId()
@@ -260,6 +264,26 @@ func (j *jsiiProxy_GoogleComputeWireGroup) CrossSiteNetworkInput() *string {
 	_jsii_.Get(
 		j,
 		"crossSiteNetworkInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeWireGroup) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeWireGroup) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -566,7 +590,7 @@ func (j *jsiiProxy_GoogleComputeWireGroup) Wires() GoogleComputeWireGroupWiresLi
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_wire_group google_compute_wire_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_wire_group google_compute_wire_group} Resource.
 func NewGoogleComputeWireGroup(scope constructs.Construct, id *string, config *GoogleComputeWireGroupConfig) GoogleComputeWireGroup {
 	_init_.Initialize()
 
@@ -584,7 +608,7 @@ func NewGoogleComputeWireGroup(scope constructs.Construct, id *string, config *G
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_wire_group google_compute_wire_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_wire_group google_compute_wire_group} Resource.
 func NewGoogleComputeWireGroup_Override(g GoogleComputeWireGroup, scope constructs.Construct, id *string, config *GoogleComputeWireGroupConfig) {
 	_init_.Initialize()
 
@@ -635,6 +659,17 @@ func (j *jsiiProxy_GoogleComputeWireGroup)SetCrossSiteNetwork(val *string) {
 	_jsii_.Set(
 		j,
 		"crossSiteNetwork",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleComputeWireGroup)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1130,6 +1165,14 @@ func (g *jsiiProxy_GoogleComputeWireGroup) ResetAdminEnabled() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetAdminEnabled",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleComputeWireGroup) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

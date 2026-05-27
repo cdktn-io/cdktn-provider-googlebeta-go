@@ -119,6 +119,10 @@ func (j *jsiiProxy_GoogleApigeeEnvironment) validateSetCountParameters(val inter
 	return nil
 }
 
+func (j *jsiiProxy_GoogleApigeeEnvironment) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleApigeeEnvironment) validateSetDeploymentTypeParameters(val *string) error {
 	return nil
 }

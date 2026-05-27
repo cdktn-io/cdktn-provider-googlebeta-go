@@ -111,6 +111,10 @@ func (j *jsiiProxy_GoogleLoggingSavedQuery) validateSetCountParameters(val inter
 	return nil
 }
 
+func (j *jsiiProxy_GoogleLoggingSavedQuery) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleLoggingSavedQuery) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

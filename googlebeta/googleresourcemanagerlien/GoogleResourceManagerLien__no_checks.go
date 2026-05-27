@@ -103,6 +103,10 @@ func (j *jsiiProxy_GoogleResourceManagerLien) validateSetCountParameters(val int
 	return nil
 }
 
+func (j *jsiiProxy_GoogleResourceManagerLien) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleResourceManagerLien) validateSetIdParameters(val *string) error {
 	return nil
 }

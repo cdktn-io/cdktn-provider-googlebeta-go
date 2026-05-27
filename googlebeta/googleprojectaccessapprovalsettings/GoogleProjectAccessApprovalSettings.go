@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_project_access_approval_settings google_project_access_approval_settings}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_project_access_approval_settings google_project_access_approval_settings}.
 type GoogleProjectAccessApprovalSettings interface {
 	cdktn.TerraformResource
 	ActiveKeyVersion() *string
@@ -31,6 +31,9 @@ type GoogleProjectAccessApprovalSettings interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -130,6 +133,7 @@ type GoogleProjectAccessApprovalSettings interface {
 	PutEnrolledServices(value interface{})
 	PutTimeouts(value *GoogleProjectAccessApprovalSettingsTimeouts)
 	ResetActiveKeyVersion()
+	ResetDeletionPolicy()
 	ResetId()
 	ResetNotificationEmails()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -229,6 +233,26 @@ func (j *jsiiProxy_GoogleProjectAccessApprovalSettings) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleProjectAccessApprovalSettings) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleProjectAccessApprovalSettings) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -505,7 +529,7 @@ func (j *jsiiProxy_GoogleProjectAccessApprovalSettings) TimeoutsInput() interfac
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_project_access_approval_settings google_project_access_approval_settings} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_project_access_approval_settings google_project_access_approval_settings} Resource.
 func NewGoogleProjectAccessApprovalSettings(scope constructs.Construct, id *string, config *GoogleProjectAccessApprovalSettingsConfig) GoogleProjectAccessApprovalSettings {
 	_init_.Initialize()
 
@@ -523,7 +547,7 @@ func NewGoogleProjectAccessApprovalSettings(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_project_access_approval_settings google_project_access_approval_settings} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_project_access_approval_settings google_project_access_approval_settings} Resource.
 func NewGoogleProjectAccessApprovalSettings_Override(g GoogleProjectAccessApprovalSettings, scope constructs.Construct, id *string, config *GoogleProjectAccessApprovalSettingsConfig) {
 	_init_.Initialize()
 
@@ -563,6 +587,17 @@ func (j *jsiiProxy_GoogleProjectAccessApprovalSettings)SetCount(val interface{})
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleProjectAccessApprovalSettings)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1036,6 +1071,14 @@ func (g *jsiiProxy_GoogleProjectAccessApprovalSettings) ResetActiveKeyVersion() 
 	_jsii_.InvokeVoid(
 		g,
 		"resetActiveKeyVersion",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleProjectAccessApprovalSettings) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

@@ -111,6 +111,10 @@ func (j *jsiiProxy_GoogleComputeVpnTunnel) validateSetCountParameters(val interf
 	return nil
 }
 
+func (j *jsiiProxy_GoogleComputeVpnTunnel) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleComputeVpnTunnel) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

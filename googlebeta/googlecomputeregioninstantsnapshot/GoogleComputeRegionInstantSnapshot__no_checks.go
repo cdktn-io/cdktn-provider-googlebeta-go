@@ -107,6 +107,10 @@ func (j *jsiiProxy_GoogleComputeRegionInstantSnapshot) validateSetCountParameter
 	return nil
 }
 
+func (j *jsiiProxy_GoogleComputeRegionInstantSnapshot) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleComputeRegionInstantSnapshot) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

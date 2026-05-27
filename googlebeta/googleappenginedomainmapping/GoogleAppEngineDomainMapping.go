@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_app_engine_domain_mapping google_app_engine_domain_mapping}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_app_engine_domain_mapping google_app_engine_domain_mapping}.
 type GoogleAppEngineDomainMapping interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -27,6 +27,9 @@ type GoogleAppEngineDomainMapping interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -124,6 +127,7 @@ type GoogleAppEngineDomainMapping interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutSslSettings(value *GoogleAppEngineDomainMappingSslSettings)
 	PutTimeouts(value *GoogleAppEngineDomainMappingTimeouts)
+	ResetDeletionPolicy()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -194,6 +198,26 @@ func (j *jsiiProxy_GoogleAppEngineDomainMapping) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleAppEngineDomainMapping) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleAppEngineDomainMapping) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -460,7 +484,7 @@ func (j *jsiiProxy_GoogleAppEngineDomainMapping) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_app_engine_domain_mapping google_app_engine_domain_mapping} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_app_engine_domain_mapping google_app_engine_domain_mapping} Resource.
 func NewGoogleAppEngineDomainMapping(scope constructs.Construct, id *string, config *GoogleAppEngineDomainMappingConfig) GoogleAppEngineDomainMapping {
 	_init_.Initialize()
 
@@ -478,7 +502,7 @@ func NewGoogleAppEngineDomainMapping(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_app_engine_domain_mapping google_app_engine_domain_mapping} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_app_engine_domain_mapping google_app_engine_domain_mapping} Resource.
 func NewGoogleAppEngineDomainMapping_Override(g GoogleAppEngineDomainMapping, scope constructs.Construct, id *string, config *GoogleAppEngineDomainMappingConfig) {
 	_init_.Initialize()
 
@@ -507,6 +531,17 @@ func (j *jsiiProxy_GoogleAppEngineDomainMapping)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleAppEngineDomainMapping)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -973,6 +1008,14 @@ func (g *jsiiProxy_GoogleAppEngineDomainMapping) PutTimeouts(value *GoogleAppEng
 		g,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleAppEngineDomainMapping) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

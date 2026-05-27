@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_tool google_ces_tool}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_tool google_ces_tool}.
 type GoogleCesTool interface {
 	cdktn.TerraformResource
 	App() *string
@@ -35,6 +35,9 @@ type GoogleCesTool interface {
 	CreateTime() *string
 	DataStoreTool() GoogleCesToolDataStoreToolOutputReference
 	DataStoreToolInput() *GoogleCesToolDataStoreTool
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -147,6 +150,7 @@ type GoogleCesTool interface {
 	PutTimeouts(value *GoogleCesToolTimeouts)
 	ResetClientFunction()
 	ResetDataStoreTool()
+	ResetDeletionPolicy()
 	ResetExecutionType()
 	ResetGoogleSearchTool()
 	ResetId()
@@ -288,6 +292,26 @@ func (j *jsiiProxy_GoogleCesTool) DataStoreToolInput() *GoogleCesToolDataStoreTo
 	_jsii_.Get(
 		j,
 		"dataStoreToolInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCesTool) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCesTool) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -644,7 +668,7 @@ func (j *jsiiProxy_GoogleCesTool) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_tool google_ces_tool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_tool google_ces_tool} Resource.
 func NewGoogleCesTool(scope constructs.Construct, id *string, config *GoogleCesToolConfig) GoogleCesTool {
 	_init_.Initialize()
 
@@ -662,7 +686,7 @@ func NewGoogleCesTool(scope constructs.Construct, id *string, config *GoogleCesT
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_tool google_ces_tool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_tool google_ces_tool} Resource.
 func NewGoogleCesTool_Override(g GoogleCesTool, scope constructs.Construct, id *string, config *GoogleCesToolConfig) {
 	_init_.Initialize()
 
@@ -702,6 +726,17 @@ func (j *jsiiProxy_GoogleCesTool)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleCesTool)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1227,6 +1262,14 @@ func (g *jsiiProxy_GoogleCesTool) ResetDataStoreTool() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetDataStoreTool",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleCesTool) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

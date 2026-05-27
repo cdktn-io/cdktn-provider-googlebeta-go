@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_security_ull_mirroring_collector google_network_security_ull_mirroring_collector}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_security_ull_mirroring_collector google_network_security_ull_mirroring_collector}.
 type GoogleNetworkSecurityUllMirroringCollector interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -28,6 +28,9 @@ type GoogleNetworkSecurityUllMirroringCollector interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -135,6 +138,7 @@ type GoogleNetworkSecurityUllMirroringCollector interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *GoogleNetworkSecurityUllMirroringCollectorTimeouts)
+	ResetDeletionPolicy()
 	ResetId()
 	ResetLabels()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -214,6 +218,26 @@ func (j *jsiiProxy_GoogleNetworkSecurityUllMirroringCollector) CreateTime() *str
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleNetworkSecurityUllMirroringCollector) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleNetworkSecurityUllMirroringCollector) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -560,7 +584,7 @@ func (j *jsiiProxy_GoogleNetworkSecurityUllMirroringCollector) UpdateTime() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_security_ull_mirroring_collector google_network_security_ull_mirroring_collector} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_security_ull_mirroring_collector google_network_security_ull_mirroring_collector} Resource.
 func NewGoogleNetworkSecurityUllMirroringCollector(scope constructs.Construct, id *string, config *GoogleNetworkSecurityUllMirroringCollectorConfig) GoogleNetworkSecurityUllMirroringCollector {
 	_init_.Initialize()
 
@@ -578,7 +602,7 @@ func NewGoogleNetworkSecurityUllMirroringCollector(scope constructs.Construct, i
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_security_ull_mirroring_collector google_network_security_ull_mirroring_collector} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_security_ull_mirroring_collector google_network_security_ull_mirroring_collector} Resource.
 func NewGoogleNetworkSecurityUllMirroringCollector_Override(g GoogleNetworkSecurityUllMirroringCollector, scope constructs.Construct, id *string, config *GoogleNetworkSecurityUllMirroringCollectorConfig) {
 	_init_.Initialize()
 
@@ -607,6 +631,17 @@ func (j *jsiiProxy_GoogleNetworkSecurityUllMirroringCollector)SetCount(val inter
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleNetworkSecurityUllMirroringCollector)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1095,6 +1130,14 @@ func (g *jsiiProxy_GoogleNetworkSecurityUllMirroringCollector) PutTimeouts(value
 		g,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleNetworkSecurityUllMirroringCollector) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

@@ -107,6 +107,10 @@ func (j *jsiiProxy_GoogleVertexAiFeaturestoreEntitytype) validateSetCountParamet
 	return nil
 }
 
+func (j *jsiiProxy_GoogleVertexAiFeaturestoreEntitytype) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleVertexAiFeaturestoreEntitytype) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

@@ -115,6 +115,10 @@ func (j *jsiiProxy_GoogleFirebaseAiLogicConfig) validateSetCountParameters(val i
 	return nil
 }
 
+func (j *jsiiProxy_GoogleFirebaseAiLogicConfig) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleFirebaseAiLogicConfig) validateSetIdParameters(val *string) error {
 	return nil
 }

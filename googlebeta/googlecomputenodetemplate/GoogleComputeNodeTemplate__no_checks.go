@@ -123,6 +123,10 @@ func (j *jsiiProxy_GoogleComputeNodeTemplate) validateSetCpuOvercommitTypeParame
 	return nil
 }
 
+func (j *jsiiProxy_GoogleComputeNodeTemplate) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleComputeNodeTemplate) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

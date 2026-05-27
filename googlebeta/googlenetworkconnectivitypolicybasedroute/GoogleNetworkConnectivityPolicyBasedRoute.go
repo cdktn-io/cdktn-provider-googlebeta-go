@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_connectivity_policy_based_route google_network_connectivity_policy_based_route}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_connectivity_policy_based_route google_network_connectivity_policy_based_route}.
 type GoogleNetworkConnectivityPolicyBasedRoute interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -28,6 +28,9 @@ type GoogleNetworkConnectivityPolicyBasedRoute interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -149,6 +152,7 @@ type GoogleNetworkConnectivityPolicyBasedRoute interface {
 	PutInterconnectAttachment(value *GoogleNetworkConnectivityPolicyBasedRouteInterconnectAttachment)
 	PutTimeouts(value *GoogleNetworkConnectivityPolicyBasedRouteTimeouts)
 	PutVirtualMachine(value *GoogleNetworkConnectivityPolicyBasedRouteVirtualMachine)
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	ResetInterconnectAttachment()
@@ -234,6 +238,26 @@ func (j *jsiiProxy_GoogleNetworkConnectivityPolicyBasedRoute) CreateTime() *stri
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleNetworkConnectivityPolicyBasedRoute) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleNetworkConnectivityPolicyBasedRoute) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -670,7 +694,7 @@ func (j *jsiiProxy_GoogleNetworkConnectivityPolicyBasedRoute) Warnings() GoogleN
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_connectivity_policy_based_route google_network_connectivity_policy_based_route} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_connectivity_policy_based_route google_network_connectivity_policy_based_route} Resource.
 func NewGoogleNetworkConnectivityPolicyBasedRoute(scope constructs.Construct, id *string, config *GoogleNetworkConnectivityPolicyBasedRouteConfig) GoogleNetworkConnectivityPolicyBasedRoute {
 	_init_.Initialize()
 
@@ -688,7 +712,7 @@ func NewGoogleNetworkConnectivityPolicyBasedRoute(scope constructs.Construct, id
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_connectivity_policy_based_route google_network_connectivity_policy_based_route} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_connectivity_policy_based_route google_network_connectivity_policy_based_route} Resource.
 func NewGoogleNetworkConnectivityPolicyBasedRoute_Override(g GoogleNetworkConnectivityPolicyBasedRoute, scope constructs.Construct, id *string, config *GoogleNetworkConnectivityPolicyBasedRouteConfig) {
 	_init_.Initialize()
 
@@ -717,6 +741,17 @@ func (j *jsiiProxy_GoogleNetworkConnectivityPolicyBasedRoute)SetCount(val interf
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleNetworkConnectivityPolicyBasedRoute)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1260,6 +1295,14 @@ func (g *jsiiProxy_GoogleNetworkConnectivityPolicyBasedRoute) PutVirtualMachine(
 		g,
 		"putVirtualMachine",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleNetworkConnectivityPolicyBasedRoute) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

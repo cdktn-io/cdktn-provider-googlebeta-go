@@ -111,6 +111,10 @@ func (j *jsiiProxy_GoogleCesAppRootAgentAssociation) validateSetCountParameters(
 	return nil
 }
 
+func (j *jsiiProxy_GoogleCesAppRootAgentAssociation) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleCesAppRootAgentAssociation) validateSetIdParameters(val *string) error {
 	return nil
 }

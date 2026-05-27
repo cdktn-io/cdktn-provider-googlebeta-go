@@ -159,6 +159,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "createIgnoreAlreadyExists", GoGetter: "CreateIgnoreAlreadyExists"},
 			_jsii_.MemberProperty{JsiiProperty: "createTime", GoGetter: "CreateTime"},
 			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "deletionPolicy", GoGetter: "DeletionPolicy"},
 			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
 			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
 			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},

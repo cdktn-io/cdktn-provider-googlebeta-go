@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iam_access_boundary_policy google_iam_access_boundary_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_iam_access_boundary_policy google_iam_access_boundary_policy}.
 type GoogleIamAccessBoundaryPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -27,6 +27,9 @@ type GoogleIamAccessBoundaryPolicy interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -123,6 +126,7 @@ type GoogleIamAccessBoundaryPolicy interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutRules(value interface{})
 	PutTimeouts(value *GoogleIamAccessBoundaryPolicyTimeouts)
+	ResetDeletionPolicy()
 	ResetDisplayName()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -191,6 +195,26 @@ func (j *jsiiProxy_GoogleIamAccessBoundaryPolicy) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleIamAccessBoundaryPolicy) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleIamAccessBoundaryPolicy) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -447,7 +471,7 @@ func (j *jsiiProxy_GoogleIamAccessBoundaryPolicy) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iam_access_boundary_policy google_iam_access_boundary_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_iam_access_boundary_policy google_iam_access_boundary_policy} Resource.
 func NewGoogleIamAccessBoundaryPolicy(scope constructs.Construct, id *string, config *GoogleIamAccessBoundaryPolicyConfig) GoogleIamAccessBoundaryPolicy {
 	_init_.Initialize()
 
@@ -465,7 +489,7 @@ func NewGoogleIamAccessBoundaryPolicy(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iam_access_boundary_policy google_iam_access_boundary_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_iam_access_boundary_policy google_iam_access_boundary_policy} Resource.
 func NewGoogleIamAccessBoundaryPolicy_Override(g GoogleIamAccessBoundaryPolicy, scope constructs.Construct, id *string, config *GoogleIamAccessBoundaryPolicyConfig) {
 	_init_.Initialize()
 
@@ -494,6 +518,17 @@ func (j *jsiiProxy_GoogleIamAccessBoundaryPolicy)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleIamAccessBoundaryPolicy)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -960,6 +995,14 @@ func (g *jsiiProxy_GoogleIamAccessBoundaryPolicy) PutTimeouts(value *GoogleIamAc
 		g,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleIamAccessBoundaryPolicy) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

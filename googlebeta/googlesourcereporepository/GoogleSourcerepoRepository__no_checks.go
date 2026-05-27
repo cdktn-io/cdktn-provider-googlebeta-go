@@ -111,6 +111,10 @@ func (j *jsiiProxy_GoogleSourcerepoRepository) validateSetCreateIgnoreAlreadyExi
 	return nil
 }
 
+func (j *jsiiProxy_GoogleSourcerepoRepository) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleSourcerepoRepository) validateSetIdParameters(val *string) error {
 	return nil
 }

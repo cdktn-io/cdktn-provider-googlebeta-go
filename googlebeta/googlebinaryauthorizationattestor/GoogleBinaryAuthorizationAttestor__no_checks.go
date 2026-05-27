@@ -107,6 +107,10 @@ func (j *jsiiProxy_GoogleBinaryAuthorizationAttestor) validateSetCountParameters
 	return nil
 }
 
+func (j *jsiiProxy_GoogleBinaryAuthorizationAttestor) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleBinaryAuthorizationAttestor) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

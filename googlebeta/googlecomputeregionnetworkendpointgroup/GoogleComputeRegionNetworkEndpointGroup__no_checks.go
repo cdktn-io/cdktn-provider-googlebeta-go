@@ -123,6 +123,10 @@ func (j *jsiiProxy_GoogleComputeRegionNetworkEndpointGroup) validateSetCountPara
 	return nil
 }
 
+func (j *jsiiProxy_GoogleComputeRegionNetworkEndpointGroup) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleComputeRegionNetworkEndpointGroup) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

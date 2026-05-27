@@ -23,6 +23,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "creationTimestamp", GoGetter: "CreationTimestamp"},
 			_jsii_.MemberProperty{JsiiProperty: "deleteAfterDuration", GoGetter: "DeleteAfterDuration"},
 			_jsii_.MemberProperty{JsiiProperty: "deleteAtTime", GoGetter: "DeleteAtTime"},
+			_jsii_.MemberProperty{JsiiProperty: "deletionPolicy", GoGetter: "DeletionPolicy"},
 			_jsii_.MemberProperty{JsiiProperty: "dependsOn", GoGetter: "DependsOn"},
 			_jsii_.MemberProperty{JsiiProperty: "description", GoGetter: "Description"},
 			_jsii_.MemberProperty{JsiiProperty: "enableEmergentMaintenance", GoGetter: "EnableEmergentMaintenance"},

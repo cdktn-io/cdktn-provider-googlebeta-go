@@ -410,6 +410,14 @@ func (j *jsiiProxy_GoogleDataplexEntryLink) validateSetCountParameters(val inter
 	return nil
 }
 
+func (j *jsiiProxy_GoogleDataplexEntryLink) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_GoogleDataplexEntryLink) validateSetEntryGroupIdParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apihub_curation google_apihub_curation}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apihub_curation google_apihub_curation}.
 type GoogleApihubCuration interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -31,6 +31,9 @@ type GoogleApihubCuration interface {
 	CurationId() *string
 	SetCurationId(val *string)
 	CurationIdInput() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -135,6 +138,7 @@ type GoogleApihubCuration interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutEndpoint(value *GoogleApihubCurationEndpoint)
 	PutTimeouts(value *GoogleApihubCurationTimeouts)
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -234,6 +238,26 @@ func (j *jsiiProxy_GoogleApihubCuration) CurationIdInput() *string {
 	_jsii_.Get(
 		j,
 		"curationIdInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleApihubCuration) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleApihubCuration) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -560,7 +584,7 @@ func (j *jsiiProxy_GoogleApihubCuration) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apihub_curation google_apihub_curation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apihub_curation google_apihub_curation} Resource.
 func NewGoogleApihubCuration(scope constructs.Construct, id *string, config *GoogleApihubCurationConfig) GoogleApihubCuration {
 	_init_.Initialize()
 
@@ -578,7 +602,7 @@ func NewGoogleApihubCuration(scope constructs.Construct, id *string, config *Goo
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apihub_curation google_apihub_curation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apihub_curation google_apihub_curation} Resource.
 func NewGoogleApihubCuration_Override(g GoogleApihubCuration, scope constructs.Construct, id *string, config *GoogleApihubCurationConfig) {
 	_init_.Initialize()
 
@@ -618,6 +642,17 @@ func (j *jsiiProxy_GoogleApihubCuration)SetCurationId(val *string) {
 	_jsii_.Set(
 		j,
 		"curationId",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleApihubCuration)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1095,6 +1130,14 @@ func (g *jsiiProxy_GoogleApihubCuration) PutTimeouts(value *GoogleApihubCuration
 		g,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleApihubCuration) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

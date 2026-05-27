@@ -103,6 +103,10 @@ func (j *jsiiProxy_GoogleDocumentAiSchema) validateSetCountParameters(val interf
 	return nil
 }
 
+func (j *jsiiProxy_GoogleDocumentAiSchema) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleDocumentAiSchema) validateSetDisplayNameParameters(val *string) error {
 	return nil
 }

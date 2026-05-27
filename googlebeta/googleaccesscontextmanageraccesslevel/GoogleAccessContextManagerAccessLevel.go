@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_access_context_manager_access_level google_access_context_manager_access_level}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_access_context_manager_access_level google_access_context_manager_access_level}.
 type GoogleAccessContextManagerAccessLevel interface {
 	cdktn.TerraformResource
 	Basic() GoogleAccessContextManagerAccessLevelBasicOutputReference
@@ -31,6 +31,9 @@ type GoogleAccessContextManagerAccessLevel interface {
 	SetCount(val interface{})
 	Custom() GoogleAccessContextManagerAccessLevelCustomOutputReference
 	CustomInput() *GoogleAccessContextManagerAccessLevelCustom
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -130,6 +133,7 @@ type GoogleAccessContextManagerAccessLevel interface {
 	PutTimeouts(value *GoogleAccessContextManagerAccessLevelTimeouts)
 	ResetBasic()
 	ResetCustom()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -238,6 +242,26 @@ func (j *jsiiProxy_GoogleAccessContextManagerAccessLevel) CustomInput() *GoogleA
 	_jsii_.Get(
 		j,
 		"customInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleAccessContextManagerAccessLevel) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleAccessContextManagerAccessLevel) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -484,7 +508,7 @@ func (j *jsiiProxy_GoogleAccessContextManagerAccessLevel) TitleInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_access_context_manager_access_level google_access_context_manager_access_level} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_access_context_manager_access_level google_access_context_manager_access_level} Resource.
 func NewGoogleAccessContextManagerAccessLevel(scope constructs.Construct, id *string, config *GoogleAccessContextManagerAccessLevelConfig) GoogleAccessContextManagerAccessLevel {
 	_init_.Initialize()
 
@@ -502,7 +526,7 @@ func NewGoogleAccessContextManagerAccessLevel(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_access_context_manager_access_level google_access_context_manager_access_level} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_access_context_manager_access_level google_access_context_manager_access_level} Resource.
 func NewGoogleAccessContextManagerAccessLevel_Override(g GoogleAccessContextManagerAccessLevel, scope constructs.Construct, id *string, config *GoogleAccessContextManagerAccessLevelConfig) {
 	_init_.Initialize()
 
@@ -531,6 +555,17 @@ func (j *jsiiProxy_GoogleAccessContextManagerAccessLevel)SetCount(val interface{
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleAccessContextManagerAccessLevel)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1034,6 +1069,14 @@ func (g *jsiiProxy_GoogleAccessContextManagerAccessLevel) ResetCustom() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetCustom",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleAccessContextManagerAccessLevel) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

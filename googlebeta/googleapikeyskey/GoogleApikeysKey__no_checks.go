@@ -107,6 +107,10 @@ func (j *jsiiProxy_GoogleApikeysKey) validateSetCountParameters(val interface{})
 	return nil
 }
 
+func (j *jsiiProxy_GoogleApikeysKey) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleApikeysKey) validateSetDisplayNameParameters(val *string) error {
 	return nil
 }

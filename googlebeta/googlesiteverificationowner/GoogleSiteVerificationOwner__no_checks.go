@@ -103,6 +103,10 @@ func (j *jsiiProxy_GoogleSiteVerificationOwner) validateSetCountParameters(val i
 	return nil
 }
 
+func (j *jsiiProxy_GoogleSiteVerificationOwner) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleSiteVerificationOwner) validateSetEmailParameters(val *string) error {
 	return nil
 }

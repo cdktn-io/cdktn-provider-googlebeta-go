@@ -107,6 +107,10 @@ func (j *jsiiProxy_GoogleSccManagementFolderSecurityHealthAnalyticsCustomModule)
 	return nil
 }
 
+func (j *jsiiProxy_GoogleSccManagementFolderSecurityHealthAnalyticsCustomModule) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleSccManagementFolderSecurityHealthAnalyticsCustomModule) validateSetDisplayNameParameters(val *string) error {
 	return nil
 }

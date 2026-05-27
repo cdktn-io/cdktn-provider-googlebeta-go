@@ -107,6 +107,10 @@ func (j *jsiiProxy_GoogleComputeGlobalNetworkEndpointGroup) validateSetDefaultPo
 	return nil
 }
 
+func (j *jsiiProxy_GoogleComputeGlobalNetworkEndpointGroup) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleComputeGlobalNetworkEndpointGroup) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

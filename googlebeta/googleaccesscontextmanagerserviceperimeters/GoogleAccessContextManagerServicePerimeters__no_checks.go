@@ -107,6 +107,10 @@ func (j *jsiiProxy_GoogleAccessContextManagerServicePerimeters) validateSetCount
 	return nil
 }
 
+func (j *jsiiProxy_GoogleAccessContextManagerServicePerimeters) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleAccessContextManagerServicePerimeters) validateSetIdParameters(val *string) error {
 	return nil
 }

@@ -115,6 +115,10 @@ func (j *jsiiProxy_GoogleColabSchedule) validateSetCronParameters(val *string) e
 	return nil
 }
 
+func (j *jsiiProxy_GoogleColabSchedule) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleColabSchedule) validateSetDesiredStateParameters(val *string) error {
 	return nil
 }

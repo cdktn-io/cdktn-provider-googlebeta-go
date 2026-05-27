@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloud_asset_folder_feed google_cloud_asset_folder_feed}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloud_asset_folder_feed google_cloud_asset_folder_feed}.
 type GoogleCloudAssetFolderFeed interface {
 	cdktn.TerraformResource
 	AssetNames() *[]*string
@@ -41,6 +41,9 @@ type GoogleCloudAssetFolderFeed interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -140,6 +143,7 @@ type GoogleCloudAssetFolderFeed interface {
 	ResetAssetTypes()
 	ResetCondition()
 	ResetContentType()
+	ResetDeletionPolicy()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -307,6 +311,26 @@ func (j *jsiiProxy_GoogleCloudAssetFolderFeed) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCloudAssetFolderFeed) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCloudAssetFolderFeed) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -553,7 +577,7 @@ func (j *jsiiProxy_GoogleCloudAssetFolderFeed) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloud_asset_folder_feed google_cloud_asset_folder_feed} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloud_asset_folder_feed google_cloud_asset_folder_feed} Resource.
 func NewGoogleCloudAssetFolderFeed(scope constructs.Construct, id *string, config *GoogleCloudAssetFolderFeedConfig) GoogleCloudAssetFolderFeed {
 	_init_.Initialize()
 
@@ -571,7 +595,7 @@ func NewGoogleCloudAssetFolderFeed(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloud_asset_folder_feed google_cloud_asset_folder_feed} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloud_asset_folder_feed google_cloud_asset_folder_feed} Resource.
 func NewGoogleCloudAssetFolderFeed_Override(g GoogleCloudAssetFolderFeed, scope constructs.Construct, id *string, config *GoogleCloudAssetFolderFeedConfig) {
 	_init_.Initialize()
 
@@ -644,6 +668,17 @@ func (j *jsiiProxy_GoogleCloudAssetFolderFeed)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleCloudAssetFolderFeed)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1141,6 +1176,14 @@ func (g *jsiiProxy_GoogleCloudAssetFolderFeed) ResetContentType() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetContentType",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleCloudAssetFolderFeed) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

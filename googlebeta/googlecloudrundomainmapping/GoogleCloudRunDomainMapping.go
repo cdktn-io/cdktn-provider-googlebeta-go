@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloud_run_domain_mapping google_cloud_run_domain_mapping}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloud_run_domain_mapping google_cloud_run_domain_mapping}.
 type GoogleCloudRunDomainMapping interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -27,6 +27,9 @@ type GoogleCloudRunDomainMapping interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -126,6 +129,7 @@ type GoogleCloudRunDomainMapping interface {
 	PutMetadata(value *GoogleCloudRunDomainMappingMetadata)
 	PutSpec(value *GoogleCloudRunDomainMappingSpec)
 	PutTimeouts(value *GoogleCloudRunDomainMappingTimeouts)
+	ResetDeletionPolicy()
 	ResetId()
 	ResetMetadata()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -195,6 +199,26 @@ func (j *jsiiProxy_GoogleCloudRunDomainMapping) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCloudRunDomainMapping) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCloudRunDomainMapping) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -471,7 +495,7 @@ func (j *jsiiProxy_GoogleCloudRunDomainMapping) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloud_run_domain_mapping google_cloud_run_domain_mapping} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloud_run_domain_mapping google_cloud_run_domain_mapping} Resource.
 func NewGoogleCloudRunDomainMapping(scope constructs.Construct, id *string, config *GoogleCloudRunDomainMappingConfig) GoogleCloudRunDomainMapping {
 	_init_.Initialize()
 
@@ -489,7 +513,7 @@ func NewGoogleCloudRunDomainMapping(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloud_run_domain_mapping google_cloud_run_domain_mapping} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloud_run_domain_mapping google_cloud_run_domain_mapping} Resource.
 func NewGoogleCloudRunDomainMapping_Override(g GoogleCloudRunDomainMapping, scope constructs.Construct, id *string, config *GoogleCloudRunDomainMappingConfig) {
 	_init_.Initialize()
 
@@ -518,6 +542,17 @@ func (j *jsiiProxy_GoogleCloudRunDomainMapping)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleCloudRunDomainMapping)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -995,6 +1030,14 @@ func (g *jsiiProxy_GoogleCloudRunDomainMapping) PutTimeouts(value *GoogleCloudRu
 		g,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleCloudRunDomainMapping) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

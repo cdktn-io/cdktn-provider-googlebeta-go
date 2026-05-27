@@ -135,6 +135,10 @@ func (j *jsiiProxy_GoogleContainerAwsNodePool) validateSetCountParameters(val in
 	return nil
 }
 
+func (j *jsiiProxy_GoogleContainerAwsNodePool) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleContainerAwsNodePool) validateSetIdParameters(val *string) error {
 	return nil
 }

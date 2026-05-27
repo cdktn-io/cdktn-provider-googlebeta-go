@@ -348,6 +348,14 @@ func (j *jsiiProxy_GoogleComputeRegionTargetHttpProxy) validateSetCountParameter
 	return nil
 }
 
+func (j *jsiiProxy_GoogleComputeRegionTargetHttpProxy) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_GoogleComputeRegionTargetHttpProxy) validateSetDescriptionParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

@@ -111,6 +111,10 @@ func (j *jsiiProxy_GoogleDataplexAspectType) validateSetDataClassificationParame
 	return nil
 }
 
+func (j *jsiiProxy_GoogleDataplexAspectType) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleDataplexAspectType) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

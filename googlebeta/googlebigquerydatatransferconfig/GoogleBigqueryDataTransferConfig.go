@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_bigquery_data_transfer_config google_bigquery_data_transfer_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_bigquery_data_transfer_config google_bigquery_data_transfer_config}.
 type GoogleBigqueryDataTransferConfig interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -33,6 +33,9 @@ type GoogleBigqueryDataTransferConfig interface {
 	DataSourceId() *string
 	SetDataSourceId(val *string)
 	DataSourceIdInput() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -157,6 +160,7 @@ type GoogleBigqueryDataTransferConfig interface {
 	PutSensitiveParams(value *GoogleBigqueryDataTransferConfigSensitiveParams)
 	PutTimeouts(value *GoogleBigqueryDataTransferConfigTimeouts)
 	ResetDataRefreshWindowDays()
+	ResetDeletionPolicy()
 	ResetDestinationDatasetId()
 	ResetDisabled()
 	ResetEmailPreferences()
@@ -275,6 +279,26 @@ func (j *jsiiProxy_GoogleBigqueryDataTransferConfig) DataSourceIdInput() *string
 	_jsii_.Get(
 		j,
 		"dataSourceIdInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleBigqueryDataTransferConfig) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleBigqueryDataTransferConfig) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -711,7 +735,7 @@ func (j *jsiiProxy_GoogleBigqueryDataTransferConfig) TimeoutsInput() interface{}
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_bigquery_data_transfer_config google_bigquery_data_transfer_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_bigquery_data_transfer_config google_bigquery_data_transfer_config} Resource.
 func NewGoogleBigqueryDataTransferConfig(scope constructs.Construct, id *string, config *GoogleBigqueryDataTransferConfigConfig) GoogleBigqueryDataTransferConfig {
 	_init_.Initialize()
 
@@ -729,7 +753,7 @@ func NewGoogleBigqueryDataTransferConfig(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_bigquery_data_transfer_config google_bigquery_data_transfer_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_bigquery_data_transfer_config google_bigquery_data_transfer_config} Resource.
 func NewGoogleBigqueryDataTransferConfig_Override(g GoogleBigqueryDataTransferConfig, scope constructs.Construct, id *string, config *GoogleBigqueryDataTransferConfigConfig) {
 	_init_.Initialize()
 
@@ -780,6 +804,17 @@ func (j *jsiiProxy_GoogleBigqueryDataTransferConfig)SetDataSourceId(val *string)
 	_jsii_.Set(
 		j,
 		"dataSourceId",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleBigqueryDataTransferConfig)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1352,6 +1387,14 @@ func (g *jsiiProxy_GoogleBigqueryDataTransferConfig) ResetDataRefreshWindowDays(
 	_jsii_.InvokeVoid(
 		g,
 		"resetDataRefreshWindowDays",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleBigqueryDataTransferConfig) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

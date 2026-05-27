@@ -111,6 +111,10 @@ func (j *jsiiProxy_GoogleSccProjectNotificationConfig) validateSetCountParameter
 	return nil
 }
 
+func (j *jsiiProxy_GoogleSccProjectNotificationConfig) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleSccProjectNotificationConfig) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

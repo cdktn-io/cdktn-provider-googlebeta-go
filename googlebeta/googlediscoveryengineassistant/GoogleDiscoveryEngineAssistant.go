@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_discovery_engine_assistant google_discovery_engine_assistant}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_discovery_engine_assistant google_discovery_engine_assistant}.
 type GoogleDiscoveryEngineAssistant interface {
 	cdktn.TerraformResource
 	AssistantId() *string
@@ -35,6 +35,9 @@ type GoogleDiscoveryEngineAssistant interface {
 	SetCount(val interface{})
 	CustomerPolicy() GoogleDiscoveryEngineAssistantCustomerPolicyOutputReference
 	CustomerPolicyInput() *GoogleDiscoveryEngineAssistantCustomerPolicy
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -142,6 +145,7 @@ type GoogleDiscoveryEngineAssistant interface {
 	PutGenerationConfig(value *GoogleDiscoveryEngineAssistantGenerationConfig)
 	PutTimeouts(value *GoogleDiscoveryEngineAssistantTimeouts)
 	ResetCustomerPolicy()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetGenerationConfig()
 	ResetId()
@@ -273,6 +277,26 @@ func (j *jsiiProxy_GoogleDiscoveryEngineAssistant) CustomerPolicyInput() *Google
 	_jsii_.Get(
 		j,
 		"customerPolicyInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDiscoveryEngineAssistant) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDiscoveryEngineAssistant) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -589,7 +613,7 @@ func (j *jsiiProxy_GoogleDiscoveryEngineAssistant) WebGroundingTypeInput() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_discovery_engine_assistant google_discovery_engine_assistant} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_discovery_engine_assistant google_discovery_engine_assistant} Resource.
 func NewGoogleDiscoveryEngineAssistant(scope constructs.Construct, id *string, config *GoogleDiscoveryEngineAssistantConfig) GoogleDiscoveryEngineAssistant {
 	_init_.Initialize()
 
@@ -607,7 +631,7 @@ func NewGoogleDiscoveryEngineAssistant(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_discovery_engine_assistant google_discovery_engine_assistant} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_discovery_engine_assistant google_discovery_engine_assistant} Resource.
 func NewGoogleDiscoveryEngineAssistant_Override(g GoogleDiscoveryEngineAssistant, scope constructs.Construct, id *string, config *GoogleDiscoveryEngineAssistantConfig) {
 	_init_.Initialize()
 
@@ -658,6 +682,17 @@ func (j *jsiiProxy_GoogleDiscoveryEngineAssistant)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleDiscoveryEngineAssistant)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1175,6 +1210,14 @@ func (g *jsiiProxy_GoogleDiscoveryEngineAssistant) ResetCustomerPolicy() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetCustomerPolicy",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleDiscoveryEngineAssistant) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

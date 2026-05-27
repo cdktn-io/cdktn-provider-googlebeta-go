@@ -99,6 +99,10 @@ func (j *jsiiProxy_GoogleOrganizationIamCustomRole) validateSetCountParameters(v
 	return nil
 }
 
+func (j *jsiiProxy_GoogleOrganizationIamCustomRole) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleOrganizationIamCustomRole) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

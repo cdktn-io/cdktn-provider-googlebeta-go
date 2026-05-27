@@ -348,6 +348,14 @@ func (j *jsiiProxy_GoogleComputeRegionCompositeHealthCheck) validateSetCountPara
 	return nil
 }
 
+func (j *jsiiProxy_GoogleComputeRegionCompositeHealthCheck) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_GoogleComputeRegionCompositeHealthCheck) validateSetDescriptionParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

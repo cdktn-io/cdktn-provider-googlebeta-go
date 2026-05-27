@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_node_group google_compute_node_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_node_group google_compute_node_group}.
 type GoogleComputeNodeGroup interface {
 	cdktn.TerraformResource
 	AutoscalingPolicy() GoogleComputeNodeGroupAutoscalingPolicyOutputReference
@@ -30,6 +30,9 @@ type GoogleComputeNodeGroup interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreationTimestamp() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -147,6 +150,7 @@ type GoogleComputeNodeGroup interface {
 	PutShareSettings(value *GoogleComputeNodeGroupShareSettings)
 	PutTimeouts(value *GoogleComputeNodeGroupTimeouts)
 	ResetAutoscalingPolicy()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	ResetInitialSize()
@@ -252,6 +256,26 @@ func (j *jsiiProxy_GoogleComputeNodeGroup) CreationTimestamp() *string {
 	_jsii_.Get(
 		j,
 		"creationTimestamp",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeNodeGroup) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeNodeGroup) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -638,7 +662,7 @@ func (j *jsiiProxy_GoogleComputeNodeGroup) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_node_group google_compute_node_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_node_group google_compute_node_group} Resource.
 func NewGoogleComputeNodeGroup(scope constructs.Construct, id *string, config *GoogleComputeNodeGroupConfig) GoogleComputeNodeGroup {
 	_init_.Initialize()
 
@@ -656,7 +680,7 @@ func NewGoogleComputeNodeGroup(scope constructs.Construct, id *string, config *G
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_node_group google_compute_node_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_node_group google_compute_node_group} Resource.
 func NewGoogleComputeNodeGroup_Override(g GoogleComputeNodeGroup, scope constructs.Construct, id *string, config *GoogleComputeNodeGroupConfig) {
 	_init_.Initialize()
 
@@ -685,6 +709,17 @@ func (j *jsiiProxy_GoogleComputeNodeGroup)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleComputeNodeGroup)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1235,6 +1270,14 @@ func (g *jsiiProxy_GoogleComputeNodeGroup) ResetAutoscalingPolicy() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetAutoscalingPolicy",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleComputeNodeGroup) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

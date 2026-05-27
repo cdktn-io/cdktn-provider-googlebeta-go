@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_env_keystore google_apigee_env_keystore}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_env_keystore google_apigee_env_keystore}.
 type GoogleApigeeEnvKeystore interface {
 	cdktn.TerraformResource
 	Aliases() *[]*string
@@ -28,6 +28,9 @@ type GoogleApigeeEnvKeystore interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -117,6 +120,7 @@ type GoogleApigeeEnvKeystore interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *GoogleApigeeEnvKeystoreTimeouts)
+	ResetDeletionPolicy()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -194,6 +198,26 @@ func (j *jsiiProxy_GoogleApigeeEnvKeystore) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleApigeeEnvKeystore) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleApigeeEnvKeystore) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -400,7 +424,7 @@ func (j *jsiiProxy_GoogleApigeeEnvKeystore) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_env_keystore google_apigee_env_keystore} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_env_keystore google_apigee_env_keystore} Resource.
 func NewGoogleApigeeEnvKeystore(scope constructs.Construct, id *string, config *GoogleApigeeEnvKeystoreConfig) GoogleApigeeEnvKeystore {
 	_init_.Initialize()
 
@@ -418,7 +442,7 @@ func NewGoogleApigeeEnvKeystore(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_env_keystore google_apigee_env_keystore} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_env_keystore google_apigee_env_keystore} Resource.
 func NewGoogleApigeeEnvKeystore_Override(g GoogleApigeeEnvKeystore, scope constructs.Construct, id *string, config *GoogleApigeeEnvKeystoreConfig) {
 	_init_.Initialize()
 
@@ -447,6 +471,17 @@ func (j *jsiiProxy_GoogleApigeeEnvKeystore)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleApigeeEnvKeystore)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -891,6 +926,14 @@ func (g *jsiiProxy_GoogleApigeeEnvKeystore) PutTimeouts(value *GoogleApigeeEnvKe
 		g,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleApigeeEnvKeystore) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

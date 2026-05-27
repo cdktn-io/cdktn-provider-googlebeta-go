@@ -30,6 +30,7 @@ type DataGoogleOracleDatabaseCloudExadataInfrastructuresCloudExadataInfrastructu
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
+	DeletionPolicy() *string
 	DeletionProtection() cdktn.IResolvable
 	DisplayName() *string
 	EffectiveLabels() cdktn.StringMap
@@ -137,6 +138,16 @@ func (j *jsiiProxy_DataGoogleOracleDatabaseCloudExadataInfrastructuresCloudExada
 	_jsii_.Get(
 		j,
 		"creationStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleOracleDatabaseCloudExadataInfrastructuresCloudExadataInfrastructuresOutputReference) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
 		&returns,
 	)
 	return returns

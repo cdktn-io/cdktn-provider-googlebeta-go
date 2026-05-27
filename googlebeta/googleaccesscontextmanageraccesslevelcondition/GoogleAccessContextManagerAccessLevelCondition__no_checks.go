@@ -115,6 +115,10 @@ func (j *jsiiProxy_GoogleAccessContextManagerAccessLevelCondition) validateSetCo
 	return nil
 }
 
+func (j *jsiiProxy_GoogleAccessContextManagerAccessLevelCondition) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleAccessContextManagerAccessLevelCondition) validateSetIdParameters(val *string) error {
 	return nil
 }

@@ -25,6 +25,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "dataStoreId", GoGetter: "DataStoreId"},
 			_jsii_.MemberProperty{JsiiProperty: "dataStoreIdInput", GoGetter: "DataStoreIdInput"},
 			_jsii_.MemberProperty{JsiiProperty: "defaultSchemaId", GoGetter: "DefaultSchemaId"},
+			_jsii_.MemberProperty{JsiiProperty: "deletionPolicy", GoGetter: "DeletionPolicy"},
 			_jsii_.MemberProperty{JsiiProperty: "dependsOn", GoGetter: "DependsOn"},
 			_jsii_.MemberProperty{JsiiProperty: "displayName", GoGetter: "DisplayName"},
 			_jsii_.MemberProperty{JsiiProperty: "displayNameInput", GoGetter: "DisplayNameInput"},

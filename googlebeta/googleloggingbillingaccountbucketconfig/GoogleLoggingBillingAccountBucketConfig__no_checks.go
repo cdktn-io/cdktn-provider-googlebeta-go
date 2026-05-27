@@ -115,6 +115,10 @@ func (j *jsiiProxy_GoogleLoggingBillingAccountBucketConfig) validateSetCountPara
 	return nil
 }
 
+func (j *jsiiProxy_GoogleLoggingBillingAccountBucketConfig) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleLoggingBillingAccountBucketConfig) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

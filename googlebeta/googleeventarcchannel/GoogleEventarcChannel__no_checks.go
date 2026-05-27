@@ -107,6 +107,10 @@ func (j *jsiiProxy_GoogleEventarcChannel) validateSetCryptoKeyNameParameters(val
 	return nil
 }
 
+func (j *jsiiProxy_GoogleEventarcChannel) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleEventarcChannel) validateSetIdParameters(val *string) error {
 	return nil
 }

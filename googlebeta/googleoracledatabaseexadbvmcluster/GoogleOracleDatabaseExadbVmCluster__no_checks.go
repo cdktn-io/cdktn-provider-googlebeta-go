@@ -111,6 +111,10 @@ func (j *jsiiProxy_GoogleOracleDatabaseExadbVmCluster) validateSetCountParameter
 	return nil
 }
 
+func (j *jsiiProxy_GoogleOracleDatabaseExadbVmCluster) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleOracleDatabaseExadbVmCluster) validateSetDeletionProtectionParameters(val interface{}) error {
 	return nil
 }

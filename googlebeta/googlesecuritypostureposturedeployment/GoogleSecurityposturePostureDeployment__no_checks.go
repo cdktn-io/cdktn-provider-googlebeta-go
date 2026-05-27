@@ -103,6 +103,10 @@ func (j *jsiiProxy_GoogleSecurityposturePostureDeployment) validateSetCountParam
 	return nil
 }
 
+func (j *jsiiProxy_GoogleSecurityposturePostureDeployment) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleSecurityposturePostureDeployment) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

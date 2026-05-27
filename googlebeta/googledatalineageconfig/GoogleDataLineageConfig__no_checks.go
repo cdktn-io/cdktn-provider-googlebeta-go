@@ -107,6 +107,10 @@ func (j *jsiiProxy_GoogleDataLineageConfig) validateSetCountParameters(val inter
 	return nil
 }
 
+func (j *jsiiProxy_GoogleDataLineageConfig) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleDataLineageConfig) validateSetIdParameters(val *string) error {
 	return nil
 }

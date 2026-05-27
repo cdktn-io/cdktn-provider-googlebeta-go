@@ -107,6 +107,10 @@ func (j *jsiiProxy_GoogleSccFolderCustomModule) validateSetCountParameters(val i
 	return nil
 }
 
+func (j *jsiiProxy_GoogleSccFolderCustomModule) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleSccFolderCustomModule) validateSetDisplayNameParameters(val *string) error {
 	return nil
 }

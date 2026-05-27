@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_database_migration_service_connection_profile google_database_migration_service_connection_profile}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_database_migration_service_connection_profile google_database_migration_service_connection_profile}.
 type GoogleDatabaseMigrationServiceConnectionProfile interface {
 	cdktn.TerraformResource
 	Alloydb() GoogleDatabaseMigrationServiceConnectionProfileAlloydbOutputReference
@@ -36,6 +36,9 @@ type GoogleDatabaseMigrationServiceConnectionProfile interface {
 	SetCount(val interface{})
 	CreateTime() *string
 	Dbprovider() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -88,6 +91,9 @@ type GoogleDatabaseMigrationServiceConnectionProfile interface {
 	SetProvisioners(val *[]interface{})
 	// Experimental.
 	RawOverrides() interface{}
+	Role() *string
+	SetRole(val *string)
+	RoleInput() *string
 	State() *string
 	// Experimental.
 	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
@@ -149,6 +155,7 @@ type GoogleDatabaseMigrationServiceConnectionProfile interface {
 	PutTimeouts(value *GoogleDatabaseMigrationServiceConnectionProfileTimeouts)
 	ResetAlloydb()
 	ResetCloudsql()
+	ResetDeletionPolicy()
 	ResetDisplayName()
 	ResetId()
 	ResetLabels()
@@ -160,6 +167,7 @@ type GoogleDatabaseMigrationServiceConnectionProfile interface {
 	ResetOverrideLogicalId()
 	ResetPostgresql()
 	ResetProject()
+	ResetRole()
 	ResetTimeouts()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
@@ -303,6 +311,26 @@ func (j *jsiiProxy_GoogleDatabaseMigrationServiceConnectionProfile) Dbprovider()
 	_jsii_.Get(
 		j,
 		"dbprovider",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDatabaseMigrationServiceConnectionProfile) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDatabaseMigrationServiceConnectionProfile) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -588,6 +616,26 @@ func (j *jsiiProxy_GoogleDatabaseMigrationServiceConnectionProfile) RawOverrides
 	return returns
 }
 
+func (j *jsiiProxy_GoogleDatabaseMigrationServiceConnectionProfile) Role() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"role",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDatabaseMigrationServiceConnectionProfile) RoleInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"roleInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleDatabaseMigrationServiceConnectionProfile) State() *string {
 	var returns *string
 	_jsii_.Get(
@@ -659,7 +707,7 @@ func (j *jsiiProxy_GoogleDatabaseMigrationServiceConnectionProfile) TimeoutsInpu
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_database_migration_service_connection_profile google_database_migration_service_connection_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_database_migration_service_connection_profile google_database_migration_service_connection_profile} Resource.
 func NewGoogleDatabaseMigrationServiceConnectionProfile(scope constructs.Construct, id *string, config *GoogleDatabaseMigrationServiceConnectionProfileConfig) GoogleDatabaseMigrationServiceConnectionProfile {
 	_init_.Initialize()
 
@@ -677,7 +725,7 @@ func NewGoogleDatabaseMigrationServiceConnectionProfile(scope constructs.Constru
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_database_migration_service_connection_profile google_database_migration_service_connection_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_database_migration_service_connection_profile google_database_migration_service_connection_profile} Resource.
 func NewGoogleDatabaseMigrationServiceConnectionProfile_Override(g GoogleDatabaseMigrationServiceConnectionProfile, scope constructs.Construct, id *string, config *GoogleDatabaseMigrationServiceConnectionProfileConfig) {
 	_init_.Initialize()
 
@@ -717,6 +765,17 @@ func (j *jsiiProxy_GoogleDatabaseMigrationServiceConnectionProfile)SetCount(val 
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleDatabaseMigrationServiceConnectionProfile)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -818,6 +877,17 @@ func (j *jsiiProxy_GoogleDatabaseMigrationServiceConnectionProfile)SetProvisione
 	_jsii_.Set(
 		j,
 		"provisioners",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleDatabaseMigrationServiceConnectionProfile)SetRole(val *string) {
+	if err := j.validateSetRoleParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"role",
 		val,
 	)
 }
@@ -1257,6 +1327,14 @@ func (g *jsiiProxy_GoogleDatabaseMigrationServiceConnectionProfile) ResetCloudsq
 	)
 }
 
+func (g *jsiiProxy_GoogleDatabaseMigrationServiceConnectionProfile) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
+	)
+}
+
 func (g *jsiiProxy_GoogleDatabaseMigrationServiceConnectionProfile) ResetDisplayName() {
 	_jsii_.InvokeVoid(
 		g,
@@ -1325,6 +1403,14 @@ func (g *jsiiProxy_GoogleDatabaseMigrationServiceConnectionProfile) ResetProject
 	_jsii_.InvokeVoid(
 		g,
 		"resetProject",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleDatabaseMigrationServiceConnectionProfile) ResetRole() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetRole",
 		nil, // no parameters
 	)
 }

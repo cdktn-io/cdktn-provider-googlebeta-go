@@ -103,6 +103,10 @@ func (j *jsiiProxy_GoogleTagsTagValue) validateSetCountParameters(val interface{
 	return nil
 }
 
+func (j *jsiiProxy_GoogleTagsTagValue) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleTagsTagValue) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

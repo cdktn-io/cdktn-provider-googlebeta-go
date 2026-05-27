@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_security_authz_policy google_network_security_authz_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_security_authz_policy google_network_security_authz_policy}.
 type GoogleNetworkSecurityAuthzPolicy interface {
 	cdktn.TerraformResource
 	Action() *string
@@ -33,6 +33,9 @@ type GoogleNetworkSecurityAuthzPolicy interface {
 	CreateTime() *string
 	CustomProvider() GoogleNetworkSecurityAuthzPolicyCustomProviderOutputReference
 	CustomProviderInput() *GoogleNetworkSecurityAuthzPolicyCustomProvider
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -145,6 +148,7 @@ type GoogleNetworkSecurityAuthzPolicy interface {
 	PutTarget(value *GoogleNetworkSecurityAuthzPolicyTarget)
 	PutTimeouts(value *GoogleNetworkSecurityAuthzPolicyTimeouts)
 	ResetCustomProvider()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetHttpRules()
 	ResetId()
@@ -267,6 +271,26 @@ func (j *jsiiProxy_GoogleNetworkSecurityAuthzPolicy) CustomProviderInput() *Goog
 	_jsii_.Get(
 		j,
 		"customProviderInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleNetworkSecurityAuthzPolicy) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleNetworkSecurityAuthzPolicy) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -623,7 +647,7 @@ func (j *jsiiProxy_GoogleNetworkSecurityAuthzPolicy) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_security_authz_policy google_network_security_authz_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_security_authz_policy google_network_security_authz_policy} Resource.
 func NewGoogleNetworkSecurityAuthzPolicy(scope constructs.Construct, id *string, config *GoogleNetworkSecurityAuthzPolicyConfig) GoogleNetworkSecurityAuthzPolicy {
 	_init_.Initialize()
 
@@ -641,7 +665,7 @@ func NewGoogleNetworkSecurityAuthzPolicy(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_security_authz_policy google_network_security_authz_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_security_authz_policy google_network_security_authz_policy} Resource.
 func NewGoogleNetworkSecurityAuthzPolicy_Override(g GoogleNetworkSecurityAuthzPolicy, scope constructs.Construct, id *string, config *GoogleNetworkSecurityAuthzPolicyConfig) {
 	_init_.Initialize()
 
@@ -681,6 +705,17 @@ func (j *jsiiProxy_GoogleNetworkSecurityAuthzPolicy)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleNetworkSecurityAuthzPolicy)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1209,6 +1244,14 @@ func (g *jsiiProxy_GoogleNetworkSecurityAuthzPolicy) ResetCustomProvider() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetCustomProvider",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleNetworkSecurityAuthzPolicy) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

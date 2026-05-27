@@ -111,6 +111,10 @@ func (j *jsiiProxy_GoogleIamPrincipalAccessBoundaryPolicy) validateSetCountParam
 	return nil
 }
 
+func (j *jsiiProxy_GoogleIamPrincipalAccessBoundaryPolicy) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleIamPrincipalAccessBoundaryPolicy) validateSetDisplayNameParameters(val *string) error {
 	return nil
 }

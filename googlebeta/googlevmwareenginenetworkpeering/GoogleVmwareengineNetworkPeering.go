@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vmwareengine_network_peering google_vmwareengine_network_peering}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vmwareengine_network_peering google_vmwareengine_network_peering}.
 type GoogleVmwareengineNetworkPeering interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -28,6 +28,9 @@ type GoogleVmwareengineNetworkPeering interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -146,6 +149,7 @@ type GoogleVmwareengineNetworkPeering interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *GoogleVmwareengineNetworkPeeringTimeouts)
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetExportCustomRoutes()
 	ResetExportCustomRoutesWithPublicIp()
@@ -229,6 +233,26 @@ func (j *jsiiProxy_GoogleVmwareengineNetworkPeering) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleVmwareengineNetworkPeering) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleVmwareengineNetworkPeering) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -645,7 +669,7 @@ func (j *jsiiProxy_GoogleVmwareengineNetworkPeering) VmwareEngineNetworkInput() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vmwareengine_network_peering google_vmwareengine_network_peering} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vmwareengine_network_peering google_vmwareengine_network_peering} Resource.
 func NewGoogleVmwareengineNetworkPeering(scope constructs.Construct, id *string, config *GoogleVmwareengineNetworkPeeringConfig) GoogleVmwareengineNetworkPeering {
 	_init_.Initialize()
 
@@ -663,7 +687,7 @@ func NewGoogleVmwareengineNetworkPeering(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vmwareengine_network_peering google_vmwareengine_network_peering} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vmwareengine_network_peering google_vmwareengine_network_peering} Resource.
 func NewGoogleVmwareengineNetworkPeering_Override(g GoogleVmwareengineNetworkPeering, scope constructs.Construct, id *string, config *GoogleVmwareengineNetworkPeeringConfig) {
 	_init_.Initialize()
 
@@ -692,6 +716,17 @@ func (j *jsiiProxy_GoogleVmwareengineNetworkPeering)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleVmwareengineNetworkPeering)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1224,6 +1259,14 @@ func (g *jsiiProxy_GoogleVmwareengineNetworkPeering) PutTimeouts(value *GoogleVm
 		g,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleVmwareengineNetworkPeering) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

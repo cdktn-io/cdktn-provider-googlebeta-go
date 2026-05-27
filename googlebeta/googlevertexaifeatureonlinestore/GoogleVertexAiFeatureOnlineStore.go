@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_feature_online_store google_vertex_ai_feature_online_store}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_feature_online_store google_vertex_ai_feature_online_store}.
 type GoogleVertexAiFeatureOnlineStore interface {
 	cdktn.TerraformResource
 	Bigtable() GoogleVertexAiFeatureOnlineStoreBigtableOutputReference
@@ -32,6 +32,9 @@ type GoogleVertexAiFeatureOnlineStore interface {
 	CreateTime() *string
 	DedicatedServingEndpoint() GoogleVertexAiFeatureOnlineStoreDedicatedServingEndpointOutputReference
 	DedicatedServingEndpointInput() *GoogleVertexAiFeatureOnlineStoreDedicatedServingEndpoint
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -148,6 +151,7 @@ type GoogleVertexAiFeatureOnlineStore interface {
 	PutTimeouts(value *GoogleVertexAiFeatureOnlineStoreTimeouts)
 	ResetBigtable()
 	ResetDedicatedServingEndpoint()
+	ResetDeletionPolicy()
 	ResetEmbeddingManagement()
 	ResetEncryptionSpec()
 	ResetForceDestroy()
@@ -272,6 +276,26 @@ func (j *jsiiProxy_GoogleVertexAiFeatureOnlineStore) DedicatedServingEndpointInp
 	_jsii_.Get(
 		j,
 		"dedicatedServingEndpointInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleVertexAiFeatureOnlineStore) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleVertexAiFeatureOnlineStore) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -648,7 +672,7 @@ func (j *jsiiProxy_GoogleVertexAiFeatureOnlineStore) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_feature_online_store google_vertex_ai_feature_online_store} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_feature_online_store google_vertex_ai_feature_online_store} Resource.
 func NewGoogleVertexAiFeatureOnlineStore(scope constructs.Construct, id *string, config *GoogleVertexAiFeatureOnlineStoreConfig) GoogleVertexAiFeatureOnlineStore {
 	_init_.Initialize()
 
@@ -666,7 +690,7 @@ func NewGoogleVertexAiFeatureOnlineStore(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_feature_online_store google_vertex_ai_feature_online_store} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_feature_online_store google_vertex_ai_feature_online_store} Resource.
 func NewGoogleVertexAiFeatureOnlineStore_Override(g GoogleVertexAiFeatureOnlineStore, scope constructs.Construct, id *string, config *GoogleVertexAiFeatureOnlineStoreConfig) {
 	_init_.Initialize()
 
@@ -695,6 +719,17 @@ func (j *jsiiProxy_GoogleVertexAiFeatureOnlineStore)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleVertexAiFeatureOnlineStore)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1242,6 +1277,14 @@ func (g *jsiiProxy_GoogleVertexAiFeatureOnlineStore) ResetDedicatedServingEndpoi
 	_jsii_.InvokeVoid(
 		g,
 		"resetDedicatedServingEndpoint",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleVertexAiFeatureOnlineStore) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

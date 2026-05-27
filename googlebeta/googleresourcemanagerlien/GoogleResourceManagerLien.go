@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_resource_manager_lien google_resource_manager_lien}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_resource_manager_lien google_resource_manager_lien}.
 type GoogleResourceManagerLien interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -28,6 +28,9 @@ type GoogleResourceManagerLien interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -124,6 +127,7 @@ type GoogleResourceManagerLien interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *GoogleResourceManagerLienTimeouts)
+	ResetDeletionPolicy()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -201,6 +205,26 @@ func (j *jsiiProxy_GoogleResourceManagerLien) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleResourceManagerLien) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleResourceManagerLien) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -457,7 +481,7 @@ func (j *jsiiProxy_GoogleResourceManagerLien) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_resource_manager_lien google_resource_manager_lien} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_resource_manager_lien google_resource_manager_lien} Resource.
 func NewGoogleResourceManagerLien(scope constructs.Construct, id *string, config *GoogleResourceManagerLienConfig) GoogleResourceManagerLien {
 	_init_.Initialize()
 
@@ -475,7 +499,7 @@ func NewGoogleResourceManagerLien(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_resource_manager_lien google_resource_manager_lien} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_resource_manager_lien google_resource_manager_lien} Resource.
 func NewGoogleResourceManagerLien_Override(g GoogleResourceManagerLien, scope constructs.Construct, id *string, config *GoogleResourceManagerLienConfig) {
 	_init_.Initialize()
 
@@ -504,6 +528,17 @@ func (j *jsiiProxy_GoogleResourceManagerLien)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleResourceManagerLien)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -970,6 +1005,14 @@ func (g *jsiiProxy_GoogleResourceManagerLien) PutTimeouts(value *GoogleResourceM
 		g,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleResourceManagerLien) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

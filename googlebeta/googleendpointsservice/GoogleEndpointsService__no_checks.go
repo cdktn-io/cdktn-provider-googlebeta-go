@@ -103,6 +103,10 @@ func (j *jsiiProxy_GoogleEndpointsService) validateSetCountParameters(val interf
 	return nil
 }
 
+func (j *jsiiProxy_GoogleEndpointsService) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleEndpointsService) validateSetGrpcConfigParameters(val *string) error {
 	return nil
 }

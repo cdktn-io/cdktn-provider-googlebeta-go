@@ -107,6 +107,10 @@ func (j *jsiiProxy_GoogleDiscoveryEngineTargetSite) validateSetDataStoreIdParame
 	return nil
 }
 
+func (j *jsiiProxy_GoogleDiscoveryEngineTargetSite) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleDiscoveryEngineTargetSite) validateSetExactMatchParameters(val interface{}) error {
 	return nil
 }

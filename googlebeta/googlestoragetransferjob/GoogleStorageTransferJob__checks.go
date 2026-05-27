@@ -403,6 +403,14 @@ func (j *jsiiProxy_GoogleStorageTransferJob) validateSetCountParameters(val inte
 	return nil
 }
 
+func (j *jsiiProxy_GoogleStorageTransferJob) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_GoogleStorageTransferJob) validateSetDescriptionParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

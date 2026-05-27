@@ -107,6 +107,10 @@ func (j *jsiiProxy_GoogleVertexAiRagEngineConfig) validateSetCountParameters(val
 	return nil
 }
 
+func (j *jsiiProxy_GoogleVertexAiRagEngineConfig) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleVertexAiRagEngineConfig) validateSetIdParameters(val *string) error {
 	return nil
 }

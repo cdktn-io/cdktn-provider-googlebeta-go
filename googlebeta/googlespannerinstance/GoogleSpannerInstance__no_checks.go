@@ -115,6 +115,10 @@ func (j *jsiiProxy_GoogleSpannerInstance) validateSetDefaultBackupScheduleTypePa
 	return nil
 }
 
+func (j *jsiiProxy_GoogleSpannerInstance) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleSpannerInstance) validateSetDisplayNameParameters(val *string) error {
 	return nil
 }

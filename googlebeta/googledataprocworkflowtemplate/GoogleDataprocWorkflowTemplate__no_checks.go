@@ -123,6 +123,10 @@ func (j *jsiiProxy_GoogleDataprocWorkflowTemplate) validateSetDagTimeoutParamete
 	return nil
 }
 
+func (j *jsiiProxy_GoogleDataprocWorkflowTemplate) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleDataprocWorkflowTemplate) validateSetIdParameters(val *string) error {
 	return nil
 }

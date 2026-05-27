@@ -29,6 +29,7 @@ type DataGoogleComputeNetworkEndpointGroupsNetworkEndpointGroupsOutputReference 
 	// Experimental.
 	CreationStack() *[]*string
 	DefaultPort() *float64
+	DeletionPolicy() *string
 	Description() *string
 	// Experimental.
 	Fqn() *string
@@ -125,6 +126,16 @@ func (j *jsiiProxy_DataGoogleComputeNetworkEndpointGroupsNetworkEndpointGroupsOu
 	_jsii_.Get(
 		j,
 		"defaultPort",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleComputeNetworkEndpointGroupsNetworkEndpointGroupsOutputReference) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
 		&returns,
 	)
 	return returns

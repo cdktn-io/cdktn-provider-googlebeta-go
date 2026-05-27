@@ -123,6 +123,10 @@ func (j *jsiiProxy_GoogleDiscoveryEngineDataStore) validateSetDataStoreIdParamet
 	return nil
 }
 
+func (j *jsiiProxy_GoogleDiscoveryEngineDataStore) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleDiscoveryEngineDataStore) validateSetDisplayNameParameters(val *string) error {
 	return nil
 }

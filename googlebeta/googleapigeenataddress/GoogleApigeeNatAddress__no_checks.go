@@ -107,6 +107,10 @@ func (j *jsiiProxy_GoogleApigeeNatAddress) validateSetCountParameters(val interf
 	return nil
 }
 
+func (j *jsiiProxy_GoogleApigeeNatAddress) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleApigeeNatAddress) validateSetIdParameters(val *string) error {
 	return nil
 }

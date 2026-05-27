@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_gemini_data_sharing_with_google_setting google_gemini_data_sharing_with_google_setting}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_gemini_data_sharing_with_google_setting google_gemini_data_sharing_with_google_setting}.
 type GoogleGeminiDataSharingWithGoogleSetting interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -31,6 +31,9 @@ type GoogleGeminiDataSharingWithGoogleSetting interface {
 	DataSharingWithGoogleSettingId() *string
 	SetDataSharingWithGoogleSettingId(val *string)
 	DataSharingWithGoogleSettingIdInput() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -133,6 +136,7 @@ type GoogleGeminiDataSharingWithGoogleSetting interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *GoogleGeminiDataSharingWithGoogleSettingTimeouts)
+	ResetDeletionPolicy()
 	ResetEnableDataSharing()
 	ResetEnablePreviewDataSharing()
 	ResetId()
@@ -235,6 +239,26 @@ func (j *jsiiProxy_GoogleGeminiDataSharingWithGoogleSetting) DataSharingWithGoog
 	_jsii_.Get(
 		j,
 		"dataSharingWithGoogleSettingIdInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleGeminiDataSharingWithGoogleSetting) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleGeminiDataSharingWithGoogleSetting) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -541,7 +565,7 @@ func (j *jsiiProxy_GoogleGeminiDataSharingWithGoogleSetting) UpdateTime() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_gemini_data_sharing_with_google_setting google_gemini_data_sharing_with_google_setting} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_gemini_data_sharing_with_google_setting google_gemini_data_sharing_with_google_setting} Resource.
 func NewGoogleGeminiDataSharingWithGoogleSetting(scope constructs.Construct, id *string, config *GoogleGeminiDataSharingWithGoogleSettingConfig) GoogleGeminiDataSharingWithGoogleSetting {
 	_init_.Initialize()
 
@@ -559,7 +583,7 @@ func NewGoogleGeminiDataSharingWithGoogleSetting(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_gemini_data_sharing_with_google_setting google_gemini_data_sharing_with_google_setting} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_gemini_data_sharing_with_google_setting google_gemini_data_sharing_with_google_setting} Resource.
 func NewGoogleGeminiDataSharingWithGoogleSetting_Override(g GoogleGeminiDataSharingWithGoogleSetting, scope constructs.Construct, id *string, config *GoogleGeminiDataSharingWithGoogleSettingConfig) {
 	_init_.Initialize()
 
@@ -599,6 +623,17 @@ func (j *jsiiProxy_GoogleGeminiDataSharingWithGoogleSetting)SetDataSharingWithGo
 	_jsii_.Set(
 		j,
 		"dataSharingWithGoogleSettingId",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleGeminiDataSharingWithGoogleSetting)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1076,6 +1111,14 @@ func (g *jsiiProxy_GoogleGeminiDataSharingWithGoogleSetting) PutTimeouts(value *
 		g,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleGeminiDataSharingWithGoogleSetting) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

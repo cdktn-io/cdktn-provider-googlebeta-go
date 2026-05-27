@@ -387,6 +387,14 @@ func (j *jsiiProxy_GoogleCesExample) validateSetCountParameters(val interface{})
 	return nil
 }
 
+func (j *jsiiProxy_GoogleCesExample) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_GoogleCesExample) validateSetDescriptionParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

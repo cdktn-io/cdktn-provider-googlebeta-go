@@ -111,6 +111,10 @@ func (j *jsiiProxy_GoogleAccessContextManagerServicePerimeterDryRunIngressPolicy
 	return nil
 }
 
+func (j *jsiiProxy_GoogleAccessContextManagerServicePerimeterDryRunIngressPolicy) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleAccessContextManagerServicePerimeterDryRunIngressPolicy) validateSetIdParameters(val *string) error {
 	return nil
 }

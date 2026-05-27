@@ -103,6 +103,10 @@ func (j *jsiiProxy_GoogleNetworkSecurityDnsThreatDetector) validateSetCountParam
 	return nil
 }
 
+func (j *jsiiProxy_GoogleNetworkSecurityDnsThreatDetector) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleNetworkSecurityDnsThreatDetector) validateSetExcludedNetworksParameters(val *[]*string) error {
 	return nil
 }

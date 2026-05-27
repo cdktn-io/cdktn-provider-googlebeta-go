@@ -111,6 +111,10 @@ func (j *jsiiProxy_GoogleSaasRuntimeTenant) validateSetCountParameters(val inter
 	return nil
 }
 
+func (j *jsiiProxy_GoogleSaasRuntimeTenant) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleSaasRuntimeTenant) validateSetIdParameters(val *string) error {
 	return nil
 }

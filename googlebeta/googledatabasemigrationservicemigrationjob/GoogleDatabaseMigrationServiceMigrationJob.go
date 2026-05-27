@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_database_migration_service_migration_job google_database_migration_service_migration_job}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_database_migration_service_migration_job google_database_migration_service_migration_job}.
 type GoogleDatabaseMigrationServiceMigrationJob interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -28,6 +28,9 @@ type GoogleDatabaseMigrationServiceMigrationJob interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -80,6 +83,8 @@ type GoogleDatabaseMigrationServiceMigrationJob interface {
 	PerformanceConfig() GoogleDatabaseMigrationServiceMigrationJobPerformanceConfigOutputReference
 	PerformanceConfigInput() *GoogleDatabaseMigrationServiceMigrationJobPerformanceConfig
 	Phase() *string
+	PostgresHomogeneousConfig() GoogleDatabaseMigrationServiceMigrationJobPostgresHomogeneousConfigOutputReference
+	PostgresHomogeneousConfigInput() *GoogleDatabaseMigrationServiceMigrationJobPostgresHomogeneousConfig
 	Project() *string
 	SetProject(val *string)
 	ProjectInput() *string
@@ -161,10 +166,12 @@ type GoogleDatabaseMigrationServiceMigrationJob interface {
 	PutDumpFlags(value *GoogleDatabaseMigrationServiceMigrationJobDumpFlags)
 	PutObjectsConfig(value *GoogleDatabaseMigrationServiceMigrationJobObjectsConfig)
 	PutPerformanceConfig(value *GoogleDatabaseMigrationServiceMigrationJobPerformanceConfig)
+	PutPostgresHomogeneousConfig(value *GoogleDatabaseMigrationServiceMigrationJobPostgresHomogeneousConfig)
 	PutReverseSshConnectivity(value *GoogleDatabaseMigrationServiceMigrationJobReverseSshConnectivity)
 	PutStaticIpConnectivity(value *GoogleDatabaseMigrationServiceMigrationJobStaticIpConnectivity)
 	PutTimeouts(value *GoogleDatabaseMigrationServiceMigrationJobTimeouts)
 	PutVpcPeeringConnectivity(value *GoogleDatabaseMigrationServiceMigrationJobVpcPeeringConnectivity)
+	ResetDeletionPolicy()
 	ResetDisplayName()
 	ResetDumpFlags()
 	ResetDumpPath()
@@ -177,6 +184,7 @@ type GoogleDatabaseMigrationServiceMigrationJob interface {
 	// Experimental.
 	ResetOverrideLogicalId()
 	ResetPerformanceConfig()
+	ResetPostgresHomogeneousConfig()
 	ResetProject()
 	ResetReverseSshConnectivity()
 	ResetStaticIpConnectivity()
@@ -254,6 +262,26 @@ func (j *jsiiProxy_GoogleDatabaseMigrationServiceMigrationJob) CreateTime() *str
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDatabaseMigrationServiceMigrationJob) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDatabaseMigrationServiceMigrationJob) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -579,6 +607,26 @@ func (j *jsiiProxy_GoogleDatabaseMigrationServiceMigrationJob) Phase() *string {
 	return returns
 }
 
+func (j *jsiiProxy_GoogleDatabaseMigrationServiceMigrationJob) PostgresHomogeneousConfig() GoogleDatabaseMigrationServiceMigrationJobPostgresHomogeneousConfigOutputReference {
+	var returns GoogleDatabaseMigrationServiceMigrationJobPostgresHomogeneousConfigOutputReference
+	_jsii_.Get(
+		j,
+		"postgresHomogeneousConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDatabaseMigrationServiceMigrationJob) PostgresHomogeneousConfigInput() *GoogleDatabaseMigrationServiceMigrationJobPostgresHomogeneousConfig {
+	var returns *GoogleDatabaseMigrationServiceMigrationJobPostgresHomogeneousConfig
+	_jsii_.Get(
+		j,
+		"postgresHomogeneousConfigInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleDatabaseMigrationServiceMigrationJob) Project() *string {
 	var returns *string
 	_jsii_.Get(
@@ -800,7 +848,7 @@ func (j *jsiiProxy_GoogleDatabaseMigrationServiceMigrationJob) VpcPeeringConnect
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_database_migration_service_migration_job google_database_migration_service_migration_job} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_database_migration_service_migration_job google_database_migration_service_migration_job} Resource.
 func NewGoogleDatabaseMigrationServiceMigrationJob(scope constructs.Construct, id *string, config *GoogleDatabaseMigrationServiceMigrationJobConfig) GoogleDatabaseMigrationServiceMigrationJob {
 	_init_.Initialize()
 
@@ -818,7 +866,7 @@ func NewGoogleDatabaseMigrationServiceMigrationJob(scope constructs.Construct, i
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_database_migration_service_migration_job google_database_migration_service_migration_job} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_database_migration_service_migration_job google_database_migration_service_migration_job} Resource.
 func NewGoogleDatabaseMigrationServiceMigrationJob_Override(g GoogleDatabaseMigrationServiceMigrationJob, scope constructs.Construct, id *string, config *GoogleDatabaseMigrationServiceMigrationJobConfig) {
 	_init_.Initialize()
 
@@ -847,6 +895,17 @@ func (j *jsiiProxy_GoogleDatabaseMigrationServiceMigrationJob)SetCount(val inter
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleDatabaseMigrationServiceMigrationJob)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1404,6 +1463,17 @@ func (g *jsiiProxy_GoogleDatabaseMigrationServiceMigrationJob) PutPerformanceCon
 	)
 }
 
+func (g *jsiiProxy_GoogleDatabaseMigrationServiceMigrationJob) PutPostgresHomogeneousConfig(value *GoogleDatabaseMigrationServiceMigrationJobPostgresHomogeneousConfig) {
+	if err := g.validatePutPostgresHomogeneousConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putPostgresHomogeneousConfig",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleDatabaseMigrationServiceMigrationJob) PutReverseSshConnectivity(value *GoogleDatabaseMigrationServiceMigrationJobReverseSshConnectivity) {
 	if err := g.validatePutReverseSshConnectivityParameters(value); err != nil {
 		panic(err)
@@ -1445,6 +1515,14 @@ func (g *jsiiProxy_GoogleDatabaseMigrationServiceMigrationJob) PutVpcPeeringConn
 		g,
 		"putVpcPeeringConnectivity",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleDatabaseMigrationServiceMigrationJob) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 
@@ -1524,6 +1602,14 @@ func (g *jsiiProxy_GoogleDatabaseMigrationServiceMigrationJob) ResetPerformanceC
 	_jsii_.InvokeVoid(
 		g,
 		"resetPerformanceConfig",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleDatabaseMigrationServiceMigrationJob) ResetPostgresHomogeneousConfig() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetPostgresHomogeneousConfig",
 		nil, // no parameters
 	)
 }

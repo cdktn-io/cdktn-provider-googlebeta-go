@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_services_authz_extension google_network_services_authz_extension}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_services_authz_extension google_network_services_authz_extension}.
 type GoogleNetworkServicesAuthzExtension interface {
 	cdktn.TerraformResource
 	Authority() *string
@@ -31,6 +31,9 @@ type GoogleNetworkServicesAuthzExtension interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -154,6 +157,7 @@ type GoogleNetworkServicesAuthzExtension interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *GoogleNetworkServicesAuthzExtensionTimeouts)
 	ResetAuthority()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetFailOpen()
 	ResetForwardHeaders()
@@ -259,6 +263,26 @@ func (j *jsiiProxy_GoogleNetworkServicesAuthzExtension) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleNetworkServicesAuthzExtension) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleNetworkServicesAuthzExtension) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -695,7 +719,7 @@ func (j *jsiiProxy_GoogleNetworkServicesAuthzExtension) WireFormatInput() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_services_authz_extension google_network_services_authz_extension} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_services_authz_extension google_network_services_authz_extension} Resource.
 func NewGoogleNetworkServicesAuthzExtension(scope constructs.Construct, id *string, config *GoogleNetworkServicesAuthzExtensionConfig) GoogleNetworkServicesAuthzExtension {
 	_init_.Initialize()
 
@@ -713,7 +737,7 @@ func NewGoogleNetworkServicesAuthzExtension(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_services_authz_extension google_network_services_authz_extension} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_services_authz_extension google_network_services_authz_extension} Resource.
 func NewGoogleNetworkServicesAuthzExtension_Override(g GoogleNetworkServicesAuthzExtension, scope constructs.Construct, id *string, config *GoogleNetworkServicesAuthzExtensionConfig) {
 	_init_.Initialize()
 
@@ -753,6 +777,17 @@ func (j *jsiiProxy_GoogleNetworkServicesAuthzExtension)SetCount(val interface{})
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleNetworkServicesAuthzExtension)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1314,6 +1349,14 @@ func (g *jsiiProxy_GoogleNetworkServicesAuthzExtension) ResetAuthority() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetAuthority",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleNetworkServicesAuthzExtension) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

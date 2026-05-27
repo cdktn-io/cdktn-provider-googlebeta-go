@@ -107,6 +107,10 @@ func (j *jsiiProxy_GoogleIamWorkforcePoolProviderKey) validateSetCountParameters
 	return nil
 }
 
+func (j *jsiiProxy_GoogleIamWorkforcePoolProviderKey) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleIamWorkforcePoolProviderKey) validateSetIdParameters(val *string) error {
 	return nil
 }

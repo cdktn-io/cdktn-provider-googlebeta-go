@@ -398,6 +398,14 @@ func (j *jsiiProxy_GoogleComputeFirewallPolicyRule) validateSetCountParameters(v
 	return nil
 }
 
+func (j *jsiiProxy_GoogleComputeFirewallPolicyRule) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_GoogleComputeFirewallPolicyRule) validateSetDescriptionParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

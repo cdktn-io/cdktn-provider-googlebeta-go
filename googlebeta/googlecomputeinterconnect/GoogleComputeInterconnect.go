@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_interconnect google_compute_interconnect}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_interconnect google_compute_interconnect}.
 type GoogleComputeInterconnect interface {
 	cdktn.TerraformResource
 	AaiEnabled() interface{}
@@ -41,6 +41,9 @@ type GoogleComputeInterconnect interface {
 	CustomerName() *string
 	SetCustomerName(val *string)
 	CustomerNameInput() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -185,6 +188,7 @@ type GoogleComputeInterconnect interface {
 	ResetAdminEnabled()
 	ResetApplicationAwareInterconnect()
 	ResetCustomerName()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	ResetLabels()
@@ -371,6 +375,26 @@ func (j *jsiiProxy_GoogleComputeInterconnect) CustomerNameInput() *string {
 	_jsii_.Get(
 		j,
 		"customerNameInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeInterconnect) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeInterconnect) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -957,7 +981,7 @@ func (j *jsiiProxy_GoogleComputeInterconnect) WireGroups() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_interconnect google_compute_interconnect} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_interconnect google_compute_interconnect} Resource.
 func NewGoogleComputeInterconnect(scope constructs.Construct, id *string, config *GoogleComputeInterconnectConfig) GoogleComputeInterconnect {
 	_init_.Initialize()
 
@@ -975,7 +999,7 @@ func NewGoogleComputeInterconnect(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_interconnect google_compute_interconnect} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_interconnect google_compute_interconnect} Resource.
 func NewGoogleComputeInterconnect_Override(g GoogleComputeInterconnect, scope constructs.Construct, id *string, config *GoogleComputeInterconnectConfig) {
 	_init_.Initialize()
 
@@ -1037,6 +1061,17 @@ func (j *jsiiProxy_GoogleComputeInterconnect)SetCustomerName(val *string) {
 	_jsii_.Set(
 		j,
 		"customerName",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleComputeInterconnect)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1655,6 +1690,14 @@ func (g *jsiiProxy_GoogleComputeInterconnect) ResetCustomerName() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetCustomerName",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleComputeInterconnect) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

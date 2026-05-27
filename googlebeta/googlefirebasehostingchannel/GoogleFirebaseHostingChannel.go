@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_firebase_hosting_channel google_firebase_hosting_channel}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_firebase_hosting_channel google_firebase_hosting_channel}.
 type GoogleFirebaseHostingChannel interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -30,6 +30,9 @@ type GoogleFirebaseHostingChannel interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -131,6 +134,7 @@ type GoogleFirebaseHostingChannel interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *GoogleFirebaseHostingChannelTimeouts)
+	ResetDeletionPolicy()
 	ResetExpireTime()
 	ResetId()
 	ResetLabels()
@@ -222,6 +226,26 @@ func (j *jsiiProxy_GoogleFirebaseHostingChannel) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleFirebaseHostingChannel) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleFirebaseHostingChannel) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -518,7 +542,7 @@ func (j *jsiiProxy_GoogleFirebaseHostingChannel) TtlInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_firebase_hosting_channel google_firebase_hosting_channel} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_firebase_hosting_channel google_firebase_hosting_channel} Resource.
 func NewGoogleFirebaseHostingChannel(scope constructs.Construct, id *string, config *GoogleFirebaseHostingChannelConfig) GoogleFirebaseHostingChannel {
 	_init_.Initialize()
 
@@ -536,7 +560,7 @@ func NewGoogleFirebaseHostingChannel(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_firebase_hosting_channel google_firebase_hosting_channel} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_firebase_hosting_channel google_firebase_hosting_channel} Resource.
 func NewGoogleFirebaseHostingChannel_Override(g GoogleFirebaseHostingChannel, scope constructs.Construct, id *string, config *GoogleFirebaseHostingChannelConfig) {
 	_init_.Initialize()
 
@@ -576,6 +600,17 @@ func (j *jsiiProxy_GoogleFirebaseHostingChannel)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleFirebaseHostingChannel)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1053,6 +1088,14 @@ func (g *jsiiProxy_GoogleFirebaseHostingChannel) PutTimeouts(value *GoogleFireba
 		g,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleFirebaseHostingChannel) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_security_sac_realm google_network_security_sac_realm}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_security_sac_realm google_network_security_sac_realm}.
 type GoogleNetworkSecuritySacRealm interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -28,6 +28,9 @@ type GoogleNetworkSecuritySacRealm interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -131,6 +134,7 @@ type GoogleNetworkSecuritySacRealm interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutSymantecOptions(value *GoogleNetworkSecuritySacRealmSymantecOptions)
 	PutTimeouts(value *GoogleNetworkSecuritySacRealmTimeouts)
+	ResetDeletionPolicy()
 	ResetId()
 	ResetLabels()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -211,6 +215,26 @@ func (j *jsiiProxy_GoogleNetworkSecuritySacRealm) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleNetworkSecuritySacRealm) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleNetworkSecuritySacRealm) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -527,7 +551,7 @@ func (j *jsiiProxy_GoogleNetworkSecuritySacRealm) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_security_sac_realm google_network_security_sac_realm} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_security_sac_realm google_network_security_sac_realm} Resource.
 func NewGoogleNetworkSecuritySacRealm(scope constructs.Construct, id *string, config *GoogleNetworkSecuritySacRealmConfig) GoogleNetworkSecuritySacRealm {
 	_init_.Initialize()
 
@@ -545,7 +569,7 @@ func NewGoogleNetworkSecuritySacRealm(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_security_sac_realm google_network_security_sac_realm} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_security_sac_realm google_network_security_sac_realm} Resource.
 func NewGoogleNetworkSecuritySacRealm_Override(g GoogleNetworkSecuritySacRealm, scope constructs.Construct, id *string, config *GoogleNetworkSecuritySacRealmConfig) {
 	_init_.Initialize()
 
@@ -574,6 +598,17 @@ func (j *jsiiProxy_GoogleNetworkSecuritySacRealm)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleNetworkSecuritySacRealm)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1051,6 +1086,14 @@ func (g *jsiiProxy_GoogleNetworkSecuritySacRealm) PutTimeouts(value *GoogleNetwo
 		g,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleNetworkSecuritySacRealm) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

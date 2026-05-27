@@ -119,6 +119,10 @@ func (j *jsiiProxy_GoogleSqlSourceRepresentationInstance) validateSetDatabaseVer
 	return nil
 }
 
+func (j *jsiiProxy_GoogleSqlSourceRepresentationInstance) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleSqlSourceRepresentationInstance) validateSetDumpFilePathParameters(val *string) error {
 	return nil
 }

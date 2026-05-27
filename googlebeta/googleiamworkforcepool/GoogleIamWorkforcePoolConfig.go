@@ -24,11 +24,11 @@ type GoogleIamWorkforcePoolConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The location for the resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iam_workforce_pool#location GoogleIamWorkforcePool#location}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_iam_workforce_pool#location GoogleIamWorkforcePool#location}
 	Location *string `field:"required" json:"location" yaml:"location"`
 	// Immutable. The resource name of the parent. Format: 'organizations/{org-id}'.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iam_workforce_pool#parent GoogleIamWorkforcePool#parent}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_iam_workforce_pool#parent GoogleIamWorkforcePool#parent}
 	Parent *string `field:"required" json:"parent" yaml:"parent"`
 	// The name of the pool.
 	//
@@ -36,28 +36,40 @@ type GoogleIamWorkforcePoolConfig struct {
 	// digits, or hyphens. It must start with a letter, and cannot have a trailing hyphen.
 	// The prefix 'gcp-' is reserved for use by Google, and may not be specified.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iam_workforce_pool#workforce_pool_id GoogleIamWorkforcePool#workforce_pool_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_iam_workforce_pool#workforce_pool_id GoogleIamWorkforcePool#workforce_pool_id}
 	WorkforcePoolId *string `field:"required" json:"workforcePoolId" yaml:"workforcePoolId"`
 	// access_restrictions block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iam_workforce_pool#access_restrictions GoogleIamWorkforcePool#access_restrictions}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_iam_workforce_pool#access_restrictions GoogleIamWorkforcePool#access_restrictions}
 	AccessRestrictions *GoogleIamWorkforcePoolAccessRestrictions `field:"optional" json:"accessRestrictions" yaml:"accessRestrictions"`
+	// Whether Terraform will be prevented from destroying the instance.
+	//
+	// Defaults to "DELETE".
+	// When a 'terraform destroy' or 'terraform apply' would delete the instance,
+	// the command will fail if this field is set to "PREVENT" in Terraform state.
+	// When set to "ABANDON", the command will remove the resource from Terraform
+	// management without updating or deleting the resource in the API.
+	// When set to "DELETE", deleting the resource is allowed.
+	//
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_iam_workforce_pool#deletion_policy GoogleIamWorkforcePool#deletion_policy}
+	DeletionPolicy *string `field:"optional" json:"deletionPolicy" yaml:"deletionPolicy"`
 	// A user-specified description of the pool. Cannot exceed 256 characters.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iam_workforce_pool#description GoogleIamWorkforcePool#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_iam_workforce_pool#description GoogleIamWorkforcePool#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
 	// Whether the pool is disabled.
 	//
 	// You cannot use a disabled pool to exchange tokens,
 	// or use existing tokens to access resources. If the pool is re-enabled, existing tokens grant access again.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iam_workforce_pool#disabled GoogleIamWorkforcePool#disabled}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_iam_workforce_pool#disabled GoogleIamWorkforcePool#disabled}
 	Disabled interface{} `field:"optional" json:"disabled" yaml:"disabled"`
 	// A user-specified display name of the pool in Google Cloud Console. Cannot exceed 32 characters.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iam_workforce_pool#display_name GoogleIamWorkforcePool#display_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_iam_workforce_pool#display_name GoogleIamWorkforcePool#display_name}
 	DisplayName *string `field:"optional" json:"displayName" yaml:"displayName"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iam_workforce_pool#id GoogleIamWorkforcePool#id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_iam_workforce_pool#id GoogleIamWorkforcePool#id}.
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -68,11 +80,11 @@ type GoogleIamWorkforcePoolConfig struct {
 	// If 'sessionDuration' is not configured, minted credentials have a default duration of one hour (3600s).
 	// A duration in seconds with up to nine fractional digits, ending with ''s''. Example: "'3.5s'".
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iam_workforce_pool#session_duration GoogleIamWorkforcePool#session_duration}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_iam_workforce_pool#session_duration GoogleIamWorkforcePool#session_duration}
 	SessionDuration *string `field:"optional" json:"sessionDuration" yaml:"sessionDuration"`
 	// timeouts block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iam_workforce_pool#timeouts GoogleIamWorkforcePool#timeouts}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_iam_workforce_pool#timeouts GoogleIamWorkforcePool#timeouts}
 	Timeouts *GoogleIamWorkforcePoolTimeouts `field:"optional" json:"timeouts" yaml:"timeouts"`
 }
 

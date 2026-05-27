@@ -103,6 +103,10 @@ func (j *jsiiProxy_GoogleOsLoginSshPublicKey) validateSetCountParameters(val int
 	return nil
 }
 
+func (j *jsiiProxy_GoogleOsLoginSshPublicKey) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleOsLoginSshPublicKey) validateSetExpirationTimeUsecParameters(val *string) error {
 	return nil
 }

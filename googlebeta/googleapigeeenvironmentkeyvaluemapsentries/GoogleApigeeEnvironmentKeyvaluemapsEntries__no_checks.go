@@ -103,6 +103,10 @@ func (j *jsiiProxy_GoogleApigeeEnvironmentKeyvaluemapsEntries) validateSetCountP
 	return nil
 }
 
+func (j *jsiiProxy_GoogleApigeeEnvironmentKeyvaluemapsEntries) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleApigeeEnvironmentKeyvaluemapsEntries) validateSetEnvKeyvaluemapIdParameters(val *string) error {
 	return nil
 }

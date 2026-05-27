@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_organization_iam_custom_role google_organization_iam_custom_role}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/data-sources/google_organization_iam_custom_role google_organization_iam_custom_role}.
 type DataGoogleOrganizationIamCustomRole interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -24,6 +24,7 @@ type DataGoogleOrganizationIamCustomRole interface {
 	// Experimental.
 	SetCount(val interface{})
 	Deleted() cdktn.IResolvable
+	DeletionPolicy() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -160,6 +161,16 @@ func (j *jsiiProxy_DataGoogleOrganizationIamCustomRole) Deleted() cdktn.IResolva
 	_jsii_.Get(
 		j,
 		"deleted",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleOrganizationIamCustomRole) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
 		&returns,
 	)
 	return returns
@@ -386,7 +397,7 @@ func (j *jsiiProxy_DataGoogleOrganizationIamCustomRole) Title() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_organization_iam_custom_role google_organization_iam_custom_role} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/data-sources/google_organization_iam_custom_role google_organization_iam_custom_role} Data Source.
 func NewDataGoogleOrganizationIamCustomRole(scope constructs.Construct, id *string, config *DataGoogleOrganizationIamCustomRoleConfig) DataGoogleOrganizationIamCustomRole {
 	_init_.Initialize()
 
@@ -404,7 +415,7 @@ func NewDataGoogleOrganizationIamCustomRole(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_organization_iam_custom_role google_organization_iam_custom_role} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/data-sources/google_organization_iam_custom_role google_organization_iam_custom_role} Data Source.
 func NewDataGoogleOrganizationIamCustomRole_Override(d DataGoogleOrganizationIamCustomRole, scope constructs.Construct, id *string, config *DataGoogleOrganizationIamCustomRoleConfig) {
 	_init_.Initialize()
 

@@ -115,6 +115,10 @@ func (j *jsiiProxy_GoogleVmwareenginePrivateCloud) validateSetDeletionDelayHours
 	return nil
 }
 
+func (j *jsiiProxy_GoogleVmwareenginePrivateCloud) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleVmwareenginePrivateCloud) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

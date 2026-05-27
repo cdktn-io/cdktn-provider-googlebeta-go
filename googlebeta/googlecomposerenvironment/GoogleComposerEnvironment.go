@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_composer_environment google_composer_environment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_composer_environment google_composer_environment}.
 type GoogleComposerEnvironment interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -29,6 +29,9 @@ type GoogleComposerEnvironment interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -131,6 +134,7 @@ type GoogleComposerEnvironment interface {
 	PutStorageConfig(value *GoogleComposerEnvironmentStorageConfig)
 	PutTimeouts(value *GoogleComposerEnvironmentTimeouts)
 	ResetConfig()
+	ResetDeletionPolicy()
 	ResetId()
 	ResetLabels()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -222,6 +226,26 @@ func (j *jsiiProxy_GoogleComposerEnvironment) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComposerEnvironment) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComposerEnvironment) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -508,7 +532,7 @@ func (j *jsiiProxy_GoogleComposerEnvironment) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_composer_environment google_composer_environment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_composer_environment google_composer_environment} Resource.
 func NewGoogleComposerEnvironment(scope constructs.Construct, id *string, config *GoogleComposerEnvironmentConfig) GoogleComposerEnvironment {
 	_init_.Initialize()
 
@@ -526,7 +550,7 @@ func NewGoogleComposerEnvironment(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_composer_environment google_composer_environment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_composer_environment google_composer_environment} Resource.
 func NewGoogleComposerEnvironment_Override(g GoogleComposerEnvironment, scope constructs.Construct, id *string, config *GoogleComposerEnvironmentConfig) {
 	_init_.Initialize()
 
@@ -555,6 +579,17 @@ func (j *jsiiProxy_GoogleComposerEnvironment)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleComposerEnvironment)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1050,6 +1085,14 @@ func (g *jsiiProxy_GoogleComposerEnvironment) ResetConfig() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetConfig",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleComposerEnvironment) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

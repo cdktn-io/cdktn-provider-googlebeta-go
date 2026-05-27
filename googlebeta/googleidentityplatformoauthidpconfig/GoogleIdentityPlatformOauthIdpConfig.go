@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_identity_platform_oauth_idp_config google_identity_platform_oauth_idp_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_identity_platform_oauth_idp_config google_identity_platform_oauth_idp_config}.
 type GoogleIdentityPlatformOauthIdpConfig interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -33,6 +33,9 @@ type GoogleIdentityPlatformOauthIdpConfig interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -135,6 +138,7 @@ type GoogleIdentityPlatformOauthIdpConfig interface {
 	PutResponseType(value *GoogleIdentityPlatformOauthIdpConfigResponseType)
 	PutTimeouts(value *GoogleIdentityPlatformOauthIdpConfigTimeouts)
 	ResetClientSecret()
+	ResetDeletionPolicy()
 	ResetDisplayName()
 	ResetEnabled()
 	ResetId()
@@ -246,6 +250,26 @@ func (j *jsiiProxy_GoogleIdentityPlatformOauthIdpConfig) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleIdentityPlatformOauthIdpConfig) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleIdentityPlatformOauthIdpConfig) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -532,7 +556,7 @@ func (j *jsiiProxy_GoogleIdentityPlatformOauthIdpConfig) TimeoutsInput() interfa
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_identity_platform_oauth_idp_config google_identity_platform_oauth_idp_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_identity_platform_oauth_idp_config google_identity_platform_oauth_idp_config} Resource.
 func NewGoogleIdentityPlatformOauthIdpConfig(scope constructs.Construct, id *string, config *GoogleIdentityPlatformOauthIdpConfigConfig) GoogleIdentityPlatformOauthIdpConfig {
 	_init_.Initialize()
 
@@ -550,7 +574,7 @@ func NewGoogleIdentityPlatformOauthIdpConfig(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_identity_platform_oauth_idp_config google_identity_platform_oauth_idp_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_identity_platform_oauth_idp_config google_identity_platform_oauth_idp_config} Resource.
 func NewGoogleIdentityPlatformOauthIdpConfig_Override(g GoogleIdentityPlatformOauthIdpConfig, scope constructs.Construct, id *string, config *GoogleIdentityPlatformOauthIdpConfigConfig) {
 	_init_.Initialize()
 
@@ -601,6 +625,17 @@ func (j *jsiiProxy_GoogleIdentityPlatformOauthIdpConfig)SetCount(val interface{}
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleIdentityPlatformOauthIdpConfig)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1096,6 +1131,14 @@ func (g *jsiiProxy_GoogleIdentityPlatformOauthIdpConfig) ResetClientSecret() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetClientSecret",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleIdentityPlatformOauthIdpConfig) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

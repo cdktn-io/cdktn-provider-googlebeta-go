@@ -115,6 +115,10 @@ func (j *jsiiProxy_GoogleComputeNetworkFirewallPolicyPacketMirroringRule) valida
 	return nil
 }
 
+func (j *jsiiProxy_GoogleComputeNetworkFirewallPolicyPacketMirroringRule) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleComputeNetworkFirewallPolicyPacketMirroringRule) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

@@ -103,6 +103,10 @@ func (j *jsiiProxy_GoogleComputeCrossSiteNetwork) validateSetCountParameters(val
 	return nil
 }
 
+func (j *jsiiProxy_GoogleComputeCrossSiteNetwork) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleComputeCrossSiteNetwork) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

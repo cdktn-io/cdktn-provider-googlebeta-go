@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_connectivity_regional_endpoint google_network_connectivity_regional_endpoint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_connectivity_regional_endpoint google_network_connectivity_regional_endpoint}.
 type GoogleNetworkConnectivityRegionalEndpoint interface {
 	cdktn.TerraformResource
 	AccessType() *string
@@ -34,6 +34,9 @@ type GoogleNetworkConnectivityRegionalEndpoint interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -146,6 +149,7 @@ type GoogleNetworkConnectivityRegionalEndpoint interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *GoogleNetworkConnectivityRegionalEndpointTimeouts)
 	ResetAddress()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	ResetLabels()
@@ -268,6 +272,26 @@ func (j *jsiiProxy_GoogleNetworkConnectivityRegionalEndpoint) CreateTime() *stri
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleNetworkConnectivityRegionalEndpoint) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleNetworkConnectivityRegionalEndpoint) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -634,7 +658,7 @@ func (j *jsiiProxy_GoogleNetworkConnectivityRegionalEndpoint) UpdateTime() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_connectivity_regional_endpoint google_network_connectivity_regional_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_connectivity_regional_endpoint google_network_connectivity_regional_endpoint} Resource.
 func NewGoogleNetworkConnectivityRegionalEndpoint(scope constructs.Construct, id *string, config *GoogleNetworkConnectivityRegionalEndpointConfig) GoogleNetworkConnectivityRegionalEndpoint {
 	_init_.Initialize()
 
@@ -652,7 +676,7 @@ func NewGoogleNetworkConnectivityRegionalEndpoint(scope constructs.Construct, id
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_connectivity_regional_endpoint google_network_connectivity_regional_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_connectivity_regional_endpoint google_network_connectivity_regional_endpoint} Resource.
 func NewGoogleNetworkConnectivityRegionalEndpoint_Override(g GoogleNetworkConnectivityRegionalEndpoint, scope constructs.Construct, id *string, config *GoogleNetworkConnectivityRegionalEndpointConfig) {
 	_init_.Initialize()
 
@@ -703,6 +727,17 @@ func (j *jsiiProxy_GoogleNetworkConnectivityRegionalEndpoint)SetCount(val interf
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleNetworkConnectivityRegionalEndpoint)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1220,6 +1255,14 @@ func (g *jsiiProxy_GoogleNetworkConnectivityRegionalEndpoint) ResetAddress() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetAddress",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleNetworkConnectivityRegionalEndpoint) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

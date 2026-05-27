@@ -119,6 +119,10 @@ func (j *jsiiProxy_GoogleDiscoveryEngineChatEngine) validateSetDataStoreIdsParam
 	return nil
 }
 
+func (j *jsiiProxy_GoogleDiscoveryEngineChatEngine) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleDiscoveryEngineChatEngine) validateSetDisplayNameParameters(val *string) error {
 	return nil
 }

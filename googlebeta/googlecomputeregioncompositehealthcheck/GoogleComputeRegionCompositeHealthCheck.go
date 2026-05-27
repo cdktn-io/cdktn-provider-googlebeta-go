@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_composite_health_check google_compute_region_composite_health_check}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_composite_health_check google_compute_region_composite_health_check}.
 type GoogleComputeRegionCompositeHealthCheck interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -28,6 +28,9 @@ type GoogleComputeRegionCompositeHealthCheck interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreationTimestamp() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -129,6 +132,7 @@ type GoogleComputeRegionCompositeHealthCheck interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *GoogleComputeRegionCompositeHealthCheckTimeouts)
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetHealthSources()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -208,6 +212,26 @@ func (j *jsiiProxy_GoogleComputeRegionCompositeHealthCheck) CreationTimestamp() 
 	_jsii_.Get(
 		j,
 		"creationTimestamp",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeRegionCompositeHealthCheck) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeRegionCompositeHealthCheck) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -504,7 +528,7 @@ func (j *jsiiProxy_GoogleComputeRegionCompositeHealthCheck) TimeoutsInput() inte
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_composite_health_check google_compute_region_composite_health_check} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_composite_health_check google_compute_region_composite_health_check} Resource.
 func NewGoogleComputeRegionCompositeHealthCheck(scope constructs.Construct, id *string, config *GoogleComputeRegionCompositeHealthCheckConfig) GoogleComputeRegionCompositeHealthCheck {
 	_init_.Initialize()
 
@@ -522,7 +546,7 @@ func NewGoogleComputeRegionCompositeHealthCheck(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_composite_health_check google_compute_region_composite_health_check} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_composite_health_check google_compute_region_composite_health_check} Resource.
 func NewGoogleComputeRegionCompositeHealthCheck_Override(g GoogleComputeRegionCompositeHealthCheck, scope constructs.Construct, id *string, config *GoogleComputeRegionCompositeHealthCheckConfig) {
 	_init_.Initialize()
 
@@ -551,6 +575,17 @@ func (j *jsiiProxy_GoogleComputeRegionCompositeHealthCheck)SetCount(val interfac
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleComputeRegionCompositeHealthCheck)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1028,6 +1063,14 @@ func (g *jsiiProxy_GoogleComputeRegionCompositeHealthCheck) PutTimeouts(value *G
 		g,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleComputeRegionCompositeHealthCheck) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

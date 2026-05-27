@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_pubsub_schema google_pubsub_schema}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_pubsub_schema google_pubsub_schema}.
 type GooglePubsubSchema interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -30,6 +30,9 @@ type GooglePubsubSchema interface {
 	Definition() *string
 	SetDefinition(val *string)
 	DefinitionInput() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -123,6 +126,7 @@ type GooglePubsubSchema interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *GooglePubsubSchemaTimeouts)
 	ResetDefinition()
+	ResetDeletionPolicy()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -212,6 +216,26 @@ func (j *jsiiProxy_GooglePubsubSchema) DefinitionInput() *string {
 	_jsii_.Get(
 		j,
 		"definitionInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GooglePubsubSchema) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GooglePubsubSchema) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -438,7 +462,7 @@ func (j *jsiiProxy_GooglePubsubSchema) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_pubsub_schema google_pubsub_schema} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_pubsub_schema google_pubsub_schema} Resource.
 func NewGooglePubsubSchema(scope constructs.Construct, id *string, config *GooglePubsubSchemaConfig) GooglePubsubSchema {
 	_init_.Initialize()
 
@@ -456,7 +480,7 @@ func NewGooglePubsubSchema(scope constructs.Construct, id *string, config *Googl
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_pubsub_schema google_pubsub_schema} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_pubsub_schema google_pubsub_schema} Resource.
 func NewGooglePubsubSchema_Override(g GooglePubsubSchema, scope constructs.Construct, id *string, config *GooglePubsubSchemaConfig) {
 	_init_.Initialize()
 
@@ -496,6 +520,17 @@ func (j *jsiiProxy_GooglePubsubSchema)SetDefinition(val *string) {
 	_jsii_.Set(
 		j,
 		"definition",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GooglePubsubSchema)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -958,6 +993,14 @@ func (g *jsiiProxy_GooglePubsubSchema) ResetDefinition() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetDefinition",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GooglePubsubSchema) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

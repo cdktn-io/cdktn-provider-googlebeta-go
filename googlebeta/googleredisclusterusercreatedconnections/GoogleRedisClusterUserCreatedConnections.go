@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_redis_cluster_user_created_connections google_redis_cluster_user_created_connections}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_redis_cluster_user_created_connections google_redis_cluster_user_created_connections}.
 type GoogleRedisClusterUserCreatedConnections interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -29,6 +29,9 @@ type GoogleRedisClusterUserCreatedConnections interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -123,6 +126,7 @@ type GoogleRedisClusterUserCreatedConnections interface {
 	PutClusterEndpoints(value interface{})
 	PutTimeouts(value *GoogleRedisClusterUserCreatedConnectionsTimeouts)
 	ResetClusterEndpoints()
+	ResetDeletionPolicy()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -211,6 +215,26 @@ func (j *jsiiProxy_GoogleRedisClusterUserCreatedConnections) Count() interface{}
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleRedisClusterUserCreatedConnections) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleRedisClusterUserCreatedConnections) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -437,7 +461,7 @@ func (j *jsiiProxy_GoogleRedisClusterUserCreatedConnections) TimeoutsInput() int
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_redis_cluster_user_created_connections google_redis_cluster_user_created_connections} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_redis_cluster_user_created_connections google_redis_cluster_user_created_connections} Resource.
 func NewGoogleRedisClusterUserCreatedConnections(scope constructs.Construct, id *string, config *GoogleRedisClusterUserCreatedConnectionsConfig) GoogleRedisClusterUserCreatedConnections {
 	_init_.Initialize()
 
@@ -455,7 +479,7 @@ func NewGoogleRedisClusterUserCreatedConnections(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_redis_cluster_user_created_connections google_redis_cluster_user_created_connections} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_redis_cluster_user_created_connections google_redis_cluster_user_created_connections} Resource.
 func NewGoogleRedisClusterUserCreatedConnections_Override(g GoogleRedisClusterUserCreatedConnections, scope constructs.Construct, id *string, config *GoogleRedisClusterUserCreatedConnectionsConfig) {
 	_init_.Initialize()
 
@@ -484,6 +508,17 @@ func (j *jsiiProxy_GoogleRedisClusterUserCreatedConnections)SetCount(val interfa
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleRedisClusterUserCreatedConnections)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -957,6 +992,14 @@ func (g *jsiiProxy_GoogleRedisClusterUserCreatedConnections) ResetClusterEndpoin
 	_jsii_.InvokeVoid(
 		g,
 		"resetClusterEndpoints",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleRedisClusterUserCreatedConnections) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

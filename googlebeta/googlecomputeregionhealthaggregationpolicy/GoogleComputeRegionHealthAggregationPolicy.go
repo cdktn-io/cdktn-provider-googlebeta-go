@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_health_aggregation_policy google_compute_region_health_aggregation_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_health_aggregation_policy google_compute_region_health_aggregation_policy}.
 type GoogleComputeRegionHealthAggregationPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -28,6 +28,9 @@ type GoogleComputeRegionHealthAggregationPolicy interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreationTimestamp() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -132,6 +135,7 @@ type GoogleComputeRegionHealthAggregationPolicy interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *GoogleComputeRegionHealthAggregationPolicyTimeouts)
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetHealthyPercentThreshold()
 	ResetMinHealthyThreshold()
@@ -213,6 +217,26 @@ func (j *jsiiProxy_GoogleComputeRegionHealthAggregationPolicy) CreationTimestamp
 	_jsii_.Get(
 		j,
 		"creationTimestamp",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeRegionHealthAggregationPolicy) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeRegionHealthAggregationPolicy) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -529,7 +553,7 @@ func (j *jsiiProxy_GoogleComputeRegionHealthAggregationPolicy) TimeoutsInput() i
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_health_aggregation_policy google_compute_region_health_aggregation_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_health_aggregation_policy google_compute_region_health_aggregation_policy} Resource.
 func NewGoogleComputeRegionHealthAggregationPolicy(scope constructs.Construct, id *string, config *GoogleComputeRegionHealthAggregationPolicyConfig) GoogleComputeRegionHealthAggregationPolicy {
 	_init_.Initialize()
 
@@ -547,7 +571,7 @@ func NewGoogleComputeRegionHealthAggregationPolicy(scope constructs.Construct, i
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_health_aggregation_policy google_compute_region_health_aggregation_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_health_aggregation_policy google_compute_region_health_aggregation_policy} Resource.
 func NewGoogleComputeRegionHealthAggregationPolicy_Override(g GoogleComputeRegionHealthAggregationPolicy, scope constructs.Construct, id *string, config *GoogleComputeRegionHealthAggregationPolicyConfig) {
 	_init_.Initialize()
 
@@ -576,6 +600,17 @@ func (j *jsiiProxy_GoogleComputeRegionHealthAggregationPolicy)SetCount(val inter
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleComputeRegionHealthAggregationPolicy)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1064,6 +1099,14 @@ func (g *jsiiProxy_GoogleComputeRegionHealthAggregationPolicy) PutTimeouts(value
 		g,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleComputeRegionHealthAggregationPolicy) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

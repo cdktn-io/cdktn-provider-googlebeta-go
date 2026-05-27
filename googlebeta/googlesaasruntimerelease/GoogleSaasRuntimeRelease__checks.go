@@ -409,6 +409,14 @@ func (j *jsiiProxy_GoogleSaasRuntimeRelease) validateSetCountParameters(val inte
 	return nil
 }
 
+func (j *jsiiProxy_GoogleSaasRuntimeRelease) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_GoogleSaasRuntimeRelease) validateSetIdParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_pubsub_topic google_pubsub_topic}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_pubsub_topic google_pubsub_topic}.
 type GooglePubsubTopic interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -27,6 +27,9 @@ type GooglePubsubTopic interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -142,6 +145,7 @@ type GooglePubsubTopic interface {
 	PutMessageTransforms(value interface{})
 	PutSchemaSettings(value *GooglePubsubTopicSchemaSettings)
 	PutTimeouts(value *GooglePubsubTopicTimeouts)
+	ResetDeletionPolicy()
 	ResetId()
 	ResetIngestionDataSourceSettings()
 	ResetKmsKeyName()
@@ -218,6 +222,26 @@ func (j *jsiiProxy_GooglePubsubTopic) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GooglePubsubTopic) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GooglePubsubTopic) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -604,7 +628,7 @@ func (j *jsiiProxy_GooglePubsubTopic) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_pubsub_topic google_pubsub_topic} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_pubsub_topic google_pubsub_topic} Resource.
 func NewGooglePubsubTopic(scope constructs.Construct, id *string, config *GooglePubsubTopicConfig) GooglePubsubTopic {
 	_init_.Initialize()
 
@@ -622,7 +646,7 @@ func NewGooglePubsubTopic(scope constructs.Construct, id *string, config *Google
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_pubsub_topic google_pubsub_topic} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_pubsub_topic google_pubsub_topic} Resource.
 func NewGooglePubsubTopic_Override(g GooglePubsubTopic, scope constructs.Construct, id *string, config *GooglePubsubTopicConfig) {
 	_init_.Initialize()
 
@@ -651,6 +675,17 @@ func (j *jsiiProxy_GooglePubsubTopic)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GooglePubsubTopic)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1183,6 +1218,14 @@ func (g *jsiiProxy_GooglePubsubTopic) PutTimeouts(value *GooglePubsubTopicTimeou
 		g,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GooglePubsubTopic) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

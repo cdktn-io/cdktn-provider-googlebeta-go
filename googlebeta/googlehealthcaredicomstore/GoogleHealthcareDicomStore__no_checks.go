@@ -115,6 +115,10 @@ func (j *jsiiProxy_GoogleHealthcareDicomStore) validateSetDatasetParameters(val 
 	return nil
 }
 
+func (j *jsiiProxy_GoogleHealthcareDicomStore) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleHealthcareDicomStore) validateSetIdParameters(val *string) error {
 	return nil
 }

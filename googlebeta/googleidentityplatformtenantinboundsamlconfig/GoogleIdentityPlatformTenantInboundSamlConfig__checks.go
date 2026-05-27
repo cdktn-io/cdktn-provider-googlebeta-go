@@ -370,6 +370,14 @@ func (j *jsiiProxy_GoogleIdentityPlatformTenantInboundSamlConfig) validateSetCou
 	return nil
 }
 
+func (j *jsiiProxy_GoogleIdentityPlatformTenantInboundSamlConfig) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_GoogleIdentityPlatformTenantInboundSamlConfig) validateSetDisplayNameParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

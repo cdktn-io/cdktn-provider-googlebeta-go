@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_service_networking_peered_dns_domain google_service_networking_peered_dns_domain}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/data-sources/google_service_networking_peered_dns_domain google_service_networking_peered_dns_domain}.
 type DataGoogleServiceNetworkingPeeredDnsDomain interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -23,6 +23,9 @@ type DataGoogleServiceNetworkingPeeredDnsDomain interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -95,6 +98,7 @@ type DataGoogleServiceNetworkingPeeredDnsDomain interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	ResetDeletionPolicy()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -152,6 +156,26 @@ func (j *jsiiProxy_DataGoogleServiceNetworkingPeeredDnsDomain) Count() interface
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleServiceNetworkingPeeredDnsDomain) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleServiceNetworkingPeeredDnsDomain) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -388,7 +412,7 @@ func (j *jsiiProxy_DataGoogleServiceNetworkingPeeredDnsDomain) TerraformResource
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_service_networking_peered_dns_domain google_service_networking_peered_dns_domain} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/data-sources/google_service_networking_peered_dns_domain google_service_networking_peered_dns_domain} Data Source.
 func NewDataGoogleServiceNetworkingPeeredDnsDomain(scope constructs.Construct, id *string, config *DataGoogleServiceNetworkingPeeredDnsDomainConfig) DataGoogleServiceNetworkingPeeredDnsDomain {
 	_init_.Initialize()
 
@@ -406,7 +430,7 @@ func NewDataGoogleServiceNetworkingPeeredDnsDomain(scope constructs.Construct, i
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_service_networking_peered_dns_domain google_service_networking_peered_dns_domain} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/data-sources/google_service_networking_peered_dns_domain google_service_networking_peered_dns_domain} Data Source.
 func NewDataGoogleServiceNetworkingPeeredDnsDomain_Override(d DataGoogleServiceNetworkingPeeredDnsDomain, scope constructs.Construct, id *string, config *DataGoogleServiceNetworkingPeeredDnsDomainConfig) {
 	_init_.Initialize()
 
@@ -424,6 +448,17 @@ func (j *jsiiProxy_DataGoogleServiceNetworkingPeeredDnsDomain)SetCount(val inter
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DataGoogleServiceNetworkingPeeredDnsDomain)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -800,6 +835,14 @@ func (d *jsiiProxy_DataGoogleServiceNetworkingPeeredDnsDomain) OverrideLogicalId
 		d,
 		"overrideLogicalId",
 		[]interface{}{newLogicalId},
+	)
+}
+
+func (d *jsiiProxy_DataGoogleServiceNetworkingPeeredDnsDomain) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

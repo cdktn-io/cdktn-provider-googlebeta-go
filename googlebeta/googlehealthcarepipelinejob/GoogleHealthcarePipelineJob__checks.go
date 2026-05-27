@@ -389,6 +389,14 @@ func (j *jsiiProxy_GoogleHealthcarePipelineJob) validateSetDatasetParameters(val
 	return nil
 }
 
+func (j *jsiiProxy_GoogleHealthcarePipelineJob) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_GoogleHealthcarePipelineJob) validateSetDisableLineageParameters(val interface{}) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

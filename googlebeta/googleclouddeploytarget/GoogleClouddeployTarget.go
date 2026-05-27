@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_clouddeploy_target google_clouddeploy_target}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_clouddeploy_target google_clouddeploy_target}.
 type GoogleClouddeployTarget interface {
 	cdktn.TerraformResource
 	Annotations() *map[string]*string
@@ -37,6 +37,9 @@ type GoogleClouddeployTarget interface {
 	CreateTime() *string
 	CustomTarget() GoogleClouddeployTargetCustomTargetOutputReference
 	CustomTargetInput() *GoogleClouddeployTargetCustomTarget
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -167,6 +170,7 @@ type GoogleClouddeployTarget interface {
 	ResetAnthosCluster()
 	ResetAssociatedEntities()
 	ResetCustomTarget()
+	ResetDeletionPolicy()
 	ResetDeployParameters()
 	ResetDescription()
 	ResetExecutionConfigs()
@@ -333,6 +337,26 @@ func (j *jsiiProxy_GoogleClouddeployTarget) CustomTargetInput() *GoogleClouddepl
 	_jsii_.Get(
 		j,
 		"customTargetInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleClouddeployTarget) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleClouddeployTarget) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -789,7 +813,7 @@ func (j *jsiiProxy_GoogleClouddeployTarget) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_clouddeploy_target google_clouddeploy_target} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_clouddeploy_target google_clouddeploy_target} Resource.
 func NewGoogleClouddeployTarget(scope constructs.Construct, id *string, config *GoogleClouddeployTargetConfig) GoogleClouddeployTarget {
 	_init_.Initialize()
 
@@ -807,7 +831,7 @@ func NewGoogleClouddeployTarget(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_clouddeploy_target google_clouddeploy_target} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_clouddeploy_target google_clouddeploy_target} Resource.
 func NewGoogleClouddeployTarget_Override(g GoogleClouddeployTarget, scope constructs.Construct, id *string, config *GoogleClouddeployTargetConfig) {
 	_init_.Initialize()
 
@@ -847,6 +871,17 @@ func (j *jsiiProxy_GoogleClouddeployTarget)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleClouddeployTarget)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1454,6 +1489,14 @@ func (g *jsiiProxy_GoogleClouddeployTarget) ResetCustomTarget() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetCustomTarget",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleClouddeployTarget) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_kms_crypto_key google_kms_crypto_key}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_kms_crypto_key google_kms_crypto_key}.
 type GoogleKmsCryptoKey interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -30,6 +30,9 @@ type GoogleKmsCryptoKey interface {
 	CryptoKeyBackend() *string
 	SetCryptoKeyBackend(val *string)
 	CryptoKeyBackendInput() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -147,6 +150,7 @@ type GoogleKmsCryptoKey interface {
 	PutTimeouts(value *GoogleKmsCryptoKeyTimeouts)
 	PutVersionTemplate(value *GoogleKmsCryptoKeyVersionTemplate)
 	ResetCryptoKeyBackend()
+	ResetDeletionPolicy()
 	ResetDestroyScheduledDuration()
 	ResetId()
 	ResetImportOnly()
@@ -242,6 +246,26 @@ func (j *jsiiProxy_GoogleKmsCryptoKey) CryptoKeyBackendInput() *string {
 	_jsii_.Get(
 		j,
 		"cryptoKeyBackendInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleKmsCryptoKey) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleKmsCryptoKey) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -638,7 +662,7 @@ func (j *jsiiProxy_GoogleKmsCryptoKey) VersionTemplateInput() *GoogleKmsCryptoKe
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_kms_crypto_key google_kms_crypto_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_kms_crypto_key google_kms_crypto_key} Resource.
 func NewGoogleKmsCryptoKey(scope constructs.Construct, id *string, config *GoogleKmsCryptoKeyConfig) GoogleKmsCryptoKey {
 	_init_.Initialize()
 
@@ -656,7 +680,7 @@ func NewGoogleKmsCryptoKey(scope constructs.Construct, id *string, config *Googl
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_kms_crypto_key google_kms_crypto_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_kms_crypto_key google_kms_crypto_key} Resource.
 func NewGoogleKmsCryptoKey_Override(g GoogleKmsCryptoKey, scope constructs.Construct, id *string, config *GoogleKmsCryptoKeyConfig) {
 	_init_.Initialize()
 
@@ -696,6 +720,17 @@ func (j *jsiiProxy_GoogleKmsCryptoKey)SetCryptoKeyBackend(val *string) {
 	_jsii_.Set(
 		j,
 		"cryptoKeyBackend",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleKmsCryptoKey)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1235,6 +1270,14 @@ func (g *jsiiProxy_GoogleKmsCryptoKey) ResetCryptoKeyBackend() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetCryptoKeyBackend",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleKmsCryptoKey) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

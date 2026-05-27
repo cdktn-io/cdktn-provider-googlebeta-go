@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_storage_transfer_job google_storage_transfer_job}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_storage_transfer_job google_storage_transfer_job}.
 type GoogleStorageTransferJob interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -28,6 +28,9 @@ type GoogleStorageTransferJob interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreationTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	DeletionTime() *string
 	// Experimental.
 	DependsOn() *[]*string
@@ -143,6 +146,7 @@ type GoogleStorageTransferJob interface {
 	PutReplicationSpec(value *GoogleStorageTransferJobReplicationSpec)
 	PutSchedule(value *GoogleStorageTransferJobSchedule)
 	PutTransferSpec(value *GoogleStorageTransferJobTransferSpec)
+	ResetDeletionPolicy()
 	ResetEventStream()
 	ResetId()
 	ResetLoggingConfig()
@@ -229,6 +233,26 @@ func (j *jsiiProxy_GoogleStorageTransferJob) CreationTime() *string {
 	_jsii_.Get(
 		j,
 		"creationTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleStorageTransferJob) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleStorageTransferJob) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -615,7 +639,7 @@ func (j *jsiiProxy_GoogleStorageTransferJob) TransferSpecInput() *GoogleStorageT
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_storage_transfer_job google_storage_transfer_job} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_storage_transfer_job google_storage_transfer_job} Resource.
 func NewGoogleStorageTransferJob(scope constructs.Construct, id *string, config *GoogleStorageTransferJobConfig) GoogleStorageTransferJob {
 	_init_.Initialize()
 
@@ -633,7 +657,7 @@ func NewGoogleStorageTransferJob(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_storage_transfer_job google_storage_transfer_job} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_storage_transfer_job google_storage_transfer_job} Resource.
 func NewGoogleStorageTransferJob_Override(g GoogleStorageTransferJob, scope constructs.Construct, id *string, config *GoogleStorageTransferJobConfig) {
 	_init_.Initialize()
 
@@ -662,6 +686,17 @@ func (j *jsiiProxy_GoogleStorageTransferJob)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleStorageTransferJob)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1194,6 +1229,14 @@ func (g *jsiiProxy_GoogleStorageTransferJob) PutTransferSpec(value *GoogleStorag
 		g,
 		"putTransferSpec",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleStorageTransferJob) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

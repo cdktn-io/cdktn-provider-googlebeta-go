@@ -26,13 +26,25 @@ type GoogleSqlSslCertConfig struct {
 	//
 	// Constrained to [a-zA-Z.-_ ]+. Changing this forces a new resource to be created.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_sql_ssl_cert#common_name GoogleSqlSslCert#common_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_sql_ssl_cert#common_name GoogleSqlSslCert#common_name}
 	CommonName *string `field:"required" json:"commonName" yaml:"commonName"`
 	// The name of the Cloud SQL instance. Changing this forces a new resource to be created.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_sql_ssl_cert#instance GoogleSqlSslCert#instance}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_sql_ssl_cert#instance GoogleSqlSslCert#instance}
 	Instance *string `field:"required" json:"instance" yaml:"instance"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_sql_ssl_cert#id GoogleSqlSslCert#id}.
+	// Whether Terraform will be prevented from destroying the instance.
+	//
+	// Defaults to "DELETE".
+	// When a 'terraform destroy' or 'terraform apply' would delete the instance,
+	// the command will fail if this field is set to "PREVENT" in Terraform state.
+	// When set to "ABANDON", the command will remove the resource from Terraform
+	// management without updating or deleting the resource in the API.
+	// When set to "DELETE", deleting the resource is allowed.
+	//
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_sql_ssl_cert#deletion_policy GoogleSqlSslCert#deletion_policy}
+	DeletionPolicy *string `field:"optional" json:"deletionPolicy" yaml:"deletionPolicy"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_sql_ssl_cert#id GoogleSqlSslCert#id}.
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,11 +53,11 @@ type GoogleSqlSslCertConfig struct {
 	//
 	// If it is not provided, the provider project is used.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_sql_ssl_cert#project GoogleSqlSslCert#project}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_sql_ssl_cert#project GoogleSqlSslCert#project}
 	Project *string `field:"optional" json:"project" yaml:"project"`
 	// timeouts block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_sql_ssl_cert#timeouts GoogleSqlSslCert#timeouts}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_sql_ssl_cert#timeouts GoogleSqlSslCert#timeouts}
 	Timeouts *GoogleSqlSslCertTimeouts `field:"optional" json:"timeouts" yaml:"timeouts"`
 }
 

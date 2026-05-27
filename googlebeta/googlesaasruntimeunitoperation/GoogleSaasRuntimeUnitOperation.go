@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_saas_runtime_unit_operation google_saas_runtime_unit_operation}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_saas_runtime_unit_operation google_saas_runtime_unit_operation}.
 type GoogleSaasRuntimeUnitOperation interface {
 	cdktn.TerraformResource
 	Annotations() *map[string]*string
@@ -32,6 +32,9 @@ type GoogleSaasRuntimeUnitOperation interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -153,6 +156,7 @@ type GoogleSaasRuntimeUnitOperation interface {
 	PutTimeouts(value *GoogleSaasRuntimeUnitOperationTimeouts)
 	PutUpgrade(value *GoogleSaasRuntimeUnitOperationUpgrade)
 	ResetAnnotations()
+	ResetDeletionPolicy()
 	ResetDeprovision()
 	ResetId()
 	ResetLabels()
@@ -266,6 +270,26 @@ func (j *jsiiProxy_GoogleSaasRuntimeUnitOperation) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleSaasRuntimeUnitOperation) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleSaasRuntimeUnitOperation) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -712,7 +736,7 @@ func (j *jsiiProxy_GoogleSaasRuntimeUnitOperation) WaitForCompletionInput() inte
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_saas_runtime_unit_operation google_saas_runtime_unit_operation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_saas_runtime_unit_operation google_saas_runtime_unit_operation} Resource.
 func NewGoogleSaasRuntimeUnitOperation(scope constructs.Construct, id *string, config *GoogleSaasRuntimeUnitOperationConfig) GoogleSaasRuntimeUnitOperation {
 	_init_.Initialize()
 
@@ -730,7 +754,7 @@ func NewGoogleSaasRuntimeUnitOperation(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_saas_runtime_unit_operation google_saas_runtime_unit_operation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_saas_runtime_unit_operation google_saas_runtime_unit_operation} Resource.
 func NewGoogleSaasRuntimeUnitOperation_Override(g GoogleSaasRuntimeUnitOperation, scope constructs.Construct, id *string, config *GoogleSaasRuntimeUnitOperationConfig) {
 	_init_.Initialize()
 
@@ -770,6 +794,17 @@ func (j *jsiiProxy_GoogleSaasRuntimeUnitOperation)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleSaasRuntimeUnitOperation)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1298,6 +1333,14 @@ func (g *jsiiProxy_GoogleSaasRuntimeUnitOperation) ResetAnnotations() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetAnnotations",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleSaasRuntimeUnitOperation) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

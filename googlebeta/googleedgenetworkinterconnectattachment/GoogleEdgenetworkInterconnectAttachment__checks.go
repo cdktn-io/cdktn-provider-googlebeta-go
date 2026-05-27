@@ -348,6 +348,14 @@ func (j *jsiiProxy_GoogleEdgenetworkInterconnectAttachment) validateSetCountPara
 	return nil
 }
 
+func (j *jsiiProxy_GoogleEdgenetworkInterconnectAttachment) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_GoogleEdgenetworkInterconnectAttachment) validateSetDescriptionParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

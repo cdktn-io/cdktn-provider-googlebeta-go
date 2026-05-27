@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_oracle_database_exascale_db_storage_vault google_oracle_database_exascale_db_storage_vault}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_oracle_database_exascale_db_storage_vault google_oracle_database_exascale_db_storage_vault}.
 type GoogleOracleDatabaseExascaleDbStorageVault interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -28,6 +28,9 @@ type GoogleOracleDatabaseExascaleDbStorageVault interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	DeletionProtection() interface{}
 	SetDeletionProtection(val interface{})
 	DeletionProtectionInput() interface{}
@@ -139,6 +142,7 @@ type GoogleOracleDatabaseExascaleDbStorageVault interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutProperties(value *GoogleOracleDatabaseExascaleDbStorageVaultProperties)
 	PutTimeouts(value *GoogleOracleDatabaseExascaleDbStorageVaultTimeouts)
+	ResetDeletionPolicy()
 	ResetDeletionProtection()
 	ResetGcpOracleZone()
 	ResetId()
@@ -220,6 +224,26 @@ func (j *jsiiProxy_GoogleOracleDatabaseExascaleDbStorageVault) CreateTime() *str
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleOracleDatabaseExascaleDbStorageVault) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleOracleDatabaseExascaleDbStorageVault) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -586,7 +610,7 @@ func (j *jsiiProxy_GoogleOracleDatabaseExascaleDbStorageVault) TimeoutsInput() i
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_oracle_database_exascale_db_storage_vault google_oracle_database_exascale_db_storage_vault} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_oracle_database_exascale_db_storage_vault google_oracle_database_exascale_db_storage_vault} Resource.
 func NewGoogleOracleDatabaseExascaleDbStorageVault(scope constructs.Construct, id *string, config *GoogleOracleDatabaseExascaleDbStorageVaultConfig) GoogleOracleDatabaseExascaleDbStorageVault {
 	_init_.Initialize()
 
@@ -604,7 +628,7 @@ func NewGoogleOracleDatabaseExascaleDbStorageVault(scope constructs.Construct, i
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_oracle_database_exascale_db_storage_vault google_oracle_database_exascale_db_storage_vault} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_oracle_database_exascale_db_storage_vault google_oracle_database_exascale_db_storage_vault} Resource.
 func NewGoogleOracleDatabaseExascaleDbStorageVault_Override(g GoogleOracleDatabaseExascaleDbStorageVault, scope constructs.Construct, id *string, config *GoogleOracleDatabaseExascaleDbStorageVaultConfig) {
 	_init_.Initialize()
 
@@ -633,6 +657,17 @@ func (j *jsiiProxy_GoogleOracleDatabaseExascaleDbStorageVault)SetCount(val inter
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleOracleDatabaseExascaleDbStorageVault)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1143,6 +1178,14 @@ func (g *jsiiProxy_GoogleOracleDatabaseExascaleDbStorageVault) PutTimeouts(value
 		g,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleOracleDatabaseExascaleDbStorageVault) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

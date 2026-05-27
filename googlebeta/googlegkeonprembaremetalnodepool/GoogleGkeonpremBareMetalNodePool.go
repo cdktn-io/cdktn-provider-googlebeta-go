@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_gkeonprem_bare_metal_node_pool google_gkeonprem_bare_metal_node_pool}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_gkeonprem_bare_metal_node_pool google_gkeonprem_bare_metal_node_pool}.
 type GoogleGkeonpremBareMetalNodePool interface {
 	cdktn.TerraformResource
 	Annotations() *map[string]*string
@@ -35,6 +35,9 @@ type GoogleGkeonpremBareMetalNodePool interface {
 	SetCount(val interface{})
 	CreateTime() *string
 	DeleteTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -141,6 +144,7 @@ type GoogleGkeonpremBareMetalNodePool interface {
 	PutNodePoolConfig(value *GoogleGkeonpremBareMetalNodePoolNodePoolConfig)
 	PutTimeouts(value *GoogleGkeonpremBareMetalNodePoolTimeouts)
 	ResetAnnotations()
+	ResetDeletionPolicy()
 	ResetDisplayName()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -270,6 +274,26 @@ func (j *jsiiProxy_GoogleGkeonpremBareMetalNodePool) DeleteTime() *string {
 	_jsii_.Get(
 		j,
 		"deleteTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleGkeonpremBareMetalNodePool) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleGkeonpremBareMetalNodePool) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -606,7 +630,7 @@ func (j *jsiiProxy_GoogleGkeonpremBareMetalNodePool) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_gkeonprem_bare_metal_node_pool google_gkeonprem_bare_metal_node_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_gkeonprem_bare_metal_node_pool google_gkeonprem_bare_metal_node_pool} Resource.
 func NewGoogleGkeonpremBareMetalNodePool(scope constructs.Construct, id *string, config *GoogleGkeonpremBareMetalNodePoolConfig) GoogleGkeonpremBareMetalNodePool {
 	_init_.Initialize()
 
@@ -624,7 +648,7 @@ func NewGoogleGkeonpremBareMetalNodePool(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_gkeonprem_bare_metal_node_pool google_gkeonprem_bare_metal_node_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_gkeonprem_bare_metal_node_pool google_gkeonprem_bare_metal_node_pool} Resource.
 func NewGoogleGkeonpremBareMetalNodePool_Override(g GoogleGkeonpremBareMetalNodePool, scope constructs.Construct, id *string, config *GoogleGkeonpremBareMetalNodePoolConfig) {
 	_init_.Initialize()
 
@@ -675,6 +699,17 @@ func (j *jsiiProxy_GoogleGkeonpremBareMetalNodePool)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleGkeonpremBareMetalNodePool)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1159,6 +1194,14 @@ func (g *jsiiProxy_GoogleGkeonpremBareMetalNodePool) ResetAnnotations() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetAnnotations",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleGkeonpremBareMetalNodePool) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

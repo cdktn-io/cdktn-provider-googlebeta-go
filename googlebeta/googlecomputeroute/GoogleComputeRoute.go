@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_route google_compute_route}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_route google_compute_route}.
 type GoogleComputeRoute interface {
 	cdktn.TerraformResource
 	AsPaths() GoogleComputeRouteAsPathsList
@@ -29,6 +29,9 @@ type GoogleComputeRoute interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreationTimestamp() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -164,6 +167,7 @@ type GoogleComputeRoute interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutParams(value *GoogleComputeRouteParams)
 	PutTimeouts(value *GoogleComputeRouteTimeouts)
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	ResetNextHopGateway()
@@ -262,6 +266,26 @@ func (j *jsiiProxy_GoogleComputeRoute) CreationTimestamp() *string {
 	_jsii_.Get(
 		j,
 		"creationTimestamp",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeRoute) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeRoute) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -808,7 +832,7 @@ func (j *jsiiProxy_GoogleComputeRoute) Warnings() GoogleComputeRouteWarningsList
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_route google_compute_route} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_route google_compute_route} Resource.
 func NewGoogleComputeRoute(scope constructs.Construct, id *string, config *GoogleComputeRouteConfig) GoogleComputeRoute {
 	_init_.Initialize()
 
@@ -826,7 +850,7 @@ func NewGoogleComputeRoute(scope constructs.Construct, id *string, config *Googl
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_route google_compute_route} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_route google_compute_route} Resource.
 func NewGoogleComputeRoute_Override(g GoogleComputeRoute, scope constructs.Construct, id *string, config *GoogleComputeRouteConfig) {
 	_init_.Initialize()
 
@@ -855,6 +879,17 @@ func (j *jsiiProxy_GoogleComputeRoute)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleComputeRoute)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1431,6 +1466,14 @@ func (g *jsiiProxy_GoogleComputeRoute) PutTimeouts(value *GoogleComputeRouteTime
 		g,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleComputeRoute) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_chronicle_feed google_chronicle_feed}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_chronicle_feed google_chronicle_feed}.
 type GoogleChronicleFeed interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -27,6 +27,9 @@ type GoogleChronicleFeed interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -143,6 +146,7 @@ type GoogleChronicleFeed interface {
 	PutDetails(value *GoogleChronicleFeedDetails)
 	PutFailureDetails(value *GoogleChronicleFeedFailureDetails)
 	PutTimeouts(value *GoogleChronicleFeedTimeouts)
+	ResetDeletionPolicy()
 	ResetDetails()
 	ResetDisplayName()
 	ResetEnabled()
@@ -216,6 +220,26 @@ func (j *jsiiProxy_GoogleChronicleFeed) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleChronicleFeed) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleChronicleFeed) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -632,7 +656,7 @@ func (j *jsiiProxy_GoogleChronicleFeed) Uid() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_chronicle_feed google_chronicle_feed} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_chronicle_feed google_chronicle_feed} Resource.
 func NewGoogleChronicleFeed(scope constructs.Construct, id *string, config *GoogleChronicleFeedConfig) GoogleChronicleFeed {
 	_init_.Initialize()
 
@@ -650,7 +674,7 @@ func NewGoogleChronicleFeed(scope constructs.Construct, id *string, config *Goog
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_chronicle_feed google_chronicle_feed} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_chronicle_feed google_chronicle_feed} Resource.
 func NewGoogleChronicleFeed_Override(g GoogleChronicleFeed, scope constructs.Construct, id *string, config *GoogleChronicleFeedConfig) {
 	_init_.Initialize()
 
@@ -679,6 +703,17 @@ func (j *jsiiProxy_GoogleChronicleFeed)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleChronicleFeed)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1189,6 +1224,14 @@ func (g *jsiiProxy_GoogleChronicleFeed) PutTimeouts(value *GoogleChronicleFeedTi
 		g,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleChronicleFeed) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

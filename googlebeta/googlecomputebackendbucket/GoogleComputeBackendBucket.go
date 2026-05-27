@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_backend_bucket google_compute_backend_bucket}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_backend_bucket google_compute_backend_bucket}.
 type GoogleComputeBackendBucket interface {
 	cdktn.TerraformResource
 	BucketName() *string
@@ -39,6 +39,9 @@ type GoogleComputeBackendBucket interface {
 	CustomResponseHeaders() *[]*string
 	SetCustomResponseHeaders(val *[]*string)
 	CustomResponseHeadersInput() *[]*string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -148,6 +151,7 @@ type GoogleComputeBackendBucket interface {
 	ResetCdnPolicy()
 	ResetCompressionMode()
 	ResetCustomResponseHeaders()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetEdgeSecurityPolicy()
 	ResetEnableCdn()
@@ -311,6 +315,26 @@ func (j *jsiiProxy_GoogleComputeBackendBucket) CustomResponseHeadersInput() *[]*
 	_jsii_.Get(
 		j,
 		"customResponseHeadersInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeBackendBucket) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeBackendBucket) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -627,7 +651,7 @@ func (j *jsiiProxy_GoogleComputeBackendBucket) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_backend_bucket google_compute_backend_bucket} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_backend_bucket google_compute_backend_bucket} Resource.
 func NewGoogleComputeBackendBucket(scope constructs.Construct, id *string, config *GoogleComputeBackendBucketConfig) GoogleComputeBackendBucket {
 	_init_.Initialize()
 
@@ -645,7 +669,7 @@ func NewGoogleComputeBackendBucket(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_backend_bucket google_compute_backend_bucket} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_backend_bucket google_compute_backend_bucket} Resource.
 func NewGoogleComputeBackendBucket_Override(g GoogleComputeBackendBucket, scope constructs.Construct, id *string, config *GoogleComputeBackendBucketConfig) {
 	_init_.Initialize()
 
@@ -707,6 +731,17 @@ func (j *jsiiProxy_GoogleComputeBackendBucket)SetCustomResponseHeaders(val *[]*s
 	_jsii_.Set(
 		j,
 		"customResponseHeaders",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleComputeBackendBucket)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1240,6 +1275,14 @@ func (g *jsiiProxy_GoogleComputeBackendBucket) ResetCustomResponseHeaders() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetCustomResponseHeaders",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleComputeBackendBucket) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

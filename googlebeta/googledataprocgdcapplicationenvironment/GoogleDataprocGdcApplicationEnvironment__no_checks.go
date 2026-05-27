@@ -115,6 +115,10 @@ func (j *jsiiProxy_GoogleDataprocGdcApplicationEnvironment) validateSetCountPara
 	return nil
 }
 
+func (j *jsiiProxy_GoogleDataprocGdcApplicationEnvironment) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleDataprocGdcApplicationEnvironment) validateSetDisplayNameParameters(val *string) error {
 	return nil
 }

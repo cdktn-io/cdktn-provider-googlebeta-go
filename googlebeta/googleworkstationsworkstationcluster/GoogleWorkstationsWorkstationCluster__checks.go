@@ -378,6 +378,14 @@ func (j *jsiiProxy_GoogleWorkstationsWorkstationCluster) validateSetCountParamet
 	return nil
 }
 
+func (j *jsiiProxy_GoogleWorkstationsWorkstationCluster) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_GoogleWorkstationsWorkstationCluster) validateSetDisplayNameParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
@@ -496,7 +504,23 @@ func (j *jsiiProxy_GoogleWorkstationsWorkstationCluster) validateSetTagsParamete
 	return nil
 }
 
+func (j *jsiiProxy_GoogleWorkstationsWorkstationCluster) validateSetWorkstationAuthorizationUrlParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_GoogleWorkstationsWorkstationCluster) validateSetWorkstationClusterIdParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_GoogleWorkstationsWorkstationCluster) validateSetWorkstationLaunchUrlParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}

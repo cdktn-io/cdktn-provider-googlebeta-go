@@ -107,6 +107,10 @@ func (j *jsiiProxy_GoogleDiscoveryEngineSitemap) validateSetDataStoreIdParameter
 	return nil
 }
 
+func (j *jsiiProxy_GoogleDiscoveryEngineSitemap) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleDiscoveryEngineSitemap) validateSetIdParameters(val *string) error {
 	return nil
 }

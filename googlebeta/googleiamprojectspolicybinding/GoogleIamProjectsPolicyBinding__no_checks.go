@@ -115,6 +115,10 @@ func (j *jsiiProxy_GoogleIamProjectsPolicyBinding) validateSetCountParameters(va
 	return nil
 }
 
+func (j *jsiiProxy_GoogleIamProjectsPolicyBinding) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleIamProjectsPolicyBinding) validateSetDisplayNameParameters(val *string) error {
 	return nil
 }

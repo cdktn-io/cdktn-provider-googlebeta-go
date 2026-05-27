@@ -111,6 +111,10 @@ func (j *jsiiProxy_GoogleOracleDatabaseDbSystem) validateSetDbSystemIdParameters
 	return nil
 }
 
+func (j *jsiiProxy_GoogleOracleDatabaseDbSystem) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleOracleDatabaseDbSystem) validateSetDeletionProtectionParameters(val interface{}) error {
 	return nil
 }

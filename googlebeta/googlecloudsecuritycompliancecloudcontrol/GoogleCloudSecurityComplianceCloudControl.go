@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloud_security_compliance_cloud_control google_cloud_security_compliance_cloud_control}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloud_security_compliance_cloud_control google_cloud_security_compliance_cloud_control}.
 type GoogleCloudSecurityComplianceCloudControl interface {
 	cdktn.TerraformResource
 	Categories() *[]*string
@@ -34,6 +34,9 @@ type GoogleCloudSecurityComplianceCloudControl interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -153,6 +156,7 @@ type GoogleCloudSecurityComplianceCloudControl interface {
 	PutRules(value interface{})
 	PutTimeouts(value *GoogleCloudSecurityComplianceCloudControlTimeouts)
 	ResetCategories()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetDisplayName()
 	ResetFindingCategory()
@@ -278,6 +282,26 @@ func (j *jsiiProxy_GoogleCloudSecurityComplianceCloudControl) CreateTime() *stri
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCloudSecurityComplianceCloudControl) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCloudSecurityComplianceCloudControl) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -694,7 +718,7 @@ func (j *jsiiProxy_GoogleCloudSecurityComplianceCloudControl) TimeoutsInput() in
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloud_security_compliance_cloud_control google_cloud_security_compliance_cloud_control} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloud_security_compliance_cloud_control google_cloud_security_compliance_cloud_control} Resource.
 func NewGoogleCloudSecurityComplianceCloudControl(scope constructs.Construct, id *string, config *GoogleCloudSecurityComplianceCloudControlConfig) GoogleCloudSecurityComplianceCloudControl {
 	_init_.Initialize()
 
@@ -712,7 +736,7 @@ func NewGoogleCloudSecurityComplianceCloudControl(scope constructs.Construct, id
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloud_security_compliance_cloud_control google_cloud_security_compliance_cloud_control} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloud_security_compliance_cloud_control google_cloud_security_compliance_cloud_control} Resource.
 func NewGoogleCloudSecurityComplianceCloudControl_Override(g GoogleCloudSecurityComplianceCloudControl, scope constructs.Construct, id *string, config *GoogleCloudSecurityComplianceCloudControlConfig) {
 	_init_.Initialize()
 
@@ -763,6 +787,17 @@ func (j *jsiiProxy_GoogleCloudSecurityComplianceCloudControl)SetCount(val interf
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleCloudSecurityComplianceCloudControl)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1302,6 +1337,14 @@ func (g *jsiiProxy_GoogleCloudSecurityComplianceCloudControl) ResetCategories() 
 	_jsii_.InvokeVoid(
 		g,
 		"resetCategories",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleCloudSecurityComplianceCloudControl) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

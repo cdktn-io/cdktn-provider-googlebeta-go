@@ -21,6 +21,8 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "constructNodeMetadata", GoGetter: "ConstructNodeMetadata"},
 			_jsii_.MemberProperty{JsiiProperty: "count", GoGetter: "Count"},
 			_jsii_.MemberProperty{JsiiProperty: "createTime", GoGetter: "CreateTime"},
+			_jsii_.MemberProperty{JsiiProperty: "deletionPolicy", GoGetter: "DeletionPolicy"},
+			_jsii_.MemberProperty{JsiiProperty: "deletionPolicyInput", GoGetter: "DeletionPolicyInput"},
 			_jsii_.MemberProperty{JsiiProperty: "dependsOn", GoGetter: "DependsOn"},
 			_jsii_.MemberProperty{JsiiProperty: "destination", GoGetter: "Destination"},
 			_jsii_.MemberProperty{JsiiProperty: "destinationInput", GoGetter: "DestinationInput"},
@@ -69,6 +71,8 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "performanceConfig", GoGetter: "PerformanceConfig"},
 			_jsii_.MemberProperty{JsiiProperty: "performanceConfigInput", GoGetter: "PerformanceConfigInput"},
 			_jsii_.MemberProperty{JsiiProperty: "phase", GoGetter: "Phase"},
+			_jsii_.MemberProperty{JsiiProperty: "postgresHomogeneousConfig", GoGetter: "PostgresHomogeneousConfig"},
+			_jsii_.MemberProperty{JsiiProperty: "postgresHomogeneousConfigInput", GoGetter: "PostgresHomogeneousConfigInput"},
 			_jsii_.MemberProperty{JsiiProperty: "project", GoGetter: "Project"},
 			_jsii_.MemberProperty{JsiiProperty: "projectInput", GoGetter: "ProjectInput"},
 			_jsii_.MemberProperty{JsiiProperty: "provider", GoGetter: "Provider"},
@@ -76,11 +80,13 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "putDumpFlags", GoMethod: "PutDumpFlags"},
 			_jsii_.MemberMethod{JsiiMethod: "putObjectsConfig", GoMethod: "PutObjectsConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "putPerformanceConfig", GoMethod: "PutPerformanceConfig"},
+			_jsii_.MemberMethod{JsiiMethod: "putPostgresHomogeneousConfig", GoMethod: "PutPostgresHomogeneousConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "putReverseSshConnectivity", GoMethod: "PutReverseSshConnectivity"},
 			_jsii_.MemberMethod{JsiiMethod: "putStaticIpConnectivity", GoMethod: "PutStaticIpConnectivity"},
 			_jsii_.MemberMethod{JsiiMethod: "putTimeouts", GoMethod: "PutTimeouts"},
 			_jsii_.MemberMethod{JsiiMethod: "putVpcPeeringConnectivity", GoMethod: "PutVpcPeeringConnectivity"},
 			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
+			_jsii_.MemberMethod{JsiiMethod: "resetDeletionPolicy", GoMethod: "ResetDeletionPolicy"},
 			_jsii_.MemberMethod{JsiiMethod: "resetDisplayName", GoMethod: "ResetDisplayName"},
 			_jsii_.MemberMethod{JsiiMethod: "resetDumpFlags", GoMethod: "ResetDumpFlags"},
 			_jsii_.MemberMethod{JsiiMethod: "resetDumpPath", GoMethod: "ResetDumpPath"},
@@ -91,6 +97,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetObjectsConfig", GoMethod: "ResetObjectsConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetPerformanceConfig", GoMethod: "ResetPerformanceConfig"},
+			_jsii_.MemberMethod{JsiiMethod: "resetPostgresHomogeneousConfig", GoMethod: "ResetPostgresHomogeneousConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "resetProject", GoMethod: "ResetProject"},
 			_jsii_.MemberMethod{JsiiMethod: "resetReverseSshConnectivity", GoMethod: "ResetReverseSshConnectivity"},
 			_jsii_.MemberMethod{JsiiMethod: "resetStaticIpConnectivity", GoMethod: "ResetStaticIpConnectivity"},
@@ -522,6 +529,47 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GoogleDatabaseMigrationServiceMigrationJobPerformanceConfigOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-google-beta.googleDatabaseMigrationServiceMigrationJob.GoogleDatabaseMigrationServiceMigrationJobPostgresHomogeneousConfig",
+		reflect.TypeOf((*GoogleDatabaseMigrationServiceMigrationJobPostgresHomogeneousConfig)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-google-beta.googleDatabaseMigrationServiceMigrationJob.GoogleDatabaseMigrationServiceMigrationJobPostgresHomogeneousConfigOutputReference",
+		reflect.TypeOf((*GoogleDatabaseMigrationServiceMigrationJobPostgresHomogeneousConfigOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "isNativeLogical", GoGetter: "IsNativeLogical"},
+			_jsii_.MemberProperty{JsiiProperty: "isNativeLogicalInput", GoGetter: "IsNativeLogicalInput"},
+			_jsii_.MemberProperty{JsiiProperty: "maxAdditionalSubscriptions", GoGetter: "MaxAdditionalSubscriptions"},
+			_jsii_.MemberProperty{JsiiProperty: "maxAdditionalSubscriptionsInput", GoGetter: "MaxAdditionalSubscriptionsInput"},
+			_jsii_.MemberMethod{JsiiMethod: "resetMaxAdditionalSubscriptions", GoMethod: "ResetMaxAdditionalSubscriptions"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_GoogleDatabaseMigrationServiceMigrationJobPostgresHomogeneousConfigOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},

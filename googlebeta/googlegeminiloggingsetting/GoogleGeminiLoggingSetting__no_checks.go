@@ -103,6 +103,10 @@ func (j *jsiiProxy_GoogleGeminiLoggingSetting) validateSetCountParameters(val in
 	return nil
 }
 
+func (j *jsiiProxy_GoogleGeminiLoggingSetting) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleGeminiLoggingSetting) validateSetIdParameters(val *string) error {
 	return nil
 }

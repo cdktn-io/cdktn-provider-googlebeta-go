@@ -370,6 +370,14 @@ func (j *jsiiProxy_GoogleNetworkServicesEdgeCacheService) validateSetCountParame
 	return nil
 }
 
+func (j *jsiiProxy_GoogleNetworkServicesEdgeCacheService) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_GoogleNetworkServicesEdgeCacheService) validateSetDescriptionParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

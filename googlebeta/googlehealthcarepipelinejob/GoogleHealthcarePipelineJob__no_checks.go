@@ -119,6 +119,10 @@ func (j *jsiiProxy_GoogleHealthcarePipelineJob) validateSetDatasetParameters(val
 	return nil
 }
 
+func (j *jsiiProxy_GoogleHealthcarePipelineJob) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleHealthcarePipelineJob) validateSetDisableLineageParameters(val interface{}) error {
 	return nil
 }

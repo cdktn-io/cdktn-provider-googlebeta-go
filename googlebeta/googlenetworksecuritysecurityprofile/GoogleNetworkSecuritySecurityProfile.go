@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_security_security_profile google_network_security_security_profile}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_security_security_profile google_network_security_security_profile}.
 type GoogleNetworkSecuritySecurityProfile interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -32,6 +32,9 @@ type GoogleNetworkSecuritySecurityProfile interface {
 	CustomInterceptProfileInput() *GoogleNetworkSecuritySecurityProfileCustomInterceptProfile
 	CustomMirroringProfile() GoogleNetworkSecuritySecurityProfileCustomMirroringProfileOutputReference
 	CustomMirroringProfileInput() *GoogleNetworkSecuritySecurityProfileCustomMirroringProfile
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -148,6 +151,7 @@ type GoogleNetworkSecuritySecurityProfile interface {
 	PutUrlFilteringProfile(value *GoogleNetworkSecuritySecurityProfileUrlFilteringProfile)
 	ResetCustomInterceptProfile()
 	ResetCustomMirroringProfile()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	ResetLabels()
@@ -271,6 +275,26 @@ func (j *jsiiProxy_GoogleNetworkSecuritySecurityProfile) CustomMirroringProfileI
 	_jsii_.Get(
 		j,
 		"customMirroringProfileInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleNetworkSecuritySecurityProfile) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleNetworkSecuritySecurityProfile) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -647,7 +671,7 @@ func (j *jsiiProxy_GoogleNetworkSecuritySecurityProfile) UrlFilteringProfileInpu
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_security_security_profile google_network_security_security_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_security_security_profile google_network_security_security_profile} Resource.
 func NewGoogleNetworkSecuritySecurityProfile(scope constructs.Construct, id *string, config *GoogleNetworkSecuritySecurityProfileConfig) GoogleNetworkSecuritySecurityProfile {
 	_init_.Initialize()
 
@@ -665,7 +689,7 @@ func NewGoogleNetworkSecuritySecurityProfile(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_security_security_profile google_network_security_security_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_security_security_profile google_network_security_security_profile} Resource.
 func NewGoogleNetworkSecuritySecurityProfile_Override(g GoogleNetworkSecuritySecurityProfile, scope constructs.Construct, id *string, config *GoogleNetworkSecuritySecurityProfileConfig) {
 	_init_.Initialize()
 
@@ -694,6 +718,17 @@ func (j *jsiiProxy_GoogleNetworkSecuritySecurityProfile)SetCount(val interface{}
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleNetworkSecuritySecurityProfile)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1241,6 +1276,14 @@ func (g *jsiiProxy_GoogleNetworkSecuritySecurityProfile) ResetCustomMirroringPro
 	_jsii_.InvokeVoid(
 		g,
 		"resetCustomMirroringProfile",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleNetworkSecuritySecurityProfile) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

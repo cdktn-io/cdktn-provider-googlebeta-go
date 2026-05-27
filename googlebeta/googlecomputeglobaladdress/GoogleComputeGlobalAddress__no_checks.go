@@ -111,6 +111,10 @@ func (j *jsiiProxy_GoogleComputeGlobalAddress) validateSetCountParameters(val in
 	return nil
 }
 
+func (j *jsiiProxy_GoogleComputeGlobalAddress) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleComputeGlobalAddress) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

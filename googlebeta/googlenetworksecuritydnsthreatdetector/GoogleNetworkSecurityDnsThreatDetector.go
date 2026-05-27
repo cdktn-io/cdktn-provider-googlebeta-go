@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_security_dns_threat_detector google_network_security_dns_threat_detector}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_security_dns_threat_detector google_network_security_dns_threat_detector}.
 type GoogleNetworkSecurityDnsThreatDetector interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -28,6 +28,9 @@ type GoogleNetworkSecurityDnsThreatDetector interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -132,6 +135,7 @@ type GoogleNetworkSecurityDnsThreatDetector interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *GoogleNetworkSecurityDnsThreatDetectorTimeouts)
+	ResetDeletionPolicy()
 	ResetExcludedNetworks()
 	ResetId()
 	ResetLabels()
@@ -214,6 +218,26 @@ func (j *jsiiProxy_GoogleNetworkSecurityDnsThreatDetector) CreateTime() *string 
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleNetworkSecurityDnsThreatDetector) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleNetworkSecurityDnsThreatDetector) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -530,7 +554,7 @@ func (j *jsiiProxy_GoogleNetworkSecurityDnsThreatDetector) UpdateTime() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_security_dns_threat_detector google_network_security_dns_threat_detector} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_security_dns_threat_detector google_network_security_dns_threat_detector} Resource.
 func NewGoogleNetworkSecurityDnsThreatDetector(scope constructs.Construct, id *string, config *GoogleNetworkSecurityDnsThreatDetectorConfig) GoogleNetworkSecurityDnsThreatDetector {
 	_init_.Initialize()
 
@@ -548,7 +572,7 @@ func NewGoogleNetworkSecurityDnsThreatDetector(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_security_dns_threat_detector google_network_security_dns_threat_detector} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_security_dns_threat_detector google_network_security_dns_threat_detector} Resource.
 func NewGoogleNetworkSecurityDnsThreatDetector_Override(g GoogleNetworkSecurityDnsThreatDetector, scope constructs.Construct, id *string, config *GoogleNetworkSecurityDnsThreatDetectorConfig) {
 	_init_.Initialize()
 
@@ -577,6 +601,17 @@ func (j *jsiiProxy_GoogleNetworkSecurityDnsThreatDetector)SetCount(val interface
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleNetworkSecurityDnsThreatDetector)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1065,6 +1100,14 @@ func (g *jsiiProxy_GoogleNetworkSecurityDnsThreatDetector) PutTimeouts(value *Go
 		g,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleNetworkSecurityDnsThreatDetector) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

@@ -34,6 +34,9 @@ type GoogleDatabaseMigrationServiceConnectionProfilePostgresqlOutputReference in
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
+	Database() *string
+	SetDatabase(val *string)
+	DatabaseInput() *string
 	// Experimental.
 	Fqn() *string
 	Host() *string
@@ -49,6 +52,8 @@ type GoogleDatabaseMigrationServiceConnectionProfilePostgresqlOutputReference in
 	Port() *float64
 	SetPort(val *float64)
 	PortInput() *float64
+	PrivateConnectivity() GoogleDatabaseMigrationServiceConnectionProfilePostgresqlPrivateConnectivityOutputReference
+	PrivateConnectivityInput() *GoogleDatabaseMigrationServiceConnectionProfilePostgresqlPrivateConnectivity
 	Ssl() GoogleDatabaseMigrationServiceConnectionProfilePostgresqlSslOutputReference
 	SslInput() *GoogleDatabaseMigrationServiceConnectionProfilePostgresqlSsl
 	// Experimental.
@@ -86,12 +91,15 @@ type GoogleDatabaseMigrationServiceConnectionProfilePostgresqlOutputReference in
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutPrivateConnectivity(value *GoogleDatabaseMigrationServiceConnectionProfilePostgresqlPrivateConnectivity)
 	PutSsl(value *GoogleDatabaseMigrationServiceConnectionProfilePostgresqlSsl)
 	ResetAlloydbClusterId()
 	ResetCloudSqlId()
+	ResetDatabase()
 	ResetHost()
 	ResetPassword()
 	ResetPort()
+	ResetPrivateConnectivity()
 	ResetSsl()
 	ResetUsername()
 	// Produce the Token's value at resolution time.
@@ -174,6 +182,26 @@ func (j *jsiiProxy_GoogleDatabaseMigrationServiceConnectionProfilePostgresqlOutp
 	_jsii_.Get(
 		j,
 		"creationStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDatabaseMigrationServiceConnectionProfilePostgresqlOutputReference) Database() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"database",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDatabaseMigrationServiceConnectionProfilePostgresqlOutputReference) DatabaseInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"databaseInput",
 		&returns,
 	)
 	return returns
@@ -274,6 +302,26 @@ func (j *jsiiProxy_GoogleDatabaseMigrationServiceConnectionProfilePostgresqlOutp
 	_jsii_.Get(
 		j,
 		"portInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDatabaseMigrationServiceConnectionProfilePostgresqlOutputReference) PrivateConnectivity() GoogleDatabaseMigrationServiceConnectionProfilePostgresqlPrivateConnectivityOutputReference {
+	var returns GoogleDatabaseMigrationServiceConnectionProfilePostgresqlPrivateConnectivityOutputReference
+	_jsii_.Get(
+		j,
+		"privateConnectivity",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDatabaseMigrationServiceConnectionProfilePostgresqlOutputReference) PrivateConnectivityInput() *GoogleDatabaseMigrationServiceConnectionProfilePostgresqlPrivateConnectivity {
+	var returns *GoogleDatabaseMigrationServiceConnectionProfilePostgresqlPrivateConnectivity
+	_jsii_.Get(
+		j,
+		"privateConnectivityInput",
 		&returns,
 	)
 	return returns
@@ -407,6 +455,17 @@ func (j *jsiiProxy_GoogleDatabaseMigrationServiceConnectionProfilePostgresqlOutp
 	_jsii_.Set(
 		j,
 		"complexObjectIsFromSet",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleDatabaseMigrationServiceConnectionProfilePostgresqlOutputReference)SetDatabase(val *string) {
+	if err := j.validateSetDatabaseParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"database",
 		val,
 	)
 }
@@ -674,6 +733,17 @@ func (g *jsiiProxy_GoogleDatabaseMigrationServiceConnectionProfilePostgresqlOutp
 	return returns
 }
 
+func (g *jsiiProxy_GoogleDatabaseMigrationServiceConnectionProfilePostgresqlOutputReference) PutPrivateConnectivity(value *GoogleDatabaseMigrationServiceConnectionProfilePostgresqlPrivateConnectivity) {
+	if err := g.validatePutPrivateConnectivityParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putPrivateConnectivity",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleDatabaseMigrationServiceConnectionProfilePostgresqlOutputReference) PutSsl(value *GoogleDatabaseMigrationServiceConnectionProfilePostgresqlSsl) {
 	if err := g.validatePutSslParameters(value); err != nil {
 		panic(err)
@@ -701,6 +771,14 @@ func (g *jsiiProxy_GoogleDatabaseMigrationServiceConnectionProfilePostgresqlOutp
 	)
 }
 
+func (g *jsiiProxy_GoogleDatabaseMigrationServiceConnectionProfilePostgresqlOutputReference) ResetDatabase() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDatabase",
+		nil, // no parameters
+	)
+}
+
 func (g *jsiiProxy_GoogleDatabaseMigrationServiceConnectionProfilePostgresqlOutputReference) ResetHost() {
 	_jsii_.InvokeVoid(
 		g,
@@ -721,6 +799,14 @@ func (g *jsiiProxy_GoogleDatabaseMigrationServiceConnectionProfilePostgresqlOutp
 	_jsii_.InvokeVoid(
 		g,
 		"resetPort",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleDatabaseMigrationServiceConnectionProfilePostgresqlOutputReference) ResetPrivateConnectivity() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetPrivateConnectivity",
 		nil, // no parameters
 	)
 }

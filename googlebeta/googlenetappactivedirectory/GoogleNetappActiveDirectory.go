@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_active_directory google_netapp_active_directory}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_active_directory google_netapp_active_directory}.
 type GoogleNetappActiveDirectory interface {
 	cdktn.TerraformResource
 	Administrators() *[]*string
@@ -37,6 +37,9 @@ type GoogleNetappActiveDirectory interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -181,6 +184,7 @@ type GoogleNetappActiveDirectory interface {
 	ResetAdministrators()
 	ResetAesEncryption()
 	ResetBackupOperators()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetEncryptDcConnections()
 	ResetId()
@@ -329,6 +333,26 @@ func (j *jsiiProxy_GoogleNetappActiveDirectory) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleNetappActiveDirectory) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleNetappActiveDirectory) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -895,7 +919,7 @@ func (j *jsiiProxy_GoogleNetappActiveDirectory) UsernameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_active_directory google_netapp_active_directory} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_active_directory google_netapp_active_directory} Resource.
 func NewGoogleNetappActiveDirectory(scope constructs.Construct, id *string, config *GoogleNetappActiveDirectoryConfig) GoogleNetappActiveDirectory {
 	_init_.Initialize()
 
@@ -913,7 +937,7 @@ func NewGoogleNetappActiveDirectory(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_active_directory google_netapp_active_directory} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_active_directory google_netapp_active_directory} Resource.
 func NewGoogleNetappActiveDirectory_Override(g GoogleNetappActiveDirectory, scope constructs.Construct, id *string, config *GoogleNetappActiveDirectoryConfig) {
 	_init_.Initialize()
 
@@ -975,6 +999,17 @@ func (j *jsiiProxy_GoogleNetappActiveDirectory)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleNetappActiveDirectory)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1618,6 +1653,14 @@ func (g *jsiiProxy_GoogleNetappActiveDirectory) ResetBackupOperators() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetBackupOperators",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleNetappActiveDirectory) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

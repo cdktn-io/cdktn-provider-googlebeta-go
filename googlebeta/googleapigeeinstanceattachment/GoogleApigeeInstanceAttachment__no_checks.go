@@ -103,6 +103,10 @@ func (j *jsiiProxy_GoogleApigeeInstanceAttachment) validateSetCountParameters(va
 	return nil
 }
 
+func (j *jsiiProxy_GoogleApigeeInstanceAttachment) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleApigeeInstanceAttachment) validateSetEnvironmentParameters(val *string) error {
 	return nil
 }

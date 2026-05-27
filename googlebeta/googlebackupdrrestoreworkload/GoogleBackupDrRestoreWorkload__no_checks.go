@@ -143,6 +143,10 @@ func (j *jsiiProxy_GoogleBackupDrRestoreWorkload) validateSetDeleteRestoredInsta
 	return nil
 }
 
+func (j *jsiiProxy_GoogleBackupDrRestoreWorkload) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleBackupDrRestoreWorkload) validateSetIdParameters(val *string) error {
 	return nil
 }

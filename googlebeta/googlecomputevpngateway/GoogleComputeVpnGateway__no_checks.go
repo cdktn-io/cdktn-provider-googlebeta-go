@@ -107,6 +107,10 @@ func (j *jsiiProxy_GoogleComputeVpnGateway) validateSetCountParameters(val inter
 	return nil
 }
 
+func (j *jsiiProxy_GoogleComputeVpnGateway) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleComputeVpnGateway) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

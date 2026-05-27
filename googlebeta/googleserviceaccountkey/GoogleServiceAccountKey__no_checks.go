@@ -99,6 +99,10 @@ func (j *jsiiProxy_GoogleServiceAccountKey) validateSetCountParameters(val inter
 	return nil
 }
 
+func (j *jsiiProxy_GoogleServiceAccountKey) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleServiceAccountKey) validateSetIdParameters(val *string) error {
 	return nil
 }

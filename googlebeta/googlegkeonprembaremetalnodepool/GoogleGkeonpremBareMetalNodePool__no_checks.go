@@ -115,6 +115,10 @@ func (j *jsiiProxy_GoogleGkeonpremBareMetalNodePool) validateSetCountParameters(
 	return nil
 }
 
+func (j *jsiiProxy_GoogleGkeonpremBareMetalNodePool) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleGkeonpremBareMetalNodePool) validateSetDisplayNameParameters(val *string) error {
 	return nil
 }

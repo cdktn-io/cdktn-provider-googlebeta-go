@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloudbuild_trigger google_cloudbuild_trigger}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudbuild_trigger google_cloudbuild_trigger}.
 type GoogleCloudbuildTrigger interface {
 	cdktn.TerraformResource
 	ApprovalConfig() GoogleCloudbuildTriggerApprovalConfigOutputReference
@@ -34,6 +34,9 @@ type GoogleCloudbuildTrigger interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -187,6 +190,7 @@ type GoogleCloudbuildTrigger interface {
 	ResetApprovalConfig()
 	ResetBitbucketServerTriggerConfig()
 	ResetBuildAttribute()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetDeveloperConnectEventConfig()
 	ResetDisabled()
@@ -345,6 +349,26 @@ func (j *jsiiProxy_GoogleCloudbuildTrigger) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCloudbuildTrigger) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCloudbuildTrigger) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -941,7 +965,7 @@ func (j *jsiiProxy_GoogleCloudbuildTrigger) WebhookConfigInput() *GoogleCloudbui
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloudbuild_trigger google_cloudbuild_trigger} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudbuild_trigger google_cloudbuild_trigger} Resource.
 func NewGoogleCloudbuildTrigger(scope constructs.Construct, id *string, config *GoogleCloudbuildTriggerConfig) GoogleCloudbuildTrigger {
 	_init_.Initialize()
 
@@ -959,7 +983,7 @@ func NewGoogleCloudbuildTrigger(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloudbuild_trigger google_cloudbuild_trigger} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudbuild_trigger google_cloudbuild_trigger} Resource.
 func NewGoogleCloudbuildTrigger_Override(g GoogleCloudbuildTrigger, scope constructs.Construct, id *string, config *GoogleCloudbuildTriggerConfig) {
 	_init_.Initialize()
 
@@ -988,6 +1012,17 @@ func (j *jsiiProxy_GoogleCloudbuildTrigger)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleCloudbuildTrigger)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1697,6 +1732,14 @@ func (g *jsiiProxy_GoogleCloudbuildTrigger) ResetBuildAttribute() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetBuildAttribute",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleCloudbuildTrigger) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

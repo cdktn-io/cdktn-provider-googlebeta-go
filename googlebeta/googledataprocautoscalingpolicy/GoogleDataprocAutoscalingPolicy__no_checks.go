@@ -115,6 +115,10 @@ func (j *jsiiProxy_GoogleDataprocAutoscalingPolicy) validateSetCountParameters(v
 	return nil
 }
 
+func (j *jsiiProxy_GoogleDataprocAutoscalingPolicy) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleDataprocAutoscalingPolicy) validateSetIdParameters(val *string) error {
 	return nil
 }

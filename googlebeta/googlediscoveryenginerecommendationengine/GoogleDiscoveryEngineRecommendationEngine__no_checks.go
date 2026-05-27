@@ -115,6 +115,10 @@ func (j *jsiiProxy_GoogleDiscoveryEngineRecommendationEngine) validateSetDataSto
 	return nil
 }
 
+func (j *jsiiProxy_GoogleDiscoveryEngineRecommendationEngine) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleDiscoveryEngineRecommendationEngine) validateSetDisplayNameParameters(val *string) error {
 	return nil
 }

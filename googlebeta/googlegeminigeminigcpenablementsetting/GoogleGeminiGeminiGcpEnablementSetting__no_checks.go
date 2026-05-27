@@ -103,6 +103,10 @@ func (j *jsiiProxy_GoogleGeminiGeminiGcpEnablementSetting) validateSetCountParam
 	return nil
 }
 
+func (j *jsiiProxy_GoogleGeminiGeminiGcpEnablementSetting) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleGeminiGeminiGcpEnablementSetting) validateSetDisableWebGroundingParameters(val interface{}) error {
 	return nil
 }

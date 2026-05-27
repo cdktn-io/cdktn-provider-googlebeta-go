@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_reservation google_compute_reservation}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_reservation google_compute_reservation}.
 type GoogleComputeReservation interface {
 	cdktn.TerraformResource
 	BlockNames() *[]*string
@@ -35,6 +35,9 @@ type GoogleComputeReservation interface {
 	DeleteAtTime() *string
 	SetDeleteAtTime(val *string)
 	DeleteAtTimeInput() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -153,6 +156,7 @@ type GoogleComputeReservation interface {
 	PutTimeouts(value *GoogleComputeReservationTimeouts)
 	ResetDeleteAfterDuration()
 	ResetDeleteAtTime()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetEnableEmergentMaintenance()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -295,6 +299,26 @@ func (j *jsiiProxy_GoogleComputeReservation) DeleteAtTimeInput() *string {
 	_jsii_.Get(
 		j,
 		"deleteAtTimeInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeReservation) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeReservation) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -701,7 +725,7 @@ func (j *jsiiProxy_GoogleComputeReservation) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_reservation google_compute_reservation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_reservation google_compute_reservation} Resource.
 func NewGoogleComputeReservation(scope constructs.Construct, id *string, config *GoogleComputeReservationConfig) GoogleComputeReservation {
 	_init_.Initialize()
 
@@ -719,7 +743,7 @@ func NewGoogleComputeReservation(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_reservation google_compute_reservation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_reservation google_compute_reservation} Resource.
 func NewGoogleComputeReservation_Override(g GoogleComputeReservation, scope constructs.Construct, id *string, config *GoogleComputeReservationConfig) {
 	_init_.Initialize()
 
@@ -759,6 +783,17 @@ func (j *jsiiProxy_GoogleComputeReservation)SetDeleteAtTime(val *string) {
 	_jsii_.Set(
 		j,
 		"deleteAtTime",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleComputeReservation)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1295,6 +1330,14 @@ func (g *jsiiProxy_GoogleComputeReservation) ResetDeleteAtTime() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetDeleteAtTime",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleComputeReservation) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

@@ -79,6 +79,10 @@ func (g *jsiiProxy_GoogleBackupDrBackupPlan) validatePutBackupRulesParameters(va
 	return nil
 }
 
+func (g *jsiiProxy_GoogleBackupDrBackupPlan) validatePutComputeInstanceBackupPlanPropertiesParameters(value *GoogleBackupDrBackupPlanComputeInstanceBackupPlanProperties) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleBackupDrBackupPlan) validatePutDiskBackupPlanPropertiesParameters(value *GoogleBackupDrBackupPlanDiskBackupPlanProperties) error {
 	return nil
 }
@@ -116,6 +120,10 @@ func (j *jsiiProxy_GoogleBackupDrBackupPlan) validateSetConnectionParameters(val
 }
 
 func (j *jsiiProxy_GoogleBackupDrBackupPlan) validateSetCountParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleBackupDrBackupPlan) validateSetDeletionPolicyParameters(val *string) error {
 	return nil
 }
 

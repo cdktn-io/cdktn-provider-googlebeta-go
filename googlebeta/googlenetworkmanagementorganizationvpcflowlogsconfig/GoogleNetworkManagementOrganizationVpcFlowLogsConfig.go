@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_management_organization_vpc_flow_logs_config google_network_management_organization_vpc_flow_logs_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_management_organization_vpc_flow_logs_config google_network_management_organization_vpc_flow_logs_config}.
 type GoogleNetworkManagementOrganizationVpcFlowLogsConfig interface {
 	cdktn.TerraformResource
 	AggregationInterval() *string
@@ -34,6 +34,9 @@ type GoogleNetworkManagementOrganizationVpcFlowLogsConfig interface {
 	CrossProjectMetadata() *string
 	SetCrossProjectMetadata(val *string)
 	CrossProjectMetadataInput() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -153,6 +156,7 @@ type GoogleNetworkManagementOrganizationVpcFlowLogsConfig interface {
 	PutTimeouts(value *GoogleNetworkManagementOrganizationVpcFlowLogsConfigTimeouts)
 	ResetAggregationInterval()
 	ResetCrossProjectMetadata()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetFilterExpr()
 	ResetFlowSampling()
@@ -277,6 +281,26 @@ func (j *jsiiProxy_GoogleNetworkManagementOrganizationVpcFlowLogsConfig) CrossPr
 	_jsii_.Get(
 		j,
 		"crossProjectMetadataInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleNetworkManagementOrganizationVpcFlowLogsConfig) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleNetworkManagementOrganizationVpcFlowLogsConfig) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -683,7 +707,7 @@ func (j *jsiiProxy_GoogleNetworkManagementOrganizationVpcFlowLogsConfig) VpcFlow
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_management_organization_vpc_flow_logs_config google_network_management_organization_vpc_flow_logs_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_management_organization_vpc_flow_logs_config google_network_management_organization_vpc_flow_logs_config} Resource.
 func NewGoogleNetworkManagementOrganizationVpcFlowLogsConfig(scope constructs.Construct, id *string, config *GoogleNetworkManagementOrganizationVpcFlowLogsConfigConfig) GoogleNetworkManagementOrganizationVpcFlowLogsConfig {
 	_init_.Initialize()
 
@@ -701,7 +725,7 @@ func NewGoogleNetworkManagementOrganizationVpcFlowLogsConfig(scope constructs.Co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_management_organization_vpc_flow_logs_config google_network_management_organization_vpc_flow_logs_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_management_organization_vpc_flow_logs_config google_network_management_organization_vpc_flow_logs_config} Resource.
 func NewGoogleNetworkManagementOrganizationVpcFlowLogsConfig_Override(g GoogleNetworkManagementOrganizationVpcFlowLogsConfig, scope constructs.Construct, id *string, config *GoogleNetworkManagementOrganizationVpcFlowLogsConfigConfig) {
 	_init_.Initialize()
 
@@ -752,6 +776,17 @@ func (j *jsiiProxy_GoogleNetworkManagementOrganizationVpcFlowLogsConfig)SetCross
 	_jsii_.Set(
 		j,
 		"crossProjectMetadata",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleNetworkManagementOrganizationVpcFlowLogsConfig)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1299,6 +1334,14 @@ func (g *jsiiProxy_GoogleNetworkManagementOrganizationVpcFlowLogsConfig) ResetCr
 	_jsii_.InvokeVoid(
 		g,
 		"resetCrossProjectMetadata",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleNetworkManagementOrganizationVpcFlowLogsConfig) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

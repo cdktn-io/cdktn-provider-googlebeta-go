@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_gke_hub_feature google_gke_hub_feature}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/data-sources/google_gke_hub_feature google_gke_hub_feature}.
 type DataGoogleGkeHubFeature interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -25,6 +25,7 @@ type DataGoogleGkeHubFeature interface {
 	SetCount(val interface{})
 	CreateTime() *string
 	DeleteTime() *string
+	DeletionPolicy() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -178,6 +179,16 @@ func (j *jsiiProxy_DataGoogleGkeHubFeature) DeleteTime() *string {
 	_jsii_.Get(
 		j,
 		"deleteTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleGkeHubFeature) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
 		&returns,
 	)
 	return returns
@@ -454,7 +465,7 @@ func (j *jsiiProxy_DataGoogleGkeHubFeature) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_gke_hub_feature google_gke_hub_feature} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/data-sources/google_gke_hub_feature google_gke_hub_feature} Data Source.
 func NewDataGoogleGkeHubFeature(scope constructs.Construct, id *string, config *DataGoogleGkeHubFeatureConfig) DataGoogleGkeHubFeature {
 	_init_.Initialize()
 
@@ -472,7 +483,7 @@ func NewDataGoogleGkeHubFeature(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_gke_hub_feature google_gke_hub_feature} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/data-sources/google_gke_hub_feature google_gke_hub_feature} Data Source.
 func NewDataGoogleGkeHubFeature_Override(d DataGoogleGkeHubFeature, scope constructs.Construct, id *string, config *DataGoogleGkeHubFeatureConfig) {
 	_init_.Initialize()
 

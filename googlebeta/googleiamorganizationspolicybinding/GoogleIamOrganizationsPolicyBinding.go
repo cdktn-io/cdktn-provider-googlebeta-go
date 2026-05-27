@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iam_organizations_policy_binding google_iam_organizations_policy_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_iam_organizations_policy_binding google_iam_organizations_policy_binding}.
 type GoogleIamOrganizationsPolicyBinding interface {
 	cdktn.TerraformResource
 	Annotations() *map[string]*string
@@ -33,6 +33,9 @@ type GoogleIamOrganizationsPolicyBinding interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -146,6 +149,7 @@ type GoogleIamOrganizationsPolicyBinding interface {
 	PutTimeouts(value *GoogleIamOrganizationsPolicyBindingTimeouts)
 	ResetAnnotations()
 	ResetCondition()
+	ResetDeletionPolicy()
 	ResetDisplayName()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -265,6 +269,26 @@ func (j *jsiiProxy_GoogleIamOrganizationsPolicyBinding) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleIamOrganizationsPolicyBinding) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleIamOrganizationsPolicyBinding) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -631,7 +655,7 @@ func (j *jsiiProxy_GoogleIamOrganizationsPolicyBinding) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iam_organizations_policy_binding google_iam_organizations_policy_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_iam_organizations_policy_binding google_iam_organizations_policy_binding} Resource.
 func NewGoogleIamOrganizationsPolicyBinding(scope constructs.Construct, id *string, config *GoogleIamOrganizationsPolicyBindingConfig) GoogleIamOrganizationsPolicyBinding {
 	_init_.Initialize()
 
@@ -649,7 +673,7 @@ func NewGoogleIamOrganizationsPolicyBinding(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iam_organizations_policy_binding google_iam_organizations_policy_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_iam_organizations_policy_binding google_iam_organizations_policy_binding} Resource.
 func NewGoogleIamOrganizationsPolicyBinding_Override(g GoogleIamOrganizationsPolicyBinding, scope constructs.Construct, id *string, config *GoogleIamOrganizationsPolicyBindingConfig) {
 	_init_.Initialize()
 
@@ -689,6 +713,17 @@ func (j *jsiiProxy_GoogleIamOrganizationsPolicyBinding)SetCount(val interface{})
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleIamOrganizationsPolicyBinding)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1214,6 +1249,14 @@ func (g *jsiiProxy_GoogleIamOrganizationsPolicyBinding) ResetCondition() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetCondition",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleIamOrganizationsPolicyBinding) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

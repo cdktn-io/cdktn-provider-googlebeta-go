@@ -111,6 +111,10 @@ func (j *jsiiProxy_GoogleIdentityPlatformTenantDefaultSupportedIdpConfig) valida
 	return nil
 }
 
+func (j *jsiiProxy_GoogleIdentityPlatformTenantDefaultSupportedIdpConfig) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleIdentityPlatformTenantDefaultSupportedIdpConfig) validateSetEnabledParameters(val interface{}) error {
 	return nil
 }

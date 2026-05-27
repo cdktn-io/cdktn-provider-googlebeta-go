@@ -111,6 +111,10 @@ func (j *jsiiProxy_GoogleDialogflowCxWebhook) validateSetCountParameters(val int
 	return nil
 }
 
+func (j *jsiiProxy_GoogleDialogflowCxWebhook) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleDialogflowCxWebhook) validateSetDisabledParameters(val interface{}) error {
 	return nil
 }

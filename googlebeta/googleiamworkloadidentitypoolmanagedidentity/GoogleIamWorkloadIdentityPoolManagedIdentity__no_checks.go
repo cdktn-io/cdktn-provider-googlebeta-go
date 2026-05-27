@@ -107,6 +107,10 @@ func (j *jsiiProxy_GoogleIamWorkloadIdentityPoolManagedIdentity) validateSetCoun
 	return nil
 }
 
+func (j *jsiiProxy_GoogleIamWorkloadIdentityPoolManagedIdentity) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleIamWorkloadIdentityPoolManagedIdentity) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

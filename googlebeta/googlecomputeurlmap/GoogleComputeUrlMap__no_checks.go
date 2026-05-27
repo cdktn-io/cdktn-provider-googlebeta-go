@@ -135,6 +135,10 @@ func (j *jsiiProxy_GoogleComputeUrlMap) validateSetDefaultServiceParameters(val 
 	return nil
 }
 
+func (j *jsiiProxy_GoogleComputeUrlMap) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleComputeUrlMap) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

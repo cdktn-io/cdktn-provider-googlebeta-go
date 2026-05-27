@@ -111,6 +111,10 @@ func (j *jsiiProxy_GoogleNetworkSecurityTlsInspectionPolicy) validateSetCustomTl
 	return nil
 }
 
+func (j *jsiiProxy_GoogleNetworkSecurityTlsInspectionPolicy) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleNetworkSecurityTlsInspectionPolicy) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

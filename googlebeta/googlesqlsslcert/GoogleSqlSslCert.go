@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_sql_ssl_cert google_sql_ssl_cert}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_sql_ssl_cert google_sql_ssl_cert}.
 type GoogleSqlSslCert interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -33,6 +33,9 @@ type GoogleSqlSslCert interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -126,6 +129,7 @@ type GoogleSqlSslCert interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *GoogleSqlSslCertTimeouts)
+	ResetDeletionPolicy()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -244,6 +248,26 @@ func (j *jsiiProxy_GoogleSqlSslCert) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleSqlSslCert) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleSqlSslCert) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -490,7 +514,7 @@ func (j *jsiiProxy_GoogleSqlSslCert) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_sql_ssl_cert google_sql_ssl_cert} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_sql_ssl_cert google_sql_ssl_cert} Resource.
 func NewGoogleSqlSslCert(scope constructs.Construct, id *string, config *GoogleSqlSslCertConfig) GoogleSqlSslCert {
 	_init_.Initialize()
 
@@ -508,7 +532,7 @@ func NewGoogleSqlSslCert(scope constructs.Construct, id *string, config *GoogleS
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_sql_ssl_cert google_sql_ssl_cert} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_sql_ssl_cert google_sql_ssl_cert} Resource.
 func NewGoogleSqlSslCert_Override(g GoogleSqlSslCert, scope constructs.Construct, id *string, config *GoogleSqlSslCertConfig) {
 	_init_.Initialize()
 
@@ -548,6 +572,17 @@ func (j *jsiiProxy_GoogleSqlSslCert)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleSqlSslCert)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -992,6 +1027,14 @@ func (g *jsiiProxy_GoogleSqlSslCert) PutTimeouts(value *GoogleSqlSslCertTimeouts
 		g,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleSqlSslCert) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

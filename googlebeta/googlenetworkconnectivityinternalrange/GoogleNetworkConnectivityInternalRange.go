@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_connectivity_internal_range google_network_connectivity_internal_range}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_connectivity_internal_range google_network_connectivity_internal_range}.
 type GoogleNetworkConnectivityInternalRange interface {
 	cdktn.TerraformResource
 	AllocationOptions() GoogleNetworkConnectivityInternalRangeAllocationOptionsOutputReference
@@ -29,6 +29,9 @@ type GoogleNetworkConnectivityInternalRange interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -159,6 +162,7 @@ type GoogleNetworkConnectivityInternalRange interface {
 	PutMigration(value *GoogleNetworkConnectivityInternalRangeMigration)
 	PutTimeouts(value *GoogleNetworkConnectivityInternalRangeTimeouts)
 	ResetAllocationOptions()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetExcludeCidrRanges()
 	ResetId()
@@ -256,6 +260,26 @@ func (j *jsiiProxy_GoogleNetworkConnectivityInternalRange) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleNetworkConnectivityInternalRange) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleNetworkConnectivityInternalRange) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -732,7 +756,7 @@ func (j *jsiiProxy_GoogleNetworkConnectivityInternalRange) Users() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_connectivity_internal_range google_network_connectivity_internal_range} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_connectivity_internal_range google_network_connectivity_internal_range} Resource.
 func NewGoogleNetworkConnectivityInternalRange(scope constructs.Construct, id *string, config *GoogleNetworkConnectivityInternalRangeConfig) GoogleNetworkConnectivityInternalRange {
 	_init_.Initialize()
 
@@ -750,7 +774,7 @@ func NewGoogleNetworkConnectivityInternalRange(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_connectivity_internal_range google_network_connectivity_internal_range} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_connectivity_internal_range google_network_connectivity_internal_range} Resource.
 func NewGoogleNetworkConnectivityInternalRange_Override(g GoogleNetworkConnectivityInternalRange, scope constructs.Construct, id *string, config *GoogleNetworkConnectivityInternalRangeConfig) {
 	_init_.Initialize()
 
@@ -779,6 +803,17 @@ func (j *jsiiProxy_GoogleNetworkConnectivityInternalRange)SetCount(val interface
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleNetworkConnectivityInternalRange)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1373,6 +1408,14 @@ func (g *jsiiProxy_GoogleNetworkConnectivityInternalRange) ResetAllocationOption
 	_jsii_.InvokeVoid(
 		g,
 		"resetAllocationOptions",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleNetworkConnectivityInternalRange) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

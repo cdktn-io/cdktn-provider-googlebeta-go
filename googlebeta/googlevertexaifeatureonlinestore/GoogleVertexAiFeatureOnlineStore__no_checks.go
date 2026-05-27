@@ -123,6 +123,10 @@ func (j *jsiiProxy_GoogleVertexAiFeatureOnlineStore) validateSetCountParameters(
 	return nil
 }
 
+func (j *jsiiProxy_GoogleVertexAiFeatureOnlineStore) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleVertexAiFeatureOnlineStore) validateSetForceDestroyParameters(val interface{}) error {
 	return nil
 }

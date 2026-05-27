@@ -409,6 +409,14 @@ func (j *jsiiProxy_GoogleSecretManagerRegionalSecret) validateSetCountParameters
 	return nil
 }
 
+func (j *jsiiProxy_GoogleSecretManagerRegionalSecret) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_GoogleSecretManagerRegionalSecret) validateSetDeletionProtectionParameters(val interface{}) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

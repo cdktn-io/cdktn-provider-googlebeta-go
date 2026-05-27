@@ -111,6 +111,10 @@ func (j *jsiiProxy_GoogleFirestoreDocument) validateSetDatabaseParameters(val *s
 	return nil
 }
 
+func (j *jsiiProxy_GoogleFirestoreDocument) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleFirestoreDocument) validateSetDocumentIdParameters(val *string) error {
 	return nil
 }

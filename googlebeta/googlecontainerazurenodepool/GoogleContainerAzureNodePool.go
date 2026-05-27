@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_container_azure_node_pool google_container_azure_node_pool}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_container_azure_node_pool google_container_azure_node_pool}.
 type GoogleContainerAzureNodePool interface {
 	cdktn.TerraformResource
 	Annotations() *map[string]*string
@@ -41,6 +41,9 @@ type GoogleContainerAzureNodePool interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -155,6 +158,7 @@ type GoogleContainerAzureNodePool interface {
 	PutTimeouts(value *GoogleContainerAzureNodePoolTimeouts)
 	ResetAnnotations()
 	ResetAzureAvailabilityZone()
+	ResetDeletionPolicy()
 	ResetId()
 	ResetManagement()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -334,6 +338,26 @@ func (j *jsiiProxy_GoogleContainerAzureNodePool) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleContainerAzureNodePool) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleContainerAzureNodePool) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -700,7 +724,7 @@ func (j *jsiiProxy_GoogleContainerAzureNodePool) VersionInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_container_azure_node_pool google_container_azure_node_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_container_azure_node_pool google_container_azure_node_pool} Resource.
 func NewGoogleContainerAzureNodePool(scope constructs.Construct, id *string, config *GoogleContainerAzureNodePoolConfig) GoogleContainerAzureNodePool {
 	_init_.Initialize()
 
@@ -718,7 +742,7 @@ func NewGoogleContainerAzureNodePool(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_container_azure_node_pool google_container_azure_node_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_container_azure_node_pool google_container_azure_node_pool} Resource.
 func NewGoogleContainerAzureNodePool_Override(g GoogleContainerAzureNodePool, scope constructs.Construct, id *string, config *GoogleContainerAzureNodePoolConfig) {
 	_init_.Initialize()
 
@@ -780,6 +804,17 @@ func (j *jsiiProxy_GoogleContainerAzureNodePool)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleContainerAzureNodePool)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1316,6 +1351,14 @@ func (g *jsiiProxy_GoogleContainerAzureNodePool) ResetAzureAvailabilityZone() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetAzureAvailabilityZone",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleContainerAzureNodePool) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

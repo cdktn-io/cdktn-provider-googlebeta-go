@@ -115,6 +115,10 @@ func (j *jsiiProxy_GoogleCloudIdentityPolicy) validateSetCustomerParameters(val 
 	return nil
 }
 
+func (j *jsiiProxy_GoogleCloudIdentityPolicy) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleCloudIdentityPolicy) validateSetIdParameters(val *string) error {
 	return nil
 }

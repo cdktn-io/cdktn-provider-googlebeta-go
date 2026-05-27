@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_bigquery_analytics_hub_listing google_bigquery_analytics_hub_listing}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_bigquery_analytics_hub_listing google_bigquery_analytics_hub_listing}.
 type GoogleBigqueryAnalyticsHubListing interface {
 	cdktn.TerraformResource
 	AllowOnlyMetadataSharing() interface{}
@@ -44,6 +44,9 @@ type GoogleBigqueryAnalyticsHubListing interface {
 	DeleteCommercial() interface{}
 	SetDeleteCommercial(val interface{})
 	DeleteCommercialInput() interface{}
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -178,6 +181,7 @@ type GoogleBigqueryAnalyticsHubListing interface {
 	ResetCategories()
 	ResetDataProvider()
 	ResetDeleteCommercial()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetDiscoveryType()
 	ResetDocumentation()
@@ -386,6 +390,26 @@ func (j *jsiiProxy_GoogleBigqueryAnalyticsHubListing) DeleteCommercialInput() in
 	_jsii_.Get(
 		j,
 		"deleteCommercialInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleBigqueryAnalyticsHubListing) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleBigqueryAnalyticsHubListing) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -852,7 +876,7 @@ func (j *jsiiProxy_GoogleBigqueryAnalyticsHubListing) TimeoutsInput() interface{
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_bigquery_analytics_hub_listing google_bigquery_analytics_hub_listing} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_bigquery_analytics_hub_listing google_bigquery_analytics_hub_listing} Resource.
 func NewGoogleBigqueryAnalyticsHubListing(scope constructs.Construct, id *string, config *GoogleBigqueryAnalyticsHubListingConfig) GoogleBigqueryAnalyticsHubListing {
 	_init_.Initialize()
 
@@ -870,7 +894,7 @@ func NewGoogleBigqueryAnalyticsHubListing(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_bigquery_analytics_hub_listing google_bigquery_analytics_hub_listing} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_bigquery_analytics_hub_listing google_bigquery_analytics_hub_listing} Resource.
 func NewGoogleBigqueryAnalyticsHubListing_Override(g GoogleBigqueryAnalyticsHubListing, scope constructs.Construct, id *string, config *GoogleBigqueryAnalyticsHubListingConfig) {
 	_init_.Initialize()
 
@@ -943,6 +967,17 @@ func (j *jsiiProxy_GoogleBigqueryAnalyticsHubListing)SetDeleteCommercial(val int
 	_jsii_.Set(
 		j,
 		"deleteCommercial",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleBigqueryAnalyticsHubListing)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1580,6 +1615,14 @@ func (g *jsiiProxy_GoogleBigqueryAnalyticsHubListing) ResetDeleteCommercial() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetDeleteCommercial",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleBigqueryAnalyticsHubListing) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

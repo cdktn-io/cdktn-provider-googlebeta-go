@@ -107,6 +107,10 @@ func (j *jsiiProxy_GoogleMlEngineModel) validateSetCountParameters(val interface
 	return nil
 }
 
+func (j *jsiiProxy_GoogleMlEngineModel) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleMlEngineModel) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_addons_config google_apigee_addons_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_addons_config google_apigee_addons_config}.
 type GoogleApigeeAddonsConfig interface {
 	cdktn.TerraformResource
 	AddonsConfig() GoogleApigeeAddonsConfigAddonsConfigOutputReference
@@ -29,6 +29,9 @@ type GoogleApigeeAddonsConfig interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -117,6 +120,7 @@ type GoogleApigeeAddonsConfig interface {
 	PutAddonsConfig(value *GoogleApigeeAddonsConfigAddonsConfig)
 	PutTimeouts(value *GoogleApigeeAddonsConfigTimeouts)
 	ResetAddonsConfig()
+	ResetDeletionPolicy()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -204,6 +208,26 @@ func (j *jsiiProxy_GoogleApigeeAddonsConfig) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleApigeeAddonsConfig) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleApigeeAddonsConfig) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -390,7 +414,7 @@ func (j *jsiiProxy_GoogleApigeeAddonsConfig) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_addons_config google_apigee_addons_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_addons_config google_apigee_addons_config} Resource.
 func NewGoogleApigeeAddonsConfig(scope constructs.Construct, id *string, config *GoogleApigeeAddonsConfigConfig) GoogleApigeeAddonsConfig {
 	_init_.Initialize()
 
@@ -408,7 +432,7 @@ func NewGoogleApigeeAddonsConfig(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_addons_config google_apigee_addons_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_addons_config google_apigee_addons_config} Resource.
 func NewGoogleApigeeAddonsConfig_Override(g GoogleApigeeAddonsConfig, scope constructs.Construct, id *string, config *GoogleApigeeAddonsConfigConfig) {
 	_init_.Initialize()
 
@@ -437,6 +461,17 @@ func (j *jsiiProxy_GoogleApigeeAddonsConfig)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleApigeeAddonsConfig)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -888,6 +923,14 @@ func (g *jsiiProxy_GoogleApigeeAddonsConfig) ResetAddonsConfig() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetAddonsConfig",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleApigeeAddonsConfig) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

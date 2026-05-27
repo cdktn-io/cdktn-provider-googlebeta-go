@@ -103,6 +103,10 @@ func (j *jsiiProxy_GoogleIntegrationConnectorsEndpointAttachment) validateSetCou
 	return nil
 }
 
+func (j *jsiiProxy_GoogleIntegrationConnectorsEndpointAttachment) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleIntegrationConnectorsEndpointAttachment) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

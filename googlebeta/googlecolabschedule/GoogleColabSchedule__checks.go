@@ -387,6 +387,14 @@ func (j *jsiiProxy_GoogleColabSchedule) validateSetCronParameters(val *string) e
 	return nil
 }
 
+func (j *jsiiProxy_GoogleColabSchedule) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_GoogleColabSchedule) validateSetDesiredStateParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

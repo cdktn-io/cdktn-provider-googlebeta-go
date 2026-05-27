@@ -139,6 +139,10 @@ func (j *jsiiProxy_GoogleIntegrationConnectorsConnection) validateSetCountParame
 	return nil
 }
 
+func (j *jsiiProxy_GoogleIntegrationConnectorsConnection) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleIntegrationConnectorsConnection) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

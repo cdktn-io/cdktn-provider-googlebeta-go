@@ -111,6 +111,10 @@ func (j *jsiiProxy_GoogleComputeStoragePool) validateSetCountParameters(val inte
 	return nil
 }
 
+func (j *jsiiProxy_GoogleComputeStoragePool) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleComputeStoragePool) validateSetDeletionProtectionParameters(val interface{}) error {
 	return nil
 }

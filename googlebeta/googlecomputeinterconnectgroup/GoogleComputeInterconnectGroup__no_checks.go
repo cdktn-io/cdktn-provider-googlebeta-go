@@ -111,6 +111,10 @@ func (j *jsiiProxy_GoogleComputeInterconnectGroup) validateSetCountParameters(va
 	return nil
 }
 
+func (j *jsiiProxy_GoogleComputeInterconnectGroup) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleComputeInterconnectGroup) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

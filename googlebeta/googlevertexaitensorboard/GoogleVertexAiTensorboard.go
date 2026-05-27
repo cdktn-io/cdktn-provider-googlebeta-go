@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_tensorboard google_vertex_ai_tensorboard}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_tensorboard google_vertex_ai_tensorboard}.
 type GoogleVertexAiTensorboard interface {
 	cdktn.TerraformResource
 	BlobStoragePathPrefix() *string
@@ -29,6 +29,9 @@ type GoogleVertexAiTensorboard interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -135,6 +138,7 @@ type GoogleVertexAiTensorboard interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutEncryptionSpec(value *GoogleVertexAiTensorboardEncryptionSpec)
 	PutTimeouts(value *GoogleVertexAiTensorboardTimeouts)
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetEncryptionSpec()
 	ResetId()
@@ -227,6 +231,26 @@ func (j *jsiiProxy_GoogleVertexAiTensorboard) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleVertexAiTensorboard) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleVertexAiTensorboard) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -563,7 +587,7 @@ func (j *jsiiProxy_GoogleVertexAiTensorboard) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_tensorboard google_vertex_ai_tensorboard} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_tensorboard google_vertex_ai_tensorboard} Resource.
 func NewGoogleVertexAiTensorboard(scope constructs.Construct, id *string, config *GoogleVertexAiTensorboardConfig) GoogleVertexAiTensorboard {
 	_init_.Initialize()
 
@@ -581,7 +605,7 @@ func NewGoogleVertexAiTensorboard(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_tensorboard google_vertex_ai_tensorboard} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_tensorboard google_vertex_ai_tensorboard} Resource.
 func NewGoogleVertexAiTensorboard_Override(g GoogleVertexAiTensorboard, scope constructs.Construct, id *string, config *GoogleVertexAiTensorboardConfig) {
 	_init_.Initialize()
 
@@ -610,6 +634,17 @@ func (j *jsiiProxy_GoogleVertexAiTensorboard)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleVertexAiTensorboard)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1098,6 +1133,14 @@ func (g *jsiiProxy_GoogleVertexAiTensorboard) PutTimeouts(value *GoogleVertexAiT
 		g,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleVertexAiTensorboard) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

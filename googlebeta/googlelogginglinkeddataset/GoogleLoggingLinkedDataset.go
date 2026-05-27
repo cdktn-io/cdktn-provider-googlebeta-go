@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_logging_linked_dataset google_logging_linked_dataset}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_logging_linked_dataset google_logging_linked_dataset}.
 type GoogleLoggingLinkedDataset interface {
 	cdktn.TerraformResource
 	BigqueryDataset() GoogleLoggingLinkedDatasetBigqueryDatasetList
@@ -33,6 +33,9 @@ type GoogleLoggingLinkedDataset interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -132,6 +135,7 @@ type GoogleLoggingLinkedDataset interface {
 	PutBigqueryDataset(value interface{})
 	PutTimeouts(value *GoogleLoggingLinkedDatasetTimeouts)
 	ResetBigqueryDataset()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	ResetLocation()
@@ -252,6 +256,26 @@ func (j *jsiiProxy_GoogleLoggingLinkedDataset) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleLoggingLinkedDataset) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleLoggingLinkedDataset) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -518,7 +542,7 @@ func (j *jsiiProxy_GoogleLoggingLinkedDataset) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_logging_linked_dataset google_logging_linked_dataset} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_logging_linked_dataset google_logging_linked_dataset} Resource.
 func NewGoogleLoggingLinkedDataset(scope constructs.Construct, id *string, config *GoogleLoggingLinkedDatasetConfig) GoogleLoggingLinkedDataset {
 	_init_.Initialize()
 
@@ -536,7 +560,7 @@ func NewGoogleLoggingLinkedDataset(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_logging_linked_dataset google_logging_linked_dataset} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_logging_linked_dataset google_logging_linked_dataset} Resource.
 func NewGoogleLoggingLinkedDataset_Override(g GoogleLoggingLinkedDataset, scope constructs.Construct, id *string, config *GoogleLoggingLinkedDatasetConfig) {
 	_init_.Initialize()
 
@@ -576,6 +600,17 @@ func (j *jsiiProxy_GoogleLoggingLinkedDataset)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleLoggingLinkedDataset)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1060,6 +1095,14 @@ func (g *jsiiProxy_GoogleLoggingLinkedDataset) ResetBigqueryDataset() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetBigqueryDataset",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleLoggingLinkedDataset) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

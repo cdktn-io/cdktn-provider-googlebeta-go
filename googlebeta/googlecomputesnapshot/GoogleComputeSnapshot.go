@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_snapshot google_compute_snapshot}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_snapshot google_compute_snapshot}.
 type GoogleComputeSnapshot interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -31,6 +31,9 @@ type GoogleComputeSnapshot interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreationTimestamp() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -159,6 +162,7 @@ type GoogleComputeSnapshot interface {
 	PutSourceDiskEncryptionKey(value *GoogleComputeSnapshotSourceDiskEncryptionKey)
 	PutTimeouts(value *GoogleComputeSnapshotTimeouts)
 	ResetChainName()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetGuestFlush()
 	ResetId()
@@ -267,6 +271,26 @@ func (j *jsiiProxy_GoogleComputeSnapshot) CreationTimestamp() *string {
 	_jsii_.Get(
 		j,
 		"creationTimestamp",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeSnapshot) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeSnapshot) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -753,7 +777,7 @@ func (j *jsiiProxy_GoogleComputeSnapshot) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_snapshot google_compute_snapshot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_snapshot google_compute_snapshot} Resource.
 func NewGoogleComputeSnapshot(scope constructs.Construct, id *string, config *GoogleComputeSnapshotConfig) GoogleComputeSnapshot {
 	_init_.Initialize()
 
@@ -771,7 +795,7 @@ func NewGoogleComputeSnapshot(scope constructs.Construct, id *string, config *Go
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_snapshot google_compute_snapshot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_snapshot google_compute_snapshot} Resource.
 func NewGoogleComputeSnapshot_Override(g GoogleComputeSnapshot, scope constructs.Construct, id *string, config *GoogleComputeSnapshotConfig) {
 	_init_.Initialize()
 
@@ -811,6 +835,17 @@ func (j *jsiiProxy_GoogleComputeSnapshot)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleComputeSnapshot)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1372,6 +1407,14 @@ func (g *jsiiProxy_GoogleComputeSnapshot) ResetChainName() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetChainName",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleComputeSnapshot) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

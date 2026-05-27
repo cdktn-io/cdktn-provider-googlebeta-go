@@ -359,6 +359,14 @@ func (j *jsiiProxy_GoogleDataLineageConfig) validateSetCountParameters(val inter
 	return nil
 }
 
+func (j *jsiiProxy_GoogleDataLineageConfig) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_GoogleDataLineageConfig) validateSetIdParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

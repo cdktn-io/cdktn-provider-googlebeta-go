@@ -348,6 +348,14 @@ func (j *jsiiProxy_GoogleFirebaseDatabaseInstance) validateSetCountParameters(va
 	return nil
 }
 
+func (j *jsiiProxy_GoogleFirebaseDatabaseInstance) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_GoogleFirebaseDatabaseInstance) validateSetDesiredStateParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

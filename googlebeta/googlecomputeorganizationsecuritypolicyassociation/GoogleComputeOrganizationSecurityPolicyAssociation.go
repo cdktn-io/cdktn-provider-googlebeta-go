@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_organization_security_policy_association google_compute_organization_security_policy_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_organization_security_policy_association google_compute_organization_security_policy_association}.
 type GoogleComputeOrganizationSecurityPolicyAssociation interface {
 	cdktn.TerraformResource
 	AttachmentId() *string
@@ -30,6 +30,9 @@ type GoogleComputeOrganizationSecurityPolicyAssociation interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -126,6 +129,7 @@ type GoogleComputeOrganizationSecurityPolicyAssociation interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *GoogleComputeOrganizationSecurityPolicyAssociationTimeouts)
+	ResetDeletionPolicy()
 	ResetExcludedFolders()
 	ResetExcludedProjects()
 	ResetId()
@@ -215,6 +219,26 @@ func (j *jsiiProxy_GoogleComputeOrganizationSecurityPolicyAssociation) Count() i
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeOrganizationSecurityPolicyAssociation) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeOrganizationSecurityPolicyAssociation) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -471,7 +495,7 @@ func (j *jsiiProxy_GoogleComputeOrganizationSecurityPolicyAssociation) TimeoutsI
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_organization_security_policy_association google_compute_organization_security_policy_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_organization_security_policy_association google_compute_organization_security_policy_association} Resource.
 func NewGoogleComputeOrganizationSecurityPolicyAssociation(scope constructs.Construct, id *string, config *GoogleComputeOrganizationSecurityPolicyAssociationConfig) GoogleComputeOrganizationSecurityPolicyAssociation {
 	_init_.Initialize()
 
@@ -489,7 +513,7 @@ func NewGoogleComputeOrganizationSecurityPolicyAssociation(scope constructs.Cons
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_organization_security_policy_association google_compute_organization_security_policy_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_organization_security_policy_association google_compute_organization_security_policy_association} Resource.
 func NewGoogleComputeOrganizationSecurityPolicyAssociation_Override(g GoogleComputeOrganizationSecurityPolicyAssociation, scope constructs.Construct, id *string, config *GoogleComputeOrganizationSecurityPolicyAssociationConfig) {
 	_init_.Initialize()
 
@@ -529,6 +553,17 @@ func (j *jsiiProxy_GoogleComputeOrganizationSecurityPolicyAssociation)SetCount(v
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleComputeOrganizationSecurityPolicyAssociation)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -995,6 +1030,14 @@ func (g *jsiiProxy_GoogleComputeOrganizationSecurityPolicyAssociation) PutTimeou
 		g,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleComputeOrganizationSecurityPolicyAssociation) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

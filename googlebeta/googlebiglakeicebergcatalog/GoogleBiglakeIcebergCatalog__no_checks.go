@@ -111,6 +111,10 @@ func (j *jsiiProxy_GoogleBiglakeIcebergCatalog) validateSetCredentialModeParamet
 	return nil
 }
 
+func (j *jsiiProxy_GoogleBiglakeIcebergCatalog) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleBiglakeIcebergCatalog) validateSetIdParameters(val *string) error {
 	return nil
 }

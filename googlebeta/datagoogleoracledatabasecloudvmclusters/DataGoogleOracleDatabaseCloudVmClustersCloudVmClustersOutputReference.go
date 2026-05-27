@@ -33,6 +33,7 @@ type DataGoogleOracleDatabaseCloudVmClustersCloudVmClustersOutputReference inter
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
+	DeletionPolicy() *string
 	DeletionProtection() cdktn.IResolvable
 	DisplayName() *string
 	EffectiveLabels() cdktn.StringMap
@@ -173,6 +174,16 @@ func (j *jsiiProxy_DataGoogleOracleDatabaseCloudVmClustersCloudVmClustersOutputR
 	_jsii_.Get(
 		j,
 		"creationStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleOracleDatabaseCloudVmClustersCloudVmClustersOutputReference) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
 		&returns,
 	)
 	return returns

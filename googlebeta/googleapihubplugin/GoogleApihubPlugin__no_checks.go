@@ -119,6 +119,10 @@ func (j *jsiiProxy_GoogleApihubPlugin) validateSetCountParameters(val interface{
 	return nil
 }
 
+func (j *jsiiProxy_GoogleApihubPlugin) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleApihubPlugin) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

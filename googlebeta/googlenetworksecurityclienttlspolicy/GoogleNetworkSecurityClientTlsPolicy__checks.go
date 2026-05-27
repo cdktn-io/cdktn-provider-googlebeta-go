@@ -390,6 +390,14 @@ func (j *jsiiProxy_GoogleNetworkSecurityClientTlsPolicy) validateSetCountParamet
 	return nil
 }
 
+func (j *jsiiProxy_GoogleNetworkSecurityClientTlsPolicy) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_GoogleNetworkSecurityClientTlsPolicy) validateSetDescriptionParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

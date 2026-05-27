@@ -359,6 +359,14 @@ func (j *jsiiProxy_GoogleFirebaserulesRuleset) validateSetCountParameters(val in
 	return nil
 }
 
+func (j *jsiiProxy_GoogleFirebaserulesRuleset) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_GoogleFirebaserulesRuleset) validateSetIdParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

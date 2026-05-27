@@ -103,6 +103,10 @@ func (j *jsiiProxy_GoogleNetappHostGroup) validateSetCountParameters(val interfa
 	return nil
 }
 
+func (j *jsiiProxy_GoogleNetappHostGroup) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleNetappHostGroup) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

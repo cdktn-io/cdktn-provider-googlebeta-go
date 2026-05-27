@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_target_tcp_proxy google_compute_target_tcp_proxy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_target_tcp_proxy google_compute_target_tcp_proxy}.
 type GoogleComputeTargetTcpProxy interface {
 	cdktn.TerraformResource
 	BackendService() *string
@@ -31,6 +31,9 @@ type GoogleComputeTargetTcpProxy interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreationTimestamp() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -135,6 +138,7 @@ type GoogleComputeTargetTcpProxy interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *GoogleComputeTargetTcpProxyTimeouts)
 	ResetBackendService()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	ResetLoadBalancingScheme()
@@ -237,6 +241,26 @@ func (j *jsiiProxy_GoogleComputeTargetTcpProxy) CreationTimestamp() *string {
 	_jsii_.Get(
 		j,
 		"creationTimestamp",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeTargetTcpProxy) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeTargetTcpProxy) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -543,7 +567,7 @@ func (j *jsiiProxy_GoogleComputeTargetTcpProxy) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_target_tcp_proxy google_compute_target_tcp_proxy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_target_tcp_proxy google_compute_target_tcp_proxy} Resource.
 func NewGoogleComputeTargetTcpProxy(scope constructs.Construct, id *string, config *GoogleComputeTargetTcpProxyConfig) GoogleComputeTargetTcpProxy {
 	_init_.Initialize()
 
@@ -561,7 +585,7 @@ func NewGoogleComputeTargetTcpProxy(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_target_tcp_proxy google_compute_target_tcp_proxy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_target_tcp_proxy google_compute_target_tcp_proxy} Resource.
 func NewGoogleComputeTargetTcpProxy_Override(g GoogleComputeTargetTcpProxy, scope constructs.Construct, id *string, config *GoogleComputeTargetTcpProxyConfig) {
 	_init_.Initialize()
 
@@ -601,6 +625,17 @@ func (j *jsiiProxy_GoogleComputeTargetTcpProxy)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleComputeTargetTcpProxy)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1096,6 +1131,14 @@ func (g *jsiiProxy_GoogleComputeTargetTcpProxy) ResetBackendService() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetBackendService",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleComputeTargetTcpProxy) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

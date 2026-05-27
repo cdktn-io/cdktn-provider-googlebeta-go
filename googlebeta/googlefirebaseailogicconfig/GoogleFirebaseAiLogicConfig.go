@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_firebase_ai_logic_config google_firebase_ai_logic_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_firebase_ai_logic_config google_firebase_ai_logic_config}.
 type GoogleFirebaseAiLogicConfig interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -27,6 +27,9 @@ type GoogleFirebaseAiLogicConfig interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -126,6 +129,7 @@ type GoogleFirebaseAiLogicConfig interface {
 	PutTelemetryConfig(value *GoogleFirebaseAiLogicConfigTelemetryConfig)
 	PutTimeouts(value *GoogleFirebaseAiLogicConfigTimeouts)
 	PutTrafficFilter(value *GoogleFirebaseAiLogicConfigTrafficFilter)
+	ResetDeletionPolicy()
 	ResetGenerativeLanguageConfig()
 	ResetId()
 	ResetLocation()
@@ -198,6 +202,26 @@ func (j *jsiiProxy_GoogleFirebaseAiLogicConfig) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleFirebaseAiLogicConfig) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleFirebaseAiLogicConfig) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -474,7 +498,7 @@ func (j *jsiiProxy_GoogleFirebaseAiLogicConfig) TrafficFilterInput() *GoogleFire
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_firebase_ai_logic_config google_firebase_ai_logic_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_firebase_ai_logic_config google_firebase_ai_logic_config} Resource.
 func NewGoogleFirebaseAiLogicConfig(scope constructs.Construct, id *string, config *GoogleFirebaseAiLogicConfigConfig) GoogleFirebaseAiLogicConfig {
 	_init_.Initialize()
 
@@ -492,7 +516,7 @@ func NewGoogleFirebaseAiLogicConfig(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_firebase_ai_logic_config google_firebase_ai_logic_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_firebase_ai_logic_config google_firebase_ai_logic_config} Resource.
 func NewGoogleFirebaseAiLogicConfig_Override(g GoogleFirebaseAiLogicConfig, scope constructs.Construct, id *string, config *GoogleFirebaseAiLogicConfigConfig) {
 	_init_.Initialize()
 
@@ -521,6 +545,17 @@ func (j *jsiiProxy_GoogleFirebaseAiLogicConfig)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleFirebaseAiLogicConfig)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -998,6 +1033,14 @@ func (g *jsiiProxy_GoogleFirebaseAiLogicConfig) PutTrafficFilter(value *GoogleFi
 		g,
 		"putTrafficFilter",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleFirebaseAiLogicConfig) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

@@ -111,6 +111,10 @@ func (j *jsiiProxy_GoogleIdentityPlatformTenant) validateSetCountParameters(val 
 	return nil
 }
 
+func (j *jsiiProxy_GoogleIdentityPlatformTenant) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleIdentityPlatformTenant) validateSetDisableAuthParameters(val interface{}) error {
 	return nil
 }

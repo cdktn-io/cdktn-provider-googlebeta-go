@@ -143,6 +143,10 @@ func (j *jsiiProxy_GoogleAppEngineStandardAppVersion) validateSetDeleteServiceOn
 	return nil
 }
 
+func (j *jsiiProxy_GoogleAppEngineStandardAppVersion) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleAppEngineStandardAppVersion) validateSetEnvVariablesParameters(val *map[string]*string) error {
 	return nil
 }

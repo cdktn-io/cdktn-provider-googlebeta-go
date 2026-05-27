@@ -103,6 +103,10 @@ func (j *jsiiProxy_GoogleComputeInstanceGroupMembership) validateSetCountParamet
 	return nil
 }
 
+func (j *jsiiProxy_GoogleComputeInstanceGroupMembership) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleComputeInstanceGroupMembership) validateSetIdParameters(val *string) error {
 	return nil
 }

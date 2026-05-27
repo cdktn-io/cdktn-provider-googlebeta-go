@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_security_scanner_scan_config google_security_scanner_scan_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_security_scanner_scan_config google_security_scanner_scan_config}.
 type GoogleSecurityScannerScanConfig interface {
 	cdktn.TerraformResource
 	Authentication() GoogleSecurityScannerScanConfigAuthenticationOutputReference
@@ -32,6 +32,9 @@ type GoogleSecurityScannerScanConfig interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -143,6 +146,7 @@ type GoogleSecurityScannerScanConfig interface {
 	PutTimeouts(value *GoogleSecurityScannerScanConfigTimeouts)
 	ResetAuthentication()
 	ResetBlacklistPatterns()
+	ResetDeletionPolicy()
 	ResetExportToSecurityCommandCenter()
 	ResetId()
 	ResetMaxQps()
@@ -256,6 +260,26 @@ func (j *jsiiProxy_GoogleSecurityScannerScanConfig) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleSecurityScannerScanConfig) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleSecurityScannerScanConfig) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -592,7 +616,7 @@ func (j *jsiiProxy_GoogleSecurityScannerScanConfig) UserAgentInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_security_scanner_scan_config google_security_scanner_scan_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_security_scanner_scan_config google_security_scanner_scan_config} Resource.
 func NewGoogleSecurityScannerScanConfig(scope constructs.Construct, id *string, config *GoogleSecurityScannerScanConfigConfig) GoogleSecurityScannerScanConfig {
 	_init_.Initialize()
 
@@ -610,7 +634,7 @@ func NewGoogleSecurityScannerScanConfig(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_security_scanner_scan_config google_security_scanner_scan_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_security_scanner_scan_config google_security_scanner_scan_config} Resource.
 func NewGoogleSecurityScannerScanConfig_Override(g GoogleSecurityScannerScanConfig, scope constructs.Construct, id *string, config *GoogleSecurityScannerScanConfigConfig) {
 	_init_.Initialize()
 
@@ -650,6 +674,17 @@ func (j *jsiiProxy_GoogleSecurityScannerScanConfig)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleSecurityScannerScanConfig)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1186,6 +1221,14 @@ func (g *jsiiProxy_GoogleSecurityScannerScanConfig) ResetBlacklistPatterns() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetBlacklistPatterns",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleSecurityScannerScanConfig) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

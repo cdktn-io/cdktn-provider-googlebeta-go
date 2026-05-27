@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_security_sac_attachment google_network_security_sac_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_security_sac_attachment google_network_security_sac_attachment}.
 type GoogleNetworkSecuritySacAttachment interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -31,6 +31,9 @@ type GoogleNetworkSecuritySacAttachment interface {
 	SetCountry(val *string)
 	CountryInput() *string
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -143,6 +146,7 @@ type GoogleNetworkSecuritySacAttachment interface {
 	PutSymantecOptions(value *GoogleNetworkSecuritySacAttachmentSymantecOptions)
 	PutTimeouts(value *GoogleNetworkSecuritySacAttachmentTimeouts)
 	ResetCountry()
+	ResetDeletionPolicy()
 	ResetId()
 	ResetLabels()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -244,6 +248,26 @@ func (j *jsiiProxy_GoogleNetworkSecuritySacAttachment) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleNetworkSecuritySacAttachment) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleNetworkSecuritySacAttachment) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -610,7 +634,7 @@ func (j *jsiiProxy_GoogleNetworkSecuritySacAttachment) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_security_sac_attachment google_network_security_sac_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_security_sac_attachment google_network_security_sac_attachment} Resource.
 func NewGoogleNetworkSecuritySacAttachment(scope constructs.Construct, id *string, config *GoogleNetworkSecuritySacAttachmentConfig) GoogleNetworkSecuritySacAttachment {
 	_init_.Initialize()
 
@@ -628,7 +652,7 @@ func NewGoogleNetworkSecuritySacAttachment(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_security_sac_attachment google_network_security_sac_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_security_sac_attachment google_network_security_sac_attachment} Resource.
 func NewGoogleNetworkSecuritySacAttachment_Override(g GoogleNetworkSecuritySacAttachment, scope constructs.Construct, id *string, config *GoogleNetworkSecuritySacAttachmentConfig) {
 	_init_.Initialize()
 
@@ -668,6 +692,17 @@ func (j *jsiiProxy_GoogleNetworkSecuritySacAttachment)SetCountry(val *string) {
 	_jsii_.Set(
 		j,
 		"country",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleNetworkSecuritySacAttachment)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1185,6 +1220,14 @@ func (g *jsiiProxy_GoogleNetworkSecuritySacAttachment) ResetCountry() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetCountry",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleNetworkSecuritySacAttachment) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_chronicle_data_access_scope google_chronicle_data_access_scope}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_chronicle_data_access_scope google_chronicle_data_access_scope}.
 type GoogleChronicleDataAccessScope interface {
 	cdktn.TerraformResource
 	AllowAll() interface{}
@@ -37,6 +37,9 @@ type GoogleChronicleDataAccessScope interface {
 	DataAccessScopeId() *string
 	SetDataAccessScopeId(val *string)
 	DataAccessScopeIdInput() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	DeniedDataAccessLabels() GoogleChronicleDataAccessScopeDeniedDataAccessLabelsList
 	DeniedDataAccessLabelsInput() interface{}
 	// Experimental.
@@ -142,6 +145,7 @@ type GoogleChronicleDataAccessScope interface {
 	PutTimeouts(value *GoogleChronicleDataAccessScopeTimeouts)
 	ResetAllowAll()
 	ResetAllowedDataAccessLabels()
+	ResetDeletionPolicy()
 	ResetDeniedDataAccessLabels()
 	ResetDescription()
 	ResetId()
@@ -292,6 +296,26 @@ func (j *jsiiProxy_GoogleChronicleDataAccessScope) DataAccessScopeIdInput() *str
 	_jsii_.Get(
 		j,
 		"dataAccessScopeIdInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleChronicleDataAccessScope) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleChronicleDataAccessScope) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -598,7 +622,7 @@ func (j *jsiiProxy_GoogleChronicleDataAccessScope) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_chronicle_data_access_scope google_chronicle_data_access_scope} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_chronicle_data_access_scope google_chronicle_data_access_scope} Resource.
 func NewGoogleChronicleDataAccessScope(scope constructs.Construct, id *string, config *GoogleChronicleDataAccessScopeConfig) GoogleChronicleDataAccessScope {
 	_init_.Initialize()
 
@@ -616,7 +640,7 @@ func NewGoogleChronicleDataAccessScope(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_chronicle_data_access_scope google_chronicle_data_access_scope} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_chronicle_data_access_scope google_chronicle_data_access_scope} Resource.
 func NewGoogleChronicleDataAccessScope_Override(g GoogleChronicleDataAccessScope, scope constructs.Construct, id *string, config *GoogleChronicleDataAccessScopeConfig) {
 	_init_.Initialize()
 
@@ -667,6 +691,17 @@ func (j *jsiiProxy_GoogleChronicleDataAccessScope)SetDataAccessScopeId(val *stri
 	_jsii_.Set(
 		j,
 		"dataAccessScopeId",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleChronicleDataAccessScope)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1170,6 +1205,14 @@ func (g *jsiiProxy_GoogleChronicleDataAccessScope) ResetAllowedDataAccessLabels(
 	_jsii_.InvokeVoid(
 		g,
 		"resetAllowedDataAccessLabels",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleChronicleDataAccessScope) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

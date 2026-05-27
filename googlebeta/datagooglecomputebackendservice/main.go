@@ -29,6 +29,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "customMetrics", GoGetter: "CustomMetrics"},
 			_jsii_.MemberProperty{JsiiProperty: "customRequestHeaders", GoGetter: "CustomRequestHeaders"},
 			_jsii_.MemberProperty{JsiiProperty: "customResponseHeaders", GoGetter: "CustomResponseHeaders"},
+			_jsii_.MemberProperty{JsiiProperty: "deletionPolicy", GoGetter: "DeletionPolicy"},
 			_jsii_.MemberProperty{JsiiProperty: "dependsOn", GoGetter: "DependsOn"},
 			_jsii_.MemberProperty{JsiiProperty: "description", GoGetter: "Description"},
 			_jsii_.MemberProperty{JsiiProperty: "dynamicForwarding", GoGetter: "DynamicForwarding"},

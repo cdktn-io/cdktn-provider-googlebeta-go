@@ -103,6 +103,10 @@ func (j *jsiiProxy_GoogleNetworkServicesMulticastDomainGroup) validateSetCountPa
 	return nil
 }
 
+func (j *jsiiProxy_GoogleNetworkServicesMulticastDomainGroup) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleNetworkServicesMulticastDomainGroup) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

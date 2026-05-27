@@ -119,6 +119,10 @@ func (j *jsiiProxy_GoogleSaasRuntimeUnitOperation) validateSetCountParameters(va
 	return nil
 }
 
+func (j *jsiiProxy_GoogleSaasRuntimeUnitOperation) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleSaasRuntimeUnitOperation) validateSetIdParameters(val *string) error {
 	return nil
 }

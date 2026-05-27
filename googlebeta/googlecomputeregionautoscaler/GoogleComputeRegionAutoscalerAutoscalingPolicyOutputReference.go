@@ -56,6 +56,9 @@ type GoogleComputeRegionAutoscalerAutoscalingPolicyOutputReference interface {
 	ScaleInControlInput() *GoogleComputeRegionAutoscalerAutoscalingPolicyScaleInControl
 	ScalingSchedules() GoogleComputeRegionAutoscalerAutoscalingPolicyScalingSchedulesList
 	ScalingSchedulesInput() interface{}
+	StabilizationPeriod() *float64
+	SetStabilizationPeriod(val *float64)
+	StabilizationPeriodInput() *float64
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -102,6 +105,7 @@ type GoogleComputeRegionAutoscalerAutoscalingPolicyOutputReference interface {
 	ResetScaleDownControl()
 	ResetScaleInControl()
 	ResetScalingSchedules()
+	ResetStabilizationPeriod()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -367,6 +371,26 @@ func (j *jsiiProxy_GoogleComputeRegionAutoscalerAutoscalingPolicyOutputReference
 	return returns
 }
 
+func (j *jsiiProxy_GoogleComputeRegionAutoscalerAutoscalingPolicyOutputReference) StabilizationPeriod() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"stabilizationPeriod",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeRegionAutoscalerAutoscalingPolicyOutputReference) StabilizationPeriodInput() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"stabilizationPeriodInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleComputeRegionAutoscalerAutoscalingPolicyOutputReference) TerraformAttribute() *string {
 	var returns *string
 	_jsii_.Get(
@@ -488,6 +512,17 @@ func (j *jsiiProxy_GoogleComputeRegionAutoscalerAutoscalingPolicyOutputReference
 	_jsii_.Set(
 		j,
 		"mode",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleComputeRegionAutoscalerAutoscalingPolicyOutputReference)SetStabilizationPeriod(val *float64) {
+	if err := j.validateSetStabilizationPeriodParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"stabilizationPeriod",
 		val,
 	)
 }
@@ -826,6 +861,14 @@ func (g *jsiiProxy_GoogleComputeRegionAutoscalerAutoscalingPolicyOutputReference
 	_jsii_.InvokeVoid(
 		g,
 		"resetScalingSchedules",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleComputeRegionAutoscalerAutoscalingPolicyOutputReference) ResetStabilizationPeriod() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetStabilizationPeriod",
 		nil, // no parameters
 	)
 }

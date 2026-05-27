@@ -119,6 +119,10 @@ func (j *jsiiProxy_GoogleNetworkSecurityAuthzPolicy) validateSetCountParameters(
 	return nil
 }
 
+func (j *jsiiProxy_GoogleNetworkSecurityAuthzPolicy) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleNetworkSecurityAuthzPolicy) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

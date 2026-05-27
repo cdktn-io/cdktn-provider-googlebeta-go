@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_monitoring_notification_channel google_monitoring_notification_channel}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_monitoring_notification_channel google_monitoring_notification_channel}.
 type GoogleMonitoringNotificationChannel interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -27,6 +27,9 @@ type GoogleMonitoringNotificationChannel interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -139,6 +142,7 @@ type GoogleMonitoringNotificationChannel interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutSensitiveLabels(value *GoogleMonitoringNotificationChannelSensitiveLabels)
 	PutTimeouts(value *GoogleMonitoringNotificationChannelTimeouts)
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetDisplayName()
 	ResetEnabled()
@@ -214,6 +218,26 @@ func (j *jsiiProxy_GoogleMonitoringNotificationChannel) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleMonitoringNotificationChannel) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleMonitoringNotificationChannel) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -580,7 +604,7 @@ func (j *jsiiProxy_GoogleMonitoringNotificationChannel) VerificationStatus() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_monitoring_notification_channel google_monitoring_notification_channel} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_monitoring_notification_channel google_monitoring_notification_channel} Resource.
 func NewGoogleMonitoringNotificationChannel(scope constructs.Construct, id *string, config *GoogleMonitoringNotificationChannelConfig) GoogleMonitoringNotificationChannel {
 	_init_.Initialize()
 
@@ -598,7 +622,7 @@ func NewGoogleMonitoringNotificationChannel(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_monitoring_notification_channel google_monitoring_notification_channel} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_monitoring_notification_channel google_monitoring_notification_channel} Resource.
 func NewGoogleMonitoringNotificationChannel_Override(g GoogleMonitoringNotificationChannel, scope constructs.Construct, id *string, config *GoogleMonitoringNotificationChannelConfig) {
 	_init_.Initialize()
 
@@ -627,6 +651,17 @@ func (j *jsiiProxy_GoogleMonitoringNotificationChannel)SetCount(val interface{})
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleMonitoringNotificationChannel)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1148,6 +1183,14 @@ func (g *jsiiProxy_GoogleMonitoringNotificationChannel) PutTimeouts(value *Googl
 		g,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleMonitoringNotificationChannel) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

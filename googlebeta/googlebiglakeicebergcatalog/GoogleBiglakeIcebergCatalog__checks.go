@@ -364,6 +364,14 @@ func (j *jsiiProxy_GoogleBiglakeIcebergCatalog) validateSetCredentialModeParamet
 	return nil
 }
 
+func (j *jsiiProxy_GoogleBiglakeIcebergCatalog) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_GoogleBiglakeIcebergCatalog) validateSetIdParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_chronicle_native_dashboard google_chronicle_native_dashboard}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_chronicle_native_dashboard google_chronicle_native_dashboard}.
 type GoogleChronicleNativeDashboard interface {
 	cdktn.TerraformResource
 	Access() *string
@@ -35,6 +35,9 @@ type GoogleChronicleNativeDashboard interface {
 	CreateTime() *string
 	CreateUserId() *string
 	DashboardId() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -151,6 +154,7 @@ type GoogleChronicleNativeDashboard interface {
 	PutTimeouts(value *GoogleChronicleNativeDashboardTimeouts)
 	ResetAccess()
 	ResetCharts()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetFilters()
 	ResetId()
@@ -293,6 +297,26 @@ func (j *jsiiProxy_GoogleChronicleNativeDashboard) DashboardId() *string {
 	_jsii_.Get(
 		j,
 		"dashboardId",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleChronicleNativeDashboard) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleChronicleNativeDashboard) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -679,7 +703,7 @@ func (j *jsiiProxy_GoogleChronicleNativeDashboard) UpdateUserId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_chronicle_native_dashboard google_chronicle_native_dashboard} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_chronicle_native_dashboard google_chronicle_native_dashboard} Resource.
 func NewGoogleChronicleNativeDashboard(scope constructs.Construct, id *string, config *GoogleChronicleNativeDashboardConfig) GoogleChronicleNativeDashboard {
 	_init_.Initialize()
 
@@ -697,7 +721,7 @@ func NewGoogleChronicleNativeDashboard(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_chronicle_native_dashboard google_chronicle_native_dashboard} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_chronicle_native_dashboard google_chronicle_native_dashboard} Resource.
 func NewGoogleChronicleNativeDashboard_Override(g GoogleChronicleNativeDashboard, scope constructs.Construct, id *string, config *GoogleChronicleNativeDashboardConfig) {
 	_init_.Initialize()
 
@@ -737,6 +761,17 @@ func (j *jsiiProxy_GoogleChronicleNativeDashboard)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleChronicleNativeDashboard)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1273,6 +1308,14 @@ func (g *jsiiProxy_GoogleChronicleNativeDashboard) ResetCharts() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetCharts",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleChronicleNativeDashboard) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

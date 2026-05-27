@@ -127,6 +127,10 @@ func (j *jsiiProxy_GoogleDatabaseMigrationServiceConnectionProfile) validateSetC
 	return nil
 }
 
+func (j *jsiiProxy_GoogleDatabaseMigrationServiceConnectionProfile) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleDatabaseMigrationServiceConnectionProfile) validateSetDisplayNameParameters(val *string) error {
 	return nil
 }
@@ -152,6 +156,10 @@ func (j *jsiiProxy_GoogleDatabaseMigrationServiceConnectionProfile) validateSetP
 }
 
 func (j *jsiiProxy_GoogleDatabaseMigrationServiceConnectionProfile) validateSetProvisionersParameters(val *[]interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleDatabaseMigrationServiceConnectionProfile) validateSetRoleParameters(val *string) error {
 	return nil
 }
 

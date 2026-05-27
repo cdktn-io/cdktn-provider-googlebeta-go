@@ -111,6 +111,10 @@ func (j *jsiiProxy_GoogleOracleDatabaseCloudExadataInfrastructure) validateSetCo
 	return nil
 }
 
+func (j *jsiiProxy_GoogleOracleDatabaseCloudExadataInfrastructure) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleOracleDatabaseCloudExadataInfrastructure) validateSetDeletionProtectionParameters(val interface{}) error {
 	return nil
 }

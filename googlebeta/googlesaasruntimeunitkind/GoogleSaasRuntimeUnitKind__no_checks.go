@@ -123,6 +123,10 @@ func (j *jsiiProxy_GoogleSaasRuntimeUnitKind) validateSetDefaultReleaseParameter
 	return nil
 }
 
+func (j *jsiiProxy_GoogleSaasRuntimeUnitKind) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleSaasRuntimeUnitKind) validateSetIdParameters(val *string) error {
 	return nil
 }

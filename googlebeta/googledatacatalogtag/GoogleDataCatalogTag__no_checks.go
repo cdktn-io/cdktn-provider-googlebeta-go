@@ -111,6 +111,10 @@ func (j *jsiiProxy_GoogleDataCatalogTag) validateSetCountParameters(val interfac
 	return nil
 }
 
+func (j *jsiiProxy_GoogleDataCatalogTag) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleDataCatalogTag) validateSetIdParameters(val *string) error {
 	return nil
 }

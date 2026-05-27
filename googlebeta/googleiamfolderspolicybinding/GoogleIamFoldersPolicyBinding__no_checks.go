@@ -115,6 +115,10 @@ func (j *jsiiProxy_GoogleIamFoldersPolicyBinding) validateSetCountParameters(val
 	return nil
 }
 
+func (j *jsiiProxy_GoogleIamFoldersPolicyBinding) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleIamFoldersPolicyBinding) validateSetDisplayNameParameters(val *string) error {
 	return nil
 }

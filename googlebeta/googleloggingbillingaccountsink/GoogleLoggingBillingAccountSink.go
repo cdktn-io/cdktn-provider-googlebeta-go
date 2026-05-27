@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_logging_billing_account_sink google_logging_billing_account_sink}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_logging_billing_account_sink google_logging_billing_account_sink}.
 type GoogleLoggingBillingAccountSink interface {
 	cdktn.TerraformResource
 	BigqueryOptions() GoogleLoggingBillingAccountSinkBigqueryOptionsOutputReference
@@ -32,6 +32,9 @@ type GoogleLoggingBillingAccountSink interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -133,6 +136,7 @@ type GoogleLoggingBillingAccountSink interface {
 	PutBigqueryOptions(value *GoogleLoggingBillingAccountSinkBigqueryOptions)
 	PutExclusions(value interface{})
 	ResetBigqueryOptions()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetDisabled()
 	ResetExclusions()
@@ -243,6 +247,26 @@ func (j *jsiiProxy_GoogleLoggingBillingAccountSink) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleLoggingBillingAccountSink) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleLoggingBillingAccountSink) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -519,7 +543,7 @@ func (j *jsiiProxy_GoogleLoggingBillingAccountSink) WriterIdentity() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_logging_billing_account_sink google_logging_billing_account_sink} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_logging_billing_account_sink google_logging_billing_account_sink} Resource.
 func NewGoogleLoggingBillingAccountSink(scope constructs.Construct, id *string, config *GoogleLoggingBillingAccountSinkConfig) GoogleLoggingBillingAccountSink {
 	_init_.Initialize()
 
@@ -537,7 +561,7 @@ func NewGoogleLoggingBillingAccountSink(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_logging_billing_account_sink google_logging_billing_account_sink} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_logging_billing_account_sink google_logging_billing_account_sink} Resource.
 func NewGoogleLoggingBillingAccountSink_Override(g GoogleLoggingBillingAccountSink, scope constructs.Construct, id *string, config *GoogleLoggingBillingAccountSinkConfig) {
 	_init_.Initialize()
 
@@ -577,6 +601,17 @@ func (j *jsiiProxy_GoogleLoggingBillingAccountSink)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleLoggingBillingAccountSink)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1072,6 +1107,14 @@ func (g *jsiiProxy_GoogleLoggingBillingAccountSink) ResetBigqueryOptions() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetBigqueryOptions",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleLoggingBillingAccountSink) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

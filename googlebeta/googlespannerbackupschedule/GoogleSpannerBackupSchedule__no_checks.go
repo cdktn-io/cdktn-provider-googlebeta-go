@@ -123,6 +123,10 @@ func (j *jsiiProxy_GoogleSpannerBackupSchedule) validateSetDatabaseParameters(va
 	return nil
 }
 
+func (j *jsiiProxy_GoogleSpannerBackupSchedule) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleSpannerBackupSchedule) validateSetIdParameters(val *string) error {
 	return nil
 }

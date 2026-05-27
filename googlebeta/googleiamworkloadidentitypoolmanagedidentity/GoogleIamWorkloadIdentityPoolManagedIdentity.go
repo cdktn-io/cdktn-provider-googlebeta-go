@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iam_workload_identity_pool_managed_identity google_iam_workload_identity_pool_managed_identity}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_iam_workload_identity_pool_managed_identity google_iam_workload_identity_pool_managed_identity}.
 type GoogleIamWorkloadIdentityPoolManagedIdentity interface {
 	cdktn.TerraformResource
 	AttestationRules() GoogleIamWorkloadIdentityPoolManagedIdentityAttestationRulesList
@@ -29,6 +29,9 @@ type GoogleIamWorkloadIdentityPoolManagedIdentity interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -134,6 +137,7 @@ type GoogleIamWorkloadIdentityPoolManagedIdentity interface {
 	PutAttestationRules(value interface{})
 	PutTimeouts(value *GoogleIamWorkloadIdentityPoolManagedIdentityTimeouts)
 	ResetAttestationRules()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetDisabled()
 	ResetId()
@@ -224,6 +228,26 @@ func (j *jsiiProxy_GoogleIamWorkloadIdentityPoolManagedIdentity) Count() interfa
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleIamWorkloadIdentityPoolManagedIdentity) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleIamWorkloadIdentityPoolManagedIdentity) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -530,7 +554,7 @@ func (j *jsiiProxy_GoogleIamWorkloadIdentityPoolManagedIdentity) WorkloadIdentit
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iam_workload_identity_pool_managed_identity google_iam_workload_identity_pool_managed_identity} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_iam_workload_identity_pool_managed_identity google_iam_workload_identity_pool_managed_identity} Resource.
 func NewGoogleIamWorkloadIdentityPoolManagedIdentity(scope constructs.Construct, id *string, config *GoogleIamWorkloadIdentityPoolManagedIdentityConfig) GoogleIamWorkloadIdentityPoolManagedIdentity {
 	_init_.Initialize()
 
@@ -548,7 +572,7 @@ func NewGoogleIamWorkloadIdentityPoolManagedIdentity(scope constructs.Construct,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iam_workload_identity_pool_managed_identity google_iam_workload_identity_pool_managed_identity} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_iam_workload_identity_pool_managed_identity google_iam_workload_identity_pool_managed_identity} Resource.
 func NewGoogleIamWorkloadIdentityPoolManagedIdentity_Override(g GoogleIamWorkloadIdentityPoolManagedIdentity, scope constructs.Construct, id *string, config *GoogleIamWorkloadIdentityPoolManagedIdentityConfig) {
 	_init_.Initialize()
 
@@ -577,6 +601,17 @@ func (j *jsiiProxy_GoogleIamWorkloadIdentityPoolManagedIdentity)SetCount(val int
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleIamWorkloadIdentityPoolManagedIdentity)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1083,6 +1118,14 @@ func (g *jsiiProxy_GoogleIamWorkloadIdentityPoolManagedIdentity) ResetAttestatio
 	_jsii_.InvokeVoid(
 		g,
 		"resetAttestationRules",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleIamWorkloadIdentityPoolManagedIdentity) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

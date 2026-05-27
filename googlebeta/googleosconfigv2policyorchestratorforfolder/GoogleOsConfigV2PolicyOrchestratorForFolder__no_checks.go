@@ -115,6 +115,10 @@ func (j *jsiiProxy_GoogleOsConfigV2PolicyOrchestratorForFolder) validateSetCount
 	return nil
 }
 
+func (j *jsiiProxy_GoogleOsConfigV2PolicyOrchestratorForFolder) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleOsConfigV2PolicyOrchestratorForFolder) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

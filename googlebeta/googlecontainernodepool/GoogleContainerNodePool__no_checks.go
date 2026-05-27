@@ -139,6 +139,10 @@ func (j *jsiiProxy_GoogleContainerNodePool) validateSetCountParameters(val inter
 	return nil
 }
 
+func (j *jsiiProxy_GoogleContainerNodePool) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleContainerNodePool) validateSetIdParameters(val *string) error {
 	return nil
 }

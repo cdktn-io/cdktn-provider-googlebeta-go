@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_managed_ssl_certificate google_compute_managed_ssl_certificate}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_managed_ssl_certificate google_compute_managed_ssl_certificate}.
 type GoogleComputeManagedSslCertificate interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -29,6 +29,9 @@ type GoogleComputeManagedSslCertificate interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreationTimestamp() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -130,6 +133,7 @@ type GoogleComputeManagedSslCertificate interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutManaged(value *GoogleComputeManagedSslCertificateManaged)
 	PutTimeouts(value *GoogleComputeManagedSslCertificateTimeouts)
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	ResetManaged()
@@ -222,6 +226,26 @@ func (j *jsiiProxy_GoogleComputeManagedSslCertificate) CreationTimestamp() *stri
 	_jsii_.Get(
 		j,
 		"creationTimestamp",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeManagedSslCertificate) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeManagedSslCertificate) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -518,7 +542,7 @@ func (j *jsiiProxy_GoogleComputeManagedSslCertificate) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_managed_ssl_certificate google_compute_managed_ssl_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_managed_ssl_certificate google_compute_managed_ssl_certificate} Resource.
 func NewGoogleComputeManagedSslCertificate(scope constructs.Construct, id *string, config *GoogleComputeManagedSslCertificateConfig) GoogleComputeManagedSslCertificate {
 	_init_.Initialize()
 
@@ -536,7 +560,7 @@ func NewGoogleComputeManagedSslCertificate(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_managed_ssl_certificate google_compute_managed_ssl_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_managed_ssl_certificate google_compute_managed_ssl_certificate} Resource.
 func NewGoogleComputeManagedSslCertificate_Override(g GoogleComputeManagedSslCertificate, scope constructs.Construct, id *string, config *GoogleComputeManagedSslCertificateConfig) {
 	_init_.Initialize()
 
@@ -565,6 +589,17 @@ func (j *jsiiProxy_GoogleComputeManagedSslCertificate)SetCount(val interface{}) 
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleComputeManagedSslCertificate)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1042,6 +1077,14 @@ func (g *jsiiProxy_GoogleComputeManagedSslCertificate) PutTimeouts(value *Google
 		g,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleComputeManagedSslCertificate) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

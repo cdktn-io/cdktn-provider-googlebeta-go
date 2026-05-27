@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_oracle_database_exadb_vm_cluster google_oracle_database_exadb_vm_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_oracle_database_exadb_vm_cluster google_oracle_database_exadb_vm_cluster}.
 type GoogleOracleDatabaseExadbVmCluster interface {
 	cdktn.TerraformResource
 	BackupOdbSubnet() *string
@@ -31,6 +31,9 @@ type GoogleOracleDatabaseExadbVmCluster interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	DeletionProtection() interface{}
 	SetDeletionProtection(val interface{})
 	DeletionProtectionInput() interface{}
@@ -146,6 +149,7 @@ type GoogleOracleDatabaseExadbVmCluster interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutProperties(value *GoogleOracleDatabaseExadbVmClusterProperties)
 	PutTimeouts(value *GoogleOracleDatabaseExadbVmClusterTimeouts)
+	ResetDeletionPolicy()
 	ResetDeletionProtection()
 	ResetId()
 	ResetLabels()
@@ -247,6 +251,26 @@ func (j *jsiiProxy_GoogleOracleDatabaseExadbVmCluster) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleOracleDatabaseExadbVmCluster) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleOracleDatabaseExadbVmCluster) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -643,7 +667,7 @@ func (j *jsiiProxy_GoogleOracleDatabaseExadbVmCluster) TimeoutsInput() interface
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_oracle_database_exadb_vm_cluster google_oracle_database_exadb_vm_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_oracle_database_exadb_vm_cluster google_oracle_database_exadb_vm_cluster} Resource.
 func NewGoogleOracleDatabaseExadbVmCluster(scope constructs.Construct, id *string, config *GoogleOracleDatabaseExadbVmClusterConfig) GoogleOracleDatabaseExadbVmCluster {
 	_init_.Initialize()
 
@@ -661,7 +685,7 @@ func NewGoogleOracleDatabaseExadbVmCluster(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_oracle_database_exadb_vm_cluster google_oracle_database_exadb_vm_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_oracle_database_exadb_vm_cluster google_oracle_database_exadb_vm_cluster} Resource.
 func NewGoogleOracleDatabaseExadbVmCluster_Override(g GoogleOracleDatabaseExadbVmCluster, scope constructs.Construct, id *string, config *GoogleOracleDatabaseExadbVmClusterConfig) {
 	_init_.Initialize()
 
@@ -701,6 +725,17 @@ func (j *jsiiProxy_GoogleOracleDatabaseExadbVmCluster)SetCount(val interface{}) 
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleOracleDatabaseExadbVmCluster)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1222,6 +1257,14 @@ func (g *jsiiProxy_GoogleOracleDatabaseExadbVmCluster) PutTimeouts(value *Google
 		g,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleOracleDatabaseExadbVmCluster) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

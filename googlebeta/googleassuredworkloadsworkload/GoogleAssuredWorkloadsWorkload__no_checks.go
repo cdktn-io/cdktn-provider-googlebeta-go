@@ -127,6 +127,10 @@ func (j *jsiiProxy_GoogleAssuredWorkloadsWorkload) validateSetCountParameters(va
 	return nil
 }
 
+func (j *jsiiProxy_GoogleAssuredWorkloadsWorkload) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleAssuredWorkloadsWorkload) validateSetDisplayNameParameters(val *string) error {
 	return nil
 }

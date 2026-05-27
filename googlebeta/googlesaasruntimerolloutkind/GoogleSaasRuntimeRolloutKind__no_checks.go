@@ -111,6 +111,10 @@ func (j *jsiiProxy_GoogleSaasRuntimeRolloutKind) validateSetCountParameters(val 
 	return nil
 }
 
+func (j *jsiiProxy_GoogleSaasRuntimeRolloutKind) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleSaasRuntimeRolloutKind) validateSetIdParameters(val *string) error {
 	return nil
 }

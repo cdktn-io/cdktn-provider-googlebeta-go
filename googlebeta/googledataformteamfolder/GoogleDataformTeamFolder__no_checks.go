@@ -103,6 +103,10 @@ func (j *jsiiProxy_GoogleDataformTeamFolder) validateSetCountParameters(val inte
 	return nil
 }
 
+func (j *jsiiProxy_GoogleDataformTeamFolder) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleDataformTeamFolder) validateSetDisplayNameParameters(val *string) error {
 	return nil
 }

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_health_check google_compute_health_check}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_health_check google_compute_health_check}.
 type GoogleComputeHealthCheck interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -31,6 +31,9 @@ type GoogleComputeHealthCheck interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreationTimestamp() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -162,6 +165,7 @@ type GoogleComputeHealthCheck interface {
 	PutTcpHealthCheck(value *GoogleComputeHealthCheckTcpHealthCheck)
 	PutTimeouts(value *GoogleComputeHealthCheckTimeouts)
 	ResetCheckIntervalSec()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetGrpcHealthCheck()
 	ResetGrpcTlsHealthCheck()
@@ -273,6 +277,26 @@ func (j *jsiiProxy_GoogleComputeHealthCheck) CreationTimestamp() *string {
 	_jsii_.Get(
 		j,
 		"creationTimestamp",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeHealthCheck) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeHealthCheck) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -759,7 +783,7 @@ func (j *jsiiProxy_GoogleComputeHealthCheck) UnhealthyThresholdInput() *float64 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_health_check google_compute_health_check} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_health_check google_compute_health_check} Resource.
 func NewGoogleComputeHealthCheck(scope constructs.Construct, id *string, config *GoogleComputeHealthCheckConfig) GoogleComputeHealthCheck {
 	_init_.Initialize()
 
@@ -777,7 +801,7 @@ func NewGoogleComputeHealthCheck(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_health_check google_compute_health_check} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_health_check google_compute_health_check} Resource.
 func NewGoogleComputeHealthCheck_Override(g GoogleComputeHealthCheck, scope constructs.Construct, id *string, config *GoogleComputeHealthCheckConfig) {
 	_init_.Initialize()
 
@@ -817,6 +841,17 @@ func (j *jsiiProxy_GoogleComputeHealthCheck)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleComputeHealthCheck)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1411,6 +1446,14 @@ func (g *jsiiProxy_GoogleComputeHealthCheck) ResetCheckIntervalSec() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetCheckIntervalSec",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleComputeHealthCheck) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

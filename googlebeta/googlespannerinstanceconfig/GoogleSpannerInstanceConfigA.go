@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_spanner_instance_config google_spanner_instance_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_spanner_instance_config google_spanner_instance_config}.
 type GoogleSpannerInstanceConfigA interface {
 	cdktn.TerraformResource
 	BaseConfig() *string
@@ -31,6 +31,9 @@ type GoogleSpannerInstanceConfigA interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -132,6 +135,7 @@ type GoogleSpannerInstanceConfigA interface {
 	PutReplicas(value interface{})
 	PutTimeouts(value *GoogleSpannerInstanceConfigTimeouts)
 	ResetBaseConfig()
+	ResetDeletionPolicy()
 	ResetId()
 	ResetLabels()
 	ResetName()
@@ -232,6 +236,26 @@ func (j *jsiiProxy_GoogleSpannerInstanceConfigA) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleSpannerInstanceConfigA) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleSpannerInstanceConfigA) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -518,7 +542,7 @@ func (j *jsiiProxy_GoogleSpannerInstanceConfigA) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_spanner_instance_config google_spanner_instance_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_spanner_instance_config google_spanner_instance_config} Resource.
 func NewGoogleSpannerInstanceConfigA(scope constructs.Construct, id *string, config *GoogleSpannerInstanceConfigAConfig) GoogleSpannerInstanceConfigA {
 	_init_.Initialize()
 
@@ -536,7 +560,7 @@ func NewGoogleSpannerInstanceConfigA(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_spanner_instance_config google_spanner_instance_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_spanner_instance_config google_spanner_instance_config} Resource.
 func NewGoogleSpannerInstanceConfigA_Override(g GoogleSpannerInstanceConfigA, scope constructs.Construct, id *string, config *GoogleSpannerInstanceConfigAConfig) {
 	_init_.Initialize()
 
@@ -576,6 +600,17 @@ func (j *jsiiProxy_GoogleSpannerInstanceConfigA)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleSpannerInstanceConfigA)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1060,6 +1095,14 @@ func (g *jsiiProxy_GoogleSpannerInstanceConfigA) ResetBaseConfig() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetBaseConfig",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleSpannerInstanceConfigA) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

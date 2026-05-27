@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_access_context_manager_gcp_user_access_binding google_access_context_manager_gcp_user_access_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_access_context_manager_gcp_user_access_binding google_access_context_manager_gcp_user_access_binding}.
 type GoogleAccessContextManagerGcpUserAccessBinding interface {
 	cdktn.TerraformResource
 	AccessLevels() *[]*string
@@ -30,6 +30,9 @@ type GoogleAccessContextManagerGcpUserAccessBinding interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -127,6 +130,7 @@ type GoogleAccessContextManagerGcpUserAccessBinding interface {
 	PutSessionSettings(value *GoogleAccessContextManagerGcpUserAccessBindingSessionSettings)
 	PutTimeouts(value *GoogleAccessContextManagerGcpUserAccessBindingTimeouts)
 	ResetAccessLevels()
+	ResetDeletionPolicy()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -216,6 +220,26 @@ func (j *jsiiProxy_GoogleAccessContextManagerGcpUserAccessBinding) Count() inter
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleAccessContextManagerGcpUserAccessBinding) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleAccessContextManagerGcpUserAccessBinding) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -472,7 +496,7 @@ func (j *jsiiProxy_GoogleAccessContextManagerGcpUserAccessBinding) TimeoutsInput
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_access_context_manager_gcp_user_access_binding google_access_context_manager_gcp_user_access_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_access_context_manager_gcp_user_access_binding google_access_context_manager_gcp_user_access_binding} Resource.
 func NewGoogleAccessContextManagerGcpUserAccessBinding(scope constructs.Construct, id *string, config *GoogleAccessContextManagerGcpUserAccessBindingConfig) GoogleAccessContextManagerGcpUserAccessBinding {
 	_init_.Initialize()
 
@@ -490,7 +514,7 @@ func NewGoogleAccessContextManagerGcpUserAccessBinding(scope constructs.Construc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_access_context_manager_gcp_user_access_binding google_access_context_manager_gcp_user_access_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_access_context_manager_gcp_user_access_binding google_access_context_manager_gcp_user_access_binding} Resource.
 func NewGoogleAccessContextManagerGcpUserAccessBinding_Override(g GoogleAccessContextManagerGcpUserAccessBinding, scope constructs.Construct, id *string, config *GoogleAccessContextManagerGcpUserAccessBindingConfig) {
 	_init_.Initialize()
 
@@ -530,6 +554,17 @@ func (j *jsiiProxy_GoogleAccessContextManagerGcpUserAccessBinding)SetCount(val i
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleAccessContextManagerGcpUserAccessBinding)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1003,6 +1038,14 @@ func (g *jsiiProxy_GoogleAccessContextManagerGcpUserAccessBinding) ResetAccessLe
 	_jsii_.InvokeVoid(
 		g,
 		"resetAccessLevels",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleAccessContextManagerGcpUserAccessBinding) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

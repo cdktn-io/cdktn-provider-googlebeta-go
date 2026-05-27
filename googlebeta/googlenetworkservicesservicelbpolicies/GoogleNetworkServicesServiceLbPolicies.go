@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_services_service_lb_policies google_network_services_service_lb_policies}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_services_service_lb_policies google_network_services_service_lb_policies}.
 type GoogleNetworkServicesServiceLbPolicies interface {
 	cdktn.TerraformResource
 	AutoCapacityDrain() GoogleNetworkServicesServiceLbPoliciesAutoCapacityDrainOutputReference
@@ -30,6 +30,9 @@ type GoogleNetworkServicesServiceLbPolicies interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -142,6 +145,7 @@ type GoogleNetworkServicesServiceLbPolicies interface {
 	PutIsolationConfig(value *GoogleNetworkServicesServiceLbPoliciesIsolationConfig)
 	PutTimeouts(value *GoogleNetworkServicesServiceLbPoliciesTimeouts)
 	ResetAutoCapacityDrain()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetFailoverConfig()
 	ResetId()
@@ -245,6 +249,26 @@ func (j *jsiiProxy_GoogleNetworkServicesServiceLbPolicies) CreateTime() *string 
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleNetworkServicesServiceLbPolicies) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleNetworkServicesServiceLbPolicies) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -601,7 +625,7 @@ func (j *jsiiProxy_GoogleNetworkServicesServiceLbPolicies) UpdateTime() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_services_service_lb_policies google_network_services_service_lb_policies} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_services_service_lb_policies google_network_services_service_lb_policies} Resource.
 func NewGoogleNetworkServicesServiceLbPolicies(scope constructs.Construct, id *string, config *GoogleNetworkServicesServiceLbPoliciesConfig) GoogleNetworkServicesServiceLbPolicies {
 	_init_.Initialize()
 
@@ -619,7 +643,7 @@ func NewGoogleNetworkServicesServiceLbPolicies(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_services_service_lb_policies google_network_services_service_lb_policies} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_services_service_lb_policies google_network_services_service_lb_policies} Resource.
 func NewGoogleNetworkServicesServiceLbPolicies_Override(g GoogleNetworkServicesServiceLbPolicies, scope constructs.Construct, id *string, config *GoogleNetworkServicesServiceLbPoliciesConfig) {
 	_init_.Initialize()
 
@@ -648,6 +672,17 @@ func (j *jsiiProxy_GoogleNetworkServicesServiceLbPolicies)SetCount(val interface
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleNetworkServicesServiceLbPolicies)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1176,6 +1211,14 @@ func (g *jsiiProxy_GoogleNetworkServicesServiceLbPolicies) ResetAutoCapacityDrai
 	_jsii_.InvokeVoid(
 		g,
 		"resetAutoCapacityDrain",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleNetworkServicesServiceLbPolicies) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

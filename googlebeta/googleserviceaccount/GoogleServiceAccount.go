@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_service_account google_service_account}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_service_account google_service_account}.
 type GoogleServiceAccount interface {
 	cdktn.TerraformResource
 	AccountId() *string
@@ -33,6 +33,9 @@ type GoogleServiceAccount interface {
 	CreateIgnoreAlreadyExists() interface{}
 	SetCreateIgnoreAlreadyExists(val interface{})
 	CreateIgnoreAlreadyExistsInput() interface{}
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -133,6 +136,7 @@ type GoogleServiceAccount interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *GoogleServiceAccountTimeouts)
 	ResetCreateIgnoreAlreadyExists()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetDisabled()
 	ResetDisplayName()
@@ -244,6 +248,26 @@ func (j *jsiiProxy_GoogleServiceAccount) CreateIgnoreAlreadyExistsInput() interf
 	_jsii_.Get(
 		j,
 		"createIgnoreAlreadyExistsInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleServiceAccount) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleServiceAccount) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -530,7 +554,7 @@ func (j *jsiiProxy_GoogleServiceAccount) UniqueId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_service_account google_service_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_service_account google_service_account} Resource.
 func NewGoogleServiceAccount(scope constructs.Construct, id *string, config *GoogleServiceAccountConfig) GoogleServiceAccount {
 	_init_.Initialize()
 
@@ -548,7 +572,7 @@ func NewGoogleServiceAccount(scope constructs.Construct, id *string, config *Goo
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_service_account google_service_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_service_account google_service_account} Resource.
 func NewGoogleServiceAccount_Override(g GoogleServiceAccount, scope constructs.Construct, id *string, config *GoogleServiceAccountConfig) {
 	_init_.Initialize()
 
@@ -599,6 +623,17 @@ func (j *jsiiProxy_GoogleServiceAccount)SetCreateIgnoreAlreadyExists(val interfa
 	_jsii_.Set(
 		j,
 		"createIgnoreAlreadyExists",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleServiceAccount)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1072,6 +1107,14 @@ func (g *jsiiProxy_GoogleServiceAccount) ResetCreateIgnoreAlreadyExists() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetCreateIgnoreAlreadyExists",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleServiceAccount) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

@@ -123,6 +123,10 @@ func (j *jsiiProxy_GoogleBillingBudget) validateSetCountParameters(val interface
 	return nil
 }
 
+func (j *jsiiProxy_GoogleBillingBudget) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleBillingBudget) validateSetDisplayNameParameters(val *string) error {
 	return nil
 }

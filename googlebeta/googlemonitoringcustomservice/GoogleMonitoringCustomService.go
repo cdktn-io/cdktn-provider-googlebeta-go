@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_monitoring_custom_service google_monitoring_custom_service}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_monitoring_custom_service google_monitoring_custom_service}.
 type GoogleMonitoringCustomService interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -27,6 +27,9 @@ type GoogleMonitoringCustomService interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -126,6 +129,7 @@ type GoogleMonitoringCustomService interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutTelemetry(value *GoogleMonitoringCustomServiceTelemetry)
 	PutTimeouts(value *GoogleMonitoringCustomServiceTimeouts)
+	ResetDeletionPolicy()
 	ResetDisplayName()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -198,6 +202,26 @@ func (j *jsiiProxy_GoogleMonitoringCustomService) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleMonitoringCustomService) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleMonitoringCustomService) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -474,7 +498,7 @@ func (j *jsiiProxy_GoogleMonitoringCustomService) UserLabelsInput() *map[string]
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_monitoring_custom_service google_monitoring_custom_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_monitoring_custom_service google_monitoring_custom_service} Resource.
 func NewGoogleMonitoringCustomService(scope constructs.Construct, id *string, config *GoogleMonitoringCustomServiceConfig) GoogleMonitoringCustomService {
 	_init_.Initialize()
 
@@ -492,7 +516,7 @@ func NewGoogleMonitoringCustomService(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_monitoring_custom_service google_monitoring_custom_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_monitoring_custom_service google_monitoring_custom_service} Resource.
 func NewGoogleMonitoringCustomService_Override(g GoogleMonitoringCustomService, scope constructs.Construct, id *string, config *GoogleMonitoringCustomServiceConfig) {
 	_init_.Initialize()
 
@@ -521,6 +545,17 @@ func (j *jsiiProxy_GoogleMonitoringCustomService)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleMonitoringCustomService)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -998,6 +1033,14 @@ func (g *jsiiProxy_GoogleMonitoringCustomService) PutTimeouts(value *GoogleMonit
 		g,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleMonitoringCustomService) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

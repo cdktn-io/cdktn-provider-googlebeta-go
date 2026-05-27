@@ -139,6 +139,10 @@ func (j *jsiiProxy_GoogleContainerAzureCluster) validateSetCountParameters(val i
 	return nil
 }
 
+func (j *jsiiProxy_GoogleContainerAzureCluster) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleContainerAzureCluster) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

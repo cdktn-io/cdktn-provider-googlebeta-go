@@ -107,6 +107,10 @@ func (j *jsiiProxy_GoogleIamDenyPolicy) validateSetCountParameters(val interface
 	return nil
 }
 
+func (j *jsiiProxy_GoogleIamDenyPolicy) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleIamDenyPolicy) validateSetDisplayNameParameters(val *string) error {
 	return nil
 }

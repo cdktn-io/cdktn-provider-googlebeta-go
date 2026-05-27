@@ -103,6 +103,10 @@ func (j *jsiiProxy_GoogleNetworkSecurityInterceptEndpointGroupAssociation) valid
 	return nil
 }
 
+func (j *jsiiProxy_GoogleNetworkSecurityInterceptEndpointGroupAssociation) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleNetworkSecurityInterceptEndpointGroupAssociation) validateSetIdParameters(val *string) error {
 	return nil
 }

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_metadata_store google_vertex_ai_metadata_store}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_metadata_store google_vertex_ai_metadata_store}.
 type GoogleVertexAiMetadataStore interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -28,6 +28,9 @@ type GoogleVertexAiMetadataStore interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -128,6 +131,7 @@ type GoogleVertexAiMetadataStore interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutEncryptionSpec(value *GoogleVertexAiMetadataStoreEncryptionSpec)
 	PutTimeouts(value *GoogleVertexAiMetadataStoreTimeouts)
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetEncryptionSpec()
 	ResetId()
@@ -210,6 +214,26 @@ func (j *jsiiProxy_GoogleVertexAiMetadataStore) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleVertexAiMetadataStore) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleVertexAiMetadataStore) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -496,7 +520,7 @@ func (j *jsiiProxy_GoogleVertexAiMetadataStore) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_metadata_store google_vertex_ai_metadata_store} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_metadata_store google_vertex_ai_metadata_store} Resource.
 func NewGoogleVertexAiMetadataStore(scope constructs.Construct, id *string, config *GoogleVertexAiMetadataStoreConfig) GoogleVertexAiMetadataStore {
 	_init_.Initialize()
 
@@ -514,7 +538,7 @@ func NewGoogleVertexAiMetadataStore(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_metadata_store google_vertex_ai_metadata_store} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_metadata_store google_vertex_ai_metadata_store} Resource.
 func NewGoogleVertexAiMetadataStore_Override(g GoogleVertexAiMetadataStore, scope constructs.Construct, id *string, config *GoogleVertexAiMetadataStoreConfig) {
 	_init_.Initialize()
 
@@ -543,6 +567,17 @@ func (j *jsiiProxy_GoogleVertexAiMetadataStore)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleVertexAiMetadataStore)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1020,6 +1055,14 @@ func (g *jsiiProxy_GoogleVertexAiMetadataStore) PutTimeouts(value *GoogleVertexA
 		g,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleVertexAiMetadataStore) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

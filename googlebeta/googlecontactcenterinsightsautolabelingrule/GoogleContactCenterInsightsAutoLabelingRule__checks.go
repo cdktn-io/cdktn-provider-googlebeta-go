@@ -407,6 +407,14 @@ func (j *jsiiProxy_GoogleContactCenterInsightsAutoLabelingRule) validateSetCount
 	return nil
 }
 
+func (j *jsiiProxy_GoogleContactCenterInsightsAutoLabelingRule) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_GoogleContactCenterInsightsAutoLabelingRule) validateSetDescriptionParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

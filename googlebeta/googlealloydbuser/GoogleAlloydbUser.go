@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_alloydb_user google_alloydb_user}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_alloydb_user google_alloydb_user}.
 type GoogleAlloydbUser interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -33,6 +33,9 @@ type GoogleAlloydbUser interface {
 	DatabaseRoles() *[]*string
 	SetDatabaseRoles(val *[]*string)
 	DatabaseRolesInput() *[]*string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -133,6 +136,7 @@ type GoogleAlloydbUser interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *GoogleAlloydbUserTimeouts)
 	ResetDatabaseRoles()
+	ResetDeletionPolicy()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -243,6 +247,26 @@ func (j *jsiiProxy_GoogleAlloydbUser) DatabaseRolesInput() *[]*string {
 	_jsii_.Get(
 		j,
 		"databaseRolesInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleAlloydbUser) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleAlloydbUser) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -519,7 +543,7 @@ func (j *jsiiProxy_GoogleAlloydbUser) UserTypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_alloydb_user google_alloydb_user} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_alloydb_user google_alloydb_user} Resource.
 func NewGoogleAlloydbUser(scope constructs.Construct, id *string, config *GoogleAlloydbUserConfig) GoogleAlloydbUser {
 	_init_.Initialize()
 
@@ -537,7 +561,7 @@ func NewGoogleAlloydbUser(scope constructs.Construct, id *string, config *Google
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_alloydb_user google_alloydb_user} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_alloydb_user google_alloydb_user} Resource.
 func NewGoogleAlloydbUser_Override(g GoogleAlloydbUser, scope constructs.Construct, id *string, config *GoogleAlloydbUserConfig) {
 	_init_.Initialize()
 
@@ -588,6 +612,17 @@ func (j *jsiiProxy_GoogleAlloydbUser)SetDatabaseRoles(val *[]*string) {
 	_jsii_.Set(
 		j,
 		"databaseRoles",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleAlloydbUser)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1072,6 +1107,14 @@ func (g *jsiiProxy_GoogleAlloydbUser) ResetDatabaseRoles() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetDatabaseRoles",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleAlloydbUser) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

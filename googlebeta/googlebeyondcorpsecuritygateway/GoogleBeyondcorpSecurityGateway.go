@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_beyondcorp_security_gateway google_beyondcorp_security_gateway}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_beyondcorp_security_gateway google_beyondcorp_security_gateway}.
 type GoogleBeyondcorpSecurityGateway interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -29,6 +29,9 @@ type GoogleBeyondcorpSecurityGateway interface {
 	SetCount(val interface{})
 	CreateTime() *string
 	DelegatingServiceAccount() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -140,6 +143,7 @@ type GoogleBeyondcorpSecurityGateway interface {
 	PutProxyProtocolConfig(value *GoogleBeyondcorpSecurityGatewayProxyProtocolConfig)
 	PutServiceDiscovery(value *GoogleBeyondcorpSecurityGatewayServiceDiscovery)
 	PutTimeouts(value *GoogleBeyondcorpSecurityGatewayTimeouts)
+	ResetDeletionPolicy()
 	ResetDisplayName()
 	ResetHubs()
 	ResetId()
@@ -234,6 +238,26 @@ func (j *jsiiProxy_GoogleBeyondcorpSecurityGateway) DelegatingServiceAccount() *
 	_jsii_.Get(
 		j,
 		"delegatingServiceAccount",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleBeyondcorpSecurityGateway) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleBeyondcorpSecurityGateway) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -600,7 +624,7 @@ func (j *jsiiProxy_GoogleBeyondcorpSecurityGateway) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_beyondcorp_security_gateway google_beyondcorp_security_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_beyondcorp_security_gateway google_beyondcorp_security_gateway} Resource.
 func NewGoogleBeyondcorpSecurityGateway(scope constructs.Construct, id *string, config *GoogleBeyondcorpSecurityGatewayConfig) GoogleBeyondcorpSecurityGateway {
 	_init_.Initialize()
 
@@ -618,7 +642,7 @@ func NewGoogleBeyondcorpSecurityGateway(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_beyondcorp_security_gateway google_beyondcorp_security_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_beyondcorp_security_gateway google_beyondcorp_security_gateway} Resource.
 func NewGoogleBeyondcorpSecurityGateway_Override(g GoogleBeyondcorpSecurityGateway, scope constructs.Construct, id *string, config *GoogleBeyondcorpSecurityGatewayConfig) {
 	_init_.Initialize()
 
@@ -647,6 +671,17 @@ func (j *jsiiProxy_GoogleBeyondcorpSecurityGateway)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleBeyondcorpSecurityGateway)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1157,6 +1192,14 @@ func (g *jsiiProxy_GoogleBeyondcorpSecurityGateway) PutTimeouts(value *GoogleBey
 		g,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleBeyondcorpSecurityGateway) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

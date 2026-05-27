@@ -111,6 +111,10 @@ func (j *jsiiProxy_GoogleMonitoringMetricDescriptor) validateSetCountParameters(
 	return nil
 }
 
+func (j *jsiiProxy_GoogleMonitoringMetricDescriptor) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleMonitoringMetricDescriptor) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

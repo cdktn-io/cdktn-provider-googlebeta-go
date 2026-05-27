@@ -123,6 +123,10 @@ func (j *jsiiProxy_GoogleComputeOrganizationSecurityPolicyRule) validateSetCount
 	return nil
 }
 
+func (j *jsiiProxy_GoogleComputeOrganizationSecurityPolicyRule) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleComputeOrganizationSecurityPolicyRule) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

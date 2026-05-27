@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataplex_aspect_type google_dataplex_aspect_type}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataplex_aspect_type google_dataplex_aspect_type}.
 type GoogleDataplexAspectType interface {
 	cdktn.TerraformResource
 	AspectTypeId() *string
@@ -34,6 +34,9 @@ type GoogleDataplexAspectType interface {
 	DataClassification() *string
 	SetDataClassification(val *string)
 	DataClassificationInput() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -143,6 +146,7 @@ type GoogleDataplexAspectType interface {
 	PutTimeouts(value *GoogleDataplexAspectTypeTimeouts)
 	ResetAspectTypeId()
 	ResetDataClassification()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetDisplayName()
 	ResetId()
@@ -266,6 +270,26 @@ func (j *jsiiProxy_GoogleDataplexAspectType) DataClassificationInput() *string {
 	_jsii_.Get(
 		j,
 		"dataClassificationInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDataplexAspectType) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDataplexAspectType) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -612,7 +636,7 @@ func (j *jsiiProxy_GoogleDataplexAspectType) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataplex_aspect_type google_dataplex_aspect_type} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataplex_aspect_type google_dataplex_aspect_type} Resource.
 func NewGoogleDataplexAspectType(scope constructs.Construct, id *string, config *GoogleDataplexAspectTypeConfig) GoogleDataplexAspectType {
 	_init_.Initialize()
 
@@ -630,7 +654,7 @@ func NewGoogleDataplexAspectType(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataplex_aspect_type google_dataplex_aspect_type} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataplex_aspect_type google_dataplex_aspect_type} Resource.
 func NewGoogleDataplexAspectType_Override(g GoogleDataplexAspectType, scope constructs.Construct, id *string, config *GoogleDataplexAspectTypeConfig) {
 	_init_.Initialize()
 
@@ -681,6 +705,17 @@ func (j *jsiiProxy_GoogleDataplexAspectType)SetDataClassification(val *string) {
 	_jsii_.Set(
 		j,
 		"dataClassification",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleDataplexAspectType)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1184,6 +1219,14 @@ func (g *jsiiProxy_GoogleDataplexAspectType) ResetDataClassification() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetDataClassification",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleDataplexAspectType) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

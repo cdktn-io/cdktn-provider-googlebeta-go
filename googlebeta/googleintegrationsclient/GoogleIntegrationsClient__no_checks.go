@@ -111,6 +111,10 @@ func (j *jsiiProxy_GoogleIntegrationsClient) validateSetCreateSampleIntegrations
 	return nil
 }
 
+func (j *jsiiProxy_GoogleIntegrationsClient) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleIntegrationsClient) validateSetIdParameters(val *string) error {
 	return nil
 }

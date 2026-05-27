@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_services_multicast_domain google_network_services_multicast_domain}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_services_multicast_domain google_network_services_multicast_domain}.
 type GoogleNetworkServicesMulticastDomain interface {
 	cdktn.TerraformResource
 	AdminNetwork() *string
@@ -33,6 +33,9 @@ type GoogleNetworkServicesMulticastDomain interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -144,6 +147,7 @@ type GoogleNetworkServicesMulticastDomain interface {
 	PutConnectionConfig(value *GoogleNetworkServicesMulticastDomainConnectionConfig)
 	PutTimeouts(value *GoogleNetworkServicesMulticastDomainTimeouts)
 	PutUllMulticastDomain(value *GoogleNetworkServicesMulticastDomainUllMulticastDomain)
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	ResetLabels()
@@ -266,6 +270,26 @@ func (j *jsiiProxy_GoogleNetworkServicesMulticastDomain) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleNetworkServicesMulticastDomain) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleNetworkServicesMulticastDomain) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -632,7 +656,7 @@ func (j *jsiiProxy_GoogleNetworkServicesMulticastDomain) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_services_multicast_domain google_network_services_multicast_domain} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_services_multicast_domain google_network_services_multicast_domain} Resource.
 func NewGoogleNetworkServicesMulticastDomain(scope constructs.Construct, id *string, config *GoogleNetworkServicesMulticastDomainConfig) GoogleNetworkServicesMulticastDomain {
 	_init_.Initialize()
 
@@ -650,7 +674,7 @@ func NewGoogleNetworkServicesMulticastDomain(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_services_multicast_domain google_network_services_multicast_domain} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_services_multicast_domain google_network_services_multicast_domain} Resource.
 func NewGoogleNetworkServicesMulticastDomain_Override(g GoogleNetworkServicesMulticastDomain, scope constructs.Construct, id *string, config *GoogleNetworkServicesMulticastDomainConfig) {
 	_init_.Initialize()
 
@@ -690,6 +714,17 @@ func (j *jsiiProxy_GoogleNetworkServicesMulticastDomain)SetCount(val interface{}
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleNetworkServicesMulticastDomain)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1200,6 +1235,14 @@ func (g *jsiiProxy_GoogleNetworkServicesMulticastDomain) PutUllMulticastDomain(v
 		g,
 		"putUllMulticastDomain",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleNetworkServicesMulticastDomain) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

@@ -107,6 +107,10 @@ func (j *jsiiProxy_GoogleComputeBackendBucketSignedUrlKey) validateSetCountParam
 	return nil
 }
 
+func (j *jsiiProxy_GoogleComputeBackendBucketSignedUrlKey) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleComputeBackendBucketSignedUrlKey) validateSetIdParameters(val *string) error {
 	return nil
 }

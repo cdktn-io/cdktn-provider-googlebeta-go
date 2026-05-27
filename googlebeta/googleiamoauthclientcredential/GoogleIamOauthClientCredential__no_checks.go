@@ -103,6 +103,10 @@ func (j *jsiiProxy_GoogleIamOauthClientCredential) validateSetCountParameters(va
 	return nil
 }
 
+func (j *jsiiProxy_GoogleIamOauthClientCredential) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleIamOauthClientCredential) validateSetDisabledParameters(val interface{}) error {
 	return nil
 }

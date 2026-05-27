@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation google_ces_evaluation}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_evaluation google_ces_evaluation}.
 type GoogleCesEvaluation interface {
 	cdktn.TerraformResource
 	App() *string
@@ -32,6 +32,9 @@ type GoogleCesEvaluation interface {
 	SetCount(val interface{})
 	CreatedBy() *string
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -146,6 +149,7 @@ type GoogleCesEvaluation interface {
 	PutGolden(value *GoogleCesEvaluationGolden)
 	PutScenario(value *GoogleCesEvaluationScenario)
 	PutTimeouts(value *GoogleCesEvaluationTimeouts)
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetGolden()
 	ResetId()
@@ -258,6 +262,26 @@ func (j *jsiiProxy_GoogleCesEvaluation) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCesEvaluation) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCesEvaluation) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -654,7 +678,7 @@ func (j *jsiiProxy_GoogleCesEvaluation) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation google_ces_evaluation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_evaluation google_ces_evaluation} Resource.
 func NewGoogleCesEvaluation(scope constructs.Construct, id *string, config *GoogleCesEvaluationConfig) GoogleCesEvaluation {
 	_init_.Initialize()
 
@@ -672,7 +696,7 @@ func NewGoogleCesEvaluation(scope constructs.Construct, id *string, config *Goog
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation google_ces_evaluation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_evaluation google_ces_evaluation} Resource.
 func NewGoogleCesEvaluation_Override(g GoogleCesEvaluation, scope constructs.Construct, id *string, config *GoogleCesEvaluationConfig) {
 	_init_.Initialize()
 
@@ -712,6 +736,17 @@ func (j *jsiiProxy_GoogleCesEvaluation)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleCesEvaluation)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1222,6 +1257,14 @@ func (g *jsiiProxy_GoogleCesEvaluation) PutTimeouts(value *GoogleCesEvaluationTi
 		g,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleCesEvaluation) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

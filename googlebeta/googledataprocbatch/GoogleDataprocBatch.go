@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataproc_batch google_dataproc_batch}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataproc_batch google_dataproc_batch}.
 type GoogleDataprocBatch interface {
 	cdktn.TerraformResource
 	BatchId() *string
@@ -32,6 +32,9 @@ type GoogleDataprocBatch interface {
 	SetCount(val interface{})
 	CreateTime() *string
 	Creator() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -153,6 +156,7 @@ type GoogleDataprocBatch interface {
 	PutSparkSqlBatch(value *GoogleDataprocBatchSparkSqlBatch)
 	PutTimeouts(value *GoogleDataprocBatchTimeouts)
 	ResetBatchId()
+	ResetDeletionPolicy()
 	ResetEnvironmentConfig()
 	ResetId()
 	ResetLabels()
@@ -269,6 +273,26 @@ func (j *jsiiProxy_GoogleDataprocBatch) Creator() *string {
 	_jsii_.Get(
 		j,
 		"creator",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDataprocBatch) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDataprocBatch) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -715,7 +739,7 @@ func (j *jsiiProxy_GoogleDataprocBatch) Uuid() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataproc_batch google_dataproc_batch} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataproc_batch google_dataproc_batch} Resource.
 func NewGoogleDataprocBatch(scope constructs.Construct, id *string, config *GoogleDataprocBatchConfig) GoogleDataprocBatch {
 	_init_.Initialize()
 
@@ -733,7 +757,7 @@ func NewGoogleDataprocBatch(scope constructs.Construct, id *string, config *Goog
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataproc_batch google_dataproc_batch} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataproc_batch google_dataproc_batch} Resource.
 func NewGoogleDataprocBatch_Override(g GoogleDataprocBatch, scope constructs.Construct, id *string, config *GoogleDataprocBatchConfig) {
 	_init_.Initialize()
 
@@ -773,6 +797,17 @@ func (j *jsiiProxy_GoogleDataprocBatch)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleDataprocBatch)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1301,6 +1336,14 @@ func (g *jsiiProxy_GoogleDataprocBatch) ResetBatchId() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetBatchId",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleDataprocBatch) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

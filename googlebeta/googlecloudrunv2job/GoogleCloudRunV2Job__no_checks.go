@@ -123,6 +123,10 @@ func (j *jsiiProxy_GoogleCloudRunV2Job) validateSetCountParameters(val interface
 	return nil
 }
 
+func (j *jsiiProxy_GoogleCloudRunV2Job) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleCloudRunV2Job) validateSetDeletionProtectionParameters(val interface{}) error {
 	return nil
 }

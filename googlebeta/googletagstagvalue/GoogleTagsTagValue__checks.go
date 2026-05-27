@@ -348,6 +348,14 @@ func (j *jsiiProxy_GoogleTagsTagValue) validateSetCountParameters(val interface{
 	return nil
 }
 
+func (j *jsiiProxy_GoogleTagsTagValue) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_GoogleTagsTagValue) validateSetDescriptionParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

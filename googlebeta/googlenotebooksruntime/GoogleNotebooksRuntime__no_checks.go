@@ -115,6 +115,10 @@ func (j *jsiiProxy_GoogleNotebooksRuntime) validateSetCountParameters(val interf
 	return nil
 }
 
+func (j *jsiiProxy_GoogleNotebooksRuntime) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleNotebooksRuntime) validateSetIdParameters(val *string) error {
 	return nil
 }

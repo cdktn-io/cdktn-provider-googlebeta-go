@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dns_managed_zone google_dns_managed_zone}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dns_managed_zone google_dns_managed_zone}.
 type GoogleDnsManagedZone interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -30,6 +30,9 @@ type GoogleDnsManagedZone interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreationTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -158,6 +161,7 @@ type GoogleDnsManagedZone interface {
 	PutServiceDirectoryConfig(value *GoogleDnsManagedZoneServiceDirectoryConfig)
 	PutTimeouts(value *GoogleDnsManagedZoneTimeouts)
 	ResetCloudLoggingConfig()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetDnssecConfig()
 	ResetForceDestroy()
@@ -266,6 +270,26 @@ func (j *jsiiProxy_GoogleDnsManagedZone) CreationTime() *string {
 	_jsii_.Get(
 		j,
 		"creationTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDnsManagedZone) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDnsManagedZone) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -732,7 +756,7 @@ func (j *jsiiProxy_GoogleDnsManagedZone) VisibilityInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dns_managed_zone google_dns_managed_zone} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dns_managed_zone google_dns_managed_zone} Resource.
 func NewGoogleDnsManagedZone(scope constructs.Construct, id *string, config *GoogleDnsManagedZoneConfig) GoogleDnsManagedZone {
 	_init_.Initialize()
 
@@ -750,7 +774,7 @@ func NewGoogleDnsManagedZone(scope constructs.Construct, id *string, config *Goo
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dns_managed_zone google_dns_managed_zone} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dns_managed_zone google_dns_managed_zone} Resource.
 func NewGoogleDnsManagedZone_Override(g GoogleDnsManagedZone, scope constructs.Construct, id *string, config *GoogleDnsManagedZoneConfig) {
 	_init_.Initialize()
 
@@ -779,6 +803,17 @@ func (j *jsiiProxy_GoogleDnsManagedZone)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleDnsManagedZone)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1362,6 +1397,14 @@ func (g *jsiiProxy_GoogleDnsManagedZone) ResetCloudLoggingConfig() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetCloudLoggingConfig",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleDnsManagedZone) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_firebase_extensions_instance google_firebase_extensions_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_firebase_extensions_instance google_firebase_extensions_instance}.
 type GoogleFirebaseExtensionsInstance interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -30,6 +30,9 @@ type GoogleFirebaseExtensionsInstance interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -129,6 +132,7 @@ type GoogleFirebaseExtensionsInstance interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutConfig(value *GoogleFirebaseExtensionsInstanceConfigA)
 	PutTimeouts(value *GoogleFirebaseExtensionsInstanceTimeouts)
+	ResetDeletionPolicy()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -227,6 +231,26 @@ func (j *jsiiProxy_GoogleFirebaseExtensionsInstance) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleFirebaseExtensionsInstance) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleFirebaseExtensionsInstance) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -523,7 +547,7 @@ func (j *jsiiProxy_GoogleFirebaseExtensionsInstance) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_firebase_extensions_instance google_firebase_extensions_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_firebase_extensions_instance google_firebase_extensions_instance} Resource.
 func NewGoogleFirebaseExtensionsInstance(scope constructs.Construct, id *string, config *GoogleFirebaseExtensionsInstanceConfig) GoogleFirebaseExtensionsInstance {
 	_init_.Initialize()
 
@@ -541,7 +565,7 @@ func NewGoogleFirebaseExtensionsInstance(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_firebase_extensions_instance google_firebase_extensions_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_firebase_extensions_instance google_firebase_extensions_instance} Resource.
 func NewGoogleFirebaseExtensionsInstance_Override(g GoogleFirebaseExtensionsInstance, scope constructs.Construct, id *string, config *GoogleFirebaseExtensionsInstanceConfig) {
 	_init_.Initialize()
 
@@ -570,6 +594,17 @@ func (j *jsiiProxy_GoogleFirebaseExtensionsInstance)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleFirebaseExtensionsInstance)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1025,6 +1060,14 @@ func (g *jsiiProxy_GoogleFirebaseExtensionsInstance) PutTimeouts(value *GoogleFi
 		g,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleFirebaseExtensionsInstance) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

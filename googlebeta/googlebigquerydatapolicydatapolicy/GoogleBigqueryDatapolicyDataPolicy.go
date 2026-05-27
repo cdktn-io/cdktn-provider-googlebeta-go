@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_bigquery_datapolicy_data_policy google_bigquery_datapolicy_data_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_bigquery_datapolicy_data_policy google_bigquery_datapolicy_data_policy}.
 type GoogleBigqueryDatapolicyDataPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -35,6 +35,9 @@ type GoogleBigqueryDatapolicyDataPolicy interface {
 	DataPolicyType() *string
 	SetDataPolicyType(val *string)
 	DataPolicyTypeInput() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -130,6 +133,7 @@ type GoogleBigqueryDatapolicyDataPolicy interface {
 	PutDataMaskingPolicy(value *GoogleBigqueryDatapolicyDataPolicyDataMaskingPolicy)
 	PutTimeouts(value *GoogleBigqueryDatapolicyDataPolicyTimeouts)
 	ResetDataMaskingPolicy()
+	ResetDeletionPolicy()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -258,6 +262,26 @@ func (j *jsiiProxy_GoogleBigqueryDatapolicyDataPolicy) DataPolicyTypeInput() *st
 	_jsii_.Get(
 		j,
 		"dataPolicyTypeInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleBigqueryDatapolicyDataPolicy) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleBigqueryDatapolicyDataPolicy) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -494,7 +518,7 @@ func (j *jsiiProxy_GoogleBigqueryDatapolicyDataPolicy) TimeoutsInput() interface
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_bigquery_datapolicy_data_policy google_bigquery_datapolicy_data_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_bigquery_datapolicy_data_policy google_bigquery_datapolicy_data_policy} Resource.
 func NewGoogleBigqueryDatapolicyDataPolicy(scope constructs.Construct, id *string, config *GoogleBigqueryDatapolicyDataPolicyConfig) GoogleBigqueryDatapolicyDataPolicy {
 	_init_.Initialize()
 
@@ -512,7 +536,7 @@ func NewGoogleBigqueryDatapolicyDataPolicy(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_bigquery_datapolicy_data_policy google_bigquery_datapolicy_data_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_bigquery_datapolicy_data_policy google_bigquery_datapolicy_data_policy} Resource.
 func NewGoogleBigqueryDatapolicyDataPolicy_Override(g GoogleBigqueryDatapolicyDataPolicy, scope constructs.Construct, id *string, config *GoogleBigqueryDatapolicyDataPolicyConfig) {
 	_init_.Initialize()
 
@@ -563,6 +587,17 @@ func (j *jsiiProxy_GoogleBigqueryDatapolicyDataPolicy)SetDataPolicyType(val *str
 	_jsii_.Set(
 		j,
 		"dataPolicyType",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleBigqueryDatapolicyDataPolicy)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1036,6 +1071,14 @@ func (g *jsiiProxy_GoogleBigqueryDatapolicyDataPolicy) ResetDataMaskingPolicy() 
 	_jsii_.InvokeVoid(
 		g,
 		"resetDataMaskingPolicy",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleBigqueryDatapolicyDataPolicy) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

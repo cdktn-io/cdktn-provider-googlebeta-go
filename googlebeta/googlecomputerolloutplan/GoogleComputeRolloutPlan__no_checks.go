@@ -107,6 +107,10 @@ func (j *jsiiProxy_GoogleComputeRolloutPlan) validateSetCountParameters(val inte
 	return nil
 }
 
+func (j *jsiiProxy_GoogleComputeRolloutPlan) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleComputeRolloutPlan) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

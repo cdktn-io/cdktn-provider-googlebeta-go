@@ -103,6 +103,10 @@ func (j *jsiiProxy_GoogleComputeAttachedDisk) validateSetCountParameters(val int
 	return nil
 }
 
+func (j *jsiiProxy_GoogleComputeAttachedDisk) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleComputeAttachedDisk) validateSetDeviceNameParameters(val *string) error {
 	return nil
 }

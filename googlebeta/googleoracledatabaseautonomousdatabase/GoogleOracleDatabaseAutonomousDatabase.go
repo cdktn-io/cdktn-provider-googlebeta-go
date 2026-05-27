@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_oracle_database_autonomous_database google_oracle_database_autonomous_database}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_oracle_database_autonomous_database google_oracle_database_autonomous_database}.
 type GoogleOracleDatabaseAutonomousDatabase interface {
 	cdktn.TerraformResource
 	AdminPassword() *string
@@ -40,6 +40,9 @@ type GoogleOracleDatabaseAutonomousDatabase interface {
 	Database() *string
 	SetDatabase(val *string)
 	DatabaseInput() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	DeletionProtection() interface{}
 	SetDeletionProtection(val interface{})
 	DeletionProtectionInput() interface{}
@@ -162,6 +165,7 @@ type GoogleOracleDatabaseAutonomousDatabase interface {
 	ResetAdminPassword()
 	ResetCidr()
 	ResetDatabase()
+	ResetDeletionPolicy()
 	ResetDeletionProtection()
 	ResetDisplayName()
 	ResetId()
@@ -328,6 +332,26 @@ func (j *jsiiProxy_GoogleOracleDatabaseAutonomousDatabase) DatabaseInput() *stri
 	_jsii_.Get(
 		j,
 		"databaseInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleOracleDatabaseAutonomousDatabase) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleOracleDatabaseAutonomousDatabase) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -754,7 +778,7 @@ func (j *jsiiProxy_GoogleOracleDatabaseAutonomousDatabase) TimeoutsInput() inter
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_oracle_database_autonomous_database google_oracle_database_autonomous_database} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_oracle_database_autonomous_database google_oracle_database_autonomous_database} Resource.
 func NewGoogleOracleDatabaseAutonomousDatabase(scope constructs.Construct, id *string, config *GoogleOracleDatabaseAutonomousDatabaseConfig) GoogleOracleDatabaseAutonomousDatabase {
 	_init_.Initialize()
 
@@ -772,7 +796,7 @@ func NewGoogleOracleDatabaseAutonomousDatabase(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_oracle_database_autonomous_database google_oracle_database_autonomous_database} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_oracle_database_autonomous_database google_oracle_database_autonomous_database} Resource.
 func NewGoogleOracleDatabaseAutonomousDatabase_Override(g GoogleOracleDatabaseAutonomousDatabase, scope constructs.Construct, id *string, config *GoogleOracleDatabaseAutonomousDatabaseConfig) {
 	_init_.Initialize()
 
@@ -845,6 +869,17 @@ func (j *jsiiProxy_GoogleOracleDatabaseAutonomousDatabase)SetDatabase(val *strin
 	_jsii_.Set(
 		j,
 		"database",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleOracleDatabaseAutonomousDatabase)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1400,6 +1435,14 @@ func (g *jsiiProxy_GoogleOracleDatabaseAutonomousDatabase) ResetDatabase() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetDatabase",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleOracleDatabaseAutonomousDatabase) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

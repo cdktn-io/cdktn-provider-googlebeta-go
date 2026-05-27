@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_compute_ssl_policy google_compute_ssl_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/data-sources/google_compute_ssl_policy google_compute_ssl_policy}.
 type DataGoogleComputeSslPolicy interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -25,6 +25,7 @@ type DataGoogleComputeSslPolicy interface {
 	SetCount(val interface{})
 	CreationTimestamp() *string
 	CustomFeatures() *[]*string
+	DeletionPolicy() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -173,6 +174,16 @@ func (j *jsiiProxy_DataGoogleComputeSslPolicy) CustomFeatures() *[]*string {
 	_jsii_.Get(
 		j,
 		"customFeatures",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleComputeSslPolicy) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
 		&returns,
 	)
 	return returns
@@ -409,7 +420,7 @@ func (j *jsiiProxy_DataGoogleComputeSslPolicy) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_compute_ssl_policy google_compute_ssl_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/data-sources/google_compute_ssl_policy google_compute_ssl_policy} Data Source.
 func NewDataGoogleComputeSslPolicy(scope constructs.Construct, id *string, config *DataGoogleComputeSslPolicyConfig) DataGoogleComputeSslPolicy {
 	_init_.Initialize()
 
@@ -427,7 +438,7 @@ func NewDataGoogleComputeSslPolicy(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_compute_ssl_policy google_compute_ssl_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/data-sources/google_compute_ssl_policy google_compute_ssl_policy} Data Source.
 func NewDataGoogleComputeSslPolicy_Override(d DataGoogleComputeSslPolicy, scope constructs.Construct, id *string, config *DataGoogleComputeSslPolicyConfig) {
 	_init_.Initialize()
 

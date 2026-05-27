@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_data_lineage_config google_data_lineage_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_data_lineage_config google_data_lineage_config}.
 type GoogleDataLineageConfig interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -27,6 +27,9 @@ type GoogleDataLineageConfig interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -121,6 +124,7 @@ type GoogleDataLineageConfig interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutIngestion(value *GoogleDataLineageConfigIngestion)
 	PutTimeouts(value *GoogleDataLineageConfigTimeouts)
+	ResetDeletionPolicy()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -188,6 +192,26 @@ func (j *jsiiProxy_GoogleDataLineageConfig) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDataLineageConfig) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDataLineageConfig) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -434,7 +458,7 @@ func (j *jsiiProxy_GoogleDataLineageConfig) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_data_lineage_config google_data_lineage_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_data_lineage_config google_data_lineage_config} Resource.
 func NewGoogleDataLineageConfig(scope constructs.Construct, id *string, config *GoogleDataLineageConfigConfig) GoogleDataLineageConfig {
 	_init_.Initialize()
 
@@ -452,7 +476,7 @@ func NewGoogleDataLineageConfig(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_data_lineage_config google_data_lineage_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_data_lineage_config google_data_lineage_config} Resource.
 func NewGoogleDataLineageConfig_Override(g GoogleDataLineageConfig, scope constructs.Construct, id *string, config *GoogleDataLineageConfigConfig) {
 	_init_.Initialize()
 
@@ -481,6 +505,17 @@ func (j *jsiiProxy_GoogleDataLineageConfig)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleDataLineageConfig)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -936,6 +971,14 @@ func (g *jsiiProxy_GoogleDataLineageConfig) PutTimeouts(value *GoogleDataLineage
 		g,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleDataLineageConfig) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

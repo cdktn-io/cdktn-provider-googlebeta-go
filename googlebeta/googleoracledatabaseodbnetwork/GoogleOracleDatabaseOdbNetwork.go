@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_oracle_database_odb_network google_oracle_database_odb_network}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_oracle_database_odb_network google_oracle_database_odb_network}.
 type GoogleOracleDatabaseOdbNetwork interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -28,6 +28,9 @@ type GoogleOracleDatabaseOdbNetwork interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	DeletionProtection() interface{}
 	SetDeletionProtection(val interface{})
 	DeletionProtectionInput() interface{}
@@ -137,6 +140,7 @@ type GoogleOracleDatabaseOdbNetwork interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *GoogleOracleDatabaseOdbNetworkTimeouts)
+	ResetDeletionPolicy()
 	ResetDeletionProtection()
 	ResetGcpOracleZone()
 	ResetId()
@@ -218,6 +222,26 @@ func (j *jsiiProxy_GoogleOracleDatabaseOdbNetwork) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleOracleDatabaseOdbNetwork) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleOracleDatabaseOdbNetwork) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -574,7 +598,7 @@ func (j *jsiiProxy_GoogleOracleDatabaseOdbNetwork) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_oracle_database_odb_network google_oracle_database_odb_network} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_oracle_database_odb_network google_oracle_database_odb_network} Resource.
 func NewGoogleOracleDatabaseOdbNetwork(scope constructs.Construct, id *string, config *GoogleOracleDatabaseOdbNetworkConfig) GoogleOracleDatabaseOdbNetwork {
 	_init_.Initialize()
 
@@ -592,7 +616,7 @@ func NewGoogleOracleDatabaseOdbNetwork(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_oracle_database_odb_network google_oracle_database_odb_network} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_oracle_database_odb_network google_oracle_database_odb_network} Resource.
 func NewGoogleOracleDatabaseOdbNetwork_Override(g GoogleOracleDatabaseOdbNetwork, scope constructs.Construct, id *string, config *GoogleOracleDatabaseOdbNetworkConfig) {
 	_init_.Initialize()
 
@@ -621,6 +645,17 @@ func (j *jsiiProxy_GoogleOracleDatabaseOdbNetwork)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleOracleDatabaseOdbNetwork)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1120,6 +1155,14 @@ func (g *jsiiProxy_GoogleOracleDatabaseOdbNetwork) PutTimeouts(value *GoogleOrac
 		g,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleOracleDatabaseOdbNetwork) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

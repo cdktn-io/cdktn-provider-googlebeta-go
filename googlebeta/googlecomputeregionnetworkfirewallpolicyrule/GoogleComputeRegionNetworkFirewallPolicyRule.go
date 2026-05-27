@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_network_firewall_policy_rule google_compute_region_network_firewall_policy_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_network_firewall_policy_rule google_compute_region_network_firewall_policy_rule}.
 type GoogleComputeRegionNetworkFirewallPolicyRule interface {
 	cdktn.TerraformResource
 	Action() *string
@@ -31,6 +31,9 @@ type GoogleComputeRegionNetworkFirewallPolicyRule interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreationTimestamp() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -164,6 +167,7 @@ type GoogleComputeRegionNetworkFirewallPolicyRule interface {
 	PutMatch(value *GoogleComputeRegionNetworkFirewallPolicyRuleMatch)
 	PutTargetSecureTags(value interface{})
 	PutTimeouts(value *GoogleComputeRegionNetworkFirewallPolicyRuleTimeouts)
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetDisabled()
 	ResetEnableLogging()
@@ -273,6 +277,26 @@ func (j *jsiiProxy_GoogleComputeRegionNetworkFirewallPolicyRule) CreationTimesta
 	_jsii_.Get(
 		j,
 		"creationTimestamp",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeRegionNetworkFirewallPolicyRule) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeRegionNetworkFirewallPolicyRule) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -779,7 +803,7 @@ func (j *jsiiProxy_GoogleComputeRegionNetworkFirewallPolicyRule) TlsInspectInput
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_network_firewall_policy_rule google_compute_region_network_firewall_policy_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_network_firewall_policy_rule google_compute_region_network_firewall_policy_rule} Resource.
 func NewGoogleComputeRegionNetworkFirewallPolicyRule(scope constructs.Construct, id *string, config *GoogleComputeRegionNetworkFirewallPolicyRuleConfig) GoogleComputeRegionNetworkFirewallPolicyRule {
 	_init_.Initialize()
 
@@ -797,7 +821,7 @@ func NewGoogleComputeRegionNetworkFirewallPolicyRule(scope constructs.Construct,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_network_firewall_policy_rule google_compute_region_network_firewall_policy_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_network_firewall_policy_rule google_compute_region_network_firewall_policy_rule} Resource.
 func NewGoogleComputeRegionNetworkFirewallPolicyRule_Override(g GoogleComputeRegionNetworkFirewallPolicyRule, scope constructs.Construct, id *string, config *GoogleComputeRegionNetworkFirewallPolicyRuleConfig) {
 	_init_.Initialize()
 
@@ -837,6 +861,17 @@ func (j *jsiiProxy_GoogleComputeRegionNetworkFirewallPolicyRule)SetCount(val int
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleComputeRegionNetworkFirewallPolicyRule)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1435,6 +1470,14 @@ func (g *jsiiProxy_GoogleComputeRegionNetworkFirewallPolicyRule) PutTimeouts(val
 		g,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleComputeRegionNetworkFirewallPolicyRule) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

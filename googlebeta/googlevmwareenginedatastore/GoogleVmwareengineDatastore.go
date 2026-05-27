@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vmwareengine_datastore google_vmwareengine_datastore}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vmwareengine_datastore google_vmwareengine_datastore}.
 type GoogleVmwareengineDatastore interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -29,6 +29,9 @@ type GoogleVmwareengineDatastore interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -130,6 +133,7 @@ type GoogleVmwareengineDatastore interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutNfsDatastore(value *GoogleVmwareengineDatastoreNfsDatastore)
 	PutTimeouts(value *GoogleVmwareengineDatastoreTimeouts)
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -219,6 +223,26 @@ func (j *jsiiProxy_GoogleVmwareengineDatastore) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleVmwareengineDatastore) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleVmwareengineDatastore) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -515,7 +539,7 @@ func (j *jsiiProxy_GoogleVmwareengineDatastore) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vmwareengine_datastore google_vmwareengine_datastore} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vmwareengine_datastore google_vmwareengine_datastore} Resource.
 func NewGoogleVmwareengineDatastore(scope constructs.Construct, id *string, config *GoogleVmwareengineDatastoreConfig) GoogleVmwareengineDatastore {
 	_init_.Initialize()
 
@@ -533,7 +557,7 @@ func NewGoogleVmwareengineDatastore(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vmwareengine_datastore google_vmwareengine_datastore} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vmwareengine_datastore google_vmwareengine_datastore} Resource.
 func NewGoogleVmwareengineDatastore_Override(g GoogleVmwareengineDatastore, scope constructs.Construct, id *string, config *GoogleVmwareengineDatastoreConfig) {
 	_init_.Initialize()
 
@@ -562,6 +586,17 @@ func (j *jsiiProxy_GoogleVmwareengineDatastore)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleVmwareengineDatastore)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1039,6 +1074,14 @@ func (g *jsiiProxy_GoogleVmwareengineDatastore) PutTimeouts(value *GoogleVmwaree
 		g,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleVmwareengineDatastore) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

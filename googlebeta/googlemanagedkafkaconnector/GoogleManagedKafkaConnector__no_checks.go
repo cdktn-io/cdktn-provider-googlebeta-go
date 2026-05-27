@@ -119,6 +119,10 @@ func (j *jsiiProxy_GoogleManagedKafkaConnector) validateSetCountParameters(val i
 	return nil
 }
 
+func (j *jsiiProxy_GoogleManagedKafkaConnector) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleManagedKafkaConnector) validateSetIdParameters(val *string) error {
 	return nil
 }

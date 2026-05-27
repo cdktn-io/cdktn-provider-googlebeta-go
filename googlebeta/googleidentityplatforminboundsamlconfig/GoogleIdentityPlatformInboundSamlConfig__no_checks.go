@@ -111,6 +111,10 @@ func (j *jsiiProxy_GoogleIdentityPlatformInboundSamlConfig) validateSetCountPara
 	return nil
 }
 
+func (j *jsiiProxy_GoogleIdentityPlatformInboundSamlConfig) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleIdentityPlatformInboundSamlConfig) validateSetDisplayNameParameters(val *string) error {
 	return nil
 }

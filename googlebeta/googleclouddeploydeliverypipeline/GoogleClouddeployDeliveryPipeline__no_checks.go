@@ -111,6 +111,10 @@ func (j *jsiiProxy_GoogleClouddeployDeliveryPipeline) validateSetCountParameters
 	return nil
 }
 
+func (j *jsiiProxy_GoogleClouddeployDeliveryPipeline) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleClouddeployDeliveryPipeline) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

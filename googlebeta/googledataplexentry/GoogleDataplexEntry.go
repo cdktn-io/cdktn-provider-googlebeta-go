@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataplex_entry google_dataplex_entry}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataplex_entry google_dataplex_entry}.
 type GoogleDataplexEntry interface {
 	cdktn.TerraformResource
 	Aspects() GoogleDataplexEntryAspectsList
@@ -30,6 +30,9 @@ type GoogleDataplexEntry interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -141,6 +144,7 @@ type GoogleDataplexEntry interface {
 	PutEntrySource(value *GoogleDataplexEntryEntrySource)
 	PutTimeouts(value *GoogleDataplexEntryTimeouts)
 	ResetAspects()
+	ResetDeletionPolicy()
 	ResetEntryGroupId()
 	ResetEntryId()
 	ResetEntrySource()
@@ -245,6 +249,26 @@ func (j *jsiiProxy_GoogleDataplexEntry) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDataplexEntry) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDataplexEntry) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -591,7 +615,7 @@ func (j *jsiiProxy_GoogleDataplexEntry) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataplex_entry google_dataplex_entry} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataplex_entry google_dataplex_entry} Resource.
 func NewGoogleDataplexEntry(scope constructs.Construct, id *string, config *GoogleDataplexEntryConfig) GoogleDataplexEntry {
 	_init_.Initialize()
 
@@ -609,7 +633,7 @@ func NewGoogleDataplexEntry(scope constructs.Construct, id *string, config *Goog
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataplex_entry google_dataplex_entry} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataplex_entry google_dataplex_entry} Resource.
 func NewGoogleDataplexEntry_Override(g GoogleDataplexEntry, scope constructs.Construct, id *string, config *GoogleDataplexEntryConfig) {
 	_init_.Initialize()
 
@@ -638,6 +662,17 @@ func (j *jsiiProxy_GoogleDataplexEntry)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleDataplexEntry)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1166,6 +1201,14 @@ func (g *jsiiProxy_GoogleDataplexEntry) ResetAspects() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetAspects",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleDataplexEntry) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

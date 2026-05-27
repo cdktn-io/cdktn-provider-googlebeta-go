@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_compute_reservation google_compute_reservation}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/data-sources/google_compute_reservation google_compute_reservation}.
 type DataGoogleComputeReservation interface {
 	cdktn.TerraformDataSource
 	BlockNames() *[]*string
@@ -28,6 +28,7 @@ type DataGoogleComputeReservation interface {
 	CreationTimestamp() *string
 	DeleteAfterDuration() DataGoogleComputeReservationDeleteAfterDurationList
 	DeleteAtTime() *string
+	DeletionPolicy() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -213,6 +214,16 @@ func (j *jsiiProxy_DataGoogleComputeReservation) DeleteAtTime() *string {
 	_jsii_.Get(
 		j,
 		"deleteAtTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleComputeReservation) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
 		&returns,
 	)
 	return returns
@@ -529,7 +540,7 @@ func (j *jsiiProxy_DataGoogleComputeReservation) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_compute_reservation google_compute_reservation} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/data-sources/google_compute_reservation google_compute_reservation} Data Source.
 func NewDataGoogleComputeReservation(scope constructs.Construct, id *string, config *DataGoogleComputeReservationConfig) DataGoogleComputeReservation {
 	_init_.Initialize()
 
@@ -547,7 +558,7 @@ func NewDataGoogleComputeReservation(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_compute_reservation google_compute_reservation} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/data-sources/google_compute_reservation google_compute_reservation} Data Source.
 func NewDataGoogleComputeReservation_Override(d DataGoogleComputeReservation, scope constructs.Construct, id *string, config *DataGoogleComputeReservationConfig) {
 	_init_.Initialize()
 

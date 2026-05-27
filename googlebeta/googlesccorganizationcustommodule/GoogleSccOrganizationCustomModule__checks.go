@@ -359,6 +359,14 @@ func (j *jsiiProxy_GoogleSccOrganizationCustomModule) validateSetCountParameters
 	return nil
 }
 
+func (j *jsiiProxy_GoogleSccOrganizationCustomModule) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_GoogleSccOrganizationCustomModule) validateSetDisplayNameParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

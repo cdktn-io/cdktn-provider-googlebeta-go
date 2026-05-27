@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_artifact_registry_repository google_artifact_registry_repository}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_artifact_registry_repository google_artifact_registry_repository}.
 type GoogleArtifactRegistryRepository interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -33,6 +33,9 @@ type GoogleArtifactRegistryRepository interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -163,6 +166,7 @@ type GoogleArtifactRegistryRepository interface {
 	PutVulnerabilityScanningConfig(value *GoogleArtifactRegistryRepositoryVulnerabilityScanningConfig)
 	ResetCleanupPolicies()
 	ResetCleanupPolicyDryRun()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetDockerConfig()
 	ResetId()
@@ -291,6 +295,26 @@ func (j *jsiiProxy_GoogleArtifactRegistryRepository) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleArtifactRegistryRepository) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleArtifactRegistryRepository) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -767,7 +791,7 @@ func (j *jsiiProxy_GoogleArtifactRegistryRepository) VulnerabilityScanningConfig
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_artifact_registry_repository google_artifact_registry_repository} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_artifact_registry_repository google_artifact_registry_repository} Resource.
 func NewGoogleArtifactRegistryRepository(scope constructs.Construct, id *string, config *GoogleArtifactRegistryRepositoryConfig) GoogleArtifactRegistryRepository {
 	_init_.Initialize()
 
@@ -785,7 +809,7 @@ func NewGoogleArtifactRegistryRepository(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_artifact_registry_repository google_artifact_registry_repository} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_artifact_registry_repository google_artifact_registry_repository} Resource.
 func NewGoogleArtifactRegistryRepository_Override(g GoogleArtifactRegistryRepository, scope constructs.Construct, id *string, config *GoogleArtifactRegistryRepositoryConfig) {
 	_init_.Initialize()
 
@@ -825,6 +849,17 @@ func (j *jsiiProxy_GoogleArtifactRegistryRepository)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleArtifactRegistryRepository)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1416,6 +1451,14 @@ func (g *jsiiProxy_GoogleArtifactRegistryRepository) ResetCleanupPolicyDryRun() 
 	_jsii_.InvokeVoid(
 		g,
 		"resetCleanupPolicyDryRun",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleArtifactRegistryRepository) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

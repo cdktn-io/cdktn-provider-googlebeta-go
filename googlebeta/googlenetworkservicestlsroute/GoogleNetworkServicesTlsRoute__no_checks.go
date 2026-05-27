@@ -107,6 +107,10 @@ func (j *jsiiProxy_GoogleNetworkServicesTlsRoute) validateSetCountParameters(val
 	return nil
 }
 
+func (j *jsiiProxy_GoogleNetworkServicesTlsRoute) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleNetworkServicesTlsRoute) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

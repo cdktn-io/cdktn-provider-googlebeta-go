@@ -367,6 +367,14 @@ func (j *jsiiProxy_GoogleSccV2FolderNotificationConfig) validateSetCountParamete
 	return nil
 }
 
+func (j *jsiiProxy_GoogleSccV2FolderNotificationConfig) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_GoogleSccV2FolderNotificationConfig) validateSetDescriptionParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

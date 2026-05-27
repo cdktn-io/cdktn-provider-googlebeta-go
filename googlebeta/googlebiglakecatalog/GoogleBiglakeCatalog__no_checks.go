@@ -103,6 +103,10 @@ func (j *jsiiProxy_GoogleBiglakeCatalog) validateSetCountParameters(val interfac
 	return nil
 }
 
+func (j *jsiiProxy_GoogleBiglakeCatalog) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleBiglakeCatalog) validateSetIdParameters(val *string) error {
 	return nil
 }

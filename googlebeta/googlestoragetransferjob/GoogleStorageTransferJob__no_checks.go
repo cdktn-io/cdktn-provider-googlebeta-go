@@ -123,6 +123,10 @@ func (j *jsiiProxy_GoogleStorageTransferJob) validateSetCountParameters(val inte
 	return nil
 }
 
+func (j *jsiiProxy_GoogleStorageTransferJob) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleStorageTransferJob) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

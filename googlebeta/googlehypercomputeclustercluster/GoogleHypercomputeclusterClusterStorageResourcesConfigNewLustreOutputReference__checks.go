@@ -206,6 +206,14 @@ func (j *jsiiProxy_GoogleHypercomputeclusterClusterStorageResourcesConfigNewLust
 	return nil
 }
 
+func (j *jsiiProxy_GoogleHypercomputeclusterClusterStorageResourcesConfigNewLustreOutputReference) validateSetPerUnitStorageThroughputParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_GoogleHypercomputeclusterClusterStorageResourcesConfigNewLustreOutputReference) validateSetTerraformAttributeParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

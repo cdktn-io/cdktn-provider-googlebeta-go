@@ -359,6 +359,14 @@ func (j *jsiiProxy_GoogleCertificateManagerCertificateIssuanceConfig) validateSe
 	return nil
 }
 
+func (j *jsiiProxy_GoogleCertificateManagerCertificateIssuanceConfig) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_GoogleCertificateManagerCertificateIssuanceConfig) validateSetDescriptionParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

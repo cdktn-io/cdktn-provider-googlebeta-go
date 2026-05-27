@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_volume_replication google_netapp_volume_replication}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_volume_replication google_netapp_volume_replication}.
 type GoogleNetappVolumeReplication interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -31,6 +31,9 @@ type GoogleNetappVolumeReplication interface {
 	DeleteDestinationVolume() interface{}
 	SetDeleteDestinationVolume(val interface{})
 	DeleteDestinationVolumeInput() interface{}
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -161,6 +164,7 @@ type GoogleNetappVolumeReplication interface {
 	PutDestinationVolumeParameters(value *GoogleNetappVolumeReplicationDestinationVolumeParameters)
 	PutTimeouts(value *GoogleNetappVolumeReplicationTimeouts)
 	ResetDeleteDestinationVolume()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetDestinationVolumeParameters()
 	ResetForceStopping()
@@ -265,6 +269,26 @@ func (j *jsiiProxy_GoogleNetappVolumeReplication) DeleteDestinationVolumeInput()
 	_jsii_.Get(
 		j,
 		"deleteDestinationVolumeInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleNetappVolumeReplication) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleNetappVolumeReplication) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -781,7 +805,7 @@ func (j *jsiiProxy_GoogleNetappVolumeReplication) WaitForMirrorInput() interface
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_volume_replication google_netapp_volume_replication} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_volume_replication google_netapp_volume_replication} Resource.
 func NewGoogleNetappVolumeReplication(scope constructs.Construct, id *string, config *GoogleNetappVolumeReplicationConfig) GoogleNetappVolumeReplication {
 	_init_.Initialize()
 
@@ -799,7 +823,7 @@ func NewGoogleNetappVolumeReplication(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_volume_replication google_netapp_volume_replication} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_volume_replication google_netapp_volume_replication} Resource.
 func NewGoogleNetappVolumeReplication_Override(g GoogleNetappVolumeReplication, scope constructs.Construct, id *string, config *GoogleNetappVolumeReplicationConfig) {
 	_init_.Initialize()
 
@@ -839,6 +863,17 @@ func (j *jsiiProxy_GoogleNetappVolumeReplication)SetDeleteDestinationVolume(val 
 	_jsii_.Set(
 		j,
 		"deleteDestinationVolume",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleNetappVolumeReplication)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1389,6 +1424,14 @@ func (g *jsiiProxy_GoogleNetappVolumeReplication) ResetDeleteDestinationVolume()
 	_jsii_.InvokeVoid(
 		g,
 		"resetDeleteDestinationVolume",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleNetappVolumeReplication) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

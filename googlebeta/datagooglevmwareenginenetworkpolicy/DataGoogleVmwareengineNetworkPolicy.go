@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_vmwareengine_network_policy google_vmwareengine_network_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/data-sources/google_vmwareengine_network_policy google_vmwareengine_network_policy}.
 type DataGoogleVmwareengineNetworkPolicy interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -24,6 +24,7 @@ type DataGoogleVmwareengineNetworkPolicy interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -167,6 +168,16 @@ func (j *jsiiProxy_DataGoogleVmwareengineNetworkPolicy) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleVmwareengineNetworkPolicy) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
 		&returns,
 	)
 	return returns
@@ -443,7 +454,7 @@ func (j *jsiiProxy_DataGoogleVmwareengineNetworkPolicy) VmwareEngineNetworkCanon
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_vmwareengine_network_policy google_vmwareengine_network_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/data-sources/google_vmwareengine_network_policy google_vmwareengine_network_policy} Data Source.
 func NewDataGoogleVmwareengineNetworkPolicy(scope constructs.Construct, id *string, config *DataGoogleVmwareengineNetworkPolicyConfig) DataGoogleVmwareengineNetworkPolicy {
 	_init_.Initialize()
 
@@ -461,7 +472,7 @@ func NewDataGoogleVmwareengineNetworkPolicy(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_vmwareengine_network_policy google_vmwareengine_network_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/data-sources/google_vmwareengine_network_policy google_vmwareengine_network_policy} Data Source.
 func NewDataGoogleVmwareengineNetworkPolicy_Override(d DataGoogleVmwareengineNetworkPolicy, scope constructs.Construct, id *string, config *DataGoogleVmwareengineNetworkPolicyConfig) {
 	_init_.Initialize()
 

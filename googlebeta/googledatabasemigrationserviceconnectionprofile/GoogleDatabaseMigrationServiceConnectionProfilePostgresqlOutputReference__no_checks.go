@@ -47,6 +47,10 @@ func (g *jsiiProxy_GoogleDatabaseMigrationServiceConnectionProfilePostgresqlOutp
 	return nil
 }
 
+func (g *jsiiProxy_GoogleDatabaseMigrationServiceConnectionProfilePostgresqlOutputReference) validatePutPrivateConnectivityParameters(value *GoogleDatabaseMigrationServiceConnectionProfilePostgresqlPrivateConnectivity) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleDatabaseMigrationServiceConnectionProfilePostgresqlOutputReference) validatePutSslParameters(value *GoogleDatabaseMigrationServiceConnectionProfilePostgresqlSsl) error {
 	return nil
 }
@@ -68,6 +72,10 @@ func (j *jsiiProxy_GoogleDatabaseMigrationServiceConnectionProfilePostgresqlOutp
 }
 
 func (j *jsiiProxy_GoogleDatabaseMigrationServiceConnectionProfilePostgresqlOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleDatabaseMigrationServiceConnectionProfilePostgresqlOutputReference) validateSetDatabaseParameters(val *string) error {
 	return nil
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_security_gateway_security_policy_rule google_network_security_gateway_security_policy_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_security_gateway_security_policy_rule google_network_security_gateway_security_policy_rule}.
 type GoogleNetworkSecurityGatewaySecurityPolicyRule interface {
 	cdktn.TerraformResource
 	ApplicationMatcher() *string
@@ -34,6 +34,9 @@ type GoogleNetworkSecurityGatewaySecurityPolicyRule interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -147,6 +150,7 @@ type GoogleNetworkSecurityGatewaySecurityPolicyRule interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *GoogleNetworkSecurityGatewaySecurityPolicyRuleTimeouts)
 	ResetApplicationMatcher()
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -267,6 +271,26 @@ func (j *jsiiProxy_GoogleNetworkSecurityGatewaySecurityPolicyRule) CreateTime() 
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleNetworkSecurityGatewaySecurityPolicyRule) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleNetworkSecurityGatewaySecurityPolicyRule) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -633,7 +657,7 @@ func (j *jsiiProxy_GoogleNetworkSecurityGatewaySecurityPolicyRule) UpdateTime() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_security_gateway_security_policy_rule google_network_security_gateway_security_policy_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_security_gateway_security_policy_rule google_network_security_gateway_security_policy_rule} Resource.
 func NewGoogleNetworkSecurityGatewaySecurityPolicyRule(scope constructs.Construct, id *string, config *GoogleNetworkSecurityGatewaySecurityPolicyRuleConfig) GoogleNetworkSecurityGatewaySecurityPolicyRule {
 	_init_.Initialize()
 
@@ -651,7 +675,7 @@ func NewGoogleNetworkSecurityGatewaySecurityPolicyRule(scope constructs.Construc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_security_gateway_security_policy_rule google_network_security_gateway_security_policy_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_security_gateway_security_policy_rule google_network_security_gateway_security_policy_rule} Resource.
 func NewGoogleNetworkSecurityGatewaySecurityPolicyRule_Override(g GoogleNetworkSecurityGatewaySecurityPolicyRule, scope constructs.Construct, id *string, config *GoogleNetworkSecurityGatewaySecurityPolicyRuleConfig) {
 	_init_.Initialize()
 
@@ -702,6 +726,17 @@ func (j *jsiiProxy_GoogleNetworkSecurityGatewaySecurityPolicyRule)SetCount(val i
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleNetworkSecurityGatewaySecurityPolicyRule)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1230,6 +1265,14 @@ func (g *jsiiProxy_GoogleNetworkSecurityGatewaySecurityPolicyRule) ResetApplicat
 	_jsii_.InvokeVoid(
 		g,
 		"resetApplicationMatcher",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleNetworkSecurityGatewaySecurityPolicyRule) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
 		nil, // no parameters
 	)
 }

@@ -107,6 +107,10 @@ func (j *jsiiProxy_GoogleVertexAiTensorboard) validateSetCountParameters(val int
 	return nil
 }
 
+func (j *jsiiProxy_GoogleVertexAiTensorboard) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleVertexAiTensorboard) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

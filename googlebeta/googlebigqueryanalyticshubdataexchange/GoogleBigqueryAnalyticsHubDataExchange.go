@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_bigquery_analytics_hub_data_exchange google_bigquery_analytics_hub_data_exchange}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_bigquery_analytics_hub_data_exchange google_bigquery_analytics_hub_data_exchange}.
 type GoogleBigqueryAnalyticsHubDataExchange interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -30,6 +30,9 @@ type GoogleBigqueryAnalyticsHubDataExchange interface {
 	DataExchangeId() *string
 	SetDataExchangeId(val *string)
 	DataExchangeIdInput() *string
+	DeletionPolicy() *string
+	SetDeletionPolicy(val *string)
+	DeletionPolicyInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -145,6 +148,7 @@ type GoogleBigqueryAnalyticsHubDataExchange interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutSharingEnvironmentConfig(value *GoogleBigqueryAnalyticsHubDataExchangeSharingEnvironmentConfig)
 	PutTimeouts(value *GoogleBigqueryAnalyticsHubDataExchangeTimeouts)
+	ResetDeletionPolicy()
 	ResetDescription()
 	ResetDiscoveryType()
 	ResetDocumentation()
@@ -240,6 +244,26 @@ func (j *jsiiProxy_GoogleBigqueryAnalyticsHubDataExchange) DataExchangeIdInput()
 	_jsii_.Get(
 		j,
 		"dataExchangeIdInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleBigqueryAnalyticsHubDataExchange) DeletionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleBigqueryAnalyticsHubDataExchange) DeletionPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deletionPolicyInput",
 		&returns,
 	)
 	return returns
@@ -626,7 +650,7 @@ func (j *jsiiProxy_GoogleBigqueryAnalyticsHubDataExchange) TimeoutsInput() inter
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_bigquery_analytics_hub_data_exchange google_bigquery_analytics_hub_data_exchange} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_bigquery_analytics_hub_data_exchange google_bigquery_analytics_hub_data_exchange} Resource.
 func NewGoogleBigqueryAnalyticsHubDataExchange(scope constructs.Construct, id *string, config *GoogleBigqueryAnalyticsHubDataExchangeConfig) GoogleBigqueryAnalyticsHubDataExchange {
 	_init_.Initialize()
 
@@ -644,7 +668,7 @@ func NewGoogleBigqueryAnalyticsHubDataExchange(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_bigquery_analytics_hub_data_exchange google_bigquery_analytics_hub_data_exchange} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_bigquery_analytics_hub_data_exchange google_bigquery_analytics_hub_data_exchange} Resource.
 func NewGoogleBigqueryAnalyticsHubDataExchange_Override(g GoogleBigqueryAnalyticsHubDataExchange, scope constructs.Construct, id *string, config *GoogleBigqueryAnalyticsHubDataExchangeConfig) {
 	_init_.Initialize()
 
@@ -684,6 +708,17 @@ func (j *jsiiProxy_GoogleBigqueryAnalyticsHubDataExchange)SetDataExchangeId(val 
 	_jsii_.Set(
 		j,
 		"dataExchangeId",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleBigqueryAnalyticsHubDataExchange)SetDeletionPolicy(val *string) {
+	if err := j.validateSetDeletionPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionPolicy",
 		val,
 	)
 }
@@ -1216,6 +1251,14 @@ func (g *jsiiProxy_GoogleBigqueryAnalyticsHubDataExchange) PutTimeouts(value *Go
 		g,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleBigqueryAnalyticsHubDataExchange) ResetDeletionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeletionPolicy",
+		nil, // no parameters
 	)
 }
 

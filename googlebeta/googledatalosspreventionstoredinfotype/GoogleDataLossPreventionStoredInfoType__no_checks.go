@@ -115,6 +115,10 @@ func (j *jsiiProxy_GoogleDataLossPreventionStoredInfoType) validateSetCountParam
 	return nil
 }
 
+func (j *jsiiProxy_GoogleDataLossPreventionStoredInfoType) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleDataLossPreventionStoredInfoType) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

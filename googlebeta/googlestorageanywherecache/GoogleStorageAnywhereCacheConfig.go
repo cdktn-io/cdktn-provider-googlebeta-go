@@ -24,34 +24,46 @@ type GoogleStorageAnywhereCacheConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// A reference to Bucket resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_storage_anywhere_cache#bucket GoogleStorageAnywhereCache#bucket}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_storage_anywhere_cache#bucket GoogleStorageAnywhereCache#bucket}
 	Bucket *string `field:"required" json:"bucket" yaml:"bucket"`
 	// The zone in which the cache instance needs to be created. For example, 'us-central1-a.'.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_storage_anywhere_cache#zone GoogleStorageAnywhereCache#zone}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_storage_anywhere_cache#zone GoogleStorageAnywhereCache#zone}
 	Zone *string `field:"required" json:"zone" yaml:"zone"`
 	// The cache admission policy dictates whether a block should be inserted upon a cache miss.
 	//
 	// Default value: "admit-on-first-miss" Possible values: ["admit-on-first-miss", "admit-on-second-miss"]
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_storage_anywhere_cache#admission_policy GoogleStorageAnywhereCache#admission_policy}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_storage_anywhere_cache#admission_policy GoogleStorageAnywhereCache#admission_policy}
 	AdmissionPolicy *string `field:"optional" json:"admissionPolicy" yaml:"admissionPolicy"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_storage_anywhere_cache#id GoogleStorageAnywhereCache#id}.
+	// Whether Terraform will be prevented from destroying the instance.
+	//
+	// Defaults to "DELETE".
+	// When a 'terraform destroy' or 'terraform apply' would delete the instance,
+	// the command will fail if this field is set to "PREVENT" in Terraform state.
+	// When set to "ABANDON", the command will remove the resource from Terraform
+	// management without updating or deleting the resource in the API.
+	// When set to "DELETE", deleting the resource is allowed.
+	//
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_storage_anywhere_cache#deletion_policy GoogleStorageAnywhereCache#deletion_policy}
+	DeletionPolicy *string `field:"optional" json:"deletionPolicy" yaml:"deletionPolicy"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_storage_anywhere_cache#id GoogleStorageAnywhereCache#id}.
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
 	Id *string `field:"optional" json:"id" yaml:"id"`
 	// Whether or not the cache ingests data as the data is written to the bucket.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_storage_anywhere_cache#ingest_on_write GoogleStorageAnywhereCache#ingest_on_write}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_storage_anywhere_cache#ingest_on_write GoogleStorageAnywhereCache#ingest_on_write}
 	IngestOnWrite interface{} `field:"optional" json:"ingestOnWrite" yaml:"ingestOnWrite"`
 	// timeouts block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_storage_anywhere_cache#timeouts GoogleStorageAnywhereCache#timeouts}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_storage_anywhere_cache#timeouts GoogleStorageAnywhereCache#timeouts}
 	Timeouts *GoogleStorageAnywhereCacheTimeouts `field:"optional" json:"timeouts" yaml:"timeouts"`
 	// The TTL of all cache entries in whole seconds. e.g., "7200s". It defaults to '86400s'.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_storage_anywhere_cache#ttl GoogleStorageAnywhereCache#ttl}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_storage_anywhere_cache#ttl GoogleStorageAnywhereCache#ttl}
 	Ttl *string `field:"optional" json:"ttl" yaml:"ttl"`
 }
 

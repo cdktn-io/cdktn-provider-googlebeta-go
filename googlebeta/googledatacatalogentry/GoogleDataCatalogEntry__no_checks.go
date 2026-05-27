@@ -107,6 +107,10 @@ func (j *jsiiProxy_GoogleDataCatalogEntry) validateSetCountParameters(val interf
 	return nil
 }
 
+func (j *jsiiProxy_GoogleDataCatalogEntry) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleDataCatalogEntry) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

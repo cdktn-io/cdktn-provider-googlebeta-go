@@ -119,6 +119,10 @@ func (j *jsiiProxy_GoogleCloudIdentityGroupMembership) validateSetCreateIgnoreAl
 	return nil
 }
 
+func (j *jsiiProxy_GoogleCloudIdentityGroupMembership) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleCloudIdentityGroupMembership) validateSetGroupParameters(val *string) error {
 	return nil
 }

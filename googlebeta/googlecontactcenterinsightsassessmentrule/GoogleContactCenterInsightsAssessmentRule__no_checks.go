@@ -119,6 +119,10 @@ func (j *jsiiProxy_GoogleContactCenterInsightsAssessmentRule) validateSetCountPa
 	return nil
 }
 
+func (j *jsiiProxy_GoogleContactCenterInsightsAssessmentRule) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleContactCenterInsightsAssessmentRule) validateSetDisplayNameParameters(val *string) error {
 	return nil
 }

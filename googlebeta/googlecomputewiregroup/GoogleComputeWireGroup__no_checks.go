@@ -123,6 +123,10 @@ func (j *jsiiProxy_GoogleComputeWireGroup) validateSetCrossSiteNetworkParameters
 	return nil
 }
 
+func (j *jsiiProxy_GoogleComputeWireGroup) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleComputeWireGroup) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

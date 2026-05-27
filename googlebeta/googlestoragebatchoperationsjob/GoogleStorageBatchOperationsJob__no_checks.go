@@ -127,6 +127,14 @@ func (j *jsiiProxy_GoogleStorageBatchOperationsJob) validateSetDeleteProtectionP
 	return nil
 }
 
+func (j *jsiiProxy_GoogleStorageBatchOperationsJob) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleStorageBatchOperationsJob) validateSetDescriptionParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleStorageBatchOperationsJob) validateSetIdParameters(val *string) error {
 	return nil
 }
