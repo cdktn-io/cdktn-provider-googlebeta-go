@@ -103,6 +103,10 @@ func (g *jsiiProxy_GoogleDialogflowConversationProfile) validatePutNotificationC
 	return nil
 }
 
+func (g *jsiiProxy_GoogleDialogflowConversationProfile) validatePutSipConfigParameters(value *GoogleDialogflowConversationProfileSipConfig) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleDialogflowConversationProfile) validatePutSttConfigParameters(value *GoogleDialogflowConversationProfileSttConfig) error {
 	return nil
 }

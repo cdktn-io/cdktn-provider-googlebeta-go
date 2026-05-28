@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_organization_iam_custom_role google_organization_iam_custom_role}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_organization_iam_custom_role google_organization_iam_custom_role}.
 type GoogleOrganizationIamCustomRole interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -505,7 +505,7 @@ func (j *jsiiProxy_GoogleOrganizationIamCustomRole) TitleInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_organization_iam_custom_role google_organization_iam_custom_role} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_organization_iam_custom_role google_organization_iam_custom_role} Resource.
 func NewGoogleOrganizationIamCustomRole(scope constructs.Construct, id *string, config *GoogleOrganizationIamCustomRoleConfig) GoogleOrganizationIamCustomRole {
 	_init_.Initialize()
 
@@ -523,7 +523,7 @@ func NewGoogleOrganizationIamCustomRole(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_organization_iam_custom_role google_organization_iam_custom_role} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_organization_iam_custom_role google_organization_iam_custom_role} Resource.
 func NewGoogleOrganizationIamCustomRole_Override(g GoogleOrganizationIamCustomRole, scope constructs.Construct, id *string, config *GoogleOrganizationIamCustomRoleConfig) {
 	_init_.Initialize()
 

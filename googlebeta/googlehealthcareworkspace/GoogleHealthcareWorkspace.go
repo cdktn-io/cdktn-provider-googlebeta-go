@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_healthcare_workspace google_healthcare_workspace}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_healthcare_workspace google_healthcare_workspace}.
 type GoogleHealthcareWorkspace interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -482,7 +482,7 @@ func (j *jsiiProxy_GoogleHealthcareWorkspace) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_healthcare_workspace google_healthcare_workspace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_healthcare_workspace google_healthcare_workspace} Resource.
 func NewGoogleHealthcareWorkspace(scope constructs.Construct, id *string, config *GoogleHealthcareWorkspaceConfig) GoogleHealthcareWorkspace {
 	_init_.Initialize()
 
@@ -500,7 +500,7 @@ func NewGoogleHealthcareWorkspace(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_healthcare_workspace google_healthcare_workspace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_healthcare_workspace google_healthcare_workspace} Resource.
 func NewGoogleHealthcareWorkspace_Override(g GoogleHealthcareWorkspace, scope constructs.Construct, id *string, config *GoogleHealthcareWorkspaceConfig) {
 	_init_.Initialize()
 

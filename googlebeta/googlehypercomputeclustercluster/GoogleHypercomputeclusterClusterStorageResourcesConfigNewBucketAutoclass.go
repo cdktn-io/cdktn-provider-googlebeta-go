@@ -7,11 +7,11 @@ package googlehypercomputeclustercluster
 type GoogleHypercomputeclusterClusterStorageResourcesConfigNewBucketAutoclass struct {
 	// Enables Auto-class feature.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_hypercomputecluster_cluster#enabled GoogleHypercomputeclusterCluster#enabled}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_hypercomputecluster_cluster#enabled GoogleHypercomputeclusterCluster#enabled}
 	Enabled interface{} `field:"required" json:"enabled" yaml:"enabled"`
 	// Terminal storage class of the autoclass bucket Possible values: NEARLINE ARCHIVE.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_hypercomputecluster_cluster#terminal_storage_class GoogleHypercomputeclusterCluster#terminal_storage_class}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_hypercomputecluster_cluster#terminal_storage_class GoogleHypercomputeclusterCluster#terminal_storage_class}
 	TerminalStorageClass *string `field:"optional" json:"terminalStorageClass" yaml:"terminalStorageClass"`
 }
 

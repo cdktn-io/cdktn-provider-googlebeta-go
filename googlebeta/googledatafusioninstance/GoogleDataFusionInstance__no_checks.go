@@ -87,6 +87,10 @@ func (g *jsiiProxy_GoogleDataFusionInstance) validatePutEventPublishConfigParame
 	return nil
 }
 
+func (g *jsiiProxy_GoogleDataFusionInstance) validatePutMaintenancePolicyParameters(value *GoogleDataFusionInstanceMaintenancePolicy) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleDataFusionInstance) validatePutNetworkConfigParameters(value *GoogleDataFusionInstanceNetworkConfig) error {
 	return nil
 }

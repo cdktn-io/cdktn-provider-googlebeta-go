@@ -15,6 +15,7 @@ type DataGoogleComputeInstanceTemplateNetworkInterfaceOutputReference interface 
 	cdktn.ComplexObject
 	AccessConfig() DataGoogleComputeInstanceTemplateNetworkInterfaceAccessConfigList
 	AliasIpRange() DataGoogleComputeInstanceTemplateNetworkInterfaceAliasIpRangeList
+	AliasIpv6Range() DataGoogleComputeInstanceTemplateNetworkInterfaceAliasIpv6RangeList
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -112,6 +113,16 @@ func (j *jsiiProxy_DataGoogleComputeInstanceTemplateNetworkInterfaceOutputRefere
 	_jsii_.Get(
 		j,
 		"aliasIpRange",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleComputeInstanceTemplateNetworkInterfaceOutputReference) AliasIpv6Range() DataGoogleComputeInstanceTemplateNetworkInterfaceAliasIpv6RangeList {
+	var returns DataGoogleComputeInstanceTemplateNetworkInterfaceAliasIpv6RangeList
+	_jsii_.Get(
+		j,
+		"aliasIpv6Range",
 		&returns,
 	)
 	return returns

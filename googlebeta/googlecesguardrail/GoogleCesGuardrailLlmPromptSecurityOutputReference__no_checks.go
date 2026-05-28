@@ -67,6 +67,10 @@ func (j *jsiiProxy_GoogleCesGuardrailLlmPromptSecurityOutputReference) validateS
 	return nil
 }
 
+func (j *jsiiProxy_GoogleCesGuardrailLlmPromptSecurityOutputReference) validateSetFailOpenParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleCesGuardrailLlmPromptSecurityOutputReference) validateSetInternalValueParameters(val *GoogleCesGuardrailLlmPromptSecurity) error {
 	return nil
 }

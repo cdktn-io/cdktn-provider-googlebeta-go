@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_oracle_database_cloud_vm_cluster google_oracle_database_cloud_vm_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_oracle_database_cloud_vm_cluster google_oracle_database_cloud_vm_cluster}.
 type GoogleOracleDatabaseCloudVmCluster interface {
 	cdktn.TerraformResource
 	BackupOdbSubnet() *string
@@ -68,6 +68,7 @@ type GoogleOracleDatabaseCloudVmCluster interface {
 	GcpOracleZone() *string
 	Id() *string
 	SetId(val *string)
+	IdentityConnector() GoogleOracleDatabaseCloudVmClusterIdentityConnectorList
 	IdInput() *string
 	Labels() *map[string]*string
 	SetLabels(val *map[string]*string)
@@ -484,6 +485,16 @@ func (j *jsiiProxy_GoogleOracleDatabaseCloudVmCluster) Id() *string {
 	return returns
 }
 
+func (j *jsiiProxy_GoogleOracleDatabaseCloudVmCluster) IdentityConnector() GoogleOracleDatabaseCloudVmClusterIdentityConnectorList {
+	var returns GoogleOracleDatabaseCloudVmClusterIdentityConnectorList
+	_jsii_.Get(
+		j,
+		"identityConnector",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleOracleDatabaseCloudVmCluster) IdInput() *string {
 	var returns *string
 	_jsii_.Get(
@@ -755,7 +766,7 @@ func (j *jsiiProxy_GoogleOracleDatabaseCloudVmCluster) TimeoutsInput() interface
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_oracle_database_cloud_vm_cluster google_oracle_database_cloud_vm_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_oracle_database_cloud_vm_cluster google_oracle_database_cloud_vm_cluster} Resource.
 func NewGoogleOracleDatabaseCloudVmCluster(scope constructs.Construct, id *string, config *GoogleOracleDatabaseCloudVmClusterConfig) GoogleOracleDatabaseCloudVmCluster {
 	_init_.Initialize()
 
@@ -773,7 +784,7 @@ func NewGoogleOracleDatabaseCloudVmCluster(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_oracle_database_cloud_vm_cluster google_oracle_database_cloud_vm_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_oracle_database_cloud_vm_cluster google_oracle_database_cloud_vm_cluster} Resource.
 func NewGoogleOracleDatabaseCloudVmCluster_Override(g GoogleOracleDatabaseCloudVmCluster, scope constructs.Construct, id *string, config *GoogleOracleDatabaseCloudVmClusterConfig) {
 	_init_.Initialize()
 

@@ -62,6 +62,9 @@ type GoogleContainerClusterNodePoolNodeConfigOutputReference interface {
 	Fqn() *string
 	GcfsConfig() GoogleContainerClusterNodePoolNodeConfigGcfsConfigOutputReference
 	GcfsConfigInput() *GoogleContainerClusterNodePoolNodeConfigGcfsConfig
+	GpudirectStrategy() *string
+	SetGpudirectStrategy(val *string)
+	GpudirectStrategyInput() *string
 	GuestAccelerator() GoogleContainerClusterNodePoolNodeConfigGuestAcceleratorList
 	GuestAcceleratorInput() interface{}
 	Gvnic() GoogleContainerClusterNodePoolNodeConfigGvnicOutputReference
@@ -213,6 +216,7 @@ type GoogleContainerClusterNodePoolNodeConfigOutputReference interface {
 	ResetFastSocket()
 	ResetFlexStart()
 	ResetGcfsConfig()
+	ResetGpudirectStrategy()
 	ResetGuestAccelerator()
 	ResetGvnic()
 	ResetHostMaintenancePolicy()
@@ -565,6 +569,26 @@ func (j *jsiiProxy_GoogleContainerClusterNodePoolNodeConfigOutputReference) Gcfs
 	_jsii_.Get(
 		j,
 		"gcfsConfigInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleContainerClusterNodePoolNodeConfigOutputReference) GpudirectStrategy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"gpudirectStrategy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleContainerClusterNodePoolNodeConfigOutputReference) GpudirectStrategyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"gpudirectStrategyInput",
 		&returns,
 	)
 	return returns
@@ -1345,6 +1369,17 @@ func (j *jsiiProxy_GoogleContainerClusterNodePoolNodeConfigOutputReference)SetFl
 	)
 }
 
+func (j *jsiiProxy_GoogleContainerClusterNodePoolNodeConfigOutputReference)SetGpudirectStrategy(val *string) {
+	if err := j.validateSetGpudirectStrategyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"gpudirectStrategy",
+		val,
+	)
+}
+
 func (j *jsiiProxy_GoogleContainerClusterNodePoolNodeConfigOutputReference)SetImageType(val *string) {
 	if err := j.validateSetImageTypeParameters(val); err != nil {
 		panic(err)
@@ -2104,6 +2139,14 @@ func (g *jsiiProxy_GoogleContainerClusterNodePoolNodeConfigOutputReference) Rese
 	_jsii_.InvokeVoid(
 		g,
 		"resetGcfsConfig",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleContainerClusterNodePoolNodeConfigOutputReference) ResetGpudirectStrategy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetGpudirectStrategy",
 		nil, // no parameters
 	)
 }

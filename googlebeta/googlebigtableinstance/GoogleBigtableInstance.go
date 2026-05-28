@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_bigtable_instance google_bigtable_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_bigtable_instance google_bigtable_instance}.
 type GoogleBigtableInstance interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -42,6 +42,9 @@ type GoogleBigtableInstance interface {
 	DisplayName() *string
 	SetDisplayName(val *string)
 	DisplayNameInput() *string
+	Edition() *string
+	SetEdition(val *string)
+	EditionInput() *string
 	EffectiveLabels() cdktn.StringMap
 	ForceDestroy() interface{}
 	SetForceDestroy(val interface{})
@@ -146,6 +149,7 @@ type GoogleBigtableInstance interface {
 	ResetDeletionPolicy()
 	ResetDeletionProtection()
 	ResetDisplayName()
+	ResetEdition()
 	ResetForceDestroy()
 	ResetId()
 	ResetInstanceType()
@@ -308,6 +312,26 @@ func (j *jsiiProxy_GoogleBigtableInstance) DisplayNameInput() *string {
 	_jsii_.Get(
 		j,
 		"displayNameInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleBigtableInstance) Edition() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"edition",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleBigtableInstance) EditionInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"editionInput",
 		&returns,
 	)
 	return returns
@@ -604,7 +628,7 @@ func (j *jsiiProxy_GoogleBigtableInstance) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_bigtable_instance google_bigtable_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_bigtable_instance google_bigtable_instance} Resource.
 func NewGoogleBigtableInstance(scope constructs.Construct, id *string, config *GoogleBigtableInstanceConfig) GoogleBigtableInstance {
 	_init_.Initialize()
 
@@ -622,7 +646,7 @@ func NewGoogleBigtableInstance(scope constructs.Construct, id *string, config *G
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_bigtable_instance google_bigtable_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_bigtable_instance google_bigtable_instance} Resource.
 func NewGoogleBigtableInstance_Override(g GoogleBigtableInstance, scope constructs.Construct, id *string, config *GoogleBigtableInstanceConfig) {
 	_init_.Initialize()
 
@@ -692,6 +716,17 @@ func (j *jsiiProxy_GoogleBigtableInstance)SetDisplayName(val *string) {
 	_jsii_.Set(
 		j,
 		"displayName",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleBigtableInstance)SetEdition(val *string) {
+	if err := j.validateSetEditionParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"edition",
 		val,
 	)
 }
@@ -1214,6 +1249,14 @@ func (g *jsiiProxy_GoogleBigtableInstance) ResetDisplayName() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetDisplayName",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleBigtableInstance) ResetEdition() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetEdition",
 		nil, // no parameters
 	)
 }

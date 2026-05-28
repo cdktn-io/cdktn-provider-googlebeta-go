@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataplex_data_product google_dataplex_data_product}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_dataplex_data_product google_dataplex_data_product}.
 type GoogleDataplexDataProduct interface {
 	cdktn.TerraformResource
 	AccessGroups() GoogleDataplexDataProductAccessGroupsList
@@ -632,7 +632,7 @@ func (j *jsiiProxy_GoogleDataplexDataProduct) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataplex_data_product google_dataplex_data_product} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_dataplex_data_product google_dataplex_data_product} Resource.
 func NewGoogleDataplexDataProduct(scope constructs.Construct, id *string, config *GoogleDataplexDataProductConfig) GoogleDataplexDataProduct {
 	_init_.Initialize()
 
@@ -650,7 +650,7 @@ func NewGoogleDataplexDataProduct(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataplex_data_product google_dataplex_data_product} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_dataplex_data_product google_dataplex_data_product} Resource.
 func NewGoogleDataplexDataProduct_Override(g GoogleDataplexDataProduct, scope constructs.Construct, id *string, config *GoogleDataplexDataProductConfig) {
 	_init_.Initialize()
 

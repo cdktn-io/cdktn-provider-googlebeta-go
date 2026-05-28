@@ -131,6 +131,10 @@ func (j *jsiiProxy_GoogleComputeRegionSslPolicy) validateSetNameParameters(val *
 	return nil
 }
 
+func (j *jsiiProxy_GoogleComputeRegionSslPolicy) validateSetPostQuantumKeyExchangeParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleComputeRegionSslPolicy) validateSetProfileParameters(val *string) error {
 	return nil
 }

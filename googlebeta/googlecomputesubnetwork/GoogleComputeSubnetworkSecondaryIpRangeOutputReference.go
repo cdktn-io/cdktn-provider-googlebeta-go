@@ -35,6 +35,12 @@ type GoogleComputeSubnetworkSecondaryIpRangeOutputReference interface {
 	IpCidrRange() *string
 	SetIpCidrRange(val *string)
 	IpCidrRangeInput() *string
+	IpCollection() *string
+	SetIpCollection(val *string)
+	IpCollectionInput() *string
+	IpVersion() *string
+	SetIpVersion(val *string)
+	IpVersionInput() *string
 	RangeName() *string
 	SetRangeName(val *string)
 	RangeNameInput() *string
@@ -74,6 +80,8 @@ type GoogleComputeSubnetworkSecondaryIpRangeOutputReference interface {
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetIpCidrRange()
+	ResetIpCollection()
+	ResetIpVersion()
 	ResetReservedInternalRange()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -155,6 +163,46 @@ func (j *jsiiProxy_GoogleComputeSubnetworkSecondaryIpRangeOutputReference) IpCid
 	_jsii_.Get(
 		j,
 		"ipCidrRangeInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeSubnetworkSecondaryIpRangeOutputReference) IpCollection() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"ipCollection",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeSubnetworkSecondaryIpRangeOutputReference) IpCollectionInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"ipCollectionInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeSubnetworkSecondaryIpRangeOutputReference) IpVersion() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"ipVersion",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeSubnetworkSecondaryIpRangeOutputReference) IpVersionInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"ipVersionInput",
 		&returns,
 	)
 	return returns
@@ -288,6 +336,28 @@ func (j *jsiiProxy_GoogleComputeSubnetworkSecondaryIpRangeOutputReference)SetIpC
 	_jsii_.Set(
 		j,
 		"ipCidrRange",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleComputeSubnetworkSecondaryIpRangeOutputReference)SetIpCollection(val *string) {
+	if err := j.validateSetIpCollectionParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"ipCollection",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleComputeSubnetworkSecondaryIpRangeOutputReference)SetIpVersion(val *string) {
+	if err := j.validateSetIpVersionParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"ipVersion",
 		val,
 	)
 }
@@ -526,6 +596,22 @@ func (g *jsiiProxy_GoogleComputeSubnetworkSecondaryIpRangeOutputReference) Reset
 	_jsii_.InvokeVoid(
 		g,
 		"resetIpCidrRange",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleComputeSubnetworkSecondaryIpRangeOutputReference) ResetIpCollection() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetIpCollection",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleComputeSubnetworkSecondaryIpRangeOutputReference) ResetIpVersion() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetIpVersion",
 		nil, // no parameters
 	)
 }

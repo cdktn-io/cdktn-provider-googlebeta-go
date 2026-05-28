@@ -32,6 +32,9 @@ type GoogleCesGuardrailLlmPromptSecurityOutputReference interface {
 	CustomPolicyInput() *GoogleCesGuardrailLlmPromptSecurityCustomPolicy
 	DefaultSettings() GoogleCesGuardrailLlmPromptSecurityDefaultSettingsOutputReference
 	DefaultSettingsInput() *GoogleCesGuardrailLlmPromptSecurityDefaultSettings
+	FailOpen() interface{}
+	SetFailOpen(val interface{})
+	FailOpenInput() interface{}
 	// Experimental.
 	Fqn() *string
 	InternalValue() *GoogleCesGuardrailLlmPromptSecurity
@@ -72,6 +75,7 @@ type GoogleCesGuardrailLlmPromptSecurityOutputReference interface {
 	PutDefaultSettings(value *GoogleCesGuardrailLlmPromptSecurityDefaultSettings)
 	ResetCustomPolicy()
 	ResetDefaultSettings()
+	ResetFailOpen()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -152,6 +156,26 @@ func (j *jsiiProxy_GoogleCesGuardrailLlmPromptSecurityOutputReference) DefaultSe
 	_jsii_.Get(
 		j,
 		"defaultSettingsInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCesGuardrailLlmPromptSecurityOutputReference) FailOpen() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"failOpen",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCesGuardrailLlmPromptSecurityOutputReference) FailOpenInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"failOpenInput",
 		&returns,
 	)
 	return returns
@@ -243,6 +267,17 @@ func (j *jsiiProxy_GoogleCesGuardrailLlmPromptSecurityOutputReference)SetComplex
 	_jsii_.Set(
 		j,
 		"complexObjectIsFromSet",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleCesGuardrailLlmPromptSecurityOutputReference)SetFailOpen(val interface{}) {
+	if err := j.validateSetFailOpenParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"failOpen",
 		val,
 	)
 }
@@ -500,6 +535,14 @@ func (g *jsiiProxy_GoogleCesGuardrailLlmPromptSecurityOutputReference) ResetDefa
 	_jsii_.InvokeVoid(
 		g,
 		"resetDefaultSettings",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleCesGuardrailLlmPromptSecurityOutputReference) ResetFailOpen() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetFailOpen",
 		nil, // no parameters
 	)
 }

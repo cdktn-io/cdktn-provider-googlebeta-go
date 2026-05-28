@@ -30,6 +30,7 @@ type GoogleCesAppVersionSnapshotGuardrailsLlmPromptSecurityOutputReference inter
 	CreationStack() *[]*string
 	CustomPolicy() GoogleCesAppVersionSnapshotGuardrailsLlmPromptSecurityCustomPolicyList
 	DefaultSettings() GoogleCesAppVersionSnapshotGuardrailsLlmPromptSecurityDefaultSettingsList
+	FailOpen() cdktn.IResolvable
 	// Experimental.
 	Fqn() *string
 	InternalValue() *GoogleCesAppVersionSnapshotGuardrailsLlmPromptSecurity
@@ -126,6 +127,16 @@ func (j *jsiiProxy_GoogleCesAppVersionSnapshotGuardrailsLlmPromptSecurityOutputR
 	_jsii_.Get(
 		j,
 		"defaultSettings",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCesAppVersionSnapshotGuardrailsLlmPromptSecurityOutputReference) FailOpen() cdktn.IResolvable {
+	var returns cdktn.IResolvable
+	_jsii_.Get(
+		j,
+		"failOpen",
 		&returns,
 	)
 	return returns

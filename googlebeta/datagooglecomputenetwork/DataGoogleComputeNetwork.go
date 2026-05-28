@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/data-sources/google_compute_network google_compute_network}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/data-sources/google_compute_network google_compute_network}.
 type DataGoogleComputeNetwork interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -65,6 +65,8 @@ type DataGoogleComputeNetwork interface {
 	// Experimental.
 	RawOverrides() interface{}
 	SelfLink() *string
+	SetSelfLink(val *string)
+	SelfLinkInput() *string
 	SubnetworksSelfLinks() *[]*string
 	// Experimental.
 	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
@@ -98,11 +100,13 @@ type DataGoogleComputeNetwork interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	ResetId()
+	ResetName()
 	ResetNetworkProfile()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
 	ResetProject()
+	ResetSelfLink()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
 	// Adds this resource to the terraform JSON output.
@@ -381,6 +385,16 @@ func (j *jsiiProxy_DataGoogleComputeNetwork) SelfLink() *string {
 	return returns
 }
 
+func (j *jsiiProxy_DataGoogleComputeNetwork) SelfLinkInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"selfLinkInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataGoogleComputeNetwork) SubnetworksSelfLinks() *[]*string {
 	var returns *[]*string
 	_jsii_.Get(
@@ -422,7 +436,7 @@ func (j *jsiiProxy_DataGoogleComputeNetwork) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/data-sources/google_compute_network google_compute_network} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/data-sources/google_compute_network google_compute_network} Data Source.
 func NewDataGoogleComputeNetwork(scope constructs.Construct, id *string, config *DataGoogleComputeNetworkConfig) DataGoogleComputeNetwork {
 	_init_.Initialize()
 
@@ -440,7 +454,7 @@ func NewDataGoogleComputeNetwork(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/data-sources/google_compute_network google_compute_network} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/data-sources/google_compute_network google_compute_network} Data Source.
 func NewDataGoogleComputeNetwork_Override(d DataGoogleComputeNetwork, scope constructs.Construct, id *string, config *DataGoogleComputeNetworkConfig) {
 	_init_.Initialize()
 
@@ -537,6 +551,17 @@ func (j *jsiiProxy_DataGoogleComputeNetwork)SetProvider(val cdktn.TerraformProvi
 	_jsii_.Set(
 		j,
 		"provider",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DataGoogleComputeNetwork)SetSelfLink(val *string) {
+	if err := j.validateSetSelfLinkParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"selfLink",
 		val,
 	)
 }
@@ -834,6 +859,14 @@ func (d *jsiiProxy_DataGoogleComputeNetwork) ResetId() {
 	)
 }
 
+func (d *jsiiProxy_DataGoogleComputeNetwork) ResetName() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetName",
+		nil, // no parameters
+	)
+}
+
 func (d *jsiiProxy_DataGoogleComputeNetwork) ResetNetworkProfile() {
 	_jsii_.InvokeVoid(
 		d,
@@ -854,6 +887,14 @@ func (d *jsiiProxy_DataGoogleComputeNetwork) ResetProject() {
 	_jsii_.InvokeVoid(
 		d,
 		"resetProject",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DataGoogleComputeNetwork) ResetSelfLink() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetSelfLink",
 		nil, // no parameters
 	)
 }

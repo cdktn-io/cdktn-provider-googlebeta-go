@@ -13,6 +13,7 @@ import (
 
 type GoogleFirebaseStorageDefaultBucketBucketOutputReference interface {
 	cdktn.ComplexObject
+	BucketId() *string
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -78,6 +79,16 @@ type GoogleFirebaseStorageDefaultBucketBucketOutputReference interface {
 // The jsii proxy struct for GoogleFirebaseStorageDefaultBucketBucketOutputReference
 type jsiiProxy_GoogleFirebaseStorageDefaultBucketBucketOutputReference struct {
 	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_GoogleFirebaseStorageDefaultBucketBucketOutputReference) BucketId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"bucketId",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_GoogleFirebaseStorageDefaultBucketBucketOutputReference) ComplexObjectIndex() interface{} {

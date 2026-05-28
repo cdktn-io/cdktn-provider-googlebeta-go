@@ -17,6 +17,8 @@ type GoogleComputeInstanceFromTemplateNetworkInterfaceOutputReference interface 
 	AccessConfigInput() interface{}
 	AliasIpRange() GoogleComputeInstanceFromTemplateNetworkInterfaceAliasIpRangeList
 	AliasIpRangeInput() interface{}
+	AliasIpv6Range() GoogleComputeInstanceFromTemplateNetworkInterfaceAliasIpv6RangeList
+	AliasIpv6RangeInput() interface{}
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -115,9 +117,11 @@ type GoogleComputeInstanceFromTemplateNetworkInterfaceOutputReference interface 
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutAccessConfig(value interface{})
 	PutAliasIpRange(value interface{})
+	PutAliasIpv6Range(value interface{})
 	PutIpv6AccessConfig(value interface{})
 	ResetAccessConfig()
 	ResetAliasIpRange()
+	ResetAliasIpv6Range()
 	ResetIgmpQuery()
 	ResetInternalIpv6PrefixLength()
 	ResetIpv6AccessConfig()
@@ -182,6 +186,26 @@ func (j *jsiiProxy_GoogleComputeInstanceFromTemplateNetworkInterfaceOutputRefere
 	_jsii_.Get(
 		j,
 		"aliasIpRangeInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeInstanceFromTemplateNetworkInterfaceOutputReference) AliasIpv6Range() GoogleComputeInstanceFromTemplateNetworkInterfaceAliasIpv6RangeList {
+	var returns GoogleComputeInstanceFromTemplateNetworkInterfaceAliasIpv6RangeList
+	_jsii_.Get(
+		j,
+		"aliasIpv6Range",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeInstanceFromTemplateNetworkInterfaceOutputReference) AliasIpv6RangeInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"aliasIpv6RangeInput",
 		&returns,
 	)
 	return returns
@@ -1011,6 +1035,17 @@ func (g *jsiiProxy_GoogleComputeInstanceFromTemplateNetworkInterfaceOutputRefere
 	)
 }
 
+func (g *jsiiProxy_GoogleComputeInstanceFromTemplateNetworkInterfaceOutputReference) PutAliasIpv6Range(value interface{}) {
+	if err := g.validatePutAliasIpv6RangeParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putAliasIpv6Range",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleComputeInstanceFromTemplateNetworkInterfaceOutputReference) PutIpv6AccessConfig(value interface{}) {
 	if err := g.validatePutIpv6AccessConfigParameters(value); err != nil {
 		panic(err)
@@ -1034,6 +1069,14 @@ func (g *jsiiProxy_GoogleComputeInstanceFromTemplateNetworkInterfaceOutputRefere
 	_jsii_.InvokeVoid(
 		g,
 		"resetAliasIpRange",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleComputeInstanceFromTemplateNetworkInterfaceOutputReference) ResetAliasIpv6Range() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetAliasIpv6Range",
 		nil, // no parameters
 	)
 }

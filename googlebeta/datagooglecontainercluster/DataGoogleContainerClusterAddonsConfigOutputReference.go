@@ -13,6 +13,7 @@ import (
 
 type DataGoogleContainerClusterAddonsConfigOutputReference interface {
 	cdktn.ComplexObject
+	AgentSandboxConfig() DataGoogleContainerClusterAddonsConfigAgentSandboxConfigList
 	CloudrunConfig() DataGoogleContainerClusterAddonsConfigCloudrunConfigList
 	// the index of the complex object in a list.
 	// Experimental.
@@ -95,6 +96,16 @@ type DataGoogleContainerClusterAddonsConfigOutputReference interface {
 // The jsii proxy struct for DataGoogleContainerClusterAddonsConfigOutputReference
 type jsiiProxy_DataGoogleContainerClusterAddonsConfigOutputReference struct {
 	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_DataGoogleContainerClusterAddonsConfigOutputReference) AgentSandboxConfig() DataGoogleContainerClusterAddonsConfigAgentSandboxConfigList {
+	var returns DataGoogleContainerClusterAddonsConfigAgentSandboxConfigList
+	_jsii_.Get(
+		j,
+		"agentSandboxConfig",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_DataGoogleContainerClusterAddonsConfigOutputReference) CloudrunConfig() DataGoogleContainerClusterAddonsConfigCloudrunConfigList {

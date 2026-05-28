@@ -155,6 +155,37 @@ func (g *jsiiProxy_GoogleComputeInstanceFromMachineImageNetworkInterfaceOutputRe
 	return nil
 }
 
+func (g *jsiiProxy_GoogleComputeInstanceFromMachineImageNetworkInterfaceOutputReference) validatePutAliasIpv6RangeParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	switch value.(type) {
+	case cdktn.IResolvable:
+		// ok
+	case *[]*GoogleComputeInstanceFromMachineImageNetworkInterfaceAliasIpv6Range:
+		value := value.(*[]*GoogleComputeInstanceFromMachineImageNetworkInterfaceAliasIpv6Range)
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	case []*GoogleComputeInstanceFromMachineImageNetworkInterfaceAliasIpv6Range:
+		value_ := value.([]*GoogleComputeInstanceFromMachineImageNetworkInterfaceAliasIpv6Range)
+		value := &value_
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	default:
+		if !_jsii_.IsAnonymousProxy(value) {
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*GoogleComputeInstanceFromMachineImageNetworkInterfaceAliasIpv6Range; received %#v (a %T)", value, value)
+		}
+	}
+
+	return nil
+}
+
 func (g *jsiiProxy_GoogleComputeInstanceFromMachineImageNetworkInterfaceOutputReference) validatePutIpv6AccessConfigParameters(value interface{}) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")

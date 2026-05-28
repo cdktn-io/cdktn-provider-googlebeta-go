@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_data_fusion_instance google_data_fusion_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_data_fusion_instance google_data_fusion_instance}.
 type GoogleDataFusionInstance interface {
 	cdktn.TerraformResource
 	Accelerators() GoogleDataFusionInstanceAcceleratorsList
@@ -80,6 +80,9 @@ type GoogleDataFusionInstance interface {
 	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
 	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
+	MaintenanceEvents() GoogleDataFusionInstanceMaintenanceEventsList
+	MaintenancePolicy() GoogleDataFusionInstanceMaintenancePolicyOutputReference
+	MaintenancePolicyInput() *GoogleDataFusionInstanceMaintenancePolicy
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
@@ -186,6 +189,7 @@ type GoogleDataFusionInstance interface {
 	PutAccelerators(value interface{})
 	PutCryptoKeyConfig(value *GoogleDataFusionInstanceCryptoKeyConfig)
 	PutEventPublishConfig(value *GoogleDataFusionInstanceEventPublishConfig)
+	PutMaintenancePolicy(value *GoogleDataFusionInstanceMaintenancePolicy)
 	PutNetworkConfig(value *GoogleDataFusionInstanceNetworkConfig)
 	PutTimeouts(value *GoogleDataFusionInstanceTimeouts)
 	ResetAccelerators()
@@ -200,6 +204,7 @@ type GoogleDataFusionInstance interface {
 	ResetEventPublishConfig()
 	ResetId()
 	ResetLabels()
+	ResetMaintenancePolicy()
 	ResetNetworkConfig()
 	ResetOptions()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -610,6 +615,36 @@ func (j *jsiiProxy_GoogleDataFusionInstance) Lifecycle() *cdktn.TerraformResourc
 	return returns
 }
 
+func (j *jsiiProxy_GoogleDataFusionInstance) MaintenanceEvents() GoogleDataFusionInstanceMaintenanceEventsList {
+	var returns GoogleDataFusionInstanceMaintenanceEventsList
+	_jsii_.Get(
+		j,
+		"maintenanceEvents",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDataFusionInstance) MaintenancePolicy() GoogleDataFusionInstanceMaintenancePolicyOutputReference {
+	var returns GoogleDataFusionInstanceMaintenancePolicyOutputReference
+	_jsii_.Get(
+		j,
+		"maintenancePolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDataFusionInstance) MaintenancePolicyInput() *GoogleDataFusionInstanceMaintenancePolicy {
+	var returns *GoogleDataFusionInstanceMaintenancePolicy
+	_jsii_.Get(
+		j,
+		"maintenancePolicyInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleDataFusionInstance) Name() *string {
 	var returns *string
 	_jsii_.Get(
@@ -1001,7 +1036,7 @@ func (j *jsiiProxy_GoogleDataFusionInstance) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_data_fusion_instance google_data_fusion_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_data_fusion_instance google_data_fusion_instance} Resource.
 func NewGoogleDataFusionInstance(scope constructs.Construct, id *string, config *GoogleDataFusionInstanceConfig) GoogleDataFusionInstance {
 	_init_.Initialize()
 
@@ -1019,7 +1054,7 @@ func NewGoogleDataFusionInstance(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_data_fusion_instance google_data_fusion_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_data_fusion_instance google_data_fusion_instance} Resource.
 func NewGoogleDataFusionInstance_Override(g GoogleDataFusionInstance, scope constructs.Construct, id *string, config *GoogleDataFusionInstanceConfig) {
 	_init_.Initialize()
 
@@ -1693,6 +1728,17 @@ func (g *jsiiProxy_GoogleDataFusionInstance) PutEventPublishConfig(value *Google
 	)
 }
 
+func (g *jsiiProxy_GoogleDataFusionInstance) PutMaintenancePolicy(value *GoogleDataFusionInstanceMaintenancePolicy) {
+	if err := g.validatePutMaintenancePolicyParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putMaintenancePolicy",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleDataFusionInstance) PutNetworkConfig(value *GoogleDataFusionInstanceNetworkConfig) {
 	if err := g.validatePutNetworkConfigParameters(value); err != nil {
 		panic(err)
@@ -1807,6 +1853,14 @@ func (g *jsiiProxy_GoogleDataFusionInstance) ResetLabels() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetLabels",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleDataFusionInstance) ResetMaintenancePolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetMaintenancePolicy",
 		nil, // no parameters
 	)
 }

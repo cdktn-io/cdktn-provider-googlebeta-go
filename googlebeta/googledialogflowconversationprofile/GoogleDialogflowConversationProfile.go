@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dialogflow_conversation_profile google_dialogflow_conversation_profile}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_dialogflow_conversation_profile google_dialogflow_conversation_profile}.
 type GoogleDialogflowConversationProfile interface {
 	cdktn.TerraformResource
 	AutomatedAgentConfig() GoogleDialogflowConversationProfileAutomatedAgentConfigOutputReference
@@ -91,6 +91,8 @@ type GoogleDialogflowConversationProfile interface {
 	SecuritySettings() *string
 	SetSecuritySettings(val *string)
 	SecuritySettingsInput() *string
+	SipConfig() GoogleDialogflowConversationProfileSipConfigOutputReference
+	SipConfigInput() *GoogleDialogflowConversationProfileSipConfig
 	SttConfig() GoogleDialogflowConversationProfileSttConfigOutputReference
 	SttConfigInput() *GoogleDialogflowConversationProfileSttConfig
 	// Experimental.
@@ -159,6 +161,7 @@ type GoogleDialogflowConversationProfile interface {
 	PutNewMessageEventNotificationConfig(value *GoogleDialogflowConversationProfileNewMessageEventNotificationConfig)
 	PutNewRecognitionResultNotificationConfig(value *GoogleDialogflowConversationProfileNewRecognitionResultNotificationConfig)
 	PutNotificationConfig(value *GoogleDialogflowConversationProfileNotificationConfig)
+	PutSipConfig(value *GoogleDialogflowConversationProfileSipConfig)
 	PutSttConfig(value *GoogleDialogflowConversationProfileSttConfig)
 	PutTimeouts(value *GoogleDialogflowConversationProfileTimeouts)
 	PutTtsConfig(value *GoogleDialogflowConversationProfileTtsConfig)
@@ -177,6 +180,7 @@ type GoogleDialogflowConversationProfile interface {
 	ResetOverrideLogicalId()
 	ResetProject()
 	ResetSecuritySettings()
+	ResetSipConfig()
 	ResetSttConfig()
 	ResetTimeouts()
 	ResetTimeZone()
@@ -629,6 +633,26 @@ func (j *jsiiProxy_GoogleDialogflowConversationProfile) SecuritySettingsInput() 
 	return returns
 }
 
+func (j *jsiiProxy_GoogleDialogflowConversationProfile) SipConfig() GoogleDialogflowConversationProfileSipConfigOutputReference {
+	var returns GoogleDialogflowConversationProfileSipConfigOutputReference
+	_jsii_.Get(
+		j,
+		"sipConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDialogflowConversationProfile) SipConfigInput() *GoogleDialogflowConversationProfileSipConfig {
+	var returns *GoogleDialogflowConversationProfileSipConfig
+	_jsii_.Get(
+		j,
+		"sipConfigInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleDialogflowConversationProfile) SttConfig() GoogleDialogflowConversationProfileSttConfigOutputReference {
 	var returns GoogleDialogflowConversationProfileSttConfigOutputReference
 	_jsii_.Get(
@@ -760,7 +784,7 @@ func (j *jsiiProxy_GoogleDialogflowConversationProfile) UseBidiStreamingInput() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dialogflow_conversation_profile google_dialogflow_conversation_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_dialogflow_conversation_profile google_dialogflow_conversation_profile} Resource.
 func NewGoogleDialogflowConversationProfile(scope constructs.Construct, id *string, config *GoogleDialogflowConversationProfileConfig) GoogleDialogflowConversationProfile {
 	_init_.Initialize()
 
@@ -778,7 +802,7 @@ func NewGoogleDialogflowConversationProfile(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dialogflow_conversation_profile google_dialogflow_conversation_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_dialogflow_conversation_profile google_dialogflow_conversation_profile} Resource.
 func NewGoogleDialogflowConversationProfile_Override(g GoogleDialogflowConversationProfile, scope constructs.Construct, id *string, config *GoogleDialogflowConversationProfileConfig) {
 	_init_.Initialize()
 
@@ -1386,6 +1410,17 @@ func (g *jsiiProxy_GoogleDialogflowConversationProfile) PutNotificationConfig(va
 	)
 }
 
+func (g *jsiiProxy_GoogleDialogflowConversationProfile) PutSipConfig(value *GoogleDialogflowConversationProfileSipConfig) {
+	if err := g.validatePutSipConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putSipConfig",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleDialogflowConversationProfile) PutSttConfig(value *GoogleDialogflowConversationProfileSttConfig) {
 	if err := g.validatePutSttConfigParameters(value); err != nil {
 		panic(err)
@@ -1519,6 +1554,14 @@ func (g *jsiiProxy_GoogleDialogflowConversationProfile) ResetSecuritySettings() 
 	_jsii_.InvokeVoid(
 		g,
 		"resetSecuritySettings",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleDialogflowConversationProfile) ResetSipConfig() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetSipConfig",
 		nil, // no parameters
 	)
 }

@@ -55,6 +55,10 @@ func (g *jsiiProxy_GoogleComputeInstanceNetworkInterfaceOutputReference) validat
 	return nil
 }
 
+func (g *jsiiProxy_GoogleComputeInstanceNetworkInterfaceOutputReference) validatePutAliasIpv6RangeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleComputeInstanceNetworkInterfaceOutputReference) validatePutIpv6AccessConfigParameters(value interface{}) error {
 	return nil
 }

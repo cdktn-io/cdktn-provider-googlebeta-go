@@ -67,6 +67,14 @@ func (j *jsiiProxy_GoogleComputeSubnetworkSecondaryIpRangeOutputReference) valid
 	return nil
 }
 
+func (j *jsiiProxy_GoogleComputeSubnetworkSecondaryIpRangeOutputReference) validateSetIpCollectionParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleComputeSubnetworkSecondaryIpRangeOutputReference) validateSetIpVersionParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleComputeSubnetworkSecondaryIpRangeOutputReference) validateSetRangeNameParameters(val *string) error {
 	return nil
 }

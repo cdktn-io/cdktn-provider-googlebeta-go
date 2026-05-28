@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_security_gateway_security_policy_rule google_network_security_gateway_security_policy_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_network_security_gateway_security_policy_rule google_network_security_gateway_security_policy_rule}.
 type GoogleNetworkSecurityGatewaySecurityPolicyRule interface {
 	cdktn.TerraformResource
 	ApplicationMatcher() *string
@@ -657,7 +657,7 @@ func (j *jsiiProxy_GoogleNetworkSecurityGatewaySecurityPolicyRule) UpdateTime() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_security_gateway_security_policy_rule google_network_security_gateway_security_policy_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_network_security_gateway_security_policy_rule google_network_security_gateway_security_policy_rule} Resource.
 func NewGoogleNetworkSecurityGatewaySecurityPolicyRule(scope constructs.Construct, id *string, config *GoogleNetworkSecurityGatewaySecurityPolicyRuleConfig) GoogleNetworkSecurityGatewaySecurityPolicyRule {
 	_init_.Initialize()
 
@@ -675,7 +675,7 @@ func NewGoogleNetworkSecurityGatewaySecurityPolicyRule(scope constructs.Construc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_security_gateway_security_policy_rule google_network_security_gateway_security_policy_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_network_security_gateway_security_policy_rule google_network_security_gateway_security_policy_rule} Resource.
 func NewGoogleNetworkSecurityGatewaySecurityPolicyRule_Override(g GoogleNetworkSecurityGatewaySecurityPolicyRule, scope constructs.Construct, id *string, config *GoogleNetworkSecurityGatewaySecurityPolicyRuleConfig) {
 	_init_.Initialize()
 

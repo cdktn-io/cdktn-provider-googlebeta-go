@@ -95,6 +95,10 @@ func (j *jsiiProxy_DataGoogleComputeNetwork) validateSetProjectParameters(val *s
 	return nil
 }
 
+func (j *jsiiProxy_DataGoogleComputeNetwork) validateSetSelfLinkParameters(val *string) error {
+	return nil
+}
+
 func validateNewDataGoogleComputeNetworkParameters(scope constructs.Construct, id *string, config *DataGoogleComputeNetworkConfig) error {
 	return nil
 }

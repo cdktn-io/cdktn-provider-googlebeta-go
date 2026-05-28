@@ -115,6 +115,10 @@ func (j *jsiiProxy_GoogleDataflowFlexTemplateJob) validateSetCountParameters(val
 	return nil
 }
 
+func (j *jsiiProxy_GoogleDataflowFlexTemplateJob) validateSetCreateIgnoreAlreadyExistsParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleDataflowFlexTemplateJob) validateSetDeletionPolicyParameters(val *string) error {
 	return nil
 }

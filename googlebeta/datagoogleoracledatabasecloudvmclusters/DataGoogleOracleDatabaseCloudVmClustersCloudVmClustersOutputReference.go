@@ -41,6 +41,7 @@ type DataGoogleOracleDatabaseCloudVmClustersCloudVmClustersOutputReference inter
 	// Experimental.
 	Fqn() *string
 	GcpOracleZone() *string
+	IdentityConnector() DataGoogleOracleDatabaseCloudVmClustersCloudVmClustersIdentityConnectorList
 	InternalValue() *DataGoogleOracleDatabaseCloudVmClustersCloudVmClusters
 	SetInternalValue(val *DataGoogleOracleDatabaseCloudVmClustersCloudVmClusters)
 	Labels() cdktn.StringMap
@@ -244,6 +245,16 @@ func (j *jsiiProxy_DataGoogleOracleDatabaseCloudVmClustersCloudVmClustersOutputR
 	_jsii_.Get(
 		j,
 		"gcpOracleZone",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleOracleDatabaseCloudVmClustersCloudVmClustersOutputReference) IdentityConnector() DataGoogleOracleDatabaseCloudVmClustersCloudVmClustersIdentityConnectorList {
+	var returns DataGoogleOracleDatabaseCloudVmClustersCloudVmClustersIdentityConnectorList
+	_jsii_.Get(
+		j,
+		"identityConnector",
 		&returns,
 	)
 	return returns

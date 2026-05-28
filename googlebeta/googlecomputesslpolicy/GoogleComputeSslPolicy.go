@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_ssl_policy google_compute_ssl_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_ssl_policy google_compute_ssl_policy}.
 type GoogleComputeSslPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -66,6 +66,9 @@ type GoogleComputeSslPolicy interface {
 	NameInput() *string
 	// The tree node.
 	Node() constructs.Node
+	PostQuantumKeyExchange() *string
+	SetPostQuantumKeyExchange(val *string)
+	PostQuantumKeyExchangeInput() *string
 	Profile() *string
 	SetProfile(val *string)
 	ProfileInput() *string
@@ -143,6 +146,7 @@ type GoogleComputeSslPolicy interface {
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
+	ResetPostQuantumKeyExchange()
 	ResetProfile()
 	ResetProject()
 	ResetTimeouts()
@@ -423,6 +427,26 @@ func (j *jsiiProxy_GoogleComputeSslPolicy) Node() constructs.Node {
 	return returns
 }
 
+func (j *jsiiProxy_GoogleComputeSslPolicy) PostQuantumKeyExchange() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"postQuantumKeyExchange",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeSslPolicy) PostQuantumKeyExchangeInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"postQuantumKeyExchangeInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleComputeSslPolicy) Profile() *string {
 	var returns *string
 	_jsii_.Get(
@@ -554,7 +578,7 @@ func (j *jsiiProxy_GoogleComputeSslPolicy) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_ssl_policy google_compute_ssl_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_ssl_policy google_compute_ssl_policy} Resource.
 func NewGoogleComputeSslPolicy(scope constructs.Construct, id *string, config *GoogleComputeSslPolicyConfig) GoogleComputeSslPolicy {
 	_init_.Initialize()
 
@@ -572,7 +596,7 @@ func NewGoogleComputeSslPolicy(scope constructs.Construct, id *string, config *G
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_ssl_policy google_compute_ssl_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_ssl_policy google_compute_ssl_policy} Resource.
 func NewGoogleComputeSslPolicy_Override(g GoogleComputeSslPolicy, scope constructs.Construct, id *string, config *GoogleComputeSslPolicyConfig) {
 	_init_.Initialize()
 
@@ -694,6 +718,17 @@ func (j *jsiiProxy_GoogleComputeSslPolicy)SetName(val *string) {
 	_jsii_.Set(
 		j,
 		"name",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleComputeSslPolicy)SetPostQuantumKeyExchange(val *string) {
+	if err := j.validateSetPostQuantumKeyExchangeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"postQuantumKeyExchange",
 		val,
 	)
 }
@@ -1147,6 +1182,14 @@ func (g *jsiiProxy_GoogleComputeSslPolicy) ResetOverrideLogicalId() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetOverrideLogicalId",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleComputeSslPolicy) ResetPostQuantumKeyExchange() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetPostQuantumKeyExchange",
 		nil, // no parameters
 	)
 }

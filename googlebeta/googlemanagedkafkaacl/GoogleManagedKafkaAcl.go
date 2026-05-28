@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_managed_kafka_acl google_managed_kafka_acl}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_managed_kafka_acl google_managed_kafka_acl}.
 type GoogleManagedKafkaAcl interface {
 	cdktn.TerraformResource
 	AclEntries() GoogleManagedKafkaAclAclEntriesList
@@ -538,7 +538,7 @@ func (j *jsiiProxy_GoogleManagedKafkaAcl) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_managed_kafka_acl google_managed_kafka_acl} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_managed_kafka_acl google_managed_kafka_acl} Resource.
 func NewGoogleManagedKafkaAcl(scope constructs.Construct, id *string, config *GoogleManagedKafkaAclConfig) GoogleManagedKafkaAcl {
 	_init_.Initialize()
 
@@ -556,7 +556,7 @@ func NewGoogleManagedKafkaAcl(scope constructs.Construct, id *string, config *Go
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_managed_kafka_acl google_managed_kafka_acl} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_managed_kafka_acl google_managed_kafka_acl} Resource.
 func NewGoogleManagedKafkaAcl_Override(g GoogleManagedKafkaAcl, scope constructs.Construct, id *string, config *GoogleManagedKafkaAclConfig) {
 	_init_.Initialize()
 

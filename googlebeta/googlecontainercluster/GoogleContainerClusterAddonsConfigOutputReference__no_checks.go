@@ -47,6 +47,10 @@ func (g *jsiiProxy_GoogleContainerClusterAddonsConfigOutputReference) validateIn
 	return nil
 }
 
+func (g *jsiiProxy_GoogleContainerClusterAddonsConfigOutputReference) validatePutAgentSandboxConfigParameters(value *GoogleContainerClusterAddonsConfigAgentSandboxConfig) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleContainerClusterAddonsConfigOutputReference) validatePutCloudrunConfigParameters(value *GoogleContainerClusterAddonsConfigCloudrunConfig) error {
 	return nil
 }

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataflow_flex_template_job google_dataflow_flex_template_job}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_dataflow_flex_template_job google_dataflow_flex_template_job}.
 type GoogleDataflowFlexTemplateJob interface {
 	cdktn.TerraformResource
 	AdditionalExperiments() *[]*string
@@ -39,6 +39,9 @@ type GoogleDataflowFlexTemplateJob interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	CreateIgnoreAlreadyExists() interface{}
+	SetCreateIgnoreAlreadyExists(val interface{})
+	CreateIgnoreAlreadyExistsInput() interface{}
 	DeletionPolicy() *string
 	SetDeletionPolicy(val *string)
 	DeletionPolicyInput() *string
@@ -193,6 +196,7 @@ type GoogleDataflowFlexTemplateJob interface {
 	ResetAdditionalExperiments()
 	ResetAdditionalPipelineOptions()
 	ResetAutoscalingAlgorithm()
+	ResetCreateIgnoreAlreadyExists()
 	ResetDeletionPolicy()
 	ResetEnableStreamingEngine()
 	ResetId()
@@ -360,6 +364,26 @@ func (j *jsiiProxy_GoogleDataflowFlexTemplateJob) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDataflowFlexTemplateJob) CreateIgnoreAlreadyExists() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"createIgnoreAlreadyExists",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDataflowFlexTemplateJob) CreateIgnoreAlreadyExistsInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"createIgnoreAlreadyExistsInput",
 		&returns,
 	)
 	return returns
@@ -996,7 +1020,7 @@ func (j *jsiiProxy_GoogleDataflowFlexTemplateJob) Type() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataflow_flex_template_job google_dataflow_flex_template_job} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_dataflow_flex_template_job google_dataflow_flex_template_job} Resource.
 func NewGoogleDataflowFlexTemplateJob(scope constructs.Construct, id *string, config *GoogleDataflowFlexTemplateJobConfig) GoogleDataflowFlexTemplateJob {
 	_init_.Initialize()
 
@@ -1014,7 +1038,7 @@ func NewGoogleDataflowFlexTemplateJob(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataflow_flex_template_job google_dataflow_flex_template_job} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_dataflow_flex_template_job google_dataflow_flex_template_job} Resource.
 func NewGoogleDataflowFlexTemplateJob_Override(g GoogleDataflowFlexTemplateJob, scope constructs.Construct, id *string, config *GoogleDataflowFlexTemplateJobConfig) {
 	_init_.Initialize()
 
@@ -1087,6 +1111,17 @@ func (j *jsiiProxy_GoogleDataflowFlexTemplateJob)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleDataflowFlexTemplateJob)SetCreateIgnoreAlreadyExists(val interface{}) {
+	if err := j.validateSetCreateIgnoreAlreadyExistsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"createIgnoreAlreadyExists",
 		val,
 	)
 }
@@ -1763,6 +1798,14 @@ func (g *jsiiProxy_GoogleDataflowFlexTemplateJob) ResetAutoscalingAlgorithm() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetAutoscalingAlgorithm",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleDataflowFlexTemplateJob) ResetCreateIgnoreAlreadyExists() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetCreateIgnoreAlreadyExists",
 		nil, // no parameters
 	)
 }

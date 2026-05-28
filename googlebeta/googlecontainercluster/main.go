@@ -392,6 +392,44 @@ func init() {
 		reflect.TypeOf((*GoogleContainerClusterAddonsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
+		"@cdktn/provider-google-beta.googleContainerCluster.GoogleContainerClusterAddonsConfigAgentSandboxConfig",
+		reflect.TypeOf((*GoogleContainerClusterAddonsConfigAgentSandboxConfig)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-google-beta.googleContainerCluster.GoogleContainerClusterAddonsConfigAgentSandboxConfigOutputReference",
+		reflect.TypeOf((*GoogleContainerClusterAddonsConfigAgentSandboxConfigOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "enabled", GoGetter: "Enabled"},
+			_jsii_.MemberProperty{JsiiProperty: "enabledInput", GoGetter: "EnabledInput"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_GoogleContainerClusterAddonsConfigAgentSandboxConfigOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
 		"@cdktn/provider-google-beta.googleContainerCluster.GoogleContainerClusterAddonsConfigCloudrunConfig",
 		reflect.TypeOf((*GoogleContainerClusterAddonsConfigCloudrunConfig)(nil)).Elem(),
 	)
@@ -901,6 +939,8 @@ func init() {
 		"@cdktn/provider-google-beta.googleContainerCluster.GoogleContainerClusterAddonsConfigOutputReference",
 		reflect.TypeOf((*GoogleContainerClusterAddonsConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "agentSandboxConfig", GoGetter: "AgentSandboxConfig"},
+			_jsii_.MemberProperty{JsiiProperty: "agentSandboxConfigInput", GoGetter: "AgentSandboxConfigInput"},
 			_jsii_.MemberProperty{JsiiProperty: "cloudrunConfig", GoGetter: "CloudrunConfig"},
 			_jsii_.MemberProperty{JsiiProperty: "cloudrunConfigInput", GoGetter: "CloudrunConfigInput"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -948,6 +988,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "parallelstoreCsiDriverConfigInput", GoGetter: "ParallelstoreCsiDriverConfigInput"},
 			_jsii_.MemberProperty{JsiiProperty: "podSnapshotConfig", GoGetter: "PodSnapshotConfig"},
 			_jsii_.MemberProperty{JsiiProperty: "podSnapshotConfigInput", GoGetter: "PodSnapshotConfigInput"},
+			_jsii_.MemberMethod{JsiiMethod: "putAgentSandboxConfig", GoMethod: "PutAgentSandboxConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "putCloudrunConfig", GoMethod: "PutCloudrunConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "putConfigConnectorConfig", GoMethod: "PutConfigConnectorConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "putDnsCacheConfig", GoMethod: "PutDnsCacheConfig"},
@@ -968,6 +1009,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "putStatefulHaConfig", GoMethod: "PutStatefulHaConfig"},
 			_jsii_.MemberProperty{JsiiProperty: "rayOperatorConfig", GoGetter: "RayOperatorConfig"},
 			_jsii_.MemberProperty{JsiiProperty: "rayOperatorConfigInput", GoGetter: "RayOperatorConfigInput"},
+			_jsii_.MemberMethod{JsiiMethod: "resetAgentSandboxConfig", GoMethod: "ResetAgentSandboxConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "resetCloudrunConfig", GoMethod: "ResetCloudrunConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "resetConfigConnectorConfig", GoMethod: "ResetConfigConnectorConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "resetDnsCacheConfig", GoMethod: "ResetDnsCacheConfig"},
@@ -5764,6 +5806,8 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
 			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
 			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "gpudirectStrategy", GoGetter: "GpudirectStrategy"},
+			_jsii_.MemberProperty{JsiiProperty: "gpudirectStrategyInput", GoGetter: "GpudirectStrategyInput"},
 			_jsii_.MemberProperty{JsiiProperty: "guestAccelerator", GoGetter: "GuestAccelerator"},
 			_jsii_.MemberProperty{JsiiProperty: "guestAcceleratorInput", GoGetter: "GuestAcceleratorInput"},
 			_jsii_.MemberProperty{JsiiProperty: "gvnic", GoGetter: "Gvnic"},
@@ -5840,6 +5884,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetFastSocket", GoMethod: "ResetFastSocket"},
 			_jsii_.MemberMethod{JsiiMethod: "resetFlexStart", GoMethod: "ResetFlexStart"},
 			_jsii_.MemberMethod{JsiiMethod: "resetGcfsConfig", GoMethod: "ResetGcfsConfig"},
+			_jsii_.MemberMethod{JsiiMethod: "resetGpudirectStrategy", GoMethod: "ResetGpudirectStrategy"},
 			_jsii_.MemberMethod{JsiiMethod: "resetGuestAccelerator", GoMethod: "ResetGuestAccelerator"},
 			_jsii_.MemberMethod{JsiiMethod: "resetGvnic", GoMethod: "ResetGvnic"},
 			_jsii_.MemberMethod{JsiiMethod: "resetHostMaintenancePolicy", GoMethod: "ResetHostMaintenancePolicy"},
@@ -9769,6 +9814,8 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
 			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
 			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "gpudirectStrategy", GoGetter: "GpudirectStrategy"},
+			_jsii_.MemberProperty{JsiiProperty: "gpudirectStrategyInput", GoGetter: "GpudirectStrategyInput"},
 			_jsii_.MemberProperty{JsiiProperty: "guestAccelerator", GoGetter: "GuestAccelerator"},
 			_jsii_.MemberProperty{JsiiProperty: "guestAcceleratorInput", GoGetter: "GuestAcceleratorInput"},
 			_jsii_.MemberProperty{JsiiProperty: "gvnic", GoGetter: "Gvnic"},
@@ -9845,6 +9892,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetFastSocket", GoMethod: "ResetFastSocket"},
 			_jsii_.MemberMethod{JsiiMethod: "resetFlexStart", GoMethod: "ResetFlexStart"},
 			_jsii_.MemberMethod{JsiiMethod: "resetGcfsConfig", GoMethod: "ResetGcfsConfig"},
+			_jsii_.MemberMethod{JsiiMethod: "resetGpudirectStrategy", GoMethod: "ResetGpudirectStrategy"},
 			_jsii_.MemberMethod{JsiiMethod: "resetGuestAccelerator", GoMethod: "ResetGuestAccelerator"},
 			_jsii_.MemberMethod{JsiiMethod: "resetGvnic", GoMethod: "ResetGvnic"},
 			_jsii_.MemberMethod{JsiiMethod: "resetHostMaintenancePolicy", GoMethod: "ResetHostMaintenancePolicy"},

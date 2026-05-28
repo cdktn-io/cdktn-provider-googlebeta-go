@@ -1,3 +1,3 @@
 # `google_saas_runtime_saas`
 
-Refer to the Terraform Registry for docs: [`google_saas_runtime_saas`](https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_saas_runtime_saas).
+Refer to the Terraform Registry for docs: [`google_saas_runtime_saas`](https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_saas_runtime_saas).

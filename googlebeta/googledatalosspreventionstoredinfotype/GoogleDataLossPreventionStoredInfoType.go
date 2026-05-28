@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_data_loss_prevention_stored_info_type google_data_loss_prevention_stored_info_type}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_data_loss_prevention_stored_info_type google_data_loss_prevention_stored_info_type}.
 type GoogleDataLossPreventionStoredInfoType interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -545,7 +545,7 @@ func (j *jsiiProxy_GoogleDataLossPreventionStoredInfoType) TimeoutsInput() inter
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_data_loss_prevention_stored_info_type google_data_loss_prevention_stored_info_type} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_data_loss_prevention_stored_info_type google_data_loss_prevention_stored_info_type} Resource.
 func NewGoogleDataLossPreventionStoredInfoType(scope constructs.Construct, id *string, config *GoogleDataLossPreventionStoredInfoTypeConfig) GoogleDataLossPreventionStoredInfoType {
 	_init_.Initialize()
 
@@ -563,7 +563,7 @@ func NewGoogleDataLossPreventionStoredInfoType(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_data_loss_prevention_stored_info_type google_data_loss_prevention_stored_info_type} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_data_loss_prevention_stored_info_type google_data_loss_prevention_stored_info_type} Resource.
 func NewGoogleDataLossPreventionStoredInfoType_Override(g GoogleDataLossPreventionStoredInfoType, scope constructs.Construct, id *string, config *GoogleDataLossPreventionStoredInfoTypeConfig) {
 	_init_.Initialize()
 

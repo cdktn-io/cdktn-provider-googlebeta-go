@@ -167,6 +167,10 @@ func (j *jsiiProxy_GoogleContainerClusterNodePoolNodeConfigOutputReference) vali
 	return nil
 }
 
+func (j *jsiiProxy_GoogleContainerClusterNodePoolNodeConfigOutputReference) validateSetGpudirectStrategyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleContainerClusterNodePoolNodeConfigOutputReference) validateSetImageTypeParameters(val *string) error {
 	return nil
 }

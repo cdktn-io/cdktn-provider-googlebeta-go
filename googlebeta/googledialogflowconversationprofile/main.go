@@ -78,6 +78,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "putNewMessageEventNotificationConfig", GoMethod: "PutNewMessageEventNotificationConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "putNewRecognitionResultNotificationConfig", GoMethod: "PutNewRecognitionResultNotificationConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "putNotificationConfig", GoMethod: "PutNotificationConfig"},
+			_jsii_.MemberMethod{JsiiMethod: "putSipConfig", GoMethod: "PutSipConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "putSttConfig", GoMethod: "PutSttConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "putTimeouts", GoMethod: "PutTimeouts"},
 			_jsii_.MemberMethod{JsiiMethod: "putTtsConfig", GoMethod: "PutTtsConfig"},
@@ -95,6 +96,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetProject", GoMethod: "ResetProject"},
 			_jsii_.MemberMethod{JsiiMethod: "resetSecuritySettings", GoMethod: "ResetSecuritySettings"},
+			_jsii_.MemberMethod{JsiiMethod: "resetSipConfig", GoMethod: "ResetSipConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "resetSttConfig", GoMethod: "ResetSttConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "resetTimeouts", GoMethod: "ResetTimeouts"},
 			_jsii_.MemberMethod{JsiiMethod: "resetTimeZone", GoMethod: "ResetTimeZone"},
@@ -102,6 +104,8 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetUseBidiStreaming", GoMethod: "ResetUseBidiStreaming"},
 			_jsii_.MemberProperty{JsiiProperty: "securitySettings", GoGetter: "SecuritySettings"},
 			_jsii_.MemberProperty{JsiiProperty: "securitySettingsInput", GoGetter: "SecuritySettingsInput"},
+			_jsii_.MemberProperty{JsiiProperty: "sipConfig", GoGetter: "SipConfig"},
+			_jsii_.MemberProperty{JsiiProperty: "sipConfigInput", GoGetter: "SipConfigInput"},
 			_jsii_.MemberProperty{JsiiProperty: "sttConfig", GoGetter: "SttConfig"},
 			_jsii_.MemberProperty{JsiiProperty: "sttConfigInput", GoGetter: "SttConfigInput"},
 			_jsii_.MemberMethod{JsiiMethod: "synthesizeAttributes", GoMethod: "SynthesizeAttributes"},
@@ -1679,6 +1683,63 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GoogleDialogflowConversationProfileNotificationConfigOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileSipConfig",
+		reflect.TypeOf((*GoogleDialogflowConversationProfileSipConfig)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-google-beta.googleDialogflowConversationProfile.GoogleDialogflowConversationProfileSipConfigOutputReference",
+		reflect.TypeOf((*GoogleDialogflowConversationProfileSipConfigOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "allowVirtualAgentInteraction", GoGetter: "AllowVirtualAgentInteraction"},
+			_jsii_.MemberProperty{JsiiProperty: "allowVirtualAgentInteractionInput", GoGetter: "AllowVirtualAgentInteractionInput"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "copyInboundCallLegHeaders", GoGetter: "CopyInboundCallLegHeaders"},
+			_jsii_.MemberProperty{JsiiProperty: "copyInboundCallLegHeadersInput", GoGetter: "CopyInboundCallLegHeadersInput"},
+			_jsii_.MemberProperty{JsiiProperty: "createConversationOnTheFly", GoGetter: "CreateConversationOnTheFly"},
+			_jsii_.MemberProperty{JsiiProperty: "createConversationOnTheFlyInput", GoGetter: "CreateConversationOnTheFlyInput"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "ignoreReinviteMediaDirection", GoGetter: "IgnoreReinviteMediaDirection"},
+			_jsii_.MemberProperty{JsiiProperty: "ignoreReinviteMediaDirectionInput", GoGetter: "IgnoreReinviteMediaDirectionInput"},
+			_jsii_.MemberProperty{JsiiProperty: "inactiveStart", GoGetter: "InactiveStart"},
+			_jsii_.MemberProperty{JsiiProperty: "inactiveStartInput", GoGetter: "InactiveStartInput"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "keepConversationRunning", GoGetter: "KeepConversationRunning"},
+			_jsii_.MemberProperty{JsiiProperty: "keepConversationRunningInput", GoGetter: "KeepConversationRunningInput"},
+			_jsii_.MemberProperty{JsiiProperty: "maxAudioRecordingDuration", GoGetter: "MaxAudioRecordingDuration"},
+			_jsii_.MemberProperty{JsiiProperty: "maxAudioRecordingDurationInput", GoGetter: "MaxAudioRecordingDurationInput"},
+			_jsii_.MemberMethod{JsiiMethod: "resetAllowVirtualAgentInteraction", GoMethod: "ResetAllowVirtualAgentInteraction"},
+			_jsii_.MemberMethod{JsiiMethod: "resetCopyInboundCallLegHeaders", GoMethod: "ResetCopyInboundCallLegHeaders"},
+			_jsii_.MemberMethod{JsiiMethod: "resetCreateConversationOnTheFly", GoMethod: "ResetCreateConversationOnTheFly"},
+			_jsii_.MemberMethod{JsiiMethod: "resetIgnoreReinviteMediaDirection", GoMethod: "ResetIgnoreReinviteMediaDirection"},
+			_jsii_.MemberMethod{JsiiMethod: "resetInactiveStart", GoMethod: "ResetInactiveStart"},
+			_jsii_.MemberMethod{JsiiMethod: "resetKeepConversationRunning", GoMethod: "ResetKeepConversationRunning"},
+			_jsii_.MemberMethod{JsiiMethod: "resetMaxAudioRecordingDuration", GoMethod: "ResetMaxAudioRecordingDuration"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_GoogleDialogflowConversationProfileSipConfigOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},

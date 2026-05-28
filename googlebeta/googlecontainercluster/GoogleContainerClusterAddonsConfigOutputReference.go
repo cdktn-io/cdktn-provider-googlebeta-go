@@ -13,6 +13,8 @@ import (
 
 type GoogleContainerClusterAddonsConfigOutputReference interface {
 	cdktn.ComplexObject
+	AgentSandboxConfig() GoogleContainerClusterAddonsConfigAgentSandboxConfigOutputReference
+	AgentSandboxConfigInput() *GoogleContainerClusterAddonsConfigAgentSandboxConfig
 	CloudrunConfig() GoogleContainerClusterAddonsConfigCloudrunConfigOutputReference
 	CloudrunConfigInput() *GoogleContainerClusterAddonsConfigCloudrunConfig
 	// the index of the complex object in a list.
@@ -100,6 +102,7 @@ type GoogleContainerClusterAddonsConfigOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutAgentSandboxConfig(value *GoogleContainerClusterAddonsConfigAgentSandboxConfig)
 	PutCloudrunConfig(value *GoogleContainerClusterAddonsConfigCloudrunConfig)
 	PutConfigConnectorConfig(value *GoogleContainerClusterAddonsConfigConfigConnectorConfig)
 	PutDnsCacheConfig(value *GoogleContainerClusterAddonsConfigDnsCacheConfig)
@@ -118,6 +121,7 @@ type GoogleContainerClusterAddonsConfigOutputReference interface {
 	PutRayOperatorConfig(value interface{})
 	PutSliceControllerConfig(value *GoogleContainerClusterAddonsConfigSliceControllerConfig)
 	PutStatefulHaConfig(value *GoogleContainerClusterAddonsConfigStatefulHaConfig)
+	ResetAgentSandboxConfig()
 	ResetCloudrunConfig()
 	ResetConfigConnectorConfig()
 	ResetDnsCacheConfig()
@@ -149,6 +153,26 @@ type GoogleContainerClusterAddonsConfigOutputReference interface {
 // The jsii proxy struct for GoogleContainerClusterAddonsConfigOutputReference
 type jsiiProxy_GoogleContainerClusterAddonsConfigOutputReference struct {
 	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_GoogleContainerClusterAddonsConfigOutputReference) AgentSandboxConfig() GoogleContainerClusterAddonsConfigAgentSandboxConfigOutputReference {
+	var returns GoogleContainerClusterAddonsConfigAgentSandboxConfigOutputReference
+	_jsii_.Get(
+		j,
+		"agentSandboxConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleContainerClusterAddonsConfigOutputReference) AgentSandboxConfigInput() *GoogleContainerClusterAddonsConfigAgentSandboxConfig {
+	var returns *GoogleContainerClusterAddonsConfigAgentSandboxConfig
+	_jsii_.Get(
+		j,
+		"agentSandboxConfigInput",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_GoogleContainerClusterAddonsConfigOutputReference) CloudrunConfig() GoogleContainerClusterAddonsConfigCloudrunConfigOutputReference {
@@ -850,6 +874,17 @@ func (g *jsiiProxy_GoogleContainerClusterAddonsConfigOutputReference) Interpolat
 	return returns
 }
 
+func (g *jsiiProxy_GoogleContainerClusterAddonsConfigOutputReference) PutAgentSandboxConfig(value *GoogleContainerClusterAddonsConfigAgentSandboxConfig) {
+	if err := g.validatePutAgentSandboxConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putAgentSandboxConfig",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleContainerClusterAddonsConfigOutputReference) PutCloudrunConfig(value *GoogleContainerClusterAddonsConfigCloudrunConfig) {
 	if err := g.validatePutCloudrunConfigParameters(value); err != nil {
 		panic(err)
@@ -1045,6 +1080,14 @@ func (g *jsiiProxy_GoogleContainerClusterAddonsConfigOutputReference) PutStatefu
 		g,
 		"putStatefulHaConfig",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleContainerClusterAddonsConfigOutputReference) ResetAgentSandboxConfig() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetAgentSandboxConfig",
+		nil, // no parameters
 	)
 }
 
