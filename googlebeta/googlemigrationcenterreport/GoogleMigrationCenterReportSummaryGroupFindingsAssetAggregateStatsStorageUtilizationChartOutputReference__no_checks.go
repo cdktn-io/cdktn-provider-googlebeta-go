@@ -1,0 +1,77 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package googlemigrationcenterreport
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (g *jsiiProxy_GoogleMigrationCenterReportSummaryGroupFindingsAssetAggregateStatsStorageUtilizationChartOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleMigrationCenterReportSummaryGroupFindingsAssetAggregateStatsStorageUtilizationChartOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleMigrationCenterReportSummaryGroupFindingsAssetAggregateStatsStorageUtilizationChartOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleMigrationCenterReportSummaryGroupFindingsAssetAggregateStatsStorageUtilizationChartOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleMigrationCenterReportSummaryGroupFindingsAssetAggregateStatsStorageUtilizationChartOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleMigrationCenterReportSummaryGroupFindingsAssetAggregateStatsStorageUtilizationChartOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleMigrationCenterReportSummaryGroupFindingsAssetAggregateStatsStorageUtilizationChartOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleMigrationCenterReportSummaryGroupFindingsAssetAggregateStatsStorageUtilizationChartOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleMigrationCenterReportSummaryGroupFindingsAssetAggregateStatsStorageUtilizationChartOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleMigrationCenterReportSummaryGroupFindingsAssetAggregateStatsStorageUtilizationChartOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleMigrationCenterReportSummaryGroupFindingsAssetAggregateStatsStorageUtilizationChartOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleMigrationCenterReportSummaryGroupFindingsAssetAggregateStatsStorageUtilizationChartOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleMigrationCenterReportSummaryGroupFindingsAssetAggregateStatsStorageUtilizationChartOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleMigrationCenterReportSummaryGroupFindingsAssetAggregateStatsStorageUtilizationChartOutputReference) validateSetInternalValueParameters(val *GoogleMigrationCenterReportSummaryGroupFindingsAssetAggregateStatsStorageUtilizationChart) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleMigrationCenterReportSummaryGroupFindingsAssetAggregateStatsStorageUtilizationChartOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleMigrationCenterReportSummaryGroupFindingsAssetAggregateStatsStorageUtilizationChartOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewGoogleMigrationCenterReportSummaryGroupFindingsAssetAggregateStatsStorageUtilizationChartOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

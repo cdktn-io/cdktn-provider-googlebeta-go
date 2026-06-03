@@ -67,6 +67,10 @@ func (j *jsiiProxy_GoogleDataplexDataProductAccessGroupsPrincipalOutputReference
 	return nil
 }
 
+func (j *jsiiProxy_GoogleDataplexDataProductAccessGroupsPrincipalOutputReference) validateSetServiceAccountParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleDataplexDataProductAccessGroupsPrincipalOutputReference) validateSetTerraformAttributeParameters(val *string) error {
 	return nil
 }

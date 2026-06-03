@@ -1,0 +1,209 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package googleoracledatabasegoldengateconnection
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (g *jsiiProxy_GoogleOracleDatabaseGoldengateConnectionPropertiesOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleOracleDatabaseGoldengateConnectionPropertiesOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleOracleDatabaseGoldengateConnectionPropertiesOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleOracleDatabaseGoldengateConnectionPropertiesOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleOracleDatabaseGoldengateConnectionPropertiesOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleOracleDatabaseGoldengateConnectionPropertiesOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleOracleDatabaseGoldengateConnectionPropertiesOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleOracleDatabaseGoldengateConnectionPropertiesOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleOracleDatabaseGoldengateConnectionPropertiesOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleOracleDatabaseGoldengateConnectionPropertiesOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleOracleDatabaseGoldengateConnectionPropertiesOutputReference) validatePutAmazonKinesisConnectionPropertiesParameters(value *GoogleOracleDatabaseGoldengateConnectionPropertiesAmazonKinesisConnectionProperties) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleOracleDatabaseGoldengateConnectionPropertiesOutputReference) validatePutAmazonRedshiftConnectionPropertiesParameters(value *GoogleOracleDatabaseGoldengateConnectionPropertiesAmazonRedshiftConnectionProperties) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleOracleDatabaseGoldengateConnectionPropertiesOutputReference) validatePutAmazonS3ConnectionPropertiesParameters(value *GoogleOracleDatabaseGoldengateConnectionPropertiesAmazonS3ConnectionProperties) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleOracleDatabaseGoldengateConnectionPropertiesOutputReference) validatePutAzureDataLakeStorageConnectionPropertiesParameters(value *GoogleOracleDatabaseGoldengateConnectionPropertiesAzureDataLakeStorageConnectionProperties) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleOracleDatabaseGoldengateConnectionPropertiesOutputReference) validatePutAzureSynapseAnalyticsConnectionPropertiesParameters(value *GoogleOracleDatabaseGoldengateConnectionPropertiesAzureSynapseAnalyticsConnectionProperties) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleOracleDatabaseGoldengateConnectionPropertiesOutputReference) validatePutDatabricksConnectionPropertiesParameters(value *GoogleOracleDatabaseGoldengateConnectionPropertiesDatabricksConnectionProperties) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleOracleDatabaseGoldengateConnectionPropertiesOutputReference) validatePutDb2ConnectionPropertiesParameters(value *GoogleOracleDatabaseGoldengateConnectionPropertiesDb2ConnectionProperties) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleOracleDatabaseGoldengateConnectionPropertiesOutputReference) validatePutElasticsearchConnectionPropertiesParameters(value *GoogleOracleDatabaseGoldengateConnectionPropertiesElasticsearchConnectionProperties) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleOracleDatabaseGoldengateConnectionPropertiesOutputReference) validatePutGenericConnectionPropertiesParameters(value *GoogleOracleDatabaseGoldengateConnectionPropertiesGenericConnectionProperties) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleOracleDatabaseGoldengateConnectionPropertiesOutputReference) validatePutGoldengateConnectionPropertiesParameters(value *GoogleOracleDatabaseGoldengateConnectionPropertiesGoldengateConnectionProperties) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleOracleDatabaseGoldengateConnectionPropertiesOutputReference) validatePutGoogleBigQueryConnectionPropertiesParameters(value *GoogleOracleDatabaseGoldengateConnectionPropertiesGoogleBigQueryConnectionProperties) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleOracleDatabaseGoldengateConnectionPropertiesOutputReference) validatePutGoogleCloudStorageConnectionPropertiesParameters(value *GoogleOracleDatabaseGoldengateConnectionPropertiesGoogleCloudStorageConnectionProperties) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleOracleDatabaseGoldengateConnectionPropertiesOutputReference) validatePutGooglePubsubConnectionPropertiesParameters(value *GoogleOracleDatabaseGoldengateConnectionPropertiesGooglePubsubConnectionProperties) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleOracleDatabaseGoldengateConnectionPropertiesOutputReference) validatePutHdfsConnectionPropertiesParameters(value *GoogleOracleDatabaseGoldengateConnectionPropertiesHdfsConnectionProperties) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleOracleDatabaseGoldengateConnectionPropertiesOutputReference) validatePutIcebergConnectionPropertiesParameters(value *GoogleOracleDatabaseGoldengateConnectionPropertiesIcebergConnectionProperties) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleOracleDatabaseGoldengateConnectionPropertiesOutputReference) validatePutJavaMessageServiceConnectionPropertiesParameters(value *GoogleOracleDatabaseGoldengateConnectionPropertiesJavaMessageServiceConnectionProperties) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleOracleDatabaseGoldengateConnectionPropertiesOutputReference) validatePutKafkaConnectionPropertiesParameters(value *GoogleOracleDatabaseGoldengateConnectionPropertiesKafkaConnectionProperties) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleOracleDatabaseGoldengateConnectionPropertiesOutputReference) validatePutKafkaSchemaRegistryConnectionPropertiesParameters(value *GoogleOracleDatabaseGoldengateConnectionPropertiesKafkaSchemaRegistryConnectionProperties) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleOracleDatabaseGoldengateConnectionPropertiesOutputReference) validatePutMicrosoftFabricConnectionPropertiesParameters(value *GoogleOracleDatabaseGoldengateConnectionPropertiesMicrosoftFabricConnectionProperties) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleOracleDatabaseGoldengateConnectionPropertiesOutputReference) validatePutMicrosoftSqlserverConnectionPropertiesParameters(value *GoogleOracleDatabaseGoldengateConnectionPropertiesMicrosoftSqlserverConnectionProperties) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleOracleDatabaseGoldengateConnectionPropertiesOutputReference) validatePutMongodbConnectionPropertiesParameters(value *GoogleOracleDatabaseGoldengateConnectionPropertiesMongodbConnectionProperties) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleOracleDatabaseGoldengateConnectionPropertiesOutputReference) validatePutMysqlConnectionPropertiesParameters(value *GoogleOracleDatabaseGoldengateConnectionPropertiesMysqlConnectionProperties) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleOracleDatabaseGoldengateConnectionPropertiesOutputReference) validatePutOciObjectStorageConnectionPropertiesParameters(value *GoogleOracleDatabaseGoldengateConnectionPropertiesOciObjectStorageConnectionProperties) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleOracleDatabaseGoldengateConnectionPropertiesOutputReference) validatePutOracleAiDataPlatformConnectionPropertiesParameters(value *GoogleOracleDatabaseGoldengateConnectionPropertiesOracleAiDataPlatformConnectionProperties) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleOracleDatabaseGoldengateConnectionPropertiesOutputReference) validatePutOracleConnectionPropertiesParameters(value *GoogleOracleDatabaseGoldengateConnectionPropertiesOracleConnectionProperties) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleOracleDatabaseGoldengateConnectionPropertiesOutputReference) validatePutOracleNosqlConnectionPropertiesParameters(value *GoogleOracleDatabaseGoldengateConnectionPropertiesOracleNosqlConnectionProperties) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleOracleDatabaseGoldengateConnectionPropertiesOutputReference) validatePutPostgresqlConnectionPropertiesParameters(value *GoogleOracleDatabaseGoldengateConnectionPropertiesPostgresqlConnectionProperties) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleOracleDatabaseGoldengateConnectionPropertiesOutputReference) validatePutRedisConnectionPropertiesParameters(value *GoogleOracleDatabaseGoldengateConnectionPropertiesRedisConnectionProperties) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleOracleDatabaseGoldengateConnectionPropertiesOutputReference) validatePutSnowflakeConnectionPropertiesParameters(value *GoogleOracleDatabaseGoldengateConnectionPropertiesSnowflakeConnectionProperties) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleOracleDatabaseGoldengateConnectionPropertiesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleOracleDatabaseGoldengateConnectionPropertiesOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleOracleDatabaseGoldengateConnectionPropertiesOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleOracleDatabaseGoldengateConnectionPropertiesOutputReference) validateSetConnectionTypeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleOracleDatabaseGoldengateConnectionPropertiesOutputReference) validateSetDescriptionParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleOracleDatabaseGoldengateConnectionPropertiesOutputReference) validateSetDisplayNameParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleOracleDatabaseGoldengateConnectionPropertiesOutputReference) validateSetInternalValueParameters(val *GoogleOracleDatabaseGoldengateConnectionProperties) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleOracleDatabaseGoldengateConnectionPropertiesOutputReference) validateSetRoutingMethodParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleOracleDatabaseGoldengateConnectionPropertiesOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleOracleDatabaseGoldengateConnectionPropertiesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewGoogleOracleDatabaseGoldengateConnectionPropertiesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

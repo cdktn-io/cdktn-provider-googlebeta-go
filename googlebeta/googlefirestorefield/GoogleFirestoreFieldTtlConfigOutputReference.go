@@ -28,6 +28,9 @@ type GoogleFirestoreFieldTtlConfigOutputReference interface {
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
+	ExpirationOffset() *string
+	SetExpirationOffset(val *string)
+	ExpirationOffsetInput() *string
 	// Experimental.
 	Fqn() *string
 	InternalValue() *GoogleFirestoreFieldTtlConfig
@@ -65,6 +68,7 @@ type GoogleFirestoreFieldTtlConfigOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	ResetExpirationOffset()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -105,6 +109,26 @@ func (j *jsiiProxy_GoogleFirestoreFieldTtlConfigOutputReference) CreationStack()
 	_jsii_.Get(
 		j,
 		"creationStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleFirestoreFieldTtlConfigOutputReference) ExpirationOffset() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"expirationOffset",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleFirestoreFieldTtlConfigOutputReference) ExpirationOffsetInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"expirationOffsetInput",
 		&returns,
 	)
 	return returns
@@ -206,6 +230,17 @@ func (j *jsiiProxy_GoogleFirestoreFieldTtlConfigOutputReference)SetComplexObject
 	_jsii_.Set(
 		j,
 		"complexObjectIsFromSet",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleFirestoreFieldTtlConfigOutputReference)SetExpirationOffset(val *string) {
+	if err := j.validateSetExpirationOffsetParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"expirationOffset",
 		val,
 	)
 }
@@ -427,6 +462,14 @@ func (g *jsiiProxy_GoogleFirestoreFieldTtlConfigOutputReference) InterpolationFo
 	)
 
 	return returns
+}
+
+func (g *jsiiProxy_GoogleFirestoreFieldTtlConfigOutputReference) ResetExpirationOffset() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetExpirationOffset",
+		nil, // no parameters
+	)
 }
 
 func (g *jsiiProxy_GoogleFirestoreFieldTtlConfigOutputReference) Resolve(context cdktn.IResolveContext) interface{} {

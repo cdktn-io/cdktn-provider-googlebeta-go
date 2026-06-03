@@ -1,0 +1,77 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package googlemigrationcenterreport
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (g *jsiiProxy_GoogleMigrationCenterReportSummaryGroupFindingsAssetAggregateStatsSoftwareInstancesDataPointsOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleMigrationCenterReportSummaryGroupFindingsAssetAggregateStatsSoftwareInstancesDataPointsOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleMigrationCenterReportSummaryGroupFindingsAssetAggregateStatsSoftwareInstancesDataPointsOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleMigrationCenterReportSummaryGroupFindingsAssetAggregateStatsSoftwareInstancesDataPointsOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleMigrationCenterReportSummaryGroupFindingsAssetAggregateStatsSoftwareInstancesDataPointsOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleMigrationCenterReportSummaryGroupFindingsAssetAggregateStatsSoftwareInstancesDataPointsOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleMigrationCenterReportSummaryGroupFindingsAssetAggregateStatsSoftwareInstancesDataPointsOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleMigrationCenterReportSummaryGroupFindingsAssetAggregateStatsSoftwareInstancesDataPointsOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleMigrationCenterReportSummaryGroupFindingsAssetAggregateStatsSoftwareInstancesDataPointsOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleMigrationCenterReportSummaryGroupFindingsAssetAggregateStatsSoftwareInstancesDataPointsOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleMigrationCenterReportSummaryGroupFindingsAssetAggregateStatsSoftwareInstancesDataPointsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleMigrationCenterReportSummaryGroupFindingsAssetAggregateStatsSoftwareInstancesDataPointsOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleMigrationCenterReportSummaryGroupFindingsAssetAggregateStatsSoftwareInstancesDataPointsOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleMigrationCenterReportSummaryGroupFindingsAssetAggregateStatsSoftwareInstancesDataPointsOutputReference) validateSetInternalValueParameters(val *GoogleMigrationCenterReportSummaryGroupFindingsAssetAggregateStatsSoftwareInstancesDataPoints) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleMigrationCenterReportSummaryGroupFindingsAssetAggregateStatsSoftwareInstancesDataPointsOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleMigrationCenterReportSummaryGroupFindingsAssetAggregateStatsSoftwareInstancesDataPointsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewGoogleMigrationCenterReportSummaryGroupFindingsAssetAggregateStatsSoftwareInstancesDataPointsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

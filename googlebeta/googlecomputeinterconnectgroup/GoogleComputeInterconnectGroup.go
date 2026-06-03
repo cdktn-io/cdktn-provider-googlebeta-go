@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_interconnect_group google_compute_interconnect_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_interconnect_group google_compute_interconnect_group}.
 type GoogleComputeInterconnectGroup interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -518,7 +518,7 @@ func (j *jsiiProxy_GoogleComputeInterconnectGroup) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_interconnect_group google_compute_interconnect_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_interconnect_group google_compute_interconnect_group} Resource.
 func NewGoogleComputeInterconnectGroup(scope constructs.Construct, id *string, config *GoogleComputeInterconnectGroupConfig) GoogleComputeInterconnectGroup {
 	_init_.Initialize()
 
@@ -536,7 +536,7 @@ func NewGoogleComputeInterconnectGroup(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_interconnect_group google_compute_interconnect_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_interconnect_group google_compute_interconnect_group} Resource.
 func NewGoogleComputeInterconnectGroup_Override(g GoogleComputeInterconnectGroup, scope constructs.Construct, id *string, config *GoogleComputeInterconnectGroupConfig) {
 	_init_.Initialize()
 

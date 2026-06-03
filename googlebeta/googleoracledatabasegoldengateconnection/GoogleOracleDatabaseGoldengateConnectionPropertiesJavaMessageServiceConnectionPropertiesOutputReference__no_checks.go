@@ -1,0 +1,165 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package googleoracledatabasegoldengateconnection
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (g *jsiiProxy_GoogleOracleDatabaseGoldengateConnectionPropertiesJavaMessageServiceConnectionPropertiesOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleOracleDatabaseGoldengateConnectionPropertiesJavaMessageServiceConnectionPropertiesOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleOracleDatabaseGoldengateConnectionPropertiesJavaMessageServiceConnectionPropertiesOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleOracleDatabaseGoldengateConnectionPropertiesJavaMessageServiceConnectionPropertiesOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleOracleDatabaseGoldengateConnectionPropertiesJavaMessageServiceConnectionPropertiesOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleOracleDatabaseGoldengateConnectionPropertiesJavaMessageServiceConnectionPropertiesOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleOracleDatabaseGoldengateConnectionPropertiesJavaMessageServiceConnectionPropertiesOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleOracleDatabaseGoldengateConnectionPropertiesJavaMessageServiceConnectionPropertiesOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleOracleDatabaseGoldengateConnectionPropertiesJavaMessageServiceConnectionPropertiesOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleOracleDatabaseGoldengateConnectionPropertiesJavaMessageServiceConnectionPropertiesOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleOracleDatabaseGoldengateConnectionPropertiesJavaMessageServiceConnectionPropertiesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleOracleDatabaseGoldengateConnectionPropertiesJavaMessageServiceConnectionPropertiesOutputReference) validateSetAuthenticationTypeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleOracleDatabaseGoldengateConnectionPropertiesJavaMessageServiceConnectionPropertiesOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleOracleDatabaseGoldengateConnectionPropertiesJavaMessageServiceConnectionPropertiesOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleOracleDatabaseGoldengateConnectionPropertiesJavaMessageServiceConnectionPropertiesOutputReference) validateSetConnectionFactoryParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleOracleDatabaseGoldengateConnectionPropertiesJavaMessageServiceConnectionPropertiesOutputReference) validateSetConnectionUrlParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleOracleDatabaseGoldengateConnectionPropertiesJavaMessageServiceConnectionPropertiesOutputReference) validateSetInternalValueParameters(val *GoogleOracleDatabaseGoldengateConnectionPropertiesJavaMessageServiceConnectionProperties) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleOracleDatabaseGoldengateConnectionPropertiesJavaMessageServiceConnectionPropertiesOutputReference) validateSetJndiConnectionFactoryParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleOracleDatabaseGoldengateConnectionPropertiesJavaMessageServiceConnectionPropertiesOutputReference) validateSetJndiInitialContextFactoryParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleOracleDatabaseGoldengateConnectionPropertiesJavaMessageServiceConnectionPropertiesOutputReference) validateSetJndiProviderUrlParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleOracleDatabaseGoldengateConnectionPropertiesJavaMessageServiceConnectionPropertiesOutputReference) validateSetJndiSecurityCredentialsSecretParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleOracleDatabaseGoldengateConnectionPropertiesJavaMessageServiceConnectionPropertiesOutputReference) validateSetJndiSecurityPrincipalParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleOracleDatabaseGoldengateConnectionPropertiesJavaMessageServiceConnectionPropertiesOutputReference) validateSetKeyStoreFileParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleOracleDatabaseGoldengateConnectionPropertiesJavaMessageServiceConnectionPropertiesOutputReference) validateSetKeyStorePasswordParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleOracleDatabaseGoldengateConnectionPropertiesJavaMessageServiceConnectionPropertiesOutputReference) validateSetKeyStorePasswordSecretVersionParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleOracleDatabaseGoldengateConnectionPropertiesJavaMessageServiceConnectionPropertiesOutputReference) validateSetPasswordParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleOracleDatabaseGoldengateConnectionPropertiesJavaMessageServiceConnectionPropertiesOutputReference) validateSetPasswordSecretVersionParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleOracleDatabaseGoldengateConnectionPropertiesJavaMessageServiceConnectionPropertiesOutputReference) validateSetSecurityProtocolParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleOracleDatabaseGoldengateConnectionPropertiesJavaMessageServiceConnectionPropertiesOutputReference) validateSetSslKeyPasswordParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleOracleDatabaseGoldengateConnectionPropertiesJavaMessageServiceConnectionPropertiesOutputReference) validateSetSslKeyPasswordSecretVersionParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleOracleDatabaseGoldengateConnectionPropertiesJavaMessageServiceConnectionPropertiesOutputReference) validateSetTechnologyTypeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleOracleDatabaseGoldengateConnectionPropertiesJavaMessageServiceConnectionPropertiesOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleOracleDatabaseGoldengateConnectionPropertiesJavaMessageServiceConnectionPropertiesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleOracleDatabaseGoldengateConnectionPropertiesJavaMessageServiceConnectionPropertiesOutputReference) validateSetTrustStoreFileParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleOracleDatabaseGoldengateConnectionPropertiesJavaMessageServiceConnectionPropertiesOutputReference) validateSetTrustStorePasswordParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleOracleDatabaseGoldengateConnectionPropertiesJavaMessageServiceConnectionPropertiesOutputReference) validateSetTrustStorePasswordSecretVersionParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleOracleDatabaseGoldengateConnectionPropertiesJavaMessageServiceConnectionPropertiesOutputReference) validateSetUseJndiParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleOracleDatabaseGoldengateConnectionPropertiesJavaMessageServiceConnectionPropertiesOutputReference) validateSetUsernameParameters(val *string) error {
+	return nil
+}
+
+func validateNewGoogleOracleDatabaseGoldengateConnectionPropertiesJavaMessageServiceConnectionPropertiesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

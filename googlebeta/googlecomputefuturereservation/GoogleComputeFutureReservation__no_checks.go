@@ -87,6 +87,10 @@ func (g *jsiiProxy_GoogleComputeFutureReservation) validatePutCommitmentInfoPara
 	return nil
 }
 
+func (g *jsiiProxy_GoogleComputeFutureReservation) validatePutParamsParameters(value *GoogleComputeFutureReservationParams) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleComputeFutureReservation) validatePutShareSettingsParameters(value *GoogleComputeFutureReservationShareSettings) error {
 	return nil
 }

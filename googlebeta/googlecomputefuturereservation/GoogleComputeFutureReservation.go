@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_future_reservation google_compute_future_reservation}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_future_reservation google_compute_future_reservation}.
 type GoogleComputeFutureReservation interface {
 	cdktn.TerraformResource
 	AggregateReservation() GoogleComputeFutureReservationAggregateReservationOutputReference
@@ -76,6 +76,8 @@ type GoogleComputeFutureReservation interface {
 	NamePrefixInput() *string
 	// The tree node.
 	Node() constructs.Node
+	Params() GoogleComputeFutureReservationParamsOutputReference
+	ParamsInput() *GoogleComputeFutureReservationParams
 	PlanningStatus() *string
 	SetPlanningStatus(val *string)
 	PlanningStatusInput() *string
@@ -168,6 +170,7 @@ type GoogleComputeFutureReservation interface {
 	PutAggregateReservation(value *GoogleComputeFutureReservationAggregateReservation)
 	PutAutoCreatedReservationsDuration(value *GoogleComputeFutureReservationAutoCreatedReservationsDuration)
 	PutCommitmentInfo(value *GoogleComputeFutureReservationCommitmentInfo)
+	PutParams(value *GoogleComputeFutureReservationParams)
 	PutShareSettings(value *GoogleComputeFutureReservationShareSettings)
 	PutSpecificSkuProperties(value *GoogleComputeFutureReservationSpecificSkuProperties)
 	PutTimeouts(value *GoogleComputeFutureReservationTimeouts)
@@ -185,6 +188,7 @@ type GoogleComputeFutureReservation interface {
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
+	ResetParams()
 	ResetPlanningStatus()
 	ResetProject()
 	ResetReservationMode()
@@ -551,6 +555,26 @@ func (j *jsiiProxy_GoogleComputeFutureReservation) Node() constructs.Node {
 	return returns
 }
 
+func (j *jsiiProxy_GoogleComputeFutureReservation) Params() GoogleComputeFutureReservationParamsOutputReference {
+	var returns GoogleComputeFutureReservationParamsOutputReference
+	_jsii_.Get(
+		j,
+		"params",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeFutureReservation) ParamsInput() *GoogleComputeFutureReservationParams {
+	var returns *GoogleComputeFutureReservationParams
+	_jsii_.Get(
+		j,
+		"paramsInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleComputeFutureReservation) PlanningStatus() *string {
 	var returns *string
 	_jsii_.Get(
@@ -852,7 +876,7 @@ func (j *jsiiProxy_GoogleComputeFutureReservation) Zone() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_future_reservation google_compute_future_reservation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_future_reservation google_compute_future_reservation} Resource.
 func NewGoogleComputeFutureReservation(scope constructs.Construct, id *string, config *GoogleComputeFutureReservationConfig) GoogleComputeFutureReservation {
 	_init_.Initialize()
 
@@ -870,7 +894,7 @@ func NewGoogleComputeFutureReservation(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_future_reservation google_compute_future_reservation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_future_reservation google_compute_future_reservation} Resource.
 func NewGoogleComputeFutureReservation_Override(g GoogleComputeFutureReservation, scope constructs.Construct, id *string, config *GoogleComputeFutureReservationConfig) {
 	_init_.Initialize()
 
@@ -1489,6 +1513,17 @@ func (g *jsiiProxy_GoogleComputeFutureReservation) PutCommitmentInfo(value *Goog
 	)
 }
 
+func (g *jsiiProxy_GoogleComputeFutureReservation) PutParams(value *GoogleComputeFutureReservationParams) {
+	if err := g.validatePutParamsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putParams",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleComputeFutureReservation) PutShareSettings(value *GoogleComputeFutureReservationShareSettings) {
 	if err := g.validatePutShareSettingsParameters(value); err != nil {
 		panic(err)
@@ -1617,6 +1652,14 @@ func (g *jsiiProxy_GoogleComputeFutureReservation) ResetOverrideLogicalId() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetOverrideLogicalId",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleComputeFutureReservation) ResetParams() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetParams",
 		nil, // no parameters
 	)
 }

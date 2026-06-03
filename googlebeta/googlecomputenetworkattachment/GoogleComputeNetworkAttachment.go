@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_network_attachment google_compute_network_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_network_attachment google_compute_network_attachment}.
 type GoogleComputeNetworkAttachment interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -620,7 +620,7 @@ func (j *jsiiProxy_GoogleComputeNetworkAttachment) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_network_attachment google_compute_network_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_network_attachment google_compute_network_attachment} Resource.
 func NewGoogleComputeNetworkAttachment(scope constructs.Construct, id *string, config *GoogleComputeNetworkAttachmentConfig) GoogleComputeNetworkAttachment {
 	_init_.Initialize()
 
@@ -638,7 +638,7 @@ func NewGoogleComputeNetworkAttachment(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_network_attachment google_compute_network_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_network_attachment google_compute_network_attachment} Resource.
 func NewGoogleComputeNetworkAttachment_Override(g GoogleComputeNetworkAttachment, scope constructs.Construct, id *string, config *GoogleComputeNetworkAttachmentConfig) {
 	_init_.Initialize()
 

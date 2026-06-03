@@ -47,6 +47,10 @@ func (g *jsiiProxy_GoogleContainerClusterNodeConfigKubeletConfigOutputReference)
 	return nil
 }
 
+func (g *jsiiProxy_GoogleContainerClusterNodeConfigKubeletConfigOutputReference) validatePutCrashLoopBackOffParameters(value *GoogleContainerClusterNodeConfigKubeletConfigCrashLoopBackOff) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleContainerClusterNodeConfigKubeletConfigOutputReference) validatePutEvictionMinimumReclaimParameters(value *GoogleContainerClusterNodeConfigKubeletConfigEvictionMinimumReclaim) error {
 	return nil
 }

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_tpu_v2_queued_resource google_tpu_v2_queued_resource}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_tpu_v2_queued_resource google_tpu_v2_queued_resource}.
 type GoogleTpuV2QueuedResource interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -462,7 +462,7 @@ func (j *jsiiProxy_GoogleTpuV2QueuedResource) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_tpu_v2_queued_resource google_tpu_v2_queued_resource} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_tpu_v2_queued_resource google_tpu_v2_queued_resource} Resource.
 func NewGoogleTpuV2QueuedResource(scope constructs.Construct, id *string, config *GoogleTpuV2QueuedResourceConfig) GoogleTpuV2QueuedResource {
 	_init_.Initialize()
 
@@ -480,7 +480,7 @@ func NewGoogleTpuV2QueuedResource(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_tpu_v2_queued_resource google_tpu_v2_queued_resource} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_tpu_v2_queued_resource google_tpu_v2_queued_resource} Resource.
 func NewGoogleTpuV2QueuedResource_Override(g GoogleTpuV2QueuedResource, scope constructs.Construct, id *string, config *GoogleTpuV2QueuedResourceConfig) {
 	_init_.Initialize()
 

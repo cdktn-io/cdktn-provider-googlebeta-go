@@ -93,6 +93,17 @@ func (g *jsiiProxy_GoogleContainerNodePoolNodeConfigKubeletConfigOutputReference
 	return nil
 }
 
+func (g *jsiiProxy_GoogleContainerNodePoolNodeConfigKubeletConfigOutputReference) validatePutCrashLoopBackOffParameters(value *GoogleContainerNodePoolNodeConfigKubeletConfigCrashLoopBackOff) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
+	}
+
+	return nil
+}
+
 func (g *jsiiProxy_GoogleContainerNodePoolNodeConfigKubeletConfigOutputReference) validatePutEvictionMinimumReclaimParameters(value *GoogleContainerNodePoolNodeConfigKubeletConfigEvictionMinimumReclaim) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")

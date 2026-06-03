@@ -35,6 +35,9 @@ type GoogleDataplexDataProductAccessGroupsPrincipalOutputReference interface {
 	GoogleGroupInput() *string
 	InternalValue() *GoogleDataplexDataProductAccessGroupsPrincipal
 	SetInternalValue(val *GoogleDataplexDataProductAccessGroupsPrincipal)
+	ServiceAccount() *string
+	SetServiceAccount(val *string)
+	ServiceAccountInput() *string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -68,6 +71,7 @@ type GoogleDataplexDataProductAccessGroupsPrincipalOutputReference interface {
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetGoogleGroup()
+	ResetServiceAccount()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -148,6 +152,26 @@ func (j *jsiiProxy_GoogleDataplexDataProductAccessGroupsPrincipalOutputReference
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDataplexDataProductAccessGroupsPrincipalOutputReference) ServiceAccount() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"serviceAccount",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDataplexDataProductAccessGroupsPrincipalOutputReference) ServiceAccountInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"serviceAccountInput",
 		&returns,
 	)
 	return returns
@@ -241,6 +265,17 @@ func (j *jsiiProxy_GoogleDataplexDataProductAccessGroupsPrincipalOutputReference
 	_jsii_.Set(
 		j,
 		"internalValue",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleDataplexDataProductAccessGroupsPrincipalOutputReference)SetServiceAccount(val *string) {
+	if err := j.validateSetServiceAccountParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"serviceAccount",
 		val,
 	)
 }
@@ -457,6 +492,14 @@ func (g *jsiiProxy_GoogleDataplexDataProductAccessGroupsPrincipalOutputReference
 	_jsii_.InvokeVoid(
 		g,
 		"resetGoogleGroup",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleDataplexDataProductAccessGroupsPrincipalOutputReference) ResetServiceAccount() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetServiceAccount",
 		nil, // no parameters
 	)
 }

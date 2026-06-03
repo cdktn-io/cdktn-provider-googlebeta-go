@@ -29,6 +29,7 @@ type DataGoogleContainerClusterNodePoolNodeConfigKubeletConfigOutputReference in
 	CpuCfsQuota() cdktn.IResolvable
 	CpuCfsQuotaPeriod() *string
 	CpuManagerPolicy() *string
+	CrashLoopBackOff() DataGoogleContainerClusterNodePoolNodeConfigKubeletConfigCrashLoopBackOffList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -174,6 +175,16 @@ func (j *jsiiProxy_DataGoogleContainerClusterNodePoolNodeConfigKubeletConfigOutp
 	_jsii_.Get(
 		j,
 		"cpuManagerPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleContainerClusterNodePoolNodeConfigKubeletConfigOutputReference) CrashLoopBackOff() DataGoogleContainerClusterNodePoolNodeConfigKubeletConfigCrashLoopBackOffList {
+	var returns DataGoogleContainerClusterNodePoolNodeConfigKubeletConfigCrashLoopBackOffList
+	_jsii_.Get(
+		j,
+		"crashLoopBackOff",
 		&returns,
 	)
 	return returns

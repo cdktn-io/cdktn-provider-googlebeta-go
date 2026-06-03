@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_oracle_database_exascale_db_storage_vault google_oracle_database_exascale_db_storage_vault}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_oracle_database_exascale_db_storage_vault google_oracle_database_exascale_db_storage_vault}.
 type GoogleOracleDatabaseExascaleDbStorageVault interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -610,7 +610,7 @@ func (j *jsiiProxy_GoogleOracleDatabaseExascaleDbStorageVault) TimeoutsInput() i
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_oracle_database_exascale_db_storage_vault google_oracle_database_exascale_db_storage_vault} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_oracle_database_exascale_db_storage_vault google_oracle_database_exascale_db_storage_vault} Resource.
 func NewGoogleOracleDatabaseExascaleDbStorageVault(scope constructs.Construct, id *string, config *GoogleOracleDatabaseExascaleDbStorageVaultConfig) GoogleOracleDatabaseExascaleDbStorageVault {
 	_init_.Initialize()
 
@@ -628,7 +628,7 @@ func NewGoogleOracleDatabaseExascaleDbStorageVault(scope constructs.Construct, i
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_oracle_database_exascale_db_storage_vault google_oracle_database_exascale_db_storage_vault} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_oracle_database_exascale_db_storage_vault google_oracle_database_exascale_db_storage_vault} Resource.
 func NewGoogleOracleDatabaseExascaleDbStorageVault_Override(g GoogleOracleDatabaseExascaleDbStorageVault, scope constructs.Construct, id *string, config *GoogleOracleDatabaseExascaleDbStorageVaultConfig) {
 	_init_.Initialize()
 

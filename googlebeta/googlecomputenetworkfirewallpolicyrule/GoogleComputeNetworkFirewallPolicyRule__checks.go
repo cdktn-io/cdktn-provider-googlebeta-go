@@ -564,7 +564,23 @@ func (j *jsiiProxy_GoogleComputeNetworkFirewallPolicyRule) validateSetSecurityPr
 	return nil
 }
 
+func (j *jsiiProxy_GoogleComputeNetworkFirewallPolicyRule) validateSetTargetForwardingRulesParameters(val *[]*string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_GoogleComputeNetworkFirewallPolicyRule) validateSetTargetServiceAccountsParameters(val *[]*string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_GoogleComputeNetworkFirewallPolicyRule) validateSetTargetTypeParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}

@@ -59,6 +59,10 @@ func (j *jsiiProxy_GoogleFirestoreFieldTtlConfigOutputReference) validateSetComp
 	return nil
 }
 
+func (j *jsiiProxy_GoogleFirestoreFieldTtlConfigOutputReference) validateSetExpirationOffsetParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleFirestoreFieldTtlConfigOutputReference) validateSetInternalValueParameters(val *GoogleFirestoreFieldTtlConfig) error {
 	return nil
 }

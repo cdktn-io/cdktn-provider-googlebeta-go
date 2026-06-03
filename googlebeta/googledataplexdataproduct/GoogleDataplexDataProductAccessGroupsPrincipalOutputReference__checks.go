@@ -182,6 +182,14 @@ func (j *jsiiProxy_GoogleDataplexDataProductAccessGroupsPrincipalOutputReference
 	return nil
 }
 
+func (j *jsiiProxy_GoogleDataplexDataProductAccessGroupsPrincipalOutputReference) validateSetServiceAccountParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_GoogleDataplexDataProductAccessGroupsPrincipalOutputReference) validateSetTerraformAttributeParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

@@ -65,6 +65,8 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "namePrefixInput", GoGetter: "NamePrefixInput"},
 			_jsii_.MemberProperty{JsiiProperty: "node", GoGetter: "Node"},
 			_jsii_.MemberMethod{JsiiMethod: "overrideLogicalId", GoMethod: "OverrideLogicalId"},
+			_jsii_.MemberProperty{JsiiProperty: "params", GoGetter: "Params"},
+			_jsii_.MemberProperty{JsiiProperty: "paramsInput", GoGetter: "ParamsInput"},
 			_jsii_.MemberProperty{JsiiProperty: "planningStatus", GoGetter: "PlanningStatus"},
 			_jsii_.MemberProperty{JsiiProperty: "planningStatusInput", GoGetter: "PlanningStatusInput"},
 			_jsii_.MemberProperty{JsiiProperty: "project", GoGetter: "Project"},
@@ -74,6 +76,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "putAggregateReservation", GoMethod: "PutAggregateReservation"},
 			_jsii_.MemberMethod{JsiiMethod: "putAutoCreatedReservationsDuration", GoMethod: "PutAutoCreatedReservationsDuration"},
 			_jsii_.MemberMethod{JsiiMethod: "putCommitmentInfo", GoMethod: "PutCommitmentInfo"},
+			_jsii_.MemberMethod{JsiiMethod: "putParams", GoMethod: "PutParams"},
 			_jsii_.MemberMethod{JsiiMethod: "putShareSettings", GoMethod: "PutShareSettings"},
 			_jsii_.MemberMethod{JsiiMethod: "putSpecificSkuProperties", GoMethod: "PutSpecificSkuProperties"},
 			_jsii_.MemberMethod{JsiiMethod: "putTimeouts", GoMethod: "PutTimeouts"},
@@ -94,6 +97,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetId", GoMethod: "ResetId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetNamePrefix", GoMethod: "ResetNamePrefix"},
 			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
+			_jsii_.MemberMethod{JsiiMethod: "resetParams", GoMethod: "ResetParams"},
 			_jsii_.MemberMethod{JsiiMethod: "resetPlanningStatus", GoMethod: "ResetPlanningStatus"},
 			_jsii_.MemberMethod{JsiiMethod: "resetProject", GoMethod: "ResetProject"},
 			_jsii_.MemberMethod{JsiiMethod: "resetReservationMode", GoMethod: "ResetReservationMode"},
@@ -375,6 +379,45 @@ func init() {
 	_jsii_.RegisterStruct(
 		"@cdktn/provider-google-beta.googleComputeFutureReservation.GoogleComputeFutureReservationConfig",
 		reflect.TypeOf((*GoogleComputeFutureReservationConfig)(nil)).Elem(),
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-google-beta.googleComputeFutureReservation.GoogleComputeFutureReservationParams",
+		reflect.TypeOf((*GoogleComputeFutureReservationParams)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-google-beta.googleComputeFutureReservation.GoogleComputeFutureReservationParamsOutputReference",
+		reflect.TypeOf((*GoogleComputeFutureReservationParamsOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "resetResourceManagerTags", GoMethod: "ResetResourceManagerTags"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "resourceManagerTags", GoGetter: "ResourceManagerTags"},
+			_jsii_.MemberProperty{JsiiProperty: "resourceManagerTagsInput", GoGetter: "ResourceManagerTagsInput"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_GoogleComputeFutureReservationParamsOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
 	)
 	_jsii_.RegisterStruct(
 		"@cdktn/provider-google-beta.googleComputeFutureReservation.GoogleComputeFutureReservationShareSettings",

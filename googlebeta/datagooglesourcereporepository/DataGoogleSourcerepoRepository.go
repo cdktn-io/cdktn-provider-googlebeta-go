@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/data-sources/google_sourcerepo_repository google_sourcerepo_repository}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/data-sources/google_sourcerepo_repository google_sourcerepo_repository}.
 type DataGoogleSourcerepoRepository interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -376,7 +376,7 @@ func (j *jsiiProxy_DataGoogleSourcerepoRepository) Url() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/data-sources/google_sourcerepo_repository google_sourcerepo_repository} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/data-sources/google_sourcerepo_repository google_sourcerepo_repository} Data Source.
 func NewDataGoogleSourcerepoRepository(scope constructs.Construct, id *string, config *DataGoogleSourcerepoRepositoryConfig) DataGoogleSourcerepoRepository {
 	_init_.Initialize()
 
@@ -394,7 +394,7 @@ func NewDataGoogleSourcerepoRepository(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/data-sources/google_sourcerepo_repository google_sourcerepo_repository} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/data-sources/google_sourcerepo_repository google_sourcerepo_repository} Data Source.
 func NewDataGoogleSourcerepoRepository_Override(d DataGoogleSourcerepoRepository, scope constructs.Construct, id *string, config *DataGoogleSourcerepoRepositoryConfig) {
 	_init_.Initialize()
 

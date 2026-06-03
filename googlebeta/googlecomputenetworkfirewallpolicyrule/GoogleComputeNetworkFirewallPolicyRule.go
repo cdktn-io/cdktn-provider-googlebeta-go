@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_network_firewall_policy_rule google_compute_network_firewall_policy_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_network_firewall_policy_rule google_compute_network_firewall_policy_rule}.
 type GoogleComputeNetworkFirewallPolicyRule interface {
 	cdktn.TerraformResource
 	Action() *string
@@ -96,11 +96,17 @@ type GoogleComputeNetworkFirewallPolicyRule interface {
 	SecurityProfileGroup() *string
 	SetSecurityProfileGroup(val *string)
 	SecurityProfileGroupInput() *string
+	TargetForwardingRules() *[]*string
+	SetTargetForwardingRules(val *[]*string)
+	TargetForwardingRulesInput() *[]*string
 	TargetSecureTags() GoogleComputeNetworkFirewallPolicyRuleTargetSecureTagsList
 	TargetSecureTagsInput() interface{}
 	TargetServiceAccounts() *[]*string
 	SetTargetServiceAccounts(val *[]*string)
 	TargetServiceAccountsInput() *[]*string
+	TargetType() *string
+	SetTargetType(val *string)
+	TargetTypeInput() *string
 	// Experimental.
 	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
@@ -169,8 +175,10 @@ type GoogleComputeNetworkFirewallPolicyRule interface {
 	ResetProject()
 	ResetRuleName()
 	ResetSecurityProfileGroup()
+	ResetTargetForwardingRules()
 	ResetTargetSecureTags()
 	ResetTargetServiceAccounts()
+	ResetTargetType()
 	ResetTimeouts()
 	ResetTlsInspect()
 	SynthesizeAttributes() *map[string]interface{}
@@ -620,6 +628,26 @@ func (j *jsiiProxy_GoogleComputeNetworkFirewallPolicyRule) SecurityProfileGroupI
 	return returns
 }
 
+func (j *jsiiProxy_GoogleComputeNetworkFirewallPolicyRule) TargetForwardingRules() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"targetForwardingRules",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeNetworkFirewallPolicyRule) TargetForwardingRulesInput() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"targetForwardingRulesInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleComputeNetworkFirewallPolicyRule) TargetSecureTags() GoogleComputeNetworkFirewallPolicyRuleTargetSecureTagsList {
 	var returns GoogleComputeNetworkFirewallPolicyRuleTargetSecureTagsList
 	_jsii_.Get(
@@ -655,6 +683,26 @@ func (j *jsiiProxy_GoogleComputeNetworkFirewallPolicyRule) TargetServiceAccounts
 	_jsii_.Get(
 		j,
 		"targetServiceAccountsInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeNetworkFirewallPolicyRule) TargetType() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"targetType",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeNetworkFirewallPolicyRule) TargetTypeInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"targetTypeInput",
 		&returns,
 	)
 	return returns
@@ -731,7 +779,7 @@ func (j *jsiiProxy_GoogleComputeNetworkFirewallPolicyRule) TlsInspectInput() int
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_network_firewall_policy_rule google_compute_network_firewall_policy_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_network_firewall_policy_rule google_compute_network_firewall_policy_rule} Resource.
 func NewGoogleComputeNetworkFirewallPolicyRule(scope constructs.Construct, id *string, config *GoogleComputeNetworkFirewallPolicyRuleConfig) GoogleComputeNetworkFirewallPolicyRule {
 	_init_.Initialize()
 
@@ -749,7 +797,7 @@ func NewGoogleComputeNetworkFirewallPolicyRule(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_network_firewall_policy_rule google_compute_network_firewall_policy_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_network_firewall_policy_rule google_compute_network_firewall_policy_rule} Resource.
 func NewGoogleComputeNetworkFirewallPolicyRule_Override(g GoogleComputeNetworkFirewallPolicyRule, scope constructs.Construct, id *string, config *GoogleComputeNetworkFirewallPolicyRuleConfig) {
 	_init_.Initialize()
 
@@ -960,6 +1008,17 @@ func (j *jsiiProxy_GoogleComputeNetworkFirewallPolicyRule)SetSecurityProfileGrou
 	)
 }
 
+func (j *jsiiProxy_GoogleComputeNetworkFirewallPolicyRule)SetTargetForwardingRules(val *[]*string) {
+	if err := j.validateSetTargetForwardingRulesParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"targetForwardingRules",
+		val,
+	)
+}
+
 func (j *jsiiProxy_GoogleComputeNetworkFirewallPolicyRule)SetTargetServiceAccounts(val *[]*string) {
 	if err := j.validateSetTargetServiceAccountsParameters(val); err != nil {
 		panic(err)
@@ -967,6 +1026,17 @@ func (j *jsiiProxy_GoogleComputeNetworkFirewallPolicyRule)SetTargetServiceAccoun
 	_jsii_.Set(
 		j,
 		"targetServiceAccounts",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleComputeNetworkFirewallPolicyRule)SetTargetType(val *string) {
+	if err := j.validateSetTargetTypeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"targetType",
 		val,
 	)
 }
@@ -1440,6 +1510,14 @@ func (g *jsiiProxy_GoogleComputeNetworkFirewallPolicyRule) ResetSecurityProfileG
 	)
 }
 
+func (g *jsiiProxy_GoogleComputeNetworkFirewallPolicyRule) ResetTargetForwardingRules() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetTargetForwardingRules",
+		nil, // no parameters
+	)
+}
+
 func (g *jsiiProxy_GoogleComputeNetworkFirewallPolicyRule) ResetTargetSecureTags() {
 	_jsii_.InvokeVoid(
 		g,
@@ -1452,6 +1530,14 @@ func (g *jsiiProxy_GoogleComputeNetworkFirewallPolicyRule) ResetTargetServiceAcc
 	_jsii_.InvokeVoid(
 		g,
 		"resetTargetServiceAccounts",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleComputeNetworkFirewallPolicyRule) ResetTargetType() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetTargetType",
 		nil, // no parameters
 	)
 }

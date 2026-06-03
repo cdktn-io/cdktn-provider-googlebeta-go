@@ -24,11 +24,11 @@ type GoogleRuntimeconfigVariableConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The name of the variable to manage. Note that variable names can be hierarchical using slashes (e.g. "prod-variables/hostname").
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_runtimeconfig_variable#name GoogleRuntimeconfigVariable#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_runtimeconfig_variable#name GoogleRuntimeconfigVariable#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// The name of the RuntimeConfig resource containing this variable.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_runtimeconfig_variable#parent GoogleRuntimeconfigVariable#parent}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_runtimeconfig_variable#parent GoogleRuntimeconfigVariable#parent}
 	Parent *string `field:"required" json:"parent" yaml:"parent"`
 	// Whether Terraform will be prevented from destroying the instance.
 	//
@@ -40,9 +40,9 @@ type GoogleRuntimeconfigVariableConfig struct {
 	// When set to "DELETE", deleting the resource is allowed.
 	//
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_runtimeconfig_variable#deletion_policy GoogleRuntimeconfigVariable#deletion_policy}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_runtimeconfig_variable#deletion_policy GoogleRuntimeconfigVariable#deletion_policy}
 	DeletionPolicy *string `field:"optional" json:"deletionPolicy" yaml:"deletionPolicy"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_runtimeconfig_variable#id GoogleRuntimeconfigVariable#id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_runtimeconfig_variable#id GoogleRuntimeconfigVariable#id}.
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -51,11 +51,11 @@ type GoogleRuntimeconfigVariableConfig struct {
 	//
 	// If it is not provided, the provider project is used.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_runtimeconfig_variable#project GoogleRuntimeconfigVariable#project}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_runtimeconfig_variable#project GoogleRuntimeconfigVariable#project}
 	Project *string `field:"optional" json:"project" yaml:"project"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_runtimeconfig_variable#text GoogleRuntimeconfigVariable#text}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_runtimeconfig_variable#text GoogleRuntimeconfigVariable#text}.
 	Text *string `field:"optional" json:"text" yaml:"text"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_runtimeconfig_variable#value GoogleRuntimeconfigVariable#value}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_runtimeconfig_variable#value GoogleRuntimeconfigVariable#value}.
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

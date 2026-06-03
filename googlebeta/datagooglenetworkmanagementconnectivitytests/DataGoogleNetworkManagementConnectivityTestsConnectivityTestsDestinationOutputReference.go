@@ -34,11 +34,13 @@ type DataGoogleNetworkManagementConnectivityTestsConnectivityTestsDestinationOut
 	// Experimental.
 	Fqn() *string
 	GkeMasterCluster() *string
+	GkePod() *string
 	Instance() *string
 	InternalValue() *DataGoogleNetworkManagementConnectivityTestsConnectivityTestsDestination
 	SetInternalValue(val *DataGoogleNetworkManagementConnectivityTestsConnectivityTestsDestination)
 	IpAddress() *string
 	Network() *string
+	NetworkType() *string
 	Port() *float64
 	ProjectId() *string
 	RedisCluster() *string
@@ -170,6 +172,16 @@ func (j *jsiiProxy_DataGoogleNetworkManagementConnectivityTestsConnectivityTests
 	return returns
 }
 
+func (j *jsiiProxy_DataGoogleNetworkManagementConnectivityTestsConnectivityTestsDestinationOutputReference) GkePod() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"gkePod",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataGoogleNetworkManagementConnectivityTestsConnectivityTestsDestinationOutputReference) Instance() *string {
 	var returns *string
 	_jsii_.Get(
@@ -205,6 +217,16 @@ func (j *jsiiProxy_DataGoogleNetworkManagementConnectivityTestsConnectivityTests
 	_jsii_.Get(
 		j,
 		"network",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleNetworkManagementConnectivityTestsConnectivityTestsDestinationOutputReference) NetworkType() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"networkType",
 		&returns,
 	)
 	return returns

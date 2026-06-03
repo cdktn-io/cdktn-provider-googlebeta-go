@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_oracle_database_autonomous_database google_oracle_database_autonomous_database}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_oracle_database_autonomous_database google_oracle_database_autonomous_database}.
 type GoogleOracleDatabaseAutonomousDatabase interface {
 	cdktn.TerraformResource
 	AdminPassword() *string
@@ -778,7 +778,7 @@ func (j *jsiiProxy_GoogleOracleDatabaseAutonomousDatabase) TimeoutsInput() inter
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_oracle_database_autonomous_database google_oracle_database_autonomous_database} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_oracle_database_autonomous_database google_oracle_database_autonomous_database} Resource.
 func NewGoogleOracleDatabaseAutonomousDatabase(scope constructs.Construct, id *string, config *GoogleOracleDatabaseAutonomousDatabaseConfig) GoogleOracleDatabaseAutonomousDatabase {
 	_init_.Initialize()
 
@@ -796,7 +796,7 @@ func NewGoogleOracleDatabaseAutonomousDatabase(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_oracle_database_autonomous_database google_oracle_database_autonomous_database} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_oracle_database_autonomous_database google_oracle_database_autonomous_database} Resource.
 func NewGoogleOracleDatabaseAutonomousDatabase_Override(g GoogleOracleDatabaseAutonomousDatabase, scope constructs.Construct, id *string, config *GoogleOracleDatabaseAutonomousDatabaseConfig) {
 	_init_.Initialize()
 

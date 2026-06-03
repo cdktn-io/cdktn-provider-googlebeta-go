@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_integrations_auth_config google_integrations_auth_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integrations_auth_config google_integrations_auth_config}.
 type GoogleIntegrationsAuthConfig interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -702,7 +702,7 @@ func (j *jsiiProxy_GoogleIntegrationsAuthConfig) VisibilityInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_integrations_auth_config google_integrations_auth_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integrations_auth_config google_integrations_auth_config} Resource.
 func NewGoogleIntegrationsAuthConfig(scope constructs.Construct, id *string, config *GoogleIntegrationsAuthConfigConfig) GoogleIntegrationsAuthConfig {
 	_init_.Initialize()
 
@@ -720,7 +720,7 @@ func NewGoogleIntegrationsAuthConfig(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_integrations_auth_config google_integrations_auth_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_integrations_auth_config google_integrations_auth_config} Resource.
 func NewGoogleIntegrationsAuthConfig_Override(g GoogleIntegrationsAuthConfig, scope constructs.Construct, id *string, config *GoogleIntegrationsAuthConfigConfig) {
 	_init_.Initialize()
 

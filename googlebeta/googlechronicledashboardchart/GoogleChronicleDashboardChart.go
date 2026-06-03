@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart google_chronicle_dashboard_chart}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart google_chronicle_dashboard_chart}.
 type GoogleChronicleDashboardChart interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -554,7 +554,7 @@ func (j *jsiiProxy_GoogleChronicleDashboardChart) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart google_chronicle_dashboard_chart} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart google_chronicle_dashboard_chart} Resource.
 func NewGoogleChronicleDashboardChart(scope constructs.Construct, id *string, config *GoogleChronicleDashboardChartConfig) GoogleChronicleDashboardChart {
 	_init_.Initialize()
 
@@ -572,7 +572,7 @@ func NewGoogleChronicleDashboardChart(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart google_chronicle_dashboard_chart} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart google_chronicle_dashboard_chart} Resource.
 func NewGoogleChronicleDashboardChart_Override(g GoogleChronicleDashboardChart, scope constructs.Construct, id *string, config *GoogleChronicleDashboardChartConfig) {
 	_init_.Initialize()
 

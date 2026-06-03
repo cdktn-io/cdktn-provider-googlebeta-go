@@ -240,6 +240,17 @@ func (g *jsiiProxy_GoogleComputeFutureReservation) validatePutCommitmentInfoPara
 	return nil
 }
 
+func (g *jsiiProxy_GoogleComputeFutureReservation) validatePutParamsParameters(value *GoogleComputeFutureReservationParams) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
+	}
+
+	return nil
+}
+
 func (g *jsiiProxy_GoogleComputeFutureReservation) validatePutShareSettingsParameters(value *GoogleComputeFutureReservationShareSettings) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")

@@ -5,5 +5,11 @@ package googlefirestorefield
 
 
 type GoogleFirestoreFieldTtlConfig struct {
+	// The offset, relative to the timestamp value from the field, used to determine the document's expiration time.
+	//
+	// Formatted as the number of seconds followed by 's'. For example, "60s" represents an offset of one minute. The number of seconds must be between 1 and 2147483647 inclusive. To configure no offset, omit this field.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firestore_field#expiration_offset GoogleFirestoreField#expiration_offset}
+	ExpirationOffset *string `field:"optional" json:"expirationOffset" yaml:"expirationOffset"`
 }
 

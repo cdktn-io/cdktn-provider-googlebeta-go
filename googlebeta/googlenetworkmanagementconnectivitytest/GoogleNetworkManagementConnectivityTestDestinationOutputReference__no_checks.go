@@ -75,6 +75,10 @@ func (j *jsiiProxy_GoogleNetworkManagementConnectivityTestDestinationOutputRefer
 	return nil
 }
 
+func (j *jsiiProxy_GoogleNetworkManagementConnectivityTestDestinationOutputReference) validateSetGkePodParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleNetworkManagementConnectivityTestDestinationOutputReference) validateSetInstanceParameters(val *string) error {
 	return nil
 }
@@ -88,6 +92,10 @@ func (j *jsiiProxy_GoogleNetworkManagementConnectivityTestDestinationOutputRefer
 }
 
 func (j *jsiiProxy_GoogleNetworkManagementConnectivityTestDestinationOutputReference) validateSetNetworkParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleNetworkManagementConnectivityTestDestinationOutputReference) validateSetNetworkTypeParameters(val *string) error {
 	return nil
 }
 

@@ -1,3 +1,3 @@
 # `google_gke_hub_rollout_sequence`
 
-Refer to the Terraform Registry for docs: [`google_gke_hub_rollout_sequence`](https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_gke_hub_rollout_sequence).
+Refer to the Terraform Registry for docs: [`google_gke_hub_rollout_sequence`](https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gke_hub_rollout_sequence).

@@ -7,7 +7,7 @@ package googlemigrationcenterassetsexportjob
 type GoogleMigrationCenterAssetsExportJobSignedUriDestination struct {
 	// The file format to export. Possible values: CSV XLSX.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_migration_center_assets_export_job#file_format GoogleMigrationCenterAssetsExportJob#file_format}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_migration_center_assets_export_job#file_format GoogleMigrationCenterAssetsExportJob#file_format}
 	FileFormat *string `field:"required" json:"fileFormat" yaml:"fileFormat"`
 }
 

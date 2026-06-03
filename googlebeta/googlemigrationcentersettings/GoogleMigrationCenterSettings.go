@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_migration_center_settings google_migration_center_settings}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_migration_center_settings google_migration_center_settings}.
 type GoogleMigrationCenterSettings interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -473,7 +473,7 @@ func (j *jsiiProxy_GoogleMigrationCenterSettings) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_migration_center_settings google_migration_center_settings} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_migration_center_settings google_migration_center_settings} Resource.
 func NewGoogleMigrationCenterSettings(scope constructs.Construct, id *string, config *GoogleMigrationCenterSettingsConfig) GoogleMigrationCenterSettings {
 	_init_.Initialize()
 
@@ -491,7 +491,7 @@ func NewGoogleMigrationCenterSettings(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_migration_center_settings google_migration_center_settings} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_migration_center_settings google_migration_center_settings} Resource.
 func NewGoogleMigrationCenterSettings_Override(g GoogleMigrationCenterSettings, scope constructs.Construct, id *string, config *GoogleMigrationCenterSettingsConfig) {
 	_init_.Initialize()
 
