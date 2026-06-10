@@ -24,11 +24,11 @@ type GoogleNetworkSecurityUllMirroringEngineConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The cloud location of the engine, e.g. 'us-south1-d' or 'us-south1-e'.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_security_ull_mirroring_engine#location GoogleNetworkSecurityUllMirroringEngine#location}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_security_ull_mirroring_engine#location GoogleNetworkSecurityUllMirroringEngine#location}
 	Location *string `field:"required" json:"location" yaml:"location"`
 	// The ID to use for the new engine, which will become the final component of the engine's resource name.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_security_ull_mirroring_engine#ull_mirroring_engine_id GoogleNetworkSecurityUllMirroringEngine#ull_mirroring_engine_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_security_ull_mirroring_engine#ull_mirroring_engine_id GoogleNetworkSecurityUllMirroringEngine#ull_mirroring_engine_id}
 	UllMirroringEngineId *string `field:"required" json:"ullMirroringEngineId" yaml:"ullMirroringEngineId"`
 	// Whether Terraform will be prevented from destroying the instance.
 	//
@@ -40,9 +40,9 @@ type GoogleNetworkSecurityUllMirroringEngineConfig struct {
 	// When set to "DELETE", deleting the resource is allowed.
 	//
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_security_ull_mirroring_engine#deletion_policy GoogleNetworkSecurityUllMirroringEngine#deletion_policy}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_security_ull_mirroring_engine#deletion_policy GoogleNetworkSecurityUllMirroringEngine#deletion_policy}
 	DeletionPolicy *string `field:"optional" json:"deletionPolicy" yaml:"deletionPolicy"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_security_ull_mirroring_engine#id GoogleNetworkSecurityUllMirroringEngine#id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_security_ull_mirroring_engine#id GoogleNetworkSecurityUllMirroringEngine#id}.
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -52,13 +52,13 @@ type GoogleNetworkSecurityUllMirroringEngineConfig struct {
 	// **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 	// Please refer to the field 'effective_labels' for all of the labels present on the resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_security_ull_mirroring_engine#labels GoogleNetworkSecurityUllMirroringEngine#labels}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_security_ull_mirroring_engine#labels GoogleNetworkSecurityUllMirroringEngine#labels}
 	Labels *map[string]*string `field:"optional" json:"labels" yaml:"labels"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_security_ull_mirroring_engine#project GoogleNetworkSecurityUllMirroringEngine#project}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_security_ull_mirroring_engine#project GoogleNetworkSecurityUllMirroringEngine#project}.
 	Project *string `field:"optional" json:"project" yaml:"project"`
 	// timeouts block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_security_ull_mirroring_engine#timeouts GoogleNetworkSecurityUllMirroringEngine#timeouts}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_security_ull_mirroring_engine#timeouts GoogleNetworkSecurityUllMirroringEngine#timeouts}
 	Timeouts *GoogleNetworkSecurityUllMirroringEngineTimeouts `field:"optional" json:"timeouts" yaml:"timeouts"`
 }
 

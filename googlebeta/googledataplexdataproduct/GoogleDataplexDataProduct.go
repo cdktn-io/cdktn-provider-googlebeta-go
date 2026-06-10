@@ -12,9 +12,11 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dataplex_data_product google_dataplex_data_product}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dataplex_data_product google_dataplex_data_product}.
 type GoogleDataplexDataProduct interface {
 	cdktn.TerraformResource
+	AccessApprovalConfig() GoogleDataplexDataProductAccessApprovalConfigOutputReference
+	AccessApprovalConfigInput() *GoogleDataplexDataProductAccessApprovalConfig
 	AccessGroups() GoogleDataplexDataProductAccessGroupsList
 	AccessGroupsInput() interface{}
 	AssetCount() *float64
@@ -70,6 +72,7 @@ type GoogleDataplexDataProduct interface {
 	Location() *string
 	SetLocation(val *string)
 	LocationInput() *string
+	Name() *string
 	// The tree node.
 	Node() constructs.Node
 	OwnerEmails() *[]*string
@@ -142,8 +145,10 @@ type GoogleDataplexDataProduct interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	PutAccessApprovalConfig(value *GoogleDataplexDataProductAccessApprovalConfig)
 	PutAccessGroups(value interface{})
 	PutTimeouts(value *GoogleDataplexDataProductTimeouts)
+	ResetAccessApprovalConfig()
 	ResetAccessGroups()
 	ResetDeletionPolicy()
 	ResetDescription()
@@ -179,6 +184,26 @@ type GoogleDataplexDataProduct interface {
 // The jsii proxy struct for GoogleDataplexDataProduct
 type jsiiProxy_GoogleDataplexDataProduct struct {
 	internal.Type__cdktnTerraformResource
+}
+
+func (j *jsiiProxy_GoogleDataplexDataProduct) AccessApprovalConfig() GoogleDataplexDataProductAccessApprovalConfigOutputReference {
+	var returns GoogleDataplexDataProductAccessApprovalConfigOutputReference
+	_jsii_.Get(
+		j,
+		"accessApprovalConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDataplexDataProduct) AccessApprovalConfigInput() *GoogleDataplexDataProductAccessApprovalConfig {
+	var returns *GoogleDataplexDataProductAccessApprovalConfig
+	_jsii_.Get(
+		j,
+		"accessApprovalConfigInput",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_GoogleDataplexDataProduct) AccessGroups() GoogleDataplexDataProductAccessGroupsList {
@@ -471,6 +496,16 @@ func (j *jsiiProxy_GoogleDataplexDataProduct) LocationInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_GoogleDataplexDataProduct) Name() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"name",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleDataplexDataProduct) Node() constructs.Node {
 	var returns constructs.Node
 	_jsii_.Get(
@@ -632,7 +667,7 @@ func (j *jsiiProxy_GoogleDataplexDataProduct) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dataplex_data_product google_dataplex_data_product} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dataplex_data_product google_dataplex_data_product} Resource.
 func NewGoogleDataplexDataProduct(scope constructs.Construct, id *string, config *GoogleDataplexDataProductConfig) GoogleDataplexDataProduct {
 	_init_.Initialize()
 
@@ -650,7 +685,7 @@ func NewGoogleDataplexDataProduct(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dataplex_data_product google_dataplex_data_product} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dataplex_data_product google_dataplex_data_product} Resource.
 func NewGoogleDataplexDataProduct_Override(g GoogleDataplexDataProduct, scope constructs.Construct, id *string, config *GoogleDataplexDataProductConfig) {
 	_init_.Initialize()
 
@@ -1181,6 +1216,17 @@ func (g *jsiiProxy_GoogleDataplexDataProduct) OverrideLogicalId(newLogicalId *st
 	)
 }
 
+func (g *jsiiProxy_GoogleDataplexDataProduct) PutAccessApprovalConfig(value *GoogleDataplexDataProductAccessApprovalConfig) {
+	if err := g.validatePutAccessApprovalConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putAccessApprovalConfig",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleDataplexDataProduct) PutAccessGroups(value interface{}) {
 	if err := g.validatePutAccessGroupsParameters(value); err != nil {
 		panic(err)
@@ -1200,6 +1246,14 @@ func (g *jsiiProxy_GoogleDataplexDataProduct) PutTimeouts(value *GoogleDataplexD
 		g,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleDataplexDataProduct) ResetAccessApprovalConfig() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetAccessApprovalConfig",
+		nil, // no parameters
 	)
 }
 

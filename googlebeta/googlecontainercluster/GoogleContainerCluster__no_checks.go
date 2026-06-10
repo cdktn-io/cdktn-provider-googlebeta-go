@@ -199,6 +199,10 @@ func (g *jsiiProxy_GoogleContainerCluster) validatePutNodeConfigParameters(value
 	return nil
 }
 
+func (g *jsiiProxy_GoogleContainerCluster) validatePutNodeCreationConfigParameters(value *GoogleContainerClusterNodeCreationConfig) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleContainerCluster) validatePutNodePoolParameters(value interface{}) error {
 	return nil
 }

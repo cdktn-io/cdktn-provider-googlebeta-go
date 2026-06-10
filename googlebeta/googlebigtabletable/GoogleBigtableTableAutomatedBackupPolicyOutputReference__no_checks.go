@@ -67,6 +67,10 @@ func (j *jsiiProxy_GoogleBigtableTableAutomatedBackupPolicyOutputReference) vali
 	return nil
 }
 
+func (j *jsiiProxy_GoogleBigtableTableAutomatedBackupPolicyOutputReference) validateSetLocationsParameters(val *[]*string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleBigtableTableAutomatedBackupPolicyOutputReference) validateSetRetentionPeriodParameters(val *string) error {
 	return nil
 }

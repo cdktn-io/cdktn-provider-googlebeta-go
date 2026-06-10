@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_hypercomputecluster_cluster google_hypercomputecluster_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_hypercomputecluster_cluster google_hypercomputecluster_cluster}.
 type GoogleHypercomputeclusterCluster interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -151,7 +151,6 @@ type GoogleHypercomputeclusterCluster interface {
 	ResetDescription()
 	ResetId()
 	ResetLabels()
-	ResetNetworkResources()
 	ResetOrchestrator()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -647,7 +646,7 @@ func (j *jsiiProxy_GoogleHypercomputeclusterCluster) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_hypercomputecluster_cluster google_hypercomputecluster_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_hypercomputecluster_cluster google_hypercomputecluster_cluster} Resource.
 func NewGoogleHypercomputeclusterCluster(scope constructs.Construct, id *string, config *GoogleHypercomputeclusterClusterConfig) GoogleHypercomputeclusterCluster {
 	_init_.Initialize()
 
@@ -665,7 +664,7 @@ func NewGoogleHypercomputeclusterCluster(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_hypercomputecluster_cluster google_hypercomputecluster_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_hypercomputecluster_cluster google_hypercomputecluster_cluster} Resource.
 func NewGoogleHypercomputeclusterCluster_Override(g GoogleHypercomputeclusterCluster, scope constructs.Construct, id *string, config *GoogleHypercomputeclusterClusterConfig) {
 	_init_.Initialize()
 
@@ -1265,14 +1264,6 @@ func (g *jsiiProxy_GoogleHypercomputeclusterCluster) ResetLabels() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetLabels",
-		nil, // no parameters
-	)
-}
-
-func (g *jsiiProxy_GoogleHypercomputeclusterCluster) ResetNetworkResources() {
-	_jsii_.InvokeVoid(
-		g,
-		"resetNetworkResources",
 		nil, // no parameters
 	)
 }

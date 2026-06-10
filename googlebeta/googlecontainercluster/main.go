@@ -165,6 +165,8 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "node", GoGetter: "Node"},
 			_jsii_.MemberProperty{JsiiProperty: "nodeConfig", GoGetter: "NodeConfig"},
 			_jsii_.MemberProperty{JsiiProperty: "nodeConfigInput", GoGetter: "NodeConfigInput"},
+			_jsii_.MemberProperty{JsiiProperty: "nodeCreationConfig", GoGetter: "NodeCreationConfig"},
+			_jsii_.MemberProperty{JsiiProperty: "nodeCreationConfigInput", GoGetter: "NodeCreationConfigInput"},
 			_jsii_.MemberProperty{JsiiProperty: "nodeLocations", GoGetter: "NodeLocations"},
 			_jsii_.MemberProperty{JsiiProperty: "nodeLocationsInput", GoGetter: "NodeLocationsInput"},
 			_jsii_.MemberProperty{JsiiProperty: "nodePool", GoGetter: "NodePool"},
@@ -224,6 +226,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "putNetworkPerformanceConfig", GoMethod: "PutNetworkPerformanceConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "putNetworkPolicy", GoMethod: "PutNetworkPolicy"},
 			_jsii_.MemberMethod{JsiiMethod: "putNodeConfig", GoMethod: "PutNodeConfig"},
+			_jsii_.MemberMethod{JsiiMethod: "putNodeCreationConfig", GoMethod: "PutNodeCreationConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "putNodePool", GoMethod: "PutNodePool"},
 			_jsii_.MemberMethod{JsiiMethod: "putNodePoolAutoConfig", GoMethod: "PutNodePoolAutoConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "putNodePoolDefaults", GoMethod: "PutNodePoolDefaults"},
@@ -311,6 +314,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetNetworkPerformanceConfig", GoMethod: "ResetNetworkPerformanceConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "resetNetworkPolicy", GoMethod: "ResetNetworkPolicy"},
 			_jsii_.MemberMethod{JsiiMethod: "resetNodeConfig", GoMethod: "ResetNodeConfig"},
+			_jsii_.MemberMethod{JsiiMethod: "resetNodeCreationConfig", GoMethod: "ResetNodeCreationConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "resetNodeLocations", GoMethod: "ResetNodeLocations"},
 			_jsii_.MemberMethod{JsiiMethod: "resetNodePool", GoMethod: "ResetNodePool"},
 			_jsii_.MemberMethod{JsiiMethod: "resetNodePoolAutoConfig", GoMethod: "ResetNodePoolAutoConfig"},
@@ -6436,6 +6440,44 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
+		"@cdktn/provider-google-beta.googleContainerCluster.GoogleContainerClusterNodeCreationConfig",
+		reflect.TypeOf((*GoogleContainerClusterNodeCreationConfig)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-google-beta.googleContainerCluster.GoogleContainerClusterNodeCreationConfigOutputReference",
+		reflect.TypeOf((*GoogleContainerClusterNodeCreationConfigOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "nodeCreationMode", GoGetter: "NodeCreationMode"},
+			_jsii_.MemberProperty{JsiiProperty: "nodeCreationModeInput", GoGetter: "NodeCreationModeInput"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_GoogleContainerClusterNodeCreationConfigOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
 		"@cdktn/provider-google-beta.googleContainerCluster.GoogleContainerClusterNodePool",
 		reflect.TypeOf((*GoogleContainerClusterNodePool)(nil)).Elem(),
 	)
@@ -10530,9 +10572,15 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
 			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
 			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "graceTerminationDuration", GoGetter: "GraceTerminationDuration"},
+			_jsii_.MemberProperty{JsiiProperty: "graceTerminationDurationInput", GoGetter: "GraceTerminationDurationInput"},
 			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
 			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
 			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "pdbTimeoutDuration", GoGetter: "PdbTimeoutDuration"},
+			_jsii_.MemberProperty{JsiiProperty: "pdbTimeoutDurationInput", GoGetter: "PdbTimeoutDurationInput"},
+			_jsii_.MemberMethod{JsiiMethod: "resetGraceTerminationDuration", GoMethod: "ResetGraceTerminationDuration"},
+			_jsii_.MemberMethod{JsiiMethod: "resetPdbTimeoutDuration", GoMethod: "ResetPdbTimeoutDuration"},
 			_jsii_.MemberMethod{JsiiMethod: "resetRespectPdbDuringNodePoolDeletion", GoMethod: "ResetRespectPdbDuringNodePoolDeletion"},
 			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
 			_jsii_.MemberProperty{JsiiProperty: "respectPdbDuringNodePoolDeletion", GoGetter: "RespectPdbDuringNodePoolDeletion"},

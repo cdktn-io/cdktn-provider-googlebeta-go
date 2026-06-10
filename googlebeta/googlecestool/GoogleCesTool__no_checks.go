@@ -75,11 +75,19 @@ func (g *jsiiProxy_GoogleCesTool) validateOverrideLogicalIdParameters(newLogical
 	return nil
 }
 
+func (g *jsiiProxy_GoogleCesTool) validatePutAgentToolParameters(value *GoogleCesToolAgentTool) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleCesTool) validatePutClientFunctionParameters(value *GoogleCesToolClientFunction) error {
 	return nil
 }
 
 func (g *jsiiProxy_GoogleCesTool) validatePutDataStoreToolParameters(value *GoogleCesToolDataStoreTool) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleCesTool) validatePutFileSearchToolParameters(value *GoogleCesToolFileSearchTool) error {
 	return nil
 }
 
@@ -92,6 +100,10 @@ func (g *jsiiProxy_GoogleCesTool) validatePutPythonFunctionParameters(value *Goo
 }
 
 func (g *jsiiProxy_GoogleCesTool) validatePutTimeoutsParameters(value *GoogleCesToolTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleCesTool) validatePutWidgetToolParameters(value *GoogleCesToolWidgetTool) error {
 	return nil
 }
 

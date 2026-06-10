@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_apigee_organization google_apigee_organization}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apigee_organization google_apigee_organization}.
 type GoogleApigeeOrganization interface {
 	cdktn.TerraformResource
 	AnalyticsRegion() *string
@@ -746,7 +746,7 @@ func (j *jsiiProxy_GoogleApigeeOrganization) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_apigee_organization google_apigee_organization} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apigee_organization google_apigee_organization} Resource.
 func NewGoogleApigeeOrganization(scope constructs.Construct, id *string, config *GoogleApigeeOrganizationConfig) GoogleApigeeOrganization {
 	_init_.Initialize()
 
@@ -764,7 +764,7 @@ func NewGoogleApigeeOrganization(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_apigee_organization google_apigee_organization} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_apigee_organization google_apigee_organization} Resource.
 func NewGoogleApigeeOrganization_Override(g GoogleApigeeOrganization, scope constructs.Construct, id *string, config *GoogleApigeeOrganizationConfig) {
 	_init_.Initialize()
 

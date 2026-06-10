@@ -127,6 +127,10 @@ func (j *jsiiProxy_GoogleFirebaseAiLogicPromptTemplateLock) validateSetProvision
 	return nil
 }
 
+func (j *jsiiProxy_GoogleFirebaseAiLogicPromptTemplateLock) validateSetRegionalPropagationDisabledParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleFirebaseAiLogicPromptTemplateLock) validateSetTemplateIdParameters(val *string) error {
 	return nil
 }

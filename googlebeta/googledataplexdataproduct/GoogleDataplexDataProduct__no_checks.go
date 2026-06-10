@@ -75,6 +75,10 @@ func (g *jsiiProxy_GoogleDataplexDataProduct) validateOverrideLogicalIdParameter
 	return nil
 }
 
+func (g *jsiiProxy_GoogleDataplexDataProduct) validatePutAccessApprovalConfigParameters(value *GoogleDataplexDataProductAccessApprovalConfig) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleDataplexDataProduct) validatePutAccessGroupsParameters(value interface{}) error {
 	return nil
 }

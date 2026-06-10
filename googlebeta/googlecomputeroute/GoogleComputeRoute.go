@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_route google_compute_route}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_route google_compute_route}.
 type GoogleComputeRoute interface {
 	cdktn.TerraformResource
 	AsPaths() GoogleComputeRouteAsPathsList
@@ -832,7 +832,7 @@ func (j *jsiiProxy_GoogleComputeRoute) Warnings() GoogleComputeRouteWarningsList
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_route google_compute_route} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_route google_compute_route} Resource.
 func NewGoogleComputeRoute(scope constructs.Construct, id *string, config *GoogleComputeRouteConfig) GoogleComputeRoute {
 	_init_.Initialize()
 
@@ -850,7 +850,7 @@ func NewGoogleComputeRoute(scope constructs.Construct, id *string, config *Googl
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_route google_compute_route} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_route google_compute_route} Resource.
 func NewGoogleComputeRoute_Override(g GoogleComputeRoute, scope constructs.Construct, id *string, config *GoogleComputeRouteConfig) {
 	_init_.Initialize()
 

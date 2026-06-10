@@ -35,6 +35,9 @@ type GoogleBigtableTableAutomatedBackupPolicyOutputReference interface {
 	FrequencyInput() *string
 	InternalValue() *GoogleBigtableTableAutomatedBackupPolicy
 	SetInternalValue(val *GoogleBigtableTableAutomatedBackupPolicy)
+	Locations() *[]*string
+	SetLocations(val *[]*string)
+	LocationsInput() *[]*string
 	RetentionPeriod() *string
 	SetRetentionPeriod(val *string)
 	RetentionPeriodInput() *string
@@ -71,6 +74,7 @@ type GoogleBigtableTableAutomatedBackupPolicyOutputReference interface {
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetFrequency()
+	ResetLocations()
 	ResetRetentionPeriod()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -152,6 +156,26 @@ func (j *jsiiProxy_GoogleBigtableTableAutomatedBackupPolicyOutputReference) Inte
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleBigtableTableAutomatedBackupPolicyOutputReference) Locations() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"locations",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleBigtableTableAutomatedBackupPolicyOutputReference) LocationsInput() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"locationsInput",
 		&returns,
 	)
 	return returns
@@ -265,6 +289,17 @@ func (j *jsiiProxy_GoogleBigtableTableAutomatedBackupPolicyOutputReference)SetIn
 	_jsii_.Set(
 		j,
 		"internalValue",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleBigtableTableAutomatedBackupPolicyOutputReference)SetLocations(val *[]*string) {
+	if err := j.validateSetLocationsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"locations",
 		val,
 	)
 }
@@ -492,6 +527,14 @@ func (g *jsiiProxy_GoogleBigtableTableAutomatedBackupPolicyOutputReference) Rese
 	_jsii_.InvokeVoid(
 		g,
 		"resetFrequency",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleBigtableTableAutomatedBackupPolicyOutputReference) ResetLocations() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetLocations",
 		nil, // no parameters
 	)
 }

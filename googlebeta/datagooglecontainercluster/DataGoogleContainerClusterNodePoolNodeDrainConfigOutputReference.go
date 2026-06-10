@@ -30,8 +30,10 @@ type DataGoogleContainerClusterNodePoolNodeDrainConfigOutputReference interface 
 	CreationStack() *[]*string
 	// Experimental.
 	Fqn() *string
+	GraceTerminationDuration() *string
 	InternalValue() *DataGoogleContainerClusterNodePoolNodeDrainConfig
 	SetInternalValue(val *DataGoogleContainerClusterNodePoolNodeDrainConfig)
+	PdbTimeoutDuration() *string
 	RespectPdbDuringNodePoolDeletion() cdktn.IResolvable
 	// Experimental.
 	TerraformAttribute() *string
@@ -120,11 +122,31 @@ func (j *jsiiProxy_DataGoogleContainerClusterNodePoolNodeDrainConfigOutputRefere
 	return returns
 }
 
+func (j *jsiiProxy_DataGoogleContainerClusterNodePoolNodeDrainConfigOutputReference) GraceTerminationDuration() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"graceTerminationDuration",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataGoogleContainerClusterNodePoolNodeDrainConfigOutputReference) InternalValue() *DataGoogleContainerClusterNodePoolNodeDrainConfig {
 	var returns *DataGoogleContainerClusterNodePoolNodeDrainConfig
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleContainerClusterNodePoolNodeDrainConfigOutputReference) PdbTimeoutDuration() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"pdbTimeoutDuration",
 		&returns,
 	)
 	return returns

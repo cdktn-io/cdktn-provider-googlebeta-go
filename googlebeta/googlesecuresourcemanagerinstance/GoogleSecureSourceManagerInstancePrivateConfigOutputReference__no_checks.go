@@ -75,6 +75,10 @@ func (j *jsiiProxy_GoogleSecureSourceManagerInstancePrivateConfigOutputReference
 	return nil
 }
 
+func (j *jsiiProxy_GoogleSecureSourceManagerInstancePrivateConfigOutputReference) validateSetPscAllowedProjectsParameters(val *[]*string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleSecureSourceManagerInstancePrivateConfigOutputReference) validateSetTerraformAttributeParameters(val *string) error {
 	return nil
 }

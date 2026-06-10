@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_bigtable_logical_view google_bigtable_logical_view}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_bigtable_logical_view google_bigtable_logical_view}.
 type GoogleBigtableLogicalView interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -496,7 +496,7 @@ func (j *jsiiProxy_GoogleBigtableLogicalView) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_bigtable_logical_view google_bigtable_logical_view} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_bigtable_logical_view google_bigtable_logical_view} Resource.
 func NewGoogleBigtableLogicalView(scope constructs.Construct, id *string, config *GoogleBigtableLogicalViewConfig) GoogleBigtableLogicalView {
 	_init_.Initialize()
 
@@ -514,7 +514,7 @@ func NewGoogleBigtableLogicalView(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_bigtable_logical_view google_bigtable_logical_view} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_bigtable_logical_view google_bigtable_logical_view} Resource.
 func NewGoogleBigtableLogicalView_Override(g GoogleBigtableLogicalView, scope constructs.Construct, id *string, config *GoogleBigtableLogicalViewConfig) {
 	_init_.Initialize()
 

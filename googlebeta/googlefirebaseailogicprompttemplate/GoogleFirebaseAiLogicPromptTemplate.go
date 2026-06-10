@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_ai_logic_prompt_template google_firebase_ai_logic_prompt_template}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_ai_logic_prompt_template google_firebase_ai_logic_prompt_template}.
 type GoogleFirebaseAiLogicPromptTemplate interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -74,6 +74,9 @@ type GoogleFirebaseAiLogicPromptTemplate interface {
 	SetProvisioners(val *[]interface{})
 	// Experimental.
 	RawOverrides() interface{}
+	RegionalPropagationDisabled() interface{}
+	SetRegionalPropagationDisabled(val interface{})
+	RegionalPropagationDisabledInput() interface{}
 	StateChangeTime() *string
 	TemplateId() *string
 	SetTemplateId(val *string)
@@ -141,6 +144,7 @@ type GoogleFirebaseAiLogicPromptTemplate interface {
 	// Experimental.
 	ResetOverrideLogicalId()
 	ResetProject()
+	ResetRegionalPropagationDisabled()
 	ResetTimeouts()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
@@ -439,6 +443,26 @@ func (j *jsiiProxy_GoogleFirebaseAiLogicPromptTemplate) RawOverrides() interface
 	return returns
 }
 
+func (j *jsiiProxy_GoogleFirebaseAiLogicPromptTemplate) RegionalPropagationDisabled() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"regionalPropagationDisabled",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleFirebaseAiLogicPromptTemplate) RegionalPropagationDisabledInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"regionalPropagationDisabledInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleFirebaseAiLogicPromptTemplate) StateChangeTime() *string {
 	var returns *string
 	_jsii_.Get(
@@ -550,7 +574,7 @@ func (j *jsiiProxy_GoogleFirebaseAiLogicPromptTemplate) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_ai_logic_prompt_template google_firebase_ai_logic_prompt_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_ai_logic_prompt_template google_firebase_ai_logic_prompt_template} Resource.
 func NewGoogleFirebaseAiLogicPromptTemplate(scope constructs.Construct, id *string, config *GoogleFirebaseAiLogicPromptTemplateConfig) GoogleFirebaseAiLogicPromptTemplate {
 	_init_.Initialize()
 
@@ -568,7 +592,7 @@ func NewGoogleFirebaseAiLogicPromptTemplate(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_ai_logic_prompt_template google_firebase_ai_logic_prompt_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_ai_logic_prompt_template google_firebase_ai_logic_prompt_template} Resource.
 func NewGoogleFirebaseAiLogicPromptTemplate_Override(g GoogleFirebaseAiLogicPromptTemplate, scope constructs.Construct, id *string, config *GoogleFirebaseAiLogicPromptTemplateConfig) {
 	_init_.Initialize()
 
@@ -698,6 +722,17 @@ func (j *jsiiProxy_GoogleFirebaseAiLogicPromptTemplate)SetProvisioners(val *[]in
 	_jsii_.Set(
 		j,
 		"provisioners",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleFirebaseAiLogicPromptTemplate)SetRegionalPropagationDisabled(val interface{}) {
+	if err := j.validateSetRegionalPropagationDisabledParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"regionalPropagationDisabled",
 		val,
 	)
 }
@@ -1124,6 +1159,14 @@ func (g *jsiiProxy_GoogleFirebaseAiLogicPromptTemplate) ResetProject() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetProject",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleFirebaseAiLogicPromptTemplate) ResetRegionalPropagationDisabled() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetRegionalPropagationDisabled",
 		nil, // no parameters
 	)
 }

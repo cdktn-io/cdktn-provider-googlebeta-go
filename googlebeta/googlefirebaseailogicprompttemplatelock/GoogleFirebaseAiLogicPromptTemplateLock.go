@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_ai_logic_prompt_template_lock google_firebase_ai_logic_prompt_template_lock}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_ai_logic_prompt_template_lock google_firebase_ai_logic_prompt_template_lock}.
 type GoogleFirebaseAiLogicPromptTemplateLock interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -69,6 +69,9 @@ type GoogleFirebaseAiLogicPromptTemplateLock interface {
 	SetProvisioners(val *[]interface{})
 	// Experimental.
 	RawOverrides() interface{}
+	RegionalPropagationDisabled() interface{}
+	SetRegionalPropagationDisabled(val interface{})
+	RegionalPropagationDisabledInput() interface{}
 	TemplateId() *string
 	SetTemplateId(val *string)
 	TemplateIdInput() *string
@@ -130,6 +133,7 @@ type GoogleFirebaseAiLogicPromptTemplateLock interface {
 	// Experimental.
 	ResetOverrideLogicalId()
 	ResetProject()
+	ResetRegionalPropagationDisabled()
 	ResetTimeouts()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
@@ -388,6 +392,26 @@ func (j *jsiiProxy_GoogleFirebaseAiLogicPromptTemplateLock) RawOverrides() inter
 	return returns
 }
 
+func (j *jsiiProxy_GoogleFirebaseAiLogicPromptTemplateLock) RegionalPropagationDisabled() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"regionalPropagationDisabled",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleFirebaseAiLogicPromptTemplateLock) RegionalPropagationDisabledInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"regionalPropagationDisabledInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleFirebaseAiLogicPromptTemplateLock) TemplateId() *string {
 	var returns *string
 	_jsii_.Get(
@@ -459,7 +483,7 @@ func (j *jsiiProxy_GoogleFirebaseAiLogicPromptTemplateLock) TimeoutsInput() inte
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_ai_logic_prompt_template_lock google_firebase_ai_logic_prompt_template_lock} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_ai_logic_prompt_template_lock google_firebase_ai_logic_prompt_template_lock} Resource.
 func NewGoogleFirebaseAiLogicPromptTemplateLock(scope constructs.Construct, id *string, config *GoogleFirebaseAiLogicPromptTemplateLockConfig) GoogleFirebaseAiLogicPromptTemplateLock {
 	_init_.Initialize()
 
@@ -477,7 +501,7 @@ func NewGoogleFirebaseAiLogicPromptTemplateLock(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_ai_logic_prompt_template_lock google_firebase_ai_logic_prompt_template_lock} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_ai_logic_prompt_template_lock google_firebase_ai_logic_prompt_template_lock} Resource.
 func NewGoogleFirebaseAiLogicPromptTemplateLock_Override(g GoogleFirebaseAiLogicPromptTemplateLock, scope constructs.Construct, id *string, config *GoogleFirebaseAiLogicPromptTemplateLockConfig) {
 	_init_.Initialize()
 
@@ -596,6 +620,17 @@ func (j *jsiiProxy_GoogleFirebaseAiLogicPromptTemplateLock)SetProvisioners(val *
 	_jsii_.Set(
 		j,
 		"provisioners",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleFirebaseAiLogicPromptTemplateLock)SetRegionalPropagationDisabled(val interface{}) {
+	if err := j.validateSetRegionalPropagationDisabledParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"regionalPropagationDisabled",
 		val,
 	)
 }
@@ -1003,6 +1038,14 @@ func (g *jsiiProxy_GoogleFirebaseAiLogicPromptTemplateLock) ResetProject() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetProject",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleFirebaseAiLogicPromptTemplateLock) ResetRegionalPropagationDisabled() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetRegionalPropagationDisabled",
 		nil, // no parameters
 	)
 }

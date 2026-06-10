@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_oracle_database_db_system google_oracle_database_db_system}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_oracle_database_db_system google_oracle_database_db_system}.
 type GoogleOracleDatabaseDbSystem interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -669,7 +669,7 @@ func (j *jsiiProxy_GoogleOracleDatabaseDbSystem) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_oracle_database_db_system google_oracle_database_db_system} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_oracle_database_db_system google_oracle_database_db_system} Resource.
 func NewGoogleOracleDatabaseDbSystem(scope constructs.Construct, id *string, config *GoogleOracleDatabaseDbSystemConfig) GoogleOracleDatabaseDbSystem {
 	_init_.Initialize()
 
@@ -687,7 +687,7 @@ func NewGoogleOracleDatabaseDbSystem(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_oracle_database_db_system google_oracle_database_db_system} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_oracle_database_db_system google_oracle_database_db_system} Resource.
 func NewGoogleOracleDatabaseDbSystem_Override(g GoogleOracleDatabaseDbSystem, scope constructs.Construct, id *string, config *GoogleOracleDatabaseDbSystemConfig) {
 	_init_.Initialize()
 

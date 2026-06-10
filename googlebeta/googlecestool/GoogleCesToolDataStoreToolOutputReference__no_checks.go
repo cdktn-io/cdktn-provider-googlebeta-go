@@ -51,6 +51,10 @@ func (g *jsiiProxy_GoogleCesToolDataStoreToolOutputReference) validatePutBoostSp
 	return nil
 }
 
+func (g *jsiiProxy_GoogleCesToolDataStoreToolOutputReference) validatePutDataStoreSourceParameters(value *GoogleCesToolDataStoreToolDataStoreSource) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleCesToolDataStoreToolOutputReference) validatePutEngineSourceParameters(value *GoogleCesToolDataStoreToolEngineSource) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (j *jsiiProxy_GoogleCesToolDataStoreToolOutputReference) validateSetComplex
 }
 
 func (j *jsiiProxy_GoogleCesToolDataStoreToolOutputReference) validateSetDescriptionParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleCesToolDataStoreToolOutputReference) validateSetFilterParameterBehaviorParameters(val *string) error {
 	return nil
 }
 

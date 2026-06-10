@@ -59,7 +59,15 @@ func (j *jsiiProxy_GoogleContainerNodePoolNodeDrainConfigOutputReference) valida
 	return nil
 }
 
+func (j *jsiiProxy_GoogleContainerNodePoolNodeDrainConfigOutputReference) validateSetGraceTerminationDurationParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleContainerNodePoolNodeDrainConfigOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleContainerNodePoolNodeDrainConfigOutputReference) validateSetPdbTimeoutDurationParameters(val *string) error {
 	return nil
 }
 

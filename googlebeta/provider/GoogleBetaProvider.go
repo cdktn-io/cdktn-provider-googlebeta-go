@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs google-beta}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs google-beta}.
 type GoogleBetaProvider interface {
 	cdktn.TerraformProvider
 	AccessApprovalCustomEndpoint() *string
@@ -401,6 +401,9 @@ type GoogleBetaProvider interface {
 	KmsCustomEndpoint() *string
 	SetKmsCustomEndpoint(val *string)
 	KmsCustomEndpointInput() *string
+	LicenseManagerCustomEndpoint() *string
+	SetLicenseManagerCustomEndpoint(val *string)
+	LicenseManagerCustomEndpointInput() *string
 	LoggingCustomEndpoint() *string
 	SetLoggingCustomEndpoint(val *string)
 	LoggingCustomEndpointInput() *string
@@ -799,6 +802,7 @@ type GoogleBetaProvider interface {
 	ResetIntegrationConnectorsCustomEndpoint()
 	ResetIntegrationsCustomEndpoint()
 	ResetKmsCustomEndpoint()
+	ResetLicenseManagerCustomEndpoint()
 	ResetLoggingCustomEndpoint()
 	ResetLookerCustomEndpoint()
 	ResetLustreCustomEndpoint()
@@ -3474,6 +3478,26 @@ func (j *jsiiProxy_GoogleBetaProvider) KmsCustomEndpointInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_GoogleBetaProvider) LicenseManagerCustomEndpoint() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"licenseManagerCustomEndpoint",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleBetaProvider) LicenseManagerCustomEndpointInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"licenseManagerCustomEndpointInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleBetaProvider) LoggingCustomEndpoint() *string {
 	var returns *string
 	_jsii_.Get(
@@ -5235,7 +5259,7 @@ func (j *jsiiProxy_GoogleBetaProvider) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs google-beta} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs google-beta} Resource.
 func NewGoogleBetaProvider(scope constructs.Construct, id *string, config *GoogleBetaProviderConfig) GoogleBetaProvider {
 	_init_.Initialize()
 
@@ -5253,7 +5277,7 @@ func NewGoogleBetaProvider(scope constructs.Construct, id *string, config *Googl
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs google-beta} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs google-beta} Resource.
 func NewGoogleBetaProvider_Override(g GoogleBetaProvider, scope constructs.Construct, id *string, config *GoogleBetaProviderConfig) {
 	_init_.Initialize()
 
@@ -6277,6 +6301,14 @@ func (j *jsiiProxy_GoogleBetaProvider)SetKmsCustomEndpoint(val *string) {
 	_jsii_.Set(
 		j,
 		"kmsCustomEndpoint",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleBetaProvider)SetLicenseManagerCustomEndpoint(val *string) {
+	_jsii_.Set(
+		j,
+		"licenseManagerCustomEndpoint",
 		val,
 	)
 }
@@ -8099,6 +8131,14 @@ func (g *jsiiProxy_GoogleBetaProvider) ResetKmsCustomEndpoint() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetKmsCustomEndpoint",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleBetaProvider) ResetLicenseManagerCustomEndpoint() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetLicenseManagerCustomEndpoint",
 		nil, // no parameters
 	)
 }

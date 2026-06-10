@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_services_multicast_domain_group google_network_services_multicast_domain_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_multicast_domain_group google_network_services_multicast_domain_group}.
 type GoogleNetworkServicesMulticastDomainGroup interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -573,7 +573,7 @@ func (j *jsiiProxy_GoogleNetworkServicesMulticastDomainGroup) UpdateTime() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_services_multicast_domain_group google_network_services_multicast_domain_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_multicast_domain_group google_network_services_multicast_domain_group} Resource.
 func NewGoogleNetworkServicesMulticastDomainGroup(scope constructs.Construct, id *string, config *GoogleNetworkServicesMulticastDomainGroupConfig) GoogleNetworkServicesMulticastDomainGroup {
 	_init_.Initialize()
 
@@ -591,7 +591,7 @@ func NewGoogleNetworkServicesMulticastDomainGroup(scope constructs.Construct, id
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_services_multicast_domain_group google_network_services_multicast_domain_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_multicast_domain_group google_network_services_multicast_domain_group} Resource.
 func NewGoogleNetworkServicesMulticastDomainGroup_Override(g GoogleNetworkServicesMulticastDomainGroup, scope constructs.Construct, id *string, config *GoogleNetworkServicesMulticastDomainGroupConfig) {
 	_init_.Initialize()
 

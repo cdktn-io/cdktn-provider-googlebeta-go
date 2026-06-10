@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_security_scanner_scan_config google_security_scanner_scan_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_security_scanner_scan_config google_security_scanner_scan_config}.
 type GoogleSecurityScannerScanConfig interface {
 	cdktn.TerraformResource
 	Authentication() GoogleSecurityScannerScanConfigAuthenticationOutputReference
@@ -56,6 +56,9 @@ type GoogleSecurityScannerScanConfig interface {
 	Id() *string
 	SetId(val *string)
 	IdInput() *string
+	IgnoreHttpStatusErrors() interface{}
+	SetIgnoreHttpStatusErrors(val interface{})
+	IgnoreHttpStatusErrorsInput() interface{}
 	// Experimental.
 	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
@@ -149,6 +152,7 @@ type GoogleSecurityScannerScanConfig interface {
 	ResetDeletionPolicy()
 	ResetExportToSecurityCommandCenter()
 	ResetId()
+	ResetIgnoreHttpStatusErrors()
 	ResetMaxQps()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -385,6 +389,26 @@ func (j *jsiiProxy_GoogleSecurityScannerScanConfig) IdInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_GoogleSecurityScannerScanConfig) IgnoreHttpStatusErrors() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"ignoreHttpStatusErrors",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleSecurityScannerScanConfig) IgnoreHttpStatusErrorsInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"ignoreHttpStatusErrorsInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleSecurityScannerScanConfig) Lifecycle() *cdktn.TerraformResourceLifecycle {
 	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
@@ -616,7 +640,7 @@ func (j *jsiiProxy_GoogleSecurityScannerScanConfig) UserAgentInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_security_scanner_scan_config google_security_scanner_scan_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_security_scanner_scan_config google_security_scanner_scan_config} Resource.
 func NewGoogleSecurityScannerScanConfig(scope constructs.Construct, id *string, config *GoogleSecurityScannerScanConfigConfig) GoogleSecurityScannerScanConfig {
 	_init_.Initialize()
 
@@ -634,7 +658,7 @@ func NewGoogleSecurityScannerScanConfig(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_security_scanner_scan_config google_security_scanner_scan_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_security_scanner_scan_config google_security_scanner_scan_config} Resource.
 func NewGoogleSecurityScannerScanConfig_Override(g GoogleSecurityScannerScanConfig, scope constructs.Construct, id *string, config *GoogleSecurityScannerScanConfigConfig) {
 	_init_.Initialize()
 
@@ -734,6 +758,17 @@ func (j *jsiiProxy_GoogleSecurityScannerScanConfig)SetId(val *string) {
 	_jsii_.Set(
 		j,
 		"id",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleSecurityScannerScanConfig)SetIgnoreHttpStatusErrors(val interface{}) {
+	if err := j.validateSetIgnoreHttpStatusErrorsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"ignoreHttpStatusErrors",
 		val,
 	)
 }
@@ -1245,6 +1280,14 @@ func (g *jsiiProxy_GoogleSecurityScannerScanConfig) ResetId() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetId",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleSecurityScannerScanConfig) ResetIgnoreHttpStatusErrors() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetIgnoreHttpStatusErrors",
 		nil, // no parameters
 	)
 }

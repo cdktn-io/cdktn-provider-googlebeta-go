@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dataform_team_folder google_dataform_team_folder}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dataform_team_folder google_dataform_team_folder}.
 type GoogleDataformTeamFolder interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -459,7 +459,7 @@ func (j *jsiiProxy_GoogleDataformTeamFolder) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dataform_team_folder google_dataform_team_folder} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dataform_team_folder google_dataform_team_folder} Resource.
 func NewGoogleDataformTeamFolder(scope constructs.Construct, id *string, config *GoogleDataformTeamFolderConfig) GoogleDataformTeamFolder {
 	_init_.Initialize()
 
@@ -477,7 +477,7 @@ func NewGoogleDataformTeamFolder(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dataform_team_folder google_dataform_team_folder} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dataform_team_folder google_dataform_team_folder} Resource.
 func NewGoogleDataformTeamFolder_Override(g GoogleDataformTeamFolder, scope constructs.Construct, id *string, config *GoogleDataformTeamFolderConfig) {
 	_init_.Initialize()
 

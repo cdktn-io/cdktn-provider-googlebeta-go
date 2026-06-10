@@ -115,6 +115,10 @@ func (j *jsiiProxy_GoogleDataformRepositoryWorkflowConfig) validateSetDeletionPo
 	return nil
 }
 
+func (j *jsiiProxy_GoogleDataformRepositoryWorkflowConfig) validateSetDisabledParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleDataformRepositoryWorkflowConfig) validateSetIdParameters(val *string) error {
 	return nil
 }

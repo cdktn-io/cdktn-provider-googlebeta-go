@@ -30,8 +30,14 @@ type GoogleContainerNodePoolNodeDrainConfigOutputReference interface {
 	CreationStack() *[]*string
 	// Experimental.
 	Fqn() *string
+	GraceTerminationDuration() *string
+	SetGraceTerminationDuration(val *string)
+	GraceTerminationDurationInput() *string
 	InternalValue() interface{}
 	SetInternalValue(val interface{})
+	PdbTimeoutDuration() *string
+	SetPdbTimeoutDuration(val *string)
+	PdbTimeoutDurationInput() *string
 	RespectPdbDuringNodePoolDeletion() interface{}
 	SetRespectPdbDuringNodePoolDeletion(val interface{})
 	RespectPdbDuringNodePoolDeletionInput() interface{}
@@ -67,6 +73,8 @@ type GoogleContainerNodePoolNodeDrainConfigOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	ResetGraceTerminationDuration()
+	ResetPdbTimeoutDuration()
 	ResetRespectPdbDuringNodePoolDeletion()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -123,11 +131,51 @@ func (j *jsiiProxy_GoogleContainerNodePoolNodeDrainConfigOutputReference) Fqn() 
 	return returns
 }
 
+func (j *jsiiProxy_GoogleContainerNodePoolNodeDrainConfigOutputReference) GraceTerminationDuration() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"graceTerminationDuration",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleContainerNodePoolNodeDrainConfigOutputReference) GraceTerminationDurationInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"graceTerminationDurationInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleContainerNodePoolNodeDrainConfigOutputReference) InternalValue() interface{} {
 	var returns interface{}
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleContainerNodePoolNodeDrainConfigOutputReference) PdbTimeoutDuration() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"pdbTimeoutDuration",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleContainerNodePoolNodeDrainConfigOutputReference) PdbTimeoutDurationInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"pdbTimeoutDurationInput",
 		&returns,
 	)
 	return returns
@@ -223,6 +271,17 @@ func (j *jsiiProxy_GoogleContainerNodePoolNodeDrainConfigOutputReference)SetComp
 	)
 }
 
+func (j *jsiiProxy_GoogleContainerNodePoolNodeDrainConfigOutputReference)SetGraceTerminationDuration(val *string) {
+	if err := j.validateSetGraceTerminationDurationParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"graceTerminationDuration",
+		val,
+	)
+}
+
 func (j *jsiiProxy_GoogleContainerNodePoolNodeDrainConfigOutputReference)SetInternalValue(val interface{}) {
 	if err := j.validateSetInternalValueParameters(val); err != nil {
 		panic(err)
@@ -230,6 +289,17 @@ func (j *jsiiProxy_GoogleContainerNodePoolNodeDrainConfigOutputReference)SetInte
 	_jsii_.Set(
 		j,
 		"internalValue",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleContainerNodePoolNodeDrainConfigOutputReference)SetPdbTimeoutDuration(val *string) {
+	if err := j.validateSetPdbTimeoutDurationParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"pdbTimeoutDuration",
 		val,
 	)
 }
@@ -451,6 +521,22 @@ func (g *jsiiProxy_GoogleContainerNodePoolNodeDrainConfigOutputReference) Interp
 	)
 
 	return returns
+}
+
+func (g *jsiiProxy_GoogleContainerNodePoolNodeDrainConfigOutputReference) ResetGraceTerminationDuration() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetGraceTerminationDuration",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleContainerNodePoolNodeDrainConfigOutputReference) ResetPdbTimeoutDuration() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetPdbTimeoutDuration",
+		nil, // no parameters
+	)
 }
 
 func (g *jsiiProxy_GoogleContainerNodePoolNodeDrainConfigOutputReference) ResetRespectPdbDuringNodePoolDeletion() {

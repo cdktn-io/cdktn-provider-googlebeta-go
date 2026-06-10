@@ -41,6 +41,9 @@ type GoogleSecureSourceManagerInstancePrivateConfigOutputReference interface {
 	IsPrivate() interface{}
 	SetIsPrivate(val interface{})
 	IsPrivateInput() interface{}
+	PscAllowedProjects() *[]*string
+	SetPscAllowedProjects(val *[]*string)
+	PscAllowedProjectsInput() *[]*string
 	SshServiceAttachment() *string
 	// Experimental.
 	TerraformAttribute() *string
@@ -77,6 +80,7 @@ type GoogleSecureSourceManagerInstancePrivateConfigOutputReference interface {
 	PutCustomHostConfig(value *GoogleSecureSourceManagerInstancePrivateConfigCustomHostConfig)
 	ResetCaPool()
 	ResetCustomHostConfig()
+	ResetPscAllowedProjects()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -212,6 +216,26 @@ func (j *jsiiProxy_GoogleSecureSourceManagerInstancePrivateConfigOutputReference
 	return returns
 }
 
+func (j *jsiiProxy_GoogleSecureSourceManagerInstancePrivateConfigOutputReference) PscAllowedProjects() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"pscAllowedProjects",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleSecureSourceManagerInstancePrivateConfigOutputReference) PscAllowedProjectsInput() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"pscAllowedProjectsInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleSecureSourceManagerInstancePrivateConfigOutputReference) SshServiceAttachment() *string {
 	var returns *string
 	_jsii_.Get(
@@ -321,6 +345,17 @@ func (j *jsiiProxy_GoogleSecureSourceManagerInstancePrivateConfigOutputReference
 	_jsii_.Set(
 		j,
 		"isPrivate",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleSecureSourceManagerInstancePrivateConfigOutputReference)SetPscAllowedProjects(val *[]*string) {
+	if err := j.validateSetPscAllowedProjectsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"pscAllowedProjects",
 		val,
 	)
 }
@@ -556,6 +591,14 @@ func (g *jsiiProxy_GoogleSecureSourceManagerInstancePrivateConfigOutputReference
 	_jsii_.InvokeVoid(
 		g,
 		"resetCustomHostConfig",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleSecureSourceManagerInstancePrivateConfigOutputReference) ResetPscAllowedProjects() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetPscAllowedProjects",
 		nil, // no parameters
 	)
 }

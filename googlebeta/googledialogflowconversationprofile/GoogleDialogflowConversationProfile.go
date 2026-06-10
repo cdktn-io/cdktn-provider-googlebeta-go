@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dialogflow_conversation_profile google_dialogflow_conversation_profile}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dialogflow_conversation_profile google_dialogflow_conversation_profile}.
 type GoogleDialogflowConversationProfile interface {
 	cdktn.TerraformResource
 	AutomatedAgentConfig() GoogleDialogflowConversationProfileAutomatedAgentConfigOutputReference
@@ -784,7 +784,7 @@ func (j *jsiiProxy_GoogleDialogflowConversationProfile) UseBidiStreamingInput() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dialogflow_conversation_profile google_dialogflow_conversation_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dialogflow_conversation_profile google_dialogflow_conversation_profile} Resource.
 func NewGoogleDialogflowConversationProfile(scope constructs.Construct, id *string, config *GoogleDialogflowConversationProfileConfig) GoogleDialogflowConversationProfile {
 	_init_.Initialize()
 
@@ -802,7 +802,7 @@ func NewGoogleDialogflowConversationProfile(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dialogflow_conversation_profile google_dialogflow_conversation_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dialogflow_conversation_profile google_dialogflow_conversation_profile} Resource.
 func NewGoogleDialogflowConversationProfile_Override(g GoogleDialogflowConversationProfile, scope constructs.Construct, id *string, config *GoogleDialogflowConversationProfileConfig) {
 	_init_.Initialize()
 

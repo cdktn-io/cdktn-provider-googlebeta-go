@@ -131,6 +131,10 @@ func (j *jsiiProxy_GoogleSecurityScannerScanConfig) validateSetIdParameters(val 
 	return nil
 }
 
+func (j *jsiiProxy_GoogleSecurityScannerScanConfig) validateSetIgnoreHttpStatusErrorsParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleSecurityScannerScanConfig) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_example google_ces_example}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_example google_ces_example}.
 type GoogleCesExample interface {
 	cdktn.TerraformResource
 	App() *string
@@ -610,7 +610,7 @@ func (j *jsiiProxy_GoogleCesExample) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_example google_ces_example} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_example google_ces_example} Resource.
 func NewGoogleCesExample(scope constructs.Construct, id *string, config *GoogleCesExampleConfig) GoogleCesExample {
 	_init_.Initialize()
 
@@ -628,7 +628,7 @@ func NewGoogleCesExample(scope constructs.Construct, id *string, config *GoogleC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_example google_ces_example} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_example google_ces_example} Resource.
 func NewGoogleCesExample_Override(g GoogleCesExample, scope constructs.Construct, id *string, config *GoogleCesExampleConfig) {
 	_init_.Initialize()
 

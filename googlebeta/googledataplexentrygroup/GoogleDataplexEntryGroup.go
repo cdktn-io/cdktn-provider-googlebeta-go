@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dataplex_entry_group google_dataplex_entry_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dataplex_entry_group google_dataplex_entry_group}.
 type GoogleDataplexEntryGroup interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -588,7 +588,7 @@ func (j *jsiiProxy_GoogleDataplexEntryGroup) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dataplex_entry_group google_dataplex_entry_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dataplex_entry_group google_dataplex_entry_group} Resource.
 func NewGoogleDataplexEntryGroup(scope constructs.Construct, id *string, config *GoogleDataplexEntryGroupConfig) GoogleDataplexEntryGroup {
 	_init_.Initialize()
 
@@ -606,7 +606,7 @@ func NewGoogleDataplexEntryGroup(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dataplex_entry_group google_dataplex_entry_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dataplex_entry_group google_dataplex_entry_group} Resource.
 func NewGoogleDataplexEntryGroup_Override(g GoogleDataplexEntryGroup, scope constructs.Construct, id *string, config *GoogleDataplexEntryGroupConfig) {
 	_init_.Initialize()
 

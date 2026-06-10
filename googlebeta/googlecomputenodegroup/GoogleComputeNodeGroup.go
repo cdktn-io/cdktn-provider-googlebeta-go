@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_node_group google_compute_node_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_node_group google_compute_node_group}.
 type GoogleComputeNodeGroup interface {
 	cdktn.TerraformResource
 	AutoscalingPolicy() GoogleComputeNodeGroupAutoscalingPolicyOutputReference
@@ -662,7 +662,7 @@ func (j *jsiiProxy_GoogleComputeNodeGroup) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_node_group google_compute_node_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_node_group google_compute_node_group} Resource.
 func NewGoogleComputeNodeGroup(scope constructs.Construct, id *string, config *GoogleComputeNodeGroupConfig) GoogleComputeNodeGroup {
 	_init_.Initialize()
 
@@ -680,7 +680,7 @@ func NewGoogleComputeNodeGroup(scope constructs.Construct, id *string, config *G
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_node_group google_compute_node_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_node_group google_compute_node_group} Resource.
 func NewGoogleComputeNodeGroup_Override(g GoogleComputeNodeGroup, scope constructs.Construct, id *string, config *GoogleComputeNodeGroupConfig) {
 	_init_.Initialize()
 

@@ -207,6 +207,17 @@ func (g *jsiiProxy_GoogleCesTool) validateOverrideLogicalIdParameters(newLogical
 	return nil
 }
 
+func (g *jsiiProxy_GoogleCesTool) validatePutAgentToolParameters(value *GoogleCesToolAgentTool) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
+	}
+
+	return nil
+}
+
 func (g *jsiiProxy_GoogleCesTool) validatePutClientFunctionParameters(value *GoogleCesToolClientFunction) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")
@@ -219,6 +230,17 @@ func (g *jsiiProxy_GoogleCesTool) validatePutClientFunctionParameters(value *Goo
 }
 
 func (g *jsiiProxy_GoogleCesTool) validatePutDataStoreToolParameters(value *GoogleCesToolDataStoreTool) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
+	}
+
+	return nil
+}
+
+func (g *jsiiProxy_GoogleCesTool) validatePutFileSearchToolParameters(value *GoogleCesToolFileSearchTool) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
@@ -252,6 +274,17 @@ func (g *jsiiProxy_GoogleCesTool) validatePutPythonFunctionParameters(value *Goo
 }
 
 func (g *jsiiProxy_GoogleCesTool) validatePutTimeoutsParameters(value *GoogleCesToolTimeouts) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
+	}
+
+	return nil
+}
+
+func (g *jsiiProxy_GoogleCesTool) validatePutWidgetToolParameters(value *GoogleCesToolWidgetTool) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}

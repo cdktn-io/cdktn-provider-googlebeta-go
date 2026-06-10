@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dataform_repository_workflow_config google_dataform_repository_workflow_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dataform_repository_workflow_config google_dataform_repository_workflow_config}.
 type GoogleDataformRepositoryWorkflowConfig interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -37,6 +37,9 @@ type GoogleDataformRepositoryWorkflowConfig interface {
 	DependsOn() *[]*string
 	// Experimental.
 	SetDependsOn(val *[]*string)
+	Disabled() interface{}
+	SetDisabled(val interface{})
+	DisabledInput() interface{}
 	// Experimental.
 	ForEach() cdktn.ITerraformIterator
 	// Experimental.
@@ -140,6 +143,7 @@ type GoogleDataformRepositoryWorkflowConfig interface {
 	PutTimeouts(value *GoogleDataformRepositoryWorkflowConfigTimeouts)
 	ResetCronSchedule()
 	ResetDeletionPolicy()
+	ResetDisabled()
 	ResetId()
 	ResetInvocationConfig()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -262,6 +266,26 @@ func (j *jsiiProxy_GoogleDataformRepositoryWorkflowConfig) DependsOn() *[]*strin
 	_jsii_.Get(
 		j,
 		"dependsOn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDataformRepositoryWorkflowConfig) Disabled() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"disabled",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDataformRepositoryWorkflowConfig) DisabledInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"disabledInput",
 		&returns,
 	)
 	return returns
@@ -568,7 +592,7 @@ func (j *jsiiProxy_GoogleDataformRepositoryWorkflowConfig) TimeZoneInput() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dataform_repository_workflow_config google_dataform_repository_workflow_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dataform_repository_workflow_config google_dataform_repository_workflow_config} Resource.
 func NewGoogleDataformRepositoryWorkflowConfig(scope constructs.Construct, id *string, config *GoogleDataformRepositoryWorkflowConfigConfig) GoogleDataformRepositoryWorkflowConfig {
 	_init_.Initialize()
 
@@ -586,7 +610,7 @@ func NewGoogleDataformRepositoryWorkflowConfig(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dataform_repository_workflow_config google_dataform_repository_workflow_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dataform_repository_workflow_config google_dataform_repository_workflow_config} Resource.
 func NewGoogleDataformRepositoryWorkflowConfig_Override(g GoogleDataformRepositoryWorkflowConfig, scope constructs.Construct, id *string, config *GoogleDataformRepositoryWorkflowConfigConfig) {
 	_init_.Initialize()
 
@@ -645,6 +669,17 @@ func (j *jsiiProxy_GoogleDataformRepositoryWorkflowConfig)SetDependsOn(val *[]*s
 	_jsii_.Set(
 		j,
 		"dependsOn",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleDataformRepositoryWorkflowConfig)SetDisabled(val interface{}) {
+	if err := j.validateSetDisabledParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"disabled",
 		val,
 	)
 }
@@ -1151,6 +1186,14 @@ func (g *jsiiProxy_GoogleDataformRepositoryWorkflowConfig) ResetDeletionPolicy()
 	_jsii_.InvokeVoid(
 		g,
 		"resetDeletionPolicy",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleDataformRepositoryWorkflowConfig) ResetDisabled() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDisabled",
 		nil, // no parameters
 	)
 }
