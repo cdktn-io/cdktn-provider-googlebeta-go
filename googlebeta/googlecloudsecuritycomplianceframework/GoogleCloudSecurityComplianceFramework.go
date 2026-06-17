@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_security_compliance_framework google_cloud_security_compliance_framework}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_security_compliance_framework google_cloud_security_compliance_framework}.
 type GoogleCloudSecurityComplianceFramework interface {
 	cdktn.TerraformResource
 	Category() *[]*string
@@ -71,6 +71,9 @@ type GoogleCloudSecurityComplianceFramework interface {
 	Organization() *string
 	SetOrganization(val *string)
 	OrganizationInput() *string
+	Parent() *string
+	SetParent(val *string)
+	ParentInput() *string
 	// Experimental.
 	Provider() cdktn.TerraformProvider
 	// Experimental.
@@ -143,9 +146,11 @@ type GoogleCloudSecurityComplianceFramework interface {
 	ResetDescription()
 	ResetDisplayName()
 	ResetId()
+	ResetOrganization()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
+	ResetParent()
 	ResetTimeouts()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
@@ -464,6 +469,26 @@ func (j *jsiiProxy_GoogleCloudSecurityComplianceFramework) OrganizationInput() *
 	return returns
 }
 
+func (j *jsiiProxy_GoogleCloudSecurityComplianceFramework) Parent() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"parent",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCloudSecurityComplianceFramework) ParentInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"parentInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleCloudSecurityComplianceFramework) Provider() cdktn.TerraformProvider {
 	var returns cdktn.TerraformProvider
 	_jsii_.Get(
@@ -585,7 +610,7 @@ func (j *jsiiProxy_GoogleCloudSecurityComplianceFramework) Type() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_security_compliance_framework google_cloud_security_compliance_framework} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_security_compliance_framework google_cloud_security_compliance_framework} Resource.
 func NewGoogleCloudSecurityComplianceFramework(scope constructs.Construct, id *string, config *GoogleCloudSecurityComplianceFrameworkConfig) GoogleCloudSecurityComplianceFramework {
 	_init_.Initialize()
 
@@ -603,7 +628,7 @@ func NewGoogleCloudSecurityComplianceFramework(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_cloud_security_compliance_framework google_cloud_security_compliance_framework} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_cloud_security_compliance_framework google_cloud_security_compliance_framework} Resource.
 func NewGoogleCloudSecurityComplianceFramework_Override(g GoogleCloudSecurityComplianceFramework, scope constructs.Construct, id *string, config *GoogleCloudSecurityComplianceFrameworkConfig) {
 	_init_.Initialize()
 
@@ -736,6 +761,17 @@ func (j *jsiiProxy_GoogleCloudSecurityComplianceFramework)SetOrganization(val *s
 	_jsii_.Set(
 		j,
 		"organization",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleCloudSecurityComplianceFramework)SetParent(val *string) {
+	if err := j.validateSetParentParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"parent",
 		val,
 	)
 }
@@ -1174,10 +1210,26 @@ func (g *jsiiProxy_GoogleCloudSecurityComplianceFramework) ResetId() {
 	)
 }
 
+func (g *jsiiProxy_GoogleCloudSecurityComplianceFramework) ResetOrganization() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetOrganization",
+		nil, // no parameters
+	)
+}
+
 func (g *jsiiProxy_GoogleCloudSecurityComplianceFramework) ResetOverrideLogicalId() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetOverrideLogicalId",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleCloudSecurityComplianceFramework) ResetParent() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetParent",
 		nil, // no parameters
 	)
 }

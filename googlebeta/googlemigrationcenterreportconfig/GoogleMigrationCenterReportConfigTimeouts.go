@@ -5,9 +5,9 @@ package googlemigrationcenterreportconfig
 
 
 type GoogleMigrationCenterReportConfigTimeouts struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_migration_center_report_config#create GoogleMigrationCenterReportConfigA#create}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_migration_center_report_config#create GoogleMigrationCenterReportConfigA#create}.
 	Create *string `field:"optional" json:"create" yaml:"create"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_migration_center_report_config#delete GoogleMigrationCenterReportConfigA#delete}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_migration_center_report_config#delete GoogleMigrationCenterReportConfigA#delete}.
 	Delete *string `field:"optional" json:"delete" yaml:"delete"`
 }
 

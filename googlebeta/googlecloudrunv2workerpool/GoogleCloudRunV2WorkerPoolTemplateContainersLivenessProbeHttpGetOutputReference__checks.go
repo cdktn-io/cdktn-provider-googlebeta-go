@@ -93,12 +93,32 @@ func (g *jsiiProxy_GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeHttp
 	return nil
 }
 
-func (g *jsiiProxy_GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGetOutputReference) validatePutHttpHeadersParameters(value *GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGetHttpHeaders) error {
+func (g *jsiiProxy_GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGetOutputReference) validatePutHttpHeadersParameters(value interface{}) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
-	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
-		return err
+	switch value.(type) {
+	case cdktn.IResolvable:
+		// ok
+	case *[]*GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGetHttpHeaders:
+		value := value.(*[]*GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGetHttpHeaders)
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	case []*GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGetHttpHeaders:
+		value_ := value.([]*GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGetHttpHeaders)
+		value := &value_
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	default:
+		if !_jsii_.IsAnonymousProxy(value) {
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGetHttpHeaders; received %#v (a %T)", value, value)
+		}
 	}
 
 	return nil

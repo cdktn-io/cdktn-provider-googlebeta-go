@@ -143,6 +143,10 @@ func (j *jsiiProxy_GoogleCloudSecurityComplianceFrameworkDeployment) validateSet
 	return nil
 }
 
+func (j *jsiiProxy_GoogleCloudSecurityComplianceFrameworkDeployment) validateSetParentParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleCloudSecurityComplianceFrameworkDeployment) validateSetProvisionersParameters(val *[]interface{}) error {
 	return nil
 }

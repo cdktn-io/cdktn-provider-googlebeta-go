@@ -83,6 +83,10 @@ func (j *jsiiProxy_GoogleBackupDrRestoreWorkloadRegionDiskTargetEnvironmentOutpu
 	return nil
 }
 
+func (j *jsiiProxy_GoogleBackupDrRestoreWorkloadRegionDiskTargetEnvironmentOutputReference) validateSetUseProjectServiceAccountParameters(val interface{}) error {
+	return nil
+}
+
 func validateNewGoogleBackupDrRestoreWorkloadRegionDiskTargetEnvironmentOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }

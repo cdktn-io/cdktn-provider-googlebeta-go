@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_iam_workforce_pool_provider_scim_tenant google_iam_workforce_pool_provider_scim_tenant}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iam_workforce_pool_provider_scim_tenant google_iam_workforce_pool_provider_scim_tenant}.
 type GoogleIamWorkforcePoolProviderScimTenant interface {
 	cdktn.TerraformResource
 	BaseUri() *string
@@ -610,7 +610,7 @@ func (j *jsiiProxy_GoogleIamWorkforcePoolProviderScimTenant) WorkforcePoolIdInpu
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_iam_workforce_pool_provider_scim_tenant google_iam_workforce_pool_provider_scim_tenant} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iam_workforce_pool_provider_scim_tenant google_iam_workforce_pool_provider_scim_tenant} Resource.
 func NewGoogleIamWorkforcePoolProviderScimTenant(scope constructs.Construct, id *string, config *GoogleIamWorkforcePoolProviderScimTenantConfig) GoogleIamWorkforcePoolProviderScimTenant {
 	_init_.Initialize()
 
@@ -628,7 +628,7 @@ func NewGoogleIamWorkforcePoolProviderScimTenant(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_iam_workforce_pool_provider_scim_tenant google_iam_workforce_pool_provider_scim_tenant} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iam_workforce_pool_provider_scim_tenant google_iam_workforce_pool_provider_scim_tenant} Resource.
 func NewGoogleIamWorkforcePoolProviderScimTenant_Override(g GoogleIamWorkforcePoolProviderScimTenant, scope constructs.Construct, id *string, config *GoogleIamWorkforcePoolProviderScimTenantConfig) {
 	_init_.Initialize()
 

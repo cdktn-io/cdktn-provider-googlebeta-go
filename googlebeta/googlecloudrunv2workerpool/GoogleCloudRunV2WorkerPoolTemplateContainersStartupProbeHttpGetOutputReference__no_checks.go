@@ -47,7 +47,7 @@ func (g *jsiiProxy_GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeHttpG
 	return nil
 }
 
-func (g *jsiiProxy_GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetOutputReference) validatePutHttpHeadersParameters(value *GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeaders) error {
+func (g *jsiiProxy_GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetOutputReference) validatePutHttpHeadersParameters(value interface{}) error {
 	return nil
 }
 

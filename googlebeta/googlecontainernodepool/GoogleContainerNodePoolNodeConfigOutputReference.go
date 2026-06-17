@@ -109,6 +109,8 @@ type GoogleContainerNodePoolNodeConfigOutputReference interface {
 	NodeGroup() *string
 	SetNodeGroup(val *string)
 	NodeGroupInput() *string
+	NodeImageConfig() GoogleContainerNodePoolNodeConfigNodeImageConfigList
+	NodeImageConfigInput() interface{}
 	OauthScopes() *[]*string
 	SetOauthScopes(val *[]*string)
 	OauthScopesInput() *[]*string
@@ -195,6 +197,7 @@ type GoogleContainerNodePoolNodeConfigOutputReference interface {
 	PutKubeletConfig(value *GoogleContainerNodePoolNodeConfigKubeletConfig)
 	PutLinuxNodeConfig(value *GoogleContainerNodePoolNodeConfigLinuxNodeConfig)
 	PutLocalNvmeSsdBlockConfig(value *GoogleContainerNodePoolNodeConfigLocalNvmeSsdBlockConfig)
+	PutNodeImageConfig(value interface{})
 	PutReservationAffinity(value *GoogleContainerNodePoolNodeConfigReservationAffinity)
 	PutSandboxConfig(value *GoogleContainerNodePoolNodeConfigSandboxConfig)
 	PutSecondaryBootDisks(value interface{})
@@ -233,6 +236,7 @@ type GoogleContainerNodePoolNodeConfigOutputReference interface {
 	ResetMetadata()
 	ResetMinCpuPlatform()
 	ResetNodeGroup()
+	ResetNodeImageConfig()
 	ResetOauthScopes()
 	ResetPreemptible()
 	ResetReservationAffinity()
@@ -919,6 +923,26 @@ func (j *jsiiProxy_GoogleContainerNodePoolNodeConfigOutputReference) NodeGroupIn
 	_jsii_.Get(
 		j,
 		"nodeGroupInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleContainerNodePoolNodeConfigOutputReference) NodeImageConfig() GoogleContainerNodePoolNodeConfigNodeImageConfigList {
+	var returns GoogleContainerNodePoolNodeConfigNodeImageConfigList
+	_jsii_.Get(
+		j,
+		"nodeImageConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleContainerNodePoolNodeConfigOutputReference) NodeImageConfigInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"nodeImageConfigInput",
 		&returns,
 	)
 	return returns
@@ -1951,6 +1975,17 @@ func (g *jsiiProxy_GoogleContainerNodePoolNodeConfigOutputReference) PutLocalNvm
 	)
 }
 
+func (g *jsiiProxy_GoogleContainerNodePoolNodeConfigOutputReference) PutNodeImageConfig(value interface{}) {
+	if err := g.validatePutNodeImageConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putNodeImageConfig",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleContainerNodePoolNodeConfigOutputReference) PutReservationAffinity(value *GoogleContainerNodePoolNodeConfigReservationAffinity) {
 	if err := g.validatePutReservationAffinityParameters(value); err != nil {
 		panic(err)
@@ -2275,6 +2310,14 @@ func (g *jsiiProxy_GoogleContainerNodePoolNodeConfigOutputReference) ResetNodeGr
 	_jsii_.InvokeVoid(
 		g,
 		"resetNodeGroup",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleContainerNodePoolNodeConfigOutputReference) ResetNodeImageConfig() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetNodeImageConfig",
 		nil, // no parameters
 	)
 }

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_discovery_engine_search_engine_iam_policy google_discovery_engine_search_engine_iam_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_discovery_engine_search_engine_iam_policy google_discovery_engine_search_engine_iam_policy}.
 type GoogleDiscoveryEngineSearchEngineIamPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -447,7 +447,7 @@ func (j *jsiiProxy_GoogleDiscoveryEngineSearchEngineIamPolicy) TerraformResource
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_discovery_engine_search_engine_iam_policy google_discovery_engine_search_engine_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_discovery_engine_search_engine_iam_policy google_discovery_engine_search_engine_iam_policy} Resource.
 func NewGoogleDiscoveryEngineSearchEngineIamPolicy(scope constructs.Construct, id *string, config *GoogleDiscoveryEngineSearchEngineIamPolicyConfig) GoogleDiscoveryEngineSearchEngineIamPolicy {
 	_init_.Initialize()
 
@@ -465,7 +465,7 @@ func NewGoogleDiscoveryEngineSearchEngineIamPolicy(scope constructs.Construct, i
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_discovery_engine_search_engine_iam_policy google_discovery_engine_search_engine_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_discovery_engine_search_engine_iam_policy google_discovery_engine_search_engine_iam_policy} Resource.
 func NewGoogleDiscoveryEngineSearchEngineIamPolicy_Override(g GoogleDiscoveryEngineSearchEngineIamPolicy, scope constructs.Construct, id *string, config *GoogleDiscoveryEngineSearchEngineIamPolicyConfig) {
 	_init_.Initialize()
 

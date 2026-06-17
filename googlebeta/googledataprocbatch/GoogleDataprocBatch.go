@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dataproc_batch google_dataproc_batch}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dataproc_batch google_dataproc_batch}.
 type GoogleDataprocBatch interface {
 	cdktn.TerraformResource
 	BatchId() *string
@@ -739,7 +739,7 @@ func (j *jsiiProxy_GoogleDataprocBatch) Uuid() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dataproc_batch google_dataproc_batch} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dataproc_batch google_dataproc_batch} Resource.
 func NewGoogleDataprocBatch(scope constructs.Construct, id *string, config *GoogleDataprocBatchConfig) GoogleDataprocBatch {
 	_init_.Initialize()
 
@@ -757,7 +757,7 @@ func NewGoogleDataprocBatch(scope constructs.Construct, id *string, config *Goog
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dataproc_batch google_dataproc_batch} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dataproc_batch google_dataproc_batch} Resource.
 func NewGoogleDataprocBatch_Override(g GoogleDataprocBatch, scope constructs.Construct, id *string, config *GoogleDataprocBatchConfig) {
 	_init_.Initialize()
 

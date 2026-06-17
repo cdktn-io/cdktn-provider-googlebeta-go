@@ -135,6 +135,10 @@ func (j *jsiiProxy_GoogleDatabaseMigrationServiceMigrationJob) validateSetDeleti
 	return nil
 }
 
+func (j *jsiiProxy_GoogleDatabaseMigrationServiceMigrationJob) validateSetDesiredStateParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleDatabaseMigrationServiceMigrationJob) validateSetDestinationParameters(val *string) error {
 	return nil
 }
@@ -180,6 +184,10 @@ func (j *jsiiProxy_GoogleDatabaseMigrationServiceMigrationJob) validateSetProvis
 }
 
 func (j *jsiiProxy_GoogleDatabaseMigrationServiceMigrationJob) validateSetSourceParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleDatabaseMigrationServiceMigrationJob) validateSetStopOnWarningsParameters(val interface{}) error {
 	return nil
 }
 

@@ -22,16 +22,16 @@ type DataGoogleComputeRegionInstantSnapshotIamPolicyConfig struct {
 	Provider cdktn.TerraformProvider `field:"optional" json:"provider" yaml:"provider"`
 	// Experimental.
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/data-sources/google_compute_region_instant_snapshot_iam_policy#name DataGoogleComputeRegionInstantSnapshotIamPolicy#name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/data-sources/google_compute_region_instant_snapshot_iam_policy#name DataGoogleComputeRegionInstantSnapshotIamPolicy#name}.
 	Name *string `field:"required" json:"name" yaml:"name"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/data-sources/google_compute_region_instant_snapshot_iam_policy#id DataGoogleComputeRegionInstantSnapshotIamPolicy#id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/data-sources/google_compute_region_instant_snapshot_iam_policy#id DataGoogleComputeRegionInstantSnapshotIamPolicy#id}.
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
 	Id *string `field:"optional" json:"id" yaml:"id"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/data-sources/google_compute_region_instant_snapshot_iam_policy#project DataGoogleComputeRegionInstantSnapshotIamPolicy#project}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/data-sources/google_compute_region_instant_snapshot_iam_policy#project DataGoogleComputeRegionInstantSnapshotIamPolicy#project}.
 	Project *string `field:"optional" json:"project" yaml:"project"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/data-sources/google_compute_region_instant_snapshot_iam_policy#region DataGoogleComputeRegionInstantSnapshotIamPolicy#region}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/data-sources/google_compute_region_instant_snapshot_iam_policy#region DataGoogleComputeRegionInstantSnapshotIamPolicy#region}.
 	Region *string `field:"optional" json:"region" yaml:"region"`
 }
 

@@ -63,6 +63,7 @@ type DataGoogleContainerClusterNodePoolNodeConfigOutputReference interface {
 	Metadata() cdktn.StringMap
 	MinCpuPlatform() *string
 	NodeGroup() *string
+	NodeImageConfig() DataGoogleContainerClusterNodePoolNodeConfigNodeImageConfigList
 	OauthScopes() *[]*string
 	Preemptible() cdktn.IResolvable
 	ReservationAffinity() DataGoogleContainerClusterNodePoolNodeConfigReservationAffinityList
@@ -481,6 +482,16 @@ func (j *jsiiProxy_DataGoogleContainerClusterNodePoolNodeConfigOutputReference) 
 	_jsii_.Get(
 		j,
 		"nodeGroup",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleContainerClusterNodePoolNodeConfigOutputReference) NodeImageConfig() DataGoogleContainerClusterNodePoolNodeConfigNodeImageConfigList {
+	var returns DataGoogleContainerClusterNodePoolNodeConfigNodeImageConfigList
+	_jsii_.Get(
+		j,
+		"nodeImageConfig",
 		&returns,
 	)
 	return returns

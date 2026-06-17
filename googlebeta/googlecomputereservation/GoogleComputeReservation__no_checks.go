@@ -79,6 +79,10 @@ func (g *jsiiProxy_GoogleComputeReservation) validatePutDeleteAfterDurationParam
 	return nil
 }
 
+func (g *jsiiProxy_GoogleComputeReservation) validatePutParamsParameters(value *GoogleComputeReservationParams) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleComputeReservation) validatePutReservationSharingPolicyParameters(value *GoogleComputeReservationReservationSharingPolicy) error {
 	return nil
 }

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_reservation google_compute_reservation}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_reservation google_compute_reservation}.
 type GoogleComputeReservation interface {
 	cdktn.TerraformResource
 	BlockNames() *[]*string
@@ -68,6 +68,8 @@ type GoogleComputeReservation interface {
 	NameInput() *string
 	// The tree node.
 	Node() constructs.Node
+	Params() GoogleComputeReservationParamsOutputReference
+	ParamsInput() *GoogleComputeReservationParams
 	Project() *string
 	SetProject(val *string)
 	ProjectInput() *string
@@ -150,6 +152,7 @@ type GoogleComputeReservation interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutDeleteAfterDuration(value *GoogleComputeReservationDeleteAfterDuration)
+	PutParams(value *GoogleComputeReservationParams)
 	PutReservationSharingPolicy(value *GoogleComputeReservationReservationSharingPolicy)
 	PutShareSettings(value *GoogleComputeReservationShareSettings)
 	PutSpecificReservation(value *GoogleComputeReservationSpecificReservation)
@@ -162,6 +165,7 @@ type GoogleComputeReservation interface {
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
+	ResetParams()
 	ResetProject()
 	ResetReservationSharingPolicy()
 	ResetShareSettings()
@@ -474,6 +478,26 @@ func (j *jsiiProxy_GoogleComputeReservation) Node() constructs.Node {
 	return returns
 }
 
+func (j *jsiiProxy_GoogleComputeReservation) Params() GoogleComputeReservationParamsOutputReference {
+	var returns GoogleComputeReservationParamsOutputReference
+	_jsii_.Get(
+		j,
+		"params",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeReservation) ParamsInput() *GoogleComputeReservationParams {
+	var returns *GoogleComputeReservationParams
+	_jsii_.Get(
+		j,
+		"paramsInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleComputeReservation) Project() *string {
 	var returns *string
 	_jsii_.Get(
@@ -725,7 +749,7 @@ func (j *jsiiProxy_GoogleComputeReservation) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_reservation google_compute_reservation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_reservation google_compute_reservation} Resource.
 func NewGoogleComputeReservation(scope constructs.Construct, id *string, config *GoogleComputeReservationConfig) GoogleComputeReservation {
 	_init_.Initialize()
 
@@ -743,7 +767,7 @@ func NewGoogleComputeReservation(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_reservation google_compute_reservation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_reservation google_compute_reservation} Resource.
 func NewGoogleComputeReservation_Override(g GoogleComputeReservation, scope constructs.Construct, id *string, config *GoogleComputeReservationConfig) {
 	_init_.Initialize()
 
@@ -1274,6 +1298,17 @@ func (g *jsiiProxy_GoogleComputeReservation) PutDeleteAfterDuration(value *Googl
 	)
 }
 
+func (g *jsiiProxy_GoogleComputeReservation) PutParams(value *GoogleComputeReservationParams) {
+	if err := g.validatePutParamsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putParams",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleComputeReservation) PutReservationSharingPolicy(value *GoogleComputeReservationReservationSharingPolicy) {
 	if err := g.validatePutReservationSharingPolicyParameters(value); err != nil {
 		panic(err)
@@ -1362,6 +1397,14 @@ func (g *jsiiProxy_GoogleComputeReservation) ResetOverrideLogicalId() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetOverrideLogicalId",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleComputeReservation) ResetParams() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetParams",
 		nil, // no parameters
 	)
 }

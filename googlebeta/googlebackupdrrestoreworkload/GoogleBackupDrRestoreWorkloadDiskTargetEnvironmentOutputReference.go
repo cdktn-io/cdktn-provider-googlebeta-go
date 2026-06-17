@@ -43,6 +43,9 @@ type GoogleBackupDrRestoreWorkloadDiskTargetEnvironmentOutputReference interface
 	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
 	SetTerraformResource(val cdktn.IInterpolatingParent)
+	UseProjectServiceAccount() interface{}
+	SetUseProjectServiceAccount(val interface{})
+	UseProjectServiceAccountInput() interface{}
 	Zone() *string
 	SetZone(val *string)
 	ZoneInput() *string
@@ -70,6 +73,7 @@ type GoogleBackupDrRestoreWorkloadDiskTargetEnvironmentOutputReference interface
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	ResetUseProjectServiceAccount()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -170,6 +174,26 @@ func (j *jsiiProxy_GoogleBackupDrRestoreWorkloadDiskTargetEnvironmentOutputRefer
 	_jsii_.Get(
 		j,
 		"terraformResource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleBackupDrRestoreWorkloadDiskTargetEnvironmentOutputReference) UseProjectServiceAccount() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"useProjectServiceAccount",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleBackupDrRestoreWorkloadDiskTargetEnvironmentOutputReference) UseProjectServiceAccountInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"useProjectServiceAccountInput",
 		&returns,
 	)
 	return returns
@@ -285,6 +309,17 @@ func (j *jsiiProxy_GoogleBackupDrRestoreWorkloadDiskTargetEnvironmentOutputRefer
 	_jsii_.Set(
 		j,
 		"terraformResource",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleBackupDrRestoreWorkloadDiskTargetEnvironmentOutputReference)SetUseProjectServiceAccount(val interface{}) {
+	if err := j.validateSetUseProjectServiceAccountParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"useProjectServiceAccount",
 		val,
 	)
 }
@@ -484,6 +519,14 @@ func (g *jsiiProxy_GoogleBackupDrRestoreWorkloadDiskTargetEnvironmentOutputRefer
 	)
 
 	return returns
+}
+
+func (g *jsiiProxy_GoogleBackupDrRestoreWorkloadDiskTargetEnvironmentOutputReference) ResetUseProjectServiceAccount() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetUseProjectServiceAccount",
+		nil, // no parameters
+	)
 }
 
 func (g *jsiiProxy_GoogleBackupDrRestoreWorkloadDiskTargetEnvironmentOutputReference) Resolve(context cdktn.IResolveContext) interface{} {

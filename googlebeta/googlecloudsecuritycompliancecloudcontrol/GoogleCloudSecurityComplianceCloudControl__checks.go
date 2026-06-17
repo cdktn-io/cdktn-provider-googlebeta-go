@@ -490,6 +490,14 @@ func (j *jsiiProxy_GoogleCloudSecurityComplianceCloudControl) validateSetOrganiz
 	return nil
 }
 
+func (j *jsiiProxy_GoogleCloudSecurityComplianceCloudControl) validateSetParentParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_GoogleCloudSecurityComplianceCloudControl) validateSetProvisionersParameters(val *[]interface{}) error {
 	for idx_97dfc6, v := range *val {
 		switch v.(type) {

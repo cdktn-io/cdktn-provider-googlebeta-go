@@ -71,6 +71,14 @@ func (j *jsiiProxy_GoogleCloudRunV2WorkerPoolTemplateOutputReference) validateSe
 	return nil
 }
 
+func (j *jsiiProxy_GoogleCloudRunV2WorkerPoolTemplateOutputReference) validateSetClientParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleCloudRunV2WorkerPoolTemplateOutputReference) validateSetClientVersionParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleCloudRunV2WorkerPoolTemplateOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
 	return nil
 }

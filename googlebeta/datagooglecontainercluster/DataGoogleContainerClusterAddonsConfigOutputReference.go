@@ -50,6 +50,7 @@ type DataGoogleContainerClusterAddonsConfigOutputReference interface {
 	PodSnapshotConfig() DataGoogleContainerClusterAddonsConfigPodSnapshotConfigList
 	RayOperatorConfig() DataGoogleContainerClusterAddonsConfigRayOperatorConfigList
 	SliceControllerConfig() DataGoogleContainerClusterAddonsConfigSliceControllerConfigList
+	SlurmOperatorConfig() DataGoogleContainerClusterAddonsConfigSlurmOperatorConfigList
 	StatefulHaConfig() DataGoogleContainerClusterAddonsConfigStatefulHaConfigList
 	// Experimental.
 	TerraformAttribute() *string
@@ -323,6 +324,16 @@ func (j *jsiiProxy_DataGoogleContainerClusterAddonsConfigOutputReference) SliceC
 	_jsii_.Get(
 		j,
 		"sliceControllerConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleContainerClusterAddonsConfigOutputReference) SlurmOperatorConfig() DataGoogleContainerClusterAddonsConfigSlurmOperatorConfigList {
+	var returns DataGoogleContainerClusterAddonsConfigSlurmOperatorConfigList
+	_jsii_.Get(
+		j,
+		"slurmOperatorConfig",
 		&returns,
 	)
 	return returns

@@ -103,6 +103,10 @@ func (g *jsiiProxy_GoogleContainerClusterNodeConfigOutputReference) validatePutL
 	return nil
 }
 
+func (g *jsiiProxy_GoogleContainerClusterNodeConfigOutputReference) validatePutNodeImageConfigParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleContainerClusterNodeConfigOutputReference) validatePutReservationAffinityParameters(value *GoogleContainerClusterNodeConfigReservationAffinity) error {
 	return nil
 }

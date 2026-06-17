@@ -83,6 +83,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetNetworkConfig", GoMethod: "ResetNetworkConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetProject", GoMethod: "ResetProject"},
+			_jsii_.MemberMethod{JsiiMethod: "resetProtocols", GoMethod: "ResetProtocols"},
 			_jsii_.MemberMethod{JsiiMethod: "resetRegistries", GoMethod: "ResetRegistries"},
 			_jsii_.MemberMethod{JsiiMethod: "resetSelfManaged", GoMethod: "ResetSelfManaged"},
 			_jsii_.MemberMethod{JsiiMethod: "resetTimeouts", GoMethod: "ResetTimeouts"},

@@ -7,11 +7,11 @@ package googleiamprojectaccesspolicy
 type GoogleIamProjectAccessPolicyDetailsRules struct {
 	// The effect of the rule. Possible values: DENY ALLOW Possible values: ["DENY", "ALLOW"].
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_iam_project_access_policy#effect GoogleIamProjectAccessPolicy#effect}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iam_project_access_policy#effect GoogleIamProjectAccessPolicy#effect}
 	Effect *string `field:"required" json:"effect" yaml:"effect"`
 	// operation block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_iam_project_access_policy#operation GoogleIamProjectAccessPolicy#operation}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iam_project_access_policy#operation GoogleIamProjectAccessPolicy#operation}
 	Operation *GoogleIamProjectAccessPolicyDetailsRulesOperation `field:"required" json:"operation" yaml:"operation"`
 	// The identities for which this rule's effect governs using one or more permissions on Google Cloud resources.
 	//
@@ -48,15 +48,15 @@ type GoogleIamProjectAccessPolicyDetailsRules struct {
 	// If the service account is undeleted, this identifier reverts to the
 	// standard identifier for a service account.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_iam_project_access_policy#principals GoogleIamProjectAccessPolicy#principals}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iam_project_access_policy#principals GoogleIamProjectAccessPolicy#principals}
 	Principals *[]*string `field:"required" json:"principals" yaml:"principals"`
 	// conditions block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_iam_project_access_policy#conditions GoogleIamProjectAccessPolicy#conditions}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iam_project_access_policy#conditions GoogleIamProjectAccessPolicy#conditions}
 	Conditions interface{} `field:"optional" json:"conditions" yaml:"conditions"`
 	// Customer specified description of the rule. Must be less than or equal to 256 characters.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_iam_project_access_policy#description GoogleIamProjectAccessPolicy#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iam_project_access_policy#description GoogleIamProjectAccessPolicy#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
 	// The identities that are excluded from the access policy rule, even if they are listed in the 'principals'.
 	//
@@ -64,7 +64,7 @@ type GoogleIamProjectAccessPolicyDetailsRules struct {
 	// group to the 'principals', then exclude specific users who belong to
 	// that group.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_iam_project_access_policy#excluded_principals GoogleIamProjectAccessPolicy#excluded_principals}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iam_project_access_policy#excluded_principals GoogleIamProjectAccessPolicy#excluded_principals}
 	ExcludedPrincipals *[]*string `field:"optional" json:"excludedPrincipals" yaml:"excludedPrincipals"`
 }
 

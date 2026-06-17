@@ -7,7 +7,7 @@ package googleiamorganizationaccesspolicy
 type GoogleIamOrganizationAccessPolicyDetails struct {
 	// rules block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_iam_organization_access_policy#rules GoogleIamOrganizationAccessPolicy#rules}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iam_organization_access_policy#rules GoogleIamOrganizationAccessPolicy#rules}
 	Rules interface{} `field:"required" json:"rules" yaml:"rules"`
 }
 

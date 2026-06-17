@@ -151,6 +151,10 @@ func (j *jsiiProxy_GoogleCloudSecurityComplianceCloudControl) validateSetOrganiz
 	return nil
 }
 
+func (j *jsiiProxy_GoogleCloudSecurityComplianceCloudControl) validateSetParentParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleCloudSecurityComplianceCloudControl) validateSetProvisionersParameters(val *[]interface{}) error {
 	return nil
 }

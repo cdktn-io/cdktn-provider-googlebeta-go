@@ -79,6 +79,10 @@ func (j *jsiiProxy_GoogleApigeeSecurityActionTimeoutsOutputReference) validateSe
 	return nil
 }
 
+func (j *jsiiProxy_GoogleApigeeSecurityActionTimeoutsOutputReference) validateSetUpdateParameters(val *string) error {
+	return nil
+}
+
 func validateNewGoogleApigeeSecurityActionTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }

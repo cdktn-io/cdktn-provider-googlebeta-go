@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_security_authz_policy google_network_security_authz_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_network_security_authz_policy google_network_security_authz_policy}.
 type GoogleNetworkSecurityAuthzPolicy interface {
 	cdktn.TerraformResource
 	Action() *string
@@ -70,6 +70,8 @@ type GoogleNetworkSecurityAuthzPolicy interface {
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
+	NetworkRules() GoogleNetworkSecurityAuthzPolicyNetworkRulesList
+	NetworkRulesInput() interface{}
 	// The tree node.
 	Node() constructs.Node
 	PolicyProfile() *string
@@ -145,6 +147,7 @@ type GoogleNetworkSecurityAuthzPolicy interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutCustomProvider(value *GoogleNetworkSecurityAuthzPolicyCustomProvider)
 	PutHttpRules(value interface{})
+	PutNetworkRules(value interface{})
 	PutTarget(value *GoogleNetworkSecurityAuthzPolicyTarget)
 	PutTimeouts(value *GoogleNetworkSecurityAuthzPolicyTimeouts)
 	ResetCustomProvider()
@@ -153,6 +156,7 @@ type GoogleNetworkSecurityAuthzPolicy interface {
 	ResetHttpRules()
 	ResetId()
 	ResetLabels()
+	ResetNetworkRules()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
@@ -476,6 +480,26 @@ func (j *jsiiProxy_GoogleNetworkSecurityAuthzPolicy) NameInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_GoogleNetworkSecurityAuthzPolicy) NetworkRules() GoogleNetworkSecurityAuthzPolicyNetworkRulesList {
+	var returns GoogleNetworkSecurityAuthzPolicyNetworkRulesList
+	_jsii_.Get(
+		j,
+		"networkRules",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleNetworkSecurityAuthzPolicy) NetworkRulesInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"networkRulesInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleNetworkSecurityAuthzPolicy) Node() constructs.Node {
 	var returns constructs.Node
 	_jsii_.Get(
@@ -647,7 +671,7 @@ func (j *jsiiProxy_GoogleNetworkSecurityAuthzPolicy) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_security_authz_policy google_network_security_authz_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_network_security_authz_policy google_network_security_authz_policy} Resource.
 func NewGoogleNetworkSecurityAuthzPolicy(scope constructs.Construct, id *string, config *GoogleNetworkSecurityAuthzPolicyConfig) GoogleNetworkSecurityAuthzPolicy {
 	_init_.Initialize()
 
@@ -665,7 +689,7 @@ func NewGoogleNetworkSecurityAuthzPolicy(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_security_authz_policy google_network_security_authz_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_network_security_authz_policy google_network_security_authz_policy} Resource.
 func NewGoogleNetworkSecurityAuthzPolicy_Override(g GoogleNetworkSecurityAuthzPolicy, scope constructs.Construct, id *string, config *GoogleNetworkSecurityAuthzPolicyConfig) {
 	_init_.Initialize()
 
@@ -1218,6 +1242,17 @@ func (g *jsiiProxy_GoogleNetworkSecurityAuthzPolicy) PutHttpRules(value interfac
 	)
 }
 
+func (g *jsiiProxy_GoogleNetworkSecurityAuthzPolicy) PutNetworkRules(value interface{}) {
+	if err := g.validatePutNetworkRulesParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putNetworkRules",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleNetworkSecurityAuthzPolicy) PutTarget(value *GoogleNetworkSecurityAuthzPolicyTarget) {
 	if err := g.validatePutTargetParameters(value); err != nil {
 		panic(err)
@@ -1284,6 +1319,14 @@ func (g *jsiiProxy_GoogleNetworkSecurityAuthzPolicy) ResetLabels() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetLabels",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleNetworkSecurityAuthzPolicy) ResetNetworkRules() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetNetworkRules",
 		nil, // no parameters
 	)
 }

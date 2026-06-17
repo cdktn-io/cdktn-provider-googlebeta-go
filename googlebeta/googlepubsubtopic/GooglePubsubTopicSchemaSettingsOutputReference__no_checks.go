@@ -63,7 +63,15 @@ func (j *jsiiProxy_GooglePubsubTopicSchemaSettingsOutputReference) validateSetEn
 	return nil
 }
 
+func (j *jsiiProxy_GooglePubsubTopicSchemaSettingsOutputReference) validateSetFirstRevisionIdParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GooglePubsubTopicSchemaSettingsOutputReference) validateSetInternalValueParameters(val *GooglePubsubTopicSchemaSettings) error {
+	return nil
+}
+
+func (j *jsiiProxy_GooglePubsubTopicSchemaSettingsOutputReference) validateSetLastRevisionIdParameters(val *string) error {
 	return nil
 }
 

@@ -40,9 +40,15 @@ type GoogleSqlDatabaseInstanceSettingsIpConfigurationPscConfigOutputReference in
 	NetworkAttachmentUriInput() *string
 	PscAutoConnections() GoogleSqlDatabaseInstanceSettingsIpConfigurationPscConfigPscAutoConnectionsList
 	PscAutoConnectionsInput() interface{}
+	PscAutoDnsEnabled() interface{}
+	SetPscAutoDnsEnabled(val interface{})
+	PscAutoDnsEnabledInput() interface{}
 	PscEnabled() interface{}
 	SetPscEnabled(val interface{})
 	PscEnabledInput() interface{}
+	PscWriteEndpointDnsEnabled() interface{}
+	SetPscWriteEndpointDnsEnabled(val interface{})
+	PscWriteEndpointDnsEnabledInput() interface{}
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -79,7 +85,9 @@ type GoogleSqlDatabaseInstanceSettingsIpConfigurationPscConfigOutputReference in
 	ResetAllowedConsumerProjects()
 	ResetNetworkAttachmentUri()
 	ResetPscAutoConnections()
+	ResetPscAutoDnsEnabled()
 	ResetPscEnabled()
+	ResetPscWriteEndpointDnsEnabled()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -205,6 +213,26 @@ func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsIpConfigurationPscConfigOutp
 	return returns
 }
 
+func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsIpConfigurationPscConfigOutputReference) PscAutoDnsEnabled() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"pscAutoDnsEnabled",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsIpConfigurationPscConfigOutputReference) PscAutoDnsEnabledInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"pscAutoDnsEnabledInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsIpConfigurationPscConfigOutputReference) PscEnabled() interface{} {
 	var returns interface{}
 	_jsii_.Get(
@@ -220,6 +248,26 @@ func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsIpConfigurationPscConfigOutp
 	_jsii_.Get(
 		j,
 		"pscEnabledInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsIpConfigurationPscConfigOutputReference) PscWriteEndpointDnsEnabled() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"pscWriteEndpointDnsEnabled",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsIpConfigurationPscConfigOutputReference) PscWriteEndpointDnsEnabledInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"pscWriteEndpointDnsEnabledInput",
 		&returns,
 	)
 	return returns
@@ -328,6 +376,17 @@ func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsIpConfigurationPscConfigOutp
 	)
 }
 
+func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsIpConfigurationPscConfigOutputReference)SetPscAutoDnsEnabled(val interface{}) {
+	if err := j.validateSetPscAutoDnsEnabledParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"pscAutoDnsEnabled",
+		val,
+	)
+}
+
 func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsIpConfigurationPscConfigOutputReference)SetPscEnabled(val interface{}) {
 	if err := j.validateSetPscEnabledParameters(val); err != nil {
 		panic(err)
@@ -335,6 +394,17 @@ func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsIpConfigurationPscConfigOutp
 	_jsii_.Set(
 		j,
 		"pscEnabled",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsIpConfigurationPscConfigOutputReference)SetPscWriteEndpointDnsEnabled(val interface{}) {
+	if err := j.validateSetPscWriteEndpointDnsEnabledParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"pscWriteEndpointDnsEnabled",
 		val,
 	)
 }
@@ -582,10 +652,26 @@ func (g *jsiiProxy_GoogleSqlDatabaseInstanceSettingsIpConfigurationPscConfigOutp
 	)
 }
 
+func (g *jsiiProxy_GoogleSqlDatabaseInstanceSettingsIpConfigurationPscConfigOutputReference) ResetPscAutoDnsEnabled() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetPscAutoDnsEnabled",
+		nil, // no parameters
+	)
+}
+
 func (g *jsiiProxy_GoogleSqlDatabaseInstanceSettingsIpConfigurationPscConfigOutputReference) ResetPscEnabled() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetPscEnabled",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleSqlDatabaseInstanceSettingsIpConfigurationPscConfigOutputReference) ResetPscWriteEndpointDnsEnabled() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetPscWriteEndpointDnsEnabled",
 		nil, // no parameters
 	)
 }

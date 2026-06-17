@@ -59,7 +59,11 @@ func (j *jsiiProxy_GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeHttpG
 	return nil
 }
 
-func (j *jsiiProxy_GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeadersOutputReference) validateSetInternalValueParameters(val *GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeaders) error {
+func (j *jsiiProxy_GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeadersOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeadersOutputReference) validateSetNameParameters(val *string) error {
 	return nil
 }
 
@@ -79,7 +83,7 @@ func (j *jsiiProxy_GoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeHttpG
 	return nil
 }
 
-func validateNewGoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeadersOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeadersOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

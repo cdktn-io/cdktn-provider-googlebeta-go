@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/data-sources/google_compute_instance_group_manager google_compute_instance_group_manager}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/data-sources/google_compute_instance_group_manager google_compute_instance_group_manager}.
 type DataGoogleComputeInstanceGroupManager interface {
 	cdktn.TerraformDataSource
 	AllInstancesConfig() DataGoogleComputeInstanceGroupManagerAllInstancesConfigList
@@ -689,7 +689,7 @@ func (j *jsiiProxy_DataGoogleComputeInstanceGroupManager) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/data-sources/google_compute_instance_group_manager google_compute_instance_group_manager} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/data-sources/google_compute_instance_group_manager google_compute_instance_group_manager} Data Source.
 func NewDataGoogleComputeInstanceGroupManager(scope constructs.Construct, id *string, config *DataGoogleComputeInstanceGroupManagerConfig) DataGoogleComputeInstanceGroupManager {
 	_init_.Initialize()
 
@@ -707,7 +707,7 @@ func NewDataGoogleComputeInstanceGroupManager(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/data-sources/google_compute_instance_group_manager google_compute_instance_group_manager} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/data-sources/google_compute_instance_group_manager google_compute_instance_group_manager} Data Source.
 func NewDataGoogleComputeInstanceGroupManager_Override(d DataGoogleComputeInstanceGroupManager, scope constructs.Construct, id *string, config *DataGoogleComputeInstanceGroupManagerConfig) {
 	_init_.Initialize()
 

@@ -139,6 +139,10 @@ func (j *jsiiProxy_GoogleCloudSecurityComplianceFramework) validateSetOrganizati
 	return nil
 }
 
+func (j *jsiiProxy_GoogleCloudSecurityComplianceFramework) validateSetParentParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleCloudSecurityComplianceFramework) validateSetProvisionersParameters(val *[]interface{}) error {
 	return nil
 }

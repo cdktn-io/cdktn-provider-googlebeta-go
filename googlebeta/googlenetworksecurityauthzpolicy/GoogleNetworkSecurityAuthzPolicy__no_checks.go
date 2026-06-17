@@ -83,6 +83,10 @@ func (g *jsiiProxy_GoogleNetworkSecurityAuthzPolicy) validatePutHttpRulesParamet
 	return nil
 }
 
+func (g *jsiiProxy_GoogleNetworkSecurityAuthzPolicy) validatePutNetworkRulesParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleNetworkSecurityAuthzPolicy) validatePutTargetParameters(value *GoogleNetworkSecurityAuthzPolicyTarget) error {
 	return nil
 }

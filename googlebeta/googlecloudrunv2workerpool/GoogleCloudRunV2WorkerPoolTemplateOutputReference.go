@@ -16,6 +16,12 @@ type GoogleCloudRunV2WorkerPoolTemplateOutputReference interface {
 	Annotations() *map[string]*string
 	SetAnnotations(val *map[string]*string)
 	AnnotationsInput() *map[string]*string
+	Client() *string
+	SetClient(val *string)
+	ClientInput() *string
+	ClientVersion() *string
+	SetClientVersion(val *string)
+	ClientVersionInput() *string
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -101,6 +107,8 @@ type GoogleCloudRunV2WorkerPoolTemplateOutputReference interface {
 	PutVolumes(value interface{})
 	PutVpcAccess(value *GoogleCloudRunV2WorkerPoolTemplateVpcAccess)
 	ResetAnnotations()
+	ResetClient()
+	ResetClientVersion()
 	ResetContainers()
 	ResetEncryptionKey()
 	ResetEncryptionKeyRevocationAction()
@@ -142,6 +150,46 @@ func (j *jsiiProxy_GoogleCloudRunV2WorkerPoolTemplateOutputReference) Annotation
 	_jsii_.Get(
 		j,
 		"annotationsInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCloudRunV2WorkerPoolTemplateOutputReference) Client() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"client",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCloudRunV2WorkerPoolTemplateOutputReference) ClientInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"clientInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCloudRunV2WorkerPoolTemplateOutputReference) ClientVersion() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"clientVersion",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCloudRunV2WorkerPoolTemplateOutputReference) ClientVersionInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"clientVersionInput",
 		&returns,
 	)
 	return returns
@@ -472,6 +520,28 @@ func (j *jsiiProxy_GoogleCloudRunV2WorkerPoolTemplateOutputReference)SetAnnotati
 	_jsii_.Set(
 		j,
 		"annotations",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleCloudRunV2WorkerPoolTemplateOutputReference)SetClient(val *string) {
+	if err := j.validateSetClientParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"client",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleCloudRunV2WorkerPoolTemplateOutputReference)SetClientVersion(val *string) {
+	if err := j.validateSetClientVersionParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"clientVersion",
 		val,
 	)
 }
@@ -842,6 +912,22 @@ func (g *jsiiProxy_GoogleCloudRunV2WorkerPoolTemplateOutputReference) ResetAnnot
 	_jsii_.InvokeVoid(
 		g,
 		"resetAnnotations",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleCloudRunV2WorkerPoolTemplateOutputReference) ResetClient() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetClient",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleCloudRunV2WorkerPoolTemplateOutputReference) ResetClientVersion() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetClientVersion",
 		nil, // no parameters
 	)
 }

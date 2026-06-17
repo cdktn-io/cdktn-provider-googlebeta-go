@@ -32,6 +32,7 @@ type DataGoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGetHttpHea
 	Fqn() *string
 	InternalValue() *DataGoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGetHttpHeaders
 	SetInternalValue(val *DataGoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGetHttpHeaders)
+	Name() *string
 	Port() *float64
 	// Experimental.
 	TerraformAttribute() *string
@@ -126,6 +127,16 @@ func (j *jsiiProxy_DataGoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbe
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGetHttpHeadersOutputReference) Name() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"name",
 		&returns,
 	)
 	return returns

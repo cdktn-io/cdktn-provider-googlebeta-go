@@ -35,7 +35,9 @@ type DataGoogleSqlDatabaseInstancesInstancesSettingsIpConfigurationPscConfigOutp
 	SetInternalValue(val *DataGoogleSqlDatabaseInstancesInstancesSettingsIpConfigurationPscConfig)
 	NetworkAttachmentUri() *string
 	PscAutoConnections() DataGoogleSqlDatabaseInstancesInstancesSettingsIpConfigurationPscConfigPscAutoConnectionsList
+	PscAutoDnsEnabled() cdktn.IResolvable
 	PscEnabled() cdktn.IResolvable
+	PscWriteEndpointDnsEnabled() cdktn.IResolvable
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -163,11 +165,31 @@ func (j *jsiiProxy_DataGoogleSqlDatabaseInstancesInstancesSettingsIpConfiguratio
 	return returns
 }
 
+func (j *jsiiProxy_DataGoogleSqlDatabaseInstancesInstancesSettingsIpConfigurationPscConfigOutputReference) PscAutoDnsEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
+	_jsii_.Get(
+		j,
+		"pscAutoDnsEnabled",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataGoogleSqlDatabaseInstancesInstancesSettingsIpConfigurationPscConfigOutputReference) PscEnabled() cdktn.IResolvable {
 	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"pscEnabled",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleSqlDatabaseInstancesInstancesSettingsIpConfigurationPscConfigOutputReference) PscWriteEndpointDnsEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
+	_jsii_.Get(
+		j,
+		"pscWriteEndpointDnsEnabled",
 		&returns,
 	)
 	return returns

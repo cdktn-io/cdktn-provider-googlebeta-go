@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_contact_center_insights_encryption_spec google_contact_center_insights_encryption_spec}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_contact_center_insights_encryption_spec google_contact_center_insights_encryption_spec}.
 type GoogleContactCenterInsightsEncryptionSpec interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -413,7 +413,7 @@ func (j *jsiiProxy_GoogleContactCenterInsightsEncryptionSpec) TimeoutsInput() in
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_contact_center_insights_encryption_spec google_contact_center_insights_encryption_spec} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_contact_center_insights_encryption_spec google_contact_center_insights_encryption_spec} Resource.
 func NewGoogleContactCenterInsightsEncryptionSpec(scope constructs.Construct, id *string, config *GoogleContactCenterInsightsEncryptionSpecConfig) GoogleContactCenterInsightsEncryptionSpec {
 	_init_.Initialize()
 
@@ -431,7 +431,7 @@ func NewGoogleContactCenterInsightsEncryptionSpec(scope constructs.Construct, id
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_contact_center_insights_encryption_spec google_contact_center_insights_encryption_spec} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_contact_center_insights_encryption_spec google_contact_center_insights_encryption_spec} Resource.
 func NewGoogleContactCenterInsightsEncryptionSpec_Override(g GoogleContactCenterInsightsEncryptionSpec, scope constructs.Construct, id *string, config *GoogleContactCenterInsightsEncryptionSpecConfig) {
 	_init_.Initialize()
 

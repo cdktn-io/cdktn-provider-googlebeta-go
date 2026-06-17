@@ -59,7 +59,11 @@ func (j *jsiiProxy_GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeHttp
 	return nil
 }
 
-func (j *jsiiProxy_GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGetHttpHeadersOutputReference) validateSetInternalValueParameters(val *GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGetHttpHeaders) error {
+func (j *jsiiProxy_GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGetHttpHeadersOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGetHttpHeadersOutputReference) validateSetNameParameters(val *string) error {
 	return nil
 }
 
@@ -79,7 +83,7 @@ func (j *jsiiProxy_GoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeHttp
 	return nil
 }
 
-func validateNewGoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGetHttpHeadersOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeHttpGetHttpHeadersOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

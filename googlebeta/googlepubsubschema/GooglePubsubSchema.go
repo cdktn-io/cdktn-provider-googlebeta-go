@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_pubsub_schema google_pubsub_schema}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_pubsub_schema google_pubsub_schema}.
 type GooglePubsubSchema interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -70,6 +70,7 @@ type GooglePubsubSchema interface {
 	SetProvisioners(val *[]interface{})
 	// Experimental.
 	RawOverrides() interface{}
+	RevisionId() *string
 	// Experimental.
 	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
@@ -391,6 +392,16 @@ func (j *jsiiProxy_GooglePubsubSchema) RawOverrides() interface{} {
 	return returns
 }
 
+func (j *jsiiProxy_GooglePubsubSchema) RevisionId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"revisionId",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GooglePubsubSchema) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
 	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
@@ -462,7 +473,7 @@ func (j *jsiiProxy_GooglePubsubSchema) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_pubsub_schema google_pubsub_schema} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_pubsub_schema google_pubsub_schema} Resource.
 func NewGooglePubsubSchema(scope constructs.Construct, id *string, config *GooglePubsubSchemaConfig) GooglePubsubSchema {
 	_init_.Initialize()
 
@@ -480,7 +491,7 @@ func NewGooglePubsubSchema(scope constructs.Construct, id *string, config *Googl
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_pubsub_schema google_pubsub_schema} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_pubsub_schema google_pubsub_schema} Resource.
 func NewGooglePubsubSchema_Override(g GooglePubsubSchema, scope constructs.Construct, id *string, config *GooglePubsubSchemaConfig) {
 	_init_.Initialize()
 

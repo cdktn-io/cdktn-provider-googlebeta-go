@@ -119,6 +119,10 @@ func (g *jsiiProxy_GoogleContainerClusterAddonsConfigOutputReference) validatePu
 	return nil
 }
 
+func (g *jsiiProxy_GoogleContainerClusterAddonsConfigOutputReference) validatePutSlurmOperatorConfigParameters(value *GoogleContainerClusterAddonsConfigSlurmOperatorConfig) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleContainerClusterAddonsConfigOutputReference) validatePutStatefulHaConfigParameters(value *GoogleContainerClusterAddonsConfigStatefulHaConfig) error {
 	return nil
 }

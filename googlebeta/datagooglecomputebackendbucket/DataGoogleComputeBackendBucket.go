@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/data-sources/google_compute_backend_bucket google_compute_backend_bucket}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/data-sources/google_compute_backend_bucket google_compute_backend_bucket}.
 type DataGoogleComputeBackendBucket interface {
 	cdktn.TerraformDataSource
 	BucketName() *string
@@ -453,7 +453,7 @@ func (j *jsiiProxy_DataGoogleComputeBackendBucket) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/data-sources/google_compute_backend_bucket google_compute_backend_bucket} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/data-sources/google_compute_backend_bucket google_compute_backend_bucket} Data Source.
 func NewDataGoogleComputeBackendBucket(scope constructs.Construct, id *string, config *DataGoogleComputeBackendBucketConfig) DataGoogleComputeBackendBucket {
 	_init_.Initialize()
 
@@ -471,7 +471,7 @@ func NewDataGoogleComputeBackendBucket(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/data-sources/google_compute_backend_bucket google_compute_backend_bucket} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/data-sources/google_compute_backend_bucket google_compute_backend_bucket} Data Source.
 func NewDataGoogleComputeBackendBucket_Override(d DataGoogleComputeBackendBucket, scope constructs.Construct, id *string, config *DataGoogleComputeBackendBucketConfig) {
 	_init_.Initialize()
 

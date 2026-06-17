@@ -29,10 +29,12 @@ type DataGooglePubsubTopicSchemaSettingsOutputReference interface {
 	// Experimental.
 	CreationStack() *[]*string
 	Encoding() *string
+	FirstRevisionId() *string
 	// Experimental.
 	Fqn() *string
 	InternalValue() *DataGooglePubsubTopicSchemaSettings
 	SetInternalValue(val *DataGooglePubsubTopicSchemaSettings)
+	LastRevisionId() *string
 	Schema() *string
 	// Experimental.
 	TerraformAttribute() *string
@@ -121,6 +123,16 @@ func (j *jsiiProxy_DataGooglePubsubTopicSchemaSettingsOutputReference) Encoding(
 	return returns
 }
 
+func (j *jsiiProxy_DataGooglePubsubTopicSchemaSettingsOutputReference) FirstRevisionId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"firstRevisionId",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataGooglePubsubTopicSchemaSettingsOutputReference) Fqn() *string {
 	var returns *string
 	_jsii_.Get(
@@ -136,6 +148,16 @@ func (j *jsiiProxy_DataGooglePubsubTopicSchemaSettingsOutputReference) InternalV
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGooglePubsubTopicSchemaSettingsOutputReference) LastRevisionId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"lastRevisionId",
 		&returns,
 	)
 	return returns

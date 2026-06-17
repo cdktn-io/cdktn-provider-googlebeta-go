@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_organization_access_approval_settings google_organization_access_approval_settings}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_organization_access_approval_settings google_organization_access_approval_settings}.
 type GoogleOrganizationAccessApprovalSettings interface {
 	cdktn.TerraformResource
 	ActiveKeyVersion() *string
@@ -505,7 +505,7 @@ func (j *jsiiProxy_GoogleOrganizationAccessApprovalSettings) TimeoutsInput() int
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_organization_access_approval_settings google_organization_access_approval_settings} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_organization_access_approval_settings google_organization_access_approval_settings} Resource.
 func NewGoogleOrganizationAccessApprovalSettings(scope constructs.Construct, id *string, config *GoogleOrganizationAccessApprovalSettingsConfig) GoogleOrganizationAccessApprovalSettings {
 	_init_.Initialize()
 
@@ -523,7 +523,7 @@ func NewGoogleOrganizationAccessApprovalSettings(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_organization_access_approval_settings google_organization_access_approval_settings} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_organization_access_approval_settings google_organization_access_approval_settings} Resource.
 func NewGoogleOrganizationAccessApprovalSettings_Override(g GoogleOrganizationAccessApprovalSettings, scope constructs.Construct, id *string, config *GoogleOrganizationAccessApprovalSettingsConfig) {
 	_init_.Initialize()
 

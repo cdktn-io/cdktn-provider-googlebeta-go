@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/data-sources/google_monitoring_notification_channel google_monitoring_notification_channel}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/data-sources/google_monitoring_notification_channel google_monitoring_notification_channel}.
 type DataGoogleMonitoringNotificationChannel interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -471,7 +471,7 @@ func (j *jsiiProxy_DataGoogleMonitoringNotificationChannel) VerificationStatus()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/data-sources/google_monitoring_notification_channel google_monitoring_notification_channel} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/data-sources/google_monitoring_notification_channel google_monitoring_notification_channel} Data Source.
 func NewDataGoogleMonitoringNotificationChannel(scope constructs.Construct, id *string, config *DataGoogleMonitoringNotificationChannelConfig) DataGoogleMonitoringNotificationChannel {
 	_init_.Initialize()
 
@@ -489,7 +489,7 @@ func NewDataGoogleMonitoringNotificationChannel(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/data-sources/google_monitoring_notification_channel google_monitoring_notification_channel} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/data-sources/google_monitoring_notification_channel google_monitoring_notification_channel} Data Source.
 func NewDataGoogleMonitoringNotificationChannel_Override(d DataGoogleMonitoringNotificationChannel, scope constructs.Construct, id *string, config *DataGoogleMonitoringNotificationChannelConfig) {
 	_init_.Initialize()
 

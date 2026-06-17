@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_migration_job google_database_migration_service_migration_job}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_database_migration_service_migration_job google_database_migration_service_migration_job}.
 type GoogleDatabaseMigrationServiceMigrationJob interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -35,6 +35,9 @@ type GoogleDatabaseMigrationServiceMigrationJob interface {
 	DependsOn() *[]*string
 	// Experimental.
 	SetDependsOn(val *[]*string)
+	DesiredState() *string
+	SetDesiredState(val *string)
+	DesiredStateInput() *string
 	Destination() *string
 	SetDestination(val *string)
 	DestinationInput() *string
@@ -106,6 +109,9 @@ type GoogleDatabaseMigrationServiceMigrationJob interface {
 	State() *string
 	StaticIpConnectivity() GoogleDatabaseMigrationServiceMigrationJobStaticIpConnectivityOutputReference
 	StaticIpConnectivityInput() *GoogleDatabaseMigrationServiceMigrationJobStaticIpConnectivity
+	StopOnWarnings() interface{}
+	SetStopOnWarnings(val interface{})
+	StopOnWarningsInput() interface{}
 	// Experimental.
 	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	TerraformLabels() cdktn.StringMap
@@ -172,6 +178,7 @@ type GoogleDatabaseMigrationServiceMigrationJob interface {
 	PutTimeouts(value *GoogleDatabaseMigrationServiceMigrationJobTimeouts)
 	PutVpcPeeringConnectivity(value *GoogleDatabaseMigrationServiceMigrationJobVpcPeeringConnectivity)
 	ResetDeletionPolicy()
+	ResetDesiredState()
 	ResetDisplayName()
 	ResetDumpFlags()
 	ResetDumpPath()
@@ -188,6 +195,7 @@ type GoogleDatabaseMigrationServiceMigrationJob interface {
 	ResetProject()
 	ResetReverseSshConnectivity()
 	ResetStaticIpConnectivity()
+	ResetStopOnWarnings()
 	ResetTimeouts()
 	ResetVpcPeeringConnectivity()
 	SynthesizeAttributes() *map[string]interface{}
@@ -292,6 +300,26 @@ func (j *jsiiProxy_GoogleDatabaseMigrationServiceMigrationJob) DependsOn() *[]*s
 	_jsii_.Get(
 		j,
 		"dependsOn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDatabaseMigrationServiceMigrationJob) DesiredState() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"desiredState",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDatabaseMigrationServiceMigrationJob) DesiredStateInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"desiredStateInput",
 		&returns,
 	)
 	return returns
@@ -747,6 +775,26 @@ func (j *jsiiProxy_GoogleDatabaseMigrationServiceMigrationJob) StaticIpConnectiv
 	return returns
 }
 
+func (j *jsiiProxy_GoogleDatabaseMigrationServiceMigrationJob) StopOnWarnings() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"stopOnWarnings",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDatabaseMigrationServiceMigrationJob) StopOnWarningsInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"stopOnWarningsInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleDatabaseMigrationServiceMigrationJob) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
 	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
@@ -848,7 +896,7 @@ func (j *jsiiProxy_GoogleDatabaseMigrationServiceMigrationJob) VpcPeeringConnect
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_migration_job google_database_migration_service_migration_job} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_database_migration_service_migration_job google_database_migration_service_migration_job} Resource.
 func NewGoogleDatabaseMigrationServiceMigrationJob(scope constructs.Construct, id *string, config *GoogleDatabaseMigrationServiceMigrationJobConfig) GoogleDatabaseMigrationServiceMigrationJob {
 	_init_.Initialize()
 
@@ -866,7 +914,7 @@ func NewGoogleDatabaseMigrationServiceMigrationJob(scope constructs.Construct, i
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_database_migration_service_migration_job google_database_migration_service_migration_job} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_database_migration_service_migration_job google_database_migration_service_migration_job} Resource.
 func NewGoogleDatabaseMigrationServiceMigrationJob_Override(g GoogleDatabaseMigrationServiceMigrationJob, scope constructs.Construct, id *string, config *GoogleDatabaseMigrationServiceMigrationJobConfig) {
 	_init_.Initialize()
 
@@ -914,6 +962,17 @@ func (j *jsiiProxy_GoogleDatabaseMigrationServiceMigrationJob)SetDependsOn(val *
 	_jsii_.Set(
 		j,
 		"dependsOn",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleDatabaseMigrationServiceMigrationJob)SetDesiredState(val *string) {
+	if err := j.validateSetDesiredStateParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"desiredState",
 		val,
 	)
 }
@@ -1062,6 +1121,17 @@ func (j *jsiiProxy_GoogleDatabaseMigrationServiceMigrationJob)SetSource(val *str
 	_jsii_.Set(
 		j,
 		"source",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleDatabaseMigrationServiceMigrationJob)SetStopOnWarnings(val interface{}) {
+	if err := j.validateSetStopOnWarningsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"stopOnWarnings",
 		val,
 	)
 }
@@ -1526,6 +1596,14 @@ func (g *jsiiProxy_GoogleDatabaseMigrationServiceMigrationJob) ResetDeletionPoli
 	)
 }
 
+func (g *jsiiProxy_GoogleDatabaseMigrationServiceMigrationJob) ResetDesiredState() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDesiredState",
+		nil, // no parameters
+	)
+}
+
 func (g *jsiiProxy_GoogleDatabaseMigrationServiceMigrationJob) ResetDisplayName() {
 	_jsii_.InvokeVoid(
 		g,
@@ -1634,6 +1712,14 @@ func (g *jsiiProxy_GoogleDatabaseMigrationServiceMigrationJob) ResetStaticIpConn
 	_jsii_.InvokeVoid(
 		g,
 		"resetStaticIpConnectivity",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleDatabaseMigrationServiceMigrationJob) ResetStopOnWarnings() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetStopOnWarnings",
 		nil, // no parameters
 	)
 }

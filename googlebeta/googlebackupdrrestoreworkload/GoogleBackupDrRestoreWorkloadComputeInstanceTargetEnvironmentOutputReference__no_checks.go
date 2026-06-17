@@ -75,6 +75,10 @@ func (j *jsiiProxy_GoogleBackupDrRestoreWorkloadComputeInstanceTargetEnvironment
 	return nil
 }
 
+func (j *jsiiProxy_GoogleBackupDrRestoreWorkloadComputeInstanceTargetEnvironmentOutputReference) validateSetUseProjectServiceAccountParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleBackupDrRestoreWorkloadComputeInstanceTargetEnvironmentOutputReference) validateSetZoneParameters(val *string) error {
 	return nil
 }

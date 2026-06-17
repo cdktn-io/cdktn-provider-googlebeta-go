@@ -14,6 +14,8 @@ import (
 type DataGoogleCloudRunV2WorkerPoolTemplateOutputReference interface {
 	cdktn.ComplexObject
 	Annotations() cdktn.StringMap
+	Client() *string
+	ClientVersion() *string
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -96,6 +98,26 @@ func (j *jsiiProxy_DataGoogleCloudRunV2WorkerPoolTemplateOutputReference) Annota
 	_jsii_.Get(
 		j,
 		"annotations",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleCloudRunV2WorkerPoolTemplateOutputReference) Client() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"client",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleCloudRunV2WorkerPoolTemplateOutputReference) ClientVersion() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"clientVersion",
 		&returns,
 	)
 	return returns
