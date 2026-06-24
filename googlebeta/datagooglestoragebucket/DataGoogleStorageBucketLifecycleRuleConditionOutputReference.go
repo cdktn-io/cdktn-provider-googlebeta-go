@@ -46,6 +46,8 @@ type DataGoogleStorageBucketLifecycleRuleConditionOutputReference interface {
 	SendDaysSinceCustomTimeIfZero() cdktn.IResolvable
 	SendDaysSinceNoncurrentTimeIfZero() cdktn.IResolvable
 	SendNumNewerVersionsIfZero() cdktn.IResolvable
+	SizeAboveBytes() *float64
+	SizeBelowBytes() *float64
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -279,6 +281,26 @@ func (j *jsiiProxy_DataGoogleStorageBucketLifecycleRuleConditionOutputReference)
 	_jsii_.Get(
 		j,
 		"sendNumNewerVersionsIfZero",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleStorageBucketLifecycleRuleConditionOutputReference) SizeAboveBytes() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"sizeAboveBytes",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleStorageBucketLifecycleRuleConditionOutputReference) SizeBelowBytes() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"sizeBelowBytes",
 		&returns,
 	)
 	return returns

@@ -13,6 +13,9 @@ import (
 
 type GoogleSqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReference interface {
 	cdktn.ComplexObject
+	AdminCredentialSecretName() *string
+	SetAdminCredentialSecretName(val *string)
+	AdminCredentialSecretNameInput() *string
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -28,6 +31,9 @@ type GoogleSqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReference inter
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
+	DnsServers() *[]*string
+	SetDnsServers(val *[]*string)
+	DnsServersInput() *[]*string
 	Domain() *string
 	SetDomain(val *string)
 	DomainInput() *string
@@ -35,6 +41,12 @@ type GoogleSqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReference inter
 	Fqn() *string
 	InternalValue() *GoogleSqlDatabaseInstanceSettingsActiveDirectoryConfig
 	SetInternalValue(val *GoogleSqlDatabaseInstanceSettingsActiveDirectoryConfig)
+	Mode() *string
+	SetMode(val *string)
+	ModeInput() *string
+	OrganizationalUnit() *string
+	SetOrganizationalUnit(val *string)
+	OrganizationalUnitInput() *string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -67,6 +79,10 @@ type GoogleSqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReference inter
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	ResetAdminCredentialSecretName()
+	ResetDnsServers()
+	ResetMode()
+	ResetOrganizationalUnit()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -80,6 +96,26 @@ type GoogleSqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReference inter
 // The jsii proxy struct for GoogleSqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReference
 type jsiiProxy_GoogleSqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReference struct {
 	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReference) AdminCredentialSecretName() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"adminCredentialSecretName",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReference) AdminCredentialSecretNameInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"adminCredentialSecretNameInput",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReference) ComplexObjectIndex() interface{} {
@@ -107,6 +143,26 @@ func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsActiveDirectoryConfigOutputR
 	_jsii_.Get(
 		j,
 		"creationStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReference) DnsServers() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"dnsServers",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReference) DnsServersInput() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"dnsServersInput",
 		&returns,
 	)
 	return returns
@@ -147,6 +203,46 @@ func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsActiveDirectoryConfigOutputR
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReference) Mode() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"mode",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReference) ModeInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"modeInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReference) OrganizationalUnit() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"organizationalUnit",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReference) OrganizationalUnitInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"organizationalUnitInput",
 		&returns,
 	)
 	return returns
@@ -200,6 +296,17 @@ func NewGoogleSqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReference_Ov
 	)
 }
 
+func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReference)SetAdminCredentialSecretName(val *string) {
+	if err := j.validateSetAdminCredentialSecretNameParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"adminCredentialSecretName",
+		val,
+	)
+}
+
 func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReference)SetComplexObjectIndex(val interface{}) {
 	if err := j.validateSetComplexObjectIndexParameters(val); err != nil {
 		panic(err)
@@ -222,6 +329,17 @@ func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsActiveDirectoryConfigOutputR
 	)
 }
 
+func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReference)SetDnsServers(val *[]*string) {
+	if err := j.validateSetDnsServersParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"dnsServers",
+		val,
+	)
+}
+
 func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReference)SetDomain(val *string) {
 	if err := j.validateSetDomainParameters(val); err != nil {
 		panic(err)
@@ -240,6 +358,28 @@ func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsActiveDirectoryConfigOutputR
 	_jsii_.Set(
 		j,
 		"internalValue",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReference)SetMode(val *string) {
+	if err := j.validateSetModeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"mode",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReference)SetOrganizationalUnit(val *string) {
+	if err := j.validateSetOrganizationalUnitParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"organizationalUnit",
 		val,
 	)
 }
@@ -450,6 +590,38 @@ func (g *jsiiProxy_GoogleSqlDatabaseInstanceSettingsActiveDirectoryConfigOutputR
 	)
 
 	return returns
+}
+
+func (g *jsiiProxy_GoogleSqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReference) ResetAdminCredentialSecretName() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetAdminCredentialSecretName",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleSqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReference) ResetDnsServers() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDnsServers",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleSqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReference) ResetMode() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetMode",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleSqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReference) ResetOrganizationalUnit() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetOrganizationalUnit",
+		nil, // no parameters
+	)
 }
 
 func (g *jsiiProxy_GoogleSqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReference) Resolve(context cdktn.IResolveContext) interface{} {

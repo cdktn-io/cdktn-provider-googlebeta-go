@@ -87,6 +87,10 @@ func (g *jsiiProxy_GoogleCesToolset) validatePutTimeoutsParameters(value *Google
 	return nil
 }
 
+func (g *jsiiProxy_GoogleCesToolset) validatePutToolFakeConfigParameters(value *GoogleCesToolsetToolFakeConfig) error {
+	return nil
+}
+
 func validateGoogleCesToolset_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

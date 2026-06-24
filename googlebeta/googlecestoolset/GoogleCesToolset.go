@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_toolset google_ces_toolset}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_ces_toolset google_ces_toolset}.
 type GoogleCesToolset interface {
 	cdktn.TerraformResource
 	App() *string
@@ -94,6 +94,8 @@ type GoogleCesToolset interface {
 	TerraformResourceType() *string
 	Timeouts() GoogleCesToolsetTimeoutsOutputReference
 	TimeoutsInput() interface{}
+	ToolFakeConfig() GoogleCesToolsetToolFakeConfigOutputReference
+	ToolFakeConfigInput() *GoogleCesToolsetToolFakeConfig
 	ToolsetId() *string
 	SetToolsetId(val *string)
 	ToolsetIdInput() *string
@@ -144,6 +146,7 @@ type GoogleCesToolset interface {
 	PutMcpToolset(value *GoogleCesToolsetMcpToolset)
 	PutOpenApiToolset(value *GoogleCesToolsetOpenApiToolset)
 	PutTimeouts(value *GoogleCesToolsetTimeouts)
+	PutToolFakeConfig(value *GoogleCesToolsetToolFakeConfig)
 	ResetDeletionPolicy()
 	ResetDescription()
 	ResetDisplayName()
@@ -156,6 +159,7 @@ type GoogleCesToolset interface {
 	ResetOverrideLogicalId()
 	ResetProject()
 	ResetTimeouts()
+	ResetToolFakeConfig()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
 	// Experimental.
@@ -593,6 +597,26 @@ func (j *jsiiProxy_GoogleCesToolset) TimeoutsInput() interface{} {
 	return returns
 }
 
+func (j *jsiiProxy_GoogleCesToolset) ToolFakeConfig() GoogleCesToolsetToolFakeConfigOutputReference {
+	var returns GoogleCesToolsetToolFakeConfigOutputReference
+	_jsii_.Get(
+		j,
+		"toolFakeConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCesToolset) ToolFakeConfigInput() *GoogleCesToolsetToolFakeConfig {
+	var returns *GoogleCesToolsetToolFakeConfig
+	_jsii_.Get(
+		j,
+		"toolFakeConfigInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleCesToolset) ToolsetId() *string {
 	var returns *string
 	_jsii_.Get(
@@ -624,7 +648,7 @@ func (j *jsiiProxy_GoogleCesToolset) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_toolset google_ces_toolset} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_ces_toolset google_ces_toolset} Resource.
 func NewGoogleCesToolset(scope constructs.Construct, id *string, config *GoogleCesToolsetConfig) GoogleCesToolset {
 	_init_.Initialize()
 
@@ -642,7 +666,7 @@ func NewGoogleCesToolset(scope constructs.Construct, id *string, config *GoogleC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_toolset google_ces_toolset} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_ces_toolset google_ces_toolset} Resource.
 func NewGoogleCesToolset_Override(g GoogleCesToolset, scope constructs.Construct, id *string, config *GoogleCesToolsetConfig) {
 	_init_.Initialize()
 
@@ -1206,6 +1230,17 @@ func (g *jsiiProxy_GoogleCesToolset) PutTimeouts(value *GoogleCesToolsetTimeouts
 	)
 }
 
+func (g *jsiiProxy_GoogleCesToolset) PutToolFakeConfig(value *GoogleCesToolsetToolFakeConfig) {
+	if err := g.validatePutToolFakeConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putToolFakeConfig",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleCesToolset) ResetDeletionPolicy() {
 	_jsii_.InvokeVoid(
 		g,
@@ -1282,6 +1317,14 @@ func (g *jsiiProxy_GoogleCesToolset) ResetTimeouts() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetTimeouts",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleCesToolset) ResetToolFakeConfig() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetToolFakeConfig",
 		nil, // no parameters
 	)
 }

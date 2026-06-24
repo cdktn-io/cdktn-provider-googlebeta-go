@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_container_cluster google_container_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_container_cluster google_container_cluster}.
 type GoogleContainerCluster interface {
 	cdktn.TerraformResource
 	AddonsConfig() GoogleContainerClusterAddonsConfigOutputReference
@@ -61,6 +61,9 @@ type GoogleContainerCluster interface {
 	DatapathProvider() *string
 	SetDatapathProvider(val *string)
 	DatapathProviderInput() *string
+	DataplaneOptimizationMode() *string
+	SetDataplaneOptimizationMode(val *string)
+	DataplaneOptimizationModeInput() *string
 	DefaultMaxPodsPerNode() *float64
 	SetDefaultMaxPodsPerNode(val *float64)
 	DefaultMaxPodsPerNodeInput() *float64
@@ -139,6 +142,9 @@ type GoogleContainerCluster interface {
 	IdentityServiceConfig() GoogleContainerClusterIdentityServiceConfigOutputReference
 	IdentityServiceConfigInput() *GoogleContainerClusterIdentityServiceConfig
 	IdInput() *string
+	IgnoreNodeCountChanges() interface{}
+	SetIgnoreNodeCountChanges(val interface{})
+	IgnoreNodeCountChangesInput() interface{}
 	InitialNodeCount() *float64
 	SetInitialNodeCount(val *float64)
 	InitialNodeCountInput() *float64
@@ -261,6 +267,9 @@ type GoogleContainerCluster interface {
 	ServiceExternalIpsConfig() GoogleContainerClusterServiceExternalIpsConfigOutputReference
 	ServiceExternalIpsConfigInput() *GoogleContainerClusterServiceExternalIpsConfig
 	ServicesIpv4Cidr() *string
+	SkipNodePoolRefresh() interface{}
+	SetSkipNodePoolRefresh(val interface{})
+	SkipNodePoolRefreshInput() interface{}
 	Subnetwork() *string
 	SetSubnetwork(val *string)
 	SubnetworkInput() *string
@@ -395,6 +404,7 @@ type GoogleContainerCluster interface {
 	ResetCostManagementConfig()
 	ResetDatabaseEncryption()
 	ResetDatapathProvider()
+	ResetDataplaneOptimizationMode()
 	ResetDefaultMaxPodsPerNode()
 	ResetDefaultSnatStatus()
 	ResetDeletionPolicy()
@@ -419,6 +429,7 @@ type GoogleContainerCluster interface {
 	ResetGkeAutoUpgradeConfig()
 	ResetId()
 	ResetIdentityServiceConfig()
+	ResetIgnoreNodeCountChanges()
 	ResetInitialNodeCount()
 	ResetInTransitEncryptionConfig()
 	ResetIpAllocationPolicy()
@@ -464,6 +475,7 @@ type GoogleContainerCluster interface {
 	ResetSecretSyncConfig()
 	ResetSecurityPostureConfig()
 	ResetServiceExternalIpsConfig()
+	ResetSkipNodePoolRefresh()
 	ResetSubnetwork()
 	ResetTimeouts()
 	ResetTpuConfig()
@@ -833,6 +845,26 @@ func (j *jsiiProxy_GoogleContainerCluster) DatapathProviderInput() *string {
 	_jsii_.Get(
 		j,
 		"datapathProviderInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleContainerCluster) DataplaneOptimizationMode() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"dataplaneOptimizationMode",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleContainerCluster) DataplaneOptimizationModeInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"dataplaneOptimizationModeInput",
 		&returns,
 	)
 	return returns
@@ -1373,6 +1405,26 @@ func (j *jsiiProxy_GoogleContainerCluster) IdInput() *string {
 	_jsii_.Get(
 		j,
 		"idInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleContainerCluster) IgnoreNodeCountChanges() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"ignoreNodeCountChanges",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleContainerCluster) IgnoreNodeCountChangesInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"ignoreNodeCountChangesInput",
 		&returns,
 	)
 	return returns
@@ -2338,6 +2390,26 @@ func (j *jsiiProxy_GoogleContainerCluster) ServicesIpv4Cidr() *string {
 	return returns
 }
 
+func (j *jsiiProxy_GoogleContainerCluster) SkipNodePoolRefresh() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"skipNodePoolRefresh",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleContainerCluster) SkipNodePoolRefreshInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"skipNodePoolRefreshInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleContainerCluster) Subnetwork() *string {
 	var returns *string
 	_jsii_.Get(
@@ -2529,7 +2601,7 @@ func (j *jsiiProxy_GoogleContainerCluster) WorkloadIdentityConfigInput() *Google
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_container_cluster google_container_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_container_cluster google_container_cluster} Resource.
 func NewGoogleContainerCluster(scope constructs.Construct, id *string, config *GoogleContainerClusterConfig) GoogleContainerCluster {
 	_init_.Initialize()
 
@@ -2547,7 +2619,7 @@ func NewGoogleContainerCluster(scope constructs.Construct, id *string, config *G
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_container_cluster google_container_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_container_cluster google_container_cluster} Resource.
 func NewGoogleContainerCluster_Override(g GoogleContainerCluster, scope constructs.Construct, id *string, config *GoogleContainerClusterConfig) {
 	_init_.Initialize()
 
@@ -2620,6 +2692,17 @@ func (j *jsiiProxy_GoogleContainerCluster)SetDatapathProvider(val *string) {
 	_jsii_.Set(
 		j,
 		"datapathProvider",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleContainerCluster)SetDataplaneOptimizationMode(val *string) {
+	if err := j.validateSetDataplaneOptimizationModeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"dataplaneOptimizationMode",
 		val,
 	)
 }
@@ -2816,6 +2899,17 @@ func (j *jsiiProxy_GoogleContainerCluster)SetId(val *string) {
 	)
 }
 
+func (j *jsiiProxy_GoogleContainerCluster)SetIgnoreNodeCountChanges(val interface{}) {
+	if err := j.validateSetIgnoreNodeCountChangesParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"ignoreNodeCountChanges",
+		val,
+	)
+}
+
 func (j *jsiiProxy_GoogleContainerCluster)SetInitialNodeCount(val *float64) {
 	if err := j.validateSetInitialNodeCountParameters(val); err != nil {
 		panic(err)
@@ -3007,6 +3101,17 @@ func (j *jsiiProxy_GoogleContainerCluster)SetResourceLabels(val *map[string]*str
 	_jsii_.Set(
 		j,
 		"resourceLabels",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleContainerCluster)SetSkipNodePoolRefresh(val interface{}) {
+	if err := j.validateSetSkipNodePoolRefreshParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"skipNodePoolRefresh",
 		val,
 	)
 }
@@ -4078,6 +4183,14 @@ func (g *jsiiProxy_GoogleContainerCluster) ResetDatapathProvider() {
 	)
 }
 
+func (g *jsiiProxy_GoogleContainerCluster) ResetDataplaneOptimizationMode() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDataplaneOptimizationMode",
+		nil, // no parameters
+	)
+}
+
 func (g *jsiiProxy_GoogleContainerCluster) ResetDefaultMaxPodsPerNode() {
 	_jsii_.InvokeVoid(
 		g,
@@ -4266,6 +4379,14 @@ func (g *jsiiProxy_GoogleContainerCluster) ResetIdentityServiceConfig() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetIdentityServiceConfig",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleContainerCluster) ResetIgnoreNodeCountChanges() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetIgnoreNodeCountChanges",
 		nil, // no parameters
 	)
 }
@@ -4610,6 +4731,14 @@ func (g *jsiiProxy_GoogleContainerCluster) ResetServiceExternalIpsConfig() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetServiceExternalIpsConfig",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleContainerCluster) ResetSkipNodePoolRefresh() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetSkipNodePoolRefresh",
 		nil, // no parameters
 	)
 }

@@ -91,6 +91,10 @@ func (j *jsiiProxy_GoogleContainerClusterNodePoolOutputReference) validateSetCom
 	return nil
 }
 
+func (j *jsiiProxy_GoogleContainerClusterNodePoolOutputReference) validateSetIgnoreNodeCountChangesParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleContainerClusterNodePoolOutputReference) validateSetInitialNodeCountParameters(val *float64) error {
 	return nil
 }

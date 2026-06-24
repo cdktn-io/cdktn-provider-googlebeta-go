@@ -103,6 +103,10 @@ func (g *jsiiProxy_GoogleSqlDatabaseInstanceSettingsOutputReference) validatePut
 	return nil
 }
 
+func (g *jsiiProxy_GoogleSqlDatabaseInstanceSettingsOutputReference) validatePutPerformanceCaptureConfigParameters(value *GoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfig) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleSqlDatabaseInstanceSettingsOutputReference) validatePutReadPoolAutoScaleConfigParameters(value *GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfig) error {
 	return nil
 }

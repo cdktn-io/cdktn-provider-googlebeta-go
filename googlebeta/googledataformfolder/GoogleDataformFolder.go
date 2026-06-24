@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dataform_folder google_dataform_folder}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_dataform_folder google_dataform_folder}.
 type GoogleDataformFolder interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -483,7 +483,7 @@ func (j *jsiiProxy_GoogleDataformFolder) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dataform_folder google_dataform_folder} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_dataform_folder google_dataform_folder} Resource.
 func NewGoogleDataformFolder(scope constructs.Construct, id *string, config *GoogleDataformFolderConfig) GoogleDataformFolder {
 	_init_.Initialize()
 
@@ -501,7 +501,7 @@ func NewGoogleDataformFolder(scope constructs.Construct, id *string, config *Goo
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_dataform_folder google_dataform_folder} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_dataform_folder google_dataform_folder} Resource.
 func NewGoogleDataformFolder_Override(g GoogleDataformFolder, scope constructs.Construct, id *string, config *GoogleDataformFolderConfig) {
 	_init_.Initialize()
 

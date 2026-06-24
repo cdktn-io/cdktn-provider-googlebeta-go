@@ -28,6 +28,8 @@ type GoogleNetworkServicesAgentGatewayNetworkConfigOutputReference interface {
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
+	DnsPeeringConfig() GoogleNetworkServicesAgentGatewayNetworkConfigDnsPeeringConfigOutputReference
+	DnsPeeringConfigInput() *GoogleNetworkServicesAgentGatewayNetworkConfigDnsPeeringConfig
 	Egress() GoogleNetworkServicesAgentGatewayNetworkConfigEgressOutputReference
 	EgressInput() *GoogleNetworkServicesAgentGatewayNetworkConfigEgress
 	// Experimental.
@@ -66,7 +68,9 @@ type GoogleNetworkServicesAgentGatewayNetworkConfigOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutDnsPeeringConfig(value *GoogleNetworkServicesAgentGatewayNetworkConfigDnsPeeringConfig)
 	PutEgress(value *GoogleNetworkServicesAgentGatewayNetworkConfigEgress)
+	ResetDnsPeeringConfig()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -107,6 +111,26 @@ func (j *jsiiProxy_GoogleNetworkServicesAgentGatewayNetworkConfigOutputReference
 	_jsii_.Get(
 		j,
 		"creationStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleNetworkServicesAgentGatewayNetworkConfigOutputReference) DnsPeeringConfig() GoogleNetworkServicesAgentGatewayNetworkConfigDnsPeeringConfigOutputReference {
+	var returns GoogleNetworkServicesAgentGatewayNetworkConfigDnsPeeringConfigOutputReference
+	_jsii_.Get(
+		j,
+		"dnsPeeringConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleNetworkServicesAgentGatewayNetworkConfigOutputReference) DnsPeeringConfigInput() *GoogleNetworkServicesAgentGatewayNetworkConfigDnsPeeringConfig {
+	var returns *GoogleNetworkServicesAgentGatewayNetworkConfigDnsPeeringConfig
+	_jsii_.Get(
+		j,
+		"dnsPeeringConfigInput",
 		&returns,
 	)
 	return returns
@@ -441,6 +465,17 @@ func (g *jsiiProxy_GoogleNetworkServicesAgentGatewayNetworkConfigOutputReference
 	return returns
 }
 
+func (g *jsiiProxy_GoogleNetworkServicesAgentGatewayNetworkConfigOutputReference) PutDnsPeeringConfig(value *GoogleNetworkServicesAgentGatewayNetworkConfigDnsPeeringConfig) {
+	if err := g.validatePutDnsPeeringConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putDnsPeeringConfig",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleNetworkServicesAgentGatewayNetworkConfigOutputReference) PutEgress(value *GoogleNetworkServicesAgentGatewayNetworkConfigEgress) {
 	if err := g.validatePutEgressParameters(value); err != nil {
 		panic(err)
@@ -449,6 +484,14 @@ func (g *jsiiProxy_GoogleNetworkServicesAgentGatewayNetworkConfigOutputReference
 		g,
 		"putEgress",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleNetworkServicesAgentGatewayNetworkConfigOutputReference) ResetDnsPeeringConfig() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDnsPeeringConfig",
+		nil, // no parameters
 	)
 }
 

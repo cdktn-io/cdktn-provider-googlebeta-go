@@ -146,6 +146,8 @@ type GoogleContainerClusterNodeConfigOutputReference interface {
 	SetTags(val *[]*string)
 	TagsInput() *[]*string
 	Taint() GoogleContainerClusterNodeConfigTaintList
+	TaintConfig() GoogleContainerClusterNodeConfigTaintConfigOutputReference
+	TaintConfigInput() *GoogleContainerClusterNodeConfigTaintConfig
 	TaintInput() interface{}
 	// Experimental.
 	TerraformAttribute() *string
@@ -204,6 +206,7 @@ type GoogleContainerClusterNodeConfigOutputReference interface {
 	PutShieldedInstanceConfig(value *GoogleContainerClusterNodeConfigShieldedInstanceConfig)
 	PutSoleTenantConfig(value *GoogleContainerClusterNodeConfigSoleTenantConfig)
 	PutTaint(value interface{})
+	PutTaintConfig(value *GoogleContainerClusterNodeConfigTaintConfig)
 	PutWindowsNodeConfig(value *GoogleContainerClusterNodeConfigWindowsNodeConfig)
 	PutWorkloadMetadataConfig(value *GoogleContainerClusterNodeConfigWorkloadMetadataConfig)
 	ResetAdvancedMachineFeatures()
@@ -251,6 +254,7 @@ type GoogleContainerClusterNodeConfigOutputReference interface {
 	ResetStoragePools()
 	ResetTags()
 	ResetTaint()
+	ResetTaintConfig()
 	ResetWindowsNodeConfig()
 	ResetWorkloadMetadataConfig()
 	// Produce the Token's value at resolution time.
@@ -1218,6 +1222,26 @@ func (j *jsiiProxy_GoogleContainerClusterNodeConfigOutputReference) Taint() Goog
 	return returns
 }
 
+func (j *jsiiProxy_GoogleContainerClusterNodeConfigOutputReference) TaintConfig() GoogleContainerClusterNodeConfigTaintConfigOutputReference {
+	var returns GoogleContainerClusterNodeConfigTaintConfigOutputReference
+	_jsii_.Get(
+		j,
+		"taintConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleContainerClusterNodeConfigOutputReference) TaintConfigInput() *GoogleContainerClusterNodeConfigTaintConfig {
+	var returns *GoogleContainerClusterNodeConfigTaintConfig
+	_jsii_.Get(
+		j,
+		"taintConfigInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleContainerClusterNodeConfigOutputReference) TaintInput() interface{} {
 	var returns interface{}
 	_jsii_.Get(
@@ -2052,6 +2076,17 @@ func (g *jsiiProxy_GoogleContainerClusterNodeConfigOutputReference) PutTaint(val
 	)
 }
 
+func (g *jsiiProxy_GoogleContainerClusterNodeConfigOutputReference) PutTaintConfig(value *GoogleContainerClusterNodeConfigTaintConfig) {
+	if err := g.validatePutTaintConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putTaintConfig",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleContainerClusterNodeConfigOutputReference) PutWindowsNodeConfig(value *GoogleContainerClusterNodeConfigWindowsNodeConfig) {
 	if err := g.validatePutWindowsNodeConfigParameters(value); err != nil {
 		panic(err)
@@ -2430,6 +2465,14 @@ func (g *jsiiProxy_GoogleContainerClusterNodeConfigOutputReference) ResetTaint()
 	_jsii_.InvokeVoid(
 		g,
 		"resetTaint",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleContainerClusterNodeConfigOutputReference) ResetTaintConfig() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetTaintConfig",
 		nil, // no parameters
 	)
 }

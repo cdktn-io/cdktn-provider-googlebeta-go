@@ -83,6 +83,10 @@ func (g *jsiiProxy_GoogleBiglakeIcebergTable) validatePutSchemaParameters(value 
 	return nil
 }
 
+func (g *jsiiProxy_GoogleBiglakeIcebergTable) validatePutSortOrderParameters(value *GoogleBiglakeIcebergTableSortOrder) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleBiglakeIcebergTable) validatePutTimeoutsParameters(value *GoogleBiglakeIcebergTableTimeouts) error {
 	return nil
 }

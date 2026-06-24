@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_tool google_ces_tool}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_ces_tool google_ces_tool}.
 type GoogleCesTool interface {
 	cdktn.TerraformResource
 	AgentTool() GoogleCesToolAgentToolOutputReference
@@ -101,8 +101,13 @@ type GoogleCesTool interface {
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
 	TerraformResourceType() *string
+	Timeout() *string
+	SetTimeout(val *string)
+	TimeoutInput() *string
 	Timeouts() GoogleCesToolTimeoutsOutputReference
 	TimeoutsInput() interface{}
+	ToolFakeConfig() GoogleCesToolToolFakeConfigOutputReference
+	ToolFakeConfigInput() *GoogleCesToolToolFakeConfig
 	ToolId() *string
 	SetToolId(val *string)
 	ToolIdInput() *string
@@ -159,6 +164,7 @@ type GoogleCesTool interface {
 	PutGoogleSearchTool(value *GoogleCesToolGoogleSearchTool)
 	PutPythonFunction(value *GoogleCesToolPythonFunction)
 	PutTimeouts(value *GoogleCesToolTimeouts)
+	PutToolFakeConfig(value *GoogleCesToolToolFakeConfig)
 	PutWidgetTool(value *GoogleCesToolWidgetTool)
 	ResetAgentTool()
 	ResetClientFunction()
@@ -173,7 +179,9 @@ type GoogleCesTool interface {
 	ResetOverrideLogicalId()
 	ResetProject()
 	ResetPythonFunction()
+	ResetTimeout()
 	ResetTimeouts()
+	ResetToolFakeConfig()
 	ResetWidgetTool()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
@@ -702,6 +710,26 @@ func (j *jsiiProxy_GoogleCesTool) TerraformResourceType() *string {
 	return returns
 }
 
+func (j *jsiiProxy_GoogleCesTool) Timeout() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"timeout",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCesTool) TimeoutInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"timeoutInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleCesTool) Timeouts() GoogleCesToolTimeoutsOutputReference {
 	var returns GoogleCesToolTimeoutsOutputReference
 	_jsii_.Get(
@@ -717,6 +745,26 @@ func (j *jsiiProxy_GoogleCesTool) TimeoutsInput() interface{} {
 	_jsii_.Get(
 		j,
 		"timeoutsInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCesTool) ToolFakeConfig() GoogleCesToolToolFakeConfigOutputReference {
+	var returns GoogleCesToolToolFakeConfigOutputReference
+	_jsii_.Get(
+		j,
+		"toolFakeConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCesTool) ToolFakeConfigInput() *GoogleCesToolToolFakeConfig {
+	var returns *GoogleCesToolToolFakeConfig
+	_jsii_.Get(
+		j,
+		"toolFakeConfigInput",
 		&returns,
 	)
 	return returns
@@ -773,7 +821,7 @@ func (j *jsiiProxy_GoogleCesTool) WidgetToolInput() *GoogleCesToolWidgetTool {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_tool google_ces_tool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_ces_tool google_ces_tool} Resource.
 func NewGoogleCesTool(scope constructs.Construct, id *string, config *GoogleCesToolConfig) GoogleCesTool {
 	_init_.Initialize()
 
@@ -791,7 +839,7 @@ func NewGoogleCesTool(scope constructs.Construct, id *string, config *GoogleCesT
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_ces_tool google_ces_tool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_ces_tool google_ces_tool} Resource.
 func NewGoogleCesTool_Override(g GoogleCesTool, scope constructs.Construct, id *string, config *GoogleCesToolConfig) {
 	_init_.Initialize()
 
@@ -932,6 +980,17 @@ func (j *jsiiProxy_GoogleCesTool)SetProvisioners(val *[]interface{}) {
 	_jsii_.Set(
 		j,
 		"provisioners",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleCesTool)SetTimeout(val *string) {
+	if err := j.validateSetTimeoutParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"timeout",
 		val,
 	)
 }
@@ -1377,6 +1436,17 @@ func (g *jsiiProxy_GoogleCesTool) PutTimeouts(value *GoogleCesToolTimeouts) {
 	)
 }
 
+func (g *jsiiProxy_GoogleCesTool) PutToolFakeConfig(value *GoogleCesToolToolFakeConfig) {
+	if err := g.validatePutToolFakeConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putToolFakeConfig",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleCesTool) PutWidgetTool(value *GoogleCesToolWidgetTool) {
 	if err := g.validatePutWidgetToolParameters(value); err != nil {
 		panic(err)
@@ -1476,10 +1546,26 @@ func (g *jsiiProxy_GoogleCesTool) ResetPythonFunction() {
 	)
 }
 
+func (g *jsiiProxy_GoogleCesTool) ResetTimeout() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetTimeout",
+		nil, // no parameters
+	)
+}
+
 func (g *jsiiProxy_GoogleCesTool) ResetTimeouts() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetTimeouts",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleCesTool) ResetToolFakeConfig() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetToolFakeConfig",
 		nil, // no parameters
 	)
 }

@@ -47,6 +47,10 @@ func (g *jsiiProxy_GoogleNetworkServicesAgentGatewayNetworkConfigOutputReference
 	return nil
 }
 
+func (g *jsiiProxy_GoogleNetworkServicesAgentGatewayNetworkConfigOutputReference) validatePutDnsPeeringConfigParameters(value *GoogleNetworkServicesAgentGatewayNetworkConfigDnsPeeringConfig) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleNetworkServicesAgentGatewayNetworkConfigOutputReference) validatePutEgressParameters(value *GoogleNetworkServicesAgentGatewayNetworkConfigEgress) error {
 	return nil
 }

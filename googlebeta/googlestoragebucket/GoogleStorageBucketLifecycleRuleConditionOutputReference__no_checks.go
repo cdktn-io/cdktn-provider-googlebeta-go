@@ -119,6 +119,14 @@ func (j *jsiiProxy_GoogleStorageBucketLifecycleRuleConditionOutputReference) val
 	return nil
 }
 
+func (j *jsiiProxy_GoogleStorageBucketLifecycleRuleConditionOutputReference) validateSetSizeAboveBytesParameters(val *float64) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleStorageBucketLifecycleRuleConditionOutputReference) validateSetSizeBelowBytesParameters(val *float64) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleStorageBucketLifecycleRuleConditionOutputReference) validateSetTerraformAttributeParameters(val *string) error {
 	return nil
 }

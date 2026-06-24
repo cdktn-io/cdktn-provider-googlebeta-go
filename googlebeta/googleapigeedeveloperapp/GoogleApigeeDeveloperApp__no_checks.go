@@ -115,6 +115,14 @@ func (j *jsiiProxy_GoogleApigeeDeveloperApp) validateSetConnectionParameters(val
 	return nil
 }
 
+func (j *jsiiProxy_GoogleApigeeDeveloperApp) validateSetConsumerKeyParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleApigeeDeveloperApp) validateSetConsumerSecretParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleApigeeDeveloperApp) validateSetCountParameters(val interface{}) error {
 	return nil
 }

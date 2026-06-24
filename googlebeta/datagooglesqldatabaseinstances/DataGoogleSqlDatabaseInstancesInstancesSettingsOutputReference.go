@@ -63,6 +63,7 @@ type DataGoogleSqlDatabaseInstancesInstancesSettingsOutputReference interface {
 	LocationPreference() DataGoogleSqlDatabaseInstancesInstancesSettingsLocationPreferenceList
 	MaintenanceWindow() DataGoogleSqlDatabaseInstancesInstancesSettingsMaintenanceWindowList
 	PasswordValidationPolicy() DataGoogleSqlDatabaseInstancesInstancesSettingsPasswordValidationPolicyList
+	PerformanceCaptureConfig() DataGoogleSqlDatabaseInstancesInstancesSettingsPerformanceCaptureConfigList
 	PricingPlan() *string
 	ReadPoolAutoScaleConfig() DataGoogleSqlDatabaseInstancesInstancesSettingsReadPoolAutoScaleConfigList
 	RetainBackupsOnDelete() cdktn.IResolvable
@@ -473,6 +474,16 @@ func (j *jsiiProxy_DataGoogleSqlDatabaseInstancesInstancesSettingsOutputReferenc
 	_jsii_.Get(
 		j,
 		"passwordValidationPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleSqlDatabaseInstancesInstancesSettingsOutputReference) PerformanceCaptureConfig() DataGoogleSqlDatabaseInstancesInstancesSettingsPerformanceCaptureConfigList {
+	var returns DataGoogleSqlDatabaseInstancesInstancesSettingsPerformanceCaptureConfigList
+	_jsii_.Get(
+		j,
+		"performanceCaptureConfig",
 		&returns,
 	)
 	return returns

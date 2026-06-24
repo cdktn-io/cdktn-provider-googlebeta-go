@@ -13,6 +13,9 @@ import (
 
 type GoogleDatastreamConnectionProfileMongodbProfileOutputReference interface {
 	cdktn.ComplexObject
+	AdditionalOptions() *map[string]*string
+	SetAdditionalOptions(val *map[string]*string)
+	AdditionalOptionsInput() *map[string]*string
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -88,6 +91,7 @@ type GoogleDatastreamConnectionProfileMongodbProfileOutputReference interface {
 	PutSrvConnectionFormat(value *GoogleDatastreamConnectionProfileMongodbProfileSrvConnectionFormat)
 	PutSslConfig(value *GoogleDatastreamConnectionProfileMongodbProfileSslConfig)
 	PutStandardConnectionFormat(value *GoogleDatastreamConnectionProfileMongodbProfileStandardConnectionFormat)
+	ResetAdditionalOptions()
 	ResetPassword()
 	ResetReplicaSet()
 	ResetSecretManagerStoredPassword()
@@ -107,6 +111,26 @@ type GoogleDatastreamConnectionProfileMongodbProfileOutputReference interface {
 // The jsii proxy struct for GoogleDatastreamConnectionProfileMongodbProfileOutputReference
 type jsiiProxy_GoogleDatastreamConnectionProfileMongodbProfileOutputReference struct {
 	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_GoogleDatastreamConnectionProfileMongodbProfileOutputReference) AdditionalOptions() *map[string]*string {
+	var returns *map[string]*string
+	_jsii_.Get(
+		j,
+		"additionalOptions",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDatastreamConnectionProfileMongodbProfileOutputReference) AdditionalOptionsInput() *map[string]*string {
+	var returns *map[string]*string
+	_jsii_.Get(
+		j,
+		"additionalOptionsInput",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_GoogleDatastreamConnectionProfileMongodbProfileOutputReference) ComplexObjectIndex() interface{} {
@@ -364,6 +388,17 @@ func NewGoogleDatastreamConnectionProfileMongodbProfileOutputReference_Override(
 		"@cdktn/provider-google-beta.googleDatastreamConnectionProfile.GoogleDatastreamConnectionProfileMongodbProfileOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		g,
+	)
+}
+
+func (j *jsiiProxy_GoogleDatastreamConnectionProfileMongodbProfileOutputReference)SetAdditionalOptions(val *map[string]*string) {
+	if err := j.validateSetAdditionalOptionsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"additionalOptions",
+		val,
 	)
 }
 
@@ -693,6 +728,14 @@ func (g *jsiiProxy_GoogleDatastreamConnectionProfileMongodbProfileOutputReferenc
 		g,
 		"putStandardConnectionFormat",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleDatastreamConnectionProfileMongodbProfileOutputReference) ResetAdditionalOptions() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetAdditionalOptions",
+		nil, // no parameters
 	)
 }
 

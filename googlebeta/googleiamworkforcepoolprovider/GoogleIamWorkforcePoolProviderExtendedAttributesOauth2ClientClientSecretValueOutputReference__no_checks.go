@@ -67,6 +67,14 @@ func (j *jsiiProxy_GoogleIamWorkforcePoolProviderExtendedAttributesOauth2ClientC
 	return nil
 }
 
+func (j *jsiiProxy_GoogleIamWorkforcePoolProviderExtendedAttributesOauth2ClientClientSecretValueOutputReference) validateSetPlainTextWoParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleIamWorkforcePoolProviderExtendedAttributesOauth2ClientClientSecretValueOutputReference) validateSetPlainTextWoVersionParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleIamWorkforcePoolProviderExtendedAttributesOauth2ClientClientSecretValueOutputReference) validateSetTerraformAttributeParameters(val *string) error {
 	return nil
 }

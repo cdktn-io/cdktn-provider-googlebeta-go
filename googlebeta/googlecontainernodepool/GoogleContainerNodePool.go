@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_container_node_pool google_container_node_pool}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_container_node_pool google_container_node_pool}.
 type GoogleContainerNodePool interface {
 	cdktn.TerraformResource
 	Autoscaling() GoogleContainerNodePoolAutoscalingOutputReference
@@ -50,6 +50,9 @@ type GoogleContainerNodePool interface {
 	Id() *string
 	SetId(val *string)
 	IdInput() *string
+	IgnoreNodeCountChanges() interface{}
+	SetIgnoreNodeCountChanges(val interface{})
+	IgnoreNodeCountChangesInput() interface{}
 	InitialNodeCount() *float64
 	SetInitialNodeCount(val *float64)
 	InitialNodeCountInput() *float64
@@ -173,6 +176,7 @@ type GoogleContainerNodePool interface {
 	ResetAutoscaling()
 	ResetDeletionPolicy()
 	ResetId()
+	ResetIgnoreNodeCountChanges()
 	ResetInitialNodeCount()
 	ResetLocation()
 	ResetManagement()
@@ -375,6 +379,26 @@ func (j *jsiiProxy_GoogleContainerNodePool) IdInput() *string {
 	_jsii_.Get(
 		j,
 		"idInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleContainerNodePool) IgnoreNodeCountChanges() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"ignoreNodeCountChanges",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleContainerNodePool) IgnoreNodeCountChangesInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"ignoreNodeCountChangesInput",
 		&returns,
 	)
 	return returns
@@ -831,7 +855,7 @@ func (j *jsiiProxy_GoogleContainerNodePool) VersionInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_container_node_pool google_container_node_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_container_node_pool google_container_node_pool} Resource.
 func NewGoogleContainerNodePool(scope constructs.Construct, id *string, config *GoogleContainerNodePoolConfig) GoogleContainerNodePool {
 	_init_.Initialize()
 
@@ -849,7 +873,7 @@ func NewGoogleContainerNodePool(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_container_node_pool google_container_node_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_container_node_pool google_container_node_pool} Resource.
 func NewGoogleContainerNodePool_Override(g GoogleContainerNodePool, scope constructs.Construct, id *string, config *GoogleContainerNodePoolConfig) {
 	_init_.Initialize()
 
@@ -927,6 +951,17 @@ func (j *jsiiProxy_GoogleContainerNodePool)SetId(val *string) {
 	_jsii_.Set(
 		j,
 		"id",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleContainerNodePool)SetIgnoreNodeCountChanges(val interface{}) {
+	if err := j.validateSetIgnoreNodeCountChangesParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"ignoreNodeCountChanges",
 		val,
 	)
 }
@@ -1532,6 +1567,14 @@ func (g *jsiiProxy_GoogleContainerNodePool) ResetId() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetId",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleContainerNodePool) ResetIgnoreNodeCountChanges() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetIgnoreNodeCountChanges",
 		nil, // no parameters
 	)
 }

@@ -13,6 +13,7 @@ import (
 
 type DataGoogleSqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReference interface {
 	cdktn.ComplexObject
+	AdminCredentialSecretName() *string
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -28,11 +29,14 @@ type DataGoogleSqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReference i
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
+	DnsServers() *[]*string
 	Domain() *string
 	// Experimental.
 	Fqn() *string
 	InternalValue() *DataGoogleSqlDatabaseInstanceSettingsActiveDirectoryConfig
 	SetInternalValue(val *DataGoogleSqlDatabaseInstanceSettingsActiveDirectoryConfig)
+	Mode() *string
+	OrganizationalUnit() *string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -80,6 +84,16 @@ type jsiiProxy_DataGoogleSqlDatabaseInstanceSettingsActiveDirectoryConfigOutputR
 	internal.Type__cdktnComplexObject
 }
 
+func (j *jsiiProxy_DataGoogleSqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReference) AdminCredentialSecretName() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"adminCredentialSecretName",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataGoogleSqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReference) ComplexObjectIndex() interface{} {
 	var returns interface{}
 	_jsii_.Get(
@@ -110,6 +124,16 @@ func (j *jsiiProxy_DataGoogleSqlDatabaseInstanceSettingsActiveDirectoryConfigOut
 	return returns
 }
 
+func (j *jsiiProxy_DataGoogleSqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReference) DnsServers() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"dnsServers",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataGoogleSqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReference) Domain() *string {
 	var returns *string
 	_jsii_.Get(
@@ -135,6 +159,26 @@ func (j *jsiiProxy_DataGoogleSqlDatabaseInstanceSettingsActiveDirectoryConfigOut
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleSqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReference) Mode() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"mode",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleSqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReference) OrganizationalUnit() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"organizationalUnit",
 		&returns,
 	)
 	return returns

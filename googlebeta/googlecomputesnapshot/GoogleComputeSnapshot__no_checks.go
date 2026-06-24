@@ -75,6 +75,10 @@ func (g *jsiiProxy_GoogleComputeSnapshot) validateOverrideLogicalIdParameters(ne
 	return nil
 }
 
+func (g *jsiiProxy_GoogleComputeSnapshot) validatePutParamsParameters(value *GoogleComputeSnapshotParams) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleComputeSnapshot) validatePutSnapshotEncryptionKeyParameters(value *GoogleComputeSnapshotSnapshotEncryptionKey) error {
 	return nil
 }

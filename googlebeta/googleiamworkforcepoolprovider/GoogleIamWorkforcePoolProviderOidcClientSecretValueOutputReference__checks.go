@@ -182,6 +182,22 @@ func (j *jsiiProxy_GoogleIamWorkforcePoolProviderOidcClientSecretValueOutputRefe
 	return nil
 }
 
+func (j *jsiiProxy_GoogleIamWorkforcePoolProviderOidcClientSecretValueOutputReference) validateSetPlainTextWoParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_GoogleIamWorkforcePoolProviderOidcClientSecretValueOutputReference) validateSetPlainTextWoVersionParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_GoogleIamWorkforcePoolProviderOidcClientSecretValueOutputReference) validateSetTerraformAttributeParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

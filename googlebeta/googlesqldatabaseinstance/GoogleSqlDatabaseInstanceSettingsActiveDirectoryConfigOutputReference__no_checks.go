@@ -51,6 +51,10 @@ func (g *jsiiProxy_GoogleSqlDatabaseInstanceSettingsActiveDirectoryConfigOutputR
 	return nil
 }
 
+func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReference) validateSetAdminCredentialSecretNameParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
 	return nil
 }
@@ -59,11 +63,23 @@ func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsActiveDirectoryConfigOutputR
 	return nil
 }
 
+func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReference) validateSetDnsServersParameters(val *[]*string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReference) validateSetDomainParameters(val *string) error {
 	return nil
 }
 
 func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReference) validateSetInternalValueParameters(val *GoogleSqlDatabaseInstanceSettingsActiveDirectoryConfig) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReference) validateSetModeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReference) validateSetOrganizationalUnitParameters(val *string) error {
 	return nil
 }
 

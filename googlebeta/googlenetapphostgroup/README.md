@@ -1,3 +1,3 @@
 # `google_netapp_host_group`
 
-Refer to the Terraform Registry for docs: [`google_netapp_host_group`](https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_netapp_host_group).
+Refer to the Terraform Registry for docs: [`google_netapp_host_group`](https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_netapp_host_group).

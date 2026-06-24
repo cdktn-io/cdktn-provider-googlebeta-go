@@ -74,6 +74,12 @@ type GoogleStorageBucketLifecycleRuleConditionOutputReference interface {
 	SendNumNewerVersionsIfZero() interface{}
 	SetSendNumNewerVersionsIfZero(val interface{})
 	SendNumNewerVersionsIfZeroInput() interface{}
+	SizeAboveBytes() *float64
+	SetSizeAboveBytes(val *float64)
+	SizeAboveBytesInput() *float64
+	SizeBelowBytes() *float64
+	SetSizeBelowBytes(val *float64)
+	SizeBelowBytesInput() *float64
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -123,6 +129,8 @@ type GoogleStorageBucketLifecycleRuleConditionOutputReference interface {
 	ResetSendDaysSinceCustomTimeIfZero()
 	ResetSendDaysSinceNoncurrentTimeIfZero()
 	ResetSendNumNewerVersionsIfZero()
+	ResetSizeAboveBytes()
+	ResetSizeBelowBytes()
 	ResetWithState()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -469,6 +477,46 @@ func (j *jsiiProxy_GoogleStorageBucketLifecycleRuleConditionOutputReference) Sen
 	return returns
 }
 
+func (j *jsiiProxy_GoogleStorageBucketLifecycleRuleConditionOutputReference) SizeAboveBytes() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"sizeAboveBytes",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleStorageBucketLifecycleRuleConditionOutputReference) SizeAboveBytesInput() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"sizeAboveBytesInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleStorageBucketLifecycleRuleConditionOutputReference) SizeBelowBytes() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"sizeBelowBytes",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleStorageBucketLifecycleRuleConditionOutputReference) SizeBelowBytesInput() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"sizeBelowBytesInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleStorageBucketLifecycleRuleConditionOutputReference) TerraformAttribute() *string {
 	var returns *string
 	_jsii_.Get(
@@ -720,6 +768,28 @@ func (j *jsiiProxy_GoogleStorageBucketLifecycleRuleConditionOutputReference)SetS
 	_jsii_.Set(
 		j,
 		"sendNumNewerVersionsIfZero",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleStorageBucketLifecycleRuleConditionOutputReference)SetSizeAboveBytes(val *float64) {
+	if err := j.validateSetSizeAboveBytesParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"sizeAboveBytes",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleStorageBucketLifecycleRuleConditionOutputReference)SetSizeBelowBytes(val *float64) {
+	if err := j.validateSetSizeBelowBytesParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"sizeBelowBytes",
 		val,
 	)
 }
@@ -1051,6 +1121,22 @@ func (g *jsiiProxy_GoogleStorageBucketLifecycleRuleConditionOutputReference) Res
 	_jsii_.InvokeVoid(
 		g,
 		"resetSendNumNewerVersionsIfZero",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleStorageBucketLifecycleRuleConditionOutputReference) ResetSizeAboveBytes() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetSizeAboveBytes",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleStorageBucketLifecycleRuleConditionOutputReference) ResetSizeBelowBytes() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetSizeBelowBytes",
 		nil, // no parameters
 	)
 }

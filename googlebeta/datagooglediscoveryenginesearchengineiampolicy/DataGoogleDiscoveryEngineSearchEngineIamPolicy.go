@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/data-sources/google_discovery_engine_search_engine_iam_policy google_discovery_engine_search_engine_iam_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/data-sources/google_discovery_engine_search_engine_iam_policy google_discovery_engine_search_engine_iam_policy}.
 type DataGoogleDiscoveryEngineSearchEngineIamPolicy interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -390,7 +390,7 @@ func (j *jsiiProxy_DataGoogleDiscoveryEngineSearchEngineIamPolicy) TerraformReso
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/data-sources/google_discovery_engine_search_engine_iam_policy google_discovery_engine_search_engine_iam_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/data-sources/google_discovery_engine_search_engine_iam_policy google_discovery_engine_search_engine_iam_policy} Data Source.
 func NewDataGoogleDiscoveryEngineSearchEngineIamPolicy(scope constructs.Construct, id *string, config *DataGoogleDiscoveryEngineSearchEngineIamPolicyConfig) DataGoogleDiscoveryEngineSearchEngineIamPolicy {
 	_init_.Initialize()
 
@@ -408,7 +408,7 @@ func NewDataGoogleDiscoveryEngineSearchEngineIamPolicy(scope constructs.Construc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/data-sources/google_discovery_engine_search_engine_iam_policy google_discovery_engine_search_engine_iam_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/data-sources/google_discovery_engine_search_engine_iam_policy google_discovery_engine_search_engine_iam_policy} Data Source.
 func NewDataGoogleDiscoveryEngineSearchEngineIamPolicy_Override(d DataGoogleDiscoveryEngineSearchEngineIamPolicy, scope constructs.Construct, id *string, config *DataGoogleDiscoveryEngineSearchEngineIamPolicyConfig) {
 	_init_.Initialize()
 

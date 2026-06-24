@@ -31,6 +31,7 @@ type DataGoogleContainerClusterNodePoolOutputReference interface {
 	CreationStack() *[]*string
 	// Experimental.
 	Fqn() *string
+	IgnoreNodeCountChanges() cdktn.IResolvable
 	InitialNodeCount() *float64
 	InstanceGroupUrls() *[]*string
 	InternalValue() *DataGoogleContainerClusterNodePool
@@ -141,6 +142,16 @@ func (j *jsiiProxy_DataGoogleContainerClusterNodePoolOutputReference) Fqn() *str
 	_jsii_.Get(
 		j,
 		"fqn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleContainerClusterNodePoolOutputReference) IgnoreNodeCountChanges() cdktn.IResolvable {
+	var returns cdktn.IResolvable
+	_jsii_.Get(
+		j,
+		"ignoreNodeCountChanges",
 		&returns,
 	)
 	return returns

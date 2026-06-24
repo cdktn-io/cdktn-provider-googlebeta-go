@@ -131,6 +131,10 @@ func (g *jsiiProxy_GoogleContainerClusterNodePoolNodeConfigOutputReference) vali
 	return nil
 }
 
+func (g *jsiiProxy_GoogleContainerClusterNodePoolNodeConfigOutputReference) validatePutTaintConfigParameters(value *GoogleContainerClusterNodePoolNodeConfigTaintConfig) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleContainerClusterNodePoolNodeConfigOutputReference) validatePutWindowsNodeConfigParameters(value *GoogleContainerClusterNodePoolNodeConfigWindowsNodeConfig) error {
 	return nil
 }

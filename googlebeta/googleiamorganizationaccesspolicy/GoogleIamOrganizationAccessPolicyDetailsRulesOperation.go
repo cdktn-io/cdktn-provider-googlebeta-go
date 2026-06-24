@@ -13,7 +13,7 @@ type GoogleIamOrganizationAccessPolicyDetailsRulesOperation struct {
 	// Currently supported permissions are as follows:
 	// * 'eventarc.googleapis.com/messageBuses.publish'.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iam_organization_access_policy#permissions GoogleIamOrganizationAccessPolicy#permissions}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_organization_access_policy#permissions GoogleIamOrganizationAccessPolicy#permissions}
 	Permissions *[]*string `field:"required" json:"permissions" yaml:"permissions"`
 	// Specifies the permissions that this rule excludes from the set of affected permissions given by 'permissions'.
 	//
@@ -23,7 +23,7 @@ type GoogleIamOrganizationAccessPolicyDetailsRulesOperation struct {
 	// The excluded permissions can be specified using the same syntax as
 	// 'permissions'.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_iam_organization_access_policy#excluded_permissions GoogleIamOrganizationAccessPolicy#excluded_permissions}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_organization_access_policy#excluded_permissions GoogleIamOrganizationAccessPolicy#excluded_permissions}
 	ExcludedPermissions *[]*string `field:"optional" json:"excludedPermissions" yaml:"excludedPermissions"`
 }
 

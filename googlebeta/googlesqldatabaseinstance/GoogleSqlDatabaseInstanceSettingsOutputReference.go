@@ -109,6 +109,8 @@ type GoogleSqlDatabaseInstanceSettingsOutputReference interface {
 	MaintenanceWindowInput() *GoogleSqlDatabaseInstanceSettingsMaintenanceWindow
 	PasswordValidationPolicy() GoogleSqlDatabaseInstanceSettingsPasswordValidationPolicyOutputReference
 	PasswordValidationPolicyInput() *GoogleSqlDatabaseInstanceSettingsPasswordValidationPolicy
+	PerformanceCaptureConfig() GoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfigOutputReference
+	PerformanceCaptureConfigInput() *GoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfig
 	PricingPlan() *string
 	SetPricingPlan(val *string)
 	PricingPlanInput() *string
@@ -175,6 +177,7 @@ type GoogleSqlDatabaseInstanceSettingsOutputReference interface {
 	PutLocationPreference(value *GoogleSqlDatabaseInstanceSettingsLocationPreference)
 	PutMaintenanceWindow(value *GoogleSqlDatabaseInstanceSettingsMaintenanceWindow)
 	PutPasswordValidationPolicy(value *GoogleSqlDatabaseInstanceSettingsPasswordValidationPolicy)
+	PutPerformanceCaptureConfig(value *GoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfig)
 	PutReadPoolAutoScaleConfig(value *GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfig)
 	PutSqlServerAuditConfig(value *GoogleSqlDatabaseInstanceSettingsSqlServerAuditConfig)
 	ResetActivationPolicy()
@@ -207,6 +210,7 @@ type GoogleSqlDatabaseInstanceSettingsOutputReference interface {
 	ResetLocationPreference()
 	ResetMaintenanceWindow()
 	ResetPasswordValidationPolicy()
+	ResetPerformanceCaptureConfig()
 	ResetPricingPlan()
 	ResetReadPoolAutoScaleConfig()
 	ResetRetainBackupsOnDelete()
@@ -883,6 +887,26 @@ func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsOutputReference) PasswordVal
 	_jsii_.Get(
 		j,
 		"passwordValidationPolicyInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsOutputReference) PerformanceCaptureConfig() GoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfigOutputReference {
+	var returns GoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfigOutputReference
+	_jsii_.Get(
+		j,
+		"performanceCaptureConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsOutputReference) PerformanceCaptureConfigInput() *GoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfig {
+	var returns *GoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfig
+	_jsii_.Get(
+		j,
+		"performanceCaptureConfigInput",
 		&returns,
 	)
 	return returns
@@ -1712,6 +1736,17 @@ func (g *jsiiProxy_GoogleSqlDatabaseInstanceSettingsOutputReference) PutPassword
 	)
 }
 
+func (g *jsiiProxy_GoogleSqlDatabaseInstanceSettingsOutputReference) PutPerformanceCaptureConfig(value *GoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfig) {
+	if err := g.validatePutPerformanceCaptureConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putPerformanceCaptureConfig",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleSqlDatabaseInstanceSettingsOutputReference) PutReadPoolAutoScaleConfig(value *GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfig) {
 	if err := g.validatePutReadPoolAutoScaleConfigParameters(value); err != nil {
 		panic(err)
@@ -1970,6 +2005,14 @@ func (g *jsiiProxy_GoogleSqlDatabaseInstanceSettingsOutputReference) ResetPasswo
 	_jsii_.InvokeVoid(
 		g,
 		"resetPasswordValidationPolicy",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleSqlDatabaseInstanceSettingsOutputReference) ResetPerformanceCaptureConfig() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetPerformanceCaptureConfig",
 		nil, // no parameters
 	)
 }

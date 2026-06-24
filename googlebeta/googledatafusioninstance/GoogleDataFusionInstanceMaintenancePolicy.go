@@ -7,7 +7,7 @@ package googledatafusioninstance
 type GoogleDataFusionInstanceMaintenancePolicy struct {
 	// maintenance_window block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_data_fusion_instance#maintenance_window GoogleDataFusionInstance#maintenance_window}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_data_fusion_instance#maintenance_window GoogleDataFusionInstance#maintenance_window}
 	MaintenanceWindow *GoogleDataFusionInstanceMaintenancePolicyMaintenanceWindow `field:"optional" json:"maintenanceWindow" yaml:"maintenanceWindow"`
 }
 

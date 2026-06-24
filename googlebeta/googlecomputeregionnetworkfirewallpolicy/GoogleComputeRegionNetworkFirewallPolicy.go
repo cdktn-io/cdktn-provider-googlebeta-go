@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_region_network_firewall_policy google_compute_region_network_firewall_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_region_network_firewall_policy google_compute_region_network_firewall_policy}.
 type GoogleComputeRegionNetworkFirewallPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -552,7 +552,7 @@ func (j *jsiiProxy_GoogleComputeRegionNetworkFirewallPolicy) TimeoutsInput() int
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_region_network_firewall_policy google_compute_region_network_firewall_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_region_network_firewall_policy google_compute_region_network_firewall_policy} Resource.
 func NewGoogleComputeRegionNetworkFirewallPolicy(scope constructs.Construct, id *string, config *GoogleComputeRegionNetworkFirewallPolicyConfig) GoogleComputeRegionNetworkFirewallPolicy {
 	_init_.Initialize()
 
@@ -570,7 +570,7 @@ func NewGoogleComputeRegionNetworkFirewallPolicy(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_region_network_firewall_policy google_compute_region_network_firewall_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_region_network_firewall_policy google_compute_region_network_firewall_policy} Resource.
 func NewGoogleComputeRegionNetworkFirewallPolicy_Override(g GoogleComputeRegionNetworkFirewallPolicy, scope constructs.Construct, id *string, config *GoogleComputeRegionNetworkFirewallPolicyConfig) {
 	_init_.Initialize()
 

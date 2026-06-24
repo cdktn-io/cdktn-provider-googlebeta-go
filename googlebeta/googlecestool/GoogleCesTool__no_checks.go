@@ -103,6 +103,10 @@ func (g *jsiiProxy_GoogleCesTool) validatePutTimeoutsParameters(value *GoogleCes
 	return nil
 }
 
+func (g *jsiiProxy_GoogleCesTool) validatePutToolFakeConfigParameters(value *GoogleCesToolToolFakeConfig) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleCesTool) validatePutWidgetToolParameters(value *GoogleCesToolWidgetTool) error {
 	return nil
 }
@@ -160,6 +164,10 @@ func (j *jsiiProxy_GoogleCesTool) validateSetProjectParameters(val *string) erro
 }
 
 func (j *jsiiProxy_GoogleCesTool) validateSetProvisionersParameters(val *[]interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleCesTool) validateSetTimeoutParameters(val *string) error {
 	return nil
 }
 

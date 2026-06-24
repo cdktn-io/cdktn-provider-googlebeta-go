@@ -327,6 +327,10 @@ func (j *jsiiProxy_GoogleContainerCluster) validateSetDatapathProviderParameters
 	return nil
 }
 
+func (j *jsiiProxy_GoogleContainerCluster) validateSetDataplaneOptimizationModeParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleContainerCluster) validateSetDefaultMaxPodsPerNodeParameters(val *float64) error {
 	return nil
 }
@@ -388,6 +392,10 @@ func (j *jsiiProxy_GoogleContainerCluster) validateSetEnableTpuParameters(val in
 }
 
 func (j *jsiiProxy_GoogleContainerCluster) validateSetIdParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleContainerCluster) validateSetIgnoreNodeCountChangesParameters(val interface{}) error {
 	return nil
 }
 
@@ -456,6 +464,10 @@ func (j *jsiiProxy_GoogleContainerCluster) validateSetRemoveDefaultNodePoolParam
 }
 
 func (j *jsiiProxy_GoogleContainerCluster) validateSetResourceLabelsParameters(val *map[string]*string) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleContainerCluster) validateSetSkipNodePoolRefreshParameters(val interface{}) error {
 	return nil
 }
 

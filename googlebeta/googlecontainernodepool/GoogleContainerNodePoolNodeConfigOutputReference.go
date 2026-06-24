@@ -146,6 +146,8 @@ type GoogleContainerNodePoolNodeConfigOutputReference interface {
 	SetTags(val *[]*string)
 	TagsInput() *[]*string
 	Taint() GoogleContainerNodePoolNodeConfigTaintList
+	TaintConfig() GoogleContainerNodePoolNodeConfigTaintConfigOutputReference
+	TaintConfigInput() *GoogleContainerNodePoolNodeConfigTaintConfig
 	TaintInput() interface{}
 	// Experimental.
 	TerraformAttribute() *string
@@ -204,6 +206,7 @@ type GoogleContainerNodePoolNodeConfigOutputReference interface {
 	PutShieldedInstanceConfig(value *GoogleContainerNodePoolNodeConfigShieldedInstanceConfig)
 	PutSoleTenantConfig(value *GoogleContainerNodePoolNodeConfigSoleTenantConfig)
 	PutTaint(value interface{})
+	PutTaintConfig(value *GoogleContainerNodePoolNodeConfigTaintConfig)
 	PutWindowsNodeConfig(value *GoogleContainerNodePoolNodeConfigWindowsNodeConfig)
 	PutWorkloadMetadataConfig(value *GoogleContainerNodePoolNodeConfigWorkloadMetadataConfig)
 	ResetAdvancedMachineFeatures()
@@ -251,6 +254,7 @@ type GoogleContainerNodePoolNodeConfigOutputReference interface {
 	ResetStoragePools()
 	ResetTags()
 	ResetTaint()
+	ResetTaintConfig()
 	ResetWindowsNodeConfig()
 	ResetWorkloadMetadataConfig()
 	// Produce the Token's value at resolution time.
@@ -1218,6 +1222,26 @@ func (j *jsiiProxy_GoogleContainerNodePoolNodeConfigOutputReference) Taint() Goo
 	return returns
 }
 
+func (j *jsiiProxy_GoogleContainerNodePoolNodeConfigOutputReference) TaintConfig() GoogleContainerNodePoolNodeConfigTaintConfigOutputReference {
+	var returns GoogleContainerNodePoolNodeConfigTaintConfigOutputReference
+	_jsii_.Get(
+		j,
+		"taintConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleContainerNodePoolNodeConfigOutputReference) TaintConfigInput() *GoogleContainerNodePoolNodeConfigTaintConfig {
+	var returns *GoogleContainerNodePoolNodeConfigTaintConfig
+	_jsii_.Get(
+		j,
+		"taintConfigInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleContainerNodePoolNodeConfigOutputReference) TaintInput() interface{} {
 	var returns interface{}
 	_jsii_.Get(
@@ -2052,6 +2076,17 @@ func (g *jsiiProxy_GoogleContainerNodePoolNodeConfigOutputReference) PutTaint(va
 	)
 }
 
+func (g *jsiiProxy_GoogleContainerNodePoolNodeConfigOutputReference) PutTaintConfig(value *GoogleContainerNodePoolNodeConfigTaintConfig) {
+	if err := g.validatePutTaintConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putTaintConfig",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleContainerNodePoolNodeConfigOutputReference) PutWindowsNodeConfig(value *GoogleContainerNodePoolNodeConfigWindowsNodeConfig) {
 	if err := g.validatePutWindowsNodeConfigParameters(value); err != nil {
 		panic(err)
@@ -2430,6 +2465,14 @@ func (g *jsiiProxy_GoogleContainerNodePoolNodeConfigOutputReference) ResetTaint(
 	_jsii_.InvokeVoid(
 		g,
 		"resetTaint",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleContainerNodePoolNodeConfigOutputReference) ResetTaintConfig() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetTaintConfig",
 		nil, // no parameters
 	)
 }

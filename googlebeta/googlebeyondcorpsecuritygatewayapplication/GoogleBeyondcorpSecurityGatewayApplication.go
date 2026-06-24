@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_beyondcorp_security_gateway_application google_beyondcorp_security_gateway_application}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_beyondcorp_security_gateway_application google_beyondcorp_security_gateway_application}.
 type GoogleBeyondcorpSecurityGatewayApplication interface {
 	cdktn.TerraformResource
 	ApplicationId() *string
@@ -566,7 +566,7 @@ func (j *jsiiProxy_GoogleBeyondcorpSecurityGatewayApplication) UpstreamsInput() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_beyondcorp_security_gateway_application google_beyondcorp_security_gateway_application} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_beyondcorp_security_gateway_application google_beyondcorp_security_gateway_application} Resource.
 func NewGoogleBeyondcorpSecurityGatewayApplication(scope constructs.Construct, id *string, config *GoogleBeyondcorpSecurityGatewayApplicationConfig) GoogleBeyondcorpSecurityGatewayApplication {
 	_init_.Initialize()
 
@@ -584,7 +584,7 @@ func NewGoogleBeyondcorpSecurityGatewayApplication(scope constructs.Construct, i
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_beyondcorp_security_gateway_application google_beyondcorp_security_gateway_application} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_beyondcorp_security_gateway_application google_beyondcorp_security_gateway_application} Resource.
 func NewGoogleBeyondcorpSecurityGatewayApplication_Override(g GoogleBeyondcorpSecurityGatewayApplication, scope constructs.Construct, id *string, config *GoogleBeyondcorpSecurityGatewayApplicationConfig) {
 	_init_.Initialize()
 

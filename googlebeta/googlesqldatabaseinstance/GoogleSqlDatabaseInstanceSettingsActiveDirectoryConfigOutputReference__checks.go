@@ -101,6 +101,14 @@ func (g *jsiiProxy_GoogleSqlDatabaseInstanceSettingsActiveDirectoryConfigOutputR
 	return nil
 }
 
+func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReference) validateSetAdminCredentialSecretNameParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
 	switch val.(type) {
 	case *string:
@@ -166,6 +174,14 @@ func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsActiveDirectoryConfigOutputR
 	return nil
 }
 
+func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReference) validateSetDnsServersParameters(val *[]*string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReference) validateSetDomainParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
@@ -177,6 +193,22 @@ func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsActiveDirectoryConfigOutputR
 func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReference) validateSetInternalValueParameters(val *GoogleSqlDatabaseInstanceSettingsActiveDirectoryConfig) error {
 	if err := _jsii_.ValidateStruct(val, func() string { return "parameter val" }); err != nil {
 		return err
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReference) validateSetModeParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsActiveDirectoryConfigOutputReference) validateSetOrganizationalUnitParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
 
 	return nil

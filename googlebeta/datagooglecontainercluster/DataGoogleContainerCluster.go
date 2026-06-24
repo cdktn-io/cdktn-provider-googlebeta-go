@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/data-sources/google_container_cluster google_container_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/data-sources/google_container_cluster google_container_cluster}.
 type DataGoogleContainerCluster interface {
 	cdktn.TerraformDataSource
 	AddonsConfig() DataGoogleContainerClusterAddonsConfigList
@@ -38,6 +38,7 @@ type DataGoogleContainerCluster interface {
 	SetCount(val interface{})
 	DatabaseEncryption() DataGoogleContainerClusterDatabaseEncryptionList
 	DatapathProvider() *string
+	DataplaneOptimizationMode() *string
 	DefaultMaxPodsPerNode() *float64
 	DefaultSnatStatus() DataGoogleContainerClusterDefaultSnatStatusList
 	DeletionPolicy() *string
@@ -78,6 +79,7 @@ type DataGoogleContainerCluster interface {
 	SetId(val *string)
 	IdentityServiceConfig() DataGoogleContainerClusterIdentityServiceConfigList
 	IdInput() *string
+	IgnoreNodeCountChanges() cdktn.IResolvable
 	InitialNodeCount() *float64
 	InTransitEncryptionConfig() *string
 	IpAllocationPolicy() DataGoogleContainerClusterIpAllocationPolicyList
@@ -144,6 +146,7 @@ type DataGoogleContainerCluster interface {
 	SelfLink() *string
 	ServiceExternalIpsConfig() DataGoogleContainerClusterServiceExternalIpsConfigList
 	ServicesIpv4Cidr() *string
+	SkipNodePoolRefresh() cdktn.IResolvable
 	Subnetwork() *string
 	// Experimental.
 	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
@@ -392,6 +395,16 @@ func (j *jsiiProxy_DataGoogleContainerCluster) DatapathProvider() *string {
 	_jsii_.Get(
 		j,
 		"datapathProvider",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleContainerCluster) DataplaneOptimizationMode() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"dataplaneOptimizationMode",
 		&returns,
 	)
 	return returns
@@ -702,6 +715,16 @@ func (j *jsiiProxy_DataGoogleContainerCluster) IdInput() *string {
 	_jsii_.Get(
 		j,
 		"idInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleContainerCluster) IgnoreNodeCountChanges() cdktn.IResolvable {
+	var returns cdktn.IResolvable
+	_jsii_.Get(
+		j,
+		"ignoreNodeCountChanges",
 		&returns,
 	)
 	return returns
@@ -1257,6 +1280,16 @@ func (j *jsiiProxy_DataGoogleContainerCluster) ServicesIpv4Cidr() *string {
 	return returns
 }
 
+func (j *jsiiProxy_DataGoogleContainerCluster) SkipNodePoolRefresh() cdktn.IResolvable {
+	var returns cdktn.IResolvable
+	_jsii_.Get(
+		j,
+		"skipNodePoolRefresh",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataGoogleContainerCluster) Subnetwork() *string {
 	var returns *string
 	_jsii_.Get(
@@ -1368,7 +1401,7 @@ func (j *jsiiProxy_DataGoogleContainerCluster) WorkloadIdentityConfig() DataGoog
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/data-sources/google_container_cluster google_container_cluster} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/data-sources/google_container_cluster google_container_cluster} Data Source.
 func NewDataGoogleContainerCluster(scope constructs.Construct, id *string, config *DataGoogleContainerClusterConfig) DataGoogleContainerCluster {
 	_init_.Initialize()
 
@@ -1386,7 +1419,7 @@ func NewDataGoogleContainerCluster(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/data-sources/google_container_cluster google_container_cluster} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/data-sources/google_container_cluster google_container_cluster} Data Source.
 func NewDataGoogleContainerCluster_Override(d DataGoogleContainerCluster, scope constructs.Construct, id *string, config *DataGoogleContainerClusterConfig) {
 	_init_.Initialize()
 

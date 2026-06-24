@@ -5,9 +5,9 @@ package googlecontactcenterinsightsencryptionspec
 
 
 type GoogleContactCenterInsightsEncryptionSpecTimeouts struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_contact_center_insights_encryption_spec#create GoogleContactCenterInsightsEncryptionSpec#create}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_contact_center_insights_encryption_spec#create GoogleContactCenterInsightsEncryptionSpec#create}.
 	Create *string `field:"optional" json:"create" yaml:"create"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_contact_center_insights_encryption_spec#delete GoogleContactCenterInsightsEncryptionSpec#delete}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_contact_center_insights_encryption_spec#delete GoogleContactCenterInsightsEncryptionSpec#delete}.
 	Delete *string `field:"optional" json:"delete" yaml:"delete"`
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_biglake_iceberg_catalog google_biglake_iceberg_catalog}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_biglake_iceberg_catalog google_biglake_iceberg_catalog}.
 type GoogleBiglakeIcebergCatalog interface {
 	cdktn.TerraformResource
 	BiglakeServiceAccount() *string
@@ -36,6 +36,8 @@ type GoogleBiglakeIcebergCatalog interface {
 	SetCredentialMode(val *string)
 	CredentialModeInput() *string
 	DefaultLocation() *string
+	SetDefaultLocation(val *string)
+	DefaultLocationInput() *string
 	DeletionPolicy() *string
 	SetDeletionPolicy(val *string)
 	DeletionPolicyInput() *string
@@ -80,6 +82,8 @@ type GoogleBiglakeIcebergCatalog interface {
 	// Experimental.
 	RawOverrides() interface{}
 	Replicas() GoogleBiglakeIcebergCatalogReplicasList
+	RestrictedLocationsConfig() GoogleBiglakeIcebergCatalogRestrictedLocationsConfigOutputReference
+	RestrictedLocationsConfigInput() *GoogleBiglakeIcebergCatalogRestrictedLocationsConfig
 	StorageRegions() *[]*string
 	// Experimental.
 	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
@@ -133,8 +137,10 @@ type GoogleBiglakeIcebergCatalog interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	PutRestrictedLocationsConfig(value *GoogleBiglakeIcebergCatalogRestrictedLocationsConfig)
 	PutTimeouts(value *GoogleBiglakeIcebergCatalogTimeouts)
 	ResetCredentialMode()
+	ResetDefaultLocation()
 	ResetDeletionPolicy()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -142,6 +148,7 @@ type GoogleBiglakeIcebergCatalog interface {
 	ResetOverrideLogicalId()
 	ResetPrimaryLocation()
 	ResetProject()
+	ResetRestrictedLocationsConfig()
 	ResetTimeouts()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
@@ -275,6 +282,16 @@ func (j *jsiiProxy_GoogleBiglakeIcebergCatalog) DefaultLocation() *string {
 	_jsii_.Get(
 		j,
 		"defaultLocation",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleBiglakeIcebergCatalog) DefaultLocationInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"defaultLocationInput",
 		&returns,
 	)
 	return returns
@@ -480,6 +497,26 @@ func (j *jsiiProxy_GoogleBiglakeIcebergCatalog) Replicas() GoogleBiglakeIcebergC
 	return returns
 }
 
+func (j *jsiiProxy_GoogleBiglakeIcebergCatalog) RestrictedLocationsConfig() GoogleBiglakeIcebergCatalogRestrictedLocationsConfigOutputReference {
+	var returns GoogleBiglakeIcebergCatalogRestrictedLocationsConfigOutputReference
+	_jsii_.Get(
+		j,
+		"restrictedLocationsConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleBiglakeIcebergCatalog) RestrictedLocationsConfigInput() *GoogleBiglakeIcebergCatalogRestrictedLocationsConfig {
+	var returns *GoogleBiglakeIcebergCatalogRestrictedLocationsConfig
+	_jsii_.Get(
+		j,
+		"restrictedLocationsConfigInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleBiglakeIcebergCatalog) StorageRegions() *[]*string {
 	var returns *[]*string
 	_jsii_.Get(
@@ -551,7 +588,7 @@ func (j *jsiiProxy_GoogleBiglakeIcebergCatalog) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_biglake_iceberg_catalog google_biglake_iceberg_catalog} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_biglake_iceberg_catalog google_biglake_iceberg_catalog} Resource.
 func NewGoogleBiglakeIcebergCatalog(scope constructs.Construct, id *string, config *GoogleBiglakeIcebergCatalogConfig) GoogleBiglakeIcebergCatalog {
 	_init_.Initialize()
 
@@ -569,7 +606,7 @@ func NewGoogleBiglakeIcebergCatalog(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_biglake_iceberg_catalog google_biglake_iceberg_catalog} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_biglake_iceberg_catalog google_biglake_iceberg_catalog} Resource.
 func NewGoogleBiglakeIcebergCatalog_Override(g GoogleBiglakeIcebergCatalog, scope constructs.Construct, id *string, config *GoogleBiglakeIcebergCatalogConfig) {
 	_init_.Initialize()
 
@@ -620,6 +657,17 @@ func (j *jsiiProxy_GoogleBiglakeIcebergCatalog)SetCredentialMode(val *string) {
 	_jsii_.Set(
 		j,
 		"credentialMode",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleBiglakeIcebergCatalog)SetDefaultLocation(val *string) {
+	if err := j.validateSetDefaultLocationParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"defaultLocation",
 		val,
 	)
 }
@@ -1078,6 +1126,17 @@ func (g *jsiiProxy_GoogleBiglakeIcebergCatalog) OverrideLogicalId(newLogicalId *
 	)
 }
 
+func (g *jsiiProxy_GoogleBiglakeIcebergCatalog) PutRestrictedLocationsConfig(value *GoogleBiglakeIcebergCatalogRestrictedLocationsConfig) {
+	if err := g.validatePutRestrictedLocationsConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putRestrictedLocationsConfig",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleBiglakeIcebergCatalog) PutTimeouts(value *GoogleBiglakeIcebergCatalogTimeouts) {
 	if err := g.validatePutTimeoutsParameters(value); err != nil {
 		panic(err)
@@ -1093,6 +1152,14 @@ func (g *jsiiProxy_GoogleBiglakeIcebergCatalog) ResetCredentialMode() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetCredentialMode",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleBiglakeIcebergCatalog) ResetDefaultLocation() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDefaultLocation",
 		nil, // no parameters
 	)
 }
@@ -1133,6 +1200,14 @@ func (g *jsiiProxy_GoogleBiglakeIcebergCatalog) ResetProject() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetProject",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleBiglakeIcebergCatalog) ResetRestrictedLocationsConfig() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetRestrictedLocationsConfig",
 		nil, // no parameters
 	)
 }

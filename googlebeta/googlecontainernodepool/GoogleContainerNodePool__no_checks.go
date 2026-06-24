@@ -147,6 +147,10 @@ func (j *jsiiProxy_GoogleContainerNodePool) validateSetIdParameters(val *string)
 	return nil
 }
 
+func (j *jsiiProxy_GoogleContainerNodePool) validateSetIgnoreNodeCountChangesParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleContainerNodePool) validateSetInitialNodeCountParameters(val *float64) error {
 	return nil
 }

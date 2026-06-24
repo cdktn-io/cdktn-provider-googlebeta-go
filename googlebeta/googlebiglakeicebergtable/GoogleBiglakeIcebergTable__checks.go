@@ -229,6 +229,17 @@ func (g *jsiiProxy_GoogleBiglakeIcebergTable) validatePutSchemaParameters(value 
 	return nil
 }
 
+func (g *jsiiProxy_GoogleBiglakeIcebergTable) validatePutSortOrderParameters(value *GoogleBiglakeIcebergTableSortOrder) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
+	}
+
+	return nil
+}
+
 func (g *jsiiProxy_GoogleBiglakeIcebergTable) validatePutTimeoutsParameters(value *GoogleBiglakeIcebergTableTimeouts) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")

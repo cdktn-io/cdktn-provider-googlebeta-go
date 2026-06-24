@@ -7,7 +7,7 @@ package googlecontainercluster
 type GoogleContainerClusterNodeConfigKubeletConfigCrashLoopBackOff struct {
 	// The maximum duration the backoff delay can accrue to for container restarts.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_container_cluster#max_container_restart_period GoogleContainerCluster#max_container_restart_period}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_container_cluster#max_container_restart_period GoogleContainerCluster#max_container_restart_period}
 	MaxContainerRestartPeriod *string `field:"optional" json:"maxContainerRestartPeriod" yaml:"maxContainerRestartPeriod"`
 }
 

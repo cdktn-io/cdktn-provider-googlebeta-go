@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apigee_developer_app google_apigee_developer_app}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_apigee_developer_app google_apigee_developer_app}.
 type GoogleApigeeDeveloperApp interface {
 	cdktn.TerraformResource
 	ApiProducts() *[]*string
@@ -35,6 +35,12 @@ type GoogleApigeeDeveloperApp interface {
 	SetConnection(val interface{})
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
+	ConsumerKey() *string
+	SetConsumerKey(val *string)
+	ConsumerKeyInput() *string
+	ConsumerSecret() *string
+	SetConsumerSecret(val *string)
+	ConsumerSecretInput() *string
 	// Experimental.
 	Count() interface{}
 	// Experimental.
@@ -151,6 +157,8 @@ type GoogleApigeeDeveloperApp interface {
 	ResetApiProducts()
 	ResetAppFamily()
 	ResetAttributes()
+	ResetConsumerKey()
+	ResetConsumerSecret()
 	ResetDeletionPolicy()
 	ResetId()
 	ResetKeyExpiresIn()
@@ -302,6 +310,46 @@ func (j *jsiiProxy_GoogleApigeeDeveloperApp) ConstructNodeMetadata() *map[string
 	_jsii_.Get(
 		j,
 		"constructNodeMetadata",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleApigeeDeveloperApp) ConsumerKey() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"consumerKey",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleApigeeDeveloperApp) ConsumerKeyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"consumerKeyInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleApigeeDeveloperApp) ConsumerSecret() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"consumerSecret",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleApigeeDeveloperApp) ConsumerSecretInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"consumerSecretInput",
 		&returns,
 	)
 	return returns
@@ -658,7 +706,7 @@ func (j *jsiiProxy_GoogleApigeeDeveloperApp) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apigee_developer_app google_apigee_developer_app} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_apigee_developer_app google_apigee_developer_app} Resource.
 func NewGoogleApigeeDeveloperApp(scope constructs.Construct, id *string, config *GoogleApigeeDeveloperAppConfig) GoogleApigeeDeveloperApp {
 	_init_.Initialize()
 
@@ -676,7 +724,7 @@ func NewGoogleApigeeDeveloperApp(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apigee_developer_app google_apigee_developer_app} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_apigee_developer_app google_apigee_developer_app} Resource.
 func NewGoogleApigeeDeveloperApp_Override(g GoogleApigeeDeveloperApp, scope constructs.Construct, id *string, config *GoogleApigeeDeveloperAppConfig) {
 	_init_.Initialize()
 
@@ -727,6 +775,28 @@ func (j *jsiiProxy_GoogleApigeeDeveloperApp)SetConnection(val interface{}) {
 	_jsii_.Set(
 		j,
 		"connection",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleApigeeDeveloperApp)SetConsumerKey(val *string) {
+	if err := j.validateSetConsumerKeyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"consumerKey",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleApigeeDeveloperApp)SetConsumerSecret(val *string) {
+	if err := j.validateSetConsumerSecretParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"consumerSecret",
 		val,
 	)
 }
@@ -1271,6 +1341,22 @@ func (g *jsiiProxy_GoogleApigeeDeveloperApp) ResetAttributes() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetAttributes",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleApigeeDeveloperApp) ResetConsumerKey() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetConsumerKey",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleApigeeDeveloperApp) ResetConsumerSecret() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetConsumerSecret",
 		nil, // no parameters
 	)
 }

@@ -32,6 +32,9 @@ type GoogleContainerClusterNodePoolOutputReference interface {
 	CreationStack() *[]*string
 	// Experimental.
 	Fqn() *string
+	IgnoreNodeCountChanges() interface{}
+	SetIgnoreNodeCountChanges(val interface{})
+	IgnoreNodeCountChangesInput() interface{}
 	InitialNodeCount() *float64
 	SetInitialNodeCount(val *float64)
 	InitialNodeCountInput() *float64
@@ -112,6 +115,7 @@ type GoogleContainerClusterNodePoolOutputReference interface {
 	PutQueuedProvisioning(value *GoogleContainerClusterNodePoolQueuedProvisioning)
 	PutUpgradeSettings(value *GoogleContainerClusterNodePoolUpgradeSettings)
 	ResetAutoscaling()
+	ResetIgnoreNodeCountChanges()
 	ResetInitialNodeCount()
 	ResetManagement()
 	ResetMaxPodsPerNode()
@@ -196,6 +200,26 @@ func (j *jsiiProxy_GoogleContainerClusterNodePoolOutputReference) Fqn() *string 
 	_jsii_.Get(
 		j,
 		"fqn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleContainerClusterNodePoolOutputReference) IgnoreNodeCountChanges() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"ignoreNodeCountChanges",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleContainerClusterNodePoolOutputReference) IgnoreNodeCountChangesInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"ignoreNodeCountChangesInput",
 		&returns,
 	)
 	return returns
@@ -577,6 +601,17 @@ func (j *jsiiProxy_GoogleContainerClusterNodePoolOutputReference)SetComplexObjec
 	_jsii_.Set(
 		j,
 		"complexObjectIsFromSet",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleContainerClusterNodePoolOutputReference)SetIgnoreNodeCountChanges(val interface{}) {
+	if err := j.validateSetIgnoreNodeCountChangesParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"ignoreNodeCountChanges",
 		val,
 	)
 }
@@ -969,6 +1004,14 @@ func (g *jsiiProxy_GoogleContainerClusterNodePoolOutputReference) ResetAutoscali
 	_jsii_.InvokeVoid(
 		g,
 		"resetAutoscaling",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleContainerClusterNodePoolOutputReference) ResetIgnoreNodeCountChanges() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetIgnoreNodeCountChanges",
 		nil, // no parameters
 	)
 }

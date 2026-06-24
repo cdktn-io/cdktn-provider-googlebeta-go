@@ -24,35 +24,58 @@ type GoogleApigeeDeveloperAppConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// Callback URL used by OAuth 2.0 authorization servers to communicate authorization codes back to developer apps.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apigee_developer_app#callback_url GoogleApigeeDeveloperApp#callback_url}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_apigee_developer_app#callback_url GoogleApigeeDeveloperApp#callback_url}
 	CallbackUrl *string `field:"required" json:"callbackUrl" yaml:"callbackUrl"`
 	// Email address of the developer.
 	//
 	// This value is used to uniquely identify the developer in Apigee hybrid.
 	// Note that the email address has to be in lowercase only.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apigee_developer_app#developer_email GoogleApigeeDeveloperApp#developer_email}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_apigee_developer_app#developer_email GoogleApigeeDeveloperApp#developer_email}
 	DeveloperEmail *string `field:"required" json:"developerEmail" yaml:"developerEmail"`
 	// Name of the developer app.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apigee_developer_app#name GoogleApigeeDeveloperApp#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_apigee_developer_app#name GoogleApigeeDeveloperApp#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// The Apigee Organization associated with the Apigee instance, in the format 'organizations/{{org_name}}'.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apigee_developer_app#org_id GoogleApigeeDeveloperApp#org_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_apigee_developer_app#org_id GoogleApigeeDeveloperApp#org_id}
 	OrgId *string `field:"required" json:"orgId" yaml:"orgId"`
 	// List of API products associated with the developer app.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apigee_developer_app#api_products GoogleApigeeDeveloperApp#api_products}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_apigee_developer_app#api_products GoogleApigeeDeveloperApp#api_products}
 	ApiProducts *[]*string `field:"optional" json:"apiProducts" yaml:"apiProducts"`
 	// Developer app family.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apigee_developer_app#app_family GoogleApigeeDeveloperApp#app_family}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_apigee_developer_app#app_family GoogleApigeeDeveloperApp#app_family}
 	AppFamily *string `field:"optional" json:"appFamily" yaml:"appFamily"`
 	// attributes block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apigee_developer_app#attributes GoogleApigeeDeveloperApp#attributes}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_apigee_developer_app#attributes GoogleApigeeDeveloperApp#attributes}
 	Attributes interface{} `field:"optional" json:"attributes" yaml:"attributes"`
+	// Optionally specify a static consumer key for the developer app's credential.
+	//
+	// If not set, the API auto-generates a key. The consumer key must be unique
+	// across all developer apps in an organization. Changing this field forces the
+	// resource to be recreated.
+	//
+	// This is a write-only input used at create time: the provider creates the
+	// credential with this key via the keys API and removes the auto-generated
+	// one. The effective key is exposed in the 'credentials' output.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_apigee_developer_app#consumer_key GoogleApigeeDeveloperApp#consumer_key}
+	ConsumerKey *string `field:"optional" json:"consumerKey" yaml:"consumerKey"`
+	// Optionally specify a static consumer secret for the developer app's credential.
+	//
+	// Required if 'consumer_key' is specified. If not set, the API
+	// auto-generates a secret. Changing this field forces the resource to be
+	// recreated.
+	//
+	// This is a write-only input used at create time; the effective secret is
+	// exposed in the 'credentials' output.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_apigee_developer_app#consumer_secret GoogleApigeeDeveloperApp#consumer_secret}
+	ConsumerSecret *string `field:"optional" json:"consumerSecret" yaml:"consumerSecret"`
 	// Whether Terraform will be prevented from destroying the instance.
 	//
 	// Defaults to "DELETE".
@@ -63,9 +86,9 @@ type GoogleApigeeDeveloperAppConfig struct {
 	// When set to "DELETE", deleting the resource is allowed.
 	//
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apigee_developer_app#deletion_policy GoogleApigeeDeveloperApp#deletion_policy}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_apigee_developer_app#deletion_policy GoogleApigeeDeveloperApp#deletion_policy}
 	DeletionPolicy *string `field:"optional" json:"deletionPolicy" yaml:"deletionPolicy"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apigee_developer_app#id GoogleApigeeDeveloperApp#id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_apigee_developer_app#id GoogleApigeeDeveloperApp#id}.
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -75,22 +98,22 @@ type GoogleApigeeDeveloperAppConfig struct {
 	// If not set or left to the default value of -1,
 	// the API key never expires. The expiration time can't be updated after it is set.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apigee_developer_app#key_expires_in GoogleApigeeDeveloperApp#key_expires_in}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_apigee_developer_app#key_expires_in GoogleApigeeDeveloperApp#key_expires_in}
 	KeyExpiresIn *string `field:"optional" json:"keyExpiresIn" yaml:"keyExpiresIn"`
 	// Scopes to apply to the developer app.
 	//
 	// The specified scopes must already exist for the API product that
 	// you associate with the developer app.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apigee_developer_app#scopes GoogleApigeeDeveloperApp#scopes}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_apigee_developer_app#scopes GoogleApigeeDeveloperApp#scopes}
 	Scopes *[]*string `field:"optional" json:"scopes" yaml:"scopes"`
 	// Status of the credential. Valid values include approved or revoked.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apigee_developer_app#status GoogleApigeeDeveloperApp#status}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_apigee_developer_app#status GoogleApigeeDeveloperApp#status}
 	Status *string `field:"optional" json:"status" yaml:"status"`
 	// timeouts block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_apigee_developer_app#timeouts GoogleApigeeDeveloperApp#timeouts}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_apigee_developer_app#timeouts GoogleApigeeDeveloperApp#timeouts}
 	Timeouts *GoogleApigeeDeveloperAppTimeouts `field:"optional" json:"timeouts" yaml:"timeouts"`
 }
 

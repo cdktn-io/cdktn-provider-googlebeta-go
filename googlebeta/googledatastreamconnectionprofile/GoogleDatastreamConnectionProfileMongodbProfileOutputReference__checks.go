@@ -165,6 +165,14 @@ func (g *jsiiProxy_GoogleDatastreamConnectionProfileMongodbProfileOutputReferenc
 	return nil
 }
 
+func (j *jsiiProxy_GoogleDatastreamConnectionProfileMongodbProfileOutputReference) validateSetAdditionalOptionsParameters(val *map[string]*string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_GoogleDatastreamConnectionProfileMongodbProfileOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
 	switch val.(type) {
 	case *string:

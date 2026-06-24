@@ -984,6 +984,14 @@ func (j *jsiiProxy_GoogleContainerCluster) validateSetDatapathProviderParameters
 	return nil
 }
 
+func (j *jsiiProxy_GoogleContainerCluster) validateSetDataplaneOptimizationModeParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_GoogleContainerCluster) validateSetDefaultMaxPodsPerNodeParameters(val *float64) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
@@ -1256,6 +1264,26 @@ func (j *jsiiProxy_GoogleContainerCluster) validateSetIdParameters(val *string) 
 	return nil
 }
 
+func (j *jsiiProxy_GoogleContainerCluster) validateSetIgnoreNodeCountChangesParameters(val interface{}) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+	switch val.(type) {
+	case *bool:
+		// ok
+	case bool:
+		// ok
+	case cdktn.IResolvable:
+		// ok
+	default:
+		if !_jsii_.IsAnonymousProxy(val) {
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
+		}
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_GoogleContainerCluster) validateSetInitialNodeCountParameters(val *float64) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
@@ -1437,6 +1465,26 @@ func (j *jsiiProxy_GoogleContainerCluster) validateSetRemoveDefaultNodePoolParam
 func (j *jsiiProxy_GoogleContainerCluster) validateSetResourceLabelsParameters(val *map[string]*string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_GoogleContainerCluster) validateSetSkipNodePoolRefreshParameters(val interface{}) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+	switch val.(type) {
+	case *bool:
+		// ok
+	case bool:
+		// ok
+	case cdktn.IResolvable:
+		// ok
+	default:
+		if !_jsii_.IsAnonymousProxy(val) {
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
+		}
 	}
 
 	return nil

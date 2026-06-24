@@ -24,18 +24,18 @@ type GoogleVmwareengineExternalAddressConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The internal IP address of a workload VM.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_vmwareengine_external_address#internal_ip GoogleVmwareengineExternalAddress#internal_ip}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_vmwareengine_external_address#internal_ip GoogleVmwareengineExternalAddress#internal_ip}
 	InternalIp *string `field:"required" json:"internalIp" yaml:"internalIp"`
 	// The ID of the external IP Address.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_vmwareengine_external_address#name GoogleVmwareengineExternalAddress#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_vmwareengine_external_address#name GoogleVmwareengineExternalAddress#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// The resource name of the private cloud to create a new external address in.
 	//
 	// Resource names are schemeless URIs that follow the conventions in https://cloud.google.com/apis/design/resource_names.
 	// For example: projects/my-project/locations/us-west1-a/privateClouds/my-cloud
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_vmwareengine_external_address#parent GoogleVmwareengineExternalAddress#parent}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_vmwareengine_external_address#parent GoogleVmwareengineExternalAddress#parent}
 	Parent *string `field:"required" json:"parent" yaml:"parent"`
 	// Whether Terraform will be prevented from destroying the instance.
 	//
@@ -47,20 +47,20 @@ type GoogleVmwareengineExternalAddressConfig struct {
 	// When set to "DELETE", deleting the resource is allowed.
 	//
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_vmwareengine_external_address#deletion_policy GoogleVmwareengineExternalAddress#deletion_policy}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_vmwareengine_external_address#deletion_policy GoogleVmwareengineExternalAddress#deletion_policy}
 	DeletionPolicy *string `field:"optional" json:"deletionPolicy" yaml:"deletionPolicy"`
 	// User-provided description for this resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_vmwareengine_external_address#description GoogleVmwareengineExternalAddress#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_vmwareengine_external_address#description GoogleVmwareengineExternalAddress#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_vmwareengine_external_address#id GoogleVmwareengineExternalAddress#id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_vmwareengine_external_address#id GoogleVmwareengineExternalAddress#id}.
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
 	Id *string `field:"optional" json:"id" yaml:"id"`
 	// timeouts block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_vmwareengine_external_address#timeouts GoogleVmwareengineExternalAddress#timeouts}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_vmwareengine_external_address#timeouts GoogleVmwareengineExternalAddress#timeouts}
 	Timeouts *GoogleVmwareengineExternalAddressTimeouts `field:"optional" json:"timeouts" yaml:"timeouts"`
 }
 

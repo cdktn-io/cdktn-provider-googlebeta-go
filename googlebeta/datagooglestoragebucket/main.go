@@ -874,6 +874,8 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "sendDaysSinceCustomTimeIfZero", GoGetter: "SendDaysSinceCustomTimeIfZero"},
 			_jsii_.MemberProperty{JsiiProperty: "sendDaysSinceNoncurrentTimeIfZero", GoGetter: "SendDaysSinceNoncurrentTimeIfZero"},
 			_jsii_.MemberProperty{JsiiProperty: "sendNumNewerVersionsIfZero", GoGetter: "SendNumNewerVersionsIfZero"},
+			_jsii_.MemberProperty{JsiiProperty: "sizeAboveBytes", GoGetter: "SizeAboveBytes"},
+			_jsii_.MemberProperty{JsiiProperty: "sizeBelowBytes", GoGetter: "SizeBelowBytes"},
 			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
 			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_snapshot google_compute_snapshot}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_snapshot google_compute_snapshot}.
 type GoogleComputeSnapshot interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -71,6 +71,8 @@ type GoogleComputeSnapshot interface {
 	NameInput() *string
 	// The tree node.
 	Node() constructs.Node
+	Params() GoogleComputeSnapshotParamsOutputReference
+	ParamsInput() *GoogleComputeSnapshotParams
 	Project() *string
 	SetProject(val *string)
 	ProjectInput() *string
@@ -158,6 +160,7 @@ type GoogleComputeSnapshot interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	PutParams(value *GoogleComputeSnapshotParams)
 	PutSnapshotEncryptionKey(value *GoogleComputeSnapshotSnapshotEncryptionKey)
 	PutSourceDiskEncryptionKey(value *GoogleComputeSnapshotSourceDiskEncryptionKey)
 	PutTimeouts(value *GoogleComputeSnapshotTimeouts)
@@ -170,6 +173,7 @@ type GoogleComputeSnapshot interface {
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
+	ResetParams()
 	ResetProject()
 	ResetSnapshotEncryptionKey()
 	ResetSnapshotType()
@@ -496,6 +500,26 @@ func (j *jsiiProxy_GoogleComputeSnapshot) Node() constructs.Node {
 	return returns
 }
 
+func (j *jsiiProxy_GoogleComputeSnapshot) Params() GoogleComputeSnapshotParamsOutputReference {
+	var returns GoogleComputeSnapshotParamsOutputReference
+	_jsii_.Get(
+		j,
+		"params",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeSnapshot) ParamsInput() *GoogleComputeSnapshotParams {
+	var returns *GoogleComputeSnapshotParams
+	_jsii_.Get(
+		j,
+		"paramsInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleComputeSnapshot) Project() *string {
 	var returns *string
 	_jsii_.Get(
@@ -777,7 +801,7 @@ func (j *jsiiProxy_GoogleComputeSnapshot) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_snapshot google_compute_snapshot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_snapshot google_compute_snapshot} Resource.
 func NewGoogleComputeSnapshot(scope constructs.Construct, id *string, config *GoogleComputeSnapshotConfig) GoogleComputeSnapshot {
 	_init_.Initialize()
 
@@ -795,7 +819,7 @@ func NewGoogleComputeSnapshot(scope constructs.Construct, id *string, config *Go
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.37.0/docs/resources/google_compute_snapshot google_compute_snapshot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_snapshot google_compute_snapshot} Resource.
 func NewGoogleComputeSnapshot_Override(g GoogleComputeSnapshot, scope constructs.Construct, id *string, config *GoogleComputeSnapshotConfig) {
 	_init_.Initialize()
 
@@ -1370,6 +1394,17 @@ func (g *jsiiProxy_GoogleComputeSnapshot) OverrideLogicalId(newLogicalId *string
 	)
 }
 
+func (g *jsiiProxy_GoogleComputeSnapshot) PutParams(value *GoogleComputeSnapshotParams) {
+	if err := g.validatePutParamsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putParams",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleComputeSnapshot) PutSnapshotEncryptionKey(value *GoogleComputeSnapshotSnapshotEncryptionKey) {
 	if err := g.validatePutSnapshotEncryptionKeyParameters(value); err != nil {
 		panic(err)
@@ -1455,6 +1490,14 @@ func (g *jsiiProxy_GoogleComputeSnapshot) ResetOverrideLogicalId() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetOverrideLogicalId",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleComputeSnapshot) ResetParams() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetParams",
 		nil, // no parameters
 	)
 }
