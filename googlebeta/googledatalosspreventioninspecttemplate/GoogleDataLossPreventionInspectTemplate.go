@@ -12,9 +12,12 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_data_loss_prevention_inspect_template google_data_loss_prevention_inspect_template}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_data_loss_prevention_inspect_template google_data_loss_prevention_inspect_template}.
 type GoogleDataLossPreventionInspectTemplate interface {
 	cdktn.TerraformResource
+	AllowLimitedAvailabilityInfoTypes() interface{}
+	SetAllowLimitedAvailabilityInfoTypes(val interface{})
+	AllowLimitedAvailabilityInfoTypesInput() interface{}
 	// Experimental.
 	CdktfStack() cdktn.TerraformStack
 	// Experimental.
@@ -129,6 +132,7 @@ type GoogleDataLossPreventionInspectTemplate interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutInspectConfig(value *GoogleDataLossPreventionInspectTemplateInspectConfig)
 	PutTimeouts(value *GoogleDataLossPreventionInspectTemplateTimeouts)
+	ResetAllowLimitedAvailabilityInfoTypes()
 	ResetDeletionPolicy()
 	ResetDescription()
 	ResetDisplayName()
@@ -164,6 +168,26 @@ type GoogleDataLossPreventionInspectTemplate interface {
 // The jsii proxy struct for GoogleDataLossPreventionInspectTemplate
 type jsiiProxy_GoogleDataLossPreventionInspectTemplate struct {
 	internal.Type__cdktnTerraformResource
+}
+
+func (j *jsiiProxy_GoogleDataLossPreventionInspectTemplate) AllowLimitedAvailabilityInfoTypes() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"allowLimitedAvailabilityInfoTypes",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDataLossPreventionInspectTemplate) AllowLimitedAvailabilityInfoTypesInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"allowLimitedAvailabilityInfoTypesInput",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_GoogleDataLossPreventionInspectTemplate) CdktfStack() cdktn.TerraformStack {
@@ -497,7 +521,7 @@ func (j *jsiiProxy_GoogleDataLossPreventionInspectTemplate) TimeoutsInput() inte
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_data_loss_prevention_inspect_template google_data_loss_prevention_inspect_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_data_loss_prevention_inspect_template google_data_loss_prevention_inspect_template} Resource.
 func NewGoogleDataLossPreventionInspectTemplate(scope constructs.Construct, id *string, config *GoogleDataLossPreventionInspectTemplateConfig) GoogleDataLossPreventionInspectTemplate {
 	_init_.Initialize()
 
@@ -515,7 +539,7 @@ func NewGoogleDataLossPreventionInspectTemplate(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_data_loss_prevention_inspect_template google_data_loss_prevention_inspect_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_data_loss_prevention_inspect_template google_data_loss_prevention_inspect_template} Resource.
 func NewGoogleDataLossPreventionInspectTemplate_Override(g GoogleDataLossPreventionInspectTemplate, scope constructs.Construct, id *string, config *GoogleDataLossPreventionInspectTemplateConfig) {
 	_init_.Initialize()
 
@@ -523,6 +547,17 @@ func NewGoogleDataLossPreventionInspectTemplate_Override(g GoogleDataLossPrevent
 		"@cdktn/provider-google-beta.googleDataLossPreventionInspectTemplate.GoogleDataLossPreventionInspectTemplate",
 		[]interface{}{scope, id, config},
 		g,
+	)
+}
+
+func (j *jsiiProxy_GoogleDataLossPreventionInspectTemplate)SetAllowLimitedAvailabilityInfoTypes(val interface{}) {
+	if err := j.validateSetAllowLimitedAvailabilityInfoTypesParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"allowLimitedAvailabilityInfoTypes",
+		val,
 	)
 }
 
@@ -1032,6 +1067,14 @@ func (g *jsiiProxy_GoogleDataLossPreventionInspectTemplate) PutTimeouts(value *G
 		g,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleDataLossPreventionInspectTemplate) ResetAllowLimitedAvailabilityInfoTypes() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetAllowLimitedAvailabilityInfoTypes",
+		nil, // no parameters
 	)
 }
 

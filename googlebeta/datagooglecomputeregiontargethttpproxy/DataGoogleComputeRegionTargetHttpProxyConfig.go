@@ -32,20 +32,20 @@ type DataGoogleComputeRegionTargetHttpProxyConfig struct {
 	// characters must be a dash, lowercase letter, or digit, except the last
 	// character, which cannot be a dash.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/data-sources/google_compute_region_target_http_proxy#name DataGoogleComputeRegionTargetHttpProxy#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/data-sources/google_compute_region_target_http_proxy#name DataGoogleComputeRegionTargetHttpProxy#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/data-sources/google_compute_region_target_http_proxy#id DataGoogleComputeRegionTargetHttpProxy#id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/data-sources/google_compute_region_target_http_proxy#id DataGoogleComputeRegionTargetHttpProxy#id}.
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
 	Id *string `field:"optional" json:"id" yaml:"id"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/data-sources/google_compute_region_target_http_proxy#project DataGoogleComputeRegionTargetHttpProxy#project}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/data-sources/google_compute_region_target_http_proxy#project DataGoogleComputeRegionTargetHttpProxy#project}.
 	Project *string `field:"optional" json:"project" yaml:"project"`
 	// The Region in which the created target https proxy should reside.
 	//
 	// If it is not provided, the provider region is used.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/data-sources/google_compute_region_target_http_proxy#region DataGoogleComputeRegionTargetHttpProxy#region}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/data-sources/google_compute_region_target_http_proxy#region DataGoogleComputeRegionTargetHttpProxy#region}
 	Region *string `field:"optional" json:"region" yaml:"region"`
 }
 

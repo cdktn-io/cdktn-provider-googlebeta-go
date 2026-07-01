@@ -7,11 +7,11 @@ package googleoracledatabasegoldengateconnection
 type GoogleOracleDatabaseGoldengateConnectionPropertiesGoogleBigQueryConnectionProperties struct {
 	// The service account key file Cloud Storage containing the credentials required to use Google BigQuery.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_oracle_database_goldengate_connection#service_account_key_file GoogleOracleDatabaseGoldengateConnection#service_account_key_file}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_oracle_database_goldengate_connection#service_account_key_file GoogleOracleDatabaseGoldengateConnection#service_account_key_file}
 	ServiceAccountKeyFile *string `field:"optional" json:"serviceAccountKeyFile" yaml:"serviceAccountKeyFile"`
 	// The technology type.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_oracle_database_goldengate_connection#technology_type GoogleOracleDatabaseGoldengateConnection#technology_type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_oracle_database_goldengate_connection#technology_type GoogleOracleDatabaseGoldengateConnection#technology_type}
 	TechnologyType *string `field:"optional" json:"technologyType" yaml:"technologyType"`
 }
 

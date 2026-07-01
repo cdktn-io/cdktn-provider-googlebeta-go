@@ -7,15 +7,15 @@ package googlecontainernodepool
 type GoogleContainerNodePoolNodeDrainConfig struct {
 	// The duration of the grace termination period for node drain.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_container_node_pool#grace_termination_duration GoogleContainerNodePool#grace_termination_duration}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#grace_termination_duration GoogleContainerNodePool#grace_termination_duration}
 	GraceTerminationDuration *string `field:"optional" json:"graceTerminationDuration" yaml:"graceTerminationDuration"`
 	// The duration of the PDB timeout period for node drain.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_container_node_pool#pdb_timeout_duration GoogleContainerNodePool#pdb_timeout_duration}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#pdb_timeout_duration GoogleContainerNodePool#pdb_timeout_duration}
 	PdbTimeoutDuration *string `field:"optional" json:"pdbTimeoutDuration" yaml:"pdbTimeoutDuration"`
 	// Whether to respect PodDisruptionBudget policy during node pool deletion.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_container_node_pool#respect_pdb_during_node_pool_deletion GoogleContainerNodePool#respect_pdb_during_node_pool_deletion}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool#respect_pdb_during_node_pool_deletion GoogleContainerNodePool#respect_pdb_during_node_pool_deletion}
 	RespectPdbDuringNodePoolDeletion interface{} `field:"optional" json:"respectPdbDuringNodePoolDeletion" yaml:"respectPdbDuringNodePoolDeletion"`
 }
 

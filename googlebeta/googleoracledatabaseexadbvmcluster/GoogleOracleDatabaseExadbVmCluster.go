@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_oracle_database_exadb_vm_cluster google_oracle_database_exadb_vm_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_oracle_database_exadb_vm_cluster google_oracle_database_exadb_vm_cluster}.
 type GoogleOracleDatabaseExadbVmCluster interface {
 	cdktn.TerraformResource
 	BackupOdbSubnet() *string
@@ -667,7 +667,7 @@ func (j *jsiiProxy_GoogleOracleDatabaseExadbVmCluster) TimeoutsInput() interface
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_oracle_database_exadb_vm_cluster google_oracle_database_exadb_vm_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_oracle_database_exadb_vm_cluster google_oracle_database_exadb_vm_cluster} Resource.
 func NewGoogleOracleDatabaseExadbVmCluster(scope constructs.Construct, id *string, config *GoogleOracleDatabaseExadbVmClusterConfig) GoogleOracleDatabaseExadbVmCluster {
 	_init_.Initialize()
 
@@ -685,7 +685,7 @@ func NewGoogleOracleDatabaseExadbVmCluster(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_oracle_database_exadb_vm_cluster google_oracle_database_exadb_vm_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_oracle_database_exadb_vm_cluster google_oracle_database_exadb_vm_cluster} Resource.
 func NewGoogleOracleDatabaseExadbVmCluster_Override(g GoogleOracleDatabaseExadbVmCluster, scope constructs.Construct, id *string, config *GoogleOracleDatabaseExadbVmClusterConfig) {
 	_init_.Initialize()
 

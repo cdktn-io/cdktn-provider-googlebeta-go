@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/data-sources/google_gke_hub_feature google_gke_hub_feature}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/data-sources/google_gke_hub_feature google_gke_hub_feature}.
 type DataGoogleGkeHubFeature interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -465,7 +465,7 @@ func (j *jsiiProxy_DataGoogleGkeHubFeature) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/data-sources/google_gke_hub_feature google_gke_hub_feature} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/data-sources/google_gke_hub_feature google_gke_hub_feature} Data Source.
 func NewDataGoogleGkeHubFeature(scope constructs.Construct, id *string, config *DataGoogleGkeHubFeatureConfig) DataGoogleGkeHubFeature {
 	_init_.Initialize()
 
@@ -483,7 +483,7 @@ func NewDataGoogleGkeHubFeature(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/data-sources/google_gke_hub_feature google_gke_hub_feature} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/data-sources/google_gke_hub_feature google_gke_hub_feature} Data Source.
 func NewDataGoogleGkeHubFeature_Override(d DataGoogleGkeHubFeature, scope constructs.Construct, id *string, config *DataGoogleGkeHubFeatureConfig) {
 	_init_.Initialize()
 

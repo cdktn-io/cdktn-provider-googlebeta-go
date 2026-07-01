@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_dataplex_data_product google_dataplex_data_product}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_dataplex_data_product google_dataplex_data_product}.
 type GoogleDataplexDataProduct interface {
 	cdktn.TerraformResource
 	AccessApprovalConfig() GoogleDataplexDataProductAccessApprovalConfigOutputReference
@@ -59,6 +59,9 @@ type GoogleDataplexDataProduct interface {
 	Fqn() *string
 	// Experimental.
 	FriendlyUniqueId() *string
+	Icon() *string
+	SetIcon(val *string)
+	IconInput() *string
 	Id() *string
 	SetId(val *string)
 	IdInput() *string
@@ -152,6 +155,7 @@ type GoogleDataplexDataProduct interface {
 	ResetAccessGroups()
 	ResetDeletionPolicy()
 	ResetDescription()
+	ResetIcon()
 	ResetId()
 	ResetLabels()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -426,6 +430,26 @@ func (j *jsiiProxy_GoogleDataplexDataProduct) FriendlyUniqueId() *string {
 	return returns
 }
 
+func (j *jsiiProxy_GoogleDataplexDataProduct) Icon() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"icon",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDataplexDataProduct) IconInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"iconInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleDataplexDataProduct) Id() *string {
 	var returns *string
 	_jsii_.Get(
@@ -667,7 +691,7 @@ func (j *jsiiProxy_GoogleDataplexDataProduct) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_dataplex_data_product google_dataplex_data_product} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_dataplex_data_product google_dataplex_data_product} Resource.
 func NewGoogleDataplexDataProduct(scope constructs.Construct, id *string, config *GoogleDataplexDataProductConfig) GoogleDataplexDataProduct {
 	_init_.Initialize()
 
@@ -685,7 +709,7 @@ func NewGoogleDataplexDataProduct(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_dataplex_data_product google_dataplex_data_product} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_dataplex_data_product google_dataplex_data_product} Resource.
 func NewGoogleDataplexDataProduct_Override(g GoogleDataplexDataProduct, scope constructs.Construct, id *string, config *GoogleDataplexDataProductConfig) {
 	_init_.Initialize()
 
@@ -774,6 +798,17 @@ func (j *jsiiProxy_GoogleDataplexDataProduct)SetForEach(val cdktn.ITerraformIter
 	_jsii_.Set(
 		j,
 		"forEach",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleDataplexDataProduct)SetIcon(val *string) {
+	if err := j.validateSetIconParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"icon",
 		val,
 	)
 }
@@ -1277,6 +1312,14 @@ func (g *jsiiProxy_GoogleDataplexDataProduct) ResetDescription() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetDescription",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleDataplexDataProduct) ResetIcon() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetIcon",
 		nil, // no parameters
 	)
 }

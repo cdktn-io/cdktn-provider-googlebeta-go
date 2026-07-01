@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_access_context_manager_authorized_orgs_desc google_access_context_manager_authorized_orgs_desc}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_access_context_manager_authorized_orgs_desc google_access_context_manager_authorized_orgs_desc}.
 type GoogleAccessContextManagerAuthorizedOrgsDesc interface {
 	cdktn.TerraformResource
 	AssetType() *string
@@ -531,7 +531,7 @@ func (j *jsiiProxy_GoogleAccessContextManagerAuthorizedOrgsDesc) UpdateTime() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_access_context_manager_authorized_orgs_desc google_access_context_manager_authorized_orgs_desc} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_access_context_manager_authorized_orgs_desc google_access_context_manager_authorized_orgs_desc} Resource.
 func NewGoogleAccessContextManagerAuthorizedOrgsDesc(scope constructs.Construct, id *string, config *GoogleAccessContextManagerAuthorizedOrgsDescConfig) GoogleAccessContextManagerAuthorizedOrgsDesc {
 	_init_.Initialize()
 
@@ -549,7 +549,7 @@ func NewGoogleAccessContextManagerAuthorizedOrgsDesc(scope constructs.Construct,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_access_context_manager_authorized_orgs_desc google_access_context_manager_authorized_orgs_desc} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_access_context_manager_authorized_orgs_desc google_access_context_manager_authorized_orgs_desc} Resource.
 func NewGoogleAccessContextManagerAuthorizedOrgsDesc_Override(g GoogleAccessContextManagerAuthorizedOrgsDesc, scope constructs.Construct, id *string, config *GoogleAccessContextManagerAuthorizedOrgsDescConfig) {
 	_init_.Initialize()
 

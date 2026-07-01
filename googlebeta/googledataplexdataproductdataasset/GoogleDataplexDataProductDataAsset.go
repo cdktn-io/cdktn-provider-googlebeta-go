@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_dataplex_data_product_data_asset google_dataplex_data_product_data_asset}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_dataplex_data_product_data_asset google_dataplex_data_product_data_asset}.
 type GoogleDataplexDataProductDataAsset interface {
 	cdktn.TerraformResource
 	AccessGroupConfigs() GoogleDataplexDataProductDataAssetAccessGroupConfigsList
@@ -64,6 +64,7 @@ type GoogleDataplexDataProductDataAsset interface {
 	Location() *string
 	SetLocation(val *string)
 	LocationInput() *string
+	Name() *string
 	// The tree node.
 	Node() constructs.Node
 	Project() *string
@@ -413,6 +414,16 @@ func (j *jsiiProxy_GoogleDataplexDataProductDataAsset) LocationInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_GoogleDataplexDataProductDataAsset) Name() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"name",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleDataplexDataProductDataAsset) Node() constructs.Node {
 	var returns constructs.Node
 	_jsii_.Get(
@@ -564,7 +575,7 @@ func (j *jsiiProxy_GoogleDataplexDataProductDataAsset) Uid() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_dataplex_data_product_data_asset google_dataplex_data_product_data_asset} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_dataplex_data_product_data_asset google_dataplex_data_product_data_asset} Resource.
 func NewGoogleDataplexDataProductDataAsset(scope constructs.Construct, id *string, config *GoogleDataplexDataProductDataAssetConfig) GoogleDataplexDataProductDataAsset {
 	_init_.Initialize()
 
@@ -582,7 +593,7 @@ func NewGoogleDataplexDataProductDataAsset(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_dataplex_data_product_data_asset google_dataplex_data_product_data_asset} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_dataplex_data_product_data_asset google_dataplex_data_product_data_asset} Resource.
 func NewGoogleDataplexDataProductDataAsset_Override(g GoogleDataplexDataProductDataAsset, scope constructs.Construct, id *string, config *GoogleDataplexDataProductDataAssetConfig) {
 	_init_.Initialize()
 

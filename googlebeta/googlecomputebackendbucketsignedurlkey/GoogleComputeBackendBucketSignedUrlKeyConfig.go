@@ -24,18 +24,18 @@ type GoogleComputeBackendBucketSignedUrlKeyConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The backend bucket this signed URL key belongs.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_backend_bucket_signed_url_key#backend_bucket GoogleComputeBackendBucketSignedUrlKey#backend_bucket}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_compute_backend_bucket_signed_url_key#backend_bucket GoogleComputeBackendBucketSignedUrlKey#backend_bucket}
 	BackendBucket *string `field:"required" json:"backendBucket" yaml:"backendBucket"`
 	// 128-bit key value used for signing the URL.
 	//
 	// The key value must be a
 	// valid RFC 4648 Section 5 base64url encoded string.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_backend_bucket_signed_url_key#key_value GoogleComputeBackendBucketSignedUrlKey#key_value}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_compute_backend_bucket_signed_url_key#key_value GoogleComputeBackendBucketSignedUrlKey#key_value}
 	KeyValue *string `field:"required" json:"keyValue" yaml:"keyValue"`
 	// Name of the signed URL key.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_backend_bucket_signed_url_key#name GoogleComputeBackendBucketSignedUrlKey#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_compute_backend_bucket_signed_url_key#name GoogleComputeBackendBucketSignedUrlKey#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// Whether Terraform will be prevented from destroying the instance.
 	//
@@ -47,18 +47,18 @@ type GoogleComputeBackendBucketSignedUrlKeyConfig struct {
 	// When set to "DELETE", deleting the resource is allowed.
 	//
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_backend_bucket_signed_url_key#deletion_policy GoogleComputeBackendBucketSignedUrlKey#deletion_policy}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_compute_backend_bucket_signed_url_key#deletion_policy GoogleComputeBackendBucketSignedUrlKey#deletion_policy}
 	DeletionPolicy *string `field:"optional" json:"deletionPolicy" yaml:"deletionPolicy"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_backend_bucket_signed_url_key#id GoogleComputeBackendBucketSignedUrlKey#id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_compute_backend_bucket_signed_url_key#id GoogleComputeBackendBucketSignedUrlKey#id}.
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
 	Id *string `field:"optional" json:"id" yaml:"id"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_backend_bucket_signed_url_key#project GoogleComputeBackendBucketSignedUrlKey#project}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_compute_backend_bucket_signed_url_key#project GoogleComputeBackendBucketSignedUrlKey#project}.
 	Project *string `field:"optional" json:"project" yaml:"project"`
 	// timeouts block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_compute_backend_bucket_signed_url_key#timeouts GoogleComputeBackendBucketSignedUrlKey#timeouts}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_compute_backend_bucket_signed_url_key#timeouts GoogleComputeBackendBucketSignedUrlKey#timeouts}
 	Timeouts *GoogleComputeBackendBucketSignedUrlKeyTimeouts `field:"optional" json:"timeouts" yaml:"timeouts"`
 }
 

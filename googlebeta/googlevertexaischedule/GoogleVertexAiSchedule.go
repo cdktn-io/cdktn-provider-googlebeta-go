@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_vertex_ai_schedule google_vertex_ai_schedule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_vertex_ai_schedule google_vertex_ai_schedule}.
 type GoogleVertexAiSchedule interface {
 	cdktn.TerraformResource
 	AllowQueueing() interface{}
@@ -762,7 +762,7 @@ func (j *jsiiProxy_GoogleVertexAiSchedule) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_vertex_ai_schedule google_vertex_ai_schedule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_vertex_ai_schedule google_vertex_ai_schedule} Resource.
 func NewGoogleVertexAiSchedule(scope constructs.Construct, id *string, config *GoogleVertexAiScheduleConfig) GoogleVertexAiSchedule {
 	_init_.Initialize()
 
@@ -780,7 +780,7 @@ func NewGoogleVertexAiSchedule(scope constructs.Construct, id *string, config *G
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_vertex_ai_schedule google_vertex_ai_schedule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_vertex_ai_schedule google_vertex_ai_schedule} Resource.
 func NewGoogleVertexAiSchedule_Override(g GoogleVertexAiSchedule, scope constructs.Construct, id *string, config *GoogleVertexAiScheduleConfig) {
 	_init_.Initialize()
 

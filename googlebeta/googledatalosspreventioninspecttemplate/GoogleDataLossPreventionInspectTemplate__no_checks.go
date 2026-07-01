@@ -99,6 +99,10 @@ func validateGoogleDataLossPreventionInspectTemplate_IsTerraformResourceParamete
 	return nil
 }
 
+func (j *jsiiProxy_GoogleDataLossPreventionInspectTemplate) validateSetAllowLimitedAvailabilityInfoTypesParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleDataLossPreventionInspectTemplate) validateSetConnectionParameters(val interface{}) error {
 	return nil
 }

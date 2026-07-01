@@ -84,6 +84,12 @@ type GoogleContainerClusterNodeConfigKubeletConfigOutputReference interface {
 	PodPidsLimit() *float64
 	SetPodPidsLimit(val *float64)
 	PodPidsLimitInput() *float64
+	ShutdownGracePeriodCriticalPodsSeconds() *float64
+	SetShutdownGracePeriodCriticalPodsSeconds(val *float64)
+	ShutdownGracePeriodCriticalPodsSecondsInput() *float64
+	ShutdownGracePeriodSeconds() *float64
+	SetShutdownGracePeriodSeconds(val *float64)
+	ShutdownGracePeriodSecondsInput() *float64
 	SingleProcessOomKill() interface{}
 	SetSingleProcessOomKill(val interface{})
 	SingleProcessOomKillInput() interface{}
@@ -146,6 +152,8 @@ type GoogleContainerClusterNodeConfigKubeletConfigOutputReference interface {
 	ResetMaxParallelImagePulls()
 	ResetMemoryManager()
 	ResetPodPidsLimit()
+	ResetShutdownGracePeriodCriticalPodsSeconds()
+	ResetShutdownGracePeriodSeconds()
 	ResetSingleProcessOomKill()
 	ResetTopologyManager()
 	// Produce the Token's value at resolution time.
@@ -593,6 +601,46 @@ func (j *jsiiProxy_GoogleContainerClusterNodeConfigKubeletConfigOutputReference)
 	return returns
 }
 
+func (j *jsiiProxy_GoogleContainerClusterNodeConfigKubeletConfigOutputReference) ShutdownGracePeriodCriticalPodsSeconds() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"shutdownGracePeriodCriticalPodsSeconds",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleContainerClusterNodeConfigKubeletConfigOutputReference) ShutdownGracePeriodCriticalPodsSecondsInput() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"shutdownGracePeriodCriticalPodsSecondsInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleContainerClusterNodeConfigKubeletConfigOutputReference) ShutdownGracePeriodSeconds() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"shutdownGracePeriodSeconds",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleContainerClusterNodeConfigKubeletConfigOutputReference) ShutdownGracePeriodSecondsInput() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"shutdownGracePeriodSecondsInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleContainerClusterNodeConfigKubeletConfigOutputReference) SingleProcessOomKill() interface{} {
 	var returns interface{}
 	_jsii_.Get(
@@ -864,6 +912,28 @@ func (j *jsiiProxy_GoogleContainerClusterNodeConfigKubeletConfigOutputReference)
 	_jsii_.Set(
 		j,
 		"podPidsLimit",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleContainerClusterNodeConfigKubeletConfigOutputReference)SetShutdownGracePeriodCriticalPodsSeconds(val *float64) {
+	if err := j.validateSetShutdownGracePeriodCriticalPodsSecondsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"shutdownGracePeriodCriticalPodsSeconds",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleContainerClusterNodeConfigKubeletConfigOutputReference)SetShutdownGracePeriodSeconds(val *float64) {
+	if err := j.validateSetShutdownGracePeriodSecondsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"shutdownGracePeriodSeconds",
 		val,
 	)
 }
@@ -1301,6 +1371,22 @@ func (g *jsiiProxy_GoogleContainerClusterNodeConfigKubeletConfigOutputReference)
 	_jsii_.InvokeVoid(
 		g,
 		"resetPodPidsLimit",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleContainerClusterNodeConfigKubeletConfigOutputReference) ResetShutdownGracePeriodCriticalPodsSeconds() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetShutdownGracePeriodCriticalPodsSeconds",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleContainerClusterNodeConfigKubeletConfigOutputReference) ResetShutdownGracePeriodSeconds() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetShutdownGracePeriodSeconds",
 		nil, // no parameters
 	)
 }

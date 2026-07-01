@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_discovery_engine_widget_config google_discovery_engine_widget_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_discovery_engine_widget_config google_discovery_engine_widget_config}.
 type GoogleDiscoveryEngineWidgetConfig interface {
 	cdktn.TerraformResource
 	AccessSettings() GoogleDiscoveryEngineWidgetConfigAccessSettingsOutputReference
@@ -579,7 +579,7 @@ func (j *jsiiProxy_GoogleDiscoveryEngineWidgetConfig) WidgetConfigIdInput() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_discovery_engine_widget_config google_discovery_engine_widget_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_discovery_engine_widget_config google_discovery_engine_widget_config} Resource.
 func NewGoogleDiscoveryEngineWidgetConfig(scope constructs.Construct, id *string, config *GoogleDiscoveryEngineWidgetConfigConfig) GoogleDiscoveryEngineWidgetConfig {
 	_init_.Initialize()
 
@@ -597,7 +597,7 @@ func NewGoogleDiscoveryEngineWidgetConfig(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_discovery_engine_widget_config google_discovery_engine_widget_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_discovery_engine_widget_config google_discovery_engine_widget_config} Resource.
 func NewGoogleDiscoveryEngineWidgetConfig_Override(g GoogleDiscoveryEngineWidgetConfig, scope constructs.Construct, id *string, config *GoogleDiscoveryEngineWidgetConfigConfig) {
 	_init_.Initialize()
 

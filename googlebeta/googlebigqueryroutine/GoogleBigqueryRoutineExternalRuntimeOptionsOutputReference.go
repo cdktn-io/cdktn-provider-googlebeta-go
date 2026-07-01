@@ -29,6 +29,9 @@ type GoogleBigqueryRoutineExternalRuntimeOptionsOutputReference interface {
 	ContainerMemory() *string
 	SetContainerMemory(val *string)
 	ContainerMemoryInput() *string
+	ContainerRequestConcurrency() *string
+	SetContainerRequestConcurrency(val *string)
+	ContainerRequestConcurrencyInput() *string
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -81,6 +84,7 @@ type GoogleBigqueryRoutineExternalRuntimeOptionsOutputReference interface {
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetContainerCpu()
 	ResetContainerMemory()
+	ResetContainerRequestConcurrency()
 	ResetMaxBatchingRows()
 	ResetRuntimeConnection()
 	ResetRuntimeVersion()
@@ -154,6 +158,26 @@ func (j *jsiiProxy_GoogleBigqueryRoutineExternalRuntimeOptionsOutputReference) C
 	_jsii_.Get(
 		j,
 		"containerMemoryInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleBigqueryRoutineExternalRuntimeOptionsOutputReference) ContainerRequestConcurrency() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"containerRequestConcurrency",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleBigqueryRoutineExternalRuntimeOptionsOutputReference) ContainerRequestConcurrencyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"containerRequestConcurrencyInput",
 		&returns,
 	)
 	return returns
@@ -337,6 +361,17 @@ func (j *jsiiProxy_GoogleBigqueryRoutineExternalRuntimeOptionsOutputReference)Se
 	_jsii_.Set(
 		j,
 		"containerMemory",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleBigqueryRoutineExternalRuntimeOptionsOutputReference)SetContainerRequestConcurrency(val *string) {
+	if err := j.validateSetContainerRequestConcurrencyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"containerRequestConcurrency",
 		val,
 	)
 }
@@ -605,6 +640,14 @@ func (g *jsiiProxy_GoogleBigqueryRoutineExternalRuntimeOptionsOutputReference) R
 	_jsii_.InvokeVoid(
 		g,
 		"resetContainerMemory",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleBigqueryRoutineExternalRuntimeOptionsOutputReference) ResetContainerRequestConcurrency() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetContainerRequestConcurrency",
 		nil, // no parameters
 	)
 }

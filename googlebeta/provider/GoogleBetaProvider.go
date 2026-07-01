@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs google-beta}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs google-beta}.
 type GoogleBetaProvider interface {
 	cdktn.TerraformProvider
 	AccessApprovalCustomEndpoint() *string
@@ -30,6 +30,9 @@ type GoogleBetaProvider interface {
 	AddTerraformAttributionLabel() interface{}
 	SetAddTerraformAttributionLabel(val interface{})
 	AddTerraformAttributionLabelInput() interface{}
+	AgentRegistryCustomEndpoint() *string
+	SetAgentRegistryCustomEndpoint(val *string)
+	AgentRegistryCustomEndpointInput() *string
 	Alias() *string
 	SetAlias(val *string)
 	AliasInput() *string
@@ -684,6 +687,7 @@ type GoogleBetaProvider interface {
 	ResetAccessToken()
 	ResetActiveDirectoryCustomEndpoint()
 	ResetAddTerraformAttributionLabel()
+	ResetAgentRegistryCustomEndpoint()
 	ResetAlias()
 	ResetAlloydbCustomEndpoint()
 	ResetApiGatewayCustomEndpoint()
@@ -1017,6 +1021,26 @@ func (j *jsiiProxy_GoogleBetaProvider) AddTerraformAttributionLabelInput() inter
 	_jsii_.Get(
 		j,
 		"addTerraformAttributionLabelInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleBetaProvider) AgentRegistryCustomEndpoint() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"agentRegistryCustomEndpoint",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleBetaProvider) AgentRegistryCustomEndpointInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"agentRegistryCustomEndpointInput",
 		&returns,
 	)
 	return returns
@@ -5283,7 +5307,7 @@ func (j *jsiiProxy_GoogleBetaProvider) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs google-beta} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs google-beta} Resource.
 func NewGoogleBetaProvider(scope constructs.Construct, id *string, config *GoogleBetaProviderConfig) GoogleBetaProvider {
 	_init_.Initialize()
 
@@ -5301,7 +5325,7 @@ func NewGoogleBetaProvider(scope constructs.Construct, id *string, config *Googl
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs google-beta} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs google-beta} Resource.
 func NewGoogleBetaProvider_Override(g GoogleBetaProvider, scope constructs.Construct, id *string, config *GoogleBetaProviderConfig) {
 	_init_.Initialize()
 
@@ -5351,6 +5375,14 @@ func (j *jsiiProxy_GoogleBetaProvider)SetAddTerraformAttributionLabel(val interf
 	_jsii_.Set(
 		j,
 		"addTerraformAttributionLabel",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleBetaProvider)SetAgentRegistryCustomEndpoint(val *string) {
+	_jsii_.Set(
+		j,
+		"agentRegistryCustomEndpoint",
 		val,
 	)
 }
@@ -7195,6 +7227,14 @@ func (g *jsiiProxy_GoogleBetaProvider) ResetAddTerraformAttributionLabel() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetAddTerraformAttributionLabel",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleBetaProvider) ResetAgentRegistryCustomEndpoint() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetAgentRegistryCustomEndpoint",
 		nil, // no parameters
 	)
 }

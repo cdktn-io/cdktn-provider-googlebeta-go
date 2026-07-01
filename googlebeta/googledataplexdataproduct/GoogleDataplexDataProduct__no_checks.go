@@ -127,6 +127,10 @@ func (j *jsiiProxy_GoogleDataplexDataProduct) validateSetDisplayNameParameters(v
 	return nil
 }
 
+func (j *jsiiProxy_GoogleDataplexDataProduct) validateSetIconParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleDataplexDataProduct) validateSetIdParameters(val *string) error {
 	return nil
 }

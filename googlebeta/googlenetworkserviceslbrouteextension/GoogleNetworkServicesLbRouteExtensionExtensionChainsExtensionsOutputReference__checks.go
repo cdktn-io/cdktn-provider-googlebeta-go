@@ -194,6 +194,14 @@ func (j *jsiiProxy_GoogleNetworkServicesLbRouteExtensionExtensionChainsExtension
 	return nil
 }
 
+func (j *jsiiProxy_GoogleNetworkServicesLbRouteExtensionExtensionChainsExtensionsOutputReference) validateSetForwardAttributesParameters(val *[]*string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_GoogleNetworkServicesLbRouteExtensionExtensionChainsExtensionsOutputReference) validateSetForwardHeadersParameters(val *[]*string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

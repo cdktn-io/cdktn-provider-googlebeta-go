@@ -5,11 +5,11 @@ package googlechroniclecustomlist
 
 
 type GoogleChronicleCustomListTimeouts struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_chronicle_custom_list#create GoogleChronicleCustomList#create}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_chronicle_custom_list#create GoogleChronicleCustomList#create}.
 	Create *string `field:"optional" json:"create" yaml:"create"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_chronicle_custom_list#delete GoogleChronicleCustomList#delete}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_chronicle_custom_list#delete GoogleChronicleCustomList#delete}.
 	Delete *string `field:"optional" json:"delete" yaml:"delete"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_chronicle_custom_list#update GoogleChronicleCustomList#update}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_chronicle_custom_list#update GoogleChronicleCustomList#update}.
 	Update *string `field:"optional" json:"update" yaml:"update"`
 }
 

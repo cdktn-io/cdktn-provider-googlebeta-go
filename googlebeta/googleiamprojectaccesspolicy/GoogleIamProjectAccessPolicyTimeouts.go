@@ -5,11 +5,11 @@ package googleiamprojectaccesspolicy
 
 
 type GoogleIamProjectAccessPolicyTimeouts struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_project_access_policy#create GoogleIamProjectAccessPolicy#create}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_iam_project_access_policy#create GoogleIamProjectAccessPolicy#create}.
 	Create *string `field:"optional" json:"create" yaml:"create"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_project_access_policy#delete GoogleIamProjectAccessPolicy#delete}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_iam_project_access_policy#delete GoogleIamProjectAccessPolicy#delete}.
 	Delete *string `field:"optional" json:"delete" yaml:"delete"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_iam_project_access_policy#update GoogleIamProjectAccessPolicy#update}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_iam_project_access_policy#update GoogleIamProjectAccessPolicy#update}.
 	Update *string `field:"optional" json:"update" yaml:"update"`
 }
 

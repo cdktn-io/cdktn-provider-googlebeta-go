@@ -7,15 +7,15 @@ package googleoracledatabasegoldengateconnection
 type GoogleOracleDatabaseGoldengateConnectionPropertiesIcebergConnectionProperties struct {
 	// catalog block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_oracle_database_goldengate_connection#catalog GoogleOracleDatabaseGoldengateConnection#catalog}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_oracle_database_goldengate_connection#catalog GoogleOracleDatabaseGoldengateConnection#catalog}
 	Catalog *GoogleOracleDatabaseGoldengateConnectionPropertiesIcebergConnectionPropertiesCatalog `field:"required" json:"catalog" yaml:"catalog"`
 	// storage block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_oracle_database_goldengate_connection#storage GoogleOracleDatabaseGoldengateConnection#storage}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_oracle_database_goldengate_connection#storage GoogleOracleDatabaseGoldengateConnection#storage}
 	Storage *GoogleOracleDatabaseGoldengateConnectionPropertiesIcebergConnectionPropertiesStorage `field:"required" json:"storage" yaml:"storage"`
 	// The technology type of Iceberg connection.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_oracle_database_goldengate_connection#technology_type GoogleOracleDatabaseGoldengateConnection#technology_type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_oracle_database_goldengate_connection#technology_type GoogleOracleDatabaseGoldengateConnection#technology_type}
 	TechnologyType *string `field:"required" json:"technologyType" yaml:"technologyType"`
 }
 

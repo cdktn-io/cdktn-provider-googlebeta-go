@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_network_services_multicast_group_consumer_activation google_network_services_multicast_group_consumer_activation}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_network_services_multicast_group_consumer_activation google_network_services_multicast_group_consumer_activation}.
 type GoogleNetworkServicesMulticastGroupConsumerActivation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -632,7 +632,7 @@ func (j *jsiiProxy_GoogleNetworkServicesMulticastGroupConsumerActivation) Update
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_network_services_multicast_group_consumer_activation google_network_services_multicast_group_consumer_activation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_network_services_multicast_group_consumer_activation google_network_services_multicast_group_consumer_activation} Resource.
 func NewGoogleNetworkServicesMulticastGroupConsumerActivation(scope constructs.Construct, id *string, config *GoogleNetworkServicesMulticastGroupConsumerActivationConfig) GoogleNetworkServicesMulticastGroupConsumerActivation {
 	_init_.Initialize()
 
@@ -650,7 +650,7 @@ func NewGoogleNetworkServicesMulticastGroupConsumerActivation(scope constructs.C
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_network_services_multicast_group_consumer_activation google_network_services_multicast_group_consumer_activation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_network_services_multicast_group_consumer_activation google_network_services_multicast_group_consumer_activation} Resource.
 func NewGoogleNetworkServicesMulticastGroupConsumerActivation_Override(g GoogleNetworkServicesMulticastGroupConsumerActivation, scope constructs.Construct, id *string, config *GoogleNetworkServicesMulticastGroupConsumerActivationConfig) {
 	_init_.Initialize()
 

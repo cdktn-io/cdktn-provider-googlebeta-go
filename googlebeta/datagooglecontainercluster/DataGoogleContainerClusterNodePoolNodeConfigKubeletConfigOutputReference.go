@@ -51,6 +51,8 @@ type DataGoogleContainerClusterNodePoolNodeConfigKubeletConfigOutputReference in
 	MaxParallelImagePulls() *float64
 	MemoryManager() DataGoogleContainerClusterNodePoolNodeConfigKubeletConfigMemoryManagerList
 	PodPidsLimit() *float64
+	ShutdownGracePeriodCriticalPodsSeconds() *float64
+	ShutdownGracePeriodSeconds() *float64
 	SingleProcessOomKill() cdktn.IResolvable
 	// Experimental.
 	TerraformAttribute() *string
@@ -335,6 +337,26 @@ func (j *jsiiProxy_DataGoogleContainerClusterNodePoolNodeConfigKubeletConfigOutp
 	_jsii_.Get(
 		j,
 		"podPidsLimit",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleContainerClusterNodePoolNodeConfigKubeletConfigOutputReference) ShutdownGracePeriodCriticalPodsSeconds() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"shutdownGracePeriodCriticalPodsSeconds",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleContainerClusterNodePoolNodeConfigKubeletConfigOutputReference) ShutdownGracePeriodSeconds() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"shutdownGracePeriodSeconds",
 		&returns,
 	)
 	return returns

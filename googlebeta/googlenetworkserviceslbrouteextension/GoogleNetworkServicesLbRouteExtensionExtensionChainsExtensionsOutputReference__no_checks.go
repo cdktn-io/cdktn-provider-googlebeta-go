@@ -67,6 +67,10 @@ func (j *jsiiProxy_GoogleNetworkServicesLbRouteExtensionExtensionChainsExtension
 	return nil
 }
 
+func (j *jsiiProxy_GoogleNetworkServicesLbRouteExtensionExtensionChainsExtensionsOutputReference) validateSetForwardAttributesParameters(val *[]*string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleNetworkServicesLbRouteExtensionExtensionChainsExtensionsOutputReference) validateSetForwardHeadersParameters(val *[]*string) error {
 	return nil
 }

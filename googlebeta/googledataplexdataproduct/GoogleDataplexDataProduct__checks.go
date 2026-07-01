@@ -422,6 +422,14 @@ func (j *jsiiProxy_GoogleDataplexDataProduct) validateSetDisplayNameParameters(v
 	return nil
 }
 
+func (j *jsiiProxy_GoogleDataplexDataProduct) validateSetIconParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_GoogleDataplexDataProduct) validateSetIdParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

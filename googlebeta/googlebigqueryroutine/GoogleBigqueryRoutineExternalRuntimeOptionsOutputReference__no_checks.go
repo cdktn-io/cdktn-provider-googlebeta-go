@@ -67,6 +67,10 @@ func (j *jsiiProxy_GoogleBigqueryRoutineExternalRuntimeOptionsOutputReference) v
 	return nil
 }
 
+func (j *jsiiProxy_GoogleBigqueryRoutineExternalRuntimeOptionsOutputReference) validateSetContainerRequestConcurrencyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleBigqueryRoutineExternalRuntimeOptionsOutputReference) validateSetInternalValueParameters(val *GoogleBigqueryRoutineExternalRuntimeOptions) error {
 	return nil
 }

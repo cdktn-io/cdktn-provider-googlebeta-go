@@ -7,7 +7,7 @@ package googlemigrationcenterassetsexportjob
 type GoogleMigrationCenterAssetsExportJobCondition struct {
 	// Assets filter, supports the same syntax as asset listing.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.38.0/docs/resources/google_migration_center_assets_export_job#filter GoogleMigrationCenterAssetsExportJob#filter}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_migration_center_assets_export_job#filter GoogleMigrationCenterAssetsExportJob#filter}
 	Filter *string `field:"optional" json:"filter" yaml:"filter"`
 }
 

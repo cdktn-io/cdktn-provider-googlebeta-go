@@ -1,0 +1,77 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package datagooglestoragecontrolorganizationintelligencefindingssummary
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (d *jsiiProxy_DataGoogleStorageControlOrganizationIntelligenceFindingsSummaryFindingSummariesSummaryDetailsOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataGoogleStorageControlOrganizationIntelligenceFindingsSummaryFindingSummariesSummaryDetailsOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataGoogleStorageControlOrganizationIntelligenceFindingsSummaryFindingSummariesSummaryDetailsOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataGoogleStorageControlOrganizationIntelligenceFindingsSummaryFindingSummariesSummaryDetailsOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataGoogleStorageControlOrganizationIntelligenceFindingsSummaryFindingSummariesSummaryDetailsOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataGoogleStorageControlOrganizationIntelligenceFindingsSummaryFindingSummariesSummaryDetailsOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataGoogleStorageControlOrganizationIntelligenceFindingsSummaryFindingSummariesSummaryDetailsOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataGoogleStorageControlOrganizationIntelligenceFindingsSummaryFindingSummariesSummaryDetailsOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataGoogleStorageControlOrganizationIntelligenceFindingsSummaryFindingSummariesSummaryDetailsOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataGoogleStorageControlOrganizationIntelligenceFindingsSummaryFindingSummariesSummaryDetailsOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataGoogleStorageControlOrganizationIntelligenceFindingsSummaryFindingSummariesSummaryDetailsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataGoogleStorageControlOrganizationIntelligenceFindingsSummaryFindingSummariesSummaryDetailsOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataGoogleStorageControlOrganizationIntelligenceFindingsSummaryFindingSummariesSummaryDetailsOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataGoogleStorageControlOrganizationIntelligenceFindingsSummaryFindingSummariesSummaryDetailsOutputReference) validateSetInternalValueParameters(val *DataGoogleStorageControlOrganizationIntelligenceFindingsSummaryFindingSummariesSummaryDetails) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataGoogleStorageControlOrganizationIntelligenceFindingsSummaryFindingSummariesSummaryDetailsOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataGoogleStorageControlOrganizationIntelligenceFindingsSummaryFindingSummariesSummaryDetailsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewDataGoogleStorageControlOrganizationIntelligenceFindingsSummaryFindingSummariesSummaryDetailsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+
