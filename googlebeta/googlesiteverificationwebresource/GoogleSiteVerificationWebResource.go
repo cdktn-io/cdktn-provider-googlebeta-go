@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_site_verification_web_resource google_site_verification_web_resource}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_site_verification_web_resource google_site_verification_web_resource}.
 type GoogleSiteVerificationWebResource interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -435,7 +435,7 @@ func (j *jsiiProxy_GoogleSiteVerificationWebResource) WebResourceId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_site_verification_web_resource google_site_verification_web_resource} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_site_verification_web_resource google_site_verification_web_resource} Resource.
 func NewGoogleSiteVerificationWebResource(scope constructs.Construct, id *string, config *GoogleSiteVerificationWebResourceConfig) GoogleSiteVerificationWebResource {
 	_init_.Initialize()
 
@@ -453,7 +453,7 @@ func NewGoogleSiteVerificationWebResource(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_site_verification_web_resource google_site_verification_web_resource} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_site_verification_web_resource google_site_verification_web_resource} Resource.
 func NewGoogleSiteVerificationWebResource_Override(g GoogleSiteVerificationWebResource, scope constructs.Construct, id *string, config *GoogleSiteVerificationWebResourceConfig) {
 	_init_.Initialize()
 

@@ -47,6 +47,10 @@ func (g *jsiiProxy_GoogleVertexAiReasoningEngineSpecSourceCodeSpecOutputReferenc
 	return nil
 }
 
+func (g *jsiiProxy_GoogleVertexAiReasoningEngineSpecSourceCodeSpecOutputReference) validatePutAgentConfigSourceParameters(value *GoogleVertexAiReasoningEngineSpecSourceCodeSpecAgentConfigSource) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleVertexAiReasoningEngineSpecSourceCodeSpecOutputReference) validatePutDeveloperConnectSourceParameters(value *GoogleVertexAiReasoningEngineSpecSourceCodeSpecDeveloperConnectSource) error {
 	return nil
 }

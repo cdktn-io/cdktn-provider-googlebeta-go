@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_compute_region_instance_template google_compute_region_instance_template}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_compute_region_instance_template google_compute_region_instance_template}.
 type GoogleComputeRegionInstanceTemplate interface {
 	cdktn.TerraformResource
 	AdvancedMachineFeatures() GoogleComputeRegionInstanceTemplateAdvancedMachineFeaturesOutputReference
@@ -150,6 +150,8 @@ type GoogleComputeRegionInstanceTemplate interface {
 	TerraformResourceType() *string
 	Timeouts() GoogleComputeRegionInstanceTemplateTimeoutsOutputReference
 	TimeoutsInput() interface{}
+	WorkloadIdentityConfig() GoogleComputeRegionInstanceTemplateWorkloadIdentityConfigOutputReference
+	WorkloadIdentityConfigInput() *GoogleComputeRegionInstanceTemplateWorkloadIdentityConfig
 	// Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
 	// Experimental.
 	AddMoveTarget(moveTarget *string)
@@ -204,6 +206,7 @@ type GoogleComputeRegionInstanceTemplate interface {
 	PutServiceAccount(value *GoogleComputeRegionInstanceTemplateServiceAccount)
 	PutShieldedInstanceConfig(value *GoogleComputeRegionInstanceTemplateShieldedInstanceConfig)
 	PutTimeouts(value *GoogleComputeRegionInstanceTemplateTimeouts)
+	PutWorkloadIdentityConfig(value *GoogleComputeRegionInstanceTemplateWorkloadIdentityConfig)
 	ResetAdvancedMachineFeatures()
 	ResetCanIpForward()
 	ResetConfidentialInstanceConfig()
@@ -236,6 +239,7 @@ type GoogleComputeRegionInstanceTemplate interface {
 	ResetShieldedInstanceConfig()
 	ResetTags()
 	ResetTimeouts()
+	ResetWorkloadIdentityConfig()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
 	// Experimental.
@@ -1113,8 +1117,28 @@ func (j *jsiiProxy_GoogleComputeRegionInstanceTemplate) TimeoutsInput() interfac
 	return returns
 }
 
+func (j *jsiiProxy_GoogleComputeRegionInstanceTemplate) WorkloadIdentityConfig() GoogleComputeRegionInstanceTemplateWorkloadIdentityConfigOutputReference {
+	var returns GoogleComputeRegionInstanceTemplateWorkloadIdentityConfigOutputReference
+	_jsii_.Get(
+		j,
+		"workloadIdentityConfig",
+		&returns,
+	)
+	return returns
+}
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_compute_region_instance_template google_compute_region_instance_template} Resource.
+func (j *jsiiProxy_GoogleComputeRegionInstanceTemplate) WorkloadIdentityConfigInput() *GoogleComputeRegionInstanceTemplateWorkloadIdentityConfig {
+	var returns *GoogleComputeRegionInstanceTemplateWorkloadIdentityConfig
+	_jsii_.Get(
+		j,
+		"workloadIdentityConfigInput",
+		&returns,
+	)
+	return returns
+}
+
+
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_compute_region_instance_template google_compute_region_instance_template} Resource.
 func NewGoogleComputeRegionInstanceTemplate(scope constructs.Construct, id *string, config *GoogleComputeRegionInstanceTemplateConfig) GoogleComputeRegionInstanceTemplate {
 	_init_.Initialize()
 
@@ -1132,7 +1156,7 @@ func NewGoogleComputeRegionInstanceTemplate(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_compute_region_instance_template google_compute_region_instance_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_compute_region_instance_template google_compute_region_instance_template} Resource.
 func NewGoogleComputeRegionInstanceTemplate_Override(g GoogleComputeRegionInstanceTemplate, scope constructs.Construct, id *string, config *GoogleComputeRegionInstanceTemplateConfig) {
 	_init_.Initialize()
 
@@ -1905,6 +1929,17 @@ func (g *jsiiProxy_GoogleComputeRegionInstanceTemplate) PutTimeouts(value *Googl
 	)
 }
 
+func (g *jsiiProxy_GoogleComputeRegionInstanceTemplate) PutWorkloadIdentityConfig(value *GoogleComputeRegionInstanceTemplateWorkloadIdentityConfig) {
+	if err := g.validatePutWorkloadIdentityConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putWorkloadIdentityConfig",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleComputeRegionInstanceTemplate) ResetAdvancedMachineFeatures() {
 	_jsii_.InvokeVoid(
 		g,
@@ -2141,6 +2176,14 @@ func (g *jsiiProxy_GoogleComputeRegionInstanceTemplate) ResetTimeouts() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetTimeouts",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleComputeRegionInstanceTemplate) ResetWorkloadIdentityConfig() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetWorkloadIdentityConfig",
 		nil, // no parameters
 	)
 }

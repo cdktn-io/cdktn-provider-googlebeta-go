@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleContainerClusterMaintenancePolicyOutputReference) valid
 	return nil
 }
 
+func (g *jsiiProxy_GoogleContainerClusterMaintenancePolicyOutputReference) validatePutRecurringMaintenanceWindowParameters(value *GoogleContainerClusterMaintenancePolicyRecurringMaintenanceWindow) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleContainerClusterMaintenancePolicyOutputReference) validatePutRecurringWindowParameters(value *GoogleContainerClusterMaintenancePolicyRecurringWindow) error {
 	return nil
 }

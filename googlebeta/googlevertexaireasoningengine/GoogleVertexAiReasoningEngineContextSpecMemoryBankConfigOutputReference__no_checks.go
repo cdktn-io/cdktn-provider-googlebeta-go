@@ -47,11 +47,19 @@ func (g *jsiiProxy_GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigOutpu
 	return nil
 }
 
+func (g *jsiiProxy_GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigOutputReference) validatePutCustomizationConfigsParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigOutputReference) validatePutGenerationConfigParameters(value *GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigGenerationConfig) error {
 	return nil
 }
 
 func (g *jsiiProxy_GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigOutputReference) validatePutSimilaritySearchConfigParameters(value *GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigSimilaritySearchConfig) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigOutputReference) validatePutStructuredMemoryConfigsParameters(value interface{}) error {
 	return nil
 }
 

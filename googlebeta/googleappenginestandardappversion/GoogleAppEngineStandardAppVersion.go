@@ -12,12 +12,15 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_app_engine_standard_app_version google_app_engine_standard_app_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_app_engine_standard_app_version google_app_engine_standard_app_version}.
 type GoogleAppEngineStandardAppVersion interface {
 	cdktn.TerraformResource
 	AppEngineApis() interface{}
 	SetAppEngineApis(val interface{})
 	AppEngineApisInput() interface{}
+	AppEngineBundledServices() *[]*string
+	SetAppEngineBundledServices(val *[]*string)
+	AppEngineBundledServicesInput() *[]*string
 	AutomaticScaling() GoogleAppEngineStandardAppVersionAutomaticScalingOutputReference
 	AutomaticScalingInput() *GoogleAppEngineStandardAppVersionAutomaticScaling
 	BasicScaling() GoogleAppEngineStandardAppVersionBasicScalingOutputReference
@@ -178,6 +181,7 @@ type GoogleAppEngineStandardAppVersion interface {
 	PutTimeouts(value *GoogleAppEngineStandardAppVersionTimeouts)
 	PutVpcAccessConnector(value *GoogleAppEngineStandardAppVersionVpcAccessConnector)
 	ResetAppEngineApis()
+	ResetAppEngineBundledServices()
 	ResetAutomaticScaling()
 	ResetBasicScaling()
 	ResetDeleteServiceOnDestroy()
@@ -242,6 +246,26 @@ func (j *jsiiProxy_GoogleAppEngineStandardAppVersion) AppEngineApisInput() inter
 	_jsii_.Get(
 		j,
 		"appEngineApisInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleAppEngineStandardAppVersion) AppEngineBundledServices() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"appEngineBundledServices",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleAppEngineStandardAppVersion) AppEngineBundledServicesInput() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"appEngineBundledServicesInput",
 		&returns,
 	)
 	return returns
@@ -878,7 +902,7 @@ func (j *jsiiProxy_GoogleAppEngineStandardAppVersion) VpcAccessConnectorInput() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_app_engine_standard_app_version google_app_engine_standard_app_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_app_engine_standard_app_version google_app_engine_standard_app_version} Resource.
 func NewGoogleAppEngineStandardAppVersion(scope constructs.Construct, id *string, config *GoogleAppEngineStandardAppVersionConfig) GoogleAppEngineStandardAppVersion {
 	_init_.Initialize()
 
@@ -896,7 +920,7 @@ func NewGoogleAppEngineStandardAppVersion(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_app_engine_standard_app_version google_app_engine_standard_app_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_app_engine_standard_app_version google_app_engine_standard_app_version} Resource.
 func NewGoogleAppEngineStandardAppVersion_Override(g GoogleAppEngineStandardAppVersion, scope constructs.Construct, id *string, config *GoogleAppEngineStandardAppVersionConfig) {
 	_init_.Initialize()
 
@@ -914,6 +938,17 @@ func (j *jsiiProxy_GoogleAppEngineStandardAppVersion)SetAppEngineApis(val interf
 	_jsii_.Set(
 		j,
 		"appEngineApis",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleAppEngineStandardAppVersion)SetAppEngineBundledServices(val *[]*string) {
+	if err := j.validateSetAppEngineBundledServicesParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"appEngineBundledServices",
 		val,
 	)
 }
@@ -1596,6 +1631,14 @@ func (g *jsiiProxy_GoogleAppEngineStandardAppVersion) ResetAppEngineApis() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetAppEngineApis",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleAppEngineStandardAppVersion) ResetAppEngineBundledServices() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetAppEngineBundledServices",
 		nil, // no parameters
 	)
 }

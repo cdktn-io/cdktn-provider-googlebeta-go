@@ -36,6 +36,7 @@ type DataGoogleContainerClusterNodePoolOutputReference interface {
 	InstanceGroupUrls() *[]*string
 	InternalValue() *DataGoogleContainerClusterNodePool
 	SetInternalValue(val *DataGoogleContainerClusterNodePool)
+	MaintenancePolicy() DataGoogleContainerClusterNodePoolMaintenancePolicyList
 	ManagedInstanceGroupUrls() *[]*string
 	Management() DataGoogleContainerClusterNodePoolManagementList
 	MaxPodsPerNode() *float64
@@ -182,6 +183,16 @@ func (j *jsiiProxy_DataGoogleContainerClusterNodePoolOutputReference) InternalVa
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleContainerClusterNodePoolOutputReference) MaintenancePolicy() DataGoogleContainerClusterNodePoolMaintenancePolicyList {
+	var returns DataGoogleContainerClusterNodePoolMaintenancePolicyList
+	_jsii_.Get(
+		j,
+		"maintenancePolicy",
 		&returns,
 	)
 	return returns

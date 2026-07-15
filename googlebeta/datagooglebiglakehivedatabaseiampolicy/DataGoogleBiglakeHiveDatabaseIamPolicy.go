@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/data-sources/google_biglake_hive_database_iam_policy google_biglake_hive_database_iam_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/data-sources/google_biglake_hive_database_iam_policy google_biglake_hive_database_iam_policy}.
 type DataGoogleBiglakeHiveDatabaseIamPolicy interface {
 	cdktn.TerraformDataSource
 	Catalog() *string
@@ -366,7 +366,7 @@ func (j *jsiiProxy_DataGoogleBiglakeHiveDatabaseIamPolicy) TerraformResourceType
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/data-sources/google_biglake_hive_database_iam_policy google_biglake_hive_database_iam_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/data-sources/google_biglake_hive_database_iam_policy google_biglake_hive_database_iam_policy} Data Source.
 func NewDataGoogleBiglakeHiveDatabaseIamPolicy(scope constructs.Construct, id *string, config *DataGoogleBiglakeHiveDatabaseIamPolicyConfig) DataGoogleBiglakeHiveDatabaseIamPolicy {
 	_init_.Initialize()
 
@@ -384,7 +384,7 @@ func NewDataGoogleBiglakeHiveDatabaseIamPolicy(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/data-sources/google_biglake_hive_database_iam_policy google_biglake_hive_database_iam_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/data-sources/google_biglake_hive_database_iam_policy google_biglake_hive_database_iam_policy} Data Source.
 func NewDataGoogleBiglakeHiveDatabaseIamPolicy_Override(d DataGoogleBiglakeHiveDatabaseIamPolicy, scope constructs.Construct, id *string, config *DataGoogleBiglakeHiveDatabaseIamPolicyConfig) {
 	_init_.Initialize()
 

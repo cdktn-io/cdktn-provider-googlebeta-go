@@ -13,9 +13,14 @@ import (
 
 type GoogleVertexAiReasoningEngineSpecOutputReference interface {
 	cdktn.ComplexObject
+	AgentCard() *string
+	SetAgentCard(val *string)
+	AgentCardInput() *string
 	AgentFramework() *string
 	SetAgentFramework(val *string)
 	AgentFrameworkInput() *string
+	BuildSpec() GoogleVertexAiReasoningEngineSpecBuildSpecOutputReference
+	BuildSpecInput() *GoogleVertexAiReasoningEngineSpecBuildSpec
 	ClassMethods() *string
 	SetClassMethods(val *string)
 	ClassMethodsInput() *string
@@ -39,6 +44,9 @@ type GoogleVertexAiReasoningEngineSpecOutputReference interface {
 	DeploymentSpec() GoogleVertexAiReasoningEngineSpecDeploymentSpecOutputReference
 	DeploymentSpecInput() *GoogleVertexAiReasoningEngineSpecDeploymentSpec
 	EffectiveIdentity() *string
+	ExampleStore() *string
+	SetExampleStore(val *string)
+	ExampleStoreInput() *string
 	// Experimental.
 	Fqn() *string
 	IdentityType() *string
@@ -85,14 +93,18 @@ type GoogleVertexAiReasoningEngineSpecOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutBuildSpec(value *GoogleVertexAiReasoningEngineSpecBuildSpec)
 	PutContainerSpec(value *GoogleVertexAiReasoningEngineSpecContainerSpec)
 	PutDeploymentSpec(value *GoogleVertexAiReasoningEngineSpecDeploymentSpec)
 	PutPackageSpec(value *GoogleVertexAiReasoningEngineSpecPackageSpec)
 	PutSourceCodeSpec(value *GoogleVertexAiReasoningEngineSpecSourceCodeSpec)
+	ResetAgentCard()
 	ResetAgentFramework()
+	ResetBuildSpec()
 	ResetClassMethods()
 	ResetContainerSpec()
 	ResetDeploymentSpec()
+	ResetExampleStore()
 	ResetIdentityType()
 	ResetPackageSpec()
 	ResetServiceAccount()
@@ -112,6 +124,26 @@ type jsiiProxy_GoogleVertexAiReasoningEngineSpecOutputReference struct {
 	internal.Type__cdktnComplexObject
 }
 
+func (j *jsiiProxy_GoogleVertexAiReasoningEngineSpecOutputReference) AgentCard() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"agentCard",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleVertexAiReasoningEngineSpecOutputReference) AgentCardInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"agentCardInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleVertexAiReasoningEngineSpecOutputReference) AgentFramework() *string {
 	var returns *string
 	_jsii_.Get(
@@ -127,6 +159,26 @@ func (j *jsiiProxy_GoogleVertexAiReasoningEngineSpecOutputReference) AgentFramew
 	_jsii_.Get(
 		j,
 		"agentFrameworkInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleVertexAiReasoningEngineSpecOutputReference) BuildSpec() GoogleVertexAiReasoningEngineSpecBuildSpecOutputReference {
+	var returns GoogleVertexAiReasoningEngineSpecBuildSpecOutputReference
+	_jsii_.Get(
+		j,
+		"buildSpec",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleVertexAiReasoningEngineSpecOutputReference) BuildSpecInput() *GoogleVertexAiReasoningEngineSpecBuildSpec {
+	var returns *GoogleVertexAiReasoningEngineSpecBuildSpec
+	_jsii_.Get(
+		j,
+		"buildSpecInput",
 		&returns,
 	)
 	return returns
@@ -227,6 +279,26 @@ func (j *jsiiProxy_GoogleVertexAiReasoningEngineSpecOutputReference) EffectiveId
 	_jsii_.Get(
 		j,
 		"effectiveIdentity",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleVertexAiReasoningEngineSpecOutputReference) ExampleStore() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"exampleStore",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleVertexAiReasoningEngineSpecOutputReference) ExampleStoreInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"exampleStoreInput",
 		&returns,
 	)
 	return returns
@@ -380,6 +452,17 @@ func NewGoogleVertexAiReasoningEngineSpecOutputReference_Override(g GoogleVertex
 	)
 }
 
+func (j *jsiiProxy_GoogleVertexAiReasoningEngineSpecOutputReference)SetAgentCard(val *string) {
+	if err := j.validateSetAgentCardParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"agentCard",
+		val,
+	)
+}
+
 func (j *jsiiProxy_GoogleVertexAiReasoningEngineSpecOutputReference)SetAgentFramework(val *string) {
 	if err := j.validateSetAgentFrameworkParameters(val); err != nil {
 		panic(err)
@@ -420,6 +503,17 @@ func (j *jsiiProxy_GoogleVertexAiReasoningEngineSpecOutputReference)SetComplexOb
 	_jsii_.Set(
 		j,
 		"complexObjectIsFromSet",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleVertexAiReasoningEngineSpecOutputReference)SetExampleStore(val *string) {
+	if err := j.validateSetExampleStoreParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"exampleStore",
 		val,
 	)
 }
@@ -665,6 +759,17 @@ func (g *jsiiProxy_GoogleVertexAiReasoningEngineSpecOutputReference) Interpolati
 	return returns
 }
 
+func (g *jsiiProxy_GoogleVertexAiReasoningEngineSpecOutputReference) PutBuildSpec(value *GoogleVertexAiReasoningEngineSpecBuildSpec) {
+	if err := g.validatePutBuildSpecParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putBuildSpec",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleVertexAiReasoningEngineSpecOutputReference) PutContainerSpec(value *GoogleVertexAiReasoningEngineSpecContainerSpec) {
 	if err := g.validatePutContainerSpecParameters(value); err != nil {
 		panic(err)
@@ -709,10 +814,26 @@ func (g *jsiiProxy_GoogleVertexAiReasoningEngineSpecOutputReference) PutSourceCo
 	)
 }
 
+func (g *jsiiProxy_GoogleVertexAiReasoningEngineSpecOutputReference) ResetAgentCard() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetAgentCard",
+		nil, // no parameters
+	)
+}
+
 func (g *jsiiProxy_GoogleVertexAiReasoningEngineSpecOutputReference) ResetAgentFramework() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetAgentFramework",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleVertexAiReasoningEngineSpecOutputReference) ResetBuildSpec() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetBuildSpec",
 		nil, // no parameters
 	)
 }
@@ -737,6 +858,14 @@ func (g *jsiiProxy_GoogleVertexAiReasoningEngineSpecOutputReference) ResetDeploy
 	_jsii_.InvokeVoid(
 		g,
 		"resetDeploymentSpec",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleVertexAiReasoningEngineSpecOutputReference) ResetExampleStore() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetExampleStore",
 		nil, // no parameters
 	)
 }

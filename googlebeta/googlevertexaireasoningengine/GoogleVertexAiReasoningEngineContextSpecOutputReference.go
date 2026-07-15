@@ -28,6 +28,8 @@ type GoogleVertexAiReasoningEngineContextSpecOutputReference interface {
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
+	ExampleStoreConfig() GoogleVertexAiReasoningEngineContextSpecExampleStoreConfigOutputReference
+	ExampleStoreConfigInput() *GoogleVertexAiReasoningEngineContextSpecExampleStoreConfig
 	// Experimental.
 	Fqn() *string
 	InternalValue() *GoogleVertexAiReasoningEngineContextSpec
@@ -66,7 +68,9 @@ type GoogleVertexAiReasoningEngineContextSpecOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutExampleStoreConfig(value *GoogleVertexAiReasoningEngineContextSpecExampleStoreConfig)
 	PutMemoryBankConfig(value *GoogleVertexAiReasoningEngineContextSpecMemoryBankConfig)
+	ResetExampleStoreConfig()
 	ResetMemoryBankConfig()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -108,6 +112,26 @@ func (j *jsiiProxy_GoogleVertexAiReasoningEngineContextSpecOutputReference) Crea
 	_jsii_.Get(
 		j,
 		"creationStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleVertexAiReasoningEngineContextSpecOutputReference) ExampleStoreConfig() GoogleVertexAiReasoningEngineContextSpecExampleStoreConfigOutputReference {
+	var returns GoogleVertexAiReasoningEngineContextSpecExampleStoreConfigOutputReference
+	_jsii_.Get(
+		j,
+		"exampleStoreConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleVertexAiReasoningEngineContextSpecOutputReference) ExampleStoreConfigInput() *GoogleVertexAiReasoningEngineContextSpecExampleStoreConfig {
+	var returns *GoogleVertexAiReasoningEngineContextSpecExampleStoreConfig
+	_jsii_.Get(
+		j,
+		"exampleStoreConfigInput",
 		&returns,
 	)
 	return returns
@@ -442,6 +466,17 @@ func (g *jsiiProxy_GoogleVertexAiReasoningEngineContextSpecOutputReference) Inte
 	return returns
 }
 
+func (g *jsiiProxy_GoogleVertexAiReasoningEngineContextSpecOutputReference) PutExampleStoreConfig(value *GoogleVertexAiReasoningEngineContextSpecExampleStoreConfig) {
+	if err := g.validatePutExampleStoreConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putExampleStoreConfig",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleVertexAiReasoningEngineContextSpecOutputReference) PutMemoryBankConfig(value *GoogleVertexAiReasoningEngineContextSpecMemoryBankConfig) {
 	if err := g.validatePutMemoryBankConfigParameters(value); err != nil {
 		panic(err)
@@ -450,6 +485,14 @@ func (g *jsiiProxy_GoogleVertexAiReasoningEngineContextSpecOutputReference) PutM
 		g,
 		"putMemoryBankConfig",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleVertexAiReasoningEngineContextSpecOutputReference) ResetExampleStoreConfig() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetExampleStoreConfig",
+		nil, // no parameters
 	)
 }
 

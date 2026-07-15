@@ -47,6 +47,10 @@ func (g *jsiiProxy_GoogleVertexAiReasoningEngineSpecOutputReference) validateInt
 	return nil
 }
 
+func (g *jsiiProxy_GoogleVertexAiReasoningEngineSpecOutputReference) validatePutBuildSpecParameters(value *GoogleVertexAiReasoningEngineSpecBuildSpec) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleVertexAiReasoningEngineSpecOutputReference) validatePutContainerSpecParameters(value *GoogleVertexAiReasoningEngineSpecContainerSpec) error {
 	return nil
 }
@@ -67,6 +71,10 @@ func (g *jsiiProxy_GoogleVertexAiReasoningEngineSpecOutputReference) validateRes
 	return nil
 }
 
+func (j *jsiiProxy_GoogleVertexAiReasoningEngineSpecOutputReference) validateSetAgentCardParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleVertexAiReasoningEngineSpecOutputReference) validateSetAgentFrameworkParameters(val *string) error {
 	return nil
 }
@@ -80,6 +88,10 @@ func (j *jsiiProxy_GoogleVertexAiReasoningEngineSpecOutputReference) validateSet
 }
 
 func (j *jsiiProxy_GoogleVertexAiReasoningEngineSpecOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleVertexAiReasoningEngineSpecOutputReference) validateSetExampleStoreParameters(val *string) error {
 	return nil
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_monitoring_monitored_project google_monitoring_monitored_project}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_monitoring_monitored_project google_monitoring_monitored_project}.
 type GoogleMonitoringMonitoredProject interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -424,7 +424,7 @@ func (j *jsiiProxy_GoogleMonitoringMonitoredProject) TimeoutsInput() interface{}
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_monitoring_monitored_project google_monitoring_monitored_project} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_monitoring_monitored_project google_monitoring_monitored_project} Resource.
 func NewGoogleMonitoringMonitoredProject(scope constructs.Construct, id *string, config *GoogleMonitoringMonitoredProjectConfig) GoogleMonitoringMonitoredProject {
 	_init_.Initialize()
 
@@ -442,7 +442,7 @@ func NewGoogleMonitoringMonitoredProject(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_monitoring_monitored_project google_monitoring_monitored_project} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_monitoring_monitored_project google_monitoring_monitored_project} Resource.
 func NewGoogleMonitoringMonitoredProject_Override(g GoogleMonitoringMonitoredProject, scope constructs.Construct, id *string, config *GoogleMonitoringMonitoredProjectConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_logging_saved_query google_logging_saved_query}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_logging_saved_query google_logging_saved_query}.
 type GoogleLoggingSavedQuery interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -576,7 +576,7 @@ func (j *jsiiProxy_GoogleLoggingSavedQuery) VisibilityInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_logging_saved_query google_logging_saved_query} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_logging_saved_query google_logging_saved_query} Resource.
 func NewGoogleLoggingSavedQuery(scope constructs.Construct, id *string, config *GoogleLoggingSavedQueryConfig) GoogleLoggingSavedQuery {
 	_init_.Initialize()
 
@@ -594,7 +594,7 @@ func NewGoogleLoggingSavedQuery(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_logging_saved_query google_logging_saved_query} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_logging_saved_query google_logging_saved_query} Resource.
 func NewGoogleLoggingSavedQuery_Override(g GoogleLoggingSavedQuery, scope constructs.Construct, id *string, config *GoogleLoggingSavedQueryConfig) {
 	_init_.Initialize()
 

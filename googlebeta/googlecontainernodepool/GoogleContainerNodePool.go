@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool google_container_node_pool}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool google_container_node_pool}.
 type GoogleContainerNodePool interface {
 	cdktn.TerraformResource
 	Autoscaling() GoogleContainerNodePoolAutoscalingOutputReference
@@ -64,6 +64,8 @@ type GoogleContainerNodePool interface {
 	Location() *string
 	SetLocation(val *string)
 	LocationInput() *string
+	MaintenancePolicy() GoogleContainerNodePoolMaintenancePolicyList
+	MaintenancePolicyInput() interface{}
 	ManagedInstanceGroupUrls() *[]*string
 	Management() GoogleContainerNodePoolManagementOutputReference
 	ManagementInput() *GoogleContainerNodePoolManagement
@@ -165,6 +167,7 @@ type GoogleContainerNodePool interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutAutoscaling(value *GoogleContainerNodePoolAutoscaling)
+	PutMaintenancePolicy(value interface{})
 	PutManagement(value *GoogleContainerNodePoolManagement)
 	PutNetworkConfig(value *GoogleContainerNodePoolNetworkConfig)
 	PutNodeConfig(value *GoogleContainerNodePoolNodeConfig)
@@ -179,6 +182,7 @@ type GoogleContainerNodePool interface {
 	ResetIgnoreNodeCountChanges()
 	ResetInitialNodeCount()
 	ResetLocation()
+	ResetMaintenancePolicy()
 	ResetManagement()
 	ResetMaxPodsPerNode()
 	ResetName()
@@ -459,6 +463,26 @@ func (j *jsiiProxy_GoogleContainerNodePool) LocationInput() *string {
 	_jsii_.Get(
 		j,
 		"locationInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleContainerNodePool) MaintenancePolicy() GoogleContainerNodePoolMaintenancePolicyList {
+	var returns GoogleContainerNodePoolMaintenancePolicyList
+	_jsii_.Get(
+		j,
+		"maintenancePolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleContainerNodePool) MaintenancePolicyInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"maintenancePolicyInput",
 		&returns,
 	)
 	return returns
@@ -855,7 +879,7 @@ func (j *jsiiProxy_GoogleContainerNodePool) VersionInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool google_container_node_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool google_container_node_pool} Resource.
 func NewGoogleContainerNodePool(scope constructs.Construct, id *string, config *GoogleContainerNodePoolConfig) GoogleContainerNodePool {
 	_init_.Initialize()
 
@@ -873,7 +897,7 @@ func NewGoogleContainerNodePool(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_container_node_pool google_container_node_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_container_node_pool google_container_node_pool} Resource.
 func NewGoogleContainerNodePool_Override(g GoogleContainerNodePool, scope constructs.Construct, id *string, config *GoogleContainerNodePoolConfig) {
 	_init_.Initialize()
 
@@ -1459,6 +1483,17 @@ func (g *jsiiProxy_GoogleContainerNodePool) PutAutoscaling(value *GoogleContaine
 	)
 }
 
+func (g *jsiiProxy_GoogleContainerNodePool) PutMaintenancePolicy(value interface{}) {
+	if err := g.validatePutMaintenancePolicyParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putMaintenancePolicy",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleContainerNodePool) PutManagement(value *GoogleContainerNodePoolManagement) {
 	if err := g.validatePutManagementParameters(value); err != nil {
 		panic(err)
@@ -1591,6 +1626,14 @@ func (g *jsiiProxy_GoogleContainerNodePool) ResetLocation() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetLocation",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleContainerNodePool) ResetMaintenancePolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetMaintenancePolicy",
 		nil, // no parameters
 	)
 }

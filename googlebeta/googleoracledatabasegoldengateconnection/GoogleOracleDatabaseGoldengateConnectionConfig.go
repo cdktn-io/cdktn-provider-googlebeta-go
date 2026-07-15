@@ -29,15 +29,15 @@ type GoogleOracleDatabaseGoldengateConnectionConfig struct {
 	// 63 characters in length. The value must start with a letter and end with a
 	// letter or a number.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_oracle_database_goldengate_connection#goldengate_connection_id GoogleOracleDatabaseGoldengateConnection#goldengate_connection_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_oracle_database_goldengate_connection#goldengate_connection_id GoogleOracleDatabaseGoldengateConnection#goldengate_connection_id}
 	GoldengateConnectionId *string `field:"required" json:"goldengateConnectionId" yaml:"goldengateConnectionId"`
 	// Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_oracle_database_goldengate_connection#location GoogleOracleDatabaseGoldengateConnection#location}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_oracle_database_goldengate_connection#location GoogleOracleDatabaseGoldengateConnection#location}
 	Location *string `field:"required" json:"location" yaml:"location"`
 	// properties block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_oracle_database_goldengate_connection#properties GoogleOracleDatabaseGoldengateConnection#properties}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_oracle_database_goldengate_connection#properties GoogleOracleDatabaseGoldengateConnection#properties}
 	Properties *GoogleOracleDatabaseGoldengateConnectionProperties `field:"required" json:"properties" yaml:"properties"`
 	// Whether Terraform will be prevented from destroying the instance.
 	//
@@ -49,22 +49,22 @@ type GoogleOracleDatabaseGoldengateConnectionConfig struct {
 	// When set to "DELETE", deleting the resource is allowed.
 	//
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_oracle_database_goldengate_connection#deletion_policy GoogleOracleDatabaseGoldengateConnection#deletion_policy}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_oracle_database_goldengate_connection#deletion_policy GoogleOracleDatabaseGoldengateConnection#deletion_policy}
 	DeletionPolicy *string `field:"optional" json:"deletionPolicy" yaml:"deletionPolicy"`
 	// Whether or not to allow Terraform to destroy the instance.
 	//
 	// Unless this field is set to false in Terraform state, a terraform destroy or terraform apply that would delete the instance will fail.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_oracle_database_goldengate_connection#deletion_protection GoogleOracleDatabaseGoldengateConnection#deletion_protection}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_oracle_database_goldengate_connection#deletion_protection GoogleOracleDatabaseGoldengateConnection#deletion_protection}
 	DeletionProtection interface{} `field:"optional" json:"deletionProtection" yaml:"deletionProtection"`
 	// The GCP Oracle zone where Oracle GoldengateConnection is hosted.
 	//
 	// Example: us-east4-b-r2.
 	// If not specified, the system will pick a zone based on availability.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_oracle_database_goldengate_connection#gcp_oracle_zone GoogleOracleDatabaseGoldengateConnection#gcp_oracle_zone}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_oracle_database_goldengate_connection#gcp_oracle_zone GoogleOracleDatabaseGoldengateConnection#gcp_oracle_zone}
 	GcpOracleZone *string `field:"optional" json:"gcpOracleZone" yaml:"gcpOracleZone"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_oracle_database_goldengate_connection#id GoogleOracleDatabaseGoldengateConnection#id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_oracle_database_goldengate_connection#id GoogleOracleDatabaseGoldengateConnection#id}.
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -74,7 +74,7 @@ type GoogleOracleDatabaseGoldengateConnectionConfig struct {
 	// **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 	// Please refer to the field 'effective_labels' for all of the labels present on the resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_oracle_database_goldengate_connection#labels GoogleOracleDatabaseGoldengateConnection#labels}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_oracle_database_goldengate_connection#labels GoogleOracleDatabaseGoldengateConnection#labels}
 	Labels *map[string]*string `field:"optional" json:"labels" yaml:"labels"`
 	// The name of the OdbNetwork associated with the GoldengateConnection.
 	//
@@ -83,17 +83,17 @@ type GoogleOracleDatabaseGoldengateConnectionConfig struct {
 	// It is optional but if specified, this should match the parent ODBNetwork
 	// of the OdbSubnet.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_oracle_database_goldengate_connection#odb_network GoogleOracleDatabaseGoldengateConnection#odb_network}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_oracle_database_goldengate_connection#odb_network GoogleOracleDatabaseGoldengateConnection#odb_network}
 	OdbNetwork *string `field:"optional" json:"odbNetwork" yaml:"odbNetwork"`
 	// The name of the OdbSubnet associated with the GoldengateConnection for IP allocation. Format: projects/{project}/locations/{location}/odbNetworks/{odb_network}/odbSubnets/{odb_subnet}.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_oracle_database_goldengate_connection#odb_subnet GoogleOracleDatabaseGoldengateConnection#odb_subnet}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_oracle_database_goldengate_connection#odb_subnet GoogleOracleDatabaseGoldengateConnection#odb_subnet}
 	OdbSubnet *string `field:"optional" json:"odbSubnet" yaml:"odbSubnet"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_oracle_database_goldengate_connection#project GoogleOracleDatabaseGoldengateConnection#project}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_oracle_database_goldengate_connection#project GoogleOracleDatabaseGoldengateConnection#project}.
 	Project *string `field:"optional" json:"project" yaml:"project"`
 	// timeouts block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_oracle_database_goldengate_connection#timeouts GoogleOracleDatabaseGoldengateConnection#timeouts}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_oracle_database_goldengate_connection#timeouts GoogleOracleDatabaseGoldengateConnection#timeouts}
 	Timeouts *GoogleOracleDatabaseGoldengateConnectionTimeouts `field:"optional" json:"timeouts" yaml:"timeouts"`
 }
 

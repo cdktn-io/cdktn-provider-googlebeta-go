@@ -75,6 +75,10 @@ func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsIpConfigurationPscConfigOutp
 	return nil
 }
 
+func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsIpConfigurationPscConfigOutputReference) validateSetPscAutoConnectionPolicyEnabledParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsIpConfigurationPscConfigOutputReference) validateSetPscAutoDnsEnabledParameters(val interface{}) error {
 	return nil
 }

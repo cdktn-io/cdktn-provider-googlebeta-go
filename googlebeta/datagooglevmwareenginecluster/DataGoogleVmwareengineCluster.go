@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/data-sources/google_vmwareengine_cluster google_vmwareengine_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/data-sources/google_vmwareengine_cluster google_vmwareengine_cluster}.
 type DataGoogleVmwareengineCluster interface {
 	cdktn.TerraformDataSource
 	AutoscalingSettings() DataGoogleVmwareengineClusterAutoscalingSettingsList
@@ -419,7 +419,7 @@ func (j *jsiiProxy_DataGoogleVmwareengineCluster) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/data-sources/google_vmwareengine_cluster google_vmwareengine_cluster} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/data-sources/google_vmwareengine_cluster google_vmwareengine_cluster} Data Source.
 func NewDataGoogleVmwareengineCluster(scope constructs.Construct, id *string, config *DataGoogleVmwareengineClusterConfig) DataGoogleVmwareengineCluster {
 	_init_.Initialize()
 
@@ -437,7 +437,7 @@ func NewDataGoogleVmwareengineCluster(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/data-sources/google_vmwareengine_cluster google_vmwareengine_cluster} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/data-sources/google_vmwareengine_cluster google_vmwareengine_cluster} Data Source.
 func NewDataGoogleVmwareengineCluster_Override(d DataGoogleVmwareengineCluster, scope constructs.Construct, id *string, config *DataGoogleVmwareengineClusterConfig) {
 	_init_.Initialize()
 

@@ -5,9 +5,13 @@ package googlevertexaireasoningengine
 
 
 type GoogleVertexAiReasoningEngineContextSpec struct {
+	// example_store_config block.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#example_store_config GoogleVertexAiReasoningEngine#example_store_config}
+	ExampleStoreConfig *GoogleVertexAiReasoningEngineContextSpecExampleStoreConfig `field:"optional" json:"exampleStoreConfig" yaml:"exampleStoreConfig"`
 	// memory_bank_config block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_vertex_ai_reasoning_engine#memory_bank_config GoogleVertexAiReasoningEngine#memory_bank_config}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine#memory_bank_config GoogleVertexAiReasoningEngine#memory_bank_config}
 	MemoryBankConfig *GoogleVertexAiReasoningEngineContextSpecMemoryBankConfig `field:"optional" json:"memoryBankConfig" yaml:"memoryBankConfig"`
 }
 

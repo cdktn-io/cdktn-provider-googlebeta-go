@@ -41,6 +41,8 @@ type GoogleContainerClusterNodePoolOutputReference interface {
 	InstanceGroupUrls() *[]*string
 	InternalValue() interface{}
 	SetInternalValue(val interface{})
+	MaintenancePolicy() GoogleContainerClusterNodePoolMaintenancePolicyList
+	MaintenancePolicyInput() interface{}
 	ManagedInstanceGroupUrls() *[]*string
 	Management() GoogleContainerClusterNodePoolManagementOutputReference
 	ManagementInput() *GoogleContainerClusterNodePoolManagement
@@ -107,6 +109,7 @@ type GoogleContainerClusterNodePoolOutputReference interface {
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutAutoscaling(value *GoogleContainerClusterNodePoolAutoscaling)
+	PutMaintenancePolicy(value interface{})
 	PutManagement(value *GoogleContainerClusterNodePoolManagement)
 	PutNetworkConfig(value *GoogleContainerClusterNodePoolNetworkConfig)
 	PutNodeConfig(value *GoogleContainerClusterNodePoolNodeConfig)
@@ -117,6 +120,7 @@ type GoogleContainerClusterNodePoolOutputReference interface {
 	ResetAutoscaling()
 	ResetIgnoreNodeCountChanges()
 	ResetInitialNodeCount()
+	ResetMaintenancePolicy()
 	ResetManagement()
 	ResetMaxPodsPerNode()
 	ResetName()
@@ -260,6 +264,26 @@ func (j *jsiiProxy_GoogleContainerClusterNodePoolOutputReference) InternalValue(
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleContainerClusterNodePoolOutputReference) MaintenancePolicy() GoogleContainerClusterNodePoolMaintenancePolicyList {
+	var returns GoogleContainerClusterNodePoolMaintenancePolicyList
+	_jsii_.Get(
+		j,
+		"maintenancePolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleContainerClusterNodePoolOutputReference) MaintenancePolicyInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"maintenancePolicyInput",
 		&returns,
 	)
 	return returns
@@ -923,6 +947,17 @@ func (g *jsiiProxy_GoogleContainerClusterNodePoolOutputReference) PutAutoscaling
 	)
 }
 
+func (g *jsiiProxy_GoogleContainerClusterNodePoolOutputReference) PutMaintenancePolicy(value interface{}) {
+	if err := g.validatePutMaintenancePolicyParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putMaintenancePolicy",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleContainerClusterNodePoolOutputReference) PutManagement(value *GoogleContainerClusterNodePoolManagement) {
 	if err := g.validatePutManagementParameters(value); err != nil {
 		panic(err)
@@ -1020,6 +1055,14 @@ func (g *jsiiProxy_GoogleContainerClusterNodePoolOutputReference) ResetInitialNo
 	_jsii_.InvokeVoid(
 		g,
 		"resetInitialNodeCount",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleContainerClusterNodePoolOutputReference) ResetMaintenancePolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetMaintenancePolicy",
 		nil, // no parameters
 	)
 }

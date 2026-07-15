@@ -38,6 +38,7 @@ type DataGoogleSqlDatabaseInstancesInstancesOutputReference interface {
 	DnsName() *string
 	DnsNames() DataGoogleSqlDatabaseInstancesInstancesDnsNamesList
 	EncryptionKeyName() *string
+	EnforceNewSqlNetworkArchitecture() cdktn.IResolvable
 	FinalBackupDescription() *string
 	FirstIpAddress() *string
 	// Experimental.
@@ -239,6 +240,16 @@ func (j *jsiiProxy_DataGoogleSqlDatabaseInstancesInstancesOutputReference) Encry
 	_jsii_.Get(
 		j,
 		"encryptionKeyName",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleSqlDatabaseInstancesInstancesOutputReference) EnforceNewSqlNetworkArchitecture() cdktn.IResolvable {
+	var returns cdktn.IResolvable
+	_jsii_.Get(
+		j,
+		"enforceNewSqlNetworkArchitecture",
 		&returns,
 	)
 	return returns

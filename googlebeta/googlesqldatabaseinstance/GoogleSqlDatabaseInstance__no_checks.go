@@ -147,6 +147,10 @@ func (j *jsiiProxy_GoogleSqlDatabaseInstance) validateSetEncryptionKeyNameParame
 	return nil
 }
 
+func (j *jsiiProxy_GoogleSqlDatabaseInstance) validateSetEnforceNewSqlNetworkArchitectureParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleSqlDatabaseInstance) validateSetFinalBackupDescriptionParameters(val *string) error {
 	return nil
 }

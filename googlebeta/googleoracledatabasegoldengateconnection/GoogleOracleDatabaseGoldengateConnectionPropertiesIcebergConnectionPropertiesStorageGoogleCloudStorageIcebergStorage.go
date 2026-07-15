@@ -7,15 +7,15 @@ package googleoracledatabasegoldengateconnection
 type GoogleOracleDatabaseGoldengateConnectionPropertiesIcebergConnectionPropertiesStorageGoogleCloudStorageIcebergStorage struct {
 	// The bucket of Google Cloud Storage.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_oracle_database_goldengate_connection#bucket GoogleOracleDatabaseGoldengateConnection#bucket}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_oracle_database_goldengate_connection#bucket GoogleOracleDatabaseGoldengateConnection#bucket}
 	Bucket *string `field:"required" json:"bucket" yaml:"bucket"`
 	// The project ID of Google Cloud Storage.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_oracle_database_goldengate_connection#project_id GoogleOracleDatabaseGoldengateConnection#project_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_oracle_database_goldengate_connection#project_id GoogleOracleDatabaseGoldengateConnection#project_id}
 	ProjectId *string `field:"required" json:"projectId" yaml:"projectId"`
 	// The service account key file of Google Cloud Storage.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_oracle_database_goldengate_connection#service_account_key_file GoogleOracleDatabaseGoldengateConnection#service_account_key_file}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_oracle_database_goldengate_connection#service_account_key_file GoogleOracleDatabaseGoldengateConnection#service_account_key_file}
 	ServiceAccountKeyFile *string `field:"optional" json:"serviceAccountKeyFile" yaml:"serviceAccountKeyFile"`
 }
 

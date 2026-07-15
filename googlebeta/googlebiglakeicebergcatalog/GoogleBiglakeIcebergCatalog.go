@@ -12,10 +12,11 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_biglake_iceberg_catalog google_biglake_iceberg_catalog}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_biglake_iceberg_catalog google_biglake_iceberg_catalog}.
 type GoogleBiglakeIcebergCatalog interface {
 	cdktn.TerraformResource
 	BiglakeServiceAccount() *string
+	BiglakeServiceAccountId() *string
 	CatalogType() *string
 	SetCatalogType(val *string)
 	CatalogTypeInput() *string
@@ -45,6 +46,11 @@ type GoogleBiglakeIcebergCatalog interface {
 	DependsOn() *[]*string
 	// Experimental.
 	SetDependsOn(val *[]*string)
+	Description() *string
+	SetDescription(val *string)
+	DescriptionInput() *string
+	FederatedCatalogOptions() GoogleBiglakeIcebergCatalogFederatedCatalogOptionsOutputReference
+	FederatedCatalogOptionsInput() *GoogleBiglakeIcebergCatalogFederatedCatalogOptions
 	// Experimental.
 	ForEach() cdktn.ITerraformIterator
 	// Experimental.
@@ -137,11 +143,14 @@ type GoogleBiglakeIcebergCatalog interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	PutFederatedCatalogOptions(value *GoogleBiglakeIcebergCatalogFederatedCatalogOptions)
 	PutRestrictedLocationsConfig(value *GoogleBiglakeIcebergCatalogRestrictedLocationsConfig)
 	PutTimeouts(value *GoogleBiglakeIcebergCatalogTimeouts)
 	ResetCredentialMode()
 	ResetDefaultLocation()
 	ResetDeletionPolicy()
+	ResetDescription()
+	ResetFederatedCatalogOptions()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -182,6 +191,16 @@ func (j *jsiiProxy_GoogleBiglakeIcebergCatalog) BiglakeServiceAccount() *string 
 	_jsii_.Get(
 		j,
 		"biglakeServiceAccount",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleBiglakeIcebergCatalog) BiglakeServiceAccountId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"biglakeServiceAccountId",
 		&returns,
 	)
 	return returns
@@ -322,6 +341,46 @@ func (j *jsiiProxy_GoogleBiglakeIcebergCatalog) DependsOn() *[]*string {
 	_jsii_.Get(
 		j,
 		"dependsOn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleBiglakeIcebergCatalog) Description() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"description",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleBiglakeIcebergCatalog) DescriptionInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"descriptionInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleBiglakeIcebergCatalog) FederatedCatalogOptions() GoogleBiglakeIcebergCatalogFederatedCatalogOptionsOutputReference {
+	var returns GoogleBiglakeIcebergCatalogFederatedCatalogOptionsOutputReference
+	_jsii_.Get(
+		j,
+		"federatedCatalogOptions",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleBiglakeIcebergCatalog) FederatedCatalogOptionsInput() *GoogleBiglakeIcebergCatalogFederatedCatalogOptions {
+	var returns *GoogleBiglakeIcebergCatalogFederatedCatalogOptions
+	_jsii_.Get(
+		j,
+		"federatedCatalogOptionsInput",
 		&returns,
 	)
 	return returns
@@ -588,7 +647,7 @@ func (j *jsiiProxy_GoogleBiglakeIcebergCatalog) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_biglake_iceberg_catalog google_biglake_iceberg_catalog} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_biglake_iceberg_catalog google_biglake_iceberg_catalog} Resource.
 func NewGoogleBiglakeIcebergCatalog(scope constructs.Construct, id *string, config *GoogleBiglakeIcebergCatalogConfig) GoogleBiglakeIcebergCatalog {
 	_init_.Initialize()
 
@@ -606,7 +665,7 @@ func NewGoogleBiglakeIcebergCatalog(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_biglake_iceberg_catalog google_biglake_iceberg_catalog} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_biglake_iceberg_catalog google_biglake_iceberg_catalog} Resource.
 func NewGoogleBiglakeIcebergCatalog_Override(g GoogleBiglakeIcebergCatalog, scope constructs.Construct, id *string, config *GoogleBiglakeIcebergCatalogConfig) {
 	_init_.Initialize()
 
@@ -687,6 +746,17 @@ func (j *jsiiProxy_GoogleBiglakeIcebergCatalog)SetDependsOn(val *[]*string) {
 	_jsii_.Set(
 		j,
 		"dependsOn",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleBiglakeIcebergCatalog)SetDescription(val *string) {
+	if err := j.validateSetDescriptionParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"description",
 		val,
 	)
 }
@@ -1126,6 +1196,17 @@ func (g *jsiiProxy_GoogleBiglakeIcebergCatalog) OverrideLogicalId(newLogicalId *
 	)
 }
 
+func (g *jsiiProxy_GoogleBiglakeIcebergCatalog) PutFederatedCatalogOptions(value *GoogleBiglakeIcebergCatalogFederatedCatalogOptions) {
+	if err := g.validatePutFederatedCatalogOptionsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putFederatedCatalogOptions",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleBiglakeIcebergCatalog) PutRestrictedLocationsConfig(value *GoogleBiglakeIcebergCatalogRestrictedLocationsConfig) {
 	if err := g.validatePutRestrictedLocationsConfigParameters(value); err != nil {
 		panic(err)
@@ -1168,6 +1249,22 @@ func (g *jsiiProxy_GoogleBiglakeIcebergCatalog) ResetDeletionPolicy() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetDeletionPolicy",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleBiglakeIcebergCatalog) ResetDescription() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDescription",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleBiglakeIcebergCatalog) ResetFederatedCatalogOptions() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetFederatedCatalogOptions",
 		nil, // no parameters
 	)
 }

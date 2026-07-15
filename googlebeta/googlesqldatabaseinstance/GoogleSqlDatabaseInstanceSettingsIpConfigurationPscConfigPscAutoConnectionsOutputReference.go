@@ -40,6 +40,8 @@ type GoogleSqlDatabaseInstanceSettingsIpConfigurationPscConfigPscAutoConnections
 	InternalValue() interface{}
 	SetInternalValue(val interface{})
 	IpAddress() *string
+	ServiceConnectionPolicy() *string
+	ServiceConnectionPolicyCreationResult() *string
 	Status() *string
 	// Experimental.
 	TerraformAttribute() *string
@@ -194,6 +196,26 @@ func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsIpConfigurationPscConfigPscA
 	_jsii_.Get(
 		j,
 		"ipAddress",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsIpConfigurationPscConfigPscAutoConnectionsOutputReference) ServiceConnectionPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"serviceConnectionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsIpConfigurationPscConfigPscAutoConnectionsOutputReference) ServiceConnectionPolicyCreationResult() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"serviceConnectionPolicyCreationResult",
 		&returns,
 	)
 	return returns

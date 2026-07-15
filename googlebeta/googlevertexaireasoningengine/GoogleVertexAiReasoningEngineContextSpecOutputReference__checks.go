@@ -93,6 +93,17 @@ func (g *jsiiProxy_GoogleVertexAiReasoningEngineContextSpecOutputReference) vali
 	return nil
 }
 
+func (g *jsiiProxy_GoogleVertexAiReasoningEngineContextSpecOutputReference) validatePutExampleStoreConfigParameters(value *GoogleVertexAiReasoningEngineContextSpecExampleStoreConfig) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
+	}
+
+	return nil
+}
+
 func (g *jsiiProxy_GoogleVertexAiReasoningEngineContextSpecOutputReference) validatePutMemoryBankConfigParameters(value *GoogleVertexAiReasoningEngineContextSpecMemoryBankConfig) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")

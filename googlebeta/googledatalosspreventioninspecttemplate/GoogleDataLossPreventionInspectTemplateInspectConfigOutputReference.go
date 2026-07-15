@@ -50,6 +50,8 @@ type GoogleDataLossPreventionInspectTemplateInspectConfigOutputReference interfa
 	MinLikelihood() *string
 	SetMinLikelihood(val *string)
 	MinLikelihoodInput() *string
+	MinLikelihoodPerInfoType() GoogleDataLossPreventionInspectTemplateInspectConfigMinLikelihoodPerInfoTypeList
+	MinLikelihoodPerInfoTypeInput() interface{}
 	RuleSet() GoogleDataLossPreventionInspectTemplateInspectConfigRuleSetList
 	RuleSetInput() interface{}
 	// Experimental.
@@ -87,6 +89,7 @@ type GoogleDataLossPreventionInspectTemplateInspectConfigOutputReference interfa
 	PutCustomInfoTypes(value interface{})
 	PutInfoTypes(value interface{})
 	PutLimits(value *GoogleDataLossPreventionInspectTemplateInspectConfigLimits)
+	PutMinLikelihoodPerInfoType(value interface{})
 	PutRuleSet(value interface{})
 	ResetContentOptions()
 	ResetCustomInfoTypes()
@@ -95,6 +98,7 @@ type GoogleDataLossPreventionInspectTemplateInspectConfigOutputReference interfa
 	ResetInfoTypes()
 	ResetLimits()
 	ResetMinLikelihood()
+	ResetMinLikelihoodPerInfoType()
 	ResetRuleSet()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -296,6 +300,26 @@ func (j *jsiiProxy_GoogleDataLossPreventionInspectTemplateInspectConfigOutputRef
 	_jsii_.Get(
 		j,
 		"minLikelihoodInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDataLossPreventionInspectTemplateInspectConfigOutputReference) MinLikelihoodPerInfoType() GoogleDataLossPreventionInspectTemplateInspectConfigMinLikelihoodPerInfoTypeList {
+	var returns GoogleDataLossPreventionInspectTemplateInspectConfigMinLikelihoodPerInfoTypeList
+	_jsii_.Get(
+		j,
+		"minLikelihoodPerInfoType",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDataLossPreventionInspectTemplateInspectConfigOutputReference) MinLikelihoodPerInfoTypeInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"minLikelihoodPerInfoTypeInput",
 		&returns,
 	)
 	return returns
@@ -687,6 +711,17 @@ func (g *jsiiProxy_GoogleDataLossPreventionInspectTemplateInspectConfigOutputRef
 	)
 }
 
+func (g *jsiiProxy_GoogleDataLossPreventionInspectTemplateInspectConfigOutputReference) PutMinLikelihoodPerInfoType(value interface{}) {
+	if err := g.validatePutMinLikelihoodPerInfoTypeParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putMinLikelihoodPerInfoType",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleDataLossPreventionInspectTemplateInspectConfigOutputReference) PutRuleSet(value interface{}) {
 	if err := g.validatePutRuleSetParameters(value); err != nil {
 		panic(err)
@@ -750,6 +785,14 @@ func (g *jsiiProxy_GoogleDataLossPreventionInspectTemplateInspectConfigOutputRef
 	_jsii_.InvokeVoid(
 		g,
 		"resetMinLikelihood",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleDataLossPreventionInspectTemplateInspectConfigOutputReference) ResetMinLikelihoodPerInfoType() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetMinLikelihoodPerInfoType",
 		nil, // no parameters
 	)
 }

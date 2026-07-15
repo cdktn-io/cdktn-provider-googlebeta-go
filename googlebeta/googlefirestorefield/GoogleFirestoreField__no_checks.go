@@ -143,6 +143,10 @@ func (j *jsiiProxy_GoogleFirestoreField) validateSetProvisionersParameters(val *
 	return nil
 }
 
+func (j *jsiiProxy_GoogleFirestoreField) validateSetSkipWaitParameters(val interface{}) error {
+	return nil
+}
+
 func validateNewGoogleFirestoreFieldParameters(scope constructs.Construct, id *string, config *GoogleFirestoreFieldConfig) error {
 	return nil
 }

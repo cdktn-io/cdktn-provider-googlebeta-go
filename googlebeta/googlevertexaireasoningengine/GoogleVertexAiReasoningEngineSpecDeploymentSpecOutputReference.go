@@ -13,6 +13,11 @@ import (
 
 type GoogleVertexAiReasoningEngineSpecDeploymentSpecOutputReference interface {
 	cdktn.ComplexObject
+	AgentGatewayConfig() GoogleVertexAiReasoningEngineSpecDeploymentSpecAgentGatewayConfigOutputReference
+	AgentGatewayConfigInput() *GoogleVertexAiReasoningEngineSpecDeploymentSpecAgentGatewayConfig
+	AgentServerMode() *string
+	SetAgentServerMode(val *string)
+	AgentServerModeInput() *string
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -31,12 +36,17 @@ type GoogleVertexAiReasoningEngineSpecDeploymentSpecOutputReference interface {
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
+	DedicatedIngressEndpointEnabled() interface{}
+	SetDedicatedIngressEndpointEnabled(val interface{})
+	DedicatedIngressEndpointEnabledInput() interface{}
 	Env() GoogleVertexAiReasoningEngineSpecDeploymentSpecEnvList
 	EnvInput() interface{}
 	// Experimental.
 	Fqn() *string
 	InternalValue() *GoogleVertexAiReasoningEngineSpecDeploymentSpec
 	SetInternalValue(val *GoogleVertexAiReasoningEngineSpecDeploymentSpec)
+	KeepAliveProbe() GoogleVertexAiReasoningEngineSpecDeploymentSpecKeepAliveProbeOutputReference
+	KeepAliveProbeInput() *GoogleVertexAiReasoningEngineSpecDeploymentSpecKeepAliveProbe
 	MaxInstances() *float64
 	SetMaxInstances(val *float64)
 	MaxInstancesInput() *float64
@@ -82,11 +92,17 @@ type GoogleVertexAiReasoningEngineSpecDeploymentSpecOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutAgentGatewayConfig(value *GoogleVertexAiReasoningEngineSpecDeploymentSpecAgentGatewayConfig)
 	PutEnv(value interface{})
+	PutKeepAliveProbe(value *GoogleVertexAiReasoningEngineSpecDeploymentSpecKeepAliveProbe)
 	PutPscInterfaceConfig(value *GoogleVertexAiReasoningEngineSpecDeploymentSpecPscInterfaceConfig)
 	PutSecretEnv(value interface{})
+	ResetAgentGatewayConfig()
+	ResetAgentServerMode()
 	ResetContainerConcurrency()
+	ResetDedicatedIngressEndpointEnabled()
 	ResetEnv()
+	ResetKeepAliveProbe()
 	ResetMaxInstances()
 	ResetMinInstances()
 	ResetPscInterfaceConfig()
@@ -105,6 +121,46 @@ type GoogleVertexAiReasoningEngineSpecDeploymentSpecOutputReference interface {
 // The jsii proxy struct for GoogleVertexAiReasoningEngineSpecDeploymentSpecOutputReference
 type jsiiProxy_GoogleVertexAiReasoningEngineSpecDeploymentSpecOutputReference struct {
 	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_GoogleVertexAiReasoningEngineSpecDeploymentSpecOutputReference) AgentGatewayConfig() GoogleVertexAiReasoningEngineSpecDeploymentSpecAgentGatewayConfigOutputReference {
+	var returns GoogleVertexAiReasoningEngineSpecDeploymentSpecAgentGatewayConfigOutputReference
+	_jsii_.Get(
+		j,
+		"agentGatewayConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleVertexAiReasoningEngineSpecDeploymentSpecOutputReference) AgentGatewayConfigInput() *GoogleVertexAiReasoningEngineSpecDeploymentSpecAgentGatewayConfig {
+	var returns *GoogleVertexAiReasoningEngineSpecDeploymentSpecAgentGatewayConfig
+	_jsii_.Get(
+		j,
+		"agentGatewayConfigInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleVertexAiReasoningEngineSpecDeploymentSpecOutputReference) AgentServerMode() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"agentServerMode",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleVertexAiReasoningEngineSpecDeploymentSpecOutputReference) AgentServerModeInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"agentServerModeInput",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_GoogleVertexAiReasoningEngineSpecDeploymentSpecOutputReference) ComplexObjectIndex() interface{} {
@@ -157,6 +213,26 @@ func (j *jsiiProxy_GoogleVertexAiReasoningEngineSpecDeploymentSpecOutputReferenc
 	return returns
 }
 
+func (j *jsiiProxy_GoogleVertexAiReasoningEngineSpecDeploymentSpecOutputReference) DedicatedIngressEndpointEnabled() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"dedicatedIngressEndpointEnabled",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleVertexAiReasoningEngineSpecDeploymentSpecOutputReference) DedicatedIngressEndpointEnabledInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"dedicatedIngressEndpointEnabledInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleVertexAiReasoningEngineSpecDeploymentSpecOutputReference) Env() GoogleVertexAiReasoningEngineSpecDeploymentSpecEnvList {
 	var returns GoogleVertexAiReasoningEngineSpecDeploymentSpecEnvList
 	_jsii_.Get(
@@ -192,6 +268,26 @@ func (j *jsiiProxy_GoogleVertexAiReasoningEngineSpecDeploymentSpecOutputReferenc
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleVertexAiReasoningEngineSpecDeploymentSpecOutputReference) KeepAliveProbe() GoogleVertexAiReasoningEngineSpecDeploymentSpecKeepAliveProbeOutputReference {
+	var returns GoogleVertexAiReasoningEngineSpecDeploymentSpecKeepAliveProbeOutputReference
+	_jsii_.Get(
+		j,
+		"keepAliveProbe",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleVertexAiReasoningEngineSpecDeploymentSpecOutputReference) KeepAliveProbeInput() *GoogleVertexAiReasoningEngineSpecDeploymentSpecKeepAliveProbe {
+	var returns *GoogleVertexAiReasoningEngineSpecDeploymentSpecKeepAliveProbe
+	_jsii_.Get(
+		j,
+		"keepAliveProbeInput",
 		&returns,
 	)
 	return returns
@@ -345,6 +441,17 @@ func NewGoogleVertexAiReasoningEngineSpecDeploymentSpecOutputReference_Override(
 	)
 }
 
+func (j *jsiiProxy_GoogleVertexAiReasoningEngineSpecDeploymentSpecOutputReference)SetAgentServerMode(val *string) {
+	if err := j.validateSetAgentServerModeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"agentServerMode",
+		val,
+	)
+}
+
 func (j *jsiiProxy_GoogleVertexAiReasoningEngineSpecDeploymentSpecOutputReference)SetComplexObjectIndex(val interface{}) {
 	if err := j.validateSetComplexObjectIndexParameters(val); err != nil {
 		panic(err)
@@ -374,6 +481,17 @@ func (j *jsiiProxy_GoogleVertexAiReasoningEngineSpecDeploymentSpecOutputReferenc
 	_jsii_.Set(
 		j,
 		"containerConcurrency",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleVertexAiReasoningEngineSpecDeploymentSpecOutputReference)SetDedicatedIngressEndpointEnabled(val interface{}) {
+	if err := j.validateSetDedicatedIngressEndpointEnabledParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"dedicatedIngressEndpointEnabled",
 		val,
 	)
 }
@@ -630,6 +748,17 @@ func (g *jsiiProxy_GoogleVertexAiReasoningEngineSpecDeploymentSpecOutputReferenc
 	return returns
 }
 
+func (g *jsiiProxy_GoogleVertexAiReasoningEngineSpecDeploymentSpecOutputReference) PutAgentGatewayConfig(value *GoogleVertexAiReasoningEngineSpecDeploymentSpecAgentGatewayConfig) {
+	if err := g.validatePutAgentGatewayConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putAgentGatewayConfig",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleVertexAiReasoningEngineSpecDeploymentSpecOutputReference) PutEnv(value interface{}) {
 	if err := g.validatePutEnvParameters(value); err != nil {
 		panic(err)
@@ -637,6 +766,17 @@ func (g *jsiiProxy_GoogleVertexAiReasoningEngineSpecDeploymentSpecOutputReferenc
 	_jsii_.InvokeVoid(
 		g,
 		"putEnv",
+		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleVertexAiReasoningEngineSpecDeploymentSpecOutputReference) PutKeepAliveProbe(value *GoogleVertexAiReasoningEngineSpecDeploymentSpecKeepAliveProbe) {
+	if err := g.validatePutKeepAliveProbeParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putKeepAliveProbe",
 		[]interface{}{value},
 	)
 }
@@ -663,6 +803,22 @@ func (g *jsiiProxy_GoogleVertexAiReasoningEngineSpecDeploymentSpecOutputReferenc
 	)
 }
 
+func (g *jsiiProxy_GoogleVertexAiReasoningEngineSpecDeploymentSpecOutputReference) ResetAgentGatewayConfig() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetAgentGatewayConfig",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleVertexAiReasoningEngineSpecDeploymentSpecOutputReference) ResetAgentServerMode() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetAgentServerMode",
+		nil, // no parameters
+	)
+}
+
 func (g *jsiiProxy_GoogleVertexAiReasoningEngineSpecDeploymentSpecOutputReference) ResetContainerConcurrency() {
 	_jsii_.InvokeVoid(
 		g,
@@ -671,10 +827,26 @@ func (g *jsiiProxy_GoogleVertexAiReasoningEngineSpecDeploymentSpecOutputReferenc
 	)
 }
 
+func (g *jsiiProxy_GoogleVertexAiReasoningEngineSpecDeploymentSpecOutputReference) ResetDedicatedIngressEndpointEnabled() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDedicatedIngressEndpointEnabled",
+		nil, // no parameters
+	)
+}
+
 func (g *jsiiProxy_GoogleVertexAiReasoningEngineSpecDeploymentSpecOutputReference) ResetEnv() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetEnv",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleVertexAiReasoningEngineSpecDeploymentSpecOutputReference) ResetKeepAliveProbe() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetKeepAliveProbe",
 		nil, // no parameters
 	)
 }

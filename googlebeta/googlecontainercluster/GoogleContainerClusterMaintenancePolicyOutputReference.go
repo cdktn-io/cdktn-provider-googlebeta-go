@@ -38,6 +38,8 @@ type GoogleContainerClusterMaintenancePolicyOutputReference interface {
 	SetInternalValue(val *GoogleContainerClusterMaintenancePolicy)
 	MaintenanceExclusion() GoogleContainerClusterMaintenancePolicyMaintenanceExclusionList
 	MaintenanceExclusionInput() interface{}
+	RecurringMaintenanceWindow() GoogleContainerClusterMaintenancePolicyRecurringMaintenanceWindowOutputReference
+	RecurringMaintenanceWindowInput() *GoogleContainerClusterMaintenancePolicyRecurringMaintenanceWindow
 	RecurringWindow() GoogleContainerClusterMaintenancePolicyRecurringWindowOutputReference
 	RecurringWindowInput() *GoogleContainerClusterMaintenancePolicyRecurringWindow
 	// Experimental.
@@ -75,10 +77,12 @@ type GoogleContainerClusterMaintenancePolicyOutputReference interface {
 	PutDailyMaintenanceWindow(value *GoogleContainerClusterMaintenancePolicyDailyMaintenanceWindow)
 	PutDisruptionBudget(value *GoogleContainerClusterMaintenancePolicyDisruptionBudget)
 	PutMaintenanceExclusion(value interface{})
+	PutRecurringMaintenanceWindow(value *GoogleContainerClusterMaintenancePolicyRecurringMaintenanceWindow)
 	PutRecurringWindow(value *GoogleContainerClusterMaintenancePolicyRecurringWindow)
 	ResetDailyMaintenanceWindow()
 	ResetDisruptionBudget()
 	ResetMaintenanceExclusion()
+	ResetRecurringMaintenanceWindow()
 	ResetRecurringWindow()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -200,6 +204,26 @@ func (j *jsiiProxy_GoogleContainerClusterMaintenancePolicyOutputReference) Maint
 	_jsii_.Get(
 		j,
 		"maintenanceExclusionInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleContainerClusterMaintenancePolicyOutputReference) RecurringMaintenanceWindow() GoogleContainerClusterMaintenancePolicyRecurringMaintenanceWindowOutputReference {
+	var returns GoogleContainerClusterMaintenancePolicyRecurringMaintenanceWindowOutputReference
+	_jsii_.Get(
+		j,
+		"recurringMaintenanceWindow",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleContainerClusterMaintenancePolicyOutputReference) RecurringMaintenanceWindowInput() *GoogleContainerClusterMaintenancePolicyRecurringMaintenanceWindow {
+	var returns *GoogleContainerClusterMaintenancePolicyRecurringMaintenanceWindow
+	_jsii_.Get(
+		j,
+		"recurringMaintenanceWindowInput",
 		&returns,
 	)
 	return returns
@@ -547,6 +571,17 @@ func (g *jsiiProxy_GoogleContainerClusterMaintenancePolicyOutputReference) PutMa
 	)
 }
 
+func (g *jsiiProxy_GoogleContainerClusterMaintenancePolicyOutputReference) PutRecurringMaintenanceWindow(value *GoogleContainerClusterMaintenancePolicyRecurringMaintenanceWindow) {
+	if err := g.validatePutRecurringMaintenanceWindowParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putRecurringMaintenanceWindow",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleContainerClusterMaintenancePolicyOutputReference) PutRecurringWindow(value *GoogleContainerClusterMaintenancePolicyRecurringWindow) {
 	if err := g.validatePutRecurringWindowParameters(value); err != nil {
 		panic(err)
@@ -578,6 +613,14 @@ func (g *jsiiProxy_GoogleContainerClusterMaintenancePolicyOutputReference) Reset
 	_jsii_.InvokeVoid(
 		g,
 		"resetMaintenanceExclusion",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleContainerClusterMaintenancePolicyOutputReference) ResetRecurringMaintenanceWindow() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetRecurringMaintenanceWindow",
 		nil, // no parameters
 	)
 }

@@ -119,6 +119,10 @@ func (g *jsiiProxy_GoogleComputeRegionInstanceTemplate) validatePutTimeoutsParam
 	return nil
 }
 
+func (g *jsiiProxy_GoogleComputeRegionInstanceTemplate) validatePutWorkloadIdentityConfigParameters(value *GoogleComputeRegionInstanceTemplateWorkloadIdentityConfig) error {
+	return nil
+}
+
 func validateGoogleComputeRegionInstanceTemplate_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

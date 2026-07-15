@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_apigee_environment_debugmask google_apigee_environment_debugmask}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_apigee_environment_debugmask google_apigee_environment_debugmask}.
 type GoogleApigeeEnvironmentDebugmask interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -545,7 +545,7 @@ func (j *jsiiProxy_GoogleApigeeEnvironmentDebugmask) VariablesInput() *[]*string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_apigee_environment_debugmask google_apigee_environment_debugmask} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_apigee_environment_debugmask google_apigee_environment_debugmask} Resource.
 func NewGoogleApigeeEnvironmentDebugmask(scope constructs.Construct, id *string, config *GoogleApigeeEnvironmentDebugmaskConfig) GoogleApigeeEnvironmentDebugmask {
 	_init_.Initialize()
 
@@ -563,7 +563,7 @@ func NewGoogleApigeeEnvironmentDebugmask(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_apigee_environment_debugmask google_apigee_environment_debugmask} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_apigee_environment_debugmask google_apigee_environment_debugmask} Resource.
 func NewGoogleApigeeEnvironmentDebugmask_Override(g GoogleApigeeEnvironmentDebugmask, scope constructs.Construct, id *string, config *GoogleApigeeEnvironmentDebugmaskConfig) {
 	_init_.Initialize()
 

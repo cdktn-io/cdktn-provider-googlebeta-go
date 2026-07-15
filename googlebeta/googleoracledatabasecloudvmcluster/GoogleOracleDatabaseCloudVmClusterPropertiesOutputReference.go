@@ -92,6 +92,7 @@ type GoogleOracleDatabaseCloudVmClusterPropertiesOutputReference interface {
 	SetSshPublicKeys(val *[]*string)
 	SshPublicKeysInput() *[]*string
 	State() *string
+	StorageManagementType() *string
 	StorageSizeGb() *float64
 	SystemVersion() *string
 	// Experimental.
@@ -655,6 +656,16 @@ func (j *jsiiProxy_GoogleOracleDatabaseCloudVmClusterPropertiesOutputReference) 
 	_jsii_.Get(
 		j,
 		"state",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleOracleDatabaseCloudVmClusterPropertiesOutputReference) StorageManagementType() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"storageManagementType",
 		&returns,
 	)
 	return returns

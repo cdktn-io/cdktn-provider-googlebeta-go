@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_ces_security_settings google_ces_security_settings}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_ces_security_settings google_ces_security_settings}.
 type GoogleCesSecuritySettings interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -458,7 +458,7 @@ func (j *jsiiProxy_GoogleCesSecuritySettings) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_ces_security_settings google_ces_security_settings} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_ces_security_settings google_ces_security_settings} Resource.
 func NewGoogleCesSecuritySettings(scope constructs.Construct, id *string, config *GoogleCesSecuritySettingsConfig) GoogleCesSecuritySettings {
 	_init_.Initialize()
 
@@ -476,7 +476,7 @@ func NewGoogleCesSecuritySettings(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_ces_security_settings google_ces_security_settings} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_ces_security_settings google_ces_security_settings} Resource.
 func NewGoogleCesSecuritySettings_Override(g GoogleCesSecuritySettings, scope constructs.Construct, id *string, config *GoogleCesSecuritySettingsConfig) {
 	_init_.Initialize()
 

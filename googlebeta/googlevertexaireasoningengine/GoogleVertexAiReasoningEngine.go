@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_vertex_ai_reasoning_engine google_vertex_ai_reasoning_engine}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine google_vertex_ai_reasoning_engine}.
 type GoogleVertexAiReasoningEngine interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -94,7 +94,10 @@ type GoogleVertexAiReasoningEngine interface {
 	TerraformResourceType() *string
 	Timeouts() GoogleVertexAiReasoningEngineTimeoutsOutputReference
 	TimeoutsInput() interface{}
+	TrafficConfig() GoogleVertexAiReasoningEngineTrafficConfigOutputReference
+	TrafficConfigInput() *GoogleVertexAiReasoningEngineTrafficConfig
 	UpdateTime() *string
+	Url() *string
 	// Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
 	// Experimental.
 	AddMoveTarget(moveTarget *string)
@@ -142,6 +145,7 @@ type GoogleVertexAiReasoningEngine interface {
 	PutEncryptionSpec(value *GoogleVertexAiReasoningEngineEncryptionSpec)
 	PutSpec(value *GoogleVertexAiReasoningEngineSpec)
 	PutTimeouts(value *GoogleVertexAiReasoningEngineTimeouts)
+	PutTrafficConfig(value *GoogleVertexAiReasoningEngineTrafficConfig)
 	ResetContextSpec()
 	ResetDeletionPolicy()
 	ResetDescription()
@@ -155,6 +159,7 @@ type GoogleVertexAiReasoningEngine interface {
 	ResetRegion()
 	ResetSpec()
 	ResetTimeouts()
+	ResetTrafficConfig()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
 	// Experimental.
@@ -602,6 +607,26 @@ func (j *jsiiProxy_GoogleVertexAiReasoningEngine) TimeoutsInput() interface{} {
 	return returns
 }
 
+func (j *jsiiProxy_GoogleVertexAiReasoningEngine) TrafficConfig() GoogleVertexAiReasoningEngineTrafficConfigOutputReference {
+	var returns GoogleVertexAiReasoningEngineTrafficConfigOutputReference
+	_jsii_.Get(
+		j,
+		"trafficConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleVertexAiReasoningEngine) TrafficConfigInput() *GoogleVertexAiReasoningEngineTrafficConfig {
+	var returns *GoogleVertexAiReasoningEngineTrafficConfig
+	_jsii_.Get(
+		j,
+		"trafficConfigInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleVertexAiReasoningEngine) UpdateTime() *string {
 	var returns *string
 	_jsii_.Get(
@@ -612,8 +637,18 @@ func (j *jsiiProxy_GoogleVertexAiReasoningEngine) UpdateTime() *string {
 	return returns
 }
 
+func (j *jsiiProxy_GoogleVertexAiReasoningEngine) Url() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"url",
+		&returns,
+	)
+	return returns
+}
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_vertex_ai_reasoning_engine google_vertex_ai_reasoning_engine} Resource.
+
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine google_vertex_ai_reasoning_engine} Resource.
 func NewGoogleVertexAiReasoningEngine(scope constructs.Construct, id *string, config *GoogleVertexAiReasoningEngineConfig) GoogleVertexAiReasoningEngine {
 	_init_.Initialize()
 
@@ -631,7 +666,7 @@ func NewGoogleVertexAiReasoningEngine(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_vertex_ai_reasoning_engine google_vertex_ai_reasoning_engine} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_reasoning_engine google_vertex_ai_reasoning_engine} Resource.
 func NewGoogleVertexAiReasoningEngine_Override(g GoogleVertexAiReasoningEngine, scope constructs.Construct, id *string, config *GoogleVertexAiReasoningEngineConfig) {
 	_init_.Initialize()
 
@@ -1184,6 +1219,17 @@ func (g *jsiiProxy_GoogleVertexAiReasoningEngine) PutTimeouts(value *GoogleVerte
 	)
 }
 
+func (g *jsiiProxy_GoogleVertexAiReasoningEngine) PutTrafficConfig(value *GoogleVertexAiReasoningEngineTrafficConfig) {
+	if err := g.validatePutTrafficConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putTrafficConfig",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleVertexAiReasoningEngine) ResetContextSpec() {
 	_jsii_.InvokeVoid(
 		g,
@@ -1268,6 +1314,14 @@ func (g *jsiiProxy_GoogleVertexAiReasoningEngine) ResetTimeouts() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetTimeouts",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleVertexAiReasoningEngine) ResetTrafficConfig() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetTrafficConfig",
 		nil, // no parameters
 	)
 }

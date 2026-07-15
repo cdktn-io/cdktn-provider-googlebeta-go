@@ -28,6 +28,8 @@ type GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigOutputReference int
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
+	CustomizationConfigs() GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsList
+	CustomizationConfigsInput() interface{}
 	DisableMemoryRevisions() interface{}
 	SetDisableMemoryRevisions(val interface{})
 	DisableMemoryRevisionsInput() interface{}
@@ -39,6 +41,8 @@ type GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigOutputReference int
 	SetInternalValue(val *GoogleVertexAiReasoningEngineContextSpecMemoryBankConfig)
 	SimilaritySearchConfig() GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigSimilaritySearchConfigOutputReference
 	SimilaritySearchConfigInput() *GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigSimilaritySearchConfig
+	StructuredMemoryConfigs() GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigStructuredMemoryConfigsList
+	StructuredMemoryConfigsInput() interface{}
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -73,12 +77,16 @@ type GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigOutputReference int
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutCustomizationConfigs(value interface{})
 	PutGenerationConfig(value *GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigGenerationConfig)
 	PutSimilaritySearchConfig(value *GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigSimilaritySearchConfig)
+	PutStructuredMemoryConfigs(value interface{})
 	PutTtlConfig(value *GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigTtlConfig)
+	ResetCustomizationConfigs()
 	ResetDisableMemoryRevisions()
 	ResetGenerationConfig()
 	ResetSimilaritySearchConfig()
+	ResetStructuredMemoryConfigs()
 	ResetTtlConfig()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -120,6 +128,26 @@ func (j *jsiiProxy_GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigOutpu
 	_jsii_.Get(
 		j,
 		"creationStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigOutputReference) CustomizationConfigs() GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsList {
+	var returns GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsList
+	_jsii_.Get(
+		j,
+		"customizationConfigs",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigOutputReference) CustomizationConfigsInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"customizationConfigsInput",
 		&returns,
 	)
 	return returns
@@ -200,6 +228,26 @@ func (j *jsiiProxy_GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigOutpu
 	_jsii_.Get(
 		j,
 		"similaritySearchConfigInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigOutputReference) StructuredMemoryConfigs() GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigStructuredMemoryConfigsList {
+	var returns GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigStructuredMemoryConfigsList
+	_jsii_.Get(
+		j,
+		"structuredMemoryConfigs",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigOutputReference) StructuredMemoryConfigsInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"structuredMemoryConfigsInput",
 		&returns,
 	)
 	return returns
@@ -525,6 +573,17 @@ func (g *jsiiProxy_GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigOutpu
 	return returns
 }
 
+func (g *jsiiProxy_GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigOutputReference) PutCustomizationConfigs(value interface{}) {
+	if err := g.validatePutCustomizationConfigsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putCustomizationConfigs",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigOutputReference) PutGenerationConfig(value *GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigGenerationConfig) {
 	if err := g.validatePutGenerationConfigParameters(value); err != nil {
 		panic(err)
@@ -547,6 +606,17 @@ func (g *jsiiProxy_GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigOutpu
 	)
 }
 
+func (g *jsiiProxy_GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigOutputReference) PutStructuredMemoryConfigs(value interface{}) {
+	if err := g.validatePutStructuredMemoryConfigsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putStructuredMemoryConfigs",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigOutputReference) PutTtlConfig(value *GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigTtlConfig) {
 	if err := g.validatePutTtlConfigParameters(value); err != nil {
 		panic(err)
@@ -555,6 +625,14 @@ func (g *jsiiProxy_GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigOutpu
 		g,
 		"putTtlConfig",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigOutputReference) ResetCustomizationConfigs() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetCustomizationConfigs",
+		nil, // no parameters
 	)
 }
 
@@ -578,6 +656,14 @@ func (g *jsiiProxy_GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigOutpu
 	_jsii_.InvokeVoid(
 		g,
 		"resetSimilaritySearchConfig",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigOutputReference) ResetStructuredMemoryConfigs() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetStructuredMemoryConfigs",
 		nil, // no parameters
 	)
 }

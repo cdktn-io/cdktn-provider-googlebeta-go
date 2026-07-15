@@ -33,6 +33,8 @@ type GoogleContainerClusterNodeConfigLinuxNodeConfigOutputReference interface {
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
+	CustomNodeInit() GoogleContainerClusterNodeConfigLinuxNodeConfigCustomNodeInitOutputReference
+	CustomNodeInitInput() *GoogleContainerClusterNodeConfigLinuxNodeConfigCustomNodeInit
 	// Experimental.
 	Fqn() *string
 	HugepagesConfig() GoogleContainerClusterNodeConfigLinuxNodeConfigHugepagesConfigOutputReference
@@ -85,11 +87,13 @@ type GoogleContainerClusterNodeConfigLinuxNodeConfigOutputReference interface {
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutAccurateTimeConfig(value *GoogleContainerClusterNodeConfigLinuxNodeConfigAccurateTimeConfig)
+	PutCustomNodeInit(value *GoogleContainerClusterNodeConfigLinuxNodeConfigCustomNodeInit)
 	PutHugepagesConfig(value *GoogleContainerClusterNodeConfigLinuxNodeConfigHugepagesConfig)
 	PutNodeKernelModuleLoading(value *GoogleContainerClusterNodeConfigLinuxNodeConfigNodeKernelModuleLoading)
 	PutSwapConfig(value *GoogleContainerClusterNodeConfigLinuxNodeConfigSwapConfig)
 	ResetAccurateTimeConfig()
 	ResetCgroupMode()
+	ResetCustomNodeInit()
 	ResetHugepagesConfig()
 	ResetNodeKernelModuleLoading()
 	ResetSwapConfig()
@@ -176,6 +180,26 @@ func (j *jsiiProxy_GoogleContainerClusterNodeConfigLinuxNodeConfigOutputReferenc
 	_jsii_.Get(
 		j,
 		"creationStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleContainerClusterNodeConfigLinuxNodeConfigOutputReference) CustomNodeInit() GoogleContainerClusterNodeConfigLinuxNodeConfigCustomNodeInitOutputReference {
+	var returns GoogleContainerClusterNodeConfigLinuxNodeConfigCustomNodeInitOutputReference
+	_jsii_.Get(
+		j,
+		"customNodeInit",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleContainerClusterNodeConfigLinuxNodeConfigOutputReference) CustomNodeInitInput() *GoogleContainerClusterNodeConfigLinuxNodeConfigCustomNodeInit {
+	var returns *GoogleContainerClusterNodeConfigLinuxNodeConfigCustomNodeInit
+	_jsii_.Get(
+		j,
+		"customNodeInitInput",
 		&returns,
 	)
 	return returns
@@ -665,6 +689,17 @@ func (g *jsiiProxy_GoogleContainerClusterNodeConfigLinuxNodeConfigOutputReferenc
 	)
 }
 
+func (g *jsiiProxy_GoogleContainerClusterNodeConfigLinuxNodeConfigOutputReference) PutCustomNodeInit(value *GoogleContainerClusterNodeConfigLinuxNodeConfigCustomNodeInit) {
+	if err := g.validatePutCustomNodeInitParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putCustomNodeInit",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleContainerClusterNodeConfigLinuxNodeConfigOutputReference) PutHugepagesConfig(value *GoogleContainerClusterNodeConfigLinuxNodeConfigHugepagesConfig) {
 	if err := g.validatePutHugepagesConfigParameters(value); err != nil {
 		panic(err)
@@ -710,6 +745,14 @@ func (g *jsiiProxy_GoogleContainerClusterNodeConfigLinuxNodeConfigOutputReferenc
 	_jsii_.InvokeVoid(
 		g,
 		"resetCgroupMode",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleContainerClusterNodeConfigLinuxNodeConfigOutputReference) ResetCustomNodeInit() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetCustomNodeInit",
 		nil, // no parameters
 	)
 }

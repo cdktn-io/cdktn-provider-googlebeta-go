@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_migration_center_import_job google_migration_center_import_job}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_migration_center_import_job google_migration_center_import_job}.
 type GoogleMigrationCenterImportJob interface {
 	cdktn.TerraformResource
 	AssetSource() *string
@@ -607,7 +607,7 @@ func (j *jsiiProxy_GoogleMigrationCenterImportJob) ValidationReport() GoogleMigr
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_migration_center_import_job google_migration_center_import_job} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_migration_center_import_job google_migration_center_import_job} Resource.
 func NewGoogleMigrationCenterImportJob(scope constructs.Construct, id *string, config *GoogleMigrationCenterImportJobConfig) GoogleMigrationCenterImportJob {
 	_init_.Initialize()
 
@@ -625,7 +625,7 @@ func NewGoogleMigrationCenterImportJob(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_migration_center_import_job google_migration_center_import_job} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_migration_center_import_job google_migration_center_import_job} Resource.
 func NewGoogleMigrationCenterImportJob_Override(g GoogleMigrationCenterImportJob, scope constructs.Construct, id *string, config *GoogleMigrationCenterImportJobConfig) {
 	_init_.Initialize()
 

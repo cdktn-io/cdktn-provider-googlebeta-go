@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_dialogflow_cx_tool_version google_dialogflow_cx_tool_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_dialogflow_cx_tool_version google_dialogflow_cx_tool_version}.
 type GoogleDialogflowCxToolVersion interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -469,7 +469,7 @@ func (j *jsiiProxy_GoogleDialogflowCxToolVersion) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_dialogflow_cx_tool_version google_dialogflow_cx_tool_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_dialogflow_cx_tool_version google_dialogflow_cx_tool_version} Resource.
 func NewGoogleDialogflowCxToolVersion(scope constructs.Construct, id *string, config *GoogleDialogflowCxToolVersionConfig) GoogleDialogflowCxToolVersion {
 	_init_.Initialize()
 
@@ -487,7 +487,7 @@ func NewGoogleDialogflowCxToolVersion(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_dialogflow_cx_tool_version google_dialogflow_cx_tool_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_dialogflow_cx_tool_version google_dialogflow_cx_tool_version} Resource.
 func NewGoogleDialogflowCxToolVersion_Override(g GoogleDialogflowCxToolVersion, scope constructs.Construct, id *string, config *GoogleDialogflowCxToolVersionConfig) {
 	_init_.Initialize()
 

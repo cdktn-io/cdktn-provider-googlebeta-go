@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_compute_instance_from_machine_image google_compute_instance_from_machine_image}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_compute_instance_from_machine_image google_compute_instance_from_machine_image}.
 type GoogleComputeInstanceFromMachineImage interface {
 	cdktn.TerraformResource
 	AdvancedMachineFeatures() GoogleComputeInstanceFromMachineImageAdvancedMachineFeaturesOutputReference
@@ -166,6 +166,8 @@ type GoogleComputeInstanceFromMachineImage interface {
 	TerraformResourceType() *string
 	Timeouts() GoogleComputeInstanceFromMachineImageTimeoutsOutputReference
 	TimeoutsInput() interface{}
+	WorkloadIdentityConfig() GoogleComputeInstanceFromMachineImageWorkloadIdentityConfigOutputReference
+	WorkloadIdentityConfigInput() *GoogleComputeInstanceFromMachineImageWorkloadIdentityConfig
 	Zone() *string
 	SetZone(val *string)
 	ZoneInput() *string
@@ -225,6 +227,7 @@ type GoogleComputeInstanceFromMachineImage interface {
 	PutShieldedInstanceConfig(value *GoogleComputeInstanceFromMachineImageShieldedInstanceConfig)
 	PutSourceMachineImageEncryptionKey(value *GoogleComputeInstanceFromMachineImageSourceMachineImageEncryptionKey)
 	PutTimeouts(value *GoogleComputeInstanceFromMachineImageTimeouts)
+	PutWorkloadIdentityConfig(value *GoogleComputeInstanceFromMachineImageWorkloadIdentityConfig)
 	ResetAdvancedMachineFeatures()
 	ResetAllowStoppingForUpdate()
 	ResetCanIpForward()
@@ -261,6 +264,7 @@ type GoogleComputeInstanceFromMachineImage interface {
 	ResetSourceMachineImageEncryptionKey()
 	ResetTags()
 	ResetTimeouts()
+	ResetWorkloadIdentityConfig()
 	ResetZone()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
@@ -1279,6 +1283,26 @@ func (j *jsiiProxy_GoogleComputeInstanceFromMachineImage) TimeoutsInput() interf
 	return returns
 }
 
+func (j *jsiiProxy_GoogleComputeInstanceFromMachineImage) WorkloadIdentityConfig() GoogleComputeInstanceFromMachineImageWorkloadIdentityConfigOutputReference {
+	var returns GoogleComputeInstanceFromMachineImageWorkloadIdentityConfigOutputReference
+	_jsii_.Get(
+		j,
+		"workloadIdentityConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeInstanceFromMachineImage) WorkloadIdentityConfigInput() *GoogleComputeInstanceFromMachineImageWorkloadIdentityConfig {
+	var returns *GoogleComputeInstanceFromMachineImageWorkloadIdentityConfig
+	_jsii_.Get(
+		j,
+		"workloadIdentityConfigInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleComputeInstanceFromMachineImage) Zone() *string {
 	var returns *string
 	_jsii_.Get(
@@ -1300,7 +1324,7 @@ func (j *jsiiProxy_GoogleComputeInstanceFromMachineImage) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_compute_instance_from_machine_image google_compute_instance_from_machine_image} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_compute_instance_from_machine_image google_compute_instance_from_machine_image} Resource.
 func NewGoogleComputeInstanceFromMachineImage(scope constructs.Construct, id *string, config *GoogleComputeInstanceFromMachineImageConfig) GoogleComputeInstanceFromMachineImage {
 	_init_.Initialize()
 
@@ -1318,7 +1342,7 @@ func NewGoogleComputeInstanceFromMachineImage(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_compute_instance_from_machine_image google_compute_instance_from_machine_image} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_compute_instance_from_machine_image google_compute_instance_from_machine_image} Resource.
 func NewGoogleComputeInstanceFromMachineImage_Override(g GoogleComputeInstanceFromMachineImage, scope constructs.Construct, id *string, config *GoogleComputeInstanceFromMachineImageConfig) {
 	_init_.Initialize()
 
@@ -2146,6 +2170,17 @@ func (g *jsiiProxy_GoogleComputeInstanceFromMachineImage) PutTimeouts(value *Goo
 	)
 }
 
+func (g *jsiiProxy_GoogleComputeInstanceFromMachineImage) PutWorkloadIdentityConfig(value *GoogleComputeInstanceFromMachineImageWorkloadIdentityConfig) {
+	if err := g.validatePutWorkloadIdentityConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putWorkloadIdentityConfig",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleComputeInstanceFromMachineImage) ResetAdvancedMachineFeatures() {
 	_jsii_.InvokeVoid(
 		g,
@@ -2414,6 +2449,14 @@ func (g *jsiiProxy_GoogleComputeInstanceFromMachineImage) ResetTimeouts() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetTimeouts",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleComputeInstanceFromMachineImage) ResetWorkloadIdentityConfig() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetWorkloadIdentityConfig",
 		nil, // no parameters
 	)
 }

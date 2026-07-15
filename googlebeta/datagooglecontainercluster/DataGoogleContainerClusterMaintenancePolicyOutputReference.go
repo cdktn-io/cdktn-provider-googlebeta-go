@@ -35,6 +35,7 @@ type DataGoogleContainerClusterMaintenancePolicyOutputReference interface {
 	InternalValue() *DataGoogleContainerClusterMaintenancePolicy
 	SetInternalValue(val *DataGoogleContainerClusterMaintenancePolicy)
 	MaintenanceExclusion() DataGoogleContainerClusterMaintenancePolicyMaintenanceExclusionList
+	RecurringMaintenanceWindow() DataGoogleContainerClusterMaintenancePolicyRecurringMaintenanceWindowList
 	RecurringWindow() DataGoogleContainerClusterMaintenancePolicyRecurringWindowList
 	// Experimental.
 	TerraformAttribute() *string
@@ -158,6 +159,16 @@ func (j *jsiiProxy_DataGoogleContainerClusterMaintenancePolicyOutputReference) M
 	_jsii_.Get(
 		j,
 		"maintenanceExclusion",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleContainerClusterMaintenancePolicyOutputReference) RecurringMaintenanceWindow() DataGoogleContainerClusterMaintenancePolicyRecurringMaintenanceWindowList {
+	var returns DataGoogleContainerClusterMaintenancePolicyRecurringMaintenanceWindowList
+	_jsii_.Get(
+		j,
+		"recurringMaintenanceWindow",
 		&returns,
 	)
 	return returns

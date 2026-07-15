@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_discovery_engine_search_engine_iam_binding google_discovery_engine_search_engine_iam_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_discovery_engine_search_engine_iam_binding google_discovery_engine_search_engine_iam_binding}.
 type GoogleDiscoveryEngineSearchEngineIamBinding interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -494,7 +494,7 @@ func (j *jsiiProxy_GoogleDiscoveryEngineSearchEngineIamBinding) TerraformResourc
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_discovery_engine_search_engine_iam_binding google_discovery_engine_search_engine_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_discovery_engine_search_engine_iam_binding google_discovery_engine_search_engine_iam_binding} Resource.
 func NewGoogleDiscoveryEngineSearchEngineIamBinding(scope constructs.Construct, id *string, config *GoogleDiscoveryEngineSearchEngineIamBindingConfig) GoogleDiscoveryEngineSearchEngineIamBinding {
 	_init_.Initialize()
 
@@ -512,7 +512,7 @@ func NewGoogleDiscoveryEngineSearchEngineIamBinding(scope constructs.Construct, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_discovery_engine_search_engine_iam_binding google_discovery_engine_search_engine_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_discovery_engine_search_engine_iam_binding google_discovery_engine_search_engine_iam_binding} Resource.
 func NewGoogleDiscoveryEngineSearchEngineIamBinding_Override(g GoogleDiscoveryEngineSearchEngineIamBinding, scope constructs.Construct, id *string, config *GoogleDiscoveryEngineSearchEngineIamBindingConfig) {
 	_init_.Initialize()
 

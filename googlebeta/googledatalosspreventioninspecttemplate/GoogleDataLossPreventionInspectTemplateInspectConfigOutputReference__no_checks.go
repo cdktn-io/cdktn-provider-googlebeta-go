@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleDataLossPreventionInspectTemplateInspectConfigOutputRef
 	return nil
 }
 
+func (g *jsiiProxy_GoogleDataLossPreventionInspectTemplateInspectConfigOutputReference) validatePutMinLikelihoodPerInfoTypeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleDataLossPreventionInspectTemplateInspectConfigOutputReference) validatePutRuleSetParameters(value interface{}) error {
 	return nil
 }

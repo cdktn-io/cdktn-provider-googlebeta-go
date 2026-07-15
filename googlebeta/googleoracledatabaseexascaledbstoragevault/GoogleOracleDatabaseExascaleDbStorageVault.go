@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_oracle_database_exascale_db_storage_vault google_oracle_database_exascale_db_storage_vault}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_oracle_database_exascale_db_storage_vault google_oracle_database_exascale_db_storage_vault}.
 type GoogleOracleDatabaseExascaleDbStorageVault interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -43,6 +43,9 @@ type GoogleOracleDatabaseExascaleDbStorageVault interface {
 	DisplayNameInput() *string
 	EffectiveLabels() cdktn.StringMap
 	EntitlementId() *string
+	ExadataInfrastructure() *string
+	SetExadataInfrastructure(val *string)
+	ExadataInfrastructureInput() *string
 	ExascaleDbStorageVaultId() *string
 	SetExascaleDbStorageVaultId(val *string)
 	ExascaleDbStorageVaultIdInput() *string
@@ -144,6 +147,7 @@ type GoogleOracleDatabaseExascaleDbStorageVault interface {
 	PutTimeouts(value *GoogleOracleDatabaseExascaleDbStorageVaultTimeouts)
 	ResetDeletionPolicy()
 	ResetDeletionProtection()
+	ResetExadataInfrastructure()
 	ResetGcpOracleZone()
 	ResetId()
 	ResetLabels()
@@ -314,6 +318,26 @@ func (j *jsiiProxy_GoogleOracleDatabaseExascaleDbStorageVault) EntitlementId() *
 	_jsii_.Get(
 		j,
 		"entitlementId",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleOracleDatabaseExascaleDbStorageVault) ExadataInfrastructure() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"exadataInfrastructure",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleOracleDatabaseExascaleDbStorageVault) ExadataInfrastructureInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"exadataInfrastructureInput",
 		&returns,
 	)
 	return returns
@@ -610,7 +634,7 @@ func (j *jsiiProxy_GoogleOracleDatabaseExascaleDbStorageVault) TimeoutsInput() i
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_oracle_database_exascale_db_storage_vault google_oracle_database_exascale_db_storage_vault} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_oracle_database_exascale_db_storage_vault google_oracle_database_exascale_db_storage_vault} Resource.
 func NewGoogleOracleDatabaseExascaleDbStorageVault(scope constructs.Construct, id *string, config *GoogleOracleDatabaseExascaleDbStorageVaultConfig) GoogleOracleDatabaseExascaleDbStorageVault {
 	_init_.Initialize()
 
@@ -628,7 +652,7 @@ func NewGoogleOracleDatabaseExascaleDbStorageVault(scope constructs.Construct, i
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_oracle_database_exascale_db_storage_vault google_oracle_database_exascale_db_storage_vault} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_oracle_database_exascale_db_storage_vault google_oracle_database_exascale_db_storage_vault} Resource.
 func NewGoogleOracleDatabaseExascaleDbStorageVault_Override(g GoogleOracleDatabaseExascaleDbStorageVault, scope constructs.Construct, id *string, config *GoogleOracleDatabaseExascaleDbStorageVaultConfig) {
 	_init_.Initialize()
 
@@ -698,6 +722,17 @@ func (j *jsiiProxy_GoogleOracleDatabaseExascaleDbStorageVault)SetDisplayName(val
 	_jsii_.Set(
 		j,
 		"displayName",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleOracleDatabaseExascaleDbStorageVault)SetExadataInfrastructure(val *string) {
+	if err := j.validateSetExadataInfrastructureParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"exadataInfrastructure",
 		val,
 	)
 }
@@ -1193,6 +1228,14 @@ func (g *jsiiProxy_GoogleOracleDatabaseExascaleDbStorageVault) ResetDeletionProt
 	_jsii_.InvokeVoid(
 		g,
 		"resetDeletionProtection",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleOracleDatabaseExascaleDbStorageVault) ResetExadataInfrastructure() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetExadataInfrastructure",
 		nil, // no parameters
 	)
 }

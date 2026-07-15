@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_notebooks_runtime google_notebooks_runtime}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_notebooks_runtime google_notebooks_runtime}.
 type GoogleNotebooksRuntime interface {
 	cdktn.TerraformResource
 	AccessConfig() GoogleNotebooksRuntimeAccessConfigOutputReference
@@ -588,7 +588,7 @@ func (j *jsiiProxy_GoogleNotebooksRuntime) VirtualMachineInput() *GoogleNotebook
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_notebooks_runtime google_notebooks_runtime} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_notebooks_runtime google_notebooks_runtime} Resource.
 func NewGoogleNotebooksRuntime(scope constructs.Construct, id *string, config *GoogleNotebooksRuntimeConfig) GoogleNotebooksRuntime {
 	_init_.Initialize()
 
@@ -606,7 +606,7 @@ func NewGoogleNotebooksRuntime(scope constructs.Construct, id *string, config *G
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_notebooks_runtime google_notebooks_runtime} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_notebooks_runtime google_notebooks_runtime} Resource.
 func NewGoogleNotebooksRuntime_Override(g GoogleNotebooksRuntime, scope constructs.Construct, id *string, config *GoogleNotebooksRuntimeConfig) {
 	_init_.Initialize()
 

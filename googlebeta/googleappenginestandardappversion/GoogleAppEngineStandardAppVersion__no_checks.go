@@ -131,6 +131,10 @@ func (j *jsiiProxy_GoogleAppEngineStandardAppVersion) validateSetAppEngineApisPa
 	return nil
 }
 
+func (j *jsiiProxy_GoogleAppEngineStandardAppVersion) validateSetAppEngineBundledServicesParameters(val *[]*string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleAppEngineStandardAppVersion) validateSetConnectionParameters(val interface{}) error {
 	return nil
 }

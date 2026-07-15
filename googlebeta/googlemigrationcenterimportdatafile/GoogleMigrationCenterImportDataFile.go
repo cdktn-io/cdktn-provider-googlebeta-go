@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_migration_center_import_data_file google_migration_center_import_data_file}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_migration_center_import_data_file google_migration_center_import_data_file}.
 type GoogleMigrationCenterImportDataFile interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -551,7 +551,7 @@ func (j *jsiiProxy_GoogleMigrationCenterImportDataFile) UploadFileInfo() GoogleM
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_migration_center_import_data_file google_migration_center_import_data_file} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_migration_center_import_data_file google_migration_center_import_data_file} Resource.
 func NewGoogleMigrationCenterImportDataFile(scope constructs.Construct, id *string, config *GoogleMigrationCenterImportDataFileConfig) GoogleMigrationCenterImportDataFile {
 	_init_.Initialize()
 
@@ -569,7 +569,7 @@ func NewGoogleMigrationCenterImportDataFile(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_migration_center_import_data_file google_migration_center_import_data_file} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_migration_center_import_data_file google_migration_center_import_data_file} Resource.
 func NewGoogleMigrationCenterImportDataFile_Override(g GoogleMigrationCenterImportDataFile, scope constructs.Construct, id *string, config *GoogleMigrationCenterImportDataFileConfig) {
 	_init_.Initialize()
 

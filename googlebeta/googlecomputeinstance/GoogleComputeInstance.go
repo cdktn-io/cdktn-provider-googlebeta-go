@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_compute_instance google_compute_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_compute_instance google_compute_instance}.
 type GoogleComputeInstance interface {
 	cdktn.TerraformResource
 	AdvancedMachineFeatures() GoogleComputeInstanceAdvancedMachineFeaturesOutputReference
@@ -164,6 +164,8 @@ type GoogleComputeInstance interface {
 	TerraformResourceType() *string
 	Timeouts() GoogleComputeInstanceTimeoutsOutputReference
 	TimeoutsInput() interface{}
+	WorkloadIdentityConfig() GoogleComputeInstanceWorkloadIdentityConfigOutputReference
+	WorkloadIdentityConfigInput() *GoogleComputeInstanceWorkloadIdentityConfig
 	Zone() *string
 	SetZone(val *string)
 	ZoneInput() *string
@@ -225,6 +227,7 @@ type GoogleComputeInstance interface {
 	PutServiceAccount(value *GoogleComputeInstanceServiceAccount)
 	PutShieldedInstanceConfig(value *GoogleComputeInstanceShieldedInstanceConfig)
 	PutTimeouts(value *GoogleComputeInstanceTimeouts)
+	PutWorkloadIdentityConfig(value *GoogleComputeInstanceWorkloadIdentityConfig)
 	ResetAdvancedMachineFeatures()
 	ResetAllowStoppingForUpdate()
 	ResetAttachedDisk()
@@ -260,6 +263,7 @@ type GoogleComputeInstance interface {
 	ResetShieldedInstanceConfig()
 	ResetTags()
 	ResetTimeouts()
+	ResetWorkloadIdentityConfig()
 	ResetZone()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
@@ -1268,6 +1272,26 @@ func (j *jsiiProxy_GoogleComputeInstance) TimeoutsInput() interface{} {
 	return returns
 }
 
+func (j *jsiiProxy_GoogleComputeInstance) WorkloadIdentityConfig() GoogleComputeInstanceWorkloadIdentityConfigOutputReference {
+	var returns GoogleComputeInstanceWorkloadIdentityConfigOutputReference
+	_jsii_.Get(
+		j,
+		"workloadIdentityConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeInstance) WorkloadIdentityConfigInput() *GoogleComputeInstanceWorkloadIdentityConfig {
+	var returns *GoogleComputeInstanceWorkloadIdentityConfig
+	_jsii_.Get(
+		j,
+		"workloadIdentityConfigInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleComputeInstance) Zone() *string {
 	var returns *string
 	_jsii_.Get(
@@ -1289,7 +1313,7 @@ func (j *jsiiProxy_GoogleComputeInstance) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_compute_instance google_compute_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_compute_instance google_compute_instance} Resource.
 func NewGoogleComputeInstance(scope constructs.Construct, id *string, config *GoogleComputeInstanceConfig) GoogleComputeInstance {
 	_init_.Initialize()
 
@@ -1307,7 +1331,7 @@ func NewGoogleComputeInstance(scope constructs.Construct, id *string, config *Go
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_compute_instance google_compute_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_compute_instance google_compute_instance} Resource.
 func NewGoogleComputeInstance_Override(g GoogleComputeInstance, scope constructs.Construct, id *string, config *GoogleComputeInstanceConfig) {
 	_init_.Initialize()
 
@@ -2146,6 +2170,17 @@ func (g *jsiiProxy_GoogleComputeInstance) PutTimeouts(value *GoogleComputeInstan
 	)
 }
 
+func (g *jsiiProxy_GoogleComputeInstance) PutWorkloadIdentityConfig(value *GoogleComputeInstanceWorkloadIdentityConfig) {
+	if err := g.validatePutWorkloadIdentityConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putWorkloadIdentityConfig",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleComputeInstance) ResetAdvancedMachineFeatures() {
 	_jsii_.InvokeVoid(
 		g,
@@ -2406,6 +2441,14 @@ func (g *jsiiProxy_GoogleComputeInstance) ResetTimeouts() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetTimeouts",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleComputeInstance) ResetWorkloadIdentityConfig() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetWorkloadIdentityConfig",
 		nil, // no parameters
 	)
 }

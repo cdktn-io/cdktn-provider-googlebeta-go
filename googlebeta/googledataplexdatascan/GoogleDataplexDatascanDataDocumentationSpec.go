@@ -5,5 +5,9 @@ package googledataplexdatascan
 
 
 type GoogleDataplexDatascanDataDocumentationSpec struct {
+	// If set, the latest DataScan job result will be published to Knowledge Catalog.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_dataplex_datascan#catalog_publishing_enabled GoogleDataplexDatascan#catalog_publishing_enabled}
+	CatalogPublishingEnabled interface{} `field:"optional" json:"catalogPublishingEnabled" yaml:"catalogPublishingEnabled"`
 }
 

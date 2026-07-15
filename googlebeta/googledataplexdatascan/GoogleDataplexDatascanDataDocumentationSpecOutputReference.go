@@ -13,6 +13,9 @@ import (
 
 type GoogleDataplexDatascanDataDocumentationSpecOutputReference interface {
 	cdktn.ComplexObject
+	CatalogPublishingEnabled() interface{}
+	SetCatalogPublishingEnabled(val interface{})
+	CatalogPublishingEnabledInput() interface{}
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -64,6 +67,7 @@ type GoogleDataplexDatascanDataDocumentationSpecOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	ResetCatalogPublishingEnabled()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -77,6 +81,26 @@ type GoogleDataplexDatascanDataDocumentationSpecOutputReference interface {
 // The jsii proxy struct for GoogleDataplexDatascanDataDocumentationSpecOutputReference
 type jsiiProxy_GoogleDataplexDatascanDataDocumentationSpecOutputReference struct {
 	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_GoogleDataplexDatascanDataDocumentationSpecOutputReference) CatalogPublishingEnabled() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"catalogPublishingEnabled",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDataplexDatascanDataDocumentationSpecOutputReference) CatalogPublishingEnabledInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"catalogPublishingEnabledInput",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_GoogleDataplexDatascanDataDocumentationSpecOutputReference) ComplexObjectIndex() interface{} {
@@ -174,6 +198,17 @@ func NewGoogleDataplexDatascanDataDocumentationSpecOutputReference_Override(g Go
 		"@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataDocumentationSpecOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		g,
+	)
+}
+
+func (j *jsiiProxy_GoogleDataplexDatascanDataDocumentationSpecOutputReference)SetCatalogPublishingEnabled(val interface{}) {
+	if err := j.validateSetCatalogPublishingEnabledParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"catalogPublishingEnabled",
+		val,
 	)
 }
 
@@ -416,6 +451,14 @@ func (g *jsiiProxy_GoogleDataplexDatascanDataDocumentationSpecOutputReference) I
 	)
 
 	return returns
+}
+
+func (g *jsiiProxy_GoogleDataplexDatascanDataDocumentationSpecOutputReference) ResetCatalogPublishingEnabled() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetCatalogPublishingEnabled",
+		nil, // no parameters
+	)
 }
 
 func (g *jsiiProxy_GoogleDataplexDatascanDataDocumentationSpecOutputReference) Resolve(context cdktn.IResolveContext) interface{} {

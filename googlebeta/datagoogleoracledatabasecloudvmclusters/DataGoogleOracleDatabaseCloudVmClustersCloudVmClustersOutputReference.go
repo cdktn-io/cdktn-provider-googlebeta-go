@@ -38,6 +38,7 @@ type DataGoogleOracleDatabaseCloudVmClustersCloudVmClustersOutputReference inter
 	DisplayName() *string
 	EffectiveLabels() cdktn.StringMap
 	ExadataInfrastructure() *string
+	ExascaleDbStorageVault() *string
 	// Experimental.
 	Fqn() *string
 	GcpOracleZone() *string
@@ -225,6 +226,16 @@ func (j *jsiiProxy_DataGoogleOracleDatabaseCloudVmClustersCloudVmClustersOutputR
 	_jsii_.Get(
 		j,
 		"exadataInfrastructure",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleOracleDatabaseCloudVmClustersCloudVmClustersOutputReference) ExascaleDbStorageVault() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"exascaleDbStorageVault",
 		&returns,
 	)
 	return returns

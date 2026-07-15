@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_migration_center_discovery_client google_migration_center_discovery_client}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_migration_center_discovery_client google_migration_center_discovery_client}.
 type GoogleMigrationCenterDiscoveryClient interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -713,7 +713,7 @@ func (j *jsiiProxy_GoogleMigrationCenterDiscoveryClient) Version() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_migration_center_discovery_client google_migration_center_discovery_client} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_migration_center_discovery_client google_migration_center_discovery_client} Resource.
 func NewGoogleMigrationCenterDiscoveryClient(scope constructs.Construct, id *string, config *GoogleMigrationCenterDiscoveryClientConfig) GoogleMigrationCenterDiscoveryClient {
 	_init_.Initialize()
 
@@ -731,7 +731,7 @@ func NewGoogleMigrationCenterDiscoveryClient(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_migration_center_discovery_client google_migration_center_discovery_client} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_migration_center_discovery_client google_migration_center_discovery_client} Resource.
 func NewGoogleMigrationCenterDiscoveryClient_Override(g GoogleMigrationCenterDiscoveryClient, scope constructs.Construct, id *string, config *GoogleMigrationCenterDiscoveryClientConfig) {
 	_init_.Initialize()
 

@@ -30,6 +30,7 @@ type DataGoogleContainerClusterNodePoolNodeConfigLinuxNodeConfigOutputReference 
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
+	CustomNodeInit() DataGoogleContainerClusterNodePoolNodeConfigLinuxNodeConfigCustomNodeInitList
 	// Experimental.
 	Fqn() *string
 	HugepagesConfig() DataGoogleContainerClusterNodePoolNodeConfigLinuxNodeConfigHugepagesConfigList
@@ -132,6 +133,16 @@ func (j *jsiiProxy_DataGoogleContainerClusterNodePoolNodeConfigLinuxNodeConfigOu
 	_jsii_.Get(
 		j,
 		"creationStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleContainerClusterNodePoolNodeConfigLinuxNodeConfigOutputReference) CustomNodeInit() DataGoogleContainerClusterNodePoolNodeConfigLinuxNodeConfigCustomNodeInitList {
+	var returns DataGoogleContainerClusterNodePoolNodeConfigLinuxNodeConfigCustomNodeInitList
+	_jsii_.Get(
+		j,
+		"customNodeInit",
 		&returns,
 	)
 	return returns

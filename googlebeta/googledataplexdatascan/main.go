@@ -375,6 +375,8 @@ func init() {
 		"@cdktn/provider-google-beta.googleDataplexDatascan.GoogleDataplexDatascanDataDocumentationSpecOutputReference",
 		reflect.TypeOf((*GoogleDataplexDatascanDataDocumentationSpecOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "catalogPublishingEnabled", GoGetter: "CatalogPublishingEnabled"},
+			_jsii_.MemberProperty{JsiiProperty: "catalogPublishingEnabledInput", GoGetter: "CatalogPublishingEnabledInput"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -392,6 +394,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
 			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
 			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "resetCatalogPublishingEnabled", GoMethod: "ResetCatalogPublishingEnabled"},
 			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
 			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
 			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},

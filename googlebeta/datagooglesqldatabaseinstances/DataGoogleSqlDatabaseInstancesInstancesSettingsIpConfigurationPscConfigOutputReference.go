@@ -34,6 +34,7 @@ type DataGoogleSqlDatabaseInstancesInstancesSettingsIpConfigurationPscConfigOutp
 	InternalValue() *DataGoogleSqlDatabaseInstancesInstancesSettingsIpConfigurationPscConfig
 	SetInternalValue(val *DataGoogleSqlDatabaseInstancesInstancesSettingsIpConfigurationPscConfig)
 	NetworkAttachmentUri() *string
+	PscAutoConnectionPolicyEnabled() cdktn.IResolvable
 	PscAutoConnections() DataGoogleSqlDatabaseInstancesInstancesSettingsIpConfigurationPscConfigPscAutoConnectionsList
 	PscAutoDnsEnabled() cdktn.IResolvable
 	PscEnabled() cdktn.IResolvable
@@ -150,6 +151,16 @@ func (j *jsiiProxy_DataGoogleSqlDatabaseInstancesInstancesSettingsIpConfiguratio
 	_jsii_.Get(
 		j,
 		"networkAttachmentUri",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleSqlDatabaseInstancesInstancesSettingsIpConfigurationPscConfigOutputReference) PscAutoConnectionPolicyEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
+	_jsii_.Get(
+		j,
+		"pscAutoConnectionPolicyEnabled",
 		&returns,
 	)
 	return returns

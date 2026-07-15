@@ -3203,12 +3203,16 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "putDailyMaintenanceWindow", GoMethod: "PutDailyMaintenanceWindow"},
 			_jsii_.MemberMethod{JsiiMethod: "putDisruptionBudget", GoMethod: "PutDisruptionBudget"},
 			_jsii_.MemberMethod{JsiiMethod: "putMaintenanceExclusion", GoMethod: "PutMaintenanceExclusion"},
+			_jsii_.MemberMethod{JsiiMethod: "putRecurringMaintenanceWindow", GoMethod: "PutRecurringMaintenanceWindow"},
 			_jsii_.MemberMethod{JsiiMethod: "putRecurringWindow", GoMethod: "PutRecurringWindow"},
+			_jsii_.MemberProperty{JsiiProperty: "recurringMaintenanceWindow", GoGetter: "RecurringMaintenanceWindow"},
+			_jsii_.MemberProperty{JsiiProperty: "recurringMaintenanceWindowInput", GoGetter: "RecurringMaintenanceWindowInput"},
 			_jsii_.MemberProperty{JsiiProperty: "recurringWindow", GoGetter: "RecurringWindow"},
 			_jsii_.MemberProperty{JsiiProperty: "recurringWindowInput", GoGetter: "RecurringWindowInput"},
 			_jsii_.MemberMethod{JsiiMethod: "resetDailyMaintenanceWindow", GoMethod: "ResetDailyMaintenanceWindow"},
 			_jsii_.MemberMethod{JsiiMethod: "resetDisruptionBudget", GoMethod: "ResetDisruptionBudget"},
 			_jsii_.MemberMethod{JsiiMethod: "resetMaintenanceExclusion", GoMethod: "ResetMaintenanceExclusion"},
+			_jsii_.MemberMethod{JsiiMethod: "resetRecurringMaintenanceWindow", GoMethod: "ResetRecurringMaintenanceWindow"},
 			_jsii_.MemberMethod{JsiiMethod: "resetRecurringWindow", GoMethod: "ResetRecurringWindow"},
 			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
 			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
@@ -3217,6 +3221,137 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GoogleContainerClusterMaintenancePolicyOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-google-beta.googleContainerCluster.GoogleContainerClusterMaintenancePolicyRecurringMaintenanceWindow",
+		reflect.TypeOf((*GoogleContainerClusterMaintenancePolicyRecurringMaintenanceWindow)(nil)).Elem(),
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-google-beta.googleContainerCluster.GoogleContainerClusterMaintenancePolicyRecurringMaintenanceWindowDelayUntil",
+		reflect.TypeOf((*GoogleContainerClusterMaintenancePolicyRecurringMaintenanceWindowDelayUntil)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-google-beta.googleContainerCluster.GoogleContainerClusterMaintenancePolicyRecurringMaintenanceWindowDelayUntilOutputReference",
+		reflect.TypeOf((*GoogleContainerClusterMaintenancePolicyRecurringMaintenanceWindowDelayUntilOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "day", GoGetter: "Day"},
+			_jsii_.MemberProperty{JsiiProperty: "dayInput", GoGetter: "DayInput"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "month", GoGetter: "Month"},
+			_jsii_.MemberProperty{JsiiProperty: "monthInput", GoGetter: "MonthInput"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "year", GoGetter: "Year"},
+			_jsii_.MemberProperty{JsiiProperty: "yearInput", GoGetter: "YearInput"},
+		},
+		func() interface{} {
+			j := jsiiProxy_GoogleContainerClusterMaintenancePolicyRecurringMaintenanceWindowDelayUntilOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-google-beta.googleContainerCluster.GoogleContainerClusterMaintenancePolicyRecurringMaintenanceWindowOutputReference",
+		reflect.TypeOf((*GoogleContainerClusterMaintenancePolicyRecurringMaintenanceWindowOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "delayUntil", GoGetter: "DelayUntil"},
+			_jsii_.MemberProperty{JsiiProperty: "delayUntilInput", GoGetter: "DelayUntilInput"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "putDelayUntil", GoMethod: "PutDelayUntil"},
+			_jsii_.MemberMethod{JsiiMethod: "putWindowStartTime", GoMethod: "PutWindowStartTime"},
+			_jsii_.MemberProperty{JsiiProperty: "recurrence", GoGetter: "Recurrence"},
+			_jsii_.MemberProperty{JsiiProperty: "recurrenceInput", GoGetter: "RecurrenceInput"},
+			_jsii_.MemberMethod{JsiiMethod: "resetDelayUntil", GoMethod: "ResetDelayUntil"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "windowDuration", GoGetter: "WindowDuration"},
+			_jsii_.MemberProperty{JsiiProperty: "windowDurationInput", GoGetter: "WindowDurationInput"},
+			_jsii_.MemberProperty{JsiiProperty: "windowStartTime", GoGetter: "WindowStartTime"},
+			_jsii_.MemberProperty{JsiiProperty: "windowStartTimeInput", GoGetter: "WindowStartTimeInput"},
+		},
+		func() interface{} {
+			j := jsiiProxy_GoogleContainerClusterMaintenancePolicyRecurringMaintenanceWindowOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-google-beta.googleContainerCluster.GoogleContainerClusterMaintenancePolicyRecurringMaintenanceWindowWindowStartTime",
+		reflect.TypeOf((*GoogleContainerClusterMaintenancePolicyRecurringMaintenanceWindowWindowStartTime)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-google-beta.googleContainerCluster.GoogleContainerClusterMaintenancePolicyRecurringMaintenanceWindowWindowStartTimeOutputReference",
+		reflect.TypeOf((*GoogleContainerClusterMaintenancePolicyRecurringMaintenanceWindowWindowStartTimeOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "hours", GoGetter: "Hours"},
+			_jsii_.MemberProperty{JsiiProperty: "hoursInput", GoGetter: "HoursInput"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "minutes", GoGetter: "Minutes"},
+			_jsii_.MemberProperty{JsiiProperty: "minutesInput", GoGetter: "MinutesInput"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "seconds", GoGetter: "Seconds"},
+			_jsii_.MemberProperty{JsiiProperty: "secondsInput", GoGetter: "SecondsInput"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_GoogleContainerClusterMaintenancePolicyRecurringMaintenanceWindowWindowStartTimeOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
@@ -5470,6 +5605,91 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
+		"@cdktn/provider-google-beta.googleContainerCluster.GoogleContainerClusterNodeConfigLinuxNodeConfigCustomNodeInit",
+		reflect.TypeOf((*GoogleContainerClusterNodeConfigLinuxNodeConfigCustomNodeInit)(nil)).Elem(),
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-google-beta.googleContainerCluster.GoogleContainerClusterNodeConfigLinuxNodeConfigCustomNodeInitInitScript",
+		reflect.TypeOf((*GoogleContainerClusterNodeConfigLinuxNodeConfigCustomNodeInitInitScript)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-google-beta.googleContainerCluster.GoogleContainerClusterNodeConfigLinuxNodeConfigCustomNodeInitInitScriptOutputReference",
+		reflect.TypeOf((*GoogleContainerClusterNodeConfigLinuxNodeConfigCustomNodeInitInitScriptOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberProperty{JsiiProperty: "gcpSecretManagerSecretUri", GoGetter: "GcpSecretManagerSecretUri"},
+			_jsii_.MemberProperty{JsiiProperty: "gcpSecretManagerSecretUriInput", GoGetter: "GcpSecretManagerSecretUriInput"},
+			_jsii_.MemberProperty{JsiiProperty: "gcsGeneration", GoGetter: "GcsGeneration"},
+			_jsii_.MemberProperty{JsiiProperty: "gcsGenerationInput", GoGetter: "GcsGenerationInput"},
+			_jsii_.MemberProperty{JsiiProperty: "gcsUri", GoGetter: "GcsUri"},
+			_jsii_.MemberProperty{JsiiProperty: "gcsUriInput", GoGetter: "GcsUriInput"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "resetGcpSecretManagerSecretUri", GoMethod: "ResetGcpSecretManagerSecretUri"},
+			_jsii_.MemberMethod{JsiiMethod: "resetGcsGeneration", GoMethod: "ResetGcsGeneration"},
+			_jsii_.MemberMethod{JsiiMethod: "resetGcsUri", GoMethod: "ResetGcsUri"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_GoogleContainerClusterNodeConfigLinuxNodeConfigCustomNodeInitInitScriptOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-google-beta.googleContainerCluster.GoogleContainerClusterNodeConfigLinuxNodeConfigCustomNodeInitOutputReference",
+		reflect.TypeOf((*GoogleContainerClusterNodeConfigLinuxNodeConfigCustomNodeInitOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "initScript", GoGetter: "InitScript"},
+			_jsii_.MemberProperty{JsiiProperty: "initScriptInput", GoGetter: "InitScriptInput"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "putInitScript", GoMethod: "PutInitScript"},
+			_jsii_.MemberMethod{JsiiMethod: "resetInitScript", GoMethod: "ResetInitScript"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_GoogleContainerClusterNodeConfigLinuxNodeConfigCustomNodeInitOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
 		"@cdktn/provider-google-beta.googleContainerCluster.GoogleContainerClusterNodeConfigLinuxNodeConfigHugepagesConfig",
 		reflect.TypeOf((*GoogleContainerClusterNodeConfigLinuxNodeConfigHugepagesConfig)(nil)).Elem(),
 	)
@@ -5562,6 +5782,8 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
 			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "customNodeInit", GoGetter: "CustomNodeInit"},
+			_jsii_.MemberProperty{JsiiProperty: "customNodeInitInput", GoGetter: "CustomNodeInitInput"},
 			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
 			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
 			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
@@ -5580,11 +5802,13 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "nodeKernelModuleLoading", GoGetter: "NodeKernelModuleLoading"},
 			_jsii_.MemberProperty{JsiiProperty: "nodeKernelModuleLoadingInput", GoGetter: "NodeKernelModuleLoadingInput"},
 			_jsii_.MemberMethod{JsiiMethod: "putAccurateTimeConfig", GoMethod: "PutAccurateTimeConfig"},
+			_jsii_.MemberMethod{JsiiMethod: "putCustomNodeInit", GoMethod: "PutCustomNodeInit"},
 			_jsii_.MemberMethod{JsiiMethod: "putHugepagesConfig", GoMethod: "PutHugepagesConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "putNodeKernelModuleLoading", GoMethod: "PutNodeKernelModuleLoading"},
 			_jsii_.MemberMethod{JsiiMethod: "putSwapConfig", GoMethod: "PutSwapConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "resetAccurateTimeConfig", GoMethod: "ResetAccurateTimeConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "resetCgroupMode", GoMethod: "ResetCgroupMode"},
+			_jsii_.MemberMethod{JsiiMethod: "resetCustomNodeInit", GoMethod: "ResetCustomNodeInit"},
 			_jsii_.MemberMethod{JsiiMethod: "resetHugepagesConfig", GoMethod: "ResetHugepagesConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "resetNodeKernelModuleLoading", GoMethod: "ResetNodeKernelModuleLoading"},
 			_jsii_.MemberMethod{JsiiMethod: "resetSwapConfig", GoMethod: "ResetSwapConfig"},
@@ -7701,6 +7925,131 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
+		"@cdktn/provider-google-beta.googleContainerCluster.GoogleContainerClusterNodePoolMaintenancePolicy",
+		reflect.TypeOf((*GoogleContainerClusterNodePoolMaintenancePolicy)(nil)).Elem(),
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-google-beta.googleContainerCluster.GoogleContainerClusterNodePoolMaintenancePolicyExclusionUntilEndOfSupport",
+		reflect.TypeOf((*GoogleContainerClusterNodePoolMaintenancePolicyExclusionUntilEndOfSupport)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-google-beta.googleContainerCluster.GoogleContainerClusterNodePoolMaintenancePolicyExclusionUntilEndOfSupportList",
+		reflect.TypeOf((*GoogleContainerClusterNodePoolMaintenancePolicyExclusionUntilEndOfSupportList)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
+		},
+		func() interface{} {
+			j := jsiiProxy_GoogleContainerClusterNodePoolMaintenancePolicyExclusionUntilEndOfSupportList{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
+			return &j
+		},
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-google-beta.googleContainerCluster.GoogleContainerClusterNodePoolMaintenancePolicyExclusionUntilEndOfSupportOutputReference",
+		reflect.TypeOf((*GoogleContainerClusterNodePoolMaintenancePolicyExclusionUntilEndOfSupportOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "enabled", GoGetter: "Enabled"},
+			_jsii_.MemberProperty{JsiiProperty: "enabledInput", GoGetter: "EnabledInput"},
+			_jsii_.MemberProperty{JsiiProperty: "endTime", GoGetter: "EndTime"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "resetEnabled", GoMethod: "ResetEnabled"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "startTime", GoGetter: "StartTime"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_GoogleContainerClusterNodePoolMaintenancePolicyExclusionUntilEndOfSupportOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-google-beta.googleContainerCluster.GoogleContainerClusterNodePoolMaintenancePolicyList",
+		reflect.TypeOf((*GoogleContainerClusterNodePoolMaintenancePolicyList)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
+		},
+		func() interface{} {
+			j := jsiiProxy_GoogleContainerClusterNodePoolMaintenancePolicyList{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
+			return &j
+		},
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-google-beta.googleContainerCluster.GoogleContainerClusterNodePoolMaintenancePolicyOutputReference",
+		reflect.TypeOf((*GoogleContainerClusterNodePoolMaintenancePolicyOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "exclusionUntilEndOfSupport", GoGetter: "ExclusionUntilEndOfSupport"},
+			_jsii_.MemberProperty{JsiiProperty: "exclusionUntilEndOfSupportInput", GoGetter: "ExclusionUntilEndOfSupportInput"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "putExclusionUntilEndOfSupport", GoMethod: "PutExclusionUntilEndOfSupport"},
+			_jsii_.MemberMethod{JsiiMethod: "resetExclusionUntilEndOfSupport", GoMethod: "ResetExclusionUntilEndOfSupport"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_GoogleContainerClusterNodePoolMaintenancePolicyOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
 		"@cdktn/provider-google-beta.googleContainerCluster.GoogleContainerClusterNodePoolManagement",
 		reflect.TypeOf((*GoogleContainerClusterNodePoolManagement)(nil)).Elem(),
 	)
@@ -9675,6 +10024,91 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
+		"@cdktn/provider-google-beta.googleContainerCluster.GoogleContainerClusterNodePoolNodeConfigLinuxNodeConfigCustomNodeInit",
+		reflect.TypeOf((*GoogleContainerClusterNodePoolNodeConfigLinuxNodeConfigCustomNodeInit)(nil)).Elem(),
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-google-beta.googleContainerCluster.GoogleContainerClusterNodePoolNodeConfigLinuxNodeConfigCustomNodeInitInitScript",
+		reflect.TypeOf((*GoogleContainerClusterNodePoolNodeConfigLinuxNodeConfigCustomNodeInitInitScript)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-google-beta.googleContainerCluster.GoogleContainerClusterNodePoolNodeConfigLinuxNodeConfigCustomNodeInitInitScriptOutputReference",
+		reflect.TypeOf((*GoogleContainerClusterNodePoolNodeConfigLinuxNodeConfigCustomNodeInitInitScriptOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberProperty{JsiiProperty: "gcpSecretManagerSecretUri", GoGetter: "GcpSecretManagerSecretUri"},
+			_jsii_.MemberProperty{JsiiProperty: "gcpSecretManagerSecretUriInput", GoGetter: "GcpSecretManagerSecretUriInput"},
+			_jsii_.MemberProperty{JsiiProperty: "gcsGeneration", GoGetter: "GcsGeneration"},
+			_jsii_.MemberProperty{JsiiProperty: "gcsGenerationInput", GoGetter: "GcsGenerationInput"},
+			_jsii_.MemberProperty{JsiiProperty: "gcsUri", GoGetter: "GcsUri"},
+			_jsii_.MemberProperty{JsiiProperty: "gcsUriInput", GoGetter: "GcsUriInput"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "resetGcpSecretManagerSecretUri", GoMethod: "ResetGcpSecretManagerSecretUri"},
+			_jsii_.MemberMethod{JsiiMethod: "resetGcsGeneration", GoMethod: "ResetGcsGeneration"},
+			_jsii_.MemberMethod{JsiiMethod: "resetGcsUri", GoMethod: "ResetGcsUri"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_GoogleContainerClusterNodePoolNodeConfigLinuxNodeConfigCustomNodeInitInitScriptOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-google-beta.googleContainerCluster.GoogleContainerClusterNodePoolNodeConfigLinuxNodeConfigCustomNodeInitOutputReference",
+		reflect.TypeOf((*GoogleContainerClusterNodePoolNodeConfigLinuxNodeConfigCustomNodeInitOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "initScript", GoGetter: "InitScript"},
+			_jsii_.MemberProperty{JsiiProperty: "initScriptInput", GoGetter: "InitScriptInput"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "putInitScript", GoMethod: "PutInitScript"},
+			_jsii_.MemberMethod{JsiiMethod: "resetInitScript", GoMethod: "ResetInitScript"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_GoogleContainerClusterNodePoolNodeConfigLinuxNodeConfigCustomNodeInitOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
 		"@cdktn/provider-google-beta.googleContainerCluster.GoogleContainerClusterNodePoolNodeConfigLinuxNodeConfigHugepagesConfig",
 		reflect.TypeOf((*GoogleContainerClusterNodePoolNodeConfigLinuxNodeConfigHugepagesConfig)(nil)).Elem(),
 	)
@@ -9767,6 +10201,8 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
 			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "customNodeInit", GoGetter: "CustomNodeInit"},
+			_jsii_.MemberProperty{JsiiProperty: "customNodeInitInput", GoGetter: "CustomNodeInitInput"},
 			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
 			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
 			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
@@ -9785,11 +10221,13 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "nodeKernelModuleLoading", GoGetter: "NodeKernelModuleLoading"},
 			_jsii_.MemberProperty{JsiiProperty: "nodeKernelModuleLoadingInput", GoGetter: "NodeKernelModuleLoadingInput"},
 			_jsii_.MemberMethod{JsiiMethod: "putAccurateTimeConfig", GoMethod: "PutAccurateTimeConfig"},
+			_jsii_.MemberMethod{JsiiMethod: "putCustomNodeInit", GoMethod: "PutCustomNodeInit"},
 			_jsii_.MemberMethod{JsiiMethod: "putHugepagesConfig", GoMethod: "PutHugepagesConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "putNodeKernelModuleLoading", GoMethod: "PutNodeKernelModuleLoading"},
 			_jsii_.MemberMethod{JsiiMethod: "putSwapConfig", GoMethod: "PutSwapConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "resetAccurateTimeConfig", GoMethod: "ResetAccurateTimeConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "resetCgroupMode", GoMethod: "ResetCgroupMode"},
+			_jsii_.MemberMethod{JsiiMethod: "resetCustomNodeInit", GoMethod: "ResetCustomNodeInit"},
 			_jsii_.MemberMethod{JsiiMethod: "resetHugepagesConfig", GoMethod: "ResetHugepagesConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "resetNodeKernelModuleLoading", GoMethod: "ResetNodeKernelModuleLoading"},
 			_jsii_.MemberMethod{JsiiMethod: "resetSwapConfig", GoMethod: "ResetSwapConfig"},
@@ -10906,6 +11344,8 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
 			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
 			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "maintenancePolicy", GoGetter: "MaintenancePolicy"},
+			_jsii_.MemberProperty{JsiiProperty: "maintenancePolicyInput", GoGetter: "MaintenancePolicyInput"},
 			_jsii_.MemberProperty{JsiiProperty: "managedInstanceGroupUrls", GoGetter: "ManagedInstanceGroupUrls"},
 			_jsii_.MemberProperty{JsiiProperty: "management", GoGetter: "Management"},
 			_jsii_.MemberProperty{JsiiProperty: "managementInput", GoGetter: "ManagementInput"},
@@ -10928,6 +11368,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "placementPolicy", GoGetter: "PlacementPolicy"},
 			_jsii_.MemberProperty{JsiiProperty: "placementPolicyInput", GoGetter: "PlacementPolicyInput"},
 			_jsii_.MemberMethod{JsiiMethod: "putAutoscaling", GoMethod: "PutAutoscaling"},
+			_jsii_.MemberMethod{JsiiMethod: "putMaintenancePolicy", GoMethod: "PutMaintenancePolicy"},
 			_jsii_.MemberMethod{JsiiMethod: "putManagement", GoMethod: "PutManagement"},
 			_jsii_.MemberMethod{JsiiMethod: "putNetworkConfig", GoMethod: "PutNetworkConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "putNodeConfig", GoMethod: "PutNodeConfig"},
@@ -10940,6 +11381,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetAutoscaling", GoMethod: "ResetAutoscaling"},
 			_jsii_.MemberMethod{JsiiMethod: "resetIgnoreNodeCountChanges", GoMethod: "ResetIgnoreNodeCountChanges"},
 			_jsii_.MemberMethod{JsiiMethod: "resetInitialNodeCount", GoMethod: "ResetInitialNodeCount"},
+			_jsii_.MemberMethod{JsiiMethod: "resetMaintenancePolicy", GoMethod: "ResetMaintenancePolicy"},
 			_jsii_.MemberMethod{JsiiMethod: "resetManagement", GoMethod: "ResetManagement"},
 			_jsii_.MemberMethod{JsiiMethod: "resetMaxPodsPerNode", GoMethod: "ResetMaxPodsPerNode"},
 			_jsii_.MemberMethod{JsiiMethod: "resetName", GoMethod: "ResetName"},

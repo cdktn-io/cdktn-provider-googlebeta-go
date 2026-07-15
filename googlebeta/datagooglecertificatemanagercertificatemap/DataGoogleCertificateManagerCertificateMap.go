@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/data-sources/google_certificate_manager_certificate_map google_certificate_manager_certificate_map}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/data-sources/google_certificate_manager_certificate_map google_certificate_manager_certificate_map}.
 type DataGoogleCertificateManagerCertificateMap interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -409,7 +409,7 @@ func (j *jsiiProxy_DataGoogleCertificateManagerCertificateMap) UpdateTime() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/data-sources/google_certificate_manager_certificate_map google_certificate_manager_certificate_map} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/data-sources/google_certificate_manager_certificate_map google_certificate_manager_certificate_map} Data Source.
 func NewDataGoogleCertificateManagerCertificateMap(scope constructs.Construct, id *string, config *DataGoogleCertificateManagerCertificateMapConfig) DataGoogleCertificateManagerCertificateMap {
 	_init_.Initialize()
 
@@ -427,7 +427,7 @@ func NewDataGoogleCertificateManagerCertificateMap(scope constructs.Construct, i
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/data-sources/google_certificate_manager_certificate_map google_certificate_manager_certificate_map} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/data-sources/google_certificate_manager_certificate_map google_certificate_manager_certificate_map} Data Source.
 func NewDataGoogleCertificateManagerCertificateMap_Override(d DataGoogleCertificateManagerCertificateMap, scope constructs.Construct, id *string, config *DataGoogleCertificateManagerCertificateMapConfig) {
 	_init_.Initialize()
 

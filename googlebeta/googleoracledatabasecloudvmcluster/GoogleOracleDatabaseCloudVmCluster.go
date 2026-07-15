@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_oracle_database_cloud_vm_cluster google_oracle_database_cloud_vm_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_oracle_database_cloud_vm_cluster google_oracle_database_cloud_vm_cluster}.
 type GoogleOracleDatabaseCloudVmCluster interface {
 	cdktn.TerraformResource
 	BackupOdbSubnet() *string
@@ -57,6 +57,9 @@ type GoogleOracleDatabaseCloudVmCluster interface {
 	ExadataInfrastructure() *string
 	SetExadataInfrastructure(val *string)
 	ExadataInfrastructureInput() *string
+	ExascaleDbStorageVault() *string
+	SetExascaleDbStorageVault(val *string)
+	ExascaleDbStorageVaultInput() *string
 	// Experimental.
 	ForEach() cdktn.ITerraformIterator
 	// Experimental.
@@ -167,6 +170,7 @@ type GoogleOracleDatabaseCloudVmCluster interface {
 	ResetDeletionPolicy()
 	ResetDeletionProtection()
 	ResetDisplayName()
+	ResetExascaleDbStorageVault()
 	ResetId()
 	ResetLabels()
 	ResetNetwork()
@@ -430,6 +434,26 @@ func (j *jsiiProxy_GoogleOracleDatabaseCloudVmCluster) ExadataInfrastructureInpu
 	_jsii_.Get(
 		j,
 		"exadataInfrastructureInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleOracleDatabaseCloudVmCluster) ExascaleDbStorageVault() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"exascaleDbStorageVault",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleOracleDatabaseCloudVmCluster) ExascaleDbStorageVaultInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"exascaleDbStorageVaultInput",
 		&returns,
 	)
 	return returns
@@ -766,7 +790,7 @@ func (j *jsiiProxy_GoogleOracleDatabaseCloudVmCluster) TimeoutsInput() interface
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_oracle_database_cloud_vm_cluster google_oracle_database_cloud_vm_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_oracle_database_cloud_vm_cluster google_oracle_database_cloud_vm_cluster} Resource.
 func NewGoogleOracleDatabaseCloudVmCluster(scope constructs.Construct, id *string, config *GoogleOracleDatabaseCloudVmClusterConfig) GoogleOracleDatabaseCloudVmCluster {
 	_init_.Initialize()
 
@@ -784,7 +808,7 @@ func NewGoogleOracleDatabaseCloudVmCluster(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_oracle_database_cloud_vm_cluster google_oracle_database_cloud_vm_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_oracle_database_cloud_vm_cluster google_oracle_database_cloud_vm_cluster} Resource.
 func NewGoogleOracleDatabaseCloudVmCluster_Override(g GoogleOracleDatabaseCloudVmCluster, scope constructs.Construct, id *string, config *GoogleOracleDatabaseCloudVmClusterConfig) {
 	_init_.Initialize()
 
@@ -909,6 +933,17 @@ func (j *jsiiProxy_GoogleOracleDatabaseCloudVmCluster)SetExadataInfrastructure(v
 	_jsii_.Set(
 		j,
 		"exadataInfrastructure",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleOracleDatabaseCloudVmCluster)SetExascaleDbStorageVault(val *string) {
+	if err := j.validateSetExascaleDbStorageVaultParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"exascaleDbStorageVault",
 		val,
 	)
 }
@@ -1447,6 +1482,14 @@ func (g *jsiiProxy_GoogleOracleDatabaseCloudVmCluster) ResetDisplayName() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetDisplayName",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleOracleDatabaseCloudVmCluster) ResetExascaleDbStorageVault() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetExascaleDbStorageVault",
 		nil, // no parameters
 	)
 }

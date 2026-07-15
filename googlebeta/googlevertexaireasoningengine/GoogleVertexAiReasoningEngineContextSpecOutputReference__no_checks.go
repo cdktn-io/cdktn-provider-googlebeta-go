@@ -47,6 +47,10 @@ func (g *jsiiProxy_GoogleVertexAiReasoningEngineContextSpecOutputReference) vali
 	return nil
 }
 
+func (g *jsiiProxy_GoogleVertexAiReasoningEngineContextSpecOutputReference) validatePutExampleStoreConfigParameters(value *GoogleVertexAiReasoningEngineContextSpecExampleStoreConfig) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleVertexAiReasoningEngineContextSpecOutputReference) validatePutMemoryBankConfigParameters(value *GoogleVertexAiReasoningEngineContextSpecMemoryBankConfig) error {
 	return nil
 }

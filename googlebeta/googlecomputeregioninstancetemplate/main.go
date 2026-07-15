@@ -103,6 +103,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "putServiceAccount", GoMethod: "PutServiceAccount"},
 			_jsii_.MemberMethod{JsiiMethod: "putShieldedInstanceConfig", GoMethod: "PutShieldedInstanceConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "putTimeouts", GoMethod: "PutTimeouts"},
+			_jsii_.MemberMethod{JsiiMethod: "putWorkloadIdentityConfig", GoMethod: "PutWorkloadIdentityConfig"},
 			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
 			_jsii_.MemberProperty{JsiiProperty: "region", GoGetter: "Region"},
 			_jsii_.MemberProperty{JsiiProperty: "regionInput", GoGetter: "RegionInput"},
@@ -138,6 +139,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetShieldedInstanceConfig", GoMethod: "ResetShieldedInstanceConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "resetTags", GoMethod: "ResetTags"},
 			_jsii_.MemberMethod{JsiiMethod: "resetTimeouts", GoMethod: "ResetTimeouts"},
+			_jsii_.MemberMethod{JsiiMethod: "resetWorkloadIdentityConfig", GoMethod: "ResetWorkloadIdentityConfig"},
 			_jsii_.MemberProperty{JsiiProperty: "resourceManagerTags", GoGetter: "ResourceManagerTags"},
 			_jsii_.MemberProperty{JsiiProperty: "resourceManagerTagsInput", GoGetter: "ResourceManagerTagsInput"},
 			_jsii_.MemberProperty{JsiiProperty: "resourcePolicies", GoGetter: "ResourcePolicies"},
@@ -165,6 +167,8 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
+			_jsii_.MemberProperty{JsiiProperty: "workloadIdentityConfig", GoGetter: "WorkloadIdentityConfig"},
+			_jsii_.MemberProperty{JsiiProperty: "workloadIdentityConfigInput", GoGetter: "WorkloadIdentityConfigInput"},
 		},
 		func() interface{} {
 			j := jsiiProxy_GoogleComputeRegionInstanceTemplate{}
@@ -1638,6 +1642,48 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GoogleComputeRegionInstanceTemplateTimeoutsOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateWorkloadIdentityConfig",
+		reflect.TypeOf((*GoogleComputeRegionInstanceTemplateWorkloadIdentityConfig)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-google-beta.googleComputeRegionInstanceTemplate.GoogleComputeRegionInstanceTemplateWorkloadIdentityConfigOutputReference",
+		reflect.TypeOf((*GoogleComputeRegionInstanceTemplateWorkloadIdentityConfigOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "identity", GoGetter: "Identity"},
+			_jsii_.MemberProperty{JsiiProperty: "identityCertificateEnabled", GoGetter: "IdentityCertificateEnabled"},
+			_jsii_.MemberProperty{JsiiProperty: "identityCertificateEnabledInput", GoGetter: "IdentityCertificateEnabledInput"},
+			_jsii_.MemberProperty{JsiiProperty: "identityInput", GoGetter: "IdentityInput"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "resetIdentity", GoMethod: "ResetIdentity"},
+			_jsii_.MemberMethod{JsiiMethod: "resetIdentityCertificateEnabled", GoMethod: "ResetIdentityCertificateEnabled"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_GoogleComputeRegionInstanceTemplateWorkloadIdentityConfigOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},

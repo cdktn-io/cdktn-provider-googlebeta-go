@@ -135,6 +135,10 @@ func (g *jsiiProxy_GoogleComputeInstance) validatePutTimeoutsParameters(value *G
 	return nil
 }
 
+func (g *jsiiProxy_GoogleComputeInstance) validatePutWorkloadIdentityConfigParameters(value *GoogleComputeInstanceWorkloadIdentityConfig) error {
+	return nil
+}
+
 func validateGoogleComputeInstance_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

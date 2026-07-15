@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_sql_database_instance google_sql_database_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_sql_database_instance google_sql_database_instance}.
 type GoogleSqlDatabaseInstance interface {
 	cdktn.TerraformResource
 	AvailableMaintenanceVersions() *[]*string
@@ -52,6 +52,9 @@ type GoogleSqlDatabaseInstance interface {
 	EncryptionKeyName() *string
 	SetEncryptionKeyName(val *string)
 	EncryptionKeyNameInput() *string
+	EnforceNewSqlNetworkArchitecture() interface{}
+	SetEnforceNewSqlNetworkArchitecture(val interface{})
+	EnforceNewSqlNetworkArchitectureInput() interface{}
 	FinalBackupDescription() *string
 	SetFinalBackupDescription(val *string)
 	FinalBackupDescriptionInput() *string
@@ -196,6 +199,7 @@ type GoogleSqlDatabaseInstance interface {
 	ResetDeletionPolicy()
 	ResetDeletionProtection()
 	ResetEncryptionKeyName()
+	ResetEnforceNewSqlNetworkArchitecture()
 	ResetFinalBackupDescription()
 	ResetId()
 	ResetInstanceType()
@@ -450,6 +454,26 @@ func (j *jsiiProxy_GoogleSqlDatabaseInstance) EncryptionKeyNameInput() *string {
 	_jsii_.Get(
 		j,
 		"encryptionKeyNameInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleSqlDatabaseInstance) EnforceNewSqlNetworkArchitecture() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"enforceNewSqlNetworkArchitecture",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleSqlDatabaseInstance) EnforceNewSqlNetworkArchitectureInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"enforceNewSqlNetworkArchitectureInput",
 		&returns,
 	)
 	return returns
@@ -1026,7 +1050,7 @@ func (j *jsiiProxy_GoogleSqlDatabaseInstance) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_sql_database_instance google_sql_database_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_sql_database_instance google_sql_database_instance} Resource.
 func NewGoogleSqlDatabaseInstance(scope constructs.Construct, id *string, config *GoogleSqlDatabaseInstanceConfig) GoogleSqlDatabaseInstance {
 	_init_.Initialize()
 
@@ -1044,7 +1068,7 @@ func NewGoogleSqlDatabaseInstance(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.39.0/docs/resources/google_sql_database_instance google_sql_database_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_sql_database_instance google_sql_database_instance} Resource.
 func NewGoogleSqlDatabaseInstance_Override(g GoogleSqlDatabaseInstance, scope constructs.Construct, id *string, config *GoogleSqlDatabaseInstanceConfig) {
 	_init_.Initialize()
 
@@ -1136,6 +1160,17 @@ func (j *jsiiProxy_GoogleSqlDatabaseInstance)SetEncryptionKeyName(val *string) {
 	_jsii_.Set(
 		j,
 		"encryptionKeyName",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleSqlDatabaseInstance)SetEnforceNewSqlNetworkArchitecture(val interface{}) {
+	if err := j.validateSetEnforceNewSqlNetworkArchitectureParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"enforceNewSqlNetworkArchitecture",
 		val,
 	)
 }
@@ -1787,6 +1822,14 @@ func (g *jsiiProxy_GoogleSqlDatabaseInstance) ResetEncryptionKeyName() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetEncryptionKeyName",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleSqlDatabaseInstance) ResetEnforceNewSqlNetworkArchitecture() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetEnforceNewSqlNetworkArchitecture",
 		nil, // no parameters
 	)
 }

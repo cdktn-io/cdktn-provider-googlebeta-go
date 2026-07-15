@@ -51,6 +51,10 @@ func (g *jsiiProxy_GoogleContainerClusterNodePoolOutputReference) validatePutAut
 	return nil
 }
 
+func (g *jsiiProxy_GoogleContainerClusterNodePoolOutputReference) validatePutMaintenancePolicyParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleContainerClusterNodePoolOutputReference) validatePutManagementParameters(value *GoogleContainerClusterNodePoolManagement) error {
 	return nil
 }

@@ -51,6 +51,10 @@ func (g *jsiiProxy_GoogleContainerClusterNodeConfigLinuxNodeConfigOutputReferenc
 	return nil
 }
 
+func (g *jsiiProxy_GoogleContainerClusterNodeConfigLinuxNodeConfigOutputReference) validatePutCustomNodeInitParameters(value *GoogleContainerClusterNodeConfigLinuxNodeConfigCustomNodeInit) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleContainerClusterNodeConfigLinuxNodeConfigOutputReference) validatePutHugepagesConfigParameters(value *GoogleContainerClusterNodeConfigLinuxNodeConfigHugepagesConfig) error {
 	return nil
 }

@@ -83,6 +83,10 @@ func (j *jsiiProxy_GoogleStorageTransferJobTransferSpecAzureBlobStorageDataSourc
 	return nil
 }
 
+func (j *jsiiProxy_GoogleStorageTransferJobTransferSpecAzureBlobStorageDataSourceOutputReference) validateSetPrivateNetworkServiceParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleStorageTransferJobTransferSpecAzureBlobStorageDataSourceOutputReference) validateSetStorageAccountParameters(val *string) error {
 	return nil
 }

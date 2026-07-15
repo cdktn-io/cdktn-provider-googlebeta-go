@@ -47,7 +47,15 @@ func (g *jsiiProxy_GoogleVertexAiReasoningEngineSpecDeploymentSpecOutputReferenc
 	return nil
 }
 
+func (g *jsiiProxy_GoogleVertexAiReasoningEngineSpecDeploymentSpecOutputReference) validatePutAgentGatewayConfigParameters(value *GoogleVertexAiReasoningEngineSpecDeploymentSpecAgentGatewayConfig) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleVertexAiReasoningEngineSpecDeploymentSpecOutputReference) validatePutEnvParameters(value interface{}) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleVertexAiReasoningEngineSpecDeploymentSpecOutputReference) validatePutKeepAliveProbeParameters(value *GoogleVertexAiReasoningEngineSpecDeploymentSpecKeepAliveProbe) error {
 	return nil
 }
 
@@ -63,6 +71,10 @@ func (g *jsiiProxy_GoogleVertexAiReasoningEngineSpecDeploymentSpecOutputReferenc
 	return nil
 }
 
+func (j *jsiiProxy_GoogleVertexAiReasoningEngineSpecDeploymentSpecOutputReference) validateSetAgentServerModeParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleVertexAiReasoningEngineSpecDeploymentSpecOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
 	return nil
 }
@@ -72,6 +84,10 @@ func (j *jsiiProxy_GoogleVertexAiReasoningEngineSpecDeploymentSpecOutputReferenc
 }
 
 func (j *jsiiProxy_GoogleVertexAiReasoningEngineSpecDeploymentSpecOutputReference) validateSetContainerConcurrencyParameters(val *float64) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleVertexAiReasoningEngineSpecDeploymentSpecOutputReference) validateSetDedicatedIngressEndpointEnabledParameters(val interface{}) error {
 	return nil
 }
 
