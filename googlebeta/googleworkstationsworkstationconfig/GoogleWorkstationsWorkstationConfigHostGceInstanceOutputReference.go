@@ -48,6 +48,9 @@ type GoogleWorkstationsWorkstationConfigHostGceInstanceOutputReference interface
 	EnableNestedVirtualizationInput() interface{}
 	// Experimental.
 	Fqn() *string
+	InstanceMetadata() *map[string]*string
+	SetInstanceMetadata(val *map[string]*string)
+	InstanceMetadataInput() *map[string]*string
 	InternalValue() *GoogleWorkstationsWorkstationConfigHostGceInstance
 	SetInternalValue(val *GoogleWorkstationsWorkstationConfigHostGceInstance)
 	MachineType() *string
@@ -113,6 +116,7 @@ type GoogleWorkstationsWorkstationConfigHostGceInstanceOutputReference interface
 	ResetDisablePublicIpAddresses()
 	ResetDisableSsh()
 	ResetEnableNestedVirtualization()
+	ResetInstanceMetadata()
 	ResetMachineType()
 	ResetPoolSize()
 	ResetServiceAccount()
@@ -310,6 +314,26 @@ func (j *jsiiProxy_GoogleWorkstationsWorkstationConfigHostGceInstanceOutputRefer
 	_jsii_.Get(
 		j,
 		"fqn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleWorkstationsWorkstationConfigHostGceInstanceOutputReference) InstanceMetadata() *map[string]*string {
+	var returns *map[string]*string
+	_jsii_.Get(
+		j,
+		"instanceMetadata",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleWorkstationsWorkstationConfigHostGceInstanceOutputReference) InstanceMetadataInput() *map[string]*string {
+	var returns *map[string]*string
+	_jsii_.Get(
+		j,
+		"instanceMetadataInput",
 		&returns,
 	)
 	return returns
@@ -575,6 +599,17 @@ func (j *jsiiProxy_GoogleWorkstationsWorkstationConfigHostGceInstanceOutputRefer
 	_jsii_.Set(
 		j,
 		"enableNestedVirtualization",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleWorkstationsWorkstationConfigHostGceInstanceOutputReference)SetInstanceMetadata(val *map[string]*string) {
+	if err := j.validateSetInstanceMetadataParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"instanceMetadata",
 		val,
 	)
 }
@@ -960,6 +995,14 @@ func (g *jsiiProxy_GoogleWorkstationsWorkstationConfigHostGceInstanceOutputRefer
 	_jsii_.InvokeVoid(
 		g,
 		"resetEnableNestedVirtualization",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleWorkstationsWorkstationConfigHostGceInstanceOutputReference) ResetInstanceMetadata() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetInstanceMetadata",
 		nil, // no parameters
 	)
 }

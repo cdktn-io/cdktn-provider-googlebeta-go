@@ -36,6 +36,9 @@ type GoogleDataformRepositoryGitRemoteSettingsOutputReference interface {
 	DefaultBranchInput() *string
 	// Experimental.
 	Fqn() *string
+	GitRepositoryLink() *string
+	SetGitRepositoryLink(val *string)
+	GitRepositoryLinkInput() *string
 	InternalValue() *GoogleDataformRepositoryGitRemoteSettings
 	SetInternalValue(val *GoogleDataformRepositoryGitRemoteSettings)
 	SshAuthenticationConfig() GoogleDataformRepositoryGitRemoteSettingsSshAuthenticationConfigOutputReference
@@ -78,6 +81,7 @@ type GoogleDataformRepositoryGitRemoteSettingsOutputReference interface {
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutSshAuthenticationConfig(value *GoogleDataformRepositoryGitRemoteSettingsSshAuthenticationConfig)
 	ResetAuthenticationTokenSecretVersion()
+	ResetGitRepositoryLink()
 	ResetSshAuthenticationConfig()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -169,6 +173,26 @@ func (j *jsiiProxy_GoogleDataformRepositoryGitRemoteSettingsOutputReference) Fqn
 	_jsii_.Get(
 		j,
 		"fqn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDataformRepositoryGitRemoteSettingsOutputReference) GitRepositoryLink() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"gitRepositoryLink",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDataformRepositoryGitRemoteSettingsOutputReference) GitRepositoryLinkInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"gitRepositoryLinkInput",
 		&returns,
 	)
 	return returns
@@ -322,6 +346,17 @@ func (j *jsiiProxy_GoogleDataformRepositoryGitRemoteSettingsOutputReference)SetD
 	_jsii_.Set(
 		j,
 		"defaultBranch",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleDataformRepositoryGitRemoteSettingsOutputReference)SetGitRepositoryLink(val *string) {
+	if err := j.validateSetGitRepositoryLinkParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"gitRepositoryLink",
 		val,
 	)
 }
@@ -571,6 +606,14 @@ func (g *jsiiProxy_GoogleDataformRepositoryGitRemoteSettingsOutputReference) Res
 	_jsii_.InvokeVoid(
 		g,
 		"resetAuthenticationTokenSecretVersion",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleDataformRepositoryGitRemoteSettingsOutputReference) ResetGitRepositoryLink() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetGitRepositoryLink",
 		nil, // no parameters
 	)
 }

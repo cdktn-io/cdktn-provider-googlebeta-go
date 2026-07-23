@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/data-sources/google_oracle_database_exascale_db_storage_vault google_oracle_database_exascale_db_storage_vault}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/data-sources/google_oracle_database_exascale_db_storage_vault google_oracle_database_exascale_db_storage_vault}.
 type DataGoogleOracleDatabaseExascaleDbStorageVault interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -476,7 +476,7 @@ func (j *jsiiProxy_DataGoogleOracleDatabaseExascaleDbStorageVault) TerraformReso
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/data-sources/google_oracle_database_exascale_db_storage_vault google_oracle_database_exascale_db_storage_vault} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/data-sources/google_oracle_database_exascale_db_storage_vault google_oracle_database_exascale_db_storage_vault} Data Source.
 func NewDataGoogleOracleDatabaseExascaleDbStorageVault(scope constructs.Construct, id *string, config *DataGoogleOracleDatabaseExascaleDbStorageVaultConfig) DataGoogleOracleDatabaseExascaleDbStorageVault {
 	_init_.Initialize()
 
@@ -494,7 +494,7 @@ func NewDataGoogleOracleDatabaseExascaleDbStorageVault(scope constructs.Construc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/data-sources/google_oracle_database_exascale_db_storage_vault google_oracle_database_exascale_db_storage_vault} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/data-sources/google_oracle_database_exascale_db_storage_vault google_oracle_database_exascale_db_storage_vault} Data Source.
 func NewDataGoogleOracleDatabaseExascaleDbStorageVault_Override(d DataGoogleOracleDatabaseExascaleDbStorageVault, scope constructs.Construct, id *string, config *DataGoogleOracleDatabaseExascaleDbStorageVaultConfig) {
 	_init_.Initialize()
 

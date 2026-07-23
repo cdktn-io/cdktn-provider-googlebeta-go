@@ -1,0 +1,21 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+package googlebiglakehivetable
+
+
+type GoogleBiglakeHiveTableStorageDescriptorColumns struct {
+	// Name of the field.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_biglake_hive_table#name GoogleBiglakeHiveTable#name}
+	Name *string `field:"required" json:"name" yaml:"name"`
+	// Type of the field.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_biglake_hive_table#type GoogleBiglakeHiveTable#type}
+	Type *string `field:"required" json:"type" yaml:"type"`
+	// Comment of the field.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_biglake_hive_table#comment GoogleBiglakeHiveTable#comment}
+	Comment *string `field:"optional" json:"comment" yaml:"comment"`
+}
+

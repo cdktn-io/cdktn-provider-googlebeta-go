@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_compute_target_tcp_proxy google_compute_target_tcp_proxy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_compute_target_tcp_proxy google_compute_target_tcp_proxy}.
 type GoogleComputeTargetTcpProxy interface {
 	cdktn.TerraformResource
 	BackendService() *string
@@ -567,7 +567,7 @@ func (j *jsiiProxy_GoogleComputeTargetTcpProxy) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_compute_target_tcp_proxy google_compute_target_tcp_proxy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_compute_target_tcp_proxy google_compute_target_tcp_proxy} Resource.
 func NewGoogleComputeTargetTcpProxy(scope constructs.Construct, id *string, config *GoogleComputeTargetTcpProxyConfig) GoogleComputeTargetTcpProxy {
 	_init_.Initialize()
 
@@ -585,7 +585,7 @@ func NewGoogleComputeTargetTcpProxy(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_compute_target_tcp_proxy google_compute_target_tcp_proxy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_compute_target_tcp_proxy google_compute_target_tcp_proxy} Resource.
 func NewGoogleComputeTargetTcpProxy_Override(g GoogleComputeTargetTcpProxy, scope constructs.Construct, id *string, config *GoogleComputeTargetTcpProxyConfig) {
 	_init_.Initialize()
 

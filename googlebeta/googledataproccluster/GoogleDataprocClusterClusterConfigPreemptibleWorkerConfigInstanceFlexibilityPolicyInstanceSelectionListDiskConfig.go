@@ -1,0 +1,39 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+package googledataproccluster
+
+
+type GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListDiskConfig struct {
+	// Indicates how many IOPS to provision for the disk.
+	//
+	// This sets the number of I/O operations per second that the disk can handle.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_dataproc_cluster#boot_disk_provisioned_iops GoogleDataprocCluster#boot_disk_provisioned_iops}
+	BootDiskProvisionedIops *float64 `field:"optional" json:"bootDiskProvisionedIops" yaml:"bootDiskProvisionedIops"`
+	// Indicates how much throughput to provision for the disk.
+	//
+	// This sets the number of throughput mb per second that the disk can handle.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_dataproc_cluster#boot_disk_provisioned_throughput GoogleDataprocCluster#boot_disk_provisioned_throughput}
+	BootDiskProvisionedThroughput *float64 `field:"optional" json:"bootDiskProvisionedThroughput" yaml:"bootDiskProvisionedThroughput"`
+	// Size of the primary disk attached to each node, specified in GB. The smallest allowed disk size is 10GB.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_dataproc_cluster#boot_disk_size_gb GoogleDataprocCluster#boot_disk_size_gb}
+	BootDiskSizeGb *float64 `field:"optional" json:"bootDiskSizeGb" yaml:"bootDiskSizeGb"`
+	// The disk type of the primary disk attached to each node. Such as "pd-ssd" or "pd-standard".
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_dataproc_cluster#boot_disk_type GoogleDataprocCluster#boot_disk_type}
+	BootDiskType *string `field:"optional" json:"bootDiskType" yaml:"bootDiskType"`
+	// Interface type of local SSDs (no Local SSDs or NVMe).
+	//
+	// Valid values: "scsi" (Small Computer System Interface), "nvme" (Non-Volatile Memory Express).
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_dataproc_cluster#local_ssd_interface GoogleDataprocCluster#local_ssd_interface}
+	LocalSsdInterface *string `field:"optional" json:"localSsdInterface" yaml:"localSsdInterface"`
+	// The amount of local SSD disks that will be attached to each cluster node. Defaults to 0.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_dataproc_cluster#num_local_ssds GoogleDataprocCluster#num_local_ssds}
+	NumLocalSsds *float64 `field:"optional" json:"numLocalSsds" yaml:"numLocalSsds"`
+}
+

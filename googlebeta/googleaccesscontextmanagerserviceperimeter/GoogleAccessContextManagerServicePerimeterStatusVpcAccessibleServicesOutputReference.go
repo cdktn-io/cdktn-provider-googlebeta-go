@@ -13,6 +13,8 @@ import (
 
 type GoogleAccessContextManagerServicePerimeterStatusVpcAccessibleServicesOutputReference interface {
 	cdktn.ComplexObject
+	AllowedServicePatterns() GoogleAccessContextManagerServicePerimeterStatusVpcAccessibleServicesAllowedServicePatternsList
+	AllowedServicePatternsInput() interface{}
 	AllowedServices() *[]*string
 	SetAllowedServices(val *[]*string)
 	AllowedServicesInput() *[]*string
@@ -38,6 +40,9 @@ type GoogleAccessContextManagerServicePerimeterStatusVpcAccessibleServicesOutput
 	Fqn() *string
 	InternalValue() *GoogleAccessContextManagerServicePerimeterStatusVpcAccessibleServices
 	SetInternalValue(val *GoogleAccessContextManagerServicePerimeterStatusVpcAccessibleServices)
+	ServicePatternsEnforcementScopes() *[]*string
+	SetServicePatternsEnforcementScopes(val *[]*string)
+	ServicePatternsEnforcementScopesInput() *[]*string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -70,8 +75,11 @@ type GoogleAccessContextManagerServicePerimeterStatusVpcAccessibleServicesOutput
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutAllowedServicePatterns(value interface{})
+	ResetAllowedServicePatterns()
 	ResetAllowedServices()
 	ResetEnableRestriction()
+	ResetServicePatternsEnforcementScopes()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -85,6 +93,26 @@ type GoogleAccessContextManagerServicePerimeterStatusVpcAccessibleServicesOutput
 // The jsii proxy struct for GoogleAccessContextManagerServicePerimeterStatusVpcAccessibleServicesOutputReference
 type jsiiProxy_GoogleAccessContextManagerServicePerimeterStatusVpcAccessibleServicesOutputReference struct {
 	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_GoogleAccessContextManagerServicePerimeterStatusVpcAccessibleServicesOutputReference) AllowedServicePatterns() GoogleAccessContextManagerServicePerimeterStatusVpcAccessibleServicesAllowedServicePatternsList {
+	var returns GoogleAccessContextManagerServicePerimeterStatusVpcAccessibleServicesAllowedServicePatternsList
+	_jsii_.Get(
+		j,
+		"allowedServicePatterns",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleAccessContextManagerServicePerimeterStatusVpcAccessibleServicesOutputReference) AllowedServicePatternsInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"allowedServicePatternsInput",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_GoogleAccessContextManagerServicePerimeterStatusVpcAccessibleServicesOutputReference) AllowedServices() *[]*string {
@@ -172,6 +200,26 @@ func (j *jsiiProxy_GoogleAccessContextManagerServicePerimeterStatusVpcAccessible
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleAccessContextManagerServicePerimeterStatusVpcAccessibleServicesOutputReference) ServicePatternsEnforcementScopes() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"servicePatternsEnforcementScopes",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleAccessContextManagerServicePerimeterStatusVpcAccessibleServicesOutputReference) ServicePatternsEnforcementScopesInput() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"servicePatternsEnforcementScopesInput",
 		&returns,
 	)
 	return returns
@@ -276,6 +324,17 @@ func (j *jsiiProxy_GoogleAccessContextManagerServicePerimeterStatusVpcAccessible
 	_jsii_.Set(
 		j,
 		"internalValue",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleAccessContextManagerServicePerimeterStatusVpcAccessibleServicesOutputReference)SetServicePatternsEnforcementScopes(val *[]*string) {
+	if err := j.validateSetServicePatternsEnforcementScopesParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"servicePatternsEnforcementScopes",
 		val,
 	)
 }
@@ -488,6 +547,25 @@ func (g *jsiiProxy_GoogleAccessContextManagerServicePerimeterStatusVpcAccessible
 	return returns
 }
 
+func (g *jsiiProxy_GoogleAccessContextManagerServicePerimeterStatusVpcAccessibleServicesOutputReference) PutAllowedServicePatterns(value interface{}) {
+	if err := g.validatePutAllowedServicePatternsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putAllowedServicePatterns",
+		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleAccessContextManagerServicePerimeterStatusVpcAccessibleServicesOutputReference) ResetAllowedServicePatterns() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetAllowedServicePatterns",
+		nil, // no parameters
+	)
+}
+
 func (g *jsiiProxy_GoogleAccessContextManagerServicePerimeterStatusVpcAccessibleServicesOutputReference) ResetAllowedServices() {
 	_jsii_.InvokeVoid(
 		g,
@@ -500,6 +578,14 @@ func (g *jsiiProxy_GoogleAccessContextManagerServicePerimeterStatusVpcAccessible
 	_jsii_.InvokeVoid(
 		g,
 		"resetEnableRestriction",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleAccessContextManagerServicePerimeterStatusVpcAccessibleServicesOutputReference) ResetServicePatternsEnforcementScopes() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetServicePatternsEnforcementScopes",
 		nil, // no parameters
 	)
 }

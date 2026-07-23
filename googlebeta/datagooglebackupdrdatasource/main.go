@@ -15,6 +15,7 @@ func init() {
 		reflect.TypeOf((*DataGoogleBackupDrDataSource)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
+			_jsii_.MemberProperty{JsiiProperty: "backupBlockedByVaultAccessRestriction", GoGetter: "BackupBlockedByVaultAccessRestriction"},
 			_jsii_.MemberProperty{JsiiProperty: "backupConfigInfo", GoGetter: "BackupConfigInfo"},
 			_jsii_.MemberProperty{JsiiProperty: "backupCount", GoGetter: "BackupCount"},
 			_jsii_.MemberProperty{JsiiProperty: "backupVaultId", GoGetter: "BackupVaultId"},

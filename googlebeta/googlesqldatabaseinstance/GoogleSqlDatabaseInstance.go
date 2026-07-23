@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_sql_database_instance google_sql_database_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_sql_database_instance google_sql_database_instance}.
 type GoogleSqlDatabaseInstance interface {
 	cdktn.TerraformResource
 	AvailableMaintenanceVersions() *[]*string
@@ -70,6 +70,9 @@ type GoogleSqlDatabaseInstance interface {
 	Id() *string
 	SetId(val *string)
 	IdInput() *string
+	IncludeReplicasForMajorVersionUpgrade() interface{}
+	SetIncludeReplicasForMajorVersionUpgrade(val interface{})
+	IncludeReplicasForMajorVersionUpgradeInput() interface{}
 	InstanceType() *string
 	SetInstanceType(val *string)
 	InstanceTypeInput() *string
@@ -136,6 +139,9 @@ type GoogleSqlDatabaseInstance interface {
 	ServiceAccountEmailAddress() *string
 	Settings() GoogleSqlDatabaseInstanceSettingsOutputReference
 	SettingsInput() *GoogleSqlDatabaseInstanceSettings
+	SwitchTransactionLogsToCloudStorageEnabled() interface{}
+	SetSwitchTransactionLogsToCloudStorageEnabled(val interface{})
+	SwitchTransactionLogsToCloudStorageEnabledInput() interface{}
 	// Experimental.
 	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
@@ -202,6 +208,7 @@ type GoogleSqlDatabaseInstance interface {
 	ResetEnforceNewSqlNetworkArchitecture()
 	ResetFinalBackupDescription()
 	ResetId()
+	ResetIncludeReplicasForMajorVersionUpgrade()
 	ResetInstanceType()
 	ResetMaintenanceVersion()
 	ResetMasterInstanceName()
@@ -221,6 +228,7 @@ type GoogleSqlDatabaseInstance interface {
 	ResetRootPasswordWo()
 	ResetRootPasswordWoVersion()
 	ResetSettings()
+	ResetSwitchTransactionLogsToCloudStorageEnabled()
 	ResetTimeouts()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
@@ -554,6 +562,26 @@ func (j *jsiiProxy_GoogleSqlDatabaseInstance) IdInput() *string {
 	_jsii_.Get(
 		j,
 		"idInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleSqlDatabaseInstance) IncludeReplicasForMajorVersionUpgrade() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"includeReplicasForMajorVersionUpgrade",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleSqlDatabaseInstance) IncludeReplicasForMajorVersionUpgradeInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"includeReplicasForMajorVersionUpgradeInput",
 		&returns,
 	)
 	return returns
@@ -999,6 +1027,26 @@ func (j *jsiiProxy_GoogleSqlDatabaseInstance) SettingsInput() *GoogleSqlDatabase
 	return returns
 }
 
+func (j *jsiiProxy_GoogleSqlDatabaseInstance) SwitchTransactionLogsToCloudStorageEnabled() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"switchTransactionLogsToCloudStorageEnabled",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleSqlDatabaseInstance) SwitchTransactionLogsToCloudStorageEnabledInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"switchTransactionLogsToCloudStorageEnabledInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleSqlDatabaseInstance) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
 	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
@@ -1050,7 +1098,7 @@ func (j *jsiiProxy_GoogleSqlDatabaseInstance) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_sql_database_instance google_sql_database_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_sql_database_instance google_sql_database_instance} Resource.
 func NewGoogleSqlDatabaseInstance(scope constructs.Construct, id *string, config *GoogleSqlDatabaseInstanceConfig) GoogleSqlDatabaseInstance {
 	_init_.Initialize()
 
@@ -1068,7 +1116,7 @@ func NewGoogleSqlDatabaseInstance(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_sql_database_instance google_sql_database_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_sql_database_instance google_sql_database_instance} Resource.
 func NewGoogleSqlDatabaseInstance_Override(g GoogleSqlDatabaseInstance, scope constructs.Construct, id *string, config *GoogleSqlDatabaseInstanceConfig) {
 	_init_.Initialize()
 
@@ -1201,6 +1249,17 @@ func (j *jsiiProxy_GoogleSqlDatabaseInstance)SetId(val *string) {
 	_jsii_.Set(
 		j,
 		"id",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleSqlDatabaseInstance)SetIncludeReplicasForMajorVersionUpgrade(val interface{}) {
+	if err := j.validateSetIncludeReplicasForMajorVersionUpgradeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"includeReplicasForMajorVersionUpgrade",
 		val,
 	)
 }
@@ -1352,6 +1411,17 @@ func (j *jsiiProxy_GoogleSqlDatabaseInstance)SetRootPasswordWoVersion(val *strin
 	_jsii_.Set(
 		j,
 		"rootPasswordWoVersion",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleSqlDatabaseInstance)SetSwitchTransactionLogsToCloudStorageEnabled(val interface{}) {
+	if err := j.validateSetSwitchTransactionLogsToCloudStorageEnabledParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"switchTransactionLogsToCloudStorageEnabled",
 		val,
 	)
 }
@@ -1850,6 +1920,14 @@ func (g *jsiiProxy_GoogleSqlDatabaseInstance) ResetId() {
 	)
 }
 
+func (g *jsiiProxy_GoogleSqlDatabaseInstance) ResetIncludeReplicasForMajorVersionUpgrade() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetIncludeReplicasForMajorVersionUpgrade",
+		nil, // no parameters
+	)
+}
+
 func (g *jsiiProxy_GoogleSqlDatabaseInstance) ResetInstanceType() {
 	_jsii_.InvokeVoid(
 		g,
@@ -1982,6 +2060,14 @@ func (g *jsiiProxy_GoogleSqlDatabaseInstance) ResetSettings() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetSettings",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleSqlDatabaseInstance) ResetSwitchTransactionLogsToCloudStorageEnabled() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetSwitchTransactionLogsToCloudStorageEnabled",
 		nil, // no parameters
 	)
 }

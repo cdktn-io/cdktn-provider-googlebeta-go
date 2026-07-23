@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_workbench_instance google_workbench_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_workbench_instance google_workbench_instance}.
 type GoogleWorkbenchInstance interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -43,6 +43,9 @@ type GoogleWorkbenchInstance interface {
 	SetDisableProxyAccess(val interface{})
 	DisableProxyAccessInput() interface{}
 	EffectiveLabels() cdktn.StringMap
+	EnableDeletionProtection() interface{}
+	SetEnableDeletionProtection(val interface{})
+	EnableDeletionProtectionInput() interface{}
 	EnableManagedEuc() interface{}
 	SetEnableManagedEuc(val interface{})
 	EnableManagedEucInput() interface{}
@@ -159,6 +162,7 @@ type GoogleWorkbenchInstance interface {
 	ResetDeletionPolicy()
 	ResetDesiredState()
 	ResetDisableProxyAccess()
+	ResetEnableDeletionProtection()
 	ResetEnableManagedEuc()
 	ResetEnableThirdPartyIdentity()
 	ResetGceSetup()
@@ -333,6 +337,26 @@ func (j *jsiiProxy_GoogleWorkbenchInstance) EffectiveLabels() cdktn.StringMap {
 	_jsii_.Get(
 		j,
 		"effectiveLabels",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleWorkbenchInstance) EnableDeletionProtection() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"enableDeletionProtection",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleWorkbenchInstance) EnableDeletionProtectionInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"enableDeletionProtectionInput",
 		&returns,
 	)
 	return returns
@@ -739,7 +763,7 @@ func (j *jsiiProxy_GoogleWorkbenchInstance) UpgradeHistory() GoogleWorkbenchInst
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_workbench_instance google_workbench_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_workbench_instance google_workbench_instance} Resource.
 func NewGoogleWorkbenchInstance(scope constructs.Construct, id *string, config *GoogleWorkbenchInstanceConfig) GoogleWorkbenchInstance {
 	_init_.Initialize()
 
@@ -757,7 +781,7 @@ func NewGoogleWorkbenchInstance(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_workbench_instance google_workbench_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_workbench_instance google_workbench_instance} Resource.
 func NewGoogleWorkbenchInstance_Override(g GoogleWorkbenchInstance, scope constructs.Construct, id *string, config *GoogleWorkbenchInstanceConfig) {
 	_init_.Initialize()
 
@@ -827,6 +851,17 @@ func (j *jsiiProxy_GoogleWorkbenchInstance)SetDisableProxyAccess(val interface{}
 	_jsii_.Set(
 		j,
 		"disableProxyAccess",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleWorkbenchInstance)SetEnableDeletionProtection(val interface{}) {
+	if err := j.validateSetEnableDeletionProtectionParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"enableDeletionProtection",
 		val,
 	)
 }
@@ -1363,6 +1398,14 @@ func (g *jsiiProxy_GoogleWorkbenchInstance) ResetDisableProxyAccess() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetDisableProxyAccess",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleWorkbenchInstance) ResetEnableDeletionProtection() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetEnableDeletionProtection",
 		nil, // no parameters
 	)
 }

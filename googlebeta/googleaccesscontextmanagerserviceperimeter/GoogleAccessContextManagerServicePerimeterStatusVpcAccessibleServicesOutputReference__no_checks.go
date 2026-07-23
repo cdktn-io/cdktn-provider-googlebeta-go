@@ -47,6 +47,10 @@ func (g *jsiiProxy_GoogleAccessContextManagerServicePerimeterStatusVpcAccessible
 	return nil
 }
 
+func (g *jsiiProxy_GoogleAccessContextManagerServicePerimeterStatusVpcAccessibleServicesOutputReference) validatePutAllowedServicePatternsParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleAccessContextManagerServicePerimeterStatusVpcAccessibleServicesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
@@ -68,6 +72,10 @@ func (j *jsiiProxy_GoogleAccessContextManagerServicePerimeterStatusVpcAccessible
 }
 
 func (j *jsiiProxy_GoogleAccessContextManagerServicePerimeterStatusVpcAccessibleServicesOutputReference) validateSetInternalValueParameters(val *GoogleAccessContextManagerServicePerimeterStatusVpcAccessibleServices) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleAccessContextManagerServicePerimeterStatusVpcAccessibleServicesOutputReference) validateSetServicePatternsEnforcementScopesParameters(val *[]*string) error {
 	return nil
 }
 

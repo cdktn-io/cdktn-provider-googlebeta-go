@@ -28,7 +28,9 @@ type DataGoogleDiscoveryEngineDataStoreDocumentProcessingConfigDefaultParsingCon
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
+	EnableGetProcessedDocument() cdktn.IResolvable
 	EnableImageAnnotation() cdktn.IResolvable
+	EnableLlmLayoutParsing() cdktn.IResolvable
 	EnableTableAnnotation() cdktn.IResolvable
 	ExcludeHtmlClasses() *[]*string
 	ExcludeHtmlElements() *[]*string
@@ -115,11 +117,31 @@ func (j *jsiiProxy_DataGoogleDiscoveryEngineDataStoreDocumentProcessingConfigDef
 	return returns
 }
 
+func (j *jsiiProxy_DataGoogleDiscoveryEngineDataStoreDocumentProcessingConfigDefaultParsingConfigLayoutParsingConfigOutputReference) EnableGetProcessedDocument() cdktn.IResolvable {
+	var returns cdktn.IResolvable
+	_jsii_.Get(
+		j,
+		"enableGetProcessedDocument",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataGoogleDiscoveryEngineDataStoreDocumentProcessingConfigDefaultParsingConfigLayoutParsingConfigOutputReference) EnableImageAnnotation() cdktn.IResolvable {
 	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"enableImageAnnotation",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleDiscoveryEngineDataStoreDocumentProcessingConfigDefaultParsingConfigLayoutParsingConfigOutputReference) EnableLlmLayoutParsing() cdktn.IResolvable {
+	var returns cdktn.IResolvable
+	_jsii_.Get(
+		j,
+		"enableLlmLayoutParsing",
 		&returns,
 	)
 	return returns

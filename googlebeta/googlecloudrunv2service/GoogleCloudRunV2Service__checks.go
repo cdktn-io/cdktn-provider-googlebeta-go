@@ -672,6 +672,14 @@ func (j *jsiiProxy_GoogleCloudRunV2Service) validateSetProvisionersParameters(va
 	return nil
 }
 
+func (j *jsiiProxy_GoogleCloudRunV2Service) validateSetTagsParameters(val *map[string]*string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func validateNewGoogleCloudRunV2ServiceParameters(scope constructs.Construct, id *string, config *GoogleCloudRunV2ServiceConfig) error {
 	if scope == nil {
 		return fmt.Errorf("parameter scope is required, but nil was provided")

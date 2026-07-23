@@ -203,6 +203,10 @@ func (j *jsiiProxy_GoogleCloudRunV2Service) validateSetProvisionersParameters(va
 	return nil
 }
 
+func (j *jsiiProxy_GoogleCloudRunV2Service) validateSetTagsParameters(val *map[string]*string) error {
+	return nil
+}
+
 func validateNewGoogleCloudRunV2ServiceParameters(scope constructs.Construct, id *string, config *GoogleCloudRunV2ServiceConfig) error {
 	return nil
 }

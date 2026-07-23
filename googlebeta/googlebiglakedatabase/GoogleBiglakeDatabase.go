@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_biglake_database google_biglake_database}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_biglake_database google_biglake_database}.
 type GoogleBiglakeDatabase interface {
 	cdktn.TerraformResource
 	Catalog() *string
@@ -503,7 +503,7 @@ func (j *jsiiProxy_GoogleBiglakeDatabase) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_biglake_database google_biglake_database} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_biglake_database google_biglake_database} Resource.
 func NewGoogleBiglakeDatabase(scope constructs.Construct, id *string, config *GoogleBiglakeDatabaseConfig) GoogleBiglakeDatabase {
 	_init_.Initialize()
 
@@ -521,7 +521,7 @@ func NewGoogleBiglakeDatabase(scope constructs.Construct, id *string, config *Go
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_biglake_database google_biglake_database} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_biglake_database google_biglake_database} Resource.
 func NewGoogleBiglakeDatabase_Override(g GoogleBiglakeDatabase, scope constructs.Construct, id *string, config *GoogleBiglakeDatabaseConfig) {
 	_init_.Initialize()
 

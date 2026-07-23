@@ -10,7 +10,7 @@ type GoogleChronicleParserVersionInfo struct {
 	// If true, the parser
 	// will not be upgraded by the auto upgrade process.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_parser#auto_upgrade_disabled GoogleChronicleParser#auto_upgrade_disabled}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_parser#auto_upgrade_disabled GoogleChronicleParser#auto_upgrade_disabled}
 	AutoUpgradeDisabled interface{} `field:"required" json:"autoUpgradeDisabled" yaml:"autoUpgradeDisabled"`
 }
 

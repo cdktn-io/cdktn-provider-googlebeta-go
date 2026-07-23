@@ -35,6 +35,8 @@ type GoogleAccessContextManagerServicePerimeterIngressPolicyIngressFromSourcesOu
 	Fqn() *string
 	InternalValue() interface{}
 	SetInternalValue(val interface{})
+	PscEndpoint() GoogleAccessContextManagerServicePerimeterIngressPolicyIngressFromSourcesPscEndpointOutputReference
+	PscEndpointInput() *GoogleAccessContextManagerServicePerimeterIngressPolicyIngressFromSourcesPscEndpoint
 	Resource() *string
 	SetResource(val *string)
 	ResourceInput() *string
@@ -70,7 +72,9 @@ type GoogleAccessContextManagerServicePerimeterIngressPolicyIngressFromSourcesOu
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutPscEndpoint(value *GoogleAccessContextManagerServicePerimeterIngressPolicyIngressFromSourcesPscEndpoint)
 	ResetAccessLevel()
+	ResetPscEndpoint()
 	ResetResource()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -152,6 +156,26 @@ func (j *jsiiProxy_GoogleAccessContextManagerServicePerimeterIngressPolicyIngres
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleAccessContextManagerServicePerimeterIngressPolicyIngressFromSourcesOutputReference) PscEndpoint() GoogleAccessContextManagerServicePerimeterIngressPolicyIngressFromSourcesPscEndpointOutputReference {
+	var returns GoogleAccessContextManagerServicePerimeterIngressPolicyIngressFromSourcesPscEndpointOutputReference
+	_jsii_.Get(
+		j,
+		"pscEndpoint",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleAccessContextManagerServicePerimeterIngressPolicyIngressFromSourcesOutputReference) PscEndpointInput() *GoogleAccessContextManagerServicePerimeterIngressPolicyIngressFromSourcesPscEndpoint {
+	var returns *GoogleAccessContextManagerServicePerimeterIngressPolicyIngressFromSourcesPscEndpoint
+	_jsii_.Get(
+		j,
+		"pscEndpointInput",
 		&returns,
 	)
 	return returns
@@ -488,10 +512,29 @@ func (g *jsiiProxy_GoogleAccessContextManagerServicePerimeterIngressPolicyIngres
 	return returns
 }
 
+func (g *jsiiProxy_GoogleAccessContextManagerServicePerimeterIngressPolicyIngressFromSourcesOutputReference) PutPscEndpoint(value *GoogleAccessContextManagerServicePerimeterIngressPolicyIngressFromSourcesPscEndpoint) {
+	if err := g.validatePutPscEndpointParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putPscEndpoint",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleAccessContextManagerServicePerimeterIngressPolicyIngressFromSourcesOutputReference) ResetAccessLevel() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetAccessLevel",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleAccessContextManagerServicePerimeterIngressPolicyIngressFromSourcesOutputReference) ResetPscEndpoint() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetPscEndpoint",
 		nil, // no parameters
 	)
 }

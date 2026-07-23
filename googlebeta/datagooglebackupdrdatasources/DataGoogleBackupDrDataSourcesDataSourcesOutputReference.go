@@ -13,6 +13,7 @@ import (
 
 type DataGoogleBackupDrDataSourcesDataSourcesOutputReference interface {
 	cdktn.ComplexObject
+	BackupBlockedByVaultAccessRestriction() cdktn.IResolvable
 	BackupConfigInfo() DataGoogleBackupDrDataSourcesDataSourcesBackupConfigInfoList
 	BackupCount() *string
 	// the index of the complex object in a list.
@@ -89,6 +90,16 @@ type DataGoogleBackupDrDataSourcesDataSourcesOutputReference interface {
 // The jsii proxy struct for DataGoogleBackupDrDataSourcesDataSourcesOutputReference
 type jsiiProxy_DataGoogleBackupDrDataSourcesDataSourcesOutputReference struct {
 	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_DataGoogleBackupDrDataSourcesDataSourcesOutputReference) BackupBlockedByVaultAccessRestriction() cdktn.IResolvable {
+	var returns cdktn.IResolvable
+	_jsii_.Get(
+		j,
+		"backupBlockedByVaultAccessRestriction",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_DataGoogleBackupDrDataSourcesDataSourcesOutputReference) BackupConfigInfo() DataGoogleBackupDrDataSourcesDataSourcesBackupConfigInfoList {

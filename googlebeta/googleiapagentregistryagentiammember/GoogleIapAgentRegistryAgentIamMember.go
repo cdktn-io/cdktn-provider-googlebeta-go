@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_iap_agent_registry_agent_iam_member google_iap_agent_registry_agent_iam_member}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_iap_agent_registry_agent_iam_member google_iap_agent_registry_agent_iam_member}.
 type GoogleIapAgentRegistryAgentIamMember interface {
 	cdktn.TerraformResource
 	AgentId() *string
@@ -471,7 +471,7 @@ func (j *jsiiProxy_GoogleIapAgentRegistryAgentIamMember) TerraformResourceType()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_iap_agent_registry_agent_iam_member google_iap_agent_registry_agent_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_iap_agent_registry_agent_iam_member google_iap_agent_registry_agent_iam_member} Resource.
 func NewGoogleIapAgentRegistryAgentIamMember(scope constructs.Construct, id *string, config *GoogleIapAgentRegistryAgentIamMemberConfig) GoogleIapAgentRegistryAgentIamMember {
 	_init_.Initialize()
 
@@ -489,7 +489,7 @@ func NewGoogleIapAgentRegistryAgentIamMember(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_iap_agent_registry_agent_iam_member google_iap_agent_registry_agent_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_iap_agent_registry_agent_iam_member google_iap_agent_registry_agent_iam_member} Resource.
 func NewGoogleIapAgentRegistryAgentIamMember_Override(g GoogleIapAgentRegistryAgentIamMember, scope constructs.Construct, id *string, config *GoogleIapAgentRegistryAgentIamMemberConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_apigee_security_profile_v2 google_apigee_security_profile_v2}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_apigee_security_profile_v2 google_apigee_security_profile_v2}.
 type GoogleApigeeSecurityProfileV2 interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -493,7 +493,7 @@ func (j *jsiiProxy_GoogleApigeeSecurityProfileV2) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_apigee_security_profile_v2 google_apigee_security_profile_v2} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_apigee_security_profile_v2 google_apigee_security_profile_v2} Resource.
 func NewGoogleApigeeSecurityProfileV2(scope constructs.Construct, id *string, config *GoogleApigeeSecurityProfileV2Config) GoogleApigeeSecurityProfileV2 {
 	_init_.Initialize()
 
@@ -511,7 +511,7 @@ func NewGoogleApigeeSecurityProfileV2(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_apigee_security_profile_v2 google_apigee_security_profile_v2} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_apigee_security_profile_v2 google_apigee_security_profile_v2} Resource.
 func NewGoogleApigeeSecurityProfileV2_Override(g GoogleApigeeSecurityProfileV2, scope constructs.Construct, id *string, config *GoogleApigeeSecurityProfileV2Config) {
 	_init_.Initialize()
 

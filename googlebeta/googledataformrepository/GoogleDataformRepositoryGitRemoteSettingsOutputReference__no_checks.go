@@ -71,6 +71,10 @@ func (j *jsiiProxy_GoogleDataformRepositoryGitRemoteSettingsOutputReference) val
 	return nil
 }
 
+func (j *jsiiProxy_GoogleDataformRepositoryGitRemoteSettingsOutputReference) validateSetGitRepositoryLinkParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleDataformRepositoryGitRemoteSettingsOutputReference) validateSetInternalValueParameters(val *GoogleDataformRepositoryGitRemoteSettings) error {
 	return nil
 }

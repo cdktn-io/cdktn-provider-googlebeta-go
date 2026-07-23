@@ -54,6 +54,9 @@ type GoogleWorkbenchInstanceGceSetupOutputReference interface {
 	Metadata() *map[string]*string
 	SetMetadata(val *map[string]*string)
 	MetadataInput() *map[string]*string
+	MinCpuPlatform() *string
+	SetMinCpuPlatform(val *string)
+	MinCpuPlatformInput() *string
 	NetworkInterfaces() GoogleWorkbenchInstanceGceSetupNetworkInterfacesList
 	NetworkInterfacesInput() interface{}
 	ReservationAffinity() GoogleWorkbenchInstanceGceSetupReservationAffinityOutputReference
@@ -118,6 +121,7 @@ type GoogleWorkbenchInstanceGceSetupOutputReference interface {
 	ResetEnableIpForwarding()
 	ResetMachineType()
 	ResetMetadata()
+	ResetMinCpuPlatform()
 	ResetNetworkInterfaces()
 	ResetReservationAffinity()
 	ResetServiceAccounts()
@@ -369,6 +373,26 @@ func (j *jsiiProxy_GoogleWorkbenchInstanceGceSetupOutputReference) MetadataInput
 	return returns
 }
 
+func (j *jsiiProxy_GoogleWorkbenchInstanceGceSetupOutputReference) MinCpuPlatform() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"minCpuPlatform",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleWorkbenchInstanceGceSetupOutputReference) MinCpuPlatformInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"minCpuPlatformInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleWorkbenchInstanceGceSetupOutputReference) NetworkInterfaces() GoogleWorkbenchInstanceGceSetupNetworkInterfacesList {
 	var returns GoogleWorkbenchInstanceGceSetupNetworkInterfacesList
 	_jsii_.Get(
@@ -610,6 +634,17 @@ func (j *jsiiProxy_GoogleWorkbenchInstanceGceSetupOutputReference)SetMetadata(va
 	_jsii_.Set(
 		j,
 		"metadata",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleWorkbenchInstanceGceSetupOutputReference)SetMinCpuPlatform(val *string) {
+	if err := j.validateSetMinCpuPlatformParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"minCpuPlatform",
 		val,
 	)
 }
@@ -1011,6 +1046,14 @@ func (g *jsiiProxy_GoogleWorkbenchInstanceGceSetupOutputReference) ResetMetadata
 	_jsii_.InvokeVoid(
 		g,
 		"resetMetadata",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleWorkbenchInstanceGceSetupOutputReference) ResetMinCpuPlatform() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetMinCpuPlatform",
 		nil, // no parameters
 	)
 }

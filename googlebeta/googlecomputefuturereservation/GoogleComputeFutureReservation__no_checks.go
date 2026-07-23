@@ -195,6 +195,10 @@ func (j *jsiiProxy_GoogleComputeFutureReservation) validateSetSpecificReservatio
 	return nil
 }
 
+func (j *jsiiProxy_GoogleComputeFutureReservation) validateSetZoneParameters(val *string) error {
+	return nil
+}
+
 func validateNewGoogleComputeFutureReservationParameters(scope constructs.Construct, id *string, config *GoogleComputeFutureReservationConfig) error {
 	return nil
 }

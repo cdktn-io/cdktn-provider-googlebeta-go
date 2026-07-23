@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_cloud_run_v2_job google_cloud_run_v2_job}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_cloud_run_v2_job google_cloud_run_v2_job}.
 type GoogleCloudRunV2Job interface {
 	cdktn.TerraformResource
 	Annotations() *map[string]*string
@@ -110,6 +110,9 @@ type GoogleCloudRunV2Job interface {
 	StartExecutionToken() *string
 	SetStartExecutionToken(val *string)
 	StartExecutionTokenInput() *string
+	Tags() *map[string]*string
+	SetTags(val *map[string]*string)
+	TagsInput() *map[string]*string
 	Template() GoogleCloudRunV2JobTemplateOutputReference
 	TemplateInput() *GoogleCloudRunV2JobTemplate
 	TerminalCondition() GoogleCloudRunV2JobTerminalConditionList
@@ -185,6 +188,7 @@ type GoogleCloudRunV2Job interface {
 	ResetProject()
 	ResetRunExecutionToken()
 	ResetStartExecutionToken()
+	ResetTags()
 	ResetTimeouts()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
@@ -763,6 +767,26 @@ func (j *jsiiProxy_GoogleCloudRunV2Job) StartExecutionTokenInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_GoogleCloudRunV2Job) Tags() *map[string]*string {
+	var returns *map[string]*string
+	_jsii_.Get(
+		j,
+		"tags",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCloudRunV2Job) TagsInput() *map[string]*string {
+	var returns *map[string]*string
+	_jsii_.Get(
+		j,
+		"tagsInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleCloudRunV2Job) Template() GoogleCloudRunV2JobTemplateOutputReference {
 	var returns GoogleCloudRunV2JobTemplateOutputReference
 	_jsii_.Get(
@@ -874,7 +898,7 @@ func (j *jsiiProxy_GoogleCloudRunV2Job) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_cloud_run_v2_job google_cloud_run_v2_job} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_cloud_run_v2_job google_cloud_run_v2_job} Resource.
 func NewGoogleCloudRunV2Job(scope constructs.Construct, id *string, config *GoogleCloudRunV2JobConfig) GoogleCloudRunV2Job {
 	_init_.Initialize()
 
@@ -892,7 +916,7 @@ func NewGoogleCloudRunV2Job(scope constructs.Construct, id *string, config *Goog
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_cloud_run_v2_job google_cloud_run_v2_job} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_cloud_run_v2_job google_cloud_run_v2_job} Resource.
 func NewGoogleCloudRunV2Job_Override(g GoogleCloudRunV2Job, scope constructs.Construct, id *string, config *GoogleCloudRunV2JobConfig) {
 	_init_.Initialize()
 
@@ -1110,6 +1134,17 @@ func (j *jsiiProxy_GoogleCloudRunV2Job)SetStartExecutionToken(val *string) {
 	_jsii_.Set(
 		j,
 		"startExecutionToken",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleCloudRunV2Job)SetTags(val *map[string]*string) {
+	if err := j.validateSetTagsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"tags",
 		val,
 	)
 }
@@ -1600,6 +1635,14 @@ func (g *jsiiProxy_GoogleCloudRunV2Job) ResetStartExecutionToken() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetStartExecutionToken",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleCloudRunV2Job) ResetTags() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetTags",
 		nil, // no parameters
 	)
 }

@@ -1,3 +1,3 @@
 # `google_vertex_ai_model_garden_enable_model`
 
-Refer to the Terraform Registry for docs: [`google_vertex_ai_model_garden_enable_model`](https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_vertex_ai_model_garden_enable_model).
+Refer to the Terraform Registry for docs: [`google_vertex_ai_model_garden_enable_model`](https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_vertex_ai_model_garden_enable_model).

@@ -479,6 +479,7 @@ func init() {
 		"@cdktn/provider-google-beta.dataGoogleBackupDrDataSources.DataGoogleBackupDrDataSourcesDataSourcesOutputReference",
 		reflect.TypeOf((*DataGoogleBackupDrDataSourcesDataSourcesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "backupBlockedByVaultAccessRestriction", GoGetter: "BackupBlockedByVaultAccessRestriction"},
 			_jsii_.MemberProperty{JsiiProperty: "backupConfigInfo", GoGetter: "BackupConfigInfo"},
 			_jsii_.MemberProperty{JsiiProperty: "backupCount", GoGetter: "BackupCount"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

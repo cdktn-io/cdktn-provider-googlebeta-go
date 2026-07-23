@@ -43,6 +43,7 @@ type DataGoogleSqlDatabaseInstancesInstancesOutputReference interface {
 	FirstIpAddress() *string
 	// Experimental.
 	Fqn() *string
+	IncludeReplicasForMajorVersionUpgrade() cdktn.IResolvable
 	InstanceType() *string
 	InternalValue() *DataGoogleSqlDatabaseInstancesInstances
 	SetInternalValue(val *DataGoogleSqlDatabaseInstancesInstances)
@@ -68,6 +69,7 @@ type DataGoogleSqlDatabaseInstancesInstancesOutputReference interface {
 	ServerCaCert() DataGoogleSqlDatabaseInstancesInstancesServerCaCertList
 	ServiceAccountEmailAddress() *string
 	Settings() DataGoogleSqlDatabaseInstancesInstancesSettingsList
+	SwitchTransactionLogsToCloudStorageEnabled() cdktn.IResolvable
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -280,6 +282,16 @@ func (j *jsiiProxy_DataGoogleSqlDatabaseInstancesInstancesOutputReference) Fqn()
 	_jsii_.Get(
 		j,
 		"fqn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleSqlDatabaseInstancesInstancesOutputReference) IncludeReplicasForMajorVersionUpgrade() cdktn.IResolvable {
+	var returns cdktn.IResolvable
+	_jsii_.Get(
+		j,
+		"includeReplicasForMajorVersionUpgrade",
 		&returns,
 	)
 	return returns
@@ -520,6 +532,16 @@ func (j *jsiiProxy_DataGoogleSqlDatabaseInstancesInstancesOutputReference) Setti
 	_jsii_.Get(
 		j,
 		"settings",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleSqlDatabaseInstancesInstancesOutputReference) SwitchTransactionLogsToCloudStorageEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
+	_jsii_.Get(
+		j,
+		"switchTransactionLogsToCloudStorageEnabled",
 		&returns,
 	)
 	return returns

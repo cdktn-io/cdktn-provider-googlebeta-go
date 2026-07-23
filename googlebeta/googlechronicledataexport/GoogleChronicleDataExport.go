@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_data_export google_chronicle_data_export}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_data_export google_chronicle_data_export}.
 type GoogleChronicleDataExport interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -631,7 +631,7 @@ func (j *jsiiProxy_GoogleChronicleDataExport) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_data_export google_chronicle_data_export} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_data_export google_chronicle_data_export} Resource.
 func NewGoogleChronicleDataExport(scope constructs.Construct, id *string, config *GoogleChronicleDataExportConfig) GoogleChronicleDataExport {
 	_init_.Initialize()
 
@@ -649,7 +649,7 @@ func NewGoogleChronicleDataExport(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_data_export google_chronicle_data_export} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_data_export google_chronicle_data_export} Resource.
 func NewGoogleChronicleDataExport_Override(g GoogleChronicleDataExport, scope constructs.Construct, id *string, config *GoogleChronicleDataExportConfig) {
 	_init_.Initialize()
 

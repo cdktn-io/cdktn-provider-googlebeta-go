@@ -151,6 +151,10 @@ func (j *jsiiProxy_GoogleBackupDrBackupVault) validateSetForceUpdateParameters(v
 	return nil
 }
 
+func (j *jsiiProxy_GoogleBackupDrBackupVault) validateSetForceUpdateAccessRestrictionParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleBackupDrBackupVault) validateSetIdParameters(val *string) error {
 	return nil
 }

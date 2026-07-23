@@ -44,6 +44,9 @@ type GoogleWorkbenchInstanceGceSetupDataDisksOutputReference interface {
 	KmsKey() *string
 	SetKmsKey(val *string)
 	KmsKeyInput() *string
+	ResourcePolicies() *[]*string
+	SetResourcePolicies(val *[]*string)
+	ResourcePoliciesInput() *[]*string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -80,6 +83,7 @@ type GoogleWorkbenchInstanceGceSetupDataDisksOutputReference interface {
 	ResetDiskSizeGb()
 	ResetDiskType()
 	ResetKmsKey()
+	ResetResourcePolicies()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -225,6 +229,26 @@ func (j *jsiiProxy_GoogleWorkbenchInstanceGceSetupDataDisksOutputReference) KmsK
 	return returns
 }
 
+func (j *jsiiProxy_GoogleWorkbenchInstanceGceSetupDataDisksOutputReference) ResourcePolicies() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"resourcePolicies",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleWorkbenchInstanceGceSetupDataDisksOutputReference) ResourcePoliciesInput() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"resourcePoliciesInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleWorkbenchInstanceGceSetupDataDisksOutputReference) TerraformAttribute() *string {
 	var returns *string
 	_jsii_.Get(
@@ -346,6 +370,17 @@ func (j *jsiiProxy_GoogleWorkbenchInstanceGceSetupDataDisksOutputReference)SetKm
 	_jsii_.Set(
 		j,
 		"kmsKey",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleWorkbenchInstanceGceSetupDataDisksOutputReference)SetResourcePolicies(val *[]*string) {
+	if err := j.validateSetResourcePoliciesParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"resourcePolicies",
 		val,
 	)
 }
@@ -586,6 +621,14 @@ func (g *jsiiProxy_GoogleWorkbenchInstanceGceSetupDataDisksOutputReference) Rese
 	_jsii_.InvokeVoid(
 		g,
 		"resetKmsKey",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleWorkbenchInstanceGceSetupDataDisksOutputReference) ResetResourcePolicies() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetResourcePolicies",
 		nil, // no parameters
 	)
 }

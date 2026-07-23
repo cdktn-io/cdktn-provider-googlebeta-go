@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_compute_region_instant_snapshot_iam_binding google_compute_region_instant_snapshot_iam_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_compute_region_instant_snapshot_iam_binding google_compute_region_instant_snapshot_iam_binding}.
 type GoogleComputeRegionInstantSnapshotIamBinding interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -471,7 +471,7 @@ func (j *jsiiProxy_GoogleComputeRegionInstantSnapshotIamBinding) TerraformResour
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_compute_region_instant_snapshot_iam_binding google_compute_region_instant_snapshot_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_compute_region_instant_snapshot_iam_binding google_compute_region_instant_snapshot_iam_binding} Resource.
 func NewGoogleComputeRegionInstantSnapshotIamBinding(scope constructs.Construct, id *string, config *GoogleComputeRegionInstantSnapshotIamBindingConfig) GoogleComputeRegionInstantSnapshotIamBinding {
 	_init_.Initialize()
 
@@ -489,7 +489,7 @@ func NewGoogleComputeRegionInstantSnapshotIamBinding(scope constructs.Construct,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_compute_region_instant_snapshot_iam_binding google_compute_region_instant_snapshot_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_compute_region_instant_snapshot_iam_binding google_compute_region_instant_snapshot_iam_binding} Resource.
 func NewGoogleComputeRegionInstantSnapshotIamBinding_Override(g GoogleComputeRegionInstantSnapshotIamBinding, scope constructs.Construct, id *string, config *GoogleComputeRegionInstantSnapshotIamBindingConfig) {
 	_init_.Initialize()
 

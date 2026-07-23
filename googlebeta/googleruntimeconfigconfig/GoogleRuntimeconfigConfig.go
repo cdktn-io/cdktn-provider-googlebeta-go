@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_runtimeconfig_config google_runtimeconfig_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_runtimeconfig_config google_runtimeconfig_config}.
 type GoogleRuntimeconfigConfig interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -414,7 +414,7 @@ func (j *jsiiProxy_GoogleRuntimeconfigConfig) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_runtimeconfig_config google_runtimeconfig_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_runtimeconfig_config google_runtimeconfig_config} Resource.
 func NewGoogleRuntimeconfigConfig(scope constructs.Construct, id *string, config *GoogleRuntimeconfigConfigConfig) GoogleRuntimeconfigConfig {
 	_init_.Initialize()
 
@@ -432,7 +432,7 @@ func NewGoogleRuntimeconfigConfig(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_runtimeconfig_config google_runtimeconfig_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_runtimeconfig_config google_runtimeconfig_config} Resource.
 func NewGoogleRuntimeconfigConfig_Override(g GoogleRuntimeconfigConfig, scope constructs.Construct, id *string, config *GoogleRuntimeconfigConfigConfig) {
 	_init_.Initialize()
 

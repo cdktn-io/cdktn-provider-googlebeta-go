@@ -7,8 +7,12 @@ package googleaccesscontextmanagerserviceperimeterdryrunegresspolicy
 type GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSources struct {
 	// An AccessLevel resource name that allows resources outside the ServicePerimeter to be accessed from the inside.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeter_dry_run_egress_policy#access_level GoogleAccessContextManagerServicePerimeterDryRunEgressPolicy#access_level}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeter_dry_run_egress_policy#access_level GoogleAccessContextManagerServicePerimeterDryRunEgressPolicy#access_level}
 	AccessLevel *string `field:"optional" json:"accessLevel" yaml:"accessLevel"`
+	// psc_endpoint block.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeter_dry_run_egress_policy#psc_endpoint GoogleAccessContextManagerServicePerimeterDryRunEgressPolicy#psc_endpoint}
+	PscEndpoint *GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourcesPscEndpoint `field:"optional" json:"pscEndpoint" yaml:"pscEndpoint"`
 	// A Google Cloud resource that is allowed to egress the perimeter.
 	//
 	// Requests from these resources are allowed to access data outside the perimeter.
@@ -17,7 +21,7 @@ type GoogleAccessContextManagerServicePerimeterDryRunEgressPolicyEgressFromSourc
 	// organization that the perimeter is defined in. '*' is not allowed, the
 	// case of allowing all Google Cloud resources only is not supported.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_access_context_manager_service_perimeter_dry_run_egress_policy#resource GoogleAccessContextManagerServicePerimeterDryRunEgressPolicy#resource}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_access_context_manager_service_perimeter_dry_run_egress_policy#resource GoogleAccessContextManagerServicePerimeterDryRunEgressPolicy#resource}
 	Resource *string `field:"optional" json:"resource" yaml:"resource"`
 }
 

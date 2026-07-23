@@ -119,6 +119,10 @@ func (j *jsiiProxy_GoogleWorkbenchInstanceGceSetupOutputReference) validateSetMe
 	return nil
 }
 
+func (j *jsiiProxy_GoogleWorkbenchInstanceGceSetupOutputReference) validateSetMinCpuPlatformParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleWorkbenchInstanceGceSetupOutputReference) validateSetTagsParameters(val *[]*string) error {
 	return nil
 }

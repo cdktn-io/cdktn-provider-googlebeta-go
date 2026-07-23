@@ -37,6 +37,7 @@ type GoogleSqlDatabaseInstanceSettingsIpConfigurationPscConfigPscAutoConnections
 	CreationStack() *[]*string
 	// Experimental.
 	Fqn() *string
+	InstanceAutoDnsStatus() *string
 	InternalValue() interface{}
 	SetInternalValue(val interface{})
 	IpAddress() *string
@@ -51,6 +52,7 @@ type GoogleSqlDatabaseInstanceSettingsIpConfigurationPscConfigPscAutoConnections
 	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
 	SetTerraformResource(val cdktn.IInterpolatingParent)
+	WriteEndpointAutoDnsStatus() *string
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
@@ -181,6 +183,16 @@ func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsIpConfigurationPscConfigPscA
 	return returns
 }
 
+func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsIpConfigurationPscConfigPscAutoConnectionsOutputReference) InstanceAutoDnsStatus() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"instanceAutoDnsStatus",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsIpConfigurationPscConfigPscAutoConnectionsOutputReference) InternalValue() interface{} {
 	var returns interface{}
 	_jsii_.Get(
@@ -246,6 +258,16 @@ func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsIpConfigurationPscConfigPscA
 	_jsii_.Get(
 		j,
 		"terraformResource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsIpConfigurationPscConfigPscAutoConnectionsOutputReference) WriteEndpointAutoDnsStatus() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"writeEndpointAutoDnsStatus",
 		&returns,
 	)
 	return returns

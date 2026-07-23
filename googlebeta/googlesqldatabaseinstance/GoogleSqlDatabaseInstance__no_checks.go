@@ -159,6 +159,10 @@ func (j *jsiiProxy_GoogleSqlDatabaseInstance) validateSetIdParameters(val *strin
 	return nil
 }
 
+func (j *jsiiProxy_GoogleSqlDatabaseInstance) validateSetIncludeReplicasForMajorVersionUpgradeParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleSqlDatabaseInstance) validateSetInstanceTypeParameters(val *string) error {
 	return nil
 }
@@ -208,6 +212,10 @@ func (j *jsiiProxy_GoogleSqlDatabaseInstance) validateSetRootPasswordWoParameter
 }
 
 func (j *jsiiProxy_GoogleSqlDatabaseInstance) validateSetRootPasswordWoVersionParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleSqlDatabaseInstance) validateSetSwitchTransactionLogsToCloudStorageEnabledParameters(val interface{}) error {
 	return nil
 }
 

@@ -23,6 +23,9 @@ type GoogleDataprocClusterClusterConfigGceClusterConfigConfidentialInstanceConfi
 	ComplexObjectIsFromSet() *bool
 	// Experimental.
 	SetComplexObjectIsFromSet(val *bool)
+	ConfidentialInstanceType() *string
+	SetConfidentialInstanceType(val *string)
+	ConfidentialInstanceTypeInput() *string
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -67,6 +70,7 @@ type GoogleDataprocClusterClusterConfigGceClusterConfigConfidentialInstanceConfi
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	ResetConfidentialInstanceType()
 	ResetEnableConfidentialCompute()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -98,6 +102,26 @@ func (j *jsiiProxy_GoogleDataprocClusterClusterConfigGceClusterConfigConfidentia
 	_jsii_.Get(
 		j,
 		"complexObjectIsFromSet",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDataprocClusterClusterConfigGceClusterConfigConfidentialInstanceConfigOutputReference) ConfidentialInstanceType() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"confidentialInstanceType",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDataprocClusterClusterConfigGceClusterConfigConfidentialInstanceConfigOutputReference) ConfidentialInstanceTypeInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"confidentialInstanceTypeInput",
 		&returns,
 	)
 	return returns
@@ -219,6 +243,17 @@ func (j *jsiiProxy_GoogleDataprocClusterClusterConfigGceClusterConfigConfidentia
 	_jsii_.Set(
 		j,
 		"complexObjectIsFromSet",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleDataprocClusterClusterConfigGceClusterConfigConfidentialInstanceConfigOutputReference)SetConfidentialInstanceType(val *string) {
+	if err := j.validateSetConfidentialInstanceTypeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"confidentialInstanceType",
 		val,
 	)
 }
@@ -451,6 +486,14 @@ func (g *jsiiProxy_GoogleDataprocClusterClusterConfigGceClusterConfigConfidentia
 	)
 
 	return returns
+}
+
+func (g *jsiiProxy_GoogleDataprocClusterClusterConfigGceClusterConfigConfidentialInstanceConfigOutputReference) ResetConfidentialInstanceType() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetConfidentialInstanceType",
+		nil, // no parameters
+	)
 }
 
 func (g *jsiiProxy_GoogleDataprocClusterClusterConfigGceClusterConfigConfidentialInstanceConfigOutputReference) ResetEnableConfidentialCompute() {

@@ -171,6 +171,10 @@ func (j *jsiiProxy_GoogleCloudRunV2Job) validateSetStartExecutionTokenParameters
 	return nil
 }
 
+func (j *jsiiProxy_GoogleCloudRunV2Job) validateSetTagsParameters(val *map[string]*string) error {
+	return nil
+}
+
 func validateNewGoogleCloudRunV2JobParameters(scope constructs.Construct, id *string, config *GoogleCloudRunV2JobConfig) error {
 	return nil
 }

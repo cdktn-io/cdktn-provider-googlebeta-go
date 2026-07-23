@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_compute_future_reservation google_compute_future_reservation}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_compute_future_reservation google_compute_future_reservation}.
 type GoogleComputeFutureReservation interface {
 	cdktn.TerraformResource
 	AggregateReservation() GoogleComputeFutureReservationAggregateReservationOutputReference
@@ -124,6 +124,8 @@ type GoogleComputeFutureReservation interface {
 	TimeWindow() GoogleComputeFutureReservationTimeWindowOutputReference
 	TimeWindowInput() *GoogleComputeFutureReservationTimeWindow
 	Zone() *string
+	SetZone(val *string)
+	ZoneInput() *string
 	// Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
 	// Experimental.
 	AddMoveTarget(moveTarget *string)
@@ -198,6 +200,7 @@ type GoogleComputeFutureReservation interface {
 	ResetSpecificReservationRequired()
 	ResetSpecificSkuProperties()
 	ResetTimeouts()
+	ResetZone()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
 	// Experimental.
@@ -875,8 +878,18 @@ func (j *jsiiProxy_GoogleComputeFutureReservation) Zone() *string {
 	return returns
 }
 
+func (j *jsiiProxy_GoogleComputeFutureReservation) ZoneInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"zoneInput",
+		&returns,
+	)
+	return returns
+}
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_compute_future_reservation google_compute_future_reservation} Resource.
+
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_compute_future_reservation google_compute_future_reservation} Resource.
 func NewGoogleComputeFutureReservation(scope constructs.Construct, id *string, config *GoogleComputeFutureReservationConfig) GoogleComputeFutureReservation {
 	_init_.Initialize()
 
@@ -894,7 +907,7 @@ func NewGoogleComputeFutureReservation(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_compute_future_reservation google_compute_future_reservation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_compute_future_reservation google_compute_future_reservation} Resource.
 func NewGoogleComputeFutureReservation_Override(g GoogleComputeFutureReservation, scope constructs.Construct, id *string, config *GoogleComputeFutureReservationConfig) {
 	_init_.Initialize()
 
@@ -1123,6 +1136,17 @@ func (j *jsiiProxy_GoogleComputeFutureReservation)SetSpecificReservationRequired
 	_jsii_.Set(
 		j,
 		"specificReservationRequired",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleComputeFutureReservation)SetZone(val *string) {
+	if err := j.validateSetZoneParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"zone",
 		val,
 	)
 }
@@ -1732,6 +1756,14 @@ func (g *jsiiProxy_GoogleComputeFutureReservation) ResetTimeouts() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetTimeouts",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleComputeFutureReservation) ResetZone() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetZone",
 		nil, // no parameters
 	)
 }

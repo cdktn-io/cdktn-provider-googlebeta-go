@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_clouddeploy_deploy_policy google_clouddeploy_deploy_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_clouddeploy_deploy_policy google_clouddeploy_deploy_policy}.
 type GoogleClouddeployDeployPolicy interface {
 	cdktn.TerraformResource
 	Annotations() *map[string]*string
@@ -656,7 +656,7 @@ func (j *jsiiProxy_GoogleClouddeployDeployPolicy) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_clouddeploy_deploy_policy google_clouddeploy_deploy_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_clouddeploy_deploy_policy google_clouddeploy_deploy_policy} Resource.
 func NewGoogleClouddeployDeployPolicy(scope constructs.Construct, id *string, config *GoogleClouddeployDeployPolicyConfig) GoogleClouddeployDeployPolicy {
 	_init_.Initialize()
 
@@ -674,7 +674,7 @@ func NewGoogleClouddeployDeployPolicy(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_clouddeploy_deploy_policy google_clouddeploy_deploy_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_clouddeploy_deploy_policy google_clouddeploy_deploy_policy} Resource.
 func NewGoogleClouddeployDeployPolicy_Override(g GoogleClouddeployDeployPolicy, scope constructs.Construct, id *string, config *GoogleClouddeployDeployPolicyConfig) {
 	_init_.Initialize()
 

@@ -107,6 +107,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetSpecificReservationRequired", GoMethod: "ResetSpecificReservationRequired"},
 			_jsii_.MemberMethod{JsiiMethod: "resetSpecificSkuProperties", GoMethod: "ResetSpecificSkuProperties"},
 			_jsii_.MemberMethod{JsiiMethod: "resetTimeouts", GoMethod: "ResetTimeouts"},
+			_jsii_.MemberMethod{JsiiMethod: "resetZone", GoMethod: "ResetZone"},
 			_jsii_.MemberProperty{JsiiProperty: "schedulingType", GoGetter: "SchedulingType"},
 			_jsii_.MemberProperty{JsiiProperty: "schedulingTypeInput", GoGetter: "SchedulingTypeInput"},
 			_jsii_.MemberProperty{JsiiProperty: "selfLink", GoGetter: "SelfLink"},
@@ -133,6 +134,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 			_jsii_.MemberProperty{JsiiProperty: "zone", GoGetter: "Zone"},
+			_jsii_.MemberProperty{JsiiProperty: "zoneInput", GoGetter: "ZoneInput"},
 		},
 		func() interface{} {
 			j := jsiiProxy_GoogleComputeFutureReservation{}

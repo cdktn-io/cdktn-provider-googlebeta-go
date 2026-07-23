@@ -400,6 +400,14 @@ func (j *jsiiProxy_GoogleWorkbenchInstanceGceSetupOutputReference) validateSetMe
 	return nil
 }
 
+func (j *jsiiProxy_GoogleWorkbenchInstanceGceSetupOutputReference) validateSetMinCpuPlatformParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_GoogleWorkbenchInstanceGceSetupOutputReference) validateSetTagsParameters(val *[]*string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

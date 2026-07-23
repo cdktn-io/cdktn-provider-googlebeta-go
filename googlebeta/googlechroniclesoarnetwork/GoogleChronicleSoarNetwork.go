@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_soar_network google_chronicle_soar_network}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_soar_network google_chronicle_soar_network}.
 type GoogleChronicleSoarNetwork interface {
 	cdktn.TerraformResource
 	Address() *string
@@ -552,7 +552,7 @@ func (j *jsiiProxy_GoogleChronicleSoarNetwork) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_soar_network google_chronicle_soar_network} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_soar_network google_chronicle_soar_network} Resource.
 func NewGoogleChronicleSoarNetwork(scope constructs.Construct, id *string, config *GoogleChronicleSoarNetworkConfig) GoogleChronicleSoarNetwork {
 	_init_.Initialize()
 
@@ -570,7 +570,7 @@ func NewGoogleChronicleSoarNetwork(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_chronicle_soar_network google_chronicle_soar_network} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_soar_network google_chronicle_soar_network} Resource.
 func NewGoogleChronicleSoarNetwork_Override(g GoogleChronicleSoarNetwork, scope constructs.Construct, id *string, config *GoogleChronicleSoarNetworkConfig) {
 	_init_.Initialize()
 

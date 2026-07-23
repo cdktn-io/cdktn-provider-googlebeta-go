@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_pubsub_lite_reservation google_pubsub_lite_reservation}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_pubsub_lite_reservation google_pubsub_lite_reservation}.
 type GooglePubsubLiteReservation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -461,7 +461,7 @@ func (j *jsiiProxy_GooglePubsubLiteReservation) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_pubsub_lite_reservation google_pubsub_lite_reservation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_pubsub_lite_reservation google_pubsub_lite_reservation} Resource.
 func NewGooglePubsubLiteReservation(scope constructs.Construct, id *string, config *GooglePubsubLiteReservationConfig) GooglePubsubLiteReservation {
 	_init_.Initialize()
 
@@ -479,7 +479,7 @@ func NewGooglePubsubLiteReservation(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.40.0/docs/resources/google_pubsub_lite_reservation google_pubsub_lite_reservation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_pubsub_lite_reservation google_pubsub_lite_reservation} Resource.
 func NewGooglePubsubLiteReservation_Override(g GooglePubsubLiteReservation, scope constructs.Construct, id *string, config *GooglePubsubLiteReservationConfig) {
 	_init_.Initialize()
 
