@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleLoggingProjectSink) validateInterpolationForAttributePa
 	return nil
 }
 
+func (g *jsiiProxy_GoogleLoggingProjectSink) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleLoggingProjectSink) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (g *jsiiProxy_GoogleLoggingProjectSink) validatePutBigqueryOptionsParameter
 }
 
 func (g *jsiiProxy_GoogleLoggingProjectSink) validatePutExclusionsParameters(value interface{}) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleLoggingProjectSink) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

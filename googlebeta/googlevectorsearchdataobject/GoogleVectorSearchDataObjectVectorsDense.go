@@ -1,0 +1,13 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+package googlevectorsearchdataobject
+
+
+type GoogleVectorSearchDataObjectVectorsDense struct {
+	// The float values of the dense vector.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_vector_search_data_object#values GoogleVectorSearchDataObject#values}
+	Values *[]*float64 `field:"required" json:"values" yaml:"values"`
+}
+

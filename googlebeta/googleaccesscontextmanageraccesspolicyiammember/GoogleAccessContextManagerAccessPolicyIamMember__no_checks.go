@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleAccessContextManagerAccessPolicyIamMember) validateInte
 	return nil
 }
 
+func (g *jsiiProxy_GoogleAccessContextManagerAccessPolicyIamMember) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleAccessContextManagerAccessPolicyIamMember) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleAccessContextManagerAccessPolicyIamMember) validateOver
 }
 
 func (g *jsiiProxy_GoogleAccessContextManagerAccessPolicyIamMember) validatePutConditionParameters(value *GoogleAccessContextManagerAccessPolicyIamMemberCondition) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleAccessContextManagerAccessPolicyIamMember) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

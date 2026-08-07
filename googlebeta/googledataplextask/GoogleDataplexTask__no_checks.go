@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleDataplexTask) validateInterpolationForAttributeParamete
 	return nil
 }
 
+func (g *jsiiProxy_GoogleDataplexTask) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleDataplexTask) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -92,6 +96,10 @@ func (g *jsiiProxy_GoogleDataplexTask) validatePutTimeoutsParameters(value *Goog
 }
 
 func (g *jsiiProxy_GoogleDataplexTask) validatePutTriggerSpecParameters(value *GoogleDataplexTaskTriggerSpec) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleDataplexTask) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

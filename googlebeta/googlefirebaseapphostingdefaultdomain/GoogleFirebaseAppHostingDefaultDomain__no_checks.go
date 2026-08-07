@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleFirebaseAppHostingDefaultDomain) validateInterpolationF
 	return nil
 }
 
+func (g *jsiiProxy_GoogleFirebaseAppHostingDefaultDomain) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleFirebaseAppHostingDefaultDomain) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleFirebaseAppHostingDefaultDomain) validateOverrideLogica
 }
 
 func (g *jsiiProxy_GoogleFirebaseAppHostingDefaultDomain) validatePutTimeoutsParameters(value *GoogleFirebaseAppHostingDefaultDomainTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleFirebaseAppHostingDefaultDomain) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

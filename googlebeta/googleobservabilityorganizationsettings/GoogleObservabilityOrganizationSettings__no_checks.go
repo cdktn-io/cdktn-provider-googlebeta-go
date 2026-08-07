@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleObservabilityOrganizationSettings) validateInterpolatio
 	return nil
 }
 
+func (g *jsiiProxy_GoogleObservabilityOrganizationSettings) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleObservabilityOrganizationSettings) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleObservabilityOrganizationSettings) validateOverrideLogi
 }
 
 func (g *jsiiProxy_GoogleObservabilityOrganizationSettings) validatePutTimeoutsParameters(value *GoogleObservabilityOrganizationSettingsTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleObservabilityOrganizationSettings) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

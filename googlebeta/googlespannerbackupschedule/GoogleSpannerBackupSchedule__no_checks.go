@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleSpannerBackupSchedule) validateInterpolationForAttribut
 	return nil
 }
 
+func (g *jsiiProxy_GoogleSpannerBackupSchedule) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleSpannerBackupSchedule) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -92,6 +96,10 @@ func (g *jsiiProxy_GoogleSpannerBackupSchedule) validatePutSpecParameters(value 
 }
 
 func (g *jsiiProxy_GoogleSpannerBackupSchedule) validatePutTimeoutsParameters(value *GoogleSpannerBackupScheduleTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleSpannerBackupSchedule) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

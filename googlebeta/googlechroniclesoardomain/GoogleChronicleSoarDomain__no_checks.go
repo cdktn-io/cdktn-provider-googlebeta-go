@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleChronicleSoarDomain) validateInterpolationForAttributeP
 	return nil
 }
 
+func (g *jsiiProxy_GoogleChronicleSoarDomain) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleChronicleSoarDomain) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleChronicleSoarDomain) validateOverrideLogicalIdParameter
 }
 
 func (g *jsiiProxy_GoogleChronicleSoarDomain) validatePutTimeoutsParameters(value *GoogleChronicleSoarDomainTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleChronicleSoarDomain) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

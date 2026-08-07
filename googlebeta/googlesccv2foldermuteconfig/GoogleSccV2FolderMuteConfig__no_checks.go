@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleSccV2FolderMuteConfig) validateInterpolationForAttribut
 	return nil
 }
 
+func (g *jsiiProxy_GoogleSccV2FolderMuteConfig) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleSccV2FolderMuteConfig) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleSccV2FolderMuteConfig) validateOverrideLogicalIdParamet
 }
 
 func (g *jsiiProxy_GoogleSccV2FolderMuteConfig) validatePutTimeoutsParameters(value *GoogleSccV2FolderMuteConfigTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleSccV2FolderMuteConfig) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

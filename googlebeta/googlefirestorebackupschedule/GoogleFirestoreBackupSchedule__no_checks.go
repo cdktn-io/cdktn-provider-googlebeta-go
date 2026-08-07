@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleFirestoreBackupSchedule) validateInterpolationForAttrib
 	return nil
 }
 
+func (g *jsiiProxy_GoogleFirestoreBackupSchedule) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleFirestoreBackupSchedule) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (g *jsiiProxy_GoogleFirestoreBackupSchedule) validatePutTimeoutsParameters(
 }
 
 func (g *jsiiProxy_GoogleFirestoreBackupSchedule) validatePutWeeklyRecurrenceParameters(value *GoogleFirestoreBackupScheduleWeeklyRecurrence) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleFirestoreBackupSchedule) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

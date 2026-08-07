@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleEdgecontainerCluster) validateInterpolationForAttribute
 	return nil
 }
 
+func (g *jsiiProxy_GoogleEdgecontainerCluster) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleEdgecontainerCluster) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -104,6 +108,10 @@ func (g *jsiiProxy_GoogleEdgecontainerCluster) validatePutSystemAddonsConfigPara
 }
 
 func (g *jsiiProxy_GoogleEdgecontainerCluster) validatePutTimeoutsParameters(value *GoogleEdgecontainerClusterTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleEdgecontainerCluster) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

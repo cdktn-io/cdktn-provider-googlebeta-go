@@ -5,9 +5,9 @@ package googlecontainercluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecontainercluster/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecontainercluster/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -60,6 +60,8 @@ type GoogleContainerClusterAddonsConfigOutputReference interface {
 	LustreCsiDriverConfigInput() *GoogleContainerClusterAddonsConfigLustreCsiDriverConfig
 	NetworkPolicyConfig() GoogleContainerClusterAddonsConfigNetworkPolicyConfigOutputReference
 	NetworkPolicyConfigInput() *GoogleContainerClusterAddonsConfigNetworkPolicyConfig
+	NodeReadinessConfig() GoogleContainerClusterAddonsConfigNodeReadinessConfigOutputReference
+	NodeReadinessConfigInput() *GoogleContainerClusterAddonsConfigNodeReadinessConfig
 	ParallelstoreCsiDriverConfig() GoogleContainerClusterAddonsConfigParallelstoreCsiDriverConfigOutputReference
 	ParallelstoreCsiDriverConfigInput() *GoogleContainerClusterAddonsConfigParallelstoreCsiDriverConfig
 	PodSnapshotConfig() GoogleContainerClusterAddonsConfigPodSnapshotConfigOutputReference
@@ -118,6 +120,7 @@ type GoogleContainerClusterAddonsConfigOutputReference interface {
 	PutKalmConfig(value *GoogleContainerClusterAddonsConfigKalmConfig)
 	PutLustreCsiDriverConfig(value *GoogleContainerClusterAddonsConfigLustreCsiDriverConfig)
 	PutNetworkPolicyConfig(value *GoogleContainerClusterAddonsConfigNetworkPolicyConfig)
+	PutNodeReadinessConfig(value *GoogleContainerClusterAddonsConfigNodeReadinessConfig)
 	PutParallelstoreCsiDriverConfig(value *GoogleContainerClusterAddonsConfigParallelstoreCsiDriverConfig)
 	PutPodSnapshotConfig(value *GoogleContainerClusterAddonsConfigPodSnapshotConfig)
 	PutRayOperatorConfig(value interface{})
@@ -138,6 +141,7 @@ type GoogleContainerClusterAddonsConfigOutputReference interface {
 	ResetKalmConfig()
 	ResetLustreCsiDriverConfig()
 	ResetNetworkPolicyConfig()
+	ResetNodeReadinessConfig()
 	ResetParallelstoreCsiDriverConfig()
 	ResetPodSnapshotConfig()
 	ResetRayOperatorConfig()
@@ -484,6 +488,26 @@ func (j *jsiiProxy_GoogleContainerClusterAddonsConfigOutputReference) NetworkPol
 	_jsii_.Get(
 		j,
 		"networkPolicyConfigInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleContainerClusterAddonsConfigOutputReference) NodeReadinessConfig() GoogleContainerClusterAddonsConfigNodeReadinessConfigOutputReference {
+	var returns GoogleContainerClusterAddonsConfigNodeReadinessConfigOutputReference
+	_jsii_.Get(
+		j,
+		"nodeReadinessConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleContainerClusterAddonsConfigOutputReference) NodeReadinessConfigInput() *GoogleContainerClusterAddonsConfigNodeReadinessConfig {
+	var returns *GoogleContainerClusterAddonsConfigNodeReadinessConfig
+	_jsii_.Get(
+		j,
+		"nodeReadinessConfigInput",
 		&returns,
 	)
 	return returns
@@ -1052,6 +1076,17 @@ func (g *jsiiProxy_GoogleContainerClusterAddonsConfigOutputReference) PutNetwork
 	)
 }
 
+func (g *jsiiProxy_GoogleContainerClusterAddonsConfigOutputReference) PutNodeReadinessConfig(value *GoogleContainerClusterAddonsConfigNodeReadinessConfig) {
+	if err := g.validatePutNodeReadinessConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putNodeReadinessConfig",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleContainerClusterAddonsConfigOutputReference) PutParallelstoreCsiDriverConfig(value *GoogleContainerClusterAddonsConfigParallelstoreCsiDriverConfig) {
 	if err := g.validatePutParallelstoreCsiDriverConfigParameters(value); err != nil {
 		panic(err)
@@ -1226,6 +1261,14 @@ func (g *jsiiProxy_GoogleContainerClusterAddonsConfigOutputReference) ResetNetwo
 	_jsii_.InvokeVoid(
 		g,
 		"resetNetworkPolicyConfig",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleContainerClusterAddonsConfigOutputReference) ResetNodeReadinessConfig() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetNodeReadinessConfig",
 		nil, // no parameters
 	)
 }

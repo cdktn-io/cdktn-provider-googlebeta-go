@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleComputeStoragePoolIamMember) validateInterpolationForAt
 	return nil
 }
 
+func (g *jsiiProxy_GoogleComputeStoragePoolIamMember) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleComputeStoragePoolIamMember) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleComputeStoragePoolIamMember) validateOverrideLogicalIdP
 }
 
 func (g *jsiiProxy_GoogleComputeStoragePoolIamMember) validatePutConditionParameters(value *GoogleComputeStoragePoolIamMemberCondition) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleComputeStoragePoolIamMember) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

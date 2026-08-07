@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleChronicleDashboardChart) validateInterpolationForAttrib
 	return nil
 }
 
+func (g *jsiiProxy_GoogleChronicleDashboardChart) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleChronicleDashboardChart) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -88,6 +92,10 @@ func (g *jsiiProxy_GoogleChronicleDashboardChart) validatePutDashboardQueryParam
 }
 
 func (g *jsiiProxy_GoogleChronicleDashboardChart) validatePutTimeoutsParameters(value *GoogleChronicleDashboardChartTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleChronicleDashboardChart) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

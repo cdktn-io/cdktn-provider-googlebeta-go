@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleManagedKafkaTopic) validateInterpolationForAttributePar
 	return nil
 }
 
+func (g *jsiiProxy_GoogleManagedKafkaTopic) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleManagedKafkaTopic) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleManagedKafkaTopic) validateOverrideLogicalIdParameters(
 }
 
 func (g *jsiiProxy_GoogleManagedKafkaTopic) validatePutTimeoutsParameters(value *GoogleManagedKafkaTopicTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleManagedKafkaTopic) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

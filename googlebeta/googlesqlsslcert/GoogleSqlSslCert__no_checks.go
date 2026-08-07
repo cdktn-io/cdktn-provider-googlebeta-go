@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleSqlSslCert) validateInterpolationForAttributeParameters
 	return nil
 }
 
+func (g *jsiiProxy_GoogleSqlSslCert) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleSqlSslCert) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleSqlSslCert) validateOverrideLogicalIdParameters(newLogi
 }
 
 func (g *jsiiProxy_GoogleSqlSslCert) validatePutTimeoutsParameters(value *GoogleSqlSslCertTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleSqlSslCert) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

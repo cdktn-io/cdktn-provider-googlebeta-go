@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleSccProjectCustomModule) validateInterpolationForAttribu
 	return nil
 }
 
+func (g *jsiiProxy_GoogleSccProjectCustomModule) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleSccProjectCustomModule) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (g *jsiiProxy_GoogleSccProjectCustomModule) validatePutCustomConfigParamete
 }
 
 func (g *jsiiProxy_GoogleSccProjectCustomModule) validatePutTimeoutsParameters(value *GoogleSccProjectCustomModuleTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleSccProjectCustomModule) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleDatastreamConnectionProfile) validateInterpolationForAt
 	return nil
 }
 
+func (g *jsiiProxy_GoogleDatastreamConnectionProfile) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleDatastreamConnectionProfile) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -120,6 +124,10 @@ func (g *jsiiProxy_GoogleDatastreamConnectionProfile) validatePutSqlServerProfil
 }
 
 func (g *jsiiProxy_GoogleDatastreamConnectionProfile) validatePutTimeoutsParameters(value *GoogleDatastreamConnectionProfileTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleDatastreamConnectionProfile) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

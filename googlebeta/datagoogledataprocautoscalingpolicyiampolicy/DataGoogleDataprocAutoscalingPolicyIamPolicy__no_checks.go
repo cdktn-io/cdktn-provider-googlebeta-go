@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataGoogleDataprocAutoscalingPolicyIamPolicy) validateOverrid
 	return nil
 }
 
+func (d *jsiiProxy_DataGoogleDataprocAutoscalingPolicyIamPolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataGoogleDataprocAutoscalingPolicyIamPolicy_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

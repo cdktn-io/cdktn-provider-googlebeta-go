@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataGoogleFilestoreInstance) validateOverrideLogicalIdParamet
 	return nil
 }
 
+func (d *jsiiProxy_DataGoogleFilestoreInstance) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataGoogleFilestoreInstance_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

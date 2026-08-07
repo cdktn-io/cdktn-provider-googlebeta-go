@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleIntegrationsAuthConfig) validateInterpolationForAttribu
 	return nil
 }
 
+func (g *jsiiProxy_GoogleIntegrationsAuthConfig) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleIntegrationsAuthConfig) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (g *jsiiProxy_GoogleIntegrationsAuthConfig) validatePutDecryptedCredentialP
 }
 
 func (g *jsiiProxy_GoogleIntegrationsAuthConfig) validatePutTimeoutsParameters(value *GoogleIntegrationsAuthConfigTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleIntegrationsAuthConfig) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

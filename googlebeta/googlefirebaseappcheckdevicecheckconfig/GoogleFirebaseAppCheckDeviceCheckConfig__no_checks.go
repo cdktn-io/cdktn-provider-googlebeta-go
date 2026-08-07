@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleFirebaseAppCheckDeviceCheckConfig) validateInterpolatio
 	return nil
 }
 
+func (g *jsiiProxy_GoogleFirebaseAppCheckDeviceCheckConfig) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleFirebaseAppCheckDeviceCheckConfig) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleFirebaseAppCheckDeviceCheckConfig) validateOverrideLogi
 }
 
 func (g *jsiiProxy_GoogleFirebaseAppCheckDeviceCheckConfig) validatePutTimeoutsParameters(value *GoogleFirebaseAppCheckDeviceCheckConfigTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleFirebaseAppCheckDeviceCheckConfig) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

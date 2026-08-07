@@ -51,6 +51,10 @@ func (g *jsiiProxy_GoogleComposerEnvironmentConfigNodeConfigOutputReference) val
 	return nil
 }
 
+func (g *jsiiProxy_GoogleComposerEnvironmentConfigNodeConfigOutputReference) validatePutTrafficRoutingConfigParameters(value *GoogleComposerEnvironmentConfigNodeConfigTrafficRoutingConfig) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleComposerEnvironmentConfigNodeConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }

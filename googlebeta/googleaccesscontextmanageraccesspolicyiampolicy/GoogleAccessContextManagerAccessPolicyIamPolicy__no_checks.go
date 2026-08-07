@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleAccessContextManagerAccessPolicyIamPolicy) validateInte
 	return nil
 }
 
+func (g *jsiiProxy_GoogleAccessContextManagerAccessPolicyIamPolicy) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleAccessContextManagerAccessPolicyIamPolicy) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (g *jsiiProxy_GoogleAccessContextManagerAccessPolicyIamPolicy) validateMove
 }
 
 func (g *jsiiProxy_GoogleAccessContextManagerAccessPolicyIamPolicy) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleAccessContextManagerAccessPolicyIamPolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

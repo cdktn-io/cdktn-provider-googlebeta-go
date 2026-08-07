@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataGoogleComputeRegionBackendService) validateOverrideLogica
 	return nil
 }
 
+func (d *jsiiProxy_DataGoogleComputeRegionBackendService) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataGoogleComputeRegionBackendService_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleBlockchainNodeEngineBlockchainNodes) validateInterpolat
 	return nil
 }
 
+func (g *jsiiProxy_GoogleBlockchainNodeEngineBlockchainNodes) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleBlockchainNodeEngineBlockchainNodes) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (g *jsiiProxy_GoogleBlockchainNodeEngineBlockchainNodes) validatePutEthereu
 }
 
 func (g *jsiiProxy_GoogleBlockchainNodeEngineBlockchainNodes) validatePutTimeoutsParameters(value *GoogleBlockchainNodeEngineBlockchainNodesTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleBlockchainNodeEngineBlockchainNodes) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

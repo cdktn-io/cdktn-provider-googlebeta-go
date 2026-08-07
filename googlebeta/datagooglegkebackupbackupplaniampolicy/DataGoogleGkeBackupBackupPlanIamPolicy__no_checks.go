@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataGoogleGkeBackupBackupPlanIamPolicy) validateOverrideLogic
 	return nil
 }
 
+func (d *jsiiProxy_DataGoogleGkeBackupBackupPlanIamPolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataGoogleGkeBackupBackupPlanIamPolicy_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

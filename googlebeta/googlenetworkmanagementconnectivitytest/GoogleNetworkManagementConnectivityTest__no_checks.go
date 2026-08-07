@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleNetworkManagementConnectivityTest) validateInterpolatio
 	return nil
 }
 
+func (g *jsiiProxy_GoogleNetworkManagementConnectivityTest) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleNetworkManagementConnectivityTest) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (g *jsiiProxy_GoogleNetworkManagementConnectivityTest) validatePutSourcePar
 }
 
 func (g *jsiiProxy_GoogleNetworkManagementConnectivityTest) validatePutTimeoutsParameters(value *GoogleNetworkManagementConnectivityTestTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleNetworkManagementConnectivityTest) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

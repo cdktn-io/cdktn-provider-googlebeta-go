@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleEssentialContactsContact) validateInterpolationForAttri
 	return nil
 }
 
+func (g *jsiiProxy_GoogleEssentialContactsContact) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleEssentialContactsContact) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleEssentialContactsContact) validateOverrideLogicalIdPara
 }
 
 func (g *jsiiProxy_GoogleEssentialContactsContact) validatePutTimeoutsParameters(value *GoogleEssentialContactsContactTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleEssentialContactsContact) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

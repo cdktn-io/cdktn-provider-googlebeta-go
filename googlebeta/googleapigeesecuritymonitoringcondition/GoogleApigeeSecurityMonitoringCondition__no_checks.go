@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleApigeeSecurityMonitoringCondition) validateInterpolatio
 	return nil
 }
 
+func (g *jsiiProxy_GoogleApigeeSecurityMonitoringCondition) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleApigeeSecurityMonitoringCondition) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (g *jsiiProxy_GoogleApigeeSecurityMonitoringCondition) validatePutIncludeAl
 }
 
 func (g *jsiiProxy_GoogleApigeeSecurityMonitoringCondition) validatePutTimeoutsParameters(value *GoogleApigeeSecurityMonitoringConditionTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleApigeeSecurityMonitoringCondition) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

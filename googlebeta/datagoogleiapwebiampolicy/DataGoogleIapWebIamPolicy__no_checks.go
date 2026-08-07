@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataGoogleIapWebIamPolicy) validateOverrideLogicalIdParameter
 	return nil
 }
 
+func (d *jsiiProxy_DataGoogleIapWebIamPolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataGoogleIapWebIamPolicy_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

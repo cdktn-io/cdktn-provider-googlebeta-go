@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleClouddomainsRegistration) validateInterpolationForAttri
 	return nil
 }
 
+func (g *jsiiProxy_GoogleClouddomainsRegistration) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleClouddomainsRegistration) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -92,6 +96,10 @@ func (g *jsiiProxy_GoogleClouddomainsRegistration) validatePutTimeoutsParameters
 }
 
 func (g *jsiiProxy_GoogleClouddomainsRegistration) validatePutYearlyPriceParameters(value *GoogleClouddomainsRegistrationYearlyPrice) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleClouddomainsRegistration) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

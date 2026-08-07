@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleComputeSubnetworkIamBinding) validateInterpolationForAt
 	return nil
 }
 
+func (g *jsiiProxy_GoogleComputeSubnetworkIamBinding) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleComputeSubnetworkIamBinding) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleComputeSubnetworkIamBinding) validateOverrideLogicalIdP
 }
 
 func (g *jsiiProxy_GoogleComputeSubnetworkIamBinding) validatePutConditionParameters(value *GoogleComputeSubnetworkIamBindingCondition) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleComputeSubnetworkIamBinding) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

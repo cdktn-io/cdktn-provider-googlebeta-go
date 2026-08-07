@@ -5,14 +5,14 @@ package datagoogleclientopeniduserinfo
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagoogleclientopeniduserinfo/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoogleclientopeniduserinfo/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/data-sources/google_client_openid_userinfo google_client_openid_userinfo}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/data-sources/google_client_openid_userinfo google_client_openid_userinfo}.
 type DataGoogleClientOpenidUserinfo interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -80,6 +80,19 @@ type DataGoogleClientOpenidUserinfo interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
+	//
+	// Called by generated provider bindings when a versioned feature is
+	// structurally in use - the element's existence in the construct tree
+	// already implies the feature is used, e.g. constructing a
+	// `TerraformEphemeralResource` at all - so, unlike
+	// `_registerResolveDiscoveredProviderFeatureUsage`, this registration is
+	// never deactivated by `_resetResolveDiscoveredProviderFeatureUsage`. Not
+	// intended to be called directly by user code. Lives on `TerraformElement`
+	// (rather than `TerraformResource`) so it covers any element subclass
+	// that needs it.
+	// Experimental.
+	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
@@ -272,7 +285,7 @@ func (j *jsiiProxy_DataGoogleClientOpenidUserinfo) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/data-sources/google_client_openid_userinfo google_client_openid_userinfo} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/data-sources/google_client_openid_userinfo google_client_openid_userinfo} Data Source.
 func NewDataGoogleClientOpenidUserinfo(scope constructs.Construct, id *string, config *DataGoogleClientOpenidUserinfoConfig) DataGoogleClientOpenidUserinfo {
 	_init_.Initialize()
 
@@ -290,7 +303,7 @@ func NewDataGoogleClientOpenidUserinfo(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/data-sources/google_client_openid_userinfo google_client_openid_userinfo} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/data-sources/google_client_openid_userinfo google_client_openid_userinfo} Data Source.
 func NewDataGoogleClientOpenidUserinfo_Override(d DataGoogleClientOpenidUserinfo, scope constructs.Construct, id *string, config *DataGoogleClientOpenidUserinfoConfig) {
 	_init_.Initialize()
 
@@ -629,6 +642,17 @@ func (d *jsiiProxy_DataGoogleClientOpenidUserinfo) OverrideLogicalId(newLogicalI
 		d,
 		"overrideLogicalId",
 		[]interface{}{newLogicalId},
+	)
+}
+
+func (d *jsiiProxy_DataGoogleClientOpenidUserinfo) RegisterProviderFeatureUsage(feature cdktn.ProviderFeature) {
+	if err := d.validateRegisterProviderFeatureUsageParameters(feature); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		d,
+		"registerProviderFeatureUsage",
+		[]interface{}{feature},
 	)
 }
 

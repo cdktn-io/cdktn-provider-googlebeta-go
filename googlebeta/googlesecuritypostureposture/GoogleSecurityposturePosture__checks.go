@@ -122,6 +122,14 @@ func (g *jsiiProxy_GoogleSecurityposturePosture) validateInterpolationForAttribu
 	return nil
 }
 
+func (g *jsiiProxy_GoogleSecurityposturePosture) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (g *jsiiProxy_GoogleSecurityposturePosture) validateMoveFromIdParameters(id *string) error {
 	if id == nil {
 		return fmt.Errorf("parameter id is required, but nil was provided")
@@ -244,6 +252,14 @@ func (g *jsiiProxy_GoogleSecurityposturePosture) validatePutTimeoutsParameters(v
 	}
 	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
 		return err
+	}
+
+	return nil
+}
+
+func (g *jsiiProxy_GoogleSecurityposturePosture) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
 	}
 
 	return nil

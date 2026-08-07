@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleBigqueryReservation) validateInterpolationForAttributeP
 	return nil
 }
 
+func (g *jsiiProxy_GoogleBigqueryReservation) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleBigqueryReservation) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (g *jsiiProxy_GoogleBigqueryReservation) validatePutAutoscaleParameters(val
 }
 
 func (g *jsiiProxy_GoogleBigqueryReservation) validatePutTimeoutsParameters(value *GoogleBigqueryReservationTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleBigqueryReservation) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

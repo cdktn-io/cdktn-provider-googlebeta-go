@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataGoogleBeyondcorpAppConnection) validateOverrideLogicalIdP
 	return nil
 }
 
+func (d *jsiiProxy_DataGoogleBeyondcorpAppConnection) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataGoogleBeyondcorpAppConnection_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

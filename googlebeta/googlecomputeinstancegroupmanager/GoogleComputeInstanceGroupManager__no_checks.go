@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleComputeInstanceGroupManager) validateInterpolationForAt
 	return nil
 }
 
+func (g *jsiiProxy_GoogleComputeInstanceGroupManager) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleComputeInstanceGroupManager) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -128,6 +132,10 @@ func (g *jsiiProxy_GoogleComputeInstanceGroupManager) validatePutUpdatePolicyPar
 }
 
 func (g *jsiiProxy_GoogleComputeInstanceGroupManager) validatePutVersionParameters(value interface{}) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleComputeInstanceGroupManager) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

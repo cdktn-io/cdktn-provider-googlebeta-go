@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleWorkflowsWorkflow) validateInterpolationForAttributePar
 	return nil
 }
 
+func (g *jsiiProxy_GoogleWorkflowsWorkflow) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleWorkflowsWorkflow) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleWorkflowsWorkflow) validateOverrideLogicalIdParameters(
 }
 
 func (g *jsiiProxy_GoogleWorkflowsWorkflow) validatePutTimeoutsParameters(value *GoogleWorkflowsWorkflowTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleWorkflowsWorkflow) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

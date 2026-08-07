@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataGoogleArtifactRegistryNpmPackage) validateOverrideLogical
 	return nil
 }
 
+func (d *jsiiProxy_DataGoogleArtifactRegistryNpmPackage) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataGoogleArtifactRegistryNpmPackage_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

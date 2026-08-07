@@ -76,6 +76,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "pscAttachmentDetails", GoGetter: "PscAttachmentDetails"},
 			_jsii_.MemberProperty{JsiiProperty: "pscAutoConnections", GoGetter: "PscAutoConnections"},
 			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
+			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
 			_jsii_.MemberProperty{JsiiProperty: "replicaCount", GoGetter: "ReplicaCount"},
 			_jsii_.MemberMethod{JsiiMethod: "resetId", GoMethod: "ResetId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetLocation", GoMethod: "ResetLocation"},

@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleNetworkConnectivityInternalRange) validateInterpolation
 	return nil
 }
 
+func (g *jsiiProxy_GoogleNetworkConnectivityInternalRange) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleNetworkConnectivityInternalRange) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (g *jsiiProxy_GoogleNetworkConnectivityInternalRange) validatePutMigrationP
 }
 
 func (g *jsiiProxy_GoogleNetworkConnectivityInternalRange) validatePutTimeoutsParameters(value *GoogleNetworkConnectivityInternalRangeTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleNetworkConnectivityInternalRange) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

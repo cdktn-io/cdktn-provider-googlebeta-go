@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleClouddeployTarget) validateInterpolationForAttributePar
 	return nil
 }
 
+func (g *jsiiProxy_GoogleClouddeployTarget) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleClouddeployTarget) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -104,6 +108,10 @@ func (g *jsiiProxy_GoogleClouddeployTarget) validatePutRunParameters(value *Goog
 }
 
 func (g *jsiiProxy_GoogleClouddeployTarget) validatePutTimeoutsParameters(value *GoogleClouddeployTargetTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleClouddeployTarget) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

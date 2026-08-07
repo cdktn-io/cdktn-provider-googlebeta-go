@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleKmsSecretCiphertext) validateInterpolationForAttributeP
 	return nil
 }
 
+func (g *jsiiProxy_GoogleKmsSecretCiphertext) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleKmsSecretCiphertext) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleKmsSecretCiphertext) validateOverrideLogicalIdParameter
 }
 
 func (g *jsiiProxy_GoogleKmsSecretCiphertext) validatePutTimeoutsParameters(value *GoogleKmsSecretCiphertextTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleKmsSecretCiphertext) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

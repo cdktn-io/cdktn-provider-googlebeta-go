@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataGoogleDataCatalogTaxonomy) validateOverrideLogicalIdParam
 	return nil
 }
 
+func (d *jsiiProxy_DataGoogleDataCatalogTaxonomy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataGoogleDataCatalogTaxonomy_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleVertexAiSchedule) validateInterpolationForAttributePara
 	return nil
 }
 
+func (g *jsiiProxy_GoogleVertexAiSchedule) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleVertexAiSchedule) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (g *jsiiProxy_GoogleVertexAiSchedule) validatePutCreatePipelineJobRequestPa
 }
 
 func (g *jsiiProxy_GoogleVertexAiSchedule) validatePutTimeoutsParameters(value *GoogleVertexAiScheduleTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleVertexAiSchedule) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

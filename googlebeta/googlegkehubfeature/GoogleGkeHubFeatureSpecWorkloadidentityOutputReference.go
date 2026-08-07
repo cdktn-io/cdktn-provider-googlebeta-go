@@ -5,9 +5,9 @@ package googlegkehubfeature
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlegkehubfeature/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlegkehubfeature/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -67,6 +67,7 @@ type GoogleGkeHubFeatureSpecWorkloadidentityOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	ResetScopeTenancyPool()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -450,6 +451,14 @@ func (g *jsiiProxy_GoogleGkeHubFeatureSpecWorkloadidentityOutputReference) Inter
 	)
 
 	return returns
+}
+
+func (g *jsiiProxy_GoogleGkeHubFeatureSpecWorkloadidentityOutputReference) ResetScopeTenancyPool() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetScopeTenancyPool",
+		nil, // no parameters
+	)
 }
 
 func (g *jsiiProxy_GoogleGkeHubFeatureSpecWorkloadidentityOutputReference) Resolve(context cdktn.IResolveContext) interface{} {

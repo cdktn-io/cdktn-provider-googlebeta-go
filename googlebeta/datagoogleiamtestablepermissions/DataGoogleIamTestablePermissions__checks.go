@@ -114,6 +114,14 @@ func (d *jsiiProxy_DataGoogleIamTestablePermissions) validateOverrideLogicalIdPa
 	return nil
 }
 
+func (d *jsiiProxy_DataGoogleIamTestablePermissions) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func validateDataGoogleIamTestablePermissions_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	if scope == nil {
 		return fmt.Errorf("parameter scope is required, but nil was provided")

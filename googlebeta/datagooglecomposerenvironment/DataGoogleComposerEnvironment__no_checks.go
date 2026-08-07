@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataGoogleComposerEnvironment) validateOverrideLogicalIdParam
 	return nil
 }
 
+func (d *jsiiProxy_DataGoogleComposerEnvironment) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataGoogleComposerEnvironment_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

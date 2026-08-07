@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleVertexAiFeatureOnlineStore) validateInterpolationForAtt
 	return nil
 }
 
+func (g *jsiiProxy_GoogleVertexAiFeatureOnlineStore) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleVertexAiFeatureOnlineStore) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -96,6 +100,10 @@ func (g *jsiiProxy_GoogleVertexAiFeatureOnlineStore) validatePutOptimizedParamet
 }
 
 func (g *jsiiProxy_GoogleVertexAiFeatureOnlineStore) validatePutTimeoutsParameters(value *GoogleVertexAiFeatureOnlineStoreTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleVertexAiFeatureOnlineStore) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

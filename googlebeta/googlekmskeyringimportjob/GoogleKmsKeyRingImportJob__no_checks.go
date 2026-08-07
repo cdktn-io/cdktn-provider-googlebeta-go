@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleKmsKeyRingImportJob) validateInterpolationForAttributeP
 	return nil
 }
 
+func (g *jsiiProxy_GoogleKmsKeyRingImportJob) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleKmsKeyRingImportJob) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleKmsKeyRingImportJob) validateOverrideLogicalIdParameter
 }
 
 func (g *jsiiProxy_GoogleKmsKeyRingImportJob) validatePutTimeoutsParameters(value *GoogleKmsKeyRingImportJobTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleKmsKeyRingImportJob) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleSpannerInstance) validateInterpolationForAttributeParam
 	return nil
 }
 
+func (g *jsiiProxy_GoogleSpannerInstance) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleSpannerInstance) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (g *jsiiProxy_GoogleSpannerInstance) validatePutAutoscalingConfigParameters
 }
 
 func (g *jsiiProxy_GoogleSpannerInstance) validatePutTimeoutsParameters(value *GoogleSpannerInstanceTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleSpannerInstance) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

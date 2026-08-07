@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleHealthcareDicomStoreIamMember) validateInterpolationFor
 	return nil
 }
 
+func (g *jsiiProxy_GoogleHealthcareDicomStoreIamMember) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleHealthcareDicomStoreIamMember) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleHealthcareDicomStoreIamMember) validateOverrideLogicalI
 }
 
 func (g *jsiiProxy_GoogleHealthcareDicomStoreIamMember) validatePutConditionParameters(value *GoogleHealthcareDicomStoreIamMemberCondition) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleHealthcareDicomStoreIamMember) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

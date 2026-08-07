@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleNetworkSecurityUllMirroringCollectorRule) validateInter
 	return nil
 }
 
+func (g *jsiiProxy_GoogleNetworkSecurityUllMirroringCollectorRule) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleNetworkSecurityUllMirroringCollectorRule) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (g *jsiiProxy_GoogleNetworkSecurityUllMirroringCollectorRule) validatePutMa
 }
 
 func (g *jsiiProxy_GoogleNetworkSecurityUllMirroringCollectorRule) validatePutTimeoutsParameters(value *GoogleNetworkSecurityUllMirroringCollectorRuleTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleNetworkSecurityUllMirroringCollectorRule) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

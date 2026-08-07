@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleColabSchedule) validateInterpolationForAttributeParamet
 	return nil
 }
 
+func (g *jsiiProxy_GoogleColabSchedule) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleColabSchedule) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -79,7 +83,15 @@ func (g *jsiiProxy_GoogleColabSchedule) validatePutCreateNotebookExecutionJobReq
 	return nil
 }
 
+func (g *jsiiProxy_GoogleColabSchedule) validatePutCreatePipelineJobRequestParameters(value *GoogleColabScheduleCreatePipelineJobRequest) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleColabSchedule) validatePutTimeoutsParameters(value *GoogleColabScheduleTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleColabSchedule) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 
@@ -140,6 +152,10 @@ func (j *jsiiProxy_GoogleColabSchedule) validateSetLifecycleParameters(val *cdkt
 }
 
 func (j *jsiiProxy_GoogleColabSchedule) validateSetLocationParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleColabSchedule) validateSetMaxConcurrentActiveRunCountParameters(val *string) error {
 	return nil
 }
 

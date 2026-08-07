@@ -122,6 +122,14 @@ func (g *jsiiProxy_GoogleSecretManagerRegionalSecretIamPolicy) validateInterpola
 	return nil
 }
 
+func (g *jsiiProxy_GoogleSecretManagerRegionalSecretIamPolicy) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (g *jsiiProxy_GoogleSecretManagerRegionalSecretIamPolicy) validateMoveFromIdParameters(id *string) error {
 	if id == nil {
 		return fmt.Errorf("parameter id is required, but nil was provided")
@@ -202,6 +210,14 @@ func (g *jsiiProxy_GoogleSecretManagerRegionalSecretIamPolicy) validateMoveToIdP
 func (g *jsiiProxy_GoogleSecretManagerRegionalSecretIamPolicy) validateOverrideLogicalIdParameters(newLogicalId *string) error {
 	if newLogicalId == nil {
 		return fmt.Errorf("parameter newLogicalId is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (g *jsiiProxy_GoogleSecretManagerRegionalSecretIamPolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
 	}
 
 	return nil

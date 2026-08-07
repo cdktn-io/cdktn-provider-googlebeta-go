@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleBillingSubaccount) validateInterpolationForAttributePar
 	return nil
 }
 
+func (g *jsiiProxy_GoogleBillingSubaccount) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleBillingSubaccount) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (g *jsiiProxy_GoogleBillingSubaccount) validateMoveToIdParameters(id *strin
 }
 
 func (g *jsiiProxy_GoogleBillingSubaccount) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleBillingSubaccount) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

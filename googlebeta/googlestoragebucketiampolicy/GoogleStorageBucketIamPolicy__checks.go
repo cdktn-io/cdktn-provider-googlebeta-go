@@ -122,6 +122,14 @@ func (g *jsiiProxy_GoogleStorageBucketIamPolicy) validateInterpolationForAttribu
 	return nil
 }
 
+func (g *jsiiProxy_GoogleStorageBucketIamPolicy) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (g *jsiiProxy_GoogleStorageBucketIamPolicy) validateMoveFromIdParameters(id *string) error {
 	if id == nil {
 		return fmt.Errorf("parameter id is required, but nil was provided")
@@ -213,6 +221,14 @@ func (g *jsiiProxy_GoogleStorageBucketIamPolicy) validatePutTimeoutsParameters(v
 	}
 	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
 		return err
+	}
+
+	return nil
+}
+
+func (g *jsiiProxy_GoogleStorageBucketIamPolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
 	}
 
 	return nil

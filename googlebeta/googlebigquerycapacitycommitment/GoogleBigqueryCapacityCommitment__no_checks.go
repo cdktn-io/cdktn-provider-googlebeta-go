@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleBigqueryCapacityCommitment) validateInterpolationForAtt
 	return nil
 }
 
+func (g *jsiiProxy_GoogleBigqueryCapacityCommitment) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleBigqueryCapacityCommitment) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleBigqueryCapacityCommitment) validateOverrideLogicalIdPa
 }
 
 func (g *jsiiProxy_GoogleBigqueryCapacityCommitment) validatePutTimeoutsParameters(value *GoogleBigqueryCapacityCommitmentTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleBigqueryCapacityCommitment) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

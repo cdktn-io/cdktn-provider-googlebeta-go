@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataGoogleOracleDatabaseCloudExadataInfrastructure) validateO
 	return nil
 }
 
+func (d *jsiiProxy_DataGoogleOracleDatabaseCloudExadataInfrastructure) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataGoogleOracleDatabaseCloudExadataInfrastructure_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

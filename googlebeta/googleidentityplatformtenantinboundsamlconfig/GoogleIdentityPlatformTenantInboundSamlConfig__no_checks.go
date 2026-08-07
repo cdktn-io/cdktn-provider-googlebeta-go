@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleIdentityPlatformTenantInboundSamlConfig) validateInterp
 	return nil
 }
 
+func (g *jsiiProxy_GoogleIdentityPlatformTenantInboundSamlConfig) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleIdentityPlatformTenantInboundSamlConfig) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (g *jsiiProxy_GoogleIdentityPlatformTenantInboundSamlConfig) validatePutSpC
 }
 
 func (g *jsiiProxy_GoogleIdentityPlatformTenantInboundSamlConfig) validatePutTimeoutsParameters(value *GoogleIdentityPlatformTenantInboundSamlConfigTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleIdentityPlatformTenantInboundSamlConfig) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

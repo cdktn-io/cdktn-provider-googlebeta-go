@@ -47,6 +47,14 @@ func (g *jsiiProxy_GoogleComputeRegionBackendServiceLogConfigOutputReference) va
 	return nil
 }
 
+func (g *jsiiProxy_GoogleComputeRegionBackendServiceLogConfigOutputReference) validatePutRequestHeadersParameters(value interface{}) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleComputeRegionBackendServiceLogConfigOutputReference) validatePutResponseHeadersParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleComputeRegionBackendServiceLogConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }

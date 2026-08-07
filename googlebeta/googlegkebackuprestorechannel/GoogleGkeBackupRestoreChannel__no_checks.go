@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleGkeBackupRestoreChannel) validateInterpolationForAttrib
 	return nil
 }
 
+func (g *jsiiProxy_GoogleGkeBackupRestoreChannel) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleGkeBackupRestoreChannel) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleGkeBackupRestoreChannel) validateOverrideLogicalIdParam
 }
 
 func (g *jsiiProxy_GoogleGkeBackupRestoreChannel) validatePutTimeoutsParameters(value *GoogleGkeBackupRestoreChannelTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleGkeBackupRestoreChannel) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

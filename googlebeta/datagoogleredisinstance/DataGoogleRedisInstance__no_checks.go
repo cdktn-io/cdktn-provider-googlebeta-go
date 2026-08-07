@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataGoogleRedisInstance) validateOverrideLogicalIdParameters(
 	return nil
 }
 
+func (d *jsiiProxy_DataGoogleRedisInstance) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataGoogleRedisInstance_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

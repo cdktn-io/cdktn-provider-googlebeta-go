@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleHypercomputeclusterCluster) validateInterpolationForAtt
 	return nil
 }
 
+func (g *jsiiProxy_GoogleHypercomputeclusterCluster) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleHypercomputeclusterCluster) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -92,6 +96,10 @@ func (g *jsiiProxy_GoogleHypercomputeclusterCluster) validatePutStorageResources
 }
 
 func (g *jsiiProxy_GoogleHypercomputeclusterCluster) validatePutTimeoutsParameters(value *GoogleHypercomputeclusterClusterTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleHypercomputeclusterCluster) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

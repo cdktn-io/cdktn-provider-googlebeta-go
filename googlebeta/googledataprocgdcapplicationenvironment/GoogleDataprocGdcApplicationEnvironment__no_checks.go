@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleDataprocGdcApplicationEnvironment) validateInterpolatio
 	return nil
 }
 
+func (g *jsiiProxy_GoogleDataprocGdcApplicationEnvironment) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleDataprocGdcApplicationEnvironment) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (g *jsiiProxy_GoogleDataprocGdcApplicationEnvironment) validatePutSparkAppl
 }
 
 func (g *jsiiProxy_GoogleDataprocGdcApplicationEnvironment) validatePutTimeoutsParameters(value *GoogleDataprocGdcApplicationEnvironmentTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleDataprocGdcApplicationEnvironment) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

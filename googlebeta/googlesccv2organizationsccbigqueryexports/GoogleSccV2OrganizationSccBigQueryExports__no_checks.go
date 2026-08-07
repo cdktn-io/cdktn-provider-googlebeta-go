@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleSccV2OrganizationSccBigQueryExports) validateInterpolat
 	return nil
 }
 
+func (g *jsiiProxy_GoogleSccV2OrganizationSccBigQueryExports) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleSccV2OrganizationSccBigQueryExports) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleSccV2OrganizationSccBigQueryExports) validateOverrideLo
 }
 
 func (g *jsiiProxy_GoogleSccV2OrganizationSccBigQueryExports) validatePutTimeoutsParameters(value *GoogleSccV2OrganizationSccBigQueryExportsTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleSccV2OrganizationSccBigQueryExports) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

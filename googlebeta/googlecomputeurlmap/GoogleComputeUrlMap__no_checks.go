@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleComputeUrlMap) validateInterpolationForAttributeParamet
 	return nil
 }
 
+func (g *jsiiProxy_GoogleComputeUrlMap) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleComputeUrlMap) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -104,6 +108,10 @@ func (g *jsiiProxy_GoogleComputeUrlMap) validatePutTestParameters(value interfac
 }
 
 func (g *jsiiProxy_GoogleComputeUrlMap) validatePutTimeoutsParameters(value *GoogleComputeUrlMapTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleComputeUrlMap) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

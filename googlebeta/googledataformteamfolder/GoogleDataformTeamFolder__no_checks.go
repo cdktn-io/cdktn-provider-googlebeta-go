@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleDataformTeamFolder) validateInterpolationForAttributePa
 	return nil
 }
 
+func (g *jsiiProxy_GoogleDataformTeamFolder) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleDataformTeamFolder) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleDataformTeamFolder) validateOverrideLogicalIdParameters
 }
 
 func (g *jsiiProxy_GoogleDataformTeamFolder) validatePutTimeoutsParameters(value *GoogleDataformTeamFolderTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleDataformTeamFolder) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

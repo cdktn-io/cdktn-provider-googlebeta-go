@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataGoogleObservabilityProjectSettings) validateOverrideLogic
 	return nil
 }
 
+func (d *jsiiProxy_DataGoogleObservabilityProjectSettings) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataGoogleObservabilityProjectSettings_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

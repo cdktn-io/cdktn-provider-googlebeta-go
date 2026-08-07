@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleSecureSourceManagerInstance) validateInterpolationForAt
 	return nil
 }
 
+func (g *jsiiProxy_GoogleSecureSourceManagerInstance) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleSecureSourceManagerInstance) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (g *jsiiProxy_GoogleSecureSourceManagerInstance) validatePutTimeoutsParamet
 }
 
 func (g *jsiiProxy_GoogleSecureSourceManagerInstance) validatePutWorkforceIdentityFederationConfigParameters(value *GoogleSecureSourceManagerInstanceWorkforceIdentityFederationConfig) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleSecureSourceManagerInstance) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

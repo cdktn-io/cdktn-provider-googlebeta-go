@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleOrganizationIamAuditConfig) validateInterpolationForAtt
 	return nil
 }
 
+func (g *jsiiProxy_GoogleOrganizationIamAuditConfig) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleOrganizationIamAuditConfig) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleOrganizationIamAuditConfig) validateOverrideLogicalIdPa
 }
 
 func (g *jsiiProxy_GoogleOrganizationIamAuditConfig) validatePutAuditLogConfigParameters(value interface{}) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleOrganizationIamAuditConfig) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

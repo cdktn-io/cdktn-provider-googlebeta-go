@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleDataprocClusterIamBinding) validateInterpolationForAttr
 	return nil
 }
 
+func (g *jsiiProxy_GoogleDataprocClusterIamBinding) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleDataprocClusterIamBinding) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleDataprocClusterIamBinding) validateOverrideLogicalIdPar
 }
 
 func (g *jsiiProxy_GoogleDataprocClusterIamBinding) validatePutConditionParameters(value *GoogleDataprocClusterIamBindingCondition) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleDataprocClusterIamBinding) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

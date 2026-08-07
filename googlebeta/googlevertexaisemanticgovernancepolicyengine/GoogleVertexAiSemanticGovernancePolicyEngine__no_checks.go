@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleVertexAiSemanticGovernancePolicyEngine) validateInterpo
 	return nil
 }
 
+func (g *jsiiProxy_GoogleVertexAiSemanticGovernancePolicyEngine) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleVertexAiSemanticGovernancePolicyEngine) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleVertexAiSemanticGovernancePolicyEngine) validateOverrid
 }
 
 func (g *jsiiProxy_GoogleVertexAiSemanticGovernancePolicyEngine) validatePutTimeoutsParameters(value *GoogleVertexAiSemanticGovernancePolicyEngineTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleVertexAiSemanticGovernancePolicyEngine) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

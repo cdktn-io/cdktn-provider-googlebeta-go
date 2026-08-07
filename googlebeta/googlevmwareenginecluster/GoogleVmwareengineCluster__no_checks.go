@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleVmwareengineCluster) validateInterpolationForAttributeP
 	return nil
 }
 
+func (g *jsiiProxy_GoogleVmwareengineCluster) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleVmwareengineCluster) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -88,6 +92,10 @@ func (g *jsiiProxy_GoogleVmwareengineCluster) validatePutNodeTypeConfigsParamete
 }
 
 func (g *jsiiProxy_GoogleVmwareengineCluster) validatePutTimeoutsParameters(value *GoogleVmwareengineClusterTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleVmwareengineCluster) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

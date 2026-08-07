@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataGoogleSqlTiers) validateOverrideLogicalIdParameters(newLo
 	return nil
 }
 
+func (d *jsiiProxy_DataGoogleSqlTiers) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataGoogleSqlTiers_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

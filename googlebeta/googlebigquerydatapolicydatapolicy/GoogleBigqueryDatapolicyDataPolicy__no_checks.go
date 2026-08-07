@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleBigqueryDatapolicyDataPolicy) validateInterpolationForA
 	return nil
 }
 
+func (g *jsiiProxy_GoogleBigqueryDatapolicyDataPolicy) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleBigqueryDatapolicyDataPolicy) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (g *jsiiProxy_GoogleBigqueryDatapolicyDataPolicy) validatePutDataMaskingPol
 }
 
 func (g *jsiiProxy_GoogleBigqueryDatapolicyDataPolicy) validatePutTimeoutsParameters(value *GoogleBigqueryDatapolicyDataPolicyTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleBigqueryDatapolicyDataPolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

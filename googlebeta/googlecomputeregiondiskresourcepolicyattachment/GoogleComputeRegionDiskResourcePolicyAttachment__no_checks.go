@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleComputeRegionDiskResourcePolicyAttachment) validateInte
 	return nil
 }
 
+func (g *jsiiProxy_GoogleComputeRegionDiskResourcePolicyAttachment) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleComputeRegionDiskResourcePolicyAttachment) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleComputeRegionDiskResourcePolicyAttachment) validateOver
 }
 
 func (g *jsiiProxy_GoogleComputeRegionDiskResourcePolicyAttachment) validatePutTimeoutsParameters(value *GoogleComputeRegionDiskResourcePolicyAttachmentTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleComputeRegionDiskResourcePolicyAttachment) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleBiglakeHiveDatabaseIamBinding) validateInterpolationFor
 	return nil
 }
 
+func (g *jsiiProxy_GoogleBiglakeHiveDatabaseIamBinding) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleBiglakeHiveDatabaseIamBinding) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleBiglakeHiveDatabaseIamBinding) validateOverrideLogicalI
 }
 
 func (g *jsiiProxy_GoogleBiglakeHiveDatabaseIamBinding) validatePutConditionParameters(value *GoogleBiglakeHiveDatabaseIamBindingCondition) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleBiglakeHiveDatabaseIamBinding) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

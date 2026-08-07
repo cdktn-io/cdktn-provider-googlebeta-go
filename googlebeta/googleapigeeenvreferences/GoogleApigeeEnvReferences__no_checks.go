@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleApigeeEnvReferences) validateInterpolationForAttributeP
 	return nil
 }
 
+func (g *jsiiProxy_GoogleApigeeEnvReferences) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleApigeeEnvReferences) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleApigeeEnvReferences) validateOverrideLogicalIdParameter
 }
 
 func (g *jsiiProxy_GoogleApigeeEnvReferences) validatePutTimeoutsParameters(value *GoogleApigeeEnvReferencesTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleApigeeEnvReferences) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

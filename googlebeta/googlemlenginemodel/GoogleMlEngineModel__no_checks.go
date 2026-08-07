@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleMlEngineModel) validateInterpolationForAttributeParamet
 	return nil
 }
 
+func (g *jsiiProxy_GoogleMlEngineModel) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleMlEngineModel) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (g *jsiiProxy_GoogleMlEngineModel) validatePutDefaultVersionParameters(valu
 }
 
 func (g *jsiiProxy_GoogleMlEngineModel) validatePutTimeoutsParameters(value *GoogleMlEngineModelTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleMlEngineModel) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

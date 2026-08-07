@@ -7,7 +7,7 @@ package googlenetworksecurityauthzpolicy
 type GoogleNetworkSecurityAuthzPolicyNetworkRulesToOperations struct {
 	// snis block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_network_security_authz_policy#snis GoogleNetworkSecurityAuthzPolicy#snis}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_network_security_authz_policy#snis GoogleNetworkSecurityAuthzPolicy#snis}
 	Snis interface{} `field:"optional" json:"snis" yaml:"snis"`
 }
 

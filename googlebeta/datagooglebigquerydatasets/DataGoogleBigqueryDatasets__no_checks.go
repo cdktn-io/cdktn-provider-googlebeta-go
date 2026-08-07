@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataGoogleBigqueryDatasets) validateOverrideLogicalIdParamete
 	return nil
 }
 
+func (d *jsiiProxy_DataGoogleBigqueryDatasets) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataGoogleBigqueryDatasets_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

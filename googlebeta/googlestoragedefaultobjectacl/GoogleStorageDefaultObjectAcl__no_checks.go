@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleStorageDefaultObjectAcl) validateInterpolationForAttrib
 	return nil
 }
 
+func (g *jsiiProxy_GoogleStorageDefaultObjectAcl) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleStorageDefaultObjectAcl) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (g *jsiiProxy_GoogleStorageDefaultObjectAcl) validateMoveToIdParameters(id 
 }
 
 func (g *jsiiProxy_GoogleStorageDefaultObjectAcl) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleStorageDefaultObjectAcl) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

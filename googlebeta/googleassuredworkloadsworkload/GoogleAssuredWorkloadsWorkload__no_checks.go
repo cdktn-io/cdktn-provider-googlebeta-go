@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleAssuredWorkloadsWorkload) validateInterpolationForAttri
 	return nil
 }
 
+func (g *jsiiProxy_GoogleAssuredWorkloadsWorkload) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleAssuredWorkloadsWorkload) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -92,6 +96,10 @@ func (g *jsiiProxy_GoogleAssuredWorkloadsWorkload) validatePutTimeoutsParameters
 }
 
 func (g *jsiiProxy_GoogleAssuredWorkloadsWorkload) validatePutWorkloadOptionsParameters(value *GoogleAssuredWorkloadsWorkloadWorkloadOptions) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleAssuredWorkloadsWorkload) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

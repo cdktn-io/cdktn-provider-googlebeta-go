@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleMemorystoreInstance) validateInterpolationForAttributeP
 	return nil
 }
 
+func (g *jsiiProxy_GoogleMemorystoreInstance) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleMemorystoreInstance) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -112,6 +116,10 @@ func (g *jsiiProxy_GoogleMemorystoreInstance) validatePutTimeoutsParameters(valu
 }
 
 func (g *jsiiProxy_GoogleMemorystoreInstance) validatePutZoneDistributionConfigParameters(value *GoogleMemorystoreInstanceZoneDistributionConfig) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleMemorystoreInstance) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

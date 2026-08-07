@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleContactCenterInsightsEncryptionSpec) validateInterpolat
 	return nil
 }
 
+func (g *jsiiProxy_GoogleContactCenterInsightsEncryptionSpec) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleContactCenterInsightsEncryptionSpec) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleContactCenterInsightsEncryptionSpec) validateOverrideLo
 }
 
 func (g *jsiiProxy_GoogleContactCenterInsightsEncryptionSpec) validatePutTimeoutsParameters(value *GoogleContactCenterInsightsEncryptionSpecTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleContactCenterInsightsEncryptionSpec) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

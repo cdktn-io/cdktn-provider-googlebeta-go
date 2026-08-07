@@ -5,9 +5,9 @@ package googlemonitoringnotificationchannel
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlemonitoringnotificationchannel/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemonitoringnotificationchannel/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -16,7 +16,9 @@ type GoogleMonitoringNotificationChannelSensitiveLabelsOutputReference interface
 	AuthToken() *string
 	SetAuthToken(val *string)
 	AuthTokenInput() *string
+	// Deprecated: Write-only: the provider never returns this value; reading it always yields null by protocol contract. The getter remains for compatibility and will be removed in a future prebuilt-provider major.
 	AuthTokenWo() *string
+	// Deprecated: Write-only: the provider never returns this value; reading it always yields null by protocol contract. The getter remains for compatibility and will be removed in a future prebuilt-provider major.
 	SetAuthTokenWo(val *string)
 	AuthTokenWoInput() *string
 	AuthTokenWoVersion() *string
@@ -44,7 +46,9 @@ type GoogleMonitoringNotificationChannelSensitiveLabelsOutputReference interface
 	Password() *string
 	SetPassword(val *string)
 	PasswordInput() *string
+	// Deprecated: Write-only: the provider never returns this value; reading it always yields null by protocol contract. The getter remains for compatibility and will be removed in a future prebuilt-provider major.
 	PasswordWo() *string
+	// Deprecated: Write-only: the provider never returns this value; reading it always yields null by protocol contract. The getter remains for compatibility and will be removed in a future prebuilt-provider major.
 	SetPasswordWo(val *string)
 	PasswordWoInput() *string
 	PasswordWoVersion() *string
@@ -53,7 +57,9 @@ type GoogleMonitoringNotificationChannelSensitiveLabelsOutputReference interface
 	ServiceKey() *string
 	SetServiceKey(val *string)
 	ServiceKeyInput() *string
+	// Deprecated: Write-only: the provider never returns this value; reading it always yields null by protocol contract. The getter remains for compatibility and will be removed in a future prebuilt-provider major.
 	ServiceKeyWo() *string
+	// Deprecated: Write-only: the provider never returns this value; reading it always yields null by protocol contract. The getter remains for compatibility and will be removed in a future prebuilt-provider major.
 	SetServiceKeyWo(val *string)
 	ServiceKeyWoInput() *string
 	ServiceKeyWoVersion() *string

@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleComputeRouter) validateInterpolationForAttributeParamet
 	return nil
 }
 
+func (g *jsiiProxy_GoogleComputeRouter) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleComputeRouter) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -88,6 +92,10 @@ func (g *jsiiProxy_GoogleComputeRouter) validatePutParamsParameters(value *Googl
 }
 
 func (g *jsiiProxy_GoogleComputeRouter) validatePutTimeoutsParameters(value *GoogleComputeRouterTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleComputeRouter) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

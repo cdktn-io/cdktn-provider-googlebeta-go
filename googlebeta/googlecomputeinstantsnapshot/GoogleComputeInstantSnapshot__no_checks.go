@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleComputeInstantSnapshot) validateInterpolationForAttribu
 	return nil
 }
 
+func (g *jsiiProxy_GoogleComputeInstantSnapshot) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleComputeInstantSnapshot) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (g *jsiiProxy_GoogleComputeInstantSnapshot) validatePutParamsParameters(val
 }
 
 func (g *jsiiProxy_GoogleComputeInstantSnapshot) validatePutTimeoutsParameters(value *GoogleComputeInstantSnapshotTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleComputeInstantSnapshot) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

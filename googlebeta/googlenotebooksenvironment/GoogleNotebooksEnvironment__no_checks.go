@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleNotebooksEnvironment) validateInterpolationForAttribute
 	return nil
 }
 
+func (g *jsiiProxy_GoogleNotebooksEnvironment) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleNotebooksEnvironment) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (g *jsiiProxy_GoogleNotebooksEnvironment) validatePutTimeoutsParameters(val
 }
 
 func (g *jsiiProxy_GoogleNotebooksEnvironment) validatePutVmImageParameters(value *GoogleNotebooksEnvironmentVmImage) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleNotebooksEnvironment) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

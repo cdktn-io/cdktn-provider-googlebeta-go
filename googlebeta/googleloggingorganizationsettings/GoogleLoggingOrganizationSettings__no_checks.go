@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleLoggingOrganizationSettings) validateInterpolationForAt
 	return nil
 }
 
+func (g *jsiiProxy_GoogleLoggingOrganizationSettings) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleLoggingOrganizationSettings) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleLoggingOrganizationSettings) validateOverrideLogicalIdP
 }
 
 func (g *jsiiProxy_GoogleLoggingOrganizationSettings) validatePutTimeoutsParameters(value *GoogleLoggingOrganizationSettingsTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleLoggingOrganizationSettings) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

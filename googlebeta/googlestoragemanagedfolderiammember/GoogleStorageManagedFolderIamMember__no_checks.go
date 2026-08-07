@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleStorageManagedFolderIamMember) validateInterpolationFor
 	return nil
 }
 
+func (g *jsiiProxy_GoogleStorageManagedFolderIamMember) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleStorageManagedFolderIamMember) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleStorageManagedFolderIamMember) validateOverrideLogicalI
 }
 
 func (g *jsiiProxy_GoogleStorageManagedFolderIamMember) validatePutConditionParameters(value *GoogleStorageManagedFolderIamMemberCondition) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleStorageManagedFolderIamMember) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

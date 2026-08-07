@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleConfigDeployment) validateInterpolationForAttributePara
 	return nil
 }
 
+func (g *jsiiProxy_GoogleConfigDeployment) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleConfigDeployment) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (g *jsiiProxy_GoogleConfigDeployment) validatePutTerraformBlueprintParamete
 }
 
 func (g *jsiiProxy_GoogleConfigDeployment) validatePutTimeoutsParameters(value *GoogleConfigDeploymentTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleConfigDeployment) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

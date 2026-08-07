@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataGoogleAgentRegistryEndpoint) validateOverrideLogicalIdPar
 	return nil
 }
 
+func (d *jsiiProxy_DataGoogleAgentRegistryEndpoint) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataGoogleAgentRegistryEndpoint_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleComputeRegionInstanceGroupManager) validateInterpolatio
 	return nil
 }
 
+func (g *jsiiProxy_GoogleComputeRegionInstanceGroupManager) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleComputeRegionInstanceGroupManager) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -132,6 +136,10 @@ func (g *jsiiProxy_GoogleComputeRegionInstanceGroupManager) validatePutUpdatePol
 }
 
 func (g *jsiiProxy_GoogleComputeRegionInstanceGroupManager) validatePutVersionParameters(value interface{}) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleComputeRegionInstanceGroupManager) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

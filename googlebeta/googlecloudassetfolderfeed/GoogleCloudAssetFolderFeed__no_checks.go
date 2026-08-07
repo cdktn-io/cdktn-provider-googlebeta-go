@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleCloudAssetFolderFeed) validateInterpolationForAttribute
 	return nil
 }
 
+func (g *jsiiProxy_GoogleCloudAssetFolderFeed) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleCloudAssetFolderFeed) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (g *jsiiProxy_GoogleCloudAssetFolderFeed) validatePutFeedOutputConfigParame
 }
 
 func (g *jsiiProxy_GoogleCloudAssetFolderFeed) validatePutTimeoutsParameters(value *GoogleCloudAssetFolderFeedTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleCloudAssetFolderFeed) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

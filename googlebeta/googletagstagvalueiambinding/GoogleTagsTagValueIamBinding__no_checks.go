@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleTagsTagValueIamBinding) validateInterpolationForAttribu
 	return nil
 }
 
+func (g *jsiiProxy_GoogleTagsTagValueIamBinding) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleTagsTagValueIamBinding) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleTagsTagValueIamBinding) validateOverrideLogicalIdParame
 }
 
 func (g *jsiiProxy_GoogleTagsTagValueIamBinding) validatePutConditionParameters(value *GoogleTagsTagValueIamBindingCondition) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleTagsTagValueIamBinding) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

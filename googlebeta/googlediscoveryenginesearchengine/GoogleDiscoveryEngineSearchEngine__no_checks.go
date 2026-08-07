@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleDiscoveryEngineSearchEngine) validateInterpolationForAt
 	return nil
 }
 
+func (g *jsiiProxy_GoogleDiscoveryEngineSearchEngine) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleDiscoveryEngineSearchEngine) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -88,6 +92,10 @@ func (g *jsiiProxy_GoogleDiscoveryEngineSearchEngine) validatePutSearchEngineCon
 }
 
 func (g *jsiiProxy_GoogleDiscoveryEngineSearchEngine) validatePutTimeoutsParameters(value *GoogleDiscoveryEngineSearchEngineTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleDiscoveryEngineSearchEngine) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

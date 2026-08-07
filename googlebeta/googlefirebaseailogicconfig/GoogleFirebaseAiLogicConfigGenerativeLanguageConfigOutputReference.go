@@ -5,9 +5,9 @@ package googlefirebaseailogicconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlefirebaseailogicconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirebaseailogicconfig/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -16,7 +16,9 @@ type GoogleFirebaseAiLogicConfigGenerativeLanguageConfigOutputReference interfac
 	ApiKey() *string
 	SetApiKey(val *string)
 	ApiKeyInput() *string
+	// Deprecated: Write-only: the provider never returns this value; reading it always yields null by protocol contract. The getter remains for compatibility and will be removed in a future prebuilt-provider major.
 	ApiKeyWo() *string
+	// Deprecated: Write-only: the provider never returns this value; reading it always yields null by protocol contract. The getter remains for compatibility and will be removed in a future prebuilt-provider major.
 	SetApiKeyWo(val *string)
 	ApiKeyWoInput() *string
 	ApiKeyWoVersion() *string

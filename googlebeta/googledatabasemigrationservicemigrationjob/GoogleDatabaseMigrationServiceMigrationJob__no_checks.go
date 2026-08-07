@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleDatabaseMigrationServiceMigrationJob) validateInterpola
 	return nil
 }
 
+func (g *jsiiProxy_GoogleDatabaseMigrationServiceMigrationJob) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleDatabaseMigrationServiceMigrationJob) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -104,6 +108,10 @@ func (g *jsiiProxy_GoogleDatabaseMigrationServiceMigrationJob) validatePutTimeou
 }
 
 func (g *jsiiProxy_GoogleDatabaseMigrationServiceMigrationJob) validatePutVpcPeeringConnectivityParameters(value *GoogleDatabaseMigrationServiceMigrationJobVpcPeeringConnectivity) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleDatabaseMigrationServiceMigrationJob) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

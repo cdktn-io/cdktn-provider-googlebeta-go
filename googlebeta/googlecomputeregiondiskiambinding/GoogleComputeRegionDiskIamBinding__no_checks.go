@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleComputeRegionDiskIamBinding) validateInterpolationForAt
 	return nil
 }
 
+func (g *jsiiProxy_GoogleComputeRegionDiskIamBinding) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleComputeRegionDiskIamBinding) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleComputeRegionDiskIamBinding) validateOverrideLogicalIdP
 }
 
 func (g *jsiiProxy_GoogleComputeRegionDiskIamBinding) validatePutConditionParameters(value *GoogleComputeRegionDiskIamBindingCondition) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleComputeRegionDiskIamBinding) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

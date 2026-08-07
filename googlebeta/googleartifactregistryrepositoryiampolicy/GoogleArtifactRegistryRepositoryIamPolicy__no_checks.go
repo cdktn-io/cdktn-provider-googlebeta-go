@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleArtifactRegistryRepositoryIamPolicy) validateInterpolat
 	return nil
 }
 
+func (g *jsiiProxy_GoogleArtifactRegistryRepositoryIamPolicy) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleArtifactRegistryRepositoryIamPolicy) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (g *jsiiProxy_GoogleArtifactRegistryRepositoryIamPolicy) validateMoveToIdPa
 }
 
 func (g *jsiiProxy_GoogleArtifactRegistryRepositoryIamPolicy) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleArtifactRegistryRepositoryIamPolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

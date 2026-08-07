@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataGoogleNotebooksRuntimeIamPolicy) validateOverrideLogicalI
 	return nil
 }
 
+func (d *jsiiProxy_DataGoogleNotebooksRuntimeIamPolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataGoogleNotebooksRuntimeIamPolicy_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

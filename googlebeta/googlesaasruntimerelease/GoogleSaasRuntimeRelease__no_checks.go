@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleSaasRuntimeRelease) validateInterpolationForAttributePa
 	return nil
 }
 
+func (g *jsiiProxy_GoogleSaasRuntimeRelease) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleSaasRuntimeRelease) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -88,6 +92,10 @@ func (g *jsiiProxy_GoogleSaasRuntimeRelease) validatePutReleaseRequirementsParam
 }
 
 func (g *jsiiProxy_GoogleSaasRuntimeRelease) validatePutTimeoutsParameters(value *GoogleSaasRuntimeReleaseTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleSaasRuntimeRelease) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

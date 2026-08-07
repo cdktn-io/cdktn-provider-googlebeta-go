@@ -5,14 +5,14 @@ package datagoogleserviceaccountidtoken
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagoogleserviceaccountidtoken/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoogleserviceaccountidtoken/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/data-sources/google_service_account_id_token google_service_account_id_token}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/data-sources/google_service_account_id_token google_service_account_id_token}.
 type DataGoogleServiceAccountIdToken interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -94,6 +94,19 @@ type DataGoogleServiceAccountIdToken interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
+	//
+	// Called by generated provider bindings when a versioned feature is
+	// structurally in use - the element's existence in the construct tree
+	// already implies the feature is used, e.g. constructing a
+	// `TerraformEphemeralResource` at all - so, unlike
+	// `_registerResolveDiscoveredProviderFeatureUsage`, this registration is
+	// never deactivated by `_resetResolveDiscoveredProviderFeatureUsage`. Not
+	// intended to be called directly by user code. Lives on `TerraformElement`
+	// (rather than `TerraformResource`) so it covers any element subclass
+	// that needs it.
+	// Experimental.
+	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
 	ResetDelegates()
 	ResetId()
 	ResetIncludeEmail()
@@ -380,7 +393,7 @@ func (j *jsiiProxy_DataGoogleServiceAccountIdToken) TerraformResourceType() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/data-sources/google_service_account_id_token google_service_account_id_token} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/data-sources/google_service_account_id_token google_service_account_id_token} Data Source.
 func NewDataGoogleServiceAccountIdToken(scope constructs.Construct, id *string, config *DataGoogleServiceAccountIdTokenConfig) DataGoogleServiceAccountIdToken {
 	_init_.Initialize()
 
@@ -398,7 +411,7 @@ func NewDataGoogleServiceAccountIdToken(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/data-sources/google_service_account_id_token google_service_account_id_token} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/data-sources/google_service_account_id_token google_service_account_id_token} Data Source.
 func NewDataGoogleServiceAccountIdToken_Override(d DataGoogleServiceAccountIdToken, scope constructs.Construct, id *string, config *DataGoogleServiceAccountIdTokenConfig) {
 	_init_.Initialize()
 
@@ -792,6 +805,17 @@ func (d *jsiiProxy_DataGoogleServiceAccountIdToken) OverrideLogicalId(newLogical
 		d,
 		"overrideLogicalId",
 		[]interface{}{newLogicalId},
+	)
+}
+
+func (d *jsiiProxy_DataGoogleServiceAccountIdToken) RegisterProviderFeatureUsage(feature cdktn.ProviderFeature) {
+	if err := d.validateRegisterProviderFeatureUsageParameters(feature); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		d,
+		"registerProviderFeatureUsage",
+		[]interface{}{feature},
 	)
 }
 

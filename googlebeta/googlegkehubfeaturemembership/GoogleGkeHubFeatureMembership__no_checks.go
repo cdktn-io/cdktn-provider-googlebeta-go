@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleGkeHubFeatureMembership) validateInterpolationForAttrib
 	return nil
 }
 
+func (g *jsiiProxy_GoogleGkeHubFeatureMembership) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleGkeHubFeatureMembership) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -88,6 +92,10 @@ func (g *jsiiProxy_GoogleGkeHubFeatureMembership) validatePutPolicycontrollerPar
 }
 
 func (g *jsiiProxy_GoogleGkeHubFeatureMembership) validatePutTimeoutsParameters(value *GoogleGkeHubFeatureMembershipTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleGkeHubFeatureMembership) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

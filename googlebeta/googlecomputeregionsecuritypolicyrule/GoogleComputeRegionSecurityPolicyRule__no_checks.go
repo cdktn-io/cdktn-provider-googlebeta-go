@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleComputeRegionSecurityPolicyRule) validateInterpolationF
 	return nil
 }
 
+func (g *jsiiProxy_GoogleComputeRegionSecurityPolicyRule) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleComputeRegionSecurityPolicyRule) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -92,6 +96,10 @@ func (g *jsiiProxy_GoogleComputeRegionSecurityPolicyRule) validatePutRateLimitOp
 }
 
 func (g *jsiiProxy_GoogleComputeRegionSecurityPolicyRule) validatePutTimeoutsParameters(value *GoogleComputeRegionSecurityPolicyRuleTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleComputeRegionSecurityPolicyRule) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

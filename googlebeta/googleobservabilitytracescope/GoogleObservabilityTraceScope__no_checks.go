@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleObservabilityTraceScope) validateInterpolationForAttrib
 	return nil
 }
 
+func (g *jsiiProxy_GoogleObservabilityTraceScope) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleObservabilityTraceScope) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleObservabilityTraceScope) validateOverrideLogicalIdParam
 }
 
 func (g *jsiiProxy_GoogleObservabilityTraceScope) validatePutTimeoutsParameters(value *GoogleObservabilityTraceScopeTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleObservabilityTraceScope) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

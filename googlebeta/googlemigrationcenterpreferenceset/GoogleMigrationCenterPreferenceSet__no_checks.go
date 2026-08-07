@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleMigrationCenterPreferenceSet) validateInterpolationForA
 	return nil
 }
 
+func (g *jsiiProxy_GoogleMigrationCenterPreferenceSet) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleMigrationCenterPreferenceSet) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (g *jsiiProxy_GoogleMigrationCenterPreferenceSet) validatePutTimeoutsParame
 }
 
 func (g *jsiiProxy_GoogleMigrationCenterPreferenceSet) validatePutVirtualMachinePreferencesParameters(value *GoogleMigrationCenterPreferenceSetVirtualMachinePreferences) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleMigrationCenterPreferenceSet) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

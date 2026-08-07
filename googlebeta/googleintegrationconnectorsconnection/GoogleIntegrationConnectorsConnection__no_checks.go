@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleIntegrationConnectorsConnection) validateInterpolationF
 	return nil
 }
 
+func (g *jsiiProxy_GoogleIntegrationConnectorsConnection) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleIntegrationConnectorsConnection) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -108,6 +112,10 @@ func (g *jsiiProxy_GoogleIntegrationConnectorsConnection) validatePutSslConfigPa
 }
 
 func (g *jsiiProxy_GoogleIntegrationConnectorsConnection) validatePutTimeoutsParameters(value *GoogleIntegrationConnectorsConnectionTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleIntegrationConnectorsConnection) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

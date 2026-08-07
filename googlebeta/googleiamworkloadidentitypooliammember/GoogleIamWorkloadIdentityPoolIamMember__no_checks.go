@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleIamWorkloadIdentityPoolIamMember) validateInterpolation
 	return nil
 }
 
+func (g *jsiiProxy_GoogleIamWorkloadIdentityPoolIamMember) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleIamWorkloadIdentityPoolIamMember) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleIamWorkloadIdentityPoolIamMember) validateOverrideLogic
 }
 
 func (g *jsiiProxy_GoogleIamWorkloadIdentityPoolIamMember) validatePutConditionParameters(value *GoogleIamWorkloadIdentityPoolIamMemberCondition) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleIamWorkloadIdentityPoolIamMember) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

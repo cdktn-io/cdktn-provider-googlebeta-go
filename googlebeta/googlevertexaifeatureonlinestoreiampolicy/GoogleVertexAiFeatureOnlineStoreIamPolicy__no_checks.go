@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleVertexAiFeatureOnlineStoreIamPolicy) validateInterpolat
 	return nil
 }
 
+func (g *jsiiProxy_GoogleVertexAiFeatureOnlineStoreIamPolicy) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleVertexAiFeatureOnlineStoreIamPolicy) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (g *jsiiProxy_GoogleVertexAiFeatureOnlineStoreIamPolicy) validateMoveToIdPa
 }
 
 func (g *jsiiProxy_GoogleVertexAiFeatureOnlineStoreIamPolicy) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleVertexAiFeatureOnlineStoreIamPolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

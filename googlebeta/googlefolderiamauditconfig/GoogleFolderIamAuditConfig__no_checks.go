@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleFolderIamAuditConfig) validateInterpolationForAttribute
 	return nil
 }
 
+func (g *jsiiProxy_GoogleFolderIamAuditConfig) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleFolderIamAuditConfig) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleFolderIamAuditConfig) validateOverrideLogicalIdParamete
 }
 
 func (g *jsiiProxy_GoogleFolderIamAuditConfig) validatePutAuditLogConfigParameters(value interface{}) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleFolderIamAuditConfig) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

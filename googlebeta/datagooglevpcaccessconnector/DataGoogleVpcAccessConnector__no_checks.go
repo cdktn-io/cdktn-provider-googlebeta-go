@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataGoogleVpcAccessConnector) validateOverrideLogicalIdParame
 	return nil
 }
 
+func (d *jsiiProxy_DataGoogleVpcAccessConnector) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataGoogleVpcAccessConnector_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

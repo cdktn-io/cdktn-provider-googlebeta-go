@@ -59,6 +59,10 @@ func (g *jsiiProxy_GooglePrivatecaCertificateTemplateIamBinding) validateInterpo
 	return nil
 }
 
+func (g *jsiiProxy_GooglePrivatecaCertificateTemplateIamBinding) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GooglePrivatecaCertificateTemplateIamBinding) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GooglePrivatecaCertificateTemplateIamBinding) validateOverrid
 }
 
 func (g *jsiiProxy_GooglePrivatecaCertificateTemplateIamBinding) validatePutConditionParameters(value *GooglePrivatecaCertificateTemplateIamBindingCondition) error {
+	return nil
+}
+
+func (g *jsiiProxy_GooglePrivatecaCertificateTemplateIamBinding) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

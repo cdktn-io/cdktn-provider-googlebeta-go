@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataGoogleSecretManagerRegionalSecretIamPolicy) validateOverr
 	return nil
 }
 
+func (d *jsiiProxy_DataGoogleSecretManagerRegionalSecretIamPolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataGoogleSecretManagerRegionalSecretIamPolicy_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

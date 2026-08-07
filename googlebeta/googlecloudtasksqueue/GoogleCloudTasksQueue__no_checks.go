@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleCloudTasksQueue) validateInterpolationForAttributeParam
 	return nil
 }
 
+func (g *jsiiProxy_GoogleCloudTasksQueue) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleCloudTasksQueue) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -96,6 +100,10 @@ func (g *jsiiProxy_GoogleCloudTasksQueue) validatePutStackdriverLoggingConfigPar
 }
 
 func (g *jsiiProxy_GoogleCloudTasksQueue) validatePutTimeoutsParameters(value *GoogleCloudTasksQueueTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleCloudTasksQueue) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

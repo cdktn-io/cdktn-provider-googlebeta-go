@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleIamFolderAccessPolicy) validateInterpolationForAttribut
 	return nil
 }
 
+func (g *jsiiProxy_GoogleIamFolderAccessPolicy) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleIamFolderAccessPolicy) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (g *jsiiProxy_GoogleIamFolderAccessPolicy) validatePutDetailsParameters(val
 }
 
 func (g *jsiiProxy_GoogleIamFolderAccessPolicy) validatePutTimeoutsParameters(value *GoogleIamFolderAccessPolicyTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleIamFolderAccessPolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataGoogleContainerAnalysisNoteIamPolicy) validateOverrideLog
 	return nil
 }
 
+func (d *jsiiProxy_DataGoogleContainerAnalysisNoteIamPolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataGoogleContainerAnalysisNoteIamPolicy_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

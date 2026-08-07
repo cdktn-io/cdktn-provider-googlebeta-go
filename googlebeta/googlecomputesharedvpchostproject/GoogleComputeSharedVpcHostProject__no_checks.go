@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleComputeSharedVpcHostProject) validateInterpolationForAt
 	return nil
 }
 
+func (g *jsiiProxy_GoogleComputeSharedVpcHostProject) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleComputeSharedVpcHostProject) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleComputeSharedVpcHostProject) validateOverrideLogicalIdP
 }
 
 func (g *jsiiProxy_GoogleComputeSharedVpcHostProject) validatePutTimeoutsParameters(value *GoogleComputeSharedVpcHostProjectTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleComputeSharedVpcHostProject) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

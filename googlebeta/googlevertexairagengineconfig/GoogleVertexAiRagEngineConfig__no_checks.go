@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleVertexAiRagEngineConfig) validateInterpolationForAttrib
 	return nil
 }
 
+func (g *jsiiProxy_GoogleVertexAiRagEngineConfig) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleVertexAiRagEngineConfig) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (g *jsiiProxy_GoogleVertexAiRagEngineConfig) validatePutRagManagedDbConfigP
 }
 
 func (g *jsiiProxy_GoogleVertexAiRagEngineConfig) validatePutTimeoutsParameters(value *GoogleVertexAiRagEngineConfigTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleVertexAiRagEngineConfig) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

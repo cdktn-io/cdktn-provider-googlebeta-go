@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleEdgecontainerVpnConnection) validateInterpolationForAtt
 	return nil
 }
 
+func (g *jsiiProxy_GoogleEdgecontainerVpnConnection) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleEdgecontainerVpnConnection) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (g *jsiiProxy_GoogleEdgecontainerVpnConnection) validatePutTimeoutsParamete
 }
 
 func (g *jsiiProxy_GoogleEdgecontainerVpnConnection) validatePutVpcProjectParameters(value *GoogleEdgecontainerVpnConnectionVpcProject) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleEdgecontainerVpnConnection) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

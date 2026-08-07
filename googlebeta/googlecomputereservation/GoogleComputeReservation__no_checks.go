@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleComputeReservation) validateInterpolationForAttributePa
 	return nil
 }
 
+func (g *jsiiProxy_GoogleComputeReservation) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleComputeReservation) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -96,6 +100,10 @@ func (g *jsiiProxy_GoogleComputeReservation) validatePutSpecificReservationParam
 }
 
 func (g *jsiiProxy_GoogleComputeReservation) validatePutTimeoutsParameters(value *GoogleComputeReservationTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleComputeReservation) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

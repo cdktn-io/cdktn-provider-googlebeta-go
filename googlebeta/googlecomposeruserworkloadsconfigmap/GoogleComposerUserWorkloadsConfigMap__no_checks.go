@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleComposerUserWorkloadsConfigMap) validateInterpolationFo
 	return nil
 }
 
+func (g *jsiiProxy_GoogleComposerUserWorkloadsConfigMap) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleComposerUserWorkloadsConfigMap) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleComposerUserWorkloadsConfigMap) validateOverrideLogical
 }
 
 func (g *jsiiProxy_GoogleComposerUserWorkloadsConfigMap) validatePutTimeoutsParameters(value *GoogleComposerUserWorkloadsConfigMapTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleComposerUserWorkloadsConfigMap) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

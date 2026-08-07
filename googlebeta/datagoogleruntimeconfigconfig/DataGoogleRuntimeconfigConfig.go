@@ -5,14 +5,14 @@ package datagoogleruntimeconfigconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagoogleruntimeconfigconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoogleruntimeconfigconfig/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/data-sources/google_runtimeconfig_config google_runtimeconfig_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/data-sources/google_runtimeconfig_config google_runtimeconfig_config}.
 type DataGoogleRuntimeconfigConfig interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -89,6 +89,19 @@ type DataGoogleRuntimeconfigConfig interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
+	//
+	// Called by generated provider bindings when a versioned feature is
+	// structurally in use - the element's existence in the construct tree
+	// already implies the feature is used, e.g. constructing a
+	// `TerraformEphemeralResource` at all - so, unlike
+	// `_registerResolveDiscoveredProviderFeatureUsage`, this registration is
+	// never deactivated by `_resetResolveDiscoveredProviderFeatureUsage`. Not
+	// intended to be called directly by user code. Lives on `TerraformElement`
+	// (rather than `TerraformResource`) so it covers any element subclass
+	// that needs it.
+	// Experimental.
+	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -343,7 +356,7 @@ func (j *jsiiProxy_DataGoogleRuntimeconfigConfig) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/data-sources/google_runtimeconfig_config google_runtimeconfig_config} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/data-sources/google_runtimeconfig_config google_runtimeconfig_config} Data Source.
 func NewDataGoogleRuntimeconfigConfig(scope constructs.Construct, id *string, config *DataGoogleRuntimeconfigConfigConfig) DataGoogleRuntimeconfigConfig {
 	_init_.Initialize()
 
@@ -361,7 +374,7 @@ func NewDataGoogleRuntimeconfigConfig(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/data-sources/google_runtimeconfig_config google_runtimeconfig_config} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/data-sources/google_runtimeconfig_config google_runtimeconfig_config} Data Source.
 func NewDataGoogleRuntimeconfigConfig_Override(d DataGoogleRuntimeconfigConfig, scope constructs.Construct, id *string, config *DataGoogleRuntimeconfigConfigConfig) {
 	_init_.Initialize()
 
@@ -733,6 +746,17 @@ func (d *jsiiProxy_DataGoogleRuntimeconfigConfig) OverrideLogicalId(newLogicalId
 		d,
 		"overrideLogicalId",
 		[]interface{}{newLogicalId},
+	)
+}
+
+func (d *jsiiProxy_DataGoogleRuntimeconfigConfig) RegisterProviderFeatureUsage(feature cdktn.ProviderFeature) {
+	if err := d.validateRegisterProviderFeatureUsageParameters(feature); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		d,
+		"registerProviderFeatureUsage",
+		[]interface{}{feature},
 	)
 }
 

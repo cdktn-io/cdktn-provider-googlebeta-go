@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleContainerAnalysisNoteIamBinding) validateInterpolationF
 	return nil
 }
 
+func (g *jsiiProxy_GoogleContainerAnalysisNoteIamBinding) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleContainerAnalysisNoteIamBinding) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleContainerAnalysisNoteIamBinding) validateOverrideLogica
 }
 
 func (g *jsiiProxy_GoogleContainerAnalysisNoteIamBinding) validatePutConditionParameters(value *GoogleContainerAnalysisNoteIamBindingCondition) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleContainerAnalysisNoteIamBinding) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

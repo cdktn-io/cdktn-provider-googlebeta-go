@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleMonitoringAlertPolicy) validateInterpolationForAttribut
 	return nil
 }
 
+func (g *jsiiProxy_GoogleMonitoringAlertPolicy) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleMonitoringAlertPolicy) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -88,6 +92,10 @@ func (g *jsiiProxy_GoogleMonitoringAlertPolicy) validatePutDocumentationParamete
 }
 
 func (g *jsiiProxy_GoogleMonitoringAlertPolicy) validatePutTimeoutsParameters(value *GoogleMonitoringAlertPolicyTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleMonitoringAlertPolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

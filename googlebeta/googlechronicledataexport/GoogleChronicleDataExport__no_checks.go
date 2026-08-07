@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleChronicleDataExport) validateInterpolationForAttributeP
 	return nil
 }
 
+func (g *jsiiProxy_GoogleChronicleDataExport) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleChronicleDataExport) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (g *jsiiProxy_GoogleChronicleDataExport) validatePutIngestionLabelsParamete
 }
 
 func (g *jsiiProxy_GoogleChronicleDataExport) validatePutTimeoutsParameters(value *GoogleChronicleDataExportTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleChronicleDataExport) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

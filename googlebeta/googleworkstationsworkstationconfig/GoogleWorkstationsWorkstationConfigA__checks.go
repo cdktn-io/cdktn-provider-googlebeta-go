@@ -122,6 +122,14 @@ func (g *jsiiProxy_GoogleWorkstationsWorkstationConfigA) validateInterpolationFo
 	return nil
 }
 
+func (g *jsiiProxy_GoogleWorkstationsWorkstationConfigA) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (g *jsiiProxy_GoogleWorkstationsWorkstationConfigA) validateMoveFromIdParameters(id *string) error {
 	if id == nil {
 		return fmt.Errorf("parameter id is required, but nil was provided")
@@ -375,6 +383,14 @@ func (g *jsiiProxy_GoogleWorkstationsWorkstationConfigA) validatePutTimeoutsPara
 	return nil
 }
 
+func (g *jsiiProxy_GoogleWorkstationsWorkstationConfigA) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func validateGoogleWorkstationsWorkstationConfigA_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	if scope == nil {
 		return fmt.Errorf("parameter scope is required, but nil was provided")
@@ -570,6 +586,14 @@ func (j *jsiiProxy_GoogleWorkstationsWorkstationConfigA) validateSetEnableAuditA
 }
 
 func (j *jsiiProxy_GoogleWorkstationsWorkstationConfigA) validateSetIdParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_GoogleWorkstationsWorkstationConfigA) validateSetIdleActionParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}

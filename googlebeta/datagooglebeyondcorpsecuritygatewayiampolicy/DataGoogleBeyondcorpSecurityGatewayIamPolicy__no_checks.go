@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataGoogleBeyondcorpSecurityGatewayIamPolicy) validateOverrid
 	return nil
 }
 
+func (d *jsiiProxy_DataGoogleBeyondcorpSecurityGatewayIamPolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataGoogleBeyondcorpSecurityGatewayIamPolicy_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

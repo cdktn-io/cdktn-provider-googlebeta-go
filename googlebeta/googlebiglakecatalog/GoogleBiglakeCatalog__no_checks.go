@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleBiglakeCatalog) validateInterpolationForAttributeParame
 	return nil
 }
 
+func (g *jsiiProxy_GoogleBiglakeCatalog) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleBiglakeCatalog) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleBiglakeCatalog) validateOverrideLogicalIdParameters(new
 }
 
 func (g *jsiiProxy_GoogleBiglakeCatalog) validatePutTimeoutsParameters(value *GoogleBiglakeCatalogTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleBiglakeCatalog) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

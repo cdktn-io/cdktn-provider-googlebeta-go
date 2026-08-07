@@ -5,11 +5,11 @@ package googlebigqueryanalyticshubquerytemplate
 
 
 type GoogleBigqueryAnalyticsHubQueryTemplateTimeouts struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_bigquery_analytics_hub_query_template#create GoogleBigqueryAnalyticsHubQueryTemplate#create}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_bigquery_analytics_hub_query_template#create GoogleBigqueryAnalyticsHubQueryTemplate#create}.
 	Create *string `field:"optional" json:"create" yaml:"create"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_bigquery_analytics_hub_query_template#delete GoogleBigqueryAnalyticsHubQueryTemplate#delete}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_bigquery_analytics_hub_query_template#delete GoogleBigqueryAnalyticsHubQueryTemplate#delete}.
 	Delete *string `field:"optional" json:"delete" yaml:"delete"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_bigquery_analytics_hub_query_template#update GoogleBigqueryAnalyticsHubQueryTemplate#update}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_bigquery_analytics_hub_query_template#update GoogleBigqueryAnalyticsHubQueryTemplate#update}.
 	Update *string `field:"optional" json:"update" yaml:"update"`
 }
 

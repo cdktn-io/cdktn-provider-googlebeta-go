@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleNetworkServicesMulticastDomainGroup) validateInterpolat
 	return nil
 }
 
+func (g *jsiiProxy_GoogleNetworkServicesMulticastDomainGroup) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleNetworkServicesMulticastDomainGroup) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleNetworkServicesMulticastDomainGroup) validateOverrideLo
 }
 
 func (g *jsiiProxy_GoogleNetworkServicesMulticastDomainGroup) validatePutTimeoutsParameters(value *GoogleNetworkServicesMulticastDomainGroupTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleNetworkServicesMulticastDomainGroup) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

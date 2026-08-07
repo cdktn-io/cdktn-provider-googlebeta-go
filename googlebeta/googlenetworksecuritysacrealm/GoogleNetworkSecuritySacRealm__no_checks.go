@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleNetworkSecuritySacRealm) validateInterpolationForAttrib
 	return nil
 }
 
+func (g *jsiiProxy_GoogleNetworkSecuritySacRealm) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleNetworkSecuritySacRealm) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (g *jsiiProxy_GoogleNetworkSecuritySacRealm) validatePutSymantecOptionsPara
 }
 
 func (g *jsiiProxy_GoogleNetworkSecuritySacRealm) validatePutTimeoutsParameters(value *GoogleNetworkSecuritySacRealmTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleNetworkSecuritySacRealm) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

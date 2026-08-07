@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleHealthcareDatasetIamBinding) validateInterpolationForAt
 	return nil
 }
 
+func (g *jsiiProxy_GoogleHealthcareDatasetIamBinding) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleHealthcareDatasetIamBinding) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleHealthcareDatasetIamBinding) validateOverrideLogicalIdP
 }
 
 func (g *jsiiProxy_GoogleHealthcareDatasetIamBinding) validatePutConditionParameters(value *GoogleHealthcareDatasetIamBindingCondition) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleHealthcareDatasetIamBinding) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

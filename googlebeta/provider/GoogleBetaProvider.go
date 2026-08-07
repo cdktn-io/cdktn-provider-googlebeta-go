@@ -5,14 +5,15 @@ package provider
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/provider/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/provider/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/providerfunctions"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs google-beta}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs google-beta}.
 type GoogleBetaProvider interface {
 	cdktn.TerraformProvider
 	AccessApprovalCustomEndpoint() *string
@@ -30,6 +31,9 @@ type GoogleBetaProvider interface {
 	AddTerraformAttributionLabel() interface{}
 	SetAddTerraformAttributionLabel(val interface{})
 	AddTerraformAttributionLabelInput() interface{}
+	AgentIdentityCustomEndpoint() *string
+	SetAgentIdentityCustomEndpoint(val *string)
+	AgentIdentityCustomEndpointInput() *string
 	AgentRegistryCustomEndpoint() *string
 	SetAgentRegistryCustomEndpoint(val *string)
 	AgentRegistryCustomEndpointInput() *string
@@ -179,6 +183,9 @@ type GoogleBetaProvider interface {
 	CloudSecurityComplianceCustomEndpoint() *string
 	SetCloudSecurityComplianceCustomEndpoint(val *string)
 	CloudSecurityComplianceCustomEndpointInput() *string
+	CloudSupportCustomEndpoint() *string
+	SetCloudSupportCustomEndpoint(val *string)
+	CloudSupportCustomEndpointInput() *string
 	CloudTasksCustomEndpoint() *string
 	SetCloudTasksCustomEndpoint(val *string)
 	CloudTasksCustomEndpointInput() *string
@@ -347,6 +354,8 @@ type GoogleBetaProvider interface {
 	Fqn() *string
 	// Experimental.
 	FriendlyUniqueId() *string
+	// Provider-defined functions of the google-beta provider.
+	Functions() providerfunctions.GoogleBetaProviderFunctions
 	GeminiCustomEndpoint() *string
 	SetGeminiCustomEndpoint(val *string)
 	GeminiCustomEndpointInput() *string
@@ -682,11 +691,25 @@ type GoogleBetaProvider interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
+	//
+	// Called by generated provider bindings when a versioned feature is
+	// structurally in use - the element's existence in the construct tree
+	// already implies the feature is used, e.g. constructing a
+	// `TerraformEphemeralResource` at all - so, unlike
+	// `_registerResolveDiscoveredProviderFeatureUsage`, this registration is
+	// never deactivated by `_resetResolveDiscoveredProviderFeatureUsage`. Not
+	// intended to be called directly by user code. Lives on `TerraformElement`
+	// (rather than `TerraformResource`) so it covers any element subclass
+	// that needs it.
+	// Experimental.
+	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
 	ResetAccessApprovalCustomEndpoint()
 	ResetAccessContextManagerCustomEndpoint()
 	ResetAccessToken()
 	ResetActiveDirectoryCustomEndpoint()
 	ResetAddTerraformAttributionLabel()
+	ResetAgentIdentityCustomEndpoint()
 	ResetAgentRegistryCustomEndpoint()
 	ResetAlias()
 	ResetAlloydbCustomEndpoint()
@@ -736,6 +759,7 @@ type GoogleBetaProvider interface {
 	ResetCloudRunV2CustomEndpoint()
 	ResetCloudSchedulerCustomEndpoint()
 	ResetCloudSecurityComplianceCustomEndpoint()
+	ResetCloudSupportCustomEndpoint()
 	ResetCloudTasksCustomEndpoint()
 	ResetColabCustomEndpoint()
 	ResetComposerCustomEndpoint()
@@ -1021,6 +1045,26 @@ func (j *jsiiProxy_GoogleBetaProvider) AddTerraformAttributionLabelInput() inter
 	_jsii_.Get(
 		j,
 		"addTerraformAttributionLabelInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleBetaProvider) AgentIdentityCustomEndpoint() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"agentIdentityCustomEndpoint",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleBetaProvider) AgentIdentityCustomEndpointInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"agentIdentityCustomEndpointInput",
 		&returns,
 	)
 	return returns
@@ -2011,6 +2055,26 @@ func (j *jsiiProxy_GoogleBetaProvider) CloudSecurityComplianceCustomEndpointInpu
 	_jsii_.Get(
 		j,
 		"cloudSecurityComplianceCustomEndpointInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleBetaProvider) CloudSupportCustomEndpoint() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"cloudSupportCustomEndpoint",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleBetaProvider) CloudSupportCustomEndpointInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"cloudSupportCustomEndpointInput",
 		&returns,
 	)
 	return returns
@@ -3121,6 +3185,16 @@ func (j *jsiiProxy_GoogleBetaProvider) FriendlyUniqueId() *string {
 	_jsii_.Get(
 		j,
 		"friendlyUniqueId",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleBetaProvider) Functions() providerfunctions.GoogleBetaProviderFunctions {
+	var returns providerfunctions.GoogleBetaProviderFunctions
+	_jsii_.Get(
+		j,
+		"functions",
 		&returns,
 	)
 	return returns
@@ -5307,7 +5381,7 @@ func (j *jsiiProxy_GoogleBetaProvider) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs google-beta} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs google-beta} Resource.
 func NewGoogleBetaProvider(scope constructs.Construct, id *string, config *GoogleBetaProviderConfig) GoogleBetaProvider {
 	_init_.Initialize()
 
@@ -5325,7 +5399,7 @@ func NewGoogleBetaProvider(scope constructs.Construct, id *string, config *Googl
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs google-beta} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs google-beta} Resource.
 func NewGoogleBetaProvider_Override(g GoogleBetaProvider, scope constructs.Construct, id *string, config *GoogleBetaProviderConfig) {
 	_init_.Initialize()
 
@@ -5375,6 +5449,14 @@ func (j *jsiiProxy_GoogleBetaProvider)SetAddTerraformAttributionLabel(val interf
 	_jsii_.Set(
 		j,
 		"addTerraformAttributionLabel",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleBetaProvider)SetAgentIdentityCustomEndpoint(val *string) {
+	_jsii_.Set(
+		j,
+		"agentIdentityCustomEndpoint",
 		val,
 	)
 }
@@ -5770,6 +5852,14 @@ func (j *jsiiProxy_GoogleBetaProvider)SetCloudSecurityComplianceCustomEndpoint(v
 	_jsii_.Set(
 		j,
 		"cloudSecurityComplianceCustomEndpoint",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleBetaProvider)SetCloudSupportCustomEndpoint(val *string) {
+	_jsii_.Set(
+		j,
+		"cloudSupportCustomEndpoint",
 		val,
 	)
 }
@@ -7191,6 +7281,17 @@ func (g *jsiiProxy_GoogleBetaProvider) OverrideLogicalId(newLogicalId *string) {
 	)
 }
 
+func (g *jsiiProxy_GoogleBetaProvider) RegisterProviderFeatureUsage(feature cdktn.ProviderFeature) {
+	if err := g.validateRegisterProviderFeatureUsageParameters(feature); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"registerProviderFeatureUsage",
+		[]interface{}{feature},
+	)
+}
+
 func (g *jsiiProxy_GoogleBetaProvider) ResetAccessApprovalCustomEndpoint() {
 	_jsii_.InvokeVoid(
 		g,
@@ -7227,6 +7328,14 @@ func (g *jsiiProxy_GoogleBetaProvider) ResetAddTerraformAttributionLabel() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetAddTerraformAttributionLabel",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleBetaProvider) ResetAgentIdentityCustomEndpoint() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetAgentIdentityCustomEndpoint",
 		nil, // no parameters
 	)
 }
@@ -7619,6 +7728,14 @@ func (g *jsiiProxy_GoogleBetaProvider) ResetCloudSecurityComplianceCustomEndpoin
 	_jsii_.InvokeVoid(
 		g,
 		"resetCloudSecurityComplianceCustomEndpoint",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleBetaProvider) ResetCloudSupportCustomEndpoint() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetCloudSupportCustomEndpoint",
 		nil, // no parameters
 	)
 }

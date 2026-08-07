@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleCloudRunDomainMapping) validateInterpolationForAttribut
 	return nil
 }
 
+func (g *jsiiProxy_GoogleCloudRunDomainMapping) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleCloudRunDomainMapping) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (g *jsiiProxy_GoogleCloudRunDomainMapping) validatePutSpecParameters(value 
 }
 
 func (g *jsiiProxy_GoogleCloudRunDomainMapping) validatePutTimeoutsParameters(value *GoogleCloudRunDomainMappingTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleCloudRunDomainMapping) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

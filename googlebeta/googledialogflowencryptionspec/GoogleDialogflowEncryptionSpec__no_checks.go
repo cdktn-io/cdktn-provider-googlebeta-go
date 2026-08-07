@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleDialogflowEncryptionSpec) validateInterpolationForAttri
 	return nil
 }
 
+func (g *jsiiProxy_GoogleDialogflowEncryptionSpec) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleDialogflowEncryptionSpec) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (g *jsiiProxy_GoogleDialogflowEncryptionSpec) validatePutEncryptionSpecPara
 }
 
 func (g *jsiiProxy_GoogleDialogflowEncryptionSpec) validatePutTimeoutsParameters(value *GoogleDialogflowEncryptionSpecTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleDialogflowEncryptionSpec) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

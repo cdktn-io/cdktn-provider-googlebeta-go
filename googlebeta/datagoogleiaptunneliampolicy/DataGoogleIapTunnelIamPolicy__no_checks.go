@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataGoogleIapTunnelIamPolicy) validateOverrideLogicalIdParame
 	return nil
 }
 
+func (d *jsiiProxy_DataGoogleIapTunnelIamPolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataGoogleIapTunnelIamPolicy_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

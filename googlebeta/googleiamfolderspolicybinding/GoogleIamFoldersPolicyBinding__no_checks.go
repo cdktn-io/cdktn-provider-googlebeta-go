@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleIamFoldersPolicyBinding) validateInterpolationForAttrib
 	return nil
 }
 
+func (g *jsiiProxy_GoogleIamFoldersPolicyBinding) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleIamFoldersPolicyBinding) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (g *jsiiProxy_GoogleIamFoldersPolicyBinding) validatePutTargetParameters(va
 }
 
 func (g *jsiiProxy_GoogleIamFoldersPolicyBinding) validatePutTimeoutsParameters(value *GoogleIamFoldersPolicyBindingTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleIamFoldersPolicyBinding) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

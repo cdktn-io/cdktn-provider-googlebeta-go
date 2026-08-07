@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataGoogleCloudRunV2JobIamPolicy) validateOverrideLogicalIdPa
 	return nil
 }
 
+func (d *jsiiProxy_DataGoogleCloudRunV2JobIamPolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataGoogleCloudRunV2JobIamPolicy_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

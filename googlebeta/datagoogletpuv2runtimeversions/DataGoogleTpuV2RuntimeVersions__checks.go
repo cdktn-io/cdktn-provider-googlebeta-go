@@ -114,6 +114,14 @@ func (d *jsiiProxy_DataGoogleTpuV2RuntimeVersions) validateOverrideLogicalIdPara
 	return nil
 }
 
+func (d *jsiiProxy_DataGoogleTpuV2RuntimeVersions) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func validateDataGoogleTpuV2RuntimeVersions_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	if scope == nil {
 		return fmt.Errorf("parameter scope is required, but nil was provided")

@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleComputeFirewallPolicyAssociation) validateInterpolation
 	return nil
 }
 
+func (g *jsiiProxy_GoogleComputeFirewallPolicyAssociation) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleComputeFirewallPolicyAssociation) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleComputeFirewallPolicyAssociation) validateOverrideLogic
 }
 
 func (g *jsiiProxy_GoogleComputeFirewallPolicyAssociation) validatePutTimeoutsParameters(value *GoogleComputeFirewallPolicyAssociationTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleComputeFirewallPolicyAssociation) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

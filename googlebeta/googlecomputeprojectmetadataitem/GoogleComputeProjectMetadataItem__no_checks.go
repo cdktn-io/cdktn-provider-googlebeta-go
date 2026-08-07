@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleComputeProjectMetadataItem) validateInterpolationForAtt
 	return nil
 }
 
+func (g *jsiiProxy_GoogleComputeProjectMetadataItem) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleComputeProjectMetadataItem) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleComputeProjectMetadataItem) validateOverrideLogicalIdPa
 }
 
 func (g *jsiiProxy_GoogleComputeProjectMetadataItem) validatePutTimeoutsParameters(value *GoogleComputeProjectMetadataItemTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleComputeProjectMetadataItem) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

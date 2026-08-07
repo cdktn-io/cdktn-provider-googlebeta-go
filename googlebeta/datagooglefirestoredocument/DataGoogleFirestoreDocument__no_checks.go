@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataGoogleFirestoreDocument) validateOverrideLogicalIdParamet
 	return nil
 }
 
+func (d *jsiiProxy_DataGoogleFirestoreDocument) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataGoogleFirestoreDocument_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataGoogleOracleDatabaseGoldengateConnectionTypes) validateOv
 	return nil
 }
 
+func (d *jsiiProxy_DataGoogleOracleDatabaseGoldengateConnectionTypes) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataGoogleOracleDatabaseGoldengateConnectionTypes_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

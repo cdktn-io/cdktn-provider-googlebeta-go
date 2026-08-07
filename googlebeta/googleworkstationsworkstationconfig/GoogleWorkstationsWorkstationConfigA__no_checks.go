@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleWorkstationsWorkstationConfigA) validateInterpolationFo
 	return nil
 }
 
+func (g *jsiiProxy_GoogleWorkstationsWorkstationConfigA) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleWorkstationsWorkstationConfigA) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -107,6 +111,10 @@ func (g *jsiiProxy_GoogleWorkstationsWorkstationConfigA) validatePutTimeoutsPara
 	return nil
 }
 
+func (g *jsiiProxy_GoogleWorkstationsWorkstationConfigA) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateGoogleWorkstationsWorkstationConfigA_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }
@@ -152,6 +160,10 @@ func (j *jsiiProxy_GoogleWorkstationsWorkstationConfigA) validateSetEnableAuditA
 }
 
 func (j *jsiiProxy_GoogleWorkstationsWorkstationConfigA) validateSetIdParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleWorkstationsWorkstationConfigA) validateSetIdleActionParameters(val *string) error {
 	return nil
 }
 

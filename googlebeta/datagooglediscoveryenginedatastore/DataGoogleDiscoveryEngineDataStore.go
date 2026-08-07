@@ -5,16 +5,17 @@ package datagooglediscoveryenginedatastore
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglediscoveryenginedatastore/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagooglediscoveryenginedatastore/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/data-sources/google_discovery_engine_data_store google_discovery_engine_data_store}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/data-sources/google_discovery_engine_data_store google_discovery_engine_data_store}.
 type DataGoogleDiscoveryEngineDataStore interface {
 	cdktn.TerraformDataSource
+	AclEnabled() cdktn.IResolvable
 	AdvancedSiteSearchConfig() DataGoogleDiscoveryEngineDataStoreAdvancedSiteSearchConfigList
 	// Experimental.
 	CdktfStack() cdktn.TerraformStack
@@ -105,6 +106,19 @@ type DataGoogleDiscoveryEngineDataStore interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
+	//
+	// Called by generated provider bindings when a versioned feature is
+	// structurally in use - the element's existence in the construct tree
+	// already implies the feature is used, e.g. constructing a
+	// `TerraformEphemeralResource` at all - so, unlike
+	// `_registerResolveDiscoveredProviderFeatureUsage`, this registration is
+	// never deactivated by `_resetResolveDiscoveredProviderFeatureUsage`. Not
+	// intended to be called directly by user code. Lives on `TerraformElement`
+	// (rather than `TerraformResource`) so it covers any element subclass
+	// that needs it.
+	// Experimental.
+	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
 	ResetDataStoreId()
 	ResetDisplayName()
 	ResetId()
@@ -139,6 +153,16 @@ type DataGoogleDiscoveryEngineDataStore interface {
 // The jsii proxy struct for DataGoogleDiscoveryEngineDataStore
 type jsiiProxy_DataGoogleDiscoveryEngineDataStore struct {
 	internal.Type__cdktnTerraformDataSource
+}
+
+func (j *jsiiProxy_DataGoogleDiscoveryEngineDataStore) AclEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
+	_jsii_.Get(
+		j,
+		"aclEnabled",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_DataGoogleDiscoveryEngineDataStore) AdvancedSiteSearchConfig() DataGoogleDiscoveryEngineDataStoreAdvancedSiteSearchConfigList {
@@ -502,7 +526,7 @@ func (j *jsiiProxy_DataGoogleDiscoveryEngineDataStore) TerraformResourceType() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/data-sources/google_discovery_engine_data_store google_discovery_engine_data_store} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/data-sources/google_discovery_engine_data_store google_discovery_engine_data_store} Data Source.
 func NewDataGoogleDiscoveryEngineDataStore(scope constructs.Construct, id *string, config *DataGoogleDiscoveryEngineDataStoreConfig) DataGoogleDiscoveryEngineDataStore {
 	_init_.Initialize()
 
@@ -520,7 +544,7 @@ func NewDataGoogleDiscoveryEngineDataStore(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/data-sources/google_discovery_engine_data_store google_discovery_engine_data_store} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/data-sources/google_discovery_engine_data_store google_discovery_engine_data_store} Data Source.
 func NewDataGoogleDiscoveryEngineDataStore_Override(d DataGoogleDiscoveryEngineDataStore, scope constructs.Construct, id *string, config *DataGoogleDiscoveryEngineDataStoreConfig) {
 	_init_.Initialize()
 
@@ -914,6 +938,17 @@ func (d *jsiiProxy_DataGoogleDiscoveryEngineDataStore) OverrideLogicalId(newLogi
 		d,
 		"overrideLogicalId",
 		[]interface{}{newLogicalId},
+	)
+}
+
+func (d *jsiiProxy_DataGoogleDiscoveryEngineDataStore) RegisterProviderFeatureUsage(feature cdktn.ProviderFeature) {
+	if err := d.validateRegisterProviderFeatureUsageParameters(feature); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		d,
+		"registerProviderFeatureUsage",
+		[]interface{}{feature},
 	)
 }
 

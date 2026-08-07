@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleComposerEnvironment) validateInterpolationForAttributeP
 	return nil
 }
 
+func (g *jsiiProxy_GoogleComposerEnvironment) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleComposerEnvironment) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (g *jsiiProxy_GoogleComposerEnvironment) validatePutStorageConfigParameters
 }
 
 func (g *jsiiProxy_GoogleComposerEnvironment) validatePutTimeoutsParameters(value *GoogleComposerEnvironmentTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleComposerEnvironment) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

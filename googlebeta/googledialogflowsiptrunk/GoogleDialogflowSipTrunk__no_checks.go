@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleDialogflowSipTrunk) validateInterpolationForAttributePa
 	return nil
 }
 
+func (g *jsiiProxy_GoogleDialogflowSipTrunk) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleDialogflowSipTrunk) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleDialogflowSipTrunk) validateOverrideLogicalIdParameters
 }
 
 func (g *jsiiProxy_GoogleDialogflowSipTrunk) validatePutTimeoutsParameters(value *GoogleDialogflowSipTrunkTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleDialogflowSipTrunk) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

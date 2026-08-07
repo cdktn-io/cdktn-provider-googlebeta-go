@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleDnsRecordSet) validateInterpolationForAttributeParamete
 	return nil
 }
 
+func (g *jsiiProxy_GoogleDnsRecordSet) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleDnsRecordSet) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleDnsRecordSet) validateOverrideLogicalIdParameters(newLo
 }
 
 func (g *jsiiProxy_GoogleDnsRecordSet) validatePutRoutingPolicyParameters(value *GoogleDnsRecordSetRoutingPolicy) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleDnsRecordSet) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

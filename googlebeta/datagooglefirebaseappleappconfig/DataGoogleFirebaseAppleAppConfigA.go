@@ -5,14 +5,14 @@ package datagooglefirebaseappleappconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglefirebaseappleappconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagooglefirebaseappleappconfig/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/data-sources/google_firebase_apple_app_config google_firebase_apple_app_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/data-sources/google_firebase_apple_app_config google_firebase_apple_app_config}.
 type DataGoogleFirebaseAppleAppConfigA interface {
 	cdktn.TerraformDataSource
 	AppId() *string
@@ -87,6 +87,19 @@ type DataGoogleFirebaseAppleAppConfigA interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
+	//
+	// Called by generated provider bindings when a versioned feature is
+	// structurally in use - the element's existence in the construct tree
+	// already implies the feature is used, e.g. constructing a
+	// `TerraformEphemeralResource` at all - so, unlike
+	// `_registerResolveDiscoveredProviderFeatureUsage`, this registration is
+	// never deactivated by `_resetResolveDiscoveredProviderFeatureUsage`. Not
+	// intended to be called directly by user code. Lives on `TerraformElement`
+	// (rather than `TerraformResource`) so it covers any element subclass
+	// that needs it.
+	// Experimental.
+	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
@@ -330,7 +343,7 @@ func (j *jsiiProxy_DataGoogleFirebaseAppleAppConfigA) TerraformResourceType() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/data-sources/google_firebase_apple_app_config google_firebase_apple_app_config} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/data-sources/google_firebase_apple_app_config google_firebase_apple_app_config} Data Source.
 func NewDataGoogleFirebaseAppleAppConfigA(scope constructs.Construct, id *string, config *DataGoogleFirebaseAppleAppConfigAConfig) DataGoogleFirebaseAppleAppConfigA {
 	_init_.Initialize()
 
@@ -348,7 +361,7 @@ func NewDataGoogleFirebaseAppleAppConfigA(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/data-sources/google_firebase_apple_app_config google_firebase_apple_app_config} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/data-sources/google_firebase_apple_app_config google_firebase_apple_app_config} Data Source.
 func NewDataGoogleFirebaseAppleAppConfigA_Override(d DataGoogleFirebaseAppleAppConfigA, scope constructs.Construct, id *string, config *DataGoogleFirebaseAppleAppConfigAConfig) {
 	_init_.Initialize()
 
@@ -709,6 +722,17 @@ func (d *jsiiProxy_DataGoogleFirebaseAppleAppConfigA) OverrideLogicalId(newLogic
 		d,
 		"overrideLogicalId",
 		[]interface{}{newLogicalId},
+	)
+}
+
+func (d *jsiiProxy_DataGoogleFirebaseAppleAppConfigA) RegisterProviderFeatureUsage(feature cdktn.ProviderFeature) {
+	if err := d.validateRegisterProviderFeatureUsageParameters(feature); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		d,
+		"registerProviderFeatureUsage",
+		[]interface{}{feature},
 	)
 }
 

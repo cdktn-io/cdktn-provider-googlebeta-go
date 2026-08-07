@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleApigeeEnvironmentKeyvaluemapsEntries) validateInterpola
 	return nil
 }
 
+func (g *jsiiProxy_GoogleApigeeEnvironmentKeyvaluemapsEntries) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleApigeeEnvironmentKeyvaluemapsEntries) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleApigeeEnvironmentKeyvaluemapsEntries) validateOverrideL
 }
 
 func (g *jsiiProxy_GoogleApigeeEnvironmentKeyvaluemapsEntries) validatePutTimeoutsParameters(value *GoogleApigeeEnvironmentKeyvaluemapsEntriesTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleApigeeEnvironmentKeyvaluemapsEntries) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

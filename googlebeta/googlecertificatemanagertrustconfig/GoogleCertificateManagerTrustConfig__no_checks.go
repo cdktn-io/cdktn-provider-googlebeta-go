@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleCertificateManagerTrustConfig) validateInterpolationFor
 	return nil
 }
 
+func (g *jsiiProxy_GoogleCertificateManagerTrustConfig) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleCertificateManagerTrustConfig) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (g *jsiiProxy_GoogleCertificateManagerTrustConfig) validatePutTimeoutsParam
 }
 
 func (g *jsiiProxy_GoogleCertificateManagerTrustConfig) validatePutTrustStoresParameters(value interface{}) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleCertificateManagerTrustConfig) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

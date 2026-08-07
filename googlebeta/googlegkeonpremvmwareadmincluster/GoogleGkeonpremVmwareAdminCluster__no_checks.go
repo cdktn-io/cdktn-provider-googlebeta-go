@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleGkeonpremVmwareAdminCluster) validateInterpolationForAt
 	return nil
 }
 
+func (g *jsiiProxy_GoogleGkeonpremVmwareAdminCluster) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleGkeonpremVmwareAdminCluster) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -120,6 +124,10 @@ func (g *jsiiProxy_GoogleGkeonpremVmwareAdminCluster) validatePutTimeoutsParamet
 }
 
 func (g *jsiiProxy_GoogleGkeonpremVmwareAdminCluster) validatePutVcenterParameters(value *GoogleGkeonpremVmwareAdminClusterVcenter) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleGkeonpremVmwareAdminCluster) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

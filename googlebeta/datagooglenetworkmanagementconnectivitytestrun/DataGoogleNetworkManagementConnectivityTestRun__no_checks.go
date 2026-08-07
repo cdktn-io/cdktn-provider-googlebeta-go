@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataGoogleNetworkManagementConnectivityTestRun) validateOverr
 	return nil
 }
 
+func (d *jsiiProxy_DataGoogleNetworkManagementConnectivityTestRun) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataGoogleNetworkManagementConnectivityTestRun_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

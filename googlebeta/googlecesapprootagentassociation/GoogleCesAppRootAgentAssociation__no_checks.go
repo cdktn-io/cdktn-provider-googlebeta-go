@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleCesAppRootAgentAssociation) validateInterpolationForAtt
 	return nil
 }
 
+func (g *jsiiProxy_GoogleCesAppRootAgentAssociation) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleCesAppRootAgentAssociation) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleCesAppRootAgentAssociation) validateOverrideLogicalIdPa
 }
 
 func (g *jsiiProxy_GoogleCesAppRootAgentAssociation) validatePutTimeoutsParameters(value *GoogleCesAppRootAgentAssociationTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleCesAppRootAgentAssociation) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

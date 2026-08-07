@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleActiveDirectoryPeering) validateInterpolationForAttribu
 	return nil
 }
 
+func (g *jsiiProxy_GoogleActiveDirectoryPeering) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleActiveDirectoryPeering) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleActiveDirectoryPeering) validateOverrideLogicalIdParame
 }
 
 func (g *jsiiProxy_GoogleActiveDirectoryPeering) validatePutTimeoutsParameters(value *GoogleActiveDirectoryPeeringTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleActiveDirectoryPeering) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

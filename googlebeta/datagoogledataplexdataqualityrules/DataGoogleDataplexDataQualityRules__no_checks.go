@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataGoogleDataplexDataQualityRules) validateOverrideLogicalId
 	return nil
 }
 
+func (d *jsiiProxy_DataGoogleDataplexDataQualityRules) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataGoogleDataplexDataQualityRules_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

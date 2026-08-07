@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleBackupDrBackupVault) validateInterpolationForAttributeP
 	return nil
 }
 
+func (g *jsiiProxy_GoogleBackupDrBackupVault) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleBackupDrBackupVault) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (g *jsiiProxy_GoogleBackupDrBackupVault) validatePutEncryptionConfigParamet
 }
 
 func (g *jsiiProxy_GoogleBackupDrBackupVault) validatePutTimeoutsParameters(value *GoogleBackupDrBackupVaultTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleBackupDrBackupVault) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleNetappVolume) validateInterpolationForAttributeParamete
 	return nil
 }
 
+func (g *jsiiProxy_GoogleNetappVolume) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleNetappVolume) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -112,6 +116,10 @@ func (g *jsiiProxy_GoogleNetappVolume) validatePutTieringPolicyParameters(value 
 }
 
 func (g *jsiiProxy_GoogleNetappVolume) validatePutTimeoutsParameters(value *GoogleNetappVolumeTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleNetappVolume) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

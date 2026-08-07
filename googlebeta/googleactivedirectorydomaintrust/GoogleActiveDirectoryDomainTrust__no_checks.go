@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleActiveDirectoryDomainTrust) validateInterpolationForAtt
 	return nil
 }
 
+func (g *jsiiProxy_GoogleActiveDirectoryDomainTrust) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleActiveDirectoryDomainTrust) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleActiveDirectoryDomainTrust) validateOverrideLogicalIdPa
 }
 
 func (g *jsiiProxy_GoogleActiveDirectoryDomainTrust) validatePutTimeoutsParameters(value *GoogleActiveDirectoryDomainTrustTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleActiveDirectoryDomainTrust) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

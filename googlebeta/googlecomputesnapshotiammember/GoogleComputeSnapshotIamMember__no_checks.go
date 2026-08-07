@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleComputeSnapshotIamMember) validateInterpolationForAttri
 	return nil
 }
 
+func (g *jsiiProxy_GoogleComputeSnapshotIamMember) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleComputeSnapshotIamMember) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleComputeSnapshotIamMember) validateOverrideLogicalIdPara
 }
 
 func (g *jsiiProxy_GoogleComputeSnapshotIamMember) validatePutConditionParameters(value *GoogleComputeSnapshotIamMemberCondition) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleComputeSnapshotIamMember) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

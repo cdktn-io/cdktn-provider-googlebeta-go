@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleFirebaseAiLogicConfig) validateInterpolationForAttribut
 	return nil
 }
 
+func (g *jsiiProxy_GoogleFirebaseAiLogicConfig) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleFirebaseAiLogicConfig) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -88,6 +92,10 @@ func (g *jsiiProxy_GoogleFirebaseAiLogicConfig) validatePutTimeoutsParameters(va
 }
 
 func (g *jsiiProxy_GoogleFirebaseAiLogicConfig) validatePutTrafficFilterParameters(value *GoogleFirebaseAiLogicConfigTrafficFilter) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleFirebaseAiLogicConfig) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

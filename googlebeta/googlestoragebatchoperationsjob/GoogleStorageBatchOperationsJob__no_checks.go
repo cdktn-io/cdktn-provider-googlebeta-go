@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleStorageBatchOperationsJob) validateInterpolationForAttr
 	return nil
 }
 
+func (g *jsiiProxy_GoogleStorageBatchOperationsJob) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleStorageBatchOperationsJob) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -96,6 +100,10 @@ func (g *jsiiProxy_GoogleStorageBatchOperationsJob) validatePutRewriteObjectPara
 }
 
 func (g *jsiiProxy_GoogleStorageBatchOperationsJob) validatePutTimeoutsParameters(value *GoogleStorageBatchOperationsJobTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleStorageBatchOperationsJob) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

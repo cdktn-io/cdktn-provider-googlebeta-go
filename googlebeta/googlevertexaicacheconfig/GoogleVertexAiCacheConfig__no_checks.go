@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleVertexAiCacheConfig) validateInterpolationForAttributeP
 	return nil
 }
 
+func (g *jsiiProxy_GoogleVertexAiCacheConfig) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleVertexAiCacheConfig) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleVertexAiCacheConfig) validateOverrideLogicalIdParameter
 }
 
 func (g *jsiiProxy_GoogleVertexAiCacheConfig) validatePutTimeoutsParameters(value *GoogleVertexAiCacheConfigTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleVertexAiCacheConfig) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

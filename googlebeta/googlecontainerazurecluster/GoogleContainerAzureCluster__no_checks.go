@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleContainerAzureCluster) validateInterpolationForAttribut
 	return nil
 }
 
+func (g *jsiiProxy_GoogleContainerAzureCluster) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleContainerAzureCluster) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -100,6 +104,10 @@ func (g *jsiiProxy_GoogleContainerAzureCluster) validatePutNetworkingParameters(
 }
 
 func (g *jsiiProxy_GoogleContainerAzureCluster) validatePutTimeoutsParameters(value *GoogleContainerAzureClusterTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleContainerAzureCluster) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

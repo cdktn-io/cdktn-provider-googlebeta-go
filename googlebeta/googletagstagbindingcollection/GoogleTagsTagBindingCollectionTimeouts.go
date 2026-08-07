@@ -5,11 +5,11 @@ package googletagstagbindingcollection
 
 
 type GoogleTagsTagBindingCollectionTimeouts struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_tags_tag_binding_collection#create GoogleTagsTagBindingCollection#create}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_tags_tag_binding_collection#create GoogleTagsTagBindingCollection#create}.
 	Create *string `field:"optional" json:"create" yaml:"create"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_tags_tag_binding_collection#delete GoogleTagsTagBindingCollection#delete}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_tags_tag_binding_collection#delete GoogleTagsTagBindingCollection#delete}.
 	Delete *string `field:"optional" json:"delete" yaml:"delete"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_tags_tag_binding_collection#update GoogleTagsTagBindingCollection#update}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_tags_tag_binding_collection#update GoogleTagsTagBindingCollection#update}.
 	Update *string `field:"optional" json:"update" yaml:"update"`
 }
 

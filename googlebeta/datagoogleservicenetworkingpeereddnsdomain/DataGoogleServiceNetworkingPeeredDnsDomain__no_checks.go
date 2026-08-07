@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataGoogleServiceNetworkingPeeredDnsDomain) validateOverrideL
 	return nil
 }
 
+func (d *jsiiProxy_DataGoogleServiceNetworkingPeeredDnsDomain) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataGoogleServiceNetworkingPeeredDnsDomain_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleComputeInstantSnapshotIamBinding) validateInterpolation
 	return nil
 }
 
+func (g *jsiiProxy_GoogleComputeInstantSnapshotIamBinding) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleComputeInstantSnapshotIamBinding) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleComputeInstantSnapshotIamBinding) validateOverrideLogic
 }
 
 func (g *jsiiProxy_GoogleComputeInstantSnapshotIamBinding) validatePutConditionParameters(value *GoogleComputeInstantSnapshotIamBindingCondition) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleComputeInstantSnapshotIamBinding) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

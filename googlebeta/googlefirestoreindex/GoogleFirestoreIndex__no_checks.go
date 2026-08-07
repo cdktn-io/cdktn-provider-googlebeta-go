@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleFirestoreIndex) validateInterpolationForAttributeParame
 	return nil
 }
 
+func (g *jsiiProxy_GoogleFirestoreIndex) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleFirestoreIndex) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (g *jsiiProxy_GoogleFirestoreIndex) validatePutFieldsParameters(value inter
 }
 
 func (g *jsiiProxy_GoogleFirestoreIndex) validatePutTimeoutsParameters(value *GoogleFirestoreIndexTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleFirestoreIndex) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

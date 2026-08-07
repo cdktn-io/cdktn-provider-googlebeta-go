@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleDataprocMetastoreFederationIamPolicy) validateInterpola
 	return nil
 }
 
+func (g *jsiiProxy_GoogleDataprocMetastoreFederationIamPolicy) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleDataprocMetastoreFederationIamPolicy) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (g *jsiiProxy_GoogleDataprocMetastoreFederationIamPolicy) validateMoveToIdP
 }
 
 func (g *jsiiProxy_GoogleDataprocMetastoreFederationIamPolicy) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleDataprocMetastoreFederationIamPolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

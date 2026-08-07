@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleComputeHealthCheck) validateInterpolationForAttributePa
 	return nil
 }
 
+func (g *jsiiProxy_GoogleComputeHealthCheck) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleComputeHealthCheck) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -108,6 +112,10 @@ func (g *jsiiProxy_GoogleComputeHealthCheck) validatePutTcpHealthCheckParameters
 }
 
 func (g *jsiiProxy_GoogleComputeHealthCheck) validatePutTimeoutsParameters(value *GoogleComputeHealthCheckTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleComputeHealthCheck) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

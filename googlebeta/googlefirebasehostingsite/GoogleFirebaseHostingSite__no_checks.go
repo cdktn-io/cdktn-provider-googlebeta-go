@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleFirebaseHostingSite) validateInterpolationForAttributeP
 	return nil
 }
 
+func (g *jsiiProxy_GoogleFirebaseHostingSite) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleFirebaseHostingSite) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleFirebaseHostingSite) validateOverrideLogicalIdParameter
 }
 
 func (g *jsiiProxy_GoogleFirebaseHostingSite) validatePutTimeoutsParameters(value *GoogleFirebaseHostingSiteTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleFirebaseHostingSite) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

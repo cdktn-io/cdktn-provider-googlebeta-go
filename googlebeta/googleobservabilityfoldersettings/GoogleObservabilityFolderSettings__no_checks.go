@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleObservabilityFolderSettings) validateInterpolationForAt
 	return nil
 }
 
+func (g *jsiiProxy_GoogleObservabilityFolderSettings) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleObservabilityFolderSettings) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleObservabilityFolderSettings) validateOverrideLogicalIdP
 }
 
 func (g *jsiiProxy_GoogleObservabilityFolderSettings) validatePutTimeoutsParameters(value *GoogleObservabilityFolderSettingsTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleObservabilityFolderSettings) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

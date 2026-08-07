@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleModelArmorTemplate) validateInterpolationForAttributePa
 	return nil
 }
 
+func (g *jsiiProxy_GoogleModelArmorTemplate) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleModelArmorTemplate) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (g *jsiiProxy_GoogleModelArmorTemplate) validatePutTemplateMetadataParamete
 }
 
 func (g *jsiiProxy_GoogleModelArmorTemplate) validatePutTimeoutsParameters(value *GoogleModelArmorTemplateTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleModelArmorTemplate) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

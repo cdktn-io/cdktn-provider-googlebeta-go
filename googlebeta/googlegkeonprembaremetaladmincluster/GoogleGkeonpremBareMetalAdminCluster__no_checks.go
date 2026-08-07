@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleGkeonpremBareMetalAdminCluster) validateInterpolationFo
 	return nil
 }
 
+func (g *jsiiProxy_GoogleGkeonpremBareMetalAdminCluster) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleGkeonpremBareMetalAdminCluster) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -116,6 +120,10 @@ func (g *jsiiProxy_GoogleGkeonpremBareMetalAdminCluster) validatePutStorageParam
 }
 
 func (g *jsiiProxy_GoogleGkeonpremBareMetalAdminCluster) validatePutTimeoutsParameters(value *GoogleGkeonpremBareMetalAdminClusterTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleGkeonpremBareMetalAdminCluster) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

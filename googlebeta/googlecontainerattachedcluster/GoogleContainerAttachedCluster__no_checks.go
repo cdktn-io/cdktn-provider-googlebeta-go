@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleContainerAttachedCluster) validateInterpolationForAttri
 	return nil
 }
 
+func (g *jsiiProxy_GoogleContainerAttachedCluster) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleContainerAttachedCluster) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -108,6 +112,10 @@ func (g *jsiiProxy_GoogleContainerAttachedCluster) validatePutSecurityPostureCon
 }
 
 func (g *jsiiProxy_GoogleContainerAttachedCluster) validatePutTimeoutsParameters(value *GoogleContainerAttachedClusterTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleContainerAttachedCluster) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

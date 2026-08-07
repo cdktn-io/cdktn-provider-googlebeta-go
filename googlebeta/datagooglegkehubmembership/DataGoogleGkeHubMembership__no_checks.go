@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataGoogleGkeHubMembership) validateOverrideLogicalIdParamete
 	return nil
 }
 
+func (d *jsiiProxy_DataGoogleGkeHubMembership) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataGoogleGkeHubMembership_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

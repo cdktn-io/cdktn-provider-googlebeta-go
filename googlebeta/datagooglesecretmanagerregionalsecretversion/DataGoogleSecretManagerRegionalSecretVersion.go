@@ -5,14 +5,14 @@ package datagooglesecretmanagerregionalsecretversion
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglesecretmanagerregionalsecretversion/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagooglesecretmanagerregionalsecretversion/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/data-sources/google_secret_manager_regional_secret_version google_secret_manager_regional_secret_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/data-sources/google_secret_manager_regional_secret_version google_secret_manager_regional_secret_version}.
 type DataGoogleSecretManagerRegionalSecretVersion interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -102,6 +102,19 @@ type DataGoogleSecretManagerRegionalSecretVersion interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
+	//
+	// Called by generated provider bindings when a versioned feature is
+	// structurally in use - the element's existence in the construct tree
+	// already implies the feature is used, e.g. constructing a
+	// `TerraformEphemeralResource` at all - so, unlike
+	// `_registerResolveDiscoveredProviderFeatureUsage`, this registration is
+	// never deactivated by `_resetResolveDiscoveredProviderFeatureUsage`. Not
+	// intended to be called directly by user code. Lives on `TerraformElement`
+	// (rather than `TerraformResource`) so it covers any element subclass
+	// that needs it.
+	// Experimental.
+	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
 	ResetId()
 	ResetIsSecretDataBase64()
 	ResetLocation()
@@ -459,7 +472,7 @@ func (j *jsiiProxy_DataGoogleSecretManagerRegionalSecretVersion) VersionInput() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/data-sources/google_secret_manager_regional_secret_version google_secret_manager_regional_secret_version} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/data-sources/google_secret_manager_regional_secret_version google_secret_manager_regional_secret_version} Data Source.
 func NewDataGoogleSecretManagerRegionalSecretVersion(scope constructs.Construct, id *string, config *DataGoogleSecretManagerRegionalSecretVersionConfig) DataGoogleSecretManagerRegionalSecretVersion {
 	_init_.Initialize()
 
@@ -477,7 +490,7 @@ func NewDataGoogleSecretManagerRegionalSecretVersion(scope constructs.Construct,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/data-sources/google_secret_manager_regional_secret_version google_secret_manager_regional_secret_version} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/data-sources/google_secret_manager_regional_secret_version google_secret_manager_regional_secret_version} Data Source.
 func NewDataGoogleSecretManagerRegionalSecretVersion_Override(d DataGoogleSecretManagerRegionalSecretVersion, scope constructs.Construct, id *string, config *DataGoogleSecretManagerRegionalSecretVersionConfig) {
 	_init_.Initialize()
 
@@ -882,6 +895,17 @@ func (d *jsiiProxy_DataGoogleSecretManagerRegionalSecretVersion) OverrideLogical
 		d,
 		"overrideLogicalId",
 		[]interface{}{newLogicalId},
+	)
+}
+
+func (d *jsiiProxy_DataGoogleSecretManagerRegionalSecretVersion) RegisterProviderFeatureUsage(feature cdktn.ProviderFeature) {
+	if err := d.validateRegisterProviderFeatureUsageParameters(feature); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		d,
+		"registerProviderFeatureUsage",
+		[]interface{}{feature},
 	)
 }
 

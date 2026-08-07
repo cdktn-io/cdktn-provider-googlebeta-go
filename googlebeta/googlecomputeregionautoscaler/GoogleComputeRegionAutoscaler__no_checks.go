@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleComputeRegionAutoscaler) validateInterpolationForAttrib
 	return nil
 }
 
+func (g *jsiiProxy_GoogleComputeRegionAutoscaler) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleComputeRegionAutoscaler) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (g *jsiiProxy_GoogleComputeRegionAutoscaler) validatePutAutoscalingPolicyPa
 }
 
 func (g *jsiiProxy_GoogleComputeRegionAutoscaler) validatePutTimeoutsParameters(value *GoogleComputeRegionAutoscalerTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleComputeRegionAutoscaler) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

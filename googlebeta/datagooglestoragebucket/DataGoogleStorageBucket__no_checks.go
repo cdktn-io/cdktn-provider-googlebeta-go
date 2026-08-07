@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataGoogleStorageBucket) validateOverrideLogicalIdParameters(
 	return nil
 }
 
+func (d *jsiiProxy_DataGoogleStorageBucket) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataGoogleStorageBucket_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

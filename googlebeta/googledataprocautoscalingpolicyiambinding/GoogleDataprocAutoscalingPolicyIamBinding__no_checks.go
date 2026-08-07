@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleDataprocAutoscalingPolicyIamBinding) validateInterpolat
 	return nil
 }
 
+func (g *jsiiProxy_GoogleDataprocAutoscalingPolicyIamBinding) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleDataprocAutoscalingPolicyIamBinding) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleDataprocAutoscalingPolicyIamBinding) validateOverrideLo
 }
 
 func (g *jsiiProxy_GoogleDataprocAutoscalingPolicyIamBinding) validatePutConditionParameters(value *GoogleDataprocAutoscalingPolicyIamBindingCondition) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleDataprocAutoscalingPolicyIamBinding) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -43,6 +43,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "query", GoGetter: "Query"},
 			_jsii_.MemberProperty{JsiiProperty: "queryInput", GoGetter: "QueryInput"},
 			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
+			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
 			_jsii_.MemberMethod{JsiiMethod: "resetAssetTypes", GoMethod: "ResetAssetTypes"},
 			_jsii_.MemberMethod{JsiiMethod: "resetId", GoMethod: "ResetId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},

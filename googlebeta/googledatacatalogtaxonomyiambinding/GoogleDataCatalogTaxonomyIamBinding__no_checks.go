@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleDataCatalogTaxonomyIamBinding) validateInterpolationFor
 	return nil
 }
 
+func (g *jsiiProxy_GoogleDataCatalogTaxonomyIamBinding) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleDataCatalogTaxonomyIamBinding) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleDataCatalogTaxonomyIamBinding) validateOverrideLogicalI
 }
 
 func (g *jsiiProxy_GoogleDataCatalogTaxonomyIamBinding) validatePutConditionParameters(value *GoogleDataCatalogTaxonomyIamBindingCondition) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleDataCatalogTaxonomyIamBinding) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

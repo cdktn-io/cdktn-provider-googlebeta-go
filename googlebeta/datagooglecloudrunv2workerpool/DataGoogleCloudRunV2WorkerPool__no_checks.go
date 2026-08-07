@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataGoogleCloudRunV2WorkerPool) validateOverrideLogicalIdPara
 	return nil
 }
 
+func (d *jsiiProxy_DataGoogleCloudRunV2WorkerPool) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataGoogleCloudRunV2WorkerPool_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleServiceDirectoryNamespaceIamMember) validateInterpolati
 	return nil
 }
 
+func (g *jsiiProxy_GoogleServiceDirectoryNamespaceIamMember) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleServiceDirectoryNamespaceIamMember) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleServiceDirectoryNamespaceIamMember) validateOverrideLog
 }
 
 func (g *jsiiProxy_GoogleServiceDirectoryNamespaceIamMember) validatePutConditionParameters(value *GoogleServiceDirectoryNamespaceIamMemberCondition) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleServiceDirectoryNamespaceIamMember) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

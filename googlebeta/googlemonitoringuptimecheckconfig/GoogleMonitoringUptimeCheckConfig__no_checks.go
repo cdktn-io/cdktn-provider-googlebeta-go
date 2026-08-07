@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleMonitoringUptimeCheckConfig) validateInterpolationForAt
 	return nil
 }
 
+func (g *jsiiProxy_GoogleMonitoringUptimeCheckConfig) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleMonitoringUptimeCheckConfig) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -100,6 +104,10 @@ func (g *jsiiProxy_GoogleMonitoringUptimeCheckConfig) validatePutTcpCheckParamet
 }
 
 func (g *jsiiProxy_GoogleMonitoringUptimeCheckConfig) validatePutTimeoutsParameters(value *GoogleMonitoringUptimeCheckConfigTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleMonitoringUptimeCheckConfig) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleNetworkServicesEdgeCacheOrigin) validateInterpolationFo
 	return nil
 }
 
+func (g *jsiiProxy_GoogleNetworkServicesEdgeCacheOrigin) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleNetworkServicesEdgeCacheOrigin) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -96,6 +100,10 @@ func (g *jsiiProxy_GoogleNetworkServicesEdgeCacheOrigin) validatePutTimeoutParam
 }
 
 func (g *jsiiProxy_GoogleNetworkServicesEdgeCacheOrigin) validatePutTimeoutsParameters(value *GoogleNetworkServicesEdgeCacheOriginTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleNetworkServicesEdgeCacheOrigin) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

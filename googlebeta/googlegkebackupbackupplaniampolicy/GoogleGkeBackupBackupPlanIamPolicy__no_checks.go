@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleGkeBackupBackupPlanIamPolicy) validateInterpolationForA
 	return nil
 }
 
+func (g *jsiiProxy_GoogleGkeBackupBackupPlanIamPolicy) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleGkeBackupBackupPlanIamPolicy) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (g *jsiiProxy_GoogleGkeBackupBackupPlanIamPolicy) validateMoveToIdParameter
 }
 
 func (g *jsiiProxy_GoogleGkeBackupBackupPlanIamPolicy) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleGkeBackupBackupPlanIamPolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

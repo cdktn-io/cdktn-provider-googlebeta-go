@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleDataprocSessionTemplate) validateInterpolationForAttrib
 	return nil
 }
 
+func (g *jsiiProxy_GoogleDataprocSessionTemplate) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleDataprocSessionTemplate) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -92,6 +96,10 @@ func (g *jsiiProxy_GoogleDataprocSessionTemplate) validatePutSparkConnectSession
 }
 
 func (g *jsiiProxy_GoogleDataprocSessionTemplate) validatePutTimeoutsParameters(value *GoogleDataprocSessionTemplateTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleDataprocSessionTemplate) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

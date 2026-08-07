@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataGoogleKmsEkmConnectionIamPolicy) validateOverrideLogicalI
 	return nil
 }
 
+func (d *jsiiProxy_DataGoogleKmsEkmConnectionIamPolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataGoogleKmsEkmConnectionIamPolicy_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

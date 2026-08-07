@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleDataprocWorkflowTemplate) validateInterpolationForAttri
 	return nil
 }
 
+func (g *jsiiProxy_GoogleDataprocWorkflowTemplate) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleDataprocWorkflowTemplate) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -92,6 +96,10 @@ func (g *jsiiProxy_GoogleDataprocWorkflowTemplate) validatePutPlacementParameter
 }
 
 func (g *jsiiProxy_GoogleDataprocWorkflowTemplate) validatePutTimeoutsParameters(value *GoogleDataprocWorkflowTemplateTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleDataprocWorkflowTemplate) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

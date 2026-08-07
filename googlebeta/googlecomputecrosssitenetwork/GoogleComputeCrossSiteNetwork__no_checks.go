@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleComputeCrossSiteNetwork) validateInterpolationForAttrib
 	return nil
 }
 
+func (g *jsiiProxy_GoogleComputeCrossSiteNetwork) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleComputeCrossSiteNetwork) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleComputeCrossSiteNetwork) validateOverrideLogicalIdParam
 }
 
 func (g *jsiiProxy_GoogleComputeCrossSiteNetwork) validatePutTimeoutsParameters(value *GoogleComputeCrossSiteNetworkTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleComputeCrossSiteNetwork) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

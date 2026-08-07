@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleApihubPluginInstance) validateInterpolationForAttribute
 	return nil
 }
 
+func (g *jsiiProxy_GoogleApihubPluginInstance) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleApihubPluginInstance) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (g *jsiiProxy_GoogleApihubPluginInstance) validatePutAuthConfigParameters(v
 }
 
 func (g *jsiiProxy_GoogleApihubPluginInstance) validatePutTimeoutsParameters(value *GoogleApihubPluginInstanceTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleApihubPluginInstance) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 
@@ -148,6 +156,10 @@ func (j *jsiiProxy_GoogleApihubPluginInstance) validateSetProjectParameters(val 
 }
 
 func (j *jsiiProxy_GoogleApihubPluginInstance) validateSetProvisionersParameters(val *[]interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleApihubPluginInstance) validateSetSourceProjectIdParameters(val *string) error {
 	return nil
 }
 

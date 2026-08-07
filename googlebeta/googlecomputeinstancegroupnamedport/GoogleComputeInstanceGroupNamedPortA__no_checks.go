@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleComputeInstanceGroupNamedPortA) validateInterpolationFo
 	return nil
 }
 
+func (g *jsiiProxy_GoogleComputeInstanceGroupNamedPortA) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleComputeInstanceGroupNamedPortA) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleComputeInstanceGroupNamedPortA) validateOverrideLogical
 }
 
 func (g *jsiiProxy_GoogleComputeInstanceGroupNamedPortA) validatePutTimeoutsParameters(value *GoogleComputeInstanceGroupNamedPortTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleComputeInstanceGroupNamedPortA) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

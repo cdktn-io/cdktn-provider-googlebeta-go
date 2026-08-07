@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleKmsCryptoKeyVersion) validateInterpolationForAttributeP
 	return nil
 }
 
+func (g *jsiiProxy_GoogleKmsCryptoKeyVersion) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleKmsCryptoKeyVersion) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (g *jsiiProxy_GoogleKmsCryptoKeyVersion) validatePutExternalProtectionLevel
 }
 
 func (g *jsiiProxy_GoogleKmsCryptoKeyVersion) validatePutTimeoutsParameters(value *GoogleKmsCryptoKeyVersionTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleKmsCryptoKeyVersion) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

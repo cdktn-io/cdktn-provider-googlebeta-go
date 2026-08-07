@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleClouddeployCustomTargetTypeIamBinding) validateInterpol
 	return nil
 }
 
+func (g *jsiiProxy_GoogleClouddeployCustomTargetTypeIamBinding) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleClouddeployCustomTargetTypeIamBinding) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleClouddeployCustomTargetTypeIamBinding) validateOverride
 }
 
 func (g *jsiiProxy_GoogleClouddeployCustomTargetTypeIamBinding) validatePutConditionParameters(value *GoogleClouddeployCustomTargetTypeIamBindingCondition) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleClouddeployCustomTargetTypeIamBinding) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

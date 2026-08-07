@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleNotebooksRuntimeIamMember) validateInterpolationForAttr
 	return nil
 }
 
+func (g *jsiiProxy_GoogleNotebooksRuntimeIamMember) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleNotebooksRuntimeIamMember) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleNotebooksRuntimeIamMember) validateOverrideLogicalIdPar
 }
 
 func (g *jsiiProxy_GoogleNotebooksRuntimeIamMember) validatePutConditionParameters(value *GoogleNotebooksRuntimeIamMemberCondition) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleNotebooksRuntimeIamMember) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

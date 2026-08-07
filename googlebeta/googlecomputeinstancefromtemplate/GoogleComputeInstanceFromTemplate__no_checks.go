@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleComputeInstanceFromTemplate) validateInterpolationForAt
 	return nil
 }
 
+func (g *jsiiProxy_GoogleComputeInstanceFromTemplate) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleComputeInstanceFromTemplate) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -136,6 +140,10 @@ func (g *jsiiProxy_GoogleComputeInstanceFromTemplate) validatePutTimeoutsParamet
 }
 
 func (g *jsiiProxy_GoogleComputeInstanceFromTemplate) validatePutWorkloadIdentityConfigParameters(value *GoogleComputeInstanceFromTemplateWorkloadIdentityConfig) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleComputeInstanceFromTemplate) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

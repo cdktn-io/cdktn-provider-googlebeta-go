@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleApphubService) validateInterpolationForAttributeParamet
 	return nil
 }
 
+func (g *jsiiProxy_GoogleApphubService) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleApphubService) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (g *jsiiProxy_GoogleApphubService) validatePutAttributesParameters(value *G
 }
 
 func (g *jsiiProxy_GoogleApphubService) validatePutTimeoutsParameters(value *GoogleApphubServiceTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleApphubService) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

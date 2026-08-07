@@ -122,6 +122,14 @@ func (g *jsiiProxy_GoogleContainerAwsCluster) validateInterpolationForAttributeP
 	return nil
 }
 
+func (g *jsiiProxy_GoogleContainerAwsCluster) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (g *jsiiProxy_GoogleContainerAwsCluster) validateMoveFromIdParameters(id *string) error {
 	if id == nil {
 		return fmt.Errorf("parameter id is required, but nil was provided")
@@ -279,6 +287,14 @@ func (g *jsiiProxy_GoogleContainerAwsCluster) validatePutTimeoutsParameters(valu
 	}
 	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
 		return err
+	}
+
+	return nil
+}
+
+func (g *jsiiProxy_GoogleContainerAwsCluster) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
 	}
 
 	return nil

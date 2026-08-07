@@ -59,6 +59,10 @@ func (g *jsiiProxy_GooglePrivatecaCertificateAuthority) validateInterpolationFor
 	return nil
 }
 
+func (g *jsiiProxy_GooglePrivatecaCertificateAuthority) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GooglePrivatecaCertificateAuthority) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -92,6 +96,10 @@ func (g *jsiiProxy_GooglePrivatecaCertificateAuthority) validatePutTimeoutsParam
 }
 
 func (g *jsiiProxy_GooglePrivatecaCertificateAuthority) validatePutUserDefinedAccessUrlsParameters(value *GooglePrivatecaCertificateAuthorityUserDefinedAccessUrls) error {
+	return nil
+}
+
+func (g *jsiiProxy_GooglePrivatecaCertificateAuthority) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

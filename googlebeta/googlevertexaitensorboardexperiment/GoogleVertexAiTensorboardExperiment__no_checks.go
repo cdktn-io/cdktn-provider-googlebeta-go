@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleVertexAiTensorboardExperiment) validateInterpolationFor
 	return nil
 }
 
+func (g *jsiiProxy_GoogleVertexAiTensorboardExperiment) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleVertexAiTensorboardExperiment) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleVertexAiTensorboardExperiment) validateOverrideLogicalI
 }
 
 func (g *jsiiProxy_GoogleVertexAiTensorboardExperiment) validatePutTimeoutsParameters(value *GoogleVertexAiTensorboardExperimentTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleVertexAiTensorboardExperiment) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

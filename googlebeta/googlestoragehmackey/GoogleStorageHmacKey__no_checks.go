@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleStorageHmacKey) validateInterpolationForAttributeParame
 	return nil
 }
 
+func (g *jsiiProxy_GoogleStorageHmacKey) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleStorageHmacKey) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleStorageHmacKey) validateOverrideLogicalIdParameters(new
 }
 
 func (g *jsiiProxy_GoogleStorageHmacKey) validatePutTimeoutsParameters(value *GoogleStorageHmacKeyTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleStorageHmacKey) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

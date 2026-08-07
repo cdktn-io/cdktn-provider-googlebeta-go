@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleDatastreamPrivateConnection) validateInterpolationForAt
 	return nil
 }
 
+func (g *jsiiProxy_GoogleDatastreamPrivateConnection) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleDatastreamPrivateConnection) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (g *jsiiProxy_GoogleDatastreamPrivateConnection) validatePutTimeoutsParamet
 }
 
 func (g *jsiiProxy_GoogleDatastreamPrivateConnection) validatePutVpcPeeringConfigParameters(value *GoogleDatastreamPrivateConnectionVpcPeeringConfig) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleDatastreamPrivateConnection) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

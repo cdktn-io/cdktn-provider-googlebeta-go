@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataGoogleComputeRegionBackendBucketIamPolicy) validateOverri
 	return nil
 }
 
+func (d *jsiiProxy_DataGoogleComputeRegionBackendBucketIamPolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataGoogleComputeRegionBackendBucketIamPolicy_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

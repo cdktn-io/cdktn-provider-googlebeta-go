@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleComputeRegionUrlMap) validateInterpolationForAttributeP
 	return nil
 }
 
+func (g *jsiiProxy_GoogleComputeRegionUrlMap) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleComputeRegionUrlMap) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -100,6 +104,10 @@ func (g *jsiiProxy_GoogleComputeRegionUrlMap) validatePutTestParameters(value in
 }
 
 func (g *jsiiProxy_GoogleComputeRegionUrlMap) validatePutTimeoutsParameters(value *GoogleComputeRegionUrlMapTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleComputeRegionUrlMap) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

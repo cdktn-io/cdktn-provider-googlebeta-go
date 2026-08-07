@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleComputeRouterNat) validateInterpolationForAttributePara
 	return nil
 }
 
+func (g *jsiiProxy_GoogleComputeRouterNat) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleComputeRouterNat) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -92,6 +96,10 @@ func (g *jsiiProxy_GoogleComputeRouterNat) validatePutSubnetworkParameters(value
 }
 
 func (g *jsiiProxy_GoogleComputeRouterNat) validatePutTimeoutsParameters(value *GoogleComputeRouterNatTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleComputeRouterNat) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleBillingAccountIamMember) validateInterpolationForAttrib
 	return nil
 }
 
+func (g *jsiiProxy_GoogleBillingAccountIamMember) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleBillingAccountIamMember) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleBillingAccountIamMember) validateOverrideLogicalIdParam
 }
 
 func (g *jsiiProxy_GoogleBillingAccountIamMember) validatePutConditionParameters(value *GoogleBillingAccountIamMemberCondition) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleBillingAccountIamMember) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

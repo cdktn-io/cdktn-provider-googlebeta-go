@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleServiceNetworkingPeeredDnsDomain) validateInterpolation
 	return nil
 }
 
+func (g *jsiiProxy_GoogleServiceNetworkingPeeredDnsDomain) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleServiceNetworkingPeeredDnsDomain) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleServiceNetworkingPeeredDnsDomain) validateOverrideLogic
 }
 
 func (g *jsiiProxy_GoogleServiceNetworkingPeeredDnsDomain) validatePutTimeoutsParameters(value *GoogleServiceNetworkingPeeredDnsDomainTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleServiceNetworkingPeeredDnsDomain) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

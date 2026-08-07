@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleVmwareenginePrivateCloud) validateInterpolationForAttri
 	return nil
 }
 
+func (g *jsiiProxy_GoogleVmwareenginePrivateCloud) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleVmwareenginePrivateCloud) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (g *jsiiProxy_GoogleVmwareenginePrivateCloud) validatePutNetworkConfigParam
 }
 
 func (g *jsiiProxy_GoogleVmwareenginePrivateCloud) validatePutTimeoutsParameters(value *GoogleVmwareenginePrivateCloudTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleVmwareenginePrivateCloud) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

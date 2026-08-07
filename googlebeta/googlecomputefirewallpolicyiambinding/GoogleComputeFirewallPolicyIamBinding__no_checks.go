@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleComputeFirewallPolicyIamBinding) validateInterpolationF
 	return nil
 }
 
+func (g *jsiiProxy_GoogleComputeFirewallPolicyIamBinding) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleComputeFirewallPolicyIamBinding) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleComputeFirewallPolicyIamBinding) validateOverrideLogica
 }
 
 func (g *jsiiProxy_GoogleComputeFirewallPolicyIamBinding) validatePutConditionParameters(value *GoogleComputeFirewallPolicyIamBindingCondition) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleComputeFirewallPolicyIamBinding) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

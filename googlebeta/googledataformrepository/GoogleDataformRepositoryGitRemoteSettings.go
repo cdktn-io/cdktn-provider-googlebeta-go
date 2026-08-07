@@ -7,17 +7,17 @@ package googledataformrepository
 type GoogleDataformRepositoryGitRemoteSettings struct {
 	// The Git remote's default branch name.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_dataform_repository#default_branch GoogleDataformRepository#default_branch}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_dataform_repository#default_branch GoogleDataformRepository#default_branch}
 	DefaultBranch *string `field:"required" json:"defaultBranch" yaml:"defaultBranch"`
 	// The Git remote's URL.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_dataform_repository#url GoogleDataformRepository#url}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_dataform_repository#url GoogleDataformRepository#url}
 	Url *string `field:"required" json:"url" yaml:"url"`
 	// The name of the Secret Manager secret version to use as an authentication token for Git operations.
 	//
 	// This secret is for assigning with HTTPS only(for SSH use 'ssh_authentication_config'). Must be in the format projects/* /secrets/* /versions/*.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_dataform_repository#authentication_token_secret_version GoogleDataformRepository#authentication_token_secret_version}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_dataform_repository#authentication_token_secret_version GoogleDataformRepository#authentication_token_secret_version}
 	//
 	// Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
 	AuthenticationTokenSecretVersion *string `field:"optional" json:"authenticationTokenSecretVersion" yaml:"authenticationTokenSecretVersion"`
@@ -25,13 +25,13 @@ type GoogleDataformRepositoryGitRemoteSettings struct {
 	//
 	// Must be in the format projects/* /locations/* /connections/* /gitRepositoryLinks/*.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_dataform_repository#git_repository_link GoogleDataformRepository#git_repository_link}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_dataform_repository#git_repository_link GoogleDataformRepository#git_repository_link}
 	//
 	// Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
 	GitRepositoryLink *string `field:"optional" json:"gitRepositoryLink" yaml:"gitRepositoryLink"`
 	// ssh_authentication_config block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_dataform_repository#ssh_authentication_config GoogleDataformRepository#ssh_authentication_config}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_dataform_repository#ssh_authentication_config GoogleDataformRepository#ssh_authentication_config}
 	SshAuthenticationConfig *GoogleDataformRepositoryGitRemoteSettingsSshAuthenticationConfig `field:"optional" json:"sshAuthenticationConfig" yaml:"sshAuthenticationConfig"`
 }
 

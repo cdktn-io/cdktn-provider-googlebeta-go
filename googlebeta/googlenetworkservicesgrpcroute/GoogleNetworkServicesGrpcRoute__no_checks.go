@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleNetworkServicesGrpcRoute) validateInterpolationForAttri
 	return nil
 }
 
+func (g *jsiiProxy_GoogleNetworkServicesGrpcRoute) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleNetworkServicesGrpcRoute) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (g *jsiiProxy_GoogleNetworkServicesGrpcRoute) validatePutRulesParameters(va
 }
 
 func (g *jsiiProxy_GoogleNetworkServicesGrpcRoute) validatePutTimeoutsParameters(value *GoogleNetworkServicesGrpcRouteTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleNetworkServicesGrpcRoute) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

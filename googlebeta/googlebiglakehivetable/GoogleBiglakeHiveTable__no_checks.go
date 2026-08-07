@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleBiglakeHiveTable) validateInterpolationForAttributePara
 	return nil
 }
 
+func (g *jsiiProxy_GoogleBiglakeHiveTable) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleBiglakeHiveTable) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (g *jsiiProxy_GoogleBiglakeHiveTable) validatePutStorageDescriptorParameter
 }
 
 func (g *jsiiProxy_GoogleBiglakeHiveTable) validatePutTimeoutsParameters(value *GoogleBiglakeHiveTableTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleBiglakeHiveTable) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

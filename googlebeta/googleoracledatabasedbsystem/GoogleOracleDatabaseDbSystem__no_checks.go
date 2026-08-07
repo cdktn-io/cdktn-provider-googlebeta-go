@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleOracleDatabaseDbSystem) validateInterpolationForAttribu
 	return nil
 }
 
+func (g *jsiiProxy_GoogleOracleDatabaseDbSystem) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleOracleDatabaseDbSystem) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (g *jsiiProxy_GoogleOracleDatabaseDbSystem) validatePutPropertiesParameters
 }
 
 func (g *jsiiProxy_GoogleOracleDatabaseDbSystem) validatePutTimeoutsParameters(value *GoogleOracleDatabaseDbSystemTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleOracleDatabaseDbSystem) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

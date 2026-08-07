@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleIapClient) validateInterpolationForAttributeParameters(
 	return nil
 }
 
+func (g *jsiiProxy_GoogleIapClient) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleIapClient) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleIapClient) validateOverrideLogicalIdParameters(newLogic
 }
 
 func (g *jsiiProxy_GoogleIapClient) validatePutTimeoutsParameters(value *GoogleIapClientTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleIapClient) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

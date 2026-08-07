@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleTpuV2Vm) validateInterpolationForAttributeParameters(te
 	return nil
 }
 
+func (g *jsiiProxy_GoogleTpuV2Vm) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleTpuV2Vm) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -104,6 +108,10 @@ func (g *jsiiProxy_GoogleTpuV2Vm) validatePutShieldedInstanceConfigParameters(va
 }
 
 func (g *jsiiProxy_GoogleTpuV2Vm) validatePutTimeoutsParameters(value *GoogleTpuV2VmTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleTpuV2Vm) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

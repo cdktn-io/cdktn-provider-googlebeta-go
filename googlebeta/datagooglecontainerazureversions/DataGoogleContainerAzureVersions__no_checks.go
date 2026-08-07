@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataGoogleContainerAzureVersions) validateOverrideLogicalIdPa
 	return nil
 }
 
+func (d *jsiiProxy_DataGoogleContainerAzureVersions) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataGoogleContainerAzureVersions_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

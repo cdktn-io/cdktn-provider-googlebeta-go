@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleIapWebTypeComputeIamBinding) validateInterpolationForAt
 	return nil
 }
 
+func (g *jsiiProxy_GoogleIapWebTypeComputeIamBinding) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleIapWebTypeComputeIamBinding) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleIapWebTypeComputeIamBinding) validateOverrideLogicalIdP
 }
 
 func (g *jsiiProxy_GoogleIapWebTypeComputeIamBinding) validatePutConditionParameters(value *GoogleIapWebTypeComputeIamBindingCondition) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleIapWebTypeComputeIamBinding) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

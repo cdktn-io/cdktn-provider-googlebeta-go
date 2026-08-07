@@ -5,9 +5,9 @@ package googlecomputeregionbackendservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputeregionbackendservice/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeregionbackendservice/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -41,6 +41,10 @@ type GoogleComputeRegionBackendServiceLogConfigOutputReference interface {
 	OptionalMode() *string
 	SetOptionalMode(val *string)
 	OptionalModeInput() *string
+	RequestHeaders() GoogleComputeRegionBackendServiceLogConfigRequestHeadersList
+	RequestHeadersInput() interface{}
+	ResponseHeaders() GoogleComputeRegionBackendServiceLogConfigResponseHeadersList
+	ResponseHeadersInput() interface{}
 	SampleRate() *float64
 	SetSampleRate(val *float64)
 	SampleRateInput() *float64
@@ -76,9 +80,13 @@ type GoogleComputeRegionBackendServiceLogConfigOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutRequestHeaders(value interface{})
+	PutResponseHeaders(value interface{})
 	ResetEnable()
 	ResetOptionalFields()
 	ResetOptionalMode()
+	ResetRequestHeaders()
+	ResetResponseHeaders()
 	ResetSampleRate()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -200,6 +208,46 @@ func (j *jsiiProxy_GoogleComputeRegionBackendServiceLogConfigOutputReference) Op
 	_jsii_.Get(
 		j,
 		"optionalModeInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeRegionBackendServiceLogConfigOutputReference) RequestHeaders() GoogleComputeRegionBackendServiceLogConfigRequestHeadersList {
+	var returns GoogleComputeRegionBackendServiceLogConfigRequestHeadersList
+	_jsii_.Get(
+		j,
+		"requestHeaders",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeRegionBackendServiceLogConfigOutputReference) RequestHeadersInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"requestHeadersInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeRegionBackendServiceLogConfigOutputReference) ResponseHeaders() GoogleComputeRegionBackendServiceLogConfigResponseHeadersList {
+	var returns GoogleComputeRegionBackendServiceLogConfigResponseHeadersList
+	_jsii_.Get(
+		j,
+		"responseHeaders",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeRegionBackendServiceLogConfigOutputReference) ResponseHeadersInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"responseHeadersInput",
 		&returns,
 	)
 	return returns
@@ -558,6 +606,28 @@ func (g *jsiiProxy_GoogleComputeRegionBackendServiceLogConfigOutputReference) In
 	return returns
 }
 
+func (g *jsiiProxy_GoogleComputeRegionBackendServiceLogConfigOutputReference) PutRequestHeaders(value interface{}) {
+	if err := g.validatePutRequestHeadersParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putRequestHeaders",
+		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleComputeRegionBackendServiceLogConfigOutputReference) PutResponseHeaders(value interface{}) {
+	if err := g.validatePutResponseHeadersParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putResponseHeaders",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleComputeRegionBackendServiceLogConfigOutputReference) ResetEnable() {
 	_jsii_.InvokeVoid(
 		g,
@@ -578,6 +648,22 @@ func (g *jsiiProxy_GoogleComputeRegionBackendServiceLogConfigOutputReference) Re
 	_jsii_.InvokeVoid(
 		g,
 		"resetOptionalMode",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleComputeRegionBackendServiceLogConfigOutputReference) ResetRequestHeaders() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetRequestHeaders",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleComputeRegionBackendServiceLogConfigOutputReference) ResetResponseHeaders() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetResponseHeaders",
 		nil, // no parameters
 	)
 }

@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleDiscoveryEngineDataStore) validateInterpolationForAttri
 	return nil
 }
 
+func (g *jsiiProxy_GoogleDiscoveryEngineDataStore) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleDiscoveryEngineDataStore) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -87,6 +91,10 @@ func (g *jsiiProxy_GoogleDiscoveryEngineDataStore) validatePutTimeoutsParameters
 	return nil
 }
 
+func (g *jsiiProxy_GoogleDiscoveryEngineDataStore) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateGoogleDiscoveryEngineDataStore_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }
@@ -100,6 +108,10 @@ func validateGoogleDiscoveryEngineDataStore_IsTerraformElementParameters(x inter
 }
 
 func validateGoogleDiscoveryEngineDataStore_IsTerraformResourceParameters(x interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleDiscoveryEngineDataStore) validateSetAclEnabledParameters(val interface{}) error {
 	return nil
 }
 

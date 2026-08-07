@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleGkeonpremBareMetalNodePool) validateInterpolationForAtt
 	return nil
 }
 
+func (g *jsiiProxy_GoogleGkeonpremBareMetalNodePool) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleGkeonpremBareMetalNodePool) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (g *jsiiProxy_GoogleGkeonpremBareMetalNodePool) validatePutNodePoolConfigPa
 }
 
 func (g *jsiiProxy_GoogleGkeonpremBareMetalNodePool) validatePutTimeoutsParameters(value *GoogleGkeonpremBareMetalNodePoolTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleGkeonpremBareMetalNodePool) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

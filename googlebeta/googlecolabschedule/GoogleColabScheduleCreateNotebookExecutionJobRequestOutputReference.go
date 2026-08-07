@@ -5,9 +5,9 @@ package googlecolabschedule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecolabschedule/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecolabschedule/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -33,7 +33,11 @@ type GoogleColabScheduleCreateNotebookExecutionJobRequestOutputReference interfa
 	InternalValue() *GoogleColabScheduleCreateNotebookExecutionJobRequest
 	SetInternalValue(val *GoogleColabScheduleCreateNotebookExecutionJobRequest)
 	NotebookExecutionJob() GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobOutputReference
+	NotebookExecutionJobId() *string
 	NotebookExecutionJobInput() *GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJob
+	Parent() *string
+	SetParent(val *string)
+	ParentInput() *string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -67,6 +71,7 @@ type GoogleColabScheduleCreateNotebookExecutionJobRequestOutputReference interfa
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutNotebookExecutionJob(value *GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJob)
+	ResetParent()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -142,11 +147,41 @@ func (j *jsiiProxy_GoogleColabScheduleCreateNotebookExecutionJobRequestOutputRef
 	return returns
 }
 
+func (j *jsiiProxy_GoogleColabScheduleCreateNotebookExecutionJobRequestOutputReference) NotebookExecutionJobId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"notebookExecutionJobId",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleColabScheduleCreateNotebookExecutionJobRequestOutputReference) NotebookExecutionJobInput() *GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJob {
 	var returns *GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJob
 	_jsii_.Get(
 		j,
 		"notebookExecutionJobInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleColabScheduleCreateNotebookExecutionJobRequestOutputReference) Parent() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"parent",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleColabScheduleCreateNotebookExecutionJobRequestOutputReference) ParentInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"parentInput",
 		&returns,
 	)
 	return returns
@@ -229,6 +264,17 @@ func (j *jsiiProxy_GoogleColabScheduleCreateNotebookExecutionJobRequestOutputRef
 	_jsii_.Set(
 		j,
 		"internalValue",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleColabScheduleCreateNotebookExecutionJobRequestOutputReference)SetParent(val *string) {
+	if err := j.validateSetParentParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"parent",
 		val,
 	)
 }
@@ -449,6 +495,14 @@ func (g *jsiiProxy_GoogleColabScheduleCreateNotebookExecutionJobRequestOutputRef
 		g,
 		"putNotebookExecutionJob",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleColabScheduleCreateNotebookExecutionJobRequestOutputReference) ResetParent() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetParent",
+		nil, // no parameters
 	)
 }
 

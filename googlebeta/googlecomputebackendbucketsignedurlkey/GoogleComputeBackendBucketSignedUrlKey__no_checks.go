@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleComputeBackendBucketSignedUrlKey) validateInterpolation
 	return nil
 }
 
+func (g *jsiiProxy_GoogleComputeBackendBucketSignedUrlKey) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleComputeBackendBucketSignedUrlKey) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleComputeBackendBucketSignedUrlKey) validateOverrideLogic
 }
 
 func (g *jsiiProxy_GoogleComputeBackendBucketSignedUrlKey) validatePutTimeoutsParameters(value *GoogleComputeBackendBucketSignedUrlKeyTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleComputeBackendBucketSignedUrlKey) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

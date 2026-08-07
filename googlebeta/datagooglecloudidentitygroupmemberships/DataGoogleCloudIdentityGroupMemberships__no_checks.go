@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataGoogleCloudIdentityGroupMemberships) validateOverrideLogi
 	return nil
 }
 
+func (d *jsiiProxy_DataGoogleCloudIdentityGroupMemberships) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataGoogleCloudIdentityGroupMemberships_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

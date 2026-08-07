@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleAgentRegistryService) validateInterpolationForAttribute
 	return nil
 }
 
+func (g *jsiiProxy_GoogleAgentRegistryService) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleAgentRegistryService) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -92,6 +96,10 @@ func (g *jsiiProxy_GoogleAgentRegistryService) validatePutMcpServerSpecParameter
 }
 
 func (g *jsiiProxy_GoogleAgentRegistryService) validatePutTimeoutsParameters(value *GoogleAgentRegistryServiceTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleAgentRegistryService) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

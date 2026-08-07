@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleNetworkServicesMulticastProducerAssociation) validateIn
 	return nil
 }
 
+func (g *jsiiProxy_GoogleNetworkServicesMulticastProducerAssociation) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleNetworkServicesMulticastProducerAssociation) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleNetworkServicesMulticastProducerAssociation) validateOv
 }
 
 func (g *jsiiProxy_GoogleNetworkServicesMulticastProducerAssociation) validatePutTimeoutsParameters(value *GoogleNetworkServicesMulticastProducerAssociationTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleNetworkServicesMulticastProducerAssociation) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

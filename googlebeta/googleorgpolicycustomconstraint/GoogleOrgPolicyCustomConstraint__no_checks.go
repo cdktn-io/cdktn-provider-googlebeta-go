@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleOrgPolicyCustomConstraint) validateInterpolationForAttr
 	return nil
 }
 
+func (g *jsiiProxy_GoogleOrgPolicyCustomConstraint) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleOrgPolicyCustomConstraint) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleOrgPolicyCustomConstraint) validateOverrideLogicalIdPar
 }
 
 func (g *jsiiProxy_GoogleOrgPolicyCustomConstraint) validatePutTimeoutsParameters(value *GoogleOrgPolicyCustomConstraintTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleOrgPolicyCustomConstraint) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

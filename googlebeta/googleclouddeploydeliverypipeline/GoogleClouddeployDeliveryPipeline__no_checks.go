@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleClouddeployDeliveryPipeline) validateInterpolationForAt
 	return nil
 }
 
+func (g *jsiiProxy_GoogleClouddeployDeliveryPipeline) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleClouddeployDeliveryPipeline) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (g *jsiiProxy_GoogleClouddeployDeliveryPipeline) validatePutSerialPipelineP
 }
 
 func (g *jsiiProxy_GoogleClouddeployDeliveryPipeline) validatePutTimeoutsParameters(value *GoogleClouddeployDeliveryPipelineTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleClouddeployDeliveryPipeline) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

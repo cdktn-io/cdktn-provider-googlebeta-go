@@ -5,9 +5,9 @@ package googlecloudrunv2service
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecloudrunv2service/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudrunv2service/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -61,6 +61,9 @@ type GoogleCloudRunV2ServiceTemplateContainersOutputReference interface {
 	ReadinessProbeInput() *GoogleCloudRunV2ServiceTemplateContainersReadinessProbe
 	Resources() GoogleCloudRunV2ServiceTemplateContainersResourcesOutputReference
 	ResourcesInput() *GoogleCloudRunV2ServiceTemplateContainersResources
+	SandboxLauncher() interface{}
+	SetSandboxLauncher(val interface{})
+	SandboxLauncherInput() interface{}
 	SourceCode() GoogleCloudRunV2ServiceTemplateContainersSourceCodeOutputReference
 	SourceCodeInput() *GoogleCloudRunV2ServiceTemplateContainersSourceCode
 	StartupProbe() GoogleCloudRunV2ServiceTemplateContainersStartupProbeOutputReference
@@ -120,6 +123,7 @@ type GoogleCloudRunV2ServiceTemplateContainersOutputReference interface {
 	ResetPorts()
 	ResetReadinessProbe()
 	ResetResources()
+	ResetSandboxLauncher()
 	ResetSourceCode()
 	ResetStartupProbe()
 	ResetVolumeMounts()
@@ -419,6 +423,26 @@ func (j *jsiiProxy_GoogleCloudRunV2ServiceTemplateContainersOutputReference) Res
 	return returns
 }
 
+func (j *jsiiProxy_GoogleCloudRunV2ServiceTemplateContainersOutputReference) SandboxLauncher() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"sandboxLauncher",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCloudRunV2ServiceTemplateContainersOutputReference) SandboxLauncherInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"sandboxLauncherInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleCloudRunV2ServiceTemplateContainersOutputReference) SourceCode() GoogleCloudRunV2ServiceTemplateContainersSourceCodeOutputReference {
 	var returns GoogleCloudRunV2ServiceTemplateContainersSourceCodeOutputReference
 	_jsii_.Get(
@@ -642,6 +666,17 @@ func (j *jsiiProxy_GoogleCloudRunV2ServiceTemplateContainersOutputReference)SetN
 	_jsii_.Set(
 		j,
 		"name",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleCloudRunV2ServiceTemplateContainersOutputReference)SetSandboxLauncher(val interface{}) {
+	if err := j.validateSetSandboxLauncherParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"sandboxLauncher",
 		val,
 	)
 }
@@ -1029,6 +1064,14 @@ func (g *jsiiProxy_GoogleCloudRunV2ServiceTemplateContainersOutputReference) Res
 	_jsii_.InvokeVoid(
 		g,
 		"resetResources",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleCloudRunV2ServiceTemplateContainersOutputReference) ResetSandboxLauncher() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetSandboxLauncher",
 		nil, // no parameters
 	)
 }

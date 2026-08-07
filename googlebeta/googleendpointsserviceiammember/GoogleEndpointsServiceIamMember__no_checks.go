@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleEndpointsServiceIamMember) validateInterpolationForAttr
 	return nil
 }
 
+func (g *jsiiProxy_GoogleEndpointsServiceIamMember) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleEndpointsServiceIamMember) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleEndpointsServiceIamMember) validateOverrideLogicalIdPar
 }
 
 func (g *jsiiProxy_GoogleEndpointsServiceIamMember) validatePutConditionParameters(value *GoogleEndpointsServiceIamMemberCondition) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleEndpointsServiceIamMember) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataGoogleBiglakeHiveCatalogIamPolicy) validateOverrideLogica
 	return nil
 }
 
+func (d *jsiiProxy_DataGoogleBiglakeHiveCatalogIamPolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataGoogleBiglakeHiveCatalogIamPolicy_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

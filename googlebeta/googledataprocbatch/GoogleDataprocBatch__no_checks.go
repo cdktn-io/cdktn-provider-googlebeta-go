@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleDataprocBatch) validateInterpolationForAttributeParamet
 	return nil
 }
 
+func (g *jsiiProxy_GoogleDataprocBatch) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleDataprocBatch) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -100,6 +104,10 @@ func (g *jsiiProxy_GoogleDataprocBatch) validatePutSparkSqlBatchParameters(value
 }
 
 func (g *jsiiProxy_GoogleDataprocBatch) validatePutTimeoutsParameters(value *GoogleDataprocBatchTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleDataprocBatch) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

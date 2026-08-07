@@ -122,6 +122,14 @@ func (g *jsiiProxy_GoogleBigqueryDatapolicyv2DataPolicy) validateInterpolationFo
 	return nil
 }
 
+func (g *jsiiProxy_GoogleBigqueryDatapolicyv2DataPolicy) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (g *jsiiProxy_GoogleBigqueryDatapolicyv2DataPolicy) validateMoveFromIdParameters(id *string) error {
 	if id == nil {
 		return fmt.Errorf("parameter id is required, but nil was provided")
@@ -207,6 +215,17 @@ func (g *jsiiProxy_GoogleBigqueryDatapolicyv2DataPolicy) validateOverrideLogical
 	return nil
 }
 
+func (g *jsiiProxy_GoogleBigqueryDatapolicyv2DataPolicy) validatePutDataGovernanceTagParameters(value *GoogleBigqueryDatapolicyv2DataPolicyDataGovernanceTag) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
+	}
+
+	return nil
+}
+
 func (g *jsiiProxy_GoogleBigqueryDatapolicyv2DataPolicy) validatePutDataMaskingPolicyParameters(value *GoogleBigqueryDatapolicyv2DataPolicyDataMaskingPolicy) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")
@@ -224,6 +243,14 @@ func (g *jsiiProxy_GoogleBigqueryDatapolicyv2DataPolicy) validatePutTimeoutsPara
 	}
 	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
 		return err
+	}
+
+	return nil
+}
+
+func (g *jsiiProxy_GoogleBigqueryDatapolicyv2DataPolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
 	}
 
 	return nil

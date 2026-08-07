@@ -5,9 +5,9 @@ package googlecomputebackendservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomputebackendservice/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputebackendservice/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -41,6 +41,10 @@ type GoogleComputeBackendServiceLogConfigOutputReference interface {
 	OptionalMode() *string
 	SetOptionalMode(val *string)
 	OptionalModeInput() *string
+	RequestHeaders() GoogleComputeBackendServiceLogConfigRequestHeadersList
+	RequestHeadersInput() interface{}
+	ResponseHeaders() GoogleComputeBackendServiceLogConfigResponseHeadersList
+	ResponseHeadersInput() interface{}
 	SampleRate() *float64
 	SetSampleRate(val *float64)
 	SampleRateInput() *float64
@@ -76,9 +80,13 @@ type GoogleComputeBackendServiceLogConfigOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutRequestHeaders(value interface{})
+	PutResponseHeaders(value interface{})
 	ResetEnable()
 	ResetOptionalFields()
 	ResetOptionalMode()
+	ResetRequestHeaders()
+	ResetResponseHeaders()
 	ResetSampleRate()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -200,6 +208,46 @@ func (j *jsiiProxy_GoogleComputeBackendServiceLogConfigOutputReference) Optional
 	_jsii_.Get(
 		j,
 		"optionalModeInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeBackendServiceLogConfigOutputReference) RequestHeaders() GoogleComputeBackendServiceLogConfigRequestHeadersList {
+	var returns GoogleComputeBackendServiceLogConfigRequestHeadersList
+	_jsii_.Get(
+		j,
+		"requestHeaders",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeBackendServiceLogConfigOutputReference) RequestHeadersInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"requestHeadersInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeBackendServiceLogConfigOutputReference) ResponseHeaders() GoogleComputeBackendServiceLogConfigResponseHeadersList {
+	var returns GoogleComputeBackendServiceLogConfigResponseHeadersList
+	_jsii_.Get(
+		j,
+		"responseHeaders",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeBackendServiceLogConfigOutputReference) ResponseHeadersInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"responseHeadersInput",
 		&returns,
 	)
 	return returns
@@ -558,6 +606,28 @@ func (g *jsiiProxy_GoogleComputeBackendServiceLogConfigOutputReference) Interpol
 	return returns
 }
 
+func (g *jsiiProxy_GoogleComputeBackendServiceLogConfigOutputReference) PutRequestHeaders(value interface{}) {
+	if err := g.validatePutRequestHeadersParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putRequestHeaders",
+		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleComputeBackendServiceLogConfigOutputReference) PutResponseHeaders(value interface{}) {
+	if err := g.validatePutResponseHeadersParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putResponseHeaders",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleComputeBackendServiceLogConfigOutputReference) ResetEnable() {
 	_jsii_.InvokeVoid(
 		g,
@@ -578,6 +648,22 @@ func (g *jsiiProxy_GoogleComputeBackendServiceLogConfigOutputReference) ResetOpt
 	_jsii_.InvokeVoid(
 		g,
 		"resetOptionalMode",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleComputeBackendServiceLogConfigOutputReference) ResetRequestHeaders() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetRequestHeaders",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleComputeBackendServiceLogConfigOutputReference) ResetResponseHeaders() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetResponseHeaders",
 		nil, // no parameters
 	)
 }

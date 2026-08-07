@@ -67,6 +67,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "publicIpAddress", GoGetter: "PublicIpAddress"},
 			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
 			_jsii_.MemberProperty{JsiiProperty: "region", GoGetter: "Region"},
+			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
 			_jsii_.MemberProperty{JsiiProperty: "replicaConfiguration", GoGetter: "ReplicaConfiguration"},
 			_jsii_.MemberProperty{JsiiProperty: "replicaNames", GoGetter: "ReplicaNames"},
 			_jsii_.MemberProperty{JsiiProperty: "replicationCluster", GoGetter: "ReplicationCluster"},

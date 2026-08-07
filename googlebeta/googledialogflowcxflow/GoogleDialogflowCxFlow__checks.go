@@ -122,6 +122,14 @@ func (g *jsiiProxy_GoogleDialogflowCxFlow) validateInterpolationForAttributePara
 	return nil
 }
 
+func (g *jsiiProxy_GoogleDialogflowCxFlow) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (g *jsiiProxy_GoogleDialogflowCxFlow) validateMoveFromIdParameters(id *string) error {
 	if id == nil {
 		return fmt.Errorf("parameter id is required, but nil was provided")
@@ -308,6 +316,14 @@ func (g *jsiiProxy_GoogleDialogflowCxFlow) validatePutTransitionRoutesParameters
 		if !_jsii_.IsAnonymousProxy(value) {
 			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*GoogleDialogflowCxFlowTransitionRoutes; received %#v (a %T)", value, value)
 		}
+	}
+
+	return nil
+}
+
+func (g *jsiiProxy_GoogleDialogflowCxFlow) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
 	}
 
 	return nil

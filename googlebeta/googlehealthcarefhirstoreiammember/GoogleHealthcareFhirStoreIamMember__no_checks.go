@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleHealthcareFhirStoreIamMember) validateInterpolationForA
 	return nil
 }
 
+func (g *jsiiProxy_GoogleHealthcareFhirStoreIamMember) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleHealthcareFhirStoreIamMember) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleHealthcareFhirStoreIamMember) validateOverrideLogicalId
 }
 
 func (g *jsiiProxy_GoogleHealthcareFhirStoreIamMember) validatePutConditionParameters(value *GoogleHealthcareFhirStoreIamMemberCondition) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleHealthcareFhirStoreIamMember) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

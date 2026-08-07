@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleStorageBucketIamBinding) validateInterpolationForAttrib
 	return nil
 }
 
+func (g *jsiiProxy_GoogleStorageBucketIamBinding) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleStorageBucketIamBinding) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (g *jsiiProxy_GoogleStorageBucketIamBinding) validatePutConditionParameters
 }
 
 func (g *jsiiProxy_GoogleStorageBucketIamBinding) validatePutTimeoutsParameters(value *GoogleStorageBucketIamBindingTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleStorageBucketIamBinding) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

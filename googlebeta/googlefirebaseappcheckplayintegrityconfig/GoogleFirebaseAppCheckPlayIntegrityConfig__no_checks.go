@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleFirebaseAppCheckPlayIntegrityConfig) validateInterpolat
 	return nil
 }
 
+func (g *jsiiProxy_GoogleFirebaseAppCheckPlayIntegrityConfig) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleFirebaseAppCheckPlayIntegrityConfig) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleFirebaseAppCheckPlayIntegrityConfig) validateOverrideLo
 }
 
 func (g *jsiiProxy_GoogleFirebaseAppCheckPlayIntegrityConfig) validatePutTimeoutsParameters(value *GoogleFirebaseAppCheckPlayIntegrityConfigTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleFirebaseAppCheckPlayIntegrityConfig) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

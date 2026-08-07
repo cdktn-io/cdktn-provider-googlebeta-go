@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleManagedKafkaCluster) validateInterpolationForAttributeP
 	return nil
 }
 
+func (g *jsiiProxy_GoogleManagedKafkaCluster) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleManagedKafkaCluster) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -96,6 +100,10 @@ func (g *jsiiProxy_GoogleManagedKafkaCluster) validatePutTimeoutsParameters(valu
 }
 
 func (g *jsiiProxy_GoogleManagedKafkaCluster) validatePutTlsConfigParameters(value *GoogleManagedKafkaClusterTlsConfig) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleManagedKafkaCluster) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

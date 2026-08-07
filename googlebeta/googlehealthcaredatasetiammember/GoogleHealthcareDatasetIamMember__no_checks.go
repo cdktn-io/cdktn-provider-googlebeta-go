@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleHealthcareDatasetIamMember) validateInterpolationForAtt
 	return nil
 }
 
+func (g *jsiiProxy_GoogleHealthcareDatasetIamMember) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleHealthcareDatasetIamMember) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleHealthcareDatasetIamMember) validateOverrideLogicalIdPa
 }
 
 func (g *jsiiProxy_GoogleHealthcareDatasetIamMember) validatePutConditionParameters(value *GoogleHealthcareDatasetIamMemberCondition) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleHealthcareDatasetIamMember) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

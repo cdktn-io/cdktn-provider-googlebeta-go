@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleSourcerepoRepositoryIamBinding) validateInterpolationFo
 	return nil
 }
 
+func (g *jsiiProxy_GoogleSourcerepoRepositoryIamBinding) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleSourcerepoRepositoryIamBinding) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleSourcerepoRepositoryIamBinding) validateOverrideLogical
 }
 
 func (g *jsiiProxy_GoogleSourcerepoRepositoryIamBinding) validatePutConditionParameters(value *GoogleSourcerepoRepositoryIamBindingCondition) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleSourcerepoRepositoryIamBinding) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

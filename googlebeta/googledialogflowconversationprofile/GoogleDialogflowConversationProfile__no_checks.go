@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleDialogflowConversationProfile) validateInterpolationFor
 	return nil
 }
 
+func (g *jsiiProxy_GoogleDialogflowConversationProfile) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleDialogflowConversationProfile) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -116,6 +120,10 @@ func (g *jsiiProxy_GoogleDialogflowConversationProfile) validatePutTimeoutsParam
 }
 
 func (g *jsiiProxy_GoogleDialogflowConversationProfile) validatePutTtsConfigParameters(value *GoogleDialogflowConversationProfileTtsConfig) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleDialogflowConversationProfile) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

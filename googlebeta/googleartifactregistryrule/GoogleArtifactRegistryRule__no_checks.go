@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleArtifactRegistryRule) validateInterpolationForAttribute
 	return nil
 }
 
+func (g *jsiiProxy_GoogleArtifactRegistryRule) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleArtifactRegistryRule) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (g *jsiiProxy_GoogleArtifactRegistryRule) validatePutConditionParameters(va
 }
 
 func (g *jsiiProxy_GoogleArtifactRegistryRule) validatePutTimeoutsParameters(value *GoogleArtifactRegistryRuleTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleArtifactRegistryRule) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

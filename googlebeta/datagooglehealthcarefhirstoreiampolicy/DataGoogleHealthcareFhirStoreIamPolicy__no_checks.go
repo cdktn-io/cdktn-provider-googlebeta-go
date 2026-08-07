@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataGoogleHealthcareFhirStoreIamPolicy) validateOverrideLogic
 	return nil
 }
 
+func (d *jsiiProxy_DataGoogleHealthcareFhirStoreIamPolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataGoogleHealthcareFhirStoreIamPolicy_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

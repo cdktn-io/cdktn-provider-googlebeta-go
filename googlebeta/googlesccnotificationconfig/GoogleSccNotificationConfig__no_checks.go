@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleSccNotificationConfig) validateInterpolationForAttribut
 	return nil
 }
 
+func (g *jsiiProxy_GoogleSccNotificationConfig) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleSccNotificationConfig) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (g *jsiiProxy_GoogleSccNotificationConfig) validatePutStreamingConfigParame
 }
 
 func (g *jsiiProxy_GoogleSccNotificationConfig) validatePutTimeoutsParameters(value *GoogleSccNotificationConfigTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleSccNotificationConfig) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

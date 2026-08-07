@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleCesApp) validateInterpolationForAttributeParameters(ter
 	return nil
 }
 
+func (g *jsiiProxy_GoogleCesApp) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleCesApp) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -116,6 +120,10 @@ func (g *jsiiProxy_GoogleCesApp) validatePutTimeZoneSettingsParameters(value *Go
 }
 
 func (g *jsiiProxy_GoogleCesApp) validatePutVariableDeclarationsParameters(value interface{}) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleCesApp) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

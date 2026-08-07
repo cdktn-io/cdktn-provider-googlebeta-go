@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleSecretManagerRegionalSecretIamMember) validateInterpola
 	return nil
 }
 
+func (g *jsiiProxy_GoogleSecretManagerRegionalSecretIamMember) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleSecretManagerRegionalSecretIamMember) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleSecretManagerRegionalSecretIamMember) validateOverrideL
 }
 
 func (g *jsiiProxy_GoogleSecretManagerRegionalSecretIamMember) validatePutConditionParameters(value *GoogleSecretManagerRegionalSecretIamMemberCondition) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleSecretManagerRegionalSecretIamMember) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

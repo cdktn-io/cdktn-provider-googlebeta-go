@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleBinaryAuthorizationPolicy) validateInterpolationForAttr
 	return nil
 }
 
+func (g *jsiiProxy_GoogleBinaryAuthorizationPolicy) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleBinaryAuthorizationPolicy) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -88,6 +92,10 @@ func (g *jsiiProxy_GoogleBinaryAuthorizationPolicy) validatePutDefaultAdmissionR
 }
 
 func (g *jsiiProxy_GoogleBinaryAuthorizationPolicy) validatePutTimeoutsParameters(value *GoogleBinaryAuthorizationPolicyTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleBinaryAuthorizationPolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

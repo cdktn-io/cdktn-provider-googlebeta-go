@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataGoogleParameterManagerParameterVersionRender) validateOve
 	return nil
 }
 
+func (d *jsiiProxy_DataGoogleParameterManagerParameterVersionRender) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataGoogleParameterManagerParameterVersionRender_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataGoogleGeminiRepositoryGroupIamPolicy) validateOverrideLog
 	return nil
 }
 
+func (d *jsiiProxy_DataGoogleGeminiRepositoryGroupIamPolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataGoogleGeminiRepositoryGroupIamPolicy_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleKmsProjectKajPolicyConfig) validateInterpolationForAttr
 	return nil
 }
 
+func (g *jsiiProxy_GoogleKmsProjectKajPolicyConfig) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleKmsProjectKajPolicyConfig) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (g *jsiiProxy_GoogleKmsProjectKajPolicyConfig) validatePutDefaultKeyAccessJ
 }
 
 func (g *jsiiProxy_GoogleKmsProjectKajPolicyConfig) validatePutTimeoutsParameters(value *GoogleKmsProjectKajPolicyConfigTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleKmsProjectKajPolicyConfig) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

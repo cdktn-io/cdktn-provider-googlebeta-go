@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataGoogleIapAppEngineVersionIamPolicy) validateOverrideLogic
 	return nil
 }
 
+func (d *jsiiProxy_DataGoogleIapAppEngineVersionIamPolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataGoogleIapAppEngineVersionIamPolicy_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

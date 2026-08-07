@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleDiscoveryEngineDataConnector) validateInterpolationForA
 	return nil
 }
 
+func (g *jsiiProxy_GoogleDiscoveryEngineDataConnector) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleDiscoveryEngineDataConnector) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -92,6 +96,10 @@ func (g *jsiiProxy_GoogleDiscoveryEngineDataConnector) validatePutEntitiesParame
 }
 
 func (g *jsiiProxy_GoogleDiscoveryEngineDataConnector) validatePutTimeoutsParameters(value *GoogleDiscoveryEngineDataConnectorTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleDiscoveryEngineDataConnector) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

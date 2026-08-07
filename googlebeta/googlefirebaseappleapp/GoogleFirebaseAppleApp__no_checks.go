@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleFirebaseAppleApp) validateInterpolationForAttributePara
 	return nil
 }
 
+func (g *jsiiProxy_GoogleFirebaseAppleApp) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleFirebaseAppleApp) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleFirebaseAppleApp) validateOverrideLogicalIdParameters(n
 }
 
 func (g *jsiiProxy_GoogleFirebaseAppleApp) validatePutTimeoutsParameters(value *GoogleFirebaseAppleAppTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleFirebaseAppleApp) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

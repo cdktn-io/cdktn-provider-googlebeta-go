@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataGoogleComputeVpnGateway) validateOverrideLogicalIdParamet
 	return nil
 }
 
+func (d *jsiiProxy_DataGoogleComputeVpnGateway) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataGoogleComputeVpnGateway_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

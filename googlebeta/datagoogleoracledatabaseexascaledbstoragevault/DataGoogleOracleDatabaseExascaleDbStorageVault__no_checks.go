@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataGoogleOracleDatabaseExascaleDbStorageVault) validateOverr
 	return nil
 }
 
+func (d *jsiiProxy_DataGoogleOracleDatabaseExascaleDbStorageVault) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataGoogleOracleDatabaseExascaleDbStorageVault_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

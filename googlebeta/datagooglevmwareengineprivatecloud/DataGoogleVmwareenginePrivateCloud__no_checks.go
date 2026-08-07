@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataGoogleVmwareenginePrivateCloud) validateOverrideLogicalId
 	return nil
 }
 
+func (d *jsiiProxy_DataGoogleVmwareenginePrivateCloud) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataGoogleVmwareenginePrivateCloud_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

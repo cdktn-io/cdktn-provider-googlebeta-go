@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataGoogleAlloydbCluster) validateOverrideLogicalIdParameters
 	return nil
 }
 
+func (d *jsiiProxy_DataGoogleAlloydbCluster) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataGoogleAlloydbCluster_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

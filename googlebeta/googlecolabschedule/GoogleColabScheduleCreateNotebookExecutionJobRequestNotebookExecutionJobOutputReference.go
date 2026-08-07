@@ -5,9 +5,9 @@ package googlecolabschedule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecolabschedule/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecolabschedule/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -23,16 +23,21 @@ type GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobOut
 	ComplexObjectIsFromSet() *bool
 	// Experimental.
 	SetComplexObjectIsFromSet(val *bool)
+	CreateTime() *string
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
+	CustomEnvironmentSpec() GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobCustomEnvironmentSpecOutputReference
+	CustomEnvironmentSpecInput() *GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobCustomEnvironmentSpec
 	DataformRepositorySource() GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobDataformRepositorySourceOutputReference
 	DataformRepositorySourceInput() *GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobDataformRepositorySource
 	DisplayName() *string
 	SetDisplayName(val *string)
 	DisplayNameInput() *string
+	EncryptionSpec() GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobEncryptionSpecOutputReference
+	EncryptionSpecInput() *GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobEncryptionSpec
 	ExecutionTimeout() *string
 	SetExecutionTimeout(val *string)
 	ExecutionTimeoutInput() *string
@@ -48,9 +53,18 @@ type GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobOut
 	GcsOutputUriInput() *string
 	InternalValue() *GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJob
 	SetInternalValue(val *GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJob)
+	JobState() *string
+	KernelName() *string
+	SetKernelName(val *string)
+	KernelNameInput() *string
+	Labels() *map[string]*string
+	SetLabels(val *map[string]*string)
+	LabelsInput() *map[string]*string
+	Name() *string
 	NotebookRuntimeTemplateResourceName() *string
 	SetNotebookRuntimeTemplateResourceName(val *string)
 	NotebookRuntimeTemplateResourceNameInput() *string
+	ScheduleResourceName() *string
 	ServiceAccount() *string
 	SetServiceAccount(val *string)
 	ServiceAccountInput() *string
@@ -62,6 +76,9 @@ type GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobOut
 	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
 	SetTerraformResource(val cdktn.IInterpolatingParent)
+	UpdateTime() *string
+	WorkbenchRuntime() GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobWorkbenchRuntimeOutputReference
+	WorkbenchRuntimeInput() *GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobWorkbenchRuntime
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
@@ -86,13 +103,22 @@ type GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobOut
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutCustomEnvironmentSpec(value *GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobCustomEnvironmentSpec)
 	PutDataformRepositorySource(value *GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobDataformRepositorySource)
+	PutEncryptionSpec(value *GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobEncryptionSpec)
 	PutGcsNotebookSource(value *GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobGcsNotebookSource)
+	PutWorkbenchRuntime(value *GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobWorkbenchRuntime)
+	ResetCustomEnvironmentSpec()
 	ResetDataformRepositorySource()
+	ResetEncryptionSpec()
 	ResetExecutionTimeout()
 	ResetExecutionUser()
 	ResetGcsNotebookSource()
+	ResetKernelName()
+	ResetLabels()
+	ResetNotebookRuntimeTemplateResourceName()
 	ResetServiceAccount()
+	ResetWorkbenchRuntime()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -128,11 +154,41 @@ func (j *jsiiProxy_GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookE
 	return returns
 }
 
+func (j *jsiiProxy_GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobOutputReference) CreateTime() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"createTime",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobOutputReference) CreationStack() *[]*string {
 	var returns *[]*string
 	_jsii_.Get(
 		j,
 		"creationStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobOutputReference) CustomEnvironmentSpec() GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobCustomEnvironmentSpecOutputReference {
+	var returns GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobCustomEnvironmentSpecOutputReference
+	_jsii_.Get(
+		j,
+		"customEnvironmentSpec",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobOutputReference) CustomEnvironmentSpecInput() *GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobCustomEnvironmentSpec {
+	var returns *GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobCustomEnvironmentSpec
+	_jsii_.Get(
+		j,
+		"customEnvironmentSpecInput",
 		&returns,
 	)
 	return returns
@@ -173,6 +229,26 @@ func (j *jsiiProxy_GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookE
 	_jsii_.Get(
 		j,
 		"displayNameInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobOutputReference) EncryptionSpec() GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobEncryptionSpecOutputReference {
+	var returns GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobEncryptionSpecOutputReference
+	_jsii_.Get(
+		j,
+		"encryptionSpec",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobOutputReference) EncryptionSpecInput() *GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobEncryptionSpec {
+	var returns *GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobEncryptionSpec
+	_jsii_.Get(
+		j,
+		"encryptionSpecInput",
 		&returns,
 	)
 	return returns
@@ -278,6 +354,66 @@ func (j *jsiiProxy_GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookE
 	return returns
 }
 
+func (j *jsiiProxy_GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobOutputReference) JobState() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"jobState",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobOutputReference) KernelName() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"kernelName",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobOutputReference) KernelNameInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"kernelNameInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobOutputReference) Labels() *map[string]*string {
+	var returns *map[string]*string
+	_jsii_.Get(
+		j,
+		"labels",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobOutputReference) LabelsInput() *map[string]*string {
+	var returns *map[string]*string
+	_jsii_.Get(
+		j,
+		"labelsInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobOutputReference) Name() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"name",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobOutputReference) NotebookRuntimeTemplateResourceName() *string {
 	var returns *string
 	_jsii_.Get(
@@ -293,6 +429,16 @@ func (j *jsiiProxy_GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookE
 	_jsii_.Get(
 		j,
 		"notebookRuntimeTemplateResourceNameInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobOutputReference) ScheduleResourceName() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"scheduleResourceName",
 		&returns,
 	)
 	return returns
@@ -333,6 +479,36 @@ func (j *jsiiProxy_GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookE
 	_jsii_.Get(
 		j,
 		"terraformResource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobOutputReference) UpdateTime() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"updateTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobOutputReference) WorkbenchRuntime() GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobWorkbenchRuntimeOutputReference {
+	var returns GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobWorkbenchRuntimeOutputReference
+	_jsii_.Get(
+		j,
+		"workbenchRuntime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobOutputReference) WorkbenchRuntimeInput() *GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobWorkbenchRuntime {
+	var returns *GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobWorkbenchRuntime
+	_jsii_.Get(
+		j,
+		"workbenchRuntimeInput",
 		&returns,
 	)
 	return returns
@@ -439,6 +615,28 @@ func (j *jsiiProxy_GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookE
 	_jsii_.Set(
 		j,
 		"internalValue",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobOutputReference)SetKernelName(val *string) {
+	if err := j.validateSetKernelNameParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"kernelName",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobOutputReference)SetLabels(val *map[string]*string) {
+	if err := j.validateSetLabelsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"labels",
 		val,
 	)
 }
@@ -673,6 +871,17 @@ func (g *jsiiProxy_GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookE
 	return returns
 }
 
+func (g *jsiiProxy_GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobOutputReference) PutCustomEnvironmentSpec(value *GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobCustomEnvironmentSpec) {
+	if err := g.validatePutCustomEnvironmentSpecParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putCustomEnvironmentSpec",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobOutputReference) PutDataformRepositorySource(value *GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobDataformRepositorySource) {
 	if err := g.validatePutDataformRepositorySourceParameters(value); err != nil {
 		panic(err)
@@ -680,6 +889,17 @@ func (g *jsiiProxy_GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookE
 	_jsii_.InvokeVoid(
 		g,
 		"putDataformRepositorySource",
+		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobOutputReference) PutEncryptionSpec(value *GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobEncryptionSpec) {
+	if err := g.validatePutEncryptionSpecParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putEncryptionSpec",
 		[]interface{}{value},
 	)
 }
@@ -695,10 +915,37 @@ func (g *jsiiProxy_GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookE
 	)
 }
 
+func (g *jsiiProxy_GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobOutputReference) PutWorkbenchRuntime(value *GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobWorkbenchRuntime) {
+	if err := g.validatePutWorkbenchRuntimeParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putWorkbenchRuntime",
+		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobOutputReference) ResetCustomEnvironmentSpec() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetCustomEnvironmentSpec",
+		nil, // no parameters
+	)
+}
+
 func (g *jsiiProxy_GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobOutputReference) ResetDataformRepositorySource() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetDataformRepositorySource",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobOutputReference) ResetEncryptionSpec() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetEncryptionSpec",
 		nil, // no parameters
 	)
 }
@@ -727,10 +974,42 @@ func (g *jsiiProxy_GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookE
 	)
 }
 
+func (g *jsiiProxy_GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobOutputReference) ResetKernelName() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetKernelName",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobOutputReference) ResetLabels() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetLabels",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobOutputReference) ResetNotebookRuntimeTemplateResourceName() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetNotebookRuntimeTemplateResourceName",
+		nil, // no parameters
+	)
+}
+
 func (g *jsiiProxy_GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobOutputReference) ResetServiceAccount() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetServiceAccount",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobOutputReference) ResetWorkbenchRuntime() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetWorkbenchRuntime",
 		nil, // no parameters
 	)
 }

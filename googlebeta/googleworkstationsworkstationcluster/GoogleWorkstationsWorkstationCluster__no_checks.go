@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleWorkstationsWorkstationCluster) validateInterpolationFo
 	return nil
 }
 
+func (g *jsiiProxy_GoogleWorkstationsWorkstationCluster) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleWorkstationsWorkstationCluster) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (g *jsiiProxy_GoogleWorkstationsWorkstationCluster) validatePutPrivateClust
 }
 
 func (g *jsiiProxy_GoogleWorkstationsWorkstationCluster) validatePutTimeoutsParameters(value *GoogleWorkstationsWorkstationClusterTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleWorkstationsWorkstationCluster) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

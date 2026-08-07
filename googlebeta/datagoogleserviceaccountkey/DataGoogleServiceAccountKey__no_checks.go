@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataGoogleServiceAccountKey) validateOverrideLogicalIdParamet
 	return nil
 }
 
+func (d *jsiiProxy_DataGoogleServiceAccountKey) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataGoogleServiceAccountKey_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

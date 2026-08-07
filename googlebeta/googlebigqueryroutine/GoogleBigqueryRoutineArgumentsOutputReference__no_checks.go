@@ -47,6 +47,10 @@ func (g *jsiiProxy_GoogleBigqueryRoutineArgumentsOutputReference) validateInterp
 	return nil
 }
 
+func (g *jsiiProxy_GoogleBigqueryRoutineArgumentsOutputReference) validatePutTableTypeParameters(value *GoogleBigqueryRoutineArgumentsTableType) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleBigqueryRoutineArgumentsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }

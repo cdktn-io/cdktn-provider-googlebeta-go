@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleDataprocMetastoreDatabaseIamMember) validateInterpolati
 	return nil
 }
 
+func (g *jsiiProxy_GoogleDataprocMetastoreDatabaseIamMember) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleDataprocMetastoreDatabaseIamMember) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleDataprocMetastoreDatabaseIamMember) validateOverrideLog
 }
 
 func (g *jsiiProxy_GoogleDataprocMetastoreDatabaseIamMember) validatePutConditionParameters(value *GoogleDataprocMetastoreDatabaseIamMemberCondition) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleDataprocMetastoreDatabaseIamMember) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

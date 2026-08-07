@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataGoogleRuntimeconfigConfigIamPolicy) validateOverrideLogic
 	return nil
 }
 
+func (d *jsiiProxy_DataGoogleRuntimeconfigConfigIamPolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataGoogleRuntimeconfigConfigIamPolicy_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

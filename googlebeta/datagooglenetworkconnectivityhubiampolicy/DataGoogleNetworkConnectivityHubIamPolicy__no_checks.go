@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataGoogleNetworkConnectivityHubIamPolicy) validateOverrideLo
 	return nil
 }
 
+func (d *jsiiProxy_DataGoogleNetworkConnectivityHubIamPolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataGoogleNetworkConnectivityHubIamPolicy_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

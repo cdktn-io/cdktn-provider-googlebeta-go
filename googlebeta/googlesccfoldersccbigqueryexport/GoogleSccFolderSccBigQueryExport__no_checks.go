@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleSccFolderSccBigQueryExport) validateInterpolationForAtt
 	return nil
 }
 
+func (g *jsiiProxy_GoogleSccFolderSccBigQueryExport) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleSccFolderSccBigQueryExport) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleSccFolderSccBigQueryExport) validateOverrideLogicalIdPa
 }
 
 func (g *jsiiProxy_GoogleSccFolderSccBigQueryExport) validatePutTimeoutsParameters(value *GoogleSccFolderSccBigQueryExportTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleSccFolderSccBigQueryExport) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

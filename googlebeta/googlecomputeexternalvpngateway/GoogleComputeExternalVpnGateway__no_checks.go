@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleComputeExternalVpnGateway) validateInterpolationForAttr
 	return nil
 }
 
+func (g *jsiiProxy_GoogleComputeExternalVpnGateway) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleComputeExternalVpnGateway) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (g *jsiiProxy_GoogleComputeExternalVpnGateway) validatePutParamsParameters(
 }
 
 func (g *jsiiProxy_GoogleComputeExternalVpnGateway) validatePutTimeoutsParameters(value *GoogleComputeExternalVpnGatewayTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleComputeExternalVpnGateway) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleVertexAiEndpointWithModelGardenDeployment) validateInte
 	return nil
 }
 
+func (g *jsiiProxy_GoogleVertexAiEndpointWithModelGardenDeployment) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleVertexAiEndpointWithModelGardenDeployment) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -88,6 +92,10 @@ func (g *jsiiProxy_GoogleVertexAiEndpointWithModelGardenDeployment) validatePutM
 }
 
 func (g *jsiiProxy_GoogleVertexAiEndpointWithModelGardenDeployment) validatePutTimeoutsParameters(value *GoogleVertexAiEndpointWithModelGardenDeploymentTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleVertexAiEndpointWithModelGardenDeployment) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

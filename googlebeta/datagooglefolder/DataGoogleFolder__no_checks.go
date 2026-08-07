@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataGoogleFolder) validateOverrideLogicalIdParameters(newLogi
 	return nil
 }
 
+func (d *jsiiProxy_DataGoogleFolder) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataGoogleFolder_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

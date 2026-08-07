@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleComputeRegionBackendBucketIamMember) validateInterpolat
 	return nil
 }
 
+func (g *jsiiProxy_GoogleComputeRegionBackendBucketIamMember) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleComputeRegionBackendBucketIamMember) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleComputeRegionBackendBucketIamMember) validateOverrideLo
 }
 
 func (g *jsiiProxy_GoogleComputeRegionBackendBucketIamMember) validatePutConditionParameters(value *GoogleComputeRegionBackendBucketIamMemberCondition) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleComputeRegionBackendBucketIamMember) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

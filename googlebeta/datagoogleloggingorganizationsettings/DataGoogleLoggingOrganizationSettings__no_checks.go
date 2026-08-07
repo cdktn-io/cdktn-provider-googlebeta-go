@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataGoogleLoggingOrganizationSettings) validateOverrideLogica
 	return nil
 }
 
+func (d *jsiiProxy_DataGoogleLoggingOrganizationSettings) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataGoogleLoggingOrganizationSettings_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

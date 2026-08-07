@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleOsConfigV2PolicyOrchestrator) validateInterpolationForA
 	return nil
 }
 
+func (g *jsiiProxy_GoogleOsConfigV2PolicyOrchestrator) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleOsConfigV2PolicyOrchestrator) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (g *jsiiProxy_GoogleOsConfigV2PolicyOrchestrator) validatePutOrchestrationS
 }
 
 func (g *jsiiProxy_GoogleOsConfigV2PolicyOrchestrator) validatePutTimeoutsParameters(value *GoogleOsConfigV2PolicyOrchestratorTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleOsConfigV2PolicyOrchestrator) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

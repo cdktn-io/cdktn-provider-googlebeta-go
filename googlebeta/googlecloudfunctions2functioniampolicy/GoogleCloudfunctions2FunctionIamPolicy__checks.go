@@ -122,6 +122,14 @@ func (g *jsiiProxy_GoogleCloudfunctions2FunctionIamPolicy) validateInterpolation
 	return nil
 }
 
+func (g *jsiiProxy_GoogleCloudfunctions2FunctionIamPolicy) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (g *jsiiProxy_GoogleCloudfunctions2FunctionIamPolicy) validateMoveFromIdParameters(id *string) error {
 	if id == nil {
 		return fmt.Errorf("parameter id is required, but nil was provided")
@@ -202,6 +210,14 @@ func (g *jsiiProxy_GoogleCloudfunctions2FunctionIamPolicy) validateMoveToIdParam
 func (g *jsiiProxy_GoogleCloudfunctions2FunctionIamPolicy) validateOverrideLogicalIdParameters(newLogicalId *string) error {
 	if newLogicalId == nil {
 		return fmt.Errorf("parameter newLogicalId is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (g *jsiiProxy_GoogleCloudfunctions2FunctionIamPolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
 	}
 
 	return nil

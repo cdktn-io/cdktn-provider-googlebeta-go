@@ -49,6 +49,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "lifecycle", GoGetter: "Lifecycle"},
 			_jsii_.MemberProperty{JsiiProperty: "location", GoGetter: "Location"},
 			_jsii_.MemberProperty{JsiiProperty: "locationInput", GoGetter: "LocationInput"},
+			_jsii_.MemberMethod{JsiiMethod: "markWriteOnlyAttribute", GoMethod: "MarkWriteOnlyAttribute"},
 			_jsii_.MemberMethod{JsiiMethod: "moveFromId", GoMethod: "MoveFromId"},
 			_jsii_.MemberMethod{JsiiMethod: "moveTo", GoMethod: "MoveTo"},
 			_jsii_.MemberMethod{JsiiMethod: "moveToId", GoMethod: "MoveToId"},
@@ -63,6 +64,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "putTemplateMetadata", GoMethod: "PutTemplateMetadata"},
 			_jsii_.MemberMethod{JsiiMethod: "putTimeouts", GoMethod: "PutTimeouts"},
 			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
+			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
 			_jsii_.MemberMethod{JsiiMethod: "resetDeletionPolicy", GoMethod: "ResetDeletionPolicy"},
 			_jsii_.MemberMethod{JsiiMethod: "resetId", GoMethod: "ResetId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetLabels", GoMethod: "ResetLabels"},
@@ -464,6 +466,48 @@ func init() {
 		reflect.TypeOf((*GoogleModelArmorTemplateTemplateMetadata)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
+		"@cdktn/provider-google-beta.googleModelArmorTemplate.GoogleModelArmorTemplateTemplateMetadataFilterVersionSelector",
+		reflect.TypeOf((*GoogleModelArmorTemplateTemplateMetadataFilterVersionSelector)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-google-beta.googleModelArmorTemplate.GoogleModelArmorTemplateTemplateMetadataFilterVersionSelectorOutputReference",
+		reflect.TypeOf((*GoogleModelArmorTemplateTemplateMetadataFilterVersionSelectorOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "alias", GoGetter: "Alias"},
+			_jsii_.MemberProperty{JsiiProperty: "aliasInput", GoGetter: "AliasInput"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "resetAlias", GoMethod: "ResetAlias"},
+			_jsii_.MemberMethod{JsiiMethod: "resetVersion", GoMethod: "ResetVersion"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "version", GoGetter: "Version"},
+			_jsii_.MemberProperty{JsiiProperty: "versionInput", GoGetter: "VersionInput"},
+		},
+		func() interface{} {
+			j := jsiiProxy_GoogleModelArmorTemplateTemplateMetadataFilterVersionSelectorOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
 		"@cdktn/provider-google-beta.googleModelArmorTemplate.GoogleModelArmorTemplateTemplateMetadataMultiLanguageDetection",
 		reflect.TypeOf((*GoogleModelArmorTemplateTemplateMetadataMultiLanguageDetection)(nil)).Elem(),
 	)
@@ -519,6 +563,8 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "customPromptSafetyErrorMessageInput", GoGetter: "CustomPromptSafetyErrorMessageInput"},
 			_jsii_.MemberProperty{JsiiProperty: "enforcementType", GoGetter: "EnforcementType"},
 			_jsii_.MemberProperty{JsiiProperty: "enforcementTypeInput", GoGetter: "EnforcementTypeInput"},
+			_jsii_.MemberProperty{JsiiProperty: "filterVersionSelector", GoGetter: "FilterVersionSelector"},
+			_jsii_.MemberProperty{JsiiProperty: "filterVersionSelectorInput", GoGetter: "FilterVersionSelectorInput"},
 			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
 			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
 			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
@@ -540,12 +586,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "logTemplateOperationsInput", GoGetter: "LogTemplateOperationsInput"},
 			_jsii_.MemberProperty{JsiiProperty: "multiLanguageDetection", GoGetter: "MultiLanguageDetection"},
 			_jsii_.MemberProperty{JsiiProperty: "multiLanguageDetectionInput", GoGetter: "MultiLanguageDetectionInput"},
+			_jsii_.MemberMethod{JsiiMethod: "putFilterVersionSelector", GoMethod: "PutFilterVersionSelector"},
 			_jsii_.MemberMethod{JsiiMethod: "putMultiLanguageDetection", GoMethod: "PutMultiLanguageDetection"},
 			_jsii_.MemberMethod{JsiiMethod: "resetCustomLlmResponseSafetyErrorCode", GoMethod: "ResetCustomLlmResponseSafetyErrorCode"},
 			_jsii_.MemberMethod{JsiiMethod: "resetCustomLlmResponseSafetyErrorMessage", GoMethod: "ResetCustomLlmResponseSafetyErrorMessage"},
 			_jsii_.MemberMethod{JsiiMethod: "resetCustomPromptSafetyErrorCode", GoMethod: "ResetCustomPromptSafetyErrorCode"},
 			_jsii_.MemberMethod{JsiiMethod: "resetCustomPromptSafetyErrorMessage", GoMethod: "ResetCustomPromptSafetyErrorMessage"},
 			_jsii_.MemberMethod{JsiiMethod: "resetEnforcementType", GoMethod: "ResetEnforcementType"},
+			_jsii_.MemberMethod{JsiiMethod: "resetFilterVersionSelector", GoMethod: "ResetFilterVersionSelector"},
 			_jsii_.MemberMethod{JsiiMethod: "resetIgnorePartialInvocationFailures", GoMethod: "ResetIgnorePartialInvocationFailures"},
 			_jsii_.MemberMethod{JsiiMethod: "resetLogSanitizeOperations", GoMethod: "ResetLogSanitizeOperations"},
 			_jsii_.MemberMethod{JsiiMethod: "resetLogTemplateOperations", GoMethod: "ResetLogTemplateOperations"},

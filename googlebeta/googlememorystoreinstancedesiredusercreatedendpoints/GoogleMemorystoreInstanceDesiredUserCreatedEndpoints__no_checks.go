@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleMemorystoreInstanceDesiredUserCreatedEndpoints) validat
 	return nil
 }
 
+func (g *jsiiProxy_GoogleMemorystoreInstanceDesiredUserCreatedEndpoints) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleMemorystoreInstanceDesiredUserCreatedEndpoints) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (g *jsiiProxy_GoogleMemorystoreInstanceDesiredUserCreatedEndpoints) validat
 }
 
 func (g *jsiiProxy_GoogleMemorystoreInstanceDesiredUserCreatedEndpoints) validatePutTimeoutsParameters(value *GoogleMemorystoreInstanceDesiredUserCreatedEndpointsTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleMemorystoreInstanceDesiredUserCreatedEndpoints) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

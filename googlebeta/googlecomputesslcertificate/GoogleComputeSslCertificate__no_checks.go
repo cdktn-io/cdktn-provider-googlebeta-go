@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleComputeSslCertificate) validateInterpolationForAttribut
 	return nil
 }
 
+func (g *jsiiProxy_GoogleComputeSslCertificate) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleComputeSslCertificate) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleComputeSslCertificate) validateOverrideLogicalIdParamet
 }
 
 func (g *jsiiProxy_GoogleComputeSslCertificate) validatePutTimeoutsParameters(value *GoogleComputeSslCertificateTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleComputeSslCertificate) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

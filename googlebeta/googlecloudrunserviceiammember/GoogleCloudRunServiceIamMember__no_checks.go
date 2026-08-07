@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleCloudRunServiceIamMember) validateInterpolationForAttri
 	return nil
 }
 
+func (g *jsiiProxy_GoogleCloudRunServiceIamMember) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleCloudRunServiceIamMember) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleCloudRunServiceIamMember) validateOverrideLogicalIdPara
 }
 
 func (g *jsiiProxy_GoogleCloudRunServiceIamMember) validatePutConditionParameters(value *GoogleCloudRunServiceIamMemberCondition) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleCloudRunServiceIamMember) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

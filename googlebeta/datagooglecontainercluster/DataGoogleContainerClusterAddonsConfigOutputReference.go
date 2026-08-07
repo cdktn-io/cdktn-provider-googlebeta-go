@@ -5,9 +5,9 @@ package datagooglecontainercluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglecontainercluster/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagooglecontainercluster/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -46,6 +46,7 @@ type DataGoogleContainerClusterAddonsConfigOutputReference interface {
 	KalmConfig() DataGoogleContainerClusterAddonsConfigKalmConfigList
 	LustreCsiDriverConfig() DataGoogleContainerClusterAddonsConfigLustreCsiDriverConfigList
 	NetworkPolicyConfig() DataGoogleContainerClusterAddonsConfigNetworkPolicyConfigList
+	NodeReadinessConfig() DataGoogleContainerClusterAddonsConfigNodeReadinessConfigList
 	ParallelstoreCsiDriverConfig() DataGoogleContainerClusterAddonsConfigParallelstoreCsiDriverConfigList
 	PodSnapshotConfig() DataGoogleContainerClusterAddonsConfigPodSnapshotConfigList
 	RayOperatorConfig() DataGoogleContainerClusterAddonsConfigRayOperatorConfigList
@@ -284,6 +285,16 @@ func (j *jsiiProxy_DataGoogleContainerClusterAddonsConfigOutputReference) Networ
 	_jsii_.Get(
 		j,
 		"networkPolicyConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleContainerClusterAddonsConfigOutputReference) NodeReadinessConfig() DataGoogleContainerClusterAddonsConfigNodeReadinessConfigList {
+	var returns DataGoogleContainerClusterAddonsConfigNodeReadinessConfigList
+	_jsii_.Get(
+		j,
+		"nodeReadinessConfig",
 		&returns,
 	)
 	return returns

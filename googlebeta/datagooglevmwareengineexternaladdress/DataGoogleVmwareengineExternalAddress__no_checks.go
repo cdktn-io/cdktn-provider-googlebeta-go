@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataGoogleVmwareengineExternalAddress) validateOverrideLogica
 	return nil
 }
 
+func (d *jsiiProxy_DataGoogleVmwareengineExternalAddress) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataGoogleVmwareengineExternalAddress_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

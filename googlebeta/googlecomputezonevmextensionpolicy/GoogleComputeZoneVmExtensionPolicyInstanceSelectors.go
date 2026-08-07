@@ -7,7 +7,7 @@ package googlecomputezonevmextensionpolicy
 type GoogleComputeZoneVmExtensionPolicyInstanceSelectors struct {
 	// label_selector block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_compute_zone_vm_extension_policy#label_selector GoogleComputeZoneVmExtensionPolicy#label_selector}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_compute_zone_vm_extension_policy#label_selector GoogleComputeZoneVmExtensionPolicy#label_selector}
 	LabelSelector *GoogleComputeZoneVmExtensionPolicyInstanceSelectorsLabelSelector `field:"optional" json:"labelSelector" yaml:"labelSelector"`
 }
 

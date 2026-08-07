@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleKmsKeyRingIamBinding) validateInterpolationForAttribute
 	return nil
 }
 
+func (g *jsiiProxy_GoogleKmsKeyRingIamBinding) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleKmsKeyRingIamBinding) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleKmsKeyRingIamBinding) validateOverrideLogicalIdParamete
 }
 
 func (g *jsiiProxy_GoogleKmsKeyRingIamBinding) validatePutConditionParameters(value *GoogleKmsKeyRingIamBindingCondition) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleKmsKeyRingIamBinding) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

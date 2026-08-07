@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleSccFolderNotificationConfig) validateInterpolationForAt
 	return nil
 }
 
+func (g *jsiiProxy_GoogleSccFolderNotificationConfig) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleSccFolderNotificationConfig) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (g *jsiiProxy_GoogleSccFolderNotificationConfig) validatePutStreamingConfig
 }
 
 func (g *jsiiProxy_GoogleSccFolderNotificationConfig) validatePutTimeoutsParameters(value *GoogleSccFolderNotificationConfigTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleSccFolderNotificationConfig) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleOsConfigPatchDeployment) validateInterpolationForAttrib
 	return nil
 }
 
+func (g *jsiiProxy_GoogleOsConfigPatchDeployment) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleOsConfigPatchDeployment) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -96,6 +100,10 @@ func (g *jsiiProxy_GoogleOsConfigPatchDeployment) validatePutRolloutParameters(v
 }
 
 func (g *jsiiProxy_GoogleOsConfigPatchDeployment) validatePutTimeoutsParameters(value *GoogleOsConfigPatchDeploymentTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleOsConfigPatchDeployment) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

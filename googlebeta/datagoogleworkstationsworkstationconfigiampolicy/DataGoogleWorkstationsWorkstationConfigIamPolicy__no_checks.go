@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataGoogleWorkstationsWorkstationConfigIamPolicy) validateOve
 	return nil
 }
 
+func (d *jsiiProxy_DataGoogleWorkstationsWorkstationConfigIamPolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataGoogleWorkstationsWorkstationConfigIamPolicy_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

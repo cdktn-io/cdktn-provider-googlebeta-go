@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleCloudbuildv2Repository) validateInterpolationForAttribu
 	return nil
 }
 
+func (g *jsiiProxy_GoogleCloudbuildv2Repository) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleCloudbuildv2Repository) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleCloudbuildv2Repository) validateOverrideLogicalIdParame
 }
 
 func (g *jsiiProxy_GoogleCloudbuildv2Repository) validatePutTimeoutsParameters(value *GoogleCloudbuildv2RepositoryTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleCloudbuildv2Repository) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -122,6 +122,14 @@ func (g *jsiiProxy_GoogleContainerCluster) validateInterpolationForAttributePara
 	return nil
 }
 
+func (g *jsiiProxy_GoogleContainerCluster) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (g *jsiiProxy_GoogleContainerCluster) validateMoveFromIdParameters(id *string) error {
 	if id == nil {
 		return fmt.Errorf("parameter id is required, but nil was provided")
@@ -700,6 +708,17 @@ func (g *jsiiProxy_GoogleContainerCluster) validatePutResourceUsageExportConfigP
 	return nil
 }
 
+func (g *jsiiProxy_GoogleContainerCluster) validatePutRollbackSafeUpgradeParameters(value *GoogleContainerClusterRollbackSafeUpgrade) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
+	}
+
+	return nil
+}
+
 func (g *jsiiProxy_GoogleContainerCluster) validatePutSecretManagerConfigParameters(value *GoogleContainerClusterSecretManagerConfig) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")
@@ -805,6 +824,14 @@ func (g *jsiiProxy_GoogleContainerCluster) validatePutWorkloadIdentityConfigPara
 	}
 	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
 		return err
+	}
+
+	return nil
+}
+
+func (g *jsiiProxy_GoogleContainerCluster) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
 	}
 
 	return nil
@@ -1029,6 +1056,14 @@ func (j *jsiiProxy_GoogleContainerCluster) validateSetDeletionProtectionParamete
 }
 
 func (j *jsiiProxy_GoogleContainerCluster) validateSetDescriptionParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_GoogleContainerCluster) validateSetDesiredEmulatedVersionParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}

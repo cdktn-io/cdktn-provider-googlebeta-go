@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleIapLocationWebIamMember) validateInterpolationForAttrib
 	return nil
 }
 
+func (g *jsiiProxy_GoogleIapLocationWebIamMember) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleIapLocationWebIamMember) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleIapLocationWebIamMember) validateOverrideLogicalIdParam
 }
 
 func (g *jsiiProxy_GoogleIapLocationWebIamMember) validatePutConditionParameters(value *GoogleIapLocationWebIamMemberCondition) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleIapLocationWebIamMember) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleWorkstationsWorkstationConfigIamMember) validateInterpo
 	return nil
 }
 
+func (g *jsiiProxy_GoogleWorkstationsWorkstationConfigIamMember) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleWorkstationsWorkstationConfigIamMember) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleWorkstationsWorkstationConfigIamMember) validateOverrid
 }
 
 func (g *jsiiProxy_GoogleWorkstationsWorkstationConfigIamMember) validatePutConditionParameters(value *GoogleWorkstationsWorkstationConfigIamMemberCondition) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleWorkstationsWorkstationConfigIamMember) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

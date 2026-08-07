@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleContainerRegistry) validateInterpolationForAttributePar
 	return nil
 }
 
+func (g *jsiiProxy_GoogleContainerRegistry) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleContainerRegistry) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (g *jsiiProxy_GoogleContainerRegistry) validateMoveToIdParameters(id *strin
 }
 
 func (g *jsiiProxy_GoogleContainerRegistry) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleContainerRegistry) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

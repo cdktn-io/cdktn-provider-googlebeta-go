@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleComputeForwardingRule) validateInterpolationForAttribut
 	return nil
 }
 
+func (g *jsiiProxy_GoogleComputeForwardingRule) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleComputeForwardingRule) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (g *jsiiProxy_GoogleComputeForwardingRule) validatePutServiceDirectoryRegis
 }
 
 func (g *jsiiProxy_GoogleComputeForwardingRule) validatePutTimeoutsParameters(value *GoogleComputeForwardingRuleTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleComputeForwardingRule) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

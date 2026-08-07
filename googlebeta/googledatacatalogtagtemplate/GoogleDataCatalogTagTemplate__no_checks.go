@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleDataCatalogTagTemplate) validateInterpolationForAttribu
 	return nil
 }
 
+func (g *jsiiProxy_GoogleDataCatalogTagTemplate) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleDataCatalogTagTemplate) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (g *jsiiProxy_GoogleDataCatalogTagTemplate) validatePutFieldsParameters(val
 }
 
 func (g *jsiiProxy_GoogleDataCatalogTagTemplate) validatePutTimeoutsParameters(value *GoogleDataCatalogTagTemplateTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleDataCatalogTagTemplate) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

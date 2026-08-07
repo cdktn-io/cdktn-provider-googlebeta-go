@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleStorageTransferAgentPool) validateInterpolationForAttri
 	return nil
 }
 
+func (g *jsiiProxy_GoogleStorageTransferAgentPool) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleStorageTransferAgentPool) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (g *jsiiProxy_GoogleStorageTransferAgentPool) validatePutBandwidthLimitPara
 }
 
 func (g *jsiiProxy_GoogleStorageTransferAgentPool) validatePutTimeoutsParameters(value *GoogleStorageTransferAgentPoolTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleStorageTransferAgentPool) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

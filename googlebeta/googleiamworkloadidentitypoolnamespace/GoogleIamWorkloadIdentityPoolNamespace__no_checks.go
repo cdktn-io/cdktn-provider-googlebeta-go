@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleIamWorkloadIdentityPoolNamespace) validateInterpolation
 	return nil
 }
 
+func (g *jsiiProxy_GoogleIamWorkloadIdentityPoolNamespace) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleIamWorkloadIdentityPoolNamespace) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleIamWorkloadIdentityPoolNamespace) validateOverrideLogic
 }
 
 func (g *jsiiProxy_GoogleIamWorkloadIdentityPoolNamespace) validatePutTimeoutsParameters(value *GoogleIamWorkloadIdentityPoolNamespaceTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleIamWorkloadIdentityPoolNamespace) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

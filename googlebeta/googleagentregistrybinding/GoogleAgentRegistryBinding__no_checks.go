@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleAgentRegistryBinding) validateInterpolationForAttribute
 	return nil
 }
 
+func (g *jsiiProxy_GoogleAgentRegistryBinding) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleAgentRegistryBinding) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -88,6 +92,10 @@ func (g *jsiiProxy_GoogleAgentRegistryBinding) validatePutTargetParameters(value
 }
 
 func (g *jsiiProxy_GoogleAgentRegistryBinding) validatePutTimeoutsParameters(value *GoogleAgentRegistryBindingTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleAgentRegistryBinding) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

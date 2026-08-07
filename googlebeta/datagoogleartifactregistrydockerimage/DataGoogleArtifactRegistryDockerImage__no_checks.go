@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataGoogleArtifactRegistryDockerImage) validateOverrideLogica
 	return nil
 }
 
+func (d *jsiiProxy_DataGoogleArtifactRegistryDockerImage) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataGoogleArtifactRegistryDockerImage_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

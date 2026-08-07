@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleBigqueryDatasetIamBinding) validateInterpolationForAttr
 	return nil
 }
 
+func (g *jsiiProxy_GoogleBigqueryDatasetIamBinding) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleBigqueryDatasetIamBinding) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleBigqueryDatasetIamBinding) validateOverrideLogicalIdPar
 }
 
 func (g *jsiiProxy_GoogleBigqueryDatasetIamBinding) validatePutConditionParameters(value *GoogleBigqueryDatasetIamBindingCondition) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleBigqueryDatasetIamBinding) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

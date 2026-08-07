@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleEdgenetworkSubnet) validateInterpolationForAttributePar
 	return nil
 }
 
+func (g *jsiiProxy_GoogleEdgenetworkSubnet) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleEdgenetworkSubnet) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleEdgenetworkSubnet) validateOverrideLogicalIdParameters(
 }
 
 func (g *jsiiProxy_GoogleEdgenetworkSubnet) validatePutTimeoutsParameters(value *GoogleEdgenetworkSubnetTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleEdgenetworkSubnet) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleNetworkServicesAuthzExtension) validateInterpolationFor
 	return nil
 }
 
+func (g *jsiiProxy_GoogleNetworkServicesAuthzExtension) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleNetworkServicesAuthzExtension) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleNetworkServicesAuthzExtension) validateOverrideLogicalI
 }
 
 func (g *jsiiProxy_GoogleNetworkServicesAuthzExtension) validatePutTimeoutsParameters(value *GoogleNetworkServicesAuthzExtensionTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleNetworkServicesAuthzExtension) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

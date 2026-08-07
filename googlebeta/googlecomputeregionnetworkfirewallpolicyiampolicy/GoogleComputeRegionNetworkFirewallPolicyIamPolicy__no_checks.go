@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleComputeRegionNetworkFirewallPolicyIamPolicy) validateIn
 	return nil
 }
 
+func (g *jsiiProxy_GoogleComputeRegionNetworkFirewallPolicyIamPolicy) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleComputeRegionNetworkFirewallPolicyIamPolicy) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (g *jsiiProxy_GoogleComputeRegionNetworkFirewallPolicyIamPolicy) validateMo
 }
 
 func (g *jsiiProxy_GoogleComputeRegionNetworkFirewallPolicyIamPolicy) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleComputeRegionNetworkFirewallPolicyIamPolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

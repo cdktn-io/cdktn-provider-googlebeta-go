@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleNetworkServicesMulticastDomainActivation) validateInter
 	return nil
 }
 
+func (g *jsiiProxy_GoogleNetworkServicesMulticastDomainActivation) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleNetworkServicesMulticastDomainActivation) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (g *jsiiProxy_GoogleNetworkServicesMulticastDomainActivation) validatePutTi
 }
 
 func (g *jsiiProxy_GoogleNetworkServicesMulticastDomainActivation) validatePutTrafficSpecParameters(value *GoogleNetworkServicesMulticastDomainActivationTrafficSpec) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleNetworkServicesMulticastDomainActivation) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

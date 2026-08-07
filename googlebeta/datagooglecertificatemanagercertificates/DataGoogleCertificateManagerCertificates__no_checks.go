@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataGoogleCertificateManagerCertificates) validateOverrideLog
 	return nil
 }
 
+func (d *jsiiProxy_DataGoogleCertificateManagerCertificates) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataGoogleCertificateManagerCertificates_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

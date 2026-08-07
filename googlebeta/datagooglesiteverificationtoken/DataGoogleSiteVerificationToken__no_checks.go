@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataGoogleSiteVerificationToken) validatePutTimeoutsParameter
 	return nil
 }
 
+func (d *jsiiProxy_DataGoogleSiteVerificationToken) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataGoogleSiteVerificationToken_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

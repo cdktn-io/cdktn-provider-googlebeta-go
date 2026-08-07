@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleLookerInstance) validateInterpolationForAttributeParame
 	return nil
 }
 
+func (g *jsiiProxy_GoogleLookerInstance) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleLookerInstance) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -116,6 +120,10 @@ func (g *jsiiProxy_GoogleLookerInstance) validatePutTimeoutsParameters(value *Go
 }
 
 func (g *jsiiProxy_GoogleLookerInstance) validatePutUserMetadataParameters(value *GoogleLookerInstanceUserMetadata) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleLookerInstance) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

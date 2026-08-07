@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataGoogleStorageInsightsDatasetConfig) validateOverrideLogic
 	return nil
 }
 
+func (d *jsiiProxy_DataGoogleStorageInsightsDatasetConfig) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataGoogleStorageInsightsDatasetConfig_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

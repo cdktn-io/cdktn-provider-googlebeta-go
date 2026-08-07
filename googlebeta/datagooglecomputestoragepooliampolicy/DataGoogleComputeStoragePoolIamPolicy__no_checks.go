@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataGoogleComputeStoragePoolIamPolicy) validateOverrideLogica
 	return nil
 }
 
+func (d *jsiiProxy_DataGoogleComputeStoragePoolIamPolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataGoogleComputeStoragePoolIamPolicy_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleKmsCryptoKeyIamMember) validateInterpolationForAttribut
 	return nil
 }
 
+func (g *jsiiProxy_GoogleKmsCryptoKeyIamMember) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleKmsCryptoKeyIamMember) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleKmsCryptoKeyIamMember) validateOverrideLogicalIdParamet
 }
 
 func (g *jsiiProxy_GoogleKmsCryptoKeyIamMember) validatePutConditionParameters(value *GoogleKmsCryptoKeyIamMemberCondition) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleKmsCryptoKeyIamMember) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

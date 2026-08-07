@@ -59,6 +59,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "lifecycle", GoGetter: "Lifecycle"},
 			_jsii_.MemberProperty{JsiiProperty: "location", GoGetter: "Location"},
 			_jsii_.MemberProperty{JsiiProperty: "locationInput", GoGetter: "LocationInput"},
+			_jsii_.MemberMethod{JsiiMethod: "markWriteOnlyAttribute", GoMethod: "MarkWriteOnlyAttribute"},
 			_jsii_.MemberProperty{JsiiProperty: "mavenConfig", GoGetter: "MavenConfig"},
 			_jsii_.MemberProperty{JsiiProperty: "mavenConfigInput", GoGetter: "MavenConfigInput"},
 			_jsii_.MemberProperty{JsiiProperty: "mode", GoGetter: "Mode"},
@@ -81,6 +82,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "putVirtualRepositoryConfig", GoMethod: "PutVirtualRepositoryConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "putVulnerabilityScanningConfig", GoMethod: "PutVulnerabilityScanningConfig"},
 			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
+			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
 			_jsii_.MemberProperty{JsiiProperty: "registryUri", GoGetter: "RegistryUri"},
 			_jsii_.MemberProperty{JsiiProperty: "remoteRepositoryConfig", GoGetter: "RemoteRepositoryConfig"},
 			_jsii_.MemberProperty{JsiiProperty: "remoteRepositoryConfigInput", GoGetter: "RemoteRepositoryConfigInput"},
@@ -667,6 +669,42 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
+		"@cdktn/provider-google-beta.googleArtifactRegistryRepository.GoogleArtifactRegistryRepositoryRemoteRepositoryConfigNoCache",
+		reflect.TypeOf((*GoogleArtifactRegistryRepositoryRemoteRepositoryConfigNoCache)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-google-beta.googleArtifactRegistryRepository.GoogleArtifactRegistryRepositoryRemoteRepositoryConfigNoCacheOutputReference",
+		reflect.TypeOf((*GoogleArtifactRegistryRepositoryRemoteRepositoryConfigNoCacheOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_GoogleArtifactRegistryRepositoryRemoteRepositoryConfigNoCacheOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
 		"@cdktn/provider-google-beta.googleArtifactRegistryRepository.GoogleArtifactRegistryRepositoryRemoteRepositoryConfigNpmRepository",
 		reflect.TypeOf((*GoogleArtifactRegistryRepositoryRemoteRepositoryConfigNpmRepository)(nil)).Elem(),
 	)
@@ -781,12 +819,15 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
 			_jsii_.MemberProperty{JsiiProperty: "mavenRepository", GoGetter: "MavenRepository"},
 			_jsii_.MemberProperty{JsiiProperty: "mavenRepositoryInput", GoGetter: "MavenRepositoryInput"},
+			_jsii_.MemberProperty{JsiiProperty: "noCache", GoGetter: "NoCache"},
+			_jsii_.MemberProperty{JsiiProperty: "noCacheInput", GoGetter: "NoCacheInput"},
 			_jsii_.MemberProperty{JsiiProperty: "npmRepository", GoGetter: "NpmRepository"},
 			_jsii_.MemberProperty{JsiiProperty: "npmRepositoryInput", GoGetter: "NpmRepositoryInput"},
 			_jsii_.MemberMethod{JsiiMethod: "putAptRepository", GoMethod: "PutAptRepository"},
 			_jsii_.MemberMethod{JsiiMethod: "putCommonRepository", GoMethod: "PutCommonRepository"},
 			_jsii_.MemberMethod{JsiiMethod: "putDockerRepository", GoMethod: "PutDockerRepository"},
 			_jsii_.MemberMethod{JsiiMethod: "putMavenRepository", GoMethod: "PutMavenRepository"},
+			_jsii_.MemberMethod{JsiiMethod: "putNoCache", GoMethod: "PutNoCache"},
 			_jsii_.MemberMethod{JsiiMethod: "putNpmRepository", GoMethod: "PutNpmRepository"},
 			_jsii_.MemberMethod{JsiiMethod: "putPythonRepository", GoMethod: "PutPythonRepository"},
 			_jsii_.MemberMethod{JsiiMethod: "putUpstreamCredentials", GoMethod: "PutUpstreamCredentials"},
@@ -799,6 +840,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetDisableUpstreamValidation", GoMethod: "ResetDisableUpstreamValidation"},
 			_jsii_.MemberMethod{JsiiMethod: "resetDockerRepository", GoMethod: "ResetDockerRepository"},
 			_jsii_.MemberMethod{JsiiMethod: "resetMavenRepository", GoMethod: "ResetMavenRepository"},
+			_jsii_.MemberMethod{JsiiMethod: "resetNoCache", GoMethod: "ResetNoCache"},
 			_jsii_.MemberMethod{JsiiMethod: "resetNpmRepository", GoMethod: "ResetNpmRepository"},
 			_jsii_.MemberMethod{JsiiMethod: "resetPythonRepository", GoMethod: "ResetPythonRepository"},
 			_jsii_.MemberMethod{JsiiMethod: "resetUpstreamCredentials", GoMethod: "ResetUpstreamCredentials"},

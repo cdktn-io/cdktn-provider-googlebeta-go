@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleSccV2OrganizationSource) validateInterpolationForAttrib
 	return nil
 }
 
+func (g *jsiiProxy_GoogleSccV2OrganizationSource) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleSccV2OrganizationSource) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleSccV2OrganizationSource) validateOverrideLogicalIdParam
 }
 
 func (g *jsiiProxy_GoogleSccV2OrganizationSource) validatePutTimeoutsParameters(value *GoogleSccV2OrganizationSourceTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleSccV2OrganizationSource) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

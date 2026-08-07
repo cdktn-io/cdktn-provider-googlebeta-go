@@ -5,9 +5,9 @@ package googlebigqueryroutine
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebigqueryroutine/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebigqueryroutine/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -44,6 +44,8 @@ type GoogleBigqueryRoutineArgumentsOutputReference interface {
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
+	TableType() GoogleBigqueryRoutineArgumentsTableTypeOutputReference
+	TableTypeInput() *GoogleBigqueryRoutineArgumentsTableType
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -76,10 +78,12 @@ type GoogleBigqueryRoutineArgumentsOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutTableType(value *GoogleBigqueryRoutineArgumentsTableType)
 	ResetArgumentKind()
 	ResetDataType()
 	ResetMode()
 	ResetName()
+	ResetTableType()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -220,6 +224,26 @@ func (j *jsiiProxy_GoogleBigqueryRoutineArgumentsOutputReference) NameInput() *s
 	_jsii_.Get(
 		j,
 		"nameInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleBigqueryRoutineArgumentsOutputReference) TableType() GoogleBigqueryRoutineArgumentsTableTypeOutputReference {
+	var returns GoogleBigqueryRoutineArgumentsTableTypeOutputReference
+	_jsii_.Get(
+		j,
+		"tableType",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleBigqueryRoutineArgumentsOutputReference) TableTypeInput() *GoogleBigqueryRoutineArgumentsTableType {
+	var returns *GoogleBigqueryRoutineArgumentsTableType
+	_jsii_.Get(
+		j,
+		"tableTypeInput",
 		&returns,
 	)
 	return returns
@@ -558,6 +582,17 @@ func (g *jsiiProxy_GoogleBigqueryRoutineArgumentsOutputReference) InterpolationF
 	return returns
 }
 
+func (g *jsiiProxy_GoogleBigqueryRoutineArgumentsOutputReference) PutTableType(value *GoogleBigqueryRoutineArgumentsTableType) {
+	if err := g.validatePutTableTypeParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putTableType",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleBigqueryRoutineArgumentsOutputReference) ResetArgumentKind() {
 	_jsii_.InvokeVoid(
 		g,
@@ -586,6 +621,14 @@ func (g *jsiiProxy_GoogleBigqueryRoutineArgumentsOutputReference) ResetName() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetName",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleBigqueryRoutineArgumentsOutputReference) ResetTableType() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetTableType",
 		nil, // no parameters
 	)
 }

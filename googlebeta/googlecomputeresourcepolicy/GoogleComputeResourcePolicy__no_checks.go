@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleComputeResourcePolicy) validateInterpolationForAttribut
 	return nil
 }
 
+func (g *jsiiProxy_GoogleComputeResourcePolicy) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleComputeResourcePolicy) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -96,6 +100,10 @@ func (g *jsiiProxy_GoogleComputeResourcePolicy) validatePutTimeoutsParameters(va
 }
 
 func (g *jsiiProxy_GoogleComputeResourcePolicy) validatePutWorkloadPolicyParameters(value *GoogleComputeResourcePolicyWorkloadPolicy) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleComputeResourcePolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

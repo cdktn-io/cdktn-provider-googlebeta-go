@@ -122,6 +122,14 @@ func (g *jsiiProxy_GoogleLoggingOrganizationBucketConfig) validateInterpolationF
 	return nil
 }
 
+func (g *jsiiProxy_GoogleLoggingOrganizationBucketConfig) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (g *jsiiProxy_GoogleLoggingOrganizationBucketConfig) validateMoveFromIdParameters(id *string) error {
 	if id == nil {
 		return fmt.Errorf("parameter id is required, but nil was provided")
@@ -244,6 +252,14 @@ func (g *jsiiProxy_GoogleLoggingOrganizationBucketConfig) validatePutIndexConfig
 		if !_jsii_.IsAnonymousProxy(value) {
 			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*GoogleLoggingOrganizationBucketConfigIndexConfigs; received %#v (a %T)", value, value)
 		}
+	}
+
+	return nil
+}
+
+func (g *jsiiProxy_GoogleLoggingOrganizationBucketConfig) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
 	}
 
 	return nil

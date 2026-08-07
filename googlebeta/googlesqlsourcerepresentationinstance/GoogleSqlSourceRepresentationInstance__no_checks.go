@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleSqlSourceRepresentationInstance) validateInterpolationF
 	return nil
 }
 
+func (g *jsiiProxy_GoogleSqlSourceRepresentationInstance) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleSqlSourceRepresentationInstance) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleSqlSourceRepresentationInstance) validateOverrideLogica
 }
 
 func (g *jsiiProxy_GoogleSqlSourceRepresentationInstance) validatePutTimeoutsParameters(value *GoogleSqlSourceRepresentationInstanceTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleSqlSourceRepresentationInstance) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

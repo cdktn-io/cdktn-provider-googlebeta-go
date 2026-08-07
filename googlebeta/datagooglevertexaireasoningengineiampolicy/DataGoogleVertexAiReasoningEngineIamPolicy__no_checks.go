@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataGoogleVertexAiReasoningEngineIamPolicy) validateOverrideL
 	return nil
 }
 
+func (d *jsiiProxy_DataGoogleVertexAiReasoningEngineIamPolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataGoogleVertexAiReasoningEngineIamPolicy_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

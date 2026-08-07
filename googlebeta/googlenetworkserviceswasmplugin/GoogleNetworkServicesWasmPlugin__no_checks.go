@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleNetworkServicesWasmPlugin) validateInterpolationForAttr
 	return nil
 }
 
+func (g *jsiiProxy_GoogleNetworkServicesWasmPlugin) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleNetworkServicesWasmPlugin) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (g *jsiiProxy_GoogleNetworkServicesWasmPlugin) validatePutTimeoutsParameter
 }
 
 func (g *jsiiProxy_GoogleNetworkServicesWasmPlugin) validatePutVersionsParameters(value interface{}) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleNetworkServicesWasmPlugin) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

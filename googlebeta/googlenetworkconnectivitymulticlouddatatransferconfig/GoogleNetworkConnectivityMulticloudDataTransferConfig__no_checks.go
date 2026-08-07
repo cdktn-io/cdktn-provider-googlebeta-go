@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleNetworkConnectivityMulticloudDataTransferConfig) valida
 	return nil
 }
 
+func (g *jsiiProxy_GoogleNetworkConnectivityMulticloudDataTransferConfig) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleNetworkConnectivityMulticloudDataTransferConfig) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (g *jsiiProxy_GoogleNetworkConnectivityMulticloudDataTransferConfig) valida
 }
 
 func (g *jsiiProxy_GoogleNetworkConnectivityMulticloudDataTransferConfig) validatePutTimeoutsParameters(value *GoogleNetworkConnectivityMulticloudDataTransferConfigTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleNetworkConnectivityMulticloudDataTransferConfig) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleNetappKmsconfig) validateInterpolationForAttributeParam
 	return nil
 }
 
+func (g *jsiiProxy_GoogleNetappKmsconfig) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleNetappKmsconfig) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleNetappKmsconfig) validateOverrideLogicalIdParameters(ne
 }
 
 func (g *jsiiProxy_GoogleNetappKmsconfig) validatePutTimeoutsParameters(value *GoogleNetappKmsconfigTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleNetappKmsconfig) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

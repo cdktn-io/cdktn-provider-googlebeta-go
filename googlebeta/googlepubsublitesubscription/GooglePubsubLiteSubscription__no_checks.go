@@ -59,6 +59,10 @@ func (g *jsiiProxy_GooglePubsubLiteSubscription) validateInterpolationForAttribu
 	return nil
 }
 
+func (g *jsiiProxy_GooglePubsubLiteSubscription) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GooglePubsubLiteSubscription) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (g *jsiiProxy_GooglePubsubLiteSubscription) validatePutDeliveryConfigParame
 }
 
 func (g *jsiiProxy_GooglePubsubLiteSubscription) validatePutTimeoutsParameters(value *GooglePubsubLiteSubscriptionTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GooglePubsubLiteSubscription) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

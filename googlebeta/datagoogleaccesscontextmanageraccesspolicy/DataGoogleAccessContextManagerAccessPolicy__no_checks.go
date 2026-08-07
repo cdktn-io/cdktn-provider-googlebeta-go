@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataGoogleAccessContextManagerAccessPolicy) validateOverrideL
 	return nil
 }
 
+func (d *jsiiProxy_DataGoogleAccessContextManagerAccessPolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataGoogleAccessContextManagerAccessPolicy_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleDocumentAiProcessor) validateInterpolationForAttributeP
 	return nil
 }
 
+func (g *jsiiProxy_GoogleDocumentAiProcessor) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleDocumentAiProcessor) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleDocumentAiProcessor) validateOverrideLogicalIdParameter
 }
 
 func (g *jsiiProxy_GoogleDocumentAiProcessor) validatePutTimeoutsParameters(value *GoogleDocumentAiProcessorTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleDocumentAiProcessor) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

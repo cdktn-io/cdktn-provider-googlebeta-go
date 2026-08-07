@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleDataLossPreventionDiscoveryConfig) validateInterpolatio
 	return nil
 }
 
+func (g *jsiiProxy_GoogleDataLossPreventionDiscoveryConfig) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleDataLossPreventionDiscoveryConfig) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -92,6 +96,10 @@ func (g *jsiiProxy_GoogleDataLossPreventionDiscoveryConfig) validatePutTargetsPa
 }
 
 func (g *jsiiProxy_GoogleDataLossPreventionDiscoveryConfig) validatePutTimeoutsParameters(value *GoogleDataLossPreventionDiscoveryConfigTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleDataLossPreventionDiscoveryConfig) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

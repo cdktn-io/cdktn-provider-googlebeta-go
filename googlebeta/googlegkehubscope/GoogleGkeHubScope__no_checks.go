@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleGkeHubScope) validateInterpolationForAttributeParameter
 	return nil
 }
 
+func (g *jsiiProxy_GoogleGkeHubScope) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleGkeHubScope) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleGkeHubScope) validateOverrideLogicalIdParameters(newLog
 }
 
 func (g *jsiiProxy_GoogleGkeHubScope) validatePutTimeoutsParameters(value *GoogleGkeHubScopeTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleGkeHubScope) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

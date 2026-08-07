@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataGoogleStorageControlProjectIntelligenceFindingsSummary) v
 	return nil
 }
 
+func (d *jsiiProxy_DataGoogleStorageControlProjectIntelligenceFindingsSummary) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataGoogleStorageControlProjectIntelligenceFindingsSummary_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

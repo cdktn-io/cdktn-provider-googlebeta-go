@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleMigrationCenterImportDataFile) validateInterpolationFor
 	return nil
 }
 
+func (g *jsiiProxy_GoogleMigrationCenterImportDataFile) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleMigrationCenterImportDataFile) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleMigrationCenterImportDataFile) validateOverrideLogicalI
 }
 
 func (g *jsiiProxy_GoogleMigrationCenterImportDataFile) validatePutTimeoutsParameters(value *GoogleMigrationCenterImportDataFileTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleMigrationCenterImportDataFile) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

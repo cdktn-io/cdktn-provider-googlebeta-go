@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleVertexAiModelGardenEnableModel) validateInterpolationFo
 	return nil
 }
 
+func (g *jsiiProxy_GoogleVertexAiModelGardenEnableModel) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleVertexAiModelGardenEnableModel) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleVertexAiModelGardenEnableModel) validateOverrideLogical
 }
 
 func (g *jsiiProxy_GoogleVertexAiModelGardenEnableModel) validatePutTimeoutsParameters(value *GoogleVertexAiModelGardenEnableModelTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleVertexAiModelGardenEnableModel) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

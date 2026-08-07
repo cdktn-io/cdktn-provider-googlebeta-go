@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleCesAppVersion) validateInterpolationForAttributeParamet
 	return nil
 }
 
+func (g *jsiiProxy_GoogleCesAppVersion) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleCesAppVersion) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleCesAppVersion) validateOverrideLogicalIdParameters(newL
 }
 
 func (g *jsiiProxy_GoogleCesAppVersion) validatePutTimeoutsParameters(value *GoogleCesAppVersionTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleCesAppVersion) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

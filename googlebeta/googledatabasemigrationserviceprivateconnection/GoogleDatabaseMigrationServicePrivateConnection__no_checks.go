@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleDatabaseMigrationServicePrivateConnection) validateInte
 	return nil
 }
 
+func (g *jsiiProxy_GoogleDatabaseMigrationServicePrivateConnection) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleDatabaseMigrationServicePrivateConnection) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (g *jsiiProxy_GoogleDatabaseMigrationServicePrivateConnection) validatePutT
 }
 
 func (g *jsiiProxy_GoogleDatabaseMigrationServicePrivateConnection) validatePutVpcPeeringConfigParameters(value *GoogleDatabaseMigrationServicePrivateConnectionVpcPeeringConfig) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleDatabaseMigrationServicePrivateConnection) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -5,11 +5,11 @@ package googlevertexaitensorboardexperiment
 
 
 type GoogleVertexAiTensorboardExperimentTimeouts struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_vertex_ai_tensorboard_experiment#create GoogleVertexAiTensorboardExperiment#create}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_vertex_ai_tensorboard_experiment#create GoogleVertexAiTensorboardExperiment#create}.
 	Create *string `field:"optional" json:"create" yaml:"create"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_vertex_ai_tensorboard_experiment#delete GoogleVertexAiTensorboardExperiment#delete}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_vertex_ai_tensorboard_experiment#delete GoogleVertexAiTensorboardExperiment#delete}.
 	Delete *string `field:"optional" json:"delete" yaml:"delete"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_vertex_ai_tensorboard_experiment#update GoogleVertexAiTensorboardExperiment#update}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_vertex_ai_tensorboard_experiment#update GoogleVertexAiTensorboardExperiment#update}.
 	Update *string `field:"optional" json:"update" yaml:"update"`
 }
 

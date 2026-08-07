@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleBeyondcorpSecurityGatewayApplicationIamBinding) validat
 	return nil
 }
 
+func (g *jsiiProxy_GoogleBeyondcorpSecurityGatewayApplicationIamBinding) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleBeyondcorpSecurityGatewayApplicationIamBinding) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleBeyondcorpSecurityGatewayApplicationIamBinding) validat
 }
 
 func (g *jsiiProxy_GoogleBeyondcorpSecurityGatewayApplicationIamBinding) validatePutConditionParameters(value *GoogleBeyondcorpSecurityGatewayApplicationIamBindingCondition) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleBeyondcorpSecurityGatewayApplicationIamBinding) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

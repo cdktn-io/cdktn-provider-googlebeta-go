@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataGoogleComputeFirewallPolicyIamPolicy) validateOverrideLog
 	return nil
 }
 
+func (d *jsiiProxy_DataGoogleComputeFirewallPolicyIamPolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataGoogleComputeFirewallPolicyIamPolicy_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

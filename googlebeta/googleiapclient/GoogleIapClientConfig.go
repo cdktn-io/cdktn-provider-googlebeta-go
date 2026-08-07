@@ -24,11 +24,11 @@ type GoogleIapClientConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// Identifier of the brand to which this client is attached to. The format is 'projects/{project_number}/brands/{brand_id}'.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_iap_client#brand GoogleIapClient#brand}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_iap_client#brand GoogleIapClient#brand}
 	Brand *string `field:"required" json:"brand" yaml:"brand"`
 	// Human-friendly name given to the OAuth client.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_iap_client#display_name GoogleIapClient#display_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_iap_client#display_name GoogleIapClient#display_name}
 	DisplayName *string `field:"required" json:"displayName" yaml:"displayName"`
 	// Whether Terraform will be prevented from destroying the instance.
 	//
@@ -40,16 +40,16 @@ type GoogleIapClientConfig struct {
 	// When set to "DELETE", deleting the resource is allowed.
 	//
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_iap_client#deletion_policy GoogleIapClient#deletion_policy}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_iap_client#deletion_policy GoogleIapClient#deletion_policy}
 	DeletionPolicy *string `field:"optional" json:"deletionPolicy" yaml:"deletionPolicy"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_iap_client#id GoogleIapClient#id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_iap_client#id GoogleIapClient#id}.
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
 	Id *string `field:"optional" json:"id" yaml:"id"`
 	// timeouts block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_iap_client#timeouts GoogleIapClient#timeouts}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_iap_client#timeouts GoogleIapClient#timeouts}
 	Timeouts *GoogleIapClientTimeouts `field:"optional" json:"timeouts" yaml:"timeouts"`
 }
 

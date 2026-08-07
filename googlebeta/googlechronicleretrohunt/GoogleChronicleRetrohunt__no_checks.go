@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleChronicleRetrohunt) validateInterpolationForAttributePa
 	return nil
 }
 
+func (g *jsiiProxy_GoogleChronicleRetrohunt) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleChronicleRetrohunt) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (g *jsiiProxy_GoogleChronicleRetrohunt) validatePutProcessIntervalParameter
 }
 
 func (g *jsiiProxy_GoogleChronicleRetrohunt) validatePutTimeoutsParameters(value *GoogleChronicleRetrohuntTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleChronicleRetrohunt) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

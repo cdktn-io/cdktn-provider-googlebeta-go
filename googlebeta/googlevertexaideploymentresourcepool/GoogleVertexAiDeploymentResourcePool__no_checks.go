@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleVertexAiDeploymentResourcePool) validateInterpolationFo
 	return nil
 }
 
+func (g *jsiiProxy_GoogleVertexAiDeploymentResourcePool) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleVertexAiDeploymentResourcePool) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (g *jsiiProxy_GoogleVertexAiDeploymentResourcePool) validatePutDedicatedRes
 }
 
 func (g *jsiiProxy_GoogleVertexAiDeploymentResourcePool) validatePutTimeoutsParameters(value *GoogleVertexAiDeploymentResourcePoolTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleVertexAiDeploymentResourcePool) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

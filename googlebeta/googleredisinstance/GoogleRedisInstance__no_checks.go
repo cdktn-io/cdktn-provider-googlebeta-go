@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleRedisInstance) validateInterpolationForAttributeParamet
 	return nil
 }
 
+func (g *jsiiProxy_GoogleRedisInstance) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleRedisInstance) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (g *jsiiProxy_GoogleRedisInstance) validatePutPersistenceConfigParameters(v
 }
 
 func (g *jsiiProxy_GoogleRedisInstance) validatePutTimeoutsParameters(value *GoogleRedisInstanceTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleRedisInstance) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

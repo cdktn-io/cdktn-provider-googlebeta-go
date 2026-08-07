@@ -59,6 +59,10 @@ func (g *jsiiProxy_GooglePubsubSubscriptionIamBinding) validateInterpolationForA
 	return nil
 }
 
+func (g *jsiiProxy_GooglePubsubSubscriptionIamBinding) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GooglePubsubSubscriptionIamBinding) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GooglePubsubSubscriptionIamBinding) validateOverrideLogicalId
 }
 
 func (g *jsiiProxy_GooglePubsubSubscriptionIamBinding) validatePutConditionParameters(value *GooglePubsubSubscriptionIamBindingCondition) error {
+	return nil
+}
+
+func (g *jsiiProxy_GooglePubsubSubscriptionIamBinding) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

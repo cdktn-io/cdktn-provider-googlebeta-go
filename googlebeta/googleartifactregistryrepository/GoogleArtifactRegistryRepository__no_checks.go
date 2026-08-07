@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleArtifactRegistryRepository) validateInterpolationForAtt
 	return nil
 }
 
+func (g *jsiiProxy_GoogleArtifactRegistryRepository) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleArtifactRegistryRepository) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -100,6 +104,10 @@ func (g *jsiiProxy_GoogleArtifactRegistryRepository) validatePutVirtualRepositor
 }
 
 func (g *jsiiProxy_GoogleArtifactRegistryRepository) validatePutVulnerabilityScanningConfigParameters(value *GoogleArtifactRegistryRepositoryVulnerabilityScanningConfig) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleArtifactRegistryRepository) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

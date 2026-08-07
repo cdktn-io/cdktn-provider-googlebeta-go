@@ -5,14 +5,14 @@ package datagooglecloudrunv2serviceiampolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglecloudrunv2serviceiampolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagooglecloudrunv2serviceiampolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/data-sources/google_cloud_run_v2_service_iam_policy google_cloud_run_v2_service_iam_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/data-sources/google_cloud_run_v2_service_iam_policy google_cloud_run_v2_service_iam_policy}.
 type DataGoogleCloudRunV2ServiceIamPolicy interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -92,6 +92,19 @@ type DataGoogleCloudRunV2ServiceIamPolicy interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
+	//
+	// Called by generated provider bindings when a versioned feature is
+	// structurally in use - the element's existence in the construct tree
+	// already implies the feature is used, e.g. constructing a
+	// `TerraformEphemeralResource` at all - so, unlike
+	// `_registerResolveDiscoveredProviderFeatureUsage`, this registration is
+	// never deactivated by `_resetResolveDiscoveredProviderFeatureUsage`. Not
+	// intended to be called directly by user code. Lives on `TerraformElement`
+	// (rather than `TerraformResource`) so it covers any element subclass
+	// that needs it.
+	// Experimental.
+	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
 	ResetId()
 	ResetLocation()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -367,7 +380,7 @@ func (j *jsiiProxy_DataGoogleCloudRunV2ServiceIamPolicy) TerraformResourceType()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/data-sources/google_cloud_run_v2_service_iam_policy google_cloud_run_v2_service_iam_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/data-sources/google_cloud_run_v2_service_iam_policy google_cloud_run_v2_service_iam_policy} Data Source.
 func NewDataGoogleCloudRunV2ServiceIamPolicy(scope constructs.Construct, id *string, config *DataGoogleCloudRunV2ServiceIamPolicyConfig) DataGoogleCloudRunV2ServiceIamPolicy {
 	_init_.Initialize()
 
@@ -385,7 +398,7 @@ func NewDataGoogleCloudRunV2ServiceIamPolicy(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/data-sources/google_cloud_run_v2_service_iam_policy google_cloud_run_v2_service_iam_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/data-sources/google_cloud_run_v2_service_iam_policy google_cloud_run_v2_service_iam_policy} Data Source.
 func NewDataGoogleCloudRunV2ServiceIamPolicy_Override(d DataGoogleCloudRunV2ServiceIamPolicy, scope constructs.Construct, id *string, config *DataGoogleCloudRunV2ServiceIamPolicyConfig) {
 	_init_.Initialize()
 
@@ -768,6 +781,17 @@ func (d *jsiiProxy_DataGoogleCloudRunV2ServiceIamPolicy) OverrideLogicalId(newLo
 		d,
 		"overrideLogicalId",
 		[]interface{}{newLogicalId},
+	)
+}
+
+func (d *jsiiProxy_DataGoogleCloudRunV2ServiceIamPolicy) RegisterProviderFeatureUsage(feature cdktn.ProviderFeature) {
+	if err := d.validateRegisterProviderFeatureUsageParameters(feature); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		d,
+		"registerProviderFeatureUsage",
+		[]interface{}{feature},
 	)
 }
 

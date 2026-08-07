@@ -7,7 +7,7 @@ package googlecontainernodepool
 type GoogleContainerNodePoolMaintenancePolicy struct {
 	// exclusion_until_end_of_support block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_container_node_pool#exclusion_until_end_of_support GoogleContainerNodePool#exclusion_until_end_of_support}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_container_node_pool#exclusion_until_end_of_support GoogleContainerNodePool#exclusion_until_end_of_support}
 	ExclusionUntilEndOfSupport interface{} `field:"optional" json:"exclusionUntilEndOfSupport" yaml:"exclusionUntilEndOfSupport"`
 }
 

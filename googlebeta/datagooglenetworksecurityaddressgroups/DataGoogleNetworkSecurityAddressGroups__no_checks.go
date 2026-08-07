@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataGoogleNetworkSecurityAddressGroups) validateOverrideLogic
 	return nil
 }
 
+func (d *jsiiProxy_DataGoogleNetworkSecurityAddressGroups) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataGoogleNetworkSecurityAddressGroups_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleTranscoderJob) validateInterpolationForAttributeParamet
 	return nil
 }
 
+func (g *jsiiProxy_GoogleTranscoderJob) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleTranscoderJob) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (g *jsiiProxy_GoogleTranscoderJob) validatePutConfigParameters(value *Googl
 }
 
 func (g *jsiiProxy_GoogleTranscoderJob) validatePutTimeoutsParameters(value *GoogleTranscoderJobTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleTranscoderJob) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

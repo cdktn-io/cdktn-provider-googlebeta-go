@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleCloudSecurityComplianceFramework) validateInterpolation
 	return nil
 }
 
+func (g *jsiiProxy_GoogleCloudSecurityComplianceFramework) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleCloudSecurityComplianceFramework) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (g *jsiiProxy_GoogleCloudSecurityComplianceFramework) validatePutCloudContr
 }
 
 func (g *jsiiProxy_GoogleCloudSecurityComplianceFramework) validatePutTimeoutsParameters(value *GoogleCloudSecurityComplianceFrameworkTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleCloudSecurityComplianceFramework) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

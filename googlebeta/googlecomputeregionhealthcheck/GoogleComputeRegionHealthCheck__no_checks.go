@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleComputeRegionHealthCheck) validateInterpolationForAttri
 	return nil
 }
 
+func (g *jsiiProxy_GoogleComputeRegionHealthCheck) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleComputeRegionHealthCheck) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -108,6 +112,10 @@ func (g *jsiiProxy_GoogleComputeRegionHealthCheck) validatePutTcpHealthCheckPara
 }
 
 func (g *jsiiProxy_GoogleComputeRegionHealthCheck) validatePutTimeoutsParameters(value *GoogleComputeRegionHealthCheckTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleComputeRegionHealthCheck) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

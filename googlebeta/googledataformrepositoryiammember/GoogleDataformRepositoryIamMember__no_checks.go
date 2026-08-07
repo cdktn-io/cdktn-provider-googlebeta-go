@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleDataformRepositoryIamMember) validateInterpolationForAt
 	return nil
 }
 
+func (g *jsiiProxy_GoogleDataformRepositoryIamMember) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleDataformRepositoryIamMember) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleDataformRepositoryIamMember) validateOverrideLogicalIdP
 }
 
 func (g *jsiiProxy_GoogleDataformRepositoryIamMember) validatePutConditionParameters(value *GoogleDataformRepositoryIamMemberCondition) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleDataformRepositoryIamMember) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

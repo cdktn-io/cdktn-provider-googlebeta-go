@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleAlloydbCluster) validateInterpolationForAttributeParame
 	return nil
 }
 
+func (g *jsiiProxy_GoogleAlloydbCluster) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleAlloydbCluster) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -128,6 +132,10 @@ func (g *jsiiProxy_GoogleAlloydbCluster) validatePutSecondaryConfigParameters(va
 }
 
 func (g *jsiiProxy_GoogleAlloydbCluster) validatePutTimeoutsParameters(value *GoogleAlloydbClusterTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleAlloydbCluster) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

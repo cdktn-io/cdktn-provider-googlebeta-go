@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleOrganizationIamMember) validateInterpolationForAttribut
 	return nil
 }
 
+func (g *jsiiProxy_GoogleOrganizationIamMember) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleOrganizationIamMember) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleOrganizationIamMember) validateOverrideLogicalIdParamet
 }
 
 func (g *jsiiProxy_GoogleOrganizationIamMember) validatePutConditionParameters(value *GoogleOrganizationIamMemberCondition) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleOrganizationIamMember) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

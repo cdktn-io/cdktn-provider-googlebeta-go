@@ -63,6 +63,10 @@ func (g *jsiiProxy_GoogleArtifactRegistryRepositoryRemoteRepositoryConfigOutputR
 	return nil
 }
 
+func (g *jsiiProxy_GoogleArtifactRegistryRepositoryRemoteRepositoryConfigOutputReference) validatePutNoCacheParameters(value *GoogleArtifactRegistryRepositoryRemoteRepositoryConfigNoCache) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleArtifactRegistryRepositoryRemoteRepositoryConfigOutputReference) validatePutNpmRepositoryParameters(value *GoogleArtifactRegistryRepositoryRemoteRepositoryConfigNpmRepository) error {
 	return nil
 }

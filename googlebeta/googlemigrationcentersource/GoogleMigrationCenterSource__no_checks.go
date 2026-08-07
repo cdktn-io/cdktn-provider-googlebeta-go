@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleMigrationCenterSource) validateInterpolationForAttribut
 	return nil
 }
 
+func (g *jsiiProxy_GoogleMigrationCenterSource) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleMigrationCenterSource) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleMigrationCenterSource) validateOverrideLogicalIdParamet
 }
 
 func (g *jsiiProxy_GoogleMigrationCenterSource) validatePutTimeoutsParameters(value *GoogleMigrationCenterSourceTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleMigrationCenterSource) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

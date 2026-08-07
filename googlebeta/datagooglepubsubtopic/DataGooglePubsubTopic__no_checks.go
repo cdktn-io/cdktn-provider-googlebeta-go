@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataGooglePubsubTopic) validateOverrideLogicalIdParameters(ne
 	return nil
 }
 
+func (d *jsiiProxy_DataGooglePubsubTopic) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataGooglePubsubTopic_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

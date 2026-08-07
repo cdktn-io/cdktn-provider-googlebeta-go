@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleStorageBucket) validateInterpolationForAttributeParamet
 	return nil
 }
 
+func (g *jsiiProxy_GoogleStorageBucket) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleStorageBucket) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -124,6 +128,10 @@ func (g *jsiiProxy_GoogleStorageBucket) validatePutVersioningParameters(value *G
 }
 
 func (g *jsiiProxy_GoogleStorageBucket) validatePutWebsiteParameters(value *GoogleStorageBucketWebsite) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleStorageBucket) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

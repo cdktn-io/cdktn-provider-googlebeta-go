@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleLoggingProjectBucketConfig) validateInterpolationForAtt
 	return nil
 }
 
+func (g *jsiiProxy_GoogleLoggingProjectBucketConfig) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleLoggingProjectBucketConfig) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (g *jsiiProxy_GoogleLoggingProjectBucketConfig) validatePutCmekSettingsPara
 }
 
 func (g *jsiiProxy_GoogleLoggingProjectBucketConfig) validatePutIndexConfigsParameters(value interface{}) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleLoggingProjectBucketConfig) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

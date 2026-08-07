@@ -59,6 +59,10 @@ func (g *jsiiProxy_GooglePubsubLiteTopic) validateInterpolationForAttributeParam
 	return nil
 }
 
+func (g *jsiiProxy_GooglePubsubLiteTopic) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GooglePubsubLiteTopic) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -88,6 +92,10 @@ func (g *jsiiProxy_GooglePubsubLiteTopic) validatePutRetentionConfigParameters(v
 }
 
 func (g *jsiiProxy_GooglePubsubLiteTopic) validatePutTimeoutsParameters(value *GooglePubsubLiteTopicTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GooglePubsubLiteTopic) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

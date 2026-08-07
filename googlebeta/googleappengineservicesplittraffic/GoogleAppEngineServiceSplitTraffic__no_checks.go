@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleAppEngineServiceSplitTraffic) validateInterpolationForA
 	return nil
 }
 
+func (g *jsiiProxy_GoogleAppEngineServiceSplitTraffic) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleAppEngineServiceSplitTraffic) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (g *jsiiProxy_GoogleAppEngineServiceSplitTraffic) validatePutSplitParameter
 }
 
 func (g *jsiiProxy_GoogleAppEngineServiceSplitTraffic) validatePutTimeoutsParameters(value *GoogleAppEngineServiceSplitTrafficTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleAppEngineServiceSplitTraffic) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

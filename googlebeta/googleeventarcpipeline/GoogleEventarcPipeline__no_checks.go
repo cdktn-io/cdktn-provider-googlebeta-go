@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleEventarcPipeline) validateInterpolationForAttributePara
 	return nil
 }
 
+func (g *jsiiProxy_GoogleEventarcPipeline) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleEventarcPipeline) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -96,6 +100,10 @@ func (g *jsiiProxy_GoogleEventarcPipeline) validatePutRetryPolicyParameters(valu
 }
 
 func (g *jsiiProxy_GoogleEventarcPipeline) validatePutTimeoutsParameters(value *GoogleEventarcPipelineTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleEventarcPipeline) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataGoogleBinaryAuthorizationAttestorIamPolicy) validateOverr
 	return nil
 }
 
+func (d *jsiiProxy_DataGoogleBinaryAuthorizationAttestorIamPolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataGoogleBinaryAuthorizationAttestorIamPolicy_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

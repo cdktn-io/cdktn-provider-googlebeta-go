@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleComputePublicAdvertisedPrefix) validateInterpolationFor
 	return nil
 }
 
+func (g *jsiiProxy_GoogleComputePublicAdvertisedPrefix) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleComputePublicAdvertisedPrefix) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleComputePublicAdvertisedPrefix) validateOverrideLogicalI
 }
 
 func (g *jsiiProxy_GoogleComputePublicAdvertisedPrefix) validatePutTimeoutsParameters(value *GoogleComputePublicAdvertisedPrefixTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleComputePublicAdvertisedPrefix) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

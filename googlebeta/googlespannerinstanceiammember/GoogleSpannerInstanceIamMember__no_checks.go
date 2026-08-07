@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleSpannerInstanceIamMember) validateInterpolationForAttri
 	return nil
 }
 
+func (g *jsiiProxy_GoogleSpannerInstanceIamMember) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleSpannerInstanceIamMember) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleSpannerInstanceIamMember) validateOverrideLogicalIdPara
 }
 
 func (g *jsiiProxy_GoogleSpannerInstanceIamMember) validatePutConditionParameters(value *GoogleSpannerInstanceIamMemberCondition) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleSpannerInstanceIamMember) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

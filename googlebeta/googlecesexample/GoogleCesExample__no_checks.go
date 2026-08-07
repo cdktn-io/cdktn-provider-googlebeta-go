@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleCesExample) validateInterpolationForAttributeParameters
 	return nil
 }
 
+func (g *jsiiProxy_GoogleCesExample) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleCesExample) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (g *jsiiProxy_GoogleCesExample) validatePutMessagesParameters(value interfa
 }
 
 func (g *jsiiProxy_GoogleCesExample) validatePutTimeoutsParameters(value *GoogleCesExampleTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleCesExample) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

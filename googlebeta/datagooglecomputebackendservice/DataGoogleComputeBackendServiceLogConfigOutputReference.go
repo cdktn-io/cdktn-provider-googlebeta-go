@@ -5,9 +5,9 @@ package datagooglecomputebackendservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglecomputebackendservice/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagooglecomputebackendservice/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -35,6 +35,8 @@ type DataGoogleComputeBackendServiceLogConfigOutputReference interface {
 	SetInternalValue(val *DataGoogleComputeBackendServiceLogConfig)
 	OptionalFields() *[]*string
 	OptionalMode() *string
+	RequestHeaders() DataGoogleComputeBackendServiceLogConfigRequestHeadersList
+	ResponseHeaders() DataGoogleComputeBackendServiceLogConfigResponseHeadersList
 	SampleRate() *float64
 	// Experimental.
 	TerraformAttribute() *string
@@ -158,6 +160,26 @@ func (j *jsiiProxy_DataGoogleComputeBackendServiceLogConfigOutputReference) Opti
 	_jsii_.Get(
 		j,
 		"optionalMode",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleComputeBackendServiceLogConfigOutputReference) RequestHeaders() DataGoogleComputeBackendServiceLogConfigRequestHeadersList {
+	var returns DataGoogleComputeBackendServiceLogConfigRequestHeadersList
+	_jsii_.Get(
+		j,
+		"requestHeaders",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleComputeBackendServiceLogConfigOutputReference) ResponseHeaders() DataGoogleComputeBackendServiceLogConfigResponseHeadersList {
+	var returns DataGoogleComputeBackendServiceLogConfigResponseHeadersList
+	_jsii_.Get(
+		j,
+		"responseHeaders",
 		&returns,
 	)
 	return returns

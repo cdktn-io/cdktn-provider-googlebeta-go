@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataGoogleDataprocMetastoreDatabaseIamPolicy) validateOverrid
 	return nil
 }
 
+func (d *jsiiProxy_DataGoogleDataprocMetastoreDatabaseIamPolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataGoogleDataprocMetastoreDatabaseIamPolicy_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

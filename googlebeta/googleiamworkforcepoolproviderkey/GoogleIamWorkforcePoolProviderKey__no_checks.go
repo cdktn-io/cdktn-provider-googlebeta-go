@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleIamWorkforcePoolProviderKey) validateInterpolationForAt
 	return nil
 }
 
+func (g *jsiiProxy_GoogleIamWorkforcePoolProviderKey) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleIamWorkforcePoolProviderKey) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (g *jsiiProxy_GoogleIamWorkforcePoolProviderKey) validatePutKeyDataParamete
 }
 
 func (g *jsiiProxy_GoogleIamWorkforcePoolProviderKey) validatePutTimeoutsParameters(value *GoogleIamWorkforcePoolProviderKeyTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleIamWorkforcePoolProviderKey) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

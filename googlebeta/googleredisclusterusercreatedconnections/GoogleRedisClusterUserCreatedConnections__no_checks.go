@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleRedisClusterUserCreatedConnections) validateInterpolati
 	return nil
 }
 
+func (g *jsiiProxy_GoogleRedisClusterUserCreatedConnections) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleRedisClusterUserCreatedConnections) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (g *jsiiProxy_GoogleRedisClusterUserCreatedConnections) validatePutClusterE
 }
 
 func (g *jsiiProxy_GoogleRedisClusterUserCreatedConnections) validatePutTimeoutsParameters(value *GoogleRedisClusterUserCreatedConnectionsTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleRedisClusterUserCreatedConnections) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

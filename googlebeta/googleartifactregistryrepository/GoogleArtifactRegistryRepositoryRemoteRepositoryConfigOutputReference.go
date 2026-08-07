@@ -5,9 +5,9 @@ package googleartifactregistryrepository
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleartifactregistryrepository/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleartifactregistryrepository/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -46,6 +46,8 @@ type GoogleArtifactRegistryRepositoryRemoteRepositoryConfigOutputReference inter
 	SetInternalValue(val *GoogleArtifactRegistryRepositoryRemoteRepositoryConfig)
 	MavenRepository() GoogleArtifactRegistryRepositoryRemoteRepositoryConfigMavenRepositoryOutputReference
 	MavenRepositoryInput() *GoogleArtifactRegistryRepositoryRemoteRepositoryConfigMavenRepository
+	NoCache() GoogleArtifactRegistryRepositoryRemoteRepositoryConfigNoCacheOutputReference
+	NoCacheInput() *GoogleArtifactRegistryRepositoryRemoteRepositoryConfigNoCache
 	NpmRepository() GoogleArtifactRegistryRepositoryRemoteRepositoryConfigNpmRepositoryOutputReference
 	NpmRepositoryInput() *GoogleArtifactRegistryRepositoryRemoteRepositoryConfigNpmRepository
 	PythonRepository() GoogleArtifactRegistryRepositoryRemoteRepositoryConfigPythonRepositoryOutputReference
@@ -90,6 +92,7 @@ type GoogleArtifactRegistryRepositoryRemoteRepositoryConfigOutputReference inter
 	PutCommonRepository(value *GoogleArtifactRegistryRepositoryRemoteRepositoryConfigCommonRepository)
 	PutDockerRepository(value *GoogleArtifactRegistryRepositoryRemoteRepositoryConfigDockerRepository)
 	PutMavenRepository(value *GoogleArtifactRegistryRepositoryRemoteRepositoryConfigMavenRepository)
+	PutNoCache(value *GoogleArtifactRegistryRepositoryRemoteRepositoryConfigNoCache)
 	PutNpmRepository(value *GoogleArtifactRegistryRepositoryRemoteRepositoryConfigNpmRepository)
 	PutPythonRepository(value *GoogleArtifactRegistryRepositoryRemoteRepositoryConfigPythonRepository)
 	PutUpstreamCredentials(value *GoogleArtifactRegistryRepositoryRemoteRepositoryConfigUpstreamCredentials)
@@ -100,6 +103,7 @@ type GoogleArtifactRegistryRepositoryRemoteRepositoryConfigOutputReference inter
 	ResetDisableUpstreamValidation()
 	ResetDockerRepository()
 	ResetMavenRepository()
+	ResetNoCache()
 	ResetNpmRepository()
 	ResetPythonRepository()
 	ResetUpstreamCredentials()
@@ -284,6 +288,26 @@ func (j *jsiiProxy_GoogleArtifactRegistryRepositoryRemoteRepositoryConfigOutputR
 	_jsii_.Get(
 		j,
 		"mavenRepositoryInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleArtifactRegistryRepositoryRemoteRepositoryConfigOutputReference) NoCache() GoogleArtifactRegistryRepositoryRemoteRepositoryConfigNoCacheOutputReference {
+	var returns GoogleArtifactRegistryRepositoryRemoteRepositoryConfigNoCacheOutputReference
+	_jsii_.Get(
+		j,
+		"noCache",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleArtifactRegistryRepositoryRemoteRepositoryConfigOutputReference) NoCacheInput() *GoogleArtifactRegistryRepositoryRemoteRepositoryConfigNoCache {
+	var returns *GoogleArtifactRegistryRepositoryRemoteRepositoryConfigNoCache
+	_jsii_.Get(
+		j,
+		"noCacheInput",
 		&returns,
 	)
 	return returns
@@ -724,6 +748,17 @@ func (g *jsiiProxy_GoogleArtifactRegistryRepositoryRemoteRepositoryConfigOutputR
 	)
 }
 
+func (g *jsiiProxy_GoogleArtifactRegistryRepositoryRemoteRepositoryConfigOutputReference) PutNoCache(value *GoogleArtifactRegistryRepositoryRemoteRepositoryConfigNoCache) {
+	if err := g.validatePutNoCacheParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putNoCache",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleArtifactRegistryRepositoryRemoteRepositoryConfigOutputReference) PutNpmRepository(value *GoogleArtifactRegistryRepositoryRemoteRepositoryConfigNpmRepository) {
 	if err := g.validatePutNpmRepositoryParameters(value); err != nil {
 		panic(err)
@@ -812,6 +847,14 @@ func (g *jsiiProxy_GoogleArtifactRegistryRepositoryRemoteRepositoryConfigOutputR
 	_jsii_.InvokeVoid(
 		g,
 		"resetMavenRepository",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleArtifactRegistryRepositoryRemoteRepositoryConfigOutputReference) ResetNoCache() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetNoCache",
 		nil, // no parameters
 	)
 }

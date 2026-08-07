@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleCloudTasksQueueIamMember) validateInterpolationForAttri
 	return nil
 }
 
+func (g *jsiiProxy_GoogleCloudTasksQueueIamMember) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleCloudTasksQueueIamMember) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleCloudTasksQueueIamMember) validateOverrideLogicalIdPara
 }
 
 func (g *jsiiProxy_GoogleCloudTasksQueueIamMember) validatePutConditionParameters(value *GoogleCloudTasksQueueIamMemberCondition) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleCloudTasksQueueIamMember) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

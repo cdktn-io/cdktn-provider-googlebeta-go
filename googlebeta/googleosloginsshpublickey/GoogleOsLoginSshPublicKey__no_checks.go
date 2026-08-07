@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleOsLoginSshPublicKey) validateInterpolationForAttributeP
 	return nil
 }
 
+func (g *jsiiProxy_GoogleOsLoginSshPublicKey) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleOsLoginSshPublicKey) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleOsLoginSshPublicKey) validateOverrideLogicalIdParameter
 }
 
 func (g *jsiiProxy_GoogleOsLoginSshPublicKey) validatePutTimeoutsParameters(value *GoogleOsLoginSshPublicKeyTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleOsLoginSshPublicKey) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

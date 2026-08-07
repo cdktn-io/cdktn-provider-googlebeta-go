@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleComputeDisk) validateInterpolationForAttributeParameter
 	return nil
 }
 
+func (g *jsiiProxy_GoogleComputeDisk) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleComputeDisk) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -100,6 +104,10 @@ func (g *jsiiProxy_GoogleComputeDisk) validatePutSourceSnapshotEncryptionKeyPara
 }
 
 func (g *jsiiProxy_GoogleComputeDisk) validatePutTimeoutsParameters(value *GoogleComputeDiskTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleComputeDisk) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

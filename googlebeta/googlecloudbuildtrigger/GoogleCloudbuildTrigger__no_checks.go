@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleCloudbuildTrigger) validateInterpolationForAttributePar
 	return nil
 }
 
+func (g *jsiiProxy_GoogleCloudbuildTrigger) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleCloudbuildTrigger) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -120,6 +124,10 @@ func (g *jsiiProxy_GoogleCloudbuildTrigger) validatePutTriggerTemplateParameters
 }
 
 func (g *jsiiProxy_GoogleCloudbuildTrigger) validatePutWebhookConfigParameters(value *GoogleCloudbuildTriggerWebhookConfig) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleCloudbuildTrigger) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

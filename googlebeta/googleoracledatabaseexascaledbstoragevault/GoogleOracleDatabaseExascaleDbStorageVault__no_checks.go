@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleOracleDatabaseExascaleDbStorageVault) validateInterpola
 	return nil
 }
 
+func (g *jsiiProxy_GoogleOracleDatabaseExascaleDbStorageVault) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleOracleDatabaseExascaleDbStorageVault) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (g *jsiiProxy_GoogleOracleDatabaseExascaleDbStorageVault) validatePutProper
 }
 
 func (g *jsiiProxy_GoogleOracleDatabaseExascaleDbStorageVault) validatePutTimeoutsParameters(value *GoogleOracleDatabaseExascaleDbStorageVaultTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleOracleDatabaseExascaleDbStorageVault) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

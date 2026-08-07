@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleCloudRunV2WorkerPool) validateInterpolationForAttribute
 	return nil
 }
 
+func (g *jsiiProxy_GoogleCloudRunV2WorkerPool) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleCloudRunV2WorkerPool) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -92,6 +96,10 @@ func (g *jsiiProxy_GoogleCloudRunV2WorkerPool) validatePutTemplateParameters(val
 }
 
 func (g *jsiiProxy_GoogleCloudRunV2WorkerPool) validatePutTimeoutsParameters(value *GoogleCloudRunV2WorkerPoolTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleCloudRunV2WorkerPool) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

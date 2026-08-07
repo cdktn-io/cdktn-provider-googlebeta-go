@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleIdentityPlatformOauthIdpConfig) validateInterpolationFo
 	return nil
 }
 
+func (g *jsiiProxy_GoogleIdentityPlatformOauthIdpConfig) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleIdentityPlatformOauthIdpConfig) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (g *jsiiProxy_GoogleIdentityPlatformOauthIdpConfig) validatePutResponseType
 }
 
 func (g *jsiiProxy_GoogleIdentityPlatformOauthIdpConfig) validatePutTimeoutsParameters(value *GoogleIdentityPlatformOauthIdpConfigTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleIdentityPlatformOauthIdpConfig) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

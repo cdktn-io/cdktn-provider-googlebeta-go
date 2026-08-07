@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleComputeFutureReservation) validateInterpolationForAttri
 	return nil
 }
 
+func (g *jsiiProxy_GoogleComputeFutureReservation) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleComputeFutureReservation) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -104,6 +108,10 @@ func (g *jsiiProxy_GoogleComputeFutureReservation) validatePutTimeoutsParameters
 }
 
 func (g *jsiiProxy_GoogleComputeFutureReservation) validatePutTimeWindowParameters(value *GoogleComputeFutureReservationTimeWindow) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleComputeFutureReservation) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

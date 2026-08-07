@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataGoogleAgentRegistryAgent) validateOverrideLogicalIdParame
 	return nil
 }
 
+func (d *jsiiProxy_DataGoogleAgentRegistryAgent) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataGoogleAgentRegistryAgent_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

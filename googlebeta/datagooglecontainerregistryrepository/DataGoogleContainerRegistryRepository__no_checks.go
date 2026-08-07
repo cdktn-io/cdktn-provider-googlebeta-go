@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataGoogleContainerRegistryRepository) validateOverrideLogica
 	return nil
 }
 
+func (d *jsiiProxy_DataGoogleContainerRegistryRepository) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataGoogleContainerRegistryRepository_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

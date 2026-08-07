@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleSiteVerificationOwner) validateInterpolationForAttribut
 	return nil
 }
 
+func (g *jsiiProxy_GoogleSiteVerificationOwner) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleSiteVerificationOwner) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleSiteVerificationOwner) validateOverrideLogicalIdParamet
 }
 
 func (g *jsiiProxy_GoogleSiteVerificationOwner) validatePutTimeoutsParameters(value *GoogleSiteVerificationOwnerTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleSiteVerificationOwner) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

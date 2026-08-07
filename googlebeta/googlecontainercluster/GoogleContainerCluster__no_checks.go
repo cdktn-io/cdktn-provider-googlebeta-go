@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleContainerCluster) validateInterpolationForAttributePara
 	return nil
 }
 
+func (g *jsiiProxy_GoogleContainerCluster) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleContainerCluster) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -247,6 +251,10 @@ func (g *jsiiProxy_GoogleContainerCluster) validatePutResourceUsageExportConfigP
 	return nil
 }
 
+func (g *jsiiProxy_GoogleContainerCluster) validatePutRollbackSafeUpgradeParameters(value *GoogleContainerClusterRollbackSafeUpgrade) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleContainerCluster) validatePutSecretManagerConfigParameters(value *GoogleContainerClusterSecretManagerConfig) error {
 	return nil
 }
@@ -284,6 +292,10 @@ func (g *jsiiProxy_GoogleContainerCluster) validatePutWorkloadAltsConfigParamete
 }
 
 func (g *jsiiProxy_GoogleContainerCluster) validatePutWorkloadIdentityConfigParameters(value *GoogleContainerClusterWorkloadIdentityConfig) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleContainerCluster) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 
@@ -344,6 +356,10 @@ func (j *jsiiProxy_GoogleContainerCluster) validateSetDeletionProtectionParamete
 }
 
 func (j *jsiiProxy_GoogleContainerCluster) validateSetDescriptionParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleContainerCluster) validateSetDesiredEmulatedVersionParameters(val *string) error {
 	return nil
 }
 

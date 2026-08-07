@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleBinaryAuthorizationAttestorIamBinding) validateInterpol
 	return nil
 }
 
+func (g *jsiiProxy_GoogleBinaryAuthorizationAttestorIamBinding) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleBinaryAuthorizationAttestorIamBinding) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleBinaryAuthorizationAttestorIamBinding) validateOverride
 }
 
 func (g *jsiiProxy_GoogleBinaryAuthorizationAttestorIamBinding) validatePutConditionParameters(value *GoogleBinaryAuthorizationAttestorIamBindingCondition) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleBinaryAuthorizationAttestorIamBinding) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

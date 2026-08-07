@@ -47,11 +47,23 @@ func (g *jsiiProxy_GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookE
 	return nil
 }
 
+func (g *jsiiProxy_GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobOutputReference) validatePutCustomEnvironmentSpecParameters(value *GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobCustomEnvironmentSpec) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobOutputReference) validatePutDataformRepositorySourceParameters(value *GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobDataformRepositorySource) error {
 	return nil
 }
 
+func (g *jsiiProxy_GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobOutputReference) validatePutEncryptionSpecParameters(value *GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobEncryptionSpec) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobOutputReference) validatePutGcsNotebookSourceParameters(value *GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobGcsNotebookSource) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobOutputReference) validatePutWorkbenchRuntimeParameters(value *GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobWorkbenchRuntime) error {
 	return nil
 }
 
@@ -84,6 +96,14 @@ func (j *jsiiProxy_GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookE
 }
 
 func (j *jsiiProxy_GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobOutputReference) validateSetInternalValueParameters(val *GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJob) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobOutputReference) validateSetKernelNameParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleColabScheduleCreateNotebookExecutionJobRequestNotebookExecutionJobOutputReference) validateSetLabelsParameters(val *map[string]*string) error {
 	return nil
 }
 

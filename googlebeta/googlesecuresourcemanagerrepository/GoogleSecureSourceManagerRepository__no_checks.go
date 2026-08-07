@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleSecureSourceManagerRepository) validateInterpolationFor
 	return nil
 }
 
+func (g *jsiiProxy_GoogleSecureSourceManagerRepository) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleSecureSourceManagerRepository) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (g *jsiiProxy_GoogleSecureSourceManagerRepository) validatePutInitialConfig
 }
 
 func (g *jsiiProxy_GoogleSecureSourceManagerRepository) validatePutTimeoutsParameters(value *GoogleSecureSourceManagerRepositoryTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleSecureSourceManagerRepository) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

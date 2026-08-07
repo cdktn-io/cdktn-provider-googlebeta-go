@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleGeminiRepositoryGroupIamBinding) validateInterpolationF
 	return nil
 }
 
+func (g *jsiiProxy_GoogleGeminiRepositoryGroupIamBinding) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleGeminiRepositoryGroupIamBinding) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleGeminiRepositoryGroupIamBinding) validateOverrideLogica
 }
 
 func (g *jsiiProxy_GoogleGeminiRepositoryGroupIamBinding) validatePutConditionParameters(value *GoogleGeminiRepositoryGroupIamBindingCondition) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleGeminiRepositoryGroupIamBinding) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleBigtableTableIamBinding) validateInterpolationForAttrib
 	return nil
 }
 
+func (g *jsiiProxy_GoogleBigtableTableIamBinding) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleBigtableTableIamBinding) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleBigtableTableIamBinding) validateOverrideLogicalIdParam
 }
 
 func (g *jsiiProxy_GoogleBigtableTableIamBinding) validatePutConditionParameters(value *GoogleBigtableTableIamBindingCondition) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleBigtableTableIamBinding) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

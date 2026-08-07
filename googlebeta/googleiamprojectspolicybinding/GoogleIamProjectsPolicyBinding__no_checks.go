@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleIamProjectsPolicyBinding) validateInterpolationForAttri
 	return nil
 }
 
+func (g *jsiiProxy_GoogleIamProjectsPolicyBinding) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleIamProjectsPolicyBinding) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (g *jsiiProxy_GoogleIamProjectsPolicyBinding) validatePutTargetParameters(v
 }
 
 func (g *jsiiProxy_GoogleIamProjectsPolicyBinding) validatePutTimeoutsParameters(value *GoogleIamProjectsPolicyBindingTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleIamProjectsPolicyBinding) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

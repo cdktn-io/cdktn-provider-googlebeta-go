@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleDiscoveryEngineSearchEngineIamPolicy) validateInterpola
 	return nil
 }
 
+func (g *jsiiProxy_GoogleDiscoveryEngineSearchEngineIamPolicy) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleDiscoveryEngineSearchEngineIamPolicy) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (g *jsiiProxy_GoogleDiscoveryEngineSearchEngineIamPolicy) validateMoveToIdP
 }
 
 func (g *jsiiProxy_GoogleDiscoveryEngineSearchEngineIamPolicy) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleDiscoveryEngineSearchEngineIamPolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataGoogleOrganizationIamCustomRole) validateOverrideLogicalI
 	return nil
 }
 
+func (d *jsiiProxy_DataGoogleOrganizationIamCustomRole) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataGoogleOrganizationIamCustomRole_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

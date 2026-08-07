@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataGoogleProjectAncestry) validateOverrideLogicalIdParameter
 	return nil
 }
 
+func (d *jsiiProxy_DataGoogleProjectAncestry) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataGoogleProjectAncestry_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

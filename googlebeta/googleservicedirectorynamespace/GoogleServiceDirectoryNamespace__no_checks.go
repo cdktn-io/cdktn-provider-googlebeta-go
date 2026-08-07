@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleServiceDirectoryNamespace) validateInterpolationForAttr
 	return nil
 }
 
+func (g *jsiiProxy_GoogleServiceDirectoryNamespace) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleServiceDirectoryNamespace) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleServiceDirectoryNamespace) validateOverrideLogicalIdPar
 }
 
 func (g *jsiiProxy_GoogleServiceDirectoryNamespace) validatePutTimeoutsParameters(value *GoogleServiceDirectoryNamespaceTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleServiceDirectoryNamespace) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

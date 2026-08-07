@@ -24,19 +24,19 @@ type GoogleChronicleParserConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_parser#instance GoogleChronicleParser#instance}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_chronicle_parser#instance GoogleChronicleParser#instance}
 	Instance *string `field:"required" json:"instance" yaml:"instance"`
 	// Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_parser#location GoogleChronicleParser#location}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_chronicle_parser#location GoogleChronicleParser#location}
 	Location *string `field:"required" json:"location" yaml:"location"`
 	// Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_parser#logtype GoogleChronicleParser#logtype}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_chronicle_parser#logtype GoogleChronicleParser#logtype}
 	Logtype *string `field:"required" json:"logtype" yaml:"logtype"`
 	// if the parser is built using config documentation: https://cloud.google.com/chronicle/docs/preview/parser-extensions/parsing-overview.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_parser#cbn GoogleChronicleParser#cbn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_chronicle_parser#cbn GoogleChronicleParser#cbn}
 	Cbn *string `field:"optional" json:"cbn" yaml:"cbn"`
 	// Whether Terraform will be prevented from destroying the instance.
 	//
@@ -48,37 +48,37 @@ type GoogleChronicleParserConfig struct {
 	// When set to "DELETE", deleting the resource is allowed.
 	//
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_parser#deletion_policy GoogleChronicleParser#deletion_policy}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_chronicle_parser#deletion_policy GoogleChronicleParser#deletion_policy}
 	DeletionPolicy *string `field:"optional" json:"deletionPolicy" yaml:"deletionPolicy"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_parser#id GoogleChronicleParser#id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_chronicle_parser#id GoogleChronicleParser#id}.
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
 	Id *string `field:"optional" json:"id" yaml:"id"`
 	// low_code block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_parser#low_code GoogleChronicleParser#low_code}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_chronicle_parser#low_code GoogleChronicleParser#low_code}
 	LowCode *GoogleChronicleParserLowCode `field:"optional" json:"lowCode" yaml:"lowCode"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_parser#project GoogleChronicleParser#project}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_chronicle_parser#project GoogleChronicleParser#project}.
 	Project *string `field:"optional" json:"project" yaml:"project"`
 	// timeouts block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_parser#timeouts GoogleChronicleParser#timeouts}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_chronicle_parser#timeouts GoogleChronicleParser#timeouts}
 	Timeouts *GoogleChronicleParserTimeouts `field:"optional" json:"timeouts" yaml:"timeouts"`
 	// Flag to bypass parser validation when no logs are found.
 	//
 	// If enabled, the parser won't be be rejected during the validation
 	// phase when no logs are found.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_parser#validated_on_empty_logs GoogleChronicleParser#validated_on_empty_logs}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_chronicle_parser#validated_on_empty_logs GoogleChronicleParser#validated_on_empty_logs}
 	ValidatedOnEmptyLogs interface{} `field:"optional" json:"validatedOnEmptyLogs" yaml:"validatedOnEmptyLogs"`
 	// If true, bypasses parser validation. If enabled, the parser won't be rejected during the validation phase and validation will be skipped.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_parser#validation_skipped GoogleChronicleParser#validation_skipped}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_chronicle_parser#validation_skipped GoogleChronicleParser#validation_skipped}
 	ValidationSkipped interface{} `field:"optional" json:"validationSkipped" yaml:"validationSkipped"`
 	// version_info block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_parser#version_info GoogleChronicleParser#version_info}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_chronicle_parser#version_info GoogleChronicleParser#version_info}
 	VersionInfo *GoogleChronicleParserVersionInfo `field:"optional" json:"versionInfo" yaml:"versionInfo"`
 }
 

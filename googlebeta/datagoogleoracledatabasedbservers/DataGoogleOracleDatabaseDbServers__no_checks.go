@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataGoogleOracleDatabaseDbServers) validateOverrideLogicalIdP
 	return nil
 }
 
+func (d *jsiiProxy_DataGoogleOracleDatabaseDbServers) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataGoogleOracleDatabaseDbServers_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

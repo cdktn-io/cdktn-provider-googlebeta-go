@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleAccessContextManagerServicePerimeterDryRunResource) val
 	return nil
 }
 
+func (g *jsiiProxy_GoogleAccessContextManagerServicePerimeterDryRunResource) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleAccessContextManagerServicePerimeterDryRunResource) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleAccessContextManagerServicePerimeterDryRunResource) val
 }
 
 func (g *jsiiProxy_GoogleAccessContextManagerServicePerimeterDryRunResource) validatePutTimeoutsParameters(value *GoogleAccessContextManagerServicePerimeterDryRunResourceTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleAccessContextManagerServicePerimeterDryRunResource) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

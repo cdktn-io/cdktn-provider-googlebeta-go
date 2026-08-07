@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleServiceUsageConsumerQuotaOverride) validateInterpolatio
 	return nil
 }
 
+func (g *jsiiProxy_GoogleServiceUsageConsumerQuotaOverride) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleServiceUsageConsumerQuotaOverride) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleServiceUsageConsumerQuotaOverride) validateOverrideLogi
 }
 
 func (g *jsiiProxy_GoogleServiceUsageConsumerQuotaOverride) validatePutTimeoutsParameters(value *GoogleServiceUsageConsumerQuotaOverrideTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleServiceUsageConsumerQuotaOverride) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

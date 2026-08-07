@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleComputeRegionSslCertificate) validateInterpolationForAt
 	return nil
 }
 
+func (g *jsiiProxy_GoogleComputeRegionSslCertificate) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleComputeRegionSslCertificate) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleComputeRegionSslCertificate) validateOverrideLogicalIdP
 }
 
 func (g *jsiiProxy_GoogleComputeRegionSslCertificate) validatePutTimeoutsParameters(value *GoogleComputeRegionSslCertificateTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleComputeRegionSslCertificate) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

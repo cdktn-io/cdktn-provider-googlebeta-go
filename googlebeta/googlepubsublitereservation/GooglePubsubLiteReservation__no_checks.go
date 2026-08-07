@@ -59,6 +59,10 @@ func (g *jsiiProxy_GooglePubsubLiteReservation) validateInterpolationForAttribut
 	return nil
 }
 
+func (g *jsiiProxy_GooglePubsubLiteReservation) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GooglePubsubLiteReservation) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GooglePubsubLiteReservation) validateOverrideLogicalIdParamet
 }
 
 func (g *jsiiProxy_GooglePubsubLiteReservation) validatePutTimeoutsParameters(value *GooglePubsubLiteReservationTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GooglePubsubLiteReservation) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

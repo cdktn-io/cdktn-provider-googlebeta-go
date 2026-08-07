@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleDeveloperConnectConnection) validateInterpolationForAtt
 	return nil
 }
 
+func (g *jsiiProxy_GoogleDeveloperConnectConnection) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleDeveloperConnectConnection) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -108,6 +112,10 @@ func (g *jsiiProxy_GoogleDeveloperConnectConnection) validatePutHttpConfigParame
 }
 
 func (g *jsiiProxy_GoogleDeveloperConnectConnection) validatePutTimeoutsParameters(value *GoogleDeveloperConnectConnectionTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleDeveloperConnectConnection) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

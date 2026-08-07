@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleSccSourceIamBinding) validateInterpolationForAttributeP
 	return nil
 }
 
+func (g *jsiiProxy_GoogleSccSourceIamBinding) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleSccSourceIamBinding) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleSccSourceIamBinding) validateOverrideLogicalIdParameter
 }
 
 func (g *jsiiProxy_GoogleSccSourceIamBinding) validatePutConditionParameters(value *GoogleSccSourceIamBindingCondition) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleSccSourceIamBinding) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

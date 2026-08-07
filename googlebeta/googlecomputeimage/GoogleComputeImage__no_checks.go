@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleComputeImage) validateInterpolationForAttributeParamete
 	return nil
 }
 
+func (g *jsiiProxy_GoogleComputeImage) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleComputeImage) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -108,6 +112,10 @@ func (g *jsiiProxy_GoogleComputeImage) validatePutSourceSnapshotEncryptionKeyPar
 }
 
 func (g *jsiiProxy_GoogleComputeImage) validatePutTimeoutsParameters(value *GoogleComputeImageTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleComputeImage) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

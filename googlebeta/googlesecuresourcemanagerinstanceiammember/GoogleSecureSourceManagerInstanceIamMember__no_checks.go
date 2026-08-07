@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleSecureSourceManagerInstanceIamMember) validateInterpola
 	return nil
 }
 
+func (g *jsiiProxy_GoogleSecureSourceManagerInstanceIamMember) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleSecureSourceManagerInstanceIamMember) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleSecureSourceManagerInstanceIamMember) validateOverrideL
 }
 
 func (g *jsiiProxy_GoogleSecureSourceManagerInstanceIamMember) validatePutConditionParameters(value *GoogleSecureSourceManagerInstanceIamMemberCondition) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleSecureSourceManagerInstanceIamMember) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

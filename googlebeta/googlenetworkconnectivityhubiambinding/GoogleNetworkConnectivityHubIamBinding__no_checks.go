@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleNetworkConnectivityHubIamBinding) validateInterpolation
 	return nil
 }
 
+func (g *jsiiProxy_GoogleNetworkConnectivityHubIamBinding) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleNetworkConnectivityHubIamBinding) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleNetworkConnectivityHubIamBinding) validateOverrideLogic
 }
 
 func (g *jsiiProxy_GoogleNetworkConnectivityHubIamBinding) validatePutConditionParameters(value *GoogleNetworkConnectivityHubIamBindingCondition) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleNetworkConnectivityHubIamBinding) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

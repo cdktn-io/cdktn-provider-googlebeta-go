@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleArtifactRegistryRepositoryIamMember) validateInterpolat
 	return nil
 }
 
+func (g *jsiiProxy_GoogleArtifactRegistryRepositoryIamMember) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleArtifactRegistryRepositoryIamMember) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleArtifactRegistryRepositoryIamMember) validateOverrideLo
 }
 
 func (g *jsiiProxy_GoogleArtifactRegistryRepositoryIamMember) validatePutConditionParameters(value *GoogleArtifactRegistryRepositoryIamMemberCondition) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleArtifactRegistryRepositoryIamMember) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

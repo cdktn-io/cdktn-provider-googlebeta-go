@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleApiGatewayGateway) validateInterpolationForAttributePar
 	return nil
 }
 
+func (g *jsiiProxy_GoogleApiGatewayGateway) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleApiGatewayGateway) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleApiGatewayGateway) validateOverrideLogicalIdParameters(
 }
 
 func (g *jsiiProxy_GoogleApiGatewayGateway) validatePutTimeoutsParameters(value *GoogleApiGatewayGatewayTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleApiGatewayGateway) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

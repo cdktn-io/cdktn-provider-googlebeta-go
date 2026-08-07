@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleIamOauthClientCredential) validateInterpolationForAttri
 	return nil
 }
 
+func (g *jsiiProxy_GoogleIamOauthClientCredential) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleIamOauthClientCredential) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleIamOauthClientCredential) validateOverrideLogicalIdPara
 }
 
 func (g *jsiiProxy_GoogleIamOauthClientCredential) validatePutTimeoutsParameters(value *GoogleIamOauthClientCredentialTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleIamOauthClientCredential) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleIapWebRegionBackendServiceIamBinding) validateInterpola
 	return nil
 }
 
+func (g *jsiiProxy_GoogleIapWebRegionBackendServiceIamBinding) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleIapWebRegionBackendServiceIamBinding) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleIapWebRegionBackendServiceIamBinding) validateOverrideL
 }
 
 func (g *jsiiProxy_GoogleIapWebRegionBackendServiceIamBinding) validatePutConditionParameters(value *GoogleIapWebRegionBackendServiceIamBindingCondition) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleIapWebRegionBackendServiceIamBinding) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

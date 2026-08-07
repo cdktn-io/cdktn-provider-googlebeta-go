@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleStorageControlOrganizationIntelligenceConfig) validateI
 	return nil
 }
 
+func (g *jsiiProxy_GoogleStorageControlOrganizationIntelligenceConfig) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleStorageControlOrganizationIntelligenceConfig) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (g *jsiiProxy_GoogleStorageControlOrganizationIntelligenceConfig) validateP
 }
 
 func (g *jsiiProxy_GoogleStorageControlOrganizationIntelligenceConfig) validatePutTimeoutsParameters(value *GoogleStorageControlOrganizationIntelligenceConfigTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleStorageControlOrganizationIntelligenceConfig) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

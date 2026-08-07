@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleSccV2OrganizationMuteConfig) validateInterpolationForAt
 	return nil
 }
 
+func (g *jsiiProxy_GoogleSccV2OrganizationMuteConfig) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleSccV2OrganizationMuteConfig) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleSccV2OrganizationMuteConfig) validateOverrideLogicalIdP
 }
 
 func (g *jsiiProxy_GoogleSccV2OrganizationMuteConfig) validatePutTimeoutsParameters(value *GoogleSccV2OrganizationMuteConfigTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleSccV2OrganizationMuteConfig) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

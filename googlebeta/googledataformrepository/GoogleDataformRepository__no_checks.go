@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleDataformRepository) validateInterpolationForAttributePa
 	return nil
 }
 
+func (g *jsiiProxy_GoogleDataformRepository) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleDataformRepository) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (g *jsiiProxy_GoogleDataformRepository) validatePutTimeoutsParameters(value
 }
 
 func (g *jsiiProxy_GoogleDataformRepository) validatePutWorkspaceCompilationOverridesParameters(value *GoogleDataformRepositoryWorkspaceCompilationOverrides) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleDataformRepository) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

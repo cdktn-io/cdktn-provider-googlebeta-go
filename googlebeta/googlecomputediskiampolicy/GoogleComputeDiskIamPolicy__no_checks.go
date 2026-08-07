@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleComputeDiskIamPolicy) validateInterpolationForAttribute
 	return nil
 }
 
+func (g *jsiiProxy_GoogleComputeDiskIamPolicy) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleComputeDiskIamPolicy) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (g *jsiiProxy_GoogleComputeDiskIamPolicy) validateMoveToIdParameters(id *st
 }
 
 func (g *jsiiProxy_GoogleComputeDiskIamPolicy) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleComputeDiskIamPolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

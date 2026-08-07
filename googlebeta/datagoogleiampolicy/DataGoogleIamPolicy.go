@@ -5,14 +5,14 @@ package datagoogleiampolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagoogleiampolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoogleiampolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/data-sources/google_iam_policy google_iam_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/data-sources/google_iam_policy google_iam_policy}.
 type DataGoogleIamPolicy interface {
 	cdktn.TerraformDataSource
 	AuditConfig() DataGoogleIamPolicyAuditConfigList
@@ -88,6 +88,19 @@ type DataGoogleIamPolicy interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutAuditConfig(value interface{})
 	PutBinding(value interface{})
+	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
+	//
+	// Called by generated provider bindings when a versioned feature is
+	// structurally in use - the element's existence in the construct tree
+	// already implies the feature is used, e.g. constructing a
+	// `TerraformEphemeralResource` at all - so, unlike
+	// `_registerResolveDiscoveredProviderFeatureUsage`, this registration is
+	// never deactivated by `_resetResolveDiscoveredProviderFeatureUsage`. Not
+	// intended to be called directly by user code. Lives on `TerraformElement`
+	// (rather than `TerraformResource`) so it covers any element subclass
+	// that needs it.
+	// Experimental.
+	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
 	ResetAuditConfig()
 	ResetBinding()
 	ResetId()
@@ -333,7 +346,7 @@ func (j *jsiiProxy_DataGoogleIamPolicy) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/data-sources/google_iam_policy google_iam_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/data-sources/google_iam_policy google_iam_policy} Data Source.
 func NewDataGoogleIamPolicy(scope constructs.Construct, id *string, config *DataGoogleIamPolicyConfig) DataGoogleIamPolicy {
 	_init_.Initialize()
 
@@ -351,7 +364,7 @@ func NewDataGoogleIamPolicy(scope constructs.Construct, id *string, config *Data
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/data-sources/google_iam_policy google_iam_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/data-sources/google_iam_policy google_iam_policy} Data Source.
 func NewDataGoogleIamPolicy_Override(d DataGoogleIamPolicy, scope constructs.Construct, id *string, config *DataGoogleIamPolicyConfig) {
 	_init_.Initialize()
 
@@ -723,6 +736,17 @@ func (d *jsiiProxy_DataGoogleIamPolicy) PutBinding(value interface{}) {
 		d,
 		"putBinding",
 		[]interface{}{value},
+	)
+}
+
+func (d *jsiiProxy_DataGoogleIamPolicy) RegisterProviderFeatureUsage(feature cdktn.ProviderFeature) {
+	if err := d.validateRegisterProviderFeatureUsageParameters(feature); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		d,
+		"registerProviderFeatureUsage",
+		[]interface{}{feature},
 	)
 }
 

@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleContactCenterInsightsView) validateInterpolationForAttr
 	return nil
 }
 
+func (g *jsiiProxy_GoogleContactCenterInsightsView) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleContactCenterInsightsView) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleContactCenterInsightsView) validateOverrideLogicalIdPar
 }
 
 func (g *jsiiProxy_GoogleContactCenterInsightsView) validatePutTimeoutsParameters(value *GoogleContactCenterInsightsViewTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleContactCenterInsightsView) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

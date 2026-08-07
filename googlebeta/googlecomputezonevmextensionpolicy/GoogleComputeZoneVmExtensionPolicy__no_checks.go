@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleComputeZoneVmExtensionPolicy) validateInterpolationForA
 	return nil
 }
 
+func (g *jsiiProxy_GoogleComputeZoneVmExtensionPolicy) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleComputeZoneVmExtensionPolicy) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (g *jsiiProxy_GoogleComputeZoneVmExtensionPolicy) validatePutInstanceSelect
 }
 
 func (g *jsiiProxy_GoogleComputeZoneVmExtensionPolicy) validatePutTimeoutsParameters(value *GoogleComputeZoneVmExtensionPolicyTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleComputeZoneVmExtensionPolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

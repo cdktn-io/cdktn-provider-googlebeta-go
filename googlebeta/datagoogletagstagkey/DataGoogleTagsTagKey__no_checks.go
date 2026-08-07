@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataGoogleTagsTagKey) validateOverrideLogicalIdParameters(new
 	return nil
 }
 
+func (d *jsiiProxy_DataGoogleTagsTagKey) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataGoogleTagsTagKey_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

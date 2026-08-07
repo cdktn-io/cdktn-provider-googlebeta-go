@@ -7,7 +7,7 @@ package googlevertexaireasoningengine
 type GoogleVertexAiReasoningEngineTrafficConfigTrafficSplitManual struct {
 	// targets block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_vertex_ai_reasoning_engine#targets GoogleVertexAiReasoningEngine#targets}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_vertex_ai_reasoning_engine#targets GoogleVertexAiReasoningEngine#targets}
 	Targets interface{} `field:"optional" json:"targets" yaml:"targets"`
 }
 

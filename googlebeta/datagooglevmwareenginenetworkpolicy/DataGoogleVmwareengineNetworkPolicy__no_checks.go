@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataGoogleVmwareengineNetworkPolicy) validateOverrideLogicalI
 	return nil
 }
 
+func (d *jsiiProxy_DataGoogleVmwareengineNetworkPolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataGoogleVmwareengineNetworkPolicy_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

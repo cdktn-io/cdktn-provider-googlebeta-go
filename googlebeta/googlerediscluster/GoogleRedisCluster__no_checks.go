@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleRedisCluster) validateInterpolationForAttributeParamete
 	return nil
 }
 
+func (g *jsiiProxy_GoogleRedisCluster) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleRedisCluster) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -108,6 +112,10 @@ func (g *jsiiProxy_GoogleRedisCluster) validatePutTimeoutsParameters(value *Goog
 }
 
 func (g *jsiiProxy_GoogleRedisCluster) validatePutZoneDistributionConfigParameters(value *GoogleRedisClusterZoneDistributionConfig) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleRedisCluster) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

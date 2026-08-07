@@ -59,6 +59,10 @@ func (g *jsiiProxy_GooglePubsubSubscriptionIamPolicy) validateInterpolationForAt
 	return nil
 }
 
+func (g *jsiiProxy_GooglePubsubSubscriptionIamPolicy) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GooglePubsubSubscriptionIamPolicy) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (g *jsiiProxy_GooglePubsubSubscriptionIamPolicy) validateMoveToIdParameters
 }
 
 func (g *jsiiProxy_GooglePubsubSubscriptionIamPolicy) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GooglePubsubSubscriptionIamPolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

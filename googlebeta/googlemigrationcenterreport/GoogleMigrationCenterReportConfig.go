@@ -24,11 +24,11 @@ type GoogleMigrationCenterReportConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_migration_center_report#location GoogleMigrationCenterReport#location}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_migration_center_report#location GoogleMigrationCenterReport#location}
 	Location *string `field:"required" json:"location" yaml:"location"`
 	// Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_migration_center_report#report_config GoogleMigrationCenterReport#report_config}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_migration_center_report#report_config GoogleMigrationCenterReport#report_config}
 	ReportConfig *string `field:"required" json:"reportConfig" yaml:"reportConfig"`
 	// User specified id for the report.
 	//
@@ -38,7 +38,7 @@ type GoogleMigrationCenterReportConfig struct {
 	// maximum length of 63 characters. The id must match the regular expression:
 	// [a-z]([a-z0-9-]{0,61}[a-z0-9])?.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_migration_center_report#report_id GoogleMigrationCenterReport#report_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_migration_center_report#report_id GoogleMigrationCenterReport#report_id}
 	ReportId *string `field:"required" json:"reportId" yaml:"reportId"`
 	// Whether Terraform will be prevented from destroying the instance.
 	//
@@ -50,30 +50,30 @@ type GoogleMigrationCenterReportConfig struct {
 	// When set to "DELETE", deleting the resource is allowed.
 	//
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_migration_center_report#deletion_policy GoogleMigrationCenterReport#deletion_policy}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_migration_center_report#deletion_policy GoogleMigrationCenterReport#deletion_policy}
 	DeletionPolicy *string `field:"optional" json:"deletionPolicy" yaml:"deletionPolicy"`
 	// Free-text description.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_migration_center_report#description GoogleMigrationCenterReport#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_migration_center_report#description GoogleMigrationCenterReport#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
 	// User-friendly display name. Maximum length is 63 characters.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_migration_center_report#display_name GoogleMigrationCenterReport#display_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_migration_center_report#display_name GoogleMigrationCenterReport#display_name}
 	DisplayName *string `field:"optional" json:"displayName" yaml:"displayName"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_migration_center_report#id GoogleMigrationCenterReport#id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_migration_center_report#id GoogleMigrationCenterReport#id}.
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
 	Id *string `field:"optional" json:"id" yaml:"id"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_migration_center_report#project GoogleMigrationCenterReport#project}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_migration_center_report#project GoogleMigrationCenterReport#project}.
 	Project *string `field:"optional" json:"project" yaml:"project"`
 	// timeouts block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_migration_center_report#timeouts GoogleMigrationCenterReport#timeouts}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_migration_center_report#timeouts GoogleMigrationCenterReport#timeouts}
 	Timeouts *GoogleMigrationCenterReportTimeouts `field:"optional" json:"timeouts" yaml:"timeouts"`
 	// Report type. Possible values: TOTAL_COST_OF_OWNERSHIP.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_migration_center_report#type GoogleMigrationCenterReport#type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_migration_center_report#type GoogleMigrationCenterReport#type}
 	Type *string `field:"optional" json:"type" yaml:"type"`
 }
 

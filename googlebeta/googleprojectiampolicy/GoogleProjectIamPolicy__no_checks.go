@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleProjectIamPolicy) validateInterpolationForAttributePara
 	return nil
 }
 
+func (g *jsiiProxy_GoogleProjectIamPolicy) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleProjectIamPolicy) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (g *jsiiProxy_GoogleProjectIamPolicy) validateMoveToIdParameters(id *string
 }
 
 func (g *jsiiProxy_GoogleProjectIamPolicy) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleProjectIamPolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

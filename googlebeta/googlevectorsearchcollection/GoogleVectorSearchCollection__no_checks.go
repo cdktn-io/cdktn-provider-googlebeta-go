@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleVectorSearchCollection) validateInterpolationForAttribu
 	return nil
 }
 
+func (g *jsiiProxy_GoogleVectorSearchCollection) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleVectorSearchCollection) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (g *jsiiProxy_GoogleVectorSearchCollection) validatePutTimeoutsParameters(v
 }
 
 func (g *jsiiProxy_GoogleVectorSearchCollection) validatePutVectorSchemaParameters(value interface{}) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleVectorSearchCollection) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

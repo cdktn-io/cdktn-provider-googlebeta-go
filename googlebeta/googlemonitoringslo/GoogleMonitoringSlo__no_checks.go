@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleMonitoringSlo) validateInterpolationForAttributeParamet
 	return nil
 }
 
+func (g *jsiiProxy_GoogleMonitoringSlo) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleMonitoringSlo) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -88,6 +92,10 @@ func (g *jsiiProxy_GoogleMonitoringSlo) validatePutTimeoutsParameters(value *Goo
 }
 
 func (g *jsiiProxy_GoogleMonitoringSlo) validatePutWindowsBasedSliParameters(value *GoogleMonitoringSloWindowsBasedSli) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleMonitoringSlo) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

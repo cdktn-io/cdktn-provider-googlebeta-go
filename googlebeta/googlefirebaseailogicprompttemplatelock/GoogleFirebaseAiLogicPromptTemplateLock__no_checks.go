@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleFirebaseAiLogicPromptTemplateLock) validateInterpolatio
 	return nil
 }
 
+func (g *jsiiProxy_GoogleFirebaseAiLogicPromptTemplateLock) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleFirebaseAiLogicPromptTemplateLock) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleFirebaseAiLogicPromptTemplateLock) validateOverrideLogi
 }
 
 func (g *jsiiProxy_GoogleFirebaseAiLogicPromptTemplateLock) validatePutTimeoutsParameters(value *GoogleFirebaseAiLogicPromptTemplateLockTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleFirebaseAiLogicPromptTemplateLock) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

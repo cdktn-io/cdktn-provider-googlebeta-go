@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleFirebaseRemoteConfigRemoteConfig) validateInterpolation
 	return nil
 }
 
+func (g *jsiiProxy_GoogleFirebaseRemoteConfigRemoteConfig) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleFirebaseRemoteConfigRemoteConfig) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -88,6 +92,10 @@ func (g *jsiiProxy_GoogleFirebaseRemoteConfigRemoteConfig) validatePutParameters
 }
 
 func (g *jsiiProxy_GoogleFirebaseRemoteConfigRemoteConfig) validatePutTimeoutsParameters(value *GoogleFirebaseRemoteConfigRemoteConfigTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleFirebaseRemoteConfigRemoteConfig) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

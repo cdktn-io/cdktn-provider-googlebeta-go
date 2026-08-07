@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleContainerAnalysisOccurrence) validateInterpolationForAt
 	return nil
 }
 
+func (g *jsiiProxy_GoogleContainerAnalysisOccurrence) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleContainerAnalysisOccurrence) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (g *jsiiProxy_GoogleContainerAnalysisOccurrence) validatePutAttestationPara
 }
 
 func (g *jsiiProxy_GoogleContainerAnalysisOccurrence) validatePutTimeoutsParameters(value *GoogleContainerAnalysisOccurrenceTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleContainerAnalysisOccurrence) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

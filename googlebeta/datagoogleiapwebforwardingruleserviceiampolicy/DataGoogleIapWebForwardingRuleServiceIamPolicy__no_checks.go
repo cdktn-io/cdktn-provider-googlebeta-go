@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataGoogleIapWebForwardingRuleServiceIamPolicy) validateOverr
 	return nil
 }
 
+func (d *jsiiProxy_DataGoogleIapWebForwardingRuleServiceIamPolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataGoogleIapWebForwardingRuleServiceIamPolicy_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

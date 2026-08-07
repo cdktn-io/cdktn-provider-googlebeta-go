@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleVertexAiFeatureOnlineStoreFeatureviewIamPolicy) validat
 	return nil
 }
 
+func (g *jsiiProxy_GoogleVertexAiFeatureOnlineStoreFeatureviewIamPolicy) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleVertexAiFeatureOnlineStoreFeatureviewIamPolicy) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (g *jsiiProxy_GoogleVertexAiFeatureOnlineStoreFeatureviewIamPolicy) validat
 }
 
 func (g *jsiiProxy_GoogleVertexAiFeatureOnlineStoreFeatureviewIamPolicy) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleVertexAiFeatureOnlineStoreFeatureviewIamPolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

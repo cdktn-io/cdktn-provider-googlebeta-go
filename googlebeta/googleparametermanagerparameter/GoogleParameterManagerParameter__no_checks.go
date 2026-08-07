@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleParameterManagerParameter) validateInterpolationForAttr
 	return nil
 }
 
+func (g *jsiiProxy_GoogleParameterManagerParameter) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleParameterManagerParameter) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleParameterManagerParameter) validateOverrideLogicalIdPar
 }
 
 func (g *jsiiProxy_GoogleParameterManagerParameter) validatePutTimeoutsParameters(value *GoogleParameterManagerParameterTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleParameterManagerParameter) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleNetworkManagementOrganizationVpcFlowLogsConfig) validat
 	return nil
 }
 
+func (g *jsiiProxy_GoogleNetworkManagementOrganizationVpcFlowLogsConfig) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleNetworkManagementOrganizationVpcFlowLogsConfig) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleNetworkManagementOrganizationVpcFlowLogsConfig) validat
 }
 
 func (g *jsiiProxy_GoogleNetworkManagementOrganizationVpcFlowLogsConfig) validatePutTimeoutsParameters(value *GoogleNetworkManagementOrganizationVpcFlowLogsConfigTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleNetworkManagementOrganizationVpcFlowLogsConfig) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

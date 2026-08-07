@@ -103,6 +103,10 @@ func (g *jsiiProxy_GoogleContainerClusterAddonsConfigOutputReference) validatePu
 	return nil
 }
 
+func (g *jsiiProxy_GoogleContainerClusterAddonsConfigOutputReference) validatePutNodeReadinessConfigParameters(value *GoogleContainerClusterAddonsConfigNodeReadinessConfig) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleContainerClusterAddonsConfigOutputReference) validatePutParallelstoreCsiDriverConfigParameters(value *GoogleContainerClusterAddonsConfigParallelstoreCsiDriverConfig) error {
 	return nil
 }

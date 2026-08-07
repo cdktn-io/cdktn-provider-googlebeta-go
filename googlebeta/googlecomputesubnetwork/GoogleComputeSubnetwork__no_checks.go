@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleComputeSubnetwork) validateInterpolationForAttributePar
 	return nil
 }
 
+func (g *jsiiProxy_GoogleComputeSubnetwork) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleComputeSubnetwork) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -88,6 +92,10 @@ func (g *jsiiProxy_GoogleComputeSubnetwork) validatePutSecondaryIpRangeParameter
 }
 
 func (g *jsiiProxy_GoogleComputeSubnetwork) validatePutTimeoutsParameters(value *GoogleComputeSubnetworkTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleComputeSubnetwork) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -5,9 +5,9 @@ package googlebigquerydatatransferconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlebigquerydatatransferconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebigquerydatatransferconfig/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -35,7 +35,9 @@ type GoogleBigqueryDataTransferConfigSensitiveParamsOutputReference interface {
 	SecretAccessKey() *string
 	SetSecretAccessKey(val *string)
 	SecretAccessKeyInput() *string
+	// Deprecated: Write-only: the provider never returns this value; reading it always yields null by protocol contract. The getter remains for compatibility and will be removed in a future prebuilt-provider major.
 	SecretAccessKeyWo() *string
+	// Deprecated: Write-only: the provider never returns this value; reading it always yields null by protocol contract. The getter remains for compatibility and will be removed in a future prebuilt-provider major.
 	SetSecretAccessKeyWo(val *string)
 	SecretAccessKeyWoInput() *string
 	SecretAccessKeyWoVersion() *float64

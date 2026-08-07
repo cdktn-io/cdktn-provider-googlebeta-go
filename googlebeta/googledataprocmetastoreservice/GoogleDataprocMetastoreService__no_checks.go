@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleDataprocMetastoreService) validateInterpolationForAttri
 	return nil
 }
 
+func (g *jsiiProxy_GoogleDataprocMetastoreService) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleDataprocMetastoreService) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -108,6 +112,10 @@ func (g *jsiiProxy_GoogleDataprocMetastoreService) validatePutTelemetryConfigPar
 }
 
 func (g *jsiiProxy_GoogleDataprocMetastoreService) validatePutTimeoutsParameters(value *GoogleDataprocMetastoreServiceTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleDataprocMetastoreService) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

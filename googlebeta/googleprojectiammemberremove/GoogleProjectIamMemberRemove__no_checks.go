@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleProjectIamMemberRemove) validateInterpolationForAttribu
 	return nil
 }
 
+func (g *jsiiProxy_GoogleProjectIamMemberRemove) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleProjectIamMemberRemove) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (g *jsiiProxy_GoogleProjectIamMemberRemove) validateMoveToIdParameters(id *
 }
 
 func (g *jsiiProxy_GoogleProjectIamMemberRemove) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleProjectIamMemberRemove) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

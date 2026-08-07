@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleSecretManagerSecret) validateInterpolationForAttributeP
 	return nil
 }
 
+func (g *jsiiProxy_GoogleSecretManagerSecret) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleSecretManagerSecret) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -88,6 +92,10 @@ func (g *jsiiProxy_GoogleSecretManagerSecret) validatePutTimeoutsParameters(valu
 }
 
 func (g *jsiiProxy_GoogleSecretManagerSecret) validatePutTopicsParameters(value interface{}) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleSecretManagerSecret) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -5,9 +5,9 @@ package googlecomposerenvironment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlecomposerenvironment/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomposerenvironment/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -75,6 +75,8 @@ type GoogleComposerEnvironmentConfigNodeConfigOutputReference interface {
 	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
 	SetTerraformResource(val cdktn.IInterpolatingParent)
+	TrafficRoutingConfig() GoogleComposerEnvironmentConfigNodeConfigTrafficRoutingConfigOutputReference
+	TrafficRoutingConfigInput() *GoogleComposerEnvironmentConfigNodeConfigTrafficRoutingConfig
 	Zone() *string
 	SetZone(val *string)
 	ZoneInput() *string
@@ -103,6 +105,7 @@ type GoogleComposerEnvironmentConfigNodeConfigOutputReference interface {
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutIpAllocationPolicy(value *GoogleComposerEnvironmentConfigNodeConfigIpAllocationPolicy)
+	PutTrafficRoutingConfig(value *GoogleComposerEnvironmentConfigNodeConfigTrafficRoutingConfig)
 	ResetComposerInternalIpv4CidrBlock()
 	ResetComposerNetworkAttachment()
 	ResetDiskSizeGb()
@@ -115,6 +118,7 @@ type GoogleComposerEnvironmentConfigNodeConfigOutputReference interface {
 	ResetServiceAccount()
 	ResetSubnetwork()
 	ResetTags()
+	ResetTrafficRoutingConfig()
 	ResetZone()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -436,6 +440,26 @@ func (j *jsiiProxy_GoogleComposerEnvironmentConfigNodeConfigOutputReference) Ter
 	_jsii_.Get(
 		j,
 		"terraformResource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComposerEnvironmentConfigNodeConfigOutputReference) TrafficRoutingConfig() GoogleComposerEnvironmentConfigNodeConfigTrafficRoutingConfigOutputReference {
+	var returns GoogleComposerEnvironmentConfigNodeConfigTrafficRoutingConfigOutputReference
+	_jsii_.Get(
+		j,
+		"trafficRoutingConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComposerEnvironmentConfigNodeConfigOutputReference) TrafficRoutingConfigInput() *GoogleComposerEnvironmentConfigNodeConfigTrafficRoutingConfig {
+	var returns *GoogleComposerEnvironmentConfigNodeConfigTrafficRoutingConfig
+	_jsii_.Get(
+		j,
+		"trafficRoutingConfigInput",
 		&returns,
 	)
 	return returns
@@ -873,6 +897,17 @@ func (g *jsiiProxy_GoogleComposerEnvironmentConfigNodeConfigOutputReference) Put
 	)
 }
 
+func (g *jsiiProxy_GoogleComposerEnvironmentConfigNodeConfigOutputReference) PutTrafficRoutingConfig(value *GoogleComposerEnvironmentConfigNodeConfigTrafficRoutingConfig) {
+	if err := g.validatePutTrafficRoutingConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putTrafficRoutingConfig",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleComposerEnvironmentConfigNodeConfigOutputReference) ResetComposerInternalIpv4CidrBlock() {
 	_jsii_.InvokeVoid(
 		g,
@@ -965,6 +1000,14 @@ func (g *jsiiProxy_GoogleComposerEnvironmentConfigNodeConfigOutputReference) Res
 	_jsii_.InvokeVoid(
 		g,
 		"resetTags",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleComposerEnvironmentConfigNodeConfigOutputReference) ResetTrafficRoutingConfig() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetTrafficRoutingConfig",
 		nil, // no parameters
 	)
 }

@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleVmwareengineNetworkPolicy) validateInterpolationForAttr
 	return nil
 }
 
+func (g *jsiiProxy_GoogleVmwareengineNetworkPolicy) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleVmwareengineNetworkPolicy) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (g *jsiiProxy_GoogleVmwareengineNetworkPolicy) validatePutInternetAccessPar
 }
 
 func (g *jsiiProxy_GoogleVmwareengineNetworkPolicy) validatePutTimeoutsParameters(value *GoogleVmwareengineNetworkPolicyTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleVmwareengineNetworkPolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

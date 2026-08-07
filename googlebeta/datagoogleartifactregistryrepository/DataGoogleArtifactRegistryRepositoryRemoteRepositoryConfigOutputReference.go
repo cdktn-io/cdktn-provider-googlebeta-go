@@ -5,9 +5,9 @@ package datagoogleartifactregistryrepository
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagoogleartifactregistryrepository/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoogleartifactregistryrepository/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -38,6 +38,7 @@ type DataGoogleArtifactRegistryRepositoryRemoteRepositoryConfigOutputReference i
 	InternalValue() *DataGoogleArtifactRegistryRepositoryRemoteRepositoryConfig
 	SetInternalValue(val *DataGoogleArtifactRegistryRepositoryRemoteRepositoryConfig)
 	MavenRepository() DataGoogleArtifactRegistryRepositoryRemoteRepositoryConfigMavenRepositoryList
+	NoCache() DataGoogleArtifactRegistryRepositoryRemoteRepositoryConfigNoCacheList
 	NpmRepository() DataGoogleArtifactRegistryRepositoryRemoteRepositoryConfigNpmRepositoryList
 	PythonRepository() DataGoogleArtifactRegistryRepositoryRemoteRepositoryConfigPythonRepositoryList
 	// Experimental.
@@ -194,6 +195,16 @@ func (j *jsiiProxy_DataGoogleArtifactRegistryRepositoryRemoteRepositoryConfigOut
 	_jsii_.Get(
 		j,
 		"mavenRepository",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleArtifactRegistryRepositoryRemoteRepositoryConfigOutputReference) NoCache() DataGoogleArtifactRegistryRepositoryRemoteRepositoryConfigNoCacheList {
+	var returns DataGoogleArtifactRegistryRepositoryRemoteRepositoryConfigNoCacheList
+	_jsii_.Get(
+		j,
+		"noCache",
 		&returns,
 	)
 	return returns

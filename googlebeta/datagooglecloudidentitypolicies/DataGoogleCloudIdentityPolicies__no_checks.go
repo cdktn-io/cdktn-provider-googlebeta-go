@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataGoogleCloudIdentityPolicies) validateOverrideLogicalIdPar
 	return nil
 }
 
+func (d *jsiiProxy_DataGoogleCloudIdentityPolicies) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataGoogleCloudIdentityPolicies_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

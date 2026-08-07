@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataGoogleVertexAiIndex) validateOverrideLogicalIdParameters(
 	return nil
 }
 
+func (d *jsiiProxy_DataGoogleVertexAiIndex) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataGoogleVertexAiIndex_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

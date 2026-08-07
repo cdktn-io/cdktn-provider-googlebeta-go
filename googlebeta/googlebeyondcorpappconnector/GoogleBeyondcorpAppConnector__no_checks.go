@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleBeyondcorpAppConnector) validateInterpolationForAttribu
 	return nil
 }
 
+func (g *jsiiProxy_GoogleBeyondcorpAppConnector) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleBeyondcorpAppConnector) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (g *jsiiProxy_GoogleBeyondcorpAppConnector) validatePutPrincipalInfoParamet
 }
 
 func (g *jsiiProxy_GoogleBeyondcorpAppConnector) validatePutTimeoutsParameters(value *GoogleBeyondcorpAppConnectorTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleBeyondcorpAppConnector) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

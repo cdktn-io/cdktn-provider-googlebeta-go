@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataGoogleComputeInstantSnapshotIamPolicy) validateOverrideLo
 	return nil
 }
 
+func (d *jsiiProxy_DataGoogleComputeInstantSnapshotIamPolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataGoogleComputeInstantSnapshotIamPolicy_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

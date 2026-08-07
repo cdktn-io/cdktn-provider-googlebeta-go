@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleKmsProjectAutokeyConfig) validateInterpolationForAttrib
 	return nil
 }
 
+func (g *jsiiProxy_GoogleKmsProjectAutokeyConfig) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleKmsProjectAutokeyConfig) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleKmsProjectAutokeyConfig) validateOverrideLogicalIdParam
 }
 
 func (g *jsiiProxy_GoogleKmsProjectAutokeyConfig) validatePutTimeoutsParameters(value *GoogleKmsProjectAutokeyConfigTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleKmsProjectAutokeyConfig) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -5,9 +5,9 @@ package datagooglecomposerenvironment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/datagooglecomposerenvironment/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagooglecomposerenvironment/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -52,6 +52,7 @@ type DataGoogleComposerEnvironmentConfigNodeConfigOutputReference interface {
 	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
 	SetTerraformResource(val cdktn.IInterpolatingParent)
+	TrafficRoutingConfig() DataGoogleComposerEnvironmentConfigNodeConfigTrafficRoutingConfigList
 	Zone() *string
 	// Experimental.
 	ComputeFqn() *string
@@ -277,6 +278,16 @@ func (j *jsiiProxy_DataGoogleComposerEnvironmentConfigNodeConfigOutputReference)
 	_jsii_.Get(
 		j,
 		"terraformResource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleComposerEnvironmentConfigNodeConfigOutputReference) TrafficRoutingConfig() DataGoogleComposerEnvironmentConfigNodeConfigTrafficRoutingConfigList {
+	var returns DataGoogleComposerEnvironmentConfigNodeConfigTrafficRoutingConfigList
+	_jsii_.Get(
+		j,
+		"trafficRoutingConfig",
 		&returns,
 	)
 	return returns

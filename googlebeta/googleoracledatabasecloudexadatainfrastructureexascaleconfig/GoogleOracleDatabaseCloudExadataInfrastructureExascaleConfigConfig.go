@@ -24,13 +24,13 @@ type GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfigConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// A reference to CloudExadataInfrastructure resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_oracle_database_cloud_exadata_infrastructure_exascale_config#cloud_exadata_infrastructure GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig#cloud_exadata_infrastructure}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_oracle_database_cloud_exadata_infrastructure_exascale_config#cloud_exadata_infrastructure GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig#cloud_exadata_infrastructure}
 	CloudExadataInfrastructure *string `field:"required" json:"cloudExadataInfrastructure" yaml:"cloudExadataInfrastructure"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_oracle_database_cloud_exadata_infrastructure_exascale_config#location GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig#location}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_oracle_database_cloud_exadata_infrastructure_exascale_config#location GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig#location}.
 	Location *string `field:"required" json:"location" yaml:"location"`
 	// The total storage to be allocated to Exascale in GBs.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_oracle_database_cloud_exadata_infrastructure_exascale_config#total_storage_size_gb GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig#total_storage_size_gb}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_oracle_database_cloud_exadata_infrastructure_exascale_config#total_storage_size_gb GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig#total_storage_size_gb}
 	TotalStorageSizeGb *float64 `field:"required" json:"totalStorageSizeGb" yaml:"totalStorageSizeGb"`
 	// Whether Terraform will be prevented from destroying the instance.
 	//
@@ -42,18 +42,18 @@ type GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfigConfig struct {
 	// When set to "DELETE", deleting the resource is allowed.
 	//
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_oracle_database_cloud_exadata_infrastructure_exascale_config#deletion_policy GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig#deletion_policy}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_oracle_database_cloud_exadata_infrastructure_exascale_config#deletion_policy GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig#deletion_policy}
 	DeletionPolicy *string `field:"optional" json:"deletionPolicy" yaml:"deletionPolicy"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_oracle_database_cloud_exadata_infrastructure_exascale_config#id GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig#id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_oracle_database_cloud_exadata_infrastructure_exascale_config#id GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig#id}.
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
 	Id *string `field:"optional" json:"id" yaml:"id"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_oracle_database_cloud_exadata_infrastructure_exascale_config#project GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig#project}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_oracle_database_cloud_exadata_infrastructure_exascale_config#project GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig#project}.
 	Project *string `field:"optional" json:"project" yaml:"project"`
 	// timeouts block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_oracle_database_cloud_exadata_infrastructure_exascale_config#timeouts GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig#timeouts}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_oracle_database_cloud_exadata_infrastructure_exascale_config#timeouts GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig#timeouts}
 	Timeouts *GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfigTimeouts `field:"optional" json:"timeouts" yaml:"timeouts"`
 }
 

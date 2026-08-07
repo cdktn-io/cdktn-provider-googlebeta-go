@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleLoggingLogViewIamMember) validateInterpolationForAttrib
 	return nil
 }
 
+func (g *jsiiProxy_GoogleLoggingLogViewIamMember) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleLoggingLogViewIamMember) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleLoggingLogViewIamMember) validateOverrideLogicalIdParam
 }
 
 func (g *jsiiProxy_GoogleLoggingLogViewIamMember) validatePutConditionParameters(value *GoogleLoggingLogViewIamMemberCondition) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleLoggingLogViewIamMember) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

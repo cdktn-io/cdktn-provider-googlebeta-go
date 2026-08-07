@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleDataplexEntryType) validateInterpolationForAttributePar
 	return nil
 }
 
+func (g *jsiiProxy_GoogleDataplexEntryType) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleDataplexEntryType) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (g *jsiiProxy_GoogleDataplexEntryType) validatePutRequiredAspectsParameters
 }
 
 func (g *jsiiProxy_GoogleDataplexEntryType) validatePutTimeoutsParameters(value *GoogleDataplexEntryTypeTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleDataplexEntryType) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

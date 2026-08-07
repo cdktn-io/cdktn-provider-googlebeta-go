@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleColabRuntime) validateInterpolationForAttributeParamete
 	return nil
 }
 
+func (g *jsiiProxy_GoogleColabRuntime) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleColabRuntime) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (g *jsiiProxy_GoogleColabRuntime) validatePutNotebookRuntimeTemplateRefPara
 }
 
 func (g *jsiiProxy_GoogleColabRuntime) validatePutTimeoutsParameters(value *GoogleColabRuntimeTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleColabRuntime) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

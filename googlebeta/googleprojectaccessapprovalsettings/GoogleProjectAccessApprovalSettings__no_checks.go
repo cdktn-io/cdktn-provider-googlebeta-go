@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleProjectAccessApprovalSettings) validateInterpolationFor
 	return nil
 }
 
+func (g *jsiiProxy_GoogleProjectAccessApprovalSettings) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleProjectAccessApprovalSettings) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (g *jsiiProxy_GoogleProjectAccessApprovalSettings) validatePutEnrolledServi
 }
 
 func (g *jsiiProxy_GoogleProjectAccessApprovalSettings) validatePutTimeoutsParameters(value *GoogleProjectAccessApprovalSettingsTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleProjectAccessApprovalSettings) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

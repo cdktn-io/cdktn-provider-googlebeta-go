@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleMigrationCenterAssetsExportJob) validateInterpolationFo
 	return nil
 }
 
+func (g *jsiiProxy_GoogleMigrationCenterAssetsExportJob) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleMigrationCenterAssetsExportJob) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -88,6 +92,10 @@ func (g *jsiiProxy_GoogleMigrationCenterAssetsExportJob) validatePutSignedUriDes
 }
 
 func (g *jsiiProxy_GoogleMigrationCenterAssetsExportJob) validatePutTimeoutsParameters(value *GoogleMigrationCenterAssetsExportJobTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleMigrationCenterAssetsExportJob) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

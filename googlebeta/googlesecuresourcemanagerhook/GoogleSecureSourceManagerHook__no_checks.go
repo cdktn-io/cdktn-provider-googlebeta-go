@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleSecureSourceManagerHook) validateInterpolationForAttrib
 	return nil
 }
 
+func (g *jsiiProxy_GoogleSecureSourceManagerHook) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleSecureSourceManagerHook) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (g *jsiiProxy_GoogleSecureSourceManagerHook) validatePutPushOptionParameter
 }
 
 func (g *jsiiProxy_GoogleSecureSourceManagerHook) validatePutTimeoutsParameters(value *GoogleSecureSourceManagerHookTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleSecureSourceManagerHook) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

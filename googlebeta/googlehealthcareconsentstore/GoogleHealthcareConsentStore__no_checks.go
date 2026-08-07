@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleHealthcareConsentStore) validateInterpolationForAttribu
 	return nil
 }
 
+func (g *jsiiProxy_GoogleHealthcareConsentStore) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleHealthcareConsentStore) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleHealthcareConsentStore) validateOverrideLogicalIdParame
 }
 
 func (g *jsiiProxy_GoogleHealthcareConsentStore) validatePutTimeoutsParameters(value *GoogleHealthcareConsentStoreTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleHealthcareConsentStore) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

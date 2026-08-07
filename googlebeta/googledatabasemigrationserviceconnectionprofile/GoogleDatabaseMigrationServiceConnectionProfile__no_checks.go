@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleDatabaseMigrationServiceConnectionProfile) validateInte
 	return nil
 }
 
+func (g *jsiiProxy_GoogleDatabaseMigrationServiceConnectionProfile) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleDatabaseMigrationServiceConnectionProfile) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -96,6 +100,10 @@ func (g *jsiiProxy_GoogleDatabaseMigrationServiceConnectionProfile) validatePutP
 }
 
 func (g *jsiiProxy_GoogleDatabaseMigrationServiceConnectionProfile) validatePutTimeoutsParameters(value *GoogleDatabaseMigrationServiceConnectionProfileTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleDatabaseMigrationServiceConnectionProfile) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -24,22 +24,22 @@ type DataGoogleAgentRegistryMcpServerConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The location of the resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/data-sources/google_agent_registry_mcp_server#location DataGoogleAgentRegistryMcpServer#location}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/data-sources/google_agent_registry_mcp_server#location DataGoogleAgentRegistryMcpServer#location}
 	Location *string `field:"required" json:"location" yaml:"location"`
 	// A filter string that identifies a unique MCP server.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/data-sources/google_agent_registry_mcp_server#filter DataGoogleAgentRegistryMcpServer#filter}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/data-sources/google_agent_registry_mcp_server#filter DataGoogleAgentRegistryMcpServer#filter}
 	Filter *string `field:"optional" json:"filter" yaml:"filter"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/data-sources/google_agent_registry_mcp_server#id DataGoogleAgentRegistryMcpServer#id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/data-sources/google_agent_registry_mcp_server#id DataGoogleAgentRegistryMcpServer#id}.
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
 	Id *string `field:"optional" json:"id" yaml:"id"`
 	// The unique identifier for the MCP server.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/data-sources/google_agent_registry_mcp_server#mcp_server_id DataGoogleAgentRegistryMcpServer#mcp_server_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/data-sources/google_agent_registry_mcp_server#mcp_server_id DataGoogleAgentRegistryMcpServer#mcp_server_id}
 	McpServerId *string `field:"optional" json:"mcpServerId" yaml:"mcpServerId"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/data-sources/google_agent_registry_mcp_server#project DataGoogleAgentRegistryMcpServer#project}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/data-sources/google_agent_registry_mcp_server#project DataGoogleAgentRegistryMcpServer#project}.
 	Project *string `field:"optional" json:"project" yaml:"project"`
 }
 

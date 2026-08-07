@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleBigqueryAnalyticsHubDataExchange) validateInterpolation
 	return nil
 }
 
+func (g *jsiiProxy_GoogleBigqueryAnalyticsHubDataExchange) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleBigqueryAnalyticsHubDataExchange) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (g *jsiiProxy_GoogleBigqueryAnalyticsHubDataExchange) validatePutSharingEnv
 }
 
 func (g *jsiiProxy_GoogleBigqueryAnalyticsHubDataExchange) validatePutTimeoutsParameters(value *GoogleBigqueryAnalyticsHubDataExchangeTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleBigqueryAnalyticsHubDataExchange) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

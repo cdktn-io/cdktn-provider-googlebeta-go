@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleHealthcareHl7V2StoreIamBinding) validateInterpolationFo
 	return nil
 }
 
+func (g *jsiiProxy_GoogleHealthcareHl7V2StoreIamBinding) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleHealthcareHl7V2StoreIamBinding) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleHealthcareHl7V2StoreIamBinding) validateOverrideLogical
 }
 
 func (g *jsiiProxy_GoogleHealthcareHl7V2StoreIamBinding) validatePutConditionParameters(value *GoogleHealthcareHl7V2StoreIamBindingCondition) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleHealthcareHl7V2StoreIamBinding) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

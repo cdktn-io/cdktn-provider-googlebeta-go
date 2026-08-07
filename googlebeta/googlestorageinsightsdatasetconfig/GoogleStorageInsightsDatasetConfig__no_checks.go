@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleStorageInsightsDatasetConfig) validateInterpolationForA
 	return nil
 }
 
+func (g *jsiiProxy_GoogleStorageInsightsDatasetConfig) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleStorageInsightsDatasetConfig) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -104,6 +108,10 @@ func (g *jsiiProxy_GoogleStorageInsightsDatasetConfig) validatePutSourceProjects
 }
 
 func (g *jsiiProxy_GoogleStorageInsightsDatasetConfig) validatePutTimeoutsParameters(value *GoogleStorageInsightsDatasetConfigTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleStorageInsightsDatasetConfig) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

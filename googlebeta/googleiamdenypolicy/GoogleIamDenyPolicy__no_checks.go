@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleIamDenyPolicy) validateInterpolationForAttributeParamet
 	return nil
 }
 
+func (g *jsiiProxy_GoogleIamDenyPolicy) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleIamDenyPolicy) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (g *jsiiProxy_GoogleIamDenyPolicy) validatePutRulesParameters(value interfa
 }
 
 func (g *jsiiProxy_GoogleIamDenyPolicy) validatePutTimeoutsParameters(value *GoogleIamDenyPolicyTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleIamDenyPolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

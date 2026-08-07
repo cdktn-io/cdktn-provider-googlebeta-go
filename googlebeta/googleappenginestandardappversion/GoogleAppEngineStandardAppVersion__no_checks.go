@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleAppEngineStandardAppVersion) validateInterpolationForAt
 	return nil
 }
 
+func (g *jsiiProxy_GoogleAppEngineStandardAppVersion) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleAppEngineStandardAppVersion) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -108,6 +112,10 @@ func (g *jsiiProxy_GoogleAppEngineStandardAppVersion) validatePutTimeoutsParamet
 }
 
 func (g *jsiiProxy_GoogleAppEngineStandardAppVersion) validatePutVpcAccessConnectorParameters(value *GoogleAppEngineStandardAppVersionVpcAccessConnector) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleAppEngineStandardAppVersion) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

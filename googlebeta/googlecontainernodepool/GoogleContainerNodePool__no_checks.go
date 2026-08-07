@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleContainerNodePool) validateInterpolationForAttributePar
 	return nil
 }
 
+func (g *jsiiProxy_GoogleContainerNodePool) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleContainerNodePool) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -112,6 +116,10 @@ func (g *jsiiProxy_GoogleContainerNodePool) validatePutTimeoutsParameters(value 
 }
 
 func (g *jsiiProxy_GoogleContainerNodePool) validatePutUpgradeSettingsParameters(value *GoogleContainerNodePoolUpgradeSettings) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleContainerNodePool) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

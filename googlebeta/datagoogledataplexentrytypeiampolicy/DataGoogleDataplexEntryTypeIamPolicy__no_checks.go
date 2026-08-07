@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataGoogleDataplexEntryTypeIamPolicy) validateOverrideLogical
 	return nil
 }
 
+func (d *jsiiProxy_DataGoogleDataplexEntryTypeIamPolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataGoogleDataplexEntryTypeIamPolicy_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

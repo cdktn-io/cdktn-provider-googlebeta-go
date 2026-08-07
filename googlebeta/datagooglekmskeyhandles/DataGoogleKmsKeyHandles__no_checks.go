@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataGoogleKmsKeyHandles) validateOverrideLogicalIdParameters(
 	return nil
 }
 
+func (d *jsiiProxy_DataGoogleKmsKeyHandles) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataGoogleKmsKeyHandles_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

@@ -49,6 +49,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "projectInput", GoGetter: "ProjectInput"},
 			_jsii_.MemberProperty{JsiiProperty: "provider", GoGetter: "Provider"},
 			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
+			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
 			_jsii_.MemberProperty{JsiiProperty: "reservation", GoGetter: "Reservation"},
 			_jsii_.MemberProperty{JsiiProperty: "reservationInput", GoGetter: "ReservationInput"},
 			_jsii_.MemberProperty{JsiiProperty: "reservationMaintenance", GoGetter: "ReservationMaintenance"},

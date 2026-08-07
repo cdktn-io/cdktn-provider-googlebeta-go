@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleSecretManagerRegionalSecretVersion) validateInterpolati
 	return nil
 }
 
+func (g *jsiiProxy_GoogleSecretManagerRegionalSecretVersion) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleSecretManagerRegionalSecretVersion) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleSecretManagerRegionalSecretVersion) validateOverrideLog
 }
 
 func (g *jsiiProxy_GoogleSecretManagerRegionalSecretVersion) validatePutTimeoutsParameters(value *GoogleSecretManagerRegionalSecretVersionTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleSecretManagerRegionalSecretVersion) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

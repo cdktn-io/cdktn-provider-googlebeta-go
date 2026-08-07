@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleRecaptchaEnterpriseKey) validateInterpolationForAttribu
 	return nil
 }
 
+func (g *jsiiProxy_GoogleRecaptchaEnterpriseKey) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleRecaptchaEnterpriseKey) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -96,6 +100,10 @@ func (g *jsiiProxy_GoogleRecaptchaEnterpriseKey) validatePutWafSettingsParameter
 }
 
 func (g *jsiiProxy_GoogleRecaptchaEnterpriseKey) validatePutWebSettingsParameters(value *GoogleRecaptchaEnterpriseKeyWebSettings) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleRecaptchaEnterpriseKey) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

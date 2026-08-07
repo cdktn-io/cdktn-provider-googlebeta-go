@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleAccessContextManagerAuthorizedOrgsDesc) validateInterpo
 	return nil
 }
 
+func (g *jsiiProxy_GoogleAccessContextManagerAuthorizedOrgsDesc) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleAccessContextManagerAuthorizedOrgsDesc) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleAccessContextManagerAuthorizedOrgsDesc) validateOverrid
 }
 
 func (g *jsiiProxy_GoogleAccessContextManagerAuthorizedOrgsDesc) validatePutTimeoutsParameters(value *GoogleAccessContextManagerAuthorizedOrgsDescTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleAccessContextManagerAuthorizedOrgsDesc) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

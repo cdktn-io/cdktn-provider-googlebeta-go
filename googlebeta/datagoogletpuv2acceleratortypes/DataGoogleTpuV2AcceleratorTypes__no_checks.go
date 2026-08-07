@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataGoogleTpuV2AcceleratorTypes) validateOverrideLogicalIdPar
 	return nil
 }
 
+func (d *jsiiProxy_DataGoogleTpuV2AcceleratorTypes) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataGoogleTpuV2AcceleratorTypes_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

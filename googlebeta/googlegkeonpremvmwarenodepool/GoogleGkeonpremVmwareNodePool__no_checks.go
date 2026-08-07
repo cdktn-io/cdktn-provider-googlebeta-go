@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleGkeonpremVmwareNodePool) validateInterpolationForAttrib
 	return nil
 }
 
+func (g *jsiiProxy_GoogleGkeonpremVmwareNodePool) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleGkeonpremVmwareNodePool) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (g *jsiiProxy_GoogleGkeonpremVmwareNodePool) validatePutNodePoolAutoscaling
 }
 
 func (g *jsiiProxy_GoogleGkeonpremVmwareNodePool) validatePutTimeoutsParameters(value *GoogleGkeonpremVmwareNodePoolTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleGkeonpremVmwareNodePool) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

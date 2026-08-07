@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleDataplexZoneIamMember) validateInterpolationForAttribut
 	return nil
 }
 
+func (g *jsiiProxy_GoogleDataplexZoneIamMember) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleDataplexZoneIamMember) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleDataplexZoneIamMember) validateOverrideLogicalIdParamet
 }
 
 func (g *jsiiProxy_GoogleDataplexZoneIamMember) validatePutConditionParameters(value *GoogleDataplexZoneIamMemberCondition) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleDataplexZoneIamMember) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

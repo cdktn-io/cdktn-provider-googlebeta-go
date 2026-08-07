@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleGkeHubScopeRbacRoleBinding) validateInterpolationForAtt
 	return nil
 }
 
+func (g *jsiiProxy_GoogleGkeHubScopeRbacRoleBinding) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleGkeHubScopeRbacRoleBinding) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (g *jsiiProxy_GoogleGkeHubScopeRbacRoleBinding) validatePutRoleParameters(v
 }
 
 func (g *jsiiProxy_GoogleGkeHubScopeRbacRoleBinding) validatePutTimeoutsParameters(value *GoogleGkeHubScopeRbacRoleBindingTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleGkeHubScopeRbacRoleBinding) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

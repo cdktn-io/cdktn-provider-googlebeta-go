@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleServiceDirectoryServiceIamBinding) validateInterpolatio
 	return nil
 }
 
+func (g *jsiiProxy_GoogleServiceDirectoryServiceIamBinding) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleServiceDirectoryServiceIamBinding) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleServiceDirectoryServiceIamBinding) validateOverrideLogi
 }
 
 func (g *jsiiProxy_GoogleServiceDirectoryServiceIamBinding) validatePutConditionParameters(value *GoogleServiceDirectoryServiceIamBindingCondition) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleServiceDirectoryServiceIamBinding) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

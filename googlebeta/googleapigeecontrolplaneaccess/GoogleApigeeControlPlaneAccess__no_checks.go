@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleApigeeControlPlaneAccess) validateInterpolationForAttri
 	return nil
 }
 
+func (g *jsiiProxy_GoogleApigeeControlPlaneAccess) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleApigeeControlPlaneAccess) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleApigeeControlPlaneAccess) validateOverrideLogicalIdPara
 }
 
 func (g *jsiiProxy_GoogleApigeeControlPlaneAccess) validatePutTimeoutsParameters(value *GoogleApigeeControlPlaneAccessTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleApigeeControlPlaneAccess) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

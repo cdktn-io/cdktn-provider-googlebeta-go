@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleComputeDiskIamMember) validateInterpolationForAttribute
 	return nil
 }
 
+func (g *jsiiProxy_GoogleComputeDiskIamMember) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleComputeDiskIamMember) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleComputeDiskIamMember) validateOverrideLogicalIdParamete
 }
 
 func (g *jsiiProxy_GoogleComputeDiskIamMember) validatePutConditionParameters(value *GoogleComputeDiskIamMemberCondition) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleComputeDiskIamMember) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

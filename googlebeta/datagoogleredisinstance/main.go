@@ -74,6 +74,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "redisVersion", GoGetter: "RedisVersion"},
 			_jsii_.MemberProperty{JsiiProperty: "region", GoGetter: "Region"},
 			_jsii_.MemberProperty{JsiiProperty: "regionInput", GoGetter: "RegionInput"},
+			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
 			_jsii_.MemberProperty{JsiiProperty: "replicaCount", GoGetter: "ReplicaCount"},
 			_jsii_.MemberProperty{JsiiProperty: "reservedIpRange", GoGetter: "ReservedIpRange"},
 			_jsii_.MemberMethod{JsiiMethod: "resetId", GoMethod: "ResetId"},

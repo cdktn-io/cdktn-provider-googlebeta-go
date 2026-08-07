@@ -93,6 +93,68 @@ func (g *jsiiProxy_GoogleComputeBackendServiceLogConfigOutputReference) validate
 	return nil
 }
 
+func (g *jsiiProxy_GoogleComputeBackendServiceLogConfigOutputReference) validatePutRequestHeadersParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	switch value.(type) {
+	case cdktn.IResolvable:
+		// ok
+	case *[]*GoogleComputeBackendServiceLogConfigRequestHeaders:
+		value := value.(*[]*GoogleComputeBackendServiceLogConfigRequestHeaders)
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	case []*GoogleComputeBackendServiceLogConfigRequestHeaders:
+		value_ := value.([]*GoogleComputeBackendServiceLogConfigRequestHeaders)
+		value := &value_
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	default:
+		if !_jsii_.IsAnonymousProxy(value) {
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*GoogleComputeBackendServiceLogConfigRequestHeaders; received %#v (a %T)", value, value)
+		}
+	}
+
+	return nil
+}
+
+func (g *jsiiProxy_GoogleComputeBackendServiceLogConfigOutputReference) validatePutResponseHeadersParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	switch value.(type) {
+	case cdktn.IResolvable:
+		// ok
+	case *[]*GoogleComputeBackendServiceLogConfigResponseHeaders:
+		value := value.(*[]*GoogleComputeBackendServiceLogConfigResponseHeaders)
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	case []*GoogleComputeBackendServiceLogConfigResponseHeaders:
+		value_ := value.([]*GoogleComputeBackendServiceLogConfigResponseHeaders)
+		value := &value_
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	default:
+		if !_jsii_.IsAnonymousProxy(value) {
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*GoogleComputeBackendServiceLogConfigResponseHeaders; received %#v (a %T)", value, value)
+		}
+	}
+
+	return nil
+}
+
 func (g *jsiiProxy_GoogleComputeBackendServiceLogConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")

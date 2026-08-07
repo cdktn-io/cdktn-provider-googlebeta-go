@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleDeploymentManagerDeployment) validateInterpolationForAt
 	return nil
 }
 
+func (g *jsiiProxy_GoogleDeploymentManagerDeployment) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleDeploymentManagerDeployment) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (g *jsiiProxy_GoogleDeploymentManagerDeployment) validatePutTargetParameter
 }
 
 func (g *jsiiProxy_GoogleDeploymentManagerDeployment) validatePutTimeoutsParameters(value *GoogleDeploymentManagerDeploymentTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleDeploymentManagerDeployment) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

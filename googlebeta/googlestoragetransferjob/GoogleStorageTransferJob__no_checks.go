@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleStorageTransferJob) validateInterpolationForAttributePa
 	return nil
 }
 
+func (g *jsiiProxy_GoogleStorageTransferJob) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleStorageTransferJob) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -96,6 +100,10 @@ func (g *jsiiProxy_GoogleStorageTransferJob) validatePutScheduleParameters(value
 }
 
 func (g *jsiiProxy_GoogleStorageTransferJob) validatePutTransferSpecParameters(value *GoogleStorageTransferJobTransferSpec) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleStorageTransferJob) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

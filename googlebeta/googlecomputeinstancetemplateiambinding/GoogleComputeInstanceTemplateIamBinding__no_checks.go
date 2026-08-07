@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleComputeInstanceTemplateIamBinding) validateInterpolatio
 	return nil
 }
 
+func (g *jsiiProxy_GoogleComputeInstanceTemplateIamBinding) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleComputeInstanceTemplateIamBinding) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleComputeInstanceTemplateIamBinding) validateOverrideLogi
 }
 
 func (g *jsiiProxy_GoogleComputeInstanceTemplateIamBinding) validatePutConditionParameters(value *GoogleComputeInstanceTemplateIamBindingCondition) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleComputeInstanceTemplateIamBinding) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

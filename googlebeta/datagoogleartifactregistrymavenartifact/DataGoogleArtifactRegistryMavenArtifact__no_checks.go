@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataGoogleArtifactRegistryMavenArtifact) validateOverrideLogi
 	return nil
 }
 
+func (d *jsiiProxy_DataGoogleArtifactRegistryMavenArtifact) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataGoogleArtifactRegistryMavenArtifact_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

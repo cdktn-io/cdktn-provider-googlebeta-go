@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleSccV2OrganizationSourceIamBinding) validateInterpolatio
 	return nil
 }
 
+func (g *jsiiProxy_GoogleSccV2OrganizationSourceIamBinding) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleSccV2OrganizationSourceIamBinding) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleSccV2OrganizationSourceIamBinding) validateOverrideLogi
 }
 
 func (g *jsiiProxy_GoogleSccV2OrganizationSourceIamBinding) validatePutConditionParameters(value *GoogleSccV2OrganizationSourceIamBindingCondition) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleSccV2OrganizationSourceIamBinding) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

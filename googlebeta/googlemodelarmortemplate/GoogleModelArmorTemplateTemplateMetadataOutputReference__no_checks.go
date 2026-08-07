@@ -47,6 +47,10 @@ func (g *jsiiProxy_GoogleModelArmorTemplateTemplateMetadataOutputReference) vali
 	return nil
 }
 
+func (g *jsiiProxy_GoogleModelArmorTemplateTemplateMetadataOutputReference) validatePutFilterVersionSelectorParameters(value *GoogleModelArmorTemplateTemplateMetadataFilterVersionSelector) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleModelArmorTemplateTemplateMetadataOutputReference) validatePutMultiLanguageDetectionParameters(value *GoogleModelArmorTemplateTemplateMetadataMultiLanguageDetection) error {
 	return nil
 }

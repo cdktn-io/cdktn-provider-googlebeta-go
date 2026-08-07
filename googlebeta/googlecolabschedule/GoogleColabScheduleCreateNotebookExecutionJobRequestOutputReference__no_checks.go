@@ -67,6 +67,10 @@ func (j *jsiiProxy_GoogleColabScheduleCreateNotebookExecutionJobRequestOutputRef
 	return nil
 }
 
+func (j *jsiiProxy_GoogleColabScheduleCreateNotebookExecutionJobRequestOutputReference) validateSetParentParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleColabScheduleCreateNotebookExecutionJobRequestOutputReference) validateSetTerraformAttributeParameters(val *string) error {
 	return nil
 }

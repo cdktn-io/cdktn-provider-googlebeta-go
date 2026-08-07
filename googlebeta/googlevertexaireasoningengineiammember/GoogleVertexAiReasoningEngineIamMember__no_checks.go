@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleVertexAiReasoningEngineIamMember) validateInterpolation
 	return nil
 }
 
+func (g *jsiiProxy_GoogleVertexAiReasoningEngineIamMember) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleVertexAiReasoningEngineIamMember) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleVertexAiReasoningEngineIamMember) validateOverrideLogic
 }
 
 func (g *jsiiProxy_GoogleVertexAiReasoningEngineIamMember) validatePutConditionParameters(value *GoogleVertexAiReasoningEngineIamMemberCondition) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleVertexAiReasoningEngineIamMember) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

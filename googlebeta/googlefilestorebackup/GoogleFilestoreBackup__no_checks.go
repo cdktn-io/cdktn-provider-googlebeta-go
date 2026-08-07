@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleFilestoreBackup) validateInterpolationForAttributeParam
 	return nil
 }
 
+func (g *jsiiProxy_GoogleFilestoreBackup) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleFilestoreBackup) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleFilestoreBackup) validateOverrideLogicalIdParameters(ne
 }
 
 func (g *jsiiProxy_GoogleFilestoreBackup) validatePutTimeoutsParameters(value *GoogleFilestoreBackupTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleFilestoreBackup) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

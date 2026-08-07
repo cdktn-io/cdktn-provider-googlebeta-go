@@ -46,6 +46,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "putAuditConfig", GoMethod: "PutAuditConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "putBinding", GoMethod: "PutBinding"},
 			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
+			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
 			_jsii_.MemberMethod{JsiiMethod: "resetAuditConfig", GoMethod: "ResetAuditConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "resetBinding", GoMethod: "ResetBinding"},
 			_jsii_.MemberMethod{JsiiMethod: "resetId", GoMethod: "ResetId"},

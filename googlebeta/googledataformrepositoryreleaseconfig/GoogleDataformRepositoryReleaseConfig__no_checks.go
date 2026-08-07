@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleDataformRepositoryReleaseConfig) validateInterpolationF
 	return nil
 }
 
+func (g *jsiiProxy_GoogleDataformRepositoryReleaseConfig) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleDataformRepositoryReleaseConfig) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (g *jsiiProxy_GoogleDataformRepositoryReleaseConfig) validatePutCodeCompila
 }
 
 func (g *jsiiProxy_GoogleDataformRepositoryReleaseConfig) validatePutTimeoutsParameters(value *GoogleDataformRepositoryReleaseConfigTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleDataformRepositoryReleaseConfig) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

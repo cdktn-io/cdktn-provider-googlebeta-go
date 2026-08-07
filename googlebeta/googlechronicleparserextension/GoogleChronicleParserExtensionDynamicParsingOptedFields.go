@@ -7,11 +7,11 @@ package googlechronicleparserextension
 type GoogleChronicleParserExtensionDynamicParsingOptedFields struct {
 	// Path of the log field.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_parser_extension#path GoogleChronicleParserExtension#path}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_chronicle_parser_extension#path GoogleChronicleParserExtension#path}
 	Path *string `field:"optional" json:"path" yaml:"path"`
 	// Sample value of the log field.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.41.0/docs/resources/google_chronicle_parser_extension#sample_value GoogleChronicleParserExtension#sample_value}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_chronicle_parser_extension#sample_value GoogleChronicleParserExtension#sample_value}
 	SampleValue *string `field:"optional" json:"sampleValue" yaml:"sampleValue"`
 }
 

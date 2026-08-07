@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleDnsManagedZone) validateInterpolationForAttributeParame
 	return nil
 }
 
+func (g *jsiiProxy_GoogleDnsManagedZone) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleDnsManagedZone) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -100,6 +104,10 @@ func (g *jsiiProxy_GoogleDnsManagedZone) validatePutServiceDirectoryConfigParame
 }
 
 func (g *jsiiProxy_GoogleDnsManagedZone) validatePutTimeoutsParameters(value *GoogleDnsManagedZoneTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleDnsManagedZone) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

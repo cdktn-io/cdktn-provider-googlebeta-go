@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataGoogleStorageTransferProjectServiceAccount) validateOverr
 	return nil
 }
 
+func (d *jsiiProxy_DataGoogleStorageTransferProjectServiceAccount) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataGoogleStorageTransferProjectServiceAccount_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

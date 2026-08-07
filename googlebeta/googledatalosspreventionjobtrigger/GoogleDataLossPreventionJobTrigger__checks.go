@@ -122,6 +122,14 @@ func (g *jsiiProxy_GoogleDataLossPreventionJobTrigger) validateInterpolationForA
 	return nil
 }
 
+func (g *jsiiProxy_GoogleDataLossPreventionJobTrigger) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (g *jsiiProxy_GoogleDataLossPreventionJobTrigger) validateMoveFromIdParameters(id *string) error {
 	if id == nil {
 		return fmt.Errorf("parameter id is required, but nil was provided")
@@ -255,6 +263,14 @@ func (g *jsiiProxy_GoogleDataLossPreventionJobTrigger) validatePutTriggersParame
 		if !_jsii_.IsAnonymousProxy(value) {
 			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*GoogleDataLossPreventionJobTriggerTriggers; received %#v (a %T)", value, value)
 		}
+	}
+
+	return nil
+}
+
+func (g *jsiiProxy_GoogleDataLossPreventionJobTrigger) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
 	}
 
 	return nil

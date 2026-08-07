@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleChronicleDataAccessScope) validateInterpolationForAttri
 	return nil
 }
 
+func (g *jsiiProxy_GoogleChronicleDataAccessScope) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleChronicleDataAccessScope) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (g *jsiiProxy_GoogleChronicleDataAccessScope) validatePutDeniedDataAccessLa
 }
 
 func (g *jsiiProxy_GoogleChronicleDataAccessScope) validatePutTimeoutsParameters(value *GoogleChronicleDataAccessScopeTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleChronicleDataAccessScope) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

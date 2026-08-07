@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleVectorSearchIndex) validateInterpolationForAttributePar
 	return nil
 }
 
+func (g *jsiiProxy_GoogleVectorSearchIndex) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleVectorSearchIndex) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (g *jsiiProxy_GoogleVectorSearchIndex) validatePutDenseScannParameters(valu
 }
 
 func (g *jsiiProxy_GoogleVectorSearchIndex) validatePutTimeoutsParameters(value *GoogleVectorSearchIndexTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleVectorSearchIndex) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

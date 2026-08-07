@@ -59,6 +59,10 @@ func (g *jsiiProxy_GooglePrivatecaCaPool) validateInterpolationForAttributeParam
 	return nil
 }
 
+func (g *jsiiProxy_GooglePrivatecaCaPool) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GooglePrivatecaCaPool) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -88,6 +92,10 @@ func (g *jsiiProxy_GooglePrivatecaCaPool) validatePutPublishingOptionsParameters
 }
 
 func (g *jsiiProxy_GooglePrivatecaCaPool) validatePutTimeoutsParameters(value *GooglePrivatecaCaPoolTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GooglePrivatecaCaPool) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleEdgenetworkInterconnectAttachment) validateInterpolatio
 	return nil
 }
 
+func (g *jsiiProxy_GoogleEdgenetworkInterconnectAttachment) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleEdgenetworkInterconnectAttachment) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleEdgenetworkInterconnectAttachment) validateOverrideLogi
 }
 
 func (g *jsiiProxy_GoogleEdgenetworkInterconnectAttachment) validatePutTimeoutsParameters(value *GoogleEdgenetworkInterconnectAttachmentTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleEdgenetworkInterconnectAttachment) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

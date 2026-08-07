@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleDiscoveryEngineSitemap) validateInterpolationForAttribu
 	return nil
 }
 
+func (g *jsiiProxy_GoogleDiscoveryEngineSitemap) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleDiscoveryEngineSitemap) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleDiscoveryEngineSitemap) validateOverrideLogicalIdParame
 }
 
 func (g *jsiiProxy_GoogleDiscoveryEngineSitemap) validatePutTimeoutsParameters(value *GoogleDiscoveryEngineSitemapTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleDiscoveryEngineSitemap) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

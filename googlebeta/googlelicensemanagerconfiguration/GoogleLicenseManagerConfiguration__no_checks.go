@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleLicenseManagerConfiguration) validateInterpolationForAt
 	return nil
 }
 
+func (g *jsiiProxy_GoogleLicenseManagerConfiguration) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleLicenseManagerConfiguration) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GoogleLicenseManagerConfiguration) validateOverrideLogicalIdP
 }
 
 func (g *jsiiProxy_GoogleLicenseManagerConfiguration) validatePutTimeoutsParameters(value *GoogleLicenseManagerConfigurationTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleLicenseManagerConfiguration) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleComputeDiskAsyncReplication) validateInterpolationForAt
 	return nil
 }
 
+func (g *jsiiProxy_GoogleComputeDiskAsyncReplication) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleComputeDiskAsyncReplication) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (g *jsiiProxy_GoogleComputeDiskAsyncReplication) validatePutSecondaryDiskPa
 }
 
 func (g *jsiiProxy_GoogleComputeDiskAsyncReplication) validatePutTimeoutsParameters(value *GoogleComputeDiskAsyncReplicationTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleComputeDiskAsyncReplication) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

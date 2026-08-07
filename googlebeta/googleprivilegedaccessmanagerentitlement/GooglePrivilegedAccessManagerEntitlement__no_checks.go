@@ -59,6 +59,10 @@ func (g *jsiiProxy_GooglePrivilegedAccessManagerEntitlement) validateInterpolati
 	return nil
 }
 
+func (g *jsiiProxy_GooglePrivilegedAccessManagerEntitlement) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GooglePrivilegedAccessManagerEntitlement) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -96,6 +100,10 @@ func (g *jsiiProxy_GooglePrivilegedAccessManagerEntitlement) validatePutRequeste
 }
 
 func (g *jsiiProxy_GooglePrivilegedAccessManagerEntitlement) validatePutTimeoutsParameters(value *GooglePrivilegedAccessManagerEntitlementTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GooglePrivilegedAccessManagerEntitlement) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

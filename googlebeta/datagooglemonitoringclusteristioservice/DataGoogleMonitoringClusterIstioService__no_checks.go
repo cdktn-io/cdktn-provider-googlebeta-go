@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataGoogleMonitoringClusterIstioService) validateOverrideLogi
 	return nil
 }
 
+func (d *jsiiProxy_DataGoogleMonitoringClusterIstioService) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataGoogleMonitoringClusterIstioService_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }
