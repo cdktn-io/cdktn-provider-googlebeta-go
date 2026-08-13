@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_biglake_hive_table google_biglake_hive_table}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_biglake_hive_table google_biglake_hive_table}.
 type GoogleBiglakeHiveTable interface {
 	cdktn.TerraformResource
 	Catalog() *string
@@ -696,7 +696,7 @@ func (j *jsiiProxy_GoogleBiglakeHiveTable) ViewOriginalTextInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_biglake_hive_table google_biglake_hive_table} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_biglake_hive_table google_biglake_hive_table} Resource.
 func NewGoogleBiglakeHiveTable(scope constructs.Construct, id *string, config *GoogleBiglakeHiveTableConfig) GoogleBiglakeHiveTable {
 	_init_.Initialize()
 
@@ -714,7 +714,7 @@ func NewGoogleBiglakeHiveTable(scope constructs.Construct, id *string, config *G
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_biglake_hive_table google_biglake_hive_table} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_biglake_hive_table google_biglake_hive_table} Resource.
 func NewGoogleBiglakeHiveTable_Override(g GoogleBiglakeHiveTable, scope constructs.Construct, id *string, config *GoogleBiglakeHiveTableConfig) {
 	_init_.Initialize()
 

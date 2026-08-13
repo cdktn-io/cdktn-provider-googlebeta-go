@@ -7,7 +7,11 @@ package googlevertexaireasoningengine
 type GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigGenerationConfig struct {
 	// The model used to generate memories. Format: projects/{project}/locations/{location}/publishers/google/models/{model}.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_vertex_ai_reasoning_engine#model GoogleVertexAiReasoningEngine#model}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_vertex_ai_reasoning_engine#model GoogleVertexAiReasoningEngine#model}
 	Model *string `field:"required" json:"model" yaml:"model"`
+	// generation_trigger_config block.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_vertex_ai_reasoning_engine#generation_trigger_config GoogleVertexAiReasoningEngine#generation_trigger_config}
+	GenerationTriggerConfig *GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigGenerationConfigGenerationTriggerConfig `field:"optional" json:"generationTriggerConfig" yaml:"generationTriggerConfig"`
 }
 

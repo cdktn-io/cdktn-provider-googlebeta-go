@@ -30,6 +30,8 @@ type GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigGenerationConfigOut
 	CreationStack() *[]*string
 	// Experimental.
 	Fqn() *string
+	GenerationTriggerConfig() GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigGenerationConfigGenerationTriggerConfigOutputReference
+	GenerationTriggerConfigInput() *GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigGenerationConfigGenerationTriggerConfig
 	InternalValue() *GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigGenerationConfig
 	SetInternalValue(val *GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigGenerationConfig)
 	Model() *string
@@ -67,6 +69,8 @@ type GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigGenerationConfigOut
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutGenerationTriggerConfig(value *GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigGenerationConfigGenerationTriggerConfig)
+	ResetGenerationTriggerConfig()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -117,6 +121,26 @@ func (j *jsiiProxy_GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigGener
 	_jsii_.Get(
 		j,
 		"fqn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigGenerationConfigOutputReference) GenerationTriggerConfig() GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigGenerationConfigGenerationTriggerConfigOutputReference {
+	var returns GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigGenerationConfigGenerationTriggerConfigOutputReference
+	_jsii_.Get(
+		j,
+		"generationTriggerConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigGenerationConfigOutputReference) GenerationTriggerConfigInput() *GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigGenerationConfigGenerationTriggerConfig {
+	var returns *GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigGenerationConfigGenerationTriggerConfig
+	_jsii_.Get(
+		j,
+		"generationTriggerConfigInput",
 		&returns,
 	)
 	return returns
@@ -450,6 +474,25 @@ func (g *jsiiProxy_GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigGener
 	)
 
 	return returns
+}
+
+func (g *jsiiProxy_GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigGenerationConfigOutputReference) PutGenerationTriggerConfig(value *GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigGenerationConfigGenerationTriggerConfig) {
+	if err := g.validatePutGenerationTriggerConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putGenerationTriggerConfig",
+		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigGenerationConfigOutputReference) ResetGenerationTriggerConfig() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetGenerationTriggerConfig",
+		nil, // no parameters
+	)
 }
 
 func (g *jsiiProxy_GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigGenerationConfigOutputReference) Resolve(context cdktn.IResolveContext) interface{} {

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_bigquery_datapolicyv2_data_policy google_bigquery_datapolicyv2_data_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_bigquery_datapolicyv2_data_policy google_bigquery_datapolicyv2_data_policy}.
 type GoogleBigqueryDatapolicyv2DataPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -638,7 +638,7 @@ func (j *jsiiProxy_GoogleBigqueryDatapolicyv2DataPolicy) Version() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_bigquery_datapolicyv2_data_policy google_bigquery_datapolicyv2_data_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_bigquery_datapolicyv2_data_policy google_bigquery_datapolicyv2_data_policy} Resource.
 func NewGoogleBigqueryDatapolicyv2DataPolicy(scope constructs.Construct, id *string, config *GoogleBigqueryDatapolicyv2DataPolicyConfig) GoogleBigqueryDatapolicyv2DataPolicy {
 	_init_.Initialize()
 
@@ -656,7 +656,7 @@ func NewGoogleBigqueryDatapolicyv2DataPolicy(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_bigquery_datapolicyv2_data_policy google_bigquery_datapolicyv2_data_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_bigquery_datapolicyv2_data_policy google_bigquery_datapolicyv2_data_policy} Resource.
 func NewGoogleBigqueryDatapolicyv2DataPolicy_Override(g GoogleBigqueryDatapolicyv2DataPolicy, scope constructs.Construct, id *string, config *GoogleBigqueryDatapolicyv2DataPolicyConfig) {
 	_init_.Initialize()
 

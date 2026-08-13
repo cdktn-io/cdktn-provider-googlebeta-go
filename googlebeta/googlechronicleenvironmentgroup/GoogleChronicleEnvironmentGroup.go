@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_chronicle_environment_group google_chronicle_environment_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_chronicle_environment_group google_chronicle_environment_group}.
 type GoogleChronicleEnvironmentGroup interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -577,7 +577,7 @@ func (j *jsiiProxy_GoogleChronicleEnvironmentGroup) TimeoutsInput() interface{} 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_chronicle_environment_group google_chronicle_environment_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_chronicle_environment_group google_chronicle_environment_group} Resource.
 func NewGoogleChronicleEnvironmentGroup(scope constructs.Construct, id *string, config *GoogleChronicleEnvironmentGroupConfig) GoogleChronicleEnvironmentGroup {
 	_init_.Initialize()
 
@@ -595,7 +595,7 @@ func NewGoogleChronicleEnvironmentGroup(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_chronicle_environment_group google_chronicle_environment_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_chronicle_environment_group google_chronicle_environment_group} Resource.
 func NewGoogleChronicleEnvironmentGroup_Override(g GoogleChronicleEnvironmentGroup, scope constructs.Construct, id *string, config *GoogleChronicleEnvironmentGroupConfig) {
 	_init_.Initialize()
 

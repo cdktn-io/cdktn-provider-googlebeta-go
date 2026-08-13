@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/data-sources/google_agent_registry_mcp_server google_agent_registry_mcp_server}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/data-sources/google_agent_registry_mcp_server google_agent_registry_mcp_server}.
 type DataGoogleAgentRegistryMcpServer interface {
 	cdktn.TerraformDataSource
 	Attributes() cdktn.StringMap
@@ -470,7 +470,7 @@ func (j *jsiiProxy_DataGoogleAgentRegistryMcpServer) Urn() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/data-sources/google_agent_registry_mcp_server google_agent_registry_mcp_server} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/data-sources/google_agent_registry_mcp_server google_agent_registry_mcp_server} Data Source.
 func NewDataGoogleAgentRegistryMcpServer(scope constructs.Construct, id *string, config *DataGoogleAgentRegistryMcpServerConfig) DataGoogleAgentRegistryMcpServer {
 	_init_.Initialize()
 
@@ -488,7 +488,7 @@ func NewDataGoogleAgentRegistryMcpServer(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/data-sources/google_agent_registry_mcp_server google_agent_registry_mcp_server} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/data-sources/google_agent_registry_mcp_server google_agent_registry_mcp_server} Data Source.
 func NewDataGoogleAgentRegistryMcpServer_Override(d DataGoogleAgentRegistryMcpServer, scope constructs.Construct, id *string, config *DataGoogleAgentRegistryMcpServerConfig) {
 	_init_.Initialize()
 

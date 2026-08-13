@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_compute_region_instant_snapshot_iam_member google_compute_region_instant_snapshot_iam_member}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_compute_region_instant_snapshot_iam_member google_compute_region_instant_snapshot_iam_member}.
 type GoogleComputeRegionInstantSnapshotIamMember interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -520,7 +520,7 @@ func (j *jsiiProxy_GoogleComputeRegionInstantSnapshotIamMember) TerraformResourc
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_compute_region_instant_snapshot_iam_member google_compute_region_instant_snapshot_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_compute_region_instant_snapshot_iam_member google_compute_region_instant_snapshot_iam_member} Resource.
 func NewGoogleComputeRegionInstantSnapshotIamMember(scope constructs.Construct, id *string, config *GoogleComputeRegionInstantSnapshotIamMemberConfig) GoogleComputeRegionInstantSnapshotIamMember {
 	_init_.Initialize()
 
@@ -538,7 +538,7 @@ func NewGoogleComputeRegionInstantSnapshotIamMember(scope constructs.Construct, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_compute_region_instant_snapshot_iam_member google_compute_region_instant_snapshot_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_compute_region_instant_snapshot_iam_member google_compute_region_instant_snapshot_iam_member} Resource.
 func NewGoogleComputeRegionInstantSnapshotIamMember_Override(g GoogleComputeRegionInstantSnapshotIamMember, scope constructs.Construct, id *string, config *GoogleComputeRegionInstantSnapshotIamMemberConfig) {
 	_init_.Initialize()
 

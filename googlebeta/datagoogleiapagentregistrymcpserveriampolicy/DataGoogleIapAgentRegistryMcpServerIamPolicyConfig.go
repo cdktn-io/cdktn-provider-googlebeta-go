@@ -22,16 +22,16 @@ type DataGoogleIapAgentRegistryMcpServerIamPolicyConfig struct {
 	Provider cdktn.TerraformProvider `field:"optional" json:"provider" yaml:"provider"`
 	// Experimental.
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/data-sources/google_iap_agent_registry_mcp_server_iam_policy#mcp_server_id DataGoogleIapAgentRegistryMcpServerIamPolicy#mcp_server_id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/data-sources/google_iap_agent_registry_mcp_server_iam_policy#mcp_server_id DataGoogleIapAgentRegistryMcpServerIamPolicy#mcp_server_id}.
 	McpServerId *string `field:"required" json:"mcpServerId" yaml:"mcpServerId"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/data-sources/google_iap_agent_registry_mcp_server_iam_policy#id DataGoogleIapAgentRegistryMcpServerIamPolicy#id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/data-sources/google_iap_agent_registry_mcp_server_iam_policy#id DataGoogleIapAgentRegistryMcpServerIamPolicy#id}.
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
 	Id *string `field:"optional" json:"id" yaml:"id"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/data-sources/google_iap_agent_registry_mcp_server_iam_policy#location DataGoogleIapAgentRegistryMcpServerIamPolicy#location}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/data-sources/google_iap_agent_registry_mcp_server_iam_policy#location DataGoogleIapAgentRegistryMcpServerIamPolicy#location}.
 	Location *string `field:"optional" json:"location" yaml:"location"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/data-sources/google_iap_agent_registry_mcp_server_iam_policy#project DataGoogleIapAgentRegistryMcpServerIamPolicy#project}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/data-sources/google_iap_agent_registry_mcp_server_iam_policy#project DataGoogleIapAgentRegistryMcpServerIamPolicy#project}.
 	Project *string `field:"optional" json:"project" yaml:"project"`
 }
 

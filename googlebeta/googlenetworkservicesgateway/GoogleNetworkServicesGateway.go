@@ -12,12 +12,15 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_network_services_gateway google_network_services_gateway}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_network_services_gateway google_network_services_gateway}.
 type GoogleNetworkServicesGateway interface {
 	cdktn.TerraformResource
 	Addresses() *[]*string
 	SetAddresses(val *[]*string)
 	AddressesInput() *[]*string
+	AllowGlobalAccess() interface{}
+	SetAllowGlobalAccess(val interface{})
+	AllowGlobalAccessInput() interface{}
 	AllPorts() interface{}
 	SetAllPorts(val interface{})
 	AllPortsInput() interface{}
@@ -225,6 +228,7 @@ type GoogleNetworkServicesGateway interface {
 	// Experimental.
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
 	ResetAddresses()
+	ResetAllowGlobalAccess()
 	ResetAllPorts()
 	ResetCertificateUrls()
 	ResetDeleteSwgAutogenRouterOnDestroy()
@@ -289,6 +293,26 @@ func (j *jsiiProxy_GoogleNetworkServicesGateway) AddressesInput() *[]*string {
 	_jsii_.Get(
 		j,
 		"addressesInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleNetworkServicesGateway) AllowGlobalAccess() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"allowGlobalAccess",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleNetworkServicesGateway) AllowGlobalAccessInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"allowGlobalAccessInput",
 		&returns,
 	)
 	return returns
@@ -925,7 +949,7 @@ func (j *jsiiProxy_GoogleNetworkServicesGateway) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_network_services_gateway google_network_services_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_network_services_gateway google_network_services_gateway} Resource.
 func NewGoogleNetworkServicesGateway(scope constructs.Construct, id *string, config *GoogleNetworkServicesGatewayConfig) GoogleNetworkServicesGateway {
 	_init_.Initialize()
 
@@ -943,7 +967,7 @@ func NewGoogleNetworkServicesGateway(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_network_services_gateway google_network_services_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_network_services_gateway google_network_services_gateway} Resource.
 func NewGoogleNetworkServicesGateway_Override(g GoogleNetworkServicesGateway, scope constructs.Construct, id *string, config *GoogleNetworkServicesGatewayConfig) {
 	_init_.Initialize()
 
@@ -961,6 +985,17 @@ func (j *jsiiProxy_GoogleNetworkServicesGateway)SetAddresses(val *[]*string) {
 	_jsii_.Set(
 		j,
 		"addresses",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleNetworkServicesGateway)SetAllowGlobalAccess(val interface{}) {
+	if err := j.validateSetAllowGlobalAccessParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"allowGlobalAccess",
 		val,
 	)
 }
@@ -1648,6 +1683,14 @@ func (g *jsiiProxy_GoogleNetworkServicesGateway) ResetAddresses() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetAddresses",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleNetworkServicesGateway) ResetAllowGlobalAccess() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetAllowGlobalAccess",
 		nil, // no parameters
 	)
 }

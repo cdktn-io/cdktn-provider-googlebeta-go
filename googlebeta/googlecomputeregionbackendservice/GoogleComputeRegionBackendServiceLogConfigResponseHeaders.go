@@ -7,7 +7,7 @@ package googlecomputeregionbackendservice
 type GoogleComputeRegionBackendServiceLogConfigResponseHeaders struct {
 	// The header name to match on for logging.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_compute_region_backend_service#header_name GoogleComputeRegionBackendService#header_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_compute_region_backend_service#header_name GoogleComputeRegionBackendService#header_name}
 	HeaderName *string `field:"required" json:"headerName" yaml:"headerName"`
 }
 

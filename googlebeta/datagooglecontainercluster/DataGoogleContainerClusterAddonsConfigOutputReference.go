@@ -38,6 +38,7 @@ type DataGoogleContainerClusterAddonsConfigOutputReference interface {
 	GcpFilestoreCsiDriverConfig() DataGoogleContainerClusterAddonsConfigGcpFilestoreCsiDriverConfigList
 	GcsFuseCsiDriverConfig() DataGoogleContainerClusterAddonsConfigGcsFuseCsiDriverConfigList
 	GkeBackupAgentConfig() DataGoogleContainerClusterAddonsConfigGkeBackupAgentConfigList
+	HighScaleCheckpointingConfig() DataGoogleContainerClusterAddonsConfigHighScaleCheckpointingConfigList
 	HorizontalPodAutoscaling() DataGoogleContainerClusterAddonsConfigHorizontalPodAutoscalingList
 	HttpLoadBalancing() DataGoogleContainerClusterAddonsConfigHttpLoadBalancingList
 	InternalValue() *DataGoogleContainerClusterAddonsConfig
@@ -215,6 +216,16 @@ func (j *jsiiProxy_DataGoogleContainerClusterAddonsConfigOutputReference) GkeBac
 	_jsii_.Get(
 		j,
 		"gkeBackupAgentConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleContainerClusterAddonsConfigOutputReference) HighScaleCheckpointingConfig() DataGoogleContainerClusterAddonsConfigHighScaleCheckpointingConfigList {
+	var returns DataGoogleContainerClusterAddonsConfigHighScaleCheckpointingConfigList
+	_jsii_.Get(
+		j,
+		"highScaleCheckpointingConfig",
 		&returns,
 	)
 	return returns

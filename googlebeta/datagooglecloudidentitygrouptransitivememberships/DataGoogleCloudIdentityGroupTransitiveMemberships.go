@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/data-sources/google_cloud_identity_group_transitive_memberships google_cloud_identity_group_transitive_memberships}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/data-sources/google_cloud_identity_group_transitive_memberships google_cloud_identity_group_transitive_memberships}.
 type DataGoogleCloudIdentityGroupTransitiveMemberships interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -321,7 +321,7 @@ func (j *jsiiProxy_DataGoogleCloudIdentityGroupTransitiveMemberships) TerraformR
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/data-sources/google_cloud_identity_group_transitive_memberships google_cloud_identity_group_transitive_memberships} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/data-sources/google_cloud_identity_group_transitive_memberships google_cloud_identity_group_transitive_memberships} Data Source.
 func NewDataGoogleCloudIdentityGroupTransitiveMemberships(scope constructs.Construct, id *string, config *DataGoogleCloudIdentityGroupTransitiveMembershipsConfig) DataGoogleCloudIdentityGroupTransitiveMemberships {
 	_init_.Initialize()
 
@@ -339,7 +339,7 @@ func NewDataGoogleCloudIdentityGroupTransitiveMemberships(scope constructs.Const
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/data-sources/google_cloud_identity_group_transitive_memberships google_cloud_identity_group_transitive_memberships} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/data-sources/google_cloud_identity_group_transitive_memberships google_cloud_identity_group_transitive_memberships} Data Source.
 func NewDataGoogleCloudIdentityGroupTransitiveMemberships_Override(d DataGoogleCloudIdentityGroupTransitiveMemberships, scope constructs.Construct, id *string, config *DataGoogleCloudIdentityGroupTransitiveMembershipsConfig) {
 	_init_.Initialize()
 

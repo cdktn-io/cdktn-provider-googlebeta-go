@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_iap_agent_registry_mcp_server_iam_binding google_iap_agent_registry_mcp_server_iam_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_iap_agent_registry_mcp_server_iam_binding google_iap_agent_registry_mcp_server_iam_binding}.
 type GoogleIapAgentRegistryMcpServerIamBinding interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -520,7 +520,7 @@ func (j *jsiiProxy_GoogleIapAgentRegistryMcpServerIamBinding) TerraformResourceT
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_iap_agent_registry_mcp_server_iam_binding google_iap_agent_registry_mcp_server_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_iap_agent_registry_mcp_server_iam_binding google_iap_agent_registry_mcp_server_iam_binding} Resource.
 func NewGoogleIapAgentRegistryMcpServerIamBinding(scope constructs.Construct, id *string, config *GoogleIapAgentRegistryMcpServerIamBindingConfig) GoogleIapAgentRegistryMcpServerIamBinding {
 	_init_.Initialize()
 
@@ -538,7 +538,7 @@ func NewGoogleIapAgentRegistryMcpServerIamBinding(scope constructs.Construct, id
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_iap_agent_registry_mcp_server_iam_binding google_iap_agent_registry_mcp_server_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_iap_agent_registry_mcp_server_iam_binding google_iap_agent_registry_mcp_server_iam_binding} Resource.
 func NewGoogleIapAgentRegistryMcpServerIamBinding_Override(g GoogleIapAgentRegistryMcpServerIamBinding, scope constructs.Construct, id *string, config *GoogleIapAgentRegistryMcpServerIamBindingConfig) {
 	_init_.Initialize()
 

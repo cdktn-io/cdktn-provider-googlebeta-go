@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/ephemeral-resources/google_service_account_access_token google_service_account_access_token}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/ephemeral-resources/google_service_account_access_token google_service_account_access_token}.
 type EphemeralGoogleServiceAccountAccessToken interface {
 	cdktn.TerraformEphemeralResource
 	AccessToken() *string
@@ -367,7 +367,7 @@ func (j *jsiiProxy_EphemeralGoogleServiceAccountAccessToken) TerraformResourceTy
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/ephemeral-resources/google_service_account_access_token google_service_account_access_token} Ephemeral Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/ephemeral-resources/google_service_account_access_token google_service_account_access_token} Ephemeral Resource.
 func NewEphemeralGoogleServiceAccountAccessToken(scope constructs.Construct, id *string, config *EphemeralGoogleServiceAccountAccessTokenConfig) EphemeralGoogleServiceAccountAccessToken {
 	_init_.Initialize()
 
@@ -385,7 +385,7 @@ func NewEphemeralGoogleServiceAccountAccessToken(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/ephemeral-resources/google_service_account_access_token google_service_account_access_token} Ephemeral Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/ephemeral-resources/google_service_account_access_token google_service_account_access_token} Ephemeral Resource.
 func NewEphemeralGoogleServiceAccountAccessToken_Override(e EphemeralGoogleServiceAccountAccessToken, scope constructs.Construct, id *string, config *EphemeralGoogleServiceAccountAccessTokenConfig) {
 	_init_.Initialize()
 

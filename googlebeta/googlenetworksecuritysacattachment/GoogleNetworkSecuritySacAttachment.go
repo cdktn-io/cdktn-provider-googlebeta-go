@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_network_security_sac_attachment google_network_security_sac_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_network_security_sac_attachment google_network_security_sac_attachment}.
 type GoogleNetworkSecuritySacAttachment interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -683,7 +683,7 @@ func (j *jsiiProxy_GoogleNetworkSecuritySacAttachment) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_network_security_sac_attachment google_network_security_sac_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_network_security_sac_attachment google_network_security_sac_attachment} Resource.
 func NewGoogleNetworkSecuritySacAttachment(scope constructs.Construct, id *string, config *GoogleNetworkSecuritySacAttachmentConfig) GoogleNetworkSecuritySacAttachment {
 	_init_.Initialize()
 
@@ -701,7 +701,7 @@ func NewGoogleNetworkSecuritySacAttachment(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_network_security_sac_attachment google_network_security_sac_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_network_security_sac_attachment google_network_security_sac_attachment} Resource.
 func NewGoogleNetworkSecuritySacAttachment_Override(g GoogleNetworkSecuritySacAttachment, scope constructs.Construct, id *string, config *GoogleNetworkSecuritySacAttachmentConfig) {
 	_init_.Initialize()
 

@@ -131,6 +131,10 @@ func (j *jsiiProxy_GoogleSqlProvisionScript) validateSetLifecycleParameters(val 
 	return nil
 }
 
+func (j *jsiiProxy_GoogleSqlProvisionScript) validateSetPasswordSecretVersionParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleSqlProvisionScript) validateSetProjectParameters(val *string) error {
 	return nil
 }
@@ -140,6 +144,10 @@ func (j *jsiiProxy_GoogleSqlProvisionScript) validateSetProvisionersParameters(v
 }
 
 func (j *jsiiProxy_GoogleSqlProvisionScript) validateSetScriptParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleSqlProvisionScript) validateSetUserParameters(val *string) error {
 	return nil
 }
 

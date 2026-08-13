@@ -7,7 +7,7 @@ package googlevertexaireasoningengine
 type GoogleVertexAiReasoningEngineContextSpecExampleStoreConfigSimilaritySearchConfig struct {
 	// Required. The Gemini model used to generate embeddings to lookup similar examples.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_vertex_ai_reasoning_engine#embedding_model GoogleVertexAiReasoningEngine#embedding_model}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_vertex_ai_reasoning_engine#embedding_model GoogleVertexAiReasoningEngine#embedding_model}
 	EmbeddingModel *string `field:"required" json:"embeddingModel" yaml:"embeddingModel"`
 }
 

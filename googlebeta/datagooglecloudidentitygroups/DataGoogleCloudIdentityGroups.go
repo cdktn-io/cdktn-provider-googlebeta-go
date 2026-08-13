@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/data-sources/google_cloud_identity_groups google_cloud_identity_groups}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/data-sources/google_cloud_identity_groups google_cloud_identity_groups}.
 type DataGoogleCloudIdentityGroups interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -321,7 +321,7 @@ func (j *jsiiProxy_DataGoogleCloudIdentityGroups) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/data-sources/google_cloud_identity_groups google_cloud_identity_groups} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/data-sources/google_cloud_identity_groups google_cloud_identity_groups} Data Source.
 func NewDataGoogleCloudIdentityGroups(scope constructs.Construct, id *string, config *DataGoogleCloudIdentityGroupsConfig) DataGoogleCloudIdentityGroups {
 	_init_.Initialize()
 
@@ -339,7 +339,7 @@ func NewDataGoogleCloudIdentityGroups(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/data-sources/google_cloud_identity_groups google_cloud_identity_groups} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/data-sources/google_cloud_identity_groups google_cloud_identity_groups} Data Source.
 func NewDataGoogleCloudIdentityGroups_Override(d DataGoogleCloudIdentityGroups, scope constructs.Construct, id *string, config *DataGoogleCloudIdentityGroupsConfig) {
 	_init_.Initialize()
 

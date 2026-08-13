@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/data-sources/google_observability_folder_settings google_observability_folder_settings}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/data-sources/google_observability_folder_settings google_observability_folder_settings}.
 type DataGoogleObservabilityFolderSettings interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -377,7 +377,7 @@ func (j *jsiiProxy_DataGoogleObservabilityFolderSettings) TerraformResourceType(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/data-sources/google_observability_folder_settings google_observability_folder_settings} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/data-sources/google_observability_folder_settings google_observability_folder_settings} Data Source.
 func NewDataGoogleObservabilityFolderSettings(scope constructs.Construct, id *string, config *DataGoogleObservabilityFolderSettingsConfig) DataGoogleObservabilityFolderSettings {
 	_init_.Initialize()
 
@@ -395,7 +395,7 @@ func NewDataGoogleObservabilityFolderSettings(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/data-sources/google_observability_folder_settings google_observability_folder_settings} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/data-sources/google_observability_folder_settings google_observability_folder_settings} Data Source.
 func NewDataGoogleObservabilityFolderSettings_Override(d DataGoogleObservabilityFolderSettings, scope constructs.Construct, id *string, config *DataGoogleObservabilityFolderSettingsConfig) {
 	_init_.Initialize()
 

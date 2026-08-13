@@ -22,18 +22,18 @@ type GoogleIapAgentRegistryEndpointIamPolicyConfig struct {
 	Provider cdktn.TerraformProvider `field:"optional" json:"provider" yaml:"provider"`
 	// Experimental.
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_iap_agent_registry_endpoint_iam_policy#endpoint_id GoogleIapAgentRegistryEndpointIamPolicy#endpoint_id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_iap_agent_registry_endpoint_iam_policy#endpoint_id GoogleIapAgentRegistryEndpointIamPolicy#endpoint_id}.
 	EndpointId *string `field:"required" json:"endpointId" yaml:"endpointId"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_iap_agent_registry_endpoint_iam_policy#policy_data GoogleIapAgentRegistryEndpointIamPolicy#policy_data}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_iap_agent_registry_endpoint_iam_policy#policy_data GoogleIapAgentRegistryEndpointIamPolicy#policy_data}.
 	PolicyData *string `field:"required" json:"policyData" yaml:"policyData"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_iap_agent_registry_endpoint_iam_policy#id GoogleIapAgentRegistryEndpointIamPolicy#id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_iap_agent_registry_endpoint_iam_policy#id GoogleIapAgentRegistryEndpointIamPolicy#id}.
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
 	Id *string `field:"optional" json:"id" yaml:"id"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_iap_agent_registry_endpoint_iam_policy#location GoogleIapAgentRegistryEndpointIamPolicy#location}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_iap_agent_registry_endpoint_iam_policy#location GoogleIapAgentRegistryEndpointIamPolicy#location}.
 	Location *string `field:"optional" json:"location" yaml:"location"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_iap_agent_registry_endpoint_iam_policy#project GoogleIapAgentRegistryEndpointIamPolicy#project}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_iap_agent_registry_endpoint_iam_policy#project GoogleIapAgentRegistryEndpointIamPolicy#project}.
 	Project *string `field:"optional" json:"project" yaml:"project"`
 }
 

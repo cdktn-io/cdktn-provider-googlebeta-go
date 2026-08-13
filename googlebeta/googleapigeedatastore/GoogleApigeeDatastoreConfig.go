@@ -24,19 +24,19 @@ type GoogleApigeeDatastoreConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// datastore_config block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_apigee_datastore#datastore_config GoogleApigeeDatastore#datastore_config}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_apigee_datastore#datastore_config GoogleApigeeDatastore#datastore_config}
 	DatastoreConfig *GoogleApigeeDatastoreDatastoreConfig `field:"required" json:"datastoreConfig" yaml:"datastoreConfig"`
 	// The display name for the datastore.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_apigee_datastore#display_name GoogleApigeeDatastore#display_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_apigee_datastore#display_name GoogleApigeeDatastore#display_name}
 	DisplayName *string `field:"required" json:"displayName" yaml:"displayName"`
 	// The Apigee Organization associated with the Apigee datastore, in the format 'organizations/{{org_name}}'.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_apigee_datastore#org_id GoogleApigeeDatastore#org_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_apigee_datastore#org_id GoogleApigeeDatastore#org_id}
 	OrgId *string `field:"required" json:"orgId" yaml:"orgId"`
 	// The type of target for the datastore. Must be 'gcs' for Google Cloud Storage or 'bigquery' for BigQuery.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_apigee_datastore#target_type GoogleApigeeDatastore#target_type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_apigee_datastore#target_type GoogleApigeeDatastore#target_type}
 	TargetType *string `field:"required" json:"targetType" yaml:"targetType"`
 	// Whether Terraform will be prevented from destroying the instance.
 	//
@@ -48,16 +48,16 @@ type GoogleApigeeDatastoreConfig struct {
 	// When set to "DELETE", deleting the resource is allowed.
 	//
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_apigee_datastore#deletion_policy GoogleApigeeDatastore#deletion_policy}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_apigee_datastore#deletion_policy GoogleApigeeDatastore#deletion_policy}
 	DeletionPolicy *string `field:"optional" json:"deletionPolicy" yaml:"deletionPolicy"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_apigee_datastore#id GoogleApigeeDatastore#id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_apigee_datastore#id GoogleApigeeDatastore#id}.
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
 	Id *string `field:"optional" json:"id" yaml:"id"`
 	// timeouts block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_apigee_datastore#timeouts GoogleApigeeDatastore#timeouts}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_apigee_datastore#timeouts GoogleApigeeDatastore#timeouts}
 	Timeouts *GoogleApigeeDatastoreTimeouts `field:"optional" json:"timeouts" yaml:"timeouts"`
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_network_connectivity_gateway_advertised_route google_network_connectivity_gateway_advertised_route}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_network_connectivity_gateway_advertised_route google_network_connectivity_gateway_advertised_route}.
 type GoogleNetworkConnectivityGatewayAdvertisedRoute interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -695,7 +695,7 @@ func (j *jsiiProxy_GoogleNetworkConnectivityGatewayAdvertisedRoute) UpdateTime()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_network_connectivity_gateway_advertised_route google_network_connectivity_gateway_advertised_route} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_network_connectivity_gateway_advertised_route google_network_connectivity_gateway_advertised_route} Resource.
 func NewGoogleNetworkConnectivityGatewayAdvertisedRoute(scope constructs.Construct, id *string, config *GoogleNetworkConnectivityGatewayAdvertisedRouteConfig) GoogleNetworkConnectivityGatewayAdvertisedRoute {
 	_init_.Initialize()
 
@@ -713,7 +713,7 @@ func NewGoogleNetworkConnectivityGatewayAdvertisedRoute(scope constructs.Constru
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_network_connectivity_gateway_advertised_route google_network_connectivity_gateway_advertised_route} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_network_connectivity_gateway_advertised_route google_network_connectivity_gateway_advertised_route} Resource.
 func NewGoogleNetworkConnectivityGatewayAdvertisedRoute_Override(g GoogleNetworkConnectivityGatewayAdvertisedRoute, scope constructs.Construct, id *string, config *GoogleNetworkConnectivityGatewayAdvertisedRouteConfig) {
 	_init_.Initialize()
 

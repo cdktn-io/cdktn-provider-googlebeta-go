@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_sql_provision_script google_sql_provision_script}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_sql_provision_script google_sql_provision_script}.
 type GoogleSqlProvisionScript interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -60,6 +60,9 @@ type GoogleSqlProvisionScript interface {
 	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	// The tree node.
 	Node() constructs.Node
+	PasswordSecretVersion() *string
+	SetPasswordSecretVersion(val *string)
+	PasswordSecretVersionInput() *string
 	Project() *string
 	SetProject(val *string)
 	ProjectInput() *string
@@ -82,6 +85,9 @@ type GoogleSqlProvisionScript interface {
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
 	TerraformResourceType() *string
+	User() *string
+	SetUser(val *string)
+	UserInput() *string
 	// Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
 	// Experimental.
 	AddMoveTarget(moveTarget *string)
@@ -181,7 +187,9 @@ type GoogleSqlProvisionScript interface {
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
+	ResetPasswordSecretVersion()
 	ResetProject()
+	ResetUser()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
 	// Experimental.
@@ -409,6 +417,26 @@ func (j *jsiiProxy_GoogleSqlProvisionScript) Node() constructs.Node {
 	return returns
 }
 
+func (j *jsiiProxy_GoogleSqlProvisionScript) PasswordSecretVersion() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"passwordSecretVersion",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleSqlProvisionScript) PasswordSecretVersionInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"passwordSecretVersionInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleSqlProvisionScript) Project() *string {
 	var returns *string
 	_jsii_.Get(
@@ -509,8 +537,28 @@ func (j *jsiiProxy_GoogleSqlProvisionScript) TerraformResourceType() *string {
 	return returns
 }
 
+func (j *jsiiProxy_GoogleSqlProvisionScript) User() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"user",
+		&returns,
+	)
+	return returns
+}
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_sql_provision_script google_sql_provision_script} Resource.
+func (j *jsiiProxy_GoogleSqlProvisionScript) UserInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"userInput",
+		&returns,
+	)
+	return returns
+}
+
+
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_sql_provision_script google_sql_provision_script} Resource.
 func NewGoogleSqlProvisionScript(scope constructs.Construct, id *string, config *GoogleSqlProvisionScriptConfig) GoogleSqlProvisionScript {
 	_init_.Initialize()
 
@@ -528,7 +576,7 @@ func NewGoogleSqlProvisionScript(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_sql_provision_script google_sql_provision_script} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_sql_provision_script google_sql_provision_script} Resource.
 func NewGoogleSqlProvisionScript_Override(g GoogleSqlProvisionScript, scope constructs.Construct, id *string, config *GoogleSqlProvisionScriptConfig) {
 	_init_.Initialize()
 
@@ -643,6 +691,17 @@ func (j *jsiiProxy_GoogleSqlProvisionScript)SetLifecycle(val *cdktn.TerraformRes
 	)
 }
 
+func (j *jsiiProxy_GoogleSqlProvisionScript)SetPasswordSecretVersion(val *string) {
+	if err := j.validateSetPasswordSecretVersionParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"passwordSecretVersion",
+		val,
+	)
+}
+
 func (j *jsiiProxy_GoogleSqlProvisionScript)SetProject(val *string) {
 	if err := j.validateSetProjectParameters(val); err != nil {
 		panic(err)
@@ -680,6 +739,17 @@ func (j *jsiiProxy_GoogleSqlProvisionScript)SetScript(val *string) {
 	_jsii_.Set(
 		j,
 		"script",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleSqlProvisionScript)SetUser(val *string) {
+	if err := j.validateSetUserParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"user",
 		val,
 	)
 }
@@ -1104,10 +1174,26 @@ func (g *jsiiProxy_GoogleSqlProvisionScript) ResetOverrideLogicalId() {
 	)
 }
 
+func (g *jsiiProxy_GoogleSqlProvisionScript) ResetPasswordSecretVersion() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetPasswordSecretVersion",
+		nil, // no parameters
+	)
+}
+
 func (g *jsiiProxy_GoogleSqlProvisionScript) ResetProject() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetProject",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleSqlProvisionScript) ResetUser() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetUser",
 		nil, // no parameters
 	)
 }

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_ces_tool google_ces_tool}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_ces_tool google_ces_tool}.
 type GoogleCesTool interface {
 	cdktn.TerraformResource
 	AgentTool() GoogleCesToolAgentToolOutputReference
@@ -870,7 +870,7 @@ func (j *jsiiProxy_GoogleCesTool) WidgetToolInput() *GoogleCesToolWidgetTool {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_ces_tool google_ces_tool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_ces_tool google_ces_tool} Resource.
 func NewGoogleCesTool(scope constructs.Construct, id *string, config *GoogleCesToolConfig) GoogleCesTool {
 	_init_.Initialize()
 
@@ -888,7 +888,7 @@ func NewGoogleCesTool(scope constructs.Construct, id *string, config *GoogleCesT
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_ces_tool google_ces_tool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_ces_tool google_ces_tool} Resource.
 func NewGoogleCesTool_Override(g GoogleCesTool, scope constructs.Construct, id *string, config *GoogleCesToolConfig) {
 	_init_.Initialize()
 

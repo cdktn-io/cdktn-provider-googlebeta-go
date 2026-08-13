@@ -79,6 +79,10 @@ func (g *jsiiProxy_GoogleContainerClusterAddonsConfigOutputReference) validatePu
 	return nil
 }
 
+func (g *jsiiProxy_GoogleContainerClusterAddonsConfigOutputReference) validatePutHighScaleCheckpointingConfigParameters(value *GoogleContainerClusterAddonsConfigHighScaleCheckpointingConfig) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleContainerClusterAddonsConfigOutputReference) validatePutHorizontalPodAutoscalingParameters(value *GoogleContainerClusterAddonsConfigHorizontalPodAutoscaling) error {
 	return nil
 }

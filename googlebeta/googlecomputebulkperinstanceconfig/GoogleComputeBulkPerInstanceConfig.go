@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_compute_bulk_per_instance_config google_compute_bulk_per_instance_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_compute_bulk_per_instance_config google_compute_bulk_per_instance_config}.
 type GoogleComputeBulkPerInstanceConfig interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -511,7 +511,7 @@ func (j *jsiiProxy_GoogleComputeBulkPerInstanceConfig) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_compute_bulk_per_instance_config google_compute_bulk_per_instance_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_compute_bulk_per_instance_config google_compute_bulk_per_instance_config} Resource.
 func NewGoogleComputeBulkPerInstanceConfig(scope constructs.Construct, id *string, config *GoogleComputeBulkPerInstanceConfigConfig) GoogleComputeBulkPerInstanceConfig {
 	_init_.Initialize()
 
@@ -529,7 +529,7 @@ func NewGoogleComputeBulkPerInstanceConfig(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_compute_bulk_per_instance_config google_compute_bulk_per_instance_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_compute_bulk_per_instance_config google_compute_bulk_per_instance_config} Resource.
 func NewGoogleComputeBulkPerInstanceConfig_Override(g GoogleComputeBulkPerInstanceConfig, scope constructs.Construct, id *string, config *GoogleComputeBulkPerInstanceConfigConfig) {
 	_init_.Initialize()
 

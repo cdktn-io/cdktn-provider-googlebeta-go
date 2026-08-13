@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_spanner_backup_schedule google_spanner_backup_schedule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_spanner_backup_schedule google_spanner_backup_schedule}.
 type GoogleSpannerBackupSchedule interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -629,7 +629,7 @@ func (j *jsiiProxy_GoogleSpannerBackupSchedule) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_spanner_backup_schedule google_spanner_backup_schedule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_spanner_backup_schedule google_spanner_backup_schedule} Resource.
 func NewGoogleSpannerBackupSchedule(scope constructs.Construct, id *string, config *GoogleSpannerBackupScheduleConfig) GoogleSpannerBackupSchedule {
 	_init_.Initialize()
 
@@ -647,7 +647,7 @@ func NewGoogleSpannerBackupSchedule(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_spanner_backup_schedule google_spanner_backup_schedule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_spanner_backup_schedule google_spanner_backup_schedule} Resource.
 func NewGoogleSpannerBackupSchedule_Override(g GoogleSpannerBackupSchedule, scope constructs.Construct, id *string, config *GoogleSpannerBackupScheduleConfig) {
 	_init_.Initialize()
 

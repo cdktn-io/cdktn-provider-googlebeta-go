@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_access_context_manager_access_policy_iam_binding google_access_context_manager_access_policy_iam_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_access_context_manager_access_policy_iam_binding google_access_context_manager_access_policy_iam_binding}.
 type GoogleAccessContextManagerAccessPolicyIamBinding interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -472,7 +472,7 @@ func (j *jsiiProxy_GoogleAccessContextManagerAccessPolicyIamBinding) TerraformRe
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_access_context_manager_access_policy_iam_binding google_access_context_manager_access_policy_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_access_context_manager_access_policy_iam_binding google_access_context_manager_access_policy_iam_binding} Resource.
 func NewGoogleAccessContextManagerAccessPolicyIamBinding(scope constructs.Construct, id *string, config *GoogleAccessContextManagerAccessPolicyIamBindingConfig) GoogleAccessContextManagerAccessPolicyIamBinding {
 	_init_.Initialize()
 
@@ -490,7 +490,7 @@ func NewGoogleAccessContextManagerAccessPolicyIamBinding(scope constructs.Constr
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_access_context_manager_access_policy_iam_binding google_access_context_manager_access_policy_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_access_context_manager_access_policy_iam_binding google_access_context_manager_access_policy_iam_binding} Resource.
 func NewGoogleAccessContextManagerAccessPolicyIamBinding_Override(g GoogleAccessContextManagerAccessPolicyIamBinding, scope constructs.Construct, id *string, config *GoogleAccessContextManagerAccessPolicyIamBindingConfig) {
 	_init_.Initialize()
 

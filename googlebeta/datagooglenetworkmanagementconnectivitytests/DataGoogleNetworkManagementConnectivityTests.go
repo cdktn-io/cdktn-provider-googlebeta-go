@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/data-sources/google_network_management_connectivity_tests google_network_management_connectivity_tests}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/data-sources/google_network_management_connectivity_tests google_network_management_connectivity_tests}.
 type DataGoogleNetworkManagementConnectivityTests interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -346,7 +346,7 @@ func (j *jsiiProxy_DataGoogleNetworkManagementConnectivityTests) TerraformResour
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/data-sources/google_network_management_connectivity_tests google_network_management_connectivity_tests} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/data-sources/google_network_management_connectivity_tests google_network_management_connectivity_tests} Data Source.
 func NewDataGoogleNetworkManagementConnectivityTests(scope constructs.Construct, id *string, config *DataGoogleNetworkManagementConnectivityTestsConfig) DataGoogleNetworkManagementConnectivityTests {
 	_init_.Initialize()
 
@@ -364,7 +364,7 @@ func NewDataGoogleNetworkManagementConnectivityTests(scope constructs.Construct,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/data-sources/google_network_management_connectivity_tests google_network_management_connectivity_tests} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/data-sources/google_network_management_connectivity_tests google_network_management_connectivity_tests} Data Source.
 func NewDataGoogleNetworkManagementConnectivityTests_Override(d DataGoogleNetworkManagementConnectivityTests, scope constructs.Construct, id *string, config *DataGoogleNetworkManagementConnectivityTestsConfig) {
 	_init_.Initialize()
 

@@ -23,6 +23,12 @@ type GoogleCloudRunV2ServiceTemplateScalingOutputReference interface {
 	ComplexObjectIsFromSet() *bool
 	// Experimental.
 	SetComplexObjectIsFromSet(val *bool)
+	ConcurrencyUtilization() *float64
+	SetConcurrencyUtilization(val *float64)
+	ConcurrencyUtilizationInput() *float64
+	CpuUtilization() *float64
+	SetCpuUtilization(val *float64)
+	CpuUtilizationInput() *float64
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -70,6 +76,8 @@ type GoogleCloudRunV2ServiceTemplateScalingOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	ResetConcurrencyUtilization()
+	ResetCpuUtilization()
 	ResetMaxInstanceCount()
 	ResetMinInstanceCount()
 	// Produce the Token's value at resolution time.
@@ -102,6 +110,46 @@ func (j *jsiiProxy_GoogleCloudRunV2ServiceTemplateScalingOutputReference) Comple
 	_jsii_.Get(
 		j,
 		"complexObjectIsFromSet",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCloudRunV2ServiceTemplateScalingOutputReference) ConcurrencyUtilization() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"concurrencyUtilization",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCloudRunV2ServiceTemplateScalingOutputReference) ConcurrencyUtilizationInput() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"concurrencyUtilizationInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCloudRunV2ServiceTemplateScalingOutputReference) CpuUtilization() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"cpuUtilization",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCloudRunV2ServiceTemplateScalingOutputReference) CpuUtilizationInput() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"cpuUtilizationInput",
 		&returns,
 	)
 	return returns
@@ -243,6 +291,28 @@ func (j *jsiiProxy_GoogleCloudRunV2ServiceTemplateScalingOutputReference)SetComp
 	_jsii_.Set(
 		j,
 		"complexObjectIsFromSet",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleCloudRunV2ServiceTemplateScalingOutputReference)SetConcurrencyUtilization(val *float64) {
+	if err := j.validateSetConcurrencyUtilizationParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"concurrencyUtilization",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleCloudRunV2ServiceTemplateScalingOutputReference)SetCpuUtilization(val *float64) {
+	if err := j.validateSetCpuUtilizationParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"cpuUtilization",
 		val,
 	)
 }
@@ -486,6 +556,22 @@ func (g *jsiiProxy_GoogleCloudRunV2ServiceTemplateScalingOutputReference) Interp
 	)
 
 	return returns
+}
+
+func (g *jsiiProxy_GoogleCloudRunV2ServiceTemplateScalingOutputReference) ResetConcurrencyUtilization() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetConcurrencyUtilization",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleCloudRunV2ServiceTemplateScalingOutputReference) ResetCpuUtilization() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetCpuUtilization",
+		nil, // no parameters
+	)
 }
 
 func (g *jsiiProxy_GoogleCloudRunV2ServiceTemplateScalingOutputReference) ResetMaxInstanceCount() {

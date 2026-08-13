@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_secure_source_manager_repository google_secure_source_manager_repository}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_secure_source_manager_repository google_secure_source_manager_repository}.
 type GoogleSecureSourceManagerRepository interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -80,6 +80,11 @@ type GoogleSecureSourceManagerRepository interface {
 	RepositoryId() *string
 	SetRepositoryId(val *string)
 	RepositoryIdInput() *string
+	ScanConfig() GoogleSecureSourceManagerRepositoryScanConfigOutputReference
+	ScanConfigInput() *GoogleSecureSourceManagerRepositoryScanConfig
+	ServiceAccount() *string
+	SetServiceAccount(val *string)
+	ServiceAccountInput() *string
 	// Experimental.
 	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
@@ -171,6 +176,7 @@ type GoogleSecureSourceManagerRepository interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutInitialConfig(value *GoogleSecureSourceManagerRepositoryInitialConfig)
+	PutScanConfig(value *GoogleSecureSourceManagerRepositoryScanConfig)
 	PutTimeouts(value *GoogleSecureSourceManagerRepositoryTimeouts)
 	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
 	//
@@ -193,6 +199,8 @@ type GoogleSecureSourceManagerRepository interface {
 	// Experimental.
 	ResetOverrideLogicalId()
 	ResetProject()
+	ResetScanConfig()
+	ResetServiceAccount()
 	ResetTimeouts()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
@@ -531,6 +539,46 @@ func (j *jsiiProxy_GoogleSecureSourceManagerRepository) RepositoryIdInput() *str
 	return returns
 }
 
+func (j *jsiiProxy_GoogleSecureSourceManagerRepository) ScanConfig() GoogleSecureSourceManagerRepositoryScanConfigOutputReference {
+	var returns GoogleSecureSourceManagerRepositoryScanConfigOutputReference
+	_jsii_.Get(
+		j,
+		"scanConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleSecureSourceManagerRepository) ScanConfigInput() *GoogleSecureSourceManagerRepositoryScanConfig {
+	var returns *GoogleSecureSourceManagerRepositoryScanConfig
+	_jsii_.Get(
+		j,
+		"scanConfigInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleSecureSourceManagerRepository) ServiceAccount() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"serviceAccount",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleSecureSourceManagerRepository) ServiceAccountInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"serviceAccountInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleSecureSourceManagerRepository) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
 	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
@@ -612,7 +660,7 @@ func (j *jsiiProxy_GoogleSecureSourceManagerRepository) Uris() GoogleSecureSourc
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_secure_source_manager_repository google_secure_source_manager_repository} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_secure_source_manager_repository google_secure_source_manager_repository} Resource.
 func NewGoogleSecureSourceManagerRepository(scope constructs.Construct, id *string, config *GoogleSecureSourceManagerRepositoryConfig) GoogleSecureSourceManagerRepository {
 	_init_.Initialize()
 
@@ -630,7 +678,7 @@ func NewGoogleSecureSourceManagerRepository(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_secure_source_manager_repository google_secure_source_manager_repository} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_secure_source_manager_repository google_secure_source_manager_repository} Resource.
 func NewGoogleSecureSourceManagerRepository_Override(g GoogleSecureSourceManagerRepository, scope constructs.Construct, id *string, config *GoogleSecureSourceManagerRepositoryConfig) {
 	_init_.Initialize()
 
@@ -782,6 +830,17 @@ func (j *jsiiProxy_GoogleSecureSourceManagerRepository)SetRepositoryId(val *stri
 	_jsii_.Set(
 		j,
 		"repositoryId",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleSecureSourceManagerRepository)SetServiceAccount(val *string) {
+	if err := j.validateSetServiceAccountParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"serviceAccount",
 		val,
 	)
 }
@@ -1166,6 +1225,17 @@ func (g *jsiiProxy_GoogleSecureSourceManagerRepository) PutInitialConfig(value *
 	)
 }
 
+func (g *jsiiProxy_GoogleSecureSourceManagerRepository) PutScanConfig(value *GoogleSecureSourceManagerRepositoryScanConfig) {
+	if err := g.validatePutScanConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putScanConfig",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleSecureSourceManagerRepository) PutTimeouts(value *GoogleSecureSourceManagerRepositoryTimeouts) {
 	if err := g.validatePutTimeoutsParameters(value); err != nil {
 		panic(err)
@@ -1232,6 +1302,22 @@ func (g *jsiiProxy_GoogleSecureSourceManagerRepository) ResetProject() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetProject",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleSecureSourceManagerRepository) ResetScanConfig() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetScanConfig",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleSecureSourceManagerRepository) ResetServiceAccount() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetServiceAccount",
 		nil, // no parameters
 	)
 }

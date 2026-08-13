@@ -1050,10 +1050,82 @@ func init() {
 		"@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigDiskConfig",
 		reflect.TypeOf((*GoogleDataprocClusterClusterConfigMasterConfigDiskConfig)(nil)).Elem(),
 	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigDiskConfigAttachedDiskConfig",
+		reflect.TypeOf((*GoogleDataprocClusterClusterConfigMasterConfigDiskConfigAttachedDiskConfig)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigDiskConfigAttachedDiskConfigList",
+		reflect.TypeOf((*GoogleDataprocClusterClusterConfigMasterConfigDiskConfigAttachedDiskConfigList)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
+		},
+		func() interface{} {
+			j := jsiiProxy_GoogleDataprocClusterClusterConfigMasterConfigDiskConfigAttachedDiskConfigList{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
+			return &j
+		},
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigDiskConfigAttachedDiskConfigOutputReference",
+		reflect.TypeOf((*GoogleDataprocClusterClusterConfigMasterConfigDiskConfigAttachedDiskConfigOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "diskSizeGb", GoGetter: "DiskSizeGb"},
+			_jsii_.MemberProperty{JsiiProperty: "diskSizeGbInput", GoGetter: "DiskSizeGbInput"},
+			_jsii_.MemberProperty{JsiiProperty: "diskType", GoGetter: "DiskType"},
+			_jsii_.MemberProperty{JsiiProperty: "diskTypeInput", GoGetter: "DiskTypeInput"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "provisionedIops", GoGetter: "ProvisionedIops"},
+			_jsii_.MemberProperty{JsiiProperty: "provisionedIopsInput", GoGetter: "ProvisionedIopsInput"},
+			_jsii_.MemberProperty{JsiiProperty: "provisionedThroughput", GoGetter: "ProvisionedThroughput"},
+			_jsii_.MemberProperty{JsiiProperty: "provisionedThroughputInput", GoGetter: "ProvisionedThroughputInput"},
+			_jsii_.MemberMethod{JsiiMethod: "resetDiskSizeGb", GoMethod: "ResetDiskSizeGb"},
+			_jsii_.MemberMethod{JsiiMethod: "resetDiskType", GoMethod: "ResetDiskType"},
+			_jsii_.MemberMethod{JsiiMethod: "resetProvisionedIops", GoMethod: "ResetProvisionedIops"},
+			_jsii_.MemberMethod{JsiiMethod: "resetProvisionedThroughput", GoMethod: "ResetProvisionedThroughput"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_GoogleDataprocClusterClusterConfigMasterConfigDiskConfigAttachedDiskConfigOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
 	_jsii_.RegisterClass(
 		"@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigDiskConfigOutputReference",
 		reflect.TypeOf((*GoogleDataprocClusterClusterConfigMasterConfigDiskConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "attachedDiskConfig", GoGetter: "AttachedDiskConfig"},
+			_jsii_.MemberProperty{JsiiProperty: "attachedDiskConfigInput", GoGetter: "AttachedDiskConfigInput"},
 			_jsii_.MemberProperty{JsiiProperty: "bootDiskProvisionedIops", GoGetter: "BootDiskProvisionedIops"},
 			_jsii_.MemberProperty{JsiiProperty: "bootDiskProvisionedIopsInput", GoGetter: "BootDiskProvisionedIopsInput"},
 			_jsii_.MemberProperty{JsiiProperty: "bootDiskProvisionedThroughput", GoGetter: "BootDiskProvisionedThroughput"},
@@ -1083,6 +1155,8 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "localSsdInterfaceInput", GoGetter: "LocalSsdInterfaceInput"},
 			_jsii_.MemberProperty{JsiiProperty: "numLocalSsds", GoGetter: "NumLocalSsds"},
 			_jsii_.MemberProperty{JsiiProperty: "numLocalSsdsInput", GoGetter: "NumLocalSsdsInput"},
+			_jsii_.MemberMethod{JsiiMethod: "putAttachedDiskConfig", GoMethod: "PutAttachedDiskConfig"},
+			_jsii_.MemberMethod{JsiiMethod: "resetAttachedDiskConfig", GoMethod: "ResetAttachedDiskConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "resetBootDiskProvisionedIops", GoMethod: "ResetBootDiskProvisionedIops"},
 			_jsii_.MemberMethod{JsiiMethod: "resetBootDiskProvisionedThroughput", GoMethod: "ResetBootDiskProvisionedThroughput"},
 			_jsii_.MemberMethod{JsiiMethod: "resetBootDiskSizeGb", GoMethod: "ResetBootDiskSizeGb"},
@@ -1108,10 +1182,82 @@ func init() {
 		"@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListDiskConfig",
 		reflect.TypeOf((*GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListDiskConfig)(nil)).Elem(),
 	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListDiskConfigAttachedDiskConfig",
+		reflect.TypeOf((*GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListDiskConfigAttachedDiskConfig)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListDiskConfigAttachedDiskConfigList",
+		reflect.TypeOf((*GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListDiskConfigAttachedDiskConfigList)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
+		},
+		func() interface{} {
+			j := jsiiProxy_GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListDiskConfigAttachedDiskConfigList{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
+			return &j
+		},
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListDiskConfigAttachedDiskConfigOutputReference",
+		reflect.TypeOf((*GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListDiskConfigAttachedDiskConfigOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "diskSizeGb", GoGetter: "DiskSizeGb"},
+			_jsii_.MemberProperty{JsiiProperty: "diskSizeGbInput", GoGetter: "DiskSizeGbInput"},
+			_jsii_.MemberProperty{JsiiProperty: "diskType", GoGetter: "DiskType"},
+			_jsii_.MemberProperty{JsiiProperty: "diskTypeInput", GoGetter: "DiskTypeInput"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "provisionedIops", GoGetter: "ProvisionedIops"},
+			_jsii_.MemberProperty{JsiiProperty: "provisionedIopsInput", GoGetter: "ProvisionedIopsInput"},
+			_jsii_.MemberProperty{JsiiProperty: "provisionedThroughput", GoGetter: "ProvisionedThroughput"},
+			_jsii_.MemberProperty{JsiiProperty: "provisionedThroughputInput", GoGetter: "ProvisionedThroughputInput"},
+			_jsii_.MemberMethod{JsiiMethod: "resetDiskSizeGb", GoMethod: "ResetDiskSizeGb"},
+			_jsii_.MemberMethod{JsiiMethod: "resetDiskType", GoMethod: "ResetDiskType"},
+			_jsii_.MemberMethod{JsiiMethod: "resetProvisionedIops", GoMethod: "ResetProvisionedIops"},
+			_jsii_.MemberMethod{JsiiMethod: "resetProvisionedThroughput", GoMethod: "ResetProvisionedThroughput"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListDiskConfigAttachedDiskConfigOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
 	_jsii_.RegisterClass(
 		"@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListDiskConfigOutputReference",
 		reflect.TypeOf((*GoogleDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListDiskConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "attachedDiskConfig", GoGetter: "AttachedDiskConfig"},
+			_jsii_.MemberProperty{JsiiProperty: "attachedDiskConfigInput", GoGetter: "AttachedDiskConfigInput"},
 			_jsii_.MemberProperty{JsiiProperty: "bootDiskProvisionedIops", GoGetter: "BootDiskProvisionedIops"},
 			_jsii_.MemberProperty{JsiiProperty: "bootDiskProvisionedIopsInput", GoGetter: "BootDiskProvisionedIopsInput"},
 			_jsii_.MemberProperty{JsiiProperty: "bootDiskProvisionedThroughput", GoGetter: "BootDiskProvisionedThroughput"},
@@ -1141,6 +1287,8 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "localSsdInterfaceInput", GoGetter: "LocalSsdInterfaceInput"},
 			_jsii_.MemberProperty{JsiiProperty: "numLocalSsds", GoGetter: "NumLocalSsds"},
 			_jsii_.MemberProperty{JsiiProperty: "numLocalSsdsInput", GoGetter: "NumLocalSsdsInput"},
+			_jsii_.MemberMethod{JsiiMethod: "putAttachedDiskConfig", GoMethod: "PutAttachedDiskConfig"},
+			_jsii_.MemberMethod{JsiiMethod: "resetAttachedDiskConfig", GoMethod: "ResetAttachedDiskConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "resetBootDiskProvisionedIops", GoMethod: "ResetBootDiskProvisionedIops"},
 			_jsii_.MemberMethod{JsiiMethod: "resetBootDiskProvisionedThroughput", GoMethod: "ResetBootDiskProvisionedThroughput"},
 			_jsii_.MemberMethod{JsiiMethod: "resetBootDiskSizeGb", GoMethod: "ResetBootDiskSizeGb"},
@@ -1529,10 +1677,82 @@ func init() {
 		"@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigDiskConfig",
 		reflect.TypeOf((*GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigDiskConfig)(nil)).Elem(),
 	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigDiskConfigAttachedDiskConfig",
+		reflect.TypeOf((*GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigDiskConfigAttachedDiskConfig)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigDiskConfigAttachedDiskConfigList",
+		reflect.TypeOf((*GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigDiskConfigAttachedDiskConfigList)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
+		},
+		func() interface{} {
+			j := jsiiProxy_GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigDiskConfigAttachedDiskConfigList{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
+			return &j
+		},
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigDiskConfigAttachedDiskConfigOutputReference",
+		reflect.TypeOf((*GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigDiskConfigAttachedDiskConfigOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "diskSizeGb", GoGetter: "DiskSizeGb"},
+			_jsii_.MemberProperty{JsiiProperty: "diskSizeGbInput", GoGetter: "DiskSizeGbInput"},
+			_jsii_.MemberProperty{JsiiProperty: "diskType", GoGetter: "DiskType"},
+			_jsii_.MemberProperty{JsiiProperty: "diskTypeInput", GoGetter: "DiskTypeInput"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "provisionedIops", GoGetter: "ProvisionedIops"},
+			_jsii_.MemberProperty{JsiiProperty: "provisionedIopsInput", GoGetter: "ProvisionedIopsInput"},
+			_jsii_.MemberProperty{JsiiProperty: "provisionedThroughput", GoGetter: "ProvisionedThroughput"},
+			_jsii_.MemberProperty{JsiiProperty: "provisionedThroughputInput", GoGetter: "ProvisionedThroughputInput"},
+			_jsii_.MemberMethod{JsiiMethod: "resetDiskSizeGb", GoMethod: "ResetDiskSizeGb"},
+			_jsii_.MemberMethod{JsiiMethod: "resetDiskType", GoMethod: "ResetDiskType"},
+			_jsii_.MemberMethod{JsiiMethod: "resetProvisionedIops", GoMethod: "ResetProvisionedIops"},
+			_jsii_.MemberMethod{JsiiMethod: "resetProvisionedThroughput", GoMethod: "ResetProvisionedThroughput"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigDiskConfigAttachedDiskConfigOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
 	_jsii_.RegisterClass(
 		"@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigDiskConfigOutputReference",
 		reflect.TypeOf((*GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigDiskConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "attachedDiskConfig", GoGetter: "AttachedDiskConfig"},
+			_jsii_.MemberProperty{JsiiProperty: "attachedDiskConfigInput", GoGetter: "AttachedDiskConfigInput"},
 			_jsii_.MemberProperty{JsiiProperty: "bootDiskProvisionedIops", GoGetter: "BootDiskProvisionedIops"},
 			_jsii_.MemberProperty{JsiiProperty: "bootDiskProvisionedIopsInput", GoGetter: "BootDiskProvisionedIopsInput"},
 			_jsii_.MemberProperty{JsiiProperty: "bootDiskProvisionedThroughput", GoGetter: "BootDiskProvisionedThroughput"},
@@ -1562,6 +1782,8 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "localSsdInterfaceInput", GoGetter: "LocalSsdInterfaceInput"},
 			_jsii_.MemberProperty{JsiiProperty: "numLocalSsds", GoGetter: "NumLocalSsds"},
 			_jsii_.MemberProperty{JsiiProperty: "numLocalSsdsInput", GoGetter: "NumLocalSsdsInput"},
+			_jsii_.MemberMethod{JsiiMethod: "putAttachedDiskConfig", GoMethod: "PutAttachedDiskConfig"},
+			_jsii_.MemberMethod{JsiiMethod: "resetAttachedDiskConfig", GoMethod: "ResetAttachedDiskConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "resetBootDiskProvisionedIops", GoMethod: "ResetBootDiskProvisionedIops"},
 			_jsii_.MemberMethod{JsiiMethod: "resetBootDiskProvisionedThroughput", GoMethod: "ResetBootDiskProvisionedThroughput"},
 			_jsii_.MemberMethod{JsiiMethod: "resetBootDiskSizeGb", GoMethod: "ResetBootDiskSizeGb"},
@@ -1587,10 +1809,82 @@ func init() {
 		"@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListDiskConfig",
 		reflect.TypeOf((*GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListDiskConfig)(nil)).Elem(),
 	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListDiskConfigAttachedDiskConfig",
+		reflect.TypeOf((*GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListDiskConfigAttachedDiskConfig)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListDiskConfigAttachedDiskConfigList",
+		reflect.TypeOf((*GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListDiskConfigAttachedDiskConfigList)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
+		},
+		func() interface{} {
+			j := jsiiProxy_GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListDiskConfigAttachedDiskConfigList{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
+			return &j
+		},
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListDiskConfigAttachedDiskConfigOutputReference",
+		reflect.TypeOf((*GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListDiskConfigAttachedDiskConfigOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "diskSizeGb", GoGetter: "DiskSizeGb"},
+			_jsii_.MemberProperty{JsiiProperty: "diskSizeGbInput", GoGetter: "DiskSizeGbInput"},
+			_jsii_.MemberProperty{JsiiProperty: "diskType", GoGetter: "DiskType"},
+			_jsii_.MemberProperty{JsiiProperty: "diskTypeInput", GoGetter: "DiskTypeInput"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "provisionedIops", GoGetter: "ProvisionedIops"},
+			_jsii_.MemberProperty{JsiiProperty: "provisionedIopsInput", GoGetter: "ProvisionedIopsInput"},
+			_jsii_.MemberProperty{JsiiProperty: "provisionedThroughput", GoGetter: "ProvisionedThroughput"},
+			_jsii_.MemberProperty{JsiiProperty: "provisionedThroughputInput", GoGetter: "ProvisionedThroughputInput"},
+			_jsii_.MemberMethod{JsiiMethod: "resetDiskSizeGb", GoMethod: "ResetDiskSizeGb"},
+			_jsii_.MemberMethod{JsiiMethod: "resetDiskType", GoMethod: "ResetDiskType"},
+			_jsii_.MemberMethod{JsiiMethod: "resetProvisionedIops", GoMethod: "ResetProvisionedIops"},
+			_jsii_.MemberMethod{JsiiMethod: "resetProvisionedThroughput", GoMethod: "ResetProvisionedThroughput"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListDiskConfigAttachedDiskConfigOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
 	_jsii_.RegisterClass(
 		"@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListDiskConfigOutputReference",
 		reflect.TypeOf((*GoogleDataprocClusterClusterConfigPreemptibleWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListDiskConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "attachedDiskConfig", GoGetter: "AttachedDiskConfig"},
+			_jsii_.MemberProperty{JsiiProperty: "attachedDiskConfigInput", GoGetter: "AttachedDiskConfigInput"},
 			_jsii_.MemberProperty{JsiiProperty: "bootDiskProvisionedIops", GoGetter: "BootDiskProvisionedIops"},
 			_jsii_.MemberProperty{JsiiProperty: "bootDiskProvisionedIopsInput", GoGetter: "BootDiskProvisionedIopsInput"},
 			_jsii_.MemberProperty{JsiiProperty: "bootDiskProvisionedThroughput", GoGetter: "BootDiskProvisionedThroughput"},
@@ -1620,6 +1914,8 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "localSsdInterfaceInput", GoGetter: "LocalSsdInterfaceInput"},
 			_jsii_.MemberProperty{JsiiProperty: "numLocalSsds", GoGetter: "NumLocalSsds"},
 			_jsii_.MemberProperty{JsiiProperty: "numLocalSsdsInput", GoGetter: "NumLocalSsdsInput"},
+			_jsii_.MemberMethod{JsiiMethod: "putAttachedDiskConfig", GoMethod: "PutAttachedDiskConfig"},
+			_jsii_.MemberMethod{JsiiMethod: "resetAttachedDiskConfig", GoMethod: "ResetAttachedDiskConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "resetBootDiskProvisionedIops", GoMethod: "ResetBootDiskProvisionedIops"},
 			_jsii_.MemberMethod{JsiiMethod: "resetBootDiskProvisionedThroughput", GoMethod: "ResetBootDiskProvisionedThroughput"},
 			_jsii_.MemberMethod{JsiiMethod: "resetBootDiskSizeGb", GoMethod: "ResetBootDiskSizeGb"},
@@ -2171,10 +2467,82 @@ func init() {
 		"@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigDiskConfig",
 		reflect.TypeOf((*GoogleDataprocClusterClusterConfigWorkerConfigDiskConfig)(nil)).Elem(),
 	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigDiskConfigAttachedDiskConfig",
+		reflect.TypeOf((*GoogleDataprocClusterClusterConfigWorkerConfigDiskConfigAttachedDiskConfig)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigDiskConfigAttachedDiskConfigList",
+		reflect.TypeOf((*GoogleDataprocClusterClusterConfigWorkerConfigDiskConfigAttachedDiskConfigList)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
+		},
+		func() interface{} {
+			j := jsiiProxy_GoogleDataprocClusterClusterConfigWorkerConfigDiskConfigAttachedDiskConfigList{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
+			return &j
+		},
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigDiskConfigAttachedDiskConfigOutputReference",
+		reflect.TypeOf((*GoogleDataprocClusterClusterConfigWorkerConfigDiskConfigAttachedDiskConfigOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "diskSizeGb", GoGetter: "DiskSizeGb"},
+			_jsii_.MemberProperty{JsiiProperty: "diskSizeGbInput", GoGetter: "DiskSizeGbInput"},
+			_jsii_.MemberProperty{JsiiProperty: "diskType", GoGetter: "DiskType"},
+			_jsii_.MemberProperty{JsiiProperty: "diskTypeInput", GoGetter: "DiskTypeInput"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "provisionedIops", GoGetter: "ProvisionedIops"},
+			_jsii_.MemberProperty{JsiiProperty: "provisionedIopsInput", GoGetter: "ProvisionedIopsInput"},
+			_jsii_.MemberProperty{JsiiProperty: "provisionedThroughput", GoGetter: "ProvisionedThroughput"},
+			_jsii_.MemberProperty{JsiiProperty: "provisionedThroughputInput", GoGetter: "ProvisionedThroughputInput"},
+			_jsii_.MemberMethod{JsiiMethod: "resetDiskSizeGb", GoMethod: "ResetDiskSizeGb"},
+			_jsii_.MemberMethod{JsiiMethod: "resetDiskType", GoMethod: "ResetDiskType"},
+			_jsii_.MemberMethod{JsiiMethod: "resetProvisionedIops", GoMethod: "ResetProvisionedIops"},
+			_jsii_.MemberMethod{JsiiMethod: "resetProvisionedThroughput", GoMethod: "ResetProvisionedThroughput"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_GoogleDataprocClusterClusterConfigWorkerConfigDiskConfigAttachedDiskConfigOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
 	_jsii_.RegisterClass(
 		"@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigDiskConfigOutputReference",
 		reflect.TypeOf((*GoogleDataprocClusterClusterConfigWorkerConfigDiskConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "attachedDiskConfig", GoGetter: "AttachedDiskConfig"},
+			_jsii_.MemberProperty{JsiiProperty: "attachedDiskConfigInput", GoGetter: "AttachedDiskConfigInput"},
 			_jsii_.MemberProperty{JsiiProperty: "bootDiskProvisionedIops", GoGetter: "BootDiskProvisionedIops"},
 			_jsii_.MemberProperty{JsiiProperty: "bootDiskProvisionedIopsInput", GoGetter: "BootDiskProvisionedIopsInput"},
 			_jsii_.MemberProperty{JsiiProperty: "bootDiskProvisionedThroughput", GoGetter: "BootDiskProvisionedThroughput"},
@@ -2204,6 +2572,8 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "localSsdInterfaceInput", GoGetter: "LocalSsdInterfaceInput"},
 			_jsii_.MemberProperty{JsiiProperty: "numLocalSsds", GoGetter: "NumLocalSsds"},
 			_jsii_.MemberProperty{JsiiProperty: "numLocalSsdsInput", GoGetter: "NumLocalSsdsInput"},
+			_jsii_.MemberMethod{JsiiMethod: "putAttachedDiskConfig", GoMethod: "PutAttachedDiskConfig"},
+			_jsii_.MemberMethod{JsiiMethod: "resetAttachedDiskConfig", GoMethod: "ResetAttachedDiskConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "resetBootDiskProvisionedIops", GoMethod: "ResetBootDiskProvisionedIops"},
 			_jsii_.MemberMethod{JsiiMethod: "resetBootDiskProvisionedThroughput", GoMethod: "ResetBootDiskProvisionedThroughput"},
 			_jsii_.MemberMethod{JsiiMethod: "resetBootDiskSizeGb", GoMethod: "ResetBootDiskSizeGb"},
@@ -2229,10 +2599,82 @@ func init() {
 		"@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListDiskConfig",
 		reflect.TypeOf((*GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListDiskConfig)(nil)).Elem(),
 	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListDiskConfigAttachedDiskConfig",
+		reflect.TypeOf((*GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListDiskConfigAttachedDiskConfig)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListDiskConfigAttachedDiskConfigList",
+		reflect.TypeOf((*GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListDiskConfigAttachedDiskConfigList)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
+		},
+		func() interface{} {
+			j := jsiiProxy_GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListDiskConfigAttachedDiskConfigList{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
+			return &j
+		},
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListDiskConfigAttachedDiskConfigOutputReference",
+		reflect.TypeOf((*GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListDiskConfigAttachedDiskConfigOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "diskSizeGb", GoGetter: "DiskSizeGb"},
+			_jsii_.MemberProperty{JsiiProperty: "diskSizeGbInput", GoGetter: "DiskSizeGbInput"},
+			_jsii_.MemberProperty{JsiiProperty: "diskType", GoGetter: "DiskType"},
+			_jsii_.MemberProperty{JsiiProperty: "diskTypeInput", GoGetter: "DiskTypeInput"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "provisionedIops", GoGetter: "ProvisionedIops"},
+			_jsii_.MemberProperty{JsiiProperty: "provisionedIopsInput", GoGetter: "ProvisionedIopsInput"},
+			_jsii_.MemberProperty{JsiiProperty: "provisionedThroughput", GoGetter: "ProvisionedThroughput"},
+			_jsii_.MemberProperty{JsiiProperty: "provisionedThroughputInput", GoGetter: "ProvisionedThroughputInput"},
+			_jsii_.MemberMethod{JsiiMethod: "resetDiskSizeGb", GoMethod: "ResetDiskSizeGb"},
+			_jsii_.MemberMethod{JsiiMethod: "resetDiskType", GoMethod: "ResetDiskType"},
+			_jsii_.MemberMethod{JsiiMethod: "resetProvisionedIops", GoMethod: "ResetProvisionedIops"},
+			_jsii_.MemberMethod{JsiiMethod: "resetProvisionedThroughput", GoMethod: "ResetProvisionedThroughput"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListDiskConfigAttachedDiskConfigOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
 	_jsii_.RegisterClass(
 		"@cdktn/provider-google-beta.googleDataprocCluster.GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListDiskConfigOutputReference",
 		reflect.TypeOf((*GoogleDataprocClusterClusterConfigWorkerConfigInstanceFlexibilityPolicyInstanceSelectionListDiskConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "attachedDiskConfig", GoGetter: "AttachedDiskConfig"},
+			_jsii_.MemberProperty{JsiiProperty: "attachedDiskConfigInput", GoGetter: "AttachedDiskConfigInput"},
 			_jsii_.MemberProperty{JsiiProperty: "bootDiskProvisionedIops", GoGetter: "BootDiskProvisionedIops"},
 			_jsii_.MemberProperty{JsiiProperty: "bootDiskProvisionedIopsInput", GoGetter: "BootDiskProvisionedIopsInput"},
 			_jsii_.MemberProperty{JsiiProperty: "bootDiskProvisionedThroughput", GoGetter: "BootDiskProvisionedThroughput"},
@@ -2262,6 +2704,8 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "localSsdInterfaceInput", GoGetter: "LocalSsdInterfaceInput"},
 			_jsii_.MemberProperty{JsiiProperty: "numLocalSsds", GoGetter: "NumLocalSsds"},
 			_jsii_.MemberProperty{JsiiProperty: "numLocalSsdsInput", GoGetter: "NumLocalSsdsInput"},
+			_jsii_.MemberMethod{JsiiMethod: "putAttachedDiskConfig", GoMethod: "PutAttachedDiskConfig"},
+			_jsii_.MemberMethod{JsiiMethod: "resetAttachedDiskConfig", GoMethod: "ResetAttachedDiskConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "resetBootDiskProvisionedIops", GoMethod: "ResetBootDiskProvisionedIops"},
 			_jsii_.MemberMethod{JsiiMethod: "resetBootDiskProvisionedThroughput", GoMethod: "ResetBootDiskProvisionedThroughput"},
 			_jsii_.MemberMethod{JsiiMethod: "resetBootDiskSizeGb", GoMethod: "ResetBootDiskSizeGb"},

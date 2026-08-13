@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/data-sources/google_compute_region_security_policy google_compute_region_security_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/data-sources/google_compute_region_security_policy google_compute_region_security_policy}.
 type DataGoogleComputeRegionSecurityPolicy interface {
 	cdktn.TerraformDataSource
 	AdvancedOptionsConfig() DataGoogleComputeRegionSecurityPolicyAdvancedOptionsConfigList
@@ -479,7 +479,7 @@ func (j *jsiiProxy_DataGoogleComputeRegionSecurityPolicy) UserDefinedFields() Da
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/data-sources/google_compute_region_security_policy google_compute_region_security_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/data-sources/google_compute_region_security_policy google_compute_region_security_policy} Data Source.
 func NewDataGoogleComputeRegionSecurityPolicy(scope constructs.Construct, id *string, config *DataGoogleComputeRegionSecurityPolicyConfig) DataGoogleComputeRegionSecurityPolicy {
 	_init_.Initialize()
 
@@ -497,7 +497,7 @@ func NewDataGoogleComputeRegionSecurityPolicy(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/data-sources/google_compute_region_security_policy google_compute_region_security_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/data-sources/google_compute_region_security_policy google_compute_region_security_policy} Data Source.
 func NewDataGoogleComputeRegionSecurityPolicy_Override(d DataGoogleComputeRegionSecurityPolicy, scope constructs.Construct, id *string, config *DataGoogleComputeRegionSecurityPolicyConfig) {
 	_init_.Initialize()
 

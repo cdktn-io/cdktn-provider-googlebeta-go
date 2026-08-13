@@ -226,6 +226,17 @@ func (g *jsiiProxy_GoogleSecureSourceManagerRepository) validatePutInitialConfig
 	return nil
 }
 
+func (g *jsiiProxy_GoogleSecureSourceManagerRepository) validatePutScanConfigParameters(value *GoogleSecureSourceManagerRepositoryScanConfig) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
+	}
+
+	return nil
+}
+
 func (g *jsiiProxy_GoogleSecureSourceManagerRepository) validatePutTimeoutsParameters(value *GoogleSecureSourceManagerRepositoryTimeouts) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")
@@ -478,6 +489,14 @@ func (j *jsiiProxy_GoogleSecureSourceManagerRepository) validateSetProvisionersP
 }
 
 func (j *jsiiProxy_GoogleSecureSourceManagerRepository) validateSetRepositoryIdParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_GoogleSecureSourceManagerRepository) validateSetServiceAccountParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}

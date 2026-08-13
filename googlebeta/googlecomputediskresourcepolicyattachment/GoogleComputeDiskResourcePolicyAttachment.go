@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_compute_disk_resource_policy_attachment google_compute_disk_resource_policy_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_compute_disk_resource_policy_attachment google_compute_disk_resource_policy_attachment}.
 type GoogleComputeDiskResourcePolicyAttachment interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -510,7 +510,7 @@ func (j *jsiiProxy_GoogleComputeDiskResourcePolicyAttachment) ZoneInput() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_compute_disk_resource_policy_attachment google_compute_disk_resource_policy_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_compute_disk_resource_policy_attachment google_compute_disk_resource_policy_attachment} Resource.
 func NewGoogleComputeDiskResourcePolicyAttachment(scope constructs.Construct, id *string, config *GoogleComputeDiskResourcePolicyAttachmentConfig) GoogleComputeDiskResourcePolicyAttachment {
 	_init_.Initialize()
 
@@ -528,7 +528,7 @@ func NewGoogleComputeDiskResourcePolicyAttachment(scope constructs.Construct, id
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_compute_disk_resource_policy_attachment google_compute_disk_resource_policy_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_compute_disk_resource_policy_attachment google_compute_disk_resource_policy_attachment} Resource.
 func NewGoogleComputeDiskResourcePolicyAttachment_Override(g GoogleComputeDiskResourcePolicyAttachment, scope constructs.Construct, id *string, config *GoogleComputeDiskResourcePolicyAttachmentConfig) {
 	_init_.Initialize()
 

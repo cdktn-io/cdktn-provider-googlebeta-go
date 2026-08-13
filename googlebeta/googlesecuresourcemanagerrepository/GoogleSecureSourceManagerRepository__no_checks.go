@@ -83,6 +83,10 @@ func (g *jsiiProxy_GoogleSecureSourceManagerRepository) validatePutInitialConfig
 	return nil
 }
 
+func (g *jsiiProxy_GoogleSecureSourceManagerRepository) validatePutScanConfigParameters(value *GoogleSecureSourceManagerRepositoryScanConfig) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleSecureSourceManagerRepository) validatePutTimeoutsParameters(value *GoogleSecureSourceManagerRepositoryTimeouts) error {
 	return nil
 }
@@ -148,6 +152,10 @@ func (j *jsiiProxy_GoogleSecureSourceManagerRepository) validateSetProvisionersP
 }
 
 func (j *jsiiProxy_GoogleSecureSourceManagerRepository) validateSetRepositoryIdParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleSecureSourceManagerRepository) validateSetServiceAccountParameters(val *string) error {
 	return nil
 }
 

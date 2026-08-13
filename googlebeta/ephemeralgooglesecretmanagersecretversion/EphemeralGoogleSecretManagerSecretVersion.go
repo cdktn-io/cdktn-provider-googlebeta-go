@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/ephemeral-resources/google_secret_manager_secret_version google_secret_manager_secret_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/ephemeral-resources/google_secret_manager_secret_version google_secret_manager_secret_version}.
 type EphemeralGoogleSecretManagerSecretVersion interface {
 	cdktn.TerraformEphemeralResource
 	// Experimental.
@@ -412,7 +412,7 @@ func (j *jsiiProxy_EphemeralGoogleSecretManagerSecretVersion) VersionInput() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/ephemeral-resources/google_secret_manager_secret_version google_secret_manager_secret_version} Ephemeral Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/ephemeral-resources/google_secret_manager_secret_version google_secret_manager_secret_version} Ephemeral Resource.
 func NewEphemeralGoogleSecretManagerSecretVersion(scope constructs.Construct, id *string, config *EphemeralGoogleSecretManagerSecretVersionConfig) EphemeralGoogleSecretManagerSecretVersion {
 	_init_.Initialize()
 
@@ -430,7 +430,7 @@ func NewEphemeralGoogleSecretManagerSecretVersion(scope constructs.Construct, id
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/ephemeral-resources/google_secret_manager_secret_version google_secret_manager_secret_version} Ephemeral Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/ephemeral-resources/google_secret_manager_secret_version google_secret_manager_secret_version} Ephemeral Resource.
 func NewEphemeralGoogleSecretManagerSecretVersion_Override(e EphemeralGoogleSecretManagerSecretVersion, scope constructs.Construct, id *string, config *EphemeralGoogleSecretManagerSecretVersionConfig) {
 	_init_.Initialize()
 

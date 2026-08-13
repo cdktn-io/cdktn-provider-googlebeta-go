@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_network_services_endpoint_policy google_network_services_endpoint_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_network_services_endpoint_policy google_network_services_endpoint_policy}.
 type GoogleNetworkServicesEndpointPolicy interface {
 	cdktn.TerraformResource
 	AuthorizationPolicy() *string
@@ -697,7 +697,7 @@ func (j *jsiiProxy_GoogleNetworkServicesEndpointPolicy) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_network_services_endpoint_policy google_network_services_endpoint_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_network_services_endpoint_policy google_network_services_endpoint_policy} Resource.
 func NewGoogleNetworkServicesEndpointPolicy(scope constructs.Construct, id *string, config *GoogleNetworkServicesEndpointPolicyConfig) GoogleNetworkServicesEndpointPolicy {
 	_init_.Initialize()
 
@@ -715,7 +715,7 @@ func NewGoogleNetworkServicesEndpointPolicy(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_network_services_endpoint_policy google_network_services_endpoint_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_network_services_endpoint_policy google_network_services_endpoint_policy} Resource.
 func NewGoogleNetworkServicesEndpointPolicy_Override(g GoogleNetworkServicesEndpointPolicy, scope constructs.Construct, id *string, config *GoogleNetworkServicesEndpointPolicyConfig) {
 	_init_.Initialize()
 

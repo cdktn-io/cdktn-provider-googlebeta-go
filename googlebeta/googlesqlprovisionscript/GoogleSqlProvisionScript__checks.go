@@ -401,6 +401,14 @@ func (j *jsiiProxy_GoogleSqlProvisionScript) validateSetLifecycleParameters(val 
 	return nil
 }
 
+func (j *jsiiProxy_GoogleSqlProvisionScript) validateSetPasswordSecretVersionParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_GoogleSqlProvisionScript) validateSetProjectParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
@@ -456,6 +464,14 @@ func (j *jsiiProxy_GoogleSqlProvisionScript) validateSetProvisionersParameters(v
 }
 
 func (j *jsiiProxy_GoogleSqlProvisionScript) validateSetScriptParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_GoogleSqlProvisionScript) validateSetUserParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}

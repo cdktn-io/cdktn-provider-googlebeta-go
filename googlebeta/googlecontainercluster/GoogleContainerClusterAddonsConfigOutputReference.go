@@ -46,6 +46,8 @@ type GoogleContainerClusterAddonsConfigOutputReference interface {
 	GcsFuseCsiDriverConfigInput() *GoogleContainerClusterAddonsConfigGcsFuseCsiDriverConfig
 	GkeBackupAgentConfig() GoogleContainerClusterAddonsConfigGkeBackupAgentConfigOutputReference
 	GkeBackupAgentConfigInput() *GoogleContainerClusterAddonsConfigGkeBackupAgentConfig
+	HighScaleCheckpointingConfig() GoogleContainerClusterAddonsConfigHighScaleCheckpointingConfigOutputReference
+	HighScaleCheckpointingConfigInput() *GoogleContainerClusterAddonsConfigHighScaleCheckpointingConfig
 	HorizontalPodAutoscaling() GoogleContainerClusterAddonsConfigHorizontalPodAutoscalingOutputReference
 	HorizontalPodAutoscalingInput() *GoogleContainerClusterAddonsConfigHorizontalPodAutoscaling
 	HttpLoadBalancing() GoogleContainerClusterAddonsConfigHttpLoadBalancingOutputReference
@@ -114,6 +116,7 @@ type GoogleContainerClusterAddonsConfigOutputReference interface {
 	PutGcpFilestoreCsiDriverConfig(value *GoogleContainerClusterAddonsConfigGcpFilestoreCsiDriverConfig)
 	PutGcsFuseCsiDriverConfig(value *GoogleContainerClusterAddonsConfigGcsFuseCsiDriverConfig)
 	PutGkeBackupAgentConfig(value *GoogleContainerClusterAddonsConfigGkeBackupAgentConfig)
+	PutHighScaleCheckpointingConfig(value *GoogleContainerClusterAddonsConfigHighScaleCheckpointingConfig)
 	PutHorizontalPodAutoscaling(value *GoogleContainerClusterAddonsConfigHorizontalPodAutoscaling)
 	PutHttpLoadBalancing(value *GoogleContainerClusterAddonsConfigHttpLoadBalancing)
 	PutIstioConfig(value *GoogleContainerClusterAddonsConfigIstioConfig)
@@ -135,6 +138,7 @@ type GoogleContainerClusterAddonsConfigOutputReference interface {
 	ResetGcpFilestoreCsiDriverConfig()
 	ResetGcsFuseCsiDriverConfig()
 	ResetGkeBackupAgentConfig()
+	ResetHighScaleCheckpointingConfig()
 	ResetHorizontalPodAutoscaling()
 	ResetHttpLoadBalancing()
 	ResetIstioConfig()
@@ -358,6 +362,26 @@ func (j *jsiiProxy_GoogleContainerClusterAddonsConfigOutputReference) GkeBackupA
 	_jsii_.Get(
 		j,
 		"gkeBackupAgentConfigInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleContainerClusterAddonsConfigOutputReference) HighScaleCheckpointingConfig() GoogleContainerClusterAddonsConfigHighScaleCheckpointingConfigOutputReference {
+	var returns GoogleContainerClusterAddonsConfigHighScaleCheckpointingConfigOutputReference
+	_jsii_.Get(
+		j,
+		"highScaleCheckpointingConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleContainerClusterAddonsConfigOutputReference) HighScaleCheckpointingConfigInput() *GoogleContainerClusterAddonsConfigHighScaleCheckpointingConfig {
+	var returns *GoogleContainerClusterAddonsConfigHighScaleCheckpointingConfig
+	_jsii_.Get(
+		j,
+		"highScaleCheckpointingConfigInput",
 		&returns,
 	)
 	return returns
@@ -1010,6 +1034,17 @@ func (g *jsiiProxy_GoogleContainerClusterAddonsConfigOutputReference) PutGkeBack
 	)
 }
 
+func (g *jsiiProxy_GoogleContainerClusterAddonsConfigOutputReference) PutHighScaleCheckpointingConfig(value *GoogleContainerClusterAddonsConfigHighScaleCheckpointingConfig) {
+	if err := g.validatePutHighScaleCheckpointingConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putHighScaleCheckpointingConfig",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleContainerClusterAddonsConfigOutputReference) PutHorizontalPodAutoscaling(value *GoogleContainerClusterAddonsConfigHorizontalPodAutoscaling) {
 	if err := g.validatePutHorizontalPodAutoscalingParameters(value); err != nil {
 		panic(err)
@@ -1213,6 +1248,14 @@ func (g *jsiiProxy_GoogleContainerClusterAddonsConfigOutputReference) ResetGkeBa
 	_jsii_.InvokeVoid(
 		g,
 		"resetGkeBackupAgentConfig",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleContainerClusterAddonsConfigOutputReference) ResetHighScaleCheckpointingConfig() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetHighScaleCheckpointingConfig",
 		nil, // no parameters
 	)
 }

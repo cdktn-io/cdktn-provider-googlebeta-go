@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_compute_region_network_firewall_policy_iam_binding google_compute_region_network_firewall_policy_iam_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_compute_region_network_firewall_policy_iam_binding google_compute_region_network_firewall_policy_iam_binding}.
 type GoogleComputeRegionNetworkFirewallPolicyIamBinding interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -520,7 +520,7 @@ func (j *jsiiProxy_GoogleComputeRegionNetworkFirewallPolicyIamBinding) Terraform
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_compute_region_network_firewall_policy_iam_binding google_compute_region_network_firewall_policy_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_compute_region_network_firewall_policy_iam_binding google_compute_region_network_firewall_policy_iam_binding} Resource.
 func NewGoogleComputeRegionNetworkFirewallPolicyIamBinding(scope constructs.Construct, id *string, config *GoogleComputeRegionNetworkFirewallPolicyIamBindingConfig) GoogleComputeRegionNetworkFirewallPolicyIamBinding {
 	_init_.Initialize()
 
@@ -538,7 +538,7 @@ func NewGoogleComputeRegionNetworkFirewallPolicyIamBinding(scope constructs.Cons
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_compute_region_network_firewall_policy_iam_binding google_compute_region_network_firewall_policy_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_compute_region_network_firewall_policy_iam_binding google_compute_region_network_firewall_policy_iam_binding} Resource.
 func NewGoogleComputeRegionNetworkFirewallPolicyIamBinding_Override(g GoogleComputeRegionNetworkFirewallPolicyIamBinding, scope constructs.Construct, id *string, config *GoogleComputeRegionNetworkFirewallPolicyIamBindingConfig) {
 	_init_.Initialize()
 

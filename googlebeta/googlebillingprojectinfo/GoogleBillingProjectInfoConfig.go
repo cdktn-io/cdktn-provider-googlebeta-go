@@ -27,7 +27,7 @@ type GoogleBillingProjectInfoConfig struct {
 	// Set to empty string to disable billing for the project.
 	// For example, '"012345-567890-ABCDEF"' or '""'.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_billing_project_info#billing_account GoogleBillingProjectInfo#billing_account}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_billing_project_info#billing_account GoogleBillingProjectInfo#billing_account}
 	BillingAccount *string `field:"required" json:"billingAccount" yaml:"billingAccount"`
 	// Whether Terraform will be prevented from destroying the instance.
 	//
@@ -39,18 +39,18 @@ type GoogleBillingProjectInfoConfig struct {
 	// When set to "DELETE", deleting the resource is allowed.
 	//
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_billing_project_info#deletion_policy GoogleBillingProjectInfo#deletion_policy}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_billing_project_info#deletion_policy GoogleBillingProjectInfo#deletion_policy}
 	DeletionPolicy *string `field:"optional" json:"deletionPolicy" yaml:"deletionPolicy"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_billing_project_info#id GoogleBillingProjectInfo#id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_billing_project_info#id GoogleBillingProjectInfo#id}.
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
 	Id *string `field:"optional" json:"id" yaml:"id"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_billing_project_info#project GoogleBillingProjectInfo#project}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_billing_project_info#project GoogleBillingProjectInfo#project}.
 	Project *string `field:"optional" json:"project" yaml:"project"`
 	// timeouts block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_billing_project_info#timeouts GoogleBillingProjectInfo#timeouts}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_billing_project_info#timeouts GoogleBillingProjectInfo#timeouts}
 	Timeouts *GoogleBillingProjectInfoTimeouts `field:"optional" json:"timeouts" yaml:"timeouts"`
 }
 

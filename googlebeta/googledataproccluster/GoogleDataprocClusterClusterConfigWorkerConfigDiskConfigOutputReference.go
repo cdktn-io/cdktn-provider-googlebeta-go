@@ -13,6 +13,8 @@ import (
 
 type GoogleDataprocClusterClusterConfigWorkerConfigDiskConfigOutputReference interface {
 	cdktn.ComplexObject
+	AttachedDiskConfig() GoogleDataprocClusterClusterConfigWorkerConfigDiskConfigAttachedDiskConfigList
+	AttachedDiskConfigInput() interface{}
 	BootDiskProvisionedIops() *float64
 	SetBootDiskProvisionedIops(val *float64)
 	BootDiskProvisionedIopsInput() *float64
@@ -82,6 +84,8 @@ type GoogleDataprocClusterClusterConfigWorkerConfigDiskConfigOutputReference int
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutAttachedDiskConfig(value interface{})
+	ResetAttachedDiskConfig()
 	ResetBootDiskProvisionedIops()
 	ResetBootDiskProvisionedThroughput()
 	ResetBootDiskSizeGb()
@@ -101,6 +105,26 @@ type GoogleDataprocClusterClusterConfigWorkerConfigDiskConfigOutputReference int
 // The jsii proxy struct for GoogleDataprocClusterClusterConfigWorkerConfigDiskConfigOutputReference
 type jsiiProxy_GoogleDataprocClusterClusterConfigWorkerConfigDiskConfigOutputReference struct {
 	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_GoogleDataprocClusterClusterConfigWorkerConfigDiskConfigOutputReference) AttachedDiskConfig() GoogleDataprocClusterClusterConfigWorkerConfigDiskConfigAttachedDiskConfigList {
+	var returns GoogleDataprocClusterClusterConfigWorkerConfigDiskConfigAttachedDiskConfigList
+	_jsii_.Get(
+		j,
+		"attachedDiskConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDataprocClusterClusterConfigWorkerConfigDiskConfigOutputReference) AttachedDiskConfigInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"attachedDiskConfigInput",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_GoogleDataprocClusterClusterConfigWorkerConfigDiskConfigOutputReference) BootDiskProvisionedIops() *float64 {
@@ -626,6 +650,25 @@ func (g *jsiiProxy_GoogleDataprocClusterClusterConfigWorkerConfigDiskConfigOutpu
 	)
 
 	return returns
+}
+
+func (g *jsiiProxy_GoogleDataprocClusterClusterConfigWorkerConfigDiskConfigOutputReference) PutAttachedDiskConfig(value interface{}) {
+	if err := g.validatePutAttachedDiskConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putAttachedDiskConfig",
+		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleDataprocClusterClusterConfigWorkerConfigDiskConfigOutputReference) ResetAttachedDiskConfig() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetAttachedDiskConfig",
+		nil, // no parameters
+	)
 }
 
 func (g *jsiiProxy_GoogleDataprocClusterClusterConfigWorkerConfigDiskConfigOutputReference) ResetBootDiskProvisionedIops() {

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_vector_search_data_object google_vector_search_data_object}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_vector_search_data_object google_vector_search_data_object}.
 type GoogleVectorSearchDataObject interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -614,7 +614,7 @@ func (j *jsiiProxy_GoogleVectorSearchDataObject) VectorsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_vector_search_data_object google_vector_search_data_object} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_vector_search_data_object google_vector_search_data_object} Resource.
 func NewGoogleVectorSearchDataObject(scope constructs.Construct, id *string, config *GoogleVectorSearchDataObjectConfig) GoogleVectorSearchDataObject {
 	_init_.Initialize()
 
@@ -632,7 +632,7 @@ func NewGoogleVectorSearchDataObject(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_vector_search_data_object google_vector_search_data_object} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_vector_search_data_object google_vector_search_data_object} Resource.
 func NewGoogleVectorSearchDataObject_Override(g GoogleVectorSearchDataObject, scope constructs.Construct, id *string, config *GoogleVectorSearchDataObjectConfig) {
 	_init_.Initialize()
 

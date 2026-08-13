@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_apihub_runtime_project_attachment google_apihub_runtime_project_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_apihub_runtime_project_attachment google_apihub_runtime_project_attachment}.
 type GoogleApihubRuntimeProjectAttachment interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -531,7 +531,7 @@ func (j *jsiiProxy_GoogleApihubRuntimeProjectAttachment) TimeoutsInput() interfa
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_apihub_runtime_project_attachment google_apihub_runtime_project_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_apihub_runtime_project_attachment google_apihub_runtime_project_attachment} Resource.
 func NewGoogleApihubRuntimeProjectAttachment(scope constructs.Construct, id *string, config *GoogleApihubRuntimeProjectAttachmentConfig) GoogleApihubRuntimeProjectAttachment {
 	_init_.Initialize()
 
@@ -549,7 +549,7 @@ func NewGoogleApihubRuntimeProjectAttachment(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_apihub_runtime_project_attachment google_apihub_runtime_project_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_apihub_runtime_project_attachment google_apihub_runtime_project_attachment} Resource.
 func NewGoogleApihubRuntimeProjectAttachment_Override(g GoogleApihubRuntimeProjectAttachment, scope constructs.Construct, id *string, config *GoogleApihubRuntimeProjectAttachmentConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/data-sources/google_memorystore_instance google_memorystore_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/data-sources/google_memorystore_instance google_memorystore_instance}.
 type DataGoogleMemorystoreInstance interface {
 	cdktn.TerraformDataSource
 	AuthorizationMode() *string
@@ -820,7 +820,7 @@ func (j *jsiiProxy_DataGoogleMemorystoreInstance) ZoneDistributionConfig() DataG
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/data-sources/google_memorystore_instance google_memorystore_instance} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/data-sources/google_memorystore_instance google_memorystore_instance} Data Source.
 func NewDataGoogleMemorystoreInstance(scope constructs.Construct, id *string, config *DataGoogleMemorystoreInstanceConfig) DataGoogleMemorystoreInstance {
 	_init_.Initialize()
 
@@ -838,7 +838,7 @@ func NewDataGoogleMemorystoreInstance(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/data-sources/google_memorystore_instance google_memorystore_instance} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/data-sources/google_memorystore_instance google_memorystore_instance} Data Source.
 func NewDataGoogleMemorystoreInstance_Override(d DataGoogleMemorystoreInstance, scope constructs.Construct, id *string, config *DataGoogleMemorystoreInstanceConfig) {
 	_init_.Initialize()
 

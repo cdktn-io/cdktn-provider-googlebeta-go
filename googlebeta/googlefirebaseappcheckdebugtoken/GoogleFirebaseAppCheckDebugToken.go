@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_firebase_app_check_debug_token google_firebase_app_check_debug_token}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_firebase_app_check_debug_token google_firebase_app_check_debug_token}.
 type GoogleFirebaseAppCheckDebugToken interface {
 	cdktn.TerraformResource
 	AppId() *string
@@ -520,7 +520,7 @@ func (j *jsiiProxy_GoogleFirebaseAppCheckDebugToken) TokenInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_firebase_app_check_debug_token google_firebase_app_check_debug_token} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_firebase_app_check_debug_token google_firebase_app_check_debug_token} Resource.
 func NewGoogleFirebaseAppCheckDebugToken(scope constructs.Construct, id *string, config *GoogleFirebaseAppCheckDebugTokenConfig) GoogleFirebaseAppCheckDebugToken {
 	_init_.Initialize()
 
@@ -538,7 +538,7 @@ func NewGoogleFirebaseAppCheckDebugToken(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_firebase_app_check_debug_token google_firebase_app_check_debug_token} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_firebase_app_check_debug_token google_firebase_app_check_debug_token} Resource.
 func NewGoogleFirebaseAppCheckDebugToken_Override(g GoogleFirebaseAppCheckDebugToken, scope constructs.Construct, id *string, config *GoogleFirebaseAppCheckDebugTokenConfig) {
 	_init_.Initialize()
 

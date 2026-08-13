@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_os_config_os_policy_assignment google_os_config_os_policy_assignment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_os_config_os_policy_assignment google_os_config_os_policy_assignment}.
 type GoogleOsConfigOsPolicyAssignment interface {
 	cdktn.TerraformResource
 	Baseline() cdktn.IResolvable
@@ -691,7 +691,7 @@ func (j *jsiiProxy_GoogleOsConfigOsPolicyAssignment) Uid() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_os_config_os_policy_assignment google_os_config_os_policy_assignment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_os_config_os_policy_assignment google_os_config_os_policy_assignment} Resource.
 func NewGoogleOsConfigOsPolicyAssignment(scope constructs.Construct, id *string, config *GoogleOsConfigOsPolicyAssignmentConfig) GoogleOsConfigOsPolicyAssignment {
 	_init_.Initialize()
 
@@ -709,7 +709,7 @@ func NewGoogleOsConfigOsPolicyAssignment(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_os_config_os_policy_assignment google_os_config_os_policy_assignment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_os_config_os_policy_assignment google_os_config_os_policy_assignment} Resource.
 func NewGoogleOsConfigOsPolicyAssignment_Override(g GoogleOsConfigOsPolicyAssignment, scope constructs.Construct, id *string, config *GoogleOsConfigOsPolicyAssignmentConfig) {
 	_init_.Initialize()
 

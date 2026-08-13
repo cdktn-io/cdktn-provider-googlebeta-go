@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_vmwareengine_network_policy google_vmwareengine_network_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_vmwareengine_network_policy google_vmwareengine_network_policy}.
 type GoogleVmwareengineNetworkPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -648,7 +648,7 @@ func (j *jsiiProxy_GoogleVmwareengineNetworkPolicy) VmwareEngineNetworkInput() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_vmwareengine_network_policy google_vmwareengine_network_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_vmwareengine_network_policy google_vmwareengine_network_policy} Resource.
 func NewGoogleVmwareengineNetworkPolicy(scope constructs.Construct, id *string, config *GoogleVmwareengineNetworkPolicyConfig) GoogleVmwareengineNetworkPolicy {
 	_init_.Initialize()
 
@@ -666,7 +666,7 @@ func NewGoogleVmwareengineNetworkPolicy(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_vmwareengine_network_policy google_vmwareengine_network_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_vmwareengine_network_policy google_vmwareengine_network_policy} Resource.
 func NewGoogleVmwareengineNetworkPolicy_Override(g GoogleVmwareengineNetworkPolicy, scope constructs.Construct, id *string, config *GoogleVmwareengineNetworkPolicyConfig) {
 	_init_.Initialize()
 

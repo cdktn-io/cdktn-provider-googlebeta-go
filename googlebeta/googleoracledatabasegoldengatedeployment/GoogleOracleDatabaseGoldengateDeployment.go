@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_oracle_database_goldengate_deployment google_oracle_database_goldengate_deployment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_oracle_database_goldengate_deployment google_oracle_database_goldengate_deployment}.
 type GoogleOracleDatabaseGoldengateDeployment interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -693,7 +693,7 @@ func (j *jsiiProxy_GoogleOracleDatabaseGoldengateDeployment) TimeoutsInput() int
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_oracle_database_goldengate_deployment google_oracle_database_goldengate_deployment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_oracle_database_goldengate_deployment google_oracle_database_goldengate_deployment} Resource.
 func NewGoogleOracleDatabaseGoldengateDeployment(scope constructs.Construct, id *string, config *GoogleOracleDatabaseGoldengateDeploymentConfig) GoogleOracleDatabaseGoldengateDeployment {
 	_init_.Initialize()
 
@@ -711,7 +711,7 @@ func NewGoogleOracleDatabaseGoldengateDeployment(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_oracle_database_goldengate_deployment google_oracle_database_goldengate_deployment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_oracle_database_goldengate_deployment google_oracle_database_goldengate_deployment} Resource.
 func NewGoogleOracleDatabaseGoldengateDeployment_Override(g GoogleOracleDatabaseGoldengateDeployment, scope constructs.Construct, id *string, config *GoogleOracleDatabaseGoldengateDeploymentConfig) {
 	_init_.Initialize()
 

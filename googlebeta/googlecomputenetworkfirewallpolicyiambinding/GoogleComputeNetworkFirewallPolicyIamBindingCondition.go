@@ -5,11 +5,11 @@ package googlecomputenetworkfirewallpolicyiambinding
 
 
 type GoogleComputeNetworkFirewallPolicyIamBindingCondition struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_compute_network_firewall_policy_iam_binding#expression GoogleComputeNetworkFirewallPolicyIamBinding#expression}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_compute_network_firewall_policy_iam_binding#expression GoogleComputeNetworkFirewallPolicyIamBinding#expression}.
 	Expression *string `field:"required" json:"expression" yaml:"expression"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_compute_network_firewall_policy_iam_binding#title GoogleComputeNetworkFirewallPolicyIamBinding#title}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_compute_network_firewall_policy_iam_binding#title GoogleComputeNetworkFirewallPolicyIamBinding#title}.
 	Title *string `field:"required" json:"title" yaml:"title"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_compute_network_firewall_policy_iam_binding#description GoogleComputeNetworkFirewallPolicyIamBinding#description}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_compute_network_firewall_policy_iam_binding#description GoogleComputeNetworkFirewallPolicyIamBinding#description}.
 	Description *string `field:"optional" json:"description" yaml:"description"`
 }
 

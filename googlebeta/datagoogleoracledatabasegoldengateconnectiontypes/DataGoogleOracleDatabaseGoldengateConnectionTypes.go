@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/data-sources/google_oracle_database_goldengate_connection_types google_oracle_database_goldengate_connection_types}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/data-sources/google_oracle_database_goldengate_connection_types google_oracle_database_goldengate_connection_types}.
 type DataGoogleOracleDatabaseGoldengateConnectionTypes interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -345,7 +345,7 @@ func (j *jsiiProxy_DataGoogleOracleDatabaseGoldengateConnectionTypes) TerraformR
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/data-sources/google_oracle_database_goldengate_connection_types google_oracle_database_goldengate_connection_types} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/data-sources/google_oracle_database_goldengate_connection_types google_oracle_database_goldengate_connection_types} Data Source.
 func NewDataGoogleOracleDatabaseGoldengateConnectionTypes(scope constructs.Construct, id *string, config *DataGoogleOracleDatabaseGoldengateConnectionTypesConfig) DataGoogleOracleDatabaseGoldengateConnectionTypes {
 	_init_.Initialize()
 
@@ -363,7 +363,7 @@ func NewDataGoogleOracleDatabaseGoldengateConnectionTypes(scope constructs.Const
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/data-sources/google_oracle_database_goldengate_connection_types google_oracle_database_goldengate_connection_types} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/data-sources/google_oracle_database_goldengate_connection_types google_oracle_database_goldengate_connection_types} Data Source.
 func NewDataGoogleOracleDatabaseGoldengateConnectionTypes_Override(d DataGoogleOracleDatabaseGoldengateConnectionTypes, scope constructs.Construct, id *string, config *DataGoogleOracleDatabaseGoldengateConnectionTypesConfig) {
 	_init_.Initialize()
 

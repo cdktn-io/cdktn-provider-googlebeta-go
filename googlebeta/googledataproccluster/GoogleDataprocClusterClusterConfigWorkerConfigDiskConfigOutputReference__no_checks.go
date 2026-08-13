@@ -47,6 +47,10 @@ func (g *jsiiProxy_GoogleDataprocClusterClusterConfigWorkerConfigDiskConfigOutpu
 	return nil
 }
 
+func (g *jsiiProxy_GoogleDataprocClusterClusterConfigWorkerConfigDiskConfigOutputReference) validatePutAttachedDiskConfigParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleDataprocClusterClusterConfigWorkerConfigDiskConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_iap_agent_registry_agent_iam_binding google_iap_agent_registry_agent_iam_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_iap_agent_registry_agent_iam_binding google_iap_agent_registry_agent_iam_binding}.
 type GoogleIapAgentRegistryAgentIamBinding interface {
 	cdktn.TerraformResource
 	AgentId() *string
@@ -520,7 +520,7 @@ func (j *jsiiProxy_GoogleIapAgentRegistryAgentIamBinding) TerraformResourceType(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_iap_agent_registry_agent_iam_binding google_iap_agent_registry_agent_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_iap_agent_registry_agent_iam_binding google_iap_agent_registry_agent_iam_binding} Resource.
 func NewGoogleIapAgentRegistryAgentIamBinding(scope constructs.Construct, id *string, config *GoogleIapAgentRegistryAgentIamBindingConfig) GoogleIapAgentRegistryAgentIamBinding {
 	_init_.Initialize()
 
@@ -538,7 +538,7 @@ func NewGoogleIapAgentRegistryAgentIamBinding(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_iap_agent_registry_agent_iam_binding google_iap_agent_registry_agent_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_iap_agent_registry_agent_iam_binding google_iap_agent_registry_agent_iam_binding} Resource.
 func NewGoogleIapAgentRegistryAgentIamBinding_Override(g GoogleIapAgentRegistryAgentIamBinding, scope constructs.Construct, id *string, config *GoogleIapAgentRegistryAgentIamBindingConfig) {
 	_init_.Initialize()
 

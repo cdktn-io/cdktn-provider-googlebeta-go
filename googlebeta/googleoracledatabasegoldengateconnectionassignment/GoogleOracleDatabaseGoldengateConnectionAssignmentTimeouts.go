@@ -5,11 +5,11 @@ package googleoracledatabasegoldengateconnectionassignment
 
 
 type GoogleOracleDatabaseGoldengateConnectionAssignmentTimeouts struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_oracle_database_goldengate_connection_assignment#create GoogleOracleDatabaseGoldengateConnectionAssignment#create}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_oracle_database_goldengate_connection_assignment#create GoogleOracleDatabaseGoldengateConnectionAssignment#create}.
 	Create *string `field:"optional" json:"create" yaml:"create"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_oracle_database_goldengate_connection_assignment#delete GoogleOracleDatabaseGoldengateConnectionAssignment#delete}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_oracle_database_goldengate_connection_assignment#delete GoogleOracleDatabaseGoldengateConnectionAssignment#delete}.
 	Delete *string `field:"optional" json:"delete" yaml:"delete"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_oracle_database_goldengate_connection_assignment#update GoogleOracleDatabaseGoldengateConnectionAssignment#update}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_oracle_database_goldengate_connection_assignment#update GoogleOracleDatabaseGoldengateConnectionAssignment#update}.
 	Update *string `field:"optional" json:"update" yaml:"update"`
 }
 

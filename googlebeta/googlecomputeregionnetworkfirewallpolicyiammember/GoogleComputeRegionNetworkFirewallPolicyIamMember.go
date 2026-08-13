@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_compute_region_network_firewall_policy_iam_member google_compute_region_network_firewall_policy_iam_member}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_compute_region_network_firewall_policy_iam_member google_compute_region_network_firewall_policy_iam_member}.
 type GoogleComputeRegionNetworkFirewallPolicyIamMember interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -520,7 +520,7 @@ func (j *jsiiProxy_GoogleComputeRegionNetworkFirewallPolicyIamMember) TerraformR
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_compute_region_network_firewall_policy_iam_member google_compute_region_network_firewall_policy_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_compute_region_network_firewall_policy_iam_member google_compute_region_network_firewall_policy_iam_member} Resource.
 func NewGoogleComputeRegionNetworkFirewallPolicyIamMember(scope constructs.Construct, id *string, config *GoogleComputeRegionNetworkFirewallPolicyIamMemberConfig) GoogleComputeRegionNetworkFirewallPolicyIamMember {
 	_init_.Initialize()
 
@@ -538,7 +538,7 @@ func NewGoogleComputeRegionNetworkFirewallPolicyIamMember(scope constructs.Const
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_compute_region_network_firewall_policy_iam_member google_compute_region_network_firewall_policy_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_compute_region_network_firewall_policy_iam_member google_compute_region_network_firewall_policy_iam_member} Resource.
 func NewGoogleComputeRegionNetworkFirewallPolicyIamMember_Override(g GoogleComputeRegionNetworkFirewallPolicyIamMember, scope constructs.Construct, id *string, config *GoogleComputeRegionNetworkFirewallPolicyIamMemberConfig) {
 	_init_.Initialize()
 

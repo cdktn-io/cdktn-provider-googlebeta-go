@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_network_connectivity_transport google_network_connectivity_transport}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_network_connectivity_transport google_network_connectivity_transport}.
 type GoogleNetworkConnectivityTransport interface {
 	cdktn.TerraformResource
 	AdminEnabled() interface{}
@@ -228,6 +228,7 @@ type GoogleNetworkConnectivityTransport interface {
 	ResetId()
 	ResetLabels()
 	ResetMtuLimit()
+	ResetNetwork()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
@@ -875,7 +876,7 @@ func (j *jsiiProxy_GoogleNetworkConnectivityTransport) TimeoutsInput() interface
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_network_connectivity_transport google_network_connectivity_transport} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_network_connectivity_transport google_network_connectivity_transport} Resource.
 func NewGoogleNetworkConnectivityTransport(scope constructs.Construct, id *string, config *GoogleNetworkConnectivityTransportConfig) GoogleNetworkConnectivityTransport {
 	_init_.Initialize()
 
@@ -893,7 +894,7 @@ func NewGoogleNetworkConnectivityTransport(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_network_connectivity_transport google_network_connectivity_transport} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_network_connectivity_transport google_network_connectivity_transport} Resource.
 func NewGoogleNetworkConnectivityTransport_Override(g GoogleNetworkConnectivityTransport, scope constructs.Construct, id *string, config *GoogleNetworkConnectivityTransportConfig) {
 	_init_.Initialize()
 
@@ -1648,6 +1649,14 @@ func (g *jsiiProxy_GoogleNetworkConnectivityTransport) ResetMtuLimit() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetMtuLimit",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleNetworkConnectivityTransport) ResetNetwork() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetNetwork",
 		nil, // no parameters
 	)
 }

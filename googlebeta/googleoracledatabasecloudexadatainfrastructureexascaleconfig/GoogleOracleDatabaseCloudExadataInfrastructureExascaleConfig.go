@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_oracle_database_cloud_exadata_infrastructure_exascale_config google_oracle_database_cloud_exadata_infrastructure_exascale_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_oracle_database_cloud_exadata_infrastructure_exascale_config google_oracle_database_cloud_exadata_infrastructure_exascale_config}.
 type GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -509,7 +509,7 @@ func (j *jsiiProxy_GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig)
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_oracle_database_cloud_exadata_infrastructure_exascale_config google_oracle_database_cloud_exadata_infrastructure_exascale_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_oracle_database_cloud_exadata_infrastructure_exascale_config google_oracle_database_cloud_exadata_infrastructure_exascale_config} Resource.
 func NewGoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig(scope constructs.Construct, id *string, config *GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfigConfig) GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig {
 	_init_.Initialize()
 
@@ -527,7 +527,7 @@ func NewGoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig(scope const
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_oracle_database_cloud_exadata_infrastructure_exascale_config google_oracle_database_cloud_exadata_infrastructure_exascale_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_oracle_database_cloud_exadata_infrastructure_exascale_config google_oracle_database_cloud_exadata_infrastructure_exascale_config} Resource.
 func NewGoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig_Override(g GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig, scope constructs.Construct, id *string, config *GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfigConfig) {
 	_init_.Initialize()
 

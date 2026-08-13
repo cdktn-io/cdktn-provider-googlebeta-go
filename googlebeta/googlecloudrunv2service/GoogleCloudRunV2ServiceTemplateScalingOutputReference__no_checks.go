@@ -59,6 +59,14 @@ func (j *jsiiProxy_GoogleCloudRunV2ServiceTemplateScalingOutputReference) valida
 	return nil
 }
 
+func (j *jsiiProxy_GoogleCloudRunV2ServiceTemplateScalingOutputReference) validateSetConcurrencyUtilizationParameters(val *float64) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleCloudRunV2ServiceTemplateScalingOutputReference) validateSetCpuUtilizationParameters(val *float64) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleCloudRunV2ServiceTemplateScalingOutputReference) validateSetInternalValueParameters(val *GoogleCloudRunV2ServiceTemplateScaling) error {
 	return nil
 }

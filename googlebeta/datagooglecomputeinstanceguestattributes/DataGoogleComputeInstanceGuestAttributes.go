@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/data-sources/google_compute_instance_guest_attributes google_compute_instance_guest_attributes}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/data-sources/google_compute_instance_guest_attributes google_compute_instance_guest_attributes}.
 type DataGoogleComputeInstanceGuestAttributes interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -452,7 +452,7 @@ func (j *jsiiProxy_DataGoogleComputeInstanceGuestAttributes) ZoneInput() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/data-sources/google_compute_instance_guest_attributes google_compute_instance_guest_attributes} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/data-sources/google_compute_instance_guest_attributes google_compute_instance_guest_attributes} Data Source.
 func NewDataGoogleComputeInstanceGuestAttributes(scope constructs.Construct, id *string, config *DataGoogleComputeInstanceGuestAttributesConfig) DataGoogleComputeInstanceGuestAttributes {
 	_init_.Initialize()
 
@@ -470,7 +470,7 @@ func NewDataGoogleComputeInstanceGuestAttributes(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/data-sources/google_compute_instance_guest_attributes google_compute_instance_guest_attributes} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/data-sources/google_compute_instance_guest_attributes google_compute_instance_guest_attributes} Data Source.
 func NewDataGoogleComputeInstanceGuestAttributes_Override(d DataGoogleComputeInstanceGuestAttributes, scope constructs.Construct, id *string, config *DataGoogleComputeInstanceGuestAttributesConfig) {
 	_init_.Initialize()
 

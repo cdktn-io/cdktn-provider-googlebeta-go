@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_vmwareengine_network google_vmwareengine_network}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_vmwareengine_network google_vmwareengine_network}.
 type GoogleVmwareengineNetwork interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -599,7 +599,7 @@ func (j *jsiiProxy_GoogleVmwareengineNetwork) VpcNetworks() GoogleVmwareengineNe
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_vmwareengine_network google_vmwareengine_network} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_vmwareengine_network google_vmwareengine_network} Resource.
 func NewGoogleVmwareengineNetwork(scope constructs.Construct, id *string, config *GoogleVmwareengineNetworkConfig) GoogleVmwareengineNetwork {
 	_init_.Initialize()
 
@@ -617,7 +617,7 @@ func NewGoogleVmwareengineNetwork(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_vmwareengine_network google_vmwareengine_network} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_vmwareengine_network google_vmwareengine_network} Resource.
 func NewGoogleVmwareengineNetwork_Override(g GoogleVmwareengineNetwork, scope constructs.Construct, id *string, config *GoogleVmwareengineNetworkConfig) {
 	_init_.Initialize()
 

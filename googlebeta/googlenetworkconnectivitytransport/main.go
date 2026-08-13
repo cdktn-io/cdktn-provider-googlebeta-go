@@ -97,6 +97,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetId", GoMethod: "ResetId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetLabels", GoMethod: "ResetLabels"},
 			_jsii_.MemberMethod{JsiiMethod: "resetMtuLimit", GoMethod: "ResetMtuLimit"},
+			_jsii_.MemberMethod{JsiiMethod: "resetNetwork", GoMethod: "ResetNetwork"},
 			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetProject", GoMethod: "ResetProject"},
 			_jsii_.MemberMethod{JsiiMethod: "resetProvidedActivationKey", GoMethod: "ResetProvidedActivationKey"},

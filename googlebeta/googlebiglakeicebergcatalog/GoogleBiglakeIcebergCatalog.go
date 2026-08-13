@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_biglake_iceberg_catalog google_biglake_iceberg_catalog}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_biglake_iceberg_catalog google_biglake_iceberg_catalog}.
 type GoogleBiglakeIcebergCatalog interface {
 	cdktn.TerraformResource
 	BiglakeServiceAccount() *string
@@ -696,7 +696,7 @@ func (j *jsiiProxy_GoogleBiglakeIcebergCatalog) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_biglake_iceberg_catalog google_biglake_iceberg_catalog} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_biglake_iceberg_catalog google_biglake_iceberg_catalog} Resource.
 func NewGoogleBiglakeIcebergCatalog(scope constructs.Construct, id *string, config *GoogleBiglakeIcebergCatalogConfig) GoogleBiglakeIcebergCatalog {
 	_init_.Initialize()
 
@@ -714,7 +714,7 @@ func NewGoogleBiglakeIcebergCatalog(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_biglake_iceberg_catalog google_biglake_iceberg_catalog} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_biglake_iceberg_catalog google_biglake_iceberg_catalog} Resource.
 func NewGoogleBiglakeIcebergCatalog_Override(g GoogleBiglakeIcebergCatalog, scope constructs.Construct, id *string, config *GoogleBiglakeIcebergCatalogConfig) {
 	_init_.Initialize()
 

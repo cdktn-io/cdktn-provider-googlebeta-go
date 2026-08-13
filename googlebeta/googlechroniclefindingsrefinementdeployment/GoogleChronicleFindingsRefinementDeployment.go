@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_chronicle_findings_refinement_deployment google_chronicle_findings_refinement_deployment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_chronicle_findings_refinement_deployment google_chronicle_findings_refinement_deployment}.
 type GoogleChronicleFindingsRefinementDeployment interface {
 	cdktn.TerraformResource
 	Archived() interface{}
@@ -579,7 +579,7 @@ func (j *jsiiProxy_GoogleChronicleFindingsRefinementDeployment) UpdateTime() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_chronicle_findings_refinement_deployment google_chronicle_findings_refinement_deployment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_chronicle_findings_refinement_deployment google_chronicle_findings_refinement_deployment} Resource.
 func NewGoogleChronicleFindingsRefinementDeployment(scope constructs.Construct, id *string, config *GoogleChronicleFindingsRefinementDeploymentConfig) GoogleChronicleFindingsRefinementDeployment {
 	_init_.Initialize()
 
@@ -597,7 +597,7 @@ func NewGoogleChronicleFindingsRefinementDeployment(scope constructs.Construct, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_chronicle_findings_refinement_deployment google_chronicle_findings_refinement_deployment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_chronicle_findings_refinement_deployment google_chronicle_findings_refinement_deployment} Resource.
 func NewGoogleChronicleFindingsRefinementDeployment_Override(g GoogleChronicleFindingsRefinementDeployment, scope constructs.Construct, id *string, config *GoogleChronicleFindingsRefinementDeploymentConfig) {
 	_init_.Initialize()
 

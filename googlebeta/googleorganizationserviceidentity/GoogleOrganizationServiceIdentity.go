@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_organization_service_identity google_organization_service_identity}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_organization_service_identity google_organization_service_identity}.
 type GoogleOrganizationServiceIdentity interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -460,7 +460,7 @@ func (j *jsiiProxy_GoogleOrganizationServiceIdentity) TimeoutsInput() interface{
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_organization_service_identity google_organization_service_identity} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_organization_service_identity google_organization_service_identity} Resource.
 func NewGoogleOrganizationServiceIdentity(scope constructs.Construct, id *string, config *GoogleOrganizationServiceIdentityConfig) GoogleOrganizationServiceIdentity {
 	_init_.Initialize()
 
@@ -478,7 +478,7 @@ func NewGoogleOrganizationServiceIdentity(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_organization_service_identity google_organization_service_identity} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_organization_service_identity google_organization_service_identity} Resource.
 func NewGoogleOrganizationServiceIdentity_Override(g GoogleOrganizationServiceIdentity, scope constructs.Construct, id *string, config *GoogleOrganizationServiceIdentityConfig) {
 	_init_.Initialize()
 

@@ -47,6 +47,10 @@ func (g *jsiiProxy_GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigGener
 	return nil
 }
 
+func (g *jsiiProxy_GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigGenerationConfigOutputReference) validatePutGenerationTriggerConfigParameters(value *GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigGenerationConfigGenerationTriggerConfig) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigGenerationConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_compute_snapshot_iam_member google_compute_snapshot_iam_member}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_compute_snapshot_iam_member google_compute_snapshot_iam_member}.
 type GoogleComputeSnapshotIamMember interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -496,7 +496,7 @@ func (j *jsiiProxy_GoogleComputeSnapshotIamMember) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_compute_snapshot_iam_member google_compute_snapshot_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_compute_snapshot_iam_member google_compute_snapshot_iam_member} Resource.
 func NewGoogleComputeSnapshotIamMember(scope constructs.Construct, id *string, config *GoogleComputeSnapshotIamMemberConfig) GoogleComputeSnapshotIamMember {
 	_init_.Initialize()
 
@@ -514,7 +514,7 @@ func NewGoogleComputeSnapshotIamMember(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_compute_snapshot_iam_member google_compute_snapshot_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_compute_snapshot_iam_member google_compute_snapshot_iam_member} Resource.
 func NewGoogleComputeSnapshotIamMember_Override(g GoogleComputeSnapshotIamMember, scope constructs.Construct, id *string, config *GoogleComputeSnapshotIamMemberConfig) {
 	_init_.Initialize()
 

@@ -1,3 +1,3 @@
 # `google_bigquery_analytics_hub_query_template`
 
-Refer to the Terraform Registry for docs: [`google_bigquery_analytics_hub_query_template`](https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/resources/google_bigquery_analytics_hub_query_template).
+Refer to the Terraform Registry for docs: [`google_bigquery_analytics_hub_query_template`](https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_bigquery_analytics_hub_query_template).

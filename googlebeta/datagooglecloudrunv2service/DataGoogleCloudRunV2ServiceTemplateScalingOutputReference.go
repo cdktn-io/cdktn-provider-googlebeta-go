@@ -23,6 +23,8 @@ type DataGoogleCloudRunV2ServiceTemplateScalingOutputReference interface {
 	ComplexObjectIsFromSet() *bool
 	// Experimental.
 	SetComplexObjectIsFromSet(val *bool)
+	ConcurrencyUtilization() *float64
+	CpuUtilization() *float64
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -96,6 +98,26 @@ func (j *jsiiProxy_DataGoogleCloudRunV2ServiceTemplateScalingOutputReference) Co
 	_jsii_.Get(
 		j,
 		"complexObjectIsFromSet",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleCloudRunV2ServiceTemplateScalingOutputReference) ConcurrencyUtilization() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"concurrencyUtilization",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleCloudRunV2ServiceTemplateScalingOutputReference) CpuUtilization() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"cpuUtilization",
 		&returns,
 	)
 	return returns

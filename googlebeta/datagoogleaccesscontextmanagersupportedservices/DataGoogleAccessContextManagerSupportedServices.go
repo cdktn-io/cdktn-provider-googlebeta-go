@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/data-sources/google_access_context_manager_supported_services google_access_context_manager_supported_services}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/data-sources/google_access_context_manager_supported_services google_access_context_manager_supported_services}.
 type DataGoogleAccessContextManagerSupportedServices interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -298,7 +298,7 @@ func (j *jsiiProxy_DataGoogleAccessContextManagerSupportedServices) TerraformRes
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/data-sources/google_access_context_manager_supported_services google_access_context_manager_supported_services} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/data-sources/google_access_context_manager_supported_services google_access_context_manager_supported_services} Data Source.
 func NewDataGoogleAccessContextManagerSupportedServices(scope constructs.Construct, id *string, config *DataGoogleAccessContextManagerSupportedServicesConfig) DataGoogleAccessContextManagerSupportedServices {
 	_init_.Initialize()
 
@@ -316,7 +316,7 @@ func NewDataGoogleAccessContextManagerSupportedServices(scope constructs.Constru
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.43.0/docs/data-sources/google_access_context_manager_supported_services google_access_context_manager_supported_services} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/data-sources/google_access_context_manager_supported_services google_access_context_manager_supported_services} Data Source.
 func NewDataGoogleAccessContextManagerSupportedServices_Override(d DataGoogleAccessContextManagerSupportedServices, scope constructs.Construct, id *string, config *DataGoogleAccessContextManagerSupportedServicesConfig) {
 	_init_.Initialize()
 
