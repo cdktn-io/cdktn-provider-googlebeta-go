@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/ephemeral-resources/google_service_account_jwt google_service_account_jwt}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/ephemeral-resources/google_service_account_jwt google_service_account_jwt}.
 type EphemeralGoogleServiceAccountJwt interface {
 	cdktn.TerraformEphemeralResource
 	// Experimental.
@@ -367,7 +367,7 @@ func (j *jsiiProxy_EphemeralGoogleServiceAccountJwt) TerraformResourceType() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/ephemeral-resources/google_service_account_jwt google_service_account_jwt} Ephemeral Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/ephemeral-resources/google_service_account_jwt google_service_account_jwt} Ephemeral Resource.
 func NewEphemeralGoogleServiceAccountJwt(scope constructs.Construct, id *string, config *EphemeralGoogleServiceAccountJwtConfig) EphemeralGoogleServiceAccountJwt {
 	_init_.Initialize()
 
@@ -385,7 +385,7 @@ func NewEphemeralGoogleServiceAccountJwt(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/ephemeral-resources/google_service_account_jwt google_service_account_jwt} Ephemeral Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/ephemeral-resources/google_service_account_jwt google_service_account_jwt} Ephemeral Resource.
 func NewEphemeralGoogleServiceAccountJwt_Override(e EphemeralGoogleServiceAccountJwt, scope constructs.Construct, id *string, config *EphemeralGoogleServiceAccountJwtConfig) {
 	_init_.Initialize()
 

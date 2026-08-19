@@ -59,11 +59,23 @@ func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfigOutp
 	return nil
 }
 
+func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfigOutputReference) validateSetCpuUtilizationThresholdPercentParameters(val *float64) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfigOutputReference) validateSetEnabledParameters(val interface{}) error {
 	return nil
 }
 
+func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfigOutputReference) validateSetHistoryListLengthThresholdCountParameters(val *float64) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfigOutputReference) validateSetInternalValueParameters(val *GoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfig) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfigOutputReference) validateSetMemoryUsageThresholdPercentParameters(val *float64) error {
 	return nil
 }
 
@@ -83,6 +95,10 @@ func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfigOutp
 	return nil
 }
 
+func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfigOutputReference) validateSetSemaphoreWaitThresholdCountParameters(val *float64) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfigOutputReference) validateSetTerraformAttributeParameters(val *string) error {
 	return nil
 }
@@ -92,6 +108,22 @@ func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfigOutp
 }
 
 func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfigOutputReference) validateSetTransactionDurationThresholdParameters(val *float64) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfigOutputReference) validateSetTransactionKillExcludedUserHostsParameters(val *[]*string) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfigOutputReference) validateSetTransactionKillThresholdSecondsParameters(val *float64) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfigOutputReference) validateSetTransactionKillTypeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfigOutputReference) validateSetTransactionLockWaitThresholdCountParameters(val *float64) error {
 	return nil
 }
 

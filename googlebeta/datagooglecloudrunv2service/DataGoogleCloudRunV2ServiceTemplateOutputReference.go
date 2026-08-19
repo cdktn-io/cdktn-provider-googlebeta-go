@@ -42,6 +42,7 @@ type DataGoogleCloudRunV2ServiceTemplateOutputReference interface {
 	MaxInstanceRequestConcurrency() *float64
 	NodeSelector() DataGoogleCloudRunV2ServiceTemplateNodeSelectorList
 	Revision() *string
+	Sandboxes() DataGoogleCloudRunV2ServiceTemplateSandboxesList
 	Scaling() DataGoogleCloudRunV2ServiceTemplateScalingList
 	ServiceAccount() *string
 	ServiceMesh() DataGoogleCloudRunV2ServiceTemplateServiceMeshList
@@ -241,6 +242,16 @@ func (j *jsiiProxy_DataGoogleCloudRunV2ServiceTemplateOutputReference) Revision(
 	_jsii_.Get(
 		j,
 		"revision",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleCloudRunV2ServiceTemplateOutputReference) Sandboxes() DataGoogleCloudRunV2ServiceTemplateSandboxesList {
+	var returns DataGoogleCloudRunV2ServiceTemplateSandboxesList
+	_jsii_.Get(
+		j,
+		"sandboxes",
 		&returns,
 	)
 	return returns

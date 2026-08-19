@@ -215,6 +215,17 @@ func (g *jsiiProxy_GoogleAccessContextManagerGcpUserAccessBinding) validateOverr
 	return nil
 }
 
+func (g *jsiiProxy_GoogleAccessContextManagerGcpUserAccessBinding) validatePutPrincipalParameters(value *GoogleAccessContextManagerGcpUserAccessBindingPrincipal) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
+	}
+
+	return nil
+}
+
 func (g *jsiiProxy_GoogleAccessContextManagerGcpUserAccessBinding) validatePutScopedAccessSettingsParameters(value interface{}) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")
@@ -415,6 +426,14 @@ func (j *jsiiProxy_GoogleAccessContextManagerGcpUserAccessBinding) validateSetCo
 }
 
 func (j *jsiiProxy_GoogleAccessContextManagerGcpUserAccessBinding) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_GoogleAccessContextManagerGcpUserAccessBinding) validateSetDryRunAccessLevelsParameters(val *[]*string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}

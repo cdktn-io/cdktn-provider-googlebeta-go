@@ -67,6 +67,10 @@ func (j *jsiiProxy_GoogleVertexAiReasoningEngineSpecContainerSpecOutputReference
 	return nil
 }
 
+func (j *jsiiProxy_GoogleVertexAiReasoningEngineSpecContainerSpecOutputReference) validateSetPortParameters(val *float64) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleVertexAiReasoningEngineSpecContainerSpecOutputReference) validateSetTerraformAttributeParameters(val *string) error {
 	return nil
 }

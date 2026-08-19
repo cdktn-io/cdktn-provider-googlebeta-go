@@ -35,6 +35,9 @@ type GoogleVertexAiReasoningEngineSpecContainerSpecOutputReference interface {
 	ImageUriInput() *string
 	InternalValue() *GoogleVertexAiReasoningEngineSpecContainerSpec
 	SetInternalValue(val *GoogleVertexAiReasoningEngineSpecContainerSpec)
+	Port() *float64
+	SetPort(val *float64)
+	PortInput() *float64
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -67,6 +70,7 @@ type GoogleVertexAiReasoningEngineSpecContainerSpecOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	ResetPort()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -147,6 +151,26 @@ func (j *jsiiProxy_GoogleVertexAiReasoningEngineSpecContainerSpecOutputReference
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleVertexAiReasoningEngineSpecContainerSpecOutputReference) Port() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"port",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleVertexAiReasoningEngineSpecContainerSpecOutputReference) PortInput() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"portInput",
 		&returns,
 	)
 	return returns
@@ -240,6 +264,17 @@ func (j *jsiiProxy_GoogleVertexAiReasoningEngineSpecContainerSpecOutputReference
 	_jsii_.Set(
 		j,
 		"internalValue",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleVertexAiReasoningEngineSpecContainerSpecOutputReference)SetPort(val *float64) {
+	if err := j.validateSetPortParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"port",
 		val,
 	)
 }
@@ -450,6 +485,14 @@ func (g *jsiiProxy_GoogleVertexAiReasoningEngineSpecContainerSpecOutputReference
 	)
 
 	return returns
+}
+
+func (g *jsiiProxy_GoogleVertexAiReasoningEngineSpecContainerSpecOutputReference) ResetPort() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetPort",
+		nil, // no parameters
+	)
 }
 
 func (g *jsiiProxy_GoogleVertexAiReasoningEngineSpecContainerSpecOutputReference) Resolve(context cdktn.IResolveContext) interface{} {

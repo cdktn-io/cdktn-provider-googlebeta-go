@@ -166,6 +166,14 @@ func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfigOutp
 	return nil
 }
 
+func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfigOutputReference) validateSetCpuUtilizationThresholdPercentParameters(val *float64) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfigOutputReference) validateSetEnabledParameters(val interface{}) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
@@ -186,9 +194,25 @@ func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfigOutp
 	return nil
 }
 
+func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfigOutputReference) validateSetHistoryListLengthThresholdCountParameters(val *float64) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfigOutputReference) validateSetInternalValueParameters(val *GoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfig) error {
 	if err := _jsii_.ValidateStruct(val, func() string { return "parameter val" }); err != nil {
 		return err
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfigOutputReference) validateSetMemoryUsageThresholdPercentParameters(val *float64) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
 
 	return nil
@@ -226,6 +250,14 @@ func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfigOutp
 	return nil
 }
 
+func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfigOutputReference) validateSetSemaphoreWaitThresholdCountParameters(val *float64) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfigOutputReference) validateSetTerraformAttributeParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
@@ -243,6 +275,38 @@ func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfigOutp
 }
 
 func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfigOutputReference) validateSetTransactionDurationThresholdParameters(val *float64) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfigOutputReference) validateSetTransactionKillExcludedUserHostsParameters(val *[]*string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfigOutputReference) validateSetTransactionKillThresholdSecondsParameters(val *float64) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfigOutputReference) validateSetTransactionKillTypeParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfigOutputReference) validateSetTransactionLockWaitThresholdCountParameters(val *float64) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}

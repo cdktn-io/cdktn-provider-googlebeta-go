@@ -513,6 +513,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "computeInstanceId", GoGetter: "ComputeInstanceId"},
 			_jsii_.MemberProperty{JsiiProperty: "confidentialInstanceConfig", GoGetter: "ConfidentialInstanceConfig"},
 			_jsii_.MemberProperty{JsiiProperty: "confidentialInstanceConfigInput", GoGetter: "ConfidentialInstanceConfigInput"},
 			_jsii_.MemberProperty{JsiiProperty: "containerImage", GoGetter: "ContainerImage"},

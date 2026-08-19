@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_contact_center_insights_view google_contact_center_insights_view}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_contact_center_insights_view google_contact_center_insights_view}.
 type GoogleContactCenterInsightsView interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -544,7 +544,7 @@ func (j *jsiiProxy_GoogleContactCenterInsightsView) ValueInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_contact_center_insights_view google_contact_center_insights_view} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_contact_center_insights_view google_contact_center_insights_view} Resource.
 func NewGoogleContactCenterInsightsView(scope constructs.Construct, id *string, config *GoogleContactCenterInsightsViewConfig) GoogleContactCenterInsightsView {
 	_init_.Initialize()
 
@@ -562,7 +562,7 @@ func NewGoogleContactCenterInsightsView(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_contact_center_insights_view google_contact_center_insights_view} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_contact_center_insights_view google_contact_center_insights_view} Resource.
 func NewGoogleContactCenterInsightsView_Override(g GoogleContactCenterInsightsView, scope constructs.Construct, id *string, config *GoogleContactCenterInsightsViewConfig) {
 	_init_.Initialize()
 

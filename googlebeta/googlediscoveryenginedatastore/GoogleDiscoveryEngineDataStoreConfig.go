@@ -24,22 +24,22 @@ type GoogleDiscoveryEngineDataStoreConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The unique id of the data store.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_discovery_engine_data_store#data_store_id GoogleDiscoveryEngineDataStore#data_store_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_discovery_engine_data_store#data_store_id GoogleDiscoveryEngineDataStore#data_store_id}
 	DataStoreId *string `field:"required" json:"dataStoreId" yaml:"dataStoreId"`
 	// The display name of the data store.
 	//
 	// This field must be a UTF-8 encoded
 	// string with a length limit of 128 characters.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_discovery_engine_data_store#display_name GoogleDiscoveryEngineDataStore#display_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_discovery_engine_data_store#display_name GoogleDiscoveryEngineDataStore#display_name}
 	DisplayName *string `field:"required" json:"displayName" yaml:"displayName"`
 	// The industry vertical that the data store registers. Possible values: ["GENERIC", "MEDIA", "HEALTHCARE_FHIR"].
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_discovery_engine_data_store#industry_vertical GoogleDiscoveryEngineDataStore#industry_vertical}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_discovery_engine_data_store#industry_vertical GoogleDiscoveryEngineDataStore#industry_vertical}
 	IndustryVertical *string `field:"required" json:"industryVertical" yaml:"industryVertical"`
 	// The geographic location where the data store should reside. The value can only be one of "global", "us" and "eu".
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_discovery_engine_data_store#location GoogleDiscoveryEngineDataStore#location}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_discovery_engine_data_store#location GoogleDiscoveryEngineDataStore#location}
 	Location *string `field:"required" json:"location" yaml:"location"`
 	// Immutable.
 	//
@@ -50,15 +50,15 @@ type GoogleDiscoveryEngineDataStoreConfig struct {
 	// DocumentService.ListDocuments. Currently ACL is only supported in the 'GENERIC'
 	// industry vertical with non-'PUBLIC_WEBSITE' content config.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_discovery_engine_data_store#acl_enabled GoogleDiscoveryEngineDataStore#acl_enabled}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_discovery_engine_data_store#acl_enabled GoogleDiscoveryEngineDataStore#acl_enabled}
 	AclEnabled interface{} `field:"optional" json:"aclEnabled" yaml:"aclEnabled"`
 	// advanced_site_search_config block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_discovery_engine_data_store#advanced_site_search_config GoogleDiscoveryEngineDataStore#advanced_site_search_config}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_discovery_engine_data_store#advanced_site_search_config GoogleDiscoveryEngineDataStore#advanced_site_search_config}
 	AdvancedSiteSearchConfig *GoogleDiscoveryEngineDataStoreAdvancedSiteSearchConfig `field:"optional" json:"advancedSiteSearchConfig" yaml:"advancedSiteSearchConfig"`
 	// The content config of the data store. Possible values: ["NO_CONTENT", "CONTENT_REQUIRED", "PUBLIC_WEBSITE"].
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_discovery_engine_data_store#content_config GoogleDiscoveryEngineDataStore#content_config}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_discovery_engine_data_store#content_config GoogleDiscoveryEngineDataStore#content_config}
 	ContentConfig *string `field:"optional" json:"contentConfig" yaml:"contentConfig"`
 	// If true, an advanced data store for site search will be created.
 	//
@@ -66,7 +66,7 @@ type GoogleDiscoveryEngineDataStoreConfig struct {
 	// data store is not configured as site search (GENERIC vertical and
 	// PUBLIC_WEBSITE contentConfig), this flag will be ignored.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_discovery_engine_data_store#create_advanced_site_search GoogleDiscoveryEngineDataStore#create_advanced_site_search}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_discovery_engine_data_store#create_advanced_site_search GoogleDiscoveryEngineDataStore#create_advanced_site_search}
 	CreateAdvancedSiteSearch interface{} `field:"optional" json:"createAdvancedSiteSearch" yaml:"createAdvancedSiteSearch"`
 	// Whether Terraform will be prevented from destroying the instance.
 	//
@@ -78,13 +78,13 @@ type GoogleDiscoveryEngineDataStoreConfig struct {
 	// When set to "DELETE", deleting the resource is allowed.
 	//
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_discovery_engine_data_store#deletion_policy GoogleDiscoveryEngineDataStore#deletion_policy}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_discovery_engine_data_store#deletion_policy GoogleDiscoveryEngineDataStore#deletion_policy}
 	DeletionPolicy *string `field:"optional" json:"deletionPolicy" yaml:"deletionPolicy"`
 	// document_processing_config block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_discovery_engine_data_store#document_processing_config GoogleDiscoveryEngineDataStore#document_processing_config}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_discovery_engine_data_store#document_processing_config GoogleDiscoveryEngineDataStore#document_processing_config}
 	DocumentProcessingConfig *GoogleDiscoveryEngineDataStoreDocumentProcessingConfig `field:"optional" json:"documentProcessingConfig" yaml:"documentProcessingConfig"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_discovery_engine_data_store#id GoogleDiscoveryEngineDataStore#id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_discovery_engine_data_store#id GoogleDiscoveryEngineDataStore#id}.
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -96,9 +96,9 @@ type GoogleDiscoveryEngineDataStoreConfig struct {
 	// If this field is set and processed successfully, the DataStore will be
 	// protected by the KMS key, as indicated in the cmek_config field.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_discovery_engine_data_store#kms_key_name GoogleDiscoveryEngineDataStore#kms_key_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_discovery_engine_data_store#kms_key_name GoogleDiscoveryEngineDataStore#kms_key_name}
 	KmsKeyName *string `field:"optional" json:"kmsKeyName" yaml:"kmsKeyName"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_discovery_engine_data_store#project GoogleDiscoveryEngineDataStore#project}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_discovery_engine_data_store#project GoogleDiscoveryEngineDataStore#project}.
 	Project *string `field:"optional" json:"project" yaml:"project"`
 	// A boolean flag indicating whether to skip the default schema creation for the data store.
 	//
@@ -109,15 +109,15 @@ type GoogleDiscoveryEngineDataStoreConfig struct {
 	// This flag cannot be specified if 'data_store.starting_schema' is
 	// specified.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_discovery_engine_data_store#skip_default_schema_creation GoogleDiscoveryEngineDataStore#skip_default_schema_creation}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_discovery_engine_data_store#skip_default_schema_creation GoogleDiscoveryEngineDataStore#skip_default_schema_creation}
 	SkipDefaultSchemaCreation interface{} `field:"optional" json:"skipDefaultSchemaCreation" yaml:"skipDefaultSchemaCreation"`
 	// The solutions that the data store enrolls. Possible values: ["SOLUTION_TYPE_RECOMMENDATION", "SOLUTION_TYPE_SEARCH", "SOLUTION_TYPE_CHAT", "SOLUTION_TYPE_GENERATIVE_CHAT"].
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_discovery_engine_data_store#solution_types GoogleDiscoveryEngineDataStore#solution_types}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_discovery_engine_data_store#solution_types GoogleDiscoveryEngineDataStore#solution_types}
 	SolutionTypes *[]*string `field:"optional" json:"solutionTypes" yaml:"solutionTypes"`
 	// timeouts block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_discovery_engine_data_store#timeouts GoogleDiscoveryEngineDataStore#timeouts}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_discovery_engine_data_store#timeouts GoogleDiscoveryEngineDataStore#timeouts}
 	Timeouts *GoogleDiscoveryEngineDataStoreTimeouts `field:"optional" json:"timeouts" yaml:"timeouts"`
 }
 

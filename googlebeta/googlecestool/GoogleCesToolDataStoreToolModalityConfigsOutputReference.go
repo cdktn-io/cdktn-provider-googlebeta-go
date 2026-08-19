@@ -39,6 +39,8 @@ type GoogleCesToolDataStoreToolModalityConfigsOutputReference interface {
 	ModalityTypeInput() *string
 	RewriterConfig() GoogleCesToolDataStoreToolModalityConfigsRewriterConfigOutputReference
 	RewriterConfigInput() *GoogleCesToolDataStoreToolModalityConfigsRewriterConfig
+	SnippetsConfig() GoogleCesToolDataStoreToolModalityConfigsSnippetsConfigOutputReference
+	SnippetsConfigInput() *GoogleCesToolDataStoreToolModalityConfigsSnippetsConfig
 	SummarizationConfig() GoogleCesToolDataStoreToolModalityConfigsSummarizationConfigOutputReference
 	SummarizationConfigInput() *GoogleCesToolDataStoreToolModalityConfigsSummarizationConfig
 	// Experimental.
@@ -75,9 +77,11 @@ type GoogleCesToolDataStoreToolModalityConfigsOutputReference interface {
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutGroundingConfig(value *GoogleCesToolDataStoreToolModalityConfigsGroundingConfig)
 	PutRewriterConfig(value *GoogleCesToolDataStoreToolModalityConfigsRewriterConfig)
+	PutSnippetsConfig(value *GoogleCesToolDataStoreToolModalityConfigsSnippetsConfig)
 	PutSummarizationConfig(value *GoogleCesToolDataStoreToolModalityConfigsSummarizationConfig)
 	ResetGroundingConfig()
 	ResetRewriterConfig()
+	ResetSnippetsConfig()
 	ResetSummarizationConfig()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -199,6 +203,26 @@ func (j *jsiiProxy_GoogleCesToolDataStoreToolModalityConfigsOutputReference) Rew
 	_jsii_.Get(
 		j,
 		"rewriterConfigInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCesToolDataStoreToolModalityConfigsOutputReference) SnippetsConfig() GoogleCesToolDataStoreToolModalityConfigsSnippetsConfigOutputReference {
+	var returns GoogleCesToolDataStoreToolModalityConfigsSnippetsConfigOutputReference
+	_jsii_.Get(
+		j,
+		"snippetsConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCesToolDataStoreToolModalityConfigsOutputReference) SnippetsConfigInput() *GoogleCesToolDataStoreToolModalityConfigsSnippetsConfig {
+	var returns *GoogleCesToolDataStoreToolModalityConfigsSnippetsConfig
+	_jsii_.Get(
+		j,
+		"snippetsConfigInput",
 		&returns,
 	)
 	return returns
@@ -546,6 +570,17 @@ func (g *jsiiProxy_GoogleCesToolDataStoreToolModalityConfigsOutputReference) Put
 	)
 }
 
+func (g *jsiiProxy_GoogleCesToolDataStoreToolModalityConfigsOutputReference) PutSnippetsConfig(value *GoogleCesToolDataStoreToolModalityConfigsSnippetsConfig) {
+	if err := g.validatePutSnippetsConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putSnippetsConfig",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleCesToolDataStoreToolModalityConfigsOutputReference) PutSummarizationConfig(value *GoogleCesToolDataStoreToolModalityConfigsSummarizationConfig) {
 	if err := g.validatePutSummarizationConfigParameters(value); err != nil {
 		panic(err)
@@ -569,6 +604,14 @@ func (g *jsiiProxy_GoogleCesToolDataStoreToolModalityConfigsOutputReference) Res
 	_jsii_.InvokeVoid(
 		g,
 		"resetRewriterConfig",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleCesToolDataStoreToolModalityConfigsOutputReference) ResetSnippetsConfig() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetSnippetsConfig",
 		nil, // no parameters
 	)
 }

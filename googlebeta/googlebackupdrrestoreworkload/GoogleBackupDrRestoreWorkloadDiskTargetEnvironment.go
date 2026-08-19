@@ -7,15 +7,15 @@ package googlebackupdrrestoreworkload
 type GoogleBackupDrRestoreWorkloadDiskTargetEnvironment struct {
 	// Required. Target project for the disk.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_backup_dr_restore_workload#project GoogleBackupDrRestoreWorkload#project}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_backup_dr_restore_workload#project GoogleBackupDrRestoreWorkload#project}
 	Project *string `field:"required" json:"project" yaml:"project"`
 	// Required. Target zone for the disk.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_backup_dr_restore_workload#zone GoogleBackupDrRestoreWorkload#zone}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_backup_dr_restore_workload#zone GoogleBackupDrRestoreWorkload#zone}
 	Zone *string `field:"required" json:"zone" yaml:"zone"`
 	// If true, use the BackupDR P4SA credentials for same-project restores. Default is false.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_backup_dr_restore_workload#use_project_service_account GoogleBackupDrRestoreWorkload#use_project_service_account}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_backup_dr_restore_workload#use_project_service_account GoogleBackupDrRestoreWorkload#use_project_service_account}
 	UseProjectServiceAccount interface{} `field:"optional" json:"useProjectServiceAccount" yaml:"useProjectServiceAccount"`
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_folder_service_identity google_folder_service_identity}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_folder_service_identity google_folder_service_identity}.
 type GoogleFolderServiceIdentity interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -460,7 +460,7 @@ func (j *jsiiProxy_GoogleFolderServiceIdentity) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_folder_service_identity google_folder_service_identity} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_folder_service_identity google_folder_service_identity} Resource.
 func NewGoogleFolderServiceIdentity(scope constructs.Construct, id *string, config *GoogleFolderServiceIdentityConfig) GoogleFolderServiceIdentity {
 	_init_.Initialize()
 
@@ -478,7 +478,7 @@ func NewGoogleFolderServiceIdentity(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_folder_service_identity google_folder_service_identity} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_folder_service_identity google_folder_service_identity} Resource.
 func NewGoogleFolderServiceIdentity_Override(g GoogleFolderServiceIdentity, scope constructs.Construct, id *string, config *GoogleFolderServiceIdentityConfig) {
 	_init_.Initialize()
 

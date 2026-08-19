@@ -1358,13 +1358,17 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "modalityTypeInput", GoGetter: "ModalityTypeInput"},
 			_jsii_.MemberMethod{JsiiMethod: "putGroundingConfig", GoMethod: "PutGroundingConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "putRewriterConfig", GoMethod: "PutRewriterConfig"},
+			_jsii_.MemberMethod{JsiiMethod: "putSnippetsConfig", GoMethod: "PutSnippetsConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "putSummarizationConfig", GoMethod: "PutSummarizationConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "resetGroundingConfig", GoMethod: "ResetGroundingConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "resetRewriterConfig", GoMethod: "ResetRewriterConfig"},
+			_jsii_.MemberMethod{JsiiMethod: "resetSnippetsConfig", GoMethod: "ResetSnippetsConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "resetSummarizationConfig", GoMethod: "ResetSummarizationConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
 			_jsii_.MemberProperty{JsiiProperty: "rewriterConfig", GoGetter: "RewriterConfig"},
 			_jsii_.MemberProperty{JsiiProperty: "rewriterConfigInput", GoGetter: "RewriterConfigInput"},
+			_jsii_.MemberProperty{JsiiProperty: "snippetsConfig", GoGetter: "SnippetsConfig"},
+			_jsii_.MemberProperty{JsiiProperty: "snippetsConfigInput", GoGetter: "SnippetsConfigInput"},
 			_jsii_.MemberProperty{JsiiProperty: "summarizationConfig", GoGetter: "SummarizationConfig"},
 			_jsii_.MemberProperty{JsiiProperty: "summarizationConfigInput", GoGetter: "SummarizationConfigInput"},
 			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
@@ -1460,6 +1464,45 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GoogleCesToolDataStoreToolModalityConfigsRewriterConfigOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolModalityConfigsSnippetsConfig",
+		reflect.TypeOf((*GoogleCesToolDataStoreToolModalityConfigsSnippetsConfig)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-google-beta.googleCesTool.GoogleCesToolDataStoreToolModalityConfigsSnippetsConfigOutputReference",
+		reflect.TypeOf((*GoogleCesToolDataStoreToolModalityConfigsSnippetsConfigOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "enableSnippets", GoGetter: "EnableSnippets"},
+			_jsii_.MemberProperty{JsiiProperty: "enableSnippetsInput", GoGetter: "EnableSnippetsInput"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "resetEnableSnippets", GoMethod: "ResetEnableSnippets"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_GoogleCesToolDataStoreToolModalityConfigsSnippetsConfigOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
@@ -2979,17 +3022,59 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
 			_jsii_.MemberProperty{JsiiProperty: "name", GoGetter: "Name"},
 			_jsii_.MemberProperty{JsiiProperty: "nameInput", GoGetter: "NameInput"},
+			_jsii_.MemberMethod{JsiiMethod: "putServiceDirectoryConfig", GoMethod: "PutServiceDirectoryConfig"},
 			_jsii_.MemberProperty{JsiiProperty: "pythonCode", GoGetter: "PythonCode"},
 			_jsii_.MemberProperty{JsiiProperty: "pythonCodeInput", GoGetter: "PythonCodeInput"},
 			_jsii_.MemberMethod{JsiiMethod: "resetName", GoMethod: "ResetName"},
 			_jsii_.MemberMethod{JsiiMethod: "resetPythonCode", GoMethod: "ResetPythonCode"},
+			_jsii_.MemberMethod{JsiiMethod: "resetServiceDirectoryConfig", GoMethod: "ResetServiceDirectoryConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "serviceDirectoryConfig", GoGetter: "ServiceDirectoryConfig"},
+			_jsii_.MemberProperty{JsiiProperty: "serviceDirectoryConfigInput", GoGetter: "ServiceDirectoryConfigInput"},
 			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
 			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
 			j := jsiiProxy_GoogleCesToolPythonFunctionOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-google-beta.googleCesTool.GoogleCesToolPythonFunctionServiceDirectoryConfig",
+		reflect.TypeOf((*GoogleCesToolPythonFunctionServiceDirectoryConfig)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-google-beta.googleCesTool.GoogleCesToolPythonFunctionServiceDirectoryConfigOutputReference",
+		reflect.TypeOf((*GoogleCesToolPythonFunctionServiceDirectoryConfigOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "service", GoGetter: "Service"},
+			_jsii_.MemberProperty{JsiiProperty: "serviceInput", GoGetter: "ServiceInput"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_GoogleCesToolPythonFunctionServiceDirectoryConfigOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},

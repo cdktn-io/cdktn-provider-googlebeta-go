@@ -7,11 +7,11 @@ package googleoracledatabasegoldengateconnection
 type GoogleOracleDatabaseGoldengateConnectionPropertiesMicrosoftSqlserverConnectionPropertiesAdditionalAttributes struct {
 	// The name of the property entry.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_oracle_database_goldengate_connection#key GoogleOracleDatabaseGoldengateConnection#key}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_oracle_database_goldengate_connection#key GoogleOracleDatabaseGoldengateConnection#key}
 	Key *string `field:"required" json:"key" yaml:"key"`
 	// The value of the property entry.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_oracle_database_goldengate_connection#value GoogleOracleDatabaseGoldengateConnection#value}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_oracle_database_goldengate_connection#value GoogleOracleDatabaseGoldengateConnection#value}
 	Value *string `field:"required" json:"value" yaml:"value"`
 }
 

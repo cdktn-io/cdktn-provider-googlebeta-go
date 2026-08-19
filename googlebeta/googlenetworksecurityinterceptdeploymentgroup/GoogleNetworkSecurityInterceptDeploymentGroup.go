@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_network_security_intercept_deployment_group google_network_security_intercept_deployment_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_network_security_intercept_deployment_group google_network_security_intercept_deployment_group}.
 type GoogleNetworkSecurityInterceptDeploymentGroup interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -656,7 +656,7 @@ func (j *jsiiProxy_GoogleNetworkSecurityInterceptDeploymentGroup) UpdateTime() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_network_security_intercept_deployment_group google_network_security_intercept_deployment_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_network_security_intercept_deployment_group google_network_security_intercept_deployment_group} Resource.
 func NewGoogleNetworkSecurityInterceptDeploymentGroup(scope constructs.Construct, id *string, config *GoogleNetworkSecurityInterceptDeploymentGroupConfig) GoogleNetworkSecurityInterceptDeploymentGroup {
 	_init_.Initialize()
 
@@ -674,7 +674,7 @@ func NewGoogleNetworkSecurityInterceptDeploymentGroup(scope constructs.Construct
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_network_security_intercept_deployment_group google_network_security_intercept_deployment_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_network_security_intercept_deployment_group google_network_security_intercept_deployment_group} Resource.
 func NewGoogleNetworkSecurityInterceptDeploymentGroup_Override(g GoogleNetworkSecurityInterceptDeploymentGroup, scope constructs.Construct, id *string, config *GoogleNetworkSecurityInterceptDeploymentGroupConfig) {
 	_init_.Initialize()
 

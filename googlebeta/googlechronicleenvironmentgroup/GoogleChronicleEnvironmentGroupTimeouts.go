@@ -5,11 +5,11 @@ package googlechronicleenvironmentgroup
 
 
 type GoogleChronicleEnvironmentGroupTimeouts struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_chronicle_environment_group#create GoogleChronicleEnvironmentGroup#create}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_chronicle_environment_group#create GoogleChronicleEnvironmentGroup#create}.
 	Create *string `field:"optional" json:"create" yaml:"create"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_chronicle_environment_group#delete GoogleChronicleEnvironmentGroup#delete}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_chronicle_environment_group#delete GoogleChronicleEnvironmentGroup#delete}.
 	Delete *string `field:"optional" json:"delete" yaml:"delete"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_chronicle_environment_group#update GoogleChronicleEnvironmentGroup#update}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_chronicle_environment_group#update GoogleChronicleEnvironmentGroup#update}.
 	Update *string `field:"optional" json:"update" yaml:"update"`
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_vertex_ai_tensorboard_run google_vertex_ai_tensorboard_run}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_vertex_ai_tensorboard_run google_vertex_ai_tensorboard_run}.
 type GoogleVertexAiTensorboardRun interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -658,7 +658,7 @@ func (j *jsiiProxy_GoogleVertexAiTensorboardRun) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_vertex_ai_tensorboard_run google_vertex_ai_tensorboard_run} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_vertex_ai_tensorboard_run google_vertex_ai_tensorboard_run} Resource.
 func NewGoogleVertexAiTensorboardRun(scope constructs.Construct, id *string, config *GoogleVertexAiTensorboardRunConfig) GoogleVertexAiTensorboardRun {
 	_init_.Initialize()
 
@@ -676,7 +676,7 @@ func NewGoogleVertexAiTensorboardRun(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_vertex_ai_tensorboard_run google_vertex_ai_tensorboard_run} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_vertex_ai_tensorboard_run google_vertex_ai_tensorboard_run} Resource.
 func NewGoogleVertexAiTensorboardRun_Override(g GoogleVertexAiTensorboardRun, scope constructs.Construct, id *string, config *GoogleVertexAiTensorboardRunConfig) {
 	_init_.Initialize()
 

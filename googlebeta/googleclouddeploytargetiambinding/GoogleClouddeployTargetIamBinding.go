@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_clouddeploy_target_iam_binding google_clouddeploy_target_iam_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_clouddeploy_target_iam_binding google_clouddeploy_target_iam_binding}.
 type GoogleClouddeployTargetIamBinding interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -520,7 +520,7 @@ func (j *jsiiProxy_GoogleClouddeployTargetIamBinding) TerraformResourceType() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_clouddeploy_target_iam_binding google_clouddeploy_target_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_clouddeploy_target_iam_binding google_clouddeploy_target_iam_binding} Resource.
 func NewGoogleClouddeployTargetIamBinding(scope constructs.Construct, id *string, config *GoogleClouddeployTargetIamBindingConfig) GoogleClouddeployTargetIamBinding {
 	_init_.Initialize()
 
@@ -538,7 +538,7 @@ func NewGoogleClouddeployTargetIamBinding(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_clouddeploy_target_iam_binding google_clouddeploy_target_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_clouddeploy_target_iam_binding google_clouddeploy_target_iam_binding} Resource.
 func NewGoogleClouddeployTargetIamBinding_Override(g GoogleClouddeployTargetIamBinding, scope constructs.Construct, id *string, config *GoogleClouddeployTargetIamBindingConfig) {
 	_init_.Initialize()
 

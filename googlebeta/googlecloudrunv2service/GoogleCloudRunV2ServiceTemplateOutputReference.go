@@ -60,6 +60,8 @@ type GoogleCloudRunV2ServiceTemplateOutputReference interface {
 	Revision() *string
 	SetRevision(val *string)
 	RevisionInput() *string
+	Sandboxes() GoogleCloudRunV2ServiceTemplateSandboxesOutputReference
+	SandboxesInput() *GoogleCloudRunV2ServiceTemplateSandboxes
 	Scaling() GoogleCloudRunV2ServiceTemplateScalingOutputReference
 	ScalingInput() *GoogleCloudRunV2ServiceTemplateScaling
 	ServiceAccount() *string
@@ -111,6 +113,7 @@ type GoogleCloudRunV2ServiceTemplateOutputReference interface {
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutContainers(value interface{})
 	PutNodeSelector(value *GoogleCloudRunV2ServiceTemplateNodeSelector)
+	PutSandboxes(value *GoogleCloudRunV2ServiceTemplateSandboxes)
 	PutScaling(value *GoogleCloudRunV2ServiceTemplateScaling)
 	PutServiceMesh(value *GoogleCloudRunV2ServiceTemplateServiceMesh)
 	PutVolumes(value interface{})
@@ -125,6 +128,7 @@ type GoogleCloudRunV2ServiceTemplateOutputReference interface {
 	ResetMaxInstanceRequestConcurrency()
 	ResetNodeSelector()
 	ResetRevision()
+	ResetSandboxes()
 	ResetScaling()
 	ResetServiceAccount()
 	ResetServiceMesh()
@@ -392,6 +396,26 @@ func (j *jsiiProxy_GoogleCloudRunV2ServiceTemplateOutputReference) RevisionInput
 	_jsii_.Get(
 		j,
 		"revisionInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCloudRunV2ServiceTemplateOutputReference) Sandboxes() GoogleCloudRunV2ServiceTemplateSandboxesOutputReference {
+	var returns GoogleCloudRunV2ServiceTemplateSandboxesOutputReference
+	_jsii_.Get(
+		j,
+		"sandboxes",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCloudRunV2ServiceTemplateOutputReference) SandboxesInput() *GoogleCloudRunV2ServiceTemplateSandboxes {
+	var returns *GoogleCloudRunV2ServiceTemplateSandboxes
+	_jsii_.Get(
+		j,
+		"sandboxesInput",
 		&returns,
 	)
 	return returns
@@ -969,6 +993,17 @@ func (g *jsiiProxy_GoogleCloudRunV2ServiceTemplateOutputReference) PutNodeSelect
 	)
 }
 
+func (g *jsiiProxy_GoogleCloudRunV2ServiceTemplateOutputReference) PutSandboxes(value *GoogleCloudRunV2ServiceTemplateSandboxes) {
+	if err := g.validatePutSandboxesParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putSandboxes",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleCloudRunV2ServiceTemplateOutputReference) PutScaling(value *GoogleCloudRunV2ServiceTemplateScaling) {
 	if err := g.validatePutScalingParameters(value); err != nil {
 		panic(err)
@@ -1089,6 +1124,14 @@ func (g *jsiiProxy_GoogleCloudRunV2ServiceTemplateOutputReference) ResetRevision
 	_jsii_.InvokeVoid(
 		g,
 		"resetRevision",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleCloudRunV2ServiceTemplateOutputReference) ResetSandboxes() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetSandboxes",
 		nil, // no parameters
 	)
 }

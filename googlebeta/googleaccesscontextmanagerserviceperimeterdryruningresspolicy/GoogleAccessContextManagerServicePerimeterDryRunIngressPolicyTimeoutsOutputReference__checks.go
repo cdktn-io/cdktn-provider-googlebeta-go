@@ -222,6 +222,14 @@ func (j *jsiiProxy_GoogleAccessContextManagerServicePerimeterDryRunIngressPolicy
 	return nil
 }
 
+func (j *jsiiProxy_GoogleAccessContextManagerServicePerimeterDryRunIngressPolicyTimeoutsOutputReference) validateSetUpdateParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func validateNewGoogleAccessContextManagerServicePerimeterDryRunIngressPolicyTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")

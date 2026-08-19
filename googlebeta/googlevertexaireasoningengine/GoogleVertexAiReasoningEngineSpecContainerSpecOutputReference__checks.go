@@ -182,6 +182,14 @@ func (j *jsiiProxy_GoogleVertexAiReasoningEngineSpecContainerSpecOutputReference
 	return nil
 }
 
+func (j *jsiiProxy_GoogleVertexAiReasoningEngineSpecContainerSpecOutputReference) validateSetPortParameters(val *float64) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_GoogleVertexAiReasoningEngineSpecContainerSpecOutputReference) validateSetTerraformAttributeParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

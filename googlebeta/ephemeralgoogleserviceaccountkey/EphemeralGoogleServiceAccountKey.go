@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/ephemeral-resources/google_service_account_key google_service_account_key}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/ephemeral-resources/google_service_account_key google_service_account_key}.
 type EphemeralGoogleServiceAccountKey interface {
 	cdktn.TerraformEphemeralResource
 	// Experimental.
@@ -454,7 +454,7 @@ func (j *jsiiProxy_EphemeralGoogleServiceAccountKey) TerraformResourceType() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/ephemeral-resources/google_service_account_key google_service_account_key} Ephemeral Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/ephemeral-resources/google_service_account_key google_service_account_key} Ephemeral Resource.
 func NewEphemeralGoogleServiceAccountKey(scope constructs.Construct, id *string, config *EphemeralGoogleServiceAccountKeyConfig) EphemeralGoogleServiceAccountKey {
 	_init_.Initialize()
 
@@ -472,7 +472,7 @@ func NewEphemeralGoogleServiceAccountKey(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/ephemeral-resources/google_service_account_key google_service_account_key} Ephemeral Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/ephemeral-resources/google_service_account_key google_service_account_key} Ephemeral Resource.
 func NewEphemeralGoogleServiceAccountKey_Override(e EphemeralGoogleServiceAccountKey, scope constructs.Construct, id *string, config *EphemeralGoogleServiceAccountKeyConfig) {
 	_init_.Initialize()
 

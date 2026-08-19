@@ -5,11 +5,11 @@ package googlechroniclesoarnetwork
 
 
 type GoogleChronicleSoarNetworkTimeouts struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_chronicle_soar_network#create GoogleChronicleSoarNetwork#create}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_chronicle_soar_network#create GoogleChronicleSoarNetwork#create}.
 	Create *string `field:"optional" json:"create" yaml:"create"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_chronicle_soar_network#delete GoogleChronicleSoarNetwork#delete}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_chronicle_soar_network#delete GoogleChronicleSoarNetwork#delete}.
 	Delete *string `field:"optional" json:"delete" yaml:"delete"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_chronicle_soar_network#update GoogleChronicleSoarNetwork#update}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_chronicle_soar_network#update GoogleChronicleSoarNetwork#update}.
 	Update *string `field:"optional" json:"update" yaml:"update"`
 }
 

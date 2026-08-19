@@ -47,6 +47,10 @@ func (g *jsiiProxy_GoogleCesToolPythonFunctionOutputReference) validateInterpola
 	return nil
 }
 
+func (g *jsiiProxy_GoogleCesToolPythonFunctionOutputReference) validatePutServiceDirectoryConfigParameters(value *GoogleCesToolPythonFunctionServiceDirectoryConfig) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleCesToolPythonFunctionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }

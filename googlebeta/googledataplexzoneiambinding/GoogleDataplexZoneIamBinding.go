@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_dataplex_zone_iam_binding google_dataplex_zone_iam_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_dataplex_zone_iam_binding google_dataplex_zone_iam_binding}.
 type GoogleDataplexZoneIamBinding interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -543,7 +543,7 @@ func (j *jsiiProxy_GoogleDataplexZoneIamBinding) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_dataplex_zone_iam_binding google_dataplex_zone_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_dataplex_zone_iam_binding google_dataplex_zone_iam_binding} Resource.
 func NewGoogleDataplexZoneIamBinding(scope constructs.Construct, id *string, config *GoogleDataplexZoneIamBindingConfig) GoogleDataplexZoneIamBinding {
 	_init_.Initialize()
 
@@ -561,7 +561,7 @@ func NewGoogleDataplexZoneIamBinding(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_dataplex_zone_iam_binding google_dataplex_zone_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_dataplex_zone_iam_binding google_dataplex_zone_iam_binding} Resource.
 func NewGoogleDataplexZoneIamBinding_Override(g GoogleDataplexZoneIamBinding, scope constructs.Construct, id *string, config *GoogleDataplexZoneIamBindingConfig) {
 	_init_.Initialize()
 

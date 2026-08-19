@@ -46,6 +46,9 @@ type GoogleAccessContextManagerServicePerimeterDryRunIngressPolicyTimeoutsOutput
 	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
 	SetTerraformResource(val cdktn.IInterpolatingParent)
+	Update() *string
+	SetUpdate(val *string)
+	UpdateInput() *string
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
@@ -72,6 +75,7 @@ type GoogleAccessContextManagerServicePerimeterDryRunIngressPolicyTimeoutsOutput
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetCreate()
 	ResetDelete()
+	ResetUpdate()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -197,6 +201,26 @@ func (j *jsiiProxy_GoogleAccessContextManagerServicePerimeterDryRunIngressPolicy
 	return returns
 }
 
+func (j *jsiiProxy_GoogleAccessContextManagerServicePerimeterDryRunIngressPolicyTimeoutsOutputReference) Update() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"update",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleAccessContextManagerServicePerimeterDryRunIngressPolicyTimeoutsOutputReference) UpdateInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"updateInput",
+		&returns,
+	)
+	return returns
+}
+
 
 func NewGoogleAccessContextManagerServicePerimeterDryRunIngressPolicyTimeoutsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) GoogleAccessContextManagerServicePerimeterDryRunIngressPolicyTimeoutsOutputReference {
 	_init_.Initialize()
@@ -298,6 +322,17 @@ func (j *jsiiProxy_GoogleAccessContextManagerServicePerimeterDryRunIngressPolicy
 	_jsii_.Set(
 		j,
 		"terraformResource",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleAccessContextManagerServicePerimeterDryRunIngressPolicyTimeoutsOutputReference)SetUpdate(val *string) {
+	if err := j.validateSetUpdateParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"update",
 		val,
 	)
 }
@@ -500,6 +535,14 @@ func (g *jsiiProxy_GoogleAccessContextManagerServicePerimeterDryRunIngressPolicy
 	_jsii_.InvokeVoid(
 		g,
 		"resetDelete",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleAccessContextManagerServicePerimeterDryRunIngressPolicyTimeoutsOutputReference) ResetUpdate() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetUpdate",
 		nil, // no parameters
 	)
 }

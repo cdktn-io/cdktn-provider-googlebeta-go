@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_iam_workload_identity_pool_iam_binding google_iam_workload_identity_pool_iam_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_iam_workload_identity_pool_iam_binding google_iam_workload_identity_pool_iam_binding}.
 type GoogleIamWorkloadIdentityPoolIamBinding interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -496,7 +496,7 @@ func (j *jsiiProxy_GoogleIamWorkloadIdentityPoolIamBinding) WorkloadIdentityPool
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_iam_workload_identity_pool_iam_binding google_iam_workload_identity_pool_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_iam_workload_identity_pool_iam_binding google_iam_workload_identity_pool_iam_binding} Resource.
 func NewGoogleIamWorkloadIdentityPoolIamBinding(scope constructs.Construct, id *string, config *GoogleIamWorkloadIdentityPoolIamBindingConfig) GoogleIamWorkloadIdentityPoolIamBinding {
 	_init_.Initialize()
 
@@ -514,7 +514,7 @@ func NewGoogleIamWorkloadIdentityPoolIamBinding(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_iam_workload_identity_pool_iam_binding google_iam_workload_identity_pool_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_iam_workload_identity_pool_iam_binding google_iam_workload_identity_pool_iam_binding} Resource.
 func NewGoogleIamWorkloadIdentityPoolIamBinding_Override(g GoogleIamWorkloadIdentityPoolIamBinding, scope constructs.Construct, id *string, config *GoogleIamWorkloadIdentityPoolIamBindingConfig) {
 	_init_.Initialize()
 

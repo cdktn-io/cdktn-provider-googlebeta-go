@@ -163,6 +163,10 @@ func (j *jsiiProxy_GoogleSecurityScannerScanConfig) validateSetStartingUrlsParam
 	return nil
 }
 
+func (j *jsiiProxy_GoogleSecurityScannerScanConfig) validateSetStaticIpScanParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleSecurityScannerScanConfig) validateSetTargetPlatformsParameters(val *[]*string) error {
 	return nil
 }

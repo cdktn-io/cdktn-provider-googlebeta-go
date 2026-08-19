@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_ces_evaluation google_ces_evaluation}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_ces_evaluation google_ces_evaluation}.
 type GoogleCesEvaluation interface {
 	cdktn.TerraformResource
 	App() *string
@@ -727,7 +727,7 @@ func (j *jsiiProxy_GoogleCesEvaluation) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_ces_evaluation google_ces_evaluation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_ces_evaluation google_ces_evaluation} Resource.
 func NewGoogleCesEvaluation(scope constructs.Construct, id *string, config *GoogleCesEvaluationConfig) GoogleCesEvaluation {
 	_init_.Initialize()
 
@@ -745,7 +745,7 @@ func NewGoogleCesEvaluation(scope constructs.Construct, id *string, config *Goog
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_ces_evaluation google_ces_evaluation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_ces_evaluation google_ces_evaluation} Resource.
 func NewGoogleCesEvaluation_Override(g GoogleCesEvaluation, scope constructs.Construct, id *string, config *GoogleCesEvaluationConfig) {
 	_init_.Initialize()
 

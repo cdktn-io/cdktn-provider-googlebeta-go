@@ -24,17 +24,17 @@ type GoogleCloudSecurityComplianceCloudControlConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// ID of the CloudControl. This is the last segment of the CloudControl resource name. Format: '^a-zA-Z{0,61}[a-zA-Z0-9]$'.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_cloud_security_compliance_cloud_control#cloud_control_id GoogleCloudSecurityComplianceCloudControl#cloud_control_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_cloud_security_compliance_cloud_control#cloud_control_id GoogleCloudSecurityComplianceCloudControl#cloud_control_id}
 	CloudControlId *string `field:"required" json:"cloudControlId" yaml:"cloudControlId"`
 	// Resource ID segment making up resource 'name'.
 	//
 	// It identifies the resource within its parent collection as described in https://google.aip.dev/122. Currently, only "global" is supported as a location.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_cloud_security_compliance_cloud_control#location GoogleCloudSecurityComplianceCloudControl#location}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_cloud_security_compliance_cloud_control#location GoogleCloudSecurityComplianceCloudControl#location}
 	Location *string `field:"required" json:"location" yaml:"location"`
 	// The categories of the cloud control.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_cloud_security_compliance_cloud_control#categories GoogleCloudSecurityComplianceCloudControl#categories}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_cloud_security_compliance_cloud_control#categories GoogleCloudSecurityComplianceCloudControl#categories}
 	Categories *[]*string `field:"optional" json:"categories" yaml:"categories"`
 	// Whether Terraform will be prevented from destroying the instance.
 	//
@@ -46,56 +46,56 @@ type GoogleCloudSecurityComplianceCloudControlConfig struct {
 	// When set to "DELETE", deleting the resource is allowed.
 	//
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_cloud_security_compliance_cloud_control#deletion_policy GoogleCloudSecurityComplianceCloudControl#deletion_policy}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_cloud_security_compliance_cloud_control#deletion_policy GoogleCloudSecurityComplianceCloudControl#deletion_policy}
 	DeletionPolicy *string `field:"optional" json:"deletionPolicy" yaml:"deletionPolicy"`
 	// A description of the cloud control. The maximum length is 2000 characters.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_cloud_security_compliance_cloud_control#description GoogleCloudSecurityComplianceCloudControl#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_cloud_security_compliance_cloud_control#description GoogleCloudSecurityComplianceCloudControl#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
 	// The display name of the cloud control. The maximum length is 200 characters.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_cloud_security_compliance_cloud_control#display_name GoogleCloudSecurityComplianceCloudControl#display_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_cloud_security_compliance_cloud_control#display_name GoogleCloudSecurityComplianceCloudControl#display_name}
 	DisplayName *string `field:"optional" json:"displayName" yaml:"displayName"`
 	// The finding_category of the cloud control. The maximum length is 255 characters.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_cloud_security_compliance_cloud_control#finding_category GoogleCloudSecurityComplianceCloudControl#finding_category}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_cloud_security_compliance_cloud_control#finding_category GoogleCloudSecurityComplianceCloudControl#finding_category}
 	FindingCategory *string `field:"optional" json:"findingCategory" yaml:"findingCategory"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_cloud_security_compliance_cloud_control#id GoogleCloudSecurityComplianceCloudControl#id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_cloud_security_compliance_cloud_control#id GoogleCloudSecurityComplianceCloudControl#id}.
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
 	Id *string `field:"optional" json:"id" yaml:"id"`
 	// Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_cloud_security_compliance_cloud_control#organization GoogleCloudSecurityComplianceCloudControl#organization}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_cloud_security_compliance_cloud_control#organization GoogleCloudSecurityComplianceCloudControl#organization}
 	Organization *string `field:"optional" json:"organization" yaml:"organization"`
 	// parameter_spec block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_cloud_security_compliance_cloud_control#parameter_spec GoogleCloudSecurityComplianceCloudControl#parameter_spec}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_cloud_security_compliance_cloud_control#parameter_spec GoogleCloudSecurityComplianceCloudControl#parameter_spec}
 	ParameterSpec interface{} `field:"optional" json:"parameterSpec" yaml:"parameterSpec"`
 	// The parent resource in which to create the resource. Must be in one of the following formats: * 'projects/{{project}}' * 'organizations/{{organization}}'.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_cloud_security_compliance_cloud_control#parent GoogleCloudSecurityComplianceCloudControl#parent}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_cloud_security_compliance_cloud_control#parent GoogleCloudSecurityComplianceCloudControl#parent}
 	Parent *string `field:"optional" json:"parent" yaml:"parent"`
 	// The remediation steps for the findings generated by the cloud control. The maximum length is 400 characters.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_cloud_security_compliance_cloud_control#remediation_steps GoogleCloudSecurityComplianceCloudControl#remediation_steps}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_cloud_security_compliance_cloud_control#remediation_steps GoogleCloudSecurityComplianceCloudControl#remediation_steps}
 	RemediationSteps *string `field:"optional" json:"remediationSteps" yaml:"remediationSteps"`
 	// rules block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_cloud_security_compliance_cloud_control#rules GoogleCloudSecurityComplianceCloudControl#rules}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_cloud_security_compliance_cloud_control#rules GoogleCloudSecurityComplianceCloudControl#rules}
 	Rules interface{} `field:"optional" json:"rules" yaml:"rules"`
 	// Possible values: CRITICAL HIGH MEDIUM LOW.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_cloud_security_compliance_cloud_control#severity GoogleCloudSecurityComplianceCloudControl#severity}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_cloud_security_compliance_cloud_control#severity GoogleCloudSecurityComplianceCloudControl#severity}
 	Severity *string `field:"optional" json:"severity" yaml:"severity"`
 	// cloud providers supported.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_cloud_security_compliance_cloud_control#supported_cloud_providers GoogleCloudSecurityComplianceCloudControl#supported_cloud_providers}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_cloud_security_compliance_cloud_control#supported_cloud_providers GoogleCloudSecurityComplianceCloudControl#supported_cloud_providers}
 	SupportedCloudProviders *[]*string `field:"optional" json:"supportedCloudProviders" yaml:"supportedCloudProviders"`
 	// timeouts block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_cloud_security_compliance_cloud_control#timeouts GoogleCloudSecurityComplianceCloudControl#timeouts}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_cloud_security_compliance_cloud_control#timeouts GoogleCloudSecurityComplianceCloudControl#timeouts}
 	Timeouts *GoogleCloudSecurityComplianceCloudControlTimeouts `field:"optional" json:"timeouts" yaml:"timeouts"`
 }
 

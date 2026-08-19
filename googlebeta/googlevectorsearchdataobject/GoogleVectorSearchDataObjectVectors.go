@@ -5,15 +5,15 @@ package googlevectorsearchdataobject
 
 
 type GoogleVectorSearchDataObjectVectors struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_vector_search_data_object#field_name GoogleVectorSearchDataObject#field_name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_vector_search_data_object#field_name GoogleVectorSearchDataObject#field_name}.
 	FieldName *string `field:"required" json:"fieldName" yaml:"fieldName"`
 	// dense block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_vector_search_data_object#dense GoogleVectorSearchDataObject#dense}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_vector_search_data_object#dense GoogleVectorSearchDataObject#dense}
 	Dense *GoogleVectorSearchDataObjectVectorsDense `field:"optional" json:"dense" yaml:"dense"`
 	// sparse block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_vector_search_data_object#sparse GoogleVectorSearchDataObject#sparse}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_vector_search_data_object#sparse GoogleVectorSearchDataObject#sparse}
 	Sparse *GoogleVectorSearchDataObjectVectorsSparse `field:"optional" json:"sparse" yaml:"sparse"`
 }
 

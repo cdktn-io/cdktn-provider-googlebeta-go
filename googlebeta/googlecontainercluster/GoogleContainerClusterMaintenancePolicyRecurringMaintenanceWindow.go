@@ -5,17 +5,17 @@ package googlecontainercluster
 
 
 type GoogleContainerClusterMaintenancePolicyRecurringMaintenanceWindow struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_container_cluster#recurrence GoogleContainerCluster#recurrence}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_container_cluster#recurrence GoogleContainerCluster#recurrence}.
 	Recurrence *string `field:"required" json:"recurrence" yaml:"recurrence"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_container_cluster#window_duration GoogleContainerCluster#window_duration}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_container_cluster#window_duration GoogleContainerCluster#window_duration}.
 	WindowDuration *string `field:"required" json:"windowDuration" yaml:"windowDuration"`
 	// window_start_time block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_container_cluster#window_start_time GoogleContainerCluster#window_start_time}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_container_cluster#window_start_time GoogleContainerCluster#window_start_time}
 	WindowStartTime *GoogleContainerClusterMaintenancePolicyRecurringMaintenanceWindowWindowStartTime `field:"required" json:"windowStartTime" yaml:"windowStartTime"`
 	// delay_until block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_container_cluster#delay_until GoogleContainerCluster#delay_until}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_container_cluster#delay_until GoogleContainerCluster#delay_until}
 	DelayUntil *GoogleContainerClusterMaintenancePolicyRecurringMaintenanceWindowDelayUntil `field:"optional" json:"delayUntil" yaml:"delayUntil"`
 }
 

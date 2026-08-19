@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_colab_notebook_execution google_colab_notebook_execution}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_colab_notebook_execution google_colab_notebook_execution}.
 type GoogleColabNotebookExecution interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -104,6 +104,8 @@ type GoogleColabNotebookExecution interface {
 	TerraformResourceType() *string
 	Timeouts() GoogleColabNotebookExecutionTimeoutsOutputReference
 	TimeoutsInput() interface{}
+	WorkbenchRuntime() GoogleColabNotebookExecutionWorkbenchRuntimeOutputReference
+	WorkbenchRuntimeInput() *GoogleColabNotebookExecutionWorkbenchRuntime
 	// Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
 	// Experimental.
 	AddMoveTarget(moveTarget *string)
@@ -188,6 +190,7 @@ type GoogleColabNotebookExecution interface {
 	PutDirectNotebookSource(value *GoogleColabNotebookExecutionDirectNotebookSource)
 	PutGcsNotebookSource(value *GoogleColabNotebookExecutionGcsNotebookSource)
 	PutTimeouts(value *GoogleColabNotebookExecutionTimeouts)
+	PutWorkbenchRuntime(value *GoogleColabNotebookExecutionWorkbenchRuntime)
 	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
 	//
 	// Called by generated provider bindings when a versioned feature is
@@ -217,6 +220,7 @@ type GoogleColabNotebookExecution interface {
 	ResetProject()
 	ResetServiceAccount()
 	ResetTimeouts()
+	ResetWorkbenchRuntime()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
 	// Experimental.
@@ -724,8 +728,28 @@ func (j *jsiiProxy_GoogleColabNotebookExecution) TimeoutsInput() interface{} {
 	return returns
 }
 
+func (j *jsiiProxy_GoogleColabNotebookExecution) WorkbenchRuntime() GoogleColabNotebookExecutionWorkbenchRuntimeOutputReference {
+	var returns GoogleColabNotebookExecutionWorkbenchRuntimeOutputReference
+	_jsii_.Get(
+		j,
+		"workbenchRuntime",
+		&returns,
+	)
+	return returns
+}
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_colab_notebook_execution google_colab_notebook_execution} Resource.
+func (j *jsiiProxy_GoogleColabNotebookExecution) WorkbenchRuntimeInput() *GoogleColabNotebookExecutionWorkbenchRuntime {
+	var returns *GoogleColabNotebookExecutionWorkbenchRuntime
+	_jsii_.Get(
+		j,
+		"workbenchRuntimeInput",
+		&returns,
+	)
+	return returns
+}
+
+
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_colab_notebook_execution google_colab_notebook_execution} Resource.
 func NewGoogleColabNotebookExecution(scope constructs.Construct, id *string, config *GoogleColabNotebookExecutionConfig) GoogleColabNotebookExecution {
 	_init_.Initialize()
 
@@ -743,7 +767,7 @@ func NewGoogleColabNotebookExecution(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_colab_notebook_execution google_colab_notebook_execution} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_colab_notebook_execution google_colab_notebook_execution} Resource.
 func NewGoogleColabNotebookExecution_Override(g GoogleColabNotebookExecution, scope constructs.Construct, id *string, config *GoogleColabNotebookExecutionConfig) {
 	_init_.Initialize()
 
@@ -1367,6 +1391,17 @@ func (g *jsiiProxy_GoogleColabNotebookExecution) PutTimeouts(value *GoogleColabN
 	)
 }
 
+func (g *jsiiProxy_GoogleColabNotebookExecution) PutWorkbenchRuntime(value *GoogleColabNotebookExecutionWorkbenchRuntime) {
+	if err := g.validatePutWorkbenchRuntimeParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putWorkbenchRuntime",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleColabNotebookExecution) RegisterProviderFeatureUsage(feature cdktn.ProviderFeature) {
 	if err := g.validateRegisterProviderFeatureUsageParameters(feature); err != nil {
 		panic(err)
@@ -1486,6 +1521,14 @@ func (g *jsiiProxy_GoogleColabNotebookExecution) ResetTimeouts() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetTimeouts",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleColabNotebookExecution) ResetWorkbenchRuntime() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetWorkbenchRuntime",
 		nil, // no parameters
 	)
 }

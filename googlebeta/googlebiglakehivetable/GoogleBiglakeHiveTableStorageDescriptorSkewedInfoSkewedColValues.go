@@ -5,7 +5,7 @@ package googlebiglakehivetable
 
 
 type GoogleBiglakeHiveTableStorageDescriptorSkewedInfoSkewedColValues struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_biglake_hive_table#values GoogleBiglakeHiveTable#values}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_biglake_hive_table#values GoogleBiglakeHiveTable#values}.
 	Values *[]*string `field:"required" json:"values" yaml:"values"`
 }
 

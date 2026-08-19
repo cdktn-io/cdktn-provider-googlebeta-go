@@ -79,6 +79,10 @@ func (g *jsiiProxy_GoogleChronicleRuleDeployment) validateOverrideLogicalIdParam
 	return nil
 }
 
+func (g *jsiiProxy_GoogleChronicleRuleDeployment) validatePutScheduleCustomizationsParameters(value *GoogleChronicleRuleDeploymentScheduleCustomizations) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleChronicleRuleDeployment) validatePutTimeoutsParameters(value *GoogleChronicleRuleDeploymentTimeouts) error {
 	return nil
 }

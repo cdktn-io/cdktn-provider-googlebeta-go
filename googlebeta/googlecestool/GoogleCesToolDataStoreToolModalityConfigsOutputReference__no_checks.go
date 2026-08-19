@@ -55,6 +55,10 @@ func (g *jsiiProxy_GoogleCesToolDataStoreToolModalityConfigsOutputReference) val
 	return nil
 }
 
+func (g *jsiiProxy_GoogleCesToolDataStoreToolModalityConfigsOutputReference) validatePutSnippetsConfigParameters(value *GoogleCesToolDataStoreToolModalityConfigsSnippetsConfig) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleCesToolDataStoreToolModalityConfigsOutputReference) validatePutSummarizationConfigParameters(value *GoogleCesToolDataStoreToolModalityConfigsSummarizationConfig) error {
 	return nil
 }

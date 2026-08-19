@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_chronicle_rule_deployment google_chronicle_rule_deployment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_chronicle_rule_deployment google_chronicle_rule_deployment}.
 type GoogleChronicleRuleDeployment interface {
 	cdktn.TerraformResource
 	Alerting() interface{}
@@ -88,6 +88,8 @@ type GoogleChronicleRuleDeployment interface {
 	RunFrequency() *string
 	SetRunFrequency(val *string)
 	RunFrequencyInput() *string
+	ScheduleCustomizations() GoogleChronicleRuleDeploymentScheduleCustomizationsOutputReference
+	ScheduleCustomizationsInput() *GoogleChronicleRuleDeploymentScheduleCustomizations
 	// Experimental.
 	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
@@ -175,6 +177,7 @@ type GoogleChronicleRuleDeployment interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	PutScheduleCustomizations(value *GoogleChronicleRuleDeploymentScheduleCustomizations)
 	PutTimeouts(value *GoogleChronicleRuleDeploymentTimeouts)
 	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
 	//
@@ -198,6 +201,7 @@ type GoogleChronicleRuleDeployment interface {
 	ResetOverrideLogicalId()
 	ResetProject()
 	ResetRunFrequency()
+	ResetScheduleCustomizations()
 	ResetTimeouts()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
@@ -596,6 +600,26 @@ func (j *jsiiProxy_GoogleChronicleRuleDeployment) RunFrequencyInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_GoogleChronicleRuleDeployment) ScheduleCustomizations() GoogleChronicleRuleDeploymentScheduleCustomizationsOutputReference {
+	var returns GoogleChronicleRuleDeploymentScheduleCustomizationsOutputReference
+	_jsii_.Get(
+		j,
+		"scheduleCustomizations",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleChronicleRuleDeployment) ScheduleCustomizationsInput() *GoogleChronicleRuleDeploymentScheduleCustomizations {
+	var returns *GoogleChronicleRuleDeploymentScheduleCustomizations
+	_jsii_.Get(
+		j,
+		"scheduleCustomizationsInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleChronicleRuleDeployment) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
 	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
@@ -647,7 +671,7 @@ func (j *jsiiProxy_GoogleChronicleRuleDeployment) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_chronicle_rule_deployment google_chronicle_rule_deployment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_chronicle_rule_deployment google_chronicle_rule_deployment} Resource.
 func NewGoogleChronicleRuleDeployment(scope constructs.Construct, id *string, config *GoogleChronicleRuleDeploymentConfig) GoogleChronicleRuleDeployment {
 	_init_.Initialize()
 
@@ -665,7 +689,7 @@ func NewGoogleChronicleRuleDeployment(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_chronicle_rule_deployment google_chronicle_rule_deployment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_chronicle_rule_deployment google_chronicle_rule_deployment} Resource.
 func NewGoogleChronicleRuleDeployment_Override(g GoogleChronicleRuleDeployment, scope constructs.Construct, id *string, config *GoogleChronicleRuleDeploymentConfig) {
 	_init_.Initialize()
 
@@ -1212,6 +1236,17 @@ func (g *jsiiProxy_GoogleChronicleRuleDeployment) OverrideLogicalId(newLogicalId
 	)
 }
 
+func (g *jsiiProxy_GoogleChronicleRuleDeployment) PutScheduleCustomizations(value *GoogleChronicleRuleDeploymentScheduleCustomizations) {
+	if err := g.validatePutScheduleCustomizationsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putScheduleCustomizations",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleChronicleRuleDeployment) PutTimeouts(value *GoogleChronicleRuleDeploymentTimeouts) {
 	if err := g.validatePutTimeoutsParameters(value); err != nil {
 		panic(err)
@@ -1286,6 +1321,14 @@ func (g *jsiiProxy_GoogleChronicleRuleDeployment) ResetRunFrequency() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetRunFrequency",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleChronicleRuleDeployment) ResetScheduleCustomizations() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetScheduleCustomizations",
 		nil, // no parameters
 	)
 }

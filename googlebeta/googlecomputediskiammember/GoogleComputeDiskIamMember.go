@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_compute_disk_iam_member google_compute_disk_iam_member}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_compute_disk_iam_member google_compute_disk_iam_member}.
 type GoogleComputeDiskIamMember interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -520,7 +520,7 @@ func (j *jsiiProxy_GoogleComputeDiskIamMember) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_compute_disk_iam_member google_compute_disk_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_compute_disk_iam_member google_compute_disk_iam_member} Resource.
 func NewGoogleComputeDiskIamMember(scope constructs.Construct, id *string, config *GoogleComputeDiskIamMemberConfig) GoogleComputeDiskIamMember {
 	_init_.Initialize()
 
@@ -538,7 +538,7 @@ func NewGoogleComputeDiskIamMember(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_compute_disk_iam_member google_compute_disk_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_compute_disk_iam_member google_compute_disk_iam_member} Resource.
 func NewGoogleComputeDiskIamMember_Override(g GoogleComputeDiskIamMember, scope constructs.Construct, id *string, config *GoogleComputeDiskIamMemberConfig) {
 	_init_.Initialize()
 

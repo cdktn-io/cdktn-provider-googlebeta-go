@@ -55,6 +55,10 @@ func (g *jsiiProxy_GoogleCloudRunV2ServiceTemplateOutputReference) validatePutNo
 	return nil
 }
 
+func (g *jsiiProxy_GoogleCloudRunV2ServiceTemplateOutputReference) validatePutSandboxesParameters(value *GoogleCloudRunV2ServiceTemplateSandboxes) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleCloudRunV2ServiceTemplateOutputReference) validatePutScalingParameters(value *GoogleCloudRunV2ServiceTemplateScaling) error {
 	return nil
 }

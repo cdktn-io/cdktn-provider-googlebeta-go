@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_chronicle_watchlist google_chronicle_watchlist}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_chronicle_watchlist google_chronicle_watchlist}.
 type GoogleChronicleWatchlist interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -672,7 +672,7 @@ func (j *jsiiProxy_GoogleChronicleWatchlist) WatchlistUserPreferencesInput() *Go
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_chronicle_watchlist google_chronicle_watchlist} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_chronicle_watchlist google_chronicle_watchlist} Resource.
 func NewGoogleChronicleWatchlist(scope constructs.Construct, id *string, config *GoogleChronicleWatchlistConfig) GoogleChronicleWatchlist {
 	_init_.Initialize()
 
@@ -690,7 +690,7 @@ func NewGoogleChronicleWatchlist(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_chronicle_watchlist google_chronicle_watchlist} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_chronicle_watchlist google_chronicle_watchlist} Resource.
 func NewGoogleChronicleWatchlist_Override(g GoogleChronicleWatchlist, scope constructs.Construct, id *string, config *GoogleChronicleWatchlistConfig) {
 	_init_.Initialize()
 

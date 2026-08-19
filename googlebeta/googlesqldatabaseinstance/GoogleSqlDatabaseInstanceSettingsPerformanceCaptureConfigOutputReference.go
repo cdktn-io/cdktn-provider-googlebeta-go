@@ -23,6 +23,9 @@ type GoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfigOutputReference in
 	ComplexObjectIsFromSet() *bool
 	// Experimental.
 	SetComplexObjectIsFromSet(val *bool)
+	CpuUtilizationThresholdPercent() *float64
+	SetCpuUtilizationThresholdPercent(val *float64)
+	CpuUtilizationThresholdPercentInput() *float64
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -33,8 +36,14 @@ type GoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfigOutputReference in
 	EnabledInput() interface{}
 	// Experimental.
 	Fqn() *string
+	HistoryListLengthThresholdCount() *float64
+	SetHistoryListLengthThresholdCount(val *float64)
+	HistoryListLengthThresholdCountInput() *float64
 	InternalValue() *GoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfig
 	SetInternalValue(val *GoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfig)
+	MemoryUsageThresholdPercent() *float64
+	SetMemoryUsageThresholdPercent(val *float64)
+	MemoryUsageThresholdPercentInput() *float64
 	ProbeThreshold() *float64
 	SetProbeThreshold(val *float64)
 	ProbeThresholdInput() *float64
@@ -47,6 +56,9 @@ type GoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfigOutputReference in
 	SecondsBehindSourceThreshold() *float64
 	SetSecondsBehindSourceThreshold(val *float64)
 	SecondsBehindSourceThresholdInput() *float64
+	SemaphoreWaitThresholdCount() *float64
+	SetSemaphoreWaitThresholdCount(val *float64)
+	SemaphoreWaitThresholdCountInput() *float64
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -58,6 +70,18 @@ type GoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfigOutputReference in
 	TransactionDurationThreshold() *float64
 	SetTransactionDurationThreshold(val *float64)
 	TransactionDurationThresholdInput() *float64
+	TransactionKillExcludedUserHosts() *[]*string
+	SetTransactionKillExcludedUserHosts(val *[]*string)
+	TransactionKillExcludedUserHostsInput() *[]*string
+	TransactionKillThresholdSeconds() *float64
+	SetTransactionKillThresholdSeconds(val *float64)
+	TransactionKillThresholdSecondsInput() *float64
+	TransactionKillType() *string
+	SetTransactionKillType(val *string)
+	TransactionKillTypeInput() *string
+	TransactionLockWaitThresholdCount() *float64
+	SetTransactionLockWaitThresholdCount(val *float64)
+	TransactionLockWaitThresholdCountInput() *float64
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
@@ -82,12 +106,20 @@ type GoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfigOutputReference in
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	ResetCpuUtilizationThresholdPercent()
 	ResetEnabled()
+	ResetHistoryListLengthThresholdCount()
+	ResetMemoryUsageThresholdPercent()
 	ResetProbeThreshold()
 	ResetProbingIntervalSeconds()
 	ResetRunningThreadsThreshold()
 	ResetSecondsBehindSourceThreshold()
+	ResetSemaphoreWaitThresholdCount()
 	ResetTransactionDurationThreshold()
+	ResetTransactionKillExcludedUserHosts()
+	ResetTransactionKillThresholdSeconds()
+	ResetTransactionKillType()
+	ResetTransactionLockWaitThresholdCount()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -118,6 +150,26 @@ func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfigOutp
 	_jsii_.Get(
 		j,
 		"complexObjectIsFromSet",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfigOutputReference) CpuUtilizationThresholdPercent() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"cpuUtilizationThresholdPercent",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfigOutputReference) CpuUtilizationThresholdPercentInput() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"cpuUtilizationThresholdPercentInput",
 		&returns,
 	)
 	return returns
@@ -163,11 +215,51 @@ func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfigOutp
 	return returns
 }
 
+func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfigOutputReference) HistoryListLengthThresholdCount() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"historyListLengthThresholdCount",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfigOutputReference) HistoryListLengthThresholdCountInput() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"historyListLengthThresholdCountInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfigOutputReference) InternalValue() *GoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfig {
 	var returns *GoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfig
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfigOutputReference) MemoryUsageThresholdPercent() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"memoryUsageThresholdPercent",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfigOutputReference) MemoryUsageThresholdPercentInput() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"memoryUsageThresholdPercentInput",
 		&returns,
 	)
 	return returns
@@ -253,6 +345,26 @@ func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfigOutp
 	return returns
 }
 
+func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfigOutputReference) SemaphoreWaitThresholdCount() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"semaphoreWaitThresholdCount",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfigOutputReference) SemaphoreWaitThresholdCountInput() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"semaphoreWaitThresholdCountInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfigOutputReference) TerraformAttribute() *string {
 	var returns *string
 	_jsii_.Get(
@@ -288,6 +400,86 @@ func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfigOutp
 	_jsii_.Get(
 		j,
 		"transactionDurationThresholdInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfigOutputReference) TransactionKillExcludedUserHosts() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"transactionKillExcludedUserHosts",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfigOutputReference) TransactionKillExcludedUserHostsInput() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"transactionKillExcludedUserHostsInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfigOutputReference) TransactionKillThresholdSeconds() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"transactionKillThresholdSeconds",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfigOutputReference) TransactionKillThresholdSecondsInput() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"transactionKillThresholdSecondsInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfigOutputReference) TransactionKillType() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"transactionKillType",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfigOutputReference) TransactionKillTypeInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"transactionKillTypeInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfigOutputReference) TransactionLockWaitThresholdCount() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"transactionLockWaitThresholdCount",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfigOutputReference) TransactionLockWaitThresholdCountInput() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"transactionLockWaitThresholdCountInput",
 		&returns,
 	)
 	return returns
@@ -343,6 +535,17 @@ func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfigOutp
 	)
 }
 
+func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfigOutputReference)SetCpuUtilizationThresholdPercent(val *float64) {
+	if err := j.validateSetCpuUtilizationThresholdPercentParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"cpuUtilizationThresholdPercent",
+		val,
+	)
+}
+
 func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfigOutputReference)SetEnabled(val interface{}) {
 	if err := j.validateSetEnabledParameters(val); err != nil {
 		panic(err)
@@ -354,6 +557,17 @@ func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfigOutp
 	)
 }
 
+func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfigOutputReference)SetHistoryListLengthThresholdCount(val *float64) {
+	if err := j.validateSetHistoryListLengthThresholdCountParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"historyListLengthThresholdCount",
+		val,
+	)
+}
+
 func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfigOutputReference)SetInternalValue(val *GoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfig) {
 	if err := j.validateSetInternalValueParameters(val); err != nil {
 		panic(err)
@@ -361,6 +575,17 @@ func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfigOutp
 	_jsii_.Set(
 		j,
 		"internalValue",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfigOutputReference)SetMemoryUsageThresholdPercent(val *float64) {
+	if err := j.validateSetMemoryUsageThresholdPercentParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"memoryUsageThresholdPercent",
 		val,
 	)
 }
@@ -409,6 +634,17 @@ func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfigOutp
 	)
 }
 
+func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfigOutputReference)SetSemaphoreWaitThresholdCount(val *float64) {
+	if err := j.validateSetSemaphoreWaitThresholdCountParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"semaphoreWaitThresholdCount",
+		val,
+	)
+}
+
 func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfigOutputReference)SetTerraformAttribute(val *string) {
 	if err := j.validateSetTerraformAttributeParameters(val); err != nil {
 		panic(err)
@@ -438,6 +674,50 @@ func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfigOutp
 	_jsii_.Set(
 		j,
 		"transactionDurationThreshold",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfigOutputReference)SetTransactionKillExcludedUserHosts(val *[]*string) {
+	if err := j.validateSetTransactionKillExcludedUserHostsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"transactionKillExcludedUserHosts",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfigOutputReference)SetTransactionKillThresholdSeconds(val *float64) {
+	if err := j.validateSetTransactionKillThresholdSecondsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"transactionKillThresholdSeconds",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfigOutputReference)SetTransactionKillType(val *string) {
+	if err := j.validateSetTransactionKillTypeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"transactionKillType",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfigOutputReference)SetTransactionLockWaitThresholdCount(val *float64) {
+	if err := j.validateSetTransactionLockWaitThresholdCountParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"transactionLockWaitThresholdCount",
 		val,
 	)
 }
@@ -628,10 +908,34 @@ func (g *jsiiProxy_GoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfigOutp
 	return returns
 }
 
+func (g *jsiiProxy_GoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfigOutputReference) ResetCpuUtilizationThresholdPercent() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetCpuUtilizationThresholdPercent",
+		nil, // no parameters
+	)
+}
+
 func (g *jsiiProxy_GoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfigOutputReference) ResetEnabled() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetEnabled",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfigOutputReference) ResetHistoryListLengthThresholdCount() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetHistoryListLengthThresholdCount",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfigOutputReference) ResetMemoryUsageThresholdPercent() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetMemoryUsageThresholdPercent",
 		nil, // no parameters
 	)
 }
@@ -668,10 +972,50 @@ func (g *jsiiProxy_GoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfigOutp
 	)
 }
 
+func (g *jsiiProxy_GoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfigOutputReference) ResetSemaphoreWaitThresholdCount() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetSemaphoreWaitThresholdCount",
+		nil, // no parameters
+	)
+}
+
 func (g *jsiiProxy_GoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfigOutputReference) ResetTransactionDurationThreshold() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetTransactionDurationThreshold",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfigOutputReference) ResetTransactionKillExcludedUserHosts() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetTransactionKillExcludedUserHosts",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfigOutputReference) ResetTransactionKillThresholdSeconds() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetTransactionKillThresholdSeconds",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfigOutputReference) ResetTransactionKillType() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetTransactionKillType",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfigOutputReference) ResetTransactionLockWaitThresholdCount() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetTransactionLockWaitThresholdCount",
 		nil, // no parameters
 	)
 }

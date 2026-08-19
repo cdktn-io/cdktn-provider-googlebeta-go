@@ -11,7 +11,7 @@ type GoogleComputeSubnetworkSecondaryIpRange struct {
 	// be 1-63 characters long, and comply with RFC1035. The name
 	// must be unique within the subnetwork.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_compute_subnetwork#range_name GoogleComputeSubnetwork#range_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_compute_subnetwork#range_name GoogleComputeSubnetwork#range_name}
 	RangeName *string `field:"required" json:"rangeName" yaml:"rangeName"`
 	// The range of IP addresses belonging to this subnetwork secondary range.
 	//
@@ -20,7 +20,7 @@ type GoogleComputeSubnetworkSecondaryIpRange struct {
 	// secondary IP ranges within a network. Only IPv4 is supported.
 	// Field is optional when 'reserved_internal_range' is defined, otherwise required.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_compute_subnetwork#ip_cidr_range GoogleComputeSubnetwork#ip_cidr_range}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_compute_subnetwork#ip_cidr_range GoogleComputeSubnetwork#ip_cidr_range}
 	IpCidrRange *string `field:"optional" json:"ipCidrRange" yaml:"ipCidrRange"`
 	// Reference to a Public Delegated Prefix (PDP) for BYOIP.
 	//
@@ -28,15 +28,15 @@ type GoogleComputeSubnetworkSecondaryIpRange struct {
 	// When specified along with the ip_cidr_range, the ip_cidr_range must lie within the PDP referenced by the 'ipCollection' field.
 	// When specified without the ip_cidr_range, the range is auto-allocated from the PDP referenced by the 'ipCollection' field.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_compute_subnetwork#ip_collection GoogleComputeSubnetwork#ip_collection}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_compute_subnetwork#ip_collection GoogleComputeSubnetwork#ip_collection}
 	IpCollection *string `field:"optional" json:"ipCollection" yaml:"ipCollection"`
 	// The IP version of the secondary range. If not specified, IPV4 is used. Possible values: ["IPV4", "IPV6"].
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_compute_subnetwork#ip_version GoogleComputeSubnetwork#ip_version}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_compute_subnetwork#ip_version GoogleComputeSubnetwork#ip_version}
 	IpVersion *string `field:"optional" json:"ipVersion" yaml:"ipVersion"`
 	// The ID of the reserved internal range. Must be prefixed with 'networkconnectivity.googleapis.com' E.g. 'networkconnectivity.googleapis.com/projects/{project}/locations/global/internalRanges/{rangeId}'.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_compute_subnetwork#reserved_internal_range GoogleComputeSubnetwork#reserved_internal_range}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_compute_subnetwork#reserved_internal_range GoogleComputeSubnetwork#reserved_internal_range}
 	ReservedInternalRange *string `field:"optional" json:"reservedInternalRange" yaml:"reservedInternalRange"`
 }
 

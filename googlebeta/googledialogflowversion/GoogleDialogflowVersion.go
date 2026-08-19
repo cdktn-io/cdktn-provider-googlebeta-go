@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_dialogflow_version google_dialogflow_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_dialogflow_version google_dialogflow_version}.
 type GoogleDialogflowVersion interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -497,7 +497,7 @@ func (j *jsiiProxy_GoogleDialogflowVersion) VersionNumber() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_dialogflow_version google_dialogflow_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_dialogflow_version google_dialogflow_version} Resource.
 func NewGoogleDialogflowVersion(scope constructs.Construct, id *string, config *GoogleDialogflowVersionConfig) GoogleDialogflowVersion {
 	_init_.Initialize()
 
@@ -515,7 +515,7 @@ func NewGoogleDialogflowVersion(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_dialogflow_version google_dialogflow_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_dialogflow_version google_dialogflow_version} Resource.
 func NewGoogleDialogflowVersion_Override(g GoogleDialogflowVersion, scope constructs.Construct, id *string, config *GoogleDialogflowVersionConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_access_context_manager_gcp_user_access_binding google_access_context_manager_gcp_user_access_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_access_context_manager_gcp_user_access_binding google_access_context_manager_gcp_user_access_binding}.
 type GoogleAccessContextManagerGcpUserAccessBinding interface {
 	cdktn.TerraformResource
 	AccessLevels() *[]*string
@@ -37,6 +37,9 @@ type GoogleAccessContextManagerGcpUserAccessBinding interface {
 	DependsOn() *[]*string
 	// Experimental.
 	SetDependsOn(val *[]*string)
+	DryRunAccessLevels() *[]*string
+	SetDryRunAccessLevels(val *[]*string)
+	DryRunAccessLevelsInput() *[]*string
 	// Experimental.
 	ForEach() cdktn.ITerraformIterator
 	// Experimental.
@@ -61,6 +64,8 @@ type GoogleAccessContextManagerGcpUserAccessBinding interface {
 	OrganizationId() *string
 	SetOrganizationId(val *string)
 	OrganizationIdInput() *string
+	Principal() GoogleAccessContextManagerGcpUserAccessBindingPrincipalOutputReference
+	PrincipalInput() *GoogleAccessContextManagerGcpUserAccessBindingPrincipal
 	// Experimental.
 	Provider() cdktn.TerraformProvider
 	// Experimental.
@@ -162,6 +167,7 @@ type GoogleAccessContextManagerGcpUserAccessBinding interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	PutPrincipal(value *GoogleAccessContextManagerGcpUserAccessBindingPrincipal)
 	PutScopedAccessSettings(value interface{})
 	PutSessionSettings(value *GoogleAccessContextManagerGcpUserAccessBindingSessionSettings)
 	PutTimeouts(value *GoogleAccessContextManagerGcpUserAccessBindingTimeouts)
@@ -180,10 +186,13 @@ type GoogleAccessContextManagerGcpUserAccessBinding interface {
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
 	ResetAccessLevels()
 	ResetDeletionPolicy()
+	ResetDryRunAccessLevels()
+	ResetGroupKey()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
+	ResetPrincipal()
 	ResetScopedAccessSettings()
 	ResetSessionSettings()
 	ResetTimeouts()
@@ -304,6 +313,26 @@ func (j *jsiiProxy_GoogleAccessContextManagerGcpUserAccessBinding) DependsOn() *
 	return returns
 }
 
+func (j *jsiiProxy_GoogleAccessContextManagerGcpUserAccessBinding) DryRunAccessLevels() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"dryRunAccessLevels",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleAccessContextManagerGcpUserAccessBinding) DryRunAccessLevelsInput() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"dryRunAccessLevelsInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleAccessContextManagerGcpUserAccessBinding) ForEach() cdktn.ITerraformIterator {
 	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
@@ -419,6 +448,26 @@ func (j *jsiiProxy_GoogleAccessContextManagerGcpUserAccessBinding) OrganizationI
 	_jsii_.Get(
 		j,
 		"organizationIdInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleAccessContextManagerGcpUserAccessBinding) Principal() GoogleAccessContextManagerGcpUserAccessBindingPrincipalOutputReference {
+	var returns GoogleAccessContextManagerGcpUserAccessBindingPrincipalOutputReference
+	_jsii_.Get(
+		j,
+		"principal",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleAccessContextManagerGcpUserAccessBinding) PrincipalInput() *GoogleAccessContextManagerGcpUserAccessBindingPrincipal {
+	var returns *GoogleAccessContextManagerGcpUserAccessBindingPrincipal
+	_jsii_.Get(
+		j,
+		"principalInput",
 		&returns,
 	)
 	return returns
@@ -545,7 +594,7 @@ func (j *jsiiProxy_GoogleAccessContextManagerGcpUserAccessBinding) TimeoutsInput
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_access_context_manager_gcp_user_access_binding google_access_context_manager_gcp_user_access_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_access_context_manager_gcp_user_access_binding google_access_context_manager_gcp_user_access_binding} Resource.
 func NewGoogleAccessContextManagerGcpUserAccessBinding(scope constructs.Construct, id *string, config *GoogleAccessContextManagerGcpUserAccessBindingConfig) GoogleAccessContextManagerGcpUserAccessBinding {
 	_init_.Initialize()
 
@@ -563,7 +612,7 @@ func NewGoogleAccessContextManagerGcpUserAccessBinding(scope constructs.Construc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_access_context_manager_gcp_user_access_binding google_access_context_manager_gcp_user_access_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_access_context_manager_gcp_user_access_binding google_access_context_manager_gcp_user_access_binding} Resource.
 func NewGoogleAccessContextManagerGcpUserAccessBinding_Override(g GoogleAccessContextManagerGcpUserAccessBinding, scope constructs.Construct, id *string, config *GoogleAccessContextManagerGcpUserAccessBindingConfig) {
 	_init_.Initialize()
 
@@ -622,6 +671,17 @@ func (j *jsiiProxy_GoogleAccessContextManagerGcpUserAccessBinding)SetDependsOn(v
 	_jsii_.Set(
 		j,
 		"dependsOn",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleAccessContextManagerGcpUserAccessBinding)SetDryRunAccessLevels(val *[]*string) {
+	if err := j.validateSetDryRunAccessLevelsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"dryRunAccessLevels",
 		val,
 	)
 }
@@ -1066,6 +1126,17 @@ func (g *jsiiProxy_GoogleAccessContextManagerGcpUserAccessBinding) OverrideLogic
 	)
 }
 
+func (g *jsiiProxy_GoogleAccessContextManagerGcpUserAccessBinding) PutPrincipal(value *GoogleAccessContextManagerGcpUserAccessBindingPrincipal) {
+	if err := g.validatePutPrincipalParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putPrincipal",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleAccessContextManagerGcpUserAccessBinding) PutScopedAccessSettings(value interface{}) {
 	if err := g.validatePutScopedAccessSettingsParameters(value); err != nil {
 		panic(err)
@@ -1126,6 +1197,22 @@ func (g *jsiiProxy_GoogleAccessContextManagerGcpUserAccessBinding) ResetDeletion
 	)
 }
 
+func (g *jsiiProxy_GoogleAccessContextManagerGcpUserAccessBinding) ResetDryRunAccessLevels() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDryRunAccessLevels",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleAccessContextManagerGcpUserAccessBinding) ResetGroupKey() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetGroupKey",
+		nil, // no parameters
+	)
+}
+
 func (g *jsiiProxy_GoogleAccessContextManagerGcpUserAccessBinding) ResetId() {
 	_jsii_.InvokeVoid(
 		g,
@@ -1138,6 +1225,14 @@ func (g *jsiiProxy_GoogleAccessContextManagerGcpUserAccessBinding) ResetOverride
 	_jsii_.InvokeVoid(
 		g,
 		"resetOverrideLogicalId",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleAccessContextManagerGcpUserAccessBinding) ResetPrincipal() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetPrincipal",
 		nil, // no parameters
 	)
 }

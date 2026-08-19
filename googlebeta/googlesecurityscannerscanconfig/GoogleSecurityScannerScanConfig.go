@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_security_scanner_scan_config google_security_scanner_scan_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_security_scanner_scan_config google_security_scanner_scan_config}.
 type GoogleSecurityScannerScanConfig interface {
 	cdktn.TerraformResource
 	Authentication() GoogleSecurityScannerScanConfigAuthenticationOutputReference
@@ -87,6 +87,9 @@ type GoogleSecurityScannerScanConfig interface {
 	StartingUrls() *[]*string
 	SetStartingUrls(val *[]*string)
 	StartingUrlsInput() *[]*string
+	StaticIpScan() interface{}
+	SetStaticIpScan(val interface{})
+	StaticIpScanInput() interface{}
 	TargetPlatforms() *[]*string
 	SetTargetPlatforms(val *[]*string)
 	TargetPlatformsInput() *[]*string
@@ -208,6 +211,7 @@ type GoogleSecurityScannerScanConfig interface {
 	ResetOverrideLogicalId()
 	ResetProject()
 	ResetSchedule()
+	ResetStaticIpScan()
 	ResetTargetPlatforms()
 	ResetTimeouts()
 	ResetUserAgent()
@@ -598,6 +602,26 @@ func (j *jsiiProxy_GoogleSecurityScannerScanConfig) StartingUrlsInput() *[]*stri
 	return returns
 }
 
+func (j *jsiiProxy_GoogleSecurityScannerScanConfig) StaticIpScan() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"staticIpScan",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleSecurityScannerScanConfig) StaticIpScanInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"staticIpScanInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleSecurityScannerScanConfig) TargetPlatforms() *[]*string {
 	var returns *[]*string
 	_jsii_.Get(
@@ -689,7 +713,7 @@ func (j *jsiiProxy_GoogleSecurityScannerScanConfig) UserAgentInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_security_scanner_scan_config google_security_scanner_scan_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_security_scanner_scan_config google_security_scanner_scan_config} Resource.
 func NewGoogleSecurityScannerScanConfig(scope constructs.Construct, id *string, config *GoogleSecurityScannerScanConfigConfig) GoogleSecurityScannerScanConfig {
 	_init_.Initialize()
 
@@ -707,7 +731,7 @@ func NewGoogleSecurityScannerScanConfig(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_security_scanner_scan_config google_security_scanner_scan_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_security_scanner_scan_config google_security_scanner_scan_config} Resource.
 func NewGoogleSecurityScannerScanConfig_Override(g GoogleSecurityScannerScanConfig, scope constructs.Construct, id *string, config *GoogleSecurityScannerScanConfigConfig) {
 	_init_.Initialize()
 
@@ -881,6 +905,17 @@ func (j *jsiiProxy_GoogleSecurityScannerScanConfig)SetStartingUrls(val *[]*strin
 	_jsii_.Set(
 		j,
 		"startingUrls",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleSecurityScannerScanConfig)SetStaticIpScan(val interface{}) {
+	if err := j.validateSetStaticIpScanParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"staticIpScan",
 		val,
 	)
 }
@@ -1396,6 +1431,14 @@ func (g *jsiiProxy_GoogleSecurityScannerScanConfig) ResetSchedule() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetSchedule",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleSecurityScannerScanConfig) ResetStaticIpScan() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetStaticIpScan",
 		nil, // no parameters
 	)
 }

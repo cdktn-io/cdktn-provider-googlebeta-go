@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_firebase_app_hosting_domain google_firebase_app_hosting_domain}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_firebase_app_hosting_domain google_firebase_app_hosting_domain}.
 type GoogleFirebaseAppHostingDomain interface {
 	cdktn.TerraformResource
 	Backend() *string
@@ -621,7 +621,7 @@ func (j *jsiiProxy_GoogleFirebaseAppHostingDomain) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_firebase_app_hosting_domain google_firebase_app_hosting_domain} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_firebase_app_hosting_domain google_firebase_app_hosting_domain} Resource.
 func NewGoogleFirebaseAppHostingDomain(scope constructs.Construct, id *string, config *GoogleFirebaseAppHostingDomainConfig) GoogleFirebaseAppHostingDomain {
 	_init_.Initialize()
 
@@ -639,7 +639,7 @@ func NewGoogleFirebaseAppHostingDomain(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_firebase_app_hosting_domain google_firebase_app_hosting_domain} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_firebase_app_hosting_domain google_firebase_app_hosting_domain} Resource.
 func NewGoogleFirebaseAppHostingDomain_Override(g GoogleFirebaseAppHostingDomain, scope constructs.Construct, id *string, config *GoogleFirebaseAppHostingDomainConfig) {
 	_init_.Initialize()
 

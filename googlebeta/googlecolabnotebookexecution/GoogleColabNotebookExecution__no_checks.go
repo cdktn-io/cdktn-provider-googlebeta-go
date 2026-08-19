@@ -99,6 +99,10 @@ func (g *jsiiProxy_GoogleColabNotebookExecution) validatePutTimeoutsParameters(v
 	return nil
 }
 
+func (g *jsiiProxy_GoogleColabNotebookExecution) validatePutWorkbenchRuntimeParameters(value *GoogleColabNotebookExecutionWorkbenchRuntime) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleColabNotebookExecution) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }

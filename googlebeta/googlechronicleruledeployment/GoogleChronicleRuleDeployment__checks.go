@@ -215,6 +215,17 @@ func (g *jsiiProxy_GoogleChronicleRuleDeployment) validateOverrideLogicalIdParam
 	return nil
 }
 
+func (g *jsiiProxy_GoogleChronicleRuleDeployment) validatePutScheduleCustomizationsParameters(value *GoogleChronicleRuleDeploymentScheduleCustomizations) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
+	}
+
+	return nil
+}
+
 func (g *jsiiProxy_GoogleChronicleRuleDeployment) validatePutTimeoutsParameters(value *GoogleChronicleRuleDeploymentTimeouts) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")

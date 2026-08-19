@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_vertex_ai_feature_online_store_iam_member google_vertex_ai_feature_online_store_iam_member}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_vertex_ai_feature_online_store_iam_member google_vertex_ai_feature_online_store_iam_member}.
 type GoogleVertexAiFeatureOnlineStoreIamMember interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -520,7 +520,7 @@ func (j *jsiiProxy_GoogleVertexAiFeatureOnlineStoreIamMember) TerraformResourceT
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_vertex_ai_feature_online_store_iam_member google_vertex_ai_feature_online_store_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_vertex_ai_feature_online_store_iam_member google_vertex_ai_feature_online_store_iam_member} Resource.
 func NewGoogleVertexAiFeatureOnlineStoreIamMember(scope constructs.Construct, id *string, config *GoogleVertexAiFeatureOnlineStoreIamMemberConfig) GoogleVertexAiFeatureOnlineStoreIamMember {
 	_init_.Initialize()
 
@@ -538,7 +538,7 @@ func NewGoogleVertexAiFeatureOnlineStoreIamMember(scope constructs.Construct, id
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_vertex_ai_feature_online_store_iam_member google_vertex_ai_feature_online_store_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_vertex_ai_feature_online_store_iam_member google_vertex_ai_feature_online_store_iam_member} Resource.
 func NewGoogleVertexAiFeatureOnlineStoreIamMember_Override(g GoogleVertexAiFeatureOnlineStoreIamMember, scope constructs.Construct, id *string, config *GoogleVertexAiFeatureOnlineStoreIamMemberConfig) {
 	_init_.Initialize()
 

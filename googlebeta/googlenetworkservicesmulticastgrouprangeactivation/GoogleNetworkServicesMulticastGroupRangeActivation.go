@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_network_services_multicast_group_range_activation google_network_services_multicast_group_range_activation}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_network_services_multicast_group_range_activation google_network_services_multicast_group_range_activation}.
 type GoogleNetworkServicesMulticastGroupRangeActivation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -703,7 +703,7 @@ func (j *jsiiProxy_GoogleNetworkServicesMulticastGroupRangeActivation) UpdateTim
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_network_services_multicast_group_range_activation google_network_services_multicast_group_range_activation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_network_services_multicast_group_range_activation google_network_services_multicast_group_range_activation} Resource.
 func NewGoogleNetworkServicesMulticastGroupRangeActivation(scope constructs.Construct, id *string, config *GoogleNetworkServicesMulticastGroupRangeActivationConfig) GoogleNetworkServicesMulticastGroupRangeActivation {
 	_init_.Initialize()
 
@@ -721,7 +721,7 @@ func NewGoogleNetworkServicesMulticastGroupRangeActivation(scope constructs.Cons
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_network_services_multicast_group_range_activation google_network_services_multicast_group_range_activation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_network_services_multicast_group_range_activation google_network_services_multicast_group_range_activation} Resource.
 func NewGoogleNetworkServicesMulticastGroupRangeActivation_Override(g GoogleNetworkServicesMulticastGroupRangeActivation, scope constructs.Construct, id *string, config *GoogleNetworkServicesMulticastGroupRangeActivationConfig) {
 	_init_.Initialize()
 

@@ -23,6 +23,7 @@ type DataGoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfigOutputReferenc
 	ComplexObjectIsFromSet() *bool
 	// Experimental.
 	SetComplexObjectIsFromSet(val *bool)
+	CpuUtilizationThresholdPercent() *float64
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -31,12 +32,15 @@ type DataGoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfigOutputReferenc
 	Enabled() cdktn.IResolvable
 	// Experimental.
 	Fqn() *string
+	HistoryListLengthThresholdCount() *float64
 	InternalValue() *DataGoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfig
 	SetInternalValue(val *DataGoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfig)
+	MemoryUsageThresholdPercent() *float64
 	ProbeThreshold() *float64
 	ProbingIntervalSeconds() *float64
 	RunningThreadsThreshold() *float64
 	SecondsBehindSourceThreshold() *float64
+	SemaphoreWaitThresholdCount() *float64
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -46,6 +50,10 @@ type DataGoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfigOutputReferenc
 	// Experimental.
 	SetTerraformResource(val cdktn.IInterpolatingParent)
 	TransactionDurationThreshold() *float64
+	TransactionKillExcludedUserHosts() *[]*string
+	TransactionKillThresholdSeconds() *float64
+	TransactionKillType() *string
+	TransactionLockWaitThresholdCount() *float64
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
@@ -105,6 +113,16 @@ func (j *jsiiProxy_DataGoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfig
 	return returns
 }
 
+func (j *jsiiProxy_DataGoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfigOutputReference) CpuUtilizationThresholdPercent() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"cpuUtilizationThresholdPercent",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataGoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfigOutputReference) CreationStack() *[]*string {
 	var returns *[]*string
 	_jsii_.Get(
@@ -135,11 +153,31 @@ func (j *jsiiProxy_DataGoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfig
 	return returns
 }
 
+func (j *jsiiProxy_DataGoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfigOutputReference) HistoryListLengthThresholdCount() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"historyListLengthThresholdCount",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataGoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfigOutputReference) InternalValue() *DataGoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfig {
 	var returns *DataGoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfig
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfigOutputReference) MemoryUsageThresholdPercent() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"memoryUsageThresholdPercent",
 		&returns,
 	)
 	return returns
@@ -185,6 +223,16 @@ func (j *jsiiProxy_DataGoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfig
 	return returns
 }
 
+func (j *jsiiProxy_DataGoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfigOutputReference) SemaphoreWaitThresholdCount() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"semaphoreWaitThresholdCount",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataGoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfigOutputReference) TerraformAttribute() *string {
 	var returns *string
 	_jsii_.Get(
@@ -210,6 +258,46 @@ func (j *jsiiProxy_DataGoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfig
 	_jsii_.Get(
 		j,
 		"transactionDurationThreshold",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfigOutputReference) TransactionKillExcludedUserHosts() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"transactionKillExcludedUserHosts",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfigOutputReference) TransactionKillThresholdSeconds() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"transactionKillThresholdSeconds",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfigOutputReference) TransactionKillType() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"transactionKillType",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfigOutputReference) TransactionLockWaitThresholdCount() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"transactionLockWaitThresholdCount",
 		&returns,
 	)
 	return returns

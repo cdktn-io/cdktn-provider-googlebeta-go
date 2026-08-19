@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_dataproc_metastore_database_iam_policy google_dataproc_metastore_database_iam_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_dataproc_metastore_database_iam_policy google_dataproc_metastore_database_iam_policy}.
 type GoogleDataprocMetastoreDatabaseIamPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -496,7 +496,7 @@ func (j *jsiiProxy_GoogleDataprocMetastoreDatabaseIamPolicy) TerraformResourceTy
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_dataproc_metastore_database_iam_policy google_dataproc_metastore_database_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_dataproc_metastore_database_iam_policy google_dataproc_metastore_database_iam_policy} Resource.
 func NewGoogleDataprocMetastoreDatabaseIamPolicy(scope constructs.Construct, id *string, config *GoogleDataprocMetastoreDatabaseIamPolicyConfig) GoogleDataprocMetastoreDatabaseIamPolicy {
 	_init_.Initialize()
 
@@ -514,7 +514,7 @@ func NewGoogleDataprocMetastoreDatabaseIamPolicy(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_dataproc_metastore_database_iam_policy google_dataproc_metastore_database_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_dataproc_metastore_database_iam_policy google_dataproc_metastore_database_iam_policy} Resource.
 func NewGoogleDataprocMetastoreDatabaseIamPolicy_Override(g GoogleDataprocMetastoreDatabaseIamPolicy, scope constructs.Construct, id *string, config *GoogleDataprocMetastoreDatabaseIamPolicyConfig) {
 	_init_.Initialize()
 

@@ -7,11 +7,11 @@ package googlemigrationcenterreportconfig
 type GoogleMigrationCenterReportConfigGroupPreferencesetAssignments struct {
 	// Name of the group.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_migration_center_report_config#group GoogleMigrationCenterReportConfigA#group}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_migration_center_report_config#group GoogleMigrationCenterReportConfigA#group}
 	Group *string `field:"required" json:"group" yaml:"group"`
 	// Name of the Preference Set.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_migration_center_report_config#preference_set GoogleMigrationCenterReportConfigA#preference_set}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_migration_center_report_config#preference_set GoogleMigrationCenterReportConfigA#preference_set}
 	PreferenceSet *string `field:"required" json:"preferenceSet" yaml:"preferenceSet"`
 }
 

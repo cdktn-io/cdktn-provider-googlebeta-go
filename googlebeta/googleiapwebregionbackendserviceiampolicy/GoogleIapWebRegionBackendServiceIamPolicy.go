@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_iap_web_region_backend_service_iam_policy google_iap_web_region_backend_service_iam_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_iap_web_region_backend_service_iam_policy google_iap_web_region_backend_service_iam_policy}.
 type GoogleIapWebRegionBackendServiceIamPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -473,7 +473,7 @@ func (j *jsiiProxy_GoogleIapWebRegionBackendServiceIamPolicy) WebRegionBackendSe
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_iap_web_region_backend_service_iam_policy google_iap_web_region_backend_service_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_iap_web_region_backend_service_iam_policy google_iap_web_region_backend_service_iam_policy} Resource.
 func NewGoogleIapWebRegionBackendServiceIamPolicy(scope constructs.Construct, id *string, config *GoogleIapWebRegionBackendServiceIamPolicyConfig) GoogleIapWebRegionBackendServiceIamPolicy {
 	_init_.Initialize()
 
@@ -491,7 +491,7 @@ func NewGoogleIapWebRegionBackendServiceIamPolicy(scope constructs.Construct, id
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_iap_web_region_backend_service_iam_policy google_iap_web_region_backend_service_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_iap_web_region_backend_service_iam_policy google_iap_web_region_backend_service_iam_policy} Resource.
 func NewGoogleIapWebRegionBackendServiceIamPolicy_Override(g GoogleIapWebRegionBackendServiceIamPolicy, scope constructs.Construct, id *string, config *GoogleIapWebRegionBackendServiceIamPolicyConfig) {
 	_init_.Initialize()
 

@@ -41,6 +41,14 @@ type GoogleCertificateManagerCertificateSelfManagedOutputReference interface {
 	PemPrivateKey() *string
 	SetPemPrivateKey(val *string)
 	PemPrivateKeyInput() *string
+	// Deprecated: Write-only: the provider never returns this value; reading it always yields null by protocol contract. The getter remains for compatibility and will be removed in a future prebuilt-provider major.
+	PemPrivateKeyWo() *string
+	// Deprecated: Write-only: the provider never returns this value; reading it always yields null by protocol contract. The getter remains for compatibility and will be removed in a future prebuilt-provider major.
+	SetPemPrivateKeyWo(val *string)
+	PemPrivateKeyWoInput() *string
+	PemPrivateKeyWoVersion() *string
+	SetPemPrivateKeyWoVersion(val *string)
+	PemPrivateKeyWoVersionInput() *string
 	PrivateKeyPem() *string
 	SetPrivateKeyPem(val *string)
 	PrivateKeyPemInput() *string
@@ -79,6 +87,8 @@ type GoogleCertificateManagerCertificateSelfManagedOutputReference interface {
 	ResetCertificatePem()
 	ResetPemCertificate()
 	ResetPemPrivateKey()
+	ResetPemPrivateKeyWo()
+	ResetPemPrivateKeyWoVersion()
 	ResetPrivateKeyPem()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -200,6 +210,46 @@ func (j *jsiiProxy_GoogleCertificateManagerCertificateSelfManagedOutputReference
 	_jsii_.Get(
 		j,
 		"pemPrivateKeyInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCertificateManagerCertificateSelfManagedOutputReference) PemPrivateKeyWo() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"pemPrivateKeyWo",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCertificateManagerCertificateSelfManagedOutputReference) PemPrivateKeyWoInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"pemPrivateKeyWoInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCertificateManagerCertificateSelfManagedOutputReference) PemPrivateKeyWoVersion() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"pemPrivateKeyWoVersion",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCertificateManagerCertificateSelfManagedOutputReference) PemPrivateKeyWoVersionInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"pemPrivateKeyWoVersionInput",
 		&returns,
 	)
 	return returns
@@ -335,6 +385,28 @@ func (j *jsiiProxy_GoogleCertificateManagerCertificateSelfManagedOutputReference
 	_jsii_.Set(
 		j,
 		"pemPrivateKey",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleCertificateManagerCertificateSelfManagedOutputReference)SetPemPrivateKeyWo(val *string) {
+	if err := j.validateSetPemPrivateKeyWoParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"pemPrivateKeyWo",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleCertificateManagerCertificateSelfManagedOutputReference)SetPemPrivateKeyWoVersion(val *string) {
+	if err := j.validateSetPemPrivateKeyWoVersionParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"pemPrivateKeyWoVersion",
 		val,
 	)
 }
@@ -578,6 +650,22 @@ func (g *jsiiProxy_GoogleCertificateManagerCertificateSelfManagedOutputReference
 	_jsii_.InvokeVoid(
 		g,
 		"resetPemPrivateKey",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleCertificateManagerCertificateSelfManagedOutputReference) ResetPemPrivateKeyWo() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetPemPrivateKeyWo",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleCertificateManagerCertificateSelfManagedOutputReference) ResetPemPrivateKeyWoVersion() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetPemPrivateKeyWoVersion",
 		nil, // no parameters
 	)
 }

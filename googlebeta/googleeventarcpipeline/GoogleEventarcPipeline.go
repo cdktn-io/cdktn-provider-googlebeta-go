@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_eventarc_pipeline google_eventarc_pipeline}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_eventarc_pipeline google_eventarc_pipeline}.
 type GoogleEventarcPipeline interface {
 	cdktn.TerraformResource
 	Annotations() *map[string]*string
@@ -789,7 +789,7 @@ func (j *jsiiProxy_GoogleEventarcPipeline) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_eventarc_pipeline google_eventarc_pipeline} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_eventarc_pipeline google_eventarc_pipeline} Resource.
 func NewGoogleEventarcPipeline(scope constructs.Construct, id *string, config *GoogleEventarcPipelineConfig) GoogleEventarcPipeline {
 	_init_.Initialize()
 
@@ -807,7 +807,7 @@ func NewGoogleEventarcPipeline(scope constructs.Construct, id *string, config *G
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_eventarc_pipeline google_eventarc_pipeline} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_eventarc_pipeline google_eventarc_pipeline} Resource.
 func NewGoogleEventarcPipeline_Override(g GoogleEventarcPipeline, scope constructs.Construct, id *string, config *GoogleEventarcPipelineConfig) {
 	_init_.Initialize()
 

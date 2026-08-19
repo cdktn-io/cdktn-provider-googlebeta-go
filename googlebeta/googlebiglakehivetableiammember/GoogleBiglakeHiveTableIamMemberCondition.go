@@ -5,11 +5,11 @@ package googlebiglakehivetableiammember
 
 
 type GoogleBiglakeHiveTableIamMemberCondition struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_biglake_hive_table_iam_member#expression GoogleBiglakeHiveTableIamMember#expression}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_biglake_hive_table_iam_member#expression GoogleBiglakeHiveTableIamMember#expression}.
 	Expression *string `field:"required" json:"expression" yaml:"expression"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_biglake_hive_table_iam_member#title GoogleBiglakeHiveTableIamMember#title}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_biglake_hive_table_iam_member#title GoogleBiglakeHiveTableIamMember#title}.
 	Title *string `field:"required" json:"title" yaml:"title"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_biglake_hive_table_iam_member#description GoogleBiglakeHiveTableIamMember#description}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_biglake_hive_table_iam_member#description GoogleBiglakeHiveTableIamMember#description}.
 	Description *string `field:"optional" json:"description" yaml:"description"`
 }
 

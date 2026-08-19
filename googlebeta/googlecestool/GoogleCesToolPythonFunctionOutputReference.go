@@ -39,6 +39,8 @@ type GoogleCesToolPythonFunctionOutputReference interface {
 	PythonCode() *string
 	SetPythonCode(val *string)
 	PythonCodeInput() *string
+	ServiceDirectoryConfig() GoogleCesToolPythonFunctionServiceDirectoryConfigOutputReference
+	ServiceDirectoryConfigInput() *GoogleCesToolPythonFunctionServiceDirectoryConfig
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -71,8 +73,10 @@ type GoogleCesToolPythonFunctionOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutServiceDirectoryConfig(value *GoogleCesToolPythonFunctionServiceDirectoryConfig)
 	ResetName()
 	ResetPythonCode()
+	ResetServiceDirectoryConfig()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -183,6 +187,26 @@ func (j *jsiiProxy_GoogleCesToolPythonFunctionOutputReference) PythonCodeInput()
 	_jsii_.Get(
 		j,
 		"pythonCodeInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCesToolPythonFunctionOutputReference) ServiceDirectoryConfig() GoogleCesToolPythonFunctionServiceDirectoryConfigOutputReference {
+	var returns GoogleCesToolPythonFunctionServiceDirectoryConfigOutputReference
+	_jsii_.Get(
+		j,
+		"serviceDirectoryConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCesToolPythonFunctionOutputReference) ServiceDirectoryConfigInput() *GoogleCesToolPythonFunctionServiceDirectoryConfig {
+	var returns *GoogleCesToolPythonFunctionServiceDirectoryConfig
+	_jsii_.Get(
+		j,
+		"serviceDirectoryConfigInput",
 		&returns,
 	)
 	return returns
@@ -499,6 +523,17 @@ func (g *jsiiProxy_GoogleCesToolPythonFunctionOutputReference) InterpolationForA
 	return returns
 }
 
+func (g *jsiiProxy_GoogleCesToolPythonFunctionOutputReference) PutServiceDirectoryConfig(value *GoogleCesToolPythonFunctionServiceDirectoryConfig) {
+	if err := g.validatePutServiceDirectoryConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putServiceDirectoryConfig",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleCesToolPythonFunctionOutputReference) ResetName() {
 	_jsii_.InvokeVoid(
 		g,
@@ -511,6 +546,14 @@ func (g *jsiiProxy_GoogleCesToolPythonFunctionOutputReference) ResetPythonCode()
 	_jsii_.InvokeVoid(
 		g,
 		"resetPythonCode",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleCesToolPythonFunctionOutputReference) ResetServiceDirectoryConfig() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetServiceDirectoryConfig",
 		nil, // no parameters
 	)
 }

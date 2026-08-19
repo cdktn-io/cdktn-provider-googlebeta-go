@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/data-sources/google_storage_control_folder_intelligence_findings_summary google_storage_control_folder_intelligence_findings_summary}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/data-sources/google_storage_control_folder_intelligence_findings_summary google_storage_control_folder_intelligence_findings_summary}.
 type DataGoogleStorageControlFolderIntelligenceFindingsSummary interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -393,7 +393,7 @@ func (j *jsiiProxy_DataGoogleStorageControlFolderIntelligenceFindingsSummary) Te
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/data-sources/google_storage_control_folder_intelligence_findings_summary google_storage_control_folder_intelligence_findings_summary} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/data-sources/google_storage_control_folder_intelligence_findings_summary google_storage_control_folder_intelligence_findings_summary} Data Source.
 func NewDataGoogleStorageControlFolderIntelligenceFindingsSummary(scope constructs.Construct, id *string, config *DataGoogleStorageControlFolderIntelligenceFindingsSummaryConfig) DataGoogleStorageControlFolderIntelligenceFindingsSummary {
 	_init_.Initialize()
 
@@ -411,7 +411,7 @@ func NewDataGoogleStorageControlFolderIntelligenceFindingsSummary(scope construc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/data-sources/google_storage_control_folder_intelligence_findings_summary google_storage_control_folder_intelligence_findings_summary} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/data-sources/google_storage_control_folder_intelligence_findings_summary google_storage_control_folder_intelligence_findings_summary} Data Source.
 func NewDataGoogleStorageControlFolderIntelligenceFindingsSummary_Override(d DataGoogleStorageControlFolderIntelligenceFindingsSummary, scope constructs.Construct, id *string, config *DataGoogleStorageControlFolderIntelligenceFindingsSummaryConfig) {
 	_init_.Initialize()
 

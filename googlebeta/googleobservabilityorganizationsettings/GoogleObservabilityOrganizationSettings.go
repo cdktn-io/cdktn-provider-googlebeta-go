@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_observability_organization_settings google_observability_organization_settings}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_observability_organization_settings google_observability_organization_settings}.
 type GoogleObservabilityOrganizationSettings interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -508,7 +508,7 @@ func (j *jsiiProxy_GoogleObservabilityOrganizationSettings) TimeoutsInput() inte
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_observability_organization_settings google_observability_organization_settings} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_observability_organization_settings google_observability_organization_settings} Resource.
 func NewGoogleObservabilityOrganizationSettings(scope constructs.Construct, id *string, config *GoogleObservabilityOrganizationSettingsConfig) GoogleObservabilityOrganizationSettings {
 	_init_.Initialize()
 
@@ -526,7 +526,7 @@ func NewGoogleObservabilityOrganizationSettings(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_observability_organization_settings google_observability_organization_settings} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_observability_organization_settings google_observability_organization_settings} Resource.
 func NewGoogleObservabilityOrganizationSettings_Override(g GoogleObservabilityOrganizationSettings, scope constructs.Construct, id *string, config *GoogleObservabilityOrganizationSettingsConfig) {
 	_init_.Initialize()
 

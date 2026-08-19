@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_parallelstore_instance google_parallelstore_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_parallelstore_instance google_parallelstore_instance}.
 type GoogleParallelstoreInstance interface {
 	cdktn.TerraformResource
 	AccessPoints() *[]*string
@@ -776,7 +776,7 @@ func (j *jsiiProxy_GoogleParallelstoreInstance) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_parallelstore_instance google_parallelstore_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_parallelstore_instance google_parallelstore_instance} Resource.
 func NewGoogleParallelstoreInstance(scope constructs.Construct, id *string, config *GoogleParallelstoreInstanceConfig) GoogleParallelstoreInstance {
 	_init_.Initialize()
 
@@ -794,7 +794,7 @@ func NewGoogleParallelstoreInstance(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/resources/google_parallelstore_instance google_parallelstore_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_parallelstore_instance google_parallelstore_instance} Resource.
 func NewGoogleParallelstoreInstance_Override(g GoogleParallelstoreInstance, scope constructs.Construct, id *string, config *GoogleParallelstoreInstanceConfig) {
 	_init_.Initialize()
 

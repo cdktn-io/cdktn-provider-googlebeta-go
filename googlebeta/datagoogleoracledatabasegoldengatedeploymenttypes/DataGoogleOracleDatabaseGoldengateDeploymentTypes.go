@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/data-sources/google_oracle_database_goldengate_deployment_types google_oracle_database_goldengate_deployment_types}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/data-sources/google_oracle_database_goldengate_deployment_types google_oracle_database_goldengate_deployment_types}.
 type DataGoogleOracleDatabaseGoldengateDeploymentTypes interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -345,7 +345,7 @@ func (j *jsiiProxy_DataGoogleOracleDatabaseGoldengateDeploymentTypes) TerraformR
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/data-sources/google_oracle_database_goldengate_deployment_types google_oracle_database_goldengate_deployment_types} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/data-sources/google_oracle_database_goldengate_deployment_types google_oracle_database_goldengate_deployment_types} Data Source.
 func NewDataGoogleOracleDatabaseGoldengateDeploymentTypes(scope constructs.Construct, id *string, config *DataGoogleOracleDatabaseGoldengateDeploymentTypesConfig) DataGoogleOracleDatabaseGoldengateDeploymentTypes {
 	_init_.Initialize()
 
@@ -363,7 +363,7 @@ func NewDataGoogleOracleDatabaseGoldengateDeploymentTypes(scope constructs.Const
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.44.0/docs/data-sources/google_oracle_database_goldengate_deployment_types google_oracle_database_goldengate_deployment_types} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/data-sources/google_oracle_database_goldengate_deployment_types google_oracle_database_goldengate_deployment_types} Data Source.
 func NewDataGoogleOracleDatabaseGoldengateDeploymentTypes_Override(d DataGoogleOracleDatabaseGoldengateDeploymentTypes, scope constructs.Construct, id *string, config *DataGoogleOracleDatabaseGoldengateDeploymentTypesConfig) {
 	_init_.Initialize()
 
