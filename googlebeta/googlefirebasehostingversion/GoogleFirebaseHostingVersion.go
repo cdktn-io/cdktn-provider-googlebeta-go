@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_firebase_hosting_version google_firebase_hosting_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_firebase_hosting_version google_firebase_hosting_version}.
 type GoogleFirebaseHostingVersion interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -461,7 +461,7 @@ func (j *jsiiProxy_GoogleFirebaseHostingVersion) VersionId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_firebase_hosting_version google_firebase_hosting_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_firebase_hosting_version google_firebase_hosting_version} Resource.
 func NewGoogleFirebaseHostingVersion(scope constructs.Construct, id *string, config *GoogleFirebaseHostingVersionConfig) GoogleFirebaseHostingVersion {
 	_init_.Initialize()
 
@@ -479,7 +479,7 @@ func NewGoogleFirebaseHostingVersion(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_firebase_hosting_version google_firebase_hosting_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_firebase_hosting_version google_firebase_hosting_version} Resource.
 func NewGoogleFirebaseHostingVersion_Override(g GoogleFirebaseHostingVersion, scope constructs.Construct, id *string, config *GoogleFirebaseHostingVersionConfig) {
 	_init_.Initialize()
 

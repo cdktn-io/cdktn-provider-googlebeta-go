@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_cloud_support_support_event_subscription google_cloud_support_support_event_subscription}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_cloud_support_support_event_subscription google_cloud_support_support_event_subscription}.
 type GoogleCloudSupportSupportEventSubscription interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -539,7 +539,7 @@ func (j *jsiiProxy_GoogleCloudSupportSupportEventSubscription) UpdateTime() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_cloud_support_support_event_subscription google_cloud_support_support_event_subscription} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_cloud_support_support_event_subscription google_cloud_support_support_event_subscription} Resource.
 func NewGoogleCloudSupportSupportEventSubscription(scope constructs.Construct, id *string, config *GoogleCloudSupportSupportEventSubscriptionConfig) GoogleCloudSupportSupportEventSubscription {
 	_init_.Initialize()
 
@@ -557,7 +557,7 @@ func NewGoogleCloudSupportSupportEventSubscription(scope constructs.Construct, i
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_cloud_support_support_event_subscription google_cloud_support_support_event_subscription} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_cloud_support_support_event_subscription google_cloud_support_support_event_subscription} Resource.
 func NewGoogleCloudSupportSupportEventSubscription_Override(g GoogleCloudSupportSupportEventSubscription, scope constructs.Construct, id *string, config *GoogleCloudSupportSupportEventSubscriptionConfig) {
 	_init_.Initialize()
 

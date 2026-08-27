@@ -7,7 +7,11 @@ package googlecontainercluster
 type GoogleContainerClusterNodeConfigHostMaintenancePolicy struct {
 	// .
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_container_cluster#maintenance_interval GoogleContainerCluster#maintenance_interval}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_container_cluster#maintenance_interval GoogleContainerCluster#maintenance_interval}
 	MaintenanceInterval *string `field:"required" json:"maintenanceInterval" yaml:"maintenanceInterval"`
+	// opportunistic_maintenance_strategy block.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_container_cluster#opportunistic_maintenance_strategy GoogleContainerCluster#opportunistic_maintenance_strategy}
+	OpportunisticMaintenanceStrategy *GoogleContainerClusterNodeConfigHostMaintenancePolicyOpportunisticMaintenanceStrategy `field:"optional" json:"opportunisticMaintenanceStrategy" yaml:"opportunisticMaintenanceStrategy"`
 }
 

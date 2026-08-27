@@ -139,6 +139,10 @@ func validateGoogleMemorystoreInstance_IsTerraformResourceParameters(x interface
 	return nil
 }
 
+func (j *jsiiProxy_GoogleMemorystoreInstance) validateSetAclPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleMemorystoreInstance) validateSetAuthorizationModeParameters(val *string) error {
 	return nil
 }

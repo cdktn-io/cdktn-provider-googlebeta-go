@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_compute_region_backend_bucket_iam_binding google_compute_region_backend_bucket_iam_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_compute_region_backend_bucket_iam_binding google_compute_region_backend_bucket_iam_binding}.
 type GoogleComputeRegionBackendBucketIamBinding interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -520,7 +520,7 @@ func (j *jsiiProxy_GoogleComputeRegionBackendBucketIamBinding) TerraformResource
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_compute_region_backend_bucket_iam_binding google_compute_region_backend_bucket_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_compute_region_backend_bucket_iam_binding google_compute_region_backend_bucket_iam_binding} Resource.
 func NewGoogleComputeRegionBackendBucketIamBinding(scope constructs.Construct, id *string, config *GoogleComputeRegionBackendBucketIamBindingConfig) GoogleComputeRegionBackendBucketIamBinding {
 	_init_.Initialize()
 
@@ -538,7 +538,7 @@ func NewGoogleComputeRegionBackendBucketIamBinding(scope constructs.Construct, i
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_compute_region_backend_bucket_iam_binding google_compute_region_backend_bucket_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_compute_region_backend_bucket_iam_binding google_compute_region_backend_bucket_iam_binding} Resource.
 func NewGoogleComputeRegionBackendBucketIamBinding_Override(g GoogleComputeRegionBackendBucketIamBinding, scope constructs.Construct, id *string, config *GoogleComputeRegionBackendBucketIamBindingConfig) {
 	_init_.Initialize()
 

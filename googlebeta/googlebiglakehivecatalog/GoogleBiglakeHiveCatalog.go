@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_biglake_hive_catalog google_biglake_hive_catalog}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_biglake_hive_catalog google_biglake_hive_catalog}.
 type GoogleBiglakeHiveCatalog interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -566,7 +566,7 @@ func (j *jsiiProxy_GoogleBiglakeHiveCatalog) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_biglake_hive_catalog google_biglake_hive_catalog} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_biglake_hive_catalog google_biglake_hive_catalog} Resource.
 func NewGoogleBiglakeHiveCatalog(scope constructs.Construct, id *string, config *GoogleBiglakeHiveCatalogConfig) GoogleBiglakeHiveCatalog {
 	_init_.Initialize()
 
@@ -584,7 +584,7 @@ func NewGoogleBiglakeHiveCatalog(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_biglake_hive_catalog google_biglake_hive_catalog} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_biglake_hive_catalog google_biglake_hive_catalog} Resource.
 func NewGoogleBiglakeHiveCatalog_Override(g GoogleBiglakeHiveCatalog, scope constructs.Construct, id *string, config *GoogleBiglakeHiveCatalogConfig) {
 	_init_.Initialize()
 

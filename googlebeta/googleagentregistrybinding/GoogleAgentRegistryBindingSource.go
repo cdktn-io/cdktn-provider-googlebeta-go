@@ -7,7 +7,7 @@ package googleagentregistrybinding
 type GoogleAgentRegistryBindingSource struct {
 	// The identifier of the source Agent. Format: 'urn:agent:{publisher}:{namespace}:{name}'.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_agent_registry_binding#identifier GoogleAgentRegistryBinding#identifier}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_agent_registry_binding#identifier GoogleAgentRegistryBinding#identifier}
 	Identifier *string `field:"required" json:"identifier" yaml:"identifier"`
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_endpoints_service_consumers_iam_member google_endpoints_service_consumers_iam_member}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_endpoints_service_consumers_iam_member google_endpoints_service_consumers_iam_member}.
 type GoogleEndpointsServiceConsumersIamMember interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -495,7 +495,7 @@ func (j *jsiiProxy_GoogleEndpointsServiceConsumersIamMember) TerraformResourceTy
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_endpoints_service_consumers_iam_member google_endpoints_service_consumers_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_endpoints_service_consumers_iam_member google_endpoints_service_consumers_iam_member} Resource.
 func NewGoogleEndpointsServiceConsumersIamMember(scope constructs.Construct, id *string, config *GoogleEndpointsServiceConsumersIamMemberConfig) GoogleEndpointsServiceConsumersIamMember {
 	_init_.Initialize()
 
@@ -513,7 +513,7 @@ func NewGoogleEndpointsServiceConsumersIamMember(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_endpoints_service_consumers_iam_member google_endpoints_service_consumers_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_endpoints_service_consumers_iam_member google_endpoints_service_consumers_iam_member} Resource.
 func NewGoogleEndpointsServiceConsumersIamMember_Override(g GoogleEndpointsServiceConsumersIamMember, scope constructs.Construct, id *string, config *GoogleEndpointsServiceConsumersIamMemberConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_oracle_database_goldengate_connection_assignment google_oracle_database_goldengate_connection_assignment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_oracle_database_goldengate_connection_assignment google_oracle_database_goldengate_connection_assignment}.
 type GoogleOracleDatabaseGoldengateConnectionAssignment interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -636,7 +636,7 @@ func (j *jsiiProxy_GoogleOracleDatabaseGoldengateConnectionAssignment) TimeoutsI
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_oracle_database_goldengate_connection_assignment google_oracle_database_goldengate_connection_assignment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_oracle_database_goldengate_connection_assignment google_oracle_database_goldengate_connection_assignment} Resource.
 func NewGoogleOracleDatabaseGoldengateConnectionAssignment(scope constructs.Construct, id *string, config *GoogleOracleDatabaseGoldengateConnectionAssignmentConfig) GoogleOracleDatabaseGoldengateConnectionAssignment {
 	_init_.Initialize()
 
@@ -654,7 +654,7 @@ func NewGoogleOracleDatabaseGoldengateConnectionAssignment(scope constructs.Cons
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_oracle_database_goldengate_connection_assignment google_oracle_database_goldengate_connection_assignment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_oracle_database_goldengate_connection_assignment google_oracle_database_goldengate_connection_assignment} Resource.
 func NewGoogleOracleDatabaseGoldengateConnectionAssignment_Override(g GoogleOracleDatabaseGoldengateConnectionAssignment, scope constructs.Construct, id *string, config *GoogleOracleDatabaseGoldengateConnectionAssignmentConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_observability_project_settings google_observability_project_settings}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_observability_project_settings google_observability_project_settings}.
 type GoogleObservabilityProjectSettings interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -509,7 +509,7 @@ func (j *jsiiProxy_GoogleObservabilityProjectSettings) TimeoutsInput() interface
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_observability_project_settings google_observability_project_settings} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_observability_project_settings google_observability_project_settings} Resource.
 func NewGoogleObservabilityProjectSettings(scope constructs.Construct, id *string, config *GoogleObservabilityProjectSettingsConfig) GoogleObservabilityProjectSettings {
 	_init_.Initialize()
 
@@ -527,7 +527,7 @@ func NewGoogleObservabilityProjectSettings(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_observability_project_settings google_observability_project_settings} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_observability_project_settings google_observability_project_settings} Resource.
 func NewGoogleObservabilityProjectSettings_Override(g GoogleObservabilityProjectSettings, scope constructs.Construct, id *string, config *GoogleObservabilityProjectSettingsConfig) {
 	_init_.Initialize()
 

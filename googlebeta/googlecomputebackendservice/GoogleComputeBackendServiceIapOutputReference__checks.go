@@ -202,7 +202,39 @@ func (j *jsiiProxy_GoogleComputeBackendServiceIapOutputReference) validateSetOau
 	return nil
 }
 
+func (j *jsiiProxy_GoogleComputeBackendServiceIapOutputReference) validateSetOauth2ClientIdWoParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_GoogleComputeBackendServiceIapOutputReference) validateSetOauth2ClientIdWoVersionParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_GoogleComputeBackendServiceIapOutputReference) validateSetOauth2ClientSecretParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_GoogleComputeBackendServiceIapOutputReference) validateSetOauth2ClientSecretWoParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_GoogleComputeBackendServiceIapOutputReference) validateSetOauth2ClientSecretWoVersionParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}

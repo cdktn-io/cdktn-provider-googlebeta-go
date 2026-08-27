@@ -7,7 +7,7 @@ package googleagenticapplicationsanalystagentpersona
 type GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigVisualizationOptions struct {
 	// visualization_examples block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_agentic_applications_analyst_agent_persona#visualization_examples GoogleAgenticApplicationsAnalystAgentPersona#visualization_examples}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_agentic_applications_analyst_agent_persona#visualization_examples GoogleAgenticApplicationsAnalystAgentPersona#visualization_examples}
 	VisualizationExamples interface{} `field:"optional" json:"visualizationExamples" yaml:"visualizationExamples"`
 }
 

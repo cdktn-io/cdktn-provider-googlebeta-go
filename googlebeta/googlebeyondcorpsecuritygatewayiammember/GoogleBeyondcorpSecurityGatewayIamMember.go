@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_beyondcorp_security_gateway_iam_member google_beyondcorp_security_gateway_iam_member}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_beyondcorp_security_gateway_iam_member google_beyondcorp_security_gateway_iam_member}.
 type GoogleBeyondcorpSecurityGatewayIamMember interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -520,7 +520,7 @@ func (j *jsiiProxy_GoogleBeyondcorpSecurityGatewayIamMember) TerraformResourceTy
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_beyondcorp_security_gateway_iam_member google_beyondcorp_security_gateway_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_beyondcorp_security_gateway_iam_member google_beyondcorp_security_gateway_iam_member} Resource.
 func NewGoogleBeyondcorpSecurityGatewayIamMember(scope constructs.Construct, id *string, config *GoogleBeyondcorpSecurityGatewayIamMemberConfig) GoogleBeyondcorpSecurityGatewayIamMember {
 	_init_.Initialize()
 
@@ -538,7 +538,7 @@ func NewGoogleBeyondcorpSecurityGatewayIamMember(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_beyondcorp_security_gateway_iam_member google_beyondcorp_security_gateway_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_beyondcorp_security_gateway_iam_member google_beyondcorp_security_gateway_iam_member} Resource.
 func NewGoogleBeyondcorpSecurityGatewayIamMember_Override(g GoogleBeyondcorpSecurityGatewayIamMember, scope constructs.Construct, id *string, config *GoogleBeyondcorpSecurityGatewayIamMemberConfig) {
 	_init_.Initialize()
 

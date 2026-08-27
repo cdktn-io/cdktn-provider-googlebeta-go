@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_compute_network_firewall_policy_iam_binding google_compute_network_firewall_policy_iam_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_compute_network_firewall_policy_iam_binding google_compute_network_firewall_policy_iam_binding}.
 type GoogleComputeNetworkFirewallPolicyIamBinding interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -496,7 +496,7 @@ func (j *jsiiProxy_GoogleComputeNetworkFirewallPolicyIamBinding) TerraformResour
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_compute_network_firewall_policy_iam_binding google_compute_network_firewall_policy_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_compute_network_firewall_policy_iam_binding google_compute_network_firewall_policy_iam_binding} Resource.
 func NewGoogleComputeNetworkFirewallPolicyIamBinding(scope constructs.Construct, id *string, config *GoogleComputeNetworkFirewallPolicyIamBindingConfig) GoogleComputeNetworkFirewallPolicyIamBinding {
 	_init_.Initialize()
 
@@ -514,7 +514,7 @@ func NewGoogleComputeNetworkFirewallPolicyIamBinding(scope constructs.Construct,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_compute_network_firewall_policy_iam_binding google_compute_network_firewall_policy_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_compute_network_firewall_policy_iam_binding google_compute_network_firewall_policy_iam_binding} Resource.
 func NewGoogleComputeNetworkFirewallPolicyIamBinding_Override(g GoogleComputeNetworkFirewallPolicyIamBinding, scope constructs.Construct, id *string, config *GoogleComputeNetworkFirewallPolicyIamBindingConfig) {
 	_init_.Initialize()
 

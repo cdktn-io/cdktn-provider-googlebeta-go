@@ -7,7 +7,7 @@ package googlefirestorechangestream
 type GoogleFirestoreChangeStreamCollectionGroupScope struct {
 	// The ID of the collection group to track.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_firestore_change_stream#collection_group_id GoogleFirestoreChangeStream#collection_group_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_firestore_change_stream#collection_group_id GoogleFirestoreChangeStream#collection_group_id}
 	CollectionGroupId *string `field:"required" json:"collectionGroupId" yaml:"collectionGroupId"`
 }
 

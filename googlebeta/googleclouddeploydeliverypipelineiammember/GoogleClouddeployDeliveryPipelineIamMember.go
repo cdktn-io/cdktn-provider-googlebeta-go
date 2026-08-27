@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_clouddeploy_delivery_pipeline_iam_member google_clouddeploy_delivery_pipeline_iam_member}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_clouddeploy_delivery_pipeline_iam_member google_clouddeploy_delivery_pipeline_iam_member}.
 type GoogleClouddeployDeliveryPipelineIamMember interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -520,7 +520,7 @@ func (j *jsiiProxy_GoogleClouddeployDeliveryPipelineIamMember) TerraformResource
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_clouddeploy_delivery_pipeline_iam_member google_clouddeploy_delivery_pipeline_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_clouddeploy_delivery_pipeline_iam_member google_clouddeploy_delivery_pipeline_iam_member} Resource.
 func NewGoogleClouddeployDeliveryPipelineIamMember(scope constructs.Construct, id *string, config *GoogleClouddeployDeliveryPipelineIamMemberConfig) GoogleClouddeployDeliveryPipelineIamMember {
 	_init_.Initialize()
 
@@ -538,7 +538,7 @@ func NewGoogleClouddeployDeliveryPipelineIamMember(scope constructs.Construct, i
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_clouddeploy_delivery_pipeline_iam_member google_clouddeploy_delivery_pipeline_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_clouddeploy_delivery_pipeline_iam_member google_clouddeploy_delivery_pipeline_iam_member} Resource.
 func NewGoogleClouddeployDeliveryPipelineIamMember_Override(g GoogleClouddeployDeliveryPipelineIamMember, scope constructs.Construct, id *string, config *GoogleClouddeployDeliveryPipelineIamMemberConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/data-sources/google_discovery_engine_data_stores google_discovery_engine_data_stores}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/data-sources/google_discovery_engine_data_stores google_discovery_engine_data_stores}.
 type DataGoogleDiscoveryEngineDataStores interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -346,7 +346,7 @@ func (j *jsiiProxy_DataGoogleDiscoveryEngineDataStores) TerraformResourceType() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/data-sources/google_discovery_engine_data_stores google_discovery_engine_data_stores} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/data-sources/google_discovery_engine_data_stores google_discovery_engine_data_stores} Data Source.
 func NewDataGoogleDiscoveryEngineDataStores(scope constructs.Construct, id *string, config *DataGoogleDiscoveryEngineDataStoresConfig) DataGoogleDiscoveryEngineDataStores {
 	_init_.Initialize()
 
@@ -364,7 +364,7 @@ func NewDataGoogleDiscoveryEngineDataStores(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/data-sources/google_discovery_engine_data_stores google_discovery_engine_data_stores} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/data-sources/google_discovery_engine_data_stores google_discovery_engine_data_stores} Data Source.
 func NewDataGoogleDiscoveryEngineDataStores_Override(d DataGoogleDiscoveryEngineDataStores, scope constructs.Construct, id *string, config *DataGoogleDiscoveryEngineDataStoresConfig) {
 	_init_.Initialize()
 

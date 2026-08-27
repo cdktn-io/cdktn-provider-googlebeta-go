@@ -7,7 +7,7 @@ package googledataplexdataproduct
 type GoogleDataplexDataProductAccessApprovalConfig struct {
 	// Specifies the email addresses of users who are potential approvers.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_dataplex_data_product#approver_emails GoogleDataplexDataProduct#approver_emails}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_dataplex_data_product#approver_emails GoogleDataplexDataProduct#approver_emails}
 	ApproverEmails *[]*string `field:"optional" json:"approverEmails" yaml:"approverEmails"`
 }
 

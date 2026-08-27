@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_biglake_hive_catalog_iam_member google_biglake_hive_catalog_iam_member}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_biglake_hive_catalog_iam_member google_biglake_hive_catalog_iam_member}.
 type GoogleBiglakeHiveCatalogIamMember interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -496,7 +496,7 @@ func (j *jsiiProxy_GoogleBiglakeHiveCatalogIamMember) TerraformResourceType() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_biglake_hive_catalog_iam_member google_biglake_hive_catalog_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_biglake_hive_catalog_iam_member google_biglake_hive_catalog_iam_member} Resource.
 func NewGoogleBiglakeHiveCatalogIamMember(scope constructs.Construct, id *string, config *GoogleBiglakeHiveCatalogIamMemberConfig) GoogleBiglakeHiveCatalogIamMember {
 	_init_.Initialize()
 
@@ -514,7 +514,7 @@ func NewGoogleBiglakeHiveCatalogIamMember(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_biglake_hive_catalog_iam_member google_biglake_hive_catalog_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_biglake_hive_catalog_iam_member google_biglake_hive_catalog_iam_member} Resource.
 func NewGoogleBiglakeHiveCatalogIamMember_Override(g GoogleBiglakeHiveCatalogIamMember, scope constructs.Construct, id *string, config *GoogleBiglakeHiveCatalogIamMemberConfig) {
 	_init_.Initialize()
 

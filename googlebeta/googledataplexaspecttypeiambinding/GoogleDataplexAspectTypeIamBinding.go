@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_dataplex_aspect_type_iam_binding google_dataplex_aspect_type_iam_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_dataplex_aspect_type_iam_binding google_dataplex_aspect_type_iam_binding}.
 type GoogleDataplexAspectTypeIamBinding interface {
 	cdktn.TerraformResource
 	AspectTypeId() *string
@@ -520,7 +520,7 @@ func (j *jsiiProxy_GoogleDataplexAspectTypeIamBinding) TerraformResourceType() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_dataplex_aspect_type_iam_binding google_dataplex_aspect_type_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_dataplex_aspect_type_iam_binding google_dataplex_aspect_type_iam_binding} Resource.
 func NewGoogleDataplexAspectTypeIamBinding(scope constructs.Construct, id *string, config *GoogleDataplexAspectTypeIamBindingConfig) GoogleDataplexAspectTypeIamBinding {
 	_init_.Initialize()
 
@@ -538,7 +538,7 @@ func NewGoogleDataplexAspectTypeIamBinding(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_dataplex_aspect_type_iam_binding google_dataplex_aspect_type_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_dataplex_aspect_type_iam_binding google_dataplex_aspect_type_iam_binding} Resource.
 func NewGoogleDataplexAspectTypeIamBinding_Override(g GoogleDataplexAspectTypeIamBinding, scope constructs.Construct, id *string, config *GoogleDataplexAspectTypeIamBindingConfig) {
 	_init_.Initialize()
 

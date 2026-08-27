@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_public_ca_external_account_key google_public_ca_external_account_key}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_public_ca_external_account_key google_public_ca_external_account_key}.
 type GooglePublicCaExternalAccountKey interface {
 	cdktn.TerraformResource
 	B64MacKey() *string
@@ -495,7 +495,7 @@ func (j *jsiiProxy_GooglePublicCaExternalAccountKey) TimeoutsInput() interface{}
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_public_ca_external_account_key google_public_ca_external_account_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_public_ca_external_account_key google_public_ca_external_account_key} Resource.
 func NewGooglePublicCaExternalAccountKey(scope constructs.Construct, id *string, config *GooglePublicCaExternalAccountKeyConfig) GooglePublicCaExternalAccountKey {
 	_init_.Initialize()
 
@@ -513,7 +513,7 @@ func NewGooglePublicCaExternalAccountKey(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_public_ca_external_account_key google_public_ca_external_account_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_public_ca_external_account_key google_public_ca_external_account_key} Resource.
 func NewGooglePublicCaExternalAccountKey_Override(g GooglePublicCaExternalAccountKey, scope constructs.Construct, id *string, config *GooglePublicCaExternalAccountKeyConfig) {
 	_init_.Initialize()
 

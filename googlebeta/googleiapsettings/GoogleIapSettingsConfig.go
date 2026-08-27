@@ -37,15 +37,15 @@ type GoogleIapSettingsConfig struct {
 	// * projects/{project_id}/iap_web/appengine-{app_id}/services/{service_id}
 	// * projects/{project_id}/iap_web/appengine-{app_id}/services/{service_id}/version/{version_id}
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_iap_settings#name GoogleIapSettings#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_iap_settings#name GoogleIapSettings#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// access_settings block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_iap_settings#access_settings GoogleIapSettings#access_settings}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_iap_settings#access_settings GoogleIapSettings#access_settings}
 	AccessSettings *GoogleIapSettingsAccessSettings `field:"optional" json:"accessSettings" yaml:"accessSettings"`
 	// application_settings block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_iap_settings#application_settings GoogleIapSettings#application_settings}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_iap_settings#application_settings GoogleIapSettings#application_settings}
 	ApplicationSettings *GoogleIapSettingsApplicationSettings `field:"optional" json:"applicationSettings" yaml:"applicationSettings"`
 	// Whether Terraform will be prevented from destroying the instance.
 	//
@@ -57,16 +57,16 @@ type GoogleIapSettingsConfig struct {
 	// When set to "DELETE", deleting the resource is allowed.
 	//
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_iap_settings#deletion_policy GoogleIapSettings#deletion_policy}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_iap_settings#deletion_policy GoogleIapSettings#deletion_policy}
 	DeletionPolicy *string `field:"optional" json:"deletionPolicy" yaml:"deletionPolicy"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_iap_settings#id GoogleIapSettings#id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_iap_settings#id GoogleIapSettings#id}.
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
 	Id *string `field:"optional" json:"id" yaml:"id"`
 	// timeouts block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_iap_settings#timeouts GoogleIapSettings#timeouts}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_iap_settings#timeouts GoogleIapSettings#timeouts}
 	Timeouts *GoogleIapSettingsTimeouts `field:"optional" json:"timeouts" yaml:"timeouts"`
 }
 

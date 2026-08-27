@@ -38,10 +38,26 @@ type GoogleComputeBackendServiceIapOutputReference interface {
 	Oauth2ClientId() *string
 	SetOauth2ClientId(val *string)
 	Oauth2ClientIdInput() *string
+	// Deprecated: Write-only: the provider never returns this value; reading it always yields null by protocol contract. The getter remains for compatibility and will be removed in a future prebuilt-provider major.
+	Oauth2ClientIdWo() *string
+	// Deprecated: Write-only: the provider never returns this value; reading it always yields null by protocol contract. The getter remains for compatibility and will be removed in a future prebuilt-provider major.
+	SetOauth2ClientIdWo(val *string)
+	Oauth2ClientIdWoInput() *string
+	Oauth2ClientIdWoVersion() *string
+	SetOauth2ClientIdWoVersion(val *string)
+	Oauth2ClientIdWoVersionInput() *string
 	Oauth2ClientSecret() *string
 	SetOauth2ClientSecret(val *string)
 	Oauth2ClientSecretInput() *string
 	Oauth2ClientSecretSha256() *string
+	// Deprecated: Write-only: the provider never returns this value; reading it always yields null by protocol contract. The getter remains for compatibility and will be removed in a future prebuilt-provider major.
+	Oauth2ClientSecretWo() *string
+	// Deprecated: Write-only: the provider never returns this value; reading it always yields null by protocol contract. The getter remains for compatibility and will be removed in a future prebuilt-provider major.
+	SetOauth2ClientSecretWo(val *string)
+	Oauth2ClientSecretWoInput() *string
+	Oauth2ClientSecretWoVersion() *string
+	SetOauth2ClientSecretWoVersion(val *string)
+	Oauth2ClientSecretWoVersionInput() *string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -75,7 +91,11 @@ type GoogleComputeBackendServiceIapOutputReference interface {
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetOauth2ClientId()
+	ResetOauth2ClientIdWo()
+	ResetOauth2ClientIdWoVersion()
 	ResetOauth2ClientSecret()
+	ResetOauth2ClientSecretWo()
+	ResetOauth2ClientSecretWoVersion()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -181,6 +201,46 @@ func (j *jsiiProxy_GoogleComputeBackendServiceIapOutputReference) Oauth2ClientId
 	return returns
 }
 
+func (j *jsiiProxy_GoogleComputeBackendServiceIapOutputReference) Oauth2ClientIdWo() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"oauth2ClientIdWo",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeBackendServiceIapOutputReference) Oauth2ClientIdWoInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"oauth2ClientIdWoInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeBackendServiceIapOutputReference) Oauth2ClientIdWoVersion() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"oauth2ClientIdWoVersion",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeBackendServiceIapOutputReference) Oauth2ClientIdWoVersionInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"oauth2ClientIdWoVersionInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleComputeBackendServiceIapOutputReference) Oauth2ClientSecret() *string {
 	var returns *string
 	_jsii_.Get(
@@ -206,6 +266,46 @@ func (j *jsiiProxy_GoogleComputeBackendServiceIapOutputReference) Oauth2ClientSe
 	_jsii_.Get(
 		j,
 		"oauth2ClientSecretSha256",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeBackendServiceIapOutputReference) Oauth2ClientSecretWo() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"oauth2ClientSecretWo",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeBackendServiceIapOutputReference) Oauth2ClientSecretWoInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"oauth2ClientSecretWoInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeBackendServiceIapOutputReference) Oauth2ClientSecretWoVersion() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"oauth2ClientSecretWoVersion",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeBackendServiceIapOutputReference) Oauth2ClientSecretWoVersionInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"oauth2ClientSecretWoVersionInput",
 		&returns,
 	)
 	return returns
@@ -314,6 +414,28 @@ func (j *jsiiProxy_GoogleComputeBackendServiceIapOutputReference)SetOauth2Client
 	)
 }
 
+func (j *jsiiProxy_GoogleComputeBackendServiceIapOutputReference)SetOauth2ClientIdWo(val *string) {
+	if err := j.validateSetOauth2ClientIdWoParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"oauth2ClientIdWo",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleComputeBackendServiceIapOutputReference)SetOauth2ClientIdWoVersion(val *string) {
+	if err := j.validateSetOauth2ClientIdWoVersionParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"oauth2ClientIdWoVersion",
+		val,
+	)
+}
+
 func (j *jsiiProxy_GoogleComputeBackendServiceIapOutputReference)SetOauth2ClientSecret(val *string) {
 	if err := j.validateSetOauth2ClientSecretParameters(val); err != nil {
 		panic(err)
@@ -321,6 +443,28 @@ func (j *jsiiProxy_GoogleComputeBackendServiceIapOutputReference)SetOauth2Client
 	_jsii_.Set(
 		j,
 		"oauth2ClientSecret",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleComputeBackendServiceIapOutputReference)SetOauth2ClientSecretWo(val *string) {
+	if err := j.validateSetOauth2ClientSecretWoParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"oauth2ClientSecretWo",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleComputeBackendServiceIapOutputReference)SetOauth2ClientSecretWoVersion(val *string) {
+	if err := j.validateSetOauth2ClientSecretWoVersionParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"oauth2ClientSecretWoVersion",
 		val,
 	)
 }
@@ -541,10 +685,42 @@ func (g *jsiiProxy_GoogleComputeBackendServiceIapOutputReference) ResetOauth2Cli
 	)
 }
 
+func (g *jsiiProxy_GoogleComputeBackendServiceIapOutputReference) ResetOauth2ClientIdWo() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetOauth2ClientIdWo",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleComputeBackendServiceIapOutputReference) ResetOauth2ClientIdWoVersion() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetOauth2ClientIdWoVersion",
+		nil, // no parameters
+	)
+}
+
 func (g *jsiiProxy_GoogleComputeBackendServiceIapOutputReference) ResetOauth2ClientSecret() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetOauth2ClientSecret",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleComputeBackendServiceIapOutputReference) ResetOauth2ClientSecretWo() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetOauth2ClientSecretWo",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleComputeBackendServiceIapOutputReference) ResetOauth2ClientSecretWoVersion() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetOauth2ClientSecretWoVersion",
 		nil, // no parameters
 	)
 }

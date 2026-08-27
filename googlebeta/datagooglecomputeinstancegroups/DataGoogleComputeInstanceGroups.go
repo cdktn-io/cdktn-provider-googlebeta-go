@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/data-sources/google_compute_instance_groups google_compute_instance_groups}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/data-sources/google_compute_instance_groups google_compute_instance_groups}.
 type DataGoogleComputeInstanceGroups interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -370,7 +370,7 @@ func (j *jsiiProxy_DataGoogleComputeInstanceGroups) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/data-sources/google_compute_instance_groups google_compute_instance_groups} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/data-sources/google_compute_instance_groups google_compute_instance_groups} Data Source.
 func NewDataGoogleComputeInstanceGroups(scope constructs.Construct, id *string, config *DataGoogleComputeInstanceGroupsConfig) DataGoogleComputeInstanceGroups {
 	_init_.Initialize()
 
@@ -388,7 +388,7 @@ func NewDataGoogleComputeInstanceGroups(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/data-sources/google_compute_instance_groups google_compute_instance_groups} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/data-sources/google_compute_instance_groups google_compute_instance_groups} Data Source.
 func NewDataGoogleComputeInstanceGroups_Override(d DataGoogleComputeInstanceGroups, scope constructs.Construct, id *string, config *DataGoogleComputeInstanceGroupsConfig) {
 	_init_.Initialize()
 

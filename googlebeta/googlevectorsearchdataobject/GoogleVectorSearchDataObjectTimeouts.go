@@ -5,11 +5,11 @@ package googlevectorsearchdataobject
 
 
 type GoogleVectorSearchDataObjectTimeouts struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_vector_search_data_object#create GoogleVectorSearchDataObject#create}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_vector_search_data_object#create GoogleVectorSearchDataObject#create}.
 	Create *string `field:"optional" json:"create" yaml:"create"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_vector_search_data_object#delete GoogleVectorSearchDataObject#delete}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_vector_search_data_object#delete GoogleVectorSearchDataObject#delete}.
 	Delete *string `field:"optional" json:"delete" yaml:"delete"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_vector_search_data_object#update GoogleVectorSearchDataObject#update}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_vector_search_data_object#update GoogleVectorSearchDataObject#update}.
 	Update *string `field:"optional" json:"update" yaml:"update"`
 }
 

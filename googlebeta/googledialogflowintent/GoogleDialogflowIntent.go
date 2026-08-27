@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_dialogflow_intent google_dialogflow_intent}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_dialogflow_intent google_dialogflow_intent}.
 type GoogleDialogflowIntent interface {
 	cdktn.TerraformResource
 	Action() *string
@@ -736,7 +736,7 @@ func (j *jsiiProxy_GoogleDialogflowIntent) WebhookStateInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_dialogflow_intent google_dialogflow_intent} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_dialogflow_intent google_dialogflow_intent} Resource.
 func NewGoogleDialogflowIntent(scope constructs.Construct, id *string, config *GoogleDialogflowIntentConfig) GoogleDialogflowIntent {
 	_init_.Initialize()
 
@@ -754,7 +754,7 @@ func NewGoogleDialogflowIntent(scope constructs.Construct, id *string, config *G
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_dialogflow_intent google_dialogflow_intent} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_dialogflow_intent google_dialogflow_intent} Resource.
 func NewGoogleDialogflowIntent_Override(g GoogleDialogflowIntent, scope constructs.Construct, id *string, config *GoogleDialogflowIntentConfig) {
 	_init_.Initialize()
 

@@ -7,7 +7,7 @@ package googlecestool
 type GoogleCesToolPythonFunctionServiceDirectoryConfig struct {
 	// The name of Service Directory service. Format: projects/{project}/locations/{location}/namespaces/{namespace}/services/{service}.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_ces_tool#service GoogleCesTool#service}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_ces_tool#service GoogleCesTool#service}
 	Service *string `field:"required" json:"service" yaml:"service"`
 }
 

@@ -1,0 +1,77 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package datagooglecontainercluster
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (d *jsiiProxy_DataGoogleContainerClusterNodeConfigHostMaintenancePolicyOpportunisticMaintenanceStrategyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataGoogleContainerClusterNodeConfigHostMaintenancePolicyOpportunisticMaintenanceStrategyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataGoogleContainerClusterNodeConfigHostMaintenancePolicyOpportunisticMaintenanceStrategyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataGoogleContainerClusterNodeConfigHostMaintenancePolicyOpportunisticMaintenanceStrategyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataGoogleContainerClusterNodeConfigHostMaintenancePolicyOpportunisticMaintenanceStrategyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataGoogleContainerClusterNodeConfigHostMaintenancePolicyOpportunisticMaintenanceStrategyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataGoogleContainerClusterNodeConfigHostMaintenancePolicyOpportunisticMaintenanceStrategyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataGoogleContainerClusterNodeConfigHostMaintenancePolicyOpportunisticMaintenanceStrategyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataGoogleContainerClusterNodeConfigHostMaintenancePolicyOpportunisticMaintenanceStrategyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataGoogleContainerClusterNodeConfigHostMaintenancePolicyOpportunisticMaintenanceStrategyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataGoogleContainerClusterNodeConfigHostMaintenancePolicyOpportunisticMaintenanceStrategyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataGoogleContainerClusterNodeConfigHostMaintenancePolicyOpportunisticMaintenanceStrategyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataGoogleContainerClusterNodeConfigHostMaintenancePolicyOpportunisticMaintenanceStrategyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataGoogleContainerClusterNodeConfigHostMaintenancePolicyOpportunisticMaintenanceStrategyOutputReference) validateSetInternalValueParameters(val *DataGoogleContainerClusterNodeConfigHostMaintenancePolicyOpportunisticMaintenanceStrategy) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataGoogleContainerClusterNodeConfigHostMaintenancePolicyOpportunisticMaintenanceStrategyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataGoogleContainerClusterNodeConfigHostMaintenancePolicyOpportunisticMaintenanceStrategyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewDataGoogleContainerClusterNodeConfigHostMaintenancePolicyOpportunisticMaintenanceStrategyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

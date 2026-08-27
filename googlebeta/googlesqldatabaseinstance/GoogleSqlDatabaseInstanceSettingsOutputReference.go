@@ -116,6 +116,9 @@ type GoogleSqlDatabaseInstanceSettingsOutputReference interface {
 	PricingPlanInput() *string
 	ReadPoolAutoScaleConfig() GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigOutputReference
 	ReadPoolAutoScaleConfigInput() *GoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfig
+	ReplicationLagMaxSeconds() *float64
+	SetReplicationLagMaxSeconds(val *float64)
+	ReplicationLagMaxSecondsInput() *float64
 	RetainBackupsOnDelete() interface{}
 	SetRetainBackupsOnDelete(val interface{})
 	RetainBackupsOnDeleteInput() interface{}
@@ -213,6 +216,7 @@ type GoogleSqlDatabaseInstanceSettingsOutputReference interface {
 	ResetPerformanceCaptureConfig()
 	ResetPricingPlan()
 	ResetReadPoolAutoScaleConfig()
+	ResetReplicationLagMaxSeconds()
 	ResetRetainBackupsOnDelete()
 	ResetSqlServerAuditConfig()
 	ResetTimeZone()
@@ -952,6 +956,26 @@ func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsOutputReference) ReadPoolAut
 	return returns
 }
 
+func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsOutputReference) ReplicationLagMaxSeconds() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"replicationLagMaxSeconds",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsOutputReference) ReplicationLagMaxSecondsInput() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"replicationLagMaxSecondsInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsOutputReference) RetainBackupsOnDelete() interface{} {
 	var returns interface{}
 	_jsii_.Get(
@@ -1326,6 +1350,17 @@ func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsOutputReference)SetPricingPl
 	_jsii_.Set(
 		j,
 		"pricingPlan",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleSqlDatabaseInstanceSettingsOutputReference)SetReplicationLagMaxSeconds(val *float64) {
+	if err := j.validateSetReplicationLagMaxSecondsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"replicationLagMaxSeconds",
 		val,
 	)
 }
@@ -2029,6 +2064,14 @@ func (g *jsiiProxy_GoogleSqlDatabaseInstanceSettingsOutputReference) ResetReadPo
 	_jsii_.InvokeVoid(
 		g,
 		"resetReadPoolAutoScaleConfig",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleSqlDatabaseInstanceSettingsOutputReference) ResetReplicationLagMaxSeconds() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetReplicationLagMaxSeconds",
 		nil, // no parameters
 	)
 }

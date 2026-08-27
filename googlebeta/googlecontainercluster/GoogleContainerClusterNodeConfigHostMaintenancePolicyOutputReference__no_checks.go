@@ -47,6 +47,10 @@ func (g *jsiiProxy_GoogleContainerClusterNodeConfigHostMaintenancePolicyOutputRe
 	return nil
 }
 
+func (g *jsiiProxy_GoogleContainerClusterNodeConfigHostMaintenancePolicyOutputReference) validatePutOpportunisticMaintenanceStrategyParameters(value *GoogleContainerClusterNodeConfigHostMaintenancePolicyOpportunisticMaintenanceStrategy) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleContainerClusterNodeConfigHostMaintenancePolicyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }

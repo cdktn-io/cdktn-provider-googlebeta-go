@@ -11,7 +11,7 @@ type GoogleContainerClusterNodeCreationConfig struct {
 	// * VIA_KUBELET: Kubelet registers itself.
 	// * VIA_CONTROL_PLANE: gcp-controller-manager automatically creates the node object after CSR approval.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_container_cluster#node_creation_mode GoogleContainerCluster#node_creation_mode}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_container_cluster#node_creation_mode GoogleContainerCluster#node_creation_mode}
 	NodeCreationMode *string `field:"required" json:"nodeCreationMode" yaml:"nodeCreationMode"`
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_compute_firewall_policy_association google_compute_firewall_policy_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_compute_firewall_policy_association google_compute_firewall_policy_association}.
 type GoogleComputeFirewallPolicyAssociation interface {
 	cdktn.TerraformResource
 	AttachmentTarget() *string
@@ -496,7 +496,7 @@ func (j *jsiiProxy_GoogleComputeFirewallPolicyAssociation) TimeoutsInput() inter
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_compute_firewall_policy_association google_compute_firewall_policy_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_compute_firewall_policy_association google_compute_firewall_policy_association} Resource.
 func NewGoogleComputeFirewallPolicyAssociation(scope constructs.Construct, id *string, config *GoogleComputeFirewallPolicyAssociationConfig) GoogleComputeFirewallPolicyAssociation {
 	_init_.Initialize()
 
@@ -514,7 +514,7 @@ func NewGoogleComputeFirewallPolicyAssociation(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_compute_firewall_policy_association google_compute_firewall_policy_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_compute_firewall_policy_association google_compute_firewall_policy_association} Resource.
 func NewGoogleComputeFirewallPolicyAssociation_Override(g GoogleComputeFirewallPolicyAssociation, scope constructs.Construct, id *string, config *GoogleComputeFirewallPolicyAssociationConfig) {
 	_init_.Initialize()
 

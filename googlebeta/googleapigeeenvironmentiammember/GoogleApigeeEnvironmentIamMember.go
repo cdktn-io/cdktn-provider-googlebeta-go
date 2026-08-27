@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_apigee_environment_iam_member google_apigee_environment_iam_member}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_apigee_environment_iam_member google_apigee_environment_iam_member}.
 type GoogleApigeeEnvironmentIamMember interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -495,7 +495,7 @@ func (j *jsiiProxy_GoogleApigeeEnvironmentIamMember) TerraformResourceType() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_apigee_environment_iam_member google_apigee_environment_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_apigee_environment_iam_member google_apigee_environment_iam_member} Resource.
 func NewGoogleApigeeEnvironmentIamMember(scope constructs.Construct, id *string, config *GoogleApigeeEnvironmentIamMemberConfig) GoogleApigeeEnvironmentIamMember {
 	_init_.Initialize()
 
@@ -513,7 +513,7 @@ func NewGoogleApigeeEnvironmentIamMember(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_apigee_environment_iam_member google_apigee_environment_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_apigee_environment_iam_member google_apigee_environment_iam_member} Resource.
 func NewGoogleApigeeEnvironmentIamMember_Override(g GoogleApigeeEnvironmentIamMember, scope constructs.Construct, id *string, config *GoogleApigeeEnvironmentIamMemberConfig) {
 	_init_.Initialize()
 

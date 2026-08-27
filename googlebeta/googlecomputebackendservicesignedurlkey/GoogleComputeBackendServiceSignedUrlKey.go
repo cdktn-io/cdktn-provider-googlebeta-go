@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_compute_backend_service_signed_url_key google_compute_backend_service_signed_url_key}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_compute_backend_service_signed_url_key google_compute_backend_service_signed_url_key}.
 type GoogleComputeBackendServiceSignedUrlKey interface {
 	cdktn.TerraformResource
 	BackendService() *string
@@ -509,7 +509,7 @@ func (j *jsiiProxy_GoogleComputeBackendServiceSignedUrlKey) TimeoutsInput() inte
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_compute_backend_service_signed_url_key google_compute_backend_service_signed_url_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_compute_backend_service_signed_url_key google_compute_backend_service_signed_url_key} Resource.
 func NewGoogleComputeBackendServiceSignedUrlKey(scope constructs.Construct, id *string, config *GoogleComputeBackendServiceSignedUrlKeyConfig) GoogleComputeBackendServiceSignedUrlKey {
 	_init_.Initialize()
 
@@ -527,7 +527,7 @@ func NewGoogleComputeBackendServiceSignedUrlKey(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_compute_backend_service_signed_url_key google_compute_backend_service_signed_url_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_compute_backend_service_signed_url_key google_compute_backend_service_signed_url_key} Resource.
 func NewGoogleComputeBackendServiceSignedUrlKey_Override(g GoogleComputeBackendServiceSignedUrlKey, scope constructs.Construct, id *string, config *GoogleComputeBackendServiceSignedUrlKeyConfig) {
 	_init_.Initialize()
 

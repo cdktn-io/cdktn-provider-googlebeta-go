@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/data-sources/google_backup_dr_data_sources google_backup_dr_data_sources}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/data-sources/google_backup_dr_data_sources google_backup_dr_data_sources}.
 type DataGoogleBackupDrDataSources interface {
 	cdktn.TerraformDataSource
 	BackupVaultId() *string
@@ -416,7 +416,7 @@ func (j *jsiiProxy_DataGoogleBackupDrDataSources) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/data-sources/google_backup_dr_data_sources google_backup_dr_data_sources} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/data-sources/google_backup_dr_data_sources google_backup_dr_data_sources} Data Source.
 func NewDataGoogleBackupDrDataSources(scope constructs.Construct, id *string, config *DataGoogleBackupDrDataSourcesConfig) DataGoogleBackupDrDataSources {
 	_init_.Initialize()
 
@@ -434,7 +434,7 @@ func NewDataGoogleBackupDrDataSources(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/data-sources/google_backup_dr_data_sources google_backup_dr_data_sources} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/data-sources/google_backup_dr_data_sources google_backup_dr_data_sources} Data Source.
 func NewDataGoogleBackupDrDataSources_Override(d DataGoogleBackupDrDataSources, scope constructs.Construct, id *string, config *DataGoogleBackupDrDataSourcesConfig) {
 	_init_.Initialize()
 

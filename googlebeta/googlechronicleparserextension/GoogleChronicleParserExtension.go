@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_chronicle_parser_extension google_chronicle_parser_extension}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_chronicle_parser_extension google_chronicle_parser_extension}.
 type GoogleChronicleParserExtension interface {
 	cdktn.TerraformResource
 	CbnSnippet() *string
@@ -717,7 +717,7 @@ func (j *jsiiProxy_GoogleChronicleParserExtension) ValidationSkippedInput() inte
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_chronicle_parser_extension google_chronicle_parser_extension} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_chronicle_parser_extension google_chronicle_parser_extension} Resource.
 func NewGoogleChronicleParserExtension(scope constructs.Construct, id *string, config *GoogleChronicleParserExtensionConfig) GoogleChronicleParserExtension {
 	_init_.Initialize()
 
@@ -735,7 +735,7 @@ func NewGoogleChronicleParserExtension(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_chronicle_parser_extension google_chronicle_parser_extension} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_chronicle_parser_extension google_chronicle_parser_extension} Resource.
 func NewGoogleChronicleParserExtension_Override(g GoogleChronicleParserExtension, scope constructs.Construct, id *string, config *GoogleChronicleParserExtensionConfig) {
 	_init_.Initialize()
 

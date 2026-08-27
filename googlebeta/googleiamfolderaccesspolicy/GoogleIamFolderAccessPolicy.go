@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_iam_folder_access_policy google_iam_folder_access_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_iam_folder_access_policy google_iam_folder_access_policy}.
 type GoogleIamFolderAccessPolicy interface {
 	cdktn.TerraformResource
 	AccessPolicyId() *string
@@ -623,7 +623,7 @@ func (j *jsiiProxy_GoogleIamFolderAccessPolicy) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_iam_folder_access_policy google_iam_folder_access_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_iam_folder_access_policy google_iam_folder_access_policy} Resource.
 func NewGoogleIamFolderAccessPolicy(scope constructs.Construct, id *string, config *GoogleIamFolderAccessPolicyConfig) GoogleIamFolderAccessPolicy {
 	_init_.Initialize()
 
@@ -641,7 +641,7 @@ func NewGoogleIamFolderAccessPolicy(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_iam_folder_access_policy google_iam_folder_access_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_iam_folder_access_policy google_iam_folder_access_policy} Resource.
 func NewGoogleIamFolderAccessPolicy_Override(g GoogleIamFolderAccessPolicy, scope constructs.Construct, id *string, config *GoogleIamFolderAccessPolicyConfig) {
 	_init_.Initialize()
 

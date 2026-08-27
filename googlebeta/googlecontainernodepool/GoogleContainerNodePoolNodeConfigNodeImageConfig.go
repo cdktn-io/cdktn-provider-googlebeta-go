@@ -9,13 +9,13 @@ type GoogleContainerNodePoolNodeConfigNodeImageConfig struct {
 	//
 	// This is a private feature, please contact your Google account team for allowlisting this feature.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_container_node_pool#image GoogleContainerNodePool#image}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_container_node_pool#image GoogleContainerNodePool#image}
 	Image *string `field:"optional" json:"image" yaml:"image"`
 	// The GCP project storing the Operating System image for the node pool.
 	//
 	// This is a private feature, please contact your Google account team for allowlisting this feature.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_container_node_pool#image_project GoogleContainerNodePool#image_project}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_container_node_pool#image_project GoogleContainerNodePool#image_project}
 	ImageProject *string `field:"optional" json:"imageProject" yaml:"imageProject"`
 }
 

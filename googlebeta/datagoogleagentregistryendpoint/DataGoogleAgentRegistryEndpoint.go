@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/data-sources/google_agent_registry_endpoint google_agent_registry_endpoint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/data-sources/google_agent_registry_endpoint google_agent_registry_endpoint}.
 type DataGoogleAgentRegistryEndpoint interface {
 	cdktn.TerraformDataSource
 	Attributes() cdktn.StringMap
@@ -459,7 +459,7 @@ func (j *jsiiProxy_DataGoogleAgentRegistryEndpoint) Urn() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/data-sources/google_agent_registry_endpoint google_agent_registry_endpoint} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/data-sources/google_agent_registry_endpoint google_agent_registry_endpoint} Data Source.
 func NewDataGoogleAgentRegistryEndpoint(scope constructs.Construct, id *string, config *DataGoogleAgentRegistryEndpointConfig) DataGoogleAgentRegistryEndpoint {
 	_init_.Initialize()
 
@@ -477,7 +477,7 @@ func NewDataGoogleAgentRegistryEndpoint(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/data-sources/google_agent_registry_endpoint google_agent_registry_endpoint} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/data-sources/google_agent_registry_endpoint google_agent_registry_endpoint} Data Source.
 func NewDataGoogleAgentRegistryEndpoint_Override(d DataGoogleAgentRegistryEndpoint, scope constructs.Construct, id *string, config *DataGoogleAgentRegistryEndpointConfig) {
 	_init_.Initialize()
 

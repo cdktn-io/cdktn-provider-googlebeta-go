@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_kms_organization_kaj_policy_config google_kms_organization_kaj_policy_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_kms_organization_kaj_policy_config google_kms_organization_kaj_policy_config}.
 type GoogleKmsOrganizationKajPolicyConfig interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -439,7 +439,7 @@ func (j *jsiiProxy_GoogleKmsOrganizationKajPolicyConfig) TimeoutsInput() interfa
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_kms_organization_kaj_policy_config google_kms_organization_kaj_policy_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_kms_organization_kaj_policy_config google_kms_organization_kaj_policy_config} Resource.
 func NewGoogleKmsOrganizationKajPolicyConfig(scope constructs.Construct, id *string, config *GoogleKmsOrganizationKajPolicyConfigConfig) GoogleKmsOrganizationKajPolicyConfig {
 	_init_.Initialize()
 
@@ -457,7 +457,7 @@ func NewGoogleKmsOrganizationKajPolicyConfig(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_kms_organization_kaj_policy_config google_kms_organization_kaj_policy_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_kms_organization_kaj_policy_config google_kms_organization_kaj_policy_config} Resource.
 func NewGoogleKmsOrganizationKajPolicyConfig_Override(g GoogleKmsOrganizationKajPolicyConfig, scope constructs.Construct, id *string, config *GoogleKmsOrganizationKajPolicyConfigConfig) {
 	_init_.Initialize()
 

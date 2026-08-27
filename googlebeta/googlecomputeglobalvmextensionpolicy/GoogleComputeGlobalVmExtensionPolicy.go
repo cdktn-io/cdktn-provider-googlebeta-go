@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_compute_global_vm_extension_policy google_compute_global_vm_extension_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_compute_global_vm_extension_policy google_compute_global_vm_extension_policy}.
 type GoogleComputeGlobalVmExtensionPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -623,7 +623,7 @@ func (j *jsiiProxy_GoogleComputeGlobalVmExtensionPolicy) UpdateTimestamp() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_compute_global_vm_extension_policy google_compute_global_vm_extension_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_compute_global_vm_extension_policy google_compute_global_vm_extension_policy} Resource.
 func NewGoogleComputeGlobalVmExtensionPolicy(scope constructs.Construct, id *string, config *GoogleComputeGlobalVmExtensionPolicyConfig) GoogleComputeGlobalVmExtensionPolicy {
 	_init_.Initialize()
 
@@ -641,7 +641,7 @@ func NewGoogleComputeGlobalVmExtensionPolicy(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_compute_global_vm_extension_policy google_compute_global_vm_extension_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_compute_global_vm_extension_policy google_compute_global_vm_extension_policy} Resource.
 func NewGoogleComputeGlobalVmExtensionPolicy_Override(g GoogleComputeGlobalVmExtensionPolicy, scope constructs.Construct, id *string, config *GoogleComputeGlobalVmExtensionPolicyConfig) {
 	_init_.Initialize()
 

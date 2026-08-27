@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_vertex_ai_reasoning_engine_iam_policy google_vertex_ai_reasoning_engine_iam_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_vertex_ai_reasoning_engine_iam_policy google_vertex_ai_reasoning_engine_iam_policy}.
 type GoogleVertexAiReasoningEngineIamPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -473,7 +473,7 @@ func (j *jsiiProxy_GoogleVertexAiReasoningEngineIamPolicy) TerraformResourceType
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_vertex_ai_reasoning_engine_iam_policy google_vertex_ai_reasoning_engine_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_vertex_ai_reasoning_engine_iam_policy google_vertex_ai_reasoning_engine_iam_policy} Resource.
 func NewGoogleVertexAiReasoningEngineIamPolicy(scope constructs.Construct, id *string, config *GoogleVertexAiReasoningEngineIamPolicyConfig) GoogleVertexAiReasoningEngineIamPolicy {
 	_init_.Initialize()
 
@@ -491,7 +491,7 @@ func NewGoogleVertexAiReasoningEngineIamPolicy(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_vertex_ai_reasoning_engine_iam_policy google_vertex_ai_reasoning_engine_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_vertex_ai_reasoning_engine_iam_policy google_vertex_ai_reasoning_engine_iam_policy} Resource.
 func NewGoogleVertexAiReasoningEngineIamPolicy_Override(g GoogleVertexAiReasoningEngineIamPolicy, scope constructs.Construct, id *string, config *GoogleVertexAiReasoningEngineIamPolicyConfig) {
 	_init_.Initialize()
 

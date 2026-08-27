@@ -12,9 +12,12 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_memorystore_instance google_memorystore_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_memorystore_instance google_memorystore_instance}.
 type GoogleMemorystoreInstance interface {
 	cdktn.TerraformResource
+	AclPolicy() *string
+	SetAclPolicy(val *string)
+	AclPolicyInput() *string
 	AuthorizationMode() *string
 	SetAuthorizationMode(val *string)
 	AuthorizationModeInput() *string
@@ -77,6 +80,7 @@ type GoogleMemorystoreInstance interface {
 	InstanceId() *string
 	SetInstanceId(val *string)
 	InstanceIdInput() *string
+	IsAclPolicyInSync() cdktn.IResolvable
 	KmsKey() *string
 	SetKmsKey(val *string)
 	KmsKeyInput() *string
@@ -258,6 +262,7 @@ type GoogleMemorystoreInstance interface {
 	// that needs it.
 	// Experimental.
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
+	ResetAclPolicy()
 	ResetAuthorizationMode()
 	ResetAutomatedBackupConfig()
 	ResetCrossInstanceReplicationConfig()
@@ -312,6 +317,26 @@ type GoogleMemorystoreInstance interface {
 // The jsii proxy struct for GoogleMemorystoreInstance
 type jsiiProxy_GoogleMemorystoreInstance struct {
 	internal.Type__cdktnTerraformResource
+}
+
+func (j *jsiiProxy_GoogleMemorystoreInstance) AclPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"aclPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleMemorystoreInstance) AclPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"aclPolicyInput",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_GoogleMemorystoreInstance) AuthorizationMode() *string {
@@ -699,6 +724,16 @@ func (j *jsiiProxy_GoogleMemorystoreInstance) InstanceIdInput() *string {
 	_jsii_.Get(
 		j,
 		"instanceIdInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleMemorystoreInstance) IsAclPolicyInSync() cdktn.IResolvable {
+	var returns cdktn.IResolvable
+	_jsii_.Get(
+		j,
+		"isAclPolicyInSync",
 		&returns,
 	)
 	return returns
@@ -1235,7 +1270,7 @@ func (j *jsiiProxy_GoogleMemorystoreInstance) ZoneDistributionConfigInput() *Goo
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_memorystore_instance google_memorystore_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_memorystore_instance google_memorystore_instance} Resource.
 func NewGoogleMemorystoreInstance(scope constructs.Construct, id *string, config *GoogleMemorystoreInstanceConfig) GoogleMemorystoreInstance {
 	_init_.Initialize()
 
@@ -1253,7 +1288,7 @@ func NewGoogleMemorystoreInstance(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_memorystore_instance google_memorystore_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_memorystore_instance google_memorystore_instance} Resource.
 func NewGoogleMemorystoreInstance_Override(g GoogleMemorystoreInstance, scope constructs.Construct, id *string, config *GoogleMemorystoreInstanceConfig) {
 	_init_.Initialize()
 
@@ -1261,6 +1296,17 @@ func NewGoogleMemorystoreInstance_Override(g GoogleMemorystoreInstance, scope co
 		"@cdktn/provider-google-beta.googleMemorystoreInstance.GoogleMemorystoreInstance",
 		[]interface{}{scope, id, config},
 		g,
+	)
+}
+
+func (j *jsiiProxy_GoogleMemorystoreInstance)SetAclPolicy(val *string) {
+	if err := j.validateSetAclPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"aclPolicy",
+		val,
 	)
 }
 
@@ -2028,6 +2074,14 @@ func (g *jsiiProxy_GoogleMemorystoreInstance) RegisterProviderFeatureUsage(featu
 		g,
 		"registerProviderFeatureUsage",
 		[]interface{}{feature},
+	)
+}
+
+func (g *jsiiProxy_GoogleMemorystoreInstance) ResetAclPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetAclPolicy",
+		nil, // no parameters
 	)
 }
 

@@ -1780,6 +1780,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "performanceCaptureConfig", GoGetter: "PerformanceCaptureConfig"},
 			_jsii_.MemberProperty{JsiiProperty: "pricingPlan", GoGetter: "PricingPlan"},
 			_jsii_.MemberProperty{JsiiProperty: "readPoolAutoScaleConfig", GoGetter: "ReadPoolAutoScaleConfig"},
+			_jsii_.MemberProperty{JsiiProperty: "replicationLagMaxSeconds", GoGetter: "ReplicationLagMaxSeconds"},
 			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
 			_jsii_.MemberProperty{JsiiProperty: "retainBackupsOnDelete", GoGetter: "RetainBackupsOnDelete"},
 			_jsii_.MemberProperty{JsiiProperty: "sqlServerAuditConfig", GoGetter: "SqlServerAuditConfig"},

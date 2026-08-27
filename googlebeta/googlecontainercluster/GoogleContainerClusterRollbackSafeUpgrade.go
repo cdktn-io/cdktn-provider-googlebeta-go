@@ -9,7 +9,7 @@ type GoogleContainerClusterRollbackSafeUpgrade struct {
 	//
 	// A duration in seconds with up to nine fractional digits, ending with 's'. Example: "604800s" for 7 days. Minimum is 6 hours, maximum is 7 days. If omitted, the two-step upgrade is skipped and a standard one-step upgrade is performed.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_container_cluster#control_plane_soak_duration GoogleContainerCluster#control_plane_soak_duration}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_container_cluster#control_plane_soak_duration GoogleContainerCluster#control_plane_soak_duration}
 	ControlPlaneSoakDuration *string `field:"optional" json:"controlPlaneSoakDuration" yaml:"controlPlaneSoakDuration"`
 }
 

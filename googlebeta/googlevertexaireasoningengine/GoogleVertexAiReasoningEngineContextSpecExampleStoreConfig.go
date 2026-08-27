@@ -7,7 +7,7 @@ package googlevertexaireasoningengine
 type GoogleVertexAiReasoningEngineContextSpecExampleStoreConfig struct {
 	// similarity_search_config block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_vertex_ai_reasoning_engine#similarity_search_config GoogleVertexAiReasoningEngine#similarity_search_config}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_vertex_ai_reasoning_engine#similarity_search_config GoogleVertexAiReasoningEngine#similarity_search_config}
 	SimilaritySearchConfig *GoogleVertexAiReasoningEngineContextSpecExampleStoreConfigSimilaritySearchConfig `field:"optional" json:"similaritySearchConfig" yaml:"similaritySearchConfig"`
 }
 

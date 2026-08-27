@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/data-sources/google_network_security_address_groups google_network_security_address_groups}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/data-sources/google_network_security_address_groups google_network_security_address_groups}.
 type DataGoogleNetworkSecurityAddressGroups interface {
 	cdktn.TerraformDataSource
 	AddressGroups() DataGoogleNetworkSecurityAddressGroupsAddressGroupsList
@@ -369,7 +369,7 @@ func (j *jsiiProxy_DataGoogleNetworkSecurityAddressGroups) TerraformResourceType
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/data-sources/google_network_security_address_groups google_network_security_address_groups} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/data-sources/google_network_security_address_groups google_network_security_address_groups} Data Source.
 func NewDataGoogleNetworkSecurityAddressGroups(scope constructs.Construct, id *string, config *DataGoogleNetworkSecurityAddressGroupsConfig) DataGoogleNetworkSecurityAddressGroups {
 	_init_.Initialize()
 
@@ -387,7 +387,7 @@ func NewDataGoogleNetworkSecurityAddressGroups(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/data-sources/google_network_security_address_groups google_network_security_address_groups} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/data-sources/google_network_security_address_groups google_network_security_address_groups} Data Source.
 func NewDataGoogleNetworkSecurityAddressGroups_Override(d DataGoogleNetworkSecurityAddressGroups, scope constructs.Construct, id *string, config *DataGoogleNetworkSecurityAddressGroupsConfig) {
 	_init_.Initialize()
 

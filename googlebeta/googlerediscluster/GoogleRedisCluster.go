@@ -12,9 +12,12 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_redis_cluster google_redis_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_redis_cluster google_redis_cluster}.
 type GoogleRedisCluster interface {
 	cdktn.TerraformResource
+	AclPolicy() *string
+	SetAclPolicy(val *string)
+	AclPolicyInput() *string
 	AuthorizationMode() *string
 	SetAuthorizationMode(val *string)
 	AuthorizationModeInput() *string
@@ -63,6 +66,7 @@ type GoogleRedisCluster interface {
 	Id() *string
 	SetId(val *string)
 	IdInput() *string
+	IsAclPolicyInSync() cdktn.IResolvable
 	KmsKey() *string
 	SetKmsKey(val *string)
 	KmsKeyInput() *string
@@ -247,6 +251,7 @@ type GoogleRedisCluster interface {
 	// that needs it.
 	// Experimental.
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
+	ResetAclPolicy()
 	ResetAuthorizationMode()
 	ResetAutomatedBackupConfig()
 	ResetCrossClusterReplicationConfig()
@@ -300,6 +305,26 @@ type GoogleRedisCluster interface {
 // The jsii proxy struct for GoogleRedisCluster
 type jsiiProxy_GoogleRedisCluster struct {
 	internal.Type__cdktnTerraformResource
+}
+
+func (j *jsiiProxy_GoogleRedisCluster) AclPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"aclPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleRedisCluster) AclPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"aclPolicyInput",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_GoogleRedisCluster) AuthorizationMode() *string {
@@ -577,6 +602,16 @@ func (j *jsiiProxy_GoogleRedisCluster) IdInput() *string {
 	_jsii_.Get(
 		j,
 		"idInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleRedisCluster) IsAclPolicyInSync() cdktn.IResolvable {
+	var returns cdktn.IResolvable
+	_jsii_.Get(
+		j,
+		"isAclPolicyInSync",
 		&returns,
 	)
 	return returns
@@ -1143,7 +1178,7 @@ func (j *jsiiProxy_GoogleRedisCluster) ZoneDistributionConfigInput() *GoogleRedi
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_redis_cluster google_redis_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_redis_cluster google_redis_cluster} Resource.
 func NewGoogleRedisCluster(scope constructs.Construct, id *string, config *GoogleRedisClusterConfig) GoogleRedisCluster {
 	_init_.Initialize()
 
@@ -1161,7 +1196,7 @@ func NewGoogleRedisCluster(scope constructs.Construct, id *string, config *Googl
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_redis_cluster google_redis_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_redis_cluster google_redis_cluster} Resource.
 func NewGoogleRedisCluster_Override(g GoogleRedisCluster, scope constructs.Construct, id *string, config *GoogleRedisClusterConfig) {
 	_init_.Initialize()
 
@@ -1169,6 +1204,17 @@ func NewGoogleRedisCluster_Override(g GoogleRedisCluster, scope constructs.Const
 		"@cdktn/provider-google-beta.googleRedisCluster.GoogleRedisCluster",
 		[]interface{}{scope, id, config},
 		g,
+	)
+}
+
+func (j *jsiiProxy_GoogleRedisCluster)SetAclPolicy(val *string) {
+	if err := j.validateSetAclPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"aclPolicy",
+		val,
 	)
 }
 
@@ -1903,6 +1949,14 @@ func (g *jsiiProxy_GoogleRedisCluster) RegisterProviderFeatureUsage(feature cdkt
 		g,
 		"registerProviderFeatureUsage",
 		[]interface{}{feature},
+	)
+}
+
+func (g *jsiiProxy_GoogleRedisCluster) ResetAclPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetAclPolicy",
+		nil, // no parameters
 	)
 }
 

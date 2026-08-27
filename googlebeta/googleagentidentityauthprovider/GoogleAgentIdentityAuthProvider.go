@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_agent_identity_auth_provider google_agent_identity_auth_provider}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_agent_identity_auth_provider google_agent_identity_auth_provider}.
 type GoogleAgentIdentityAuthProvider interface {
 	cdktn.TerraformResource
 	AllowedScopes() *[]*string
@@ -717,7 +717,7 @@ func (j *jsiiProxy_GoogleAgentIdentityAuthProvider) WorkloadIdsInput() *[]*strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_agent_identity_auth_provider google_agent_identity_auth_provider} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_agent_identity_auth_provider google_agent_identity_auth_provider} Resource.
 func NewGoogleAgentIdentityAuthProvider(scope constructs.Construct, id *string, config *GoogleAgentIdentityAuthProviderConfig) GoogleAgentIdentityAuthProvider {
 	_init_.Initialize()
 
@@ -735,7 +735,7 @@ func NewGoogleAgentIdentityAuthProvider(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_agent_identity_auth_provider google_agent_identity_auth_provider} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_agent_identity_auth_provider google_agent_identity_auth_provider} Resource.
 func NewGoogleAgentIdentityAuthProvider_Override(g GoogleAgentIdentityAuthProvider, scope constructs.Construct, id *string, config *GoogleAgentIdentityAuthProviderConfig) {
 	_init_.Initialize()
 

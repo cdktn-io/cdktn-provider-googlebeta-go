@@ -66,6 +66,7 @@ type DataGoogleSqlDatabaseInstanceSettingsOutputReference interface {
 	PerformanceCaptureConfig() DataGoogleSqlDatabaseInstanceSettingsPerformanceCaptureConfigList
 	PricingPlan() *string
 	ReadPoolAutoScaleConfig() DataGoogleSqlDatabaseInstanceSettingsReadPoolAutoScaleConfigList
+	ReplicationLagMaxSeconds() *float64
 	RetainBackupsOnDelete() cdktn.IResolvable
 	SqlServerAuditConfig() DataGoogleSqlDatabaseInstanceSettingsSqlServerAuditConfigList
 	// Experimental.
@@ -504,6 +505,16 @@ func (j *jsiiProxy_DataGoogleSqlDatabaseInstanceSettingsOutputReference) ReadPoo
 	_jsii_.Get(
 		j,
 		"readPoolAutoScaleConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleSqlDatabaseInstanceSettingsOutputReference) ReplicationLagMaxSeconds() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"replicationLagMaxSeconds",
 		&returns,
 	)
 	return returns

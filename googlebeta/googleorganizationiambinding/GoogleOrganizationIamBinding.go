@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_organization_iam_binding google_organization_iam_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_organization_iam_binding google_organization_iam_binding}.
 type GoogleOrganizationIamBinding interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -472,7 +472,7 @@ func (j *jsiiProxy_GoogleOrganizationIamBinding) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_organization_iam_binding google_organization_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_organization_iam_binding google_organization_iam_binding} Resource.
 func NewGoogleOrganizationIamBinding(scope constructs.Construct, id *string, config *GoogleOrganizationIamBindingConfig) GoogleOrganizationIamBinding {
 	_init_.Initialize()
 
@@ -490,7 +490,7 @@ func NewGoogleOrganizationIamBinding(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_organization_iam_binding google_organization_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_organization_iam_binding google_organization_iam_binding} Resource.
 func NewGoogleOrganizationIamBinding_Override(g GoogleOrganizationIamBinding, scope constructs.Construct, id *string, config *GoogleOrganizationIamBindingConfig) {
 	_init_.Initialize()
 

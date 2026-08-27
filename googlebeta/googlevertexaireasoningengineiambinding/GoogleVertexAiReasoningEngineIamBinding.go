@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_vertex_ai_reasoning_engine_iam_binding google_vertex_ai_reasoning_engine_iam_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_vertex_ai_reasoning_engine_iam_binding google_vertex_ai_reasoning_engine_iam_binding}.
 type GoogleVertexAiReasoningEngineIamBinding interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -520,7 +520,7 @@ func (j *jsiiProxy_GoogleVertexAiReasoningEngineIamBinding) TerraformResourceTyp
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_vertex_ai_reasoning_engine_iam_binding google_vertex_ai_reasoning_engine_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_vertex_ai_reasoning_engine_iam_binding google_vertex_ai_reasoning_engine_iam_binding} Resource.
 func NewGoogleVertexAiReasoningEngineIamBinding(scope constructs.Construct, id *string, config *GoogleVertexAiReasoningEngineIamBindingConfig) GoogleVertexAiReasoningEngineIamBinding {
 	_init_.Initialize()
 
@@ -538,7 +538,7 @@ func NewGoogleVertexAiReasoningEngineIamBinding(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_vertex_ai_reasoning_engine_iam_binding google_vertex_ai_reasoning_engine_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_vertex_ai_reasoning_engine_iam_binding google_vertex_ai_reasoning_engine_iam_binding} Resource.
 func NewGoogleVertexAiReasoningEngineIamBinding_Override(g GoogleVertexAiReasoningEngineIamBinding, scope constructs.Construct, id *string, config *GoogleVertexAiReasoningEngineIamBindingConfig) {
 	_init_.Initialize()
 

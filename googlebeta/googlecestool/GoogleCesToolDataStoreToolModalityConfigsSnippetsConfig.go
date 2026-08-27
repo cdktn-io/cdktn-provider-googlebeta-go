@@ -7,7 +7,7 @@ package googlecestool
 type GoogleCesToolDataStoreToolModalityConfigsSnippetsConfig struct {
 	// Whether snippets are enabled.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_ces_tool#enable_snippets GoogleCesTool#enable_snippets}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_ces_tool#enable_snippets GoogleCesTool#enable_snippets}
 	EnableSnippets interface{} `field:"optional" json:"enableSnippets" yaml:"enableSnippets"`
 }
 

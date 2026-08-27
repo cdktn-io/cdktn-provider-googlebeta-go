@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_clouddeploy_target_iam_member google_clouddeploy_target_iam_member}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_clouddeploy_target_iam_member google_clouddeploy_target_iam_member}.
 type GoogleClouddeployTargetIamMember interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -520,7 +520,7 @@ func (j *jsiiProxy_GoogleClouddeployTargetIamMember) TerraformResourceType() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_clouddeploy_target_iam_member google_clouddeploy_target_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_clouddeploy_target_iam_member google_clouddeploy_target_iam_member} Resource.
 func NewGoogleClouddeployTargetIamMember(scope constructs.Construct, id *string, config *GoogleClouddeployTargetIamMemberConfig) GoogleClouddeployTargetIamMember {
 	_init_.Initialize()
 
@@ -538,7 +538,7 @@ func NewGoogleClouddeployTargetIamMember(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_clouddeploy_target_iam_member google_clouddeploy_target_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_clouddeploy_target_iam_member google_clouddeploy_target_iam_member} Resource.
 func NewGoogleClouddeployTargetIamMember_Override(g GoogleClouddeployTargetIamMember, scope constructs.Construct, id *string, config *GoogleClouddeployTargetIamMemberConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/data-sources/google_datastream_static_ips google_datastream_static_ips}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/data-sources/google_datastream_static_ips google_datastream_static_ips}.
 type DataGoogleDatastreamStaticIps interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -345,7 +345,7 @@ func (j *jsiiProxy_DataGoogleDatastreamStaticIps) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/data-sources/google_datastream_static_ips google_datastream_static_ips} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/data-sources/google_datastream_static_ips google_datastream_static_ips} Data Source.
 func NewDataGoogleDatastreamStaticIps(scope constructs.Construct, id *string, config *DataGoogleDatastreamStaticIpsConfig) DataGoogleDatastreamStaticIps {
 	_init_.Initialize()
 
@@ -363,7 +363,7 @@ func NewDataGoogleDatastreamStaticIps(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/data-sources/google_datastream_static_ips google_datastream_static_ips} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/data-sources/google_datastream_static_ips google_datastream_static_ips} Data Source.
 func NewDataGoogleDatastreamStaticIps_Override(d DataGoogleDatastreamStaticIps, scope constructs.Construct, id *string, config *DataGoogleDatastreamStaticIpsConfig) {
 	_init_.Initialize()
 

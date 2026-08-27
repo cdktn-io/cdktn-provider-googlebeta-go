@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_access_context_manager_service_perimeter google_access_context_manager_service_perimeter}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_access_context_manager_service_perimeter google_access_context_manager_service_perimeter}.
 type GoogleAccessContextManagerServicePerimeter interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -627,7 +627,7 @@ func (j *jsiiProxy_GoogleAccessContextManagerServicePerimeter) UseExplicitDryRun
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_access_context_manager_service_perimeter google_access_context_manager_service_perimeter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_access_context_manager_service_perimeter google_access_context_manager_service_perimeter} Resource.
 func NewGoogleAccessContextManagerServicePerimeter(scope constructs.Construct, id *string, config *GoogleAccessContextManagerServicePerimeterConfig) GoogleAccessContextManagerServicePerimeter {
 	_init_.Initialize()
 
@@ -645,7 +645,7 @@ func NewGoogleAccessContextManagerServicePerimeter(scope constructs.Construct, i
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_access_context_manager_service_perimeter google_access_context_manager_service_perimeter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_access_context_manager_service_perimeter google_access_context_manager_service_perimeter} Resource.
 func NewGoogleAccessContextManagerServicePerimeter_Override(g GoogleAccessContextManagerServicePerimeter, scope constructs.Construct, id *string, config *GoogleAccessContextManagerServicePerimeterConfig) {
 	_init_.Initialize()
 

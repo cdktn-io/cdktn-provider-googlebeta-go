@@ -71,7 +71,23 @@ func (j *jsiiProxy_GoogleComputeBackendServiceIapOutputReference) validateSetOau
 	return nil
 }
 
+func (j *jsiiProxy_GoogleComputeBackendServiceIapOutputReference) validateSetOauth2ClientIdWoParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleComputeBackendServiceIapOutputReference) validateSetOauth2ClientIdWoVersionParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleComputeBackendServiceIapOutputReference) validateSetOauth2ClientSecretParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleComputeBackendServiceIapOutputReference) validateSetOauth2ClientSecretWoParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleComputeBackendServiceIapOutputReference) validateSetOauth2ClientSecretWoVersionParameters(val *string) error {
 	return nil
 }
 

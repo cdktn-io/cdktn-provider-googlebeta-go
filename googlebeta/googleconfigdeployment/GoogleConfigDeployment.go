@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_config_deployment google_config_deployment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_config_deployment google_config_deployment}.
 type GoogleConfigDeployment interface {
 	cdktn.TerraformResource
 	Annotations() *map[string]*string
@@ -779,7 +779,7 @@ func (j *jsiiProxy_GoogleConfigDeployment) WorkerPoolInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_config_deployment google_config_deployment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_config_deployment google_config_deployment} Resource.
 func NewGoogleConfigDeployment(scope constructs.Construct, id *string, config *GoogleConfigDeploymentConfig) GoogleConfigDeployment {
 	_init_.Initialize()
 
@@ -797,7 +797,7 @@ func NewGoogleConfigDeployment(scope constructs.Construct, id *string, config *G
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_config_deployment google_config_deployment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_config_deployment google_config_deployment} Resource.
 func NewGoogleConfigDeployment_Override(g GoogleConfigDeployment, scope constructs.Construct, id *string, config *GoogleConfigDeploymentConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_gemini_code_tools_setting google_gemini_code_tools_setting}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_gemini_code_tools_setting google_gemini_code_tools_setting}.
 type GoogleGeminiCodeToolsSetting interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -589,7 +589,7 @@ func (j *jsiiProxy_GoogleGeminiCodeToolsSetting) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_gemini_code_tools_setting google_gemini_code_tools_setting} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_gemini_code_tools_setting google_gemini_code_tools_setting} Resource.
 func NewGoogleGeminiCodeToolsSetting(scope constructs.Construct, id *string, config *GoogleGeminiCodeToolsSettingConfig) GoogleGeminiCodeToolsSetting {
 	_init_.Initialize()
 
@@ -607,7 +607,7 @@ func NewGoogleGeminiCodeToolsSetting(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_gemini_code_tools_setting google_gemini_code_tools_setting} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_gemini_code_tools_setting google_gemini_code_tools_setting} Resource.
 func NewGoogleGeminiCodeToolsSetting_Override(g GoogleGeminiCodeToolsSetting, scope constructs.Construct, id *string, config *GoogleGeminiCodeToolsSettingConfig) {
 	_init_.Initialize()
 

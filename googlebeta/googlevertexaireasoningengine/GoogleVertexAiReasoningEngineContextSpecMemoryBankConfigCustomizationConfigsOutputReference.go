@@ -30,11 +30,16 @@ type GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfig
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
+	DisableNaturalLanguageMemories() interface{}
+	SetDisableNaturalLanguageMemories(val interface{})
+	DisableNaturalLanguageMemoriesInput() interface{}
 	EnableThirdPersonMemories() interface{}
 	SetEnableThirdPersonMemories(val interface{})
 	EnableThirdPersonMemoriesInput() interface{}
 	// Experimental.
 	Fqn() *string
+	GenerateMemoriesExamples() GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsGenerateMemoriesExamplesList
+	GenerateMemoriesExamplesInput() interface{}
 	InternalValue() interface{}
 	SetInternalValue(val interface{})
 	MemoryTopics() GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsMemoryTopicsList
@@ -75,9 +80,12 @@ type GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfig
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutConsolidationConfig(value *GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsConsolidationConfig)
+	PutGenerateMemoriesExamples(value interface{})
 	PutMemoryTopics(value interface{})
 	ResetConsolidationConfig()
+	ResetDisableNaturalLanguageMemories()
 	ResetEnableThirdPersonMemories()
+	ResetGenerateMemoriesExamples()
 	ResetMemoryTopics()
 	ResetScopeKeys()
 	// Produce the Token's value at resolution time.
@@ -145,6 +153,26 @@ func (j *jsiiProxy_GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCusto
 	return returns
 }
 
+func (j *jsiiProxy_GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsOutputReference) DisableNaturalLanguageMemories() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"disableNaturalLanguageMemories",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsOutputReference) DisableNaturalLanguageMemoriesInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"disableNaturalLanguageMemoriesInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsOutputReference) EnableThirdPersonMemories() interface{} {
 	var returns interface{}
 	_jsii_.Get(
@@ -170,6 +198,26 @@ func (j *jsiiProxy_GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCusto
 	_jsii_.Get(
 		j,
 		"fqn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsOutputReference) GenerateMemoriesExamples() GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsGenerateMemoriesExamplesList {
+	var returns GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsGenerateMemoriesExamplesList
+	_jsii_.Get(
+		j,
+		"generateMemoriesExamples",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsOutputReference) GenerateMemoriesExamplesInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"generateMemoriesExamplesInput",
 		&returns,
 	)
 	return returns
@@ -291,6 +339,17 @@ func (j *jsiiProxy_GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCusto
 	_jsii_.Set(
 		j,
 		"complexObjectIsFromSet",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsOutputReference)SetDisableNaturalLanguageMemories(val interface{}) {
+	if err := j.validateSetDisableNaturalLanguageMemoriesParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"disableNaturalLanguageMemories",
 		val,
 	)
 }
@@ -547,6 +606,17 @@ func (g *jsiiProxy_GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCusto
 	)
 }
 
+func (g *jsiiProxy_GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsOutputReference) PutGenerateMemoriesExamples(value interface{}) {
+	if err := g.validatePutGenerateMemoriesExamplesParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putGenerateMemoriesExamples",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsOutputReference) PutMemoryTopics(value interface{}) {
 	if err := g.validatePutMemoryTopicsParameters(value); err != nil {
 		panic(err)
@@ -566,10 +636,26 @@ func (g *jsiiProxy_GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCusto
 	)
 }
 
+func (g *jsiiProxy_GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsOutputReference) ResetDisableNaturalLanguageMemories() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDisableNaturalLanguageMemories",
+		nil, // no parameters
+	)
+}
+
 func (g *jsiiProxy_GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsOutputReference) ResetEnableThirdPersonMemories() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetEnableThirdPersonMemories",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleVertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsOutputReference) ResetGenerateMemoriesExamples() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetGenerateMemoriesExamples",
 		nil, // no parameters
 	)
 }

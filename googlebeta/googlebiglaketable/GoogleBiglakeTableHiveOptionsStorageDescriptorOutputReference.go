@@ -41,6 +41,8 @@ type GoogleBiglakeTableHiveOptionsStorageDescriptorOutputReference interface {
 	OutputFormat() *string
 	SetOutputFormat(val *string)
 	OutputFormatInput() *string
+	SerdeInfo() GoogleBiglakeTableHiveOptionsStorageDescriptorSerdeInfoOutputReference
+	SerdeInfoInput() *GoogleBiglakeTableHiveOptionsStorageDescriptorSerdeInfo
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -73,9 +75,11 @@ type GoogleBiglakeTableHiveOptionsStorageDescriptorOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutSerdeInfo(value *GoogleBiglakeTableHiveOptionsStorageDescriptorSerdeInfo)
 	ResetInputFormat()
 	ResetLocationUri()
 	ResetOutputFormat()
+	ResetSerdeInfo()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -196,6 +200,26 @@ func (j *jsiiProxy_GoogleBiglakeTableHiveOptionsStorageDescriptorOutputReference
 	_jsii_.Get(
 		j,
 		"outputFormatInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleBiglakeTableHiveOptionsStorageDescriptorOutputReference) SerdeInfo() GoogleBiglakeTableHiveOptionsStorageDescriptorSerdeInfoOutputReference {
+	var returns GoogleBiglakeTableHiveOptionsStorageDescriptorSerdeInfoOutputReference
+	_jsii_.Get(
+		j,
+		"serdeInfo",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleBiglakeTableHiveOptionsStorageDescriptorOutputReference) SerdeInfoInput() *GoogleBiglakeTableHiveOptionsStorageDescriptorSerdeInfo {
+	var returns *GoogleBiglakeTableHiveOptionsStorageDescriptorSerdeInfo
+	_jsii_.Get(
+		j,
+		"serdeInfoInput",
 		&returns,
 	)
 	return returns
@@ -523,6 +547,17 @@ func (g *jsiiProxy_GoogleBiglakeTableHiveOptionsStorageDescriptorOutputReference
 	return returns
 }
 
+func (g *jsiiProxy_GoogleBiglakeTableHiveOptionsStorageDescriptorOutputReference) PutSerdeInfo(value *GoogleBiglakeTableHiveOptionsStorageDescriptorSerdeInfo) {
+	if err := g.validatePutSerdeInfoParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putSerdeInfo",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleBiglakeTableHiveOptionsStorageDescriptorOutputReference) ResetInputFormat() {
 	_jsii_.InvokeVoid(
 		g,
@@ -543,6 +578,14 @@ func (g *jsiiProxy_GoogleBiglakeTableHiveOptionsStorageDescriptorOutputReference
 	_jsii_.InvokeVoid(
 		g,
 		"resetOutputFormat",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleBiglakeTableHiveOptionsStorageDescriptorOutputReference) ResetSerdeInfo() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetSerdeInfo",
 		nil, // no parameters
 	)
 }

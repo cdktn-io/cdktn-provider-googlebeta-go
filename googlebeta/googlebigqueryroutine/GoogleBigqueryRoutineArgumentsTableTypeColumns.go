@@ -7,7 +7,7 @@ package googlebigqueryroutine
 type GoogleBigqueryRoutineArgumentsTableTypeColumns struct {
 	// The name of the column.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_bigquery_routine#name GoogleBigqueryRoutine#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_bigquery_routine#name GoogleBigqueryRoutine#name}
 	Name *string `field:"optional" json:"name" yaml:"name"`
 	// A JSON schema for the data type of the column.
 	//
@@ -19,7 +19,7 @@ type GoogleBigqueryRoutineArgumentsTableTypeColumns struct {
 	// suppress the recurring diff this causes. As a workaround, we recommend using
 	// the schema as returned by the API.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_bigquery_routine#type GoogleBigqueryRoutine#type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_bigquery_routine#type GoogleBigqueryRoutine#type}
 	Type *string `field:"optional" json:"type" yaml:"type"`
 }
 

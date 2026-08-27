@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_vmwareengine_datastore google_vmwareengine_datastore}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_vmwareengine_datastore google_vmwareengine_datastore}.
 type GoogleVmwareengineDatastore interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -588,7 +588,7 @@ func (j *jsiiProxy_GoogleVmwareengineDatastore) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_vmwareengine_datastore google_vmwareengine_datastore} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_vmwareengine_datastore google_vmwareengine_datastore} Resource.
 func NewGoogleVmwareengineDatastore(scope constructs.Construct, id *string, config *GoogleVmwareengineDatastoreConfig) GoogleVmwareengineDatastore {
 	_init_.Initialize()
 
@@ -606,7 +606,7 @@ func NewGoogleVmwareengineDatastore(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_vmwareengine_datastore google_vmwareengine_datastore} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_vmwareengine_datastore google_vmwareengine_datastore} Resource.
 func NewGoogleVmwareengineDatastore_Override(g GoogleVmwareengineDatastore, scope constructs.Construct, id *string, config *GoogleVmwareengineDatastoreConfig) {
 	_init_.Initialize()
 

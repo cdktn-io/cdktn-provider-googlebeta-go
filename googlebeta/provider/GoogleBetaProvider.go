@@ -13,7 +13,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs google-beta}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs google-beta}.
 type GoogleBetaProvider interface {
 	cdktn.TerraformProvider
 	AccessApprovalCustomEndpoint() *string
@@ -665,6 +665,9 @@ type GoogleBetaProvider interface {
 	VectorSearchCustomEndpoint() *string
 	SetVectorSearchCustomEndpoint(val *string)
 	VectorSearchCustomEndpointInput() *string
+	VertexAiAadCustomEndpoint() *string
+	SetVertexAiAadCustomEndpoint(val *string)
+	VertexAiAadCustomEndpointInput() *string
 	VertexAiCustomEndpoint() *string
 	SetVertexAiCustomEndpoint(val *string)
 	VertexAiCustomEndpointInput() *string
@@ -919,6 +922,7 @@ type GoogleBetaProvider interface {
 	ResetUniverseDomain()
 	ResetUserProjectOverride()
 	ResetVectorSearchCustomEndpoint()
+	ResetVertexAiAadCustomEndpoint()
 	ResetVertexAiCustomEndpoint()
 	ResetVmwareengineCustomEndpoint()
 	ResetVpcAccessCustomEndpoint()
@@ -5244,6 +5248,26 @@ func (j *jsiiProxy_GoogleBetaProvider) VectorSearchCustomEndpointInput() *string
 	return returns
 }
 
+func (j *jsiiProxy_GoogleBetaProvider) VertexAiAadCustomEndpoint() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"vertexAiAadCustomEndpoint",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleBetaProvider) VertexAiAadCustomEndpointInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"vertexAiAadCustomEndpointInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleBetaProvider) VertexAiCustomEndpoint() *string {
 	var returns *string
 	_jsii_.Get(
@@ -5405,7 +5429,7 @@ func (j *jsiiProxy_GoogleBetaProvider) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs google-beta} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs google-beta} Resource.
 func NewGoogleBetaProvider(scope constructs.Construct, id *string, config *GoogleBetaProviderConfig) GoogleBetaProvider {
 	_init_.Initialize()
 
@@ -5423,7 +5447,7 @@ func NewGoogleBetaProvider(scope constructs.Construct, id *string, config *Googl
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs google-beta} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs google-beta} Resource.
 func NewGoogleBetaProvider_Override(g GoogleBetaProvider, scope constructs.Construct, id *string, config *GoogleBetaProviderConfig) {
 	_init_.Initialize()
 
@@ -7120,6 +7144,14 @@ func (j *jsiiProxy_GoogleBetaProvider)SetVectorSearchCustomEndpoint(val *string)
 	_jsii_.Set(
 		j,
 		"vectorSearchCustomEndpoint",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleBetaProvider)SetVertexAiAadCustomEndpoint(val *string) {
+	_jsii_.Set(
+		j,
+		"vertexAiAadCustomEndpoint",
 		val,
 	)
 }
@@ -9000,6 +9032,14 @@ func (g *jsiiProxy_GoogleBetaProvider) ResetVectorSearchCustomEndpoint() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetVectorSearchCustomEndpoint",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleBetaProvider) ResetVertexAiAadCustomEndpoint() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetVertexAiAadCustomEndpoint",
 		nil, // no parameters
 	)
 }

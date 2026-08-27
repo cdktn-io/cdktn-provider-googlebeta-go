@@ -34,8 +34,12 @@ type DataGoogleComputeBackendServiceIapOutputReference interface {
 	InternalValue() *DataGoogleComputeBackendServiceIap
 	SetInternalValue(val *DataGoogleComputeBackendServiceIap)
 	Oauth2ClientId() *string
+	Oauth2ClientIdWo() *string
+	Oauth2ClientIdWoVersion() *string
 	Oauth2ClientSecret() *string
 	Oauth2ClientSecretSha256() *string
+	Oauth2ClientSecretWo() *string
+	Oauth2ClientSecretWoVersion() *string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -153,6 +157,26 @@ func (j *jsiiProxy_DataGoogleComputeBackendServiceIapOutputReference) Oauth2Clie
 	return returns
 }
 
+func (j *jsiiProxy_DataGoogleComputeBackendServiceIapOutputReference) Oauth2ClientIdWo() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"oauth2ClientIdWo",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleComputeBackendServiceIapOutputReference) Oauth2ClientIdWoVersion() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"oauth2ClientIdWoVersion",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataGoogleComputeBackendServiceIapOutputReference) Oauth2ClientSecret() *string {
 	var returns *string
 	_jsii_.Get(
@@ -168,6 +192,26 @@ func (j *jsiiProxy_DataGoogleComputeBackendServiceIapOutputReference) Oauth2Clie
 	_jsii_.Get(
 		j,
 		"oauth2ClientSecretSha256",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleComputeBackendServiceIapOutputReference) Oauth2ClientSecretWo() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"oauth2ClientSecretWo",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleComputeBackendServiceIapOutputReference) Oauth2ClientSecretWoVersion() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"oauth2ClientSecretWoVersion",
 		&returns,
 	)
 	return returns

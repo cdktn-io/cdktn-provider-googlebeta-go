@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_chronicle_parser google_chronicle_parser}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_chronicle_parser google_chronicle_parser}.
 type GoogleChronicleParser interface {
 	cdktn.TerraformResource
 	Cbn() *string
@@ -761,7 +761,7 @@ func (j *jsiiProxy_GoogleChronicleParser) VersionInfoInput() *GoogleChroniclePar
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_chronicle_parser google_chronicle_parser} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_chronicle_parser google_chronicle_parser} Resource.
 func NewGoogleChronicleParser(scope constructs.Construct, id *string, config *GoogleChronicleParserConfig) GoogleChronicleParser {
 	_init_.Initialize()
 
@@ -779,7 +779,7 @@ func NewGoogleChronicleParser(scope constructs.Construct, id *string, config *Go
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_chronicle_parser google_chronicle_parser} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_chronicle_parser google_chronicle_parser} Resource.
 func NewGoogleChronicleParser_Override(g GoogleChronicleParser, scope constructs.Construct, id *string, config *GoogleChronicleParserConfig) {
 	_init_.Initialize()
 

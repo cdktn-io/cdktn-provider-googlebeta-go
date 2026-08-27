@@ -79,6 +79,10 @@ func (g *jsiiProxy_GoogleCesToolset) validateOverrideLogicalIdParameters(newLogi
 	return nil
 }
 
+func (g *jsiiProxy_GoogleCesToolset) validatePutConnectorToolsetParameters(value *GoogleCesToolsetConnectorToolset) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleCesToolset) validatePutMcpToolsetParameters(value *GoogleCesToolsetMcpToolset) error {
 	return nil
 }
@@ -160,6 +164,10 @@ func (j *jsiiProxy_GoogleCesToolset) validateSetProjectParameters(val *string) e
 }
 
 func (j *jsiiProxy_GoogleCesToolset) validateSetProvisionersParameters(val *[]interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleCesToolset) validateSetTimeoutParameters(val *string) error {
 	return nil
 }
 

@@ -35,6 +35,8 @@ type GoogleContainerNodePoolNodeConfigHostMaintenancePolicyOutputReference inter
 	MaintenanceInterval() *string
 	SetMaintenanceInterval(val *string)
 	MaintenanceIntervalInput() *string
+	OpportunisticMaintenanceStrategy() GoogleContainerNodePoolNodeConfigHostMaintenancePolicyOpportunisticMaintenanceStrategyOutputReference
+	OpportunisticMaintenanceStrategyInput() *GoogleContainerNodePoolNodeConfigHostMaintenancePolicyOpportunisticMaintenanceStrategy
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -67,6 +69,8 @@ type GoogleContainerNodePoolNodeConfigHostMaintenancePolicyOutputReference inter
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutOpportunisticMaintenanceStrategy(value *GoogleContainerNodePoolNodeConfigHostMaintenancePolicyOpportunisticMaintenanceStrategy)
+	ResetOpportunisticMaintenanceStrategy()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -147,6 +151,26 @@ func (j *jsiiProxy_GoogleContainerNodePoolNodeConfigHostMaintenancePolicyOutputR
 	_jsii_.Get(
 		j,
 		"maintenanceIntervalInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleContainerNodePoolNodeConfigHostMaintenancePolicyOutputReference) OpportunisticMaintenanceStrategy() GoogleContainerNodePoolNodeConfigHostMaintenancePolicyOpportunisticMaintenanceStrategyOutputReference {
+	var returns GoogleContainerNodePoolNodeConfigHostMaintenancePolicyOpportunisticMaintenanceStrategyOutputReference
+	_jsii_.Get(
+		j,
+		"opportunisticMaintenanceStrategy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleContainerNodePoolNodeConfigHostMaintenancePolicyOutputReference) OpportunisticMaintenanceStrategyInput() *GoogleContainerNodePoolNodeConfigHostMaintenancePolicyOpportunisticMaintenanceStrategy {
+	var returns *GoogleContainerNodePoolNodeConfigHostMaintenancePolicyOpportunisticMaintenanceStrategy
+	_jsii_.Get(
+		j,
+		"opportunisticMaintenanceStrategyInput",
 		&returns,
 	)
 	return returns
@@ -450,6 +474,25 @@ func (g *jsiiProxy_GoogleContainerNodePoolNodeConfigHostMaintenancePolicyOutputR
 	)
 
 	return returns
+}
+
+func (g *jsiiProxy_GoogleContainerNodePoolNodeConfigHostMaintenancePolicyOutputReference) PutOpportunisticMaintenanceStrategy(value *GoogleContainerNodePoolNodeConfigHostMaintenancePolicyOpportunisticMaintenanceStrategy) {
+	if err := g.validatePutOpportunisticMaintenanceStrategyParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putOpportunisticMaintenanceStrategy",
+		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleContainerNodePoolNodeConfigHostMaintenancePolicyOutputReference) ResetOpportunisticMaintenanceStrategy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetOpportunisticMaintenanceStrategy",
+		nil, // no parameters
+	)
 }
 
 func (g *jsiiProxy_GoogleContainerNodePoolNodeConfigHostMaintenancePolicyOutputReference) Resolve(context cdktn.IResolveContext) interface{} {

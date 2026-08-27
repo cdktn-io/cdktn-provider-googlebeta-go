@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_pubsub_lite_topic google_pubsub_lite_topic}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_pubsub_lite_topic google_pubsub_lite_topic}.
 type GooglePubsubLiteTopic interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -583,7 +583,7 @@ func (j *jsiiProxy_GooglePubsubLiteTopic) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_pubsub_lite_topic google_pubsub_lite_topic} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_pubsub_lite_topic google_pubsub_lite_topic} Resource.
 func NewGooglePubsubLiteTopic(scope constructs.Construct, id *string, config *GooglePubsubLiteTopicConfig) GooglePubsubLiteTopic {
 	_init_.Initialize()
 
@@ -601,7 +601,7 @@ func NewGooglePubsubLiteTopic(scope constructs.Construct, id *string, config *Go
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_pubsub_lite_topic google_pubsub_lite_topic} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_pubsub_lite_topic google_pubsub_lite_topic} Resource.
 func NewGooglePubsubLiteTopic_Override(g GooglePubsubLiteTopic, scope constructs.Construct, id *string, config *GooglePubsubLiteTopicConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_organization_policy google_organization_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_organization_policy google_organization_policy}.
 type GoogleOrganizationPolicy interface {
 	cdktn.TerraformResource
 	BooleanPolicy() GoogleOrganizationPolicyBooleanPolicyOutputReference
@@ -580,7 +580,7 @@ func (j *jsiiProxy_GoogleOrganizationPolicy) VersionInput() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_organization_policy google_organization_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_organization_policy google_organization_policy} Resource.
 func NewGoogleOrganizationPolicy(scope constructs.Construct, id *string, config *GoogleOrganizationPolicyConfig) GoogleOrganizationPolicy {
 	_init_.Initialize()
 
@@ -598,7 +598,7 @@ func NewGoogleOrganizationPolicy(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_organization_policy google_organization_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_organization_policy google_organization_policy} Resource.
 func NewGoogleOrganizationPolicy_Override(g GoogleOrganizationPolicy, scope constructs.Construct, id *string, config *GoogleOrganizationPolicyConfig) {
 	_init_.Initialize()
 

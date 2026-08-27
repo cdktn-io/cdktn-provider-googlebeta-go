@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/data-sources/google_billing_account google_billing_account}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/data-sources/google_billing_account google_billing_account}.
 type DataGoogleBillingAccount interface {
 	cdktn.TerraformDataSource
 	BillingAccount() *string
@@ -416,7 +416,7 @@ func (j *jsiiProxy_DataGoogleBillingAccount) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/data-sources/google_billing_account google_billing_account} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/data-sources/google_billing_account google_billing_account} Data Source.
 func NewDataGoogleBillingAccount(scope constructs.Construct, id *string, config *DataGoogleBillingAccountConfig) DataGoogleBillingAccount {
 	_init_.Initialize()
 
@@ -434,7 +434,7 @@ func NewDataGoogleBillingAccount(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/data-sources/google_billing_account google_billing_account} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/data-sources/google_billing_account google_billing_account} Data Source.
 func NewDataGoogleBillingAccount_Override(d DataGoogleBillingAccount, scope constructs.Construct, id *string, config *DataGoogleBillingAccountConfig) {
 	_init_.Initialize()
 

@@ -5,11 +5,11 @@ package googleapigeedatastore
 
 
 type GoogleApigeeDatastoreTimeouts struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_apigee_datastore#create GoogleApigeeDatastore#create}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_apigee_datastore#create GoogleApigeeDatastore#create}.
 	Create *string `field:"optional" json:"create" yaml:"create"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_apigee_datastore#delete GoogleApigeeDatastore#delete}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_apigee_datastore#delete GoogleApigeeDatastore#delete}.
 	Delete *string `field:"optional" json:"delete" yaml:"delete"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_apigee_datastore#update GoogleApigeeDatastore#update}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_apigee_datastore#update GoogleApigeeDatastore#update}.
 	Update *string `field:"optional" json:"update" yaml:"update"`
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/data-sources/google_compute_reservation_block google_compute_reservation_block}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/data-sources/google_compute_reservation_block google_compute_reservation_block}.
 type DataGoogleComputeReservationBlock interface {
 	cdktn.TerraformDataSource
 	BlockCount() *float64
@@ -535,7 +535,7 @@ func (j *jsiiProxy_DataGoogleComputeReservationBlock) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/data-sources/google_compute_reservation_block google_compute_reservation_block} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/data-sources/google_compute_reservation_block google_compute_reservation_block} Data Source.
 func NewDataGoogleComputeReservationBlock(scope constructs.Construct, id *string, config *DataGoogleComputeReservationBlockConfig) DataGoogleComputeReservationBlock {
 	_init_.Initialize()
 
@@ -553,7 +553,7 @@ func NewDataGoogleComputeReservationBlock(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/data-sources/google_compute_reservation_block google_compute_reservation_block} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/data-sources/google_compute_reservation_block google_compute_reservation_block} Data Source.
 func NewDataGoogleComputeReservationBlock_Override(d DataGoogleComputeReservationBlock, scope constructs.Construct, id *string, config *DataGoogleComputeReservationBlockConfig) {
 	_init_.Initialize()
 

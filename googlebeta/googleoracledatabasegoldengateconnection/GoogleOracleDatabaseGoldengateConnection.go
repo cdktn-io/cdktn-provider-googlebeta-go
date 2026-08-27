@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_oracle_database_goldengate_connection google_oracle_database_goldengate_connection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_oracle_database_goldengate_connection google_oracle_database_goldengate_connection}.
 type GoogleOracleDatabaseGoldengateConnection interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -695,7 +695,7 @@ func (j *jsiiProxy_GoogleOracleDatabaseGoldengateConnection) TimeoutsInput() int
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_oracle_database_goldengate_connection google_oracle_database_goldengate_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_oracle_database_goldengate_connection google_oracle_database_goldengate_connection} Resource.
 func NewGoogleOracleDatabaseGoldengateConnection(scope constructs.Construct, id *string, config *GoogleOracleDatabaseGoldengateConnectionConfig) GoogleOracleDatabaseGoldengateConnection {
 	_init_.Initialize()
 
@@ -713,7 +713,7 @@ func NewGoogleOracleDatabaseGoldengateConnection(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_oracle_database_goldengate_connection google_oracle_database_goldengate_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_oracle_database_goldengate_connection google_oracle_database_goldengate_connection} Resource.
 func NewGoogleOracleDatabaseGoldengateConnection_Override(g GoogleOracleDatabaseGoldengateConnection, scope constructs.Construct, id *string, config *GoogleOracleDatabaseGoldengateConnectionConfig) {
 	_init_.Initialize()
 

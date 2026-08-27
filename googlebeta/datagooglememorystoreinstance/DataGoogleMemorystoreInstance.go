@@ -12,9 +12,10 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/data-sources/google_memorystore_instance google_memorystore_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/data-sources/google_memorystore_instance google_memorystore_instance}.
 type DataGoogleMemorystoreInstance interface {
 	cdktn.TerraformDataSource
+	AclPolicy() *string
 	AuthorizationMode() *string
 	AutomatedBackupConfig() DataGoogleMemorystoreInstanceAutomatedBackupConfigList
 	AvailableMaintenanceVersions() *[]*string
@@ -58,6 +59,7 @@ type DataGoogleMemorystoreInstance interface {
 	InstanceId() *string
 	SetInstanceId(val *string)
 	InstanceIdInput() *string
+	IsAclPolicyInSync() cdktn.IResolvable
 	KmsKey() *string
 	Labels() cdktn.StringMap
 	// Experimental.
@@ -177,6 +179,16 @@ type DataGoogleMemorystoreInstance interface {
 // The jsii proxy struct for DataGoogleMemorystoreInstance
 type jsiiProxy_DataGoogleMemorystoreInstance struct {
 	internal.Type__cdktnTerraformDataSource
+}
+
+func (j *jsiiProxy_DataGoogleMemorystoreInstance) AclPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"aclPolicy",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_DataGoogleMemorystoreInstance) AuthorizationMode() *string {
@@ -454,6 +466,16 @@ func (j *jsiiProxy_DataGoogleMemorystoreInstance) InstanceIdInput() *string {
 	_jsii_.Get(
 		j,
 		"instanceIdInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleMemorystoreInstance) IsAclPolicyInSync() cdktn.IResolvable {
+	var returns cdktn.IResolvable
+	_jsii_.Get(
+		j,
+		"isAclPolicyInSync",
 		&returns,
 	)
 	return returns
@@ -820,7 +842,7 @@ func (j *jsiiProxy_DataGoogleMemorystoreInstance) ZoneDistributionConfig() DataG
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/data-sources/google_memorystore_instance google_memorystore_instance} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/data-sources/google_memorystore_instance google_memorystore_instance} Data Source.
 func NewDataGoogleMemorystoreInstance(scope constructs.Construct, id *string, config *DataGoogleMemorystoreInstanceConfig) DataGoogleMemorystoreInstance {
 	_init_.Initialize()
 
@@ -838,7 +860,7 @@ func NewDataGoogleMemorystoreInstance(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/data-sources/google_memorystore_instance google_memorystore_instance} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/data-sources/google_memorystore_instance google_memorystore_instance} Data Source.
 func NewDataGoogleMemorystoreInstance_Override(d DataGoogleMemorystoreInstance, scope constructs.Construct, id *string, config *DataGoogleMemorystoreInstanceConfig) {
 	_init_.Initialize()
 

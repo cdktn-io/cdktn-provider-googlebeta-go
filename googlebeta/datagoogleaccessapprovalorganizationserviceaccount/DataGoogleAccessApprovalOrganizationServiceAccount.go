@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/data-sources/google_access_approval_organization_service_account google_access_approval_organization_service_account}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/data-sources/google_access_approval_organization_service_account google_access_approval_organization_service_account}.
 type DataGoogleAccessApprovalOrganizationServiceAccount interface {
 	cdktn.TerraformDataSource
 	AccountEmail() *string
@@ -332,7 +332,7 @@ func (j *jsiiProxy_DataGoogleAccessApprovalOrganizationServiceAccount) Terraform
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/data-sources/google_access_approval_organization_service_account google_access_approval_organization_service_account} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/data-sources/google_access_approval_organization_service_account google_access_approval_organization_service_account} Data Source.
 func NewDataGoogleAccessApprovalOrganizationServiceAccount(scope constructs.Construct, id *string, config *DataGoogleAccessApprovalOrganizationServiceAccountConfig) DataGoogleAccessApprovalOrganizationServiceAccount {
 	_init_.Initialize()
 
@@ -350,7 +350,7 @@ func NewDataGoogleAccessApprovalOrganizationServiceAccount(scope constructs.Cons
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/data-sources/google_access_approval_organization_service_account google_access_approval_organization_service_account} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/data-sources/google_access_approval_organization_service_account google_access_approval_organization_service_account} Data Source.
 func NewDataGoogleAccessApprovalOrganizationServiceAccount_Override(d DataGoogleAccessApprovalOrganizationServiceAccount, scope constructs.Construct, id *string, config *DataGoogleAccessApprovalOrganizationServiceAccountConfig) {
 	_init_.Initialize()
 

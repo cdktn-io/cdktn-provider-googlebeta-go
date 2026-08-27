@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_gke_hub_feature_iam_policy google_gke_hub_feature_iam_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_gke_hub_feature_iam_policy google_gke_hub_feature_iam_policy}.
 type GoogleGkeHubFeatureIamPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -473,7 +473,7 @@ func (j *jsiiProxy_GoogleGkeHubFeatureIamPolicy) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_gke_hub_feature_iam_policy google_gke_hub_feature_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_gke_hub_feature_iam_policy google_gke_hub_feature_iam_policy} Resource.
 func NewGoogleGkeHubFeatureIamPolicy(scope constructs.Construct, id *string, config *GoogleGkeHubFeatureIamPolicyConfig) GoogleGkeHubFeatureIamPolicy {
 	_init_.Initialize()
 
@@ -491,7 +491,7 @@ func NewGoogleGkeHubFeatureIamPolicy(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_gke_hub_feature_iam_policy google_gke_hub_feature_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_gke_hub_feature_iam_policy google_gke_hub_feature_iam_policy} Resource.
 func NewGoogleGkeHubFeatureIamPolicy_Override(g GoogleGkeHubFeatureIamPolicy, scope constructs.Construct, id *string, config *GoogleGkeHubFeatureIamPolicyConfig) {
 	_init_.Initialize()
 

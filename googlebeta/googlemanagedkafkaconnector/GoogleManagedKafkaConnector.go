@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_managed_kafka_connector google_managed_kafka_connector}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_managed_kafka_connector google_managed_kafka_connector}.
 type GoogleManagedKafkaConnector interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -579,7 +579,7 @@ func (j *jsiiProxy_GoogleManagedKafkaConnector) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_managed_kafka_connector google_managed_kafka_connector} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_managed_kafka_connector google_managed_kafka_connector} Resource.
 func NewGoogleManagedKafkaConnector(scope constructs.Construct, id *string, config *GoogleManagedKafkaConnectorConfig) GoogleManagedKafkaConnector {
 	_init_.Initialize()
 
@@ -597,7 +597,7 @@ func NewGoogleManagedKafkaConnector(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_managed_kafka_connector google_managed_kafka_connector} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_managed_kafka_connector google_managed_kafka_connector} Resource.
 func NewGoogleManagedKafkaConnector_Override(g GoogleManagedKafkaConnector, scope constructs.Construct, id *string, config *GoogleManagedKafkaConnectorConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_compute_region_instant_snapshot google_compute_region_instant_snapshot}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_compute_region_instant_snapshot google_compute_region_instant_snapshot}.
 type GoogleComputeRegionInstantSnapshot interface {
 	cdktn.TerraformResource
 	Architecture() *string
@@ -714,7 +714,7 @@ func (j *jsiiProxy_GoogleComputeRegionInstantSnapshot) TimeoutsInput() interface
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_compute_region_instant_snapshot google_compute_region_instant_snapshot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_compute_region_instant_snapshot google_compute_region_instant_snapshot} Resource.
 func NewGoogleComputeRegionInstantSnapshot(scope constructs.Construct, id *string, config *GoogleComputeRegionInstantSnapshotConfig) GoogleComputeRegionInstantSnapshot {
 	_init_.Initialize()
 
@@ -732,7 +732,7 @@ func NewGoogleComputeRegionInstantSnapshot(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_compute_region_instant_snapshot google_compute_region_instant_snapshot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_compute_region_instant_snapshot google_compute_region_instant_snapshot} Resource.
 func NewGoogleComputeRegionInstantSnapshot_Override(g GoogleComputeRegionInstantSnapshot, scope constructs.Construct, id *string, config *GoogleComputeRegionInstantSnapshotConfig) {
 	_init_.Initialize()
 

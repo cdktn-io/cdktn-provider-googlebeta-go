@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_binary_authorization_attestor_iam_binding google_binary_authorization_attestor_iam_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_binary_authorization_attestor_iam_binding google_binary_authorization_attestor_iam_binding}.
 type GoogleBinaryAuthorizationAttestorIamBinding interface {
 	cdktn.TerraformResource
 	Attestor() *string
@@ -496,7 +496,7 @@ func (j *jsiiProxy_GoogleBinaryAuthorizationAttestorIamBinding) TerraformResourc
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_binary_authorization_attestor_iam_binding google_binary_authorization_attestor_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_binary_authorization_attestor_iam_binding google_binary_authorization_attestor_iam_binding} Resource.
 func NewGoogleBinaryAuthorizationAttestorIamBinding(scope constructs.Construct, id *string, config *GoogleBinaryAuthorizationAttestorIamBindingConfig) GoogleBinaryAuthorizationAttestorIamBinding {
 	_init_.Initialize()
 
@@ -514,7 +514,7 @@ func NewGoogleBinaryAuthorizationAttestorIamBinding(scope constructs.Construct, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.45.0/docs/resources/google_binary_authorization_attestor_iam_binding google_binary_authorization_attestor_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_binary_authorization_attestor_iam_binding google_binary_authorization_attestor_iam_binding} Resource.
 func NewGoogleBinaryAuthorizationAttestorIamBinding_Override(g GoogleBinaryAuthorizationAttestorIamBinding, scope constructs.Construct, id *string, config *GoogleBinaryAuthorizationAttestorIamBindingConfig) {
 	_init_.Initialize()
 

@@ -33,6 +33,7 @@ type DataGoogleContainerClusterNodePoolNodeConfigHostMaintenancePolicyOutputRefe
 	InternalValue() *DataGoogleContainerClusterNodePoolNodeConfigHostMaintenancePolicy
 	SetInternalValue(val *DataGoogleContainerClusterNodePoolNodeConfigHostMaintenancePolicy)
 	MaintenanceInterval() *string
+	OpportunisticMaintenanceStrategy() DataGoogleContainerClusterNodePoolNodeConfigHostMaintenancePolicyOpportunisticMaintenanceStrategyList
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -135,6 +136,16 @@ func (j *jsiiProxy_DataGoogleContainerClusterNodePoolNodeConfigHostMaintenancePo
 	_jsii_.Get(
 		j,
 		"maintenanceInterval",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleContainerClusterNodePoolNodeConfigHostMaintenancePolicyOutputReference) OpportunisticMaintenanceStrategy() DataGoogleContainerClusterNodePoolNodeConfigHostMaintenancePolicyOpportunisticMaintenanceStrategyList {
+	var returns DataGoogleContainerClusterNodePoolNodeConfigHostMaintenancePolicyOpportunisticMaintenanceStrategyList
+	_jsii_.Get(
+		j,
+		"opportunisticMaintenanceStrategy",
 		&returns,
 	)
 	return returns

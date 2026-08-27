@@ -47,6 +47,10 @@ func (g *jsiiProxy_GoogleBiglakeTableHiveOptionsStorageDescriptorOutputReference
 	return nil
 }
 
+func (g *jsiiProxy_GoogleBiglakeTableHiveOptionsStorageDescriptorOutputReference) validatePutSerdeInfoParameters(value *GoogleBiglakeTableHiveOptionsStorageDescriptorSerdeInfo) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleBiglakeTableHiveOptionsStorageDescriptorOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
