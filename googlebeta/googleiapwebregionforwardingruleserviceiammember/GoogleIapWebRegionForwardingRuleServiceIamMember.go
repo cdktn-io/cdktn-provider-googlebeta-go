@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_iap_web_region_forwarding_rule_service_iam_member google_iap_web_region_forwarding_rule_service_iam_member}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iap_web_region_forwarding_rule_service_iam_member google_iap_web_region_forwarding_rule_service_iam_member}.
 type GoogleIapWebRegionForwardingRuleServiceIamMember interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -520,7 +520,7 @@ func (j *jsiiProxy_GoogleIapWebRegionForwardingRuleServiceIamMember) TerraformRe
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_iap_web_region_forwarding_rule_service_iam_member google_iap_web_region_forwarding_rule_service_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iap_web_region_forwarding_rule_service_iam_member google_iap_web_region_forwarding_rule_service_iam_member} Resource.
 func NewGoogleIapWebRegionForwardingRuleServiceIamMember(scope constructs.Construct, id *string, config *GoogleIapWebRegionForwardingRuleServiceIamMemberConfig) GoogleIapWebRegionForwardingRuleServiceIamMember {
 	_init_.Initialize()
 
@@ -538,7 +538,7 @@ func NewGoogleIapWebRegionForwardingRuleServiceIamMember(scope constructs.Constr
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_iap_web_region_forwarding_rule_service_iam_member google_iap_web_region_forwarding_rule_service_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iap_web_region_forwarding_rule_service_iam_member google_iap_web_region_forwarding_rule_service_iam_member} Resource.
 func NewGoogleIapWebRegionForwardingRuleServiceIamMember_Override(g GoogleIapWebRegionForwardingRuleServiceIamMember, scope constructs.Construct, id *string, config *GoogleIapWebRegionForwardingRuleServiceIamMemberConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_logging_folder_settings google_logging_folder_settings}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_logging_folder_settings google_logging_folder_settings}.
 type GoogleLoggingFolderSettings interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -520,7 +520,7 @@ func (j *jsiiProxy_GoogleLoggingFolderSettings) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_logging_folder_settings google_logging_folder_settings} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_logging_folder_settings google_logging_folder_settings} Resource.
 func NewGoogleLoggingFolderSettings(scope constructs.Construct, id *string, config *GoogleLoggingFolderSettingsConfig) GoogleLoggingFolderSettings {
 	_init_.Initialize()
 
@@ -538,7 +538,7 @@ func NewGoogleLoggingFolderSettings(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_logging_folder_settings google_logging_folder_settings} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_logging_folder_settings google_logging_folder_settings} Resource.
 func NewGoogleLoggingFolderSettings_Override(g GoogleLoggingFolderSettings, scope constructs.Construct, id *string, config *GoogleLoggingFolderSettingsConfig) {
 	_init_.Initialize()
 

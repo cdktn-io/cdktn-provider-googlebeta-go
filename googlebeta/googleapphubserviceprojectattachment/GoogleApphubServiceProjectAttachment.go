@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_apphub_service_project_attachment google_apphub_service_project_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apphub_service_project_attachment google_apphub_service_project_attachment}.
 type GoogleApphubServiceProjectAttachment interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -531,7 +531,7 @@ func (j *jsiiProxy_GoogleApphubServiceProjectAttachment) Uid() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_apphub_service_project_attachment google_apphub_service_project_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apphub_service_project_attachment google_apphub_service_project_attachment} Resource.
 func NewGoogleApphubServiceProjectAttachment(scope constructs.Construct, id *string, config *GoogleApphubServiceProjectAttachmentConfig) GoogleApphubServiceProjectAttachment {
 	_init_.Initialize()
 
@@ -549,7 +549,7 @@ func NewGoogleApphubServiceProjectAttachment(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_apphub_service_project_attachment google_apphub_service_project_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apphub_service_project_attachment google_apphub_service_project_attachment} Resource.
 func NewGoogleApphubServiceProjectAttachment_Override(g GoogleApphubServiceProjectAttachment, scope constructs.Construct, id *string, config *GoogleApphubServiceProjectAttachmentConfig) {
 	_init_.Initialize()
 

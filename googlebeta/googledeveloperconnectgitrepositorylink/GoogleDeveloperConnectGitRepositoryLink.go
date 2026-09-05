@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_developer_connect_git_repository_link google_developer_connect_git_repository_link}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_developer_connect_git_repository_link google_developer_connect_git_repository_link}.
 type GoogleDeveloperConnectGitRepositoryLink interface {
 	cdktn.TerraformResource
 	Annotations() *map[string]*string
@@ -703,7 +703,7 @@ func (j *jsiiProxy_GoogleDeveloperConnectGitRepositoryLink) UpdateTime() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_developer_connect_git_repository_link google_developer_connect_git_repository_link} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_developer_connect_git_repository_link google_developer_connect_git_repository_link} Resource.
 func NewGoogleDeveloperConnectGitRepositoryLink(scope constructs.Construct, id *string, config *GoogleDeveloperConnectGitRepositoryLinkConfig) GoogleDeveloperConnectGitRepositoryLink {
 	_init_.Initialize()
 
@@ -721,7 +721,7 @@ func NewGoogleDeveloperConnectGitRepositoryLink(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_developer_connect_git_repository_link google_developer_connect_git_repository_link} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_developer_connect_git_repository_link google_developer_connect_git_repository_link} Resource.
 func NewGoogleDeveloperConnectGitRepositoryLink_Override(g GoogleDeveloperConnectGitRepositoryLink, scope constructs.Construct, id *string, config *GoogleDeveloperConnectGitRepositoryLinkConfig) {
 	_init_.Initialize()
 

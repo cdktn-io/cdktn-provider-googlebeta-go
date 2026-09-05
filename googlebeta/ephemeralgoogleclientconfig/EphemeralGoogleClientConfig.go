@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/ephemeral-resources/google_client_config google_client_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/ephemeral-resources/google_client_config google_client_config}.
 type EphemeralGoogleClientConfig interface {
 	cdktn.TerraformEphemeralResource
 	AccessToken() *string
@@ -328,7 +328,7 @@ func (j *jsiiProxy_EphemeralGoogleClientConfig) Zone() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/ephemeral-resources/google_client_config google_client_config} Ephemeral Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/ephemeral-resources/google_client_config google_client_config} Ephemeral Resource.
 func NewEphemeralGoogleClientConfig(scope constructs.Construct, id *string, config *EphemeralGoogleClientConfigConfig) EphemeralGoogleClientConfig {
 	_init_.Initialize()
 
@@ -346,7 +346,7 @@ func NewEphemeralGoogleClientConfig(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/ephemeral-resources/google_client_config google_client_config} Ephemeral Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/ephemeral-resources/google_client_config google_client_config} Ephemeral Resource.
 func NewEphemeralGoogleClientConfig_Override(e EphemeralGoogleClientConfig, scope constructs.Construct, id *string, config *EphemeralGoogleClientConfigConfig) {
 	_init_.Initialize()
 

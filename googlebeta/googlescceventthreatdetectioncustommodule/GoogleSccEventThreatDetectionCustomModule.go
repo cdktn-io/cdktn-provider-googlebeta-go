@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_scc_event_threat_detection_custom_module google_scc_event_threat_detection_custom_module}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_scc_event_threat_detection_custom_module google_scc_event_threat_detection_custom_module}.
 type GoogleSccEventThreatDetectionCustomModule interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -565,7 +565,7 @@ func (j *jsiiProxy_GoogleSccEventThreatDetectionCustomModule) UpdateTime() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_scc_event_threat_detection_custom_module google_scc_event_threat_detection_custom_module} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_scc_event_threat_detection_custom_module google_scc_event_threat_detection_custom_module} Resource.
 func NewGoogleSccEventThreatDetectionCustomModule(scope constructs.Construct, id *string, config *GoogleSccEventThreatDetectionCustomModuleConfig) GoogleSccEventThreatDetectionCustomModule {
 	_init_.Initialize()
 
@@ -583,7 +583,7 @@ func NewGoogleSccEventThreatDetectionCustomModule(scope constructs.Construct, id
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_scc_event_threat_detection_custom_module google_scc_event_threat_detection_custom_module} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_scc_event_threat_detection_custom_module google_scc_event_threat_detection_custom_module} Resource.
 func NewGoogleSccEventThreatDetectionCustomModule_Override(g GoogleSccEventThreatDetectionCustomModule, scope constructs.Construct, id *string, config *GoogleSccEventThreatDetectionCustomModuleConfig) {
 	_init_.Initialize()
 

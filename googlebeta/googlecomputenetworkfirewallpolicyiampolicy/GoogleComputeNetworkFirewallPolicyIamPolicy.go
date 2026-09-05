@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_compute_network_firewall_policy_iam_policy google_compute_network_firewall_policy_iam_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_network_firewall_policy_iam_policy google_compute_network_firewall_policy_iam_policy}.
 type GoogleComputeNetworkFirewallPolicyIamPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -449,7 +449,7 @@ func (j *jsiiProxy_GoogleComputeNetworkFirewallPolicyIamPolicy) TerraformResourc
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_compute_network_firewall_policy_iam_policy google_compute_network_firewall_policy_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_network_firewall_policy_iam_policy google_compute_network_firewall_policy_iam_policy} Resource.
 func NewGoogleComputeNetworkFirewallPolicyIamPolicy(scope constructs.Construct, id *string, config *GoogleComputeNetworkFirewallPolicyIamPolicyConfig) GoogleComputeNetworkFirewallPolicyIamPolicy {
 	_init_.Initialize()
 
@@ -467,7 +467,7 @@ func NewGoogleComputeNetworkFirewallPolicyIamPolicy(scope constructs.Construct, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_compute_network_firewall_policy_iam_policy google_compute_network_firewall_policy_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_network_firewall_policy_iam_policy google_compute_network_firewall_policy_iam_policy} Resource.
 func NewGoogleComputeNetworkFirewallPolicyIamPolicy_Override(g GoogleComputeNetworkFirewallPolicyIamPolicy, scope constructs.Construct, id *string, config *GoogleComputeNetworkFirewallPolicyIamPolicyConfig) {
 	_init_.Initialize()
 

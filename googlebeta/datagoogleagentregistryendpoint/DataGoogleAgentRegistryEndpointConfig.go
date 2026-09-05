@@ -24,22 +24,22 @@ type DataGoogleAgentRegistryEndpointConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The location of the resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/data-sources/google_agent_registry_endpoint#location DataGoogleAgentRegistryEndpoint#location}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_agent_registry_endpoint#location DataGoogleAgentRegistryEndpoint#location}
 	Location *string `field:"required" json:"location" yaml:"location"`
 	// The unique identifier for the Endpoint.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/data-sources/google_agent_registry_endpoint#endpoint_id DataGoogleAgentRegistryEndpoint#endpoint_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_agent_registry_endpoint#endpoint_id DataGoogleAgentRegistryEndpoint#endpoint_id}
 	EndpointId *string `field:"optional" json:"endpointId" yaml:"endpointId"`
 	// A filter string that identifies a unique endpoint.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/data-sources/google_agent_registry_endpoint#filter DataGoogleAgentRegistryEndpoint#filter}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_agent_registry_endpoint#filter DataGoogleAgentRegistryEndpoint#filter}
 	Filter *string `field:"optional" json:"filter" yaml:"filter"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/data-sources/google_agent_registry_endpoint#id DataGoogleAgentRegistryEndpoint#id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_agent_registry_endpoint#id DataGoogleAgentRegistryEndpoint#id}.
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
 	Id *string `field:"optional" json:"id" yaml:"id"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/data-sources/google_agent_registry_endpoint#project DataGoogleAgentRegistryEndpoint#project}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_agent_registry_endpoint#project DataGoogleAgentRegistryEndpoint#project}.
 	Project *string `field:"optional" json:"project" yaml:"project"`
 }
 

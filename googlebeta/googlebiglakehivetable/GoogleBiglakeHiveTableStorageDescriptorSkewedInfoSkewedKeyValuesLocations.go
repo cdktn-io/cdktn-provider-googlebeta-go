@@ -5,9 +5,9 @@ package googlebiglakehivetable
 
 
 type GoogleBiglakeHiveTableStorageDescriptorSkewedInfoSkewedKeyValuesLocations struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_biglake_hive_table#location GoogleBiglakeHiveTable#location}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_biglake_hive_table#location GoogleBiglakeHiveTable#location}.
 	Location *string `field:"required" json:"location" yaml:"location"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_biglake_hive_table#values GoogleBiglakeHiveTable#values}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_biglake_hive_table#values GoogleBiglakeHiveTable#values}.
 	Values *[]*string `field:"required" json:"values" yaml:"values"`
 }
 

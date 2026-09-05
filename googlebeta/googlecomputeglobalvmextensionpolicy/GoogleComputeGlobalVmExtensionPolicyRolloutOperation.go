@@ -7,7 +7,7 @@ package googlecomputeglobalvmextensionpolicy
 type GoogleComputeGlobalVmExtensionPolicyRolloutOperation struct {
 	// rollout_input block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_compute_global_vm_extension_policy#rollout_input GoogleComputeGlobalVmExtensionPolicy#rollout_input}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_global_vm_extension_policy#rollout_input GoogleComputeGlobalVmExtensionPolicy#rollout_input}
 	RolloutInput *GoogleComputeGlobalVmExtensionPolicyRolloutOperationRolloutInput `field:"required" json:"rolloutInput" yaml:"rolloutInput"`
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_compute_instance_iam_member google_compute_instance_iam_member}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_instance_iam_member google_compute_instance_iam_member}.
 type GoogleComputeInstanceIamMember interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -520,7 +520,7 @@ func (j *jsiiProxy_GoogleComputeInstanceIamMember) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_compute_instance_iam_member google_compute_instance_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_instance_iam_member google_compute_instance_iam_member} Resource.
 func NewGoogleComputeInstanceIamMember(scope constructs.Construct, id *string, config *GoogleComputeInstanceIamMemberConfig) GoogleComputeInstanceIamMember {
 	_init_.Initialize()
 
@@ -538,7 +538,7 @@ func NewGoogleComputeInstanceIamMember(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_compute_instance_iam_member google_compute_instance_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_instance_iam_member google_compute_instance_iam_member} Resource.
 func NewGoogleComputeInstanceIamMember_Override(g GoogleComputeInstanceIamMember, scope constructs.Construct, id *string, config *GoogleComputeInstanceIamMemberConfig) {
 	_init_.Initialize()
 

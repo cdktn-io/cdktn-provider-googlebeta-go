@@ -9,11 +9,11 @@ type GoogleDataFusionInstanceMaintenancePolicyMaintenanceWindowRecurringTimeWind
 	//
 	// They go on for the span of time between the start and end time. The only supported FREQ value is "WEEKLY". To have something repeat every weekday, use: "FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR".
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_data_fusion_instance#recurrence GoogleDataFusionInstance#recurrence}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_data_fusion_instance#recurrence GoogleDataFusionInstance#recurrence}
 	Recurrence *string `field:"required" json:"recurrence" yaml:"recurrence"`
 	// window block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_data_fusion_instance#window GoogleDataFusionInstance#window}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_data_fusion_instance#window GoogleDataFusionInstance#window}
 	Window *GoogleDataFusionInstanceMaintenancePolicyMaintenanceWindowRecurringTimeWindowWindow `field:"required" json:"window" yaml:"window"`
 }
 

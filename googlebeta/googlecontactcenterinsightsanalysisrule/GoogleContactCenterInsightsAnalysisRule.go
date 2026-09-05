@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_contact_center_insights_analysis_rule google_contact_center_insights_analysis_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_contact_center_insights_analysis_rule google_contact_center_insights_analysis_rule}.
 type GoogleContactCenterInsightsAnalysisRule interface {
 	cdktn.TerraformResource
 	Active() interface{}
@@ -616,7 +616,7 @@ func (j *jsiiProxy_GoogleContactCenterInsightsAnalysisRule) UpdateTime() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_contact_center_insights_analysis_rule google_contact_center_insights_analysis_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_contact_center_insights_analysis_rule google_contact_center_insights_analysis_rule} Resource.
 func NewGoogleContactCenterInsightsAnalysisRule(scope constructs.Construct, id *string, config *GoogleContactCenterInsightsAnalysisRuleConfig) GoogleContactCenterInsightsAnalysisRule {
 	_init_.Initialize()
 
@@ -634,7 +634,7 @@ func NewGoogleContactCenterInsightsAnalysisRule(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_contact_center_insights_analysis_rule google_contact_center_insights_analysis_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_contact_center_insights_analysis_rule google_contact_center_insights_analysis_rule} Resource.
 func NewGoogleContactCenterInsightsAnalysisRule_Override(g GoogleContactCenterInsightsAnalysisRule, scope constructs.Construct, id *string, config *GoogleContactCenterInsightsAnalysisRuleConfig) {
 	_init_.Initialize()
 

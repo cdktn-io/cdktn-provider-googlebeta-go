@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_ml_engine_model google_ml_engine_model}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ml_engine_model google_ml_engine_model}.
 type GoogleMlEngineModel interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -629,7 +629,7 @@ func (j *jsiiProxy_GoogleMlEngineModel) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_ml_engine_model google_ml_engine_model} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ml_engine_model google_ml_engine_model} Resource.
 func NewGoogleMlEngineModel(scope constructs.Construct, id *string, config *GoogleMlEngineModelConfig) GoogleMlEngineModel {
 	_init_.Initialize()
 
@@ -647,7 +647,7 @@ func NewGoogleMlEngineModel(scope constructs.Construct, id *string, config *Goog
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_ml_engine_model google_ml_engine_model} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ml_engine_model google_ml_engine_model} Resource.
 func NewGoogleMlEngineModel_Override(g GoogleMlEngineModel, scope constructs.Construct, id *string, config *GoogleMlEngineModelConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_bigtable_materialized_view google_bigtable_materialized_view}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigtable_materialized_view google_bigtable_materialized_view}.
 type GoogleBigtableMaterializedView interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -545,7 +545,7 @@ func (j *jsiiProxy_GoogleBigtableMaterializedView) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_bigtable_materialized_view google_bigtable_materialized_view} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigtable_materialized_view google_bigtable_materialized_view} Resource.
 func NewGoogleBigtableMaterializedView(scope constructs.Construct, id *string, config *GoogleBigtableMaterializedViewConfig) GoogleBigtableMaterializedView {
 	_init_.Initialize()
 
@@ -563,7 +563,7 @@ func NewGoogleBigtableMaterializedView(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_bigtable_materialized_view google_bigtable_materialized_view} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigtable_materialized_view google_bigtable_materialized_view} Resource.
 func NewGoogleBigtableMaterializedView_Override(g GoogleBigtableMaterializedView, scope constructs.Construct, id *string, config *GoogleBigtableMaterializedViewConfig) {
 	_init_.Initialize()
 

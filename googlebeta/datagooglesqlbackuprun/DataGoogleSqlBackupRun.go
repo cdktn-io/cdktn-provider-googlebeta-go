@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/data-sources/google_sql_backup_run google_sql_backup_run}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_sql_backup_run google_sql_backup_run}.
 type DataGoogleSqlBackupRun interface {
 	cdktn.TerraformDataSource
 	BackupId() *float64
@@ -415,7 +415,7 @@ func (j *jsiiProxy_DataGoogleSqlBackupRun) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/data-sources/google_sql_backup_run google_sql_backup_run} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_sql_backup_run google_sql_backup_run} Data Source.
 func NewDataGoogleSqlBackupRun(scope constructs.Construct, id *string, config *DataGoogleSqlBackupRunConfig) DataGoogleSqlBackupRun {
 	_init_.Initialize()
 
@@ -433,7 +433,7 @@ func NewDataGoogleSqlBackupRun(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/data-sources/google_sql_backup_run google_sql_backup_run} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_sql_backup_run google_sql_backup_run} Data Source.
 func NewDataGoogleSqlBackupRun_Override(d DataGoogleSqlBackupRun, scope constructs.Construct, id *string, config *DataGoogleSqlBackupRunConfig) {
 	_init_.Initialize()
 

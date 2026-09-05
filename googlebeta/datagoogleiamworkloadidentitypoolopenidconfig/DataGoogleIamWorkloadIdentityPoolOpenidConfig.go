@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/data-sources/google_iam_workload_identity_pool_openid_config google_iam_workload_identity_pool_openid_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_iam_workload_identity_pool_openid_config google_iam_workload_identity_pool_openid_config}.
 type DataGoogleIamWorkloadIdentityPoolOpenidConfig interface {
 	cdktn.TerraformDataSource
 	AuthorizationEndpoint() *string
@@ -387,7 +387,7 @@ func (j *jsiiProxy_DataGoogleIamWorkloadIdentityPoolOpenidConfig) TokenEndpoint(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/data-sources/google_iam_workload_identity_pool_openid_config google_iam_workload_identity_pool_openid_config} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_iam_workload_identity_pool_openid_config google_iam_workload_identity_pool_openid_config} Data Source.
 func NewDataGoogleIamWorkloadIdentityPoolOpenidConfig(scope constructs.Construct, id *string, config *DataGoogleIamWorkloadIdentityPoolOpenidConfigConfig) DataGoogleIamWorkloadIdentityPoolOpenidConfig {
 	_init_.Initialize()
 
@@ -405,7 +405,7 @@ func NewDataGoogleIamWorkloadIdentityPoolOpenidConfig(scope constructs.Construct
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/data-sources/google_iam_workload_identity_pool_openid_config google_iam_workload_identity_pool_openid_config} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_iam_workload_identity_pool_openid_config google_iam_workload_identity_pool_openid_config} Data Source.
 func NewDataGoogleIamWorkloadIdentityPoolOpenidConfig_Override(d DataGoogleIamWorkloadIdentityPoolOpenidConfig, scope constructs.Construct, id *string, config *DataGoogleIamWorkloadIdentityPoolOpenidConfigConfig) {
 	_init_.Initialize()
 

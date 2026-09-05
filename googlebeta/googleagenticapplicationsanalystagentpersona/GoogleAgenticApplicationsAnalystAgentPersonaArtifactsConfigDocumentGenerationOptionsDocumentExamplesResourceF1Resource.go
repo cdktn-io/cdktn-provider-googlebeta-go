@@ -10,7 +10,7 @@ type GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigDocumentGenerati
 	// - Expected Format:
 	// - {group}.{table_name}
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_agentic_applications_analyst_agent_persona#f1_table GoogleAgenticApplicationsAnalystAgentPersona#f1_table}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#f1_table GoogleAgenticApplicationsAnalystAgentPersona#f1_table}
 	F1Table *string `field:"optional" json:"f1Table" yaml:"f1Table"`
 }
 

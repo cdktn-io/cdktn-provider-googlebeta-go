@@ -11,13 +11,13 @@ type GoogleRedisClusterAclPolicyRules struct {
 	// The format of the rule is defined by Redis OSS:
 	// https://redis.io/docs/latest/operate/oss_and_stack/management/security/acl/
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_redis_cluster_acl_policy#rule GoogleRedisClusterAclPolicy#rule}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_redis_cluster_acl_policy#rule GoogleRedisClusterAclPolicy#rule}
 	Rule *string `field:"required" json:"rule" yaml:"rule"`
 	// Specifies the IAM user or service account to be added to the ACL policy.
 	//
 	// This username will be directly set on the Redis OSS.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_redis_cluster_acl_policy#username GoogleRedisClusterAclPolicy#username}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_redis_cluster_acl_policy#username GoogleRedisClusterAclPolicy#username}
 	Username *string `field:"required" json:"username" yaml:"username"`
 }
 

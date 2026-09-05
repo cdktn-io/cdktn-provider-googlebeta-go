@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_network_services_tls_route google_network_services_tls_route}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_services_tls_route google_network_services_tls_route}.
 type GoogleNetworkServicesTlsRoute interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -639,7 +639,7 @@ func (j *jsiiProxy_GoogleNetworkServicesTlsRoute) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_network_services_tls_route google_network_services_tls_route} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_services_tls_route google_network_services_tls_route} Resource.
 func NewGoogleNetworkServicesTlsRoute(scope constructs.Construct, id *string, config *GoogleNetworkServicesTlsRouteConfig) GoogleNetworkServicesTlsRoute {
 	_init_.Initialize()
 
@@ -657,7 +657,7 @@ func NewGoogleNetworkServicesTlsRoute(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_network_services_tls_route google_network_services_tls_route} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_services_tls_route google_network_services_tls_route} Resource.
 func NewGoogleNetworkServicesTlsRoute_Override(g GoogleNetworkServicesTlsRoute, scope constructs.Construct, id *string, config *GoogleNetworkServicesTlsRouteConfig) {
 	_init_.Initialize()
 

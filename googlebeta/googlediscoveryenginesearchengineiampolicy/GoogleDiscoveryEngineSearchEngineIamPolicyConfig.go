@@ -22,20 +22,20 @@ type GoogleDiscoveryEngineSearchEngineIamPolicyConfig struct {
 	Provider cdktn.TerraformProvider `field:"optional" json:"provider" yaml:"provider"`
 	// Experimental.
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_discovery_engine_search_engine_iam_policy#collection_id GoogleDiscoveryEngineSearchEngineIamPolicy#collection_id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_discovery_engine_search_engine_iam_policy#collection_id GoogleDiscoveryEngineSearchEngineIamPolicy#collection_id}.
 	CollectionId *string `field:"required" json:"collectionId" yaml:"collectionId"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_discovery_engine_search_engine_iam_policy#engine_id GoogleDiscoveryEngineSearchEngineIamPolicy#engine_id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_discovery_engine_search_engine_iam_policy#engine_id GoogleDiscoveryEngineSearchEngineIamPolicy#engine_id}.
 	EngineId *string `field:"required" json:"engineId" yaml:"engineId"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_discovery_engine_search_engine_iam_policy#policy_data GoogleDiscoveryEngineSearchEngineIamPolicy#policy_data}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_discovery_engine_search_engine_iam_policy#policy_data GoogleDiscoveryEngineSearchEngineIamPolicy#policy_data}.
 	PolicyData *string `field:"required" json:"policyData" yaml:"policyData"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_discovery_engine_search_engine_iam_policy#id GoogleDiscoveryEngineSearchEngineIamPolicy#id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_discovery_engine_search_engine_iam_policy#id GoogleDiscoveryEngineSearchEngineIamPolicy#id}.
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
 	Id *string `field:"optional" json:"id" yaml:"id"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_discovery_engine_search_engine_iam_policy#location GoogleDiscoveryEngineSearchEngineIamPolicy#location}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_discovery_engine_search_engine_iam_policy#location GoogleDiscoveryEngineSearchEngineIamPolicy#location}.
 	Location *string `field:"optional" json:"location" yaml:"location"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_discovery_engine_search_engine_iam_policy#project GoogleDiscoveryEngineSearchEngineIamPolicy#project}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_discovery_engine_search_engine_iam_policy#project GoogleDiscoveryEngineSearchEngineIamPolicy#project}.
 	Project *string `field:"optional" json:"project" yaml:"project"`
 }
 

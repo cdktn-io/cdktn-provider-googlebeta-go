@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_compute_region_health_source google_compute_region_health_source}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_health_source google_compute_region_health_source}.
 type GoogleComputeRegionHealthSource interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -601,7 +601,7 @@ func (j *jsiiProxy_GoogleComputeRegionHealthSource) TimeoutsInput() interface{} 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_compute_region_health_source google_compute_region_health_source} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_health_source google_compute_region_health_source} Resource.
 func NewGoogleComputeRegionHealthSource(scope constructs.Construct, id *string, config *GoogleComputeRegionHealthSourceConfig) GoogleComputeRegionHealthSource {
 	_init_.Initialize()
 
@@ -619,7 +619,7 @@ func NewGoogleComputeRegionHealthSource(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_compute_region_health_source google_compute_region_health_source} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_health_source google_compute_region_health_source} Resource.
 func NewGoogleComputeRegionHealthSource_Override(g GoogleComputeRegionHealthSource, scope constructs.Construct, id *string, config *GoogleComputeRegionHealthSourceConfig) {
 	_init_.Initialize()
 

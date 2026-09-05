@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_vertex_ai_agent_anomaly_detection_scope google_vertex_ai_agent_anomaly_detection_scope}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_agent_anomaly_detection_scope google_vertex_ai_agent_anomaly_detection_scope}.
 type GoogleVertexAiAgentAnomalyDetectionScope interface {
 	cdktn.TerraformResource
 	AgentAnomalyDetectionScopeId() *string
@@ -578,7 +578,7 @@ func (j *jsiiProxy_GoogleVertexAiAgentAnomalyDetectionScope) TimeoutsInput() int
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_vertex_ai_agent_anomaly_detection_scope google_vertex_ai_agent_anomaly_detection_scope} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_agent_anomaly_detection_scope google_vertex_ai_agent_anomaly_detection_scope} Resource.
 func NewGoogleVertexAiAgentAnomalyDetectionScope(scope constructs.Construct, id *string, config *GoogleVertexAiAgentAnomalyDetectionScopeConfig) GoogleVertexAiAgentAnomalyDetectionScope {
 	_init_.Initialize()
 
@@ -596,7 +596,7 @@ func NewGoogleVertexAiAgentAnomalyDetectionScope(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_vertex_ai_agent_anomaly_detection_scope google_vertex_ai_agent_anomaly_detection_scope} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_agent_anomaly_detection_scope google_vertex_ai_agent_anomaly_detection_scope} Resource.
 func NewGoogleVertexAiAgentAnomalyDetectionScope_Override(g GoogleVertexAiAgentAnomalyDetectionScope, scope constructs.Construct, id *string, config *GoogleVertexAiAgentAnomalyDetectionScopeConfig) {
 	_init_.Initialize()
 

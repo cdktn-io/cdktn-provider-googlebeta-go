@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/data-sources/google_compute_region_target_https_proxy google_compute_region_target_https_proxy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_compute_region_target_https_proxy google_compute_region_target_https_proxy}.
 type DataGoogleComputeRegionTargetHttpsProxy interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -479,7 +479,7 @@ func (j *jsiiProxy_DataGoogleComputeRegionTargetHttpsProxy) UrlMap() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/data-sources/google_compute_region_target_https_proxy google_compute_region_target_https_proxy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_compute_region_target_https_proxy google_compute_region_target_https_proxy} Data Source.
 func NewDataGoogleComputeRegionTargetHttpsProxy(scope constructs.Construct, id *string, config *DataGoogleComputeRegionTargetHttpsProxyConfig) DataGoogleComputeRegionTargetHttpsProxy {
 	_init_.Initialize()
 
@@ -497,7 +497,7 @@ func NewDataGoogleComputeRegionTargetHttpsProxy(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/data-sources/google_compute_region_target_https_proxy google_compute_region_target_https_proxy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_compute_region_target_https_proxy google_compute_region_target_https_proxy} Data Source.
 func NewDataGoogleComputeRegionTargetHttpsProxy_Override(d DataGoogleComputeRegionTargetHttpsProxy, scope constructs.Construct, id *string, config *DataGoogleComputeRegionTargetHttpsProxyConfig) {
 	_init_.Initialize()
 

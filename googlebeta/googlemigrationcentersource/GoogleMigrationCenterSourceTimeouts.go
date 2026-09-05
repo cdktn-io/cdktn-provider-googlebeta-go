@@ -5,11 +5,11 @@ package googlemigrationcentersource
 
 
 type GoogleMigrationCenterSourceTimeouts struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_migration_center_source#create GoogleMigrationCenterSource#create}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_migration_center_source#create GoogleMigrationCenterSource#create}.
 	Create *string `field:"optional" json:"create" yaml:"create"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_migration_center_source#delete GoogleMigrationCenterSource#delete}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_migration_center_source#delete GoogleMigrationCenterSource#delete}.
 	Delete *string `field:"optional" json:"delete" yaml:"delete"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_migration_center_source#update GoogleMigrationCenterSource#update}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_migration_center_source#update GoogleMigrationCenterSource#update}.
 	Update *string `field:"optional" json:"update" yaml:"update"`
 }
 

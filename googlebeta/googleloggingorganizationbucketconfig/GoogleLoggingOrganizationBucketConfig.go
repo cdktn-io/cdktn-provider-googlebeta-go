@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_logging_organization_bucket_config google_logging_organization_bucket_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_logging_organization_bucket_config google_logging_organization_bucket_config}.
 type GoogleLoggingOrganizationBucketConfig interface {
 	cdktn.TerraformResource
 	BucketId() *string
@@ -579,7 +579,7 @@ func (j *jsiiProxy_GoogleLoggingOrganizationBucketConfig) TerraformResourceType(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_logging_organization_bucket_config google_logging_organization_bucket_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_logging_organization_bucket_config google_logging_organization_bucket_config} Resource.
 func NewGoogleLoggingOrganizationBucketConfig(scope constructs.Construct, id *string, config *GoogleLoggingOrganizationBucketConfigConfig) GoogleLoggingOrganizationBucketConfig {
 	_init_.Initialize()
 
@@ -597,7 +597,7 @@ func NewGoogleLoggingOrganizationBucketConfig(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_logging_organization_bucket_config google_logging_organization_bucket_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_logging_organization_bucket_config google_logging_organization_bucket_config} Resource.
 func NewGoogleLoggingOrganizationBucketConfig_Override(g GoogleLoggingOrganizationBucketConfig, scope constructs.Construct, id *string, config *GoogleLoggingOrganizationBucketConfigConfig) {
 	_init_.Initialize()
 

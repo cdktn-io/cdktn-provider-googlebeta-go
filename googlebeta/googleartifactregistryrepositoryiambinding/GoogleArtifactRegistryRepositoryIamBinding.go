@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_artifact_registry_repository_iam_binding google_artifact_registry_repository_iam_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_artifact_registry_repository_iam_binding google_artifact_registry_repository_iam_binding}.
 type GoogleArtifactRegistryRepositoryIamBinding interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -520,7 +520,7 @@ func (j *jsiiProxy_GoogleArtifactRegistryRepositoryIamBinding) TerraformResource
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_artifact_registry_repository_iam_binding google_artifact_registry_repository_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_artifact_registry_repository_iam_binding google_artifact_registry_repository_iam_binding} Resource.
 func NewGoogleArtifactRegistryRepositoryIamBinding(scope constructs.Construct, id *string, config *GoogleArtifactRegistryRepositoryIamBindingConfig) GoogleArtifactRegistryRepositoryIamBinding {
 	_init_.Initialize()
 
@@ -538,7 +538,7 @@ func NewGoogleArtifactRegistryRepositoryIamBinding(scope constructs.Construct, i
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_artifact_registry_repository_iam_binding google_artifact_registry_repository_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_artifact_registry_repository_iam_binding google_artifact_registry_repository_iam_binding} Resource.
 func NewGoogleArtifactRegistryRepositoryIamBinding_Override(g GoogleArtifactRegistryRepositoryIamBinding, scope constructs.Construct, id *string, config *GoogleArtifactRegistryRepositoryIamBindingConfig) {
 	_init_.Initialize()
 

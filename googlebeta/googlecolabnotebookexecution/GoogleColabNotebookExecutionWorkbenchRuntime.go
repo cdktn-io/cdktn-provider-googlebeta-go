@@ -7,7 +7,7 @@ package googlecolabnotebookexecution
 type GoogleColabNotebookExecutionWorkbenchRuntime struct {
 	// vm_image block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_colab_notebook_execution#vm_image GoogleColabNotebookExecution#vm_image}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_colab_notebook_execution#vm_image GoogleColabNotebookExecution#vm_image}
 	VmImage *GoogleColabNotebookExecutionWorkbenchRuntimeVmImage `field:"required" json:"vmImage" yaml:"vmImage"`
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_oracle_database_odb_network google_oracle_database_odb_network}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_odb_network google_oracle_database_odb_network}.
 type GoogleOracleDatabaseOdbNetwork interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -647,7 +647,7 @@ func (j *jsiiProxy_GoogleOracleDatabaseOdbNetwork) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_oracle_database_odb_network google_oracle_database_odb_network} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_odb_network google_oracle_database_odb_network} Resource.
 func NewGoogleOracleDatabaseOdbNetwork(scope constructs.Construct, id *string, config *GoogleOracleDatabaseOdbNetworkConfig) GoogleOracleDatabaseOdbNetwork {
 	_init_.Initialize()
 
@@ -665,7 +665,7 @@ func NewGoogleOracleDatabaseOdbNetwork(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_oracle_database_odb_network google_oracle_database_odb_network} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_odb_network google_oracle_database_odb_network} Resource.
 func NewGoogleOracleDatabaseOdbNetwork_Override(g GoogleOracleDatabaseOdbNetwork, scope constructs.Construct, id *string, config *GoogleOracleDatabaseOdbNetworkConfig) {
 	_init_.Initialize()
 

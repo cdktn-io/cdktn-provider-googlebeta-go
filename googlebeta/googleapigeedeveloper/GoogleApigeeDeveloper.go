@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_apigee_developer google_apigee_developer}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_developer google_apigee_developer}.
 type GoogleApigeeDeveloper interface {
 	cdktn.TerraformResource
 	Attributes() GoogleApigeeDeveloperAttributesList
@@ -599,7 +599,7 @@ func (j *jsiiProxy_GoogleApigeeDeveloper) UserNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_apigee_developer google_apigee_developer} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_developer google_apigee_developer} Resource.
 func NewGoogleApigeeDeveloper(scope constructs.Construct, id *string, config *GoogleApigeeDeveloperConfig) GoogleApigeeDeveloper {
 	_init_.Initialize()
 
@@ -617,7 +617,7 @@ func NewGoogleApigeeDeveloper(scope constructs.Construct, id *string, config *Go
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_apigee_developer google_apigee_developer} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_developer google_apigee_developer} Resource.
 func NewGoogleApigeeDeveloper_Override(g GoogleApigeeDeveloper, scope constructs.Construct, id *string, config *GoogleApigeeDeveloperConfig) {
 	_init_.Initialize()
 

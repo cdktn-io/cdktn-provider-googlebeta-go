@@ -5,11 +5,11 @@ package googlebiglakehivecatalogiambinding
 
 
 type GoogleBiglakeHiveCatalogIamBindingCondition struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_biglake_hive_catalog_iam_binding#expression GoogleBiglakeHiveCatalogIamBinding#expression}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_biglake_hive_catalog_iam_binding#expression GoogleBiglakeHiveCatalogIamBinding#expression}.
 	Expression *string `field:"required" json:"expression" yaml:"expression"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_biglake_hive_catalog_iam_binding#title GoogleBiglakeHiveCatalogIamBinding#title}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_biglake_hive_catalog_iam_binding#title GoogleBiglakeHiveCatalogIamBinding#title}.
 	Title *string `field:"required" json:"title" yaml:"title"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_biglake_hive_catalog_iam_binding#description GoogleBiglakeHiveCatalogIamBinding#description}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_biglake_hive_catalog_iam_binding#description GoogleBiglakeHiveCatalogIamBinding#description}.
 	Description *string `field:"optional" json:"description" yaml:"description"`
 }
 

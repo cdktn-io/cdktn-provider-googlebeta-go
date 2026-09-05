@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/data-sources/google_iap_agent_registry_mcp_server_iam_policy google_iap_agent_registry_mcp_server_iam_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_iap_agent_registry_mcp_server_iam_policy google_iap_agent_registry_mcp_server_iam_policy}.
 type DataGoogleIapAgentRegistryMcpServerIamPolicy interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -380,7 +380,7 @@ func (j *jsiiProxy_DataGoogleIapAgentRegistryMcpServerIamPolicy) TerraformResour
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/data-sources/google_iap_agent_registry_mcp_server_iam_policy google_iap_agent_registry_mcp_server_iam_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_iap_agent_registry_mcp_server_iam_policy google_iap_agent_registry_mcp_server_iam_policy} Data Source.
 func NewDataGoogleIapAgentRegistryMcpServerIamPolicy(scope constructs.Construct, id *string, config *DataGoogleIapAgentRegistryMcpServerIamPolicyConfig) DataGoogleIapAgentRegistryMcpServerIamPolicy {
 	_init_.Initialize()
 
@@ -398,7 +398,7 @@ func NewDataGoogleIapAgentRegistryMcpServerIamPolicy(scope constructs.Construct,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/data-sources/google_iap_agent_registry_mcp_server_iam_policy google_iap_agent_registry_mcp_server_iam_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_iap_agent_registry_mcp_server_iam_policy google_iap_agent_registry_mcp_server_iam_policy} Data Source.
 func NewDataGoogleIapAgentRegistryMcpServerIamPolicy_Override(d DataGoogleIapAgentRegistryMcpServerIamPolicy, scope constructs.Construct, id *string, config *DataGoogleIapAgentRegistryMcpServerIamPolicyConfig) {
 	_init_.Initialize()
 

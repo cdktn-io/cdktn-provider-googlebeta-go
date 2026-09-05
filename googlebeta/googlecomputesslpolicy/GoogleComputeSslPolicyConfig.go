@@ -32,7 +32,7 @@ type GoogleComputeSslPolicyConfig struct {
 	// characters must be a dash, lowercase letter, or digit, except the last
 	// character, which cannot be a dash.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_compute_ssl_policy#name GoogleComputeSslPolicy#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_ssl_policy#name GoogleComputeSslPolicy#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// Profile specifies the set of SSL features that can be used by the load balancer when negotiating SSL with clients.
 	//
@@ -46,7 +46,7 @@ type GoogleComputeSslPolicyConfig struct {
 	// *must* be present when using the 'CUSTOM' profile. This argument
 	// *must not* be present when using any other profile.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_compute_ssl_policy#custom_features GoogleComputeSslPolicy#custom_features}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_ssl_policy#custom_features GoogleComputeSslPolicy#custom_features}
 	CustomFeatures *[]*string `field:"optional" json:"customFeatures" yaml:"customFeatures"`
 	// Whether Terraform will be prevented from destroying the instance.
 	//
@@ -58,13 +58,13 @@ type GoogleComputeSslPolicyConfig struct {
 	// When set to "DELETE", deleting the resource is allowed.
 	//
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_compute_ssl_policy#deletion_policy GoogleComputeSslPolicy#deletion_policy}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_ssl_policy#deletion_policy GoogleComputeSslPolicy#deletion_policy}
 	DeletionPolicy *string `field:"optional" json:"deletionPolicy" yaml:"deletionPolicy"`
 	// An optional description of this resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_compute_ssl_policy#description GoogleComputeSslPolicy#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_ssl_policy#description GoogleComputeSslPolicy#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_compute_ssl_policy#id GoogleComputeSslPolicy#id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_ssl_policy#id GoogleComputeSslPolicy#id}.
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -74,7 +74,7 @@ type GoogleComputeSslPolicyConfig struct {
 	// When set to'
 	// TLS_1_3', the profile field must be set to 'RESTRICTED'. Default value: "TLS_1_0" Possible values: ["TLS_1_0", "TLS_1_1", "TLS_1_2", "TLS_1_3"]
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_compute_ssl_policy#min_tls_version GoogleComputeSslPolicy#min_tls_version}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_ssl_policy#min_tls_version GoogleComputeSslPolicy#min_tls_version}
 	MinTlsVersion *string `field:"optional" json:"minTlsVersion" yaml:"minTlsVersion"`
 	// One of 'DEFAULT', 'ENABLED', or 'DEFERRED'.
 	//
@@ -88,7 +88,7 @@ type GoogleComputeSslPolicyConfig struct {
 	// disallows X25519MLKEM768 key exchange until October 2027, and allows
 	// it afterward. Possible values: ["DEFAULT", "ENABLED", "DEFERRED"]
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_compute_ssl_policy#post_quantum_key_exchange GoogleComputeSslPolicy#post_quantum_key_exchange}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_ssl_policy#post_quantum_key_exchange GoogleComputeSslPolicy#post_quantum_key_exchange}
 	PostQuantumKeyExchange *string `field:"optional" json:"postQuantumKeyExchange" yaml:"postQuantumKeyExchange"`
 	// Profile specifies the set of SSL features that can be used by the load balancer when negotiating SSL with clients.
 	//
@@ -102,13 +102,13 @@ type GoogleComputeSslPolicyConfig struct {
 	// If set to 'FIPS_202205', 'minTlsVersion' must also be set to
 	// 'TLS_1_2'. Default value: "COMPATIBLE" Possible values: ["COMPATIBLE", "MODERN", "RESTRICTED", "CUSTOM", "FIPS_202205"]
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_compute_ssl_policy#profile GoogleComputeSslPolicy#profile}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_ssl_policy#profile GoogleComputeSslPolicy#profile}
 	Profile *string `field:"optional" json:"profile" yaml:"profile"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_compute_ssl_policy#project GoogleComputeSslPolicy#project}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_ssl_policy#project GoogleComputeSslPolicy#project}.
 	Project *string `field:"optional" json:"project" yaml:"project"`
 	// timeouts block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_compute_ssl_policy#timeouts GoogleComputeSslPolicy#timeouts}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_ssl_policy#timeouts GoogleComputeSslPolicy#timeouts}
 	Timeouts *GoogleComputeSslPolicyTimeouts `field:"optional" json:"timeouts" yaml:"timeouts"`
 }
 

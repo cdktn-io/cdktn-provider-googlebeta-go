@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/data-sources/google_logging_project_settings google_logging_project_settings}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_logging_project_settings google_logging_project_settings}.
 type DataGoogleLoggingProjectSettings interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -376,7 +376,7 @@ func (j *jsiiProxy_DataGoogleLoggingProjectSettings) TerraformResourceType() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/data-sources/google_logging_project_settings google_logging_project_settings} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_logging_project_settings google_logging_project_settings} Data Source.
 func NewDataGoogleLoggingProjectSettings(scope constructs.Construct, id *string, config *DataGoogleLoggingProjectSettingsConfig) DataGoogleLoggingProjectSettings {
 	_init_.Initialize()
 
@@ -394,7 +394,7 @@ func NewDataGoogleLoggingProjectSettings(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/data-sources/google_logging_project_settings google_logging_project_settings} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_logging_project_settings google_logging_project_settings} Data Source.
 func NewDataGoogleLoggingProjectSettings_Override(d DataGoogleLoggingProjectSettings, scope constructs.Construct, id *string, config *DataGoogleLoggingProjectSettingsConfig) {
 	_init_.Initialize()
 

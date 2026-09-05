@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_firestore_user_creds google_firestore_user_creds}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_firestore_user_creds google_firestore_user_creds}.
 type GoogleFirestoreUserCreds interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -541,7 +541,7 @@ func (j *jsiiProxy_GoogleFirestoreUserCreds) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_firestore_user_creds google_firestore_user_creds} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_firestore_user_creds google_firestore_user_creds} Resource.
 func NewGoogleFirestoreUserCreds(scope constructs.Construct, id *string, config *GoogleFirestoreUserCredsConfig) GoogleFirestoreUserCreds {
 	_init_.Initialize()
 
@@ -559,7 +559,7 @@ func NewGoogleFirestoreUserCreds(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_firestore_user_creds google_firestore_user_creds} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_firestore_user_creds google_firestore_user_creds} Resource.
 func NewGoogleFirestoreUserCreds_Override(g GoogleFirestoreUserCreds, scope constructs.Construct, id *string, config *GoogleFirestoreUserCredsConfig) {
 	_init_.Initialize()
 

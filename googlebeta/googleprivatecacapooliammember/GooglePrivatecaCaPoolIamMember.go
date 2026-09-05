@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_privateca_ca_pool_iam_member google_privateca_ca_pool_iam_member}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_privateca_ca_pool_iam_member google_privateca_ca_pool_iam_member}.
 type GooglePrivatecaCaPoolIamMember interface {
 	cdktn.TerraformResource
 	CaPool() *string
@@ -520,7 +520,7 @@ func (j *jsiiProxy_GooglePrivatecaCaPoolIamMember) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_privateca_ca_pool_iam_member google_privateca_ca_pool_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_privateca_ca_pool_iam_member google_privateca_ca_pool_iam_member} Resource.
 func NewGooglePrivatecaCaPoolIamMember(scope constructs.Construct, id *string, config *GooglePrivatecaCaPoolIamMemberConfig) GooglePrivatecaCaPoolIamMember {
 	_init_.Initialize()
 
@@ -538,7 +538,7 @@ func NewGooglePrivatecaCaPoolIamMember(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_privateca_ca_pool_iam_member google_privateca_ca_pool_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_privateca_ca_pool_iam_member google_privateca_ca_pool_iam_member} Resource.
 func NewGooglePrivatecaCaPoolIamMember_Override(g GooglePrivatecaCaPoolIamMember, scope constructs.Construct, id *string, config *GooglePrivatecaCaPoolIamMemberConfig) {
 	_init_.Initialize()
 

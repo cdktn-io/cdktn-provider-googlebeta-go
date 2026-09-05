@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/data-sources/google_dns_record_sets google_dns_record_sets}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_dns_record_sets google_dns_record_sets}.
 type DataGoogleDnsRecordSets interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -393,7 +393,7 @@ func (j *jsiiProxy_DataGoogleDnsRecordSets) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/data-sources/google_dns_record_sets google_dns_record_sets} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_dns_record_sets google_dns_record_sets} Data Source.
 func NewDataGoogleDnsRecordSets(scope constructs.Construct, id *string, config *DataGoogleDnsRecordSetsConfig) DataGoogleDnsRecordSets {
 	_init_.Initialize()
 
@@ -411,7 +411,7 @@ func NewDataGoogleDnsRecordSets(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/data-sources/google_dns_record_sets google_dns_record_sets} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_dns_record_sets google_dns_record_sets} Data Source.
 func NewDataGoogleDnsRecordSets_Override(d DataGoogleDnsRecordSets, scope constructs.Construct, id *string, config *DataGoogleDnsRecordSetsConfig) {
 	_init_.Initialize()
 

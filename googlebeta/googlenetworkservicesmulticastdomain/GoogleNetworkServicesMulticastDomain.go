@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_network_services_multicast_domain google_network_services_multicast_domain}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_services_multicast_domain google_network_services_multicast_domain}.
 type GoogleNetworkServicesMulticastDomain interface {
 	cdktn.TerraformResource
 	AdminNetwork() *string
@@ -705,7 +705,7 @@ func (j *jsiiProxy_GoogleNetworkServicesMulticastDomain) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_network_services_multicast_domain google_network_services_multicast_domain} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_services_multicast_domain google_network_services_multicast_domain} Resource.
 func NewGoogleNetworkServicesMulticastDomain(scope constructs.Construct, id *string, config *GoogleNetworkServicesMulticastDomainConfig) GoogleNetworkServicesMulticastDomain {
 	_init_.Initialize()
 
@@ -723,7 +723,7 @@ func NewGoogleNetworkServicesMulticastDomain(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_network_services_multicast_domain google_network_services_multicast_domain} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_services_multicast_domain google_network_services_multicast_domain} Resource.
 func NewGoogleNetworkServicesMulticastDomain_Override(g GoogleNetworkServicesMulticastDomain, scope constructs.Construct, id *string, config *GoogleNetworkServicesMulticastDomainConfig) {
 	_init_.Initialize()
 

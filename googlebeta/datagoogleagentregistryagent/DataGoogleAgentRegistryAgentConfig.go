@@ -24,22 +24,22 @@ type DataGoogleAgentRegistryAgentConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The location of the resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/data-sources/google_agent_registry_agent#location DataGoogleAgentRegistryAgent#location}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_agent_registry_agent#location DataGoogleAgentRegistryAgent#location}
 	Location *string `field:"required" json:"location" yaml:"location"`
 	// The unique identifier for the Agent.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/data-sources/google_agent_registry_agent#agent_id DataGoogleAgentRegistryAgent#agent_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_agent_registry_agent#agent_id DataGoogleAgentRegistryAgent#agent_id}
 	AgentId *string `field:"optional" json:"agentId" yaml:"agentId"`
 	// A filter string that identifies a unique Agent.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/data-sources/google_agent_registry_agent#filter DataGoogleAgentRegistryAgent#filter}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_agent_registry_agent#filter DataGoogleAgentRegistryAgent#filter}
 	Filter *string `field:"optional" json:"filter" yaml:"filter"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/data-sources/google_agent_registry_agent#id DataGoogleAgentRegistryAgent#id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_agent_registry_agent#id DataGoogleAgentRegistryAgent#id}.
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
 	Id *string `field:"optional" json:"id" yaml:"id"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/data-sources/google_agent_registry_agent#project DataGoogleAgentRegistryAgent#project}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_agent_registry_agent#project DataGoogleAgentRegistryAgent#project}.
 	Project *string `field:"optional" json:"project" yaml:"project"`
 }
 

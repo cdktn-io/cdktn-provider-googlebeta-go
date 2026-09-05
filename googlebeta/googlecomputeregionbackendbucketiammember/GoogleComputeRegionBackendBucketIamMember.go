@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_compute_region_backend_bucket_iam_member google_compute_region_backend_bucket_iam_member}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_backend_bucket_iam_member google_compute_region_backend_bucket_iam_member}.
 type GoogleComputeRegionBackendBucketIamMember interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -520,7 +520,7 @@ func (j *jsiiProxy_GoogleComputeRegionBackendBucketIamMember) TerraformResourceT
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_compute_region_backend_bucket_iam_member google_compute_region_backend_bucket_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_backend_bucket_iam_member google_compute_region_backend_bucket_iam_member} Resource.
 func NewGoogleComputeRegionBackendBucketIamMember(scope constructs.Construct, id *string, config *GoogleComputeRegionBackendBucketIamMemberConfig) GoogleComputeRegionBackendBucketIamMember {
 	_init_.Initialize()
 
@@ -538,7 +538,7 @@ func NewGoogleComputeRegionBackendBucketIamMember(scope constructs.Construct, id
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_compute_region_backend_bucket_iam_member google_compute_region_backend_bucket_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_backend_bucket_iam_member google_compute_region_backend_bucket_iam_member} Resource.
 func NewGoogleComputeRegionBackendBucketIamMember_Override(g GoogleComputeRegionBackendBucketIamMember, scope constructs.Construct, id *string, config *GoogleComputeRegionBackendBucketIamMemberConfig) {
 	_init_.Initialize()
 

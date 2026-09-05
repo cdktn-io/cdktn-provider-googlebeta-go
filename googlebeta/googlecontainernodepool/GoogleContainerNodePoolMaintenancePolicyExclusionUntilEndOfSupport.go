@@ -7,7 +7,7 @@ package googlecontainernodepool
 type GoogleContainerNodePoolMaintenancePolicyExclusionUntilEndOfSupport struct {
 	// Whether to enable the maintenance exclusion until the end of support for this NodePool.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_container_node_pool#enabled GoogleContainerNodePool#enabled}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_container_node_pool#enabled GoogleContainerNodePool#enabled}
 	Enabled interface{} `field:"optional" json:"enabled" yaml:"enabled"`
 }
 

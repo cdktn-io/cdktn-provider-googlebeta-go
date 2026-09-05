@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_firebase_database_instance google_firebase_database_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_firebase_database_instance google_firebase_database_instance}.
 type GoogleFirebaseDatabaseInstance interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -567,7 +567,7 @@ func (j *jsiiProxy_GoogleFirebaseDatabaseInstance) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_firebase_database_instance google_firebase_database_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_firebase_database_instance google_firebase_database_instance} Resource.
 func NewGoogleFirebaseDatabaseInstance(scope constructs.Construct, id *string, config *GoogleFirebaseDatabaseInstanceConfig) GoogleFirebaseDatabaseInstance {
 	_init_.Initialize()
 
@@ -585,7 +585,7 @@ func NewGoogleFirebaseDatabaseInstance(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_firebase_database_instance google_firebase_database_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_firebase_database_instance google_firebase_database_instance} Resource.
 func NewGoogleFirebaseDatabaseInstance_Override(g GoogleFirebaseDatabaseInstance, scope constructs.Construct, id *string, config *GoogleFirebaseDatabaseInstanceConfig) {
 	_init_.Initialize()
 

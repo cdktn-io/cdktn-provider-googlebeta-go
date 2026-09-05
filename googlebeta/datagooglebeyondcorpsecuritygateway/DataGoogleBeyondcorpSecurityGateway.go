@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/data-sources/google_beyondcorp_security_gateway google_beyondcorp_security_gateway}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_beyondcorp_security_gateway google_beyondcorp_security_gateway}.
 type DataGoogleBeyondcorpSecurityGateway interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -477,7 +477,7 @@ func (j *jsiiProxy_DataGoogleBeyondcorpSecurityGateway) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/data-sources/google_beyondcorp_security_gateway google_beyondcorp_security_gateway} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_beyondcorp_security_gateway google_beyondcorp_security_gateway} Data Source.
 func NewDataGoogleBeyondcorpSecurityGateway(scope constructs.Construct, id *string, config *DataGoogleBeyondcorpSecurityGatewayConfig) DataGoogleBeyondcorpSecurityGateway {
 	_init_.Initialize()
 
@@ -495,7 +495,7 @@ func NewDataGoogleBeyondcorpSecurityGateway(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/data-sources/google_beyondcorp_security_gateway google_beyondcorp_security_gateway} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_beyondcorp_security_gateway google_beyondcorp_security_gateway} Data Source.
 func NewDataGoogleBeyondcorpSecurityGateway_Override(d DataGoogleBeyondcorpSecurityGateway, scope constructs.Construct, id *string, config *DataGoogleBeyondcorpSecurityGatewayConfig) {
 	_init_.Initialize()
 

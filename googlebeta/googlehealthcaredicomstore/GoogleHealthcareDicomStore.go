@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_healthcare_dicom_store google_healthcare_dicom_store}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_healthcare_dicom_store google_healthcare_dicom_store}.
 type GoogleHealthcareDicomStore interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -567,7 +567,7 @@ func (j *jsiiProxy_GoogleHealthcareDicomStore) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_healthcare_dicom_store google_healthcare_dicom_store} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_healthcare_dicom_store google_healthcare_dicom_store} Resource.
 func NewGoogleHealthcareDicomStore(scope constructs.Construct, id *string, config *GoogleHealthcareDicomStoreConfig) GoogleHealthcareDicomStore {
 	_init_.Initialize()
 
@@ -585,7 +585,7 @@ func NewGoogleHealthcareDicomStore(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_healthcare_dicom_store google_healthcare_dicom_store} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_healthcare_dicom_store google_healthcare_dicom_store} Resource.
 func NewGoogleHealthcareDicomStore_Override(g GoogleHealthcareDicomStore, scope constructs.Construct, id *string, config *GoogleHealthcareDicomStoreConfig) {
 	_init_.Initialize()
 

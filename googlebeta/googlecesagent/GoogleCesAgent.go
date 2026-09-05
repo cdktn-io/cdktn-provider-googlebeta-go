@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_ces_agent google_ces_agent}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_agent google_ces_agent}.
 type GoogleCesAgent interface {
 	cdktn.TerraformResource
 	AfterAgentCallbacks() GoogleCesAgentAfterAgentCallbacksList
@@ -948,7 +948,7 @@ func (j *jsiiProxy_GoogleCesAgent) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_ces_agent google_ces_agent} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_agent google_ces_agent} Resource.
 func NewGoogleCesAgent(scope constructs.Construct, id *string, config *GoogleCesAgentConfig) GoogleCesAgent {
 	_init_.Initialize()
 
@@ -966,7 +966,7 @@ func NewGoogleCesAgent(scope constructs.Construct, id *string, config *GoogleCes
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_ces_agent google_ces_agent} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_agent google_ces_agent} Resource.
 func NewGoogleCesAgent_Override(g GoogleCesAgent, scope constructs.Construct, id *string, config *GoogleCesAgentConfig) {
 	_init_.Initialize()
 

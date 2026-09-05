@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/data-sources/google_compute_region_instant_snapshot_iam_policy google_compute_region_instant_snapshot_iam_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_compute_region_instant_snapshot_iam_policy google_compute_region_instant_snapshot_iam_policy}.
 type DataGoogleComputeRegionInstantSnapshotIamPolicy interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -380,7 +380,7 @@ func (j *jsiiProxy_DataGoogleComputeRegionInstantSnapshotIamPolicy) TerraformRes
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/data-sources/google_compute_region_instant_snapshot_iam_policy google_compute_region_instant_snapshot_iam_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_compute_region_instant_snapshot_iam_policy google_compute_region_instant_snapshot_iam_policy} Data Source.
 func NewDataGoogleComputeRegionInstantSnapshotIamPolicy(scope constructs.Construct, id *string, config *DataGoogleComputeRegionInstantSnapshotIamPolicyConfig) DataGoogleComputeRegionInstantSnapshotIamPolicy {
 	_init_.Initialize()
 
@@ -398,7 +398,7 @@ func NewDataGoogleComputeRegionInstantSnapshotIamPolicy(scope constructs.Constru
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/data-sources/google_compute_region_instant_snapshot_iam_policy google_compute_region_instant_snapshot_iam_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_compute_region_instant_snapshot_iam_policy google_compute_region_instant_snapshot_iam_policy} Data Source.
 func NewDataGoogleComputeRegionInstantSnapshotIamPolicy_Override(d DataGoogleComputeRegionInstantSnapshotIamPolicy, scope constructs.Construct, id *string, config *DataGoogleComputeRegionInstantSnapshotIamPolicyConfig) {
 	_init_.Initialize()
 

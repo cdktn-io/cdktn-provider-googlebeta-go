@@ -7,7 +7,7 @@ package googlecontainercluster
 type GoogleContainerClusterNodeConfigLinuxNodeConfigCustomNodeInit struct {
 	// init_script block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_container_cluster#init_script GoogleContainerCluster#init_script}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_container_cluster#init_script GoogleContainerCluster#init_script}
 	InitScript *GoogleContainerClusterNodeConfigLinuxNodeConfigCustomNodeInitInitScript `field:"optional" json:"initScript" yaml:"initScript"`
 }
 

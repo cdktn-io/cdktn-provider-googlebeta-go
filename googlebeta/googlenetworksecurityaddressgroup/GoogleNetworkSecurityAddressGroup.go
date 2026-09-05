@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_network_security_address_group google_network_security_address_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_address_group google_network_security_address_group}.
 type GoogleNetworkSecurityAddressGroup interface {
 	cdktn.TerraformResource
 	Capacity() *float64
@@ -672,7 +672,7 @@ func (j *jsiiProxy_GoogleNetworkSecurityAddressGroup) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_network_security_address_group google_network_security_address_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_address_group google_network_security_address_group} Resource.
 func NewGoogleNetworkSecurityAddressGroup(scope constructs.Construct, id *string, config *GoogleNetworkSecurityAddressGroupConfig) GoogleNetworkSecurityAddressGroup {
 	_init_.Initialize()
 
@@ -690,7 +690,7 @@ func NewGoogleNetworkSecurityAddressGroup(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_network_security_address_group google_network_security_address_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_address_group google_network_security_address_group} Resource.
 func NewGoogleNetworkSecurityAddressGroup_Override(g GoogleNetworkSecurityAddressGroup, scope constructs.Construct, id *string, config *GoogleNetworkSecurityAddressGroupConfig) {
 	_init_.Initialize()
 

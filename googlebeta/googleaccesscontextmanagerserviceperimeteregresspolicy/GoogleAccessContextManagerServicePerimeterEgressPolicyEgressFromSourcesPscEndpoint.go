@@ -7,7 +7,7 @@ package googleaccesscontextmanagerserviceperimeteregresspolicy
 type GoogleAccessContextManagerServicePerimeterEgressPolicyEgressFromSourcesPscEndpoint struct {
 	// The full resource name of the global forwarding rule that identifies a Private Service Connect endpoint. Forwarding rule format: '//compute.googleapis.com/projects/{PROJECT_ID}/global/forwardingRules/{FORWARDING_RULE_ID}'.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_access_context_manager_service_perimeter_egress_policy#forwarding_rule GoogleAccessContextManagerServicePerimeterEgressPolicy#forwarding_rule}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_access_context_manager_service_perimeter_egress_policy#forwarding_rule GoogleAccessContextManagerServicePerimeterEgressPolicy#forwarding_rule}
 	ForwardingRule *string `field:"optional" json:"forwardingRule" yaml:"forwardingRule"`
 }
 

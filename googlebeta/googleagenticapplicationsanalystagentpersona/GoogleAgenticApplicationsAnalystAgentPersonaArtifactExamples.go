@@ -7,7 +7,7 @@ package googleagenticapplicationsanalystagentpersona
 type GoogleAgenticApplicationsAnalystAgentPersonaArtifactExamples struct {
 	// resource block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_agentic_applications_analyst_agent_persona#resource GoogleAgenticApplicationsAnalystAgentPersona#resource}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_agentic_applications_analyst_agent_persona#resource GoogleAgenticApplicationsAnalystAgentPersona#resource}
 	Resource *GoogleAgenticApplicationsAnalystAgentPersonaArtifactExamplesResource `field:"required" json:"resource" yaml:"resource"`
 }
 

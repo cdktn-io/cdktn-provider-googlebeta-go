@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_blockchain_node_engine_blockchain_nodes google_blockchain_node_engine_blockchain_nodes}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_blockchain_node_engine_blockchain_nodes google_blockchain_node_engine_blockchain_nodes}.
 type GoogleBlockchainNodeEngineBlockchainNodes interface {
 	cdktn.TerraformResource
 	BlockchainNodeId() *string
@@ -624,7 +624,7 @@ func (j *jsiiProxy_GoogleBlockchainNodeEngineBlockchainNodes) UpdateTime() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_blockchain_node_engine_blockchain_nodes google_blockchain_node_engine_blockchain_nodes} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_blockchain_node_engine_blockchain_nodes google_blockchain_node_engine_blockchain_nodes} Resource.
 func NewGoogleBlockchainNodeEngineBlockchainNodes(scope constructs.Construct, id *string, config *GoogleBlockchainNodeEngineBlockchainNodesConfig) GoogleBlockchainNodeEngineBlockchainNodes {
 	_init_.Initialize()
 
@@ -642,7 +642,7 @@ func NewGoogleBlockchainNodeEngineBlockchainNodes(scope constructs.Construct, id
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_blockchain_node_engine_blockchain_nodes google_blockchain_node_engine_blockchain_nodes} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_blockchain_node_engine_blockchain_nodes google_blockchain_node_engine_blockchain_nodes} Resource.
 func NewGoogleBlockchainNodeEngineBlockchainNodes_Override(g GoogleBlockchainNodeEngineBlockchainNodes, scope constructs.Construct, id *string, config *GoogleBlockchainNodeEngineBlockchainNodesConfig) {
 	_init_.Initialize()
 

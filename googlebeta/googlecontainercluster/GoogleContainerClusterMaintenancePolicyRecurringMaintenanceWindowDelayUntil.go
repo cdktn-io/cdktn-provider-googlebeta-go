@@ -5,11 +5,11 @@ package googlecontainercluster
 
 
 type GoogleContainerClusterMaintenancePolicyRecurringMaintenanceWindowDelayUntil struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_container_cluster#day GoogleContainerCluster#day}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_container_cluster#day GoogleContainerCluster#day}.
 	Day *float64 `field:"required" json:"day" yaml:"day"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_container_cluster#month GoogleContainerCluster#month}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_container_cluster#month GoogleContainerCluster#month}.
 	Month *float64 `field:"required" json:"month" yaml:"month"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_container_cluster#year GoogleContainerCluster#year}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_container_cluster#year GoogleContainerCluster#year}.
 	Year *float64 `field:"required" json:"year" yaml:"year"`
 }
 

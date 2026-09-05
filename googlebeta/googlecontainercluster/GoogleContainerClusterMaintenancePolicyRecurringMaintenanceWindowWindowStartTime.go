@@ -5,11 +5,11 @@ package googlecontainercluster
 
 
 type GoogleContainerClusterMaintenancePolicyRecurringMaintenanceWindowWindowStartTime struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_container_cluster#hours GoogleContainerCluster#hours}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_container_cluster#hours GoogleContainerCluster#hours}.
 	Hours *float64 `field:"required" json:"hours" yaml:"hours"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_container_cluster#minutes GoogleContainerCluster#minutes}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_container_cluster#minutes GoogleContainerCluster#minutes}.
 	Minutes *float64 `field:"required" json:"minutes" yaml:"minutes"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_container_cluster#seconds GoogleContainerCluster#seconds}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_container_cluster#seconds GoogleContainerCluster#seconds}.
 	Seconds *float64 `field:"required" json:"seconds" yaml:"seconds"`
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_workstations_workstation_config_iam_member google_workstations_workstation_config_iam_member}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_workstations_workstation_config_iam_member google_workstations_workstation_config_iam_member}.
 type GoogleWorkstationsWorkstationConfigIamMember interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -543,7 +543,7 @@ func (j *jsiiProxy_GoogleWorkstationsWorkstationConfigIamMember) WorkstationConf
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_workstations_workstation_config_iam_member google_workstations_workstation_config_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_workstations_workstation_config_iam_member google_workstations_workstation_config_iam_member} Resource.
 func NewGoogleWorkstationsWorkstationConfigIamMember(scope constructs.Construct, id *string, config *GoogleWorkstationsWorkstationConfigIamMemberConfig) GoogleWorkstationsWorkstationConfigIamMember {
 	_init_.Initialize()
 
@@ -561,7 +561,7 @@ func NewGoogleWorkstationsWorkstationConfigIamMember(scope constructs.Construct,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_workstations_workstation_config_iam_member google_workstations_workstation_config_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_workstations_workstation_config_iam_member google_workstations_workstation_config_iam_member} Resource.
 func NewGoogleWorkstationsWorkstationConfigIamMember_Override(g GoogleWorkstationsWorkstationConfigIamMember, scope constructs.Construct, id *string, config *GoogleWorkstationsWorkstationConfigIamMemberConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_iap_web_region_backend_service_iam_binding google_iap_web_region_backend_service_iam_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iap_web_region_backend_service_iam_binding google_iap_web_region_backend_service_iam_binding}.
 type GoogleIapWebRegionBackendServiceIamBinding interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -520,7 +520,7 @@ func (j *jsiiProxy_GoogleIapWebRegionBackendServiceIamBinding) WebRegionBackendS
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_iap_web_region_backend_service_iam_binding google_iap_web_region_backend_service_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iap_web_region_backend_service_iam_binding google_iap_web_region_backend_service_iam_binding} Resource.
 func NewGoogleIapWebRegionBackendServiceIamBinding(scope constructs.Construct, id *string, config *GoogleIapWebRegionBackendServiceIamBindingConfig) GoogleIapWebRegionBackendServiceIamBinding {
 	_init_.Initialize()
 
@@ -538,7 +538,7 @@ func NewGoogleIapWebRegionBackendServiceIamBinding(scope constructs.Construct, i
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.0/docs/resources/google_iap_web_region_backend_service_iam_binding google_iap_web_region_backend_service_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iap_web_region_backend_service_iam_binding google_iap_web_region_backend_service_iam_binding} Resource.
 func NewGoogleIapWebRegionBackendServiceIamBinding_Override(g GoogleIapWebRegionBackendServiceIamBinding, scope constructs.Construct, id *string, config *GoogleIapWebRegionBackendServiceIamBindingConfig) {
 	_init_.Initialize()
 
