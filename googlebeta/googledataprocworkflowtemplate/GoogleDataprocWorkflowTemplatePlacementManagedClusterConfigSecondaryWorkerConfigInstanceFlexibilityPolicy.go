@@ -1,0 +1,17 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+package googledataprocworkflowtemplate
+
+
+type GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigInstanceFlexibilityPolicy struct {
+	// instance_selection_list block.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dataproc_workflow_template#instance_selection_list GoogleDataprocWorkflowTemplate#instance_selection_list}
+	InstanceSelectionList interface{} `field:"optional" json:"instanceSelectionList" yaml:"instanceSelectionList"`
+	// provisioning_model_mix block.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dataproc_workflow_template#provisioning_model_mix GoogleDataprocWorkflowTemplate#provisioning_model_mix}
+	ProvisioningModelMix *GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigInstanceFlexibilityPolicyProvisioningModelMix `field:"optional" json:"provisioningModelMix" yaml:"provisioningModelMix"`
+}
+

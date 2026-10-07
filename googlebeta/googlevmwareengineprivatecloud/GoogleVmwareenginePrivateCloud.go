@@ -5,14 +5,14 @@ package googlevmwareengineprivatecloud
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevmwareengineprivatecloud/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlevmwareengineprivatecloud/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vmwareengine_private_cloud google_vmwareengine_private_cloud}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_vmwareengine_private_cloud google_vmwareengine_private_cloud}.
 type GoogleVmwareenginePrivateCloud interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -727,7 +727,7 @@ func (j *jsiiProxy_GoogleVmwareenginePrivateCloud) Vcenter() GoogleVmwareengineP
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vmwareengine_private_cloud google_vmwareengine_private_cloud} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_vmwareengine_private_cloud google_vmwareengine_private_cloud} Resource.
 func NewGoogleVmwareenginePrivateCloud(scope constructs.Construct, id *string, config *GoogleVmwareenginePrivateCloudConfig) GoogleVmwareenginePrivateCloud {
 	_init_.Initialize()
 
@@ -745,7 +745,7 @@ func NewGoogleVmwareenginePrivateCloud(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vmwareengine_private_cloud google_vmwareengine_private_cloud} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_vmwareengine_private_cloud google_vmwareengine_private_cloud} Resource.
 func NewGoogleVmwareenginePrivateCloud_Override(g GoogleVmwareenginePrivateCloud, scope constructs.Construct, id *string, config *GoogleVmwareenginePrivateCloudConfig) {
 	_init_.Initialize()
 

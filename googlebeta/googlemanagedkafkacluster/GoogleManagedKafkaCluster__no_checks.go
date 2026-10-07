@@ -143,6 +143,10 @@ func (j *jsiiProxy_GoogleManagedKafkaCluster) validateSetIdParameters(val *strin
 	return nil
 }
 
+func (j *jsiiProxy_GoogleManagedKafkaCluster) validateSetKafkaVersionParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleManagedKafkaCluster) validateSetLabelsParameters(val *map[string]*string) error {
 	return nil
 }

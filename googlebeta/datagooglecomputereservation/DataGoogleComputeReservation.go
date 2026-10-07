@@ -5,14 +5,14 @@ package datagooglecomputereservation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagooglecomputereservation/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagooglecomputereservation/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_compute_reservation google_compute_reservation}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_compute_reservation google_compute_reservation}.
 type DataGoogleComputeReservation interface {
 	cdktn.TerraformDataSource
 	BlockNames() *[]*string
@@ -65,7 +65,6 @@ type DataGoogleComputeReservation interface {
 	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	RawOverrides() interface{}
-	ReservationBlockCount() *float64
 	ReservationSharingPolicy() DataGoogleComputeReservationReservationSharingPolicyList
 	ResourceStatus() DataGoogleComputeReservationResourceStatusList
 	SatisfiesPzs() cdktn.IResolvable
@@ -423,16 +422,6 @@ func (j *jsiiProxy_DataGoogleComputeReservation) RawOverrides() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleComputeReservation) ReservationBlockCount() *float64 {
-	var returns *float64
-	_jsii_.Get(
-		j,
-		"reservationBlockCount",
-		&returns,
-	)
-	return returns
-}
-
 func (j *jsiiProxy_DataGoogleComputeReservation) ReservationSharingPolicy() DataGoogleComputeReservationReservationSharingPolicyList {
 	var returns DataGoogleComputeReservationReservationSharingPolicyList
 	_jsii_.Get(
@@ -564,7 +553,7 @@ func (j *jsiiProxy_DataGoogleComputeReservation) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_compute_reservation google_compute_reservation} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_compute_reservation google_compute_reservation} Data Source.
 func NewDataGoogleComputeReservation(scope constructs.Construct, id *string, config *DataGoogleComputeReservationConfig) DataGoogleComputeReservation {
 	_init_.Initialize()
 
@@ -582,7 +571,7 @@ func NewDataGoogleComputeReservation(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_compute_reservation google_compute_reservation} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_compute_reservation google_compute_reservation} Data Source.
 func NewDataGoogleComputeReservation_Override(d DataGoogleComputeReservation, scope constructs.Construct, id *string, config *DataGoogleComputeReservationConfig) {
 	_init_.Initialize()
 

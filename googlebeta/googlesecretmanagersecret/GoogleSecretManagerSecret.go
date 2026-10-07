@@ -5,14 +5,14 @@ package googlesecretmanagersecret
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlesecretmanagersecret/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlesecretmanagersecret/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_secret_manager_secret google_secret_manager_secret}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_secret_manager_secret google_secret_manager_secret}.
 type GoogleSecretManagerSecret interface {
 	cdktn.TerraformResource
 	Annotations() *map[string]*string
@@ -87,6 +87,9 @@ type GoogleSecretManagerSecret interface {
 	SecretId() *string
 	SetSecretId(val *string)
 	SecretIdInput() *string
+	SecretType() *string
+	SetSecretType(val *string)
+	SecretTypeInput() *string
 	Tags() *map[string]*string
 	SetTags(val *map[string]*string)
 	TagsInput() *map[string]*string
@@ -217,6 +220,7 @@ type GoogleSecretManagerSecret interface {
 	ResetOverrideLogicalId()
 	ResetProject()
 	ResetRotation()
+	ResetSecretType()
 	ResetTags()
 	ResetTimeouts()
 	ResetTopics()
@@ -620,6 +624,26 @@ func (j *jsiiProxy_GoogleSecretManagerSecret) SecretIdInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_GoogleSecretManagerSecret) SecretType() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"secretType",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleSecretManagerSecret) SecretTypeInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"secretTypeInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleSecretManagerSecret) Tags() *map[string]*string {
 	var returns *map[string]*string
 	_jsii_.Get(
@@ -781,7 +805,7 @@ func (j *jsiiProxy_GoogleSecretManagerSecret) VersionDestroyTtlInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_secret_manager_secret google_secret_manager_secret} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_secret_manager_secret google_secret_manager_secret} Resource.
 func NewGoogleSecretManagerSecret(scope constructs.Construct, id *string, config *GoogleSecretManagerSecretConfig) GoogleSecretManagerSecret {
 	_init_.Initialize()
 
@@ -799,7 +823,7 @@ func NewGoogleSecretManagerSecret(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_secret_manager_secret google_secret_manager_secret} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_secret_manager_secret google_secret_manager_secret} Resource.
 func NewGoogleSecretManagerSecret_Override(g GoogleSecretManagerSecret, scope constructs.Construct, id *string, config *GoogleSecretManagerSecretConfig) {
 	_init_.Initialize()
 
@@ -962,6 +986,17 @@ func (j *jsiiProxy_GoogleSecretManagerSecret)SetSecretId(val *string) {
 	_jsii_.Set(
 		j,
 		"secretId",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleSecretManagerSecret)SetSecretType(val *string) {
+	if err := j.validateSetSecretTypeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"secretType",
 		val,
 	)
 }
@@ -1502,6 +1537,14 @@ func (g *jsiiProxy_GoogleSecretManagerSecret) ResetRotation() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetRotation",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleSecretManagerSecret) ResetSecretType() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetSecretType",
 		nil, // no parameters
 	)
 }

@@ -5,14 +5,14 @@ package datagooglebackupdrdatasourcereferences
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagooglebackupdrdatasourcereferences/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagooglebackupdrdatasourcereferences/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_backup_dr_data_source_references google_backup_dr_data_source_references}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_backup_dr_data_source_references google_backup_dr_data_source_references}.
 type DataGoogleBackupDrDataSourceReferences interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -57,9 +57,6 @@ type DataGoogleBackupDrDataSourceReferences interface {
 	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	RawOverrides() interface{}
-	ResourceType() *string
-	SetResourceType(val *string)
-	ResourceTypeInput() *string
 	// Experimental.
 	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
@@ -109,7 +106,6 @@ type DataGoogleBackupDrDataSourceReferences interface {
 	// Experimental.
 	ResetOverrideLogicalId()
 	ResetProject()
-	ResetResourceType()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
 	// Adds this resource to the terraform JSON output.
@@ -318,26 +314,6 @@ func (j *jsiiProxy_DataGoogleBackupDrDataSourceReferences) RawOverrides() interf
 	return returns
 }
 
-func (j *jsiiProxy_DataGoogleBackupDrDataSourceReferences) ResourceType() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"resourceType",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_DataGoogleBackupDrDataSourceReferences) ResourceTypeInput() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"resourceTypeInput",
-		&returns,
-	)
-	return returns
-}
-
 func (j *jsiiProxy_DataGoogleBackupDrDataSourceReferences) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
 	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
@@ -369,7 +345,7 @@ func (j *jsiiProxy_DataGoogleBackupDrDataSourceReferences) TerraformResourceType
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_backup_dr_data_source_references google_backup_dr_data_source_references} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_backup_dr_data_source_references google_backup_dr_data_source_references} Data Source.
 func NewDataGoogleBackupDrDataSourceReferences(scope constructs.Construct, id *string, config *DataGoogleBackupDrDataSourceReferencesConfig) DataGoogleBackupDrDataSourceReferences {
 	_init_.Initialize()
 
@@ -387,7 +363,7 @@ func NewDataGoogleBackupDrDataSourceReferences(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_backup_dr_data_source_references google_backup_dr_data_source_references} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_backup_dr_data_source_references google_backup_dr_data_source_references} Data Source.
 func NewDataGoogleBackupDrDataSourceReferences_Override(d DataGoogleBackupDrDataSourceReferences, scope constructs.Construct, id *string, config *DataGoogleBackupDrDataSourceReferencesConfig) {
 	_init_.Initialize()
 
@@ -473,17 +449,6 @@ func (j *jsiiProxy_DataGoogleBackupDrDataSourceReferences)SetProvider(val cdktn.
 	_jsii_.Set(
 		j,
 		"provider",
-		val,
-	)
-}
-
-func (j *jsiiProxy_DataGoogleBackupDrDataSourceReferences)SetResourceType(val *string) {
-	if err := j.validateSetResourceTypeParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"resourceType",
 		val,
 	)
 }
@@ -804,14 +769,6 @@ func (d *jsiiProxy_DataGoogleBackupDrDataSourceReferences) ResetProject() {
 	_jsii_.InvokeVoid(
 		d,
 		"resetProject",
-		nil, // no parameters
-	)
-}
-
-func (d *jsiiProxy_DataGoogleBackupDrDataSourceReferences) ResetResourceType() {
-	_jsii_.InvokeVoid(
-		d,
-		"resetResourceType",
 		nil, // no parameters
 	)
 }

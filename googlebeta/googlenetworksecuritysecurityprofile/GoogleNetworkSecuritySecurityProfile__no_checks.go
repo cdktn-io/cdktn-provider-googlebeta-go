@@ -99,6 +99,10 @@ func (g *jsiiProxy_GoogleNetworkSecuritySecurityProfile) validatePutUrlFiltering
 	return nil
 }
 
+func (g *jsiiProxy_GoogleNetworkSecuritySecurityProfile) validatePutWildfireAnalysisProfileParameters(value *GoogleNetworkSecuritySecurityProfileWildfireAnalysisProfile) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleNetworkSecuritySecurityProfile) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }

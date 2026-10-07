@@ -5,14 +5,14 @@ package googlesaasruntimerelease
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlesaasruntimerelease/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlesaasruntimerelease/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_saas_runtime_release google_saas_runtime_release}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_saas_runtime_release google_saas_runtime_release}.
 type GoogleSaasRuntimeRelease interface {
 	cdktn.TerraformResource
 	Annotations() *map[string]*string
@@ -739,7 +739,7 @@ func (j *jsiiProxy_GoogleSaasRuntimeRelease) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_saas_runtime_release google_saas_runtime_release} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_saas_runtime_release google_saas_runtime_release} Resource.
 func NewGoogleSaasRuntimeRelease(scope constructs.Construct, id *string, config *GoogleSaasRuntimeReleaseConfig) GoogleSaasRuntimeRelease {
 	_init_.Initialize()
 
@@ -757,7 +757,7 @@ func NewGoogleSaasRuntimeRelease(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_saas_runtime_release google_saas_runtime_release} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_saas_runtime_release google_saas_runtime_release} Resource.
 func NewGoogleSaasRuntimeRelease_Override(g GoogleSaasRuntimeRelease, scope constructs.Construct, id *string, config *GoogleSaasRuntimeReleaseConfig) {
 	_init_.Initialize()
 

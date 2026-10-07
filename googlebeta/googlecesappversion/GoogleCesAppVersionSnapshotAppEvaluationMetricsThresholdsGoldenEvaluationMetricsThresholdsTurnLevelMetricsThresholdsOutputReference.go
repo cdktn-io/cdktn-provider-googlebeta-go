@@ -5,9 +5,9 @@ package googlecesappversion
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -33,6 +33,7 @@ type GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMe
 	InternalValue() *GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsTurnLevelMetricsThresholds
 	SetInternalValue(val *GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsTurnLevelMetricsThresholds)
 	OverallToolInvocationCorrectnessThreshold() *float64
+	SemanticSimilarityChannel() *string
 	SemanticSimilaritySuccessThreshold() *float64
 	// Experimental.
 	TerraformAttribute() *string
@@ -136,6 +137,16 @@ func (j *jsiiProxy_GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGold
 	_jsii_.Get(
 		j,
 		"overallToolInvocationCorrectnessThreshold",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsTurnLevelMetricsThresholdsOutputReference) SemanticSimilarityChannel() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"semanticSimilarityChannel",
 		&returns,
 	)
 	return returns

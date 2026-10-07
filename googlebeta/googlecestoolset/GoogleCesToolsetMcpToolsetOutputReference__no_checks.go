@@ -59,6 +59,10 @@ func (g *jsiiProxy_GoogleCesToolsetMcpToolsetOutputReference) validatePutTlsConf
 	return nil
 }
 
+func (g *jsiiProxy_GoogleCesToolsetMcpToolsetOutputReference) validatePutToolOverridesParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleCesToolsetMcpToolsetOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }

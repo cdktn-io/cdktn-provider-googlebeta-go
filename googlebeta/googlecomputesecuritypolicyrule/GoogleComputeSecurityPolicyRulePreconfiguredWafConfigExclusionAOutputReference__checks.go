@@ -100,15 +100,15 @@ func (g *jsiiProxy_GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusio
 	switch value.(type) {
 	case cdktn.IResolvable:
 		// ok
-	case *[]*GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestBody:
-		value := value.(*[]*GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestBody)
+	case *[]*GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestBodyA:
+		value := value.(*[]*GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestBodyA)
 		for idx_cd4240, v := range *value {
 			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
 				return err
 			}
 		}
-	case []*GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestBody:
-		value_ := value.([]*GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestBody)
+	case []*GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestBodyA:
+		value_ := value.([]*GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestBodyA)
 		value := &value_
 		for idx_cd4240, v := range *value {
 			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
@@ -117,7 +117,7 @@ func (g *jsiiProxy_GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusio
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestBody; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestBodyA; received %#v (a %T)", value, value)
 		}
 	}
 

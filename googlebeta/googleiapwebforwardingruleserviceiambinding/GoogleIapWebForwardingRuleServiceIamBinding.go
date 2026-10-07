@@ -5,14 +5,14 @@ package googleiapwebforwardingruleserviceiambinding
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiapwebforwardingruleserviceiambinding/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleiapwebforwardingruleserviceiambinding/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iap_web_forwarding_rule_service_iam_binding google_iap_web_forwarding_rule_service_iam_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iap_web_forwarding_rule_service_iam_binding google_iap_web_forwarding_rule_service_iam_binding}.
 type GoogleIapWebForwardingRuleServiceIamBinding interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -496,7 +496,7 @@ func (j *jsiiProxy_GoogleIapWebForwardingRuleServiceIamBinding) TerraformResourc
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iap_web_forwarding_rule_service_iam_binding google_iap_web_forwarding_rule_service_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iap_web_forwarding_rule_service_iam_binding google_iap_web_forwarding_rule_service_iam_binding} Resource.
 func NewGoogleIapWebForwardingRuleServiceIamBinding(scope constructs.Construct, id *string, config *GoogleIapWebForwardingRuleServiceIamBindingConfig) GoogleIapWebForwardingRuleServiceIamBinding {
 	_init_.Initialize()
 
@@ -514,7 +514,7 @@ func NewGoogleIapWebForwardingRuleServiceIamBinding(scope constructs.Construct, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iap_web_forwarding_rule_service_iam_binding google_iap_web_forwarding_rule_service_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iap_web_forwarding_rule_service_iam_binding google_iap_web_forwarding_rule_service_iam_binding} Resource.
 func NewGoogleIapWebForwardingRuleServiceIamBinding_Override(g GoogleIapWebForwardingRuleServiceIamBinding, scope constructs.Construct, id *string, config *GoogleIapWebForwardingRuleServiceIamBindingConfig) {
 	_init_.Initialize()
 

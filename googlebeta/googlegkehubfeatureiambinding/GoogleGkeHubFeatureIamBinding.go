@@ -5,14 +5,14 @@ package googlegkehubfeatureiambinding
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlegkehubfeatureiambinding/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlegkehubfeatureiambinding/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_gke_hub_feature_iam_binding google_gke_hub_feature_iam_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_gke_hub_feature_iam_binding google_gke_hub_feature_iam_binding}.
 type GoogleGkeHubFeatureIamBinding interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -520,7 +520,7 @@ func (j *jsiiProxy_GoogleGkeHubFeatureIamBinding) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_gke_hub_feature_iam_binding google_gke_hub_feature_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_gke_hub_feature_iam_binding google_gke_hub_feature_iam_binding} Resource.
 func NewGoogleGkeHubFeatureIamBinding(scope constructs.Construct, id *string, config *GoogleGkeHubFeatureIamBindingConfig) GoogleGkeHubFeatureIamBinding {
 	_init_.Initialize()
 
@@ -538,7 +538,7 @@ func NewGoogleGkeHubFeatureIamBinding(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_gke_hub_feature_iam_binding google_gke_hub_feature_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_gke_hub_feature_iam_binding google_gke_hub_feature_iam_binding} Resource.
 func NewGoogleGkeHubFeatureIamBinding_Override(g GoogleGkeHubFeatureIamBinding, scope constructs.Construct, id *string, config *GoogleGkeHubFeatureIamBindingConfig) {
 	_init_.Initialize()
 

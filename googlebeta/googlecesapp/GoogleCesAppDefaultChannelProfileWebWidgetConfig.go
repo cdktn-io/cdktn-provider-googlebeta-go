@@ -7,15 +7,19 @@ package googlecesapp
 type GoogleCesAppDefaultChannelProfileWebWidgetConfig struct {
 	// The modality of the web widget. Possible values: UNKNOWN_MODALITY CHAT_AND_VOICE VOICE_ONLY CHAT_ONLY.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app#modality GoogleCesApp#modality}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#modality GoogleCesApp#modality}
 	Modality *string `field:"optional" json:"modality" yaml:"modality"`
+	// security_settings block.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#security_settings GoogleCesApp#security_settings}
+	SecuritySettings *GoogleCesAppDefaultChannelProfileWebWidgetConfigSecuritySettings `field:"optional" json:"securitySettings" yaml:"securitySettings"`
 	// The theme of the web widget. Possible values: UNKNOWN_THEME LIGHT DARK.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app#theme GoogleCesApp#theme}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#theme GoogleCesApp#theme}
 	Theme *string `field:"optional" json:"theme" yaml:"theme"`
 	// The title of the web widget.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app#web_widget_title GoogleCesApp#web_widget_title}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#web_widget_title GoogleCesApp#web_widget_title}
 	WebWidgetTitle *string `field:"optional" json:"webWidgetTitle" yaml:"webWidgetTitle"`
 }
 

@@ -115,6 +115,10 @@ func validateGoogleNetworkServicesAgentGateway_IsTerraformResourceParameters(x i
 	return nil
 }
 
+func (j *jsiiProxy_GoogleNetworkServicesAgentGateway) validateSetAgentConnectivityTemplateParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleNetworkServicesAgentGateway) validateSetConnectionParameters(val interface{}) error {
 	return nil
 }

@@ -5,14 +5,14 @@ package googleedgecontainervpnconnection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleedgecontainervpnconnection/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleedgecontainervpnconnection/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_edgecontainer_vpn_connection google_edgecontainer_vpn_connection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_edgecontainer_vpn_connection google_edgecontainer_vpn_connection}.
 type GoogleEdgecontainerVpnConnection interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -708,7 +708,7 @@ func (j *jsiiProxy_GoogleEdgecontainerVpnConnection) VpcProjectInput() *GoogleEd
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_edgecontainer_vpn_connection google_edgecontainer_vpn_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_edgecontainer_vpn_connection google_edgecontainer_vpn_connection} Resource.
 func NewGoogleEdgecontainerVpnConnection(scope constructs.Construct, id *string, config *GoogleEdgecontainerVpnConnectionConfig) GoogleEdgecontainerVpnConnection {
 	_init_.Initialize()
 
@@ -726,7 +726,7 @@ func NewGoogleEdgecontainerVpnConnection(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_edgecontainer_vpn_connection google_edgecontainer_vpn_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_edgecontainer_vpn_connection google_edgecontainer_vpn_connection} Resource.
 func NewGoogleEdgecontainerVpnConnection_Override(g GoogleEdgecontainerVpnConnection, scope constructs.Construct, id *string, config *GoogleEdgecontainerVpnConnectionConfig) {
 	_init_.Initialize()
 

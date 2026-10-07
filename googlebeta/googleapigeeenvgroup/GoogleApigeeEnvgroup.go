@@ -5,14 +5,14 @@ package googleapigeeenvgroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleapigeeenvgroup/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleapigeeenvgroup/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_envgroup google_apigee_envgroup}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_envgroup google_apigee_envgroup}.
 type GoogleApigeeEnvgroup interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -486,7 +486,7 @@ func (j *jsiiProxy_GoogleApigeeEnvgroup) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_envgroup google_apigee_envgroup} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_envgroup google_apigee_envgroup} Resource.
 func NewGoogleApigeeEnvgroup(scope constructs.Construct, id *string, config *GoogleApigeeEnvgroupConfig) GoogleApigeeEnvgroup {
 	_init_.Initialize()
 
@@ -504,7 +504,7 @@ func NewGoogleApigeeEnvgroup(scope constructs.Construct, id *string, config *Goo
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_envgroup google_apigee_envgroup} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_envgroup google_apigee_envgroup} Resource.
 func NewGoogleApigeeEnvgroup_Override(g GoogleApigeeEnvgroup, scope constructs.Construct, id *string, config *GoogleApigeeEnvgroupConfig) {
 	_init_.Initialize()
 

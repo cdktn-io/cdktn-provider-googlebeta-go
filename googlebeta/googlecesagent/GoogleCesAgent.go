@@ -5,14 +5,14 @@ package googlecesagent
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesagent/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesagent/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_agent google_ces_agent}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_agent google_ces_agent}.
 type GoogleCesAgent interface {
 	cdktn.TerraformResource
 	AfterAgentCallbacks() GoogleCesAgentAfterAgentCallbacksList
@@ -108,6 +108,8 @@ type GoogleCesAgent interface {
 	SetProvisioners(val *[]interface{})
 	// Experimental.
 	RawOverrides() interface{}
+	RemoteA2AAgent() GoogleCesAgentRemoteA2AAgentOutputReference
+	RemoteA2AAgentInput() *GoogleCesAgentRemoteA2AAgent
 	RemoteDialogflowAgent() GoogleCesAgentRemoteDialogflowAgentOutputReference
 	RemoteDialogflowAgentInput() *GoogleCesAgentRemoteDialogflowAgent
 	// Experimental.
@@ -123,6 +125,8 @@ type GoogleCesAgent interface {
 	Toolsets() GoogleCesAgentToolsetsList
 	ToolsetsInput() interface{}
 	ToolsInput() *[]*string
+	TransferRules() GoogleCesAgentTransferRulesList
+	TransferRulesInput() interface{}
 	UpdateTime() *string
 	// Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
 	// Experimental.
@@ -211,9 +215,11 @@ type GoogleCesAgent interface {
 	PutBeforeToolCallbacks(value interface{})
 	PutLlmAgent(value *GoogleCesAgentLlmAgent)
 	PutModelSettings(value *GoogleCesAgentModelSettings)
+	PutRemoteA2AAgent(value *GoogleCesAgentRemoteA2AAgent)
 	PutRemoteDialogflowAgent(value *GoogleCesAgentRemoteDialogflowAgent)
 	PutTimeouts(value *GoogleCesAgentTimeouts)
 	PutToolsets(value interface{})
+	PutTransferRules(value interface{})
 	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
 	//
 	// Called by generated provider bindings when a versioned feature is
@@ -246,10 +252,12 @@ type GoogleCesAgent interface {
 	// Experimental.
 	ResetOverrideLogicalId()
 	ResetProject()
+	ResetRemoteA2AAgent()
 	ResetRemoteDialogflowAgent()
 	ResetTimeouts()
 	ResetTools()
 	ResetToolsets()
+	ResetTransferRules()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
 	// Experimental.
@@ -827,6 +835,26 @@ func (j *jsiiProxy_GoogleCesAgent) RawOverrides() interface{} {
 	return returns
 }
 
+func (j *jsiiProxy_GoogleCesAgent) RemoteA2AAgent() GoogleCesAgentRemoteA2AAgentOutputReference {
+	var returns GoogleCesAgentRemoteA2AAgentOutputReference
+	_jsii_.Get(
+		j,
+		"remoteA2AAgent",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCesAgent) RemoteA2AAgentInput() *GoogleCesAgentRemoteA2AAgent {
+	var returns *GoogleCesAgentRemoteA2AAgent
+	_jsii_.Get(
+		j,
+		"remoteA2AAgentInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleCesAgent) RemoteDialogflowAgent() GoogleCesAgentRemoteDialogflowAgentOutputReference {
 	var returns GoogleCesAgentRemoteDialogflowAgentOutputReference
 	_jsii_.Get(
@@ -937,6 +965,26 @@ func (j *jsiiProxy_GoogleCesAgent) ToolsInput() *[]*string {
 	return returns
 }
 
+func (j *jsiiProxy_GoogleCesAgent) TransferRules() GoogleCesAgentTransferRulesList {
+	var returns GoogleCesAgentTransferRulesList
+	_jsii_.Get(
+		j,
+		"transferRules",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCesAgent) TransferRulesInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"transferRulesInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleCesAgent) UpdateTime() *string {
 	var returns *string
 	_jsii_.Get(
@@ -948,7 +996,7 @@ func (j *jsiiProxy_GoogleCesAgent) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_agent google_ces_agent} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_agent google_ces_agent} Resource.
 func NewGoogleCesAgent(scope constructs.Construct, id *string, config *GoogleCesAgentConfig) GoogleCesAgent {
 	_init_.Initialize()
 
@@ -966,7 +1014,7 @@ func NewGoogleCesAgent(scope constructs.Construct, id *string, config *GoogleCes
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_agent google_ces_agent} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_agent google_ces_agent} Resource.
 func NewGoogleCesAgent_Override(g GoogleCesAgent, scope constructs.Construct, id *string, config *GoogleCesAgentConfig) {
 	_init_.Initialize()
 
@@ -1634,6 +1682,17 @@ func (g *jsiiProxy_GoogleCesAgent) PutModelSettings(value *GoogleCesAgentModelSe
 	)
 }
 
+func (g *jsiiProxy_GoogleCesAgent) PutRemoteA2AAgent(value *GoogleCesAgentRemoteA2AAgent) {
+	if err := g.validatePutRemoteA2AAgentParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putRemoteA2AAgent",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleCesAgent) PutRemoteDialogflowAgent(value *GoogleCesAgentRemoteDialogflowAgent) {
 	if err := g.validatePutRemoteDialogflowAgentParameters(value); err != nil {
 		panic(err)
@@ -1663,6 +1722,17 @@ func (g *jsiiProxy_GoogleCesAgent) PutToolsets(value interface{}) {
 	_jsii_.InvokeVoid(
 		g,
 		"putToolsets",
+		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleCesAgent) PutTransferRules(value interface{}) {
+	if err := g.validatePutTransferRulesParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putTransferRules",
 		[]interface{}{value},
 	)
 }
@@ -1814,6 +1884,14 @@ func (g *jsiiProxy_GoogleCesAgent) ResetProject() {
 	)
 }
 
+func (g *jsiiProxy_GoogleCesAgent) ResetRemoteA2AAgent() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetRemoteA2AAgent",
+		nil, // no parameters
+	)
+}
+
 func (g *jsiiProxy_GoogleCesAgent) ResetRemoteDialogflowAgent() {
 	_jsii_.InvokeVoid(
 		g,
@@ -1842,6 +1920,14 @@ func (g *jsiiProxy_GoogleCesAgent) ResetToolsets() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetToolsets",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleCesAgent) ResetTransferRules() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetTransferRules",
 		nil, // no parameters
 	)
 }

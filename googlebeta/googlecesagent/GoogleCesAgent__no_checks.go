@@ -111,6 +111,10 @@ func (g *jsiiProxy_GoogleCesAgent) validatePutModelSettingsParameters(value *Goo
 	return nil
 }
 
+func (g *jsiiProxy_GoogleCesAgent) validatePutRemoteA2AAgentParameters(value *GoogleCesAgentRemoteA2AAgent) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleCesAgent) validatePutRemoteDialogflowAgentParameters(value *GoogleCesAgentRemoteDialogflowAgent) error {
 	return nil
 }
@@ -120,6 +124,10 @@ func (g *jsiiProxy_GoogleCesAgent) validatePutTimeoutsParameters(value *GoogleCe
 }
 
 func (g *jsiiProxy_GoogleCesAgent) validatePutToolsetsParameters(value interface{}) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleCesAgent) validatePutTransferRulesParameters(value interface{}) error {
 	return nil
 }
 

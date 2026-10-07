@@ -5,14 +5,14 @@ package googlecomputehavpngateway
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputehavpngateway/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputehavpngateway/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_ha_vpn_gateway google_compute_ha_vpn_gateway}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_ha_vpn_gateway google_compute_ha_vpn_gateway}.
 type GoogleComputeHaVpnGateway interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -698,7 +698,7 @@ func (j *jsiiProxy_GoogleComputeHaVpnGateway) VpnInterfacesInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_ha_vpn_gateway google_compute_ha_vpn_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_ha_vpn_gateway google_compute_ha_vpn_gateway} Resource.
 func NewGoogleComputeHaVpnGateway(scope constructs.Construct, id *string, config *GoogleComputeHaVpnGatewayConfig) GoogleComputeHaVpnGateway {
 	_init_.Initialize()
 
@@ -716,7 +716,7 @@ func NewGoogleComputeHaVpnGateway(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_ha_vpn_gateway google_compute_ha_vpn_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_ha_vpn_gateway google_compute_ha_vpn_gateway} Resource.
 func NewGoogleComputeHaVpnGateway_Override(g GoogleComputeHaVpnGateway, scope constructs.Construct, id *string, config *GoogleComputeHaVpnGatewayConfig) {
 	_init_.Initialize()
 

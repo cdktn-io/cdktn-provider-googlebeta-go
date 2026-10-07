@@ -5,14 +5,14 @@ package googledialogflowcxflow
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxflow/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxflow/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_flow google_dialogflow_cx_flow}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_flow google_dialogflow_cx_flow}.
 type GoogleDialogflowCxFlow interface {
 	cdktn.TerraformResource
 	AdvancedSettings() GoogleDialogflowCxFlowAdvancedSettingsOutputReference
@@ -690,7 +690,7 @@ func (j *jsiiProxy_GoogleDialogflowCxFlow) TransitionRoutesInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_flow google_dialogflow_cx_flow} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_flow google_dialogflow_cx_flow} Resource.
 func NewGoogleDialogflowCxFlow(scope constructs.Construct, id *string, config *GoogleDialogflowCxFlowConfig) GoogleDialogflowCxFlow {
 	_init_.Initialize()
 
@@ -708,7 +708,7 @@ func NewGoogleDialogflowCxFlow(scope constructs.Construct, id *string, config *G
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_flow google_dialogflow_cx_flow} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_flow google_dialogflow_cx_flow} Resource.
 func NewGoogleDialogflowCxFlow_Override(g GoogleDialogflowCxFlow, scope constructs.Construct, id *string, config *GoogleDialogflowCxFlowConfig) {
 	_init_.Initialize()
 

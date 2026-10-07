@@ -5,14 +5,14 @@ package googledialogflowagent
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowagent/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowagent/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_agent google_dialogflow_agent}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_agent google_dialogflow_agent}.
 type GoogleDialogflowAgent interface {
 	cdktn.TerraformResource
 	ApiVersion() *string
@@ -712,7 +712,7 @@ func (j *jsiiProxy_GoogleDialogflowAgent) TimeZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_agent google_dialogflow_agent} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_agent google_dialogflow_agent} Resource.
 func NewGoogleDialogflowAgent(scope constructs.Construct, id *string, config *GoogleDialogflowAgentConfig) GoogleDialogflowAgent {
 	_init_.Initialize()
 
@@ -730,7 +730,7 @@ func NewGoogleDialogflowAgent(scope constructs.Construct, id *string, config *Go
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_agent google_dialogflow_agent} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_agent google_dialogflow_agent} Resource.
 func NewGoogleDialogflowAgent_Override(g GoogleDialogflowAgent, scope constructs.Construct, id *string, config *GoogleDialogflowAgentConfig) {
 	_init_.Initialize()
 

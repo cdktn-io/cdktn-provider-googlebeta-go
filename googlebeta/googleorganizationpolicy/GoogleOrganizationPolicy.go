@@ -5,14 +5,14 @@ package googleorganizationpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleorganizationpolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleorganizationpolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_organization_policy google_organization_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_organization_policy google_organization_policy}.
 type GoogleOrganizationPolicy interface {
 	cdktn.TerraformResource
 	BooleanPolicy() GoogleOrganizationPolicyBooleanPolicyOutputReference
@@ -580,7 +580,7 @@ func (j *jsiiProxy_GoogleOrganizationPolicy) VersionInput() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_organization_policy google_organization_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_organization_policy google_organization_policy} Resource.
 func NewGoogleOrganizationPolicy(scope constructs.Construct, id *string, config *GoogleOrganizationPolicyConfig) GoogleOrganizationPolicy {
 	_init_.Initialize()
 
@@ -598,7 +598,7 @@ func NewGoogleOrganizationPolicy(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_organization_policy google_organization_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_organization_policy google_organization_policy} Resource.
 func NewGoogleOrganizationPolicy_Override(g GoogleOrganizationPolicy, scope constructs.Construct, id *string, config *GoogleOrganizationPolicyConfig) {
 	_init_.Initialize()
 

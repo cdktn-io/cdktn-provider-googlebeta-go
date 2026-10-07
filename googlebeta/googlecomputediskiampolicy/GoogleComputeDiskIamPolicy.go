@@ -5,14 +5,14 @@ package googlecomputediskiampolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputediskiampolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputediskiampolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_disk_iam_policy google_compute_disk_iam_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_disk_iam_policy google_compute_disk_iam_policy}.
 type GoogleComputeDiskIamPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -473,7 +473,7 @@ func (j *jsiiProxy_GoogleComputeDiskIamPolicy) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_disk_iam_policy google_compute_disk_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_disk_iam_policy google_compute_disk_iam_policy} Resource.
 func NewGoogleComputeDiskIamPolicy(scope constructs.Construct, id *string, config *GoogleComputeDiskIamPolicyConfig) GoogleComputeDiskIamPolicy {
 	_init_.Initialize()
 
@@ -491,7 +491,7 @@ func NewGoogleComputeDiskIamPolicy(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_disk_iam_policy google_compute_disk_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_disk_iam_policy google_compute_disk_iam_policy} Resource.
 func NewGoogleComputeDiskIamPolicy_Override(g GoogleComputeDiskIamPolicy, scope constructs.Construct, id *string, config *GoogleComputeDiskIamPolicyConfig) {
 	_init_.Initialize()
 

@@ -5,9 +5,9 @@ package googlecesappversion
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -31,8 +31,10 @@ type GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsOutputReference in
 	// Experimental.
 	Fqn() *string
 	GoldenEvaluationMetricsThresholds() GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsList
+	GoldenHallucinationMetricBehavior() *string
 	InternalValue() *GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholds
 	SetInternalValue(val *GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholds)
+	ScenarioHallucinationMetricBehavior() *string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -130,11 +132,31 @@ func (j *jsiiProxy_GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsOutp
 	return returns
 }
 
+func (j *jsiiProxy_GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsOutputReference) GoldenHallucinationMetricBehavior() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"goldenHallucinationMetricBehavior",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsOutputReference) InternalValue() *GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholds {
 	var returns *GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholds
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCesAppVersionSnapshotAppEvaluationMetricsThresholdsOutputReference) ScenarioHallucinationMetricBehavior() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"scenarioHallucinationMetricBehavior",
 		&returns,
 	)
 	return returns

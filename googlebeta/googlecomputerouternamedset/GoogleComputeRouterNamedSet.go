@@ -5,14 +5,14 @@ package googlecomputerouternamedset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputerouternamedset/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputerouternamedset/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_router_named_set google_compute_router_named_set}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_router_named_set google_compute_router_named_set}.
 type GoogleComputeRouterNamedSet interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -592,7 +592,7 @@ func (j *jsiiProxy_GoogleComputeRouterNamedSet) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_router_named_set google_compute_router_named_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_router_named_set google_compute_router_named_set} Resource.
 func NewGoogleComputeRouterNamedSet(scope constructs.Construct, id *string, config *GoogleComputeRouterNamedSetConfig) GoogleComputeRouterNamedSet {
 	_init_.Initialize()
 
@@ -610,7 +610,7 @@ func NewGoogleComputeRouterNamedSet(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_router_named_set google_compute_router_named_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_router_named_set google_compute_router_named_set} Resource.
 func NewGoogleComputeRouterNamedSet_Override(g GoogleComputeRouterNamedSet, scope constructs.Construct, id *string, config *GoogleComputeRouterNamedSetConfig) {
 	_init_.Initialize()
 

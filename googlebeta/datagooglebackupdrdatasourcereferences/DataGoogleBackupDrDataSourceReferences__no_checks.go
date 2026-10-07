@@ -95,10 +95,6 @@ func (j *jsiiProxy_DataGoogleBackupDrDataSourceReferences) validateSetProjectPar
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleBackupDrDataSourceReferences) validateSetResourceTypeParameters(val *string) error {
-	return nil
-}
-
 func validateNewDataGoogleBackupDrDataSourceReferencesParameters(scope constructs.Construct, id *string, config *DataGoogleBackupDrDataSourceReferencesConfig) error {
 	return nil
 }

@@ -5,9 +5,9 @@ package googlecesapp
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesapp/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesapp/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -42,6 +42,8 @@ type GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsOut
 	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
 	SetTerraformResource(val cdktn.IInterpolatingParent)
+	ToolMatchingSettings() GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference
+	ToolMatchingSettingsInput() *GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettings
 	TurnLevelMetricsThresholds() GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsTurnLevelMetricsThresholdsOutputReference
 	TurnLevelMetricsThresholdsInput() *GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsTurnLevelMetricsThresholds
 	// Experimental.
@@ -69,8 +71,10 @@ type GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsOut
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutExpectationLevelMetricsThresholds(value *GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsExpectationLevelMetricsThresholds)
+	PutToolMatchingSettings(value *GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettings)
 	PutTurnLevelMetricsThresholds(value *GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsTurnLevelMetricsThresholds)
 	ResetExpectationLevelMetricsThresholds()
+	ResetToolMatchingSettings()
 	ResetTurnLevelMetricsThresholds()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -172,6 +176,26 @@ func (j *jsiiProxy_GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetric
 	_jsii_.Get(
 		j,
 		"terraformResource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsOutputReference) ToolMatchingSettings() GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference {
+	var returns GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference
+	_jsii_.Get(
+		j,
+		"toolMatchingSettings",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsOutputReference) ToolMatchingSettingsInput() *GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettings {
+	var returns *GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettings
+	_jsii_.Get(
+		j,
+		"toolMatchingSettingsInput",
 		&returns,
 	)
 	return returns
@@ -477,6 +501,17 @@ func (g *jsiiProxy_GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetric
 	)
 }
 
+func (g *jsiiProxy_GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsOutputReference) PutToolMatchingSettings(value *GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettings) {
+	if err := g.validatePutToolMatchingSettingsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putToolMatchingSettings",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsOutputReference) PutTurnLevelMetricsThresholds(value *GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsTurnLevelMetricsThresholds) {
 	if err := g.validatePutTurnLevelMetricsThresholdsParameters(value); err != nil {
 		panic(err)
@@ -492,6 +527,14 @@ func (g *jsiiProxy_GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetric
 	_jsii_.InvokeVoid(
 		g,
 		"resetExpectationLevelMetricsThresholds",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsOutputReference) ResetToolMatchingSettings() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetToolMatchingSettings",
 		nil, // no parameters
 	)
 }

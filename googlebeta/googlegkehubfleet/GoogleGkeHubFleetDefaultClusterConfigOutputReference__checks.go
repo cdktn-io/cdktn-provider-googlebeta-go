@@ -104,6 +104,17 @@ func (g *jsiiProxy_GoogleGkeHubFleetDefaultClusterConfigOutputReference) validat
 	return nil
 }
 
+func (g *jsiiProxy_GoogleGkeHubFleetDefaultClusterConfigOutputReference) validatePutCompliancePostureConfigParameters(value *GoogleGkeHubFleetDefaultClusterConfigCompliancePostureConfig) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
+	}
+
+	return nil
+}
+
 func (g *jsiiProxy_GoogleGkeHubFleetDefaultClusterConfigOutputReference) validatePutSecurityPostureConfigParameters(value *GoogleGkeHubFleetDefaultClusterConfigSecurityPostureConfig) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")

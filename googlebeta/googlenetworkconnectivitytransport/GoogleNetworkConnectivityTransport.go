@@ -5,14 +5,14 @@ package googlenetworkconnectivitytransport
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworkconnectivitytransport/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworkconnectivitytransport/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_connectivity_transport google_network_connectivity_transport}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_connectivity_transport google_network_connectivity_transport}.
 type GoogleNetworkConnectivityTransport interface {
 	cdktn.TerraformResource
 	AdminEnabled() interface{}
@@ -876,7 +876,7 @@ func (j *jsiiProxy_GoogleNetworkConnectivityTransport) TimeoutsInput() interface
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_connectivity_transport google_network_connectivity_transport} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_connectivity_transport google_network_connectivity_transport} Resource.
 func NewGoogleNetworkConnectivityTransport(scope constructs.Construct, id *string, config *GoogleNetworkConnectivityTransportConfig) GoogleNetworkConnectivityTransport {
 	_init_.Initialize()
 
@@ -894,7 +894,7 @@ func NewGoogleNetworkConnectivityTransport(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_connectivity_transport google_network_connectivity_transport} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_connectivity_transport google_network_connectivity_transport} Resource.
 func NewGoogleNetworkConnectivityTransport_Override(g GoogleNetworkConnectivityTransport, scope constructs.Construct, id *string, config *GoogleNetworkConnectivityTransportConfig) {
 	_init_.Initialize()
 

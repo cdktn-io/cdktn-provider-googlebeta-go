@@ -5,9 +5,9 @@ package googlecomputesecuritypolicyrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputesecuritypolicyrule/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputesecuritypolicyrule/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -32,7 +32,7 @@ type GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionAOutputRefere
 	Fqn() *string
 	InternalValue() interface{}
 	SetInternalValue(val interface{})
-	RequestBody() GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestBodyList
+	RequestBody() GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestBodyAList
 	RequestBodyInput() interface{}
 	RequestCookie() GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestCookieAList
 	RequestCookieInput() interface{}
@@ -156,8 +156,8 @@ func (j *jsiiProxy_GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusio
 	return returns
 }
 
-func (j *jsiiProxy_GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionAOutputReference) RequestBody() GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestBodyList {
-	var returns GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestBodyList
+func (j *jsiiProxy_GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionAOutputReference) RequestBody() GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestBodyAList {
+	var returns GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestBodyAList
 	_jsii_.Get(
 		j,
 		"requestBody",

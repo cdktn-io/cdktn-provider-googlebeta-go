@@ -5,14 +5,14 @@ package googlecomputeregionnetworkfirewallpolicyiambinding
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeregionnetworkfirewallpolicyiambinding/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeregionnetworkfirewallpolicyiambinding/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_network_firewall_policy_iam_binding google_compute_region_network_firewall_policy_iam_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_network_firewall_policy_iam_binding google_compute_region_network_firewall_policy_iam_binding}.
 type GoogleComputeRegionNetworkFirewallPolicyIamBinding interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -520,7 +520,7 @@ func (j *jsiiProxy_GoogleComputeRegionNetworkFirewallPolicyIamBinding) Terraform
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_network_firewall_policy_iam_binding google_compute_region_network_firewall_policy_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_network_firewall_policy_iam_binding google_compute_region_network_firewall_policy_iam_binding} Resource.
 func NewGoogleComputeRegionNetworkFirewallPolicyIamBinding(scope constructs.Construct, id *string, config *GoogleComputeRegionNetworkFirewallPolicyIamBindingConfig) GoogleComputeRegionNetworkFirewallPolicyIamBinding {
 	_init_.Initialize()
 
@@ -538,7 +538,7 @@ func NewGoogleComputeRegionNetworkFirewallPolicyIamBinding(scope constructs.Cons
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_network_firewall_policy_iam_binding google_compute_region_network_firewall_policy_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_network_firewall_policy_iam_binding google_compute_region_network_firewall_policy_iam_binding} Resource.
 func NewGoogleComputeRegionNetworkFirewallPolicyIamBinding_Override(g GoogleComputeRegionNetworkFirewallPolicyIamBinding, scope constructs.Construct, id *string, config *GoogleComputeRegionNetworkFirewallPolicyIamBindingConfig) {
 	_init_.Initialize()
 

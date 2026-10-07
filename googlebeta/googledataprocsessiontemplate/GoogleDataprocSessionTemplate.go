@@ -5,14 +5,14 @@ package googledataprocsessiontemplate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledataprocsessiontemplate/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataprocsessiontemplate/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataproc_session_template google_dataproc_session_template}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dataproc_session_template google_dataproc_session_template}.
 type GoogleDataprocSessionTemplate interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -673,7 +673,7 @@ func (j *jsiiProxy_GoogleDataprocSessionTemplate) Uuid() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataproc_session_template google_dataproc_session_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dataproc_session_template google_dataproc_session_template} Resource.
 func NewGoogleDataprocSessionTemplate(scope constructs.Construct, id *string, config *GoogleDataprocSessionTemplateConfig) GoogleDataprocSessionTemplate {
 	_init_.Initialize()
 
@@ -691,7 +691,7 @@ func NewGoogleDataprocSessionTemplate(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataproc_session_template google_dataproc_session_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dataproc_session_template google_dataproc_session_template} Resource.
 func NewGoogleDataprocSessionTemplate_Override(g GoogleDataprocSessionTemplate, scope constructs.Construct, id *string, config *GoogleDataprocSessionTemplateConfig) {
 	_init_.Initialize()
 

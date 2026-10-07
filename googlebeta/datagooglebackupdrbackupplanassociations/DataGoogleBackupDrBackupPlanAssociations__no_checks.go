@@ -95,10 +95,6 @@ func (j *jsiiProxy_DataGoogleBackupDrBackupPlanAssociations) validateSetProjectP
 	return nil
 }
 
-func (j *jsiiProxy_DataGoogleBackupDrBackupPlanAssociations) validateSetResourceTypeParameters(val *string) error {
-	return nil
-}
-
 func validateNewDataGoogleBackupDrBackupPlanAssociationsParameters(scope constructs.Construct, id *string, config *DataGoogleBackupDrBackupPlanAssociationsConfig) error {
 	return nil
 }

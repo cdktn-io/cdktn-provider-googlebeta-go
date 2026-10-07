@@ -5,14 +5,14 @@ package googlenetworksecuritydnsthreatdetector
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecuritydnsthreatdetector/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecuritydnsthreatdetector/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_dns_threat_detector google_network_security_dns_threat_detector}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_dns_threat_detector google_network_security_dns_threat_detector}.
 type GoogleNetworkSecurityDnsThreatDetector interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -603,7 +603,7 @@ func (j *jsiiProxy_GoogleNetworkSecurityDnsThreatDetector) UpdateTime() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_dns_threat_detector google_network_security_dns_threat_detector} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_dns_threat_detector google_network_security_dns_threat_detector} Resource.
 func NewGoogleNetworkSecurityDnsThreatDetector(scope constructs.Construct, id *string, config *GoogleNetworkSecurityDnsThreatDetectorConfig) GoogleNetworkSecurityDnsThreatDetector {
 	_init_.Initialize()
 
@@ -621,7 +621,7 @@ func NewGoogleNetworkSecurityDnsThreatDetector(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_dns_threat_detector google_network_security_dns_threat_detector} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_dns_threat_detector google_network_security_dns_threat_detector} Resource.
 func NewGoogleNetworkSecurityDnsThreatDetector_Override(g GoogleNetworkSecurityDnsThreatDetector, scope constructs.Construct, id *string, config *GoogleNetworkSecurityDnsThreatDetectorConfig) {
 	_init_.Initialize()
 

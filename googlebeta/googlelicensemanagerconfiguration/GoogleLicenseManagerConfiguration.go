@@ -5,14 +5,14 @@ package googlelicensemanagerconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlelicensemanagerconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlelicensemanagerconfiguration/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_license_manager_configuration google_license_manager_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_license_manager_configuration google_license_manager_configuration}.
 type GoogleLicenseManagerConfiguration interface {
 	cdktn.TerraformResource
 	Active() interface{}
@@ -646,7 +646,7 @@ func (j *jsiiProxy_GoogleLicenseManagerConfiguration) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_license_manager_configuration google_license_manager_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_license_manager_configuration google_license_manager_configuration} Resource.
 func NewGoogleLicenseManagerConfiguration(scope constructs.Construct, id *string, config *GoogleLicenseManagerConfigurationConfig) GoogleLicenseManagerConfiguration {
 	_init_.Initialize()
 
@@ -664,7 +664,7 @@ func NewGoogleLicenseManagerConfiguration(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_license_manager_configuration google_license_manager_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_license_manager_configuration google_license_manager_configuration} Resource.
 func NewGoogleLicenseManagerConfiguration_Override(g GoogleLicenseManagerConfiguration, scope constructs.Construct, id *string, config *GoogleLicenseManagerConfigurationConfig) {
 	_init_.Initialize()
 

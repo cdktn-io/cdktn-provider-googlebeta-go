@@ -5,9 +5,9 @@ package googledataprocworkflowtemplate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledataprocworkflowtemplate/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataprocworkflowtemplate/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -37,6 +37,8 @@ type GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigOutp
 	Image() *string
 	SetImage(val *string)
 	ImageInput() *string
+	InstanceFlexibilityPolicy() GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigInstanceFlexibilityPolicyOutputReference
+	InstanceFlexibilityPolicyInput() *GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigInstanceFlexibilityPolicy
 	InstanceNames() *[]*string
 	InternalValue() *GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfig
 	SetInternalValue(val *GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfig)
@@ -88,9 +90,11 @@ type GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigOutp
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutAccelerators(value interface{})
 	PutDiskConfig(value *GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigDiskConfig)
+	PutInstanceFlexibilityPolicy(value *GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigInstanceFlexibilityPolicy)
 	ResetAccelerators()
 	ResetDiskConfig()
 	ResetImage()
+	ResetInstanceFlexibilityPolicy()
 	ResetMachineType()
 	ResetMinCpuPlatform()
 	ResetNumInstances()
@@ -205,6 +209,26 @@ func (j *jsiiProxy_GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMa
 	_jsii_.Get(
 		j,
 		"imageInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigOutputReference) InstanceFlexibilityPolicy() GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigInstanceFlexibilityPolicyOutputReference {
+	var returns GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigInstanceFlexibilityPolicyOutputReference
+	_jsii_.Get(
+		j,
+		"instanceFlexibilityPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigOutputReference) InstanceFlexibilityPolicyInput() *GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigInstanceFlexibilityPolicy {
+	var returns *GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigInstanceFlexibilityPolicy
+	_jsii_.Get(
+		j,
+		"instanceFlexibilityPolicyInput",
 		&returns,
 	)
 	return returns
@@ -696,6 +720,17 @@ func (g *jsiiProxy_GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMa
 	)
 }
 
+func (g *jsiiProxy_GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigOutputReference) PutInstanceFlexibilityPolicy(value *GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigInstanceFlexibilityPolicy) {
+	if err := g.validatePutInstanceFlexibilityPolicyParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putInstanceFlexibilityPolicy",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigOutputReference) ResetAccelerators() {
 	_jsii_.InvokeVoid(
 		g,
@@ -716,6 +751,14 @@ func (g *jsiiProxy_GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMa
 	_jsii_.InvokeVoid(
 		g,
 		"resetImage",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigOutputReference) ResetInstanceFlexibilityPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetInstanceFlexibilityPolicy",
 		nil, // no parameters
 	)
 }

@@ -5,9 +5,9 @@ package googlecesapp
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesapp/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesapp/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -40,6 +40,8 @@ type GoogleCesAppLoggingSettingsOutputReference interface {
 	Fqn() *string
 	InternalValue() *GoogleCesAppLoggingSettings
 	SetInternalValue(val *GoogleCesAppLoggingSettings)
+	MetricAnalysisSettings() GoogleCesAppLoggingSettingsMetricAnalysisSettingsOutputReference
+	MetricAnalysisSettingsInput() *GoogleCesAppLoggingSettingsMetricAnalysisSettings
 	RedactionConfig() GoogleCesAppLoggingSettingsRedactionConfigOutputReference
 	RedactionConfigInput() *GoogleCesAppLoggingSettingsRedactionConfig
 	// Experimental.
@@ -78,11 +80,13 @@ type GoogleCesAppLoggingSettingsOutputReference interface {
 	PutBigqueryExportSettings(value *GoogleCesAppLoggingSettingsBigqueryExportSettings)
 	PutCloudLoggingSettings(value *GoogleCesAppLoggingSettingsCloudLoggingSettings)
 	PutConversationLoggingSettings(value *GoogleCesAppLoggingSettingsConversationLoggingSettings)
+	PutMetricAnalysisSettings(value *GoogleCesAppLoggingSettingsMetricAnalysisSettings)
 	PutRedactionConfig(value *GoogleCesAppLoggingSettingsRedactionConfig)
 	ResetAudioRecordingConfig()
 	ResetBigqueryExportSettings()
 	ResetCloudLoggingSettings()
 	ResetConversationLoggingSettings()
+	ResetMetricAnalysisSettings()
 	ResetRedactionConfig()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -224,6 +228,26 @@ func (j *jsiiProxy_GoogleCesAppLoggingSettingsOutputReference) InternalValue() *
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCesAppLoggingSettingsOutputReference) MetricAnalysisSettings() GoogleCesAppLoggingSettingsMetricAnalysisSettingsOutputReference {
+	var returns GoogleCesAppLoggingSettingsMetricAnalysisSettingsOutputReference
+	_jsii_.Get(
+		j,
+		"metricAnalysisSettings",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCesAppLoggingSettingsOutputReference) MetricAnalysisSettingsInput() *GoogleCesAppLoggingSettingsMetricAnalysisSettings {
+	var returns *GoogleCesAppLoggingSettingsMetricAnalysisSettings
+	_jsii_.Get(
+		j,
+		"metricAnalysisSettingsInput",
 		&returns,
 	)
 	return returns
@@ -582,6 +606,17 @@ func (g *jsiiProxy_GoogleCesAppLoggingSettingsOutputReference) PutConversationLo
 	)
 }
 
+func (g *jsiiProxy_GoogleCesAppLoggingSettingsOutputReference) PutMetricAnalysisSettings(value *GoogleCesAppLoggingSettingsMetricAnalysisSettings) {
+	if err := g.validatePutMetricAnalysisSettingsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putMetricAnalysisSettings",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleCesAppLoggingSettingsOutputReference) PutRedactionConfig(value *GoogleCesAppLoggingSettingsRedactionConfig) {
 	if err := g.validatePutRedactionConfigParameters(value); err != nil {
 		panic(err)
@@ -621,6 +656,14 @@ func (g *jsiiProxy_GoogleCesAppLoggingSettingsOutputReference) ResetConversation
 	_jsii_.InvokeVoid(
 		g,
 		"resetConversationLoggingSettings",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleCesAppLoggingSettingsOutputReference) ResetMetricAnalysisSettings() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetMetricAnalysisSettings",
 		nil, // no parameters
 	)
 }

@@ -143,6 +143,10 @@ func (j *jsiiProxy_GoogleGeminiGeminiGcpEnablementSetting) validateSetLocationPa
 	return nil
 }
 
+func (j *jsiiProxy_GoogleGeminiGeminiGcpEnablementSetting) validateSetMutationsEnabledParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleGeminiGeminiGcpEnablementSetting) validateSetProjectParameters(val *string) error {
 	return nil
 }

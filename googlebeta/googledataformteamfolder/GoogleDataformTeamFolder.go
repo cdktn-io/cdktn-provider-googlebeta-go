@@ -5,14 +5,14 @@ package googledataformteamfolder
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledataformteamfolder/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataformteamfolder/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataform_team_folder google_dataform_team_folder}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dataform_team_folder google_dataform_team_folder}.
 type GoogleDataformTeamFolder interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -508,7 +508,7 @@ func (j *jsiiProxy_GoogleDataformTeamFolder) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataform_team_folder google_dataform_team_folder} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dataform_team_folder google_dataform_team_folder} Resource.
 func NewGoogleDataformTeamFolder(scope constructs.Construct, id *string, config *GoogleDataformTeamFolderConfig) GoogleDataformTeamFolder {
 	_init_.Initialize()
 
@@ -526,7 +526,7 @@ func NewGoogleDataformTeamFolder(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataform_team_folder google_dataform_team_folder} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dataform_team_folder google_dataform_team_folder} Resource.
 func NewGoogleDataformTeamFolder_Override(g GoogleDataformTeamFolder, scope constructs.Construct, id *string, config *GoogleDataformTeamFolderConfig) {
 	_init_.Initialize()
 

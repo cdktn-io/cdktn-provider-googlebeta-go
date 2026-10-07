@@ -5,14 +5,14 @@ package googleedgecontainernodepool
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleedgecontainernodepool/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleedgecontainernodepool/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_edgecontainer_node_pool google_edgecontainer_node_pool}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_edgecontainer_node_pool google_edgecontainer_node_pool}.
 type GoogleEdgecontainerNodePool interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -706,7 +706,7 @@ func (j *jsiiProxy_GoogleEdgecontainerNodePool) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_edgecontainer_node_pool google_edgecontainer_node_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_edgecontainer_node_pool google_edgecontainer_node_pool} Resource.
 func NewGoogleEdgecontainerNodePool(scope constructs.Construct, id *string, config *GoogleEdgecontainerNodePoolConfig) GoogleEdgecontainerNodePool {
 	_init_.Initialize()
 
@@ -724,7 +724,7 @@ func NewGoogleEdgecontainerNodePool(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_edgecontainer_node_pool google_edgecontainer_node_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_edgecontainer_node_pool google_edgecontainer_node_pool} Resource.
 func NewGoogleEdgecontainerNodePool_Override(g GoogleEdgecontainerNodePool, scope constructs.Construct, id *string, config *GoogleEdgecontainerNodePoolConfig) {
 	_init_.Initialize()
 

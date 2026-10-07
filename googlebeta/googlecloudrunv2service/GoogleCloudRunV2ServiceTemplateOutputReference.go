@@ -5,9 +5,9 @@ package googlecloudrunv2service
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudrunv2service/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudrunv2service/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -87,6 +87,8 @@ type GoogleCloudRunV2ServiceTemplateOutputReference interface {
 	VolumesInput() interface{}
 	VpcAccess() GoogleCloudRunV2ServiceTemplateVpcAccessOutputReference
 	VpcAccessInput() *GoogleCloudRunV2ServiceTemplateVpcAccess
+	WorkloadIdentityConfig() GoogleCloudRunV2ServiceTemplateWorkloadIdentityConfigOutputReference
+	WorkloadIdentityConfigInput() *GoogleCloudRunV2ServiceTemplateWorkloadIdentityConfig
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
@@ -118,6 +120,7 @@ type GoogleCloudRunV2ServiceTemplateOutputReference interface {
 	PutServiceMesh(value *GoogleCloudRunV2ServiceTemplateServiceMesh)
 	PutVolumes(value interface{})
 	PutVpcAccess(value *GoogleCloudRunV2ServiceTemplateVpcAccess)
+	PutWorkloadIdentityConfig(value *GoogleCloudRunV2ServiceTemplateWorkloadIdentityConfig)
 	ResetAnnotations()
 	ResetContainers()
 	ResetEncryptionKey()
@@ -136,6 +139,7 @@ type GoogleCloudRunV2ServiceTemplateOutputReference interface {
 	ResetTimeout()
 	ResetVolumes()
 	ResetVpcAccess()
+	ResetWorkloadIdentityConfig()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -576,6 +580,26 @@ func (j *jsiiProxy_GoogleCloudRunV2ServiceTemplateOutputReference) VpcAccessInpu
 	_jsii_.Get(
 		j,
 		"vpcAccessInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCloudRunV2ServiceTemplateOutputReference) WorkloadIdentityConfig() GoogleCloudRunV2ServiceTemplateWorkloadIdentityConfigOutputReference {
+	var returns GoogleCloudRunV2ServiceTemplateWorkloadIdentityConfigOutputReference
+	_jsii_.Get(
+		j,
+		"workloadIdentityConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCloudRunV2ServiceTemplateOutputReference) WorkloadIdentityConfigInput() *GoogleCloudRunV2ServiceTemplateWorkloadIdentityConfig {
+	var returns *GoogleCloudRunV2ServiceTemplateWorkloadIdentityConfig
+	_jsii_.Get(
+		j,
+		"workloadIdentityConfigInput",
 		&returns,
 	)
 	return returns
@@ -1048,6 +1072,17 @@ func (g *jsiiProxy_GoogleCloudRunV2ServiceTemplateOutputReference) PutVpcAccess(
 	)
 }
 
+func (g *jsiiProxy_GoogleCloudRunV2ServiceTemplateOutputReference) PutWorkloadIdentityConfig(value *GoogleCloudRunV2ServiceTemplateWorkloadIdentityConfig) {
+	if err := g.validatePutWorkloadIdentityConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putWorkloadIdentityConfig",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleCloudRunV2ServiceTemplateOutputReference) ResetAnnotations() {
 	_jsii_.InvokeVoid(
 		g,
@@ -1188,6 +1223,14 @@ func (g *jsiiProxy_GoogleCloudRunV2ServiceTemplateOutputReference) ResetVpcAcces
 	_jsii_.InvokeVoid(
 		g,
 		"resetVpcAccess",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleCloudRunV2ServiceTemplateOutputReference) ResetWorkloadIdentityConfig() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetWorkloadIdentityConfig",
 		nil, // no parameters
 	)
 }

@@ -79,6 +79,10 @@ func (g *jsiiProxy_GoogleVertexAiSemanticGovernancePolicyEngine) validateOverrid
 	return nil
 }
 
+func (g *jsiiProxy_GoogleVertexAiSemanticGovernancePolicyEngine) validatePutGatewayConfigsParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleVertexAiSemanticGovernancePolicyEngine) validatePutTimeoutsParameters(value *GoogleVertexAiSemanticGovernancePolicyEngineTimeouts) error {
 	return nil
 }

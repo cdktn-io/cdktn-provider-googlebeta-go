@@ -127,6 +127,10 @@ func (j *jsiiProxy_GoogleNetworkServicesAuthzExtension) validateSetFailOpenParam
 	return nil
 }
 
+func (j *jsiiProxy_GoogleNetworkServicesAuthzExtension) validateSetForwardAttributesParameters(val *[]*string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleNetworkServicesAuthzExtension) validateSetForwardHeadersParameters(val *[]*string) error {
 	return nil
 }

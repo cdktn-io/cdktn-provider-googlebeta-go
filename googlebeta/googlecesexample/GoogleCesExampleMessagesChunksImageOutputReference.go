@@ -5,14 +5,17 @@ package googlecesexample
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesexample/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesexample/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type GoogleCesExampleMessagesChunksImageOutputReference interface {
 	cdktn.ComplexObject
+	AltText() *string
+	SetAltText(val *string)
+	AltTextInput() *string
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -70,6 +73,7 @@ type GoogleCesExampleMessagesChunksImageOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	ResetAltText()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -83,6 +87,26 @@ type GoogleCesExampleMessagesChunksImageOutputReference interface {
 // The jsii proxy struct for GoogleCesExampleMessagesChunksImageOutputReference
 type jsiiProxy_GoogleCesExampleMessagesChunksImageOutputReference struct {
 	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_GoogleCesExampleMessagesChunksImageOutputReference) AltText() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"altText",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCesExampleMessagesChunksImageOutputReference) AltTextInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"altTextInput",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_GoogleCesExampleMessagesChunksImageOutputReference) ComplexObjectIndex() interface{} {
@@ -220,6 +244,17 @@ func NewGoogleCesExampleMessagesChunksImageOutputReference_Override(g GoogleCesE
 		"@cdktn/provider-google-beta.googleCesExample.GoogleCesExampleMessagesChunksImageOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		g,
+	)
+}
+
+func (j *jsiiProxy_GoogleCesExampleMessagesChunksImageOutputReference)SetAltText(val *string) {
+	if err := j.validateSetAltTextParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"altText",
+		val,
 	)
 }
 
@@ -484,6 +519,14 @@ func (g *jsiiProxy_GoogleCesExampleMessagesChunksImageOutputReference) Interpola
 	)
 
 	return returns
+}
+
+func (g *jsiiProxy_GoogleCesExampleMessagesChunksImageOutputReference) ResetAltText() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetAltText",
+		nil, // no parameters
+	)
 }
 
 func (g *jsiiProxy_GoogleCesExampleMessagesChunksImageOutputReference) Resolve(context cdktn.IResolveContext) interface{} {

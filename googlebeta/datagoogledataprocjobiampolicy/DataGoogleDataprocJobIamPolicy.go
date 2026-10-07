@@ -5,14 +5,14 @@ package datagoogledataprocjobiampolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoogledataprocjobiampolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagoogledataprocjobiampolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_dataproc_job_iam_policy google_dataproc_job_iam_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_dataproc_job_iam_policy google_dataproc_job_iam_policy}.
 type DataGoogleDataprocJobIamPolicy interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -380,7 +380,7 @@ func (j *jsiiProxy_DataGoogleDataprocJobIamPolicy) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_dataproc_job_iam_policy google_dataproc_job_iam_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_dataproc_job_iam_policy google_dataproc_job_iam_policy} Data Source.
 func NewDataGoogleDataprocJobIamPolicy(scope constructs.Construct, id *string, config *DataGoogleDataprocJobIamPolicyConfig) DataGoogleDataprocJobIamPolicy {
 	_init_.Initialize()
 
@@ -398,7 +398,7 @@ func NewDataGoogleDataprocJobIamPolicy(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_dataproc_job_iam_policy google_dataproc_job_iam_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_dataproc_job_iam_policy google_dataproc_job_iam_policy} Data Source.
 func NewDataGoogleDataprocJobIamPolicy_Override(d DataGoogleDataprocJobIamPolicy, scope constructs.Construct, id *string, config *DataGoogleDataprocJobIamPolicyConfig) {
 	_init_.Initialize()
 

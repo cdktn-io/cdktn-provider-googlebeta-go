@@ -55,6 +55,10 @@ func (g *jsiiProxy_GoogleCesDeploymentChannelProfileOutputReference) validatePut
 	return nil
 }
 
+func (g *jsiiProxy_GoogleCesDeploymentChannelProfileOutputReference) validatePutWhatsappConfigParameters(value *GoogleCesDeploymentChannelProfileWhatsappConfig) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleCesDeploymentChannelProfileOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }

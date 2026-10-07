@@ -5,14 +5,14 @@ package googlecloudrunservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudrunservice/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudrunservice/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_service google_cloud_run_service}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_service google_cloud_run_service}.
 type GoogleCloudRunService interface {
 	cdktn.TerraformResource
 	AutogenerateRevisionName() interface{}
@@ -593,7 +593,7 @@ func (j *jsiiProxy_GoogleCloudRunService) TrafficInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_service google_cloud_run_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_service google_cloud_run_service} Resource.
 func NewGoogleCloudRunService(scope constructs.Construct, id *string, config *GoogleCloudRunServiceConfig) GoogleCloudRunService {
 	_init_.Initialize()
 
@@ -611,7 +611,7 @@ func NewGoogleCloudRunService(scope constructs.Construct, id *string, config *Go
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_service google_cloud_run_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_service google_cloud_run_service} Resource.
 func NewGoogleCloudRunService_Override(g GoogleCloudRunService, scope constructs.Construct, id *string, config *GoogleCloudRunServiceConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package googlesecretmanagerregionalsecretversion
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlesecretmanagerregionalsecretversion/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlesecretmanagerregionalsecretversion/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_secret_manager_regional_secret_version google_secret_manager_regional_secret_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_secret_manager_regional_secret_version google_secret_manager_regional_secret_version}.
 type GoogleSecretManagerRegionalSecretVersion interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -77,6 +77,14 @@ type GoogleSecretManagerRegionalSecretVersion interface {
 	SecretData() *string
 	SetSecretData(val *string)
 	SecretDataInput() *string
+	// Deprecated: Write-only: the provider never returns this value; reading it always yields null by protocol contract. The getter remains for compatibility and will be removed in a future prebuilt-provider major.
+	SecretDataWo() *string
+	// Deprecated: Write-only: the provider never returns this value; reading it always yields null by protocol contract. The getter remains for compatibility and will be removed in a future prebuilt-provider major.
+	SetSecretDataWo(val *string)
+	SecretDataWoInput() *string
+	SecretDataWoVersion() *string
+	SetSecretDataWoVersion(val *string)
+	SecretDataWoVersionInput() *string
 	SecretInput() *string
 	// Experimental.
 	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
@@ -187,6 +195,9 @@ type GoogleSecretManagerRegionalSecretVersion interface {
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
+	ResetSecretData()
+	ResetSecretDataWo()
+	ResetSecretDataWoVersion()
 	ResetTimeouts()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
@@ -505,6 +516,46 @@ func (j *jsiiProxy_GoogleSecretManagerRegionalSecretVersion) SecretDataInput() *
 	return returns
 }
 
+func (j *jsiiProxy_GoogleSecretManagerRegionalSecretVersion) SecretDataWo() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"secretDataWo",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleSecretManagerRegionalSecretVersion) SecretDataWoInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"secretDataWoInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleSecretManagerRegionalSecretVersion) SecretDataWoVersion() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"secretDataWoVersion",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleSecretManagerRegionalSecretVersion) SecretDataWoVersionInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"secretDataWoVersionInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleSecretManagerRegionalSecretVersion) SecretInput() *string {
 	var returns *string
 	_jsii_.Get(
@@ -576,7 +627,7 @@ func (j *jsiiProxy_GoogleSecretManagerRegionalSecretVersion) Version() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_secret_manager_regional_secret_version google_secret_manager_regional_secret_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_secret_manager_regional_secret_version google_secret_manager_regional_secret_version} Resource.
 func NewGoogleSecretManagerRegionalSecretVersion(scope constructs.Construct, id *string, config *GoogleSecretManagerRegionalSecretVersionConfig) GoogleSecretManagerRegionalSecretVersion {
 	_init_.Initialize()
 
@@ -594,7 +645,7 @@ func NewGoogleSecretManagerRegionalSecretVersion(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_secret_manager_regional_secret_version google_secret_manager_regional_secret_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_secret_manager_regional_secret_version google_secret_manager_regional_secret_version} Resource.
 func NewGoogleSecretManagerRegionalSecretVersion_Override(g GoogleSecretManagerRegionalSecretVersion, scope constructs.Construct, id *string, config *GoogleSecretManagerRegionalSecretVersionConfig) {
 	_init_.Initialize()
 
@@ -735,6 +786,28 @@ func (j *jsiiProxy_GoogleSecretManagerRegionalSecretVersion)SetSecretData(val *s
 	_jsii_.Set(
 		j,
 		"secretData",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleSecretManagerRegionalSecretVersion)SetSecretDataWo(val *string) {
+	if err := j.validateSetSecretDataWoParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"secretDataWo",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleSecretManagerRegionalSecretVersion)SetSecretDataWoVersion(val *string) {
+	if err := j.validateSetSecretDataWoVersionParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"secretDataWoVersion",
 		val,
 	)
 }
@@ -1166,6 +1239,30 @@ func (g *jsiiProxy_GoogleSecretManagerRegionalSecretVersion) ResetOverrideLogica
 	_jsii_.InvokeVoid(
 		g,
 		"resetOverrideLogicalId",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleSecretManagerRegionalSecretVersion) ResetSecretData() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetSecretData",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleSecretManagerRegionalSecretVersion) ResetSecretDataWo() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetSecretDataWo",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleSecretManagerRegionalSecretVersion) ResetSecretDataWoVersion() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetSecretDataWoVersion",
 		nil, // no parameters
 	)
 }

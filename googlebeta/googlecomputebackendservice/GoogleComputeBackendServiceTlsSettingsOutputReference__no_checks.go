@@ -67,6 +67,10 @@ func (j *jsiiProxy_GoogleComputeBackendServiceTlsSettingsOutputReference) valida
 	return nil
 }
 
+func (j *jsiiProxy_GoogleComputeBackendServiceTlsSettingsOutputReference) validateSetIdentityParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleComputeBackendServiceTlsSettingsOutputReference) validateSetInternalValueParameters(val *GoogleComputeBackendServiceTlsSettings) error {
 	return nil
 }

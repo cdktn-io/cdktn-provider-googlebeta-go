@@ -5,14 +5,14 @@ package googleappengineapplication
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleappengineapplication/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleappengineapplication/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_app_engine_application google_app_engine_application}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_app_engine_application google_app_engine_application}.
 type GoogleAppEngineApplication interface {
 	cdktn.TerraformResource
 	AppId() *string
@@ -660,7 +660,7 @@ func (j *jsiiProxy_GoogleAppEngineApplication) UrlDispatchRule() GoogleAppEngine
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_app_engine_application google_app_engine_application} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_app_engine_application google_app_engine_application} Resource.
 func NewGoogleAppEngineApplication(scope constructs.Construct, id *string, config *GoogleAppEngineApplicationConfig) GoogleAppEngineApplication {
 	_init_.Initialize()
 
@@ -678,7 +678,7 @@ func NewGoogleAppEngineApplication(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_app_engine_application google_app_engine_application} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_app_engine_application google_app_engine_application} Resource.
 func NewGoogleAppEngineApplication_Override(g GoogleAppEngineApplication, scope constructs.Construct, id *string, config *GoogleAppEngineApplicationConfig) {
 	_init_.Initialize()
 

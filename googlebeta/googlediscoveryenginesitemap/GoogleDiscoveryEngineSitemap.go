@@ -5,14 +5,14 @@ package googlediscoveryenginesitemap
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlediscoveryenginesitemap/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlediscoveryenginesitemap/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_discovery_engine_sitemap google_discovery_engine_sitemap}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_discovery_engine_sitemap google_discovery_engine_sitemap}.
 type GoogleDiscoveryEngineSitemap interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -543,7 +543,7 @@ func (j *jsiiProxy_GoogleDiscoveryEngineSitemap) UriInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_discovery_engine_sitemap google_discovery_engine_sitemap} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_discovery_engine_sitemap google_discovery_engine_sitemap} Resource.
 func NewGoogleDiscoveryEngineSitemap(scope constructs.Construct, id *string, config *GoogleDiscoveryEngineSitemapConfig) GoogleDiscoveryEngineSitemap {
 	_init_.Initialize()
 
@@ -561,7 +561,7 @@ func NewGoogleDiscoveryEngineSitemap(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_discovery_engine_sitemap google_discovery_engine_sitemap} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_discovery_engine_sitemap google_discovery_engine_sitemap} Resource.
 func NewGoogleDiscoveryEngineSitemap_Override(g GoogleDiscoveryEngineSitemap, scope constructs.Construct, id *string, config *GoogleDiscoveryEngineSitemapConfig) {
 	_init_.Initialize()
 

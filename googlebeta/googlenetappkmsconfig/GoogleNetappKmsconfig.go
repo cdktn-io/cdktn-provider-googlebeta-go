@@ -5,14 +5,14 @@ package googlenetappkmsconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetappkmsconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetappkmsconfig/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_netapp_kmsconfig google_netapp_kmsconfig}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_netapp_kmsconfig google_netapp_kmsconfig}.
 type GoogleNetappKmsconfig interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -601,7 +601,7 @@ func (j *jsiiProxy_GoogleNetappKmsconfig) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_netapp_kmsconfig google_netapp_kmsconfig} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_netapp_kmsconfig google_netapp_kmsconfig} Resource.
 func NewGoogleNetappKmsconfig(scope constructs.Construct, id *string, config *GoogleNetappKmsconfigConfig) GoogleNetappKmsconfig {
 	_init_.Initialize()
 
@@ -619,7 +619,7 @@ func NewGoogleNetappKmsconfig(scope constructs.Construct, id *string, config *Go
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_netapp_kmsconfig google_netapp_kmsconfig} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_netapp_kmsconfig google_netapp_kmsconfig} Resource.
 func NewGoogleNetappKmsconfig_Override(g GoogleNetappKmsconfig, scope constructs.Construct, id *string, config *GoogleNetappKmsconfigConfig) {
 	_init_.Initialize()
 

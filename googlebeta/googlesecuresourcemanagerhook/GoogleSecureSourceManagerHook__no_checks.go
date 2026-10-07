@@ -159,6 +159,10 @@ func (j *jsiiProxy_GoogleSecureSourceManagerHook) validateSetSensitiveQueryStrin
 	return nil
 }
 
+func (j *jsiiProxy_GoogleSecureSourceManagerHook) validateSetServiceAccountAuthParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleSecureSourceManagerHook) validateSetTargetUriParameters(val *string) error {
 	return nil
 }

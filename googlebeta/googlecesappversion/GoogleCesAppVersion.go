@@ -5,14 +5,14 @@ package googlecesappversion
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app_version google_ces_app_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app_version google_ces_app_version}.
 type GoogleCesAppVersion interface {
 	cdktn.TerraformResource
 	App() *string
@@ -612,7 +612,7 @@ func (j *jsiiProxy_GoogleCesAppVersion) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app_version google_ces_app_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app_version google_ces_app_version} Resource.
 func NewGoogleCesAppVersion(scope constructs.Construct, id *string, config *GoogleCesAppVersionConfig) GoogleCesAppVersion {
 	_init_.Initialize()
 
@@ -630,7 +630,7 @@ func NewGoogleCesAppVersion(scope constructs.Construct, id *string, config *Goog
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app_version google_ces_app_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app_version google_ces_app_version} Resource.
 func NewGoogleCesAppVersion_Override(g GoogleCesAppVersion, scope constructs.Construct, id *string, config *GoogleCesAppVersionConfig) {
 	_init_.Initialize()
 

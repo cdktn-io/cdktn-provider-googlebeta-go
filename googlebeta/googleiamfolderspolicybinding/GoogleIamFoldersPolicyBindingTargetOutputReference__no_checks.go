@@ -67,6 +67,10 @@ func (j *jsiiProxy_GoogleIamFoldersPolicyBindingTargetOutputReference) validateS
 	return nil
 }
 
+func (j *jsiiProxy_GoogleIamFoldersPolicyBindingTargetOutputReference) validateSetResourceParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleIamFoldersPolicyBindingTargetOutputReference) validateSetTerraformAttributeParameters(val *string) error {
 	return nil
 }

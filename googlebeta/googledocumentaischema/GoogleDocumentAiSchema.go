@@ -5,14 +5,14 @@ package googledocumentaischema
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledocumentaischema/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledocumentaischema/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_document_ai_schema google_document_ai_schema}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_document_ai_schema google_document_ai_schema}.
 type GoogleDocumentAiSchema interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -566,7 +566,7 @@ func (j *jsiiProxy_GoogleDocumentAiSchema) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_document_ai_schema google_document_ai_schema} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_document_ai_schema google_document_ai_schema} Resource.
 func NewGoogleDocumentAiSchema(scope constructs.Construct, id *string, config *GoogleDocumentAiSchemaConfig) GoogleDocumentAiSchema {
 	_init_.Initialize()
 
@@ -584,7 +584,7 @@ func NewGoogleDocumentAiSchema(scope constructs.Construct, id *string, config *G
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_document_ai_schema google_document_ai_schema} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_document_ai_schema google_document_ai_schema} Resource.
 func NewGoogleDocumentAiSchema_Override(g GoogleDocumentAiSchema, scope constructs.Construct, id *string, config *GoogleDocumentAiSchemaConfig) {
 	_init_.Initialize()
 

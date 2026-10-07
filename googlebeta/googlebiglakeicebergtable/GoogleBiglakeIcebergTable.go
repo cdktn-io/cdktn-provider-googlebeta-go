@@ -5,14 +5,14 @@ package googlebiglakeicebergtable
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebiglakeicebergtable/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebiglakeicebergtable/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_biglake_iceberg_table google_biglake_iceberg_table}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_biglake_iceberg_table google_biglake_iceberg_table}.
 type GoogleBiglakeIcebergTable interface {
 	cdktn.TerraformResource
 	Catalog() *string
@@ -628,7 +628,7 @@ func (j *jsiiProxy_GoogleBiglakeIcebergTable) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_biglake_iceberg_table google_biglake_iceberg_table} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_biglake_iceberg_table google_biglake_iceberg_table} Resource.
 func NewGoogleBiglakeIcebergTable(scope constructs.Construct, id *string, config *GoogleBiglakeIcebergTableConfig) GoogleBiglakeIcebergTable {
 	_init_.Initialize()
 
@@ -646,7 +646,7 @@ func NewGoogleBiglakeIcebergTable(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_biglake_iceberg_table google_biglake_iceberg_table} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_biglake_iceberg_table google_biglake_iceberg_table} Resource.
 func NewGoogleBiglakeIcebergTable_Override(g GoogleBiglakeIcebergTable, scope constructs.Construct, id *string, config *GoogleBiglakeIcebergTableConfig) {
 	_init_.Initialize()
 

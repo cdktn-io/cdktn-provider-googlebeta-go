@@ -151,6 +151,10 @@ func (j *jsiiProxy_GoogleSqlDatabaseInstance) validateSetDeletionProtectionParam
 	return nil
 }
 
+func (j *jsiiProxy_GoogleSqlDatabaseInstance) validateSetEncryptionConfidentialModeParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleSqlDatabaseInstance) validateSetEncryptionKeyNameParameters(val *string) error {
 	return nil
 }

@@ -5,14 +5,14 @@ package googlechronicledataexport
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledataexport/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlechronicledataexport/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_chronicle_data_export google_chronicle_data_export}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_chronicle_data_export google_chronicle_data_export}.
 type GoogleChronicleDataExport interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -680,7 +680,7 @@ func (j *jsiiProxy_GoogleChronicleDataExport) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_chronicle_data_export google_chronicle_data_export} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_chronicle_data_export google_chronicle_data_export} Resource.
 func NewGoogleChronicleDataExport(scope constructs.Construct, id *string, config *GoogleChronicleDataExportConfig) GoogleChronicleDataExport {
 	_init_.Initialize()
 
@@ -698,7 +698,7 @@ func NewGoogleChronicleDataExport(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_chronicle_data_export google_chronicle_data_export} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_chronicle_data_export google_chronicle_data_export} Resource.
 func NewGoogleChronicleDataExport_Override(g GoogleChronicleDataExport, scope constructs.Construct, id *string, config *GoogleChronicleDataExportConfig) {
 	_init_.Initialize()
 

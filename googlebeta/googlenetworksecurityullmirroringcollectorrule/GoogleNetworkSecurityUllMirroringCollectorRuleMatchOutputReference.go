@@ -5,9 +5,9 @@ package googlenetworksecurityullmirroringcollectorrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityullmirroringcollectorrule/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityullmirroringcollectorrule/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -41,6 +41,9 @@ type GoogleNetworkSecurityUllMirroringCollectorRuleMatchOutputReference interfac
 	IpProtocols() *[]*string
 	SetIpProtocols(val *[]*string)
 	IpProtocolsInput() *[]*string
+	PrimaryIpRanges() *[]*string
+	SetPrimaryIpRanges(val *[]*string)
+	PrimaryIpRangesInput() *[]*string
 	SrcIpRanges() *[]*string
 	SetSrcIpRanges(val *[]*string)
 	SrcIpRangesInput() *[]*string
@@ -79,6 +82,7 @@ type GoogleNetworkSecurityUllMirroringCollectorRuleMatchOutputReference interfac
 	ResetDirection()
 	ResetDstIpRanges()
 	ResetIpProtocols()
+	ResetPrimaryIpRanges()
 	ResetSrcIpRanges()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -200,6 +204,26 @@ func (j *jsiiProxy_GoogleNetworkSecurityUllMirroringCollectorRuleMatchOutputRefe
 	_jsii_.Get(
 		j,
 		"ipProtocolsInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleNetworkSecurityUllMirroringCollectorRuleMatchOutputReference) PrimaryIpRanges() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"primaryIpRanges",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleNetworkSecurityUllMirroringCollectorRuleMatchOutputReference) PrimaryIpRangesInput() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"primaryIpRangesInput",
 		&returns,
 	)
 	return returns
@@ -335,6 +359,17 @@ func (j *jsiiProxy_GoogleNetworkSecurityUllMirroringCollectorRuleMatchOutputRefe
 	_jsii_.Set(
 		j,
 		"ipProtocols",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleNetworkSecurityUllMirroringCollectorRuleMatchOutputReference)SetPrimaryIpRanges(val *[]*string) {
+	if err := j.validateSetPrimaryIpRangesParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"primaryIpRanges",
 		val,
 	)
 }
@@ -578,6 +613,14 @@ func (g *jsiiProxy_GoogleNetworkSecurityUllMirroringCollectorRuleMatchOutputRefe
 	_jsii_.InvokeVoid(
 		g,
 		"resetIpProtocols",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleNetworkSecurityUllMirroringCollectorRuleMatchOutputReference) ResetPrimaryIpRanges() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetPrimaryIpRanges",
 		nil, // no parameters
 	)
 }

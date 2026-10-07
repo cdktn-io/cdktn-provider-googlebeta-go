@@ -5,14 +5,14 @@ package googlecomputewiregroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputewiregroup/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputewiregroup/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_wire_group google_compute_wire_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_wire_group google_compute_wire_group}.
 type GoogleComputeWireGroup interface {
 	cdktn.TerraformResource
 	AdminEnabled() interface{}
@@ -639,7 +639,7 @@ func (j *jsiiProxy_GoogleComputeWireGroup) Wires() GoogleComputeWireGroupWiresLi
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_wire_group google_compute_wire_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_wire_group google_compute_wire_group} Resource.
 func NewGoogleComputeWireGroup(scope constructs.Construct, id *string, config *GoogleComputeWireGroupConfig) GoogleComputeWireGroup {
 	_init_.Initialize()
 
@@ -657,7 +657,7 @@ func NewGoogleComputeWireGroup(scope constructs.Construct, id *string, config *G
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_wire_group google_compute_wire_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_wire_group google_compute_wire_group} Resource.
 func NewGoogleComputeWireGroup_Override(g GoogleComputeWireGroup, scope constructs.Construct, id *string, config *GoogleComputeWireGroupConfig) {
 	_init_.Initialize()
 

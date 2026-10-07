@@ -5,14 +5,14 @@ package googledataplexglossaryiammember
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledataplexglossaryiammember/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataplexglossaryiammember/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataplex_glossary_iam_member google_dataplex_glossary_iam_member}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dataplex_glossary_iam_member google_dataplex_glossary_iam_member}.
 type GoogleDataplexGlossaryIamMember interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -520,7 +520,7 @@ func (j *jsiiProxy_GoogleDataplexGlossaryIamMember) TerraformResourceType() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataplex_glossary_iam_member google_dataplex_glossary_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dataplex_glossary_iam_member google_dataplex_glossary_iam_member} Resource.
 func NewGoogleDataplexGlossaryIamMember(scope constructs.Construct, id *string, config *GoogleDataplexGlossaryIamMemberConfig) GoogleDataplexGlossaryIamMember {
 	_init_.Initialize()
 
@@ -538,7 +538,7 @@ func NewGoogleDataplexGlossaryIamMember(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataplex_glossary_iam_member google_dataplex_glossary_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dataplex_glossary_iam_member google_dataplex_glossary_iam_member} Resource.
 func NewGoogleDataplexGlossaryIamMember_Override(g GoogleDataplexGlossaryIamMember, scope constructs.Construct, id *string, config *GoogleDataplexGlossaryIamMemberConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package googlevmwareenginecluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevmwareenginecluster/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlevmwareenginecluster/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vmwareengine_cluster google_vmwareengine_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_vmwareengine_cluster google_vmwareengine_cluster}.
 type GoogleVmwareengineCluster interface {
 	cdktn.TerraformResource
 	AutoscalingSettings() GoogleVmwareengineClusterAutoscalingSettingsOutputReference
@@ -589,7 +589,7 @@ func (j *jsiiProxy_GoogleVmwareengineCluster) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vmwareengine_cluster google_vmwareengine_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_vmwareengine_cluster google_vmwareengine_cluster} Resource.
 func NewGoogleVmwareengineCluster(scope constructs.Construct, id *string, config *GoogleVmwareengineClusterConfig) GoogleVmwareengineCluster {
 	_init_.Initialize()
 
@@ -607,7 +607,7 @@ func NewGoogleVmwareengineCluster(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vmwareengine_cluster google_vmwareengine_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_vmwareengine_cluster google_vmwareengine_cluster} Resource.
 func NewGoogleVmwareengineCluster_Override(g GoogleVmwareengineCluster, scope constructs.Construct, id *string, config *GoogleVmwareengineClusterConfig) {
 	_init_.Initialize()
 

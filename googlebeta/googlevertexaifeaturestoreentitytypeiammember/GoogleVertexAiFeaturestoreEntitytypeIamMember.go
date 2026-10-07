@@ -5,14 +5,14 @@ package googlevertexaifeaturestoreentitytypeiammember
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaifeaturestoreentitytypeiammember/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlevertexaifeaturestoreentitytypeiammember/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_featurestore_entitytype_iam_member google_vertex_ai_featurestore_entitytype_iam_member}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_vertex_ai_featurestore_entitytype_iam_member google_vertex_ai_featurestore_entitytype_iam_member}.
 type GoogleVertexAiFeaturestoreEntitytypeIamMember interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -495,7 +495,7 @@ func (j *jsiiProxy_GoogleVertexAiFeaturestoreEntitytypeIamMember) TerraformResou
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_featurestore_entitytype_iam_member google_vertex_ai_featurestore_entitytype_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_vertex_ai_featurestore_entitytype_iam_member google_vertex_ai_featurestore_entitytype_iam_member} Resource.
 func NewGoogleVertexAiFeaturestoreEntitytypeIamMember(scope constructs.Construct, id *string, config *GoogleVertexAiFeaturestoreEntitytypeIamMemberConfig) GoogleVertexAiFeaturestoreEntitytypeIamMember {
 	_init_.Initialize()
 
@@ -513,7 +513,7 @@ func NewGoogleVertexAiFeaturestoreEntitytypeIamMember(scope constructs.Construct
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_featurestore_entitytype_iam_member google_vertex_ai_featurestore_entitytype_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_vertex_ai_featurestore_entitytype_iam_member google_vertex_ai_featurestore_entitytype_iam_member} Resource.
 func NewGoogleVertexAiFeaturestoreEntitytypeIamMember_Override(g GoogleVertexAiFeaturestoreEntitytypeIamMember, scope constructs.Construct, id *string, config *GoogleVertexAiFeaturestoreEntitytypeIamMemberConfig) {
 	_init_.Initialize()
 

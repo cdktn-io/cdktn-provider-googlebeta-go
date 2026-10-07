@@ -5,14 +5,14 @@ package googleapihubhostprojectregistration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleapihubhostprojectregistration/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleapihubhostprojectregistration/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apihub_host_project_registration google_apihub_host_project_registration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apihub_host_project_registration google_apihub_host_project_registration}.
 type GoogleApihubHostProjectRegistration interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -507,7 +507,7 @@ func (j *jsiiProxy_GoogleApihubHostProjectRegistration) TimeoutsInput() interfac
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apihub_host_project_registration google_apihub_host_project_registration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apihub_host_project_registration google_apihub_host_project_registration} Resource.
 func NewGoogleApihubHostProjectRegistration(scope constructs.Construct, id *string, config *GoogleApihubHostProjectRegistrationConfig) GoogleApihubHostProjectRegistration {
 	_init_.Initialize()
 
@@ -525,7 +525,7 @@ func NewGoogleApihubHostProjectRegistration(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apihub_host_project_registration google_apihub_host_project_registration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apihub_host_project_registration google_apihub_host_project_registration} Resource.
 func NewGoogleApihubHostProjectRegistration_Override(g GoogleApihubHostProjectRegistration, scope constructs.Construct, id *string, config *GoogleApihubHostProjectRegistrationConfig) {
 	_init_.Initialize()
 

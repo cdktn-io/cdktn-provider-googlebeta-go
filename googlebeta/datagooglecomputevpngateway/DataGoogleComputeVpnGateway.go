@@ -5,14 +5,14 @@ package datagooglecomputevpngateway
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagooglecomputevpngateway/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagooglecomputevpngateway/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_compute_vpn_gateway google_compute_vpn_gateway}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_compute_vpn_gateway google_compute_vpn_gateway}.
 type DataGoogleComputeVpnGateway interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -391,7 +391,7 @@ func (j *jsiiProxy_DataGoogleComputeVpnGateway) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_compute_vpn_gateway google_compute_vpn_gateway} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_compute_vpn_gateway google_compute_vpn_gateway} Data Source.
 func NewDataGoogleComputeVpnGateway(scope constructs.Construct, id *string, config *DataGoogleComputeVpnGatewayConfig) DataGoogleComputeVpnGateway {
 	_init_.Initialize()
 
@@ -409,7 +409,7 @@ func NewDataGoogleComputeVpnGateway(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_compute_vpn_gateway google_compute_vpn_gateway} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_compute_vpn_gateway google_compute_vpn_gateway} Data Source.
 func NewDataGoogleComputeVpnGateway_Override(d DataGoogleComputeVpnGateway, scope constructs.Construct, id *string, config *DataGoogleComputeVpnGatewayConfig) {
 	_init_.Initialize()
 

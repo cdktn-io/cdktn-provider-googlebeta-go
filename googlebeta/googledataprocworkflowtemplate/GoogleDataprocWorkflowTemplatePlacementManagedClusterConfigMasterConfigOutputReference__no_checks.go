@@ -55,6 +55,10 @@ func (g *jsiiProxy_GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMa
 	return nil
 }
 
+func (g *jsiiProxy_GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigOutputReference) validatePutInstanceFlexibilityPolicyParameters(value *GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigInstanceFlexibilityPolicy) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleDataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }

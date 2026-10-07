@@ -59,11 +59,19 @@ func (j *jsiiProxy_GoogleCesAppAudioProcessingConfigSynthesizeSpeechConfigsOutpu
 	return nil
 }
 
+func (j *jsiiProxy_GoogleCesAppAudioProcessingConfigSynthesizeSpeechConfigsOutputReference) validateSetInstructionParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleCesAppAudioProcessingConfigSynthesizeSpeechConfigsOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	return nil
 }
 
 func (j *jsiiProxy_GoogleCesAppAudioProcessingConfigSynthesizeSpeechConfigsOutputReference) validateSetLanguageCodeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleCesAppAudioProcessingConfigSynthesizeSpeechConfigsOutputReference) validateSetModelParameters(val *string) error {
 	return nil
 }
 

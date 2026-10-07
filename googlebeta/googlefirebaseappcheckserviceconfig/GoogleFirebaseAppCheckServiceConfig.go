@@ -5,14 +5,14 @@ package googlefirebaseappcheckserviceconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirebaseappcheckserviceconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlefirebaseappcheckserviceconfig/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_firebase_app_check_service_config google_firebase_app_check_service_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_firebase_app_check_service_config google_firebase_app_check_service_config}.
 type GoogleFirebaseAppCheckServiceConfig interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -498,7 +498,7 @@ func (j *jsiiProxy_GoogleFirebaseAppCheckServiceConfig) TimeoutsInput() interfac
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_firebase_app_check_service_config google_firebase_app_check_service_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_firebase_app_check_service_config google_firebase_app_check_service_config} Resource.
 func NewGoogleFirebaseAppCheckServiceConfig(scope constructs.Construct, id *string, config *GoogleFirebaseAppCheckServiceConfigConfig) GoogleFirebaseAppCheckServiceConfig {
 	_init_.Initialize()
 
@@ -516,7 +516,7 @@ func NewGoogleFirebaseAppCheckServiceConfig(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_firebase_app_check_service_config google_firebase_app_check_service_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_firebase_app_check_service_config google_firebase_app_check_service_config} Resource.
 func NewGoogleFirebaseAppCheckServiceConfig_Override(g GoogleFirebaseAppCheckServiceConfig, scope constructs.Construct, id *string, config *GoogleFirebaseAppCheckServiceConfigConfig) {
 	_init_.Initialize()
 

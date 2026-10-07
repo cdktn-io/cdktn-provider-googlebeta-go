@@ -5,14 +5,14 @@ package googlecomputeregiondiskiammember
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeregiondiskiammember/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeregiondiskiammember/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_disk_iam_member google_compute_region_disk_iam_member}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_disk_iam_member google_compute_region_disk_iam_member}.
 type GoogleComputeRegionDiskIamMember interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -520,7 +520,7 @@ func (j *jsiiProxy_GoogleComputeRegionDiskIamMember) TerraformResourceType() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_disk_iam_member google_compute_region_disk_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_disk_iam_member google_compute_region_disk_iam_member} Resource.
 func NewGoogleComputeRegionDiskIamMember(scope constructs.Construct, id *string, config *GoogleComputeRegionDiskIamMemberConfig) GoogleComputeRegionDiskIamMember {
 	_init_.Initialize()
 
@@ -538,7 +538,7 @@ func NewGoogleComputeRegionDiskIamMember(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_disk_iam_member google_compute_region_disk_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_disk_iam_member google_compute_region_disk_iam_member} Resource.
 func NewGoogleComputeRegionDiskIamMember_Override(g GoogleComputeRegionDiskIamMember, scope constructs.Construct, id *string, config *GoogleComputeRegionDiskIamMemberConfig) {
 	_init_.Initialize()
 

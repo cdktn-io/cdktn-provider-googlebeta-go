@@ -95,6 +95,10 @@ func (g *jsiiProxy_GoogleDiscoveryEngineDataConnector) validatePutEntitiesParame
 	return nil
 }
 
+func (g *jsiiProxy_GoogleDiscoveryEngineDataConnector) validatePutMetadataParameters(value *GoogleDiscoveryEngineDataConnectorMetadata) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleDiscoveryEngineDataConnector) validatePutTimeoutsParameters(value *GoogleDiscoveryEngineDataConnectorTimeouts) error {
 	return nil
 }
@@ -204,6 +208,10 @@ func (j *jsiiProxy_GoogleDiscoveryEngineDataConnector) validateSetStaticIpEnable
 }
 
 func (j *jsiiProxy_GoogleDiscoveryEngineDataConnector) validateSetSyncModeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleDiscoveryEngineDataConnector) validateSetTagParameters(val *string) error {
 	return nil
 }
 

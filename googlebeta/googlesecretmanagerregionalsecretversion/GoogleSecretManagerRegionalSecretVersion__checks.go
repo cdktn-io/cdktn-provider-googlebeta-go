@@ -490,6 +490,22 @@ func (j *jsiiProxy_GoogleSecretManagerRegionalSecretVersion) validateSetSecretDa
 	return nil
 }
 
+func (j *jsiiProxy_GoogleSecretManagerRegionalSecretVersion) validateSetSecretDataWoParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_GoogleSecretManagerRegionalSecretVersion) validateSetSecretDataWoVersionParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func validateNewGoogleSecretManagerRegionalSecretVersionParameters(scope constructs.Construct, id *string, config *GoogleSecretManagerRegionalSecretVersionConfig) error {
 	if scope == nil {
 		return fmt.Errorf("parameter scope is required, but nil was provided")

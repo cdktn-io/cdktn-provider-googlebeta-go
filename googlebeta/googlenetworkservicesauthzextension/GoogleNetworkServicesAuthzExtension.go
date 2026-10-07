@@ -5,14 +5,14 @@ package googlenetworkservicesauthzextension
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworkservicesauthzextension/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworkservicesauthzextension/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_services_authz_extension google_network_services_authz_extension}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_services_authz_extension google_network_services_authz_extension}.
 type GoogleNetworkServicesAuthzExtension interface {
 	cdktn.TerraformResource
 	Authority() *string
@@ -49,6 +49,9 @@ type GoogleNetworkServicesAuthzExtension interface {
 	ForEach() cdktn.ITerraformIterator
 	// Experimental.
 	SetForEach(val cdktn.ITerraformIterator)
+	ForwardAttributes() *[]*string
+	SetForwardAttributes(val *[]*string)
+	ForwardAttributesInput() *[]*string
 	ForwardHeaders() *[]*string
 	SetForwardHeaders(val *[]*string)
 	ForwardHeadersInput() *[]*string
@@ -209,6 +212,7 @@ type GoogleNetworkServicesAuthzExtension interface {
 	ResetDeletionPolicy()
 	ResetDescription()
 	ResetFailOpen()
+	ResetForwardAttributes()
 	ResetForwardHeaders()
 	ResetId()
 	ResetLabels()
@@ -402,6 +406,26 @@ func (j *jsiiProxy_GoogleNetworkServicesAuthzExtension) ForEach() cdktn.ITerrafo
 	_jsii_.Get(
 		j,
 		"forEach",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleNetworkServicesAuthzExtension) ForwardAttributes() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"forwardAttributes",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleNetworkServicesAuthzExtension) ForwardAttributesInput() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"forwardAttributesInput",
 		&returns,
 	)
 	return returns
@@ -768,7 +792,7 @@ func (j *jsiiProxy_GoogleNetworkServicesAuthzExtension) WireFormatInput() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_services_authz_extension google_network_services_authz_extension} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_services_authz_extension google_network_services_authz_extension} Resource.
 func NewGoogleNetworkServicesAuthzExtension(scope constructs.Construct, id *string, config *GoogleNetworkServicesAuthzExtensionConfig) GoogleNetworkServicesAuthzExtension {
 	_init_.Initialize()
 
@@ -786,7 +810,7 @@ func NewGoogleNetworkServicesAuthzExtension(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_services_authz_extension google_network_services_authz_extension} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_services_authz_extension google_network_services_authz_extension} Resource.
 func NewGoogleNetworkServicesAuthzExtension_Override(g GoogleNetworkServicesAuthzExtension, scope constructs.Construct, id *string, config *GoogleNetworkServicesAuthzExtensionConfig) {
 	_init_.Initialize()
 
@@ -875,6 +899,17 @@ func (j *jsiiProxy_GoogleNetworkServicesAuthzExtension)SetForEach(val cdktn.ITer
 	_jsii_.Set(
 		j,
 		"forEach",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleNetworkServicesAuthzExtension)SetForwardAttributes(val *[]*string) {
+	if err := j.validateSetForwardAttributesParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"forwardAttributes",
 		val,
 	)
 }
@@ -1449,6 +1484,14 @@ func (g *jsiiProxy_GoogleNetworkServicesAuthzExtension) ResetFailOpen() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetFailOpen",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleNetworkServicesAuthzExtension) ResetForwardAttributes() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetForwardAttributes",
 		nil, // no parameters
 	)
 }

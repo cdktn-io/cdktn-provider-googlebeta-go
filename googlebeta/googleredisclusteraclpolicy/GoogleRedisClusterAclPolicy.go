@@ -5,14 +5,14 @@ package googleredisclusteraclpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleredisclusteraclpolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleredisclusteraclpolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_redis_cluster_acl_policy google_redis_cluster_acl_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_redis_cluster_acl_policy google_redis_cluster_acl_policy}.
 type GoogleRedisClusterAclPolicy interface {
 	cdktn.TerraformResource
 	AclPolicyId() *string
@@ -542,7 +542,7 @@ func (j *jsiiProxy_GoogleRedisClusterAclPolicy) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_redis_cluster_acl_policy google_redis_cluster_acl_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_redis_cluster_acl_policy google_redis_cluster_acl_policy} Resource.
 func NewGoogleRedisClusterAclPolicy(scope constructs.Construct, id *string, config *GoogleRedisClusterAclPolicyConfig) GoogleRedisClusterAclPolicy {
 	_init_.Initialize()
 
@@ -560,7 +560,7 @@ func NewGoogleRedisClusterAclPolicy(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_redis_cluster_acl_policy google_redis_cluster_acl_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_redis_cluster_acl_policy google_redis_cluster_acl_policy} Resource.
 func NewGoogleRedisClusterAclPolicy_Override(g GoogleRedisClusterAclPolicy, scope constructs.Construct, id *string, config *GoogleRedisClusterAclPolicyConfig) {
 	_init_.Initialize()
 

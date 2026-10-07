@@ -5,15 +5,16 @@ package datagooglecomputemachinetypes
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagooglecomputemachinetypes/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagooglecomputemachinetypes/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataGoogleComputeMachineTypesMachineTypesOutputReference interface {
 	cdktn.ComplexObject
 	Accelerators() DataGoogleComputeMachineTypesMachineTypesAcceleratorsList
+	Architecture() *string
 	BundledLocalSsds() DataGoogleComputeMachineTypesMachineTypesBundledLocalSsdsList
 	// the index of the complex object in a list.
 	// Experimental.
@@ -95,6 +96,16 @@ func (j *jsiiProxy_DataGoogleComputeMachineTypesMachineTypesOutputReference) Acc
 	_jsii_.Get(
 		j,
 		"accelerators",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleComputeMachineTypesMachineTypesOutputReference) Architecture() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"architecture",
 		&returns,
 	)
 	return returns

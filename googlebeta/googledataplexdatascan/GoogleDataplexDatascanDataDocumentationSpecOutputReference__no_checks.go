@@ -67,6 +67,10 @@ func (j *jsiiProxy_GoogleDataplexDatascanDataDocumentationSpecOutputReference) v
 	return nil
 }
 
+func (j *jsiiProxy_GoogleDataplexDatascanDataDocumentationSpecOutputReference) validateSetSqlDialectParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleDataplexDatascanDataDocumentationSpecOutputReference) validateSetTerraformAttributeParameters(val *string) error {
 	return nil
 }

@@ -5,14 +5,14 @@ package googleiapwebtypecomputeiampolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiapwebtypecomputeiampolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleiapwebtypecomputeiampolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iap_web_type_compute_iam_policy google_iap_web_type_compute_iam_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iap_web_type_compute_iam_policy google_iap_web_type_compute_iam_policy}.
 type GoogleIapWebTypeComputeIamPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -426,7 +426,7 @@ func (j *jsiiProxy_GoogleIapWebTypeComputeIamPolicy) TerraformResourceType() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iap_web_type_compute_iam_policy google_iap_web_type_compute_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iap_web_type_compute_iam_policy google_iap_web_type_compute_iam_policy} Resource.
 func NewGoogleIapWebTypeComputeIamPolicy(scope constructs.Construct, id *string, config *GoogleIapWebTypeComputeIamPolicyConfig) GoogleIapWebTypeComputeIamPolicy {
 	_init_.Initialize()
 
@@ -444,7 +444,7 @@ func NewGoogleIapWebTypeComputeIamPolicy(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iap_web_type_compute_iam_policy google_iap_web_type_compute_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iap_web_type_compute_iam_policy google_iap_web_type_compute_iam_policy} Resource.
 func NewGoogleIapWebTypeComputeIamPolicy_Override(g GoogleIapWebTypeComputeIamPolicy, scope constructs.Construct, id *string, config *GoogleIapWebTypeComputeIamPolicyConfig) {
 	_init_.Initialize()
 

@@ -175,6 +175,10 @@ func (j *jsiiProxy_GoogleDiscoveryEngineSearchEngine) validateSetLocationParamet
 	return nil
 }
 
+func (j *jsiiProxy_GoogleDiscoveryEngineSearchEngine) validateSetProcurementContactEmailsParameters(val *[]*string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleDiscoveryEngineSearchEngine) validateSetProjectParameters(val *string) error {
 	return nil
 }

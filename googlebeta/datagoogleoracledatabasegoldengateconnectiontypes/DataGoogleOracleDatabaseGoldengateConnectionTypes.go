@@ -5,14 +5,14 @@ package datagoogleoracledatabasegoldengateconnectiontypes
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoogleoracledatabasegoldengateconnectiontypes/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagoogleoracledatabasegoldengateconnectiontypes/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_oracle_database_goldengate_connection_types google_oracle_database_goldengate_connection_types}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_oracle_database_goldengate_connection_types google_oracle_database_goldengate_connection_types}.
 type DataGoogleOracleDatabaseGoldengateConnectionTypes interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -345,7 +345,7 @@ func (j *jsiiProxy_DataGoogleOracleDatabaseGoldengateConnectionTypes) TerraformR
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_oracle_database_goldengate_connection_types google_oracle_database_goldengate_connection_types} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_oracle_database_goldengate_connection_types google_oracle_database_goldengate_connection_types} Data Source.
 func NewDataGoogleOracleDatabaseGoldengateConnectionTypes(scope constructs.Construct, id *string, config *DataGoogleOracleDatabaseGoldengateConnectionTypesConfig) DataGoogleOracleDatabaseGoldengateConnectionTypes {
 	_init_.Initialize()
 
@@ -363,7 +363,7 @@ func NewDataGoogleOracleDatabaseGoldengateConnectionTypes(scope constructs.Const
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_oracle_database_goldengate_connection_types google_oracle_database_goldengate_connection_types} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_oracle_database_goldengate_connection_types google_oracle_database_goldengate_connection_types} Data Source.
 func NewDataGoogleOracleDatabaseGoldengateConnectionTypes_Override(d DataGoogleOracleDatabaseGoldengateConnectionTypes, scope constructs.Construct, id *string, config *DataGoogleOracleDatabaseGoldengateConnectionTypesConfig) {
 	_init_.Initialize()
 

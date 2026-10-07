@@ -5,14 +5,14 @@ package googlesqldatabaseinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlesqldatabaseinstance/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlesqldatabaseinstance/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_sql_database_instance google_sql_database_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_sql_database_instance google_sql_database_instance}.
 type GoogleSqlDatabaseInstance interface {
 	cdktn.TerraformResource
 	AvailableMaintenanceVersions() *[]*string
@@ -49,6 +49,9 @@ type GoogleSqlDatabaseInstance interface {
 	SetDependsOn(val *[]*string)
 	DnsName() *string
 	DnsNames() GoogleSqlDatabaseInstanceDnsNamesList
+	EncryptionConfidentialMode() interface{}
+	SetEncryptionConfidentialMode(val interface{})
+	EncryptionConfidentialModeInput() interface{}
 	EncryptionKeyName() *string
 	SetEncryptionKeyName(val *string)
 	EncryptionKeyNameInput() *string
@@ -255,6 +258,7 @@ type GoogleSqlDatabaseInstance interface {
 	ResetClone()
 	ResetDeletionPolicy()
 	ResetDeletionProtection()
+	ResetEncryptionConfidentialMode()
 	ResetEncryptionKeyName()
 	ResetEnforceNewSqlNetworkArchitecture()
 	ResetFinalBackupDescription()
@@ -493,6 +497,26 @@ func (j *jsiiProxy_GoogleSqlDatabaseInstance) DnsNames() GoogleSqlDatabaseInstan
 	_jsii_.Get(
 		j,
 		"dnsNames",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleSqlDatabaseInstance) EncryptionConfidentialMode() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"encryptionConfidentialMode",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleSqlDatabaseInstance) EncryptionConfidentialModeInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"encryptionConfidentialModeInput",
 		&returns,
 	)
 	return returns
@@ -1149,7 +1173,7 @@ func (j *jsiiProxy_GoogleSqlDatabaseInstance) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_sql_database_instance google_sql_database_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_sql_database_instance google_sql_database_instance} Resource.
 func NewGoogleSqlDatabaseInstance(scope constructs.Construct, id *string, config *GoogleSqlDatabaseInstanceConfig) GoogleSqlDatabaseInstance {
 	_init_.Initialize()
 
@@ -1167,7 +1191,7 @@ func NewGoogleSqlDatabaseInstance(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_sql_database_instance google_sql_database_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_sql_database_instance google_sql_database_instance} Resource.
 func NewGoogleSqlDatabaseInstance_Override(g GoogleSqlDatabaseInstance, scope constructs.Construct, id *string, config *GoogleSqlDatabaseInstanceConfig) {
 	_init_.Initialize()
 
@@ -1248,6 +1272,17 @@ func (j *jsiiProxy_GoogleSqlDatabaseInstance)SetDependsOn(val *[]*string) {
 	_jsii_.Set(
 		j,
 		"dependsOn",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleSqlDatabaseInstance)SetEncryptionConfidentialMode(val interface{}) {
+	if err := j.validateSetEncryptionConfidentialModeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"encryptionConfidentialMode",
 		val,
 	)
 }
@@ -1962,6 +1997,14 @@ func (g *jsiiProxy_GoogleSqlDatabaseInstance) ResetDeletionProtection() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetDeletionProtection",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleSqlDatabaseInstance) ResetEncryptionConfidentialMode() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetEncryptionConfidentialMode",
 		nil, // no parameters
 	)
 }

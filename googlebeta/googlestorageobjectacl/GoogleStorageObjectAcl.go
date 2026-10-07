@@ -5,14 +5,14 @@ package googlestorageobjectacl
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlestorageobjectacl/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlestorageobjectacl/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_storage_object_acl google_storage_object_acl}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_storage_object_acl google_storage_object_acl}.
 type GoogleStorageObjectAcl interface {
 	cdktn.TerraformResource
 	Bucket() *string
@@ -486,7 +486,7 @@ func (j *jsiiProxy_GoogleStorageObjectAcl) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_storage_object_acl google_storage_object_acl} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_storage_object_acl google_storage_object_acl} Resource.
 func NewGoogleStorageObjectAcl(scope constructs.Construct, id *string, config *GoogleStorageObjectAclConfig) GoogleStorageObjectAcl {
 	_init_.Initialize()
 
@@ -504,7 +504,7 @@ func NewGoogleStorageObjectAcl(scope constructs.Construct, id *string, config *G
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_storage_object_acl google_storage_object_acl} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_storage_object_acl google_storage_object_acl} Resource.
 func NewGoogleStorageObjectAcl_Override(g GoogleStorageObjectAcl, scope constructs.Construct, id *string, config *GoogleStorageObjectAclConfig) {
 	_init_.Initialize()
 

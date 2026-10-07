@@ -5,14 +5,14 @@ package googlediscoveryengineaclconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlediscoveryengineaclconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlediscoveryengineaclconfig/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_discovery_engine_acl_config google_discovery_engine_acl_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_discovery_engine_acl_config google_discovery_engine_acl_config}.
 type GoogleDiscoveryEngineAclConfig interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -474,7 +474,7 @@ func (j *jsiiProxy_GoogleDiscoveryEngineAclConfig) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_discovery_engine_acl_config google_discovery_engine_acl_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_discovery_engine_acl_config google_discovery_engine_acl_config} Resource.
 func NewGoogleDiscoveryEngineAclConfig(scope constructs.Construct, id *string, config *GoogleDiscoveryEngineAclConfigConfig) GoogleDiscoveryEngineAclConfig {
 	_init_.Initialize()
 
@@ -492,7 +492,7 @@ func NewGoogleDiscoveryEngineAclConfig(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_discovery_engine_acl_config google_discovery_engine_acl_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_discovery_engine_acl_config google_discovery_engine_acl_config} Resource.
 func NewGoogleDiscoveryEngineAclConfig_Override(g GoogleDiscoveryEngineAclConfig, scope constructs.Construct, id *string, config *GoogleDiscoveryEngineAclConfigConfig) {
 	_init_.Initialize()
 

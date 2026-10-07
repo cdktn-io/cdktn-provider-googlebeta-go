@@ -5,14 +5,14 @@ package googleparametermanagerregionalparameter
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleparametermanagerregionalparameter/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleparametermanagerregionalparameter/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_parameter_manager_regional_parameter google_parameter_manager_regional_parameter}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_parameter_manager_regional_parameter google_parameter_manager_regional_parameter}.
 type GoogleParameterManagerRegionalParameter interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -83,6 +83,9 @@ type GoogleParameterManagerRegionalParameter interface {
 	SetProvisioners(val *[]interface{})
 	// Experimental.
 	RawOverrides() interface{}
+	Tags() *map[string]*string
+	SetTags(val *map[string]*string)
+	TagsInput() *map[string]*string
 	// Experimental.
 	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	TerraformLabels() cdktn.StringMap
@@ -195,6 +198,7 @@ type GoogleParameterManagerRegionalParameter interface {
 	// Experimental.
 	ResetOverrideLogicalId()
 	ResetProject()
+	ResetTags()
 	ResetTimeouts()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
@@ -553,6 +557,26 @@ func (j *jsiiProxy_GoogleParameterManagerRegionalParameter) RawOverrides() inter
 	return returns
 }
 
+func (j *jsiiProxy_GoogleParameterManagerRegionalParameter) Tags() *map[string]*string {
+	var returns *map[string]*string
+	_jsii_.Get(
+		j,
+		"tags",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleParameterManagerRegionalParameter) TagsInput() *map[string]*string {
+	var returns *map[string]*string
+	_jsii_.Get(
+		j,
+		"tagsInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleParameterManagerRegionalParameter) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
 	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
@@ -624,7 +648,7 @@ func (j *jsiiProxy_GoogleParameterManagerRegionalParameter) UpdateTime() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_parameter_manager_regional_parameter google_parameter_manager_regional_parameter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_parameter_manager_regional_parameter google_parameter_manager_regional_parameter} Resource.
 func NewGoogleParameterManagerRegionalParameter(scope constructs.Construct, id *string, config *GoogleParameterManagerRegionalParameterConfig) GoogleParameterManagerRegionalParameter {
 	_init_.Initialize()
 
@@ -642,7 +666,7 @@ func NewGoogleParameterManagerRegionalParameter(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_parameter_manager_regional_parameter google_parameter_manager_regional_parameter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_parameter_manager_regional_parameter google_parameter_manager_regional_parameter} Resource.
 func NewGoogleParameterManagerRegionalParameter_Override(g GoogleParameterManagerRegionalParameter, scope constructs.Construct, id *string, config *GoogleParameterManagerRegionalParameterConfig) {
 	_init_.Initialize()
 
@@ -805,6 +829,17 @@ func (j *jsiiProxy_GoogleParameterManagerRegionalParameter)SetProvisioners(val *
 	_jsii_.Set(
 		j,
 		"provisioners",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleParameterManagerRegionalParameter)SetTags(val *map[string]*string) {
+	if err := j.validateSetTagsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"tags",
 		val,
 	)
 }
@@ -1252,6 +1287,14 @@ func (g *jsiiProxy_GoogleParameterManagerRegionalParameter) ResetProject() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetProject",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleParameterManagerRegionalParameter) ResetTags() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetTags",
 		nil, // no parameters
 	)
 }

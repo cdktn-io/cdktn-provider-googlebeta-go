@@ -4334,9 +4334,13 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "pathPrefixRewriteInput", GoGetter: "PathPrefixRewriteInput"},
 			_jsii_.MemberProperty{JsiiProperty: "pathTemplateRewrite", GoGetter: "PathTemplateRewrite"},
 			_jsii_.MemberProperty{JsiiProperty: "pathTemplateRewriteInput", GoGetter: "PathTemplateRewriteInput"},
+			_jsii_.MemberMethod{JsiiMethod: "putRegexRewrite", GoMethod: "PutRegexRewrite"},
+			_jsii_.MemberProperty{JsiiProperty: "regexRewrite", GoGetter: "RegexRewrite"},
+			_jsii_.MemberProperty{JsiiProperty: "regexRewriteInput", GoGetter: "RegexRewriteInput"},
 			_jsii_.MemberMethod{JsiiMethod: "resetHostRewrite", GoMethod: "ResetHostRewrite"},
 			_jsii_.MemberMethod{JsiiMethod: "resetPathPrefixRewrite", GoMethod: "ResetPathPrefixRewrite"},
 			_jsii_.MemberMethod{JsiiMethod: "resetPathTemplateRewrite", GoMethod: "ResetPathTemplateRewrite"},
+			_jsii_.MemberMethod{JsiiMethod: "resetRegexRewrite", GoMethod: "ResetRegexRewrite"},
 			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
 			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
 			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
@@ -4344,6 +4348,46 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GoogleComputeRegionUrlMapPathMatcherRouteRulesRouteActionUrlRewriteOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherRouteRulesRouteActionUrlRewriteRegexRewrite",
+		reflect.TypeOf((*GoogleComputeRegionUrlMapPathMatcherRouteRulesRouteActionUrlRewriteRegexRewrite)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcherRouteRulesRouteActionUrlRewriteRegexRewriteOutputReference",
+		reflect.TypeOf((*GoogleComputeRegionUrlMapPathMatcherRouteRulesRouteActionUrlRewriteRegexRewriteOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "pathPattern", GoGetter: "PathPattern"},
+			_jsii_.MemberProperty{JsiiProperty: "pathPatternInput", GoGetter: "PathPatternInput"},
+			_jsii_.MemberProperty{JsiiProperty: "pathSubstitution", GoGetter: "PathSubstitution"},
+			_jsii_.MemberProperty{JsiiProperty: "pathSubstitutionInput", GoGetter: "PathSubstitutionInput"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_GoogleComputeRegionUrlMapPathMatcherRouteRulesRouteActionUrlRewriteRegexRewriteOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},

@@ -5,14 +5,14 @@ package googlediscoveryenginelicenseconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlediscoveryenginelicenseconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlediscoveryenginelicenseconfig/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_discovery_engine_license_config google_discovery_engine_license_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_discovery_engine_license_config google_discovery_engine_license_config}.
 type GoogleDiscoveryEngineLicenseConfig interface {
 	cdktn.TerraformResource
 	AutoRenew() interface{}
@@ -50,6 +50,9 @@ type GoogleDiscoveryEngineLicenseConfig interface {
 	Id() *string
 	SetId(val *string)
 	IdInput() *string
+	LastUserUpdateTime() *string
+	SetLastUserUpdateTime(val *string)
+	LastUserUpdateTimeInput() *string
 	LicenseConfigId() *string
 	SetLicenseConfigId(val *string)
 	LicenseConfigIdInput() *string
@@ -194,6 +197,7 @@ type GoogleDiscoveryEngineLicenseConfig interface {
 	ResetEndDate()
 	ResetFreeTrial()
 	ResetId()
+	ResetLastUserUpdateTime()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
@@ -381,6 +385,26 @@ func (j *jsiiProxy_GoogleDiscoveryEngineLicenseConfig) IdInput() *string {
 	_jsii_.Get(
 		j,
 		"idInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDiscoveryEngineLicenseConfig) LastUserUpdateTime() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"lastUserUpdateTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDiscoveryEngineLicenseConfig) LastUserUpdateTimeInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"lastUserUpdateTimeInput",
 		&returns,
 	)
 	return returns
@@ -637,7 +661,7 @@ func (j *jsiiProxy_GoogleDiscoveryEngineLicenseConfig) TimeoutsInput() interface
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_discovery_engine_license_config google_discovery_engine_license_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_discovery_engine_license_config google_discovery_engine_license_config} Resource.
 func NewGoogleDiscoveryEngineLicenseConfig(scope constructs.Construct, id *string, config *GoogleDiscoveryEngineLicenseConfigConfig) GoogleDiscoveryEngineLicenseConfig {
 	_init_.Initialize()
 
@@ -655,7 +679,7 @@ func NewGoogleDiscoveryEngineLicenseConfig(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_discovery_engine_license_config google_discovery_engine_license_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_discovery_engine_license_config google_discovery_engine_license_config} Resource.
 func NewGoogleDiscoveryEngineLicenseConfig_Override(g GoogleDiscoveryEngineLicenseConfig, scope constructs.Construct, id *string, config *GoogleDiscoveryEngineLicenseConfigConfig) {
 	_init_.Initialize()
 
@@ -733,6 +757,17 @@ func (j *jsiiProxy_GoogleDiscoveryEngineLicenseConfig)SetId(val *string) {
 	_jsii_.Set(
 		j,
 		"id",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleDiscoveryEngineLicenseConfig)SetLastUserUpdateTime(val *string) {
+	if err := j.validateSetLastUserUpdateTimeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"lastUserUpdateTime",
 		val,
 	)
 }
@@ -1274,6 +1309,14 @@ func (g *jsiiProxy_GoogleDiscoveryEngineLicenseConfig) ResetId() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetId",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleDiscoveryEngineLicenseConfig) ResetLastUserUpdateTime() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetLastUserUpdateTime",
 		nil, // no parameters
 	)
 }

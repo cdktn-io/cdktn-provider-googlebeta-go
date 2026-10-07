@@ -5,14 +5,14 @@ package googlestoragecontrolfolderintelligenceconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlestoragecontrolfolderintelligenceconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlestoragecontrolfolderintelligenceconfig/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_storage_control_folder_intelligence_config google_storage_control_folder_intelligence_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_storage_control_folder_intelligence_config google_storage_control_folder_intelligence_config}.
 type GoogleStorageControlFolderIntelligenceConfig interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -496,7 +496,7 @@ func (j *jsiiProxy_GoogleStorageControlFolderIntelligenceConfig) UpdateTime() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_storage_control_folder_intelligence_config google_storage_control_folder_intelligence_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_storage_control_folder_intelligence_config google_storage_control_folder_intelligence_config} Resource.
 func NewGoogleStorageControlFolderIntelligenceConfig(scope constructs.Construct, id *string, config *GoogleStorageControlFolderIntelligenceConfigConfig) GoogleStorageControlFolderIntelligenceConfig {
 	_init_.Initialize()
 
@@ -514,7 +514,7 @@ func NewGoogleStorageControlFolderIntelligenceConfig(scope constructs.Construct,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_storage_control_folder_intelligence_config google_storage_control_folder_intelligence_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_storage_control_folder_intelligence_config google_storage_control_folder_intelligence_config} Resource.
 func NewGoogleStorageControlFolderIntelligenceConfig_Override(g GoogleStorageControlFolderIntelligenceConfig, scope constructs.Construct, id *string, config *GoogleStorageControlFolderIntelligenceConfigConfig) {
 	_init_.Initialize()
 

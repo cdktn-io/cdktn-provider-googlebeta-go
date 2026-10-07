@@ -5,14 +5,14 @@ package googlenetworkserviceslbtrafficextension
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworkserviceslbtrafficextension/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworkserviceslbtrafficextension/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_services_lb_traffic_extension google_network_services_lb_traffic_extension}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_services_lb_traffic_extension google_network_services_lb_traffic_extension}.
 type GoogleNetworkServicesLbTrafficExtension interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -625,7 +625,7 @@ func (j *jsiiProxy_GoogleNetworkServicesLbTrafficExtension) TimeoutsInput() inte
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_services_lb_traffic_extension google_network_services_lb_traffic_extension} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_services_lb_traffic_extension google_network_services_lb_traffic_extension} Resource.
 func NewGoogleNetworkServicesLbTrafficExtension(scope constructs.Construct, id *string, config *GoogleNetworkServicesLbTrafficExtensionConfig) GoogleNetworkServicesLbTrafficExtension {
 	_init_.Initialize()
 
@@ -643,7 +643,7 @@ func NewGoogleNetworkServicesLbTrafficExtension(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_services_lb_traffic_extension google_network_services_lb_traffic_extension} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_services_lb_traffic_extension google_network_services_lb_traffic_extension} Resource.
 func NewGoogleNetworkServicesLbTrafficExtension_Override(g GoogleNetworkServicesLbTrafficExtension, scope constructs.Construct, id *string, config *GoogleNetworkServicesLbTrafficExtensionConfig) {
 	_init_.Initialize()
 

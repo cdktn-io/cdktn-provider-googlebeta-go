@@ -16,6 +16,8 @@ func init() {
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
+			_jsii_.MemberProperty{JsiiProperty: "agentConnectivityTemplate", GoGetter: "AgentConnectivityTemplate"},
+			_jsii_.MemberProperty{JsiiProperty: "agentConnectivityTemplateInput", GoGetter: "AgentConnectivityTemplateInput"},
 			_jsii_.MemberProperty{JsiiProperty: "agentGatewayCard", GoGetter: "AgentGatewayCard"},
 			_jsii_.MemberProperty{JsiiProperty: "cdktfStack", GoGetter: "CdktfStack"},
 			_jsii_.MemberProperty{JsiiProperty: "connection", GoGetter: "Connection"},
@@ -77,6 +79,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
 			_jsii_.MemberProperty{JsiiProperty: "registries", GoGetter: "Registries"},
 			_jsii_.MemberProperty{JsiiProperty: "registriesInput", GoGetter: "RegistriesInput"},
+			_jsii_.MemberMethod{JsiiMethod: "resetAgentConnectivityTemplate", GoMethod: "ResetAgentConnectivityTemplate"},
 			_jsii_.MemberMethod{JsiiMethod: "resetDeletionPolicy", GoMethod: "ResetDeletionPolicy"},
 			_jsii_.MemberMethod{JsiiMethod: "resetDescription", GoMethod: "ResetDescription"},
 			_jsii_.MemberMethod{JsiiMethod: "resetGoogleManaged", GoMethod: "ResetGoogleManaged"},

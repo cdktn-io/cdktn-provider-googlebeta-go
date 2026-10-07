@@ -71,6 +71,10 @@ func (j *jsiiProxy_GoogleCesGuardrailCodeCallbackBeforeAgentCallbackOutputRefere
 	return nil
 }
 
+func (j *jsiiProxy_GoogleCesGuardrailCodeCallbackBeforeAgentCallbackOutputReference) validateSetProactiveExecutionEnabledParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleCesGuardrailCodeCallbackBeforeAgentCallbackOutputReference) validateSetPythonCodeParameters(val *string) error {
 	return nil
 }

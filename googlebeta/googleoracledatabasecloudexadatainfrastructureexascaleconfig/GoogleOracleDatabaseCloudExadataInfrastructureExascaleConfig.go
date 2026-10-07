@@ -5,14 +5,14 @@ package googleoracledatabasecloudexadatainfrastructureexascaleconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleoracledatabasecloudexadatainfrastructureexascaleconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleoracledatabasecloudexadatainfrastructureexascaleconfig/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_cloud_exadata_infrastructure_exascale_config google_oracle_database_cloud_exadata_infrastructure_exascale_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_cloud_exadata_infrastructure_exascale_config google_oracle_database_cloud_exadata_infrastructure_exascale_config}.
 type GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -81,6 +81,9 @@ type GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig interface {
 	TotalStorageSizeGb() *float64
 	SetTotalStorageSizeGb(val *float64)
 	TotalStorageSizeGbInput() *float64
+	TotalVmStorageSizeGb() *float64
+	SetTotalVmStorageSizeGb(val *float64)
+	TotalVmStorageSizeGbInput() *float64
 	// Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
 	// Experimental.
 	AddMoveTarget(moveTarget *string)
@@ -181,6 +184,7 @@ type GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig interface {
 	ResetOverrideLogicalId()
 	ResetProject()
 	ResetTimeouts()
+	ResetTotalVmStorageSizeGb()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
 	// Experimental.
@@ -508,8 +512,28 @@ func (j *jsiiProxy_GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig)
 	return returns
 }
 
+func (j *jsiiProxy_GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig) TotalVmStorageSizeGb() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"totalVmStorageSizeGb",
+		&returns,
+	)
+	return returns
+}
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_cloud_exadata_infrastructure_exascale_config google_oracle_database_cloud_exadata_infrastructure_exascale_config} Resource.
+func (j *jsiiProxy_GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig) TotalVmStorageSizeGbInput() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"totalVmStorageSizeGbInput",
+		&returns,
+	)
+	return returns
+}
+
+
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_cloud_exadata_infrastructure_exascale_config google_oracle_database_cloud_exadata_infrastructure_exascale_config} Resource.
 func NewGoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig(scope constructs.Construct, id *string, config *GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfigConfig) GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig {
 	_init_.Initialize()
 
@@ -527,7 +551,7 @@ func NewGoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig(scope const
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_oracle_database_cloud_exadata_infrastructure_exascale_config google_oracle_database_cloud_exadata_infrastructure_exascale_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_oracle_database_cloud_exadata_infrastructure_exascale_config google_oracle_database_cloud_exadata_infrastructure_exascale_config} Resource.
 func NewGoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig_Override(g GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig, scope constructs.Construct, id *string, config *GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfigConfig) {
 	_init_.Initialize()
 
@@ -668,6 +692,17 @@ func (j *jsiiProxy_GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig)
 	_jsii_.Set(
 		j,
 		"totalStorageSizeGb",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig)SetTotalVmStorageSizeGb(val *float64) {
+	if err := j.validateSetTotalVmStorageSizeGbParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"totalVmStorageSizeGb",
 		val,
 	)
 }
@@ -1099,6 +1134,14 @@ func (g *jsiiProxy_GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig)
 	_jsii_.InvokeVoid(
 		g,
 		"resetTimeouts",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleOracleDatabaseCloudExadataInfrastructureExascaleConfig) ResetTotalVmStorageSizeGb() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetTotalVmStorageSizeGb",
 		nil, // no parameters
 	)
 }

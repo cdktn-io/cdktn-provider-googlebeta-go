@@ -5,14 +5,14 @@ package googlegeminicoderepositoryindex
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlegeminicoderepositoryindex/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlegeminicoderepositoryindex/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_gemini_code_repository_index google_gemini_code_repository_index}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_gemini_code_repository_index google_gemini_code_repository_index}.
 type GoogleGeminiCodeRepositoryIndex interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -624,7 +624,7 @@ func (j *jsiiProxy_GoogleGeminiCodeRepositoryIndex) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_gemini_code_repository_index google_gemini_code_repository_index} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_gemini_code_repository_index google_gemini_code_repository_index} Resource.
 func NewGoogleGeminiCodeRepositoryIndex(scope constructs.Construct, id *string, config *GoogleGeminiCodeRepositoryIndexConfig) GoogleGeminiCodeRepositoryIndex {
 	_init_.Initialize()
 
@@ -642,7 +642,7 @@ func NewGoogleGeminiCodeRepositoryIndex(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_gemini_code_repository_index google_gemini_code_repository_index} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_gemini_code_repository_index google_gemini_code_repository_index} Resource.
 func NewGoogleGeminiCodeRepositoryIndex_Override(g GoogleGeminiCodeRepositoryIndex, scope constructs.Construct, id *string, config *GoogleGeminiCodeRepositoryIndexConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package datagooglecomputeinterconnectlocations
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagooglecomputeinterconnectlocations/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagooglecomputeinterconnectlocations/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_compute_interconnect_locations google_compute_interconnect_locations}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_compute_interconnect_locations google_compute_interconnect_locations}.
 type DataGoogleComputeInterconnectLocations interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -322,7 +322,7 @@ func (j *jsiiProxy_DataGoogleComputeInterconnectLocations) TerraformResourceType
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_compute_interconnect_locations google_compute_interconnect_locations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_compute_interconnect_locations google_compute_interconnect_locations} Data Source.
 func NewDataGoogleComputeInterconnectLocations(scope constructs.Construct, id *string, config *DataGoogleComputeInterconnectLocationsConfig) DataGoogleComputeInterconnectLocations {
 	_init_.Initialize()
 
@@ -340,7 +340,7 @@ func NewDataGoogleComputeInterconnectLocations(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_compute_interconnect_locations google_compute_interconnect_locations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_compute_interconnect_locations google_compute_interconnect_locations} Data Source.
 func NewDataGoogleComputeInterconnectLocations_Override(d DataGoogleComputeInterconnectLocations, scope constructs.Construct, id *string, config *DataGoogleComputeInterconnectLocationsConfig) {
 	_init_.Initialize()
 

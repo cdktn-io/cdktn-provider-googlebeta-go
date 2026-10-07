@@ -5,9 +5,9 @@ package googlecesexample
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesexample/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesexample/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -15,6 +15,8 @@ type GoogleCesExampleMessagesChunksOutputReference interface {
 	cdktn.ComplexObject
 	AgentTransfer() GoogleCesExampleMessagesChunksAgentTransferOutputReference
 	AgentTransferInput() *GoogleCesExampleMessagesChunksAgentTransfer
+	Blob() GoogleCesExampleMessagesChunksBlobOutputReference
+	BlobInput() *GoogleCesExampleMessagesChunksBlob
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -79,10 +81,12 @@ type GoogleCesExampleMessagesChunksOutputReference interface {
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutAgentTransfer(value *GoogleCesExampleMessagesChunksAgentTransfer)
+	PutBlob(value *GoogleCesExampleMessagesChunksBlob)
 	PutImage(value *GoogleCesExampleMessagesChunksImage)
 	PutToolCall(value *GoogleCesExampleMessagesChunksToolCall)
 	PutToolResponse(value *GoogleCesExampleMessagesChunksToolResponse)
 	ResetAgentTransfer()
+	ResetBlob()
 	ResetImage()
 	ResetText()
 	ResetToolCall()
@@ -118,6 +122,26 @@ func (j *jsiiProxy_GoogleCesExampleMessagesChunksOutputReference) AgentTransferI
 	_jsii_.Get(
 		j,
 		"agentTransferInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCesExampleMessagesChunksOutputReference) Blob() GoogleCesExampleMessagesChunksBlobOutputReference {
+	var returns GoogleCesExampleMessagesChunksBlobOutputReference
+	_jsii_.Get(
+		j,
+		"blob",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCesExampleMessagesChunksOutputReference) BlobInput() *GoogleCesExampleMessagesChunksBlob {
+	var returns *GoogleCesExampleMessagesChunksBlob
+	_jsii_.Get(
+		j,
+		"blobInput",
 		&returns,
 	)
 	return returns
@@ -595,6 +619,17 @@ func (g *jsiiProxy_GoogleCesExampleMessagesChunksOutputReference) PutAgentTransf
 	)
 }
 
+func (g *jsiiProxy_GoogleCesExampleMessagesChunksOutputReference) PutBlob(value *GoogleCesExampleMessagesChunksBlob) {
+	if err := g.validatePutBlobParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putBlob",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleCesExampleMessagesChunksOutputReference) PutImage(value *GoogleCesExampleMessagesChunksImage) {
 	if err := g.validatePutImageParameters(value); err != nil {
 		panic(err)
@@ -632,6 +667,14 @@ func (g *jsiiProxy_GoogleCesExampleMessagesChunksOutputReference) ResetAgentTran
 	_jsii_.InvokeVoid(
 		g,
 		"resetAgentTransfer",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleCesExampleMessagesChunksOutputReference) ResetBlob() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetBlob",
 		nil, // no parameters
 	)
 }

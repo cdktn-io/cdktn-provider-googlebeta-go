@@ -5,14 +5,14 @@ package googlesaasruntimesaas
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlesaasruntimesaas/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlesaasruntimesaas/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_saas_runtime_saas google_saas_runtime_saas}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_saas_runtime_saas google_saas_runtime_saas}.
 type GoogleSaasRuntimeSaas interface {
 	cdktn.TerraformResource
 	Annotations() *map[string]*string
@@ -646,7 +646,7 @@ func (j *jsiiProxy_GoogleSaasRuntimeSaas) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_saas_runtime_saas google_saas_runtime_saas} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_saas_runtime_saas google_saas_runtime_saas} Resource.
 func NewGoogleSaasRuntimeSaas(scope constructs.Construct, id *string, config *GoogleSaasRuntimeSaasConfig) GoogleSaasRuntimeSaas {
 	_init_.Initialize()
 
@@ -664,7 +664,7 @@ func NewGoogleSaasRuntimeSaas(scope constructs.Construct, id *string, config *Go
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_saas_runtime_saas google_saas_runtime_saas} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_saas_runtime_saas google_saas_runtime_saas} Resource.
 func NewGoogleSaasRuntimeSaas_Override(g GoogleSaasRuntimeSaas, scope constructs.Construct, id *string, config *GoogleSaasRuntimeSaasConfig) {
 	_init_.Initialize()
 

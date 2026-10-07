@@ -5,14 +5,14 @@ package googleloggingorganizationsink
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleloggingorganizationsink/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleloggingorganizationsink/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_logging_organization_sink google_logging_organization_sink}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_logging_organization_sink google_logging_organization_sink}.
 type GoogleLoggingOrganizationSink interface {
 	cdktn.TerraformResource
 	BigqueryOptions() GoogleLoggingOrganizationSinkBigqueryOptionsOutputReference
@@ -640,7 +640,7 @@ func (j *jsiiProxy_GoogleLoggingOrganizationSink) WriterIdentity() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_logging_organization_sink google_logging_organization_sink} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_logging_organization_sink google_logging_organization_sink} Resource.
 func NewGoogleLoggingOrganizationSink(scope constructs.Construct, id *string, config *GoogleLoggingOrganizationSinkConfig) GoogleLoggingOrganizationSink {
 	_init_.Initialize()
 
@@ -658,7 +658,7 @@ func NewGoogleLoggingOrganizationSink(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_logging_organization_sink google_logging_organization_sink} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_logging_organization_sink google_logging_organization_sink} Resource.
 func NewGoogleLoggingOrganizationSink_Override(g GoogleLoggingOrganizationSink, scope constructs.Construct, id *string, config *GoogleLoggingOrganizationSinkConfig) {
 	_init_.Initialize()
 

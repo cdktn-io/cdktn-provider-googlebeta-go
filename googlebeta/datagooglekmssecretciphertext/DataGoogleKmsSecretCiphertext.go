@@ -5,14 +5,14 @@ package datagooglekmssecretciphertext
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagooglekmssecretciphertext/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagooglekmssecretciphertext/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_kms_secret_ciphertext google_kms_secret_ciphertext}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_kms_secret_ciphertext google_kms_secret_ciphertext}.
 type DataGoogleKmsSecretCiphertext interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -344,7 +344,7 @@ func (j *jsiiProxy_DataGoogleKmsSecretCiphertext) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_kms_secret_ciphertext google_kms_secret_ciphertext} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_kms_secret_ciphertext google_kms_secret_ciphertext} Data Source.
 func NewDataGoogleKmsSecretCiphertext(scope constructs.Construct, id *string, config *DataGoogleKmsSecretCiphertextConfig) DataGoogleKmsSecretCiphertext {
 	_init_.Initialize()
 
@@ -362,7 +362,7 @@ func NewDataGoogleKmsSecretCiphertext(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_kms_secret_ciphertext google_kms_secret_ciphertext} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_kms_secret_ciphertext google_kms_secret_ciphertext} Data Source.
 func NewDataGoogleKmsSecretCiphertext_Override(d DataGoogleKmsSecretCiphertext, scope constructs.Construct, id *string, config *DataGoogleKmsSecretCiphertextConfig) {
 	_init_.Initialize()
 

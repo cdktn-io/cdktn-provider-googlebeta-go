@@ -5,14 +5,14 @@ package googleappenginefirewallrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleappenginefirewallrule/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleappenginefirewallrule/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_app_engine_firewall_rule google_app_engine_firewall_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_app_engine_firewall_rule google_app_engine_firewall_rule}.
 type GoogleAppEngineFirewallRule interface {
 	cdktn.TerraformResource
 	Action() *string
@@ -534,7 +534,7 @@ func (j *jsiiProxy_GoogleAppEngineFirewallRule) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_app_engine_firewall_rule google_app_engine_firewall_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_app_engine_firewall_rule google_app_engine_firewall_rule} Resource.
 func NewGoogleAppEngineFirewallRule(scope constructs.Construct, id *string, config *GoogleAppEngineFirewallRuleConfig) GoogleAppEngineFirewallRule {
 	_init_.Initialize()
 
@@ -552,7 +552,7 @@ func NewGoogleAppEngineFirewallRule(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_app_engine_firewall_rule google_app_engine_firewall_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_app_engine_firewall_rule google_app_engine_firewall_rule} Resource.
 func NewGoogleAppEngineFirewallRule_Override(g GoogleAppEngineFirewallRule, scope constructs.Construct, id *string, config *GoogleAppEngineFirewallRuleConfig) {
 	_init_.Initialize()
 

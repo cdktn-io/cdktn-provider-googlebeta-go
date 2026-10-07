@@ -5,9 +5,9 @@ package googleoracledatabasecloudexadatainfrastructure
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleoracledatabasecloudexadatainfrastructure/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleoracledatabasecloudexadatainfrastructure/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -40,6 +40,7 @@ type GoogleOracleDatabaseCloudExadataInfrastructurePropertiesOutputReference int
 	DataStorageSizeTb() *float64
 	DbNodeStorageSizeGb() *float64
 	DbServerVersion() *string
+	ExascaleConfig() GoogleOracleDatabaseCloudExadataInfrastructurePropertiesExascaleConfigList
 	// Experimental.
 	Fqn() *string
 	InternalValue() *GoogleOracleDatabaseCloudExadataInfrastructureProperties
@@ -258,6 +259,16 @@ func (j *jsiiProxy_GoogleOracleDatabaseCloudExadataInfrastructurePropertiesOutpu
 	_jsii_.Get(
 		j,
 		"dbServerVersion",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleOracleDatabaseCloudExadataInfrastructurePropertiesOutputReference) ExascaleConfig() GoogleOracleDatabaseCloudExadataInfrastructurePropertiesExascaleConfigList {
+	var returns GoogleOracleDatabaseCloudExadataInfrastructurePropertiesExascaleConfigList
+	_jsii_.Get(
+		j,
+		"exascaleConfig",
 		&returns,
 	)
 	return returns

@@ -5,9 +5,9 @@ package googlecontainernodepool
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecontainernodepool/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecontainernodepool/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -35,6 +35,9 @@ type GoogleContainerNodePoolNetworkConfigAdditionalNodeNetworkConfigsOutputRefer
 	Network() *string
 	SetNetwork(val *string)
 	NetworkInput() *string
+	StackType() *string
+	SetStackType(val *string)
+	StackTypeInput() *string
 	Subnetwork() *string
 	SetSubnetwork(val *string)
 	SubnetworkInput() *string
@@ -71,6 +74,7 @@ type GoogleContainerNodePoolNetworkConfigAdditionalNodeNetworkConfigsOutputRefer
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetNetwork()
+	ResetStackType()
 	ResetSubnetwork()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -152,6 +156,26 @@ func (j *jsiiProxy_GoogleContainerNodePoolNetworkConfigAdditionalNodeNetworkConf
 	_jsii_.Get(
 		j,
 		"networkInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleContainerNodePoolNetworkConfigAdditionalNodeNetworkConfigsOutputReference) StackType() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"stackType",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleContainerNodePoolNetworkConfigAdditionalNodeNetworkConfigsOutputReference) StackTypeInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"stackTypeInput",
 		&returns,
 	)
 	return returns
@@ -265,6 +289,17 @@ func (j *jsiiProxy_GoogleContainerNodePoolNetworkConfigAdditionalNodeNetworkConf
 	_jsii_.Set(
 		j,
 		"network",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleContainerNodePoolNetworkConfigAdditionalNodeNetworkConfigsOutputReference)SetStackType(val *string) {
+	if err := j.validateSetStackTypeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"stackType",
 		val,
 	)
 }
@@ -492,6 +527,14 @@ func (g *jsiiProxy_GoogleContainerNodePoolNetworkConfigAdditionalNodeNetworkConf
 	_jsii_.InvokeVoid(
 		g,
 		"resetNetwork",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleContainerNodePoolNetworkConfigAdditionalNodeNetworkConfigsOutputReference) ResetStackType() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetStackType",
 		nil, // no parameters
 	)
 }

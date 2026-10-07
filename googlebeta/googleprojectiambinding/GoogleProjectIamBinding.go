@@ -5,14 +5,14 @@ package googleprojectiambinding
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleprojectiambinding/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleprojectiambinding/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_project_iam_binding google_project_iam_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_project_iam_binding google_project_iam_binding}.
 type GoogleProjectIamBinding interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -472,7 +472,7 @@ func (j *jsiiProxy_GoogleProjectIamBinding) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_project_iam_binding google_project_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_project_iam_binding google_project_iam_binding} Resource.
 func NewGoogleProjectIamBinding(scope constructs.Construct, id *string, config *GoogleProjectIamBindingConfig) GoogleProjectIamBinding {
 	_init_.Initialize()
 
@@ -490,7 +490,7 @@ func NewGoogleProjectIamBinding(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_project_iam_binding google_project_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_project_iam_binding google_project_iam_binding} Resource.
 func NewGoogleProjectIamBinding_Override(g GoogleProjectIamBinding, scope constructs.Construct, id *string, config *GoogleProjectIamBindingConfig) {
 	_init_.Initialize()
 

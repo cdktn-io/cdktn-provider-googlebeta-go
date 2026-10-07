@@ -5,14 +5,14 @@ package googledataplexdataproductdataasset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledataplexdataproductdataasset/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataplexdataproductdataasset/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataplex_data_product_data_asset google_dataplex_data_product_data_asset}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dataplex_data_product_data_asset google_dataplex_data_product_data_asset}.
 type GoogleDataplexDataProductDataAsset interface {
 	cdktn.TerraformResource
 	AccessGroupConfigs() GoogleDataplexDataProductDataAssetAccessGroupConfigsList
@@ -624,7 +624,7 @@ func (j *jsiiProxy_GoogleDataplexDataProductDataAsset) Uid() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataplex_data_product_data_asset google_dataplex_data_product_data_asset} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dataplex_data_product_data_asset google_dataplex_data_product_data_asset} Resource.
 func NewGoogleDataplexDataProductDataAsset(scope constructs.Construct, id *string, config *GoogleDataplexDataProductDataAssetConfig) GoogleDataplexDataProductDataAsset {
 	_init_.Initialize()
 
@@ -642,7 +642,7 @@ func NewGoogleDataplexDataProductDataAsset(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataplex_data_product_data_asset google_dataplex_data_product_data_asset} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dataplex_data_product_data_asset google_dataplex_data_product_data_asset} Resource.
 func NewGoogleDataplexDataProductDataAsset_Override(g GoogleDataplexDataProductDataAsset, scope constructs.Construct, id *string, config *GoogleDataplexDataProductDataAssetConfig) {
 	_init_.Initialize()
 

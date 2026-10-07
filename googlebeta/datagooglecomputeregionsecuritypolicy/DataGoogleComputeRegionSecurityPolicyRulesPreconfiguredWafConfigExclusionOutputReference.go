@@ -5,9 +5,9 @@ package datagooglecomputeregionsecuritypolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagooglecomputeregionsecuritypolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagooglecomputeregionsecuritypolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -32,6 +32,7 @@ type DataGoogleComputeRegionSecurityPolicyRulesPreconfiguredWafConfigExclusionOu
 	Fqn() *string
 	InternalValue() *DataGoogleComputeRegionSecurityPolicyRulesPreconfiguredWafConfigExclusion
 	SetInternalValue(val *DataGoogleComputeRegionSecurityPolicyRulesPreconfiguredWafConfigExclusion)
+	RequestBody() DataGoogleComputeRegionSecurityPolicyRulesPreconfiguredWafConfigExclusionRequestBodyList
 	RequestCookie() DataGoogleComputeRegionSecurityPolicyRulesPreconfiguredWafConfigExclusionRequestCookieList
 	RequestHeader() DataGoogleComputeRegionSecurityPolicyRulesPreconfiguredWafConfigExclusionRequestHeaderList
 	RequestQueryParam() DataGoogleComputeRegionSecurityPolicyRulesPreconfiguredWafConfigExclusionRequestQueryParamList
@@ -130,6 +131,16 @@ func (j *jsiiProxy_DataGoogleComputeRegionSecurityPolicyRulesPreconfiguredWafCon
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleComputeRegionSecurityPolicyRulesPreconfiguredWafConfigExclusionOutputReference) RequestBody() DataGoogleComputeRegionSecurityPolicyRulesPreconfiguredWafConfigExclusionRequestBodyList {
+	var returns DataGoogleComputeRegionSecurityPolicyRulesPreconfiguredWafConfigExclusionRequestBodyList
+	_jsii_.Get(
+		j,
+		"requestBody",
 		&returns,
 	)
 	return returns

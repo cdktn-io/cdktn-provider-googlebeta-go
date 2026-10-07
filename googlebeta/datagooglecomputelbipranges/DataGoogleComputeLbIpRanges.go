@@ -5,14 +5,14 @@ package datagooglecomputelbipranges
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagooglecomputelbipranges/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagooglecomputelbipranges/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_compute_lb_ip_ranges google_compute_lb_ip_ranges}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_compute_lb_ip_ranges google_compute_lb_ip_ranges}.
 type DataGoogleComputeLbIpRanges interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -309,7 +309,7 @@ func (j *jsiiProxy_DataGoogleComputeLbIpRanges) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_compute_lb_ip_ranges google_compute_lb_ip_ranges} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_compute_lb_ip_ranges google_compute_lb_ip_ranges} Data Source.
 func NewDataGoogleComputeLbIpRanges(scope constructs.Construct, id *string, config *DataGoogleComputeLbIpRangesConfig) DataGoogleComputeLbIpRanges {
 	_init_.Initialize()
 
@@ -327,7 +327,7 @@ func NewDataGoogleComputeLbIpRanges(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_compute_lb_ip_ranges google_compute_lb_ip_ranges} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_compute_lb_ip_ranges google_compute_lb_ip_ranges} Data Source.
 func NewDataGoogleComputeLbIpRanges_Override(d DataGoogleComputeLbIpRanges, scope constructs.Construct, id *string, config *DataGoogleComputeLbIpRangesConfig) {
 	_init_.Initialize()
 

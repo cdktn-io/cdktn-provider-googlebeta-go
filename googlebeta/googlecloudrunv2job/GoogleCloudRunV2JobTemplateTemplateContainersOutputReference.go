@@ -5,9 +5,9 @@ package googlecloudrunv2job
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudrunv2job/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudrunv2job/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -53,6 +53,9 @@ type GoogleCloudRunV2JobTemplateTemplateContainersOutputReference interface {
 	PortsInput() interface{}
 	Resources() GoogleCloudRunV2JobTemplateTemplateContainersResourcesOutputReference
 	ResourcesInput() *GoogleCloudRunV2JobTemplateTemplateContainersResources
+	SandboxLauncher() interface{}
+	SetSandboxLauncher(val interface{})
+	SandboxLauncherInput() interface{}
 	StartupProbe() GoogleCloudRunV2JobTemplateTemplateContainersStartupProbeOutputReference
 	StartupProbeInput() *GoogleCloudRunV2JobTemplateTemplateContainersStartupProbe
 	// Experimental.
@@ -104,6 +107,7 @@ type GoogleCloudRunV2JobTemplateTemplateContainersOutputReference interface {
 	ResetName()
 	ResetPorts()
 	ResetResources()
+	ResetSandboxLauncher()
 	ResetStartupProbe()
 	ResetVolumeMounts()
 	ResetWorkingDir()
@@ -332,6 +336,26 @@ func (j *jsiiProxy_GoogleCloudRunV2JobTemplateTemplateContainersOutputReference)
 	return returns
 }
 
+func (j *jsiiProxy_GoogleCloudRunV2JobTemplateTemplateContainersOutputReference) SandboxLauncher() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"sandboxLauncher",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCloudRunV2JobTemplateTemplateContainersOutputReference) SandboxLauncherInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"sandboxLauncherInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleCloudRunV2JobTemplateTemplateContainersOutputReference) StartupProbe() GoogleCloudRunV2JobTemplateTemplateContainersStartupProbeOutputReference {
 	var returns GoogleCloudRunV2JobTemplateTemplateContainersStartupProbeOutputReference
 	_jsii_.Get(
@@ -524,6 +548,17 @@ func (j *jsiiProxy_GoogleCloudRunV2JobTemplateTemplateContainersOutputReference)
 	_jsii_.Set(
 		j,
 		"name",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleCloudRunV2JobTemplateTemplateContainersOutputReference)SetSandboxLauncher(val interface{}) {
+	if err := j.validateSetSandboxLauncherParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"sandboxLauncher",
 		val,
 	)
 }
@@ -854,6 +889,14 @@ func (g *jsiiProxy_GoogleCloudRunV2JobTemplateTemplateContainersOutputReference)
 	_jsii_.InvokeVoid(
 		g,
 		"resetResources",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleCloudRunV2JobTemplateTemplateContainersOutputReference) ResetSandboxLauncher() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetSandboxLauncher",
 		nil, // no parameters
 	)
 }

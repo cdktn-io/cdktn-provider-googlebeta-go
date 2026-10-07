@@ -5,14 +5,14 @@ package googleiaplocationwebiambinding
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiaplocationwebiambinding/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleiaplocationwebiambinding/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iap_location_web_iam_binding google_iap_location_web_iam_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iap_location_web_iam_binding google_iap_location_web_iam_binding}.
 type GoogleIapLocationWebIamBinding interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -496,7 +496,7 @@ func (j *jsiiProxy_GoogleIapLocationWebIamBinding) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iap_location_web_iam_binding google_iap_location_web_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iap_location_web_iam_binding google_iap_location_web_iam_binding} Resource.
 func NewGoogleIapLocationWebIamBinding(scope constructs.Construct, id *string, config *GoogleIapLocationWebIamBindingConfig) GoogleIapLocationWebIamBinding {
 	_init_.Initialize()
 
@@ -514,7 +514,7 @@ func NewGoogleIapLocationWebIamBinding(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iap_location_web_iam_binding google_iap_location_web_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iap_location_web_iam_binding google_iap_location_web_iam_binding} Resource.
 func NewGoogleIapLocationWebIamBinding_Override(g GoogleIapLocationWebIamBinding, scope constructs.Construct, id *string, config *GoogleIapLocationWebIamBindingConfig) {
 	_init_.Initialize()
 

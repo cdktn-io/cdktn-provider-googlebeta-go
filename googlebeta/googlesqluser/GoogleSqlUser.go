@@ -5,14 +5,14 @@ package googlesqluser
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlesqluser/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlesqluser/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_sql_user google_sql_user}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_sql_user google_sql_user}.
 type GoogleSqlUser interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -678,7 +678,7 @@ func (j *jsiiProxy_GoogleSqlUser) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_sql_user google_sql_user} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_sql_user google_sql_user} Resource.
 func NewGoogleSqlUser(scope constructs.Construct, id *string, config *GoogleSqlUserConfig) GoogleSqlUser {
 	_init_.Initialize()
 
@@ -696,7 +696,7 @@ func NewGoogleSqlUser(scope constructs.Construct, id *string, config *GoogleSqlU
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_sql_user google_sql_user} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_sql_user google_sql_user} Resource.
 func NewGoogleSqlUser_Override(g GoogleSqlUser, scope constructs.Construct, id *string, config *GoogleSqlUserConfig) {
 	_init_.Initialize()
 

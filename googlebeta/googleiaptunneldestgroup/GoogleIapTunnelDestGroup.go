@@ -5,14 +5,14 @@ package googleiaptunneldestgroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiaptunneldestgroup/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleiaptunneldestgroup/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iap_tunnel_dest_group google_iap_tunnel_dest_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iap_tunnel_dest_group google_iap_tunnel_dest_group}.
 type GoogleIapTunnelDestGroup interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -546,7 +546,7 @@ func (j *jsiiProxy_GoogleIapTunnelDestGroup) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iap_tunnel_dest_group google_iap_tunnel_dest_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iap_tunnel_dest_group google_iap_tunnel_dest_group} Resource.
 func NewGoogleIapTunnelDestGroup(scope constructs.Construct, id *string, config *GoogleIapTunnelDestGroupConfig) GoogleIapTunnelDestGroup {
 	_init_.Initialize()
 
@@ -564,7 +564,7 @@ func NewGoogleIapTunnelDestGroup(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iap_tunnel_dest_group google_iap_tunnel_dest_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iap_tunnel_dest_group google_iap_tunnel_dest_group} Resource.
 func NewGoogleIapTunnelDestGroup_Override(g GoogleIapTunnelDestGroup, scope constructs.Construct, id *string, config *GoogleIapTunnelDestGroupConfig) {
 	_init_.Initialize()
 

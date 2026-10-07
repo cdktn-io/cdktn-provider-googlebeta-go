@@ -5,14 +5,14 @@ package googledataplexlakeiammember
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledataplexlakeiammember/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataplexlakeiammember/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataplex_lake_iam_member google_dataplex_lake_iam_member}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dataplex_lake_iam_member google_dataplex_lake_iam_member}.
 type GoogleDataplexLakeIamMember interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -520,7 +520,7 @@ func (j *jsiiProxy_GoogleDataplexLakeIamMember) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataplex_lake_iam_member google_dataplex_lake_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dataplex_lake_iam_member google_dataplex_lake_iam_member} Resource.
 func NewGoogleDataplexLakeIamMember(scope constructs.Construct, id *string, config *GoogleDataplexLakeIamMemberConfig) GoogleDataplexLakeIamMember {
 	_init_.Initialize()
 
@@ -538,7 +538,7 @@ func NewGoogleDataplexLakeIamMember(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataplex_lake_iam_member google_dataplex_lake_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dataplex_lake_iam_member google_dataplex_lake_iam_member} Resource.
 func NewGoogleDataplexLakeIamMember_Override(g GoogleDataplexLakeIamMember, scope constructs.Construct, id *string, config *GoogleDataplexLakeIamMemberConfig) {
 	_init_.Initialize()
 

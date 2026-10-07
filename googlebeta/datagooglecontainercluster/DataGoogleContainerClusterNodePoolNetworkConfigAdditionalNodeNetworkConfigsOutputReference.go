@@ -5,9 +5,9 @@ package datagooglecontainercluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagooglecontainercluster/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagooglecontainercluster/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -33,6 +33,7 @@ type DataGoogleContainerClusterNodePoolNetworkConfigAdditionalNodeNetworkConfigs
 	InternalValue() *DataGoogleContainerClusterNodePoolNetworkConfigAdditionalNodeNetworkConfigs
 	SetInternalValue(val *DataGoogleContainerClusterNodePoolNetworkConfigAdditionalNodeNetworkConfigs)
 	Network() *string
+	StackType() *string
 	Subnetwork() *string
 	// Experimental.
 	TerraformAttribute() *string
@@ -136,6 +137,16 @@ func (j *jsiiProxy_DataGoogleContainerClusterNodePoolNetworkConfigAdditionalNode
 	_jsii_.Get(
 		j,
 		"network",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleContainerClusterNodePoolNetworkConfigAdditionalNodeNetworkConfigsOutputReference) StackType() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"stackType",
 		&returns,
 	)
 	return returns

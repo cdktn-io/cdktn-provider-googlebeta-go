@@ -51,6 +51,10 @@ func (g *jsiiProxy_GoogleDialogflowGeneratorSummarizationContextFewShotExamplesO
 	return nil
 }
 
+func (g *jsiiProxy_GoogleDialogflowGeneratorSummarizationContextFewShotExamplesOutputOutputReference) validatePutToolCallInfoParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleDialogflowGeneratorSummarizationContextFewShotExamplesOutputOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }

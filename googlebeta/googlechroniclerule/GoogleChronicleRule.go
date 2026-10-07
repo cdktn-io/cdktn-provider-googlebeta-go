@@ -5,14 +5,14 @@ package googlechroniclerule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechroniclerule/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlechroniclerule/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_chronicle_rule google_chronicle_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_chronicle_rule google_chronicle_rule}.
 type GoogleChronicleRule interface {
 	cdktn.TerraformResource
 	AllowedRunFrequencies() *[]*string
@@ -747,7 +747,7 @@ func (j *jsiiProxy_GoogleChronicleRule) Type() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_chronicle_rule google_chronicle_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_chronicle_rule google_chronicle_rule} Resource.
 func NewGoogleChronicleRule(scope constructs.Construct, id *string, config *GoogleChronicleRuleConfig) GoogleChronicleRule {
 	_init_.Initialize()
 
@@ -765,7 +765,7 @@ func NewGoogleChronicleRule(scope constructs.Construct, id *string, config *Goog
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_chronicle_rule google_chronicle_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_chronicle_rule google_chronicle_rule} Resource.
 func NewGoogleChronicleRule_Override(g GoogleChronicleRule, scope constructs.Construct, id *string, config *GoogleChronicleRuleConfig) {
 	_init_.Initialize()
 

@@ -51,6 +51,10 @@ func (g *jsiiProxy_GoogleCesExampleMessagesChunksOutputReference) validatePutAge
 	return nil
 }
 
+func (g *jsiiProxy_GoogleCesExampleMessagesChunksOutputReference) validatePutBlobParameters(value *GoogleCesExampleMessagesChunksBlob) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleCesExampleMessagesChunksOutputReference) validatePutImageParameters(value *GoogleCesExampleMessagesChunksImage) error {
 	return nil
 }

@@ -5,14 +5,14 @@ package googlevertexaiindexendpoint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaiindexendpoint/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlevertexaiindexendpoint/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_index_endpoint google_vertex_ai_index_endpoint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_vertex_ai_index_endpoint google_vertex_ai_index_endpoint}.
 type GoogleVertexAiIndexEndpoint interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -708,7 +708,7 @@ func (j *jsiiProxy_GoogleVertexAiIndexEndpoint) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_index_endpoint google_vertex_ai_index_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_vertex_ai_index_endpoint google_vertex_ai_index_endpoint} Resource.
 func NewGoogleVertexAiIndexEndpoint(scope constructs.Construct, id *string, config *GoogleVertexAiIndexEndpointConfig) GoogleVertexAiIndexEndpoint {
 	_init_.Initialize()
 
@@ -726,7 +726,7 @@ func NewGoogleVertexAiIndexEndpoint(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_index_endpoint google_vertex_ai_index_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_vertex_ai_index_endpoint google_vertex_ai_index_endpoint} Resource.
 func NewGoogleVertexAiIndexEndpoint_Override(g GoogleVertexAiIndexEndpoint, scope constructs.Construct, id *string, config *GoogleVertexAiIndexEndpointConfig) {
 	_init_.Initialize()
 

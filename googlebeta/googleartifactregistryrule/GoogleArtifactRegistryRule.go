@@ -5,14 +5,14 @@ package googleartifactregistryrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleartifactregistryrule/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleartifactregistryrule/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_artifact_registry_rule google_artifact_registry_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_artifact_registry_rule google_artifact_registry_rule}.
 type GoogleArtifactRegistryRule interface {
 	cdktn.TerraformResource
 	Action() *string
@@ -617,7 +617,7 @@ func (j *jsiiProxy_GoogleArtifactRegistryRule) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_artifact_registry_rule google_artifact_registry_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_artifact_registry_rule google_artifact_registry_rule} Resource.
 func NewGoogleArtifactRegistryRule(scope constructs.Construct, id *string, config *GoogleArtifactRegistryRuleConfig) GoogleArtifactRegistryRule {
 	_init_.Initialize()
 
@@ -635,7 +635,7 @@ func NewGoogleArtifactRegistryRule(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_artifact_registry_rule google_artifact_registry_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_artifact_registry_rule google_artifact_registry_rule} Resource.
 func NewGoogleArtifactRegistryRule_Override(g GoogleArtifactRegistryRule, scope constructs.Construct, id *string, config *GoogleArtifactRegistryRuleConfig) {
 	_init_.Initialize()
 

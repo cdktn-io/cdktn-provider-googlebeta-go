@@ -5,14 +5,14 @@ package googledialogflowcxagent
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowcxagent/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowcxagent/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_agent google_dialogflow_cx_agent}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_agent google_dialogflow_cx_agent}.
 type GoogleDialogflowCxAgent interface {
 	cdktn.TerraformResource
 	AdvancedSettings() GoogleDialogflowCxAgentAdvancedSettingsOutputReference
@@ -1008,7 +1008,7 @@ func (j *jsiiProxy_GoogleDialogflowCxAgent) TimeZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_agent google_dialogflow_cx_agent} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_agent google_dialogflow_cx_agent} Resource.
 func NewGoogleDialogflowCxAgent(scope constructs.Construct, id *string, config *GoogleDialogflowCxAgentConfig) GoogleDialogflowCxAgent {
 	_init_.Initialize()
 
@@ -1026,7 +1026,7 @@ func NewGoogleDialogflowCxAgent(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_cx_agent google_dialogflow_cx_agent} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_cx_agent google_dialogflow_cx_agent} Resource.
 func NewGoogleDialogflowCxAgent_Override(g GoogleDialogflowCxAgent, scope constructs.Construct, id *string, config *GoogleDialogflowCxAgentConfig) {
 	_init_.Initialize()
 

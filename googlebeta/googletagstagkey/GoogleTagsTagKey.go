@@ -5,14 +5,14 @@ package googletagstagkey
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googletagstagkey/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googletagstagkey/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_tags_tag_key google_tags_tag_key}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_tags_tag_key google_tags_tag_key}.
 type GoogleTagsTagKey interface {
 	cdktn.TerraformResource
 	AllowedValuesRegex() *string
@@ -602,7 +602,7 @@ func (j *jsiiProxy_GoogleTagsTagKey) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_tags_tag_key google_tags_tag_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_tags_tag_key google_tags_tag_key} Resource.
 func NewGoogleTagsTagKey(scope constructs.Construct, id *string, config *GoogleTagsTagKeyConfig) GoogleTagsTagKey {
 	_init_.Initialize()
 
@@ -620,7 +620,7 @@ func NewGoogleTagsTagKey(scope constructs.Construct, id *string, config *GoogleT
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_tags_tag_key google_tags_tag_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_tags_tag_key google_tags_tag_key} Resource.
 func NewGoogleTagsTagKey_Override(g GoogleTagsTagKey, scope constructs.Construct, id *string, config *GoogleTagsTagKeyConfig) {
 	_init_.Initialize()
 

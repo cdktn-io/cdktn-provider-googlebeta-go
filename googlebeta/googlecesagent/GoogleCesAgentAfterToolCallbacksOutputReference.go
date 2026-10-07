@@ -5,9 +5,9 @@ package googlecesagent
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesagent/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesagent/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -38,6 +38,9 @@ type GoogleCesAgentAfterToolCallbacksOutputReference interface {
 	Fqn() *string
 	InternalValue() interface{}
 	SetInternalValue(val interface{})
+	ProactiveExecutionEnabled() interface{}
+	SetProactiveExecutionEnabled(val interface{})
+	ProactiveExecutionEnabledInput() interface{}
 	PythonCode() *string
 	SetPythonCode(val *string)
 	PythonCodeInput() *string
@@ -75,6 +78,7 @@ type GoogleCesAgentAfterToolCallbacksOutputReference interface {
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetDescription()
 	ResetDisabled()
+	ResetProactiveExecutionEnabled()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -175,6 +179,26 @@ func (j *jsiiProxy_GoogleCesAgentAfterToolCallbacksOutputReference) InternalValu
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCesAgentAfterToolCallbacksOutputReference) ProactiveExecutionEnabled() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"proactiveExecutionEnabled",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCesAgentAfterToolCallbacksOutputReference) ProactiveExecutionEnabledInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"proactiveExecutionEnabledInput",
 		&returns,
 	)
 	return returns
@@ -299,6 +323,17 @@ func (j *jsiiProxy_GoogleCesAgentAfterToolCallbacksOutputReference)SetInternalVa
 	_jsii_.Set(
 		j,
 		"internalValue",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleCesAgentAfterToolCallbacksOutputReference)SetProactiveExecutionEnabled(val interface{}) {
+	if err := j.validateSetProactiveExecutionEnabledParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"proactiveExecutionEnabled",
 		val,
 	)
 }
@@ -534,6 +569,14 @@ func (g *jsiiProxy_GoogleCesAgentAfterToolCallbacksOutputReference) ResetDisable
 	_jsii_.InvokeVoid(
 		g,
 		"resetDisabled",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleCesAgentAfterToolCallbacksOutputReference) ResetProactiveExecutionEnabled() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetProactiveExecutionEnabled",
 		nil, // no parameters
 	)
 }

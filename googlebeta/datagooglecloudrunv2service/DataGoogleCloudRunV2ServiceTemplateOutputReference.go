@@ -5,9 +5,9 @@ package datagooglecloudrunv2service
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagooglecloudrunv2service/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagooglecloudrunv2service/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -58,6 +58,7 @@ type DataGoogleCloudRunV2ServiceTemplateOutputReference interface {
 	Timeout() *string
 	Volumes() DataGoogleCloudRunV2ServiceTemplateVolumesList
 	VpcAccess() DataGoogleCloudRunV2ServiceTemplateVpcAccessList
+	WorkloadIdentityConfig() DataGoogleCloudRunV2ServiceTemplateWorkloadIdentityConfigList
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
@@ -342,6 +343,16 @@ func (j *jsiiProxy_DataGoogleCloudRunV2ServiceTemplateOutputReference) VpcAccess
 	_jsii_.Get(
 		j,
 		"vpcAccess",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleCloudRunV2ServiceTemplateOutputReference) WorkloadIdentityConfig() DataGoogleCloudRunV2ServiceTemplateWorkloadIdentityConfigList {
+	var returns DataGoogleCloudRunV2ServiceTemplateWorkloadIdentityConfigList
+	_jsii_.Get(
+		j,
+		"workloadIdentityConfig",
 		&returns,
 	)
 	return returns

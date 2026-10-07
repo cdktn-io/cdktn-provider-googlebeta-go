@@ -5,14 +5,14 @@ package googlecomputeaddress
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeaddress/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeaddress/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_address google_compute_address}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_address google_compute_address}.
 type GoogleComputeAddress interface {
 	cdktn.TerraformResource
 	Address() *string
@@ -852,7 +852,7 @@ func (j *jsiiProxy_GoogleComputeAddress) Users() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_address google_compute_address} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_address google_compute_address} Resource.
 func NewGoogleComputeAddress(scope constructs.Construct, id *string, config *GoogleComputeAddressConfig) GoogleComputeAddress {
 	_init_.Initialize()
 
@@ -870,7 +870,7 @@ func NewGoogleComputeAddress(scope constructs.Construct, id *string, config *Goo
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_address google_compute_address} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_address google_compute_address} Resource.
 func NewGoogleComputeAddress_Override(g GoogleComputeAddress, scope constructs.Construct, id *string, config *GoogleComputeAddressConfig) {
 	_init_.Initialize()
 

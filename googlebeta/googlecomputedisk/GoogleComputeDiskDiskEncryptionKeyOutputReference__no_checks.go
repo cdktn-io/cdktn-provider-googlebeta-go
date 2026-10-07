@@ -75,7 +75,23 @@ func (j *jsiiProxy_GoogleComputeDiskDiskEncryptionKeyOutputReference) validateSe
 	return nil
 }
 
+func (j *jsiiProxy_GoogleComputeDiskDiskEncryptionKeyOutputReference) validateSetRawKeyWoParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleComputeDiskDiskEncryptionKeyOutputReference) validateSetRawKeyWoVersionParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleComputeDiskDiskEncryptionKeyOutputReference) validateSetRsaEncryptedKeyParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleComputeDiskDiskEncryptionKeyOutputReference) validateSetRsaEncryptedKeyWoParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleComputeDiskDiskEncryptionKeyOutputReference) validateSetRsaEncryptedKeyWoVersionParameters(val *string) error {
 	return nil
 }
 

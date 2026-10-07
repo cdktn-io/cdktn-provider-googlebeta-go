@@ -5,14 +5,14 @@ package googlesecretmanagersecretiambinding
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlesecretmanagersecretiambinding/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlesecretmanagersecretiambinding/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_secret_manager_secret_iam_binding google_secret_manager_secret_iam_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_secret_manager_secret_iam_binding google_secret_manager_secret_iam_binding}.
 type GoogleSecretManagerSecretIamBinding interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -496,7 +496,7 @@ func (j *jsiiProxy_GoogleSecretManagerSecretIamBinding) TerraformResourceType() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_secret_manager_secret_iam_binding google_secret_manager_secret_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_secret_manager_secret_iam_binding google_secret_manager_secret_iam_binding} Resource.
 func NewGoogleSecretManagerSecretIamBinding(scope constructs.Construct, id *string, config *GoogleSecretManagerSecretIamBindingConfig) GoogleSecretManagerSecretIamBinding {
 	_init_.Initialize()
 
@@ -514,7 +514,7 @@ func NewGoogleSecretManagerSecretIamBinding(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_secret_manager_secret_iam_binding google_secret_manager_secret_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_secret_manager_secret_iam_binding google_secret_manager_secret_iam_binding} Resource.
 func NewGoogleSecretManagerSecretIamBinding_Override(g GoogleSecretManagerSecretIamBinding, scope constructs.Construct, id *string, config *GoogleSecretManagerSecretIamBindingConfig) {
 	_init_.Initialize()
 

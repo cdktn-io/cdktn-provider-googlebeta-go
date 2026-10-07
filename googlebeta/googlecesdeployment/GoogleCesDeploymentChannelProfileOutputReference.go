@@ -5,9 +5,9 @@ package googlecesdeployment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesdeployment/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesdeployment/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -56,6 +56,8 @@ type GoogleCesDeploymentChannelProfileOutputReference interface {
 	SetTerraformResource(val cdktn.IInterpolatingParent)
 	WebWidgetConfig() GoogleCesDeploymentChannelProfileWebWidgetConfigOutputReference
 	WebWidgetConfigInput() *GoogleCesDeploymentChannelProfileWebWidgetConfig
+	WhatsappConfig() GoogleCesDeploymentChannelProfileWhatsappConfigOutputReference
+	WhatsappConfigInput() *GoogleCesDeploymentChannelProfileWhatsappConfig
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
@@ -82,12 +84,14 @@ type GoogleCesDeploymentChannelProfileOutputReference interface {
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutPersonaProperty(value *GoogleCesDeploymentChannelProfilePersonaProperty)
 	PutWebWidgetConfig(value *GoogleCesDeploymentChannelProfileWebWidgetConfig)
+	PutWhatsappConfig(value *GoogleCesDeploymentChannelProfileWhatsappConfig)
 	ResetChannelType()
 	ResetDisableBargeInControl()
 	ResetDisableDtmf()
 	ResetPersonaProperty()
 	ResetProfileId()
 	ResetWebWidgetConfig()
+	ResetWhatsappConfig()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -288,6 +292,26 @@ func (j *jsiiProxy_GoogleCesDeploymentChannelProfileOutputReference) WebWidgetCo
 	_jsii_.Get(
 		j,
 		"webWidgetConfigInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCesDeploymentChannelProfileOutputReference) WhatsappConfig() GoogleCesDeploymentChannelProfileWhatsappConfigOutputReference {
+	var returns GoogleCesDeploymentChannelProfileWhatsappConfigOutputReference
+	_jsii_.Get(
+		j,
+		"whatsappConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCesDeploymentChannelProfileOutputReference) WhatsappConfigInput() *GoogleCesDeploymentChannelProfileWhatsappConfig {
+	var returns *GoogleCesDeploymentChannelProfileWhatsappConfig
+	_jsii_.Get(
+		j,
+		"whatsappConfigInput",
 		&returns,
 	)
 	return returns
@@ -628,6 +652,17 @@ func (g *jsiiProxy_GoogleCesDeploymentChannelProfileOutputReference) PutWebWidge
 	)
 }
 
+func (g *jsiiProxy_GoogleCesDeploymentChannelProfileOutputReference) PutWhatsappConfig(value *GoogleCesDeploymentChannelProfileWhatsappConfig) {
+	if err := g.validatePutWhatsappConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putWhatsappConfig",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleCesDeploymentChannelProfileOutputReference) ResetChannelType() {
 	_jsii_.InvokeVoid(
 		g,
@@ -672,6 +707,14 @@ func (g *jsiiProxy_GoogleCesDeploymentChannelProfileOutputReference) ResetWebWid
 	_jsii_.InvokeVoid(
 		g,
 		"resetWebWidgetConfig",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleCesDeploymentChannelProfileOutputReference) ResetWhatsappConfig() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetWhatsappConfig",
 		nil, // no parameters
 	)
 }

@@ -5,14 +5,14 @@ package googlecomputefirewallpolicyiammember
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputefirewallpolicyiammember/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputefirewallpolicyiammember/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_firewall_policy_iam_member google_compute_firewall_policy_iam_member}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_firewall_policy_iam_member google_compute_firewall_policy_iam_member}.
 type GoogleComputeFirewallPolicyIamMember interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -472,7 +472,7 @@ func (j *jsiiProxy_GoogleComputeFirewallPolicyIamMember) TerraformResourceType()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_firewall_policy_iam_member google_compute_firewall_policy_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_firewall_policy_iam_member google_compute_firewall_policy_iam_member} Resource.
 func NewGoogleComputeFirewallPolicyIamMember(scope constructs.Construct, id *string, config *GoogleComputeFirewallPolicyIamMemberConfig) GoogleComputeFirewallPolicyIamMember {
 	_init_.Initialize()
 
@@ -490,7 +490,7 @@ func NewGoogleComputeFirewallPolicyIamMember(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_firewall_policy_iam_member google_compute_firewall_policy_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_firewall_policy_iam_member google_compute_firewall_policy_iam_member} Resource.
 func NewGoogleComputeFirewallPolicyIamMember_Override(g GoogleComputeFirewallPolicyIamMember, scope constructs.Construct, id *string, config *GoogleComputeFirewallPolicyIamMemberConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package googlesecuresourcemanagerinstanceiammember
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlesecuresourcemanagerinstanceiammember/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlesecuresourcemanagerinstanceiammember/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_secure_source_manager_instance_iam_member google_secure_source_manager_instance_iam_member}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_secure_source_manager_instance_iam_member google_secure_source_manager_instance_iam_member}.
 type GoogleSecureSourceManagerInstanceIamMember interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -520,7 +520,7 @@ func (j *jsiiProxy_GoogleSecureSourceManagerInstanceIamMember) TerraformResource
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_secure_source_manager_instance_iam_member google_secure_source_manager_instance_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_secure_source_manager_instance_iam_member google_secure_source_manager_instance_iam_member} Resource.
 func NewGoogleSecureSourceManagerInstanceIamMember(scope constructs.Construct, id *string, config *GoogleSecureSourceManagerInstanceIamMemberConfig) GoogleSecureSourceManagerInstanceIamMember {
 	_init_.Initialize()
 
@@ -538,7 +538,7 @@ func NewGoogleSecureSourceManagerInstanceIamMember(scope constructs.Construct, i
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_secure_source_manager_instance_iam_member google_secure_source_manager_instance_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_secure_source_manager_instance_iam_member google_secure_source_manager_instance_iam_member} Resource.
 func NewGoogleSecureSourceManagerInstanceIamMember_Override(g GoogleSecureSourceManagerInstanceIamMember, scope constructs.Construct, id *string, config *GoogleSecureSourceManagerInstanceIamMemberConfig) {
 	_init_.Initialize()
 

@@ -54,7 +54,6 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "provider", GoGetter: "Provider"},
 			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
 			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
-			_jsii_.MemberProperty{JsiiProperty: "reservationBlockCount", GoGetter: "ReservationBlockCount"},
 			_jsii_.MemberProperty{JsiiProperty: "reservationSharingPolicy", GoGetter: "ReservationSharingPolicy"},
 			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetProject", GoMethod: "ResetProject"},

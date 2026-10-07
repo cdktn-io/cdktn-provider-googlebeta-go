@@ -5,14 +5,14 @@ package datagooglestoragebucketobjectcontents
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagooglestoragebucketobjectcontents/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagooglestoragebucketobjectcontents/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_storage_bucket_object_contents google_storage_bucket_object_contents}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_storage_bucket_object_contents google_storage_bucket_object_contents}.
 type DataGoogleStorageBucketObjectContents interface {
 	cdktn.TerraformDataSource
 	Bucket() *string
@@ -369,7 +369,7 @@ func (j *jsiiProxy_DataGoogleStorageBucketObjectContents) TerraformResourceType(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_storage_bucket_object_contents google_storage_bucket_object_contents} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_storage_bucket_object_contents google_storage_bucket_object_contents} Data Source.
 func NewDataGoogleStorageBucketObjectContents(scope constructs.Construct, id *string, config *DataGoogleStorageBucketObjectContentsConfig) DataGoogleStorageBucketObjectContents {
 	_init_.Initialize()
 
@@ -387,7 +387,7 @@ func NewDataGoogleStorageBucketObjectContents(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_storage_bucket_object_contents google_storage_bucket_object_contents} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_storage_bucket_object_contents google_storage_bucket_object_contents} Data Source.
 func NewDataGoogleStorageBucketObjectContents_Override(d DataGoogleStorageBucketObjectContents, scope constructs.Construct, id *string, config *DataGoogleStorageBucketObjectContentsConfig) {
 	_init_.Initialize()
 

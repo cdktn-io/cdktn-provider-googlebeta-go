@@ -5,14 +5,14 @@ package googleappenginestandardappversion
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleappenginestandardappversion/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleappenginestandardappversion/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_app_engine_standard_app_version google_app_engine_standard_app_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_app_engine_standard_app_version google_app_engine_standard_app_version}.
 type GoogleAppEngineStandardAppVersion interface {
 	cdktn.TerraformResource
 	AppEngineApis() interface{}
@@ -126,8 +126,10 @@ type GoogleAppEngineStandardAppVersion interface {
 	VersionId() *string
 	SetVersionId(val *string)
 	VersionIdInput() *string
+	VpcAccess() GoogleAppEngineStandardAppVersionVpcAccessOutputReference
 	VpcAccessConnector() GoogleAppEngineStandardAppVersionVpcAccessConnectorOutputReference
 	VpcAccessConnectorInput() *GoogleAppEngineStandardAppVersionVpcAccessConnector
+	VpcAccessInput() *GoogleAppEngineStandardAppVersionVpcAccess
 	// Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
 	// Experimental.
 	AddMoveTarget(moveTarget *string)
@@ -215,6 +217,7 @@ type GoogleAppEngineStandardAppVersion interface {
 	PutLibraries(value interface{})
 	PutManualScaling(value *GoogleAppEngineStandardAppVersionManualScaling)
 	PutTimeouts(value *GoogleAppEngineStandardAppVersionTimeouts)
+	PutVpcAccess(value *GoogleAppEngineStandardAppVersionVpcAccess)
 	PutVpcAccessConnector(value *GoogleAppEngineStandardAppVersionVpcAccessConnector)
 	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
 	//
@@ -252,6 +255,7 @@ type GoogleAppEngineStandardAppVersion interface {
 	ResetThreadsafe()
 	ResetTimeouts()
 	ResetVersionId()
+	ResetVpcAccess()
 	ResetVpcAccessConnector()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
@@ -930,6 +934,16 @@ func (j *jsiiProxy_GoogleAppEngineStandardAppVersion) VersionIdInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_GoogleAppEngineStandardAppVersion) VpcAccess() GoogleAppEngineStandardAppVersionVpcAccessOutputReference {
+	var returns GoogleAppEngineStandardAppVersionVpcAccessOutputReference
+	_jsii_.Get(
+		j,
+		"vpcAccess",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleAppEngineStandardAppVersion) VpcAccessConnector() GoogleAppEngineStandardAppVersionVpcAccessConnectorOutputReference {
 	var returns GoogleAppEngineStandardAppVersionVpcAccessConnectorOutputReference
 	_jsii_.Get(
@@ -950,8 +964,18 @@ func (j *jsiiProxy_GoogleAppEngineStandardAppVersion) VpcAccessConnectorInput() 
 	return returns
 }
 
+func (j *jsiiProxy_GoogleAppEngineStandardAppVersion) VpcAccessInput() *GoogleAppEngineStandardAppVersionVpcAccess {
+	var returns *GoogleAppEngineStandardAppVersionVpcAccess
+	_jsii_.Get(
+		j,
+		"vpcAccessInput",
+		&returns,
+	)
+	return returns
+}
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_app_engine_standard_app_version google_app_engine_standard_app_version} Resource.
+
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_app_engine_standard_app_version google_app_engine_standard_app_version} Resource.
 func NewGoogleAppEngineStandardAppVersion(scope constructs.Construct, id *string, config *GoogleAppEngineStandardAppVersionConfig) GoogleAppEngineStandardAppVersion {
 	_init_.Initialize()
 
@@ -969,7 +993,7 @@ func NewGoogleAppEngineStandardAppVersion(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_app_engine_standard_app_version google_app_engine_standard_app_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_app_engine_standard_app_version google_app_engine_standard_app_version} Resource.
 func NewGoogleAppEngineStandardAppVersion_Override(g GoogleAppEngineStandardAppVersion, scope constructs.Construct, id *string, config *GoogleAppEngineStandardAppVersionConfig) {
 	_init_.Initialize()
 
@@ -1681,6 +1705,17 @@ func (g *jsiiProxy_GoogleAppEngineStandardAppVersion) PutTimeouts(value *GoogleA
 	)
 }
 
+func (g *jsiiProxy_GoogleAppEngineStandardAppVersion) PutVpcAccess(value *GoogleAppEngineStandardAppVersionVpcAccess) {
+	if err := g.validatePutVpcAccessParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putVpcAccess",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleAppEngineStandardAppVersion) PutVpcAccessConnector(value *GoogleAppEngineStandardAppVersionVpcAccessConnector) {
 	if err := g.validatePutVpcAccessConnectorParameters(value); err != nil {
 		panic(err)
@@ -1867,6 +1902,14 @@ func (g *jsiiProxy_GoogleAppEngineStandardAppVersion) ResetVersionId() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetVersionId",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleAppEngineStandardAppVersion) ResetVpcAccess() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetVpcAccess",
 		nil, // no parameters
 	)
 }

@@ -5,9 +5,9 @@ package googlecloudrunv2job
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudrunv2job/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudrunv2job/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -31,6 +31,9 @@ type GoogleCloudRunV2JobTemplateOutputReference interface {
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
+	DelayExecution() interface{}
+	SetDelayExecution(val interface{})
+	DelayExecutionInput() interface{}
 	// Experimental.
 	Fqn() *string
 	InternalValue() *GoogleCloudRunV2JobTemplate
@@ -80,6 +83,7 @@ type GoogleCloudRunV2JobTemplateOutputReference interface {
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutTemplate(value *GoogleCloudRunV2JobTemplateTemplate)
 	ResetAnnotations()
+	ResetDelayExecution()
 	ResetLabels()
 	ResetParallelism()
 	ResetTaskCount()
@@ -143,6 +147,26 @@ func (j *jsiiProxy_GoogleCloudRunV2JobTemplateOutputReference) CreationStack() *
 	_jsii_.Get(
 		j,
 		"creationStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCloudRunV2JobTemplateOutputReference) DelayExecution() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"delayExecution",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCloudRunV2JobTemplateOutputReference) DelayExecutionInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"delayExecutionInput",
 		&returns,
 	)
 	return returns
@@ -325,6 +349,17 @@ func (j *jsiiProxy_GoogleCloudRunV2JobTemplateOutputReference)SetComplexObjectIs
 	_jsii_.Set(
 		j,
 		"complexObjectIsFromSet",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleCloudRunV2JobTemplateOutputReference)SetDelayExecution(val interface{}) {
+	if err := j.validateSetDelayExecutionParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"delayExecution",
 		val,
 	)
 }
@@ -596,6 +631,14 @@ func (g *jsiiProxy_GoogleCloudRunV2JobTemplateOutputReference) ResetAnnotations(
 	_jsii_.InvokeVoid(
 		g,
 		"resetAnnotations",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleCloudRunV2JobTemplateOutputReference) ResetDelayExecution() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDelayExecution",
 		nil, // no parameters
 	)
 }

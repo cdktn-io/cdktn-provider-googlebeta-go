@@ -143,6 +143,14 @@ func (j *jsiiProxy_GoogleSecretManagerRegionalSecretVersion) validateSetSecretDa
 	return nil
 }
 
+func (j *jsiiProxy_GoogleSecretManagerRegionalSecretVersion) validateSetSecretDataWoParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleSecretManagerRegionalSecretVersion) validateSetSecretDataWoVersionParameters(val *string) error {
+	return nil
+}
+
 func validateNewGoogleSecretManagerRegionalSecretVersionParameters(scope constructs.Construct, id *string, config *GoogleSecretManagerRegionalSecretVersionConfig) error {
 	return nil
 }

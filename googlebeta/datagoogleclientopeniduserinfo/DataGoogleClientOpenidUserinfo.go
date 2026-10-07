@@ -5,14 +5,14 @@ package datagoogleclientopeniduserinfo
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoogleclientopeniduserinfo/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagoogleclientopeniduserinfo/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_client_openid_userinfo google_client_openid_userinfo}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_client_openid_userinfo google_client_openid_userinfo}.
 type DataGoogleClientOpenidUserinfo interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataGoogleClientOpenidUserinfo) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_client_openid_userinfo google_client_openid_userinfo} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_client_openid_userinfo google_client_openid_userinfo} Data Source.
 func NewDataGoogleClientOpenidUserinfo(scope constructs.Construct, id *string, config *DataGoogleClientOpenidUserinfoConfig) DataGoogleClientOpenidUserinfo {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataGoogleClientOpenidUserinfo(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_client_openid_userinfo google_client_openid_userinfo} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_client_openid_userinfo google_client_openid_userinfo} Data Source.
 func NewDataGoogleClientOpenidUserinfo_Override(d DataGoogleClientOpenidUserinfo, scope constructs.Construct, id *string, config *DataGoogleClientOpenidUserinfoConfig) {
 	_init_.Initialize()
 

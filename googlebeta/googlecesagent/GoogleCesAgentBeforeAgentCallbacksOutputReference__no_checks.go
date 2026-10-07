@@ -71,6 +71,10 @@ func (j *jsiiProxy_GoogleCesAgentBeforeAgentCallbacksOutputReference) validateSe
 	return nil
 }
 
+func (j *jsiiProxy_GoogleCesAgentBeforeAgentCallbacksOutputReference) validateSetProactiveExecutionEnabledParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleCesAgentBeforeAgentCallbacksOutputReference) validateSetPythonCodeParameters(val *string) error {
 	return nil
 }

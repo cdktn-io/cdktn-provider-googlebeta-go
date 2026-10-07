@@ -5,9 +5,9 @@ package googledialogflowgenerator
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowgenerator/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowgenerator/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -42,6 +42,8 @@ type GoogleDialogflowGeneratorSummarizationContextFewShotExamplesOutputOutputRef
 	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
 	SetTerraformResource(val cdktn.IInterpolatingParent)
+	ToolCallInfo() GoogleDialogflowGeneratorSummarizationContextFewShotExamplesOutputToolCallInfoList
+	ToolCallInfoInput() interface{}
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
@@ -67,7 +69,9 @@ type GoogleDialogflowGeneratorSummarizationContextFewShotExamplesOutputOutputRef
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutSummarySuggestion(value *GoogleDialogflowGeneratorSummarizationContextFewShotExamplesOutputSummarySuggestion)
+	PutToolCallInfo(value interface{})
 	ResetSummarySuggestion()
+	ResetToolCallInfo()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -168,6 +172,26 @@ func (j *jsiiProxy_GoogleDialogflowGeneratorSummarizationContextFewShotExamplesO
 	_jsii_.Get(
 		j,
 		"terraformResource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDialogflowGeneratorSummarizationContextFewShotExamplesOutputOutputReference) ToolCallInfo() GoogleDialogflowGeneratorSummarizationContextFewShotExamplesOutputToolCallInfoList {
+	var returns GoogleDialogflowGeneratorSummarizationContextFewShotExamplesOutputToolCallInfoList
+	_jsii_.Get(
+		j,
+		"toolCallInfo",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDialogflowGeneratorSummarizationContextFewShotExamplesOutputOutputReference) ToolCallInfoInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"toolCallInfoInput",
 		&returns,
 	)
 	return returns
@@ -453,10 +477,29 @@ func (g *jsiiProxy_GoogleDialogflowGeneratorSummarizationContextFewShotExamplesO
 	)
 }
 
+func (g *jsiiProxy_GoogleDialogflowGeneratorSummarizationContextFewShotExamplesOutputOutputReference) PutToolCallInfo(value interface{}) {
+	if err := g.validatePutToolCallInfoParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putToolCallInfo",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleDialogflowGeneratorSummarizationContextFewShotExamplesOutputOutputReference) ResetSummarySuggestion() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetSummarySuggestion",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleDialogflowGeneratorSummarizationContextFewShotExamplesOutputOutputReference) ResetToolCallInfo() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetToolCallInfo",
 		nil, // no parameters
 	)
 }

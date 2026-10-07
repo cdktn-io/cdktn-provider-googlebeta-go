@@ -5,14 +5,14 @@ package googledialogflowsiptrunk
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledialogflowsiptrunk/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledialogflowsiptrunk/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_sip_trunk google_dialogflow_sip_trunk}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_sip_trunk google_dialogflow_sip_trunk}.
 type GoogleDialogflowSipTrunk interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -532,7 +532,7 @@ func (j *jsiiProxy_GoogleDialogflowSipTrunk) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_sip_trunk google_dialogflow_sip_trunk} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_sip_trunk google_dialogflow_sip_trunk} Resource.
 func NewGoogleDialogflowSipTrunk(scope constructs.Construct, id *string, config *GoogleDialogflowSipTrunkConfig) GoogleDialogflowSipTrunk {
 	_init_.Initialize()
 
@@ -550,7 +550,7 @@ func NewGoogleDialogflowSipTrunk(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dialogflow_sip_trunk google_dialogflow_sip_trunk} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_sip_trunk google_dialogflow_sip_trunk} Resource.
 func NewGoogleDialogflowSipTrunk_Override(g GoogleDialogflowSipTrunk, scope constructs.Construct, id *string, config *GoogleDialogflowSipTrunkConfig) {
 	_init_.Initialize()
 

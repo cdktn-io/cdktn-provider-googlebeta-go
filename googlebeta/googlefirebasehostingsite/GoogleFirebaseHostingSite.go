@@ -5,14 +5,14 @@ package googlefirebasehostingsite
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirebasehostingsite/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlefirebasehostingsite/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_firebase_hosting_site google_firebase_hosting_site}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_firebase_hosting_site google_firebase_hosting_site}.
 type GoogleFirebaseHostingSite interface {
 	cdktn.TerraformResource
 	AppId() *string
@@ -521,7 +521,7 @@ func (j *jsiiProxy_GoogleFirebaseHostingSite) Type() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_firebase_hosting_site google_firebase_hosting_site} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_firebase_hosting_site google_firebase_hosting_site} Resource.
 func NewGoogleFirebaseHostingSite(scope constructs.Construct, id *string, config *GoogleFirebaseHostingSiteConfig) GoogleFirebaseHostingSite {
 	_init_.Initialize()
 
@@ -539,7 +539,7 @@ func NewGoogleFirebaseHostingSite(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_firebase_hosting_site google_firebase_hosting_site} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_firebase_hosting_site google_firebase_hosting_site} Resource.
 func NewGoogleFirebaseHostingSite_Override(g GoogleFirebaseHostingSite, scope constructs.Construct, id *string, config *GoogleFirebaseHostingSiteConfig) {
 	_init_.Initialize()
 

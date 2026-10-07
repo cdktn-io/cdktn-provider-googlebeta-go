@@ -5,18 +5,21 @@ package googleapikeyskey
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleapikeyskey/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleapikeyskey/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apikeys_key google_apikeys_key}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apikeys_key google_apikeys_key}.
 type GoogleApikeysKey interface {
 	cdktn.TerraformResource
 	// Experimental.
 	CdktfStack() cdktn.TerraformStack
+	CheckExistingUsage() *string
+	SetCheckExistingUsage(val *string)
+	CheckExistingUsageInput() *string
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -179,6 +182,7 @@ type GoogleApikeysKey interface {
 	// that needs it.
 	// Experimental.
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
+	ResetCheckExistingUsage()
 	ResetDeletionPolicy()
 	ResetDisplayName()
 	ResetId()
@@ -221,6 +225,26 @@ func (j *jsiiProxy_GoogleApikeysKey) CdktfStack() cdktn.TerraformStack {
 	_jsii_.Get(
 		j,
 		"cdktfStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleApikeysKey) CheckExistingUsage() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"checkExistingUsage",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleApikeysKey) CheckExistingUsageInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"checkExistingUsageInput",
 		&returns,
 	)
 	return returns
@@ -557,7 +581,7 @@ func (j *jsiiProxy_GoogleApikeysKey) Uid() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apikeys_key google_apikeys_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apikeys_key google_apikeys_key} Resource.
 func NewGoogleApikeysKey(scope constructs.Construct, id *string, config *GoogleApikeysKeyConfig) GoogleApikeysKey {
 	_init_.Initialize()
 
@@ -575,7 +599,7 @@ func NewGoogleApikeysKey(scope constructs.Construct, id *string, config *GoogleA
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apikeys_key google_apikeys_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apikeys_key google_apikeys_key} Resource.
 func NewGoogleApikeysKey_Override(g GoogleApikeysKey, scope constructs.Construct, id *string, config *GoogleApikeysKeyConfig) {
 	_init_.Initialize()
 
@@ -583,6 +607,17 @@ func NewGoogleApikeysKey_Override(g GoogleApikeysKey, scope constructs.Construct
 		"@cdktn/provider-google-beta.googleApikeysKey.GoogleApikeysKey",
 		[]interface{}{scope, id, config},
 		g,
+	)
+}
+
+func (j *jsiiProxy_GoogleApikeysKey)SetCheckExistingUsage(val *string) {
+	if err := j.validateSetCheckExistingUsageParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"checkExistingUsage",
+		val,
 	)
 }
 
@@ -1119,6 +1154,14 @@ func (g *jsiiProxy_GoogleApikeysKey) RegisterProviderFeatureUsage(feature cdktn.
 		g,
 		"registerProviderFeatureUsage",
 		[]interface{}{feature},
+	)
+}
+
+func (g *jsiiProxy_GoogleApikeysKey) ResetCheckExistingUsage() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetCheckExistingUsage",
+		nil, // no parameters
 	)
 }
 

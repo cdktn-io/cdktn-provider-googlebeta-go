@@ -47,6 +47,10 @@ func (g *jsiiProxy_GoogleComputeRegionUrlMapPathMatcherRouteRulesRouteActionUrlR
 	return nil
 }
 
+func (g *jsiiProxy_GoogleComputeRegionUrlMapPathMatcherRouteRulesRouteActionUrlRewriteOutputReference) validatePutRegexRewriteParameters(value *GoogleComputeRegionUrlMapPathMatcherRouteRulesRouteActionUrlRewriteRegexRewrite) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleComputeRegionUrlMapPathMatcherRouteRulesRouteActionUrlRewriteOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }

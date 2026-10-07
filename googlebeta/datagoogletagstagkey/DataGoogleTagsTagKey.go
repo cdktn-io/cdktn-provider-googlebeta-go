@@ -5,14 +5,14 @@ package datagoogletagstagkey
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoogletagstagkey/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagoogletagstagkey/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_tags_tag_key google_tags_tag_key}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_tags_tag_key google_tags_tag_key}.
 type DataGoogleTagsTagKey interface {
 	cdktn.TerraformDataSource
 	AllowedValuesRegex() *string
@@ -386,7 +386,7 @@ func (j *jsiiProxy_DataGoogleTagsTagKey) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_tags_tag_key google_tags_tag_key} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_tags_tag_key google_tags_tag_key} Data Source.
 func NewDataGoogleTagsTagKey(scope constructs.Construct, id *string, config *DataGoogleTagsTagKeyConfig) DataGoogleTagsTagKey {
 	_init_.Initialize()
 
@@ -404,7 +404,7 @@ func NewDataGoogleTagsTagKey(scope constructs.Construct, id *string, config *Dat
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_tags_tag_key google_tags_tag_key} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_tags_tag_key google_tags_tag_key} Data Source.
 func NewDataGoogleTagsTagKey_Override(d DataGoogleTagsTagKey, scope constructs.Construct, id *string, config *DataGoogleTagsTagKeyConfig) {
 	_init_.Initialize()
 

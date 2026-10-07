@@ -5,9 +5,9 @@ package datagooglecomputeregiondisk
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagooglecomputeregiondisk/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagooglecomputeregiondisk/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -34,7 +34,11 @@ type DataGoogleComputeRegionDiskDiskEncryptionKeyOutputReference interface {
 	SetInternalValue(val *DataGoogleComputeRegionDiskDiskEncryptionKey)
 	KmsKeyName() *string
 	RawKey() *string
+	RawKeyWo() *string
+	RawKeyWoVersion() *string
 	RsaEncryptedKey() *string
+	RsaEncryptedKeyWo() *string
+	RsaEncryptedKeyWoVersion() *string
 	Sha256() *string
 	// Experimental.
 	TerraformAttribute() *string
@@ -153,11 +157,51 @@ func (j *jsiiProxy_DataGoogleComputeRegionDiskDiskEncryptionKeyOutputReference) 
 	return returns
 }
 
+func (j *jsiiProxy_DataGoogleComputeRegionDiskDiskEncryptionKeyOutputReference) RawKeyWo() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"rawKeyWo",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleComputeRegionDiskDiskEncryptionKeyOutputReference) RawKeyWoVersion() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"rawKeyWoVersion",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataGoogleComputeRegionDiskDiskEncryptionKeyOutputReference) RsaEncryptedKey() *string {
 	var returns *string
 	_jsii_.Get(
 		j,
 		"rsaEncryptedKey",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleComputeRegionDiskDiskEncryptionKeyOutputReference) RsaEncryptedKeyWo() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"rsaEncryptedKeyWo",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleComputeRegionDiskDiskEncryptionKeyOutputReference) RsaEncryptedKeyWoVersion() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"rsaEncryptedKeyWoVersion",
 		&returns,
 	)
 	return returns

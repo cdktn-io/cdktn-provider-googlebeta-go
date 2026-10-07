@@ -5,14 +5,14 @@ package googleiamfolderaccesspolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiamfolderaccesspolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleiamfolderaccesspolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iam_folder_access_policy google_iam_folder_access_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iam_folder_access_policy google_iam_folder_access_policy}.
 type GoogleIamFolderAccessPolicy interface {
 	cdktn.TerraformResource
 	AccessPolicyId() *string
@@ -623,7 +623,7 @@ func (j *jsiiProxy_GoogleIamFolderAccessPolicy) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iam_folder_access_policy google_iam_folder_access_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iam_folder_access_policy google_iam_folder_access_policy} Resource.
 func NewGoogleIamFolderAccessPolicy(scope constructs.Construct, id *string, config *GoogleIamFolderAccessPolicyConfig) GoogleIamFolderAccessPolicy {
 	_init_.Initialize()
 
@@ -641,7 +641,7 @@ func NewGoogleIamFolderAccessPolicy(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iam_folder_access_policy google_iam_folder_access_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iam_folder_access_policy google_iam_folder_access_policy} Resource.
 func NewGoogleIamFolderAccessPolicy_Override(g GoogleIamFolderAccessPolicy, scope constructs.Construct, id *string, config *GoogleIamFolderAccessPolicyConfig) {
 	_init_.Initialize()
 

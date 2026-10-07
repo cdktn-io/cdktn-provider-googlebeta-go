@@ -5,9 +5,9 @@ package googlecesappversion
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -36,6 +36,7 @@ type GoogleCesAppVersionSnapshotAgentsRemoteDialogflowAgentOutputReference inter
 	InputVariableMapping() cdktn.StringMap
 	InternalValue() *GoogleCesAppVersionSnapshotAgentsRemoteDialogflowAgent
 	SetInternalValue(val *GoogleCesAppVersionSnapshotAgentsRemoteDialogflowAgent)
+	LanguageCodeVariable() *string
 	OutputVariableMapping() cdktn.StringMap
 	// Experimental.
 	TerraformAttribute() *string
@@ -169,6 +170,16 @@ func (j *jsiiProxy_GoogleCesAppVersionSnapshotAgentsRemoteDialogflowAgentOutputR
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCesAppVersionSnapshotAgentsRemoteDialogflowAgentOutputReference) LanguageCodeVariable() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"languageCodeVariable",
 		&returns,
 	)
 	return returns

@@ -139,10 +139,6 @@ func (j *jsiiProxy_GoogleCloudRunV2WorkerPool) validateSetCountParameters(val in
 	return nil
 }
 
-func (j *jsiiProxy_GoogleCloudRunV2WorkerPool) validateSetCustomAudiencesParameters(val *[]*string) error {
-	return nil
-}
-
 func (j *jsiiProxy_GoogleCloudRunV2WorkerPool) validateSetDeletionPolicyParameters(val *string) error {
 	return nil
 }

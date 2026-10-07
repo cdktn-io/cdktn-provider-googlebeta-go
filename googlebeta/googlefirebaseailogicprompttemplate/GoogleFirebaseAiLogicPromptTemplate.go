@@ -5,14 +5,14 @@ package googlefirebaseailogicprompttemplate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirebaseailogicprompttemplate/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlefirebaseailogicprompttemplate/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_firebase_ai_logic_prompt_template google_firebase_ai_logic_prompt_template}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_firebase_ai_logic_prompt_template google_firebase_ai_logic_prompt_template}.
 type GoogleFirebaseAiLogicPromptTemplate interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -623,7 +623,7 @@ func (j *jsiiProxy_GoogleFirebaseAiLogicPromptTemplate) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_firebase_ai_logic_prompt_template google_firebase_ai_logic_prompt_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_firebase_ai_logic_prompt_template google_firebase_ai_logic_prompt_template} Resource.
 func NewGoogleFirebaseAiLogicPromptTemplate(scope constructs.Construct, id *string, config *GoogleFirebaseAiLogicPromptTemplateConfig) GoogleFirebaseAiLogicPromptTemplate {
 	_init_.Initialize()
 
@@ -641,7 +641,7 @@ func NewGoogleFirebaseAiLogicPromptTemplate(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_firebase_ai_logic_prompt_template google_firebase_ai_logic_prompt_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_firebase_ai_logic_prompt_template google_firebase_ai_logic_prompt_template} Resource.
 func NewGoogleFirebaseAiLogicPromptTemplate_Override(g GoogleFirebaseAiLogicPromptTemplate, scope constructs.Construct, id *string, config *GoogleFirebaseAiLogicPromptTemplateConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package googleapigeesecurityfeedback
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleapigeesecurityfeedback/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleapigeesecurityfeedback/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_security_feedback google_apigee_security_feedback}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_security_feedback google_apigee_security_feedback}.
 type GoogleApigeeSecurityFeedback interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -613,7 +613,7 @@ func (j *jsiiProxy_GoogleApigeeSecurityFeedback) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_security_feedback google_apigee_security_feedback} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_security_feedback google_apigee_security_feedback} Resource.
 func NewGoogleApigeeSecurityFeedback(scope constructs.Construct, id *string, config *GoogleApigeeSecurityFeedbackConfig) GoogleApigeeSecurityFeedback {
 	_init_.Initialize()
 
@@ -631,7 +631,7 @@ func NewGoogleApigeeSecurityFeedback(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_security_feedback google_apigee_security_feedback} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_security_feedback google_apigee_security_feedback} Resource.
 func NewGoogleApigeeSecurityFeedback_Override(g GoogleApigeeSecurityFeedback, scope constructs.Construct, id *string, config *GoogleApigeeSecurityFeedbackConfig) {
 	_init_.Initialize()
 

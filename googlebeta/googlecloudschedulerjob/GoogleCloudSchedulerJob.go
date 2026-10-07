@@ -5,14 +5,14 @@ package googlecloudschedulerjob
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudschedulerjob/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudschedulerjob/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_scheduler_job google_cloud_scheduler_job}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_scheduler_job google_cloud_scheduler_job}.
 type GoogleCloudSchedulerJob interface {
 	cdktn.TerraformResource
 	AppEngineHttpTarget() GoogleCloudSchedulerJobAppEngineHttpTargetOutputReference
@@ -714,7 +714,7 @@ func (j *jsiiProxy_GoogleCloudSchedulerJob) TimeZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_scheduler_job google_cloud_scheduler_job} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_scheduler_job google_cloud_scheduler_job} Resource.
 func NewGoogleCloudSchedulerJob(scope constructs.Construct, id *string, config *GoogleCloudSchedulerJobConfig) GoogleCloudSchedulerJob {
 	_init_.Initialize()
 
@@ -732,7 +732,7 @@ func NewGoogleCloudSchedulerJob(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_scheduler_job google_cloud_scheduler_job} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_scheduler_job google_cloud_scheduler_job} Resource.
 func NewGoogleCloudSchedulerJob_Override(g GoogleCloudSchedulerJob, scope constructs.Construct, id *string, config *GoogleCloudSchedulerJobConfig) {
 	_init_.Initialize()
 

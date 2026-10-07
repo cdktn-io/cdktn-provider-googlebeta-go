@@ -5,14 +5,14 @@ package datagooglebigtabletableiampolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagooglebigtabletableiampolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagooglebigtabletableiampolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_bigtable_table_iam_policy google_bigtable_table_iam_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_bigtable_table_iam_policy google_bigtable_table_iam_policy}.
 type DataGoogleBigtableTableIamPolicy interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -379,7 +379,7 @@ func (j *jsiiProxy_DataGoogleBigtableTableIamPolicy) TerraformResourceType() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_bigtable_table_iam_policy google_bigtable_table_iam_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_bigtable_table_iam_policy google_bigtable_table_iam_policy} Data Source.
 func NewDataGoogleBigtableTableIamPolicy(scope constructs.Construct, id *string, config *DataGoogleBigtableTableIamPolicyConfig) DataGoogleBigtableTableIamPolicy {
 	_init_.Initialize()
 
@@ -397,7 +397,7 @@ func NewDataGoogleBigtableTableIamPolicy(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_bigtable_table_iam_policy google_bigtable_table_iam_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_bigtable_table_iam_policy google_bigtable_table_iam_policy} Data Source.
 func NewDataGoogleBigtableTableIamPolicy_Override(d DataGoogleBigtableTableIamPolicy, scope constructs.Construct, id *string, config *DataGoogleBigtableTableIamPolicyConfig) {
 	_init_.Initialize()
 

@@ -5,9 +5,9 @@ package googlecloudsecuritycompliancecloudcontrol
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudsecuritycompliancecloudcontrol/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudsecuritycompliancecloudcontrol/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -46,6 +46,8 @@ type GoogleCloudSecurityComplianceCloudControlParameterSpecSubParametersOutputRe
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
+	SubParameters() GoogleCloudSecurityComplianceCloudControlParameterSpecSubParametersSubParametersList
+	SubParametersInput() interface{}
 	SubstitutionRules() GoogleCloudSecurityComplianceCloudControlParameterSpecSubParametersSubstitutionRulesList
 	SubstitutionRulesInput() interface{}
 	// Experimental.
@@ -86,11 +88,13 @@ type GoogleCloudSecurityComplianceCloudControlParameterSpecSubParametersOutputRe
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutDefaultValue(value *GoogleCloudSecurityComplianceCloudControlParameterSpecSubParametersDefaultValue)
+	PutSubParameters(value interface{})
 	PutSubstitutionRules(value interface{})
 	PutValidation(value *GoogleCloudSecurityComplianceCloudControlParameterSpecSubParametersValidation)
 	ResetDefaultValue()
 	ResetDescription()
 	ResetDisplayName()
+	ResetSubParameters()
 	ResetSubstitutionRules()
 	ResetValidation()
 	// Produce the Token's value at resolution time.
@@ -253,6 +257,26 @@ func (j *jsiiProxy_GoogleCloudSecurityComplianceCloudControlParameterSpecSubPara
 	_jsii_.Get(
 		j,
 		"nameInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCloudSecurityComplianceCloudControlParameterSpecSubParametersOutputReference) SubParameters() GoogleCloudSecurityComplianceCloudControlParameterSpecSubParametersSubParametersList {
+	var returns GoogleCloudSecurityComplianceCloudControlParameterSpecSubParametersSubParametersList
+	_jsii_.Get(
+		j,
+		"subParameters",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCloudSecurityComplianceCloudControlParameterSpecSubParametersOutputReference) SubParametersInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"subParametersInput",
 		&returns,
 	)
 	return returns
@@ -673,6 +697,17 @@ func (g *jsiiProxy_GoogleCloudSecurityComplianceCloudControlParameterSpecSubPara
 	)
 }
 
+func (g *jsiiProxy_GoogleCloudSecurityComplianceCloudControlParameterSpecSubParametersOutputReference) PutSubParameters(value interface{}) {
+	if err := g.validatePutSubParametersParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putSubParameters",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleCloudSecurityComplianceCloudControlParameterSpecSubParametersOutputReference) PutSubstitutionRules(value interface{}) {
 	if err := g.validatePutSubstitutionRulesParameters(value); err != nil {
 		panic(err)
@@ -715,6 +750,14 @@ func (g *jsiiProxy_GoogleCloudSecurityComplianceCloudControlParameterSpecSubPara
 	_jsii_.InvokeVoid(
 		g,
 		"resetDisplayName",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleCloudSecurityComplianceCloudControlParameterSpecSubParametersOutputReference) ResetSubParameters() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetSubParameters",
 		nil, // no parameters
 	)
 }

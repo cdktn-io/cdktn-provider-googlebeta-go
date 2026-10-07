@@ -5,14 +5,14 @@ package googlechronicledashboardchart
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechronicledashboardchart/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlechronicledashboardchart/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_chronicle_dashboard_chart google_chronicle_dashboard_chart}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_chronicle_dashboard_chart google_chronicle_dashboard_chart}.
 type GoogleChronicleDashboardChart interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -603,7 +603,7 @@ func (j *jsiiProxy_GoogleChronicleDashboardChart) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_chronicle_dashboard_chart google_chronicle_dashboard_chart} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_chronicle_dashboard_chart google_chronicle_dashboard_chart} Resource.
 func NewGoogleChronicleDashboardChart(scope constructs.Construct, id *string, config *GoogleChronicleDashboardChartConfig) GoogleChronicleDashboardChart {
 	_init_.Initialize()
 
@@ -621,7 +621,7 @@ func NewGoogleChronicleDashboardChart(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_chronicle_dashboard_chart google_chronicle_dashboard_chart} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_chronicle_dashboard_chart google_chronicle_dashboard_chart} Resource.
 func NewGoogleChronicleDashboardChart_Override(g GoogleChronicleDashboardChart, scope constructs.Construct, id *string, config *GoogleChronicleDashboardChartConfig) {
 	_init_.Initialize()
 

@@ -177,9 +177,25 @@ func (j *jsiiProxy_GoogleCesAppEvaluationMetricsThresholdsOutputReference) valid
 	return nil
 }
 
+func (j *jsiiProxy_GoogleCesAppEvaluationMetricsThresholdsOutputReference) validateSetGoldenHallucinationMetricBehaviorParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_GoogleCesAppEvaluationMetricsThresholdsOutputReference) validateSetInternalValueParameters(val *GoogleCesAppEvaluationMetricsThresholds) error {
 	if err := _jsii_.ValidateStruct(val, func() string { return "parameter val" }); err != nil {
 		return err
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_GoogleCesAppEvaluationMetricsThresholdsOutputReference) validateSetScenarioHallucinationMetricBehaviorParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
 
 	return nil

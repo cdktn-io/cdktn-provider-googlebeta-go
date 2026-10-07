@@ -5,14 +5,14 @@ package googledataformrepository
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledataformrepository/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataformrepository/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataform_repository google_dataform_repository}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dataform_repository google_dataform_repository}.
 type GoogleDataformRepository interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -677,7 +677,7 @@ func (j *jsiiProxy_GoogleDataformRepository) WorkspaceCompilationOverridesInput(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataform_repository google_dataform_repository} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dataform_repository google_dataform_repository} Resource.
 func NewGoogleDataformRepository(scope constructs.Construct, id *string, config *GoogleDataformRepositoryConfig) GoogleDataformRepository {
 	_init_.Initialize()
 
@@ -695,7 +695,7 @@ func NewGoogleDataformRepository(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataform_repository google_dataform_repository} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dataform_repository google_dataform_repository} Resource.
 func NewGoogleDataformRepository_Override(g GoogleDataformRepository, scope constructs.Construct, id *string, config *GoogleDataformRepositoryConfig) {
 	_init_.Initialize()
 

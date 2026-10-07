@@ -5,14 +5,14 @@ package googledataplexdataproduct
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledataplexdataproduct/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataplexdataproduct/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataplex_data_product google_dataplex_data_product}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dataplex_data_product google_dataplex_data_product}.
 type GoogleDataplexDataProduct interface {
 	cdktn.TerraformResource
 	AccessApprovalConfig() GoogleDataplexDataProductAccessApprovalConfigOutputReference
@@ -740,7 +740,7 @@ func (j *jsiiProxy_GoogleDataplexDataProduct) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataplex_data_product google_dataplex_data_product} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dataplex_data_product google_dataplex_data_product} Resource.
 func NewGoogleDataplexDataProduct(scope constructs.Construct, id *string, config *GoogleDataplexDataProductConfig) GoogleDataplexDataProduct {
 	_init_.Initialize()
 
@@ -758,7 +758,7 @@ func NewGoogleDataplexDataProduct(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataplex_data_product google_dataplex_data_product} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dataplex_data_product google_dataplex_data_product} Resource.
 func NewGoogleDataplexDataProduct_Override(g GoogleDataplexDataProduct, scope constructs.Construct, id *string, config *GoogleDataplexDataProductConfig) {
 	_init_.Initialize()
 

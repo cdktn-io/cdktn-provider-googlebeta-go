@@ -5,14 +5,14 @@ package googlecomputeregionbackendserviceiampolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeregionbackendserviceiampolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeregionbackendserviceiampolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_backend_service_iam_policy google_compute_region_backend_service_iam_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_backend_service_iam_policy google_compute_region_backend_service_iam_policy}.
 type GoogleComputeRegionBackendServiceIamPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -473,7 +473,7 @@ func (j *jsiiProxy_GoogleComputeRegionBackendServiceIamPolicy) TerraformResource
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_backend_service_iam_policy google_compute_region_backend_service_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_backend_service_iam_policy google_compute_region_backend_service_iam_policy} Resource.
 func NewGoogleComputeRegionBackendServiceIamPolicy(scope constructs.Construct, id *string, config *GoogleComputeRegionBackendServiceIamPolicyConfig) GoogleComputeRegionBackendServiceIamPolicy {
 	_init_.Initialize()
 
@@ -491,7 +491,7 @@ func NewGoogleComputeRegionBackendServiceIamPolicy(scope constructs.Construct, i
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_backend_service_iam_policy google_compute_region_backend_service_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_backend_service_iam_policy google_compute_region_backend_service_iam_policy} Resource.
 func NewGoogleComputeRegionBackendServiceIamPolicy_Override(g GoogleComputeRegionBackendServiceIamPolicy, scope constructs.Construct, id *string, config *GoogleComputeRegionBackendServiceIamPolicyConfig) {
 	_init_.Initialize()
 

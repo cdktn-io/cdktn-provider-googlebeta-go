@@ -5,14 +5,14 @@ package googleloggingorganizationexclusion
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleloggingorganizationexclusion/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleloggingorganizationexclusion/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_logging_organization_exclusion google_logging_organization_exclusion}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_logging_organization_exclusion google_logging_organization_exclusion}.
 type GoogleLoggingOrganizationExclusion interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -485,7 +485,7 @@ func (j *jsiiProxy_GoogleLoggingOrganizationExclusion) TerraformResourceType() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_logging_organization_exclusion google_logging_organization_exclusion} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_logging_organization_exclusion google_logging_organization_exclusion} Resource.
 func NewGoogleLoggingOrganizationExclusion(scope constructs.Construct, id *string, config *GoogleLoggingOrganizationExclusionConfig) GoogleLoggingOrganizationExclusion {
 	_init_.Initialize()
 
@@ -503,7 +503,7 @@ func NewGoogleLoggingOrganizationExclusion(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_logging_organization_exclusion google_logging_organization_exclusion} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_logging_organization_exclusion google_logging_organization_exclusion} Resource.
 func NewGoogleLoggingOrganizationExclusion_Override(g GoogleLoggingOrganizationExclusion, scope constructs.Construct, id *string, config *GoogleLoggingOrganizationExclusionConfig) {
 	_init_.Initialize()
 

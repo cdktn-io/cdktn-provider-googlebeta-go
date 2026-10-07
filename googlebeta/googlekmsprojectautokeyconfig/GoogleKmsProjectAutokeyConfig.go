@@ -5,14 +5,14 @@ package googlekmsprojectautokeyconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlekmsprojectautokeyconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlekmsprojectautokeyconfig/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_kms_project_autokey_config google_kms_project_autokey_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_kms_project_autokey_config google_kms_project_autokey_config}.
 type GoogleKmsProjectAutokeyConfig interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -475,7 +475,7 @@ func (j *jsiiProxy_GoogleKmsProjectAutokeyConfig) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_kms_project_autokey_config google_kms_project_autokey_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_kms_project_autokey_config google_kms_project_autokey_config} Resource.
 func NewGoogleKmsProjectAutokeyConfig(scope constructs.Construct, id *string, config *GoogleKmsProjectAutokeyConfigConfig) GoogleKmsProjectAutokeyConfig {
 	_init_.Initialize()
 
@@ -493,7 +493,7 @@ func NewGoogleKmsProjectAutokeyConfig(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_kms_project_autokey_config google_kms_project_autokey_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_kms_project_autokey_config google_kms_project_autokey_config} Resource.
 func NewGoogleKmsProjectAutokeyConfig_Override(g GoogleKmsProjectAutokeyConfig, scope constructs.Construct, id *string, config *GoogleKmsProjectAutokeyConfigConfig) {
 	_init_.Initialize()
 

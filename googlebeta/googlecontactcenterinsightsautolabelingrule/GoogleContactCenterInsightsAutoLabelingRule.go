@@ -5,14 +5,14 @@ package googlecontactcenterinsightsautolabelingrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecontactcenterinsightsautolabelingrule/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecontactcenterinsightsautolabelingrule/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_contact_center_insights_auto_labeling_rule google_contact_center_insights_auto_labeling_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_contact_center_insights_auto_labeling_rule google_contact_center_insights_auto_labeling_rule}.
 type GoogleContactCenterInsightsAutoLabelingRule interface {
 	cdktn.TerraformResource
 	Active() interface{}
@@ -664,7 +664,7 @@ func (j *jsiiProxy_GoogleContactCenterInsightsAutoLabelingRule) UpdateTime() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_contact_center_insights_auto_labeling_rule google_contact_center_insights_auto_labeling_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_contact_center_insights_auto_labeling_rule google_contact_center_insights_auto_labeling_rule} Resource.
 func NewGoogleContactCenterInsightsAutoLabelingRule(scope constructs.Construct, id *string, config *GoogleContactCenterInsightsAutoLabelingRuleConfig) GoogleContactCenterInsightsAutoLabelingRule {
 	_init_.Initialize()
 
@@ -682,7 +682,7 @@ func NewGoogleContactCenterInsightsAutoLabelingRule(scope constructs.Construct, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_contact_center_insights_auto_labeling_rule google_contact_center_insights_auto_labeling_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_contact_center_insights_auto_labeling_rule google_contact_center_insights_auto_labeling_rule} Resource.
 func NewGoogleContactCenterInsightsAutoLabelingRule_Override(g GoogleContactCenterInsightsAutoLabelingRule, scope constructs.Construct, id *string, config *GoogleContactCenterInsightsAutoLabelingRuleConfig) {
 	_init_.Initialize()
 

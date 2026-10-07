@@ -5,9 +5,9 @@ package googlecestoolset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestoolset/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecestoolset/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -52,6 +52,8 @@ type GoogleCesToolsetMcpToolsetOutputReference interface {
 	SetTerraformResource(val cdktn.IInterpolatingParent)
 	TlsConfig() GoogleCesToolsetMcpToolsetTlsConfigOutputReference
 	TlsConfigInput() *GoogleCesToolsetMcpToolsetTlsConfig
+	ToolOverrides() GoogleCesToolsetMcpToolsetToolOverridesList
+	ToolOverridesInput() interface{}
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
@@ -79,10 +81,12 @@ type GoogleCesToolsetMcpToolsetOutputReference interface {
 	PutApiAuthentication(value *GoogleCesToolsetMcpToolsetApiAuthentication)
 	PutServiceDirectoryConfig(value *GoogleCesToolsetMcpToolsetServiceDirectoryConfig)
 	PutTlsConfig(value *GoogleCesToolsetMcpToolsetTlsConfig)
+	PutToolOverrides(value interface{})
 	ResetApiAuthentication()
 	ResetCustomHeaders()
 	ResetServiceDirectoryConfig()
 	ResetTlsConfig()
+	ResetToolOverrides()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -263,6 +267,26 @@ func (j *jsiiProxy_GoogleCesToolsetMcpToolsetOutputReference) TlsConfigInput() *
 	_jsii_.Get(
 		j,
 		"tlsConfigInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCesToolsetMcpToolsetOutputReference) ToolOverrides() GoogleCesToolsetMcpToolsetToolOverridesList {
+	var returns GoogleCesToolsetMcpToolsetToolOverridesList
+	_jsii_.Get(
+		j,
+		"toolOverrides",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCesToolsetMcpToolsetOutputReference) ToolOverridesInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"toolOverridesInput",
 		&returns,
 	)
 	return returns
@@ -592,6 +616,17 @@ func (g *jsiiProxy_GoogleCesToolsetMcpToolsetOutputReference) PutTlsConfig(value
 	)
 }
 
+func (g *jsiiProxy_GoogleCesToolsetMcpToolsetOutputReference) PutToolOverrides(value interface{}) {
+	if err := g.validatePutToolOverridesParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putToolOverrides",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleCesToolsetMcpToolsetOutputReference) ResetApiAuthentication() {
 	_jsii_.InvokeVoid(
 		g,
@@ -620,6 +655,14 @@ func (g *jsiiProxy_GoogleCesToolsetMcpToolsetOutputReference) ResetTlsConfig() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetTlsConfig",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleCesToolsetMcpToolsetOutputReference) ResetToolOverrides() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetToolOverrides",
 		nil, // no parameters
 	)
 }

@@ -575,6 +575,14 @@ func (j *jsiiProxy_GoogleLustreInstance) validateSetProvisionersParameters(val *
 	return nil
 }
 
+func (j *jsiiProxy_GoogleLustreInstance) validateSetTargetVersionParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func validateNewGoogleLustreInstanceParameters(scope constructs.Construct, id *string, config *GoogleLustreInstanceConfig) error {
 	if scope == nil {
 		return fmt.Errorf("parameter scope is required, but nil was provided")

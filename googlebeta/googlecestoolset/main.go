@@ -693,10 +693,12 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "putApiAuthentication", GoMethod: "PutApiAuthentication"},
 			_jsii_.MemberMethod{JsiiMethod: "putServiceDirectoryConfig", GoMethod: "PutServiceDirectoryConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "putTlsConfig", GoMethod: "PutTlsConfig"},
+			_jsii_.MemberMethod{JsiiMethod: "putToolOverrides", GoMethod: "PutToolOverrides"},
 			_jsii_.MemberMethod{JsiiMethod: "resetApiAuthentication", GoMethod: "ResetApiAuthentication"},
 			_jsii_.MemberMethod{JsiiMethod: "resetCustomHeaders", GoMethod: "ResetCustomHeaders"},
 			_jsii_.MemberMethod{JsiiMethod: "resetServiceDirectoryConfig", GoMethod: "ResetServiceDirectoryConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "resetTlsConfig", GoMethod: "ResetTlsConfig"},
+			_jsii_.MemberMethod{JsiiMethod: "resetToolOverrides", GoMethod: "ResetToolOverrides"},
 			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
 			_jsii_.MemberProperty{JsiiProperty: "serverAddress", GoGetter: "ServerAddress"},
 			_jsii_.MemberProperty{JsiiProperty: "serverAddressInput", GoGetter: "ServerAddressInput"},
@@ -706,6 +708,8 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
 			_jsii_.MemberProperty{JsiiProperty: "tlsConfig", GoGetter: "TlsConfig"},
 			_jsii_.MemberProperty{JsiiProperty: "tlsConfigInput", GoGetter: "TlsConfigInput"},
+			_jsii_.MemberProperty{JsiiProperty: "toolOverrides", GoGetter: "ToolOverrides"},
+			_jsii_.MemberProperty{JsiiProperty: "toolOverridesInput", GoGetter: "ToolOverridesInput"},
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
@@ -849,6 +853,72 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GoogleCesToolsetMcpToolsetTlsConfigOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverrides",
+		reflect.TypeOf((*GoogleCesToolsetMcpToolsetToolOverrides)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverridesList",
+		reflect.TypeOf((*GoogleCesToolsetMcpToolsetToolOverridesList)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
+		},
+		func() interface{} {
+			j := jsiiProxy_GoogleCesToolsetMcpToolsetToolOverridesList{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
+			return &j
+		},
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-google-beta.googleCesToolset.GoogleCesToolsetMcpToolsetToolOverridesOutputReference",
+		reflect.TypeOf((*GoogleCesToolsetMcpToolsetToolOverridesOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "descriptionOverride", GoGetter: "DescriptionOverride"},
+			_jsii_.MemberProperty{JsiiProperty: "descriptionOverrideInput", GoGetter: "DescriptionOverrideInput"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "nameOverride", GoGetter: "NameOverride"},
+			_jsii_.MemberProperty{JsiiProperty: "nameOverrideInput", GoGetter: "NameOverrideInput"},
+			_jsii_.MemberMethod{JsiiMethod: "resetDescriptionOverride", GoMethod: "ResetDescriptionOverride"},
+			_jsii_.MemberMethod{JsiiMethod: "resetNameOverride", GoMethod: "ResetNameOverride"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberProperty{JsiiProperty: "tool", GoGetter: "Tool"},
+			_jsii_.MemberProperty{JsiiProperty: "toolInput", GoGetter: "ToolInput"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_GoogleCesToolsetMcpToolsetToolOverridesOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},

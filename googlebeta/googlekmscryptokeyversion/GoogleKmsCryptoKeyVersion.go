@@ -5,14 +5,14 @@ package googlekmscryptokeyversion
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlekmscryptokeyversion/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlekmscryptokeyversion/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_kms_crypto_key_version google_kms_crypto_key_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_kms_crypto_key_version google_kms_crypto_key_version}.
 type GoogleKmsCryptoKeyVersion interface {
 	cdktn.TerraformResource
 	Algorithm() *string
@@ -542,7 +542,7 @@ func (j *jsiiProxy_GoogleKmsCryptoKeyVersion) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_kms_crypto_key_version google_kms_crypto_key_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_kms_crypto_key_version google_kms_crypto_key_version} Resource.
 func NewGoogleKmsCryptoKeyVersion(scope constructs.Construct, id *string, config *GoogleKmsCryptoKeyVersionConfig) GoogleKmsCryptoKeyVersion {
 	_init_.Initialize()
 
@@ -560,7 +560,7 @@ func NewGoogleKmsCryptoKeyVersion(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_kms_crypto_key_version google_kms_crypto_key_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_kms_crypto_key_version google_kms_crypto_key_version} Resource.
 func NewGoogleKmsCryptoKeyVersion_Override(g GoogleKmsCryptoKeyVersion, scope constructs.Construct, id *string, config *GoogleKmsCryptoKeyVersionConfig) {
 	_init_.Initialize()
 

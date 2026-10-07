@@ -5,14 +5,14 @@ package googlechroniclefindingsrefinement
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechroniclefindingsrefinement/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlechroniclefindingsrefinement/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_chronicle_findings_refinement google_chronicle_findings_refinement}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_chronicle_findings_refinement google_chronicle_findings_refinement}.
 type GoogleChronicleFindingsRefinement interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -591,7 +591,7 @@ func (j *jsiiProxy_GoogleChronicleFindingsRefinement) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_chronicle_findings_refinement google_chronicle_findings_refinement} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_chronicle_findings_refinement google_chronicle_findings_refinement} Resource.
 func NewGoogleChronicleFindingsRefinement(scope constructs.Construct, id *string, config *GoogleChronicleFindingsRefinementConfig) GoogleChronicleFindingsRefinement {
 	_init_.Initialize()
 
@@ -609,7 +609,7 @@ func NewGoogleChronicleFindingsRefinement(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_chronicle_findings_refinement google_chronicle_findings_refinement} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_chronicle_findings_refinement google_chronicle_findings_refinement} Resource.
 func NewGoogleChronicleFindingsRefinement_Override(g GoogleChronicleFindingsRefinement, scope constructs.Construct, id *string, config *GoogleChronicleFindingsRefinementConfig) {
 	_init_.Initialize()
 

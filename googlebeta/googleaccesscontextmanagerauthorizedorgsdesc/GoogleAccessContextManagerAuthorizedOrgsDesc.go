@@ -5,14 +5,14 @@ package googleaccesscontextmanagerauthorizedorgsdesc
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleaccesscontextmanagerauthorizedorgsdesc/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleaccesscontextmanagerauthorizedorgsdesc/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_access_context_manager_authorized_orgs_desc google_access_context_manager_authorized_orgs_desc}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_access_context_manager_authorized_orgs_desc google_access_context_manager_authorized_orgs_desc}.
 type GoogleAccessContextManagerAuthorizedOrgsDesc interface {
 	cdktn.TerraformResource
 	AssetType() *string
@@ -580,7 +580,7 @@ func (j *jsiiProxy_GoogleAccessContextManagerAuthorizedOrgsDesc) UpdateTime() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_access_context_manager_authorized_orgs_desc google_access_context_manager_authorized_orgs_desc} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_access_context_manager_authorized_orgs_desc google_access_context_manager_authorized_orgs_desc} Resource.
 func NewGoogleAccessContextManagerAuthorizedOrgsDesc(scope constructs.Construct, id *string, config *GoogleAccessContextManagerAuthorizedOrgsDescConfig) GoogleAccessContextManagerAuthorizedOrgsDesc {
 	_init_.Initialize()
 
@@ -598,7 +598,7 @@ func NewGoogleAccessContextManagerAuthorizedOrgsDesc(scope constructs.Construct,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_access_context_manager_authorized_orgs_desc google_access_context_manager_authorized_orgs_desc} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_access_context_manager_authorized_orgs_desc google_access_context_manager_authorized_orgs_desc} Resource.
 func NewGoogleAccessContextManagerAuthorizedOrgsDesc_Override(g GoogleAccessContextManagerAuthorizedOrgsDesc, scope constructs.Construct, id *string, config *GoogleAccessContextManagerAuthorizedOrgsDescConfig) {
 	_init_.Initialize()
 

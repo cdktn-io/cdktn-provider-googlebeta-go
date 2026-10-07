@@ -5,9 +5,9 @@ package googleagenticapplicationsanalystagentpersona
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleagenticapplicationsanalystagentpersona/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleagenticapplicationsanalystagentpersona/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -15,6 +15,9 @@ type GoogleAgenticApplicationsAnalystAgentPersonaMcpDataSourcesOutputReference i
 	cdktn.ComplexObject
 	ApiKey() *string
 	SetApiKey(val *string)
+	ApiKeyHeader() *string
+	SetApiKeyHeader(val *string)
+	ApiKeyHeaderInput() *string
 	ApiKeyInput() *string
 	ApiKeyName() *string
 	SetApiKeyName(val *string)
@@ -95,6 +98,7 @@ type GoogleAgenticApplicationsAnalystAgentPersonaMcpDataSourcesOutputReference i
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetApiKey()
+	ResetApiKeyHeader()
 	ResetApiKeyName()
 	ResetClientId()
 	ResetClientSecret()
@@ -120,6 +124,26 @@ func (j *jsiiProxy_GoogleAgenticApplicationsAnalystAgentPersonaMcpDataSourcesOut
 	_jsii_.Get(
 		j,
 		"apiKey",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleAgenticApplicationsAnalystAgentPersonaMcpDataSourcesOutputReference) ApiKeyHeader() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"apiKeyHeader",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleAgenticApplicationsAnalystAgentPersonaMcpDataSourcesOutputReference) ApiKeyHeaderInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"apiKeyHeaderInput",
 		&returns,
 	)
 	return returns
@@ -420,6 +444,17 @@ func (j *jsiiProxy_GoogleAgenticApplicationsAnalystAgentPersonaMcpDataSourcesOut
 	_jsii_.Set(
 		j,
 		"apiKey",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleAgenticApplicationsAnalystAgentPersonaMcpDataSourcesOutputReference)SetApiKeyHeader(val *string) {
+	if err := j.validateSetApiKeyHeaderParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"apiKeyHeader",
 		val,
 	)
 }
@@ -768,6 +803,14 @@ func (g *jsiiProxy_GoogleAgenticApplicationsAnalystAgentPersonaMcpDataSourcesOut
 	_jsii_.InvokeVoid(
 		g,
 		"resetApiKey",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleAgenticApplicationsAnalystAgentPersonaMcpDataSourcesOutputReference) ResetApiKeyHeader() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetApiKeyHeader",
 		nil, // no parameters
 	)
 }

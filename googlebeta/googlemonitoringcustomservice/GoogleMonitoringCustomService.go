@@ -5,14 +5,14 @@ package googlemonitoringcustomservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemonitoringcustomservice/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemonitoringcustomservice/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_monitoring_custom_service google_monitoring_custom_service}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_monitoring_custom_service google_monitoring_custom_service}.
 type GoogleMonitoringCustomService interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -547,7 +547,7 @@ func (j *jsiiProxy_GoogleMonitoringCustomService) UserLabelsInput() *map[string]
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_monitoring_custom_service google_monitoring_custom_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_monitoring_custom_service google_monitoring_custom_service} Resource.
 func NewGoogleMonitoringCustomService(scope constructs.Construct, id *string, config *GoogleMonitoringCustomServiceConfig) GoogleMonitoringCustomService {
 	_init_.Initialize()
 
@@ -565,7 +565,7 @@ func NewGoogleMonitoringCustomService(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_monitoring_custom_service google_monitoring_custom_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_monitoring_custom_service google_monitoring_custom_service} Resource.
 func NewGoogleMonitoringCustomService_Override(g GoogleMonitoringCustomService, scope constructs.Construct, id *string, config *GoogleMonitoringCustomServiceConfig) {
 	_init_.Initialize()
 

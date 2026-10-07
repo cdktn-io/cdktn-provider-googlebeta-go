@@ -5,14 +5,14 @@ package googlecesapprootagentassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesapprootagentassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesapprootagentassociation/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app_root_agent_association google_ces_app_root_agent_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app_root_agent_association google_ces_app_root_agent_association}.
 type GoogleCesAppRootAgentAssociation interface {
 	cdktn.TerraformResource
 	AgentId() *string
@@ -509,7 +509,7 @@ func (j *jsiiProxy_GoogleCesAppRootAgentAssociation) TimeoutsInput() interface{}
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app_root_agent_association google_ces_app_root_agent_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app_root_agent_association google_ces_app_root_agent_association} Resource.
 func NewGoogleCesAppRootAgentAssociation(scope constructs.Construct, id *string, config *GoogleCesAppRootAgentAssociationConfig) GoogleCesAppRootAgentAssociation {
 	_init_.Initialize()
 
@@ -527,7 +527,7 @@ func NewGoogleCesAppRootAgentAssociation(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app_root_agent_association google_ces_app_root_agent_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app_root_agent_association google_ces_app_root_agent_association} Resource.
 func NewGoogleCesAppRootAgentAssociation_Override(g GoogleCesAppRootAgentAssociation, scope constructs.Construct, id *string, config *GoogleCesAppRootAgentAssociationConfig) {
 	_init_.Initialize()
 

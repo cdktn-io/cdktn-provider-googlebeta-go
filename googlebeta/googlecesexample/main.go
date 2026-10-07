@@ -153,12 +153,12 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/provider-google-beta.googleCesExample.GoogleCesExampleMessagesChunksImage",
-		reflect.TypeOf((*GoogleCesExampleMessagesChunksImage)(nil)).Elem(),
+		"@cdktn/provider-google-beta.googleCesExample.GoogleCesExampleMessagesChunksBlob",
+		reflect.TypeOf((*GoogleCesExampleMessagesChunksBlob)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/provider-google-beta.googleCesExample.GoogleCesExampleMessagesChunksImageOutputReference",
-		reflect.TypeOf((*GoogleCesExampleMessagesChunksImageOutputReference)(nil)).Elem(),
+		"@cdktn/provider-google-beta.googleCesExample.GoogleCesExampleMessagesChunksBlobOutputReference",
+		reflect.TypeOf((*GoogleCesExampleMessagesChunksBlobOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -181,6 +181,49 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
 			_jsii_.MemberProperty{JsiiProperty: "mimeType", GoGetter: "MimeType"},
 			_jsii_.MemberProperty{JsiiProperty: "mimeTypeInput", GoGetter: "MimeTypeInput"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_GoogleCesExampleMessagesChunksBlobOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-google-beta.googleCesExample.GoogleCesExampleMessagesChunksImage",
+		reflect.TypeOf((*GoogleCesExampleMessagesChunksImage)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-google-beta.googleCesExample.GoogleCesExampleMessagesChunksImageOutputReference",
+		reflect.TypeOf((*GoogleCesExampleMessagesChunksImageOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "altText", GoGetter: "AltText"},
+			_jsii_.MemberProperty{JsiiProperty: "altTextInput", GoGetter: "AltTextInput"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "data", GoGetter: "Data"},
+			_jsii_.MemberProperty{JsiiProperty: "dataInput", GoGetter: "DataInput"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "mimeType", GoGetter: "MimeType"},
+			_jsii_.MemberProperty{JsiiProperty: "mimeTypeInput", GoGetter: "MimeTypeInput"},
+			_jsii_.MemberMethod{JsiiMethod: "resetAltText", GoMethod: "ResetAltText"},
 			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
 			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
 			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
@@ -220,6 +263,8 @@ func init() {
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "agentTransfer", GoGetter: "AgentTransfer"},
 			_jsii_.MemberProperty{JsiiProperty: "agentTransferInput", GoGetter: "AgentTransferInput"},
+			_jsii_.MemberProperty{JsiiProperty: "blob", GoGetter: "Blob"},
+			_jsii_.MemberProperty{JsiiProperty: "blobInput", GoGetter: "BlobInput"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -240,10 +285,12 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
 			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
 			_jsii_.MemberMethod{JsiiMethod: "putAgentTransfer", GoMethod: "PutAgentTransfer"},
+			_jsii_.MemberMethod{JsiiMethod: "putBlob", GoMethod: "PutBlob"},
 			_jsii_.MemberMethod{JsiiMethod: "putImage", GoMethod: "PutImage"},
 			_jsii_.MemberMethod{JsiiMethod: "putToolCall", GoMethod: "PutToolCall"},
 			_jsii_.MemberMethod{JsiiMethod: "putToolResponse", GoMethod: "PutToolResponse"},
 			_jsii_.MemberMethod{JsiiMethod: "resetAgentTransfer", GoMethod: "ResetAgentTransfer"},
+			_jsii_.MemberMethod{JsiiMethod: "resetBlob", GoMethod: "ResetBlob"},
 			_jsii_.MemberMethod{JsiiMethod: "resetImage", GoMethod: "ResetImage"},
 			_jsii_.MemberMethod{JsiiMethod: "resetText", GoMethod: "ResetText"},
 			_jsii_.MemberMethod{JsiiMethod: "resetToolCall", GoMethod: "ResetToolCall"},

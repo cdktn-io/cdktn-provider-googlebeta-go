@@ -5,14 +5,14 @@ package googlebigqueryanalyticshublistingsubscription
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebigqueryanalyticshublistingsubscription/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebigqueryanalyticshublistingsubscription/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigquery_analytics_hub_listing_subscription google_bigquery_analytics_hub_listing_subscription}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigquery_analytics_hub_listing_subscription google_bigquery_analytics_hub_listing_subscription}.
 type GoogleBigqueryAnalyticsHubListingSubscription interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -41,6 +41,8 @@ type GoogleBigqueryAnalyticsHubListingSubscription interface {
 	SetDependsOn(val *[]*string)
 	DestinationDataset() GoogleBigqueryAnalyticsHubListingSubscriptionDestinationDatasetOutputReference
 	DestinationDatasetInput() *GoogleBigqueryAnalyticsHubListingSubscriptionDestinationDataset
+	DestinationPubsubSubscription() GoogleBigqueryAnalyticsHubListingSubscriptionDestinationPubsubSubscriptionOutputReference
+	DestinationPubsubSubscriptionInput() *GoogleBigqueryAnalyticsHubListingSubscriptionDestinationPubsubSubscription
 	// Experimental.
 	ForEach() cdktn.ITerraformIterator
 	// Experimental.
@@ -176,6 +178,7 @@ type GoogleBigqueryAnalyticsHubListingSubscription interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutDestinationDataset(value *GoogleBigqueryAnalyticsHubListingSubscriptionDestinationDataset)
+	PutDestinationPubsubSubscription(value *GoogleBigqueryAnalyticsHubListingSubscriptionDestinationPubsubSubscription)
 	PutTimeouts(value *GoogleBigqueryAnalyticsHubListingSubscriptionTimeouts)
 	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
 	//
@@ -191,6 +194,8 @@ type GoogleBigqueryAnalyticsHubListingSubscription interface {
 	// Experimental.
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
 	ResetDeletionPolicy()
+	ResetDestinationDataset()
+	ResetDestinationPubsubSubscription()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -349,6 +354,26 @@ func (j *jsiiProxy_GoogleBigqueryAnalyticsHubListingSubscription) DestinationDat
 	_jsii_.Get(
 		j,
 		"destinationDatasetInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleBigqueryAnalyticsHubListingSubscription) DestinationPubsubSubscription() GoogleBigqueryAnalyticsHubListingSubscriptionDestinationPubsubSubscriptionOutputReference {
+	var returns GoogleBigqueryAnalyticsHubListingSubscriptionDestinationPubsubSubscriptionOutputReference
+	_jsii_.Get(
+		j,
+		"destinationPubsubSubscription",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleBigqueryAnalyticsHubListingSubscription) DestinationPubsubSubscriptionInput() *GoogleBigqueryAnalyticsHubListingSubscriptionDestinationPubsubSubscription {
+	var returns *GoogleBigqueryAnalyticsHubListingSubscriptionDestinationPubsubSubscription
+	_jsii_.Get(
+		j,
+		"destinationPubsubSubscriptionInput",
 		&returns,
 	)
 	return returns
@@ -675,7 +700,7 @@ func (j *jsiiProxy_GoogleBigqueryAnalyticsHubListingSubscription) TimeoutsInput(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigquery_analytics_hub_listing_subscription google_bigquery_analytics_hub_listing_subscription} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigquery_analytics_hub_listing_subscription google_bigquery_analytics_hub_listing_subscription} Resource.
 func NewGoogleBigqueryAnalyticsHubListingSubscription(scope constructs.Construct, id *string, config *GoogleBigqueryAnalyticsHubListingSubscriptionConfig) GoogleBigqueryAnalyticsHubListingSubscription {
 	_init_.Initialize()
 
@@ -693,7 +718,7 @@ func NewGoogleBigqueryAnalyticsHubListingSubscription(scope constructs.Construct
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigquery_analytics_hub_listing_subscription google_bigquery_analytics_hub_listing_subscription} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigquery_analytics_hub_listing_subscription google_bigquery_analytics_hub_listing_subscription} Resource.
 func NewGoogleBigqueryAnalyticsHubListingSubscription_Override(g GoogleBigqueryAnalyticsHubListingSubscription, scope constructs.Construct, id *string, config *GoogleBigqueryAnalyticsHubListingSubscriptionConfig) {
 	_init_.Initialize()
 
@@ -1218,6 +1243,17 @@ func (g *jsiiProxy_GoogleBigqueryAnalyticsHubListingSubscription) PutDestination
 	)
 }
 
+func (g *jsiiProxy_GoogleBigqueryAnalyticsHubListingSubscription) PutDestinationPubsubSubscription(value *GoogleBigqueryAnalyticsHubListingSubscriptionDestinationPubsubSubscription) {
+	if err := g.validatePutDestinationPubsubSubscriptionParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putDestinationPubsubSubscription",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleBigqueryAnalyticsHubListingSubscription) PutTimeouts(value *GoogleBigqueryAnalyticsHubListingSubscriptionTimeouts) {
 	if err := g.validatePutTimeoutsParameters(value); err != nil {
 		panic(err)
@@ -1244,6 +1280,22 @@ func (g *jsiiProxy_GoogleBigqueryAnalyticsHubListingSubscription) ResetDeletionP
 	_jsii_.InvokeVoid(
 		g,
 		"resetDeletionPolicy",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleBigqueryAnalyticsHubListingSubscription) ResetDestinationDataset() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDestinationDataset",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleBigqueryAnalyticsHubListingSubscription) ResetDestinationPubsubSubscription() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDestinationPubsubSubscription",
 		nil, // no parameters
 	)
 }

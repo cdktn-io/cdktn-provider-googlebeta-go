@@ -5,9 +5,9 @@ package googlecomputeregionbackendservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeregionbackendservice/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeregionbackendservice/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -33,6 +33,9 @@ type GoogleComputeRegionBackendServiceTlsSettingsOutputReference interface {
 	CreationStack() *[]*string
 	// Experimental.
 	Fqn() *string
+	Identity() *string
+	SetIdentity(val *string)
+	IdentityInput() *string
 	InternalValue() *GoogleComputeRegionBackendServiceTlsSettings
 	SetInternalValue(val *GoogleComputeRegionBackendServiceTlsSettings)
 	Sni() *string
@@ -74,6 +77,7 @@ type GoogleComputeRegionBackendServiceTlsSettingsOutputReference interface {
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutSubjectAltNames(value interface{})
 	ResetAuthenticationConfig()
+	ResetIdentity()
 	ResetSni()
 	ResetSubjectAltNames()
 	// Produce the Token's value at resolution time.
@@ -146,6 +150,26 @@ func (j *jsiiProxy_GoogleComputeRegionBackendServiceTlsSettingsOutputReference) 
 	_jsii_.Get(
 		j,
 		"fqn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeRegionBackendServiceTlsSettingsOutputReference) Identity() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"identity",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeRegionBackendServiceTlsSettingsOutputReference) IdentityInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"identityInput",
 		&returns,
 	)
 	return returns
@@ -278,6 +302,17 @@ func (j *jsiiProxy_GoogleComputeRegionBackendServiceTlsSettingsOutputReference)S
 	_jsii_.Set(
 		j,
 		"complexObjectIsFromSet",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleComputeRegionBackendServiceTlsSettingsOutputReference)SetIdentity(val *string) {
+	if err := j.validateSetIdentityParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"identity",
 		val,
 	)
 }
@@ -527,6 +562,14 @@ func (g *jsiiProxy_GoogleComputeRegionBackendServiceTlsSettingsOutputReference) 
 	_jsii_.InvokeVoid(
 		g,
 		"resetAuthenticationConfig",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleComputeRegionBackendServiceTlsSettingsOutputReference) ResetIdentity() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetIdentity",
 		nil, // no parameters
 	)
 }

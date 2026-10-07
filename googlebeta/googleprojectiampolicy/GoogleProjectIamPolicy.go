@@ -5,14 +5,14 @@ package googleprojectiampolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleprojectiampolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleprojectiampolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_project_iam_policy google_project_iam_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_project_iam_policy google_project_iam_policy}.
 type GoogleProjectIamPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -425,7 +425,7 @@ func (j *jsiiProxy_GoogleProjectIamPolicy) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_project_iam_policy google_project_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_project_iam_policy google_project_iam_policy} Resource.
 func NewGoogleProjectIamPolicy(scope constructs.Construct, id *string, config *GoogleProjectIamPolicyConfig) GoogleProjectIamPolicy {
 	_init_.Initialize()
 
@@ -443,7 +443,7 @@ func NewGoogleProjectIamPolicy(scope constructs.Construct, id *string, config *G
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_project_iam_policy google_project_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_project_iam_policy google_project_iam_policy} Resource.
 func NewGoogleProjectIamPolicy_Override(g GoogleProjectIamPolicy, scope constructs.Construct, id *string, config *GoogleProjectIamPolicyConfig) {
 	_init_.Initialize()
 

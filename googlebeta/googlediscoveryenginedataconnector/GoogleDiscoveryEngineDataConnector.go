@@ -5,14 +5,14 @@ package googlediscoveryenginedataconnector
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlediscoveryenginedataconnector/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlediscoveryenginedataconnector/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_discovery_engine_data_connector google_discovery_engine_data_connector}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_discovery_engine_data_connector google_discovery_engine_data_connector}.
 type GoogleDiscoveryEngineDataConnector interface {
 	cdktn.TerraformResource
 	ActionConfig() GoogleDiscoveryEngineDataConnectorActionConfigOutputReference
@@ -97,6 +97,8 @@ type GoogleDiscoveryEngineDataConnector interface {
 	Location() *string
 	SetLocation(val *string)
 	LocationInput() *string
+	Metadata() GoogleDiscoveryEngineDataConnectorMetadataOutputReference
+	MetadataInput() *GoogleDiscoveryEngineDataConnectorMetadata
 	Name() *string
 	// The tree node.
 	Node() constructs.Node
@@ -129,6 +131,9 @@ type GoogleDiscoveryEngineDataConnector interface {
 	SyncMode() *string
 	SetSyncMode(val *string)
 	SyncModeInput() *string
+	Tag() *string
+	SetTag(val *string)
+	TagInput() *string
 	// Experimental.
 	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
@@ -221,6 +226,7 @@ type GoogleDiscoveryEngineDataConnector interface {
 	PutBapConfig(value *GoogleDiscoveryEngineDataConnectorBapConfig)
 	PutDestinationConfigs(value interface{})
 	PutEntities(value interface{})
+	PutMetadata(value *GoogleDiscoveryEngineDataConnectorMetadata)
 	PutTimeouts(value *GoogleDiscoveryEngineDataConnectorTimeouts)
 	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
 	//
@@ -248,6 +254,7 @@ type GoogleDiscoveryEngineDataConnector interface {
 	ResetIncrementalSyncDisabled()
 	ResetJsonParams()
 	ResetKmsKeyName()
+	ResetMetadata()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
@@ -255,6 +262,7 @@ type GoogleDiscoveryEngineDataConnector interface {
 	ResetProject()
 	ResetStaticIpEnabled()
 	ResetSyncMode()
+	ResetTag()
 	ResetTimeouts()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
@@ -783,6 +791,26 @@ func (j *jsiiProxy_GoogleDiscoveryEngineDataConnector) LocationInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_GoogleDiscoveryEngineDataConnector) Metadata() GoogleDiscoveryEngineDataConnectorMetadataOutputReference {
+	var returns GoogleDiscoveryEngineDataConnectorMetadataOutputReference
+	_jsii_.Get(
+		j,
+		"metadata",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDiscoveryEngineDataConnector) MetadataInput() *GoogleDiscoveryEngineDataConnectorMetadata {
+	var returns *GoogleDiscoveryEngineDataConnectorMetadata
+	_jsii_.Get(
+		j,
+		"metadataInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleDiscoveryEngineDataConnector) Name() *string {
 	var returns *string
 	_jsii_.Get(
@@ -973,6 +1001,26 @@ func (j *jsiiProxy_GoogleDiscoveryEngineDataConnector) SyncModeInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_GoogleDiscoveryEngineDataConnector) Tag() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"tag",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDiscoveryEngineDataConnector) TagInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"tagInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleDiscoveryEngineDataConnector) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
 	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
@@ -1034,7 +1082,7 @@ func (j *jsiiProxy_GoogleDiscoveryEngineDataConnector) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_discovery_engine_data_connector google_discovery_engine_data_connector} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_discovery_engine_data_connector google_discovery_engine_data_connector} Resource.
 func NewGoogleDiscoveryEngineDataConnector(scope constructs.Construct, id *string, config *GoogleDiscoveryEngineDataConnectorConfig) GoogleDiscoveryEngineDataConnector {
 	_init_.Initialize()
 
@@ -1052,7 +1100,7 @@ func NewGoogleDiscoveryEngineDataConnector(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_discovery_engine_data_connector google_discovery_engine_data_connector} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_discovery_engine_data_connector google_discovery_engine_data_connector} Resource.
 func NewGoogleDiscoveryEngineDataConnector_Override(g GoogleDiscoveryEngineDataConnector, scope constructs.Construct, id *string, config *GoogleDiscoveryEngineDataConnectorConfig) {
 	_init_.Initialize()
 
@@ -1325,6 +1373,17 @@ func (j *jsiiProxy_GoogleDiscoveryEngineDataConnector)SetSyncMode(val *string) {
 	_jsii_.Set(
 		j,
 		"syncMode",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleDiscoveryEngineDataConnector)SetTag(val *string) {
+	if err := j.validateSetTagParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"tag",
 		val,
 	)
 }
@@ -1742,6 +1801,17 @@ func (g *jsiiProxy_GoogleDiscoveryEngineDataConnector) PutEntities(value interfa
 	)
 }
 
+func (g *jsiiProxy_GoogleDiscoveryEngineDataConnector) PutMetadata(value *GoogleDiscoveryEngineDataConnectorMetadata) {
+	if err := g.validatePutMetadataParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putMetadata",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleDiscoveryEngineDataConnector) PutTimeouts(value *GoogleDiscoveryEngineDataConnectorTimeouts) {
 	if err := g.validatePutTimeoutsParameters(value); err != nil {
 		panic(err)
@@ -1868,6 +1938,14 @@ func (g *jsiiProxy_GoogleDiscoveryEngineDataConnector) ResetKmsKeyName() {
 	)
 }
 
+func (g *jsiiProxy_GoogleDiscoveryEngineDataConnector) ResetMetadata() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetMetadata",
+		nil, // no parameters
+	)
+}
+
 func (g *jsiiProxy_GoogleDiscoveryEngineDataConnector) ResetOverrideLogicalId() {
 	_jsii_.InvokeVoid(
 		g,
@@ -1904,6 +1982,14 @@ func (g *jsiiProxy_GoogleDiscoveryEngineDataConnector) ResetSyncMode() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetSyncMode",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleDiscoveryEngineDataConnector) ResetTag() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetTag",
 		nil, // no parameters
 	)
 }

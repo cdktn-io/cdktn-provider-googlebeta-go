@@ -5,14 +5,14 @@ package googleappenginedomainmapping
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleappenginedomainmapping/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleappenginedomainmapping/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_app_engine_domain_mapping google_app_engine_domain_mapping}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_app_engine_domain_mapping google_app_engine_domain_mapping}.
 type GoogleAppEngineDomainMapping interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -533,7 +533,7 @@ func (j *jsiiProxy_GoogleAppEngineDomainMapping) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_app_engine_domain_mapping google_app_engine_domain_mapping} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_app_engine_domain_mapping google_app_engine_domain_mapping} Resource.
 func NewGoogleAppEngineDomainMapping(scope constructs.Construct, id *string, config *GoogleAppEngineDomainMappingConfig) GoogleAppEngineDomainMapping {
 	_init_.Initialize()
 
@@ -551,7 +551,7 @@ func NewGoogleAppEngineDomainMapping(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_app_engine_domain_mapping google_app_engine_domain_mapping} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_app_engine_domain_mapping google_app_engine_domain_mapping} Resource.
 func NewGoogleAppEngineDomainMapping_Override(g GoogleAppEngineDomainMapping, scope constructs.Construct, id *string, config *GoogleAppEngineDomainMappingConfig) {
 	_init_.Initialize()
 

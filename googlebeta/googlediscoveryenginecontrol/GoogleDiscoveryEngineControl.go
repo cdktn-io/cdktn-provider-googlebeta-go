@@ -5,14 +5,14 @@ package googlediscoveryenginecontrol
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlediscoveryenginecontrol/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlediscoveryenginecontrol/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_discovery_engine_control google_discovery_engine_control}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_discovery_engine_control google_discovery_engine_control}.
 type GoogleDiscoveryEngineControl interface {
 	cdktn.TerraformResource
 	BoostAction() GoogleDiscoveryEngineControlBoostActionOutputReference
@@ -758,7 +758,7 @@ func (j *jsiiProxy_GoogleDiscoveryEngineControl) UseCasesInput() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_discovery_engine_control google_discovery_engine_control} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_discovery_engine_control google_discovery_engine_control} Resource.
 func NewGoogleDiscoveryEngineControl(scope constructs.Construct, id *string, config *GoogleDiscoveryEngineControlConfig) GoogleDiscoveryEngineControl {
 	_init_.Initialize()
 
@@ -776,7 +776,7 @@ func NewGoogleDiscoveryEngineControl(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_discovery_engine_control google_discovery_engine_control} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_discovery_engine_control google_discovery_engine_control} Resource.
 func NewGoogleDiscoveryEngineControl_Override(g GoogleDiscoveryEngineControl, scope constructs.Construct, id *string, config *GoogleDiscoveryEngineControlConfig) {
 	_init_.Initialize()
 

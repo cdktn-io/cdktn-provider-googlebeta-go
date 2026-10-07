@@ -5,14 +5,14 @@ package googleintegrationsclient
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleintegrationsclient/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleintegrationsclient/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_integrations_client google_integrations_client}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_integrations_client google_integrations_client}.
 type GoogleIntegrationsClient interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -72,9 +72,6 @@ type GoogleIntegrationsClient interface {
 	SetProvisioners(val *[]interface{})
 	// Experimental.
 	RawOverrides() interface{}
-	RunAsServiceAccount() *string
-	SetRunAsServiceAccount(val *string)
-	RunAsServiceAccountInput() *string
 	// Experimental.
 	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
@@ -185,7 +182,6 @@ type GoogleIntegrationsClient interface {
 	// Experimental.
 	ResetOverrideLogicalId()
 	ResetProject()
-	ResetRunAsServiceAccount()
 	ResetTimeouts()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
@@ -464,26 +460,6 @@ func (j *jsiiProxy_GoogleIntegrationsClient) RawOverrides() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleIntegrationsClient) RunAsServiceAccount() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"runAsServiceAccount",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_GoogleIntegrationsClient) RunAsServiceAccountInput() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"runAsServiceAccountInput",
-		&returns,
-	)
-	return returns
-}
-
 func (j *jsiiProxy_GoogleIntegrationsClient) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
 	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
@@ -535,7 +511,7 @@ func (j *jsiiProxy_GoogleIntegrationsClient) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_integrations_client google_integrations_client} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_integrations_client google_integrations_client} Resource.
 func NewGoogleIntegrationsClient(scope constructs.Construct, id *string, config *GoogleIntegrationsClientConfig) GoogleIntegrationsClient {
 	_init_.Initialize()
 
@@ -553,7 +529,7 @@ func NewGoogleIntegrationsClient(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_integrations_client google_integrations_client} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_integrations_client google_integrations_client} Resource.
 func NewGoogleIntegrationsClient_Override(g GoogleIntegrationsClient, scope constructs.Construct, id *string, config *GoogleIntegrationsClientConfig) {
 	_init_.Initialize()
 
@@ -683,17 +659,6 @@ func (j *jsiiProxy_GoogleIntegrationsClient)SetProvisioners(val *[]interface{}) 
 	_jsii_.Set(
 		j,
 		"provisioners",
-		val,
-	)
-}
-
-func (j *jsiiProxy_GoogleIntegrationsClient)SetRunAsServiceAccount(val *string) {
-	if err := j.validateSetRunAsServiceAccountParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"runAsServiceAccount",
 		val,
 	)
 }
@@ -1144,14 +1109,6 @@ func (g *jsiiProxy_GoogleIntegrationsClient) ResetProject() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetProject",
-		nil, // no parameters
-	)
-}
-
-func (g *jsiiProxy_GoogleIntegrationsClient) ResetRunAsServiceAccount() {
-	_jsii_.InvokeVoid(
-		g,
-		"resetRunAsServiceAccount",
 		nil, // no parameters
 	)
 }

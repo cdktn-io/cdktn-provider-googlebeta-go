@@ -67,6 +67,10 @@ func (j *jsiiProxy_GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetric
 	return nil
 }
 
+func (j *jsiiProxy_GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsTurnLevelMetricsThresholdsOutputReference) validateSetSemanticSimilarityChannelParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsTurnLevelMetricsThresholdsOutputReference) validateSetSemanticSimilaritySuccessThresholdParameters(val *float64) error {
 	return nil
 }

@@ -255,6 +255,10 @@ func (j *jsiiProxy_GoogleComputeRegionBackendService) validateSetSecurityPolicyP
 	return nil
 }
 
+func (j *jsiiProxy_GoogleComputeRegionBackendService) validateSetServiceLbPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleComputeRegionBackendService) validateSetSessionAffinityParameters(val *string) error {
 	return nil
 }

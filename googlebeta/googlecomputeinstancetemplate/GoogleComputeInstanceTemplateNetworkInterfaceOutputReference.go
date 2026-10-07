@@ -5,9 +5,9 @@ package googlecomputeinstancetemplate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeinstancetemplate/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeinstancetemplate/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -34,6 +34,9 @@ type GoogleComputeInstanceTemplateNetworkInterfaceOutputReference interface {
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
+	EnableVpcScopedDns() interface{}
+	SetEnableVpcScopedDns(val interface{})
+	EnableVpcScopedDnsInput() interface{}
 	// Experimental.
 	Fqn() *string
 	IgmpQuery() *string
@@ -118,6 +121,7 @@ type GoogleComputeInstanceTemplateNetworkInterfaceOutputReference interface {
 	ResetAccessConfig()
 	ResetAliasIpRange()
 	ResetAliasIpv6Range()
+	ResetEnableVpcScopedDns()
 	ResetIgmpQuery()
 	ResetInternalIpv6PrefixLength()
 	ResetIpv6AccessConfig()
@@ -231,6 +235,26 @@ func (j *jsiiProxy_GoogleComputeInstanceTemplateNetworkInterfaceOutputReference)
 	_jsii_.Get(
 		j,
 		"creationStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeInstanceTemplateNetworkInterfaceOutputReference) EnableVpcScopedDns() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"enableVpcScopedDns",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeInstanceTemplateNetworkInterfaceOutputReference) EnableVpcScopedDnsInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"enableVpcScopedDnsInput",
 		&returns,
 	)
 	return returns
@@ -612,6 +636,17 @@ func (j *jsiiProxy_GoogleComputeInstanceTemplateNetworkInterfaceOutputReference)
 	_jsii_.Set(
 		j,
 		"complexObjectIsFromSet",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleComputeInstanceTemplateNetworkInterfaceOutputReference)SetEnableVpcScopedDns(val interface{}) {
+	if err := j.validateSetEnableVpcScopedDnsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"enableVpcScopedDns",
 		val,
 	)
 }
@@ -1031,6 +1066,14 @@ func (g *jsiiProxy_GoogleComputeInstanceTemplateNetworkInterfaceOutputReference)
 	_jsii_.InvokeVoid(
 		g,
 		"resetAliasIpv6Range",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleComputeInstanceTemplateNetworkInterfaceOutputReference) ResetEnableVpcScopedDns() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetEnableVpcScopedDns",
 		nil, // no parameters
 	)
 }

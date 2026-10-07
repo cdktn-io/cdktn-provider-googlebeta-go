@@ -5,9 +5,9 @@ package datagooglestoragebucketobjects
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagooglestoragebucketobjects/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagooglestoragebucketobjects/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -45,6 +45,7 @@ type DataGoogleStorageBucketObjectsBucketObjectsOutputReference interface {
 	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
 	SetTerraformResource(val cdktn.IInterpolatingParent)
+	Updated() *string
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
@@ -199,6 +200,16 @@ func (j *jsiiProxy_DataGoogleStorageBucketObjectsBucketObjectsOutputReference) T
 	_jsii_.Get(
 		j,
 		"terraformResource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleStorageBucketObjectsBucketObjectsOutputReference) Updated() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"updated",
 		&returns,
 	)
 	return returns

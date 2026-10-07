@@ -5,14 +5,14 @@ package googlenetworkserviceslbedgeextension
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworkserviceslbedgeextension/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworkserviceslbedgeextension/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_services_lb_edge_extension google_network_services_lb_edge_extension}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_services_lb_edge_extension google_network_services_lb_edge_extension}.
 type GoogleNetworkServicesLbEdgeExtension interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -625,7 +625,7 @@ func (j *jsiiProxy_GoogleNetworkServicesLbEdgeExtension) TimeoutsInput() interfa
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_services_lb_edge_extension google_network_services_lb_edge_extension} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_services_lb_edge_extension google_network_services_lb_edge_extension} Resource.
 func NewGoogleNetworkServicesLbEdgeExtension(scope constructs.Construct, id *string, config *GoogleNetworkServicesLbEdgeExtensionConfig) GoogleNetworkServicesLbEdgeExtension {
 	_init_.Initialize()
 
@@ -643,7 +643,7 @@ func NewGoogleNetworkServicesLbEdgeExtension(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_services_lb_edge_extension google_network_services_lb_edge_extension} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_services_lb_edge_extension google_network_services_lb_edge_extension} Resource.
 func NewGoogleNetworkServicesLbEdgeExtension_Override(g GoogleNetworkServicesLbEdgeExtension, scope constructs.Construct, id *string, config *GoogleNetworkServicesLbEdgeExtensionConfig) {
 	_init_.Initialize()
 

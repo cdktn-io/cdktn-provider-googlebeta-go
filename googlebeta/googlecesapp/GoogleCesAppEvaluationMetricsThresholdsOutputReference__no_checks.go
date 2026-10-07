@@ -63,7 +63,15 @@ func (j *jsiiProxy_GoogleCesAppEvaluationMetricsThresholdsOutputReference) valid
 	return nil
 }
 
+func (j *jsiiProxy_GoogleCesAppEvaluationMetricsThresholdsOutputReference) validateSetGoldenHallucinationMetricBehaviorParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleCesAppEvaluationMetricsThresholdsOutputReference) validateSetInternalValueParameters(val *GoogleCesAppEvaluationMetricsThresholds) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleCesAppEvaluationMetricsThresholdsOutputReference) validateSetScenarioHallucinationMetricBehaviorParameters(val *string) error {
 	return nil
 }
 

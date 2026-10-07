@@ -79,6 +79,10 @@ func (j *jsiiProxy_GoogleCesAgentRemoteDialogflowAgentOutputReference) validateS
 	return nil
 }
 
+func (j *jsiiProxy_GoogleCesAgentRemoteDialogflowAgentOutputReference) validateSetLanguageCodeVariableParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleCesAgentRemoteDialogflowAgentOutputReference) validateSetOutputVariableMappingParameters(val *map[string]*string) error {
 	return nil
 }

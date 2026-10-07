@@ -5,14 +5,14 @@ package googleapigeeaddonsconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleapigeeaddonsconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleapigeeaddonsconfig/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_addons_config google_apigee_addons_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_addons_config google_apigee_addons_config}.
 type GoogleApigeeAddonsConfig interface {
 	cdktn.TerraformResource
 	AddonsConfig() GoogleApigeeAddonsConfigAddonsConfigOutputReference
@@ -463,7 +463,7 @@ func (j *jsiiProxy_GoogleApigeeAddonsConfig) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_addons_config google_apigee_addons_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_addons_config google_apigee_addons_config} Resource.
 func NewGoogleApigeeAddonsConfig(scope constructs.Construct, id *string, config *GoogleApigeeAddonsConfigConfig) GoogleApigeeAddonsConfig {
 	_init_.Initialize()
 
@@ -481,7 +481,7 @@ func NewGoogleApigeeAddonsConfig(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_addons_config google_apigee_addons_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_addons_config google_apigee_addons_config} Resource.
 func NewGoogleApigeeAddonsConfig_Override(g GoogleApigeeAddonsConfig, scope constructs.Construct, id *string, config *GoogleApigeeAddonsConfigConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package googlecomputebulkperinstanceconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputebulkperinstanceconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputebulkperinstanceconfig/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_bulk_per_instance_config google_compute_bulk_per_instance_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_bulk_per_instance_config google_compute_bulk_per_instance_config}.
 type GoogleComputeBulkPerInstanceConfig interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -511,7 +511,7 @@ func (j *jsiiProxy_GoogleComputeBulkPerInstanceConfig) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_bulk_per_instance_config google_compute_bulk_per_instance_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_bulk_per_instance_config google_compute_bulk_per_instance_config} Resource.
 func NewGoogleComputeBulkPerInstanceConfig(scope constructs.Construct, id *string, config *GoogleComputeBulkPerInstanceConfigConfig) GoogleComputeBulkPerInstanceConfig {
 	_init_.Initialize()
 
@@ -529,7 +529,7 @@ func NewGoogleComputeBulkPerInstanceConfig(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_bulk_per_instance_config google_compute_bulk_per_instance_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_bulk_per_instance_config google_compute_bulk_per_instance_config} Resource.
 func NewGoogleComputeBulkPerInstanceConfig_Override(g GoogleComputeBulkPerInstanceConfig, scope constructs.Construct, id *string, config *GoogleComputeBulkPerInstanceConfigConfig) {
 	_init_.Initialize()
 

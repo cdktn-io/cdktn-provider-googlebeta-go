@@ -5,14 +5,14 @@ package googleapigeeenvironmentapirevisiondeployment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleapigeeenvironmentapirevisiondeployment/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleapigeeenvironmentapirevisiondeployment/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_environment_api_revision_deployment google_apigee_environment_api_revision_deployment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_environment_api_revision_deployment google_apigee_environment_api_revision_deployment}.
 type GoogleApigeeEnvironmentApiRevisionDeployment interface {
 	cdktn.TerraformResource
 	Api() *string
@@ -613,7 +613,7 @@ func (j *jsiiProxy_GoogleApigeeEnvironmentApiRevisionDeployment) TimeoutsInput()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_environment_api_revision_deployment google_apigee_environment_api_revision_deployment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_environment_api_revision_deployment google_apigee_environment_api_revision_deployment} Resource.
 func NewGoogleApigeeEnvironmentApiRevisionDeployment(scope constructs.Construct, id *string, config *GoogleApigeeEnvironmentApiRevisionDeploymentConfig) GoogleApigeeEnvironmentApiRevisionDeployment {
 	_init_.Initialize()
 
@@ -631,7 +631,7 @@ func NewGoogleApigeeEnvironmentApiRevisionDeployment(scope constructs.Construct,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_environment_api_revision_deployment google_apigee_environment_api_revision_deployment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_environment_api_revision_deployment google_apigee_environment_api_revision_deployment} Resource.
 func NewGoogleApigeeEnvironmentApiRevisionDeployment_Override(g GoogleApigeeEnvironmentApiRevisionDeployment, scope constructs.Construct, id *string, config *GoogleApigeeEnvironmentApiRevisionDeploymentConfig) {
 	_init_.Initialize()
 

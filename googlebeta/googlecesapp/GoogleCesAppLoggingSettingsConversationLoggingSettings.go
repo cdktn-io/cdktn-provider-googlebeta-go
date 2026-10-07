@@ -7,7 +7,11 @@ package googlecesapp
 type GoogleCesAppLoggingSettingsConversationLoggingSettings struct {
 	// Whether to disable conversation logging for the sessions.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app#disable_conversation_logging GoogleCesApp#disable_conversation_logging}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#disable_conversation_logging GoogleCesApp#disable_conversation_logging}
 	DisableConversationLogging interface{} `field:"optional" json:"disableConversationLogging" yaml:"disableConversationLogging"`
+	// Controls the retention window for the conversation. If not set, the conversation will be retained for 365 days.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#retention_window GoogleCesApp#retention_window}
+	RetentionWindow *string `field:"optional" json:"retentionWindow" yaml:"retentionWindow"`
 }
 

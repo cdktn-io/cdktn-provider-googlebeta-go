@@ -5,14 +5,14 @@ package googledataplexdataproductiambinding
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledataplexdataproductiambinding/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataplexdataproductiambinding/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataplex_data_product_iam_binding google_dataplex_data_product_iam_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dataplex_data_product_iam_binding google_dataplex_data_product_iam_binding}.
 type GoogleDataplexDataProductIamBinding interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -520,7 +520,7 @@ func (j *jsiiProxy_GoogleDataplexDataProductIamBinding) TerraformResourceType() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataplex_data_product_iam_binding google_dataplex_data_product_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dataplex_data_product_iam_binding google_dataplex_data_product_iam_binding} Resource.
 func NewGoogleDataplexDataProductIamBinding(scope constructs.Construct, id *string, config *GoogleDataplexDataProductIamBindingConfig) GoogleDataplexDataProductIamBinding {
 	_init_.Initialize()
 
@@ -538,7 +538,7 @@ func NewGoogleDataplexDataProductIamBinding(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataplex_data_product_iam_binding google_dataplex_data_product_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dataplex_data_product_iam_binding google_dataplex_data_product_iam_binding} Resource.
 func NewGoogleDataplexDataProductIamBinding_Override(g GoogleDataplexDataProductIamBinding, scope constructs.Construct, id *string, config *GoogleDataplexDataProductIamBindingConfig) {
 	_init_.Initialize()
 

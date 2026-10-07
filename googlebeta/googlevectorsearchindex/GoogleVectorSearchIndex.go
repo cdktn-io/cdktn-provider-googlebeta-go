@@ -5,14 +5,14 @@ package googlevectorsearchindex
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevectorsearchindex/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlevectorsearchindex/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vector_search_index google_vector_search_index}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_vector_search_index google_vector_search_index}.
 type GoogleVectorSearchIndex interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -779,7 +779,7 @@ func (j *jsiiProxy_GoogleVectorSearchIndex) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vector_search_index google_vector_search_index} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_vector_search_index google_vector_search_index} Resource.
 func NewGoogleVectorSearchIndex(scope constructs.Construct, id *string, config *GoogleVectorSearchIndexConfig) GoogleVectorSearchIndex {
 	_init_.Initialize()
 
@@ -797,7 +797,7 @@ func NewGoogleVectorSearchIndex(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vector_search_index google_vector_search_index} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_vector_search_index google_vector_search_index} Resource.
 func NewGoogleVectorSearchIndex_Override(g GoogleVectorSearchIndex, scope constructs.Construct, id *string, config *GoogleVectorSearchIndexConfig) {
 	_init_.Initialize()
 

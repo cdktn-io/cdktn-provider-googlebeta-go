@@ -5,14 +5,14 @@ package googlebigquerydatapolicyv2datapolicyiammember
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebigquerydatapolicyv2datapolicyiammember/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebigquerydatapolicyv2datapolicyiammember/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigquery_datapolicyv2_data_policy_iam_member google_bigquery_datapolicyv2_data_policy_iam_member}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigquery_datapolicyv2_data_policy_iam_member google_bigquery_datapolicyv2_data_policy_iam_member}.
 type GoogleBigqueryDatapolicyv2DataPolicyIamMember interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -520,7 +520,7 @@ func (j *jsiiProxy_GoogleBigqueryDatapolicyv2DataPolicyIamMember) TerraformResou
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigquery_datapolicyv2_data_policy_iam_member google_bigquery_datapolicyv2_data_policy_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigquery_datapolicyv2_data_policy_iam_member google_bigquery_datapolicyv2_data_policy_iam_member} Resource.
 func NewGoogleBigqueryDatapolicyv2DataPolicyIamMember(scope constructs.Construct, id *string, config *GoogleBigqueryDatapolicyv2DataPolicyIamMemberConfig) GoogleBigqueryDatapolicyv2DataPolicyIamMember {
 	_init_.Initialize()
 
@@ -538,7 +538,7 @@ func NewGoogleBigqueryDatapolicyv2DataPolicyIamMember(scope constructs.Construct
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigquery_datapolicyv2_data_policy_iam_member google_bigquery_datapolicyv2_data_policy_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigquery_datapolicyv2_data_policy_iam_member google_bigquery_datapolicyv2_data_policy_iam_member} Resource.
 func NewGoogleBigqueryDatapolicyv2DataPolicyIamMember_Override(g GoogleBigqueryDatapolicyv2DataPolicyIamMember, scope constructs.Construct, id *string, config *GoogleBigqueryDatapolicyv2DataPolicyIamMemberConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package googlestorageinsightsdatasetconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlestorageinsightsdatasetconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlestorageinsightsdatasetconfig/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_storage_insights_dataset_config google_storage_insights_dataset_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_storage_insights_dataset_config google_storage_insights_dataset_config}.
 type GoogleStorageInsightsDatasetConfig interface {
 	cdktn.TerraformResource
 	ActivityDataRetentionPeriodDays() *float64
@@ -886,7 +886,7 @@ func (j *jsiiProxy_GoogleStorageInsightsDatasetConfig) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_storage_insights_dataset_config google_storage_insights_dataset_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_storage_insights_dataset_config google_storage_insights_dataset_config} Resource.
 func NewGoogleStorageInsightsDatasetConfig(scope constructs.Construct, id *string, config *GoogleStorageInsightsDatasetConfigConfig) GoogleStorageInsightsDatasetConfig {
 	_init_.Initialize()
 
@@ -904,7 +904,7 @@ func NewGoogleStorageInsightsDatasetConfig(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_storage_insights_dataset_config google_storage_insights_dataset_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_storage_insights_dataset_config google_storage_insights_dataset_config} Resource.
 func NewGoogleStorageInsightsDatasetConfig_Override(g GoogleStorageInsightsDatasetConfig, scope constructs.Construct, id *string, config *GoogleStorageInsightsDatasetConfigConfig) {
 	_init_.Initialize()
 

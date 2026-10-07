@@ -215,6 +215,37 @@ func (g *jsiiProxy_GoogleChronicleEnvironment) validateOverrideLogicalIdParamete
 	return nil
 }
 
+func (g *jsiiProxy_GoogleChronicleEnvironment) validatePutDynamicParametersParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	switch value.(type) {
+	case cdktn.IResolvable:
+		// ok
+	case *[]*GoogleChronicleEnvironmentDynamicParameters:
+		value := value.(*[]*GoogleChronicleEnvironmentDynamicParameters)
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	case []*GoogleChronicleEnvironmentDynamicParameters:
+		value_ := value.([]*GoogleChronicleEnvironmentDynamicParameters)
+		value := &value_
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	default:
+		if !_jsii_.IsAnonymousProxy(value) {
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*GoogleChronicleEnvironmentDynamicParameters; received %#v (a %T)", value, value)
+		}
+	}
+
+	return nil
+}
+
 func (g *jsiiProxy_GoogleChronicleEnvironment) validatePutTimeoutsParameters(value *GoogleChronicleEnvironmentTimeouts) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")
@@ -275,6 +306,14 @@ func validateGoogleChronicleEnvironment_IsTerraformResourceParameters(x interfac
 }
 
 func (j *jsiiProxy_GoogleChronicleEnvironment) validateSetAliasesJsonParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_GoogleChronicleEnvironment) validateSetBase64ImageParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -464,6 +503,14 @@ func (j *jsiiProxy_GoogleChronicleEnvironment) validateSetInstanceParameters(val
 	return nil
 }
 
+func (j *jsiiProxy_GoogleChronicleEnvironment) validateSetInstanceUriParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_GoogleChronicleEnvironment) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	if err := _jsii_.ValidateStruct(val, func() string { return "parameter val" }); err != nil {
 		return err
@@ -473,6 +520,14 @@ func (j *jsiiProxy_GoogleChronicleEnvironment) validateSetLifecycleParameters(va
 }
 
 func (j *jsiiProxy_GoogleChronicleEnvironment) validateSetLocationParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_GoogleChronicleEnvironment) validateSetParallelInstanceParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -535,6 +590,14 @@ func (j *jsiiProxy_GoogleChronicleEnvironment) validateSetProvisionersParameters
 }
 
 func (j *jsiiProxy_GoogleChronicleEnvironment) validateSetRetentionDurationParameters(val *float64) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_GoogleChronicleEnvironment) validateSetWeightParameters(val *float64) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}

@@ -5,14 +5,14 @@ package googledatacatalogpolicytag
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatacatalogpolicytag/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatacatalogpolicytag/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_data_catalog_policy_tag google_data_catalog_policy_tag}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_data_catalog_policy_tag google_data_catalog_policy_tag}.
 type GoogleDataCatalogPolicyTag interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -532,7 +532,7 @@ func (j *jsiiProxy_GoogleDataCatalogPolicyTag) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_data_catalog_policy_tag google_data_catalog_policy_tag} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_data_catalog_policy_tag google_data_catalog_policy_tag} Resource.
 func NewGoogleDataCatalogPolicyTag(scope constructs.Construct, id *string, config *GoogleDataCatalogPolicyTagConfig) GoogleDataCatalogPolicyTag {
 	_init_.Initialize()
 
@@ -550,7 +550,7 @@ func NewGoogleDataCatalogPolicyTag(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_data_catalog_policy_tag google_data_catalog_policy_tag} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_data_catalog_policy_tag google_data_catalog_policy_tag} Resource.
 func NewGoogleDataCatalogPolicyTag_Override(g GoogleDataCatalogPolicyTag, scope constructs.Construct, id *string, config *GoogleDataCatalogPolicyTagConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package googlegeminireleasechannelsetting
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlegeminireleasechannelsetting/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlegeminireleasechannelsetting/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_gemini_release_channel_setting google_gemini_release_channel_setting}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_gemini_release_channel_setting google_gemini_release_channel_setting}.
 type GoogleGeminiReleaseChannelSetting interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -589,7 +589,7 @@ func (j *jsiiProxy_GoogleGeminiReleaseChannelSetting) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_gemini_release_channel_setting google_gemini_release_channel_setting} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_gemini_release_channel_setting google_gemini_release_channel_setting} Resource.
 func NewGoogleGeminiReleaseChannelSetting(scope constructs.Construct, id *string, config *GoogleGeminiReleaseChannelSettingConfig) GoogleGeminiReleaseChannelSetting {
 	_init_.Initialize()
 
@@ -607,7 +607,7 @@ func NewGoogleGeminiReleaseChannelSetting(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_gemini_release_channel_setting google_gemini_release_channel_setting} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_gemini_release_channel_setting google_gemini_release_channel_setting} Resource.
 func NewGoogleGeminiReleaseChannelSetting_Override(g GoogleGeminiReleaseChannelSetting, scope constructs.Construct, id *string, config *GoogleGeminiReleaseChannelSettingConfig) {
 	_init_.Initialize()
 

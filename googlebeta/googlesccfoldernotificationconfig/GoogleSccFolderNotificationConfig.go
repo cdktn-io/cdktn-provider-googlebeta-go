@@ -5,14 +5,14 @@ package googlesccfoldernotificationconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlesccfoldernotificationconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlesccfoldernotificationconfig/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_scc_folder_notification_config google_scc_folder_notification_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_scc_folder_notification_config google_scc_folder_notification_config}.
 type GoogleSccFolderNotificationConfig interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -554,7 +554,7 @@ func (j *jsiiProxy_GoogleSccFolderNotificationConfig) TimeoutsInput() interface{
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_scc_folder_notification_config google_scc_folder_notification_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_scc_folder_notification_config google_scc_folder_notification_config} Resource.
 func NewGoogleSccFolderNotificationConfig(scope constructs.Construct, id *string, config *GoogleSccFolderNotificationConfigConfig) GoogleSccFolderNotificationConfig {
 	_init_.Initialize()
 
@@ -572,7 +572,7 @@ func NewGoogleSccFolderNotificationConfig(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_scc_folder_notification_config google_scc_folder_notification_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_scc_folder_notification_config google_scc_folder_notification_config} Resource.
 func NewGoogleSccFolderNotificationConfig_Override(g GoogleSccFolderNotificationConfig, scope constructs.Construct, id *string, config *GoogleSccFolderNotificationConfigConfig) {
 	_init_.Initialize()
 

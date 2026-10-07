@@ -5,14 +5,14 @@ package datagoogleserviceaccountjwt
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoogleserviceaccountjwt/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagoogleserviceaccountjwt/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_service_account_jwt google_service_account_jwt}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_service_account_jwt google_service_account_jwt}.
 type DataGoogleServiceAccountJwt interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -392,7 +392,7 @@ func (j *jsiiProxy_DataGoogleServiceAccountJwt) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_service_account_jwt google_service_account_jwt} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_service_account_jwt google_service_account_jwt} Data Source.
 func NewDataGoogleServiceAccountJwt(scope constructs.Construct, id *string, config *DataGoogleServiceAccountJwtConfig) DataGoogleServiceAccountJwt {
 	_init_.Initialize()
 
@@ -410,7 +410,7 @@ func NewDataGoogleServiceAccountJwt(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_service_account_jwt google_service_account_jwt} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_service_account_jwt google_service_account_jwt} Data Source.
 func NewDataGoogleServiceAccountJwt_Override(d DataGoogleServiceAccountJwt, scope constructs.Construct, id *string, config *DataGoogleServiceAccountJwtConfig) {
 	_init_.Initialize()
 

@@ -63,6 +63,10 @@ func (j *jsiiProxy_GoogleVertexAiReasoningEngineSpecBuildSpecOutputReference) va
 	return nil
 }
 
+func (j *jsiiProxy_GoogleVertexAiReasoningEngineSpecBuildSpecOutputReference) validateSetServiceAccountParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleVertexAiReasoningEngineSpecBuildSpecOutputReference) validateSetTerraformAttributeParameters(val *string) error {
 	return nil
 }

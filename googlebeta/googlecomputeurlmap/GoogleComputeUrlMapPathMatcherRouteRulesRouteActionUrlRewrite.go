@@ -10,14 +10,17 @@ type GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewrite struct {
 	// The value must be between 1 and
 	// 255 characters.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#host_rewrite GoogleComputeUrlMap#host_rewrite}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#host_rewrite GoogleComputeUrlMap#host_rewrite}
 	HostRewrite *string `field:"optional" json:"hostRewrite" yaml:"hostRewrite"`
 	// Prior to forwarding the request to the selected backend service, the matching portion of the request's path is replaced by pathPrefixRewrite.
 	//
 	// The value must
 	// be between 1 and 1024 characters.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#path_prefix_rewrite GoogleComputeUrlMap#path_prefix_rewrite}
+	// Only one of pathPrefixRewrite, pathTemplateRewrite, or regexRewrite may be
+	// specified.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#path_prefix_rewrite GoogleComputeUrlMap#path_prefix_rewrite}
 	PathPrefixRewrite *string `field:"optional" json:"pathPrefixRewrite" yaml:"pathPrefixRewrite"`
 	// Prior to forwarding the request to the selected origin, if the request matched a pathTemplateMatch, the matching portion of the request's path is replaced re-written using the pattern specified by pathTemplateRewrite.
 	//
@@ -28,10 +31,14 @@ type GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewrite struct {
 	// pathTemplateRewrite may only be used when all of a route's
 	// MatchRules specify pathTemplate.
 	//
-	// Only one of pathPrefixRewrite and pathTemplateRewrite may be
+	// Only one of pathPrefixRewrite, pathTemplateRewrite, or regexRewrite may be
 	// specified.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_url_map#path_template_rewrite GoogleComputeUrlMap#path_template_rewrite}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#path_template_rewrite GoogleComputeUrlMap#path_template_rewrite}
 	PathTemplateRewrite *string `field:"optional" json:"pathTemplateRewrite" yaml:"pathTemplateRewrite"`
+	// regex_rewrite block.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_url_map#regex_rewrite GoogleComputeUrlMap#regex_rewrite}
+	RegexRewrite *GoogleComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteRegexRewrite `field:"optional" json:"regexRewrite" yaml:"regexRewrite"`
 }
 

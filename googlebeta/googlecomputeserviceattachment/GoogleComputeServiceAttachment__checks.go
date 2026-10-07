@@ -490,6 +490,14 @@ func (j *jsiiProxy_GoogleComputeServiceAttachment) validateSetNameParameters(val
 	return nil
 }
 
+func (j *jsiiProxy_GoogleComputeServiceAttachment) validateSetNatIpsPerEndpointParameters(val *float64) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_GoogleComputeServiceAttachment) validateSetNatSubnetsParameters(val *[]*string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

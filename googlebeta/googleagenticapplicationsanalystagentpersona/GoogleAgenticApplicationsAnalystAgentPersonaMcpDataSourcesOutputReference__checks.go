@@ -109,6 +109,14 @@ func (j *jsiiProxy_GoogleAgenticApplicationsAnalystAgentPersonaMcpDataSourcesOut
 	return nil
 }
 
+func (j *jsiiProxy_GoogleAgenticApplicationsAnalystAgentPersonaMcpDataSourcesOutputReference) validateSetApiKeyHeaderParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_GoogleAgenticApplicationsAnalystAgentPersonaMcpDataSourcesOutputReference) validateSetApiKeyNameParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

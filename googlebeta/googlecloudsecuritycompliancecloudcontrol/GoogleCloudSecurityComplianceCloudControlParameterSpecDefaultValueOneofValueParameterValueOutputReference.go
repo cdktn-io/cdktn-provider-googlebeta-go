@@ -5,9 +5,9 @@ package googlecloudsecuritycompliancecloudcontrol
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudsecuritycompliancecloudcontrol/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudsecuritycompliancecloudcontrol/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -38,6 +38,8 @@ type GoogleCloudSecurityComplianceCloudControlParameterSpecDefaultValueOneofValu
 	NumberValue() *float64
 	SetNumberValue(val *float64)
 	NumberValueInput() *float64
+	OneofValue() GoogleCloudSecurityComplianceCloudControlParameterSpecDefaultValueOneofValueParameterValueOneofValueOutputReference
+	OneofValueInput() *GoogleCloudSecurityComplianceCloudControlParameterSpecDefaultValueOneofValueParameterValueOneofValue
 	StringListValue() GoogleCloudSecurityComplianceCloudControlParameterSpecDefaultValueOneofValueParameterValueStringListValueOutputReference
 	StringListValueInput() *GoogleCloudSecurityComplianceCloudControlParameterSpecDefaultValueOneofValueParameterValueStringListValue
 	StringValue() *string
@@ -75,9 +77,11 @@ type GoogleCloudSecurityComplianceCloudControlParameterSpecDefaultValueOneofValu
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutOneofValue(value *GoogleCloudSecurityComplianceCloudControlParameterSpecDefaultValueOneofValueParameterValueOneofValue)
 	PutStringListValue(value *GoogleCloudSecurityComplianceCloudControlParameterSpecDefaultValueOneofValueParameterValueStringListValue)
 	ResetBoolValue()
 	ResetNumberValue()
+	ResetOneofValue()
 	ResetStringListValue()
 	ResetStringValue()
 	// Produce the Token's value at resolution time.
@@ -180,6 +184,26 @@ func (j *jsiiProxy_GoogleCloudSecurityComplianceCloudControlParameterSpecDefault
 	_jsii_.Get(
 		j,
 		"numberValueInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCloudSecurityComplianceCloudControlParameterSpecDefaultValueOneofValueParameterValueOutputReference) OneofValue() GoogleCloudSecurityComplianceCloudControlParameterSpecDefaultValueOneofValueParameterValueOneofValueOutputReference {
+	var returns GoogleCloudSecurityComplianceCloudControlParameterSpecDefaultValueOneofValueParameterValueOneofValueOutputReference
+	_jsii_.Get(
+		j,
+		"oneofValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCloudSecurityComplianceCloudControlParameterSpecDefaultValueOneofValueParameterValueOutputReference) OneofValueInput() *GoogleCloudSecurityComplianceCloudControlParameterSpecDefaultValueOneofValueParameterValueOneofValue {
+	var returns *GoogleCloudSecurityComplianceCloudControlParameterSpecDefaultValueOneofValueParameterValueOneofValue
+	_jsii_.Get(
+		j,
+		"oneofValueInput",
 		&returns,
 	)
 	return returns
@@ -547,6 +571,17 @@ func (g *jsiiProxy_GoogleCloudSecurityComplianceCloudControlParameterSpecDefault
 	return returns
 }
 
+func (g *jsiiProxy_GoogleCloudSecurityComplianceCloudControlParameterSpecDefaultValueOneofValueParameterValueOutputReference) PutOneofValue(value *GoogleCloudSecurityComplianceCloudControlParameterSpecDefaultValueOneofValueParameterValueOneofValue) {
+	if err := g.validatePutOneofValueParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putOneofValue",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleCloudSecurityComplianceCloudControlParameterSpecDefaultValueOneofValueParameterValueOutputReference) PutStringListValue(value *GoogleCloudSecurityComplianceCloudControlParameterSpecDefaultValueOneofValueParameterValueStringListValue) {
 	if err := g.validatePutStringListValueParameters(value); err != nil {
 		panic(err)
@@ -570,6 +605,14 @@ func (g *jsiiProxy_GoogleCloudSecurityComplianceCloudControlParameterSpecDefault
 	_jsii_.InvokeVoid(
 		g,
 		"resetNumberValue",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleCloudSecurityComplianceCloudControlParameterSpecDefaultValueOneofValueParameterValueOutputReference) ResetOneofValue() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetOneofValue",
 		nil, // no parameters
 	)
 }

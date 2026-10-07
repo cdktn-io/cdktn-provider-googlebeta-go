@@ -5,14 +5,14 @@ package googledataplextaskiammember
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledataplextaskiammember/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataplextaskiammember/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataplex_task_iam_member google_dataplex_task_iam_member}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dataplex_task_iam_member google_dataplex_task_iam_member}.
 type GoogleDataplexTaskIamMember interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -543,7 +543,7 @@ func (j *jsiiProxy_GoogleDataplexTaskIamMember) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataplex_task_iam_member google_dataplex_task_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dataplex_task_iam_member google_dataplex_task_iam_member} Resource.
 func NewGoogleDataplexTaskIamMember(scope constructs.Construct, id *string, config *GoogleDataplexTaskIamMemberConfig) GoogleDataplexTaskIamMember {
 	_init_.Initialize()
 
@@ -561,7 +561,7 @@ func NewGoogleDataplexTaskIamMember(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataplex_task_iam_member google_dataplex_task_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dataplex_task_iam_member google_dataplex_task_iam_member} Resource.
 func NewGoogleDataplexTaskIamMember_Override(g GoogleDataplexTaskIamMember, scope constructs.Construct, id *string, config *GoogleDataplexTaskIamMemberConfig) {
 	_init_.Initialize()
 

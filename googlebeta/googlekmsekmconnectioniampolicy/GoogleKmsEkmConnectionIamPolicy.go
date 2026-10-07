@@ -5,14 +5,14 @@ package googlekmsekmconnectioniampolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlekmsekmconnectioniampolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlekmsekmconnectioniampolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_kms_ekm_connection_iam_policy google_kms_ekm_connection_iam_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_kms_ekm_connection_iam_policy google_kms_ekm_connection_iam_policy}.
 type GoogleKmsEkmConnectionIamPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -473,7 +473,7 @@ func (j *jsiiProxy_GoogleKmsEkmConnectionIamPolicy) TerraformResourceType() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_kms_ekm_connection_iam_policy google_kms_ekm_connection_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_kms_ekm_connection_iam_policy google_kms_ekm_connection_iam_policy} Resource.
 func NewGoogleKmsEkmConnectionIamPolicy(scope constructs.Construct, id *string, config *GoogleKmsEkmConnectionIamPolicyConfig) GoogleKmsEkmConnectionIamPolicy {
 	_init_.Initialize()
 
@@ -491,7 +491,7 @@ func NewGoogleKmsEkmConnectionIamPolicy(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_kms_ekm_connection_iam_policy google_kms_ekm_connection_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_kms_ekm_connection_iam_policy google_kms_ekm_connection_iam_policy} Resource.
 func NewGoogleKmsEkmConnectionIamPolicy_Override(g GoogleKmsEkmConnectionIamPolicy, scope constructs.Construct, id *string, config *GoogleKmsEkmConnectionIamPolicyConfig) {
 	_init_.Initialize()
 

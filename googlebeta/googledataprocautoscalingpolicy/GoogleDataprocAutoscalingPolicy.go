@@ -5,14 +5,14 @@ package googledataprocautoscalingpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledataprocautoscalingpolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataprocautoscalingpolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataproc_autoscaling_policy google_dataproc_autoscaling_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dataproc_autoscaling_policy google_dataproc_autoscaling_policy}.
 type GoogleDataprocAutoscalingPolicy interface {
 	cdktn.TerraformResource
 	BasicAlgorithm() GoogleDataprocAutoscalingPolicyBasicAlgorithmOutputReference
@@ -570,7 +570,7 @@ func (j *jsiiProxy_GoogleDataprocAutoscalingPolicy) WorkerConfigInput() *GoogleD
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataproc_autoscaling_policy google_dataproc_autoscaling_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dataproc_autoscaling_policy google_dataproc_autoscaling_policy} Resource.
 func NewGoogleDataprocAutoscalingPolicy(scope constructs.Construct, id *string, config *GoogleDataprocAutoscalingPolicyConfig) GoogleDataprocAutoscalingPolicy {
 	_init_.Initialize()
 
@@ -588,7 +588,7 @@ func NewGoogleDataprocAutoscalingPolicy(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataproc_autoscaling_policy google_dataproc_autoscaling_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dataproc_autoscaling_policy google_dataproc_autoscaling_policy} Resource.
 func NewGoogleDataprocAutoscalingPolicy_Override(g GoogleDataprocAutoscalingPolicy, scope constructs.Construct, id *string, config *GoogleDataprocAutoscalingPolicyConfig) {
 	_init_.Initialize()
 

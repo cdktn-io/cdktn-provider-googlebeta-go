@@ -5,9 +5,9 @@ package googlemanagedkafkacluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemanagedkafkacluster/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemanagedkafkacluster/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -34,6 +34,8 @@ type GoogleManagedKafkaClusterGcpConfigAccessConfigOutputReference interface {
 	SetInternalValue(val *GoogleManagedKafkaClusterGcpConfigAccessConfig)
 	NetworkConfigs() GoogleManagedKafkaClusterGcpConfigAccessConfigNetworkConfigsList
 	NetworkConfigsInput() interface{}
+	PublicClusterConfig() GoogleManagedKafkaClusterGcpConfigAccessConfigPublicClusterConfigOutputReference
+	PublicClusterConfigInput() *GoogleManagedKafkaClusterGcpConfigAccessConfigPublicClusterConfig
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -67,6 +69,8 @@ type GoogleManagedKafkaClusterGcpConfigAccessConfigOutputReference interface {
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutNetworkConfigs(value interface{})
+	PutPublicClusterConfig(value *GoogleManagedKafkaClusterGcpConfigAccessConfigPublicClusterConfig)
+	ResetPublicClusterConfig()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -147,6 +151,26 @@ func (j *jsiiProxy_GoogleManagedKafkaClusterGcpConfigAccessConfigOutputReference
 	_jsii_.Get(
 		j,
 		"networkConfigsInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleManagedKafkaClusterGcpConfigAccessConfigOutputReference) PublicClusterConfig() GoogleManagedKafkaClusterGcpConfigAccessConfigPublicClusterConfigOutputReference {
+	var returns GoogleManagedKafkaClusterGcpConfigAccessConfigPublicClusterConfigOutputReference
+	_jsii_.Get(
+		j,
+		"publicClusterConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleManagedKafkaClusterGcpConfigAccessConfigOutputReference) PublicClusterConfigInput() *GoogleManagedKafkaClusterGcpConfigAccessConfigPublicClusterConfig {
+	var returns *GoogleManagedKafkaClusterGcpConfigAccessConfigPublicClusterConfig
+	_jsii_.Get(
+		j,
+		"publicClusterConfigInput",
 		&returns,
 	)
 	return returns
@@ -449,6 +473,25 @@ func (g *jsiiProxy_GoogleManagedKafkaClusterGcpConfigAccessConfigOutputReference
 		g,
 		"putNetworkConfigs",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleManagedKafkaClusterGcpConfigAccessConfigOutputReference) PutPublicClusterConfig(value *GoogleManagedKafkaClusterGcpConfigAccessConfigPublicClusterConfig) {
+	if err := g.validatePutPublicClusterConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putPublicClusterConfig",
+		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleManagedKafkaClusterGcpConfigAccessConfigOutputReference) ResetPublicClusterConfig() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetPublicClusterConfig",
+		nil, // no parameters
 	)
 }
 

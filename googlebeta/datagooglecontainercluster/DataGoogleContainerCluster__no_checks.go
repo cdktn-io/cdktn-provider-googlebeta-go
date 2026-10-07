@@ -99,6 +99,10 @@ func (j *jsiiProxy_DataGoogleContainerCluster) validateSetProjectParameters(val 
 	return nil
 }
 
+func (j *jsiiProxy_DataGoogleContainerCluster) validateSetSkipNodePoolRefreshParameters(val interface{}) error {
+	return nil
+}
+
 func validateNewDataGoogleContainerClusterParameters(scope constructs.Construct, id *string, config *DataGoogleContainerClusterConfig) error {
 	return nil
 }

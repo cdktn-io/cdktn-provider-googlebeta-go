@@ -83,7 +83,15 @@ func (g *jsiiProxy_GoogleCesDeployment) validatePutChannelProfileParameters(valu
 	return nil
 }
 
+func (g *jsiiProxy_GoogleCesDeployment) validatePutInstagramCredentialsParameters(value *GoogleCesDeploymentInstagramCredentials) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleCesDeployment) validatePutTimeoutsParameters(value *GoogleCesDeploymentTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleCesDeployment) validatePutWhatsappCredentialsParameters(value *GoogleCesDeploymentWhatsappCredentials) error {
 	return nil
 }
 

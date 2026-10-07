@@ -5,14 +5,14 @@ package datagoogleoracledatabaseautonomousdatabases
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoogleoracledatabaseautonomousdatabases/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagoogleoracledatabaseautonomousdatabases/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_oracle_database_autonomous_databases google_oracle_database_autonomous_databases}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_oracle_database_autonomous_databases google_oracle_database_autonomous_databases}.
 type DataGoogleOracleDatabaseAutonomousDatabases interface {
 	cdktn.TerraformDataSource
 	AutonomousDatabases() DataGoogleOracleDatabaseAutonomousDatabasesAutonomousDatabasesList
@@ -345,7 +345,7 @@ func (j *jsiiProxy_DataGoogleOracleDatabaseAutonomousDatabases) TerraformResourc
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_oracle_database_autonomous_databases google_oracle_database_autonomous_databases} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_oracle_database_autonomous_databases google_oracle_database_autonomous_databases} Data Source.
 func NewDataGoogleOracleDatabaseAutonomousDatabases(scope constructs.Construct, id *string, config *DataGoogleOracleDatabaseAutonomousDatabasesConfig) DataGoogleOracleDatabaseAutonomousDatabases {
 	_init_.Initialize()
 
@@ -363,7 +363,7 @@ func NewDataGoogleOracleDatabaseAutonomousDatabases(scope constructs.Construct, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_oracle_database_autonomous_databases google_oracle_database_autonomous_databases} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_oracle_database_autonomous_databases google_oracle_database_autonomous_databases} Data Source.
 func NewDataGoogleOracleDatabaseAutonomousDatabases_Override(d DataGoogleOracleDatabaseAutonomousDatabases, scope constructs.Construct, id *string, config *DataGoogleOracleDatabaseAutonomousDatabasesConfig) {
 	_init_.Initialize()
 

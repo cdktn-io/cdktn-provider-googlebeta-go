@@ -5,9 +5,9 @@ package googledatalosspreventiondiscoveryconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatalosspreventiondiscoveryconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatalosspreventiondiscoveryconfig/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -34,6 +34,9 @@ type GoogleDataLossPreventionDiscoveryConfigTargetsBigQueryTargetCadenceOutputRe
 	InspectTemplateModifiedCadenceInput() *GoogleDataLossPreventionDiscoveryConfigTargetsBigQueryTargetCadenceInspectTemplateModifiedCadence
 	InternalValue() *GoogleDataLossPreventionDiscoveryConfigTargetsBigQueryTargetCadence
 	SetInternalValue(val *GoogleDataLossPreventionDiscoveryConfigTargetsBigQueryTargetCadence)
+	RefreshFrequency() *string
+	SetRefreshFrequency(val *string)
+	RefreshFrequencyInput() *string
 	SchemaModifiedCadence() GoogleDataLossPreventionDiscoveryConfigTargetsBigQueryTargetCadenceSchemaModifiedCadenceOutputReference
 	SchemaModifiedCadenceInput() *GoogleDataLossPreventionDiscoveryConfigTargetsBigQueryTargetCadenceSchemaModifiedCadence
 	TableModifiedCadence() GoogleDataLossPreventionDiscoveryConfigTargetsBigQueryTargetCadenceTableModifiedCadenceOutputReference
@@ -74,6 +77,7 @@ type GoogleDataLossPreventionDiscoveryConfigTargetsBigQueryTargetCadenceOutputRe
 	PutSchemaModifiedCadence(value *GoogleDataLossPreventionDiscoveryConfigTargetsBigQueryTargetCadenceSchemaModifiedCadence)
 	PutTableModifiedCadence(value *GoogleDataLossPreventionDiscoveryConfigTargetsBigQueryTargetCadenceTableModifiedCadence)
 	ResetInspectTemplateModifiedCadence()
+	ResetRefreshFrequency()
 	ResetSchemaModifiedCadence()
 	ResetTableModifiedCadence()
 	// Produce the Token's value at resolution time.
@@ -156,6 +160,26 @@ func (j *jsiiProxy_GoogleDataLossPreventionDiscoveryConfigTargetsBigQueryTargetC
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDataLossPreventionDiscoveryConfigTargetsBigQueryTargetCadenceOutputReference) RefreshFrequency() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"refreshFrequency",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDataLossPreventionDiscoveryConfigTargetsBigQueryTargetCadenceOutputReference) RefreshFrequencyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"refreshFrequencyInput",
 		&returns,
 	)
 	return returns
@@ -278,6 +302,17 @@ func (j *jsiiProxy_GoogleDataLossPreventionDiscoveryConfigTargetsBigQueryTargetC
 	_jsii_.Set(
 		j,
 		"internalValue",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleDataLossPreventionDiscoveryConfigTargetsBigQueryTargetCadenceOutputReference)SetRefreshFrequency(val *string) {
+	if err := j.validateSetRefreshFrequencyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"refreshFrequency",
 		val,
 	)
 }
@@ -527,6 +562,14 @@ func (g *jsiiProxy_GoogleDataLossPreventionDiscoveryConfigTargetsBigQueryTargetC
 	_jsii_.InvokeVoid(
 		g,
 		"resetInspectTemplateModifiedCadence",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleDataLossPreventionDiscoveryConfigTargetsBigQueryTargetCadenceOutputReference) ResetRefreshFrequency() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetRefreshFrequency",
 		nil, // no parameters
 	)
 }

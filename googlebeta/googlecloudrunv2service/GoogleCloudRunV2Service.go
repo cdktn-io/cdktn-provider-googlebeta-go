@@ -5,14 +5,14 @@ package googlecloudrunv2service
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudrunv2service/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudrunv2service/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_service google_cloud_run_v2_service}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_service google_cloud_run_v2_service}.
 type GoogleCloudRunV2Service interface {
 	cdktn.TerraformResource
 	Annotations() *map[string]*string
@@ -128,6 +128,9 @@ type GoogleCloudRunV2Service interface {
 	Reconciling() cdktn.IResolvable
 	Scaling() GoogleCloudRunV2ServiceScalingOutputReference
 	ScalingInput() *GoogleCloudRunV2ServiceScaling
+	SshEnabled() interface{}
+	SetSshEnabled(val interface{})
+	SshEnabledInput() interface{}
 	Tags() *map[string]*string
 	SetTags(val *map[string]*string)
 	TagsInput() *map[string]*string
@@ -271,6 +274,7 @@ type GoogleCloudRunV2Service interface {
 	ResetOverrideLogicalId()
 	ResetProject()
 	ResetScaling()
+	ResetSshEnabled()
 	ResetTags()
 	ResetTimeouts()
 	ResetTraffic()
@@ -991,6 +995,26 @@ func (j *jsiiProxy_GoogleCloudRunV2Service) ScalingInput() *GoogleCloudRunV2Serv
 	return returns
 }
 
+func (j *jsiiProxy_GoogleCloudRunV2Service) SshEnabled() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"sshEnabled",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCloudRunV2Service) SshEnabledInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"sshEnabledInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleCloudRunV2Service) Tags() *map[string]*string {
 	var returns *map[string]*string
 	_jsii_.Get(
@@ -1172,7 +1196,7 @@ func (j *jsiiProxy_GoogleCloudRunV2Service) Urls() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_service google_cloud_run_v2_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_service google_cloud_run_v2_service} Resource.
 func NewGoogleCloudRunV2Service(scope constructs.Construct, id *string, config *GoogleCloudRunV2ServiceConfig) GoogleCloudRunV2Service {
 	_init_.Initialize()
 
@@ -1190,7 +1214,7 @@ func NewGoogleCloudRunV2Service(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_run_v2_service google_cloud_run_v2_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_service google_cloud_run_v2_service} Resource.
 func NewGoogleCloudRunV2Service_Override(g GoogleCloudRunV2Service, scope constructs.Construct, id *string, config *GoogleCloudRunV2ServiceConfig) {
 	_init_.Initialize()
 
@@ -1452,6 +1476,17 @@ func (j *jsiiProxy_GoogleCloudRunV2Service)SetProvisioners(val *[]interface{}) {
 	_jsii_.Set(
 		j,
 		"provisioners",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleCloudRunV2Service)SetSshEnabled(val interface{}) {
+	if err := j.validateSetSshEnabledParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"sshEnabled",
 		val,
 	)
 }
@@ -2080,6 +2115,14 @@ func (g *jsiiProxy_GoogleCloudRunV2Service) ResetScaling() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetScaling",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleCloudRunV2Service) ResetSshEnabled() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetSshEnabled",
 		nil, // no parameters
 	)
 }

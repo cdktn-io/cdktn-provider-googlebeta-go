@@ -79,6 +79,10 @@ func (g *jsiiProxy_GoogleChronicleEnvironment) validateOverrideLogicalIdParamete
 	return nil
 }
 
+func (g *jsiiProxy_GoogleChronicleEnvironment) validatePutDynamicParametersParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleChronicleEnvironment) validatePutTimeoutsParameters(value *GoogleChronicleEnvironmentTimeouts) error {
 	return nil
 }
@@ -104,6 +108,10 @@ func validateGoogleChronicleEnvironment_IsTerraformResourceParameters(x interfac
 }
 
 func (j *jsiiProxy_GoogleChronicleEnvironment) validateSetAliasesJsonParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleChronicleEnvironment) validateSetBase64ImageParameters(val *string) error {
 	return nil
 }
 
@@ -155,11 +163,19 @@ func (j *jsiiProxy_GoogleChronicleEnvironment) validateSetInstanceParameters(val
 	return nil
 }
 
+func (j *jsiiProxy_GoogleChronicleEnvironment) validateSetInstanceUriParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleChronicleEnvironment) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 
 func (j *jsiiProxy_GoogleChronicleEnvironment) validateSetLocationParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleChronicleEnvironment) validateSetParallelInstanceParameters(val *string) error {
 	return nil
 }
 
@@ -172,6 +188,10 @@ func (j *jsiiProxy_GoogleChronicleEnvironment) validateSetProvisionersParameters
 }
 
 func (j *jsiiProxy_GoogleChronicleEnvironment) validateSetRetentionDurationParameters(val *float64) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleChronicleEnvironment) validateSetWeightParameters(val *float64) error {
 	return nil
 }
 

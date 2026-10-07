@@ -5,14 +5,14 @@ package googleapigeednszone
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleapigeednszone/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleapigeednszone/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_dns_zone google_apigee_dns_zone}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_dns_zone google_apigee_dns_zone}.
 type GoogleApigeeDnsZone interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -542,7 +542,7 @@ func (j *jsiiProxy_GoogleApigeeDnsZone) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_dns_zone google_apigee_dns_zone} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_dns_zone google_apigee_dns_zone} Resource.
 func NewGoogleApigeeDnsZone(scope constructs.Construct, id *string, config *GoogleApigeeDnsZoneConfig) GoogleApigeeDnsZone {
 	_init_.Initialize()
 
@@ -560,7 +560,7 @@ func NewGoogleApigeeDnsZone(scope constructs.Construct, id *string, config *Goog
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_dns_zone google_apigee_dns_zone} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_dns_zone google_apigee_dns_zone} Resource.
 func NewGoogleApigeeDnsZone_Override(g GoogleApigeeDnsZone, scope constructs.Construct, id *string, config *GoogleApigeeDnsZoneConfig) {
 	_init_.Initialize()
 

@@ -270,6 +270,17 @@ func (g *jsiiProxy_GoogleNetworkSecuritySecurityProfile) validatePutUrlFiltering
 	return nil
 }
 
+func (g *jsiiProxy_GoogleNetworkSecuritySecurityProfile) validatePutWildfireAnalysisProfileParameters(value *GoogleNetworkSecuritySecurityProfileWildfireAnalysisProfile) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
+	}
+
+	return nil
+}
+
 func (g *jsiiProxy_GoogleNetworkSecuritySecurityProfile) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	if feature == "" {
 		return fmt.Errorf("parameter feature is required, but nil was provided")

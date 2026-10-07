@@ -151,6 +151,10 @@ func (j *jsiiProxy_GoogleParameterManagerRegionalParameter) validateSetProvision
 	return nil
 }
 
+func (j *jsiiProxy_GoogleParameterManagerRegionalParameter) validateSetTagsParameters(val *map[string]*string) error {
+	return nil
+}
+
 func validateNewGoogleParameterManagerRegionalParameterParameters(scope constructs.Construct, id *string, config *GoogleParameterManagerRegionalParameterConfig) error {
 	return nil
 }

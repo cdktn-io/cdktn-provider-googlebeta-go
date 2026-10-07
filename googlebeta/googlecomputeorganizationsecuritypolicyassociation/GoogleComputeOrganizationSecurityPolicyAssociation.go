@@ -5,14 +5,14 @@ package googlecomputeorganizationsecuritypolicyassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeorganizationsecuritypolicyassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeorganizationsecuritypolicyassociation/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_organization_security_policy_association google_compute_organization_security_policy_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_organization_security_policy_association google_compute_organization_security_policy_association}.
 type GoogleComputeOrganizationSecurityPolicyAssociation interface {
 	cdktn.TerraformResource
 	AttachmentId() *string
@@ -544,7 +544,7 @@ func (j *jsiiProxy_GoogleComputeOrganizationSecurityPolicyAssociation) TimeoutsI
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_organization_security_policy_association google_compute_organization_security_policy_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_organization_security_policy_association google_compute_organization_security_policy_association} Resource.
 func NewGoogleComputeOrganizationSecurityPolicyAssociation(scope constructs.Construct, id *string, config *GoogleComputeOrganizationSecurityPolicyAssociationConfig) GoogleComputeOrganizationSecurityPolicyAssociation {
 	_init_.Initialize()
 
@@ -562,7 +562,7 @@ func NewGoogleComputeOrganizationSecurityPolicyAssociation(scope constructs.Cons
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_organization_security_policy_association google_compute_organization_security_policy_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_organization_security_policy_association google_compute_organization_security_policy_association} Resource.
 func NewGoogleComputeOrganizationSecurityPolicyAssociation_Override(g GoogleComputeOrganizationSecurityPolicyAssociation, scope constructs.Construct, id *string, config *GoogleComputeOrganizationSecurityPolicyAssociationConfig) {
 	_init_.Initialize()
 

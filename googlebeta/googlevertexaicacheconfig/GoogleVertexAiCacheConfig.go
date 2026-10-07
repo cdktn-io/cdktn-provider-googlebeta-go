@@ -5,14 +5,14 @@ package googlevertexaicacheconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaicacheconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlevertexaicacheconfig/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_cache_config google_vertex_ai_cache_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_vertex_ai_cache_config google_vertex_ai_cache_config}.
 type GoogleVertexAiCacheConfig interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -450,7 +450,7 @@ func (j *jsiiProxy_GoogleVertexAiCacheConfig) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_cache_config google_vertex_ai_cache_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_vertex_ai_cache_config google_vertex_ai_cache_config} Resource.
 func NewGoogleVertexAiCacheConfig(scope constructs.Construct, id *string, config *GoogleVertexAiCacheConfigConfig) GoogleVertexAiCacheConfig {
 	_init_.Initialize()
 
@@ -468,7 +468,7 @@ func NewGoogleVertexAiCacheConfig(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_cache_config google_vertex_ai_cache_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_vertex_ai_cache_config google_vertex_ai_cache_config} Resource.
 func NewGoogleVertexAiCacheConfig_Override(g GoogleVertexAiCacheConfig, scope constructs.Construct, id *string, config *GoogleVertexAiCacheConfigConfig) {
 	_init_.Initialize()
 

@@ -5,11 +5,19 @@ package googlecesapp
 
 
 type GoogleCesAppAudioProcessingConfigSynthesizeSpeechConfigs struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app#language_code GoogleCesApp#language_code}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#language_code GoogleCesApp#language_code}.
 	LanguageCode *string `field:"required" json:"languageCode" yaml:"languageCode"`
+	// The instruction used to synthesize speech when using a generative model.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#instruction GoogleCesApp#instruction}
+	Instruction *string `field:"optional" json:"instruction" yaml:"instruction"`
+	// The model used to synthesize audio.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#model GoogleCesApp#model}
+	Model *string `field:"optional" json:"model" yaml:"model"`
 	// The speaking rate/speed in the range [0.25, 2.0]. 1.0 is the normal native speed supported by the specific voice. 2.0 is twice as fast, and 0.5 is half as fast. Values outside of the range [0.25, 2.0] will return an error.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app#speaking_rate GoogleCesApp#speaking_rate}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#speaking_rate GoogleCesApp#speaking_rate}
 	SpeakingRate *float64 `field:"optional" json:"speakingRate" yaml:"speakingRate"`
 	// The name of the voice.
 	//
@@ -18,7 +26,7 @@ type GoogleCesAppAudioProcessingConfigSynthesizeSpeechConfigs struct {
 	// For the list of available voices, please refer to Supported voices and
 	// languages from Cloud Text-to-Speech.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app#voice GoogleCesApp#voice}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app#voice GoogleCesApp#voice}
 	Voice *string `field:"optional" json:"voice" yaml:"voice"`
 }
 

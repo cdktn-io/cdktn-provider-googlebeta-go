@@ -5,14 +5,14 @@ package googlecomputeresourcepolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeresourcepolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeresourcepolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_resource_policy google_compute_resource_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_resource_policy google_compute_resource_policy}.
 type GoogleComputeResourcePolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -642,7 +642,7 @@ func (j *jsiiProxy_GoogleComputeResourcePolicy) WorkloadPolicyInput() *GoogleCom
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_resource_policy google_compute_resource_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_resource_policy google_compute_resource_policy} Resource.
 func NewGoogleComputeResourcePolicy(scope constructs.Construct, id *string, config *GoogleComputeResourcePolicyConfig) GoogleComputeResourcePolicy {
 	_init_.Initialize()
 
@@ -660,7 +660,7 @@ func NewGoogleComputeResourcePolicy(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_resource_policy google_compute_resource_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_resource_policy google_compute_resource_policy} Resource.
 func NewGoogleComputeResourcePolicy_Override(g GoogleComputeResourcePolicy, scope constructs.Construct, id *string, config *GoogleComputeResourcePolicyConfig) {
 	_init_.Initialize()
 

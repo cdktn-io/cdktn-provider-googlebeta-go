@@ -5,14 +5,14 @@ package googleprivilegedaccessmanagerentitlement
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleprivilegedaccessmanagerentitlement/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleprivilegedaccessmanagerentitlement/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_privileged_access_manager_entitlement google_privileged_access_manager_entitlement}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_privileged_access_manager_entitlement google_privileged_access_manager_entitlement}.
 type GooglePrivilegedAccessManagerEntitlement interface {
 	cdktn.TerraformResource
 	AdditionalNotificationTargets() GooglePrivilegedAccessManagerEntitlementAdditionalNotificationTargetsOutputReference
@@ -680,7 +680,7 @@ func (j *jsiiProxy_GooglePrivilegedAccessManagerEntitlement) UpdateTime() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_privileged_access_manager_entitlement google_privileged_access_manager_entitlement} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_privileged_access_manager_entitlement google_privileged_access_manager_entitlement} Resource.
 func NewGooglePrivilegedAccessManagerEntitlement(scope constructs.Construct, id *string, config *GooglePrivilegedAccessManagerEntitlementConfig) GooglePrivilegedAccessManagerEntitlement {
 	_init_.Initialize()
 
@@ -698,7 +698,7 @@ func NewGooglePrivilegedAccessManagerEntitlement(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_privileged_access_manager_entitlement google_privileged_access_manager_entitlement} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_privileged_access_manager_entitlement google_privileged_access_manager_entitlement} Resource.
 func NewGooglePrivilegedAccessManagerEntitlement_Override(g GooglePrivilegedAccessManagerEntitlement, scope constructs.Construct, id *string, config *GooglePrivilegedAccessManagerEntitlementConfig) {
 	_init_.Initialize()
 

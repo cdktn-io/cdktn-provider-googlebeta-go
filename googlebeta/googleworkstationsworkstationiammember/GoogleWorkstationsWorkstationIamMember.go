@@ -5,14 +5,14 @@ package googleworkstationsworkstationiammember
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleworkstationsworkstationiammember/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleworkstationsworkstationiammember/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_workstations_workstation_iam_member google_workstations_workstation_iam_member}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_workstations_workstation_iam_member google_workstations_workstation_iam_member}.
 type GoogleWorkstationsWorkstationIamMember interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -566,7 +566,7 @@ func (j *jsiiProxy_GoogleWorkstationsWorkstationIamMember) WorkstationIdInput() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_workstations_workstation_iam_member google_workstations_workstation_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_workstations_workstation_iam_member google_workstations_workstation_iam_member} Resource.
 func NewGoogleWorkstationsWorkstationIamMember(scope constructs.Construct, id *string, config *GoogleWorkstationsWorkstationIamMemberConfig) GoogleWorkstationsWorkstationIamMember {
 	_init_.Initialize()
 
@@ -584,7 +584,7 @@ func NewGoogleWorkstationsWorkstationIamMember(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_workstations_workstation_iam_member google_workstations_workstation_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_workstations_workstation_iam_member google_workstations_workstation_iam_member} Resource.
 func NewGoogleWorkstationsWorkstationIamMember_Override(g GoogleWorkstationsWorkstationIamMember, scope constructs.Construct, id *string, config *GoogleWorkstationsWorkstationIamMemberConfig) {
 	_init_.Initialize()
 

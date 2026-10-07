@@ -5,14 +5,14 @@ package googlenetworksecurityullmirroringcollectorrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityullmirroringcollectorrule/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityullmirroringcollectorrule/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_ull_mirroring_collector_rule google_network_security_ull_mirroring_collector_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_ull_mirroring_collector_rule google_network_security_ull_mirroring_collector_rule}.
 type GoogleNetworkSecurityUllMirroringCollectorRule interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -622,7 +622,7 @@ func (j *jsiiProxy_GoogleNetworkSecurityUllMirroringCollectorRule) UpdateTime() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_ull_mirroring_collector_rule google_network_security_ull_mirroring_collector_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_ull_mirroring_collector_rule google_network_security_ull_mirroring_collector_rule} Resource.
 func NewGoogleNetworkSecurityUllMirroringCollectorRule(scope constructs.Construct, id *string, config *GoogleNetworkSecurityUllMirroringCollectorRuleConfig) GoogleNetworkSecurityUllMirroringCollectorRule {
 	_init_.Initialize()
 
@@ -640,7 +640,7 @@ func NewGoogleNetworkSecurityUllMirroringCollectorRule(scope constructs.Construc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_ull_mirroring_collector_rule google_network_security_ull_mirroring_collector_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_ull_mirroring_collector_rule google_network_security_ull_mirroring_collector_rule} Resource.
 func NewGoogleNetworkSecurityUllMirroringCollectorRule_Override(g GoogleNetworkSecurityUllMirroringCollectorRule, scope constructs.Construct, id *string, config *GoogleNetworkSecurityUllMirroringCollectorRuleConfig) {
 	_init_.Initialize()
 

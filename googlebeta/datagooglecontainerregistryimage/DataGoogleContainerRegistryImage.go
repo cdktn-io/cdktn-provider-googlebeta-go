@@ -5,14 +5,14 @@ package datagooglecontainerregistryimage
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagooglecontainerregistryimage/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagooglecontainerregistryimage/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_container_registry_image google_container_registry_image}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_container_registry_image google_container_registry_image}.
 type DataGoogleContainerRegistryImage interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -417,7 +417,7 @@ func (j *jsiiProxy_DataGoogleContainerRegistryImage) TerraformResourceType() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_container_registry_image google_container_registry_image} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_container_registry_image google_container_registry_image} Data Source.
 func NewDataGoogleContainerRegistryImage(scope constructs.Construct, id *string, config *DataGoogleContainerRegistryImageConfig) DataGoogleContainerRegistryImage {
 	_init_.Initialize()
 
@@ -435,7 +435,7 @@ func NewDataGoogleContainerRegistryImage(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_container_registry_image google_container_registry_image} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_container_registry_image google_container_registry_image} Data Source.
 func NewDataGoogleContainerRegistryImage_Override(d DataGoogleContainerRegistryImage, scope constructs.Construct, id *string, config *DataGoogleContainerRegistryImageConfig) {
 	_init_.Initialize()
 

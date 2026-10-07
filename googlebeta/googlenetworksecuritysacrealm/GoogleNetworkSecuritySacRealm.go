@@ -5,14 +5,14 @@ package googlenetworksecuritysacrealm
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecuritysacrealm/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecuritysacrealm/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_sac_realm google_network_security_sac_realm}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_sac_realm google_network_security_sac_realm}.
 type GoogleNetworkSecuritySacRealm interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -600,7 +600,7 @@ func (j *jsiiProxy_GoogleNetworkSecuritySacRealm) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_sac_realm google_network_security_sac_realm} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_sac_realm google_network_security_sac_realm} Resource.
 func NewGoogleNetworkSecuritySacRealm(scope constructs.Construct, id *string, config *GoogleNetworkSecuritySacRealmConfig) GoogleNetworkSecuritySacRealm {
 	_init_.Initialize()
 
@@ -618,7 +618,7 @@ func NewGoogleNetworkSecuritySacRealm(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_sac_realm google_network_security_sac_realm} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_sac_realm google_network_security_sac_realm} Resource.
 func NewGoogleNetworkSecuritySacRealm_Override(g GoogleNetworkSecuritySacRealm, scope constructs.Construct, id *string, config *GoogleNetworkSecuritySacRealmConfig) {
 	_init_.Initialize()
 

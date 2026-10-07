@@ -5,14 +5,14 @@ package googlecesguardrail
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesguardrail/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesguardrail/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_guardrail google_ces_guardrail}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_guardrail google_ces_guardrail}.
 type GoogleCesGuardrail interface {
 	cdktn.TerraformResource
 	Action() GoogleCesGuardrailActionOutputReference
@@ -768,7 +768,7 @@ func (j *jsiiProxy_GoogleCesGuardrail) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_guardrail google_ces_guardrail} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_guardrail google_ces_guardrail} Resource.
 func NewGoogleCesGuardrail(scope constructs.Construct, id *string, config *GoogleCesGuardrailConfig) GoogleCesGuardrail {
 	_init_.Initialize()
 
@@ -786,7 +786,7 @@ func NewGoogleCesGuardrail(scope constructs.Construct, id *string, config *Googl
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_guardrail google_ces_guardrail} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_guardrail google_ces_guardrail} Resource.
 func NewGoogleCesGuardrail_Override(g GoogleCesGuardrail, scope constructs.Construct, id *string, config *GoogleCesGuardrailConfig) {
 	_init_.Initialize()
 

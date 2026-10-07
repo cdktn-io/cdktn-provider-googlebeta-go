@@ -5,14 +5,14 @@ package datagooglevertexaireasoningenginequery
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagooglevertexaireasoningenginequery/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagooglevertexaireasoningenginequery/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_vertex_ai_reasoning_engine_query google_vertex_ai_reasoning_engine_query}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_vertex_ai_reasoning_engine_query google_vertex_ai_reasoning_engine_query}.
 type DataGoogleVertexAiReasoningEngineQuery interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -416,7 +416,7 @@ func (j *jsiiProxy_DataGoogleVertexAiReasoningEngineQuery) TerraformResourceType
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_vertex_ai_reasoning_engine_query google_vertex_ai_reasoning_engine_query} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_vertex_ai_reasoning_engine_query google_vertex_ai_reasoning_engine_query} Data Source.
 func NewDataGoogleVertexAiReasoningEngineQuery(scope constructs.Construct, id *string, config *DataGoogleVertexAiReasoningEngineQueryConfig) DataGoogleVertexAiReasoningEngineQuery {
 	_init_.Initialize()
 
@@ -434,7 +434,7 @@ func NewDataGoogleVertexAiReasoningEngineQuery(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_vertex_ai_reasoning_engine_query google_vertex_ai_reasoning_engine_query} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_vertex_ai_reasoning_engine_query google_vertex_ai_reasoning_engine_query} Data Source.
 func NewDataGoogleVertexAiReasoningEngineQuery_Override(d DataGoogleVertexAiReasoningEngineQuery, scope constructs.Construct, id *string, config *DataGoogleVertexAiReasoningEngineQueryConfig) {
 	_init_.Initialize()
 

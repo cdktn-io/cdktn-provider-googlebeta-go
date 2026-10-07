@@ -111,6 +111,10 @@ func (g *jsiiProxy_GoogleAppEngineStandardAppVersion) validatePutTimeoutsParamet
 	return nil
 }
 
+func (g *jsiiProxy_GoogleAppEngineStandardAppVersion) validatePutVpcAccessParameters(value *GoogleAppEngineStandardAppVersionVpcAccess) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleAppEngineStandardAppVersion) validatePutVpcAccessConnectorParameters(value *GoogleAppEngineStandardAppVersionVpcAccessConnector) error {
 	return nil
 }

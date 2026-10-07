@@ -95,6 +95,10 @@ func (g *jsiiProxy_GoogleCesApp) validatePutDefaultChannelProfileParameters(valu
 	return nil
 }
 
+func (g *jsiiProxy_GoogleCesApp) validatePutErrorHandlingSettingsParameters(value *GoogleCesAppErrorHandlingSettings) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleCesApp) validatePutEvaluationMetricsThresholdsParameters(value *GoogleCesAppEvaluationMetricsThresholds) error {
 	return nil
 }
@@ -120,6 +124,10 @@ func (g *jsiiProxy_GoogleCesApp) validatePutTimeZoneSettingsParameters(value *Go
 }
 
 func (g *jsiiProxy_GoogleCesApp) validatePutVariableDeclarationsParameters(value interface{}) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleCesApp) validatePutVpcScSettingsParameters(value *GoogleCesAppVpcScSettings) error {
 	return nil
 }
 
@@ -184,6 +192,10 @@ func (j *jsiiProxy_GoogleCesApp) validateSetLifecycleParameters(val *cdktn.Terra
 }
 
 func (j *jsiiProxy_GoogleCesApp) validateSetLocationParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleCesApp) validateSetLockedParameters(val interface{}) error {
 	return nil
 }
 

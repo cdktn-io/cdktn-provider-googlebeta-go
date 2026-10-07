@@ -5,9 +5,9 @@ package datagooglecloudrunv2workerpool
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagooglecloudrunv2workerpool/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagooglecloudrunv2workerpool/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -33,7 +33,6 @@ type DataGoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHead
 	InternalValue() *DataGoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeaders
 	SetInternalValue(val *DataGoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeaders)
 	Name() *string
-	Port() *float64
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -137,16 +136,6 @@ func (j *jsiiProxy_DataGoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeH
 	_jsii_.Get(
 		j,
 		"name",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_DataGoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeadersOutputReference) Port() *float64 {
-	var returns *float64
-	_jsii_.Get(
-		j,
-		"port",
 		&returns,
 	)
 	return returns

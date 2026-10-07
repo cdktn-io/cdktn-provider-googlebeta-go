@@ -67,10 +67,13 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "pscInterfaceConfig", GoGetter: "PscInterfaceConfig"},
 			_jsii_.MemberProperty{JsiiProperty: "pscInterfaceConfigInput", GoGetter: "PscInterfaceConfigInput"},
 			_jsii_.MemberMethod{JsiiMethod: "putPscInterfaceConfig", GoMethod: "PutPscInterfaceConfig"},
+			_jsii_.MemberMethod{JsiiMethod: "putReservedPublicIpConfig", GoMethod: "PutReservedPublicIpConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "putTimeouts", GoMethod: "PutTimeouts"},
 			_jsii_.MemberMethod{JsiiMethod: "putVpcPeeringConfig", GoMethod: "PutVpcPeeringConfig"},
 			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
 			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
+			_jsii_.MemberProperty{JsiiProperty: "reservedPublicIpConfig", GoGetter: "ReservedPublicIpConfig"},
+			_jsii_.MemberProperty{JsiiProperty: "reservedPublicIpConfigInput", GoGetter: "ReservedPublicIpConfigInput"},
 			_jsii_.MemberMethod{JsiiMethod: "resetCreateWithoutValidation", GoMethod: "ResetCreateWithoutValidation"},
 			_jsii_.MemberMethod{JsiiMethod: "resetDeletionPolicy", GoMethod: "ResetDeletionPolicy"},
 			_jsii_.MemberMethod{JsiiMethod: "resetDisplayName", GoMethod: "ResetDisplayName"},
@@ -79,6 +82,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetProject", GoMethod: "ResetProject"},
 			_jsii_.MemberMethod{JsiiMethod: "resetPscInterfaceConfig", GoMethod: "ResetPscInterfaceConfig"},
+			_jsii_.MemberMethod{JsiiMethod: "resetReservedPublicIpConfig", GoMethod: "ResetReservedPublicIpConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "resetTimeouts", GoMethod: "ResetTimeouts"},
 			_jsii_.MemberMethod{JsiiMethod: "resetVpcPeeringConfig", GoMethod: "ResetVpcPeeringConfig"},
 			_jsii_.MemberProperty{JsiiProperty: "state", GoGetter: "State"},
@@ -201,6 +205,46 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GoogleDatabaseMigrationServicePrivateConnectionPscInterfaceConfigOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-google-beta.googleDatabaseMigrationServicePrivateConnection.GoogleDatabaseMigrationServicePrivateConnectionReservedPublicIpConfig",
+		reflect.TypeOf((*GoogleDatabaseMigrationServicePrivateConnectionReservedPublicIpConfig)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-google-beta.googleDatabaseMigrationServicePrivateConnection.GoogleDatabaseMigrationServicePrivateConnectionReservedPublicIpConfigOutputReference",
+		reflect.TypeOf((*GoogleDatabaseMigrationServicePrivateConnectionReservedPublicIpConfigOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "egressPublicIps", GoGetter: "EgressPublicIps"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "natIpsCount", GoGetter: "NatIpsCount"},
+			_jsii_.MemberProperty{JsiiProperty: "natIpsCountInput", GoGetter: "NatIpsCountInput"},
+			_jsii_.MemberMethod{JsiiMethod: "resetNatIpsCount", GoMethod: "ResetNatIpsCount"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_GoogleDatabaseMigrationServicePrivateConnectionReservedPublicIpConfigOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},

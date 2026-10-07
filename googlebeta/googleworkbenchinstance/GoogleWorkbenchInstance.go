@@ -5,14 +5,14 @@ package googleworkbenchinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleworkbenchinstance/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleworkbenchinstance/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_workbench_instance google_workbench_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_workbench_instance google_workbench_instance}.
 type GoogleWorkbenchInstance interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -812,7 +812,7 @@ func (j *jsiiProxy_GoogleWorkbenchInstance) UpgradeHistory() GoogleWorkbenchInst
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_workbench_instance google_workbench_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_workbench_instance google_workbench_instance} Resource.
 func NewGoogleWorkbenchInstance(scope constructs.Construct, id *string, config *GoogleWorkbenchInstanceConfig) GoogleWorkbenchInstance {
 	_init_.Initialize()
 
@@ -830,7 +830,7 @@ func NewGoogleWorkbenchInstance(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_workbench_instance google_workbench_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_workbench_instance google_workbench_instance} Resource.
 func NewGoogleWorkbenchInstance_Override(g GoogleWorkbenchInstance, scope constructs.Construct, id *string, config *GoogleWorkbenchInstanceConfig) {
 	_init_.Initialize()
 

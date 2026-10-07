@@ -5,14 +5,14 @@ package googlefolderiamauditconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefolderiamauditconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlefolderiamauditconfig/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_folder_iam_audit_config google_folder_iam_audit_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_folder_iam_audit_config google_folder_iam_audit_config}.
 type GoogleFolderIamAuditConfig interface {
 	cdktn.TerraformResource
 	AuditLogConfig() GoogleFolderIamAuditConfigAuditLogConfigList
@@ -448,7 +448,7 @@ func (j *jsiiProxy_GoogleFolderIamAuditConfig) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_folder_iam_audit_config google_folder_iam_audit_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_folder_iam_audit_config google_folder_iam_audit_config} Resource.
 func NewGoogleFolderIamAuditConfig(scope constructs.Construct, id *string, config *GoogleFolderIamAuditConfigConfig) GoogleFolderIamAuditConfig {
 	_init_.Initialize()
 
@@ -466,7 +466,7 @@ func NewGoogleFolderIamAuditConfig(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_folder_iam_audit_config google_folder_iam_audit_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_folder_iam_audit_config google_folder_iam_audit_config} Resource.
 func NewGoogleFolderIamAuditConfig_Override(g GoogleFolderIamAuditConfig, scope constructs.Construct, id *string, config *GoogleFolderIamAuditConfigConfig) {
 	_init_.Initialize()
 

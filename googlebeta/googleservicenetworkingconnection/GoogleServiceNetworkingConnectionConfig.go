@@ -24,44 +24,47 @@ type GoogleServiceNetworkingConnectionConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// Name of VPC network connected with service producers using VPC peering.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_service_networking_connection#network GoogleServiceNetworkingConnection#network}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_service_networking_connection#network GoogleServiceNetworkingConnection#network}
 	Network *string `field:"required" json:"network" yaml:"network"`
 	// Named IP address range(s) of PEERING type reserved for this service provider.
 	//
 	// Note that invoking this method with a different range when connection is already established will not reallocate already provisioned service producer subnetworks.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_service_networking_connection#reserved_peering_ranges GoogleServiceNetworkingConnection#reserved_peering_ranges}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_service_networking_connection#reserved_peering_ranges GoogleServiceNetworkingConnection#reserved_peering_ranges}
 	ReservedPeeringRanges *[]*string `field:"required" json:"reservedPeeringRanges" yaml:"reservedPeeringRanges"`
 	// Provider peering service that is managing peering connectivity for a service provider organization.
 	//
 	// For Google services that support this functionality it is 'servicenetworking.googleapis.com'.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_service_networking_connection#service GoogleServiceNetworkingConnection#service}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_service_networking_connection#service GoogleServiceNetworkingConnection#service}
 	Service *string `field:"required" json:"service" yaml:"service"`
-	// Whether Terraform will be prevented from destroying the instance.
+	// Whether Terraform will be prevented from destroying the connection.
 	//
 	// Defaults to "DELETE".
-	// When a 'terraform destroy' or 'terraform apply' would delete the instance,
-	// the command will fail if this field is set to "PREVENT" in Terraform state.
-	// When set to "ABANDON", the command will remove the resource from Terraform
-	// management without updating or deleting the resource in the API.
-	// When set to "DELETE", deleting the resource is allowed.
+	// When set to "PREVENT", destroying the resource will fail.
+	// When set to "ABANDON", the resource is removed from Terraform state without
+	// deleting the connection in the API. The VPC peering created by this connection
+	// is left in place, which will block deletion of the network.
+	// When set to "DELETE", the connection is deleted.
+	// When set to "REMOVE_PEERING", the connection is deleted, and if the API refuses
+	// because service producer resources still use it, the VPC peering is removed from
+	// the network instead so that the network can be deleted. Only use this once the
+	// service instances using the connection (such as Cloud SQL) are already deleted.
 	//
-	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_service_networking_connection#deletion_policy GoogleServiceNetworkingConnection#deletion_policy}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_service_networking_connection#deletion_policy GoogleServiceNetworkingConnection#deletion_policy}
 	DeletionPolicy *string `field:"optional" json:"deletionPolicy" yaml:"deletionPolicy"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_service_networking_connection#id GoogleServiceNetworkingConnection#id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_service_networking_connection#id GoogleServiceNetworkingConnection#id}.
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
 	Id *string `field:"optional" json:"id" yaml:"id"`
 	// timeouts block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_service_networking_connection#timeouts GoogleServiceNetworkingConnection#timeouts}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_service_networking_connection#timeouts GoogleServiceNetworkingConnection#timeouts}
 	Timeouts *GoogleServiceNetworkingConnectionTimeouts `field:"optional" json:"timeouts" yaml:"timeouts"`
 	// When set to true, enforce an update of the reserved peering ranges on the existing service networking connection in case of a new connection creation failure.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_service_networking_connection#update_on_creation_fail GoogleServiceNetworkingConnection#update_on_creation_fail}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_service_networking_connection#update_on_creation_fail GoogleServiceNetworkingConnection#update_on_creation_fail}
 	UpdateOnCreationFail interface{} `field:"optional" json:"updateOnCreationFail" yaml:"updateOnCreationFail"`
 }
 

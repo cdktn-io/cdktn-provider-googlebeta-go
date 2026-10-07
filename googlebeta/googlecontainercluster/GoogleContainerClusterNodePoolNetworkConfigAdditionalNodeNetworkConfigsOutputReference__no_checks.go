@@ -67,6 +67,10 @@ func (j *jsiiProxy_GoogleContainerClusterNodePoolNetworkConfigAdditionalNodeNetw
 	return nil
 }
 
+func (j *jsiiProxy_GoogleContainerClusterNodePoolNetworkConfigAdditionalNodeNetworkConfigsOutputReference) validateSetStackTypeParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleContainerClusterNodePoolNetworkConfigAdditionalNodeNetworkConfigsOutputReference) validateSetSubnetworkParameters(val *string) error {
 	return nil
 }

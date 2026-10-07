@@ -5,14 +5,14 @@ package googleiaplocationwebiammember
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiaplocationwebiammember/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleiaplocationwebiammember/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iap_location_web_iam_member google_iap_location_web_iam_member}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iap_location_web_iam_member google_iap_location_web_iam_member}.
 type GoogleIapLocationWebIamMember interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -496,7 +496,7 @@ func (j *jsiiProxy_GoogleIapLocationWebIamMember) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iap_location_web_iam_member google_iap_location_web_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iap_location_web_iam_member google_iap_location_web_iam_member} Resource.
 func NewGoogleIapLocationWebIamMember(scope constructs.Construct, id *string, config *GoogleIapLocationWebIamMemberConfig) GoogleIapLocationWebIamMember {
 	_init_.Initialize()
 
@@ -514,7 +514,7 @@ func NewGoogleIapLocationWebIamMember(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iap_location_web_iam_member google_iap_location_web_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iap_location_web_iam_member google_iap_location_web_iam_member} Resource.
 func NewGoogleIapLocationWebIamMember_Override(g GoogleIapLocationWebIamMember, scope constructs.Construct, id *string, config *GoogleIapLocationWebIamMemberConfig) {
 	_init_.Initialize()
 

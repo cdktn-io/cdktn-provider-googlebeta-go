@@ -5,14 +5,14 @@ package googlenetworksecurityinterceptendpointgroupassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityinterceptendpointgroupassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityinterceptendpointgroupassociation/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_intercept_endpoint_group_association google_network_security_intercept_endpoint_group_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_intercept_endpoint_group_association google_network_security_intercept_endpoint_group_association}.
 type GoogleNetworkSecurityInterceptEndpointGroupAssociation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -656,7 +656,7 @@ func (j *jsiiProxy_GoogleNetworkSecurityInterceptEndpointGroupAssociation) Updat
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_intercept_endpoint_group_association google_network_security_intercept_endpoint_group_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_intercept_endpoint_group_association google_network_security_intercept_endpoint_group_association} Resource.
 func NewGoogleNetworkSecurityInterceptEndpointGroupAssociation(scope constructs.Construct, id *string, config *GoogleNetworkSecurityInterceptEndpointGroupAssociationConfig) GoogleNetworkSecurityInterceptEndpointGroupAssociation {
 	_init_.Initialize()
 
@@ -674,7 +674,7 @@ func NewGoogleNetworkSecurityInterceptEndpointGroupAssociation(scope constructs.
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_intercept_endpoint_group_association google_network_security_intercept_endpoint_group_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_intercept_endpoint_group_association google_network_security_intercept_endpoint_group_association} Resource.
 func NewGoogleNetworkSecurityInterceptEndpointGroupAssociation_Override(g GoogleNetworkSecurityInterceptEndpointGroupAssociation, scope constructs.Construct, id *string, config *GoogleNetworkSecurityInterceptEndpointGroupAssociationConfig) {
 	_init_.Initialize()
 

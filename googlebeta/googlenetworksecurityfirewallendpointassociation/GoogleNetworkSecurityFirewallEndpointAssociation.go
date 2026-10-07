@@ -5,14 +5,14 @@ package googlenetworksecurityfirewallendpointassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworksecurityfirewallendpointassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworksecurityfirewallendpointassociation/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_firewall_endpoint_association google_network_security_firewall_endpoint_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_firewall_endpoint_association google_network_security_firewall_endpoint_association}.
 type GoogleNetworkSecurityFirewallEndpointAssociation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -681,7 +681,7 @@ func (j *jsiiProxy_GoogleNetworkSecurityFirewallEndpointAssociation) UpdateTime(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_firewall_endpoint_association google_network_security_firewall_endpoint_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_firewall_endpoint_association google_network_security_firewall_endpoint_association} Resource.
 func NewGoogleNetworkSecurityFirewallEndpointAssociation(scope constructs.Construct, id *string, config *GoogleNetworkSecurityFirewallEndpointAssociationConfig) GoogleNetworkSecurityFirewallEndpointAssociation {
 	_init_.Initialize()
 
@@ -699,7 +699,7 @@ func NewGoogleNetworkSecurityFirewallEndpointAssociation(scope constructs.Constr
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_security_firewall_endpoint_association google_network_security_firewall_endpoint_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_firewall_endpoint_association google_network_security_firewall_endpoint_association} Resource.
 func NewGoogleNetworkSecurityFirewallEndpointAssociation_Override(g GoogleNetworkSecurityFirewallEndpointAssociation, scope constructs.Construct, id *string, config *GoogleNetworkSecurityFirewallEndpointAssociationConfig) {
 	_init_.Initialize()
 

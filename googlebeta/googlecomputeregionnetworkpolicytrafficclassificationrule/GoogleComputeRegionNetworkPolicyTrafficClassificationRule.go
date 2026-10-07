@@ -5,14 +5,14 @@ package googlecomputeregionnetworkpolicytrafficclassificationrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeregionnetworkpolicytrafficclassificationrule/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeregionnetworkpolicytrafficclassificationrule/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_network_policy_traffic_classification_rule google_compute_region_network_policy_traffic_classification_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_network_policy_traffic_classification_rule google_compute_region_network_policy_traffic_classification_rule}.
 type GoogleComputeRegionNetworkPolicyTrafficClassificationRule interface {
 	cdktn.TerraformResource
 	Action() GoogleComputeRegionNetworkPolicyTrafficClassificationRuleActionOutputReference
@@ -710,7 +710,7 @@ func (j *jsiiProxy_GoogleComputeRegionNetworkPolicyTrafficClassificationRule) Ti
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_network_policy_traffic_classification_rule google_compute_region_network_policy_traffic_classification_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_network_policy_traffic_classification_rule google_compute_region_network_policy_traffic_classification_rule} Resource.
 func NewGoogleComputeRegionNetworkPolicyTrafficClassificationRule(scope constructs.Construct, id *string, config *GoogleComputeRegionNetworkPolicyTrafficClassificationRuleConfig) GoogleComputeRegionNetworkPolicyTrafficClassificationRule {
 	_init_.Initialize()
 
@@ -728,7 +728,7 @@ func NewGoogleComputeRegionNetworkPolicyTrafficClassificationRule(scope construc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_network_policy_traffic_classification_rule google_compute_region_network_policy_traffic_classification_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_network_policy_traffic_classification_rule google_compute_region_network_policy_traffic_classification_rule} Resource.
 func NewGoogleComputeRegionNetworkPolicyTrafficClassificationRule_Override(g GoogleComputeRegionNetworkPolicyTrafficClassificationRule, scope constructs.Construct, id *string, config *GoogleComputeRegionNetworkPolicyTrafficClassificationRuleConfig) {
 	_init_.Initialize()
 

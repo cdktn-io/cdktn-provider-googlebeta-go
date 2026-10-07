@@ -5,9 +5,9 @@ package datagooglecloudrunv2workerpool
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagooglecloudrunv2workerpool/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagooglecloudrunv2workerpool/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -40,6 +40,7 @@ type DataGoogleCloudRunV2WorkerPoolTemplateContainersOutputReference interface {
 	LivenessProbe() DataGoogleCloudRunV2WorkerPoolTemplateContainersLivenessProbeList
 	Name() *string
 	Resources() DataGoogleCloudRunV2WorkerPoolTemplateContainersResourcesList
+	SandboxLauncher() cdktn.IResolvable
 	StartupProbe() DataGoogleCloudRunV2WorkerPoolTemplateContainersStartupProbeList
 	// Experimental.
 	TerraformAttribute() *string
@@ -215,6 +216,16 @@ func (j *jsiiProxy_DataGoogleCloudRunV2WorkerPoolTemplateContainersOutputReferen
 	_jsii_.Get(
 		j,
 		"resources",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleCloudRunV2WorkerPoolTemplateContainersOutputReference) SandboxLauncher() cdktn.IResolvable {
+	var returns cdktn.IResolvable
+	_jsii_.Get(
+		j,
+		"sandboxLauncher",
 		&returns,
 	)
 	return returns

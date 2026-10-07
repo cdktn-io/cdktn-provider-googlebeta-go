@@ -187,6 +187,10 @@ func (j *jsiiProxy_GoogleLustreInstance) validateSetProvisionersParameters(val *
 	return nil
 }
 
+func (j *jsiiProxy_GoogleLustreInstance) validateSetTargetVersionParameters(val *string) error {
+	return nil
+}
+
 func validateNewGoogleLustreInstanceParameters(scope constructs.Construct, id *string, config *GoogleLustreInstanceConfig) error {
 	return nil
 }

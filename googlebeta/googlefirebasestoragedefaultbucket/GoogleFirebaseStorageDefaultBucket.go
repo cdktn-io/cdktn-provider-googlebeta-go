@@ -5,14 +5,14 @@ package googlefirebasestoragedefaultbucket
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirebasestoragedefaultbucket/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlefirebasestoragedefaultbucket/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_firebase_storage_default_bucket google_firebase_storage_default_bucket}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_firebase_storage_default_bucket google_firebase_storage_default_bucket}.
 type GoogleFirebaseStorageDefaultBucket interface {
 	cdktn.TerraformResource
 	Bucket() GoogleFirebaseStorageDefaultBucketBucketList
@@ -485,7 +485,7 @@ func (j *jsiiProxy_GoogleFirebaseStorageDefaultBucket) TimeoutsInput() interface
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_firebase_storage_default_bucket google_firebase_storage_default_bucket} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_firebase_storage_default_bucket google_firebase_storage_default_bucket} Resource.
 func NewGoogleFirebaseStorageDefaultBucket(scope constructs.Construct, id *string, config *GoogleFirebaseStorageDefaultBucketConfig) GoogleFirebaseStorageDefaultBucket {
 	_init_.Initialize()
 
@@ -503,7 +503,7 @@ func NewGoogleFirebaseStorageDefaultBucket(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_firebase_storage_default_bucket google_firebase_storage_default_bucket} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_firebase_storage_default_bucket google_firebase_storage_default_bucket} Resource.
 func NewGoogleFirebaseStorageDefaultBucket_Override(g GoogleFirebaseStorageDefaultBucket, scope constructs.Construct, id *string, config *GoogleFirebaseStorageDefaultBucketConfig) {
 	_init_.Initialize()
 

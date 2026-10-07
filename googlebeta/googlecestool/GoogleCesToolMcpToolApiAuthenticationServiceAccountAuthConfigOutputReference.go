@@ -5,9 +5,9 @@ package googlecestool
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecestool/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -32,6 +32,7 @@ type GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfigOutputReferenc
 	Fqn() *string
 	InternalValue() *GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfig
 	SetInternalValue(val *GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfig)
+	Scopes() *[]*string
 	ServiceAccount() *string
 	// Experimental.
 	TerraformAttribute() *string
@@ -125,6 +126,16 @@ func (j *jsiiProxy_GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfig
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCesToolMcpToolApiAuthenticationServiceAccountAuthConfigOutputReference) Scopes() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"scopes",
 		&returns,
 	)
 	return returns

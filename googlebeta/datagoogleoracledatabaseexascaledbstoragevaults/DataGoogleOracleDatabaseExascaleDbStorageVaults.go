@@ -5,14 +5,14 @@ package datagoogleoracledatabaseexascaledbstoragevaults
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoogleoracledatabaseexascaledbstoragevaults/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagoogleoracledatabaseexascaledbstoragevaults/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_oracle_database_exascale_db_storage_vaults google_oracle_database_exascale_db_storage_vaults}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_oracle_database_exascale_db_storage_vaults google_oracle_database_exascale_db_storage_vaults}.
 type DataGoogleOracleDatabaseExascaleDbStorageVaults interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -345,7 +345,7 @@ func (j *jsiiProxy_DataGoogleOracleDatabaseExascaleDbStorageVaults) TerraformRes
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_oracle_database_exascale_db_storage_vaults google_oracle_database_exascale_db_storage_vaults} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_oracle_database_exascale_db_storage_vaults google_oracle_database_exascale_db_storage_vaults} Data Source.
 func NewDataGoogleOracleDatabaseExascaleDbStorageVaults(scope constructs.Construct, id *string, config *DataGoogleOracleDatabaseExascaleDbStorageVaultsConfig) DataGoogleOracleDatabaseExascaleDbStorageVaults {
 	_init_.Initialize()
 
@@ -363,7 +363,7 @@ func NewDataGoogleOracleDatabaseExascaleDbStorageVaults(scope constructs.Constru
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_oracle_database_exascale_db_storage_vaults google_oracle_database_exascale_db_storage_vaults} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_oracle_database_exascale_db_storage_vaults google_oracle_database_exascale_db_storage_vaults} Data Source.
 func NewDataGoogleOracleDatabaseExascaleDbStorageVaults_Override(d DataGoogleOracleDatabaseExascaleDbStorageVaults, scope constructs.Construct, id *string, config *DataGoogleOracleDatabaseExascaleDbStorageVaultsConfig) {
 	_init_.Initialize()
 

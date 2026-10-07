@@ -5,14 +5,14 @@ package googleapigeeapiproduct
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleapigeeapiproduct/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleapigeeapiproduct/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_api_product google_apigee_api_product}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_api_product google_apigee_api_product}.
 type GoogleApigeeApiProduct interface {
 	cdktn.TerraformResource
 	ApiResources() *[]*string
@@ -867,7 +867,7 @@ func (j *jsiiProxy_GoogleApigeeApiProduct) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_api_product google_apigee_api_product} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_api_product google_apigee_api_product} Resource.
 func NewGoogleApigeeApiProduct(scope constructs.Construct, id *string, config *GoogleApigeeApiProductConfig) GoogleApigeeApiProduct {
 	_init_.Initialize()
 
@@ -885,7 +885,7 @@ func NewGoogleApigeeApiProduct(scope constructs.Construct, id *string, config *G
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_api_product google_apigee_api_product} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_api_product google_apigee_api_product} Resource.
 func NewGoogleApigeeApiProduct_Override(g GoogleApigeeApiProduct, scope constructs.Construct, id *string, config *GoogleApigeeApiProductConfig) {
 	_init_.Initialize()
 

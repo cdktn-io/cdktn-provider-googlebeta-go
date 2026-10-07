@@ -5,9 +5,9 @@ package googlevertexaireasoningengine
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaireasoningengine/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlevertexaireasoningengine/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -32,6 +32,9 @@ type GoogleVertexAiReasoningEngineSpecBuildSpecOutputReference interface {
 	Fqn() *string
 	InternalValue() *GoogleVertexAiReasoningEngineSpecBuildSpec
 	SetInternalValue(val *GoogleVertexAiReasoningEngineSpecBuildSpec)
+	ServiceAccount() *string
+	SetServiceAccount(val *string)
+	ServiceAccountInput() *string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -67,6 +70,7 @@ type GoogleVertexAiReasoningEngineSpecBuildSpecOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	ResetServiceAccount()
 	ResetWorkerPool()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -128,6 +132,26 @@ func (j *jsiiProxy_GoogleVertexAiReasoningEngineSpecBuildSpecOutputReference) In
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleVertexAiReasoningEngineSpecBuildSpecOutputReference) ServiceAccount() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"serviceAccount",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleVertexAiReasoningEngineSpecBuildSpecOutputReference) ServiceAccountInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"serviceAccountInput",
 		&returns,
 	)
 	return returns
@@ -230,6 +254,17 @@ func (j *jsiiProxy_GoogleVertexAiReasoningEngineSpecBuildSpecOutputReference)Set
 	_jsii_.Set(
 		j,
 		"internalValue",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleVertexAiReasoningEngineSpecBuildSpecOutputReference)SetServiceAccount(val *string) {
+	if err := j.validateSetServiceAccountParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"serviceAccount",
 		val,
 	)
 }
@@ -451,6 +486,14 @@ func (g *jsiiProxy_GoogleVertexAiReasoningEngineSpecBuildSpecOutputReference) In
 	)
 
 	return returns
+}
+
+func (g *jsiiProxy_GoogleVertexAiReasoningEngineSpecBuildSpecOutputReference) ResetServiceAccount() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetServiceAccount",
+		nil, // no parameters
+	)
 }
 
 func (g *jsiiProxy_GoogleVertexAiReasoningEngineSpecBuildSpecOutputReference) ResetWorkerPool() {

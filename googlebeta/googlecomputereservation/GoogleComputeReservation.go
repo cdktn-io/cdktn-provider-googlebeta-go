@@ -5,14 +5,14 @@ package googlecomputereservation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputereservation/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputereservation/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_reservation google_compute_reservation}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_reservation google_compute_reservation}.
 type GoogleComputeReservation interface {
 	cdktn.TerraformResource
 	BlockNames() *[]*string
@@ -83,7 +83,6 @@ type GoogleComputeReservation interface {
 	SetProvisioners(val *[]interface{})
 	// Experimental.
 	RawOverrides() interface{}
-	ReservationBlockCount() *float64
 	ReservationSharingPolicy() GoogleComputeReservationReservationSharingPolicyOutputReference
 	ReservationSharingPolicyInput() *GoogleComputeReservationReservationSharingPolicy
 	ResourceStatus() GoogleComputeReservationResourceStatusList
@@ -597,16 +596,6 @@ func (j *jsiiProxy_GoogleComputeReservation) RawOverrides() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleComputeReservation) ReservationBlockCount() *float64 {
-	var returns *float64
-	_jsii_.Get(
-		j,
-		"reservationBlockCount",
-		&returns,
-	)
-	return returns
-}
-
 func (j *jsiiProxy_GoogleComputeReservation) ReservationSharingPolicy() GoogleComputeReservationReservationSharingPolicyOutputReference {
 	var returns GoogleComputeReservationReservationSharingPolicyOutputReference
 	_jsii_.Get(
@@ -798,7 +787,7 @@ func (j *jsiiProxy_GoogleComputeReservation) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_reservation google_compute_reservation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_reservation google_compute_reservation} Resource.
 func NewGoogleComputeReservation(scope constructs.Construct, id *string, config *GoogleComputeReservationConfig) GoogleComputeReservation {
 	_init_.Initialize()
 
@@ -816,7 +805,7 @@ func NewGoogleComputeReservation(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_reservation google_compute_reservation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_reservation google_compute_reservation} Resource.
 func NewGoogleComputeReservation_Override(g GoogleComputeReservation, scope constructs.Construct, id *string, config *GoogleComputeReservationConfig) {
 	_init_.Initialize()
 

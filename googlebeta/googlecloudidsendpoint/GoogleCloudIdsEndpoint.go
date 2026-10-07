@@ -5,14 +5,14 @@ package googlecloudidsendpoint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecloudidsendpoint/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecloudidsendpoint/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_ids_endpoint google_cloud_ids_endpoint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_ids_endpoint google_cloud_ids_endpoint}.
 type GoogleCloudIdsEndpoint interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -624,7 +624,7 @@ func (j *jsiiProxy_GoogleCloudIdsEndpoint) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_ids_endpoint google_cloud_ids_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_ids_endpoint google_cloud_ids_endpoint} Resource.
 func NewGoogleCloudIdsEndpoint(scope constructs.Construct, id *string, config *GoogleCloudIdsEndpointConfig) GoogleCloudIdsEndpoint {
 	_init_.Initialize()
 
@@ -642,7 +642,7 @@ func NewGoogleCloudIdsEndpoint(scope constructs.Construct, id *string, config *G
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_cloud_ids_endpoint google_cloud_ids_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_ids_endpoint google_cloud_ids_endpoint} Resource.
 func NewGoogleCloudIdsEndpoint_Override(g GoogleCloudIdsEndpoint, scope constructs.Construct, id *string, config *GoogleCloudIdsEndpointConfig) {
 	_init_.Initialize()
 

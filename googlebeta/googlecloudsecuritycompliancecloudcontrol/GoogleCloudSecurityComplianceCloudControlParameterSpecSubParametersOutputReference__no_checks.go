@@ -51,6 +51,10 @@ func (g *jsiiProxy_GoogleCloudSecurityComplianceCloudControlParameterSpecSubPara
 	return nil
 }
 
+func (g *jsiiProxy_GoogleCloudSecurityComplianceCloudControlParameterSpecSubParametersOutputReference) validatePutSubParametersParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleCloudSecurityComplianceCloudControlParameterSpecSubParametersOutputReference) validatePutSubstitutionRulesParameters(value interface{}) error {
 	return nil
 }

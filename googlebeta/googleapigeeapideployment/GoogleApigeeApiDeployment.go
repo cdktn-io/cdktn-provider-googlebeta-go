@@ -5,14 +5,14 @@ package googleapigeeapideployment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleapigeeapideployment/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleapigeeapideployment/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_api_deployment google_apigee_api_deployment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_api_deployment google_apigee_api_deployment}.
 type GoogleApigeeApiDeployment interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -519,7 +519,7 @@ func (j *jsiiProxy_GoogleApigeeApiDeployment) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_api_deployment google_apigee_api_deployment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_api_deployment google_apigee_api_deployment} Resource.
 func NewGoogleApigeeApiDeployment(scope constructs.Construct, id *string, config *GoogleApigeeApiDeploymentConfig) GoogleApigeeApiDeployment {
 	_init_.Initialize()
 
@@ -537,7 +537,7 @@ func NewGoogleApigeeApiDeployment(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_api_deployment google_apigee_api_deployment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_api_deployment google_apigee_api_deployment} Resource.
 func NewGoogleApigeeApiDeployment_Override(g GoogleApigeeApiDeployment, scope constructs.Construct, id *string, config *GoogleApigeeApiDeploymentConfig) {
 	_init_.Initialize()
 

@@ -5,9 +5,9 @@ package googlecesapp
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesapp/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesapp/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -35,6 +35,9 @@ type GoogleCesAppLoggingSettingsConversationLoggingSettingsOutputReference inter
 	Fqn() *string
 	InternalValue() *GoogleCesAppLoggingSettingsConversationLoggingSettings
 	SetInternalValue(val *GoogleCesAppLoggingSettingsConversationLoggingSettings)
+	RetentionWindow() *string
+	SetRetentionWindow(val *string)
+	RetentionWindowInput() *string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -68,6 +71,7 @@ type GoogleCesAppLoggingSettingsConversationLoggingSettingsOutputReference inter
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetDisableConversationLogging()
+	ResetRetentionWindow()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -148,6 +152,26 @@ func (j *jsiiProxy_GoogleCesAppLoggingSettingsConversationLoggingSettingsOutputR
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCesAppLoggingSettingsConversationLoggingSettingsOutputReference) RetentionWindow() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"retentionWindow",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCesAppLoggingSettingsConversationLoggingSettingsOutputReference) RetentionWindowInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"retentionWindowInput",
 		&returns,
 	)
 	return returns
@@ -241,6 +265,17 @@ func (j *jsiiProxy_GoogleCesAppLoggingSettingsConversationLoggingSettingsOutputR
 	_jsii_.Set(
 		j,
 		"internalValue",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleCesAppLoggingSettingsConversationLoggingSettingsOutputReference)SetRetentionWindow(val *string) {
+	if err := j.validateSetRetentionWindowParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"retentionWindow",
 		val,
 	)
 }
@@ -457,6 +492,14 @@ func (g *jsiiProxy_GoogleCesAppLoggingSettingsConversationLoggingSettingsOutputR
 	_jsii_.InvokeVoid(
 		g,
 		"resetDisableConversationLogging",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleCesAppLoggingSettingsConversationLoggingSettingsOutputReference) ResetRetentionWindow() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetRetentionWindow",
 		nil, // no parameters
 	)
 }

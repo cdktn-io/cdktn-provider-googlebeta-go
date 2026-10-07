@@ -75,6 +75,10 @@ func (g *jsiiProxy_GoogleCloudRunV2ServiceTemplateOutputReference) validatePutVp
 	return nil
 }
 
+func (g *jsiiProxy_GoogleCloudRunV2ServiceTemplateOutputReference) validatePutWorkloadIdentityConfigParameters(value *GoogleCloudRunV2ServiceTemplateWorkloadIdentityConfig) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleCloudRunV2ServiceTemplateOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }

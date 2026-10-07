@@ -5,14 +5,14 @@ package datagooglecloudidentitypolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagooglecloudidentitypolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagooglecloudidentitypolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_cloud_identity_policy google_cloud_identity_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_cloud_identity_policy google_cloud_identity_policy}.
 type DataGoogleCloudIdentityPolicy interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -354,7 +354,7 @@ func (j *jsiiProxy_DataGoogleCloudIdentityPolicy) Type() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_cloud_identity_policy google_cloud_identity_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_cloud_identity_policy google_cloud_identity_policy} Data Source.
 func NewDataGoogleCloudIdentityPolicy(scope constructs.Construct, id *string, config *DataGoogleCloudIdentityPolicyConfig) DataGoogleCloudIdentityPolicy {
 	_init_.Initialize()
 
@@ -372,7 +372,7 @@ func NewDataGoogleCloudIdentityPolicy(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_cloud_identity_policy google_cloud_identity_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_cloud_identity_policy google_cloud_identity_policy} Data Source.
 func NewDataGoogleCloudIdentityPolicy_Override(d DataGoogleCloudIdentityPolicy, scope constructs.Construct, id *string, config *DataGoogleCloudIdentityPolicyConfig) {
 	_init_.Initialize()
 

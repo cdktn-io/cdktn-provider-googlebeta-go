@@ -5,9 +5,9 @@ package googlecesapp
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesapp/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesapp/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -32,8 +32,14 @@ type GoogleCesAppEvaluationMetricsThresholdsOutputReference interface {
 	Fqn() *string
 	GoldenEvaluationMetricsThresholds() GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsOutputReference
 	GoldenEvaluationMetricsThresholdsInput() *GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholds
+	GoldenHallucinationMetricBehavior() *string
+	SetGoldenHallucinationMetricBehavior(val *string)
+	GoldenHallucinationMetricBehaviorInput() *string
 	InternalValue() *GoogleCesAppEvaluationMetricsThresholds
 	SetInternalValue(val *GoogleCesAppEvaluationMetricsThresholds)
+	ScenarioHallucinationMetricBehavior() *string
+	SetScenarioHallucinationMetricBehavior(val *string)
+	ScenarioHallucinationMetricBehaviorInput() *string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -68,6 +74,8 @@ type GoogleCesAppEvaluationMetricsThresholdsOutputReference interface {
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutGoldenEvaluationMetricsThresholds(value *GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholds)
 	ResetGoldenEvaluationMetricsThresholds()
+	ResetGoldenHallucinationMetricBehavior()
+	ResetScenarioHallucinationMetricBehavior()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -143,11 +151,51 @@ func (j *jsiiProxy_GoogleCesAppEvaluationMetricsThresholdsOutputReference) Golde
 	return returns
 }
 
+func (j *jsiiProxy_GoogleCesAppEvaluationMetricsThresholdsOutputReference) GoldenHallucinationMetricBehavior() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"goldenHallucinationMetricBehavior",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCesAppEvaluationMetricsThresholdsOutputReference) GoldenHallucinationMetricBehaviorInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"goldenHallucinationMetricBehaviorInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleCesAppEvaluationMetricsThresholdsOutputReference) InternalValue() *GoogleCesAppEvaluationMetricsThresholds {
 	var returns *GoogleCesAppEvaluationMetricsThresholds
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCesAppEvaluationMetricsThresholdsOutputReference) ScenarioHallucinationMetricBehavior() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"scenarioHallucinationMetricBehavior",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCesAppEvaluationMetricsThresholdsOutputReference) ScenarioHallucinationMetricBehaviorInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"scenarioHallucinationMetricBehaviorInput",
 		&returns,
 	)
 	return returns
@@ -223,6 +271,17 @@ func (j *jsiiProxy_GoogleCesAppEvaluationMetricsThresholdsOutputReference)SetCom
 	)
 }
 
+func (j *jsiiProxy_GoogleCesAppEvaluationMetricsThresholdsOutputReference)SetGoldenHallucinationMetricBehavior(val *string) {
+	if err := j.validateSetGoldenHallucinationMetricBehaviorParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"goldenHallucinationMetricBehavior",
+		val,
+	)
+}
+
 func (j *jsiiProxy_GoogleCesAppEvaluationMetricsThresholdsOutputReference)SetInternalValue(val *GoogleCesAppEvaluationMetricsThresholds) {
 	if err := j.validateSetInternalValueParameters(val); err != nil {
 		panic(err)
@@ -230,6 +289,17 @@ func (j *jsiiProxy_GoogleCesAppEvaluationMetricsThresholdsOutputReference)SetInt
 	_jsii_.Set(
 		j,
 		"internalValue",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleCesAppEvaluationMetricsThresholdsOutputReference)SetScenarioHallucinationMetricBehavior(val *string) {
+	if err := j.validateSetScenarioHallucinationMetricBehaviorParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"scenarioHallucinationMetricBehavior",
 		val,
 	)
 }
@@ -457,6 +527,22 @@ func (g *jsiiProxy_GoogleCesAppEvaluationMetricsThresholdsOutputReference) Reset
 	_jsii_.InvokeVoid(
 		g,
 		"resetGoldenEvaluationMetricsThresholds",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleCesAppEvaluationMetricsThresholdsOutputReference) ResetGoldenHallucinationMetricBehavior() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetGoldenHallucinationMetricBehavior",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleCesAppEvaluationMetricsThresholdsOutputReference) ResetScenarioHallucinationMetricBehavior() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetScenarioHallucinationMetricBehavior",
 		nil, // no parameters
 	)
 }

@@ -5,14 +5,14 @@ package googlememorystoreinstancedesiredusercreatedendpoints
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlememorystoreinstancedesiredusercreatedendpoints/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlememorystoreinstancedesiredusercreatedendpoints/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_memorystore_instance_desired_user_created_endpoints google_memorystore_instance_desired_user_created_endpoints}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_memorystore_instance_desired_user_created_endpoints google_memorystore_instance_desired_user_created_endpoints}.
 type GoogleMemorystoreInstanceDesiredUserCreatedEndpoints interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -510,7 +510,7 @@ func (j *jsiiProxy_GoogleMemorystoreInstanceDesiredUserCreatedEndpoints) Timeout
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_memorystore_instance_desired_user_created_endpoints google_memorystore_instance_desired_user_created_endpoints} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_memorystore_instance_desired_user_created_endpoints google_memorystore_instance_desired_user_created_endpoints} Resource.
 func NewGoogleMemorystoreInstanceDesiredUserCreatedEndpoints(scope constructs.Construct, id *string, config *GoogleMemorystoreInstanceDesiredUserCreatedEndpointsConfig) GoogleMemorystoreInstanceDesiredUserCreatedEndpoints {
 	_init_.Initialize()
 
@@ -528,7 +528,7 @@ func NewGoogleMemorystoreInstanceDesiredUserCreatedEndpoints(scope constructs.Co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_memorystore_instance_desired_user_created_endpoints google_memorystore_instance_desired_user_created_endpoints} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_memorystore_instance_desired_user_created_endpoints google_memorystore_instance_desired_user_created_endpoints} Resource.
 func NewGoogleMemorystoreInstanceDesiredUserCreatedEndpoints_Override(g GoogleMemorystoreInstanceDesiredUserCreatedEndpoints, scope constructs.Construct, id *string, config *GoogleMemorystoreInstanceDesiredUserCreatedEndpointsConfig) {
 	_init_.Initialize()
 

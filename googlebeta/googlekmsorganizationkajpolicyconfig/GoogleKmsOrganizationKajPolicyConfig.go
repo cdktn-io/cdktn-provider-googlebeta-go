@@ -5,14 +5,14 @@ package googlekmsorganizationkajpolicyconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlekmsorganizationkajpolicyconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlekmsorganizationkajpolicyconfig/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_kms_organization_kaj_policy_config google_kms_organization_kaj_policy_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_kms_organization_kaj_policy_config google_kms_organization_kaj_policy_config}.
 type GoogleKmsOrganizationKajPolicyConfig interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -439,7 +439,7 @@ func (j *jsiiProxy_GoogleKmsOrganizationKajPolicyConfig) TimeoutsInput() interfa
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_kms_organization_kaj_policy_config google_kms_organization_kaj_policy_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_kms_organization_kaj_policy_config google_kms_organization_kaj_policy_config} Resource.
 func NewGoogleKmsOrganizationKajPolicyConfig(scope constructs.Construct, id *string, config *GoogleKmsOrganizationKajPolicyConfigConfig) GoogleKmsOrganizationKajPolicyConfig {
 	_init_.Initialize()
 
@@ -457,7 +457,7 @@ func NewGoogleKmsOrganizationKajPolicyConfig(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_kms_organization_kaj_policy_config google_kms_organization_kaj_policy_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_kms_organization_kaj_policy_config google_kms_organization_kaj_policy_config} Resource.
 func NewGoogleKmsOrganizationKajPolicyConfig_Override(g GoogleKmsOrganizationKajPolicyConfig, scope constructs.Construct, id *string, config *GoogleKmsOrganizationKajPolicyConfigConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package googlecomputeregiontargettcpproxy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeregiontargettcpproxy/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeregiontargettcpproxy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_target_tcp_proxy google_compute_region_target_tcp_proxy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_target_tcp_proxy google_compute_region_target_tcp_proxy}.
 type GoogleComputeRegionTargetTcpProxy interface {
 	cdktn.TerraformResource
 	BackendService() *string
@@ -640,7 +640,7 @@ func (j *jsiiProxy_GoogleComputeRegionTargetTcpProxy) TimeoutsInput() interface{
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_target_tcp_proxy google_compute_region_target_tcp_proxy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_target_tcp_proxy google_compute_region_target_tcp_proxy} Resource.
 func NewGoogleComputeRegionTargetTcpProxy(scope constructs.Construct, id *string, config *GoogleComputeRegionTargetTcpProxyConfig) GoogleComputeRegionTargetTcpProxy {
 	_init_.Initialize()
 
@@ -658,7 +658,7 @@ func NewGoogleComputeRegionTargetTcpProxy(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_target_tcp_proxy google_compute_region_target_tcp_proxy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_target_tcp_proxy google_compute_region_target_tcp_proxy} Resource.
 func NewGoogleComputeRegionTargetTcpProxy_Override(g GoogleComputeRegionTargetTcpProxy, scope constructs.Construct, id *string, config *GoogleComputeRegionTargetTcpProxyConfig) {
 	_init_.Initialize()
 

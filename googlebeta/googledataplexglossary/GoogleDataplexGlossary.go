@@ -5,14 +5,14 @@ package googledataplexglossary
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledataplexglossary/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataplexglossary/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataplex_glossary google_dataplex_glossary}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dataplex_glossary google_dataplex_glossary}.
 type GoogleDataplexGlossary interface {
 	cdktn.TerraformResource
 	CategoryCount() *float64
@@ -646,7 +646,7 @@ func (j *jsiiProxy_GoogleDataplexGlossary) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataplex_glossary google_dataplex_glossary} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dataplex_glossary google_dataplex_glossary} Resource.
 func NewGoogleDataplexGlossary(scope constructs.Construct, id *string, config *GoogleDataplexGlossaryConfig) GoogleDataplexGlossary {
 	_init_.Initialize()
 
@@ -664,7 +664,7 @@ func NewGoogleDataplexGlossary(scope constructs.Construct, id *string, config *G
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataplex_glossary google_dataplex_glossary} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dataplex_glossary google_dataplex_glossary} Resource.
 func NewGoogleDataplexGlossary_Override(g GoogleDataplexGlossary, scope constructs.Construct, id *string, config *GoogleDataplexGlossaryConfig) {
 	_init_.Initialize()
 

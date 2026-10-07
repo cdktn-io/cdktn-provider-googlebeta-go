@@ -5,14 +5,14 @@ package datagooglenetworkmanagementconnectivitytestrun
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagooglenetworkmanagementconnectivitytestrun/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagooglenetworkmanagementconnectivitytestrun/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_network_management_connectivity_test_run google_network_management_connectivity_test_run}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_network_management_connectivity_test_run google_network_management_connectivity_test_run}.
 type DataGoogleNetworkManagementConnectivityTestRun interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -345,7 +345,7 @@ func (j *jsiiProxy_DataGoogleNetworkManagementConnectivityTestRun) TerraformReso
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_network_management_connectivity_test_run google_network_management_connectivity_test_run} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_network_management_connectivity_test_run google_network_management_connectivity_test_run} Data Source.
 func NewDataGoogleNetworkManagementConnectivityTestRun(scope constructs.Construct, id *string, config *DataGoogleNetworkManagementConnectivityTestRunConfig) DataGoogleNetworkManagementConnectivityTestRun {
 	_init_.Initialize()
 
@@ -363,7 +363,7 @@ func NewDataGoogleNetworkManagementConnectivityTestRun(scope constructs.Construc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_network_management_connectivity_test_run google_network_management_connectivity_test_run} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_network_management_connectivity_test_run google_network_management_connectivity_test_run} Data Source.
 func NewDataGoogleNetworkManagementConnectivityTestRun_Override(d DataGoogleNetworkManagementConnectivityTestRun, scope constructs.Construct, id *string, config *DataGoogleNetworkManagementConnectivityTestRunConfig) {
 	_init_.Initialize()
 

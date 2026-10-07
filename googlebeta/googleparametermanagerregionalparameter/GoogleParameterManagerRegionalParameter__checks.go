@@ -482,6 +482,14 @@ func (j *jsiiProxy_GoogleParameterManagerRegionalParameter) validateSetProvision
 	return nil
 }
 
+func (j *jsiiProxy_GoogleParameterManagerRegionalParameter) validateSetTagsParameters(val *map[string]*string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func validateNewGoogleParameterManagerRegionalParameterParameters(scope constructs.Construct, id *string, config *GoogleParameterManagerRegionalParameterConfig) error {
 	if scope == nil {
 		return fmt.Errorf("parameter scope is required, but nil was provided")

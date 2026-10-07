@@ -5,9 +5,9 @@ package datagooglesecretmanagerregionalsecrets
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagooglesecretmanagerregionalsecrets/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagooglesecretmanagerregionalsecrets/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -46,6 +46,7 @@ type DataGoogleSecretManagerRegionalSecretsSecretsOutputReference interface {
 	Project() *string
 	Rotation() DataGoogleSecretManagerRegionalSecretsSecretsRotationList
 	SecretId() *string
+	SecretType() *string
 	Tags() cdktn.StringMap
 	// Experimental.
 	TerraformAttribute() *string
@@ -284,6 +285,16 @@ func (j *jsiiProxy_DataGoogleSecretManagerRegionalSecretsSecretsOutputReference)
 	_jsii_.Get(
 		j,
 		"secretId",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleSecretManagerRegionalSecretsSecretsOutputReference) SecretType() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"secretType",
 		&returns,
 	)
 	return returns

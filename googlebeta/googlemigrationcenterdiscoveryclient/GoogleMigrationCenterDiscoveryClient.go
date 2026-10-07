@@ -5,14 +5,14 @@ package googlemigrationcenterdiscoveryclient
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemigrationcenterdiscoveryclient/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemigrationcenterdiscoveryclient/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_migration_center_discovery_client google_migration_center_discovery_client}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_migration_center_discovery_client google_migration_center_discovery_client}.
 type GoogleMigrationCenterDiscoveryClient interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -762,7 +762,7 @@ func (j *jsiiProxy_GoogleMigrationCenterDiscoveryClient) Version() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_migration_center_discovery_client google_migration_center_discovery_client} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_migration_center_discovery_client google_migration_center_discovery_client} Resource.
 func NewGoogleMigrationCenterDiscoveryClient(scope constructs.Construct, id *string, config *GoogleMigrationCenterDiscoveryClientConfig) GoogleMigrationCenterDiscoveryClient {
 	_init_.Initialize()
 
@@ -780,7 +780,7 @@ func NewGoogleMigrationCenterDiscoveryClient(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_migration_center_discovery_client google_migration_center_discovery_client} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_migration_center_discovery_client google_migration_center_discovery_client} Resource.
 func NewGoogleMigrationCenterDiscoveryClient_Override(g GoogleMigrationCenterDiscoveryClient, scope constructs.Construct, id *string, config *GoogleMigrationCenterDiscoveryClientConfig) {
 	_init_.Initialize()
 

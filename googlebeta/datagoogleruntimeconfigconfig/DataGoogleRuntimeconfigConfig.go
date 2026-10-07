@@ -5,14 +5,14 @@ package datagoogleruntimeconfigconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoogleruntimeconfigconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagoogleruntimeconfigconfig/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_runtimeconfig_config google_runtimeconfig_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_runtimeconfig_config google_runtimeconfig_config}.
 type DataGoogleRuntimeconfigConfig interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -356,7 +356,7 @@ func (j *jsiiProxy_DataGoogleRuntimeconfigConfig) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_runtimeconfig_config google_runtimeconfig_config} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_runtimeconfig_config google_runtimeconfig_config} Data Source.
 func NewDataGoogleRuntimeconfigConfig(scope constructs.Construct, id *string, config *DataGoogleRuntimeconfigConfigConfig) DataGoogleRuntimeconfigConfig {
 	_init_.Initialize()
 
@@ -374,7 +374,7 @@ func NewDataGoogleRuntimeconfigConfig(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_runtimeconfig_config google_runtimeconfig_config} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_runtimeconfig_config google_runtimeconfig_config} Data Source.
 func NewDataGoogleRuntimeconfigConfig_Override(d DataGoogleRuntimeconfigConfig, scope constructs.Construct, id *string, config *DataGoogleRuntimeconfigConfigConfig) {
 	_init_.Initialize()
 

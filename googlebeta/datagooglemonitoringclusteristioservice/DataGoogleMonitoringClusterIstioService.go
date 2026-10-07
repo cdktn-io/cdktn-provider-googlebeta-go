@@ -5,14 +5,14 @@ package datagooglemonitoringclusteristioservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagooglemonitoringclusteristioservice/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagooglemonitoringclusteristioservice/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_monitoring_cluster_istio_service google_monitoring_cluster_istio_service}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_monitoring_cluster_istio_service google_monitoring_cluster_istio_service}.
 type DataGoogleMonitoringClusterIstioService interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -469,7 +469,7 @@ func (j *jsiiProxy_DataGoogleMonitoringClusterIstioService) UserLabels() cdktn.S
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_monitoring_cluster_istio_service google_monitoring_cluster_istio_service} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_monitoring_cluster_istio_service google_monitoring_cluster_istio_service} Data Source.
 func NewDataGoogleMonitoringClusterIstioService(scope constructs.Construct, id *string, config *DataGoogleMonitoringClusterIstioServiceConfig) DataGoogleMonitoringClusterIstioService {
 	_init_.Initialize()
 
@@ -487,7 +487,7 @@ func NewDataGoogleMonitoringClusterIstioService(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_monitoring_cluster_istio_service google_monitoring_cluster_istio_service} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_monitoring_cluster_istio_service google_monitoring_cluster_istio_service} Data Source.
 func NewDataGoogleMonitoringClusterIstioService_Override(d DataGoogleMonitoringClusterIstioService, scope constructs.Construct, id *string, config *DataGoogleMonitoringClusterIstioServiceConfig) {
 	_init_.Initialize()
 

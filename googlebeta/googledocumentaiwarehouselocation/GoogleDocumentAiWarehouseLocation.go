@@ -5,14 +5,14 @@ package googledocumentaiwarehouselocation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledocumentaiwarehouselocation/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledocumentaiwarehouselocation/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_document_ai_warehouse_location google_document_ai_warehouse_location}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_document_ai_warehouse_location google_document_ai_warehouse_location}.
 type GoogleDocumentAiWarehouseLocation interface {
 	cdktn.TerraformResource
 	AccessControlMode() *string
@@ -532,7 +532,7 @@ func (j *jsiiProxy_GoogleDocumentAiWarehouseLocation) TimeoutsInput() interface{
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_document_ai_warehouse_location google_document_ai_warehouse_location} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_document_ai_warehouse_location google_document_ai_warehouse_location} Resource.
 func NewGoogleDocumentAiWarehouseLocation(scope constructs.Construct, id *string, config *GoogleDocumentAiWarehouseLocationConfig) GoogleDocumentAiWarehouseLocation {
 	_init_.Initialize()
 
@@ -550,7 +550,7 @@ func NewGoogleDocumentAiWarehouseLocation(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_document_ai_warehouse_location google_document_ai_warehouse_location} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_document_ai_warehouse_location google_document_ai_warehouse_location} Resource.
 func NewGoogleDocumentAiWarehouseLocation_Override(g GoogleDocumentAiWarehouseLocation, scope constructs.Construct, id *string, config *GoogleDocumentAiWarehouseLocationConfig) {
 	_init_.Initialize()
 

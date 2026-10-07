@@ -5,14 +5,14 @@ package googleapigeedatacollector
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleapigeedatacollector/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleapigeedatacollector/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_data_collector google_apigee_data_collector}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_data_collector google_apigee_data_collector}.
 type GoogleApigeeDataCollector interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -542,7 +542,7 @@ func (j *jsiiProxy_GoogleApigeeDataCollector) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_data_collector google_apigee_data_collector} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_data_collector google_apigee_data_collector} Resource.
 func NewGoogleApigeeDataCollector(scope constructs.Construct, id *string, config *GoogleApigeeDataCollectorConfig) GoogleApigeeDataCollector {
 	_init_.Initialize()
 
@@ -560,7 +560,7 @@ func NewGoogleApigeeDataCollector(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_data_collector google_apigee_data_collector} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_data_collector google_apigee_data_collector} Resource.
 func NewGoogleApigeeDataCollector_Override(g GoogleApigeeDataCollector, scope constructs.Construct, id *string, config *GoogleApigeeDataCollectorConfig) {
 	_init_.Initialize()
 

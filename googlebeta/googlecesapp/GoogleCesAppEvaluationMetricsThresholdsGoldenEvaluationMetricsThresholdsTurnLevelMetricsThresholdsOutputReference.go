@@ -5,9 +5,9 @@ package googlecesapp
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesapp/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesapp/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -35,6 +35,9 @@ type GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsTur
 	OverallToolInvocationCorrectnessThreshold() *float64
 	SetOverallToolInvocationCorrectnessThreshold(val *float64)
 	OverallToolInvocationCorrectnessThresholdInput() *float64
+	SemanticSimilarityChannel() *string
+	SetSemanticSimilarityChannel(val *string)
+	SemanticSimilarityChannelInput() *string
 	SemanticSimilaritySuccessThreshold() *float64
 	SetSemanticSimilaritySuccessThreshold(val *float64)
 	SemanticSimilaritySuccessThresholdInput() *float64
@@ -71,6 +74,7 @@ type GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsTur
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetOverallToolInvocationCorrectnessThreshold()
+	ResetSemanticSimilarityChannel()
 	ResetSemanticSimilaritySuccessThreshold()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -152,6 +156,26 @@ func (j *jsiiProxy_GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetric
 	_jsii_.Get(
 		j,
 		"overallToolInvocationCorrectnessThresholdInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsTurnLevelMetricsThresholdsOutputReference) SemanticSimilarityChannel() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"semanticSimilarityChannel",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsTurnLevelMetricsThresholdsOutputReference) SemanticSimilarityChannelInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"semanticSimilarityChannelInput",
 		&returns,
 	)
 	return returns
@@ -265,6 +289,17 @@ func (j *jsiiProxy_GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetric
 	_jsii_.Set(
 		j,
 		"overallToolInvocationCorrectnessThreshold",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsTurnLevelMetricsThresholdsOutputReference)SetSemanticSimilarityChannel(val *string) {
+	if err := j.validateSetSemanticSimilarityChannelParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"semanticSimilarityChannel",
 		val,
 	)
 }
@@ -492,6 +527,14 @@ func (g *jsiiProxy_GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetric
 	_jsii_.InvokeVoid(
 		g,
 		"resetOverallToolInvocationCorrectnessThreshold",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsTurnLevelMetricsThresholdsOutputReference) ResetSemanticSimilarityChannel() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetSemanticSimilarityChannel",
 		nil, // no parameters
 	)
 }

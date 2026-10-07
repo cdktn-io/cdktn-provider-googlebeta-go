@@ -5,14 +5,14 @@ package datagooglesqldatabaseinstances
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagooglesqldatabaseinstances/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagooglesqldatabaseinstances/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_sql_database_instances google_sql_database_instances}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_sql_database_instances google_sql_database_instances}.
 type DataGoogleSqlDatabaseInstances interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -442,7 +442,7 @@ func (j *jsiiProxy_DataGoogleSqlDatabaseInstances) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_sql_database_instances google_sql_database_instances} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_sql_database_instances google_sql_database_instances} Data Source.
 func NewDataGoogleSqlDatabaseInstances(scope constructs.Construct, id *string, config *DataGoogleSqlDatabaseInstancesConfig) DataGoogleSqlDatabaseInstances {
 	_init_.Initialize()
 
@@ -460,7 +460,7 @@ func NewDataGoogleSqlDatabaseInstances(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_sql_database_instances google_sql_database_instances} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_sql_database_instances google_sql_database_instances} Data Source.
 func NewDataGoogleSqlDatabaseInstances_Override(d DataGoogleSqlDatabaseInstances, scope constructs.Construct, id *string, config *DataGoogleSqlDatabaseInstancesConfig) {
 	_init_.Initialize()
 

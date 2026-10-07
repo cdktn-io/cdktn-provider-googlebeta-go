@@ -5,14 +5,14 @@ package googleiapagentregistrymcpserveriampolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiapagentregistrymcpserveriampolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleiapagentregistrymcpserveriampolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iap_agent_registry_mcp_server_iam_policy google_iap_agent_registry_mcp_server_iam_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iap_agent_registry_mcp_server_iam_policy google_iap_agent_registry_mcp_server_iam_policy}.
 type GoogleIapAgentRegistryMcpServerIamPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -473,7 +473,7 @@ func (j *jsiiProxy_GoogleIapAgentRegistryMcpServerIamPolicy) TerraformResourceTy
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iap_agent_registry_mcp_server_iam_policy google_iap_agent_registry_mcp_server_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iap_agent_registry_mcp_server_iam_policy google_iap_agent_registry_mcp_server_iam_policy} Resource.
 func NewGoogleIapAgentRegistryMcpServerIamPolicy(scope constructs.Construct, id *string, config *GoogleIapAgentRegistryMcpServerIamPolicyConfig) GoogleIapAgentRegistryMcpServerIamPolicy {
 	_init_.Initialize()
 
@@ -491,7 +491,7 @@ func NewGoogleIapAgentRegistryMcpServerIamPolicy(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iap_agent_registry_mcp_server_iam_policy google_iap_agent_registry_mcp_server_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iap_agent_registry_mcp_server_iam_policy google_iap_agent_registry_mcp_server_iam_policy} Resource.
 func NewGoogleIapAgentRegistryMcpServerIamPolicy_Override(g GoogleIapAgentRegistryMcpServerIamPolicy, scope constructs.Construct, id *string, config *GoogleIapAgentRegistryMcpServerIamPolicyConfig) {
 	_init_.Initialize()
 

@@ -5,9 +5,9 @@ package googlecesappversion
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -34,6 +34,7 @@ type GoogleCesAppVersionSnapshotGuardrailsCodeCallbackBeforeModelCallbackOutputR
 	Fqn() *string
 	InternalValue() *GoogleCesAppVersionSnapshotGuardrailsCodeCallbackBeforeModelCallback
 	SetInternalValue(val *GoogleCesAppVersionSnapshotGuardrailsCodeCallbackBeforeModelCallback)
+	ProactiveExecutionEnabled() cdktn.IResolvable
 	PythonCode() *string
 	// Experimental.
 	TerraformAttribute() *string
@@ -147,6 +148,16 @@ func (j *jsiiProxy_GoogleCesAppVersionSnapshotGuardrailsCodeCallbackBeforeModelC
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCesAppVersionSnapshotGuardrailsCodeCallbackBeforeModelCallbackOutputReference) ProactiveExecutionEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
+	_jsii_.Get(
+		j,
+		"proactiveExecutionEnabled",
 		&returns,
 	)
 	return returns

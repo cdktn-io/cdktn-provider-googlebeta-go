@@ -147,6 +147,10 @@ func (j *jsiiProxy_GoogleParameterManagerParameter) validateSetProvisionersParam
 	return nil
 }
 
+func (j *jsiiProxy_GoogleParameterManagerParameter) validateSetTagsParameters(val *map[string]*string) error {
+	return nil
+}
+
 func validateNewGoogleParameterManagerParameterParameters(scope constructs.Construct, id *string, config *GoogleParameterManagerParameterConfig) error {
 	return nil
 }

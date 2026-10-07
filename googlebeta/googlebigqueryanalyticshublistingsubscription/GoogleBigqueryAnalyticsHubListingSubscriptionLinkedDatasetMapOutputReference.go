@@ -5,9 +5,9 @@ package googlebigqueryanalyticshublistingsubscription
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebigqueryanalyticshublistingsubscription/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebigqueryanalyticshublistingsubscription/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -33,6 +33,7 @@ type GoogleBigqueryAnalyticsHubListingSubscriptionLinkedDatasetMapOutputReferenc
 	InternalValue() *GoogleBigqueryAnalyticsHubListingSubscriptionLinkedDatasetMap
 	SetInternalValue(val *GoogleBigqueryAnalyticsHubListingSubscriptionLinkedDatasetMap)
 	LinkedDataset() *string
+	LinkedPubsubSubscription() *string
 	Listing() *string
 	ResourceName() *string
 	// Experimental.
@@ -137,6 +138,16 @@ func (j *jsiiProxy_GoogleBigqueryAnalyticsHubListingSubscriptionLinkedDatasetMap
 	_jsii_.Get(
 		j,
 		"linkedDataset",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleBigqueryAnalyticsHubListingSubscriptionLinkedDatasetMapOutputReference) LinkedPubsubSubscription() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"linkedPubsubSubscription",
 		&returns,
 	)
 	return returns

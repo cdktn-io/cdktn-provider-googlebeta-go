@@ -5,14 +5,14 @@ package googleclouddeploytargetiammember
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleclouddeploytargetiammember/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleclouddeploytargetiammember/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_clouddeploy_target_iam_member google_clouddeploy_target_iam_member}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_clouddeploy_target_iam_member google_clouddeploy_target_iam_member}.
 type GoogleClouddeployTargetIamMember interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -520,7 +520,7 @@ func (j *jsiiProxy_GoogleClouddeployTargetIamMember) TerraformResourceType() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_clouddeploy_target_iam_member google_clouddeploy_target_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_clouddeploy_target_iam_member google_clouddeploy_target_iam_member} Resource.
 func NewGoogleClouddeployTargetIamMember(scope constructs.Construct, id *string, config *GoogleClouddeployTargetIamMemberConfig) GoogleClouddeployTargetIamMember {
 	_init_.Initialize()
 
@@ -538,7 +538,7 @@ func NewGoogleClouddeployTargetIamMember(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_clouddeploy_target_iam_member google_clouddeploy_target_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_clouddeploy_target_iam_member google_clouddeploy_target_iam_member} Resource.
 func NewGoogleClouddeployTargetIamMember_Override(g GoogleClouddeployTargetIamMember, scope constructs.Construct, id *string, config *GoogleClouddeployTargetIamMemberConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package googlechroniclesoarnetwork
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlechroniclesoarnetwork/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlechroniclesoarnetwork/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_chronicle_soar_network google_chronicle_soar_network}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_chronicle_soar_network google_chronicle_soar_network}.
 type GoogleChronicleSoarNetwork interface {
 	cdktn.TerraformResource
 	Address() *string
@@ -601,7 +601,7 @@ func (j *jsiiProxy_GoogleChronicleSoarNetwork) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_chronicle_soar_network google_chronicle_soar_network} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_chronicle_soar_network google_chronicle_soar_network} Resource.
 func NewGoogleChronicleSoarNetwork(scope constructs.Construct, id *string, config *GoogleChronicleSoarNetworkConfig) GoogleChronicleSoarNetwork {
 	_init_.Initialize()
 
@@ -619,7 +619,7 @@ func NewGoogleChronicleSoarNetwork(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_chronicle_soar_network google_chronicle_soar_network} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_chronicle_soar_network google_chronicle_soar_network} Resource.
 func NewGoogleChronicleSoarNetwork_Override(g GoogleChronicleSoarNetwork, scope constructs.Construct, id *string, config *GoogleChronicleSoarNetworkConfig) {
 	_init_.Initialize()
 

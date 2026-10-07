@@ -5,15 +5,16 @@ package googlecestool
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestool/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecestool/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type GoogleCesToolRemoteAgentToolOutputReference interface {
 	cdktn.ComplexObject
 	AgentCard() GoogleCesToolRemoteAgentToolAgentCardList
+	ApiAuthentication() GoogleCesToolRemoteAgentToolApiAuthenticationList
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -87,6 +88,16 @@ func (j *jsiiProxy_GoogleCesToolRemoteAgentToolOutputReference) AgentCard() Goog
 	_jsii_.Get(
 		j,
 		"agentCard",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCesToolRemoteAgentToolOutputReference) ApiAuthentication() GoogleCesToolRemoteAgentToolApiAuthenticationList {
+	var returns GoogleCesToolRemoteAgentToolApiAuthenticationList
+	_jsii_.Get(
+		j,
+		"apiAuthentication",
 		&returns,
 	)
 	return returns

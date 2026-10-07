@@ -5,14 +5,14 @@ package datagooglevmwareenginedatastore
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagooglevmwareenginedatastore/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagooglevmwareenginedatastore/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_vmwareengine_datastore google_vmwareengine_datastore}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_vmwareengine_datastore google_vmwareengine_datastore}.
 type DataGoogleVmwareengineDatastore interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -445,7 +445,7 @@ func (j *jsiiProxy_DataGoogleVmwareengineDatastore) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_vmwareengine_datastore google_vmwareengine_datastore} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_vmwareengine_datastore google_vmwareengine_datastore} Data Source.
 func NewDataGoogleVmwareengineDatastore(scope constructs.Construct, id *string, config *DataGoogleVmwareengineDatastoreConfig) DataGoogleVmwareengineDatastore {
 	_init_.Initialize()
 
@@ -463,7 +463,7 @@ func NewDataGoogleVmwareengineDatastore(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_vmwareengine_datastore google_vmwareengine_datastore} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_vmwareengine_datastore google_vmwareengine_datastore} Data Source.
 func NewDataGoogleVmwareengineDatastore_Override(d DataGoogleVmwareengineDatastore, scope constructs.Construct, id *string, config *DataGoogleVmwareengineDatastoreConfig) {
 	_init_.Initialize()
 

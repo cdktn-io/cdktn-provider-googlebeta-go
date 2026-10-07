@@ -5,14 +5,14 @@ package googledatacatalogtaxonomy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatacatalogtaxonomy/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatacatalogtaxonomy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_data_catalog_taxonomy google_data_catalog_taxonomy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_data_catalog_taxonomy google_data_catalog_taxonomy}.
 type GoogleDataCatalogTaxonomy interface {
 	cdktn.TerraformResource
 	ActivatedPolicyTypes() *[]*string
@@ -546,7 +546,7 @@ func (j *jsiiProxy_GoogleDataCatalogTaxonomy) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_data_catalog_taxonomy google_data_catalog_taxonomy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_data_catalog_taxonomy google_data_catalog_taxonomy} Resource.
 func NewGoogleDataCatalogTaxonomy(scope constructs.Construct, id *string, config *GoogleDataCatalogTaxonomyConfig) GoogleDataCatalogTaxonomy {
 	_init_.Initialize()
 
@@ -564,7 +564,7 @@ func NewGoogleDataCatalogTaxonomy(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_data_catalog_taxonomy google_data_catalog_taxonomy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_data_catalog_taxonomy google_data_catalog_taxonomy} Resource.
 func NewGoogleDataCatalogTaxonomy_Override(g GoogleDataCatalogTaxonomy, scope constructs.Construct, id *string, config *GoogleDataCatalogTaxonomyConfig) {
 	_init_.Initialize()
 

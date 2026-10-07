@@ -5,14 +5,14 @@ package googlecestoolset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecestoolset/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecestoolset/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_toolset google_ces_toolset}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_toolset google_ces_toolset}.
 type GoogleCesToolset interface {
 	cdktn.TerraformResource
 	App() *string
@@ -745,7 +745,7 @@ func (j *jsiiProxy_GoogleCesToolset) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_toolset google_ces_toolset} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_toolset google_ces_toolset} Resource.
 func NewGoogleCesToolset(scope constructs.Construct, id *string, config *GoogleCesToolsetConfig) GoogleCesToolset {
 	_init_.Initialize()
 
@@ -763,7 +763,7 @@ func NewGoogleCesToolset(scope constructs.Construct, id *string, config *GoogleC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_toolset google_ces_toolset} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_toolset google_ces_toolset} Resource.
 func NewGoogleCesToolset_Override(g GoogleCesToolset, scope constructs.Construct, id *string, config *GoogleCesToolsetConfig) {
 	_init_.Initialize()
 

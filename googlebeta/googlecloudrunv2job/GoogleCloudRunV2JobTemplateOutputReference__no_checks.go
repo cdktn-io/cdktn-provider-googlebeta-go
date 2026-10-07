@@ -67,6 +67,10 @@ func (j *jsiiProxy_GoogleCloudRunV2JobTemplateOutputReference) validateSetComple
 	return nil
 }
 
+func (j *jsiiProxy_GoogleCloudRunV2JobTemplateOutputReference) validateSetDelayExecutionParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleCloudRunV2JobTemplateOutputReference) validateSetInternalValueParameters(val *GoogleCloudRunV2JobTemplate) error {
 	return nil
 }

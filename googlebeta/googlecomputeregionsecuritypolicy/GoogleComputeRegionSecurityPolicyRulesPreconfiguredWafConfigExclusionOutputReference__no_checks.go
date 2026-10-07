@@ -47,6 +47,10 @@ func (g *jsiiProxy_GoogleComputeRegionSecurityPolicyRulesPreconfiguredWafConfigE
 	return nil
 }
 
+func (g *jsiiProxy_GoogleComputeRegionSecurityPolicyRulesPreconfiguredWafConfigExclusionOutputReference) validatePutRequestBodyParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleComputeRegionSecurityPolicyRulesPreconfiguredWafConfigExclusionOutputReference) validatePutRequestCookieParameters(value interface{}) error {
 	return nil
 }

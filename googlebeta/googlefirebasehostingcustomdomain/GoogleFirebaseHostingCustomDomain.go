@@ -5,14 +5,14 @@ package googlefirebasehostingcustomdomain
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlefirebasehostingcustomdomain/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlefirebasehostingcustomdomain/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_firebase_hosting_custom_domain google_firebase_hosting_custom_domain}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_firebase_hosting_custom_domain google_firebase_hosting_custom_domain}.
 type GoogleFirebaseHostingCustomDomain interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -690,7 +690,7 @@ func (j *jsiiProxy_GoogleFirebaseHostingCustomDomain) WaitDnsVerificationInput()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_firebase_hosting_custom_domain google_firebase_hosting_custom_domain} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_firebase_hosting_custom_domain google_firebase_hosting_custom_domain} Resource.
 func NewGoogleFirebaseHostingCustomDomain(scope constructs.Construct, id *string, config *GoogleFirebaseHostingCustomDomainConfig) GoogleFirebaseHostingCustomDomain {
 	_init_.Initialize()
 
@@ -708,7 +708,7 @@ func NewGoogleFirebaseHostingCustomDomain(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_firebase_hosting_custom_domain google_firebase_hosting_custom_domain} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_firebase_hosting_custom_domain google_firebase_hosting_custom_domain} Resource.
 func NewGoogleFirebaseHostingCustomDomain_Override(g GoogleFirebaseHostingCustomDomain, scope constructs.Construct, id *string, config *GoogleFirebaseHostingCustomDomainConfig) {
 	_init_.Initialize()
 

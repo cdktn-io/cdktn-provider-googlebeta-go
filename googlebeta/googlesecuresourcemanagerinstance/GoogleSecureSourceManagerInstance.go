@@ -5,14 +5,14 @@ package googlesecuresourcemanagerinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlesecuresourcemanagerinstance/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlesecuresourcemanagerinstance/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_secure_source_manager_instance google_secure_source_manager_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_secure_source_manager_instance google_secure_source_manager_instance}.
 type GoogleSecureSourceManagerInstance interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -670,7 +670,7 @@ func (j *jsiiProxy_GoogleSecureSourceManagerInstance) WorkforceIdentityFederatio
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_secure_source_manager_instance google_secure_source_manager_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_secure_source_manager_instance google_secure_source_manager_instance} Resource.
 func NewGoogleSecureSourceManagerInstance(scope constructs.Construct, id *string, config *GoogleSecureSourceManagerInstanceConfig) GoogleSecureSourceManagerInstance {
 	_init_.Initialize()
 
@@ -688,7 +688,7 @@ func NewGoogleSecureSourceManagerInstance(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_secure_source_manager_instance google_secure_source_manager_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_secure_source_manager_instance google_secure_source_manager_instance} Resource.
 func NewGoogleSecureSourceManagerInstance_Override(g GoogleSecureSourceManagerInstance, scope constructs.Construct, id *string, config *GoogleSecureSourceManagerInstanceConfig) {
 	_init_.Initialize()
 

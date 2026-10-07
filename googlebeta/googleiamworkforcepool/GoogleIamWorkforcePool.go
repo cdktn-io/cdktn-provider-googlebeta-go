@@ -5,14 +5,14 @@ package googleiamworkforcepool
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiamworkforcepool/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleiamworkforcepool/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iam_workforce_pool google_iam_workforce_pool}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iam_workforce_pool google_iam_workforce_pool}.
 type GoogleIamWorkforcePool interface {
 	cdktn.TerraformResource
 	AccessRestrictions() GoogleIamWorkforcePoolAccessRestrictionsOutputReference
@@ -627,7 +627,7 @@ func (j *jsiiProxy_GoogleIamWorkforcePool) WorkforcePoolIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iam_workforce_pool google_iam_workforce_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iam_workforce_pool google_iam_workforce_pool} Resource.
 func NewGoogleIamWorkforcePool(scope constructs.Construct, id *string, config *GoogleIamWorkforcePoolConfig) GoogleIamWorkforcePool {
 	_init_.Initialize()
 
@@ -645,7 +645,7 @@ func NewGoogleIamWorkforcePool(scope constructs.Construct, id *string, config *G
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iam_workforce_pool google_iam_workforce_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iam_workforce_pool google_iam_workforce_pool} Resource.
 func NewGoogleIamWorkforcePool_Override(g GoogleIamWorkforcePool, scope constructs.Construct, id *string, config *GoogleIamWorkforcePoolConfig) {
 	_init_.Initialize()
 

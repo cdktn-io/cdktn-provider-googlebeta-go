@@ -5,14 +5,14 @@ package googlecomputeglobalvmextensionpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeglobalvmextensionpolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeglobalvmextensionpolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_global_vm_extension_policy google_compute_global_vm_extension_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_global_vm_extension_policy google_compute_global_vm_extension_policy}.
 type GoogleComputeGlobalVmExtensionPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -623,7 +623,7 @@ func (j *jsiiProxy_GoogleComputeGlobalVmExtensionPolicy) UpdateTimestamp() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_global_vm_extension_policy google_compute_global_vm_extension_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_global_vm_extension_policy google_compute_global_vm_extension_policy} Resource.
 func NewGoogleComputeGlobalVmExtensionPolicy(scope constructs.Construct, id *string, config *GoogleComputeGlobalVmExtensionPolicyConfig) GoogleComputeGlobalVmExtensionPolicy {
 	_init_.Initialize()
 
@@ -641,7 +641,7 @@ func NewGoogleComputeGlobalVmExtensionPolicy(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_global_vm_extension_policy google_compute_global_vm_extension_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_global_vm_extension_policy google_compute_global_vm_extension_policy} Resource.
 func NewGoogleComputeGlobalVmExtensionPolicy_Override(g GoogleComputeGlobalVmExtensionPolicy, scope constructs.Construct, id *string, config *GoogleComputeGlobalVmExtensionPolicyConfig) {
 	_init_.Initialize()
 

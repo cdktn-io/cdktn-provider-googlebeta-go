@@ -5,14 +5,14 @@ package datagoogleiamtestablepermissions
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoogleiamtestablepermissions/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagoogleiamtestablepermissions/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_iam_testable_permissions google_iam_testable_permissions}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_iam_testable_permissions google_iam_testable_permissions}.
 type DataGoogleIamTestablePermissions interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -369,7 +369,7 @@ func (j *jsiiProxy_DataGoogleIamTestablePermissions) TerraformResourceType() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_iam_testable_permissions google_iam_testable_permissions} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_iam_testable_permissions google_iam_testable_permissions} Data Source.
 func NewDataGoogleIamTestablePermissions(scope constructs.Construct, id *string, config *DataGoogleIamTestablePermissionsConfig) DataGoogleIamTestablePermissions {
 	_init_.Initialize()
 
@@ -387,7 +387,7 @@ func NewDataGoogleIamTestablePermissions(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_iam_testable_permissions google_iam_testable_permissions} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_iam_testable_permissions google_iam_testable_permissions} Data Source.
 func NewDataGoogleIamTestablePermissions_Override(d DataGoogleIamTestablePermissions, scope constructs.Construct, id *string, config *DataGoogleIamTestablePermissionsConfig) {
 	_init_.Initialize()
 

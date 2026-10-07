@@ -5,14 +5,14 @@ package googlediscoveryengineservingconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlediscoveryengineservingconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlediscoveryengineservingconfig/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_discovery_engine_serving_config google_discovery_engine_serving_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_discovery_engine_serving_config google_discovery_engine_serving_config}.
 type GoogleDiscoveryEngineServingConfig interface {
 	cdktn.TerraformResource
 	BoostControlIds() *[]*string
@@ -641,7 +641,7 @@ func (j *jsiiProxy_GoogleDiscoveryEngineServingConfig) TimeoutsInput() interface
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_discovery_engine_serving_config google_discovery_engine_serving_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_discovery_engine_serving_config google_discovery_engine_serving_config} Resource.
 func NewGoogleDiscoveryEngineServingConfig(scope constructs.Construct, id *string, config *GoogleDiscoveryEngineServingConfigConfig) GoogleDiscoveryEngineServingConfig {
 	_init_.Initialize()
 
@@ -659,7 +659,7 @@ func NewGoogleDiscoveryEngineServingConfig(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_discovery_engine_serving_config google_discovery_engine_serving_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_discovery_engine_serving_config google_discovery_engine_serving_config} Resource.
 func NewGoogleDiscoveryEngineServingConfig_Override(g GoogleDiscoveryEngineServingConfig, scope constructs.Construct, id *string, config *GoogleDiscoveryEngineServingConfigConfig) {
 	_init_.Initialize()
 

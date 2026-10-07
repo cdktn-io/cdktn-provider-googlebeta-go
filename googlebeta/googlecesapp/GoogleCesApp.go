@@ -5,14 +5,14 @@ package googlecesapp
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesapp/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesapp/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app google_ces_app}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app google_ces_app}.
 type GoogleCesApp interface {
 	cdktn.TerraformResource
 	AppId() *string
@@ -53,6 +53,8 @@ type GoogleCesApp interface {
 	DisplayName() *string
 	SetDisplayName(val *string)
 	DisplayNameInput() *string
+	ErrorHandlingSettings() GoogleCesAppErrorHandlingSettingsOutputReference
+	ErrorHandlingSettingsInput() *GoogleCesAppErrorHandlingSettings
 	Etag() *string
 	EvaluationMetricsThresholds() GoogleCesAppEvaluationMetricsThresholdsOutputReference
 	EvaluationMetricsThresholdsInput() *GoogleCesAppEvaluationMetricsThresholds
@@ -82,6 +84,9 @@ type GoogleCesApp interface {
 	Location() *string
 	SetLocation(val *string)
 	LocationInput() *string
+	Locked() interface{}
+	SetLocked(val interface{})
+	LockedInput() interface{}
 	LoggingSettings() GoogleCesAppLoggingSettingsOutputReference
 	LoggingSettingsInput() *GoogleCesAppLoggingSettings
 	Metadata() *map[string]*string
@@ -127,6 +132,8 @@ type GoogleCesApp interface {
 	UpdateTime() *string
 	VariableDeclarations() GoogleCesAppVariableDeclarationsList
 	VariableDeclarationsInput() interface{}
+	VpcScSettings() GoogleCesAppVpcScSettingsOutputReference
+	VpcScSettingsInput() *GoogleCesAppVpcScSettings
 	// Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
 	// Experimental.
 	AddMoveTarget(moveTarget *string)
@@ -210,6 +217,7 @@ type GoogleCesApp interface {
 	PutClientCertificateSettings(value *GoogleCesAppClientCertificateSettings)
 	PutDataStoreSettings(value *GoogleCesAppDataStoreSettings)
 	PutDefaultChannelProfile(value *GoogleCesAppDefaultChannelProfile)
+	PutErrorHandlingSettings(value *GoogleCesAppErrorHandlingSettings)
 	PutEvaluationMetricsThresholds(value *GoogleCesAppEvaluationMetricsThresholds)
 	PutLanguageSettings(value *GoogleCesAppLanguageSettings)
 	PutLoggingSettings(value *GoogleCesAppLoggingSettings)
@@ -217,6 +225,7 @@ type GoogleCesApp interface {
 	PutTimeouts(value *GoogleCesAppTimeouts)
 	PutTimeZoneSettings(value *GoogleCesAppTimeZoneSettings)
 	PutVariableDeclarations(value interface{})
+	PutVpcScSettings(value *GoogleCesAppVpcScSettings)
 	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
 	//
 	// Called by generated provider bindings when a versioned feature is
@@ -236,11 +245,13 @@ type GoogleCesApp interface {
 	ResetDefaultChannelProfile()
 	ResetDeletionPolicy()
 	ResetDescription()
+	ResetErrorHandlingSettings()
 	ResetEvaluationMetricsThresholds()
 	ResetGlobalInstruction()
 	ResetGuardrails()
 	ResetId()
 	ResetLanguageSettings()
+	ResetLocked()
 	ResetLoggingSettings()
 	ResetMetadata()
 	ResetModelSettings()
@@ -254,6 +265,7 @@ type GoogleCesApp interface {
 	ResetTimeZoneSettings()
 	ResetToolExecutionMode()
 	ResetVariableDeclarations()
+	ResetVpcScSettings()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
 	// Experimental.
@@ -511,6 +523,26 @@ func (j *jsiiProxy_GoogleCesApp) DisplayNameInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_GoogleCesApp) ErrorHandlingSettings() GoogleCesAppErrorHandlingSettingsOutputReference {
+	var returns GoogleCesAppErrorHandlingSettingsOutputReference
+	_jsii_.Get(
+		j,
+		"errorHandlingSettings",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCesApp) ErrorHandlingSettingsInput() *GoogleCesAppErrorHandlingSettings {
+	var returns *GoogleCesAppErrorHandlingSettings
+	_jsii_.Get(
+		j,
+		"errorHandlingSettingsInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleCesApp) Etag() *string {
 	var returns *string
 	_jsii_.Get(
@@ -676,6 +708,26 @@ func (j *jsiiProxy_GoogleCesApp) LocationInput() *string {
 	_jsii_.Get(
 		j,
 		"locationInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCesApp) Locked() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"locked",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCesApp) LockedInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"lockedInput",
 		&returns,
 	)
 	return returns
@@ -971,8 +1023,28 @@ func (j *jsiiProxy_GoogleCesApp) VariableDeclarationsInput() interface{} {
 	return returns
 }
 
+func (j *jsiiProxy_GoogleCesApp) VpcScSettings() GoogleCesAppVpcScSettingsOutputReference {
+	var returns GoogleCesAppVpcScSettingsOutputReference
+	_jsii_.Get(
+		j,
+		"vpcScSettings",
+		&returns,
+	)
+	return returns
+}
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app google_ces_app} Resource.
+func (j *jsiiProxy_GoogleCesApp) VpcScSettingsInput() *GoogleCesAppVpcScSettings {
+	var returns *GoogleCesAppVpcScSettings
+	_jsii_.Get(
+		j,
+		"vpcScSettingsInput",
+		&returns,
+	)
+	return returns
+}
+
+
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app google_ces_app} Resource.
 func NewGoogleCesApp(scope constructs.Construct, id *string, config *GoogleCesAppConfig) GoogleCesApp {
 	_init_.Initialize()
 
@@ -990,7 +1062,7 @@ func NewGoogleCesApp(scope constructs.Construct, id *string, config *GoogleCesAp
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_ces_app google_ces_app} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_app google_ces_app} Resource.
 func NewGoogleCesApp_Override(g GoogleCesApp, scope constructs.Construct, id *string, config *GoogleCesAppConfig) {
 	_init_.Initialize()
 
@@ -1134,6 +1206,17 @@ func (j *jsiiProxy_GoogleCesApp)SetLocation(val *string) {
 	_jsii_.Set(
 		j,
 		"location",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleCesApp)SetLocked(val interface{}) {
+	if err := j.validateSetLockedParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"locked",
 		val,
 	)
 }
@@ -1625,6 +1708,17 @@ func (g *jsiiProxy_GoogleCesApp) PutDefaultChannelProfile(value *GoogleCesAppDef
 	)
 }
 
+func (g *jsiiProxy_GoogleCesApp) PutErrorHandlingSettings(value *GoogleCesAppErrorHandlingSettings) {
+	if err := g.validatePutErrorHandlingSettingsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putErrorHandlingSettings",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleCesApp) PutEvaluationMetricsThresholds(value *GoogleCesAppEvaluationMetricsThresholds) {
 	if err := g.validatePutEvaluationMetricsThresholdsParameters(value); err != nil {
 		panic(err)
@@ -1702,6 +1796,17 @@ func (g *jsiiProxy_GoogleCesApp) PutVariableDeclarations(value interface{}) {
 	)
 }
 
+func (g *jsiiProxy_GoogleCesApp) PutVpcScSettings(value *GoogleCesAppVpcScSettings) {
+	if err := g.validatePutVpcScSettingsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putVpcScSettings",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleCesApp) RegisterProviderFeatureUsage(feature cdktn.ProviderFeature) {
 	if err := g.validateRegisterProviderFeatureUsageParameters(feature); err != nil {
 		panic(err)
@@ -1761,6 +1866,14 @@ func (g *jsiiProxy_GoogleCesApp) ResetDescription() {
 	)
 }
 
+func (g *jsiiProxy_GoogleCesApp) ResetErrorHandlingSettings() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetErrorHandlingSettings",
+		nil, // no parameters
+	)
+}
+
 func (g *jsiiProxy_GoogleCesApp) ResetEvaluationMetricsThresholds() {
 	_jsii_.InvokeVoid(
 		g,
@@ -1797,6 +1910,14 @@ func (g *jsiiProxy_GoogleCesApp) ResetLanguageSettings() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetLanguageSettings",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleCesApp) ResetLocked() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetLocked",
 		nil, // no parameters
 	)
 }
@@ -1885,6 +2006,14 @@ func (g *jsiiProxy_GoogleCesApp) ResetVariableDeclarations() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetVariableDeclarations",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleCesApp) ResetVpcScSettings() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetVpcScSettings",
 		nil, // no parameters
 	)
 }

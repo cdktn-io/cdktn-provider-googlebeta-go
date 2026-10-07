@@ -5,14 +5,14 @@ package datagooglecomputeaddresses
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagooglecomputeaddresses/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagooglecomputeaddresses/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_compute_addresses google_compute_addresses}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_compute_addresses google_compute_addresses}.
 type DataGoogleComputeAddresses interface {
 	cdktn.TerraformDataSource
 	Addresses() DataGoogleComputeAddressesAddressesList
@@ -370,7 +370,7 @@ func (j *jsiiProxy_DataGoogleComputeAddresses) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_compute_addresses google_compute_addresses} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_compute_addresses google_compute_addresses} Data Source.
 func NewDataGoogleComputeAddresses(scope constructs.Construct, id *string, config *DataGoogleComputeAddressesConfig) DataGoogleComputeAddresses {
 	_init_.Initialize()
 
@@ -388,7 +388,7 @@ func NewDataGoogleComputeAddresses(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_compute_addresses google_compute_addresses} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_compute_addresses google_compute_addresses} Data Source.
 func NewDataGoogleComputeAddresses_Override(d DataGoogleComputeAddresses, scope constructs.Construct, id *string, config *DataGoogleComputeAddressesConfig) {
 	_init_.Initialize()
 

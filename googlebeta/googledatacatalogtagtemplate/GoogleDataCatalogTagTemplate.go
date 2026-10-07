@@ -5,14 +5,14 @@ package googledatacatalogtagtemplate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatacatalogtagtemplate/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatacatalogtagtemplate/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_data_catalog_tag_template google_data_catalog_tag_template}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_data_catalog_tag_template google_data_catalog_tag_template}.
 type GoogleDataCatalogTagTemplate interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -569,7 +569,7 @@ func (j *jsiiProxy_GoogleDataCatalogTagTemplate) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_data_catalog_tag_template google_data_catalog_tag_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_data_catalog_tag_template google_data_catalog_tag_template} Resource.
 func NewGoogleDataCatalogTagTemplate(scope constructs.Construct, id *string, config *GoogleDataCatalogTagTemplateConfig) GoogleDataCatalogTagTemplate {
 	_init_.Initialize()
 
@@ -587,7 +587,7 @@ func NewGoogleDataCatalogTagTemplate(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_data_catalog_tag_template google_data_catalog_tag_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_data_catalog_tag_template google_data_catalog_tag_template} Resource.
 func NewGoogleDataCatalogTagTemplate_Override(g GoogleDataCatalogTagTemplate, scope constructs.Construct, id *string, config *GoogleDataCatalogTagTemplateConfig) {
 	_init_.Initialize()
 

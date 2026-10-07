@@ -75,6 +75,10 @@ func (j *jsiiProxy_GoogleComputeInstanceNetworkInterfaceOutputReference) validat
 	return nil
 }
 
+func (j *jsiiProxy_GoogleComputeInstanceNetworkInterfaceOutputReference) validateSetEnableVpcScopedDnsParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleComputeInstanceNetworkInterfaceOutputReference) validateSetIgmpQueryParameters(val *string) error {
 	return nil
 }

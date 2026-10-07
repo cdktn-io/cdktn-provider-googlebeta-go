@@ -5,14 +5,14 @@ package googlebiglakeicebergcatalogiampolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebiglakeicebergcatalogiampolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebiglakeicebergcatalogiampolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_biglake_iceberg_catalog_iam_policy google_biglake_iceberg_catalog_iam_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_biglake_iceberg_catalog_iam_policy google_biglake_iceberg_catalog_iam_policy}.
 type GoogleBiglakeIcebergCatalogIamPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -449,7 +449,7 @@ func (j *jsiiProxy_GoogleBiglakeIcebergCatalogIamPolicy) TerraformResourceType()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_biglake_iceberg_catalog_iam_policy google_biglake_iceberg_catalog_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_biglake_iceberg_catalog_iam_policy google_biglake_iceberg_catalog_iam_policy} Resource.
 func NewGoogleBiglakeIcebergCatalogIamPolicy(scope constructs.Construct, id *string, config *GoogleBiglakeIcebergCatalogIamPolicyConfig) GoogleBiglakeIcebergCatalogIamPolicy {
 	_init_.Initialize()
 
@@ -467,7 +467,7 @@ func NewGoogleBiglakeIcebergCatalogIamPolicy(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_biglake_iceberg_catalog_iam_policy google_biglake_iceberg_catalog_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_biglake_iceberg_catalog_iam_policy google_biglake_iceberg_catalog_iam_policy} Resource.
 func NewGoogleBiglakeIcebergCatalogIamPolicy_Override(g GoogleBiglakeIcebergCatalogIamPolicy, scope constructs.Construct, id *string, config *GoogleBiglakeIcebergCatalogIamPolicyConfig) {
 	_init_.Initialize()
 

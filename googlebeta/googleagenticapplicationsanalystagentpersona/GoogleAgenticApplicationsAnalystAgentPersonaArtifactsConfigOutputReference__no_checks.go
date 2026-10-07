@@ -51,6 +51,10 @@ func (g *jsiiProxy_GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigOu
 	return nil
 }
 
+func (g *jsiiProxy_GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigOutputReference) validatePutMethodologyExportOptionsParameters(value *GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptions) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigOutputReference) validatePutSlideGenerationOptionsParameters(value *GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigSlideGenerationOptions) error {
 	return nil
 }

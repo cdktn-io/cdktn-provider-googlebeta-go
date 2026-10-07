@@ -5,14 +5,14 @@ package googlesecretmanagerregionalsecret
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlesecretmanagerregionalsecret/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlesecretmanagerregionalsecret/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_secret_manager_regional_secret google_secret_manager_regional_secret}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_secret_manager_regional_secret google_secret_manager_regional_secret}.
 type GoogleSecretManagerRegionalSecret interface {
 	cdktn.TerraformResource
 	Annotations() *map[string]*string
@@ -90,6 +90,9 @@ type GoogleSecretManagerRegionalSecret interface {
 	SecretId() *string
 	SetSecretId(val *string)
 	SecretIdInput() *string
+	SecretType() *string
+	SetSecretType(val *string)
+	SecretTypeInput() *string
 	Tags() *map[string]*string
 	SetTags(val *map[string]*string)
 	TagsInput() *map[string]*string
@@ -221,6 +224,7 @@ type GoogleSecretManagerRegionalSecret interface {
 	ResetOverrideLogicalId()
 	ResetProject()
 	ResetRotation()
+	ResetSecretType()
 	ResetTags()
 	ResetTimeouts()
 	ResetTopics()
@@ -644,6 +648,26 @@ func (j *jsiiProxy_GoogleSecretManagerRegionalSecret) SecretIdInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_GoogleSecretManagerRegionalSecret) SecretType() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"secretType",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleSecretManagerRegionalSecret) SecretTypeInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"secretTypeInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleSecretManagerRegionalSecret) Tags() *map[string]*string {
 	var returns *map[string]*string
 	_jsii_.Get(
@@ -805,7 +829,7 @@ func (j *jsiiProxy_GoogleSecretManagerRegionalSecret) VersionDestroyTtlInput() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_secret_manager_regional_secret google_secret_manager_regional_secret} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_secret_manager_regional_secret google_secret_manager_regional_secret} Resource.
 func NewGoogleSecretManagerRegionalSecret(scope constructs.Construct, id *string, config *GoogleSecretManagerRegionalSecretConfig) GoogleSecretManagerRegionalSecret {
 	_init_.Initialize()
 
@@ -823,7 +847,7 @@ func NewGoogleSecretManagerRegionalSecret(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_secret_manager_regional_secret google_secret_manager_regional_secret} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_secret_manager_regional_secret google_secret_manager_regional_secret} Resource.
 func NewGoogleSecretManagerRegionalSecret_Override(g GoogleSecretManagerRegionalSecret, scope constructs.Construct, id *string, config *GoogleSecretManagerRegionalSecretConfig) {
 	_init_.Initialize()
 
@@ -997,6 +1021,17 @@ func (j *jsiiProxy_GoogleSecretManagerRegionalSecret)SetSecretId(val *string) {
 	_jsii_.Set(
 		j,
 		"secretId",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleSecretManagerRegionalSecret)SetSecretType(val *string) {
+	if err := j.validateSetSecretTypeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"secretType",
 		val,
 	)
 }
@@ -1545,6 +1580,14 @@ func (g *jsiiProxy_GoogleSecretManagerRegionalSecret) ResetRotation() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetRotation",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleSecretManagerRegionalSecret) ResetSecretType() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetSecretType",
 		nil, // no parameters
 	)
 }

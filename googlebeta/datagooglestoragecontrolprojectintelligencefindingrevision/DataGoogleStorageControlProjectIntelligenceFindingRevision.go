@@ -5,14 +5,14 @@ package datagooglestoragecontrolprojectintelligencefindingrevision
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagooglestoragecontrolprojectintelligencefindingrevision/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagooglestoragecontrolprojectintelligencefindingrevision/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_storage_control_project_intelligence_finding_revision google_storage_control_project_intelligence_finding_revision}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_storage_control_project_intelligence_finding_revision google_storage_control_project_intelligence_finding_revision}.
 type DataGoogleStorageControlProjectIntelligenceFindingRevision interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -414,7 +414,7 @@ func (j *jsiiProxy_DataGoogleStorageControlProjectIntelligenceFindingRevision) T
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_storage_control_project_intelligence_finding_revision google_storage_control_project_intelligence_finding_revision} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_storage_control_project_intelligence_finding_revision google_storage_control_project_intelligence_finding_revision} Data Source.
 func NewDataGoogleStorageControlProjectIntelligenceFindingRevision(scope constructs.Construct, id *string, config *DataGoogleStorageControlProjectIntelligenceFindingRevisionConfig) DataGoogleStorageControlProjectIntelligenceFindingRevision {
 	_init_.Initialize()
 
@@ -432,7 +432,7 @@ func NewDataGoogleStorageControlProjectIntelligenceFindingRevision(scope constru
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_storage_control_project_intelligence_finding_revision google_storage_control_project_intelligence_finding_revision} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_storage_control_project_intelligence_finding_revision google_storage_control_project_intelligence_finding_revision} Data Source.
 func NewDataGoogleStorageControlProjectIntelligenceFindingRevision_Override(d DataGoogleStorageControlProjectIntelligenceFindingRevision, scope constructs.Construct, id *string, config *DataGoogleStorageControlProjectIntelligenceFindingRevisionConfig) {
 	_init_.Initialize()
 

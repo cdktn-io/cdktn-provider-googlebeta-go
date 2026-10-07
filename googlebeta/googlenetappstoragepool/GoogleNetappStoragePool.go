@@ -5,14 +5,14 @@ package googlenetappstoragepool
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetappstoragepool/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetappstoragepool/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_netapp_storage_pool google_netapp_storage_pool}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_netapp_storage_pool google_netapp_storage_pool}.
 type GoogleNetappStoragePool interface {
 	cdktn.TerraformResource
 	ActiveDirectory() *string
@@ -117,9 +117,6 @@ type GoogleNetappStoragePool interface {
 	ReplicaZone() *string
 	SetReplicaZone(val *string)
 	ReplicaZoneInput() *string
-	ScaleTier() *string
-	SetScaleTier(val *string)
-	ScaleTierInput() *string
 	ScaleType() *string
 	SetScaleType(val *string)
 	ScaleTypeInput() *string
@@ -260,7 +257,6 @@ type GoogleNetappStoragePool interface {
 	ResetProject()
 	ResetQosType()
 	ResetReplicaZone()
-	ResetScaleTier()
 	ResetScaleType()
 	ResetTimeouts()
 	ResetTotalIops()
@@ -854,26 +850,6 @@ func (j *jsiiProxy_GoogleNetappStoragePool) ReplicaZoneInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_GoogleNetappStoragePool) ScaleTier() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"scaleTier",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_GoogleNetappStoragePool) ScaleTierInput() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"scaleTierInput",
-		&returns,
-	)
-	return returns
-}
-
 func (j *jsiiProxy_GoogleNetappStoragePool) ScaleType() *string {
 	var returns *string
 	_jsii_.Get(
@@ -1075,7 +1051,7 @@ func (j *jsiiProxy_GoogleNetappStoragePool) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_netapp_storage_pool google_netapp_storage_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_netapp_storage_pool google_netapp_storage_pool} Resource.
 func NewGoogleNetappStoragePool(scope constructs.Construct, id *string, config *GoogleNetappStoragePoolConfig) GoogleNetappStoragePool {
 	_init_.Initialize()
 
@@ -1093,7 +1069,7 @@ func NewGoogleNetappStoragePool(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_netapp_storage_pool google_netapp_storage_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_netapp_storage_pool google_netapp_storage_pool} Resource.
 func NewGoogleNetappStoragePool_Override(g GoogleNetappStoragePool, scope constructs.Construct, id *string, config *GoogleNetappStoragePoolConfig) {
 	_init_.Initialize()
 
@@ -1377,17 +1353,6 @@ func (j *jsiiProxy_GoogleNetappStoragePool)SetReplicaZone(val *string) {
 	_jsii_.Set(
 		j,
 		"replicaZone",
-		val,
-	)
-}
-
-func (j *jsiiProxy_GoogleNetappStoragePool)SetScaleTier(val *string) {
-	if err := j.validateSetScaleTierParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"scaleTier",
 		val,
 	)
 }
@@ -1973,14 +1938,6 @@ func (g *jsiiProxy_GoogleNetappStoragePool) ResetReplicaZone() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetReplicaZone",
-		nil, // no parameters
-	)
-}
-
-func (g *jsiiProxy_GoogleNetappStoragePool) ResetScaleTier() {
-	_jsii_.InvokeVoid(
-		g,
-		"resetScaleTier",
 		nil, // no parameters
 	)
 }

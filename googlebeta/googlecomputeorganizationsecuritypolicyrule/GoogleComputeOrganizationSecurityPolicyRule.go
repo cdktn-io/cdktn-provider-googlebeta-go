@@ -5,14 +5,14 @@ package googlecomputeorganizationsecuritypolicyrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeorganizationsecuritypolicyrule/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeorganizationsecuritypolicyrule/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_organization_security_policy_rule google_compute_organization_security_policy_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_organization_security_policy_rule google_compute_organization_security_policy_rule}.
 type GoogleComputeOrganizationSecurityPolicyRule interface {
 	cdktn.TerraformResource
 	Action() *string
@@ -724,7 +724,7 @@ func (j *jsiiProxy_GoogleComputeOrganizationSecurityPolicyRule) TimeoutsInput() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_organization_security_policy_rule google_compute_organization_security_policy_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_organization_security_policy_rule google_compute_organization_security_policy_rule} Resource.
 func NewGoogleComputeOrganizationSecurityPolicyRule(scope constructs.Construct, id *string, config *GoogleComputeOrganizationSecurityPolicyRuleConfig) GoogleComputeOrganizationSecurityPolicyRule {
 	_init_.Initialize()
 
@@ -742,7 +742,7 @@ func NewGoogleComputeOrganizationSecurityPolicyRule(scope constructs.Construct, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_organization_security_policy_rule google_compute_organization_security_policy_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_organization_security_policy_rule google_compute_organization_security_policy_rule} Resource.
 func NewGoogleComputeOrganizationSecurityPolicyRule_Override(g GoogleComputeOrganizationSecurityPolicyRule, scope constructs.Construct, id *string, config *GoogleComputeOrganizationSecurityPolicyRuleConfig) {
 	_init_.Initialize()
 

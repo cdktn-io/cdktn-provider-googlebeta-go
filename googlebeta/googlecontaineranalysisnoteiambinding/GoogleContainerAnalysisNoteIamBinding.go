@@ -5,14 +5,14 @@ package googlecontaineranalysisnoteiambinding
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecontaineranalysisnoteiambinding/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecontaineranalysisnoteiambinding/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_container_analysis_note_iam_binding google_container_analysis_note_iam_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_container_analysis_note_iam_binding google_container_analysis_note_iam_binding}.
 type GoogleContainerAnalysisNoteIamBinding interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -496,7 +496,7 @@ func (j *jsiiProxy_GoogleContainerAnalysisNoteIamBinding) TerraformResourceType(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_container_analysis_note_iam_binding google_container_analysis_note_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_container_analysis_note_iam_binding google_container_analysis_note_iam_binding} Resource.
 func NewGoogleContainerAnalysisNoteIamBinding(scope constructs.Construct, id *string, config *GoogleContainerAnalysisNoteIamBindingConfig) GoogleContainerAnalysisNoteIamBinding {
 	_init_.Initialize()
 
@@ -514,7 +514,7 @@ func NewGoogleContainerAnalysisNoteIamBinding(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_container_analysis_note_iam_binding google_container_analysis_note_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_container_analysis_note_iam_binding google_container_analysis_note_iam_binding} Resource.
 func NewGoogleContainerAnalysisNoteIamBinding_Override(g GoogleContainerAnalysisNoteIamBinding, scope constructs.Construct, id *string, config *GoogleContainerAnalysisNoteIamBindingConfig) {
 	_init_.Initialize()
 

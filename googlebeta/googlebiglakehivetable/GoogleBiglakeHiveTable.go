@@ -5,14 +5,14 @@ package googlebiglakehivetable
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebiglakehivetable/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebiglakehivetable/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_biglake_hive_table google_biglake_hive_table}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_biglake_hive_table google_biglake_hive_table}.
 type GoogleBiglakeHiveTable interface {
 	cdktn.TerraformResource
 	Catalog() *string
@@ -696,7 +696,7 @@ func (j *jsiiProxy_GoogleBiglakeHiveTable) ViewOriginalTextInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_biglake_hive_table google_biglake_hive_table} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_biglake_hive_table google_biglake_hive_table} Resource.
 func NewGoogleBiglakeHiveTable(scope constructs.Construct, id *string, config *GoogleBiglakeHiveTableConfig) GoogleBiglakeHiveTable {
 	_init_.Initialize()
 
@@ -714,7 +714,7 @@ func NewGoogleBiglakeHiveTable(scope constructs.Construct, id *string, config *G
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_biglake_hive_table google_biglake_hive_table} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_biglake_hive_table google_biglake_hive_table} Resource.
 func NewGoogleBiglakeHiveTable_Override(g GoogleBiglakeHiveTable, scope constructs.Construct, id *string, config *GoogleBiglakeHiveTableConfig) {
 	_init_.Initialize()
 

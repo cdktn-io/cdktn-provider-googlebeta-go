@@ -5,14 +5,14 @@ package googledataplexlakeiambinding
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledataplexlakeiambinding/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataplexlakeiambinding/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataplex_lake_iam_binding google_dataplex_lake_iam_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dataplex_lake_iam_binding google_dataplex_lake_iam_binding}.
 type GoogleDataplexLakeIamBinding interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -520,7 +520,7 @@ func (j *jsiiProxy_GoogleDataplexLakeIamBinding) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataplex_lake_iam_binding google_dataplex_lake_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dataplex_lake_iam_binding google_dataplex_lake_iam_binding} Resource.
 func NewGoogleDataplexLakeIamBinding(scope constructs.Construct, id *string, config *GoogleDataplexLakeIamBindingConfig) GoogleDataplexLakeIamBinding {
 	_init_.Initialize()
 
@@ -538,7 +538,7 @@ func NewGoogleDataplexLakeIamBinding(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_dataplex_lake_iam_binding google_dataplex_lake_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dataplex_lake_iam_binding google_dataplex_lake_iam_binding} Resource.
 func NewGoogleDataplexLakeIamBinding_Override(g GoogleDataplexLakeIamBinding, scope constructs.Construct, id *string, config *GoogleDataplexLakeIamBindingConfig) {
 	_init_.Initialize()
 

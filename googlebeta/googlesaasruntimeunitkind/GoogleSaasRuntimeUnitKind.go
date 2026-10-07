@@ -5,14 +5,14 @@ package googlesaasruntimeunitkind
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlesaasruntimeunitkind/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlesaasruntimeunitkind/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_saas_runtime_unit_kind google_saas_runtime_unit_kind}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_saas_runtime_unit_kind google_saas_runtime_unit_kind}.
 type GoogleSaasRuntimeUnitKind interface {
 	cdktn.TerraformResource
 	Annotations() *map[string]*string
@@ -741,7 +741,7 @@ func (j *jsiiProxy_GoogleSaasRuntimeUnitKind) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_saas_runtime_unit_kind google_saas_runtime_unit_kind} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_saas_runtime_unit_kind google_saas_runtime_unit_kind} Resource.
 func NewGoogleSaasRuntimeUnitKind(scope constructs.Construct, id *string, config *GoogleSaasRuntimeUnitKindConfig) GoogleSaasRuntimeUnitKind {
 	_init_.Initialize()
 
@@ -759,7 +759,7 @@ func NewGoogleSaasRuntimeUnitKind(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_saas_runtime_unit_kind google_saas_runtime_unit_kind} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_saas_runtime_unit_kind google_saas_runtime_unit_kind} Resource.
 func NewGoogleSaasRuntimeUnitKind_Override(g GoogleSaasRuntimeUnitKind, scope constructs.Construct, id *string, config *GoogleSaasRuntimeUnitKindConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package googlenetworkconnectivitygroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworkconnectivitygroup/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworkconnectivitygroup/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_connectivity_group google_network_connectivity_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_connectivity_group google_network_connectivity_group}.
 type GoogleNetworkConnectivityGroup interface {
 	cdktn.TerraformResource
 	AutoAccept() GoogleNetworkConnectivityGroupAutoAcceptOutputReference
@@ -635,7 +635,7 @@ func (j *jsiiProxy_GoogleNetworkConnectivityGroup) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_connectivity_group google_network_connectivity_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_connectivity_group google_network_connectivity_group} Resource.
 func NewGoogleNetworkConnectivityGroup(scope constructs.Construct, id *string, config *GoogleNetworkConnectivityGroupConfig) GoogleNetworkConnectivityGroup {
 	_init_.Initialize()
 
@@ -653,7 +653,7 @@ func NewGoogleNetworkConnectivityGroup(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_connectivity_group google_network_connectivity_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_connectivity_group google_network_connectivity_group} Resource.
 func NewGoogleNetworkConnectivityGroup_Override(g GoogleNetworkConnectivityGroup, scope constructs.Construct, id *string, config *GoogleNetworkConnectivityGroupConfig) {
 	_init_.Initialize()
 

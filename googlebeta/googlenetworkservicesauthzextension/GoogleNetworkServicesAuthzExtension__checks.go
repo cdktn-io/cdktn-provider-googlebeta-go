@@ -408,6 +408,14 @@ func (j *jsiiProxy_GoogleNetworkServicesAuthzExtension) validateSetFailOpenParam
 	return nil
 }
 
+func (j *jsiiProxy_GoogleNetworkServicesAuthzExtension) validateSetForwardAttributesParameters(val *[]*string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_GoogleNetworkServicesAuthzExtension) validateSetForwardHeadersParameters(val *[]*string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

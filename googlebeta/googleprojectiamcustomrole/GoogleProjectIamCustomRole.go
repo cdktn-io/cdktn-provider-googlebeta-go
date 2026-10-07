@@ -5,14 +5,14 @@ package googleprojectiamcustomrole
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleprojectiamcustomrole/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleprojectiamcustomrole/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_project_iam_custom_role google_project_iam_custom_role}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_project_iam_custom_role google_project_iam_custom_role}.
 type GoogleProjectIamCustomRole interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -555,7 +555,7 @@ func (j *jsiiProxy_GoogleProjectIamCustomRole) TitleInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_project_iam_custom_role google_project_iam_custom_role} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_project_iam_custom_role google_project_iam_custom_role} Resource.
 func NewGoogleProjectIamCustomRole(scope constructs.Construct, id *string, config *GoogleProjectIamCustomRoleConfig) GoogleProjectIamCustomRole {
 	_init_.Initialize()
 
@@ -573,7 +573,7 @@ func NewGoogleProjectIamCustomRole(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_project_iam_custom_role google_project_iam_custom_role} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_project_iam_custom_role google_project_iam_custom_role} Resource.
 func NewGoogleProjectIamCustomRole_Override(g GoogleProjectIamCustomRole, scope constructs.Construct, id *string, config *GoogleProjectIamCustomRoleConfig) {
 	_init_.Initialize()
 

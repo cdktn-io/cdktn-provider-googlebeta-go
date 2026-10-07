@@ -5,9 +5,9 @@ package googlecesappversion
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecesappversion/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecesappversion/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -33,6 +33,7 @@ type GoogleCesAppVersionSnapshotAppLoggingSettingsConversationLoggingSettingsOut
 	Fqn() *string
 	InternalValue() *GoogleCesAppVersionSnapshotAppLoggingSettingsConversationLoggingSettings
 	SetInternalValue(val *GoogleCesAppVersionSnapshotAppLoggingSettingsConversationLoggingSettings)
+	RetentionWindow() *string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -135,6 +136,16 @@ func (j *jsiiProxy_GoogleCesAppVersionSnapshotAppLoggingSettingsConversationLogg
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCesAppVersionSnapshotAppLoggingSettingsConversationLoggingSettingsOutputReference) RetentionWindow() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"retentionWindow",
 		&returns,
 	)
 	return returns

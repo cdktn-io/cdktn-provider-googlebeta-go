@@ -75,6 +75,14 @@ func (j *jsiiProxy_GoogleAppEngineApplicationIapOutputReference) validateSetOaut
 	return nil
 }
 
+func (j *jsiiProxy_GoogleAppEngineApplicationIapOutputReference) validateSetOauth2ClientSecretWoParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleAppEngineApplicationIapOutputReference) validateSetOauth2ClientSecretWoVersionParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleAppEngineApplicationIapOutputReference) validateSetTerraformAttributeParameters(val *string) error {
 	return nil
 }

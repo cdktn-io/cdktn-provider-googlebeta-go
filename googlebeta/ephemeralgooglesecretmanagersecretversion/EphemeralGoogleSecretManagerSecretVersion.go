@@ -5,14 +5,14 @@ package ephemeralgooglesecretmanagersecretversion
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/ephemeralgooglesecretmanagersecretversion/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/ephemeralgooglesecretmanagersecretversion/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/ephemeral-resources/google_secret_manager_secret_version google_secret_manager_secret_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/ephemeral-resources/google_secret_manager_secret_version google_secret_manager_secret_version}.
 type EphemeralGoogleSecretManagerSecretVersion interface {
 	cdktn.TerraformEphemeralResource
 	// Experimental.
@@ -412,7 +412,7 @@ func (j *jsiiProxy_EphemeralGoogleSecretManagerSecretVersion) VersionInput() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/ephemeral-resources/google_secret_manager_secret_version google_secret_manager_secret_version} Ephemeral Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/ephemeral-resources/google_secret_manager_secret_version google_secret_manager_secret_version} Ephemeral Resource.
 func NewEphemeralGoogleSecretManagerSecretVersion(scope constructs.Construct, id *string, config *EphemeralGoogleSecretManagerSecretVersionConfig) EphemeralGoogleSecretManagerSecretVersion {
 	_init_.Initialize()
 
@@ -430,7 +430,7 @@ func NewEphemeralGoogleSecretManagerSecretVersion(scope constructs.Construct, id
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/ephemeral-resources/google_secret_manager_secret_version google_secret_manager_secret_version} Ephemeral Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/ephemeral-resources/google_secret_manager_secret_version google_secret_manager_secret_version} Ephemeral Resource.
 func NewEphemeralGoogleSecretManagerSecretVersion_Override(e EphemeralGoogleSecretManagerSecretVersion, scope constructs.Construct, id *string, config *EphemeralGoogleSecretManagerSecretVersionConfig) {
 	_init_.Initialize()
 

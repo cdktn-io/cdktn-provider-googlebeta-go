@@ -5,14 +5,14 @@ package googlecomputecrosssitenetwork
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputecrosssitenetwork/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputecrosssitenetwork/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_cross_site_network google_compute_cross_site_network}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_cross_site_network google_compute_cross_site_network}.
 type GoogleComputeCrossSiteNetwork interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -487,7 +487,7 @@ func (j *jsiiProxy_GoogleComputeCrossSiteNetwork) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_cross_site_network google_compute_cross_site_network} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_cross_site_network google_compute_cross_site_network} Resource.
 func NewGoogleComputeCrossSiteNetwork(scope constructs.Construct, id *string, config *GoogleComputeCrossSiteNetworkConfig) GoogleComputeCrossSiteNetwork {
 	_init_.Initialize()
 
@@ -505,7 +505,7 @@ func NewGoogleComputeCrossSiteNetwork(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_cross_site_network google_compute_cross_site_network} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_cross_site_network google_compute_cross_site_network} Resource.
 func NewGoogleComputeCrossSiteNetwork_Override(g GoogleComputeCrossSiteNetwork, scope constructs.Construct, id *string, config *GoogleComputeCrossSiteNetworkConfig) {
 	_init_.Initialize()
 

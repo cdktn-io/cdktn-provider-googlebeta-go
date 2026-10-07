@@ -5,14 +5,14 @@ package googledeveloperconnectaccountconnector
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledeveloperconnectaccountconnector/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledeveloperconnectaccountconnector/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_developer_connect_account_connector google_developer_connect_account_connector}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_developer_connect_account_connector google_developer_connect_account_connector}.
 type GoogleDeveloperConnectAccountConnector interface {
 	cdktn.TerraformResource
 	AccountConnectorId() *string
@@ -707,7 +707,7 @@ func (j *jsiiProxy_GoogleDeveloperConnectAccountConnector) UpdateTime() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_developer_connect_account_connector google_developer_connect_account_connector} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_developer_connect_account_connector google_developer_connect_account_connector} Resource.
 func NewGoogleDeveloperConnectAccountConnector(scope constructs.Construct, id *string, config *GoogleDeveloperConnectAccountConnectorConfig) GoogleDeveloperConnectAccountConnector {
 	_init_.Initialize()
 
@@ -725,7 +725,7 @@ func NewGoogleDeveloperConnectAccountConnector(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_developer_connect_account_connector google_developer_connect_account_connector} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_developer_connect_account_connector google_developer_connect_account_connector} Resource.
 func NewGoogleDeveloperConnectAccountConnector_Override(g GoogleDeveloperConnectAccountConnector, scope constructs.Construct, id *string, config *GoogleDeveloperConnectAccountConnectorConfig) {
 	_init_.Initialize()
 

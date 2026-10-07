@@ -5,14 +5,14 @@ package googlegeminirepositorygroupiammember
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlegeminirepositorygroupiammember/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlegeminirepositorygroupiammember/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_gemini_repository_group_iam_member google_gemini_repository_group_iam_member}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_gemini_repository_group_iam_member google_gemini_repository_group_iam_member}.
 type GoogleGeminiRepositoryGroupIamMember interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -543,7 +543,7 @@ func (j *jsiiProxy_GoogleGeminiRepositoryGroupIamMember) TerraformResourceType()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_gemini_repository_group_iam_member google_gemini_repository_group_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_gemini_repository_group_iam_member google_gemini_repository_group_iam_member} Resource.
 func NewGoogleGeminiRepositoryGroupIamMember(scope constructs.Construct, id *string, config *GoogleGeminiRepositoryGroupIamMemberConfig) GoogleGeminiRepositoryGroupIamMember {
 	_init_.Initialize()
 
@@ -561,7 +561,7 @@ func NewGoogleGeminiRepositoryGroupIamMember(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_gemini_repository_group_iam_member google_gemini_repository_group_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_gemini_repository_group_iam_member google_gemini_repository_group_iam_member} Resource.
 func NewGoogleGeminiRepositoryGroupIamMember_Override(g GoogleGeminiRepositoryGroupIamMember, scope constructs.Construct, id *string, config *GoogleGeminiRepositoryGroupIamMemberConfig) {
 	_init_.Initialize()
 

@@ -131,6 +131,10 @@ func (j *jsiiProxy_GoogleDiscoveryEngineLicenseConfig) validateSetIdParameters(v
 	return nil
 }
 
+func (j *jsiiProxy_GoogleDiscoveryEngineLicenseConfig) validateSetLastUserUpdateTimeParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleDiscoveryEngineLicenseConfig) validateSetLicenseConfigIdParameters(val *string) error {
 	return nil
 }

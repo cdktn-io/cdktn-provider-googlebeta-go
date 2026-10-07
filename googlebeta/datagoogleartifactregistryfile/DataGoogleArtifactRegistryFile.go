@@ -5,14 +5,14 @@ package datagoogleartifactregistryfile
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoogleartifactregistryfile/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagoogleartifactregistryfile/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_artifact_registry_file google_artifact_registry_file}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_artifact_registry_file google_artifact_registry_file}.
 type DataGoogleArtifactRegistryFile interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -528,7 +528,7 @@ func (j *jsiiProxy_DataGoogleArtifactRegistryFile) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_artifact_registry_file google_artifact_registry_file} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_artifact_registry_file google_artifact_registry_file} Data Source.
 func NewDataGoogleArtifactRegistryFile(scope constructs.Construct, id *string, config *DataGoogleArtifactRegistryFileConfig) DataGoogleArtifactRegistryFile {
 	_init_.Initialize()
 
@@ -546,7 +546,7 @@ func NewDataGoogleArtifactRegistryFile(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_artifact_registry_file google_artifact_registry_file} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_artifact_registry_file google_artifact_registry_file} Data Source.
 func NewDataGoogleArtifactRegistryFile_Override(d DataGoogleArtifactRegistryFile, scope constructs.Construct, id *string, config *DataGoogleArtifactRegistryFileConfig) {
 	_init_.Initialize()
 

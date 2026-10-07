@@ -5,9 +5,9 @@ package googlegkehubfleet
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlegkehubfleet/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlegkehubfleet/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -25,6 +25,8 @@ type GoogleGkeHubFleetDefaultClusterConfigOutputReference interface {
 	ComplexObjectIsFromSet() *bool
 	// Experimental.
 	SetComplexObjectIsFromSet(val *bool)
+	CompliancePostureConfig() GoogleGkeHubFleetDefaultClusterConfigCompliancePostureConfigOutputReference
+	CompliancePostureConfigInput() *GoogleGkeHubFleetDefaultClusterConfigCompliancePostureConfig
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -69,8 +71,10 @@ type GoogleGkeHubFleetDefaultClusterConfigOutputReference interface {
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutBinaryAuthorizationConfig(value *GoogleGkeHubFleetDefaultClusterConfigBinaryAuthorizationConfig)
+	PutCompliancePostureConfig(value *GoogleGkeHubFleetDefaultClusterConfigCompliancePostureConfig)
 	PutSecurityPostureConfig(value *GoogleGkeHubFleetDefaultClusterConfigSecurityPostureConfig)
 	ResetBinaryAuthorizationConfig()
+	ResetCompliancePostureConfig()
 	ResetSecurityPostureConfig()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -122,6 +126,26 @@ func (j *jsiiProxy_GoogleGkeHubFleetDefaultClusterConfigOutputReference) Complex
 	_jsii_.Get(
 		j,
 		"complexObjectIsFromSet",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleGkeHubFleetDefaultClusterConfigOutputReference) CompliancePostureConfig() GoogleGkeHubFleetDefaultClusterConfigCompliancePostureConfigOutputReference {
+	var returns GoogleGkeHubFleetDefaultClusterConfigCompliancePostureConfigOutputReference
+	_jsii_.Get(
+		j,
+		"compliancePostureConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleGkeHubFleetDefaultClusterConfigOutputReference) CompliancePostureConfigInput() *GoogleGkeHubFleetDefaultClusterConfigCompliancePostureConfig {
+	var returns *GoogleGkeHubFleetDefaultClusterConfigCompliancePostureConfig
+	_jsii_.Get(
+		j,
+		"compliancePostureConfigInput",
 		&returns,
 	)
 	return returns
@@ -477,6 +501,17 @@ func (g *jsiiProxy_GoogleGkeHubFleetDefaultClusterConfigOutputReference) PutBina
 	)
 }
 
+func (g *jsiiProxy_GoogleGkeHubFleetDefaultClusterConfigOutputReference) PutCompliancePostureConfig(value *GoogleGkeHubFleetDefaultClusterConfigCompliancePostureConfig) {
+	if err := g.validatePutCompliancePostureConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putCompliancePostureConfig",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleGkeHubFleetDefaultClusterConfigOutputReference) PutSecurityPostureConfig(value *GoogleGkeHubFleetDefaultClusterConfigSecurityPostureConfig) {
 	if err := g.validatePutSecurityPostureConfigParameters(value); err != nil {
 		panic(err)
@@ -492,6 +527,14 @@ func (g *jsiiProxy_GoogleGkeHubFleetDefaultClusterConfigOutputReference) ResetBi
 	_jsii_.InvokeVoid(
 		g,
 		"resetBinaryAuthorizationConfig",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleGkeHubFleetDefaultClusterConfigOutputReference) ResetCompliancePostureConfig() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetCompliancePostureConfig",
 		nil, // no parameters
 	)
 }

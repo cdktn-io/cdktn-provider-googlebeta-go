@@ -143,10 +143,6 @@ func (j *jsiiProxy_GoogleIntegrationsClient) validateSetProvisionersParameters(v
 	return nil
 }
 
-func (j *jsiiProxy_GoogleIntegrationsClient) validateSetRunAsServiceAccountParameters(val *string) error {
-	return nil
-}
-
 func validateNewGoogleIntegrationsClientParameters(scope constructs.Construct, id *string, config *GoogleIntegrationsClientConfig) error {
 	return nil
 }

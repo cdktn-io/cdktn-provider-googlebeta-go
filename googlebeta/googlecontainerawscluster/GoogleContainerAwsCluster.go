@@ -5,14 +5,14 @@ package googlecontainerawscluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecontainerawscluster/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecontainerawscluster/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_container_aws_cluster google_container_aws_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_container_aws_cluster google_container_aws_cluster}.
 type GoogleContainerAwsCluster interface {
 	cdktn.TerraformResource
 	Annotations() *map[string]*string
@@ -796,7 +796,7 @@ func (j *jsiiProxy_GoogleContainerAwsCluster) WorkloadIdentityConfig() GoogleCon
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_container_aws_cluster google_container_aws_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_container_aws_cluster google_container_aws_cluster} Resource.
 func NewGoogleContainerAwsCluster(scope constructs.Construct, id *string, config *GoogleContainerAwsClusterConfig) GoogleContainerAwsCluster {
 	_init_.Initialize()
 
@@ -814,7 +814,7 @@ func NewGoogleContainerAwsCluster(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_container_aws_cluster google_container_aws_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_container_aws_cluster google_container_aws_cluster} Resource.
 func NewGoogleContainerAwsCluster_Override(g GoogleContainerAwsCluster, scope constructs.Construct, id *string, config *GoogleContainerAwsClusterConfig) {
 	_init_.Initialize()
 

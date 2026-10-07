@@ -5,14 +5,14 @@ package googlemonitoringslo
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlemonitoringslo/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlemonitoringslo/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_monitoring_slo google_monitoring_slo}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_monitoring_slo google_monitoring_slo}.
 type GoogleMonitoringSlo interface {
 	cdktn.TerraformResource
 	BasicSli() GoogleMonitoringSloBasicSliOutputReference
@@ -689,7 +689,7 @@ func (j *jsiiProxy_GoogleMonitoringSlo) WindowsBasedSliInput() *GoogleMonitoring
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_monitoring_slo google_monitoring_slo} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_monitoring_slo google_monitoring_slo} Resource.
 func NewGoogleMonitoringSlo(scope constructs.Construct, id *string, config *GoogleMonitoringSloConfig) GoogleMonitoringSlo {
 	_init_.Initialize()
 
@@ -707,7 +707,7 @@ func NewGoogleMonitoringSlo(scope constructs.Construct, id *string, config *Goog
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_monitoring_slo google_monitoring_slo} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_monitoring_slo google_monitoring_slo} Resource.
 func NewGoogleMonitoringSlo_Override(g GoogleMonitoringSlo, scope constructs.Construct, id *string, config *GoogleMonitoringSloConfig) {
 	_init_.Initialize()
 

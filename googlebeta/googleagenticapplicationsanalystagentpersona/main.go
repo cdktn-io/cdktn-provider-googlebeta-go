@@ -61,6 +61,8 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "location", GoGetter: "Location"},
 			_jsii_.MemberProperty{JsiiProperty: "locationInput", GoGetter: "LocationInput"},
 			_jsii_.MemberMethod{JsiiMethod: "markWriteOnlyAttribute", GoMethod: "MarkWriteOnlyAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "mathRenderingMode", GoGetter: "MathRenderingMode"},
+			_jsii_.MemberProperty{JsiiProperty: "mathRenderingModeInput", GoGetter: "MathRenderingModeInput"},
 			_jsii_.MemberProperty{JsiiProperty: "mcpDataSources", GoGetter: "McpDataSources"},
 			_jsii_.MemberProperty{JsiiProperty: "mcpDataSourcesInput", GoGetter: "McpDataSourcesInput"},
 			_jsii_.MemberProperty{JsiiProperty: "modelDescription", GoGetter: "ModelDescription"},
@@ -83,6 +85,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "putSkills", GoMethod: "PutSkills"},
 			_jsii_.MemberMethod{JsiiMethod: "putTables", GoMethod: "PutTables"},
 			_jsii_.MemberMethod{JsiiMethod: "putTimeouts", GoMethod: "PutTimeouts"},
+			_jsii_.MemberMethod{JsiiMethod: "putWebSearchConfig", GoMethod: "PutWebSearchConfig"},
 			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
 			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
 			_jsii_.MemberMethod{JsiiMethod: "resetArtifactExamples", GoMethod: "ResetArtifactExamples"},
@@ -93,6 +96,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetExternalDataSources", GoMethod: "ResetExternalDataSources"},
 			_jsii_.MemberMethod{JsiiMethod: "resetGeminiEnterpriseEngine", GoMethod: "ResetGeminiEnterpriseEngine"},
 			_jsii_.MemberMethod{JsiiMethod: "resetId", GoMethod: "ResetId"},
+			_jsii_.MemberMethod{JsiiMethod: "resetMathRenderingMode", GoMethod: "ResetMathRenderingMode"},
 			_jsii_.MemberMethod{JsiiMethod: "resetMcpDataSources", GoMethod: "ResetMcpDataSources"},
 			_jsii_.MemberMethod{JsiiMethod: "resetModelDescription", GoMethod: "ResetModelDescription"},
 			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
@@ -102,6 +106,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetSkills", GoMethod: "ResetSkills"},
 			_jsii_.MemberMethod{JsiiMethod: "resetTables", GoMethod: "ResetTables"},
 			_jsii_.MemberMethod{JsiiMethod: "resetTimeouts", GoMethod: "ResetTimeouts"},
+			_jsii_.MemberMethod{JsiiMethod: "resetWebSearchConfig", GoMethod: "ResetWebSearchConfig"},
 			_jsii_.MemberProperty{JsiiProperty: "resources", GoGetter: "Resources"},
 			_jsii_.MemberProperty{JsiiProperty: "resourcesInput", GoGetter: "ResourcesInput"},
 			_jsii_.MemberProperty{JsiiProperty: "role", GoGetter: "Role"},
@@ -122,6 +127,8 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "updateTime", GoGetter: "UpdateTime"},
+			_jsii_.MemberProperty{JsiiProperty: "webSearchConfig", GoGetter: "WebSearchConfig"},
+			_jsii_.MemberProperty{JsiiProperty: "webSearchConfigInput", GoGetter: "WebSearchConfigInput"},
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
@@ -847,6 +854,51 @@ func init() {
 			return &j
 		},
 	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptions",
+		reflect.TypeOf((*GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptions)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptionsOutputReference",
+		reflect.TypeOf((*GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptionsOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "appendMethodology", GoGetter: "AppendMethodology"},
+			_jsii_.MemberProperty{JsiiProperty: "appendMethodologyInput", GoGetter: "AppendMethodologyInput"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "exportFormat", GoGetter: "ExportFormat"},
+			_jsii_.MemberProperty{JsiiProperty: "exportFormatInput", GoGetter: "ExportFormatInput"},
+			_jsii_.MemberProperty{JsiiProperty: "exportMethodologyArtifact", GoGetter: "ExportMethodologyArtifact"},
+			_jsii_.MemberProperty{JsiiProperty: "exportMethodologyArtifactInput", GoGetter: "ExportMethodologyArtifactInput"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "resetAppendMethodology", GoMethod: "ResetAppendMethodology"},
+			_jsii_.MemberMethod{JsiiMethod: "resetExportFormat", GoMethod: "ResetExportFormat"},
+			_jsii_.MemberMethod{JsiiMethod: "resetExportMethodologyArtifact", GoMethod: "ResetExportMethodologyArtifact"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptionsOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
 	_jsii_.RegisterClass(
 		"@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigOutputReference",
 		reflect.TypeOf((*GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigOutputReference)(nil)).Elem(),
@@ -870,10 +922,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
 			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
 			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "methodologyExportOptions", GoGetter: "MethodologyExportOptions"},
+			_jsii_.MemberProperty{JsiiProperty: "methodologyExportOptionsInput", GoGetter: "MethodologyExportOptionsInput"},
 			_jsii_.MemberMethod{JsiiMethod: "putDocumentGenerationOptions", GoMethod: "PutDocumentGenerationOptions"},
+			_jsii_.MemberMethod{JsiiMethod: "putMethodologyExportOptions", GoMethod: "PutMethodologyExportOptions"},
 			_jsii_.MemberMethod{JsiiMethod: "putSlideGenerationOptions", GoMethod: "PutSlideGenerationOptions"},
 			_jsii_.MemberMethod{JsiiMethod: "putVisualizationOptions", GoMethod: "PutVisualizationOptions"},
 			_jsii_.MemberMethod{JsiiMethod: "resetDocumentGenerationOptions", GoMethod: "ResetDocumentGenerationOptions"},
+			_jsii_.MemberMethod{JsiiMethod: "resetMethodologyExportOptions", GoMethod: "ResetMethodologyExportOptions"},
 			_jsii_.MemberMethod{JsiiMethod: "resetSlideGenerationOptions", GoMethod: "ResetSlideGenerationOptions"},
 			_jsii_.MemberMethod{JsiiMethod: "resetVisualizationOptions", GoMethod: "ResetVisualizationOptions"},
 			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
@@ -1296,12 +1352,15 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
 			_jsii_.MemberMethod{JsiiMethod: "putVisualizationExamples", GoMethod: "PutVisualizationExamples"},
 			_jsii_.MemberMethod{JsiiMethod: "resetVisualizationExamples", GoMethod: "ResetVisualizationExamples"},
+			_jsii_.MemberMethod{JsiiMethod: "resetVisualizationMode", GoMethod: "ResetVisualizationMode"},
 			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
 			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
 			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 			_jsii_.MemberProperty{JsiiProperty: "visualizationExamples", GoGetter: "VisualizationExamples"},
 			_jsii_.MemberProperty{JsiiProperty: "visualizationExamplesInput", GoGetter: "VisualizationExamplesInput"},
+			_jsii_.MemberProperty{JsiiProperty: "visualizationMode", GoGetter: "VisualizationMode"},
+			_jsii_.MemberProperty{JsiiProperty: "visualizationModeInput", GoGetter: "VisualizationModeInput"},
 		},
 		func() interface{} {
 			j := jsiiProxy_GoogleAgenticApplicationsAnalystAgentPersonaArtifactsConfigVisualizationOptionsOutputReference{}
@@ -2062,6 +2121,8 @@ func init() {
 		reflect.TypeOf((*GoogleAgenticApplicationsAnalystAgentPersonaMcpDataSourcesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "apiKey", GoGetter: "ApiKey"},
+			_jsii_.MemberProperty{JsiiProperty: "apiKeyHeader", GoGetter: "ApiKeyHeader"},
+			_jsii_.MemberProperty{JsiiProperty: "apiKeyHeaderInput", GoGetter: "ApiKeyHeaderInput"},
 			_jsii_.MemberProperty{JsiiProperty: "apiKeyInput", GoGetter: "ApiKeyInput"},
 			_jsii_.MemberProperty{JsiiProperty: "apiKeyName", GoGetter: "ApiKeyName"},
 			_jsii_.MemberProperty{JsiiProperty: "apiKeyNameInput", GoGetter: "ApiKeyNameInput"},
@@ -2097,6 +2158,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "prompt", GoGetter: "Prompt"},
 			_jsii_.MemberProperty{JsiiProperty: "promptInput", GoGetter: "PromptInput"},
 			_jsii_.MemberMethod{JsiiMethod: "resetApiKey", GoMethod: "ResetApiKey"},
+			_jsii_.MemberMethod{JsiiMethod: "resetApiKeyHeader", GoMethod: "ResetApiKeyHeader"},
 			_jsii_.MemberMethod{JsiiMethod: "resetApiKeyName", GoMethod: "ResetApiKeyName"},
 			_jsii_.MemberMethod{JsiiMethod: "resetClientId", GoMethod: "ResetClientId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetClientSecret", GoMethod: "ResetClientSecret"},
@@ -2715,6 +2777,48 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_GoogleAgenticApplicationsAnalystAgentPersonaTimeoutsOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaWebSearchConfig",
+		reflect.TypeOf((*GoogleAgenticApplicationsAnalystAgentPersonaWebSearchConfig)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-google-beta.googleAgenticApplicationsAnalystAgentPersona.GoogleAgenticApplicationsAnalystAgentPersonaWebSearchConfigOutputReference",
+		reflect.TypeOf((*GoogleAgenticApplicationsAnalystAgentPersonaWebSearchConfigOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "disabled", GoGetter: "Disabled"},
+			_jsii_.MemberProperty{JsiiProperty: "disabledInput", GoGetter: "DisabledInput"},
+			_jsii_.MemberProperty{JsiiProperty: "excludedDomains", GoGetter: "ExcludedDomains"},
+			_jsii_.MemberProperty{JsiiProperty: "excludedDomainsInput", GoGetter: "ExcludedDomainsInput"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "resetDisabled", GoMethod: "ResetDisabled"},
+			_jsii_.MemberMethod{JsiiMethod: "resetExcludedDomains", GoMethod: "ResetExcludedDomains"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_GoogleAgenticApplicationsAnalystAgentPersonaWebSearchConfigOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},

@@ -63,6 +63,10 @@ func (g *jsiiProxy_GoogleCesAppLoggingSettingsOutputReference) validatePutConver
 	return nil
 }
 
+func (g *jsiiProxy_GoogleCesAppLoggingSettingsOutputReference) validatePutMetricAnalysisSettingsParameters(value *GoogleCesAppLoggingSettingsMetricAnalysisSettings) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleCesAppLoggingSettingsOutputReference) validatePutRedactionConfigParameters(value *GoogleCesAppLoggingSettingsRedactionConfig) error {
 	return nil
 }

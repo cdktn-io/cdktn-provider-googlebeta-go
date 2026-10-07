@@ -5,14 +5,14 @@ package googlesecuresourcemanagerhook
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlesecuresourcemanagerhook/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlesecuresourcemanagerhook/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_secure_source_manager_hook google_secure_source_manager_hook}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_secure_source_manager_hook google_secure_source_manager_hook}.
 type GoogleSecureSourceManagerHook interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -86,6 +86,9 @@ type GoogleSecureSourceManagerHook interface {
 	SensitiveQueryString() *string
 	SetSensitiveQueryString(val *string)
 	SensitiveQueryStringInput() *string
+	ServiceAccountAuth() interface{}
+	SetServiceAccountAuth(val interface{})
+	ServiceAccountAuthInput() interface{}
 	TargetUri() *string
 	SetTargetUri(val *string)
 	TargetUriInput() *string
@@ -203,6 +206,7 @@ type GoogleSecureSourceManagerHook interface {
 	ResetProject()
 	ResetPushOption()
 	ResetSensitiveQueryString()
+	ResetServiceAccountAuth()
 	ResetTimeouts()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
@@ -581,6 +585,26 @@ func (j *jsiiProxy_GoogleSecureSourceManagerHook) SensitiveQueryStringInput() *s
 	return returns
 }
 
+func (j *jsiiProxy_GoogleSecureSourceManagerHook) ServiceAccountAuth() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"serviceAccountAuth",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleSecureSourceManagerHook) ServiceAccountAuthInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"serviceAccountAuthInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleSecureSourceManagerHook) TargetUri() *string {
 	var returns *string
 	_jsii_.Get(
@@ -672,7 +696,7 @@ func (j *jsiiProxy_GoogleSecureSourceManagerHook) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_secure_source_manager_hook google_secure_source_manager_hook} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_secure_source_manager_hook google_secure_source_manager_hook} Resource.
 func NewGoogleSecureSourceManagerHook(scope constructs.Construct, id *string, config *GoogleSecureSourceManagerHookConfig) GoogleSecureSourceManagerHook {
 	_init_.Initialize()
 
@@ -690,7 +714,7 @@ func NewGoogleSecureSourceManagerHook(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_secure_source_manager_hook google_secure_source_manager_hook} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_secure_source_manager_hook google_secure_source_manager_hook} Resource.
 func NewGoogleSecureSourceManagerHook_Override(g GoogleSecureSourceManagerHook, scope constructs.Construct, id *string, config *GoogleSecureSourceManagerHookConfig) {
 	_init_.Initialize()
 
@@ -864,6 +888,17 @@ func (j *jsiiProxy_GoogleSecureSourceManagerHook)SetSensitiveQueryString(val *st
 	_jsii_.Set(
 		j,
 		"sensitiveQueryString",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleSecureSourceManagerHook)SetServiceAccountAuth(val interface{}) {
+	if err := j.validateSetServiceAccountAuthParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"serviceAccountAuth",
 		val,
 	)
 }
@@ -1341,6 +1376,14 @@ func (g *jsiiProxy_GoogleSecureSourceManagerHook) ResetSensitiveQueryString() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetSensitiveQueryString",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleSecureSourceManagerHook) ResetServiceAccountAuth() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetServiceAccountAuth",
 		nil, // no parameters
 	)
 }

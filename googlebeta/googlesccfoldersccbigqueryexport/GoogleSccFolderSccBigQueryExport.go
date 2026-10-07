@@ -5,14 +5,14 @@ package googlesccfoldersccbigqueryexport
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlesccfoldersccbigqueryexport/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlesccfoldersccbigqueryexport/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_scc_folder_scc_big_query_export google_scc_folder_scc_big_query_export}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_scc_folder_scc_big_query_export google_scc_folder_scc_big_query_export}.
 type GoogleSccFolderSccBigQueryExport interface {
 	cdktn.TerraformResource
 	BigQueryExportId() *string
@@ -586,7 +586,7 @@ func (j *jsiiProxy_GoogleSccFolderSccBigQueryExport) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_scc_folder_scc_big_query_export google_scc_folder_scc_big_query_export} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_scc_folder_scc_big_query_export google_scc_folder_scc_big_query_export} Resource.
 func NewGoogleSccFolderSccBigQueryExport(scope constructs.Construct, id *string, config *GoogleSccFolderSccBigQueryExportConfig) GoogleSccFolderSccBigQueryExport {
 	_init_.Initialize()
 
@@ -604,7 +604,7 @@ func NewGoogleSccFolderSccBigQueryExport(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_scc_folder_scc_big_query_export google_scc_folder_scc_big_query_export} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_scc_folder_scc_big_query_export google_scc_folder_scc_big_query_export} Resource.
 func NewGoogleSccFolderSccBigQueryExport_Override(g GoogleSccFolderSccBigQueryExport, scope constructs.Construct, id *string, config *GoogleSccFolderSccBigQueryExportConfig) {
 	_init_.Initialize()
 

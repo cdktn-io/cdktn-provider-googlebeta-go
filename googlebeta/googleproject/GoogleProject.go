@@ -5,14 +5,14 @@ package googleproject
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleproject/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleproject/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_project google_project}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_project google_project}.
 type GoogleProject interface {
 	cdktn.TerraformResource
 	AutoCreateNetwork() interface{}
@@ -639,7 +639,7 @@ func (j *jsiiProxy_GoogleProject) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_project google_project} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_project google_project} Resource.
 func NewGoogleProject(scope constructs.Construct, id *string, config *GoogleProjectConfig) GoogleProject {
 	_init_.Initialize()
 
@@ -657,7 +657,7 @@ func NewGoogleProject(scope constructs.Construct, id *string, config *GoogleProj
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_project google_project} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_project google_project} Resource.
 func NewGoogleProject_Override(g GoogleProject, scope constructs.Construct, id *string, config *GoogleProjectConfig) {
 	_init_.Initialize()
 

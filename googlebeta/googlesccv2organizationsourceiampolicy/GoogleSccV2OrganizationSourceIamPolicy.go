@@ -5,14 +5,14 @@ package googlesccv2organizationsourceiampolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlesccv2organizationsourceiampolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlesccv2organizationsourceiampolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_scc_v2_organization_source_iam_policy google_scc_v2_organization_source_iam_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_scc_v2_organization_source_iam_policy google_scc_v2_organization_source_iam_policy}.
 type GoogleSccV2OrganizationSourceIamPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -448,7 +448,7 @@ func (j *jsiiProxy_GoogleSccV2OrganizationSourceIamPolicy) TerraformResourceType
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_scc_v2_organization_source_iam_policy google_scc_v2_organization_source_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_scc_v2_organization_source_iam_policy google_scc_v2_organization_source_iam_policy} Resource.
 func NewGoogleSccV2OrganizationSourceIamPolicy(scope constructs.Construct, id *string, config *GoogleSccV2OrganizationSourceIamPolicyConfig) GoogleSccV2OrganizationSourceIamPolicy {
 	_init_.Initialize()
 
@@ -466,7 +466,7 @@ func NewGoogleSccV2OrganizationSourceIamPolicy(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_scc_v2_organization_source_iam_policy google_scc_v2_organization_source_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_scc_v2_organization_source_iam_policy google_scc_v2_organization_source_iam_policy} Resource.
 func NewGoogleSccV2OrganizationSourceIamPolicy_Override(g GoogleSccV2OrganizationSourceIamPolicy, scope constructs.Construct, id *string, config *GoogleSccV2OrganizationSourceIamPolicyConfig) {
 	_init_.Initialize()
 

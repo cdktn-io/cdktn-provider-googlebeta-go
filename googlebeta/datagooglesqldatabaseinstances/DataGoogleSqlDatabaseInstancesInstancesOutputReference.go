@@ -5,9 +5,9 @@ package datagooglesqldatabaseinstances
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagooglesqldatabaseinstances/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagooglesqldatabaseinstances/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -37,6 +37,7 @@ type DataGoogleSqlDatabaseInstancesInstancesOutputReference interface {
 	DeletionProtection() cdktn.IResolvable
 	DnsName() *string
 	DnsNames() DataGoogleSqlDatabaseInstancesInstancesDnsNamesList
+	EncryptionConfidentialMode() cdktn.IResolvable
 	EncryptionKeyName() *string
 	EnforceNewSqlNetworkArchitecture() cdktn.IResolvable
 	FinalBackupDescription() *string
@@ -232,6 +233,16 @@ func (j *jsiiProxy_DataGoogleSqlDatabaseInstancesInstancesOutputReference) DnsNa
 	_jsii_.Get(
 		j,
 		"dnsNames",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleSqlDatabaseInstancesInstancesOutputReference) EncryptionConfidentialMode() cdktn.IResolvable {
+	var returns cdktn.IResolvable
+	_jsii_.Get(
+		j,
+		"encryptionConfidentialMode",
 		&returns,
 	)
 	return returns

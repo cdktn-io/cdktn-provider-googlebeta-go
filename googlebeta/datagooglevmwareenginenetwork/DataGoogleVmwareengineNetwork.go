@@ -5,14 +5,14 @@ package datagooglevmwareenginenetwork
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagooglevmwareenginenetwork/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagooglevmwareenginenetwork/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_vmwareengine_network google_vmwareengine_network}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_vmwareengine_network google_vmwareengine_network}.
 type DataGoogleVmwareengineNetwork interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -456,7 +456,7 @@ func (j *jsiiProxy_DataGoogleVmwareengineNetwork) VpcNetworks() DataGoogleVmware
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_vmwareengine_network google_vmwareengine_network} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_vmwareengine_network google_vmwareengine_network} Data Source.
 func NewDataGoogleVmwareengineNetwork(scope constructs.Construct, id *string, config *DataGoogleVmwareengineNetworkConfig) DataGoogleVmwareengineNetwork {
 	_init_.Initialize()
 
@@ -474,7 +474,7 @@ func NewDataGoogleVmwareengineNetwork(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_vmwareengine_network google_vmwareengine_network} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_vmwareengine_network google_vmwareengine_network} Data Source.
 func NewDataGoogleVmwareengineNetwork_Override(d DataGoogleVmwareengineNetwork, scope constructs.Construct, id *string, config *DataGoogleVmwareengineNetworkConfig) {
 	_init_.Initialize()
 

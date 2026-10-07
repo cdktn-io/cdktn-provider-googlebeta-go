@@ -5,14 +5,14 @@ package googlehealthcaredatasetiambinding
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlehealthcaredatasetiambinding/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlehealthcaredatasetiambinding/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_healthcare_dataset_iam_binding google_healthcare_dataset_iam_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_healthcare_dataset_iam_binding google_healthcare_dataset_iam_binding}.
 type GoogleHealthcareDatasetIamBinding interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -472,7 +472,7 @@ func (j *jsiiProxy_GoogleHealthcareDatasetIamBinding) TerraformResourceType() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_healthcare_dataset_iam_binding google_healthcare_dataset_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_healthcare_dataset_iam_binding google_healthcare_dataset_iam_binding} Resource.
 func NewGoogleHealthcareDatasetIamBinding(scope constructs.Construct, id *string, config *GoogleHealthcareDatasetIamBindingConfig) GoogleHealthcareDatasetIamBinding {
 	_init_.Initialize()
 
@@ -490,7 +490,7 @@ func NewGoogleHealthcareDatasetIamBinding(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_healthcare_dataset_iam_binding google_healthcare_dataset_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_healthcare_dataset_iam_binding google_healthcare_dataset_iam_binding} Resource.
 func NewGoogleHealthcareDatasetIamBinding_Override(g GoogleHealthcareDatasetIamBinding, scope constructs.Construct, id *string, config *GoogleHealthcareDatasetIamBindingConfig) {
 	_init_.Initialize()
 

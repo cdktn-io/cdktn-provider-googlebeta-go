@@ -5,14 +5,14 @@ package googleedgenetworksubnet
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleedgenetworksubnet/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleedgenetworksubnet/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_edgenetwork_subnet google_edgenetwork_subnet}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_edgenetwork_subnet google_edgenetwork_subnet}.
 type GoogleEdgenetworkSubnet interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -718,7 +718,7 @@ func (j *jsiiProxy_GoogleEdgenetworkSubnet) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_edgenetwork_subnet google_edgenetwork_subnet} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_edgenetwork_subnet google_edgenetwork_subnet} Resource.
 func NewGoogleEdgenetworkSubnet(scope constructs.Construct, id *string, config *GoogleEdgenetworkSubnetConfig) GoogleEdgenetworkSubnet {
 	_init_.Initialize()
 
@@ -736,7 +736,7 @@ func NewGoogleEdgenetworkSubnet(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_edgenetwork_subnet google_edgenetwork_subnet} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_edgenetwork_subnet google_edgenetwork_subnet} Resource.
 func NewGoogleEdgenetworkSubnet_Override(g GoogleEdgenetworkSubnet, scope constructs.Construct, id *string, config *GoogleEdgenetworkSubnetConfig) {
 	_init_.Initialize()
 

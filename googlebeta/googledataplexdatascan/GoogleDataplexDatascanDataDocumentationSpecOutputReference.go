@@ -5,9 +5,9 @@ package googledataplexdatascan
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledataplexdatascan/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledataplexdatascan/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -35,6 +35,9 @@ type GoogleDataplexDatascanDataDocumentationSpecOutputReference interface {
 	Fqn() *string
 	InternalValue() *GoogleDataplexDatascanDataDocumentationSpec
 	SetInternalValue(val *GoogleDataplexDatascanDataDocumentationSpec)
+	SqlDialect() *string
+	SetSqlDialect(val *string)
+	SqlDialectInput() *string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -68,6 +71,7 @@ type GoogleDataplexDatascanDataDocumentationSpecOutputReference interface {
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetCatalogPublishingEnabled()
+	ResetSqlDialect()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -148,6 +152,26 @@ func (j *jsiiProxy_GoogleDataplexDatascanDataDocumentationSpecOutputReference) I
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDataplexDatascanDataDocumentationSpecOutputReference) SqlDialect() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"sqlDialect",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDataplexDatascanDataDocumentationSpecOutputReference) SqlDialectInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"sqlDialectInput",
 		&returns,
 	)
 	return returns
@@ -241,6 +265,17 @@ func (j *jsiiProxy_GoogleDataplexDatascanDataDocumentationSpecOutputReference)Se
 	_jsii_.Set(
 		j,
 		"internalValue",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleDataplexDatascanDataDocumentationSpecOutputReference)SetSqlDialect(val *string) {
+	if err := j.validateSetSqlDialectParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"sqlDialect",
 		val,
 	)
 }
@@ -457,6 +492,14 @@ func (g *jsiiProxy_GoogleDataplexDatascanDataDocumentationSpecOutputReference) R
 	_jsii_.InvokeVoid(
 		g,
 		"resetCatalogPublishingEnabled",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleDataplexDatascanDataDocumentationSpecOutputReference) ResetSqlDialect() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetSqlDialect",
 		nil, // no parameters
 	)
 }

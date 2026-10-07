@@ -5,14 +5,14 @@ package googlememorystoreaclpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlememorystoreaclpolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlememorystoreaclpolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_memorystore_acl_policy google_memorystore_acl_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_memorystore_acl_policy google_memorystore_acl_policy}.
 type GoogleMemorystoreAclPolicy interface {
 	cdktn.TerraformResource
 	AclPolicyId() *string
@@ -542,7 +542,7 @@ func (j *jsiiProxy_GoogleMemorystoreAclPolicy) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_memorystore_acl_policy google_memorystore_acl_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_memorystore_acl_policy google_memorystore_acl_policy} Resource.
 func NewGoogleMemorystoreAclPolicy(scope constructs.Construct, id *string, config *GoogleMemorystoreAclPolicyConfig) GoogleMemorystoreAclPolicy {
 	_init_.Initialize()
 
@@ -560,7 +560,7 @@ func NewGoogleMemorystoreAclPolicy(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_memorystore_acl_policy google_memorystore_acl_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_memorystore_acl_policy google_memorystore_acl_policy} Resource.
 func NewGoogleMemorystoreAclPolicy_Override(g GoogleMemorystoreAclPolicy, scope constructs.Construct, id *string, config *GoogleMemorystoreAclPolicyConfig) {
 	_init_.Initialize()
 

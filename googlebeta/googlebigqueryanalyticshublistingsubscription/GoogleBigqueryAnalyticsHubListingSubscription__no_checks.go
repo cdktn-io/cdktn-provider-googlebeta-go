@@ -83,6 +83,10 @@ func (g *jsiiProxy_GoogleBigqueryAnalyticsHubListingSubscription) validatePutDes
 	return nil
 }
 
+func (g *jsiiProxy_GoogleBigqueryAnalyticsHubListingSubscription) validatePutDestinationPubsubSubscriptionParameters(value *GoogleBigqueryAnalyticsHubListingSubscriptionDestinationPubsubSubscription) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleBigqueryAnalyticsHubListingSubscription) validatePutTimeoutsParameters(value *GoogleBigqueryAnalyticsHubListingSubscriptionTimeouts) error {
 	return nil
 }

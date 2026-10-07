@@ -308,6 +308,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "deletionProtection", GoGetter: "DeletionProtection"},
 			_jsii_.MemberProperty{JsiiProperty: "dnsName", GoGetter: "DnsName"},
 			_jsii_.MemberProperty{JsiiProperty: "dnsNames", GoGetter: "DnsNames"},
+			_jsii_.MemberProperty{JsiiProperty: "encryptionConfidentialMode", GoGetter: "EncryptionConfidentialMode"},
 			_jsii_.MemberProperty{JsiiProperty: "encryptionKeyName", GoGetter: "EncryptionKeyName"},
 			_jsii_.MemberProperty{JsiiProperty: "enforceNewSqlNetworkArchitecture", GoGetter: "EnforceNewSqlNetworkArchitecture"},
 			_jsii_.MemberProperty{JsiiProperty: "finalBackupDescription", GoGetter: "FinalBackupDescription"},

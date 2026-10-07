@@ -746,6 +746,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
 			_jsii_.MemberMethod{JsiiMethod: "putDataStoreUiConfigs", GoMethod: "PutDataStoreUiConfigs"},
 			_jsii_.MemberMethod{JsiiMethod: "putGenerativeAnswerConfig", GoMethod: "PutGenerativeAnswerConfig"},
+			_jsii_.MemberMethod{JsiiMethod: "putSearchAddonSpec", GoMethod: "PutSearchAddonSpec"},
 			_jsii_.MemberMethod{JsiiMethod: "resetDataStoreUiConfigs", GoMethod: "ResetDataStoreUiConfigs"},
 			_jsii_.MemberMethod{JsiiMethod: "resetDefaultSearchRequestOrderBy", GoMethod: "ResetDefaultSearchRequestOrderBy"},
 			_jsii_.MemberMethod{JsiiMethod: "resetDisableUserEventsCollection", GoMethod: "ResetDisableUserEventsCollection"},
@@ -759,15 +760,66 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetGenerativeAnswerConfig", GoMethod: "ResetGenerativeAnswerConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "resetInteractionType", GoMethod: "ResetInteractionType"},
 			_jsii_.MemberMethod{JsiiMethod: "resetResultDescriptionType", GoMethod: "ResetResultDescriptionType"},
+			_jsii_.MemberMethod{JsiiMethod: "resetSearchAddonSpec", GoMethod: "ResetSearchAddonSpec"},
+			_jsii_.MemberMethod{JsiiMethod: "resetSourceAdminDisplayNameEnabled", GoMethod: "ResetSourceAdminDisplayNameEnabled"},
 			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
 			_jsii_.MemberProperty{JsiiProperty: "resultDescriptionType", GoGetter: "ResultDescriptionType"},
 			_jsii_.MemberProperty{JsiiProperty: "resultDescriptionTypeInput", GoGetter: "ResultDescriptionTypeInput"},
+			_jsii_.MemberProperty{JsiiProperty: "searchAddonSpec", GoGetter: "SearchAddonSpec"},
+			_jsii_.MemberProperty{JsiiProperty: "searchAddonSpecInput", GoGetter: "SearchAddonSpecInput"},
+			_jsii_.MemberProperty{JsiiProperty: "sourceAdminDisplayNameEnabled", GoGetter: "SourceAdminDisplayNameEnabled"},
+			_jsii_.MemberProperty{JsiiProperty: "sourceAdminDisplayNameEnabledInput", GoGetter: "SourceAdminDisplayNameEnabledInput"},
 			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
 			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
 			j := jsiiProxy_GoogleDiscoveryEngineWidgetConfigUiSettingsOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-google-beta.googleDiscoveryEngineWidgetConfig.GoogleDiscoveryEngineWidgetConfigUiSettingsSearchAddonSpec",
+		reflect.TypeOf((*GoogleDiscoveryEngineWidgetConfigUiSettingsSearchAddonSpec)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-google-beta.googleDiscoveryEngineWidgetConfig.GoogleDiscoveryEngineWidgetConfigUiSettingsSearchAddonSpecOutputReference",
+		reflect.TypeOf((*GoogleDiscoveryEngineWidgetConfigUiSettingsSearchAddonSpecOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberProperty{JsiiProperty: "generativeAnswerAddOnDisabled", GoGetter: "GenerativeAnswerAddOnDisabled"},
+			_jsii_.MemberProperty{JsiiProperty: "generativeAnswerAddOnDisabledInput", GoGetter: "GenerativeAnswerAddOnDisabledInput"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "kpiPersonalizationAddOnDisabled", GoGetter: "KpiPersonalizationAddOnDisabled"},
+			_jsii_.MemberProperty{JsiiProperty: "kpiPersonalizationAddOnDisabledInput", GoGetter: "KpiPersonalizationAddOnDisabledInput"},
+			_jsii_.MemberMethod{JsiiMethod: "resetGenerativeAnswerAddOnDisabled", GoMethod: "ResetGenerativeAnswerAddOnDisabled"},
+			_jsii_.MemberMethod{JsiiMethod: "resetKpiPersonalizationAddOnDisabled", GoMethod: "ResetKpiPersonalizationAddOnDisabled"},
+			_jsii_.MemberMethod{JsiiMethod: "resetSemanticAddOnDisabled", GoMethod: "ResetSemanticAddOnDisabled"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "semanticAddOnDisabled", GoGetter: "SemanticAddOnDisabled"},
+			_jsii_.MemberProperty{JsiiProperty: "semanticAddOnDisabledInput", GoGetter: "SemanticAddOnDisabledInput"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_GoogleDiscoveryEngineWidgetConfigUiSettingsSearchAddonSpecOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},

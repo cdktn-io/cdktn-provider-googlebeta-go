@@ -5,14 +5,14 @@ package googlenetworkservicesmulticastdomainactivation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworkservicesmulticastdomainactivation/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworkservicesmulticastdomainactivation/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_services_multicast_domain_activation google_network_services_multicast_domain_activation}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_services_multicast_domain_activation google_network_services_multicast_domain_activation}.
 type GoogleNetworkServicesMulticastDomainActivation interface {
 	cdktn.TerraformResource
 	AdminNetwork() *string
@@ -693,7 +693,7 @@ func (j *jsiiProxy_GoogleNetworkServicesMulticastDomainActivation) UpdateTime() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_services_multicast_domain_activation google_network_services_multicast_domain_activation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_services_multicast_domain_activation google_network_services_multicast_domain_activation} Resource.
 func NewGoogleNetworkServicesMulticastDomainActivation(scope constructs.Construct, id *string, config *GoogleNetworkServicesMulticastDomainActivationConfig) GoogleNetworkServicesMulticastDomainActivation {
 	_init_.Initialize()
 
@@ -711,7 +711,7 @@ func NewGoogleNetworkServicesMulticastDomainActivation(scope constructs.Construc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_services_multicast_domain_activation google_network_services_multicast_domain_activation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_services_multicast_domain_activation google_network_services_multicast_domain_activation} Resource.
 func NewGoogleNetworkServicesMulticastDomainActivation_Override(g GoogleNetworkServicesMulticastDomainActivation, scope constructs.Construct, id *string, config *GoogleNetworkServicesMulticastDomainActivationConfig) {
 	_init_.Initialize()
 

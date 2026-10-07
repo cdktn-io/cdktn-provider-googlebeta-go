@@ -5,14 +5,14 @@ package googlecontactcenterinsightsqascorecard
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecontactcenterinsightsqascorecard/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecontactcenterinsightsqascorecard/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_contact_center_insights_qa_scorecard google_contact_center_insights_qa_scorecard}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_contact_center_insights_qa_scorecard google_contact_center_insights_qa_scorecard}.
 type GoogleContactCenterInsightsQaScorecard interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -615,7 +615,7 @@ func (j *jsiiProxy_GoogleContactCenterInsightsQaScorecard) UpdateTime() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_contact_center_insights_qa_scorecard google_contact_center_insights_qa_scorecard} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_contact_center_insights_qa_scorecard google_contact_center_insights_qa_scorecard} Resource.
 func NewGoogleContactCenterInsightsQaScorecard(scope constructs.Construct, id *string, config *GoogleContactCenterInsightsQaScorecardConfig) GoogleContactCenterInsightsQaScorecard {
 	_init_.Initialize()
 
@@ -633,7 +633,7 @@ func NewGoogleContactCenterInsightsQaScorecard(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_contact_center_insights_qa_scorecard google_contact_center_insights_qa_scorecard} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_contact_center_insights_qa_scorecard google_contact_center_insights_qa_scorecard} Resource.
 func NewGoogleContactCenterInsightsQaScorecard_Override(g GoogleContactCenterInsightsQaScorecard, scope constructs.Construct, id *string, config *GoogleContactCenterInsightsQaScorecardConfig) {
 	_init_.Initialize()
 

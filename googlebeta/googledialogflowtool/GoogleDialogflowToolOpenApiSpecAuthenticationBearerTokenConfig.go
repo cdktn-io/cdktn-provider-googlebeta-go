@@ -1,0 +1,21 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+package googledialogflowtool
+
+
+type GoogleDialogflowToolOpenApiSpecAuthenticationBearerTokenConfig struct {
+	// Optional.
+	//
+	// The name of the SecretManager secret version resource storing the Bearer token.
+	// If this field is set, the 'token' field will be ignored.
+	// Format: 'projects/{project}/secrets/{secret}/versions/{version}'
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_tool#secret_version_for_token GoogleDialogflowTool#secret_version_for_token}
+	SecretVersionForToken *string `field:"optional" json:"secretVersionForToken" yaml:"secretVersionForToken"`
+	// Optional. The text token appended to the text 'Bearer' to the request Authorization header.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_tool#token GoogleDialogflowTool#token}
+	Token *string `field:"optional" json:"token" yaml:"token"`
+}
+

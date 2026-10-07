@@ -5,14 +5,14 @@ package googlebigquerydatatransferconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebigquerydatatransferconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebigquerydatatransferconfig/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigquery_data_transfer_config google_bigquery_data_transfer_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigquery_data_transfer_config google_bigquery_data_transfer_config}.
 type GoogleBigqueryDataTransferConfig interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -784,7 +784,7 @@ func (j *jsiiProxy_GoogleBigqueryDataTransferConfig) TimeoutsInput() interface{}
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigquery_data_transfer_config google_bigquery_data_transfer_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigquery_data_transfer_config google_bigquery_data_transfer_config} Resource.
 func NewGoogleBigqueryDataTransferConfig(scope constructs.Construct, id *string, config *GoogleBigqueryDataTransferConfigConfig) GoogleBigqueryDataTransferConfig {
 	_init_.Initialize()
 
@@ -802,7 +802,7 @@ func NewGoogleBigqueryDataTransferConfig(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigquery_data_transfer_config google_bigquery_data_transfer_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigquery_data_transfer_config google_bigquery_data_transfer_config} Resource.
 func NewGoogleBigqueryDataTransferConfig_Override(g GoogleBigqueryDataTransferConfig, scope constructs.Construct, id *string, config *GoogleBigqueryDataTransferConfigConfig) {
 	_init_.Initialize()
 

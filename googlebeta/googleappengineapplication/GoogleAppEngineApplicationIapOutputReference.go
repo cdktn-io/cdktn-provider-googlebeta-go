@@ -5,9 +5,9 @@ package googleappengineapplication
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleappengineapplication/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleappengineapplication/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -42,6 +42,14 @@ type GoogleAppEngineApplicationIapOutputReference interface {
 	SetOauth2ClientSecret(val *string)
 	Oauth2ClientSecretInput() *string
 	Oauth2ClientSecretSha256() *string
+	// Deprecated: Write-only: the provider never returns this value; reading it always yields null by protocol contract. The getter remains for compatibility and will be removed in a future prebuilt-provider major.
+	Oauth2ClientSecretWo() *string
+	// Deprecated: Write-only: the provider never returns this value; reading it always yields null by protocol contract. The getter remains for compatibility and will be removed in a future prebuilt-provider major.
+	SetOauth2ClientSecretWo(val *string)
+	Oauth2ClientSecretWoInput() *string
+	Oauth2ClientSecretWoVersion() *string
+	SetOauth2ClientSecretWoVersion(val *string)
+	Oauth2ClientSecretWoVersionInput() *string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -75,6 +83,9 @@ type GoogleAppEngineApplicationIapOutputReference interface {
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetEnabled()
+	ResetOauth2ClientSecret()
+	ResetOauth2ClientSecretWo()
+	ResetOauth2ClientSecretWoVersion()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -210,6 +221,46 @@ func (j *jsiiProxy_GoogleAppEngineApplicationIapOutputReference) Oauth2ClientSec
 	return returns
 }
 
+func (j *jsiiProxy_GoogleAppEngineApplicationIapOutputReference) Oauth2ClientSecretWo() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"oauth2ClientSecretWo",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleAppEngineApplicationIapOutputReference) Oauth2ClientSecretWoInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"oauth2ClientSecretWoInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleAppEngineApplicationIapOutputReference) Oauth2ClientSecretWoVersion() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"oauth2ClientSecretWoVersion",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleAppEngineApplicationIapOutputReference) Oauth2ClientSecretWoVersionInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"oauth2ClientSecretWoVersionInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleAppEngineApplicationIapOutputReference) TerraformAttribute() *string {
 	var returns *string
 	_jsii_.Get(
@@ -320,6 +371,28 @@ func (j *jsiiProxy_GoogleAppEngineApplicationIapOutputReference)SetOauth2ClientS
 	_jsii_.Set(
 		j,
 		"oauth2ClientSecret",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleAppEngineApplicationIapOutputReference)SetOauth2ClientSecretWo(val *string) {
+	if err := j.validateSetOauth2ClientSecretWoParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"oauth2ClientSecretWo",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleAppEngineApplicationIapOutputReference)SetOauth2ClientSecretWoVersion(val *string) {
+	if err := j.validateSetOauth2ClientSecretWoVersionParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"oauth2ClientSecretWoVersion",
 		val,
 	)
 }
@@ -536,6 +609,30 @@ func (g *jsiiProxy_GoogleAppEngineApplicationIapOutputReference) ResetEnabled() 
 	_jsii_.InvokeVoid(
 		g,
 		"resetEnabled",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleAppEngineApplicationIapOutputReference) ResetOauth2ClientSecret() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetOauth2ClientSecret",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleAppEngineApplicationIapOutputReference) ResetOauth2ClientSecretWo() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetOauth2ClientSecretWo",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleAppEngineApplicationIapOutputReference) ResetOauth2ClientSecretWoVersion() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetOauth2ClientSecretWoVersion",
 		nil, // no parameters
 	)
 }

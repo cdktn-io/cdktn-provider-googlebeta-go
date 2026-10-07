@@ -5,14 +5,14 @@ package googleloggingprojectexclusion
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleloggingprojectexclusion/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleloggingprojectexclusion/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_logging_project_exclusion google_logging_project_exclusion}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_logging_project_exclusion google_logging_project_exclusion}.
 type GoogleLoggingProjectExclusion interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -486,7 +486,7 @@ func (j *jsiiProxy_GoogleLoggingProjectExclusion) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_logging_project_exclusion google_logging_project_exclusion} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_logging_project_exclusion google_logging_project_exclusion} Resource.
 func NewGoogleLoggingProjectExclusion(scope constructs.Construct, id *string, config *GoogleLoggingProjectExclusionConfig) GoogleLoggingProjectExclusion {
 	_init_.Initialize()
 
@@ -504,7 +504,7 @@ func NewGoogleLoggingProjectExclusion(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_logging_project_exclusion google_logging_project_exclusion} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_logging_project_exclusion google_logging_project_exclusion} Resource.
 func NewGoogleLoggingProjectExclusion_Override(g GoogleLoggingProjectExclusion, scope constructs.Construct, id *string, config *GoogleLoggingProjectExclusionConfig) {
 	_init_.Initialize()
 

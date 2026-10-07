@@ -5,14 +5,14 @@ package googlegeminicodetoolssetting
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlegeminicodetoolssetting/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlegeminicodetoolssetting/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_gemini_code_tools_setting google_gemini_code_tools_setting}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_gemini_code_tools_setting google_gemini_code_tools_setting}.
 type GoogleGeminiCodeToolsSetting interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -589,7 +589,7 @@ func (j *jsiiProxy_GoogleGeminiCodeToolsSetting) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_gemini_code_tools_setting google_gemini_code_tools_setting} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_gemini_code_tools_setting google_gemini_code_tools_setting} Resource.
 func NewGoogleGeminiCodeToolsSetting(scope constructs.Construct, id *string, config *GoogleGeminiCodeToolsSettingConfig) GoogleGeminiCodeToolsSetting {
 	_init_.Initialize()
 
@@ -607,7 +607,7 @@ func NewGoogleGeminiCodeToolsSetting(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_gemini_code_tools_setting google_gemini_code_tools_setting} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_gemini_code_tools_setting google_gemini_code_tools_setting} Resource.
 func NewGoogleGeminiCodeToolsSetting_Override(g GoogleGeminiCodeToolsSetting, scope constructs.Construct, id *string, config *GoogleGeminiCodeToolsSettingConfig) {
 	_init_.Initialize()
 

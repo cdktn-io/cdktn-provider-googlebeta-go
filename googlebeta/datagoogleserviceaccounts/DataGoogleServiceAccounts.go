@@ -5,14 +5,14 @@ package datagoogleserviceaccounts
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoogleserviceaccounts/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagoogleserviceaccounts/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_service_accounts google_service_accounts}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_service_accounts google_service_accounts}.
 type DataGoogleServiceAccounts interface {
 	cdktn.TerraformDataSource
 	Accounts() DataGoogleServiceAccountsAccountsList
@@ -370,7 +370,7 @@ func (j *jsiiProxy_DataGoogleServiceAccounts) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_service_accounts google_service_accounts} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_service_accounts google_service_accounts} Data Source.
 func NewDataGoogleServiceAccounts(scope constructs.Construct, id *string, config *DataGoogleServiceAccountsConfig) DataGoogleServiceAccounts {
 	_init_.Initialize()
 
@@ -388,7 +388,7 @@ func NewDataGoogleServiceAccounts(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/data-sources/google_service_accounts google_service_accounts} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_service_accounts google_service_accounts} Data Source.
 func NewDataGoogleServiceAccounts_Override(d DataGoogleServiceAccounts, scope constructs.Construct, id *string, config *DataGoogleServiceAccountsConfig) {
 	_init_.Initialize()
 

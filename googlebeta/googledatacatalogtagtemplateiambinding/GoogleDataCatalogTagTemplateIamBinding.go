@@ -5,14 +5,14 @@ package googledatacatalogtagtemplateiambinding
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googledatacatalogtagtemplateiambinding/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googledatacatalogtagtemplateiambinding/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_data_catalog_tag_template_iam_binding google_data_catalog_tag_template_iam_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_data_catalog_tag_template_iam_binding google_data_catalog_tag_template_iam_binding}.
 type GoogleDataCatalogTagTemplateIamBinding interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -520,7 +520,7 @@ func (j *jsiiProxy_GoogleDataCatalogTagTemplateIamBinding) TerraformResourceType
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_data_catalog_tag_template_iam_binding google_data_catalog_tag_template_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_data_catalog_tag_template_iam_binding google_data_catalog_tag_template_iam_binding} Resource.
 func NewGoogleDataCatalogTagTemplateIamBinding(scope constructs.Construct, id *string, config *GoogleDataCatalogTagTemplateIamBindingConfig) GoogleDataCatalogTagTemplateIamBinding {
 	_init_.Initialize()
 
@@ -538,7 +538,7 @@ func NewGoogleDataCatalogTagTemplateIamBinding(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_data_catalog_tag_template_iam_binding google_data_catalog_tag_template_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_data_catalog_tag_template_iam_binding google_data_catalog_tag_template_iam_binding} Resource.
 func NewGoogleDataCatalogTagTemplateIamBinding_Override(g GoogleDataCatalogTagTemplateIamBinding, scope constructs.Construct, id *string, config *GoogleDataCatalogTagTemplateIamBindingConfig) {
 	_init_.Initialize()
 

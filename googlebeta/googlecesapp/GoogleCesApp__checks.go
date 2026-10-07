@@ -259,6 +259,17 @@ func (g *jsiiProxy_GoogleCesApp) validatePutDefaultChannelProfileParameters(valu
 	return nil
 }
 
+func (g *jsiiProxy_GoogleCesApp) validatePutErrorHandlingSettingsParameters(value *GoogleCesAppErrorHandlingSettings) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
+	}
+
+	return nil
+}
+
 func (g *jsiiProxy_GoogleCesApp) validatePutEvaluationMetricsThresholdsParameters(value *GoogleCesAppEvaluationMetricsThresholds) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")
@@ -351,6 +362,17 @@ func (g *jsiiProxy_GoogleCesApp) validatePutVariableDeclarationsParameters(value
 		if !_jsii_.IsAnonymousProxy(value) {
 			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*GoogleCesAppVariableDeclarations; received %#v (a %T)", value, value)
 		}
+	}
+
+	return nil
+}
+
+func (g *jsiiProxy_GoogleCesApp) validatePutVpcScSettingsParameters(value *GoogleCesAppVpcScSettings) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
 	}
 
 	return nil
@@ -561,6 +583,26 @@ func (j *jsiiProxy_GoogleCesApp) validateSetLifecycleParameters(val *cdktn.Terra
 func (j *jsiiProxy_GoogleCesApp) validateSetLocationParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_GoogleCesApp) validateSetLockedParameters(val interface{}) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+	switch val.(type) {
+	case *bool:
+		// ok
+	case bool:
+		// ok
+	case cdktn.IResolvable:
+		// ok
+	default:
+		if !_jsii_.IsAnonymousProxy(val) {
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
+		}
 	}
 
 	return nil

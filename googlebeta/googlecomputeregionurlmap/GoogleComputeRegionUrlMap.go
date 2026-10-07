@@ -5,14 +5,14 @@ package googlecomputeregionurlmap
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecomputeregionurlmap/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecomputeregionurlmap/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_url_map google_compute_region_url_map}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_url_map google_compute_region_url_map}.
 type GoogleComputeRegionUrlMap interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -723,7 +723,7 @@ func (j *jsiiProxy_GoogleComputeRegionUrlMap) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_url_map google_compute_region_url_map} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_url_map google_compute_region_url_map} Resource.
 func NewGoogleComputeRegionUrlMap(scope constructs.Construct, id *string, config *GoogleComputeRegionUrlMapConfig) GoogleComputeRegionUrlMap {
 	_init_.Initialize()
 
@@ -741,7 +741,7 @@ func NewGoogleComputeRegionUrlMap(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_compute_region_url_map google_compute_region_url_map} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_compute_region_url_map google_compute_region_url_map} Resource.
 func NewGoogleComputeRegionUrlMap_Override(g GoogleComputeRegionUrlMap, scope constructs.Construct, id *string, config *GoogleComputeRegionUrlMapConfig) {
 	_init_.Initialize()
 

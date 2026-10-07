@@ -226,7 +226,29 @@ func (g *jsiiProxy_GoogleCesDeployment) validatePutChannelProfileParameters(valu
 	return nil
 }
 
+func (g *jsiiProxy_GoogleCesDeployment) validatePutInstagramCredentialsParameters(value *GoogleCesDeploymentInstagramCredentials) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
+	}
+
+	return nil
+}
+
 func (g *jsiiProxy_GoogleCesDeployment) validatePutTimeoutsParameters(value *GoogleCesDeploymentTimeouts) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
+	}
+
+	return nil
+}
+
+func (g *jsiiProxy_GoogleCesDeployment) validatePutWhatsappCredentialsParameters(value *GoogleCesDeploymentWhatsappCredentials) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}

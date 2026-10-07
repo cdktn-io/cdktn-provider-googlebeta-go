@@ -5,14 +5,14 @@ package googleredisclusterusercreatedconnections
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleredisclusterusercreatedconnections/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleredisclusterusercreatedconnections/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_redis_cluster_user_created_connections google_redis_cluster_user_created_connections}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_redis_cluster_user_created_connections google_redis_cluster_user_created_connections}.
 type GoogleRedisClusterUserCreatedConnections interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -510,7 +510,7 @@ func (j *jsiiProxy_GoogleRedisClusterUserCreatedConnections) TimeoutsInput() int
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_redis_cluster_user_created_connections google_redis_cluster_user_created_connections} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_redis_cluster_user_created_connections google_redis_cluster_user_created_connections} Resource.
 func NewGoogleRedisClusterUserCreatedConnections(scope constructs.Construct, id *string, config *GoogleRedisClusterUserCreatedConnectionsConfig) GoogleRedisClusterUserCreatedConnections {
 	_init_.Initialize()
 
@@ -528,7 +528,7 @@ func NewGoogleRedisClusterUserCreatedConnections(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_redis_cluster_user_created_connections google_redis_cluster_user_created_connections} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_redis_cluster_user_created_connections google_redis_cluster_user_created_connections} Resource.
 func NewGoogleRedisClusterUserCreatedConnections_Override(g GoogleRedisClusterUserCreatedConnections, scope constructs.Construct, id *string, config *GoogleRedisClusterUserCreatedConnectionsConfig) {
 	_init_.Initialize()
 

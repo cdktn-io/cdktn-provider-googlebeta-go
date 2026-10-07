@@ -51,6 +51,10 @@ func (g *jsiiProxy_GoogleManagedKafkaClusterGcpConfigAccessConfigOutputReference
 	return nil
 }
 
+func (g *jsiiProxy_GoogleManagedKafkaClusterGcpConfigAccessConfigOutputReference) validatePutPublicClusterConfigParameters(value *GoogleManagedKafkaClusterGcpConfigAccessConfigPublicClusterConfig) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleManagedKafkaClusterGcpConfigAccessConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }

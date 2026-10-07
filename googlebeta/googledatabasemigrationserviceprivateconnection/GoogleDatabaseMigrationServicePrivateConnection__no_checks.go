@@ -83,6 +83,10 @@ func (g *jsiiProxy_GoogleDatabaseMigrationServicePrivateConnection) validatePutP
 	return nil
 }
 
+func (g *jsiiProxy_GoogleDatabaseMigrationServicePrivateConnection) validatePutReservedPublicIpConfigParameters(value *GoogleDatabaseMigrationServicePrivateConnectionReservedPublicIpConfig) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleDatabaseMigrationServicePrivateConnection) validatePutTimeoutsParameters(value *GoogleDatabaseMigrationServicePrivateConnectionTimeouts) error {
 	return nil
 }

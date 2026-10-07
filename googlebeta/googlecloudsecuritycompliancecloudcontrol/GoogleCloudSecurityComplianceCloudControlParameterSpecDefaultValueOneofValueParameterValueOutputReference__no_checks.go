@@ -47,6 +47,10 @@ func (g *jsiiProxy_GoogleCloudSecurityComplianceCloudControlParameterSpecDefault
 	return nil
 }
 
+func (g *jsiiProxy_GoogleCloudSecurityComplianceCloudControlParameterSpecDefaultValueOneofValueParameterValueOutputReference) validatePutOneofValueParameters(value *GoogleCloudSecurityComplianceCloudControlParameterSpecDefaultValueOneofValueParameterValueOneofValue) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleCloudSecurityComplianceCloudControlParameterSpecDefaultValueOneofValueParameterValueOutputReference) validatePutStringListValueParameters(value *GoogleCloudSecurityComplianceCloudControlParameterSpecDefaultValueOneofValueParameterValueStringListValue) error {
 	return nil
 }

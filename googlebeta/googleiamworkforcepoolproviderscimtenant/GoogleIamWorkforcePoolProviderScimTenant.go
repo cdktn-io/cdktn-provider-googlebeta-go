@@ -5,14 +5,14 @@ package googleiamworkforcepoolproviderscimtenant
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiamworkforcepoolproviderscimtenant/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleiamworkforcepoolproviderscimtenant/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iam_workforce_pool_provider_scim_tenant google_iam_workforce_pool_provider_scim_tenant}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iam_workforce_pool_provider_scim_tenant google_iam_workforce_pool_provider_scim_tenant}.
 type GoogleIamWorkforcePoolProviderScimTenant interface {
 	cdktn.TerraformResource
 	BaseUri() *string
@@ -191,7 +191,6 @@ type GoogleIamWorkforcePoolProviderScimTenant interface {
 	// that needs it.
 	// Experimental.
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
-	ResetClaimMapping()
 	ResetDeletionPolicy()
 	ResetDescription()
 	ResetDisplayName()
@@ -659,7 +658,7 @@ func (j *jsiiProxy_GoogleIamWorkforcePoolProviderScimTenant) WorkforcePoolIdInpu
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iam_workforce_pool_provider_scim_tenant google_iam_workforce_pool_provider_scim_tenant} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iam_workforce_pool_provider_scim_tenant google_iam_workforce_pool_provider_scim_tenant} Resource.
 func NewGoogleIamWorkforcePoolProviderScimTenant(scope constructs.Construct, id *string, config *GoogleIamWorkforcePoolProviderScimTenantConfig) GoogleIamWorkforcePoolProviderScimTenant {
 	_init_.Initialize()
 
@@ -677,7 +676,7 @@ func NewGoogleIamWorkforcePoolProviderScimTenant(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iam_workforce_pool_provider_scim_tenant google_iam_workforce_pool_provider_scim_tenant} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iam_workforce_pool_provider_scim_tenant google_iam_workforce_pool_provider_scim_tenant} Resource.
 func NewGoogleIamWorkforcePoolProviderScimTenant_Override(g GoogleIamWorkforcePoolProviderScimTenant, scope constructs.Construct, id *string, config *GoogleIamWorkforcePoolProviderScimTenantConfig) {
 	_init_.Initialize()
 
@@ -1254,14 +1253,6 @@ func (g *jsiiProxy_GoogleIamWorkforcePoolProviderScimTenant) RegisterProviderFea
 		g,
 		"registerProviderFeatureUsage",
 		[]interface{}{feature},
-	)
-}
-
-func (g *jsiiProxy_GoogleIamWorkforcePoolProviderScimTenant) ResetClaimMapping() {
-	_jsii_.InvokeVoid(
-		g,
-		"resetClaimMapping",
-		nil, // no parameters
 	)
 }
 

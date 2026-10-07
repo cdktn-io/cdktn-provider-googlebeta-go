@@ -551,12 +551,12 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/provider-google-beta.googleComputeSecurityPolicyRule.GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestBody",
-		reflect.TypeOf((*GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestBody)(nil)).Elem(),
+		"@cdktn/provider-google-beta.googleComputeSecurityPolicyRule.GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestBodyA",
+		reflect.TypeOf((*GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestBodyA)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/provider-google-beta.googleComputeSecurityPolicyRule.GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestBodyList",
-		reflect.TypeOf((*GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestBodyList)(nil)).Elem(),
+		"@cdktn/provider-google-beta.googleComputeSecurityPolicyRule.GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestBodyAList",
+		reflect.TypeOf((*GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestBodyAList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -571,14 +571,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestBodyList{}
+			j := jsiiProxy_GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestBodyAList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/provider-google-beta.googleComputeSecurityPolicyRule.GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestBodyOutputReference",
-		reflect.TypeOf((*GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestBodyOutputReference)(nil)).Elem(),
+		"@cdktn/provider-google-beta.googleComputeSecurityPolicyRule.GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestBodyAOutputReference",
+		reflect.TypeOf((*GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestBodyAOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -608,7 +608,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valueInput", GoGetter: "ValueInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestBodyOutputReference{}
+			j := jsiiProxy_GoogleComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestBodyAOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},

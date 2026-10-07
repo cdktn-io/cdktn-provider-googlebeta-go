@@ -155,6 +155,10 @@ func (j *jsiiProxy_GoogleComputeServiceAttachment) validateSetNameParameters(val
 	return nil
 }
 
+func (j *jsiiProxy_GoogleComputeServiceAttachment) validateSetNatIpsPerEndpointParameters(val *float64) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleComputeServiceAttachment) validateSetNatSubnetsParameters(val *[]*string) error {
 	return nil
 }

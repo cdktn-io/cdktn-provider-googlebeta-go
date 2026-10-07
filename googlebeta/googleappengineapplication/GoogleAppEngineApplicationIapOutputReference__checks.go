@@ -210,6 +210,22 @@ func (j *jsiiProxy_GoogleAppEngineApplicationIapOutputReference) validateSetOaut
 	return nil
 }
 
+func (j *jsiiProxy_GoogleAppEngineApplicationIapOutputReference) validateSetOauth2ClientSecretWoParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_GoogleAppEngineApplicationIapOutputReference) validateSetOauth2ClientSecretWoVersionParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_GoogleAppEngineApplicationIapOutputReference) validateSetTerraformAttributeParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

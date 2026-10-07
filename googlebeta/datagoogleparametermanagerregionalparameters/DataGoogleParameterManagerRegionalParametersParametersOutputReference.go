@@ -5,9 +5,9 @@ package datagoogleparametermanagerregionalparameters
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/datagoogleparametermanagerregionalparameters/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/datagoogleparametermanagerregionalparameters/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -43,6 +43,7 @@ type DataGoogleParameterManagerRegionalParametersParametersOutputReference inter
 	ParameterId() *string
 	PolicyMember() DataGoogleParameterManagerRegionalParametersParametersPolicyMemberList
 	Project() *string
+	Tags() cdktn.StringMap
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -247,6 +248,16 @@ func (j *jsiiProxy_DataGoogleParameterManagerRegionalParametersParametersOutputR
 	_jsii_.Get(
 		j,
 		"project",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleParameterManagerRegionalParametersParametersOutputReference) Tags() cdktn.StringMap {
+	var returns cdktn.StringMap
+	_jsii_.Get(
+		j,
+		"tags",
 		&returns,
 	)
 	return returns

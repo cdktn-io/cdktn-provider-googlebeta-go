@@ -5,14 +5,14 @@ package googleparametermanagerparameterversion
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleparametermanagerparameterversion/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleparametermanagerparameterversion/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_parameter_manager_parameter_version google_parameter_manager_parameter_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_parameter_manager_parameter_version google_parameter_manager_parameter_version}.
 type GoogleParameterManagerParameterVersion interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -28,6 +28,9 @@ type GoogleParameterManagerParameterVersion interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DataCrc32C() *string
+	SetDataCrc32C(val *string)
+	DataCrc32CInput() *string
 	DeletionPolicy() *string
 	SetDeletionPolicy(val *string)
 	DeletionPolicyInput() *string
@@ -178,6 +181,7 @@ type GoogleParameterManagerParameterVersion interface {
 	// that needs it.
 	// Experimental.
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
+	ResetDataCrc32C()
 	ResetDeletionPolicy()
 	ResetDisabled()
 	ResetId()
@@ -257,6 +261,26 @@ func (j *jsiiProxy_GoogleParameterManagerParameterVersion) CreateTime() *string 
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleParameterManagerParameterVersion) DataCrc32C() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"dataCrc32C",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleParameterManagerParameterVersion) DataCrc32CInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"dataCrc32CInput",
 		&returns,
 	)
 	return returns
@@ -553,7 +577,7 @@ func (j *jsiiProxy_GoogleParameterManagerParameterVersion) UpdateTime() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_parameter_manager_parameter_version google_parameter_manager_parameter_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_parameter_manager_parameter_version google_parameter_manager_parameter_version} Resource.
 func NewGoogleParameterManagerParameterVersion(scope constructs.Construct, id *string, config *GoogleParameterManagerParameterVersionConfig) GoogleParameterManagerParameterVersion {
 	_init_.Initialize()
 
@@ -571,7 +595,7 @@ func NewGoogleParameterManagerParameterVersion(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_parameter_manager_parameter_version google_parameter_manager_parameter_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_parameter_manager_parameter_version google_parameter_manager_parameter_version} Resource.
 func NewGoogleParameterManagerParameterVersion_Override(g GoogleParameterManagerParameterVersion, scope constructs.Construct, id *string, config *GoogleParameterManagerParameterVersionConfig) {
 	_init_.Initialize()
 
@@ -600,6 +624,17 @@ func (j *jsiiProxy_GoogleParameterManagerParameterVersion)SetCount(val interface
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleParameterManagerParameterVersion)SetDataCrc32C(val *string) {
+	if err := j.validateSetDataCrc32CParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"dataCrc32C",
 		val,
 	)
 }
@@ -1104,6 +1139,14 @@ func (g *jsiiProxy_GoogleParameterManagerParameterVersion) RegisterProviderFeatu
 		g,
 		"registerProviderFeatureUsage",
 		[]interface{}{feature},
+	)
+}
+
+func (g *jsiiProxy_GoogleParameterManagerParameterVersion) ResetDataCrc32C() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDataCrc32C",
+		nil, // no parameters
 	)
 }
 

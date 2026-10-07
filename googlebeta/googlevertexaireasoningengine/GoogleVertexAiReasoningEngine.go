@@ -5,14 +5,14 @@ package googlevertexaireasoningengine
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlevertexaireasoningengine/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlevertexaireasoningengine/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine google_vertex_ai_reasoning_engine}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_vertex_ai_reasoning_engine google_vertex_ai_reasoning_engine}.
 type GoogleVertexAiReasoningEngine interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -697,7 +697,7 @@ func (j *jsiiProxy_GoogleVertexAiReasoningEngine) Url() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine google_vertex_ai_reasoning_engine} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_vertex_ai_reasoning_engine google_vertex_ai_reasoning_engine} Resource.
 func NewGoogleVertexAiReasoningEngine(scope constructs.Construct, id *string, config *GoogleVertexAiReasoningEngineConfig) GoogleVertexAiReasoningEngine {
 	_init_.Initialize()
 
@@ -715,7 +715,7 @@ func NewGoogleVertexAiReasoningEngine(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_vertex_ai_reasoning_engine google_vertex_ai_reasoning_engine} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_vertex_ai_reasoning_engine google_vertex_ai_reasoning_engine} Resource.
 func NewGoogleVertexAiReasoningEngine_Override(g GoogleVertexAiReasoningEngine, scope constructs.Construct, id *string, config *GoogleVertexAiReasoningEngineConfig) {
 	_init_.Initialize()
 

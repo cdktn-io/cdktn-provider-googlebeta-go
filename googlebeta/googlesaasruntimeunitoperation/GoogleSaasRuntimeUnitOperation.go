@@ -5,14 +5,14 @@ package googlesaasruntimeunitoperation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlesaasruntimeunitoperation/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlesaasruntimeunitoperation/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_saas_runtime_unit_operation google_saas_runtime_unit_operation}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_saas_runtime_unit_operation google_saas_runtime_unit_operation}.
 type GoogleSaasRuntimeUnitOperation interface {
 	cdktn.TerraformResource
 	Annotations() *map[string]*string
@@ -785,7 +785,7 @@ func (j *jsiiProxy_GoogleSaasRuntimeUnitOperation) WaitForCompletionInput() inte
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_saas_runtime_unit_operation google_saas_runtime_unit_operation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_saas_runtime_unit_operation google_saas_runtime_unit_operation} Resource.
 func NewGoogleSaasRuntimeUnitOperation(scope constructs.Construct, id *string, config *GoogleSaasRuntimeUnitOperationConfig) GoogleSaasRuntimeUnitOperation {
 	_init_.Initialize()
 
@@ -803,7 +803,7 @@ func NewGoogleSaasRuntimeUnitOperation(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_saas_runtime_unit_operation google_saas_runtime_unit_operation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_saas_runtime_unit_operation google_saas_runtime_unit_operation} Resource.
 func NewGoogleSaasRuntimeUnitOperation_Override(g GoogleSaasRuntimeUnitOperation, scope constructs.Construct, id *string, config *GoogleSaasRuntimeUnitOperationConfig) {
 	_init_.Initialize()
 

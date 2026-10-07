@@ -5,14 +5,14 @@ package googleservicedirectoryservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleservicedirectoryservice/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleservicedirectoryservice/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_service_directory_service google_service_directory_service}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_service_directory_service google_service_directory_service}.
 type GoogleServiceDirectoryService interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -497,7 +497,7 @@ func (j *jsiiProxy_GoogleServiceDirectoryService) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_service_directory_service google_service_directory_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_service_directory_service google_service_directory_service} Resource.
 func NewGoogleServiceDirectoryService(scope constructs.Construct, id *string, config *GoogleServiceDirectoryServiceConfig) GoogleServiceDirectoryService {
 	_init_.Initialize()
 
@@ -515,7 +515,7 @@ func NewGoogleServiceDirectoryService(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_service_directory_service google_service_directory_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_service_directory_service google_service_directory_service} Resource.
 func NewGoogleServiceDirectoryService_Override(g GoogleServiceDirectoryService, scope constructs.Construct, id *string, config *GoogleServiceDirectoryServiceConfig) {
 	_init_.Initialize()
 

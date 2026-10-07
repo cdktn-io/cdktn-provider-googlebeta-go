@@ -5,14 +5,14 @@ package googlestoragenotification
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlestoragenotification/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlestoragenotification/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_storage_notification google_storage_notification}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_storage_notification google_storage_notification}.
 type GoogleStorageNotification interface {
 	cdktn.TerraformResource
 	Bucket() *string
@@ -518,7 +518,7 @@ func (j *jsiiProxy_GoogleStorageNotification) TopicInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_storage_notification google_storage_notification} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_storage_notification google_storage_notification} Resource.
 func NewGoogleStorageNotification(scope constructs.Construct, id *string, config *GoogleStorageNotificationConfig) GoogleStorageNotification {
 	_init_.Initialize()
 
@@ -536,7 +536,7 @@ func NewGoogleStorageNotification(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_storage_notification google_storage_notification} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_storage_notification google_storage_notification} Resource.
 func NewGoogleStorageNotification_Override(g GoogleStorageNotification, scope constructs.Construct, id *string, config *GoogleStorageNotificationConfig) {
 	_init_.Initialize()
 

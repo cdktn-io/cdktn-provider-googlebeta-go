@@ -5,14 +5,14 @@ package googlecolabruntimetemplate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlecolabruntimetemplate/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlecolabruntimetemplate/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_colab_runtime_template google_colab_runtime_template}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_colab_runtime_template google_colab_runtime_template}.
 type GoogleColabRuntimeTemplate interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -796,7 +796,7 @@ func (j *jsiiProxy_GoogleColabRuntimeTemplate) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_colab_runtime_template google_colab_runtime_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_colab_runtime_template google_colab_runtime_template} Resource.
 func NewGoogleColabRuntimeTemplate(scope constructs.Construct, id *string, config *GoogleColabRuntimeTemplateConfig) GoogleColabRuntimeTemplate {
 	_init_.Initialize()
 
@@ -814,7 +814,7 @@ func NewGoogleColabRuntimeTemplate(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_colab_runtime_template google_colab_runtime_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_colab_runtime_template google_colab_runtime_template} Resource.
 func NewGoogleColabRuntimeTemplate_Override(g GoogleColabRuntimeTemplate, scope constructs.Construct, id *string, config *GoogleColabRuntimeTemplateConfig) {
 	_init_.Initialize()
 

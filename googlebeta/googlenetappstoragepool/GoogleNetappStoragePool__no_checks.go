@@ -195,10 +195,6 @@ func (j *jsiiProxy_GoogleNetappStoragePool) validateSetReplicaZoneParameters(val
 	return nil
 }
 
-func (j *jsiiProxy_GoogleNetappStoragePool) validateSetScaleTierParameters(val *string) error {
-	return nil
-}
-
 func (j *jsiiProxy_GoogleNetappStoragePool) validateSetScaleTypeParameters(val *string) error {
 	return nil
 }

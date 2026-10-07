@@ -5,14 +5,14 @@ package googlebigqueryjob
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebigqueryjob/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebigqueryjob/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigquery_job google_bigquery_job}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigquery_job google_bigquery_job}.
 type GoogleBigqueryJob interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -686,7 +686,7 @@ func (j *jsiiProxy_GoogleBigqueryJob) UserEmail() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigquery_job google_bigquery_job} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigquery_job google_bigquery_job} Resource.
 func NewGoogleBigqueryJob(scope constructs.Construct, id *string, config *GoogleBigqueryJobConfig) GoogleBigqueryJob {
 	_init_.Initialize()
 
@@ -704,7 +704,7 @@ func NewGoogleBigqueryJob(scope constructs.Construct, id *string, config *Google
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigquery_job google_bigquery_job} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigquery_job google_bigquery_job} Resource.
 func NewGoogleBigqueryJob_Override(g GoogleBigqueryJob, scope constructs.Construct, id *string, config *GoogleBigqueryJobConfig) {
 	_init_.Initialize()
 

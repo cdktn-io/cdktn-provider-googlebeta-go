@@ -5,14 +5,14 @@ package googleiapappengineserviceiampolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleiapappengineserviceiampolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleiapappengineserviceiampolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iap_app_engine_service_iam_policy google_iap_app_engine_service_iam_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iap_app_engine_service_iam_policy google_iap_app_engine_service_iam_policy}.
 type GoogleIapAppEngineServiceIamPolicy interface {
 	cdktn.TerraformResource
 	AppId() *string
@@ -472,7 +472,7 @@ func (j *jsiiProxy_GoogleIapAppEngineServiceIamPolicy) TerraformResourceType() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iap_app_engine_service_iam_policy google_iap_app_engine_service_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iap_app_engine_service_iam_policy google_iap_app_engine_service_iam_policy} Resource.
 func NewGoogleIapAppEngineServiceIamPolicy(scope constructs.Construct, id *string, config *GoogleIapAppEngineServiceIamPolicyConfig) GoogleIapAppEngineServiceIamPolicy {
 	_init_.Initialize()
 
@@ -490,7 +490,7 @@ func NewGoogleIapAppEngineServiceIamPolicy(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_iap_app_engine_service_iam_policy google_iap_app_engine_service_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_iap_app_engine_service_iam_policy google_iap_app_engine_service_iam_policy} Resource.
 func NewGoogleIapAppEngineServiceIamPolicy_Override(g GoogleIapAppEngineServiceIamPolicy, scope constructs.Construct, id *string, config *GoogleIapAppEngineServiceIamPolicyConfig) {
 	_init_.Initialize()
 

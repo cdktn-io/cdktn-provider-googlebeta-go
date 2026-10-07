@@ -5,14 +5,14 @@ package googlebigqueryrowaccesspolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlebigqueryrowaccesspolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlebigqueryrowaccesspolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigquery_row_access_policy google_bigquery_row_access_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigquery_row_access_policy google_bigquery_row_access_policy}.
 type GoogleBigqueryRowAccessPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -578,7 +578,7 @@ func (j *jsiiProxy_GoogleBigqueryRowAccessPolicy) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigquery_row_access_policy google_bigquery_row_access_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigquery_row_access_policy google_bigquery_row_access_policy} Resource.
 func NewGoogleBigqueryRowAccessPolicy(scope constructs.Construct, id *string, config *GoogleBigqueryRowAccessPolicyConfig) GoogleBigqueryRowAccessPolicy {
 	_init_.Initialize()
 
@@ -596,7 +596,7 @@ func NewGoogleBigqueryRowAccessPolicy(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_bigquery_row_access_policy google_bigquery_row_access_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigquery_row_access_policy google_bigquery_row_access_policy} Resource.
 func NewGoogleBigqueryRowAccessPolicy_Override(g GoogleBigqueryRowAccessPolicy, scope constructs.Construct, id *string, config *GoogleBigqueryRowAccessPolicyConfig) {
 	_init_.Initialize()
 

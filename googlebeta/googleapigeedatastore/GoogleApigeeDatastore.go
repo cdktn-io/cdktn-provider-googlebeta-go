@@ -5,14 +5,14 @@ package googleapigeedatastore
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googleapigeedatastore/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googleapigeedatastore/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_datastore google_apigee_datastore}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_datastore google_apigee_datastore}.
 type GoogleApigeeDatastore interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -563,7 +563,7 @@ func (j *jsiiProxy_GoogleApigeeDatastore) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_datastore google_apigee_datastore} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_datastore google_apigee_datastore} Resource.
 func NewGoogleApigeeDatastore(scope constructs.Construct, id *string, config *GoogleApigeeDatastoreConfig) GoogleApigeeDatastore {
 	_init_.Initialize()
 
@@ -581,7 +581,7 @@ func NewGoogleApigeeDatastore(scope constructs.Construct, id *string, config *Go
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_apigee_datastore google_apigee_datastore} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_apigee_datastore google_apigee_datastore} Resource.
 func NewGoogleApigeeDatastore_Override(g GoogleApigeeDatastore, scope constructs.Construct, id *string, config *GoogleApigeeDatastoreConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package googlenetworkservicesmulticastgrouprange
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v20/googlenetworkservicesmulticastgrouprange/internal"
+	"github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v21/googlenetworkservicesmulticastgrouprange/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_services_multicast_group_range google_network_services_multicast_group_range}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_services_multicast_group_range google_network_services_multicast_group_range}.
 type GoogleNetworkServicesMulticastGroupRange interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -764,7 +764,7 @@ func (j *jsiiProxy_GoogleNetworkServicesMulticastGroupRange) UpdateTime() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_services_multicast_group_range google_network_services_multicast_group_range} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_services_multicast_group_range google_network_services_multicast_group_range} Resource.
 func NewGoogleNetworkServicesMulticastGroupRange(scope constructs.Construct, id *string, config *GoogleNetworkServicesMulticastGroupRangeConfig) GoogleNetworkServicesMulticastGroupRange {
 	_init_.Initialize()
 
@@ -782,7 +782,7 @@ func NewGoogleNetworkServicesMulticastGroupRange(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.46.1/docs/resources/google_network_services_multicast_group_range google_network_services_multicast_group_range} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_services_multicast_group_range google_network_services_multicast_group_range} Resource.
 func NewGoogleNetworkServicesMulticastGroupRange_Override(g GoogleNetworkServicesMulticastGroupRange, scope constructs.Construct, id *string, config *GoogleNetworkServicesMulticastGroupRangeConfig) {
 	_init_.Initialize()
 
