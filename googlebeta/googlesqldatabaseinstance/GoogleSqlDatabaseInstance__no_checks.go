@@ -79,6 +79,10 @@ func (g *jsiiProxy_GoogleSqlDatabaseInstance) validateOverrideLogicalIdParameter
 	return nil
 }
 
+func (g *jsiiProxy_GoogleSqlDatabaseInstance) validatePutBlueGreenDeploymentParameters(value *GoogleSqlDatabaseInstanceBlueGreenDeployment) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleSqlDatabaseInstance) validatePutCloneParameters(value *GoogleSqlDatabaseInstanceClone) error {
 	return nil
 }

@@ -87,6 +87,10 @@ func (g *jsiiProxy_GoogleNetworkSecurityFirewallEndpoint) validatePutTimeoutsPar
 	return nil
 }
 
+func (g *jsiiProxy_GoogleNetworkSecurityFirewallEndpoint) validatePutWildfireSettingsParameters(value *GoogleNetworkSecurityFirewallEndpointWildfireSettings) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleNetworkSecurityFirewallEndpoint) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }

@@ -93,7 +93,7 @@ func (g *jsiiProxy_GoogleCloudSecurityComplianceCloudControlParameterSpecDefault
 	return nil
 }
 
-func (g *jsiiProxy_GoogleCloudSecurityComplianceCloudControlParameterSpecDefaultValueOneofValueParameterValueOutputReference) validatePutOneofValueParameters(value *GoogleCloudSecurityComplianceCloudControlParameterSpecDefaultValueOneofValueParameterValueOneofValue) error {
+func (g *jsiiProxy_GoogleCloudSecurityComplianceCloudControlParameterSpecDefaultValueOneofValueParameterValueOutputReference) validatePutOneofValueParameters(value *GoogleCloudSecurityComplianceCloudControlParameterSpecDefaultValueOneofValue) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}

@@ -87,6 +87,10 @@ func (j *jsiiProxy_GoogleDataprocClusterClusterConfigMasterConfigDiskConfigAttac
 	return nil
 }
 
+func (j *jsiiProxy_GoogleDataprocClusterClusterConfigMasterConfigDiskConfigAttachedDiskConfigOutputReference) validateSetTypeParameters(val *string) error {
+	return nil
+}
+
 func validateNewGoogleDataprocClusterClusterConfigMasterConfigDiskConfigAttachedDiskConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }

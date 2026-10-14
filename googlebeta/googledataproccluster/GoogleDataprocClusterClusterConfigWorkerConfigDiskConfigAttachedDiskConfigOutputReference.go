@@ -52,6 +52,9 @@ type GoogleDataprocClusterClusterConfigWorkerConfigDiskConfigAttachedDiskConfigO
 	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
 	SetTerraformResource(val cdktn.IInterpolatingParent)
+	Type() *string
+	SetType(val *string)
+	TypeInput() *string
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
@@ -80,6 +83,7 @@ type GoogleDataprocClusterClusterConfigWorkerConfigDiskConfigAttachedDiskConfigO
 	ResetDiskType()
 	ResetProvisionedIops()
 	ResetProvisionedThroughput()
+	ResetType()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -245,6 +249,26 @@ func (j *jsiiProxy_GoogleDataprocClusterClusterConfigWorkerConfigDiskConfigAttac
 	return returns
 }
 
+func (j *jsiiProxy_GoogleDataprocClusterClusterConfigWorkerConfigDiskConfigAttachedDiskConfigOutputReference) Type() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"type",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDataprocClusterClusterConfigWorkerConfigDiskConfigAttachedDiskConfigOutputReference) TypeInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"typeInput",
+		&returns,
+	)
+	return returns
+}
+
 
 func NewGoogleDataprocClusterClusterConfigWorkerConfigDiskConfigAttachedDiskConfigOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) GoogleDataprocClusterClusterConfigWorkerConfigDiskConfigAttachedDiskConfigOutputReference {
 	_init_.Initialize()
@@ -368,6 +392,17 @@ func (j *jsiiProxy_GoogleDataprocClusterClusterConfigWorkerConfigDiskConfigAttac
 	_jsii_.Set(
 		j,
 		"terraformResource",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleDataprocClusterClusterConfigWorkerConfigDiskConfigAttachedDiskConfigOutputReference)SetType(val *string) {
+	if err := j.validateSetTypeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"type",
 		val,
 	)
 }
@@ -586,6 +621,14 @@ func (g *jsiiProxy_GoogleDataprocClusterClusterConfigWorkerConfigDiskConfigAttac
 	_jsii_.InvokeVoid(
 		g,
 		"resetProvisionedThroughput",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleDataprocClusterClusterConfigWorkerConfigDiskConfigAttachedDiskConfigOutputReference) ResetType() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetType",
 		nil, // no parameters
 	)
 }

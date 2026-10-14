@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_chronicle_case_close_definition google_chronicle_case_close_definition}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_chronicle_case_close_definition google_chronicle_case_close_definition}.
 type GoogleChronicleCaseCloseDefinition interface {
 	cdktn.TerraformResource
 	CaseCloseDefinitionId() *string
@@ -554,7 +554,7 @@ func (j *jsiiProxy_GoogleChronicleCaseCloseDefinition) TimeoutsInput() interface
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_chronicle_case_close_definition google_chronicle_case_close_definition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_chronicle_case_close_definition google_chronicle_case_close_definition} Resource.
 func NewGoogleChronicleCaseCloseDefinition(scope constructs.Construct, id *string, config *GoogleChronicleCaseCloseDefinitionConfig) GoogleChronicleCaseCloseDefinition {
 	_init_.Initialize()
 
@@ -572,7 +572,7 @@ func NewGoogleChronicleCaseCloseDefinition(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_chronicle_case_close_definition google_chronicle_case_close_definition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_chronicle_case_close_definition google_chronicle_case_close_definition} Resource.
 func NewGoogleChronicleCaseCloseDefinition_Override(g GoogleChronicleCaseCloseDefinition, scope constructs.Construct, id *string, config *GoogleChronicleCaseCloseDefinitionConfig) {
 	_init_.Initialize()
 

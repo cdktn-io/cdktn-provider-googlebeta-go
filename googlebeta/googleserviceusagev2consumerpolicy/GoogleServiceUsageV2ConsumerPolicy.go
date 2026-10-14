@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_service_usage_v2_consumer_policy google_service_usage_v2_consumer_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_service_usage_v2_consumer_policy google_service_usage_v2_consumer_policy}.
 type GoogleServiceUsageV2ConsumerPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -544,7 +544,7 @@ func (j *jsiiProxy_GoogleServiceUsageV2ConsumerPolicy) ValidateDependenciesInput
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_service_usage_v2_consumer_policy google_service_usage_v2_consumer_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_service_usage_v2_consumer_policy google_service_usage_v2_consumer_policy} Resource.
 func NewGoogleServiceUsageV2ConsumerPolicy(scope constructs.Construct, id *string, config *GoogleServiceUsageV2ConsumerPolicyConfig) GoogleServiceUsageV2ConsumerPolicy {
 	_init_.Initialize()
 
@@ -562,7 +562,7 @@ func NewGoogleServiceUsageV2ConsumerPolicy(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_service_usage_v2_consumer_policy google_service_usage_v2_consumer_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_service_usage_v2_consumer_policy google_service_usage_v2_consumer_policy} Resource.
 func NewGoogleServiceUsageV2ConsumerPolicy_Override(g GoogleServiceUsageV2ConsumerPolicy, scope constructs.Construct, id *string, config *GoogleServiceUsageV2ConsumerPolicyConfig) {
 	_init_.Initialize()
 

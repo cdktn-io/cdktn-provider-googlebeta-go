@@ -70,6 +70,9 @@ type GoogleComputeInstanceTemplateNetworkInterfaceOutputReference interface {
 	QueueCount() *float64
 	SetQueueCount(val *float64)
 	QueueCountInput() *float64
+	ServiceClassId() *string
+	SetServiceClassId(val *string)
+	ServiceClassIdInput() *string
 	StackType() *string
 	SetStackType(val *string)
 	StackTypeInput() *string
@@ -131,6 +134,7 @@ type GoogleComputeInstanceTemplateNetworkInterfaceOutputReference interface {
 	ResetNetworkIp()
 	ResetNicType()
 	ResetQueueCount()
+	ResetServiceClassId()
 	ResetStackType()
 	ResetSubnetwork()
 	ResetSubnetworkProject()
@@ -490,6 +494,26 @@ func (j *jsiiProxy_GoogleComputeInstanceTemplateNetworkInterfaceOutputReference)
 	return returns
 }
 
+func (j *jsiiProxy_GoogleComputeInstanceTemplateNetworkInterfaceOutputReference) ServiceClassId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"serviceClassId",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeInstanceTemplateNetworkInterfaceOutputReference) ServiceClassIdInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"serviceClassIdInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleComputeInstanceTemplateNetworkInterfaceOutputReference) StackType() *string {
 	var returns *string
 	_jsii_.Get(
@@ -746,6 +770,17 @@ func (j *jsiiProxy_GoogleComputeInstanceTemplateNetworkInterfaceOutputReference)
 	_jsii_.Set(
 		j,
 		"queueCount",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleComputeInstanceTemplateNetworkInterfaceOutputReference)SetServiceClassId(val *string) {
+	if err := j.validateSetServiceClassIdParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"serviceClassId",
 		val,
 	)
 }
@@ -1146,6 +1181,14 @@ func (g *jsiiProxy_GoogleComputeInstanceTemplateNetworkInterfaceOutputReference)
 	_jsii_.InvokeVoid(
 		g,
 		"resetQueueCount",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleComputeInstanceTemplateNetworkInterfaceOutputReference) ResetServiceClassId() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetServiceClassId",
 		nil, // no parameters
 	)
 }

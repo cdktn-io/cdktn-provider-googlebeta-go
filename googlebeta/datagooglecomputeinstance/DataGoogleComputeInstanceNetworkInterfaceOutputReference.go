@@ -50,6 +50,7 @@ type DataGoogleComputeInstanceNetworkInterfaceOutputReference interface {
 	ParentNicName() *string
 	QueueCount() *float64
 	SecurityPolicy() *string
+	ServiceClassId() *string
 	StackType() *string
 	Subnetwork() *string
 	SubnetworkProject() *string
@@ -326,6 +327,16 @@ func (j *jsiiProxy_DataGoogleComputeInstanceNetworkInterfaceOutputReference) Sec
 	_jsii_.Get(
 		j,
 		"securityPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleComputeInstanceNetworkInterfaceOutputReference) ServiceClassId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"serviceClassId",
 		&returns,
 	)
 	return returns

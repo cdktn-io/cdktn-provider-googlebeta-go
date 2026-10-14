@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_services_agent_connectivity_template google_network_services_agent_connectivity_template}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_network_services_agent_connectivity_template google_network_services_agent_connectivity_template}.
 type GoogleNetworkServicesAgentConnectivityTemplate interface {
 	cdktn.TerraformResource
 	AccessPath() *string
@@ -21,6 +21,9 @@ type GoogleNetworkServicesAgentConnectivityTemplate interface {
 	AccessTypes() *[]*string
 	SetAccessTypes(val *[]*string)
 	AccessTypesInput() *[]*string
+	AgentCompute() *string
+	SetAgentCompute(val *string)
+	AgentComputeInput() *string
 	AgentConnectivityTemplateId() *string
 	SetAgentConnectivityTemplateId(val *string)
 	AgentConnectivityTemplateIdInput() *string
@@ -44,6 +47,9 @@ type GoogleNetworkServicesAgentConnectivityTemplate interface {
 	DependsOn() *[]*string
 	// Experimental.
 	SetDependsOn(val *[]*string)
+	DeploymentModel() *string
+	SetDeploymentModel(val *string)
+	DeploymentModelInput() *string
 	Description() *string
 	SetDescription(val *string)
 	DescriptionInput() *string
@@ -193,7 +199,9 @@ type GoogleNetworkServicesAgentConnectivityTemplate interface {
 	// Experimental.
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
 	ResetAccessTypes()
+	ResetAgentCompute()
 	ResetDeletionPolicy()
+	ResetDeploymentModel()
 	ResetDescription()
 	ResetEgressNetworkConfig()
 	ResetId()
@@ -265,6 +273,26 @@ func (j *jsiiProxy_GoogleNetworkServicesAgentConnectivityTemplate) AccessTypesIn
 	_jsii_.Get(
 		j,
 		"accessTypesInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleNetworkServicesAgentConnectivityTemplate) AgentCompute() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"agentCompute",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleNetworkServicesAgentConnectivityTemplate) AgentComputeInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"agentComputeInput",
 		&returns,
 	)
 	return returns
@@ -365,6 +393,26 @@ func (j *jsiiProxy_GoogleNetworkServicesAgentConnectivityTemplate) DependsOn() *
 	_jsii_.Get(
 		j,
 		"dependsOn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleNetworkServicesAgentConnectivityTemplate) DeploymentModel() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deploymentModel",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleNetworkServicesAgentConnectivityTemplate) DeploymentModelInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"deploymentModelInput",
 		&returns,
 	)
 	return returns
@@ -671,7 +719,7 @@ func (j *jsiiProxy_GoogleNetworkServicesAgentConnectivityTemplate) UpdateTime() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_services_agent_connectivity_template google_network_services_agent_connectivity_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_network_services_agent_connectivity_template google_network_services_agent_connectivity_template} Resource.
 func NewGoogleNetworkServicesAgentConnectivityTemplate(scope constructs.Construct, id *string, config *GoogleNetworkServicesAgentConnectivityTemplateConfig) GoogleNetworkServicesAgentConnectivityTemplate {
 	_init_.Initialize()
 
@@ -689,7 +737,7 @@ func NewGoogleNetworkServicesAgentConnectivityTemplate(scope constructs.Construc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_services_agent_connectivity_template google_network_services_agent_connectivity_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_network_services_agent_connectivity_template google_network_services_agent_connectivity_template} Resource.
 func NewGoogleNetworkServicesAgentConnectivityTemplate_Override(g GoogleNetworkServicesAgentConnectivityTemplate, scope constructs.Construct, id *string, config *GoogleNetworkServicesAgentConnectivityTemplateConfig) {
 	_init_.Initialize()
 
@@ -718,6 +766,17 @@ func (j *jsiiProxy_GoogleNetworkServicesAgentConnectivityTemplate)SetAccessTypes
 	_jsii_.Set(
 		j,
 		"accessTypes",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleNetworkServicesAgentConnectivityTemplate)SetAgentCompute(val *string) {
+	if err := j.validateSetAgentComputeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"agentCompute",
 		val,
 	)
 }
@@ -770,6 +829,17 @@ func (j *jsiiProxy_GoogleNetworkServicesAgentConnectivityTemplate)SetDependsOn(v
 	_jsii_.Set(
 		j,
 		"dependsOn",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleNetworkServicesAgentConnectivityTemplate)SetDeploymentModel(val *string) {
+	if err := j.validateSetDeploymentModelParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deploymentModel",
 		val,
 	)
 }
@@ -1277,10 +1347,26 @@ func (g *jsiiProxy_GoogleNetworkServicesAgentConnectivityTemplate) ResetAccessTy
 	)
 }
 
+func (g *jsiiProxy_GoogleNetworkServicesAgentConnectivityTemplate) ResetAgentCompute() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetAgentCompute",
+		nil, // no parameters
+	)
+}
+
 func (g *jsiiProxy_GoogleNetworkServicesAgentConnectivityTemplate) ResetDeletionPolicy() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetDeletionPolicy",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleNetworkServicesAgentConnectivityTemplate) ResetDeploymentModel() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDeploymentModel",
 		nil, // no parameters
 	)
 }

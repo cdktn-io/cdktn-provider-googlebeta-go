@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_resource_manager_capability_config google_resource_manager_capability_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_resource_manager_capability_config google_resource_manager_capability_config}.
 type GoogleResourceManagerCapabilityConfigA interface {
 	cdktn.TerraformResource
 	CapabilityConfigId() *string
@@ -588,7 +588,7 @@ func (j *jsiiProxy_GoogleResourceManagerCapabilityConfigA) UpdateTime() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_resource_manager_capability_config google_resource_manager_capability_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_resource_manager_capability_config google_resource_manager_capability_config} Resource.
 func NewGoogleResourceManagerCapabilityConfigA(scope constructs.Construct, id *string, config *GoogleResourceManagerCapabilityConfigAConfig) GoogleResourceManagerCapabilityConfigA {
 	_init_.Initialize()
 
@@ -606,7 +606,7 @@ func NewGoogleResourceManagerCapabilityConfigA(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_resource_manager_capability_config google_resource_manager_capability_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_resource_manager_capability_config google_resource_manager_capability_config} Resource.
 func NewGoogleResourceManagerCapabilityConfigA_Override(g GoogleResourceManagerCapabilityConfigA, scope constructs.Construct, id *string, config *GoogleResourceManagerCapabilityConfigAConfig) {
 	_init_.Initialize()
 

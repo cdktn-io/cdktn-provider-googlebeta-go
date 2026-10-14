@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_security_profile google_network_security_security_profile}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_network_security_security_profile google_network_security_security_profile}.
 type GoogleNetworkSecuritySecurityProfile interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -744,7 +744,7 @@ func (j *jsiiProxy_GoogleNetworkSecuritySecurityProfile) WildfireAnalysisProfile
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_security_profile google_network_security_security_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_network_security_security_profile google_network_security_security_profile} Resource.
 func NewGoogleNetworkSecuritySecurityProfile(scope constructs.Construct, id *string, config *GoogleNetworkSecuritySecurityProfileConfig) GoogleNetworkSecuritySecurityProfile {
 	_init_.Initialize()
 
@@ -762,7 +762,7 @@ func NewGoogleNetworkSecuritySecurityProfile(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_security_profile google_network_security_security_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_network_security_security_profile google_network_security_security_profile} Resource.
 func NewGoogleNetworkSecuritySecurityProfile_Override(g GoogleNetworkSecuritySecurityProfile, scope constructs.Construct, id *string, config *GoogleNetworkSecuritySecurityProfileConfig) {
 	_init_.Initialize()
 

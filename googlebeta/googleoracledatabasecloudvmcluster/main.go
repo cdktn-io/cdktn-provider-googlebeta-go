@@ -308,6 +308,8 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetSparseDiskgroupEnabled", GoMethod: "ResetSparseDiskgroupEnabled"},
 			_jsii_.MemberMethod{JsiiMethod: "resetSshPublicKeys", GoMethod: "ResetSshPublicKeys"},
 			_jsii_.MemberMethod{JsiiMethod: "resetTimeZone", GoMethod: "ResetTimeZone"},
+			_jsii_.MemberMethod{JsiiMethod: "resetVmBackupStorageType", GoMethod: "ResetVmBackupStorageType"},
+			_jsii_.MemberMethod{JsiiMethod: "resetVmFileSystemStorageType", GoMethod: "ResetVmFileSystemStorageType"},
 			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
 			_jsii_.MemberProperty{JsiiProperty: "scanDns", GoGetter: "ScanDns"},
 			_jsii_.MemberProperty{JsiiProperty: "scanDnsRecordId", GoGetter: "ScanDnsRecordId"},
@@ -328,6 +330,10 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "timeZone", GoGetter: "TimeZone"},
 			_jsii_.MemberProperty{JsiiProperty: "timeZoneInput", GoGetter: "TimeZoneInput"},
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "vmBackupStorageType", GoGetter: "VmBackupStorageType"},
+			_jsii_.MemberProperty{JsiiProperty: "vmBackupStorageTypeInput", GoGetter: "VmBackupStorageTypeInput"},
+			_jsii_.MemberProperty{JsiiProperty: "vmFileSystemStorageType", GoGetter: "VmFileSystemStorageType"},
+			_jsii_.MemberProperty{JsiiProperty: "vmFileSystemStorageTypeInput", GoGetter: "VmFileSystemStorageTypeInput"},
 		},
 		func() interface{} {
 			j := jsiiProxy_GoogleOracleDatabaseCloudVmClusterPropertiesOutputReference{}

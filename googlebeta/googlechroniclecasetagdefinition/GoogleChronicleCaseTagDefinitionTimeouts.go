@@ -5,11 +5,11 @@ package googlechroniclecasetagdefinition
 
 
 type GoogleChronicleCaseTagDefinitionTimeouts struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_chronicle_case_tag_definition#create GoogleChronicleCaseTagDefinition#create}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_chronicle_case_tag_definition#create GoogleChronicleCaseTagDefinition#create}.
 	Create *string `field:"optional" json:"create" yaml:"create"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_chronicle_case_tag_definition#delete GoogleChronicleCaseTagDefinition#delete}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_chronicle_case_tag_definition#delete GoogleChronicleCaseTagDefinition#delete}.
 	Delete *string `field:"optional" json:"delete" yaml:"delete"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_chronicle_case_tag_definition#update GoogleChronicleCaseTagDefinition#update}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_chronicle_case_tag_definition#update GoogleChronicleCaseTagDefinition#update}.
 	Update *string `field:"optional" json:"update" yaml:"update"`
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_storage_ftp_server google_storage_ftp_server}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_storage_ftp_server google_storage_ftp_server}.
 type GoogleStorageFtpServer interface {
 	cdktn.TerraformResource
 	AccessType() *string
@@ -649,7 +649,7 @@ func (j *jsiiProxy_GoogleStorageFtpServer) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_storage_ftp_server google_storage_ftp_server} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_storage_ftp_server google_storage_ftp_server} Resource.
 func NewGoogleStorageFtpServer(scope constructs.Construct, id *string, config *GoogleStorageFtpServerConfig) GoogleStorageFtpServer {
 	_init_.Initialize()
 
@@ -667,7 +667,7 @@ func NewGoogleStorageFtpServer(scope constructs.Construct, id *string, config *G
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_storage_ftp_server google_storage_ftp_server} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_storage_ftp_server google_storage_ftp_server} Resource.
 func NewGoogleStorageFtpServer_Override(g GoogleStorageFtpServer, scope constructs.Construct, id *string, config *GoogleStorageFtpServerConfig) {
 	_init_.Initialize()
 

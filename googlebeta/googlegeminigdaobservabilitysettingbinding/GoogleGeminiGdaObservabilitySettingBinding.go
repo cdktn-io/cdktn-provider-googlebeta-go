@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_gemini_gda_observability_setting_binding google_gemini_gda_observability_setting_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_gda_observability_setting_binding google_gemini_gda_observability_setting_binding}.
 type GoogleGeminiGdaObservabilitySettingBinding interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -636,7 +636,7 @@ func (j *jsiiProxy_GoogleGeminiGdaObservabilitySettingBinding) UpdateTime() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_gemini_gda_observability_setting_binding google_gemini_gda_observability_setting_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_gda_observability_setting_binding google_gemini_gda_observability_setting_binding} Resource.
 func NewGoogleGeminiGdaObservabilitySettingBinding(scope constructs.Construct, id *string, config *GoogleGeminiGdaObservabilitySettingBindingConfig) GoogleGeminiGdaObservabilitySettingBinding {
 	_init_.Initialize()
 
@@ -654,7 +654,7 @@ func NewGoogleGeminiGdaObservabilitySettingBinding(scope constructs.Construct, i
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_gemini_gda_observability_setting_binding google_gemini_gda_observability_setting_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_gda_observability_setting_binding google_gemini_gda_observability_setting_binding} Resource.
 func NewGoogleGeminiGdaObservabilitySettingBinding_Override(g GoogleGeminiGdaObservabilitySettingBinding, scope constructs.Construct, id *string, config *GoogleGeminiGdaObservabilitySettingBindingConfig) {
 	_init_.Initialize()
 

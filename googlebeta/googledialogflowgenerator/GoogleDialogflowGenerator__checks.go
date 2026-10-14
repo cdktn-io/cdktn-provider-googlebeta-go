@@ -215,6 +215,28 @@ func (g *jsiiProxy_GoogleDialogflowGenerator) validateOverrideLogicalIdParameter
 	return nil
 }
 
+func (g *jsiiProxy_GoogleDialogflowGenerator) validatePutAgentCoachingContextParameters(value *GoogleDialogflowGeneratorAgentCoachingContext) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
+	}
+
+	return nil
+}
+
+func (g *jsiiProxy_GoogleDialogflowGenerator) validatePutFreeFormContextParameters(value *GoogleDialogflowGeneratorFreeFormContext) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
+	}
+
+	return nil
+}
+
 func (g *jsiiProxy_GoogleDialogflowGenerator) validatePutInferenceParameterParameters(value *GoogleDialogflowGeneratorInferenceParameter) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")
@@ -489,6 +511,14 @@ func (j *jsiiProxy_GoogleDialogflowGenerator) validateSetProvisionersParameters(
 }
 
 func (j *jsiiProxy_GoogleDialogflowGenerator) validateSetPublishedModelParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_GoogleDialogflowGenerator) validateSetToolsParameters(val *[]*string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}

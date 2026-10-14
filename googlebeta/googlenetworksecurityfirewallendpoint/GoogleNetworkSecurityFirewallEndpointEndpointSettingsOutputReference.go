@@ -23,6 +23,9 @@ type GoogleNetworkSecurityFirewallEndpointEndpointSettingsOutputReference interf
 	ComplexObjectIsFromSet() *bool
 	// Experimental.
 	SetComplexObjectIsFromSet(val *bool)
+	ContentCloudRegion() *string
+	SetContentCloudRegion(val *string)
+	ContentCloudRegionInput() *string
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -30,6 +33,9 @@ type GoogleNetworkSecurityFirewallEndpointEndpointSettingsOutputReference interf
 	CreationStack() *[]*string
 	// Experimental.
 	Fqn() *string
+	HttpPartialResponseBlocked() interface{}
+	SetHttpPartialResponseBlocked(val interface{})
+	HttpPartialResponseBlockedInput() interface{}
 	InternalValue() *GoogleNetworkSecurityFirewallEndpointEndpointSettings
 	SetInternalValue(val *GoogleNetworkSecurityFirewallEndpointEndpointSettings)
 	JumboFramesEnabled() interface{}
@@ -67,6 +73,8 @@ type GoogleNetworkSecurityFirewallEndpointEndpointSettingsOutputReference interf
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	ResetContentCloudRegion()
+	ResetHttpPartialResponseBlocked()
 	ResetJumboFramesEnabled()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -103,6 +111,26 @@ func (j *jsiiProxy_GoogleNetworkSecurityFirewallEndpointEndpointSettingsOutputRe
 	return returns
 }
 
+func (j *jsiiProxy_GoogleNetworkSecurityFirewallEndpointEndpointSettingsOutputReference) ContentCloudRegion() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"contentCloudRegion",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleNetworkSecurityFirewallEndpointEndpointSettingsOutputReference) ContentCloudRegionInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"contentCloudRegionInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleNetworkSecurityFirewallEndpointEndpointSettingsOutputReference) CreationStack() *[]*string {
 	var returns *[]*string
 	_jsii_.Get(
@@ -118,6 +146,26 @@ func (j *jsiiProxy_GoogleNetworkSecurityFirewallEndpointEndpointSettingsOutputRe
 	_jsii_.Get(
 		j,
 		"fqn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleNetworkSecurityFirewallEndpointEndpointSettingsOutputReference) HttpPartialResponseBlocked() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"httpPartialResponseBlocked",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleNetworkSecurityFirewallEndpointEndpointSettingsOutputReference) HttpPartialResponseBlockedInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"httpPartialResponseBlockedInput",
 		&returns,
 	)
 	return returns
@@ -219,6 +267,28 @@ func (j *jsiiProxy_GoogleNetworkSecurityFirewallEndpointEndpointSettingsOutputRe
 	_jsii_.Set(
 		j,
 		"complexObjectIsFromSet",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleNetworkSecurityFirewallEndpointEndpointSettingsOutputReference)SetContentCloudRegion(val *string) {
+	if err := j.validateSetContentCloudRegionParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"contentCloudRegion",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleNetworkSecurityFirewallEndpointEndpointSettingsOutputReference)SetHttpPartialResponseBlocked(val interface{}) {
+	if err := j.validateSetHttpPartialResponseBlockedParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"httpPartialResponseBlocked",
 		val,
 	)
 }
@@ -451,6 +521,22 @@ func (g *jsiiProxy_GoogleNetworkSecurityFirewallEndpointEndpointSettingsOutputRe
 	)
 
 	return returns
+}
+
+func (g *jsiiProxy_GoogleNetworkSecurityFirewallEndpointEndpointSettingsOutputReference) ResetContentCloudRegion() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetContentCloudRegion",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleNetworkSecurityFirewallEndpointEndpointSettingsOutputReference) ResetHttpPartialResponseBlocked() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetHttpPartialResponseBlocked",
+		nil, // no parameters
+	)
 }
 
 func (g *jsiiProxy_GoogleNetworkSecurityFirewallEndpointEndpointSettingsOutputReference) ResetJumboFramesEnabled() {

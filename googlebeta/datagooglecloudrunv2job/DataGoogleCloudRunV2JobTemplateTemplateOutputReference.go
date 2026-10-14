@@ -50,6 +50,7 @@ type DataGoogleCloudRunV2JobTemplateTemplateOutputReference interface {
 	Timeout() *string
 	Volumes() DataGoogleCloudRunV2JobTemplateTemplateVolumesList
 	VpcAccess() DataGoogleCloudRunV2JobTemplateTemplateVpcAccessList
+	WorkloadIdentityConfig() DataGoogleCloudRunV2JobTemplateTemplateWorkloadIdentityConfigList
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
@@ -254,6 +255,16 @@ func (j *jsiiProxy_DataGoogleCloudRunV2JobTemplateTemplateOutputReference) VpcAc
 	_jsii_.Get(
 		j,
 		"vpcAccess",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleCloudRunV2JobTemplateTemplateOutputReference) WorkloadIdentityConfig() DataGoogleCloudRunV2JobTemplateTemplateWorkloadIdentityConfigList {
+	var returns DataGoogleCloudRunV2JobTemplateTemplateWorkloadIdentityConfigList
+	_jsii_.Get(
+		j,
+		"workloadIdentityConfig",
 		&returns,
 	)
 	return returns

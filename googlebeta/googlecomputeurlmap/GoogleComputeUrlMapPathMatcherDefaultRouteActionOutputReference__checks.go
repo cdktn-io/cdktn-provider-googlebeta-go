@@ -115,7 +115,29 @@ func (g *jsiiProxy_GoogleComputeUrlMapPathMatcherDefaultRouteActionOutputReferen
 	return nil
 }
 
+func (g *jsiiProxy_GoogleComputeUrlMapPathMatcherDefaultRouteActionOutputReference) validatePutDynamicCompressionPolicyParameters(value *GoogleComputeUrlMapPathMatcherDefaultRouteActionDynamicCompressionPolicy) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
+	}
+
+	return nil
+}
+
 func (g *jsiiProxy_GoogleComputeUrlMapPathMatcherDefaultRouteActionOutputReference) validatePutFaultInjectionPolicyParameters(value *GoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicy) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
+	}
+
+	return nil
+}
+
+func (g *jsiiProxy_GoogleComputeUrlMapPathMatcherDefaultRouteActionOutputReference) validatePutImageOptimizationPolicyParameters(value *GoogleComputeUrlMapPathMatcherDefaultRouteActionImageOptimizationPolicy) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}

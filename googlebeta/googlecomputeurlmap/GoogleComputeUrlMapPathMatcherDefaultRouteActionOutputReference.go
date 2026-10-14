@@ -32,10 +32,14 @@ type GoogleComputeUrlMapPathMatcherDefaultRouteActionOutputReference interface {
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
+	DynamicCompressionPolicy() GoogleComputeUrlMapPathMatcherDefaultRouteActionDynamicCompressionPolicyOutputReference
+	DynamicCompressionPolicyInput() *GoogleComputeUrlMapPathMatcherDefaultRouteActionDynamicCompressionPolicy
 	FaultInjectionPolicy() GoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicyOutputReference
 	FaultInjectionPolicyInput() *GoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicy
 	// Experimental.
 	Fqn() *string
+	ImageOptimizationPolicy() GoogleComputeUrlMapPathMatcherDefaultRouteActionImageOptimizationPolicyOutputReference
+	ImageOptimizationPolicyInput() *GoogleComputeUrlMapPathMatcherDefaultRouteActionImageOptimizationPolicy
 	InternalValue() *GoogleComputeUrlMapPathMatcherDefaultRouteAction
 	SetInternalValue(val *GoogleComputeUrlMapPathMatcherDefaultRouteAction)
 	MaxStreamDuration() GoogleComputeUrlMapPathMatcherDefaultRouteActionMaxStreamDurationOutputReference
@@ -84,7 +88,9 @@ type GoogleComputeUrlMapPathMatcherDefaultRouteActionOutputReference interface {
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutCachePolicy(value *GoogleComputeUrlMapPathMatcherDefaultRouteActionCachePolicy)
 	PutCorsPolicy(value *GoogleComputeUrlMapPathMatcherDefaultRouteActionCorsPolicy)
+	PutDynamicCompressionPolicy(value *GoogleComputeUrlMapPathMatcherDefaultRouteActionDynamicCompressionPolicy)
 	PutFaultInjectionPolicy(value *GoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicy)
+	PutImageOptimizationPolicy(value *GoogleComputeUrlMapPathMatcherDefaultRouteActionImageOptimizationPolicy)
 	PutMaxStreamDuration(value *GoogleComputeUrlMapPathMatcherDefaultRouteActionMaxStreamDuration)
 	PutRequestMirrorPolicy(value *GoogleComputeUrlMapPathMatcherDefaultRouteActionRequestMirrorPolicy)
 	PutRetryPolicy(value *GoogleComputeUrlMapPathMatcherDefaultRouteActionRetryPolicy)
@@ -93,7 +99,9 @@ type GoogleComputeUrlMapPathMatcherDefaultRouteActionOutputReference interface {
 	PutWeightedBackendServices(value interface{})
 	ResetCachePolicy()
 	ResetCorsPolicy()
+	ResetDynamicCompressionPolicy()
 	ResetFaultInjectionPolicy()
+	ResetImageOptimizationPolicy()
 	ResetMaxStreamDuration()
 	ResetRequestMirrorPolicy()
 	ResetRetryPolicy()
@@ -185,6 +193,26 @@ func (j *jsiiProxy_GoogleComputeUrlMapPathMatcherDefaultRouteActionOutputReferen
 	return returns
 }
 
+func (j *jsiiProxy_GoogleComputeUrlMapPathMatcherDefaultRouteActionOutputReference) DynamicCompressionPolicy() GoogleComputeUrlMapPathMatcherDefaultRouteActionDynamicCompressionPolicyOutputReference {
+	var returns GoogleComputeUrlMapPathMatcherDefaultRouteActionDynamicCompressionPolicyOutputReference
+	_jsii_.Get(
+		j,
+		"dynamicCompressionPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeUrlMapPathMatcherDefaultRouteActionOutputReference) DynamicCompressionPolicyInput() *GoogleComputeUrlMapPathMatcherDefaultRouteActionDynamicCompressionPolicy {
+	var returns *GoogleComputeUrlMapPathMatcherDefaultRouteActionDynamicCompressionPolicy
+	_jsii_.Get(
+		j,
+		"dynamicCompressionPolicyInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleComputeUrlMapPathMatcherDefaultRouteActionOutputReference) FaultInjectionPolicy() GoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicyOutputReference {
 	var returns GoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicyOutputReference
 	_jsii_.Get(
@@ -210,6 +238,26 @@ func (j *jsiiProxy_GoogleComputeUrlMapPathMatcherDefaultRouteActionOutputReferen
 	_jsii_.Get(
 		j,
 		"fqn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeUrlMapPathMatcherDefaultRouteActionOutputReference) ImageOptimizationPolicy() GoogleComputeUrlMapPathMatcherDefaultRouteActionImageOptimizationPolicyOutputReference {
+	var returns GoogleComputeUrlMapPathMatcherDefaultRouteActionImageOptimizationPolicyOutputReference
+	_jsii_.Get(
+		j,
+		"imageOptimizationPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeUrlMapPathMatcherDefaultRouteActionOutputReference) ImageOptimizationPolicyInput() *GoogleComputeUrlMapPathMatcherDefaultRouteActionImageOptimizationPolicy {
+	var returns *GoogleComputeUrlMapPathMatcherDefaultRouteActionImageOptimizationPolicy
+	_jsii_.Get(
+		j,
+		"imageOptimizationPolicyInput",
 		&returns,
 	)
 	return returns
@@ -656,6 +704,17 @@ func (g *jsiiProxy_GoogleComputeUrlMapPathMatcherDefaultRouteActionOutputReferen
 	)
 }
 
+func (g *jsiiProxy_GoogleComputeUrlMapPathMatcherDefaultRouteActionOutputReference) PutDynamicCompressionPolicy(value *GoogleComputeUrlMapPathMatcherDefaultRouteActionDynamicCompressionPolicy) {
+	if err := g.validatePutDynamicCompressionPolicyParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putDynamicCompressionPolicy",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleComputeUrlMapPathMatcherDefaultRouteActionOutputReference) PutFaultInjectionPolicy(value *GoogleComputeUrlMapPathMatcherDefaultRouteActionFaultInjectionPolicy) {
 	if err := g.validatePutFaultInjectionPolicyParameters(value); err != nil {
 		panic(err)
@@ -663,6 +722,17 @@ func (g *jsiiProxy_GoogleComputeUrlMapPathMatcherDefaultRouteActionOutputReferen
 	_jsii_.InvokeVoid(
 		g,
 		"putFaultInjectionPolicy",
+		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleComputeUrlMapPathMatcherDefaultRouteActionOutputReference) PutImageOptimizationPolicy(value *GoogleComputeUrlMapPathMatcherDefaultRouteActionImageOptimizationPolicy) {
+	if err := g.validatePutImageOptimizationPolicyParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putImageOptimizationPolicy",
 		[]interface{}{value},
 	)
 }
@@ -749,10 +819,26 @@ func (g *jsiiProxy_GoogleComputeUrlMapPathMatcherDefaultRouteActionOutputReferen
 	)
 }
 
+func (g *jsiiProxy_GoogleComputeUrlMapPathMatcherDefaultRouteActionOutputReference) ResetDynamicCompressionPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetDynamicCompressionPolicy",
+		nil, // no parameters
+	)
+}
+
 func (g *jsiiProxy_GoogleComputeUrlMapPathMatcherDefaultRouteActionOutputReference) ResetFaultInjectionPolicy() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetFaultInjectionPolicy",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleComputeUrlMapPathMatcherDefaultRouteActionOutputReference) ResetImageOptimizationPolicy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetImageOptimizationPolicy",
 		nil, // no parameters
 	)
 }

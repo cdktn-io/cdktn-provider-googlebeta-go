@@ -70,6 +70,9 @@ type GoogleComputeRegionInstanceTemplateNetworkInterfaceOutputReference interfac
 	QueueCount() *float64
 	SetQueueCount(val *float64)
 	QueueCountInput() *float64
+	ServiceClassId() *string
+	SetServiceClassId(val *string)
+	ServiceClassIdInput() *string
 	StackType() *string
 	SetStackType(val *string)
 	StackTypeInput() *string
@@ -131,6 +134,7 @@ type GoogleComputeRegionInstanceTemplateNetworkInterfaceOutputReference interfac
 	ResetNetworkIp()
 	ResetNicType()
 	ResetQueueCount()
+	ResetServiceClassId()
 	ResetStackType()
 	ResetSubnetwork()
 	ResetSubnetworkProject()
@@ -490,6 +494,26 @@ func (j *jsiiProxy_GoogleComputeRegionInstanceTemplateNetworkInterfaceOutputRefe
 	return returns
 }
 
+func (j *jsiiProxy_GoogleComputeRegionInstanceTemplateNetworkInterfaceOutputReference) ServiceClassId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"serviceClassId",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeRegionInstanceTemplateNetworkInterfaceOutputReference) ServiceClassIdInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"serviceClassIdInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleComputeRegionInstanceTemplateNetworkInterfaceOutputReference) StackType() *string {
 	var returns *string
 	_jsii_.Get(
@@ -746,6 +770,17 @@ func (j *jsiiProxy_GoogleComputeRegionInstanceTemplateNetworkInterfaceOutputRefe
 	_jsii_.Set(
 		j,
 		"queueCount",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleComputeRegionInstanceTemplateNetworkInterfaceOutputReference)SetServiceClassId(val *string) {
+	if err := j.validateSetServiceClassIdParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"serviceClassId",
 		val,
 	)
 }
@@ -1146,6 +1181,14 @@ func (g *jsiiProxy_GoogleComputeRegionInstanceTemplateNetworkInterfaceOutputRefe
 	_jsii_.InvokeVoid(
 		g,
 		"resetQueueCount",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleComputeRegionInstanceTemplateNetworkInterfaceOutputReference) ResetServiceClassId() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetServiceClassId",
 		nil, // no parameters
 	)
 }

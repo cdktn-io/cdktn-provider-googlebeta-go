@@ -47,6 +47,10 @@ func (g *jsiiProxy_GoogleComputeBackendServiceDynamicForwardingOutputReference) 
 	return nil
 }
 
+func (g *jsiiProxy_GoogleComputeBackendServiceDynamicForwardingOutputReference) validatePutForwardProxyParameters(value *GoogleComputeBackendServiceDynamicForwardingForwardProxy) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleComputeBackendServiceDynamicForwardingOutputReference) validatePutIpPortSelectionParameters(value *GoogleComputeBackendServiceDynamicForwardingIpPortSelection) error {
 	return nil
 }

@@ -47,6 +47,10 @@ func (g *jsiiProxy_GoogleNetworkSecurityAuthzPolicyNetworkRulesToOutputReference
 	return nil
 }
 
+func (g *jsiiProxy_GoogleNetworkSecurityAuthzPolicyNetworkRulesToOutputReference) validatePutNotOperationsParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleNetworkSecurityAuthzPolicyNetworkRulesToOutputReference) validatePutOperationsParameters(value interface{}) error {
 	return nil
 }

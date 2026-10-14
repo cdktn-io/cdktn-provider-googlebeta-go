@@ -139,6 +139,14 @@ func (j *jsiiProxy_GoogleOracleDatabaseCloudVmClusterPropertiesOutputReference) 
 	return nil
 }
 
+func (j *jsiiProxy_GoogleOracleDatabaseCloudVmClusterPropertiesOutputReference) validateSetVmBackupStorageTypeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleOracleDatabaseCloudVmClusterPropertiesOutputReference) validateSetVmFileSystemStorageTypeParameters(val *string) error {
+	return nil
+}
+
 func validateNewGoogleOracleDatabaseCloudVmClusterPropertiesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }

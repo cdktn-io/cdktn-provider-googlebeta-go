@@ -44,6 +44,9 @@ type GoogleNetworkSecurityAuthzPolicyNetworkRulesOutputReference interface {
 	SetTerraformResource(val cdktn.IInterpolatingParent)
 	To() GoogleNetworkSecurityAuthzPolicyNetworkRulesToOutputReference
 	ToInput() *GoogleNetworkSecurityAuthzPolicyNetworkRulesTo
+	When() *string
+	SetWhen(val *string)
+	WhenInput() *string
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
@@ -72,6 +75,7 @@ type GoogleNetworkSecurityAuthzPolicyNetworkRulesOutputReference interface {
 	PutTo(value *GoogleNetworkSecurityAuthzPolicyNetworkRulesTo)
 	ResetFrom()
 	ResetTo()
+	ResetWhen()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -197,6 +201,26 @@ func (j *jsiiProxy_GoogleNetworkSecurityAuthzPolicyNetworkRulesOutputReference) 
 	return returns
 }
 
+func (j *jsiiProxy_GoogleNetworkSecurityAuthzPolicyNetworkRulesOutputReference) When() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"when",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleNetworkSecurityAuthzPolicyNetworkRulesOutputReference) WhenInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"whenInput",
+		&returns,
+	)
+	return returns
+}
+
 
 func NewGoogleNetworkSecurityAuthzPolicyNetworkRulesOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) GoogleNetworkSecurityAuthzPolicyNetworkRulesOutputReference {
 	_init_.Initialize()
@@ -276,6 +300,17 @@ func (j *jsiiProxy_GoogleNetworkSecurityAuthzPolicyNetworkRulesOutputReference)S
 	_jsii_.Set(
 		j,
 		"terraformResource",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleNetworkSecurityAuthzPolicyNetworkRulesOutputReference)SetWhen(val *string) {
+	if err := j.validateSetWhenParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"when",
 		val,
 	)
 }
@@ -500,6 +535,14 @@ func (g *jsiiProxy_GoogleNetworkSecurityAuthzPolicyNetworkRulesOutputReference) 
 	_jsii_.InvokeVoid(
 		g,
 		"resetTo",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleNetworkSecurityAuthzPolicyNetworkRulesOutputReference) ResetWhen() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetWhen",
 		nil, // no parameters
 	)
 }

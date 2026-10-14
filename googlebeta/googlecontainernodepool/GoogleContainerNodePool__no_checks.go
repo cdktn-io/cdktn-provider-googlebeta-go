@@ -83,6 +83,10 @@ func (g *jsiiProxy_GoogleContainerNodePool) validatePutAutoscalingParameters(val
 	return nil
 }
 
+func (g *jsiiProxy_GoogleContainerNodePool) validatePutBestEffortProvisioningParameters(value *GoogleContainerNodePoolBestEffortProvisioning) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleContainerNodePool) validatePutMaintenancePolicyParameters(value interface{}) error {
 	return nil
 }

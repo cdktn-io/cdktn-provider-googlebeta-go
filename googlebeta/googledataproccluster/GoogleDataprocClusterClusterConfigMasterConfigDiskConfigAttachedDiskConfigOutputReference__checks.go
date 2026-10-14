@@ -238,6 +238,14 @@ func (j *jsiiProxy_GoogleDataprocClusterClusterConfigMasterConfigDiskConfigAttac
 	return nil
 }
 
+func (j *jsiiProxy_GoogleDataprocClusterClusterConfigMasterConfigDiskConfigAttachedDiskConfigOutputReference) validateSetTypeParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func validateNewGoogleDataprocClusterClusterConfigMasterConfigDiskConfigAttachedDiskConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")

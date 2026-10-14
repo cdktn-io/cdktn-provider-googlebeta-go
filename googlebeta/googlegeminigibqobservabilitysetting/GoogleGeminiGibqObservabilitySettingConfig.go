@@ -24,11 +24,11 @@ type GoogleGeminiGibqObservabilitySettingConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// Id of the requesting object.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_gemini_gibq_observability_setting#gibq_observability_setting_id GoogleGeminiGibqObservabilitySetting#gibq_observability_setting_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_gibq_observability_setting#gibq_observability_setting_id GoogleGeminiGibqObservabilitySetting#gibq_observability_setting_id}
 	GibqObservabilitySettingId *string `field:"required" json:"gibqObservabilitySettingId" yaml:"gibqObservabilitySettingId"`
 	// conversational_analytics_setting block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_gemini_gibq_observability_setting#conversational_analytics_setting GoogleGeminiGibqObservabilitySetting#conversational_analytics_setting}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_gibq_observability_setting#conversational_analytics_setting GoogleGeminiGibqObservabilitySetting#conversational_analytics_setting}
 	ConversationalAnalyticsSetting *GoogleGeminiGibqObservabilitySettingConversationalAnalyticsSetting `field:"optional" json:"conversationalAnalyticsSetting" yaml:"conversationalAnalyticsSetting"`
 	// Whether Terraform will be prevented from destroying the instance.
 	//
@@ -40,9 +40,9 @@ type GoogleGeminiGibqObservabilitySettingConfig struct {
 	// When set to "DELETE", deleting the resource is allowed.
 	//
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_gemini_gibq_observability_setting#deletion_policy GoogleGeminiGibqObservabilitySetting#deletion_policy}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_gibq_observability_setting#deletion_policy GoogleGeminiGibqObservabilitySetting#deletion_policy}
 	DeletionPolicy *string `field:"optional" json:"deletionPolicy" yaml:"deletionPolicy"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_gemini_gibq_observability_setting#id GoogleGeminiGibqObservabilitySetting#id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_gibq_observability_setting#id GoogleGeminiGibqObservabilitySetting#id}.
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -52,17 +52,17 @@ type GoogleGeminiGibqObservabilitySettingConfig struct {
 	// **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 	// Please refer to the field 'effective_labels' for all of the labels present on the resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_gemini_gibq_observability_setting#labels GoogleGeminiGibqObservabilitySetting#labels}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_gibq_observability_setting#labels GoogleGeminiGibqObservabilitySetting#labels}
 	Labels *map[string]*string `field:"optional" json:"labels" yaml:"labels"`
 	// Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_gemini_gibq_observability_setting#location GoogleGeminiGibqObservabilitySetting#location}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_gibq_observability_setting#location GoogleGeminiGibqObservabilitySetting#location}
 	Location *string `field:"optional" json:"location" yaml:"location"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_gemini_gibq_observability_setting#project GoogleGeminiGibqObservabilitySetting#project}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_gibq_observability_setting#project GoogleGeminiGibqObservabilitySetting#project}.
 	Project *string `field:"optional" json:"project" yaml:"project"`
 	// timeouts block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_gemini_gibq_observability_setting#timeouts GoogleGeminiGibqObservabilitySetting#timeouts}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_gibq_observability_setting#timeouts GoogleGeminiGibqObservabilitySetting#timeouts}
 	Timeouts *GoogleGeminiGibqObservabilitySettingTimeouts `field:"optional" json:"timeouts" yaml:"timeouts"`
 }
 

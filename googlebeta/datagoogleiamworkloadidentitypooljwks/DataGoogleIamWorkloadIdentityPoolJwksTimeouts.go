@@ -5,7 +5,7 @@ package datagoogleiamworkloadidentitypooljwks
 
 
 type DataGoogleIamWorkloadIdentityPoolJwksTimeouts struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/data-sources/google_iam_workload_identity_pool_jwks#read DataGoogleIamWorkloadIdentityPoolJwks#read}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/data-sources/google_iam_workload_identity_pool_jwks#read DataGoogleIamWorkloadIdentityPoolJwks#read}.
 	Read *string `field:"optional" json:"read" yaml:"read"`
 }
 

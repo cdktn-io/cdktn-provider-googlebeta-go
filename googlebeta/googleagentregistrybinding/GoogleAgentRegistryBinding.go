@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agent_registry_binding google_agent_registry_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_agent_registry_binding google_agent_registry_binding}.
 type GoogleAgentRegistryBinding interface {
 	cdktn.TerraformResource
 	AuthProviderBinding() GoogleAgentRegistryBindingAuthProviderBindingOutputReference
@@ -637,7 +637,7 @@ func (j *jsiiProxy_GoogleAgentRegistryBinding) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agent_registry_binding google_agent_registry_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_agent_registry_binding google_agent_registry_binding} Resource.
 func NewGoogleAgentRegistryBinding(scope constructs.Construct, id *string, config *GoogleAgentRegistryBindingConfig) GoogleAgentRegistryBinding {
 	_init_.Initialize()
 
@@ -655,7 +655,7 @@ func NewGoogleAgentRegistryBinding(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_agent_registry_binding google_agent_registry_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_agent_registry_binding google_agent_registry_binding} Resource.
 func NewGoogleAgentRegistryBinding_Override(g GoogleAgentRegistryBinding, scope constructs.Construct, id *string, config *GoogleAgentRegistryBindingConfig) {
 	_init_.Initialize()
 

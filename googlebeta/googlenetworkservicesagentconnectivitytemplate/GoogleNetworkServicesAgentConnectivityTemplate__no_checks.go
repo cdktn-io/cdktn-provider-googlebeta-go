@@ -115,6 +115,10 @@ func (j *jsiiProxy_GoogleNetworkServicesAgentConnectivityTemplate) validateSetAc
 	return nil
 }
 
+func (j *jsiiProxy_GoogleNetworkServicesAgentConnectivityTemplate) validateSetAgentComputeParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleNetworkServicesAgentConnectivityTemplate) validateSetAgentConnectivityTemplateIdParameters(val *string) error {
 	return nil
 }
@@ -128,6 +132,10 @@ func (j *jsiiProxy_GoogleNetworkServicesAgentConnectivityTemplate) validateSetCo
 }
 
 func (j *jsiiProxy_GoogleNetworkServicesAgentConnectivityTemplate) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleNetworkServicesAgentConnectivityTemplate) validateSetDeploymentModelParameters(val *string) error {
 	return nil
 }
 

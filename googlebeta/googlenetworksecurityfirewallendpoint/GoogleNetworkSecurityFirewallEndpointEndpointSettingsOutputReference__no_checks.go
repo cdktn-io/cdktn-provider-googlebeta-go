@@ -59,6 +59,14 @@ func (j *jsiiProxy_GoogleNetworkSecurityFirewallEndpointEndpointSettingsOutputRe
 	return nil
 }
 
+func (j *jsiiProxy_GoogleNetworkSecurityFirewallEndpointEndpointSettingsOutputReference) validateSetContentCloudRegionParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleNetworkSecurityFirewallEndpointEndpointSettingsOutputReference) validateSetHttpPartialResponseBlockedParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleNetworkSecurityFirewallEndpointEndpointSettingsOutputReference) validateSetInternalValueParameters(val *GoogleNetworkSecurityFirewallEndpointEndpointSettings) error {
 	return nil
 }

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_security_profile_group google_network_security_security_profile_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_network_security_security_profile_group google_network_security_security_profile_group}.
 type GoogleNetworkSecuritySecurityProfileGroup interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -101,6 +101,9 @@ type GoogleNetworkSecuritySecurityProfileGroup interface {
 	UrlFilteringProfile() *string
 	SetUrlFilteringProfile(val *string)
 	UrlFilteringProfileInput() *string
+	WildfireAnalysisProfile() *string
+	SetWildfireAnalysisProfile(val *string)
+	WildfireAnalysisProfileInput() *string
 	// Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
 	// Experimental.
 	AddMoveTarget(moveTarget *string)
@@ -208,6 +211,7 @@ type GoogleNetworkSecuritySecurityProfileGroup interface {
 	ResetThreatPreventionProfile()
 	ResetTimeouts()
 	ResetUrlFilteringProfile()
+	ResetWildfireAnalysisProfile()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
 	// Experimental.
@@ -685,8 +689,28 @@ func (j *jsiiProxy_GoogleNetworkSecuritySecurityProfileGroup) UrlFilteringProfil
 	return returns
 }
 
+func (j *jsiiProxy_GoogleNetworkSecuritySecurityProfileGroup) WildfireAnalysisProfile() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"wildfireAnalysisProfile",
+		&returns,
+	)
+	return returns
+}
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_security_profile_group google_network_security_security_profile_group} Resource.
+func (j *jsiiProxy_GoogleNetworkSecuritySecurityProfileGroup) WildfireAnalysisProfileInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"wildfireAnalysisProfileInput",
+		&returns,
+	)
+	return returns
+}
+
+
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_network_security_security_profile_group google_network_security_security_profile_group} Resource.
 func NewGoogleNetworkSecuritySecurityProfileGroup(scope constructs.Construct, id *string, config *GoogleNetworkSecuritySecurityProfileGroupConfig) GoogleNetworkSecuritySecurityProfileGroup {
 	_init_.Initialize()
 
@@ -704,7 +728,7 @@ func NewGoogleNetworkSecuritySecurityProfileGroup(scope constructs.Construct, id
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_security_security_profile_group google_network_security_security_profile_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_network_security_security_profile_group google_network_security_security_profile_group} Resource.
 func NewGoogleNetworkSecuritySecurityProfileGroup_Override(g GoogleNetworkSecuritySecurityProfileGroup, scope constructs.Construct, id *string, config *GoogleNetworkSecuritySecurityProfileGroupConfig) {
 	_init_.Initialize()
 
@@ -900,6 +924,17 @@ func (j *jsiiProxy_GoogleNetworkSecuritySecurityProfileGroup)SetUrlFilteringProf
 	_jsii_.Set(
 		j,
 		"urlFilteringProfile",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleNetworkSecuritySecurityProfileGroup)SetWildfireAnalysisProfile(val *string) {
+	if err := j.validateSetWildfireAnalysisProfileParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"wildfireAnalysisProfile",
 		val,
 	)
 }
@@ -1387,6 +1422,14 @@ func (g *jsiiProxy_GoogleNetworkSecuritySecurityProfileGroup) ResetUrlFilteringP
 	_jsii_.InvokeVoid(
 		g,
 		"resetUrlFilteringProfile",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleNetworkSecuritySecurityProfileGroup) ResetWildfireAnalysisProfile() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetWildfireAnalysisProfile",
 		nil, // no parameters
 	)
 }

@@ -115,6 +115,10 @@ func (j *jsiiProxy_GoogleComputeInstanceTemplateNetworkInterfaceOutputReference)
 	return nil
 }
 
+func (j *jsiiProxy_GoogleComputeInstanceTemplateNetworkInterfaceOutputReference) validateSetServiceClassIdParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleComputeInstanceTemplateNetworkInterfaceOutputReference) validateSetStackTypeParameters(val *string) error {
 	return nil
 }

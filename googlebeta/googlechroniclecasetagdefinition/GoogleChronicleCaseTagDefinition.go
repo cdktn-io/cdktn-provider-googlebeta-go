@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_chronicle_case_tag_definition google_chronicle_case_tag_definition}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_chronicle_case_tag_definition google_chronicle_case_tag_definition}.
 type GoogleChronicleCaseTagDefinition interface {
 	cdktn.TerraformResource
 	CanBeCaseTitle() interface{}
@@ -670,7 +670,7 @@ func (j *jsiiProxy_GoogleChronicleCaseTagDefinition) ValueInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_chronicle_case_tag_definition google_chronicle_case_tag_definition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_chronicle_case_tag_definition google_chronicle_case_tag_definition} Resource.
 func NewGoogleChronicleCaseTagDefinition(scope constructs.Construct, id *string, config *GoogleChronicleCaseTagDefinitionConfig) GoogleChronicleCaseTagDefinition {
 	_init_.Initialize()
 
@@ -688,7 +688,7 @@ func NewGoogleChronicleCaseTagDefinition(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_chronicle_case_tag_definition google_chronicle_case_tag_definition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_chronicle_case_tag_definition google_chronicle_case_tag_definition} Resource.
 func NewGoogleChronicleCaseTagDefinition_Override(g GoogleChronicleCaseTagDefinition, scope constructs.Construct, id *string, config *GoogleChronicleCaseTagDefinitionConfig) {
 	_init_.Initialize()
 

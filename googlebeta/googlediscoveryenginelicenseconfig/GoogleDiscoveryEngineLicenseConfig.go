@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_discovery_engine_license_config google_discovery_engine_license_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_discovery_engine_license_config google_discovery_engine_license_config}.
 type GoogleDiscoveryEngineLicenseConfig interface {
 	cdktn.TerraformResource
 	AutoRenew() interface{}
@@ -661,7 +661,7 @@ func (j *jsiiProxy_GoogleDiscoveryEngineLicenseConfig) TimeoutsInput() interface
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_discovery_engine_license_config google_discovery_engine_license_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_discovery_engine_license_config google_discovery_engine_license_config} Resource.
 func NewGoogleDiscoveryEngineLicenseConfig(scope constructs.Construct, id *string, config *GoogleDiscoveryEngineLicenseConfigConfig) GoogleDiscoveryEngineLicenseConfig {
 	_init_.Initialize()
 
@@ -679,7 +679,7 @@ func NewGoogleDiscoveryEngineLicenseConfig(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_discovery_engine_license_config google_discovery_engine_license_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_discovery_engine_license_config google_discovery_engine_license_config} Resource.
 func NewGoogleDiscoveryEngineLicenseConfig_Override(g GoogleDiscoveryEngineLicenseConfig, scope constructs.Construct, id *string, config *GoogleDiscoveryEngineLicenseConfigConfig) {
 	_init_.Initialize()
 

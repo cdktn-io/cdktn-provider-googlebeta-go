@@ -13,7 +13,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs google-beta}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs google-beta}.
 type GoogleBetaProvider interface {
 	cdktn.TerraformProvider
 	AccessApprovalCustomEndpoint() *string
@@ -362,6 +362,9 @@ type GoogleBetaProvider interface {
 	GeminiCustomEndpoint() *string
 	SetGeminiCustomEndpoint(val *string)
 	GeminiCustomEndpointInput() *string
+	GeminiDataAnalyticsCustomEndpoint() *string
+	SetGeminiDataAnalyticsCustomEndpoint(val *string)
+	GeminiDataAnalyticsCustomEndpointInput() *string
 	GkeBackupCustomEndpoint() *string
 	SetGkeBackupCustomEndpoint(val *string)
 	GkeBackupCustomEndpointInput() *string
@@ -825,6 +828,7 @@ type GoogleBetaProvider interface {
 	ResetFirebaseStorageCustomEndpoint()
 	ResetFirestoreCustomEndpoint()
 	ResetGeminiCustomEndpoint()
+	ResetGeminiDataAnalyticsCustomEndpoint()
 	ResetGkeBackupCustomEndpoint()
 	ResetGkeHub2CustomEndpoint()
 	ResetGkeHubCustomEndpoint()
@@ -3252,6 +3256,26 @@ func (j *jsiiProxy_GoogleBetaProvider) GeminiCustomEndpointInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_GoogleBetaProvider) GeminiDataAnalyticsCustomEndpoint() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"geminiDataAnalyticsCustomEndpoint",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleBetaProvider) GeminiDataAnalyticsCustomEndpointInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"geminiDataAnalyticsCustomEndpointInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleBetaProvider) GkeBackupCustomEndpoint() *string {
 	var returns *string
 	_jsii_.Get(
@@ -5453,7 +5477,7 @@ func (j *jsiiProxy_GoogleBetaProvider) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs google-beta} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs google-beta} Resource.
 func NewGoogleBetaProvider(scope constructs.Construct, id *string, config *GoogleBetaProviderConfig) GoogleBetaProvider {
 	_init_.Initialize()
 
@@ -5471,7 +5495,7 @@ func NewGoogleBetaProvider(scope constructs.Construct, id *string, config *Googl
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs google-beta} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs google-beta} Resource.
 func NewGoogleBetaProvider_Override(g GoogleBetaProvider, scope constructs.Construct, id *string, config *GoogleBetaProviderConfig) {
 	_init_.Initialize()
 
@@ -6383,6 +6407,14 @@ func (j *jsiiProxy_GoogleBetaProvider)SetGeminiCustomEndpoint(val *string) {
 	_jsii_.Set(
 		j,
 		"geminiCustomEndpoint",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleBetaProvider)SetGeminiDataAnalyticsCustomEndpoint(val *string) {
+	_jsii_.Set(
+		j,
+		"geminiDataAnalyticsCustomEndpoint",
 		val,
 	)
 }
@@ -8280,6 +8312,14 @@ func (g *jsiiProxy_GoogleBetaProvider) ResetGeminiCustomEndpoint() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetGeminiCustomEndpoint",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleBetaProvider) ResetGeminiDataAnalyticsCustomEndpoint() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetGeminiDataAnalyticsCustomEndpoint",
 		nil, // no parameters
 	)
 }

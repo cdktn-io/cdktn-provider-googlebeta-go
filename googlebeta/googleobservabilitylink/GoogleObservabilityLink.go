@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_observability_link google_observability_link}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_observability_link google_observability_link}.
 type GoogleObservabilityLink interface {
 	cdktn.TerraformResource
 	Bucket() *string
@@ -602,7 +602,7 @@ func (j *jsiiProxy_GoogleObservabilityLink) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_observability_link google_observability_link} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_observability_link google_observability_link} Resource.
 func NewGoogleObservabilityLink(scope constructs.Construct, id *string, config *GoogleObservabilityLinkConfig) GoogleObservabilityLink {
 	_init_.Initialize()
 
@@ -620,7 +620,7 @@ func NewGoogleObservabilityLink(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_observability_link google_observability_link} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_observability_link google_observability_link} Resource.
 func NewGoogleObservabilityLink_Override(g GoogleObservabilityLink, scope constructs.Construct, id *string, config *GoogleObservabilityLinkConfig) {
 	_init_.Initialize()
 

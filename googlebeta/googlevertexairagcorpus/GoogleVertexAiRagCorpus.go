@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_vertex_ai_rag_corpus google_vertex_ai_rag_corpus}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_vertex_ai_rag_corpus google_vertex_ai_rag_corpus}.
 type GoogleVertexAiRagCorpus interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -626,7 +626,7 @@ func (j *jsiiProxy_GoogleVertexAiRagCorpus) VertexAiSearchConfigInput() *GoogleV
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_vertex_ai_rag_corpus google_vertex_ai_rag_corpus} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_vertex_ai_rag_corpus google_vertex_ai_rag_corpus} Resource.
 func NewGoogleVertexAiRagCorpus(scope constructs.Construct, id *string, config *GoogleVertexAiRagCorpusConfig) GoogleVertexAiRagCorpus {
 	_init_.Initialize()
 
@@ -644,7 +644,7 @@ func NewGoogleVertexAiRagCorpus(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_vertex_ai_rag_corpus google_vertex_ai_rag_corpus} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_vertex_ai_rag_corpus google_vertex_ai_rag_corpus} Resource.
 func NewGoogleVertexAiRagCorpus_Override(g GoogleVertexAiRagCorpus, scope constructs.Construct, id *string, config *GoogleVertexAiRagCorpusConfig) {
 	_init_.Initialize()
 

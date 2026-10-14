@@ -1,0 +1,17 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+package googlenetworksecurityauthzpolicy
+
+
+type GoogleNetworkSecurityAuthzPolicyNetworkRulesFromNotSourcesResources struct {
+	// iam_service_account block.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_network_security_authz_policy#iam_service_account GoogleNetworkSecurityAuthzPolicy#iam_service_account}
+	IamServiceAccount *GoogleNetworkSecurityAuthzPolicyNetworkRulesFromNotSourcesResourcesIamServiceAccount `field:"optional" json:"iamServiceAccount" yaml:"iamServiceAccount"`
+	// tag_value_id_set block.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_network_security_authz_policy#tag_value_id_set GoogleNetworkSecurityAuthzPolicy#tag_value_id_set}
+	TagValueIdSet *GoogleNetworkSecurityAuthzPolicyNetworkRulesFromNotSourcesResourcesTagValueIdSet `field:"optional" json:"tagValueIdSet" yaml:"tagValueIdSet"`
+}
+

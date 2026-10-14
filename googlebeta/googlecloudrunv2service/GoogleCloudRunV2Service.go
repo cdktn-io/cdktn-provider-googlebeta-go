@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_service google_cloud_run_v2_service}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_service google_cloud_run_v2_service}.
 type GoogleCloudRunV2Service interface {
 	cdktn.TerraformResource
 	Annotations() *map[string]*string
@@ -75,6 +75,9 @@ type GoogleCloudRunV2Service interface {
 	Fqn() *string
 	// Experimental.
 	FriendlyUniqueId() *string
+	FunctionalType() *string
+	SetFunctionalType(val *string)
+	FunctionalTypeInput() *string
 	Generation() *string
 	IapEnabled() interface{}
 	SetIapEnabled(val interface{})
@@ -262,6 +265,7 @@ type GoogleCloudRunV2Service interface {
 	ResetDeletionPolicy()
 	ResetDeletionProtection()
 	ResetDescription()
+	ResetFunctionalType()
 	ResetIapEnabled()
 	ResetId()
 	ResetIngress()
@@ -660,6 +664,26 @@ func (j *jsiiProxy_GoogleCloudRunV2Service) FriendlyUniqueId() *string {
 	_jsii_.Get(
 		j,
 		"friendlyUniqueId",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCloudRunV2Service) FunctionalType() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"functionalType",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCloudRunV2Service) FunctionalTypeInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"functionalTypeInput",
 		&returns,
 	)
 	return returns
@@ -1196,7 +1220,7 @@ func (j *jsiiProxy_GoogleCloudRunV2Service) Urls() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_service google_cloud_run_v2_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_service google_cloud_run_v2_service} Resource.
 func NewGoogleCloudRunV2Service(scope constructs.Construct, id *string, config *GoogleCloudRunV2ServiceConfig) GoogleCloudRunV2Service {
 	_init_.Initialize()
 
@@ -1214,7 +1238,7 @@ func NewGoogleCloudRunV2Service(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_cloud_run_v2_service google_cloud_run_v2_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_cloud_run_v2_service google_cloud_run_v2_service} Resource.
 func NewGoogleCloudRunV2Service_Override(g GoogleCloudRunV2Service, scope constructs.Construct, id *string, config *GoogleCloudRunV2ServiceConfig) {
 	_init_.Initialize()
 
@@ -1347,6 +1371,17 @@ func (j *jsiiProxy_GoogleCloudRunV2Service)SetForEach(val cdktn.ITerraformIterat
 	_jsii_.Set(
 		j,
 		"forEach",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleCloudRunV2Service)SetFunctionalType(val *string) {
+	if err := j.validateSetFunctionalTypeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"functionalType",
 		val,
 	)
 }
@@ -2035,6 +2070,14 @@ func (g *jsiiProxy_GoogleCloudRunV2Service) ResetDescription() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetDescription",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleCloudRunV2Service) ResetFunctionalType() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetFunctionalType",
 		nil, // no parameters
 	)
 }

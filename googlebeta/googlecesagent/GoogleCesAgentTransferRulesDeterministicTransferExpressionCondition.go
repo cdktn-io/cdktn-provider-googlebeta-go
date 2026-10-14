@@ -7,7 +7,7 @@ package googlecesagent
 type GoogleCesAgentTransferRulesDeterministicTransferExpressionCondition struct {
 	// The string representation of cloud.api.Expression condition.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_ces_agent#expression GoogleCesAgent#expression}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_ces_agent#expression GoogleCesAgent#expression}
 	Expression *string `field:"required" json:"expression" yaml:"expression"`
 }
 

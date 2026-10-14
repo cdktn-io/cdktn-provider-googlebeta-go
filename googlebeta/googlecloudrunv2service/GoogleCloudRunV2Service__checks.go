@@ -538,6 +538,14 @@ func (j *jsiiProxy_GoogleCloudRunV2Service) validateSetDescriptionParameters(val
 	return nil
 }
 
+func (j *jsiiProxy_GoogleCloudRunV2Service) validateSetFunctionalTypeParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_GoogleCloudRunV2Service) validateSetIapEnabledParameters(val interface{}) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

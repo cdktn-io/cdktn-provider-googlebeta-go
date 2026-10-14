@@ -291,6 +291,8 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
 			_jsii_.MemberProperty{JsiiProperty: "timeZone", GoGetter: "TimeZone"},
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "vmBackupStorageType", GoGetter: "VmBackupStorageType"},
+			_jsii_.MemberProperty{JsiiProperty: "vmFileSystemStorageType", GoGetter: "VmFileSystemStorageType"},
 		},
 		func() interface{} {
 			j := jsiiProxy_DataGoogleOracleDatabaseCloudVmClusterPropertiesOutputReference{}

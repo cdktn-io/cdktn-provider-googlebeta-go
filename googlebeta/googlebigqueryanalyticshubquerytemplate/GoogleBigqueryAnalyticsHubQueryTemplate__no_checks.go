@@ -79,6 +79,10 @@ func (g *jsiiProxy_GoogleBigqueryAnalyticsHubQueryTemplate) validateOverrideLogi
 	return nil
 }
 
+func (g *jsiiProxy_GoogleBigqueryAnalyticsHubQueryTemplate) validatePutEncryptionConfigurationParameters(value *GoogleBigqueryAnalyticsHubQueryTemplateEncryptionConfiguration) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleBigqueryAnalyticsHubQueryTemplate) validatePutRoutineParameters(value *GoogleBigqueryAnalyticsHubQueryTemplateRoutine) error {
 	return nil
 }

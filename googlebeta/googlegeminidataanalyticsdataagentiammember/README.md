@@ -1,0 +1,3 @@
+# `google_gemini_data_analytics_data_agent_iam_member`
+
+Refer to the Terraform Registry for docs: [`google_gemini_data_analytics_data_agent_iam_member`](https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_data_analytics_data_agent_iam_member).

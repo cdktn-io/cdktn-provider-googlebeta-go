@@ -48,6 +48,7 @@ type DataGoogleComputeInstanceTemplateNetworkInterfaceOutputReference interface 
 	NicType() *string
 	ParentNicName() *string
 	QueueCount() *float64
+	ServiceClassId() *string
 	StackType() *string
 	Subnetwork() *string
 	SubnetworkProject() *string
@@ -304,6 +305,16 @@ func (j *jsiiProxy_DataGoogleComputeInstanceTemplateNetworkInterfaceOutputRefere
 	_jsii_.Get(
 		j,
 		"queueCount",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleComputeInstanceTemplateNetworkInterfaceOutputReference) ServiceClassId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"serviceClassId",
 		&returns,
 	)
 	return returns

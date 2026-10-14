@@ -32,6 +32,8 @@ type GoogleNetworkSecurityAuthzPolicyNetworkRulesToOutputReference interface {
 	Fqn() *string
 	InternalValue() *GoogleNetworkSecurityAuthzPolicyNetworkRulesTo
 	SetInternalValue(val *GoogleNetworkSecurityAuthzPolicyNetworkRulesTo)
+	NotOperations() GoogleNetworkSecurityAuthzPolicyNetworkRulesToNotOperationsList
+	NotOperationsInput() interface{}
 	Operations() GoogleNetworkSecurityAuthzPolicyNetworkRulesToOperationsList
 	OperationsInput() interface{}
 	// Experimental.
@@ -66,7 +68,9 @@ type GoogleNetworkSecurityAuthzPolicyNetworkRulesToOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutNotOperations(value interface{})
 	PutOperations(value interface{})
+	ResetNotOperations()
 	ResetOperations()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -128,6 +132,26 @@ func (j *jsiiProxy_GoogleNetworkSecurityAuthzPolicyNetworkRulesToOutputReference
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleNetworkSecurityAuthzPolicyNetworkRulesToOutputReference) NotOperations() GoogleNetworkSecurityAuthzPolicyNetworkRulesToNotOperationsList {
+	var returns GoogleNetworkSecurityAuthzPolicyNetworkRulesToNotOperationsList
+	_jsii_.Get(
+		j,
+		"notOperations",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleNetworkSecurityAuthzPolicyNetworkRulesToOutputReference) NotOperationsInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"notOperationsInput",
 		&returns,
 	)
 	return returns
@@ -442,6 +466,17 @@ func (g *jsiiProxy_GoogleNetworkSecurityAuthzPolicyNetworkRulesToOutputReference
 	return returns
 }
 
+func (g *jsiiProxy_GoogleNetworkSecurityAuthzPolicyNetworkRulesToOutputReference) PutNotOperations(value interface{}) {
+	if err := g.validatePutNotOperationsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putNotOperations",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleNetworkSecurityAuthzPolicyNetworkRulesToOutputReference) PutOperations(value interface{}) {
 	if err := g.validatePutOperationsParameters(value); err != nil {
 		panic(err)
@@ -450,6 +485,14 @@ func (g *jsiiProxy_GoogleNetworkSecurityAuthzPolicyNetworkRulesToOutputReference
 		g,
 		"putOperations",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleNetworkSecurityAuthzPolicyNetworkRulesToOutputReference) ResetNotOperations() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetNotOperations",
+		nil, // no parameters
 	)
 }
 

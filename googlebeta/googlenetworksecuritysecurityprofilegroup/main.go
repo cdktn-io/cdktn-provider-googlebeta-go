@@ -81,6 +81,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetThreatPreventionProfile", GoMethod: "ResetThreatPreventionProfile"},
 			_jsii_.MemberMethod{JsiiMethod: "resetTimeouts", GoMethod: "ResetTimeouts"},
 			_jsii_.MemberMethod{JsiiMethod: "resetUrlFilteringProfile", GoMethod: "ResetUrlFilteringProfile"},
+			_jsii_.MemberMethod{JsiiMethod: "resetWildfireAnalysisProfile", GoMethod: "ResetWildfireAnalysisProfile"},
 			_jsii_.MemberMethod{JsiiMethod: "synthesizeAttributes", GoMethod: "SynthesizeAttributes"},
 			_jsii_.MemberMethod{JsiiMethod: "synthesizeHclAttributes", GoMethod: "SynthesizeHclAttributes"},
 			_jsii_.MemberProperty{JsiiProperty: "terraformGeneratorMetadata", GoGetter: "TerraformGeneratorMetadata"},
@@ -98,6 +99,8 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateTime", GoGetter: "UpdateTime"},
 			_jsii_.MemberProperty{JsiiProperty: "urlFilteringProfile", GoGetter: "UrlFilteringProfile"},
 			_jsii_.MemberProperty{JsiiProperty: "urlFilteringProfileInput", GoGetter: "UrlFilteringProfileInput"},
+			_jsii_.MemberProperty{JsiiProperty: "wildfireAnalysisProfile", GoGetter: "WildfireAnalysisProfile"},
+			_jsii_.MemberProperty{JsiiProperty: "wildfireAnalysisProfileInput", GoGetter: "WildfireAnalysisProfileInput"},
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {

@@ -63,6 +63,10 @@ func (g *jsiiProxy_GoogleCloudRunV2JobTemplateTemplateOutputReference) validateP
 	return nil
 }
 
+func (g *jsiiProxy_GoogleCloudRunV2JobTemplateTemplateOutputReference) validatePutWorkloadIdentityConfigParameters(value *GoogleCloudRunV2JobTemplateTemplateWorkloadIdentityConfig) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleCloudRunV2JobTemplateTemplateOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }

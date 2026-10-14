@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_connectivity_hub google_network_connectivity_hub}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_network_connectivity_hub google_network_connectivity_hub}.
 type GoogleNetworkConnectivityHub interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -41,6 +41,8 @@ type GoogleNetworkConnectivityHub interface {
 	EffectiveLabels() cdktn.StringMap
 	ExportPsc() interface{}
 	SetExportPsc(val interface{})
+	ExportPscConfig() GoogleNetworkConnectivityHubExportPscConfigOutputReference
+	ExportPscConfigInput() *GoogleNetworkConnectivityHubExportPscConfig
 	ExportPscInput() interface{}
 	// Experimental.
 	ForEach() cdktn.ITerraformIterator
@@ -176,6 +178,7 @@ type GoogleNetworkConnectivityHub interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	PutExportPscConfig(value *GoogleNetworkConnectivityHubExportPscConfig)
 	PutTimeouts(value *GoogleNetworkConnectivityHubTimeouts)
 	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
 	//
@@ -193,6 +196,7 @@ type GoogleNetworkConnectivityHub interface {
 	ResetDeletionPolicy()
 	ResetDescription()
 	ResetExportPsc()
+	ResetExportPscConfig()
 	ResetId()
 	ResetLabels()
 	ResetName()
@@ -345,6 +349,26 @@ func (j *jsiiProxy_GoogleNetworkConnectivityHub) ExportPsc() interface{} {
 	_jsii_.Get(
 		j,
 		"exportPsc",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleNetworkConnectivityHub) ExportPscConfig() GoogleNetworkConnectivityHubExportPscConfigOutputReference {
+	var returns GoogleNetworkConnectivityHubExportPscConfigOutputReference
+	_jsii_.Get(
+		j,
+		"exportPscConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleNetworkConnectivityHub) ExportPscConfigInput() *GoogleNetworkConnectivityHubExportPscConfig {
+	var returns *GoogleNetworkConnectivityHubExportPscConfig
+	_jsii_.Get(
+		j,
+		"exportPscConfigInput",
 		&returns,
 	)
 	return returns
@@ -661,7 +685,7 @@ func (j *jsiiProxy_GoogleNetworkConnectivityHub) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_connectivity_hub google_network_connectivity_hub} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_network_connectivity_hub google_network_connectivity_hub} Resource.
 func NewGoogleNetworkConnectivityHub(scope constructs.Construct, id *string, config *GoogleNetworkConnectivityHubConfig) GoogleNetworkConnectivityHub {
 	_init_.Initialize()
 
@@ -679,7 +703,7 @@ func NewGoogleNetworkConnectivityHub(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_network_connectivity_hub google_network_connectivity_hub} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_network_connectivity_hub google_network_connectivity_hub} Resource.
 func NewGoogleNetworkConnectivityHub_Override(g GoogleNetworkConnectivityHub, scope constructs.Construct, id *string, config *GoogleNetworkConnectivityHubConfig) {
 	_init_.Initialize()
 
@@ -1226,6 +1250,17 @@ func (g *jsiiProxy_GoogleNetworkConnectivityHub) OverrideLogicalId(newLogicalId 
 	)
 }
 
+func (g *jsiiProxy_GoogleNetworkConnectivityHub) PutExportPscConfig(value *GoogleNetworkConnectivityHubExportPscConfig) {
+	if err := g.validatePutExportPscConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putExportPscConfig",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleNetworkConnectivityHub) PutTimeouts(value *GoogleNetworkConnectivityHubTimeouts) {
 	if err := g.validatePutTimeoutsParameters(value); err != nil {
 		panic(err)
@@ -1268,6 +1303,14 @@ func (g *jsiiProxy_GoogleNetworkConnectivityHub) ResetExportPsc() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetExportPsc",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleNetworkConnectivityHub) ResetExportPscConfig() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetExportPscConfig",
 		nil, // no parameters
 	)
 }

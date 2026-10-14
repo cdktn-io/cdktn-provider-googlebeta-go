@@ -33,6 +33,9 @@ type GoogleNetworkSecurityAuthzPolicyNetworkRulesFromNotSourcesPrincipalsPrincip
 	ExactInput() *string
 	// Experimental.
 	Fqn() *string
+	IgnoreCase() interface{}
+	SetIgnoreCase(val interface{})
+	IgnoreCaseInput() interface{}
 	InternalValue() *GoogleNetworkSecurityAuthzPolicyNetworkRulesFromNotSourcesPrincipalsPrincipal
 	SetInternalValue(val *GoogleNetworkSecurityAuthzPolicyNetworkRulesFromNotSourcesPrincipalsPrincipal)
 	// Experimental.
@@ -68,6 +71,7 @@ type GoogleNetworkSecurityAuthzPolicyNetworkRulesFromNotSourcesPrincipalsPrincip
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetExact()
+	ResetIgnoreCase()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -138,6 +142,26 @@ func (j *jsiiProxy_GoogleNetworkSecurityAuthzPolicyNetworkRulesFromNotSourcesPri
 	_jsii_.Get(
 		j,
 		"fqn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleNetworkSecurityAuthzPolicyNetworkRulesFromNotSourcesPrincipalsPrincipalOutputReference) IgnoreCase() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"ignoreCase",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleNetworkSecurityAuthzPolicyNetworkRulesFromNotSourcesPrincipalsPrincipalOutputReference) IgnoreCaseInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"ignoreCaseInput",
 		&returns,
 	)
 	return returns
@@ -230,6 +254,17 @@ func (j *jsiiProxy_GoogleNetworkSecurityAuthzPolicyNetworkRulesFromNotSourcesPri
 	_jsii_.Set(
 		j,
 		"exact",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleNetworkSecurityAuthzPolicyNetworkRulesFromNotSourcesPrincipalsPrincipalOutputReference)SetIgnoreCase(val interface{}) {
+	if err := j.validateSetIgnoreCaseParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"ignoreCase",
 		val,
 	)
 }
@@ -457,6 +492,14 @@ func (g *jsiiProxy_GoogleNetworkSecurityAuthzPolicyNetworkRulesFromNotSourcesPri
 	_jsii_.InvokeVoid(
 		g,
 		"resetExact",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleNetworkSecurityAuthzPolicyNetworkRulesFromNotSourcesPrincipalsPrincipalOutputReference) ResetIgnoreCase() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetIgnoreCase",
 		nil, // no parameters
 	)
 }

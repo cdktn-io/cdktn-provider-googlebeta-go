@@ -997,6 +997,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "queueCount", GoGetter: "QueueCount"},
 			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
 			_jsii_.MemberProperty{JsiiProperty: "securityPolicy", GoGetter: "SecurityPolicy"},
+			_jsii_.MemberProperty{JsiiProperty: "serviceClassId", GoGetter: "ServiceClassId"},
 			_jsii_.MemberProperty{JsiiProperty: "stackType", GoGetter: "StackType"},
 			_jsii_.MemberProperty{JsiiProperty: "subnetwork", GoGetter: "Subnetwork"},
 			_jsii_.MemberProperty{JsiiProperty: "subnetworkProject", GoGetter: "SubnetworkProject"},

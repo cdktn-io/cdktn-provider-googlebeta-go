@@ -15,6 +15,7 @@ type DataGoogleSqlDatabaseInstancesInstancesOutputReference interface {
 	cdktn.ComplexObject
 	AvailableMaintenanceVersions() *[]*string
 	BackupdrBackup() *string
+	BlueGreenDeployment() DataGoogleSqlDatabaseInstancesInstancesBlueGreenDeploymentList
 	Clone() DataGoogleSqlDatabaseInstancesInstancesCloneList
 	// the index of the complex object in a list.
 	// Experimental.
@@ -133,6 +134,16 @@ func (j *jsiiProxy_DataGoogleSqlDatabaseInstancesInstancesOutputReference) Backu
 	_jsii_.Get(
 		j,
 		"backupdrBackup",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleSqlDatabaseInstancesInstancesOutputReference) BlueGreenDeployment() DataGoogleSqlDatabaseInstancesInstancesBlueGreenDeploymentList {
+	var returns DataGoogleSqlDatabaseInstancesInstancesBlueGreenDeploymentList
+	_jsii_.Get(
+		j,
+		"blueGreenDeployment",
 		&returns,
 	)
 	return returns

@@ -301,6 +301,14 @@ func (j *jsiiProxy_GoogleNetworkServicesAgentConnectivityTemplate) validateSetAc
 	return nil
 }
 
+func (j *jsiiProxy_GoogleNetworkServicesAgentConnectivityTemplate) validateSetAgentComputeParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_GoogleNetworkServicesAgentConnectivityTemplate) validateSetAgentConnectivityTemplateIdParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
@@ -400,6 +408,14 @@ func (j *jsiiProxy_GoogleNetworkServicesAgentConnectivityTemplate) validateSetCo
 }
 
 func (j *jsiiProxy_GoogleNetworkServicesAgentConnectivityTemplate) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_GoogleNetworkServicesAgentConnectivityTemplate) validateSetDeploymentModelParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}

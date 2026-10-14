@@ -46,6 +46,9 @@ type GoogleCesAgentModelSettingsOutputReference interface {
 	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
 	SetTerraformResource(val cdktn.IInterpolatingParent)
+	ThinkingLevel() *string
+	SetThinkingLevel(val *string)
+	ThinkingLevelInput() *string
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
@@ -72,6 +75,7 @@ type GoogleCesAgentModelSettingsOutputReference interface {
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetModel()
 	ResetTemperature()
+	ResetThinkingLevel()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -197,6 +201,26 @@ func (j *jsiiProxy_GoogleCesAgentModelSettingsOutputReference) TerraformResource
 	return returns
 }
 
+func (j *jsiiProxy_GoogleCesAgentModelSettingsOutputReference) ThinkingLevel() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"thinkingLevel",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleCesAgentModelSettingsOutputReference) ThinkingLevelInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"thinkingLevelInput",
+		&returns,
+	)
+	return returns
+}
+
 
 func NewGoogleCesAgentModelSettingsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) GoogleCesAgentModelSettingsOutputReference {
 	_init_.Initialize()
@@ -298,6 +322,17 @@ func (j *jsiiProxy_GoogleCesAgentModelSettingsOutputReference)SetTerraformResour
 	_jsii_.Set(
 		j,
 		"terraformResource",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleCesAgentModelSettingsOutputReference)SetThinkingLevel(val *string) {
+	if err := j.validateSetThinkingLevelParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"thinkingLevel",
 		val,
 	)
 }
@@ -500,6 +535,14 @@ func (g *jsiiProxy_GoogleCesAgentModelSettingsOutputReference) ResetTemperature(
 	_jsii_.InvokeVoid(
 		g,
 		"resetTemperature",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleCesAgentModelSettingsOutputReference) ResetThinkingLevel() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetThinkingLevel",
 		nil, // no parameters
 	)
 }

@@ -55,7 +55,15 @@ func (g *jsiiProxy_GoogleComputeUrlMapPathMatcherRouteRulesRouteActionOutputRefe
 	return nil
 }
 
+func (g *jsiiProxy_GoogleComputeUrlMapPathMatcherRouteRulesRouteActionOutputReference) validatePutDynamicCompressionPolicyParameters(value *GoogleComputeUrlMapPathMatcherRouteRulesRouteActionDynamicCompressionPolicy) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleComputeUrlMapPathMatcherRouteRulesRouteActionOutputReference) validatePutFaultInjectionPolicyParameters(value *GoogleComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicy) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleComputeUrlMapPathMatcherRouteRulesRouteActionOutputReference) validatePutImageOptimizationPolicyParameters(value *GoogleComputeUrlMapPathMatcherRouteRulesRouteActionImageOptimizationPolicy) error {
 	return nil
 }
 

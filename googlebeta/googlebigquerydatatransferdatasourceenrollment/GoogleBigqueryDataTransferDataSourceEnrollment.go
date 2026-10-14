@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigquery_data_transfer_data_source_enrollment google_bigquery_data_transfer_data_source_enrollment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_data_transfer_data_source_enrollment google_bigquery_data_transfer_data_source_enrollment}.
 type GoogleBigqueryDataTransferDataSourceEnrollment interface {
 	cdktn.TerraformResource
 	AuthorizationType() *string
@@ -652,7 +652,7 @@ func (j *jsiiProxy_GoogleBigqueryDataTransferDataSourceEnrollment) UpdateDeadlin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigquery_data_transfer_data_source_enrollment google_bigquery_data_transfer_data_source_enrollment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_data_transfer_data_source_enrollment google_bigquery_data_transfer_data_source_enrollment} Resource.
 func NewGoogleBigqueryDataTransferDataSourceEnrollment(scope constructs.Construct, id *string, config *GoogleBigqueryDataTransferDataSourceEnrollmentConfig) GoogleBigqueryDataTransferDataSourceEnrollment {
 	_init_.Initialize()
 
@@ -670,7 +670,7 @@ func NewGoogleBigqueryDataTransferDataSourceEnrollment(scope constructs.Construc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_bigquery_data_transfer_data_source_enrollment google_bigquery_data_transfer_data_source_enrollment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_bigquery_data_transfer_data_source_enrollment google_bigquery_data_transfer_data_source_enrollment} Resource.
 func NewGoogleBigqueryDataTransferDataSourceEnrollment_Override(g GoogleBigqueryDataTransferDataSourceEnrollment, scope constructs.Construct, id *string, config *GoogleBigqueryDataTransferDataSourceEnrollmentConfig) {
 	_init_.Initialize()
 

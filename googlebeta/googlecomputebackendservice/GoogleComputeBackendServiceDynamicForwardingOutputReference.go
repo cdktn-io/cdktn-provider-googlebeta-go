@@ -28,6 +28,8 @@ type GoogleComputeBackendServiceDynamicForwardingOutputReference interface {
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
+	ForwardProxy() GoogleComputeBackendServiceDynamicForwardingForwardProxyOutputReference
+	ForwardProxyInput() *GoogleComputeBackendServiceDynamicForwardingForwardProxy
 	// Experimental.
 	Fqn() *string
 	InternalValue() *GoogleComputeBackendServiceDynamicForwarding
@@ -66,7 +68,9 @@ type GoogleComputeBackendServiceDynamicForwardingOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutForwardProxy(value *GoogleComputeBackendServiceDynamicForwardingForwardProxy)
 	PutIpPortSelection(value *GoogleComputeBackendServiceDynamicForwardingIpPortSelection)
+	ResetForwardProxy()
 	ResetIpPortSelection()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -108,6 +112,26 @@ func (j *jsiiProxy_GoogleComputeBackendServiceDynamicForwardingOutputReference) 
 	_jsii_.Get(
 		j,
 		"creationStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeBackendServiceDynamicForwardingOutputReference) ForwardProxy() GoogleComputeBackendServiceDynamicForwardingForwardProxyOutputReference {
+	var returns GoogleComputeBackendServiceDynamicForwardingForwardProxyOutputReference
+	_jsii_.Get(
+		j,
+		"forwardProxy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleComputeBackendServiceDynamicForwardingOutputReference) ForwardProxyInput() *GoogleComputeBackendServiceDynamicForwardingForwardProxy {
+	var returns *GoogleComputeBackendServiceDynamicForwardingForwardProxy
+	_jsii_.Get(
+		j,
+		"forwardProxyInput",
 		&returns,
 	)
 	return returns
@@ -442,6 +466,17 @@ func (g *jsiiProxy_GoogleComputeBackendServiceDynamicForwardingOutputReference) 
 	return returns
 }
 
+func (g *jsiiProxy_GoogleComputeBackendServiceDynamicForwardingOutputReference) PutForwardProxy(value *GoogleComputeBackendServiceDynamicForwardingForwardProxy) {
+	if err := g.validatePutForwardProxyParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putForwardProxy",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleComputeBackendServiceDynamicForwardingOutputReference) PutIpPortSelection(value *GoogleComputeBackendServiceDynamicForwardingIpPortSelection) {
 	if err := g.validatePutIpPortSelectionParameters(value); err != nil {
 		panic(err)
@@ -450,6 +485,14 @@ func (g *jsiiProxy_GoogleComputeBackendServiceDynamicForwardingOutputReference) 
 		g,
 		"putIpPortSelection",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleComputeBackendServiceDynamicForwardingOutputReference) ResetForwardProxy() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetForwardProxy",
+		nil, // no parameters
 	)
 }
 

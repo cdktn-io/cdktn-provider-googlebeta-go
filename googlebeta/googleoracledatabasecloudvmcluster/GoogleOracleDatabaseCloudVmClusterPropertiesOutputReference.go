@@ -105,6 +105,12 @@ type GoogleOracleDatabaseCloudVmClusterPropertiesOutputReference interface {
 	SetTerraformResource(val cdktn.IInterpolatingParent)
 	TimeZone() GoogleOracleDatabaseCloudVmClusterPropertiesTimeZoneOutputReference
 	TimeZoneInput() *GoogleOracleDatabaseCloudVmClusterPropertiesTimeZone
+	VmBackupStorageType() *string
+	SetVmBackupStorageType(val *string)
+	VmBackupStorageTypeInput() *string
+	VmFileSystemStorageType() *string
+	SetVmFileSystemStorageType(val *string)
+	VmFileSystemStorageTypeInput() *string
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
@@ -146,6 +152,8 @@ type GoogleOracleDatabaseCloudVmClusterPropertiesOutputReference interface {
 	ResetSparseDiskgroupEnabled()
 	ResetSshPublicKeys()
 	ResetTimeZone()
+	ResetVmBackupStorageType()
+	ResetVmFileSystemStorageType()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -731,6 +739,46 @@ func (j *jsiiProxy_GoogleOracleDatabaseCloudVmClusterPropertiesOutputReference) 
 	return returns
 }
 
+func (j *jsiiProxy_GoogleOracleDatabaseCloudVmClusterPropertiesOutputReference) VmBackupStorageType() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"vmBackupStorageType",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleOracleDatabaseCloudVmClusterPropertiesOutputReference) VmBackupStorageTypeInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"vmBackupStorageTypeInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleOracleDatabaseCloudVmClusterPropertiesOutputReference) VmFileSystemStorageType() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"vmFileSystemStorageType",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleOracleDatabaseCloudVmClusterPropertiesOutputReference) VmFileSystemStorageTypeInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"vmFileSystemStorageTypeInput",
+		&returns,
+	)
+	return returns
+}
+
 
 func NewGoogleOracleDatabaseCloudVmClusterPropertiesOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) GoogleOracleDatabaseCloudVmClusterPropertiesOutputReference {
 	_init_.Initialize()
@@ -975,6 +1023,28 @@ func (j *jsiiProxy_GoogleOracleDatabaseCloudVmClusterPropertiesOutputReference)S
 	_jsii_.Set(
 		j,
 		"terraformResource",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleOracleDatabaseCloudVmClusterPropertiesOutputReference)SetVmBackupStorageType(val *string) {
+	if err := j.validateSetVmBackupStorageTypeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"vmBackupStorageType",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleOracleDatabaseCloudVmClusterPropertiesOutputReference)SetVmFileSystemStorageType(val *string) {
+	if err := j.validateSetVmFileSystemStorageTypeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"vmFileSystemStorageType",
 		val,
 	)
 }
@@ -1303,6 +1373,22 @@ func (g *jsiiProxy_GoogleOracleDatabaseCloudVmClusterPropertiesOutputReference) 
 	_jsii_.InvokeVoid(
 		g,
 		"resetTimeZone",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleOracleDatabaseCloudVmClusterPropertiesOutputReference) ResetVmBackupStorageType() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetVmBackupStorageType",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleOracleDatabaseCloudVmClusterPropertiesOutputReference) ResetVmFileSystemStorageType() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetVmFileSystemStorageType",
 		nil, // no parameters
 	)
 }

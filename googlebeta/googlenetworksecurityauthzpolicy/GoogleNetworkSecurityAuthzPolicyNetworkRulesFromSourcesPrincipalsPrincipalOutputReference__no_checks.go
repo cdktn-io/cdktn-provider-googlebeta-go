@@ -63,6 +63,10 @@ func (j *jsiiProxy_GoogleNetworkSecurityAuthzPolicyNetworkRulesFromSourcesPrinci
 	return nil
 }
 
+func (j *jsiiProxy_GoogleNetworkSecurityAuthzPolicyNetworkRulesFromSourcesPrincipalsPrincipalOutputReference) validateSetIgnoreCaseParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleNetworkSecurityAuthzPolicyNetworkRulesFromSourcesPrincipalsPrincipalOutputReference) validateSetInternalValueParameters(val *GoogleNetworkSecurityAuthzPolicyNetworkRulesFromSourcesPrincipalsPrincipal) error {
 	return nil
 }

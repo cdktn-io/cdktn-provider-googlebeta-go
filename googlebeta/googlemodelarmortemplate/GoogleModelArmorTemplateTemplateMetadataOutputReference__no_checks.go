@@ -103,6 +103,10 @@ func (j *jsiiProxy_GoogleModelArmorTemplateTemplateMetadataOutputReference) vali
 	return nil
 }
 
+func (j *jsiiProxy_GoogleModelArmorTemplateTemplateMetadataOutputReference) validateSetModalitiesParameters(val *[]*string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleModelArmorTemplateTemplateMetadataOutputReference) validateSetTerraformAttributeParameters(val *string) error {
 	return nil
 }

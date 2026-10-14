@@ -55,6 +55,10 @@ func (g *jsiiProxy_GoogleNetworkSecurityAuthzPolicyNetworkRulesFromSourcesOutput
 	return nil
 }
 
+func (g *jsiiProxy_GoogleNetworkSecurityAuthzPolicyNetworkRulesFromSourcesOutputReference) validatePutResourcesParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleNetworkSecurityAuthzPolicyNetworkRulesFromSourcesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }

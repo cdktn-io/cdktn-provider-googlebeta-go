@@ -12,9 +12,11 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_generator google_dialogflow_generator}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_generator google_dialogflow_generator}.
 type GoogleDialogflowGenerator interface {
 	cdktn.TerraformResource
+	AgentCoachingContext() GoogleDialogflowGeneratorAgentCoachingContextOutputReference
+	AgentCoachingContextInput() *GoogleDialogflowGeneratorAgentCoachingContext
 	// Experimental.
 	CdktfStack() cdktn.TerraformStack
 	// Experimental.
@@ -43,6 +45,8 @@ type GoogleDialogflowGenerator interface {
 	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
+	FreeFormContext() GoogleDialogflowGeneratorFreeFormContextOutputReference
+	FreeFormContextInput() *GoogleDialogflowGeneratorFreeFormContext
 	// Experimental.
 	FriendlyUniqueId() *string
 	GeneratorId() *string
@@ -89,6 +93,9 @@ type GoogleDialogflowGenerator interface {
 	TerraformResourceType() *string
 	Timeouts() GoogleDialogflowGeneratorTimeoutsOutputReference
 	TimeoutsInput() interface{}
+	Tools() *[]*string
+	SetTools(val *[]*string)
+	ToolsInput() *[]*string
 	TriggerEvent() *string
 	SetTriggerEvent(val *string)
 	TriggerEventInput() *string
@@ -171,6 +178,8 @@ type GoogleDialogflowGenerator interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	PutAgentCoachingContext(value *GoogleDialogflowGeneratorAgentCoachingContext)
+	PutFreeFormContext(value *GoogleDialogflowGeneratorFreeFormContext)
 	PutInferenceParameter(value *GoogleDialogflowGeneratorInferenceParameter)
 	PutSummarizationContext(value *GoogleDialogflowGeneratorSummarizationContext)
 	PutTimeouts(value *GoogleDialogflowGeneratorTimeouts)
@@ -187,8 +196,10 @@ type GoogleDialogflowGenerator interface {
 	// that needs it.
 	// Experimental.
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
+	ResetAgentCoachingContext()
 	ResetDeletionPolicy()
 	ResetDescription()
+	ResetFreeFormContext()
 	ResetGeneratorId()
 	ResetId()
 	ResetInferenceParameter()
@@ -197,7 +208,9 @@ type GoogleDialogflowGenerator interface {
 	ResetOverrideLogicalId()
 	ResetProject()
 	ResetPublishedModel()
+	ResetSummarizationContext()
 	ResetTimeouts()
+	ResetTools()
 	ResetTriggerEvent()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
@@ -224,6 +237,26 @@ type GoogleDialogflowGenerator interface {
 // The jsii proxy struct for GoogleDialogflowGenerator
 type jsiiProxy_GoogleDialogflowGenerator struct {
 	internal.Type__cdktnTerraformResource
+}
+
+func (j *jsiiProxy_GoogleDialogflowGenerator) AgentCoachingContext() GoogleDialogflowGeneratorAgentCoachingContextOutputReference {
+	var returns GoogleDialogflowGeneratorAgentCoachingContextOutputReference
+	_jsii_.Get(
+		j,
+		"agentCoachingContext",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDialogflowGenerator) AgentCoachingContextInput() *GoogleDialogflowGeneratorAgentCoachingContext {
+	var returns *GoogleDialogflowGeneratorAgentCoachingContext
+	_jsii_.Get(
+		j,
+		"agentCoachingContextInput",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_GoogleDialogflowGenerator) CdktfStack() cdktn.TerraformStack {
@@ -331,6 +364,26 @@ func (j *jsiiProxy_GoogleDialogflowGenerator) Fqn() *string {
 	_jsii_.Get(
 		j,
 		"fqn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDialogflowGenerator) FreeFormContext() GoogleDialogflowGeneratorFreeFormContextOutputReference {
+	var returns GoogleDialogflowGeneratorFreeFormContextOutputReference
+	_jsii_.Get(
+		j,
+		"freeFormContext",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDialogflowGenerator) FreeFormContextInput() *GoogleDialogflowGeneratorFreeFormContext {
+	var returns *GoogleDialogflowGeneratorFreeFormContext
+	_jsii_.Get(
+		j,
+		"freeFormContextInput",
 		&returns,
 	)
 	return returns
@@ -596,6 +649,26 @@ func (j *jsiiProxy_GoogleDialogflowGenerator) TimeoutsInput() interface{} {
 	return returns
 }
 
+func (j *jsiiProxy_GoogleDialogflowGenerator) Tools() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"tools",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleDialogflowGenerator) ToolsInput() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"toolsInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleDialogflowGenerator) TriggerEvent() *string {
 	var returns *string
 	_jsii_.Get(
@@ -617,7 +690,7 @@ func (j *jsiiProxy_GoogleDialogflowGenerator) TriggerEventInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_generator google_dialogflow_generator} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_generator google_dialogflow_generator} Resource.
 func NewGoogleDialogflowGenerator(scope constructs.Construct, id *string, config *GoogleDialogflowGeneratorConfig) GoogleDialogflowGenerator {
 	_init_.Initialize()
 
@@ -635,7 +708,7 @@ func NewGoogleDialogflowGenerator(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_dialogflow_generator google_dialogflow_generator} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_dialogflow_generator google_dialogflow_generator} Resource.
 func NewGoogleDialogflowGenerator_Override(g GoogleDialogflowGenerator, scope constructs.Construct, id *string, config *GoogleDialogflowGeneratorConfig) {
 	_init_.Initialize()
 
@@ -787,6 +860,17 @@ func (j *jsiiProxy_GoogleDialogflowGenerator)SetPublishedModel(val *string) {
 	_jsii_.Set(
 		j,
 		"publishedModel",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleDialogflowGenerator)SetTools(val *[]*string) {
+	if err := j.validateSetToolsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"tools",
 		val,
 	)
 }
@@ -1171,6 +1255,28 @@ func (g *jsiiProxy_GoogleDialogflowGenerator) OverrideLogicalId(newLogicalId *st
 	)
 }
 
+func (g *jsiiProxy_GoogleDialogflowGenerator) PutAgentCoachingContext(value *GoogleDialogflowGeneratorAgentCoachingContext) {
+	if err := g.validatePutAgentCoachingContextParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putAgentCoachingContext",
+		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GoogleDialogflowGenerator) PutFreeFormContext(value *GoogleDialogflowGeneratorFreeFormContext) {
+	if err := g.validatePutFreeFormContextParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putFreeFormContext",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleDialogflowGenerator) PutInferenceParameter(value *GoogleDialogflowGeneratorInferenceParameter) {
 	if err := g.validatePutInferenceParameterParameters(value); err != nil {
 		panic(err)
@@ -1215,6 +1321,14 @@ func (g *jsiiProxy_GoogleDialogflowGenerator) RegisterProviderFeatureUsage(featu
 	)
 }
 
+func (g *jsiiProxy_GoogleDialogflowGenerator) ResetAgentCoachingContext() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetAgentCoachingContext",
+		nil, // no parameters
+	)
+}
+
 func (g *jsiiProxy_GoogleDialogflowGenerator) ResetDeletionPolicy() {
 	_jsii_.InvokeVoid(
 		g,
@@ -1227,6 +1341,14 @@ func (g *jsiiProxy_GoogleDialogflowGenerator) ResetDescription() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetDescription",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleDialogflowGenerator) ResetFreeFormContext() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetFreeFormContext",
 		nil, // no parameters
 	)
 }
@@ -1279,10 +1401,26 @@ func (g *jsiiProxy_GoogleDialogflowGenerator) ResetPublishedModel() {
 	)
 }
 
+func (g *jsiiProxy_GoogleDialogflowGenerator) ResetSummarizationContext() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetSummarizationContext",
+		nil, // no parameters
+	)
+}
+
 func (g *jsiiProxy_GoogleDialogflowGenerator) ResetTimeouts() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetTimeouts",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleDialogflowGenerator) ResetTools() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetTools",
 		nil, // no parameters
 	)
 }

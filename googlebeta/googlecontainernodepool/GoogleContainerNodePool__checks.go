@@ -226,6 +226,17 @@ func (g *jsiiProxy_GoogleContainerNodePool) validatePutAutoscalingParameters(val
 	return nil
 }
 
+func (g *jsiiProxy_GoogleContainerNodePool) validatePutBestEffortProvisioningParameters(value *GoogleContainerNodePoolBestEffortProvisioning) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
+	}
+
+	return nil
+}
+
 func (g *jsiiProxy_GoogleContainerNodePool) validatePutMaintenancePolicyParameters(value interface{}) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")

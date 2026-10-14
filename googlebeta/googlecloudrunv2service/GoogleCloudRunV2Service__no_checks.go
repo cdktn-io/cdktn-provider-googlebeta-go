@@ -167,6 +167,10 @@ func (j *jsiiProxy_GoogleCloudRunV2Service) validateSetDescriptionParameters(val
 	return nil
 }
 
+func (j *jsiiProxy_GoogleCloudRunV2Service) validateSetFunctionalTypeParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleCloudRunV2Service) validateSetIapEnabledParameters(val interface{}) error {
 	return nil
 }

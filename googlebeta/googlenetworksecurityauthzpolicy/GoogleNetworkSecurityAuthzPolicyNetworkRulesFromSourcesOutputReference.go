@@ -36,6 +36,8 @@ type GoogleNetworkSecurityAuthzPolicyNetworkRulesFromSourcesOutputReference inte
 	IpBlocksInput() interface{}
 	Principals() GoogleNetworkSecurityAuthzPolicyNetworkRulesFromSourcesPrincipalsList
 	PrincipalsInput() interface{}
+	Resources() GoogleNetworkSecurityAuthzPolicyNetworkRulesFromSourcesResourcesList
+	ResourcesInput() interface{}
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -70,8 +72,10 @@ type GoogleNetworkSecurityAuthzPolicyNetworkRulesFromSourcesOutputReference inte
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutIpBlocks(value interface{})
 	PutPrincipals(value interface{})
+	PutResources(value interface{})
 	ResetIpBlocks()
 	ResetPrincipals()
+	ResetResources()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -172,6 +176,26 @@ func (j *jsiiProxy_GoogleNetworkSecurityAuthzPolicyNetworkRulesFromSourcesOutput
 	_jsii_.Get(
 		j,
 		"principalsInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleNetworkSecurityAuthzPolicyNetworkRulesFromSourcesOutputReference) Resources() GoogleNetworkSecurityAuthzPolicyNetworkRulesFromSourcesResourcesList {
+	var returns GoogleNetworkSecurityAuthzPolicyNetworkRulesFromSourcesResourcesList
+	_jsii_.Get(
+		j,
+		"resources",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleNetworkSecurityAuthzPolicyNetworkRulesFromSourcesOutputReference) ResourcesInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"resourcesInput",
 		&returns,
 	)
 	return returns
@@ -488,6 +512,17 @@ func (g *jsiiProxy_GoogleNetworkSecurityAuthzPolicyNetworkRulesFromSourcesOutput
 	)
 }
 
+func (g *jsiiProxy_GoogleNetworkSecurityAuthzPolicyNetworkRulesFromSourcesOutputReference) PutResources(value interface{}) {
+	if err := g.validatePutResourcesParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putResources",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleNetworkSecurityAuthzPolicyNetworkRulesFromSourcesOutputReference) ResetIpBlocks() {
 	_jsii_.InvokeVoid(
 		g,
@@ -500,6 +535,14 @@ func (g *jsiiProxy_GoogleNetworkSecurityAuthzPolicyNetworkRulesFromSourcesOutput
 	_jsii_.InvokeVoid(
 		g,
 		"resetPrincipals",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleNetworkSecurityAuthzPolicyNetworkRulesFromSourcesOutputReference) ResetResources() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetResources",
 		nil, // no parameters
 	)
 }

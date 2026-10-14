@@ -58,6 +58,9 @@ type GoogleModelArmorTemplateTemplateMetadataOutputReference interface {
 	LogTemplateOperations() interface{}
 	SetLogTemplateOperations(val interface{})
 	LogTemplateOperationsInput() interface{}
+	Modalities() *[]*string
+	SetModalities(val *[]*string)
+	ModalitiesInput() *[]*string
 	MultiLanguageDetection() GoogleModelArmorTemplateTemplateMetadataMultiLanguageDetectionOutputReference
 	MultiLanguageDetectionInput() *GoogleModelArmorTemplateTemplateMetadataMultiLanguageDetection
 	// Experimental.
@@ -103,6 +106,7 @@ type GoogleModelArmorTemplateTemplateMetadataOutputReference interface {
 	ResetIgnorePartialInvocationFailures()
 	ResetLogSanitizeOperations()
 	ResetLogTemplateOperations()
+	ResetModalities()
 	ResetMultiLanguageDetection()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -349,6 +353,26 @@ func (j *jsiiProxy_GoogleModelArmorTemplateTemplateMetadataOutputReference) LogT
 	return returns
 }
 
+func (j *jsiiProxy_GoogleModelArmorTemplateTemplateMetadataOutputReference) Modalities() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"modalities",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleModelArmorTemplateTemplateMetadataOutputReference) ModalitiesInput() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"modalitiesInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleModelArmorTemplateTemplateMetadataOutputReference) MultiLanguageDetection() GoogleModelArmorTemplateTemplateMetadataMultiLanguageDetectionOutputReference {
 	var returns GoogleModelArmorTemplateTemplateMetadataMultiLanguageDetectionOutputReference
 	_jsii_.Get(
@@ -534,6 +558,17 @@ func (j *jsiiProxy_GoogleModelArmorTemplateTemplateMetadataOutputReference)SetLo
 	_jsii_.Set(
 		j,
 		"logTemplateOperations",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleModelArmorTemplateTemplateMetadataOutputReference)SetModalities(val *[]*string) {
+	if err := j.validateSetModalitiesParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"modalities",
 		val,
 	)
 }
@@ -836,6 +871,14 @@ func (g *jsiiProxy_GoogleModelArmorTemplateTemplateMetadataOutputReference) Rese
 	_jsii_.InvokeVoid(
 		g,
 		"resetLogTemplateOperations",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleModelArmorTemplateTemplateMetadataOutputReference) ResetModalities() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetModalities",
 		nil, // no parameters
 	)
 }

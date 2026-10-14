@@ -163,6 +163,10 @@ func (j *jsiiProxy_GoogleNetworkSecuritySecurityProfileGroup) validateSetUrlFilt
 	return nil
 }
 
+func (j *jsiiProxy_GoogleNetworkSecuritySecurityProfileGroup) validateSetWildfireAnalysisProfileParameters(val *string) error {
+	return nil
+}
+
 func validateNewGoogleNetworkSecuritySecurityProfileGroupParameters(scope constructs.Construct, id *string, config *GoogleNetworkSecuritySecurityProfileGroupConfig) error {
 	return nil
 }

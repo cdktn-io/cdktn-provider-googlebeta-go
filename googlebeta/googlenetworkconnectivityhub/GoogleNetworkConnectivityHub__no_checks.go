@@ -79,6 +79,10 @@ func (g *jsiiProxy_GoogleNetworkConnectivityHub) validateOverrideLogicalIdParame
 	return nil
 }
 
+func (g *jsiiProxy_GoogleNetworkConnectivityHub) validatePutExportPscConfigParameters(value *GoogleNetworkConnectivityHubExportPscConfig) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleNetworkConnectivityHub) validatePutTimeoutsParameters(value *GoogleNetworkConnectivityHubTimeouts) error {
 	return nil
 }

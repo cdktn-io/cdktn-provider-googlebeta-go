@@ -73,6 +73,8 @@ type DataGoogleOracleDatabaseCloudVmClusterPropertiesOutputReference interface {
 	// Experimental.
 	SetTerraformResource(val cdktn.IInterpolatingParent)
 	TimeZone() DataGoogleOracleDatabaseCloudVmClusterPropertiesTimeZoneList
+	VmBackupStorageType() *string
+	VmFileSystemStorageType() *string
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
@@ -507,6 +509,26 @@ func (j *jsiiProxy_DataGoogleOracleDatabaseCloudVmClusterPropertiesOutputReferen
 	_jsii_.Get(
 		j,
 		"timeZone",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleOracleDatabaseCloudVmClusterPropertiesOutputReference) VmBackupStorageType() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"vmBackupStorageType",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleOracleDatabaseCloudVmClusterPropertiesOutputReference) VmFileSystemStorageType() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"vmFileSystemStorageType",
 		&returns,
 	)
 	return returns

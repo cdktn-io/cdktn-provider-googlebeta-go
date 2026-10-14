@@ -12,13 +12,15 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_sql_database_instance google_sql_database_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_sql_database_instance google_sql_database_instance}.
 type GoogleSqlDatabaseInstance interface {
 	cdktn.TerraformResource
 	AvailableMaintenanceVersions() *[]*string
 	BackupdrBackup() *string
 	SetBackupdrBackup(val *string)
 	BackupdrBackupInput() *string
+	BlueGreenDeployment() GoogleSqlDatabaseInstanceBlueGreenDeploymentOutputReference
+	BlueGreenDeploymentInput() *GoogleSqlDatabaseInstanceBlueGreenDeployment
 	// Experimental.
 	CdktfStack() cdktn.TerraformStack
 	Clone() GoogleSqlDatabaseInstanceCloneOutputReference
@@ -234,6 +236,7 @@ type GoogleSqlDatabaseInstance interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	PutBlueGreenDeployment(value *GoogleSqlDatabaseInstanceBlueGreenDeployment)
 	PutClone(value *GoogleSqlDatabaseInstanceClone)
 	PutPointInTimeRestoreContext(value *GoogleSqlDatabaseInstancePointInTimeRestoreContext)
 	PutReplicaConfiguration(value *GoogleSqlDatabaseInstanceReplicaConfiguration)
@@ -255,6 +258,7 @@ type GoogleSqlDatabaseInstance interface {
 	// Experimental.
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
 	ResetBackupdrBackup()
+	ResetBlueGreenDeployment()
 	ResetClone()
 	ResetDeletionPolicy()
 	ResetDeletionProtection()
@@ -337,6 +341,26 @@ func (j *jsiiProxy_GoogleSqlDatabaseInstance) BackupdrBackupInput() *string {
 	_jsii_.Get(
 		j,
 		"backupdrBackupInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleSqlDatabaseInstance) BlueGreenDeployment() GoogleSqlDatabaseInstanceBlueGreenDeploymentOutputReference {
+	var returns GoogleSqlDatabaseInstanceBlueGreenDeploymentOutputReference
+	_jsii_.Get(
+		j,
+		"blueGreenDeployment",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleSqlDatabaseInstance) BlueGreenDeploymentInput() *GoogleSqlDatabaseInstanceBlueGreenDeployment {
+	var returns *GoogleSqlDatabaseInstanceBlueGreenDeployment
+	_jsii_.Get(
+		j,
+		"blueGreenDeploymentInput",
 		&returns,
 	)
 	return returns
@@ -1173,7 +1197,7 @@ func (j *jsiiProxy_GoogleSqlDatabaseInstance) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_sql_database_instance google_sql_database_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_sql_database_instance google_sql_database_instance} Resource.
 func NewGoogleSqlDatabaseInstance(scope constructs.Construct, id *string, config *GoogleSqlDatabaseInstanceConfig) GoogleSqlDatabaseInstance {
 	_init_.Initialize()
 
@@ -1191,7 +1215,7 @@ func NewGoogleSqlDatabaseInstance(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_sql_database_instance google_sql_database_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_sql_database_instance google_sql_database_instance} Resource.
 func NewGoogleSqlDatabaseInstance_Override(g GoogleSqlDatabaseInstance, scope constructs.Construct, id *string, config *GoogleSqlDatabaseInstanceConfig) {
 	_init_.Initialize()
 
@@ -1881,6 +1905,17 @@ func (g *jsiiProxy_GoogleSqlDatabaseInstance) OverrideLogicalId(newLogicalId *st
 	)
 }
 
+func (g *jsiiProxy_GoogleSqlDatabaseInstance) PutBlueGreenDeployment(value *GoogleSqlDatabaseInstanceBlueGreenDeployment) {
+	if err := g.validatePutBlueGreenDeploymentParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putBlueGreenDeployment",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleSqlDatabaseInstance) PutClone(value *GoogleSqlDatabaseInstanceClone) {
 	if err := g.validatePutCloneParameters(value); err != nil {
 		panic(err)
@@ -1973,6 +2008,14 @@ func (g *jsiiProxy_GoogleSqlDatabaseInstance) ResetBackupdrBackup() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetBackupdrBackup",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleSqlDatabaseInstance) ResetBlueGreenDeployment() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetBlueGreenDeployment",
 		nil, // no parameters
 	)
 }

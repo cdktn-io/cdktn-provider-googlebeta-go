@@ -79,6 +79,14 @@ func (g *jsiiProxy_GoogleDialogflowGenerator) validateOverrideLogicalIdParameter
 	return nil
 }
 
+func (g *jsiiProxy_GoogleDialogflowGenerator) validatePutAgentCoachingContextParameters(value *GoogleDialogflowGeneratorAgentCoachingContext) error {
+	return nil
+}
+
+func (g *jsiiProxy_GoogleDialogflowGenerator) validatePutFreeFormContextParameters(value *GoogleDialogflowGeneratorFreeFormContext) error {
+	return nil
+}
+
 func (g *jsiiProxy_GoogleDialogflowGenerator) validatePutInferenceParameterParameters(value *GoogleDialogflowGeneratorInferenceParameter) error {
 	return nil
 }
@@ -152,6 +160,10 @@ func (j *jsiiProxy_GoogleDialogflowGenerator) validateSetProvisionersParameters(
 }
 
 func (j *jsiiProxy_GoogleDialogflowGenerator) validateSetPublishedModelParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_GoogleDialogflowGenerator) validateSetToolsParameters(val *[]*string) error {
 	return nil
 }
 

@@ -12,11 +12,13 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_container_node_pool google_container_node_pool}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_container_node_pool google_container_node_pool}.
 type GoogleContainerNodePool interface {
 	cdktn.TerraformResource
 	Autoscaling() GoogleContainerNodePoolAutoscalingOutputReference
 	AutoscalingInput() *GoogleContainerNodePoolAutoscaling
+	BestEffortProvisioning() GoogleContainerNodePoolBestEffortProvisioningOutputReference
+	BestEffortProvisioningInput() *GoogleContainerNodePoolBestEffortProvisioning
 	// Experimental.
 	CdktfStack() cdktn.TerraformStack
 	Cluster() *string
@@ -203,6 +205,7 @@ type GoogleContainerNodePool interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutAutoscaling(value *GoogleContainerNodePoolAutoscaling)
+	PutBestEffortProvisioning(value *GoogleContainerNodePoolBestEffortProvisioning)
 	PutMaintenancePolicy(value interface{})
 	PutManagement(value *GoogleContainerNodePoolManagement)
 	PutNetworkConfig(value *GoogleContainerNodePoolNetworkConfig)
@@ -226,6 +229,7 @@ type GoogleContainerNodePool interface {
 	// Experimental.
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
 	ResetAutoscaling()
+	ResetBestEffortProvisioning()
 	ResetDeletionPolicy()
 	ResetId()
 	ResetIgnoreNodeCountChanges()
@@ -292,6 +296,26 @@ func (j *jsiiProxy_GoogleContainerNodePool) AutoscalingInput() *GoogleContainerN
 	_jsii_.Get(
 		j,
 		"autoscalingInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleContainerNodePool) BestEffortProvisioning() GoogleContainerNodePoolBestEffortProvisioningOutputReference {
+	var returns GoogleContainerNodePoolBestEffortProvisioningOutputReference
+	_jsii_.Get(
+		j,
+		"bestEffortProvisioning",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleContainerNodePool) BestEffortProvisioningInput() *GoogleContainerNodePoolBestEffortProvisioning {
+	var returns *GoogleContainerNodePoolBestEffortProvisioning
+	_jsii_.Get(
+		j,
+		"bestEffortProvisioningInput",
 		&returns,
 	)
 	return returns
@@ -928,7 +952,7 @@ func (j *jsiiProxy_GoogleContainerNodePool) VersionInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_container_node_pool google_container_node_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_container_node_pool google_container_node_pool} Resource.
 func NewGoogleContainerNodePool(scope constructs.Construct, id *string, config *GoogleContainerNodePoolConfig) GoogleContainerNodePool {
 	_init_.Initialize()
 
@@ -946,7 +970,7 @@ func NewGoogleContainerNodePool(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_container_node_pool google_container_node_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_container_node_pool google_container_node_pool} Resource.
 func NewGoogleContainerNodePool_Override(g GoogleContainerNodePool, scope constructs.Construct, id *string, config *GoogleContainerNodePoolConfig) {
 	_init_.Initialize()
 
@@ -1548,6 +1572,17 @@ func (g *jsiiProxy_GoogleContainerNodePool) PutAutoscaling(value *GoogleContaine
 	)
 }
 
+func (g *jsiiProxy_GoogleContainerNodePool) PutBestEffortProvisioning(value *GoogleContainerNodePoolBestEffortProvisioning) {
+	if err := g.validatePutBestEffortProvisioningParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putBestEffortProvisioning",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GoogleContainerNodePool) PutMaintenancePolicy(value interface{}) {
 	if err := g.validatePutMaintenancePolicyParameters(value); err != nil {
 		panic(err)
@@ -1662,6 +1697,14 @@ func (g *jsiiProxy_GoogleContainerNodePool) ResetAutoscaling() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetAutoscaling",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleContainerNodePool) ResetBestEffortProvisioning() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetBestEffortProvisioning",
 		nil, // no parameters
 	)
 }

@@ -14,6 +14,7 @@ import (
 type DataGoogleContainerClusterNodePoolOutputReference interface {
 	cdktn.ComplexObject
 	Autoscaling() DataGoogleContainerClusterNodePoolAutoscalingList
+	BestEffortProvisioning() DataGoogleContainerClusterNodePoolBestEffortProvisioningList
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -103,6 +104,16 @@ func (j *jsiiProxy_DataGoogleContainerClusterNodePoolOutputReference) Autoscalin
 	_jsii_.Get(
 		j,
 		"autoscaling",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleContainerClusterNodePoolOutputReference) BestEffortProvisioning() DataGoogleContainerClusterNodePoolBestEffortProvisioningList {
+	var returns DataGoogleContainerClusterNodePoolBestEffortProvisioningList
+	_jsii_.Get(
+		j,
+		"bestEffortProvisioning",
 		&returns,
 	)
 	return returns

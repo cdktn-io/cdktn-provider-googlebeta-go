@@ -139,6 +139,10 @@ func (j *jsiiProxy_GoogleCloudRunV2Job) validateSetDeletionProtectionParameters(
 	return nil
 }
 
+func (j *jsiiProxy_GoogleCloudRunV2Job) validateSetFunctionalTypeParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GoogleCloudRunV2Job) validateSetIdParameters(val *string) error {
 	return nil
 }

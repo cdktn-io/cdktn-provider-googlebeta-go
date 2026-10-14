@@ -5,11 +5,11 @@ package googlegeminigdaobservabilitysetting
 
 
 type GoogleGeminiGdaObservabilitySettingTimeouts struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_gemini_gda_observability_setting#create GoogleGeminiGdaObservabilitySetting#create}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_gda_observability_setting#create GoogleGeminiGdaObservabilitySetting#create}.
 	Create *string `field:"optional" json:"create" yaml:"create"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_gemini_gda_observability_setting#delete GoogleGeminiGdaObservabilitySetting#delete}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_gda_observability_setting#delete GoogleGeminiGdaObservabilitySetting#delete}.
 	Delete *string `field:"optional" json:"delete" yaml:"delete"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.6.0/docs/resources/google_gemini_gda_observability_setting#update GoogleGeminiGdaObservabilitySetting#update}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/8.7.0/docs/resources/google_gemini_gda_observability_setting#update GoogleGeminiGdaObservabilitySetting#update}.
 	Update *string `field:"optional" json:"update" yaml:"update"`
 }
 
